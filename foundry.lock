@@ -1,0 +1,3 @@
+# Foundry ref this academy is built against. CI checks out exactly this.
+# Upgrades are PRs (the nightly sweep opens them); never float on main.
+ref=main

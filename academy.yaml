@@ -1,0 +1,28 @@
+# Academy catalog — Hormonaly (Aesthetic & Regenerative Endocrinology)
+academy: hormonaly
+brand:
+  voices:                       # INTAKE: real-faculty voice not yet on file; text-only Guía until release arrives
+    es-MX: { voice_id: "", name: "" }
+    en: { voice_id: "", name: "" }
+  name: Hormonaly Academy
+  shortName: Hormonaly
+  logo: ./assets/hormonaly-logo.png     # INTAKE: logo asset pending from customer
+  accent: "#0a7a72"                     # placeholder until brand kit arrives
+  tagline: { es: "", en: "The skin–endocrine system, evidence-graded." }
+  supportEmail: support@hormonaly.ai    # placeholder — confirm with customer
+  issuer: Hormonaly Academy
+catalog:
+  - course: packages/aesthetic-regenerative-endocrinology.json   # package not yet authored — Stage 20+
+    status: draft
+    series: regenerative-endocrinology
+    order: 1
+    entitlement: { type: open }         # INTAKE: confirm open vs invite vs paid cohorts
+    certificate: { access: included }
+modules: { fieldbook: true, promptLab: false, webinars: false, blog: false, peers: false, achievements: false }
+accreditation:
+  gcls: false                   # INTAKE: licensed add-on decision pending
+notifications:
+  newCourse: [push, email]
+auth:
+  methods: [password, email-link]
+admins: []                          # INTAKE: course-admin emails pending

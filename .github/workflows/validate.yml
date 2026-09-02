@@ -1,0 +1,28 @@
+name: validate
+# Factory gates as CI. Needs secret FOUNDRY_TOKEN (fine-grained PAT, read: DrVibeAI/perceptor-foundry).
+on:
+  pull_request:
+  push:
+    branches: [main, factory/**]
+jobs:
+  package-gates:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - id: lock
+        run: echo "ref=$(grep '^ref=' foundry.lock | cut -d= -f2)" >> "$GITHUB_OUTPUT"
+      - uses: actions/checkout@v4
+        with:
+          repository: DrVibeAI/perceptor-foundry
+          ref: ${{ steps.lock.outputs.ref }}
+          path: .foundry
+          token: ${{ secrets.FOUNDRY_TOKEN }}
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: cd .foundry && npm ci
+      - name: Schema validation
+        run: shopt -s nullglob; for f in packages/*.json; do node .foundry/scripts/validate.mjs "$f"; done
+      - name: Copy-voice tic audit
+        run: shopt -s nullglob; for f in packages/*.json; do node .foundry/tools/qa/narration-tic-audit.mjs "$f"; done
+      - name: Catalog gate (academy.yaml — access rule on every course; open only when GCLS-accredited)
+        run: node .foundry/tools/academy/validate-academy.mjs .

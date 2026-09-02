@@ -1,0 +1,7 @@
+# Gates as reviews. Replace team handles with the named owners from INTAKE.md.
+# A merge to main IS the approval; CI records reviews into the package approvals[].
+packages/**            @DrVibeAI/medical-review @DrVibeAI/regulatory-review
+assets/**              @DrVibeAI/brand-owner
+packages/**/locales/** @DrVibeAI/localization-review
+.github/**             @DrVibeAI/perceptor-maintainers
+foundry.lock           @DrVibeAI/perceptor-maintainers

@@ -1,0 +1,5 @@
+node_modules/
+.foundry/
+.daedalus-scratch/
+*.log
+intake/inbox/
