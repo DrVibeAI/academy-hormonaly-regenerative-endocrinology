@@ -1,0 +1,2005 @@
+{
+  "packageSchemaVersion": "0.1.0",
+  "id": "hormonaly.hormones-peptides-skin",
+  "slug": "hormones-peptides-skin",
+  "kind": "course",
+  "version": "0.1.0-curriculum",
+  "title": {
+    "en": "Hormones and Peptides for Skin"
+  },
+  "summary": {
+    "en": "Designed toward future CME accreditation, this post-graduate clinical course prepares aesthetic and dermatologic clinicians to appraise the endocrine physiology of skin, differentiate pathognomonic endocrine cutaneous signs from isolated cosmetic presentations, evaluate the GRADE evidence and pharmacodynamics of cutaneous peptides and incretin therapies, and navigate regulatory and liability boundaries without promoting unapproved dosing protocols or commercial bias."
+  },
+  "academy": {
+    "id": "hormonaly",
+    "name": "Hormonaly Academy",
+    "deploymentProfile": "branded",
+    "brand": {
+      "displayName": "Hormonaly Academy",
+      "accentColor": "#0a7a72",
+      "brandOwner": "Hormonaly.ai"
+    },
+    "client": {
+      "organization": "Hormonaly.ai / Hormonaly Press",
+      "productContext": "Skin edition of the Hormonaly peptide master course; commissioned by SEASON Aesthetic Conferences (Perceptors.ai partnership) and built without waiting for their reviewer."
+    }
+  },
+  "baseLocale": "en",
+  "locales": [
+    {
+      "locale": "en",
+      "name": "English",
+      "direction": "ltr",
+      "status": "base",
+      "reviewOwner": "Omar Saleem (reviewer of record) · SEASON reviewer pending",
+      "unitsPolicy": "US and UK conventions; regulatory examples labelled by jurisdiction"
+    }
+  ],
+  "audience": {
+    "personas": [
+      "aesthetic physician or dermatologist evaluating hormone and peptide claims for skin",
+      "plastic surgeon or aesthetic clinician whose patients ask about peptides",
+      "aesthetic nurse practitioner or physician associate (inclusion pending the accreditation-audience decision)"
+    ],
+    "professionalScope": {
+      "en": "Continuing professional education for licensed clinicians. It informs clinical reasoning; it is not a protocol, contains no dosing, and does not replace specialist input, formal guidelines or individual judgment."
+    },
+    "disclaimers": [
+      {
+        "en": "Educational content for clinicians. It does not prescribe, and it never restates an evidence grade above what the source assigns to the specific indication."
+      },
+      {
+        "en": "Regulatory statements name their jurisdiction. US compounding examples (FDA 503A/503B) do not describe UK or EU status."
+      },
+      {
+        "en": "Designed toward future CME accreditation. No CME or CE credit is currently offered."
+      }
+    ]
+  },
+  "jurisdictions": [
+    {
+      "code": "US",
+      "name": "United States",
+      "authorities": [
+        {
+          "name": "FDA",
+          "scope": "Compounding (503A/503B), bulk-substance categories, cosmetic vs drug",
+          "url": "https://www.fda.gov/drugs/human-drug-compounding"
+        }
+      ],
+      "layers": [
+        {
+          "id": "product",
+          "status": "review",
+          "detail": "Mapped from the guides' US regulatory content; a named owner confirms."
+        },
+        {
+          "id": "claims",
+          "status": "review",
+          "detail": "Mapped from the guides' US regulatory content; a named owner confirms."
+        },
+        {
+          "id": "practice",
+          "status": "review",
+          "detail": "Mapped from the guides' US regulatory content; a named owner confirms."
+        },
+        {
+          "id": "locale",
+          "status": "review",
+          "detail": "Mapped from the guides' US regulatory content; a named owner confirms."
+        }
+      ],
+      "reviewOwner": "pending (medical owner)"
+    },
+    {
+      "code": "GB",
+      "name": "United Kingdom",
+      "authorities": [
+        {
+          "name": "MHRA",
+          "scope": "Medicines and unlicensed products; SEASON London Skills Lab audience",
+          "url": "https://www.gov.uk/government/organisations/medicines-and-healthcare-products-regulatory-agency"
+        }
+      ],
+      "layers": [
+        {
+          "id": "product",
+          "status": "review",
+          "detail": "No UK-specific regulatory content in the corpus yet; US examples must be labelled until mapped."
+        },
+        {
+          "id": "claims",
+          "status": "review",
+          "detail": "No UK-specific regulatory content in the corpus yet; US examples must be labelled until mapped."
+        },
+        {
+          "id": "practice",
+          "status": "review",
+          "detail": "No UK-specific regulatory content in the corpus yet; US examples must be labelled until mapped."
+        },
+        {
+          "id": "locale",
+          "status": "review",
+          "detail": "No UK-specific regulatory content in the corpus yet; US examples must be labelled until mapped."
+        }
+      ],
+      "reviewOwner": "pending (SEASON reviewer)"
+    }
+  ],
+  "provenance": {
+    "sourceLock": {
+      "lockedAt": "2026-09-22",
+      "lockedBy": "PROPOSED by the agent 2026-09-21/22 from the approved intake handoff · edition decided by Omar 2026-09-22 (August build) · exclusions + literature grader confirmation PENDING (medical owner) — see course-production/hormones-peptides-skin/source-lock.md",
+      "corpusDescription": "Two Hormonaly Press clinician guides by Fady Hannah-Shmouni (A&RE first edition 2026; The Peptide Pocket Guide August 2026 build, skin-relevant entries only) plus, per module, the primary literature behind each clinical claim (guide reference blocks + perceptor research candidate sets). Excluded: all dosing/titration/stacking content, non-cutaneous peptide entries, blend names as evidence, any current CME/CE claim.",
+      "allowedSources": [
+        "hannah-shmouni-2026-are · corpus/hormonaly-pocket-guide-2026.pdf · sha256 1478266b0809a3e3…",
+        "hannah-shmouni-2026-ppg-aug · corpus/peptide-pocket-guide-2026-08-clinical-reference.pdf · sha256 c533b43448507c9f… (skin-relevant entries only; dosing excluded)",
+        "course-production/research/2026-09-21-ghk-cu-copper-peptide-skin/ (34 candidates, ungraded)",
+        "course-production/research/2026-09-21-palmitoyl-pentapeptide-skin/ (11 candidates, ungraded)",
+        "course-production/research/2026-09-21-bpc-157-wound-healing/ (22 candidates, ungraded)",
+        "course-production/hormones-peptides-skin/intake-handoff/source-map.json (36 read sections with verbatim quotes and offsets)"
+      ]
+    },
+    "citations": [
+      {
+        "id": "hannah-shmouni-2026-are",
+        "title": "Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide",
+        "authors": "Hannah-Shmouni F",
+        "publication": "Hormonaly Press · first edition 2026 · 109 pp",
+        "year": 2026,
+        "sourceType": "client-documentation",
+        "note": {
+          "en": "Course spine. Secondary source by one author; GRADE ratings and chapter reference blocks are carried, clinical statements still need their primary citation before authoring. corpus/hormonaly-pocket-guide-2026.pdf · sha256 1478266b0809a3e3…"
+        }
+      },
+      {
+        "id": "hannah-shmouni-2026-ppg-aug",
+        "title": "The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries)",
+        "authors": "Hannah-Shmouni F",
+        "publication": "Hormonaly Press · August 2026 build · 146 pp",
+        "year": 2026,
+        "sourceType": "client-documentation",
+        "note": {
+          "en": "Skin-relevant entries only: mechanism, human-evidence summary, GRADE rating, regulatory and compounding status, safety signals. Dosing pages are outside the lock. Edition chosen by Omar 2026-09-22. corpus/peptide-pocket-guide-2026-08-clinical-reference.pdf · sha256 c533b43448507c9f…"
+        }
+      }
+    ]
+  },
+  "curriculum": {
+    "pillars": [
+      "physiology",
+      "evidence-appraisal",
+      "regulatory-safety",
+      "patient-conversation"
+    ],
+    "modules": [
+      {
+        "id": "m01",
+        "slug": "skin-as-endocrine-organ",
+        "title": {
+          "en": "Cutaneous Neuro-Immuno-Endocrinology and Dermal Aging"
+        },
+        "eyebrow": {
+          "en": "Module 01 · 3 lessons · ~28 min"
+        },
+        "summary": {
+          "en": "The skin as an endocrine organ; four immuno-endocrine microenvironments; local peripheral endocrine axes (HPA, thyroid, somatotropic, melanocortin); Hormone Cell Atlas cutaneous receptor distribution; endocrine senescence and SASP pathophysiology."
+        },
+        "objective": {
+          "en": "By the end, you can analyze the autonomous neuro-immuno-endocrine physiology of the skin and evaluate how local steroidogenesis, receptor expression, and cellular senescence drive structural dermal aging."
+        },
+        "pillars": [
+          "physiology"
+        ],
+        "estimatedMinutes": 28,
+        "sortOrder": 1,
+        "prerequisites": [],
+        "isCapstone": false,
+        "status": "ai_draft",
+        "units": [
+          {
+            "id": "m01-l1",
+            "slug": "m01-l1-skin-as-an-integrated-steroidogenic-and-endocrine-organ",
+            "title": {
+              "en": "Skin as an Integrated Steroidogenic and Endocrine Organ"
+            },
+            "description": {
+              "en": "Characterize local steroidogenesis and the autonomous peripheral neuroendocrine axes operating within epidermal, dermal, hypodermal, and adnexal compartments."
+            },
+            "type": "lesson",
+            "learningObjectives": [
+              {
+                "en": "Characterize local steroidogenesis and the autonomous peripheral neuroendocrine axes operating within epidermal, dermal, hypodermal, and adnexal compartments."
+              }
+            ],
+            "estimatedMinutes": 8,
+            "sortOrder": 1,
+            "isRequired": true,
+            "status": "ai_draft",
+            "citationRefs": [
+              "hannah-shmouni-2026-are"
+            ],
+            "blocks": [
+              {
+                "id": "m01-l1-title",
+                "type": "title",
+                "lead": {
+                  "en": "Module 01 · Lesson 1"
+                },
+                "title": {
+                  "en": "Skin as an Integrated Steroidogenic and Endocrine Organ"
+                },
+                "body": {
+                  "en": "Characterize local steroidogenesis and the autonomous peripheral neuroendocrine axes operating within epidermal, dermal, hypodermal, and adnexal compartments."
+                },
+                "citationRefs": [
+                  "hannah-shmouni-2026-are"
+                ],
+                "sourceNote": "stage-20 skeleton — objective as opening pane; no teaching content yet"
+              }
+            ],
+            "metadata": {
+              "intakeLesson": "module-01/lesson-1",
+              "blockRhythm": "hook → concept → evidence (GRADE + primary citation) → nuance (regulatory status by jurisdiction, safety signals) → adjustment (what this changes in practice) → your-turn (check)"
+            }
+          },
+          {
+            "id": "m01-l2",
+            "slug": "m01-l2-hormone-cell-atlas-and-transcriptomic-receptor-mapping",
+            "title": {
+              "en": "Hormone Cell Atlas and Transcriptomic Receptor Mapping"
+            },
+            "description": {
+              "en": "Differentiate between transcriptomic hormone receptor predictions and validated endocrine secretion across cutaneous cell lineages."
+            },
+            "type": "lesson",
+            "learningObjectives": [
+              {
+                "en": "Differentiate between transcriptomic hormone receptor predictions and validated endocrine secretion across cutaneous cell lineages."
+              }
+            ],
+            "estimatedMinutes": 8,
+            "sortOrder": 2,
+            "isRequired": true,
+            "status": "ai_draft",
+            "citationRefs": [
+              "hannah-shmouni-2026-are"
+            ],
+            "blocks": [
+              {
+                "id": "m01-l2-title",
+                "type": "title",
+                "lead": {
+                  "en": "Module 01 · Lesson 2"
+                },
+                "title": {
+                  "en": "Hormone Cell Atlas and Transcriptomic Receptor Mapping"
+                },
+                "body": {
+                  "en": "Differentiate between transcriptomic hormone receptor predictions and validated endocrine secretion across cutaneous cell lineages."
+                },
+                "citationRefs": [
+                  "hannah-shmouni-2026-are"
+                ],
+                "sourceNote": "stage-20 skeleton — objective as opening pane; no teaching content yet"
+              }
+            ],
+            "metadata": {
+              "intakeLesson": "module-01/lesson-2",
+              "blockRhythm": "hook → concept → evidence (GRADE + primary citation) → nuance (regulatory status by jurisdiction, safety signals) → adjustment (what this changes in practice) → your-turn (check)"
+            }
+          },
+          {
+            "id": "m01-l3",
+            "slug": "m01-l3-endocrine-senescence-sasp-and-matrix-degradation",
+            "title": {
+              "en": "Endocrine Senescence, SASP, and Matrix Degradation"
+            },
+            "description": {
+              "en": "Assess how senescent cutaneous cell accumulation and the senescence-associated secretory phenotype (SASP) impair extracellular matrix maintenance and accelerate dermal thinning."
+            },
+            "type": "lesson",
+            "learningObjectives": [
+              {
+                "en": "Assess how senescent cutaneous cell accumulation and the senescence-associated secretory phenotype (SASP) impair extracellular matrix maintenance and accelerate dermal thinning."
+              }
+            ],
+            "estimatedMinutes": 8,
+            "sortOrder": 3,
+            "isRequired": true,
+            "status": "ai_draft",
+            "citationRefs": [
+              "hannah-shmouni-2026-are"
+            ],
+            "blocks": [
+              {
+                "id": "m01-l3-title",
+                "type": "title",
+                "lead": {
+                  "en": "Module 01 · Lesson 3"
+                },
+                "title": {
+                  "en": "Endocrine Senescence, SASP, and Matrix Degradation"
+                },
+                "body": {
+                  "en": "Assess how senescent cutaneous cell accumulation and the senescence-associated secretory phenotype (SASP) impair extracellular matrix maintenance and accelerate dermal thinning."
+                },
+                "citationRefs": [
+                  "hannah-shmouni-2026-are"
+                ],
+                "sourceNote": "stage-20 skeleton — objective as opening pane; no teaching content yet"
+              }
+            ],
+            "metadata": {
+              "intakeLesson": "module-01/lesson-3",
+              "blockRhythm": "hook → concept → evidence (GRADE + primary citation) → nuance (regulatory status by jurisdiction, safety signals) → adjustment (what this changes in practice) → your-turn (check)"
+            }
+          }
+        ],
+        "metadata": {
+          "intakePlanModuleId": "module-01",
+          "sourceSections": [
+            {
+              "id": "jbUNSyYUCm3woAe10XL90N-part-2",
+              "citation": "hannah-shmouni-2026-are",
+              "label": "Page 10 · section 2",
+              "topics": [
+                "Peptide signaling and regulatory frameworks",
+                "Circadian biology and neuroendocrine rhythms",
+                "Mechanisms of intrinsic and extrinsic skin aging"
+              ]
+            },
+            {
+              "id": "jbUNSyYUCm3woAe10XL90N-part-3",
+              "citation": "hannah-shmouni-2026-are",
+              "label": "Chapter 5 · The skin as an · section 3",
+              "topics": [
+                "Cutaneous endocrine physiology and hormone action",
+                "Cutaneous signs of systemic endocrine disease",
+                "Cosmetic and aesthetic endocrinology",
+                "Evidence levels for topical and systemic skin treatments"
+              ]
+            },
+            {
+              "id": "jbUNSyYUCm3woAe10XL90N-part-4",
+              "citation": "hannah-shmouni-2026-are",
+              "label": "Page 22 · section 4",
+              "topics": [
+                "Skin as a neuro-immuno-endocrine system",
+                "Cutaneous steroidogenesis and local endocrine axes",
+                "Hair follicle neuroendocrinology and immune privilege",
+                "Cutaneous microbiome and systemic immune interactions"
+              ]
+            },
+            {
+              "id": "jbUNSyYUCm3woAe10XL90N-part-5",
+              "citation": "hannah-shmouni-2026-are",
+              "label": "Page 28 · section 5",
+              "topics": [
+                "Cutaneous Neuro-Immuno-Endocrinology",
+                "Hormone Cell Atlas and Skin Compartments",
+                "Endocrine Senescence and SASP",
+                "Clinical Applications and Topical Therapeutics"
+              ]
+            }
+          ],
+          "assessmentPlan": "Case-based multiple-choice assessment evaluating learner ability to distinguish local cutaneous neuroendocrine feedback loops from systemic endocrine signaling."
+        }
+      },
+      {
+        "id": "m02",
+        "slug": "systemic-hormones-and-skin",
+        "title": {
+          "en": "Steroid and Systemic Hormone Signaling in Dermatologic Practice"
+        },
+        "eyebrow": {
+          "en": "Module 02 · 3 lessons · ~28 min"
+        },
+        "summary": {
+          "en": "Cutaneous 11β-HSD1 and local cortisol conversion; clinical triage of hypercortisolemia versus cosmetic 'cortisol face'; estrogen withdrawal kinetics and postmenopausal collagen loss; systemic and topical hormone therapy boundaries; pathognomonic skin signs of endocrine syndromes."
+        },
+        "objective": {
+          "en": "By the end, you can differentiate cutaneous manifestations of systemic endocrine disorders from localized hormonal aging, appraising the clinical limitations and risks of hormone replacement in skin health."
+        },
+        "pillars": [
+          "physiology",
+          "patient-conversation"
+        ],
+        "estimatedMinutes": 28,
+        "sortOrder": 2,
+        "prerequisites": [
+          "m01"
+        ],
+        "isCapstone": false,
+        "status": "ai_draft",
+        "units": [
+          {
+            "id": "m02-l1",
+            "slug": "m02-l1-cutaneous-glucocorticoid-dynamics-and-cortisol-signatures",
+            "title": {
+              "en": "Cutaneous Glucocorticoid Dynamics and Cortisol Signatures"
+            },
+            "description": {
+              "en": "Distinguish between pathological hypercortisolemia and local 11β-HSD1 glucocorticoid activity in patients presenting with facial adiposity and cutaneous barrier breakdown."
+            },
+            "type": "lesson",
+            "learningObjectives": [
+              {
+                "en": "Distinguish between pathological hypercortisolemia and local 11β-HSD1 glucocorticoid activity in patients presenting with facial adiposity and cutaneous barrier breakdown."
+              }
+            ],
+            "estimatedMinutes": 8,
+            "sortOrder": 1,
+            "isRequired": true,
+            "status": "ai_draft",
+            "citationRefs": [
+              "hannah-shmouni-2026-are"
+            ],
+            "blocks": [
+              {
+                "id": "m02-l1-title",
+                "type": "title",
+                "lead": {
+                  "en": "Module 02 · Lesson 1"
+                },
+                "title": {
+                  "en": "Cutaneous Glucocorticoid Dynamics and Cortisol Signatures"
+                },
+                "body": {
+                  "en": "Distinguish between pathological hypercortisolemia and local 11β-HSD1 glucocorticoid activity in patients presenting with facial adiposity and cutaneous barrier breakdown."
+                },
+                "citationRefs": [
+                  "hannah-shmouni-2026-are"
+                ],
+                "sourceNote": "stage-20 skeleton — objective as opening pane; no teaching content yet"
+              }
+            ],
+            "metadata": {
+              "intakeLesson": "module-02/lesson-1",
+              "blockRhythm": "hook → concept → evidence (GRADE + primary citation) → nuance (regulatory status by jurisdiction, safety signals) → adjustment (what this changes in practice) → your-turn (check)"
+            }
+          },
+          {
+            "id": "m02-l2",
+            "slug": "m02-l2-estrogen-kinetics-menopause-and-dermal-collagen-dynamics",
+            "title": {
+              "en": "Estrogen Kinetics, Menopause, and Dermal Collagen Dynamics"
+            },
+            "description": {
+              "en": "Critique the human clinical evidence evaluating systemic and topical estrogen on dermal thickness, wound healing, and postmenopausal collagen decline."
+            },
+            "type": "lesson",
+            "learningObjectives": [
+              {
+                "en": "Critique the human clinical evidence evaluating systemic and topical estrogen on dermal thickness, wound healing, and postmenopausal collagen decline."
+              }
+            ],
+            "estimatedMinutes": 8,
+            "sortOrder": 2,
+            "isRequired": true,
+            "status": "ai_draft",
+            "citationRefs": [
+              "hannah-shmouni-2026-are"
+            ],
+            "blocks": [
+              {
+                "id": "m02-l2-title",
+                "type": "title",
+                "lead": {
+                  "en": "Module 02 · Lesson 2"
+                },
+                "title": {
+                  "en": "Estrogen Kinetics, Menopause, and Dermal Collagen Dynamics"
+                },
+                "body": {
+                  "en": "Critique the human clinical evidence evaluating systemic and topical estrogen on dermal thickness, wound healing, and postmenopausal collagen decline."
+                },
+                "citationRefs": [
+                  "hannah-shmouni-2026-are"
+                ],
+                "sourceNote": "stage-20 skeleton — objective as opening pane; no teaching content yet"
+              }
+            ],
+            "metadata": {
+              "intakeLesson": "module-02/lesson-2",
+              "blockRhythm": "hook → concept → evidence (GRADE + primary citation) → nuance (regulatory status by jurisdiction, safety signals) → adjustment (what this changes in practice) → your-turn (check)"
+            }
+          },
+          {
+            "id": "m02-l3",
+            "slug": "m02-l3-cutaneous-hallmarks-of-inherited-and-systemic-endocrinopathi",
+            "title": {
+              "en": "Cutaneous Hallmarks of Inherited and Systemic Endocrinopathies"
+            },
+            "description": {
+              "en": "Identify pathognomonic dermatologic signs of underlying endocrine diseases (e.g., Carney complex, Cushing's, thyroid dysfunction) requiring specialist referral rather than cosmetic intervention."
+            },
+            "type": "lesson",
+            "learningObjectives": [
+              {
+                "en": "Identify pathognomonic dermatologic signs of underlying endocrine diseases (e.g., Carney complex, Cushing's, thyroid dysfunction) requiring specialist referral rather than cosmetic intervention."
+              }
+            ],
+            "estimatedMinutes": 8,
+            "sortOrder": 3,
+            "isRequired": true,
+            "status": "ai_draft",
+            "citationRefs": [
+              "hannah-shmouni-2026-are"
+            ],
+            "blocks": [
+              {
+                "id": "m02-l3-title",
+                "type": "title",
+                "lead": {
+                  "en": "Module 02 · Lesson 3"
+                },
+                "title": {
+                  "en": "Cutaneous Hallmarks of Inherited and Systemic Endocrinopathies"
+                },
+                "body": {
+                  "en": "Identify pathognomonic dermatologic signs of underlying endocrine diseases (e.g., Carney complex, Cushing's, thyroid dysfunction) requiring specialist referral rather than cosmetic intervention."
+                },
+                "citationRefs": [
+                  "hannah-shmouni-2026-are"
+                ],
+                "sourceNote": "stage-20 skeleton — objective as opening pane; no teaching content yet"
+              }
+            ],
+            "metadata": {
+              "intakeLesson": "module-02/lesson-3",
+              "blockRhythm": "hook → concept → evidence (GRADE + primary citation) → nuance (regulatory status by jurisdiction, safety signals) → adjustment (what this changes in practice) → your-turn (check)"
+            }
+          }
+        ],
+        "metadata": {
+          "intakePlanModuleId": "module-02",
+          "sourceSections": [
+            {
+              "id": "jbUNSyYUCm3woAe10XL90N-part-6",
+              "citation": "hannah-shmouni-2026-are",
+              "label": "Page 34 · section 6",
+              "topics": [
+                "Skin-glucocorticoid axis and cortisol diurnal rhythms",
+                "Clinical distinction between 'cortisol face' and Cushing's syndrome",
+                "Estrogen withdrawal and postmenopausal skin aging",
+                "Systemic and topical hormone therapies and GSM"
+              ]
+            },
+            {
+              "id": "jbUNSyYUCm3woAe10XL90N-part-7",
+              "citation": "hannah-shmouni-2026-are",
+              "label": "Page 41 · section 7",
+              "topics": [
+                "Menopausal Hormone Therapy and Dermal Health",
+                "Endocrine Disruptors and 'Clean Beauty' Cosmetics",
+                "Adipose Tissue as an Endocrine Organ",
+                "Major Adipokines and Metabolic Signaling"
+              ]
+            },
+            {
+              "id": "jbUNSyYUCm3woAe10XL90N-part-14",
+              "citation": "hannah-shmouni-2026-are",
+              "label": "Page 89 · section 14",
+              "topics": [
+                "Investigational peptides and regenerative therapy triage",
+                "Clinical algorithms for aesthetic and endocrine complaints",
+                "Cutaneous signs of inherited endocrine syndromes",
+                "Regulatory and evidence hierarchies in anti-aging care"
+              ]
+            },
+            {
+              "id": "jbUNSyYUCm3woAe10XL90N-part-15",
+              "citation": "hannah-shmouni-2026-are",
+              "label": "Page 102 · section 15",
+              "topics": [
+                "Cutaneous manifestations of inherited endocrine syndromes",
+                "Evidence-based endocrinology and regenerative references",
+                "Clinical scope and regulatory disclaimers",
+                "Author biography and clinical background"
+              ]
+            }
+          ],
+          "assessmentPlan": "Clinical scenario evaluation requiring learners to analyze patient photographs and history to triage systemic endocrine disorders from aesthetic dermatologic complaints."
+        }
+      },
+      {
+        "id": "m03",
+        "slug": "adipose-incretins-facial-architecture",
+        "title": {
+          "en": "Metabolic, Adipose, and Incretin Axis Dynamics in Facial Architecture"
+        },
+        "eyebrow": {
+          "en": "Module 03 · 3 lessons · ~28 min"
+        },
+        "summary": {
+          "en": "Dermal white adipose tissue (dWAT) biology; advanced glycation end products (AGEs) and inflammaging; the gut-skin neuroendocrine axis; incretin pharmacology; clinical management of rapid subcutaneous facial fat atrophy."
+        },
+        "objective": {
+          "en": "By the end, you can evaluate the pathophysiology of dermal white adipose tissue, systemic inflammaging, and the facial structural consequences of GLP-1 and dual-incretin receptor agonist therapies."
+        },
+        "pillars": [
+          "physiology",
+          "evidence-appraisal",
+          "patient-conversation"
+        ],
+        "estimatedMinutes": 28,
+        "sortOrder": 3,
+        "prerequisites": [
+          "m01"
+        ],
+        "isCapstone": false,
+        "status": "ai_draft",
+        "units": [
+          {
+            "id": "m03-l1",
+            "slug": "m03-l1-dermal-white-adipose-tissue-dwat-and-extracellular-matrix-gl",
+            "title": {
+              "en": "Dermal White Adipose Tissue (dWAT) and Extracellular Matrix Glycation"
+            },
+            "description": {
+              "en": "Analyze the endocrine and defensive functions of dWAT and the structural biomechanical damage induced by advanced glycation end products (AGEs)."
+            },
+            "type": "lesson",
+            "learningObjectives": [
+              {
+                "en": "Analyze the endocrine and defensive functions of dWAT and the structural biomechanical damage induced by advanced glycation end products (AGEs)."
+              }
+            ],
+            "estimatedMinutes": 8,
+            "sortOrder": 1,
+            "isRequired": true,
+            "status": "ai_draft",
+            "citationRefs": [
+              "hannah-shmouni-2026-are",
+              "hannah-shmouni-2026-ppg-aug"
+            ],
+            "blocks": [
+              {
+                "id": "m03-l1-title",
+                "type": "title",
+                "lead": {
+                  "en": "Module 03 · Lesson 1"
+                },
+                "title": {
+                  "en": "Dermal White Adipose Tissue (dWAT) and Extracellular Matrix Glycation"
+                },
+                "body": {
+                  "en": "Analyze the endocrine and defensive functions of dWAT and the structural biomechanical damage induced by advanced glycation end products (AGEs)."
+                },
+                "citationRefs": [
+                  "hannah-shmouni-2026-are",
+                  "hannah-shmouni-2026-ppg-aug"
+                ],
+                "sourceNote": "stage-20 skeleton — objective as opening pane; no teaching content yet"
+              }
+            ],
+            "metadata": {
+              "intakeLesson": "module-03/lesson-1",
+              "blockRhythm": "hook → concept → evidence (GRADE + primary citation) → nuance (regulatory status by jurisdiction, safety signals) → adjustment (what this changes in practice) → your-turn (check)"
+            }
+          },
+          {
+            "id": "m03-l2",
+            "slug": "m03-l2-incretin-receptor-agonism-and-cutaneous-structural-changes",
+            "title": {
+              "en": "Incretin Receptor Agonism and Cutaneous Structural Changes"
+            },
+            "description": {
+              "en": "Explain the biological mechanisms underlying rapid subcutaneous adipose depletion and skin laxity associated with GLP-1 and GIP/GLP-1 receptor agonist therapies."
+            },
+            "type": "lesson",
+            "learningObjectives": [
+              {
+                "en": "Explain the biological mechanisms underlying rapid subcutaneous adipose depletion and skin laxity associated with GLP-1 and GIP/GLP-1 receptor agonist therapies."
+              }
+            ],
+            "estimatedMinutes": 8,
+            "sortOrder": 2,
+            "isRequired": true,
+            "status": "ai_draft",
+            "citationRefs": [
+              "hannah-shmouni-2026-are",
+              "hannah-shmouni-2026-ppg-aug"
+            ],
+            "blocks": [
+              {
+                "id": "m03-l2-title",
+                "type": "title",
+                "lead": {
+                  "en": "Module 03 · Lesson 2"
+                },
+                "title": {
+                  "en": "Incretin Receptor Agonism and Cutaneous Structural Changes"
+                },
+                "body": {
+                  "en": "Explain the biological mechanisms underlying rapid subcutaneous adipose depletion and skin laxity associated with GLP-1 and GIP/GLP-1 receptor agonist therapies."
+                },
+                "citationRefs": [
+                  "hannah-shmouni-2026-are",
+                  "hannah-shmouni-2026-ppg-aug"
+                ],
+                "sourceNote": "stage-20 skeleton — objective as opening pane; no teaching content yet"
+              }
+            ],
+            "metadata": {
+              "intakeLesson": "module-03/lesson-2",
+              "blockRhythm": "hook → concept → evidence (GRADE + primary citation) → nuance (regulatory status by jurisdiction, safety signals) → adjustment (what this changes in practice) → your-turn (check)"
+            }
+          },
+          {
+            "id": "m03-l3",
+            "slug": "m03-l3-gut-barrier-integrity-systemic-endotoxemia-and-inflammaging",
+            "title": {
+              "en": "Gut Barrier Integrity, Systemic Endotoxemia, and Inflammaging"
+            },
+            "description": {
+              "en": "Appraise clinical trial data linking gut mucosal barrier permeability, metabolic endotoxemia, and cutaneous inflammatory dermatoses."
+            },
+            "type": "lesson",
+            "learningObjectives": [
+              {
+                "en": "Appraise clinical trial data linking gut mucosal barrier permeability, metabolic endotoxemia, and cutaneous inflammatory dermatoses."
+              }
+            ],
+            "estimatedMinutes": 8,
+            "sortOrder": 3,
+            "isRequired": true,
+            "status": "ai_draft",
+            "citationRefs": [
+              "hannah-shmouni-2026-are",
+              "hannah-shmouni-2026-ppg-aug"
+            ],
+            "blocks": [
+              {
+                "id": "m03-l3-title",
+                "type": "title",
+                "lead": {
+                  "en": "Module 03 · Lesson 3"
+                },
+                "title": {
+                  "en": "Gut Barrier Integrity, Systemic Endotoxemia, and Inflammaging"
+                },
+                "body": {
+                  "en": "Appraise clinical trial data linking gut mucosal barrier permeability, metabolic endotoxemia, and cutaneous inflammatory dermatoses."
+                },
+                "citationRefs": [
+                  "hannah-shmouni-2026-are",
+                  "hannah-shmouni-2026-ppg-aug"
+                ],
+                "sourceNote": "stage-20 skeleton — objective as opening pane; no teaching content yet"
+              }
+            ],
+            "metadata": {
+              "intakeLesson": "module-03/lesson-3",
+              "blockRhythm": "hook → concept → evidence (GRADE + primary citation) → nuance (regulatory status by jurisdiction, safety signals) → adjustment (what this changes in practice) → your-turn (check)"
+            }
+          }
+        ],
+        "metadata": {
+          "intakePlanModuleId": "module-03",
+          "sourceSections": [
+            {
+              "id": "jbUNSyYUCm3woAe10XL90N-part-8",
+              "citation": "hannah-shmouni-2026-are",
+              "label": "Page 48 · section 8",
+              "topics": [
+                "Adipose tissue and dermal white adipose tissue (dWAT)",
+                "The gut-endocrine axis and incretin therapies",
+                "Aesthetic and dermatologic effects of GLP-1 weight loss",
+                "Inflammaging, metabolic aging, and glycation"
+              ]
+            },
+            {
+              "id": "jbUNSyYUCm3woAe10XL90N-part-9",
+              "citation": "hannah-shmouni-2026-are",
+              "label": "Page 54 · section 9",
+              "topics": [
+                "Hormone optimization principles and clinical trials",
+                "GLP-1 receptor agonists and body composition changes",
+                "Peptide and bioregulator evidence and regulation",
+                "Mechanisms of inflammaging and cellular senescence"
+              ]
+            },
+            {
+              "id": "AnzHoVg31T6CT-S11u9VB6-part-3",
+              "citation": "hannah-shmouni-2026-ppg-aug",
+              "label": "Page 16 · section 3",
+              "topics": [
+                "Peptide Sourcing and Regulatory Tiers",
+                "Certificate of Analysis (COA) Verification",
+                "GRADE Evidence Classification of Peptides",
+                "GLP-1 Receptor Agonists (Dulaglutide and Exenatide)"
+              ]
+            },
+            {
+              "id": "AnzHoVg31T6CT-S11u9VB6-part-4",
+              "citation": "hannah-shmouni-2026-ppg-aug",
+              "label": "Page 25 · section 4",
+              "topics": [
+                "Pancreatic hormones (Glucagon and Insulin)",
+                "GLP-1 receptor agonists (Liraglutide and Semaglutide)",
+                "Next-generation metabolic therapies (Orforglipron and Retatrutide)",
+                "Therapeutic management of diabetes and obesity"
+              ]
+            },
+            {
+              "id": "AnzHoVg31T6CT-S11u9VB6-part-5",
+              "citation": "hannah-shmouni-2026-ppg-aug",
+              "label": "Page 32 · section 5",
+              "topics": [
+                "Dual GIP/GLP-1 and amylin receptor agonists",
+                "Recombinant human growth hormone indications and safety",
+                "GHRH analogues in medical and off-label contexts",
+                "Investigational and unapproved growth hormone fragments"
+              ]
+            }
+          ],
+          "assessmentPlan": "Evidence appraisal activity where clinicians formulate a patient counseling and monitoring strategy for facial structural changes during incretin-mediated weight loss."
+        }
+      },
+      {
+        "id": "m04",
+        "slug": "matrix-peptides-and-wound-healing",
+        "title": {
+          "en": "Matrix Remodeling, Wound Healing, and Topical Matrikine Peptides"
+        },
+        "eyebrow": {
+          "en": "Module 04 · 3 lessons · ~28 min"
+        },
+        "summary": {
+          "en": "Copper peptides (GHK/GHK-Cu); signaling matrikines (Matrixyl 3000, Palmitoyl Tripeptide-1); topical neurotransmitter modulators (Argireline, Leuphasyl); investigational repair peptides (BPC-157, TB-500, KPV, LL-37); evidence hierarchies and commercial bias."
+        },
+        "objective": {
+          "en": "By the end, you can critique the biological plausibility, transdermal penetration barriers, and human clinical evidence for cosmetic, matrikine, and investigational tissue-repair peptides."
+        },
+        "pillars": [
+          "evidence-appraisal",
+          "regulatory-safety"
+        ],
+        "estimatedMinutes": 28,
+        "sortOrder": 4,
+        "prerequisites": [
+          "m01"
+        ],
+        "isCapstone": false,
+        "status": "ai_draft",
+        "units": [
+          {
+            "id": "m04-l1",
+            "slug": "m04-l1-copper-peptides-ghk-ghk-cu-in-dermal-remodeling",
+            "title": {
+              "en": "Copper Peptides (GHK/GHK-Cu) in Dermal Remodeling"
+            },
+            "description": {
+              "en": "Assess the clinical trial evidence and cellular mechanisms of GHK-Cu in fibroblast stimulation, matrix metalloproteinase regulation, and wound remodeling."
+            },
+            "type": "lesson",
+            "learningObjectives": [
+              {
+                "en": "Assess the clinical trial evidence and cellular mechanisms of GHK-Cu in fibroblast stimulation, matrix metalloproteinase regulation, and wound remodeling."
+              }
+            ],
+            "estimatedMinutes": 8,
+            "sortOrder": 1,
+            "isRequired": true,
+            "status": "ai_draft",
+            "citationRefs": [
+              "hannah-shmouni-2026-are",
+              "hannah-shmouni-2026-ppg-aug"
+            ],
+            "blocks": [
+              {
+                "id": "m04-l1-title",
+                "type": "title",
+                "lead": {
+                  "en": "Module 04 · Lesson 1"
+                },
+                "title": {
+                  "en": "Copper Peptides (GHK/GHK-Cu) in Dermal Remodeling"
+                },
+                "body": {
+                  "en": "Assess the clinical trial evidence and cellular mechanisms of GHK-Cu in fibroblast stimulation, matrix metalloproteinase regulation, and wound remodeling."
+                },
+                "citationRefs": [
+                  "hannah-shmouni-2026-are",
+                  "hannah-shmouni-2026-ppg-aug"
+                ],
+                "sourceNote": "stage-20 skeleton — objective as opening pane; no teaching content yet"
+              }
+            ],
+            "metadata": {
+              "intakeLesson": "module-04/lesson-1",
+              "blockRhythm": "hook → concept → evidence (GRADE + primary citation) → nuance (regulatory status by jurisdiction, safety signals) → adjustment (what this changes in practice) → your-turn (check)"
+            }
+          },
+          {
+            "id": "m04-l2",
+            "slug": "m04-l2-cosmetic-signaling-matrikines-and-neurotransmitter-modulator",
+            "title": {
+              "en": "Cosmetic Signaling Matrikines and Neurotransmitter Modulators"
+            },
+            "description": {
+              "en": "Evaluate the molecular weight, transdermal bioavailability limitations, and published human trial data for Argireline, Leuphasyl, and palmitoyl peptides."
+            },
+            "type": "lesson",
+            "learningObjectives": [
+              {
+                "en": "Evaluate the molecular weight, transdermal bioavailability limitations, and published human trial data for Argireline, Leuphasyl, and palmitoyl peptides."
+              }
+            ],
+            "estimatedMinutes": 8,
+            "sortOrder": 2,
+            "isRequired": true,
+            "status": "ai_draft",
+            "citationRefs": [
+              "hannah-shmouni-2026-are",
+              "hannah-shmouni-2026-ppg-aug"
+            ],
+            "blocks": [
+              {
+                "id": "m04-l2-title",
+                "type": "title",
+                "lead": {
+                  "en": "Module 04 · Lesson 2"
+                },
+                "title": {
+                  "en": "Cosmetic Signaling Matrikines and Neurotransmitter Modulators"
+                },
+                "body": {
+                  "en": "Evaluate the molecular weight, transdermal bioavailability limitations, and published human trial data for Argireline, Leuphasyl, and palmitoyl peptides."
+                },
+                "citationRefs": [
+                  "hannah-shmouni-2026-are",
+                  "hannah-shmouni-2026-ppg-aug"
+                ],
+                "sourceNote": "stage-20 skeleton — objective as opening pane; no teaching content yet"
+              }
+            ],
+            "metadata": {
+              "intakeLesson": "module-04/lesson-2",
+              "blockRhythm": "hook → concept → evidence (GRADE + primary citation) → nuance (regulatory status by jurisdiction, safety signals) → adjustment (what this changes in practice) → your-turn (check)"
+            }
+          },
+          {
+            "id": "m04-l3",
+            "slug": "m04-l3-investigational-repair-peptides-evidence-gaps-and-safety",
+            "title": {
+              "en": "Investigational Repair Peptides: Evidence Gaps and Safety"
+            },
+            "description": {
+              "en": "Contrast preclinical wound-healing data with the lack of controlled human safety and efficacy trials for investigational agents including BPC-157, TB-500, and KPV."
+            },
+            "type": "lesson",
+            "learningObjectives": [
+              {
+                "en": "Contrast preclinical wound-healing data with the lack of controlled human safety and efficacy trials for investigational agents including BPC-157, TB-500, and KPV."
+              }
+            ],
+            "estimatedMinutes": 8,
+            "sortOrder": 3,
+            "isRequired": true,
+            "status": "ai_draft",
+            "citationRefs": [
+              "hannah-shmouni-2026-are",
+              "hannah-shmouni-2026-ppg-aug"
+            ],
+            "blocks": [
+              {
+                "id": "m04-l3-title",
+                "type": "title",
+                "lead": {
+                  "en": "Module 04 · Lesson 3"
+                },
+                "title": {
+                  "en": "Investigational Repair Peptides: Evidence Gaps and Safety"
+                },
+                "body": {
+                  "en": "Contrast preclinical wound-healing data with the lack of controlled human safety and efficacy trials for investigational agents including BPC-157, TB-500, and KPV."
+                },
+                "citationRefs": [
+                  "hannah-shmouni-2026-are",
+                  "hannah-shmouni-2026-ppg-aug"
+                ],
+                "sourceNote": "stage-20 skeleton — objective as opening pane; no teaching content yet"
+              }
+            ],
+            "metadata": {
+              "intakeLesson": "module-04/lesson-3",
+              "blockRhythm": "hook → concept → evidence (GRADE + primary citation) → nuance (regulatory status by jurisdiction, safety signals) → adjustment (what this changes in practice) → your-turn (check)"
+            }
+          }
+        ],
+        "metadata": {
+          "intakePlanModuleId": "module-04",
+          "sourceSections": [
+            {
+              "id": "jbUNSyYUCm3woAe10XL90N-part-3",
+              "citation": "hannah-shmouni-2026-are",
+              "label": "Chapter 5 · The skin as an · section 3",
+              "topics": [
+                "Cutaneous endocrine physiology and hormone action",
+                "Cutaneous signs of systemic endocrine disease",
+                "Cosmetic and aesthetic endocrinology",
+                "Evidence levels for topical and systemic skin treatments"
+              ]
+            },
+            {
+              "id": "AnzHoVg31T6CT-S11u9VB6-part-7",
+              "citation": "hannah-shmouni-2026-ppg-aug",
+              "label": "Page 44 · section 7",
+              "topics": [
+                "Regenerative and repair peptide pharmacology",
+                "Clinical evidence versus gray-market claims",
+                "Off-label dosing and clinical history-taking",
+                "Regulatory classifications and drug development"
+              ]
+            },
+            {
+              "id": "AnzHoVg31T6CT-S11u9VB6-part-8",
+              "citation": "hannah-shmouni-2026-ppg-aug",
+              "label": "Page 51 · section 8",
+              "topics": [
+                "Thymulin and immune modulation",
+                "Copper peptides (GHK and GHK-Cu)",
+                "Topical neuromuscular peptides (Argireline and Leuphasyl)",
+                "Cosmetic matrikines (Matrixyl 3000)"
+              ]
+            },
+            {
+              "id": "AnzHoVg31T6CT-S11u9VB6-part-9",
+              "citation": "hannah-shmouni-2026-ppg-aug",
+              "label": "Page 58 · section 9",
+              "topics": [
+                "Experimental Topical and Cosmetic Peptides",
+                "Bone Metabolism Therapeutics",
+                "PTH and PTHrP Receptor Agonists",
+                "Regulatory Status and Clinical Safety Profiles"
+              ]
+            },
+            {
+              "id": "AnzHoVg31T6CT-S11u9VB6-part-15",
+              "citation": "hannah-shmouni-2026-ppg-aug",
+              "label": "Page 101 · section 15",
+              "topics": [
+                "Peptide Profiles (PNC-27, Linaclotide, LL-37, Larazotide)",
+                "Clinical Trial Evidence vs. Gray-Market Claims",
+                "Three-Tier Prescribing Framework",
+                "Compounding Regulations and 503A Roster Updates"
+              ]
+            }
+          ],
+          "assessmentPlan": "Structured evidence-grading exercise requiring learners to assign GRADE ratings to published clinical endpoints for topical cosmetic and repair peptides."
+        }
+      },
+      {
+        "id": "m05",
+        "slug": "follicle-pigment-melanocortins",
+        "title": {
+          "en": "Follicular Dynamics, Cutaneous Pigmentation, and Melanocortin Signaling"
+        },
+        "eyebrow": {
+          "en": "Module 05 · 3 lessons · ~28 min"
+        },
+        "summary": {
+          "en": "Hair follicle neuroendocrine regulation, immune privilege collapse, and cycling; melanocortin receptor pharmacology (MC1R-MC5R); afamelanotide indications; Melanotan II systemic toxicity and oncologic risk; experimental hair peptides (PTD-DBM, Zinc Thymulin)."
+        },
+        "objective": {
+          "en": "By the end, you can appraise the neuroendocrinology of the hair follicle and melanocortin receptor system, contrasting FDA-approved therapeutics with the clinical and oncologic hazards of unregulated peptides."
+        },
+        "pillars": [
+          "evidence-appraisal",
+          "regulatory-safety",
+          "patient-conversation"
+        ],
+        "estimatedMinutes": 28,
+        "sortOrder": 5,
+        "prerequisites": [
+          "m01"
+        ],
+        "isCapstone": false,
+        "status": "ai_draft",
+        "units": [
+          {
+            "id": "m05-l1",
+            "slug": "m05-l1-the-hair-follicle-as-an-autonomous-endocrine-mini-organ",
+            "title": {
+              "en": "The Hair Follicle as an Autonomous Endocrine Mini-Organ"
+            },
+            "description": {
+              "en": "Explain how peripheral endocrine signaling, steroid conversions, and immune privilege collapse regulate follicular cycling and alopecia phenotypes."
+            },
+            "type": "lesson",
+            "learningObjectives": [
+              {
+                "en": "Explain how peripheral endocrine signaling, steroid conversions, and immune privilege collapse regulate follicular cycling and alopecia phenotypes."
+              }
+            ],
+            "estimatedMinutes": 8,
+            "sortOrder": 1,
+            "isRequired": true,
+            "status": "ai_draft",
+            "citationRefs": [
+              "hannah-shmouni-2026-are",
+              "hannah-shmouni-2026-ppg-aug"
+            ],
+            "blocks": [
+              {
+                "id": "m05-l1-title",
+                "type": "title",
+                "lead": {
+                  "en": "Module 05 · Lesson 1"
+                },
+                "title": {
+                  "en": "The Hair Follicle as an Autonomous Endocrine Mini-Organ"
+                },
+                "body": {
+                  "en": "Explain how peripheral endocrine signaling, steroid conversions, and immune privilege collapse regulate follicular cycling and alopecia phenotypes."
+                },
+                "citationRefs": [
+                  "hannah-shmouni-2026-are",
+                  "hannah-shmouni-2026-ppg-aug"
+                ],
+                "sourceNote": "stage-20 skeleton — objective as opening pane; no teaching content yet"
+              }
+            ],
+            "metadata": {
+              "intakeLesson": "module-05/lesson-1",
+              "blockRhythm": "hook → concept → evidence (GRADE + primary citation) → nuance (regulatory status by jurisdiction, safety signals) → adjustment (what this changes in practice) → your-turn (check)"
+            }
+          },
+          {
+            "id": "m05-l2",
+            "slug": "m05-l2-melanocortin-agonism-regulated-therapeutics-vs-gray-market-m",
+            "title": {
+              "en": "Melanocortin Agonism: Regulated Therapeutics vs. Gray-Market Melanotan"
+            },
+            "description": {
+              "en": "Compare the verified indications of FDA-approved afamelanotide with the severe systemic, dysplastic, and melanocytic risks of unregulated Melanotan II."
+            },
+            "type": "lesson",
+            "learningObjectives": [
+              {
+                "en": "Compare the verified indications of FDA-approved afamelanotide with the severe systemic, dysplastic, and melanocytic risks of unregulated Melanotan II."
+              }
+            ],
+            "estimatedMinutes": 8,
+            "sortOrder": 2,
+            "isRequired": true,
+            "status": "ai_draft",
+            "citationRefs": [
+              "hannah-shmouni-2026-are",
+              "hannah-shmouni-2026-ppg-aug"
+            ],
+            "blocks": [
+              {
+                "id": "m05-l2-title",
+                "type": "title",
+                "lead": {
+                  "en": "Module 05 · Lesson 2"
+                },
+                "title": {
+                  "en": "Melanocortin Agonism: Regulated Therapeutics vs. Gray-Market Melanotan"
+                },
+                "body": {
+                  "en": "Compare the verified indications of FDA-approved afamelanotide with the severe systemic, dysplastic, and melanocytic risks of unregulated Melanotan II."
+                },
+                "citationRefs": [
+                  "hannah-shmouni-2026-are",
+                  "hannah-shmouni-2026-ppg-aug"
+                ],
+                "sourceNote": "stage-20 skeleton — objective as opening pane; no teaching content yet"
+              }
+            ],
+            "metadata": {
+              "intakeLesson": "module-05/lesson-2",
+              "blockRhythm": "hook → concept → evidence (GRADE + primary citation) → nuance (regulatory status by jurisdiction, safety signals) → adjustment (what this changes in practice) → your-turn (check)"
+            }
+          },
+          {
+            "id": "m05-l3",
+            "slug": "m05-l3-investigational-follicular-peptides-and-evidence-grading",
+            "title": {
+              "en": "Investigational Follicular Peptides and Evidence Grading"
+            },
+            "description": {
+              "en": "Appraise mechanistic claims and preliminary data for experimental follicular agents such as PTD-DBM and Zinc Thymulin against guideline-directed alopecia standards."
+            },
+            "type": "lesson",
+            "learningObjectives": [
+              {
+                "en": "Appraise mechanistic claims and preliminary data for experimental follicular agents such as PTD-DBM and Zinc Thymulin against guideline-directed alopecia standards."
+              }
+            ],
+            "estimatedMinutes": 8,
+            "sortOrder": 3,
+            "isRequired": true,
+            "status": "ai_draft",
+            "citationRefs": [
+              "hannah-shmouni-2026-are",
+              "hannah-shmouni-2026-ppg-aug"
+            ],
+            "blocks": [
+              {
+                "id": "m05-l3-title",
+                "type": "title",
+                "lead": {
+                  "en": "Module 05 · Lesson 3"
+                },
+                "title": {
+                  "en": "Investigational Follicular Peptides and Evidence Grading"
+                },
+                "body": {
+                  "en": "Appraise mechanistic claims and preliminary data for experimental follicular agents such as PTD-DBM and Zinc Thymulin against guideline-directed alopecia standards."
+                },
+                "citationRefs": [
+                  "hannah-shmouni-2026-are",
+                  "hannah-shmouni-2026-ppg-aug"
+                ],
+                "sourceNote": "stage-20 skeleton — objective as opening pane; no teaching content yet"
+              }
+            ],
+            "metadata": {
+              "intakeLesson": "module-05/lesson-3",
+              "blockRhythm": "hook → concept → evidence (GRADE + primary citation) → nuance (regulatory status by jurisdiction, safety signals) → adjustment (what this changes in practice) → your-turn (check)"
+            }
+          }
+        ],
+        "metadata": {
+          "intakePlanModuleId": "module-05",
+          "sourceSections": [
+            {
+              "id": "jbUNSyYUCm3woAe10XL90N-part-4",
+              "citation": "hannah-shmouni-2026-are",
+              "label": "Page 22 · section 4",
+              "topics": [
+                "Skin as a neuro-immuno-endocrine system",
+                "Cutaneous steroidogenesis and local endocrine axes",
+                "Hair follicle neuroendocrinology and immune privilege",
+                "Cutaneous microbiome and systemic immune interactions"
+              ]
+            },
+            {
+              "id": "jbUNSyYUCm3woAe10XL90N-part-14",
+              "citation": "hannah-shmouni-2026-are",
+              "label": "Page 89 · section 14",
+              "topics": [
+                "Investigational peptides and regenerative therapy triage",
+                "Clinical algorithms for aesthetic and endocrine complaints",
+                "Cutaneous signs of inherited endocrine syndromes",
+                "Regulatory and evidence hierarchies in anti-aging care"
+              ]
+            },
+            {
+              "id": "AnzHoVg31T6CT-S11u9VB6-part-9",
+              "citation": "hannah-shmouni-2026-ppg-aug",
+              "label": "Page 58 · section 9",
+              "topics": [
+                "Experimental Topical and Cosmetic Peptides",
+                "Bone Metabolism Therapeutics",
+                "PTH and PTHrP Receptor Agonists",
+                "Regulatory Status and Clinical Safety Profiles"
+              ]
+            },
+            {
+              "id": "AnzHoVg31T6CT-S11u9VB6-part-10",
+              "citation": "hannah-shmouni-2026-ppg-aug",
+              "label": "Page 65 · section 10",
+              "topics": [
+                "Somatostatin analogues",
+                "Melanocortin receptor agonists",
+                "Endocrine and neuroendocrine peptide therapies",
+                "Unregulated peptide safety and gray-market risks"
+              ]
+            }
+          ],
+          "assessmentPlan": "Patient safety triage vignette evaluating a patient disclosing unapproved melanocortin peptide use, focusing on dermatoscopy monitoring and systemic toxicity risks."
+        }
+      },
+      {
+        "id": "m06",
+        "slug": "gh-axis-and-skin",
+        "title": {
+          "en": "Somatotropic Axis Pharmacology and Cutaneous Tissue Manifestations"
+        },
+        "eyebrow": {
+          "en": "Module 06 · 3 lessons · ~28 min"
+        },
+        "summary": {
+          "en": "Physiology of somatopause and dermal effects; rhGH (somatropin); GHRH analogs (sermorelin, tesamorelin); GH secretagogues and secretagogue receptor agonists (CJC-1295, ipamorelin, GHRPs, IGF-1 LR3); cutaneous signs of GH excess; proliferative and oncogenic risks."
+        },
+        "objective": {
+          "en": "By the end, you can analyze the impact of growth hormone and IGF-1 axis modulation on dermal architecture, collagen homeostasis, fluid dynamics, and mitogenic safety concerns."
+        },
+        "pillars": [
+          "physiology",
+          "evidence-appraisal",
+          "regulatory-safety"
+        ],
+        "estimatedMinutes": 28,
+        "sortOrder": 6,
+        "prerequisites": [
+          "m01"
+        ],
+        "isCapstone": false,
+        "status": "ai_draft",
+        "units": [
+          {
+            "id": "m06-l1",
+            "slug": "m06-l1-growth-hormone-and-igf-1-signaling-in-cutaneous-homeostasis",
+            "title": {
+              "en": "Growth Hormone and IGF-1 Signaling in Cutaneous Homeostasis"
+            },
+            "description": {
+              "en": "Examine the cellular pathways by which GH and IGF-1 regulate keratinocyte proliferation, dermal fibroblast activity, and extracellular matrix composition."
+            },
+            "type": "lesson",
+            "learningObjectives": [
+              {
+                "en": "Examine the cellular pathways by which GH and IGF-1 regulate keratinocyte proliferation, dermal fibroblast activity, and extracellular matrix composition."
+              }
+            ],
+            "estimatedMinutes": 8,
+            "sortOrder": 1,
+            "isRequired": true,
+            "status": "ai_draft",
+            "citationRefs": [
+              "hannah-shmouni-2026-are",
+              "hannah-shmouni-2026-ppg-aug"
+            ],
+            "blocks": [
+              {
+                "id": "m06-l1-title",
+                "type": "title",
+                "lead": {
+                  "en": "Module 06 · Lesson 1"
+                },
+                "title": {
+                  "en": "Growth Hormone and IGF-1 Signaling in Cutaneous Homeostasis"
+                },
+                "body": {
+                  "en": "Examine the cellular pathways by which GH and IGF-1 regulate keratinocyte proliferation, dermal fibroblast activity, and extracellular matrix composition."
+                },
+                "citationRefs": [
+                  "hannah-shmouni-2026-are",
+                  "hannah-shmouni-2026-ppg-aug"
+                ],
+                "sourceNote": "stage-20 skeleton — objective as opening pane; no teaching content yet"
+              }
+            ],
+            "metadata": {
+              "intakeLesson": "module-06/lesson-1",
+              "blockRhythm": "hook → concept → evidence (GRADE + primary citation) → nuance (regulatory status by jurisdiction, safety signals) → adjustment (what this changes in practice) → your-turn (check)"
+            }
+          },
+          {
+            "id": "m06-l2",
+            "slug": "m06-l2-ghrh-analogs-and-gh-secretagogues-clinical-pharmacology",
+            "title": {
+              "en": "GHRH Analogs and GH Secretagogues: Clinical Pharmacology"
+            },
+            "description": {
+              "en": "Differentiate validated clinical trial indications of somatropin, sermorelin, and tesamorelin from off-label claims regarding unapproved secretagogues (CJC-1295, ipamorelin)."
+            },
+            "type": "lesson",
+            "learningObjectives": [
+              {
+                "en": "Differentiate validated clinical trial indications of somatropin, sermorelin, and tesamorelin from off-label claims regarding unapproved secretagogues (CJC-1295, ipamorelin)."
+              }
+            ],
+            "estimatedMinutes": 8,
+            "sortOrder": 2,
+            "isRequired": true,
+            "status": "ai_draft",
+            "citationRefs": [
+              "hannah-shmouni-2026-are",
+              "hannah-shmouni-2026-ppg-aug"
+            ],
+            "blocks": [
+              {
+                "id": "m06-l2-title",
+                "type": "title",
+                "lead": {
+                  "en": "Module 06 · Lesson 2"
+                },
+                "title": {
+                  "en": "GHRH Analogs and GH Secretagogues: Clinical Pharmacology"
+                },
+                "body": {
+                  "en": "Differentiate validated clinical trial indications of somatropin, sermorelin, and tesamorelin from off-label claims regarding unapproved secretagogues (CJC-1295, ipamorelin)."
+                },
+                "citationRefs": [
+                  "hannah-shmouni-2026-are",
+                  "hannah-shmouni-2026-ppg-aug"
+                ],
+                "sourceNote": "stage-20 skeleton — objective as opening pane; no teaching content yet"
+              }
+            ],
+            "metadata": {
+              "intakeLesson": "module-06/lesson-2",
+              "blockRhythm": "hook → concept → evidence (GRADE + primary citation) → nuance (regulatory status by jurisdiction, safety signals) → adjustment (what this changes in practice) → your-turn (check)"
+            }
+          },
+          {
+            "id": "m06-l3",
+            "slug": "m06-l3-cutaneous-hallmarks-of-gh-excess-edema-and-mitogenic-risks",
+            "title": {
+              "en": "Cutaneous Hallmarks of GH Excess, Edema, and Mitogenic Risks"
+            },
+            "description": {
+              "en": "Identify dermatologic and systemic red-flag signs of excessive somatotropic stimulation, including mucopolysaccharide deposition, peripheral edema, and theoretical neoplastic risks."
+            },
+            "type": "lesson",
+            "learningObjectives": [
+              {
+                "en": "Identify dermatologic and systemic red-flag signs of excessive somatotropic stimulation, including mucopolysaccharide deposition, peripheral edema, and theoretical neoplastic risks."
+              }
+            ],
+            "estimatedMinutes": 8,
+            "sortOrder": 3,
+            "isRequired": true,
+            "status": "ai_draft",
+            "citationRefs": [
+              "hannah-shmouni-2026-are",
+              "hannah-shmouni-2026-ppg-aug"
+            ],
+            "blocks": [
+              {
+                "id": "m06-l3-title",
+                "type": "title",
+                "lead": {
+                  "en": "Module 06 · Lesson 3"
+                },
+                "title": {
+                  "en": "Cutaneous Hallmarks of GH Excess, Edema, and Mitogenic Risks"
+                },
+                "body": {
+                  "en": "Identify dermatologic and systemic red-flag signs of excessive somatotropic stimulation, including mucopolysaccharide deposition, peripheral edema, and theoretical neoplastic risks."
+                },
+                "citationRefs": [
+                  "hannah-shmouni-2026-are",
+                  "hannah-shmouni-2026-ppg-aug"
+                ],
+                "sourceNote": "stage-20 skeleton — objective as opening pane; no teaching content yet"
+              }
+            ],
+            "metadata": {
+              "intakeLesson": "module-06/lesson-3",
+              "blockRhythm": "hook → concept → evidence (GRADE + primary citation) → nuance (regulatory status by jurisdiction, safety signals) → adjustment (what this changes in practice) → your-turn (check)"
+            }
+          }
+        ],
+        "metadata": {
+          "intakePlanModuleId": "module-06",
+          "sourceSections": [
+            {
+              "id": "jbUNSyYUCm3woAe10XL90N-part-1",
+              "citation": "hannah-shmouni-2026-are",
+              "label": "Page 1 · section 1",
+              "topics": [
+                "Regenerative and aesthetic endocrinology",
+                "Healthspan and the hallmarks of aging",
+                "Endocrine axes trajectories across the lifespan",
+                "Evidence-graded clinical practice and evaluation"
+              ]
+            },
+            {
+              "id": "jbUNSyYUCm3woAe10XL90N-part-9",
+              "citation": "hannah-shmouni-2026-are",
+              "label": "Page 54 · section 9",
+              "topics": [
+                "Hormone optimization principles and clinical trials",
+                "GLP-1 receptor agonists and body composition changes",
+                "Peptide and bioregulator evidence and regulation",
+                "Mechanisms of inflammaging and cellular senescence"
+              ]
+            },
+            {
+              "id": "jbUNSyYUCm3woAe10XL90N-part-13",
+              "citation": "hannah-shmouni-2026-are",
+              "label": "Page 81 · section 13",
+              "topics": [
+                "Clinical pearls in regenerative endocrinology",
+                "Healthspan baseline endocrine testing and assay interpretation",
+                "Hormone replacement safety and monitoring protocols",
+                "Investigational peptides and geroscience therapeutics"
+              ]
+            },
+            {
+              "id": "AnzHoVg31T6CT-S11u9VB6-part-5",
+              "citation": "hannah-shmouni-2026-ppg-aug",
+              "label": "Page 32 · section 5",
+              "topics": [
+                "Dual GIP/GLP-1 and amylin receptor agonists",
+                "Recombinant human growth hormone indications and safety",
+                "GHRH analogues in medical and off-label contexts",
+                "Investigational and unapproved growth hormone fragments"
+              ]
+            },
+            {
+              "id": "AnzHoVg31T6CT-S11u9VB6-part-6",
+              "citation": "hannah-shmouni-2026-ppg-aug",
+              "label": "Page 39 · section 6",
+              "topics": [
+                "Growth hormone secretagogue receptor (GHSR) agonists",
+                "GHRH analogues and pharmacology of CJC-1295",
+                "IGF-1 LR3 mechanism and adverse effects",
+                "Regulatory status and clinical caveats of gray-market peptides"
+              ]
+            },
+            {
+              "id": "AnzHoVg31T6CT-S11u9VB6-part-17",
+              "citation": "hannah-shmouni-2026-ppg-aug",
+              "label": "Page 116 · section 17",
+              "topics": [
+                "Peptide Adverse Effects and Contamination",
+                "Growth Hormone Excess Assessment",
+                "Compounded Peptide Overdose Management",
+                "FDA Compounding Regulations and Bulks List"
+              ]
+            }
+          ],
+          "assessmentPlan": "Diagnostic chart-audit exercise analyzing laboratory markers (IGF-1, glucose) and physical signs to detect adverse effects and contraindications for GH-axis modulators."
+        }
+      },
+      {
+        "id": "m07",
+        "slug": "evidence-regulation-compliance",
+        "title": {
+          "en": "Evidence Appraisal, Regulatory Frameworks, and Prescriber Compliance"
+        },
+        "eyebrow": {
+          "en": "Module 07 · 3 lessons · ~28 min"
+        },
+        "summary": {
+          "en": "GRADE framework applied to cutaneous therapies; FDA Sections 503A and 503B compounding boundaries; PCAC category rulings; 40-amino-acid biologic threshold; Certificate of Analysis (COA) interpretation (HPLC, mass spectrometry, endotoxin); risks of Research Use Only (RUO) peptide marketing blends; prescriber legal liability."
+        },
+        "objective": {
+          "en": "By the end, you can apply statutory drug compounding frameworks, quality assurance standards, and GRADE criteria to establish compliant, evidence-graded clinical practices in aesthetic endocrinology."
+        },
+        "pillars": [
+          "evidence-appraisal",
+          "regulatory-safety",
+          "patient-conversation"
+        ],
+        "estimatedMinutes": 28,
+        "sortOrder": 7,
+        "prerequisites": [
+          "m04",
+          "m05",
+          "m06"
+        ],
+        "isCapstone": false,
+        "status": "ai_draft",
+        "units": [
+          {
+            "id": "m07-l1",
+            "slug": "m07-l1-grade-methodology-and-evidence-evaluation-for-aesthetic-clai",
+            "title": {
+              "en": "GRADE Methodology and Evidence Evaluation for Aesthetic Claims"
+            },
+            "description": {
+              "en": "Apply the GRADE hierarchy to independently evaluate peer-reviewed clinical studies on hormone and peptide interventions, separating commercial claims from verified clinical endpoints."
+            },
+            "type": "lesson",
+            "learningObjectives": [
+              {
+                "en": "Apply the GRADE hierarchy to independently evaluate peer-reviewed clinical studies on hormone and peptide interventions, separating commercial claims from verified clinical endpoints."
+              }
+            ],
+            "estimatedMinutes": 8,
+            "sortOrder": 1,
+            "isRequired": true,
+            "status": "ai_draft",
+            "citationRefs": [
+              "hannah-shmouni-2026-are",
+              "hannah-shmouni-2026-ppg-aug"
+            ],
+            "blocks": [
+              {
+                "id": "m07-l1-title",
+                "type": "title",
+                "lead": {
+                  "en": "Module 07 · Lesson 1"
+                },
+                "title": {
+                  "en": "GRADE Methodology and Evidence Evaluation for Aesthetic Claims"
+                },
+                "body": {
+                  "en": "Apply the GRADE hierarchy to independently evaluate peer-reviewed clinical studies on hormone and peptide interventions, separating commercial claims from verified clinical endpoints."
+                },
+                "citationRefs": [
+                  "hannah-shmouni-2026-are",
+                  "hannah-shmouni-2026-ppg-aug"
+                ],
+                "sourceNote": "stage-20 skeleton — objective as opening pane; no teaching content yet"
+              }
+            ],
+            "metadata": {
+              "intakeLesson": "module-07/lesson-1",
+              "blockRhythm": "hook → concept → evidence (GRADE + primary citation) → nuance (regulatory status by jurisdiction, safety signals) → adjustment (what this changes in practice) → your-turn (check)"
+            }
+          },
+          {
+            "id": "m07-l2",
+            "slug": "m07-l2-fda-compounding-statutes-sourcing-and-quality-verification",
+            "title": {
+              "en": "FDA Compounding Statutes, Sourcing, and Quality Verification"
+            },
+            "description": {
+              "en": "Navigate FDA 503A/503B compounding lists, interpret Certificate of Analysis parameters (HPLC purity, mass spec, endotoxin limits), and identify clinical risks of RUO peptide products."
+            },
+            "type": "lesson",
+            "learningObjectives": [
+              {
+                "en": "Navigate FDA 503A/503B compounding lists, interpret Certificate of Analysis parameters (HPLC purity, mass spec, endotoxin limits), and identify clinical risks of RUO peptide products."
+              }
+            ],
+            "estimatedMinutes": 8,
+            "sortOrder": 2,
+            "isRequired": true,
+            "status": "ai_draft",
+            "citationRefs": [
+              "hannah-shmouni-2026-are",
+              "hannah-shmouni-2026-ppg-aug"
+            ],
+            "blocks": [
+              {
+                "id": "m07-l2-title",
+                "type": "title",
+                "lead": {
+                  "en": "Module 07 · Lesson 2"
+                },
+                "title": {
+                  "en": "FDA Compounding Statutes, Sourcing, and Quality Verification"
+                },
+                "body": {
+                  "en": "Navigate FDA 503A/503B compounding lists, interpret Certificate of Analysis parameters (HPLC purity, mass spec, endotoxin limits), and identify clinical risks of RUO peptide products."
+                },
+                "citationRefs": [
+                  "hannah-shmouni-2026-are",
+                  "hannah-shmouni-2026-ppg-aug"
+                ],
+                "sourceNote": "stage-20 skeleton — objective as opening pane; no teaching content yet"
+              }
+            ],
+            "metadata": {
+              "intakeLesson": "module-07/lesson-2",
+              "blockRhythm": "hook → concept → evidence (GRADE + primary citation) → nuance (regulatory status by jurisdiction, safety signals) → adjustment (what this changes in practice) → your-turn (check)"
+            }
+          },
+          {
+            "id": "m07-l3",
+            "slug": "m07-l3-prescriber-legal-exposure-cosmetic-classifications-and-chart",
+            "title": {
+              "en": "Prescriber Legal Exposure, Cosmetic Classifications, and Charting"
+            },
+            "description": {
+              "en": "Synthesize regulatory requirements to structure compliant patient informed consent and clinical documentation, distinguishing between cosmetics, compounded pharmaceuticals, and investigational substances."
+            },
+            "type": "lesson",
+            "learningObjectives": [
+              {
+                "en": "Synthesize regulatory requirements to structure compliant patient informed consent and clinical documentation, distinguishing between cosmetics, compounded pharmaceuticals, and investigational substances."
+              }
+            ],
+            "estimatedMinutes": 8,
+            "sortOrder": 3,
+            "isRequired": true,
+            "status": "ai_draft",
+            "citationRefs": [
+              "hannah-shmouni-2026-are",
+              "hannah-shmouni-2026-ppg-aug"
+            ],
+            "blocks": [
+              {
+                "id": "m07-l3-title",
+                "type": "title",
+                "lead": {
+                  "en": "Module 07 · Lesson 3"
+                },
+                "title": {
+                  "en": "Prescriber Legal Exposure, Cosmetic Classifications, and Charting"
+                },
+                "body": {
+                  "en": "Synthesize regulatory requirements to structure compliant patient informed consent and clinical documentation, distinguishing between cosmetics, compounded pharmaceuticals, and investigational substances."
+                },
+                "citationRefs": [
+                  "hannah-shmouni-2026-are",
+                  "hannah-shmouni-2026-ppg-aug"
+                ],
+                "sourceNote": "stage-20 skeleton — objective as opening pane; no teaching content yet"
+              }
+            ],
+            "metadata": {
+              "intakeLesson": "module-07/lesson-3",
+              "blockRhythm": "hook → concept → evidence (GRADE + primary citation) → nuance (regulatory status by jurisdiction, safety signals) → adjustment (what this changes in practice) → your-turn (check)"
+            }
+          }
+        ],
+        "metadata": {
+          "intakePlanModuleId": "module-07",
+          "sourceSections": [
+            {
+              "id": "jbUNSyYUCm3woAe10XL90N-part-2",
+              "citation": "hannah-shmouni-2026-are",
+              "label": "Page 10 · section 2",
+              "topics": [
+                "Peptide signaling and regulatory frameworks",
+                "Circadian biology and neuroendocrine rhythms",
+                "Mechanisms of intrinsic and extrinsic skin aging"
+              ]
+            },
+            {
+              "id": "jbUNSyYUCm3woAe10XL90N-part-10",
+              "citation": "hannah-shmouni-2026-are",
+              "label": "Page 61 · section 10",
+              "topics": [
+                "Regenerative peptide blends and RUO safety hazards",
+                "FDA 503A compounding regulations and PCAC review",
+                "Dietary and pharmacologic gut barrier interventions",
+                "Senotherapeutics and longevity supplement evidence"
+              ]
+            },
+            {
+              "id": "jbUNSyYUCm3woAe10XL90N-part-12",
+              "citation": "hannah-shmouni-2026-are",
+              "label": "Page 74 · section 12",
+              "topics": [
+                "Clinical sequencing and consultation framework",
+                "Cellular therapy and immune tolerance in diabetes",
+                "FDA 503A regulatory status of compounded peptides",
+                "Evidence hierarchy and healthspan interventions"
+              ]
+            },
+            {
+              "id": "AnzHoVg31T6CT-S11u9VB6-part-1",
+              "citation": "hannah-shmouni-2026-ppg-aug",
+              "label": "Page 1 · section 1",
+              "topics": [
+                "Peptide clinical reference guide structure",
+                "GRADE evidence rating framework",
+                "Editorial standards distinguishing evidence from clinical culture",
+                "Biochemical and FDA regulatory classification of peptides"
+              ]
+            },
+            {
+              "id": "AnzHoVg31T6CT-S11u9VB6-part-2",
+              "citation": "hannah-shmouni-2026-ppg-aug",
+              "label": "Page 9 · section 2",
+              "topics": [
+                "Peptide Classification and Synthesis",
+                "Administration Routes and Bioavailability",
+                "Reconstitution, Storage, and Degradation",
+                "Regulatory Categories and Compounding"
+              ]
+            },
+            {
+              "id": "AnzHoVg31T6CT-S11u9VB6-part-3",
+              "citation": "hannah-shmouni-2026-ppg-aug",
+              "label": "Page 16 · section 3",
+              "topics": [
+                "Peptide Sourcing and Regulatory Tiers",
+                "Certificate of Analysis (COA) Verification",
+                "GRADE Evidence Classification of Peptides",
+                "GLP-1 Receptor Agonists (Dulaglutide and Exenatide)"
+              ]
+            },
+            {
+              "id": "AnzHoVg31T6CT-S11u9VB6-part-16",
+              "citation": "hannah-shmouni-2026-ppg-aug",
+              "label": "Page 108 · section 16",
+              "topics": [
+                "Clinical pearls and regulatory compounding guidelines",
+                "GLP-1 receptor agonists and addiction signals",
+                "Receptor desensitization and cycling strategies",
+                "Laboratory monitoring and anti-doping testing"
+              ]
+            },
+            {
+              "id": "AnzHoVg31T6CT-S11u9VB6-part-18",
+              "citation": "hannah-shmouni-2026-ppg-aug",
+              "label": "Page 124 · section 18",
+              "topics": [
+                "FDA 503A Bulks List and Compounding Status",
+                "Prescriber Legal Exposure and Charting Guidance",
+                "Cosmetic versus Compounded versus Supplement Classifications",
+                "Research-Use Channels and International Regulation"
+              ]
+            },
+            {
+              "id": "AnzHoVg31T6CT-S11u9VB6-part-19",
+              "citation": "hannah-shmouni-2026-ppg-aug",
+              "label": "Page 131 · section 19",
+              "topics": [
+                "Provider Liability with Unapproved Peptides",
+                "Lilly v. FDA and the 40-Amino-Acid Threshold",
+                "Biologic vs. Small-Molecule Drug Classification",
+                "Peptide Therapeutics Bibliography"
+              ]
+            }
+          ],
+          "assessmentPlan": "Quality verification assessment requiring learners to audit a simulated peptide Certificate of Analysis (COA) and marketing dossier for regulatory compliance, purity standards, and adulteration hazards."
+        }
+      }
+    ]
+  },
+  "credential": {
+    "type": "certification",
+    "title": {
+      "en": "Certificate · Hormones and Peptides for Skin"
+    },
+    "issuer": {
+      "name": "Geneva College of Longevity Science",
+      "linkedinOrganizationName": "Geneva College of Longevity Science"
+    },
+    "coBrand": {
+      "displayName": "Hormonaly Academy",
+      "accentColor": "#0a7a72",
+      "lockup": {
+        "en": "Issued by Geneva College of Longevity Science (GCLS) · Hormonaly Academy co-brand · verified by Perceptors"
+      }
+    },
+    "requirements": {
+      "assessmentRefs": [
+        "course-quiz",
+        "capstone"
+      ],
+      "capstoneRequired": true,
+      "vivaRequired": false,
+      "passingScorePct": 80
+    },
+    "sharing": {
+      "linkedin": true,
+      "nativeShare": true,
+      "directoryOptIn": true
+    }
+  },
+  "governance": {
+    "requiredGates": [
+      "medical_review",
+      "brand_approval",
+      "localization_review",
+      "gcls_accreditation",
+      "publish"
+    ],
+    "approvals": [],
+    "accreditation": {
+      "body": "GCLS",
+      "status": "not_submitted",
+      "notes": "Designed toward future CME accreditation (Omar 2026-09-21): CME-style measurable objectives, independence from commercial bias, disclosure of financial relationships. No CME/CE credit is claimed until an accredited provider pathway exists (SEASON's DC host university is the candidate). GCLS accreditation add-on decision still pending from intake."
+    }
+  },
+  "distribution": {
+    "targets": [
+      {
+        "platform": "academy-app",
+        "notes": "Hormonaly Academy tenant until SEASON's brand kit arrives; a SEASON-branded edition shares this package (one evidence core, editions per academy)."
+      }
+    ]
+  },
+  "metadata": {
+    "generator": "course-production/hormones-peptides-skin/build-package.py",
+    "generatedAt": "2026-09-22",
+    "factory": "perceptor-foundry (main) · stage 20 curriculum skeleton",
+    "template": "blended-certification (phone-first delivery, certification-grade checks; unit rendering decided at authoring — the runtime renders one story per module today)",
+    "assessmentPlan": [
+      {
+        "id": "m01-check",
+        "kind": "module-check",
+        "moduleRef": "m01",
+        "pillars": [
+          "physiology"
+        ],
+        "plan": "Case-based multiple-choice assessment evaluating learner ability to distinguish local cutaneous neuroendocrine feedback loops from systemic endocrine signaling."
+      },
+      {
+        "id": "m02-check",
+        "kind": "module-check",
+        "moduleRef": "m02",
+        "pillars": [
+          "physiology",
+          "patient-conversation"
+        ],
+        "plan": "Clinical scenario evaluation requiring learners to analyze patient photographs and history to triage systemic endocrine disorders from aesthetic dermatologic complaints."
+      },
+      {
+        "id": "m03-check",
+        "kind": "module-check",
+        "moduleRef": "m03",
+        "pillars": [
+          "physiology",
+          "evidence-appraisal",
+          "patient-conversation"
+        ],
+        "plan": "Evidence appraisal activity where clinicians formulate a patient counseling and monitoring strategy for facial structural changes during incretin-mediated weight loss."
+      },
+      {
+        "id": "m04-check",
+        "kind": "module-check",
+        "moduleRef": "m04",
+        "pillars": [
+          "evidence-appraisal",
+          "regulatory-safety"
+        ],
+        "plan": "Structured evidence-grading exercise requiring learners to assign GRADE ratings to published clinical endpoints for topical cosmetic and repair peptides."
+      },
+      {
+        "id": "m05-check",
+        "kind": "module-check",
+        "moduleRef": "m05",
+        "pillars": [
+          "evidence-appraisal",
+          "regulatory-safety",
+          "patient-conversation"
+        ],
+        "plan": "Patient safety triage vignette evaluating a patient disclosing unapproved melanocortin peptide use, focusing on dermatoscopy monitoring and systemic toxicity risks."
+      },
+      {
+        "id": "m06-check",
+        "kind": "module-check",
+        "moduleRef": "m06",
+        "pillars": [
+          "physiology",
+          "evidence-appraisal",
+          "regulatory-safety"
+        ],
+        "plan": "Diagnostic chart-audit exercise analyzing laboratory markers (IGF-1, glucose) and physical signs to detect adverse effects and contraindications for GH-axis modulators."
+      },
+      {
+        "id": "m07-check",
+        "kind": "module-check",
+        "moduleRef": "m07",
+        "pillars": [
+          "evidence-appraisal",
+          "regulatory-safety",
+          "patient-conversation"
+        ],
+        "plan": "Quality verification assessment requiring learners to audit a simulated peptide Certificate of Analysis (COA) and marketing dossier for regulatory compliance, purity standards, and adulteration hazards."
+      },
+      {
+        "id": "course-quiz",
+        "kind": "course-quiz",
+        "passingScorePct": 80,
+        "weightDistribution": {
+          "physiology": 0.25,
+          "evidence-appraisal": 0.25,
+          "regulatory-safety": 0.25,
+          "patient-conversation": 0.25
+        },
+        "plan": "Pillar-tagged questions across all seven modules; rationale on every option; no question answerable from marketing language alone."
+      },
+      {
+        "id": "capstone",
+        "kind": "capstone",
+        "pillars": [
+          "physiology",
+          "evidence-appraisal",
+          "regulatory-safety",
+          "patient-conversation"
+        ],
+        "components": [
+          "One adversarial co-design conversation: the learner builds an evidence-graded answer to a fictional patient's request for a named skin peptide, while the agent presses on evidence, regulatory status and safety.",
+          "Dossier output: appraisal of a simulated Certificate of Analysis and marketing sheet (module 07 pattern), with the patient conversation the learner would have.",
+          "Evaluation: agent pre-grade, then faculty gate (reviewer of record)."
+        ]
+      }
+    ],
+    "courseShape": "7 modules × 3 lessons = 21 lessons, ~3 h; module check per module, course quiz weighted across four pillars, capstone = one adversarial co-design conversation with a dossier output",
+    "intake": {
+      "portalProject": "nJO-DfnWUc2HvW99mYVZ7Q",
+      "plan": "skin-outline-20260921-v2",
+      "sample": "skin-lesson-20260921-v2 (module 04)",
+      "directionApproved": "2026-09-21 via test client invitation — direction only, scientific review pending"
+    },
+    "openItems": [
+      "source lock confirmation: exclusions as written + who grades the module 04 literature (medical owner)",
+      "reviewer of record + SEASON reviewer",
+      "accreditation audience: physicians only vs multidisciplinary (plan question 1)",
+      "balance between endocrinopathy-with-skin-signs and elective aesthetic peptide content (plan question 2)",
+      "GB/EU regulatory mapping for the SEASON London audience",
+      "primary citations per module before authoring (guides are single-author secondary sources)",
+      "tier-1 brief still 7/8 open on the intake portal (audience, outcomes, boundaries, locales, delivery)"
+    ]
+  }
+}

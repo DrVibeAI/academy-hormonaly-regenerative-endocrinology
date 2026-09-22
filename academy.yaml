@@ -18,6 +18,12 @@ catalog:
     order: 1
     entitlement: { type: open }         # INTAKE: confirm open vs invite vs paid cohorts
     certificate: { access: included }
+  - course: packages/hormones-peptides-skin.json          # stage 20 skeleton (2026-09-22); SEASON skin edition of the peptide master
+    status: draft
+    series: regenerative-endocrinology
+    order: 2
+    entitlement: { type: open }         # free to learners per the SEASON model; confirm for the Hormonaly tenant
+    certificate: { access: included }
 modules: { fieldbook: true, promptLab: false, webinars: false, blog: false, peers: false, achievements: false }
 accreditation:
   gcls: false                   # INTAKE: licensed add-on decision pending
