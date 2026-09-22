@@ -12,9 +12,9 @@ evidence only.
 (direction only; scientific review pending). Exports are in [`intake-handoff/`](intake-handoff/): `source-map.json` (36 read sections
 with verbatim quotes and offsets), `sample-lesson.json`, `design.md`, `frame.md`, `onboarding-handoff.json`.
 
-## Decision needed first: which Peptide Pocket Guide edition
+## Edition decision — RESOLVED 2026-09-22 (Omar): the August build
 
-Two different files carry the same title. The lock must name one.
+Two different files carry the same title. Omar chose the **August build** on 2026-09-22; the June build stays in the corpus as a superseded edition.
 
 | | June build | August build |
 |---|---|---|
@@ -25,9 +25,8 @@ Two different files carry the same title. The lock must name one.
 | Differs by | trial names and NCT identifiers in the text | adds amino-acid sequences and **per-entry dosing**; GRADE tags appear 177× vs 81× |
 | Standing | confirmed by Omar 2026-09-10 as "the handbook"; registered in corpus (f267a47) | the file Omar placed in the intake folder 2026-09-21; **the approved plan and sample quote this text** |
 
-**Proposed:** lock the **August** build, because every source reference and verbatim quote in the approved plan resolves against it,
-and keep the June build in the corpus as a superseded edition. If the June build is preferred, the intake reading has to be re-run on
-it (about four minutes) so the quotes and offsets move with it. Owner: Dr. Fady Hannah-Shmouni (author) / Omar.
+**Basis:** the August build is locked because every source reference and verbatim quote in the approved plan resolves against it,
+and keep the June build in the corpus as a superseded edition. Decided by Omar 2026-09-22.
 
 ## In the lock (proposed)
 
@@ -107,6 +106,6 @@ before it is written as such.
 
 ## To confirm the lock
 
-The medical owner answers three things: (1) August or June edition; (2) the exclusions above, as written; (3) who grades and signs
-the module 04 literature set. On confirmation the agent writes `provenance.sourceLock` and seeds `provenance.citations[]` in
+Edition: decided (August). Still open for the medical owner: (1) the exclusions above, as written; (2) who grades and signs the
+module 04 literature set. On confirmation the agent writes `provenance.sourceLock` and seeds `provenance.citations[]` in
 `packages/hormones-peptides-skin.json`, and stage 20 (curriculum) starts from the approved plan.
