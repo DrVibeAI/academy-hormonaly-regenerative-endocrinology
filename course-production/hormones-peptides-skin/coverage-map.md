@@ -50,10 +50,15 @@ in `provenance.citations[]` (only the two guides are). Module 04 has three ungra
 
 ## Decisions this skeleton is waiting on
 
-1. Accreditation audience: physicians only, or NPs/PAs included (changes the safety register and persona list).
-2. Balance between endocrinopathies presenting with skin signs (m02) and elective aesthetic peptides (m04–m06).
-3. GB/EU regulatory mapping for the SEASON London audience; until then US examples are labelled as such.
-4. Reviewer of record and the SEASON reviewer.
-5. Unit rendering at authoring: the runtime renders one story per module today, so the three lesson units may be authored as
+Decided 2026-09-22 (Omar): audience = all clinicians with the LMS adapting the application layer by level (prescriber · clinical staff ·
+advisor; see `metadata.variants`); literature grader = Omar / Perceptors; final reviewer = Dr. Hannah-Shmouni.
+
+1. Balance between endocrinopathies presenting with skin signs (m02) and elective aesthetic peptides (m04–m06).
+2. GB/EU regulatory mapping for the SEASON London audience; until then US examples are labelled as such.
+3. SEASON reviewer.
+4. Unit rendering at authoring: the runtime renders one story per module today, so the three lesson units may be authored as
    one resumable story with three labelled lessons (the Cenegenics Corporate Longevity pattern) — an authoring choice, not a
    curriculum change.
+5. Two content gaps surfaced by the competitor comparison (`competitive-landscape.md`): **oral collagen peptides** (A&RE ch.15 rates
+   them GRADE C on a randomized trial, Kim 2018; every competitor "skin" module covers them; ours does not) and **SNAP-8 / acetyl
+   octapeptide-3** (the Argireline successor named in A4M's syllabus; add to m04-l2 scope). Both are additions to scope, not new modules.

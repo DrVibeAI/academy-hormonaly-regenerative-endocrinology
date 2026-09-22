@@ -1,7 +1,12 @@
 # Source lock — Hormones and Peptides for Skin (DRAFT · confirmation pending)
 
-**Status:** PROPOSED by the agent on 2026-09-21 from the approved Perceptors intake handoff. Nothing here is a lock until the medical
-owner confirms it (Foundry stage 10 exit). Until then no authoring may treat these sources as settled.
+**Status:** PROPOSED by the agent on 2026-09-21 from the approved Perceptors intake handoff; decisions recorded 2026-09-22 (below).
+Nothing here is a lock until the exclusions are confirmed (Foundry stage 10 exit). Until then no authoring may treat these sources as settled.
+
+**Decisions on file (Omar, 2026-09-22):** Pocket Guide edition = **August build**. Literature grader = **Omar Saleem / Perceptors**
+(worksheet `citations/m04.md`; grade column is his). Final reviewer = **Dr. Fady Hannah-Shmouni**, who receives the final draft.
+Audience = **all clinicians** (physicians, NPs, PAs, nurses, other providers); the agentic LMS adapts the application layer to each learner's
+level (`metadata.variants.audienceLevel` in the package). The Drive path is parked.
 
 **Course:** Hormones and Peptides for Skin · 7 modules · 21 lessons · pilot module = 04 (matrix remodeling, wound healing, topical
 matrikine peptides). Audience, outcomes and boundaries are still open in the intake brief (7 of 8 tier-1 groups); the lock covers
@@ -74,7 +79,14 @@ reading sections the plan cites (each section runs about 12,000 characters).
 Read but not used by the plan, and available if scope grows: A&RE chapter 17 onward (supplements, lifestyle and circadian
 optimization, tissue replacement) and the A&RE closing reference pages.
 
-## Literature backing — pilot module 04 (candidates, not yet graded)
+## Literature backing — pilot module 04 (VERIFIED 2026-09-22, awaiting Omar's grades)
+
+`citations/m04.json` holds **42 verified sources** (every PMID resolved through NCBI E-utilities; trial registrations through the
+ClinicalTrials.gov API; FDA and Federal Register records fetched live and the FDA category PDF read in full) and **17 claims** — one per
+teaching statement — each with its citations and a `pending`/`flagged` status. `citations/m04.md` is the grading worksheet. Two claims are
+flagged: Leuphasyl (manufacturer data only, no indexed source) and the RUO heavy-metal contamination statement (no primary source found —
+adjacent evidence only). Reference errors found in the guides are listed at the end of the worksheet for the author. The raw candidate
+runs the registry was drawn from:
 
 `perceptor research` runs of 2026-09-21 (OpenAlex rate-limited on two of three; PubMed and ClinicalTrials.gov answered):
 
@@ -84,14 +96,14 @@ optimization, tissue replacement) and the A&RE closing reference pages.
 | Palmitoyl pentapeptide skin | 11 | [`research/2026-09-21-palmitoyl-pentapeptide-skin/`](../research/2026-09-21-palmitoyl-pentapeptide-skin/LOCK-PROPOSAL.md) |
 | BPC-157 wound healing | 22 | [`research/2026-09-21-bpc-157-wound-healing/`](../research/2026-09-21-bpc-157-wound-healing/LOCK-PROPOSAL.md) |
 
-First read of the GHK-Cu set supports the guide's GRADE C framing: the list is dominated by reviews and mechanistic or delivery
-papers; the human trial signal is thin (one small randomized trial on laser-resurfaced skin, 2006; one phase 2 wound-healing gel
-trial registered 2026 and still recruiting). That is the honest teaching point of the module and should be graded by a human
-before it is written as such.
+The human-trial signal is thin in every class: topical GHK-Cu has one indexed RCT (post-laser healing, 2006) and a phase 2 wound
+gel trial recruiting; pal-KTTKS and Argireline have manufacturer-funded RCTs plus one independent 2023 head-to-head; BPC-157's first
+randomized human trials were registered in 2026 with no results; LL-37 is the worked example of a small positive trial followed by a
+negative phase IIb. That is the honest teaching point of the module and it is now citable line by line.
 
 ## Known gaps
 
-1. **Reviewer of record is not named.** Medical owner for the start (Omar or Dr. Hannah-Shmouni) and the SEASON reviewer when one is named.
+1. **Reviewer flow set 2026-09-22:** Omar grades, Dr. Hannah-Shmouni reviews the final draft. SEASON reviewer still to be named.
 2. **Author and rights.** Both guides are Hormonaly Press titles; the intake records reuse rights as `unconfirmed`. A one-line
    written permission from the author/publisher closes this.
 3. **Single-author secondary sources.** Modules 01–02 rest almost entirely on A&RE. Each needs its primary citations pulled from the
@@ -106,6 +118,6 @@ before it is written as such.
 
 ## To confirm the lock
 
-Edition: decided (August). Still open for the medical owner: (1) the exclusions above, as written; (2) who grades and signs the
-module 04 literature set. On confirmation the agent writes `provenance.sourceLock` and seeds `provenance.citations[]` in
+Edition: decided (August). Grader: decided (Omar / Perceptors). Still open: (1) the exclusions above, as written; (2) Omar's grades in
+`citations/m04.md` — authoring of module 04 starts once the grade column is filled. On confirmation the agent writes `provenance.sourceLock` and seeds `provenance.citations[]` in
 `packages/hormones-peptides-skin.json`, and stage 20 (curriculum) starts from the approved plan.

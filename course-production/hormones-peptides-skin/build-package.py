@@ -51,6 +51,22 @@ CITATIONS = [
     },
 ]
 
+# --- module literature registries (citations/<module>.json, verified) ------
+CITATION_FIELDS = ("id", "title", "authors", "publication", "year", "url", "sourceType", "note")
+LIT = {}
+for f in sorted((HERE / "citations").glob("*.json")):
+    reg = json.loads(f.read_text())
+    LIT[reg["module"]] = reg
+    for c in reg["citations"]:
+        entry = {k: c[k] for k in CITATION_FIELDS if k in c}
+        entry["note"] = {"en": f"{c.get('design','')} · {c.get('independence','')} · role: {c.get('role','')}" + (f" · PMID {c['pmid']}" if c.get("pmid") else "") + (f" · {c['note']}" if c.get("note") else "")}
+        CITATIONS.append(entry)
+CLAIMS = [
+    {"id": cl["id"], "text": cl["text"], "citationRefs": cl["citationRefs"], "status": cl["status"],
+     "locations": [cl["unit"]], "reviewNote": (cl.get("reviewNote") or "") + f" · grader: {reg['grader']}"}
+    for reg in LIT.values() for cl in reg["claims"]
+]
+
 # --- pillars -------------------------------------------------------------
 PILLARS = ["physiology", "evidence-appraisal", "regulatory-safety", "patient-conversation"]
 MODULE_PILLARS = {
@@ -101,7 +117,7 @@ for i, m in enumerate(outline["modules"], 1):
             "sortOrder": j,
             "isRequired": True,
             "status": "ai_draft",
-            "citationRefs": cites,
+            "citationRefs": sorted(set(cites) | {c["id"] for c in LIT.get(mid, {}).get("citations", []) if c.get("lesson") == f"{mid}-l{j}"}),
             # Stage 20 stub: the lesson's opening pane only. Authoring (stage 30)
             # replaces it with the full block rhythm noted in metadata.blockRhythm.
             "blocks": [{
@@ -139,6 +155,12 @@ for i, m in enumerate(outline["modules"], 1):
                 for r in m["sourceRefs"]
             ],
             "assessmentPlan": m["assessment"],
+            **({"literature": {
+                "registry": f"course-production/hormones-peptides-skin/citations/{mid}.json",
+                "worksheet": f"course-production/hormones-peptides-skin/citations/{mid}.md",
+                "verifiedAt": LIT[mid]["verifiedAt"], "citations": len(LIT[mid]["citations"]), "claims": len(LIT[mid]["claims"]),
+                "grader": LIT[mid]["grader"], "finalReviewer": LIT[mid]["finalReviewer"],
+            }} if mid in LIT else {}),
         },
     })
     assessments.append({
@@ -194,11 +216,12 @@ pkg = {
     ],
     "audience": {
         "personas": [
-            "aesthetic physician or dermatologist evaluating hormone and peptide claims for skin",
-            "plastic surgeon or aesthetic clinician whose patients ask about peptides",
-            "aesthetic nurse practitioner or physician associate (inclusion pending the accreditation-audience decision)",
+            "dermatologist, aesthetic physician or plastic surgeon evaluating hormone and peptide claims for skin",
+            "nurse practitioner or physician associate who prescribes or counsels in aesthetic, dermatology or primary care",
+            "registered nurse, aesthetic nurse or injector who delivers treatments and fields patient questions",
+            "other licensed providers (pharmacists, naturopathic doctors, allied aesthetic professionals) who advise on skin products and referrals",
         ],
-        "professionalScope": {"en": "Continuing professional education for licensed clinicians. It informs clinical reasoning; it is not a protocol, contains no dosing, and does not replace specialist input, formal guidelines or individual judgment."},
+        "professionalScope": {"en": "Continuing professional education for licensed clinicians and allied providers. Every learner gets the same evidence, regulatory status and safety content; what each may do with it — prescribe, recommend, administer, or refer — follows their own licence and scope, and the course adapts its application layer to that (see metadata.variants). It informs clinical reasoning; it is not a protocol, contains no dosing, and does not replace specialist input, formal guidelines or individual judgment."},
         "disclaimers": [
             {"en": "Educational content for clinicians. It does not prescribe, and it never restates an evidence grade above what the source assigns to the specific indication."},
             {"en": "Regulatory statements name their jurisdiction. US compounding examples (FDA 503A/503B) do not describe UK or EU status."},
@@ -234,6 +257,7 @@ pkg = {
             ],
         },
         "citations": CITATIONS,
+        "claims": CLAIMS,
     },
     "curriculum": {"pillars": PILLARS, "modules": modules},
     "credential": {
@@ -258,6 +282,24 @@ pkg = {
         "generatedAt": TODAY,
         "factory": "perceptor-foundry (main) · stage 20 curriculum skeleton",
         "template": "blended-certification (phone-first delivery, certification-grade checks; unit rendering decided at authoring — the runtime renders one story per module today)",
+        "variants": {
+            "dimensions": ["audienceLevel"],
+            "audienceLevel": {
+                "decision": "Omar 2026-09-22: all clinicians included — physicians, NPs, PAs, nurses and other providers — and the agentic LMS adapts to each learner's application level.",
+                "levels": [
+                    {"id": "prescriber", "who": "physicians, NPs, PAs with prescriptive authority", "application": "prescribing decisions, compounding pathway, documentation and informed consent, referral"},
+                    {"id": "clinical-staff", "who": "RNs, aesthetic nurses, injectors, clinical staff", "application": "administering and monitoring within protocol, recognising red flags, answering patient questions, escalation"},
+                    {"id": "advisor", "who": "pharmacists, naturopathic doctors, allied aesthetic professionals", "application": "product-level counselling, sourcing and regulatory awareness, when to refer to a prescriber"},
+                ],
+                "invariant": "evidence grades, regulatory status and safety signals never change by level; only the 'what you do next' layer, the case framing and the practice questions do",
+                "variantable": ["adjustment pane", "your-turn question", "case persona", "tutor persona"],
+            },
+        },
+        "review": {
+            "literatureGrader": "Omar Saleem / Perceptors — grades every citation in citations/<module>.md before authoring",
+            "finalReviewer": "Fady Hannah-Shmouni, MD FRCPC — receives the final draft for review (Omar 2026-09-22)",
+            "seasonReviewer": "pending",
+        },
         "assessmentPlan": assessments,
         "courseShape": "7 modules × 3 lessons = 21 lessons, ~3 h; module check per module, course quiz weighted across four pillars, capstone = one adversarial co-design conversation with a dossier output",
         "intake": {
@@ -267,9 +309,9 @@ pkg = {
             "directionApproved": "2026-09-21 via test client invitation — direction only, scientific review pending",
         },
         "openItems": [
-            "source lock confirmation: exclusions as written + who grades the module 04 literature (medical owner)",
-            "reviewer of record + SEASON reviewer",
-            "accreditation audience: physicians only vs multidisciplinary (plan question 1)",
+            "source lock confirmation: exclusions as written (grader decided: Omar/Perceptors)",
+            "module 04 literature grading by Omar (citations/m04.md) before authoring",
+            "SEASON reviewer",
             "balance between endocrinopathy-with-skin-signs and elective aesthetic peptide content (plan question 2)",
             "GB/EU regulatory mapping for the SEASON London audience",
             "primary citations per module before authoring (guides are single-author secondary sources)",
