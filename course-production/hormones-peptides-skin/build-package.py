@@ -319,7 +319,9 @@ pkg = {
     },
     "governance": {
         "requiredGates": ["medical_review", "brand_approval", "localization_review", "gcls_accreditation", "publish"],
-        "approvals": [a["approval"] for a in AUTHORED.values() if a.get("approval")],
+        # Changes made after an approval ride on that approval's notes (governance is outside the claim-support content digest),
+        # so the GCLS reviewer and the review agent see what the approver has not yet re-confirmed.
+        "approvals": [{**a["approval"], **({"notes": "Changed after this approval, awaiting the approver's confirmation: " + " | ".join(f"{c['block']}: {c['change']}" for c in a["postApprovalChanges"])} if a.get("postApprovalChanges") else {})} for a in AUTHORED.values() if a.get("approval")],
         "accreditation": {
             "body": "GCLS", "status": "not_submitted",
             "notes": "Designed toward future CME accreditation (Omar 2026-09-21; pathway confirmed 2026-09-24: CME to be sought through SEASON and its accredited joint-providership partner). CME-style measurable objectives, independence from commercial bias, disclosure of financial relationships. No CME/CE credit is claimed until that approval exists. GCLS accreditation: add-on licensed (Omar, 2026-09-24); the course goes to the GCLS review room after medical review of every module. The certificate is GCLS-issued only once GCLS accredits.",
