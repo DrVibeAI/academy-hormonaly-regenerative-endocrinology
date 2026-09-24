@@ -3316,7 +3316,7 @@
       },
       {
         "id": "c-m01-12",
-        "text": "Topical and transdermal treatments act through receptors the skin already carries, and local steroid-metabolising enzymes modify potency, so the cutaneous response need not mirror the dose; receptor presence is where an efficacy question starts, and efficacy still needs a human trial.",
+        "text": "Topical and transdermal treatments act through receptors the skin already carries, and local steroid-metabolising enzymes modify potency, so the cutaneous response need not mirror the dose; receptor presence is a hypothesis-generating starting point that needs validation, and says nothing yet about efficacy in people.",
         "citationRefs": [
           "hannah-shmouni-2026-are",
           "hormone-cell-atlas-portal"
@@ -4603,7 +4603,7 @@
       },
       {
         "id": "c-m05-17",
-        "text": "PTD-DBM fuses a cell-penetrating TAT fragment to a sequence that competes CXXC5 off Dishevelled, activating Wnt/β-catenin; in mice it accelerated hair regrowth and wound-induced follicle neogenesis, and CXXC5 is raised in human balding scalp. This single 2017 study from the developer's group is its whole evidence: no human trial is published (PubMed) or registered (ClinicalTrials.gov) as of 24 September 2026. The Peptide Pocket Guide grades it D.",
+        "text": "PTD-DBM is a cell-penetrating peptide that competes CXXC5 off Dishevelled, activating Wnt/β-catenin; in mice it accelerated hair regrowth and wound-induced follicle neogenesis, and CXXC5 is raised in human balding scalp. This single 2017 study from the developer's group is its whole evidence: no human trial is published (PubMed) or registered (ClinicalTrials.gov) as of 24 September 2026. The Peptide Pocket Guide grades it D.",
         "citationRefs": [
           "lee-2017-ptd-dbm-cxxc5-hair",
           "hannah-shmouni-2026-ppg-aug"
@@ -4632,7 +4632,7 @@
       },
       {
         "id": "c-m05-19",
-        "text": "Thymulin is a nine-residue thymic peptide that is biologically active only when zinc-bound. No indexed human study of zinc thymulin for hair was found (the Peptide Pocket Guide's cited case series could not be located); its proposed hair mechanism is undefined, and whether any effect comes from the peptide or the zinc is unresolved. The Peptide Pocket Guide grades it D.",
+        "text": "Thymulin is a thymic peptide that is biologically active only when zinc-bound. No indexed human study of zinc thymulin for hair was found (the Peptide Pocket Guide's cited case series could not be located); its proposed hair mechanism is undefined, and whether any effect comes from the peptide or the zinc is unresolved. The Peptide Pocket Guide grades it D.",
         "citationRefs": [
           "dardenne-1982-thymulin-zinc",
           "hannah-shmouni-2026-ppg-aug"
@@ -5721,7 +5721,7 @@
                     {
                       "id": "vitamin-d3",
                       "label": {
-                        "en": "UVB turns 7-dehydrocholesterol into vitamin D3, which the blood carries to liver and kidney"
+                        "en": "UVB turns 7-dehydrocholesterol into vitamin D3, which the blood carries to the liver"
                       },
                       "answer": "out",
                       "why": {
@@ -7367,7 +7367,7 @@
                     }
                   ],
                   "callout": {
-                    "en": "Local cortisol is set inside the skin, so a blood, saliva or hair cortisol cannot read it."
+                    "en": "Local cortisol is set inside the skin, independently of blood levels, so a systemic cortisol test does not measure it."
                   }
                 }
               },
@@ -8642,10 +8642,11 @@
                 },
                 "sourceNote": "Module 02",
                 "citationRefs": [
-                  "nieman-2008-cushings-diagnosis-guideline",
-                  "nams-2022-hormone-therapy-position-statement",
+                  "fda-mht-labeling-approval-2026-02-12",
+                  "hannah-shmouni-2026-are",
                   "martin-2018-hirsutism-guideline",
-                  "hannah-shmouni-2026-are"
+                  "nams-2022-hormone-therapy-position-statement",
+                  "nieman-2008-cushings-diagnosis-guideline"
                 ],
                 "action": {
                   "prompt": {
@@ -8716,7 +8717,7 @@
                     {
                       "value": "hrt-indication",
                       "label": {
-                        "en": "keep hormone therapy tied to symptoms and bone, never skin alone"
+                        "en": "keep hormone therapy to its approved uses (symptoms and bone); skin is not one of them"
                       },
                       "group": "evidence"
                     },
@@ -8747,10 +8748,11 @@
                   },
                   "pick": "many",
                   "citationRefs": [
-                    "nieman-2008-cushings-diagnosis-guideline",
-                    "nams-2022-hormone-therapy-position-statement",
+                    "fda-mht-labeling-approval-2026-02-12",
+                    "hannah-shmouni-2026-are",
                     "martin-2018-hirsutism-guideline",
-                    "hannah-shmouni-2026-are"
+                    "nams-2022-hormone-therapy-position-statement",
+                    "nieman-2008-cushings-diagnosis-guideline"
                   ],
                   "source": "authored:2026-09-24 from m2 tool items and the guide's ch. 5 referral list"
                 }
@@ -11432,7 +11434,7 @@
                   "en": "Three families, one question: who ran the trial?"
                 },
                 "body": {
-                  "en": "Signal peptides such as palmitoyl pentapeptide-4 (pal-KTTKS, Matrixyl) are meant to tell fibroblasts to make matrix. SNAP-25 mimics — Argireline, its longer cousin SNAP-8, and Leuphasyl — are meant to quieten expression lines. Oral collagen peptides are swallowed, not applied. All three families have a trial record, and in all three the question that matters most is who funded it."
+                  "en": "Signal peptides such as palmitoyl pentapeptide-4 (pal-KTTKS, Matrixyl) are meant to tell fibroblasts to make matrix. SNAP-25 mimics (Argireline and its longer cousin SNAP-8) and Leuphasyl, an enkephalin analogue, are meant to quieten expression lines. Oral collagen peptides are swallowed, not applied. All three families have a trial record, and in all three the question that matters most is who funded it."
                 },
                 "points": [
                   {
@@ -13753,12 +13755,16 @@
                   },
                   "pillar": "regulatory-safety",
                   "citationRefs": [
-                    "langendonk-2015-afamelanotide-epp",
-                    "fda-scenesse-label-2024",
                     "bohm-2025-mc1r-activation-review",
-                    "breindahl-2015-melanotan-ii-online-products"
+                    "breindahl-2015-melanotan-ii-online-products",
+                    "fda-scenesse-label-2024",
+                    "langendonk-2015-afamelanotide-epp",
+                    "mallory-2021-melanotan-priapism"
                   ]
-                }
+                },
+                "citationRefs": [
+                  "mallory-2021-melanotan-priapism"
+                ]
               },
               {
                 "id": "m5-p14",
@@ -13771,7 +13777,7 @@
                   "en": "A Wnt switch and a zinc question."
                 },
                 "body": {
-                  "en": "PTD-DBM joins a cell-penetrating fragment of the HIV Tat protein to a short decoy sequence that stops the protein CXXC5 from binding Dishevelled. Freed from that brake, Wnt/β-catenin signalling rises, and in mice hair regrew faster. Its developers also found CXXC5 raised in human balding scalp. Zinc thymulin is a thymic peptide that is active only when bound to zinc. How it might act on hair has never been defined, and whether any effect would come from the peptide or the zinc is unknown."
+                  "en": "PTD-DBM joins a cell-penetrating peptide to a short decoy sequence that stops the protein CXXC5 from binding Dishevelled. Freed from that brake, Wnt/β-catenin signalling rises, and in mice hair regrew faster. Its developers also found CXXC5 raised in human balding scalp. Zinc thymulin is a thymic peptide that is active only when bound to zinc. How it might act on hair has never been defined, and whether any effect would come from the peptide or the zinc is unknown."
                 },
                 "points": [
                   {
@@ -13813,7 +13819,7 @@
                       "en": "Zinc thymulin"
                     },
                     "body": {
-                      "en": "A nine-residue thymic hormone that works only with zinc bound. Its proposed hair effect has no defined mechanism and no indexed human study."
+                      "en": "A thymic hormone that works only with zinc bound. Its proposed hair effect has no defined mechanism and no indexed human study."
                     }
                   }
                 ],
@@ -14978,11 +14984,11 @@
                   }
                 ],
                 "citationRefs": [
-                  "liu-2007-gh-healthy-elderly",
                   "blackman-2002-gh-sex-steroids-rct",
-                  "usc-21-333e-hgh",
                   "genotropin-label-2026",
-                  "hannah-shmouni-2026-are"
+                  "hannah-shmouni-2026-are",
+                  "liu-2007-gh-healthy-elderly",
+                  "usc-21-333e-hgh"
                 ],
                 "sourceNote": "Liu 2007 · Blackman 2002 · 21 U.S.C. 333(e) · Aesthetic & Regenerative Endocrinology, ch. 14",
                 "audioBeats": [
@@ -16562,6 +16568,7 @@
               "ecfr-21-cfr-216-23-bulks-list",
               "ecfr-21-cfr-312-160",
               "ecfr-21-cfr-50-25",
+              "egrifta-wr-label-2026",
               "fda-503a-bulks-page",
               "fda-503a-categories-2026-05-14",
               "fda-503a-category2-safety-risks-page",
@@ -17181,12 +17188,13 @@
                   "en": "Since 23 March 2020 FDA defines a protein as an alpha amino acid polymer of more than 40 amino acids, whether or not it is chemically synthesized, so anything above the line is a biological product. On that date tesamorelin, a 44-residue GHRH analogue, and the enzyme hyaluronidase moved to biologics licences, and FDA told compounders that transitioned biologics cannot use the 503A or 503B exemptions."
                 },
                 "citationRefs": [
-                  "federal-register-2020-03505-biological-product",
-                  "fda-notice-compounders-2020-03-23",
+                  "egrifta-wr-label-2026",
                   "fda-deemed-bla-list-2020",
+                  "fda-notice-compounders-2020-03-23",
+                  "federal-register-2020-03505-biological-product",
+                  "hannah-shmouni-2026-ppg-aug",
                   "lilly-v-kennedy-2025-sdind-order",
-                  "lilly-v-kennedy-7th-cir-26-1301",
-                  "hannah-shmouni-2026-ppg-aug"
+                  "lilly-v-kennedy-7th-cir-26-1301"
                 ],
                 "sourceNote": "85 FR 10057 (2020) · FDA notice to compounders, March 2020 · FDA deemed-BLA list · Eli Lilly v. Kennedy (S.D. Ind. 2025; 7th Cir. No. 26-1301)",
                 "stat": {
@@ -18510,7 +18518,7 @@
           "options": [
             {
               "text": {
-                "en": "Skin-made vitamin D3 carried by the blood to the liver and kidney."
+                "en": "Skin-made vitamin D3 carried by the blood to the liver."
               },
               "why": {
                 "en": "That is the skin supplying a whole-body hormone system: skin to body."
@@ -18964,9 +18972,9 @@
           },
           "pillar": "physiology",
           "citationRefs": [
-            "veldhuis-2008-somatotropic-ageing",
+            "blackman-2002-gh-sex-steroids-rct",
             "liu-2007-gh-healthy-elderly",
-            "blackman-2002-gh-sex-steroids-rct"
+            "veldhuis-2008-somatotropic-ageing"
           ]
         },
         {
@@ -19160,11 +19168,12 @@
         "en": "Estrogen acts on receptors in skin. In small trials, hormone therapy thickened skin and raised collagen (graded C here). The largest trial on facial skin (485 women, 48 weeks) and a four-year trial in recently menopausal women found no difference in wrinkles. In the US, as of February 2026, approved uses of menopausal hormone therapy are hot flashes, vaginal and vulvar symptoms and, for some products, preventing bone loss; skin is not an indication and is never the reason to start. Compounded 'bioidentical' hormones lack efficacy and safety data, and an over-the-counter 'hormone cream' is an unapproved drug under US rules. For skin, daily sunscreen and a prescription retinoid have better evidence. This course gives no doses; hormone therapy decisions belong with a prescriber."
       },
       "citationRefs": [
-        "phillips-2008-ht-facial-skin-rct",
-        "fda-mht-labeling-approval-2026-02-12",
-        "nams-2022-hormone-therapy-position-statement",
         "ecfr-21-cfr-310-530-hormone-creams",
-        "hughes-2013-sunscreen-skin-aging-rct"
+        "fda-mht-labeling-approval-2026-02-12",
+        "hughes-2013-sunscreen-skin-aging-rct",
+        "nams-2022-hormone-therapy-position-statement",
+        "owen-2016-keeps-skin-wrinkles",
+        "phillips-2008-ht-facial-skin-rct"
       ],
       "scope": "m02"
     },
@@ -19374,10 +19383,10 @@
       },
       "citationRefs": [
         "ben-shlomo-2006-acromegaly-skin",
+        "egrifta-wr-label-2026",
         "katznelson-2014-acromegaly-guideline",
         "renehan-2004-igf1-cancer-meta",
-        "swerdlow-2017-saghe",
-        "egrifta-wr-label-2026"
+        "swerdlow-2017-saghe"
       ],
       "scope": "m06"
     },
@@ -19479,7 +19488,7 @@
         "approver": "Fady Hannah-Shmouni, MD FRCPC",
         "date": "2026-09-24",
         "scope": "module 04, review draft of 2026-09-24; approval relayed by Omar Saleem, 2026-09-24",
-        "notes": "Changed after this approval, awaiting the approver's confirmation: m4-p14: Named the single randomized BPC-157 trial FDA's July 2026 briefing identified (Ruenzi 2005, ulcerative colitis, meeting abstract only, no significant difference from placebo); title, body and stat wording updated; figure unchanged. Source: FDA PCAC briefing document (fda.gov/media/193343), read in full. | m4-p04, m4-p14: Removed two ClinicalTrials.gov records (NCT07437586 GHK-Cu wound gel; NCT07437547 BPC-157 hamstring) that the draft had cited as recruiting phase 2 trials. Their sponsor, 'Hudson Biotech', also holds a record titled '(Mock Study)', a record whose summary calls itself an 'example interventional study record', and a record re-using the SURMOUNT-1 title; their authenticity cannot be confirmed. The 'phase 2 recruiting' sentence on GHK-Cu is deleted; the BPC-157 list now names only the 2015 PharmaCotherapia phase 1, the 2025 Parlay Wellness product study and the 2026 University of Arkansas phase 1 (start 2027). | m4-p09 (classify): Leuphasyl: 'no independent or indexed human trial' corrected to 'no randomized trial'. An independent uncontrolled volunteer study exists (Dragomirescu 2014). The classify label 'Manufacturer data only' became 'No randomized trial'; grades unchanged. Found by the automated source check."
+        "notes": "Changed after this approval, awaiting the approver's confirmation: m4-p14: Named the single randomized BPC-157 trial FDA's July 2026 briefing identified (Ruenzi 2005, ulcerative colitis, meeting abstract only, no significant difference from placebo); title, body and stat wording updated; figure unchanged. Source: FDA PCAC briefing document (fda.gov/media/193343), read in full. | m4-p04, m4-p14: Removed two ClinicalTrials.gov records (NCT07437586 GHK-Cu wound gel; NCT07437547 BPC-157 hamstring) that the draft had cited as recruiting phase 2 trials. Their sponsor, 'Hudson Biotech', also holds a record titled '(Mock Study)', a record whose summary calls itself an 'example interventional study record', and a record re-using the SURMOUNT-1 title; their authenticity cannot be confirmed. The 'phase 2 recruiting' sentence on GHK-Cu is deleted; the BPC-157 list now names only the 2015 PharmaCotherapia phase 1, the 2025 Parlay Wellness product study and the 2026 University of Arkansas phase 1 (start 2027). | m4-p09 (classify): Leuphasyl: 'no independent or indexed human trial' corrected to 'no randomized trial'. An independent uncontrolled volunteer study exists (Dragomirescu 2014). The classify label 'Manufacturer data only' became 'No randomized trial'; grades unchanged. Found by the automated source check. | m4-p08: Leuphasyl is no longer grouped with the SNAP-25 mimics: it is an enkephalin analogue (as the module's own exercise already says). Wording only. Found by the automated source check."
       }
     ],
     "accreditation": {

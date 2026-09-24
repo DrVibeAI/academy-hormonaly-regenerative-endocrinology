@@ -447,7 +447,7 @@
      {
       "id": "vitamin-d3",
       "label": {
-       "en": "UVB turns 7-dehydrocholesterol into vitamin D3, which the blood carries to liver and kidney"
+       "en": "UVB turns 7-dehydrocholesterol into vitamin D3, which the blood carries to the liver"
       },
       "answer": "out",
       "why": {
@@ -1797,7 +1797,7 @@
    "options": [
     {
      "text": {
-      "en": "Skin-made vitamin D3 carried by the blood to the liver and kidney."
+      "en": "Skin-made vitamin D3 carried by the blood to the liver."
      },
      "why": {
       "en": "That is the skin supplying a whole-body hormone system: skin to body."
@@ -1893,6 +1893,11 @@
    "date": "2026-09-24",
    "blocks": "m1-p15, m1-p18, tutor-m01-senescence",
    "change": "The automated source check, which matches every cited sentence against the source's own text, contradicted two statements. Both are corrected. (1) Baker 2016 did measure skin: thickness, fibrosis and wound closure as safety checks, and clearance during healing slowed wound closure, so the course no longer says skin was not an endpoint. (2) Chung 2019 topical rapamycin was an exploratory randomized trial with clinical appearance described qualitatively. The course now says no adequately sized trial with clinical skin-ageing outcomes was found, and keeps 'no randomized senolytic trial' where the statement is about senolytics."
+  },
+  {
+   "date": "2026-09-24",
+   "blocks": "m1-p05, cq-m01-2, tutor-m01-atlas",
+   "change": "Source-check alignment: vitamin D3 'to the liver' (the cited source names the liver step); atlas tutor answer no longer adds 'including skin' beyond the abstract."
   }
  ]
 }

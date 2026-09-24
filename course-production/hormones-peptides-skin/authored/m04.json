@@ -468,7 +468,7 @@
     "en": "Three families, one question: who ran the trial?"
    },
    "body": {
-    "en": "Signal peptides such as palmitoyl pentapeptide-4 (pal-KTTKS, Matrixyl) are meant to tell fibroblasts to make matrix. SNAP-25 mimics — Argireline, its longer cousin SNAP-8, and Leuphasyl — are meant to quieten expression lines. Oral collagen peptides are swallowed, not applied. All three families have a trial record, and in all three the question that matters most is who funded it."
+    "en": "Signal peptides such as palmitoyl pentapeptide-4 (pal-KTTKS, Matrixyl) are meant to tell fibroblasts to make matrix. SNAP-25 mimics (Argireline and its longer cousin SNAP-8) and Leuphasyl, an enkephalin analogue, are meant to quieten expression lines. Oral collagen peptides are swallowed, not applied. All three families have a trial record, and in all three the question that matters most is who funded it."
    },
    "points": [
     {
@@ -1785,6 +1785,12 @@
    "date": "2026-09-24",
    "block": "m4-p09 (classify)",
    "change": "Leuphasyl: 'no independent or indexed human trial' corrected to 'no randomized trial'. An independent uncontrolled volunteer study exists (Dragomirescu 2014). The classify label 'Manufacturer data only' became 'No randomized trial'; grades unchanged. Found by the automated source check.",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-24",
+   "block": "m4-p08",
+   "change": "Leuphasyl is no longer grouped with the SNAP-25 mimics: it is an enkephalin analogue (as the module's own exercise already says). Wording only. Found by the automated source check.",
    "forReview": "Fady Hannah-Shmouni"
   }
  ]

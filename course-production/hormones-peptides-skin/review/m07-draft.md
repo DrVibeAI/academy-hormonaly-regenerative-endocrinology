@@ -144,7 +144,7 @@ Since 23 March 2020 FDA defines a protein as an alpha amino acid polymer of more
 *Means:* Size decides the rulebook. Peptides of 40 or fewer alpha amino acids stay drugs, so the 503A questions apply; above 40 the product is a biologic, and the compounding exemptions are closed to it.  
 *Does not mean:* It does not make a short peptide lawful to compound; BPC-157 (15 residues) and GHK (3) still need a 503A route. How residues are counted can be contested: a court upheld FDA's count of 39 for retatrutide in 2025, and the appeal was still open at the latest filings (June 2026).
 
-<sub>Sources: US Food and Drug Administration 2020 · US Food and Drug Administration 2020 · US Food and Drug Administration 2020 · US District Court 2025 · US Court of Appeals for the Seventh Circuit 2026 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026</sub>
+<sub>Sources: egrifta-wr-label-2026 · US Food and Drug Administration 2020 · US Food and Drug Administration 2020 · US Food and Drug Administration 2020 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · US District Court 2025 · US Court of Appeals for the Seventh Circuit 2026</sub>
 
 ### 10 / 20 · What a certificate can and cannot prove.  
 *Concept · audio*

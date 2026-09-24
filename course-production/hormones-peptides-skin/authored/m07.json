@@ -676,12 +676,13 @@
     "en": "Since 23 March 2020 FDA defines a protein as an alpha amino acid polymer of more than 40 amino acids, whether or not it is chemically synthesized, so anything above the line is a biological product. On that date tesamorelin, a 44-residue GHRH analogue, and the enzyme hyaluronidase moved to biologics licences, and FDA told compounders that transitioned biologics cannot use the 503A or 503B exemptions."
    },
    "citationRefs": [
-    "federal-register-2020-03505-biological-product",
-    "fda-notice-compounders-2020-03-23",
+    "egrifta-wr-label-2026",
     "fda-deemed-bla-list-2020",
+    "fda-notice-compounders-2020-03-23",
+    "federal-register-2020-03505-biological-product",
+    "hannah-shmouni-2026-ppg-aug",
     "lilly-v-kennedy-2025-sdind-order",
-    "lilly-v-kennedy-7th-cir-26-1301",
-    "hannah-shmouni-2026-ppg-aug"
+    "lilly-v-kennedy-7th-cir-26-1301"
    ],
    "sourceNote": "85 FR 10057 (2020) · FDA notice to compounders, March 2020 · FDA deemed-BLA list · Eli Lilly v. Kennedy (S.D. Ind. 2025; 7th Cir. No. 26-1301)",
    "stat": {
@@ -1957,6 +1958,11 @@
    "date": "2026-09-24",
    "blocks": "m7-p04",
    "change": "'rodent models' → 'animal models, mostly rodents' (the cited review also reports pig studies)."
+  },
+  {
+   "date": "2026-09-24",
+   "blocks": "m7-p09",
+   "change": "Tesamorelin's description cites the EGRIFTA WR label."
   }
  ]
 }

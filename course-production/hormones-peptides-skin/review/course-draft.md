@@ -21,12 +21,18 @@
 ### Changes since approval, and corrections from the source check
 
 - **m01** · m1-p15, m1-p18, tutor-m01-senescence (2026-09-24) — The automated source check, which matches every cited sentence against the source's own text, contradicted two statements. Both are corrected. (1) Baker 2016 did measure skin: thickness, fibrosis and wound closure as safety checks, and clearance during healing slowed wound closure, so the course no longer says skin was not an endpoint. (2) Chung 2019 topical rapamycin was an exploratory randomized trial with clinical appearance described qualitatively. The course now says no adequately sized trial with clinical skin-ageing outcomes was found, and keeps 'no randomized senolytic trial' where the statement is about senolytics.
+- **m01** · m1-p05, cq-m01-2, tutor-m01-atlas (2026-09-24) — Source-check alignment: vitamin D3 'to the liver' (the cited source names the liver step); atlas tutor answer no longer adds 'including skin' beyond the abstract.
+- **m02** · m2-p03, m2-p19, tutor-m02-hrt-skin (2026-09-24) — Source-check alignment: cortisol callout states what the source says (local regulation independent of systemic levels); HRT chip names approved uses and cites the FDA labeling record; KEEPS four-year trial cited in the tutor answer.
 - **m03** · m3-p08, m3-p15 (2026-09-24) — From the automated source check: the approvals moment now also cites the Wegovy and Zepbound labels; 'by about half' removed from the high-fat-meal endotoxin sentence (the abstract gives no size).
 - **m04** · m4-p14 (2026-09-24) — Named the single randomized BPC-157 trial FDA's July 2026 briefing identified (Ruenzi 2005, ulcerative colitis, meeting abstract only, no significant difference from placebo); title, body and stat wording updated; figure unchanged. Source: FDA PCAC briefing document (fda.gov/media/193343), read in full.
 - **m04** · m4-p04, m4-p14 (2026-09-24) — Removed two ClinicalTrials.gov records (NCT07437586 GHK-Cu wound gel; NCT07437547 BPC-157 hamstring) that the draft had cited as recruiting phase 2 trials. Their sponsor, 'Hudson Biotech', also holds a record titled '(Mock Study)', a record whose summary calls itself an 'example interventional study record', and a record re-using the SURMOUNT-1 title; their authenticity cannot be confirmed. The 'phase 2 recruiting' sentence on GHK-Cu is deleted; the BPC-157 list now names only the 2015 PharmaCotherapia phase 1, the 2025 Parlay Wellness product study and the 2026 University of Arkansas phase 1 (start 2027).
 - **m04** · m4-p09 (classify) (2026-09-24) — Leuphasyl: 'no independent or indexed human trial' corrected to 'no randomized trial'. An independent uncontrolled volunteer study exists (Dragomirescu 2014). The classify label 'Manufacturer data only' became 'No randomized trial'; grades unchanged. Found by the automated source check.
+- **m04** · m4-p08 (2026-09-24) — Leuphasyl is no longer grouped with the SNAP-25 mimics: it is an enkephalin analogue (as the module's own exercise already says). Wording only. Found by the automated source check.
 - **m05** · m5-check (2026-09-24) — Module check now cites both 1990s Melanotan II studies (Dorr 1996, Wessells 1998).
+- **m05** · m5-p14, m5-q2 (2026-09-24) — Source-check alignment: PTD-DBM described without the HIV Tat detail and thymulin without the residue count (neither in the cited abstracts); the quiz cites the priapism case report.
+- **m06** · m6-p05, cq-m06-2, tutor-m06-gh-excess (2026-09-24) — Source-check alignment: GH adverse-effect statements cite Liu 2007 (whose results list them); the GH-excess tutor answer cites the Endocrine Society acromegaly guideline.
 - **m07** · m7-p04 (2026-09-24) — 'rodent models' → 'animal models, mostly rodents' (the cited review also reports pig studies).
+- **m07** · m7-p09 (2026-09-24) — Tesamorelin's description cites the EGRIFTA WR label.
 
 ### Grading rule (applies to every module)
 
@@ -190,7 +196,7 @@ Hormone signals in skin run in three directions. Some are made and used in the s
 
 **Exercise (quickfire) · Which direction?** — One finding at a time: which way does the signal run?
 - Keratinocytes make cortisol that restrains immune cells in the same patch of skin → **Local loop** — *Local loop. Made and used where it is produced; the functional proof comes from mice that cannot make it in keratinocytes and develop skin inflammation.*
-- UVB turns 7-dehydrocholesterol into vitamin D3, which the blood carries to liver and kidney → **Skin to body** — *Skin to body. Vitamin D3 made in the skin is released into the circulation and activated elsewhere. Established human physiology.*
+- UVB turns 7-dehydrocholesterol into vitamin D3, which the blood carries to the liver → **Skin to body** — *Skin to body. Vitamin D3 made in the skin is released into the circulation and activated elsewhere. Established human physiology.*
 - Violaceous striae, thin skin and easy bruising in Cushing syndrome → **Body to skin** — *Body to skin. Systemic cortisol excess acting on the dermis. The Aesthetic & Regenerative Endocrinology guide lists suspected Cushing syndrome as a reason to refer promptly.*
 - Scalp hair follicles kept alive in culture secrete cortisol, then switch off their own CRH → **Local loop** — *Local loop, with its own feedback, running with no blood supply or nerves attached. Human tissue, ex vivo.*
 - Skin converts circulating precursors into androgens and estrogens that add to the body's supply → **Skin to body** — *Skin to body. Reviews describe a skin contribution to circulating sex steroids, more so in older people; the evidence is mainly biochemical.*
@@ -496,7 +502,7 @@ Local cortisol regeneration is a real and interesting mechanism. Each register b
 | Regulatory status (US, 24 September 2026) | Investigational only | The inhibitor tested in human skin is a research compound with no FDA approval |
 | Open question | Does it drive visible ageing? | No registered trial tests an 11β-HSD1 inhibitor for skin ageing (ClinicalTrials.gov, 24 September 2026) |
 
-**Callout:** Local cortisol is set inside the skin, so a blood, saliva or hair cortisol cannot read it.
+**Callout:** Local cortisol is set inside the skin, independently of blood levels, so a systemic cortisol test does not measure it.
 
 <sub>Sources: Tiganescu A 2011 · Tiganescu A 2013 · Ajjan RA 2022 · University of Leeds 2018 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
 
@@ -773,14 +779,14 @@ One question to close lesson 2.3.
 Build the checklist you will actually use. It is saved to your path and your tutor will bring it back.
 
 **Exercise (chips) · Your hormone-and-skin checklist** — Tap everything you will do. Choose as many as you like.
-*Before I treat a skin complaint that might be hormonal I will …* take a steroid history, including creams, skin-lighteners and injections · check for bruising, plethora, proximal weakness and wide purple striae · keep hormone therapy tied to symptoms and bone, never skin alone · route rapid hirsutism, virilization or new darkening urgently · refer lip and eyelid lentigines, angiofibromas or interscapular amyloidosis · document what I saw and where I referred
+*Before I treat a skin complaint that might be hormonal I will …* take a steroid history, including creams, skin-lighteners and injections · check for bruising, plethora, proximal weakness and wide purple striae · keep hormone therapy to its approved uses (symptoms and bone); skin is not one of them · route rapid hirsutism, virilization or new darkening urgently · refer lip and eyelid lentigines, angiofibromas or interscapular amyloidosis · document what I saw and where I referred
 
 **By role**
 - *Prescriber:* Your checklist ends with the order or the referral: which test, which specialist, and what you documented.
 - *Clinical staff:* Your checklist ends with escalation: red-flag findings go to the prescriber before the next treatment.
 - *Advisor:* Your checklist ends with referral: product questions you can answer; hormonal signs and hormone requests go to a prescriber.
 
-<sub>Sources: Nieman LK 2008 · North American Menopause Society (2022 Hormone Therapy Advisory Panel) 2022 · Martin KA 2018 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
+<sub>Sources: US Food and Drug Administration 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · Martin KA 2018 · North American Menopause Society (2022 Hormone Therapy Advisory Panel) 2022 · Nieman LK 2008</sub>
 
 
 ## Module check
@@ -1258,7 +1264,7 @@ One question to close lesson 4.1.
 ### 08 / 19 · Three families, one question: who ran the trial?  
 *Lesson 4.2 · Concept · audio*
 
-Signal peptides such as palmitoyl pentapeptide-4 (pal-KTTKS, Matrixyl) are meant to tell fibroblasts to make matrix. SNAP-25 mimics — Argireline, its longer cousin SNAP-8, and Leuphasyl — are meant to quieten expression lines. Oral collagen peptides are swallowed, not applied. All three families have a trial record, and in all three the question that matters most is who funded it.
+Signal peptides such as palmitoyl pentapeptide-4 (pal-KTTKS, Matrixyl) are meant to tell fibroblasts to make matrix. SNAP-25 mimics (Argireline and its longer cousin SNAP-8) and Leuphasyl, an enkephalin analogue, are meant to quieten expression lines. Oral collagen peptides are swallowed, not applied. All three families have a trial record, and in all three the question that matters most is who funded it.
 
 - Signal peptides: 'make more matrix'
 - SNAP-25 mimics: 'relax the line'
@@ -1702,13 +1708,15 @@ One question to close lesson 5.2.
 - ✔ They are different molecules. Afamelanotide is approved only for erythropoietic protoporphyria; Melanotan II acts on several receptors, is approved nowhere, and is linked in case reports to changing moles and priapism. — *Correct. Same family, different selectivity, different evidence and different legal standing.*
 - ✗ Melanotan II is safe if it comes from a reputable seller. — *No seller can make it approved, and tested online products held less than the labelled amount, with unknown impurities.*
 
+<sub>Sources: Mallory CW 2021</sub>
+
 
 ## Lesson 5.3 · Investigational hair peptides and how to grade them
 
 ### 14 / 19 · A Wnt switch and a zinc question.  
 *Lesson 5.3 · Concept · audio*
 
-PTD-DBM joins a cell-penetrating fragment of the HIV Tat protein to a short decoy sequence that stops the protein CXXC5 from binding Dishevelled. Freed from that brake, Wnt/β-catenin signalling rises, and in mice hair regrew faster. Its developers also found CXXC5 raised in human balding scalp. Zinc thymulin is a thymic peptide that is active only when bound to zinc. How it might act on hair has never been defined, and whether any effect would come from the peptide or the zinc is unknown.
+PTD-DBM joins a cell-penetrating peptide to a short decoy sequence that stops the protein CXXC5 from binding Dishevelled. Freed from that brake, Wnt/β-catenin signalling rises, and in mice hair regrew faster. Its developers also found CXXC5 raised in human balding scalp. Zinc thymulin is a thymic peptide that is active only when bound to zinc. How it might act on hair has never been defined, and whether any effect would come from the peptide or the zinc is unknown.
 
 - PTD-DBM: releases a Wnt brake (mouse data)
 - Zinc thymulin: a zinc-dependent thymic peptide
@@ -1908,7 +1916,7 @@ Here the physiology meets the waiting room. A patient in their fifties has read 
 
 </details>
 
-<sub>Sources: Liu H 2007 · Blackman MR 2002 · Office of the Law Revision Counsel 2026 · Pfizer (FDA-approved labeling) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
+<sub>Sources: Blackman MR 2002 · Pfizer (FDA-approved labeling) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · Liu H 2007 · Office of the Law Revision Counsel 2026</sub>
 
 ### 06 / 19 · 'Low for my age.'  
 *Your turn · quiz*
@@ -2309,7 +2317,7 @@ Since 23 March 2020 FDA defines a protein as an alpha amino acid polymer of more
 *Means:* Size decides the rulebook. Peptides of 40 or fewer alpha amino acids stay drugs, so the 503A questions apply; above 40 the product is a biologic, and the compounding exemptions are closed to it.  
 *Does not mean:* It does not make a short peptide lawful to compound; BPC-157 (15 residues) and GHK (3) still need a 503A route. How residues are counted can be contested: a court upheld FDA's count of 39 for retatrutide in 2025, and the appeal was still open at the latest filings (June 2026).
 
-<sub>Sources: US Food and Drug Administration 2020 · US Food and Drug Administration 2020 · US Food and Drug Administration 2020 · US District Court 2025 · US Court of Appeals for the Seventh Circuit 2026 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026</sub>
+<sub>Sources: egrifta-wr-label-2026 · US Food and Drug Administration 2020 · US Food and Drug Administration 2020 · US Food and Drug Administration 2020 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · US District Court 2025 · US Court of Appeals for the Seventh Circuit 2026</sub>
 
 ### 10 / 20 · What a certificate can and cannot prove.  
 *Concept · audio*

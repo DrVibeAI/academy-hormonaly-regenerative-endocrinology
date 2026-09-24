@@ -222,13 +222,15 @@ One question to close lesson 5.2.
 - ✔ They are different molecules. Afamelanotide is approved only for erythropoietic protoporphyria; Melanotan II acts on several receptors, is approved nowhere, and is linked in case reports to changing moles and priapism. — *Correct. Same family, different selectivity, different evidence and different legal standing.*
 - ✗ Melanotan II is safe if it comes from a reputable seller. — *No seller can make it approved, and tested online products held less than the labelled amount, with unknown impurities.*
 
+<sub>Sources: Mallory CW 2021</sub>
+
 
 ## Lesson 5.3 · Investigational hair peptides and how to grade them
 
 ### 14 / 19 · A Wnt switch and a zinc question.  
 *Lesson 5.3 · Concept · audio*
 
-PTD-DBM joins a cell-penetrating fragment of the HIV Tat protein to a short decoy sequence that stops the protein CXXC5 from binding Dishevelled. Freed from that brake, Wnt/β-catenin signalling rises, and in mice hair regrew faster. Its developers also found CXXC5 raised in human balding scalp. Zinc thymulin is a thymic peptide that is active only when bound to zinc. How it might act on hair has never been defined, and whether any effect would come from the peptide or the zinc is unknown.
+PTD-DBM joins a cell-penetrating peptide to a short decoy sequence that stops the protein CXXC5 from binding Dishevelled. Freed from that brake, Wnt/β-catenin signalling rises, and in mice hair regrew faster. Its developers also found CXXC5 raised in human balding scalp. Zinc thymulin is a thymic peptide that is active only when bound to zinc. How it might act on hair has never been defined, and whether any effect would come from the peptide or the zinc is unknown.
 
 - PTD-DBM: releases a Wnt brake (mouse data)
 - Zinc thymulin: a zinc-dependent thymic peptide

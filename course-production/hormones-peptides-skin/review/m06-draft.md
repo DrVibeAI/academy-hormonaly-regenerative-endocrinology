@@ -90,7 +90,7 @@ Here the physiology meets the waiting room. A patient in their fifties has read 
 
 </details>
 
-<sub>Sources: Liu H 2007 · Blackman MR 2002 · Office of the Law Revision Counsel 2026 · Pfizer (FDA-approved labeling) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
+<sub>Sources: Blackman MR 2002 · Pfizer (FDA-approved labeling) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · Liu H 2007 · Office of the Law Revision Counsel 2026</sub>
 
 ### 06 / 19 · 'Low for my age.'  
 *Your turn · quiz*

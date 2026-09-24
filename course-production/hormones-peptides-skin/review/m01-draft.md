@@ -76,7 +76,7 @@ Hormone signals in skin run in three directions. Some are made and used in the s
 
 **Exercise (quickfire) · Which direction?** — One finding at a time: which way does the signal run?
 - Keratinocytes make cortisol that restrains immune cells in the same patch of skin → **Local loop** — *Local loop. Made and used where it is produced; the functional proof comes from mice that cannot make it in keratinocytes and develop skin inflammation.*
-- UVB turns 7-dehydrocholesterol into vitamin D3, which the blood carries to liver and kidney → **Skin to body** — *Skin to body. Vitamin D3 made in the skin is released into the circulation and activated elsewhere. Established human physiology.*
+- UVB turns 7-dehydrocholesterol into vitamin D3, which the blood carries to the liver → **Skin to body** — *Skin to body. Vitamin D3 made in the skin is released into the circulation and activated elsewhere. Established human physiology.*
 - Violaceous striae, thin skin and easy bruising in Cushing syndrome → **Body to skin** — *Body to skin. Systemic cortisol excess acting on the dermis. The Aesthetic & Regenerative Endocrinology guide lists suspected Cushing syndrome as a reason to refer promptly.*
 - Scalp hair follicles kept alive in culture secrete cortisol, then switch off their own CRH → **Local loop** — *Local loop, with its own feedback, running with no blood supply or nerves attached. Human tissue, ex vivo.*
 - Skin converts circulating precursors into androgens and estrogens that add to the body's supply → **Skin to body** — *Skin to body. Reviews describe a skin contribution to circulating sex steroids, more so in older people; the evidence is mainly biochemical.*

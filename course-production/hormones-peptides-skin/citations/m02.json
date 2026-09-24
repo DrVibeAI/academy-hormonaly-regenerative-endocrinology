@@ -112,7 +112,8 @@
    "guideGrade": "—",
    "note": "full text read at pmc.ncbi.nlm.nih.gov (PMC2386281) 2026-09-24; test names only, doses not reproduced",
    "grade": "context",
-   "gradeNote": "clinical practice guideline — primary for what it recommends (who to test: 1⊕⊕○○); not graded for efficacy"
+   "gradeNote": "clinical practice guideline — primary for what it recommends (who to test: 1⊕⊕○○); not graded for efficacy",
+   "pmcid": "PMC2386281"
   },
   {
    "id": "thornton-2013-estrogens-aging-skin",
@@ -594,7 +595,8 @@
    "guideGrade": "—",
    "note": "not cited by the guides; full text fetched live from academic.oup.com 2026-09-24; treatment doses not reproduced",
    "grade": "context",
-   "gradeNote": "clinical practice guideline — primary for what it recommends"
+   "gradeNote": "clinical practice guideline — primary for what it recommends",
+   "pmcid": "PMC4880116"
   }
  ],
  "claims": [

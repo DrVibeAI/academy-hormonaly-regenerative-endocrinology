@@ -45,7 +45,7 @@ Local cortisol regeneration is a real and interesting mechanism. Each register b
 | Regulatory status (US, 24 September 2026) | Investigational only | The inhibitor tested in human skin is a research compound with no FDA approval |
 | Open question | Does it drive visible ageing? | No registered trial tests an 11β-HSD1 inhibitor for skin ageing (ClinicalTrials.gov, 24 September 2026) |
 
-**Callout:** Local cortisol is set inside the skin, so a blood, saliva or hair cortisol cannot read it.
+**Callout:** Local cortisol is set inside the skin, independently of blood levels, so a systemic cortisol test does not measure it.
 
 <sub>Sources: Tiganescu A 2011 · Tiganescu A 2013 · Ajjan RA 2022 · University of Leeds 2018 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
 
@@ -322,14 +322,14 @@ One question to close lesson 2.3.
 Build the checklist you will actually use. It is saved to your path and your tutor will bring it back.
 
 **Exercise (chips) · Your hormone-and-skin checklist** — Tap everything you will do. Choose as many as you like.
-*Before I treat a skin complaint that might be hormonal I will …* take a steroid history, including creams, skin-lighteners and injections · check for bruising, plethora, proximal weakness and wide purple striae · keep hormone therapy tied to symptoms and bone, never skin alone · route rapid hirsutism, virilization or new darkening urgently · refer lip and eyelid lentigines, angiofibromas or interscapular amyloidosis · document what I saw and where I referred
+*Before I treat a skin complaint that might be hormonal I will …* take a steroid history, including creams, skin-lighteners and injections · check for bruising, plethora, proximal weakness and wide purple striae · keep hormone therapy to its approved uses (symptoms and bone); skin is not one of them · route rapid hirsutism, virilization or new darkening urgently · refer lip and eyelid lentigines, angiofibromas or interscapular amyloidosis · document what I saw and where I referred
 
 **By role**
 - *Prescriber:* Your checklist ends with the order or the referral: which test, which specialist, and what you documented.
 - *Clinical staff:* Your checklist ends with escalation: red-flag findings go to the prescriber before the next treatment.
 - *Advisor:* Your checklist ends with referral: product questions you can answer; hormonal signs and hormone requests go to a prescriber.
 
-<sub>Sources: Nieman LK 2008 · North American Menopause Society (2022 Hormone Therapy Advisory Panel) 2022 · Martin KA 2018 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
+<sub>Sources: US Food and Drug Administration 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · Martin KA 2018 · North American Menopause Society (2022 Hormone Therapy Advisory Panel) 2022 · Nieman LK 2008</sub>
 
 
 ## Module check

@@ -108,7 +108,7 @@ One question to close lesson 4.1.
 ### 08 / 19 · Three families, one question: who ran the trial?  
 *Lesson 4.2 · Concept · audio*
 
-Signal peptides such as palmitoyl pentapeptide-4 (pal-KTTKS, Matrixyl) are meant to tell fibroblasts to make matrix. SNAP-25 mimics — Argireline, its longer cousin SNAP-8, and Leuphasyl — are meant to quieten expression lines. Oral collagen peptides are swallowed, not applied. All three families have a trial record, and in all three the question that matters most is who funded it.
+Signal peptides such as palmitoyl pentapeptide-4 (pal-KTTKS, Matrixyl) are meant to tell fibroblasts to make matrix. SNAP-25 mimics (Argireline and its longer cousin SNAP-8) and Leuphasyl, an enkephalin analogue, are meant to quieten expression lines. Oral collagen peptides are swallowed, not applied. All three families have a trial record, and in all three the question that matters most is who funded it.
 
 - Signal peptides: 'make more matrix'
 - SNAP-25 mimics: 'relax the line'

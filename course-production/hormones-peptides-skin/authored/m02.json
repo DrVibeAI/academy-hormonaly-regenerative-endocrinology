@@ -249,7 +249,7 @@
      }
     ],
     "callout": {
-     "en": "Local cortisol is set inside the skin, so a blood, saliva or hair cortisol cannot read it."
+     "en": "Local cortisol is set inside the skin, independently of blood levels, so a systemic cortisol test does not measure it."
     }
    }
   },
@@ -1524,10 +1524,11 @@
    },
    "sourceNote": "Module 02",
    "citationRefs": [
-    "nieman-2008-cushings-diagnosis-guideline",
-    "nams-2022-hormone-therapy-position-statement",
+    "fda-mht-labeling-approval-2026-02-12",
+    "hannah-shmouni-2026-are",
     "martin-2018-hirsutism-guideline",
-    "hannah-shmouni-2026-are"
+    "nams-2022-hormone-therapy-position-statement",
+    "nieman-2008-cushings-diagnosis-guideline"
    ],
    "action": {
     "prompt": {
@@ -1598,7 +1599,7 @@
      {
       "value": "hrt-indication",
       "label": {
-       "en": "keep hormone therapy tied to symptoms and bone, never skin alone"
+       "en": "keep hormone therapy to its approved uses (symptoms and bone); skin is not one of them"
       },
       "group": "evidence"
      },
@@ -1629,10 +1630,11 @@
     },
     "pick": "many",
     "citationRefs": [
-     "nieman-2008-cushings-diagnosis-guideline",
-     "nams-2022-hormone-therapy-position-statement",
+     "fda-mht-labeling-approval-2026-02-12",
+     "hannah-shmouni-2026-are",
      "martin-2018-hirsutism-guideline",
-     "hannah-shmouni-2026-are"
+     "nams-2022-hormone-therapy-position-statement",
+     "nieman-2008-cushings-diagnosis-guideline"
     ],
     "source": "authored:2026-09-24 from m2 tool items and the guide's ch. 5 referral list"
    }
@@ -1898,13 +1900,21 @@
     "en": "Estrogen acts on receptors in skin. In small trials, hormone therapy thickened skin and raised collagen (graded C here). The largest trial on facial skin (485 women, 48 weeks) and a four-year trial in recently menopausal women found no difference in wrinkles. In the US, as of February 2026, approved uses of menopausal hormone therapy are hot flashes, vaginal and vulvar symptoms and, for some products, preventing bone loss; skin is not an indication and is never the reason to start. Compounded 'bioidentical' hormones lack efficacy and safety data, and an over-the-counter 'hormone cream' is an unapproved drug under US rules. For skin, daily sunscreen and a prescription retinoid have better evidence. This course gives no doses; hormone therapy decisions belong with a prescriber."
    },
    "citationRefs": [
-    "phillips-2008-ht-facial-skin-rct",
-    "fda-mht-labeling-approval-2026-02-12",
-    "nams-2022-hormone-therapy-position-statement",
     "ecfr-21-cfr-310-530-hormone-creams",
-    "hughes-2013-sunscreen-skin-aging-rct"
+    "fda-mht-labeling-approval-2026-02-12",
+    "hughes-2013-sunscreen-skin-aging-rct",
+    "nams-2022-hormone-therapy-position-statement",
+    "owen-2016-keeps-skin-wrinkles",
+    "phillips-2008-ht-facial-skin-rct"
    ],
    "scope": "m02"
+  }
+ ],
+ "reviewNotes": [
+  {
+   "date": "2026-09-24",
+   "blocks": "m2-p03, m2-p19, tutor-m02-hrt-skin",
+   "change": "Source-check alignment: cortisol callout states what the source says (local regulation independent of systemic levels); HRT chip names approved uses and cites the FDA labeling record; KEEPS four-year trial cited in the tutor answer."
   }
  ]
 }

@@ -1035,12 +1035,16 @@
     },
     "pillar": "regulatory-safety",
     "citationRefs": [
-     "langendonk-2015-afamelanotide-epp",
-     "fda-scenesse-label-2024",
      "bohm-2025-mc1r-activation-review",
-     "breindahl-2015-melanotan-ii-online-products"
+     "breindahl-2015-melanotan-ii-online-products",
+     "fda-scenesse-label-2024",
+     "langendonk-2015-afamelanotide-epp",
+     "mallory-2021-melanotan-priapism"
     ]
-   }
+   },
+   "citationRefs": [
+    "mallory-2021-melanotan-priapism"
+   ]
   },
   {
    "id": "m5-p14",
@@ -1053,7 +1057,7 @@
     "en": "A Wnt switch and a zinc question."
    },
    "body": {
-    "en": "PTD-DBM joins a cell-penetrating fragment of the HIV Tat protein to a short decoy sequence that stops the protein CXXC5 from binding Dishevelled. Freed from that brake, Wnt/β-catenin signalling rises, and in mice hair regrew faster. Its developers also found CXXC5 raised in human balding scalp. Zinc thymulin is a thymic peptide that is active only when bound to zinc. How it might act on hair has never been defined, and whether any effect would come from the peptide or the zinc is unknown."
+    "en": "PTD-DBM joins a cell-penetrating peptide to a short decoy sequence that stops the protein CXXC5 from binding Dishevelled. Freed from that brake, Wnt/β-catenin signalling rises, and in mice hair regrew faster. Its developers also found CXXC5 raised in human balding scalp. Zinc thymulin is a thymic peptide that is active only when bound to zinc. How it might act on hair has never been defined, and whether any effect would come from the peptide or the zinc is unknown."
    },
    "points": [
     {
@@ -1095,7 +1099,7 @@
       "en": "Zinc thymulin"
      },
      "body": {
-      "en": "A nine-residue thymic hormone that works only with zinc bound. Its proposed hair effect has no defined mechanism and no indexed human study."
+      "en": "A thymic hormone that works only with zinc bound. Its proposed hair effect has no defined mechanism and no indexed human study."
      }
     }
    ],
@@ -1866,6 +1870,11 @@
    "date": "2026-09-24",
    "blocks": "m5-check",
    "change": "Module check now cites both 1990s Melanotan II studies (Dorr 1996, Wessells 1998)."
+  },
+  {
+   "date": "2026-09-24",
+   "blocks": "m5-p14, m5-q2",
+   "change": "Source-check alignment: PTD-DBM described without the HIV Tat detail and thymulin without the residue count (neither in the cited abstracts); the quiz cites the priapism case report."
   }
  ]
 }
