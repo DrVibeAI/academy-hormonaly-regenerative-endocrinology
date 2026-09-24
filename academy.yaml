@@ -1,9 +1,9 @@
 # Academy catalog — Hormonaly (Aesthetic & Regenerative Endocrinology)
 academy: hormonaly
 brand:
-  voices:                       # INTAKE: real-faculty voice not yet on file; text-only Guía until release arrives
+  voices:                       # stock library voice (no faculty likeness/voice without a release); intake video brief: "voice: library"
     es-MX: { voice_id: "", name: "" }
-    en: { voice_id: "", name: "" }
+    en: { voice_id: "Xb7hH8MSUJpSbSDYk0k2", name: "Alice — Clear, Engaging Educator (ElevenLabs library)" }   # narration on demand + tutor voice
   name: Hormonaly Academy
   shortName: Hormonaly
   wordmarkSuffix: ACADEMY              # typographic wordmark (no logo asset yet): "Hormonaly" in the display serif + mono suffix
