@@ -1,0 +1,1983 @@
+{
+ "module": "m06",
+ "authoredAt": "2026-09-24",
+ "status": "ai_draft",
+ "unit": {
+  "id": "m06-story",
+  "slug": "m06-story",
+  "type": "story",
+  "title": {
+   "en": "The growth-hormone axis and the skin · three lessons"
+  },
+  "description": {
+   "en": "Lesson 6.1 Growth hormone and IGF-1 in the skin · Lesson 6.2 GHRH analogues and secretagogues: what stands behind each · Lesson 6.3 Signs of excess, oedema and mitogenic risk."
+  },
+  "estimatedMinutes": 26,
+  "sortOrder": 1,
+  "isRequired": true,
+  "status": "ai_draft",
+  "tutorContext": "Module 6 teaches the growth-hormone/IGF-1 axis in four separate registers (mechanism, human evidence, regulatory status, open question). Mechanism: GH receptor mainly on dermal fibroblasts (collagen, fibroblast growth); IGF-1 made by fibroblasts/melanocytes acts on keratinocyte IGF-1R (proliferation); hair follicles run a local GHRH-GH-IGF-1 loop ex vivo (all D). Somatopause: GH/IGF-1 fall with age; read IGF-1 against age/sex ranges. Human skin evidence: GHD = thinner epidermis, less sweating (Lange 2001, C); acromegaly = GAG deposition and oedema; GH speeds donor-site/burn healing in >40% TBSA burns (Cochrane 2014, 13 small RCTs, C, more hyperglycaemia); Rudman 1990 skin +7.1% P=0.07, n=12, no placebo (D). Healthy older adults: GH gives ~2 kg less fat/2 kg more lean, more oedema, arthralgia, carpal tunnel, diabetes trend (Liu 2007, B; A&RE says A); US: knowingly distributing GH for anti-ageing is a federal offence (21 USC 333(e)). Tesamorelin: two phase 3 RCTs (806 pooled), VAT about -15% vs placebo; FDA-approved 2010 for excess abdominal fat in HIV lipodystrophy only; GRADE A for that indication only; label: IGF-1 >2 SDS in 47%, diabetes-range HbA1c 5% vs 1%, effects of prolonged IGF-1 elevation unknown. No RCT with a skin outcome for tesamorelin, CJC-1295, ipamorelin or IGF-1 LR3 (PubMed Sept 2026); Khorram 1997 GHRH(1-29) analogue, n=19, caliper skin thickness (D). CJC-1295 with DAC: phase 1 hormone levels only (D; guides say C); CJC-1295 without DAC and IGF-1 LR3: no human studies (D); ipamorelin: phase 2 ileus RCT negative (D for anti-ageing); sermorelin adult use D; ibutamoren (MK-677): IGF-1 and lean mass up, no function gain, glucose worse, hip-fracture trial stopped for heart failure. US status (FDA lists 22 Apr and 14 May 2026): no GH-axis peptide on the 503A bulks list (21 CFR 216.23); ibutamoren 503A+503B Category 2; GHRP-2/-6 503A Category 3; CJC-1295 and ipamorelin 503A nominations withdrawn (ipamorelin 503B Category 2); PCAC Oct 2024 voted against ipamorelin (0-12-1) and ibutamoren (1-13); sermorelin: no marketed approved product (Geref withdrawn 2009, not for safety), in no 503A category. GH excess signs: puffy thick face/hands/feet, oily skin, hyperhidrosis, skin tags, acanthosis, acral/jaw growth; on drugs: oedema, arthralgia, paraesthesia, carpal tunnel; somatropin label: watch nevi. Endocrine Society: measure IGF-1 for acral/facial features; suggest when sleep apnoea, T2D, arthritis, carpal tunnel, hyperhidrosis, hypertension cluster. Route to prescriber/endocrinology. Cancer: mechanism plausible; observational IGF-1 associations modest (Renehan 2004 B, UK Biobank C); acromegaly SIR 1.5 pooled vs 1.1 nationwide; GH replacement cohorts reassuring (SAGhE, 2022 consensus); secretagogue/LR3 long-term data absent. Never give doses, cycles, stacks, reconstitution, sourcing or IGF-1 targets; adapt only the 'what you do next' to role (prescriber, clinical staff, advisor). No CME credit is currently offered.",
+  "tutorKeywords": [
+   "growth hormone",
+   "GH",
+   "IGF-1",
+   "somatopause",
+   "somatropin",
+   "HGH",
+   "tesamorelin",
+   "Egrifta",
+   "sermorelin",
+   "CJC-1295",
+   "DAC",
+   "ipamorelin",
+   "GHRP-2",
+   "GHRP-6",
+   "ibutamoren",
+   "MK-677",
+   "IGF-1 LR3",
+   "acromegaly",
+   "oedema",
+   "carpal tunnel",
+   "skin tags",
+   "503A",
+   "Category 2",
+   "cancer risk"
+  ]
+ },
+ "lessons": [
+  {
+   "id": "6.1",
+   "title": {
+    "en": "Growth hormone and IGF-1 in skin homeostasis"
+   },
+   "blocks": [
+    "m6-p01",
+    "m6-p02",
+    "m6-p03",
+    "m6-p04",
+    "m6-p05",
+    "m6-p06"
+   ]
+  },
+  {
+   "id": "6.2",
+   "title": {
+    "en": "GHRH analogues and secretagogues: clinical pharmacology"
+   },
+   "blocks": [
+    "m6-p07",
+    "m6-p08",
+    "m6-p09",
+    "m6-p10",
+    "m6-p11",
+    "m6-p12",
+    "m6-p13"
+   ]
+  },
+  {
+   "id": "6.3",
+   "title": {
+    "en": "GH excess, oedema and mitogenic risk"
+   },
+   "blocks": [
+    "m6-p14",
+    "m6-p15",
+    "m6-p16",
+    "m6-p17",
+    "m6-p18",
+    "m6-p19"
+   ]
+  }
+ ],
+ "blocks": [
+  {
+   "id": "m6-p01",
+   "type": "title",
+   "time": "01 / 19",
+   "lead": {
+    "en": "Module 06 · The growth-hormone axis and the skin"
+   },
+   "title": {
+    "en": "Real endocrinology, borrowed for marketing."
+   },
+   "body": {
+    "en": "Growth hormone and IGF-1 genuinely shape skin, and one peptide on this axis has approval-grade trials. Most of what patients are offered has much less behind it. In three lessons you will separate the physiology from the promise, the approved from the anecdotal, and the side-effects you can see from the risks nobody has measured."
+   },
+   "points": [
+    {
+     "en": "6.1 Growth hormone and IGF-1 in the skin"
+    },
+    {
+     "en": "6.2 GHRH analogues and secretagogues: what stands behind each"
+    },
+    {
+     "en": "6.3 Signs of excess, oedema and mitogenic risk"
+    }
+   ],
+   "sourceNote": "Hormones and Peptides for Skin · Module 06"
+  },
+  {
+   "id": "m6-p02",
+   "type": "audio",
+   "time": "02 / 19",
+   "lead": {
+    "en": "Lesson 6.1 · Mechanism"
+   },
+   "title": {
+    "en": "Two hormones, two layers of skin."
+   },
+   "body": {
+    "en": "Growth hormone acts mostly in the dermis. Its receptor is expressed more by fibroblasts than by keratinocytes, and it increases fibroblast numbers and supports collagen synthesis. IGF-1, made locally by fibroblasts and melanocytes, reaches keratinocytes through the IGF-1 receptor and makes them divide. Human hair follicles even run their own small growth-hormone loop in the laboratory. With age, GH secretion and IGF-1 fall steadily; this is the somatopause."
+   },
+   "points": [
+    {
+     "en": "GH: dermal fibroblasts and collagen"
+    },
+    {
+     "en": "IGF-1: keratinocyte proliferation, supplied locally"
+    },
+    {
+     "en": "Somatopause: GH and IGF-1 fall with age"
+    }
+   ],
+   "citationRefs": [
+    "tavakkol-1992-gh-receptor-skin",
+    "edmondson-2003-epidermal-gh-igf",
+    "horesh-2023-hair-follicle-somatotropic",
+    "veldhuis-2008-somatotropic-ageing",
+    "hannah-shmouni-2026-are"
+   ],
+   "sourceNote": "Tavakkol 1992 · Edmondson 2003 · Horesh 2023 · Veldhuis 2008 · Aesthetic & Regenerative Endocrinology, ch. 2 and 6",
+   "audioBeats": [
+    {
+     "title": {
+      "en": "The dermis listens to GH"
+     },
+     "body": {
+      "en": "Growth-hormone receptors sit mainly on dermal fibroblasts. GH, directly or through IGF-1, supports fibroblast growth and collagen synthesis."
+     }
+    },
+    {
+     "title": {
+      "en": "The epidermis listens to IGF-1"
+     },
+     "body": {
+      "en": "Keratinocytes carry the IGF-1 receptor but make little IGF-1 themselves; fibroblasts supply it. In culture, IGF-1 makes keratinocytes divide and GH on its own does not."
+     }
+    },
+    {
+     "title": {
+      "en": "The axis ages"
+     },
+     "body": {
+      "en": "GH pulses and IGF-1 fall from early adulthood. Reference ranges are age-adjusted, so an IGF-1 that is low for a 25-year-old is often normal for the patient's age."
+     }
+    }
+   ],
+   "metadata": {
+    "audioScript": {
+     "en": "Two layers of skin listen to two different parts of the same axis. Growth hormone speaks mainly to the dermis. Its receptor is expressed more on fibroblasts than on keratinocytes, and in culture growth hormone increases fibroblast numbers and supports collagen synthesis, sometimes directly and sometimes through IGF-1. The epidermis listens to IGF-1. Keratinocytes carry the IGF-1 receptor, their neighbours in the dermis supply the hormone, and in culture IGF-1 makes keratinocytes divide where growth hormone on its own does nothing. Human hair follicles even keep a small growth-hormone loop running when they are cultured outside the body. With age, growth-hormone pulses and IGF-1 fall steadily, a change called the somatopause. Hold all of this as mechanism. It explains why the axis could matter for skin. Whether changing it helps a patient is a separate question, and the trials answer it."
+    }
+   }
+  },
+  {
+   "id": "m6-p03",
+   "type": "stat",
+   "time": "03 / 19",
+   "lead": {
+    "en": "Human evidence"
+   },
+   "title": {
+    "en": "A much-cited skin result, read again."
+   },
+   "body": {
+    "en": "In 1990 a much-cited New England Journal of Medicine study gave growth hormone for six months to 12 healthy men over 60, with nine untreated men for comparison and no placebo. Lean mass rose and fat fell. Skin thickness rose 7.1%, with P = 0.07, short of statistical significance. A small 1996 randomized trial in 28 older men found 15% more collagen laid down in implanted wound tubes on GH, a laboratory surrogate for repair."
+   },
+   "citationRefs": [
+    "rudman-1990-gh-men-over-60",
+    "papadakis-1996-gh-wound-healing"
+   ],
+   "sourceNote": "Rudman 1990 · Papadakis 1996",
+   "stat": {
+    "figure": "7.1%",
+    "label": {
+     "en": "rise in skin thickness in 12 older men given growth hormone for six months (1990)"
+    },
+    "detail": {
+     "en": "P = 0.07 · nine untreated men as comparison · no placebo"
+    },
+    "means": {
+     "en": "A skin result still quoted for growth hormone comes from 12 treated men, without a placebo, and it missed statistical significance. Graded on its design, it is D."
+    },
+    "doesNot": {
+     "en": "It does not show that GH thins skin or that it fails in true deficiency, and it says nothing about secretagogues. It shows how thin the direct skin evidence for growth hormone in healthy ageing is."
+    }
+   }
+  },
+  {
+   "id": "m6-p04",
+   "type": "tool",
+   "time": "04 / 19",
+   "lead": {
+    "en": "Sort the evidence"
+   },
+   "title": {
+    "en": "Mechanism, human evidence or open question?"
+   },
+   "body": {
+    "en": "Six things you will hear about growth hormone and skin, each accurate as worded. Before you see the answer, decide what kind of statement each one is."
+   },
+   "citationRefs": [
+    "tavakkol-1992-gh-receptor-skin",
+    "lange-2001-skin-ghd-acromegaly",
+    "breederveld-2014-cochrane-gh-burns",
+    "horesh-2023-hair-follicle-somatotropic",
+    "ben-shlomo-2006-acromegaly-skin",
+    "rudman-1990-gh-men-over-60",
+    "edmondson-2003-epidermal-gh-igf"
+   ],
+   "sourceNote": "Tavakkol 1992 · Lange 2001 · Breederveld 2014 (Cochrane) · Horesh 2023 · Ben-Shlomo & Melmed 2006",
+   "tool": {
+    "items": [
+     {
+      "label": {
+       "en": "Keratinocytes"
+      },
+      "value": {
+       "en": "IGF-1 makes them divide in culture; GH alone does not"
+      },
+      "note": {
+       "en": "1992"
+      }
+     },
+     {
+      "label": {
+       "en": "GH deficiency"
+      },
+      "value": {
+       "en": "Adults with untreated deficiency have a thinner epidermis on biopsy"
+      },
+      "note": {
+       "en": "2001"
+      }
+     },
+     {
+      "label": {
+       "en": "Major burns"
+      },
+      "value": {
+       "en": "GH shortened donor-site healing by about three days in adults"
+      },
+      "note": {
+       "en": "2014"
+      }
+     },
+     {
+      "label": {
+       "en": "Hair follicle"
+      },
+      "value": {
+       "en": "Follicles keep a GH–IGF-1 loop running outside the body"
+      },
+      "note": {
+       "en": "2023"
+      }
+     },
+     {
+      "label": {
+       "en": "Acromegaly"
+      },
+      "value": {
+       "en": "Glycosaminoglycan deposits and oedema thicken and puff the skin"
+      },
+      "note": {
+       "en": "2006"
+      }
+     },
+     {
+      "label": {
+       "en": "Healthy adults"
+      },
+      "value": {
+       "en": "Whether raising GH or IGF-1 makes facial skin look younger"
+      },
+      "note": {
+       "en": "—"
+      }
+     }
+    ],
+    "callout": {
+     "en": "Knowing what growth hormone does to skin in disease is different from knowing what it does to healthy skin."
+    }
+   },
+   "interaction": {
+    "kind": "classify",
+    "title": {
+     "en": "Which register?"
+    },
+    "prompt": {
+     "en": "Tap the kind of statement each one is."
+    },
+    "labels": [
+     {
+      "value": "mechanism",
+      "label": {
+       "en": "Mechanism"
+      },
+      "tone": "neutral"
+     },
+     {
+      "value": "human",
+      "label": {
+       "en": "Human evidence"
+      },
+      "tone": "good"
+     },
+     {
+      "value": "open",
+      "label": {
+       "en": "Open question"
+      },
+      "tone": "bad"
+     }
+    ],
+    "items": [
+     {
+      "id": "keratinocytes",
+      "label": {
+       "en": "IGF-1 makes keratinocytes divide in culture; GH alone does not"
+      },
+      "answer": "mechanism",
+      "why": {
+       "en": "Mechanism (D). Cell-culture work from 1992 explains a pathway; it tells you nothing about a patient's skin."
+      }
+     },
+     {
+      "id": "ghd-biopsy",
+      "label": {
+       "en": "Adults with untreated GH deficiency have a thinner epidermis on biopsy"
+      },
+      "answer": "human",
+      "why": {
+       "en": "Human evidence (C), small and observational: 45 people biopsied in 2001. Treatment of childhood-onset deficiency did not fully normalise the skin."
+      }
+     },
+     {
+      "id": "burns",
+      "label": {
+       "en": "GH shortened donor-site healing in adults with major burns"
+      },
+      "answer": "human",
+      "why": {
+       "en": "Human evidence (C): 13 small randomized trials pooled by Cochrane in 2014, with more hyperglycaemia on GH and a risk of bias. Burns over 40% of the body, far from cosmetic use."
+      }
+     },
+     {
+      "id": "follicle",
+      "label": {
+       "en": "Hair follicles keep a GH–IGF-1 loop running outside the body"
+      },
+      "answer": "mechanism",
+      "why": {
+       "en": "Mechanism (D). An ex vivo finding from 2023 about follicle biology."
+      }
+     },
+     {
+      "id": "acromegaly",
+      "label": {
+       "en": "In acromegaly, glycosaminoglycan deposits and oedema thicken the skin"
+      },
+      "answer": "human",
+      "why": {
+       "en": "Human evidence from disease. It shows what too much growth hormone does to skin, and says nothing about a cosmetic benefit."
+      }
+     },
+     {
+      "id": "healthy-skin",
+      "label": {
+       "en": "Whether raising GH or IGF-1 makes a healthy adult's facial skin look younger"
+      },
+      "answer": "open",
+      "why": {
+       "en": "Open question. No randomized trial has measured it, and the 1990 skin result missed statistical significance."
+      }
+     }
+    ],
+    "done": {
+     "en": "Six sorted. Two are mechanism, three are human evidence, and the one patients ask about is still an open question."
+    },
+    "citationRefs": [
+     "tavakkol-1992-gh-receptor-skin",
+     "lange-2001-skin-ghd-acromegaly",
+     "breederveld-2014-cochrane-gh-burns",
+     "horesh-2023-hair-follicle-somatotropic",
+     "ben-shlomo-2006-acromegaly-skin",
+     "rudman-1990-gh-men-over-60"
+    ],
+    "source": "authored:2026-09-24 from m6-p04.tool.items + registry grades"
+   }
+  },
+  {
+   "id": "m6-p05",
+   "type": "audio",
+   "time": "05 / 19",
+   "lead": {
+    "en": "What changes in practice"
+   },
+   "title": {
+    "en": "Deficiency is a diagnosis. Decline is ageing."
+   },
+   "body": {
+    "en": "In healthy older adults, randomized trials of growth hormone show small shifts in body composition, about 2 kg less fat and 2 kg more lean mass, with more oedema, joint pain, carpal tunnel syndrome and a trend towards diabetes. Strength and endurance change little. The Aesthetic & Regenerative Endocrinology guide grades its advice against treatment A; graded on the trials themselves the evidence is B, and the conclusion is the same. In the US, as of September 2026, knowingly distributing growth hormone for anti-ageing is a federal offence."
+   },
+   "points": [
+    {
+     "en": "Healthy ageing: small body-composition change, more side-effects"
+    },
+    {
+     "en": "Grade B on the trials (guide: A), same conclusion"
+    },
+    {
+     "en": "US: distribution for anti-ageing is a federal offence"
+    }
+   ],
+   "citationRefs": [
+    "liu-2007-gh-healthy-elderly",
+    "blackman-2002-gh-sex-steroids-rct",
+    "usc-21-333e-hgh",
+    "genotropin-label-2026",
+    "hannah-shmouni-2026-are"
+   ],
+   "sourceNote": "Liu 2007 · Blackman 2002 · 21 U.S.C. 333(e) · Aesthetic & Regenerative Endocrinology, ch. 14",
+   "audioBeats": [
+    {
+     "title": {
+      "en": "What the trials show"
+     },
+     "body": {
+      "en": "Pooled randomized trials in healthy older adults: about 2 kg less fat, 2 kg more lean mass, weight unchanged."
+     }
+    },
+    {
+     "title": {
+      "en": "What they cost"
+     },
+     "body": {
+      "en": "More soft-tissue oedema, joint pain, carpal tunnel syndrome and gynaecomastia, and a trend towards diabetes. In one trial, 39% of women on GH developed oedema, against none on placebo."
+     }
+    },
+    {
+     "title": {
+      "en": "Where it stands"
+     },
+     "body": {
+      "en": "Growth hormone is for diagnosed deficiency and a short list of approved conditions. In the US, distributing it for anti-ageing is a federal offence."
+     }
+    }
+   ],
+   "metadata": {
+    "audioScript": {
+     "en": "Here the physiology meets the waiting room. A patient in their fifties has read that growth hormone falls with age and asks whether topping it up would help their skin. The trials in healthy older adults answer that. Pooled, they show about two kilograms less fat and two kilograms more lean mass, with more swelling, joint pain, carpal tunnel symptoms and a drift towards diabetes, while strength and stamina change little. Graded on those trials the evidence is B, consistent and independent though small, and the Aesthetic and Regenerative Endocrinology guide gives its advice against treatment an A. Both land in the same place. Growth hormone treats a diagnosed deficiency and a short list of approved conditions. In the United States, distributing it for anti-ageing is a federal offence. Whatever your role, name the decline for what it is, a normal part of ageing."
+    },
+    "variants": {
+     "audienceLevel": {
+      "prescriber": {
+       "en": "Prescribe growth hormone only for a confirmed deficiency or another approved indication, usually with an endocrinologist. For a request framed as anti-ageing, document the conversation, the evidence you quoted and the legal position, and decline."
+      },
+      "clinical-staff": {
+       "en": "If a patient mentions growth hormone or 'HGH' for skin or energy, record what they use, where it comes from and any swelling, joint pain or tingling, and bring it to the prescriber."
+      },
+      "advisor": {
+       "en": "You can explain that growth hormone falls normally with age and that trials in healthy adults show more side-effects than benefit. Anyone who wants to start it needs a prescriber's assessment rather than a product recommendation."
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "m6-p06",
+   "type": "quiz",
+   "time": "06 / 19",
+   "lead": {
+    "en": "Your turn"
+   },
+   "title": {
+    "en": "'Low for my age.'"
+   },
+   "body": {
+    "en": "One question to close lesson 6.1."
+   },
+   "sourceNote": "Lesson 6.1",
+   "quiz": {
+    "id": "m6-q1",
+    "prompt": {
+     "en": "Fictional chart note: a healthy 58-year-old asks for growth hormone 'for her skin' after an online test reported her IGF-1 as 'below the range for a 30-year-old'. She has no pituitary history. What does the evidence support?"
+    },
+    "options": [
+     {
+      "text": {
+       "en": "Start growth hormone, because restoring a youthful IGF-1 thickens skin."
+      },
+      "why": {
+       "en": "The much-cited skin result for that idea missed statistical significance, and trials in healthy adults show more side-effects than benefit."
+      }
+     },
+     {
+      "text": {
+       "en": "Read her IGF-1 against an age-matched range; without a diagnosed deficiency, the trials show small gains and more side-effects, so growth hormone is not the answer."
+      },
+      "why": {
+       "en": "Correct. A low-for-young IGF-1 is often normal for age, and the healthy-ageing trials point against treatment."
+      }
+     },
+     {
+      "text": {
+       "en": "Offer a secretagogue instead, because it raises her own growth hormone more gently."
+      },
+      "why": {
+       "en": "That is a mechanism argument. No secretagogue has trial evidence of benefit for skin or healthy ageing, as lesson 6.2 shows."
+      }
+     }
+    ],
+    "correct": 1,
+    "feedback": {
+     "en": "Treat a diagnosis, not a number read against the wrong age band."
+    },
+    "pillar": "physiology",
+    "citationRefs": [
+     "liu-2007-gh-healthy-elderly",
+     "veldhuis-2008-somatotropic-ageing",
+     "rudman-1990-gh-men-over-60",
+     "hannah-shmouni-2026-are"
+    ]
+   }
+  },
+  {
+   "id": "m6-p07",
+   "type": "audio",
+   "time": "07 / 19",
+   "lead": {
+    "en": "Lesson 6.2 · Concept"
+   },
+   "title": {
+    "en": "One axis, four ways in."
+   },
+   "body": {
+    "en": "Somatropin is growth hormone itself. GHRH analogues (sermorelin, tesamorelin, CJC-1295) stimulate the pituitary's GHRH receptor. Ghrelin-receptor agonists (ipamorelin, GHRP-2, GHRP-6 and the oral ibutamoren, MK-677) stimulate GH release through a second pituitary receptor. IGF-1 analogues such as IGF-1 LR3 bypass the pituitary altogether. They are sold as one family, and the next moments take them apart."
+   },
+   "points": [
+    {
+     "en": "Replace: somatropin"
+    },
+    {
+     "en": "Stimulate: GHRH analogues and ghrelin-receptor agonists"
+    },
+    {
+     "en": "Bypass: IGF-1 analogues"
+    }
+   ],
+   "citationRefs": [
+    "dominikowski-2026-gh-axis-peptides-review",
+    "teichman-2006-cjc1295-phase1",
+    "nass-2008-mk677-older-adults",
+    "genotropin-label-2026",
+    "hannah-shmouni-2026-are",
+    "hannah-shmouni-2026-ppg-aug"
+   ],
+   "sourceNote": "Aesthetic & Regenerative Endocrinology, ch. 3 · Peptide Pocket Guide, growth-hormone axis · Dominikowski 2026",
+   "audioBeats": [
+    {
+     "title": {
+      "en": "Replace"
+     },
+     "body": {
+      "en": "Somatropin is recombinant human growth hormone. It replaces the hormone itself."
+     }
+    },
+    {
+     "title": {
+      "en": "Stimulate"
+     },
+     "body": {
+      "en": "GHRH analogues and ghrelin-receptor agonists push the patient's own pituitary to release growth hormone, in pulses."
+     }
+    },
+    {
+     "title": {
+      "en": "Bypass"
+     },
+     "body": {
+      "en": "IGF-1 analogues act directly on the IGF-1 receptor, downstream of the pituitary."
+     }
+    }
+   ],
+   "metadata": {
+    "audioScript": {
+     "en": "Four routes lead into the same axis, and patients rarely know which one they are on. Somatropin is growth hormone itself, made by recombinant technology. GHRH analogues, sermorelin, tesamorelin and CJC-1295, press on the pituitary's releasing-hormone receptor, so the gland releases its own growth hormone in pulses. Ghrelin-receptor agonists, ipamorelin, GHRP-2, GHRP-6 and the oral compound ibutamoren, press on a second pituitary receptor. IGF-1 analogues such as IGF-1 LR3 skip the pituitary and act on the IGF-1 receptor directly. Every route ends at that same receptor, which is why lesson three treats their risks together. Clinics often sell all of these as one family with one promise. Keep them apart, because the trials, the approvals and the side-effects belong to each molecule separately."
+    }
+   }
+  },
+  {
+   "id": "m6-p08",
+   "type": "tool",
+   "time": "08 / 19",
+   "lead": {
+    "en": "Worked example"
+   },
+   "title": {
+    "en": "What real peptide evidence looks like."
+   },
+   "body": {
+    "en": "Tesamorelin is the instructive exception on this axis. Both Hormonaly guides grade it A, for one indication. Read the record in order."
+   },
+   "citationRefs": [
+    "falutz-2007-tesamorelin-nejm",
+    "falutz-2010-tesamorelin-pooled",
+    "egrifta-wr-label-2026",
+    "hannah-shmouni-2026-are",
+    "hannah-shmouni-2026-ppg-aug"
+   ],
+   "sourceNote": "Falutz 2007, 2010 · EGRIFTA WR prescribing information (DailyMed, August 2026)",
+   "tool": {
+    "items": [
+     {
+      "label": {
+       "en": "Trials"
+      },
+      "value": {
+       "en": "Two phase 3 RCTs, 806 patients"
+      },
+      "note": {
+       "en": "Randomized, double-blind, placebo-controlled and run by the developer, in adults with HIV and excess abdominal fat"
+      }
+     },
+     {
+      "label": {
+       "en": "Result"
+      },
+      "value": {
+       "en": "About 15% less visceral fat than placebo at 26 weeks"
+      },
+      "note": {
+       "en": "Subcutaneous fat unchanged; the reduction held to 52 weeks on continued treatment"
+      }
+     },
+     {
+      "label": {
+       "en": "US status (label, August 2026)"
+      },
+      "value": {
+       "en": "FDA-approved since 2010, for one use"
+      },
+      "note": {
+       "en": "Reduction of excess abdominal fat in adults with HIV-associated lipodystrophy. The label says it is not for weight loss and that long-term cardiovascular safety has not been established."
+      }
+     },
+     {
+      "label": {
+       "en": "Safety, in its own label"
+      },
+      "value": {
+       "en": "IGF-1 above +2 SD in 47% at 26 weeks"
+      },
+      "note": {
+       "en": "Diabetes-range HbA1c in 5% against 1% on placebo; fluid retention; contraindicated in active malignancy"
+      }
+     },
+     {
+      "label": {
+       "en": "Grade"
+      },
+      "value": {
+       "en": "A, for HIV-associated abdominal fat only"
+      },
+      "note": {
+       "en": "No trial has tested skin, anti-ageing or general body shaping"
+      }
+     }
+    ],
+    "callout": {
+     "en": "A GRADE A travels with its indication. The molecule does not carry it anywhere else."
+    }
+   }
+  },
+  {
+   "id": "m6-p09",
+   "type": "stat",
+   "time": "09 / 19",
+   "lead": {
+    "en": "The evidence"
+   },
+   "title": {
+    "en": "Zero skin trials."
+   },
+   "body": {
+    "en": "A PubMed search in September 2026 found no randomized trial with a skin outcome for tesamorelin, CJC-1295, ipamorelin or IGF-1 LR3. The nearest is a 1997 study of a GHRH(1-29) analogue related to sermorelin, in 19 older adults. Skin thickness measured by caliper rose after 16 weeks, compared with a placebo lead-in rather than a parallel control group."
+   },
+   "citationRefs": [
+    "khorram-1997-ghrh-analogue-older-adults",
+    "dominikowski-2026-gh-axis-peptides-review",
+    "hannah-shmouni-2026-ppg-aug"
+   ],
+   "sourceNote": "PubMed search, 24 Sep 2026 · Khorram 1997 · Dominikowski 2026",
+   "stat": {
+    "figure": "0",
+    "label": {
+     "en": "randomized trials with a skin outcome for tesamorelin, CJC-1295, ipamorelin or IGF-1 LR3 (PubMed, September 2026)"
+    },
+    "detail": {
+     "en": "Closest: a 1997 single-blind study of a GHRH(1-29) analogue, 19 older adults, skin thickness by caliper"
+    },
+    "means": {
+     "en": "Every skin promise made for these peptides rests on mechanism and anecdote. The nearest data are one small study without a parallel control group (D)."
+    },
+    "doesNot": {
+     "en": "It does not show these peptides harm skin or do nothing for it. It shows the question has never been properly tested, and a clinic brochure cannot fill that gap."
+    }
+   }
+  },
+  {
+   "id": "m6-p10",
+   "type": "tool",
+   "time": "10 / 19",
+   "lead": {
+    "en": "Sort the evidence"
+   },
+   "title": {
+    "en": "Approval-grade, hormone levels, or nothing?"
+   },
+   "body": {
+    "en": "Seven products on this axis and the use each one is offered for. Decide what actually stands behind each before you see its grade."
+   },
+   "citationRefs": [
+    "falutz-2007-tesamorelin-nejm",
+    "genotropin-label-2026",
+    "teichman-2006-cjc1295-phase1",
+    "beck-2014-ipamorelin-ileus-rct",
+    "dominikowski-2026-gh-axis-peptides-review",
+    "fr-2013-geref-determination",
+    "hannah-shmouni-2026-are",
+    "hannah-shmouni-2026-ppg-aug"
+   ],
+   "sourceNote": "Falutz 2007 · Teichman 2006 · Beck 2014 · Dominikowski 2026 · both Hormonaly guides",
+   "tool": {
+    "items": [
+     {
+      "label": {
+       "en": "Tesamorelin"
+      },
+      "value": {
+       "en": "Less visceral fat in HIV-associated lipodystrophy"
+      },
+      "note": {
+       "en": "GHRH analogue"
+      }
+     },
+     {
+      "label": {
+       "en": "Somatropin"
+      },
+      "value": {
+       "en": "Treats adult growth-hormone deficiency"
+      },
+      "note": {
+       "en": "Recombinant GH"
+      }
+     },
+     {
+      "label": {
+       "en": "Sermorelin"
+      },
+      "value": {
+       "en": "Youthful GH levels in healthy adults"
+      },
+      "note": {
+       "en": "GHRH(1-29)"
+      }
+     },
+     {
+      "label": {
+       "en": "CJC-1295 with DAC"
+      },
+      "value": {
+       "en": "A weeks-long GH boost for skin and recovery"
+      },
+      "note": {
+       "en": "Long-acting GHRH analogue"
+      }
+     },
+     {
+      "label": {
+       "en": "CJC-1295 without DAC ('Mod GRF 1-29')"
+      },
+      "value": {
+       "en": "Pulsed GH for skin and sleep"
+      },
+      "note": {
+       "en": "GHRH analogue"
+      }
+     },
+     {
+      "label": {
+       "en": "Ipamorelin"
+      },
+      "value": {
+       "en": "'Clean' GH release for anti-ageing"
+      },
+      "note": {
+       "en": "Ghrelin-receptor agonist"
+      }
+     },
+     {
+      "label": {
+       "en": "IGF-1 LR3"
+      },
+      "value": {
+       "en": "Muscle and skin repair"
+      },
+      "note": {
+       "en": "IGF-1 analogue"
+      }
+     }
+    ],
+    "callout": {
+     "en": "A higher IGF-1 is a laboratory result. Benefit to a patient needs a clinical trial."
+    }
+   },
+   "interaction": {
+    "kind": "quickfire",
+    "title": {
+     "en": "What stands behind it?"
+    },
+    "prompt": {
+     "en": "One product at a time: approval-grade trials, hormone levels only, or no human studies?"
+    },
+    "labels": [
+     {
+      "value": "approval",
+      "label": {
+       "en": "Approval-grade trials for this use"
+      },
+      "tone": "good"
+     },
+     {
+      "value": "levels",
+      "label": {
+       "en": "Hormone levels rise; no benefit shown"
+      },
+      "tone": "neutral"
+     },
+     {
+      "value": "none",
+      "label": {
+       "en": "No published human studies"
+      },
+      "tone": "bad"
+     }
+    ],
+    "items": [
+     {
+      "id": "tesamorelin",
+      "label": {
+       "en": "Tesamorelin, for HIV-associated abdominal fat"
+      },
+      "answer": "approval",
+      "why": {
+       "en": "GRADE A. Two phase 3 trials and FDA approval in 2010, for this indication and no other."
+      }
+     },
+     {
+      "id": "somatropin",
+      "label": {
+       "en": "Somatropin, for adult GH deficiency"
+      },
+      "answer": "approval",
+      "why": {
+       "en": "GRADE A for diagnosed deficiency, on decades of trials. For healthy ageing, the trials show more side-effects than benefit."
+      }
+     },
+     {
+      "id": "sermorelin",
+      "label": {
+       "en": "Sermorelin, for youthful GH in healthy adults"
+      },
+      "answer": "levels",
+      "why": {
+       "en": "In this course, GRADE D for this use. Small studies show GH and IGF-1 rising; none shows a clinical or skin benefit. Its former US approval was for children with GH deficiency."
+      }
+     },
+     {
+      "id": "cjc-dac",
+      "label": {
+       "en": "CJC-1295 with DAC, for skin and recovery"
+      },
+      "answer": "levels",
+      "why": {
+       "en": "GRADE D for any clinical use. Two phase 1 trials in healthy adults showed GH and IGF-1 rising for days; neither measured a clinical outcome. The Hormonaly guides rate it C; the trials stop at hormone levels."
+      }
+     },
+     {
+      "id": "cjc-nodac",
+      "label": {
+       "en": "CJC-1295 without DAC, for skin and sleep"
+      },
+      "answer": "none",
+      "why": {
+       "en": "GRADE D. No peer-reviewed human study of this form exists; its promises are borrowed from sermorelin and from the DAC version."
+      }
+     },
+     {
+      "id": "ipamorelin",
+      "label": {
+       "en": "Ipamorelin, for anti-ageing"
+      },
+      "answer": "levels",
+      "why": {
+       "en": "GRADE D for anti-ageing and skin. Human studies show GH release; its only phase 2 trial, in postoperative ileus, showed no benefit over placebo."
+      }
+     },
+     {
+      "id": "igf1-lr3",
+      "label": {
+       "en": "IGF-1 LR3, for muscle and skin repair"
+      },
+      "answer": "none",
+      "why": {
+       "en": "GRADE D. No peer-reviewed human study; mechanism and user reports only."
+      }
+     }
+    ],
+    "done": {
+     "en": "Seven sorted. Two have approval-grade trials, each for its own indication. Three stop at hormone levels, and two have never been studied in people."
+    },
+    "citationRefs": [
+     "falutz-2010-tesamorelin-pooled",
+     "genotropin-label-2026",
+     "teichman-2006-cjc1295-phase1",
+     "beck-2014-ipamorelin-ileus-rct",
+     "dominikowski-2026-gh-axis-peptides-review",
+     "fr-2013-geref-determination",
+     "hannah-shmouni-2026-are",
+     "hannah-shmouni-2026-ppg-aug"
+    ],
+    "source": "authored:2026-09-24 from m6-p10.tool.items + registry grades"
+   }
+  },
+  {
+   "id": "m6-p11",
+   "type": "tool",
+   "time": "11 / 19",
+   "lead": {
+    "en": "Regulatory status"
+   },
+   "title": {
+    "en": "Where each one stands in the US."
+   },
+   "body": {
+    "en": "Dated to FDA's 503A category list of 14 May 2026, its Category 2 page (current as of 22 April 2026), the October 2024 advisory-committee votes, the bulks list in 21 CFR 216.23 and Drugs@FDA as checked on 24 September 2026. Absence from every list does not make a substance permitted, and FDA stopped placing newly nominated substances into categories in January 2025."
+   },
+   "citationRefs": [
+    "fda-503a-categories-2026-05-14",
+    "fda-503a-category2-safety-risks-page",
+    "fda-pcac-2024-10-minutes",
+    "ecfr-21-cfr-216-23-bulks-list",
+    "fda-drugsatfda-geref",
+    "fr-2013-geref-determination",
+    "fda-warning-letter-tailor-made-2020",
+    "fda-503a-bulks-page",
+    "usc-21-333e-hgh",
+    "egrifta-wr-label-2026",
+    "adunsky-2011-mk677-hip-fracture"
+   ],
+   "sourceNote": "FDA 503A categories (14 May 2026) · FDA Category 2 page (22 Apr 2026) · PCAC minutes (29 Oct 2024) · 21 CFR 216.23 · 78 FR 14095",
+   "tool": {
+    "items": [
+     {
+      "label": {
+       "en": "Somatropin · tesamorelin"
+      },
+      "value": {
+       "en": "FDA-approved for defined indications"
+      },
+      "note": {
+       "en": "Growth-hormone deficiency and specific growth disorders; HIV-associated abdominal fat. Knowingly distributing growth hormone for other uses, anti-ageing included, is a federal offence (21 U.S.C. 333(e))."
+      }
+     },
+     {
+      "label": {
+       "en": "Sermorelin"
+      },
+      "value": {
+       "en": "No approved product on the market"
+      },
+      "note": {
+       "en": "Approved as Geref in 1990 and 1997, discontinued in 2008, approvals withdrawn in 2009 at the maker's request; FDA found in 2013 that this was not for safety or effectiveness reasons. In no 503A category."
+      }
+     },
+     {
+      "label": {
+       "en": "Ibutamoren (MK-677)"
+      },
+      "value": {
+       "en": "503A and 503B Category 2"
+      },
+      "note": {
+       "en": "FDA cites a heart-failure signal that stopped a hip-fracture trial early. The advisory committee voted 13 to 1 against adding it to the bulks list (October 2024)."
+      }
+     },
+     {
+      "label": {
+       "en": "Ipamorelin · CJC-1295"
+      },
+      "value": {
+       "en": "Withdrawn 503A nominations"
+      },
+      "note": {
+       "en": "FDA lists both among Category 2 nominations that were withdrawn, citing serious adverse events; ipamorelin remains in 503B Category 2. The committee voted 0 to 12, with one abstention, against listing ipamorelin (October 2024)."
+      }
+     },
+     {
+      "label": {
+       "en": "GHRP-2 · GHRP-6"
+      },
+      "value": {
+       "en": "503A Category 3"
+      },
+      "note": {
+       "en": "Nominated without adequate support for FDA to evaluate; both in 503B Category 2."
+      }
+     },
+     {
+      "label": {
+       "en": "IGF-1 LR3"
+      },
+      "value": {
+       "en": "No approved product, no category"
+      },
+      "note": {
+       "en": "Named in a 2020 FDA warning letter, with CJC-1295, ipamorelin, GHRP-2, GHRP-6 and MK-677, as ineligible for the 503A exemptions."
+      }
+     }
+    ],
+    "callout": {
+     "en": "The 503A bulks list holds six substances, none on this axis. Check the live lists before any conversation about compounding."
+    }
+   }
+  },
+  {
+   "id": "m6-p12",
+   "type": "audio",
+   "time": "12 / 19",
+   "lead": {
+    "en": "What changes in practice"
+   },
+   "title": {
+    "en": "Name the indication before the molecule."
+   },
+   "body": {
+    "en": "When a patient asks about a growth-hormone peptide, three answers come first. Which molecule, exactly, including whether 'CJC' means with or without DAC. What stands behind it, whether approval-grade trials for one indication, hormone levels only, or nothing. And where it stands in the US today, read off the live FDA lists. Tesamorelin's GRADE A belongs to HIV-associated abdominal fat and transfers to nothing else."
+   },
+   "points": [
+    {
+     "en": "Which molecule, exactly"
+    },
+    {
+     "en": "What stands behind it"
+    },
+    {
+     "en": "Where it stands in the US today"
+    }
+   ],
+   "citationRefs": [
+    "egrifta-wr-label-2026",
+    "dominikowski-2026-gh-axis-peptides-review",
+    "fda-503a-categories-2026-05-14",
+    "ecfr-21-cfr-216-23-bulks-list",
+    "hannah-shmouni-2026-are"
+   ],
+   "sourceNote": "Aesthetic & Regenerative Endocrinology, ch. 3 and 15 · FDA 503A categories · 21 CFR 216.23 · EGRIFTA WR label",
+   "audioBeats": [
+    {
+     "title": {
+      "en": "Which molecule"
+     },
+     "body": {
+      "en": "CJC-1295 with and without DAC are two products. Only the DAC form has been given to people in a trial."
+     }
+    },
+    {
+     "title": {
+      "en": "What stands behind it"
+     },
+     "body": {
+      "en": "Tesamorelin has approval-grade trials for one indication; the rest stop at hormone levels or have no human studies."
+     }
+    },
+    {
+     "title": {
+      "en": "Where it stands"
+     },
+     "body": {
+      "en": "In the US, as of September 2026, no growth-hormone secretagogue is on the 503A bulks list."
+     }
+    }
+   ],
+   "metadata": {
+    "audioScript": {
+     "en": "Imagine the request as it usually arrives. A patient says their clinic offers a peptide that raises growth hormone naturally, for skin and sleep, and asks what you think. Three answers come before anything else. First, which molecule, exactly, because CJC-1295 with and without its albumin-binding tail are two different products, and only the version with the tail has been tested in people. Second, what stands behind it. Tesamorelin has approval-grade trials for visceral fat in people with HIV, and the rest stop at hormone levels or have never been studied in humans. Third, where it stands in the United States today, read off FDA's live lists. As of September 2026, none of the growth-hormone secretagogues sits on the 503A bulks list. UK and EU status is still being mapped for this course, so treat these as US facts."
+    },
+    "variants": {
+     "audienceLevel": {
+      "prescriber": {
+       "en": "Tesamorelin is the only GHRH analogue with a current FDA-approved indication, and it is not a skin treatment. Do not prescribe compounded secretagogues on the strength of a mechanism; document what the patient uses and assess or refer any sign of GH excess."
+      },
+      "clinical-staff": {
+       "en": "Ask which product, from whom and for how long, and record the exact name on the vial. Report swelling, tingling, joint pain or new skin changes to the prescriber. Do not advise on amounts or timing."
+      },
+      "advisor": {
+       "en": "Describe these products accurately: one approved use for tesamorelin, hormone-level data or nothing for the rest, and no US bulks-list standing for the secretagogues. Refer anyone injecting them to a prescriber."
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "m6-p13",
+   "type": "quiz",
+   "time": "13 / 19",
+   "lead": {
+    "en": "Your turn"
+   },
+   "title": {
+    "en": "'Basically tesamorelin?'"
+   },
+   "body": {
+    "en": "One question to close lesson 6.2."
+   },
+   "sourceNote": "Lesson 6.2",
+   "quiz": {
+    "id": "m6-q2",
+    "prompt": {
+     "en": "Fictional chart note: a 47-year-old has been prescribed a compounded 'CJC-1295/ipamorelin' product by a wellness clinic for skin quality. She asks whether it is 'basically tesamorelin'. What is the most accurate answer?"
+    },
+    "options": [
+     {
+      "text": {
+       "en": "Yes. Both work on the growth-hormone pathway, so tesamorelin's approval covers the class."
+      },
+      "why": {
+       "en": "An approval and its GRADE A belong to tesamorelin, for HIV-associated abdominal fat. They do not transfer to other molecules or uses."
+      }
+     },
+     {
+      "text": {
+       "en": "No. Tesamorelin has phase 3 trials and a US approval for HIV-associated abdominal fat; CJC-1295 and ipamorelin have hormone-level data at best and no skin trials; neither is on the US 503A bulks list."
+      },
+      "why": {
+       "en": "Correct. Different molecules, different evidence, different regulatory standing."
+      }
+     },
+     {
+      "text": {
+       "en": "Yes, provided the compounding pharmacy is licensed."
+      },
+      "why": {
+       "en": "A licensed pharmacy changes neither the evidence nor the fact that, in the US, these substances have no bulks-list standing."
+      }
+     }
+    ],
+    "correct": 1,
+    "feedback": {
+     "en": "Name the molecule, then its indication, then its status."
+    },
+    "pillar": "evidence-appraisal",
+    "citationRefs": [
+     "falutz-2010-tesamorelin-pooled",
+     "egrifta-wr-label-2026",
+     "dominikowski-2026-gh-axis-peptides-review",
+     "fda-503a-category2-safety-risks-page",
+     "ecfr-21-cfr-216-23-bulks-list"
+    ]
+   }
+  },
+  {
+   "id": "m6-p14",
+   "type": "audio",
+   "time": "14 / 19",
+   "lead": {
+    "en": "Lesson 6.3 · Recognition"
+   },
+   "title": {
+    "en": "What too much growth hormone looks like."
+   },
+   "body": {
+    "en": "Sustained GH excess changes skin in ways you can see. In acromegaly, glycosaminoglycan deposits and oedema make the face, hands and feet puffy and thick; the skin turns oily with large pores; sweating increases; skin tags and acanthosis nigricans appear. Drugs on this axis bring their own signs: fluid retention with swelling, joint pain, tingling and carpal tunnel symptoms. The Endocrine Society recommends measuring IGF-1 when typical acral and facial features are present."
+   },
+   "points": [
+    {
+     "en": "Soft tissue: puffy, thickened face, hands and feet"
+    },
+    {
+     "en": "Skin: oily, sweaty, skin tags, acanthosis nigricans"
+    },
+    {
+     "en": "On treatment: swelling, joint pain, tingling"
+    }
+   ],
+   "citationRefs": [
+    "ben-shlomo-2006-acromegaly-skin",
+    "katznelson-2014-acromegaly-guideline",
+    "giustina-2024-acromegaly-consensus",
+    "genotropin-label-2026",
+    "liu-2007-gh-healthy-elderly"
+   ],
+   "sourceNote": "Ben-Shlomo & Melmed 2006 · Endocrine Society guideline 2014 · Acromegaly consensus 2024 · somatropin label",
+   "audioBeats": [
+    {
+     "title": {
+      "en": "In the skin"
+     },
+     "body": {
+      "en": "Glycosaminoglycan deposits and oedema thicken the skin of the face, hands and feet. Skin turns oily, pores enlarge, sweating increases, and skin tags and acanthosis nigricans appear."
+     }
+    },
+    {
+     "title": {
+      "en": "In the soft tissues"
+     },
+     "body": {
+      "en": "Hands and feet enlarge slowly and the jaw widens. On GH-axis drugs, fluid retention brings swelling, joint pain and night-time tingling."
+     }
+    },
+    {
+     "title": {
+      "en": "When to test"
+     },
+     "body": {
+      "en": "The Endocrine Society recommends IGF-1 for typical acral and facial features, and suggests it when several associated conditions cluster, including sleep apnoea, type 2 diabetes, carpal tunnel syndrome, hyperhidrosis and hypertension."
+     }
+    }
+   ],
+   "metadata": {
+    "audioScript": {
+     "en": "Excess growth hormone leaves visible marks on skin and soft tissue, and noticing them early matters. In acromegaly, glycosaminoglycan deposits and oedema thicken the face, hands and feet, so features look puffy and coarse. The skin turns oily with large pores, sweating increases, and skin tags and acanthosis nigricans appear. Hands and feet enlarge slowly, and the jaw widens. Drugs on this axis bring their own signs, usually transient, with swelling, joint pain, tingling fingers and carpal tunnel symptoms. On somatropin, the label asks for existing moles to be watched for growth or malignant change. The Endocrine Society recommends measuring IGF-1 when typical acral and facial features are present, and suggests it when several associated conditions cluster. For most of you the job is recognition and referral, and the diagnosis belongs to endocrinology."
+    }
+   }
+  },
+  {
+   "id": "m6-p15",
+   "type": "tool",
+   "time": "15 / 19",
+   "lead": {
+    "en": "Four registers"
+   },
+   "title": {
+    "en": "Does raising IGF-1 cause cancer?"
+   },
+   "body": {
+    "en": "The honest answer has four parts, and each has its own source. Keep them apart, or a mechanism will be heard as a measured risk."
+   },
+   "citationRefs": [
+    "edmondson-2003-epidermal-gh-igf",
+    "renehan-2004-igf1-cancer-meta",
+    "knuppel-2020-igf1-cancers-ukb",
+    "dal-2018-acromegaly-cancer",
+    "swerdlow-2017-saghe",
+    "boguszewski-2022-gh-safety-consensus",
+    "guevara-aguirre-2011-ghrd-cancer",
+    "dominikowski-2026-gh-axis-peptides-review"
+   ],
+   "sourceNote": "Renehan 2004 · Knuppel 2020 · Dal 2018 · Swerdlow 2017 · Boguszewski 2022 · Guevara-Aguirre 2011",
+   "tool": {
+    "items": [
+     {
+      "label": {
+       "en": "Mechanism"
+      },
+      "value": {
+       "en": "Plausible"
+      },
+      "note": {
+       "en": "IGF-1 receptor signalling drives cell proliferation and survival, which gives any IGF-1-raising product a theoretical concern"
+      }
+     },
+     {
+      "label": {
+       "en": "Human observation"
+      },
+      "value": {
+       "en": "Modest associations"
+      },
+      "note": {
+       "en": "In large studies, higher natural IGF-1 goes with slightly higher risks of prostate, breast, colorectal and thyroid cancer; reverse causation is not excluded. In one Ecuadorian cohort, people with GH-receptor deficiency had almost no cancer."
+      }
+     },
+     {
+      "label": {
+       "en": "Acromegaly"
+      },
+      "value": {
+       "en": "Slightly raised, inconsistently"
+      },
+      "note": {
+       "en": "Pooled studies show about 1.5 times the expected cancer incidence, with the highest estimates from small single-centre series; a Danish nationwide cohort found no clear rise"
+      }
+     },
+     {
+      "label": {
+       "en": "GH replacement"
+      },
+      "value": {
+       "en": "Largely reassuring"
+      },
+      "note": {
+       "en": "No clear raised risk in 23,984 GH-treated children with growth failure and no other disease; a 2022 consensus found no link with primary tumours or recurrence in survivors"
+      }
+     },
+     {
+      "label": {
+       "en": "Open question"
+      },
+      "value": {
+       "en": "Unmeasured"
+      },
+      "note": {
+       "en": "No long-term cancer data exist for secretagogues or IGF-1 LR3 used for ageing or skin"
+      }
+     }
+    ],
+    "callout": {
+     "en": "A plausible mechanism plus a modest association is a reason for caution and consent. It is a different thing from a measured risk."
+    }
+   }
+  },
+  {
+   "id": "m6-p16",
+   "type": "stat",
+   "time": "16 / 19",
+   "lead": {
+    "en": "The evidence"
+   },
+   "title": {
+    "en": "Half the patients on the approved one."
+   },
+   "body": {
+    "en": "Tesamorelin is the best-studied peptide on this axis. In its pivotal trials, 47% of treated patients had IGF-1 more than two standard deviations above the mean at 26 weeks, and 36% more than three. Its label states that the effects of prolonged IGF-1 elevation are unknown. For unapproved secretagogues bought for skin, nobody has published the equivalent figure."
+   },
+   "citationRefs": [
+    "egrifta-wr-label-2026",
+    "falutz-2010-tesamorelin-pooled",
+    "dominikowski-2026-gh-axis-peptides-review"
+   ],
+   "sourceNote": "EGRIFTA WR prescribing information, section 5.2 (DailyMed, August 2026)",
+   "stat": {
+    "figure": "47%",
+    "label": {
+     "en": "of tesamorelin-treated patients with IGF-1 above +2 SD at 26 weeks in its pivotal trials"
+    },
+    "detail": {
+     "en": "36% above +3 SD · label: effects of prolonged elevation unknown"
+    },
+    "means": {
+     "en": "Pushing IGF-1 above the normal range is common even with an approved GHRH analogue used as labelled, in monitored trials."
+    },
+    "doesNot": {
+     "en": "It does not show that tesamorelin causes cancer, and it is no target to aim for. It shows why sustained, unmonitored use of any IGF-1-raising product is an open safety question."
+    }
+   }
+  },
+  {
+   "id": "m6-p17",
+   "type": "audio",
+   "time": "17 / 19",
+   "lead": {
+    "en": "Fictional case"
+   },
+   "title": {
+    "en": "Tight rings, eight months into 'CJC/ipa'."
+   },
+   "body": {
+    "en": "A 52-year-old patient has injected a clinic-supplied 'CJC-1295/ipamorelin' product for eight months for skin and recovery. Her rings no longer fit, her face and hands look puffy, her fingers tingle at night, she sweats more, and new skin tags have appeared on her neck. She asks for a stronger version. This case is fictional, built from the lesson's evidence; there is one best first step."
+   },
+   "citationRefs": [
+    "katznelson-2014-acromegaly-guideline",
+    "ben-shlomo-2006-acromegaly-skin",
+    "giustina-2024-acromegaly-consensus",
+    "egrifta-wr-label-2026",
+    "fda-503a-category2-safety-risks-page",
+    "dominikowski-2026-gh-axis-peptides-review",
+    "hannah-shmouni-2026-ppg-aug"
+   ],
+   "sourceNote": "Endocrine Society guideline 2014 · Ben-Shlomo & Melmed 2006 · FDA Category 2 page · Peptide Pocket Guide, GH-excess recognition",
+   "interaction": {
+    "kind": "scenario",
+    "title": {
+     "en": "What do you do first?"
+    },
+    "setup": {
+     "en": "A 52-year-old patient has injected a clinic-supplied 'CJC-1295/ipamorelin' product for eight months for skin and recovery. Her rings no longer fit, her face and hands look puffy, her fingers tingle at night, she sweats more, and new skin tags have appeared on her neck. She asks for a stronger version."
+    },
+    "notice": [
+     {
+      "en": "Tight rings, puffiness, tingling and sweating together are the soft-tissue pattern of GH excess"
+     },
+     {
+      "en": "Carpal tunnel symptoms and hyperhidrosis are among the conditions that prompt IGF-1 testing"
+     },
+     {
+      "en": "Neither peptide has a skin trial, and in the US neither is on the 503A bulks list"
+     }
+    ],
+    "options": [
+     {
+      "value": "reassure",
+      "label": {
+       "en": "Reassure her that mild water retention is expected on growth-hormone peptides and review in three months."
+      },
+      "why": {
+       "en": "Fluid retention is a known effect, but this cluster is the pattern the Endocrine Society says should prompt IGF-1 testing. Three more months on an unmonitored product leaves it unassessed."
+      }
+     },
+     {
+      "value": "stop-record-refer",
+      "label": {
+       "en": "Advise stopping the product, record exactly what she used, from where and for how long, and route her promptly to a prescriber for assessment of GH excess, including IGF-1."
+      },
+      "correct": true,
+      "why": {
+       "en": "Right. Stop the exposure, capture the product details, and get the signs assessed. Fluid retention on these agents usually settles when treatment stops; signs that persist need an endocrine work-up."
+      }
+     },
+     {
+      "value": "switch-tesamorelin",
+      "label": {
+       "en": "Switch her to tesamorelin, since it is FDA-approved."
+      },
+      "why": {
+       "en": "Tesamorelin's approval covers HIV-associated abdominal fat, and it pushes IGF-1 above the normal range in about half of treated patients. It would add to the problem."
+      }
+     }
+    ],
+    "followUp": {
+     "en": "Then document the conversation: the product and its source, the signs you saw, what you advised, and who assesses her next."
+    },
+    "citationRefs": [
+     "katznelson-2014-acromegaly-guideline",
+     "ben-shlomo-2006-acromegaly-skin",
+     "egrifta-wr-label-2026",
+     "fda-503a-category2-safety-risks-page",
+     "hannah-shmouni-2026-ppg-aug"
+    ],
+    "source": "authored:2026-09-24 from Endocrine Society acromegaly guideline recommendations 1.1–1.2 + claims c-m06-16, c-m06-17"
+   },
+   "metadata": {
+    "variants": {
+     "audienceLevel": {
+      "prescriber": {
+       "en": "You examine for acral and facial change, measure IGF-1 or refer to endocrinology, check glucose and blood pressure, and document the unapproved product and your advice."
+      },
+      "clinical-staff": {
+       "en": "You record the product name, supplier and duration, note the swelling and tingling, and escalate to the prescriber the same day."
+      },
+      "advisor": {
+       "en": "You advise her to stop, keep the vial and packaging, and see a prescriber promptly; you do not suggest a stronger product or another supplier."
+      }
+     }
+    },
+    "audioScript": {
+     "en": "This patient is fictional, built from the lesson's evidence. She is fifty-two and has injected a clinic-supplied product labelled CJC-1295 and ipamorelin for eight months, for skin and recovery. Her rings no longer fit. Her face and hands look puffy, her fingers tingle at night, she sweats more than she used to, and small skin tags have appeared on her neck. She likes her skin and asks for a stronger version. Read the cluster before the request. Swollen hands and face, tingling, sweating and new skin tags together make up the soft-tissue pattern of growth-hormone excess, and carpal tunnel symptoms and heavy sweating are among the conditions that prompt an IGF-1 test. Neither peptide has a skin trial behind it. Choose the move you would make first."
+    }
+   },
+   "points": [
+    {
+     "en": "Tight rings, puffy hands and face"
+    },
+    {
+     "en": "Night-time tingling, sweating, new skin tags"
+    },
+    {
+     "en": "An unapproved product with no skin trials"
+    }
+   ],
+   "audioBeats": [
+    {
+     "title": {
+      "en": "What she uses"
+     },
+     "body": {
+      "en": "A clinic-supplied product labelled CJC-1295 and ipamorelin, for eight months, for skin and recovery. No published trial supports either for skin."
+     }
+    },
+    {
+     "title": {
+      "en": "What you see"
+     },
+     "body": {
+      "en": "Tight rings, a puffy face and hands, night-time tingling, more sweating and new skin tags: the soft-tissue pattern of GH excess."
+     }
+    },
+    {
+     "title": {
+      "en": "What the guidelines say"
+     },
+     "body": {
+      "en": "Carpal tunnel symptoms and hyperhidrosis are among the conditions that prompt IGF-1 testing; signs that persist off the product need an endocrine work-up."
+     }
+    }
+   ]
+  },
+  {
+   "id": "m6-p18",
+   "type": "quiz",
+   "time": "18 / 19",
+   "lead": {
+    "en": "Your turn"
+   },
+   "title": {
+    "en": "'Will it give me cancer?'"
+   },
+   "body": {
+    "en": "One question to close lesson 6.3."
+   },
+   "sourceNote": "Lesson 6.3",
+   "quiz": {
+    "id": "m6-q3",
+    "prompt": {
+     "en": "Fictional chart note: a 44-year-old using an IGF-1 LR3 product bought online asks you directly whether it causes cancer. Which answer keeps the registers apart?"
+    },
+    "options": [
+     {
+      "text": {
+       "en": "Yes. IGF-1 drives cell growth, so it causes cancer."
+      },
+      "why": {
+       "en": "That turns a mechanism into a measured risk. The mechanism is plausible; the effect of this product on cancer has never been studied."
+      }
+     },
+     {
+      "text": {
+       "en": "The mechanism makes it a concern; people with higher natural IGF-1 have slightly higher rates of some cancers; IGF-1 LR3 itself has no human studies, so the risk is plausible and unmeasured."
+      },
+      "why": {
+       "en": "Correct. Mechanism, observation and the open question, each stated for what it is."
+      }
+     },
+     {
+      "text": {
+       "en": "No. Large studies of growth-hormone treatment found no cancer signal."
+      },
+      "why": {
+       "en": "Those cohorts studied replacement in children with growth failure, and even they flagged a few signals. They say nothing about an unstudied IGF-1 analogue used for skin."
+      }
+     }
+    ],
+    "correct": 1,
+    "feedback": {
+     "en": "Mechanism, association and unknown are three different answers. Give all three."
+    },
+    "pillar": "evidence-appraisal",
+    "citationRefs": [
+     "renehan-2004-igf1-cancer-meta",
+     "knuppel-2020-igf1-cancers-ukb",
+     "swerdlow-2017-saghe",
+     "dominikowski-2026-gh-axis-peptides-review"
+    ]
+   }
+  },
+  {
+   "id": "m6-p19",
+   "type": "action",
+   "time": "19 / 19",
+   "lead": {
+    "en": "Closing and commitment"
+   },
+   "title": {
+    "en": "Before my next growth-hormone conversation."
+   },
+   "body": {
+    "en": "Build the checklist you will actually use. It is saved to your path and your tutor will bring it back."
+   },
+   "sourceNote": "Module 06",
+   "citationRefs": [
+    "hannah-shmouni-2026-are",
+    "katznelson-2014-acromegaly-guideline",
+    "fda-503a-bulks-page"
+   ],
+   "action": {
+    "prompt": {
+     "en": "Choose what you will do before your next conversation about a growth-hormone peptide"
+    },
+    "takeaway": {
+     "en": "Next module: evidence appraisal, compounding rules and prescriber compliance, including how to read a certificate of analysis."
+    },
+    "suggestions": [
+     {
+      "en": "I will ask exactly which molecule, including with or without DAC."
+     },
+     {
+      "en": "I will name the approved indication before I name a grade."
+     },
+     {
+      "en": "I will look at hands, face and skin for signs of GH excess."
+     }
+    ]
+   },
+   "metadata": {
+    "clozePrefix": {
+     "en": "Before my next growth-hormone conversation I will"
+    },
+    "clozeSuffix": {
+     "en": "."
+    },
+    "variants": {
+     "audienceLevel": {
+      "prescriber": {
+       "en": "Your checklist ends with assessment: examine for acral and facial change, test or refer, and document the unapproved product and your advice."
+      },
+      "clinical-staff": {
+       "en": "Your checklist ends with escalation: swelling, tingling or new skin changes on a growth-hormone peptide go to the prescriber the same day."
+      },
+      "advisor": {
+       "en": "Your checklist ends with referral: you can describe the evidence and the US status; anyone injecting these products needs a prescriber."
+      }
+     }
+    }
+   },
+   "interaction": {
+    "kind": "chips",
+    "title": {
+     "en": "Your growth-hormone checklist"
+    },
+    "prompt": {
+     "en": "Tap everything you will do. Choose as many as you like."
+    },
+    "prefix": {
+     "en": "Before my next growth-hormone conversation I will"
+    },
+    "chips": [
+     {
+      "value": "molecule",
+      "label": {
+       "en": "ask exactly which molecule and product"
+      },
+      "group": "evidence"
+     },
+     {
+      "value": "indication",
+      "label": {
+       "en": "name the approved indication before the grade"
+      },
+      "group": "evidence"
+     },
+     {
+      "value": "status",
+      "label": {
+       "en": "check its current US status on the live FDA lists"
+      },
+      "group": "regulatory"
+     },
+     {
+      "value": "signs",
+      "label": {
+       "en": "look for swelling, tingling, sweating and new skin tags"
+      },
+      "group": "safety"
+     },
+     {
+      "value": "document",
+      "label": {
+       "en": "document what I advised and why"
+      },
+      "group": "regulatory"
+     },
+     {
+      "value": "refer",
+      "label": {
+       "en": "send suspected GH excess to a prescriber or endocrinology"
+      },
+      "group": "safety"
+     }
+    ],
+    "suffix": {
+     "en": "."
+    },
+    "pick": "many",
+    "citationRefs": [
+     "hannah-shmouni-2026-are",
+     "katznelson-2014-acromegaly-guideline",
+     "fda-503a-bulks-page"
+    ],
+    "source": "authored:2026-09-24 from Aesthetic & Regenerative Endocrinology, ch. 3 and 15 pearls and m6 tool items"
+   }
+  }
+ ],
+ "check": {
+  "id": "m6-check",
+  "prompt": {
+   "en": "Closing Module 6: which statement about tesamorelin keeps the four registers apart?"
+  },
+  "options": [
+   {
+    "text": {
+     "en": "Tesamorelin raises growth hormone through the pituitary, so its GRADE A covers skin ageing."
+    },
+    "why": {
+     "en": "That stretches a mechanism and an indication-specific grade to a use no trial has tested."
+    }
+   },
+   {
+    "text": {
+     "en": "GHRH-receptor agonist (mechanism); GRADE A for HIV-associated abdominal fat (human evidence); FDA-approved in the US for that use since 2010 (regulatory status); whether sustained IGF-1 elevation carries long-term risk is unknown (open question)."
+    },
+    "why": {
+     "en": "Correct. Four separate answers, each with its own source."
+    }
+   },
+   {
+    "text": {
+     "en": "Because it is FDA-approved, tesamorelin is safe to use for skin."
+    },
+    "why": {
+     "en": "Approval covers one indication, and its own label lists raised IGF-1, fluid retention and glucose intolerance."
+    }
+   }
+  ],
+  "correct": 1,
+  "feedback": {
+   "en": "Mechanism, human evidence, regulatory status, open question: four answers, never one sentence."
+  },
+  "citationRefs": [
+   "falutz-2010-tesamorelin-pooled",
+   "egrifta-wr-label-2026",
+   "hannah-shmouni-2026-are"
+  ]
+ },
+ "claimLocations": {
+  "c-m06-01": [
+   "m6-p02",
+   "m6-p04"
+  ],
+  "c-m06-02": [
+   "m6-p02",
+   "m6-p04"
+  ],
+  "c-m06-03": [
+   "m6-p02",
+   "m6-p06"
+  ],
+  "c-m06-04": [
+   "m6-p04",
+   "m6-p14"
+  ],
+  "c-m06-05": [
+   "m6-p04"
+  ],
+  "c-m06-06": [
+   "m6-p03",
+   "m6-p04"
+  ],
+  "c-m06-07": [
+   "m6-p05",
+   "m6-p06"
+  ],
+  "c-m06-08": [
+   "m6-p05",
+   "m6-p11"
+  ],
+  "c-m06-09": [
+   "m6-p08",
+   "m6-p10",
+   "m6-p13"
+  ],
+  "c-m06-10": [
+   "m6-p08",
+   "m6-p16",
+   "m6-p17"
+  ],
+  "c-m06-11": [
+   "m6-p09"
+  ],
+  "c-m06-12": [
+   "m6-p10",
+   "m6-p13"
+  ],
+  "c-m06-13": [
+   "m6-p10",
+   "m6-p11"
+  ],
+  "c-m06-14": [
+   "m6-p10",
+   "m6-p11"
+  ],
+  "c-m06-15": [
+   "m6-p11",
+   "m6-p12",
+   "m6-p13"
+  ],
+  "c-m06-16": [
+   "m6-p14",
+   "m6-p17"
+  ],
+  "c-m06-17": [
+   "m6-p14",
+   "m6-p17"
+  ],
+  "c-m06-18": [
+   "m6-p15",
+   "m6-p18"
+  ],
+  "c-m06-19": [
+   "m6-p15",
+   "m6-p16",
+   "m6-p18"
+  ]
+ },
+ "audienceLevelPanes": [
+  "m6-p05",
+  "m6-p12",
+  "m6-p17",
+  "m6-p19"
+ ],
+ "courseQuiz": [
+  {
+   "id": "cq-m06-1",
+   "prompt": {
+    "en": "In the US, as of September 2026, which statement about growth-hormone secretagogues and 503A compounding is accurate?"
+   },
+   "options": [
+    {
+     "text": {
+      "en": "Ipamorelin and CJC-1295 are on the 503A bulks list, because clinics compound them widely."
+     },
+     "why": {
+      "en": "Neither is on the list. FDA's advisory committee voted against ipamorelin in 2024, and both 503A nominations were withdrawn."
+     }
+    },
+    {
+     "text": {
+      "en": "None of them is on the 503A bulks list; ibutamoren is in FDA's Category 2 for a heart-failure signal, and the ipamorelin and CJC-1295 nominations were withdrawn."
+     },
+     "why": {
+      "en": "Correct, dated to FDA's category documents of April and May 2026."
+     }
+    },
+    {
+     "text": {
+      "en": "Sermorelin is an FDA-approved product marketed for adult anti-ageing."
+     },
+     "why": {
+      "en": "No sermorelin product is marketed in the US. Its former approvals were for children with GH deficiency and for diagnostic testing."
+     }
+    }
+   ],
+   "correct": 1,
+   "rationale": {
+    "en": "Popularity and compounding volume are not regulatory standing; check the live FDA lists and name the date."
+   },
+   "pillar": "regulatory-safety",
+   "citationRefs": [
+    "fda-503a-categories-2026-05-14",
+    "fda-503a-category2-safety-risks-page",
+    "fda-pcac-2024-10-minutes",
+    "fr-2013-geref-determination"
+   ]
+  },
+  {
+   "id": "cq-m06-2",
+   "prompt": {
+    "en": "Why does a 'low' IGF-1 in a healthy 60-year-old not, on its own, justify growth-hormone therapy?"
+   },
+   "options": [
+    {
+     "text": {
+      "en": "IGF-1 falls normally with age, and trials in healthy older adults show small body-composition gains with more oedema, joint pain and glucose problems."
+     },
+     "why": {
+      "en": "Correct. The somatopause is physiology, and the trials point against treatment."
+     }
+    },
+    {
+     "text": {
+      "en": "Because growth hormone has no effect on skin at all."
+     },
+     "why": {
+      "en": "GH acts on dermal fibroblasts, and GH excess visibly changes skin. The problem is the balance of benefit and harm in healthy adults."
+     }
+    },
+    {
+     "text": {
+      "en": "Because IGF-1 cannot be measured reliably."
+     },
+     "why": {
+      "en": "IGF-1 is a standard test. The point is to read it against an age-matched range and to treat a diagnosis."
+     }
+    }
+   ],
+   "correct": 0,
+   "rationale": {
+    "en": "Treat confirmed deficiency, not ageing: age-adjusted ranges plus the healthy-ageing trials."
+   },
+   "pillar": "physiology",
+   "citationRefs": [
+    "veldhuis-2008-somatotropic-ageing",
+    "liu-2007-gh-healthy-elderly",
+    "blackman-2002-gh-sex-steroids-rct"
+   ]
+  }
+ ],
+ "tutorEntries": [
+  {
+   "id": "tutor-m06-secretagogues",
+   "keys": [
+    "cjc-1295",
+    "cjc 1295",
+    "ipamorelin",
+    "sermorelin",
+    "tesamorelin",
+    "mk-677",
+    "ibutamoren",
+    "igf-1 lr3",
+    "growth hormone peptides",
+    "gh secretagogue",
+    "hgh for skin"
+   ],
+   "answer": {
+    "en": "Tesamorelin is the one peptide on this axis with approval-grade evidence: two phase 3 trials and US approval (2010) for excess abdominal fat in adults with HIV-associated lipodystrophy, GRADE A for that use only. Sermorelin, CJC-1295 with DAC and ipamorelin have human hormone-level data but no trial showing a clinical or skin benefit; CJC-1295 without DAC and IGF-1 LR3 have no published human studies (this course grades all of these D). In the US, as of FDA's lists of April and May 2026, no growth-hormone secretagogue is on the 503A bulks list; ibutamoren (MK-677) is in Category 2, and the CJC-1295 and ipamorelin 503A nominations were withdrawn. Growth hormone itself is approved for diagnosed deficiency and a few growth disorders, and knowingly distributing it for anti-ageing is a federal offence. This course gives no doses or sourcing advice; for an individual patient, that is a prescriber's decision."
+   },
+   "citationRefs": [
+    "falutz-2010-tesamorelin-pooled",
+    "dominikowski-2026-gh-axis-peptides-review",
+    "fda-503a-categories-2026-05-14",
+    "fda-503a-category2-safety-risks-page",
+    "usc-21-333e-hgh"
+   ],
+   "scope": "m06"
+  },
+  {
+   "id": "tutor-m06-gh-excess",
+   "keys": [
+    "too much growth hormone",
+    "gh excess signs",
+    "acromegaly skin",
+    "swollen hands",
+    "rings tight",
+    "carpal tunnel peptide",
+    "igf-1 cancer",
+    "do growth hormone peptides cause cancer",
+    "skin tags on peptides",
+    "igf-1 too high"
+   ],
+   "answer": {
+    "en": "Signs of growth-hormone excess include puffy, thickened skin of the face, hands and feet, oily skin, more sweating, skin tags, acanthosis nigricans, tight rings or shoes, night-time tingling and carpal tunnel symptoms. On GH-axis drugs, fluid retention with swelling and joint pain is common and usually settles when treatment stops. The Endocrine Society recommends IGF-1 testing when typical acral and facial features are present, so route these patients to a prescriber or to endocrinology. On cancer, keep four answers apart: the IGF-1 receptor drives cell growth (mechanism); higher natural IGF-1 goes with modestly higher risk of some cancers (observation); GH replacement in true deficiency has not shown a clear risk in large cohorts; and for secretagogues or IGF-1 LR3 used for skin, long-term cancer data do not exist (open question)."
+   },
+   "citationRefs": [
+    "ben-shlomo-2006-acromegaly-skin",
+    "katznelson-2014-acromegaly-guideline",
+    "renehan-2004-igf1-cancer-meta",
+    "swerdlow-2017-saghe",
+    "egrifta-wr-label-2026"
+   ],
+   "scope": "m06"
+  }
+ ]
+}

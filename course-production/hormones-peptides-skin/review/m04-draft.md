@@ -1,6 +1,6 @@
 # Hormones and Peptides for Skin · Module 04 — review draft
 
-*approved · authored 2026-09-24 · 19 moments, ~26 min + module check · 50 sources · 20 claims*
+*approved · authored 2026-09-24 · 19 moments, ~26 min + module check · 49 sources · 20 claims*
 
 Every factual sentence traces to the graded registry (`citations/m04.md`). Moments marked **By role** carry the prescriber · clinical staff · advisor versions of the practice guidance; grades and regulatory facts never change by role.
 
@@ -46,13 +46,13 @@ Start with the molecule. GHK is a three-amino-acid peptide that circulates in hu
 ### 04 / 19 · One indexed randomized trial.  
 *Human evidence · stat*
 
-A search of PubMed in September 2026 found one randomized controlled trial of topical GHK-Cu in human skin: 2006, healing after CO₂ laser resurfacing. The cosmetic trials cited for anti-ageing claims are manufacturer-sponsored and not indexed. Both Hormonaly guides grade topical use C. A phase 2 trial of a topical GHK-Cu wound gel has been recruiting since 2026.
+A search of PubMed in September 2026 found one randomized controlled trial of topical GHK-Cu in human skin: 2006, healing after CO₂ laser resurfacing. The cosmetic trials cited for anti-ageing claims are manufacturer-sponsored and not indexed. Both Hormonaly guides grade topical use C.
 
 **1** — indexed randomized trial of topical GHK-Cu in human skin (Miller et al., 2006 — healing after CO₂ laser resurfacing, not photoageing)  
 *Means:* The human evidence for topical GHK-Cu is small: one small indexed trial plus sponsor-run cosmetic studies. GRADE C is the honest ceiling.  
 *Does not mean:* It does not show that GHK-Cu fails, that it treats photoageing, or anything about injecting it. A thin evidence base is an unknown, not a negative.
 
-<sub>Sources: Miller TR 2006 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · Hudson Biotech 2026</sub>
+<sub>Sources: Miller TR 2006 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
 
 ### 05 / 19 · Keep the four answers apart.  
 *Four registers · tool*
@@ -139,12 +139,12 @@ Five products from two families, and what each promises on the label. Before you
 
 **Exercise (classify) · Trial or brochure?** — Tap what stands behind each product.
 - pal-KTTKS (Matrixyl) → **A randomized human trial** — *GRADE C. A 12-week split-face RCT in 93 women, funded by the manufacturer, and an independent 2023 RCT.*
-- Matrixyl 3000 blend → **Manufacturer data only** — *GRADE D. Only the maker's technical dossier, which is not indexed.*
+- Matrixyl 3000 blend → **No randomized trial** — *GRADE D. Only the maker's technical dossier, which is not indexed.*
 - Argireline → **A randomized human trial** — *GRADE C in this course. Placebo-controlled RCTs, including an independent head-to-head trial, show modest effects. The two Hormonaly guides disagree (C in Aesthetic & Regenerative Endocrinology, D in the Peptide Pocket Guide); the trials decide it here.*
-- SNAP-8 → **Manufacturer data only** — *GRADE D. Its efficacy figures come from the manufacturer, and the indexed studies test it mixed with other actives, so none isolates it.*
-- Leuphasyl → **Manufacturer data only** — *GRADE D. Manufacturer studies and an in-vitro synergy figure; no independent or indexed human trial.*
+- SNAP-8 → **No randomized trial** — *GRADE D. Its efficacy figures come from the manufacturer, and the indexed studies test it mixed with other actives, so none isolates it.*
+- Leuphasyl → **No randomized trial** — *GRADE D. The maker's studies, an in-vitro synergy figure and one small uncontrolled university volunteer study (2014); no randomized trial.*
 
-<sub>Sources: Robinson LR 2005 · Aruan RR 2023 · Wang Y 2013 · Errante F 2020 · Shin JY 2024 · Avcil M 2020 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
+<sub>Sources: Aruan RR 2023 · Avcil M 2020 · Dragomirescu AO 2014 · Errante F 2020 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Robinson LR 2005 · Shin JY 2024 · Wang Y 2013</sub>
 
 ### 10 / 19 · Twenty-three trials, split by who paid.  
 *The evidence · stat*
@@ -209,16 +209,16 @@ Lesson three moves from the cosmetic shelf to the peptides patients buy online a
 
 <sub>Sources: Sikiric P 2018 · Seiwerth S 2021 · Lee E 2021 · Esposito S 2012 · Crockford D 2010 · Dalmasso G 2008 · Kannengiesser K 2008 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Sikirić P 1993</sub>
 
-### 14 / 19 · Zero published efficacy trials.  
+### 14 / 19 · One abstract, no published trial.  
 *The evidence · stat*
 
-As of September 2026 no randomized efficacy trial of BPC-157 in people has been published. What exists on ClinicalTrials.gov: a 2015 phase 1 safety study that never posted results, a completed 2025 single-arm product study with no results posted, a phase 2 randomized trial recruiting since 2026, and a phase 1 trial planned for 2027.
+As of September 2026 no randomized efficacy trial of BPC-157 in people has been published in full. FDA's July 2026 briefing found one randomized, placebo-controlled trial reported only as a 2005 meeting abstract: 53 people with ulcerative colitis, two weeks of treatment, and no significant difference from placebo. ClinicalTrials.gov adds a 2015 phase 1 safety study that never posted results, a completed 2025 single-arm product study with no results posted, and a randomized phase 1 trial after rotator-cuff surgery due to start in 2027.
 
-**0** — published randomized efficacy trials of BPC-157 in people (September 2026) (Registered: phase 1 (2015, no results) · single-arm product study (2025, no results) · phase 2 RCT (recruiting) · phase 1 RCT (planned 2027))  
-*Means:* Whether BPC-157 helps people heal is unknown. The enthusiasm rests on rodents and uncontrolled case series.  
+**0** — randomized efficacy trials of BPC-157 in people published in full (September 2026) (One 2005 ulcerative-colitis trial exists only as a meeting abstract (no significant difference from placebo) · registered: phase 1 safety study (2015, no results) · single-arm product study (2025, no results) · randomized phase 1 after rotator-cuff repair (starts 2027))  
+*Means:* Whether BPC-157 helps people heal is unknown. The only randomized human result is an abstract that showed no significant benefit; the enthusiasm rests on rodents and uncontrolled case series.  
 *Does not mean:* It does not show BPC-157 is ineffective or unsafe. Absence of trials is absence of evidence, and this figure will change when the registered trials report.
 
-<sub>Sources: PharmaCotherapia d.o.o. 2015 · Parlay Wellness 2025 · Hudson Biotech 2026 · University of Arkansas 2027 · McGuire FP 2025 · Mayfield CK 2026</sub>
+<sub>Sources: fda-pcac-2026-bpc157-briefing · Mayfield CK 2026 · McGuire FP 2025 · PharmaCotherapia d.o.o. 2015 · Parlay Wellness 2025 · University of Arkansas 2027</sub>
 
 ### 15 / 19 · Two trials, one peptide: LL-37.  
 *Worked example · tool*
@@ -336,3 +336,5 @@ Build the checklist you will actually use. It is saved to your path and your tut
 8. Oral collagen — Myung & Park 2025 (Am J Med, 23 RCTs) find the benefit only in pharmaceutical-funded and low-quality trials; the author may wish to revisit A&RE's GRADE C.
 9. SNAP-8 is in neither guide; the course adds it from the literature (Errante 2020 review; two combination-product studies).
 10. Not in either guide, worth adding — Miller 2006 (the one indexed RCT of topical GHK-Cu), Aruan 2023 (independent RCT, Argireline vs pal-KTTKS), Esposito 2012 (TB-500 characterized as the Tβ4 17–23 fragment), the two 2026 BPC-157 trial registrations, and the two independent 2025–26 BPC-157 reviews.
+11. Trial-registry integrity (2026-09-24): ClinicalTrials.gov sponsor 'Hudson Biotech' lists eight 'recruiting' records covering BPC-157, TB-500, MOTS-c, GHK-Cu, Melanotan II, tesamorelin, tirzepatide ('SURMOUNT-1', Lilly's published trial title) and LY3437943, including one titled '(Mock Study)'. The course no longer cites any of them. Recommend neither Hormonaly guide cite registrations from this sponsor, and that the foundry's source check flag registrations whose sponsor holds mock or duplicated records.
+12. Leuphasyl (2026-09-24, from the claim-support check): an independent university volunteer study exists (Dragomirescu 2014, Cosmetics, not PubMed-indexed; three concentrations, wrinkle imaging, no randomized control described). The course now says 'no randomized controlled trial' instead of 'no independent human trial'; the grade stays D. Worth adding to the Pocket Guide's Leuphasyl entry.

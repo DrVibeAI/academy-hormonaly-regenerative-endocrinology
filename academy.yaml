@@ -8,20 +8,9 @@ brand:
   shortName: Hormonaly
   wordmarkSuffix: ACADEMY              # typographic wordmark (no logo asset yet): "Hormonaly" in the display serif + mono suffix
   logo: ./assets/hormonaly-logo.png     # INTAKE: logo asset pending from customer — until it ships in public/, the wordmark renders
-  theme: perceptors-editorial           # Perceptors editorial skin (paper · ink · violet · Fraunces/DM Sans/DM Mono), Omar 2026-09-24
-  accent: "#5A4BC4"                     # Perceptors violet (house theme tier 0)
-  palette:                              # house theme tier 0, pinned (perceptor-foundry templates/house-theme.yaml)
-    primary: "#5A4BC4"
-    primaryDeep: "#4A3DA6"
-    primaryDeepest: "#38308F"
-    primarySoft: "#E9E5F7"
-    ink: "#1C1B2B"
-    paper: "#F4F1E9"
-    line: "#D7D2C8"
-  fonts:
-    display: Fraunces
-    body: DM Sans
-    mono: DM Mono
+  theme: perceptors-house               # design tier 0: the Perceptors house theme verbatim (design.md), Omar 2026-09-24
+  designTier: 0
+  accent: "#5A4BC4"                     # Perceptors violet (house); palette and fonts are inherited from the house, not copied
   tagline: { en: "The skin–endocrine system, evidence-graded." }
   supportEmail: support@hormonaly.ai    # placeholder — confirm with customer
   issuer: Hormonaly Academy

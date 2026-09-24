@@ -39,6 +39,12 @@ commit or push — the lead commits. Do NOT start servers.
   record settles it. Cite the guide as well when the lesson reports the guide's own rating or recommendation.
 - Grade every source with m04's `gradingRule` (A–D or `context`) and a one-line `gradeNote`. Where the two guides disagree, or
   newer independent evidence contradicts a guide's grade, teach the evidence and add an author finding (m04's oral-collagen pattern).
+- Observational studies: adequately sized cohort, case-control or cross-sectional studies grade C for the association they measured;
+  small or single-centre ones grade D; any causal claim drawn from them grades D; meta-analyses of observational studies grade at most B,
+  for association only. Guidelines and consensus statements are `context`.
+- Trial registrations are not evidence of a real trial until the sponsor checks out. Before citing a ClinicalTrials.gov record, list the
+  sponsor's other records; drop any record whose sponsor also holds a "(Mock Study)", an "example ... study record", or a copy of another
+  sponsor's published trial title, and add an author finding.
 - 15–35 sources per module is typical. Every registry source must be cited by at least one block (the citation audit fails on
   unused sources); move considered-but-unused ones to `consideredNotUsed` with a reason.
 - Claims: one per load-bearing teaching statement (10–20). `status: "verified"` when the cited sources support it as worded

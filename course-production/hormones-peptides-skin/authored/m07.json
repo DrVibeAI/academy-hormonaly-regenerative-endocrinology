@@ -1,0 +1,1955 @@
+{
+ "module": "m07",
+ "authoredAt": "2026-09-24",
+ "status": "ai_draft",
+ "unit": {
+  "id": "m07-story",
+  "slug": "m07-story",
+  "type": "story",
+  "title": {
+   "en": "Evidence, regulation and compliance · three lessons"
+  },
+  "description": {
+   "en": "Lesson 7.1 Grading the evidence behind an aesthetic claim · Lesson 7.2 Compounding law, the 40-amino-acid line and certificates of analysis · Lesson 7.3 Cosmetic, compounded or investigational: consent and the chart."
+  },
+  "estimatedMinutes": 27,
+  "sortOrder": 1,
+  "isRequired": true,
+  "status": "ai_draft",
+  "tutorContext": "Module 7 closes the course: evidence appraisal, US regulatory frameworks and prescriber compliance, kept in separate registers. GRADE: certainty (high, moderate, low, very low; the guides print A–D) for one outcome across a body of evidence, never for a molecule; RCTs start high, observational studies low; rate down for risk of bias, inconsistency, indirectness (study PICO differs from the question), imprecision (CI crosses the important difference) and publication bias (suspect it when evidence is small industry-funded studies); rate up for large effects. Course examples: GHK-Cu's one indexed RCT measured post-laser healing (indirect for photoageing); BPC-157 wound data are rodent (indirect); LL-37 34-person positive then 148-person negative phase IIb (inconsistent); oral collagen benefit only in low-quality and industry-funded trials (risk of bias, Myung 2025). Lundh 2017 Cochrane: industry-sponsored studies more often favourable efficacy results, RR 1.27 (1.17–1.37). Grade and legal status are separate checks; mechanism never raises a grade. US 503A (21 USC 353a): identified patient, prescription; exempt only from approval, adequate directions, cGMP; bulk substance must meet a USP/NF monograph, else be an approved-drug component, else be on the 503A bulks list; registered manufacturer and valid COA; no statutory purity figure. 21 CFR 216.23: six substances, none a peptide, unchanged since 2019 (eCFR current 22 Sep 2026); listing is no endorsement. Categories 1–3 = interim enforcement posture: Category 1 includes non-injectable GHK-Cu (14 May 2026); 503A Category 2 has six substances; BPC-157, TB-500, KPV, injectable GHK-Cu, LL-37, melanotan II are withdrawn nominations with safety concerns still posted. PCAC 23–24 Jul 2026 is advisory; FDA staff concluded criteria weigh against listing BPC-157; only rulemaking changes the list. 503B: registered outsourcing facility, cGMP, risk-based inspection, adverse-event reporting, may compound without patient-specific prescriptions; products unapproved. >40 alpha amino acids = protein = biological product since 23 Mar 2020 (85 FR 10057); tesamorelin and hyaluronidase became BLAs; biologics cannot use 503A/503B exemptions; retatrutide residue count upheld by a district court in 2025, appeal pending (June 2026 filings). COA = supplier's report on one lot: MS identity (observed vs expected mass), HPLC purity (impurities unnamed), endotoxin (limit calculated from dose and route, FDA 2026 guidance), microbial, water, counter-ion, metals, solvents; cannot prove the vial is that lot, storage, sterility or legality; red flags = no lot, no chromatogram, no impurities, no endotoxin on an injectable, over 12 months old. FDA's BPC-157 briefing: public COAs mostly purity only; the nominator's COA reported no endotoxin test, and the COAs supplied were for the acetate while the free base was nominated. Ashraf 2024: three online semaglutide vials 7.7–14.4% purity vs 99% labelled, endotoxin in all. RUO: 21 CFR 312.160 permits shipment for lab or in-vitro research, 'Not for use in humans'; intended use judged objectively (21 CFR 201.128); a COA cannot convert RUO into a pharmaceutical. Cosmetic vs drug by intended use ('regenerate cells' is a drug claim; 'cosmeceutical' has no legal meaning); supplements not approved before sale; off-label applies only to approved drugs; unapproved new drug in interstate commerce is a prohibited act (21 USC 331); FDA's 2020 warning letter named compounded BPC-157 and GHK-Cu. Chart: article and status in those words; pathway, facility and COA if compounded; consent (not approved, foreseeable risks, approved alternatives incl. nothing, what happens if harm; elements borrowed from 21 CFR 50.25); grade quoted; monitoring and stopping rule; dated status check. US only; UK and EU mapping pending. Never give doses, reconstitution, stacking, administration or sourcing; never validate a vendor or call a COA 'safe'. Adapt 'what you do next' to prescriber, clinical staff or advisor without changing grades or facts. The course is designed toward future CME accreditation; no credit is offered at this time.",
+  "tutorKeywords": [
+   "GRADE",
+   "certainty of evidence",
+   "indirectness",
+   "imprecision",
+   "inconsistency",
+   "risk of bias",
+   "publication bias",
+   "industry sponsorship",
+   "503A",
+   "503B",
+   "bulks list",
+   "Category 1",
+   "PCAC",
+   "certificate of analysis",
+   "COA",
+   "HPLC",
+   "mass spectrometry",
+   "endotoxin",
+   "research use only",
+   "40 amino acids",
+   "biologic",
+   "off-label",
+   "cosmetic",
+   "informed consent",
+   "documentation"
+  ]
+ },
+ "lessons": [
+  {
+   "id": "7.1",
+   "title": {
+    "en": "Grading the evidence behind an aesthetic claim"
+   },
+   "blocks": [
+    "m7-p01",
+    "m7-p02",
+    "m7-p03",
+    "m7-p04",
+    "m7-p05",
+    "m7-p06"
+   ]
+  },
+  {
+   "id": "7.2",
+   "title": {
+    "en": "Compounding law, the 40-amino-acid line and certificates of analysis"
+   },
+   "blocks": [
+    "m7-p07",
+    "m7-p08",
+    "m7-p09",
+    "m7-p10",
+    "m7-p11",
+    "m7-p12",
+    "m7-p13",
+    "m7-p14"
+   ]
+  },
+  {
+   "id": "7.3",
+   "title": {
+    "en": "Cosmetic, compounded or investigational: consent and the chart"
+   },
+   "blocks": [
+    "m7-p15",
+    "m7-p16",
+    "m7-p17",
+    "m7-p18",
+    "m7-p19",
+    "m7-p20"
+   ]
+  }
+ ],
+ "blocks": [
+  {
+   "id": "m7-p01",
+   "type": "title",
+   "time": "01 / 20",
+   "lead": {
+    "en": "Module 07 · Evidence, regulation and compliance"
+   },
+   "title": {
+    "en": "Grade it, check it, write it down."
+   },
+   "body": {
+    "en": "This last module turns the course into three habits. You will rate the certainty behind a claim with GRADE, read a compounding status and a certificate of analysis for what they do and do not prove, and write the consent and chart note that an unapproved product needs. The regulatory detail is US; UK and EU mapping for this course is still in progress."
+   },
+   "points": [
+    {
+     "en": "7.1 Grading the evidence behind an aesthetic claim"
+    },
+    {
+     "en": "7.2 Compounding law, the 40-amino-acid line and certificates of analysis"
+    },
+    {
+     "en": "7.3 Cosmetic, compounded or investigational: consent and the chart"
+    }
+   ],
+   "sourceNote": "Hormones and Peptides for Skin · Module 07"
+  },
+  {
+   "id": "m7-p02",
+   "type": "audio",
+   "time": "02 / 20",
+   "lead": {
+    "en": "Lesson 7.1 · Concept"
+   },
+   "title": {
+    "en": "GRADE rates certainty in an effect, one outcome at a time."
+   },
+   "body": {
+    "en": "GRADE sorts the evidence on a specific question into four levels of certainty: high, moderate, low and very low. The rating applies to a body of evidence for one outcome, never to a single study or to a molecule. Randomized trials start high and observational studies start low; certainty then falls for risk of bias, inconsistency, indirectness, imprecision or suspected publication bias, and occasionally rises for a very large effect. Both Hormonaly guides print the letters A to D for the same idea, adapted, and attach each letter to a specific use."
+   },
+   "points": [
+    {
+     "en": "Four levels, applied to a body of evidence"
+    },
+    {
+     "en": "Five named reasons to rate down"
+    },
+    {
+     "en": "The letter belongs to a use, never to a molecule"
+    }
+   ],
+   "citationRefs": [
+    "balshem-2011-grade-rating-quality",
+    "guyatt-2008-grade-consensus",
+    "guyatt-2025-core-grade-4-bias",
+    "hannah-shmouni-2026-ppg-aug",
+    "hannah-shmouni-2026-are"
+   ],
+   "sourceNote": "Guyatt 2008 · Balshem 2011 · Core GRADE 2025 · Hormonaly guides",
+   "audioBeats": [
+    {
+     "title": {
+      "en": "Four levels"
+     },
+     "body": {
+      "en": "High, moderate, low, very low: how confident you can be that an estimated effect is close to the truth, for one outcome, across all the studies that address it."
+     }
+    },
+    {
+     "title": {
+      "en": "Where you start"
+     },
+     "body": {
+      "en": "Randomized trials start at high certainty and observational studies at low. The starting point then moves, for reasons you can name."
+     }
+    },
+    {
+     "title": {
+      "en": "The guides' letters"
+     },
+     "body": {
+      "en": "A to D in both Hormonaly guides maps onto the same four levels. The letter rates the evidence for a listed use. It does not rate legality, popularity or mechanism."
+     }
+    }
+   ],
+   "metadata": {
+    "audioScript": {
+     "en": "Every claim you hear about a skin peptide carries a hidden question. How sure can we be? GRADE answers it with four levels of certainty, from high to very low. The rating belongs to a body of evidence for one outcome, such as wrinkle depth at twelve weeks, and never to a single study or to the molecule itself. Randomized trials start high and observational studies start low. From there, certainty drops for five reasons you can name, which are risk of bias, inconsistency between trials, indirectness, imprecision, and suspected publication bias. It can occasionally rise, for example when an effect is very large. Both Hormonaly guides print a letter from A to D beside each use. Read those letters as the same four levels, adapted. They rate the evidence for that use, and they say nothing about whether a product is legal."
+    }
+   }
+  },
+  {
+   "id": "m7-p03",
+   "type": "stat",
+   "time": "03 / 20",
+   "lead": {
+    "en": "Who paid"
+   },
+   "title": {
+    "en": "Sponsored studies come out better."
+   },
+   "body": {
+    "en": "A Cochrane methodology review brought together 75 papers, each comparing studies sponsored by the manufacturer with studies funded in other ways. Industry-sponsored drug and device studies more often reported favourable efficacy results and favourable conclusions, and the difference was not explained by the usual risk-of-bias checks. It is the pattern you met with oral collagen in module 04."
+   },
+   "citationRefs": [
+    "lundh-2017-industry-sponsorship",
+    "myung-2025-collagen-funding-meta",
+    "guyatt-2025-core-grade-4-bias"
+   ],
+   "sourceNote": "Lundh et al., Cochrane Database Syst Rev 2017 · Myung & Park 2025 · Core GRADE 4",
+   "stat": {
+    "figure": "1.27",
+    "label": {
+     "en": "risk ratio for a favourable efficacy result, industry-sponsored versus other studies"
+    },
+    "detail": {
+     "en": "Lundh et al., Cochrane 2017 · 95% CI 1.17–1.37 · moderate-certainty evidence"
+    },
+    "means": {
+     "en": "When a manufacturer pays for the trial, a favourable result is more likely. Funding is a reason to read a trial harder and to look for independent replication."
+    },
+    "doesNot": {
+     "en": "It does not make a sponsored trial wrong or an independent one right. It describes an average tilt across many studies and says nothing about any single product."
+    }
+   }
+  },
+  {
+   "id": "m7-p04",
+   "type": "tool",
+   "time": "04 / 20",
+   "lead": {
+    "en": "Worked example"
+   },
+   "title": {
+    "en": "Name what lowers certainty."
+   },
+   "body": {
+    "en": "GRADE names the ways a body of evidence can mislead. Read the four you will use most. Then sort four cases from this course by the reason that most lowers certainty. The fifth, publication bias, is suspected when the evidence is a handful of small, mostly commercially funded studies."
+   },
+   "citationRefs": [
+    "guyatt-2025-core-grade-2-imprecision",
+    "guyatt-2025-core-grade-3-inconsistency",
+    "guyatt-2025-core-grade-4-bias",
+    "guyatt-2025-core-grade-5-indirectness",
+    "miller-2006-ghk-cu-laser-rct",
+    "gronberg-2014-ll37-rct",
+    "mahlapuu-2021-ll37-phase2b",
+    "myung-2025-collagen-funding-meta",
+    "seiwerth-2021-bpc157-wound-healing"
+   ],
+   "sourceNote": "Core GRADE 2–5 (BMJ 2025) · Miller 2006 · Grönberg 2014 · Mahlapuu 2021 · Myung 2025 · Seiwerth 2021",
+   "tool": {
+    "items": [
+     {
+      "label": {
+       "en": "Risk of bias"
+      },
+      "value": {
+       "en": "How the trials were run"
+      },
+      "note": {
+       "en": "Flaws in design or conduct that can exaggerate an effect; check whether low- and high-quality trials disagree"
+      }
+     },
+     {
+      "label": {
+       "en": "Inconsistency"
+      },
+      "value": {
+       "en": "The trials disagree"
+      },
+      "note": {
+       "en": "Unexplained differences in results between studies of the same question"
+      }
+     },
+     {
+      "label": {
+       "en": "Indirectness"
+      },
+      "value": {
+       "en": "A different question answered"
+      },
+      "note": {
+       "en": "The studies differ from your question in population, intervention, comparison or outcome"
+      }
+     },
+     {
+      "label": {
+       "en": "Imprecision"
+      },
+      "value": {
+       "en": "Too little data"
+      },
+      "note": {
+       "en": "Too few people or events; the confidence interval spans an important effect and little or none"
+      }
+     }
+    ],
+    "callout": {
+     "en": "Name the reason and you can explain a grade to a patient in one sentence."
+    }
+   },
+   "interaction": {
+    "kind": "quickfire",
+    "title": {
+     "en": "Name the problem"
+    },
+    "prompt": {
+     "en": "One case at a time: which reason most lowers certainty here?"
+    },
+    "labels": [
+     {
+      "value": "bias",
+      "label": {
+       "en": "Risk of bias"
+      },
+      "tone": "neutral"
+     },
+     {
+      "value": "inconsistency",
+      "label": {
+       "en": "Inconsistency"
+      },
+      "tone": "neutral"
+     },
+     {
+      "value": "indirectness",
+      "label": {
+       "en": "Indirectness"
+      },
+      "tone": "neutral"
+     }
+    ],
+    "items": [
+     {
+      "id": "ghkcu-laser",
+      "label": {
+       "en": "Topical GHK-Cu: the only indexed trial measured healing after laser resurfacing. Your patient asks about photoageing."
+      },
+      "answer": "indirectness",
+      "why": {
+       "en": "Indirectness. The trial's outcome, healing after resurfacing, is a neighbour of your patient's question, photoageing, so it answers a different question."
+      }
+     },
+     {
+      "id": "ll37-two-trials",
+      "label": {
+       "en": "LL-37 in venous leg ulcers: a 34-person trial was positive; a 148-person multicentre trial was negative in its full cohort."
+      },
+      "answer": "inconsistency",
+      "why": {
+       "en": "Inconsistency. Two randomized trials of the same question point in different directions, and the larger one found no effect overall."
+      }
+     },
+     {
+      "id": "collagen-quality",
+      "label": {
+       "en": "Oral collagen: the pooled benefit disappears when only high-quality trials are kept."
+      },
+      "answer": "bias",
+      "why": {
+       "en": "Risk of bias. When low- and high-quality trials disagree, GRADE gives the high-quality ones the weight, and here they show no effect."
+      }
+     },
+     {
+      "id": "bpc157-rodent",
+      "label": {
+       "en": "BPC-157 for skin healing: the wound data come from rodent models."
+      },
+      "answer": "indirectness",
+      "why": {
+       "en": "Indirectness. The population is rodents and your question is about people, as indirect as evidence gets."
+      }
+     }
+    ],
+    "done": {
+     "en": "Four placed. Two were indirectness: real studies that answer a different question from the one in front of you. Imprecision comes back in the question that closes this lesson."
+    },
+    "citationRefs": [
+     "miller-2006-ghk-cu-laser-rct",
+     "gronberg-2014-ll37-rct",
+     "mahlapuu-2021-ll37-phase2b",
+     "myung-2025-collagen-funding-meta",
+     "seiwerth-2021-bpc157-wound-healing",
+     "guyatt-2025-core-grade-5-indirectness"
+    ],
+    "source": "authored:2026-09-24 from Core GRADE 2–5 definitions (m7-p04.tool.items) + module 04 sources re-read for this module"
+   }
+  },
+  {
+   "id": "m7-p05",
+   "type": "audio",
+   "time": "05 / 20",
+   "lead": {
+    "en": "What changes in practice"
+   },
+   "title": {
+    "en": "Two checks, never one."
+   },
+   "body": {
+    "en": "Evidence grade and regulatory status are separate axes, and both Hormonaly guides ask you to clear both. An approved drug can carry a low grade for the use a patient wants, and a compound with stronger human data can still have no lawful route. A plausible mechanism never raises a grade. Say the outcome, the grade and who ran the trials, then check the status as its own step."
+   },
+   "points": [
+    {
+     "en": "Grade: certainty for this outcome"
+    },
+    {
+     "en": "Status: what the law allows, checked separately"
+    },
+    {
+     "en": "Mechanism never raises a grade"
+    }
+   ],
+   "citationRefs": [
+    "hannah-shmouni-2026-ppg-aug",
+    "hannah-shmouni-2026-are",
+    "balshem-2011-grade-rating-quality",
+    "lundh-2017-industry-sponsorship"
+   ],
+   "sourceNote": "Peptide Pocket Guide, editorial standards · Aesthetic & Regenerative Endocrinology, clinical pearl 3 · Balshem 2011",
+   "audioBeats": [
+    {
+     "title": {
+      "en": "Start with the outcome"
+     },
+     "body": {
+      "en": "Name the outcome the patient cares about, the certainty for it, and who paid for the trials behind it."
+     }
+    },
+    {
+     "title": {
+      "en": "Then the status"
+     },
+     "body": {
+      "en": "Check what the product legally is as a separate step. A good grade never makes a product lawful, and an approval says nothing about the grade for an unapproved use."
+     }
+    },
+    {
+     "title": {
+      "en": "Mechanism"
+     },
+     "body": {
+      "en": "A persuasive mechanism leaves the grade where it is. Both Hormonaly guides say so in almost the same words."
+     }
+    }
+   ],
+   "metadata": {
+    "audioScript": {
+     "en": "Suppose a patient asks whether a peptide works. Start with the outcome they care about, say fewer lines around the eyes, and give the certainty for that outcome, along with who paid for the trials behind it. Then, as a separate step, check what the product legally is. The Hormonaly guides keep these two checks apart for a reason. An approved drug can carry a low grade for the particular use a patient has in mind, and a compound with stronger human data may still have no lawful route in the United States. A persuasive mechanism leaves the grade exactly where it is. Whatever your role, say the outcome and the grade in one breath, and treat the regulatory answer as a question of its own."
+    },
+    "variants": {
+     "audienceLevel": {
+      "prescriber": {
+       "en": "Before you recommend or prescribe, write the outcome and its grade in the note, and record the product's regulatory status on a separate line. If no trial addresses the outcome the patient wants, say so and record it."
+      },
+      "clinical-staff": {
+       "en": "When a patient quotes a result, note which outcome it was and where it came from, and pass questions about grades and status to the prescriber rather than rating the product yourself."
+      },
+      "advisor": {
+       "en": "Describe what a product has been shown to do, for which outcome, and who funded the trials. Leave the question of whether it can lawfully be prescribed to a prescriber."
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "m7-p06",
+   "type": "quiz",
+   "time": "06 / 20",
+   "lead": {
+    "en": "Your turn"
+   },
+   "title": {
+    "en": "Three trials, grade A?"
+   },
+   "body": {
+    "en": "One question to close lesson 7.1."
+   },
+   "sourceNote": "Lesson 7.1",
+   "quiz": {
+    "id": "m7-q1",
+    "prompt": {
+     "en": "A fictional serum's brochure says 'GRADE A: three randomized trials'. All three were run by the maker, enrolled 20 to 30 people each, lasted four weeks and measured skin hydration. Your patient wants fewer wrinkles. What is the most defensible certainty for that outcome?"
+    },
+    "options": [
+     {
+      "text": {
+       "en": "High, because three randomized trials agree."
+      },
+      "why": {
+       "en": "Randomized trials start high, but these are small, sponsor-run and measured a different outcome, and each of those lowers certainty."
+      }
+     },
+     {
+      "text": {
+       "en": "Low or very low: small sponsor-run trials that measured hydration, not wrinkles."
+      },
+      "why": {
+       "en": "Correct. Indirectness (the wrong outcome), imprecision (few people) and suspected publication bias (small industry-funded studies) all rate it down."
+      }
+     },
+     {
+      "text": {
+       "en": "It cannot be graded, because industry-funded trials are invalid."
+      },
+      "why": {
+       "en": "Sponsored trials are still evidence. Funding is a reason to rate cautiously and to look for replication; it never deletes a trial."
+      }
+     }
+    ],
+    "correct": 1,
+    "feedback": {
+     "en": "Grade the outcome the patient wants, then name what lowers it."
+    },
+    "pillar": "evidence-appraisal",
+    "citationRefs": [
+     "guyatt-2025-core-grade-5-indirectness",
+     "guyatt-2025-core-grade-2-imprecision",
+     "guyatt-2025-core-grade-4-bias",
+     "lundh-2017-industry-sponsorship"
+    ]
+   }
+  },
+  {
+   "id": "m7-p07",
+   "type": "audio",
+   "time": "07 / 20",
+   "lead": {
+    "en": "Lesson 7.2 · Concept"
+   },
+   "title": {
+    "en": "Two compounding routes, one strict order."
+   },
+   "body": {
+    "en": "In the US, section 503A lets a licensed pharmacist or physician compound for an identified patient on a prescription, exempt from new-drug approval, adequate directions for use and good manufacturing practice. The bulk substance must meet a USP or NF monograph; failing that, be a component of an approved drug; failing that, appear on FDA's 503A bulks list. It must also come from an FDA-registered establishment with a valid certificate of analysis. Section 503B outsourcing facilities register with FDA, work to good manufacturing practice under inspection, and may compound without patient-specific prescriptions."
+   },
+   "points": [
+    {
+     "en": "503A: patient-specific, three exemptions"
+    },
+    {
+     "en": "Monograph, then approved component, then the bulks list"
+    },
+    {
+     "en": "503B: registered, inspected, held to good manufacturing practice"
+    }
+   ],
+   "citationRefs": [
+    "usc-21-353a",
+    "fda-503a-bulks-page",
+    "usc-21-353b",
+    "fda-outsourcing-facilities-503b"
+   ],
+   "sourceNote": "21 U.S.C. 353a and 353b · FDA 503A bulks page (updated 14 May 2026) · FDA, information for outsourcing facilities",
+   "audioBeats": [
+    {
+     "title": {
+      "en": "503A"
+     },
+     "body": {
+      "en": "A licensed pharmacist or physician compounds for an identified patient on a valid prescription. Meeting the conditions exempts the product from approval, adequate directions and good manufacturing practice, and from nothing else."
+     }
+    },
+    {
+     "title": {
+      "en": "The order of routes"
+     },
+     "body": {
+      "en": "Monograph first. Only if none exists, a component of an approved drug. Only if neither applies, the 503A bulks list. A valid certificate of analysis and a registered manufacturer are conditions as well."
+     }
+    },
+    {
+     "title": {
+      "en": "503B"
+     },
+     "body": {
+      "en": "Outsourcing facilities register with FDA, meet good manufacturing practice, are inspected on a risk-based schedule and report adverse events. Their products remain unapproved."
+     }
+    }
+   ],
+   "metadata": {
+    "audioScript": {
+     "en": "Two routes exist for compounding in the United States, and the difference between them shapes the rest of this lesson. Under section 503A, a licensed pharmacist or physician prepares a drug for an identified patient on a prescription. If the conditions are met, the product escapes three requirements, namely approval as a new drug, labelling with adequate directions, and good manufacturing practice. The conditions start with the substance itself, taken in strict order. A USP or National Formulary monograph comes first. Only when there is none can it be a component of an approved drug, and only when neither applies can it sit on FDA's 503A bulks list. The substance must also come from a registered manufacturer with a valid certificate of analysis. Section 503B outsourcing facilities work differently. They register with FDA, work to good manufacturing practice, face risk-based inspection, and can compound without a prescription for each patient. Their products remain unapproved."
+    }
+   }
+  },
+  {
+   "id": "m7-p08",
+   "type": "tool",
+   "time": "08 / 20",
+   "lead": {
+    "en": "Regulatory status (US)"
+   },
+   "title": {
+    "en": "A short list, three categories and a withdrawn table."
+   },
+   "body": {
+    "en": "Dated to FDA's records as checked in September 2026. The bulks list is law, changed only by rulemaking; the categories are FDA's interim enforcement posture while nominations are evaluated. Neither is an approval."
+   },
+   "citationRefs": [
+    "ecfr-21-cfr-216-23-bulks-list",
+    "fda-503a-bulks-page",
+    "fda-503a-categories-2026-05-14",
+    "fda-503a-category2-safety-risks-page",
+    "fda-pcac-2026-07-meeting",
+    "fda-pcac-2026-bpc157-briefing"
+   ],
+   "sourceNote": "21 CFR 216.23 (eCFR, 22 Sep 2026) · FDA 503A categories (14 May 2026) · FDA safety-risks table (22 Apr 2026) · PCAC, July 2026",
+   "tool": {
+    "items": [
+     {
+      "label": {
+       "en": "503A bulks list (21 CFR 216.23)"
+      },
+      "value": {
+       "en": "Six substances, none a peptide"
+      },
+      "note": {
+       "en": "Unchanged since 2019. Listing carries no FDA endorsement of safety or efficacy."
+      }
+     },
+     {
+      "label": {
+       "en": "Category 1"
+      },
+      "value": {
+       "en": "Under evaluation"
+      },
+      "note": {
+       "en": "FDA does not intend to act against compounders who meet its conditions. GHK-Cu for non-injectable routes is here (list of 14 May 2026)."
+      }
+     },
+     {
+      "label": {
+       "en": "Category 2"
+      },
+      "value": {
+       "en": "Significant safety risks"
+      },
+      "note": {
+       "en": "Six substances under 503A as of 14 May 2026, kisspeptin-10 among them."
+      }
+     },
+     {
+      "label": {
+       "en": "Withdrawn nominations"
+      },
+      "value": {
+       "en": "In no category"
+      },
+      "note": {
+       "en": "BPC-157, TB-500, KPV, injectable GHK-Cu, LL-37 and melanotan II among them. FDA's safety concerns stay posted; withdrawal is not clearance."
+      }
+     },
+     {
+      "label": {
+       "en": "July 2026 advisory committee"
+      },
+      "value": {
+       "en": "Advice only"
+      },
+      "note": {
+       "en": "FDA staff concluded the criteria weigh against listing BPC-157. Only rulemaking changes the list."
+      }
+     }
+    ],
+    "callout": {
+     "en": "Check the live list on the day you prescribe. GHK-Cu alone moved twice in April and May 2026."
+    }
+   }
+  },
+  {
+   "id": "m7-p09",
+   "type": "stat",
+   "time": "09 / 20",
+   "lead": {
+    "en": "Peptide or biologic"
+   },
+   "title": {
+    "en": "Forty amino acids."
+   },
+   "body": {
+    "en": "Since 23 March 2020 FDA defines a protein as an alpha amino acid polymer of more than 40 amino acids, whether or not it is chemically synthesized, so anything above the line is a biological product. On that date tesamorelin, a 44-residue GHRH analogue, and the enzyme hyaluronidase moved to biologics licences, and FDA told compounders that transitioned biologics cannot use the 503A or 503B exemptions."
+   },
+   "citationRefs": [
+    "federal-register-2020-03505-biological-product",
+    "fda-notice-compounders-2020-03-23",
+    "fda-deemed-bla-list-2020",
+    "lilly-v-kennedy-2025-sdind-order",
+    "lilly-v-kennedy-7th-cir-26-1301",
+    "hannah-shmouni-2026-ppg-aug"
+   ],
+   "sourceNote": "85 FR 10057 (2020) · FDA notice to compounders, March 2020 · FDA deemed-BLA list · Eli Lilly v. Kennedy (S.D. Ind. 2025; 7th Cir. No. 26-1301)",
+   "stat": {
+    "figure": "40",
+    "label": {
+     "en": "amino acids: above this, FDA treats the molecule as a protein, and so as a biological product"
+    },
+    "detail": {
+     "en": "85 FR 10057, effective 23 March 2020 · tesamorelin (44 residues) and hyaluronidase moved to biologics licences"
+    },
+    "means": {
+     "en": "Size decides the rulebook. Peptides of 40 or fewer alpha amino acids stay drugs, so the 503A questions apply; above 40 the product is a biologic, and the compounding exemptions are closed to it."
+    },
+    "doesNot": {
+     "en": "It does not make a short peptide lawful to compound; BPC-157 (15 residues) and GHK (3) still need a 503A route. How residues are counted can be contested: a court upheld FDA's count of 39 for retatrutide in 2025, and the appeal was still open at the latest filings (June 2026)."
+    }
+   }
+  },
+  {
+   "id": "m7-p10",
+   "type": "audio",
+   "time": "10 / 20",
+   "lead": {
+    "en": "Concept"
+   },
+   "title": {
+    "en": "What a certificate can and cannot prove."
+   },
+   "body": {
+    "en": "A certificate of analysis is the supplier's own report on a named lot. Mass spectrometry checks identity, and a careful certificate prints the expected mass beside the observed one. HPLC gives purity as a percentage, which says nothing about what the impurities are. Endotoxin, microbial, water, counter-ion, metal and solvent results complete it. A certificate cannot prove that the vial in your hand came from that lot, how it was stored since, or that it is sterile and suitable to inject."
+   },
+   "points": [
+    {
+     "en": "Identity: mass spectrometry, observed against expected"
+    },
+    {
+     "en": "Purity: an HPLC percentage, impurities unnamed"
+    },
+    {
+     "en": "Suitability to inject needs sterility, endotoxin and the right lot"
+    }
+   ],
+   "citationRefs": [
+    "hannah-shmouni-2026-ppg-aug",
+    "fda-pcac-2026-bpc157-briefing",
+    "fda-endotoxin-guidance-2026",
+    "poplawska-2019-ghrp2-analogue-vial",
+    "usc-21-353a"
+   ],
+   "sourceNote": "Peptide Pocket Guide, peptide fundamentals · FDA PCAC briefing, BPC-157 (July 2026) · FDA endotoxin guidance (2026) · Popławska 2019",
+   "audioBeats": [
+    {
+     "title": {
+      "en": "Identity"
+     },
+     "body": {
+      "en": "Mass spectrometry confirms the molecule's mass. A serious certificate prints the expected mass beside the observed one. In one seized vial, high-resolution mass spectrometry found an undocumented analogue of a known peptide."
+     }
+    },
+    {
+     "title": {
+      "en": "Purity"
+     },
+     "body": {
+      "en": "HPLC gives the main peak as a percentage. When FDA's reviewers looked at public BPC-157 certificates, most reported purity alone, with no impurity limits."
+     }
+    },
+    {
+     "title": {
+      "en": "Endotoxin"
+     },
+     "body": {
+      "en": "The acceptable endotoxin level is calculated from the product's dose and route, so a figure without that context proves little. The certificate a BPC-157 nominator sent FDA mentioned no endotoxin test."
+     }
+    }
+   ],
+   "metadata": {
+    "audioScript": {
+     "en": "Picture the certificate a patient hands you, and read it line by line, asking what each line actually tests. Mass spectrometry checks identity, and a careful certificate shows the expected mass next to the one measured. HPLC reports purity as a percentage of the main peak, which tells you how much else is present and nothing about what that something else is. Endotoxin matters for anything injected, and FDA's guidance says the acceptable limit is calculated from the dose and the route, so a bare figure settles little. When FDA reviewed BPC-157 for its advisory committee, most public certificates listed purity alone, and the one a nominator supplied mentioned no endotoxin test. Then remember what paper cannot do. A certificate describes a lot. It cannot show that your vial came from that lot, how the vial was stored, or that it is sterile."
+    }
+   }
+  },
+  {
+   "id": "m7-p11",
+   "type": "tool",
+   "time": "11 / 20",
+   "lead": {
+    "en": "Fictional certificate"
+   },
+   "title": {
+    "en": "Audit this certificate."
+   },
+   "body": {
+    "en": "A fictional certificate for a vial of a research-use-only peptide, sold online with injection instructions. Read each line, then decide which would count as useful evidence if it matched the vial, and which are red flags."
+   },
+   "citationRefs": [
+    "hannah-shmouni-2026-ppg-aug",
+    "fda-pcac-2026-bpc157-briefing",
+    "fda-endotoxin-guidance-2026",
+    "ecfr-21-cfr-312-160"
+   ],
+   "sourceNote": "Fictional certificate · Peptide Pocket Guide, reading a COA · FDA BPC-157 briefing (July 2026) · FDA endotoxin guidance · 21 CFR 312.160",
+   "tool": {
+    "items": [
+     {
+      "label": {
+       "en": "Lot number"
+      },
+      "value": {
+       "en": "Printed"
+      },
+      "note": {
+       "en": "Same number as on the vial label"
+      }
+     },
+     {
+      "label": {
+       "en": "Purity (HPLC)"
+      },
+      "value": {
+       "en": "99.2%"
+      },
+      "note": {
+       "en": "No chromatogram attached"
+      }
+     },
+     {
+      "label": {
+       "en": "Identity (mass spectrometry)"
+      },
+      "value": {
+       "en": "Conforms"
+      },
+      "note": {
+       "en": "Expected and observed mass both printed; spectrum attached"
+      }
+     },
+     {
+      "label": {
+       "en": "Impurities"
+      },
+      "value": {
+       "en": "Not listed"
+      },
+      "note": {
+       "en": "No impurity limits or results"
+      }
+     },
+     {
+      "label": {
+       "en": "Endotoxin"
+      },
+      "value": {
+       "en": "Not tested"
+      },
+      "note": {
+       "en": "Product page describes injection"
+      }
+     },
+     {
+      "label": {
+       "en": "Test date"
+      },
+      "value": {
+       "en": "20 months before purchase"
+      },
+      "note": {
+       "en": "No retest shown"
+      }
+     }
+    ],
+    "callout": {
+     "en": "A clean certificate is necessary and never sufficient. It cannot make a research-use-only vial sterile, lawful or the lot you think it is."
+    }
+   },
+   "interaction": {
+    "kind": "classify",
+    "title": {
+     "en": "Useful or red flag?"
+    },
+    "prompt": {
+     "en": "Tap what each line is worth."
+    },
+    "labels": [
+     {
+      "value": "useful",
+      "label": {
+       "en": "Useful, if it matches the vial"
+      },
+      "tone": "good"
+     },
+     {
+      "value": "flag",
+      "label": {
+       "en": "Red flag"
+      },
+      "tone": "bad"
+     }
+    ],
+    "items": [
+     {
+      "id": "lot",
+      "label": {
+       "en": "Lot number printed, matching the vial label"
+      },
+      "answer": "useful",
+      "why": {
+       "en": "A matching lot number links the paper to the product in hand. It is still the supplier's own claim."
+      }
+     },
+     {
+      "id": "purity",
+      "label": {
+       "en": "Purity 99.2% by HPLC, no chromatogram"
+      },
+      "answer": "flag",
+      "why": {
+       "en": "A bare percentage cannot be checked, and it says nothing about which impurities make up the rest."
+      }
+     },
+     {
+      "id": "identity",
+      "label": {
+       "en": "Identity: expected and observed mass printed, spectrum attached"
+      },
+      "answer": "useful",
+      "why": {
+       "en": "That is how identity is shown. It confirms the molecule and tells you nothing about sterility."
+      }
+     },
+     {
+      "id": "impurities",
+      "label": {
+       "en": "Impurities: not listed"
+      },
+      "answer": "flag",
+      "why": {
+       "en": "FDA's reviewers flagged exactly this for BPC-157: purity reported, impurity profile missing, so immunogenic impurities cannot be ruled out."
+      }
+     },
+     {
+      "id": "endotoxin",
+      "label": {
+       "en": "Endotoxin: not tested, on a product sold for injection"
+      },
+      "answer": "flag",
+      "why": {
+       "en": "Endotoxin is a critical attribute for anything injected, and its limit depends on dose and route. 'Not tested' on an injectable is a hard stop."
+      }
+     },
+     {
+      "id": "date",
+      "label": {
+       "en": "Tested 20 months before purchase"
+      },
+      "answer": "flag",
+      "why": {
+       "en": "Peptides degrade in storage; the Peptide Pocket Guide treats a certificate more than 12 months older than the purchase as a warning sign."
+      }
+     }
+    ],
+    "done": {
+     "en": "Six read. Two lines help if they match the vial; four are red flags. Even a perfect certificate leaves sterility, storage and lawful status unanswered."
+    },
+    "citationRefs": [
+     "hannah-shmouni-2026-ppg-aug",
+     "fda-pcac-2026-bpc157-briefing",
+     "fda-endotoxin-guidance-2026"
+    ],
+    "source": "authored:2026-09-24 from m7-p11.tool.items (fictional certificate) + Peptide Pocket Guide COA section + FDA BPC-157 briefing"
+   }
+  },
+  {
+   "id": "m7-p12",
+   "type": "stat",
+   "time": "12 / 20",
+   "lead": {
+    "en": "Label against laboratory"
+   },
+   "title": {
+    "en": "99% on the label."
+   },
+   "body": {
+    "en": "Researchers made test purchases of semaglutide from illegal online pharmacies and analysed what arrived. The three vials that were delivered were all judged probably substandard or falsified: purity measured 7.7–14.4% against the 99% printed on the label, peptide content ran 29–39% above the labelled amount, and endotoxin was found in every vial, although none grew microorganisms."
+   },
+   "citationRefs": [
+    "ashraf-2024-online-semaglutide-quality",
+    "hannah-shmouni-2026-ppg-aug"
+   ],
+   "sourceNote": "Ashraf et al., J Med Internet Res 2024 · Peptide Pocket Guide",
+   "stat": {
+    "figure": "7.7–14.4%",
+    "label": {
+     "en": "measured purity of online semaglutide vials labelled 99%"
+    },
+    "detail": {
+     "en": "Ashraf et al., J Med Internet Res 2024 · three delivered vials · endotoxin detected in all three"
+    },
+    "means": {
+     "en": "Purity printed on a label can be wildly wrong, and a vial that grows nothing can still carry endotoxin. Independent testing found what the paperwork hid."
+    },
+    "doesNot": {
+     "en": "Three vials of one drug give no market-wide failure rate, and semaglutide is outside the skin-peptide shelf. It documents the gap between claim and content for one product; it does not measure research peptides as a class."
+    }
+   }
+  },
+  {
+   "id": "m7-p13",
+   "type": "audio",
+   "time": "13 / 20",
+   "lead": {
+    "en": "What changes in practice"
+   },
+   "title": {
+    "en": "Research use only is a label, and never a route."
+   },
+   "body": {
+    "en": "In the US, 'not for use in humans' labelling lets a supplier ship an investigational drug for laboratory or in-vitro research, and obliges the shipper to check that is how it will be used. FDA reads intended use from claims, marketing and the circumstances of sale, so the disclaimer changes nothing about a vial sold with injection instructions. A certificate cannot turn such a product into a pharmaceutical."
+   },
+   "points": [
+    {
+     "en": "The label permits laboratory research only"
+    },
+    {
+     "en": "Intended use is read from how a product is sold"
+    },
+    {
+     "en": "A certificate cannot convert a research product"
+    }
+   ],
+   "citationRefs": [
+    "ecfr-21-cfr-312-160",
+    "ecfr-21-cfr-201-128",
+    "hannah-shmouni-2026-are",
+    "hannah-shmouni-2026-ppg-aug"
+   ],
+   "sourceNote": "21 CFR 312.160 · 21 CFR 201.128 · Aesthetic & Regenerative Endocrinology, ch. 3 · Peptide Pocket Guide, regulatory chapter",
+   "audioBeats": [
+    {
+     "title": {
+      "en": "A shipping permission"
+     },
+     "body": {
+      "en": "The US rule lets a supplier ship a drug for laboratory or in-vitro research when the label says it is not for use in humans."
+     }
+    },
+    {
+     "title": {
+      "en": "Intended use"
+     },
+     "body": {
+      "en": "FDA reads what a product is for from its claims, marketing and how it is sold, so a disclaimer on a vial sold for injection carries no weight."
+     }
+    },
+    {
+     "title": {
+      "en": "The certificate"
+     },
+     "body": {
+      "en": "However clean, it cannot supply sterility, manufacturing standards or a lawful route."
+     }
+    }
+   ],
+   "metadata": {
+    "audioScript": {
+     "en": "Research use only sounds like a category. In law it works as a shipping permission. The US rule lets a supplier send an investigational drug for laboratory or test-tube work if the label says it must stay out of people, and the shipper is meant to confirm that is how it will be used. FDA judges what a product is for by how it is marketed and sold, so a disclaimer on a vial offered with injection instructions carries no weight. The Hormonaly guides say it plainly. Research use only is not a clinical pathway. A certificate of analysis, however clean, cannot convert that vial into a pharmaceutical, because sterility, manufacturing standards and a lawful route are all still missing. Whatever your role, treat these products as outside clinical care, and write down exactly what you were told."
+    },
+    "variants": {
+     "audienceLevel": {
+      "prescriber": {
+       "en": "Do not prescribe, supply, supervise or recommend a research-use-only product, and do not read its certificate as permission. Record the product, lot and supplier the patient names, and your advice to stop."
+      },
+      "clinical-staff": {
+       "en": "If a patient brings a research-use-only vial or its certificate, record the product name, lot and supplier exactly as printed, do not handle or administer it, and tell the prescriber the same day."
+      },
+      "advisor": {
+       "en": "You can explain what a certificate does and does not show. You cannot vouch for a research product, and anyone injecting one should see a prescriber."
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "m7-p14",
+   "type": "quiz",
+   "time": "14 / 20",
+   "lead": {
+    "en": "Your turn"
+   },
+   "title": {
+    "en": "A clean certificate."
+   },
+   "body": {
+    "en": "One question to close lesson 7.2."
+   },
+   "sourceNote": "Lesson 7.2",
+   "quiz": {
+    "id": "m7-q2",
+    "prompt": {
+     "en": "A patient shows you the certificate for a research-use-only peptide she injects: 99.1% purity by HPLC with a chromatogram, the correct mass by mass spectrometry, and a lot number that matches her vial. What does it establish?"
+    },
+    "options": [
+     {
+      "text": {
+       "en": "That the vial is safe to inject."
+      },
+      "why": {
+       "en": "Identity and purity say nothing about sterility, endotoxin or storage, and research-use-only products are labelled not for use in humans."
+      }
+     },
+     {
+      "text": {
+       "en": "That the supplier reports the right molecule at high purity for that lot, and nothing about sterility, storage since testing or a lawful route."
+      },
+      "why": {
+       "en": "Correct. A certificate describes a lot; it cannot make the product sterile, pharmaceutical or lawful."
+      }
+     },
+     {
+      "text": {
+       "en": "Nothing at all, because certificates are always forged."
+      },
+      "why": {
+       "en": "Some are unreliable, but a lot-specific certificate with spectra is real information. The problem is what it cannot cover."
+      }
+     }
+    ],
+    "correct": 1,
+    "feedback": {
+     "en": "Read what each line tests, then name what no line can test."
+    },
+    "pillar": "regulatory-safety",
+    "citationRefs": [
+     "hannah-shmouni-2026-ppg-aug",
+     "fda-pcac-2026-bpc157-briefing",
+     "ecfr-21-cfr-312-160"
+    ]
+   }
+  },
+  {
+   "id": "m7-p15",
+   "type": "audio",
+   "time": "15 / 20",
+   "lead": {
+    "en": "Lesson 7.3 · Concept"
+   },
+   "title": {
+    "en": "Off-label needs a label."
+   },
+   "body": {
+    "en": "Off-label prescribing means using an approved drug for a use its labelling does not cover, and FDA accepts it as clinical judgment. A never-approved peptide has no label to depart from, so prescribing it is use of an unapproved drug. Introducing an unapproved new drug into interstate commerce is a prohibited act under the FD&C Act, and FDA's 2020 warning letter to a compounding pharmacy named BPC-157 and GHK-Cu on exactly this basis."
+   },
+   "points": [
+    {
+     "en": "Off-label applies only to approved drugs"
+    },
+    {
+     "en": "A never-approved peptide has no label"
+    },
+    {
+     "en": "Compounded is still unapproved"
+    }
+   ],
+   "citationRefs": [
+    "fda-off-label-page",
+    "usc-21-331-prohibited-acts",
+    "fda-warning-letter-tailor-made-2020",
+    "hannah-shmouni-2026-ppg-aug"
+   ],
+   "sourceNote": "FDA, unapproved use of approved drugs · 21 U.S.C. 331 · FDA warning letter, Tailor Made Compounding (2020) · Peptide Pocket Guide",
+   "audioBeats": [
+    {
+     "title": {
+      "en": "Off-label"
+     },
+     "body": {
+      "en": "An approved drug, used outside its labelling. FDA accepts this as the prescriber's judgment when it is medically appropriate."
+     }
+    },
+    {
+     "title": {
+      "en": "Unapproved"
+     },
+     "body": {
+      "en": "A peptide that was never approved has no labelling to depart from. The Peptide Pocket Guide names prescribing it for what it is, use of an unapproved drug."
+     }
+    },
+    {
+     "title": {
+      "en": "Compounded"
+     },
+     "body": {
+      "en": "A 503A or 503B product is also unapproved. It is lawful only when the substance and the pharmacy meet the statute's conditions."
+     }
+    }
+   ],
+   "metadata": {
+    "audioScript": {
+     "en": "Off-label is the phrase to get right first. FDA uses it for an approved drug prescribed outside its labelling, which prescribers generally may do when they judge it medically appropriate. The idea assumes a label exists. A peptide that was never approved has none, so prescribing it counts as using an unapproved drug, and the Peptide Pocket Guide says exactly that. Compounding leaves that answer unchanged. A compounded product is unapproved by definition, and it is lawful only when the substance and the pharmacy meet the statute's conditions. Under federal law, putting an unapproved new drug into interstate commerce is a prohibited act, and in 2020 FDA warned a compounding pharmacy about its BPC-157 and GHK-Cu products on that basis. So write the real category in the chart, every time."
+    }
+   }
+  },
+  {
+   "id": "m7-p16",
+   "type": "tool",
+   "time": "16 / 20",
+   "lead": {
+    "en": "Classification (US)"
+   },
+   "title": {
+    "en": "Same molecule, different rulebooks."
+   },
+   "body": {
+    "en": "Route and claim decide the regime, whatever the molecule. Here is how each one treats a skin peptide in the US, as checked in September 2026."
+   },
+   "citationRefs": [
+    "fda-cosmetic-or-drug-page",
+    "fda-dietary-supplements-page",
+    "fda-off-label-page",
+    "fda-503a-categories-2026-05-14",
+    "usc-21-353a",
+    "ecfr-21-cfr-312-160",
+    "hannah-shmouni-2026-ppg-aug",
+    "hannah-shmouni-2026-are"
+   ],
+   "sourceNote": "FDA: cosmetic or drug; dietary supplements; off-label use · FDA 503A categories (14 May 2026) · 21 CFR 312.160 · Hormonaly guides",
+   "tool": {
+    "items": [
+     {
+      "label": {
+       "en": "Cosmetic"
+      },
+      "value": {
+       "en": "Appearance claims only"
+      },
+      "note": {
+       "en": "No premarket approval. A claim to affect structure or function, such as 'regenerates cells', makes it a drug; 'cosmeceutical' has no legal meaning."
+      }
+     },
+     {
+      "label": {
+       "en": "Dietary supplement"
+      },
+      "value": {
+       "en": "Oral, no disease claims"
+      },
+      "note": {
+       "en": "The maker is responsible for safety and labelling before sale; FDA acts after products reach the market."
+      }
+     },
+     {
+      "label": {
+       "en": "Approved drug"
+      },
+      "value": {
+       "en": "Labelled indications"
+      },
+      "note": {
+       "en": "Off-label use of an approved drug is lawful clinical judgment; document the reasoning."
+      }
+     },
+     {
+      "label": {
+       "en": "Compounded (503A or 503B)"
+      },
+      "value": {
+       "en": "Unapproved, conditionally lawful"
+      },
+      "note": {
+       "en": "Only when the substance qualifies and the pharmacy meets the statute. Non-injectable GHK-Cu is in Category 1; BPC-157 and TB-500 have no route."
+      }
+     },
+     {
+      "label": {
+       "en": "Investigational or research use only"
+      },
+      "value": {
+       "en": "Trials, or nothing"
+      },
+      "note": {
+       "en": "Human use belongs in a clinical trial. A 'research use only' vial is outside any clinical route."
+      }
+     }
+    ],
+    "callout": {
+     "en": "Write the regime in the chart in these words, before anything else."
+    }
+   }
+  },
+  {
+   "id": "m7-p17",
+   "type": "audio",
+   "time": "17 / 20",
+   "lead": {
+    "en": "Fictional case"
+   },
+   "title": {
+    "en": "'Just prescribe it off-label.'"
+   },
+   "body": {
+    "en": "A 52-year-old patient, three weeks after a fractional laser treatment, asks you to prescribe compounded BPC-157 injections 'off-label' to speed healing. She has found a pharmacy willing to make it and shows you its certificate of analysis. This is a fictional case built from the module's sources, and one response is clearly best."
+   },
+   "points": [
+    {
+     "en": "BPC-157 has no approval, so there is no label to go off"
+    },
+    {
+     "en": "It has no 503A route; FDA staff advised against listing it"
+    },
+    {
+     "en": "A certificate describes a lot and creates no route"
+    }
+   ],
+   "citationRefs": [
+    "fda-off-label-page",
+    "fda-pcac-2026-bpc157-briefing",
+    "fda-warning-letter-tailor-made-2020",
+    "fda-503a-category2-safety-risks-page",
+    "hannah-shmouni-2026-ppg-aug",
+    "hannah-shmouni-2026-are"
+   ],
+   "sourceNote": "Fictional case · FDA BPC-157 briefing (July 2026) · FDA warning letter (2020) · Peptide Pocket Guide, prescriber exposure",
+   "interaction": {
+    "kind": "scenario",
+    "title": {
+     "en": "What do you do?"
+    },
+    "setup": {
+     "en": "A 52-year-old patient, three weeks after a fractional laser treatment, asks you to prescribe compounded BPC-157 injections 'off-label' to speed healing. She has found a pharmacy willing to make it and shows you its certificate of analysis."
+    },
+    "notice": [
+     {
+      "en": "BPC-157 has no approved use, so 'off-label' does not apply"
+     },
+     {
+      "en": "It is not on the 503A bulks list; its nominations were withdrawn and FDA staff advised against listing it in July 2026"
+     },
+     {
+      "en": "FDA's reviewers found a lack of evidence of effectiveness even for the condition they reviewed"
+     }
+    ],
+    "options": [
+     {
+      "value": "prescribe-off-label",
+      "label": {
+       "en": "Prescribe it as off-label use and file the certificate in her chart."
+      },
+      "why": {
+       "en": "Off-label presupposes an approved drug. BPC-157 has no approval and no 503A route, FDA has warned a compounder about it, and a certificate changes neither fact."
+      }
+     },
+     {
+      "value": "decline-explain-document",
+      "correct": true,
+      "label": {
+       "en": "Decline to prescribe it. Explain the evidence and the US status in plain terms, return to the aftercare plan her treating clinician set, and record her request, what you explained and her decision."
+      },
+      "why": {
+       "en": "Right. You keep the conversation, give her the real category and the grade, and leave a chart note a reviewer can follow."
+      }
+     },
+     {
+      "value": "research-grade",
+      "label": {
+       "en": "Suggest she buy research-grade BPC-157 with a good certificate and come back for monitoring."
+      },
+      "why": {
+       "en": "Research-use-only products are labelled not for use in humans, and the Peptide Pocket Guide treats steering a patient to them as practising medicine, with the liability that follows."
+      }
+     }
+    ],
+    "followUp": {
+     "en": "Chart it in these terms: the product, its regulatory status, the evidence you quoted, the alternatives you discussed and her decision."
+    },
+    "citationRefs": [
+     "fda-off-label-page",
+     "fda-pcac-2026-bpc157-briefing",
+     "fda-warning-letter-tailor-made-2020",
+     "hannah-shmouni-2026-ppg-aug"
+    ],
+    "source": "authored:2026-09-24 fictional case from lesson 7.3 sources + Peptide Pocket Guide prescriber-exposure section"
+   },
+   "metadata": {
+    "variants": {
+     "audienceLevel": {
+      "prescriber": {
+       "en": "You decline, explain, and document the request, the product's status in those words, the evidence you quoted and the alternatives you offered."
+      },
+      "clinical-staff": {
+       "en": "If a patient asks you to arrange or give a compounded or research peptide, record the request and the product details and pass it to the prescriber; do not agree to administer it."
+      },
+      "advisor": {
+       "en": "You explain that BPC-157 has no approval and no lawful compounding route in the US, and that decisions about her healing belong with her treating clinician."
+      }
+     }
+    },
+    "audioScript": {
+     "en": "A fictional patient, built from this module's sources, is fifty-two and three weeks past a fractional laser treatment. She asks you to prescribe compounded BPC-157 injections off-label to speed her healing. A pharmacy is willing to make it, and she shows you its certificate of analysis. Three facts shape your answer. BPC-157 has never been approved, so there is no label to prescribe around. It has no 503A route, its nominations were withdrawn, and FDA's own reviewers advised against listing it in July 2026, noting a lack of evidence that it works even for the condition they studied. And a certificate describes a batch, which leaves sterility and legality exactly where they were. Decide how you will answer her."
+    }
+   },
+   "audioBeats": [
+    {
+     "title": {
+      "en": "What she asks"
+     },
+     "body": {
+      "en": "Compounded BPC-157 injections, prescribed 'off-label' after laser resurfacing, with a pharmacy's certificate in hand."
+     }
+    },
+    {
+     "title": {
+      "en": "What the record shows"
+     },
+     "body": {
+      "en": "Never approved. No 503A route, nominations withdrawn, and FDA staff advised against listing in July 2026."
+     }
+    },
+    {
+     "title": {
+      "en": "What the certificate covers"
+     },
+     "body": {
+      "en": "One lot's identity and purity, as the supplier reports them. Sterility, storage and legality sit outside it."
+     }
+    }
+   ]
+  },
+  {
+   "id": "m7-p18",
+   "type": "tool",
+   "time": "18 / 20",
+   "lead": {
+    "en": "Documentation"
+   },
+   "title": {
+    "en": "A chart note a reviewer can follow."
+   },
+   "body": {
+    "en": "The Peptide Pocket Guide's prescriber checklist, with consent built from the elements FDA's research-consent rule lists. Use it for any conversation about an unapproved or compounded peptide, whether or not you prescribe."
+   },
+   "citationRefs": [
+    "hannah-shmouni-2026-ppg-aug",
+    "hannah-shmouni-2026-are",
+    "ecfr-21-cfr-50-25",
+    "fda-503a-categories-2026-05-14"
+   ],
+   "sourceNote": "Peptide Pocket Guide, prescriber exposure and pearl 8 · 21 CFR 50.25 · Aesthetic & Regenerative Endocrinology, medicolegal pearl",
+   "tool": {
+    "items": [
+     {
+      "label": {
+       "en": "What it is"
+      },
+      "value": {
+       "en": "Article and status, in those words"
+      },
+      "note": {
+       "en": "For example 'not FDA-approved; no 503A route', never 'off-label'"
+      }
+     },
+     {
+      "label": {
+       "en": "If compounded"
+      },
+      "value": {
+       "en": "Pathway, facility, certificate"
+      },
+      "note": {
+       "en": "503A or 503B, the pharmacy, and the certificate of analysis relied on"
+      }
+     },
+     {
+      "label": {
+       "en": "Consent"
+      },
+      "value": {
+       "en": "Four elements, in writing"
+      },
+      "note": {
+       "en": "Not approved for this use; foreseeable risks; approved alternatives, including doing nothing; what happens if harm occurs"
+      }
+     },
+     {
+      "label": {
+       "en": "Evidence"
+      },
+      "value": {
+       "en": "Outcome and grade"
+      },
+      "note": {
+       "en": "The certainty you quoted, for the outcome you discussed"
+      }
+     },
+     {
+      "label": {
+       "en": "Plan"
+      },
+      "value": {
+       "en": "Monitoring and a stopping rule"
+      },
+      "note": {
+       "en": "What you will watch, and when you will stop"
+      }
+     },
+     {
+      "label": {
+       "en": "Status check"
+      },
+      "value": {
+       "en": "Dated"
+      },
+      "note": {
+       "en": "The day you checked the FDA lists; they changed in April and May 2026"
+      }
+     }
+    ],
+    "callout": {
+     "en": "A board reviews reasoning. Make yours visible in the note."
+    }
+   }
+  },
+  {
+   "id": "m7-p19",
+   "type": "quiz",
+   "time": "19 / 20",
+   "lead": {
+    "en": "Your turn"
+   },
+   "title": {
+    "en": "One molecule, three products."
+   },
+   "body": {
+    "en": "One question to close lesson 7.3."
+   },
+   "sourceNote": "Lesson 7.3",
+   "quiz": {
+    "id": "m7-q3",
+    "prompt": {
+     "en": "GHK-Cu appears in three products: a cream sold 'for the look of fine lines', the same cream sold 'to regenerate skin cells', and an injectable vial labelled research use only. In the US, which statement is right?"
+    },
+    "options": [
+     {
+      "text": {
+       "en": "All three are cosmetics, because the molecule is the same."
+      },
+      "why": {
+       "en": "The regime follows the claim and the route. A structure-or-function claim makes the second cream a drug, and the vial is no cosmetic at all."
+      }
+     },
+     {
+      "text": {
+       "en": "The first is a cosmetic; the second makes a drug claim, so it is an unapproved drug; the vial is outside any clinical route."
+      },
+      "why": {
+       "en": "Correct. Claim and route decide the rulebook, whatever the molecule."
+      }
+     },
+     {
+      "text": {
+       "en": "All three are lawful, because GHK-Cu is in Category 1."
+      },
+      "why": {
+       "en": "Category 1 covers 503A compounding of non-injectable GHK-Cu under FDA's interim policy. It approves nothing, and it covers neither research products nor injection."
+      }
+     }
+    ],
+    "correct": 1,
+    "feedback": {
+     "en": "Name the claim and the route, then the regime."
+    },
+    "pillar": "regulatory-safety",
+    "citationRefs": [
+     "fda-cosmetic-or-drug-page",
+     "fda-503a-categories-2026-05-14",
+     "ecfr-21-cfr-312-160"
+    ]
+   }
+  },
+  {
+   "id": "m7-p20",
+   "type": "action",
+   "time": "20 / 20",
+   "lead": {
+    "en": "Closing and commitment"
+   },
+   "title": {
+    "en": "My practice, from the next conversation."
+   },
+   "body": {
+    "en": "This is the last moment of the course. Build the commitment you will actually keep; it is saved to your path, and your tutor will bring it back. The course is designed toward future CME accreditation and does not award credit at this time."
+   },
+   "sourceNote": "Module 07 · course close",
+   "citationRefs": [
+    "hannah-shmouni-2026-ppg-aug",
+    "hannah-shmouni-2026-are"
+   ],
+   "action": {
+    "prompt": {
+     "en": "Choose what you will do in every peptide or hormone conversation from now on"
+    },
+    "takeaway": {
+     "en": "Next: the course quiz, then your capstone, where you appraise a simulated certificate and marketing sheet and hold the patient conversation that follows."
+    },
+    "suggestions": [
+     {
+      "en": "I will grade the outcome the patient wants, and name what lowers it."
+     },
+     {
+      "en": "I will check the live FDA status on the day, and date it."
+     },
+     {
+      "en": "I will chart the regime, the grade and the consent in plain words."
+     }
+    ]
+   },
+   "metadata": {
+    "clozePrefix": {
+     "en": "In every peptide conversation from now on I will"
+    },
+    "clozeSuffix": {
+     "en": "."
+    },
+    "variants": {
+     "audienceLevel": {
+      "prescriber": {
+       "en": "Your commitment ends with the chart: the regime, the grade, the consent and a dated status check."
+      },
+      "clinical-staff": {
+       "en": "Your commitment ends with escalation: anything unapproved, compounded or research-use-only goes to the prescriber the same day, with the product details recorded."
+      },
+      "advisor": {
+       "en": "Your commitment ends with referral: you explain grades and categories, and treatment decisions go to a prescriber."
+      }
+     }
+    }
+   },
+   "interaction": {
+    "kind": "chips",
+    "title": {
+     "en": "My practice commitment"
+    },
+    "prompt": {
+     "en": "Tap everything you will do. Choose as many as you like."
+    },
+    "prefix": {
+     "en": "In every peptide conversation from now on I will"
+    },
+    "chips": [
+     {
+      "value": "grade-outcome",
+      "label": {
+       "en": "grade the outcome the patient wants, and name what lowers it"
+      },
+      "group": "evidence"
+     },
+     {
+      "value": "funding",
+      "label": {
+       "en": "ask who ran and paid for the trials"
+      },
+      "group": "evidence"
+     },
+     {
+      "value": "status-live",
+      "label": {
+       "en": "check the live FDA lists on the day, and date the check"
+      },
+      "group": "regulatory"
+     },
+     {
+      "value": "coa-limits",
+      "label": {
+       "en": "read a certificate for what it cannot prove"
+      },
+      "group": "safety"
+     },
+     {
+      "value": "no-ruo",
+      "label": {
+       "en": "keep research-use-only products out of care"
+      },
+      "group": "safety"
+     },
+     {
+      "value": "chart-regime",
+      "label": {
+       "en": "chart the regime, the grade and the consent in plain words"
+      },
+      "group": "regulatory"
+     }
+    ],
+    "suffix": {
+     "en": "."
+    },
+    "pick": "many",
+    "citationRefs": [
+     "hannah-shmouni-2026-ppg-aug",
+     "hannah-shmouni-2026-are"
+    ],
+    "source": "authored:2026-09-24 from module 07 tools and the Peptide Pocket Guide prescriber checklist"
+   }
+  }
+ ],
+ "check": {
+  "id": "m7-check",
+  "prompt": {
+   "en": "Closing Module 7: which statement keeps evidence, regulatory status and product quality apart?"
+  },
+  "options": [
+   {
+    "text": {
+     "en": "The certificate shows 99% purity, so the peptide is evidence-based and fine to compound."
+    },
+    "why": {
+     "en": "That blends product quality into evidence and legality. Purity says nothing about whether it works or whether any route is lawful."
+    }
+   },
+   {
+    "text": {
+     "en": "Topical GHK-Cu: small-trial evidence (C); in the US, non-injectable use sits in 503A Category 1, under evaluation; its certificate can show identity and purity, never sterility or legality."
+    },
+    "why": {
+     "en": "Correct. Three separate answers, each with its own source."
+    }
+   },
+   {
+    "text": {
+     "en": "GHK-Cu is in Category 1, so it is approved for skin and the evidence question is settled."
+    },
+    "why": {
+     "en": "Category 1 is an enforcement posture while FDA evaluates. It approves nothing and says nothing about evidence."
+    }
+   }
+  ],
+  "correct": 1,
+  "feedback": {
+   "en": "Grade, status and quality: three checks, never one sentence."
+  },
+  "citationRefs": [
+   "miller-2006-ghk-cu-laser-rct",
+   "fda-503a-categories-2026-05-14",
+   "hannah-shmouni-2026-ppg-aug",
+   "fda-pcac-2026-bpc157-briefing"
+  ]
+ },
+ "claimLocations": {
+  "c-m07-01": [
+   "m7-p02",
+   "m7-p06"
+  ],
+  "c-m07-02": [
+   "m7-p02",
+   "m7-p04",
+   "m7-p06"
+  ],
+  "c-m07-03": [
+   "m7-p04"
+  ],
+  "c-m07-04": [
+   "m7-p03"
+  ],
+  "c-m07-05": [
+   "m7-p02",
+   "m7-p05"
+  ],
+  "c-m07-06": [
+   "m7-p07"
+  ],
+  "c-m07-07": [
+   "m7-p07"
+  ],
+  "c-m07-08": [
+   "m7-p08"
+  ],
+  "c-m07-09": [
+   "m7-p08",
+   "m7-p16"
+  ],
+  "c-m07-10": [
+   "m7-p08",
+   "m7-p17"
+  ],
+  "c-m07-11": [
+   "m7-p09"
+  ],
+  "c-m07-12": [
+   "m7-p09"
+  ],
+  "c-m07-13": [
+   "m7-p10",
+   "m7-p11",
+   "m7-p14"
+  ],
+  "c-m07-14": [
+   "m7-p10",
+   "m7-p11"
+  ],
+  "c-m07-15": [
+   "m7-p10",
+   "m7-p11"
+  ],
+  "c-m07-16": [
+   "m7-p10",
+   "m7-p12"
+  ],
+  "c-m07-17": [
+   "m7-p13",
+   "m7-p14",
+   "m7-p16"
+  ],
+  "c-m07-18": [
+   "m7-p16",
+   "m7-p19"
+  ],
+  "c-m07-19": [
+   "m7-p15",
+   "m7-p17"
+  ],
+  "c-m07-20": [
+   "m7-p18",
+   "m7-p20"
+  ]
+ },
+ "audienceLevelPanes": [
+  "m7-p05",
+  "m7-p13",
+  "m7-p17",
+  "m7-p20"
+ ],
+ "courseQuiz": [
+  {
+   "id": "cq-m07-1",
+   "prompt": {
+    "en": "In GRADE, what does a certainty rating attach to?"
+   },
+   "options": [
+    {
+     "text": {
+      "en": "A single well-run trial."
+     },
+     "why": {
+      "en": "GRADE rates a body of evidence, never one study on its own."
+     }
+    },
+    {
+     "text": {
+      "en": "The molecule, across all its uses."
+     },
+     "why": {
+      "en": "The same molecule can be high certainty for one outcome and very low for another."
+     }
+    },
+    {
+     "text": {
+      "en": "A body of evidence for a specific outcome."
+     },
+     "why": {
+      "en": "Correct. Certainty belongs to an outcome, across the studies that address it."
+     }
+    }
+   ],
+   "correct": 2,
+   "rationale": {
+    "en": "Name the outcome before you name the grade; risk of bias, inconsistency, indirectness, imprecision and publication bias can each lower it."
+   },
+   "pillar": "evidence-appraisal",
+   "citationRefs": [
+    "balshem-2011-grade-rating-quality",
+    "guyatt-2025-core-grade-5-indirectness",
+    "hannah-shmouni-2026-ppg-aug"
+   ]
+  },
+  {
+   "id": "cq-m07-2",
+   "prompt": {
+    "en": "Under section 503A, in what order does the statute let a bulk substance qualify for compounding?"
+   },
+   "options": [
+    {
+     "text": {
+      "en": "The bulks list first, then a monograph, then a component of an approved drug."
+     },
+     "why": {
+      "en": "Reversed. The bulks list is the last route, open only when the first two are not."
+     }
+    },
+    {
+     "text": {
+      "en": "A USP or NF monograph first, then a component of an approved drug, then the 503A bulks list, with a valid certificate of analysis in every case."
+     },
+     "why": {
+      "en": "Correct. The routes are hierarchical, and the certificate and a registered manufacturer are conditions throughout."
+     }
+    },
+    {
+     "text": {
+      "en": "Any substance whose certificate of analysis shows high purity."
+     },
+     "why": {
+      "en": "A certificate is a condition, never a route on its own."
+     }
+    }
+   ],
+   "correct": 1,
+   "rationale": {
+    "en": "The statute's routes are hierarchical, and as of September 2026 no peptide sits on the six-substance bulks list."
+   },
+   "pillar": "regulatory-safety",
+   "citationRefs": [
+    "usc-21-353a",
+    "fda-503a-bulks-page",
+    "ecfr-21-cfr-216-23-bulks-list"
+   ]
+  }
+ ],
+ "tutorEntries": [
+  {
+   "id": "tutor-m07-grade",
+   "keys": [
+    "grade",
+    "grade a",
+    "grade c",
+    "evidence grade",
+    "certainty of evidence",
+    "is it evidence based",
+    "how good is the evidence",
+    "sponsored trial",
+    "industry funded",
+    "clinically proven"
+   ],
+   "answer": {
+    "en": "GRADE rates certainty for a specific outcome across a body of evidence: high, moderate, low or very low (the Hormonaly guides print A to D). Randomized trials start high; certainty drops for risk of bias, inconsistency, indirectness, imprecision or suspected publication bias. Industry-sponsored studies more often report favourable results (Cochrane, 2017), so ask who ran and paid for the trials. A grade is separate from legal status: check both, and never let a mechanism raise a grade. This course gives no doses or sourcing advice."
+   },
+   "citationRefs": [
+    "balshem-2011-grade-rating-quality",
+    "guyatt-2025-core-grade-4-bias",
+    "lundh-2017-industry-sponsorship",
+    "hannah-shmouni-2026-ppg-aug"
+   ],
+   "scope": "m07"
+  },
+  {
+   "id": "tutor-m07-compounding-coa",
+   "keys": [
+    "certificate of analysis",
+    "coa",
+    "hplc",
+    "purity",
+    "is it safe to inject",
+    "research use only",
+    "ruo",
+    "503a",
+    "503b",
+    "compounding pharmacy",
+    "pharmacy grade",
+    "off label"
+   ],
+   "answer": {
+    "en": "In the US, a 503A pharmacy may compound only from a substance that meets a USP or NF monograph, or else is a component of an approved drug, or else is on the 503A bulks list (six substances, none a peptide, as of September 2026), and it needs a valid certificate of analysis. A certificate is the supplier's report on one lot: mass spectrometry for identity, HPLC for purity, plus endotoxin and microbial results. It cannot prove your vial is that lot, how it was stored, or that it is sterile or lawful. 'Research use only' products are labelled not for use in humans, and 'off-label' applies only to approved drugs. This course gives no doses or sourcing advice; for an individual patient, that is the prescriber's decision."
+   },
+   "citationRefs": [
+    "usc-21-353a",
+    "ecfr-21-cfr-216-23-bulks-list",
+    "hannah-shmouni-2026-ppg-aug",
+    "ecfr-21-cfr-312-160",
+    "fda-off-label-page"
+   ],
+   "scope": "m07"
+  }
+ ]
+}

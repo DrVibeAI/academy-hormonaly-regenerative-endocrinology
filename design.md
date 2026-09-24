@@ -1,63 +1,37 @@
-# <Academy name> — design contract
+# Hormonaly Academy — design contract
 
-> Stage 05 artifact (contract: perceptor-foundry `docs/design-contract.md`). Every customer-visible
-> surface — landing, app, videos, certificates, emails — follows this document. Status: **proposed**
-> until the approval block is signed by the `brand_approval` owner.
+> Stage 05 artifact (contract: perceptor-foundry `docs/design-contract.md`).
+> **Tier: 0 · House.** Every customer-visible surface (app, review room, emails, certificates, videos) renders the
+> Perceptors house theme verbatim. Status: **approved**. See the approval block.
 
-## 1 · Identity in one sentence
+## Identity in one sentence
 
-<Subject, audience, register — e.g. "Clinical-scientific editorial calm for health-curious adults in
-pt-BR: evidence first, one blue, no noise.">
+Evidence-graded clinical education for every clinician who meets skin and hormone questions, in the Perceptors
+premium-editorial register: calm, exact, and no marketing noise.
 
-## 2 · Palette
+## Inherited from the house
 
-Derived from: <customer kit | the logo (name the file) | proposed — no brand existed>.
+Everything visual comes from perceptor-foundry `docs/brand.md` (Perceptors AI brand kit, 2026-08-24) and
+`templates/house-theme.yaml`. Nothing is copied here. When the house kit improves, this academy improves on its next build.
 
-| Token | Hex | Role |
-|---|---|---|
-| paper | `#` | page ground |
-| panel | `#` | cards / raised surfaces |
-| ink | `#` | primary text |
-| muted | `#` | secondary text |
-| line | `#` | hairlines, borders |
-| primary | `#` | THE accent — actions, emphasis (from the logo) |
-| primary-deep | `#` | hover / emphasis-strong |
-| primary-soft | `#` | accent washes |
+- **Palette, type, shape, spacing, components, imagery rules and the kill-list** are the house values.
+- **academy.yaml** sets `theme: perceptors-house`, `designTier: 0` and the house violet accent only. It sets no palette and no fonts.
 
-Usage ratio: ~70% paper/panel · ~20% ink/muted · ≤10% primary. Contrast: body text ≥ 4.5:1 on its ground;
-primary on paper ≥ 4.5:1 for text uses.
+## Logo and wordmark
 
-## 3 · Typography
+- The customer has not supplied a logo asset yet.
+- Until one ships in `public/`, the runtime sets a typographic wordmark: "Hormonaly" in the house display serif, with the
+  suffix "ACADEMY" in house mono (`brand.wordmarkSuffix`).
+- A supplied logo appears on paper with clear space equal to its cap height. It never brings its own typography.
+  If the customer wants its own palette or type, that is a tier-2 amendment chosen at intake.
 
-| Role | Face | Fallbacks | Rules |
+## Voice and likeness
+
+- Narration and the tutor voice use a stock library voice (ElevenLabs "Alice"), declared in `academy.yaml`.
+- No faculty likeness or cloned voice is used without a filed release.
+
+## Approval
+
+| Gate | Owner | Decision | Date |
 |---|---|---|---|
-| Display | <face> | <stack> | headings, weights, tracking |
-| Body | <face> | <stack> | 16px base, 1.6 line-height |
-| Utility | <face, usually a mono> | <stack> | uppercase microlabels +0.12em, data, citations |
-
-## 4 · Shape & spacing
-
-Radius: <one value, e.g. 2px> everywhere. Hairline rules (1px, `line`). Shadow recipe: <one soft recipe or
-none>. Spacing scale: 8 / 16 / 24 / 40 / 64.
-
-## 5 · Logo
-
-Always the real asset: `assets/<slug>-logo.png` (+ variants). Minimum width <px>, clear space <rule>,
-approved backgrounds <list>. **Never retype the wordmark, never recolor, never substitute a drawn glyph.**
-
-## 6 · Imagery
-
-<What images are here: information design (charts, diagrams in the palette), real product, released
-faculty photography.> Not: stock people, fabricated clinical imagery, decorative filler. Faculty
-photography only with `media.likenessRelease` on file.
-
-## 7 · Slop kill-list (binding)
-
-No gradient hero tiles · no CDN icon packs · no emoji as UI · no borrowed platform palettes · no
-retyped/invented logos · no rounded-everything · no fake UI (simulated players, counterfeit tutors,
-fabricated verification badges) · no unverifiable claims as design copy.
-
-## 8 · Approval
-
-`brand_approval`: **pending** — <name from governance.owners.brand> signs this document against a rendered
-specimen (see `course-production/design/`). Date: —
+| brand_approval | Omar Saleem (Perceptors) | Align the academy with perceptors.ai; drop the inherited Cenegenics look | 2026-09-24 |

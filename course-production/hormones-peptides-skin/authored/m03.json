@@ -1,0 +1,1979 @@
+{
+ "module": "m03",
+ "authoredAt": "2026-09-24",
+ "status": "ai_draft",
+ "unit": {
+  "id": "m03-story",
+  "slug": "m03-story",
+  "type": "story",
+  "title": {
+   "en": "Fat, incretins and the ageing face · three lessons"
+  },
+  "description": {
+   "en": "Lesson 3.1 Dermal fat and matrix glycation · Lesson 3.2 Incretin therapy and the changing face · Lesson 3.3 Gut barrier, endotoxaemia and inflammaging."
+  },
+  "estimatedMinutes": 27,
+  "sortOrder": 1,
+  "isRequired": true,
+  "status": "ai_draft",
+  "tutorContext": "Module 3 teaches metabolic and adipose influences on facial architecture in four separate registers (mechanism, human evidence, regulatory status, open question). dWAT: distinct adipocyte layer in the reticular dermis; reactive adipogenesis and cathelicidin against S. aureus and its age-related loss via TGF-β are mouse data (D); human dWAT is cone-shaped around follicles and human acne lesions contain cathelicidin-producing preadipocytes (D); its role in human skin ageing is unmeasured. Facial subcutaneous fat sits in discrete compartments (cadaver anatomy); in 186 identical-twin pairs higher BMI looked older before ~40 and younger after (C, observational). Glycation: AGEs accumulate in human skin collagen (~5-fold from 20 to 85 y, up to 2x in type 1 diabetes; skin collagen half-life ~15 y) — C; AGE cross-links and RAGE–NF-κB causing visible ageing: the Aesthetic & Regenerative Endocrinology guide rates B, the course grades D (lab/animal + associations); skin autofluorescence is a surrogate validated in non-pigmented skin; 'anti-glycation' products are tested on surrogates or appearance scores (guide grade C). Incretins: semaglutide (GLP-1 RA) and tirzepatide (GIP/GLP-1 RA). US status Sept 2026: Ozempic (T2D, 2017) and Wegovy (weight 06/2021; adolescents 12/2022; CV risk reduction 03/2024; MASH F2–F3 accelerated 08/2025); Mounjaro (T2D, 2022) and Zepbound (weight 11/2023; OSA 12/2024). Compounded, counterfeit and 'research' versions are not FDA-approved. STEP-1 −14.9% vs −2.4% (68 wk); SURMOUNT-1 −15.0 to −20.9% vs −3.1% (72 wk) — GRADE A for weight; median ~28% of weight lost is muscle-related (35 RCTs, B). Facial change ('Ozempic face'): retrospective imaging n=20, median 9% midface volume loss, mostly superficial, ~7%/10 kg (D); survey n=1,226, sagging/facial volume loss/hair loss rise with % weight lost (C); no RCT has measured the face; direct drug action on facial fat is a cell-study hypothesis. US labels list hair loss (~3–6% vs ~1% placebo, mostly women, linked to weight reduction) but not facial volume loss. Practice: counsel before treatment, photograph with consent, protect lean mass (protein, resistance training — no figures), refer restoration to a qualified aesthetic clinician; restoration advice is industry-linked expert consensus; decisions about stopping or changing the medicine belong to the prescriber and patient — never advise stopping, switching or dosing. Gut: inflammaging (IL-6/CRP predict frailty, death); metabolic endotoxaemia shown in mice and as a transient rise after a fatty meal in 12 men (D); restoring barrier function unproven for disease outside the gut; commercial zonulin ELISA detects other proteins. Probiotics for eczema: Cochrane 39 RCTs little/no patient-rated difference (B); children's meta-analysis small SCORAD gain (C). Rifaximin for rosacea with SIBO: small RCT (C). Tirzepatide + ixekizumab psoriasis: open-label Lilly phase 3b (C); liraglutide 20-person RCT negative (C); tirzepatide not approved for psoriasis in the US. Fibre: strong cardiometabolic evidence (guide grade A; review certainty moderate), no skin trials. Akkermansia pilot RCT metabolic only (C). 'Leaky gut' repair stack incl. BPC-157: guide grade D; BPC-157 not on the 503A bulks list (Sept 2026). Adapt the 'what you do next' to the learner's role (prescriber, clinical staff, advisor) without changing grades or regulatory facts. UK/EU status not yet mapped. No CME credit is currently offered.",
+  "tutorKeywords": [
+   "dWAT",
+   "dermal fat",
+   "cathelicidin",
+   "facial fat compartments",
+   "glycation",
+   "AGEs",
+   "skin autofluorescence",
+   "semaglutide",
+   "tirzepatide",
+   "Ozempic face",
+   "Wegovy",
+   "Zepbound",
+   "Mounjaro",
+   "STEP-1",
+   "SURMOUNT-1",
+   "lean mass",
+   "hair loss",
+   "inflammaging",
+   "endotoxaemia",
+   "leaky gut",
+   "zonulin",
+   "probiotics",
+   "rosacea",
+   "psoriasis"
+  ]
+ },
+ "lessons": [
+  {
+   "id": "3.1",
+   "title": {
+    "en": "Dermal fat and matrix glycation"
+   },
+   "blocks": [
+    "m3-p01",
+    "m3-p02",
+    "m3-p03",
+    "m3-p04",
+    "m3-p05",
+    "m3-p06",
+    "m3-p07"
+   ]
+  },
+  {
+   "id": "3.2",
+   "title": {
+    "en": "Incretin therapy and the changing face"
+   },
+   "blocks": [
+    "m3-p08",
+    "m3-p09",
+    "m3-p10",
+    "m3-p11",
+    "m3-p12",
+    "m3-p13",
+    "m3-p14"
+   ]
+  },
+  {
+   "id": "3.3",
+   "title": {
+    "en": "Gut barrier, endotoxaemia and inflammaging"
+   },
+   "blocks": [
+    "m3-p15",
+    "m3-p16",
+    "m3-p17",
+    "m3-p18",
+    "m3-p19",
+    "m3-p20"
+   ]
+  }
+ ],
+ "blocks": [
+  {
+   "id": "m3-p01",
+   "type": "title",
+   "time": "01 / 20",
+   "lead": {
+    "en": "Module 03 · Fat, incretins and the ageing face"
+   },
+   "title": {
+    "en": "The face changes when the fat does."
+   },
+   "body": {
+    "en": "Facial shape depends on fat as much as on collagen. In three lessons you will separate what is known about the skin's own fat, sugar damage to the dermis, weight-loss drugs and the gut from what is still mechanism, marketing or an open question."
+   },
+   "points": [
+    {
+     "en": "3.1 Dermal fat and sugar damage to collagen"
+    },
+    {
+     "en": "3.2 Semaglutide, tirzepatide and the changing face"
+    },
+    {
+     "en": "3.3 The gut barrier, endotoxaemia and inflammaging"
+    }
+   ],
+   "sourceNote": "Hormones and Peptides for Skin · Module 03"
+  },
+  {
+   "id": "m3-p02",
+   "type": "audio",
+   "time": "02 / 20",
+   "lead": {
+    "en": "Mechanism"
+   },
+   "title": {
+    "en": "The skin keeps its own fat."
+   },
+   "body": {
+    "en": "Beneath the dermis lies subcutaneous fat. Within the reticular dermis itself sits a thinner layer, dermal white adipose tissue. In mice, this layer expands rapidly after a Staphylococcus aureus infection, its new fat cells release the antimicrobial peptide cathelicidin, and the capacity fades with age through TGF-β signalling. Human skin arranges this fat differently, in cones around hair follicles, and human acne lesions contain perifollicular preadipocytes that make cathelicidin. What the layer contributes to human skin ageing has not been measured."
+   },
+   "points": [
+    {
+     "en": "A second fat layer inside the dermis"
+    },
+    {
+     "en": "In mice: antimicrobial, and lost with age"
+    },
+    {
+     "en": "In people: a different shape, and an open question about ageing"
+    }
+   ],
+   "citationRefs": [
+    "chen-zhang-gallo-2019-dwat-review",
+    "zhang-2015-dermal-adipocytes-s-aureus",
+    "zhang-2019-dwat-aging-tgfb",
+    "kruglikov-scherer-2016-dermal-adipocytes",
+    "oneill-2022-acne-preadipocytes-cathelicidin",
+    "kershaw-flier-2004-adipose-endocrine",
+    "hannah-shmouni-2026-are"
+   ],
+   "sourceNote": "Zhang 2015, 2019 · Chen 2019 · Kruglikov & Scherer 2016 · O'Neill 2022 · Aesthetic & Regenerative Endocrinology, ch. 11",
+   "audioBeats": [
+    {
+     "title": {
+      "en": "A second fat layer"
+     },
+     "body": {
+      "en": "Dermal white adipose tissue sits inside the reticular dermis, separate from the subcutaneous fat below. Fat as a whole is an endocrine organ that releases hormones such as leptin and adiponectin."
+     }
+    },
+    {
+     "title": {
+      "en": "What it does in mice"
+     },
+     "body": {
+      "en": "The layer expands after skin infection and its fat cells release cathelicidin. Older mice lose much of this capacity, through TGF-β signalling."
+     }
+    },
+    {
+     "title": {
+      "en": "What is known in people"
+     },
+     "body": {
+      "en": "Human dermal fat clusters in cones around hair follicles, and acne lesions contain preadipocytes that make cathelicidin. Its part in skin ageing is unmeasured."
+     }
+    }
+   ],
+   "metadata": {
+    "audioScript": {
+     "en": "Most people picture skin fat as one layer under the dermis. There is a second, thinner layer inside the reticular dermis itself, called dermal white adipose tissue. In mice, this layer expands rapidly after a Staphylococcus aureus infection, and its new fat cells release cathelicidin, an antimicrobial peptide. Older mice lose much of that capacity, through TGF-beta signalling. Human skin arranges this fat differently, in small cones around hair follicles, and human acne lesions contain preadipocytes around the follicle that make cathelicidin. What the layer contributes to human skin ageing has not yet been measured. So hold two things apart when you hear about skin fat. The defence story is strong in mice and emerging in people. The ageing story in people is still a proposal."
+    }
+   }
+  },
+  {
+   "id": "m3-p03",
+   "type": "stat",
+   "time": "03 / 20",
+   "lead": {
+    "en": "Human evidence"
+   },
+   "title": {
+    "en": "Fat that holds the face up."
+   },
+   "body": {
+    "en": "Cadaver dissection shows that the face's subcutaneous fat sits in separate compartments, and facial ageing is partly how each compartment changes. Weight shows the same thing from the outside. In a study of 186 pairs of identical twins, the twin with the higher body-mass index looked older before about age 40 and younger after it."
+   },
+   "citationRefs": [
+    "rohrich-pessa-2007-facial-fat-compartments",
+    "guyuron-2009-twins-facial-aging",
+    "hannah-shmouni-2026-are"
+   ],
+   "sourceNote": "Rohrich & Pessa 2007 · Guyuron 2009",
+   "stat": {
+    "figure": "186",
+    "label": {
+     "en": "pairs of identical twins compared for facial ageing"
+    },
+    "detail": {
+     "en": "Guyuron et al., 2009 — a four-point higher BMI tracked with an older look before about 40 and a younger look after it"
+    },
+    "means": {
+     "en": "From midlife on, facial fat goes with a younger-looking face. That fits the anatomy: the face ages partly as its fat compartments change. GRADE C, observational."
+    },
+    "doesNot": {
+     "en": "It is an observational comparison of photographs. It does not show that gaining weight rejuvenates, or that fat loss on a drug changes the skin itself."
+    }
+   }
+  },
+  {
+   "id": "m3-p04",
+   "type": "audio",
+   "time": "04 / 20",
+   "lead": {
+    "en": "Mechanism"
+   },
+   "title": {
+    "en": "Sugar that sticks to collagen."
+   },
+   "body": {
+    "en": "Glycation is a slow, non-enzymatic reaction. Reducing sugars attach to protein amino groups, rearrange into Amadori products and end as advanced glycation end products, or AGEs. On long-lived dermal collagen, AGEs form cross-links that stiffen the matrix. Through their receptor, RAGE, AGEs switch on inflammatory signalling in laboratory studies. The Aesthetic & Regenerative Endocrinology guide rates the structural and inflammatory effects B; the course grades the causal link to visible ageing D, because the human data are associations."
+   },
+   "points": [
+    {
+     "en": "Sugar + protein → Schiff base → Amadori product → AGE"
+    },
+    {
+     "en": "Cross-links stiffen long-lived collagen"
+    },
+    {
+     "en": "RAGE signalling: shown in the laboratory"
+    }
+   ],
+   "citationRefs": [
+    "gkogkolou-bohm-2012-ages-skin-aging",
+    "dyer-1993-skin-collagen-maillard",
+    "hannah-shmouni-2026-are"
+   ],
+   "sourceNote": "Gkogkolou & Böhm 2012 · Dyer 1993 · Aesthetic & Regenerative Endocrinology, ch. 13",
+   "audioBeats": [
+    {
+     "title": {
+      "en": "The reaction"
+     },
+     "body": {
+      "en": "Reducing sugars bind protein amino groups, form a reversible Schiff base, then a more stable Amadori product, and finally irreversible AGEs."
+     }
+    },
+    {
+     "title": {
+      "en": "Two kinds of damage"
+     },
+     "body": {
+      "en": "Structural: AGEs cross-link collagen and elastin and stiffen the dermis. Signalling: AGEs bind RAGE, which drives NF-κB and inflammatory cytokines in cell and animal studies."
+     }
+    },
+    {
+     "title": {
+      "en": "Where the grades differ"
+     },
+     "body": {
+      "en": "The Hormonaly endocrinology guide rates both B. The course grades the causal link to visible ageing D, because the human data are associations."
+     }
+    }
+   ],
+   "metadata": {
+    "audioScript": {
+     "en": "Glycation is chemistry before it is biology. Reducing sugars attach to the amino groups of proteins, rearrange into more stable products, and end as advanced glycation end products, known as AGEs. Dermal collagen lasts for years, so it collects AGEs, and they form cross-links that make the matrix stiffer. AGEs also bind a receptor called RAGE, which in laboratory studies switches on inflammatory signalling and enzymes that break down matrix. Keep the registers apart here. The chemistry, and the build-up of AGEs in human skin, are well documented. The idea that AGEs cause the wrinkles and laxity you see in clinic rests on laboratory and animal work plus human associations. The Aesthetic and Regenerative Endocrinology guide rates the structural and inflammatory effects grade B. This course grades the causal link D, and the next moment shows why."
+    }
+   }
+  },
+  {
+   "id": "m3-p05",
+   "type": "stat",
+   "time": "05 / 20",
+   "lead": {
+    "en": "Human evidence"
+   },
+   "title": {
+    "en": "Fifteen years on the same collagen."
+   },
+   "body": {
+    "en": "Human skin collagen turns over slowly; tissue analysis puts its half-life at about 15 years. In skin biopsies, glycoxidation products in collagen rose about five-fold between ages 20 and 85, and were up to twice as high in type 1 diabetes. Skin autofluorescence, a non-invasive reading, correlates moderately with those biopsy measures and was validated in non-pigmented skin."
+   },
+   "citationRefs": [
+    "verzijl-2000-collagen-turnover-ages",
+    "dyer-1993-skin-collagen-maillard",
+    "meerwaldt-2004-skin-autofluorescence",
+    "hannah-shmouni-2026-are"
+   ],
+   "sourceNote": "Verzijl 2000 · Dyer 1993 · Meerwaldt 2004",
+   "stat": {
+    "figure": "~15 years",
+    "label": {
+     "en": "estimated half-life of human skin collagen"
+    },
+    "detail": {
+     "en": "Verzijl et al., 2000 · AGE content of skin collagen rises about five-fold from age 20 to 85 (Dyer et al., 1993)"
+    },
+    "means": {
+     "en": "Glycation damage accumulates on the same collagen for years, and faster with higher glucose exposure. That much is measured in human skin: direct, observational, GRADE C."
+    },
+    "doesNot": {
+     "en": "It does not show how much of visible ageing AGEs cause, or that any product reverses established cross-links. Skin autofluorescence is a surrogate reading of AGE load."
+    }
+   }
+  },
+  {
+   "id": "m3-p06",
+   "type": "tool",
+   "time": "06 / 20",
+   "lead": {
+    "en": "Sort the evidence"
+   },
+   "title": {
+    "en": "Mouse, human or marketing?"
+   },
+   "body": {
+    "en": "Six statements you will hear about skin fat and glycation. Before you see where each one stands, decide what kind of evidence is behind it."
+   },
+   "citationRefs": [
+    "zhang-2015-dermal-adipocytes-s-aureus",
+    "zhang-2019-dwat-aging-tgfb",
+    "oneill-2022-acne-preadipocytes-cathelicidin",
+    "kruglikov-scherer-2016-dermal-adipocytes",
+    "dyer-1993-skin-collagen-maillard",
+    "verzijl-2000-collagen-turnover-ages",
+    "gkogkolou-bohm-2012-ages-skin-aging",
+    "draelos-2025-age-inhibiting-moisturizer",
+    "hannah-shmouni-2026-are"
+   ],
+   "sourceNote": "Zhang 2015, 2019 · O'Neill 2022 · Dyer 1993 · Verzijl 2000 · Draelos 2025",
+   "tool": {
+    "items": [
+     {
+      "label": {
+       "en": "Dermal fat cells release cathelicidin to fight Staphylococcus aureus"
+      },
+      "value": {
+       "en": "Skin fat"
+      },
+      "note": {
+       "en": "Defence"
+      }
+     },
+     {
+      "label": {
+       "en": "Dermal fat loses its defensive capacity with age"
+      },
+      "value": {
+       "en": "Skin fat"
+      },
+      "note": {
+       "en": "Ageing"
+      }
+     },
+     {
+      "label": {
+       "en": "AGEs build up in skin collagen with age, faster in diabetes"
+      },
+      "value": {
+       "en": "Glycation"
+      },
+      "note": {
+       "en": "Accumulation"
+      }
+     },
+     {
+      "label": {
+       "en": "Skin collagen stays in place for many years"
+      },
+      "value": {
+       "en": "Glycation"
+      },
+      "note": {
+       "en": "Turnover"
+      }
+     },
+     {
+      "label": {
+       "en": "AGEs drive skin inflammation through their receptor, RAGE"
+      },
+      "value": {
+       "en": "Glycation"
+      },
+      "note": {
+       "en": "Signalling"
+      }
+     },
+     {
+      "label": {
+       "en": "An anti-glycation serum reverses cross-linked collagen"
+      },
+      "value": {
+       "en": "Glycation"
+      },
+      "note": {
+       "en": "Treatment"
+      }
+     }
+    ],
+    "callout": {
+     "en": "Ask where a statement was shown: in mice, in human skin, or only on a label."
+    }
+   },
+   "interaction": {
+    "kind": "classify",
+    "title": {
+     "en": "Mouse, human or marketing?"
+    },
+    "prompt": {
+     "en": "Tap what stands behind each statement."
+    },
+    "labels": [
+     {
+      "value": "human",
+      "label": {
+       "en": "Shown in human skin"
+      },
+      "tone": "good"
+     },
+     {
+      "value": "mouse",
+      "label": {
+       "en": "Shown in mice or cells"
+      },
+      "tone": "neutral"
+     },
+     {
+      "value": "marketing",
+      "label": {
+       "en": "Marketing only, not shown"
+      },
+      "tone": "bad"
+     }
+    ],
+    "items": [
+     {
+      "id": "dwat-cathelicidin",
+      "label": {
+       "en": "Dermal fat cells release cathelicidin to fight Staphylococcus aureus"
+      },
+      "answer": "mouse",
+      "why": {
+       "en": "Shown in mouse infection models (D). Human acne lesions contain preadipocytes that make cathelicidin, but protection against infection has not been tested in people."
+      }
+     },
+     {
+      "id": "dwat-ageing",
+      "label": {
+       "en": "Dermal fat loses its defensive capacity with age"
+      },
+      "answer": "mouse",
+      "why": {
+       "en": "Shown in mice, through TGF-β signalling (D). The equivalent change in human skin has not been measured."
+      }
+     },
+     {
+      "id": "age-accumulation",
+      "label": {
+       "en": "AGEs build up in skin collagen with age, faster in diabetes"
+      },
+      "answer": "human",
+      "why": {
+       "en": "Measured directly in human skin biopsies (C, observational), and up to twice as high in type 1 diabetes."
+      }
+     },
+     {
+      "id": "collagen-turnover",
+      "label": {
+       "en": "Skin collagen stays in place for many years"
+      },
+      "answer": "human",
+      "why": {
+       "en": "Human tissue analysis puts the half-life of skin collagen at about 15 years (C), which is why glycation damage accumulates."
+      }
+     },
+     {
+      "id": "rage-inflammation",
+      "label": {
+       "en": "AGEs drive skin inflammation through their receptor, RAGE"
+      },
+      "answer": "mouse",
+      "why": {
+       "en": "Laboratory and animal work. The Aesthetic & Regenerative Endocrinology guide rates it B; the course grades the causal link D because the human data are associations."
+      }
+     },
+     {
+      "id": "antiglycation-serum",
+      "label": {
+       "en": "An anti-glycation serum reverses cross-linked collagen"
+      },
+      "answer": "marketing",
+      "why": {
+       "en": "Not shown. Trials of 'anti-glycation' products measure surrogate readings or appearance scores; none found for this course measured cross-links in human skin. The guide rates the evidence for these products C, on surrogate endpoints."
+      }
+     }
+    ],
+    "done": {
+     "en": "Six sorted. Two are measured in human skin, three come from mice or cells, and one has no study behind it."
+    },
+    "citationRefs": [
+     "zhang-2015-dermal-adipocytes-s-aureus",
+     "zhang-2019-dwat-aging-tgfb",
+     "oneill-2022-acne-preadipocytes-cathelicidin",
+     "dyer-1993-skin-collagen-maillard",
+     "verzijl-2000-collagen-turnover-ages",
+     "gkogkolou-bohm-2012-ages-skin-aging",
+     "draelos-2025-age-inhibiting-moisturizer",
+     "hannah-shmouni-2026-are"
+    ],
+    "source": "authored:2026-09-24 from m3-p02, m3-p04 and m3-p05 + registry grades"
+   }
+  },
+  {
+   "id": "m3-p07",
+   "type": "quiz",
+   "time": "07 / 20",
+   "lead": {
+    "en": "Your turn"
+   },
+   "title": {
+    "en": "A lower reading."
+   },
+   "body": {
+    "en": "One question to close lesson 3.1."
+   },
+   "sourceNote": "Lesson 3.1",
+   "quiz": {
+    "id": "m3-q1",
+    "prompt": {
+     "en": "A patient shows you her skin autofluorescence reading, lower after eight weeks on an 'anti-glycation' supplement. What does that result show?"
+    },
+    "options": [
+     {
+      "text": {
+       "en": "The supplement has reversed glycation damage in her dermis."
+      },
+      "why": {
+       "en": "A lower surrogate reading is not a measurement of collagen cross-links, and the device was validated in non-pigmented skin."
+      }
+     },
+     {
+      "text": {
+       "en": "A change in a surrogate marker; it shows nothing yet about collagen cross-links, how her skin looks or how it ages."
+      },
+      "why": {
+       "en": "Correct. The surrogate moved; the outcome is unknown."
+      }
+     },
+     {
+      "text": {
+       "en": "Nothing at all, because glycation does not happen in human skin."
+      },
+      "why": {
+       "en": "It does: AGEs accumulate in human skin collagen with age and faster in diabetes. The question is what the product changed."
+      }
+     }
+    ],
+    "correct": 1,
+    "feedback": {
+     "en": "A surrogate reading is where the evidence starts, never where it ends."
+    },
+    "pillar": "evidence-appraisal",
+    "citationRefs": [
+     "meerwaldt-2004-skin-autofluorescence",
+     "dyer-1993-skin-collagen-maillard",
+     "hannah-shmouni-2026-are"
+    ]
+   }
+  },
+  {
+   "id": "m3-p08",
+   "type": "audio",
+   "time": "08 / 20",
+   "lead": {
+    "en": "Lesson 3.2 · Concept"
+   },
+   "title": {
+    "en": "Two gut hormones, re-engineered."
+   },
+   "body": {
+    "en": "GLP-1 and GIP are incretins, hormones the gut releases after a meal that amplify glucose-dependent insulin release; GLP-1 also slows gastric emptying and reduces appetite. Native GLP-1 is broken down within minutes. Semaglutide is a long-acting GLP-1 receptor agonist, and tirzepatide activates both GIP and GLP-1 receptors. In the US, as of September 2026, both are FDA-approved drugs for defined indications, set out in the next moment."
+   },
+   "points": [
+    {
+     "en": "Incretins amplify insulin after meals"
+    },
+    {
+     "en": "Semaglutide: GLP-1 receptor agonist"
+    },
+    {
+     "en": "Tirzepatide: GIP and GLP-1 receptor agonist"
+    }
+   ],
+   "citationRefs": [
+    "drucker-2018-glp1-mechanisms",
+    "hannah-shmouni-2026-are",
+    "hannah-shmouni-2026-ppg-aug",
+    "fda-label-ozempic-2026",
+    "fda-label-mounjaro-2026"
+   ],
+   "sourceNote": "Drucker 2018 · Aesthetic & Regenerative Endocrinology, ch. 12 · Peptide Pocket Guide · US labels",
+   "audioBeats": [
+    {
+     "title": {
+      "en": "Incretins"
+     },
+     "body": {
+      "en": "GLP-1 from intestinal L-cells and GIP from K-cells amplify insulin release when glucose is high. GLP-1 also slows the stomach and reduces appetite."
+     }
+    },
+    {
+     "title": {
+      "en": "Engineered to last"
+     },
+     "body": {
+      "en": "Native GLP-1 is cleared within minutes by the enzyme DPP-4. The drug molecules are modified to last far longer in the blood."
+     }
+    },
+    {
+     "title": {
+      "en": "Two molecules, four brands"
+     },
+     "body": {
+      "en": "Semaglutide is sold as Ozempic and Wegovy, tirzepatide as Mounjaro and Zepbound. The brand tells you the approved use."
+     }
+    }
+   ],
+   "metadata": {
+    "audioScript": {
+     "en": "After a meal, the gut releases two hormones called incretins, GLP-1 and GIP. Both amplify insulin release when glucose is high, and GLP-1 also slows the stomach and reduces appetite. Native GLP-1 lasts only minutes in the blood before an enzyme breaks it down, so the drug molecules are engineered to last far longer. Semaglutide activates the GLP-1 receptor. Tirzepatide activates both the GIP and the GLP-1 receptors. Those are the mechanisms. The regulatory facts sit in a separate register. In the United States, as of September 2026, both molecules are FDA-approved drugs, sold under one brand name for type 2 diabetes and another for chronic weight management, with further indications for the heart, the liver and sleep apnoea. The face appears nowhere on those labels, and that is where this lesson begins."
+    }
+   }
+  },
+  {
+   "id": "m3-p09",
+   "type": "tool",
+   "time": "09 / 20",
+   "lead": {
+    "en": "Regulatory status"
+   },
+   "title": {
+    "en": "Approved for what, exactly?"
+   },
+   "body": {
+    "en": "The facial changes in this lesson happen to people taking approved drugs for approved reasons. Know the indications, and their dates, before you discuss the side effects. Status below is for the US, from FDA records checked in September 2026; UK and EU status is being mapped for this course."
+   },
+   "citationRefs": [
+    "fda-label-ozempic-2026",
+    "fda-label-wegovy-2026",
+    "fda-drugsfda-wegovy-nda215256",
+    "lincoff-2023-select",
+    "fda-label-mounjaro-2026",
+    "fda-label-zepbound-2026",
+    "fda-drugsfda-zepbound-nda217806",
+    "fda-unapproved-glp1-concerns-2026",
+    "ashraf-2024-online-semaglutide-quality",
+    "hannah-shmouni-2026-ppg-aug"
+   ],
+   "sourceNote": "US labels via DailyMed (2026) · Drugs@FDA · FDA, current 1 Sep 2026 · Ashraf 2024",
+   "tool": {
+    "items": [
+     {
+      "label": {
+       "en": "Ozempic (semaglutide)"
+      },
+      "value": {
+       "en": "Type 2 diabetes"
+      },
+      "note": {
+       "en": "First approved 2017. The label adds cardiovascular and kidney risk reduction in people with type 2 diabetes."
+      }
+     },
+     {
+      "label": {
+       "en": "Wegovy (semaglutide)"
+      },
+      "value": {
+       "en": "Chronic weight management"
+      },
+      "note": {
+       "en": "Approved June 2021; adolescents from age 12 added December 2022. Cardiovascular risk reduction in established heart disease with obesity or overweight, March 2024. MASH with moderate to advanced liver fibrosis, accelerated approval, August 2025."
+      }
+     },
+     {
+      "label": {
+       "en": "Mounjaro (tirzepatide)"
+      },
+      "value": {
+       "en": "Type 2 diabetes"
+      },
+      "note": {
+       "en": "First approved 2022. The label adds cardiovascular risk reduction in type 2 diabetes at high risk."
+      }
+     },
+     {
+      "label": {
+       "en": "Zepbound (tirzepatide)"
+      },
+      "value": {
+       "en": "Chronic weight management"
+      },
+      "note": {
+       "en": "Approved November 2023. Moderate to severe obstructive sleep apnoea with obesity, December 2024."
+      }
+     },
+     {
+      "label": {
+       "en": "Compounded, counterfeit or 'research' versions"
+      },
+      "value": {
+       "en": "Not FDA-approved"
+      },
+      "note": {
+       "en": "FDA warns about compounded, counterfeit and falsely labelled 'research' semaglutide and tirzepatide (page current 1 September 2026). Semaglutide bought online without a prescription has failed independent testing."
+      }
+     }
+    ],
+    "callout": {
+     "en": "Approved for diabetes, weight, the heart, the liver and sleep apnoea. The face is on none of these labels."
+    }
+   }
+  },
+  {
+   "id": "m3-p10",
+   "type": "stat",
+   "time": "10 / 20",
+   "lead": {
+    "en": "Human evidence"
+   },
+   "title": {
+    "en": "Large trials, measured on the scale."
+   },
+   "body": {
+    "en": "In STEP-1, 1,961 adults without diabetes lost a mean 14.9% of body weight on semaglutide over 68 weeks, against 2.4% on placebo. In SURMOUNT-1, 2,539 adults lost 15.0% to 20.9% on tirzepatide over 72 weeks, depending on dose, against 3.1% on placebo. Both Hormonaly guides grade weight management A. Across 35 randomized trials of incretin drugs, a median of about 28% of the weight lost was muscle-related tissue."
+   },
+   "citationRefs": [
+    "wilding-2021-step1",
+    "jastreboff-2022-surmount1",
+    "batsis-2026-incretin-body-composition",
+    "hannah-shmouni-2026-are",
+    "hannah-shmouni-2026-ppg-aug"
+   ],
+   "sourceNote": "Wilding 2021 · Jastreboff 2022 · Batsis 2026",
+   "stat": {
+    "figure": "14.9% · 20.9%",
+    "label": {
+     "en": "mean weight loss in STEP-1 (semaglutide, 68 weeks) and SURMOUNT-1 (tirzepatide, highest dose, 72 weeks)"
+    },
+    "detail": {
+     "en": "Placebo 2.4% and 3.1% · both trials industry-funded, both the basis for approval"
+    },
+    "means": {
+     "en": "These drugs produce large, reproducible weight loss in randomized trials: GRADE A for the approved indications. Part of what is lost is lean tissue, which is why the Hormonaly guide pairs treatment with protein and resistance training."
+    },
+    "doesNot": {
+     "en": "Neither pivotal trial measured facial fat, skin laxity or appearance. An A for weight loss says nothing about the face."
+    }
+   }
+  },
+  {
+   "id": "m3-p11",
+   "type": "tool",
+   "time": "11 / 20",
+   "lead": {
+    "en": "Four registers"
+   },
+   "title": {
+    "en": "'Ozempic face', answer by answer."
+   },
+   "body": {
+    "en": "The phrase bundles four kinds of statement. Kept apart, they tell a patient far more than the headline does."
+   },
+   "citationRefs": [
+    "rohrich-pessa-2007-facial-fat-compartments",
+    "sharma-2025-midface-volume-glp1",
+    "rao-2026-glp1-skin-pro-survey",
+    "daneshgaran-2025-ozempic-face-sr",
+    "humphrey-lawrence-2023-ozempic-face",
+    "fda-label-wegovy-2026",
+    "fda-label-zepbound-2026",
+    "paschou-2025-glp1ra-skin-aging",
+    "persson-2025-glp1-dermatological-profile",
+    "burke-2025-glp1-dermatologic",
+    "hannah-shmouni-2026-are"
+   ],
+   "sourceNote": "Sharma 2025 · Rao 2026 · Daneshgaran 2025 · US labels 2026 · Paschou 2025",
+   "tool": {
+    "items": [
+     {
+      "label": {
+       "en": "Mechanism"
+      },
+      "value": {
+       "en": "Volume loss"
+      },
+      "note": {
+       "en": "Losing fat deflates the superficial facial compartments and unmasks laxity that was already there."
+      }
+     },
+     {
+      "label": {
+       "en": "Human evidence"
+      },
+      "value": {
+       "en": "Observational and small: C to D"
+      },
+      "note": {
+       "en": "One imaging study of 20 patients found a median 9% loss of midface volume, mostly superficial, about 7% per 10 kg lost. A survey of 1,226 patients found sagging, facial volume loss and hair shedding reported more often the more weight was lost. A systematic review of the plastic-surgery literature found it limited by study bias. No randomized trial has measured the face."
+      }
+     },
+     {
+      "label": {
+       "en": "Regulatory status (US, September 2026)"
+      },
+      "value": {
+       "en": "Hair loss labelled; facial change unlisted"
+      },
+      "note": {
+       "en": "Both labels list hair loss (about 3–6% on drug against about 1% on placebo, mostly in women, linked to weight reduction). The semaglutide label also lists altered skin sensation. Facial volume loss is not a labelled adverse reaction."
+      }
+     },
+     {
+      "label": {
+       "en": "Open question"
+      },
+      "value": {
+       "en": "A direct drug effect?"
+      },
+      "note": {
+       "en": "Whether these drugs act on facial fat or skin cells beyond the effect of weight loss rests on cell studies and has not been tested in people."
+      }
+     }
+    ],
+    "callout": {
+     "en": "So far, the evidence ties facial change to how much weight is lost."
+    }
+   }
+  },
+  {
+   "id": "m3-p12",
+   "type": "audio",
+   "time": "12 / 20",
+   "lead": {
+    "en": "What changes in practice"
+   },
+   "title": {
+    "en": "Counsel before, record during, refer when asked."
+   },
+   "body": {
+    "en": "Raise facial volume change and hair shedding before treatment starts; the Hormonaly guide advises this especially for older patients. During treatment, photograph the face with consent, and support the protein intake and resistance training the guide recommends to protect lean mass. When a patient wants the face restored, refer to a qualified aesthetic or dermatology colleague. Published advice on restoration is expert opinion, the main consensus statement was developed with industry involvement, and randomized trials of fillers and devices in these patients are registered without results. Decisions about the medicine itself stay with the prescriber and the patient."
+   },
+   "points": [
+    {
+     "en": "Before: set expectations about face and hair"
+    },
+    {
+     "en": "During: photographs with consent, protect lean mass"
+    },
+    {
+     "en": "When asked: refer for restoration"
+    }
+   ],
+   "citationRefs": [
+    "hannah-shmouni-2026-are",
+    "humphrey-lawrence-2023-ozempic-face",
+    "nikolis-2025-mdwl-delphi",
+    "nct07419854-radiesse-after-glp1",
+    "nct07685834-sofwave-tirzepatide",
+    "batsis-2026-incretin-body-composition"
+   ],
+   "sourceNote": "Aesthetic & Regenerative Endocrinology, ch. 12, 14 · Nikolis 2025 · ClinicalTrials.gov, checked 24 Sep 2026",
+   "audioBeats": [
+    {
+     "title": {
+      "en": "Before treatment"
+     },
+     "body": {
+      "en": "Name facial volume change and hair shedding as possibilities, especially with older patients, and record that you did."
+     }
+    },
+    {
+     "title": {
+      "en": "During treatment"
+     },
+     "body": {
+      "en": "Photograph the face with consent so change is measured, and support protein intake and resistance training to protect lean mass."
+     }
+    },
+    {
+     "title": {
+      "en": "When asked"
+     },
+     "body": {
+      "en": "Refer restoration requests to a qualified colleague. Published advice is expert opinion, and the randomized trials of fillers and devices have not reported."
+     }
+    }
+   ],
+   "metadata": {
+    "audioScript": {
+     "en": "Three moments matter in practice. Before treatment starts, raise facial volume change and hair shedding as possibilities, especially with older patients, as the Hormonaly guide advises, and record that you did. During treatment, photograph the face with consent so that change is measured rather than remembered, and support the protein intake and resistance training the guide recommends to protect lean mass. When a patient asks for help with the face, refer to a qualified aesthetic or dermatology colleague. The published advice on restoring volume after drug-driven weight loss is expert opinion, the main consensus statement was developed with industry involvement, and randomized trials of fillers and devices in these patients are registered with no results yet. Whatever your role, decisions about the medicine itself stay with the prescriber and the patient."
+    },
+    "variants": {
+     "audienceLevel": {
+      "prescriber": {
+       "en": "Put facial volume change and hair shedding into the consent conversation before you start, and document it. At follow-up, review nutrition, strength training and consented photographs. Keep the indication in view, and refer restoration requests rather than improvising them."
+      },
+      "clinical-staff": {
+       "en": "Record the patient's concern, the medicine and who prescribes it, and consented photographs. Do not suggest pausing or changing the medicine; bring the concern to the prescriber and pass restoration questions to the aesthetic lead."
+      },
+      "advisor": {
+       "en": "Explain that facial change tracks the weight lost and that hair loss is a listed side effect. Questions about the dose or about stopping belong with the prescriber; restoration questions belong with a qualified aesthetic clinician."
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "m3-p13",
+   "type": "audio",
+   "time": "13 / 20",
+   "lead": {
+    "en": "Fictional case"
+   },
+   "title": {
+    "en": "Ten months in, and unhappy with the mirror."
+   },
+   "body": {
+    "en": "A 58-year-old patient has taken semaglutide for obesity for ten months, prescribed by her physician, and has lost 18% of her body weight. Her blood pressure and glucose have improved. She is distressed by hollow cheeks, new laxity along the jaw and more hair in her brush, and asks whether she should stop the injections. This is a fictional case built from the lesson's evidence; there is one right first move."
+   },
+   "points": [
+    {
+     "en": "Facial volume loss tracks the weight lost"
+    },
+    {
+     "en": "Hair loss is a labelled side effect, more common in women"
+    },
+    {
+     "en": "The indication is responding; the medicine decision is the prescriber's"
+    }
+   ],
+   "citationRefs": [
+    "sharma-2025-midface-volume-glp1",
+    "rao-2026-glp1-skin-pro-survey",
+    "fda-label-wegovy-2026",
+    "nikolis-2025-mdwl-delphi",
+    "hannah-shmouni-2026-are"
+   ],
+   "sourceNote": "Sharma 2025 · Rao 2026 · Wegovy label 2026 · Aesthetic & Regenerative Endocrinology, ch. 12",
+   "interaction": {
+    "kind": "scenario",
+    "title": {
+     "en": "What do you do first?"
+    },
+    "setup": {
+     "en": "A 58-year-old patient has taken semaglutide for obesity for ten months, prescribed by her physician, and has lost 18% of her body weight. Her blood pressure and glucose have improved. She is distressed by hollow cheeks, new laxity along the jaw and more hair in her brush, and asks whether she should stop the injections."
+    },
+    "notice": [
+     {
+      "en": "Facial volume loss in the studies so far tracks the amount of weight lost"
+     },
+     {
+      "en": "Hair loss is listed on the US label, more often in women, and linked to weight reduction"
+     },
+     {
+      "en": "The drug was prescribed for an indication that is responding"
+     }
+    ],
+    "options": [
+     {
+      "value": "stop",
+      "label": {
+       "en": "Tell her to stop the injections; her face matters more than the scale."
+      },
+      "why": {
+       "en": "That is a medication decision made on one side effect, outside her prescriber's care, and it sets aside an indication that is working."
+      }
+     },
+     {
+      "value": "counsel-record-refer",
+      "label": {
+       "en": "Acknowledge the change, explain that it follows the weight lost, record it with consented photographs, and take the stop-or-continue question to her prescriber, with a referral for restoration if she wants one."
+      },
+      "correct": true,
+      "why": {
+       "en": "Right. Counsel, record, refer. The medicine decision stays with her prescriber, and restoration goes to someone qualified to provide it."
+      }
+     },
+     {
+      "value": "reassure",
+      "label": {
+       "en": "Reassure her that her face will fill out again once her weight settles."
+      },
+      "why": {
+       "en": "That promise has no evidence behind it; no study found for this course followed facial volume after the weight loss stopped."
+      }
+     }
+    ],
+    "followUp": {
+     "en": "Then document the conversation: her concerns, what you explained, and who she will see next."
+    },
+    "citationRefs": [
+     "sharma-2025-midface-volume-glp1",
+     "rao-2026-glp1-skin-pro-survey",
+     "fda-label-wegovy-2026",
+     "nikolis-2025-mdwl-delphi",
+     "hannah-shmouni-2026-are"
+    ],
+    "source": "authored:2026-09-24 from m3-p11 registers + Aesthetic & Regenerative Endocrinology ch. 12 counselling box (dosing and titration content excluded)"
+   },
+   "audioBeats": [
+    {
+     "title": {
+      "en": "What she is taking"
+     },
+     "body": {
+      "en": "An approved drug for an approved indication, prescribed by her physician, and working: weight, blood pressure and glucose have all improved."
+     }
+    },
+    {
+     "title": {
+      "en": "What she sees"
+     },
+     "body": {
+      "en": "Hollow cheeks, looser skin along the jaw and more hair in the brush, ten months in and 18% lighter."
+     }
+    },
+    {
+     "title": {
+      "en": "What she asks"
+     },
+     "body": {
+      "en": "Whether to stop. That question belongs with her prescriber; your part is to counsel, record and refer."
+     }
+    }
+   ],
+   "metadata": {
+    "audioScript": {
+     "en": "Picture a fifty-eight-year-old patient, fictional and built from this lesson's evidence. She has taken semaglutide for obesity for ten months, prescribed by her physician, and has lost eighteen percent of her body weight. Her blood pressure and glucose have improved. She is distressed by hollow cheeks and new looseness along the jaw, and she is finding more hair in her brush. She asks whether she should stop the injections. Consider what the evidence says. In the studies so far, facial volume loss tracks the amount of weight lost. Hair loss is a labelled side effect, reported more often in women and linked to weight reduction. The drug was prescribed for a medical reason, and that reason is going well. Decide how you would answer her."
+    },
+    "variants": {
+     "audienceLevel": {
+      "prescriber": {
+       "en": "You own the medication conversation: review her progress against the indication, her nutrition, strength training and hair, and refer for restoration if she wants it. Document the discussion."
+      },
+      "clinical-staff": {
+       "en": "You record the concern, consented photographs and the hair change, and bring it to the prescriber this week. You do not advise on the dose or on stopping."
+      },
+      "advisor": {
+       "en": "You explain what is known, suggest she talk to her prescriber before changing anything, and point her to a qualified aesthetic clinician for restoration questions."
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "m3-p14",
+   "type": "quiz",
+   "time": "14 / 20",
+   "lead": {
+    "en": "Your turn"
+   },
+   "title": {
+    "en": "What the evidence shows."
+   },
+   "body": {
+    "en": "One question to close lesson 3.2."
+   },
+   "sourceNote": "Lesson 3.2",
+   "quiz": {
+    "id": "m3-q2",
+    "prompt": {
+     "en": "Which statement about facial change on semaglutide or tirzepatide matches the evidence as of September 2026?"
+    },
+    "options": [
+     {
+      "text": {
+       "en": "Randomized trials show these drugs age facial skin directly."
+      },
+      "why": {
+       "en": "No randomized trial has measured the face, and a direct effect on skin is a hypothesis from cell studies."
+      }
+     },
+     {
+      "text": {
+       "en": "Facial volume loss is reported in small observational studies and tracks the amount of weight lost; no randomized trial has measured it."
+      },
+      "why": {
+       "en": "Correct. Observational, small, and consistent with weight loss as the driver."
+      }
+     },
+     {
+      "text": {
+       "en": "Facial volume loss is a labelled adverse reaction in the US prescribing information."
+      },
+      "why": {
+       "en": "Hair loss is labelled. Facial volume loss is not."
+      }
+     }
+    ],
+    "correct": 1,
+    "feedback": {
+     "en": "Name the evidence type before the effect: here, small observational studies."
+    },
+    "pillar": "evidence-appraisal",
+    "citationRefs": [
+     "sharma-2025-midface-volume-glp1",
+     "rao-2026-glp1-skin-pro-survey",
+     "fda-label-wegovy-2026",
+     "fda-label-zepbound-2026",
+     "paschou-2025-glp1ra-skin-aging"
+    ]
+   }
+  },
+  {
+   "id": "m3-p15",
+   "type": "audio",
+   "time": "15 / 20",
+   "lead": {
+    "en": "Lesson 3.3 · Concept"
+   },
+   "title": {
+    "en": "Inflammation that comes with age."
+   },
+   "body": {
+    "en": "Inflammaging is the chronic, low-grade, sterile inflammation that rises with age. In older adults, higher IL-6 and CRP predict frailty and death. One proposed source is the gut. In mice, a high-fat diet raises circulating bacterial lipopolysaccharide, and infusing it reproduces weight gain and insulin resistance. In 12 healthy men, a single high-fat meal raised plasma endotoxin by about half within four hours. Whether a leaky gut drives skin disease in people has not been shown."
+   },
+   "points": [
+    {
+     "en": "Inflammaging: low-grade, sterile, age-related"
+    },
+    {
+     "en": "Metabolic endotoxaemia: gut bacterial LPS in the blood"
+    },
+    {
+     "en": "Gut to skin in people: not shown"
+    }
+   ],
+   "citationRefs": [
+    "franceschi-2000-inflamm-aging",
+    "ferrucci-fabbri-2018-inflammageing",
+    "cani-2007-metabolic-endotoxemia",
+    "erridge-2007-high-fat-meal-endotoxemia",
+    "camilleri-2019-leaky-gut",
+    "hannah-shmouni-2026-are"
+   ],
+   "sourceNote": "Franceschi 2000 · Ferrucci & Fabbri 2018 · Cani 2007 · Erridge 2007 · Camilleri 2019",
+   "audioBeats": [
+    {
+     "title": {
+      "en": "Inflammaging"
+     },
+     "body": {
+      "en": "A slow rise in background inflammation with age. Higher IL-6 and CRP predict frailty, disability and death in older adults."
+     }
+    },
+    {
+     "title": {
+      "en": "The gut hypothesis"
+     },
+     "body": {
+      "en": "Bacterial lipopolysaccharide crossing a leaky barrier is one proposed source, shown in mice and as a short rise after a fatty meal in a small human study."
+     }
+    },
+    {
+     "title": {
+      "en": "Where the evidence stops"
+     },
+     "body": {
+      "en": "Measuring gut permeability is hard, and restoring the barrier has not been shown to improve disease outside the gut."
+     }
+    }
+   ],
+   "metadata": {
+    "audioScript": {
+     "en": "Ageing brings a slow rise in background inflammation, called inflammaging. It is low-grade and sterile, and in older adults higher IL-6 and C-reactive protein predict frailty, disability and death. One proposed source is the gut. In mice, a high-fat diet raises bacterial lipopolysaccharide in the blood, and infusing that endotoxin reproduces weight gain and insulin resistance. In twelve healthy men, a single high-fat meal raised plasma endotoxin by about half within four hours. That is the mechanism usually called metabolic endotoxaemia, or leaky gut. The human evidence stops short of the skin. Measuring gut permeability is difficult, and a leading review concludes that it is still unproven whether restoring the barrier improves disease outside the gut. Hold that line as you look at what patients are sold."
+    }
+   }
+  },
+  {
+   "id": "m3-p16",
+   "type": "stat",
+   "time": "16 / 20",
+   "lead": {
+    "en": "The evidence"
+   },
+   "title": {
+    "en": "Thirty-nine trials of probiotics for eczema."
+   },
+   "body": {
+    "en": "An independent Cochrane review pooled 39 randomized trials, with 2,599 participants, of oral probiotics for eczema. Probiotics probably make little or no difference to patient-rated symptoms, and investigator-rated severity fell by less than the minimum clinically important difference. A 2024 European task-force meta-analysis in children without food allergy reported a significant fall in severity scores."
+   },
+   "citationRefs": [
+    "makrgeorgou-2018-cochrane-probiotics-eczema",
+    "vassilopoulou-2024-eaaci-ad-diet-meta",
+    "suez-2019-probiotics-review",
+    "hannah-shmouni-2026-are"
+   ],
+   "sourceNote": "Makrgeorgou 2018 (Cochrane) · Vassilopoulou 2024 · Suez 2019",
+   "stat": {
+    "figure": "39 RCTs",
+    "label": {
+     "en": "in the Cochrane review of oral probiotics for treating eczema"
+    },
+    "detail": {
+     "en": "2,599 participants · little or no difference in patient-rated symptoms (moderate-certainty evidence)"
+    },
+    "means": {
+     "en": "The most direct test of 'treat the gut, help the skin' in a common inflammatory skin disease shows, at most, a small effect. GRADE B for little or no benefit a patient would notice."
+    },
+    "doesNot": {
+     "en": "It does not rule out benefit from particular strains or in particular groups, and it says nothing about skin ageing. Newer pooled analyses in children report small improvements."
+    }
+   }
+  },
+  {
+   "id": "m3-p17",
+   "type": "tool",
+   "time": "17 / 20",
+   "lead": {
+    "en": "Sort the toolkit"
+   },
+   "title": {
+    "en": "What has been tested on skin?"
+   },
+   "body": {
+    "en": "Six things patients bring you under the heading 'gut health for skin'. One at a time, decide what stands behind each."
+   },
+   "citationRefs": [
+    "makrgeorgou-2018-cochrane-probiotics-eczema",
+    "parodi-2008-rosacea-sibo",
+    "lebwohl-2026-together-pso",
+    "faurschou-2015-liraglutide-psoriasis",
+    "fda-label-mounjaro-2026",
+    "fda-label-zepbound-2026",
+    "reynolds-2019-carbohydrate-quality",
+    "depommier-2019-akkermansia",
+    "fda-pcac-2026-07-meeting",
+    "hannah-shmouni-2026-are"
+   ],
+   "sourceNote": "Makrgeorgou 2018 · Parodi 2008 · Lebwohl 2026 · Faurschou 2015 · Reynolds 2019 · Depommier 2019",
+   "tool": {
+    "items": [
+     {
+      "label": {
+       "en": "Probiotic capsules"
+      },
+      "value": {
+       "en": "Sold to calm eczema"
+      },
+      "note": {
+       "en": "Supplement"
+      }
+     },
+     {
+      "label": {
+       "en": "Rifaximin for rosacea with bacterial overgrowth"
+      },
+      "value": {
+       "en": "Used to clear rosacea"
+      },
+      "note": {
+       "en": "Prescription antibiotic"
+      }
+     },
+     {
+      "label": {
+       "en": "Tirzepatide added to a psoriasis biologic"
+      },
+      "value": {
+       "en": "Proposed to clear psoriasis and reduce weight"
+      },
+      "note": {
+       "en": "Prescription drug"
+      }
+     },
+     {
+      "label": {
+       "en": "A high-fibre, plant-rich diet"
+      },
+      "value": {
+       "en": "Said to improve skin through the gut"
+      },
+      "note": {
+       "en": "Diet"
+      }
+     },
+     {
+      "label": {
+       "en": "Akkermansia capsules"
+      },
+      "value": {
+       "en": "Sold to strengthen the gut barrier"
+      },
+      "note": {
+       "en": "Next-generation probiotic"
+      }
+     },
+     {
+      "label": {
+       "en": "A 'leaky gut' stack: L-glutamine, zinc carnosine, BPC-157"
+      },
+      "value": {
+       "en": "Sold to seal the gut and clear the skin"
+      },
+      "note": {
+       "en": "Supplements and a research peptide"
+      }
+     }
+    ],
+    "callout": {
+     "en": "Ask which product, which outcome and which trial."
+    }
+   },
+   "interaction": {
+    "kind": "quickfire",
+    "title": {
+     "en": "What stands behind it?"
+    },
+    "prompt": {
+     "en": "One at a time: what has actually been tested?"
+    },
+    "labels": [
+     {
+      "value": "skin",
+      "label": {
+       "en": "Tested on skin in randomized trials"
+      },
+      "tone": "good"
+     },
+     {
+      "value": "people",
+      "label": {
+       "en": "Tested in people, not on skin"
+      },
+      "tone": "neutral"
+     },
+     {
+      "value": "none",
+      "label": {
+       "en": "No human outcome data"
+      },
+      "tone": "bad"
+     }
+    ],
+    "items": [
+     {
+      "id": "probiotics",
+      "label": {
+       "en": "Probiotic capsules"
+      },
+      "answer": "skin",
+      "why": {
+       "en": "Thirty-nine trials pooled by Cochrane: little or no difference in patient-rated eczema symptoms (B). Newer analyses in children report small gains."
+      }
+     },
+     {
+      "id": "rifaximin",
+      "label": {
+       "en": "Rifaximin for rosacea with bacterial overgrowth"
+      },
+      "answer": "skin",
+      "why": {
+       "en": "One small single-centre randomized trial: rosacea improved after the overgrowth was cleared (C). A prescription antibiotic, chosen after testing."
+      }
+     },
+     {
+      "id": "tirzepatide-psoriasis",
+      "label": {
+       "en": "Tirzepatide added to a psoriasis biologic"
+      },
+      "answer": "skin",
+      "why": {
+       "en": "One open-label, manufacturer-funded phase 3b trial of 274 people: more complete clearance with the add-on at 36 weeks (C). An earlier 20-person placebo-controlled trial of liraglutide found no effect. In the US, tirzepatide is not approved for psoriasis."
+      }
+     },
+     {
+      "id": "fibre",
+      "label": {
+       "en": "A high-fibre, plant-rich diet"
+      },
+      "answer": "people",
+      "why": {
+       "en": "Strong human evidence for heart and metabolic outcomes; the guide grades it A, and the review behind it rates certainty moderate. No trial has measured skin."
+      }
+     },
+     {
+      "id": "akkermansia",
+      "label": {
+       "en": "Akkermansia capsules"
+      },
+      "answer": "people",
+      "why": {
+       "en": "One pilot randomized trial in 32 adults improved insulin sensitivity (C). No skin outcomes."
+      }
+     },
+     {
+      "id": "repair-stack",
+      "label": {
+       "en": "A 'leaky gut' stack: L-glutamine, zinc carnosine, BPC-157"
+      },
+      "answer": "none",
+      "why": {
+       "en": "The Hormonaly guide grades it D: mechanism and animal data. As of September 2026, BPC-157 is not on the US 503A bulks list; an FDA advisory committee reviewed it in July 2026."
+      }
+     }
+    ],
+    "done": {
+     "en": "Six placed. Three have skin trials, each small, single or sponsor-run; two have human data without skin outcomes; one has none."
+    },
+    "citationRefs": [
+     "makrgeorgou-2018-cochrane-probiotics-eczema",
+     "parodi-2008-rosacea-sibo",
+     "lebwohl-2026-together-pso",
+     "faurschou-2015-liraglutide-psoriasis",
+     "reynolds-2019-carbohydrate-quality",
+     "depommier-2019-akkermansia",
+     "fda-pcac-2026-07-meeting",
+     "hannah-shmouni-2026-are"
+    ],
+    "source": "authored:2026-09-24 from m3-p17.tool.items, Aesthetic & Regenerative Endocrinology ch. 16 grades + registry"
+   }
+  },
+  {
+   "id": "m3-p18",
+   "type": "audio",
+   "time": "18 / 20",
+   "lead": {
+    "en": "What changes in practice"
+   },
+   "title": {
+    "en": "Diet first, a bottle last."
+   },
+   "body": {
+    "en": "When a patient links their skin to their gut, start with what has evidence: diet quality, treating metabolic disease directly, and established treatment for the skin condition itself. A widely used commercial zonulin assay has been shown to detect proteins other than zonulin, so a result cannot tell you whether a gut is leaky. Restoring barrier function has not been shown to improve disease outside the gut. Investigational peptides sold for gut repair come last, if at all."
+   },
+   "points": [
+    {
+     "en": "Start with diet, metabolic health and the skin diagnosis"
+    },
+    {
+     "en": "Zonulin tests may not measure zonulin"
+    },
+    {
+     "en": "Gut-repair peptides: last, if at all"
+    }
+   ],
+   "citationRefs": [
+    "scheffler-2018-zonulin-elisa",
+    "camilleri-2019-leaky-gut",
+    "reynolds-2019-carbohydrate-quality",
+    "suez-2019-probiotics-review",
+    "fda-pcac-2026-07-meeting",
+    "hannah-shmouni-2026-are"
+   ],
+   "sourceNote": "Scheffler 2018 · Camilleri 2019 · Aesthetic & Regenerative Endocrinology, ch. 16 · FDA PCAC, July 2026",
+   "audioBeats": [
+    {
+     "title": {
+      "en": "Start with evidence"
+     },
+     "body": {
+      "en": "Diet quality, treatment of metabolic disease and established treatment for the skin condition come first."
+     }
+    },
+    {
+     "title": {
+      "en": "Be careful with tests"
+     },
+     "body": {
+      "en": "A widely used zonulin assay detects other proteins, so its result says little about gut permeability."
+     }
+    },
+    {
+     "title": {
+      "en": "Be careful with products"
+     },
+     "body": {
+      "en": "Probiotics are strain-specific with small skin effects at best. The gut-repair stack is graded D, and investigational peptides come last, if at all."
+     }
+    }
+   ],
+   "metadata": {
+    "audioScript": {
+     "en": "Patients often link their skin to their gut. Start where the evidence is. Diet quality, treatment of metabolic disease and the established treatment for the skin condition itself all come first. Be careful with tests. A widely used commercial zonulin assay was shown to detect proteins other than zonulin, so a result cannot tell you whether a gut is leaky. Be careful with products too. Probiotics are strain-specific, and their effects on eczema are small at best. The Hormonaly guide gives the popular gut-repair stack of glutamine, zinc carnosine and BPC-157 a grade of D. As of September 2026, in the United States, BPC-157 remains off the 503A bulks list after the July advisory-committee review. Investigational peptides come last, if at all. Whatever your role, name the evidence type before you name the product."
+    },
+    "variants": {
+     "audienceLevel": {
+      "prescriber": {
+       "en": "Treat the skin disease on its own evidence and metabolic disease directly. A zonulin result should not guide care. In the US, BPC-157 has no 503A bulks-list standing as of September 2026, so compounding it for gut repair is not an option."
+      },
+      "clinical-staff": {
+       "en": "If a patient brings a gut-repair kit or a zonulin result, record the products and the result and bring them to the prescriber. Do not interpret the test or advise on the products."
+      },
+      "advisor": {
+       "en": "You can say that fibre-rich diets have strong evidence for metabolic health, that probiotics are strain-specific with small skin effects at best, and that injected or research peptides need a prescriber."
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "m3-p19",
+   "type": "quiz",
+   "time": "19 / 20",
+   "lead": {
+    "en": "Your turn"
+   },
+   "title": {
+    "en": "The zonulin test."
+   },
+   "body": {
+    "en": "One question to close lesson 3.3."
+   },
+   "sourceNote": "Lesson 3.3",
+   "quiz": {
+    "id": "m3-q3",
+    "prompt": {
+     "en": "A patient asks for a zonulin blood test to prove that her rosacea comes from a leaky gut. What is the most accurate reply?"
+    },
+    "options": [
+     {
+      "text": {
+       "en": "The test will show whether her gut barrier is causing the rosacea."
+      },
+      "why": {
+       "en": "A widely used zonulin assay detects other proteins, and a zonulin result cannot tell you what is causing her rosacea."
+      }
+     },
+     {
+      "text": {
+       "en": "The test is unreliable and would not change care: treat the rosacea on its own evidence, and assess any gut symptoms clinically."
+      },
+      "why": {
+       "en": "Correct. The small trial that linked gut bacteria to rosacea used breath testing and clinical assessment, and no zonulin test."
+      }
+     },
+     {
+      "text": {
+       "en": "Rosacea has nothing to do with the gut, so there is nothing to discuss."
+      },
+      "why": {
+       "en": "Too strong: a small randomized trial found rosacea improved after bacterial overgrowth was treated. The link is possible; the test is the problem."
+      }
+     }
+    ],
+    "correct": 1,
+    "feedback": {
+     "en": "Ask what a test measures before you ask what it shows."
+    },
+    "pillar": "patient-conversation",
+    "citationRefs": [
+     "scheffler-2018-zonulin-elisa",
+     "parodi-2008-rosacea-sibo",
+     "camilleri-2019-leaky-gut"
+    ]
+   }
+  },
+  {
+   "id": "m3-p20",
+   "type": "action",
+   "time": "20 / 20",
+   "lead": {
+    "en": "Closing and commitment"
+   },
+   "title": {
+    "en": "Before my next conversation about weight, skin and the gut."
+   },
+   "body": {
+    "en": "Build the checklist you will actually use. It is saved to your path and your tutor will bring it back."
+   },
+   "sourceNote": "Module 03",
+   "citationRefs": [
+    "hannah-shmouni-2026-are",
+    "nikolis-2025-mdwl-delphi"
+   ],
+   "action": {
+    "prompt": {
+     "en": "Choose what you will do before your next conversation about weight-loss drugs, facial change or gut health"
+    },
+    "takeaway": {
+     "en": "Next module: matrix peptides and wound healing — what the human trials show for copper, signal and repair peptides."
+    },
+    "suggestions": [
+     {
+      "en": "I will raise facial and hair changes before treatment starts."
+     },
+     {
+      "en": "I will ask whether a skin benefit was shown in mice, in people or only on a label."
+     },
+     {
+      "en": "I will take any question about stopping a prescribed drug to the prescriber."
+     }
+    ]
+   },
+   "metadata": {
+    "clozePrefix": {
+     "en": "Before my next conversation about weight, skin and the gut I will"
+    },
+    "clozeSuffix": {
+     "en": "."
+    },
+    "variants": {
+     "audienceLevel": {
+      "prescriber": {
+       "en": "Your checklist ends with documentation: expectations set before treatment, concerns recorded, referrals made."
+      },
+      "clinical-staff": {
+       "en": "Your checklist ends with escalation: questions about the medicine go to the prescriber the same week."
+      },
+      "advisor": {
+       "en": "Your checklist ends with referral: product questions you can answer; medicine and restoration questions go to a prescriber or a qualified aesthetic clinician."
+      }
+     }
+    }
+   },
+   "interaction": {
+    "kind": "chips",
+    "title": {
+     "en": "Your checklist"
+    },
+    "prompt": {
+     "en": "Tap everything you will do. Choose as many as you like."
+    },
+    "prefix": {
+     "en": "Before my next conversation about weight, skin and the gut I will"
+    },
+    "chips": [
+     {
+      "value": "expectations",
+      "label": {
+       "en": "set expectations about face and hair before treatment starts"
+      },
+      "group": "counsel"
+     },
+     {
+      "value": "photographs",
+      "label": {
+       "en": "record facial concerns with consented photographs"
+      },
+      "group": "monitor"
+     },
+     {
+      "value": "evidence-type",
+      "label": {
+       "en": "ask whether a benefit was shown in mice, in people or only on a label"
+      },
+      "group": "evidence"
+     },
+     {
+      "value": "surrogate",
+      "label": {
+       "en": "treat a surrogate reading as a surrogate"
+      },
+      "group": "evidence"
+     },
+     {
+      "value": "refer",
+      "label": {
+       "en": "refer restoration requests to a qualified colleague"
+      },
+      "group": "refer"
+     },
+     {
+      "value": "prescriber",
+      "label": {
+       "en": "leave decisions about the medicine to the prescriber"
+      },
+      "group": "safety"
+     }
+    ],
+    "suffix": {
+     "en": "."
+    },
+    "pick": "many",
+    "citationRefs": [
+     "hannah-shmouni-2026-are",
+     "nikolis-2025-mdwl-delphi"
+    ],
+    "source": "authored:2026-09-24 from m3-p07, m3-p12, m3-p13 and m3-p18"
+   }
+  }
+ ],
+ "check": {
+  "id": "m3-check",
+  "prompt": {
+   "en": "Closing Module 3: which statement keeps the four registers apart?"
+  },
+  "options": [
+   {
+    "text": {
+     "en": "Semaglutide ages the face by acting on facial fat, so the label should carry a facial warning."
+    },
+    "why": {
+     "en": "That blends an untested hypothesis with a regulatory conclusion. The labels list hair loss; a direct action on facial fat is untested in people."
+    }
+   },
+   {
+    "text": {
+     "en": "Facial volume loss on incretins: fat loss deflates facial compartments (mechanism); small observational studies tie it to the amount of weight lost (human evidence); US labels list hair loss but not facial change (regulatory status); whether the drugs act directly on facial fat is untested (open question)."
+    },
+    "why": {
+     "en": "Correct. Four separate answers, each with its own source."
+    }
+   },
+   {
+    "text": {
+     "en": "Weight loss on these drugs is GRADE A, so their facial effects are GRADE A too."
+    },
+    "why": {
+     "en": "A grade belongs to an outcome. The pivotal trials never measured the face."
+    }
+   }
+  ],
+  "correct": 1,
+  "feedback": {
+   "en": "One grade per outcome, one register per sentence."
+  },
+  "citationRefs": [
+   "rohrich-pessa-2007-facial-fat-compartments",
+   "sharma-2025-midface-volume-glp1",
+   "rao-2026-glp1-skin-pro-survey",
+   "fda-label-wegovy-2026",
+   "fda-label-zepbound-2026",
+   "paschou-2025-glp1ra-skin-aging"
+  ]
+ },
+ "claimLocations": {
+  "c-m03-01": [
+   "m3-p02",
+   "m3-p06"
+  ],
+  "c-m03-02": [
+   "m3-p03",
+   "m3-p11"
+  ],
+  "c-m03-03": [
+   "m3-p03"
+  ],
+  "c-m03-04": [
+   "m3-p04",
+   "m3-p06"
+  ],
+  "c-m03-05": [
+   "m3-p05",
+   "m3-p06",
+   "m3-p07"
+  ],
+  "c-m03-06": [
+   "m3-p05",
+   "m3-p07"
+  ],
+  "c-m03-07": [
+   "m3-p06",
+   "m3-p07"
+  ],
+  "c-m03-08": [
+   "m3-p08"
+  ],
+  "c-m03-09": [
+   "m3-p08",
+   "m3-p09"
+  ],
+  "c-m03-10": [
+   "m3-p10"
+  ],
+  "c-m03-11": [
+   "m3-p10",
+   "m3-p12"
+  ],
+  "c-m03-12": [
+   "m3-p11",
+   "m3-p12",
+   "m3-p13",
+   "m3-p14"
+  ],
+  "c-m03-13": [
+   "m3-p11",
+   "m3-p13",
+   "m3-p14"
+  ],
+  "c-m03-14": [
+   "m3-p11",
+   "m3-p14"
+  ],
+  "c-m03-15": [
+   "m3-p09"
+  ],
+  "c-m03-16": [
+   "m3-p12",
+   "m3-p13",
+   "m3-p20"
+  ],
+  "c-m03-17": [
+   "m3-p15"
+  ],
+  "c-m03-18": [
+   "m3-p15",
+   "m3-p18",
+   "m3-p19"
+  ],
+  "c-m03-19": [
+   "m3-p16",
+   "m3-p17"
+  ],
+  "c-m03-20": [
+   "m3-p17",
+   "m3-p18",
+   "m3-p19"
+  ]
+ },
+ "audienceLevelPanes": [
+  "m3-p12",
+  "m3-p13",
+  "m3-p18",
+  "m3-p20"
+ ],
+ "courseQuiz": [
+  {
+   "id": "m03-cq1",
+   "prompt": {
+    "en": "A colleague says tirzepatide is 'GRADE A', so its effect on the face must be well established. What is wrong with that reasoning?"
+   },
+   "options": [
+    {
+     "text": {
+      "en": "Nothing: a drug's grade applies to all of its effects."
+     },
+     "why": {
+      "en": "Grades attach to a specific outcome in a specific population. The pivotal trials measured weight and never the face."
+     }
+    },
+    {
+     "text": {
+      "en": "Grades attach to outcomes: weight loss is A from large randomized trials, while facial change rests on small observational studies."
+     },
+     "why": {
+      "en": "Correct. One grade per outcome."
+     }
+    },
+    {
+     "text": {
+      "en": "Tirzepatide has no GRADE A evidence for anything."
+     },
+     "why": {
+      "en": "It does, for weight management and type 2 diabetes, from large randomized trials such as SURMOUNT-1."
+     }
+    }
+   ],
+   "correct": 1,
+   "rationale": {
+    "en": "An evidence grade belongs to a statement, not to a molecule. SURMOUNT-1 supports an A for weight loss; facial change rests on a 20-patient imaging study and a patient survey (C to D), and no randomized trial has measured the face."
+   },
+   "pillar": "evidence-appraisal",
+   "citationRefs": [
+    "jastreboff-2022-surmount1",
+    "sharma-2025-midface-volume-glp1",
+    "rao-2026-glp1-skin-pro-survey",
+    "hannah-shmouni-2026-are"
+   ]
+  },
+  {
+   "id": "m03-cq2",
+   "prompt": {
+    "en": "Which statement about the gut–skin link is best supported by the evidence?"
+   },
+   "options": [
+    {
+     "text": {
+      "en": "Probiotic capsules reliably clear eczema by repairing the gut barrier."
+     },
+     "why": {
+      "en": "Pooled trials show little or no difference in patient-rated eczema symptoms."
+     }
+    },
+    {
+     "text": {
+      "en": "Metabolic endotoxaemia is shown in mice and small human studies, but restoring the gut barrier has not been shown to improve disease outside the gut."
+     },
+     "why": {
+      "en": "Correct. Mechanism in mice and short-term human physiology; no proof that barrier repair helps the skin."
+     }
+    },
+    {
+     "text": {
+      "en": "A zonulin blood test identifies patients whose skin disease comes from a leaky gut."
+     },
+     "why": {
+      "en": "A widely used zonulin assay detects proteins other than zonulin."
+     }
+    }
+   ],
+   "correct": 1,
+   "rationale": {
+    "en": "High-fat feeding raises circulating endotoxin in mice and briefly in healthy men; a leading review finds it unproven that restoring barrier function improves disease outside the gut, and Cochrane found little or no patient-rated benefit from probiotics in eczema."
+   },
+   "pillar": "physiology",
+   "citationRefs": [
+    "cani-2007-metabolic-endotoxemia",
+    "erridge-2007-high-fat-meal-endotoxemia",
+    "camilleri-2019-leaky-gut",
+    "makrgeorgou-2018-cochrane-probiotics-eczema",
+    "scheffler-2018-zonulin-elisa"
+   ]
+  }
+ ],
+ "tutorEntries": [
+  {
+   "id": "m03-tutor-ozempic-face",
+   "keys": [
+    "ozempic face",
+    "facial fat loss on semaglutide",
+    "tirzepatide face changes",
+    "glp-1 facial volume loss",
+    "wegovy face",
+    "mounjaro face",
+    "zepbound hair loss",
+    "hollow cheeks weight loss drug",
+    "should i stop ozempic because of my face"
+   ],
+   "answer": {
+    "en": "'Ozempic face' describes facial hollowing and laxity during weight loss on incretin drugs. Mechanism: losing fat deflates the superficial facial fat compartments and unmasks laxity already present. Human evidence is observational and small: one retrospective imaging study of 20 patients found a median 9% loss of midface volume, mostly superficial, about 7% per 10 kg lost (D), and a survey of 1,226 patients found sagging, facial volume loss and hair shedding reported more often the more weight was lost (C). No randomized trial has measured the face. Regulatory status (US, September 2026): semaglutide (Ozempic, Wegovy) and tirzepatide (Mounjaro, Zepbound) are FDA-approved for type 2 diabetes, chronic weight management and further heart, liver and sleep-apnoea indications. Their labels list hair loss (about 3–6% on drug against about 1% on placebo, mostly in women, linked to weight reduction) but not facial volume loss. Open question: whether the drugs act directly on facial fat, beyond weight loss, rests on cell studies. In practice: raise facial and hair changes before treatment, record concerns with consented photographs, refer restoration requests to a qualified aesthetic clinician, and take any question about stopping or changing the medicine to the prescriber. The course gives no dosing advice."
+   },
+   "citationRefs": [
+    "sharma-2025-midface-volume-glp1",
+    "rao-2026-glp1-skin-pro-survey",
+    "fda-label-wegovy-2026",
+    "fda-label-zepbound-2026",
+    "fda-drugsfda-wegovy-nda215256",
+    "paschou-2025-glp1ra-skin-aging",
+    "hannah-shmouni-2026-are"
+   ],
+   "scope": "m03"
+  },
+  {
+   "id": "m03-tutor-gut-skin",
+   "keys": [
+    "leaky gut",
+    "gut skin axis",
+    "zonulin test",
+    "probiotics for eczema",
+    "gut health and acne",
+    "endotoxemia and skin",
+    "gut repair supplements",
+    "bpc-157 for gut",
+    "rosacea and gut bacteria",
+    "inflammaging"
+   ],
+   "answer": {
+    "en": "Mechanism: bacterial lipopolysaccharide crossing a leaky gut barrier ('metabolic endotoxaemia') drives inflammation and insulin resistance in mice, and a single high-fat meal briefly raised plasma endotoxin in a study of 12 healthy men (D). Human evidence for skin: an independent Cochrane review of 39 trials found probiotics probably make little or no difference to patient-rated eczema symptoms (B); a 2024 meta-analysis in children without food allergy reported small score improvements (C); one small randomized trial found rosacea improved after small-intestinal bacterial overgrowth was treated (C). A leading review concludes it is unproven that restoring barrier function improves disease outside the gut, and a widely used commercial zonulin assay detects proteins other than zonulin. A fibre-rich diet has strong evidence for cardiometabolic outcomes and none for skin. The Hormonaly guide grades the 'leaky gut' repair stack (L-glutamine, zinc carnosine, BPC-157) D; in the US, BPC-157 is not on the 503A bulks list as of September 2026. Start with diet, metabolic health and the skin diagnosis; investigational peptides come last, if at all, and any injected or research peptide needs a prescriber."
+   },
+   "citationRefs": [
+    "cani-2007-metabolic-endotoxemia",
+    "erridge-2007-high-fat-meal-endotoxemia",
+    "makrgeorgou-2018-cochrane-probiotics-eczema",
+    "vassilopoulou-2024-eaaci-ad-diet-meta",
+    "parodi-2008-rosacea-sibo",
+    "camilleri-2019-leaky-gut",
+    "scheffler-2018-zonulin-elisa",
+    "reynolds-2019-carbohydrate-quality",
+    "fda-pcac-2026-07-meeting",
+    "hannah-shmouni-2026-are"
+   ],
+   "scope": "m03"
+  }
+ ]
+}

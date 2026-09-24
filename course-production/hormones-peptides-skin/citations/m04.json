@@ -186,23 +186,6 @@
    "gradeNote": "in vitro; supports the irritation mechanism only"
   },
   {
-   "id": "nct07437586-ghk-cu-wound-gel",
-   "lesson": "m04-l1",
-   "title": "Topical GHK-Cu Gel for Acute Skin Wound Healing",
-   "authors": "Hudson Biotech (sponsor)",
-   "publication": "ClinicalTrials.gov NCT07437586 · phase 2 · recruiting · est. n=60",
-   "year": 2026,
-   "url": "https://clinicaltrials.gov/study/NCT07437586",
-   "sourceType": "trial-registration",
-   "design": "registered phase 2",
-   "independence": "industry",
-   "role": "status: a controlled topical trial is under way, results none",
-   "guideGrade": "—",
-   "note": "checked via CT.gov API 2026-09-22",
-   "grade": "context",
-   "gradeNote": "registered, recruiting, no results"
-  },
-  {
    "id": "schagen-2017-topical-peptides",
    "lesson": "m04-l2",
    "title": "Topical Peptide Treatments with Effective Anti-Aging Results",
@@ -452,23 +435,6 @@
    "note": "research candidate, rank 1 (BPC set)",
    "grade": "context",
    "gradeNote": "specialty-journal primer"
-  },
-  {
-   "id": "nct07437547-bpc157-hamstring",
-   "lesson": "m04-l3",
-   "title": "BPC 157 for Acute Hamstring Muscle Strain Repair",
-   "authors": "Hudson Biotech (sponsor)",
-   "publication": "ClinicalTrials.gov NCT07437547 · phase 2 · randomized · n=120 · recruiting (start 2026-02)",
-   "year": 2026,
-   "url": "https://clinicaltrials.gov/study/NCT07437547",
-   "sourceType": "trial-registration",
-   "design": "registered RCT",
-   "independence": "industry",
-   "role": "status: first randomized human trials registered; no results",
-   "guideGrade": "—",
-   "note": "CT.gov API 2026-09-22",
-   "grade": "context",
-   "gradeNote": "registered RCT, recruiting, no results"
   },
   {
    "id": "nct07803250-bpc157-rotator-cuff",
@@ -893,6 +859,24 @@
    "note": "CT.gov API 2026-09-24; product dose deliberately not reproduced (lock excludes dosing)",
    "grade": "context",
    "gradeNote": "uncontrolled, no results"
+  },
+  {
+   "id": "dragomirescu-2014-leuphasyl-volunteers",
+   "lesson": "m04-l2",
+   "title": "The Efficiency and Safety of Leuphasyl — A Botox-Like Peptide",
+   "authors": "Dragomirescu AO, Andoni M, Ionescu D, Andrei F",
+   "publication": "Cosmetics · 2014;1(2):75–81",
+   "year": 2014,
+   "url": "https://doi.org/10.3390/cosmetics1020075",
+   "doi": "10.3390/cosmetics1020075",
+   "sourceType": "primary-study",
+   "design": "university volunteer study of three emulsion strengths (0.5%, 1%, 2%); wrinkle regression by imaging; no randomized control described in the abstract",
+   "independence": "academic (Faculty of Pharmacy, 'Victor Babeş' University, Timişoara)",
+   "role": "the one non-manufacturer human study of Leuphasyl; not indexed in PubMed",
+   "guideGrade": "—",
+   "note": "abstract read via Crossref/OpenAlex 2026-09-24 (publisher page blocked); found through Errante 2020 after the claim-support check contradicted 'no independent human trial'",
+   "grade": "D",
+   "gradeNote": "small uncontrolled volunteer formulation study"
   }
  ],
  "claims": [
@@ -1002,14 +986,15 @@
   {
    "id": "c-m04-09",
    "unit": "m04-l2",
-   "text": "Leuphasyl (pentapeptide-18): the only efficacy data are the manufacturer's own studies and an in-vitro synergy figure with SNAP-8; no independent or indexed human trial exists. The course teaches it as 'no independent evidence', not as a mechanism.",
+   "text": "Leuphasyl (pentapeptide-18): the efficacy data are the manufacturer's own studies, an in-vitro synergy figure with SNAP-8, and one small uncontrolled university volunteer study (2014, in a journal not indexed in PubMed). No randomized controlled trial exists. The course grades it D.",
    "citationRefs": [
-    "hannah-shmouni-2026-ppg-aug",
-    "errante-2020-cosmeceutical-peptides"
+    "dragomirescu-2014-leuphasyl-volunteers",
+    "errante-2020-cosmeceutical-peptides",
+    "hannah-shmouni-2026-ppg-aug"
    ],
    "status": "verified",
    "reviewNote": "was flagged: no primary source; rewritten as an absence-of-evidence statement",
-   "gradeDecision": "D — rewritten per Omar 2026-09-24 (agreed recommendation)"
+   "gradeDecision": "D — rewritten per Omar 2026-09-24 (agreed recommendation) · corrected 2026-09-24 after claim-support: one independent uncontrolled study exists (Dragomirescu 2014)"
   },
   {
    "id": "c-m04-10",
@@ -1027,13 +1012,13 @@
   {
    "id": "c-m04-11",
    "unit": "m04-l3",
-   "text": "BPC-157 evidence is an extensive rodent literature, largely from one research group, plus uncontrolled human case series. No randomized efficacy trial in people has been published: a 2015 phase 1 safety study and a 2025 single-arm product study posted no results, and the first efficacy RCTs were registered in 2026.",
+   "text": "BPC-157 evidence is an extensive rodent literature, largely from one research group, plus uncontrolled human case series. No randomized efficacy trial in people has been published in full: the one randomized trial FDA identified (ulcerative colitis, 2005) exists only as a meeting abstract and showed no significant difference from placebo; a 2015 phase 1 safety study and a 2025 single-arm product study posted no results; a randomized phase 1 trial after rotator-cuff repair was registered in 2026, starting 2027.",
    "citationRefs": [
+    "fda-pcac-2026-bpc157-briefing",
     "lee-2021-bpc157-knee",
     "mayfield-2026-injectable-peptide-primer",
     "mcguire-2025-bpc157-regeneration-or-risk",
     "nct02637284-bpc157-phase1-2015",
-    "nct07437547-bpc157-hamstring",
     "nct07752381-bpc157-gummy-2025",
     "nct07803250-bpc157-rotator-cuff",
     "seiwerth-2021-bpc157-wound-healing",
@@ -1041,7 +1026,7 @@
    ],
    "status": "verified",
    "reviewNote": "guides rate C (A&RE) — Omar to confirm; two independent 2025–26 reviews now exist",
-   "gradeDecision": "D — rodent + case series; human RCTs registered 2026, no results"
+   "gradeDecision": "D — rodent + case series; human RCTs registered 2026, no results · updated 2026-09-24 after approval (FDA briefing, Ruenzi 2005 abstract)"
   },
   {
    "id": "c-m04-12",
@@ -1163,7 +1148,7 @@
   }
  ],
  "gradedAt": "2026-09-24",
- "gradingRule": "Grade = certainty the source gives for the specific clinical statement the lesson makes, on the guides' A–D scale. A: consistent large RCTs or approval-grade evidence. B: at least one well-designed, adequately powered RCT or an independent, quality-stratified meta-analysis (either direction). C: small or sponsor-funded RCTs without independent replication, or pooled trials dominated by them. D: animal, in-vitro, mechanistic, case series, manufacturer dossiers. 'context' = history, reviews used for framing, trial registrations without results, analytical or regulatory records (regulatory records are primary for status statements, not graded for efficacy). Where the two guides disagree, the lesson states both and the claim takes the grade the primary evidence supports.",
+ "gradingRule": "Grade = certainty the source gives for the specific clinical statement the lesson makes, on the guides' A–D scale. A: consistent large RCTs or approval-grade evidence. B: at least one well-designed, adequately powered RCT or an independent, quality-stratified meta-analysis (either direction). C: small or sponsor-funded RCTs without independent replication, or pooled trials dominated by them. D: animal, in-vitro, mechanistic, case series, manufacturer dossiers. 'context' = history, reviews used for framing, trial registrations without results, analytical or regulatory records (regulatory records are primary for status statements, not graded for efficacy). Where the two guides disagree, the lesson states both and the claim takes the grade the primary evidence supports. Observational studies (added 2026-09-24, GRADE starting point, for the final reviewer to confirm): adequately sized cohort, case-control or cross-sectional studies grade C for the association they measured; small or single-centre ones grade D; any causal claim drawn from observational data grades D. Meta-analyses of observational studies grade at most B, and only for association. Guidelines and consensus statements are 'context', cited for what they recommend, not graded as evidence.",
  "authorFindings": [
   "A&RE ch.15 ref 4 — 'Sikiric P, et al. Curr Med Chem 2018;25:1972' does not resolve on PubMed; the title matches Curr Pharm Des 2018;24:1990–2001 (PMID 29879879), which the Pocket Guide cites correctly.",
   "PPG-Aug Argireline entry — 'Wang Y et al. [not indexed]': the 2013 Am J Clin Dermatol randomized placebo-controlled trial is indexed (PMID 23417317).",
@@ -1174,7 +1159,9 @@
   "Grade disagreement between the guides — A&RE ch.5 rates Argireline and Matrixyl-type peptides GRADE C; the Pocket Guide rates Argireline, Leuphasyl, Matrixyl 3000 and Palmitoyl Tripeptide-1 GRADE D. The course grades pal-KTTKS and Argireline C (RCTs incl. an independent 2023 trial) and the blends/Leuphasyl D, and names the disagreement.",
   "Oral collagen — Myung & Park 2025 (Am J Med, 23 RCTs) find the benefit only in pharmaceutical-funded and low-quality trials; the author may wish to revisit A&RE's GRADE C.",
   "SNAP-8 is in neither guide; the course adds it from the literature (Errante 2020 review; two combination-product studies).",
-  "Not in either guide, worth adding — Miller 2006 (the one indexed RCT of topical GHK-Cu), Aruan 2023 (independent RCT, Argireline vs pal-KTTKS), Esposito 2012 (TB-500 characterized as the Tβ4 17–23 fragment), the two 2026 BPC-157 trial registrations, and the two independent 2025–26 BPC-157 reviews."
+  "Not in either guide, worth adding — Miller 2006 (the one indexed RCT of topical GHK-Cu), Aruan 2023 (independent RCT, Argireline vs pal-KTTKS), Esposito 2012 (TB-500 characterized as the Tβ4 17–23 fragment), the two 2026 BPC-157 trial registrations, and the two independent 2025–26 BPC-157 reviews.",
+  "Trial-registry integrity (2026-09-24): ClinicalTrials.gov sponsor 'Hudson Biotech' lists eight 'recruiting' records covering BPC-157, TB-500, MOTS-c, GHK-Cu, Melanotan II, tesamorelin, tirzepatide ('SURMOUNT-1', Lilly's published trial title) and LY3437943, including one titled '(Mock Study)'. The course no longer cites any of them. Recommend neither Hormonaly guide cite registrations from this sponsor, and that the foundry's source check flag registrations whose sponsor holds mock or duplicated records.",
+  "Leuphasyl (2026-09-24, from the claim-support check): an independent university volunteer study exists (Dragomirescu 2014, Cosmetics, not PubMed-indexed; three concentrations, wrinkle imaging, no randomized control described). The course now says 'no randomized controlled trial' instead of 'no independent human trial'; the grade stays D. Worth adding to the Pocket Guide's Leuphasyl entry."
  ],
  "consideredNotUsed": [
   {
@@ -1195,6 +1182,42 @@
    "grade": "context",
    "gradeNote": "wound-biology review",
    "reason": "wound-healing biology review; no module 04 moment teaches growth-factor biology (belongs with module 01 if anywhere)"
+  },
+  {
+   "id": "nct07437586-ghk-cu-wound-gel",
+   "lesson": "m04-l1",
+   "title": "Topical GHK-Cu Gel for Acute Skin Wound Healing",
+   "authors": "Hudson Biotech (sponsor)",
+   "publication": "ClinicalTrials.gov NCT07437586 · phase 2 · recruiting · est. n=60",
+   "year": 2026,
+   "url": "https://clinicaltrials.gov/study/NCT07437586",
+   "sourceType": "trial-registration",
+   "design": "registered phase 2",
+   "independence": "industry",
+   "role": "status: a controlled topical trial is under way, results none",
+   "guideGrade": "—",
+   "note": "checked via CT.gov API 2026-09-22",
+   "grade": "—",
+   "gradeNote": "registered, recruiting, no results",
+   "reason": "Sponsor 'Hudson Biotech' also registers a '(Mock Study)', an 'example interventional study record' and a copy of the SURMOUNT-1 title (checked 2026-09-24); authenticity unconfirmed, so not cited as a real trial."
+  },
+  {
+   "id": "nct07437547-bpc157-hamstring",
+   "lesson": "m04-l3",
+   "title": "BPC 157 for Acute Hamstring Muscle Strain Repair",
+   "authors": "Hudson Biotech (sponsor)",
+   "publication": "ClinicalTrials.gov NCT07437547 · phase 2 · randomized · n=120 · recruiting (start 2026-02)",
+   "year": 2026,
+   "url": "https://clinicaltrials.gov/study/NCT07437547",
+   "sourceType": "trial-registration",
+   "design": "registered RCT",
+   "independence": "industry",
+   "role": "status: first randomized human trials registered; no results",
+   "guideGrade": "—",
+   "note": "CT.gov API 2026-09-22",
+   "grade": "—",
+   "gradeNote": "registered RCT, recruiting, no results",
+   "reason": "Sponsor 'Hudson Biotech' also registers a '(Mock Study)', an 'example interventional study record' and a copy of the SURMOUNT-1 title (checked 2026-09-24); authenticity unconfirmed, so not cited as a real trial."
   }
  ]
 }

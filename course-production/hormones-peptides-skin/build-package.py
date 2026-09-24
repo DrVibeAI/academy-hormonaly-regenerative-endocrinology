@@ -11,7 +11,7 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent.parent
-TODAY = "2026-09-22"
+TODAY = "2026-09-24"
 handoff = json.loads((HERE / "intake-handoff" / "source-map.json").read_text())
 outline = handoff["outline"]
 
@@ -243,7 +243,7 @@ pkg = {
     "id": "hormonaly.hormones-peptides-skin",
     "slug": "hormones-peptides-skin",
     "kind": "course",
-    "version": "0.2.0-m04-draft",
+    "version": "0.3.0-full-draft",
     "title": {"en": "Hormones and Peptides for Skin"},
     "summary": {"en": outline["summary"]},
     "academy": {
@@ -322,14 +322,15 @@ pkg = {
         "approvals": [a["approval"] for a in AUTHORED.values() if a.get("approval")],
         "accreditation": {
             "body": "GCLS", "status": "not_submitted",
-            "notes": "Designed toward future CME accreditation (Omar 2026-09-21; pathway confirmed 2026-09-24: CME to be sought through SEASON and its accredited joint-providership partner). CME-style measurable objectives, independence from commercial bias, disclosure of financial relationships. No CME/CE credit is claimed until that approval exists. GCLS accreditation add-on decision still pending from intake.",
+            "notes": "Designed toward future CME accreditation (Omar 2026-09-21; pathway confirmed 2026-09-24: CME to be sought through SEASON and its accredited joint-providership partner). CME-style measurable objectives, independence from commercial bias, disclosure of financial relationships. No CME/CE credit is claimed until that approval exists. GCLS accreditation: add-on licensed (Omar, 2026-09-24); the course goes to the GCLS review room after medical review of every module. The certificate is GCLS-issued only once GCLS accredits.",
         },
     },
     "distribution": {"targets": [{"platform": "academy-app", "notes": "Hormonaly Academy tenant until SEASON's brand kit arrives; a SEASON-branded edition shares this package (one evidence core, editions per academy)."}]},
     "metadata": {
         "generator": "course-production/hormones-peptides-skin/build-package.py",
+        "pendingReview": [{"gate": "medical_review", "module": mid, "status": AUTHORED[mid].get("status", "ai_draft"), "owner": "Fady Hannah-Shmouni, MD FRCPC"} for mid in sorted(AUTHORED) if not AUTHORED[mid].get("approval")],
         "generatedAt": TODAY,
-        "factory": "perceptor-foundry (main) · stage 20 skeleton + stage 30 module 04 (pilot) ai_draft",
+        "factory": "perceptor-foundry · stage 30 authored, all seven modules (m04 medically approved; m01–m03, m05–m07 ai_draft awaiting medical review)",
         "template": "blended-certification (phone-first delivery, certification-grade checks; unit rendering decided at authoring — the runtime renders one story per module today)",
         "variants": {
             "dimensions": ["audienceLevel"],
