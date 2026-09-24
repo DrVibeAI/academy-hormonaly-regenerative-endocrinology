@@ -1,4 +1,4 @@
-# Coverage map — Hormones and Peptides for Skin (stage 20 · 2026-09-22)
+# Coverage map — Hormones and Peptides for Skin (stage 20 · 2026-09-22 · module 04 authored 2026-09-24)
 
 Generated view of `packages/hormones-peptides-skin.json` (built by `build-package.py` from the approved intake plan
 `skin-outline-20260921-v2`). The skeleton is architecture only: 7 modules × 3 lesson units, each unit holding one
@@ -38,6 +38,10 @@ output (COA + marketing-sheet appraisal, module 07 pattern). Agent pre-grade, th
 - Pillars taught by no module: **0** 
 - Pillars with no assessment plan: **0** 
 
+**Module 04 is authored** (stage 30, `ai_draft`, 2026-09-24): one story unit, three lessons, 19 moments, 4 exercises (classify,
+quickfire, scenario, chips), role router + three role versions on four moments, module check. Content source:
+`authored/m04.json`; readable draft: `review/m04-draft.md`; literature: `citations/m04.md` (51 sources, 20 claims, all graded).
+
 Every module objective traces to sections of the two locked guides. The guides are single-author secondary sources, so the
 lock also requires a primary or guideline citation for each clinical statement before authoring; those citations are not yet
 in `provenance.citations[]` (only the two guides are). Module 04 has three ungraded candidate sets under
@@ -59,6 +63,6 @@ advisor; see `metadata.variants`); literature grader = Omar / Perceptors; final 
 4. Unit rendering at authoring: the runtime renders one story per module today, so the three lesson units may be authored as
    one resumable story with three labelled lessons (the Cenegenics Corporate Longevity pattern) — an authoring choice, not a
    curriculum change.
-5. Two content gaps surfaced by the competitor comparison (`competitive-landscape.md`): **oral collagen peptides** (A&RE ch.15 rates
+5. ~~Two content gaps surfaced by the competitor comparison~~ — adopted 2026-09-24 and authored in module 04: (`competitive-landscape.md`): **oral collagen peptides** (A&RE ch.15 rates
    them GRADE C on a randomized trial, Kim 2018; every competitor "skin" module covers them; ours does not) and **SNAP-8 / acetyl
    octapeptide-3** (the Argireline successor named in A4M's syllabus; add to m04-l2 scope). Both are additions to scope, not new modules.

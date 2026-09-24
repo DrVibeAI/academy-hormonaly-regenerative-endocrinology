@@ -61,9 +61,11 @@ for f in sorted((HERE / "citations").glob("*.json")):
         entry = {k: c[k] for k in CITATION_FIELDS if k in c}
         entry["note"] = {"en": f"{c.get('design','')} · {c.get('independence','')} · role: {c.get('role','')}" + (f" · PMID {c['pmid']}" if c.get("pmid") else "") + (f" · {c['note']}" if c.get("note") else "")}
         CITATIONS.append(entry)
+AUTHORED = {f.stem: json.loads(f.read_text()) for f in sorted((HERE / "authored").glob("*.json"))}
+CLAIM_LOCATIONS = {k: v for a in AUTHORED.values() for k, v in a.get("claimLocations", {}).items()}
 CLAIMS = [
     {"id": cl["id"], "text": cl["text"], "citationRefs": cl["citationRefs"], "status": cl["status"],
-     "locations": [cl["unit"]], "reviewNote": (cl.get("reviewNote") or "") + f" · grader: {reg['grader']}"}
+     "locations": CLAIM_LOCATIONS.get(cl["id"], [cl["unit"]]), "reviewNote": (cl.get("reviewNote") or "") + f" · grader: {reg['grader']}"}
     for reg in LIT.values() for cl in reg["claims"]
 ]
 
@@ -148,20 +150,35 @@ for i, m in enumerate(outline["modules"], 1):
                 "blockRhythm": "hook → concept → evidence (GRADE + primary citation) → nuance (regulatory status by jurisdiction, safety signals) → adjustment (what this changes in practice) → your-turn (check)",
             },
         })
+    authored = AUTHORED.get(mid)
+    if authored:
+        # Stage 30: the runtime reads units[0] of each module, so an authored module ships as one story unit
+        # carrying its three lessons (the Cenegenics Corporate Longevity pattern); lesson grouping lives in metadata.lessons.
+        story = dict(authored["unit"])
+        story["learningObjectives"] = [u["learningObjectives"][0] for u in units]
+        story["citationRefs"] = sorted({r for b in authored["blocks"] for r in b.get("citationRefs", [])}
+                                       | {r for b in authored["blocks"] for r in (b.get("interaction") or {}).get("citationRefs", [])}
+                                       | {r for b in authored["blocks"] for r in (b.get("quiz") or {}).get("citationRefs", [])})
+        story["blocks"] = authored["blocks"]
+        story["metadata"] = {"lessons": authored["lessons"], "audienceLevelPanes": authored.get("audienceLevelPanes", []),
+                             "authoredAt": authored["authoredAt"], "source": f"course-production/hormones-peptides-skin/authored/{mid}.json"}
+        units = [story]
     modules.append({
         "id": mid,
         "slug": SLUGS[m["id"]],
         "title": {"en": m["title"]},
-        "eyebrow": {"en": f"Module {i:02d} · {len(units)} lessons · ~{LESSON_MIN*len(units)+CHECK_MIN} min"},
+        "eyebrow": {"en": (f"Module {i:02d} · 3 lessons · {len(authored['blocks'])} moments · ~{authored['unit']['estimatedMinutes']} min"
+                           if authored else f"Module {i:02d} · {len(units)} lessons · ~{LESSON_MIN*len(units)+CHECK_MIN} min")},
         "summary": {"en": m["scope"]},
         "objective": {"en": learner_objective(m["objective"])},
         "pillars": MODULE_PILLARS[m["id"]],
-        "estimatedMinutes": LESSON_MIN * len(units) + CHECK_MIN,
+        "estimatedMinutes": (authored["unit"]["estimatedMinutes"] + CHECK_MIN) if authored else LESSON_MIN * len(units) + CHECK_MIN,
         "sortOrder": i,
         "prerequisites": PREREQS.get(m["id"], []),
         "isCapstone": False,
         "status": "ai_draft",
         "units": units,
+        **({"check": authored["check"]} if authored else {}),
         "metadata": {
             "intakePlanModuleId": m["id"],
             "sourceSections": [
@@ -169,6 +186,7 @@ for i, m in enumerate(outline["modules"], 1):
                 for r in m["sourceRefs"]
             ],
             "assessmentPlan": m["assessment"],
+            **({"lessons": authored["lessons"]} if authored else {}),
             **({"literature": {
                 "registry": f"course-production/hormones-peptides-skin/citations/{mid}.json",
                 "worksheet": f"course-production/hormones-peptides-skin/citations/{mid}.md",
@@ -210,7 +228,7 @@ pkg = {
     "id": "hormonaly.hormones-peptides-skin",
     "slug": "hormones-peptides-skin",
     "kind": "course",
-    "version": "0.1.0-curriculum",
+    "version": "0.2.0-m04-draft",
     "title": {"en": "Hormones and Peptides for Skin"},
     "summary": {"en": outline["summary"]},
     "academy": {
@@ -294,7 +312,7 @@ pkg = {
     "metadata": {
         "generator": "course-production/hormones-peptides-skin/build-package.py",
         "generatedAt": TODAY,
-        "factory": "perceptor-foundry (main) · stage 20 curriculum skeleton",
+        "factory": "perceptor-foundry (main) · stage 20 skeleton + stage 30 module 04 (pilot) ai_draft",
         "template": "blended-certification (phone-first delivery, certification-grade checks; unit rendering decided at authoring — the runtime renders one story per module today)",
         "variants": {
             "dimensions": ["audienceLevel"],

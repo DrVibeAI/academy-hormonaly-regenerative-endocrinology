@@ -346,24 +346,6 @@
    "gradeNote": "safety-assessment framework"
   },
   {
-   "id": "barrientos-2008-wound-healing",
-   "lesson": "m04-l3",
-   "title": "Growth factors and cytokines in wound healing",
-   "authors": "Barrientos S, Stojadinovic O, Golinko MS, Brem H, Tomic-Canic M",
-   "publication": "Wound Repair Regen · 2008;16:585–601",
-   "year": 2008,
-   "url": "https://pubmed.ncbi.nlm.nih.gov/19128254/",
-   "sourceType": "review",
-   "pmid": "19128254",
-   "design": "review (NIH-supported)",
-   "independence": "academic",
-   "role": "A&RE ch.5 ref 12 — wound-healing biology baseline",
-   "guideGrade": "—",
-   "note": "resolved by title",
-   "grade": "context",
-   "gradeNote": "wound-biology review"
-  },
-  {
    "id": "sikiric-1993-bpc",
    "lesson": "m04-l3",
    "title": "A new gastric juice peptide, BPC. An overview of the stomach-stress-organoprotection hypothesis and beneficial effects of BPC",
@@ -877,6 +859,40 @@
    "note": "",
    "grade": "D",
    "gradeNote": "uncontrolled, combination product"
+  },
+  {
+   "id": "nct02637284-bpc157-phase1-2015",
+   "lesson": "m04-l3",
+   "title": "PCO-02 — Safety and Pharmacokinetics Trial (phase I pilot in healthy volunteers; active ingredient BPC-157)",
+   "authors": "PharmaCotherapia d.o.o. (sponsor)",
+   "publication": "ClinicalTrials.gov NCT02637284 · phase 1 · placebo-controlled · est. n=42 · start 2015-10 · status unknown, last update 2015, no results posted",
+   "year": 2015,
+   "url": "https://clinicaltrials.gov/study/NCT02637284",
+   "sourceType": "trial-registration",
+   "design": "registered phase 1 safety/PK",
+   "independence": "industry (originator-linked)",
+   "role": "the only earlier human registration — never reported",
+   "guideGrade": "—",
+   "note": "cited in the June Pocket Guide build; CT.gov API 2026-09-24",
+   "grade": "context",
+   "gradeNote": "registration without results"
+  },
+  {
+   "id": "nct07752381-bpc157-gummy-2025",
+   "lesson": "m04-l3",
+   "title": "A Clinical Trial to Evaluate the Effects of Peptide Gummies on Markers of Inflammation, Physical Performance, and Recovery",
+   "authors": "Parlay Wellness (sponsor)",
+   "publication": "ClinicalTrials.gov NCT07752381 · single-arm, no control · n=40 · completed 2025 · no results posted",
+   "year": 2025,
+   "url": "https://clinicaltrials.gov/study/NCT07752381",
+   "sourceType": "trial-registration",
+   "design": "uncontrolled product study",
+   "independence": "commercial product sponsor",
+   "role": "shows that 'clinical trial' in marketing can mean an uncontrolled product study",
+   "guideGrade": "—",
+   "note": "CT.gov API 2026-09-24; product dose deliberately not reproduced (lock excludes dosing)",
+   "grade": "context",
+   "gradeNote": "uncontrolled, no results"
   }
  ],
  "claims": [
@@ -1011,15 +1027,17 @@
   {
    "id": "c-m04-11",
    "unit": "m04-l3",
-   "text": "BPC-157 evidence is an extensive rodent literature, largely from one research group; human data are uncontrolled case series; the first randomized human trials were registered in 2026 and have no results.",
+   "text": "BPC-157 evidence is an extensive rodent literature, largely from one research group, plus uncontrolled human case series. No randomized efficacy trial in people has been published: a 2015 phase 1 safety study and a 2025 single-arm product study posted no results, and the first efficacy RCTs were registered in 2026.",
    "citationRefs": [
-    "sikiric-2018-bpc157-vascular-recruitment",
-    "seiwerth-2021-bpc157-wound-healing",
     "lee-2021-bpc157-knee",
-    "mcguire-2025-bpc157-regeneration-or-risk",
     "mayfield-2026-injectable-peptide-primer",
+    "mcguire-2025-bpc157-regeneration-or-risk",
+    "nct02637284-bpc157-phase1-2015",
     "nct07437547-bpc157-hamstring",
-    "nct07803250-bpc157-rotator-cuff"
+    "nct07752381-bpc157-gummy-2025",
+    "nct07803250-bpc157-rotator-cuff",
+    "seiwerth-2021-bpc157-wound-healing",
+    "sikiric-2018-bpc157-vascular-recruitment"
    ],
    "status": "verified",
    "reviewNote": "guides rate C (A&RE) — Omar to confirm; two independent 2025–26 reviews now exist",
@@ -1157,5 +1175,26 @@
   "Oral collagen — Myung & Park 2025 (Am J Med, 23 RCTs) find the benefit only in pharmaceutical-funded and low-quality trials; the author may wish to revisit A&RE's GRADE C.",
   "SNAP-8 is in neither guide; the course adds it from the literature (Errante 2020 review; two combination-product studies).",
   "Not in either guide, worth adding — Miller 2006 (the one indexed RCT of topical GHK-Cu), Aruan 2023 (independent RCT, Argireline vs pal-KTTKS), Esposito 2012 (TB-500 characterized as the Tβ4 17–23 fragment), the two 2026 BPC-157 trial registrations, and the two independent 2025–26 BPC-157 reviews."
+ ],
+ "consideredNotUsed": [
+  {
+   "id": "barrientos-2008-wound-healing",
+   "lesson": "m04-l3",
+   "title": "Growth factors and cytokines in wound healing",
+   "authors": "Barrientos S, Stojadinovic O, Golinko MS, Brem H, Tomic-Canic M",
+   "publication": "Wound Repair Regen · 2008;16:585–601",
+   "year": 2008,
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19128254/",
+   "sourceType": "review",
+   "pmid": "19128254",
+   "design": "review (NIH-supported)",
+   "independence": "academic",
+   "role": "A&RE ch.5 ref 12 — wound-healing biology baseline",
+   "guideGrade": "—",
+   "note": "resolved by title",
+   "grade": "context",
+   "gradeNote": "wound-biology review",
+   "reason": "wound-healing biology review; no module 04 moment teaches growth-factor biology (belongs with module 01 if anywhere)"
+  }
  ]
 }
