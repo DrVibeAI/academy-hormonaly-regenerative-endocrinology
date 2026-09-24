@@ -62,7 +62,7 @@ GRADE names the ways a body of evidence can mislead. Read the four you will use 
 - Topical GHK-Cu: the only indexed trial measured healing after laser resurfacing. Your patient asks about photoageing. → **Indirectness** — *Indirectness. The trial's outcome, healing after resurfacing, is a neighbour of your patient's question, photoageing, so it answers a different question.*
 - LL-37 in venous leg ulcers: a 34-person trial was positive; a 148-person multicentre trial was negative in its full cohort. → **Inconsistency** — *Inconsistency. Two randomized trials of the same question point in different directions, and the larger one found no effect overall.*
 - Oral collagen: the pooled benefit disappears when only high-quality trials are kept. → **Risk of bias** — *Risk of bias. When low- and high-quality trials disagree, GRADE gives the high-quality ones the weight, and here they show no effect.*
-- BPC-157 for skin healing: the wound data come from rodent models. → **Indirectness** — *Indirectness. The population is rodents and your question is about people, as indirect as evidence gets.*
+- BPC-157 for skin healing: the wound data come from animal models, mostly rodents. → **Indirectness** — *Indirectness. The population is animals and your question is about people, as indirect as evidence gets.*
 
 <sub>Sources: Guyatt G 2025 · Guyatt G 2025 · Guyatt G 2025 · Guyatt G 2025 · Miller TR 2006 · Grönberg A 2014 · Mahlapuu M 2021 · Myung SK 2025 · Seiwerth S 2021</sub>
 

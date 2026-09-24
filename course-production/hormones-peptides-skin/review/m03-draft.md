@@ -126,7 +126,7 @@ After a meal, the gut releases two hormones called incretins, GLP-1 and GIP. Bot
 
 </details>
 
-<sub>Sources: Drucker DJ 2018 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Novo Nordisk (Ozempic prescribing information) 2026 · Eli Lilly (Mounjaro prescribing information) 2026</sub>
+<sub>Sources: Drucker DJ 2018 · Eli Lilly (Mounjaro prescribing information) 2026 · Novo Nordisk (Ozempic prescribing information) 2026 · Novo Nordisk (Wegovy prescribing information) 2026 · Eli Lilly (Zepbound prescribing information) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026</sub>
 
 ### 09 / 20 · Approved for what, exactly?  
 *Regulatory status · tool*
@@ -242,7 +242,7 @@ One question to close lesson 3.2.
 ### 15 / 20 · Inflammation that comes with age.  
 *Lesson 3.3 · Concept · audio*
 
-Inflammaging is the chronic, low-grade, sterile inflammation that rises with age. In older adults, higher IL-6 and CRP predict frailty and death. One proposed source is the gut. In mice, a high-fat diet raises circulating bacterial lipopolysaccharide, and infusing it reproduces weight gain and insulin resistance. In 12 healthy men, a single high-fat meal raised plasma endotoxin by about half within four hours. Whether a leaky gut drives skin disease in people has not been shown.
+Inflammaging is the chronic, low-grade, sterile inflammation that rises with age. In older adults, higher IL-6 and CRP predict frailty and death. One proposed source is the gut. In mice, a high-fat diet raises circulating bacterial lipopolysaccharide, and infusing it reproduces weight gain and insulin resistance. In 12 healthy men, a single high-fat meal raised plasma endotoxin within four hours. Whether a leaky gut drives skin disease in people has not been shown.
 
 - Inflammaging: low-grade, sterile, age-related
 - Metabolic endotoxaemia: gut bacterial LPS in the blood
@@ -250,7 +250,7 @@ Inflammaging is the chronic, low-grade, sterile inflammation that rises with age
 
 <details><summary>Narration script</summary>
 
-Ageing brings a slow rise in background inflammation, called inflammaging. It is low-grade and sterile, and in older adults higher IL-6 and C-reactive protein predict frailty, disability and death. One proposed source is the gut. In mice, a high-fat diet raises bacterial lipopolysaccharide in the blood, and infusing that endotoxin reproduces weight gain and insulin resistance. In twelve healthy men, a single high-fat meal raised plasma endotoxin by about half within four hours. That is the mechanism usually called metabolic endotoxaemia, or leaky gut. The human evidence stops short of the skin. Measuring gut permeability is difficult, and a leading review concludes that it is still unproven whether restoring the barrier improves disease outside the gut. Hold that line as you look at what patients are sold.
+Ageing brings a slow rise in background inflammation, called inflammaging. It is low-grade and sterile, and in older adults higher IL-6 and C-reactive protein predict frailty, disability and death. One proposed source is the gut. In mice, a high-fat diet raises bacterial lipopolysaccharide in the blood, and infusing that endotoxin reproduces weight gain and insulin resistance. In twelve healthy men, a single high-fat meal raised plasma endotoxin within four hours. That is the mechanism usually called metabolic endotoxaemia, or leaky gut. The human evidence stops short of the skin. Measuring gut permeability is difficult, and a leading review concludes that it is still unproven whether restoring the barrier improves disease outside the gut. Hold that line as you look at what patients are sold.
 
 </details>
 

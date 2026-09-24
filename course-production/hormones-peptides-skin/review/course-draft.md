@@ -3,7 +3,7 @@
 *Generated 2026-09-24 · 7 modules*
 
 | Module | Title | Moments | Time | Sources | Claims | Status |
-|---|---|---:|---|---:|---:|---|
+|--------|--------------------------------|---------:|--------|--------:|-------:|----------|
 | m01 | The skin as an endocrine organ, and how it ages · three lessons | 19 | ~25 min | 34 | 20 | ai_draft |
 | m02 | Systemic hormones and the skin · three lessons | 19 | ~26 min | 33 | 20 | ai_draft |
 | m03 | Fat, incretins and the ageing face · three lessons | 20 | ~27 min | 51 | 20 | ai_draft |
@@ -11,6 +11,26 @@
 | m05 | Follicle, pigment and melanocortins · three lessons | 19 | ~26 min | 34 | 20 | ai_draft |
 | m06 | The growth-hormone axis and the skin · three lessons | 19 | ~26 min | 38 | 19 | ai_draft |
 | m07 | Evidence, regulation and compliance · three lessons | 20 | ~27 min | 37 | 20 | ai_draft |
+
+## What we need from you
+
+1. **Medical review of modules m01, m02, m03, m05, m06, m07** (status: AI draft, every claim verified against its source). Approve, or mark the moments to change.
+2. **Confirm the changes made since approval or flagged by the source check** (listed below; m04 was approved before them).
+3. **Confirm the grading-rule addition** marked "added" in the rule below.
+
+### Changes since approval, and corrections from the source check
+
+- **m01** · m1-p15, m1-p18, tutor-m01-senescence (2026-09-24) — The automated source check, which matches every cited sentence against the source's own text, contradicted two statements. Both are corrected. (1) Baker 2016 did measure skin: thickness, fibrosis and wound closure as safety checks, and clearance during healing slowed wound closure, so the course no longer says skin was not an endpoint. (2) Chung 2019 topical rapamycin was an exploratory randomized trial with clinical appearance described qualitatively. The course now says no adequately sized trial with clinical skin-ageing outcomes was found, and keeps 'no randomized senolytic trial' where the statement is about senolytics.
+- **m03** · m3-p08, m3-p15 (2026-09-24) — From the automated source check: the approvals moment now also cites the Wegovy and Zepbound labels; 'by about half' removed from the high-fat-meal endotoxin sentence (the abstract gives no size).
+- **m04** · m4-p14 (2026-09-24) — Named the single randomized BPC-157 trial FDA's July 2026 briefing identified (Ruenzi 2005, ulcerative colitis, meeting abstract only, no significant difference from placebo); title, body and stat wording updated; figure unchanged. Source: FDA PCAC briefing document (fda.gov/media/193343), read in full.
+- **m04** · m4-p04, m4-p14 (2026-09-24) — Removed two ClinicalTrials.gov records (NCT07437586 GHK-Cu wound gel; NCT07437547 BPC-157 hamstring) that the draft had cited as recruiting phase 2 trials. Their sponsor, 'Hudson Biotech', also holds a record titled '(Mock Study)', a record whose summary calls itself an 'example interventional study record', and a record re-using the SURMOUNT-1 title; their authenticity cannot be confirmed. The 'phase 2 recruiting' sentence on GHK-Cu is deleted; the BPC-157 list now names only the 2015 PharmaCotherapia phase 1, the 2025 Parlay Wellness product study and the 2026 University of Arkansas phase 1 (start 2027).
+- **m04** · m4-p09 (classify) (2026-09-24) — Leuphasyl: 'no independent or indexed human trial' corrected to 'no randomized trial'. An independent uncontrolled volunteer study exists (Dragomirescu 2014). The classify label 'Manufacturer data only' became 'No randomized trial'; grades unchanged. Found by the automated source check.
+- **m05** · m5-check (2026-09-24) — Module check now cites both 1990s Melanotan II studies (Dorr 1996, Wessells 1998).
+- **m07** · m7-p04 (2026-09-24) — 'rodent models' → 'animal models, mostly rodents' (the cited review also reports pig studies).
+
+### Grading rule (applies to every module)
+
+Grade = certainty the source gives for the specific clinical statement the lesson makes, on the guides' A–D scale. A: consistent large RCTs or approval-grade evidence. B: at least one well-designed, adequately powered RCT or an independent, quality-stratified meta-analysis (either direction). C: small or sponsor-funded RCTs without independent replication, or pooled trials dominated by them. D: animal, in-vitro, mechanistic, case series, manufacturer dossiers. 'context' = history, reviews used for framing, trial registrations without results, analytical or regulatory records (regulatory records are primary for status statements, not graded for efficacy). Where the two guides disagree, the lesson states both and the claim takes the grade the primary evidence supports. Observational studies (added 2026-09-24, GRADE starting point, for the final reviewer to confirm): adequately sized cohort, case-control or cross-sectional studies grade C for the association they measured; small or single-centre ones grade D; any causal claim drawn from observational data grades D. Meta-analyses of observational studies grade at most B, and only for association. Guidelines and consensus statements are 'context', cited for what they recommend, not graded as evidence.
 
 ## Findings for the author (all modules)
 
@@ -902,7 +922,7 @@ After a meal, the gut releases two hormones called incretins, GLP-1 and GIP. Bot
 
 </details>
 
-<sub>Sources: Drucker DJ 2018 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Novo Nordisk (Ozempic prescribing information) 2026 · Eli Lilly (Mounjaro prescribing information) 2026</sub>
+<sub>Sources: Drucker DJ 2018 · Eli Lilly (Mounjaro prescribing information) 2026 · Novo Nordisk (Ozempic prescribing information) 2026 · Novo Nordisk (Wegovy prescribing information) 2026 · Eli Lilly (Zepbound prescribing information) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026</sub>
 
 ### 09 / 20 · Approved for what, exactly?  
 *Regulatory status · tool*
@@ -1018,7 +1038,7 @@ One question to close lesson 3.2.
 ### 15 / 20 · Inflammation that comes with age.  
 *Lesson 3.3 · Concept · audio*
 
-Inflammaging is the chronic, low-grade, sterile inflammation that rises with age. In older adults, higher IL-6 and CRP predict frailty and death. One proposed source is the gut. In mice, a high-fat diet raises circulating bacterial lipopolysaccharide, and infusing it reproduces weight gain and insulin resistance. In 12 healthy men, a single high-fat meal raised plasma endotoxin by about half within four hours. Whether a leaky gut drives skin disease in people has not been shown.
+Inflammaging is the chronic, low-grade, sterile inflammation that rises with age. In older adults, higher IL-6 and CRP predict frailty and death. One proposed source is the gut. In mice, a high-fat diet raises circulating bacterial lipopolysaccharide, and infusing it reproduces weight gain and insulin resistance. In 12 healthy men, a single high-fat meal raised plasma endotoxin within four hours. Whether a leaky gut drives skin disease in people has not been shown.
 
 - Inflammaging: low-grade, sterile, age-related
 - Metabolic endotoxaemia: gut bacterial LPS in the blood
@@ -1026,7 +1046,7 @@ Inflammaging is the chronic, low-grade, sterile inflammation that rises with age
 
 <details><summary>Narration script</summary>
 
-Ageing brings a slow rise in background inflammation, called inflammaging. It is low-grade and sterile, and in older adults higher IL-6 and C-reactive protein predict frailty, disability and death. One proposed source is the gut. In mice, a high-fat diet raises bacterial lipopolysaccharide in the blood, and infusing that endotoxin reproduces weight gain and insulin resistance. In twelve healthy men, a single high-fat meal raised plasma endotoxin by about half within four hours. That is the mechanism usually called metabolic endotoxaemia, or leaky gut. The human evidence stops short of the skin. Measuring gut permeability is difficult, and a leading review concludes that it is still unproven whether restoring the barrier improves disease outside the gut. Hold that line as you look at what patients are sold.
+Ageing brings a slow rise in background inflammation, called inflammaging. It is low-grade and sterile, and in older adults higher IL-6 and C-reactive protein predict frailty, disability and death. One proposed source is the gut. In mice, a high-fat diet raises bacterial lipopolysaccharide in the blood, and infusing that endotoxin reproduces weight gain and insulin resistance. In twelve healthy men, a single high-fat meal raised plasma endotoxin within four hours. That is the mechanism usually called metabolic endotoxaemia, or leaky gut. The human evidence stops short of the skin. Measuring gut permeability is difficult, and a leading review concludes that it is still unproven whether restoring the barrier improves disease outside the gut. Hold that line as you look at what patients are sold.
 
 </details>
 
@@ -2207,7 +2227,7 @@ GRADE names the ways a body of evidence can mislead. Read the four you will use 
 - Topical GHK-Cu: the only indexed trial measured healing after laser resurfacing. Your patient asks about photoageing. → **Indirectness** — *Indirectness. The trial's outcome, healing after resurfacing, is a neighbour of your patient's question, photoageing, so it answers a different question.*
 - LL-37 in venous leg ulcers: a 34-person trial was positive; a 148-person multicentre trial was negative in its full cohort. → **Inconsistency** — *Inconsistency. Two randomized trials of the same question point in different directions, and the larger one found no effect overall.*
 - Oral collagen: the pooled benefit disappears when only high-quality trials are kept. → **Risk of bias** — *Risk of bias. When low- and high-quality trials disagree, GRADE gives the high-quality ones the weight, and here they show no effect.*
-- BPC-157 for skin healing: the wound data come from rodent models. → **Indirectness** — *Indirectness. The population is rodents and your question is about people, as indirect as evidence gets.*
+- BPC-157 for skin healing: the wound data come from animal models, mostly rodents. → **Indirectness** — *Indirectness. The population is animals and your question is about people, as indirect as evidence gets.*
 
 <sub>Sources: Guyatt G 2025 · Guyatt G 2025 · Guyatt G 2025 · Guyatt G 2025 · Miller TR 2006 · Grönberg A 2014 · Mahlapuu M 2021 · Myung SK 2025 · Seiwerth S 2021</sub>
 

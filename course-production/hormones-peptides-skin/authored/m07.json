@@ -358,11 +358,11 @@
      {
       "id": "bpc157-rodent",
       "label": {
-       "en": "BPC-157 for skin healing: the wound data come from rodent models."
+       "en": "BPC-157 for skin healing: the wound data come from animal models, mostly rodents."
       },
       "answer": "indirectness",
       "why": {
-       "en": "Indirectness. The population is rodents and your question is about people, as indirect as evidence gets."
+       "en": "Indirectness. The population is animals and your question is about people, as indirect as evidence gets."
       }
      }
     ],
@@ -1950,6 +1950,13 @@
     "fda-off-label-page"
    ],
    "scope": "m07"
+  }
+ ],
+ "reviewNotes": [
+  {
+   "date": "2026-09-24",
+   "blocks": "m7-p04",
+   "change": "'rodent models' → 'animal models, mostly rodents' (the cited review also reports pig studies)."
   }
  ]
 }

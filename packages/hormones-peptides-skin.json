@@ -9612,10 +9612,12 @@
                 ],
                 "citationRefs": [
                   "drucker-2018-glp1-mechanisms",
-                  "hannah-shmouni-2026-are",
-                  "hannah-shmouni-2026-ppg-aug",
+                  "fda-label-mounjaro-2026",
                   "fda-label-ozempic-2026",
-                  "fda-label-mounjaro-2026"
+                  "fda-label-wegovy-2026",
+                  "fda-label-zepbound-2026",
+                  "hannah-shmouni-2026-are",
+                  "hannah-shmouni-2026-ppg-aug"
                 ],
                 "sourceNote": "Drucker 2018 · Aesthetic & Regenerative Endocrinology, ch. 12 · Peptide Pocket Guide · US labels",
                 "audioBeats": [
@@ -10141,7 +10143,7 @@
                   "en": "Inflammation that comes with age."
                 },
                 "body": {
-                  "en": "Inflammaging is the chronic, low-grade, sterile inflammation that rises with age. In older adults, higher IL-6 and CRP predict frailty and death. One proposed source is the gut. In mice, a high-fat diet raises circulating bacterial lipopolysaccharide, and infusing it reproduces weight gain and insulin resistance. In 12 healthy men, a single high-fat meal raised plasma endotoxin by about half within four hours. Whether a leaky gut drives skin disease in people has not been shown."
+                  "en": "Inflammaging is the chronic, low-grade, sterile inflammation that rises with age. In older adults, higher IL-6 and CRP predict frailty and death. One proposed source is the gut. In mice, a high-fat diet raises circulating bacterial lipopolysaccharide, and infusing it reproduces weight gain and insulin resistance. In 12 healthy men, a single high-fat meal raised plasma endotoxin within four hours. Whether a leaky gut drives skin disease in people has not been shown."
                 },
                 "points": [
                   {
@@ -10191,7 +10193,7 @@
                 ],
                 "metadata": {
                   "audioScript": {
-                    "en": "Ageing brings a slow rise in background inflammation, called inflammaging. It is low-grade and sterile, and in older adults higher IL-6 and C-reactive protein predict frailty, disability and death. One proposed source is the gut. In mice, a high-fat diet raises bacterial lipopolysaccharide in the blood, and infusing that endotoxin reproduces weight gain and insulin resistance. In twelve healthy men, a single high-fat meal raised plasma endotoxin by about half within four hours. That is the mechanism usually called metabolic endotoxaemia, or leaky gut. The human evidence stops short of the skin. Measuring gut permeability is difficult, and a leading review concludes that it is still unproven whether restoring the barrier improves disease outside the gut. Hold that line as you look at what patients are sold."
+                    "en": "Ageing brings a slow rise in background inflammation, called inflammaging. It is low-grade and sterile, and in older adults higher IL-6 and C-reactive protein predict frailty, disability and death. One proposed source is the gut. In mice, a high-fat diet raises bacterial lipopolysaccharide in the blood, and infusing that endotoxin reproduces weight gain and insulin resistance. In twelve healthy men, a single high-fat meal raised plasma endotoxin within four hours. That is the mechanism usually called metabolic endotoxaemia, or leaky gut. The human evidence stops short of the skin. Measuring gut permeability is difficult, and a leading review concludes that it is still unproven whether restoring the barrier improves disease outside the gut. Hold that line as you look at what patients are sold."
                   }
                 }
               },
@@ -14387,12 +14389,13 @@
             "en": "Mechanism, human evidence, regulatory status, open question: four answers, never one sentence."
           },
           "citationRefs": [
-            "dorr-1996-melanotan-ii-pilot",
             "bohm-2025-mc1r-activation-review",
+            "dorr-1996-melanotan-ii-pilot",
             "fda-503a-category2-safety-risks-page",
+            "habbema-2017-msh-analogue-risks",
             "mhra-foi-24-274-melanotan-ii",
             "tga-2026-melanotan-ii-safety-advisory",
-            "habbema-2017-msh-analogue-risks"
+            "wessells-1998-melanotan-ii-ed"
           ]
         },
         "metadata": {
@@ -16860,11 +16863,11 @@
                     {
                       "id": "bpc157-rodent",
                       "label": {
-                        "en": "BPC-157 for skin healing: the wound data come from rodent models."
+                        "en": "BPC-157 for skin healing: the wound data come from animal models, mostly rodents."
                       },
                       "answer": "indirectness",
                       "why": {
-                        "en": "Indirectness. The population is rodents and your question is about people, as indirect as evidence gets."
+                        "en": "Indirectness. The population is animals and your question is about people, as indirect as evidence gets."
                       }
                     }
                   ],

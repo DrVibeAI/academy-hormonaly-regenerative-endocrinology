@@ -1614,12 +1614,13 @@
    "en": "Mechanism, human evidence, regulatory status, open question: four answers, never one sentence."
   },
   "citationRefs": [
-   "dorr-1996-melanotan-ii-pilot",
    "bohm-2025-mc1r-activation-review",
+   "dorr-1996-melanotan-ii-pilot",
    "fda-503a-category2-safety-risks-page",
+   "habbema-2017-msh-analogue-risks",
    "mhra-foi-24-274-melanotan-ii",
    "tga-2026-melanotan-ii-safety-advisory",
-   "habbema-2017-msh-analogue-risks"
+   "wessells-1998-melanotan-ii-ed"
   ]
  },
  "claimLocations": {
@@ -1858,6 +1859,13 @@
     "hannah-shmouni-2026-are"
    ],
    "scope": "m05"
+  }
+ ],
+ "reviewNotes": [
+  {
+   "date": "2026-09-24",
+   "blocks": "m5-check",
+   "change": "Module check now cites both 1990s Melanotan II studies (Dorr 1996, Wessells 1998)."
   }
  ]
 }

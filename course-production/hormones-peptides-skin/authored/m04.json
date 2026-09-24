@@ -1784,7 +1784,7 @@
   {
    "date": "2026-09-24",
    "block": "m4-p09 (classify)",
-   "change": "Leuphasyl: 'no independent or indexed human trial' corrected to 'no randomized trial'. An independent uncontrolled volunteer study exists (Dragomirescu 2014). The classify label 'Manufacturer data only' became 'No randomized trial'; grades unchanged. Found by the claim-support check.",
+   "change": "Leuphasyl: 'no independent or indexed human trial' corrected to 'no randomized trial'. An independent uncontrolled volunteer study exists (Dragomirescu 2014). The classify label 'Manufacturer data only' became 'No randomized trial'; grades unchanged. Found by the automated source check.",
    "forReview": "Fady Hannah-Shmouni"
   }
  ]
