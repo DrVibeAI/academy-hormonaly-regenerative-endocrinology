@@ -78,6 +78,18 @@ MODULE_PILLARS = {
     "module-06": ["physiology", "evidence-appraisal", "regulatory-safety"],
     "module-07": ["evidence-appraisal", "regulatory-safety", "patient-conversation"],
 }
+# Scope decisions after the intake plan (Omar 2026-09-24: add oral collagen peptides and SNAP-8 to module 04).
+MODULE_OVERRIDES = {
+    "module-04": {
+        "scope": "Copper peptides (GHK/GHK-Cu); signal peptides and matrikines (pal-KTTKS / Matrixyl, Matrixyl 3000, Palmitoyl Tripeptide-1); oral collagen peptides; neurotransmitter modulators (Argireline, SNAP-8, Leuphasyl); investigational repair peptides (BPC-157, TB-500, KPV, LL-37); evidence hierarchies, sponsorship and funding bias; US regulatory status.",
+    },
+}
+LESSON_OVERRIDES = {
+    ("module-04", 2): {
+        "title": "Cosmetic Signal Peptides, Oral Collagen, and Neurotransmitter Modulators",
+        "objective": "Evaluate the human trial evidence, funding sources and delivery limits for topical signal peptides (pal-KTTKS), oral collagen peptides and SNAP-25 mimics (Argireline, SNAP-8, Leuphasyl), and explain why pooled benefit can disappear in independent trials.",
+    },
+}
 SLUGS = {
     "module-01": "skin-as-endocrine-organ", "module-02": "systemic-hormones-and-skin",
     "module-03": "adipose-incretins-facial-architecture", "module-04": "matrix-peptides-and-wound-healing",
@@ -104,8 +116,10 @@ for i, m in enumerate(outline["modules"], 1):
     mid = f"m{i:02d}"
     refs = [sections[r] for r in m["sourceRefs"]]
     cites = sorted({r["citation"] for r in refs})
+    m = {**m, **MODULE_OVERRIDES.get(m["id"], {})}
     units = []
     for j, l in enumerate(m["lessons"], 1):
+        l = {**l, **LESSON_OVERRIDES.get((m["id"], j), {})}
         units.append({
             "id": f"{mid}-l{j}",
             "slug": f"{mid}-l{j}-{slug(l['title'])}",
@@ -245,7 +259,7 @@ pkg = {
     "provenance": {
         "sourceLock": {
             "lockedAt": TODAY,
-            "lockedBy": "PROPOSED by the agent 2026-09-21/22 from the approved intake handoff · edition decided by Omar 2026-09-22 (August build) · exclusions + literature grader confirmation PENDING (medical owner) — see course-production/hormones-peptides-skin/source-lock.md",
+            "lockedBy": "Omar Saleem (confirmed 2026-09-24: August edition, exclusions as written, CME wording) · drafted by the agent from the approved intake handoff · module 04 literature graded 2026-09-24 under Omar's delegation · final review Dr. Fady Hannah-Shmouni — see course-production/hormones-peptides-skin/source-lock.md",
             "corpusDescription": "Two Hormonaly Press clinician guides by Fady Hannah-Shmouni (A&RE first edition 2026; The Peptide Pocket Guide August 2026 build, skin-relevant entries only) plus, per module, the primary literature behind each clinical claim (guide reference blocks + perceptor research candidate sets). Excluded: all dosing/titration/stacking content, non-cutaneous peptide entries, blend names as evidence, any current CME/CE claim.",
             "allowedSources": [
                 "hannah-shmouni-2026-are · corpus/hormonaly-pocket-guide-2026.pdf · sha256 1478266b0809a3e3…",
@@ -273,7 +287,7 @@ pkg = {
         "approvals": [],
         "accreditation": {
             "body": "GCLS", "status": "not_submitted",
-            "notes": "Designed toward future CME accreditation (Omar 2026-09-21): CME-style measurable objectives, independence from commercial bias, disclosure of financial relationships. No CME/CE credit is claimed until an accredited provider pathway exists (SEASON's DC host university is the candidate). GCLS accreditation add-on decision still pending from intake.",
+            "notes": "Designed toward future CME accreditation (Omar 2026-09-21; pathway confirmed 2026-09-24: CME to be sought through SEASON and its accredited joint-providership partner). CME-style measurable objectives, independence from commercial bias, disclosure of financial relationships. No CME/CE credit is claimed until that approval exists. GCLS accreditation add-on decision still pending from intake.",
         },
     },
     "distribution": {"targets": [{"platform": "academy-app", "notes": "Hormonaly Academy tenant until SEASON's brand kit arrives; a SEASON-branded edition shares this package (one evidence core, editions per academy)."}]},
@@ -296,7 +310,7 @@ pkg = {
             },
         },
         "review": {
-            "literatureGrader": "Omar Saleem / Perceptors — grades every citation in citations/<module>.md before authoring",
+            "literatureGrader": "Graded by the agent under Omar Saleem's delegation (2026-09-24), grading rule recorded in citations/<module>.json; Omar reviews, Dr. Hannah-Shmouni gives final review",
             "finalReviewer": "Fady Hannah-Shmouni, MD FRCPC — receives the final draft for review (Omar 2026-09-22)",
             "seasonReviewer": "pending",
         },
@@ -309,8 +323,7 @@ pkg = {
             "directionApproved": "2026-09-21 via test client invitation — direction only, scientific review pending",
         },
         "openItems": [
-            "source lock confirmation: exclusions as written (grader decided: Omar/Perceptors)",
-            "module 04 literature grading by Omar (citations/m04.md) before authoring",
+            "author findings for Dr. Hannah-Shmouni (citations/m04.md, end) — send with the final draft",
             "SEASON reviewer",
             "balance between endocrinopathy-with-skin-signs and elective aesthetic peptide content (plan question 2)",
             "GB/EU regulatory mapping for the SEASON London audience",

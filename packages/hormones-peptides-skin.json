@@ -130,7 +130,7 @@
   "provenance": {
     "sourceLock": {
       "lockedAt": "2026-09-22",
-      "lockedBy": "PROPOSED by the agent 2026-09-21/22 from the approved intake handoff · edition decided by Omar 2026-09-22 (August build) · exclusions + literature grader confirmation PENDING (medical owner) — see course-production/hormones-peptides-skin/source-lock.md",
+      "lockedBy": "Omar Saleem (confirmed 2026-09-24: August edition, exclusions as written, CME wording) · drafted by the agent from the approved intake handoff · module 04 literature graded 2026-09-24 under Omar's delegation · final review Dr. Fady Hannah-Shmouni — see course-production/hormones-peptides-skin/source-lock.md",
       "corpusDescription": "Two Hormonaly Press clinician guides by Fady Hannah-Shmouni (A&RE first edition 2026; The Peptide Pocket Guide August 2026 build, skin-relevant entries only) plus, per module, the primary literature behind each clinical claim (guide reference blocks + perceptor research candidate sets). Excluded: all dosing/titration/stacking content, non-cutaneous peptide entries, blend names as evidence, any current CME/CE claim.",
       "allowedSources": [
         "hannah-shmouni-2026-are · corpus/hormonaly-pocket-guide-2026.pdf · sha256 1478266b0809a3e3…",
@@ -667,6 +667,90 @@
         "note": {
           "en": "enforcement letter · regulator · role: names GHK-Cu, BPC 157, CJC 1295, ipamorelin: compounded products 'not eligible for the exemptions provided by section 503A(a) because they are not the subject of an applicable USP or NF monograph, are not a component of an FDA-approved human drug, and do not appear on the 503A bulks list' · primary regulatory evidence for the compliance lesson; TB-500 and KPV not named in this letter"
         }
+      },
+      {
+        "id": "kim-2018-oral-collagen-rct",
+        "title": "Oral Intake of Low-Molecular-Weight Collagen Peptide Improves Hydration, Elasticity, and Wrinkling in Human Skin: A Randomized, Double-Blind, Placebo-Controlled Study",
+        "authors": "Kim DU, Chung HC, Choi J, Sakai Y, Lee BY",
+        "publication": "Nutrients · 2018;10:826",
+        "year": 2018,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/29949889/",
+        "sourceType": "rct",
+        "note": {
+          "en": "double-blind placebo-controlled RCT, n=64, 12 weeks · industry (first authors at the supplier; co-author at the collagen manufacturer) · role: A&RE ch.5 ref 16 and ch.15 ref 3 — the guide's anchor for oral collagen · PMID 29949889 · guide cites without PMID; resolved"
+        }
+      },
+      {
+        "id": "de-miranda-2021-collagen-meta",
+        "title": "Effects of hydrolyzed collagen supplementation on skin aging: a systematic review and meta-analysis",
+        "authors": "de Miranda RB, Weimer P, Rossi RC",
+        "publication": "Int J Dermatol · 2021;60:1449–1461",
+        "year": 2021,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33742704/",
+        "sourceType": "meta-analysis",
+        "note": {
+          "en": "systematic review + meta-analysis of RCTs · academic; heterogeneity criticised in a published comment (PMID 34196407) · role: pooled positive result · PMID 33742704 · found by PubMed search 2026-09-24"
+        }
+      },
+      {
+        "id": "pu-2023-oral-collagen-meta",
+        "title": "Effects of Oral Collagen for Skin Anti-Aging: A Systematic Review and Meta-Analysis",
+        "authors": "Pu SY, et al.",
+        "publication": "Nutrients · 2023;15:2080",
+        "year": 2023,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37432180/",
+        "sourceType": "meta-analysis",
+        "note": {
+          "en": "systematic review + meta-analysis · academic (Cochrane Taiwan) · role: pooled positive result · PMID 37432180 · found by PubMed search 2026-09-24"
+        }
+      },
+      {
+        "id": "myung-2025-collagen-funding-meta",
+        "title": "Effects of Collagen Supplements on Skin Aging: A Systematic Review and Meta-Analysis of Randomized Controlled Trials",
+        "authors": "Myung SK, Park Y",
+        "publication": "Am J Med · 2025;138:1264–1277",
+        "year": 2025,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40324552/",
+        "sourceType": "meta-analysis",
+        "note": {
+          "en": "meta-analysis of 23 RCTs (1,474 participants) stratified by funding source and study quality · academic (National Cancer Center Korea; Monash) · role: the pooled benefit appears only in pharmaceutical-funded and low-quality trials; unfunded and high-quality trials show no effect on hydration, elasticity or wrinkles — the module's clearest lesson in funding bias · PMID 40324552 · post-dates both guides' rating; proposes a downgrade to the author"
+        }
+      },
+      {
+        "id": "errante-2020-cosmeceutical-peptides",
+        "title": "Cosmeceutical Peptides in the Framework of Sustainable Wellness Economy",
+        "authors": "Errante F, Ledwoń P, Latajka R, Rovero P",
+        "publication": "Front Chem · 2020;8:572923",
+        "year": 2020,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33195061/",
+        "sourceType": "review",
+        "note": {
+          "en": "narrative review (open access, PMC7662462) · academic · role: SNAP-8 = acetyl octapeptide-1/-3 (Lipotec), SNAP-25 mimic; efficacy figures come from the manufacturer's website; Leuphasyl synergy data are in vitro · PMID 33195061 · full text read via Europe PMC 2026-09-24"
+        }
+      },
+      {
+        "id": "shin-2024-octapeptide-microneedle",
+        "title": "Clinical Safety and Efficacy Evaluation of a Dissolving Microneedle Patch Having Dual Anti-Wrinkle Effects With Safe and Long-Term Activities",
+        "authors": "Shin JY, Han D, Yoon KY, Jeong DH, Park YI",
+        "publication": "Ann Dermatol · 2024;36:215–224",
+        "year": 2024,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39082657/",
+        "sourceType": "paper",
+        "note": {
+          "en": "placebo-patch comparison, n=24, 28 days; acetyl octapeptide-3 is one of three actives · manufacturer (Raphas) authors · role: shows why no study isolates SNAP-8 · PMID 39082657"
+        }
+      },
+      {
+        "id": "avcil-2020-peptide-microneedle",
+        "title": "Efficacy of bioactive peptides loaded on hyaluronic acid microneedle patches: A monocentric clinical study",
+        "authors": "Avcil M, Akman G, Klokkers J, Jeong D, Çelik A",
+        "publication": "J Cosmet Dermatol · 2020;19:328–337",
+        "year": 2020,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31134751/",
+        "sourceType": "paper",
+        "note": {
+          "en": "uncontrolled monocentric study, 12 weeks; five-active patch · manufacturer-affiliated authors · role: same point: combination product, no SNAP-8 arm · PMID 31134751"
+        }
       }
     ],
     "claims": [
@@ -677,11 +761,11 @@
           "pickart-thaler-1973",
           "hannah-shmouni-2026-ppg-aug"
         ],
-        "status": "pending",
+        "status": "verified",
         "locations": [
           "m04-l1"
         ],
-        "reviewNote": "history; uncontested · grader: Omar Saleem / Perceptors (grade column is theirs; the agent proposes a role and records the guide's rating only)"
+        "reviewNote": "history; uncontested · grader: Graded 2026-09-24 by the agent under Omar Saleem's delegation (\"you should be able to do that from the guide\"); rule set below; final review Dr. Hannah-Shmouni"
       },
       {
         "id": "c-m04-02",
@@ -691,11 +775,11 @@
           "pickart-margolina-2018",
           "pickart-2008-ghk-tissue-remodeling"
         ],
-        "status": "pending",
+        "status": "verified",
         "locations": [
           "m04-l1"
         ],
-        "reviewNote": "teach as mechanism with the conflict of interest visible · grader: Omar Saleem / Perceptors (grade column is theirs; the agent proposes a role and records the guide's rating only)"
+        "reviewNote": "teach as mechanism with the conflict of interest visible · grader: Graded 2026-09-24 by the agent under Omar Saleem's delegation (\"you should be able to do that from the guide\"); rule set below; final review Dr. Hannah-Shmouni"
       },
       {
         "id": "c-m04-03",
@@ -705,11 +789,11 @@
           "hannah-shmouni-2026-are",
           "hannah-shmouni-2026-ppg-aug"
         ],
-        "status": "pending",
+        "status": "verified",
         "locations": [
           "m04-l1"
         ],
-        "reviewNote": "grade C per both guides; Omar to confirm · grader: Omar Saleem / Perceptors (grade column is theirs; the agent proposes a role and records the guide's rating only)"
+        "reviewNote": "grade C per both guides; Omar to confirm · grader: Graded 2026-09-24 by the agent under Omar Saleem's delegation (\"you should be able to do that from the guide\"); rule set below; final review Dr. Hannah-Shmouni"
       },
       {
         "id": "c-m04-04",
@@ -719,11 +803,11 @@
           "hannah-shmouni-2026-are",
           "li-2016-copper-skin-toxicity"
         ],
-        "status": "pending",
+        "status": "verified",
         "locations": [
           "m04-l1"
         ],
-        "reviewNote": "safety statement is the guides' clinical observation; Li 2016 is mechanistic support only · grader: Omar Saleem / Perceptors (grade column is theirs; the agent proposes a role and records the guide's rating only)"
+        "reviewNote": "safety statement is the guides' clinical observation; Li 2016 is mechanistic support only · grader: Graded 2026-09-24 by the agent under Omar Saleem's delegation (\"you should be able to do that from the guide\"); rule set below; final review Dr. Hannah-Shmouni"
       },
       {
         "id": "c-m04-05",
@@ -733,11 +817,11 @@
           "hostynek-2010-ghk-cu-penetration",
           "ogorek-2025-ghk-cu-permeation-review"
         ],
-        "status": "pending",
+        "status": "verified",
         "locations": [
           "m04-l1"
         ],
-        "reviewNote": " · grader: Omar Saleem / Perceptors (grade column is theirs; the agent proposes a role and records the guide's rating only)"
+        "reviewNote": " · grader: Graded 2026-09-24 by the agent under Omar Saleem's delegation (\"you should be able to do that from the guide\"); rule set below; final review Dr. Hannah-Shmouni"
       },
       {
         "id": "c-m04-06",
@@ -746,11 +830,11 @@
           "fda-503a-categories-2026-05-14",
           "fda-503a-bulks-page"
         ],
-        "status": "pending",
+        "status": "verified",
         "locations": [
           "m04-l1"
         ],
-        "reviewNote": "more precise than either guide's 'Category 1 (non-injectable)'; date-stamp it in the lesson · grader: Omar Saleem / Perceptors (grade column is theirs; the agent proposes a role and records the guide's rating only)"
+        "reviewNote": "more precise than either guide's 'Category 1 (non-injectable)'; date-stamp it in the lesson · grader: Graded 2026-09-24 by the agent under Omar Saleem's delegation (\"you should be able to do that from the guide\"); rule set below; final review Dr. Hannah-Shmouni"
       },
       {
         "id": "c-m04-07",
@@ -760,11 +844,11 @@
           "lintner-peschard-2000-pal-kttks",
           "hannah-shmouni-2026-ppg-aug"
         ],
-        "status": "pending",
+        "status": "verified",
         "locations": [
           "m04-l2"
         ],
-        "reviewNote": "guide grade D; note sponsorship explicitly · grader: Omar Saleem / Perceptors (grade column is theirs; the agent proposes a role and records the guide's rating only)"
+        "reviewNote": "guide grade D; note sponsorship explicitly · grader: Graded 2026-09-24 by the agent under Omar Saleem's delegation (\"you should be able to do that from the guide\"); rule set below; final review Dr. Hannah-Shmouni"
       },
       {
         "id": "c-m04-08",
@@ -775,23 +859,24 @@
           "aruan-2023-argireline-vs-pal-kttks-rct",
           "hannah-shmouni-2026-ppg-aug"
         ],
-        "status": "pending",
+        "status": "verified",
         "locations": [
           "m04-l2"
         ],
-        "reviewNote": "PPG-Aug marks 'Wang Y et al.' as not indexed — the 2013 Am J Clin Dermatol RCT is indexed (PMID 23417317); report to the author · grader: Omar Saleem / Perceptors (grade column is theirs; the agent proposes a role and records the guide's rating only)"
+        "reviewNote": "PPG-Aug marks 'Wang Y et al.' as not indexed — the 2013 Am J Clin Dermatol RCT is indexed (PMID 23417317); report to the author · grader: Graded 2026-09-24 by the agent under Omar Saleem's delegation (\"you should be able to do that from the guide\"); rule set below; final review Dr. Hannah-Shmouni"
       },
       {
         "id": "c-m04-09",
-        "text": "Leuphasyl (pentapeptide-18) evidence consists of manufacturer studies only; no indexed human trial was found.",
+        "text": "Leuphasyl (pentapeptide-18): the only efficacy data are the manufacturer's own studies and an in-vitro synergy figure with SNAP-8; no independent or indexed human trial exists. The course teaches it as 'no independent evidence', not as a mechanism.",
         "citationRefs": [
-          "hannah-shmouni-2026-ppg-aug"
+          "hannah-shmouni-2026-ppg-aug",
+          "errante-2020-cosmeceutical-peptides"
         ],
-        "status": "flagged",
+        "status": "verified",
         "locations": [
           "m04-l2"
         ],
-        "reviewNote": "no primary source exists — teach as 'no independent evidence', not as a mechanism · grader: Omar Saleem / Perceptors (grade column is theirs; the agent proposes a role and records the guide's rating only)"
+        "reviewNote": "was flagged: no primary source; rewritten as an absence-of-evidence statement · grader: Graded 2026-09-24 by the agent under Omar Saleem's delegation (\"you should be able to do that from the guide\"); rule set below; final review Dr. Hannah-Shmouni"
       },
       {
         "id": "c-m04-10",
@@ -801,11 +886,11 @@
           "lupo-cole-2007-cosmeceutical-peptides",
           "hannah-shmouni-2026-ppg-aug"
         ],
-        "status": "pending",
+        "status": "verified",
         "locations": [
           "m04-l2"
         ],
-        "reviewNote": "US framing; UK/EU cosmetics regulation to be added for the SEASON edition · grader: Omar Saleem / Perceptors (grade column is theirs; the agent proposes a role and records the guide's rating only)"
+        "reviewNote": "US framing; UK/EU cosmetics regulation to be added for the SEASON edition · grader: Graded 2026-09-24 by the agent under Omar Saleem's delegation (\"you should be able to do that from the guide\"); rule set below; final review Dr. Hannah-Shmouni"
       },
       {
         "id": "c-m04-11",
@@ -819,11 +904,11 @@
           "nct07437547-bpc157-hamstring",
           "nct07803250-bpc157-rotator-cuff"
         ],
-        "status": "pending",
+        "status": "verified",
         "locations": [
           "m04-l3"
         ],
-        "reviewNote": "guides rate C (A&RE) — Omar to confirm; two independent 2025–26 reviews now exist · grader: Omar Saleem / Perceptors (grade column is theirs; the agent proposes a role and records the guide's rating only)"
+        "reviewNote": "guides rate C (A&RE) — Omar to confirm; two independent 2025–26 reviews now exist · grader: Graded 2026-09-24 by the agent under Omar Saleem's delegation (\"you should be able to do that from the guide\"); rule set below; final review Dr. Hannah-Shmouni"
       },
       {
         "id": "c-m04-12",
@@ -833,11 +918,11 @@
           "crockford-2010-thymosin-beta4",
           "hannah-shmouni-2026-ppg-aug"
         ],
-        "status": "pending",
+        "status": "verified",
         "locations": [
           "m04-l3"
         ],
-        "reviewNote": "guide grade D · grader: Omar Saleem / Perceptors (grade column is theirs; the agent proposes a role and records the guide's rating only)"
+        "reviewNote": "guide grade D · grader: Graded 2026-09-24 by the agent under Omar Saleem's delegation (\"you should be able to do that from the guide\"); rule set below; final review Dr. Hannah-Shmouni"
       },
       {
         "id": "c-m04-13",
@@ -847,11 +932,11 @@
           "kannengiesser-2008-kpv",
           "hannah-shmouni-2026-ppg-aug"
         ],
-        "status": "pending",
+        "status": "verified",
         "locations": [
           "m04-l3"
         ],
-        "reviewNote": "guide grade C; the 'small open-label atopic dermatitis studies' the guide mentions could not be located on PubMed · grader: Omar Saleem / Perceptors (grade column is theirs; the agent proposes a role and records the guide's rating only)"
+        "reviewNote": "guide grade C; the 'small open-label atopic dermatitis studies' the guide mentions could not be located on PubMed · grader: Graded 2026-09-24 by the agent under Omar Saleem's delegation (\"you should be able to do that from the guide\"); rule set below; final review Dr. Hannah-Shmouni"
       },
       {
         "id": "c-m04-14",
@@ -861,11 +946,11 @@
           "mahlapuu-2021-ll37-phase2b",
           "schauber-gallo-2008-amps"
         ],
-        "status": "pending",
+        "status": "verified",
         "locations": [
           "m04-l3"
         ],
-        "reviewNote": "guide grade C; both trials authored by the developer · grader: Omar Saleem / Perceptors (grade column is theirs; the agent proposes a role and records the guide's rating only)"
+        "reviewNote": "guide grade C; both trials authored by the developer · grader: Graded 2026-09-24 by the agent under Omar Saleem's delegation (\"you should be able to do that from the guide\"); rule set below; final review Dr. Hannah-Shmouni"
       },
       {
         "id": "c-m04-15",
@@ -876,25 +961,25 @@
           "fda-warning-letter-tailor-made-2020",
           "hannah-shmouni-2026-are"
         ],
-        "status": "pending",
+        "status": "verified",
         "locations": [
           "m04-l3"
         ],
-        "reviewNote": "vote counts come from trade press, not FDA — cite them as unofficial or omit · grader: Omar Saleem / Perceptors (grade column is theirs; the agent proposes a role and records the guide's rating only)"
+        "reviewNote": "vote counts come from trade press, not FDA — cite them as unofficial or omit · grader: Graded 2026-09-24 by the agent under Omar Saleem's delegation (\"you should be able to do that from the guide\"); rule set below; final review Dr. Hannah-Shmouni"
       },
       {
         "id": "c-m04-16",
-        "text": "Research-use-only peptide products are made outside GMP and carry documented risks of impurity, inaccurate dosing and heavy-metal contamination.",
+        "text": "Research-use-only peptide products are made outside GMP. Impurity, inaccurate content and contamination are documented for adjacent products — seized 'research' peptides and online semaglutide — but no published analysis of skin-peptide RUO products was found. Heavy-metal contamination is reported for this market, not documented; the lesson says exactly that.",
         "citationRefs": [
           "hannah-shmouni-2026-are",
           "vanhee-2020-seized-research-peptides",
           "ashraf-2024-online-semaglutide-quality"
         ],
-        "status": "flagged",
+        "status": "verified",
         "locations": [
           "m04-l3"
         ],
-        "reviewNote": "A&RE asserts heavy-metal (arsenic, lead) contamination without a citation; no primary analytical study of skin-peptide RUO products was found. Adjacent evidence only. Either the author supplies the source or the lesson says 'reported, not documented'. · grader: Omar Saleem / Perceptors (grade column is theirs; the agent proposes a role and records the guide's rating only)"
+        "reviewNote": "was flagged: A&RE assertion without a source; the lesson now separates reported from documented · grader: Graded 2026-09-24 by the agent under Omar Saleem's delegation (\"you should be able to do that from the guide\"); rule set below; final review Dr. Hannah-Shmouni"
       },
       {
         "id": "c-m04-17",
@@ -903,11 +988,54 @@
           "hannah-shmouni-2026-are",
           "hannah-shmouni-2026-ppg-aug"
         ],
-        "status": "pending",
+        "status": "verified",
         "locations": [
           "m04-l3"
         ],
-        "reviewNote": "absence-of-evidence claim; the guides are sufficient · grader: Omar Saleem / Perceptors (grade column is theirs; the agent proposes a role and records the guide's rating only)"
+        "reviewNote": "absence-of-evidence claim; the guides are sufficient · grader: Graded 2026-09-24 by the agent under Omar Saleem's delegation (\"you should be able to do that from the guide\"); rule set below; final review Dr. Hannah-Shmouni"
+      },
+      {
+        "id": "c-m04-18",
+        "text": "Oral collagen peptides: pooled randomized trials report better hydration, elasticity and wrinkle scores, and A&RE rates the evidence GRADE C — but in a 2025 meta-analysis of 23 RCTs (1,474 participants) stratified by funding and quality, the benefit appeared only in pharmaceutical-funded and low-quality trials; unfunded and high-quality trials showed no effect.",
+        "citationRefs": [
+          "hannah-shmouni-2026-are",
+          "kim-2018-oral-collagen-rct",
+          "de-miranda-2021-collagen-meta",
+          "pu-2023-oral-collagen-meta",
+          "myung-2025-collagen-funding-meta"
+        ],
+        "status": "verified",
+        "locations": [
+          "m04-l2"
+        ],
+        "reviewNote": "added 2026-09-24 (scope decision, Omar); the guide's dose figure is excluded by the lock · grader: Graded 2026-09-24 by the agent under Omar Saleem's delegation (\"you should be able to do that from the guide\"); rule set below; final review Dr. Hannah-Shmouni"
+      },
+      {
+        "id": "c-m04-19",
+        "text": "In the US oral collagen is sold as a dietary supplement: it may not carry disease claims, and product quality and content vary.",
+        "citationRefs": [
+          "hannah-shmouni-2026-are"
+        ],
+        "status": "verified",
+        "locations": [
+          "m04-l2"
+        ],
+        "reviewNote": "added 2026-09-24; UK/EU food-supplement framing to be mapped for SEASON · grader: Graded 2026-09-24 by the agent under Omar Saleem's delegation (\"you should be able to do that from the guide\"); rule set below; final review Dr. Hannah-Shmouni"
+      },
+      {
+        "id": "c-m04-20",
+        "text": "SNAP-8 (acetyl octapeptide-1/-3) is the manufacturer's eight-residue extension of the Argireline SNAP-25 mimic. Its efficacy figures come from the manufacturer; the only indexed human studies test it inside multi-ingredient microneedle patches, so no study isolates its effect.",
+        "citationRefs": [
+          "errante-2020-cosmeceutical-peptides",
+          "blanes-mira-2002-argireline",
+          "shin-2024-octapeptide-microneedle",
+          "avcil-2020-peptide-microneedle"
+        ],
+        "status": "verified",
+        "locations": [
+          "m04-l2"
+        ],
+        "reviewNote": "added 2026-09-24 (scope decision, Omar); not in either guide — sourced from the literature · grader: Graded 2026-09-24 by the agent under Omar Saleem's delegation (\"you should be able to do that from the guide\"); rule set below; final review Dr. Hannah-Shmouni"
       }
     ]
   },
@@ -1594,7 +1722,7 @@
           "en": "Module 04 · 3 lessons · ~28 min"
         },
         "summary": {
-          "en": "Copper peptides (GHK/GHK-Cu); signaling matrikines (Matrixyl 3000, Palmitoyl Tripeptide-1); topical neurotransmitter modulators (Argireline, Leuphasyl); investigational repair peptides (BPC-157, TB-500, KPV, LL-37); evidence hierarchies and commercial bias."
+          "en": "Copper peptides (GHK/GHK-Cu); signal peptides and matrikines (pal-KTTKS / Matrixyl, Matrixyl 3000, Palmitoyl Tripeptide-1); oral collagen peptides; neurotransmitter modulators (Argireline, SNAP-8, Leuphasyl); investigational repair peptides (BPC-157, TB-500, KPV, LL-37); evidence hierarchies, sponsorship and funding bias; US regulatory status."
         },
         "objective": {
           "en": "By the end, you can critique the biological plausibility, transdermal penetration barriers, and human clinical evidence for cosmetic, matrikine, and investigational tissue-repair peptides."
@@ -1673,17 +1801,17 @@
           },
           {
             "id": "m04-l2",
-            "slug": "m04-l2-cosmetic-signaling-matrikines-and-neurotransmitter-modulator",
+            "slug": "m04-l2-cosmetic-signal-peptides-oral-collagen-and-neurotransmitter",
             "title": {
-              "en": "Cosmetic Signaling Matrikines and Neurotransmitter Modulators"
+              "en": "Cosmetic Signal Peptides, Oral Collagen, and Neurotransmitter Modulators"
             },
             "description": {
-              "en": "Evaluate the molecular weight, transdermal bioavailability limitations, and published human trial data for Argireline, Leuphasyl, and palmitoyl peptides."
+              "en": "Evaluate the human trial evidence, funding sources and delivery limits for topical signal peptides (pal-KTTKS), oral collagen peptides and SNAP-25 mimics (Argireline, SNAP-8, Leuphasyl), and explain why pooled benefit can disappear in independent trials."
             },
             "type": "lesson",
             "learningObjectives": [
               {
-                "en": "Evaluate the molecular weight, transdermal bioavailability limitations, and published human trial data for Argireline, Leuphasyl, and palmitoyl peptides."
+                "en": "Evaluate the human trial evidence, funding sources and delivery limits for topical signal peptides (pal-KTTKS), oral collagen peptides and SNAP-25 mimics (Argireline, SNAP-8, Leuphasyl), and explain why pooled benefit can disappear in independent trials."
               }
             ],
             "estimatedMinutes": 8,
@@ -1692,14 +1820,21 @@
             "status": "ai_draft",
             "citationRefs": [
               "aruan-2023-argireline-vs-pal-kttks-rct",
+              "avcil-2020-peptide-microneedle",
               "bjerke-2026-cosmetic-peptide-safety-framework",
               "blanes-mira-2002-argireline",
+              "de-miranda-2021-collagen-meta",
+              "errante-2020-cosmeceutical-peptides",
               "hannah-shmouni-2026-are",
               "hannah-shmouni-2026-ppg-aug",
+              "kim-2018-oral-collagen-rct",
               "lintner-peschard-2000-pal-kttks",
               "lupo-cole-2007-cosmeceutical-peptides",
+              "myung-2025-collagen-funding-meta",
+              "pu-2023-oral-collagen-meta",
               "robinson-2005-pal-kttks-rct",
               "schagen-2017-topical-peptides",
+              "shin-2024-octapeptide-microneedle",
               "wang-2013-argireline-rct"
             ],
             "blocks": [
@@ -1710,10 +1845,10 @@
                   "en": "Module 04 · Lesson 2"
                 },
                 "title": {
-                  "en": "Cosmetic Signaling Matrikines and Neurotransmitter Modulators"
+                  "en": "Cosmetic Signal Peptides, Oral Collagen, and Neurotransmitter Modulators"
                 },
                 "body": {
-                  "en": "Evaluate the molecular weight, transdermal bioavailability limitations, and published human trial data for Argireline, Leuphasyl, and palmitoyl peptides."
+                  "en": "Evaluate the human trial evidence, funding sources and delivery limits for topical signal peptides (pal-KTTKS), oral collagen peptides and SNAP-25 mimics (Argireline, SNAP-8, Leuphasyl), and explain why pooled benefit can disappear in independent trials."
                 },
                 "citationRefs": [
                   "hannah-shmouni-2026-are",
@@ -1862,9 +1997,9 @@
             "registry": "course-production/hormones-peptides-skin/citations/m04.json",
             "worksheet": "course-production/hormones-peptides-skin/citations/m04.md",
             "verifiedAt": "2026-09-22",
-            "citations": 42,
-            "claims": 17,
-            "grader": "Omar Saleem / Perceptors (grade column is theirs; the agent proposes a role and records the guide's rating only)",
+            "citations": 49,
+            "claims": 20,
+            "grader": "Graded 2026-09-24 by the agent under Omar Saleem's delegation (\"you should be able to do that from the guide\"); rule set below; final review Dr. Hannah-Shmouni",
             "finalReviewer": "Fady Hannah-Shmouni, MD FRCPC"
           }
         }
@@ -2664,7 +2799,7 @@
     "accreditation": {
       "body": "GCLS",
       "status": "not_submitted",
-      "notes": "Designed toward future CME accreditation (Omar 2026-09-21): CME-style measurable objectives, independence from commercial bias, disclosure of financial relationships. No CME/CE credit is claimed until an accredited provider pathway exists (SEASON's DC host university is the candidate). GCLS accreditation add-on decision still pending from intake."
+      "notes": "Designed toward future CME accreditation (Omar 2026-09-21; pathway confirmed 2026-09-24: CME to be sought through SEASON and its accredited joint-providership partner). CME-style measurable objectives, independence from commercial bias, disclosure of financial relationships. No CME/CE credit is claimed until that approval exists. GCLS accreditation add-on decision still pending from intake."
     }
   },
   "distribution": {
@@ -2713,7 +2848,7 @@
       }
     },
     "review": {
-      "literatureGrader": "Omar Saleem / Perceptors — grades every citation in citations/<module>.md before authoring",
+      "literatureGrader": "Graded by the agent under Omar Saleem's delegation (2026-09-24), grading rule recorded in citations/<module>.json; Omar reviews, Dr. Hannah-Shmouni gives final review",
       "finalReviewer": "Fady Hannah-Shmouni, MD FRCPC — receives the final draft for review (Omar 2026-09-22)",
       "seasonReviewer": "pending"
     },
@@ -2827,8 +2962,7 @@
       "directionApproved": "2026-09-21 via test client invitation — direction only, scientific review pending"
     },
     "openItems": [
-      "source lock confirmation: exclusions as written (grader decided: Omar/Perceptors)",
-      "module 04 literature grading by Omar (citations/m04.md) before authoring",
+      "author findings for Dr. Hannah-Shmouni (citations/m04.md, end) — send with the final draft",
       "SEASON reviewer",
       "balance between endocrinopathy-with-skin-signs and elective aesthetic peptide content (plan question 2)",
       "GB/EU regulatory mapping for the SEASON London audience",

@@ -1,21 +1,15 @@
-# Source lock — Hormones and Peptides for Skin (DRAFT · confirmation pending)
+# Source lock — Hormones and Peptides for Skin (CONFIRMED 2026-09-24)
 
-**Status:** PROPOSED by the agent on 2026-09-21 from the approved Perceptors intake handoff; decisions recorded 2026-09-22 (below).
-Nothing here is a lock until the exclusions are confirmed (Foundry stage 10 exit). Until then no authoring may treat these sources as settled.
+**Status:** CONFIRMED by Omar Saleem on 2026-09-24 — edition, exclusions and CME wording as written below. Drafted by the agent from the
+approved Perceptors intake handoff (2026-09-21). Citing outside this lock is now a QA failure; new evidence needs a dated amendment.
 
-**Decisions on file (Omar, 2026-09-22):** Pocket Guide edition = **August build**. Literature grader = **Omar Saleem / Perceptors**
-(worksheet `citations/m04.md`; grade column is his). Final reviewer = **Dr. Fady Hannah-Shmouni**, who receives the final draft.
-Audience = **all clinicians** (physicians, NPs, PAs, nurses, other providers); the agentic LMS adapts the application layer to each learner's
-level (`metadata.variants.audienceLevel` in the package). The Drive path is parked.
-
-**Course:** Hormones and Peptides for Skin · 7 modules · 21 lessons · pilot module = 04 (matrix remodeling, wound healing, topical
-matrikine peptides). Audience, outcomes and boundaries are still open in the intake brief (7 of 8 tier-1 groups); the lock covers
-evidence only.
-
-**Provenance of this draft:** intake project `nJO-DfnWUc2HvW99mYVZ7Q` on onboarding.perceptors.ai — plan
-`skin-outline-20260921-v2` and sample `skin-lesson-20260921-v2`, both direction-approved 2026-09-21 through a test client invitation
-(direction only; scientific review pending). Exports are in [`intake-handoff/`](intake-handoff/): `source-map.json` (36 read sections
-with verbatim quotes and offsets), `sample-lesson.json`, `design.md`, `frame.md`, `onboarding-handoff.json`.
+**Decisions on file (Omar):**
+- 2026-09-22 — Pocket Guide edition = **August build**. Final reviewer = **Dr. Fady Hannah-Shmouni**, who receives the final draft.
+  Audience = **all clinicians** (physicians, NPs, PAs, nurses, other providers); the agentic LMS adapts the application layer to each
+  learner's level (`metadata.variants.audienceLevel`). The Drive path is parked.
+- 2026-09-24 — Literature grading **delegated to the agent** ("you should be able to do that from the guide"); rule and grades in
+  `citations/m04.json|md`. The two flagged claims rewritten as recommended. **Exclusions confirmed.** CME wording stays as "designed toward
+  future CME accreditation"; the approval pathway is **through SEASON**. **Scope added to module 04:** oral collagen peptides and SNAP-8.
 
 ## Edition decision — RESOLVED 2026-09-22 (Omar): the August build
 
@@ -57,9 +51,10 @@ and keep the June build in the corpus as a superseded edition. Decided by Omar 2
   - PPG-Aug Page 94 · section 14: Neuroactive and nootropic peptides (Selank, Semax, Dihexa), Sleep and mood-modulating peptides (DSIP, PE-22-28), Investigational oncology peptides (Met-5-Enkephalin)
 - `Peptide Compendium — Pharmacokinetics and Stacking` and `mitopeptides.md` (protocol-heavy; not part of this course).
 - Marketing language and blend names (for example GLOW, KLOW) as evidence. They may be named only as things a patient will ask about.
-- Any statement that CME or CE credit is available. Per Omar 2026-09-21 the course is **designed toward future CME accreditation**
-  (measurable objectives, independence from commercial bias, disclosure of financial relationships); it never states or implies
-  current credit. The Learn-at-Pinnacle GCLS+ CME arrangement stays separate from peptide content.
+- Any statement that CME or CE credit is available. Per Omar the course is **designed toward future CME accreditation**
+  (measurable objectives, independence from commercial bias, disclosure of financial relationships), with approval to be sought
+  **through SEASON** (confirmed 2026-09-24); it never states or implies current credit. The Learn-at-Pinnacle GCLS+ CME arrangement stays
+  separate from peptide content.
 
 ## Module → source map (from the approved plan)
 
@@ -79,16 +74,14 @@ reading sections the plan cites (each section runs about 12,000 characters).
 Read but not used by the plan, and available if scope grows: A&RE chapter 17 onward (supplements, lifestyle and circadian
 optimization, tissue replacement) and the A&RE closing reference pages.
 
-## Literature backing — pilot module 04 (VERIFIED 2026-09-22, awaiting Omar's grades)
+## Literature backing — pilot module 04 (VERIFIED 2026-09-22 · GRADED 2026-09-24)
 
-`citations/m04.json` holds **42 verified sources** (every PMID resolved through NCBI E-utilities; trial registrations through the
-ClinicalTrials.gov API; FDA and Federal Register records fetched live and the FDA category PDF read in full) and **17 claims** — one per
-teaching statement — each with its citations and a `pending`/`flagged` status. `citations/m04.md` is the grading worksheet. Two claims are
-flagged: Leuphasyl (manufacturer data only, no indexed source) and the RUO heavy-metal contamination statement (no primary source found —
-adjacent evidence only). Reference errors found in the guides are listed at the end of the worksheet for the author. The raw candidate
-runs the registry was drawn from:
-
-`perceptor research` runs of 2026-09-21 (OpenAlex rate-limited on two of three; PubMed and ClinicalTrials.gov answered):
+`citations/m04.json` holds **49 verified sources** (PubMed E-utilities; ClinicalTrials.gov API; FDA and Federal Register records fetched
+live; open-access full text via Europe PMC) and **20 claims**, all graded and `verified`. The two claims flagged on 2026-09-22 were
+rewritten as Omar agreed: Leuphasyl is taught as "no independent evidence"; RUO heavy-metal contamination is "reported, not documented".
+Three claims were added with the scope decision: oral collagen (with the 2025 funding-stratified meta-analysis that finds no effect in
+independent trials), its dietary-supplement status, and SNAP-8 (in neither guide; no study isolates it). `citations/m04.md` is the graded
+worksheet and ends with ten findings for the author. The raw candidate runs the registry was drawn from:
 
 | Topic | Candidates | Proposal |
 |---|---:|---|
@@ -118,6 +111,6 @@ negative phase IIb. That is the honest teaching point of the module and it is no
 
 ## To confirm the lock
 
-Edition: decided (August). Grader: decided (Omar / Perceptors). Still open: (1) the exclusions above, as written; (2) Omar's grades in
-`citations/m04.md` — authoring of module 04 starts once the grade column is filled. On confirmation the agent writes `provenance.sourceLock` and seeds `provenance.citations[]` in
+Confirmed 2026-09-24. Module 04 is cleared for authoring (stage 30). Modules 01–03 and 05–07 each need the same literature pass
+before they are authored. On confirmation the agent writes `provenance.sourceLock` and seeds `provenance.citations[]` in
 `packages/hormones-peptides-skin.json`, and stage 20 (curriculum) starts from the approved plan.
