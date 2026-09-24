@@ -1,7 +1,7 @@
 {
  "module": "m04",
  "authoredAt": "2026-09-24",
- "status": "ai_draft",
+ "status": "approved",
  "unit": {
   "id": "m04-story",
   "slug": "m04-story",
@@ -1625,5 +1625,144 @@
   "m4-p11",
   "m4-p17",
   "m4-p19"
+ ],
+ "approval": {
+  "gate": "medical_review",
+  "approver": "Fady Hannah-Shmouni, MD FRCPC",
+  "date": "2026-09-24",
+  "scope": "module 04 as in review/m04-draft.md (authored 2026-09-24); approval relayed by Omar Saleem, 2026-09-24"
+ },
+ "courseQuiz": [
+  {
+   "id": "cq-m04-1",
+   "prompt": {
+    "en": "Which statement about topical GHK-Cu keeps its evidence and its regulatory status apart correctly?"
+   },
+   "options": [
+    {
+     "text": {
+      "en": "It is GRADE C on small trials, and in the US its non-injectable form sits in 503A Category 1, which means under evaluation."
+     },
+     "why": {
+      "en": "Correct. Two separate answers: small-trial human evidence, and an enforcement posture that is not an approval."
+     }
+    },
+    {
+     "text": {
+      "en": "Its Category 1 listing shows FDA has found it effective for skin."
+     },
+     "why": {
+      "en": "Category 1 means FDA is still evaluating; it says nothing about efficacy."
+     }
+    },
+    {
+     "text": {
+      "en": "Its copper-enzyme mechanism makes its evidence grade A."
+     },
+     "why": {
+      "en": "A plausible mechanism is not human evidence; the trials are small (C)."
+     }
+    }
+   ],
+   "correct": 0,
+   "rationale": {
+    "en": "Mechanism, human evidence and regulatory status are separate registers; GHK-Cu scores differently on each."
+   },
+   "pillar": "regulatory-safety",
+   "citationRefs": [
+    "miller-2006-ghk-cu-laser-rct",
+    "fda-503a-categories-2026-05-14",
+    "hannah-shmouni-2026-ppg-aug"
+   ]
+  },
+  {
+   "id": "cq-m04-2",
+   "prompt": {
+    "en": "Oral collagen trials pooled together look positive. What did splitting them by funding and quality show?"
+   },
+   "options": [
+    {
+     "text": {
+      "en": "The benefit held in every subgroup."
+     },
+     "why": {
+      "en": "It did not: independent and high-quality trials showed no effect."
+     }
+    },
+    {
+     "text": {
+      "en": "The benefit appeared only in pharmaceutical-funded and lower-quality trials."
+     },
+     "why": {
+      "en": "Correct — Myung and Park, 2025, 23 RCTs."
+     }
+    },
+    {
+     "text": {
+      "en": "Independent trials showed harm."
+     },
+     "why": {
+      "en": "No harm signal was reported; the finding is about absence of benefit."
+     }
+    }
+   ],
+   "correct": 1,
+   "rationale": {
+    "en": "Funding and study quality can explain a pooled effect; ask who ran the trial before what it showed."
+   },
+   "pillar": "evidence-appraisal",
+   "citationRefs": [
+    "myung-2025-collagen-funding-meta",
+    "pu-2023-oral-collagen-meta"
+   ]
+  }
+ ],
+ "tutorEntries": [
+  {
+   "id": "tutor-m04-ghkcu",
+   "keys": [
+    "ghk-cu",
+    "ghk",
+    "copper peptide",
+    "copper peptides",
+    "copper serum",
+    "inject ghk",
+    "ghk injection",
+    "is ghk-cu legal"
+   ],
+   "answer": {
+    "en": "Topical GHK-Cu has a plausible copper-enzyme mechanism and small-trial human support (GRADE C); injected GHK-Cu has no randomized trials and commonly irritates. In the US, as of FDA's 14 May 2026 list, non-injectable GHK-Cu is in 503A Category 1 (under evaluation, not approved); the injectable route is excluded. This course gives no doses or sourcing advice — for an individual patient, that is the prescriber's decision."
+   },
+   "citationRefs": [
+    "miller-2006-ghk-cu-laser-rct",
+    "fda-503a-categories-2026-05-14",
+    "hannah-shmouni-2026-ppg-aug"
+   ],
+   "scope": "m04"
+  },
+  {
+   "id": "tutor-m04-bpc157",
+   "keys": [
+    "bpc-157",
+    "bpc 157",
+    "bpc",
+    "tb-500",
+    "tb500",
+    "glow",
+    "klow",
+    "kpv",
+    "repair peptides"
+   ],
+   "answer": {
+    "en": "BPC-157's evidence is rodent studies from one group plus uncontrolled case series; no randomized efficacy trial in people has been published (September 2026). TB-500 is a seven-residue fragment of thymosin beta-4 that has never been trialled; KPV has only mouse data. GLOW and KLOW are marketing names for untested blends. FDA's advisory committee reviewed BPC-157, KPV and TB-500 in July 2026 — advice only; they are not on the 503A bulks list. New pigmentation while using research-use-only peptides is a red flag: stop, record the product and source, and get it assessed."
+   },
+   "citationRefs": [
+    "seiwerth-2021-bpc157-wound-healing",
+    "esposito-2012-tb500-fragment",
+    "fda-pcac-2026-07-meeting",
+    "hannah-shmouni-2026-are"
+   ],
+   "scope": "m04"
+  }
  ]
 }

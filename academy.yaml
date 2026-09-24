@@ -6,29 +6,43 @@ brand:
     en: { voice_id: "", name: "" }
   name: Hormonaly Academy
   shortName: Hormonaly
-  logo: ./assets/hormonaly-logo.png     # INTAKE: logo asset pending from customer
-  accent: "#0a7a72"                     # placeholder until brand kit arrives
-  tagline: { es: "", en: "The skin–endocrine system, evidence-graded." }
+  wordmarkSuffix: ACADEMY              # typographic wordmark (no logo asset yet): "Hormonaly" in the display serif + mono suffix
+  logo: ./assets/hormonaly-logo.png     # INTAKE: logo asset pending from customer — until it ships in public/, the wordmark renders
+  theme: perceptors-editorial           # Perceptors editorial skin (paper · ink · violet · Fraunces/DM Sans/DM Mono), Omar 2026-09-24
+  accent: "#5A4BC4"                     # Perceptors violet (house theme tier 0)
+  palette:                              # house theme tier 0, pinned (perceptor-foundry templates/house-theme.yaml)
+    primary: "#5A4BC4"
+    primaryDeep: "#4A3DA6"
+    primaryDeepest: "#38308F"
+    primarySoft: "#E9E5F7"
+    ink: "#1C1B2B"
+    paper: "#F4F1E9"
+    line: "#D7D2C8"
+  fonts:
+    display: Fraunces
+    body: DM Sans
+    mono: DM Mono
+  tagline: { en: "The skin–endocrine system, evidence-graded." }
   supportEmail: support@hormonaly.ai    # placeholder — confirm with customer
   issuer: Hormonaly Academy
 catalog:
-  - course: packages/aesthetic-regenerative-endocrinology.json   # package not yet authored — Stage 20+
+  # The academy's first catalog entry is the course the runtime serves. The 2026-09-02 intake placeholder
+  # (packages/aesthetic-regenerative-endocrinology.json, never authored) was removed 2026-09-24 so the catalog gate passes;
+  # re-add it when that package exists.
+  - course: packages/hormones-peptides-skin.json          # Hormones and Peptides for Skin (SEASON skin edition of the peptide master)
     status: draft
     series: regenerative-endocrinology
     order: 1
-    entitlement: { type: open }         # INTAKE: confirm open vs invite vs paid cohorts
-    certificate: { access: included }
-  - course: packages/hormones-peptides-skin.json          # stage 20 skeleton (2026-09-22); SEASON skin edition of the peptide master
-    status: draft
-    series: regenerative-endocrinology
-    order: 2
     entitlement: { type: open }         # free to learners per the SEASON model; confirm for the Hormonaly tenant
     certificate: { access: included }
 modules: { fieldbook: true, promptLab: false, webinars: false, blog: false, peers: false, achievements: false }
 accreditation:
-  gcls: false                   # INTAKE: licensed add-on decision pending
+  gcls: true                    # GCLS-issued certificate once accredited (Omar 2026-09-24: "start having it be a GCLS-accredited certificate")
+  reviewAccessDays: 30          # reviewer access expires; re-deploy or re-seed to extend
+  reviewers:                    # GCLS review room (/review) — seeded server-side, never in the client bundle
+    - { email: d.thor@gcls.study, name: "Dr. Dominik Thor, MSc", role: "President · Professor of Pharmacy, Geneva College of Longevity Science" }
 notifications:
   newCourse: [push, email]
 auth:
   methods: [password, email-link]
-admins: []                          # INTAKE: course-admin emails pending
+admins: [omar@hormonaly.ai, omar@perceptors.ai]   # Omar (reviewer of record / publish owner); add Hormonaly admins when named

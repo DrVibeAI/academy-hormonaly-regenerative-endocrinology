@@ -1,11 +1,8 @@
-# Module 04 — review draft
+# Hormones and Peptides for Skin · Module 04 — review draft
 
-*Hormones and Peptides for Skin · stage 30 `ai_draft` · authored 2026-09-24 · 19 moments, ~26 min + module check*
+*approved · authored 2026-09-24 · 19 moments, ~26 min + module check · 50 sources · 20 claims*
 
-For review by Omar Saleem, then Dr. Fady Hannah-Shmouni (final). Every factual sentence traces to the graded registry in
-`citations/m04.md` (50 sources, 20 claims). No dosing appears anywhere, by design. Audience: all
-clinicians; moments marked **By role** carry three versions of the "what you do next" copy (prescriber · clinical staff · advisor) —
-grades and regulatory facts never change by role. The last section lists what the author should check.
+Every factual sentence traces to the graded registry (`citations/m04.md`). Moments marked **By role** carry the prescriber · clinical staff · advisor versions of the practice guidance; grades and regulatory facts never change by role.
 
 
 ## Lesson 4.1 · Copper peptides: GHK and GHK-Cu
@@ -44,7 +41,7 @@ Start with the molecule. GHK is a three-amino-acid peptide that circulates in hu
 
 </details>
 
-<sub>Sources: Pickart L 1973 · Pickart L 2015 · Pickart L 2018 · Pickart L 2008 · Peptide Pocket Guide (Aug 2026) · Pickart L 2012</sub>
+<sub>Sources: Pickart L 1973 · Pickart L 2015 · Pickart L 2018 · Pickart L 2008 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Pickart L 2012</sub>
 
 ### 04 / 19 · One indexed randomized trial.  
 *Human evidence · stat*
@@ -55,7 +52,7 @@ A search of PubMed in September 2026 found one randomized controlled trial of to
 *Means:* The human evidence for topical GHK-Cu is small: one small indexed trial plus sponsor-run cosmetic studies. GRADE C is the honest ceiling.  
 *Does not mean:* It does not show that GHK-Cu fails, that it treats photoageing, or anything about injecting it. A thin evidence base is an unknown, not a negative.
 
-<sub>Sources: Miller TR 2006 · Peptide Pocket Guide (Aug 2026) · Aesthetic & Regenerative Endocrinology 2026 · Hudson Biotech 2026</sub>
+<sub>Sources: Miller TR 2006 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · Hudson Biotech 2026</sub>
 
 ### 05 / 19 · Keep the four answers apart.  
 *Four registers · tool*
@@ -71,7 +68,7 @@ Every peptide question has four separate answers. For GHK-Cu they point in diffe
 
 **Callout:** A strong mechanism is not a strong trial, and a Category 1 listing is not an approval.
 
-<sub>Sources: Pickart L 2015 · Miller TR 2006 · Hostynek JJ 2010 · Ogórek K 2025 · US Food and Drug Administration 2026 · US Food and Drug Administration 2026 · Peptide Pocket Guide (Aug 2026) · Aesthetic & Regenerative Endocrinology 2026 · Mazurowska L 2008</sub>
+<sub>Sources: Pickart L 2015 · Miller TR 2006 · Hostynek JJ 2010 · Ogórek K 2025 · US Food and Drug Administration 2026 · US Food and Drug Administration 2026 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · Mazurowska L 2008</sub>
 
 ### 06 / 19 · Serum yes, syringe no.  
 *What changes in practice · audio*
@@ -93,7 +90,7 @@ Here is what that means in the room. Topical GHK-Cu is a reasonable cosmetic con
 
 </details>
 
-<sub>Sources: Peptide Pocket Guide (Aug 2026) · Aesthetic & Regenerative Endocrinology 2026 · Li H 2016 · US Food and Drug Administration 2026</sub>
+<sub>Sources: The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · Li H 2016 · US Food and Drug Administration 2026</sub>
 
 ### 07 / 19 · Is the injection 'stronger'?  
 *Your turn · quiz*
@@ -123,7 +120,7 @@ Lesson two covers three families that fill the cosmetic and supplement shelves. 
 
 </details>
 
-<sub>Sources: Lupo MP 2007 · Lintner K 2000 · Blanes-Mira C 2002 · Errante F 2020 · Aesthetic & Regenerative Endocrinology 2026 · Schagen SK 2017</sub>
+<sub>Sources: Lupo MP 2007 · Lintner K 2000 · Blanes-Mira C 2002 · Errante F 2020 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · Schagen SK 2017</sub>
 
 ### 09 / 19 · A trial, or a brochure?  
 *Sort the evidence · tool*
@@ -147,7 +144,7 @@ Five products from two families, and what each promises on the label. Before you
 - SNAP-8 → **Manufacturer data only** — *GRADE D. Its efficacy figures come from the manufacturer, and the indexed studies test it mixed with other actives, so none isolates it.*
 - Leuphasyl → **Manufacturer data only** — *GRADE D. Manufacturer studies and an in-vitro synergy figure; no independent or indexed human trial.*
 
-<sub>Sources: Robinson LR 2005 · Aruan RR 2023 · Wang Y 2013 · Errante F 2020 · Shin JY 2024 · Avcil M 2020 · Peptide Pocket Guide (Aug 2026) · Aesthetic & Regenerative Endocrinology 2026</sub>
+<sub>Sources: Robinson LR 2005 · Aruan RR 2023 · Wang Y 2013 · Errante F 2020 · Shin JY 2024 · Avcil M 2020 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
 
 ### 10 / 19 · Twenty-three trials, split by who paid.  
 *The evidence · stat*
@@ -158,7 +155,7 @@ Pooled, oral collagen trials show better hydration, elasticity and wrinkle score
 *Means:* The pooled benefit of oral collagen disappears when you look only at independent or high-quality trials. The course keeps the guide's GRADE C and shows why a downgrade has been proposed to its author.  
 *Does not mean:* It does not show collagen is harmful, and it does not rule out benefit for an individual. It is a statement about the evidence, and it says nothing about topical peptides.
 
-<sub>Sources: Myung SK 2025 · Pu SY 2023 · de Miranda RB 2021 · Kim DU 2018 · Aesthetic & Regenerative Endocrinology 2026</sub>
+<sub>Sources: Myung SK 2025 · Pu SY 2023 · de Miranda RB 2021 · Kim DU 2018 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
 
 ### 11 / 19 · Cosmetic, supplement, drug: three rulebooks.  
 *What changes in practice · audio*
@@ -180,7 +177,7 @@ Now the regulatory register, stated for the United States. Cosmetic peptides are
 
 </details>
 
-<sub>Sources: Bjerke DL 2026 · Lupo MP 2007 · Aesthetic & Regenerative Endocrinology 2026 · Peptide Pocket Guide (Aug 2026)</sub>
+<sub>Sources: Bjerke DL 2026 · Lupo MP 2007 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026</sub>
 
 ### 12 / 19 · 'Clinically proven' collagen.  
 *Your turn · quiz*
@@ -210,7 +207,7 @@ Lesson three moves from the cosmetic shelf to the peptides patients buy online a
 
 </details>
 
-<sub>Sources: Sikiric P 2018 · Seiwerth S 2021 · Lee E 2021 · Esposito S 2012 · Crockford D 2010 · Dalmasso G 2008 · Kannengiesser K 2008 · Peptide Pocket Guide (Aug 2026) · Sikirić P 1993</sub>
+<sub>Sources: Sikiric P 2018 · Seiwerth S 2021 · Lee E 2021 · Esposito S 2012 · Crockford D 2010 · Dalmasso G 2008 · Kannengiesser K 2008 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Sikirić P 1993</sub>
 
 ### 14 / 19 · Zero published efficacy trials.  
 *The evidence · stat*
@@ -237,7 +234,7 @@ LL-37, the skin's own cathelicidin, is the one repair peptide with two randomize
 
 **Callout:** A small positive trial is a hypothesis. LL-37 is what happens when someone tests it.
 
-<sub>Sources: Grönberg A 2014 · Mahlapuu M 2021 · Schauber J 2008 · Peptide Pocket Guide (Aug 2026)</sub>
+<sub>Sources: Grönberg A 2014 · Mahlapuu M 2021 · Schauber J 2008 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026</sub>
 
 ### 16 / 19 · Where does it stand in the US?  
 *Regulatory status · tool*
@@ -260,7 +257,7 @@ Three US categories, dated to the FDA's category list of 14 May 2026 and the adv
 - BPC-157 for injection → **Not on the bulks list** — *Reviewed by the advisory committee in July 2026; not on the bulks list unless and until FDA acts by rulemaking.*
 - TB-500 → **Not on the bulks list** — *Same position as BPC-157 after the July 2026 review.*
 
-<sub>Sources: US Food and Drug Administration 2026 · US Food and Drug Administration 2026 · US Food and Drug Administration 2026 · US Food and Drug Administration 2026 · US Food and Drug Administration 2020 · Aesthetic & Regenerative Endocrinology 2026</sub>
+<sub>Sources: US Food and Drug Administration 2026 · US Food and Drug Administration 2026 · US Food and Drug Administration 2026 · US Food and Drug Administration 2026 · US Food and Drug Administration 2020 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
 
 ### 17 / 19 · New dark patches, three months into 'GLOW'.  
 *Fictional case · audio*
@@ -292,7 +289,7 @@ A fictional case, built from this lesson's evidence. A forty-six-year-old patien
 
 </details>
 
-<sub>Sources: Aesthetic & Regenerative Endocrinology 2026 · Peptide Pocket Guide (Aug 2026) · Vanhee C 2020 · Ashraf AR 2024 · US Food and Drug Administration 2026 · US Food and Drug Administration 2026</sub>
+<sub>Sources: Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Vanhee C 2020 · Ashraf AR 2024 · US Food and Drug Administration 2026 · US Food and Drug Administration 2026</sub>
 
 ### 18 / 19 · After the July review.  
 *Your turn · quiz*
@@ -317,7 +314,7 @@ Build the checklist you will actually use. It is saved to your path and your tut
 - *Clinical staff:* Your checklist ends with escalation: anything injected or research-use-only goes to the prescriber the same day.
 - *Advisor:* Your checklist ends with referral: product questions you can answer; treatment questions go to a prescriber.
 
-<sub>Sources: Aesthetic & Regenerative Endocrinology 2026 · US Food and Drug Administration 2026</sub>
+<sub>Sources: Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · US Food and Drug Administration 2026</sub>
 
 
 ## Module check

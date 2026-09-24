@@ -58,6 +58,8 @@ for f in sorted((HERE / "citations").glob("*.json")):
     reg = json.loads(f.read_text())
     LIT[reg["module"]] = reg
     for c in reg["citations"]:
+        if any(x["id"] == c["id"] for x in CITATIONS):
+            continue  # the same source registered by two modules: first registry wins
         entry = {k: c[k] for k in CITATION_FIELDS if k in c}
         entry["note"] = {"en": f"{c.get('design','')} · {c.get('independence','')} · role: {c.get('role','')}" + (f" · PMID {c['pmid']}" if c.get("pmid") else "") + (f" · {c['note']}" if c.get("note") else "")}
         CITATIONS.append(entry)
@@ -160,6 +162,7 @@ for i, m in enumerate(outline["modules"], 1):
                                        | {r for b in authored["blocks"] for r in (b.get("interaction") or {}).get("citationRefs", [])}
                                        | {r for b in authored["blocks"] for r in (b.get("quiz") or {}).get("citationRefs", [])})
         story["blocks"] = authored["blocks"]
+        story["status"] = authored.get("status", "ai_draft")
         story["metadata"] = {"lessons": authored["lessons"], "audienceLevelPanes": authored.get("audienceLevelPanes", []),
                              "authoredAt": authored["authoredAt"], "source": f"course-production/hormones-peptides-skin/authored/{mid}.json"}
         units = [story]
@@ -176,7 +179,7 @@ for i, m in enumerate(outline["modules"], 1):
         "sortOrder": i,
         "prerequisites": PREREQS.get(m["id"], []),
         "isCapstone": False,
-        "status": "ai_draft",
+        "status": (authored or {}).get("status", "ai_draft"),
         "units": units,
         **({"check": authored["check"]} if authored else {}),
         "metadata": {
@@ -223,6 +226,18 @@ assessments += [
     },
 ]
 
+COURSE_QUIZ = [q for mid in sorted(AUTHORED) for q in AUTHORED[mid].get("courseQuiz", [])]
+TUTOR = [t for mid in sorted(AUTHORED) for t in AUTHORED[mid].get("tutorEntries", [])]
+ASSESSMENTS = []
+if COURSE_QUIZ:
+    ASSESSMENTS.append({
+        "id": "course-quiz", "kind": "course-quiz",
+        "title": {"en": "Final check · Hormones and Peptides for Skin"},
+        "questions": COURSE_QUIZ, "passingScorePct": 80,
+        "weightDistribution": {p: round(sum(1 for q in COURSE_QUIZ if q.get("pillar") == p) / len(COURSE_QUIZ), 2) for p in PILLARS},
+        "status": "ai_draft",
+    })
+
 pkg = {
     "packageSchemaVersion": "0.1.0",
     "id": "hormonaly.hormones-peptides-skin",
@@ -235,10 +250,10 @@ pkg = {
         "id": "hormonaly",
         "name": "Hormonaly Academy",
         "deploymentProfile": "branded",
-        "brand": {"displayName": "Hormonaly Academy", "accentColor": "#0a7a72", "brandOwner": "Hormonaly.ai"},
+        "brand": {"displayName": "Hormonaly Academy", "accentColor": "#5A4BC4", "brandOwner": "Hormonaly.ai"},
         "client": {
             "organization": "Hormonaly.ai / Hormonaly Press",
-            "productContext": "Skin edition of the Hormonaly peptide master course; commissioned by SEASON Aesthetic Conferences (Perceptors.ai partnership) and built without waiting for their reviewer.",
+            "productContext": "Skin edition of the Hormonaly peptide master course for clinicians, commissioned by SEASON Aesthetic Conferences and built on Perceptors.",
         },
     },
     "baseLocale": "en",
@@ -253,7 +268,7 @@ pkg = {
             "registered nurse, aesthetic nurse or injector who delivers treatments and fields patient questions",
             "other licensed providers (pharmacists, naturopathic doctors, allied aesthetic professionals) who advise on skin products and referrals",
         ],
-        "professionalScope": {"en": "Continuing professional education for licensed clinicians and allied providers. Every learner gets the same evidence, regulatory status and safety content; what each may do with it — prescribe, recommend, administer, or refer — follows their own licence and scope, and the course adapts its application layer to that (see metadata.variants). It informs clinical reasoning; it is not a protocol, contains no dosing, and does not replace specialist input, formal guidelines or individual judgment."},
+        "professionalScope": {"en": "Continuing professional education for licensed clinicians and allied providers. Every learner gets the same evidence, regulatory status and safety content; what each may do with it — prescribe, recommend, administer, or refer — follows their own licence and scope, and the course adapts its practice guidance to that role. It informs clinical reasoning; it is not a protocol, contains no dosing, and does not replace specialist input, formal guidelines or individual judgment."},
         "disclaimers": [
             {"en": "Educational content for clinicians. It does not prescribe, and it never restates an evidence grade above what the source assigns to the specific indication."},
             {"en": "Regulatory statements name their jurisdiction. US compounding examples (FDA 503A/503B) do not describe UK or EU status."},
@@ -292,17 +307,19 @@ pkg = {
         "claims": CLAIMS,
     },
     "curriculum": {"pillars": PILLARS, "modules": modules},
+    **({"assessments": ASSESSMENTS} if ASSESSMENTS else {}),
+    **({"tutorCorpus": TUTOR} if TUTOR else {}),
     "credential": {
         "type": "certification",
         "title": {"en": "Certificate · Hormones and Peptides for Skin"},
         "issuer": {"name": "Geneva College of Longevity Science", "linkedinOrganizationName": "Geneva College of Longevity Science"},
-        "coBrand": {"displayName": "Hormonaly Academy", "accentColor": "#0a7a72", "lockup": {"en": "Issued by Geneva College of Longevity Science (GCLS) · Hormonaly Academy co-brand · verified by Perceptors"}},
-        "requirements": {"assessmentRefs": ["course-quiz", "capstone"], "capstoneRequired": True, "vivaRequired": False, "passingScorePct": 80},
+        "coBrand": {"displayName": "Hormonaly Academy", "accentColor": "#5A4BC4", "lockup": {"en": "Issued by Geneva College of Longevity Science (GCLS) · Hormonaly Academy co-brand · verified by Perceptors"}},
+        "requirements": {"assessmentRefs": ["course-quiz"], "capstoneRequired": False, "vivaRequired": False, "passingScorePct": 80},
         "sharing": {"linkedin": True, "nativeShare": True, "directoryOptIn": True},
     },
     "governance": {
         "requiredGates": ["medical_review", "brand_approval", "localization_review", "gcls_accreditation", "publish"],
-        "approvals": [],
+        "approvals": [a["approval"] for a in AUTHORED.values() if a.get("approval")],
         "accreditation": {
             "body": "GCLS", "status": "not_submitted",
             "notes": "Designed toward future CME accreditation (Omar 2026-09-21; pathway confirmed 2026-09-24: CME to be sought through SEASON and its accredited joint-providership partner). CME-style measurable objectives, independence from commercial bias, disclosure of financial relationships. No CME/CE credit is claimed until that approval exists. GCLS accreditation add-on decision still pending from intake.",
@@ -342,6 +359,7 @@ pkg = {
         },
         "openItems": [
             "author findings for Dr. Hannah-Shmouni (citations/m04.md, end) — send with the final draft",
+            "capstone (adversarial co-design conversation) needs a package-driven runtime capstone; credential.capstoneRequired is false until then",
             "SEASON reviewer",
             "balance between endocrinopathy-with-skin-signs and elective aesthetic peptide content (plan question 2)",
             "GB/EU regulatory mapping for the SEASON London audience",
