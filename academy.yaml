@@ -15,6 +15,43 @@ brand:
   tagline: { en: "Hormones and peptides, evidence-graded." }   # academy-level: every course in the catalog sits under it
   supportEmail: support@hormonaly.ai    # placeholder — confirm with customer
   issuer: Hormonaly Academy
+# Academy homepage (public, before sign-in) — Perceptors house design (design.md tier 0, perceptor-foundry docs/brand.md).
+# The course list, numbers and audiences come from the catalog packages at build time; only the words below are written here.
+# No accreditation or credit claim appears unless the package records it (runtime gate).
+home:
+  kicker: { en: "Hormonaly Academy · for clinicians" }
+  headline: { en: "Hormones and peptides, evidence-graded." }
+  lede: { en: "Short courses for clinicians who are asked about hormone and peptide treatments for skin, hair and ageing. Every statement is graded and traced to its source, and a physician reviews every course before it opens." }
+  primaryAction: { en: "Start learning" }
+  secondaryAction: { en: "See the courses" }
+  coursesTitle: { en: "Courses" }
+  coursesNote: { en: "More peptide courses are in preparation." }
+  steps:
+    - title: { en: "Learn in short moments" }
+      body: { en: "Each module is a run of moments of a few minutes each, with exercises and a check at the end. Your place is saved on any device." }
+    - title: { en: "See the grade behind every claim" }
+      body: { en: "Mechanism, human evidence, regulatory status and open questions are kept apart, and each claim carries its evidence grade and its sources." }
+    - title: { en: "Practice guidance for your role" }
+      body: { en: "Prescribers, clinical staff and advisers get the same evidence; what to do next adapts to your scope of practice." }
+    - title: { en: "Ask the course" }
+      body: { en: "A tutor answers from the course and its sources only, and says so when the course does not cover your question." }
+  evidence:
+    title: { en: "How the evidence is checked" }
+    body: { en: "Sources are read and graded before a course is written. An automated check then matches each cited statement to a passage in its source, and a physician reviews the whole course, including the quiz and the tutor's answers, before it opens. Dosing is excluded by design." }
+  reviewers:
+    - name: "Dr. Fady Hannah-Shmouni, MD FRCPC"
+      role: { en: "Medical review · author of the Hormonaly pocket guides on aesthetic and regenerative endocrinology and on peptides" }
+  faq:
+    - q: { en: "Does the course give doses or protocols?" }
+      a: { en: "No. It teaches the evidence, the regulatory status and what each role can safely do next. Dosing and product sourcing are excluded by design." }
+    - q: { en: "Which countries does the regulatory content cover?" }
+      a: { en: "The United States and the United Kingdom, each labelled and dated. Other countries are not covered." }
+    - q: { en: "Is there CME or CE credit?" }
+      a: { en: "Not yet. The course is designed toward future CME accreditation, and no credit is offered at this time." }
+    - q: { en: "What do I get at the end?" }
+      a: { en: "Pass the final check with 80% or more to receive a certificate of completion with a public verification code." }
+  disclaimer: { en: "Educational content for licensed clinicians. It does not replace clinical judgement, specialist input or formal guidelines." }
+
 catalog:
   # The academy's first catalog entry is the course the runtime serves. The 2026-09-02 intake placeholder
   # (packages/aesthetic-regenerative-endocrinology.json, never authored) was removed 2026-09-24 so the catalog gate passes;
