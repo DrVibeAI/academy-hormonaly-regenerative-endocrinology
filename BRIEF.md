@@ -40,6 +40,7 @@ scope: { courses: 1, deliveryTemplate: certification-course, sessionMinutes: 5 }
 productPacket:
   artifacts:
     - { type: guide, title: "Aesthetic & Regenerative Endocrinology — clinician pocket guide (Hormonaly Press, 1st ed. 2026)", uri: "corpus/hormonaly-pocket-guide-2026.pdf", rights: customer-owned, quotable: true }
+    - { type: guide, title: "The Peptide Pocket Guide — Volume One, seventy therapeutics (Hormonaly Press, 2026 edition)", uri: "corpus/peptide-pocket-guide-2026.pdf", rights: customer-owned, quotable: true }
   claimsBoundary: { approved: [], prohibited: [] }   # INTAKE: customer's marketing/legal boundary not provided; draft mustNever above is the factory default
 commercial:
   entitlement: open
@@ -87,3 +88,15 @@ regulated territory. Jurisdiction confirmation is the first blocking item —
 it determines the authorities layer and what the course can say about
 approval status. The factory default boundaries above are conservative until
 the customer's claims boundary arrives.
+
+## Second source artifact — The Peptide Pocket Guide (registered 2026-09-10)
+
+Omar confirmed on 2026-09-10 that **The Peptide Pocket Guide** (Hormonaly Press 2026, Volume One: seventy peptide
+therapeutics, biologics and mixtures, one page each with GRADE rating, mechanism, indications, dosing, evidence summary,
+safety, clinical caveat and key references; 123 pp) is the source the **peptide course** is built from. It is registered
+above as a second `productPacket.artifacts` entry (`corpus/peptide-pocket-guide-2026.pdf`, text extraction alongside).
+
+Scope decision still open (kickoff): whether *Peptide Foundations* ships as a second course inside Hormonaly Academy
+(`scope.courses: 2`) or as its own academy; either way it is the master for the Biolongeva (pt-BR / es-MX) and
+SEASON skin editions — one evidence core, editions per academy. Boundaries above apply verbatim: the guide's dosing
+pages inform the source lock but the course never prescribes doses.

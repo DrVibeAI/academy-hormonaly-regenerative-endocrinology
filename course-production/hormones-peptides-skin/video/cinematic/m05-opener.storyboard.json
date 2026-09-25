@@ -1,0 +1,273 @@
+{
+  "format": "cinematic/1",
+  "id": "m05-opener",
+  "title": "Module 05 opener — Hormones and Peptides for Skin",
+  "note": "Module opener in the cinematic lane (docs/motion-contract.md § 10b), same look and rules as the Module 1 opener. Script assembled only from approved text (sources below); presenter lines pass the course script review; draft media until the media preview.",
+  "script": {
+    "text": "Two requests reach aesthetic clinics well ahead of their evidence: a peptide to regrow hair and an injection to tan. In three lessons you will see how the follicle and the pigment system run on the skin's own hormones, why one melanocortin drug is approved while its gray-market cousin is approved nowhere, and how to grade the hair peptides patients bring to you. Each hair follicle behaves like a small gland. When researchers keep human scalp follicles alive in culture, the follicles answer corticotropin-releasing hormone the way the pituitary and adrenal glands do. They make ACTH and alpha-MSH, they secrete cortisol, and cortisol-like signals feed back to switch the stimulus down. On the scalp, an enzyme called five-alpha-reductase turns testosterone into dihydrotestosterone, and in genetically susceptible follicles that hormone drives the gradual shrinking behind pattern hair loss. Most of this biology comes from tissue kept alive outside the body, so hold it as mechanism, a reason something might matter in patients.",
+    "sources": [
+      "m5-p01 body, sentences 1, 2",
+      "m5-p02 audioScript, sentences 1, 2, 3, 5, 8"
+    ],
+    "locale": "en"
+  },
+  "voice": {
+    "provider": "gemini-tts",
+    "voice_id": "en-gb-tutor-1",
+    "name": "Gemini 3.8 TTS · en-gb-tutor-1 (Omar's pick 2026-09-25)",
+    "style": "Warm, clear and precise clinical educator speaking to physicians. Natural, unhurried pace. Pronounce every medical and chemical term carefully and confidently."
+  },
+  "presenter": {
+    "look": "2daeb4c1c74e491c89314a4e7dcd4879",
+    "engine": "avatar_v",
+    "resolution": "4k",
+    "name": "HeyGen stock avatar \"Iris\" (licensed)",
+    "disclosure": {
+      "en": "Presented by a digital avatar (AI-generated presenter and voice)."
+    }
+  },
+  "music": {
+    "src": "m05-score.mp3",
+    "lufs": -22
+  },
+  "chrome": {
+    "kicker": "MODULE 05 · FOLLICLE, PIGMENT AND MELANOCORTINS"
+  },
+  "lead": 0.12,
+  "assets": [
+    {
+      "src": "m5-follicle.png",
+      "kind": "image",
+      "candidates": 2,
+      "prompt": "Accurate scientific medical illustration: a single growing human scalp hair follicle in longitudinal section, centred with generous empty margins, like a textbook plate: the hair shaft, the inner and outer root sheaths, the sebaceous gland, and at the base the onion-shaped hair bulb cupping the dermal papilla. Along the outer root sheath, tiny violet signal molecules are released, travel down to the bulb, and a fine dotted violet loop returns from the bulb back up to the outer root sheath."
+    },
+    {
+      "src": "m5-miniaturisation.png",
+      "kind": "image",
+      "candidates": 2,
+      "prompt": "Accurate scientific medical illustration: three human scalp hair follicles in longitudinal section standing side by side at the same scale, centred with generous empty margins, showing progressive miniaturisation from left to right: a large deep terminal follicle with a thick pigmented hair, a mid-sized follicle with a thinner hair, and a small shallow miniaturised follicle with a fine, short, pale vellus-like hair. Same dermis and scalp surface line across all three."
+    },
+    {
+      "src": "m05-score.mp3",
+      "kind": "music",
+      "prompt": "Instrumental underscore for a 78-second medical education film opener about the hair follicle as a small gland: calm, precise and modern; soft felt piano motif over warm analogue synth pads, a light pulse at 96 BPM entering after 10 seconds, gentle build to a lift two thirds of the way through, resolving softly at the end; documentary feel, same palette as the series, no vocals, no heavy drums, leave space for narration."
+    }
+  ],
+  "states": [
+    {
+      "id": "intro",
+      "shape": {
+        "kind": "frame",
+        "fill": "ink"
+      },
+      "content": {
+        "video": {
+          "presenter": {
+            "from": "Two requests reach",
+            "to": "injection to tan"
+          },
+          "focus": [
+            0.5,
+            0.36
+          ],
+          "zoom": [
+            1.0,
+            1.07
+          ]
+        }
+      },
+      "kinetic": [
+        {
+          "on": "regrow hair",
+          "text": "A peptide to regrow hair"
+        },
+        {
+          "on": "injection to tan",
+          "text": "An injection to tan"
+        }
+      ],
+      "at": 0
+    },
+    {
+      "id": "lessons",
+      "on": "In three lessons",
+      "shape": {
+        "kind": "panel",
+        "fill": "card"
+      },
+      "list": {
+        "kicker": "Three lessons",
+        "rows": [
+          {
+            "label": "Follicle and pigment hormones",
+            "marks": 0
+          },
+          {
+            "label": "Approved vs gray-market",
+            "marks": 0
+          },
+          {
+            "label": "Grading hair peptides",
+            "marks": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "l1",
+      "on": "the follicle and the pigment system",
+      "indicator": {
+        "rows": [
+          0,
+          0
+        ],
+        "tag": null
+      }
+    },
+    {
+      "id": "l2",
+      "on": "one melanocortin drug",
+      "indicator": {
+        "rows": [
+          1,
+          1
+        ],
+        "tag": null
+      }
+    },
+    {
+      "id": "l3",
+      "on": "how to grade",
+      "indicator": {
+        "rows": [
+          2,
+          2
+        ],
+        "tag": null
+      }
+    },
+    {
+      "id": "follicle",
+      "on": "Each hair follicle behaves",
+      "shape": {
+        "kind": "window",
+        "fill": "paper",
+        "h": 1280
+      },
+      "kinetic": null,
+      "content": {
+        "image": {
+          "src": "m5-follicle.png",
+          "regions": {
+            "sheath": "the outer root sheath along the side of the follicle where violet molecules are released",
+            "bulb": "the onion-shaped hair bulb and dermal papilla at the base",
+            "loop": "the dotted violet loop returning from the bulb"
+          },
+          "focus": [
+            {
+              "on": "a small gland",
+              "region": "bulb",
+              "label": "A small gland"
+            },
+            {
+              "on": "alive in culture",
+              "zoom": 1
+            },
+            {
+              "on": "corticotropin-releasing hormone",
+              "region": "sheath",
+              "label": "CRH"
+            },
+            {
+              "on": "ACTH and alpha-MSH",
+              "region": "bulb",
+              "label": "ACTH · α-MSH · cortisol",
+              "zoom": 1.3
+            },
+            {
+              "on": "feed back",
+              "region": "loop",
+              "label": "Feedback"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dht",
+      "on": "On the scalp",
+      "shape": {
+        "kind": "window",
+        "fill": "paper",
+        "h": 1000
+      },
+      "kinetic": null,
+      "content": {
+        "image": {
+          "src": "m5-miniaturisation.png",
+          "regions": {
+            "terminal": "the large deep follicle on the left with a thick hair",
+            "small": "the small shallow follicle on the right with a fine short hair"
+          },
+          "focus": [
+            {
+              "on": "five-alpha-reductase",
+              "region": "terminal",
+              "label": "5α-reductase"
+            },
+            {
+              "on": "into dihydrotestosterone",
+              "region": "terminal",
+              "label": "Testosterone → DHT"
+            },
+            {
+              "on": "genetically susceptible",
+              "region": "small",
+              "label": "Susceptible follicles"
+            },
+            {
+              "on": "gradual shrinking",
+              "region": "small",
+              "label": "Miniaturisation",
+              "zoom": 1.3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "close",
+      "shape": {
+        "kind": "frame",
+        "fill": "ink"
+      },
+      "content": {
+        "video": {
+          "presenter": {
+            "from": "Most of this biology",
+            "to": "matter in patients"
+          },
+          "focus": [
+            0.5,
+            0.36
+          ],
+          "zoom": [
+            1.04,
+            1.1
+          ]
+        }
+      },
+      "kinetic": [
+        {
+          "on": "outside the body",
+          "text": "Tissue outside the body"
+        },
+        {
+          "on": "hold it as mechanism",
+          "text": "Hold it as mechanism"
+        }
+      ],
+      "on": "Most of this biology"
+    }
+  ]
+}

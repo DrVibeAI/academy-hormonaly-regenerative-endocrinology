@@ -1,0 +1,116 @@
+{
+ "films": [
+  {
+   "id": "asset-hps-m01-opener",
+   "block": "m1-opener",
+   "uri": "assets/hormones-peptides-skin/video/m01-opener.mp4",
+   "poster": "assets/hormones-peptides-skin/video/m01-opener-poster.jpg",
+   "durationSeconds": 70.26,
+   "storyboard": "course-production/hormones-peptides-skin/video/cinematic/m01-opener.storyboard.json",
+   "models": "HeyGen Avatar V (stock look) · Gemini 3.8 TTS en-gb-tutor-1 · GPT Image 2.5 · Veo 3.1 · Lyria 3.5 · HyperFrames",
+   "disclosure": {
+    "en": "Presented by a digital avatar (AI-generated presenter and voice)."
+   },
+   "scriptSources": [
+    "m1-p01 body, sentences 1–2",
+    "m1-p03 audioScript, sentences 1–8"
+   ]
+  },
+  {
+   "id": "asset-hps-m02-opener",
+   "block": "m2-opener",
+   "uri": "assets/hormones-peptides-skin/video/m02-opener.mp4",
+   "poster": "assets/hormones-peptides-skin/video/m02-opener-poster.jpg",
+   "durationSeconds": 76.14,
+   "storyboard": "course-production/hormones-peptides-skin/video/cinematic/m02-opener.storyboard.json",
+   "models": "HeyGen Avatar V (stock look) · Gemini 3.8 TTS en-gb-tutor-1 · GPT Image 2.5 · Veo 3.1 · Lyria 3.5 · HyperFrames",
+   "disclosure": {
+    "en": "Presented by a digital avatar (AI-generated presenter and voice)."
+   },
+   "scriptSources": [
+    "m2-p01 body, sentences 1, 2, 3",
+    "m2-p02 audioScript, sentences 1, 2, 3, 4, 5, 6, 7"
+   ]
+  },
+  {
+   "id": "asset-hps-m03-opener",
+   "block": "m3-opener",
+   "uri": "assets/hormones-peptides-skin/video/m03-opener.mp4",
+   "poster": "assets/hormones-peptides-skin/video/m03-opener-poster.jpg",
+   "durationSeconds": 72.34,
+   "storyboard": "course-production/hormones-peptides-skin/video/cinematic/m03-opener.storyboard.json",
+   "models": "HeyGen Avatar V (stock look) · Gemini 3.8 TTS en-gb-tutor-1 · GPT Image 2.5 · Veo 3.1 · Lyria 3.5 · HyperFrames",
+   "disclosure": {
+    "en": "Presented by a digital avatar (AI-generated presenter and voice)."
+   },
+   "scriptSources": [
+    "m3-p01 body, sentences 1, 2",
+    "m3-p02 audioScript, sentences 1, 2, 3, 4, 5, 6, 7, 8, 9"
+   ]
+  },
+  {
+   "id": "asset-hps-m04-opener",
+   "block": "m4-opener",
+   "uri": "assets/hormones-peptides-skin/video/m04-opener.mp4",
+   "poster": "assets/hormones-peptides-skin/video/m04-opener-poster.jpg",
+   "durationSeconds": 67.1,
+   "storyboard": "course-production/hormones-peptides-skin/video/cinematic/m04-opener.storyboard.json",
+   "models": "HeyGen Avatar V (stock look) · Gemini 3.8 TTS en-gb-tutor-1 · GPT Image 2.5 · Veo 3.1 · Lyria 3.5 · HyperFrames",
+   "disclosure": {
+    "en": "Presented by a digital avatar (AI-generated presenter and voice)."
+   },
+   "scriptSources": [
+    "m4-p01 body, sentences 1, 2",
+    "m4-p03 audioScript, sentences 1, 2, 3, 4, 5, 6, 7, 8"
+   ]
+  },
+  {
+   "id": "asset-hps-m05-opener",
+   "block": "m5-opener",
+   "uri": "assets/hormones-peptides-skin/video/m05-opener.mp4",
+   "poster": "assets/hormones-peptides-skin/video/m05-opener-poster.jpg",
+   "durationSeconds": 71.26,
+   "storyboard": "course-production/hormones-peptides-skin/video/cinematic/m05-opener.storyboard.json",
+   "models": "HeyGen Avatar V (stock look) · Gemini 3.8 TTS en-gb-tutor-1 · GPT Image 2.5 · Veo 3.1 · Lyria 3.5 · HyperFrames",
+   "disclosure": {
+    "en": "Presented by a digital avatar (AI-generated presenter and voice)."
+   },
+   "scriptSources": [
+    "m5-p01 body, sentences 1, 2",
+    "m5-p02 audioScript, sentences 1, 2, 3, 5, 8"
+   ]
+  },
+  {
+   "id": "asset-hps-m06-opener",
+   "block": "m6-opener",
+   "uri": "assets/hormones-peptides-skin/video/m06-opener.mp4",
+   "poster": "assets/hormones-peptides-skin/video/m06-opener-poster.jpg",
+   "durationSeconds": 83.54,
+   "storyboard": "course-production/hormones-peptides-skin/video/cinematic/m06-opener.storyboard.json",
+   "models": "HeyGen Avatar V (stock look) · Gemini 3.8 TTS en-gb-tutor-1 · GPT Image 2.5 · Veo 3.1 · Lyria 3.5 · HyperFrames",
+   "disclosure": {
+    "en": "Presented by a digital avatar (AI-generated presenter and voice)."
+   },
+   "scriptSources": [
+    "m6-p01 body, sentences 1, 2, 3",
+    "m6-p02 audioScript, sentences 1, 2, 3, 4, 5, 7, 8, 9, 10"
+   ]
+  },
+  {
+   "id": "asset-hps-m07-opener",
+   "block": "m7-opener",
+   "uri": "assets/hormones-peptides-skin/video/m07-opener.mp4",
+   "poster": "assets/hormones-peptides-skin/video/m07-opener-poster.jpg",
+   "durationSeconds": 75.3,
+   "storyboard": "course-production/hormones-peptides-skin/video/cinematic/m07-opener.storyboard.json",
+   "models": "HeyGen Avatar V (stock look) · Gemini 3.8 TTS en-gb-tutor-1 · GPT Image 2.5 · Veo 3.1 · Lyria 3.5 · HyperFrames",
+   "disclosure": {
+    "en": "Presented by a digital avatar (AI-generated presenter and voice)."
+   },
+   "scriptSources": [
+    "m7-p01 body, sentences 1, 2",
+    "m7-p02 audioScript, sentences 1, 2, 3, 4, 5, 6, 8, 9, 10"
+   ]
+  }
+ ]
+}

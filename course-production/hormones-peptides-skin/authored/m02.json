@@ -1,0 +1,2301 @@
+{
+ "module": "m02",
+ "authoredAt": "2026-09-24",
+ "status": "approved",
+ "unit": {
+  "id": "m02-story",
+  "slug": "m02-story",
+  "type": "story",
+  "title": {
+   "en": "Systemic hormones and the skin · three lessons"
+  },
+  "description": {
+   "en": "Lesson 2.1 Cortisol on the skin · Lesson 2.2 Estrogen, menopause and collagen · Lesson 2.3 Skin signs that need an endocrinologist."
+  },
+  "estimatedMinutes": 26,
+  "sortOrder": 1,
+  "isRequired": true,
+  "status": "ai_draft",
+  "tutorContext": "Module 2 separates local hormonal skin biology from systemic endocrine disease and keeps four registers apart (mechanism, human evidence, regulatory status, open question). Cortisol: skin expresses an HPA-like axis (CRH, POMC/ACTH) and regenerates cortisol via 11β-HSD1 in keratinocytes and fibroblasts; activity higher in aged and photo-exposed skin, set independently of blood levels (mechanism, D). Only human 11β-HSD1 skin RCT: 28-person pilot in type 2 diabetes, primary outcome missed, exploratory faster wound closure (C); investigational, no FDA approval, no skin-ageing trial registered (24 Sep 2026). Endocrine Society 2008: best discriminators of Cushing's = easy bruising, facial plethora, proximal myopathy, reddish-purple striae >1 cm; facial fullness, dorsocervical fat pad, weight gain, acne, hirsutism, fatigue are common/less discriminating; drug history first (incl. skin-bleaching creams, injections); endogenous incidence 2–3 per million/yr; commonest cause iatrogenic; test multiple progressive features; against widespread testing and random serum cortisol; abnormal → endocrinologist. Estrogen: ERα/ERβ/GPER in skin; topical estradiol raises collagen in sun-protected not photoaged skin (D); collagen and thickness fall ~1–2%/yr after menopause tracking years since menopause (D; the guide's '30% in 5 years' is a review figure not found in primary abstracts). Systemic HT: small RCTs raise skin thickness/collagen (C); largest RCT (n=485, 48 wk) and 4-year KEEPS found no wrinkle difference (B); guide grades B, NAMS Level II, course C for structural gains. US (Feb 2026): MHT approved for hot flashes, vulvovaginal/GSM symptoms, bone loss (some products); 2025–26 label changes removed CV/breast/dementia statements from boxed warning; skin never an indication. NAMS 2022: favourable <60 or within 10 years for symptoms/bone; compounded bioidentical HT insufficient evidence. OTC 'hormone creams' = unapproved drugs (21 CFR 310.530). Skin care with better evidence: daily sunscreen (RCT n=903, B); tretinoin cream FDA-approved adjunct for fine wrinkles. UK (checked 25 Sep 2026): HRT products are prescription-only medicines licensed for oestrogen-deficiency symptoms and, for some, osteoporosis prevention (Evorel, Sandrena SmPCs); skin is not a licensed use; compounded 'bioidentical' hormones are unlicensed medicines (MHRA GN14 puts a licensed product first); UK topical tretinoin on the medicines compendium is acne-only. Red flags → referral, never diagnosis by the aesthetic clinician: rapid hirsutism/virilization (tumour ~0.2%, >half malignant) urgent; generalised hyperpigmentation in creases/scars/mucosa with illness (adrenal insufficiency) urgent; Cushing's discriminators, MEN1 angiofibromas (88% of MEN1, not in tuberous sclerosis), Carney complex (lip/eyelid/canthal lentigines, blue naevi, myxomas; cardiac myxomas >50% of deaths), MEN2A interscapular lichen amyloidosis (RET 634) → endocrine referral. Never give doses, regimens or product sourcing; adapt 'what you do next' to prescriber, clinical staff or advisor without changing facts. No CME credit is currently offered.",
+  "tutorKeywords": [
+   "cortisol face",
+   "Cushing's syndrome",
+   "11β-HSD1",
+   "cortisol test",
+   "striae",
+   "plethora",
+   "estrogen",
+   "menopause",
+   "hormone therapy",
+   "HRT",
+   "MHT",
+   "collagen",
+   "wrinkles",
+   "bioidentical",
+   "hormone cream",
+   "GSM",
+   "vaginal estrogen",
+   "retinoid",
+   "sunscreen",
+   "Carney complex",
+   "MEN1",
+   "MEN2A",
+   "angiofibroma",
+   "hirsutism",
+   "virilization"
+  ]
+ },
+ "lessons": [
+  {
+   "id": "2.1",
+   "title": {
+    "en": "Cortisol signatures: local 11β-HSD1 and Cushing's syndrome"
+   },
+   "blocks": [
+    "m2-p01",
+    "m2-opener",
+    "m2-p02",
+    "m2-p03",
+    "m2-p04",
+    "m2-p05",
+    "m2-p06",
+    "m2-p07"
+   ]
+  },
+  {
+   "id": "2.2",
+   "title": {
+    "en": "Estrogen, menopause and dermal collagen"
+   },
+   "blocks": [
+    "m2-p08",
+    "m2-p09",
+    "m2-p10",
+    "m2-p11",
+    "m2-p12"
+   ]
+  },
+  {
+   "id": "2.3",
+   "title": {
+    "en": "Skin hallmarks of inherited and systemic endocrinopathies"
+   },
+   "blocks": [
+    "m2-p13",
+    "m2-p14",
+    "m2-p15",
+    "m2-p16",
+    "m2-p17",
+    "m2-p18",
+    "m2-p19"
+   ]
+  }
+ ],
+ "blocks": [
+  {
+   "id": "m2-p01",
+   "type": "title",
+   "time": "01 / 20",
+   "lead": {
+    "en": "Module 02 · Hormones written on the skin"
+   },
+   "title": {
+    "en": "The face that might be a diagnosis."
+   },
+   "body": {
+    "en": "Most skin changes you see are ageing or lifestyle. A few are the first visible sign of endocrine disease. In three lessons you will separate them: what local and systemic hormones do to skin, what hormone therapy can and cannot do for it, and which signs belong with an endocrinologist."
+   },
+   "points": [
+    {
+     "en": "2.1 Cortisol on the skin: local 11β-HSD1 and Cushing's syndrome"
+    },
+    {
+     "en": "2.2 Estrogen, menopause and collagen: what the trials show"
+    },
+    {
+     "en": "2.3 Skin signs that need an endocrinologist"
+    }
+   ]
+  },
+  {
+   "id": "m2-opener",
+   "type": "video",
+   "lead": {
+    "en": "Module 02 · Opening film"
+   },
+   "title": {
+    "en": "Systemic hormones and the skin"
+   },
+   "assetRefs": [
+    "asset-hps-m02-opener",
+    "asset-hps-m02-opener-poster"
+   ],
+   "citationRefs": [
+    "slominski-wortsman-2000-skin-neuroendocrinology",
+    "tiganescu-2011-11bhsd1-skin",
+    "tiganescu-2013-11bhsd1-aged-skin",
+    "hannah-shmouni-2026-are"
+   ],
+   "sourceNote": "Slominski & Wortsman 2000 · Tiganescu 2011, 2013 · Aesthetic & Regenerative Endocrinology, ch. 8",
+   "metadata": {
+    "videoMode": "player",
+    "captionsBurnedIn": true,
+    "videoTranscript": {
+     "en": "Most skin changes you see are ageing or lifestyle. A few are the first visible sign of endocrine disease. In three lessons you will separate them: what local and systemic hormones do to skin, what hormone therapy can and cannot do for it, and which signs belong with an endocrinologist. Picture the skin as a small endocrine organ with its own stress axis. Skin cells make CRH and ACTH, the same signals that drive the adrenal glands, and they carry the receptors to respond to them. They also carry an enzyme called eleven beta HSD one, which turns inactive cortisone back into active cortisol inside the cell. In human skin samples that enzyme works harder with age and in sun-exposed skin, and it sets local cortisol independently of the level in the blood. Cortisol slows collagen production in dermal fibroblasts, and mice bred without the enzyme kept their dermal thickness as they aged. Hold all of this in the mechanism register. It comes from biopsies, cultured cells and mice, and it says nothing yet about how a patient's face will age."
+    },
+    "script": {
+     "sources": [
+      "m2-p01 body, sentences 1, 2, 3",
+      "m2-p02 audioScript, sentences 1, 2, 3, 4, 5, 6, 7"
+     ],
+     "rule": "verbatim approved sentences only"
+    }
+   },
+   "time": "02 / 20"
+  },
+  {
+   "id": "m2-p02",
+   "type": "audio",
+   "time": "03 / 20",
+   "lead": {
+    "en": "Mechanism"
+   },
+   "title": {
+    "en": "The skin regenerates its own cortisol."
+   },
+   "body": {
+    "en": "Skin expresses the machinery of a local stress axis, including CRH and POMC with its product ACTH. Keratinocytes and dermal fibroblasts also carry 11β-HSD1, the enzyme that turns inactive cortisone back into active cortisol inside the cell. In human skin samples its activity is higher with age and in sun-exposed skin, and local cortisol availability is set independently of blood levels. Cortisol slows collagen production in dermal fibroblasts, and mice lacking the enzyme kept their dermal thickness with age."
+   },
+   "points": [
+    {
+     "en": "Local axis: CRH, POMC and ACTH are made in skin"
+    },
+    {
+     "en": "11β-HSD1 regenerates cortisol inside skin cells"
+    },
+    {
+     "en": "Mechanism register: human samples, cultured cells and mice"
+    }
+   ],
+   "citationRefs": [
+    "slominski-wortsman-2000-skin-neuroendocrinology",
+    "tiganescu-2011-11bhsd1-skin",
+    "tiganescu-2013-11bhsd1-aged-skin",
+    "hannah-shmouni-2026-are"
+   ],
+   "sourceNote": "Slominski & Wortsman 2000 · Tiganescu 2011, 2013 · Aesthetic & Regenerative Endocrinology, ch. 8",
+   "audioBeats": [
+    {
+     "title": {
+      "en": "A local stress axis"
+     },
+     "body": {
+      "en": "Skin makes CRH and POMC-derived ACTH and carries their receptors, a field-restricted copy of the hypothalamic–pituitary–adrenal axis."
+     }
+    },
+    {
+     "title": {
+      "en": "Cortisol, regenerated"
+     },
+     "body": {
+      "en": "11β-HSD1 converts cortisone to cortisol in keratinocytes and fibroblasts. In human skin samples its activity rises with age and with sun exposure."
+     }
+    },
+    {
+     "title": {
+      "en": "Why it matters for ageing"
+     },
+     "body": {
+      "en": "Cortisol slows collagen synthesis in fibroblasts, and knockout mice kept their dermal thickness as they aged. Whether this drives visible ageing in people has not been tested."
+     }
+    }
+   ],
+   "metadata": {
+    "audioScript": {
+     "en": "Picture the skin as a small endocrine organ with its own stress axis. Skin cells make CRH and ACTH, the same signals that drive the adrenal glands, and they carry the receptors to respond to them. They also carry an enzyme called eleven beta HSD one, which turns inactive cortisone back into active cortisol inside the cell. In human skin samples that enzyme works harder with age and in sun-exposed skin, and it sets local cortisol independently of the level in the blood. Cortisol slows collagen production in dermal fibroblasts, and mice bred without the enzyme kept their dermal thickness as they aged. Hold all of this in the mechanism register. It comes from biopsies, cultured cells and mice, and it says nothing yet about how a patient's face will age."
+    }
+   },
+   "imageBrief": {
+    "prompt": "A large round magnified inset fills the centre, showing one dermal fibroblast — a spindle-shaped cell with an oval nucleus — among a few thin, sparse collagen fibres. A small hollow grey token shaped like a rounded lozenge enters the cell from the left, passes through a crescent-shaped enzyme in the cytoplasm, and leaves on the right as a solid violet lozenge of the same shape. To the upper left, a small plain skin section (epidermis over dermis only) shows where the inset comes from, joined to it by two fine ink lines. Draw only the elements named here; do not repeat the reference image's hair follicle, sweat gland, nerve fibre, blood-vessel loop or curved arrows. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m2-p02-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m2-p02-img",
+    "alt": {
+     "en": "A magnified skin cell in which an enzyme turns an inactive hormone into its active form, surrounded by thin, sparse collagen fibres."
+    },
+    "treatment": "cover",
+    "position": "top"
+   }
+  },
+  {
+   "id": "m2-p03",
+   "type": "tool",
+   "time": "04 / 20",
+   "lead": {
+    "en": "Four registers"
+   },
+   "title": {
+    "en": "11β-HSD1: four separate answers."
+   },
+   "body": {
+    "en": "Local cortisol regeneration is a real and interesting mechanism. Each register below answers a different question, and blending them produces the line you will hear online: that blocking cortisol in the skin reverses ageing."
+   },
+   "citationRefs": [
+    "tiganescu-2011-11bhsd1-skin",
+    "tiganescu-2013-11bhsd1-aged-skin",
+    "ajjan-2022-azd4017-skin-pilot-rct",
+    "nct03313297-gc-sheald",
+    "hannah-shmouni-2026-are"
+   ],
+   "sourceNote": "Tiganescu 2011, 2013 · Ajjan 2022 · ClinicalTrials.gov and Drugs@FDA, checked 24 Sep 2026",
+   "tool": {
+    "items": [
+     {
+      "label": {
+       "en": "Mechanism"
+      },
+      "value": {
+       "en": "Plausible"
+      },
+      "note": {
+       "en": "Enzyme activity rises with age and sun exposure in human skin samples; knockout mice resist age-related dermal thinning"
+      }
+     },
+     {
+      "label": {
+       "en": "Human evidence"
+      },
+      "value": {
+       "en": "One pilot RCT · GRADE C"
+      },
+      "note": {
+       "en": "28 adults with type 2 diabetes took an oral inhibitor: the primary outcome was missed, wounds closed faster in an exploratory analysis, and barrier function was modestly worse"
+      }
+     },
+     {
+      "label": {
+       "en": "Regulatory status (US, 24 September 2026)"
+      },
+      "value": {
+       "en": "Investigational only"
+      },
+      "note": {
+       "en": "The inhibitor tested in human skin is a research compound with no FDA approval"
+      }
+     },
+     {
+      "label": {
+       "en": "Open question"
+      },
+      "value": {
+       "en": "Does it drive visible ageing?"
+      },
+      "note": {
+       "en": "No registered trial tests an 11β-HSD1 inhibitor for skin ageing (ClinicalTrials.gov, 24 September 2026)"
+      }
+     }
+    ],
+    "callout": {
+     "en": "Local cortisol is set inside the skin, independently of blood levels, so a systemic cortisol test does not measure it."
+    }
+   }
+  },
+  {
+   "id": "m2-p04",
+   "type": "tool",
+   "time": "05 / 20",
+   "lead": {
+    "en": "Sort the signs"
+   },
+   "title": {
+    "en": "Which features point to Cushing's?"
+   },
+   "body": {
+    "en": "Cushing's syndrome shares most of its features with ordinary weight gain, poor sleep and stress. The Endocrine Society's diagnostic guideline separates the few that discriminate from the many that are common. Before you see its verdicts, sort these eight."
+   },
+   "citationRefs": [
+    "nieman-2008-cushings-diagnosis-guideline",
+    "hannah-shmouni-2026-are"
+   ],
+   "sourceNote": "Endocrine Society guideline, Nieman 2008, Table 1 · Aesthetic & Regenerative Endocrinology, ch. 8",
+   "tool": {
+    "items": [
+     {
+      "label": {
+       "en": "Easy bruising"
+      },
+      "value": {
+       "en": "Skin"
+      },
+      "note": {
+       "en": "Bruises without an obvious injury"
+      }
+     },
+     {
+      "label": {
+       "en": "Facial plethora"
+      },
+      "value": {
+       "en": "Face"
+      },
+      "note": {
+       "en": "A persistently red, full-blooded complexion"
+      }
+     },
+     {
+      "label": {
+       "en": "Proximal muscle weakness"
+      },
+      "value": {
+       "en": "History and examination"
+      },
+      "note": {
+       "en": "Trouble rising from a chair or climbing stairs"
+      }
+     },
+     {
+      "label": {
+       "en": "Striae"
+      },
+      "value": {
+       "en": "Abdomen, flanks, thighs"
+      },
+      "note": {
+       "en": "Reddish-purple and wider than 1 cm"
+      }
+     },
+     {
+      "label": {
+       "en": "Facial fullness"
+      },
+      "value": {
+       "en": "Face"
+      },
+      "note": {
+       "en": "A rounder face than a year ago"
+      }
+     },
+     {
+      "label": {
+       "en": "Weight gain"
+      },
+      "value": {
+       "en": "History"
+      },
+      "note": {
+       "en": "Gradual gain over several years"
+      }
+     },
+     {
+      "label": {
+       "en": "Acne or hirsutism"
+      },
+      "value": {
+       "en": "Skin"
+      },
+      "note": {
+       "en": "New or persistent"
+      }
+     },
+     {
+      "label": {
+       "en": "Fatigue and poor sleep"
+      },
+      "value": {
+       "en": "History"
+      },
+      "note": {
+       "en": "Tired, sleeping badly"
+      }
+     }
+    ],
+    "callout": {
+     "en": "Few features of Cushing's syndrome are unique. Some discriminate far better than others."
+    }
+   },
+   "interaction": {
+    "kind": "classify",
+    "title": {
+     "en": "Discriminating or common?"
+    },
+    "prompt": {
+     "en": "Tap where each feature belongs."
+    },
+    "labels": [
+     {
+      "value": "discriminates",
+      "label": {
+       "en": "Best discriminates Cushing's"
+      },
+      "tone": "good"
+     },
+     {
+      "value": "common",
+      "label": {
+       "en": "Common, less discriminating"
+      },
+      "tone": "neutral"
+     }
+    ],
+    "items": [
+     {
+      "id": "bruising",
+      "label": {
+       "en": "Easy bruising"
+      },
+      "answer": "discriminates",
+      "why": {
+       "en": "One of the four features the guideline lists as best discriminating, particularly bruising with no obvious trauma."
+      }
+     },
+     {
+      "id": "plethora",
+      "label": {
+       "en": "Facial plethora"
+      },
+      "answer": "discriminates",
+      "why": {
+       "en": "Listed among the best discriminators. Most of the four have low sensitivity, so their absence does not exclude the syndrome."
+      }
+     },
+     {
+      "id": "proximal-weakness",
+      "label": {
+       "en": "Proximal muscle weakness"
+      },
+      "answer": "discriminates",
+      "why": {
+       "en": "Proximal myopathy is one of the four; ask about stairs and getting up from a low chair."
+      }
+     },
+     {
+      "id": "striae",
+      "label": {
+       "en": "Striae"
+      },
+      "answer": "discriminates",
+      "why": {
+       "en": "The guideline singles out striae that are reddish-purple and wider than 1 cm."
+      }
+     },
+     {
+      "id": "facial-fullness",
+      "label": {
+       "en": "Facial fullness"
+      },
+      "answer": "common",
+      "why": {
+       "en": "The guideline lists facial fullness, like the dorsocervical fat pad, among features that are common in the general population. A round face alone is a weak signal."
+      }
+     },
+     {
+      "id": "weight-gain",
+      "label": {
+       "en": "Weight gain"
+      },
+      "answer": "common",
+      "why": {
+       "en": "Common and less discriminatory on its own; many features of cortisol excess are shared with ordinary obesity."
+      }
+     },
+     {
+      "id": "acne-hirsutism",
+      "label": {
+       "en": "Acne or hirsutism"
+      },
+      "answer": "common",
+      "why": {
+       "en": "Both sit on the guideline's common, less discriminatory list; persistent hirsutism more often points to androgen excess (lesson 2.3)."
+      }
+     },
+     {
+      "id": "fatigue",
+      "label": {
+       "en": "Fatigue and poor sleep"
+      },
+      "answer": "common",
+      "why": {
+       "en": "Fatigue, insomnia and poor concentration are common and less discriminatory."
+      }
+     }
+    ],
+    "done": {
+     "en": "Eight sorted. Four features discriminate: easy bruising, facial plethora, proximal weakness and wide reddish-purple striae. A round face on its own is a weak signal."
+    },
+    "citationRefs": [
+     "nieman-2008-cushings-diagnosis-guideline",
+     "hannah-shmouni-2026-are"
+    ],
+    "source": "authored:2026-09-24 from Nieman 2008 Table 1 (Endocrine Society) + claim c-m02-03"
+   }
+  },
+  {
+   "id": "m2-p05",
+   "type": "stat",
+   "time": "06 / 20",
+   "lead": {
+    "en": "The evidence"
+   },
+   "title": {
+    "en": "Rare, and usually from a prescription."
+   },
+   "body": {
+    "en": "Endogenous Cushing's syndrome is uncommon: European population studies put it at two to three new cases per million people a year. The commonest cause of Cushing's syndrome is iatrogenic, from glucocorticoids given as medicine. The Endocrine Society therefore asks for a drug history first, covering tablets, inhalers, injections and creams, including skin-bleaching products, and recommends testing when features are multiple and progressive."
+   },
+   "citationRefs": [
+    "nieman-2008-cushings-diagnosis-guideline",
+    "hannah-shmouni-2026-are"
+   ],
+   "sourceNote": "Endocrine Society guideline, Nieman 2008 — introduction and recommendations 3.1–3.3",
+   "stat": {
+    "figure": "2–3",
+    "label": {
+     "en": "new cases of endogenous Cushing's syndrome per million people per year (European population studies)"
+    },
+    "detail": {
+     "en": "As cited in the Endocrine Society diagnostic guideline, 2008"
+    },
+    "means": {
+     "en": "A round, puffy face in an aesthetic clinic is almost always something other than Cushing's syndrome, and when cortisol excess is real it most often comes from a glucocorticoid the patient is already using."
+    },
+    "doesNot": {
+     "en": "It does not mean you can dismiss it. The guideline recommends testing when discriminating features are multiple and progressive or unusual for age, and some groups, such as people with poorly controlled diabetes, carry a higher rate."
+    }
+   }
+  },
+  {
+   "id": "m2-p06",
+   "type": "audio",
+   "time": "07 / 20",
+   "lead": {
+    "en": "What changes in practice"
+   },
+   "title": {
+    "en": "Reassure the many, refer the few."
+   },
+   "body": {
+    "en": "When a patient asks about 'cortisol face', start with the drug history: steroid creams, skin-lighteners, herbal tonics and injections. Then look for the discriminating features. Without them, the Aesthetic & Regenerative Endocrinology guide reads most puffiness as sleep, alcohol, salt and fluid, and the Endocrine Society recommends against widespread testing. With them, especially when they are progressing, the next step is formal testing and an endocrinologist. A cortisol supplement or a consumer cortisol panel answers the wrong question."
+   },
+   "points": [
+    {
+     "en": "Drug history first, including creams and injections"
+    },
+    {
+     "en": "Look for bruising, plethora, proximal weakness, wide purple striae"
+    },
+    {
+     "en": "Refer for testing; skip supplements and consumer panels"
+    }
+   ],
+   "citationRefs": [
+    "nieman-2008-cushings-diagnosis-guideline",
+    "hannah-shmouni-2026-are"
+   ],
+   "sourceNote": "Endocrine Society guideline 2008, recommendations 3.1–3.5 · Aesthetic & Regenerative Endocrinology, ch. 8 clinical pearl",
+   "audioBeats": [
+    {
+     "title": {
+      "en": "Ask first"
+     },
+     "body": {
+      "en": "Glucocorticoids hide in skin-bleaching creams, herbal tonics and joint or nerve injections. The guideline asks for that history before any cortisol test."
+     }
+    },
+    {
+     "title": {
+      "en": "Then look"
+     },
+     "body": {
+      "en": "Easy bruising, a plethoric face, proximal weakness and wide reddish-purple striae are the features that shift the odds."
+     }
+    },
+    {
+     "title": {
+      "en": "Then route"
+     },
+     "body": {
+      "en": "First-line tests are urine free cortisol, late-night salivary cortisol or an overnight dexamethasone suppression test, ordered by a prescriber; an abnormal result goes to an endocrinologist."
+     }
+    }
+   ],
+   "metadata": {
+    "audioScript": {
+     "en": "Here is how that plays out when a patient asks about cortisol face. Begin with a drug history, because the commonest cause of cortisol excess is a glucocorticoid someone is already using. The guideline names the easy ones to miss, such as skin-bleaching creams, herbal tonics, and joint or nerve injections. Then look for the four features that shift the odds, meaning easy bruising, a plethoric face, weakness in the hips and shoulders, and wide reddish-purple striae. Without them, the Aesthetic and Regenerative Endocrinology guide reads most puffiness as sleep, alcohol, salt and fluid, and the Endocrine Society advises against testing everyone. With them, and especially when they are progressing, the patient needs formal testing and an endocrinologist. A cortisol supplement or a mail-order saliva panel answers the wrong question."
+    },
+    "variants": {
+     "audienceLevel": {
+      "prescriber": {
+       "en": "If discriminating features are present, arrange one of the guideline's first-line tests or refer directly to endocrinology, and document the drug history, including creams and injections. An abnormal result goes to an endocrinologist."
+      },
+      "clinical-staff": {
+       "en": "Record any steroid creams, skin-lighteners or injections the patient mentions, note bruising or wide purple striae you see, and bring it to the prescriber before the next treatment."
+      },
+      "advisor": {
+       "en": "Do not recommend 'cortisol-lowering' supplements or consumer cortisol kits. If a patient describes easy bruising, muscle weakness or new wide purple stretch marks, point them to a prescriber."
+      }
+     }
+    }
+   },
+   "imageBrief": {
+    "prompt": "A flow of shapes from left to right: a broad stream of small grey round tokens travels along a wide paper path and first passes under a small magnifying lens. At a fork, most tokens continue straight into a calm, open pool; a few tokens, coloured violet, turn off onto a narrower path that climbs to a small, simple building with an open door. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m2-p06-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m2-p06-img",
+    "alt": {
+     "en": "A stream of tokens passes under a lens; most continue into a calm pool, while a few violet tokens turn onto a path toward a small building."
+    },
+    "treatment": "cover",
+    "position": "top"
+   }
+  },
+  {
+   "id": "m2-p07",
+   "type": "quiz",
+   "time": "08 / 20",
+   "lead": {
+    "en": "Your turn"
+   },
+   "title": {
+    "en": "'Is this cortisol face?'"
+   },
+   "body": {
+    "en": "One question to close lesson 2.1."
+   },
+   "sourceNote": "Lesson 2.1",
+   "quiz": {
+    "id": "m2-q1",
+    "prompt": {
+     "en": "A 38-year-old asks whether her puffy morning face is 'cortisol face'. She sleeps badly and drinks most evenings. What is the best next step?"
+    },
+    "options": [
+     {
+      "text": {
+       "en": "Recommend a consumer saliva cortisol panel to check her levels."
+      },
+      "why": {
+       "en": "Testing is for multiple, progressive discriminating features; the guideline advises against widespread testing and random cortisol measures, and the guide calls consumer panels poorly validated."
+      }
+     },
+     {
+      "text": {
+       "en": "Take a drug history, including creams and injections, and examine for bruising, plethora, proximal weakness and wide purple striae; refer if they are present."
+      },
+      "why": {
+       "en": "Correct. Exclude exogenous glucocorticoids, then look for the discriminating features before anyone orders a test."
+      }
+     },
+     {
+      "text": {
+       "en": "Reassure her that Cushing's syndrome is too rare to consider."
+      },
+      "why": {
+       "en": "It is rare, but the guideline asks you to consider it when discriminating features cluster; reassurance comes after the history and examination."
+      }
+     }
+    ],
+    "correct": 1,
+    "feedback": {
+     "en": "Drug history, discriminating features, then referral — in that order."
+    },
+    "pillar": "patient-conversation",
+    "citationRefs": [
+     "nieman-2008-cushings-diagnosis-guideline",
+     "hannah-shmouni-2026-are"
+    ]
+   }
+  },
+  {
+   "id": "m2-p08",
+   "type": "audio",
+   "time": "09 / 20",
+   "lead": {
+    "en": "Lesson 2.2 · Concept"
+   },
+   "title": {
+    "en": "Estrogen and the dermis."
+   },
+   "body": {
+    "en": "Skin carries estrogen receptors (ERα, ERβ and the membrane receptor GPER) in both sun-protected and sun-damaged sites. In postmenopausal women, two weeks of topical estradiol raised collagen production in sun-protected hip skin; photoaged facial skin showed no such response. After menopause, small biopsy studies found skin collagen and thickness falling year by year, following years since menopause more closely than age. That is mechanism and natural history. What hormone therapy does to a face is a separate question."
+   },
+   "points": [
+    {
+     "en": "Receptors: ERα, ERβ and GPER in aged and photoaged skin"
+    },
+    {
+     "en": "Topical estradiol raises collagen in sun-protected skin only"
+    },
+    {
+     "en": "Collagen loss follows years since menopause"
+    }
+   ],
+   "citationRefs": [
+    "rittie-2008-topical-estradiol-collagen",
+    "thornton-2013-estrogens-aging-skin",
+    "brincat-1985-menopause-skin-thickness",
+    "affinito-1999-hypoestrogenism-skin-collagen",
+    "hannah-shmouni-2026-are"
+   ],
+   "sourceNote": "Rittié 2008 · Thornton 2013 · Brincat 1985 · Affinito 1999 · Aesthetic & Regenerative Endocrinology, ch. 9",
+   "audioBeats": [
+    {
+     "title": {
+      "en": "Receptors in every site"
+     },
+     "body": {
+      "en": "Estrogen receptors are expressed in sun-protected and sun-damaged skin alike."
+     }
+    },
+    {
+     "title": {
+      "en": "A collagen signal, with a limit"
+     },
+     "body": {
+      "en": "Two weeks of topical estradiol raised procollagen in the hip skin of postmenopausal women; in photoaged face and forearm skin it made no measurable difference."
+     }
+    },
+    {
+     "title": {
+      "en": "A menopause clock"
+     },
+     "body": {
+      "en": "In small biopsy studies, skin collagen fell with years since menopause more than with chronological age."
+     }
+    }
+   ],
+   "metadata": {
+    "audioScript": {
+     "en": "Estrogen is the hormone the guide says dominates the visible ageing of women's skin, so start with what it does in the dermis. Skin carries estrogen receptors in sun-protected and sun-damaged sites alike. In a vehicle-controlled study, two weeks of topical estradiol raised collagen production in the hip skin of postmenopausal women; in photoaged forearm and facial skin, the same treatment made no measurable difference. Small biopsy studies from the nineteen eighties and nineties found that skin collagen and thickness fall after menopause, and that the fall follows years since the last period more closely than birthdays. Keep two questions apart as you go. One is what estrogen does in the dermis. The other is whether giving it changes how a face ages, and those answers come from different trials."
+    }
+   },
+   "imageBrief": {
+    "prompt": "A side-by-side comparison of two panels of dermis, separated by a thin vertical hairline, each capped by a thin epidermis. Left (sun-protected skin): spindle-shaped fibroblasts carrying small violet cup-shaped receptors, surrounded by orderly wavy collagen strands, several of them new and drawn in violet. Right (sun-damaged skin): fibroblasts carrying the same violet receptors, but the dermis is filled with fragmented grey collagen and clumped, tangled grey material, and no violet strands appear at all. Draw only the elements named here; do not repeat the reference image's hair follicle, sweat gland, nerve fibre, blood-vessel loop or curved arrows. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m2-p08-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m2-p08-img",
+    "alt": {
+     "en": "Two panels of dermis: in sun-protected skin, receptor-bearing cells lay down new collagen; in sun-damaged skin, the same cells sit among fragmented, clumped fibres with no new collagen."
+    },
+    "treatment": "cover",
+    "position": "top"
+   }
+  },
+  {
+   "id": "m2-p09",
+   "type": "stat",
+   "time": "10 / 20",
+   "lead": {
+    "en": "The evidence"
+   },
+   "title": {
+    "en": "One to two per cent a year."
+   },
+   "body": {
+    "en": "In small biopsy studies of postmenopausal women, skin collagen content and skin thickness fell by about 1–2% a year, in step with bone mass, and followed years since menopause more than age. Reviews, and the Aesthetic & Regenerative Endocrinology guide, quote a steeper early loss of up to 30% in the first five years. That figure traces to the same small studies, and a check of their abstracts in September 2026 did not find it stated."
+   },
+   "citationRefs": [
+    "brincat-1987-collagen-bone-decline",
+    "brincat-1985-menopause-skin-thickness",
+    "affinito-1999-hypoestrogenism-skin-collagen",
+    "thornton-2013-estrogens-aging-skin",
+    "hannah-shmouni-2026-are"
+   ],
+   "sourceNote": "Brincat 1985, 1987 · Affinito 1999 · Thornton 2013",
+   "stat": {
+    "figure": "1–2%",
+    "label": {
+     "en": "fall in skin collagen content and thickness per year after menopause (small biopsy studies)"
+    },
+    "detail": {
+     "en": "Brincat et al., 1987 — in parallel with bone mass"
+    },
+    "means": {
+     "en": "Estrogen withdrawal is a measurable contributor to dermal thinning, and it follows the menopause clock rather than age alone."
+    },
+    "doesNot": {
+     "en": "It does not show that hormone therapy restores a younger-looking face. These are small observational studies, mostly of non-facial skin; the treatment trials come next."
+    }
+   }
+  },
+  {
+   "id": "m2-p10",
+   "type": "tool",
+   "time": "11 / 20",
+   "lead": {
+    "en": "Human evidence"
+   },
+   "title": {
+    "en": "Biopsy gains, mirror results."
+   },
+   "body": {
+    "en": "Hormone therapy has two kinds of trial behind it. Small trials measure the dermis; larger trials measure the face. They point in different directions, so read them separately. The Aesthetic & Regenerative Endocrinology guide grades the skin benefit B; the North American Menopause Society rates the same evidence 'limited or inconsistent'. This course grades the structural gains C and teaches the negative wrinkle trials alongside them."
+   },
+   "citationRefs": [
+    "maheux-1994-cee-skin-thickness-rct",
+    "sauerbronn-2000-hrt-skin-collagen-rct",
+    "phillips-2008-ht-facial-skin-rct",
+    "owen-2016-keeps-skin-wrinkles",
+    "pivazyan-2023-mht-skin-meta",
+    "creidi-1994-premarin-cream-face",
+    "rittie-2008-topical-estradiol-collagen",
+    "ashcroft-1999-topical-estrogen-wound-healing",
+    "nams-2022-hormone-therapy-position-statement",
+    "hannah-shmouni-2026-are"
+   ],
+   "sourceNote": "Maheux 1994 · Sauerbronn 2000 · Phillips 2008 · Owen 2016 · Pivazyan 2023 · Creidi 1994 · Ashcroft 1999 · NAMS 2022",
+   "tool": {
+    "items": [
+     {
+      "label": {
+       "en": "Systemic HT · skin thickness and collagen"
+      },
+      "value": {
+       "en": "Increased · GRADE C"
+      },
+      "note": {
+       "en": "Two small RCTs (60 and 41 women) measured hip and upper-arm skin"
+      }
+     },
+     {
+      "label": {
+       "en": "Systemic HT · facial wrinkles"
+      },
+      "value": {
+       "en": "No difference · GRADE B"
+      },
+      "note": {
+       "en": "485 women for 48 weeks on low-dose therapy; a four-year trial in recently menopausal women also found no difference"
+      }
+     },
+     {
+      "label": {
+       "en": "Pooled analysis (2023)"
+      },
+      "value": {
+       "en": "Positive, heterogeneous · GRADE C"
+      },
+      "note": {
+       "en": "Small studies, some non-randomized, varying widely; its authors do not propose hormone therapy as a skin treatment"
+      }
+     },
+     {
+      "label": {
+       "en": "Topical estrogen on the face"
+      },
+      "value": {
+       "en": "Small and mixed · GRADE C"
+      },
+      "note": {
+       "en": "One 24-week RCT improved thickness and fine lines; a biopsy study found no collagen response in photoaged facial skin"
+      }
+     },
+     {
+      "label": {
+       "en": "Topical estrogen · acute wounds"
+      },
+      "value": {
+       "en": "Faster healing · GRADE C"
+      },
+      "note": {
+       "en": "A small randomized study in healthy older adults"
+      }
+     }
+    ],
+    "callout": {
+     "en": "A thicker dermis on biopsy and a younger-looking face are different outcomes. Ask which one a trial measured."
+    }
+   }
+  },
+  {
+   "id": "m2-p11",
+   "type": "audio",
+   "time": "12 / 20",
+   "lead": {
+    "en": "Regulatory status and indications"
+   },
+   "title": {
+    "en": "Symptoms and bone. Skin is a bystander."
+   },
+   "body": {
+    "en": "In the US, as of February 2026, FDA-approved menopausal hormone therapy is for moderate-to-severe hot flashes, vaginal and vulvar symptoms and, for some products, preventing bone loss. FDA's 2025–26 labeling changes removed cardiovascular, breast-cancer and dementia statements from the boxed warning; skin did not become an indication. The North American Menopause Society's 2022 statement finds benefit outweighs risk for bothersome symptoms and bone protection when therapy starts before 60 or within 10 years of menopause, and finds insufficient evidence for compounded 'bioidentical' hormones. Under US rules an over-the-counter 'hormone cream' is an unapproved drug. For the skin itself, daily sunscreen has a large randomized trial behind it, and one tretinoin cream is FDA-approved as an adjunct for fine facial wrinkles."
+   },
+   "points": [
+    {
+     "en": "Indications: hot flashes, genitourinary symptoms, bone"
+    },
+    {
+     "en": "Low-dose vaginal estrogen for GSM: the one estrogen-for-tissue use"
+    },
+    {
+     "en": "For the skin itself: daily sunscreen and a retinoid"
+    }
+   ],
+   "citationRefs": [
+    "fda-mht-labeling-request-2025-11-10",
+    "fda-mht-labeling-approval-2026-02-12",
+    "nams-2022-hormone-therapy-position-statement",
+    "nams-2020-gsm-position-statement",
+    "manson-2013-whi-extended-follow-up",
+    "ecfr-21-cfr-310-530-hormone-creams",
+    "hughes-2013-sunscreen-skin-aging-rct",
+    "fda-renova-tretinoin-label",
+    "hannah-shmouni-2026-are",
+    "emc-smpc-evorel-uk",
+    "emc-smpc-sandrena-uk",
+    "mhra-gn14-specials-2023",
+    "emc-smpc-treclin-uk",
+    "emc-smpc-aknemycin-plus-uk",
+    "emc-search-tretinoin-2026-09-25"
+   ],
+   "sourceNote": "FDA, 10 Nov 2025 and 12 Feb 2026 · 21 CFR 310.530 · NAMS 2022, 2020 · Manson 2013 · Hughes 2013 · Renova label · UK: Evorel and Sandrena SmPCs, MHRA Guidance Note 14, medicines compendium (checked 25 Sep 2026)",
+   "audioBeats": [
+    {
+     "title": {
+      "en": "What it is approved for"
+     },
+     "body": {
+      "en": "In the US, hot flashes, vaginal and vulvar symptoms and, for some products, bone loss. The 2025–26 label changes did not add skin."
+     }
+    },
+    {
+     "title": {
+      "en": "When benefit outweighs risk"
+     },
+     "body": {
+      "en": "For bothersome symptoms and bone, when started before 60 or within ten years of menopause, per the 2022 position statement. The large WHI trials do not support hormone therapy for preventing chronic disease."
+     }
+    },
+    {
+     "title": {
+      "en": "What to decline, and what to offer"
+     },
+     "body": {
+      "en": "Compounded 'bioidentical' preparations lack efficacy and safety data, and over-the-counter 'hormone creams' are unapproved drugs under US rules. Daily sunscreen and a prescription retinoid have better evidence for the skin."
+     }
+    }
+   ],
+   "metadata": {
+    "audioScript": {
+     "en": "Where does that leave hormone therapy for skin? In the United States, as of February 2026, the approved uses of menopausal hormone therapy are hot flashes, vaginal and vulvar symptoms, and for some products the prevention of bone loss. In late 2025 the FDA asked manufacturers to remove heart, breast cancer and dementia statements from the boxed warning, and it approved the first revised labels in February 2026. Skin still appears nowhere among the uses. The menopause society's 2022 position statement finds the balance favourable for symptoms and bone when therapy starts before sixty or within ten years of menopause, and it finds too little evidence for compounded bioidentical hormones. Low-dose vaginal estrogen for genitourinary symptoms is the one use aimed at the tissue itself. For the face, daily sunscreen and a prescription retinoid carry better evidence than any hormone. Treat symptoms on their merits, and count any skin change as a bonus."
+    },
+    "variants": {
+     "audienceLevel": {
+      "prescriber": {
+       "en": "Prescribe hormone therapy for its labeled indications and the position statement's timing, and record that skin was discussed only as a secondary effect. Do not prescribe systemic or topical estrogen for wrinkles alone, and prefer licensed products (FDA-approved in the US) to compounded 'bioidentical' preparations."
+      },
+      "clinical-staff": {
+       "en": "If a patient asks for 'hormones for my skin', ask about hot flashes, sleep and vaginal symptoms, record what she says, and route those symptoms to the prescriber. The skin concern stays with skin-directed care."
+      },
+      "advisor": {
+       "en": "In the US, a cream sold as containing estrogen for the face is regulated as a drug, and compounded 'bioidentical' products lack efficacy and safety data. Menopausal symptoms are a conversation for a prescriber; sun protection is advice you can give."
+      }
+     },
+     "jurisdiction": {
+      "GB": {
+       "text": {
+        "en": "In the UK, as of September 2026, HRT products such as estradiol patches and gel are prescription-only medicines licensed for oestrogen-deficiency symptoms and, for some, for preventing osteoporosis in women at high risk of fracture; skin is not among their uses. A compounded 'bioidentical' hormone is an unlicensed medicine in the UK, and MHRA guidance puts a licensed product first when one can meet the need. On the UK medicines compendium, topical tretinoin appears only in acne treatments."
+       },
+       "citationRefs": [
+        "emc-smpc-evorel-uk",
+        "emc-smpc-sandrena-uk",
+        "mhra-gn14-specials-2023",
+        "emc-smpc-treclin-uk",
+        "emc-smpc-aknemycin-plus-uk",
+        "emc-search-tretinoin-2026-09-25"
+       ]
+      },
+      "EU": {
+       "text": {
+        "en": "In the EU, the harmonised core product information for HRT (CMDh, December 2025) lists oestrogen-deficiency symptoms after menopause, osteoporosis prevention and vaginal atrophy as its indications; skin is not an indication. EU cosmetics law prohibits oestrogens, progestogens and tretinoin in cosmetic products (Regulation (EC) No 1223/2009, Annex II), and anti-wrinkle products containing tretinoin marketed as cosmetics are illegal cosmetics."
+       },
+       "citationRefs": [
+        "eu-hma-core-smpc-hrt-2025",
+        "eu-reg-1223-2009",
+        "eu-ec-cosmetics-borderline-manual-2025"
+       ]
+      },
+      "PT": {
+       "text": {
+        "en": "In Portugal, as of September 2026, the estradiol HRT products Estreva gel and Estrofem tablets are authorised for symptoms of oestrogen deficiency in postmenopausal women. The topical tretinoin product Ketrel cream is authorised and prescription-only on INFARMED's database, with indications for acne (except acne rosacea) and keratinisation disorders."
+       },
+       "citationRefs": [
+        "pt-rcm-estreva",
+        "pt-rcm-estrofem",
+        "pt-infomed",
+        "pt-rcm-ketrel"
+       ]
+      },
+      "BR": {
+       "text": {
+        "en": "In Brazil, as of September 2026, estradiol for menopausal hormone therapy is registered and the Oestrogel label covers menopausal symptoms and prevention of postmenopausal osteoporosis, not skin ageing, while the Vitacid label for topical tretinoin names cutaneous photoageing as well as acne vulgaris. The Federal Council of Medicine (CFM) bars physicians from using hormones, in any formulation, except in diagnosed deficiencies where replacement shows evidence of scientifically proven benefit (Resolution 1.999/2012), and from prescribing hormones marketed as 'bioidentical' or 'nano' without proof of superiority (Resolution 2.333/2023)."
+       },
+       "citationRefs": [
+        "br-label-oestrogel",
+        "br-anvisa-register-opendata",
+        "br-label-vitacid",
+        "br-cfm-1999-2012",
+        "br-cfm-norms-search",
+        "br-cfm-2333-2023"
+       ]
+      },
+      "AE": {
+       "text": {
+        "en": "In the UAE, the Emirates Drug Establishment (EDE), the federal regulator of medical products since Federal Decree-Law 28/2023, registers estradiol products as Prescription Only Medicines, for example Oestrogel gel (since 11 November 2021). The EDE register lists therapeutic categories rather than indications, so it does not show whether any UAE label includes a skin indication (25 September 2026). Under the medicines law, Federal Decree-Law 38 of 2024, a compounding pharmacy may not compound products that are essentially copies of EDE-approved products unless no commercially available product can deliver the expected benefit to the patient."
+       },
+       "citationRefs": [
+        "ae-fdl-28-2023",
+        "ae-ede-reg-oestrogel",
+        "ae-ede-register",
+        "ae-fdl-38-2024"
+       ]
+      }
+     }
+    }
+   },
+   "imageBrief": {
+    "prompt": "A simple open paper frame, like a bracket enclosure, holding two objects coloured violet: a set of three rising wavy heat lines, and a small cross-section of spongy trabecular bone. Outside the frame, to the right and set slightly apart, a small cross-section block of skin drawn only in grey ink, as a bystander. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m2-p11-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m2-p11-img",
+    "alt": {
+     "en": "An open frame holds rising heat lines and a piece of spongy bone, while a small block of skin sits outside it, drawn in grey."
+    },
+    "treatment": "cover",
+    "position": "top"
+   }
+  },
+  {
+   "id": "m2-p12",
+   "type": "quiz",
+   "time": "13 / 20",
+   "lead": {
+    "en": "Your turn"
+   },
+   "title": {
+    "en": "'Hormones for my skin.'"
+   },
+   "body": {
+    "en": "One question to close lesson 2.2."
+   },
+   "sourceNote": "Lesson 2.2",
+   "quiz": {
+    "id": "m2-q2",
+    "prompt": {
+     "en": "A 52-year-old with no hot flashes, no sleep disturbance and no vaginal symptoms asks for estrogen 'to stop my face ageing'. What does the evidence support?"
+    },
+    "options": [
+     {
+      "text": {
+       "en": "Estrogen rebuilds collagen, so hormone therapy is a reasonable anti-ageing choice."
+      },
+      "why": {
+       "en": "That is the mechanism talking. Small trials show thicker skin, the largest trials found no difference in wrinkles, and skin is not an approved indication."
+      }
+     },
+     {
+      "text": {
+       "en": "A compounded 'bioidentical' estrogen face cream avoids the risks of systemic therapy."
+      },
+      "why": {
+       "en": "Compounded 'bioidentical' preparations lack efficacy and safety data and carry quality concerns; the menopause society says preference alone should not justify them."
+      }
+     },
+     {
+      "text": {
+       "en": "Skin alone is not a reason to start hormone therapy; offer skin-directed care such as daily sunscreen and a retinoid, and revisit therapy if menopausal symptoms appear."
+      },
+      "why": {
+       "en": "Correct. Symptoms decide hormone therapy. For skin, daily sunscreen has a large trial behind it and one tretinoin cream is FDA-approved as an adjunct for fine wrinkles."
+      }
+     }
+    ],
+    "correct": 2,
+    "feedback": {
+     "en": "Symptoms decide hormone therapy; skin gets skin-directed care."
+    },
+    "pillar": "patient-conversation",
+    "citationRefs": [
+     "phillips-2008-ht-facial-skin-rct",
+     "fda-mht-labeling-approval-2026-02-12",
+     "nams-2022-hormone-therapy-position-statement",
+     "hughes-2013-sunscreen-skin-aging-rct",
+     "fda-renova-tretinoin-label"
+    ]
+   }
+  },
+  {
+   "id": "m2-p13",
+   "type": "audio",
+   "time": "14 / 20",
+   "lead": {
+    "en": "Lesson 2.3 · Concept"
+   },
+   "title": {
+    "en": "Some syndromes show on the skin first."
+   },
+   "body": {
+    "en": "A handful of inherited endocrine syndromes appear on the skin before the glands declare themselves. In multiple endocrine neoplasia type 1 (MEN1), multiple facial angiofibromas and collagenomas are common. In Carney complex, lentigines on the lips, eyelids and canthi, blue naevi and small skin myxomas sit alongside myxomas of the heart and cortisol-secreting adrenal disease. In MEN2A, an itchy, rippled, pigmented plaque between the shoulder blades can precede medullary thyroid cancer."
+   },
+   "points": [
+    {
+     "en": "MEN1: facial angiofibromas, collagenomas"
+    },
+    {
+     "en": "Carney complex: lip and eyelid lentigines, myxomas"
+    },
+    {
+     "en": "MEN2A: lichen amyloidosis between the shoulder blades"
+    }
+   ],
+   "citationRefs": [
+    "darling-1997-men1-angiofibromas",
+    "kirschner-2000-prkar1a-carney",
+    "correa-2015-carney-complex-update",
+    "stanescu-2024-cla-men2-review",
+    "lause-2017-dermatologic-endocrine",
+    "hannah-shmouni-2026-are"
+   ],
+   "sourceNote": "Darling 1997 · Kirschner 2000 · Correa 2015 · Stanescu 2024 · Lause 2017 · the guide's inherited-syndromes chapter",
+   "audioBeats": [
+    {
+     "title": {
+      "en": "MEN1"
+     },
+     "body": {
+      "en": "Loss of the tumour suppressor menin. Multiple facial angiofibromas, identical to those of tuberous sclerosis, and truncal collagenomas."
+     }
+    },
+    {
+     "title": {
+      "en": "Carney complex"
+     },
+     "body": {
+      "en": "Inactivating variants in PRKAR1A, the regulatory subunit of protein kinase A. Lentigines, blue naevi and myxomas of skin and heart, with Cushing's syndrome from the adrenal."
+     }
+    },
+    {
+     "title": {
+      "en": "MEN2A"
+     },
+     "body": {
+      "en": "Activating RET variants, most often at codon 634 when the skin is involved. Cutaneous lichen amyloidosis over the upper back, often found before the thyroid cancer."
+     }
+    }
+   ],
+   "metadata": {
+    "audioScript": {
+     "en": "Some endocrine syndromes are written on the skin years before the glands give them away. In multiple endocrine neoplasia type one, most patients in one careful series had several facial angiofibromas, the same lesions seen in tuberous sclerosis, along with collagenomas on the trunk. In Carney complex, usually caused by inactivating variants in the PRKAR1A gene, freckle-like lentigines cluster on the lips, eyelids and the corners of the eyes, alongside blue naevi and small skin myxomas. The same patients can develop myxomas in the heart and cortisol-secreting adrenal disease. In MEN two A, an itchy, rippled, darkened patch between the shoulder blades, called cutaneous lichen amyloidosis, can appear long before medullary thyroid cancer. Each of these is a referral finding, and none of them is yours to diagnose alone."
+    }
+   },
+   "imageBrief": {
+    "prompt": "Two drawings joined by one fine violet line. Left: an upper back seen from BEHIND as a smooth, featureless ivory silhouette of the shoulders and upper back — the spine drawn as a faint vertical line down the middle and both shoulder blades outlined, no head detail, no hair. Between the shoulder blades, over the spine, sits a small rippled, pigmented patch of skin drawn with fine parallel ridges in dark ink. Right: a small separate drawing of the butterfly-shaped thyroid gland in violet. The fine violet line runs from the patch to the thyroid. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m2-p13-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m2-p13-img",
+    "alt": {
+     "en": "An upper back seen from behind with a rippled, pigmented patch between the shoulder blades, linked by a fine line to a drawing of the thyroid gland."
+    },
+    "treatment": "cover",
+    "position": "top"
+   }
+  },
+  {
+   "id": "m2-p14",
+   "type": "stat",
+   "time": "15 / 20",
+   "lead": {
+    "en": "The evidence"
+   },
+   "title": {
+    "en": "Eighty-eight per cent."
+   },
+   "body": {
+    "en": "In a consecutive series of 32 people with MEN1 examined at the US National Institutes of Health, 88% had multiple facial angiofibromas and 72% had collagenomas. The angiofibromas were clinically and histologically identical to those of tuberous sclerosis. The authors concluded that angiofibromas in someone without tuberous sclerosis call for biochemical testing for MEN1."
+   },
+   "citationRefs": [
+    "darling-1997-men1-angiofibromas",
+    "hannah-shmouni-2026-are"
+   ],
+   "sourceNote": "Darling et al., Arch Dermatol 1997",
+   "stat": {
+    "figure": "88%",
+    "label": {
+     "en": "of 32 people with MEN1 had multiple facial angiofibromas"
+    },
+    "detail": {
+     "en": "Darling et al., 1997 — collagenomas in 72%"
+    },
+    "means": {
+     "en": "Multiple facial angiofibromas are common in MEN1 and can be its first visible sign; in someone without tuberous sclerosis they are a reason for endocrine testing, whatever the cosmetic plan."
+    },
+    "doesNot": {
+     "en": "It does not mean a single facial papule is MEN1. This is one small referral-centre series, and angiofibromas have other causes, tuberous sclerosis above all."
+    }
+   }
+  },
+  {
+   "id": "m2-p15",
+   "type": "audio",
+   "time": "16 / 20",
+   "lead": {
+    "en": "Concept"
+   },
+   "title": {
+    "en": "The everyday endocrine signs."
+   },
+   "body": {
+    "en": "Most endocrine skin signs you meet come from common disease. New generalised darkening, strongest in skin creases, scars, mucosa and sun-exposed skin, can signal primary adrenal insufficiency, which can turn into a life-threatening crisis. Hirsutism that appears fast, keeps progressing, or comes with a deepening voice or clitoromegaly makes an androgen-secreting tumour more likely. Velvety dark plaques of acanthosis nigricans track insulin resistance, pretibial myxoedema points to Graves' disease, and cold, dry skin suggests hypothyroidism."
+   },
+   "points": [
+    {
+     "en": "Darkening in creases, scars and gums: adrenal insufficiency"
+    },
+    {
+     "en": "Rapid hirsutism or virilization: exclude a tumour"
+    },
+    {
+     "en": "Acanthosis, pretibial plaques, dry cool skin: metabolic and thyroid"
+    }
+   ],
+   "citationRefs": [
+    "bornstein-2016-pai-guideline",
+    "martin-2018-hirsutism-guideline",
+    "lause-2017-dermatologic-endocrine",
+    "hannah-shmouni-2026-are"
+   ],
+   "sourceNote": "Endocrine Society guidelines: Bornstein 2016, Martin 2018 · Lause 2017 · the guide's ch. 5 referral list",
+   "audioBeats": [
+    {
+     "title": {
+      "en": "Adrenal"
+     },
+     "body": {
+      "en": "The hyperpigmentation of primary adrenal insufficiency favours sun-exposed skin, creases, mucosa and scars. In an acutely ill patient the guideline recommends testing, and a suspected crisis is treated before results return."
+     }
+    },
+    {
+     "title": {
+      "en": "Androgens"
+     },
+     "body": {
+      "en": "Rapid onset or progression of hirsutism, or signs of virilization, raise the likelihood of an androgen-secreting tumour; about 0.2% of hyperandrogenic women have one, and over half are malignant."
+     }
+    },
+    {
+     "title": {
+      "en": "Metabolic and thyroid"
+     },
+     "body": {
+      "en": "Acanthosis nigricans reflects hyperinsulinaemia; pretibial myxoedema reflects thyrotropin-receptor stimulation in Graves' disease; hypothyroid skin is cold and dry."
+     }
+    }
+   ],
+   "metadata": {
+    "audioScript": {
+     "en": "Most of the endocrine skin signs you will actually meet come from common conditions. New, generalised darkening, most obvious in skin creases such as the palms, in scars, on the gums and on sun-exposed skin, can be the sign of primary adrenal insufficiency. In a patient who is also unwell, the Endocrine Society recommends testing, and a suspected adrenal crisis is treated before the results come back, because delay raises the risk of death. Hirsutism that arrives quickly, keeps progressing, or comes with a deeper voice or clitoromegaly makes an androgen-secreting tumour more likely, and more than half of those tumours are malignant. Velvety dark plaques in the neck folds track insulin resistance. Firm plaques on the shins point to Graves' disease, and cold, dry, coarse skin suggests an underactive thyroid. The skin shows you which door to knock on."
+    }
+   },
+   "imageBrief": {
+    "prompt": "Three small vignettes in a row, separated by thin vertical hairlines, each a plain, featureless ivory body-part outline with an ink contour and no face anywhere. First: an open palm seen from the front, its skin creases traced in violet. Second: the back of the neck and one shoulder seen from behind, with no hair and no head detail, and a velvety violet patch across the skin fold at the back of the neck. Third: the front of one lower leg from knee to ankle, with a raised violet plaque on the shin. All three vignettes sit in the upper two-thirds of the frame. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m2-p15-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m2-p15-img",
+    "alt": {
+     "en": "Three body-part outlines with typical sites marked: the palm creases, a velvety patch at the back of the neck, and a raised plaque on the front of the shin."
+    },
+    "treatment": "cover",
+    "position": "top"
+   }
+  },
+  {
+   "id": "m2-p16",
+   "type": "tool",
+   "time": "17 / 20",
+   "lead": {
+    "en": "Triage"
+   },
+   "title": {
+    "en": "Where does this skin finding go?"
+   },
+   "body": {
+    "en": "Seven presentations from an aesthetic list, and three routes. Your job is to route the finding, not to make the diagnosis. The verdict and the source behind each appear as you answer."
+   },
+   "citationRefs": [
+    "martin-2018-hirsutism-guideline",
+    "bornstein-2016-pai-guideline",
+    "nieman-2008-cushings-diagnosis-guideline",
+    "darling-1997-men1-angiofibromas",
+    "stanescu-2024-cla-men2-review",
+    "lause-2017-dermatologic-endocrine",
+    "hannah-shmouni-2026-are"
+   ],
+   "sourceNote": "Endocrine Society guidelines 2008, 2016, 2018 · Darling 1997 · Stanescu 2024 · the guide's ch. 5 referral list and algorithms",
+   "tool": {
+    "items": [
+     {
+      "label": {
+       "en": "Urgent assessment"
+      },
+      "value": {
+       "en": "Before any cosmetic treatment"
+      },
+      "note": {
+       "en": "Findings that suggest a hormone-secreting tumour or an adrenal crisis"
+      }
+     },
+     {
+      "label": {
+       "en": "Endocrine referral"
+      },
+      "value": {
+       "en": "Planned work-up"
+      },
+      "note": {
+       "en": "Findings that point to treatable or inherited endocrine disease"
+      }
+     },
+     {
+      "label": {
+       "en": "No endocrine flag on this alone"
+      },
+      "value": {
+       "en": "Skin-directed care"
+      },
+      "note": {
+       "en": "Common findings without discriminating features; reassess if others appear"
+      }
+     }
+    ],
+    "callout": {
+     "en": "You route; the endocrinologist diagnoses."
+    }
+   },
+   "interaction": {
+    "kind": "quickfire",
+    "title": {
+     "en": "Route the finding"
+    },
+    "prompt": {
+     "en": "One patient at a time: which route does this finding take?"
+    },
+    "labels": [
+     {
+      "value": "urgent",
+      "label": {
+       "en": "Urgent assessment"
+      },
+      "tone": "bad"
+     },
+     {
+      "value": "refer",
+      "label": {
+       "en": "Endocrine referral"
+      },
+      "tone": "neutral"
+     },
+     {
+      "value": "none",
+      "label": {
+       "en": "No endocrine flag alone"
+      },
+      "tone": "good"
+     }
+    ],
+    "items": [
+     {
+      "id": "virilization",
+      "label": {
+       "en": "Coarse chin and chest hair over four months; her voice has deepened"
+      },
+      "answer": "urgent",
+      "why": {
+       "en": "Rapid progression with virilization raises the likelihood of an androgen-secreting tumour, over half of which are malignant (Endocrine Society, 2018). The guide calls rapid virilization the one finding that demands urgent work-up."
+      }
+     },
+     {
+      "id": "adrenal",
+      "label": {
+       "en": "Darkening of palm creases and gums, weight loss, feeling faint on standing"
+      },
+      "answer": "urgent",
+      "why": {
+       "en": "Hyperpigmentation with systemic symptoms suggests primary adrenal insufficiency; the guideline recommends testing in unwell patients and treating a suspected crisis without waiting for results."
+      }
+     },
+     {
+      "id": "cushing",
+      "label": {
+       "en": "Wide purple abdominal striae, easy bruising, trouble climbing stairs"
+      },
+      "answer": "refer",
+      "why": {
+       "en": "Several discriminating features together: the guideline recommends testing for Cushing's syndrome, and the guide lists it for prompt endocrine referral."
+      }
+     },
+     {
+      "id": "men1",
+      "label": {
+       "en": "Several facial angiofibromas, no tuberous sclerosis; her father had parathyroid surgery"
+      },
+      "answer": "refer",
+      "why": {
+       "en": "Angiofibromas outside tuberous sclerosis call for biochemical testing for MEN1, and a relative with parathyroid disease strengthens the case."
+      }
+     },
+     {
+      "id": "cla",
+      "label": {
+       "en": "Itchy, rippled brown patch between the shoulder blades; an aunt had thyroid cancer"
+      },
+      "answer": "refer",
+      "why": {
+       "en": "Interscapular lichen amyloidosis clusters with RET variants in MEN2A and can precede medullary thyroid cancer; with that family history it needs endocrine and genetic assessment."
+      }
+     },
+     {
+      "id": "puffiness",
+      "label": {
+       "en": "Puffy face after late nights; no bruising, striae or weakness"
+      },
+      "answer": "none",
+      "why": {
+       "en": "Facial fullness alone is a common, weakly discriminating feature, and the guideline advises against testing everyone. Reassess if discriminating features appear."
+      }
+     },
+     {
+      "id": "chin-hairs",
+      "label": {
+       "en": "A few coarse hairs on the chin only; regular periods"
+      },
+      "answer": "none",
+      "why": {
+       "en": "The Endocrine Society suggests against androgen testing in women with regular cycles and unwanted local hair without an abnormal hirsutism score. Hair removal is a reasonable cosmetic choice."
+      }
+     }
+    ],
+    "done": {
+     "en": "Seven routed. Two need urgent assessment, three need an endocrine referral, and two can stay with skin-directed care."
+    },
+    "citationRefs": [
+     "martin-2018-hirsutism-guideline",
+     "bornstein-2016-pai-guideline",
+     "nieman-2008-cushings-diagnosis-guideline",
+     "darling-1997-men1-angiofibromas",
+     "stanescu-2024-cla-men2-review",
+     "hannah-shmouni-2026-are"
+    ],
+    "source": "authored:2026-09-24 from Endocrine Society guidelines (Nieman 2008, Bornstein 2016, Martin 2018), Darling 1997, Stanescu 2024 and the guide's referral list; claims c-m02-03, -15, -17, -18, -19"
+   }
+  },
+  {
+   "id": "m2-p17",
+   "type": "audio",
+   "time": "18 / 20",
+   "lead": {
+    "en": "Fictional case"
+   },
+   "title": {
+    "en": "Freckles before the wedding."
+   },
+   "body": {
+    "en": "A 29-year-old asks for laser removal of 'freckles' on her lips and at the corners of her eyes before her wedding. You notice a soft, skin-coloured papule on one eyelid. She mentions her father had 'a heart tumour' removed in his thirties. This is a fictional case built from the lesson's evidence; choose the first move that fits it."
+   },
+   "points": [
+    {
+     "en": "Lip and canthal lentigines: typical of Carney complex"
+    },
+    {
+     "en": "Eyelid papule: a possible cutaneous myxoma"
+    },
+    {
+     "en": "A family heart tumour: the reason not to wait"
+    }
+   ],
+   "citationRefs": [
+    "correa-2015-carney-complex-update",
+    "kirschner-2000-prkar1a-carney",
+    "lause-2017-dermatologic-endocrine",
+    "hannah-shmouni-2026-are"
+   ],
+   "sourceNote": "Correa 2015 · Kirschner 2000 · the guide's inherited-syndromes chapter",
+   "audioBeats": [
+    {
+     "title": {
+      "en": "What she wants"
+     },
+     "body": {
+      "en": "Laser for lip and canthal 'freckles' before a fixed date."
+     }
+    },
+    {
+     "title": {
+      "en": "What you see"
+     },
+     "body": {
+      "en": "Lentigines in a telling distribution, a soft eyelid papule, and a father with a heart tumour."
+     }
+    },
+    {
+     "title": {
+      "en": "Why it matters"
+     },
+     "body": {
+      "en": "In Carney complex, cardiac myxomas cause more than half of deaths; suspicion is a reason for specialist assessment and screening."
+     }
+    }
+   ],
+   "interaction": {
+    "kind": "scenario",
+    "title": {
+     "en": "What do you do first?"
+    },
+    "setup": {
+     "en": "A 29-year-old asks for laser removal of 'freckles' on her lips and at the corners of her eyes before her wedding. You notice a soft, skin-coloured papule on one eyelid. She mentions her father had 'a heart tumour' removed in his thirties."
+    },
+    "notice": [
+     {
+      "en": "Pigmentation at the inner or outer canthus is seen in Carney complex and Peutz–Jeghers syndrome"
+     },
+     {
+      "en": "Cutaneous myxomas favour the eyelids, ears and nipples"
+     },
+     {
+      "en": "Cardiac myxomas cause more than half of deaths in Carney complex"
+     }
+    ],
+    "options": [
+     {
+      "value": "laser-now",
+      "label": {
+       "en": "Proceed with the laser: lentigines are benign and she has a deadline."
+      },
+      "why": {
+       "en": "The spots may well be benign. Their distribution, the eyelid papule and the family history are what matter, and together they flag a possible syndrome."
+      }
+     },
+     {
+      "value": "pause-document-refer",
+      "label": {
+       "en": "Pause the cosmetic plan, document the findings and family history, and refer her promptly for endocrine and genetic assessment."
+      },
+      "correct": true,
+      "why": {
+       "en": "Right. Canthal and lip lentigines with a possible myxoma and a family cardiac tumour fit Carney complex, where early echocardiographic screening matters. You route; the specialist diagnoses."
+      }
+     },
+     {
+      "value": "cortisol-test",
+      "label": {
+       "en": "Order a cortisol test to check for Cushing's before deciding."
+      },
+      "why": {
+       "en": "Cortisol excess is one feature of Carney complex, but a single test neither assesses the syndrome nor its cardiac risk. Referral comes first."
+      }
+     }
+    ],
+    "followUp": {
+     "en": "Then explain why in plain words: the pattern of spots, the eyelid bump and her father's history together deserve a specialist's look, and the laser can wait."
+    },
+    "citationRefs": [
+     "correa-2015-carney-complex-update",
+     "kirschner-2000-prkar1a-carney",
+     "hannah-shmouni-2026-are"
+    ],
+    "source": "authored:2026-09-24 from Correa 2015 (Carney complex) and the guide's inherited-syndromes chapter + claim c-m02-16"
+   },
+   "metadata": {
+    "audioScript": {
+     "en": "Consider a fictional patient, built from this lesson's evidence. She is twenty-nine and wants the freckles on her lips and at the corners of her eyes lasered before her wedding. While you examine her you notice a soft, skin-coloured bump on one eyelid. She mentions that her father had a heart tumour removed in his thirties. Pigmented spots at the corners of the eyes are seen in Carney complex and Peutz–Jeghers syndrome, and small skin myxomas favour the eyelids and ears. In Carney complex, tumours of the heart cause more than half of the deaths, which is why screening matters once the diagnosis is suspected. The laser itself may be harmless. The question is what the skin is telling you. Choose your first move."
+    },
+    "variants": {
+     "audienceLevel": {
+      "prescriber": {
+       "en": "Document the lentigines, the eyelid lesion and the family history, refer to endocrinology or clinical genetics, and leave echocardiography and testing to that assessment. Defer the laser until then."
+      },
+      "clinical-staff": {
+       "en": "Hold the booking, photograph with consent if your setting allows, record the family history in her words, and bring it to the prescriber the same day."
+      },
+      "advisor": {
+       "en": "Explain that the pattern of spots is worth a specialist's look before any cosmetic treatment, and point her to a prescriber; do not suggest a product to fade them."
+      }
+     }
+    }
+   },
+   "imageBrief": {
+    "prompt": "Three small elements in a row on paper, connected by a single thin ink line. Left: a two-generation family tree in standard pedigree notation — a violet-filled square (the father) joined by a short horizontal line to an unfilled white circle (the mother), and from the middle of that line a vertical line down to one violet-filled circle (the daughter). Centre: a small round swatch of skin surface with a scatter of small, flat, dark freckle-like spots and one soft, skin-coloured dome-shaped bump. Right: a simple four-chamber cutaway of the heart in standard textbook orientation, the patient's left on the VIEWER'S RIGHT: two upper chambers (atria) above two larger lower chambers (ventricles), divided down the middle by a central wall. A small rounded violet mass on a short stalk hangs from the central wall into the upper chamber on the VIEWER'S RIGHT — the left atrium. The upper chamber on the viewer's left stays empty. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m2-p17-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m2-p17-img",
+    "alt": {
+     "en": "A pedigree with an affected father and daughter, a patch of skin with small dark spots and a soft bump, and a heart with a small mass in its left upper chamber, linked by one line."
+    },
+    "treatment": "cover",
+    "position": "top"
+   }
+  },
+  {
+   "id": "m2-p18",
+   "type": "quiz",
+   "time": "19 / 20",
+   "lead": {
+    "en": "Your turn"
+   },
+   "title": {
+    "en": "Hair removal, or referral?"
+   },
+   "body": {
+    "en": "One question to close lesson 2.3."
+   },
+   "sourceNote": "Lesson 2.3",
+   "quiz": {
+    "id": "m2-q3",
+    "prompt": {
+     "en": "A 31-year-old wants laser hair removal for coarse hair on her chin and chest that appeared over four months. Her voice has deepened. What comes first?"
+    },
+    "options": [
+     {
+      "text": {
+       "en": "Start the laser now and review her in three months."
+      },
+      "why": {
+       "en": "Rapid onset with virilization raises the likelihood of an androgen-secreting tumour; hair removal does nothing about it."
+      }
+     },
+     {
+      "text": {
+       "en": "Urgent endocrine assessment for an androgen-secreting tumour, before any cosmetic treatment."
+      },
+      "why": {
+       "en": "Correct. Rapid progression and virilization are the red flags in the Endocrine Society guideline, and the guide calls this the one finding that demands urgent work-up."
+      }
+     },
+     {
+      "text": {
+       "en": "Treat it as polycystic ovary syndrome and combine laser with a topical cream."
+      },
+      "why": {
+       "en": "Rapid onset with a deepening voice is outside the usual picture, and a tumour needs excluding before any label is attached."
+      }
+     }
+    ],
+    "correct": 1,
+    "feedback": {
+     "en": "Speed and virilization change the route."
+    },
+    "pillar": "patient-conversation",
+    "citationRefs": [
+     "martin-2018-hirsutism-guideline",
+     "hannah-shmouni-2026-are"
+    ]
+   }
+  },
+  {
+   "id": "m2-p19",
+   "type": "action",
+   "time": "20 / 20",
+   "lead": {
+    "en": "Closing and commitment"
+   },
+   "title": {
+    "en": "Before I treat a face that might be hormonal."
+   },
+   "body": {
+    "en": "Build the checklist you will actually use. It is saved to your path and your tutor will bring it back."
+   },
+   "sourceNote": "Module 02",
+   "citationRefs": [
+    "fda-mht-labeling-approval-2026-02-12",
+    "hannah-shmouni-2026-are",
+    "martin-2018-hirsutism-guideline",
+    "nams-2022-hormone-therapy-position-statement",
+    "nieman-2008-cushings-diagnosis-guideline"
+   ],
+   "action": {
+    "prompt": {
+     "en": "Choose what you will do before you treat a skin complaint that might be hormonal"
+    },
+    "takeaway": {
+     "en": "Next module: adipose tissue, incretins and facial architecture — including what rapid weight loss does to the face."
+    },
+    "suggestions": [
+     {
+      "en": "I will take a steroid history, including creams and injections."
+     },
+     {
+      "en": "I will look for the signs that discriminate Cushing's syndrome."
+     },
+     {
+      "en": "I will refer a skin sign that points to an endocrine syndrome before any cosmetic treatment."
+     }
+    ]
+   },
+   "metadata": {
+    "clozePrefix": {
+     "en": "Before I treat a skin complaint that might be hormonal I will"
+    },
+    "clozeSuffix": {
+     "en": "."
+    },
+    "variants": {
+     "audienceLevel": {
+      "prescriber": {
+       "en": "Your checklist ends with the order or the referral: which test, which specialist, and what you documented."
+      },
+      "clinical-staff": {
+       "en": "Your checklist ends with escalation: red-flag findings go to the prescriber before the next treatment."
+      },
+      "advisor": {
+       "en": "Your checklist ends with referral: product questions you can answer; hormonal signs and hormone requests go to a prescriber."
+      }
+     }
+    }
+   },
+   "interaction": {
+    "kind": "chips",
+    "title": {
+     "en": "Your hormone-and-skin checklist"
+    },
+    "prompt": {
+     "en": "Tap everything you will do. Choose as many as you like."
+    },
+    "prefix": {
+     "en": "Before I treat a skin complaint that might be hormonal I will"
+    },
+    "chips": [
+     {
+      "value": "steroid-history",
+      "label": {
+       "en": "take a steroid history, including creams, skin-lighteners and injections"
+      },
+      "group": "safety"
+     },
+     {
+      "value": "discriminators",
+      "label": {
+       "en": "check for bruising, plethora, proximal weakness and wide purple striae"
+      },
+      "group": "assessment"
+     },
+     {
+      "value": "hrt-indication",
+      "label": {
+       "en": "keep hormone therapy to its approved uses (symptoms and bone); skin is not one of them"
+      },
+      "group": "evidence"
+     },
+     {
+      "value": "red-flags",
+      "label": {
+       "en": "route rapid hirsutism, virilization or new darkening urgently"
+      },
+      "group": "safety"
+     },
+     {
+      "value": "syndrome-signs",
+      "label": {
+       "en": "refer lip and eyelid lentigines, angiofibromas or interscapular amyloidosis"
+      },
+      "group": "assessment"
+     },
+     {
+      "value": "document",
+      "label": {
+       "en": "document what I saw and where I referred"
+      },
+      "group": "regulatory"
+     }
+    ],
+    "suffix": {
+     "en": "."
+    },
+    "pick": "many",
+    "citationRefs": [
+     "fda-mht-labeling-approval-2026-02-12",
+     "hannah-shmouni-2026-are",
+     "martin-2018-hirsutism-guideline",
+     "nams-2022-hormone-therapy-position-statement",
+     "nieman-2008-cushings-diagnosis-guideline"
+    ],
+    "source": "authored:2026-09-24 from m2 tool items and the guide's ch. 5 referral list"
+   }
+  }
+ ],
+ "check": {
+  "id": "m2-check",
+  "prompt": {
+   "en": "Closing Module 2: which statement keeps mechanism, evidence, regulation and the open question apart?"
+  },
+  "options": [
+   {
+    "text": {
+     "en": "Estrogen raises dermal collagen, so hormone therapy is indicated for skin ageing."
+    },
+    "why": {
+     "en": "That blends mechanism into indication. The collagen effect is real in small trials; the approved uses are symptoms and bone."
+    }
+   },
+   {
+    "text": {
+     "en": "Estrogen acts on skin receptors (mechanism); small trials show thicker skin, while the largest found no wrinkle difference (evidence); US approved uses are symptoms and bone (regulation); whether longer treatment changes facial ageing is untested (open question)."
+    },
+    "why": {
+     "en": "Correct. Four separate answers, each with its own source."
+    }
+   },
+   {
+    "text": {
+     "en": "A round, puffy face is a sign of Cushing's syndrome and should be tested."
+    },
+    "why": {
+     "en": "Facial fullness is common and weakly discriminating; testing is for multiple, progressive discriminating features."
+    }
+   }
+  ],
+  "correct": 1,
+  "feedback": {
+   "en": "Keep the four registers apart for hormones exactly as you do for peptides."
+  },
+  "citationRefs": [
+   "rittie-2008-topical-estradiol-collagen",
+   "maheux-1994-cee-skin-thickness-rct",
+   "phillips-2008-ht-facial-skin-rct",
+   "fda-mht-labeling-approval-2026-02-12",
+   "nieman-2008-cushings-diagnosis-guideline"
+  ]
+ },
+ "claimLocations": {
+  "c-m02-01": [
+   "m2-p02",
+   "m2-p03"
+  ],
+  "c-m02-02": [
+   "m2-p03"
+  ],
+  "c-m02-03": [
+   "m2-p04",
+   "m2-p07",
+   "m2-p16"
+  ],
+  "c-m02-04": [
+   "m2-p05",
+   "m2-p06",
+   "m2-p07"
+  ],
+  "c-m02-05": [
+   "m2-p06",
+   "m2-p07"
+  ],
+  "c-m02-06": [
+   "m2-p08",
+   "m2-p10"
+  ],
+  "c-m02-07": [
+   "m2-p08",
+   "m2-p09"
+  ],
+  "c-m02-08": [
+   "m2-p10"
+  ],
+  "c-m02-09": [
+   "m2-p10",
+   "m2-p12"
+  ],
+  "c-m02-10": [
+   "m2-p10",
+   "m2-p11"
+  ],
+  "c-m02-11": [
+   "m2-p11",
+   "m2-p12"
+  ],
+  "c-m02-12": [
+   "m2-p11",
+   "m2-p12"
+  ],
+  "c-m02-13": [
+   "m2-p11"
+  ],
+  "c-m02-14": [
+   "m2-p11",
+   "m2-p12"
+  ],
+  "c-m02-15": [
+   "m2-p13",
+   "m2-p14",
+   "m2-p16"
+  ],
+  "c-m02-16": [
+   "m2-p13",
+   "m2-p17"
+  ],
+  "c-m02-17": [
+   "m2-p13",
+   "m2-p16"
+  ],
+  "c-m02-18": [
+   "m2-p15",
+   "m2-p16"
+  ],
+  "c-m02-19": [
+   "m2-p15",
+   "m2-p16",
+   "m2-p18"
+  ],
+  "c-m02-20": [
+   "m2-p15"
+  ],
+  "c-m02-21": [
+   "m2-p11"
+  ],
+  "c-m02-22": [
+   "m2-p11"
+  ],
+  "c-m02-23": [
+   "m2-p11"
+  ],
+  "j-eu-32": [
+   "m2-p11"
+  ],
+  "j-eu-35": [
+   "m2-p11"
+  ],
+  "j-eu-31": [
+   "m2-p11"
+  ],
+  "j-pt-31": [
+   "m2-p11"
+  ],
+  "j-pt-29": [
+   "m2-p11"
+  ],
+  "j-pt-30": [
+   "m2-p11"
+  ],
+  "j-br-26": [
+   "m2-p11"
+  ],
+  "j-br-25": [
+   "m2-p11"
+  ],
+  "j-br-54": [
+   "m2-p11"
+  ],
+  "j-br-53": [
+   "m2-p11"
+  ],
+  "j-ae-34": [
+   "m2-p11"
+  ],
+  "j-ae-29": [
+   "m2-p11"
+  ],
+  "j-ae-41": [
+   "m2-p11"
+  ]
+ },
+ "audienceLevelPanes": [
+  "m2-p06",
+  "m2-p11",
+  "m2-p17",
+  "m2-p19"
+ ],
+ "courseQuiz": [
+  {
+   "id": "cq-m02-1",
+   "prompt": {
+    "en": "Why can a blood or saliva cortisol level not tell you how much cortisol a patient's skin is generating?"
+   },
+   "options": [
+    {
+     "text": {
+      "en": "Because 11β-HSD1 regenerates cortisol inside skin cells, and local availability is regulated independently of circulating levels."
+     },
+     "why": {
+      "en": "Correct: a mechanism shown in human skin samples and mice."
+     }
+    },
+    {
+     "text": {
+      "en": "Because skin cells cannot make or activate cortisol."
+     },
+     "why": {
+      "en": "They can: skin expresses an HPA-like axis, and 11β-HSD1 regenerates cortisol locally."
+     }
+    },
+    {
+     "text": {
+      "en": "Because saliva and blood cortisol tests are unreliable for everything."
+     },
+     "why": {
+      "en": "Late-night salivary cortisol is a first-line test for Cushing's syndrome; it measures systemic cortisol, which is a different question."
+     }
+    }
+   ],
+   "correct": 0,
+   "rationale": {
+    "en": "Local tissue cortisol and systemic cortisol are separate: the first is a research mechanism, the second is what diagnostic tests measure."
+   },
+   "pillar": "physiology",
+   "citationRefs": [
+    "tiganescu-2011-11bhsd1-skin",
+    "nieman-2008-cushings-diagnosis-guideline"
+   ]
+  },
+  {
+   "id": "cq-m02-2",
+   "prompt": {
+    "en": "A patient asks whether starting hormone therapy at menopause will stop her wrinkles. Which answer fits the evidence?"
+   },
+   "options": [
+    {
+     "text": {
+      "en": "Yes: estrogen rebuilds collagen, so her wrinkles will improve."
+     },
+     "why": {
+      "en": "Small trials show thicker skin, but the largest trials found no difference in wrinkles."
+     }
+    },
+    {
+     "text": {
+      "en": "It may thicken the skin a little, the largest trials found no difference in wrinkles, and skin is not a reason to start; hot flashes or vaginal symptoms are worth discussing with a prescriber."
+     },
+     "why": {
+      "en": "Correct: a secondary effect, and an indication-led decision."
+     }
+    },
+    {
+     "text": {
+      "en": "It has no effect on skin at all."
+     },
+     "why": {
+      "en": "Small RCTs do show gains in thickness and collagen; what is unproven is a visible wrinkle benefit."
+     }
+    }
+   ],
+   "correct": 1,
+   "rationale": {
+    "en": "Separate structural effects (small trials) from visible ageing (large trials) and from indications (symptoms and bone)."
+   },
+   "pillar": "patient-conversation",
+   "citationRefs": [
+    "phillips-2008-ht-facial-skin-rct",
+    "maheux-1994-cee-skin-thickness-rct",
+    "fda-mht-labeling-approval-2026-02-12",
+    "nams-2022-hormone-therapy-position-statement"
+   ]
+  }
+ ],
+ "tutorEntries": [
+  {
+   "id": "tutor-m02-cortisol-face",
+   "keys": [
+    "cortisol face",
+    "moon face",
+    "puffy face cortisol",
+    "is it cushing's",
+    "cushing's syndrome signs",
+    "cortisol test",
+    "saliva cortisol test",
+    "cortisol supplement",
+    "stress face",
+    "11b-hsd1"
+   ],
+   "answer": {
+    "en": "Most 'cortisol face' is puffiness from sleep, alcohol, salt and weight, as the Aesthetic & Regenerative Endocrinology guide describes it. Endogenous Cushing's syndrome is rare (two to three new cases per million people a year), and its commonest form comes from a glucocorticoid the patient is using, so ask about tablets, inhalers, injections and creams, including skin-lighteners. The features that best discriminate Cushing's are easy bruising, facial plethora, proximal muscle weakness and reddish-purple striae wider than 1 cm; a round face alone is a weak signal. If several are present and progressing, the next step is formal testing arranged by a prescriber and an endocrinologist, not a supplement or a consumer cortisol panel. Local skin cortisol (11β-HSD1) is a research mechanism with no approved treatment."
+   },
+   "citationRefs": [
+    "nieman-2008-cushings-diagnosis-guideline",
+    "tiganescu-2013-11bhsd1-aged-skin",
+    "hannah-shmouni-2026-are"
+   ],
+   "scope": "m02"
+  },
+  {
+   "id": "tutor-m02-hrt-skin",
+   "keys": [
+    "hrt for skin",
+    "hormone therapy skin",
+    "estrogen for wrinkles",
+    "estrogen cream face",
+    "bioidentical hormones skin",
+    "does hrt help wrinkles",
+    "menopause skin collagen",
+    "estriol cream",
+    "hormone cream",
+    "menopause wrinkles"
+   ],
+   "answer": {
+    "en": "Estrogen acts on receptors in skin. In small trials, hormone therapy thickened skin and raised collagen (graded C here). The largest trial on facial skin (485 women, 48 weeks) and a four-year trial in recently menopausal women found no difference in wrinkles. In the US, as of February 2026, approved uses of menopausal hormone therapy are hot flashes, vaginal and vulvar symptoms and, for some products, preventing bone loss; skin is not an indication and is never the reason to start. Compounded 'bioidentical' hormones lack efficacy and safety data, and an over-the-counter 'hormone cream' is an unapproved drug under US rules. In the UK, HRT products are prescription-only medicines licensed for oestrogen-deficiency symptoms and, for some, for preventing osteoporosis; skin is not among their uses, and a compounded 'bioidentical' hormone is an unlicensed medicine that MHRA guidance places behind any licensed product that meets the need. For skin, daily sunscreen and a prescription retinoid have better evidence. This course gives no doses; hormone therapy decisions belong with a prescriber."
+   },
+   "citationRefs": [
+    "ecfr-21-cfr-310-530-hormone-creams",
+    "fda-mht-labeling-approval-2026-02-12",
+    "fda-renova-tretinoin-label",
+    "hughes-2013-sunscreen-skin-aging-rct",
+    "nams-2022-hormone-therapy-position-statement",
+    "owen-2016-keeps-skin-wrinkles",
+    "phillips-2008-ht-facial-skin-rct",
+    "sitohang-2022-tretinoin-sr",
+    "emc-smpc-evorel-uk",
+    "emc-smpc-sandrena-uk",
+    "mhra-gn14-specials-2023"
+   ],
+   "scope": "m02"
+  }
+ ],
+ "reviewNotes": [
+  {
+   "date": "2026-09-24",
+   "blocks": "m2-p03, m2-p19, tutor-m02-hrt-skin",
+   "change": "Source-check alignment: cortisol callout states what the source says (local regulation independent of systemic levels); HRT chip names approved uses and cites the FDA labeling record; KEEPS four-year trial cited in the tutor answer."
+  },
+  {
+   "date": "2026-09-24",
+   "blocks": "tutor-m02-hrt-skin",
+   "change": "Citation only: tutor answer now cites fda-renova-tretinoin-label, sitohang-2022-tretinoin-sr for statements it already made. No wording change."
+  }
+ ],
+ "approval": {
+  "gate": "medical_review",
+  "approver": "Fady Hannah-Shmouni, MD FRCPC",
+  "date": "2026-09-24",
+  "scope": "module 02, full-course review draft of 2026-09-24 (course-draft.docx); approval relayed by Omar Saleem, 2026-09-24"
+ },
+ "postApprovalChanges": [
+  {
+   "date": "2026-09-25",
+   "block": "m2-p11 (body, beats 1 and 3, narration, prescriber and advisor versions)",
+   "change": "UK position added beside the US one: HRT products are prescription-only medicines licensed in the UK for oestrogen-deficiency symptoms and, for some, osteoporosis prevention (Evorel, Sandrena SmPCs); a compounded 'bioidentical' hormone is an unlicensed medicine, placed behind any licensed product that meets the need (MHRA Guidance Note 14); on the UK medicines compendium topical tretinoin appears only in acne treatments. Prescriber line now reads 'licensed products (FDA-approved in the US, MHRA-licensed in the UK)'; advisor line adds that UK HRT products are prescription-only. Claims c-m02-21, c-m02-22, c-m02-23.",
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "tutor-m02-hrt-skin",
+   "change": "Tutor answer adds the UK position: HRT products are prescription-only medicines licensed for oestrogen-deficiency symptoms and, for some, osteoporosis prevention; skin is not among their uses; a compounded 'bioidentical' hormone is an unlicensed medicine behind any licensed product that meets the need.",
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "unit tutorContext",
+   "change": "Tutor context adds the UK HRT and tretinoin position (same facts as m2-p11).",
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m2-p11",
+   "change": "UK text moved verbatim into the UK note; the same UK facts left beats 1 and 3 and the narration, and the UK-only lines left the prescriber and advisor versions (advisor sentence rejoined as approved on 24 Sep), so the base copy is the approved US text; EU, Portugal, Brazil and UAE notes added.",
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m2-p11",
+   "change": "EU note: the opening clause 'HRT is authorised nationally' removed; the cited EU core product information (CMDh, December 2025) lists HRT's indications but says nothing about how HRT products are authorised. The note now states only what that text lists.",
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m2-p01",
+   "change": "Editorial: placeholder source lines removed (the course citing itself on the module cover; an internal audience decision on the role picker). These moments state no facts; nothing else changed.",
+   "forReview": "Omar Saleem",
+   "confirmedBy": "Omar Saleem, product owner (editorial; no medical content changed)",
+   "confirmedAt": "2026-09-25"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m02 module title",
+   "change": "Editorial: the module title is now the plain title 'Systemic hormones and the skin' everywhere (app, homepage, certificate), replacing the intake plan's working title (Omar: \"plain module titles might be nicer, esp on mobile\").",
+   "forReview": "Omar Saleem",
+   "confirmedBy": "Omar Saleem, product owner (editorial; no medical content changed)",
+   "confirmedAt": "2026-09-25"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m2-opener",
+   "change": "New moment: the module's opening film (about 76 s; draft media for the media preview). The narration is approved text, verbatim (m2-p01 body, sentences 1, 2, 3; m2-p02 audioScript, sentences 1, 2, 3, 4, 5, 6, 7); the presenter is a HeyGen digital avatar, and the player shows \"Presented by a digital avatar (AI-generated presenter and voice).\" under the video. The moments' position labels are renumbered to /20.",
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
+  }
+ ],
+ "mediaChanges": [
+  {
+   "date": "2026-09-25",
+   "block": "m2-p02",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m2-p02-img"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m2-p06",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m2-p06-img"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m2-p08",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m2-p08-img"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m2-p11",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m2-p11-img"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m2-p13",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m2-p13-img"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m2-p15",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m2-p15-img"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m2-p17",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m2-p17-img"
+  }
+ ]
+}

@@ -1,0 +1,1279 @@
+{
+  "jurisdiction": {
+    "code": "PT",
+    "name": "Portugal",
+    "authorities": [
+      {
+        "name": "INFARMED – Autoridade Nacional do Medicamento e Produtos de Saúde, I.P.",
+        "scope": "Medicines authorisation and the Infomed register, dispensing classification, compounding (medicamentos manipulados) rules and inspection, exceptional-use authorisations (AUE), online-sale registration, medicine advertising, market surveillance of cosmetics (national competent authority), falsified-medicine enforcement",
+        "url": "https://www.infarmed.pt"
+      },
+      {
+        "name": "DGAV – Direção-Geral de Alimentação e Veterinária",
+        "scope": "Food supplements (mandatory pre-market notification), nutrition and health claims, novel foods",
+        "url": "https://www.dgav.pt"
+      },
+      {
+        "name": "ERS – Entidade Reguladora da Saúde",
+        "scope": "Enforcement of the health-services advertising regime (Decreto-Lei 238/2015) for clinics and other providers",
+        "url": "https://www.ers.pt"
+      },
+      {
+        "name": "Ordem dos Médicos",
+        "scope": "Medical deontology (Regulamento 707/2016) and the Competence in Aesthetic Medicine",
+        "url": "https://ordemdosmedicos.pt"
+      },
+      {
+        "name": "Ordem dos Farmacêuticos",
+        "scope": "Pharmacist professional acts, including its position that aesthetic procedures are not pharmaceutical acts",
+        "url": "https://ordemfarmaceuticos.pt"
+      },
+      {
+        "name": "CNNHC – Comissão Nacional para a Normalização da Hormona do Crescimento (INFARMED technical commission)",
+        "scope": "Conditions of administration and reimbursement opinions for growth hormone",
+        "url": "https://www.infarmed.pt/web/infarmed/institucional/estrutura-e-organizacao/comissoes-tecnicas-especializadas/comissao-nacional-para-a-normalizacao-da-hormona-do-crescimento-cnnhc-"
+      }
+    ]
+  },
+  "researchedAt": "2026-09-25",
+  "sources": [
+    {
+      "id": "pt-dl176-2006",
+      "title": "Decreto-Lei n.º 176/2006, de 30 de agosto – Estatuto do Medicamento (regime jurídico dos medicamentos de uso humano), versão consolidada",
+      "authors": "Ministério da Saúde (Portugal)",
+      "publication": "Diário da República Eletrónico – legislação consolidada",
+      "year": 2006,
+      "url": "https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2006-34530575",
+      "sourceType": "legislation",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": "Consolidated text read 25 Sep 2026; latest amendment listed is Decreto-Lei n.º 117/2026 (17 Jun 2026), which changed only Arts 119 and 120-A. Every quote was also found in INFARMED's compiled consolidated PDF (version 26-12-2023): https://www.infarmed.pt/documents/15786/1068535/035-E_DL_176_2006_Versao_Consolidada_DRE/d2ae048e-547e-4c5c-873e-b41004b9027f"
+    },
+    {
+      "id": "pt-dl95-2004",
+      "title": "Decreto-Lei n.º 95/2004, de 22 de abril – regula a prescrição e a preparação de medicamentos manipulados",
+      "authors": "Ministério da Saúde (Portugal); compiled by INFARMED, I.P.",
+      "publication": "INFARMED – Legislação Farmacêutica Compilada (67-A)",
+      "year": 2004,
+      "url": "https://www.infarmed.pt/documents/15786/1070327/067-A-DL_95_2004.pdf",
+      "sourceType": "legislation",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": "INFARMED compiled text. INFARMED's current manipulados page (read the same day) still applies these rules; a DRE consolidated version was not checked for later amendments."
+    },
+    {
+      "id": "pt-portaria594-2004",
+      "title": "Portaria n.º 594/2004, de 2 de junho – boas práticas a observar na preparação de medicamentos manipulados em farmácia de oficina e hospitalar",
+      "authors": "Ministério da Saúde (Portugal); compiled by INFARMED, I.P.",
+      "publication": "INFARMED – Legislação Farmacêutica Compilada (67-B)",
+      "year": 2004,
+      "url": "https://www.infarmed.pt/documents/15786/1070327/portaria_594-2004.pdf",
+      "sourceType": "legislation",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": ""
+    },
+    {
+      "id": "pt-delib1985-2015",
+      "title": "Deliberação n.º 1985/2015, de 17 de setembro – lista de substâncias cuja utilização na preparação e prescrição de medicamentos manipulados não é permitida",
+      "authors": "INFARMED, I.P. – Conselho Diretivo",
+      "publication": "Diário da República, 2.ª série, n.º 214, 2 Nov 2015 (INFARMED compiled text)",
+      "year": 2015,
+      "url": "https://www.infarmed.pt/documents/15786/1070327/067-A3_Delib_1985_2015_VF.pdf",
+      "sourceType": "legislation",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": "Revoked and replaced Deliberação n.º 1498/2004. INFARMED's manipulados page (read 25 Sep 2026) names it as the current list."
+    },
+    {
+      "id": "pt-infarmed-manipulados",
+      "title": "Medicamentos manipulados – Inspeção de medicamentos manipulados",
+      "authors": "INFARMED, I.P.",
+      "publication": "infarmed.pt – Entidades > Medicamentos de uso humano > Inspeção",
+      "year": 2026,
+      "url": "https://www.infarmed.pt/web/infarmed/entidades/medicamentos-uso-humano/inspecao-medicamentos/medicamentos-manipulados",
+      "sourceType": "regulator",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": ""
+    },
+    {
+      "id": "pt-infomed",
+      "title": "Infomed – base de dados de medicamentos do Infarmed (pesquisa avançada and 'Detalhes do Medicamento' pages)",
+      "authors": "INFARMED, I.P.",
+      "publication": "Infomed (extranet.infarmed.pt), 'Atualizado a 24/09/2026'",
+      "year": 2026,
+      "url": "https://extranet.infarmed.pt/INFOMED-fo/pesquisa-avancada.xhtml",
+      "sourceType": "register",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": "Searched 25 Sep 2026 with no status filter (so authorised, lapsed, revoked, marketed and non-marketed products all show). Substance (DCI) field matches substrings. Zero-result substance queries: retatrut, retatrutida, retatrutide, tesamorel, tesamorelina, tesamorelin, sermorel, sermorelina, sermorelin, ipamorel, ipamorelina, ipamorelin, CJC, ibutamoren, MK-677, BPC, pentadecapept, timosina, timosina beta, thymosin, KPV, GHK, prezatid, glicil, LL-37, catelicid(ina), ropocamptid, timulina, thymulin, PTD, bremelanot, dermorphin; zero-result name queries: Melanotan, BPC-157, Egrifta, Zepbound. 'melanot' returned only Scenesse (afamelanotido) and Imcivree (setmelanotido); 'cobre' returned only Cuprymina (cloreto de cobre (64Cu), revoked). Positive controls in the same session (semaglut, afamelanot, melanot) returned products. Detail pages opened: Scenesse, Wegovy 0.25 mg/0.38 ml pen, Ozempic 0.25 mg/0.19 ml, Mounjaro 10 mg/0.5 ml, Olumiant 2 mg, Norditropin FlexPro 10 mg/1.5 ml, Propecia 1 mg, Minox 5, Ketrel; dispensing classes for somatropin, semaglutide, tirzepatide, baricitinib, afamelanotide, minoxidil and tretinoin were cross-checked with the 'Classificação Quanto à Dispensa' filter. Row status labels come from Infomed's own tooltips ('Autorizado', 'Caducado', 'Revogado', 'Existe, pelo menos, uma apresentação comercializada.', 'Não existem apresentações comercializadas.'). Infomed's conditions of use ask users to cite it as 'Infomed – base de dados de medicamentos do Infarmed consultada em extranet.infarmed.pt/INFOMED-fo/index.xhtml (acedida em 25/09/2026)' and forbid republishing its content without written authorisation."
+    },
+    {
+      "id": "pt-infomed-guide",
+      "title": "Infomed – Guia e condições de utilização",
+      "authors": "INFARMED, I.P.",
+      "publication": "Infomed (extranet.infarmed.pt)",
+      "year": 2026,
+      "url": "https://extranet.infarmed.pt/INFOMED-fo/guia-condicoes-utilizacao.xhtml",
+      "sourceType": "register",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": ""
+    },
+    {
+      "id": "pt-rcm-scenesse",
+      "title": "SCENESSE 16 mg implante – Resumo das Características do Medicamento",
+      "authors": "Clinuvel / European Commission (EU product information)",
+      "publication": "Infomed RCM link (med_id 592401)",
+      "year": 2026,
+      "url": "https://extranet.infarmed.pt/INFOMED-fo/download-ficheiro.xhtml?med_id=592401&tipo_doc=rcm",
+      "sourceType": "label",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": "Downloaded from Infomed 25 Sep 2026."
+    },
+    {
+      "id": "pt-rcm-olumiant",
+      "title": "Olumiant (baricitinib) – Resumo das Características do Medicamento",
+      "authors": "Eli Lilly Nederland / European Commission (EU product information)",
+      "publication": "Infomed RCM link (med_id 615663), which redirects to the EMA product information in Portuguese",
+      "year": 2026,
+      "url": "https://extranet.infarmed.pt/INFOMED-fo/download-ficheiro.xhtml?med_id=615663&tipo_doc=rcm",
+      "sourceType": "label",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": "Redirect target: https://www.ema.europa.eu/pt/documents/product-information/olumiant-epar-product-information_pt.pdf"
+    },
+    {
+      "id": "pt-rcm-minox5",
+      "title": "Minox 5, 50 mg/ml, solução cutânea – Resumo das Características do Medicamento",
+      "authors": "Laboratório Edol / INFARMED, I.P.",
+      "publication": "Infomed RCM link (med_id 35350)",
+      "year": 2026,
+      "url": "https://extranet.infarmed.pt/INFOMED-fo/download-ficheiro.xhtml?med_id=35350&tipo_doc=rcm",
+      "sourceType": "label",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": ""
+    },
+    {
+      "id": "pt-rcm-trinox",
+      "title": "Trinox 5 mg comprimidos (minoxidil) – Resumo das Características do Medicamento",
+      "authors": "INFARMED, I.P. (approved 15-11-2023)",
+      "publication": "Infomed RCM link (med_id 700804)",
+      "year": 2023,
+      "url": "https://extranet.infarmed.pt/INFOMED-fo/download-ficheiro.xhtml?med_id=700804&tipo_doc=rcm",
+      "sourceType": "label",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": ""
+    },
+    {
+      "id": "pt-rcm-propecia",
+      "title": "Propecia 1 mg comprimidos revestidos por película – Resumo das Características do Medicamento",
+      "authors": "Organon Portugal / INFARMED, I.P.",
+      "publication": "Infomed RCM link (med_id 9711)",
+      "year": 2026,
+      "url": "https://extranet.infarmed.pt/INFOMED-fo/download-ficheiro.xhtml?med_id=9711&tipo_doc=rcm",
+      "sourceType": "label",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": ""
+    },
+    {
+      "id": "pt-rcm-ketrel",
+      "title": "Ketrel 0,5 mg/g creme (tretinoína) – Resumo das Características do Medicamento",
+      "authors": "Laboratoires Bailleul / INFARMED, I.P. (approved 24-10-2024)",
+      "publication": "Infomed RCM link (med_id 10971)",
+      "year": 2024,
+      "url": "https://extranet.infarmed.pt/INFOMED-fo/download-ficheiro.xhtml?med_id=10971&tipo_doc=rcm",
+      "sourceType": "label",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": ""
+    },
+    {
+      "id": "pt-rcm-estreva",
+      "title": "ESTREVA 0.1% gel (estradiol) – Resumo das Características do Medicamento",
+      "authors": "Theramex / INFARMED, I.P.",
+      "publication": "Infomed RCM link (med_id 11076)",
+      "year": 2026,
+      "url": "https://extranet.infarmed.pt/INFOMED-fo/download-ficheiro.xhtml?med_id=11076&tipo_doc=rcm",
+      "sourceType": "label",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": ""
+    },
+    {
+      "id": "pt-rcm-estrofem",
+      "title": "Estrofem 2 mg (estradiol) – Resumo das Características do Medicamento",
+      "authors": "INFARMED, I.P. (approved 25-09-2024)",
+      "publication": "Infomed RCM link (med_id 36669)",
+      "year": 2024,
+      "url": "https://extranet.infarmed.pt/INFOMED-fo/download-ficheiro.xhtml?med_id=36669&tipo_doc=rcm",
+      "sourceType": "label",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": ""
+    },
+    {
+      "id": "pt-infarmed-circ045-2024",
+      "title": "Circular Informativa N.º 045/CD/100.20.200 – Recomendações para gestão da disponibilidade dos medicamentos agonistas do recetor da GLP-1",
+      "authors": "INFARMED, I.P. – Conselho Diretivo",
+      "publication": "INFARMED circular, 04/07/2024",
+      "year": 2024,
+      "url": "https://www.infarmed.pt/documents/15786/9677612/Recomenda%C3%A7%C3%B5es+para+gest%C3%A3o+da+disponibilidade+dos+medicamentos+agonistas+do+recetor+da+GLP-1/670963ea-0c46-b14d-24e0-c6af7a5877d3",
+      "sourceType": "regulator",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": ""
+    },
+    {
+      "id": "pt-infarmed-glp1-illegal-2025",
+      "title": "EMA e HMA alertam para aumento da venda de medicamentos ilegais comercializados como análogos do GLP-1",
+      "authors": "INFARMED, I.P.",
+      "publication": "infarmed.pt news, 05 Sep 2025",
+      "year": 2025,
+      "url": "https://www.infarmed.pt/web/infarmed/infarmed?p_p_id=101&p_p_lifecycle=0&p_p_state=maximized&p_p_mode=view&_101_struts_action=%2Fasset_publisher%2Fview_content&_101_assetEntryId=11573545&_101_type=content&_101_urlTitle=ema-e-hma-alertam-para-aumento-da-venda-de-medicamentos-ilegais-comercializados-como-analogos-do-glp-1&inheritRedirect=false",
+      "sourceType": "regulator",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": ""
+    },
+    {
+      "id": "pt-infarmed-glp1-audits-2025",
+      "title": "Comunicado de Imprensa – Auditorias e Inspeções a antidiabéticos",
+      "authors": "INFARMED, I.P.",
+      "publication": "infarmed.pt press release, 21 Jan 2025",
+      "year": 2025,
+      "url": "https://www.infarmed.pt/web/infarmed/infarmed?p_p_id=101&p_p_lifecycle=0&p_p_state=maximized&p_p_mode=view&_101_struts_action=%2Fasset_publisher%2Fview_content&_101_assetEntryId=10802657&_101_type=content&_101_urlTitle=comunicado-de-imprensa-auditorias-e-inspecoes-a-antidiabeticos&inheritRedirect=false",
+      "sourceType": "regulator",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": ""
+    },
+    {
+      "id": "pt-infarmed-pangea-2026",
+      "title": "Comunicado de imprensa – PANGEA XVIII: INFARMED, I.P., Autoridade Tributária e Aduaneira e Polícia Judiciária juntos em operação internacional",
+      "authors": "INFARMED, I.P.; Autoridade Tributária e Aduaneira; Polícia Judiciária",
+      "publication": "INFARMED press release (uploaded 07-05-2026)",
+      "year": 2026,
+      "url": "https://www.infarmed.pt/documents/15786/12281970/Comunicado+PANGEA+XVIII+-+INFARMED%2C+I.P.%2C+Autoridade+Tribut%C3%A1ria+e+Aduaneira+e+Pol%C3%ADcia+Judici%C3%A1ria+juntos+em+opera%C3%A7%C3%A3o+internacional/b18b1c37-6e8e-8c9a-523a-b2a30ae740a4?version=1.0",
+      "sourceType": "regulator",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": "Operational phase 10–23 Mar 2026."
+    },
+    {
+      "id": "pt-infarmed-circ148-2011",
+      "title": "Circular Informativa N.º 148/CD – Importação de medicamentos para uso pessoal",
+      "authors": "INFARMED, I.P. – Conselho Diretivo",
+      "publication": "INFARMED circular, 29/07/2011",
+      "year": 2011,
+      "url": "https://www.infarmed.pt/documents/15786/1155929/8671942.PDF/c546bbc0-52da-45f6-9511-ca06c67e4b19?version=1.0",
+      "sourceType": "regulator",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": "Dated 2011 but still published on infarmed.pt (read 25 Sep 2026); no superseding circular was found."
+    },
+    {
+      "id": "pt-infarmed-aue",
+      "title": "Autorização de comercialização (AUE, AUE de lote e SAR)",
+      "authors": "INFARMED, I.P.",
+      "publication": "infarmed.pt – Entidades > Medicamentos de uso humano > AIM",
+      "year": 2026,
+      "url": "https://www.infarmed.pt/web/infarmed/entidades/medicamentos-uso-humano/autorizacao-de-introducao-no-mercado/autorizacao_de_utilizacao_especial",
+      "sourceType": "regulator",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": ""
+    },
+    {
+      "id": "pt-delib840-2023",
+      "title": "Deliberação n.º 840/2023 – Regulamento sobre Autorização de Utilização Excecional (AUE) e Regulamento sobre Autorização de Comercialização de Medicamentos sem Autorização ou Registo Válidos em Portugal (SAR)",
+      "authors": "INFARMED, I.P.",
+      "publication": "Diário da República, 2.ª série, n.º 169, 31 Aug 2023 (copy hosted by INFARMED)",
+      "year": 2023,
+      "url": "https://www.infarmed.pt/documents/15786/9714607/Deliberacao+840_2023/1453634c-0e4c-c36c-3a12-62449ee120f4",
+      "sourceType": "legislation",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": ""
+    },
+    {
+      "id": "pt-infarmed-online",
+      "title": "Dispensa de medicamentos pela internet",
+      "authors": "INFARMED, I.P.",
+      "publication": "infarmed.pt – Cidadãos > Medicamentos de uso humano > Utilidades",
+      "year": 2026,
+      "url": "https://www.infarmed.pt/web/infarmed/cidadaos/medicamentos_uso_humano/utilidades/dispensa-venda-de-medicamentos-pela-internet",
+      "sourceType": "regulator",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": "Cites Art 9.º-A of Decreto-Lei n.º 307/2007 as amended by Decreto-Lei n.º 128/2013; the decree itself was not read."
+    },
+    {
+      "id": "pt-infarmed-cosmetics-faq",
+      "title": "Perguntas frequentes – Cosméticos",
+      "authors": "INFARMED, I.P.",
+      "publication": "infarmed.pt – Perguntas frequentes",
+      "year": 2026,
+      "url": "https://www.infarmed.pt/web/infarmed/perguntas-frequentes-area-transversal/cosmeticos",
+      "sourceType": "regulator",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": ""
+    },
+    {
+      "id": "pt-dl23-2025",
+      "title": "Decreto-Lei n.º 23/2025, de 19 de março – assegura a execução, na ordem jurídica interna, do Regulamento (CE) n.º 1223/2009 (produtos cosméticos)",
+      "authors": "Presidência do Conselho de Ministros / Governo de Portugal",
+      "publication": "Diário da República, 1.ª série, n.º 55, 19 Mar 2025",
+      "year": 2025,
+      "url": "https://files.diariodarepublica.pt/1s/2025/03/05500/0003900050.pdf",
+      "sourceType": "legislation",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": "In force 24 Mar 2025."
+    },
+    {
+      "id": "pt-dgav-supplements",
+      "title": "Suplementos Alimentares",
+      "authors": "Direção-Geral de Alimentação e Veterinária (DGAV)",
+      "publication": "dgav.pt – Géneros alimentícios > Regras específicas",
+      "year": 2026,
+      "url": "https://www.dgav.pt/alimentos/conteudo/generos-alimenticios/regras-especificas-por-tipo-de-alimentos/suplementos-alimentares/",
+      "sourceType": "regulator",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": ""
+    },
+    {
+      "id": "pt-dgav-notification",
+      "title": "Procedimento de Notificação de Suplementos Alimentares",
+      "authors": "Direção-Geral de Alimentação e Veterinária (DGAV)",
+      "publication": "dgav.pt",
+      "year": 2026,
+      "url": "https://www.dgav.pt/alimentos/conteudo/generos-alimenticios/regras-especificas-por-tipo-de-alimentos/suplementos-alimentares/procedimento-de-notificacao-de-suplementos-alimentares/",
+      "sourceType": "regulator",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": ""
+    },
+    {
+      "id": "pt-dgav-claims",
+      "title": "Alegações Nutricionais e de Saúde",
+      "authors": "Direção-Geral de Alimentação e Veterinária (DGAV)",
+      "publication": "dgav.pt – Informar o consumidor e rotular",
+      "year": 2026,
+      "url": "https://www.dgav.pt/alimentos/conteudo/generos-alimenticios/informar-o-consumidor-e-rotular/alegacoes-nutricionais-e-de-saude/",
+      "sourceType": "regulator",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": ""
+    },
+    {
+      "id": "pt-dl238-2015",
+      "title": "Decreto-Lei n.º 238/2015, de 14 de outubro – regime jurídico das práticas de publicidade em saúde",
+      "authors": "Ministério da Saúde (Portugal)",
+      "publication": "Diário da República, 1.ª série (DRE detail page)",
+      "year": 2015,
+      "url": "https://diariodarepublica.pt/dr/detalhe/decreto-lei/238-2015-70686132",
+      "sourceType": "legislation",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": "Read as published (rendered in a browser, 25 Sep 2026); later amendments were not checked."
+    },
+    {
+      "id": "pt-om-code",
+      "title": "Regulamento n.º 707/2016 – Regulamento de Deontologia Médica",
+      "authors": "Ordem dos Médicos",
+      "publication": "Diário da República, 2.ª série, n.º 139, 21 Jul 2016 (copy on ordemdosmedicos.pt)",
+      "year": 2016,
+      "url": "https://ordemdosmedicos.pt/files/pdfs/nbgt-Regulamento_707_2016__Regulamento_Deontologico.pdf",
+      "sourceType": "legislation",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": ""
+    },
+    {
+      "id": "pt-om-aesthetic",
+      "title": "Competência em Medicina Estética – formação e acesso; Regulamento da Competência de Medicina Estética",
+      "authors": "Ordem dos Médicos",
+      "publication": "ordemdosmedicos.pt",
+      "year": 2023,
+      "url": "https://ordemdosmedicos.pt/a-ordem/orgaos-tecnicos/colegios/competencias/medicina-estetica/formacao-e-acesso",
+      "sourceType": "regulator",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": "Regulation text downloaded from https://ordemdosmedicos.pt/files/documents/LPAQ-Regulamento_Comp_Medicina_Estetica.docx; it sets training and title criteria and does not mention hormones or peptides."
+    },
+    {
+      "id": "pt-of-aesthetic-2022",
+      "title": "Farmacêuticos não devem realizar procedimentos estéticos",
+      "authors": "Ordem dos Farmacêuticos",
+      "publication": "ordemfarmaceuticos.pt news, 26 Oct 2022",
+      "year": 2022,
+      "url": "https://ordemfarmaceuticos.pt/pt/noticias/farmaceuticos-nao-devem-realizar-procedimentos-esteticos/",
+      "sourceType": "regulator",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": ""
+    },
+    {
+      "id": "pt-infarmed-cnnhc",
+      "title": "Comissão Nacional para a Normalização da Hormona do Crescimento (CNNHC)",
+      "authors": "INFARMED, I.P.",
+      "publication": "infarmed.pt – Comissões técnicas especializadas",
+      "year": 2026,
+      "url": "https://www.infarmed.pt/web/infarmed/institucional/estrutura-e-organizacao/comissoes-tecnicas-especializadas/comissao-nacional-para-a-normalizacao-da-hormona-do-crescimento-cnnhc-",
+      "sourceType": "regulator",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": ""
+    },
+    {
+      "id": "pt-portaria117-2019",
+      "title": "Portaria n.º 117/2019, de 16 de abril – regime excecional de comparticipação dos medicamentos com somatropina",
+      "authors": "Ministério da Saúde (Portugal)",
+      "publication": "Diário da República, 1.ª série, n.º 75, 16 Apr 2019 (copy hosted by INFARMED)",
+      "year": 2019,
+      "url": "https://www.infarmed.pt/documents/15786/12281402/Portaria+117+de+2019+indica%C3%A7%C3%B5es+tratamento+somatropina/17720511-d801-38a8-987e-b682ec93d45c",
+      "sourceType": "legislation",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": "INFARMED's CNNHC page links it as 'na sua redação atual'; the consolidated version was not read."
+    },
+    {
+      "id": "pt-lei81-2021",
+      "title": "Lei n.º 81/2021, de 30 de novembro – Lei antidopagem no desporto (versão consolidada)",
+      "authors": "Assembleia da República",
+      "publication": "Diário da República Eletrónico – legislação consolidada",
+      "year": 2021,
+      "url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2021-175129363",
+      "sourceType": "legislation",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": "Rendered in a browser 25 Sep 2026. The prohibited list itself (adopted by portaria) was not read."
+    }
+  ],
+  "substances": [
+    {
+      "name": "semaglutide",
+      "status": "authorised",
+      "statement": "In Portugal, semaglutide is authorised through the EU centralised procedure as Ozempic (EMEA/H/C/4174), Wegovy (EMEA/H/C/5422) and Rybelsus; all are prescription-only (MSRM) and each has at least one presentation marketed in Portugal (Infomed, 25 Sep 2026).",
+      "sourceIds": [
+        "pt-infomed",
+        "pt-infomed-guide"
+      ],
+      "quote": "Detalhes do Medicamento: Wegovy … Número de Processo: EMEA/H/C/5422/II … AIM: Autorizado … Classificação Quanto à Dispensa: MSRM",
+      "quoteEn": "Medicine details: Wegovy … Procedure number: EMEA/H/C/5422/II … Marketing authorisation: Authorised … Dispensing classification: prescription-only medicine (MSRM)"
+    },
+    {
+      "name": "tirzepatide",
+      "status": "authorised",
+      "statement": "In Portugal, tirzepatide is authorised through the EU centralised procedure as Mounjaro (EMEA/H/C/5620; Infomed date 15 Sep 2022), prescription-only (MSRM), with at least one presentation marketed (Infomed, 25 Sep 2026).",
+      "sourceIds": [
+        "pt-infomed"
+      ],
+      "quote": "Detalhes do Medicamento: Mounjaro … Número de Processo: EMEA/H/C/5620/II … AIM: Autorizado Data: 15/09/2022 … Classificação Quanto à Dispensa: MSRM",
+      "quoteEn": "Medicine details: Mounjaro … Procedure number: EMEA/H/C/5620/II … Marketing authorisation: Authorised, date 15/09/2022 … Dispensing classification: prescription-only medicine (MSRM)"
+    },
+    {
+      "name": "tirzepatide",
+      "status": "authorised",
+      "statement": "In Portugal, tirzepatide is listed only under the name Mounjaro; a name search for 'Zepbound' in Infomed returns no medicine (25 Sep 2026).",
+      "sourceIds": [
+        "pt-infomed"
+      ],
+      "quote": "Não existem medicamentos com a(s) característica(s) selecionada(s).",
+      "quoteEn": "There are no medicines with the selected characteristic(s)."
+    },
+    {
+      "name": "retatrutide",
+      "status": "not-authorised",
+      "statement": "In Portugal, no medicine containing retatrutide is listed in INFARMED's Infomed register, which includes authorised, lapsed and revoked products (searches 'retatrut', 'retatrutida', 'retatrutide', 25 Sep 2026); it has no marketing authorisation valid in Portugal.",
+      "sourceIds": [
+        "pt-infomed"
+      ],
+      "quote": "Não existem medicamentos com a(s) característica(s) selecionada(s).",
+      "quoteEn": "There are no medicines with the selected characteristic(s)."
+    },
+    {
+      "name": "afamelanotide",
+      "status": "authorised",
+      "statement": "In Portugal, afamelanotide is authorised as Scenesse 16 mg implant (EU centralised procedure EMEA/H/C/2548; Infomed date 22 Dec 2014) and classified as a restricted-prescription medicine for exclusive hospital use (MSRM restrita, alínea a); no presentation is marketed in Portugal (Infomed, 25 Sep 2026).",
+      "sourceIds": [
+        "pt-infomed",
+        "pt-dl176-2006"
+      ],
+      "quote": "Detalhes do Medicamento: Scenesse … Número de Processo: EMEA/H/C/2548 … AIM: Autorizado Data: 22/12/2014 … Classificação Quanto à Dispensa: MSRM restrita - Alínea a) … Apresentações 0 apresentações",
+      "quoteEn": "Medicine details: Scenesse … Procedure number: EMEA/H/C/2548 … Marketing authorisation: Authorised, date 22/12/2014 … Dispensing classification: restricted prescription – point a) … Presentations: 0 presentations"
+    },
+    {
+      "name": "afamelanotide",
+      "status": "authorised",
+      "statement": "In Portugal, Scenesse's authorised indication is prevention of phototoxicity in adults with erythropoietic protoporphyria, and it may be prescribed only by specialists in recognised porphyria centres (SmPC via Infomed, read 25 Sep 2026).",
+      "sourceIds": [
+        "pt-rcm-scenesse"
+      ],
+      "quote": "O SCENESSE está indicado na prevenção da fototoxicidade em doentes adultos com protoporfíria eritropoiética (PPE). … O SCENESSE só deve ser prescrito por médicos especialistas em centros de porfíria reconhecidos",
+      "quoteEn": "SCENESSE is indicated for the prevention of phototoxicity in adult patients with erythropoietic protoporphyria (EPP). … SCENESSE should only be prescribed by specialist physicians in recognised porphyria centres"
+    },
+    {
+      "name": "Melanotan II / \"melanotan\"",
+      "status": "not-authorised",
+      "statement": "In Portugal, no medicine containing melanotan is listed in Infomed: a substance search for 'melanot' returns only afamelanotide (Scenesse) and setmelanotide (Imcivree), and a product-name search for 'Melanotan' returns nothing (25 Sep 2026).",
+      "sourceIds": [
+        "pt-infomed"
+      ],
+      "quote": "Não existem medicamentos com a(s) característica(s) selecionada(s).",
+      "quoteEn": "There are no medicines with the selected characteristic(s)."
+    },
+    {
+      "name": "baricitinib",
+      "status": "authorised",
+      "statement": "In Portugal, baricitinib is authorised as Olumiant (EU centralised procedure EMEA/H/C/4085; Infomed date 13 Feb 2017) and classified as a restricted-prescription medicine for exclusive hospital use (MSRM restrita, alínea a), with a marketed presentation; a generic (Baricitinib Generis) is authorised but not marketed (Infomed, 25 Sep 2026).",
+      "sourceIds": [
+        "pt-infomed",
+        "pt-dl176-2006"
+      ],
+      "quote": "Detalhes do Medicamento: Olumiant … Número de Processo: EMEA/H/C/4085 … AIM: Autorizado Data: 13/02/2017 … Classificação Quanto à Dispensa: MSRM restrita - Alínea a)",
+      "quoteEn": "Medicine details: Olumiant … Procedure number: EMEA/H/C/4085 … Marketing authorisation: Authorised, date 13/02/2017 … Dispensing classification: restricted prescription – point a)"
+    },
+    {
+      "name": "baricitinib",
+      "status": "authorised",
+      "statement": "In Portugal, Olumiant's authorised indications (EU product information linked from Infomed) include severe alopecia areata in adults and adolescents aged 12 and over.",
+      "sourceIds": [
+        "pt-rcm-olumiant"
+      ],
+      "quote": "Baricitinib é indicado para tratamento da alopecia areata grave, em doentes adultos e adolescentes com idade igual ou superior a 12 anos",
+      "quoteEn": "Baricitinib is indicated for the treatment of severe alopecia areata in adult and adolescent patients aged 12 years and over"
+    },
+    {
+      "name": "minoxidil",
+      "status": "authorised",
+      "statement": "In Portugal, topical minoxidil (2% and 5% cutaneous solutions, 5% foam) is authorised as a non-prescription medicine (MNSRM); for example Minox 5 solution (Infomed date 3 Mar 2004) (Infomed, 25 Sep 2026).",
+      "sourceIds": [
+        "pt-infomed"
+      ],
+      "quote": "Detalhes do Medicamento: Minox 5 … Forma Farmacêutica: Solução cutânea … AIM: Autorizado Data: 03/03/2004 … Classificação Quanto à Dispensa: MNSRM",
+      "quoteEn": "Medicine details: Minox 5 … Pharmaceutical form: cutaneous solution … Marketing authorisation: Authorised, date 03/03/2004 … Dispensing classification: non-prescription medicine (MNSRM)"
+    },
+    {
+      "name": "minoxidil",
+      "status": "authorised",
+      "statement": "In Portugal, the Minox 5 (minoxidil 5% solution) label is indicated for androgenetic alopecia in men and women and for alopecia areata (SmPC via Infomed, read 25 Sep 2026).",
+      "sourceIds": [
+        "pt-rcm-minox5"
+      ],
+      "quote": "Tratamento da calvície masculina e feminina, designada por alopecia androgenética. Tratamento da alopecia areata, vulgarmente conhecida por pelada.",
+      "quoteEn": "Treatment of male and female baldness, known as androgenetic alopecia. Treatment of alopecia areata, commonly known as 'pelada'."
+    },
+    {
+      "name": "minoxidil",
+      "status": "authorised",
+      "statement": "In Portugal, oral minoxidil is authorised as Trinox 5 mg tablets, a prescription-only medicine indicated for severe hypertension (SmPC approved 15 Nov 2023; the older Loniten tablets are listed as lapsed or revoked in Infomed, 25 Sep 2026).",
+      "sourceIds": [
+        "pt-rcm-trinox",
+        "pt-infomed"
+      ],
+      "quote": "Trinox está indicado no tratamento da: Hipertensão grave em crianças, adultos e idosos.",
+      "quoteEn": "Trinox is indicated for the treatment of: severe hypertension in children, adults and the elderly."
+    },
+    {
+      "name": "finasteride",
+      "status": "authorised",
+      "statement": "In Portugal, finasteride 1 mg is authorised as Propecia (mutual-recognition procedure SE/H/0158/001; Infomed date 28 Dec 1998), prescription-only (MSRM), classed as a product for androgenetic alopecia (Infomed, 25 Sep 2026); finasteride 5 mg generics are also authorised.",
+      "sourceIds": [
+        "pt-infomed"
+      ],
+      "quote": "Detalhes do Medicamento: Propecia … Número de Processo: SE/H/0158/001 … AIM: Autorizado Data: 28/12/1998 … Classificação Quanto à Dispensa: MSRM … 13.8.4 - Produtos para alopécia androgénica",
+      "quoteEn": "Medicine details: Propecia … Procedure number: SE/H/0158/001 … Marketing authorisation: Authorised, date 28/12/1998 … Dispensing classification: prescription-only (MSRM) … 13.8.4 – Products for androgenetic alopecia"
+    },
+    {
+      "name": "finasteride",
+      "status": "authorised",
+      "statement": "In Portugal, Propecia's authorised indication is the early stages of androgenetic alopecia in men aged 18 to 41 (SmPC via Infomed, read 25 Sep 2026).",
+      "sourceIds": [
+        "pt-rcm-propecia"
+      ],
+      "quote": "Propecia é indicado em homens entre os 18 e os 41 anos de idade para as fases iniciais da alopecia androgénica.",
+      "quoteEn": "Propecia is indicated in men aged 18 to 41 for the early stages of androgenetic alopecia."
+    },
+    {
+      "name": "somatropin (growth hormone)",
+      "status": "authorised",
+      "statement": "In Portugal, somatropin medicines (Genotropin, Norditropin FlexPro, Omnitrope, Saizen, and lonapegsomatropin as Skytrofa) are authorised as restricted-prescription medicines under alínea b (conditions diagnosed only in hospital or specialised settings); Infomed gives them no narcotic classification (25 Sep 2026).",
+      "sourceIds": [
+        "pt-infomed",
+        "pt-dl176-2006"
+      ],
+      "quote": "Detalhes do Medicamento: Norditropin FlexPro … AIM: Autorizado Data: 07/05/2010 … Classificação Quanto à Dispensa: MSRM restrita - Alínea b) Classificação Estupefaciente: Não se aplica",
+      "quoteEn": "Medicine details: Norditropin FlexPro … Marketing authorisation: Authorised, date 07/05/2010 … Dispensing classification: restricted prescription – point b) … Narcotic classification: not applicable"
+    },
+    {
+      "name": "somatropin (growth hormone)",
+      "status": "authorised",
+      "statement": "In Portugal, State reimbursement of somatropin (Portaria 117/2019) covers only listed growth disorders and adult deficiency states, each after a favourable opinion from the national growth-hormone commission (CNNHC).",
+      "sourceIds": [
+        "pt-portaria117-2019"
+      ],
+      "quote": "Os medicamentos abrangidos pelo presente regime excecional de comparticipação, após a emissão de parecer favorável da Comissão Nacional para a Normalização da Hormona do Crescimento (CNNHC), podem ser utilizados em doentes com as seguintes patologias: a) Deficiência de somatotropina na criança; b) Síndroma de Turner;",
+      "quoteEn": "Medicines covered by this exceptional reimbursement regime may, after a favourable opinion from the National Commission for the Standardisation of Growth Hormone (CNNHC), be used in patients with the following conditions: a) somatotropin deficiency in children; b) Turner syndrome;"
+    },
+    {
+      "name": "tesamorelin",
+      "status": "not-authorised",
+      "statement": "In Portugal, no medicine containing tesamorelin is listed in INFARMED's Infomed register, which includes authorised, lapsed and revoked products (searches 'tesamorel', 'tesamorelina', 'tesamorelin' and the product name 'Egrifta', 25 Sep 2026); it has no marketing authorisation valid in Portugal.",
+      "sourceIds": [
+        "pt-infomed"
+      ],
+      "quote": "Não existem medicamentos com a(s) característica(s) selecionada(s).",
+      "quoteEn": "There are no medicines with the selected characteristic(s)."
+    },
+    {
+      "name": "sermorelin",
+      "status": "not-authorised",
+      "statement": "In Portugal, no medicine containing sermorelin is listed in INFARMED's Infomed register, which includes authorised, lapsed and revoked products (searches 'sermorel', 'sermorelina', 'sermorelin', 25 Sep 2026); it has no marketing authorisation valid in Portugal.",
+      "sourceIds": [
+        "pt-infomed"
+      ],
+      "quote": "Não existem medicamentos com a(s) característica(s) selecionada(s).",
+      "quoteEn": "There are no medicines with the selected characteristic(s)."
+    },
+    {
+      "name": "ipamorelin",
+      "status": "not-authorised",
+      "statement": "In Portugal, no medicine containing ipamorelin is listed in INFARMED's Infomed register, which includes authorised, lapsed and revoked products (searches 'ipamorel', 'ipamorelina', 'ipamorelin', 25 Sep 2026); it has no marketing authorisation valid in Portugal.",
+      "sourceIds": [
+        "pt-infomed"
+      ],
+      "quote": "Não existem medicamentos com a(s) característica(s) selecionada(s).",
+      "quoteEn": "There are no medicines with the selected characteristic(s)."
+    },
+    {
+      "name": "CJC-1295",
+      "status": "not-authorised",
+      "statement": "In Portugal, no medicine containing CJC-1295 is listed in INFARMED's Infomed register, which includes authorised, lapsed and revoked products (searches 'CJC', 25 Sep 2026); it has no marketing authorisation valid in Portugal.",
+      "sourceIds": [
+        "pt-infomed"
+      ],
+      "quote": "Não existem medicamentos com a(s) característica(s) selecionada(s).",
+      "quoteEn": "There are no medicines with the selected characteristic(s)."
+    },
+    {
+      "name": "ibutamoren (MK-677)",
+      "status": "not-authorised",
+      "statement": "In Portugal, no medicine containing ibutamoren (MK-677) is listed in INFARMED's Infomed register, which includes authorised, lapsed and revoked products (searches 'ibutamoren', 'MK-677', 25 Sep 2026); it has no marketing authorisation valid in Portugal.",
+      "sourceIds": [
+        "pt-infomed"
+      ],
+      "quote": "Não existem medicamentos com a(s) característica(s) selecionada(s).",
+      "quoteEn": "There are no medicines with the selected characteristic(s)."
+    },
+    {
+      "name": "BPC-157",
+      "status": "not-authorised",
+      "statement": "In Portugal, no medicine containing BPC-157 is listed in INFARMED's Infomed register, which includes authorised, lapsed and revoked products (searches 'BPC', 'pentadecapept' and the product name 'BPC-157', 25 Sep 2026); it has no marketing authorisation valid in Portugal.",
+      "sourceIds": [
+        "pt-infomed"
+      ],
+      "quote": "Não existem medicamentos com a(s) característica(s) selecionada(s).",
+      "quoteEn": "There are no medicines with the selected characteristic(s)."
+    },
+    {
+      "name": "TB-500 (thymosin beta-4 fragment)",
+      "status": "not-authorised",
+      "statement": "In Portugal, no medicine containing TB-500 (thymosin beta-4 fragment) is listed in INFARMED's Infomed register, which includes authorised, lapsed and revoked products (searches 'timosina', 'timosina beta', 'thymosin', 25 Sep 2026); it has no marketing authorisation valid in Portugal.",
+      "sourceIds": [
+        "pt-infomed"
+      ],
+      "quote": "Não existem medicamentos com a(s) característica(s) selecionada(s).",
+      "quoteEn": "There are no medicines with the selected characteristic(s)."
+    },
+    {
+      "name": "KPV",
+      "status": "not-authorised",
+      "statement": "In Portugal, no medicine containing KPV is listed in INFARMED's Infomed register, which includes authorised, lapsed and revoked products (searches 'KPV', 25 Sep 2026); it has no marketing authorisation valid in Portugal.",
+      "sourceIds": [
+        "pt-infomed"
+      ],
+      "quote": "Não existem medicamentos com a(s) característica(s) selecionada(s).",
+      "quoteEn": "There are no medicines with the selected characteristic(s)."
+    },
+    {
+      "name": "GHK-Cu",
+      "status": "not-authorised",
+      "statement": "In Portugal, no medicine containing GHK-Cu is listed in INFARMED's Infomed register, which includes authorised, lapsed and revoked products (searches 'GHK', 'prezatid' (INN prezatide copper), 'glicil'; 'cobre' returned only a revoked copper-64 radiopharmaceutical, 25 Sep 2026); it has no marketing authorisation valid in Portugal.",
+      "sourceIds": [
+        "pt-infomed"
+      ],
+      "quote": "Não existem medicamentos com a(s) característica(s) selecionada(s).",
+      "quoteEn": "There are no medicines with the selected characteristic(s)."
+    },
+    {
+      "name": "LL-37",
+      "status": "not-authorised",
+      "statement": "In Portugal, no medicine containing LL-37 is listed in INFARMED's Infomed register, which includes authorised, lapsed and revoked products (searches 'LL-37', 'catelicid', 'ropocamptid', 25 Sep 2026); it has no marketing authorisation valid in Portugal.",
+      "sourceIds": [
+        "pt-infomed"
+      ],
+      "quote": "Não existem medicamentos com a(s) característica(s) selecionada(s).",
+      "quoteEn": "There are no medicines with the selected characteristic(s)."
+    },
+    {
+      "name": "thymulin",
+      "status": "not-authorised",
+      "statement": "In Portugal, no medicine containing thymulin is listed in INFARMED's Infomed register, which includes authorised, lapsed and revoked products (searches 'timulina', 'thymulin', 25 Sep 2026); it has no marketing authorisation valid in Portugal.",
+      "sourceIds": [
+        "pt-infomed"
+      ],
+      "quote": "Não existem medicamentos com a(s) característica(s) selecionada(s).",
+      "quoteEn": "There are no medicines with the selected characteristic(s)."
+    },
+    {
+      "name": "PTD-DBM",
+      "status": "not-authorised",
+      "statement": "In Portugal, no medicine containing PTD-DBM is listed in INFARMED's Infomed register, which includes authorised, lapsed and revoked products (searches 'PTD', 25 Sep 2026); it has no marketing authorisation valid in Portugal.",
+      "sourceIds": [
+        "pt-infomed"
+      ],
+      "quote": "Não existem medicamentos com a(s) característica(s) selecionada(s).",
+      "quoteEn": "There are no medicines with the selected characteristic(s)."
+    },
+    {
+      "name": "tretinoin (topical)",
+      "status": "authorised",
+      "statement": "In Portugal, the only authorised single-ingredient topical tretinoin listed is Ketrel 0.5 mg/g cream (Infomed date 28 May 1999), prescription-only (MSRM); older brands such as Retin-A, Retacnyl and Vitacid are listed as revoked or lapsed, and a clindamycin + tretinoin gel (Acnatac) is authorised (Infomed, 25 Sep 2026).",
+      "sourceIds": [
+        "pt-infomed"
+      ],
+      "quote": "Detalhes do Medicamento: Ketrel … Forma Farmacêutica: Creme … AIM: Autorizado Data: 28/05/1999 … Classificação Quanto à Dispensa: MSRM",
+      "quoteEn": "Medicine details: Ketrel … Pharmaceutical form: cream … Marketing authorisation: Authorised, date 28/05/1999 … Dispensing classification: prescription-only (MSRM)"
+    },
+    {
+      "name": "tretinoin (topical)",
+      "status": "authorised",
+      "statement": "In Portugal, Ketrel's authorised indications are acne (other than rosacea) and keratinisation disorders; photoageing is not among them (SmPC approved 24 Oct 2024).",
+      "sourceIds": [
+        "pt-rcm-ketrel"
+      ],
+      "quote": "Tratamento das diferentes formas de acne (com exceção da acne rosácea): acne vulgar, polimórfico ou com predominância de comedões microquísticos. Alterações da queratinização,",
+      "quoteEn": "Treatment of the different forms of acne (except acne rosacea): acne vulgaris, polymorphous or with predominance of microcystic comedones. Keratinisation disorders,"
+    },
+    {
+      "name": "menopausal hormone therapy / estradiol",
+      "status": "authorised",
+      "statement": "In Portugal, estradiol HRT products such as Estreva gel and Estrofem tablets are authorised for symptoms of oestrogen deficiency in postmenopausal women; that is the whole of their section 4.1 indication, with no skin indication (SmPCs via Infomed, read 25 Sep 2026).",
+      "sourceIds": [
+        "pt-rcm-estreva",
+        "pt-rcm-estrofem"
+      ],
+      "quote": "Terapêutica hormonal de substituição (THS) para os sintomas de deficiência de estrogénios em mulheres pós-menopáusicas.",
+      "quoteEn": "Hormone replacement therapy (HRT) for symptoms of oestrogen deficiency in postmenopausal women."
+    },
+    {
+      "name": "oral collagen",
+      "status": "unknown",
+      "statement": "In Portugal, an oral collagen product sold as a food supplement must be notified to DGAV before it is placed on the market; notification involves no evaluation of the product or its label, so it is not an authorisation (DGAV, read 25 Sep 2026).",
+      "sourceIds": [
+        "pt-dgav-notification",
+        "pt-dgav-supplements"
+      ],
+      "quote": "Não existe avaliação do produto ou validação da rotulagem, sendo que o controlo é feito posteriormente e por amostragem, podendo ser efetuado a qualquer momento.",
+      "quoteEn": "There is no evaluation of the product or validation of the labelling; control is carried out afterwards, by sampling, and may take place at any time."
+    }
+  ],
+  "frameworks": [
+    {
+      "topic": "compounding",
+      "statement": "In Portugal, compounded medicines (medicamentos manipulados: magistral formulas and officinal preparations) are excluded from the Estatuto do Medicamento and governed by their own regime (Decreto-Lei 95/2004).",
+      "sourceIds": [
+        "pt-dl176-2006",
+        "pt-dl95-2004"
+      ],
+      "quote": "Excluem-se do âmbito de aplicação do presente decreto-lei: … b) Os medicamentos manipulados, designadamente na forma de preparados oficinais ou de fórmulas magistrais;",
+      "quoteEn": "The following are excluded from the scope of this decree-law: … b) compounded medicines, namely in the form of officinal preparations or magistral formulas;"
+    },
+    {
+      "topic": "compounding",
+      "statement": "In Portugal, a magistral formula is a medicine prepared in a community or hospital pharmacy on a medical prescription naming the patient, and every compounded medicine is prepared and dispensed under a pharmacist's responsibility (Decreto-Lei 95/2004, Art 1).",
+      "sourceIds": [
+        "pt-dl95-2004"
+      ],
+      "quote": "«Medicamento manipulado» qualquer fórmula magistral ou preparado oficinal preparado e dispensado sob a responsabilidade de um farmacêutico; b) «Fórmula magistral» o medicamento preparado em farmácia de oficina ou nos serviços farmacêuticos hospitalares segundo receita médica que especifica o doente a quem o medicamento se destina;",
+      "quoteEn": "'Compounded medicine': any magistral formula or officinal preparation prepared and dispensed under the responsibility of a pharmacist; b) 'Magistral formula': a medicine prepared in a community pharmacy or hospital pharmacy service according to a medical prescription that specifies the patient for whom it is intended;"
+    },
+    {
+      "topic": "compounding",
+      "statement": "In Portugal, a physician who prescribes a magistral formula must satisfy themselves of its safety and efficacy, including possible interactions (Decreto-Lei 95/2004, Art 3(1)).",
+      "sourceIds": [
+        "pt-dl95-2004",
+        "pt-infarmed-manipulados"
+      ],
+      "quote": "Ao prescrever uma fórmula magistral, o médico deve certificar-se da sua segurança e eficácia, verificando, designadamente, a possibilidade de existência de interacções que coloquem em causa a acção do medicamento ou a segurança do doente.",
+      "quoteEn": "When prescribing a magistral formula, the physician must make sure of its safety and efficacy, checking in particular for interactions that could compromise the medicine's action or the patient's safety."
+    },
+    {
+      "topic": "compounding",
+      "statement": "In Portugal, compounded medicines may only use raw materials listed in the Portuguese or European pharmacopoeia, another European pharmacopoeia or compendial scientific documentation, and a compounded medicine containing any other raw material may not be prescribed (Decreto-Lei 95/2004, Art 6).",
+      "sourceIds": [
+        "pt-dl95-2004",
+        "pt-infarmed-manipulados"
+      ],
+      "quote": "Só podem ser utilizadas na preparação de um medicamento manipulado matérias-primas inscritas na Farmacopeia Portuguesa, nas farmacopeias de outros Estados Partes na Convenção Relativa à Elaboração de Uma Farmacopeia Europeia, na Farmacopeia Europeia ou na documentação científica compendial … Não podem ser prescritos medicamentos manipulados que incluam matérias-primas diferentes das referidas no n.º 1",
+      "quoteEn": "Only raw materials listed in the Portuguese Pharmacopoeia, the pharmacopoeias of other States Parties to the Convention on the Elaboration of a European Pharmacopoeia, the European Pharmacopoeia or compendial scientific documentation may be used to prepare a compounded medicine … Compounded medicines containing raw materials other than those referred to in paragraph 1 may not be prescribed"
+    },
+    {
+      "topic": "compounding",
+      "statement": "In Portugal, INFARMED's list of substances banned from compounding (Deliberação 1985/2015, in force since Nov 2015) bars animal-organ extracts, active substances at doses above those authorised for human medicines when the compounded medicine is for systemic use, a named list of anorectics and levothyroxine, and substances whose medicines were suspended or revoked for public-health reasons.",
+      "sourceIds": [
+        "pt-delib1985-2015",
+        "pt-infarmed-manipulados"
+      ],
+      "quote": "Na prescrição e na preparação de medicamentos manipulados não podem ser utilizados: a) Extratos de órgãos de animais; b) Substâncias ativas, em dosagens superiores às autorizadas para medicamentos de uso humano, quando o medicamento manipulado se destine a uso sistémico;",
+      "quoteEn": "The following may not be used in the prescription and preparation of compounded medicines: a) extracts of animal organs; b) active substances at doses higher than those authorised for medicines for human use, when the compounded medicine is intended for systemic use;"
+    },
+    {
+      "topic": "compounding",
+      "statement": "In Portugal, magistral formulas and officinal preparations may be prepared only by the pharmacy's pharmacist technical director or under that pharmacist's supervision and control (Portaria 594/2004, good compounding practice).",
+      "sourceIds": [
+        "pt-portaria594-2004"
+      ],
+      "quote": "A preparação de fórmulas magistrais ou de preparados oficinais só pode ser realizada pelo farmacêutico director técnico ou sob a sua supervisão e controlo;",
+      "quoteEn": "Magistral formulas or officinal preparations may only be prepared by the pharmacist technical director or under their supervision and control;"
+    },
+    {
+      "topic": "compounding",
+      "statement": "In Portugal, breaches of the compounding rules are administrative offences fined from €2,000 up to €3,700 (individuals) or €44,700 (companies), with INFARMED as enforcer (Decreto-Lei 95/2004, Art 10).",
+      "sourceIds": [
+        "pt-dl95-2004"
+      ],
+      "quote": "A violação do disposto no n.º 1 do artigo 3.º e nos artigos 4.º a 8.º do presente diploma constitui contra-ordenação punível com coima no montante mínimo de € 2000 e máximo de € 3700 ou € 44700, consoante o agente seja pessoa singular ou colectiva.",
+      "quoteEn": "Breach of Article 3(1) and Articles 4 to 8 of this decree is an administrative offence punishable by a fine of at least €2,000 and at most €3,700 or €44,700, depending on whether the offender is an individual or a legal person."
+    },
+    {
+      "topic": "unlicensed",
+      "statement": "In Portugal, INFARMED may authorise exceptional use (AUE) of a medicine without a marketing authorisation, for example when it is clinically justified as indispensable and no authorised alternative exists (Estatuto do Medicamento, Art 92).",
+      "sourceIds": [
+        "pt-dl176-2006",
+        "pt-infarmed-aue"
+      ],
+      "quote": "O INFARMED, I.P., pode autorizar a utilização em Portugal de medicamento não possuidor de qualquer das restantes autorizações previstas no presente decreto-lei … a) Mediante justificação clínica, sejam considerados imprescindíveis à prevenção, diagnóstico ou tratamento de determinadas patologias, desde que seja demonstrada a inexistência de alternativa no conjunto de medicamentos com autorização de introdução no mercado;",
+      "quoteEn": "INFARMED may authorise the use in Portugal of a medicine holding none of the other authorisations provided for in this decree-law … a) where, on clinical justification, they are considered indispensable for preventing, diagnosing or treating certain conditions, provided it is shown that no alternative exists among medicines with a marketing authorisation;"
+    },
+    {
+      "topic": "unlicensed",
+      "statement": "In Portugal, a patient-specific AUE is granted to institutions authorised to buy medicines directly (e.g., hospitals) or used by community pharmacies under set conditions, and always requires an individual clinical justification that the medicine is indispensable (INFARMED Deliberação 840/2023, 31 Aug 2023).",
+      "sourceIds": [
+        "pt-delib840-2023",
+        "pt-infarmed-aue"
+      ],
+      "quote": "A AUE destinada a doente específico pode ser concedida às entidades com autorização de aquisição direta de medicamentos … 3 — As autorizações previstas no presente artigo carecem de comprovação da imprescindibilidade do medicamento face às alternativas terapêuticas, mediante justificação clínica individualizada.",
+      "quoteEn": "A patient-specific AUE may be granted to entities authorised for direct purchase of medicines … 3 — The authorisations provided for in this article require proof that the medicine is indispensable compared with therapeutic alternatives, by means of an individualised clinical justification."
+    },
+    {
+      "topic": "unlicensed",
+      "statement": "In Portugal, INFARMED told prescribers in July 2024 that Ozempic, Trulicity and Victoza should not be prescribed to people without diabetes, because off-label use (notably for weight loss) threatens supply for diabetic patients (Circular 045/CD/100.20.200, 4 Jul 2024).",
+      "sourceIds": [
+        "pt-infarmed-circ045-2024"
+      ],
+      "quote": "Os medicamentos Ozempic, Trulicity e Victoza não devem ser prescritos a doentes que não sejam diabéticos;",
+      "quoteEn": "Ozempic, Trulicity and Victoza must not be prescribed to patients who are not diabetic;"
+    },
+    {
+      "topic": "unlicensed",
+      "statement": "In Portugal, INFARMED stated in July 2024 that use of GLP-1 medicines outside their approved indications, notably for weight loss, had significantly worsened the shortage, and that reports of falsified GLP-1 medicines existed (Circular 045/CD/100.20.200).",
+      "sourceIds": [
+        "pt-infarmed-circ045-2024"
+      ],
+      "quote": "A utilização destes medicamentos para indicações que não se encontram aprovadas, nomeadamente na perda de peso, tem contribuído, de forma significativa para o agravamento da situação.",
+      "quoteEn": "The use of these medicines for indications that are not approved, notably weight loss, has contributed significantly to the worsening of the situation."
+    },
+    {
+      "topic": "research-use-only",
+      "statement": "In Portugal, a medicine is any substance presented as treating or preventing disease or used to restore, correct or modify physiological functions by pharmacological, immunological or metabolic action, so a 'research use only' label does not take such a product outside medicines law (Estatuto do Medicamento, Art 3).",
+      "sourceIds": [
+        "pt-dl176-2006"
+      ],
+      "quote": "«Medicamento», toda a substância ou associação de substâncias apresentada como possuindo propriedades curativas ou preventivas de doenças em seres humanos ou dos seus sintomas ou que possa ser utilizada ou administrada no ser humano com vista a estabelecer um diagnóstico médico ou, exercendo uma ação farmacológica, imunológica ou metabólica, a restaurar, corrigir ou modificar funções fisiológicas;",
+      "quoteEn": "'Medicine': any substance or combination of substances presented as having properties for treating or preventing disease in human beings or its symptoms, or which may be used in or administered to human beings with a view to making a medical diagnosis or to restoring, correcting or modifying physiological functions by exerting a pharmacological, immunological or metabolic action;"
+    },
+    {
+      "topic": "research-use-only",
+      "statement": "In Portugal, placing any medicine on the market requires authorisation by INFARMED's governing body, unless the law provides otherwise (e.g., EU central authorisation) (Estatuto do Medicamento, Art 14(1)).",
+      "sourceIds": [
+        "pt-dl176-2006"
+      ],
+      "quote": "Salvo disposição em contrário, a comercialização de medicamentos no território nacional está sujeita a autorização do órgão máximo do INFARMED.",
+      "quoteEn": "Unless otherwise provided, the marketing of medicines in national territory is subject to authorisation by INFARMED's governing body."
+    },
+    {
+      "topic": "research-use-only",
+      "statement": "In Portugal, making, selling, supplying or administering medicines without the required authorisation, or falsified medicines, is an administrative offence fined from €2,000 up to 15% of turnover or €180,000, whichever is lower (Estatuto do Medicamento, Art 181(2)(a)).",
+      "sourceIds": [
+        "pt-dl176-2006"
+      ],
+      "quote": "Constitui contraordenação, punível com coima entre (euro) 2 000 e 15 % do volume de negócios do responsável ou (euro) 180 000, consoante o que for inferior: a) O fabrico, introdução no mercado, comercialização, distribuição, intermediação, importação, exportação, importação paralela, dispensa, fornecimento ou venda ao público, ou administração de medicamentos ou medicamentos experimentais, bem como de substâncias ativas ou excipientes, sem as autorizações, ou registos, exigidas ou que sejam medicamentos falsificados;",
+      "quoteEn": "It is an administrative offence, punishable by a fine between €2,000 and 15% of the offender's turnover or €180,000, whichever is lower: a) the manufacture, placing on the market, marketing, distribution, brokering, import, export, parallel import, dispensing, supply or sale to the public, or administration of medicines or investigational medicines, or of active substances or excipients, without the required authorisations or registrations, or that are falsified medicines;"
+    },
+    {
+      "topic": "research-use-only",
+      "statement": "In Portugal, storing or holding medicines on premises without the appropriate INFARMED licence is itself an offence in the same fine band (up to €180,000) (Estatuto do Medicamento, Art 181(2)(o)).",
+      "sourceIds": [
+        "pt-dl176-2006"
+      ],
+      "quote": "o) A armazenagem, detenção ou posse de medicamentos em instalações não possuidoras de licenciamento adequado emitido pelo INFARMED, I.P.",
+      "quoteEn": "o) the storage, holding or possession of medicines in premises without an appropriate licence issued by INFARMED."
+    },
+    {
+      "topic": "research-use-only",
+      "statement": "In Portugal, pharmacies and institutions authorised to buy medicines directly may acquire them only from entities authorised by INFARMED (except patient-specific exceptional imports) (Estatuto do Medicamento, Art 79(4)).",
+      "sourceIds": [
+        "pt-dl176-2006"
+      ],
+      "quote": "Salvo o disposto na alínea c) do n.º 1 do artigo 92.º, as farmácias e as entidades autorizadas à aquisição direta de medicamentos apenas podem adquiri-los a entidades autorizadas pelo INFARMED, I.P.",
+      "quoteEn": "Except as provided in Article 92(1)(c), pharmacies and entities authorised for direct purchase of medicines may only acquire them from entities authorised by INFARMED."
+    },
+    {
+      "topic": "import",
+      "statement": "In Portugal, INFARMED does not authorise the import of medicines for personal use (Circular 148/CD, 29 Jul 2011).",
+      "sourceIds": [
+        "pt-infarmed-circ148-2011"
+      ],
+      "quote": "Assim, o Infarmed não autoriza a importação de medicamentos para uso pessoal.",
+      "quoteEn": "Therefore, Infarmed does not authorise the import of medicines for personal use."
+    },
+    {
+      "topic": "import",
+      "statement": "In Portugal, medicines may be sold online only by pharmacies and licensed non-prescription outlets registered with INFARMED, and since 1 Jul 2015 their websites must carry the EU common logo linking to INFARMED's list; prescription medicines delivered at home still require a prescription (INFARMED, read 25 Sep 2026).",
+      "sourceIds": [
+        "pt-infarmed-online",
+        "pt-infarmed-glp1-illegal-2025"
+      ],
+      "quote": "passou a ser obrigatório, a partir de 1 de julho de 2015, que as páginas na Internet de farmácias e locais de venda de medicamentos não sujeitos a receita médica (LVMNSRM) que ofereçam legalmente medicamentos para venda à distância a residentes noutros Estados Membros da União Europeia, possuam o logótipo comum",
+      "quoteEn": "it became mandatory from 1 July 2015 for the websites of pharmacies and non-prescription medicine outlets (LVMNSRM) that lawfully offer medicines for distance sale to residents of other EU Member States to display the common logo"
+    },
+    {
+      "topic": "cosmetics",
+      "statement": "In Portugal, INFARMED is the national competent authority for cosmetic products under the EU Cosmetics Regulation (Decreto-Lei 23/2025 of 19 March 2025).",
+      "sourceIds": [
+        "pt-dl23-2025",
+        "pt-infarmed-cosmetics-faq"
+      ],
+      "quote": "O INFARMED — Autoridade Nacional do Medicamento e Produtos de Saúde, I. P. (INFARMED, I. P.), é a autoridade nacional competente para efeitos do n.º 1 do artigo 34.º do Regulamento (CE) n.º 1223/2009 e do presente decreto-lei.",
+      "quoteEn": "INFARMED — National Authority of Medicines and Health Products, I.P., is the national competent authority for the purposes of Article 34(1) of Regulation (EC) No 1223/2009 and of this decree-law."
+    },
+    {
+      "topic": "cosmetics",
+      "statement": "In Portugal, it is prohibited to make or place on the market as a cosmetic any product that does not fit the EU definition of a cosmetic product (Decreto-Lei 23/2025, Art 4).",
+      "sourceIds": [
+        "pt-dl23-2025"
+      ],
+      "quote": "É proibido o fabrico, a colocação ou a disponibilização no mercado nacional como produto cosmético, qualquer produto que não se integra na definição a que se refere a alínea a) do n.º 1 do artigo 2.º do Regulamento (CE) n.º 1223/2009.",
+      "quoteEn": "The manufacture, placing or making available on the national market as a cosmetic product of any product that does not fall within the definition in Article 2(1)(a) of Regulation (EC) No 1223/2009 is prohibited."
+    },
+    {
+      "topic": "cosmetics",
+      "statement": "In Portugal, INFARMED states that products administered by ingestion, inhalation, injection or implantation are not cosmetics, so an injected 'peptide' cannot be sold as a cosmetic (INFARMED cosmetics FAQ, read 25 Sep 2026).",
+      "sourceIds": [
+        "pt-infarmed-cosmetics-faq"
+      ],
+      "quote": "Não são considerados cosméticos produtos cuja administração se faça por ingestão, inalação, injeção ou implantação no corpo.",
+      "quoteEn": "Products administered by ingestion, inhalation, injection or implantation into the body are not considered cosmetics."
+    },
+    {
+      "topic": "cosmetics",
+      "statement": "In Portugal, borderline products (such as topical 'peptide' serums with medicinal-sounding claims) must be classified case by case by the Responsible Person, using the European Commission borderline manual; cosmetics need no prior authorisation but are subject to INFARMED market surveillance (INFARMED cosmetics FAQ).",
+      "sourceIds": [
+        "pt-infarmed-cosmetics-faq"
+      ],
+      "quote": "Os produtos fronteira devem ser avaliados caso a caso pela Pessoa Responsável, tendo em conta todas as suas características.",
+      "quoteEn": "Borderline products must be assessed case by case by the Responsible Person, taking all their characteristics into account."
+    },
+    {
+      "topic": "cosmetics",
+      "statement": "In Portugal, commercial imports of cosmetics from outside the EU need a declaration of conformity issued by INFARMED to clear customs (INFARMED cosmetics FAQ, read 25 Sep 2026).",
+      "sourceIds": [
+        "pt-infarmed-cosmetics-faq"
+      ],
+      "quote": "A apresentação da declaração de conformidade, nas Alfândegas, é obrigatória para proceder em território nacional ao desalfandegamento de produtos cosméticos provenientes de países terceiros, com carácter comercial.",
+      "quoteEn": "Presenting the declaration of conformity at customs is mandatory to clear, in national territory, cosmetic products of a commercial nature coming from third countries."
+    },
+    {
+      "topic": "supplements",
+      "statement": "In Portugal, food supplements are intended to maintain the body's homeostasis, not to prevent, treat or cure disease (DGAV, read 25 Sep 2026).",
+      "sourceIds": [
+        "pt-dgav-supplements"
+      ],
+      "quote": "Os suplementos alimentares destinam-se a manter a homeostasia do organismo e não à prevenção, tratamento ou cura de doenças.",
+      "quoteEn": "Food supplements are intended to maintain the body's homeostasis and not to prevent, treat or cure diseases."
+    },
+    {
+      "topic": "supplements",
+      "statement": "In Portugal, every food supplement must be notified to DGAV before it is placed on the national market, even if already sold in another EU Member State (DGAV, read 25 Sep 2026).",
+      "sourceIds": [
+        "pt-dgav-supplements",
+        "pt-dgav-notification"
+      ],
+      "quote": "Os Suplementos Alimentares têm de ser notificados à DGAV , antes de serem colocados no mercado nacional, mesmo os que já se encontram comercializados noutro Estado-Membro da UE",
+      "quoteEn": "Food supplements must be notified to DGAV before being placed on the national market, even those already marketed in another EU Member State"
+    },
+    {
+      "topic": "supplements",
+      "statement": "In Portugal, DGAV warns that notifying a supplement does not mean it is authorised or compliant; there is no pre-market evaluation and control is by later sampling (DGAV, read 25 Sep 2026).",
+      "sourceIds": [
+        "pt-dgav-notification"
+      ],
+      "quote": "em caso algum, o operador poderá concluir que o produto se encontra autorizado ou que se encontra conforme.",
+      "quoteEn": "in no case may the operator conclude that the product is authorised or compliant."
+    },
+    {
+      "topic": "supplements",
+      "statement": "In Portugal, supplement ingredients other than vitamins and minerals (for example peptides or amino acids) must satisfy the EU Novel Food Regulation, i.e. show significant EU food consumption before 15 May 1997 or be authorised as novel foods (DGAV, read 25 Sep 2026).",
+      "sourceIds": [
+        "pt-dgav-supplements"
+      ],
+      "quote": "têm de cumprir os requisitos do Regulamento (UE) 2015/2283 relativo a novos alimentos , isto é, têm de comprovadamente deter histórico de consumo alimentar significativo na União Europeia antes de 15 de maio de 1997 .",
+      "quoteEn": "must meet the requirements of Regulation (EU) 2015/2283 on novel foods, that is, they must be shown to have a significant history of food consumption in the European Union before 15 May 1997."
+    },
+    {
+      "topic": "supplements",
+      "statement": "In Portugal, health claims on foods, including supplements such as oral collagen, are allowed only if they appear in the EU register of authorised claims under Regulation 1924/2006, with their conditions of use (DGAV, read 25 Sep 2026).",
+      "sourceIds": [
+        "pt-dgav-claims"
+      ],
+      "quote": "As alegações de saúde são sujeitas a um procedimento de autorização e estão disponíveis no Registo de Alegações Nutricionais e de Saúde Autorizadas e Rejeitadas da Comissão Europeia.",
+      "quoteEn": "Health claims are subject to an authorisation procedure and are available in the European Commission's Register of authorised and rejected nutrition and health claims."
+    },
+    {
+      "topic": "advertising",
+      "statement": "In Portugal, advertising any medicine that lacks a valid authorisation for the national market, or that is used only under an exceptional-use authorisation (Arts 92-93), is prohibited (Estatuto do Medicamento, Art 152(1)).",
+      "sourceIds": [
+        "pt-dl176-2006"
+      ],
+      "quote": "É proibida a publicidade de medicamentos que não sejam objecto de uma autorização ou registo válidos para o mercado nacional ou que tenham sido autorizados ao abrigo do artigo 92.º e 93.º",
+      "quoteEn": "Advertising of medicines that do not hold a valid authorisation or registration for the national market, or that were authorised under Articles 92 and 93, is prohibited"
+    },
+    {
+      "topic": "advertising",
+      "statement": "In Portugal, advertising prescription-only medicines to the general public is prohibited; they may be advertised only in technical publications or media intended for and accessible only to health professionals (Estatuto do Medicamento, Arts 152(2) and 154(1)).",
+      "sourceIds": [
+        "pt-dl176-2006"
+      ],
+      "quote": "É proibida a publicidade junto do público em geral dos medicamentos: a) Sujeitos a receita médica; … Os medicamentos sujeitos a receita médica só podem ser anunciados ou publicitados em publicações técnicas ou suportes de informação destinados e acessíveis exclusivamente por médicos e outros profissionais de saúde.",
+      "quoteEn": "Advertising to the general public of the following medicines is prohibited: a) those subject to medical prescription; … Prescription-only medicines may only be announced or advertised in technical publications or information media intended for and accessible exclusively to physicians and other health professionals."
+    },
+    {
+      "topic": "advertising",
+      "statement": "In Portugal, public advertising of non-prescription medicines (such as topical minoxidil) may not suggest that a healthy person's normal state of health can be improved by the medicine, nor present it as a food or cosmetic (Estatuto do Medicamento, Art 153(4)).",
+      "sourceIds": [
+        "pt-dl176-2006"
+      ],
+      "quote": "c) Sugira que o estado normal de saúde da pessoa pode ser melhorado através da utilização do medicamento; … g) Trate o medicamento como um produto alimentar, produto cosmético ou de higiene corporal ou qualquer outro produto de consumo;",
+      "quoteEn": "c) suggests that the person's normal state of health can be improved by using the medicine; … g) treats the medicine as a food, cosmetic or personal-hygiene product or any other consumer product;"
+    },
+    {
+      "topic": "advertising",
+      "statement": "In Portugal, the advertiser, the advertising agency, anyone disseminating the advertising and the owner of the advertising medium are all liable for breaches of the medicine-advertising rules, which can also bring publication of the sanction and a suspension of the medicine's advertising for up to two years (Estatuto do Medicamento, Art 182).",
+      "sourceIds": [
+        "pt-dl176-2006"
+      ],
+      "quote": "São punidos como autores ou coautores das contraordenações previstas no presente decreto-lei, relativamente à violação dos deveres previstos no capítulo IX, o anunciante, a agência de publicidade ou qualquer outra entidade que exerça a atividade publicitária, ou a divulgação de publicidade, o titular do suporte publicitário ou o respetivo concessionário.",
+      "quoteEn": "The advertiser, the advertising agency or any other entity carrying out the advertising activity or disseminating the advertising, and the owner of the advertising medium or its concessionaire, are punished as perpetrators or co-perpetrators of the offences under this decree-law concerning breaches of the duties in Chapter IX."
+    },
+    {
+      "topic": "advertising",
+      "statement": "In Portugal, advertising of health services by any provider, public or private (including clinics offering aesthetic treatments), is regulated by Decreto-Lei 238/2015, which bans false claims of guaranteed cure or results or of absence of side effects.",
+      "sourceIds": [
+        "pt-dl238-2015"
+      ],
+      "quote": "São proibidas as práticas de publicidade em saúde que, por qualquer razão, induzam ou sejam suscetíveis de induzir em erro o utente quanto à decisão a adotar, designadamente: … c) Se refiram falsamente a demonstrações ou garantias de cura ou de resultados ou sem efeitos adversos ou secundários;",
+      "quoteEn": "Health advertising practices that, for any reason, mislead or are liable to mislead the user as to the decision to take are prohibited, namely those that: … c) falsely refer to demonstrations or guarantees of cure or of results, or of absence of adverse or side effects;"
+    },
+    {
+      "topic": "advertising",
+      "statement": "In Portugal, the health regulator ERS (Entidade Reguladora da Saúde) enforces the health-advertising rules, with fines of €250–€3,740.98 for individuals and €1,000–€44,891.81 for companies, plus possible bans of up to two years (Decreto-Lei 238/2015, Art 8).",
+      "sourceIds": [
+        "pt-dl238-2015"
+      ],
+      "quote": "Cabe à Entidade Reguladora da Saúde a fiscalização e a instrução dos processos de contraordenação, competindo ao respetivo conselho de administração a aplicação das correspondentes coimas e sanções acessórias.",
+      "quoteEn": "The Health Regulatory Authority is responsible for supervision and for investigating the offence proceedings, and its board of directors applies the corresponding fines and ancillary sanctions."
+    },
+    {
+      "topic": "controlled",
+      "statement": "In Portugal, every medicine intended for parenteral administration (injection) is prescription-only by law (Estatuto do Medicamento, Art 114(1)(d)).",
+      "sourceIds": [
+        "pt-dl176-2006"
+      ],
+      "quote": "Estão sujeitos a receita médica os medicamentos que preencham uma das seguintes condições: … d) Destinem-se a ser administrados por via parentérica.",
+      "quoteEn": "Medicines meeting one of the following conditions are subject to medical prescription: … d) they are intended for parenteral administration."
+    },
+    {
+      "topic": "controlled",
+      "statement": "In Portugal, 'restricted prescription' medicines (MSRM restrita) are reserved to specialised settings: alínea a) means exclusive hospital use (e.g., Olumiant, Scenesse) and alínea b) means conditions diagnosed only in hospital or specialised settings (e.g., somatropin) (Estatuto do Medicamento, Art 118).",
+      "sourceIds": [
+        "pt-dl176-2006",
+        "pt-infomed"
+      ],
+      "quote": "a) Destinarem-se a uso exclusivo hospitalar, devido às suas características farmacológicas, à sua novidade, ou por razões de saúde pública; b) Destinarem-se a patologias cujo diagnóstico seja efectuado apenas em meio hospitalar ou estabelecimentos diferenciados com meios de diagnóstico adequados,",
+      "quoteEn": "a) they are intended for exclusive hospital use because of their pharmacological characteristics, their novelty, or for public-health reasons; b) they are intended for conditions whose diagnosis is made only in hospital or in specialised establishments with appropriate diagnostic means,"
+    },
+    {
+      "topic": "controlled",
+      "statement": "In Portugal, growth hormone is distributed free of charge through hospitals with endocrinology or paediatric services, and a national commission (CNNHC) sets the conditions for its administration (INFARMED, read 25 Sep 2026).",
+      "sourceIds": [
+        "pt-infarmed-cnnhc",
+        "pt-portaria117-2019"
+      ],
+      "quote": "À Comissão Nacional para a Normalização da Hormona do Crescimento compete a definição das condições de administração da hormona de crescimento, que é distribuída gratuitamente nas instituições hospitalares com serviços de endocrinologia e/ou serviços de pediatria,",
+      "quoteEn": "The National Commission for the Standardisation of Growth Hormone is responsible for defining the conditions of administration of growth hormone, which is distributed free of charge in hospital institutions with endocrinology and/or paediatric services,"
+    },
+    {
+      "topic": "controlled",
+      "statement": "In Portugal, anyone who without authorisation makes, sells, distributes, buys, receives, imports or illicitly holds substances on the anti-doping prohibited list commits a crime punishable by 1 to 5 years' imprisonment; the offence is not limited to athletes (Lei 81/2021, Art 57).",
+      "sourceIds": [
+        "pt-lei81-2021"
+      ],
+      "quote": "Quem, sem que para tal se encontre autorizado, produzir, fabricar, extrair, preparar, oferecer, puser à venda, vender, distribuir, comprar, ceder, ou por qualquer título receber, proporcionar a outrem, transportar, importar, exportar ou fizer transitar ou ilicitamente detiver substâncias e métodos constantes da lista de substâncias e métodos proibidos é punido com pena de prisão de 1 a 5 anos.",
+      "quoteEn": "Whoever, without being authorised to do so, produces, manufactures, extracts, prepares, offers, puts up for sale, sells, distributes, buys, transfers, or receives by any title, provides to another, transports, imports, exports, transits or unlawfully holds substances and methods on the list of prohibited substances and methods is punished with imprisonment of 1 to 5 years."
+    },
+    {
+      "topic": "professional",
+      "statement": "In Portugal, the Ordem dos Médicos approved a Competence in Aesthetic Medicine on 12 Dec 2023, a voluntary title with defined training (the experience-based route closed on 31 Dec 2025); the regulation sets training criteria and does not address hormone or peptide prescribing.",
+      "sourceIds": [
+        "pt-om-aesthetic"
+      ],
+      "quote": "Na Assembleia de Representantes, dia 12 de Dezembro 2023, foi aprovado o Regulamento da Competência de Medicina Estética",
+      "quoteEn": "At the Assembly of Representatives on 12 December 2023, the Regulation of the Competence in Aesthetic Medicine was approved"
+    },
+    {
+      "topic": "professional",
+      "statement": "In Portugal, the Ordem dos Médicos code gives physicians freedom to choose diagnostic and therapeutic means but requires decisions dictated by science and conscience and bars unnecessary or superfluous treatment (Regulamento 707/2016, Art 7).",
+      "sourceIds": [
+        "pt-om-code"
+      ],
+      "quote": "O médico só deve tomar decisões ditadas pela ciência e pela sua consciência. 2 — O médico tem liberdade de escolha de meios de diagnóstico e terapêutica, devendo, porém, abster-se de prescrever desnecessariamente exames ou tratamentos onerosos ou de realizar atos médicos supérfluos.",
+      "quoteEn": "The physician must only take decisions dictated by science and by conscience. 2 — The physician is free to choose diagnostic and therapeutic means but must refrain from unnecessarily prescribing costly tests or treatments or performing superfluous medical acts."
+    },
+    {
+      "topic": "professional",
+      "statement": "In Portugal, physicians may not publicise information that could be taken as a guarantee of results or as misleading advertising, and must avoid creating false needs for consumption (Ordem dos Médicos code, Regulamento 707/2016, Art 56).",
+      "sourceIds": [
+        "pt-om-code"
+      ],
+      "quote": "É vedada aos médicos a divulgação de informação suscetível de ser considerada como garantia de resultados ou que possa ser considerada publicidade enganosa.",
+      "quoteEn": "Physicians are prohibited from disseminating information liable to be regarded as a guarantee of results or that may be regarded as misleading advertising."
+    },
+    {
+      "topic": "professional",
+      "statement": "In Portugal, the Ordem dos Farmacêuticos stated in Oct 2022 that it recognises no aesthetic procedure as a pharmaceutical act and that pharmacists should not perform them; their injection competence does not cover the facial area (Ordem dos Farmacêuticos, 26 Oct 2022).",
+      "sourceIds": [
+        "pt-of-aesthetic-2022"
+      ],
+      "quote": "A OF esclarece que a Competência Farmacêutica em Administração de Vacinas e Medicamentos Injetáveis não habilita o farmacêutico para a administração de medicamentos injetáveis na zona facial e que não reconhece qualquer procedimento estético como ato farmacêutico, pelo que o farmacêutico não os deve realizar.",
+      "quoteEn": "The OF clarifies that the Pharmaceutical Competence in Administration of Vaccines and Injectable Medicines does not qualify pharmacists to administer injectable medicines in the facial area, and that it recognises no aesthetic procedure as a pharmaceutical act, so pharmacists should not perform them."
+    },
+    {
+      "topic": "enforcement",
+      "statement": "In Portugal, INFARMED announced in Jan 2025 a broad programme of audits and inspections across the whole antidiabetic-medicine chain (marketing-authorisation holders, distributors, pharmacies and the health system), prompted by 2024 GLP-1 use data (INFARMED press release, 21 Jan 2025).",
+      "sourceIds": [
+        "pt-infarmed-glp1-audits-2025"
+      ],
+      "quote": "Face à análise dos dados de utilização disponíveis no final do ano de 2024, o INFARMED desencadeou um processo alargado de auditorias e inspeções a todo o circuito do medicamento, desde o fabricante e titular de autorização de introdução no mercado, aos distribuidores, farmácias e sistema de saúde.",
+      "quoteEn": "Following analysis of the use data available at the end of 2024, INFARMED launched a broad process of audits and inspections of the whole medicine circuit, from the manufacturer and marketing-authorisation holder to distributors, pharmacies and the health system."
+    },
+    {
+      "topic": "enforcement",
+      "statement": "In Portugal, INFARMED relayed on 5 Sep 2025 the EMA/HMA warning of a sharp rise in illegal online sales of products presented as GLP-1 agonists (semaglutide, liraglutide, tirzepatide), promoted on social media and not authorised.",
+      "sourceIds": [
+        "pt-infarmed-glp1-illegal-2025"
+      ],
+      "quote": "Nos últimos meses, verificou-se um aumento acentuado na comercialização ilegal de medicamentos apresentados como agonistas do recetor GLP-1 – como o semaglutido, o liraglutido e a tirzepatida – destinados à perda de peso e ao tratamento da diabetes.",
+      "quoteEn": "In recent months there has been a sharp increase in the illegal marketing of medicines presented as GLP-1 receptor agonists – such as semaglutide, liraglutide and tirzepatide – intended for weight loss and the treatment of diabetes."
+    },
+    {
+      "topic": "enforcement",
+      "statement": "In Portugal, INFARMED stated in Sep 2025 that medicines can be bought online only on the websites of pharmacies and licensed non-prescription outlets, and that GLP-1 agonists are prescription-only medicines sold only in pharmacies.",
+      "sourceIds": [
+        "pt-infarmed-glp1-illegal-2025"
+      ],
+      "quote": "Em Portugal, a aquisição de medicamentos na internet só é possível nos sites das farmácias e LVMNSRM.",
+      "quoteEn": "In Portugal, medicines can only be bought on the internet from the websites of pharmacies and LVMNSRM (licensed non-prescription medicine outlets)."
+    },
+    {
+      "topic": "enforcement",
+      "statement": "In Portugal, during Operation Pangea XVIII (10–23 Mar 2026) INFARMED, customs and the Judiciary Police checked 431 parcels and seized 85; weight-loss products were among the main seizures, and anabolic substances from China, India and the UK led to seven criminal inquiries (press release, 7 May 2026).",
+      "sourceIds": [
+        "pt-infarmed-pangea-2026"
+      ],
+      "quote": "Em Portugal, os medicamentos para a disfunção erétil continuam a liderar as apreensões, sendo também de destacar os produtos para emagrecimento. A apreensão de substâncias anabolizantes, oriundas da China, India e Reino Unido, deu origem à abertura de sete inquéritos crime cuja investigação fica a cargo da Polícia Judiciária.",
+      "quoteEn": "In Portugal, erectile-dysfunction medicines continue to lead seizures, with weight-loss products also standing out. The seizure of anabolic substances from China, India and the United Kingdom led to seven criminal inquiries, investigated by the Judiciary Police."
+    }
+  ],
+  "notVerified": [
+    {
+      "subject": "INFARMED alert on falsified Ozempic pens (Oct 2023)",
+      "reason": "The INFARMED page 'Embalagens falsificadas de medicamento Ozempic identificadas na União Europeia' (https://www.infarmed.pt/web/infarmed/profissionais-de-saude/-/journal_content/56/15786/9461251) now returns 'Este conteúdo já não se encontra disponível' (25 Sep 2026); its content and date could not be read from a primary source. The Jul 2024 circular only says reports of falsification exist."
+    },
+    {
+      "subject": "INFARMED action specific to melanotan / tanning injections or nasal sprays",
+      "reason": "INFARMED site search for 'melanotan' returned 'Nenhum artigo foi encontrado' and 'bronzeamento' returned no relevant item (25 Sep 2026). Melanotan's status rests on absence from Infomed plus the general medicines-law rules."
+    },
+    {
+      "subject": "INFARMED guidance on peptide cosmetics (GHK-Cu etc.) or 'research use only' peptides",
+      "reason": "INFARMED site searches for 'péptidos', 'peptídeos' and 'research use only' returned no guidance, alert or withdrawal on these products (25 Sep 2026). The research-use-only statements rely on the general Estatuto do Medicamento definitions and offences, not on a peptide-specific INFARMED statement."
+    },
+    {
+      "subject": "Compounded GLP-1s (semaglutide, tirzepatide) in Portugal",
+      "reason": "No INFARMED instrument specifically permitting, restricting or banning compounded GLP-1 agonists was found; Deliberação 1985/2015 does not name them. Whether semaglutide, tirzepatide or the research peptides meet the Art 6(1) raw-material requirement (monograph in Ph. Port./Ph. Eur. or compendial documentation) was not checked."
+    },
+    {
+      "subject": "Peptides on the Portuguese anti-doping prohibited list",
+      "reason": "Lei 81/2021 Art 57 criminalises unauthorised trafficking or illicit holding of listed substances, but the current prohibited list (adopted by portaria from the WADA list) was not read, so which course peptides (e.g., GH secretagogues, BPC-157, TB-500) are on it is not verified."
+    },
+    {
+      "subject": "Off-label prescribing statute",
+      "reason": "No Portuguese statute or INFARMED rule specifically governing off-label prescribing was located; an INFARMED/CNECV session on off-label use (2026) was seen in search results but not read. Only the Ordem dos Médicos code (therapeutic freedom) and the GLP-1 circular are cited."
+    },
+    {
+      "subject": "Decreto-Lei 307/2007, Art 9-A (online sale by pharmacies) and Portaria on home/Internet dispensing",
+      "reason": "The decree text was not read on DRE; the online-sale rules are quoted from INFARMED's pages that cite it."
+    },
+    {
+      "subject": "Consolidated texts of Decreto-Lei 95/2004, Decreto-Lei 238/2015 and Portaria 117/2019",
+      "reason": "Read as compiled by INFARMED or as originally published; later amendments were not checked on DRE (INFARMED's 2026 pages still cite Decreto-Lei 95/2004 and Deliberação 1985/2015 as current)."
+    },
+    {
+      "subject": "Oral collagen – collagen-specific guidance or claims in Portugal",
+      "reason": "DGAV's site has no collagen-specific supplement guidance (search 'colagénio' found only animal-by-product hygiene pages), and DGAV's notified-supplement lists were not searched; whether any specific collagen skin claim is lawful in Portugal depends on the EU claims register (EU research)."
+    },
+    {
+      "subject": "Ordem dos Médicos / Ordem dos Farmacêuticos rules on hormones or peptides for aesthetic purposes",
+      "reason": "No rule from either Order on prescribing hormones or peptides for aesthetic or anti-ageing purposes was found; the aesthetic-medicine competence regulation does not mention hormones or peptides."
+    },
+    {
+      "subject": "Reimbursement of GLP-1 medicines for obesity",
+      "reason": "Infomed showed 0% reimbursement for the Wegovy, Ozempic and Mounjaro presentations viewed; an INFARMED study on reimbursing obesity medicines (Dec 2025) appeared in search results but was not read. Reimbursement is outside this brief."
+    },
+    {
+      "subject": "Kayshild and Kyinsu (semaglutide-containing products listed as authorised, not marketed)",
+      "reason": "Their indications were not read."
+    }
+  ],
+  "authorFindings": [
+    "Where Portugal adds to the EU note: baricitinib (Olumiant) and afamelanotide (Scenesse) are classified 'MSRM restrita – alínea a)', i.e. exclusive hospital use, so neither can be dispensed by a community pharmacy for alopecia areata or EPP; Scenesse is authorised but has no marketed presentation in Portugal. Somatropin is 'MSRM restrita – alínea b)', distributed free through hospital endocrinology/paediatric services under CNNHC conditions.",
+    "INFARMED's Circular 045/2024 (4 Jul 2024) told prescribers not to prescribe Ozempic, Trulicity or Victoza to non-diabetic patients; Wegovy and Mounjaro carry the weight-management indication and are prescription-only (MSRM, 0% reimbursement on the presentations viewed).",
+    "Compounding in Portugal is pharmacy-only magistral/officinal preparation under a pharmacist (DL 95/2004, Portaria 594/2004), limited to pharmacopoeial or compendial raw materials, with an INFARMED banned list that also bars systemic doses above authorised doses. There is no 503B-style outsourcing route. The prescriber shares responsibility for the formula's safety and efficacy.",
+    "Import and sourcing: INFARMED does not authorise personal import of medicines (Circular 148/CD, 2011); online sale is legal only via pharmacies/licensed outlets on INFARMED's list with the EU logo; clinics holding medicines on unlicensed premises commit an offence fined up to €180,000 (Estatuto Art 181(2)(o)). Unauthorised peptides cannot be advertised at all (Art 152(1)).",
+    "Clinic marketing sits under two regimes: medicine advertising (INFARMED, Estatuto Arts 150-164) and health-services advertising (Decreto-Lei 238/2015, enforced by ERS, which bans claims of guaranteed results), plus the Ordem dos Médicos code (Art 56).",
+    "A clinician may find surprising: Portugal's anti-doping law (Lei 81/2021, Art 57) makes unauthorised selling, importing or illicit holding of listed substances a crime for anyone (1-5 years), not only in sport; the Ordem dos Farmacêuticos says pharmacists should not perform aesthetic procedures; topical minoxidil is a non-prescription medicine and Minox 5's label includes alopecia areata; the only authorised single-agent topical tretinoin (Ketrel) is labelled for acne and keratinisation disorders, not photoageing.",
+    "Infomed's conditions of use forbid republishing its content without INFARMED's written authorisation and prescribe a citation form ('Infomed – base de dados de medicamentos do Infarmed consultada em extranet.infarmed.pt/INFOMED-fo/index.xhtml (acedida em 25/09/2026)'); learner notes should state status facts and cite, not reproduce, Infomed records.",
+    "Oral collagen was given status 'unknown' because the enum has no value for a notified food supplement: in Portugal supplements are notified to DGAV, not authorised, and DGAV says notification never means a product is authorised or compliant.",
+    "The EMA/HMA GLP-1 warning relayed by INFARMED (5 Sep 2025) and Pangea XVIII (Mar 2026, weight-loss products among main seizures, 7 criminal inquiries over anabolic substances) are the dated Portuguese enforcement signals; no Portugal-specific melanotan or peptide alert was found.",
+    "Integrator 2026-09-25: 2 statement(s) narrowed to exactly what their verbatim quotes support (clauses beyond the quote removed; flagged by the module 07 agent)."
+  ]
+}

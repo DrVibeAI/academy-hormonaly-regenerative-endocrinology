@@ -1,0 +1,328 @@
+{
+  "format": "cinematic/1",
+  "id": "m01-opener",
+  "title": "The skin makes its own hormones — Module 01 opener",
+  "note": "Flagship cinematic opener (docs/motion-contract.md): HeyGen Avatar V presenter bookends, b-roll, a living scientific diagram with spotlight and labels, a plate of the five named cell types, a three-route list, and a local-loop vs systemic-signalling plate, all keyed to the narration's words. Revision 2 (Omar 2026-09-25): an image of each cell type; illustrations of a local loop and systemic signalling; no on-screen 'AI presenter' label (the disclosure line sits under the player: presenter.disclosure, Omar 2026-09-25). Script assembled only from approved text: m1-p01 body sentences 1–2 and m1-p03 audioScript sentences 1–8 (Hormones and Peptides for Skin). Presenter lines still need the course script review; draft media until the media preview.",
+  "script": {
+    "text": "This course starts with physiology, because every later question about a hormone or peptide for skin rests on it. Skin senses hormones from the blood, makes several of its own, and ages in ways that change both. Think of the skin as a sensing organ with its own hormone supply. Researchers who study it describe four units, epidermal, dermal, hypodermal and adnexal, the last meaning hair follicles and glands. Each unit holds cells that can make hormones and mount an immune response, such as keratinocytes, fibroblasts, sebocytes, fat cells and mast cells. Signals move three ways. Neighbouring cells talk directly, sensory nerves carry messages in and out, and some products enter the blood and reach distant organs. Keep one distinction in view for the whole module. A signal that is made and used inside the skin is a local loop. A hormone that arrives from the blood, or leaves the skin for the rest of the body, is systemic signalling.",
+    "sources": [
+      "m1-p01 body, sentences 1–2",
+      "m1-p03 audioScript, sentences 1–8"
+    ],
+    "locale": "en"
+  },
+  "voice": {
+    "provider": "gemini-tts",
+    "voice_id": "en-gb-tutor-1",
+    "name": "Gemini 3.8 TTS · en-gb-tutor-1 (Omar's pick 2026-09-25)",
+    "style": "Warm, clear and precise clinical educator speaking to physicians. Natural, unhurried pace. Pronounce every medical and chemical term carefully and confidently."
+  },
+  "presenter": {
+    "look": "2daeb4c1c74e491c89314a4e7dcd4879",
+    "engine": "avatar_v",
+    "resolution": "4k",
+    "name": "HeyGen stock avatar \"Iris\" (licensed; first cut — swap the look to re-render only the presenter shots)",
+    "disclosure": {
+      "en": "Presented by a digital avatar (AI-generated presenter and voice)."
+    }
+  },
+  "music": {
+    "src": "score.mp3",
+    "lufs": -22
+  },
+  "chrome": {
+    "kicker": "MODULE 01 · THE SKIN AS AN ENDOCRINE ORGAN"
+  },
+  "lead": 0.12,
+  "states": [
+    {
+      "id": "intro",
+      "at": 0,
+      "shape": {
+        "kind": "frame",
+        "fill": "ink"
+      },
+      "content": {
+        "video": {
+          "presenter": {
+            "from": "This course starts",
+            "to": "change both"
+          },
+          "focus": [
+            0.5,
+            0.36
+          ],
+          "zoom": [
+            1.0,
+            1.07
+          ]
+        }
+      },
+      "kinetic": [
+        {
+          "on": "physiology",
+          "text": "Physiology first"
+        },
+        {
+          "on": "senses hormones",
+          "text": "Senses · makes · ages"
+        }
+      ]
+    },
+    {
+      "id": "organ",
+      "on": "Think of the skin",
+      "shape": {
+        "kind": "frame",
+        "fill": "ink"
+      },
+      "content": {
+        "video": {
+          "src": "broll-skin-macro.mp4",
+          "focus": [
+            0.5,
+            0.55
+          ],
+          "zoom": [
+            1.0,
+            1.14
+          ]
+        }
+      },
+      "kinetic": [
+        {
+          "on": "sensing organ",
+          "text": "A sensing organ"
+        },
+        {
+          "on": "hormone supply",
+          "text": "with its own hormone supply"
+        }
+      ]
+    },
+    {
+      "id": "units",
+      "on": "four units",
+      "shape": {
+        "kind": "window",
+        "fill": "paper",
+        "h": 1300
+      },
+      "kinetic": null,
+      "content": {
+        "image": {
+          "src": "diagram-gpt25.png",
+          "regions": {
+            "epidermis": "the thin top layer of the skin block (epidermis)",
+            "dermis": "the thick middle layer with collagen fibres, vessels and the nerve (dermis)",
+            "hypodermis": "the bottom layer of yellow fat lobules (hypodermis)",
+            "adnexa": "the hair follicle together with its sebaceous gland and the coiled sweat gland (adnexal structures)"
+          },
+          "focus": [
+            {
+              "on": "epidermal",
+              "region": "epidermis",
+              "label": "Epidermal"
+            },
+            {
+              "on": "dermal",
+              "region": "dermis",
+              "label": "Dermal"
+            },
+            {
+              "on": "hypodermal",
+              "region": "hypodermis",
+              "label": "Hypodermal"
+            },
+            {
+              "on": "adnexal",
+              "region": "adnexa",
+              "label": "Adnexal",
+              "zoom": 1.35
+            },
+            {
+              "on": "Each unit holds",
+              "zoom": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "cells",
+      "on": "cells that can make",
+      "shape": {
+        "kind": "window",
+        "fill": "paper",
+        "h": 1280
+      },
+      "kinetic": null,
+      "content": {
+        "image": {
+          "src": "cells-a.png",
+          "regions": {
+            "keratinocytes": "the top-left round vignette: a patch of polygonal cobblestone skin cells joined by small dots",
+            "fibroblast": "the top-right round vignette: one elongated spindle-shaped cell among wavy collagen fibres",
+            "sebocytes": "the middle-left round vignette: a lobule of large pale foamy cells",
+            "fat": "the middle-right round vignette: large round yellow fat cells",
+            "mast": "the bottom round vignette: a cell packed with dark violet granules beside a blood capillary"
+          },
+          "focus": [
+            {
+              "on": "keratinocytes",
+              "region": "keratinocytes",
+              "label": "Keratinocytes"
+            },
+            {
+              "on": "fibroblasts",
+              "region": "fibroblast",
+              "label": "Fibroblasts"
+            },
+            {
+              "on": "sebocytes",
+              "region": "sebocytes",
+              "label": "Sebocytes"
+            },
+            {
+              "on": "fat cells",
+              "region": "fat",
+              "label": "Fat cells"
+            },
+            {
+              "on": "mast cells",
+              "region": "mast",
+              "label": "Mast cells"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "routes",
+      "on": "Signals move three ways",
+      "shape": {
+        "kind": "panel",
+        "fill": "card"
+      },
+      "list": {
+        "kicker": "Three directions of traffic",
+        "rows": [
+          {
+            "label": "Cell to cell",
+            "marks": 0
+          },
+          {
+            "label": "Along sensory nerves",
+            "marks": 0
+          },
+          {
+            "label": "Through the blood",
+            "marks": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "r1",
+      "on": "Neighbouring cells",
+      "indicator": {
+        "rows": [
+          0,
+          0
+        ],
+        "tag": "Local"
+      }
+    },
+    {
+      "id": "r2",
+      "on": "sensory nerves carry",
+      "indicator": {
+        "rows": [
+          1,
+          1
+        ],
+        "tag": "In and out"
+      }
+    },
+    {
+      "id": "r3",
+      "on": "enter the blood",
+      "indicator": {
+        "rows": [
+          2,
+          2
+        ],
+        "tag": "Distant organs"
+      }
+    },
+    {
+      "id": "close",
+      "on": "Keep one distinction",
+      "shape": {
+        "kind": "frame",
+        "fill": "ink"
+      },
+      "content": {
+        "video": {
+          "presenter": {
+            "from": "Keep one distinction",
+            "to": "systemic signalling"
+          },
+          "focus": [
+            0.5,
+            0.36
+          ],
+          "zoom": [
+            1.04,
+            1.1
+          ]
+        }
+      },
+      "kinetic": [
+        {
+          "on": "one distinction",
+          "text": "One distinction"
+        }
+      ]
+    },
+    {
+      "id": "loops",
+      "on": "A signal that is made",
+      "shape": {
+        "kind": "window",
+        "fill": "paper",
+        "h": 1280
+      },
+      "kinetic": null,
+      "content": {
+        "image": {
+          "src": "signalling-b.png",
+          "regions": {
+            "local": "the top vignette: a strip of skin cells where one cell releases violet dots that loop to its neighbours and back",
+            "systemic": "the bottom vignette: a skin block, a long blood vessel carrying violet dots, and a kidney with its adrenal gland"
+          },
+          "focus": [
+            {
+              "on": "A signal that is made",
+              "region": "local"
+            },
+            {
+              "on": "local loop",
+              "region": "local",
+              "label": "Local loop"
+            },
+            {
+              "on": "A hormone that arrives",
+              "region": "systemic"
+            },
+            {
+              "on": "systemic signalling",
+              "region": "systemic",
+              "label": "Systemic signalling"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

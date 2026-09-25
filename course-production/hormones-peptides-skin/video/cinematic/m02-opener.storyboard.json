@@ -1,0 +1,320 @@
+{
+  "format": "cinematic/1",
+  "id": "m02-opener",
+  "title": "Module 02 opener — Hormones and Peptides for Skin",
+  "note": "Module opener in the cinematic lane (docs/motion-contract.md § 10b), same look and rules as the Module 1 opener. Script assembled only from approved text (sources below); presenter lines pass the course script review; draft media until the media preview.",
+  "script": {
+    "text": "Most skin changes you see are ageing or lifestyle. A few are the first visible sign of endocrine disease. In three lessons you will separate them: what local and systemic hormones do to skin, what hormone therapy can and cannot do for it, and which signs belong with an endocrinologist. Picture the skin as a small endocrine organ with its own stress axis. Skin cells make CRH and ACTH, the same signals that drive the adrenal glands, and they carry the receptors to respond to them. They also carry an enzyme called eleven beta HSD one, which turns inactive cortisone back into active cortisol inside the cell. In human skin samples that enzyme works harder with age and in sun-exposed skin, and it sets local cortisol independently of the level in the blood. Cortisol slows collagen production in dermal fibroblasts, and mice bred without the enzyme kept their dermal thickness as they aged. Hold all of this in the mechanism register. It comes from biopsies, cultured cells and mice, and it says nothing yet about how a patient's face will age.",
+    "sources": [
+      "m2-p01 body, sentences 1, 2, 3",
+      "m2-p02 audioScript, sentences 1, 2, 3, 4, 5, 6, 7"
+    ],
+    "locale": "en"
+  },
+  "voice": {
+    "provider": "gemini-tts",
+    "voice_id": "en-gb-tutor-1",
+    "name": "Gemini 3.8 TTS · en-gb-tutor-1 (Omar's pick 2026-09-25)",
+    "style": "Warm, clear and precise clinical educator speaking to physicians. Natural, unhurried pace. Pronounce every medical and chemical term carefully and confidently."
+  },
+  "presenter": {
+    "look": "2daeb4c1c74e491c89314a4e7dcd4879",
+    "engine": "avatar_v",
+    "resolution": "4k",
+    "name": "HeyGen stock avatar \"Iris\" (licensed)",
+    "disclosure": {
+      "en": "Presented by a digital avatar (AI-generated presenter and voice)."
+    }
+  },
+  "music": {
+    "src": "m02-score.mp3",
+    "lufs": -22
+  },
+  "chrome": {
+    "kicker": "MODULE 02 · SYSTEMIC HORMONES AND THE SKIN"
+  },
+  "lead": 0.12,
+  "assets": [
+    {
+      "src": "m2-axis.png",
+      "kind": "image",
+      "candidates": 2,
+      "prompt": "Accurate scientific medical illustration plate with two vignettes stacked vertically, the same width, generous empty paper between and around them. Top vignette, the classic stress axis: a small side-view outline of the brain with the hypothalamus and the pituitary gland highlighted, a fine blood vessel running down to a kidney with its adrenal gland on top. Bottom vignette, the skin's own stress axis: a close-up cross-section of the epidermis over the upper dermis; a few skin cells release tiny violet signal molecules to their neighbours, and one cell in the middle is highlighted, turning pale inactive hormone particles into bright violet active ones inside it."
+    },
+    {
+      "src": "m2-dermis.png",
+      "kind": "image",
+      "candidates": 2,
+      "prompt": "Accurate scientific medical illustration plate: two vertical cross-section blocks of aged skin side by side, same width and height, generous empty paper between and around them. Each block shows the epidermis, the dermis with wavy collagen fibre bundles and a few spindle-shaped fibroblasts, and fat at the bottom. In the left block the dermis is visibly thinner, its collagen bundles sparse and fine. In the right block the dermis is visibly thicker, with dense, well-organised collagen bundles. The two blocks are otherwise identical."
+    },
+    {
+      "src": "m2-broll-sun.mp4",
+      "kind": "video",
+      "prompt": "Extreme macro cinematography of sun-exposed, gently lined skin on the back of an older adult's hand: fine texture, light freckling and soft creases catching warm late-afternoon raking light, a very slow smooth push-in, shallow depth of field, calm and respectful, warm neutral grade, no face, no jewellery, no text, no logos."
+    },
+    {
+      "src": "m02-score.mp3",
+      "kind": "music",
+      "prompt": "Instrumental underscore for a 85-second medical education film opener about the skin's own stress hormones: calm, precise and modern; soft felt piano motif over warm analogue synth pads, a light pulse at 96 BPM entering after 10 seconds, gentle build to a lift two thirds of the way through, resolving softly at the end; documentary feel, same palette as the series, no vocals, no heavy drums, leave space for narration."
+    }
+  ],
+  "states": [
+    {
+      "id": "intro",
+      "shape": {
+        "kind": "frame",
+        "fill": "ink"
+      },
+      "content": {
+        "video": {
+          "presenter": {
+            "from": "Most skin changes",
+            "to": "endocrine disease"
+          },
+          "focus": [
+            0.5,
+            0.36
+          ],
+          "zoom": [
+            1.0,
+            1.07
+          ]
+        }
+      },
+      "kinetic": [
+        {
+          "on": "ageing or lifestyle",
+          "text": "Ageing or lifestyle"
+        },
+        {
+          "on": "endocrine disease",
+          "text": "…or endocrine disease"
+        }
+      ],
+      "at": 0
+    },
+    {
+      "id": "lessons",
+      "on": "In three lessons",
+      "shape": {
+        "kind": "panel",
+        "fill": "card"
+      },
+      "list": {
+        "kicker": "Three lessons",
+        "rows": [
+          {
+            "label": "What hormones do to skin",
+            "marks": 0
+          },
+          {
+            "label": "What hormone therapy can do",
+            "marks": 0
+          },
+          {
+            "label": "Signs for an endocrinologist",
+            "marks": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "l1",
+      "on": "local and systemic hormones",
+      "indicator": {
+        "rows": [
+          0,
+          0
+        ],
+        "tag": null
+      }
+    },
+    {
+      "id": "l2",
+      "on": "what hormone therapy can",
+      "indicator": {
+        "rows": [
+          1,
+          1
+        ],
+        "tag": null
+      }
+    },
+    {
+      "id": "l3",
+      "on": "which signs belong",
+      "indicator": {
+        "rows": [
+          2,
+          2
+        ],
+        "tag": null
+      }
+    },
+    {
+      "id": "l4",
+      "on": "with an endocrinologist",
+      "indicator": {
+        "rows": [
+          2,
+          2
+        ],
+        "tag": "Refer these"
+      }
+    },
+    {
+      "id": "axis",
+      "on": "Picture the skin",
+      "shape": {
+        "kind": "window",
+        "fill": "paper",
+        "h": 1280
+      },
+      "kinetic": null,
+      "content": {
+        "image": {
+          "src": "m2-axis.png",
+          "regions": {
+            "adrenal": "the top vignette: the brain, pituitary, blood vessel and the kidney with its adrenal gland",
+            "skin": "the bottom vignette: the strip of skin cells releasing violet signal molecules",
+            "cell": "the single highlighted cell in the middle of the bottom vignette"
+          },
+          "focus": [
+            {
+              "on": "its own stress axis",
+              "region": "skin",
+              "label": "The skin's own stress axis"
+            },
+            {
+              "on": "make CRH and ACTH",
+              "region": "skin",
+              "label": "CRH · ACTH"
+            },
+            {
+              "on": "drive the adrenal glands",
+              "region": "adrenal",
+              "label": "The adrenal axis"
+            },
+            {
+              "on": "respond to them",
+              "region": "skin",
+              "label": "…and their receptors"
+            },
+            {
+              "on": "eleven beta HSD one",
+              "region": "cell",
+              "label": "11β-HSD1",
+              "zoom": 1.4
+            },
+            {
+              "on": "active cortisol",
+              "region": "cell",
+              "label": "Cortisone → cortisol",
+              "zoom": 1.4
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "sun",
+      "on": "In human skin samples",
+      "shape": {
+        "kind": "frame",
+        "fill": "ink"
+      },
+      "content": {
+        "video": {
+          "src": "m2-broll-sun.mp4",
+          "focus": [
+            0.5,
+            0.55
+          ],
+          "zoom": [
+            1.0,
+            1.12
+          ]
+        }
+      },
+      "kinetic": [
+        {
+          "on": "works harder with age",
+          "text": "Higher with age"
+        },
+        {
+          "on": "sun-exposed skin",
+          "text": "and in sun-exposed skin"
+        },
+        {
+          "on": "independently of the level",
+          "text": "Independent of blood levels"
+        }
+      ]
+    },
+    {
+      "id": "dermis",
+      "on": "Cortisol slows collagen",
+      "shape": {
+        "kind": "window",
+        "fill": "paper",
+        "h": 1280
+      },
+      "kinetic": null,
+      "content": {
+        "image": {
+          "src": "m2-dermis.png",
+          "regions": {
+            "thin": "the left skin block with the thinner dermis",
+            "thick": "the right skin block with the thicker dermis"
+          },
+          "focus": [
+            {
+              "on": "slows collagen production",
+              "region": "thin",
+              "label": "Cortisol: less collagen"
+            },
+            {
+              "on": "mice bred without",
+              "region": "thick",
+              "label": "No enzyme (mice): dermis kept"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "close",
+      "shape": {
+        "kind": "frame",
+        "fill": "ink"
+      },
+      "content": {
+        "video": {
+          "presenter": {
+            "from": "Hold all of this",
+            "to": "face will age"
+          },
+          "focus": [
+            0.5,
+            0.36
+          ],
+          "zoom": [
+            1.04,
+            1.1
+          ]
+        }
+      },
+      "kinetic": [
+        {
+          "on": "mechanism register",
+          "text": "The mechanism register"
+        },
+        {
+          "on": "biopsies",
+          "text": "Biopsies · cells · mice"
+        }
+      ],
+      "on": "Hold all of this"
+    }
+  ]
+}

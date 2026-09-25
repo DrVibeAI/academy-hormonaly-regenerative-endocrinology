@@ -1,0 +1,2631 @@
+{
+ "module": "m04",
+ "authoredAt": "2026-09-24",
+ "status": "approved",
+ "unit": {
+  "id": "m04-story",
+  "slug": "m04-story",
+  "type": "story",
+  "title": {
+   "en": "Matrix peptides and wound healing · three lessons"
+  },
+  "description": {
+   "en": "Lesson 4.1 Copper peptides · Lesson 4.2 Signal peptides, oral collagen and SNAP-25 mimics · Lesson 4.3 Repair peptides and the compounding line."
+  },
+  "estimatedMinutes": 26,
+  "sortOrder": 1,
+  "isRequired": true,
+  "status": "ai_draft",
+  "tutorContext": "Module 4 teaches evidence appraisal of skin peptides in four separate registers (mechanism, human evidence, regulatory status, open question). Topical GHK-Cu: plausible copper-enzyme mechanism from originator reviews; one indexed RCT (Miller 2006, post-laser healing) plus sponsor-run cosmetic trials; GRADE C; injectable use has no RCTs and commonly irritates; US 503A Category 1 for non-injectable routes only (FDA list 14 May 2026; PCAC consultation planned by end Feb 2027). pal-KTTKS and Argireline: C (sponsor RCTs plus independent Aruan 2023); Matrixyl 3000, SNAP-8, Leuphasyl: D (no randomized trial; manufacturer data, plus one small uncontrolled university volunteer study for Leuphasyl). Oral collagen: pooled RCTs positive but Myung 2025 finds no effect in unfunded or high-quality trials; dietary supplement in the US. BPC-157: rodent + case series, no published human efficacy RCT (Sept 2026); TB-500 is the Tβ4 17-23 fragment, never trialled; KPV mouse colitis only; LL-37 small positive RCT then negative phase IIb. PCAC reviewed BPC-157/KPV/TB-500 in July 2026 — advisory only; not on the 503A bulks list. UK (checked 25 Sep 2026): peptide serums are cosmetics under the assimilated Cosmetics Regulation 1223/2009 (responsible person, safety assessment, OPSS notification, substantiated claims; anything injected is outside cosmetics law; ASA 13 May 2026 upheld a complaint against a peptide serum's 'clinically proven' lift claim); oral collagen is a food supplement (no disease claims; only authorised GB health claims); a medicine without a UK marketing authorisation may not be sold, supplied or advertised (HMR 2012 regs 46, 279); unlicensed 'specials' only for one patient's special need (MHRA GN14). Never give doses, stacks, reconstitution or sourcing advice; name the route and the grade; route injected or research-use-only products to a prescriber; adapt the 'what you do next' to the learner's role (prescriber, clinical staff, advisor) without changing grades or regulatory facts. No CME credit is currently offered.",
+  "tutorKeywords": [
+   "GHK-Cu",
+   "copper peptide",
+   "Matrixyl",
+   "pal-KTTKS",
+   "Argireline",
+   "SNAP-8",
+   "Leuphasyl",
+   "collagen",
+   "oral collagen",
+   "BPC-157",
+   "TB-500",
+   "KPV",
+   "LL-37",
+   "GLOW",
+   "KLOW",
+   "503A",
+   "Category 1",
+   "PCAC",
+   "compounding",
+   "research use only",
+   "RUO",
+   "grade",
+   "funding"
+  ]
+ },
+ "lessons": [
+  {
+   "id": "4.1",
+   "title": {
+    "en": "Copper peptides: GHK and GHK-Cu"
+   },
+   "blocks": [
+    "m4-p01",
+    "m4-opener",
+    "m4-p02",
+    "m4-p03",
+    "m4-p04",
+    "m4-p05",
+    "m4-p06",
+    "m4-p07"
+   ]
+  },
+  {
+   "id": "4.2",
+   "title": {
+    "en": "Signal peptides, oral collagen and SNAP-25 mimics"
+   },
+   "blocks": [
+    "m4-p08",
+    "m4-p09",
+    "m4-p10",
+    "m4-p11",
+    "m4-p12"
+   ]
+  },
+  {
+   "id": "4.3",
+   "title": {
+    "en": "Repair peptides and the compounding line"
+   },
+   "blocks": [
+    "m4-p13",
+    "m4-p14",
+    "m4-p15",
+    "m4-p16",
+    "m4-p17",
+    "m4-p18",
+    "m4-p19"
+   ]
+  }
+ ],
+ "blocks": [
+  {
+   "id": "m4-p01",
+   "type": "title",
+   "time": "01 / 20",
+   "lead": {
+    "en": "Module 04 · Matrix peptides and wound healing"
+   },
+   "title": {
+    "en": "The peptide your patient already bought."
+   },
+   "body": {
+    "en": "Most skin peptides reach your clinic before any evidence does. In three lessons you will sort them by what the human trials actually show, who paid for those trials, and where each one stands with the regulator."
+   },
+   "points": [
+    {
+     "en": "4.1 Copper peptides: GHK and GHK-Cu"
+    },
+    {
+     "en": "4.2 Signal peptides, oral collagen and the 'topical Botox' family"
+    },
+    {
+     "en": "4.3 Repair peptides, one negative trial, and the compounding line"
+    }
+   ]
+  },
+  {
+   "id": "m4-opener",
+   "type": "video",
+   "lead": {
+    "en": "Module 04 · Opening film"
+   },
+   "title": {
+    "en": "Matrix peptides and wound healing"
+   },
+   "assetRefs": [
+    "asset-hps-m04-opener",
+    "asset-hps-m04-opener-poster"
+   ],
+   "citationRefs": [
+    "pickart-thaler-1973",
+    "pickart-2015-ghk-skin-regeneration",
+    "pickart-margolina-2018",
+    "pickart-2008-ghk-tissue-remodeling",
+    "hannah-shmouni-2026-ppg-aug",
+    "pickart-margolina-2012"
+   ],
+   "sourceNote": "Pickart & Thaler 1973 · Pickart 2008, 2015, 2018 · Peptide Pocket Guide",
+   "metadata": {
+    "videoMode": "player",
+    "captionsBurnedIn": true,
+    "videoTranscript": {
+     "en": "Most skin peptides reach your clinic before any evidence does. In three lessons you will sort them by what the human trials actually show, who paid for those trials, and where each one stands with the regulator. Start with the molecule. GHK is a three-amino-acid peptide that circulates in human plasma; it was first described in 1973. It binds copper readily, and the copper complex, GHK-Cu, is what skin-care labels mean when they say copper peptide. The proposed mechanism is that GHK-Cu delivers copper to enzymes that build and protect the dermal matrix, such as lysyl oxidase and superoxide dismutase, and shifts gene expression toward wound healing. Two things to hold on to. First, this is a mechanism, which explains why the peptide might work and leaves open whether it does. Second, most of this literature was written by the group that discovered the peptide. Keep both in mind when you reach the trials."
+    },
+    "script": {
+     "sources": [
+      "m4-p01 body, sentences 1, 2",
+      "m4-p03 audioScript, sentences 1, 2, 3, 4, 5, 6, 7, 8"
+     ],
+     "rule": "verbatim approved sentences only"
+    }
+   },
+   "time": "02 / 20"
+  },
+  {
+   "id": "m4-p02",
+   "type": "reflection",
+   "time": "03 / 20",
+   "lead": {
+    "en": "Set your path"
+   },
+   "title": {
+    "en": "How will you use this module?"
+   },
+   "body": {
+    "en": "The evidence and grades are the same for everyone, and regulatory notes follow the country you choose. What changes with your role is the 'what you do next' at the end of each lesson, so it fits what your licence lets you do."
+   },
+   "reflection": {
+    "prompt": {
+     "en": "Choose the one closest to your role"
+    },
+    "options": [
+     {
+      "value": "prescriber",
+      "label": {
+       "en": "I prescribe: physician, NP or PA"
+      },
+      "response": {
+       "en": "Your path closes each lesson on the prescribing decision: status checks, consent, documentation and when to refer."
+      }
+     },
+     {
+      "value": "clinical-staff",
+      "label": {
+       "en": "I deliver treatments: RN, aesthetic nurse or injector"
+      },
+      "response": {
+       "en": "Your path closes each lesson on what you notice, what you record and when you escalate to the prescriber."
+      }
+     },
+     {
+      "value": "advisor",
+      "label": {
+       "en": "I advise on products: pharmacist, ND or allied professional"
+      },
+      "response": {
+       "en": "Your path closes each lesson on what you can accurately say about a product and when a patient needs a prescriber."
+      }
+     }
+    ],
+    "inputLabel": {
+     "en": "Optional: the peptide patients ask you about most"
+    },
+    "inputPlaceholder": {
+     "en": "For example, GHK-Cu serum"
+    },
+    "responseLead": {
+     "en": "Your path adjusts"
+    }
+   }
+  },
+  {
+   "id": "m4-p03",
+   "type": "audio",
+   "time": "04 / 20",
+   "lead": {
+    "en": "Mechanism"
+   },
+   "title": {
+    "en": "A plasma tripeptide with a copper habit."
+   },
+   "body": {
+    "en": "GHK is a tripeptide found in human plasma, first described in 1973. Bound to copper it becomes GHK-Cu, which is proposed to deliver copper to enzymes such as superoxide dismutase and lysyl oxidase and to switch on wound-healing and antioxidant gene programmes. Most of that mechanistic literature comes from the group that discovered the peptide."
+   },
+   "points": [
+    {
+     "en": "Endogenous: GHK circulates in human plasma"
+    },
+    {
+     "en": "Proposed: copper delivery to matrix and antioxidant enzymes"
+    },
+    {
+     "en": "Mechanism register only — written largely by the originator"
+    }
+   ],
+   "citationRefs": [
+    "pickart-thaler-1973",
+    "pickart-2015-ghk-skin-regeneration",
+    "pickart-margolina-2018",
+    "pickart-2008-ghk-tissue-remodeling",
+    "hannah-shmouni-2026-ppg-aug",
+    "pickart-margolina-2012"
+   ],
+   "sourceNote": "Pickart & Thaler 1973 · Pickart 2008, 2015, 2018 · Peptide Pocket Guide",
+   "audioBeats": [
+    {
+     "title": {
+      "en": "Where it comes from"
+     },
+     "body": {
+      "en": "GHK — glycyl-histidyl-lysine — was isolated from human plasma in 1973. It binds copper readily, and the copper complex is what the skin-care literature calls GHK-Cu."
+     }
+    },
+    {
+     "title": {
+      "en": "What it is proposed to do"
+     },
+     "body": {
+      "en": "The proposed mechanism is copper delivery to enzymes that build and protect the matrix, plus broad changes in gene expression linked to wound healing."
+     }
+    },
+    {
+     "title": {
+      "en": "Who wrote it"
+     },
+     "body": {
+      "en": "Much of this work, including the gene-expression reviews, comes from the peptide's discoverer. That does not make it wrong. It does make it a mechanism, and it is worth saying who proposed it."
+     }
+    }
+   ],
+   "metadata": {
+    "audioScript": {
+     "en": "Start with the molecule. GHK is a three-amino-acid peptide that circulates in human plasma; it was first described in 1973. It binds copper readily, and the copper complex, GHK-Cu, is what skin-care labels mean when they say copper peptide. The proposed mechanism is that GHK-Cu delivers copper to enzymes that build and protect the dermal matrix, such as lysyl oxidase and superoxide dismutase, and shifts gene expression toward wound healing. Two things to hold on to. First, this is a mechanism, which explains why the peptide might work and leaves open whether it does. Second, most of this literature was written by the group that discovered the peptide. Keep both in mind when you reach the trials."
+    }
+   },
+   "imageBrief": {
+    "prompt": "A molecular illustration on plain paper: a short chain of EXACTLY THREE round beads in a row (a tripeptide — bead one, bead two, bead three, no more), shown large in the centre, with a single violet sphere (a copper ion) nestled against beads one and two. A few fine ink lines lead from the copper toward a faint band of dermal collagen fibres and two small enzyme shapes at one side. Plain paper background: no hair follicles, glands or cells behind the molecule, no sunburst. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m4-p03-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m4-p03-img",
+    "alt": {
+     "en": "A three-bead peptide holds a copper ion, with fine lines toward the collagen fibres and enzymes it is proposed to supply."
+    },
+    "treatment": "cover",
+    "position": "top"
+   }
+  },
+  {
+   "id": "m4-p04",
+   "type": "stat",
+   "time": "05 / 20",
+   "lead": {
+    "en": "Human evidence"
+   },
+   "title": {
+    "en": "One indexed randomized trial."
+   },
+   "body": {
+    "en": "A search of PubMed in September 2026 found one randomized controlled trial of topical GHK-Cu in human skin: 2006, healing after CO₂ laser resurfacing. The cosmetic trials cited for anti-ageing claims are manufacturer-sponsored and not indexed. Both Hormonaly guides grade topical use C."
+   },
+   "citationRefs": [
+    "miller-2006-ghk-cu-laser-rct",
+    "hannah-shmouni-2026-ppg-aug",
+    "hannah-shmouni-2026-are"
+   ],
+   "sourceNote": "Miller 2006 · Peptide Pocket Guide · Aesthetic & Regenerative Endocrinology",
+   "stat": {
+    "figure": "1",
+    "label": {
+     "en": "indexed randomized trial of topical GHK-Cu in human skin"
+    },
+    "detail": {
+     "en": "Miller et al., 2006 — healing after CO₂ laser resurfacing, not photoageing"
+    },
+    "means": {
+     "en": "The human evidence for topical GHK-Cu is small: one small indexed trial plus sponsor-run cosmetic studies. GRADE C is the honest ceiling."
+    },
+    "doesNot": {
+     "en": "It does not show that GHK-Cu fails, that it treats photoageing, or anything about injecting it. A thin evidence base is an unknown, not a negative."
+    }
+   }
+  },
+  {
+   "id": "m4-p05",
+   "type": "tool",
+   "time": "06 / 20",
+   "lead": {
+    "en": "Four registers"
+   },
+   "title": {
+    "en": "Keep the four answers apart."
+   },
+   "body": {
+    "en": "Every peptide question has four separate answers. For GHK-Cu they point in different directions, which is exactly why they must not be blended into one sentence."
+   },
+   "citationRefs": [
+    "pickart-2015-ghk-skin-regeneration",
+    "miller-2006-ghk-cu-laser-rct",
+    "hostynek-2010-ghk-cu-penetration",
+    "ogorek-2025-ghk-cu-permeation-review",
+    "fda-503a-categories-2026-05-14",
+    "fda-503a-bulks-page",
+    "hannah-shmouni-2026-ppg-aug",
+    "hannah-shmouni-2026-are",
+    "mazurowska-2008-copper-peptide-penetration"
+   ],
+   "sourceNote": "FDA 503A category list, updated 14 May 2026",
+   "tool": {
+    "items": [
+     {
+      "label": {
+       "en": "Mechanism"
+      },
+      "value": {
+       "en": "Plausible"
+      },
+      "note": {
+       "en": "Copper delivery to matrix and antioxidant enzymes; gene-expression data from the originator"
+      }
+     },
+     {
+      "label": {
+       "en": "Human evidence"
+      },
+      "value": {
+       "en": "Topical: GRADE C · Injectable: none"
+      },
+      "note": {
+       "en": "One small indexed RCT and sponsor-run cosmetic trials; no randomized trials of injection"
+      }
+     },
+     {
+      "label": {
+       "en": "Regulatory status (US, 14 May 2026)"
+      },
+      "value": {
+       "en": "Non-injectable: 503A Category 1"
+      },
+      "note": {
+       "en": "Category 1 means FDA is still evaluating and does not intend to act against compounders who meet its conditions; an advisory-committee consultation is planned before the end of February 2027. The injectable route has no such standing."
+      }
+     },
+     {
+      "label": {
+       "en": "Open question"
+      },
+      "value": {
+       "en": "Does it reach the dermis?"
+      },
+      "note": {
+       "en": "Penetration data are in vitro and depend on how they are measured"
+      }
+     }
+    ],
+    "callout": {
+     "en": "A strong mechanism is not a strong trial, and a Category 1 listing is not an approval."
+    }
+   },
+   "metadata": {
+    "variants": {
+     "jurisdiction": {
+      "GB": {
+       "text": {
+        "en": "In the UK, a GHK-Cu serum sold for appearance is a cosmetic, and cosmetics law excludes anything injected (September 2026)."
+       },
+       "citationRefs": [
+        "uk-cosmetics-reg-1223-2009-art2",
+        "mhra-gn8-medicinal-product-2025"
+       ]
+      },
+      "EU": {
+       "text": {
+        "en": "In the EU, copper tripeptide-1 is listed in the Commission's CosIng inventory with a skin-conditioning function (read 25 September 2026). No centrally authorised medicine containing GHK-Cu was found in the Union Register or in EMA's data on authorised, refused and withdrawn medicines (searched 25 September 2026)."
+       },
+       "citationRefs": [
+        "eu-cosing-copper-tripeptide-1",
+        "eu-cosing-home",
+        "eu-ema-medicines-data",
+        "eu-union-register"
+       ]
+      },
+      "PT": {
+       "text": {
+        "en": "In Portugal, no medicine containing GHK-Cu is listed in INFARMED's Infomed register, which includes authorised, lapsed and revoked products (searched 25 September 2026)."
+       },
+       "citationRefs": [
+        "pt-infomed"
+       ]
+      },
+      "BR": {
+       "text": {
+        "en": "In Brazil, ANVISA stated on 2 July 2026 that products presented as peptides called GHK-Cu that promise aesthetic effects or improvement in health conditions are not registered with Anvisa."
+       },
+       "citationRefs": [
+        "br-anvisa-peptides-2026"
+       ]
+      },
+      "AE": {
+       "text": {
+        "en": "In the UAE, the Emirates Drug Establishment (EDE) has held medicines registration since Federal Decree-Law 28/2023, and no registered medical product matching GHK, prezatide, copper tripeptide or copper peptide was found in the EDE register (25 September 2026). In Dubai, the DHA's rules for health facilities prohibit circulating, prescribing, dispensing, administering or using any peptide product unless it is registered or licensed with the EDE (29 July 2026); in Abu Dhabi, the DoH classes topical cosmetic peptides with no systemic effect as low-risk products that stay under existing regulatory pathways, while systemic, regenerative or weakly evidenced peptides face enhanced controls (31 July 2026)."
+       },
+       "citationRefs": [
+        "ae-fdl-28-2023",
+        "ae-ede-register",
+        "ae-dha-cir-peptides-2026",
+        "ae-doh-cir-148-2026"
+       ]
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "m4-p06",
+   "type": "audio",
+   "time": "07 / 20",
+   "lead": {
+    "en": "What changes in practice"
+   },
+   "title": {
+    "en": "Serum yes, syringe no."
+   },
+   "body": {
+    "en": "Topical GHK-Cu is a reasonable cosmetic conversation at GRADE C. Injected GHK-Cu is a different product: no randomized trials, injection-site pain and rash are common because copper irritates tissue, and in the US the injectable route sits outside the Category 1 listing."
+   },
+   "points": [
+    {
+     "en": "Topical: modest, small-trial support"
+    },
+    {
+     "en": "Injectable: anecdote, common local reactions"
+    },
+    {
+     "en": "Say which route you mean every time"
+    }
+   ],
+   "citationRefs": [
+    "hannah-shmouni-2026-ppg-aug",
+    "hannah-shmouni-2026-are",
+    "li-2016-copper-skin-toxicity",
+    "fda-503a-categories-2026-05-14"
+   ],
+   "sourceNote": "Peptide Pocket Guide · Aesthetic & Regenerative Endocrinology, ch. 15 · FDA 503A categories",
+   "metadata": {
+    "audioScript": {
+     "en": "Here is what that means in the room. Topical GHK-Cu is a reasonable cosmetic conversation, as long as you describe the evidence honestly: small trials, modest effects, grade C. Injected GHK-Cu is not the same product in a stronger form. There are no randomized trials of injection, injection-site pain and rash are common because copper irritates tissue, and in the United States the injectable route sits outside the Category 1 listing that covers non-injectable use. Whatever your role, name the route every time you talk about this peptide."
+    },
+    "variants": {
+     "audienceLevel": {
+      "prescriber": {
+       "en": "In the US, before prescribing a compounded topical, confirm the substance's current 503A status and that the pharmacy is working within it. Do not prescribe GHK-Cu for injection. Record that you discussed a product with small-trial evidence and the patient's reasons for choosing it."
+      },
+      "clinical-staff": {
+       "en": "If a patient tells you they inject GHK-Cu, record the product, where it was bought and any site reactions, and bring it to the prescriber. Do not advise on amounts or technique."
+      },
+      "advisor": {
+       "en": "Describe topical GHK-Cu products as cosmetics with modest, small-trial support. Anyone injecting a copper peptide should be pointed to a prescriber, not to a better supplier."
+      }
+     },
+     "jurisdiction": {
+      "GB": {
+       "text": {
+        "en": "In the UK, anything injected falls outside cosmetics law, and MHRA decides whether it is a medicine from its claims, form and use. In the UK, a GHK-Cu serum presented for appearance is a cosmetic, so there is nothing to prescribe."
+       },
+       "citationRefs": [
+        "uk-cosmetics-reg-1223-2009-art2",
+        "mhra-gn8-medicinal-product-2025"
+       ]
+      },
+      "EU": {
+       "text": {
+        "en": "In the EU, a substance or mixture intended to be injected is not considered a cosmetic product (Regulation (EC) No 1223/2009, Article 2(2)); the EU borderline manual adds that a product in a vial or ampoule for use by injection cannot be considered a cosmetic product, and should not be marketed with a device that could allow injection or delivery below the epidermis. Whether a product qualifies as a cosmetic is decided case by case by national competent authorities, and the manual says an anti-wrinkle product that significantly restores, corrects or modifies physiological functions by exerting a pharmacological, immunological or metabolic action does not qualify as one (version 5.5, June 2025)."
+       },
+       "citationRefs": [
+        "eu-reg-1223-2009",
+        "eu-ec-cosmetics-borderline-manual-2025",
+        "eu-reg-1223-2009-oj"
+       ]
+      },
+      "PT": {
+       "text": {
+        "en": "In Portugal, INFARMED states that products administered by injection are not considered cosmetics (as of 25 September 2026), and medicines intended for parenteral administration are subject to medical prescription by law (Estatuto do Medicamento, Art 114(1)(d))."
+       },
+       "citationRefs": [
+        "pt-infarmed-cosmetics-faq",
+        "pt-dl176-2006"
+       ]
+      },
+      "BR": {
+       "text": {
+        "en": "In Brazil, ANVISA stated on 2 July 2026 that injectable cosmetics do not exist; an injectable product offered as a cosmetic is irregular. Products with 'GHK' in the product name appear as notified cosmetics in ANVISA's public cosmetics data (221 entries, 25 September 2026), and ANVISA cancelled several GHK-Cu cosmetic processes on 29 April 2026 without published reasons (RE 1.771/2026)."
+       },
+       "citationRefs": [
+        "br-anvisa-peptides-2026",
+        "br-anvisa-cosmetics-opendata",
+        "br-dou-re-1771-2026"
+       ]
+      },
+      "AE": {
+       "text": {
+        "en": "In the UAE, the medicines law (Federal Decree-Law 38 of 2024) defines cosmetics as products with a medical effect on the skin, hair or nails, and whether a product requires an Emirates Drug Establishment (EDE) marketing authorisation, and in which category, is determined by an EDE classification letter based on its presentation, composition, use and design. In Dubai, peptide products may be prescribed, dispensed or administered only by licensed, authorised professionals in a licensed health facility (DHA, 29 July 2026); in Abu Dhabi, physicians may prescribe peptide therapies only for clinical indications supported by available scientific evidence, after a documented eligibility assessment and with informed consent that covers benefits, uncertainties, risks, alternatives and the product's regulatory approval status (DoH, 31 July 2026)."
+       },
+       "citationRefs": [
+        "ae-fdl-38-2024",
+        "ae-ede-svc-classification",
+        "ae-dha-cir-peptides-2026",
+        "ae-doh-cir-148-2026"
+       ]
+      }
+     }
+    }
+   },
+   "imageBrief": {
+    "prompt": "Side-by-side cross-sections of skin, separated by a thin vertical hairline. Left: a few small violet droplets rest on the skin surface and soak only into the outermost layer. Right: a small violet deposit lies deep in the dermis at the end of a narrow track from the surface, surrounded by a soft ring of irritated, swollen tissue drawn as a pale halo. No instruments appear. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m4-p06-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m4-p06-img",
+    "alt": {
+     "en": "Two skin cross-sections: drops resting on the surface on the left, and a deposit deep in the dermis with a ring of irritated tissue on the right."
+    },
+    "treatment": "cover",
+    "position": "top"
+   }
+  },
+  {
+   "id": "m4-p07",
+   "type": "quiz",
+   "time": "08 / 20",
+   "lead": {
+    "en": "Your turn"
+   },
+   "title": {
+    "en": "Is the injection 'stronger'?"
+   },
+   "body": {
+    "en": "One question to close lesson 4.1."
+   },
+   "sourceNote": "Lesson 4.1",
+   "quiz": {
+    "id": "m4-q1",
+    "prompt": {
+     "en": "A patient asks whether GHK-Cu injections are 'stronger' than the serum she uses. What does the evidence support?"
+    },
+    "options": [
+     {
+      "text": {
+       "en": "Yes — injection bypasses the skin barrier, so it must work better."
+      },
+      "why": {
+       "en": "That is a mechanism argument. There are no randomized trials of injected GHK-Cu, so 'works better' has no evidence behind it."
+      }
+     },
+     {
+      "text": {
+       "en": "The topical form has small-trial support; injection rests on anecdote, commonly irritates, and in the US sits outside the Category 1 listing."
+      },
+      "why": {
+       "en": "Correct. Same molecule, different route, different evidence and different regulatory standing."
+      }
+     },
+     {
+      "text": {
+       "en": "They are equivalent, because it is the same molecule."
+      },
+      "why": {
+       "en": "The molecule is the same; the route changes the evidence, the side-effects and the regulatory status."
+      }
+     }
+    ],
+    "correct": 1,
+    "feedback": {
+     "en": "Name the route, then the grade: topical C, injectable no trials."
+    },
+    "pillar": "evidence-appraisal",
+    "citationRefs": [
+     "miller-2006-ghk-cu-laser-rct",
+     "hannah-shmouni-2026-ppg-aug",
+     "fda-503a-categories-2026-05-14"
+    ]
+   }
+  },
+  {
+   "id": "m4-p08",
+   "type": "audio",
+   "time": "09 / 20",
+   "lead": {
+    "en": "Lesson 4.2 · Concept"
+   },
+   "title": {
+    "en": "Three families, one question: who ran the trial?"
+   },
+   "body": {
+    "en": "Signal peptides such as palmitoyl pentapeptide-4 (pal-KTTKS, Matrixyl) are meant to tell fibroblasts to make matrix. SNAP-25 mimics (Argireline and its longer cousin SNAP-8) and Leuphasyl, an enkephalin analogue, are meant to quieten expression lines. Oral collagen peptides are swallowed, not applied. All three families have a trial record, and in all three the question that matters most is who funded it."
+   },
+   "points": [
+    {
+     "en": "Signal peptides: 'make more matrix'"
+    },
+    {
+     "en": "SNAP-25 mimics: 'relax the line'"
+    },
+    {
+     "en": "Oral collagen: the supplement aisle"
+    }
+   ],
+   "citationRefs": [
+    "lupo-cole-2007-cosmeceutical-peptides",
+    "lintner-peschard-2000-pal-kttks",
+    "blanes-mira-2002-argireline",
+    "errante-2020-cosmeceutical-peptides",
+    "hannah-shmouni-2026-are",
+    "schagen-2017-topical-peptides"
+   ],
+   "sourceNote": "Lupo & Cole 2007 · Lintner & Peschard 2000 · Blanes-Mira 2002 · Errante 2020",
+   "audioBeats": [
+    {
+     "title": {
+      "en": "Signal peptides"
+     },
+     "body": {
+      "en": "Palmitoylated fragments of matrix proteins, designed to mimic the signals that tell fibroblasts to repair. The palmitoyl tail helps them into the skin."
+     }
+    },
+    {
+     "title": {
+      "en": "SNAP-25 mimics"
+     },
+     "body": {
+      "en": "Argireline copies the end of SNAP-25, a protein botulinum toxin cleaves. SNAP-8 is the maker's eight-residue extension. The premise is a gentler topical version of the same effect."
+     }
+    },
+    {
+     "title": {
+      "en": "Oral collagen"
+     },
+     "body": {
+      "en": "Hydrolysed collagen taken by mouth, sold as a supplement, with more randomized trials than any topical peptide — and the clearest funding problem."
+     }
+    }
+   ],
+   "metadata": {
+    "audioScript": {
+     "en": "Lesson two covers three families that fill the cosmetic and supplement shelves. Signal peptides, like palmitoyl pentapeptide-4, sold as Matrixyl, are fragments of matrix proteins meant to tell fibroblasts to make more collagen. SNAP-25 mimics, Argireline and its longer cousin SNAP-8, copy part of a nerve-terminal protein that botulinum toxin targets; the idea is a gentle, topical version of that effect. And oral collagen peptides are swallowed, not applied. Every one of these has trials behind it. As you go through them, keep asking one question before any other: who ran the trial, and who paid for it."
+    }
+   },
+   "imageBrief": {
+    "prompt": "Three small vignettes side by side, separated by thin vertical hairlines. First: a short bead-chain peptide with a wavy fatty tail approaching a dermal fibroblast near collagen strands. Second: a nerve ending resting on a striped muscle fibre, with small round vesicles inside the nerve ending and a short bead chain sitting at the junction between them. Third: a simple outline of the stomach and upper intestine with a longer bead chain breaking into small two- and three-bead pieces inside it. The three peptides are violet. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m4-p08-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m4-p08-img",
+    "alt": {
+     "en": "Three vignettes: a fatty-tailed peptide near a skin fibroblast, a peptide at a nerve-muscle junction, and a collagen chain breaking into small pieces in the gut."
+    },
+    "treatment": "cover",
+    "position": "top"
+   }
+  },
+  {
+   "id": "m4-p09",
+   "type": "tool",
+   "time": "10 / 20",
+   "lead": {
+    "en": "Sort the evidence"
+   },
+   "title": {
+    "en": "A trial, or a brochure?"
+   },
+   "body": {
+    "en": "Five products from two families, and what each promises on the label. Before you see a grade, decide what actually stands behind each one."
+   },
+   "citationRefs": [
+    "aruan-2023-argireline-vs-pal-kttks-rct",
+    "avcil-2020-peptide-microneedle",
+    "dragomirescu-2014-leuphasyl-volunteers",
+    "errante-2020-cosmeceutical-peptides",
+    "hannah-shmouni-2026-are",
+    "hannah-shmouni-2026-ppg-aug",
+    "robinson-2005-pal-kttks-rct",
+    "shin-2024-octapeptide-microneedle",
+    "wang-2013-argireline-rct"
+   ],
+   "sourceNote": "Robinson 2005 · Wang 2013 · Aruan 2023 · Errante 2020 · Pocket Guide",
+   "tool": {
+    "items": [
+     {
+      "label": {
+       "en": "pal-KTTKS (Matrixyl)"
+      },
+      "value": {
+       "en": "Firmer skin, fewer wrinkles"
+      },
+      "note": {
+       "en": "Signal peptide"
+      }
+     },
+     {
+      "label": {
+       "en": "Matrixyl 3000 blend"
+      },
+      "value": {
+       "en": "Firmer skin, fewer wrinkles"
+      },
+      "note": {
+       "en": "Signal-peptide blend"
+      }
+     },
+     {
+      "label": {
+       "en": "Argireline"
+      },
+      "value": {
+       "en": "Softer expression lines"
+      },
+      "note": {
+       "en": "SNAP-25 mimic, six residues"
+      }
+     },
+     {
+      "label": {
+       "en": "SNAP-8"
+      },
+      "value": {
+       "en": "Softer expression lines"
+      },
+      "note": {
+       "en": "SNAP-25 mimic, eight residues"
+      }
+     },
+     {
+      "label": {
+       "en": "Leuphasyl"
+      },
+      "value": {
+       "en": "Softer lines, paired with Argireline"
+      },
+      "note": {
+       "en": "Enkephalin analogue"
+      }
+     }
+    ],
+    "callout": {
+     "en": "'Clinically tested' can mean a randomized trial or a brochure. Ask which."
+    }
+   },
+   "interaction": {
+    "kind": "classify",
+    "title": {
+     "en": "Trial or brochure?"
+    },
+    "prompt": {
+     "en": "Tap what stands behind each product."
+    },
+    "labels": [
+     {
+      "value": "rct",
+      "label": {
+       "en": "A randomized human trial"
+      },
+      "tone": "good"
+     },
+     {
+      "value": "maker",
+      "label": {
+       "en": "No independent randomized trial"
+      },
+      "tone": "bad"
+     }
+    ],
+    "items": [
+     {
+      "id": "pal-kttks",
+      "label": {
+       "en": "pal-KTTKS (Matrixyl)"
+      },
+      "answer": "rct",
+      "why": {
+       "en": "GRADE C. A 12-week split-face RCT in 93 women, funded by the manufacturer, and an independent 2023 RCT."
+      }
+     },
+     {
+      "id": "matrixyl-3000",
+      "label": {
+       "en": "Matrixyl 3000 blend"
+      },
+      "answer": "maker",
+      "why": {
+       "en": "GRADE D. The evidence is the maker's technical dossier; no independent randomized trial was found."
+      }
+     },
+     {
+      "id": "argireline",
+      "label": {
+       "en": "Argireline"
+      },
+      "answer": "rct",
+      "why": {
+       "en": "GRADE C in this course. Placebo-controlled RCTs, including an independent head-to-head trial, show modest effects. The two Hormonaly guides disagree (C in Aesthetic & Regenerative Endocrinology, D in the Peptide Pocket Guide); the trials decide it here."
+      }
+     },
+     {
+      "id": "snap-8",
+      "label": {
+       "en": "SNAP-8"
+      },
+      "answer": "maker",
+      "why": {
+       "en": "GRADE D. Its efficacy figures come from the manufacturer, and the indexed studies test it mixed with other actives, so none isolates it."
+      }
+     },
+     {
+      "id": "leuphasyl",
+      "label": {
+       "en": "Leuphasyl"
+      },
+      "answer": "maker",
+      "why": {
+       "en": "GRADE D. The maker's studies, an in-vitro synergy figure and one small uncontrolled university volunteer study (2014); no independent randomized trial."
+      }
+     }
+    ],
+    "done": {
+     "en": "Five sorted. Two have randomized trials behind them, including an independent one (C); three have no independent randomized trial, only the maker's data or small uncontrolled studies (D)."
+    },
+    "citationRefs": [
+     "aruan-2023-argireline-vs-pal-kttks-rct",
+     "dragomirescu-2014-leuphasyl-volunteers",
+     "errante-2020-cosmeceutical-peptides",
+     "hannah-shmouni-2026-ppg-aug",
+     "robinson-2005-pal-kttks-rct",
+     "shin-2024-octapeptide-microneedle",
+     "wang-2013-argireline-rct"
+    ],
+    "source": "authored:2026-09-24 from m4-p09.tool.items + registry grades"
+   }
+  },
+  {
+   "id": "m4-p10",
+   "type": "stat",
+   "time": "11 / 20",
+   "lead": {
+    "en": "The evidence"
+   },
+   "title": {
+    "en": "Twenty-three trials, split by who paid."
+   },
+   "body": {
+    "en": "Pooled, oral collagen trials show better hydration, elasticity and wrinkle scores, and the Aesthetic & Regenerative Endocrinology guide grades them C. A 2025 meta-analysis split the same kind of trials by funding and by quality. The benefit appeared only in pharmaceutical-funded and low-quality trials. Unfunded and high-quality trials showed no effect."
+   },
+   "citationRefs": [
+    "myung-2025-collagen-funding-meta",
+    "pu-2023-oral-collagen-meta",
+    "de-miranda-2021-collagen-meta",
+    "kim-2018-oral-collagen-rct",
+    "hannah-shmouni-2026-are"
+   ],
+   "sourceNote": "Myung & Park, Am J Med 2025 · Pu 2023 · de Miranda 2021 · Kim 2018",
+   "stat": {
+    "figure": "23 RCTs",
+    "label": {
+     "en": "in the 2025 meta-analysis that split oral-collagen trials by funding and quality"
+    },
+    "detail": {
+     "en": "1,474 participants"
+    },
+    "means": {
+     "en": "The pooled benefit of oral collagen disappears when you look only at independent or high-quality trials. The course keeps the guide's GRADE C and shows why a downgrade has been proposed to its author."
+    },
+    "doesNot": {
+     "en": "It does not show collagen is harmful, and it does not rule out benefit for an individual. It is a statement about the evidence, and it says nothing about topical peptides."
+    }
+   }
+  },
+  {
+   "id": "m4-p11",
+   "type": "audio",
+   "time": "12 / 20",
+   "lead": {
+    "en": "What changes in practice"
+   },
+   "title": {
+    "en": "Cosmetic, supplement, drug: three rulebooks."
+   },
+   "body": {
+    "en": "In the US, cosmetic peptides are cosmetic ingredients, not drugs, and their safety is assessed under a cosmetics framework. Oral collagen is a dietary supplement: it may not claim to treat disease, and product quality and content vary. Neither route has to prove efficacy before sale — which is why the funding question matters."
+   },
+   "points": [
+    {
+     "en": "Cosmetic ingredient: no efficacy approval needed"
+    },
+    {
+     "en": "Dietary supplement: no disease claims; quality varies"
+    },
+    {
+     "en": "Say 'modest, small-trial' — never 'topical Botox'"
+    }
+   ],
+   "citationRefs": [
+    "bjerke-2026-cosmetic-peptide-safety-framework",
+    "lupo-cole-2007-cosmeceutical-peptides",
+    "hannah-shmouni-2026-are",
+    "hannah-shmouni-2026-ppg-aug"
+   ],
+   "sourceNote": "Bjerke 2026 · Aesthetic & Regenerative Endocrinology · Pocket Guide",
+   "metadata": {
+    "audioScript": {
+     "en": "Now the regulatory register, stated for the United States. Cosmetic peptides are cosmetic ingredients, not drugs; their safety is assessed under a cosmetics framework, and nobody has to prove they work before they are sold. Oral collagen is sold as a dietary supplement, so it cannot claim to treat a disease, and what is in the tub varies from brand to brand. That is the whole reason the funding question matters here. When no regulator asks for efficacy, the only efficacy data are the trials someone chose to pay for."
+    },
+    "variants": {
+     "audienceLevel": {
+      "prescriber": {
+       "en": "Nothing here needs a prescription. If you recommend a product, recommend it on evidence, name the grade, and disclose any relationship with the brand. The 'topical Botox' claim is not one to repeat."
+      },
+      "clinical-staff": {
+       "en": "When a patient asks which serum 'really works', the accurate answer is modest effects from mostly sponsor-funded trials. Do not describe any of them as an alternative to botulinum toxin."
+      },
+      "advisor": {
+       "en": "The claim you can stand behind is modest, small-trial evidence. Supplements cannot be sold as treating a disease; if a patient expects collagen to fix a skin condition, that is a conversation for a prescriber."
+      }
+     },
+     "jurisdiction": {
+      "GB": {
+       "text": {
+        "en": "In the UK, a peptide serum is a cosmetic: its responsible person needs a safety assessment and must notify the regulator before sale, and must be able to prove its claims. Oral collagen is a food supplement: no food may claim to prevent, treat or cure disease, and only authorised health claims may be used. In May 2026 the UK advertising regulator ruled a peptide serum's 'clinically proven' lifting claim misleading because the study behind it was small and uncontrolled."
+       },
+       "citationRefs": [
+        "uk-cosmetics-reg-1223-2009-art2",
+        "uk-cosmetics-reg-1223-2009-art20",
+        "opss-cosmetics-gb-guidance",
+        "uk-food-supplements-england-2003-reg2",
+        "uk-fic-1169-2011-art7",
+        "uk-nhc-1924-2006-art10",
+        "mhra-gn8-medicinal-product-2025",
+        "asa-ruling-111skin-2026"
+       ]
+      },
+      "EU": {
+       "text": {
+        "en": "In the EU, a peptide serum sold as a cosmetic needs a responsible person in the EU, a safety assessment with a product safety report and electronic notification to the Commission before it is placed on the market (Regulation (EC) No 1223/2009), and its claims must be supported by adequate and verifiable evidence (Regulation (EU) No 655/2013). Food labelling and advertising may not claim that a food prevents, treats or cures a disease, and health claims on foods are prohibited unless authorised: the Commission refused a claim that a collagen peptide mixture maintains skin health by increasing elasticity and reducing wrinkles, because cause and effect was not established (Regulation (EU) No 1154/2014), and the EU Register lists no authorised claim for collagen itself (searched 25 September 2026)."
+       },
+       "citationRefs": [
+        "eu-reg-1223-2009",
+        "eu-reg-655-2013",
+        "eu-reg-1169-2011",
+        "eu-reg-1924-2006",
+        "eu-reg-1154-2014",
+        "eu-claims-register"
+       ]
+      },
+      "PT": {
+       "text": {
+        "en": "In Portugal, INFARMED is the competent authority for cosmetics (Decreto-Lei 23/2025), and borderline products must be assessed case by case by the Responsible Person, taking all their characteristics into account (INFARMED, as of 25 September 2026). For food supplement notification, there is no evaluation of the product or validation of labelling; control is carried out afterwards by sampling and may take place at any time (DGAV, as of 25 September 2026)."
+       },
+       "citationRefs": [
+        "pt-dl23-2025",
+        "pt-infarmed-cosmetics-faq",
+        "pt-dgav-notification",
+        "pt-dgav-supplements"
+       ]
+      },
+      "BR": {
+       "text": {
+        "en": "In Brazil, cosmetic labelling must not contain trade names, brands, images, electronic links or wording that represent therapeutic claims attributed to the use of the product or its ingredients (RDC 907/2024, art. 12). Under ANVISA's January 2025 food supplement guidance, an approved claim is that bioactive hydrolysed collagen peptides with an average molecular weight of 2 kDa help maintain skin health."
+       },
+       "citationRefs": [
+        "br-rdc-907-2024",
+        "br-anvisa-supplements-ingredients",
+        "br-anvisa-supplements-qa-2025",
+        "br-rdc-243-2018"
+       ]
+      },
+      "AE": {
+       "text": {
+        "en": "In the UAE, the medicines law (Federal Decree-Law 38 of 2024) treats food supplements, oral products that support the diet and do not treat, diagnose or prevent disease, as medical products regulated by the Emirates Drug Establishment (EDE): oral collagen products are registered with the EDE as general-sale-list health products rather than medicines, while ordinary cosmetics need a conformity certificate from the Ministry of Industry and Advanced Technology under Cabinet Resolution 18/2014. Advertising any medical product, social media included, requires EDE approval. In Dubai, the DHA's rules for health facilities ban misleading or unproven peptide claims, such as anti-ageing, cell regeneration or improved appearance, unless the use is within the product's approved status (29 July 2026); in Abu Dhabi, the DoH bars healthcare providers from promoting peptide therapies with misleading or unsubstantiated claims, or advertising them without prior approval from the DoH and relevant authorities (31 July 2026)."
+       },
+       "citationRefs": [
+        "ae-fdl-38-2024",
+        "ae-ede-svc-healthcare-product",
+        "ae-ede-reg-collafix",
+        "ae-ede-reg-centrum-shn",
+        "ae-ede-register",
+        "ae-moiat-regulated-products",
+        "ae-moiat-ecas-service",
+        "ae-dha-cir-peptides-2026",
+        "ae-doh-cir-148-2026"
+       ]
+      }
+     }
+    }
+   },
+   "imageBrief": {
+    "prompt": "A flat, top-down plan view with no perspective: three parallel horizontal paper lanes, well separated, running left to right. Top lane: a single droplet near the right end, and nothing across the lane. Middle lane: a plain unmarked capsule near the right end, and nothing across the lane. Bottom lane: a plain round tablet near the left end, and a thick violet bar drawn straight across the bottom lane only, just to the right of the tablet, blocking it. Nothing crosses the top or middle lanes. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m4-p11-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m4-p11-img",
+    "alt": {
+     "en": "Three lanes: a droplet and a capsule pass freely, while a tablet waits at a violet barrier across the third lane."
+    },
+    "treatment": "cover",
+    "position": "top"
+   }
+  },
+  {
+   "id": "m4-p12",
+   "type": "quiz",
+   "time": "13 / 20",
+   "lead": {
+    "en": "Your turn"
+   },
+   "title": {
+    "en": "'Clinically proven' collagen."
+   },
+   "body": {
+    "en": "One question to close lesson 4.2."
+   },
+   "sourceNote": "Lesson 4.2",
+   "quiz": {
+    "id": "m4-q2",
+    "prompt": {
+     "en": "A patient shows you a collagen drink labelled 'clinically proven to reduce wrinkles'. What is the most accurate reply?"
+    },
+    "options": [
+     {
+      "text": {
+       "en": "The trials are real, but the benefit shows up only in industry-funded and lower-quality trials; independent, high-quality trials show no effect."
+      },
+      "why": {
+       "en": "Correct. That is what the 2025 funding-stratified meta-analysis found."
+      }
+     },
+     {
+      "text": {
+       "en": "Meta-analyses prove that collagen improves skin."
+      },
+      "why": {
+       "en": "Pooled, yes. Split by funding and quality, the effect disappears in the independent and high-quality trials."
+      }
+     },
+     {
+      "text": {
+       "en": "Collagen is digested, so it cannot do anything."
+      },
+      "why": {
+       "en": "That is a mechanism argument. The course rests on the trials, and the problem with the trials is who ran them."
+      }
+     }
+    ],
+    "correct": 0,
+    "feedback": {
+     "en": "Ask who paid for the trial before you ask what it showed."
+    },
+    "pillar": "evidence-appraisal",
+    "citationRefs": [
+     "myung-2025-collagen-funding-meta",
+     "pu-2023-oral-collagen-meta"
+    ]
+   }
+  },
+  {
+   "id": "m4-p13",
+   "type": "audio",
+   "time": "14 / 20",
+   "lead": {
+    "en": "Lesson 4.3 · Concept"
+   },
+   "title": {
+    "en": "Rodents, a fragment, and a tripeptide."
+   },
+   "body": {
+    "en": "BPC-157 rests on a large rodent literature, mostly from one research group, and on uncontrolled human case series. TB-500 is not thymosin β4: it is a seven-residue fragment of it, identified by analysing the product itself, and no trial has tested the fragment. KPV, a tripeptide from the end of α-MSH, calms inflammation in mouse colitis and has no randomized human trial."
+   },
+   "points": [
+    {
+     "en": "BPC-157: rodents and case series"
+    },
+    {
+     "en": "TB-500: a fragment, never trialled"
+    },
+    {
+     "en": "KPV: mouse colitis only"
+    }
+   ],
+   "citationRefs": [
+    "sikiric-2018-bpc157-vascular-recruitment",
+    "seiwerth-2021-bpc157-wound-healing",
+    "lee-2021-bpc157-knee",
+    "esposito-2012-tb500-fragment",
+    "crockford-2010-thymosin-beta4",
+    "dalmasso-2008-kpv",
+    "kannengiesser-2008-kpv",
+    "hannah-shmouni-2026-ppg-aug",
+    "sikiric-1993-bpc"
+   ],
+   "sourceNote": "Sikiric 2018 · Seiwerth 2021 · Lee 2021 · Esposito 2012 · Dalmasso 2008",
+   "audioBeats": [
+    {
+     "title": {
+      "en": "BPC-157"
+     },
+     "body": {
+      "en": "A synthetic 15-residue peptide first described in 1993. Decades of rodent studies, most from one Zagreb group; in people, uncontrolled case series."
+     }
+    },
+    {
+     "title": {
+      "en": "TB-500"
+     },
+     "body": {
+      "en": "Sold as 'thymosin', but anti-doping chemists who analysed the product found a fragment — residues 17 to 23 — not the 43-residue parent. Ask what a patient actually bought."
+     }
+    },
+    {
+     "title": {
+      "en": "KPV"
+     },
+     "body": {
+      "en": "The last three residues of α-MSH. Anti-inflammatory in mouse colitis models; no randomized human trials for any indication."
+     }
+    }
+   ],
+   "metadata": {
+    "audioScript": {
+     "en": "Lesson three moves from the cosmetic shelf to the peptides patients buy online and inject. BPC-157 is a fifteen-residue peptide first described in 1993. Its evidence is a large rodent literature, most of it from one research group, and uncontrolled human case series. TB-500 is sold as thymosin, but when anti-doping chemists analysed the product they found a seven-residue fragment, residues seventeen to twenty-three of thymosin beta-four. That fragment has never been tested in a trial. KPV is the last three amino acids of alpha-MSH; it calms inflammation in mouse colitis models, and there is no randomized human trial of it for anything. All three have plausible mechanisms, and none has a controlled human trial."
+    }
+   },
+   "imageBrief": {
+    "prompt": "Three elements in a row. Left: a small mouse silhouette standing on a low laboratory plinth. Centre: a long chain of many small grey round beads, with one short segment of seven beads from the first half of the chain lifted out above it and coloured violet — a fragment taken from the whole. Right: a shorter chain of grey beads whose last three beads at one end are coloured violet and slightly separated. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m4-p13-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m4-p13-img",
+    "alt": {
+     "en": "A mouse on a lab plinth, a long peptide chain with a short fragment lifted out, and a shorter chain with its last three beads set apart."
+    },
+    "treatment": "cover",
+    "position": "top"
+   }
+  },
+  {
+   "id": "m4-p14",
+   "type": "stat",
+   "time": "15 / 20",
+   "lead": {
+    "en": "The evidence"
+   },
+   "title": {
+    "en": "One abstract, no published trial."
+   },
+   "body": {
+    "en": "As of September 2026 no randomized efficacy trial of BPC-157 in people has been published in full. FDA's July 2026 briefing found one randomized, placebo-controlled trial reported only as a 2005 meeting abstract: 53 people with ulcerative colitis, two weeks of treatment, and no significant difference from placebo. ClinicalTrials.gov adds a 2015 phase 1 safety study that never posted results, a completed 2025 single-arm product study with no results posted, and a randomized phase 1 trial after rotator-cuff surgery due to start in 2027."
+   },
+   "citationRefs": [
+    "fda-pcac-2026-bpc157-briefing",
+    "mayfield-2026-injectable-peptide-primer",
+    "mcguire-2025-bpc157-regeneration-or-risk",
+    "nct02637284-bpc157-phase1-2015",
+    "nct07752381-bpc157-gummy-2025",
+    "nct07803250-bpc157-rotator-cuff"
+   ],
+   "sourceNote": "ClinicalTrials.gov, checked 24 Sep 2026 · McGuire 2025 · Mayfield 2026",
+   "stat": {
+    "figure": "0",
+    "label": {
+     "en": "randomized efficacy trials of BPC-157 in people published in full (September 2026)"
+    },
+    "detail": {
+     "en": "One 2005 ulcerative-colitis trial exists only as a meeting abstract (no significant difference from placebo) · registered: phase 1 safety study (2015, no results) · single-arm product study (2025, no results) · randomized phase 1 after rotator-cuff repair (starts 2027)"
+    },
+    "means": {
+     "en": "Whether BPC-157 helps people heal is unknown. The only randomized human result is an abstract that showed no significant benefit; the enthusiasm rests on rodents and uncontrolled case series."
+    },
+    "doesNot": {
+     "en": "It does not show BPC-157 is ineffective or unsafe. Absence of trials is absence of evidence, and this figure will change when the registered trials report."
+    }
+   },
+   "metadata": {}
+  },
+  {
+   "id": "m4-p15",
+   "type": "tool",
+   "time": "16 / 20",
+   "lead": {
+    "en": "Worked example"
+   },
+   "title": {
+    "en": "Two trials, one peptide: LL-37."
+   },
+   "body": {
+    "en": "LL-37, the skin's own cathelicidin, is the one repair peptide with two randomized trials in hard-to-heal venous leg ulcers. Read them in order."
+   },
+   "citationRefs": [
+    "gronberg-2014-ll37-rct",
+    "mahlapuu-2021-ll37-phase2b",
+    "schauber-gallo-2008-amps",
+    "hannah-shmouni-2026-ppg-aug"
+   ],
+   "sourceNote": "Grönberg 2014 · Mahlapuu 2021 · Schauber & Gallo 2008",
+   "tool": {
+    "items": [
+     {
+      "label": {
+       "en": "First trial (2014)"
+      },
+      "value": {
+       "en": "Positive at low dose"
+      },
+      "note": {
+       "en": "First-in-human, randomized, dose-ranging; 34 patients"
+      }
+     },
+     {
+      "label": {
+       "en": "Second trial (2021)"
+      },
+      "value": {
+       "en": "Negative in the full cohort"
+      },
+      "note": {
+       "en": "Multicentre phase IIb, placebo-controlled; only a post hoc subgroup signal"
+      }
+     },
+     {
+      "label": {
+       "en": "Who ran them"
+      },
+      "value": {
+       "en": "The developer, both times"
+      },
+      "note": {
+       "en": "Sponsorship does not make a trial wrong; it is one more reason to wait for replication"
+      }
+     },
+     {
+      "label": {
+       "en": "Grade"
+      },
+      "value": {
+       "en": "C — inconsistent"
+      },
+      "note": {
+       "en": "A small positive trial followed by an adequately powered negative one"
+      }
+     }
+    ],
+    "callout": {
+     "en": "A small positive trial is a hypothesis. LL-37 is what happens when someone tests it."
+    }
+   }
+  },
+  {
+   "id": "m4-p16",
+   "type": "tool",
+   "time": "17 / 20",
+   "lead": {
+    "en": "Regulatory status"
+   },
+   "title": {
+    "en": "Where does it stand in the US?"
+   },
+   "body": {
+    "en": "Three US categories, dated to the FDA's category list of 14 May 2026 and the advisory-committee meeting of 23–24 July 2026. The committee's votes are advice; FDA must still act through rulemaking before anything joins the bulks list. FDA has sent warning letters naming GHK-Cu and BPC-157 on exactly this basis."
+   },
+   "citationRefs": [
+    "fda-503a-categories-2026-05-14",
+    "fda-503a-bulks-page",
+    "federal-register-2026-07361-pcac",
+    "fda-pcac-2026-07-meeting",
+    "fda-warning-letter-tailor-made-2020",
+    "hannah-shmouni-2026-are"
+   ],
+   "sourceNote": "FDA 503A categories (14 May 2026) · 91 FR 20465 · PCAC 23–24 Jul 2026 · FDA warning letter 2020",
+   "tool": {
+    "items": [
+     {
+      "label": {
+       "en": "Cosmetic or supplement"
+      },
+      "value": {
+       "en": "Not a drug"
+      },
+      "note": {
+       "en": "No efficacy approval before sale; supplements may not claim to treat disease"
+      }
+     },
+     {
+      "label": {
+       "en": "503A Category 1"
+      },
+      "value": {
+       "en": "Under FDA evaluation"
+      },
+      "note": {
+       "en": "FDA does not intend to act against compounders who meet its conditions while it evaluates"
+      }
+     },
+     {
+      "label": {
+       "en": "Not on the 503A bulks list"
+      },
+      "value": {
+       "en": "No 503A exemption"
+      },
+      "note": {
+       "en": "Compounded products do not qualify; an advisory-committee review is not approval"
+      }
+     }
+    ],
+    "callout": {
+     "en": "Review is not approval. Check the live list before any conversation about compounding."
+    }
+   },
+   "interaction": {
+    "kind": "quickfire",
+    "title": {
+     "en": "Where does it stand?"
+    },
+    "prompt": {
+     "en": "One product at a time: which US category is it in today?"
+    },
+    "labels": [
+     {
+      "value": "cosmetic",
+      "label": {
+       "en": "Cosmetic or supplement"
+      },
+      "tone": "neutral"
+     },
+     {
+      "value": "cat1",
+      "label": {
+       "en": "Category 1: under evaluation"
+      },
+      "tone": "good"
+     },
+     {
+      "value": "none",
+      "label": {
+       "en": "Not on the bulks list"
+      },
+      "tone": "bad"
+     }
+    ],
+    "items": [
+     {
+      "id": "argireline-serum",
+      "label": {
+       "en": "An Argireline serum"
+      },
+      "answer": "cosmetic",
+      "why": {
+       "en": "A cosmetic ingredient, not a drug."
+      }
+     },
+     {
+      "id": "collagen-drink",
+      "label": {
+       "en": "An oral collagen drink"
+      },
+      "answer": "cosmetic",
+      "why": {
+       "en": "A dietary supplement: no disease claims, no efficacy approval."
+      }
+     },
+     {
+      "id": "ghkcu-topical",
+      "label": {
+       "en": "Compounded topical GHK-Cu"
+      },
+      "answer": "cat1",
+      "why": {
+       "en": "Non-injectable GHK-Cu is in 503A Category 1 (FDA list of 14 May 2026), pending an advisory-committee consultation before the end of February 2027."
+      }
+     },
+     {
+      "id": "ghkcu-injection",
+      "label": {
+       "en": "GHK-Cu for injection"
+      },
+      "answer": "none",
+      "why": {
+       "en": "The Category 1 entry excludes injectable routes."
+      }
+     },
+     {
+      "id": "bpc157",
+      "label": {
+       "en": "BPC-157 for injection"
+      },
+      "answer": "none",
+      "why": {
+       "en": "Reviewed by the advisory committee in July 2026; not on the bulks list unless and until FDA acts by rulemaking."
+      }
+     },
+     {
+      "id": "tb500",
+      "label": {
+       "en": "TB-500"
+      },
+      "answer": "none",
+      "why": {
+       "en": "Same position as BPC-157 after the July 2026 review."
+      }
+     }
+    ],
+    "done": {
+     "en": "Six placed. Only one compounded peptide has Category 1 standing, and only for non-injectable use."
+    },
+    "citationRefs": [
+     "fda-503a-categories-2026-05-14",
+     "fda-pcac-2026-07-meeting",
+     "federal-register-2026-07361-pcac",
+     "hannah-shmouni-2026-ppg-aug"
+    ],
+    "source": "authored:2026-09-24 from m4-p16.tool.items"
+   },
+   "metadata": {
+    "variants": {
+     "jurisdiction": {
+      "GB": {
+       "text": {
+        "en": "If you practise in the UK, the route for unlicensed medicines works differently, and lesson 7.2 sets it out."
+       },
+       "citationRefs": [
+        "mhra-gn14-specials-2023"
+       ]
+      },
+      "EU": {
+       "text": {
+        "en": "In the EU, a medicine prepared in a pharmacy on prescription for an individual patient (magistral formula), or to a pharmacopoeia for the pharmacy's own patients (officinal formula), falls outside Directive 2001/83/EC and needs no marketing authorisation under it (Article 3), and each member state may, under its own law, allow an unauthorised medicine for an individual patient on a professional's bona fide unsolicited order, under that professional's direct personal responsibility (Article 5(1)). No centrally authorised medicine containing GHK-Cu, BPC-157 or TB-500 was found in the Union Register or in EMA's data on authorised, refused and withdrawn medicines (searched 25 September 2026)."
+       },
+       "citationRefs": [
+        "eu-dir-2001-83",
+        "eu-ema-medicines-data",
+        "eu-union-register"
+       ]
+      },
+      "PT": {
+       "text": {
+        "en": "In Portugal, a magistral formula is a medicine prepared in a community or hospital pharmacy, under a pharmacist's responsibility, on a medical prescription that names the patient, and the prescribing physician must satisfy themselves of its safety and efficacy (Decreto-Lei 95/2004). Compounded medicines may use only raw materials listed in the Portuguese pharmacopoeia, the European pharmacopoeia or another European pharmacopoeia, or in compendial scientific documentation, and one containing any other raw material may not be prescribed."
+       },
+       "citationRefs": [
+        "pt-dl95-2004",
+        "pt-infarmed-manipulados"
+       ]
+      },
+      "BR": {
+       "text": {
+        "en": "In Brazil, ANVISA stated on 2 July 2026 that any substance must have passed efficacy and safety assessment before it can be compounded, and that compounding may only be individual, on presentation of a medical prescription, by a compounding pharmacy licensed by local health surveillance. The same notice says BPC-157 and TB-500 are not authorised as food supplements, and that products presented as peptides called GHK-CU, BPC-157, and TB-500 promising aesthetic effects or health improvements are not registered with ANVISA."
+       },
+       "citationRefs": [
+        "br-anvisa-peptides-2026"
+       ]
+      },
+      "AE": {
+       "text": {
+        "en": "In the UAE, the medicines law (Federal Decree-Law 38 of 2024, in force 2 January 2025) exempts medical products compounded in licensed compounding pharmacies from the requirement for a marketing approval from the Emirates Drug Establishment (EDE). In Dubai, the DHA's rules for health facilities prohibit circulating, prescribing, dispensing, administering or using any peptide product unless it is registered or licensed with the EDE (29 July 2026); in Abu Dhabi, the DoH treats peptides as emerging, non-monographed, high-risk substances, and novel substances of unknown risk may be compounded only if monographed, a component of an approved medicine or listed on the DoH's register of compounded substances (compounding standard, August 2026)."
+       },
+       "citationRefs": [
+        "ae-fdl-38-2024",
+        "ae-dha-cir-peptides-2026",
+        "ae-doh-compounding-std-2026"
+       ]
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "m4-p17",
+   "type": "audio",
+   "time": "18 / 20",
+   "lead": {
+    "en": "Fictional case"
+   },
+   "title": {
+    "en": "New dark patches, three months into 'GLOW'."
+   },
+   "body": {
+    "en": "A 46-year-old patient has been injecting a research-use-only 'GLOW' blend bought online for three months. She reports smoother skin and asks about continuing. You notice new, patchy darkening on her face and forearms. This is a fictional case built from the lesson's evidence; there is one right first move."
+   },
+   "citationRefs": [
+    "hannah-shmouni-2026-are",
+    "hannah-shmouni-2026-ppg-aug",
+    "vanhee-2020-seized-research-peptides",
+    "ashraf-2024-online-semaglutide-quality",
+    "fda-503a-categories-2026-05-14",
+    "fda-pcac-2026-07-meeting"
+   ],
+   "sourceNote": "Aesthetic & Regenerative Endocrinology, ch. 15 · Pocket Guide · Vanhee 2020 · Ashraf 2024",
+   "interaction": {
+    "kind": "scenario",
+    "title": {
+     "en": "What do you do first?"
+    },
+    "setup": {
+     "en": "A 46-year-old patient has been injecting a research-use-only 'GLOW' blend bought online for three months. She reports smoother skin and asks about continuing. You notice new, patchy darkening on her face and forearms."
+    },
+    "notice": [
+     {
+      "en": "GLOW is GHK-Cu, BPC-157 and TB-500: no controlled human trials of the blend"
+     },
+     {
+      "en": "Research-use-only products are made outside GMP"
+     },
+     {
+      "en": "The Hormonaly endocrinology guide treats new pigmentation on research-use-only peptides as a red flag"
+     }
+    ],
+    "options": [
+     {
+      "value": "reassure",
+      "label": {
+       "en": "Reassure her: copper peptides can darken skin while collagen remodels. Review in three months."
+      },
+      "why": {
+       "en": "There is no evidence for that explanation, and the guide reads new pigmentation on these products as a warning sign."
+      }
+     },
+     {
+      "value": "stop-record-assess",
+      "label": {
+       "en": "Advise stopping the product, record exactly what she bought, from where and the batch, and route the pigment change for clinical assessment."
+      },
+      "correct": true,
+      "why": {
+       "en": "Right. Stop the exposure, capture the evidence, and get the skin change assessed. The Hormonaly guide states that heavy-metal contamination is documented in these products; the published analysis behind that statement could not be found. The change needs assessment either way."
+      }
+     },
+     {
+      "value": "switch-compounded",
+      "label": {
+       "en": "Switch her to a compounded version of the same blend from a US pharmacy."
+      },
+      "why": {
+       "en": "BPC-157, TB-500 and injectable GHK-Cu are not on the bulks list; a 'pharmacy version' does not solve the problem."
+      }
+     }
+    ],
+    "followUp": {
+     "en": "Then document the conversation: what she used, what you advised, and who assesses the pigmentation next."
+    },
+    "citationRefs": [
+     "hannah-shmouni-2026-are",
+     "hannah-shmouni-2026-ppg-aug",
+     "vanhee-2020-seized-research-peptides",
+     "fda-503a-categories-2026-05-14"
+    ],
+    "source": "authored:2026-09-24 from Aesthetic & Regenerative Endocrinology, ch. 15 RUO cautions + claim c-m04-16"
+   },
+   "metadata": {
+    "variants": {
+     "audienceLevel": {
+      "prescriber": {
+       "en": "You assess the pigmentation or refer to dermatology, consider whether investigation is needed, and document the investigational product and your advice."
+      },
+      "clinical-staff": {
+       "en": "You record the product, source and batch, photograph with consent if your setting allows, and escalate to the prescriber the same day."
+      },
+      "advisor": {
+       "en": "You advise her to stop, keep the vial and packaging, and see a prescriber promptly; you do not suggest an alternative supplier."
+      }
+     },
+     "jurisdiction": {
+      "EU": {
+       "text": {
+        "en": "In the EU, a product presented as treating or preventing disease, or used to restore, correct or modify physiological functions by a pharmacological, immunological or metabolic action, is a medicine, and where a product could be both a medicine and another regulated product, medicines law applies (Directive 2001/83/EC, Articles 1(2) and 2(2)). No medicine may be placed on a member state's market without a national or EU-wide marketing authorisation (Article 6(1)), and the directive's exclusion for research concerns medicinal products intended for research and development trials (Article 3(3))."
+       },
+       "citationRefs": [
+        "eu-dir-2001-83"
+       ]
+      },
+      "PT": {
+       "text": {
+        "en": "In Portugal, a medicine is defined as any substance or combination of substances presented as having properties for treating or preventing disease or used in or administered to human beings to restore, correct or modify physiological functions by exerting a pharmacological, immunological or metabolic action, and making, selling, supplying or administering a medicine without the required authorisation is an administrative offence (Estatuto do Medicamento, Arts 3 and 181). No medicine containing GHK-Cu, BPC-157 or TB-500 is listed in INFARMED's Infomed register, which includes authorised, lapsed and revoked products (searched 25 September 2026), and INFARMED does not authorise the import of medicines for personal use (Circular 148/CD, 29 July 2011)."
+       },
+       "citationRefs": [
+        "pt-dl176-2006",
+        "pt-infomed",
+        "pt-infarmed-circ148-2011"
+       ]
+      },
+      "BR": {
+       "text": {
+        "en": "In Brazil, ANVISA stated on 2 July 2026 that products presented as peptides called BPC-157, TB-500 and GHK-Cu are not registered, and that some injectable peptides not regularised in any category (food, medicine, cosmetic or food supplement) are illegal for any health use, including aesthetic use. ANVISA also stated in July 2026 that an investigational medicine is used exclusively in authorised clinical research."
+       },
+       "citationRefs": [
+        "br-anvisa-peptides-2026",
+        "br-anvisa-medicine-types-2026"
+       ]
+      },
+      "AE": {
+       "text": {
+        "en": "In the UAE, the medicines law (Federal Decree-Law 38 of 2024) has, since 2 January 2025, barred importing, distributing, possessing, selling, using or manufacturing any medical product for circulation without a marketing approval from the Emirates Drug Establishment (EDE), and no registered medical product matching GHK-Cu, BPC-157 or TB-500 was found in the EDE register (25 September 2026). In Dubai, the DHA's rules for health facilities prohibit using any peptide product intended for research use on humans, or for therapeutic purposes, outside a study or clinical trial approved by the competent authority, and bar buying, accepting or using peptide products from websites, social media, individual accounts or unlicensed or unverifiable suppliers (29 July 2026). In Abu Dhabi, the DoH requires compounded peptide formulations to use only certified active ingredients imported under EDE oversight, with peptide products traceable from source to patient (31 July 2026)."
+       },
+       "citationRefs": [
+        "ae-fdl-38-2024",
+        "ae-ede-register",
+        "ae-dha-cir-peptides-2026",
+        "ae-doh-cir-148-2026"
+       ]
+      }
+     }
+    },
+    "audioScript": {
+     "en": "A fictional case, built from this lesson's evidence. A forty-six-year-old patient has been injecting a research-use-only blend sold as GLOW for three months: GHK-Cu, BPC-157 and TB-500 in one vial. She likes her skin and asks about carrying on. You notice new, patchy darkening on her face and forearms. The blend has no controlled human trials, it is made outside good manufacturing practice, and the Hormonaly guide treats new pigmentation on these products as a red flag. Impurity and mislabelling are documented for similar online products; the Hormonaly guide states that heavy-metal contamination is documented in these products, but the published analysis behind that statement could not be found. Decide what you do first."
+    }
+   },
+   "points": [
+    {
+     "en": "GLOW = GHK-Cu, BPC-157 and TB-500; no controlled human trials"
+    },
+    {
+     "en": "Research-use-only products are made outside GMP"
+    },
+    {
+     "en": "New pigmentation on these products is a red flag"
+    }
+   ],
+   "audioBeats": [
+    {
+     "title": {
+      "en": "What she bought"
+     },
+     "body": {
+      "en": "A marketing name for three peptides in one vial, sold as research-use-only powder. No controlled trial has tested the blend."
+     }
+    },
+    {
+     "title": {
+      "en": "What you see"
+     },
+     "body": {
+      "en": "New, patchy darkening on sun-exposed and covered skin, three months in. The Hormonaly endocrinology guide reads new pigmentation on research-use-only peptides as a warning sign."
+     }
+    },
+    {
+     "title": {
+      "en": "What is known about contamination"
+     },
+     "body": {
+      "en": "Impurity and mislabelling are documented for adjacent products. The Hormonaly guide states that heavy-metal contamination is documented in these products; the published analysis behind that statement could not be found. The skin change needs assessment either way."
+     }
+    }
+   ],
+   "imageBrief": {
+    "prompt": "Two elements joined by a thin ink line. Left: three different short bead-chain peptides, each with a different bead shape, tangled together in a loose cluster and coloured violet, with a few stray dark specks of unknown material among them. Right: a cross-section of the upper skin in which the pigment cells along the base of the epidermis are crowded with dark pigment granules that spread into the cells above, making the band darker in patches. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m4-p17-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m4-p17-img",
+    "alt": {
+     "en": "A tangle of three different peptides with stray specks among them, linked to a skin cross-section where pigment cells at the base of the epidermis are crowded with dark granules."
+    },
+    "treatment": "cover",
+    "position": "top"
+   }
+  },
+  {
+   "id": "m4-p18",
+   "type": "quiz",
+   "time": "19 / 20",
+   "lead": {
+    "en": "Your turn"
+   },
+   "title": {
+    "en": "After the July review."
+   },
+   "body": {
+    "en": "One question to close lesson 4.3."
+   },
+   "sourceNote": "Lesson 4.3",
+   "quiz": {
+    "id": "m4-q3",
+    "prompt": {
+     "en": "FDA's Pharmacy Compounding Advisory Committee reviewed BPC-157, KPV and TB-500 in July 2026. What does that change for 503A compounding today?"
+    },
+    "options": [
+     {
+      "text": {
+       "en": "They can now be compounded, because the committee reviewed them."
+      },
+      "why": {
+       "en": "The committee advises; nothing changes until FDA adds a substance to the bulks list by rulemaking."
+      }
+     },
+     {
+      "text": {
+       "en": "Nothing yet: the committee advises, FDA must still act by rulemaking, and until then compounded products do not qualify for the 503A exemptions."
+      },
+      "why": {
+       "en": "Correct. Review is not approval."
+      }
+     },
+     {
+      "text": {
+       "en": "Only the injectable forms are restricted now."
+      },
+      "why": {
+       "en": "None of the three is on the bulks list in any form; the injectable-only exception applies to GHK-Cu's Category 1 entry, not to these."
+      }
+     }
+    ],
+    "correct": 1,
+    "feedback": {
+     "en": "Check the live list. A pending review is not a licence to prescribe."
+    },
+    "pillar": "regulatory-safety",
+    "citationRefs": [
+     "fda-503a-categories-2026-05-14",
+     "fda-pcac-2026-07-meeting",
+     "fda-warning-letter-tailor-made-2020",
+     "federal-register-2026-07361-pcac"
+    ]
+   }
+  },
+  {
+   "id": "m4-p19",
+   "type": "action",
+   "time": "20 / 20",
+   "lead": {
+    "en": "Closing and commitment"
+   },
+   "title": {
+    "en": "Before my next peptide conversation."
+   },
+   "body": {
+    "en": "Build the checklist you will actually use. It is saved to your path and your tutor will bring it back."
+   },
+   "sourceNote": "Module 04",
+   "citationRefs": [
+    "hannah-shmouni-2026-are",
+    "fda-503a-bulks-page"
+   ],
+   "action": {
+    "prompt": {
+     "en": "Choose what you will do before your next conversation about a skin peptide"
+    },
+    "takeaway": {
+     "en": "Next module: follicle, pigment and melanocortins — including why Melanotan II has no place in aesthetic practice."
+    },
+    "suggestions": [
+     {
+      "en": "I will name the route and the grade before anything else."
+     },
+     {
+      "en": "I will ask exactly what the patient bought and from where."
+     },
+     {
+      "en": "I will check the product's current status with my regulator: the live FDA lists in the US, MHRA in the UK."
+     }
+    ]
+   },
+   "metadata": {
+    "clozePrefix": {
+     "en": "Before my next peptide conversation I will"
+    },
+    "clozeSuffix": {
+     "en": "."
+    },
+    "variants": {
+     "audienceLevel": {
+      "prescriber": {
+       "en": "Your checklist ends with documentation: the investigational nature, the grade you quoted, and the patient's consent."
+      },
+      "clinical-staff": {
+       "en": "Your checklist ends with escalation: anything injected or research-use-only goes to the prescriber the same day."
+      },
+      "advisor": {
+       "en": "Your checklist ends with referral: product questions you can answer; treatment questions go to a prescriber."
+      }
+     }
+    }
+   },
+   "interaction": {
+    "kind": "chips",
+    "title": {
+     "en": "Your peptide checklist"
+    },
+    "prompt": {
+     "en": "Tap everything you will do. Choose as many as you like."
+    },
+    "prefix": {
+     "en": "Before my next peptide conversation I will"
+    },
+    "chips": [
+     {
+      "value": "route-grade",
+      "label": {
+       "en": "name the route and the evidence grade"
+      },
+      "group": "evidence"
+     },
+     {
+      "value": "funding",
+      "label": {
+       "en": "ask who funded the trial behind the claim"
+      },
+      "group": "evidence"
+     },
+     {
+      "value": "source",
+      "label": {
+       "en": "ask exactly what was bought and from where"
+      },
+      "group": "safety"
+     },
+     {
+      "value": "status",
+      "label": {
+       "en": "check its current status with my regulator (FDA lists in the US, MHRA in the UK)"
+      },
+      "group": "regulatory"
+     },
+     {
+      "value": "document",
+      "label": {
+       "en": "document what I advised and why"
+      },
+      "group": "regulatory"
+     },
+     {
+      "value": "refer",
+      "label": {
+       "en": "send injected or research-use-only products to a prescriber"
+      },
+      "group": "safety"
+     }
+    ],
+    "suffix": {
+     "en": "."
+    },
+    "pick": "many",
+    "citationRefs": [
+     "hannah-shmouni-2026-are",
+     "fda-503a-bulks-page"
+    ],
+    "source": "authored:2026-09-24 from Aesthetic & Regenerative Endocrinology, ch. 15 clinical & medicolegal pearl and m4 tool items"
+   }
+  }
+ ],
+ "check": {
+  "id": "m4-check",
+  "prompt": {
+   "en": "Closing Module 4: which statement keeps the four registers apart?"
+  },
+  "options": [
+   {
+    "text": {
+     "en": "GHK-Cu has a strong mechanism, so its evidence grade is high."
+    },
+    "why": {
+     "en": "That blends mechanism into human evidence. The mechanism is plausible; the human evidence is small (C)."
+    }
+   },
+   {
+    "text": {
+     "en": "Topical GHK-Cu: plausible copper-enzyme mechanism; small-trial human evidence (C); non-injectable Category 1 under FDA evaluation; whether it reaches the dermis in useful amounts is open."
+    },
+    "why": {
+     "en": "Correct. Four separate answers, each with its own source."
+    }
+   },
+   {
+    "text": {
+     "en": "Category 1 means FDA has approved GHK-Cu for skin."
+    },
+    "why": {
+     "en": "Category 1 means 'still under evaluation' — an enforcement posture, not an approval."
+    }
+   }
+  ],
+  "correct": 1,
+  "feedback": {
+   "en": "Mechanism, human evidence, regulatory status, open question: four answers, never one sentence."
+  },
+  "citationRefs": [
+   "miller-2006-ghk-cu-laser-rct",
+   "fda-503a-categories-2026-05-14",
+   "hostynek-2010-ghk-cu-penetration",
+   "hannah-shmouni-2026-ppg-aug"
+  ]
+ },
+ "claimLocations": {
+  "c-m04-01": [
+   "m4-p03"
+  ],
+  "c-m04-02": [
+   "m4-p03",
+   "m4-p05"
+  ],
+  "c-m04-03": [
+   "m4-p04",
+   "m4-p05",
+   "m4-p07"
+  ],
+  "c-m04-04": [
+   "m4-p06",
+   "m4-p07"
+  ],
+  "c-m04-05": [
+   "m4-p05"
+  ],
+  "c-m04-06": [
+   "m4-p05",
+   "m4-p16"
+  ],
+  "c-m04-07": [
+   "m4-p09"
+  ],
+  "c-m04-08": [
+   "m4-p09"
+  ],
+  "c-m04-09": [
+   "m4-p09"
+  ],
+  "c-m04-10": [
+   "m4-p11"
+  ],
+  "c-m04-11": [
+   "m4-p13",
+   "m4-p14"
+  ],
+  "c-m04-12": [
+   "m4-p13"
+  ],
+  "c-m04-13": [
+   "m4-p13"
+  ],
+  "c-m04-14": [
+   "m4-p15"
+  ],
+  "c-m04-15": [
+   "m4-p16",
+   "m4-p18"
+  ],
+  "c-m04-16": [
+   "m4-p17"
+  ],
+  "c-m04-17": [
+   "m4-p17"
+  ],
+  "c-m04-18": [
+   "m4-p10",
+   "m4-p12"
+  ],
+  "c-m04-19": [
+   "m4-p11"
+  ],
+  "c-m04-20": [
+   "m4-p09"
+  ],
+  "c-m04-21": [
+   "m4-p05",
+   "m4-p06",
+   "m4-p11"
+  ],
+  "c-m04-22": [
+   "m4-p11"
+  ],
+  "c-m04-23": [
+   "m4-p11"
+  ],
+  "c-m04-24": [
+   "m4-p06"
+  ],
+  "j-ae-12": [
+   "m4-p17"
+  ],
+  "j-ae-13": [
+   "m4-p17"
+  ],
+  "j-ae-18": [
+   "m4-p05",
+   "m4-p17"
+  ],
+  "j-ae-30": [
+   "m4-p11"
+  ],
+  "j-ae-34": [
+   "m4-p05"
+  ],
+  "j-ae-36": [
+   "m4-p16",
+   "m4-p17"
+  ],
+  "j-ae-39": [
+   "m4-p05",
+   "m4-p16"
+  ],
+  "j-ae-40": [
+   "m4-p16"
+  ],
+  "j-ae-44": [
+   "m4-p16"
+  ],
+  "j-ae-46": [
+   "m4-p17"
+  ],
+  "j-ae-47": [
+   "m4-p17"
+  ],
+  "j-ae-51": [
+   "m4-p17"
+  ],
+  "j-ae-53": [
+   "m4-p06"
+  ],
+  "j-ae-54": [
+   "m4-p11"
+  ],
+  "j-ae-55": [
+   "m4-p06"
+  ],
+  "j-ae-56": [
+   "m4-p11"
+  ],
+  "j-ae-59": [
+   "m4-p05"
+  ],
+  "j-ae-60": [
+   "m4-p11"
+  ],
+  "j-ae-63": [
+   "m4-p11"
+  ],
+  "j-ae-66": [
+   "m4-p11"
+  ],
+  "j-ae-70": [
+   "m4-p11"
+  ],
+  "j-ae-78": [
+   "m4-p06"
+  ],
+  "j-ae-79": [
+   "m4-p06"
+  ],
+  "j-br-18": [
+   "m4-p16",
+   "m4-p17"
+  ],
+  "j-br-19": [
+   "m4-p16",
+   "m4-p17"
+  ],
+  "j-br-21": [
+   "m4-p05",
+   "m4-p16",
+   "m4-p17"
+  ],
+  "j-br-27": [
+   "m4-p11"
+  ],
+  "j-br-29": [
+   "m4-p16"
+  ],
+  "j-br-35": [
+   "m4-p17"
+  ],
+  "j-br-36": [
+   "m4-p17"
+  ],
+  "j-br-41": [
+   "m4-p11"
+  ],
+  "j-br-42": [
+   "m4-p06"
+  ],
+  "j-br-44": [
+   "m4-p11"
+  ],
+  "j-eu-22": [
+   "m4-p16"
+  ],
+  "j-eu-23": [
+   "m4-p16"
+  ],
+  "j-eu-25": [
+   "m4-p05",
+   "m4-p16"
+  ],
+  "j-eu-26": [
+   "m4-p05"
+  ],
+  "j-eu-36": [
+   "m4-p11"
+  ],
+  "j-eu-37": [
+   "m4-p16"
+  ],
+  "j-eu-39": [
+   "m4-p17"
+  ],
+  "j-eu-40": [
+   "m4-p16"
+  ],
+  "j-eu-42": [
+   "m4-p17"
+  ],
+  "j-eu-43": [
+   "m4-p17"
+  ],
+  "j-eu-51": [
+   "m4-p06"
+  ],
+  "j-eu-52": [
+   "m4-p06"
+  ],
+  "j-eu-54": [
+   "m4-p06"
+  ],
+  "j-eu-58": [
+   "m4-p11"
+  ],
+  "j-eu-60": [
+   "m4-p11"
+  ],
+  "j-eu-64": [
+   "m4-p11"
+  ],
+  "j-eu-66": [
+   "m4-p11"
+  ],
+  "j-pt-22": [
+   "m4-p17"
+  ],
+  "j-pt-23": [
+   "m4-p17"
+  ],
+  "j-pt-25": [
+   "m4-p05",
+   "m4-p17"
+  ],
+  "j-pt-32": [
+   "m4-p11"
+  ],
+  "j-pt-34": [
+   "m4-p16"
+  ],
+  "j-pt-35": [
+   "m4-p16"
+  ],
+  "j-pt-36": [
+   "m4-p16"
+  ],
+  "j-pt-44": [
+   "m4-p17"
+  ],
+  "j-pt-46": [
+   "m4-p17"
+  ],
+  "j-pt-49": [
+   "m4-p17"
+  ],
+  "j-pt-51": [
+   "m4-p11"
+  ],
+  "j-pt-53": [
+   "m4-p06"
+  ],
+  "j-pt-54": [
+   "m4-p11"
+  ],
+  "j-pt-67": [
+   "m4-p06"
+  ]
+ },
+ "audienceLevelPanes": [
+  "m4-p02 (router)",
+  "m4-p06",
+  "m4-p11",
+  "m4-p17",
+  "m4-p19"
+ ],
+ "approval": {
+  "gate": "medical_review",
+  "approver": "Fady Hannah-Shmouni, MD FRCPC",
+  "date": "2026-09-24",
+  "scope": "module 04, review draft of 2026-09-24; approval relayed by Omar Saleem, 2026-09-24"
+ },
+ "courseQuiz": [
+  {
+   "id": "cq-m04-1",
+   "prompt": {
+    "en": "Which statement about topical GHK-Cu keeps its evidence and its regulatory status apart correctly?"
+   },
+   "options": [
+    {
+     "text": {
+      "en": "It is GRADE C on small trials, and in the US its non-injectable form sits in 503A Category 1, which means under evaluation."
+     },
+     "why": {
+      "en": "Correct. Two separate answers: small-trial human evidence, and an enforcement posture that is not an approval."
+     }
+    },
+    {
+     "text": {
+      "en": "Its Category 1 listing shows FDA has found it effective for skin."
+     },
+     "why": {
+      "en": "Category 1 means FDA is still evaluating; it says nothing about efficacy."
+     }
+    },
+    {
+     "text": {
+      "en": "Its copper-enzyme mechanism makes its evidence grade A."
+     },
+     "why": {
+      "en": "A plausible mechanism is not human evidence; the trials are small (C)."
+     }
+    }
+   ],
+   "correct": 0,
+   "rationale": {
+    "en": "Mechanism, human evidence and regulatory status are separate registers; GHK-Cu scores differently on each."
+   },
+   "pillar": "regulatory-safety",
+   "citationRefs": [
+    "miller-2006-ghk-cu-laser-rct",
+    "fda-503a-categories-2026-05-14",
+    "hannah-shmouni-2026-ppg-aug"
+   ]
+  },
+  {
+   "id": "cq-m04-2",
+   "prompt": {
+    "en": "Oral collagen trials pooled together look positive. What did splitting them by funding and quality show?"
+   },
+   "options": [
+    {
+     "text": {
+      "en": "The benefit held in every subgroup."
+     },
+     "why": {
+      "en": "It did not: independent and high-quality trials showed no effect."
+     }
+    },
+    {
+     "text": {
+      "en": "The benefit appeared only in pharmaceutical-funded and lower-quality trials."
+     },
+     "why": {
+      "en": "Correct — Myung and Park, 2025, 23 RCTs."
+     }
+    },
+    {
+     "text": {
+      "en": "Independent trials showed harm."
+     },
+     "why": {
+      "en": "No harm signal was reported; the finding is about absence of benefit."
+     }
+    }
+   ],
+   "correct": 1,
+   "rationale": {
+    "en": "Funding and study quality can explain a pooled effect; ask who ran the trial before what it showed."
+   },
+   "pillar": "evidence-appraisal",
+   "citationRefs": [
+    "myung-2025-collagen-funding-meta",
+    "pu-2023-oral-collagen-meta"
+   ]
+  }
+ ],
+ "tutorEntries": [
+  {
+   "id": "tutor-m04-ghkcu",
+   "keys": [
+    "ghk-cu",
+    "ghk",
+    "copper peptide",
+    "copper peptides",
+    "copper serum",
+    "inject ghk",
+    "ghk injection",
+    "is ghk-cu legal"
+   ],
+   "answer": {
+    "en": "Topical GHK-Cu has a plausible copper-enzyme mechanism and small-trial human support (GRADE C); injected GHK-Cu has no randomized trials and commonly irritates. In the US, as of FDA's 14 May 2026 list, non-injectable GHK-Cu is in 503A Category 1 (under evaluation, not approved); the injectable route is excluded. In the UK, a GHK-Cu serum presented for appearance is regulated as a cosmetic, and cosmetics law excludes anything injected; MHRA decides from its claims, form and use whether an injected product is a medicine, and a medicine with no UK marketing authorisation may not be sold, supplied or advertised. This course gives no doses or sourcing advice — for an individual patient, that is the prescriber's decision."
+   },
+   "citationRefs": [
+    "miller-2006-ghk-cu-laser-rct",
+    "fda-503a-categories-2026-05-14",
+    "hannah-shmouni-2026-ppg-aug",
+    "uk-cosmetics-reg-1223-2009-art2",
+    "mhra-gn8-medicinal-product-2025",
+    "uk-hmr-2012-reg-46",
+    "uk-hmr-2012-reg-279"
+   ],
+   "scope": "m04"
+  },
+  {
+   "id": "tutor-m04-bpc157",
+   "keys": [
+    "bpc-157",
+    "bpc 157",
+    "bpc",
+    "tb-500",
+    "tb500",
+    "glow",
+    "klow",
+    "kpv",
+    "repair peptides"
+   ],
+   "answer": {
+    "en": "BPC-157's evidence is rodent studies from one group plus uncontrolled case series; no randomized efficacy trial in people has been published in full (September 2026); the one randomized trial FDA found, in ulcerative colitis, exists only as a 2005 meeting abstract and showed no significant difference from placebo. TB-500 is a seven-residue fragment of thymosin beta-4 that has never been trialled; KPV has only mouse data. GLOW and KLOW are marketing names for untested blends. FDA's advisory committee reviewed BPC-157, KPV and TB-500 in July 2026 — advice only; they are not on the 503A bulks list. In the UK, a medicine with no marketing authorisation may not be sold, supplied or advertised, and MHRA's largest seizure of unlicensed weight-loss medicines, in May 2026, included peptide products. New pigmentation while using research-use-only peptides is a red flag: stop, record the product and source, and get it assessed."
+   },
+   "citationRefs": [
+    "esposito-2012-tb500-fragment",
+    "fda-pcac-2026-07-meeting",
+    "fda-pcac-2026-bpc157-briefing",
+    "hannah-shmouni-2026-are",
+    "seiwerth-2021-bpc157-wound-healing",
+    "uk-hmr-2012-reg-46",
+    "uk-hmr-2012-reg-279",
+    "mhra-2026-05-29-largest-seizure"
+   ],
+   "scope": "m04"
+  }
+ ],
+ "postApprovalChanges": [
+  {
+   "date": "2026-09-24",
+   "block": "m4-p14",
+   "change": "Named the single randomized BPC-157 trial FDA's July 2026 briefing identified (Ruenzi 2005, ulcerative colitis, meeting abstract only, no significant difference from placebo); title, body and stat wording updated; figure unchanged. Source: FDA PCAC briefing document (fda.gov/media/193343), read in full.",
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC",
+   "confirmedAt": "2026-09-24",
+   "confirmation": "confirmed with the full-course review draft of 2026-09-24; relayed by Omar Saleem"
+  },
+  {
+   "date": "2026-09-24",
+   "block": "m4-p04, m4-p14",
+   "change": "Removed two ClinicalTrials.gov records (NCT07437586 GHK-Cu wound gel; NCT07437547 BPC-157 hamstring) that the draft had cited as recruiting phase 2 trials. Their sponsor, 'Hudson Biotech', also holds a record titled '(Mock Study)', a record whose summary calls itself an 'example interventional study record', and a record re-using the SURMOUNT-1 title; their authenticity cannot be confirmed. The 'phase 2 recruiting' sentence on GHK-Cu is deleted; the BPC-157 list now names only the 2015 PharmaCotherapia phase 1, the 2025 Parlay Wellness product study and the 2026 University of Arkansas phase 1 (start 2027).",
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC",
+   "confirmedAt": "2026-09-24",
+   "confirmation": "confirmed with the full-course review draft of 2026-09-24; relayed by Omar Saleem"
+  },
+  {
+   "date": "2026-09-24",
+   "block": "m4-p09 (classify)",
+   "change": "Leuphasyl: 'no independent or indexed human trial' corrected to 'no randomized trial'. An independent uncontrolled volunteer study exists (Dragomirescu 2014). The classify label 'Manufacturer data only' became 'No randomized trial'; grades unchanged. Found by the automated source check.",
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC",
+   "confirmedAt": "2026-09-24",
+   "confirmation": "confirmed with the full-course review draft of 2026-09-24; relayed by Omar Saleem"
+  },
+  {
+   "date": "2026-09-24",
+   "block": "m4-p08",
+   "change": "Leuphasyl is no longer grouped with the SNAP-25 mimics: it is an enkephalin analogue (as the module's own exercise already says). Wording only. Found by the automated source check.",
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC",
+   "confirmedAt": "2026-09-24",
+   "confirmation": "confirmed with the full-course review draft of 2026-09-24; relayed by Omar Saleem"
+  },
+  {
+   "date": "2026-09-24",
+   "block": "m4-p17",
+   "change": "Heavy metals: 'reported for this market but not documented' reworded to 'claimed for this market, but no published analysis behind that claim was found' (the finding already recorded for the A&RE guide's figure). Wording only; found by the automated source check reading the guide.",
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC",
+   "confirmedAt": "2026-09-24",
+   "confirmation": "confirmed with the full-course review draft of 2026-09-24; relayed by Omar Saleem"
+  },
+  {
+   "date": "2026-09-24",
+   "block": "m4-p09, m4-p17",
+   "change": "Classify label 'No randomized trial' refined to 'No independent randomized trial' (the Peptide Pocket Guide describes independent trials of Matrixyl 3000 as limited, not absent). Heavy metals: the course now reports the Hormonaly guide's statement and then that its published analysis could not be found, instead of contradicting it silently. Wording only.",
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC",
+   "confirmedAt": "2026-09-24",
+   "confirmation": "confirmed with the full-course review draft of 2026-09-24; relayed by Omar Saleem"
+  },
+  {
+   "date": "2026-09-24",
+   "block": "m4-q3",
+   "change": "Citation only: the lesson quiz on GHK-Cu's injectable-only Category 1 exception now cites FDA's 503A categories list (14 May 2026). No wording change.",
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC",
+   "confirmedAt": "2026-09-25",
+   "confirmation": "confirmed with the final sign-off packet of 2026-09-25; relayed by Omar Saleem"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m4-p05 (tool row 3)",
+   "change": "Row relabelled 'US, 14 May 2026; UK, September 2026'; adds that in the UK a GHK-Cu serum sold for appearance is a cosmetic and cosmetics law excludes anything injected. Claim c-m04-21.",
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m4-p06 (body, narration, prescriber version)",
+   "change": "UK added: anything injected falls outside cosmetics law and MHRA decides whether it is a medicine; the prescriber line now says '503A' checks apply in the US, and that in the UK a GHK-Cu serum presented for appearance is a cosmetic with nothing to prescribe. Claims c-m04-21, c-m04-24.",
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m4-p11 (body, narration)",
+   "change": "'UK and EU rules are being mapped' replaced by the UK position: serums are cosmetics (responsible person, safety assessment, notification, substantiated claims); oral collagen is a food supplement (no disease claims, only authorised health claims); ASA ruling of 13 May 2026 against a peptide serum's 'clinically proven' lift claim. Claims c-m04-21, c-m04-22, c-m04-23.",
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m4-p16 (body)",
+   "change": "Pointer added for UK learners: the route for unlicensed medicines works differently in the UK and lesson 7.2 sets it out.",
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m4-p19 (suggestion 3, chip)",
+   "change": "'check ... on the live FDA list' → 'check ... with my regulator (FDA lists in the US, MHRA in the UK)'.",
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "tutor-m04-ghkcu",
+   "change": "Tutor answer adds the UK position (serum = cosmetic; injected products fall outside cosmetics law; an unauthorised medicine may not be sold, supplied or advertised).",
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "tutor-m04-bpc157",
+   "change": "Tutor answer adds the UK position (no sale, supply or advertising without a UK marketing authorisation; MHRA's May 2026 seizure included peptide products).",
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "unit tutorContext",
+   "change": "Tutor context adds the UK cosmetic, food-supplement and unlicensed-medicine position (same facts as the blocks).",
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m4-p05",
+   "change": "UK text moved verbatim into the UK note (row label back to 'Regulatory status (US, 14 May 2026)'; its 'UK, September 2026' date now closes the note; the UK source ids and the sourceNote's UK part moved from the block to the note). EU, Portugal, Brazil and UAE notes added.",
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m4-p06",
+   "change": "UK text moved verbatim into the UK note: the body's UK sentence and the prescriber version's UK clause (removed from the role note, which keeps its US line); the narration's UK sentence removed, so the narration is back to its approved text; UK source ids and the sourceNote's UK part moved from the block to the note. EU, Portugal, Brazil and UAE notes added.",
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m4-p11",
+   "change": "UK text moved verbatim into the UK note (the body's three UK sentences); the narration's four UK sentences removed (the earlier 'UK and EU rules are being mapped' line is not restored); UK source ids and the sourceNote's UK part moved from the block to the note. EU, Portugal, Brazil and UAE notes added.",
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m4-p16",
+   "change": "UK text moved verbatim into the UK note (the pointer to lesson 7.2, with its MHRA source id). EU, Portugal, Brazil and UAE notes added.",
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m4-p17",
+   "change": "EU, Portugal, Brazil and UAE notes added (research-use-only products bought online; registration status of GHK-Cu, BPC-157 and TB-500).",
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m4-p02",
+   "change": "Role line no longer says regulatory status is the same for everyone: 'The evidence and grades are the same for everyone, and regulatory notes follow the country you choose. What changes with your role…' (six-jurisdiction course).",
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m4-p05",
+   "change": "Source line drops the internal word 'Registry m04 ·'; now reads 'FDA 503A category list, updated 14 May 2026'.",
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m4-p01, m4-p02",
+   "change": "Editorial: placeholder source lines removed (the course citing itself on the module cover; an internal audience decision on the role picker). These moments state no facts; nothing else changed.",
+   "forReview": "Omar Saleem",
+   "confirmedBy": "Omar Saleem, product owner (editorial; no medical content changed)",
+   "confirmedAt": "2026-09-25"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m04 module title",
+   "change": "Editorial: the module title is now the plain title 'Matrix peptides and wound healing' everywhere (app, homepage, certificate), replacing the intake plan's working title (Omar: \"plain module titles might be nicer, esp on mobile\").",
+   "forReview": "Omar Saleem",
+   "confirmedBy": "Omar Saleem, product owner (editorial; no medical content changed)",
+   "confirmedAt": "2026-09-25"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m4-opener",
+   "change": "New moment: the module's opening film (about 67 s; draft media for the media preview). The narration is approved text, verbatim (m4-p01 body, sentences 1, 2; m4-p03 audioScript, sentences 1, 2, 3, 4, 5, 6, 7, 8); the presenter is a HeyGen digital avatar, and the player shows \"Presented by a digital avatar (AI-generated presenter and voice).\" under the video. The moments' position labels are renumbered to /20.",
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
+  }
+ ],
+ "mediaChanges": [
+  {
+   "date": "2026-09-25",
+   "block": "m4-p03",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m4-p03-img"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m4-p06",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m4-p06-img"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m4-p08",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m4-p08-img"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m4-p11",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m4-p11-img"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m4-p13",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m4-p13-img"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m4-p17",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m4-p17-img"
+  }
+ ]
+}

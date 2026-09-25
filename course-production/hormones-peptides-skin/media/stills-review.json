@@ -1,0 +1,251 @@
+{
+ "course": "hormones-peptides-skin",
+ "date": "2026-09-25",
+ "status": "draft — pending the human media preview (Omar: design; Dr. Fady Hannah-Shmouni: scientific accuracy)",
+ "note": "One line per still of what the moment teaches, the learner alt text, the scientific point the medical owner should check (priority order), and why a candidate was regenerated. Read by review/make-media-preview.py.",
+ "stills": {
+  "m1-p03": {
+   "teaches": "Skin as a neuro-immuno-endocrine organ: four units, three signalling routes (neighbouring cells, nerves, blood); mostly cell, tissue and animal evidence.",
+   "alt": "A cross-section of skin showing the epidermis, dermis, fat layer and a hair follicle with its glands, with signals passing between cells, along a nerve and into a blood vessel.",
+   "regenerated": "2 times — style anchor, first candidate sat too low in the frame for the phone pane (house composition line tightened); then second candidate still too low (composition line tightened again)"
+  },
+  "m1-p06": {
+   "teaches": "The aesthetic exam as a systemic screen: thinning and bruising, coarse dry skin and acanthosis nigricans point to cortisol, thyroid and insulin; some signs mean prompt referral.",
+   "alt": "Three magnified patches of skin — thin with a bruise, coarse and dry, velvety and dark — each linked to the gland it points to: an adrenal gland, the thyroid and the pancreas.",
+   "medicalCheck": "Skin sign paired with gland: thin skin with bruising and the adrenal (cortisol excess); coarse dry skin and the thyroid; acanthosis nigricans and the pancreas (hyperinsulinaemia).",
+   "medicalCheckPriority": 9,
+   "regenerated": "1 time — wrong sign-to-gland wiring (bruise->thyroid, dry->adrenal); glands low in frame"
+  },
+  "m1-p08": {
+   "teaches": "The Hormone Cell Atlas read hormone and receptor RNA cell by cell across human tissues: a map of predicted capacity, not measured hormone release.",
+   "alt": "A grid of small tissue tiles with a skin tile at the centre, where some cells carry receptor cups and a few hold outlined granules, marking cells predicted to respond to or make a hormone."
+  },
+  "m1-p11": {
+   "teaches": "A receptor on a map is where an efficacy question starts; skin enzymes change potency; only a human trial answers it (sunscreen and vitamin D as the example).",
+   "alt": "A droplet on the skin reaches a cell's receptor while an enzyme reshapes a passing molecule, and a line leads to two matched groups of dots standing for a randomized trial.",
+   "regenerated": "1 time — trial motif rendered as stacked coins (reads as money)"
+  },
+  "m1-p13": {
+   "teaches": "Senescent cells stop dividing but keep secreting cytokines, enzymes and growth factors (the SASP); p16-positive cells become more common with age in human skin.",
+   "alt": "On the left a cell divides into two; on the right a larger, flattened cell has stopped dividing and releases a cloud of small particles into the frayed fibres around it."
+  },
+  "m1-p16": {
+   "teaches": "The levers with randomized trials: daily sunscreen (B) and topical retinoids (tretinoin, guide A; retinol C); senotherapies are biomarker pilots.",
+   "alt": "A skin cross-section with a thin protective film turning back sun rays and a few drops soaking in, above dense, orderly collagen in the dermis."
+  },
+  "m1-p17": {
+   "teaches": "Fictional case: senolytic supplements rest on mouse data and small human pilots; daily sunscreen and topical retinoids have randomized trials with visible outcomes.",
+   "alt": "Three steps of evidence, from a culture dish to a mouse to a human trial; an unmarked capsule sits on the mouse step, while a sun-protection film sits on the top step."
+  },
+  "m2-p02": {
+   "teaches": "Skin regenerates cortisol from cortisone with 11β-HSD1, more with age and sun exposure; cortisol slows collagen synthesis; visible ageing in people is untested.",
+   "alt": "A magnified skin cell in which an enzyme turns an inactive hormone into its active form, surrounded by thin, sparse collagen fibres.",
+   "regenerated": "1 time — copied the anchor's follicle/nerve/vessel, key-shaped tokens, no sparse collagen"
+  },
+  "m2-p06": {
+   "teaches": "'Cortisol face': take the glucocorticoid history, look for discriminating features, reassure most, and route the few to formal testing and an endocrinologist.",
+   "alt": "A stream of tokens passes under a lens; most continue into a calm pool, while a few violet tokens turn onto a path toward a small building."
+  },
+  "m2-p08": {
+   "teaches": "Estrogen receptors sit in all skin; topical estradiol raised collagen in sun-protected but not photoaged skin; skin collagen falls with years since menopause.",
+   "alt": "Two panels of dermis: in sun-protected skin, receptor-bearing cells lay down new collagen; in sun-damaged skin, the same cells sit among fragmented, clumped fibres with no new collagen.",
+   "regenerated": "1 time — anchor's violet nerve and vessel copied into both panels — violet in the photoaged panel reads as new collagen"
+  },
+  "m2-p11": {
+   "teaches": "US and UK menopausal hormone therapy is approved for symptoms and bone protection; the 2025–26 US label changes did not add skin; compounded 'bioidentical' products lack data.",
+   "alt": "An open frame holds rising heat lines and a piece of spongy bone, while a small block of skin sits outside it, drawn in grey.",
+   "medicalCheck": "Two of the approved uses drawn (vasomotor symptoms, bone); vulvovaginal symptoms are left to the text.",
+   "medicalCheckPriority": 14
+  },
+  "m2-p13": {
+   "teaches": "Some inherited endocrine syndromes show on the skin first: MEN1 angiofibromas, Carney complex lentigines and myxomas, MEN2A lichen amyloidosis before thyroid cancer.",
+   "alt": "An upper back seen from behind with a rippled, pigmented patch between the shoulder blades, linked by a fine line to a drawing of the thyroid gland.",
+   "medicalCheck": "Only the MEN2A example is drawn: interscapular cutaneous lichen amyloidosis linked to the thyroid.",
+   "medicalCheckPriority": 13,
+   "regenerated": "1 time — front view, patch on the chest instead of between the shoulder blades (wrong site)"
+  },
+  "m2-p15": {
+   "teaches": "Everyday endocrine signs: adrenal darkening in creases, fast or virilising hirsutism, acanthosis nigricans, pretibial myxoedema, cold dry hypothyroid skin.",
+   "alt": "Three body-part outlines with typical sites marked: the palm creases, a velvety patch at the back of the neck, and a raised plaque on the front of the shin.",
+   "medicalCheck": "Three of the named signs drawn: palm creases (adrenal), acanthosis nigricans at the back of the neck, a pretibial plaque; hirsutism and hypothyroid skin are left to the text.",
+   "medicalCheckPriority": 15,
+   "regenerated": "2 times — legs run off the frame; shin markers under the phone transport bar; then full figure again ran to the bottom; shin markers under the phone transport bar"
+  },
+  "m2-p17": {
+   "teaches": "Fictional case: lip and canthal lentigines, an eyelid papule and a father's heart tumour suggest Carney complex; specialist assessment before any laser.",
+   "alt": "A pedigree with an affected father and daughter, a patch of skin with small dark spots and a soft bump, and a heart with a small mass in its left upper chamber, linked by one line.",
+   "medicalCheck": "Pedigree shows an affected father and daughter (mother unaffected). Redrawn at review: the myxoma now sits in the left atrium (the upper chamber on the viewer's right of a textbook four-chamber cutaway, beside the pulmonary-vein openings), the commoner site; it is drawn as a small stalked mass by the septum reaching toward the mitral valve.",
+   "medicalCheckPriority": 3,
+   "regenerated": "2 times — pedigree shaded the mother too (implies she is affected); then coordinator review — myxoma sat in the right atrium; redrawn in the left atrium (commoner site in Carney complex)"
+  },
+  "m3-p02": {
+   "teaches": "Dermal white adipose tissue: a fat layer inside the dermis, in cones around follicles in humans; antimicrobial in mice; its part in human skin ageing is unmeasured.",
+   "alt": "A skin cross-section in which a cone of small fat cells surrounds the lower hair follicle inside the dermis, separate from the fat layer beneath.",
+   "regenerated": "2 times — anchor arcs/nerve copied in violet, pink surface line (second hue); then cone beside, not around, the follicle"
+  },
+  "m3-p04": {
+   "teaches": "Glycation: sugars bind collagen and end as AGEs that cross-link and stiffen the matrix; RAGE signalling in lab studies; the causal link to visible ageing is graded D.",
+   "alt": "On the left, parallel collagen fibres lie free; on the right, the same fibres carry small sugar rings and are tied together by short cross-links.",
+   "regenerated": "1 time — atom letter 'O' drawn inside each sugar ring (text in pixels)"
+  },
+  "m3-p08": {
+   "teaches": "GLP-1 and GIP are incretins; native GLP-1 is cleared within minutes by DPP-4; semaglutide and tirzepatide are engineered to last, for approved indications.",
+   "alt": "On the left an enzyme clips a pair of units off the end of a natural hormone chain; on the right a modified chain with an altered unit and a fatty tail resists the enzyme and stays whole.",
+   "medicalCheck": "DPP-4 drawn clipping the two N-terminal residues off native GLP-1; the drug drawn with a substituted second residue and a fatty side chain. Confirm this is acceptable for semaglutide and tirzepatide at this level of detail.",
+   "medicalCheckPriority": 2,
+   "regenerated": "2 times — enzyme cut the chain mid-way instead of removing the two end residues; then three beads clipped instead of two (DPP-4 removes a dipeptide)"
+  },
+  "m3-p12": {
+   "teaches": "On GLP-1 drugs: counsel before treatment, photograph with consent during, refer restoration requests; restoration advice is expert opinion.",
+   "alt": "A path passes two blank conversation cards, a camera pointed at a blank frame, and an open door into another room."
+  },
+  "m3-p13": {
+   "teaches": "Fictional case: facial volume loss and shedding on an effective, approved GLP-1 drug — counsel, record and refer; whether to stop belongs with her prescriber.",
+   "alt": "Two cross-sections of cheek tissue over bone: one with a full fat pad under the skin, the other with a thinner pad and looser skin above it.",
+   "medicalCheck": "Facial fat drawn as one pad over bone; real anatomy has separate superficial and deep compartments.",
+   "medicalCheckPriority": 8
+  },
+  "m3-p15": {
+   "teaches": "Inflammaging and the gut hypothesis: bacterial LPS crossing a leaky barrier, shown in mice and briefly after a fatty meal; not shown to drive skin disease.",
+   "alt": "Two views of the gut lining: one with closed junctions keeping small bacterial fragments out, the other with loosened junctions letting them pass into a blood vessel."
+  },
+  "m3-p18": {
+   "teaches": "Gut and skin: diet quality, metabolic care and established skin treatment come first; a zonulin test cannot show a leaky gut; gut-repair peptides last, if at all.",
+   "alt": "A row of stepping stones leads from a plate of whole foods, past a small block of skin, to a single unmarked capsule on the last, smallest stone.",
+   "regenerated": "1 time — plate (first priority) sits under the phone transport bar; green hue"
+  },
+  "m4-p03": {
+   "teaches": "GHK-Cu: a plasma tripeptide that binds copper; the proposed copper-delivery and gene-expression mechanism comes largely from its discoverer's group.",
+   "alt": "A three-bead peptide holds a copper ion, with fine lines toward the collagen fibres and enzymes it is proposed to supply.",
+   "medicalCheck": "GHK-Cu drawn as three beads with the copper ion against the first two (Gly-His). Schematic only; confirm.",
+   "medicalCheckPriority": 4,
+   "regenerated": "1 time — four beads drawn for a tripeptide; anchor follicles/gland copied into background"
+  },
+  "m4-p06": {
+   "teaches": "Topical GHK-Cu is a reasonable cosmetic conversation (C); injected GHK-Cu has no trials, irritates tissue, and in the US sits outside the Category 1 listing.",
+   "alt": "Two skin cross-sections: drops resting on the surface on the left, and a deposit deep in the dermis with a ring of irritated tissue on the right."
+  },
+  "m4-p08": {
+   "teaches": "Three families — signal peptides, SNAP-25 mimics, oral collagen — all have trial records; the question that matters most is who funded them.",
+   "alt": "Three vignettes: a fatty-tailed peptide near a skin fibroblast, a peptide at a nerve-muscle junction, and a collagen chain breaking into small pieces in the gut."
+  },
+  "m4-p11": {
+   "teaches": "Cosmetic, supplement, drug: in the US and UK, cosmetic peptides and oral collagen reach sale without proving efficacy; only drugs pass an approval gate.",
+   "alt": "Three lanes: a droplet and a capsule pass freely, while a tablet waits at a violet barrier across the third lane.",
+   "regenerated": "2 times — gates overlapped the supplement lane (implies supplements face approval); then violet gate still spanned the supplement lane"
+  },
+  "m4-p13": {
+   "teaches": "BPC-157 rests on rodent studies and case series; TB-500 is a seven-residue fragment of thymosin β4, never trialled; KPV is α-MSH's end tripeptide with no human RCT.",
+   "alt": "A mouse on a lab plinth, a long peptide chain with a short fragment lifted out, and a shorter chain with its last three beads set apart.",
+   "medicalCheck": "TB-500 drawn as a seven-bead fragment lifted from the first half of a long chain (residues 17–23 of thymosin β4); KPV as the last three beads of α-MSH.",
+   "medicalCheckPriority": 11
+  },
+  "m4-p17": {
+   "teaches": "Fictional case: a research-use-only three-peptide blend and new patchy pigmentation; no trial tests the blend; impurity and mislabelling are documented.",
+   "alt": "A tangle of three different peptides with stray specks among them, linked to a skin cross-section where pigment cells at the base of the epidermis are crowded with dark granules."
+  },
+  "m5-p02": {
+   "teaches": "The follicle runs its own stress axis and GH/IGF-1 loop; local DHT drives pattern hair loss; alopecia areata follows the collapse of immune privilege.",
+   "alt": "A hair follicle with a closed feedback loop drawn around its bulb, which sits inside a faint protective shell that keeps nearby immune cells out."
+  },
+  "m5-p05": {
+   "teaches": "Work up hair loss first — pattern, trigger, patches, androgens; minoxidil (men and women) and finasteride (men) have pooled trial support; refer severe alopecia areata.",
+   "alt": "Four views of the scalp from above: thinning at the crown and front, even thinning everywhere, one round bare patch, and a widened central parting.",
+   "medicalCheck": "Four hair-loss patterns seen from above: male pattern, diffuse shedding, an alopecia areata patch, female-pattern widened parting. The front of three ovals is bare (forehead).",
+   "medicalCheckPriority": 12
+  },
+  "m5-p07": {
+   "teaches": "POMC yields ACTH, α-MSH and β-endorphin; five melanocortin receptors (pigment, adrenal, two in the brain, sebum); which receptors a drug reaches decides its effects.",
+   "alt": "A precursor peptide cut into three pieces above a row of five receptor tiles: a pigment cell, an adrenal gland, the brain twice, and a sebaceous gland.",
+   "medicalCheck": "Five receptor tiles: MC1R pigment cell, MC2R adrenal, MC3R and MC4R brain (drawn twice), MC5R sebaceous gland — the tidy map the moment itself qualifies.",
+   "medicalCheckPriority": 5,
+   "regenerated": "2 times — two separate brains drawn for the two brain receptors; then two adrenal glands drawn; precursor shattered into many pieces"
+  },
+  "m5-p10": {
+   "teaches": "Melanotan II harms come from case reports: darkening and new naevi, nail bands, melanomas without proven causation, and systemic emergencies.",
+   "alt": "A patch of skin with darkened, varied moles and a crop of new small ones, beside a fingernail with a dark band running along its length."
+  },
+  "m5-p11": {
+   "teaches": "Fictional case: tanning-peptide injections, new and darker naevi, a nail band and a mother with melanoma — an absolute contraindication in the guide.",
+   "alt": "A mother-and-daughter pedigree with the mother marked, a patch of skin with darker and new moles, and a fingernail with a dark band."
+  },
+  "m5-p14": {
+   "teaches": "PTD-DBM keeps CXXC5 off Dishevelled so Wnt/β-catenin signalling rises; hair regrew in mice (developer's group); zinc thymulin has no defined mechanism.",
+   "alt": "Inside a cell, a small decoy peptide keeps a brake protein from docking on a signalling protein, and small signal tokens move into the nucleus.",
+   "medicalCheck": "Most complex mechanism in the set: a cell-penetrating decoy peptide sits in the docking site so the grey 'brake' protein (CXXC5) cannot bind Dishevelled, and β-catenin tokens move into the nucleus. Confirm this reading of PTD-DBM (Lee 2017).",
+   "medicalCheckPriority": 1
+  },
+  "m5-p17": {
+   "teaches": "A compounded hair spray: thymulin is in US Category 3, PTD-DBM on no list, both grade D; in the UK an unlicensed special; return to diagnosis and approved options.",
+   "alt": "A violet path passes under a magnifying lens to an open doorway, while a dashed side branch stops at a closed gate.",
+   "regenerated": "1 time — scalp became a face (eyes, nose); main route started at the closed gate"
+  },
+  "m6-p02": {
+   "teaches": "GH acts mainly on dermal fibroblasts; fibroblast-made IGF-1 drives keratinocytes to divide; GH and IGF-1 fall steadily with age (the somatopause).",
+   "alt": "A skin cross-section where growth hormone from a capillary reaches fibroblasts in the dermis, which send smaller signals up to dividing cells at the base of the epidermis."
+  },
+  "m6-p05": {
+   "teaches": "GH deficiency is a diagnosis; the fall with age is not. In healthy older adults GH brings small body-composition shifts and more side effects; distributing it for anti-ageing is a US federal offence.",
+   "alt": "Two views of the pituitary: one pressed by a mass and releasing nothing, the other intact but releasing only a few small droplets.",
+   "medicalCheck": "Deficiency drawn as a pituitary mass (one cause among several); normal ageing drawn as an intact gland releasing less.",
+   "medicalCheckPriority": 7
+  },
+  "m6-p07": {
+   "teaches": "One axis, four ways in: replace (somatropin), stimulate through the GHRH or ghrelin receptor, or bypass the pituitary with an IGF-1 analogue.",
+   "alt": "A hormone axis from the brain to the pituitary, liver and tissue, with four violet entry points: two on the pituitary, one in the bloodstream and one at the tissue itself.",
+   "regenerated": "1 time — vertical axis ran to 92% of the height; tissue entry (bypass) hidden under the phone transport bar"
+  },
+  "m6-p12": {
+   "teaches": "Name the molecule (CJC-1295 with or without DAC), what evidence stands behind it, and where it stands legally; tesamorelin's A is for one HIV indication.",
+   "alt": "Three cards in order: a bead-chain molecule, two columns of tokens standing for trial evidence, and a closed gate for regulatory status."
+  },
+  "m6-p14": {
+   "teaches": "Sustained GH excess: thick, oily, sweaty skin, skin tags, acanthosis nigricans, enlarging hands and feet; the Endocrine Society advises IGF-1 when typical features appear.",
+   "alt": "Two hands seen from the back, one of ordinary size and one broad and thick-fingered, each above a small skin section — the second thicker, with a swollen dermis and large pores."
+  },
+  "m6-p17": {
+   "teaches": "Fictional case: tight rings, puffiness, night-time tingling, sweating and skin tags on a clinic 'CJC/ipamorelin' product — the soft-tissue pattern of GH excess.",
+   "alt": "An open, puffy hand with a ring pressing into a swollen finger and fine wavy lines along the thumb, index and middle fingers suggesting tingling.",
+   "medicalCheck": "Tingling drawn along the thumb, index and middle fingers (median nerve) to match carpal tunnel symptoms.",
+   "medicalCheckPriority": 10
+  },
+  "m7-p02": {
+   "teaches": "GRADE rates certainty for one outcome across the evidence: four levels; randomized trials start high, observational studies low; ratings move for named reasons.",
+   "alt": "Four shelves of certainty: randomized trials start on the top shelf with one dot stepping down, observational studies lie on the third shelf, and a small cluster rests on the lowest.",
+   "medicalCheck": "GRADE: randomized trials on the top shelf, observational studies on the third; the model also put a small cluster on the lowest shelf (very low). Keep, or redraw with the lowest shelf empty?",
+   "medicalCheckPriority": 6,
+   "regenerated": "1 time — five shelves drawn (GRADE has four levels); coin stacks"
+  },
+  "m7-p05": {
+   "teaches": "Evidence grade and regulatory status are separate checks: an approval says nothing about the grade for an unapproved use, and a mechanism never raises a grade.",
+   "alt": "A token travels a path through two different checkpoints in turn: a lens over trial evidence, then a gate bearing a blank seal."
+  },
+  "m7-p07": {
+   "teaches": "US compounding: 503A is patient-specific, with a strict order for bulk substances (monograph, approved-drug component, bulks list); 503B facilities are GMP-inspected; both stay unapproved.",
+   "alt": "A small counter preparing one item for one waiting person, beside a larger facility producing trays of identical items under an inspecting lens.",
+   "regenerated": "1 time — three human figures added (contract: no people in illustrations)"
+  },
+  "m7-p10": {
+   "teaches": "A certificate of analysis is the supplier's report on one lot — identity by mass spectrometry, purity by HPLC — and cannot prove origin, storage or sterility.",
+   "alt": "A blank certificate linked to one tray of identical items, a lens revealing the molecule inside one of them, and a loose item whose link back to the tray is broken."
+  },
+  "m7-p13": {
+   "teaches": "'Research use only' is a US shipping permission for laboratory research; FDA reads intended use from claims and sale; it never makes a route to patients.",
+   "alt": "A path from a laboratory bench ends at a closed gate with a blank tag hanging on it, before a clinic room with an empty couch."
+  },
+  "m7-p22": {
+   "teaches": "In the UK, MHRA judges medicine status from claims, form and use; an unlicensed medicine may not be sold or advertised, and prescription-only medicines are never advertised to the public.",
+   "alt": "A magnifying lens examines a plain phone screen showing a generic post, beside a megaphone blocked by a bar.",
+   "regenerated": "1 time — Instagram-style heart/comment/share icons on the phone (platform UI)"
+  },
+  "m7-p15": {
+   "teaches": "Off-label means an approved drug used outside its labelling; a never-approved peptide has no label to depart from; compounded products are also unapproved.",
+   "alt": "On the left, a tablet with its leaflet steps just outside the leaflet's boundary; on the right, a tablet stands alone with no leaflet and no boundary."
+  },
+  "m7-p17": {
+   "teaches": "Fictional case: 'off-label' BPC-157 — never approved, no 503A route; a certificate covers one lot's identity and purity, never sterility, storage or legality.",
+   "alt": "A single item waits before a closed gate; a blank certificate lights only the item itself, leaving a thermometer and a sealed pouch outside its light.",
+   "regenerated": "1 time — large dark-grey shadow panel with a hard edge (breaks the light paper register)"
+  }
+ }
+}

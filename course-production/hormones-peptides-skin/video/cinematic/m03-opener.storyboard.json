@@ -1,0 +1,314 @@
+{
+  "format": "cinematic/1",
+  "id": "m03-opener",
+  "title": "Module 03 opener — Hormones and Peptides for Skin",
+  "note": "Module opener in the cinematic lane (docs/motion-contract.md § 10b), same look and rules as the Module 1 opener. Script assembled only from approved text (sources below); presenter lines pass the course script review; draft media until the media preview.",
+  "script": {
+    "text": "Facial shape depends on fat as much as on collagen. In three lessons you will separate what is known about the skin's own fat, sugar damage to the dermis, weight-loss drugs and the gut from what is still mechanism, marketing or an open question. Most people picture skin fat as one layer under the dermis. There is a second, thinner layer inside the reticular dermis itself, called dermal white adipose tissue. In mice, this layer expands rapidly after a Staphylococcus aureus infection, and its new fat cells release cathelicidin, an antimicrobial peptide. Older mice lose much of that capacity, through TGF-beta signalling. Human skin arranges this fat differently, in small cones around hair follicles, and human acne lesions contain preadipocytes around the follicle that make cathelicidin. What the layer contributes to human skin ageing has not yet been measured. So hold two things apart when you hear about skin fat. The defence story is strong in mice and emerging in people. The ageing story in people is still a proposal.",
+    "sources": [
+      "m3-p01 body, sentences 1, 2",
+      "m3-p02 audioScript, sentences 1, 2, 3, 4, 5, 6, 7, 8, 9"
+    ],
+    "locale": "en"
+  },
+  "voice": {
+    "provider": "gemini-tts",
+    "voice_id": "en-gb-tutor-1",
+    "name": "Gemini 3.8 TTS · en-gb-tutor-1 (Omar's pick 2026-09-25)",
+    "style": "Warm, clear and precise clinical educator speaking to physicians. Natural, unhurried pace. Pronounce every medical and chemical term carefully and confidently."
+  },
+  "presenter": {
+    "look": "2daeb4c1c74e491c89314a4e7dcd4879",
+    "engine": "avatar_v",
+    "resolution": "4k",
+    "name": "HeyGen stock avatar \"Iris\" (licensed)",
+    "disclosure": {
+      "en": "Presented by a digital avatar (AI-generated presenter and voice)."
+    }
+  },
+  "music": {
+    "src": "m03-score.mp3",
+    "lufs": -22
+  },
+  "chrome": {
+    "kicker": "MODULE 03 · FAT, INCRETINS AND THE AGEING FACE"
+  },
+  "lead": 0.12,
+  "assets": [
+    {
+      "src": "m3-fat-layers.png",
+      "kind": "image",
+      "candidates": 2,
+      "prompt": "Accurate scientific medical illustration: a vertical cross-section block of human skin seen slightly from the side like a textbook plate, centred with generous empty margins. From top to bottom: the epidermis, the papillary and reticular dermis with wavy collagen bundles, and a thick subcutaneous fat layer of rounded yellow fat lobules. Two hair follicles run down through the dermis, and around the lower part of each follicle sits a small cone of fat cells. Inside the lowest part of the reticular dermis runs a distinct thin band of fat cells, separate from the subcutaneous fat below it."
+    },
+    {
+      "src": "m3-defence.png",
+      "kind": "image",
+      "candidates": 2,
+      "prompt": "Accurate scientific medical illustration: a close-up round vignette of the lower dermis during a skin infection, centred with generous empty margins. On one side, grape-like clusters of small round bacteria (Staphylococcus aureus). Beside them, a group of newly formed small fat cells, each with a single pale lipid droplet, releases a haze of tiny violet antimicrobial peptide molecules toward the bacteria. Collagen fibres in the background."
+    },
+    {
+      "src": "m03-score.mp3",
+      "kind": "music",
+      "prompt": "Instrumental underscore for a 80-second medical education film opener about fat in and under the skin: calm, precise and modern; soft felt piano motif over warm analogue synth pads, a light pulse at 96 BPM entering after 10 seconds, gentle build to a lift two thirds of the way through, resolving softly at the end; documentary feel, same palette as the series, no vocals, no heavy drums, leave space for narration."
+    }
+  ],
+  "states": [
+    {
+      "id": "intro",
+      "shape": {
+        "kind": "frame",
+        "fill": "ink"
+      },
+      "content": {
+        "video": {
+          "presenter": {
+            "from": "Facial shape depends",
+            "to": "on collagen"
+          },
+          "focus": [
+            0.5,
+            0.36
+          ],
+          "zoom": [
+            1.0,
+            1.07
+          ]
+        }
+      },
+      "kinetic": [
+        {
+          "on": "on fat",
+          "text": "Fat"
+        },
+        {
+          "on": "as much as on collagen",
+          "text": "as much as collagen"
+        }
+      ],
+      "at": 0
+    },
+    {
+      "id": "lessons",
+      "on": "In three lessons",
+      "shape": {
+        "kind": "panel",
+        "fill": "card"
+      },
+      "list": {
+        "kicker": "Three lessons",
+        "rows": [
+          {
+            "label": "The skin's own fat",
+            "marks": 0
+          },
+          {
+            "label": "Sugar damage to the dermis",
+            "marks": 0
+          },
+          {
+            "label": "Weight-loss drugs and the gut",
+            "marks": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "l1",
+      "on": "the skin's own fat",
+      "indicator": {
+        "rows": [
+          0,
+          0
+        ],
+        "tag": null
+      }
+    },
+    {
+      "id": "l2",
+      "on": "sugar damage",
+      "indicator": {
+        "rows": [
+          1,
+          1
+        ],
+        "tag": null
+      }
+    },
+    {
+      "id": "l3",
+      "on": "weight-loss drugs",
+      "indicator": {
+        "rows": [
+          2,
+          2
+        ],
+        "tag": null
+      }
+    },
+    {
+      "id": "l4",
+      "on": "what is still mechanism",
+      "indicator": {
+        "rows": [
+          0,
+          2
+        ],
+        "tag": null
+      }
+    },
+    {
+      "id": "layers",
+      "on": "Most people picture",
+      "shape": {
+        "kind": "window",
+        "fill": "paper",
+        "h": 1280
+      },
+      "kinetic": null,
+      "content": {
+        "image": {
+          "src": "m3-fat-layers.png",
+          "regions": {
+            "subcut": "the thick bottom layer of yellow fat lobules under the dermis",
+            "dwat": "the thin band of fat cells inside the lowest part of the dermis, above the thick fat layer",
+            "cone": "the small cone of fat cells around the lower part of one hair follicle"
+          },
+          "focus": [
+            {
+              "on": "one layer under the dermis",
+              "region": "subcut",
+              "label": "Subcutaneous fat"
+            },
+            {
+              "on": "a second, thinner layer",
+              "region": "dwat",
+              "label": "A second, thinner layer",
+              "zoom": 1.3
+            },
+            {
+              "on": "dermal white adipose tissue",
+              "region": "dwat",
+              "label": "Dermal white adipose tissue",
+              "zoom": 1.45
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "defence",
+      "on": "In mice, this layer",
+      "shape": {
+        "kind": "window",
+        "fill": "paper",
+        "h": 1100
+      },
+      "kinetic": null,
+      "content": {
+        "image": {
+          "src": "m3-defence.png",
+          "regions": {
+            "bacteria": "the grape-like clusters of small round bacteria",
+            "fat": "the group of small fat cells releasing violet molecules"
+          },
+          "focus": [
+            {
+              "on": "Staphylococcus aureus",
+              "region": "bacteria",
+              "label": "S. aureus (mice)"
+            },
+            {
+              "on": "release cathelicidin",
+              "region": "fat",
+              "label": "Cathelicidin"
+            },
+            {
+              "on": "Older mice lose",
+              "region": "fat",
+              "label": "Lost with age · TGF-β"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "cones",
+      "on": "Human skin arranges",
+      "shape": {
+        "kind": "window",
+        "fill": "paper",
+        "h": 1280
+      },
+      "kinetic": null,
+      "content": {
+        "image": {
+          "src": "m3-fat-layers.png",
+          "regions": {
+            "subcut": "the thick bottom layer of yellow fat lobules under the dermis",
+            "dwat": "the thin band of fat cells inside the lowest part of the dermis, above the thick fat layer",
+            "cone": "the small cone of fat cells around the lower part of one hair follicle"
+          },
+          "focus": [
+            {
+              "on": "small cones around hair follicles",
+              "region": "cone",
+              "label": "Cones around follicles (human)",
+              "zoom": 1.4
+            },
+            {
+              "on": "human acne lesions",
+              "region": "cone",
+              "label": "Acne: preadipocytes · cathelicidin",
+              "zoom": 1.4
+            },
+            {
+              "on": "What the layer contributes",
+              "region": "dwat",
+              "label": "Its part in human ageing?",
+              "zoom": 1.2
+            },
+            {
+              "on": "has not yet been measured",
+              "zoom": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "close",
+      "shape": {
+        "kind": "frame",
+        "fill": "ink"
+      },
+      "content": {
+        "video": {
+          "presenter": {
+            "from": "So hold two things apart",
+            "to": "still a proposal"
+          },
+          "focus": [
+            0.5,
+            0.36
+          ],
+          "zoom": [
+            1.04,
+            1.1
+          ]
+        }
+      },
+      "kinetic": [
+        {
+          "on": "defence story",
+          "text": "Defence: strong in mice"
+        },
+        {
+          "on": "ageing story",
+          "text": "Ageing: a proposal"
+        }
+      ],
+      "on": "So hold two things apart"
+    }
+  ]
+}

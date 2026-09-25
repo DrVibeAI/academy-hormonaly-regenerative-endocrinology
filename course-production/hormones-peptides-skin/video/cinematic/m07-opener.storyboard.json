@@ -1,0 +1,414 @@
+{
+  "format": "cinematic/1",
+  "id": "m07-opener",
+  "title": "Module 07 opener — Hormones and Peptides for Skin",
+  "note": "Module opener in the cinematic lane (docs/motion-contract.md § 10b), same look and rules as the Module 1 opener. Script assembled only from approved text (sources below); presenter lines pass the course script review; draft media until the media preview.",
+  "script": {
+    "text": "This last module turns the course into three habits. You will rate the certainty behind a claim with GRADE, read a compounding status and a certificate of analysis for what they do and do not prove, and write the consent and chart note that an unapproved product needs. Every claim you hear about a skin peptide carries a hidden question. How sure can we be? GRADE answers it with four levels of certainty, from high to very low. The rating belongs to a body of evidence for one outcome, such as wrinkle depth at twelve weeks, and never to a single study or to the molecule itself. Randomized trials start high and observational studies start low. From there, certainty drops for five reasons you can name, which are risk of bias, inconsistency between trials, indirectness, imprecision, and suspected publication bias. Both Hormonaly guides print a letter from A to D beside each use. Read those letters as the same four levels, adapted. They rate the evidence for that use, and they say nothing about whether a product is legal.",
+    "sources": [
+      "m7-p01 body, sentences 1, 2",
+      "m7-p02 audioScript, sentences 1, 2, 3, 4, 5, 6, 8, 9, 10"
+    ],
+    "locale": "en"
+  },
+  "voice": {
+    "provider": "gemini-tts",
+    "voice_id": "en-gb-tutor-1",
+    "name": "Gemini 3.8 TTS · en-gb-tutor-1 (Omar's pick 2026-09-25)",
+    "style": "Warm, clear and precise clinical educator speaking to physicians. Natural, unhurried pace. Pronounce every medical and chemical term carefully and confidently."
+  },
+  "presenter": {
+    "look": "2daeb4c1c74e491c89314a4e7dcd4879",
+    "engine": "avatar_v",
+    "resolution": "4k",
+    "name": "HeyGen stock avatar \"Iris\" (licensed)",
+    "disclosure": {
+      "en": "Presented by a digital avatar (AI-generated presenter and voice)."
+    }
+  },
+  "music": {
+    "src": "m07-score.mp3",
+    "lufs": -22
+  },
+  "chrome": {
+    "kicker": "MODULE 07 · EVIDENCE, REGULATION AND COMPLIANCE"
+  },
+  "lead": 0.12,
+  "assets": [
+    {
+      "src": "m07-score.mp3",
+      "kind": "music",
+      "prompt": "Instrumental underscore for a 85-second medical education film opener about careful clinical reasoning, the series finale: calm, precise and modern; soft felt piano motif over warm analogue synth pads, a light pulse at 96 BPM entering after 10 seconds, gentle build to a lift two thirds of the way through, resolving softly at the end; documentary feel, same palette as the series, no vocals, no heavy drums, leave space for narration."
+    }
+  ],
+  "states": [
+    {
+      "id": "intro",
+      "shape": {
+        "kind": "frame",
+        "fill": "ink"
+      },
+      "content": {
+        "video": {
+          "presenter": {
+            "from": "This last module",
+            "to": "three habits"
+          },
+          "focus": [
+            0.5,
+            0.36
+          ],
+          "zoom": [
+            1.0,
+            1.07
+          ]
+        }
+      },
+      "kinetic": [
+        {
+          "on": "three habits",
+          "text": "Three habits"
+        }
+      ],
+      "at": 0
+    },
+    {
+      "id": "lessons",
+      "on": "You will rate",
+      "shape": {
+        "kind": "panel",
+        "fill": "card"
+      },
+      "list": {
+        "kicker": "Three habits",
+        "rows": [
+          {
+            "label": "Grade the certainty",
+            "marks": 0
+          },
+          {
+            "label": "Read the status and the certificate",
+            "marks": 0
+          },
+          {
+            "label": "Write the consent and chart note",
+            "marks": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "l1",
+      "on": "rate the certainty",
+      "indicator": {
+        "rows": [
+          0,
+          0
+        ],
+        "tag": null
+      }
+    },
+    {
+      "id": "l2",
+      "on": "read a compounding status",
+      "indicator": {
+        "rows": [
+          1,
+          1
+        ],
+        "tag": null
+      }
+    },
+    {
+      "id": "coa",
+      "on": "certificate of analysis",
+      "indicator": {
+        "rows": [
+          1,
+          1
+        ],
+        "tag": null
+      }
+    },
+    {
+      "id": "l3",
+      "on": "write the consent",
+      "indicator": {
+        "rows": [
+          2,
+          2
+        ],
+        "tag": null
+      }
+    },
+    {
+      "id": "unapproved",
+      "on": "an unapproved product needs",
+      "indicator": {
+        "rows": [
+          2,
+          2
+        ],
+        "tag": null
+      }
+    },
+    {
+      "id": "hidden",
+      "on": "Every claim you hear",
+      "shape": {
+        "kind": "card",
+        "fill": "card"
+      },
+      "content": {
+        "kicker": "Every claim about a skin peptide",
+        "display": "carries a hidden question"
+      }
+    },
+    {
+      "id": "sure",
+      "on": "How sure",
+      "shape": {
+        "kind": "card",
+        "fill": "card"
+      },
+      "content": {
+        "kicker": "The hidden question",
+        "display": "How sure can we be?"
+      }
+    },
+    {
+      "id": "levels",
+      "on": "four levels",
+      "shape": {
+        "kind": "panel",
+        "fill": "card"
+      },
+      "list": {
+        "kicker": "GRADE · certainty of evidence",
+        "rows": [
+          {
+            "label": "High",
+            "marks": 4
+          },
+          {
+            "label": "Moderate",
+            "marks": 3
+          },
+          {
+            "label": "Low",
+            "marks": 2
+          },
+          {
+            "label": "Very low",
+            "marks": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "high",
+      "on": "from high",
+      "indicator": {
+        "rows": [
+          0,
+          0
+        ],
+        "tag": null
+      }
+    },
+    {
+      "id": "low",
+      "on": "to very low",
+      "indicator": {
+        "rows": [
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "id": "outcome",
+      "on": "The rating belongs",
+      "indicator": false,
+      "chips": [
+        {
+          "id": "outcome",
+          "place": "above",
+          "text": "One outcome · wrinkle depth at 12 weeks",
+          "on": "wrinkle depth"
+        }
+      ]
+    },
+    {
+      "id": "not",
+      "on": "never to a single study",
+      "chips": [
+        {
+          "id": "study",
+          "place": "below",
+          "text": "a single study",
+          "strike": true
+        },
+        {
+          "id": "molecule",
+          "place": "below",
+          "text": "the molecule itself",
+          "strike": true,
+          "on": "the molecule"
+        }
+      ]
+    },
+    {
+      "id": "rct",
+      "on": "Randomized trials",
+      "indicator": {
+        "rows": [
+          0,
+          0
+        ],
+        "tag": "Randomized trials"
+      },
+      "drop": [
+        "outcome",
+        "study",
+        "molecule"
+      ]
+    },
+    {
+      "id": "obs",
+      "on": "observational studies",
+      "indicator": {
+        "rows": [
+          2,
+          2
+        ],
+        "tag": "Observational studies"
+      }
+    },
+    {
+      "id": "startlow",
+      "on": "start low",
+      "indicator": {
+        "rows": [
+          2,
+          2
+        ],
+        "tag": "…start low"
+      }
+    },
+    {
+      "id": "drops",
+      "on": "certainty drops",
+      "indicator": {
+        "rows": [
+          3,
+          3
+        ],
+        "tag": "Rated down"
+      },
+      "chips": [
+        {
+          "id": "r1",
+          "place": "below",
+          "icon": "down",
+          "text": "Risk of bias",
+          "on": "risk of bias"
+        },
+        {
+          "id": "r2",
+          "place": "below",
+          "icon": "down",
+          "text": "Inconsistency",
+          "on": "inconsistency between"
+        },
+        {
+          "id": "r3",
+          "place": "below",
+          "icon": "down",
+          "text": "Indirectness",
+          "on": "indirectness"
+        },
+        {
+          "id": "r4",
+          "place": "below",
+          "icon": "down",
+          "text": "Imprecision",
+          "on": "imprecision"
+        },
+        {
+          "id": "r5",
+          "place": "below",
+          "icon": "down",
+          "text": "Publication bias",
+          "on": "publication bias"
+        }
+      ]
+    },
+    {
+      "id": "letters",
+      "on": "A to D",
+      "letters": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "indicator": false,
+      "drop": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5"
+      ]
+    },
+    {
+      "id": "same",
+      "on": "same four levels",
+      "chips": [
+        {
+          "id": "same",
+          "place": "above",
+          "text": "The same four levels, adapted"
+        }
+      ]
+    },
+    {
+      "id": "close",
+      "shape": {
+        "kind": "frame",
+        "fill": "ink"
+      },
+      "content": {
+        "video": {
+          "presenter": {
+            "from": "They rate the evidence",
+            "to": "a product is legal"
+          },
+          "focus": [
+            0.5,
+            0.36
+          ],
+          "zoom": [
+            1.04,
+            1.1
+          ]
+        }
+      },
+      "kinetic": [
+        {
+          "on": "for that use",
+          "text": "Evidence for that use"
+        },
+        {
+          "on": "whether a product is legal",
+          "text": "…not whether it is legal"
+        }
+      ],
+      "on": "They rate the evidence",
+      "drop": [
+        "same"
+      ]
+    }
+  ]
+}

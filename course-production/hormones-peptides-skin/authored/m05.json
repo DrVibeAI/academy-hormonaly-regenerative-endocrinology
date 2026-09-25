@@ -1,0 +1,2642 @@
+{
+ "module": "m05",
+ "authoredAt": "2026-09-24",
+ "status": "approved",
+ "unit": {
+  "id": "m05-story",
+  "slug": "m05-story",
+  "type": "story",
+  "title": {
+   "en": "Follicle, pigment and melanocortins · three lessons"
+  },
+  "description": {
+   "en": "Lesson 5.1 The hair follicle as an endocrine mini-organ · Lesson 5.2 Afamelanotide, Melanotan II and the melanocortin receptors · Lesson 5.3 Investigational hair peptides, graded."
+  },
+  "estimatedMinutes": 26,
+  "sortOrder": 1,
+  "isRequired": true,
+  "status": "ai_draft",
+  "tutorContext": "Module 5 teaches the hair follicle and the melanocortin system in four separate registers (mechanism, human evidence, regulatory status, open question). Follicle: ex vivo human scalp follicles run an HPA-like loop (CRH → POMC products → cortisol, with feedback) and a GH/IGF-1-like loop (D, organ culture, Paus group); local DHT miniaturises susceptible follicles (androgenetic alopecia); anagen immune-privilege collapse underlies alopecia areata. Baricitinib: BRAVE-AA1/AA2, 1,200 adults, SALT ≤20 at week 36 in up to 39% on baricitinib vs 3–6% on placebo; FDA-approved 13 Jun 2022 for adults with severe alopecia areata (A). A&RE hair-loss workup: patterned → AGA (topical minoxidil; finasteride in men); diffuse after trigger → telogen effluvium (reassure, ferritin, TSH); patchy smooth ± nail pitting → alopecia areata (dermatology referral, thyroid/autoimmune screen); androgen excess → work-up; ferritin + TSH always; scarring → biopsy; refer severe or rapid AA promptly. Minoxidil (men and women) and finasteride (men): A by RCT meta-analysis (Adil 2017); US: topical minoxidil OTC (approved 1988), finasteride Rx (1997). Melanocortins: skin makes POMC → ACTH, α-MSH, β-endorphin; MC1R pigment, MC2R adrenal, MC3R/MC4R brain (appetite; central sexual effects), MC5R sebum. Afamelanotide: MC1R agonist; two sponsor-funded phase 3 RCTs in EPP (US median 69.4 vs 40.8 pain-free sunlight hours; EU 6.0 vs 0.8); EU authorised 22 Dec 2014 (exceptional circumstances), US 2019; EPP only, manufacturer's implant; US label (Aug 2024) recommends full-body skin examination twice yearly; A for EPP; vitiligo phase 3 has no posted results. Melanotan II: non-selective MC1R/3R/4R/5R agonist, brain-penetrant; only controlled data a 3-man 1996 pilot and a 10-man 1998 ED crossover; guides disagree (Pocket Guide C, A&RE D) — course grades cosmetic use D; case-report harms: darkening/growing and eruptive atypical naevi, melanonychia, ≥5 melanomas all with other risk factors (causation unproven), ischaemic priapism, sympathomimetic toxicity with rhabdomyolysis, PRES; online vials held 43–88% of the label with impurities. Status: approved for no indication; US FDA compounding page (22 Apr 2026) lists it among withdrawn category-2 nominations with safety risks; UK MHRA (17 Apr 2024) injectables are unauthorised medicines, stop immediately; Australia TGA (17 Aug 2026) prescription-only, no ARTG product, not approved for tanning. A&RE: personal or family history of melanoma = absolute contraindication. A patient disclosing use: stop, record product and seller, full skin and nail examination with dermoscopy/baseline photos where available, prompt dermatology referral; never offer afamelanotide as a substitute. PTD-DBM: CXXC5–Dishevelled decoy activating Wnt; one 2017 mouse/tissue study from the developer's group; no human trial published or registered (Sept 2026); D; theoretical off-target Wnt cancer concern untested. Zinc thymulin: zinc-dependent thymic nonapeptide; no indexed human hair study; D. US (14 May 2026): thymulin acetate 503A Category 3; PTD-DBM on no list; neither on the bulks list (21 CFR 216.23). UK (checked 25 Sep 2026): baricitinib licensed for severe AA (NICE TA926 not recommended, Oct 2023); men's minoxidil foam on the General Sales List; finasteride for hair loss private prescription only, MHRA strengthened depression/suicidality/sexual-dysfunction warnings 11 May 2026 (patient card; ask about depression); afamelanotide licensed under exceptional circumstances, specialist porphyria centres, NICE HST27 not recommended (Jul 2023); Melanotan II an unauthorised medicine (MHRA FOI 24/274); a peptide spray made for one patient = unlicensed special, behind any licensed option (MHRA GN14). Never give doses, regimens, reconstitution, sourcing or administration advice; adapt the 'what you do next' to the learner's role (prescriber, clinical staff, advisor) without changing grades or regulatory facts. No CME credit is currently offered.",
+  "tutorKeywords": [
+   "hair loss",
+   "alopecia",
+   "androgenetic alopecia",
+   "alopecia areata",
+   "telogen effluvium",
+   "minoxidil",
+   "finasteride",
+   "baricitinib",
+   "JAK inhibitor",
+   "immune privilege",
+   "melanocortin",
+   "MC1R",
+   "afamelanotide",
+   "Scenesse",
+   "Melanotan II",
+   "tanning injection",
+   "tanning nasal spray",
+   "melanoma",
+   "naevi",
+   "melanonychia",
+   "priapism",
+   "PTD-DBM",
+   "zinc thymulin",
+   "503A",
+   "grade"
+  ]
+ },
+ "lessons": [
+  {
+   "id": "5.1",
+   "title": {
+    "en": "The hair follicle as an endocrine mini-organ"
+   },
+   "blocks": [
+    "m5-p01",
+    "m5-opener",
+    "m5-p02",
+    "m5-p03",
+    "m5-p04",
+    "m5-p05",
+    "m5-p06"
+   ]
+  },
+  {
+   "id": "5.2",
+   "title": {
+    "en": "Melanocortins: approved afamelanotide and gray-market Melanotan II"
+   },
+   "blocks": [
+    "m5-p07",
+    "m5-p08",
+    "m5-p09",
+    "m5-p10",
+    "m5-p11",
+    "m5-p12",
+    "m5-p13"
+   ]
+  },
+  {
+   "id": "5.3",
+   "title": {
+    "en": "Investigational hair peptides and how to grade them"
+   },
+   "blocks": [
+    "m5-p14",
+    "m5-p15",
+    "m5-p16",
+    "m5-p17",
+    "m5-p18",
+    "m5-p19"
+   ]
+  }
+ ],
+ "blocks": [
+  {
+   "id": "m5-p01",
+   "type": "title",
+   "time": "01 / 20",
+   "lead": {
+    "en": "Module 05 · Follicle, pigment and melanocortins"
+   },
+   "title": {
+    "en": "A spray for the scalp, a tan in a vial."
+   },
+   "body": {
+    "en": "Two requests reach aesthetic clinics well ahead of their evidence: a peptide to regrow hair and an injection to tan. In three lessons you will see how the follicle and the pigment system run on the skin's own hormones, why one melanocortin drug is approved while its gray-market cousin is approved nowhere, and how to grade the hair peptides patients bring to you."
+   },
+   "points": [
+    {
+     "en": "5.1 The hair follicle as an endocrine mini-organ"
+    },
+    {
+     "en": "5.2 Afamelanotide, Melanotan II and the melanocortin receptors"
+    },
+    {
+     "en": "5.3 Investigational hair peptides, graded"
+    }
+   ]
+  },
+  {
+   "id": "m5-opener",
+   "type": "video",
+   "lead": {
+    "en": "Module 05 · Opening film"
+   },
+   "title": {
+    "en": "Follicle, pigment and melanocortins"
+   },
+   "assetRefs": [
+    "asset-hps-m05-opener",
+    "asset-hps-m05-opener-poster"
+   ],
+   "citationRefs": [
+    "ito-2005-hair-follicle-hpa",
+    "horesh-2023-hair-follicle-somatotropic",
+    "bertolini-2020-hair-follicle-immune-privilege",
+    "adil-2017-aga-treatments-meta",
+    "hannah-shmouni-2026-are"
+   ],
+   "sourceNote": "Ito 2005 · Horesh 2023 · Bertolini 2020 · Aesthetic & Regenerative Endocrinology, ch. 6",
+   "metadata": {
+    "videoMode": "player",
+    "captionsBurnedIn": true,
+    "videoTranscript": {
+     "en": "Two requests reach aesthetic clinics well ahead of their evidence: a peptide to regrow hair and an injection to tan. In three lessons you will see how the follicle and the pigment system run on the skin's own hormones, why one melanocortin drug is approved while its gray-market cousin is approved nowhere, and how to grade the hair peptides patients bring to you. Each hair follicle behaves like a small gland. When researchers keep human scalp follicles alive in culture, the follicles answer corticotropin-releasing hormone the way the pituitary and adrenal glands do. They make ACTH and alpha-MSH, they secrete cortisol, and cortisol-like signals feed back to switch the stimulus down. On the scalp, an enzyme called five-alpha-reductase turns testosterone into dihydrotestosterone, and in genetically susceptible follicles that hormone drives the gradual shrinking behind pattern hair loss. Most of this biology comes from tissue kept alive outside the body, so hold it as mechanism, a reason something might matter in patients."
+    },
+    "script": {
+     "sources": [
+      "m5-p01 body, sentences 1, 2",
+      "m5-p02 audioScript, sentences 1, 2, 3, 5, 8"
+     ],
+     "rule": "verbatim approved sentences only"
+    }
+   },
+   "time": "02 / 20"
+  },
+  {
+   "id": "m5-p02",
+   "type": "audio",
+   "time": "03 / 20",
+   "lead": {
+    "en": "Mechanism"
+   },
+   "title": {
+    "en": "A follicle that runs its own hormones."
+   },
+   "body": {
+    "en": "Human scalp hair follicles kept alive in the laboratory answer corticotropin-releasing hormone by making ACTH and α-MSH and secreting cortisol, with a feedback loop like the adrenal axis. They also run a growth hormone and IGF-1 loop of their own. Locally made dihydrotestosterone shrinks genetically susceptible scalp follicles, the process behind pattern hair loss. Growing follicles are shielded from immune attack, and alopecia areata begins when that shield fails."
+   },
+   "points": [
+    {
+     "en": "Local stress axis: CRH → ACTH → cortisol, with feedback"
+    },
+    {
+     "en": "Local androgen switch: testosterone → DHT in the scalp"
+    },
+    {
+     "en": "Immune privilege: its collapse drives alopecia areata"
+    }
+   ],
+   "citationRefs": [
+    "ito-2005-hair-follicle-hpa",
+    "horesh-2023-hair-follicle-somatotropic",
+    "bertolini-2020-hair-follicle-immune-privilege",
+    "adil-2017-aga-treatments-meta",
+    "hannah-shmouni-2026-are"
+   ],
+   "sourceNote": "Ito 2005 · Horesh 2023 · Bertolini 2020 · Aesthetic & Regenerative Endocrinology, ch. 6",
+   "audioBeats": [
+    {
+     "title": {
+      "en": "Its own stress axis"
+     },
+     "body": {
+      "en": "Organ-cultured human scalp follicles respond to CRH by making POMC products and secreting cortisol, and hydrocortisone in turn damps follicular CRH, the adrenal axis in miniature."
+     }
+    },
+    {
+     "title": {
+      "en": "Its own growth and androgen signals"
+     },
+     "body": {
+      "en": "Outside the body, follicles also run a GH and IGF-1 loop. In susceptible scalp follicles, locally made DHT drives the miniaturisation of pattern hair loss."
+     }
+    },
+    {
+     "title": {
+      "en": "Hidden from the immune system"
+     },
+     "body": {
+      "en": "Growing follicles show little antigen to immune cells. When that privilege collapses, T cells and natural killer cells attack the bulb and alopecia areata follows."
+     }
+    }
+   ],
+   "metadata": {
+    "audioScript": {
+     "en": "Each hair follicle behaves like a small gland. When researchers keep human scalp follicles alive in culture, the follicles answer corticotropin-releasing hormone the way the pituitary and adrenal glands do. They make ACTH and alpha-MSH, they secrete cortisol, and cortisol-like signals feed back to switch the stimulus down. The same follicles run a growth hormone and IGF-1 loop of their own. On the scalp, an enzyme called five-alpha-reductase turns testosterone into dihydrotestosterone, and in genetically susceptible follicles that hormone drives the gradual shrinking behind pattern hair loss. Growing follicles also hide from the immune system. When that protection collapses, immune cells attack the hair bulb, and the result is alopecia areata. Most of this biology comes from tissue kept alive outside the body, so hold it as mechanism, a reason something might matter in patients."
+    }
+   },
+   "imageBrief": {
+    "prompt": "A single growing hair follicle in cross-section, drawn large: the hair shaft rising to the skin surface, a small sebaceous gland beside the upper follicle, and the rounded bulb at the base cupping the dermal papilla. Around the bulb runs a closed circular loop of three curved violet arrows. The bulb is wrapped in a faint protective shell, and a few small round immune cells wait outside the shell without entering. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m5-p02-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m5-p02-img",
+    "alt": {
+     "en": "A hair follicle with a closed feedback loop drawn around its bulb, which sits inside a faint protective shell that keeps nearby immune cells out."
+    },
+    "treatment": "cover",
+    "position": "top"
+   }
+  },
+  {
+   "id": "m5-p03",
+   "type": "stat",
+   "time": "04 / 20",
+   "lead": {
+    "en": "Human evidence"
+   },
+   "title": {
+    "en": "Two trials, 1,200 adults, one approval."
+   },
+   "body": {
+    "en": "When immune privilege fails, the attack depends on cytokine signals that JAK inhibitors interrupt. Two randomized phase 3 trials tested oral baricitinib in 1,200 adults with severe alopecia areata. In the US, FDA approved baricitinib for adults with severe alopecia areata on 13 June 2022. The Aesthetic & Regenerative Endocrinology guide grades it A."
+   },
+   "citationRefs": [
+    "king-2022-baricitinib-brave-aa",
+    "fda-olumiant-aa-approval-2022",
+    "bertolini-2020-hair-follicle-immune-privilege",
+    "hannah-shmouni-2026-are"
+   ],
+   "sourceNote": "King 2022 (BRAVE-AA1 and -AA2) · FDA approval letter, 13 Jun 2022",
+   "stat": {
+    "figure": "1,200",
+    "label": {
+     "en": "adults with severe alopecia areata in the two phase 3 trials of baricitinib (2022)"
+    },
+    "detail": {
+     "en": "At 36 weeks, up to 39% of patients on baricitinib had at least 80% of their scalp hair, against 3–6% on placebo"
+    },
+    "means": {
+     "en": "Interrupting the immune signalling behind collapsed privilege regrows hair in severe alopecia areata. That is approval-grade evidence (A), and it shows what real follicle evidence looks like."
+    },
+    "doesNot": {
+     "en": "It says nothing about pattern hair loss, cosmetic thinning or any peptide. Both trials were funded by the manufacturer, and the authors called for longer trials."
+    }
+   },
+   "metadata": {
+    "variants": {
+     "jurisdiction": {
+      "GB": {
+       "text": {
+        "en": "In the UK, baricitinib is licensed for severe alopecia areata in adults, and NICE did not recommend it for NHS use in October 2023, on cost-effectiveness."
+       },
+       "citationRefs": [
+        "emc-smpc-olumiant-uk",
+        "nice-ta926-baricitinib-aa"
+       ]
+      },
+      "EU": {
+       "text": {
+        "en": "In the EU, baricitinib (Olumiant) has been centrally authorised since 13 February 2017; its indications include severe alopecia areata in adults and adolescents aged 12 and over, and it is prescription-only, started by a doctor experienced in the condition (EMA). Since EMA's January 2023 review, JAK inhibitors including Olumiant should be used in people aged 65 or over, at raised cardiovascular or cancer risk, or long-term smokers only if no suitable alternative exists, and this applies to alopecia areata."
+       },
+       "citationRefs": [
+        "eu-ema-epar-olumiant",
+        "eu-ema-ref-jaki-2023"
+       ]
+      },
+      "PT": {
+       "text": {
+        "en": "In Portugal, Olumiant (baricitinib) is classified as a restricted-prescription medicine (MSRM restrita - Alínea a), according to INFARMED's Infomed register on 25 September 2026."
+       },
+       "citationRefs": [
+        "pt-infomed",
+        "pt-dl176-2006"
+       ]
+      },
+      "BR": {
+       "text": {
+        "en": "In Brazil, baricitinib (Olumiant) has been registered by ANVISA since 26 November 2018, and its current label includes severe alopecia areata in adults and adolescents aged 12 or over weighing at least 30 kg (checked 25 September 2026)."
+       },
+       "citationRefs": [
+        "br-label-olumiant",
+        "br-anvisa-register-opendata"
+       ]
+      },
+      "AE": {
+       "text": {
+        "en": "In the UAE, the Emirates Drug Establishment (EDE) has held medicines registration since Federal Decree-Law 28/2023, and the medicines law is Federal Decree-Law 38 of 2024. The EDE register lists Olumiant (baricitinib) tablets, registered since 8 June 2017, as Prescription Only and files them under rheumatic diseases; it does not show whether alopecia areata is an approved UAE indication (25 September 2026)."
+       },
+       "citationRefs": [
+        "ae-fdl-28-2023",
+        "ae-fdl-38-2024",
+        "ae-ede-reg-olumiant"
+       ]
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "m5-p04",
+   "type": "tool",
+   "time": "05 / 20",
+   "lead": {
+    "en": "Worked tool"
+   },
+   "title": {
+    "en": "Four questions before any product."
+   },
+   "body": {
+    "en": "The Aesthetic & Regenerative Endocrinology guide's first-pass hair-loss workup asks four questions in order. Each yes points to a different condition and a different next step."
+   },
+   "citationRefs": [
+    "hannah-shmouni-2026-are",
+    "adil-2017-aga-treatments-meta",
+    "king-2022-baricitinib-brave-aa"
+   ],
+   "sourceNote": "Aesthetic & Regenerative Endocrinology · hair-loss workup algorithm and ch. 5 referral list",
+   "tool": {
+    "items": [
+     {
+      "label": {
+       "en": "Patterned thinning? (crown, vertex, frontal recession)"
+      },
+      "value": {
+       "en": "Androgenetic alopecia"
+      },
+      "note": {
+       "en": "Topical minoxidil; finasteride in men; treat coexisting iron or thyroid problems"
+      }
+     },
+     {
+      "label": {
+       "en": "Diffuse shedding after a trigger? (illness, delivery, diet, a drug)"
+      },
+      "value": {
+       "en": "Telogen effluvium"
+      },
+      "note": {
+       "en": "Remove the trigger, reassure, recheck ferritin and TSH"
+      }
+     },
+     {
+      "label": {
+       "en": "Patchy, smooth loss? (with or without nail pitting)"
+      },
+      "value": {
+       "en": "Alopecia areata"
+      },
+      "note": {
+       "en": "Dermatology referral; screen for thyroid and autoimmune disease"
+      }
+     },
+     {
+      "label": {
+       "en": "Signs of androgen excess? (hirsutism, acne, irregular periods)"
+      },
+      "value": {
+       "en": "Hyperandrogenism work-up"
+      },
+      "note": {
+       "en": "Follow the guide's acne and androgen pathway"
+      }
+     },
+     {
+      "label": {
+       "en": "In every patient"
+      },
+      "value": {
+       "en": "Ferritin and TSH"
+      },
+      "note": {
+       "en": "Add androgens if there are virilising signs; a scarring pattern needs a biopsy"
+      }
+     }
+    ],
+    "callout": {
+     "en": "Refer severe or rapidly progressive alopecia areata promptly."
+    }
+   },
+   "interaction": {
+    "kind": "quickfire",
+    "title": {
+     "en": "Which pattern is it?"
+    },
+    "prompt": {
+     "en": "One fictional patient at a time: where does the workup point?"
+    },
+    "labels": [
+     {
+      "value": "aga",
+      "label": {
+       "en": "Androgenetic pattern"
+      },
+      "tone": "neutral"
+     },
+     {
+      "value": "te",
+      "label": {
+       "en": "Telogen effluvium"
+      },
+      "tone": "good"
+     },
+     {
+      "value": "aa",
+      "label": {
+       "en": "Alopecia areata"
+      },
+      "tone": "bad"
+     }
+    ],
+    "items": [
+     {
+      "id": "crown-man",
+      "label": {
+       "en": "Man, 38: a thinning crown and a receding hairline over five years"
+      },
+      "answer": "aga",
+      "why": {
+       "en": "Patterned thinning. The guide's first line is topical minoxidil, with finasteride as an option for men; check ferritin and TSH and treat any iron or thyroid problem."
+      }
+     },
+     {
+      "id": "postpartum",
+      "label": {
+       "en": "Woman, 31: handfuls of hair in the shower three months after giving birth"
+      },
+      "answer": "te",
+      "why": {
+       "en": "Diffuse shedding after a trigger. Reassure, and recheck ferritin and TSH."
+      }
+     },
+     {
+      "id": "beard-patch",
+      "label": {
+       "en": "Man, 26: a smooth, round bald patch in the beard, and pitted nails"
+      },
+      "answer": "aa",
+      "why": {
+       "en": "Patchy smooth loss with nail pitting. Refer to dermatology and screen for thyroid and autoimmune disease."
+      }
+     },
+     {
+      "id": "wide-part",
+      "label": {
+       "en": "Woman, 55: a slowly widening central part, no shedding episode"
+      },
+      "answer": "aga",
+      "why": {
+       "en": "Patterned thinning in a woman. Topical minoxidil has randomized-trial support in women; check ferritin and TSH, and androgens if there are virilising signs."
+      }
+     },
+     {
+      "id": "crash-diet",
+      "label": {
+       "en": "Man, 45: diffuse shedding two months after a rapid, very low-calorie diet"
+      },
+      "answer": "te",
+      "why": {
+       "en": "A dietary trigger. Address the diet, reassure, and check ferritin and TSH."
+      }
+     },
+     {
+      "id": "spreading",
+      "label": {
+       "en": "Woman, 40: several patches that have spread across most of the scalp within weeks"
+      },
+      "answer": "aa",
+      "why": {
+       "en": "Severe or rapidly progressive alopecia areata. The guide asks for prompt referral; JAK inhibitors are specialist treatment."
+      }
+     }
+    ],
+    "done": {
+     "en": "Six placed. The workup, with ferritin and TSH, comes before any product, peptide or otherwise."
+    },
+    "citationRefs": [
+     "hannah-shmouni-2026-are",
+     "adil-2017-aga-treatments-meta",
+     "bertolini-2020-hair-follicle-immune-privilege",
+     "king-2022-baricitinib-brave-aa"
+    ],
+    "source": "authored:2026-09-24 from Aesthetic & Regenerative Endocrinology hair-loss workup (p. 93) + ch. 5 referral list"
+   }
+  },
+  {
+   "id": "m5-p05",
+   "type": "audio",
+   "time": "06 / 20",
+   "lead": {
+    "en": "What changes in practice"
+   },
+   "title": {
+    "en": "Work up the hair loss before anyone mentions a peptide."
+   },
+   "body": {
+    "en": "Pattern, trigger, patches and androgens decide the treatment. Pooled randomized trials support topical minoxidil in men and women and finasteride in men. In the US, as of September 2026, topical minoxidil is FDA-approved and sold over the counter, finasteride for pattern hair loss is a prescription drug, and baricitinib is approved for adults with severe alopecia areata."
+   },
+   "points": [
+    {
+     "en": "Workup first: ferritin and TSH in everyone"
+    },
+    {
+     "en": "Approved options exist, with A-grade evidence"
+    },
+    {
+     "en": "Severe or fast-spreading alopecia areata goes to dermatology"
+    }
+   ],
+   "citationRefs": [
+    "hannah-shmouni-2026-are",
+    "adil-2017-aga-treatments-meta",
+    "fda-drugsatfda-rogaine-019501",
+    "fda-drugsatfda-propecia-020788",
+    "fda-olumiant-aa-approval-2022"
+   ],
+   "sourceNote": "Aesthetic & Regenerative Endocrinology · Adil 2017 · Drugs@FDA (checked 24 Sep 2026) · FDA approval letter 2022",
+   "audioBeats": [
+    {
+     "title": {
+      "en": "Diagnose first"
+     },
+     "body": {
+      "en": "Pattern, trigger, patches and signs of androgen excess sort most hair loss. Ferritin and TSH are checked in everyone, and a scarring pattern goes to biopsy."
+     }
+    },
+    {
+     "title": {
+      "en": "The approved options"
+     },
+     "body": {
+      "en": "Topical minoxidil in men and women and finasteride in men have pooled randomized-trial support (A). In the US minoxidil is sold over the counter and finasteride needs a prescription."
+     }
+    },
+    {
+     "title": {
+      "en": "When to refer"
+     },
+     "body": {
+      "en": "Severe or fast-spreading alopecia areata goes to dermatology, where a JAK inhibitor is an approved option for adults."
+     }
+    }
+   ],
+   "metadata": {
+    "audioScript": {
+     "en": "Most requests for a hair peptide skip the diagnosis. Start with the pattern, ask about a trigger, look for patches and nail pitting, and look for signs of androgen excess. Check ferritin and thyroid function every time, and send a scarring pattern for biopsy. The approved options already carry strong evidence. Pooled randomized trials support topical minoxidil in men and women and finasteride in men. In the United States minoxidil is sold over the counter, while finasteride for hair loss needs a prescription. Severe or fast-spreading alopecia areata belongs with a dermatologist, where a JAK inhibitor is an approved option for adults. Whatever your role, the workup comes before the product."
+    },
+    "variants": {
+     "audienceLevel": {
+      "prescriber": {
+       "en": "Complete the workup and record the pattern before prescribing. Offer the approved options with their grades, refer severe or rapidly progressive alopecia areata, and document any investigational product the patient raises and what you advised. In the UK, before prescribing finasteride, ask about any history of depression, give the patient card, and review mood and sexual side effects."
+      },
+      "clinical-staff": {
+       "en": "Note the pattern, the timeline and any recent trigger, photograph the scalp with consent if your setting allows, and pass it to the prescriber. Patchy or fast-spreading loss needs prompt escalation."
+      },
+      "advisor": {
+       "en": "Explain what the approved options are and what their evidence shows. A patient with new, patchy, scarring or fast-spreading hair loss needs a prescriber before any product."
+      }
+     },
+     "jurisdiction": {
+      "GB": {
+       "text": {
+        "en": "In the UK, topical minoxidil is licensed and a men's foam is on general sale, finasteride for hair loss is available only on private prescription, and baricitinib is licensed for severe alopecia areata in adults. In May 2026 MHRA strengthened its warnings that finasteride is associated with depression, suicidal thoughts and sexual dysfunction that may persist after stopping."
+       },
+       "citationRefs": [
+        "emc-smpc-regaine-men-foam-uk",
+        "emc-smpc-propecia-uk",
+        "mhra-dsu-2026-05-finasteride",
+        "emc-smpc-olumiant-uk"
+       ]
+      },
+      "EU": {
+       "text": {
+        "en": "In the EU, topical minoxidil is authorised nationally, finasteride tablets and a finasteride skin spray are authorised in various member states for early androgenetic alopecia in men aged 18 to 41 (EMA, 2025), and baricitinib (Olumiant) is centrally authorised and prescription-only, with severe alopecia areata in adults and adolescents aged 12 and over among its indications. After an EU-wide review endorsed on 19 June 2025, suicidal ideation is a confirmed side effect of finasteride tablets, and packs of the hair-loss tablets carry a patient card."
+       },
+       "citationRefs": [
+        "eu-ema-psusa-minoxidil-2024",
+        "eu-union-register",
+        "eu-ema-medicines-data",
+        "eu-ema-ref-finasteride-2025",
+        "eu-ema-epar-olumiant"
+       ]
+      },
+      "PT": {
+       "text": {
+        "en": "In Portugal, topical minoxidil is a non-prescription medicine (MNSRM), and the label of Minox 5 solution covers alopecia areata as well as androgenetic alopecia in men and women. Finasteride for hair loss (Propecia) is prescription-only (MSRM), and baricitinib (Olumiant) is a restricted-prescription medicine (MSRM restrita – point a) (INFARMED's Infomed register, 25 September 2026)."
+       },
+       "citationRefs": [
+        "pt-infomed",
+        "pt-rcm-minox5",
+        "pt-dl176-2006"
+       ]
+      },
+      "BR": {
+       "text": {
+        "en": "In Brazil, minoxidil products such as Aloxidil are indicated for androgenetic alopecia in adult men, and finasteride products such as Pro Hair are indicated for the treatment of men with male-pattern baldness (androgenetic alopecia). Baricitinib (Olumiant) is indicated for adult and adolescent patients aged 12 years or older and weighing at least 30 kg with severe alopecia areata (ANVISA, 25 September 2026)."
+       },
+       "citationRefs": [
+        "br-label-aloxidil",
+        "br-anvisa-register-opendata",
+        "br-label-prohair",
+        "br-label-olumiant"
+       ]
+      },
+      "AE": {
+       "text": {
+        "en": "In the UAE, the Emirates Drug Establishment (EDE) has held medicines registration since Federal Decree-Law 28/2023, and the medicines law is Federal Decree-Law 38 of 2024. The EDE register lists topical minoxidil (for example Regaine solution, a Pharmacist Only Medicine), oral finasteride (Propecia, Prescription Only), a topical finasteride spray registered in March 2025 (Fincrezo, Prescription Only) and Olumiant (baricitinib, Prescription Only), without showing whether alopecia areata is an approved UAE indication (25 September 2026)."
+       },
+       "citationRefs": [
+        "ae-fdl-28-2023",
+        "ae-fdl-38-2024",
+        "ae-ede-reg-regaine",
+        "ae-ede-register",
+        "ae-ede-reg-propecia",
+        "ae-ede-reg-fincrezo",
+        "ae-ede-reg-olumiant"
+       ]
+      }
+     }
+    }
+   },
+   "imageBrief": {
+    "prompt": "Four simple views of the top of the head seen from directly above, in a row: each is a plain oval scalp covered with fine stipple dots for hair, with no face and no ears. First: sparse dots at the crown and a receding front. Second: evenly thinned dots across the whole scalp. Third: full density with one smooth, round, completely bare patch outlined in violet. Fourth: a widened central parting with thinning along it and a preserved front hairline. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m5-p05-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m5-p05-img",
+    "alt": {
+     "en": "Four views of the scalp from above: thinning at the crown and front, even thinning everywhere, one round bare patch, and a widened central parting."
+    },
+    "treatment": "cover",
+    "position": "top"
+   }
+  },
+  {
+   "id": "m5-p06",
+   "type": "quiz",
+   "time": "07 / 20",
+   "lead": {
+    "en": "Your turn"
+   },
+   "title": {
+    "en": "Shedding after the baby."
+   },
+   "body": {
+    "en": "One question to close lesson 5.1."
+   },
+   "sourceNote": "Lesson 5.1",
+   "quiz": {
+    "id": "m5-q1",
+    "prompt": {
+     "en": "A 32-year-old woman asks for a compounded peptide scalp spray. Diffuse shedding began three months after she gave birth; there are no patches and no signs of androgen excess. What comes first?"
+    },
+    "options": [
+     {
+      "text": {
+       "en": "Start the spray now, since peptides act on the follicle directly."
+      },
+      "why": {
+       "en": "That skips the diagnosis. The pattern points to telogen effluvium, and peptide sprays such as PTD-DBM or zinc thymulin have no human trial behind them."
+      }
+     },
+     {
+      "text": {
+       "en": "Treat it as likely telogen effluvium: reassure, check ferritin and TSH, and reassess the pattern before any product."
+      },
+      "why": {
+       "en": "Correct. Diffuse shedding after a trigger is the guide's telogen-effluvium branch, and ferritin and TSH are checked in everyone."
+      }
+     },
+     {
+      "text": {
+       "en": "Refer her for a JAK inhibitor."
+      },
+      "why": {
+       "en": "JAK inhibitors are for severe alopecia areata, which shows as patchy, smooth loss. This pattern is different."
+      }
+     }
+    ],
+    "correct": 1,
+    "feedback": {
+     "en": "Diagnose the pattern first; the product question comes after."
+    },
+    "pillar": "patient-conversation",
+    "citationRefs": [
+     "hannah-shmouni-2026-are",
+     "king-2022-baricitinib-brave-aa"
+    ]
+   }
+  },
+  {
+   "id": "m5-p07",
+   "type": "audio",
+   "time": "08 / 20",
+   "lead": {
+    "en": "Lesson 5.2 · Concept"
+   },
+   "title": {
+    "en": "Five receptors, one family of hormones."
+   },
+   "body": {
+    "en": "Skin makes proopiomelanocortin (POMC) and cuts it into ACTH, α-MSH and β-endorphin, and the same cells carry the receptors that answer them. Those peptides act on five melanocortin receptors. MC1R drives pigment in skin and hair, MC2R answers ACTH in the adrenal gland, MC3R and MC4R act in the brain on appetite, and MC5R governs sebum. Which receptors a drug reaches decides what else it does."
+   },
+   "points": [
+    {
+     "en": "MC1R: pigment of skin and hair"
+    },
+    {
+     "en": "MC2R: adrenal · MC5R: sebum"
+    },
+    {
+     "en": "MC3R and MC4R: appetite, in the brain"
+    }
+   ],
+   "citationRefs": [
+    "slominski-wortsman-2000-skin-neuroendocrinology",
+    "laiho-2022-melanocortin-receptors",
+    "bohm-2025-mc1r-activation-review",
+    "hannah-shmouni-2026-are"
+   ],
+   "sourceNote": "Slominski & Wortsman 2000 · Laiho & Murray 2022 · Böhm 2025",
+   "audioBeats": [
+    {
+     "title": {
+      "en": "Made in the skin"
+     },
+     "body": {
+      "en": "Skin cells make POMC and cut it into ACTH, α-MSH and β-endorphin, and they carry the receptors that answer them."
+     }
+    },
+    {
+     "title": {
+      "en": "Five receptors"
+     },
+     "body": {
+      "en": "MC1R pigment, MC2R adrenal, MC3R and MC4R appetite in the brain, MC5R sebum. Reviewers note the real distribution is probably wider than this tidy map."
+     }
+    },
+    {
+     "title": {
+      "en": "Selectivity is the safety story"
+     },
+     "body": {
+      "en": "A drug that stays on MC1R mostly changes pigment. A drug that reaches the brain's receptors brings nausea, appetite loss and erections with it."
+     }
+    }
+   ],
+   "metadata": {
+    "audioScript": {
+     "en": "Pigment starts with hormones the skin makes for itself. Skin cells produce a precursor called POMC and cut it into ACTH, alpha-MSH and beta-endorphin, and the same cells carry the receptors that answer them. There are five melanocortin receptors. MC1R sets the pigment of skin and hair. MC2R is the adrenal receptor for ACTH. MC3R and MC4R work in the brain on appetite, and central receptors also drive sexual responses. MC5R governs sebum. Researchers caution that the real map is messier, with receptors turning up in more tissues than the textbook suggests. For this lesson one idea matters most. A drug that stays on MC1R mostly changes pigment, and a drug that reaches the brain's receptors brings other effects with it."
+    }
+   },
+   "imageBrief": {
+    "prompt": "Across the top of the frame, a long bead chain (the precursor) cut into three shorter violet pieces. Below it, a single neat row of exactly five small square tiles, evenly spaced, each with one small violet receptor cup at its top edge: tile one, a pigment cell with branching dendrites among skin cells; tile two, an adrenal gland capping the top of one kidney; tile three, a plain matte outline of the brain; tile four, the same plain brain outline again; tile five, a sebaceous gland beside a hair follicle. Only one kidney in the whole picture. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m5-p07-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m5-p07-img",
+    "alt": {
+     "en": "A precursor peptide cut into three pieces above a row of five receptor tiles: a pigment cell, an adrenal gland, the brain twice, and a sebaceous gland."
+    },
+    "treatment": "cover",
+    "position": "top"
+   }
+  },
+  {
+   "id": "m5-p08",
+   "type": "tool",
+   "time": "09 / 20",
+   "lead": {
+    "en": "Four registers"
+   },
+   "title": {
+    "en": "One receptor family, two very different molecules."
+   },
+   "body": {
+    "en": "Afamelanotide and Melanotan II are both synthetic relatives of α-MSH. Compare them register by register and the resemblance ends at the receptor."
+   },
+   "citationRefs": [
+    "langendonk-2015-afamelanotide-epp",
+    "ema-scenesse-epar",
+    "fda-scenesse-label-2024",
+    "dorr-1996-melanotan-ii-pilot",
+    "wessells-1998-melanotan-ii-ed",
+    "bohm-2025-mc1r-activation-review",
+    "nct06109649-scenesse-vitiligo",
+    "hannah-shmouni-2026-ppg-aug",
+    "hannah-shmouni-2026-are"
+   ],
+   "sourceNote": "Langendonk 2015 · EMA Scenesse EPAR · FDA Scenesse label (Aug 2024) · Dorr 1996 · Wessells 1998 · Böhm 2025",
+   "tool": {
+    "items": [
+     {
+      "label": {
+       "en": "Mechanism"
+      },
+      "value": {
+       "en": "Afamelanotide: MC1R agonist · Melanotan II: non-selective"
+      },
+      "note": {
+       "en": "Melanotan II also acts on MC3R, MC4R and MC5R and reaches the brain"
+      }
+     },
+     {
+      "label": {
+       "en": "Human evidence"
+      },
+      "value": {
+       "en": "Afamelanotide: A, for EPP only · Melanotan II: D"
+      },
+      "note": {
+       "en": "Two phase 3 trials in erythropoietic protoporphyria, against a three-volunteer pilot and a ten-man erectile-dysfunction study from the 1990s. The Peptide Pocket Guide rates Melanotan II C and the Aesthetic & Regenerative Endocrinology guide D; with no trial of tanning, this course uses D."
+      }
+     },
+     {
+      "label": {
+       "en": "Regulatory status"
+      },
+      "value": {
+       "en": "Afamelanotide: EU 2014, US 2019 · Melanotan II: none"
+      },
+      "note": {
+       "en": "Afamelanotide is approved only for EPP, as the manufacturer's implant. Melanotan II is approved for no indication anywhere."
+      }
+     },
+     {
+      "label": {
+       "en": "Open question"
+      },
+      "value": {
+       "en": "Uses beyond EPP; melanoma risk"
+      },
+      "note": {
+       "en": "A phase 3 trial of afamelanotide in vitiligo began in 2023 and has posted no results. Whether Melanotan II causes melanoma is unproven."
+      }
+     }
+    ],
+    "callout": {
+     "en": "A shared receptor does not bring a shared approval."
+    }
+   },
+   "metadata": {
+    "variants": {
+     "jurisdiction": {
+      "GB": {
+       "text": {
+        "en": "In the UK, afamelanotide is licensed under exceptional circumstances and prescribed only in specialist porphyria centres, and NICE did not recommend it for NHS use (July 2023)."
+       },
+       "citationRefs": [
+        "nice-hst27-afamelanotide"
+       ]
+      },
+      "EU": {
+       "text": {
+        "en": "In the EU, afamelanotide (Scenesse implant) is authorised for erythropoietic protoporphyria, under exceptional circumstances (European Commission, 22 December 2014), and is prescribed only by specialists in recognised EPP centres."
+       },
+       "citationRefs": [
+        "eu-ema-epar-scenesse",
+        "eu-union-register"
+       ]
+      },
+      "PT": {
+       "text": {
+        "en": "In Portugal, Scenesse is authorised through the EU procedure but classified as a restricted-prescription medicine for exclusive hospital use (MSRM restrita, alínea a), and no presentation is marketed in Portugal (INFARMED's Infomed register, 25 September 2026)."
+       },
+       "citationRefs": [
+        "pt-infomed",
+        "pt-dl176-2006"
+       ]
+      },
+      "BR": {
+       "text": {
+        "en": "In Brazil, no registered medicine containing afamelanotide (Scenesse) was found: ANVISA's open-data register and its online medicines search returned no match on 25 September 2026, and the substance is absent from ANVISA's substance dictionary."
+       },
+       "citationRefs": [
+        "br-anvisa-register-opendata",
+        "br-anvisa-register-dictionary",
+        "br-anvisa-consultas-medicamentos"
+       ]
+      },
+      "AE": {
+       "text": {
+        "en": "In the UAE, the Emirates Drug Establishment (EDE) has held medicines registration since Federal Decree-Law 28/2023, and the medicines law is Federal Decree-Law 38 of 2024. An ingredient and product-name search of the EDE register found no registered product containing afamelanotide, and none named Scenesse (25 September 2026)."
+       },
+       "citationRefs": [
+        "ae-fdl-28-2023",
+        "ae-fdl-38-2024",
+        "ae-ede-register"
+       ]
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "m5-p09",
+   "type": "stat",
+   "time": "10 / 20",
+   "lead": {
+    "en": "The evidence"
+   },
+   "title": {
+    "en": "Sixty-nine hours against forty-one."
+   },
+   "body": {
+    "en": "Erythropoietic protoporphyria (EPP) is a rare disorder in which sunlight causes acute, severe pain. In the US phase 3 trial, adults on afamelanotide spent a median 69.4 hours in direct sunlight without pain over six months, against 40.8 hours on placebo. The European trial also showed more pain-free time and fewer phototoxic reactions. Both trials were funded by the manufacturer."
+   },
+   "citationRefs": [
+    "langendonk-2015-afamelanotide-epp",
+    "fda-scenesse-label-2024",
+    "ema-scenesse-epar",
+    "hannah-shmouni-2026-ppg-aug"
+   ],
+   "sourceNote": "Langendonk 2015 (NEJM) · FDA Scenesse label, Aug 2024 · EMA EPAR",
+   "stat": {
+    "figure": "69 vs 41 h",
+    "label": {
+     "en": "median pain-free hours in direct sunlight over six months, afamelanotide vs placebo (US phase 3 trial, 94 adults with EPP)"
+    },
+    "detail": {
+     "en": "Langendonk et al., NEJM 2015 · European trial, 74 adults: 6.0 vs 0.8 hours over nine months"
+    },
+    "means": {
+     "en": "Afamelanotide lets people with EPP spend more time in sunlight without pain. That is approval-grade evidence (A) for one rare disease."
+    },
+    "doesNot": {
+     "en": "It says nothing about cosmetic tanning, about Melanotan II, or about unsupervised injections. Even in EPP, the US label recommends a full-body skin examination twice a year."
+    }
+   }
+  },
+  {
+   "id": "m5-p10",
+   "type": "audio",
+   "time": "11 / 20",
+   "lead": {
+    "en": "Safety signals"
+   },
+   "title": {
+    "en": "What the case reports show."
+   },
+   "body": {
+    "en": "The harms of Melanotan II come from case reports and reviews, so they show what can happen without telling you how often. Reported skin effects include darkening and growth of existing moles, crops of new and sometimes atypical naevi, and dark bands in the nails. At least five melanomas have been reported during or after use, each in someone with other risk factors, so causation is unproven. Systemic reports include ischaemic priapism needing surgery and a stimulant-like toxic reaction with rhabdomyolysis, and FDA lists posterior reversible encephalopathy syndrome among published serious events."
+   },
+   "points": [
+    {
+     "en": "Skin: changing moles, eruptive naevi, melanonychia"
+    },
+    {
+     "en": "Melanoma: reported, causation unproven"
+    },
+    {
+     "en": "Systemic: priapism, rhabdomyolysis, encephalopathy"
+    }
+   ],
+   "citationRefs": [
+    "habbema-2017-msh-analogue-risks",
+    "cardones-2009-alpha-msh-eruptive-nevi",
+    "paurobally-2013-melanotan-melanonychia",
+    "hjuler-2014-melanotan-ii-melanoma",
+    "bohm-2025-mc1r-activation-review",
+    "mallory-2021-melanotan-priapism",
+    "nelson-2012-melanotan-ii-rhabdomyolysis",
+    "fda-503a-category2-safety-risks-page",
+    "hannah-shmouni-2026-are"
+   ],
+   "sourceNote": "Habbema 2017 · Cardones 2009 · Paurobally 2013 · Hjuler 2014 · Mallory 2021 · Nelson 2012 · FDA compounding safety page",
+   "audioBeats": [
+    {
+     "title": {
+      "en": "Moles and nails"
+     },
+     "body": {
+      "en": "Existing moles darken and grow, new naevi appear in crops, some atypical on histology, and nails can develop dark bands. In one report the new naevi faded after the injections stopped."
+     }
+    },
+    {
+     "title": {
+      "en": "Melanoma, a signal without proof"
+     },
+     "body": {
+      "en": "At least five melanomas have been reported during or after use. Every patient had other risk factors, such as fair skin, sunbed use or a family history."
+     }
+    },
+    {
+     "title": {
+      "en": "The rest of the body"
+     },
+     "body": {
+      "en": "Nausea, flushing and yawning are common. Reported emergencies include ischaemic priapism needing surgery, rhabdomyolysis with kidney injury, and encephalopathy."
+     }
+    }
+   ],
+   "metadata": {
+    "audioScript": {
+     "en": "Now the harms, and the kind of evidence behind them. Everything here comes from case reports and reviews, which tell you what can happen and leave open how often it does. In the skin, existing moles darken and grow, new moles erupt in crops, some of them atypical under the microscope, and dark bands can appear in the nails. At least five melanomas have been reported during or after Melanotan use. Each patient had other risk factors, such as fair skin, sunbed use or a family history, so causation is unproven, and the concern rests on a drug that pushes melanocytes to multiply. Beyond the skin, reports describe priapism that needed surgery, a stimulant-like toxic reaction with muscle breakdown and kidney injury, and a brain swelling syndrome that FDA lists among the published serious events."
+    }
+   },
+   "imageBrief": {
+    "prompt": "Two elements side by side, separated by a thin vertical hairline. Left: a small swatch of skin surface with several moles of varied size, some darker and larger, and a cluster of new small dark spots; one mole is outlined in violet. Right: a single fingertip seen from above with its nail, the nail plate showing one straight dark band running lengthwise from its base to its tip. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m5-p10-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m5-p10-img",
+    "alt": {
+     "en": "A patch of skin with darkened, varied moles and a crop of new small ones, beside a fingernail with a dark band running along its length."
+    },
+    "treatment": "cover",
+    "position": "top"
+   }
+  },
+  {
+   "id": "m5-p11",
+   "type": "audio",
+   "time": "12 / 20",
+   "lead": {
+    "en": "Fictional case"
+   },
+   "title": {
+    "en": "New moles after a summer of tanning shots."
+   },
+   "body": {
+    "en": "A 27-year-old attends for a skin-quality consultation and mentions injecting a 'tanning peptide' bought online for three months. She has noticed darker moles, several new small ones and a dark stripe along one fingernail. Her mother had melanoma. This is a fictional case built from the lesson's evidence, and one move clearly comes before the others."
+   },
+   "citationRefs": [
+    "hannah-shmouni-2026-are",
+    "cardones-2009-alpha-msh-eruptive-nevi",
+    "mang-2012-dermoscopy-nevi-melanotan-ii",
+    "paurobally-2013-melanotan-melanonychia",
+    "fda-scenesse-label-2024",
+    "bohm-2025-mc1r-activation-review",
+    "habbema-2017-msh-analogue-risks",
+    "breindahl-2015-melanotan-ii-online-products"
+   ],
+   "sourceNote": "Aesthetic & Regenerative Endocrinology, ch. 15 · Cardones 2009 · Mang 2012 · Böhm 2025 · FDA Scenesse label",
+   "points": [
+    {
+     "en": "Almost certainly Melanotan II: approved nowhere, unknown strength and purity"
+    },
+    {
+     "en": "New and changing naevi and nail pigmentation are the documented harms"
+    },
+    {
+     "en": "Family history of melanoma: the guide's absolute contraindication"
+    }
+   ],
+   "audioBeats": [
+    {
+     "title": {
+      "en": "What she used"
+     },
+     "body": {
+      "en": "Three months of a tanning peptide from an online seller. Almost certainly Melanotan II, of unknown strength and purity."
+     }
+    },
+    {
+     "title": {
+      "en": "What you see"
+     },
+     "body": {
+      "en": "Darker moles, new small naevi and a pigmented nail band, the harms the case reports describe."
+     }
+    },
+    {
+     "title": {
+      "en": "What raises the stakes"
+     },
+     "body": {
+      "en": "Her mother had melanoma. The endocrinology guide calls a personal or family history of melanoma an absolute contraindication."
+     }
+    }
+   ],
+   "interaction": {
+    "kind": "scenario",
+    "title": {
+     "en": "What do you do first?"
+    },
+    "setup": {
+     "en": "A 27-year-old attends for a skin-quality consultation and mentions injecting a 'tanning peptide' bought online for three months. She has noticed darker moles, several new small ones and a dark stripe along one fingernail. Her mother had melanoma."
+    },
+    "notice": [
+     {
+      "en": "The product is almost certainly Melanotan II: approved nowhere, and tested online products held less than their labels claimed"
+     },
+     {
+      "en": "New and changing naevi and melanonychia are the harms the case reports describe"
+     },
+     {
+      "en": "The Hormonaly endocrinology guide treats a family history of melanoma as an absolute contraindication"
+     }
+    ],
+    "options": [
+     {
+      "value": "reassure",
+      "label": {
+       "en": "Reassure her: darker moles are expected with a tan. Review them at her next routine visit."
+      },
+      "why": {
+       "en": "New and changing naevi are the documented harm here, dermoscopic changes on Melanotan II can mimic melanoma, and her family history raises the stakes."
+      }
+     },
+     {
+      "value": "stop-examine-refer",
+      "correct": true,
+      "label": {
+       "en": "Advise stopping now, record the product and seller, and have the whole skin and nails examined promptly, with dermoscopy and baseline photographs, by a dermatologist or skin-cancer clinician."
+      },
+      "why": {
+       "en": "Right. Stop the exposure, document it, and have the changing naevi and the nail band assessed and followed. Even the approved MC1R agonist comes with twice-yearly skin examinations, and she has a family history of melanoma."
+      }
+     },
+     {
+      "value": "switch-afamelanotide",
+      "label": {
+       "en": "Offer afamelanotide instead, as the approved version of the same drug."
+      },
+      "why": {
+       "en": "Afamelanotide is a different molecule, approved only for erythropoietic protoporphyria as the manufacturer's implant. It is not a tanning product and not a substitute."
+      }
+     }
+    ],
+    "followUp": {
+     "en": "Then document what she used, what you advised and who will follow her skin, and ask whether she bought anything else from the same seller."
+    },
+    "citationRefs": [
+     "hannah-shmouni-2026-are",
+     "cardones-2009-alpha-msh-eruptive-nevi",
+     "mang-2012-dermoscopy-nevi-melanotan-ii",
+     "paurobally-2013-melanotan-melanonychia",
+     "fda-scenesse-label-2024",
+     "bohm-2025-mc1r-activation-review"
+    ],
+    "source": "authored:2026-09-24 from Aesthetic & Regenerative Endocrinology, ch. 15 (Melanotan II) + module 05 assessment plan + claims c-m05-15, c-m05-16"
+   },
+   "metadata": {
+    "audioScript": {
+     "en": "Her booking says skin quality. This patient is fictional, built from the lesson's evidence. She is twenty-seven, and she mentions that she has been injecting a tanning peptide bought online for three months. She has noticed darker moles, several new small ones, and a dark stripe along one fingernail. Her mother had melanoma. The product is almost certainly Melanotan II, approved nowhere and of unknown strength and purity. New and changing moles and nail pigmentation are exactly the harms described in the reports, and in one patient followed with dermoscopy the changes made moles hard to tell from melanoma. The endocrinology guide treats a family history of melanoma as an absolute contraindication. Pick the move that comes first."
+    },
+    "variants": {
+     "audienceLevel": {
+      "prescriber": {
+       "en": "Examine the skin and nails or refer promptly, document the product and your advice, and decide who will follow her naevi. Do not offer another melanocortin agonist as a substitute."
+      },
+      "clinical-staff": {
+       "en": "Record the product, the seller and how long she used it, photograph the lesions and the nail with consent if your setting allows, and escalate to the prescriber the same day."
+      },
+      "advisor": {
+       "en": "Advise her to stop and to see a prescriber or dermatologist promptly. Do not suggest another product or seller."
+      }
+     }
+    }
+   },
+   "imageBrief": {
+    "prompt": "Three elements in a row connected by a thin ink line. Left: a two-generation family tree in standard pedigree shapes — a circle above joined by a vertical line to a circle below; only the upper circle is filled violet. Centre: a small swatch of skin surface with several darker moles and a scatter of new small dark spots. Right: a fingertip seen from above whose nail shows one dark band running lengthwise. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m5-p11-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m5-p11-img",
+    "alt": {
+     "en": "A mother-and-daughter pedigree with the mother marked, a patch of skin with darker and new moles, and a fingernail with a dark band."
+    },
+    "treatment": "cover",
+    "position": "top"
+   }
+  },
+  {
+   "id": "m5-p12",
+   "type": "tool",
+   "time": "13 / 20",
+   "lead": {
+    "en": "Regulatory status"
+   },
+   "title": {
+    "en": "Three regulators, one answer."
+   },
+   "body": {
+    "en": "Each statement below is dated, because regulatory status changes. None of the three regulators has approved Melanotan II, and each has put its concerns on the record."
+   },
+   "citationRefs": [
+    "fda-503a-category2-safety-risks-page",
+    "mhra-foi-24-274-melanotan-ii",
+    "tga-2026-melanotan-ii-safety-advisory",
+    "bohm-2025-mc1r-activation-review",
+    "hannah-shmouni-2026-are"
+   ],
+   "sourceNote": "FDA compounding safety page (22 Apr 2026) · MHRA FOI 24/274 (17 Apr 2024) · TGA safety advisory (17 Aug 2026)",
+   "tool": {
+    "items": [
+     {
+      "label": {
+       "en": "United States · FDA (page current as of 22 April 2026)"
+      },
+      "value": {
+       "en": "Unapproved; nomination withdrawn"
+      },
+      "note": {
+       "en": "FDA's compounding safety page lists Melanotan II among substances withdrawn from Category 2, citing impurity and immunogenicity risks and published reports of melanoma, encephalopathy, sympathomimetic toxicity and priapism"
+      }
+     },
+     {
+      "label": {
+       "en": "United Kingdom · MHRA (17 April 2024)"
+      },
+      "value": {
+       "en": "Unauthorised medicine"
+      },
+      "note": {
+       "en": "Injectable products are classed as medicines; MHRA advises anyone using them to stop immediately and has removed melanotan products from sale for over ten years"
+      }
+     },
+     {
+      "label": {
+       "en": "Australia · TGA (17 August 2026)"
+      },
+      "value": {
+       "en": "Prescription-only; no approved product"
+      },
+      "note": {
+       "en": "Not approved as a tanning agent and nothing on the national register; seized, identically labelled nasal sprays varied more than twofold in content"
+      }
+     }
+    ],
+    "callout": {
+     "en": "Check the regulator in your own jurisdiction, and date what you say."
+    }
+   },
+   "metadata": {
+    "variants": {
+     "jurisdiction": {
+      "EU": {
+       "text": {
+        "en": "In the EU, no centrally authorised medicine containing melanotan (Melanotan II) was found in the Union Register or in EMA's data on authorised, refused and withdrawn medicines (searched 25 September 2026)."
+       },
+       "citationRefs": [
+        "eu-ema-medicines-data",
+        "eu-union-register"
+       ]
+      },
+      "PT": {
+       "text": {
+        "en": "In Portugal, no medicine containing melanotan is listed in INFARMED's Infomed register: a substance search for 'melanot' returns only afamelanotide (Scenesse) and setmelanotide (Imcivree), and a product-name search for 'Melanotan' returns nothing (25 September 2026)."
+       },
+       "citationRefs": [
+        "pt-infomed"
+       ]
+      },
+      "BR": {
+       "text": {
+        "en": "In Brazil, no registered medicine containing melanotan was found in ANVISA's register (25 September 2026). Under Law 6.360/1976, no product covered by the law, including an imported one, may be manufactured, offered for sale or supplied for consumption before being registered with the Ministry of Health."
+       },
+       "citationRefs": [
+        "br-anvisa-register-opendata",
+        "br-anvisa-register-dictionary",
+        "br-anvisa-consultas-medicamentos",
+        "br-lei-6360-1976"
+       ]
+      },
+      "AE": {
+       "text": {
+        "en": "In the UAE, the Emirates Drug Establishment (EDE) has held medicines registration since Federal Decree-Law 28/2023, and the medicines law is Federal Decree-Law 38 of 2024; no melanotan product was found in the EDE register (25 September 2026). In Abu Dhabi, the Department of Health (Circular 112/2025, 2 July 2025), relaying an EDE warning on Melanotan II ('Barbie drug'), requires facilities to prohibit its importation, distribution, marketing or use. In Dubai, the Dubai Health Authority (DHA) sent the Ministry of Health and Prevention's Circular 06 of 2025 on the serious safety concerns of Melanotan II to all health facilities for adherence (25 June 2025)."
+       },
+       "citationRefs": [
+        "ae-fdl-28-2023",
+        "ae-fdl-38-2024",
+        "ae-doh-cir-112-2025",
+        "ae-ede-register",
+        "ae-dha-cir-melanotan-2025"
+       ]
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "m5-p13",
+   "type": "quiz",
+   "time": "14 / 20",
+   "lead": {
+    "en": "Your turn"
+   },
+   "title": {
+    "en": "'The approved one is the same thing.'"
+   },
+   "body": {
+    "en": "One question to close lesson 5.2."
+   },
+   "sourceNote": "Lesson 5.2",
+   "quiz": {
+    "id": "m5-q2",
+    "prompt": {
+     "en": "A patient says, 'Afamelanotide is approved, so Melanotan II is basically the same drug.' What is the accurate reply?"
+    },
+    "options": [
+     {
+      "text": {
+       "en": "Yes. They act on the same receptor, so the approval covers both."
+      },
+      "why": {
+       "en": "Sharing MC1R does not make them the same molecule, and an approval attaches to one product and one indication."
+      }
+     },
+     {
+      "text": {
+       "en": "They are different molecules. Afamelanotide is approved only for erythropoietic protoporphyria; Melanotan II acts on several receptors, is approved nowhere, and is linked in case reports to changing moles and priapism."
+      },
+      "why": {
+       "en": "Correct. Same family, different selectivity, different evidence and different legal standing."
+      }
+     },
+     {
+      "text": {
+       "en": "Melanotan II is safe if it comes from a reputable seller."
+      },
+      "why": {
+       "en": "No seller can make it approved, and tested online products held less than the labelled amount, with unknown impurities."
+      }
+     }
+    ],
+    "correct": 1,
+    "feedback": {
+     "en": "Name the molecule, then its indication: approval does not transfer between them."
+    },
+    "pillar": "regulatory-safety",
+    "citationRefs": [
+     "bohm-2025-mc1r-activation-review",
+     "breindahl-2015-melanotan-ii-online-products",
+     "fda-scenesse-label-2024",
+     "langendonk-2015-afamelanotide-epp",
+     "mallory-2021-melanotan-priapism"
+    ]
+   },
+   "citationRefs": [
+    "mallory-2021-melanotan-priapism"
+   ]
+  },
+  {
+   "id": "m5-p14",
+   "type": "audio",
+   "time": "15 / 20",
+   "lead": {
+    "en": "Lesson 5.3 · Concept"
+   },
+   "title": {
+    "en": "A Wnt switch and a zinc question."
+   },
+   "body": {
+    "en": "PTD-DBM joins a cell-penetrating peptide to a short decoy sequence that stops the protein CXXC5 from binding Dishevelled. Freed from that brake, Wnt/β-catenin signalling rises, and in mice hair regrew faster. Its developers also found CXXC5 raised in human balding scalp. Zinc thymulin is a thymic peptide that is active only when bound to zinc. How it might act on hair has never been defined, and whether any effect would come from the peptide or the zinc is unknown."
+   },
+   "points": [
+    {
+     "en": "PTD-DBM: releases a Wnt brake (mouse data)"
+    },
+    {
+     "en": "Zinc thymulin: a zinc-dependent thymic peptide"
+    },
+    {
+     "en": "Both: mechanism first, human data absent"
+    }
+   ],
+   "citationRefs": [
+    "lee-2017-ptd-dbm-cxxc5-hair",
+    "dardenne-1982-thymulin-zinc",
+    "mehta-2025-wnt-hair-regrowth-review",
+    "hannah-shmouni-2026-ppg-aug"
+   ],
+   "sourceNote": "Lee 2017 (J Invest Dermatol) · Dardenne 1982 · Peptide Pocket Guide",
+   "audioBeats": [
+    {
+     "title": {
+      "en": "PTD-DBM"
+     },
+     "body": {
+      "en": "A cell-penetrating tag carries a decoy sequence into follicle cells. The decoy keeps CXXC5 off Dishevelled, so Wnt signalling can rise."
+     }
+    },
+    {
+     "title": {
+      "en": "What was shown"
+     },
+     "body": {
+      "en": "Faster hair regrowth, and new follicles in healed wounds, in mice. The work came from the developer's own group, which also found CXXC5 raised in human balding scalp tissue."
+     }
+    },
+    {
+     "title": {
+      "en": "Zinc thymulin"
+     },
+     "body": {
+      "en": "A thymic hormone that works only with zinc bound. Its proposed hair effect has no defined mechanism and no indexed human study."
+     }
+    }
+   ],
+   "metadata": {
+    "audioScript": {
+     "en": "Two peptides are sold for hair, and both arrive with better stories than data. PTD-DBM joins a cell-penetrating fragment borrowed from an HIV protein to a short decoy sequence. Inside follicle cells, the decoy keeps a protein called CXXC5 from binding its partner, Dishevelled, and that releases a brake on Wnt signalling, a pathway involved in hair regrowth. In mice, hair regrew faster and follicles formed in healed wounds. The work came from the developer's own group. Zinc thymulin is a thymic hormone that becomes active only when zinc binds to it. How it might help hair has never been defined, and nobody has shown whether any effect would come from the peptide or from the zinc. Hold both as mechanism, and look for the human trial."
+    }
+   },
+   "imageBrief": {
+    "prompt": "A molecular mechanism inside one follicle cell, drawn as simple shapes. A short violet bead-chain decoy, attached to a small tag that has carried it through the cell membrane, occupies a docking groove on a rounded signalling protein. A second, grey protein — the brake that would normally dock in that groove — floats free nearby, unable to attach. Downstream, small violet tokens gather in the cytoplasm and move into the round nucleus. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m5-p14-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m5-p14-img",
+    "alt": {
+     "en": "Inside a cell, a small decoy peptide keeps a brake protein from docking on a signalling protein, and small signal tokens move into the nucleus."
+    },
+    "treatment": "cover",
+    "position": "top"
+   }
+  },
+  {
+   "id": "m5-p15",
+   "type": "stat",
+   "time": "16 / 20",
+   "lead": {
+    "en": "The evidence"
+   },
+   "title": {
+    "en": "Zero trials in people."
+   },
+   "body": {
+    "en": "As of September 2026, PubMed and ClinicalTrials.gov list no human trial of PTD-DBM, published or registered. Its evidence is one 2017 study in mice and human scalp tissue from the developer's group, whose senior author is affiliated with a biotech company. A 2025 review's summary speaks of 'clinical efficacy', yet the review's own text describes PTD-DBM results in mouse models only."
+   },
+   "citationRefs": [
+    "lee-2017-ptd-dbm-cxxc5-hair",
+    "mehta-2025-wnt-hair-regrowth-review",
+    "hannah-shmouni-2026-ppg-aug"
+   ],
+   "sourceNote": "PubMed and ClinicalTrials.gov, searched 24 Sep 2026 · Lee 2017 · Mehta 2025",
+   "stat": {
+    "figure": "0",
+    "label": {
+     "en": "human trials of PTD-DBM, published or registered (September 2026)"
+    },
+    "detail": {
+     "en": "Lee et al., J Invest Dermatol 2017: mice, plus CXXC5 measured in human scalp tissue"
+    },
+    "means": {
+     "en": "Whether PTD-DBM regrows human hair is unknown. The Peptide Pocket Guide and this course grade it D."
+    },
+    "doesNot": {
+     "en": "It does not show that PTD-DBM fails or harms. One open safety question sits alongside: the 2025 review flags that off-target Wnt activation is associated with colorectal and liver cancers, a theoretical concern nobody has tested for this peptide."
+    }
+   }
+  },
+  {
+   "id": "m5-p16",
+   "type": "tool",
+   "time": "17 / 20",
+   "lead": {
+    "en": "Sort the evidence"
+   },
+   "title": {
+    "en": "Approved, or unproven?"
+   },
+   "body": {
+    "en": "Five things patients use or ask about for hair, with what each is claimed to do. Decide what stands behind each one before you see a grade."
+   },
+   "citationRefs": [
+    "adil-2017-aga-treatments-meta",
+    "king-2022-baricitinib-brave-aa",
+    "fda-drugsatfda-rogaine-019501",
+    "fda-drugsatfda-propecia-020788",
+    "fda-olumiant-aa-approval-2022",
+    "lee-2017-ptd-dbm-cxxc5-hair",
+    "dardenne-1982-thymulin-zinc",
+    "fda-503a-categories-2026-05-14",
+    "hannah-shmouni-2026-ppg-aug"
+   ],
+   "sourceNote": "Adil 2017 · King 2022 · Drugs@FDA · Lee 2017 · FDA 503A categories (14 May 2026) · Pocket Guide",
+   "tool": {
+    "items": [
+     {
+      "label": {
+       "en": "Topical minoxidil"
+      },
+      "value": {
+       "en": "Regrowth in pattern hair loss"
+      },
+      "note": {
+       "en": "Scalp solution or foam"
+      }
+     },
+     {
+      "label": {
+       "en": "Oral finasteride"
+      },
+      "value": {
+       "en": "Slows pattern hair loss in men"
+      },
+      "note": {
+       "en": "5α-reductase inhibitor"
+      }
+     },
+     {
+      "label": {
+       "en": "Baricitinib"
+      },
+      "value": {
+       "en": "Regrowth in severe alopecia areata"
+      },
+      "note": {
+       "en": "Oral JAK inhibitor"
+      }
+     },
+     {
+      "label": {
+       "en": "PTD-DBM spray"
+      },
+      "value": {
+       "en": "Regrowth in pattern hair loss"
+      },
+      "note": {
+       "en": "Wnt activator, compounded or research-grade"
+      }
+     },
+     {
+      "label": {
+       "en": "Zinc thymulin spray"
+      },
+      "value": {
+       "en": "Thicker, fuller hair"
+      },
+      "note": {
+       "en": "Zinc-bound thymic peptide, compounded"
+      }
+     }
+    ],
+    "callout": {
+     "en": "A plausible pathway is a reason to run a trial. The trial is what you grade."
+    }
+   },
+   "interaction": {
+    "kind": "classify",
+    "title": {
+     "en": "Trial or theory?"
+    },
+    "prompt": {
+     "en": "Tap what stands behind each one."
+    },
+    "labels": [
+     {
+      "value": "approved",
+      "label": {
+       "en": "Approved, with randomized trials"
+      },
+      "tone": "good"
+     },
+     {
+      "value": "unproven",
+      "label": {
+       "en": "No human trial"
+      },
+      "tone": "bad"
+     }
+    ],
+    "items": [
+     {
+      "id": "minoxidil",
+      "label": {
+       "en": "Topical minoxidil"
+      },
+      "answer": "approved",
+      "why": {
+       "en": "GRADE A. Meta-analysed randomized trials show benefit in men and women; in the US it has been FDA-approved since 1988 and is sold over the counter."
+      }
+     },
+     {
+      "id": "finasteride",
+      "label": {
+       "en": "Oral finasteride"
+      },
+      "answer": "approved",
+      "why": {
+       "en": "GRADE A in men. Meta-analysed randomized trials; in the US a prescription drug for hair loss since 1997."
+      }
+     },
+     {
+      "id": "baricitinib",
+      "label": {
+       "en": "Baricitinib"
+      },
+      "answer": "approved",
+      "why": {
+       "en": "GRADE A. Two phase 3 trials in 1,200 adults; FDA-approved for adults with severe alopecia areata in June 2022."
+      }
+     },
+     {
+      "id": "ptd-dbm",
+      "label": {
+       "en": "PTD-DBM spray"
+      },
+      "answer": "unproven",
+      "why": {
+       "en": "GRADE D. One 2017 study in mice and scalp tissue from the developer's group; no human trial published or registered; on none of FDA's 503A lists."
+      }
+     },
+     {
+      "id": "zinc-thymulin",
+      "label": {
+       "en": "Zinc thymulin spray"
+      },
+      "answer": "unproven",
+      "why": {
+       "en": "GRADE D. No indexed human hair study; the guide's cited case series could not be found. In the US, thymulin acetate sits in 503A Category 3, nominated without adequate support."
+      }
+     }
+    ],
+    "done": {
+     "en": "Five sorted. Three approved options with randomized-trial evidence (A); two peptides with no human trial (D)."
+    },
+    "citationRefs": [
+     "adil-2017-aga-treatments-meta",
+     "king-2022-baricitinib-brave-aa",
+     "fda-drugsatfda-rogaine-019501",
+     "fda-drugsatfda-propecia-020788",
+     "fda-olumiant-aa-approval-2022",
+     "lee-2017-ptd-dbm-cxxc5-hair",
+     "fda-503a-categories-2026-05-14",
+     "hannah-shmouni-2026-ppg-aug"
+    ],
+    "source": "authored:2026-09-24 from m5-p16.tool.items + registry grades"
+   }
+  },
+  {
+   "id": "m5-p17",
+   "type": "audio",
+   "time": "18 / 20",
+   "lead": {
+    "en": "What changes in practice"
+   },
+   "title": {
+    "en": "When the request is a compounded hair spray."
+   },
+   "body": {
+    "en": "In the US, on FDA's category lists of 14 May 2026, thymulin acetate sits in Category 3: nominated without enough information to evaluate, and outside the enforcement discretion that Category 1 carries. PTD-DBM appears on none of the three lists, and neither substance is on the 503A bulks list. Both carry grade D evidence. The useful conversation names the grade, returns to the workup and describes the approved options."
+   },
+   "points": [
+    {
+     "en": "Thymulin acetate: 503A Category 3 (US, May 2026)"
+    },
+    {
+     "en": "PTD-DBM: on no FDA 503A list"
+    },
+    {
+     "en": "Grade D for both: say so, then return to the workup"
+    }
+   ],
+   "citationRefs": [
+    "fda-503a-categories-2026-05-14",
+    "fda-503a-bulks-page",
+    "ecfr-21-cfr-216-23-bulks-list",
+    "hannah-shmouni-2026-ppg-aug",
+    "adil-2017-aga-treatments-meta"
+   ],
+   "sourceNote": "FDA 503A categories (14 May 2026) · 21 CFR 216.23 · FDA 503A bulks page · Pocket Guide",
+   "audioBeats": [
+    {
+     "title": {
+      "en": "Thymulin acetate"
+     },
+     "body": {
+      "en": "In FDA's 503A Category 3 on the 14 May 2026 lists: nominated without enough information to evaluate, and outside the enforcement discretion of Category 1."
+     }
+    },
+    {
+     "title": {
+      "en": "PTD-DBM"
+     },
+     "body": {
+      "en": "On none of FDA's three 503A category lists. Like thymulin, it is absent from the 503A bulks list."
+     }
+    },
+    {
+     "title": {
+      "en": "The conversation"
+     },
+     "body": {
+      "en": "Name grade D plainly, return to the diagnosis, and describe the approved options."
+     }
+    }
+   ],
+   "metadata": {
+    "audioScript": {
+     "en": "Stated for the United States, the regulatory picture is short. On FDA's category lists of the fourteenth of May, twenty twenty-six, thymulin acetate sits in Category 3, meaning it was nominated without enough information for FDA to evaluate, and it falls outside the enforcement discretion that Category 1 substances receive. PTD-DBM appears on none of the three lists. Neither substance is on the 503A bulks list itself. The evidence grade for both is D. So when a patient asks for a compounded hair spray, give the grade plainly, go back to the diagnosis, and describe the approved options and what they can offer."
+    },
+    "variants": {
+     "audienceLevel": {
+      "prescriber": {
+       "en": "Check a substance's current 503A status before any compounding conversation; neither peptide has Category 1 standing today. If a patient already uses one, record the product, the source and the grade you quoted, and offer the workup and the approved options. In the UK, a special needs a clinical need that the licensed options cannot meet; cost and convenience do not count."
+      },
+      "clinical-staff": {
+       "en": "If a patient mentions a peptide hair spray, note the product, where it came from and any scalp irritation, and pass it to the prescriber. When asked whether it works, keep to what the evidence shows."
+      },
+      "advisor": {
+       "en": "Describe PTD-DBM and zinc thymulin as research-stage, with no human trials. Point a patient with hair loss to a prescriber for the workup rather than to a product."
+      }
+     },
+     "jurisdiction": {
+      "GB": {
+       "text": {
+        "en": "In the UK, a spray made up for one patient would be an unlicensed 'special', and MHRA guidance says an unlicensed product should not be used where a UK-licensed one, such as minoxidil, could meet the patient's need."
+       },
+       "citationRefs": [
+        "mhra-gn14-specials-2023",
+        "emc-smpc-regaine-men-foam-uk"
+       ]
+      },
+      "EU": {
+       "text": {
+        "en": "In the EU, a medicine prepared in a pharmacy for an individual patient on prescription (a magistral formula) falls outside Directive 2001/83/EC (Article 3). A search of the Union Register and EMA's medicines data found no centrally authorised medicine containing thymulin or PTD-DBM (25 September 2026)."
+       },
+       "citationRefs": [
+        "eu-dir-2001-83",
+        "eu-ema-medicines-data",
+        "eu-union-register"
+       ]
+      },
+      "PT": {
+       "text": {
+        "en": "In Portugal, a magistral formula may use only raw materials listed in the Portuguese or European pharmacopoeia, another European pharmacopoeia or compendial scientific documentation, and the prescribing physician must satisfy themselves of its safety and efficacy (Decreto-Lei 95/2004). INFARMED's Infomed register lists no medicine containing thymulin or PTD-DBM (25 September 2026)."
+       },
+       "citationRefs": [
+        "pt-dl95-2004",
+        "pt-infarmed-manipulados",
+        "pt-infomed"
+       ]
+      },
+      "BR": {
+       "text": {
+        "en": "In Brazil, ANVISA stated on 2 July 2026 that a substance must have passed efficacy and safety assessment before it can be compounded, and that compounding may only be individual, on prescription, by a pharmacy licensed by local health surveillance. A search of ANVISA's register found no registered medicine containing PTD-DBM or thymulin (25 September 2026), though immunomodulators such as thymomodulin are registered."
+       },
+       "citationRefs": [
+        "br-anvisa-peptides-2026",
+        "br-anvisa-register-opendata",
+        "br-anvisa-register-dictionary"
+       ]
+      },
+      "AE": {
+       "text": {
+        "en": "In the UAE, the Emirates Drug Establishment (EDE) has held medicines registration since Federal Decree-Law 28/2023; under the medicines law, Federal Decree-Law 38 of 2024, products compounded in licensed compounding pharmacies need no marketing approval, and no product containing thymulin or PTD-DBM was found in the EDE register (25 September 2026). In Dubai, the Dubai Health Authority (DHA) prohibits circulating, prescribing, dispensing or using any peptide product that is not registered or licensed with the EDE (29 July 2026). In Abu Dhabi, the Department of Health (DoH) lets compounded peptide formulations use only certified active ingredients imported under EDE oversight (31 July 2026), and its August 2026 compounding standard treats peptides as emerging, high-risk substances that may be compounded only if monographed, part of an approved medicine or listed on the DoH's register of compounded substances."
+       },
+       "citationRefs": [
+        "ae-fdl-28-2023",
+        "ae-fdl-38-2024",
+        "ae-ede-register",
+        "ae-dha-cir-peptides-2026",
+        "ae-doh-cir-148-2026",
+        "ae-doh-compounding-std-2026"
+       ]
+      }
+     }
+    }
+   },
+   "imageBrief": {
+    "prompt": "A flow of shapes laid out like a small map on paper. A single start token sits at the left. From it, a solid violet path runs to the right, passes under a small magnifying lens (the diagnosis), and ends at an open doorway at the right. Partway along, before the lens, a separate dashed grey branch splits off upward from the main path and stops dead at a closed grey gate; nothing passes that gate. No heads, no faces, no people. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m5-p17-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m5-p17-img",
+    "alt": {
+     "en": "A violet path passes under a magnifying lens to an open doorway, while a dashed side branch stops at a closed gate."
+    },
+    "treatment": "cover",
+    "position": "top"
+   }
+  },
+  {
+   "id": "m5-p18",
+   "type": "quiz",
+   "time": "19 / 20",
+   "lead": {
+    "en": "Your turn"
+   },
+   "title": {
+    "en": "'The new minoxidil'?"
+   },
+   "body": {
+    "en": "One question to close lesson 5.3."
+   },
+   "sourceNote": "Lesson 5.3",
+   "quiz": {
+    "id": "m5-q3",
+    "prompt": {
+     "en": "A patient with pattern thinning asks whether a compounded PTD-DBM spray is 'the new minoxidil'. What does the evidence support?"
+    },
+    "options": [
+     {
+      "text": {
+       "en": "Yes. It acts on the Wnt pathway, which drives hair growth."
+      },
+      "why": {
+       "en": "That is a mechanism argument. There is no human trial of PTD-DBM, so 'works like minoxidil' has nothing behind it."
+      }
+     },
+     {
+      "text": {
+       "en": "PTD-DBM has mouse data and no human trial (D); minoxidil has randomized-trial support and US approval (A). Start with the workup and the approved options."
+      },
+      "why": {
+       "en": "Correct. Name the grade of each, then go back to the diagnosis."
+      }
+     },
+     {
+      "text": {
+       "en": "It is safer than minoxidil because it is a peptide."
+      },
+      "why": {
+       "en": "Being a peptide says nothing about safety. Its effects in people, short or long term, are unknown."
+      }
+     }
+    ],
+    "correct": 1,
+    "feedback": {
+     "en": "A pathway is a hypothesis; the grade tells you how far it has been tested."
+    },
+    "pillar": "evidence-appraisal",
+    "citationRefs": [
+     "lee-2017-ptd-dbm-cxxc5-hair",
+     "adil-2017-aga-treatments-meta",
+     "hannah-shmouni-2026-ppg-aug"
+    ]
+   }
+  },
+  {
+   "id": "m5-p19",
+   "type": "action",
+   "time": "20 / 20",
+   "lead": {
+    "en": "Closing and commitment"
+   },
+   "title": {
+    "en": "Before my next hair or tanning conversation."
+   },
+   "body": {
+    "en": "Build the checklist you will actually use. It is saved to your path and your tutor will bring it back."
+   },
+   "sourceNote": "Module 05",
+   "citationRefs": [
+    "hannah-shmouni-2026-are",
+    "bohm-2025-mc1r-activation-review"
+   ],
+   "action": {
+    "prompt": {
+     "en": "Choose what you will do before your next conversation about a hair or tanning peptide"
+    },
+    "takeaway": {
+     "en": "Next module: growth hormone, IGF-1 and the skin, including the secretagogues patients ask about and the signs of too much."
+    },
+    "suggestions": [
+     {
+      "en": "I will work up the hair loss before discussing any product."
+     },
+     {
+      "en": "I will ask exactly what was injected or sprayed, and from where."
+     },
+     {
+      "en": "I will examine or refer new or changing moles."
+     }
+    ]
+   },
+   "metadata": {
+    "clozePrefix": {
+     "en": "Before my next hair or tanning conversation I will"
+    },
+    "clozeSuffix": {
+     "en": "."
+    },
+    "variants": {
+     "audienceLevel": {
+      "prescriber": {
+       "en": "Your checklist ends with documentation: the product the patient used, the grade you quoted, and your referral."
+      },
+      "clinical-staff": {
+       "en": "Your checklist ends with escalation: melanocortin use, new moles or patchy hair loss go to the prescriber the same day."
+      },
+      "advisor": {
+       "en": "Your checklist ends with referral: product facts you can give; skin changes and a hair-loss diagnosis go to a prescriber."
+      }
+     }
+    }
+   },
+   "interaction": {
+    "kind": "chips",
+    "title": {
+     "en": "Your follicle and pigment checklist"
+    },
+    "prompt": {
+     "en": "Tap everything you will do. Choose as many as you like."
+    },
+    "prefix": {
+     "en": "Before my next hair or tanning conversation I will"
+    },
+    "chips": [
+     {
+      "value": "workup",
+      "label": {
+       "en": "work up the hair loss before any product"
+      },
+      "group": "practice"
+     },
+     {
+      "value": "grade",
+      "label": {
+       "en": "name the evidence grade out loud"
+      },
+      "group": "evidence"
+     },
+     {
+      "value": "exact",
+      "label": {
+       "en": "ask exactly what was injected or sprayed, and from where"
+      },
+      "group": "safety"
+     },
+     {
+      "value": "moles",
+      "label": {
+       "en": "examine or refer new or changing moles"
+      },
+      "group": "safety"
+     },
+     {
+      "value": "melanoma-history",
+      "label": {
+       "en": "ask about a personal or family history of melanoma"
+      },
+      "group": "safety"
+     },
+     {
+      "value": "status",
+      "label": {
+       "en": "check the product's current status with my regulator"
+      },
+      "group": "regulatory"
+     }
+    ],
+    "suffix": {
+     "en": "."
+    },
+    "pick": "many",
+    "citationRefs": [
+     "hannah-shmouni-2026-are",
+     "bohm-2025-mc1r-activation-review"
+    ],
+    "source": "authored:2026-09-24 from Aesthetic & Regenerative Endocrinology ch. 15 clinical & medicolegal pearl and m5 tool items"
+   }
+  }
+ ],
+ "check": {
+  "id": "m5-check",
+  "prompt": {
+   "en": "Closing Module 5: which statement keeps the four registers apart for Melanotan II?"
+  },
+  "options": [
+   {
+    "text": {
+     "en": "It shares afamelanotide's receptor, so it shares afamelanotide's approval."
+    },
+    "why": {
+     "en": "That blends mechanism into regulatory status. The approval belongs to afamelanotide, for EPP only."
+    }
+   },
+   {
+    "text": {
+     "en": "Mechanism: a non-selective melanocortin agonist. Evidence: two tiny 1990s studies and case reports of harm (D). Status: approved nowhere, with US, UK and Australian regulators on record against it. Open question: whether it causes melanoma."
+    },
+    "why": {
+     "en": "Correct. Four separate answers, each with its own source."
+    }
+   },
+   {
+    "text": {
+     "en": "Because melanoma causation is unproven, it is safe to use with monitoring."
+    },
+    "why": {
+     "en": "An unproven cause is an open question and offers no reassurance; the documented harms and the lack of approval still stand."
+    }
+   }
+  ],
+  "correct": 1,
+  "feedback": {
+   "en": "Mechanism, human evidence, regulatory status, open question: four answers, never one sentence."
+  },
+  "citationRefs": [
+   "bohm-2025-mc1r-activation-review",
+   "dorr-1996-melanotan-ii-pilot",
+   "fda-503a-category2-safety-risks-page",
+   "habbema-2017-msh-analogue-risks",
+   "mhra-foi-24-274-melanotan-ii",
+   "tga-2026-melanotan-ii-safety-advisory",
+   "wessells-1998-melanotan-ii-ed"
+  ]
+ },
+ "claimLocations": {
+  "c-m05-01": [
+   "m5-p02"
+  ],
+  "c-m05-02": [
+   "m5-p02",
+   "m5-p04"
+  ],
+  "c-m05-03": [
+   "m5-p02",
+   "m5-p03"
+  ],
+  "c-m05-04": [
+   "m5-p03",
+   "m5-p05",
+   "m5-p16"
+  ],
+  "c-m05-05": [
+   "m5-p04",
+   "m5-p05",
+   "m5-p06"
+  ],
+  "c-m05-06": [
+   "m5-p05",
+   "m5-p16",
+   "m5-p18"
+  ],
+  "c-m05-07": [
+   "m5-p05",
+   "m5-p16"
+  ],
+  "c-m05-08": [
+   "m5-p07",
+   "m5-p08"
+  ],
+  "c-m05-09": [
+   "m5-p08",
+   "m5-p09"
+  ],
+  "c-m05-10": [
+   "m5-p08",
+   "m5-p09",
+   "m5-p11",
+   "m5-p13"
+  ],
+  "c-m05-11": [
+   "m5-p08"
+  ],
+  "c-m05-12": [
+   "m5-p10",
+   "m5-p11",
+   "m5-p13"
+  ],
+  "c-m05-13": [
+   "m5-p11",
+   "m5-p12",
+   "m5-p13"
+  ],
+  "c-m05-14": [
+   "m5-p08",
+   "m5-p12"
+  ],
+  "c-m05-15": [
+   "m5-p11"
+  ],
+  "c-m05-16": [
+   "m5-p09",
+   "m5-p11"
+  ],
+  "c-m05-17": [
+   "m5-p14",
+   "m5-p15",
+   "m5-p16",
+   "m5-p18"
+  ],
+  "c-m05-18": [
+   "m5-p15"
+  ],
+  "c-m05-19": [
+   "m5-p14",
+   "m5-p16"
+  ],
+  "c-m05-20": [
+   "m5-p16",
+   "m5-p17"
+  ],
+  "c-m05-21": [
+   "m5-p03",
+   "m5-p05"
+  ],
+  "c-m05-22": [
+   "m5-p05"
+  ],
+  "c-m05-23": [
+   "m5-p05"
+  ],
+  "c-m05-24": [
+   "m5-p08"
+  ],
+  "c-m05-25": [
+   "m5-p17"
+  ],
+  "j-eu-09": [
+   "m5-p03",
+   "m5-p05"
+  ],
+  "j-eu-10": [
+   "m5-p03"
+  ],
+  "j-pt-08": [
+   "m5-p03",
+   "m5-p05"
+  ],
+  "j-br-08": [
+   "m5-p03",
+   "m5-p05"
+  ],
+  "j-ae-34": [
+   "m5-p03",
+   "m5-p05",
+   "m5-p08",
+   "m5-p12",
+   "m5-p17"
+  ],
+  "j-ae-36": [
+   "m5-p03",
+   "m5-p05",
+   "m5-p08",
+   "m5-p12",
+   "m5-p17"
+  ],
+  "j-ae-20": [
+   "m5-p03",
+   "m5-p05"
+  ],
+  "j-eu-11": [
+   "m5-p05"
+  ],
+  "j-eu-13": [
+   "m5-p05"
+  ],
+  "j-eu-14": [
+   "m5-p05"
+  ],
+  "j-pt-10": [
+   "m5-p05"
+  ],
+  "j-pt-11": [
+   "m5-p05"
+  ],
+  "j-pt-13": [
+   "m5-p05"
+  ],
+  "j-br-09": [
+   "m5-p05"
+  ],
+  "j-br-10": [
+   "m5-p05"
+  ],
+  "j-ae-21": [
+   "m5-p05"
+  ],
+  "j-ae-23": [
+   "m5-p05"
+  ],
+  "j-ae-24": [
+   "m5-p05"
+  ],
+  "j-eu-07": [
+   "m5-p08"
+  ],
+  "j-pt-05": [
+   "m5-p08"
+  ],
+  "j-br-06": [
+   "m5-p08"
+  ],
+  "j-ae-06": [
+   "m5-p08"
+  ],
+  "j-eu-08": [
+   "m5-p12"
+  ],
+  "j-pt-07": [
+   "m5-p12"
+  ],
+  "j-br-07": [
+   "m5-p12"
+  ],
+  "j-br-34": [
+   "m5-p12"
+  ],
+  "j-ae-19": [
+   "m5-p12"
+  ],
+  "j-ae-92": [
+   "m5-p12"
+  ],
+  "j-eu-37": [
+   "m5-p17"
+  ],
+  "j-eu-28": [
+   "m5-p17"
+  ],
+  "j-eu-29": [
+   "m5-p17"
+  ],
+  "j-pt-36": [
+   "m5-p17"
+  ],
+  "j-pt-35": [
+   "m5-p17"
+  ],
+  "j-pt-27": [
+   "m5-p17"
+  ],
+  "j-pt-28": [
+   "m5-p17"
+  ],
+  "j-br-29": [
+   "m5-p17"
+  ],
+  "j-br-24": [
+   "m5-p17"
+  ],
+  "j-br-23": [
+   "m5-p17"
+  ],
+  "j-ae-40": [
+   "m5-p17"
+  ],
+  "j-ae-16": [
+   "m5-p17"
+  ],
+  "j-ae-17": [
+   "m5-p17"
+  ],
+  "j-ae-39": [
+   "m5-p17"
+  ],
+  "j-ae-46": [
+   "m5-p17"
+  ],
+  "j-ae-44": [
+   "m5-p17"
+  ]
+ },
+ "audienceLevelPanes": [
+  "m5-p05",
+  "m5-p11",
+  "m5-p17",
+  "m5-p19"
+ ],
+ "courseQuiz": [
+  {
+   "id": "cq-m05-1",
+   "prompt": {
+    "en": "Which statement about afamelanotide and Melanotan II is accurate?"
+   },
+   "options": [
+    {
+     "text": {
+      "en": "Afamelanotide is approved (EU 2014, US 2019) only for erythropoietic protoporphyria; Melanotan II is approved for no indication, and regulators in the US, UK and Australia have warned about it."
+     },
+     "why": {
+      "en": "Correct. Same receptor family, different molecules, and only one has an approval, for one rare disease."
+     }
+    },
+    {
+     "text": {
+      "en": "Afamelanotide's US approval covers cosmetic tanning."
+     },
+     "why": {
+      "en": "The US indication is to increase pain-free light exposure in adults with EPP; tanning is not an approved use."
+     }
+    },
+    {
+     "text": {
+      "en": "Melanotan II became approvable once FDA reviewed it for compounding."
+     },
+     "why": {
+      "en": "Its compounding nomination was withdrawn, and FDA's page lists serious safety risks. A review is never an approval."
+     }
+    }
+   ],
+   "correct": 0,
+   "rationale": {
+    "en": "Approval attaches to a specific product and indication; a shared receptor transfers neither evidence nor legal standing."
+   },
+   "pillar": "regulatory-safety",
+   "citationRefs": [
+    "ema-scenesse-epar",
+    "fda-scenesse-label-2024",
+    "fda-503a-category2-safety-risks-page",
+    "mhra-foi-24-274-melanotan-ii",
+    "tga-2026-melanotan-ii-safety-advisory"
+   ]
+  },
+  {
+   "id": "cq-m05-2",
+   "prompt": {
+    "en": "A patient asks about a PTD-DBM hair spray. Which grade fits its evidence, and why?"
+   },
+   "options": [
+    {
+     "text": {
+      "en": "A, because it acts on the central Wnt pathway of hair growth."
+     },
+     "why": {
+      "en": "A plausible pathway is mechanism, and grades rest on human evidence."
+     }
+    },
+    {
+     "text": {
+      "en": "D: one 2017 study in mice and scalp tissue from the developer's group, and no human trial published or registered as of September 2026."
+     },
+     "why": {
+      "en": "Correct. Animal and tissue data only, from one group with a commercial link."
+     }
+    },
+    {
+     "text": {
+      "en": "C, because small human trials show regrowth."
+     },
+     "why": {
+      "en": "No human trial of PTD-DBM exists, small or large."
+     }
+    }
+   ],
+   "correct": 1,
+   "rationale": {
+    "en": "Grade the human evidence, then say who produced it; a strong mechanism with no trial in people is D."
+   },
+   "pillar": "evidence-appraisal",
+   "citationRefs": [
+    "lee-2017-ptd-dbm-cxxc5-hair",
+    "mehta-2025-wnt-hair-regrowth-review",
+    "hannah-shmouni-2026-ppg-aug"
+   ]
+  }
+ ],
+ "tutorEntries": [
+  {
+   "id": "tutor-m05-melanotan",
+   "keys": [
+    "melanotan",
+    "melanotan ii",
+    "melanotan 2",
+    "mt2",
+    "mt-ii",
+    "tanning injection",
+    "tanning peptide",
+    "tanning nasal spray",
+    "barbie drug",
+    "afamelanotide",
+    "scenesse"
+   ],
+   "answer": {
+    "en": "Afamelanotide (Scenesse) is an MC1R agonist approved only for erythropoietic protoporphyria (EU 2014, US 2019; licensed in the UK, where NICE did not recommend it for NHS use in 2023), on the strength of two sponsor-funded phase 3 trials; even there, the US label recommends a full-body skin examination twice a year. Melanotan II is a different, non-selective molecule approved for no indication. Its only controlled human data are two tiny 1990s studies, and case reports describe darkening and new moles, nail pigmentation, melanomas in people with other risk factors (causation unproven), priapism and rhabdomyolysis. FDA (April 2026), MHRA (April 2024) and TGA (August 2026) have all put warnings on record. If someone has used it: stop, record the product and seller, examine the skin and nails, and refer changing moles; a personal or family history of melanoma makes it an absolute no in the endocrinology guide. This course gives no doses or sourcing advice."
+   },
+   "citationRefs": [
+    "langendonk-2015-afamelanotide-epp",
+    "fda-scenesse-label-2024",
+    "bohm-2025-mc1r-activation-review",
+    "habbema-2017-msh-analogue-risks",
+    "fda-503a-category2-safety-risks-page",
+    "hannah-shmouni-2026-are",
+    "nice-hst27-afamelanotide",
+    "mhra-foi-24-274-melanotan-ii",
+    "tga-2026-melanotan-ii-safety-advisory"
+   ],
+   "scope": "m05"
+  },
+  {
+   "id": "tutor-m05-hair-peptides",
+   "keys": [
+    "ptd-dbm",
+    "ptd dbm",
+    "zinc thymulin",
+    "thymulin",
+    "hair peptide",
+    "peptide for hair loss",
+    "hair growth peptide",
+    "cxxc5",
+    "compounded hair spray",
+    "peptide hair spray"
+   ],
+   "answer": {
+    "en": "PTD-DBM releases a brake (CXXC5) on Wnt signalling; its whole evidence is one 2017 mouse and tissue study from the developer's group, with no human trial published or registered as of September 2026 (grade D). Zinc thymulin is a zinc-dependent thymic peptide with no indexed human hair study (grade D). In the US, on FDA's 14 May 2026 lists, thymulin acetate is in 503A Category 3 and PTD-DBM is on no list; neither is on the bulks list. Hair loss starts with a workup (pattern, trigger, patches, androgens; ferritin and TSH in everyone), and the approved options, minoxidil, finasteride in men and baricitinib for severe alopecia areata, carry grade A evidence. In the UK, a men's minoxidil foam is on general sale, finasteride for hair loss is a private prescription carrying MHRA's strengthened warnings on depression and sexual dysfunction (May 2026), baricitinib is licensed for severe alopecia areata, and a peptide spray made up for one patient would be an unlicensed special that MHRA guidance places behind any licensed product that could meet the need. This course gives no doses or sourcing advice; treatment choices belong with the prescriber."
+   },
+   "citationRefs": [
+    "lee-2017-ptd-dbm-cxxc5-hair",
+    "dardenne-1982-thymulin-zinc",
+    "fda-503a-categories-2026-05-14",
+    "adil-2017-aga-treatments-meta",
+    "hannah-shmouni-2026-ppg-aug",
+    "hannah-shmouni-2026-are",
+    "emc-smpc-regaine-men-foam-uk",
+    "emc-smpc-propecia-uk",
+    "mhra-dsu-2026-05-finasteride",
+    "emc-smpc-olumiant-uk",
+    "mhra-gn14-specials-2023"
+   ],
+   "scope": "m05"
+  }
+ ],
+ "reviewNotes": [
+  {
+   "date": "2026-09-24",
+   "blocks": "m5-check",
+   "change": "Module check now cites both 1990s Melanotan II studies (Dorr 1996, Wessells 1998)."
+  },
+  {
+   "date": "2026-09-24",
+   "blocks": "m5-p14, m5-q2",
+   "change": "Source-check alignment: PTD-DBM described without the HIV Tat detail and thymulin without the residue count (neither in the cited abstracts); the quiz cites the priapism case report."
+  }
+ ],
+ "approval": {
+  "gate": "medical_review",
+  "approver": "Fady Hannah-Shmouni, MD FRCPC",
+  "date": "2026-09-24",
+  "scope": "module 05, full-course review draft of 2026-09-24 (course-draft.docx); approval relayed by Omar Saleem, 2026-09-24"
+ },
+ "postApprovalChanges": [
+  {
+   "date": "2026-09-25",
+   "block": "m5-p03 (body)",
+   "change": "UK added: baricitinib is licensed for severe alopecia areata in adults; NICE did not recommend it for NHS use (TA926, Oct 2023). Claim c-m05-21.",
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m5-p05 (body, beat 2, narration, prescriber version)",
+   "change": "UK added: minoxidil licensed and a men's foam on general sale; finasteride for hair loss only on private prescription; baricitinib licensed; MHRA's strengthened finasteride warnings (11 May 2026). Prescriber version adds the UK finasteride steps (ask about depression, patient card, review). Claims c-m05-21, c-m05-22, c-m05-23.",
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m5-p08 (tool row 3)",
+   "change": "Regulatory row adds 'UK licensed' for afamelanotide, with its exceptional-circumstances licence, specialist porphyria centres and NICE's July 2023 decision not to recommend it. Claim c-m05-24.",
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m5-p12 (body)",
+   "change": "'UK and EU mapping for the rest of this course is still in progress' → 'EU status is not covered in this course.'",
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m5-p17 (body, narration, prescriber version)",
+   "change": "'Mapping of UK and EU status ... still under way' replaced: in the UK a spray made for one patient would be an unlicensed special, and MHRA guidance puts a UK-licensed product that could meet the need (e.g. minoxidil) ahead of it; prescriber version adds that cost and convenience do not justify a special. Claim c-m05-25.",
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "tutor-m05-melanotan",
+   "change": "Tutor answer adds afamelanotide's UK licence and NICE HST27. Citation only: it now also cites the MHRA FOI and TGA advisory records its existing sentence on FDA, MHRA and TGA warnings already relied on (the source check flagged the TGA mention as uncited once the MHRA record was added).",
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "tutor-m05-hair-peptides",
+   "change": "Tutor answer adds the UK status of minoxidil, finasteride (with MHRA's May 2026 warnings) and baricitinib, and the specials position for a peptide spray.",
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "unit tutorContext",
+   "change": "Tutor context adds the UK facts above; EU marked as not covered.",
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m5-p03",
+   "change": "UK text moved verbatim into the UK note; block sources back to the approved list (the UK sources now sit on the UK note); EU, PT, BR and AE notes added.",
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m5-p05",
+   "change": "UK text moved verbatim into the UK note; the UK lines in beat 2 and the narration removed, restoring their approved wording; block sources back to the approved list; EU, PT, BR and AE notes added. The prescriber version's UK finasteride steps stay (they are not in the UK note).",
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m5-p08",
+   "change": "UK text moved verbatim into the UK note (row 3 note; 'UK licensed' dropped from the row value, which the UK note states); block sources back to the approved list; EU, PT, BR and AE notes added.",
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m5-p12",
+   "change": "'EU status is not covered in this course' removed; EU, PT, BR and AE notes added on Melanotan II; the approved UK row stays in the comparison table.",
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m5-p17",
+   "change": "UK text moved verbatim into the UK note; the UK line in the narration removed; block sources back to the approved list; EU, PT, BR and AE notes added. The prescriber version's UK specials line stays (it is not in the UK note).",
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "unit tutorContext",
+   "change": "Removed 'EU status not asserted' and 'EU not covered'; EU, Portugal, Brazil and UAE status now sits in the moments' jurisdiction notes.",
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m5-p01",
+   "change": "Editorial: placeholder source lines removed (the course citing itself on the module cover; an internal audience decision on the role picker). These moments state no facts; nothing else changed.",
+   "forReview": "Omar Saleem",
+   "confirmedBy": "Omar Saleem, product owner (editorial; no medical content changed)",
+   "confirmedAt": "2026-09-25"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m05 module title",
+   "change": "Editorial: the module title is now the plain title 'Follicle, pigment and melanocortins' everywhere (app, homepage, certificate), replacing the intake plan's working title (Omar: \"plain module titles might be nicer, esp on mobile\").",
+   "forReview": "Omar Saleem",
+   "confirmedBy": "Omar Saleem, product owner (editorial; no medical content changed)",
+   "confirmedAt": "2026-09-25"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m5-opener",
+   "change": "New moment: the module's opening film (about 71 s; draft media for the media preview). The narration is approved text, verbatim (m5-p01 body, sentences 1, 2; m5-p02 audioScript, sentences 1, 2, 3, 5, 8); the presenter is a HeyGen digital avatar, and the player shows \"Presented by a digital avatar (AI-generated presenter and voice).\" under the video. The moments' position labels are renumbered to /20.",
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
+  }
+ ],
+ "mediaChanges": [
+  {
+   "date": "2026-09-25",
+   "block": "m5-p02",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m5-p02-img"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m5-p05",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m5-p05-img"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m5-p07",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m5-p07-img"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m5-p10",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m5-p10-img"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m5-p11",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m5-p11-img"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m5-p14",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m5-p14-img"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m5-p17",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m5-p17-img"
+  }
+ ]
+}
