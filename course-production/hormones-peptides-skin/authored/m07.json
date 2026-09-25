@@ -12,11 +12,11 @@
   "description": {
    "en": "Lesson 7.1 Grading the evidence behind an aesthetic claim · Lesson 7.2 Compounding law, the 40-amino-acid line and certificates of analysis · Lesson 7.3 Cosmetic, compounded or investigational: consent and the chart."
   },
-  "estimatedMinutes": 27,
+  "estimatedMinutes": 29,
   "sortOrder": 1,
   "isRequired": true,
   "status": "ai_draft",
-  "tutorContext": "Module 7 closes the course: evidence appraisal, US regulatory frameworks and prescriber compliance, kept in separate registers. GRADE: certainty (high, moderate, low, very low; the guides print A–D) for one outcome across a body of evidence, never for a molecule; RCTs start high, observational studies low; rate down for risk of bias, inconsistency, indirectness (study PICO differs from the question), imprecision (CI crosses the important difference) and publication bias (suspect it when evidence is small industry-funded studies); rate up for large effects. Course examples: GHK-Cu's one indexed RCT measured post-laser healing (indirect for photoageing); BPC-157 wound data are rodent (indirect); LL-37 34-person positive then 148-person negative phase IIb (inconsistent); oral collagen benefit only in low-quality and industry-funded trials (risk of bias, Myung 2025). Lundh 2017 Cochrane: industry-sponsored studies more often favourable efficacy results, RR 1.27 (1.17–1.37). Grade and legal status are separate checks; mechanism never raises a grade. US 503A (21 USC 353a): identified patient, prescription; exempt only from approval, adequate directions, cGMP; bulk substance must meet a USP/NF monograph, else be an approved-drug component, else be on the 503A bulks list; registered manufacturer and valid COA; no statutory purity figure. 21 CFR 216.23: six substances, none a peptide, unchanged since 2019 (eCFR current 22 Sep 2026); listing is no endorsement. Categories 1–3 = interim enforcement posture: Category 1 includes non-injectable GHK-Cu (14 May 2026); 503A Category 2 has six substances; BPC-157, TB-500, KPV, injectable GHK-Cu, LL-37, melanotan II are withdrawn nominations with safety concerns still posted. PCAC 23–24 Jul 2026 is advisory; FDA staff concluded criteria weigh against listing BPC-157; only rulemaking changes the list. 503B: registered outsourcing facility, cGMP, risk-based inspection, adverse-event reporting, may compound without patient-specific prescriptions; products unapproved. >40 alpha amino acids = protein = biological product since 23 Mar 2020 (85 FR 10057); tesamorelin and hyaluronidase became BLAs; biologics cannot use 503A/503B exemptions; retatrutide residue count upheld by a district court in 2025, appeal pending (June 2026 filings). COA = supplier's report on one lot: MS identity (observed vs expected mass), HPLC purity (impurities unnamed), endotoxin (limit calculated from dose and route, FDA 2026 guidance), microbial, water, counter-ion, metals, solvents; cannot prove the vial is that lot, storage, sterility or legality; red flags = no lot, no chromatogram, no impurities, no endotoxin on an injectable, over 12 months old. FDA's BPC-157 briefing: public COAs mostly purity only; the nominator's COA reported no endotoxin test, and the COAs supplied were for the acetate while the free base was nominated. Ashraf 2024: three online semaglutide vials 7.7–14.4% purity vs 99% labelled, endotoxin in all. RUO: 21 CFR 312.160 permits shipment for lab or in-vitro research, 'Not for use in humans'; intended use judged objectively (21 CFR 201.128); a COA cannot convert RUO into a pharmaceutical. Cosmetic vs drug by intended use ('regenerate cells' is a drug claim; 'cosmeceutical' has no legal meaning); supplements not approved before sale; off-label applies only to approved drugs; unapproved new drug in interstate commerce is a prohibited act (21 USC 331); FDA's 2020 warning letter named compounded BPC-157 and GHK-Cu. Chart: article and status in those words; pathway, facility and COA if compounded; consent (not approved, foreseeable risks, approved alternatives incl. nothing, what happens if harm; elements borrowed from 21 CFR 50.25); grade quoted; monitoring and stopping rule; dated status check. US only; UK and EU mapping pending. Never give doses, reconstitution, stacking, administration or sourcing; never validate a vendor or call a COA 'safe'. Adapt 'what you do next' to prescriber, clinical staff or advisor without changing grades or facts. The course is designed toward future CME accreditation; no credit is offered at this time.",
+  "tutorContext": "Module 7 closes the course: evidence appraisal, US regulatory frameworks and prescriber compliance, kept in separate registers. GRADE: certainty (high, moderate, low, very low; the guides print A–D) for one outcome across a body of evidence, never for a molecule; RCTs start high, observational studies low; rate down for risk of bias, inconsistency, indirectness (study PICO differs from the question), imprecision (CI crosses the important difference) and publication bias (suspect it when evidence is small industry-funded studies); rate up for large effects. Course examples: GHK-Cu's one indexed RCT measured post-laser healing (indirect for photoageing); BPC-157 wound data are rodent (indirect); LL-37 34-person positive then 148-person negative phase IIb (inconsistent); oral collagen benefit only in low-quality and industry-funded trials (risk of bias, Myung 2025). Lundh 2017 Cochrane: industry-sponsored studies more often favourable efficacy results, RR 1.27 (1.17–1.37). Grade and legal status are separate checks; mechanism never raises a grade. US 503A (21 USC 353a): identified patient, prescription; exempt only from approval, adequate directions, cGMP; bulk substance must meet a USP/NF monograph, else be an approved-drug component, else be on the 503A bulks list; registered manufacturer and valid COA; no statutory purity figure. 21 CFR 216.23: six substances, none a peptide, unchanged since 2019 (eCFR current 22 Sep 2026); listing is no endorsement. Categories 1–3 = interim enforcement posture: Category 1 includes non-injectable GHK-Cu (14 May 2026); 503A Category 2 has six substances; BPC-157, TB-500, KPV, injectable GHK-Cu, LL-37, melanotan II are withdrawn nominations with safety concerns still posted. PCAC 23–24 Jul 2026 is advisory; FDA staff concluded criteria weigh against listing BPC-157; only rulemaking changes the list. 503B: registered outsourcing facility, cGMP, risk-based inspection, adverse-event reporting, may compound without patient-specific prescriptions; products unapproved. >40 alpha amino acids = protein = biological product since 23 Mar 2020 (85 FR 10057); tesamorelin and hyaluronidase became BLAs; biologics cannot use 503A/503B exemptions; retatrutide residue count upheld by a district court in 2025, appeal pending (June 2026 filings). COA = supplier's report on one lot: MS identity (observed vs expected mass), HPLC purity (impurities unnamed), endotoxin (limit calculated from dose and route, FDA 2026 guidance), microbial, water, counter-ion, metals, solvents; cannot prove the vial is that lot, storage, sterility or legality; red flags = no lot, no chromatogram, no impurities, no endotoxin on an injectable, over 12 months old. FDA's BPC-157 briefing: public COAs mostly purity only; the nominator's COA reported no endotoxin test, and the COAs supplied were for the acetate while the free base was nominated. Ashraf 2024: three online semaglutide vials 7.7–14.4% purity vs 99% labelled, endotoxin in all. RUO: 21 CFR 312.160 permits shipment for lab or in-vitro research, 'Not for use in humans'; intended use judged objectively (21 CFR 201.128); a COA cannot convert RUO into a pharmaceutical. Cosmetic vs drug by intended use ('regenerate cells' is a drug claim; 'cosmeceutical' has no legal meaning); supplements not approved before sale; off-label applies only to approved drugs; unapproved new drug in interstate commerce is a prohibited act (21 USC 331); FDA's 2020 warning letter named compounded BPC-157 and GHK-Cu. Chart: article and status in those words; pathway, facility and COA if compounded; consent (not approved, foreseeable risks, approved alternatives incl. nothing, what happens if harm; elements borrowed from 21 CFR 50.25); grade quoted; monitoring and stopping rule; dated status check. UK (checked 25 Sep 2026; moments m7-p21, m7-p22): no 503A/503B; unlicensed medicines reach patients as regulation 167 'specials' (unsolicited order; doctor, dentist, nurse or pharmacist independent prescriber or supplementary prescriber; one patient's special needs; no advertising; manufacturer's specials licence, GMP-inspected site, product otherwise unassessed) or pharmacy preparation against a prescription (Medicines Act 1968 s.10); MHRA GN14 order: UK-licensed (even off-label) → licensed abroad → UK special → non-medicines such as supplements; special need excludes cost and convenience; prescriber responsible (GMC 102–108, MHRA DSU 2009, GPhC 2025, NMC Code 18). MHRA classifies by claims (websites, social media), form (injection) and use (GN8); no sale, supply or advertising without a UK marketing authorisation (HMR regs 46, 279); injectable melanotan = medicine (FOI 24/274); May 2026 seizure included peptide products; no POM advertising to the public (reg 284, CAP 12.12; Blue Guide: clinics may promote 'treatment for lines and wrinkles' without naming the POM; ASA 11 Feb 2026 Voy ruling on '#mounjaro' posts); GMC: physical examination before prescribing injectable cosmetic medicines. EU not covered. Never give doses, reconstitution, stacking, administration or sourcing; never validate a vendor or call a COA 'safe'. Adapt 'what you do next' to prescriber, clinical staff or advisor without changing grades or facts. The course is designed toward future CME accreditation; no credit is offered at this time.",
   "tutorKeywords": [
    "GRADE",
    "certainty of evidence",
@@ -69,10 +69,12 @@
     "m7-p07",
     "m7-p08",
     "m7-p09",
+    "m7-p21",
     "m7-p10",
     "m7-p11",
     "m7-p12",
     "m7-p13",
+    "m7-p22",
     "m7-p14"
    ]
   },
@@ -95,7 +97,7 @@
   {
    "id": "m7-p01",
    "type": "title",
-   "time": "01 / 20",
+   "time": "01 / 22",
    "lead": {
     "en": "Module 07 · Evidence, regulation and compliance"
    },
@@ -103,7 +105,7 @@
     "en": "Grade it, check it, write it down."
    },
    "body": {
-    "en": "This last module turns the course into three habits. You will rate the certainty behind a claim with GRADE, read a compounding status and a certificate of analysis for what they do and do not prove, and write the consent and chart note that an unapproved product needs. The regulatory detail is US; UK and EU mapping for this course is still in progress."
+    "en": "This last module turns the course into three habits. You will rate the certainty behind a claim with GRADE, read a compounding status and a certificate of analysis for what they do and do not prove, and write the consent and chart note that an unapproved product needs. The regulatory detail is given for the US and the UK: lesson 7.2 adds the UK route for unlicensed medicines and the UK rules on selling and advertising peptides. EU rules are not covered."
    },
    "points": [
     {
@@ -121,7 +123,7 @@
   {
    "id": "m7-p02",
    "type": "audio",
-   "time": "02 / 20",
+   "time": "02 / 22",
    "lead": {
     "en": "Lesson 7.1 · Concept"
    },
@@ -185,7 +187,7 @@
   {
    "id": "m7-p03",
    "type": "stat",
-   "time": "03 / 20",
+   "time": "03 / 22",
    "lead": {
     "en": "Who paid"
    },
@@ -220,7 +222,7 @@
   {
    "id": "m7-p04",
    "type": "tool",
-   "time": "04 / 20",
+   "time": "04 / 22",
    "lead": {
     "en": "Worked example"
    },
@@ -383,7 +385,7 @@
   {
    "id": "m7-p05",
    "type": "audio",
-   "time": "05 / 20",
+   "time": "05 / 22",
    "lead": {
     "en": "What changes in practice"
    },
@@ -459,7 +461,7 @@
   {
    "id": "m7-p06",
    "type": "quiz",
-   "time": "06 / 20",
+   "time": "06 / 22",
    "lead": {
     "en": "Your turn"
    },
@@ -517,7 +519,7 @@
   {
    "id": "m7-p07",
    "type": "audio",
-   "time": "07 / 20",
+   "time": "07 / 22",
    "lead": {
     "en": "Lesson 7.2 · Concept"
    },
@@ -580,7 +582,7 @@
   {
    "id": "m7-p08",
    "type": "tool",
-   "time": "08 / 20",
+   "time": "08 / 22",
    "lead": {
     "en": "Regulatory status (US)"
    },
@@ -665,7 +667,7 @@
   {
    "id": "m7-p09",
    "type": "stat",
-   "time": "09 / 20",
+   "time": "09 / 22",
    "lead": {
     "en": "Peptide or biologic"
    },
@@ -702,9 +704,96 @@
    }
   },
   {
+   "id": "m7-p21",
+   "type": "tool",
+   "time": "10 / 22",
+   "lead": {
+    "en": "Regulatory status (UK)"
+   },
+   "title": {
+    "en": "In the UK, specials instead of 503A."
+   },
+   "body": {
+    "en": "The UK handles unlicensed medicines by a different route. A medicine with no UK marketing authorisation may be supplied to meet one patient's special needs, made to a prescriber's specification by a manufacturer that holds a specials licence, and it may not be advertised. Dated to the Human Medicines Regulations 2012 and MHRA guidance as read on 25 September 2026."
+   },
+   "citationRefs": [
+    "uk-hmr-2012-reg-167",
+    "uk-hmr-2012-reg-46",
+    "uk-medicines-act-1968-s10",
+    "mhra-gn14-specials-2023",
+    "mhra-dsu-2009-offlabel-unlicensed",
+    "gmc-prescribing-unlicensed-2021",
+    "gphc-pharmacist-prescribers-2025",
+    "nmc-code-2018"
+   ],
+   "sourceNote": "Human Medicines Regulations 2012, regs 46 and 167 · Medicines Act 1968, s. 10 · MHRA Guidance Note 14 (2023) · MHRA Drug Safety Update (2009) · GMC (2021) · GPhC (2025) · NMC Code",
+   "tool": {
+    "items": [
+     {
+      "label": {
+       "en": "The route (regulation 167)"
+      },
+      "value": {
+       "en": "One patient, one prescriber, an unsolicited order"
+      },
+      "note": {
+       "en": "Made to the specification of a doctor, dentist, nurse or pharmacist independent prescriber or supplementary prescriber, for a patient under their direct care. No advertisement may be published."
+      }
+     },
+     {
+      "label": {
+       "en": "Who makes it"
+      },
+      "value": {
+       "en": "A manufacturer with a specials licence"
+      },
+      "note": {
+       "en": "The site is inspected for good manufacturing practice; the product itself is otherwise unassessed for safety, quality and efficacy. A pharmacist may also prepare a medicine in a registered pharmacy against a prescription."
+      }
+     },
+     {
+      "label": {
+       "en": "Special need"
+      },
+      "value": {
+       "en": "The patient's clinical need"
+      },
+      "note": {
+       "en": "MHRA's examples include an intolerance or allergy to an ingredient, or an inability to swallow solid doses. Cost, convenience and operational needs do not count."
+      }
+     },
+     {
+      "label": {
+       "en": "MHRA's order of preference"
+      },
+      "value": {
+       "en": "Licensed, then off-label, then imported, then special"
+      },
+      "note": {
+       "en": "A UK-licensed medicine comes first, even used off-label; then one licensed in its country of origin; then a UK special. Least acceptable are products that are not medicines where they are made, such as supplements."
+      }
+     },
+     {
+      "label": {
+       "en": "Responsibility"
+      },
+      "value": {
+       "en": "The prescriber's"
+      },
+      "note": {
+       "en": "Be satisfied the evidence supports safety and efficacy, take responsibility for the prescription and the follow-up, record your reasons, and explain them to the patient when the use is not routine. GMC, MHRA and GPhC guidance say this; nurse prescribers work within the NMC Code."
+      }
+     }
+    ],
+    "callout": {
+     "en": "Cost and convenience never justify a special, and a licensed option that meets the need comes first."
+    }
+   }
+  },
+  {
    "id": "m7-p10",
    "type": "audio",
-   "time": "10 / 20",
+   "time": "11 / 22",
    "lead": {
     "en": "Concept"
    },
@@ -768,7 +857,7 @@
   {
    "id": "m7-p11",
    "type": "tool",
-   "time": "11 / 20",
+   "time": "12 / 22",
    "lead": {
     "en": "Fictional certificate"
    },
@@ -958,7 +1047,7 @@
   {
    "id": "m7-p12",
    "type": "stat",
-   "time": "12 / 20",
+   "time": "13 / 22",
    "lead": {
     "en": "Label against laboratory"
    },
@@ -992,7 +1081,7 @@
   {
    "id": "m7-p13",
    "type": "audio",
-   "time": "13 / 20",
+   "time": "14 / 22",
    "lead": {
     "en": "What changes in practice"
    },
@@ -1066,9 +1155,78 @@
    }
   },
   {
+   "id": "m7-p22",
+   "type": "audio",
+   "time": "15 / 22",
+   "lead": {
+    "en": "Regulatory status (UK)"
+   },
+   "title": {
+    "en": "Selling and advertising peptides in the UK."
+   },
+   "body": {
+    "en": "In the UK, MHRA decides whether a product is a medicine from its claims, including websites and social media, and from its form and the way it is used. A medicine with no UK marketing authorisation may not be sold, supplied or advertised. MHRA classes injectable melanotan products as medicines, and its largest seizure of unlicensed weight-loss medicines, in May 2026, included peptide products. Prescription-only medicines may not be advertised to the public at all: a clinic may promote 'treatment for lines and wrinkles' without naming the medicine, and in February 2026 the UK advertising regulator ruled that influencer posts tagging a weight-loss injection were adverts for a prescription-only medicine. GMC guidance requires doctors to examine a patient physically before prescribing an injectable cosmetic medicine."
+   },
+   "points": [
+    {
+     "en": "Medicine or not: claims, form and use decide"
+    },
+    {
+     "en": "No UK licence: no sale, supply or advertising"
+    },
+    {
+     "en": "Prescription-only: never advertised to the public"
+    }
+   ],
+   "citationRefs": [
+    "mhra-gn8-medicinal-product-2025",
+    "uk-hmr-2012-reg-46",
+    "uk-hmr-2012-reg-279",
+    "mhra-foi-24-274-melanotan-ii",
+    "mhra-2026-05-29-largest-seizure",
+    "uk-hmr-2012-reg-284",
+    "cap-code-section-12",
+    "mhra-blue-guide-2020",
+    "asa-ruling-menwell-voy-2026",
+    "gmc-cosmetic-interventions-2016"
+   ],
+   "sourceNote": "MHRA Guidance Note 8 · Human Medicines Regulations 2012, regs 46, 279 and 284 · MHRA FOI 24/274 · MHRA, 29 May 2026 · CAP Code 12.12 · MHRA Blue Guide · ASA ruling, 11 Feb 2026 · GMC cosmetic interventions guidance",
+   "audioBeats": [
+    {
+     "title": {
+      "en": "Is it a medicine?"
+     },
+     "body": {
+      "en": "MHRA reads every claim, on the label, a website or social media, and looks at the product's form, such as an injection, and how it is used."
+     }
+    },
+    {
+     "title": {
+      "en": "Without a licence"
+     },
+     "body": {
+      "en": "A medicine with no UK marketing authorisation may not be sold, supplied or advertised. MHRA classes injectable melanotan as a medicine and seized peptide products in its largest weight-loss raid, in May 2026."
+     }
+    },
+    {
+     "title": {
+      "en": "Prescription-only"
+     },
+     "body": {
+      "en": "Clinics may promote a service without naming the medicine. An influencer's hashtag naming a weight-loss injection counted as an advert in a February 2026 ruling."
+     }
+    }
+   ],
+   "metadata": {
+    "audioScript": {
+     "en": "Selling a peptide in the United Kingdom starts with one question, whether the product is a medicine, and MHRA answers it from the product as a whole. It reads every claim made for it, on a website or on social media, and looks at its form, such as an injection, and the way it is used. A medicine with no UK marketing authorisation may not be sold, supplied or advertised. MHRA classes injectable melanotan products as medicines, and in May 2026 it seized peptide products in its largest raid on unlicensed weight-loss medicines. Prescription-only medicines may not be advertised to the public at all. A clinic may promote treatment for lines and wrinkles, and it may leave the medicine unnamed. In February 2026 the advertising regulator ruled that influencer posts tagging a weight-loss injection were adverts for a prescription-only medicine. And GMC guidance requires doctors to examine a patient physically before prescribing any injectable cosmetic medicine, which rules out prescribing it by phone or online."
+    }
+   }
+  },
+  {
    "id": "m7-p14",
    "type": "quiz",
-   "time": "14 / 20",
+   "time": "16 / 22",
    "lead": {
     "en": "Your turn"
    },
@@ -1125,7 +1283,7 @@
   {
    "id": "m7-p15",
    "type": "audio",
-   "time": "15 / 20",
+   "time": "17 / 22",
    "lead": {
     "en": "Lesson 7.3 · Concept"
    },
@@ -1188,7 +1346,7 @@
   {
    "id": "m7-p16",
    "type": "tool",
-   "time": "16 / 20",
+   "time": "18 / 22",
    "lead": {
     "en": "Classification (US)"
    },
@@ -1196,7 +1354,7 @@
     "en": "Same molecule, different rulebooks."
    },
    "body": {
-    "en": "Route and claim decide the regime, whatever the molecule. Here is how each one treats a skin peptide in the US, as checked in September 2026."
+    "en": "Route and claim decide the regime, whatever the molecule. Here is how each one treats a skin peptide in the US, as checked in September 2026. The UK sorts products the same way, by claim, form and use, into cosmetics, food and medicines; lesson 7.2 set out its route for unlicensed medicines."
    },
    "citationRefs": [
     "fda-cosmetic-or-drug-page",
@@ -1206,7 +1364,8 @@
     "usc-21-353a",
     "ecfr-21-cfr-312-160",
     "hannah-shmouni-2026-ppg-aug",
-    "hannah-shmouni-2026-are"
+    "hannah-shmouni-2026-are",
+    "mhra-gn8-medicinal-product-2025"
    ],
    "sourceNote": "FDA: cosmetic or drug; dietary supplements; off-label use · FDA 503A categories (14 May 2026) · 21 CFR 312.160 · Hormonaly guides",
    "tool": {
@@ -1275,7 +1434,7 @@
   {
    "id": "m7-p17",
    "type": "audio",
-   "time": "17 / 20",
+   "time": "19 / 22",
    "lead": {
     "en": "Fictional case"
    },
@@ -1413,7 +1572,7 @@
   {
    "id": "m7-p18",
    "type": "tool",
-   "time": "18 / 20",
+   "time": "20 / 22",
    "lead": {
     "en": "Documentation"
    },
@@ -1427,9 +1586,12 @@
     "hannah-shmouni-2026-ppg-aug",
     "hannah-shmouni-2026-are",
     "ecfr-21-cfr-50-25",
-    "fda-503a-categories-2026-05-14"
+    "fda-503a-categories-2026-05-14",
+    "mhra-gn14-specials-2023",
+    "gmc-prescribing-unlicensed-2021",
+    "mhra-dsu-2009-offlabel-unlicensed"
    ],
-   "sourceNote": "Peptide Pocket Guide, prescriber exposure and pearl 8 · 21 CFR 50.25 · Aesthetic & Regenerative Endocrinology, medicolegal pearl",
+   "sourceNote": "Peptide Pocket Guide, prescriber exposure and pearl 8 · 21 CFR 50.25 · Aesthetic & Regenerative Endocrinology, medicolegal pearl · UK: MHRA Guidance Note 14 · GMC 2021 · MHRA Drug Safety Update 2009",
    "tool": {
     "items": [
      {
@@ -1440,7 +1602,7 @@
        "en": "Article and status, in those words"
       },
       "note": {
-       "en": "For example 'not FDA-approved; no 503A route', never 'off-label'"
+       "en": "For example 'not FDA-approved; no 503A route' in the US, or 'unlicensed medicine' in the UK; never 'off-label'"
       }
      },
      {
@@ -1451,7 +1613,7 @@
        "en": "Pathway, facility, certificate"
       },
       "note": {
-       "en": "503A or 503B, the pharmacy, and the certificate of analysis relied on"
+       "en": "503A or 503B, the pharmacy, and the certificate of analysis relied on; in the UK, the specials manufacturer and the patient's special need"
       }
      },
      {
@@ -1495,7 +1657,7 @@
        "en": "Dated"
       },
       "note": {
-       "en": "The day you checked the FDA lists; they changed in April and May 2026"
+       "en": "The day you checked the FDA lists (they changed in April and May 2026) or, in the UK, MHRA's product information"
       }
      }
     ],
@@ -1507,7 +1669,7 @@
   {
    "id": "m7-p19",
    "type": "quiz",
-   "time": "19 / 20",
+   "time": "21 / 22",
    "lead": {
     "en": "Your turn"
    },
@@ -1564,7 +1726,7 @@
   {
    "id": "m7-p20",
    "type": "action",
-   "time": "20 / 20",
+   "time": "22 / 22",
    "lead": {
     "en": "Closing and commitment"
    },
@@ -1591,7 +1753,7 @@
       "en": "I will grade the outcome the patient wants, and name what lowers it."
      },
      {
-      "en": "I will check the live FDA status on the day, and date it."
+      "en": "I will check the live regulatory status on the day (FDA lists in the US, MHRA in the UK), and date it."
      },
      {
       "en": "I will chart the regime, the grade and the consent in plain words."
@@ -1648,7 +1810,7 @@
      {
       "value": "status-live",
       "label": {
-       "en": "check the live FDA lists on the day, and date the check"
+       "en": "check the live status with my regulator on the day (FDA or MHRA), and date the check"
       },
       "group": "regulatory"
      },
@@ -1804,6 +1966,35 @@
   "c-m07-20": [
    "m7-p18",
    "m7-p20"
+  ],
+  "c-m07-21": [
+   "m7-p21"
+  ],
+  "c-m07-22": [
+   "m7-p21"
+  ],
+  "c-m07-23": [
+   "m7-p21"
+  ],
+  "c-m07-24": [
+   "m7-p21",
+   "m7-p18"
+  ],
+  "c-m07-25": [
+   "m7-p22",
+   "m7-p16"
+  ],
+  "c-m07-26": [
+   "m7-p22"
+  ],
+  "c-m07-27": [
+   "m7-p22"
+  ],
+  "c-m07-28": [
+   "m7-p22"
+  ],
+  "c-m07-29": [
+   "m7-p22"
   ]
  },
  "audienceLevelPanes": [
@@ -1941,14 +2132,17 @@
     "off label"
    ],
    "answer": {
-    "en": "In the US, a 503A pharmacy may compound only from a substance that meets a USP or NF monograph, or else is a component of an approved drug, or else is on the 503A bulks list (six substances, none a peptide, as of September 2026), and it needs a valid certificate of analysis. A certificate is the supplier's report on one lot: mass spectrometry for identity, HPLC for purity, plus endotoxin and microbial results. It cannot prove your vial is that lot, how it was stored, or that it is sterile or lawful. 'Research use only' products are labelled not for use in humans, and 'off-label' applies only to approved drugs. This course gives no doses or sourcing advice; for an individual patient, that is the prescriber's decision."
+    "en": "In the US, a 503A pharmacy may compound only from a substance that meets a USP or NF monograph, or else is a component of an approved drug, or else is on the 503A bulks list (six substances, none a peptide, as of September 2026), and it needs a valid certificate of analysis. A certificate is the supplier's report on one lot: mass spectrometry for identity, HPLC for purity, plus endotoxin and microbial results. It cannot prove your vial is that lot, how it was stored, or that it is sterile or lawful. 'Research use only' products are labelled not for use in humans, and 'off-label' applies only to approved drugs. In the UK, an unlicensed medicine reaches a patient as a 'special', made by a licensed specials manufacturer to a prescriber's order for one patient's special clinical need, or as a medicine a pharmacist prepares against a prescription; MHRA guidance ranks a UK-licensed medicine, even used off-label, ahead of an unlicensed one, and specials may not be advertised. This course gives no doses or sourcing advice; for an individual patient, that is the prescriber's decision."
    },
    "citationRefs": [
     "usc-21-353a",
     "ecfr-21-cfr-216-23-bulks-list",
     "hannah-shmouni-2026-ppg-aug",
     "ecfr-21-cfr-312-160",
-    "fda-off-label-page"
+    "fda-off-label-page",
+    "uk-hmr-2012-reg-167",
+    "mhra-gn14-specials-2023",
+    "uk-medicines-act-1968-s10"
    ],
    "scope": "m07"
   }
@@ -1970,5 +2164,61 @@
   "approver": "Fady Hannah-Shmouni, MD FRCPC",
   "date": "2026-09-24",
   "scope": "module 07, full-course review draft of 2026-09-24 (course-draft.docx); approval relayed by Omar Saleem, 2026-09-24"
- }
+ },
+ "postApprovalChanges": [
+  {
+   "date": "2026-09-25",
+   "block": "m7-p21 (NEW moment, lesson 7.2, after m7-p09)",
+   "change": "New tool moment 'In the UK, specials instead of 503A.': regulation 167 specials (one patient, one prescriber, unsolicited order, no advertising), specials-licensed manufacture (GMP-inspected, product otherwise unassessed) and pharmacy preparation (Medicines Act s. 10), special need (clinical, never cost or convenience), MHRA's order of preference (licensed → off-label → imported → special → non-medicines), prescriber responsibility (GMC, MHRA, GPhC, NMC). No interaction. Claims c-m07-21, c-m07-22, c-m07-23, c-m07-24.",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m7-p22 (NEW moment, lesson 7.2, after m7-p13)",
+   "change": "New audio moment 'Selling and advertising peptides in the UK.': MHRA classifies by claims, form and use (GN8); no sale, supply or advertising without a UK licence (regs 46, 279); injectable melanotan classed as a medicine and peptide products seized in May 2026; no advertising of prescription-only medicines to the public (reg. 284, CAP 12.12, Blue Guide); ASA ruling of 11 Feb 2026 on influencer '#mounjaro' posts; GMC physical examination before prescribing injectable cosmetic medicines. No interaction, no role versions. Claims c-m07-25, c-m07-26, c-m07-27, c-m07-28, c-m07-29.",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "module 07 counters and timing",
+   "change": "Moment counters renumbered '01 / 22' to '22 / 22' for the two new moments; lesson 7.2 now lists them; estimated time 27 → 29 minutes. No other wording changed by this.",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m7-p01 (body)",
+   "change": "'The regulatory detail is US; UK and EU mapping ... still in progress' → US and UK detail, lesson 7.2 adds the UK route and UK selling and advertising rules; EU not covered.",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m7-p16 (body)",
+   "change": "Pointer added: the UK sorts products the same way (claim, form, use) into cosmetics, food and medicines, and lesson 7.2 set out its unlicensed-medicines route. Claim c-m07-25.",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m7-p18 (tool rows 1, 2 and 6)",
+   "change": "UK chart wording added: 'unlicensed medicine' as the UK article-and-status wording; for a UK special, the specials manufacturer and the patient's special need; the dated status check may be MHRA's product information. Claim c-m07-24.",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m7-p20 (suggestion 2, chip)",
+   "change": "'check the live FDA status/lists' → FDA lists in the US or MHRA in the UK.",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "tutor-m07-compounding-coa",
+   "change": "Tutor answer adds the UK specials route, pharmacy preparation, MHRA's order of preference and the ban on advertising specials.",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "unit tutorContext",
+   "change": "'US only; UK and EU mapping pending' replaced by the UK framework summary; EU marked as not covered.",
+   "forReview": "Fady Hannah-Shmouni"
+  }
+ ]
 }

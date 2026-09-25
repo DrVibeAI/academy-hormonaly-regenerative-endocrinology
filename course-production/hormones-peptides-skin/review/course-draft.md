@@ -5,12 +5,12 @@
 | Module | Title | Moments | Time | Sources | Claims | Status |
 |--------|--------------------------------|---------:|--------|--------:|-------:|----------|
 | m01 | The skin as an endocrine organ, and how it ages · three lessons | 19 | ~25 min | 34 | 20 | approved |
-| m02 | Systemic hormones and the skin · three lessons | 19 | ~26 min | 33 | 20 | approved |
-| m03 | Fat, incretins and the ageing face · three lessons | 20 | ~27 min | 51 | 20 | approved |
-| m04 | Matrix peptides and wound healing · three lessons | 19 | ~26 min | 49 | 20 | approved |
-| m05 | Follicle, pigment and melanocortins · three lessons | 19 | ~26 min | 34 | 20 | approved |
-| m06 | The growth-hormone axis and the skin · three lessons | 19 | ~26 min | 38 | 19 | approved |
-| m07 | Evidence, regulation and compliance · three lessons | 20 | ~27 min | 37 | 20 | approved |
+| m02 | Systemic hormones and the skin · three lessons | 19 | ~26 min | 39 | 23 | approved |
+| m03 | Fat, incretins and the ageing face · three lessons | 20 | ~27 min | 59 | 24 | approved |
+| m04 | Matrix peptides and wound healing · three lessons | 19 | ~26 min | 61 | 24 | approved |
+| m05 | Follicle, pigment and melanocortins · three lessons | 19 | ~26 min | 41 | 25 | approved |
+| m06 | The growth-hormone axis and the skin · three lessons | 19 | ~26 min | 42 | 21 | approved |
+| m07 | Evidence, regulation and compliance · three lessons | 22 | ~29 min | 54 | 29 | approved |
 
 ## What we need from you
 
@@ -21,8 +21,19 @@
 
 - **m01** · m1-p15, m1-p18, tutor-m01-senescence (2026-09-24) — The automated source check, which matches every cited sentence against the source's own text, contradicted two statements. Both are corrected. (1) Baker 2016 did measure skin: thickness, fibrosis and wound closure as safety checks, and clearance during healing slowed wound closure, so the course no longer says skin was not an endpoint. (2) Chung 2019 topical rapamycin was an exploratory randomized trial with clinical appearance described qualitatively. The course now says no adequately sized trial with clinical skin-ageing outcomes was found, and keeps 'no randomized senolytic trial' where the statement is about senolytics.
 - **m01** · m1-p05, cq-m01-2, tutor-m01-atlas (2026-09-24) — Source-check alignment: vitamin D3 'to the liver' (the cited source names the liver step); atlas tutor answer no longer adds 'including skin' beyond the abstract.
+- **m02** · m2-p11 (body, beats 1 and 3, narration, prescriber and advisor versions) (2026-09-25) — UK position added beside the US one: HRT products are prescription-only medicines licensed in the UK for oestrogen-deficiency symptoms and, for some, osteoporosis prevention (Evorel, Sandrena SmPCs); a compounded 'bioidentical' hormone is an unlicensed medicine, placed behind any licensed product that meets the need (MHRA Guidance Note 14); on the UK medicines compendium topical tretinoin appears only in acne treatments. Prescriber line now reads 'licensed products (FDA-approved in the US, MHRA-licensed in the UK)'; advisor line adds that UK HRT products are prescription-only. Claims c-m02-21, c-m02-22, c-m02-23.
+- **m02** · tutor-m02-hrt-skin (2026-09-25) — Tutor answer adds the UK position: HRT products are prescription-only medicines licensed for oestrogen-deficiency symptoms and, for some, osteoporosis prevention; skin is not among their uses; a compounded 'bioidentical' hormone is an unlicensed medicine behind any licensed product that meets the need.
+- **m02** · unit tutorContext (2026-09-25) — Tutor context adds the UK HRT and tretinoin position (same facts as m2-p11).
 - **m02** · m2-p03, m2-p19, tutor-m02-hrt-skin (2026-09-24) — Source-check alignment: cortisol callout states what the source says (local regulation independent of systemic levels); HRT chip names approved uses and cites the FDA labeling record; KEEPS four-year trial cited in the tutor answer.
 - **m02** · tutor-m02-hrt-skin (2026-09-24) — Citation only: tutor answer now cites fda-renova-tretinoin-label, sitohang-2022-tretinoin-sr for statements it already made. No wording change.
+- **m03** · m3-p08 (body, beat 3, narration) (2026-09-25) — UK added: both molecules are MHRA-licensed, and tirzepatide's diabetes and weight-management uses share one UK brand, Mounjaro (UK SmPCs; MHRA 8 Nov 2023). Beat 3 now labels the four-brand statement as US. Claim c-m03-21.
+- **m03** · m3-p09 (2026-09-25) — 'UK and EU status is being mapped' replaced by a UK row: Ozempic diabetes, Wegovy weight and heart, Mounjaro diabetes and weight (Nov 2023); MHRA says retatrutide is not authorised and illegal to sell (24 Jul 2026) and made its largest seizure of unlicensed weight-loss medicines in May 2026. EU marked as not covered. Claims c-m03-21, c-m03-23.
+- **m03** · m3-p11 (2026-09-25) — Regulatory row relabelled 'US and UK'; adds that UK product information also lists hair loss (Wegovy 2.5%, Mounjaro 4.9%, placebo 1.0%). Claim c-m03-22.
+- **m03** · m3-p17 (quickfire why, tirzepatide) (2026-09-25) — 'In the US, tirzepatide is not approved for psoriasis' → 'Its US approval and its UK licence both leave out psoriasis' (Mounjaro UK SmPC).
+- **m03** · m3-p18 (narration, prescriber version) (2026-09-25) — UK sentence added: an unlicensed peptide reaches a patient only through narrow routes such as a special for one patient's clinical need (module 07); prescriber version adds that a UK special needs a clinical need no licensed product meets, on the prescriber's responsibility. Claim c-m03-24.
+- **m03** · m03-tutor-ozempic-face (2026-09-25) — Tutor answer adds the UK licences (Ozempic, Wegovy, Mounjaro), UK hair-loss labelling and MHRA's statement that retatrutide is not authorised in the UK.
+- **m03** · m03-tutor-gut-skin (2026-09-25) — Tutor answer adds the UK specials route (one patient's special clinical need, prescriber's responsibility).
+- **m03** · unit tutorContext (2026-09-25) — 'UK/EU status not yet mapped' replaced by the UK facts above; EU marked as not covered.
 - **m03** · m3-p08, m3-p15 (2026-09-24) — From the automated source check: the approvals moment now also cites the Wegovy and Zepbound labels; 'by about half' removed from the high-fat-meal endotoxin sentence (the abstract gives no size).
 - **m03** · m3-p17 (2026-09-24) — Quickfire category 'No human outcome data' → 'Little or no human outcome data' (the Hormonaly guide calls the repair stack's human outcome data limited).
 - **m03** · m03-tutor-gut-skin (2026-09-24) — Citation only: tutor answer now cites fda-503a-categories-2026-05-14, fda-503a-bulks-page for statements it already made. No wording change.
@@ -33,9 +44,40 @@
 - **m04** · m4-p17 (2026-09-24) — Heavy metals: 'reported for this market but not documented' reworded to 'claimed for this market, but no published analysis behind that claim was found' (the finding already recorded for the A&RE guide's figure). Wording only; found by the automated source check reading the guide.
 - **m04** · m4-p09, m4-p17 (2026-09-24) — Classify label 'No randomized trial' refined to 'No independent randomized trial' (the Peptide Pocket Guide describes independent trials of Matrixyl 3000 as limited, not absent). Heavy metals: the course now reports the Hormonaly guide's statement and then that its published analysis could not be found, instead of contradicting it silently. Wording only.
 - **m04** · m4-q3 (2026-09-24) — Citation only: the lesson quiz on GHK-Cu's injectable-only Category 1 exception now cites FDA's 503A categories list (14 May 2026). No wording change.
+- **m04** · m4-p05 (tool row 3) (2026-09-25) — Row relabelled 'US, 14 May 2026; UK, September 2026'; adds that in the UK a GHK-Cu serum sold for appearance is a cosmetic and cosmetics law excludes anything injected. Claim c-m04-21.
+- **m04** · m4-p06 (body, narration, prescriber version) (2026-09-25) — UK added: anything injected falls outside cosmetics law and MHRA decides whether it is a medicine; the prescriber line now says '503A' checks apply in the US, and that in the UK a GHK-Cu serum presented for appearance is a cosmetic with nothing to prescribe. Claims c-m04-21, c-m04-24.
+- **m04** · m4-p11 (body, narration) (2026-09-25) — 'UK and EU rules are being mapped' replaced by the UK position: serums are cosmetics (responsible person, safety assessment, notification, substantiated claims); oral collagen is a food supplement (no disease claims, only authorised health claims); ASA ruling of 13 May 2026 against a peptide serum's 'clinically proven' lift claim. Claims c-m04-21, c-m04-22, c-m04-23.
+- **m04** · m4-p16 (body) (2026-09-25) — Pointer added for UK learners: the route for unlicensed medicines works differently in the UK and lesson 7.2 sets it out.
+- **m04** · m4-p19 (suggestion 3, chip) (2026-09-25) — 'check ... on the live FDA list' → 'check ... with my regulator (FDA lists in the US, MHRA in the UK)'.
+- **m04** · tutor-m04-ghkcu (2026-09-25) — Tutor answer adds the UK position (serum = cosmetic; injected products fall outside cosmetics law; an unauthorised medicine may not be sold, supplied or advertised).
+- **m04** · tutor-m04-bpc157 (2026-09-25) — Tutor answer adds the UK position (no sale, supply or advertising without a UK marketing authorisation; MHRA's May 2026 seizure included peptide products).
+- **m04** · unit tutorContext (2026-09-25) — Tutor context adds the UK cosmetic, food-supplement and unlicensed-medicine position (same facts as the blocks).
+- **m05** · m5-p03 (body) (2026-09-25) — UK added: baricitinib is licensed for severe alopecia areata in adults; NICE did not recommend it for NHS use (TA926, Oct 2023). Claim c-m05-21.
+- **m05** · m5-p05 (body, beat 2, narration, prescriber version) (2026-09-25) — UK added: minoxidil licensed and a men's foam on general sale; finasteride for hair loss only on private prescription; baricitinib licensed; MHRA's strengthened finasteride warnings (11 May 2026). Prescriber version adds the UK finasteride steps (ask about depression, patient card, review). Claims c-m05-21, c-m05-22, c-m05-23.
+- **m05** · m5-p08 (tool row 3) (2026-09-25) — Regulatory row adds 'UK licensed' for afamelanotide, with its exceptional-circumstances licence, specialist porphyria centres and NICE's July 2023 decision not to recommend it. Claim c-m05-24.
+- **m05** · m5-p12 (body) (2026-09-25) — 'UK and EU mapping for the rest of this course is still in progress' → 'EU status is not covered in this course.'
+- **m05** · m5-p17 (body, narration, prescriber version) (2026-09-25) — 'Mapping of UK and EU status ... still under way' replaced: in the UK a spray made for one patient would be an unlicensed special, and MHRA guidance puts a UK-licensed product that could meet the need (e.g. minoxidil) ahead of it; prescriber version adds that cost and convenience do not justify a special. Claim c-m05-25.
+- **m05** · tutor-m05-melanotan (2026-09-25) — Tutor answer adds afamelanotide's UK licence and NICE HST27. Citation only: it now also cites the MHRA FOI and TGA advisory records its existing sentence on FDA, MHRA and TGA warnings already relied on (the source check flagged the TGA mention as uncited once the MHRA record was added).
+- **m05** · tutor-m05-hair-peptides (2026-09-25) — Tutor answer adds the UK status of minoxidil, finasteride (with MHRA's May 2026 warnings) and baricitinib, and the specials position for a peptide spray.
+- **m05** · unit tutorContext (2026-09-25) — Tutor context adds the UK facts above; EU marked as not covered.
 - **m05** · m5-check (2026-09-24) — Module check now cites both 1990s Melanotan II studies (Dorr 1996, Wessells 1998).
 - **m05** · m5-p14, m5-q2 (2026-09-24) — Source-check alignment: PTD-DBM described without the HIV Tat detail and thymulin without the residue count (neither in the cited abstracts); the quiz cites the priapism case report.
+- **m06** · m6-p05 (body, point 3, beat 3, narration) (2026-09-25) — UK added: somatropin is a prescription-only medicine licensed for GH deficiency and specific growth disorders, and a Class C controlled drug (Genotropin UK SmPC; Misuse of Drugs Act 1971 Sch. 2). Claim c-m06-20.
+- **m06** · m6-p08 (new tool row) (2026-09-25) — UK row added after the US row: MHRA's products database holds no UK product information for tesamorelin (searched 25 Sep 2026). Claim c-m06-21.
+- **m06** · m6-p12 (body, point 3, beat 3, narration, prescriber version) (2026-09-25) — 'UK and EU status is still being mapped ... treat these as US facts' replaced: MHRA's products database holds no product information for tesamorelin, sermorelin or ipamorelin, so any of them would be an unlicensed medicine in the UK; point 3 now reads 'with your regulator'; prescriber version adds the UK specials test. Claim c-m06-21.
+- **m06** · m6-p19 (chip) (2026-09-25) — 'check its current US status on the live FDA lists' → 'check its current status with my regulator (FDA lists in the US, MHRA in the UK)'.
+- **m06** · tutor-m06-secretagogues (2026-09-25) — Tutor answer labels the federal-offence sentence as US and adds the UK position (somatropin prescription-only and Class C; no UK product information for tesamorelin, sermorelin or ipamorelin).
+- **m06** · unit tutorContext (2026-09-25) — Tutor context adds the UK somatropin and secretagogue position.
 - **m06** · m6-p05, cq-m06-2, tutor-m06-gh-excess (2026-09-24) — Source-check alignment: GH adverse-effect statements cite Liu 2007 (whose results list them); the GH-excess tutor answer cites the Endocrine Society acromegaly guideline.
+- **m07** · m7-p21 (NEW moment, lesson 7.2, after m7-p09) (2026-09-25) — New tool moment 'In the UK, specials instead of 503A.': regulation 167 specials (one patient, one prescriber, unsolicited order, no advertising), specials-licensed manufacture (GMP-inspected, product otherwise unassessed) and pharmacy preparation (Medicines Act s. 10), special need (clinical, never cost or convenience), MHRA's order of preference (licensed → off-label → imported → special → non-medicines), prescriber responsibility (GMC, MHRA, GPhC, NMC). No interaction. Claims c-m07-21, c-m07-22, c-m07-23, c-m07-24.
+- **m07** · m7-p22 (NEW moment, lesson 7.2, after m7-p13) (2026-09-25) — New audio moment 'Selling and advertising peptides in the UK.': MHRA classifies by claims, form and use (GN8); no sale, supply or advertising without a UK licence (regs 46, 279); injectable melanotan classed as a medicine and peptide products seized in May 2026; no advertising of prescription-only medicines to the public (reg. 284, CAP 12.12, Blue Guide); ASA ruling of 11 Feb 2026 on influencer '#mounjaro' posts; GMC physical examination before prescribing injectable cosmetic medicines. No interaction, no role versions. Claims c-m07-25, c-m07-26, c-m07-27, c-m07-28, c-m07-29.
+- **m07** · module 07 counters and timing (2026-09-25) — Moment counters renumbered '01 / 22' to '22 / 22' for the two new moments; lesson 7.2 now lists them; estimated time 27 → 29 minutes. No other wording changed by this.
+- **m07** · m7-p01 (body) (2026-09-25) — 'The regulatory detail is US; UK and EU mapping ... still in progress' → US and UK detail, lesson 7.2 adds the UK route and UK selling and advertising rules; EU not covered.
+- **m07** · m7-p16 (body) (2026-09-25) — Pointer added: the UK sorts products the same way (claim, form, use) into cosmetics, food and medicines, and lesson 7.2 set out its unlicensed-medicines route. Claim c-m07-25.
+- **m07** · m7-p18 (tool rows 1, 2 and 6) (2026-09-25) — UK chart wording added: 'unlicensed medicine' as the UK article-and-status wording; for a UK special, the specials manufacturer and the patient's special need; the dated status check may be MHRA's product information. Claim c-m07-24.
+- **m07** · m7-p20 (suggestion 2, chip) (2026-09-25) — 'check the live FDA status/lists' → FDA lists in the US or MHRA in the UK.
+- **m07** · tutor-m07-compounding-coa (2026-09-25) — Tutor answer adds the UK specials route, pharmacy preparation, MHRA's order of preference and the ban on advertising specials.
+- **m07** · unit tutorContext (2026-09-25) — 'US only; UK and EU mapping pending' replaced by the UK framework summary; EU marked as not covered.
 - **m07** · m7-p04 (2026-09-24) — 'rodent models' → 'animal models, mostly rodents' (the cited review also reports pig studies).
 - **m07** · m7-p09 (2026-09-24) — Tesamorelin's description cites the EGRIFTA WR label.
 
@@ -67,59 +109,69 @@ Grade = certainty the source gives for the specific clinical statement the lesso
 20. **m02** — A&RE algorithms pp.93–96 are images only; the course used them to locate claims and sourced every teaching statement to a primary or guideline record. The menopause algorithm's 'topical estrogen off-label (C)' box would read more safely as 'not recommended for wrinkles' to match ch.9's text.
 21. **m02** — All other A&RE ch.8, ch.9 and inherited-syndrome references resolved on PubMed with matching title, first author, journal and year (Slominski 2000, Tiganescu 2011, Schoepe 2006, Nieman 2008, Hall 2005, Thornton 2013, Brincat 2005, NAMS 2022 and 2020, Shu 2011, Manson 2013, Pivazyan 2023, Lause 2017, Darling 1997, Stanescu 2024, Kirschner 2000).
 22. **m02** — Not in either guide, worth adding — Ajjan 2022 (first human RCT of 11β-HSD1 inhibition in skin; pilot, primary outcome missed), Phillips 2008 and Owen 2016 (negative HT wrinkle trials), Martin 2018 (Endocrine Society hirsutism guideline: rapid progression or virilization → androgen-secreting tumour, ~0.2%, over half malignant), Bornstein 2016 (hyperpigmentation distribution in primary adrenal insufficiency), Correa 2015 (Carney complex cardiac myxomas), Hughes 2013 (sunscreen RCT, n=903) and the Renova label (the one FDA-approved adjunct for fine facial wrinkles).
-23. **m03** — Grading-rule gap — the rule has no tier for observational human studies (cohorts, surveys, imaging series, tissue biochemistry). Module 03 followed GRADE's starting point: adequately sized observational studies graded C for the association they measured, small or uncontrolled studies D, and any causal inference drawn from association D. Suggest adding this line to the rule for all modules.
-24. **m03** — A&RE ch.13 glycation paragraph — rates AGE cross-linking → loss of elasticity GRADE B and AGE–RAGE → NF-κB inflammatory signalling GRADE B, citing two reviews (Gkogkolou & Böhm 2012; Chaudhuri 2018). Gkogkolou & Böhm conclude that 'still little is known on the precise role of AGEs during skin aging'. The primary human evidence found is observational accumulation (Dyer 1993; Verzijl 2000). The course grades accumulation C and the causal skin-ageing link D, and names the disagreement; the author may wish to revisit the B.
-25. **m03** — SURMOUNT-1 figure — A&RE prints '~21%' at the top dose (the trial's treatment-regimen estimand, −20.9%) and PPG-Aug prints '22.5%' (the efficacy estimand). Both are correct for different estimands; each guide should name its estimand. The course uses the primary treatment-regimen figures (−15.0% to −20.9% vs −3.1%).
-26. **m03** — A&RE ch.12 telogen effluvium GRADE B — the anchor is a review (Persson 2025). The primary evidence is the US labels' placebo-controlled hair-loss rates (Wegovy 3.3% vs 1%, higher at the higher approved dose; Zepbound 4–5% vs 1%; mostly women; associated with weight reduction). Suggest citing the labels; the telogen-effluvium mechanism itself is inferred from observational reports.
-27. **m03** — A&RE ch.12 counselling box — 'slower titration and a gradual rate of loss reduce both lean-mass and facial-volume loss': no primary study was found linking titration pace to facial volume, and titration and the protein g/kg figure are outside the source lock. The course teaches counselling, monitoring and referral only.
-28. **m03** — A&RE ch.11–12 say rapid loss depletes 'subcutaneous and dermal fat'. The only quantitative facial study (Sharma 2025, n=20) measured superficial and deep midface compartments; no human study measuring dermal white adipose tissue on incretins was found. Suggest 'subcutaneous facial fat' unless a dermal study is cited. Relatedly, A&RE ch.11 presents dWAT's antimicrobial defence without noting it is mouse data (human acne-lesion data now exist: O'Neill 2022).
-29. **m03** — PPG-Aug semaglutide and tirzepatide entries — no skin or facial notes, although both US labels now list hair loss among common adverse reactions and the Wegovy label lists dysesthesia (altered skin sensation). The semaglutide entry's indications omit the March 2024 cardiovascular risk-reduction indication (Wegovy S-011, SELECT). The current Mounjaro label (effective 27 August 2026) includes a cardiovascular risk-reduction indication that the August build does not list.
-30. **m03** — A&RE ch.16 grades a fibre-rich diet A; the review it cites (Reynolds 2019) rates certainty 'moderate' for dietary fibre and has no skin outcomes, which the course rule maps to B. The course reports the guide's A for metabolic outcomes, states the review's certainty, and says no trial has measured skin.
-31. **m03** — A&RE ch.12 'small studies report improvement in psoriasis GRADE C' — still C, but two primary trials now bracket it: a negative 20-patient placebo-controlled RCT of liraglutide (Faurschou 2015) and an open-label, Lilly-sponsored phase 3b RCT of tirzepatide added to ixekizumab (Lebwohl 2026, TOGETHER-PsO). Worth citing both.
-32. **m03** — Not in either guide, worth adding — Sharma 2025 (first quantitative imaging of midface volume on GLP-1 RAs), Rao 2026 (1,226-patient survey: facial and hair effects rise with weight lost), Batsis 2026 (independent review of body composition across 35 RCTs), the Cochrane review of probiotics for eczema (Makrgeorgou 2018), Scheffler 2018 (commercial zonulin ELISA does not detect zonulin), and the US labels as the primary source for hair-loss rates.
-33. **m03** — Reference check — every A&RE reference the module uses from chapters 11, 12, 13, 14 and 16 (Kershaw & Flier; Zhang 2015; Chen 2019; SELECT; Drucker; STEP-1; SURMOUNT-1; Camilleri; Burke; Persson; Franceschi 2000; Ferrucci & Fabbri; Gkogkolou & Böhm; Chaudhuri; Humphrey & Lawrence; Conte; Reynolds; Suez; Depommier) resolved on PubMed with the printed journal, volume and year. PPG-Aug PMIDs for STEP-1, SURMOUNT-1, SELECT and SURMOUNT-OSA resolve.
-34. **m03** — Jurisdiction — both guides are US-centred for incretin regulation; module 03 asserts US status only (FDA labels, Drugs@FDA, FDA statement current 1 September 2026). MHRA/EMA status of Wegovy, Mounjaro and compounded GLP-1 products is not asserted and needs mapping for UK learners (in progress).
-35. **m04** — A&RE ch.15 ref 4 — 'Sikiric P, et al. Curr Med Chem 2018;25:1972' does not resolve on PubMed; the title matches Curr Pharm Des 2018;24:1990–2001 (PMID 29879879), which the Pocket Guide cites correctly.
-36. **m04** — PPG-Aug Argireline entry — 'Wang Y et al. [not indexed]': the 2013 Am J Clin Dermatol randomized placebo-controlled trial is indexed (PMID 23417317).
-37. **m04** — PPG-Aug LL-37 entry — Grönberg et al. is 2014 (printed 2015); Mahlapuu et al. is 2021 (printed 2022).
-38. **m04** — A&RE ch.15 RUO cautions — the heavy-metal (arsenic, lead) statement has no citation and no primary analytical study of skin-peptide RUO products was found; the course now says 'reported, not documented'. The '30% wrong sequence / 65% endotoxin' figure circulating online traces to no journal.
-39. **m04** — PPG-Aug KPV entry — the 'small open-label studies for atopic dermatitis' could not be located on PubMed.
-40. **m04** — GHK-Cu regulatory status — FDA's May 14, 2026 category document records the April 22, 2026 withdrawal, the May 5 partial reinstatement (non-injectable routes) and a PCAC consultation intended before end of February 2027; both guides should date-stamp 'Category 1 (non-injectable)'.
-41. **m04** — Grade disagreement between the guides — A&RE ch.5 rates Argireline and Matrixyl-type peptides GRADE C; the Pocket Guide rates Argireline, Leuphasyl, Matrixyl 3000 and Palmitoyl Tripeptide-1 GRADE D. The course grades pal-KTTKS and Argireline C (RCTs incl. an independent 2023 trial) and the blends/Leuphasyl D, and names the disagreement.
-42. **m04** — Oral collagen — Myung & Park 2025 (Am J Med, 23 RCTs) find the benefit only in pharmaceutical-funded and low-quality trials; the author may wish to revisit A&RE's GRADE C.
-43. **m04** — SNAP-8 is in neither guide; the course adds it from the literature (Errante 2020 review; two combination-product studies).
-44. **m04** — Not in either guide, worth adding — Miller 2006 (the one indexed RCT of topical GHK-Cu), Aruan 2023 (independent RCT, Argireline vs pal-KTTKS), Esposito 2012 (TB-500 characterized as the Tβ4 17–23 fragment), the two 2026 BPC-157 trial registrations, and the two independent 2025–26 BPC-157 reviews.
-45. **m04** — Trial-registry integrity (2026-09-24): ClinicalTrials.gov sponsor 'Hudson Biotech' lists eight 'recruiting' records covering BPC-157, TB-500, MOTS-c, GHK-Cu, Melanotan II, tesamorelin, tirzepatide ('SURMOUNT-1', Lilly's published trial title) and LY3437943, including one titled '(Mock Study)'. The course no longer cites any of them. Recommend neither Hormonaly guide cite registrations from this sponsor, and that the foundry's source check flag registrations whose sponsor holds mock or duplicated records.
-46. **m04** — Leuphasyl (2026-09-24, from the claim-support check): an independent university volunteer study exists (Dragomirescu 2014, Cosmetics, not PubMed-indexed; three concentrations, wrinkle imaging, no randomized control described). The course now says 'no randomized controlled trial' instead of 'no independent human trial'; the grade stays D. Worth adding to the Pocket Guide's Leuphasyl entry.
-47. **m05** — Grade disagreement between the guides — Melanotan II is GRADE C in the Pocket Guide and GRADE D ('harms > benefit') in A&RE ch.15. The only controlled human data are Dorr 1996 (single-blind, alternating-day pilot in three men, not randomized) and Wessells 1998 (ten-man erectile-dysfunction crossover); no trial has tested tanning. The course states both grades and teaches D for cosmetic use; the Pocket Guide may wish to align.
-48. **m05** — PPG-Aug Melanotan II references — 'Multiple case reports … (see TGA/MHRA warnings) [not indexed]': the case reports are indexed. The course adds Habbema 2017 (A&RE ch.15 ref 8), Cardones 2009, Paurobally 2013, Hjuler 2014, Mang 2012, Mallory 2021 and Nelson 2012, and the live regulator records: FDA's compounding safety page (current as of 22 Apr 2026), MHRA FOI 24/274 (17 Apr 2024) and TGA's safety advisory (17 Aug 2026). The Dorr 1996 reference carries no PMID in the guide (PMID 8637402).
-49. **m05** — A&RE ch.15 — Melanotan II 'unapproved by the FDA and by regulators in the UK, EU, and Australia': UK and Australia verified (MHRA 2024; TGA 2026); EU status was not checked against an EMA record, so the course names the US, UK and Australia only. A&RE ch.6 grades Melanotan II D beside 'no quality control'; the TGA 2026 testing (content varying more than twofold across identically labelled bottles) and Breindahl 2015 (43–88% of the labelled amount) are citable support.
-50. **m05** — PPG-Aug PTD-DBM entry — (a) 'Effective only combined with a Wnt-pathway modulator (typically valproic acid)': Lee 2017's abstract reports that the competitor peptide alone accelerated hair regrowth in mice (valproic acid was studied separately, including in CXXC5-knockout mice); the course teaches no combination claim. (b) The 'hair-shedding phase during early use' adverse reaction has no human source. (c) 'Used in compounding pharmacies': PTD-DBM appears in none of FDA's 503A categories (14 May 2026) and is not on the bulks list (21 CFR 216.23); a dated US status line would help. (d) The corresponding author is affiliated with CK Biotechnology Inc.
-51. **m05** — PPG-Aug Zinc Thymulin entry — 'Caroleo MC et al. (zinc thymulin hair-loss case series, small) [not indexed]' could not be located on PubMed or by author search. FDA's 14 May 2026 list places thymulin acetate in 503A Category 3 (nominated without adequate support), which the entry's 'compounded for cosmetic hair use' does not mention.
-52. **m05** — PPG-Aug Afamelanotide entry — 'Three pivotal Phase 3 trials … across 244 EPP adults' and '10-year post-authorization safety data show no new signals' were not verified; the course cites the two published NEJM trials (Langendonk 2015, n=74 and n=94). The current US label (revised Aug 2024) recommends a full-body skin examination twice yearly — worth quoting in the entry's safety line. A&RE ch.6 wording ('approved to reduce phototoxicity in EPP') matches the EMA indication; the US indication is 'to increase pain free light exposure in adult patients with a history of phototoxic reactions from EPP'.
-53. **m05** — A&RE hair-loss workup algorithm (p.93) is a figure with no extractable text; the course transcribed it from the rendered page (patterned thinning → AGA; diffuse shed after trigger → telogen effluvium; patchy smooth loss → alopecia areata; androgen excess → hyperandrogenism work-up; always ferritin and TSH, androgens if virilising, scarring → biopsy). Please confirm the transcription.
-54. **m05** — Not in either guide, worth adding — Adil & Godwin 2017 (RCT meta-analysis for minoxidil and finasteride), Böhm 2025 (MC1R activation review: approved agonists, at least five melanomas with Melanotan II all with other risk factors, skin examination in high-risk people), Laiho & Murray 2022 (receptor map, open access), Breindahl 2015 and Mang 2012 (dermoscopic changes during Melanotan II use).
-55. **m05** — Trial-registry caution — ClinicalTrials.gov records from the sponsor 'Hudson Biotech' include NCT07437560 (Melanotan II with NB-UVB for vitiligo, 'recruiting' since Feb 2026), whose summary begins 'This example interventional study record describes…', and NCT07481734, titled '(Mock Study)'. The same sponsor holds NCT07437586 (GHK-Cu wound gel) and NCT07437547 (BPC-157 hamstring), which module 04 cites as recruiting trials; they should be re-verified before either guide cites them as real trials. The course does not cite NCT07437560.
-56. **m06** — A&RE ch.15 table ('CJC-1295 / ipamorelin … Cat. 2 (not in 2026 review)') and the drug-safety page ('503A Category-2'): FDA's Category 2 page (content current 22 April 2026) lists CJC-1295 and ipamorelin among Category 2 nominations that were withdrawn (ipamorelin remains in 503B Category 2), and neither appears in FDA's 503A category list of 14 May 2026. Suggest re-dating the status.
-57. **m06** — Grade disagreement — A&RE rates CJC-1295/ipamorelin 'GRADE C anecdotal' and the Pocket Guide rates CJC-1295 and ipamorelin C; by the Pocket Guide's own scale 'anecdotal' is D. Their human data are phase 1 hormone-level studies (CJC-1295 with DAC), one negative phase 2 trial (ipamorelin, postoperative ileus) and nothing for CJC-1295 without DAC. The course teaches D for any clinical or skin benefit and names the disagreement.
-58. **m06** — A&RE ch.14 — 'illegal to prescribe for anti-aging in the US GRADE A' attaches an evidence grade to a legal statement. The statute (21 U.S.C. 333(e)) prohibits knowing distribution for unauthorised uses; the trial evidence (Liu 2007: 18 small RCT populations, 220 treated) grades B on the course rule. The conclusion — GH is not an anti-ageing therapy — is unchanged.
-59. **m06** — PPG CJC-1295 entry — 'Teichman et al. J Clin Endocrinol Metab 2005;91:799-805' is 2006 (March; epub December 2005), PMID 16352683.
-60. **m06** — PPG IGF-1 LR3 entry — 'Dominikowski A et al. Peptides marketed for performance and longevity: absence of human studies. 2025 (PMID 42395176)': the PMID resolves to Dominikowski A et al., 'The emerging landscape of performance-enhancing peptides modulating GH-IGF1 axis…', Front Endocrinol 2026;17:1822475 — the title and year differ.
-61. **m06** — PPG CJC-1295 entry — the 'fatal event in a CJC-1131 trial' within 'related long-acting GHRH-analogue programs': PubMed describes CJC-1131 as a long-acting GLP-1 analogue (Léger 2004, PMID 15357960; Tiessen 2008, PMID 18793574), and no fatal event could be located. The course uses FDA's own summary of CJC-1295 adverse events (increased heart rate, systemic vasodilatory reaction) instead.
-62. **m06** — PPG sermorelin regulatory line is garbled ('not on not categorized on FDA's 14 May 2026 roster restricted list'). Verified: sermorelin appears in no 503A category (14 May 2026); Geref's approvals were withdrawn in 2009 at the maker's request and FDA's 2013 determination found no safety or effectiveness reason. No FDA document found states the legal basis on which 503A pharmacies compound sermorelin today; the course states only the verified facts and suggests the author address this.
-63. **m06** — PPG adverse-effects section (pp. 119–120, 'IGF-1 targets' and dose reduction) is titration guidance and stays outside the source lock; module 06 uses only the recognition and referral content. Precision note: the label's figure is IGF-1 above +2 SDS in 47% at 26 weeks (the guide says 'exceeded ULN').
-64. **m06** — The brief's verification request — Falutz J et al., N Engl J Med 2007;357:2359–70 — resolves to PMID 18057338 (title, first author, journal and year match); A&RE ch.15 ref 2 is correct.
-65. **m06** — Not in either guide, worth adding — Rudman 1990 (much cited; its skin result missed significance), Lange 2001 (skin in GH deficiency and acromegaly), the 2014 Cochrane review of GH in major burns (the only skin indication with RCTs), Khorram 1997 (the only GHRH-analogue study with a skin outcome), Nass 2008 and Adunsky 2011 (ibutamoren: IGF-1 up, no functional benefit, heart-failure signal), FDA's October 2024 advisory-committee votes on ipamorelin and ibutamoren, the Egrifta label's IGF-1 figures and the somatropin label's nevus-monitoring warning, and the IGF-1 cancer epidemiology (Renehan 2004, Knuppel 2020, Dal 2018, SAGhE 2017).
-66. **m07** — Peptide Pocket Guide, 'The FDA's regulatory line' table (peptide fundamentals) — the rows '41–99 alpha amino acids, chemically synthesized: still regulated as a drug' and '≥100: always a protein regardless of synthesis route' reflect FDA's 2018 proposal. The Further Consolidated Appropriations Act 2020 removed the 'chemically synthesized polypeptide' exception, and FDA's final rule (85 FR 10057, effective 23 March 2020) defines any alpha amino acid polymer of more than 40 amino acids as a protein; FDA did not finalize the 41–99 interpretation. Tesamorelin (44 residues, which the guide lists among polypeptides) was itself deemed a biologics licence on 23 March 2020.
-67. **m07** — Peptide Pocket Guide — 'biologics … are largely ineligible for 503A pharmacy compounding' and, in the Lilly v. FDA case study, '503A compounding of biologics operates under different authority': FDA's March 2020 notice to compounders states that biological products subject to licensure under PHS Act 351 (including deemed BLAs such as hyaluronidase and hCG) are not eligible for the 503A or 503B exemptions. Suggest stating it that plainly.
-68. **m07** — Aesthetic & Regenerative Endocrinology ch. 3 ref 4 and ch. 20 ref 3 give the PCAC docket as 'FDA-2026-N-2979'; the Federal Register notice (91 FR 20465, doc 2026-07361) is Docket No. FDA-2025-N-6895, as the Peptide Pocket Guide prints.
-69. **m07** — Aesthetic & Regenerative Endocrinology ch. 15 table, ch. 20 regulatory pearl and the drug-safety table place BPC-157, TB-500, CJC-1295, ipamorelin and epitalon in '503A Category 2'. FDA's safety-risks page (content current 22 April 2026) lists them in the table of withdrawn nominations, in no category (ipamorelin remains in 503B Category 2), and 503A Category 2 holds six substances as of 14 May 2026. The Peptide Pocket Guide (August build) is current on this point.
-70. **m07** — Aesthetic & Regenerative Endocrinology ch. 3 decision frame and the 'peptide decision framework' algorithm reduce 503A eligibility to 'on the current positive bulks list'. The statute's routes are hierarchical — USP/NF monograph, then component of an approved drug, then the bulks list — with Category 1 enforcement discretion (e.g., non-injectable GHK-Cu) a separate interim posture. The course teaches the statutory order.
-71. **m07** — Peptide Pocket Guide, 'For research-use-only peptides' (peptide fundamentals) — the steps offered 'if the product is being used outside its labelled purpose' (independent MS and HPLC, an endotoxin test before injectable use, dose-by-dose documentation) read as harm-reduction instructions for human use of products labelled 'Not for use in humans' (21 CFR 312.160), and sit awkwardly beside the guide's own 'the RUO disclaimer provides no legal protection'. The course omits them; suggest reframing as what a clinician records when a patient discloses use.
-72. **m07** — Peptide Pocket Guide — the two GRADE definition pages disagree: 'How strong is the evidence?' defines D as animal, in-vitro or mechanistic reasoning only and C as including conflicting results; 'Where the GRADE ratings come from' adds 'industry-driven claims' to D. Suggest one definition, mapped explicitly to GRADE's four certainty levels and its five rating-down domains.
-73. **m07** — Peptide Pocket Guide, jurisdictional snapshot — 'most malpractice policies exclude unapproved-drug claims' carries no citation and could not be verified; the course does not use it.
-74. **m07** — FDA's July 2026 BPC-157 briefing (fda.gov/media/193343) is primary evidence both guides could cite in their certificate-of-analysis sections: the nominators' certificates were for BPC-157 acetate while the nomination was for the free base, publicly available BPC-157 certificates mostly report purity alone with no impurity limits, and the nominator's certificate reported no endotoxin test. The same document cites a single small exploratory trial in ulcerative colitis reported only as a meeting abstract.
-75. **m07** — Not in either guide, worth adding — the Core GRADE series (BMJ 2025) as the current GRADE reference; the Cochrane review of industry sponsorship and research outcome (Lundh 2017); FDA's endotoxin Q&A guidance (Edition 2, March 2026) for the dose-and-route basis of endotoxin limits; FDA's 'Is It a Cosmetic, a Drug, or Both?' page, whose drug-claim examples include 'regenerate cells'; and Popławska 2019 (an undocumented GHRP-2 analogue found in a seized vial by high-resolution MS).
+23. **m02** — UK status (2026-09-25) — neither guide gives a UK position for menopausal hormone therapy or tretinoin. UK HRT licences (e.g. Evorel patches, Sandrena gel) cover oestrogen-deficiency symptoms and, for some products, osteoporosis prevention; a compounded 'bioidentical' preparation is an unlicensed medicine in the UK (MHRA Guidance Note 14 places any licensed product that meets the need first). The UK medicines compendium lists topical tretinoin only in acne combinations (Treclin, Aknemycin Plus), so the guides' 'prescription retinoid for photoageing' advice reads as US practice for a UK reader. MHRA's products database could not confirm an absence for tretinoin (its full-text search returns 289 documents), so the course states only what the compendium lists.
+24. **m03** — Grading-rule gap — the rule has no tier for observational human studies (cohorts, surveys, imaging series, tissue biochemistry). Module 03 followed GRADE's starting point: adequately sized observational studies graded C for the association they measured, small or uncontrolled studies D, and any causal inference drawn from association D. Suggest adding this line to the rule for all modules.
+25. **m03** — A&RE ch.13 glycation paragraph — rates AGE cross-linking → loss of elasticity GRADE B and AGE–RAGE → NF-κB inflammatory signalling GRADE B, citing two reviews (Gkogkolou & Böhm 2012; Chaudhuri 2018). Gkogkolou & Böhm conclude that 'still little is known on the precise role of AGEs during skin aging'. The primary human evidence found is observational accumulation (Dyer 1993; Verzijl 2000). The course grades accumulation C and the causal skin-ageing link D, and names the disagreement; the author may wish to revisit the B.
+26. **m03** — SURMOUNT-1 figure — A&RE prints '~21%' at the top dose (the trial's treatment-regimen estimand, −20.9%) and PPG-Aug prints '22.5%' (the efficacy estimand). Both are correct for different estimands; each guide should name its estimand. The course uses the primary treatment-regimen figures (−15.0% to −20.9% vs −3.1%).
+27. **m03** — A&RE ch.12 telogen effluvium GRADE B — the anchor is a review (Persson 2025). The primary evidence is the US labels' placebo-controlled hair-loss rates (Wegovy 3.3% vs 1%, higher at the higher approved dose; Zepbound 4–5% vs 1%; mostly women; associated with weight reduction). Suggest citing the labels; the telogen-effluvium mechanism itself is inferred from observational reports.
+28. **m03** — A&RE ch.12 counselling box — 'slower titration and a gradual rate of loss reduce both lean-mass and facial-volume loss': no primary study was found linking titration pace to facial volume, and titration and the protein g/kg figure are outside the source lock. The course teaches counselling, monitoring and referral only.
+29. **m03** — A&RE ch.11–12 say rapid loss depletes 'subcutaneous and dermal fat'. The only quantitative facial study (Sharma 2025, n=20) measured superficial and deep midface compartments; no human study measuring dermal white adipose tissue on incretins was found. Suggest 'subcutaneous facial fat' unless a dermal study is cited. Relatedly, A&RE ch.11 presents dWAT's antimicrobial defence without noting it is mouse data (human acne-lesion data now exist: O'Neill 2022).
+30. **m03** — PPG-Aug semaglutide and tirzepatide entries — no skin or facial notes, although both US labels now list hair loss among common adverse reactions and the Wegovy label lists dysesthesia (altered skin sensation). The semaglutide entry's indications omit the March 2024 cardiovascular risk-reduction indication (Wegovy S-011, SELECT). The current Mounjaro label (effective 27 August 2026) includes a cardiovascular risk-reduction indication that the August build does not list.
+31. **m03** — A&RE ch.16 grades a fibre-rich diet A; the review it cites (Reynolds 2019) rates certainty 'moderate' for dietary fibre and has no skin outcomes, which the course rule maps to B. The course reports the guide's A for metabolic outcomes, states the review's certainty, and says no trial has measured skin.
+32. **m03** — A&RE ch.12 'small studies report improvement in psoriasis GRADE C' — still C, but two primary trials now bracket it: a negative 20-patient placebo-controlled RCT of liraglutide (Faurschou 2015) and an open-label, Lilly-sponsored phase 3b RCT of tirzepatide added to ixekizumab (Lebwohl 2026, TOGETHER-PsO). Worth citing both.
+33. **m03** — Not in either guide, worth adding — Sharma 2025 (first quantitative imaging of midface volume on GLP-1 RAs), Rao 2026 (1,226-patient survey: facial and hair effects rise with weight lost), Batsis 2026 (independent review of body composition across 35 RCTs), the Cochrane review of probiotics for eczema (Makrgeorgou 2018), Scheffler 2018 (commercial zonulin ELISA does not detect zonulin), and the US labels as the primary source for hair-loss rates.
+34. **m03** — Reference check — every A&RE reference the module uses from chapters 11, 12, 13, 14 and 16 (Kershaw & Flier; Zhang 2015; Chen 2019; SELECT; Drucker; STEP-1; SURMOUNT-1; Camilleri; Burke; Persson; Franceschi 2000; Ferrucci & Fabbri; Gkogkolou & Böhm; Chaudhuri; Humphrey & Lawrence; Conte; Reynolds; Suez; Depommier) resolved on PubMed with the printed journal, volume and year. PPG-Aug PMIDs for STEP-1, SURMOUNT-1, SELECT and SURMOUNT-OSA resolve.
+35. **m03** — Jurisdiction — both guides are US-centred for incretin regulation; module 03 asserts US status only (FDA labels, Drugs@FDA, FDA statement current 1 September 2026). MHRA/EMA status of Wegovy, Mounjaro and compounded GLP-1 products is not asserted and needs mapping for UK learners (in progress).
+36. **m03** — UK status (2026-09-25) — both guides describe the incretin drugs by their US brands and indications. In the UK, Mounjaro carries both the type 2 diabetes and the weight-management licence (MHRA, 8 Nov 2023; no separate weight-loss brand appears in UK product information), Ozempic's UK licence is type 2 diabetes, and UK SmPCs list hair loss (Wegovy 2.5%, Mounjaro 4.9%, placebo 1.0%). MHRA's statement that retatrutide is not authorised and illegal to sell in the UK (24 Jul 2026) and its May 2026 seizure of unlicensed weight-loss medicines and peptide products are citable in the guides' gray-market sections.
+37. **m04** — A&RE ch.15 ref 4 — 'Sikiric P, et al. Curr Med Chem 2018;25:1972' does not resolve on PubMed; the title matches Curr Pharm Des 2018;24:1990–2001 (PMID 29879879), which the Pocket Guide cites correctly.
+38. **m04** — PPG-Aug Argireline entry — 'Wang Y et al. [not indexed]': the 2013 Am J Clin Dermatol randomized placebo-controlled trial is indexed (PMID 23417317).
+39. **m04** — PPG-Aug LL-37 entry — Grönberg et al. is 2014 (printed 2015); Mahlapuu et al. is 2021 (printed 2022).
+40. **m04** — A&RE ch.15 RUO cautions — the heavy-metal (arsenic, lead) statement has no citation and no primary analytical study of skin-peptide RUO products was found; the course now says 'reported, not documented'. The '30% wrong sequence / 65% endotoxin' figure circulating online traces to no journal.
+41. **m04** — PPG-Aug KPV entry — the 'small open-label studies for atopic dermatitis' could not be located on PubMed.
+42. **m04** — GHK-Cu regulatory status — FDA's May 14, 2026 category document records the April 22, 2026 withdrawal, the May 5 partial reinstatement (non-injectable routes) and a PCAC consultation intended before end of February 2027; both guides should date-stamp 'Category 1 (non-injectable)'.
+43. **m04** — Grade disagreement between the guides — A&RE ch.5 rates Argireline and Matrixyl-type peptides GRADE C; the Pocket Guide rates Argireline, Leuphasyl, Matrixyl 3000 and Palmitoyl Tripeptide-1 GRADE D. The course grades pal-KTTKS and Argireline C (RCTs incl. an independent 2023 trial) and the blends/Leuphasyl D, and names the disagreement.
+44. **m04** — Oral collagen — Myung & Park 2025 (Am J Med, 23 RCTs) find the benefit only in pharmaceutical-funded and low-quality trials; the author may wish to revisit A&RE's GRADE C.
+45. **m04** — SNAP-8 is in neither guide; the course adds it from the literature (Errante 2020 review; two combination-product studies).
+46. **m04** — Not in either guide, worth adding — Miller 2006 (the one indexed RCT of topical GHK-Cu), Aruan 2023 (independent RCT, Argireline vs pal-KTTKS), Esposito 2012 (TB-500 characterized as the Tβ4 17–23 fragment), the two 2026 BPC-157 trial registrations, and the two independent 2025–26 BPC-157 reviews.
+47. **m04** — Trial-registry integrity (2026-09-24): ClinicalTrials.gov sponsor 'Hudson Biotech' lists eight 'recruiting' records covering BPC-157, TB-500, MOTS-c, GHK-Cu, Melanotan II, tesamorelin, tirzepatide ('SURMOUNT-1', Lilly's published trial title) and LY3437943, including one titled '(Mock Study)'. The course no longer cites any of them. Recommend neither Hormonaly guide cite registrations from this sponsor, and that the foundry's source check flag registrations whose sponsor holds mock or duplicated records.
+48. **m04** — Leuphasyl (2026-09-24, from the claim-support check): an independent university volunteer study exists (Dragomirescu 2014, Cosmetics, not PubMed-indexed; three concentrations, wrinkle imaging, no randomized control described). The course now says 'no randomized controlled trial' instead of 'no independent human trial'; the grade stays D. Worth adding to the Pocket Guide's Leuphasyl entry.
+49. **m04** — UK status (2026-09-25) — neither guide covers UK cosmetics or food law. For a UK reader: peptide serums are cosmetics under the assimilated Cosmetic Products Regulation 1223/2009 (Responsible Person, safety assessment, OPSS notification, claims that must be substantiated; anything injected is not a cosmetic, art 2(2)); oral collagen is a food supplement (Food Supplements (England) Regulations 2003; no disease claims, FIC art 7(3); only authorised health claims, Regulation 1924/2006 art 10). The ASA's 13 May 2026 ruling against a peptide serum's 'clinically proven' 20% lift claim (30 participants, no control) illustrates the guides' own sponsorship point.
+50. **m04** — Oral collagen, UK health claims (2026-09-25) — the Great Britain nutrition and health claims register (DHSC, 19 May 2026) lists collagen skin claims as non-authorised (e.g. 'helps the skin to preserve its firmness and elasticity', and the proprietary VeriSol P claim on skin elasticity and wrinkles), while 'vitamin C contributes to normal collagen formation for the normal function of skin' is authorised — which is why many collagen products add vitamin C. Worth adding to the guides' oral-collagen entry. The course does not state it yet: the register is published only as a spreadsheet, which the automated source check cannot read.
+51. **m05** — Grade disagreement between the guides — Melanotan II is GRADE C in the Pocket Guide and GRADE D ('harms > benefit') in A&RE ch.15. The only controlled human data are Dorr 1996 (single-blind, alternating-day pilot in three men, not randomized) and Wessells 1998 (ten-man erectile-dysfunction crossover); no trial has tested tanning. The course states both grades and teaches D for cosmetic use; the Pocket Guide may wish to align.
+52. **m05** — PPG-Aug Melanotan II references — 'Multiple case reports … (see TGA/MHRA warnings) [not indexed]': the case reports are indexed. The course adds Habbema 2017 (A&RE ch.15 ref 8), Cardones 2009, Paurobally 2013, Hjuler 2014, Mang 2012, Mallory 2021 and Nelson 2012, and the live regulator records: FDA's compounding safety page (current as of 22 Apr 2026), MHRA FOI 24/274 (17 Apr 2024) and TGA's safety advisory (17 Aug 2026). The Dorr 1996 reference carries no PMID in the guide (PMID 8637402).
+53. **m05** — A&RE ch.15 — Melanotan II 'unapproved by the FDA and by regulators in the UK, EU, and Australia': UK and Australia verified (MHRA 2024; TGA 2026); EU status was not checked against an EMA record, so the course names the US, UK and Australia only. A&RE ch.6 grades Melanotan II D beside 'no quality control'; the TGA 2026 testing (content varying more than twofold across identically labelled bottles) and Breindahl 2015 (43–88% of the labelled amount) are citable support.
+54. **m05** — PPG-Aug PTD-DBM entry — (a) 'Effective only combined with a Wnt-pathway modulator (typically valproic acid)': Lee 2017's abstract reports that the competitor peptide alone accelerated hair regrowth in mice (valproic acid was studied separately, including in CXXC5-knockout mice); the course teaches no combination claim. (b) The 'hair-shedding phase during early use' adverse reaction has no human source. (c) 'Used in compounding pharmacies': PTD-DBM appears in none of FDA's 503A categories (14 May 2026) and is not on the bulks list (21 CFR 216.23); a dated US status line would help. (d) The corresponding author is affiliated with CK Biotechnology Inc.
+55. **m05** — PPG-Aug Zinc Thymulin entry — 'Caroleo MC et al. (zinc thymulin hair-loss case series, small) [not indexed]' could not be located on PubMed or by author search. FDA's 14 May 2026 list places thymulin acetate in 503A Category 3 (nominated without adequate support), which the entry's 'compounded for cosmetic hair use' does not mention.
+56. **m05** — PPG-Aug Afamelanotide entry — 'Three pivotal Phase 3 trials … across 244 EPP adults' and '10-year post-authorization safety data show no new signals' were not verified; the course cites the two published NEJM trials (Langendonk 2015, n=74 and n=94). The current US label (revised Aug 2024) recommends a full-body skin examination twice yearly — worth quoting in the entry's safety line. A&RE ch.6 wording ('approved to reduce phototoxicity in EPP') matches the EMA indication; the US indication is 'to increase pain free light exposure in adult patients with a history of phototoxic reactions from EPP'.
+57. **m05** — A&RE hair-loss workup algorithm (p.93) is a figure with no extractable text; the course transcribed it from the rendered page (patterned thinning → AGA; diffuse shed after trigger → telogen effluvium; patchy smooth loss → alopecia areata; androgen excess → hyperandrogenism work-up; always ferritin and TSH, androgens if virilising, scarring → biopsy). Please confirm the transcription.
+58. **m05** — Not in either guide, worth adding — Adil & Godwin 2017 (RCT meta-analysis for minoxidil and finasteride), Böhm 2025 (MC1R activation review: approved agonists, at least five melanomas with Melanotan II all with other risk factors, skin examination in high-risk people), Laiho & Murray 2022 (receptor map, open access), Breindahl 2015 and Mang 2012 (dermoscopic changes during Melanotan II use).
+59. **m05** — Trial-registry caution — ClinicalTrials.gov records from the sponsor 'Hudson Biotech' include NCT07437560 (Melanotan II with NB-UVB for vitiligo, 'recruiting' since Feb 2026), whose summary begins 'This example interventional study record describes…', and NCT07481734, titled '(Mock Study)'. The same sponsor holds NCT07437586 (GHK-Cu wound gel) and NCT07437547 (BPC-157 hamstring), which module 04 cites as recruiting trials; they should be re-verified before either guide cites them as real trials. The course does not cite NCT07437560.
+60. **m05** — UK status (2026-09-25) — worth adding to both guides' hair and melanocortin entries: baricitinib is licensed in the UK for severe alopecia areata but NICE did not recommend it for NHS use (TA926, Oct 2023; ritlecitinib, TA958, is recommended from age 12 and is not taught here); afamelanotide holds a UK licence under exceptional circumstances for specialist porphyria centres, and NICE did not recommend it (HST27, Jul 2023); finasteride 1 mg is a private prescription in the UK, and MHRA strengthened its psychiatric and sexual-dysfunction warnings on 11 May 2026 (patient card since 2024). A men's minoxidil foam is on the General Sales List.
+61. **m06** — A&RE ch.15 table ('CJC-1295 / ipamorelin … Cat. 2 (not in 2026 review)') and the drug-safety page ('503A Category-2'): FDA's Category 2 page (content current 22 April 2026) lists CJC-1295 and ipamorelin among Category 2 nominations that were withdrawn (ipamorelin remains in 503B Category 2), and neither appears in FDA's 503A category list of 14 May 2026. Suggest re-dating the status.
+62. **m06** — Grade disagreement — A&RE rates CJC-1295/ipamorelin 'GRADE C anecdotal' and the Pocket Guide rates CJC-1295 and ipamorelin C; by the Pocket Guide's own scale 'anecdotal' is D. Their human data are phase 1 hormone-level studies (CJC-1295 with DAC), one negative phase 2 trial (ipamorelin, postoperative ileus) and nothing for CJC-1295 without DAC. The course teaches D for any clinical or skin benefit and names the disagreement.
+63. **m06** — A&RE ch.14 — 'illegal to prescribe for anti-aging in the US GRADE A' attaches an evidence grade to a legal statement. The statute (21 U.S.C. 333(e)) prohibits knowing distribution for unauthorised uses; the trial evidence (Liu 2007: 18 small RCT populations, 220 treated) grades B on the course rule. The conclusion — GH is not an anti-ageing therapy — is unchanged.
+64. **m06** — PPG CJC-1295 entry — 'Teichman et al. J Clin Endocrinol Metab 2005;91:799-805' is 2006 (March; epub December 2005), PMID 16352683.
+65. **m06** — PPG IGF-1 LR3 entry — 'Dominikowski A et al. Peptides marketed for performance and longevity: absence of human studies. 2025 (PMID 42395176)': the PMID resolves to Dominikowski A et al., 'The emerging landscape of performance-enhancing peptides modulating GH-IGF1 axis…', Front Endocrinol 2026;17:1822475 — the title and year differ.
+66. **m06** — PPG CJC-1295 entry — the 'fatal event in a CJC-1131 trial' within 'related long-acting GHRH-analogue programs': PubMed describes CJC-1131 as a long-acting GLP-1 analogue (Léger 2004, PMID 15357960; Tiessen 2008, PMID 18793574), and no fatal event could be located. The course uses FDA's own summary of CJC-1295 adverse events (increased heart rate, systemic vasodilatory reaction) instead.
+67. **m06** — PPG sermorelin regulatory line is garbled ('not on not categorized on FDA's 14 May 2026 roster restricted list'). Verified: sermorelin appears in no 503A category (14 May 2026); Geref's approvals were withdrawn in 2009 at the maker's request and FDA's 2013 determination found no safety or effectiveness reason. No FDA document found states the legal basis on which 503A pharmacies compound sermorelin today; the course states only the verified facts and suggests the author address this.
+68. **m06** — PPG adverse-effects section (pp. 119–120, 'IGF-1 targets' and dose reduction) is titration guidance and stays outside the source lock; module 06 uses only the recognition and referral content. Precision note: the label's figure is IGF-1 above +2 SDS in 47% at 26 weeks (the guide says 'exceeded ULN').
+69. **m06** — The brief's verification request — Falutz J et al., N Engl J Med 2007;357:2359–70 — resolves to PMID 18057338 (title, first author, journal and year match); A&RE ch.15 ref 2 is correct.
+70. **m06** — Not in either guide, worth adding — Rudman 1990 (much cited; its skin result missed significance), Lange 2001 (skin in GH deficiency and acromegaly), the 2014 Cochrane review of GH in major burns (the only skin indication with RCTs), Khorram 1997 (the only GHRH-analogue study with a skin outcome), Nass 2008 and Adunsky 2011 (ibutamoren: IGF-1 up, no functional benefit, heart-failure signal), FDA's October 2024 advisory-committee votes on ipamorelin and ibutamoren, the Egrifta label's IGF-1 figures and the somatropin label's nevus-monitoring warning, and the IGF-1 cancer epidemiology (Renehan 2004, Knuppel 2020, Dal 2018, SAGhE 2017).
+71. **m06** — UK status (2026-09-25) — neither guide gives the UK position on this axis. Somatropin is a prescription-only medicine in the UK and a Class C controlled drug (Misuse of Drugs Act 1971 Sch. 2 Part III; Misuse of Drugs Regulations 2001 Sch. 4 Part II). MHRA's products database returned no documents for tesamorelin, sermorelin or ipamorelin (25 Sep 2026). CJC-1295, ibutamoren, GHRP-2/-6 and IGF-1 LR3 were not stated: the database's full-text search cannot confirm an absence for names that contain numbers or appear inside other products' leaflets.
+72. **m07** — Peptide Pocket Guide, 'The FDA's regulatory line' table (peptide fundamentals) — the rows '41–99 alpha amino acids, chemically synthesized: still regulated as a drug' and '≥100: always a protein regardless of synthesis route' reflect FDA's 2018 proposal. The Further Consolidated Appropriations Act 2020 removed the 'chemically synthesized polypeptide' exception, and FDA's final rule (85 FR 10057, effective 23 March 2020) defines any alpha amino acid polymer of more than 40 amino acids as a protein; FDA did not finalize the 41–99 interpretation. Tesamorelin (44 residues, which the guide lists among polypeptides) was itself deemed a biologics licence on 23 March 2020.
+73. **m07** — Peptide Pocket Guide — 'biologics … are largely ineligible for 503A pharmacy compounding' and, in the Lilly v. FDA case study, '503A compounding of biologics operates under different authority': FDA's March 2020 notice to compounders states that biological products subject to licensure under PHS Act 351 (including deemed BLAs such as hyaluronidase and hCG) are not eligible for the 503A or 503B exemptions. Suggest stating it that plainly.
+74. **m07** — Aesthetic & Regenerative Endocrinology ch. 3 ref 4 and ch. 20 ref 3 give the PCAC docket as 'FDA-2026-N-2979'; the Federal Register notice (91 FR 20465, doc 2026-07361) is Docket No. FDA-2025-N-6895, as the Peptide Pocket Guide prints.
+75. **m07** — Aesthetic & Regenerative Endocrinology ch. 15 table, ch. 20 regulatory pearl and the drug-safety table place BPC-157, TB-500, CJC-1295, ipamorelin and epitalon in '503A Category 2'. FDA's safety-risks page (content current 22 April 2026) lists them in the table of withdrawn nominations, in no category (ipamorelin remains in 503B Category 2), and 503A Category 2 holds six substances as of 14 May 2026. The Peptide Pocket Guide (August build) is current on this point.
+76. **m07** — Aesthetic & Regenerative Endocrinology ch. 3 decision frame and the 'peptide decision framework' algorithm reduce 503A eligibility to 'on the current positive bulks list'. The statute's routes are hierarchical — USP/NF monograph, then component of an approved drug, then the bulks list — with Category 1 enforcement discretion (e.g., non-injectable GHK-Cu) a separate interim posture. The course teaches the statutory order.
+77. **m07** — Peptide Pocket Guide, 'For research-use-only peptides' (peptide fundamentals) — the steps offered 'if the product is being used outside its labelled purpose' (independent MS and HPLC, an endotoxin test before injectable use, dose-by-dose documentation) read as harm-reduction instructions for human use of products labelled 'Not for use in humans' (21 CFR 312.160), and sit awkwardly beside the guide's own 'the RUO disclaimer provides no legal protection'. The course omits them; suggest reframing as what a clinician records when a patient discloses use.
+78. **m07** — Peptide Pocket Guide — the two GRADE definition pages disagree: 'How strong is the evidence?' defines D as animal, in-vitro or mechanistic reasoning only and C as including conflicting results; 'Where the GRADE ratings come from' adds 'industry-driven claims' to D. Suggest one definition, mapped explicitly to GRADE's four certainty levels and its five rating-down domains.
+79. **m07** — Peptide Pocket Guide, jurisdictional snapshot — 'most malpractice policies exclude unapproved-drug claims' carries no citation and could not be verified; the course does not use it.
+80. **m07** — FDA's July 2026 BPC-157 briefing (fda.gov/media/193343) is primary evidence both guides could cite in their certificate-of-analysis sections: the nominators' certificates were for BPC-157 acetate while the nomination was for the free base, publicly available BPC-157 certificates mostly report purity alone with no impurity limits, and the nominator's certificate reported no endotoxin test. The same document cites a single small exploratory trial in ulcerative colitis reported only as a meeting abstract.
+81. **m07** — Not in either guide, worth adding — the Core GRADE series (BMJ 2025) as the current GRADE reference; the Cochrane review of industry sponsorship and research outcome (Lundh 2017); FDA's endotoxin Q&A guidance (Edition 2, March 2026) for the dose-and-route basis of endotoxin limits; FDA's 'Is It a Cosmetic, a Drug, or Both?' page, whose drug-claim examples include 'regenerate cells'; and Popławska 2019 (an undocumented GHRP-2 analogue found in a seized vial by high-resolution MS).
+82. **m07** — UK framework (2026-09-25) — both guides' regulatory chapters are US-only. A UK reader needs: the specials route (Human Medicines Regulations 2012 reg. 167; pharmacy preparation under Medicines Act 1968 s. 10); MHRA Guidance Note 14's order of preference (UK-licensed, even off-label → licensed abroad → UK special → non-medicines) and its exclusion of cost and convenience; the bans on advertising unlicensed (reg. 279) and prescription-only medicines to the public (reg. 284; CAP Code 12.12; ASA ruling on '#mounjaro' posts, 11 Feb 2026); prescriber responsibility (GMC paras 102–108, MHRA Drug Safety Update 2009, GPhC 2025, NMC Code standard 18); and GMC's requirement to examine a patient physically before prescribing injectable cosmetic medicines. The course now teaches these in m7-p21 and m7-p22.
+83. **m07** — Pocket Guide 'Jurisdictional snapshot' — 'UK (MHRA): not licensed for human use' (for BPC-157) carries no citation. The course could not confirm BPC-157's UK status from a primary record: MHRA's products database is a full-text search ('BPC-157' returns 15,196 unrelated documents), and no MHRA statement naming BPC-157 was found on gov.uk (searched 25 Sep 2026). The course states the legal consequence of having no UK marketing authorisation (regs 46 and 279) instead; suggest the guide cite MHRA and say 'no UK marketing authorisation'.
+84. **m07** — 'Research use only' in the UK — no MHRA statement specific to research-use-only peptides was found on gov.uk (searched 25 Sep 2026). The course applies MHRA's general classification tests (Guidance Note 8: claims including websites and social media, product form such as injection, and use) and cites the melanotan FOI (2024) and the May 2026 seizure of peptide products. Terminology note for the guides: the GMC uses 'unlicensed medicine' for both off-label use and medicines with no UK licence (para 102), while MHRA and the GPhC keep the two apart; the course follows MHRA.
+85. **m07** — Source-check tooling (2026-09-25) — three UK primary sources cannot be read by the automated claim-support check: the GB nutrition and health claims register (published only as .xlsx/.ods), MHRA's products database (JavaScript application) and gmc-uk.org (HTTP 403 to scripts). The GMC pages and the database were read in a browser on 25 Sep 2026; statements resting on them will show as 'unavailable' (minor) in the claim-support report.
 
 ---
 
@@ -462,7 +514,7 @@ Build the checklist you will actually use. It is saved to your path and your tut
 
 # Hormones and Peptides for Skin · Module 02 — review draft
 
-*approved · authored 2026-09-24 · 19 moments, ~26 min + module check · 33 sources · 20 claims*
+*approved · authored 2026-09-24 · 19 moments, ~26 min + module check · 39 sources · 23 claims*
 
 Every factual sentence traces to the graded registry (`citations/m02.md`). Moments marked **By role** carry the prescriber · clinical staff · advisor versions of the practice guidance; grades and regulatory facts never change by role.
 
@@ -635,24 +687,24 @@ Hormone therapy has two kinds of trial behind it. Small trials measure the dermi
 ### 11 / 19 · Symptoms and bone. Skin is a bystander.  
 *Regulatory status and indications · audio*
 
-In the US, as of February 2026, FDA-approved menopausal hormone therapy is for moderate-to-severe hot flashes, vaginal and vulvar symptoms and, for some products, preventing bone loss. FDA's 2025–26 labeling changes removed cardiovascular, breast-cancer and dementia statements from the boxed warning; skin did not become an indication. The North American Menopause Society's 2022 statement finds benefit outweighs risk for bothersome symptoms and bone protection when therapy starts before 60 or within 10 years of menopause, and finds insufficient evidence for compounded 'bioidentical' hormones. Under US rules an over-the-counter 'hormone cream' is an unapproved drug. For the skin itself, daily sunscreen has a large randomized trial behind it, and one tretinoin cream is FDA-approved as an adjunct for fine facial wrinkles.
+In the US, as of February 2026, FDA-approved menopausal hormone therapy is for moderate-to-severe hot flashes, vaginal and vulvar symptoms and, for some products, preventing bone loss. FDA's 2025–26 labeling changes removed cardiovascular, breast-cancer and dementia statements from the boxed warning; skin did not become an indication. The North American Menopause Society's 2022 statement finds benefit outweighs risk for bothersome symptoms and bone protection when therapy starts before 60 or within 10 years of menopause, and finds insufficient evidence for compounded 'bioidentical' hormones. Under US rules an over-the-counter 'hormone cream' is an unapproved drug. For the skin itself, daily sunscreen has a large randomized trial behind it, and one tretinoin cream is FDA-approved as an adjunct for fine facial wrinkles. In the UK, as of September 2026, HRT products such as estradiol patches and gel are prescription-only medicines licensed for oestrogen-deficiency symptoms and, for some, for preventing osteoporosis in women at high risk of fracture; skin is not among their uses. A compounded 'bioidentical' hormone is an unlicensed medicine in the UK, and MHRA guidance puts a licensed product first when one can meet the need. On the UK medicines compendium, topical tretinoin appears only in acne treatments.
 
 - Indications: hot flashes, genitourinary symptoms, bone
 - Low-dose vaginal estrogen for GSM: the one estrogen-for-tissue use
 - For the skin itself: daily sunscreen and a retinoid
 
 **By role**
-- *Prescriber:* Prescribe hormone therapy for its labeled indications and the position statement's timing, and record that skin was discussed only as a secondary effect. Do not prescribe systemic or topical estrogen for wrinkles alone, and prefer FDA-approved products to compounded 'bioidentical' preparations.
+- *Prescriber:* Prescribe hormone therapy for its labeled indications and the position statement's timing, and record that skin was discussed only as a secondary effect. Do not prescribe systemic or topical estrogen for wrinkles alone, and prefer licensed products (FDA-approved in the US, MHRA-licensed in the UK) to compounded 'bioidentical' preparations.
 - *Clinical staff:* If a patient asks for 'hormones for my skin', ask about hot flashes, sleep and vaginal symptoms, record what she says, and route those symptoms to the prescriber. The skin concern stays with skin-directed care.
-- *Advisor:* In the US, a cream sold as containing estrogen for the face is regulated as a drug, and compounded 'bioidentical' products lack efficacy and safety data. Menopausal symptoms are a conversation for a prescriber; sun protection is advice you can give.
+- *Advisor:* In the US, a cream sold as containing estrogen for the face is regulated as a drug; in the UK, HRT products are prescription-only medicines. Compounded 'bioidentical' products lack efficacy and safety data. Menopausal symptoms are a conversation for a prescriber; sun protection is advice you can give.
 
 <details><summary>Narration script</summary>
 
-Where does that leave hormone therapy for skin? In the United States, as of February 2026, the approved uses of menopausal hormone therapy are hot flashes, vaginal and vulvar symptoms, and for some products the prevention of bone loss. In late 2025 the FDA asked manufacturers to remove heart, breast cancer and dementia statements from the boxed warning, and it approved the first revised labels in February 2026. Skin still appears nowhere among the uses. The menopause society's 2022 position statement finds the balance favourable for symptoms and bone when therapy starts before sixty or within ten years of menopause, and it finds too little evidence for compounded bioidentical hormones. Low-dose vaginal estrogen for genitourinary symptoms is the one use aimed at the tissue itself. For the face, daily sunscreen and a prescription retinoid carry better evidence than any hormone. Treat symptoms on their merits, and count any skin change as a bonus.
+Where does that leave hormone therapy for skin? In the United States, as of February 2026, the approved uses of menopausal hormone therapy are hot flashes, vaginal and vulvar symptoms, and for some products the prevention of bone loss. In late 2025 the FDA asked manufacturers to remove heart, breast cancer and dementia statements from the boxed warning, and it approved the first revised labels in February 2026. Skin still appears nowhere among the uses. The menopause society's 2022 position statement finds the balance favourable for symptoms and bone when therapy starts before sixty or within ten years of menopause, and it finds too little evidence for compounded bioidentical hormones. In the United Kingdom, HRT products are prescription-only medicines licensed for oestrogen-deficiency symptoms and, for some, for preventing osteoporosis, and skin appears nowhere among those uses either. A compounded bioidentical hormone is an unlicensed medicine there, so MHRA guidance puts any licensed product that meets the need first. Low-dose vaginal estrogen for genitourinary symptoms is the one use aimed at the tissue itself. For the face, daily sunscreen and a prescription retinoid carry better evidence than any hormone. Treat symptoms on their merits, and count any skin change as a bonus.
 
 </details>
 
-<sub>Sources: US Food and Drug Administration 2025 · US Food and Drug Administration 2026 · North American Menopause Society (2022 Hormone Therapy Advisory Panel) 2022 · North American Menopause Society (2020 GSM Editorial Panel) 2020 · Manson JE 2013 · US Food and Drug Administration 1993 · Hughes MC 2013 · Bausch Health US LLC (FDA-approved labeling) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
+<sub>Sources: US Food and Drug Administration 2025 · US Food and Drug Administration 2026 · North American Menopause Society (2022 Hormone Therapy Advisory Panel) 2022 · North American Menopause Society (2020 GSM Editorial Panel) 2020 · Manson JE 2013 · US Food and Drug Administration 1993 · Hughes MC 2013 · Bausch Health US LLC (FDA-approved labeling) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · Theramex HQ UK Limited (marketing authorisation holder) 2025 · Orion Corporation (marketing authorisation holder) 2025 · Medicines and Healthcare products Regulatory Agency (UK) 2023 · Viatris Products Limited (marketing authorisation holder) 2026 · Almirall Hermal GmbH (marketing authorisation holder) 2026 · Datapharm (emc) 2026</sub>
 
 ### 12 / 19 · 'Hormones for my skin.'  
 *Your turn · quiz*
@@ -807,7 +859,7 @@ Build the checklist you will actually use. It is saved to your path and your tut
 
 # Hormones and Peptides for Skin · Module 03 — review draft
 
-*approved · authored 2026-09-24 · 20 moments, ~27 min + module check · 51 sources · 20 claims*
+*approved · authored 2026-09-24 · 20 moments, ~27 min + module check · 59 sources · 24 claims*
 
 Every factual sentence traces to the graded registry (`citations/m03.md`). Moments marked **By role** carry the prescriber · clinical staff · advisor versions of the practice guidance; grades and regulatory facts never change by role.
 
@@ -921,7 +973,7 @@ One question to close lesson 3.1.
 ### 08 / 20 · Two gut hormones, re-engineered.  
 *Lesson 3.2 · Concept · audio*
 
-GLP-1 and GIP are incretins, hormones the gut releases after a meal that amplify glucose-dependent insulin release; GLP-1 also slows gastric emptying and reduces appetite. Native GLP-1 is broken down within minutes. Semaglutide is a long-acting GLP-1 receptor agonist, and tirzepatide activates both GIP and GLP-1 receptors. In the US, as of September 2026, both are FDA-approved drugs for defined indications, set out in the next moment.
+GLP-1 and GIP are incretins, hormones the gut releases after a meal that amplify glucose-dependent insulin release; GLP-1 also slows gastric emptying and reduces appetite. Native GLP-1 is broken down within minutes. Semaglutide is a long-acting GLP-1 receptor agonist, and tirzepatide activates both GIP and GLP-1 receptors. In the US, as of September 2026, both are FDA-approved drugs for defined indications, set out in the next moment. In the UK both are licensed by the MHRA, and tirzepatide's diabetes and weight-management uses share one brand, Mounjaro.
 
 - Incretins amplify insulin after meals
 - Semaglutide: GLP-1 receptor agonist
@@ -929,16 +981,16 @@ GLP-1 and GIP are incretins, hormones the gut releases after a meal that amplify
 
 <details><summary>Narration script</summary>
 
-After a meal, the gut releases two hormones called incretins, GLP-1 and GIP. Both amplify insulin release when glucose is high, and GLP-1 also slows the stomach and reduces appetite. Native GLP-1 lasts only minutes in the blood before an enzyme breaks it down, so the drug molecules are engineered to last far longer. Semaglutide activates the GLP-1 receptor. Tirzepatide activates both the GIP and the GLP-1 receptors. Those are the mechanisms. The regulatory facts sit in a separate register. In the United States, as of September 2026, both molecules are FDA-approved drugs, sold under one brand name for type 2 diabetes and another for chronic weight management, with further indications for the heart, the liver and sleep apnoea. The face appears nowhere on those labels, and that is where this lesson begins.
+After a meal, the gut releases two hormones called incretins, GLP-1 and GIP. Both amplify insulin release when glucose is high, and GLP-1 also slows the stomach and reduces appetite. Native GLP-1 lasts only minutes in the blood before an enzyme breaks it down, so the drug molecules are engineered to last far longer. Semaglutide activates the GLP-1 receptor. Tirzepatide activates both the GIP and the GLP-1 receptors. Those are the mechanisms. The regulatory facts sit in a separate register. In the United States, as of September 2026, both molecules are FDA-approved drugs, sold under one brand name for type 2 diabetes and another for chronic weight management, with further indications for the heart, the liver and sleep apnoea. In the United Kingdom both are licensed by the MHRA, and tirzepatide's weight-management licence sits on the same brand as its diabetes licence, Mounjaro. The face appears nowhere on those labels, and that is where this lesson begins.
 
 </details>
 
-<sub>Sources: Drucker DJ 2018 · Eli Lilly (Mounjaro prescribing information) 2026 · Novo Nordisk (Ozempic prescribing information) 2026 · Novo Nordisk (Wegovy prescribing information) 2026 · Eli Lilly (Zepbound prescribing information) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026</sub>
+<sub>Sources: Drucker DJ 2018 · Eli Lilly (Mounjaro prescribing information) 2026 · Novo Nordisk (Ozempic prescribing information) 2026 · Novo Nordisk (Wegovy prescribing information) 2026 · Eli Lilly (Zepbound prescribing information) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Novo Nordisk A/S (marketing authorisation holder) 2026 · Novo Nordisk A/S (marketing authorisation holder) 2026 · Eli Lilly Nederland B.V. (marketing authorisation holder) 2026 · Medicines and Healthcare products Regulatory Agency (UK) 2023</sub>
 
 ### 09 / 20 · Approved for what, exactly?  
 *Regulatory status · tool*
 
-The facial changes in this lesson happen to people taking approved drugs for approved reasons. Know the indications, and their dates, before you discuss the side effects. Status below is for the US, from FDA records checked in September 2026; UK and EU status is being mapped for this course.
+The facial changes in this lesson happen to people taking approved drugs for approved reasons. Know the indications, and their dates, before you discuss the side effects. US status is from FDA records checked in September 2026; the last row gives the UK position from UK product information and MHRA statements checked the same month. EU status is not covered.
 
 | | | |
 |---|---|---|
@@ -947,10 +999,11 @@ The facial changes in this lesson happen to people taking approved drugs for app
 | Mounjaro (tirzepatide) | Type 2 diabetes | First approved 2022. The label adds cardiovascular risk reduction in type 2 diabetes at high risk. |
 | Zepbound (tirzepatide) | Chronic weight management | Approved November 2023. Moderate to severe obstructive sleep apnoea with obesity, December 2024. |
 | Compounded, counterfeit or 'research' versions | Not FDA-approved | FDA warns about compounded, counterfeit and falsely labelled 'research' semaglutide and tirzepatide (page current 1 September 2026). Semaglutide bought online without a prescription has failed independent testing. |
+| United Kingdom · MHRA (September 2026) | Ozempic: diabetes · Wegovy: weight, heart · Mounjaro: diabetes and weight | Wegovy is licensed for weight management and cardiovascular risk reduction; MHRA added weight management to Mounjaro in November 2023. MHRA says retatrutide is not authorised in the UK and anyone selling it does so illegally (24 July 2026), and in May 2026 it made its largest seizure of unlicensed weight-loss medicines. |
 
 **Callout:** Approved for diabetes, weight, the heart, the liver and sleep apnoea. The face is on none of these labels.
 
-<sub>Sources: Novo Nordisk (Ozempic prescribing information) 2026 · Novo Nordisk (Wegovy prescribing information) 2026 · US Food and Drug Administration (Drugs@FDA 2026 · Lincoff AM 2023 · Eli Lilly (Mounjaro prescribing information) 2026 · Eli Lilly (Zepbound prescribing information) 2026 · US Food and Drug Administration (Drugs@FDA 2026 · US Food and Drug Administration 2026 · Ashraf AR 2024 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026</sub>
+<sub>Sources: Novo Nordisk (Ozempic prescribing information) 2026 · Novo Nordisk (Wegovy prescribing information) 2026 · US Food and Drug Administration (Drugs@FDA 2026 · Lincoff AM 2023 · Eli Lilly (Mounjaro prescribing information) 2026 · Eli Lilly (Zepbound prescribing information) 2026 · US Food and Drug Administration (Drugs@FDA 2026 · US Food and Drug Administration 2026 · Ashraf AR 2024 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Novo Nordisk A/S (marketing authorisation holder) 2026 · Novo Nordisk A/S (marketing authorisation holder) 2026 · Eli Lilly Nederland B.V. (marketing authorisation holder) 2026 · Medicines and Healthcare products Regulatory Agency (UK) 2023 · Medicines and Healthcare products Regulatory Agency (UK) 2026 · Medicines and Healthcare products Regulatory Agency (UK) 2026</sub>
 
 ### 10 / 20 · Large trials, measured on the scale.  
 *Human evidence · stat*
@@ -972,12 +1025,12 @@ The phrase bundles four kinds of statement. Kept apart, they tell a patient far 
 |---|---|---|
 | Mechanism | Volume loss | Losing fat deflates the superficial facial compartments and unmasks laxity that was already there. |
 | Human evidence | Observational and small: C to D | One imaging study of 20 patients found a median 9% loss of midface volume, mostly superficial, about 7% per 10 kg lost. A survey of 1,226 patients found sagging, facial volume loss and hair shedding reported more often the more weight was lost. A systematic review of the plastic-surgery literature found it limited by study bias. No randomized trial has measured the face. |
-| Regulatory status (US, September 2026) | Hair loss labelled; facial change unlisted | Both labels list hair loss (about 3–6% on drug against about 1% on placebo, mostly in women, linked to weight reduction). The semaglutide label also lists altered skin sensation. Facial volume loss is not a labelled adverse reaction. |
+| Regulatory status (US and UK, September 2026) | Hair loss labelled; facial change unlisted | Both labels list hair loss (about 3–6% on drug against about 1% on placebo, mostly in women, linked to weight reduction). The semaglutide label also lists altered skin sensation. Facial volume loss is not a labelled adverse reaction. UK product information also lists hair loss: 2.5% on Wegovy and 4.9% on Mounjaro in the weight-management trials, against 1.0% on placebo. |
 | Open question | A direct drug effect? | Whether these drugs act on facial fat or skin cells beyond the effect of weight loss rests on cell studies and has not been tested in people. |
 
 **Callout:** So far, the evidence ties facial change to how much weight is lost.
 
-<sub>Sources: Rohrich RJ 2007 · Sharma RK 2025 · Rao S 2026 · Daneshgaran G 2025 · Humphrey CD 2023 · Novo Nordisk (Wegovy prescribing information) 2026 · Eli Lilly (Zepbound prescribing information) 2026 · Paschou IA 2025 · Persson C 2025 · Burke OM 2025 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
+<sub>Sources: Rohrich RJ 2007 · Sharma RK 2025 · Rao S 2026 · Daneshgaran G 2025 · Humphrey CD 2023 · Novo Nordisk (Wegovy prescribing information) 2026 · Eli Lilly (Zepbound prescribing information) 2026 · Paschou IA 2025 · Persson C 2025 · Burke OM 2025 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · Novo Nordisk A/S (marketing authorisation holder) 2026 · Eli Lilly Nederland B.V. (marketing authorisation holder) 2026</sub>
 
 ### 12 / 20 · Counsel before, record during, refer when asked.  
 *What changes in practice · audio*
@@ -1093,12 +1146,12 @@ Six things patients bring you under the heading 'gut health for skin'. One at a 
 **Exercise (quickfire) · What stands behind it?** — One at a time: what has actually been tested?
 - Probiotic capsules → **Tested on skin in randomized trials** — *Thirty-nine trials pooled by Cochrane: little or no difference in patient-rated eczema symptoms (B). Newer analyses in children report small gains.*
 - Rifaximin for rosacea with bacterial overgrowth → **Tested on skin in randomized trials** — *One small single-centre randomized trial: rosacea improved after the overgrowth was cleared (C). A prescription antibiotic, chosen after testing.*
-- Tirzepatide added to a psoriasis biologic → **Tested on skin in randomized trials** — *One open-label, manufacturer-funded phase 3b trial of 274 people: more complete clearance with the add-on at 36 weeks (C). An earlier 20-person placebo-controlled trial of liraglutide found no effect. In the US, tirzepatide is not approved for psoriasis.*
+- Tirzepatide added to a psoriasis biologic → **Tested on skin in randomized trials** — *One open-label, manufacturer-funded phase 3b trial of 274 people: more complete clearance with the add-on at 36 weeks (C). An earlier 20-person placebo-controlled trial of liraglutide found no effect. Its US approval and its UK licence both leave out psoriasis.*
 - A high-fibre, plant-rich diet → **Tested in people, not on skin** — *Strong human evidence for heart and metabolic outcomes; the guide grades it A, and the review behind it rates certainty moderate. No trial has measured skin.*
 - Akkermansia capsules → **Tested in people, not on skin** — *One pilot randomized trial in 32 adults improved insulin sensitivity (C). No skin outcomes.*
 - A 'leaky gut' stack: L-glutamine, zinc carnosine, BPC-157 → **Little or no human outcome data** — *The Hormonaly guide grades it D: mechanism and animal data. As of September 2026, BPC-157 is not on the US 503A bulks list; an FDA advisory committee reviewed it in July 2026.*
 
-<sub>Sources: Makrgeorgou A 2018 · Parodi A 2008 · Lebwohl M 2026 · Faurschou A 2015 · Eli Lilly (Mounjaro prescribing information) 2026 · Eli Lilly (Zepbound prescribing information) 2026 · Reynolds A 2019 · Depommier C 2019 · US Food and Drug Administration 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
+<sub>Sources: Makrgeorgou A 2018 · Parodi A 2008 · Lebwohl M 2026 · Faurschou A 2015 · Eli Lilly (Mounjaro prescribing information) 2026 · Eli Lilly (Zepbound prescribing information) 2026 · Reynolds A 2019 · Depommier C 2019 · US Food and Drug Administration 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · Eli Lilly Nederland B.V. (marketing authorisation holder) 2026</sub>
 
 ### 18 / 20 · Diet first, a bottle last.  
 *What changes in practice · audio*
@@ -1110,17 +1163,17 @@ When a patient links their skin to their gut, start with what has evidence: diet
 - Gut-repair peptides: last, if at all
 
 **By role**
-- *Prescriber:* Treat the skin disease on its own evidence and metabolic disease directly. A zonulin result should not guide care. In the US, BPC-157 has no 503A bulks-list standing as of September 2026, so compounding it for gut repair is not an option.
+- *Prescriber:* Treat the skin disease on its own evidence and metabolic disease directly. A zonulin result should not guide care. In the US, BPC-157 has no 503A bulks-list standing as of September 2026, so compounding it for gut repair is not an option. In the UK, an unlicensed special is for one patient's special clinical need that no licensed product can meet, and the responsibility for it is yours.
 - *Clinical staff:* If a patient brings a gut-repair kit or a zonulin result, record the products and the result and bring them to the prescriber. Do not interpret the test or advise on the products.
 - *Advisor:* You can say that fibre-rich diets have strong evidence for metabolic health, that probiotics are strain-specific with small skin effects at best, and that injected or research peptides need a prescriber.
 
 <details><summary>Narration script</summary>
 
-Patients often link their skin to their gut. Start where the evidence is. Diet quality, treatment of metabolic disease and the established treatment for the skin condition itself all come first. Be careful with tests. A widely used commercial zonulin assay was shown to detect proteins other than zonulin, so a result cannot tell you whether a gut is leaky. Be careful with products too. Probiotics are strain-specific, and their effects on eczema are small at best. The Hormonaly guide gives the popular gut-repair stack of glutamine, zinc carnosine and BPC-157 a grade of D. As of September 2026, in the United States, BPC-157 remains off the 503A bulks list after the July advisory-committee review. Investigational peptides come last, if at all. Whatever your role, name the evidence type before you name the product.
+Patients often link their skin to their gut. Start where the evidence is. Diet quality, treatment of metabolic disease and the established treatment for the skin condition itself all come first. Be careful with tests. A widely used commercial zonulin assay was shown to detect proteins other than zonulin, so a result cannot tell you whether a gut is leaky. Be careful with products too. Probiotics are strain-specific, and their effects on eczema are small at best. The Hormonaly guide gives the popular gut-repair stack of glutamine, zinc carnosine and BPC-157 a grade of D. As of September 2026, in the United States, BPC-157 remains off the 503A bulks list after the July advisory-committee review. In the United Kingdom, an unlicensed peptide reaches a patient only through narrow routes, such as a special ordered for one patient's clinical need, which module seven sets out. Investigational peptides come last, if at all. Whatever your role, name the evidence type before you name the product.
 
 </details>
 
-<sub>Sources: Scheffler L 2018 · Camilleri M 2019 · Reynolds A 2019 · Suez J 2019 · US Food and Drug Administration 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
+<sub>Sources: Scheffler L 2018 · Camilleri M 2019 · Reynolds A 2019 · Suez J 2019 · US Food and Drug Administration 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · Medicines and Healthcare products Regulatory Agency (UK) 2023 · Medicines and Healthcare products Regulatory Agency (UK) 2009</sub>
 
 ### 19 / 20 · The zonulin test.  
 *Your turn · quiz*
@@ -1161,7 +1214,7 @@ Build the checklist you will actually use. It is saved to your path and your tut
 
 # Hormones and Peptides for Skin · Module 04 — review draft
 
-*approved · authored 2026-09-24 · 19 moments, ~26 min + module check · 49 sources · 20 claims*
+*approved · authored 2026-09-24 · 19 moments, ~26 min + module check · 61 sources · 24 claims*
 
 Every factual sentence traces to the graded registry (`citations/m04.md`). Moments marked **By role** carry the prescriber · clinical staff · advisor versions of the practice guidance; grades and regulatory facts never change by role.
 
@@ -1224,34 +1277,34 @@ Every peptide question has four separate answers. For GHK-Cu they point in diffe
 |---|---|---|
 | Mechanism | Plausible | Copper delivery to matrix and antioxidant enzymes; gene-expression data from the originator |
 | Human evidence | Topical: GRADE C · Injectable: none | One small indexed RCT and sponsor-run cosmetic trials; no randomized trials of injection |
-| Regulatory status (US, 14 May 2026) | Non-injectable: 503A Category 1 | Category 1 means FDA is still evaluating and does not intend to act against compounders who meet its conditions; an advisory-committee consultation is planned before the end of February 2027. The injectable route has no such standing. |
+| Regulatory status (US, 14 May 2026; UK, September 2026) | Non-injectable: 503A Category 1 | Category 1 means FDA is still evaluating and does not intend to act against compounders who meet its conditions; an advisory-committee consultation is planned before the end of February 2027. The injectable route has no such standing. In the UK, a GHK-Cu serum sold for appearance is a cosmetic, and cosmetics law excludes anything injected. |
 | Open question | Does it reach the dermis? | Penetration data are in vitro and depend on how they are measured |
 
 **Callout:** A strong mechanism is not a strong trial, and a Category 1 listing is not an approval.
 
-<sub>Sources: Pickart L 2015 · Miller TR 2006 · Hostynek JJ 2010 · Ogórek K 2025 · US Food and Drug Administration 2026 · US Food and Drug Administration 2026 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · Mazurowska L 2008</sub>
+<sub>Sources: Pickart L 2015 · Miller TR 2006 · Hostynek JJ 2010 · Ogórek K 2025 · US Food and Drug Administration 2026 · US Food and Drug Administration 2026 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · Mazurowska L 2008 · Cosmetic Products Regulation 1223/2009 (Great Britain 2009 · Medicines and Healthcare products Regulatory Agency (UK) 2025</sub>
 
 ### 06 / 19 · Serum yes, syringe no.  
 *What changes in practice · audio*
 
-Topical GHK-Cu is a reasonable cosmetic conversation at GRADE C. Injected GHK-Cu is a different product: no randomized trials, injection-site pain and rash are common because copper irritates tissue, and in the US the injectable route sits outside the Category 1 listing.
+Topical GHK-Cu is a reasonable cosmetic conversation at GRADE C. Injected GHK-Cu is a different product: no randomized trials, injection-site pain and rash are common because copper irritates tissue, and in the US the injectable route sits outside the Category 1 listing. In the UK, anything injected falls outside cosmetics law, and MHRA decides whether it is a medicine from its claims, form and use.
 
 - Topical: modest, small-trial support
 - Injectable: anecdote, common local reactions
 - Say which route you mean every time
 
 **By role**
-- *Prescriber:* Before prescribing a compounded topical, confirm the substance's current 503A status and that the pharmacy is working within it. Do not prescribe GHK-Cu for injection. Record that you discussed a product with small-trial evidence and the patient's reasons for choosing it.
+- *Prescriber:* In the US, before prescribing a compounded topical, confirm the substance's current 503A status and that the pharmacy is working within it; in the UK, a GHK-Cu serum presented for appearance is a cosmetic, so there is nothing to prescribe. Do not prescribe GHK-Cu for injection. Record that you discussed a product with small-trial evidence and the patient's reasons for choosing it.
 - *Clinical staff:* If a patient tells you they inject GHK-Cu, record the product, where it was bought and any site reactions, and bring it to the prescriber. Do not advise on amounts or technique.
 - *Advisor:* Describe topical GHK-Cu products as cosmetics with modest, small-trial support. Anyone injecting a copper peptide should be pointed to a prescriber, not to a better supplier.
 
 <details><summary>Narration script</summary>
 
-Here is what that means in the room. Topical GHK-Cu is a reasonable cosmetic conversation, as long as you describe the evidence honestly: small trials, modest effects, grade C. Injected GHK-Cu is not the same product in a stronger form. There are no randomized trials of injection, injection-site pain and rash are common because copper irritates tissue, and in the United States the injectable route sits outside the Category 1 listing that covers non-injectable use. Whatever your role, name the route every time you talk about this peptide.
+Here is what that means in the room. Topical GHK-Cu is a reasonable cosmetic conversation, as long as you describe the evidence honestly: small trials, modest effects, grade C. Injected GHK-Cu is not the same product in a stronger form. There are no randomized trials of injection, injection-site pain and rash are common because copper irritates tissue, and in the United States the injectable route sits outside the Category 1 listing that covers non-injectable use. In the United Kingdom, anything injected falls outside cosmetics law, and MHRA decides whether such a product is a medicine. Whatever your role, name the route every time you talk about this peptide.
 
 </details>
 
-<sub>Sources: The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · Li H 2016 · US Food and Drug Administration 2026</sub>
+<sub>Sources: The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · Li H 2016 · US Food and Drug Administration 2026 · Cosmetic Products Regulation 1223/2009 (Great Britain 2009 · Medicines and Healthcare products Regulatory Agency (UK) 2025</sub>
 
 ### 07 / 19 · Is the injection 'stronger'?  
 *Your turn · quiz*
@@ -1321,7 +1374,7 @@ Pooled, oral collagen trials show better hydration, elasticity and wrinkle score
 ### 11 / 19 · Cosmetic, supplement, drug: three rulebooks.  
 *What changes in practice · audio*
 
-In the US, cosmetic peptides are cosmetic ingredients, not drugs, and their safety is assessed under a cosmetics framework. Oral collagen is a dietary supplement: it may not claim to treat disease, and product quality and content vary. Neither route has to prove efficacy before sale — which is why the funding question matters.
+In the US, cosmetic peptides are cosmetic ingredients, not drugs, and their safety is assessed under a cosmetics framework. Oral collagen is a dietary supplement: it may not claim to treat disease, and product quality and content vary. Neither route has to prove efficacy before sale — which is why the funding question matters. In the UK, a peptide serum is a cosmetic: its responsible person needs a safety assessment and must notify the regulator before sale, and must be able to prove its claims. Oral collagen is a food supplement: no food may claim to prevent, treat or cure disease, and only authorised health claims may be used. In May 2026 the UK advertising regulator ruled a peptide serum's 'clinically proven' lifting claim misleading because the study behind it was small and uncontrolled.
 
 - Cosmetic ingredient: no efficacy approval needed
 - Dietary supplement: no disease claims; quality varies
@@ -1334,11 +1387,11 @@ In the US, cosmetic peptides are cosmetic ingredients, not drugs, and their safe
 
 <details><summary>Narration script</summary>
 
-Now the regulatory register, stated for the United States. Cosmetic peptides are cosmetic ingredients, not drugs; their safety is assessed under a cosmetics framework, and nobody has to prove they work before they are sold. Oral collagen is sold as a dietary supplement, so it cannot claim to treat a disease, and what is in the tub varies from brand to brand. That is the whole reason the funding question matters here. When no regulator asks for efficacy, the only efficacy data are the trials someone chose to pay for. UK and EU rules are being mapped for this course and will be added.
+Now the regulatory register, stated for the United States. Cosmetic peptides are cosmetic ingredients, not drugs; their safety is assessed under a cosmetics framework, and nobody has to prove they work before they are sold. Oral collagen is sold as a dietary supplement, so it cannot claim to treat a disease, and what is in the tub varies from brand to brand. That is the whole reason the funding question matters here. When no regulator asks for efficacy, the only efficacy data are the trials someone chose to pay for. The United Kingdom works the same way in outline. A peptide serum is a cosmetic, and its responsible person must hold a safety assessment and evidence for its claims before it goes on sale. Oral collagen is a food supplement, and no food may claim to prevent, treat or cure a disease. In May 2026 the UK advertising regulator ruled against a serum's clinically proven lifting claim, built on a small study with no control group.
 
 </details>
 
-<sub>Sources: Bjerke DL 2026 · Lupo MP 2007 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026</sub>
+<sub>Sources: Bjerke DL 2026 · Lupo MP 2007 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Cosmetic Products Regulation 1223/2009 (Great Britain 2009 · Cosmetic Products Regulation 1223/2009 (Great Britain 2009 · Office for Product Safety and Standards / Department for Business and Trade 2021 · Food Supplements (England) Regulations 2003 2003 · Food Information to Consumers Regulation 1169/2011 (UK 2011 · Nutrition and Health Claims Regulation 1924/2006 (UK 2006 · Medicines and Healthcare products Regulatory Agency (UK) 2025 · Advertising Standards Authority 2026</sub>
 
 ### 12 / 19 · 'Clinically proven' collagen.  
 *Your turn · quiz*
@@ -1400,7 +1453,7 @@ LL-37, the skin's own cathelicidin, is the one repair peptide with two randomize
 ### 16 / 19 · Where does it stand in the US?  
 *Regulatory status · tool*
 
-Three US categories, dated to the FDA's category list of 14 May 2026 and the advisory-committee meeting of 23–24 July 2026. The committee's votes are advice; FDA must still act through rulemaking before anything joins the bulks list. FDA has sent warning letters naming GHK-Cu and BPC-157 on exactly this basis.
+Three US categories, dated to the FDA's category list of 14 May 2026 and the advisory-committee meeting of 23–24 July 2026. The committee's votes are advice; FDA must still act through rulemaking before anything joins the bulks list. FDA has sent warning letters naming GHK-Cu and BPC-157 on exactly this basis. If you practise in the UK, the route for unlicensed medicines works differently, and lesson 7.2 sets it out.
 
 | | | |
 |---|---|---|
@@ -1418,7 +1471,7 @@ Three US categories, dated to the FDA's category list of 14 May 2026 and the adv
 - BPC-157 for injection → **Not on the bulks list** — *Reviewed by the advisory committee in July 2026; not on the bulks list unless and until FDA acts by rulemaking.*
 - TB-500 → **Not on the bulks list** — *Same position as BPC-157 after the July 2026 review.*
 
-<sub>Sources: US Food and Drug Administration 2026 · US Food and Drug Administration 2026 · US Food and Drug Administration 2026 · US Food and Drug Administration 2026 · US Food and Drug Administration 2020 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
+<sub>Sources: US Food and Drug Administration 2026 · US Food and Drug Administration 2026 · US Food and Drug Administration 2026 · US Food and Drug Administration 2026 · US Food and Drug Administration 2020 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · Medicines and Healthcare products Regulatory Agency (UK) 2023</sub>
 
 ### 17 / 19 · New dark patches, three months into 'GLOW'.  
 *Fictional case · audio*
@@ -1468,7 +1521,7 @@ One question to close lesson 4.3.
 Build the checklist you will actually use. It is saved to your path and your tutor will bring it back.
 
 **Exercise (chips) · Your peptide checklist** — Tap everything you will do. Choose as many as you like.
-*Before my next peptide conversation I will …* name the route and the evidence grade · ask who funded the trial behind the claim · ask exactly what was bought and from where · check its current status on the live FDA list · document what I advised and why · send injected or research-use-only products to a prescriber
+*Before my next peptide conversation I will …* name the route and the evidence grade · ask who funded the trial behind the claim · ask exactly what was bought and from where · check its current status with my regulator (FDA lists in the US, MHRA in the UK) · document what I advised and why · send injected or research-use-only products to a prescriber
 
 **By role**
 - *Prescriber:* Your checklist ends with documentation: the investigational nature, the grade you quoted, and the patient's consent.
@@ -1491,7 +1544,7 @@ Build the checklist you will actually use. It is saved to your path and your tut
 
 # Hormones and Peptides for Skin · Module 05 — review draft
 
-*approved · authored 2026-09-24 · 19 moments, ~26 min + module check · 34 sources · 20 claims*
+*approved · authored 2026-09-24 · 19 moments, ~26 min + module check · 41 sources · 25 claims*
 
 Every factual sentence traces to the graded registry (`citations/m05.md`). Moments marked **By role** carry the prescriber · clinical staff · advisor versions of the practice guidance; grades and regulatory facts never change by role.
 
@@ -1527,13 +1580,13 @@ Each hair follicle behaves like a small gland. When researchers keep human scalp
 ### 03 / 19 · Two trials, 1,200 adults, one approval.  
 *Human evidence · stat*
 
-When immune privilege fails, the attack depends on cytokine signals that JAK inhibitors interrupt. Two randomized phase 3 trials tested oral baricitinib in 1,200 adults with severe alopecia areata. In the US, FDA approved baricitinib for adults with severe alopecia areata on 13 June 2022. The Aesthetic & Regenerative Endocrinology guide grades it A.
+When immune privilege fails, the attack depends on cytokine signals that JAK inhibitors interrupt. Two randomized phase 3 trials tested oral baricitinib in 1,200 adults with severe alopecia areata. In the US, FDA approved baricitinib for adults with severe alopecia areata on 13 June 2022. The Aesthetic & Regenerative Endocrinology guide grades it A. In the UK, baricitinib is licensed for severe alopecia areata in adults, and NICE did not recommend it for NHS use in October 2023, on cost-effectiveness.
 
 **1,200** — adults with severe alopecia areata in the two phase 3 trials of baricitinib (2022) (At 36 weeks, up to 39% of patients on baricitinib had at least 80% of their scalp hair, against 3–6% on placebo)  
 *Means:* Interrupting the immune signalling behind collapsed privilege regrows hair in severe alopecia areata. That is approval-grade evidence (A), and it shows what real follicle evidence looks like.  
 *Does not mean:* It says nothing about pattern hair loss, cosmetic thinning or any peptide. Both trials were funded by the manufacturer, and the authors called for longer trials.
 
-<sub>Sources: King B 2022 · US Food and Drug Administration 2022 · Bertolini M 2020 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
+<sub>Sources: King B 2022 · US Food and Drug Administration 2022 · Bertolini M 2020 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · Eli Lilly Nederland B.V. (marketing authorisation holder) 2024 · National Institute for Health and Care Excellence 2023</sub>
 
 ### 04 / 19 · Four questions before any product.  
 *Worked tool · tool*
@@ -1563,24 +1616,24 @@ The Aesthetic & Regenerative Endocrinology guide's first-pass hair-loss workup a
 ### 05 / 19 · Work up the hair loss before anyone mentions a peptide.  
 *What changes in practice · audio*
 
-Pattern, trigger, patches and androgens decide the treatment. Pooled randomized trials support topical minoxidil in men and women and finasteride in men. In the US, as of September 2026, topical minoxidil is FDA-approved and sold over the counter, finasteride for pattern hair loss is a prescription drug, and baricitinib is approved for adults with severe alopecia areata.
+Pattern, trigger, patches and androgens decide the treatment. Pooled randomized trials support topical minoxidil in men and women and finasteride in men. In the US, as of September 2026, topical minoxidil is FDA-approved and sold over the counter, finasteride for pattern hair loss is a prescription drug, and baricitinib is approved for adults with severe alopecia areata. In the UK, topical minoxidil is licensed and a men's foam is on general sale, finasteride for hair loss is available only on private prescription, and baricitinib is licensed for severe alopecia areata in adults. In May 2026 MHRA strengthened its warnings that finasteride is associated with depression, suicidal thoughts and sexual dysfunction that may persist after stopping.
 
 - Workup first: ferritin and TSH in everyone
 - Approved options exist, with A-grade evidence
 - Severe or fast-spreading alopecia areata goes to dermatology
 
 **By role**
-- *Prescriber:* Complete the workup and record the pattern before prescribing. Offer the approved options with their grades, refer severe or rapidly progressive alopecia areata, and document any investigational product the patient raises and what you advised.
+- *Prescriber:* Complete the workup and record the pattern before prescribing. Offer the approved options with their grades, refer severe or rapidly progressive alopecia areata, and document any investigational product the patient raises and what you advised. In the UK, before prescribing finasteride, ask about any history of depression, give the patient card, and review mood and sexual side effects.
 - *Clinical staff:* Note the pattern, the timeline and any recent trigger, photograph the scalp with consent if your setting allows, and pass it to the prescriber. Patchy or fast-spreading loss needs prompt escalation.
 - *Advisor:* Explain what the approved options are and what their evidence shows. A patient with new, patchy, scarring or fast-spreading hair loss needs a prescriber before any product.
 
 <details><summary>Narration script</summary>
 
-Most requests for a hair peptide skip the diagnosis. Start with the pattern, ask about a trigger, look for patches and nail pitting, and look for signs of androgen excess. Check ferritin and thyroid function every time, and send a scarring pattern for biopsy. The approved options already carry strong evidence. Pooled randomized trials support topical minoxidil in men and women and finasteride in men. In the United States minoxidil is sold over the counter, while finasteride for hair loss needs a prescription. Severe or fast-spreading alopecia areata belongs with a dermatologist, where a JAK inhibitor is an approved option for adults. Whatever your role, the workup comes before the product.
+Most requests for a hair peptide skip the diagnosis. Start with the pattern, ask about a trigger, look for patches and nail pitting, and look for signs of androgen excess. Check ferritin and thyroid function every time, and send a scarring pattern for biopsy. The approved options already carry strong evidence. Pooled randomized trials support topical minoxidil in men and women and finasteride in men. In the United States minoxidil is sold over the counter, while finasteride for hair loss needs a prescription. In the United Kingdom a men's minoxidil foam is on general sale, finasteride for hair loss is available only on private prescription, and in May 2026 MHRA strengthened its warnings about depression, suicidal thoughts and sexual side effects. Severe or fast-spreading alopecia areata belongs with a dermatologist, where a JAK inhibitor is an approved option for adults. Whatever your role, the workup comes before the product.
 
 </details>
 
-<sub>Sources: Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · Adil A 2017 · US Food and Drug Administration 1988 · US Food and Drug Administration 1997 · US Food and Drug Administration 2022</sub>
+<sub>Sources: Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · Adil A 2017 · US Food and Drug Administration 1988 · US Food and Drug Administration 1997 · US Food and Drug Administration 2022 · McNeil Products Limited (marketing authorisation holder) 2026 · Organon Pharma (UK) Limited (marketing authorisation holder) 2026 · Medicines and Healthcare products Regulatory Agency (UK) 2026 · Eli Lilly Nederland B.V. (marketing authorisation holder) 2024</sub>
 
 ### 06 / 19 · Shedding after the baby.  
 *Your turn · quiz*
@@ -1621,12 +1674,12 @@ Afamelanotide and Melanotan II are both synthetic relatives of α-MSH. Compare t
 |---|---|---|
 | Mechanism | Afamelanotide: MC1R agonist · Melanotan II: non-selective | Melanotan II also acts on MC3R, MC4R and MC5R and reaches the brain |
 | Human evidence | Afamelanotide: A, for EPP only · Melanotan II: D | Two phase 3 trials in erythropoietic protoporphyria, against a three-volunteer pilot and a ten-man erectile-dysfunction study from the 1990s. The Peptide Pocket Guide rates Melanotan II C and the Aesthetic & Regenerative Endocrinology guide D; with no trial of tanning, this course uses D. |
-| Regulatory status | Afamelanotide: EU 2014, US 2019 · Melanotan II: none | Afamelanotide is approved only for EPP, as the manufacturer's implant. Melanotan II is approved for no indication anywhere. |
+| Regulatory status | Afamelanotide: EU 2014, US 2019, UK licensed · Melanotan II: none | Afamelanotide is approved only for EPP, as the manufacturer's implant. Melanotan II is approved for no indication anywhere. In the UK, afamelanotide is licensed under exceptional circumstances and prescribed only in specialist porphyria centres, and NICE did not recommend it for NHS use (July 2023). |
 | Open question | Uses beyond EPP; melanoma risk | A phase 3 trial of afamelanotide in vitiligo began in 2023 and has posted no results. Whether Melanotan II causes melanoma is unproven. |
 
 **Callout:** A shared receptor does not bring a shared approval.
 
-<sub>Sources: Langendonk JG 2015 · European Medicines Agency 2014 · US Food and Drug Administration / Clinuvel Inc. 2024 · Dorr RT 1996 · Wessells H 1998 · Böhm M 2025 · Clinuvel 2023 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
+<sub>Sources: Langendonk JG 2015 · European Medicines Agency 2014 · US Food and Drug Administration / Clinuvel Inc. 2024 · Dorr RT 1996 · Wessells H 1998 · Böhm M 2025 · Clinuvel 2023 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · National Institute for Health and Care Excellence 2023</sub>
 
 ### 09 / 19 · Sixty-nine hours against forty-one.  
 *The evidence · stat*
@@ -1691,7 +1744,7 @@ Her booking says skin quality. This patient is fictional, built from the lesson'
 ### 12 / 19 · Three regulators, one answer.  
 *Regulatory status · tool*
 
-Each statement below is dated, because regulatory status changes. None of the three regulators has approved Melanotan II, and each has put its concerns on the record. UK and EU mapping for the rest of this course is still in progress.
+Each statement below is dated, because regulatory status changes. None of the three regulators has approved Melanotan II, and each has put its concerns on the record. EU status is not covered in this course.
 
 | | | |
 |---|---|---|
@@ -1773,24 +1826,24 @@ Five things patients use or ask about for hair, with what each is claimed to do.
 ### 17 / 19 · When the request is a compounded hair spray.  
 *What changes in practice · audio*
 
-In the US, on FDA's category lists of 14 May 2026, thymulin acetate sits in Category 3: nominated without enough information to evaluate, and outside the enforcement discretion that Category 1 carries. PTD-DBM appears on none of the three lists, and neither substance is on the 503A bulks list. Both carry grade D evidence. The useful conversation names the grade, returns to the workup and describes the approved options.
+In the US, on FDA's category lists of 14 May 2026, thymulin acetate sits in Category 3: nominated without enough information to evaluate, and outside the enforcement discretion that Category 1 carries. PTD-DBM appears on none of the three lists, and neither substance is on the 503A bulks list. Both carry grade D evidence. In the UK, a spray made up for one patient would be an unlicensed 'special', and MHRA guidance says an unlicensed product should not be used where a UK-licensed one, such as minoxidil, could meet the patient's need. The useful conversation names the grade, returns to the workup and describes the approved options.
 
 - Thymulin acetate: 503A Category 3 (US, May 2026)
 - PTD-DBM: on no FDA 503A list
 - Grade D for both: say so, then return to the workup
 
 **By role**
-- *Prescriber:* Check a substance's current 503A status before any compounding conversation; neither peptide has Category 1 standing today. If a patient already uses one, record the product, the source and the grade you quoted, and offer the workup and the approved options.
+- *Prescriber:* Check a substance's current 503A status before any compounding conversation; neither peptide has Category 1 standing today. If a patient already uses one, record the product, the source and the grade you quoted, and offer the workup and the approved options. In the UK, a special needs a clinical need that the licensed options cannot meet; cost and convenience do not count.
 - *Clinical staff:* If a patient mentions a peptide hair spray, note the product, where it came from and any scalp irritation, and pass it to the prescriber. When asked whether it works, keep to what the evidence shows.
 - *Advisor:* Describe PTD-DBM and zinc thymulin as research-stage, with no human trials. Point a patient with hair loss to a prescriber for the workup rather than to a product.
 
 <details><summary>Narration script</summary>
 
-Stated for the United States, the regulatory picture is short. On FDA's category lists of the fourteenth of May, twenty twenty-six, thymulin acetate sits in Category 3, meaning it was nominated without enough information for FDA to evaluate, and it falls outside the enforcement discretion that Category 1 substances receive. PTD-DBM appears on none of the three lists. Neither substance is on the 503A bulks list itself. The evidence grade for both is D. So when a patient asks for a compounded hair spray, give the grade plainly, go back to the diagnosis, and describe the approved options and what they can offer. Mapping of UK and EU status for these two peptides is still under way.
+Stated for the United States, the regulatory picture is short. On FDA's category lists of the fourteenth of May, twenty twenty-six, thymulin acetate sits in Category 3, meaning it was nominated without enough information for FDA to evaluate, and it falls outside the enforcement discretion that Category 1 substances receive. PTD-DBM appears on none of the three lists. Neither substance is on the 503A bulks list itself. The evidence grade for both is D. So when a patient asks for a compounded hair spray, give the grade plainly, go back to the diagnosis, and describe the approved options and what they can offer. In the United Kingdom, a spray made up for one patient would be an unlicensed special, and MHRA guidance puts any licensed product that could meet the need, minoxidil included, ahead of it.
 
 </details>
 
-<sub>Sources: US Food and Drug Administration 2026 · US Food and Drug Administration 2026 · US Code of Federal Regulations (eCFR) 2019 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Adil A 2017</sub>
+<sub>Sources: US Food and Drug Administration 2026 · US Food and Drug Administration 2026 · US Code of Federal Regulations (eCFR) 2019 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Adil A 2017 · Medicines and Healthcare products Regulatory Agency (UK) 2023 · McNeil Products Limited (marketing authorisation holder) 2026</sub>
 
 ### 18 / 19 · 'The new minoxidil'?  
 *Your turn · quiz*
@@ -1831,7 +1884,7 @@ Build the checklist you will actually use. It is saved to your path and your tut
 
 # Hormones and Peptides for Skin · Module 06 — review draft
 
-*approved · authored 2026-09-24 · 19 moments, ~26 min + module check · 38 sources · 19 claims*
+*approved · authored 2026-09-24 · 19 moments, ~26 min + module check · 42 sources · 21 claims*
 
 Every factual sentence traces to the graded registry (`citations/m06.md`). Moments marked **By role** carry the prescriber · clinical staff · advisor versions of the practice guidance; grades and regulatory facts never change by role.
 
@@ -1904,11 +1957,11 @@ Six things you will hear about growth hormone and skin, each accurate as worded.
 ### 05 / 19 · Deficiency is a diagnosis. Decline is ageing.  
 *What changes in practice · audio*
 
-In healthy older adults, randomized trials of growth hormone show small shifts in body composition, about 2 kg less fat and 2 kg more lean mass, with more oedema, joint pain, carpal tunnel syndrome and a trend towards diabetes. Strength and endurance change little. The Aesthetic & Regenerative Endocrinology guide grades its advice against treatment A; graded on the trials themselves the evidence is B, and the conclusion is the same. In the US, as of September 2026, knowingly distributing growth hormone for anti-ageing is a federal offence.
+In healthy older adults, randomized trials of growth hormone show small shifts in body composition, about 2 kg less fat and 2 kg more lean mass, with more oedema, joint pain, carpal tunnel syndrome and a trend towards diabetes. Strength and endurance change little. The Aesthetic & Regenerative Endocrinology guide grades its advice against treatment A; graded on the trials themselves the evidence is B, and the conclusion is the same. In the US, as of September 2026, knowingly distributing growth hormone for anti-ageing is a federal offence. In the UK, somatropin is a prescription-only medicine licensed for growth hormone deficiency and specific growth disorders, and a Class C controlled drug.
 
 - Healthy ageing: small body-composition change, more side-effects
 - Grade B on the trials (guide: A), same conclusion
-- US: distribution for anti-ageing is a federal offence
+- US: anti-ageing distribution is a federal offence · UK: prescription-only, Class C
 
 **By role**
 - *Prescriber:* Prescribe growth hormone only for a confirmed deficiency or another approved indication, usually with an endocrinologist. For a request framed as anti-ageing, document the conversation, the evidence you quoted and the legal position, and decline.
@@ -1917,11 +1970,11 @@ In healthy older adults, randomized trials of growth hormone show small shifts i
 
 <details><summary>Narration script</summary>
 
-Here the physiology meets the waiting room. A patient in their fifties has read that growth hormone falls with age and asks whether topping it up would help their skin. The trials in healthy older adults answer that. Pooled, they show about two kilograms less fat and two kilograms more lean mass, with more swelling, joint pain, carpal tunnel symptoms and a drift towards diabetes, while strength and stamina change little. Graded on those trials the evidence is B, consistent and independent though small, and the Aesthetic and Regenerative Endocrinology guide gives its advice against treatment an A. Both land in the same place. Growth hormone treats a diagnosed deficiency and a short list of approved conditions. In the United States, distributing it for anti-ageing is a federal offence. Whatever your role, name the decline for what it is, a normal part of ageing.
+Here the physiology meets the waiting room. A patient in their fifties has read that growth hormone falls with age and asks whether topping it up would help their skin. The trials in healthy older adults answer that. Pooled, they show about two kilograms less fat and two kilograms more lean mass, with more swelling, joint pain, carpal tunnel symptoms and a drift towards diabetes, while strength and stamina change little. Graded on those trials the evidence is B, consistent and independent though small, and the Aesthetic and Regenerative Endocrinology guide gives its advice against treatment an A. Both land in the same place. Growth hormone treats a diagnosed deficiency and a short list of approved conditions. In the United States, distributing it for anti-ageing is a federal offence. In the United Kingdom, somatropin is a prescription-only medicine and a Class C controlled drug. Whatever your role, name the decline for what it is, a normal part of ageing.
 
 </details>
 
-<sub>Sources: Blackman MR 2002 · Pfizer (FDA-approved labeling) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · Liu H 2007 · Office of the Law Revision Counsel 2026</sub>
+<sub>Sources: Blackman MR 2002 · Pfizer (FDA-approved labeling) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · Liu H 2007 · Office of the Law Revision Counsel 2026 · Pfizer Limited (marketing authorisation holder) 2024 · Misuse of Drugs Act 1971 (UK) 1971</sub>
 
 ### 06 / 19 · 'Low for my age.'  
 *Your turn · quiz*
@@ -1963,12 +2016,13 @@ Tesamorelin is the instructive exception on this axis. Both Hormonaly guides gra
 | Trials | Two phase 3 RCTs, 806 patients | Randomized, double-blind, placebo-controlled and run by the developer, in adults with HIV and excess abdominal fat |
 | Result | About 15% less visceral fat than placebo at 26 weeks | Subcutaneous fat unchanged; the reduction held to 52 weeks on continued treatment |
 | US status (label, August 2026) | FDA-approved since 2010, for one use | Reduction of excess abdominal fat in adults with HIV-associated lipodystrophy. The label says it is not for weight loss and that long-term cardiovascular safety has not been established. |
+| UK status (MHRA products database, 25 September 2026) | No UK product information | A search for tesamorelin returned no summary of product characteristics, patient leaflet or assessment report. |
 | Safety, in its own label | IGF-1 above +2 SD in 47% at 26 weeks | Diabetes-range HbA1c in 5% against 1% on placebo; fluid retention; contraindicated in active malignancy |
 | Grade | A, for HIV-associated abdominal fat only | No trial has tested skin, anti-ageing or general body shaping |
 
 **Callout:** A GRADE A travels with its indication. The molecule does not carry it anywhere else.
 
-<sub>Sources: Falutz J 2007 · Falutz J 2010 · Theratechnologies Inc. (FDA-approved labeling) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026</sub>
+<sub>Sources: Falutz J 2007 · Falutz J 2010 · Theratechnologies Inc. (FDA-approved labeling) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Medicines and Healthcare products Regulatory Agency (UK) 2026</sub>
 
 ### 09 / 19 · Zero skin trials.  
 *The evidence · stat*
@@ -2030,24 +2084,24 @@ Dated to FDA's 503A category list of 14 May 2026, its Category 2 page (current a
 ### 12 / 19 · Name the indication before the molecule.  
 *What changes in practice · audio*
 
-When a patient asks about a growth-hormone peptide, three answers come first. Which molecule, exactly, including whether 'CJC' means with or without DAC. What stands behind it, whether approval-grade trials for one indication, hormone levels only, or nothing. And where it stands in the US today, read off the live FDA lists. Tesamorelin's GRADE A belongs to HIV-associated abdominal fat and transfers to nothing else.
+When a patient asks about a growth-hormone peptide, three answers come first. Which molecule, exactly, including whether 'CJC' means with or without DAC. What stands behind it, whether approval-grade trials for one indication, hormone levels only, or nothing. And where it stands in the US today, read off the live FDA lists. In the UK, MHRA's products database holds no product information for tesamorelin, sermorelin or ipamorelin (searched 25 September 2026), so any of them would reach a patient only as an unlicensed medicine. Tesamorelin's GRADE A belongs to HIV-associated abdominal fat and transfers to nothing else.
 
 - Which molecule, exactly
 - What stands behind it
-- Where it stands in the US today
+- Where it stands with your regulator today
 
 **By role**
-- *Prescriber:* Tesamorelin is the only GHRH analogue with a current FDA-approved indication, and it is not a skin treatment. Do not prescribe compounded secretagogues on the strength of a mechanism; document what the patient uses and assess or refer any sign of GH excess.
+- *Prescriber:* Tesamorelin is the only GHRH analogue with a current FDA-approved indication, and it is not a skin treatment. Do not prescribe compounded secretagogues on the strength of a mechanism; document what the patient uses and assess or refer any sign of GH excess. In the UK, tesamorelin, sermorelin and ipamorelin have no UK product information, and an unlicensed special needs a clinical need that no licensed medicine meets.
 - *Clinical staff:* Ask which product, from whom and for how long, and record the exact name on the vial. Report swelling, tingling, joint pain or new skin changes to the prescriber. Do not advise on amounts or timing.
 - *Advisor:* Describe these products accurately: one approved use for tesamorelin, hormone-level data or nothing for the rest, and no US bulks-list standing for the secretagogues. Refer anyone injecting them to a prescriber.
 
 <details><summary>Narration script</summary>
 
-Imagine the request as it usually arrives. A patient says their clinic offers a peptide that raises growth hormone naturally, for skin and sleep, and asks what you think. Three answers come before anything else. First, which molecule, exactly, because CJC-1295 with and without its albumin-binding tail are two different products, and only the version with the tail has been tested in people. Second, what stands behind it. Tesamorelin has approval-grade trials for visceral fat in people with HIV, and the rest stop at hormone levels or have never been studied in humans. Third, where it stands in the United States today, read off FDA's live lists. As of September 2026, none of the growth-hormone secretagogues sits on the 503A bulks list. UK and EU status is still being mapped for this course, so treat these as US facts.
+Imagine the request as it usually arrives. A patient says their clinic offers a peptide that raises growth hormone naturally, for skin and sleep, and asks what you think. Three answers come before anything else. First, which molecule, exactly, because CJC-1295 with and without its albumin-binding tail are two different products, and only the version with the tail has been tested in people. Second, what stands behind it. Tesamorelin has approval-grade trials for visceral fat in people with HIV, and the rest stop at hormone levels or have never been studied in humans. Third, where it stands in the United States today, read off FDA's live lists. As of September 2026, none of the growth-hormone secretagogues sits on the 503A bulks list. In the United Kingdom, MHRA's products database holds no product information for tesamorelin, sermorelin or ipamorelin, so any of them would be an unlicensed medicine there.
 
 </details>
 
-<sub>Sources: Theratechnologies Inc. (FDA-approved labeling) 2026 · Dominikowski A 2026 · US Food and Drug Administration 2026 · Code of Federal Regulations (eCFR) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
+<sub>Sources: Theratechnologies Inc. (FDA-approved labeling) 2026 · Dominikowski A 2026 · US Food and Drug Administration 2026 · Code of Federal Regulations (eCFR) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · Medicines and Healthcare products Regulatory Agency (UK) 2026 · Medicines and Healthcare products Regulatory Agency (UK) 2023</sub>
 
 ### 13 / 19 · 'Basically tesamorelin?'  
 *Your turn · quiz*
@@ -2155,7 +2209,7 @@ One question to close lesson 6.3.
 Build the checklist you will actually use. It is saved to your path and your tutor will bring it back.
 
 **Exercise (chips) · Your growth-hormone checklist** — Tap everything you will do. Choose as many as you like.
-*Before my next growth-hormone conversation I will …* ask exactly which molecule and product · name the approved indication before the grade · check its current US status on the live FDA lists · look for swelling, tingling, sweating and new skin tags · document what I advised and why · send suspected GH excess to a prescriber or endocrinology
+*Before my next growth-hormone conversation I will …* ask exactly which molecule and product · name the approved indication before the grade · check its current status with my regulator (FDA lists in the US, MHRA in the UK) · look for swelling, tingling, sweating and new skin tags · document what I advised and why · send suspected GH excess to a prescriber or endocrinology
 
 **By role**
 - *Prescriber:* Your checklist ends with assessment: examine for acral and facial change, test or refer, and document the unapproved product and your advice.
@@ -2178,23 +2232,23 @@ Build the checklist you will actually use. It is saved to your path and your tut
 
 # Hormones and Peptides for Skin · Module 07 — review draft
 
-*approved · authored 2026-09-24 · 20 moments, ~27 min + module check · 37 sources · 20 claims*
+*approved · authored 2026-09-24 · 22 moments, ~29 min + module check · 54 sources · 29 claims*
 
 Every factual sentence traces to the graded registry (`citations/m07.md`). Moments marked **By role** carry the prescriber · clinical staff · advisor versions of the practice guidance; grades and regulatory facts never change by role.
 
 
 ## Lesson 7.1 · Grading the evidence behind an aesthetic claim
 
-### 01 / 20 · Grade it, check it, write it down.  
+### 01 / 22 · Grade it, check it, write it down.  
 *Module 07 · Evidence, regulation and compliance · title*
 
-This last module turns the course into three habits. You will rate the certainty behind a claim with GRADE, read a compounding status and a certificate of analysis for what they do and do not prove, and write the consent and chart note that an unapproved product needs. The regulatory detail is US; UK and EU mapping for this course is still in progress.
+This last module turns the course into three habits. You will rate the certainty behind a claim with GRADE, read a compounding status and a certificate of analysis for what they do and do not prove, and write the consent and chart note that an unapproved product needs. The regulatory detail is given for the US and the UK: lesson 7.2 adds the UK route for unlicensed medicines and the UK rules on selling and advertising peptides. EU rules are not covered.
 
 - 7.1 Grading the evidence behind an aesthetic claim
 - 7.2 Compounding law, the 40-amino-acid line and certificates of analysis
 - 7.3 Cosmetic, compounded or investigational: consent and the chart
 
-### 02 / 20 · GRADE rates certainty in an effect, one outcome at a time.  
+### 02 / 22 · GRADE rates certainty in an effect, one outcome at a time.  
 *Lesson 7.1 · Concept · audio*
 
 GRADE sorts the evidence on a specific question into four levels of certainty: high, moderate, low and very low. The rating applies to a body of evidence for one outcome, never to a single study or to a molecule. Randomized trials start high and observational studies start low; certainty then falls for risk of bias, inconsistency, indirectness, imprecision or suspected publication bias, and occasionally rises for a very large effect. Both Hormonaly guides print the letters A to D for the same idea, adapted, and attach each letter to a specific use.
@@ -2211,7 +2265,7 @@ Every claim you hear about a skin peptide carries a hidden question. How sure ca
 
 <sub>Sources: Balshem H 2011 · Guyatt GH 2008 · Guyatt G 2025 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
 
-### 03 / 20 · Sponsored studies come out better.  
+### 03 / 22 · Sponsored studies come out better.  
 *Who paid · stat*
 
 A Cochrane methodology review brought together 75 papers, each comparing studies sponsored by the manufacturer with studies funded in other ways. Industry-sponsored drug and device studies more often reported favourable efficacy results and favourable conclusions, and the difference was not explained by the usual risk-of-bias checks. It is the pattern you met with oral collagen in module 04.
@@ -2222,7 +2276,7 @@ A Cochrane methodology review brought together 75 papers, each comparing studies
 
 <sub>Sources: Lundh A 2017 · Myung SK 2025 · Guyatt G 2025</sub>
 
-### 04 / 20 · Name what lowers certainty.  
+### 04 / 22 · Name what lowers certainty.  
 *Worked example · tool*
 
 GRADE names the ways a body of evidence can mislead. Read the four you will use most. Then sort four cases from this course by the reason that most lowers certainty. The fifth, publication bias, is suspected when the evidence is a handful of small, mostly commercially funded studies.
@@ -2244,7 +2298,7 @@ GRADE names the ways a body of evidence can mislead. Read the four you will use 
 
 <sub>Sources: Guyatt G 2025 · Guyatt G 2025 · Guyatt G 2025 · Guyatt G 2025 · Miller TR 2006 · Grönberg A 2014 · Mahlapuu M 2021 · Myung SK 2025 · Seiwerth S 2021</sub>
 
-### 05 / 20 · Two checks, never one.  
+### 05 / 22 · Two checks, never one.  
 *What changes in practice · audio*
 
 Evidence grade and regulatory status are separate axes, and both Hormonaly guides ask you to clear both. An approved drug can carry a low grade for the use a patient wants, and a compound with stronger human data can still have no lawful route. A plausible mechanism never raises a grade. Say the outcome, the grade and who ran the trials, then check the status as its own step.
@@ -2266,7 +2320,7 @@ Suppose a patient asks whether a peptide works. Start with the outcome they care
 
 <sub>Sources: The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · Balshem H 2011 · Lundh A 2017</sub>
 
-### 06 / 20 · Three trials, grade A?  
+### 06 / 22 · Three trials, grade A?  
 *Your turn · quiz*
 
 One question to close lesson 7.1.
@@ -2279,7 +2333,7 @@ One question to close lesson 7.1.
 
 ## Lesson 7.2 · Compounding law, the 40-amino-acid line and certificates of analysis
 
-### 07 / 20 · Two compounding routes, one strict order.  
+### 07 / 22 · Two compounding routes, one strict order.  
 *Lesson 7.2 · Concept · audio*
 
 In the US, section 503A lets a licensed pharmacist or physician compound for an identified patient on a prescription, exempt from new-drug approval, adequate directions for use and good manufacturing practice. The bulk substance must meet a USP or NF monograph; failing that, be a component of an approved drug; failing that, appear on FDA's 503A bulks list. It must also come from an FDA-registered establishment with a valid certificate of analysis. Section 503B outsourcing facilities register with FDA, work to good manufacturing practice under inspection, and may compound without patient-specific prescriptions.
@@ -2296,7 +2350,7 @@ Two routes exist for compounding in the United States, and the difference betwee
 
 <sub>Sources: United States Code (as codified) 2026 · US Food and Drug Administration 2026 · United States Code (as codified) 2026 · US Food and Drug Administration 2022</sub>
 
-### 08 / 20 · A short list, three categories and a withdrawn table.  
+### 08 / 22 · A short list, three categories and a withdrawn table.  
 *Regulatory status (US) · tool*
 
 Dated to FDA's records as checked in September 2026. The bulks list is law, changed only by rulemaking; the categories are FDA's interim enforcement posture while nominations are evaluated. Neither is an approval.
@@ -2313,7 +2367,7 @@ Dated to FDA's records as checked in September 2026. The bulks list is law, chan
 
 <sub>Sources: US Food and Drug Administration (Code of Federal Regulations) 2019 · US Food and Drug Administration 2026 · US Food and Drug Administration 2026 · US Food and Drug Administration 2026 · US Food and Drug Administration 2026 · US Food and Drug Administration 2026</sub>
 
-### 09 / 20 · Forty amino acids.  
+### 09 / 22 · Forty amino acids.  
 *Peptide or biologic · stat*
 
 Since 23 March 2020 FDA defines a protein as an alpha amino acid polymer of more than 40 amino acids, whether or not it is chemically synthesized, so anything above the line is a biological product. On that date tesamorelin, a 44-residue GHRH analogue, and the enzyme hyaluronidase moved to biologics licences, and FDA told compounders that transitioned biologics cannot use the 503A or 503B exemptions.
@@ -2324,7 +2378,24 @@ Since 23 March 2020 FDA defines a protein as an alpha amino acid polymer of more
 
 <sub>Sources: egrifta-wr-label-2026 · US Food and Drug Administration 2020 · US Food and Drug Administration 2020 · US Food and Drug Administration 2020 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · US District Court 2025 · US Court of Appeals for the Seventh Circuit 2026</sub>
 
-### 10 / 20 · What a certificate can and cannot prove.  
+### 10 / 22 · In the UK, specials instead of 503A.  
+*Regulatory status (UK) · tool*
+
+The UK handles unlicensed medicines by a different route. A medicine with no UK marketing authorisation may be supplied to meet one patient's special needs, made to a prescriber's specification by a manufacturer that holds a specials licence, and it may not be advertised. Dated to the Human Medicines Regulations 2012 and MHRA guidance as read on 25 September 2026.
+
+| | | |
+|---|---|---|
+| The route (regulation 167) | One patient, one prescriber, an unsolicited order | Made to the specification of a doctor, dentist, nurse or pharmacist independent prescriber or supplementary prescriber, for a patient under their direct care. No advertisement may be published. |
+| Who makes it | A manufacturer with a specials licence | The site is inspected for good manufacturing practice; the product itself is otherwise unassessed for safety, quality and efficacy. A pharmacist may also prepare a medicine in a registered pharmacy against a prescription. |
+| Special need | The patient's clinical need | MHRA's examples include an intolerance or allergy to an ingredient, or an inability to swallow solid doses. Cost, convenience and operational needs do not count. |
+| MHRA's order of preference | Licensed, then off-label, then imported, then special | A UK-licensed medicine comes first, even used off-label; then one licensed in its country of origin; then a UK special. Least acceptable are products that are not medicines where they are made, such as supplements. |
+| Responsibility | The prescriber's | Be satisfied the evidence supports safety and efficacy, take responsibility for the prescription and the follow-up, record your reasons, and explain them to the patient when the use is not routine. GMC, MHRA and GPhC guidance say this; nurse prescribers work within the NMC Code. |
+
+**Callout:** Cost and convenience never justify a special, and a licensed option that meets the need comes first.
+
+<sub>Sources: Human Medicines Regulations 2012 (UK) 2012 · Human Medicines Regulations 2012 (UK) 2012 · Medicines Act 1968 (UK) 1968 · Medicines and Healthcare products Regulatory Agency (UK) 2023 · Medicines and Healthcare products Regulatory Agency (UK) 2009 · General Medical Council (UK) 2021 · General Pharmaceutical Council (UK) 2025 · Nursing and Midwifery Council (UK) 2018</sub>
+
+### 11 / 22 · What a certificate can and cannot prove.  
 *Concept · audio*
 
 A certificate of analysis is the supplier's own report on a named lot. Mass spectrometry checks identity, and a careful certificate prints the expected mass beside the observed one. HPLC gives purity as a percentage, which says nothing about what the impurities are. Endotoxin, microbial, water, counter-ion, metal and solvent results complete it. A certificate cannot prove that the vial in your hand came from that lot, how it was stored since, or that it is sterile and suitable to inject.
@@ -2341,7 +2412,7 @@ Picture the certificate a patient hands you, and read it line by line, asking wh
 
 <sub>Sources: The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · US Food and Drug Administration 2026 · US Food and Drug Administration 2026 · Popławska M 2019 · United States Code (as codified) 2026</sub>
 
-### 11 / 20 · Audit this certificate.  
+### 12 / 22 · Audit this certificate.  
 *Fictional certificate · tool*
 
 A fictional certificate for a vial of a research-use-only peptide, sold online with injection instructions. Read each line, then decide which would count as useful evidence if it matched the vial, and which are red flags.
@@ -2367,7 +2438,7 @@ A fictional certificate for a vial of a research-use-only peptide, sold online w
 
 <sub>Sources: The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · US Food and Drug Administration 2026 · US Food and Drug Administration 2026 · US Food and Drug Administration (Code of Federal Regulations) 2002</sub>
 
-### 12 / 20 · 99% on the label.  
+### 13 / 22 · 99% on the label.  
 *Label against laboratory · stat*
 
 Researchers made test purchases of semaglutide from illegal online pharmacies and analysed what arrived. The three vials that were delivered were all judged probably substandard or falsified: purity measured 7.7–14.4% against the 99% printed on the label, peptide content ran 29–39% above the labelled amount, and endotoxin was found in every vial, although none grew microorganisms.
@@ -2378,7 +2449,7 @@ Researchers made test purchases of semaglutide from illegal online pharmacies an
 
 <sub>Sources: Ashraf AR 2024 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026</sub>
 
-### 13 / 20 · Research use only is a label, and never a route.  
+### 14 / 22 · Research use only is a label, and never a route.  
 *What changes in practice · audio*
 
 In the US, 'not for use in humans' labelling lets a supplier ship an investigational drug for laboratory or in-vitro research, and obliges the shipper to check that is how it will be used. FDA reads intended use from claims, marketing and the circumstances of sale, so the disclaimer changes nothing about a vial sold with injection instructions. A certificate cannot turn such a product into a pharmaceutical.
@@ -2400,7 +2471,24 @@ Research use only sounds like a category. In law it works as a shipping permissi
 
 <sub>Sources: US Food and Drug Administration (Code of Federal Regulations) 2002 · US Food and Drug Administration (Code of Federal Regulations) 2021 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026</sub>
 
-### 14 / 20 · A clean certificate.  
+### 15 / 22 · Selling and advertising peptides in the UK.  
+*Regulatory status (UK) · audio*
+
+In the UK, MHRA decides whether a product is a medicine from its claims, including websites and social media, and from its form and the way it is used. A medicine with no UK marketing authorisation may not be sold, supplied or advertised. MHRA classes injectable melanotan products as medicines, and its largest seizure of unlicensed weight-loss medicines, in May 2026, included peptide products. Prescription-only medicines may not be advertised to the public at all: a clinic may promote 'treatment for lines and wrinkles' without naming the medicine, and in February 2026 the UK advertising regulator ruled that influencer posts tagging a weight-loss injection were adverts for a prescription-only medicine. GMC guidance requires doctors to examine a patient physically before prescribing an injectable cosmetic medicine.
+
+- Medicine or not: claims, form and use decide
+- No UK licence: no sale, supply or advertising
+- Prescription-only: never advertised to the public
+
+<details><summary>Narration script</summary>
+
+Selling a peptide in the United Kingdom starts with one question, whether the product is a medicine, and MHRA answers it from the product as a whole. It reads every claim made for it, on a website or on social media, and looks at its form, such as an injection, and the way it is used. A medicine with no UK marketing authorisation may not be sold, supplied or advertised. MHRA classes injectable melanotan products as medicines, and in May 2026 it seized peptide products in its largest raid on unlicensed weight-loss medicines. Prescription-only medicines may not be advertised to the public at all. A clinic may promote treatment for lines and wrinkles, and it may leave the medicine unnamed. In February 2026 the advertising regulator ruled that influencer posts tagging a weight-loss injection were adverts for a prescription-only medicine. And GMC guidance requires doctors to examine a patient physically before prescribing any injectable cosmetic medicine, which rules out prescribing it by phone or online.
+
+</details>
+
+<sub>Sources: Medicines and Healthcare products Regulatory Agency (UK) 2025 · Human Medicines Regulations 2012 (UK) 2012 · Human Medicines Regulations 2012 (UK) 2012 · Medicines and Healthcare products Regulatory Agency (UK) 2024 · Medicines and Healthcare products Regulatory Agency (UK) 2026 · Human Medicines Regulations 2012 (UK) 2012 · Committee of Advertising Practice / Advertising Standards Authority 2026 · Medicines and Healthcare products Regulatory Agency (UK) 2020 · Advertising Standards Authority 2026 · General Medical Council (UK) 2016</sub>
+
+### 16 / 22 · A clean certificate.  
 *Your turn · quiz*
 
 One question to close lesson 7.2.
@@ -2413,7 +2501,7 @@ One question to close lesson 7.2.
 
 ## Lesson 7.3 · Cosmetic, compounded or investigational: consent and the chart
 
-### 15 / 20 · Off-label needs a label.  
+### 17 / 22 · Off-label needs a label.  
 *Lesson 7.3 · Concept · audio*
 
 Off-label prescribing means using an approved drug for a use its labelling does not cover, and FDA accepts it as clinical judgment. A never-approved peptide has no label to depart from, so prescribing it is use of an unapproved drug. Introducing an unapproved new drug into interstate commerce is a prohibited act under the FD&C Act, and FDA's 2020 warning letter to a compounding pharmacy named BPC-157 and GHK-Cu on exactly this basis.
@@ -2430,10 +2518,10 @@ Off-label is the phrase to get right first. FDA uses it for an approved drug pre
 
 <sub>Sources: US Food and Drug Administration 2018 · United States Code (as codified) 2026 · US Food and Drug Administration 2020 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026</sub>
 
-### 16 / 20 · Same molecule, different rulebooks.  
+### 18 / 22 · Same molecule, different rulebooks.  
 *Classification (US) · tool*
 
-Route and claim decide the regime, whatever the molecule. Here is how each one treats a skin peptide in the US, as checked in September 2026.
+Route and claim decide the regime, whatever the molecule. Here is how each one treats a skin peptide in the US, as checked in September 2026. The UK sorts products the same way, by claim, form and use, into cosmetics, food and medicines; lesson 7.2 set out its route for unlicensed medicines.
 
 | | | |
 |---|---|---|
@@ -2445,9 +2533,9 @@ Route and claim decide the regime, whatever the molecule. Here is how each one t
 
 **Callout:** Write the regime in the chart in these words, before anything else.
 
-<sub>Sources: US Food and Drug Administration 2024 · US Food and Drug Administration 2024 · US Food and Drug Administration 2018 · US Food and Drug Administration 2026 · United States Code (as codified) 2026 · US Food and Drug Administration (Code of Federal Regulations) 2002 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
+<sub>Sources: US Food and Drug Administration 2024 · US Food and Drug Administration 2024 · US Food and Drug Administration 2018 · US Food and Drug Administration 2026 · United States Code (as codified) 2026 · US Food and Drug Administration (Code of Federal Regulations) 2002 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · Medicines and Healthcare products Regulatory Agency (UK) 2025</sub>
 
-### 17 / 20 · 'Just prescribe it off-label.'  
+### 19 / 22 · 'Just prescribe it off-label.'  
 *Fictional case · audio*
 
 A 52-year-old patient, three weeks after a fractional laser treatment, asks you to prescribe compounded BPC-157 injections 'off-label' to speed healing. She has found a pharmacy willing to make it and shows you its certificate of analysis. This is a fictional case built from the module's sources, and one response is clearly best.
@@ -2479,25 +2567,25 @@ A fictional patient, built from this module's sources, is fifty-two and three we
 
 <sub>Sources: US Food and Drug Administration 2018 · US Food and Drug Administration 2026 · US Food and Drug Administration 2020 · US Food and Drug Administration 2026 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
 
-### 18 / 20 · A chart note a reviewer can follow.  
+### 20 / 22 · A chart note a reviewer can follow.  
 *Documentation · tool*
 
 The Peptide Pocket Guide's prescriber checklist, with consent built from the elements FDA's research-consent rule lists. Use it for any conversation about an unapproved or compounded peptide, whether or not you prescribe.
 
 | | | |
 |---|---|---|
-| What it is | Article and status, in those words | For example 'not FDA-approved; no 503A route', never 'off-label' |
-| If compounded | Pathway, facility, certificate | 503A or 503B, the pharmacy, and the certificate of analysis relied on |
+| What it is | Article and status, in those words | For example 'not FDA-approved; no 503A route' in the US, or 'unlicensed medicine' in the UK; never 'off-label' |
+| If compounded | Pathway, facility, certificate | 503A or 503B, the pharmacy, and the certificate of analysis relied on; in the UK, the specials manufacturer and the patient's special need |
 | Consent | Four elements, in writing | Not approved for this use; foreseeable risks; approved alternatives, including doing nothing; what happens if harm occurs |
 | Evidence | Outcome and grade | The certainty you quoted, for the outcome you discussed |
 | Plan | Monitoring and a stopping rule | What you will watch, and when you will stop |
-| Status check | Dated | The day you checked the FDA lists; they changed in April and May 2026 |
+| Status check | Dated | The day you checked the FDA lists (they changed in April and May 2026) or, in the UK, MHRA's product information |
 
 **Callout:** A board reviews reasoning. Make yours visible in the note.
 
-<sub>Sources: The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · US Food and Drug Administration (Code of Federal Regulations) 2026 · US Food and Drug Administration 2026</sub>
+<sub>Sources: The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · US Food and Drug Administration (Code of Federal Regulations) 2026 · US Food and Drug Administration 2026 · Medicines and Healthcare products Regulatory Agency (UK) 2023 · General Medical Council (UK) 2021 · Medicines and Healthcare products Regulatory Agency (UK) 2009</sub>
 
-### 19 / 20 · One molecule, three products.  
+### 21 / 22 · One molecule, three products.  
 *Your turn · quiz*
 
 One question to close lesson 7.3.
@@ -2507,13 +2595,13 @@ One question to close lesson 7.3.
 - ✔ The first is a cosmetic; the second makes a drug claim, so it is an unapproved drug; the vial is outside any clinical route. — *Correct. Claim and route decide the rulebook, whatever the molecule.*
 - ✗ All three are lawful, because GHK-Cu is in Category 1. — *Category 1 covers 503A compounding of non-injectable GHK-Cu under FDA's interim policy. It approves nothing, and it covers neither research products nor injection.*
 
-### 20 / 20 · My practice, from the next conversation.  
+### 22 / 22 · My practice, from the next conversation.  
 *Closing and commitment · action*
 
 This is the last moment of the course. Build the commitment you will actually keep; it is saved to your path, and your tutor will bring it back. The course is designed toward future CME accreditation and does not award credit at this time.
 
 **Exercise (chips) · My practice commitment** — Tap everything you will do. Choose as many as you like.
-*In every peptide conversation from now on I will …* grade the outcome the patient wants, and name what lowers it · ask who ran and paid for the trials · check the live FDA lists on the day, and date the check · read a certificate for what it cannot prove · keep research-use-only products out of care · chart the regime, the grade and the consent in plain words
+*In every peptide conversation from now on I will …* grade the outcome the patient wants, and name what lowers it · ask who ran and paid for the trials · check the live status with my regulator on the day (FDA or MHRA), and date the check · read a certificate for what it cannot prove · keep research-use-only products out of care · chart the regime, the grade and the consent in plain words
 
 **By role**
 - *Prescriber:* Your commitment ends with the chart: the regime, the grade, the consent and a dated status check.
@@ -2674,51 +2762,51 @@ Sources: nieman-2008-cushings-diagnosis-guideline, tiganescu-2013-11bhsd1-aged-s
 
 **hrt for skin · hormone therapy skin · estrogen for wrinkles · estrogen cream face** (m02, `tutor-m02-hrt-skin`)
 
-Estrogen acts on receptors in skin. In small trials, hormone therapy thickened skin and raised collagen (graded C here). The largest trial on facial skin (485 women, 48 weeks) and a four-year trial in recently menopausal women found no difference in wrinkles. In the US, as of February 2026, approved uses of menopausal hormone therapy are hot flashes, vaginal and vulvar symptoms and, for some products, preventing bone loss; skin is not an indication and is never the reason to start. Compounded 'bioidentical' hormones lack efficacy and safety data, and an over-the-counter 'hormone cream' is an unapproved drug under US rules. For skin, daily sunscreen and a prescription retinoid have better evidence. This course gives no doses; hormone therapy decisions belong with a prescriber.
+Estrogen acts on receptors in skin. In small trials, hormone therapy thickened skin and raised collagen (graded C here). The largest trial on facial skin (485 women, 48 weeks) and a four-year trial in recently menopausal women found no difference in wrinkles. In the US, as of February 2026, approved uses of menopausal hormone therapy are hot flashes, vaginal and vulvar symptoms and, for some products, preventing bone loss; skin is not an indication and is never the reason to start. Compounded 'bioidentical' hormones lack efficacy and safety data, and an over-the-counter 'hormone cream' is an unapproved drug under US rules. In the UK, HRT products are prescription-only medicines licensed for oestrogen-deficiency symptoms and, for some, for preventing osteoporosis; skin is not among their uses, and a compounded 'bioidentical' hormone is an unlicensed medicine that MHRA guidance places behind any licensed product that meets the need. For skin, daily sunscreen and a prescription retinoid have better evidence. This course gives no doses; hormone therapy decisions belong with a prescriber.
 
-Sources: ecfr-21-cfr-310-530-hormone-creams, fda-mht-labeling-approval-2026-02-12, fda-renova-tretinoin-label, hughes-2013-sunscreen-skin-aging-rct, nams-2022-hormone-therapy-position-statement, owen-2016-keeps-skin-wrinkles, phillips-2008-ht-facial-skin-rct, sitohang-2022-tretinoin-sr
+Sources: ecfr-21-cfr-310-530-hormone-creams, fda-mht-labeling-approval-2026-02-12, fda-renova-tretinoin-label, hughes-2013-sunscreen-skin-aging-rct, nams-2022-hormone-therapy-position-statement, owen-2016-keeps-skin-wrinkles, phillips-2008-ht-facial-skin-rct, sitohang-2022-tretinoin-sr, emc-smpc-evorel-uk, emc-smpc-sandrena-uk, mhra-gn14-specials-2023
 
 **ozempic face · facial fat loss on semaglutide · tirzepatide face changes · glp-1 facial volume loss** (m03, `m03-tutor-ozempic-face`)
 
-'Ozempic face' describes facial hollowing and laxity during weight loss on incretin drugs. Mechanism: losing fat deflates the superficial facial fat compartments and unmasks laxity already present. Human evidence is observational and small: one retrospective imaging study of 20 patients found a median 9% loss of midface volume, mostly superficial, about 7% per 10 kg lost (D), and a survey of 1,226 patients found sagging, facial volume loss and hair shedding reported more often the more weight was lost (C). No randomized trial has measured the face. Regulatory status (US, September 2026): semaglutide (Ozempic, Wegovy) and tirzepatide (Mounjaro, Zepbound) are FDA-approved for type 2 diabetes, chronic weight management and further heart, liver and sleep-apnoea indications. Their labels list hair loss (about 3–6% on drug against about 1% on placebo, mostly in women, linked to weight reduction) but not facial volume loss. Open question: whether the drugs act directly on facial fat, beyond weight loss, rests on cell studies. In practice: raise facial and hair changes before treatment, record concerns with consented photographs, refer restoration requests to a qualified aesthetic clinician, and take any question about stopping or changing the medicine to the prescriber. The course gives no dosing advice.
+'Ozempic face' describes facial hollowing and laxity during weight loss on incretin drugs. Mechanism: losing fat deflates the superficial facial fat compartments and unmasks laxity already present. Human evidence is observational and small: one retrospective imaging study of 20 patients found a median 9% loss of midface volume, mostly superficial, about 7% per 10 kg lost (D), and a survey of 1,226 patients found sagging, facial volume loss and hair shedding reported more often the more weight was lost (C). No randomized trial has measured the face. Regulatory status (US, September 2026): semaglutide (Ozempic, Wegovy) and tirzepatide (Mounjaro, Zepbound) are FDA-approved for type 2 diabetes, chronic weight management and further heart, liver and sleep-apnoea indications. Their labels list hair loss (about 3–6% on drug against about 1% on placebo, mostly in women, linked to weight reduction) but not facial volume loss. In the UK (September 2026), Ozempic is licensed for type 2 diabetes, Wegovy for weight management and cardiovascular risk reduction, and Mounjaro for both type 2 diabetes and weight management; UK product information also lists hair loss, and MHRA says retatrutide is not authorised in the UK. Open question: whether the drugs act directly on facial fat, beyond weight loss, rests on cell studies. In practice: raise facial and hair changes before treatment, record concerns with consented photographs, refer restoration requests to a qualified aesthetic clinician, and take any question about stopping or changing the medicine to the prescriber. The course gives no dosing advice.
 
-Sources: sharma-2025-midface-volume-glp1, rao-2026-glp1-skin-pro-survey, fda-label-wegovy-2026, fda-label-zepbound-2026, fda-drugsfda-wegovy-nda215256, paschou-2025-glp1ra-skin-aging, hannah-shmouni-2026-are
+Sources: sharma-2025-midface-volume-glp1, rao-2026-glp1-skin-pro-survey, fda-label-wegovy-2026, fda-label-zepbound-2026, fda-drugsfda-wegovy-nda215256, paschou-2025-glp1ra-skin-aging, hannah-shmouni-2026-are, emc-smpc-ozempic-uk, emc-smpc-wegovy-uk, emc-smpc-mounjaro-uk, mhra-2023-11-08-mounjaro-weight, mhra-2026-07-24-no-summer-shortcut
 
 **leaky gut · gut skin axis · zonulin test · probiotics for eczema** (m03, `m03-tutor-gut-skin`)
 
-Mechanism: bacterial lipopolysaccharide crossing a leaky gut barrier ('metabolic endotoxaemia') drives inflammation and insulin resistance in mice, and a single high-fat meal briefly raised plasma endotoxin in a study of 12 healthy men (D). Human evidence for skin: an independent Cochrane review of 39 trials found probiotics probably make little or no difference to patient-rated eczema symptoms (B); a 2024 meta-analysis in children without food allergy reported small score improvements (C); one small randomized trial found rosacea improved after small-intestinal bacterial overgrowth was treated (C). A leading review concludes it is unproven that restoring barrier function improves disease outside the gut, and a widely used commercial zonulin assay detects proteins other than zonulin. A fibre-rich diet has strong evidence for cardiometabolic outcomes and has not been tested on skin outcomes. The Hormonaly guide grades the 'leaky gut' repair stack (L-glutamine, zinc carnosine, BPC-157) D; in the US, BPC-157 is not on the 503A bulks list as of September 2026. Start with diet, metabolic health and the skin diagnosis; investigational peptides come last, if at all, and any injected or research peptide needs a prescriber.
+Mechanism: bacterial lipopolysaccharide crossing a leaky gut barrier ('metabolic endotoxaemia') drives inflammation and insulin resistance in mice, and a single high-fat meal briefly raised plasma endotoxin in a study of 12 healthy men (D). Human evidence for skin: an independent Cochrane review of 39 trials found probiotics probably make little or no difference to patient-rated eczema symptoms (B); a 2024 meta-analysis in children without food allergy reported small score improvements (C); one small randomized trial found rosacea improved after small-intestinal bacterial overgrowth was treated (C). A leading review concludes it is unproven that restoring barrier function improves disease outside the gut, and a widely used commercial zonulin assay detects proteins other than zonulin. A fibre-rich diet has strong evidence for cardiometabolic outcomes and has not been tested on skin outcomes. The Hormonaly guide grades the 'leaky gut' repair stack (L-glutamine, zinc carnosine, BPC-157) D; in the US, BPC-157 is not on the 503A bulks list as of September 2026. In the UK, an unlicensed medicine can be supplied as a 'special' only for an individual patient's special clinical need that no licensed product meets, on the prescriber's responsibility. Start with diet, metabolic health and the skin diagnosis; investigational peptides come last, if at all, and any injected or research peptide needs a prescriber.
 
-Sources: camilleri-2019-leaky-gut, cani-2007-metabolic-endotoxemia, erridge-2007-high-fat-meal-endotoxemia, fda-503a-bulks-page, fda-503a-categories-2026-05-14, fda-pcac-2026-07-meeting, hannah-shmouni-2026-are, makrgeorgou-2018-cochrane-probiotics-eczema, parodi-2008-rosacea-sibo, reynolds-2019-carbohydrate-quality, scheffler-2018-zonulin-elisa, vassilopoulou-2024-eaaci-ad-diet-meta
+Sources: camilleri-2019-leaky-gut, cani-2007-metabolic-endotoxemia, erridge-2007-high-fat-meal-endotoxemia, fda-503a-bulks-page, fda-503a-categories-2026-05-14, fda-pcac-2026-07-meeting, hannah-shmouni-2026-are, makrgeorgou-2018-cochrane-probiotics-eczema, parodi-2008-rosacea-sibo, reynolds-2019-carbohydrate-quality, scheffler-2018-zonulin-elisa, vassilopoulou-2024-eaaci-ad-diet-meta, mhra-gn14-specials-2023, mhra-dsu-2009-offlabel-unlicensed
 
 **ghk-cu · ghk · copper peptide · copper peptides** (m04, `tutor-m04-ghkcu`)
 
-Topical GHK-Cu has a plausible copper-enzyme mechanism and small-trial human support (GRADE C); injected GHK-Cu has no randomized trials and commonly irritates. In the US, as of FDA's 14 May 2026 list, non-injectable GHK-Cu is in 503A Category 1 (under evaluation, not approved); the injectable route is excluded. This course gives no doses or sourcing advice — for an individual patient, that is the prescriber's decision.
+Topical GHK-Cu has a plausible copper-enzyme mechanism and small-trial human support (GRADE C); injected GHK-Cu has no randomized trials and commonly irritates. In the US, as of FDA's 14 May 2026 list, non-injectable GHK-Cu is in 503A Category 1 (under evaluation, not approved); the injectable route is excluded. In the UK, a GHK-Cu serum presented for appearance is regulated as a cosmetic, and cosmetics law excludes anything injected; MHRA decides from its claims, form and use whether an injected product is a medicine, and a medicine with no UK marketing authorisation may not be sold, supplied or advertised. This course gives no doses or sourcing advice — for an individual patient, that is the prescriber's decision.
 
-Sources: miller-2006-ghk-cu-laser-rct, fda-503a-categories-2026-05-14, hannah-shmouni-2026-ppg-aug
+Sources: miller-2006-ghk-cu-laser-rct, fda-503a-categories-2026-05-14, hannah-shmouni-2026-ppg-aug, uk-cosmetics-reg-1223-2009-art2, mhra-gn8-medicinal-product-2025, uk-hmr-2012-reg-46, uk-hmr-2012-reg-279
 
 **bpc-157 · bpc 157 · bpc · tb-500** (m04, `tutor-m04-bpc157`)
 
-BPC-157's evidence is rodent studies from one group plus uncontrolled case series; no randomized efficacy trial in people has been published in full (September 2026); the one randomized trial FDA found, in ulcerative colitis, exists only as a 2005 meeting abstract and showed no significant difference from placebo. TB-500 is a seven-residue fragment of thymosin beta-4 that has never been trialled; KPV has only mouse data. GLOW and KLOW are marketing names for untested blends. FDA's advisory committee reviewed BPC-157, KPV and TB-500 in July 2026 — advice only; they are not on the 503A bulks list. New pigmentation while using research-use-only peptides is a red flag: stop, record the product and source, and get it assessed.
+BPC-157's evidence is rodent studies from one group plus uncontrolled case series; no randomized efficacy trial in people has been published in full (September 2026); the one randomized trial FDA found, in ulcerative colitis, exists only as a 2005 meeting abstract and showed no significant difference from placebo. TB-500 is a seven-residue fragment of thymosin beta-4 that has never been trialled; KPV has only mouse data. GLOW and KLOW are marketing names for untested blends. FDA's advisory committee reviewed BPC-157, KPV and TB-500 in July 2026 — advice only; they are not on the 503A bulks list. In the UK, a medicine with no marketing authorisation may not be sold, supplied or advertised, and MHRA's largest seizure of unlicensed weight-loss medicines, in May 2026, included peptide products. New pigmentation while using research-use-only peptides is a red flag: stop, record the product and source, and get it assessed.
 
-Sources: esposito-2012-tb500-fragment, fda-pcac-2026-07-meeting, fda-pcac-2026-bpc157-briefing, hannah-shmouni-2026-are, seiwerth-2021-bpc157-wound-healing
+Sources: esposito-2012-tb500-fragment, fda-pcac-2026-07-meeting, fda-pcac-2026-bpc157-briefing, hannah-shmouni-2026-are, seiwerth-2021-bpc157-wound-healing, uk-hmr-2012-reg-46, uk-hmr-2012-reg-279, mhra-2026-05-29-largest-seizure
 
 **melanotan · melanotan ii · melanotan 2 · mt2** (m05, `tutor-m05-melanotan`)
 
-Afamelanotide (Scenesse) is an MC1R agonist approved only for erythropoietic protoporphyria (EU 2014, US 2019), on the strength of two sponsor-funded phase 3 trials; even there, the US label recommends a full-body skin examination twice a year. Melanotan II is a different, non-selective molecule approved for no indication. Its only controlled human data are two tiny 1990s studies, and case reports describe darkening and new moles, nail pigmentation, melanomas in people with other risk factors (causation unproven), priapism and rhabdomyolysis. FDA (April 2026), MHRA (April 2024) and TGA (August 2026) have all put warnings on record. If someone has used it: stop, record the product and seller, examine the skin and nails, and refer changing moles; a personal or family history of melanoma makes it an absolute no in the endocrinology guide. This course gives no doses or sourcing advice.
+Afamelanotide (Scenesse) is an MC1R agonist approved only for erythropoietic protoporphyria (EU 2014, US 2019; licensed in the UK, where NICE did not recommend it for NHS use in 2023), on the strength of two sponsor-funded phase 3 trials; even there, the US label recommends a full-body skin examination twice a year. Melanotan II is a different, non-selective molecule approved for no indication. Its only controlled human data are two tiny 1990s studies, and case reports describe darkening and new moles, nail pigmentation, melanomas in people with other risk factors (causation unproven), priapism and rhabdomyolysis. FDA (April 2026), MHRA (April 2024) and TGA (August 2026) have all put warnings on record. If someone has used it: stop, record the product and seller, examine the skin and nails, and refer changing moles; a personal or family history of melanoma makes it an absolute no in the endocrinology guide. This course gives no doses or sourcing advice.
 
-Sources: langendonk-2015-afamelanotide-epp, fda-scenesse-label-2024, bohm-2025-mc1r-activation-review, habbema-2017-msh-analogue-risks, fda-503a-category2-safety-risks-page, hannah-shmouni-2026-are
+Sources: langendonk-2015-afamelanotide-epp, fda-scenesse-label-2024, bohm-2025-mc1r-activation-review, habbema-2017-msh-analogue-risks, fda-503a-category2-safety-risks-page, hannah-shmouni-2026-are, nice-hst27-afamelanotide, mhra-foi-24-274-melanotan-ii, tga-2026-melanotan-ii-safety-advisory
 
 **ptd-dbm · ptd dbm · zinc thymulin · thymulin** (m05, `tutor-m05-hair-peptides`)
 
-PTD-DBM releases a brake (CXXC5) on Wnt signalling; its whole evidence is one 2017 mouse and tissue study from the developer's group, with no human trial published or registered as of September 2026 (grade D). Zinc thymulin is a zinc-dependent thymic peptide with no indexed human hair study (grade D). In the US, on FDA's 14 May 2026 lists, thymulin acetate is in 503A Category 3 and PTD-DBM is on no list; neither is on the bulks list. Hair loss starts with a workup (pattern, trigger, patches, androgens; ferritin and TSH in everyone), and the approved options, minoxidil, finasteride in men and baricitinib for severe alopecia areata, carry grade A evidence. This course gives no doses or sourcing advice; treatment choices belong with the prescriber.
+PTD-DBM releases a brake (CXXC5) on Wnt signalling; its whole evidence is one 2017 mouse and tissue study from the developer's group, with no human trial published or registered as of September 2026 (grade D). Zinc thymulin is a zinc-dependent thymic peptide with no indexed human hair study (grade D). In the US, on FDA's 14 May 2026 lists, thymulin acetate is in 503A Category 3 and PTD-DBM is on no list; neither is on the bulks list. Hair loss starts with a workup (pattern, trigger, patches, androgens; ferritin and TSH in everyone), and the approved options, minoxidil, finasteride in men and baricitinib for severe alopecia areata, carry grade A evidence. In the UK, a men's minoxidil foam is on general sale, finasteride for hair loss is a private prescription carrying MHRA's strengthened warnings on depression and sexual dysfunction (May 2026), baricitinib is licensed for severe alopecia areata, and a peptide spray made up for one patient would be an unlicensed special that MHRA guidance places behind any licensed product that could meet the need. This course gives no doses or sourcing advice; treatment choices belong with the prescriber.
 
-Sources: lee-2017-ptd-dbm-cxxc5-hair, dardenne-1982-thymulin-zinc, fda-503a-categories-2026-05-14, adil-2017-aga-treatments-meta, hannah-shmouni-2026-ppg-aug, hannah-shmouni-2026-are
+Sources: lee-2017-ptd-dbm-cxxc5-hair, dardenne-1982-thymulin-zinc, fda-503a-categories-2026-05-14, adil-2017-aga-treatments-meta, hannah-shmouni-2026-ppg-aug, hannah-shmouni-2026-are, emc-smpc-regaine-men-foam-uk, emc-smpc-propecia-uk, mhra-dsu-2026-05-finasteride, emc-smpc-olumiant-uk, mhra-gn14-specials-2023
 
 **cjc-1295 · cjc 1295 · ipamorelin · sermorelin** (m06, `tutor-m06-secretagogues`)
 
-Tesamorelin is the one peptide on this axis with approval-grade evidence: two phase 3 trials and US approval (2010) for excess abdominal fat in adults with HIV-associated lipodystrophy, GRADE A for that use only. Sermorelin, CJC-1295 with DAC and ipamorelin have human hormone-level data but no trial showing a clinical or skin benefit; CJC-1295 without DAC and IGF-1 LR3 have no published human studies (this course grades all of these D). In the US, as of FDA's lists of April and May 2026, no growth-hormone secretagogue is on the 503A bulks list; ibutamoren (MK-677) is in Category 2, and the CJC-1295 and ipamorelin 503A nominations were withdrawn. Growth hormone itself is approved for diagnosed deficiency and a few growth disorders, and knowingly distributing it for anti-ageing is a federal offence. This course gives no doses or sourcing advice; for an individual patient, that is a prescriber's decision.
+Tesamorelin is the one peptide on this axis with approval-grade evidence: two phase 3 trials and US approval (2010) for excess abdominal fat in adults with HIV-associated lipodystrophy, GRADE A for that use only. Sermorelin, CJC-1295 with DAC and ipamorelin have human hormone-level data but no trial showing a clinical or skin benefit; CJC-1295 without DAC and IGF-1 LR3 have no published human studies (this course grades all of these D). In the US, as of FDA's lists of April and May 2026, no growth-hormone secretagogue is on the 503A bulks list; ibutamoren (MK-677) is in Category 2, and the CJC-1295 and ipamorelin 503A nominations were withdrawn. Growth hormone itself is approved for diagnosed deficiency and a few growth disorders, and knowingly distributing it for anti-ageing is a federal offence in the US. In the UK, somatropin is a prescription-only medicine and a Class C controlled drug, and MHRA's products database holds no product information for tesamorelin, sermorelin or ipamorelin (September 2026). This course gives no doses or sourcing advice; for an individual patient, that is a prescriber's decision.
 
-Sources: falutz-2010-tesamorelin-pooled, dominikowski-2026-gh-axis-peptides-review, fda-503a-categories-2026-05-14, fda-503a-category2-safety-risks-page, usc-21-333e-hgh
+Sources: falutz-2010-tesamorelin-pooled, dominikowski-2026-gh-axis-peptides-review, fda-503a-categories-2026-05-14, fda-503a-category2-safety-risks-page, usc-21-333e-hgh, emc-smpc-genotropin-uk, uk-misuse-of-drugs-act-1971-sch2, mhra-products-database-search-2026-09-25
 
 **too much growth hormone · gh excess signs · acromegaly skin · swollen hands** (m06, `tutor-m06-gh-excess`)
 
@@ -2734,8 +2822,8 @@ Sources: balshem-2011-grade-rating-quality, guyatt-2025-core-grade-4-bias, lundh
 
 **certificate of analysis · coa · hplc · purity** (m07, `tutor-m07-compounding-coa`)
 
-In the US, a 503A pharmacy may compound only from a substance that meets a USP or NF monograph, or else is a component of an approved drug, or else is on the 503A bulks list (six substances, none a peptide, as of September 2026), and it needs a valid certificate of analysis. A certificate is the supplier's report on one lot: mass spectrometry for identity, HPLC for purity, plus endotoxin and microbial results. It cannot prove your vial is that lot, how it was stored, or that it is sterile or lawful. 'Research use only' products are labelled not for use in humans, and 'off-label' applies only to approved drugs. This course gives no doses or sourcing advice; for an individual patient, that is the prescriber's decision.
+In the US, a 503A pharmacy may compound only from a substance that meets a USP or NF monograph, or else is a component of an approved drug, or else is on the 503A bulks list (six substances, none a peptide, as of September 2026), and it needs a valid certificate of analysis. A certificate is the supplier's report on one lot: mass spectrometry for identity, HPLC for purity, plus endotoxin and microbial results. It cannot prove your vial is that lot, how it was stored, or that it is sterile or lawful. 'Research use only' products are labelled not for use in humans, and 'off-label' applies only to approved drugs. In the UK, an unlicensed medicine reaches a patient as a 'special', made by a licensed specials manufacturer to a prescriber's order for one patient's special clinical need, or as a medicine a pharmacist prepares against a prescription; MHRA guidance ranks a UK-licensed medicine, even used off-label, ahead of an unlicensed one, and specials may not be advertised. This course gives no doses or sourcing advice; for an individual patient, that is the prescriber's decision.
 
-Sources: usc-21-353a, ecfr-21-cfr-216-23-bulks-list, hannah-shmouni-2026-ppg-aug, ecfr-21-cfr-312-160, fda-off-label-page
+Sources: usc-21-353a, ecfr-21-cfr-216-23-bulks-list, hannah-shmouni-2026-ppg-aug, ecfr-21-cfr-312-160, fda-off-label-page, uk-hmr-2012-reg-167, mhra-gn14-specials-2023, uk-medicines-act-1968-s10
 
 ---

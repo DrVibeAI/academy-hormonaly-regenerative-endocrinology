@@ -1,22 +1,22 @@
 # Hormones and Peptides for Skin · Module 07 — review draft
 
-*approved · authored 2026-09-24 · 20 moments, ~27 min + module check · 37 sources · 20 claims*
+*approved · authored 2026-09-24 · 22 moments, ~29 min + module check · 54 sources · 29 claims*
 
 Every factual sentence traces to the graded registry (`citations/m07.md`). Moments marked **By role** carry the prescriber · clinical staff · advisor versions of the practice guidance; grades and regulatory facts never change by role.
 
 
 ## Lesson 7.1 · Grading the evidence behind an aesthetic claim
 
-### 01 / 20 · Grade it, check it, write it down.  
+### 01 / 22 · Grade it, check it, write it down.  
 *Module 07 · Evidence, regulation and compliance · title*
 
-This last module turns the course into three habits. You will rate the certainty behind a claim with GRADE, read a compounding status and a certificate of analysis for what they do and do not prove, and write the consent and chart note that an unapproved product needs. The regulatory detail is US; UK and EU mapping for this course is still in progress.
+This last module turns the course into three habits. You will rate the certainty behind a claim with GRADE, read a compounding status and a certificate of analysis for what they do and do not prove, and write the consent and chart note that an unapproved product needs. The regulatory detail is given for the US and the UK: lesson 7.2 adds the UK route for unlicensed medicines and the UK rules on selling and advertising peptides. EU rules are not covered.
 
 - 7.1 Grading the evidence behind an aesthetic claim
 - 7.2 Compounding law, the 40-amino-acid line and certificates of analysis
 - 7.3 Cosmetic, compounded or investigational: consent and the chart
 
-### 02 / 20 · GRADE rates certainty in an effect, one outcome at a time.  
+### 02 / 22 · GRADE rates certainty in an effect, one outcome at a time.  
 *Lesson 7.1 · Concept · audio*
 
 GRADE sorts the evidence on a specific question into four levels of certainty: high, moderate, low and very low. The rating applies to a body of evidence for one outcome, never to a single study or to a molecule. Randomized trials start high and observational studies start low; certainty then falls for risk of bias, inconsistency, indirectness, imprecision or suspected publication bias, and occasionally rises for a very large effect. Both Hormonaly guides print the letters A to D for the same idea, adapted, and attach each letter to a specific use.
@@ -33,7 +33,7 @@ Every claim you hear about a skin peptide carries a hidden question. How sure ca
 
 <sub>Sources: Balshem H 2011 · Guyatt GH 2008 · Guyatt G 2025 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
 
-### 03 / 20 · Sponsored studies come out better.  
+### 03 / 22 · Sponsored studies come out better.  
 *Who paid · stat*
 
 A Cochrane methodology review brought together 75 papers, each comparing studies sponsored by the manufacturer with studies funded in other ways. Industry-sponsored drug and device studies more often reported favourable efficacy results and favourable conclusions, and the difference was not explained by the usual risk-of-bias checks. It is the pattern you met with oral collagen in module 04.
@@ -44,7 +44,7 @@ A Cochrane methodology review brought together 75 papers, each comparing studies
 
 <sub>Sources: Lundh A 2017 · Myung SK 2025 · Guyatt G 2025</sub>
 
-### 04 / 20 · Name what lowers certainty.  
+### 04 / 22 · Name what lowers certainty.  
 *Worked example · tool*
 
 GRADE names the ways a body of evidence can mislead. Read the four you will use most. Then sort four cases from this course by the reason that most lowers certainty. The fifth, publication bias, is suspected when the evidence is a handful of small, mostly commercially funded studies.
@@ -66,7 +66,7 @@ GRADE names the ways a body of evidence can mislead. Read the four you will use 
 
 <sub>Sources: Guyatt G 2025 · Guyatt G 2025 · Guyatt G 2025 · Guyatt G 2025 · Miller TR 2006 · Grönberg A 2014 · Mahlapuu M 2021 · Myung SK 2025 · Seiwerth S 2021</sub>
 
-### 05 / 20 · Two checks, never one.  
+### 05 / 22 · Two checks, never one.  
 *What changes in practice · audio*
 
 Evidence grade and regulatory status are separate axes, and both Hormonaly guides ask you to clear both. An approved drug can carry a low grade for the use a patient wants, and a compound with stronger human data can still have no lawful route. A plausible mechanism never raises a grade. Say the outcome, the grade and who ran the trials, then check the status as its own step.
@@ -88,7 +88,7 @@ Suppose a patient asks whether a peptide works. Start with the outcome they care
 
 <sub>Sources: The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · Balshem H 2011 · Lundh A 2017</sub>
 
-### 06 / 20 · Three trials, grade A?  
+### 06 / 22 · Three trials, grade A?  
 *Your turn · quiz*
 
 One question to close lesson 7.1.
@@ -101,7 +101,7 @@ One question to close lesson 7.1.
 
 ## Lesson 7.2 · Compounding law, the 40-amino-acid line and certificates of analysis
 
-### 07 / 20 · Two compounding routes, one strict order.  
+### 07 / 22 · Two compounding routes, one strict order.  
 *Lesson 7.2 · Concept · audio*
 
 In the US, section 503A lets a licensed pharmacist or physician compound for an identified patient on a prescription, exempt from new-drug approval, adequate directions for use and good manufacturing practice. The bulk substance must meet a USP or NF monograph; failing that, be a component of an approved drug; failing that, appear on FDA's 503A bulks list. It must also come from an FDA-registered establishment with a valid certificate of analysis. Section 503B outsourcing facilities register with FDA, work to good manufacturing practice under inspection, and may compound without patient-specific prescriptions.
@@ -118,7 +118,7 @@ Two routes exist for compounding in the United States, and the difference betwee
 
 <sub>Sources: United States Code (as codified) 2026 · US Food and Drug Administration 2026 · United States Code (as codified) 2026 · US Food and Drug Administration 2022</sub>
 
-### 08 / 20 · A short list, three categories and a withdrawn table.  
+### 08 / 22 · A short list, three categories and a withdrawn table.  
 *Regulatory status (US) · tool*
 
 Dated to FDA's records as checked in September 2026. The bulks list is law, changed only by rulemaking; the categories are FDA's interim enforcement posture while nominations are evaluated. Neither is an approval.
@@ -135,7 +135,7 @@ Dated to FDA's records as checked in September 2026. The bulks list is law, chan
 
 <sub>Sources: US Food and Drug Administration (Code of Federal Regulations) 2019 · US Food and Drug Administration 2026 · US Food and Drug Administration 2026 · US Food and Drug Administration 2026 · US Food and Drug Administration 2026 · US Food and Drug Administration 2026</sub>
 
-### 09 / 20 · Forty amino acids.  
+### 09 / 22 · Forty amino acids.  
 *Peptide or biologic · stat*
 
 Since 23 March 2020 FDA defines a protein as an alpha amino acid polymer of more than 40 amino acids, whether or not it is chemically synthesized, so anything above the line is a biological product. On that date tesamorelin, a 44-residue GHRH analogue, and the enzyme hyaluronidase moved to biologics licences, and FDA told compounders that transitioned biologics cannot use the 503A or 503B exemptions.
@@ -146,7 +146,24 @@ Since 23 March 2020 FDA defines a protein as an alpha amino acid polymer of more
 
 <sub>Sources: egrifta-wr-label-2026 · US Food and Drug Administration 2020 · US Food and Drug Administration 2020 · US Food and Drug Administration 2020 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · US District Court 2025 · US Court of Appeals for the Seventh Circuit 2026</sub>
 
-### 10 / 20 · What a certificate can and cannot prove.  
+### 10 / 22 · In the UK, specials instead of 503A.  
+*Regulatory status (UK) · tool*
+
+The UK handles unlicensed medicines by a different route. A medicine with no UK marketing authorisation may be supplied to meet one patient's special needs, made to a prescriber's specification by a manufacturer that holds a specials licence, and it may not be advertised. Dated to the Human Medicines Regulations 2012 and MHRA guidance as read on 25 September 2026.
+
+| | | |
+|---|---|---|
+| The route (regulation 167) | One patient, one prescriber, an unsolicited order | Made to the specification of a doctor, dentist, nurse or pharmacist independent prescriber or supplementary prescriber, for a patient under their direct care. No advertisement may be published. |
+| Who makes it | A manufacturer with a specials licence | The site is inspected for good manufacturing practice; the product itself is otherwise unassessed for safety, quality and efficacy. A pharmacist may also prepare a medicine in a registered pharmacy against a prescription. |
+| Special need | The patient's clinical need | MHRA's examples include an intolerance or allergy to an ingredient, or an inability to swallow solid doses. Cost, convenience and operational needs do not count. |
+| MHRA's order of preference | Licensed, then off-label, then imported, then special | A UK-licensed medicine comes first, even used off-label; then one licensed in its country of origin; then a UK special. Least acceptable are products that are not medicines where they are made, such as supplements. |
+| Responsibility | The prescriber's | Be satisfied the evidence supports safety and efficacy, take responsibility for the prescription and the follow-up, record your reasons, and explain them to the patient when the use is not routine. GMC, MHRA and GPhC guidance say this; nurse prescribers work within the NMC Code. |
+
+**Callout:** Cost and convenience never justify a special, and a licensed option that meets the need comes first.
+
+<sub>Sources: Human Medicines Regulations 2012 (UK) 2012 · Human Medicines Regulations 2012 (UK) 2012 · Medicines Act 1968 (UK) 1968 · Medicines and Healthcare products Regulatory Agency (UK) 2023 · Medicines and Healthcare products Regulatory Agency (UK) 2009 · General Medical Council (UK) 2021 · General Pharmaceutical Council (UK) 2025 · Nursing and Midwifery Council (UK) 2018</sub>
+
+### 11 / 22 · What a certificate can and cannot prove.  
 *Concept · audio*
 
 A certificate of analysis is the supplier's own report on a named lot. Mass spectrometry checks identity, and a careful certificate prints the expected mass beside the observed one. HPLC gives purity as a percentage, which says nothing about what the impurities are. Endotoxin, microbial, water, counter-ion, metal and solvent results complete it. A certificate cannot prove that the vial in your hand came from that lot, how it was stored since, or that it is sterile and suitable to inject.
@@ -163,7 +180,7 @@ Picture the certificate a patient hands you, and read it line by line, asking wh
 
 <sub>Sources: The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · US Food and Drug Administration 2026 · US Food and Drug Administration 2026 · Popławska M 2019 · United States Code (as codified) 2026</sub>
 
-### 11 / 20 · Audit this certificate.  
+### 12 / 22 · Audit this certificate.  
 *Fictional certificate · tool*
 
 A fictional certificate for a vial of a research-use-only peptide, sold online with injection instructions. Read each line, then decide which would count as useful evidence if it matched the vial, and which are red flags.
@@ -189,7 +206,7 @@ A fictional certificate for a vial of a research-use-only peptide, sold online w
 
 <sub>Sources: The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · US Food and Drug Administration 2026 · US Food and Drug Administration 2026 · US Food and Drug Administration (Code of Federal Regulations) 2002</sub>
 
-### 12 / 20 · 99% on the label.  
+### 13 / 22 · 99% on the label.  
 *Label against laboratory · stat*
 
 Researchers made test purchases of semaglutide from illegal online pharmacies and analysed what arrived. The three vials that were delivered were all judged probably substandard or falsified: purity measured 7.7–14.4% against the 99% printed on the label, peptide content ran 29–39% above the labelled amount, and endotoxin was found in every vial, although none grew microorganisms.
@@ -200,7 +217,7 @@ Researchers made test purchases of semaglutide from illegal online pharmacies an
 
 <sub>Sources: Ashraf AR 2024 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026</sub>
 
-### 13 / 20 · Research use only is a label, and never a route.  
+### 14 / 22 · Research use only is a label, and never a route.  
 *What changes in practice · audio*
 
 In the US, 'not for use in humans' labelling lets a supplier ship an investigational drug for laboratory or in-vitro research, and obliges the shipper to check that is how it will be used. FDA reads intended use from claims, marketing and the circumstances of sale, so the disclaimer changes nothing about a vial sold with injection instructions. A certificate cannot turn such a product into a pharmaceutical.
@@ -222,7 +239,24 @@ Research use only sounds like a category. In law it works as a shipping permissi
 
 <sub>Sources: US Food and Drug Administration (Code of Federal Regulations) 2002 · US Food and Drug Administration (Code of Federal Regulations) 2021 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026</sub>
 
-### 14 / 20 · A clean certificate.  
+### 15 / 22 · Selling and advertising peptides in the UK.  
+*Regulatory status (UK) · audio*
+
+In the UK, MHRA decides whether a product is a medicine from its claims, including websites and social media, and from its form and the way it is used. A medicine with no UK marketing authorisation may not be sold, supplied or advertised. MHRA classes injectable melanotan products as medicines, and its largest seizure of unlicensed weight-loss medicines, in May 2026, included peptide products. Prescription-only medicines may not be advertised to the public at all: a clinic may promote 'treatment for lines and wrinkles' without naming the medicine, and in February 2026 the UK advertising regulator ruled that influencer posts tagging a weight-loss injection were adverts for a prescription-only medicine. GMC guidance requires doctors to examine a patient physically before prescribing an injectable cosmetic medicine.
+
+- Medicine or not: claims, form and use decide
+- No UK licence: no sale, supply or advertising
+- Prescription-only: never advertised to the public
+
+<details><summary>Narration script</summary>
+
+Selling a peptide in the United Kingdom starts with one question, whether the product is a medicine, and MHRA answers it from the product as a whole. It reads every claim made for it, on a website or on social media, and looks at its form, such as an injection, and the way it is used. A medicine with no UK marketing authorisation may not be sold, supplied or advertised. MHRA classes injectable melanotan products as medicines, and in May 2026 it seized peptide products in its largest raid on unlicensed weight-loss medicines. Prescription-only medicines may not be advertised to the public at all. A clinic may promote treatment for lines and wrinkles, and it may leave the medicine unnamed. In February 2026 the advertising regulator ruled that influencer posts tagging a weight-loss injection were adverts for a prescription-only medicine. And GMC guidance requires doctors to examine a patient physically before prescribing any injectable cosmetic medicine, which rules out prescribing it by phone or online.
+
+</details>
+
+<sub>Sources: Medicines and Healthcare products Regulatory Agency (UK) 2025 · Human Medicines Regulations 2012 (UK) 2012 · Human Medicines Regulations 2012 (UK) 2012 · Medicines and Healthcare products Regulatory Agency (UK) 2024 · Medicines and Healthcare products Regulatory Agency (UK) 2026 · Human Medicines Regulations 2012 (UK) 2012 · Committee of Advertising Practice / Advertising Standards Authority 2026 · Medicines and Healthcare products Regulatory Agency (UK) 2020 · Advertising Standards Authority 2026 · General Medical Council (UK) 2016</sub>
+
+### 16 / 22 · A clean certificate.  
 *Your turn · quiz*
 
 One question to close lesson 7.2.
@@ -235,7 +269,7 @@ One question to close lesson 7.2.
 
 ## Lesson 7.3 · Cosmetic, compounded or investigational: consent and the chart
 
-### 15 / 20 · Off-label needs a label.  
+### 17 / 22 · Off-label needs a label.  
 *Lesson 7.3 · Concept · audio*
 
 Off-label prescribing means using an approved drug for a use its labelling does not cover, and FDA accepts it as clinical judgment. A never-approved peptide has no label to depart from, so prescribing it is use of an unapproved drug. Introducing an unapproved new drug into interstate commerce is a prohibited act under the FD&C Act, and FDA's 2020 warning letter to a compounding pharmacy named BPC-157 and GHK-Cu on exactly this basis.
@@ -252,10 +286,10 @@ Off-label is the phrase to get right first. FDA uses it for an approved drug pre
 
 <sub>Sources: US Food and Drug Administration 2018 · United States Code (as codified) 2026 · US Food and Drug Administration 2020 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026</sub>
 
-### 16 / 20 · Same molecule, different rulebooks.  
+### 18 / 22 · Same molecule, different rulebooks.  
 *Classification (US) · tool*
 
-Route and claim decide the regime, whatever the molecule. Here is how each one treats a skin peptide in the US, as checked in September 2026.
+Route and claim decide the regime, whatever the molecule. Here is how each one treats a skin peptide in the US, as checked in September 2026. The UK sorts products the same way, by claim, form and use, into cosmetics, food and medicines; lesson 7.2 set out its route for unlicensed medicines.
 
 | | | |
 |---|---|---|
@@ -267,9 +301,9 @@ Route and claim decide the regime, whatever the molecule. Here is how each one t
 
 **Callout:** Write the regime in the chart in these words, before anything else.
 
-<sub>Sources: US Food and Drug Administration 2024 · US Food and Drug Administration 2024 · US Food and Drug Administration 2018 · US Food and Drug Administration 2026 · United States Code (as codified) 2026 · US Food and Drug Administration (Code of Federal Regulations) 2002 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
+<sub>Sources: US Food and Drug Administration 2024 · US Food and Drug Administration 2024 · US Food and Drug Administration 2018 · US Food and Drug Administration 2026 · United States Code (as codified) 2026 · US Food and Drug Administration (Code of Federal Regulations) 2002 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · Medicines and Healthcare products Regulatory Agency (UK) 2025</sub>
 
-### 17 / 20 · 'Just prescribe it off-label.'  
+### 19 / 22 · 'Just prescribe it off-label.'  
 *Fictional case · audio*
 
 A 52-year-old patient, three weeks after a fractional laser treatment, asks you to prescribe compounded BPC-157 injections 'off-label' to speed healing. She has found a pharmacy willing to make it and shows you its certificate of analysis. This is a fictional case built from the module's sources, and one response is clearly best.
@@ -301,25 +335,25 @@ A fictional patient, built from this module's sources, is fifty-two and three we
 
 <sub>Sources: US Food and Drug Administration 2018 · US Food and Drug Administration 2026 · US Food and Drug Administration 2020 · US Food and Drug Administration 2026 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
 
-### 18 / 20 · A chart note a reviewer can follow.  
+### 20 / 22 · A chart note a reviewer can follow.  
 *Documentation · tool*
 
 The Peptide Pocket Guide's prescriber checklist, with consent built from the elements FDA's research-consent rule lists. Use it for any conversation about an unapproved or compounded peptide, whether or not you prescribe.
 
 | | | |
 |---|---|---|
-| What it is | Article and status, in those words | For example 'not FDA-approved; no 503A route', never 'off-label' |
-| If compounded | Pathway, facility, certificate | 503A or 503B, the pharmacy, and the certificate of analysis relied on |
+| What it is | Article and status, in those words | For example 'not FDA-approved; no 503A route' in the US, or 'unlicensed medicine' in the UK; never 'off-label' |
+| If compounded | Pathway, facility, certificate | 503A or 503B, the pharmacy, and the certificate of analysis relied on; in the UK, the specials manufacturer and the patient's special need |
 | Consent | Four elements, in writing | Not approved for this use; foreseeable risks; approved alternatives, including doing nothing; what happens if harm occurs |
 | Evidence | Outcome and grade | The certainty you quoted, for the outcome you discussed |
 | Plan | Monitoring and a stopping rule | What you will watch, and when you will stop |
-| Status check | Dated | The day you checked the FDA lists; they changed in April and May 2026 |
+| Status check | Dated | The day you checked the FDA lists (they changed in April and May 2026) or, in the UK, MHRA's product information |
 
 **Callout:** A board reviews reasoning. Make yours visible in the note.
 
-<sub>Sources: The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · US Food and Drug Administration (Code of Federal Regulations) 2026 · US Food and Drug Administration 2026</sub>
+<sub>Sources: The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · US Food and Drug Administration (Code of Federal Regulations) 2026 · US Food and Drug Administration 2026 · Medicines and Healthcare products Regulatory Agency (UK) 2023 · General Medical Council (UK) 2021 · Medicines and Healthcare products Regulatory Agency (UK) 2009</sub>
 
-### 19 / 20 · One molecule, three products.  
+### 21 / 22 · One molecule, three products.  
 *Your turn · quiz*
 
 One question to close lesson 7.3.
@@ -329,13 +363,13 @@ One question to close lesson 7.3.
 - ✔ The first is a cosmetic; the second makes a drug claim, so it is an unapproved drug; the vial is outside any clinical route. — *Correct. Claim and route decide the rulebook, whatever the molecule.*
 - ✗ All three are lawful, because GHK-Cu is in Category 1. — *Category 1 covers 503A compounding of non-injectable GHK-Cu under FDA's interim policy. It approves nothing, and it covers neither research products nor injection.*
 
-### 20 / 20 · My practice, from the next conversation.  
+### 22 / 22 · My practice, from the next conversation.  
 *Closing and commitment · action*
 
 This is the last moment of the course. Build the commitment you will actually keep; it is saved to your path, and your tutor will bring it back. The course is designed toward future CME accreditation and does not award credit at this time.
 
 **Exercise (chips) · My practice commitment** — Tap everything you will do. Choose as many as you like.
-*In every peptide conversation from now on I will …* grade the outcome the patient wants, and name what lowers it · ask who ran and paid for the trials · check the live FDA lists on the day, and date the check · read a certificate for what it cannot prove · keep research-use-only products out of care · chart the regime, the grade and the consent in plain words
+*In every peptide conversation from now on I will …* grade the outcome the patient wants, and name what lowers it · ask who ran and paid for the trials · check the live status with my regulator on the day (FDA or MHRA), and date the check · read a certificate for what it cannot prove · keep research-use-only products out of care · chart the regime, the grade and the consent in plain words
 
 **By role**
 - *Prescriber:* Your commitment ends with the chart: the regime, the grade, the consent and a dated status check.
@@ -364,3 +398,7 @@ This is the last moment of the course. Build the commitment you will actually ke
 8. Peptide Pocket Guide, jurisdictional snapshot — 'most malpractice policies exclude unapproved-drug claims' carries no citation and could not be verified; the course does not use it.
 9. FDA's July 2026 BPC-157 briefing (fda.gov/media/193343) is primary evidence both guides could cite in their certificate-of-analysis sections: the nominators' certificates were for BPC-157 acetate while the nomination was for the free base, publicly available BPC-157 certificates mostly report purity alone with no impurity limits, and the nominator's certificate reported no endotoxin test. The same document cites a single small exploratory trial in ulcerative colitis reported only as a meeting abstract.
 10. Not in either guide, worth adding — the Core GRADE series (BMJ 2025) as the current GRADE reference; the Cochrane review of industry sponsorship and research outcome (Lundh 2017); FDA's endotoxin Q&A guidance (Edition 2, March 2026) for the dose-and-route basis of endotoxin limits; FDA's 'Is It a Cosmetic, a Drug, or Both?' page, whose drug-claim examples include 'regenerate cells'; and Popławska 2019 (an undocumented GHRP-2 analogue found in a seized vial by high-resolution MS).
+11. UK framework (2026-09-25) — both guides' regulatory chapters are US-only. A UK reader needs: the specials route (Human Medicines Regulations 2012 reg. 167; pharmacy preparation under Medicines Act 1968 s. 10); MHRA Guidance Note 14's order of preference (UK-licensed, even off-label → licensed abroad → UK special → non-medicines) and its exclusion of cost and convenience; the bans on advertising unlicensed (reg. 279) and prescription-only medicines to the public (reg. 284; CAP Code 12.12; ASA ruling on '#mounjaro' posts, 11 Feb 2026); prescriber responsibility (GMC paras 102–108, MHRA Drug Safety Update 2009, GPhC 2025, NMC Code standard 18); and GMC's requirement to examine a patient physically before prescribing injectable cosmetic medicines. The course now teaches these in m7-p21 and m7-p22.
+12. Pocket Guide 'Jurisdictional snapshot' — 'UK (MHRA): not licensed for human use' (for BPC-157) carries no citation. The course could not confirm BPC-157's UK status from a primary record: MHRA's products database is a full-text search ('BPC-157' returns 15,196 unrelated documents), and no MHRA statement naming BPC-157 was found on gov.uk (searched 25 Sep 2026). The course states the legal consequence of having no UK marketing authorisation (regs 46 and 279) instead; suggest the guide cite MHRA and say 'no UK marketing authorisation'.
+13. 'Research use only' in the UK — no MHRA statement specific to research-use-only peptides was found on gov.uk (searched 25 Sep 2026). The course applies MHRA's general classification tests (Guidance Note 8: claims including websites and social media, product form such as injection, and use) and cites the melanotan FOI (2024) and the May 2026 seizure of peptide products. Terminology note for the guides: the GMC uses 'unlicensed medicine' for both off-label use and medicines with no UK licence (para 102), while MHRA and the GPhC keep the two apart; the course follows MHRA.
+14. Source-check tooling (2026-09-25) — three UK primary sources cannot be read by the automated claim-support check: the GB nutrition and health claims register (published only as .xlsx/.ods), MHRA's products database (JavaScript application) and gmc-uk.org (HTTP 403 to scripts). The GMC pages and the database were read in a browser on 25 Sep 2026; statements resting on them will show as 'unavailable' (minor) in the claim-support report.

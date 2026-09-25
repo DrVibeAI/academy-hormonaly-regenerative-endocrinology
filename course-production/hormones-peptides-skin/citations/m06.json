@@ -1,7 +1,7 @@
 {
  "module": "m06",
  "verifiedAt": "2026-09-24",
- "verification": "Every PMID resolved through NCBI E-utilities esummary (title, first author, journal, year compared) and abstracts read through efetch; trial sponsors through the ClinicalTrials.gov v2 API; FDA pages and PDFs (503A category list of 14 May 2026, Category 2 page, October 2024 advisory-committee minutes, warning letter), DailyMed labels (SPL XML), Drugs@FDA and openFDA, the Federal Register API, eCFR and uscode.house.gov fetched live on 2026-09-24 and read; open-access full text via Europe PMC (Giustina 2024, Dominikowski 2026); the Endocrine Society guideline's recommendations read on the publisher's page. Nothing is included on the strength of a guide reference alone.",
+ "verification": "Every PMID resolved through NCBI E-utilities esummary (title, first author, journal, year compared) and abstracts read through efetch; trial sponsors through the ClinicalTrials.gov v2 API; FDA pages and PDFs (503A category list of 14 May 2026, Category 2 page, October 2024 advisory-committee minutes, warning letter), DailyMed labels (SPL XML), Drugs@FDA and openFDA, the Federal Register API, eCFR and uscode.house.gov fetched live on 2026-09-24 and read; open-access full text via Europe PMC (Giustina 2024, Dominikowski 2026); the Endocrine Society guideline's recommendations read on the publisher's page. Nothing is included on the strength of a guide reference alone. UK sources (added 2026-09-25, when Omar kept the UK in scope): legislation.gov.uk, gov.uk (MHRA, OPSS, DHSC), the electronic medicines compendium (UK SmPCs), NICE, ASA/CAP, the GPhC and the NMC fetched live and read 2026-09-25; the GMC pages and MHRA's products database were read in a browser the same day (they refuse scripts or serve no text to them).",
  "gradedAt": "2026-09-24",
  "grader": "Graded 2026-09-24 by the agent under Omar Saleem's delegation (\"you should be able to do that from the guide\"); rule set below; final review Dr. Hannah-Shmouni",
  "gradingRule": "Grade = certainty the source gives for the specific clinical statement the lesson makes, on the guides' A–D scale. A: consistent large RCTs or approval-grade evidence. B: at least one well-designed, adequately powered RCT or an independent, quality-stratified meta-analysis (either direction). C: small or sponsor-funded RCTs without independent replication, or pooled trials dominated by them. D: animal, in-vitro, mechanistic, case series, manufacturer dossiers. 'context' = history, reviews used for framing, trial registrations without results, analytical or regulatory records (regulatory records are primary for status statements, not graded for efficacy). Where the two guides disagree, the lesson states both and the claim takes the grade the primary evidence supports. Observational studies (added 2026-09-24, GRADE starting point; confirmed by Fady Hannah-Shmouni, MD FRCPC, 2026-09-24): adequately sized cohort, case-control or cross-sectional studies grade C for the association they measured; small or single-centre ones grade D; any causal claim drawn from observational data grades D. Meta-analyses of observational studies grade at most B, and only for association. Guidelines and consensus statements are 'context', cited for what they recommend, not graded as evidence.",
@@ -679,6 +679,74 @@
    "note": "found by PubMed search 2026-09-24",
    "grade": "C",
    "gradeNote": "small observational natural experiment"
+  },
+  {
+   "id": "emc-smpc-genotropin-uk",
+   "lesson": "m06-l1",
+   "title": "Genotropin 5.3 mg powder and solvent for solution for injection — Summary of Product Characteristics (UK)",
+   "authors": "Pfizer Limited (marketing authorisation holder)",
+   "publication": "medicines.org.uk (emc) · PL 00057/0987 · text revised 05/2024 · prescription only medicine",
+   "year": 2024,
+   "url": "https://www.medicines.org.uk/emc/product/32/smpc",
+   "sourceType": "label",
+   "design": "UK summary of product characteristics",
+   "independence": "regulator-approved label",
+   "role": "UK licence (somatropin): in children, growth disturbance from growth hormone deficiency, Turner syndrome, chronic renal insufficiency, short stature after small-for-gestational-age birth without catch-up, and Prader-Willi syndrome; in adults, replacement therapy for pronounced growth hormone deficiency; prescription-only",
+   "guideGrade": "—",
+   "note": "Fetched live and read 2026-09-25 (HTTP 200). Legal category read from the same page.",
+   "grade": "context",
+   "gradeNote": "primary regulatory record (UK product information)"
+  },
+  {
+   "id": "uk-misuse-of-drugs-act-1971-sch2",
+   "lesson": "m06-l1",
+   "title": "Misuse of Drugs Act 1971, Schedule 2 — Controlled drugs (Part III, Class C)",
+   "authors": "Misuse of Drugs Act 1971 (UK)",
+   "publication": "legislation.gov.uk · latest available (revised) text, stated up to date to 25 September 2026",
+   "year": 1971,
+   "url": "https://www.legislation.gov.uk/ukpga/1971/38/schedule/2",
+   "sourceType": "legislation",
+   "design": "statute",
+   "independence": "legislation",
+   "role": "UK: somatotropin, somatrem and somatropin are listed in Part III (Class C drugs) of Schedule 2",
+   "guideGrade": "—",
+   "note": "Fetched live and read 2026-09-25 (HTTP 200). The Misuse of Drugs Regulations 2001, Schedule 4 Part II (legislation.gov.uk/uksi/2001/3998/schedule/4), also read, lists the same three substances.",
+   "grade": "context",
+   "gradeNote": "primary legal text"
+  },
+  {
+   "id": "mhra-products-database-search-2026-09-25",
+   "lesson": "m06-l2",
+   "title": "MHRA Products database (products.mhra.gov.uk) — searches for tesamorelin, sermorelin and ipamorelin",
+   "authors": "Medicines and Healthcare products Regulatory Agency (UK)",
+   "publication": "products.mhra.gov.uk · searched in a browser 25 September 2026",
+   "year": 2026,
+   "url": "https://products.mhra.gov.uk/search/?search=tesamorelin&page=1",
+   "sourceType": "regulator",
+   "design": "regulator product-information database",
+   "independence": "regulator",
+   "role": "UK: the database of UK summaries of product characteristics, patient leaflets and public assessment reports returned 'There are no search results' for tesamorelin, sermorelin and ipamorelin (25 September 2026)",
+   "guideGrade": "—",
+   "note": "Searched in a browser 2026-09-25; the site is a JavaScript application, so the automated source check cannot read it. Its search is full-text across documents, so it can confirm an absence (zero documents) but cannot list products for a substance named inside other products' leaflets (e.g. 'tretinoin' returns 289 documents, 'BPC-157' 15,196).",
+   "grade": "context",
+   "gradeNote": "primary regulatory record (search result)"
+  },
+  {
+   "id": "mhra-gn14-specials-2023",
+   "lesson": "m06-l2",
+   "title": "The supply of unlicensed medicinal products ('specials') — MHRA Guidance Note 14",
+   "authors": "Medicines and Healthcare products Regulatory Agency (UK)",
+   "publication": "gov.uk · PDF, 21 pp · MHRA 2023 edition (page last updated 29 January 2025)",
+   "year": 2023,
+   "url": "https://assets.publishing.service.gov.uk/media/645e19f5ad8a03000c38b3bc/The_supply_of_unlicensed_medicinal_products__special_GN14.pdf",
+   "sourceType": "official_guidance",
+   "design": "regulator guidance note",
+   "independence": "regulator",
+   "role": "UK specials: the regulation 167 exemption is narrowly drawn because specials may not have been assessed for safety, quality and efficacy (1.5); an unlicensed product should not be supplied where an equivalent licensed product can meet the patient's special needs, and 'special need' excludes cost, convenience or operational needs (2.2–2.3); a UK-licensed product, even off-label, should be used before an unlicensed one (2.4); manufacturers need a Manufacturer's 'Specials' Licence and GMP-inspected sites (4.1); particular specials must not be advertised (7.1); products prepared in a pharmacy under section 10 are also unlicensed medicines (1.6); Appendix 2 hierarchy: UK licensed, then off-label, then imported licensed product, then UK special (GMP-inspected but otherwise unassessed), with products that are not medicines in their country of origin, such as supplements, least acceptable",
+   "guideGrade": "—",
+   "note": "Fetched live and read 2026-09-25 (HTTP 200). PDF read in full.",
+   "grade": "context",
+   "gradeNote": "primary regulatory guidance"
   }
  ],
  "claims": [
@@ -928,6 +996,30 @@
    "status": "verified",
    "reviewNote": "treatment cohorts describe replacement in deficiency and do not transfer to supraphysiological use",
    "gradeDecision": "C — observational; open question stated as such"
+  },
+  {
+   "id": "c-m06-20",
+   "unit": "m06-l1",
+   "text": "In the UK, somatropin (for example Genotropin) is a prescription-only medicine licensed in children for growth disturbance from growth hormone deficiency, Turner syndrome, chronic renal insufficiency, short stature after small-for-gestational-age birth and Prader-Willi syndrome, and in adults for pronounced growth hormone deficiency; somatropin is a Class C controlled drug under the Misuse of Drugs Act 1971.",
+   "citationRefs": [
+    "emc-smpc-genotropin-uk",
+    "uk-misuse-of-drugs-act-1971-sch2"
+   ],
+   "status": "verified",
+   "reviewNote": "UK mapping added 2026-09-25 (Omar kept the UK in scope); confirmation pending with the post-approval changes",
+   "gradeDecision": "regulatory record, dated September 2026"
+  },
+  {
+   "id": "c-m06-21",
+   "unit": "m06-l2",
+   "text": "A search of MHRA's products database on 25 September 2026 returned no summary of product characteristics, patient leaflet or public assessment report for tesamorelin, sermorelin or ipamorelin; supplied in the UK, any of them would be an unlicensed medicine, which MHRA guidance reserves for an individual patient's special need that no licensed product meets.",
+   "citationRefs": [
+    "mhra-products-database-search-2026-09-25",
+    "mhra-gn14-specials-2023"
+   ],
+   "status": "verified",
+   "reviewNote": "UK mapping added 2026-09-25 (Omar kept the UK in scope); confirmation pending with the post-approval changes",
+   "gradeDecision": "regulatory record, dated September 2026"
   }
  ],
  "authorFindings": [
@@ -940,7 +1032,8 @@
   "PPG sermorelin regulatory line is garbled ('not on not categorized on FDA's 14 May 2026 roster restricted list'). Verified: sermorelin appears in no 503A category (14 May 2026); Geref's approvals were withdrawn in 2009 at the maker's request and FDA's 2013 determination found no safety or effectiveness reason. No FDA document found states the legal basis on which 503A pharmacies compound sermorelin today; the course states only the verified facts and suggests the author address this.",
   "PPG adverse-effects section (pp. 119–120, 'IGF-1 targets' and dose reduction) is titration guidance and stays outside the source lock; module 06 uses only the recognition and referral content. Precision note: the label's figure is IGF-1 above +2 SDS in 47% at 26 weeks (the guide says 'exceeded ULN').",
   "The brief's verification request — Falutz J et al., N Engl J Med 2007;357:2359–70 — resolves to PMID 18057338 (title, first author, journal and year match); A&RE ch.15 ref 2 is correct.",
-  "Not in either guide, worth adding — Rudman 1990 (much cited; its skin result missed significance), Lange 2001 (skin in GH deficiency and acromegaly), the 2014 Cochrane review of GH in major burns (the only skin indication with RCTs), Khorram 1997 (the only GHRH-analogue study with a skin outcome), Nass 2008 and Adunsky 2011 (ibutamoren: IGF-1 up, no functional benefit, heart-failure signal), FDA's October 2024 advisory-committee votes on ipamorelin and ibutamoren, the Egrifta label's IGF-1 figures and the somatropin label's nevus-monitoring warning, and the IGF-1 cancer epidemiology (Renehan 2004, Knuppel 2020, Dal 2018, SAGhE 2017)."
+  "Not in either guide, worth adding — Rudman 1990 (much cited; its skin result missed significance), Lange 2001 (skin in GH deficiency and acromegaly), the 2014 Cochrane review of GH in major burns (the only skin indication with RCTs), Khorram 1997 (the only GHRH-analogue study with a skin outcome), Nass 2008 and Adunsky 2011 (ibutamoren: IGF-1 up, no functional benefit, heart-failure signal), FDA's October 2024 advisory-committee votes on ipamorelin and ibutamoren, the Egrifta label's IGF-1 figures and the somatropin label's nevus-monitoring warning, and the IGF-1 cancer epidemiology (Renehan 2004, Knuppel 2020, Dal 2018, SAGhE 2017).",
+  "UK status (2026-09-25) — neither guide gives the UK position on this axis. Somatropin is a prescription-only medicine in the UK and a Class C controlled drug (Misuse of Drugs Act 1971 Sch. 2 Part III; Misuse of Drugs Regulations 2001 Sch. 4 Part II). MHRA's products database returned no documents for tesamorelin, sermorelin or ipamorelin (25 Sep 2026). CJC-1295, ibutamoren, GHRP-2/-6 and IGF-1 LR3 were not stated: the database's full-text search cannot confirm an absence for names that contain numbers or appear inside other products' leaflets."
  ],
  "consideredNotUsed": [
   {

@@ -1,7 +1,7 @@
 {
  "module": "m03",
  "verifiedAt": "2026-09-24",
- "verification": "Every PMID resolved through NCBI E-utilities esummary (title, first author, journal, year compared) and abstracts read through efetch; one full text read through PMC (Kruglikov & Scherer 2016). Trial registrations through the ClinicalTrials.gov v2 API. US labels read in full from DailyMed SPL XML (Wegovy, Zepbound, Ozempic, Mounjaro); approval dates from Drugs@FDA and the openFDA drugsfda API, with the Wegovy S-011/S-024 and Zepbound S-013 approval letters read as PDF; FDA web pages fetched live (HTTP 200). Nothing is included on the strength of a guide reference alone.",
+ "verification": "Every PMID resolved through NCBI E-utilities esummary (title, first author, journal, year compared) and abstracts read through efetch; one full text read through PMC (Kruglikov & Scherer 2016). Trial registrations through the ClinicalTrials.gov v2 API. US labels read in full from DailyMed SPL XML (Wegovy, Zepbound, Ozempic, Mounjaro); approval dates from Drugs@FDA and the openFDA drugsfda API, with the Wegovy S-011/S-024 and Zepbound S-013 approval letters read as PDF; FDA web pages fetched live (HTTP 200). Nothing is included on the strength of a guide reference alone. UK sources (added 2026-09-25, when Omar kept the UK in scope): legislation.gov.uk, gov.uk (MHRA, OPSS, DHSC), the electronic medicines compendium (UK SmPCs), NICE, ASA/CAP, the GPhC and the NMC fetched live and read 2026-09-25; the GMC pages and MHRA's products database were read in a browser the same day (they refuse scripts or serve no text to them).",
  "gradedAt": "2026-09-24",
  "grader": "Graded 2026-09-24 by the agent under Omar Saleem's delegation (\"you should be able to do that from the guide\"); rule set below; final review Dr. Hannah-Shmouni",
  "gradingRule": "Grade = certainty the source gives for the specific clinical statement the lesson makes, on the guides' A–D scale. A: consistent large RCTs or approval-grade evidence. B: at least one well-designed, adequately powered RCT or an independent, quality-stratified meta-analysis (either direction). C: small or sponsor-funded RCTs without independent replication, or pooled trials dominated by them. D: animal, in-vitro, mechanistic, case series, manufacturer dossiers. 'context' = history, reviews used for framing, trial registrations without results, analytical or regulatory records (regulatory records are primary for status statements, not graded for efficacy). Where the two guides disagree, the lesson states both and the claim takes the grade the primary evidence supports. Observational studies (added 2026-09-24, GRADE starting point; confirmed by Fady Hannah-Shmouni, MD FRCPC, 2026-09-24): adequately sized cohort, case-control or cross-sectional studies grade C for the association they measured; small or single-centre ones grade D; any causal claim drawn from observational data grades D. Meta-analyses of observational studies grade at most B, and only for association. Guidelines and consensus statements are 'context', cited for what they recommend, not graded as evidence.",
@@ -914,6 +914,142 @@
    "note": "page fetched 2026-09-22",
    "grade": "context",
    "gradeNote": "primary regulatory record"
+  },
+  {
+   "id": "emc-smpc-ozempic-uk",
+   "lesson": "m03-l2",
+   "title": "Ozempic 1 mg solution for injection in pre-filled pen — Summary of Product Characteristics (UK)",
+   "authors": "Novo Nordisk A/S (marketing authorisation holder)",
+   "publication": "medicines.org.uk (emc) · PLGB 04668/0333 · text revised 07/2026",
+   "year": 2026,
+   "url": "https://www.medicines.org.uk/emc/product/9749/smpc",
+   "sourceType": "label",
+   "design": "UK summary of product characteristics",
+   "independence": "regulator-approved label",
+   "role": "UK licence: adults with insufficiently controlled type 2 diabetes, as an adjunct to diet and exercise",
+   "guideGrade": "—",
+   "note": "Fetched live and read 2026-09-25 (HTTP 200). Legal category read from the same page.",
+   "grade": "context",
+   "gradeNote": "primary regulatory record (UK product information)"
+  },
+  {
+   "id": "emc-smpc-wegovy-uk",
+   "lesson": "m03-l2",
+   "title": "Wegovy 2.4 mg FlexTouch solution for injection in pre-filled pen — Summary of Product Characteristics (UK)",
+   "authors": "Novo Nordisk A/S (marketing authorisation holder)",
+   "publication": "medicines.org.uk (emc) · PLGB 04668/0440 · text revised 09/2026 · prescription only medicine",
+   "year": 2026,
+   "url": "https://www.medicines.org.uk/emc/product/13803/smpc",
+   "sourceType": "label",
+   "design": "UK summary of product characteristics",
+   "independence": "regulator-approved label",
+   "role": "UK licence: weight management in adults (BMI ≥30, or ≥27 with a weight-related comorbidity) and adolescents from 12 with obesity; reduction of major adverse cardiovascular events in adults with established cardiovascular disease and obesity or overweight; hair loss reported in 2.5% on semaglutide vs 1.0% on placebo",
+   "guideGrade": "—",
+   "note": "Fetched live and read 2026-09-25 (HTTP 200). Legal category read from the same page.",
+   "grade": "context",
+   "gradeNote": "primary regulatory record (UK product information)"
+  },
+  {
+   "id": "emc-smpc-mounjaro-uk",
+   "lesson": "m03-l2",
+   "title": "Mounjaro KwikPen 5 mg solution for injection in pre-filled pen — Summary of Product Characteristics (UK)",
+   "authors": "Eli Lilly Nederland B.V. (marketing authorisation holder)",
+   "publication": "medicines.org.uk (emc) · PLGB 14895/0340–0345 · text revised 29 August 2026 · prescription only medicine",
+   "year": 2026,
+   "url": "https://www.medicines.org.uk/emc/product/15482/smpc",
+   "sourceType": "label",
+   "design": "UK summary of product characteristics",
+   "independence": "regulator-approved label",
+   "role": "UK licence (one brand for both uses): insufficiently controlled type 2 diabetes in adults, adolescents and children from 10 years, and weight management in adults (BMI ≥30, or ≥27 with a weight-related comorbidity); psoriasis is not an indication; hair loss reported in 4.9% on tirzepatide vs 1.0% on placebo in the pooled SURMOUNT-1 to -3 weight-management studies",
+   "guideGrade": "—",
+   "note": "Fetched live and read 2026-09-25 (HTTP 200). Legal category read from the same page.",
+   "grade": "context",
+   "gradeNote": "primary regulatory record (UK product information)"
+  },
+  {
+   "id": "mhra-2023-11-08-mounjaro-weight",
+   "lesson": "m03-l2",
+   "title": "MHRA authorises diabetes drug Mounjaro (tirzepatide) for weight management and weight loss (press release)",
+   "authors": "Medicines and Healthcare products Regulatory Agency (UK)",
+   "publication": "gov.uk · press release · 8 November 2023",
+   "year": 2023,
+   "url": "https://www.gov.uk/government/news/mhra-authorises-diabetes-drug-mounjaro-tirzepatide-for-weight-management-and-weight-loss",
+   "sourceType": "regulator",
+   "design": "regulator announcement",
+   "independence": "regulator",
+   "role": "UK: on 8 November 2023 MHRA authorised a new weight-management indication for the diabetes medicine Mounjaro (tirzepatide) in adults with BMI of 30 or more, or 27–30 with weight-related problems",
+   "guideGrade": "—",
+   "note": "Fetched live and read 2026-09-25 (HTTP 200).",
+   "grade": "context",
+   "gradeNote": "primary regulatory record"
+  },
+  {
+   "id": "mhra-2026-07-24-no-summer-shortcut",
+   "lesson": "m03-l2",
+   "title": "No summer shortcut for safe weight loss (press release)",
+   "authors": "Medicines and Healthcare products Regulatory Agency (UK)",
+   "publication": "gov.uk · press release · 24 July 2026",
+   "year": 2026,
+   "url": "https://www.gov.uk/government/news/no-summer-shortcut-for-safe-weight-loss",
+   "sourceType": "regulator",
+   "design": "regulator announcement",
+   "independence": "regulator",
+   "role": "UK: prescription weight-loss medicines are being advertised illegally on social media; retatrutide 'has not been authorised for use in the UK, meaning anyone selling this product is doing so illegally'; offered a GLP-1 medicine without a prescription, walk away",
+   "guideGrade": "—",
+   "note": "Fetched live and read 2026-09-25 (HTTP 200).",
+   "grade": "context",
+   "gradeNote": "primary regulatory record"
+  },
+  {
+   "id": "mhra-2026-05-29-largest-seizure",
+   "lesson": "m03-l2",
+   "title": "Two arrested during the MHRA's largest ever seizure of unlicensed weight loss medicines (press release)",
+   "authors": "Medicines and Healthcare products Regulatory Agency (UK)",
+   "publication": "gov.uk · press release · 29 May 2026",
+   "year": 2026,
+   "url": "https://www.gov.uk/government/news/two-arrested-during-the-mhras-largest-ever-seizure-of-unlicensed-weight-loss-medicines",
+   "sourceType": "regulator",
+   "design": "regulator enforcement announcement",
+   "independence": "regulator",
+   "role": "UK enforcement: on 28 May 2026 MHRA's Criminal Enforcement Unit recovered around 12,000 doses of unlicensed weight-loss medicines, the agency's largest such seizure, from a site believed to manufacture and distribute unlicensed retatrutide, tirzepatide and peptide products; two arrests on suspicion of offences under the Human Medicines Regulations 2012",
+   "guideGrade": "—",
+   "note": "Fetched live and read 2026-09-25 (HTTP 200).",
+   "grade": "context",
+   "gradeNote": "primary regulatory record"
+  },
+  {
+   "id": "mhra-gn14-specials-2023",
+   "lesson": "m03-l3",
+   "title": "The supply of unlicensed medicinal products ('specials') — MHRA Guidance Note 14",
+   "authors": "Medicines and Healthcare products Regulatory Agency (UK)",
+   "publication": "gov.uk · PDF, 21 pp · MHRA 2023 edition (page last updated 29 January 2025)",
+   "year": 2023,
+   "url": "https://assets.publishing.service.gov.uk/media/645e19f5ad8a03000c38b3bc/The_supply_of_unlicensed_medicinal_products__special_GN14.pdf",
+   "sourceType": "official_guidance",
+   "design": "regulator guidance note",
+   "independence": "regulator",
+   "role": "UK specials: the regulation 167 exemption is narrowly drawn because specials may not have been assessed for safety, quality and efficacy (1.5); an unlicensed product should not be supplied where an equivalent licensed product can meet the patient's special needs, and 'special need' excludes cost, convenience or operational needs (2.2–2.3); a UK-licensed product, even off-label, should be used before an unlicensed one (2.4); manufacturers need a Manufacturer's 'Specials' Licence and GMP-inspected sites (4.1); particular specials must not be advertised (7.1); products prepared in a pharmacy under section 10 are also unlicensed medicines (1.6); Appendix 2 hierarchy: UK licensed, then off-label, then imported licensed product, then UK special (GMP-inspected but otherwise unassessed), with products that are not medicines in their country of origin, such as supplements, least acceptable",
+   "guideGrade": "—",
+   "note": "Fetched live and read 2026-09-25 (HTTP 200). PDF read in full.",
+   "grade": "context",
+   "gradeNote": "primary regulatory guidance"
+  },
+  {
+   "id": "mhra-dsu-2009-offlabel-unlicensed",
+   "lesson": "m03-l3",
+   "title": "Off-label or unlicensed use of medicines: prescribers' responsibilities (Drug Safety Update, April 2009, vol 2 issue 9)",
+   "authors": "Medicines and Healthcare products Regulatory Agency (UK)",
+   "publication": "gov.uk · Drug Safety Update, published on gov.uk 11 December 2014",
+   "year": 2009,
+   "url": "https://www.gov.uk/drug-safety-update/off-label-or-unlicensed-use-of-medicines-prescribers-responsibilities",
+   "sourceType": "regulator",
+   "design": "regulator safety bulletin",
+   "independence": "regulator",
+   "role": "UK: doctors, dentists, independent nurse and pharmacist prescribers and, in some circumstances, supplementary prescribers can prescribe an unlicensed medicine; responsibility may be greater than for licensed use; prescribers should be satisfied a licensed alternative would not meet the patient's needs, that there is sufficient evidence or experience of safety and efficacy, take responsibility for prescribing, monitoring and follow-up, record the medicine and the reasons, and explain the reasons to patients where there is little evidence",
+   "guideGrade": "—",
+   "note": "Fetched live and read 2026-09-25 (HTTP 200).",
+   "grade": "context",
+   "gradeNote": "primary regulatory guidance"
   }
  ],
  "claims": [
@@ -1191,6 +1327,56 @@
    "status": "verified",
    "reviewNote": "grades shown per item in the quick-fire why lines",
    "gradeDecision": "C for each skin trial; B (course rule) / A (guide) for fibre's metabolic outcomes; D for the repair stack"
+  },
+  {
+   "id": "c-m03-21",
+   "unit": "m03-l2",
+   "text": "In the UK (product information checked 25 September 2026), Ozempic (semaglutide) is licensed for type 2 diabetes; Wegovy (semaglutide) for weight management in adults and adolescents and for reducing major adverse cardiovascular events in adults with established cardiovascular disease and obesity or overweight; and Mounjaro (tirzepatide), under one brand, for type 2 diabetes and for weight management, the weight indication having been authorised by MHRA on 8 November 2023. Psoriasis is not a UK indication for tirzepatide.",
+   "citationRefs": [
+    "emc-smpc-ozempic-uk",
+    "emc-smpc-wegovy-uk",
+    "emc-smpc-mounjaro-uk",
+    "mhra-2023-11-08-mounjaro-weight"
+   ],
+   "status": "verified",
+   "reviewNote": "UK mapping added 2026-09-25 (Omar kept the UK in scope); confirmation pending with the post-approval changes",
+   "gradeDecision": "regulatory record, dated September 2026"
+  },
+  {
+   "id": "c-m03-22",
+   "unit": "m03-l2",
+   "text": "UK product information lists hair loss for Wegovy (2.5% on semaglutide vs 1.0% on placebo) and Mounjaro (4.9% on tirzepatide vs 1.0% on placebo in the pooled weight-management studies).",
+   "citationRefs": [
+    "emc-smpc-wegovy-uk",
+    "emc-smpc-mounjaro-uk"
+   ],
+   "status": "verified",
+   "reviewNote": "UK mapping added 2026-09-25 (Omar kept the UK in scope); confirmation pending with the post-approval changes",
+   "gradeDecision": "regulatory record, dated September 2026"
+  },
+  {
+   "id": "c-m03-23",
+   "unit": "m03-l2",
+   "text": "MHRA stated on 24 July 2026 that retatrutide has not been authorised for use in the UK and that anyone selling it does so illegally; on 28 May 2026 it made its largest seizure of unlicensed weight-loss medicines (around 12,000 doses, including retatrutide, tirzepatide and peptide products).",
+   "citationRefs": [
+    "mhra-2026-07-24-no-summer-shortcut",
+    "mhra-2026-05-29-largest-seizure"
+   ],
+   "status": "verified",
+   "reviewNote": "UK mapping added 2026-09-25 (Omar kept the UK in scope); confirmation pending with the post-approval changes",
+   "gradeDecision": "regulatory record, dated September 2026"
+  },
+  {
+   "id": "c-m03-24",
+   "unit": "m03-l3",
+   "text": "In the UK, an unlicensed medicine may be supplied as a 'special' only to meet an individual patient's special clinical need that no licensed product can meet (not for cost or convenience), on the order of a prescriber who takes responsibility for prescribing it and for the patient's follow-up.",
+   "citationRefs": [
+    "mhra-gn14-specials-2023",
+    "mhra-dsu-2009-offlabel-unlicensed"
+   ],
+   "status": "verified",
+   "reviewNote": "UK mapping added 2026-09-25 (Omar kept the UK in scope); confirmation pending with the post-approval changes",
+   "gradeDecision": "regulatory record, dated September 2026"
   }
  ],
  "authorFindings": [
@@ -1205,7 +1391,8 @@
   "A&RE ch.12 'small studies report improvement in psoriasis GRADE C' — still C, but two primary trials now bracket it: a negative 20-patient placebo-controlled RCT of liraglutide (Faurschou 2015) and an open-label, Lilly-sponsored phase 3b RCT of tirzepatide added to ixekizumab (Lebwohl 2026, TOGETHER-PsO). Worth citing both.",
   "Not in either guide, worth adding — Sharma 2025 (first quantitative imaging of midface volume on GLP-1 RAs), Rao 2026 (1,226-patient survey: facial and hair effects rise with weight lost), Batsis 2026 (independent review of body composition across 35 RCTs), the Cochrane review of probiotics for eczema (Makrgeorgou 2018), Scheffler 2018 (commercial zonulin ELISA does not detect zonulin), and the US labels as the primary source for hair-loss rates.",
   "Reference check — every A&RE reference the module uses from chapters 11, 12, 13, 14 and 16 (Kershaw & Flier; Zhang 2015; Chen 2019; SELECT; Drucker; STEP-1; SURMOUNT-1; Camilleri; Burke; Persson; Franceschi 2000; Ferrucci & Fabbri; Gkogkolou & Böhm; Chaudhuri; Humphrey & Lawrence; Conte; Reynolds; Suez; Depommier) resolved on PubMed with the printed journal, volume and year. PPG-Aug PMIDs for STEP-1, SURMOUNT-1, SELECT and SURMOUNT-OSA resolve.",
-  "Jurisdiction — both guides are US-centred for incretin regulation; module 03 asserts US status only (FDA labels, Drugs@FDA, FDA statement current 1 September 2026). MHRA/EMA status of Wegovy, Mounjaro and compounded GLP-1 products is not asserted and needs mapping for UK learners (in progress)."
+  "Jurisdiction — both guides are US-centred for incretin regulation; module 03 asserts US status only (FDA labels, Drugs@FDA, FDA statement current 1 September 2026). MHRA/EMA status of Wegovy, Mounjaro and compounded GLP-1 products is not asserted and needs mapping for UK learners (in progress).",
+  "UK status (2026-09-25) — both guides describe the incretin drugs by their US brands and indications. In the UK, Mounjaro carries both the type 2 diabetes and the weight-management licence (MHRA, 8 Nov 2023; no separate weight-loss brand appears in UK product information), Ozempic's UK licence is type 2 diabetes, and UK SmPCs list hair loss (Wegovy 2.5%, Mounjaro 4.9%, placebo 1.0%). MHRA's statement that retatrutide is not authorised and illegal to sell in the UK (24 Jul 2026) and its May 2026 seizure of unlicensed weight-loss medicines and peptide products are citable in the guides' gray-market sections."
  ],
  "consideredNotUsed": [
   {

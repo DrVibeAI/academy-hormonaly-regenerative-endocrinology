@@ -1,7 +1,7 @@
 {
  "module": "m05",
  "verifiedAt": "2026-09-24",
- "verification": "Every PMID resolved through NCBI E-utilities esummary (title, first author, journal, year compared) and abstracts read through efetch; open-access full text read through Europe PMC where the lesson relies on the body (Laiho 2022, Böhm 2025, Mehta 2025); trial registrations and the absence searches (PTD-DBM, thymulin, melanotan, afamelanotide) through the ClinicalTrials.gov v2 API; FDA pages, labels, approval letters, Drugs@FDA records, the FDA category PDF, eCFR, the EMA EPAR and MHRA's FOI release fetched live and read. The TGA advisory could not be fetched live from this environment and was read from its 26 Aug 2026 Internet Archive capture (noted on the entry). One perceptor research run (course-production/research/2026-09-24-melanotan-afamelanotide-melanocortin-skin/, 21 candidates) contributed Böhm 2025. Nothing is included on the strength of a guide reference alone.",
+ "verification": "Every PMID resolved through NCBI E-utilities esummary (title, first author, journal, year compared) and abstracts read through efetch; open-access full text read through Europe PMC where the lesson relies on the body (Laiho 2022, Böhm 2025, Mehta 2025); trial registrations and the absence searches (PTD-DBM, thymulin, melanotan, afamelanotide) through the ClinicalTrials.gov v2 API; FDA pages, labels, approval letters, Drugs@FDA records, the FDA category PDF, eCFR, the EMA EPAR and MHRA's FOI release fetched live and read. The TGA advisory could not be fetched live from this environment and was read from its 26 Aug 2026 Internet Archive capture (noted on the entry). One perceptor research run (course-production/research/2026-09-24-melanotan-afamelanotide-melanocortin-skin/, 21 candidates) contributed Böhm 2025. Nothing is included on the strength of a guide reference alone. UK sources (added 2026-09-25, when Omar kept the UK in scope): legislation.gov.uk, gov.uk (MHRA, OPSS, DHSC), the electronic medicines compendium (UK SmPCs), NICE, ASA/CAP, the GPhC and the NMC fetched live and read 2026-09-25; the GMC pages and MHRA's products database were read in a browser the same day (they refuse scripts or serve no text to them).",
  "gradedAt": "2026-09-24",
  "grader": "Graded 2026-09-24 by the agent under Omar Saleem's delegation (\"you should be able to do that from the guide\"); rule set below; final review Dr. Hannah-Shmouni",
  "gradingRule": "Grade = certainty the source gives for the specific clinical statement the lesson makes, on the guides' A–D scale. A: consistent large RCTs or approval-grade evidence. B: at least one well-designed, adequately powered RCT or an independent, quality-stratified meta-analysis (either direction). C: small or sponsor-funded RCTs without independent replication, or pooled trials dominated by them. D: animal, in-vitro, mechanistic, case series, manufacturer dossiers. 'context' = history, reviews used for framing, trial registrations without results, analytical or regulatory records (regulatory records are primary for status statements, not graded for efficacy). Where the two guides disagree, the lesson states both and the claim takes the grade the primary evidence supports. Observational studies (added 2026-09-24, GRADE starting point; confirmed by Fady Hannah-Shmouni, MD FRCPC, 2026-09-24): adequately sized cohort, case-control or cross-sectional studies grade C for the association they measured; small or single-centre ones grade D; any causal claim drawn from observational data grades D. Meta-analyses of observational studies grade at most B, and only for association. Guidelines and consensus statements are 'context', cited for what they recommend, not graded as evidence.",
@@ -606,6 +606,125 @@
    "note": "eCFR versioner API fetched 2026-09-24",
    "grade": "context",
    "gradeNote": "primary regulatory record"
+  },
+  {
+   "id": "emc-smpc-olumiant-uk",
+   "lesson": "m05-l1",
+   "title": "Olumiant 4 mg film-coated tablets — Summary of Product Characteristics (UK)",
+   "authors": "Eli Lilly Nederland B.V. (marketing authorisation holder)",
+   "publication": "medicines.org.uk (emc) · PLGB 14895/0256 · text revised 16 July 2024 · legal category POM",
+   "year": 2024,
+   "url": "https://www.medicines.org.uk/emc/product/7486/smpc",
+   "sourceType": "label",
+   "design": "UK summary of product characteristics",
+   "independence": "regulator-approved label",
+   "role": "UK licence: baricitinib is indicated for severe alopecia areata in adult patients (alongside rheumatoid arthritis, atopic dermatitis and juvenile idiopathic arthritis); prescription-only",
+   "guideGrade": "—",
+   "note": "Fetched live and read 2026-09-25 (HTTP 200). Legal category read from the same page.",
+   "grade": "context",
+   "gradeNote": "primary regulatory record (UK product information)"
+  },
+  {
+   "id": "nice-ta926-baricitinib-aa",
+   "lesson": "m05-l1",
+   "title": "Baricitinib for treating severe alopecia areata (NICE technology appraisal guidance TA926)",
+   "authors": "National Institute for Health and Care Excellence",
+   "publication": "nice.org.uk · published 25 October 2023 · guidance PDF",
+   "year": 2023,
+   "url": "https://www.nice.org.uk/guidance/ta926/resources/baricitinib-for-treating-severe-alopecia-areata-pdf-82615550962885",
+   "sourceType": "guideline",
+   "design": "health technology appraisal",
+   "independence": "national HTA body",
+   "role": "UK/NHS: baricitinib (Olumiant) has a marketing authorisation for severe alopecia areata in adults, and is not recommended within it for NHS use because cost-effectiveness estimates are uncertain and above what NICE normally accepts",
+   "guideGrade": "—",
+   "note": "Fetched live and read 2026-09-25 (HTTP 200).",
+   "grade": "context",
+   "gradeNote": "appraisal; cited for its recommendation and the licence it states"
+  },
+  {
+   "id": "emc-smpc-regaine-men-foam-uk",
+   "lesson": "m05-l1",
+   "title": "Regaine for Men Extra Strength Scalp Foam 5% w/w Cutaneous Foam (GSL) — Summary of Product Characteristics (UK)",
+   "authors": "McNeil Products Limited (marketing authorisation holder)",
+   "publication": "medicines.org.uk (emc) · PL 15513/0366 · text revised 15 June 2026 · General Sales List",
+   "year": 2026,
+   "url": "https://www.medicines.org.uk/emc/product/5781/smpc",
+   "sourceType": "label",
+   "design": "UK summary of product characteristics",
+   "independence": "regulator-approved label",
+   "role": "UK licence: topical minoxidil 5% foam indicated for androgenetic alopecia in men; on the General Sales List (sold without a prescription)",
+   "guideGrade": "—",
+   "note": "Fetched live and read 2026-09-25 (HTTP 200). Legal category read from the same page.",
+   "grade": "context",
+   "gradeNote": "primary regulatory record (UK product information)"
+  },
+  {
+   "id": "emc-smpc-propecia-uk",
+   "lesson": "m05-l1",
+   "title": "Propecia 1 mg film-coated tablets — Summary of Product Characteristics (UK)",
+   "authors": "Organon Pharma (UK) Limited (marketing authorisation holder)",
+   "publication": "medicines.org.uk (emc) · PL 00025/0351 · first authorised 20 September 1999 · text revised 29 June 2026 · prescription only medicine",
+   "year": 2026,
+   "url": "https://www.medicines.org.uk/emc/product/2194/smpc",
+   "sourceType": "label",
+   "design": "UK summary of product characteristics",
+   "independence": "regulator-approved label",
+   "role": "UK licence: finasteride (Propecia) for men with male pattern hair loss (androgenetic alopecia); not indicated in women, children or adolescents; prescription-only",
+   "guideGrade": "—",
+   "note": "Fetched live and read 2026-09-25 (HTTP 200). Legal category read from the same page.",
+   "grade": "context",
+   "gradeNote": "primary regulatory record (UK product information)"
+  },
+  {
+   "id": "mhra-dsu-2026-05-finasteride",
+   "lesson": "m05-l1",
+   "title": "Finasteride and Dutasteride – updated safety warnings for psychiatric side effects and sexual dysfunction (Drug Safety Update)",
+   "authors": "Medicines and Healthcare products Regulatory Agency (UK)",
+   "publication": "gov.uk · Drug Safety Update · published 11 May 2026",
+   "year": 2026,
+   "url": "https://www.gov.uk/drug-safety-update/finasteride-and-dutasteride-updated-safety-warnings-for-psychiatric-side-effects-and-sexual-dysfunction",
+   "sourceType": "regulator",
+   "design": "regulator safety bulletin",
+   "independence": "regulator",
+   "role": "UK: finasteride is associated with depression, suicidal ideation and sexual dysfunction that may persist after stopping; prescribers should inform patients at the point of prescribing, point them to the finasteride patient card (introduced 2024), ask about a history of depression or suicidal ideation and review regularly; finasteride for hair loss is indicated for male pattern hair loss in men, is not prescribed on the NHS and is only available by private prescription",
+   "guideGrade": "—",
+   "note": "Fetched live and read 2026-09-25 (HTTP 200).",
+   "grade": "context",
+   "gradeNote": "primary regulatory record"
+  },
+  {
+   "id": "nice-hst27-afamelanotide",
+   "lesson": "m05-l2",
+   "title": "Afamelanotide for treating erythropoietic protoporphyria (NICE highly specialised technologies guidance HST27)",
+   "authors": "National Institute for Health and Care Excellence",
+   "publication": "nice.org.uk · published 26 July 2023 · guidance PDF",
+   "year": 2023,
+   "url": "https://www.nice.org.uk/guidance/hst27/resources/afamelanotide-for-treating-erythropoietic-protoporphyria-pdf-50216324353477",
+   "sourceType": "guideline",
+   "design": "health technology appraisal",
+   "independence": "national HTA body",
+   "role": "UK: afamelanotide has a UK marketing authorisation under exceptional circumstances for preventing phototoxicity in adults with EPP, prescribed only by specialist clinicians in recognised porphyria centres; NICE does not recommend it for NHS use (value for money not shown)",
+   "guideGrade": "—",
+   "note": "Fetched live and read 2026-09-25 (HTTP 200).",
+   "grade": "context",
+   "gradeNote": "appraisal; cited for its recommendation and the licence it states"
+  },
+  {
+   "id": "mhra-gn14-specials-2023",
+   "lesson": "m05-l3",
+   "title": "The supply of unlicensed medicinal products ('specials') — MHRA Guidance Note 14",
+   "authors": "Medicines and Healthcare products Regulatory Agency (UK)",
+   "publication": "gov.uk · PDF, 21 pp · MHRA 2023 edition (page last updated 29 January 2025)",
+   "year": 2023,
+   "url": "https://assets.publishing.service.gov.uk/media/645e19f5ad8a03000c38b3bc/The_supply_of_unlicensed_medicinal_products__special_GN14.pdf",
+   "sourceType": "official_guidance",
+   "design": "regulator guidance note",
+   "independence": "regulator",
+   "role": "UK specials: the regulation 167 exemption is narrowly drawn because specials may not have been assessed for safety, quality and efficacy (1.5); an unlicensed product should not be supplied where an equivalent licensed product can meet the patient's special needs, and 'special need' excludes cost, convenience or operational needs (2.2–2.3); a UK-licensed product, even off-label, should be used before an unlicensed one (2.4); manufacturers need a Manufacturer's 'Specials' Licence and GMP-inspected sites (4.1); particular specials must not be advertised (7.1); products prepared in a pharmacy under section 10 are also unlicensed medicines (1.6); Appendix 2 hierarchy: UK licensed, then off-label, then imported licensed product, then UK special (GMP-inspected but otherwise unassessed), with products that are not medicines in their country of origin, such as supplements, least acceptable",
+   "guideGrade": "—",
+   "note": "Fetched live and read 2026-09-25 (HTTP 200). PDF read in full.",
+   "grade": "context",
+   "gradeNote": "primary regulatory guidance"
   }
  ],
  "claims": [
@@ -869,6 +988,65 @@
    "status": "verified",
    "reviewNote": "regulatory register, US only, dated",
    "gradeDecision": "regulatory records, dated 2026-05-14"
+  },
+  {
+   "id": "c-m05-21",
+   "unit": "m05-l1",
+   "text": "In the UK, baricitinib (Olumiant) is a prescription-only medicine licensed for severe alopecia areata in adults; NICE (TA926, 25 October 2023) did not recommend it for NHS use because the cost-effectiveness estimates were uncertain and higher than NICE normally accepts.",
+   "citationRefs": [
+    "emc-smpc-olumiant-uk",
+    "nice-ta926-baricitinib-aa"
+   ],
+   "status": "verified",
+   "reviewNote": "UK mapping added 2026-09-25 (Omar kept the UK in scope); confirmation pending with the post-approval changes",
+   "gradeDecision": "regulatory record, dated September 2026"
+  },
+  {
+   "id": "c-m05-22",
+   "unit": "m05-l1",
+   "text": "In the UK, topical minoxidil is licensed for androgenetic alopecia and Regaine for Men Extra Strength Scalp Foam 5% is on the General Sales List; finasteride for hair loss (Propecia) is a prescription-only medicine licensed for male pattern hair loss in men, is not prescribed on the NHS and is available only by private prescription.",
+   "citationRefs": [
+    "emc-smpc-regaine-men-foam-uk",
+    "emc-smpc-propecia-uk",
+    "mhra-dsu-2026-05-finasteride"
+   ],
+   "status": "verified",
+   "reviewNote": "UK mapping added 2026-09-25 (Omar kept the UK in scope); confirmation pending with the post-approval changes",
+   "gradeDecision": "regulatory record, dated September 2026"
+  },
+  {
+   "id": "c-m05-23",
+   "unit": "m05-l1",
+   "text": "On 11 May 2026 MHRA strengthened its warnings that finasteride is associated with depression, suicidal ideation and sexual dysfunction that may persist after treatment stops; it advises prescribers to inform patients when prescribing, point them to the patient card, ask about a history of depression or suicidal ideation, and review them regularly for psychiatric and sexual side effects.",
+   "citationRefs": [
+    "mhra-dsu-2026-05-finasteride"
+   ],
+   "status": "verified",
+   "reviewNote": "UK mapping added 2026-09-25 (Omar kept the UK in scope); confirmation pending with the post-approval changes",
+   "gradeDecision": "regulatory record, dated September 2026"
+  },
+  {
+   "id": "c-m05-24",
+   "unit": "m05-l2",
+   "text": "In the UK, afamelanotide has a marketing authorisation under exceptional circumstances for preventing phototoxicity in adults with erythropoietic protoporphyria, to be prescribed only by specialist clinicians in recognised porphyria centres; NICE (HST27, 26 July 2023) did not recommend it for NHS use.",
+   "citationRefs": [
+    "nice-hst27-afamelanotide"
+   ],
+   "status": "verified",
+   "reviewNote": "UK mapping added 2026-09-25 (Omar kept the UK in scope); confirmation pending with the post-approval changes",
+   "gradeDecision": "regulatory record, dated September 2026"
+  },
+  {
+   "id": "c-m05-25",
+   "unit": "m05-l3",
+   "text": "In the UK, a medicine made up for one patient without a marketing authorisation is an unlicensed 'special'; MHRA guidance says an unlicensed product should not be used where a UK-licensed product could meet the patient's need, and special need excludes cost, convenience and operational reasons.",
+   "citationRefs": [
+    "mhra-gn14-specials-2023",
+    "emc-smpc-regaine-men-foam-uk"
+   ],
+   "status": "verified",
+   "reviewNote": "UK mapping added 2026-09-25 (Omar kept the UK in scope); confirmation pending with the post-approval changes",
+   "gradeDecision": "regulatory record, dated September 2026"
   }
  ],
  "authorFindings": [
@@ -880,7 +1058,8 @@
   "PPG-Aug Afamelanotide entry — 'Three pivotal Phase 3 trials … across 244 EPP adults' and '10-year post-authorization safety data show no new signals' were not verified; the course cites the two published NEJM trials (Langendonk 2015, n=74 and n=94). The current US label (revised Aug 2024) recommends a full-body skin examination twice yearly — worth quoting in the entry's safety line. A&RE ch.6 wording ('approved to reduce phototoxicity in EPP') matches the EMA indication; the US indication is 'to increase pain free light exposure in adult patients with a history of phototoxic reactions from EPP'.",
   "A&RE hair-loss workup algorithm (p.93) is a figure with no extractable text; the course transcribed it from the rendered page (patterned thinning → AGA; diffuse shed after trigger → telogen effluvium; patchy smooth loss → alopecia areata; androgen excess → hyperandrogenism work-up; always ferritin and TSH, androgens if virilising, scarring → biopsy). Please confirm the transcription.",
   "Not in either guide, worth adding — Adil & Godwin 2017 (RCT meta-analysis for minoxidil and finasteride), Böhm 2025 (MC1R activation review: approved agonists, at least five melanomas with Melanotan II all with other risk factors, skin examination in high-risk people), Laiho & Murray 2022 (receptor map, open access), Breindahl 2015 and Mang 2012 (dermoscopic changes during Melanotan II use).",
-  "Trial-registry caution — ClinicalTrials.gov records from the sponsor 'Hudson Biotech' include NCT07437560 (Melanotan II with NB-UVB for vitiligo, 'recruiting' since Feb 2026), whose summary begins 'This example interventional study record describes…', and NCT07481734, titled '(Mock Study)'. The same sponsor holds NCT07437586 (GHK-Cu wound gel) and NCT07437547 (BPC-157 hamstring), which module 04 cites as recruiting trials; they should be re-verified before either guide cites them as real trials. The course does not cite NCT07437560."
+  "Trial-registry caution — ClinicalTrials.gov records from the sponsor 'Hudson Biotech' include NCT07437560 (Melanotan II with NB-UVB for vitiligo, 'recruiting' since Feb 2026), whose summary begins 'This example interventional study record describes…', and NCT07481734, titled '(Mock Study)'. The same sponsor holds NCT07437586 (GHK-Cu wound gel) and NCT07437547 (BPC-157 hamstring), which module 04 cites as recruiting trials; they should be re-verified before either guide cites them as real trials. The course does not cite NCT07437560.",
+  "UK status (2026-09-25) — worth adding to both guides' hair and melanocortin entries: baricitinib is licensed in the UK for severe alopecia areata but NICE did not recommend it for NHS use (TA926, Oct 2023; ritlecitinib, TA958, is recommended from age 12 and is not taught here); afamelanotide holds a UK licence under exceptional circumstances for specialist porphyria centres, and NICE did not recommend it (HST27, Jul 2023); finasteride 1 mg is a private prescription in the UK, and MHRA strengthened its psychiatric and sexual-dysfunction warnings on 11 May 2026 (patient card since 2024). A men's minoxidil foam is on the General Sales List."
  ],
  "consideredNotUsed": [
   {

@@ -16,7 +16,7 @@
   "sortOrder": 1,
   "isRequired": true,
   "status": "ai_draft",
-  "tutorContext": "Module 4 teaches evidence appraisal of skin peptides in four separate registers (mechanism, human evidence, regulatory status, open question). Topical GHK-Cu: plausible copper-enzyme mechanism from originator reviews; one indexed RCT (Miller 2006, post-laser healing) plus sponsor-run cosmetic trials; GRADE C; injectable use has no RCTs and commonly irritates; US 503A Category 1 for non-injectable routes only (FDA list 14 May 2026; PCAC consultation planned by end Feb 2027). pal-KTTKS and Argireline: C (sponsor RCTs plus independent Aruan 2023); Matrixyl 3000, SNAP-8, Leuphasyl: D (no randomized trial; manufacturer data, plus one small uncontrolled university volunteer study for Leuphasyl). Oral collagen: pooled RCTs positive but Myung 2025 finds no effect in unfunded or high-quality trials; dietary supplement in the US. BPC-157: rodent + case series, no published human efficacy RCT (Sept 2026); TB-500 is the Tβ4 17-23 fragment, never trialled; KPV mouse colitis only; LL-37 small positive RCT then negative phase IIb. PCAC reviewed BPC-157/KPV/TB-500 in July 2026 — advisory only; not on the 503A bulks list. Never give doses, stacks, reconstitution or sourcing advice; name the route and the grade; route injected or research-use-only products to a prescriber; adapt the 'what you do next' to the learner's role (prescriber, clinical staff, advisor) without changing grades or regulatory facts. No CME credit is currently offered.",
+  "tutorContext": "Module 4 teaches evidence appraisal of skin peptides in four separate registers (mechanism, human evidence, regulatory status, open question). Topical GHK-Cu: plausible copper-enzyme mechanism from originator reviews; one indexed RCT (Miller 2006, post-laser healing) plus sponsor-run cosmetic trials; GRADE C; injectable use has no RCTs and commonly irritates; US 503A Category 1 for non-injectable routes only (FDA list 14 May 2026; PCAC consultation planned by end Feb 2027). pal-KTTKS and Argireline: C (sponsor RCTs plus independent Aruan 2023); Matrixyl 3000, SNAP-8, Leuphasyl: D (no randomized trial; manufacturer data, plus one small uncontrolled university volunteer study for Leuphasyl). Oral collagen: pooled RCTs positive but Myung 2025 finds no effect in unfunded or high-quality trials; dietary supplement in the US. BPC-157: rodent + case series, no published human efficacy RCT (Sept 2026); TB-500 is the Tβ4 17-23 fragment, never trialled; KPV mouse colitis only; LL-37 small positive RCT then negative phase IIb. PCAC reviewed BPC-157/KPV/TB-500 in July 2026 — advisory only; not on the 503A bulks list. UK (checked 25 Sep 2026): peptide serums are cosmetics under the assimilated Cosmetics Regulation 1223/2009 (responsible person, safety assessment, OPSS notification, substantiated claims; anything injected is outside cosmetics law; ASA 13 May 2026 upheld a complaint against a peptide serum's 'clinically proven' lift claim); oral collagen is a food supplement (no disease claims; only authorised GB health claims); a medicine without a UK marketing authorisation may not be sold, supplied or advertised (HMR 2012 regs 46, 279); unlicensed 'specials' only for one patient's special need (MHRA GN14). Never give doses, stacks, reconstitution or sourcing advice; name the route and the grade; route injected or research-use-only products to a prescriber; adapt the 'what you do next' to the learner's role (prescriber, clinical staff, advisor) without changing grades or regulatory facts. No CME credit is currently offered.",
   "tutorKeywords": [
    "GHK-Cu",
    "copper peptide",
@@ -295,9 +295,11 @@
     "fda-503a-bulks-page",
     "hannah-shmouni-2026-ppg-aug",
     "hannah-shmouni-2026-are",
-    "mazurowska-2008-copper-peptide-penetration"
+    "mazurowska-2008-copper-peptide-penetration",
+    "uk-cosmetics-reg-1223-2009-art2",
+    "mhra-gn8-medicinal-product-2025"
    ],
-   "sourceNote": "Registry m04 · FDA 503A category list, updated 14 May 2026",
+   "sourceNote": "Registry m04 · FDA 503A category list, updated 14 May 2026 · UK Cosmetics Regulation art. 2 · MHRA Guidance Note 8",
    "tool": {
     "items": [
      {
@@ -324,13 +326,13 @@
      },
      {
       "label": {
-       "en": "Regulatory status (US, 14 May 2026)"
+       "en": "Regulatory status (US, 14 May 2026; UK, September 2026)"
       },
       "value": {
        "en": "Non-injectable: 503A Category 1"
       },
       "note": {
-       "en": "Category 1 means FDA is still evaluating and does not intend to act against compounders who meet its conditions; an advisory-committee consultation is planned before the end of February 2027. The injectable route has no such standing."
+       "en": "Category 1 means FDA is still evaluating and does not intend to act against compounders who meet its conditions; an advisory-committee consultation is planned before the end of February 2027. The injectable route has no such standing. In the UK, a GHK-Cu serum sold for appearance is a cosmetic, and cosmetics law excludes anything injected."
       }
      },
      {
@@ -361,7 +363,7 @@
     "en": "Serum yes, syringe no."
    },
    "body": {
-    "en": "Topical GHK-Cu is a reasonable cosmetic conversation at GRADE C. Injected GHK-Cu is a different product: no randomized trials, injection-site pain and rash are common because copper irritates tissue, and in the US the injectable route sits outside the Category 1 listing."
+    "en": "Topical GHK-Cu is a reasonable cosmetic conversation at GRADE C. Injected GHK-Cu is a different product: no randomized trials, injection-site pain and rash are common because copper irritates tissue, and in the US the injectable route sits outside the Category 1 listing. In the UK, anything injected falls outside cosmetics law, and MHRA decides whether it is a medicine from its claims, form and use."
    },
    "points": [
     {
@@ -378,17 +380,19 @@
     "hannah-shmouni-2026-ppg-aug",
     "hannah-shmouni-2026-are",
     "li-2016-copper-skin-toxicity",
-    "fda-503a-categories-2026-05-14"
+    "fda-503a-categories-2026-05-14",
+    "uk-cosmetics-reg-1223-2009-art2",
+    "mhra-gn8-medicinal-product-2025"
    ],
-   "sourceNote": "Peptide Pocket Guide · Aesthetic & Regenerative Endocrinology, ch. 15 · FDA 503A categories",
+   "sourceNote": "Peptide Pocket Guide · Aesthetic & Regenerative Endocrinology, ch. 15 · FDA 503A categories · UK Cosmetics Regulation art. 2 · MHRA Guidance Note 8",
    "metadata": {
     "audioScript": {
-     "en": "Here is what that means in the room. Topical GHK-Cu is a reasonable cosmetic conversation, as long as you describe the evidence honestly: small trials, modest effects, grade C. Injected GHK-Cu is not the same product in a stronger form. There are no randomized trials of injection, injection-site pain and rash are common because copper irritates tissue, and in the United States the injectable route sits outside the Category 1 listing that covers non-injectable use. Whatever your role, name the route every time you talk about this peptide."
+     "en": "Here is what that means in the room. Topical GHK-Cu is a reasonable cosmetic conversation, as long as you describe the evidence honestly: small trials, modest effects, grade C. Injected GHK-Cu is not the same product in a stronger form. There are no randomized trials of injection, injection-site pain and rash are common because copper irritates tissue, and in the United States the injectable route sits outside the Category 1 listing that covers non-injectable use. In the United Kingdom, anything injected falls outside cosmetics law, and MHRA decides whether such a product is a medicine. Whatever your role, name the route every time you talk about this peptide."
     },
     "variants": {
      "audienceLevel": {
       "prescriber": {
-       "en": "Before prescribing a compounded topical, confirm the substance's current 503A status and that the pharmacy is working within it. Do not prescribe GHK-Cu for injection. Record that you discussed a product with small-trial evidence and the patient's reasons for choosing it."
+       "en": "In the US, before prescribing a compounded topical, confirm the substance's current 503A status and that the pharmacy is working within it; in the UK, a GHK-Cu serum presented for appearance is a cosmetic, so there is nothing to prescribe. Do not prescribe GHK-Cu for injection. Record that you discussed a product with small-trial evidence and the patient's reasons for choosing it."
       },
       "clinical-staff": {
        "en": "If a patient tells you they inject GHK-Cu, record the product, where it was bought and any site reactions, and bring it to the prescriber. Do not advise on amounts or technique."
@@ -748,7 +752,7 @@
     "en": "Cosmetic, supplement, drug: three rulebooks."
    },
    "body": {
-    "en": "In the US, cosmetic peptides are cosmetic ingredients, not drugs, and their safety is assessed under a cosmetics framework. Oral collagen is a dietary supplement: it may not claim to treat disease, and product quality and content vary. Neither route has to prove efficacy before sale — which is why the funding question matters."
+    "en": "In the US, cosmetic peptides are cosmetic ingredients, not drugs, and their safety is assessed under a cosmetics framework. Oral collagen is a dietary supplement: it may not claim to treat disease, and product quality and content vary. Neither route has to prove efficacy before sale — which is why the funding question matters. In the UK, a peptide serum is a cosmetic: its responsible person needs a safety assessment and must notify the regulator before sale, and must be able to prove its claims. Oral collagen is a food supplement: no food may claim to prevent, treat or cure disease, and only authorised health claims may be used. In May 2026 the UK advertising regulator ruled a peptide serum's 'clinically proven' lifting claim misleading because the study behind it was small and uncontrolled."
    },
    "points": [
     {
@@ -765,12 +769,20 @@
     "bjerke-2026-cosmetic-peptide-safety-framework",
     "lupo-cole-2007-cosmeceutical-peptides",
     "hannah-shmouni-2026-are",
-    "hannah-shmouni-2026-ppg-aug"
+    "hannah-shmouni-2026-ppg-aug",
+    "uk-cosmetics-reg-1223-2009-art2",
+    "uk-cosmetics-reg-1223-2009-art20",
+    "opss-cosmetics-gb-guidance",
+    "uk-food-supplements-england-2003-reg2",
+    "uk-fic-1169-2011-art7",
+    "uk-nhc-1924-2006-art10",
+    "mhra-gn8-medicinal-product-2025",
+    "asa-ruling-111skin-2026"
    ],
-   "sourceNote": "Bjerke 2026 · Aesthetic & Regenerative Endocrinology · Pocket Guide",
+   "sourceNote": "Bjerke 2026 · Aesthetic & Regenerative Endocrinology · Pocket Guide · UK: Cosmetics Regulation 1223/2009 arts 2 and 20 · OPSS guidance · Food Supplements (England) Regulations 2003 · Regulation 1169/2011 art. 7 · Regulation 1924/2006 art. 10 · MHRA Guidance Note 8 · ASA ruling, 13 May 2026",
    "metadata": {
     "audioScript": {
-     "en": "Now the regulatory register, stated for the United States. Cosmetic peptides are cosmetic ingredients, not drugs; their safety is assessed under a cosmetics framework, and nobody has to prove they work before they are sold. Oral collagen is sold as a dietary supplement, so it cannot claim to treat a disease, and what is in the tub varies from brand to brand. That is the whole reason the funding question matters here. When no regulator asks for efficacy, the only efficacy data are the trials someone chose to pay for. UK and EU rules are being mapped for this course and will be added."
+     "en": "Now the regulatory register, stated for the United States. Cosmetic peptides are cosmetic ingredients, not drugs; their safety is assessed under a cosmetics framework, and nobody has to prove they work before they are sold. Oral collagen is sold as a dietary supplement, so it cannot claim to treat a disease, and what is in the tub varies from brand to brand. That is the whole reason the funding question matters here. When no regulator asks for efficacy, the only efficacy data are the trials someone chose to pay for. The United Kingdom works the same way in outline. A peptide serum is a cosmetic, and its responsible person must hold a safety assessment and evidence for its claims before it goes on sale. Oral collagen is a food supplement, and no food may claim to prevent, treat or cure a disease. In May 2026 the UK advertising regulator ruled against a serum's clinically proven lifting claim, built on a small study with no control group."
     },
     "variants": {
      "audienceLevel": {
@@ -1033,7 +1045,7 @@
     "en": "Where does it stand in the US?"
    },
    "body": {
-    "en": "Three US categories, dated to the FDA's category list of 14 May 2026 and the advisory-committee meeting of 23–24 July 2026. The committee's votes are advice; FDA must still act through rulemaking before anything joins the bulks list. FDA has sent warning letters naming GHK-Cu and BPC-157 on exactly this basis."
+    "en": "Three US categories, dated to the FDA's category list of 14 May 2026 and the advisory-committee meeting of 23–24 July 2026. The committee's votes are advice; FDA must still act through rulemaking before anything joins the bulks list. FDA has sent warning letters naming GHK-Cu and BPC-157 on exactly this basis. If you practise in the UK, the route for unlicensed medicines works differently, and lesson 7.2 sets it out."
    },
    "citationRefs": [
     "fda-503a-categories-2026-05-14",
@@ -1041,7 +1053,8 @@
     "federal-register-2026-07361-pcac",
     "fda-pcac-2026-07-meeting",
     "fda-warning-letter-tailor-made-2020",
-    "hannah-shmouni-2026-are"
+    "hannah-shmouni-2026-are",
+    "mhra-gn14-specials-2023"
    ],
    "sourceNote": "FDA 503A categories (14 May 2026) · 91 FR 20465 · PCAC 23–24 Jul 2026 · FDA warning letter 2020",
    "tool": {
@@ -1418,7 +1431,7 @@
       "en": "I will ask exactly what the patient bought and from where."
      },
      {
-      "en": "I will check the product's current US status on the live FDA list."
+      "en": "I will check the product's current status with my regulator: the live FDA lists in the US, MHRA in the UK."
      }
     ]
    },
@@ -1479,7 +1492,7 @@
      {
       "value": "status",
       "label": {
-       "en": "check its current status on the live FDA list"
+       "en": "check its current status with my regulator (FDA lists in the US, MHRA in the UK)"
       },
       "group": "regulatory"
      },
@@ -1620,6 +1633,20 @@
   ],
   "c-m04-20": [
    "m4-p09"
+  ],
+  "c-m04-21": [
+   "m4-p05",
+   "m4-p06",
+   "m4-p11"
+  ],
+  "c-m04-22": [
+   "m4-p11"
+  ],
+  "c-m04-23": [
+   "m4-p11"
+  ],
+  "c-m04-24": [
+   "m4-p06"
   ]
  },
  "audienceLevelPanes": [
@@ -1734,12 +1761,16 @@
     "is ghk-cu legal"
    ],
    "answer": {
-    "en": "Topical GHK-Cu has a plausible copper-enzyme mechanism and small-trial human support (GRADE C); injected GHK-Cu has no randomized trials and commonly irritates. In the US, as of FDA's 14 May 2026 list, non-injectable GHK-Cu is in 503A Category 1 (under evaluation, not approved); the injectable route is excluded. This course gives no doses or sourcing advice — for an individual patient, that is the prescriber's decision."
+    "en": "Topical GHK-Cu has a plausible copper-enzyme mechanism and small-trial human support (GRADE C); injected GHK-Cu has no randomized trials and commonly irritates. In the US, as of FDA's 14 May 2026 list, non-injectable GHK-Cu is in 503A Category 1 (under evaluation, not approved); the injectable route is excluded. In the UK, a GHK-Cu serum presented for appearance is regulated as a cosmetic, and cosmetics law excludes anything injected; MHRA decides from its claims, form and use whether an injected product is a medicine, and a medicine with no UK marketing authorisation may not be sold, supplied or advertised. This course gives no doses or sourcing advice — for an individual patient, that is the prescriber's decision."
    },
    "citationRefs": [
     "miller-2006-ghk-cu-laser-rct",
     "fda-503a-categories-2026-05-14",
-    "hannah-shmouni-2026-ppg-aug"
+    "hannah-shmouni-2026-ppg-aug",
+    "uk-cosmetics-reg-1223-2009-art2",
+    "mhra-gn8-medicinal-product-2025",
+    "uk-hmr-2012-reg-46",
+    "uk-hmr-2012-reg-279"
    ],
    "scope": "m04"
   },
@@ -1757,14 +1788,17 @@
     "repair peptides"
    ],
    "answer": {
-    "en": "BPC-157's evidence is rodent studies from one group plus uncontrolled case series; no randomized efficacy trial in people has been published in full (September 2026); the one randomized trial FDA found, in ulcerative colitis, exists only as a 2005 meeting abstract and showed no significant difference from placebo. TB-500 is a seven-residue fragment of thymosin beta-4 that has never been trialled; KPV has only mouse data. GLOW and KLOW are marketing names for untested blends. FDA's advisory committee reviewed BPC-157, KPV and TB-500 in July 2026 — advice only; they are not on the 503A bulks list. New pigmentation while using research-use-only peptides is a red flag: stop, record the product and source, and get it assessed."
+    "en": "BPC-157's evidence is rodent studies from one group plus uncontrolled case series; no randomized efficacy trial in people has been published in full (September 2026); the one randomized trial FDA found, in ulcerative colitis, exists only as a 2005 meeting abstract and showed no significant difference from placebo. TB-500 is a seven-residue fragment of thymosin beta-4 that has never been trialled; KPV has only mouse data. GLOW and KLOW are marketing names for untested blends. FDA's advisory committee reviewed BPC-157, KPV and TB-500 in July 2026 — advice only; they are not on the 503A bulks list. In the UK, a medicine with no marketing authorisation may not be sold, supplied or advertised, and MHRA's largest seizure of unlicensed weight-loss medicines, in May 2026, included peptide products. New pigmentation while using research-use-only peptides is a red flag: stop, record the product and source, and get it assessed."
    },
    "citationRefs": [
     "esposito-2012-tb500-fragment",
     "fda-pcac-2026-07-meeting",
     "fda-pcac-2026-bpc157-briefing",
     "hannah-shmouni-2026-are",
-    "seiwerth-2021-bpc157-wound-healing"
+    "seiwerth-2021-bpc157-wound-healing",
+    "uk-hmr-2012-reg-46",
+    "uk-hmr-2012-reg-279",
+    "mhra-2026-05-29-largest-seizure"
    ],
    "scope": "m04"
   }
@@ -1832,6 +1866,54 @@
    "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC",
    "confirmedAt": "2026-09-25",
    "confirmation": "confirmed with the final sign-off packet of 2026-09-25; relayed by Omar Saleem"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m4-p05 (tool row 3)",
+   "change": "Row relabelled 'US, 14 May 2026; UK, September 2026'; adds that in the UK a GHK-Cu serum sold for appearance is a cosmetic and cosmetics law excludes anything injected. Claim c-m04-21.",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m4-p06 (body, narration, prescriber version)",
+   "change": "UK added: anything injected falls outside cosmetics law and MHRA decides whether it is a medicine; the prescriber line now says '503A' checks apply in the US, and that in the UK a GHK-Cu serum presented for appearance is a cosmetic with nothing to prescribe. Claims c-m04-21, c-m04-24.",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m4-p11 (body, narration)",
+   "change": "'UK and EU rules are being mapped' replaced by the UK position: serums are cosmetics (responsible person, safety assessment, notification, substantiated claims); oral collagen is a food supplement (no disease claims, only authorised health claims); ASA ruling of 13 May 2026 against a peptide serum's 'clinically proven' lift claim. Claims c-m04-21, c-m04-22, c-m04-23.",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m4-p16 (body)",
+   "change": "Pointer added for UK learners: the route for unlicensed medicines works differently in the UK and lesson 7.2 sets it out.",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m4-p19 (suggestion 3, chip)",
+   "change": "'check ... on the live FDA list' → 'check ... with my regulator (FDA lists in the US, MHRA in the UK)'.",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "tutor-m04-ghkcu",
+   "change": "Tutor answer adds the UK position (serum = cosmetic; injected products fall outside cosmetics law; an unauthorised medicine may not be sold, supplied or advertised).",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "tutor-m04-bpc157",
+   "change": "Tutor answer adds the UK position (no sale, supply or advertising without a UK marketing authorisation; MHRA's May 2026 seizure included peptide products).",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "unit tutorContext",
+   "change": "Tutor context adds the UK cosmetic, food-supplement and unlicensed-medicine position (same facts as the blocks).",
+   "forReview": "Fady Hannah-Shmouni"
   }
  ]
 }

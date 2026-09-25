@@ -1,7 +1,7 @@
 {
  "module": "m02",
  "verifiedAt": "2026-09-24",
- "verification": "Every PMID resolved through NCBI E-utilities esummary/efetch (title, first author, journal, year compared) and its abstract read; full text read where the statement depends on it (Nieman 2008 at PMC; Thornton 2013, Pivazyan 2023 and Correa 2015 via PMC/Europe PMC; NAMS 2022 PDF from menopause.org; Martin 2018 and Bornstein 2016 fetched live from academic.oup.com). Trial registrations through the ClinicalTrials.gov v2 API; FDA pages fetched live (HTTP 200); 21 CFR 310.530 through the eCFR versioner API; the Renova label and the Drugs@FDA absence check through openFDA. Nothing is included on the strength of a guide reference alone. No dose, strength or regimen from any source is reproduced.",
+ "verification": "Every PMID resolved through NCBI E-utilities esummary/efetch (title, first author, journal, year compared) and its abstract read; full text read where the statement depends on it (Nieman 2008 at PMC; Thornton 2013, Pivazyan 2023 and Correa 2015 via PMC/Europe PMC; NAMS 2022 PDF from menopause.org; Martin 2018 and Bornstein 2016 fetched live from academic.oup.com). Trial registrations through the ClinicalTrials.gov v2 API; FDA pages fetched live (HTTP 200); 21 CFR 310.530 through the eCFR versioner API; the Renova label and the Drugs@FDA absence check through openFDA. Nothing is included on the strength of a guide reference alone. No dose, strength or regimen from any source is reproduced. UK sources (added 2026-09-25, when Omar kept the UK in scope): legislation.gov.uk, gov.uk (MHRA, OPSS, DHSC), the electronic medicines compendium (UK SmPCs), NICE, ASA/CAP, the GPhC and the NMC fetched live and read 2026-09-25; the GMC pages and MHRA's products database were read in a browser the same day (they refuse scripts or serve no text to them).",
  "gradedAt": "2026-09-24",
  "grader": "Graded 2026-09-24 by the agent under Omar Saleem's delegation (\"you should be able to do that from the guide\"); rule set below; final review Dr. Hannah-Shmouni",
  "gradingRule": "Grade = certainty the source gives for the specific clinical statement the lesson makes, on the guides' A–D scale. A: consistent large RCTs or approval-grade evidence. B: at least one well-designed, adequately powered RCT or an independent, quality-stratified meta-analysis (either direction). C: small or sponsor-funded RCTs without independent replication, or pooled trials dominated by them. D: animal, in-vitro, mechanistic, case series, manufacturer dossiers. 'context' = history, reviews used for framing, trial registrations without results, analytical or regulatory records (regulatory records are primary for status statements, not graded for efficacy). Where the two guides disagree, the lesson states both and the claim takes the grade the primary evidence supports. Observational studies (added 2026-09-24, GRADE starting point; confirmed by Fady Hannah-Shmouni, MD FRCPC, 2026-09-24): adequately sized cohort, case-control or cross-sectional studies grade C for the association they measured; small or single-centre ones grade D; any causal claim drawn from observational data grades D. Meta-analyses of observational studies grade at most B, and only for association. Guidelines and consensus statements are 'context', cited for what they recommend, not graded as evidence.",
@@ -597,6 +597,108 @@
    "grade": "context",
    "gradeNote": "clinical practice guideline — primary for what it recommends",
    "pmcid": "PMC4880116"
+  },
+  {
+   "id": "emc-smpc-evorel-uk",
+   "lesson": "m02-l2",
+   "title": "Evorel 50 patches (estradiol) — Summary of Product Characteristics (UK)",
+   "authors": "Theramex HQ UK Limited (marketing authorisation holder)",
+   "publication": "medicines.org.uk (emc) · PL 49105/0006 · text revised 12/05/2025 · prescription only medicine",
+   "year": 2025,
+   "url": "https://www.medicines.org.uk/emc/product/10927/smpc",
+   "sourceType": "label",
+   "design": "UK summary of product characteristics",
+   "independence": "regulator-approved label",
+   "role": "UK HRT licence: hormone replacement therapy for oestrogen deficiency symptoms in peri- and post-menopausal women; Evorel 50, 75 and 100 also for prevention of osteoporosis in post-menopausal women at high risk of fracture who cannot take other medicines approved for it; prescription-only",
+   "guideGrade": "—",
+   "note": "Fetched live and read 2026-09-25 (HTTP 200). Legal category read from the same page.",
+   "grade": "context",
+   "gradeNote": "primary regulatory record (UK product information)"
+  },
+  {
+   "id": "emc-smpc-sandrena-uk",
+   "lesson": "m02-l2",
+   "title": "Sandrena 1.0 mg gel (estradiol) — Summary of Product Characteristics (UK)",
+   "authors": "Orion Corporation (marketing authorisation holder)",
+   "publication": "medicines.org.uk (emc) · PL 27925/0016 · text revised 22/08/2025 · prescription only medicine",
+   "year": 2025,
+   "url": "https://www.medicines.org.uk/emc/product/1048/smpc",
+   "sourceType": "label",
+   "design": "UK summary of product characteristics",
+   "independence": "regulator-approved label",
+   "role": "UK HRT licence: hormone replacement therapy for oestrogen deficiency symptoms in postmenopausal women; prevention of osteoporosis in postmenopausal women at high risk of fracture who cannot take other medicines approved for it; prescription-only",
+   "guideGrade": "—",
+   "note": "Fetched live and read 2026-09-25 (HTTP 200). Legal category read from the same page.",
+   "grade": "context",
+   "gradeNote": "primary regulatory record (UK product information)"
+  },
+  {
+   "id": "mhra-gn14-specials-2023",
+   "lesson": "m02-l2",
+   "title": "The supply of unlicensed medicinal products ('specials') — MHRA Guidance Note 14",
+   "authors": "Medicines and Healthcare products Regulatory Agency (UK)",
+   "publication": "gov.uk · PDF, 21 pp · MHRA 2023 edition (page last updated 29 January 2025)",
+   "year": 2023,
+   "url": "https://assets.publishing.service.gov.uk/media/645e19f5ad8a03000c38b3bc/The_supply_of_unlicensed_medicinal_products__special_GN14.pdf",
+   "sourceType": "official_guidance",
+   "design": "regulator guidance note",
+   "independence": "regulator",
+   "role": "UK specials: the regulation 167 exemption is narrowly drawn because specials may not have been assessed for safety, quality and efficacy (1.5); an unlicensed product should not be supplied where an equivalent licensed product can meet the patient's special needs, and 'special need' excludes cost, convenience or operational needs (2.2–2.3); a UK-licensed product, even off-label, should be used before an unlicensed one (2.4); manufacturers need a Manufacturer's 'Specials' Licence and GMP-inspected sites (4.1); particular specials must not be advertised (7.1); products prepared in a pharmacy under section 10 are also unlicensed medicines (1.6); Appendix 2 hierarchy: UK licensed, then off-label, then imported licensed product, then UK special (GMP-inspected but otherwise unassessed), with products that are not medicines in their country of origin, such as supplements, least acceptable",
+   "guideGrade": "—",
+   "note": "Fetched live and read 2026-09-25 (HTTP 200). PDF read in full.",
+   "grade": "context",
+   "gradeNote": "primary regulatory guidance"
+  },
+  {
+   "id": "emc-smpc-treclin-uk",
+   "lesson": "m02-l2",
+   "title": "Treclin 1%/0.025% w/w gel (clindamycin phosphate, tretinoin) — Summary of Product Characteristics (UK)",
+   "authors": "Viatris Products Limited (marketing authorisation holder)",
+   "publication": "medicines.org.uk (emc) · PL 46302/0192 · text revised February 2026",
+   "year": 2026,
+   "url": "https://www.medicines.org.uk/emc/product/5371/smpc",
+   "sourceType": "label",
+   "design": "UK summary of product characteristics",
+   "independence": "regulator-approved label",
+   "role": "UK licence: topical treatment of acne vulgaris with comedones, papules and pustules in patients 12 years or older",
+   "guideGrade": "—",
+   "note": "Fetched live and read 2026-09-25 (HTTP 200). Legal category read from the same page.",
+   "grade": "context",
+   "gradeNote": "primary regulatory record (UK product information)"
+  },
+  {
+   "id": "emc-smpc-aknemycin-plus-uk",
+   "lesson": "m02-l2",
+   "title": "Aknemycin Plus (erythromycin, tretinoin) cutaneous solution — Summary of Product Characteristics (UK)",
+   "authors": "Almirall Hermal GmbH (marketing authorisation holder)",
+   "publication": "medicines.org.uk (emc) · PL 33016/0007 · text revised February 2026",
+   "year": 2026,
+   "url": "https://www.medicines.org.uk/emc/product/6386/smpc",
+   "sourceType": "label",
+   "design": "UK summary of product characteristics",
+   "independence": "regulator-approved label",
+   "role": "UK licence: all forms of acne, non-inflammatory and inflammatory",
+   "guideGrade": "—",
+   "note": "Fetched live and read 2026-09-25 (HTTP 200). Legal category read from the same page.",
+   "grade": "context",
+   "gradeNote": "primary regulatory record (UK product information)"
+  },
+  {
+   "id": "emc-search-tretinoin-2026-09-25",
+   "lesson": "m02-l2",
+   "title": "Electronic medicines compendium (emc) — search results for 'tretinoin'",
+   "authors": "Datapharm (emc)",
+   "publication": "medicines.org.uk · search run 25 September 2026 · 3 results",
+   "year": 2026,
+   "url": "https://www.medicines.org.uk/emc/search?q=tretinoin",
+   "sourceType": "label",
+   "design": "UK product-information listing",
+   "independence": "product-information publisher",
+   "role": "UK listing: the three tretinoin products with UK product information on the compendium are Aknemycin Plus (erythromycin, tretinoin), Treclin gel (clindamycin, tretinoin) and Tretinoin 10 mg soft capsules",
+   "guideGrade": "—",
+   "note": "Fetched live and read 2026-09-25 (HTTP 200). The compendium lists products whose companies publish UK product information there; it is not the MHRA register.",
+   "grade": "context",
+   "gradeNote": "listing record, not graded"
   }
  ],
  "claims": [
@@ -853,6 +955,42 @@
    "status": "verified",
    "reviewNote": "",
    "gradeDecision": "context — review + guide"
+  },
+  {
+   "id": "c-m02-21",
+   "unit": "m02-l2",
+   "text": "In the UK (product information checked 25 September 2026), HRT products such as estradiol patches (Evorel) and gel (Sandrena) are prescription-only medicines licensed for oestrogen-deficiency symptoms in peri- and postmenopausal women and, for some presentations, for preventing osteoporosis in postmenopausal women at high risk of fracture who cannot take other medicines approved for it; skin is not among their licensed uses.",
+   "citationRefs": [
+    "emc-smpc-evorel-uk",
+    "emc-smpc-sandrena-uk"
+   ],
+   "status": "verified",
+   "reviewNote": "UK mapping added 2026-09-25 (Omar kept the UK in scope); confirmation pending with the post-approval changes",
+   "gradeDecision": "regulatory record, dated September 2026"
+  },
+  {
+   "id": "c-m02-22",
+   "unit": "m02-l2",
+   "text": "In the UK, a hormone preparation compounded in a pharmacy or made as a 'special' is an unlicensed medicine; MHRA guidance says an unlicensed product should not be supplied where a licensed product can meet the patient's need, and a UK-licensed product used off-label comes before an unlicensed one.",
+   "citationRefs": [
+    "mhra-gn14-specials-2023"
+   ],
+   "status": "verified",
+   "reviewNote": "UK mapping added 2026-09-25 (Omar kept the UK in scope); confirmation pending with the post-approval changes",
+   "gradeDecision": "regulatory record, dated September 2026"
+  },
+  {
+   "id": "c-m02-23",
+   "unit": "m02-l2",
+   "text": "On the UK electronic medicines compendium (searched 25 September 2026), topical tretinoin appears only in acne treatments: Treclin gel (clindamycin with tretinoin) and Aknemycin Plus (erythromycin with tretinoin); the other tretinoin product listed is an oral capsule.",
+   "citationRefs": [
+    "emc-smpc-treclin-uk",
+    "emc-smpc-aknemycin-plus-uk",
+    "emc-search-tretinoin-2026-09-25"
+   ],
+   "status": "verified",
+   "reviewNote": "UK mapping added 2026-09-25 (Omar kept the UK in scope); confirmation pending with the post-approval changes",
+   "gradeDecision": "regulatory record, dated September 2026"
   }
  ],
  "authorFindings": [
@@ -866,7 +1004,8 @@
   "A&RE ch.9 and ch.14 — FDA's menopausal hormone therapy labeling action (request 10 Nov 2025; first six approved labels 12 Feb 2026: cardiovascular, breast-cancer and probable-dementia statements removed from the boxed warning) is not mentioned. Suggest adding it, date-stamped, because it changes how the risk conversation is framed; approved indications did not change and do not include skin.",
   "A&RE algorithms pp.93–96 are images only; the course used them to locate claims and sourced every teaching statement to a primary or guideline record. The menopause algorithm's 'topical estrogen off-label (C)' box would read more safely as 'not recommended for wrinkles' to match ch.9's text.",
   "All other A&RE ch.8, ch.9 and inherited-syndrome references resolved on PubMed with matching title, first author, journal and year (Slominski 2000, Tiganescu 2011, Schoepe 2006, Nieman 2008, Hall 2005, Thornton 2013, Brincat 2005, NAMS 2022 and 2020, Shu 2011, Manson 2013, Pivazyan 2023, Lause 2017, Darling 1997, Stanescu 2024, Kirschner 2000).",
-  "Not in either guide, worth adding — Ajjan 2022 (first human RCT of 11β-HSD1 inhibition in skin; pilot, primary outcome missed), Phillips 2008 and Owen 2016 (negative HT wrinkle trials), Martin 2018 (Endocrine Society hirsutism guideline: rapid progression or virilization → androgen-secreting tumour, ~0.2%, over half malignant), Bornstein 2016 (hyperpigmentation distribution in primary adrenal insufficiency), Correa 2015 (Carney complex cardiac myxomas), Hughes 2013 (sunscreen RCT, n=903) and the Renova label (the one FDA-approved adjunct for fine facial wrinkles)."
+  "Not in either guide, worth adding — Ajjan 2022 (first human RCT of 11β-HSD1 inhibition in skin; pilot, primary outcome missed), Phillips 2008 and Owen 2016 (negative HT wrinkle trials), Martin 2018 (Endocrine Society hirsutism guideline: rapid progression or virilization → androgen-secreting tumour, ~0.2%, over half malignant), Bornstein 2016 (hyperpigmentation distribution in primary adrenal insufficiency), Correa 2015 (Carney complex cardiac myxomas), Hughes 2013 (sunscreen RCT, n=903) and the Renova label (the one FDA-approved adjunct for fine facial wrinkles).",
+  "UK status (2026-09-25) — neither guide gives a UK position for menopausal hormone therapy or tretinoin. UK HRT licences (e.g. Evorel patches, Sandrena gel) cover oestrogen-deficiency symptoms and, for some products, osteoporosis prevention; a compounded 'bioidentical' preparation is an unlicensed medicine in the UK (MHRA Guidance Note 14 places any licensed product that meets the need first). The UK medicines compendium lists topical tretinoin only in acne combinations (Treclin, Aknemycin Plus), so the guides' 'prescription retinoid for photoageing' advice reads as US practice for a UK reader. MHRA's products database could not confirm an absence for tretinoin (its full-text search returns 289 documents), so the course states only what the compendium lists."
  ],
  "consideredNotUsed": [
   {

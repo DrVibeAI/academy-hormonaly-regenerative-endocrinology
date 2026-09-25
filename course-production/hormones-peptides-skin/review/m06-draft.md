@@ -1,6 +1,6 @@
 # Hormones and Peptides for Skin · Module 06 — review draft
 
-*approved · authored 2026-09-24 · 19 moments, ~26 min + module check · 38 sources · 19 claims*
+*approved · authored 2026-09-24 · 19 moments, ~26 min + module check · 42 sources · 21 claims*
 
 Every factual sentence traces to the graded registry (`citations/m06.md`). Moments marked **By role** carry the prescriber · clinical staff · advisor versions of the practice guidance; grades and regulatory facts never change by role.
 
@@ -73,11 +73,11 @@ Six things you will hear about growth hormone and skin, each accurate as worded.
 ### 05 / 19 · Deficiency is a diagnosis. Decline is ageing.  
 *What changes in practice · audio*
 
-In healthy older adults, randomized trials of growth hormone show small shifts in body composition, about 2 kg less fat and 2 kg more lean mass, with more oedema, joint pain, carpal tunnel syndrome and a trend towards diabetes. Strength and endurance change little. The Aesthetic & Regenerative Endocrinology guide grades its advice against treatment A; graded on the trials themselves the evidence is B, and the conclusion is the same. In the US, as of September 2026, knowingly distributing growth hormone for anti-ageing is a federal offence.
+In healthy older adults, randomized trials of growth hormone show small shifts in body composition, about 2 kg less fat and 2 kg more lean mass, with more oedema, joint pain, carpal tunnel syndrome and a trend towards diabetes. Strength and endurance change little. The Aesthetic & Regenerative Endocrinology guide grades its advice against treatment A; graded on the trials themselves the evidence is B, and the conclusion is the same. In the US, as of September 2026, knowingly distributing growth hormone for anti-ageing is a federal offence. In the UK, somatropin is a prescription-only medicine licensed for growth hormone deficiency and specific growth disorders, and a Class C controlled drug.
 
 - Healthy ageing: small body-composition change, more side-effects
 - Grade B on the trials (guide: A), same conclusion
-- US: distribution for anti-ageing is a federal offence
+- US: anti-ageing distribution is a federal offence · UK: prescription-only, Class C
 
 **By role**
 - *Prescriber:* Prescribe growth hormone only for a confirmed deficiency or another approved indication, usually with an endocrinologist. For a request framed as anti-ageing, document the conversation, the evidence you quoted and the legal position, and decline.
@@ -86,11 +86,11 @@ In healthy older adults, randomized trials of growth hormone show small shifts i
 
 <details><summary>Narration script</summary>
 
-Here the physiology meets the waiting room. A patient in their fifties has read that growth hormone falls with age and asks whether topping it up would help their skin. The trials in healthy older adults answer that. Pooled, they show about two kilograms less fat and two kilograms more lean mass, with more swelling, joint pain, carpal tunnel symptoms and a drift towards diabetes, while strength and stamina change little. Graded on those trials the evidence is B, consistent and independent though small, and the Aesthetic and Regenerative Endocrinology guide gives its advice against treatment an A. Both land in the same place. Growth hormone treats a diagnosed deficiency and a short list of approved conditions. In the United States, distributing it for anti-ageing is a federal offence. Whatever your role, name the decline for what it is, a normal part of ageing.
+Here the physiology meets the waiting room. A patient in their fifties has read that growth hormone falls with age and asks whether topping it up would help their skin. The trials in healthy older adults answer that. Pooled, they show about two kilograms less fat and two kilograms more lean mass, with more swelling, joint pain, carpal tunnel symptoms and a drift towards diabetes, while strength and stamina change little. Graded on those trials the evidence is B, consistent and independent though small, and the Aesthetic and Regenerative Endocrinology guide gives its advice against treatment an A. Both land in the same place. Growth hormone treats a diagnosed deficiency and a short list of approved conditions. In the United States, distributing it for anti-ageing is a federal offence. In the United Kingdom, somatropin is a prescription-only medicine and a Class C controlled drug. Whatever your role, name the decline for what it is, a normal part of ageing.
 
 </details>
 
-<sub>Sources: Blackman MR 2002 · Pfizer (FDA-approved labeling) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · Liu H 2007 · Office of the Law Revision Counsel 2026</sub>
+<sub>Sources: Blackman MR 2002 · Pfizer (FDA-approved labeling) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · Liu H 2007 · Office of the Law Revision Counsel 2026 · Pfizer Limited (marketing authorisation holder) 2024 · Misuse of Drugs Act 1971 (UK) 1971</sub>
 
 ### 06 / 19 · 'Low for my age.'  
 *Your turn · quiz*
@@ -132,12 +132,13 @@ Tesamorelin is the instructive exception on this axis. Both Hormonaly guides gra
 | Trials | Two phase 3 RCTs, 806 patients | Randomized, double-blind, placebo-controlled and run by the developer, in adults with HIV and excess abdominal fat |
 | Result | About 15% less visceral fat than placebo at 26 weeks | Subcutaneous fat unchanged; the reduction held to 52 weeks on continued treatment |
 | US status (label, August 2026) | FDA-approved since 2010, for one use | Reduction of excess abdominal fat in adults with HIV-associated lipodystrophy. The label says it is not for weight loss and that long-term cardiovascular safety has not been established. |
+| UK status (MHRA products database, 25 September 2026) | No UK product information | A search for tesamorelin returned no summary of product characteristics, patient leaflet or assessment report. |
 | Safety, in its own label | IGF-1 above +2 SD in 47% at 26 weeks | Diabetes-range HbA1c in 5% against 1% on placebo; fluid retention; contraindicated in active malignancy |
 | Grade | A, for HIV-associated abdominal fat only | No trial has tested skin, anti-ageing or general body shaping |
 
 **Callout:** A GRADE A travels with its indication. The molecule does not carry it anywhere else.
 
-<sub>Sources: Falutz J 2007 · Falutz J 2010 · Theratechnologies Inc. (FDA-approved labeling) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026</sub>
+<sub>Sources: Falutz J 2007 · Falutz J 2010 · Theratechnologies Inc. (FDA-approved labeling) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Medicines and Healthcare products Regulatory Agency (UK) 2026</sub>
 
 ### 09 / 19 · Zero skin trials.  
 *The evidence · stat*
@@ -199,24 +200,24 @@ Dated to FDA's 503A category list of 14 May 2026, its Category 2 page (current a
 ### 12 / 19 · Name the indication before the molecule.  
 *What changes in practice · audio*
 
-When a patient asks about a growth-hormone peptide, three answers come first. Which molecule, exactly, including whether 'CJC' means with or without DAC. What stands behind it, whether approval-grade trials for one indication, hormone levels only, or nothing. And where it stands in the US today, read off the live FDA lists. Tesamorelin's GRADE A belongs to HIV-associated abdominal fat and transfers to nothing else.
+When a patient asks about a growth-hormone peptide, three answers come first. Which molecule, exactly, including whether 'CJC' means with or without DAC. What stands behind it, whether approval-grade trials for one indication, hormone levels only, or nothing. And where it stands in the US today, read off the live FDA lists. In the UK, MHRA's products database holds no product information for tesamorelin, sermorelin or ipamorelin (searched 25 September 2026), so any of them would reach a patient only as an unlicensed medicine. Tesamorelin's GRADE A belongs to HIV-associated abdominal fat and transfers to nothing else.
 
 - Which molecule, exactly
 - What stands behind it
-- Where it stands in the US today
+- Where it stands with your regulator today
 
 **By role**
-- *Prescriber:* Tesamorelin is the only GHRH analogue with a current FDA-approved indication, and it is not a skin treatment. Do not prescribe compounded secretagogues on the strength of a mechanism; document what the patient uses and assess or refer any sign of GH excess.
+- *Prescriber:* Tesamorelin is the only GHRH analogue with a current FDA-approved indication, and it is not a skin treatment. Do not prescribe compounded secretagogues on the strength of a mechanism; document what the patient uses and assess or refer any sign of GH excess. In the UK, tesamorelin, sermorelin and ipamorelin have no UK product information, and an unlicensed special needs a clinical need that no licensed medicine meets.
 - *Clinical staff:* Ask which product, from whom and for how long, and record the exact name on the vial. Report swelling, tingling, joint pain or new skin changes to the prescriber. Do not advise on amounts or timing.
 - *Advisor:* Describe these products accurately: one approved use for tesamorelin, hormone-level data or nothing for the rest, and no US bulks-list standing for the secretagogues. Refer anyone injecting them to a prescriber.
 
 <details><summary>Narration script</summary>
 
-Imagine the request as it usually arrives. A patient says their clinic offers a peptide that raises growth hormone naturally, for skin and sleep, and asks what you think. Three answers come before anything else. First, which molecule, exactly, because CJC-1295 with and without its albumin-binding tail are two different products, and only the version with the tail has been tested in people. Second, what stands behind it. Tesamorelin has approval-grade trials for visceral fat in people with HIV, and the rest stop at hormone levels or have never been studied in humans. Third, where it stands in the United States today, read off FDA's live lists. As of September 2026, none of the growth-hormone secretagogues sits on the 503A bulks list. UK and EU status is still being mapped for this course, so treat these as US facts.
+Imagine the request as it usually arrives. A patient says their clinic offers a peptide that raises growth hormone naturally, for skin and sleep, and asks what you think. Three answers come before anything else. First, which molecule, exactly, because CJC-1295 with and without its albumin-binding tail are two different products, and only the version with the tail has been tested in people. Second, what stands behind it. Tesamorelin has approval-grade trials for visceral fat in people with HIV, and the rest stop at hormone levels or have never been studied in humans. Third, where it stands in the United States today, read off FDA's live lists. As of September 2026, none of the growth-hormone secretagogues sits on the 503A bulks list. In the United Kingdom, MHRA's products database holds no product information for tesamorelin, sermorelin or ipamorelin, so any of them would be an unlicensed medicine there.
 
 </details>
 
-<sub>Sources: Theratechnologies Inc. (FDA-approved labeling) 2026 · Dominikowski A 2026 · US Food and Drug Administration 2026 · Code of Federal Regulations (eCFR) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
+<sub>Sources: Theratechnologies Inc. (FDA-approved labeling) 2026 · Dominikowski A 2026 · US Food and Drug Administration 2026 · Code of Federal Regulations (eCFR) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · Medicines and Healthcare products Regulatory Agency (UK) 2026 · Medicines and Healthcare products Regulatory Agency (UK) 2023</sub>
 
 ### 13 / 19 · 'Basically tesamorelin?'  
 *Your turn · quiz*
@@ -324,7 +325,7 @@ One question to close lesson 6.3.
 Build the checklist you will actually use. It is saved to your path and your tutor will bring it back.
 
 **Exercise (chips) · Your growth-hormone checklist** — Tap everything you will do. Choose as many as you like.
-*Before my next growth-hormone conversation I will …* ask exactly which molecule and product · name the approved indication before the grade · check its current US status on the live FDA lists · look for swelling, tingling, sweating and new skin tags · document what I advised and why · send suspected GH excess to a prescriber or endocrinology
+*Before my next growth-hormone conversation I will …* ask exactly which molecule and product · name the approved indication before the grade · check its current status with my regulator (FDA lists in the US, MHRA in the UK) · look for swelling, tingling, sweating and new skin tags · document what I advised and why · send suspected GH excess to a prescriber or endocrinology
 
 **By role**
 - *Prescriber:* Your checklist ends with assessment: examine for acral and facial change, test or refer, and document the unapproved product and your advice.
@@ -353,3 +354,4 @@ Build the checklist you will actually use. It is saved to your path and your tut
 8. PPG adverse-effects section (pp. 119–120, 'IGF-1 targets' and dose reduction) is titration guidance and stays outside the source lock; module 06 uses only the recognition and referral content. Precision note: the label's figure is IGF-1 above +2 SDS in 47% at 26 weeks (the guide says 'exceeded ULN').
 9. The brief's verification request — Falutz J et al., N Engl J Med 2007;357:2359–70 — resolves to PMID 18057338 (title, first author, journal and year match); A&RE ch.15 ref 2 is correct.
 10. Not in either guide, worth adding — Rudman 1990 (much cited; its skin result missed significance), Lange 2001 (skin in GH deficiency and acromegaly), the 2014 Cochrane review of GH in major burns (the only skin indication with RCTs), Khorram 1997 (the only GHRH-analogue study with a skin outcome), Nass 2008 and Adunsky 2011 (ibutamoren: IGF-1 up, no functional benefit, heart-failure signal), FDA's October 2024 advisory-committee votes on ipamorelin and ibutamoren, the Egrifta label's IGF-1 figures and the somatropin label's nevus-monitoring warning, and the IGF-1 cancer epidemiology (Renehan 2004, Knuppel 2020, Dal 2018, SAGhE 2017).
+11. UK status (2026-09-25) — neither guide gives the UK position on this axis. Somatropin is a prescription-only medicine in the UK and a Class C controlled drug (Misuse of Drugs Act 1971 Sch. 2 Part III; Misuse of Drugs Regulations 2001 Sch. 4 Part II). MHRA's products database returned no documents for tesamorelin, sermorelin or ipamorelin (25 Sep 2026). CJC-1295, ibutamoren, GHRP-2/-6 and IGF-1 LR3 were not stated: the database's full-text search cannot confirm an absence for names that contain numbers or appear inside other products' leaflets.

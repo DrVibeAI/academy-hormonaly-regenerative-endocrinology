@@ -1,6 +1,6 @@
 # Hormones and Peptides for Skin · Module 03 — review draft
 
-*approved · authored 2026-09-24 · 20 moments, ~27 min + module check · 51 sources · 20 claims*
+*approved · authored 2026-09-24 · 20 moments, ~27 min + module check · 59 sources · 24 claims*
 
 Every factual sentence traces to the graded registry (`citations/m03.md`). Moments marked **By role** carry the prescriber · clinical staff · advisor versions of the practice guidance; grades and regulatory facts never change by role.
 
@@ -114,7 +114,7 @@ One question to close lesson 3.1.
 ### 08 / 20 · Two gut hormones, re-engineered.  
 *Lesson 3.2 · Concept · audio*
 
-GLP-1 and GIP are incretins, hormones the gut releases after a meal that amplify glucose-dependent insulin release; GLP-1 also slows gastric emptying and reduces appetite. Native GLP-1 is broken down within minutes. Semaglutide is a long-acting GLP-1 receptor agonist, and tirzepatide activates both GIP and GLP-1 receptors. In the US, as of September 2026, both are FDA-approved drugs for defined indications, set out in the next moment.
+GLP-1 and GIP are incretins, hormones the gut releases after a meal that amplify glucose-dependent insulin release; GLP-1 also slows gastric emptying and reduces appetite. Native GLP-1 is broken down within minutes. Semaglutide is a long-acting GLP-1 receptor agonist, and tirzepatide activates both GIP and GLP-1 receptors. In the US, as of September 2026, both are FDA-approved drugs for defined indications, set out in the next moment. In the UK both are licensed by the MHRA, and tirzepatide's diabetes and weight-management uses share one brand, Mounjaro.
 
 - Incretins amplify insulin after meals
 - Semaglutide: GLP-1 receptor agonist
@@ -122,16 +122,16 @@ GLP-1 and GIP are incretins, hormones the gut releases after a meal that amplify
 
 <details><summary>Narration script</summary>
 
-After a meal, the gut releases two hormones called incretins, GLP-1 and GIP. Both amplify insulin release when glucose is high, and GLP-1 also slows the stomach and reduces appetite. Native GLP-1 lasts only minutes in the blood before an enzyme breaks it down, so the drug molecules are engineered to last far longer. Semaglutide activates the GLP-1 receptor. Tirzepatide activates both the GIP and the GLP-1 receptors. Those are the mechanisms. The regulatory facts sit in a separate register. In the United States, as of September 2026, both molecules are FDA-approved drugs, sold under one brand name for type 2 diabetes and another for chronic weight management, with further indications for the heart, the liver and sleep apnoea. The face appears nowhere on those labels, and that is where this lesson begins.
+After a meal, the gut releases two hormones called incretins, GLP-1 and GIP. Both amplify insulin release when glucose is high, and GLP-1 also slows the stomach and reduces appetite. Native GLP-1 lasts only minutes in the blood before an enzyme breaks it down, so the drug molecules are engineered to last far longer. Semaglutide activates the GLP-1 receptor. Tirzepatide activates both the GIP and the GLP-1 receptors. Those are the mechanisms. The regulatory facts sit in a separate register. In the United States, as of September 2026, both molecules are FDA-approved drugs, sold under one brand name for type 2 diabetes and another for chronic weight management, with further indications for the heart, the liver and sleep apnoea. In the United Kingdom both are licensed by the MHRA, and tirzepatide's weight-management licence sits on the same brand as its diabetes licence, Mounjaro. The face appears nowhere on those labels, and that is where this lesson begins.
 
 </details>
 
-<sub>Sources: Drucker DJ 2018 · Eli Lilly (Mounjaro prescribing information) 2026 · Novo Nordisk (Ozempic prescribing information) 2026 · Novo Nordisk (Wegovy prescribing information) 2026 · Eli Lilly (Zepbound prescribing information) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026</sub>
+<sub>Sources: Drucker DJ 2018 · Eli Lilly (Mounjaro prescribing information) 2026 · Novo Nordisk (Ozempic prescribing information) 2026 · Novo Nordisk (Wegovy prescribing information) 2026 · Eli Lilly (Zepbound prescribing information) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Novo Nordisk A/S (marketing authorisation holder) 2026 · Novo Nordisk A/S (marketing authorisation holder) 2026 · Eli Lilly Nederland B.V. (marketing authorisation holder) 2026 · Medicines and Healthcare products Regulatory Agency (UK) 2023</sub>
 
 ### 09 / 20 · Approved for what, exactly?  
 *Regulatory status · tool*
 
-The facial changes in this lesson happen to people taking approved drugs for approved reasons. Know the indications, and their dates, before you discuss the side effects. Status below is for the US, from FDA records checked in September 2026; UK and EU status is being mapped for this course.
+The facial changes in this lesson happen to people taking approved drugs for approved reasons. Know the indications, and their dates, before you discuss the side effects. US status is from FDA records checked in September 2026; the last row gives the UK position from UK product information and MHRA statements checked the same month. EU status is not covered.
 
 | | | |
 |---|---|---|
@@ -140,10 +140,11 @@ The facial changes in this lesson happen to people taking approved drugs for app
 | Mounjaro (tirzepatide) | Type 2 diabetes | First approved 2022. The label adds cardiovascular risk reduction in type 2 diabetes at high risk. |
 | Zepbound (tirzepatide) | Chronic weight management | Approved November 2023. Moderate to severe obstructive sleep apnoea with obesity, December 2024. |
 | Compounded, counterfeit or 'research' versions | Not FDA-approved | FDA warns about compounded, counterfeit and falsely labelled 'research' semaglutide and tirzepatide (page current 1 September 2026). Semaglutide bought online without a prescription has failed independent testing. |
+| United Kingdom · MHRA (September 2026) | Ozempic: diabetes · Wegovy: weight, heart · Mounjaro: diabetes and weight | Wegovy is licensed for weight management and cardiovascular risk reduction; MHRA added weight management to Mounjaro in November 2023. MHRA says retatrutide is not authorised in the UK and anyone selling it does so illegally (24 July 2026), and in May 2026 it made its largest seizure of unlicensed weight-loss medicines. |
 
 **Callout:** Approved for diabetes, weight, the heart, the liver and sleep apnoea. The face is on none of these labels.
 
-<sub>Sources: Novo Nordisk (Ozempic prescribing information) 2026 · Novo Nordisk (Wegovy prescribing information) 2026 · US Food and Drug Administration (Drugs@FDA 2026 · Lincoff AM 2023 · Eli Lilly (Mounjaro prescribing information) 2026 · Eli Lilly (Zepbound prescribing information) 2026 · US Food and Drug Administration (Drugs@FDA 2026 · US Food and Drug Administration 2026 · Ashraf AR 2024 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026</sub>
+<sub>Sources: Novo Nordisk (Ozempic prescribing information) 2026 · Novo Nordisk (Wegovy prescribing information) 2026 · US Food and Drug Administration (Drugs@FDA 2026 · Lincoff AM 2023 · Eli Lilly (Mounjaro prescribing information) 2026 · Eli Lilly (Zepbound prescribing information) 2026 · US Food and Drug Administration (Drugs@FDA 2026 · US Food and Drug Administration 2026 · Ashraf AR 2024 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Novo Nordisk A/S (marketing authorisation holder) 2026 · Novo Nordisk A/S (marketing authorisation holder) 2026 · Eli Lilly Nederland B.V. (marketing authorisation holder) 2026 · Medicines and Healthcare products Regulatory Agency (UK) 2023 · Medicines and Healthcare products Regulatory Agency (UK) 2026 · Medicines and Healthcare products Regulatory Agency (UK) 2026</sub>
 
 ### 10 / 20 · Large trials, measured on the scale.  
 *Human evidence · stat*
@@ -165,12 +166,12 @@ The phrase bundles four kinds of statement. Kept apart, they tell a patient far 
 |---|---|---|
 | Mechanism | Volume loss | Losing fat deflates the superficial facial compartments and unmasks laxity that was already there. |
 | Human evidence | Observational and small: C to D | One imaging study of 20 patients found a median 9% loss of midface volume, mostly superficial, about 7% per 10 kg lost. A survey of 1,226 patients found sagging, facial volume loss and hair shedding reported more often the more weight was lost. A systematic review of the plastic-surgery literature found it limited by study bias. No randomized trial has measured the face. |
-| Regulatory status (US, September 2026) | Hair loss labelled; facial change unlisted | Both labels list hair loss (about 3–6% on drug against about 1% on placebo, mostly in women, linked to weight reduction). The semaglutide label also lists altered skin sensation. Facial volume loss is not a labelled adverse reaction. |
+| Regulatory status (US and UK, September 2026) | Hair loss labelled; facial change unlisted | Both labels list hair loss (about 3–6% on drug against about 1% on placebo, mostly in women, linked to weight reduction). The semaglutide label also lists altered skin sensation. Facial volume loss is not a labelled adverse reaction. UK product information also lists hair loss: 2.5% on Wegovy and 4.9% on Mounjaro in the weight-management trials, against 1.0% on placebo. |
 | Open question | A direct drug effect? | Whether these drugs act on facial fat or skin cells beyond the effect of weight loss rests on cell studies and has not been tested in people. |
 
 **Callout:** So far, the evidence ties facial change to how much weight is lost.
 
-<sub>Sources: Rohrich RJ 2007 · Sharma RK 2025 · Rao S 2026 · Daneshgaran G 2025 · Humphrey CD 2023 · Novo Nordisk (Wegovy prescribing information) 2026 · Eli Lilly (Zepbound prescribing information) 2026 · Paschou IA 2025 · Persson C 2025 · Burke OM 2025 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
+<sub>Sources: Rohrich RJ 2007 · Sharma RK 2025 · Rao S 2026 · Daneshgaran G 2025 · Humphrey CD 2023 · Novo Nordisk (Wegovy prescribing information) 2026 · Eli Lilly (Zepbound prescribing information) 2026 · Paschou IA 2025 · Persson C 2025 · Burke OM 2025 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · Novo Nordisk A/S (marketing authorisation holder) 2026 · Eli Lilly Nederland B.V. (marketing authorisation holder) 2026</sub>
 
 ### 12 / 20 · Counsel before, record during, refer when asked.  
 *What changes in practice · audio*
@@ -286,12 +287,12 @@ Six things patients bring you under the heading 'gut health for skin'. One at a 
 **Exercise (quickfire) · What stands behind it?** — One at a time: what has actually been tested?
 - Probiotic capsules → **Tested on skin in randomized trials** — *Thirty-nine trials pooled by Cochrane: little or no difference in patient-rated eczema symptoms (B). Newer analyses in children report small gains.*
 - Rifaximin for rosacea with bacterial overgrowth → **Tested on skin in randomized trials** — *One small single-centre randomized trial: rosacea improved after the overgrowth was cleared (C). A prescription antibiotic, chosen after testing.*
-- Tirzepatide added to a psoriasis biologic → **Tested on skin in randomized trials** — *One open-label, manufacturer-funded phase 3b trial of 274 people: more complete clearance with the add-on at 36 weeks (C). An earlier 20-person placebo-controlled trial of liraglutide found no effect. In the US, tirzepatide is not approved for psoriasis.*
+- Tirzepatide added to a psoriasis biologic → **Tested on skin in randomized trials** — *One open-label, manufacturer-funded phase 3b trial of 274 people: more complete clearance with the add-on at 36 weeks (C). An earlier 20-person placebo-controlled trial of liraglutide found no effect. Its US approval and its UK licence both leave out psoriasis.*
 - A high-fibre, plant-rich diet → **Tested in people, not on skin** — *Strong human evidence for heart and metabolic outcomes; the guide grades it A, and the review behind it rates certainty moderate. No trial has measured skin.*
 - Akkermansia capsules → **Tested in people, not on skin** — *One pilot randomized trial in 32 adults improved insulin sensitivity (C). No skin outcomes.*
 - A 'leaky gut' stack: L-glutamine, zinc carnosine, BPC-157 → **Little or no human outcome data** — *The Hormonaly guide grades it D: mechanism and animal data. As of September 2026, BPC-157 is not on the US 503A bulks list; an FDA advisory committee reviewed it in July 2026.*
 
-<sub>Sources: Makrgeorgou A 2018 · Parodi A 2008 · Lebwohl M 2026 · Faurschou A 2015 · Eli Lilly (Mounjaro prescribing information) 2026 · Eli Lilly (Zepbound prescribing information) 2026 · Reynolds A 2019 · Depommier C 2019 · US Food and Drug Administration 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
+<sub>Sources: Makrgeorgou A 2018 · Parodi A 2008 · Lebwohl M 2026 · Faurschou A 2015 · Eli Lilly (Mounjaro prescribing information) 2026 · Eli Lilly (Zepbound prescribing information) 2026 · Reynolds A 2019 · Depommier C 2019 · US Food and Drug Administration 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · Eli Lilly Nederland B.V. (marketing authorisation holder) 2026</sub>
 
 ### 18 / 20 · Diet first, a bottle last.  
 *What changes in practice · audio*
@@ -303,17 +304,17 @@ When a patient links their skin to their gut, start with what has evidence: diet
 - Gut-repair peptides: last, if at all
 
 **By role**
-- *Prescriber:* Treat the skin disease on its own evidence and metabolic disease directly. A zonulin result should not guide care. In the US, BPC-157 has no 503A bulks-list standing as of September 2026, so compounding it for gut repair is not an option.
+- *Prescriber:* Treat the skin disease on its own evidence and metabolic disease directly. A zonulin result should not guide care. In the US, BPC-157 has no 503A bulks-list standing as of September 2026, so compounding it for gut repair is not an option. In the UK, an unlicensed special is for one patient's special clinical need that no licensed product can meet, and the responsibility for it is yours.
 - *Clinical staff:* If a patient brings a gut-repair kit or a zonulin result, record the products and the result and bring them to the prescriber. Do not interpret the test or advise on the products.
 - *Advisor:* You can say that fibre-rich diets have strong evidence for metabolic health, that probiotics are strain-specific with small skin effects at best, and that injected or research peptides need a prescriber.
 
 <details><summary>Narration script</summary>
 
-Patients often link their skin to their gut. Start where the evidence is. Diet quality, treatment of metabolic disease and the established treatment for the skin condition itself all come first. Be careful with tests. A widely used commercial zonulin assay was shown to detect proteins other than zonulin, so a result cannot tell you whether a gut is leaky. Be careful with products too. Probiotics are strain-specific, and their effects on eczema are small at best. The Hormonaly guide gives the popular gut-repair stack of glutamine, zinc carnosine and BPC-157 a grade of D. As of September 2026, in the United States, BPC-157 remains off the 503A bulks list after the July advisory-committee review. Investigational peptides come last, if at all. Whatever your role, name the evidence type before you name the product.
+Patients often link their skin to their gut. Start where the evidence is. Diet quality, treatment of metabolic disease and the established treatment for the skin condition itself all come first. Be careful with tests. A widely used commercial zonulin assay was shown to detect proteins other than zonulin, so a result cannot tell you whether a gut is leaky. Be careful with products too. Probiotics are strain-specific, and their effects on eczema are small at best. The Hormonaly guide gives the popular gut-repair stack of glutamine, zinc carnosine and BPC-157 a grade of D. As of September 2026, in the United States, BPC-157 remains off the 503A bulks list after the July advisory-committee review. In the United Kingdom, an unlicensed peptide reaches a patient only through narrow routes, such as a special ordered for one patient's clinical need, which module seven sets out. Investigational peptides come last, if at all. Whatever your role, name the evidence type before you name the product.
 
 </details>
 
-<sub>Sources: Scheffler L 2018 · Camilleri M 2019 · Reynolds A 2019 · Suez J 2019 · US Food and Drug Administration 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
+<sub>Sources: Scheffler L 2018 · Camilleri M 2019 · Reynolds A 2019 · Suez J 2019 · US Food and Drug Administration 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · Medicines and Healthcare products Regulatory Agency (UK) 2023 · Medicines and Healthcare products Regulatory Agency (UK) 2009</sub>
 
 ### 19 / 20 · The zonulin test.  
 *Your turn · quiz*
@@ -362,3 +363,4 @@ Build the checklist you will actually use. It is saved to your path and your tut
 10. Not in either guide, worth adding — Sharma 2025 (first quantitative imaging of midface volume on GLP-1 RAs), Rao 2026 (1,226-patient survey: facial and hair effects rise with weight lost), Batsis 2026 (independent review of body composition across 35 RCTs), the Cochrane review of probiotics for eczema (Makrgeorgou 2018), Scheffler 2018 (commercial zonulin ELISA does not detect zonulin), and the US labels as the primary source for hair-loss rates.
 11. Reference check — every A&RE reference the module uses from chapters 11, 12, 13, 14 and 16 (Kershaw & Flier; Zhang 2015; Chen 2019; SELECT; Drucker; STEP-1; SURMOUNT-1; Camilleri; Burke; Persson; Franceschi 2000; Ferrucci & Fabbri; Gkogkolou & Böhm; Chaudhuri; Humphrey & Lawrence; Conte; Reynolds; Suez; Depommier) resolved on PubMed with the printed journal, volume and year. PPG-Aug PMIDs for STEP-1, SURMOUNT-1, SELECT and SURMOUNT-OSA resolve.
 12. Jurisdiction — both guides are US-centred for incretin regulation; module 03 asserts US status only (FDA labels, Drugs@FDA, FDA statement current 1 September 2026). MHRA/EMA status of Wegovy, Mounjaro and compounded GLP-1 products is not asserted and needs mapping for UK learners (in progress).
+13. UK status (2026-09-25) — both guides describe the incretin drugs by their US brands and indications. In the UK, Mounjaro carries both the type 2 diabetes and the weight-management licence (MHRA, 8 Nov 2023; no separate weight-loss brand appears in UK product information), Ozempic's UK licence is type 2 diabetes, and UK SmPCs list hair loss (Wegovy 2.5%, Mounjaro 4.9%, placebo 1.0%). MHRA's statement that retatrutide is not authorised and illegal to sell in the UK (24 Jul 2026) and its May 2026 seizure of unlicensed weight-loss medicines and peptide products are citable in the guides' gray-market sections.

@@ -85,7 +85,7 @@ MODULE_PILLARS = {
 # Scope decisions after the intake plan (Omar 2026-09-24: add oral collagen peptides and SNAP-8 to module 04).
 MODULE_OVERRIDES = {
     "module-04": {
-        "scope": "Copper peptides (GHK/GHK-Cu); signal peptides and matrikines (pal-KTTKS / Matrixyl, Matrixyl 3000, Palmitoyl Tripeptide-1); oral collagen peptides; neurotransmitter modulators (Argireline, SNAP-8, Leuphasyl); investigational repair peptides (BPC-157, TB-500, KPV, LL-37); evidence hierarchies, sponsorship and funding bias; US regulatory status.",
+        "scope": "Copper peptides (GHK/GHK-Cu); signal peptides and matrikines (pal-KTTKS / Matrixyl, Matrixyl 3000, Palmitoyl Tripeptide-1); oral collagen peptides; neurotransmitter modulators (Argireline, SNAP-8, Leuphasyl); investigational repair peptides (BPC-157, TB-500, KPV, LL-37); evidence hierarchies, sponsorship and funding bias; US and UK regulatory status.",
     },
 }
 LESSON_OVERRIDES = {
@@ -286,7 +286,7 @@ pkg = {
         "professionalScope": {"en": "Continuing professional education for licensed clinicians and allied providers. Every learner gets the same evidence, regulatory status and safety content; what each may do with it — prescribe, recommend, administer, or refer — follows their own licence and scope, and the course adapts its practice guidance to that role. It informs clinical reasoning; it is not a protocol, contains no dosing, and does not replace specialist input, formal guidelines or individual judgment."},
         "disclaimers": [
             {"en": "Educational content for clinicians. It does not prescribe, and it never restates an evidence grade above what the source assigns to the specific indication."},
-            {"en": "Regulatory statements name their jurisdiction. US compounding examples (FDA 503A/503B) do not describe UK or EU status."},
+            {"en": "Regulatory statements name their jurisdiction and date. US status (FDA, 503A/503B compounding) and UK status (MHRA licensing, the 'specials' route for unlicensed medicines, UK cosmetics, food and advertising rules) are given side by side where they differ; the US compounding categories have no UK equivalent. EU status is not covered."},
             {"en": "Designed toward future CME accreditation. No CME or CE credit is currently offered."},
         ],
     },
@@ -299,9 +299,19 @@ pkg = {
         },
         {
             "code": "GB", "name": "United Kingdom",
-            "authorities": [{"name": "MHRA", "scope": "Medicines, unlicensed ('special') products, cosmetics and supplements for UK learners", "url": "https://www.gov.uk/government/organisations/medicines-and-healthcare-products-regulatory-agency"}],
-            "layers": [{"id": k, "status": "review", "detail": "No UK-specific regulatory content in the corpus yet; US examples must be labelled until mapped."} for k in ["product", "claims", "practice", "locale"]],
-            "reviewOwner": "pending (medical owner)",
+            "authorities": [
+                {"name": "MHRA", "scope": "Medicines licensing, unlicensed ('special') products, borderline classification, medicines advertising and enforcement", "url": "https://www.gov.uk/government/organisations/medicines-and-healthcare-products-regulatory-agency"},
+                {"name": "OPSS", "scope": "Cosmetic products (assimilated Regulation (EC) No 1223/2009) in Great Britain", "url": "https://www.gov.uk/guidance/making-cosmetic-products-available-to-consumers-in-great-britain"},
+                {"name": "ASA / CAP", "scope": "Advertising claims, including the ban on advertising prescription-only medicines to the public (CAP Code 12.12)", "url": "https://www.asa.org.uk/type/non_broadcast/code_section/12.html"},
+                {"name": "GMC · GPhC · NMC", "scope": "Professional standards for prescribing unlicensed medicines and for cosmetic interventions", "url": "https://www.gmc-uk.org/professional-standards/the-professional-standards/good-practice-in-prescribing-and-managing-medicines-and-devices/prescribing-unlicensed-medicines"},
+            ],
+            "layers": [{"id": k, "status": "mapped", "detail": d + " UK statements added 2026-09-25; confirmation pending with the post-approval changes."} for k, d in [
+                ("product", "Product status mapped for the UK: MHRA-licensed products checked in UK product information (semaglutide as Ozempic and Wegovy, tirzepatide as Mounjaro, baricitinib, minoxidil, finasteride, somatropin, estradiol HRT, topical tretinoin), afamelanotide's UK licence (via NICE HST27), no UK product information for tesamorelin, sermorelin or ipamorelin (MHRA products database), somatropin as a Class C controlled drug, and the cosmetic (assimilated Regulation 1223/2009) and food-supplement (Food Supplements (England) Regulations 2003) categories. Modules 02–06."),
+                ("claims", "Claims and advertising mapped for the UK: no sale, supply or advertising of a medicine without a UK marketing authorisation (Human Medicines Regulations 2012, regs 46 and 279), no advertising of prescription-only medicines to the public (reg. 284; CAP Code 12.12; MHRA Blue Guide; ASA ruling of 11 Feb 2026), cosmetic claims (Regulation 1223/2009 art. 20; ASA ruling of 13 May 2026 on a peptide serum), and food disease and health claims (Regulation 1169/2011 art. 7(3); Regulation 1924/2006 art. 10). Modules 04 and 07."),
+                ("practice", "Practice mapped for the UK: the 'specials' route (reg. 167) and pharmacy preparation (Medicines Act 1968 s. 10) in place of 503A/503B, MHRA Guidance Note 14's order of preference (licensed, off-label, imported, special), prescriber responsibility (GMC paras 102–108, MHRA Drug Safety Update 2009, GPhC 2025, NMC Code 18), GMC's physical examination before injectable cosmetic medicines, MHRA's finasteride warnings (May 2026) and enforcement (retatrutide; the May 2026 seizure including peptide products; melanotan). Two new moments in module 07 (m7-p21, m7-p22); role versions changed only where the practice line differs by jurisdiction."),
+                ("locale", "Locale mapped for UK learners on the base English edition: UK regulatory wording ('licensed', 'unlicensed medicine', 'special', 'prescription-only medicine', 'marketing authorisation') is used wherever UK status is stated, each statement labelled 'In the UK' and dated; EU status is marked as not covered."),
+            ]],
+            "reviewOwner": "Fady Hannah-Shmouni, MD FRCPC (confirmation pending)",
         },
     ],
     "provenance": {
@@ -378,7 +388,7 @@ pkg = {
             "author findings for Dr. Hannah-Shmouni (citations/m04.md, end) — send with the final draft",
             "capstone (adversarial co-design conversation) needs a package-driven runtime capstone; credential.capstoneRequired is false until then",
             "balance between endocrinopathy-with-skin-signs and elective aesthetic peptide content (plan question 2)",
-            "GB regulatory mapping (MHRA) — in progress 2026-09-25; EU not in scope",
+            "GB regulatory mapping — UK statements added 2026-09-25 across modules 02–07 (two new module 07 moments); logged as post-approval changes awaiting Dr. Hannah-Shmouni's confirmation; EU not in scope",
             "primary citations per module before authoring (guides are single-author secondary sources)",
             "tier-1 brief still 7/8 open on the intake portal (audience, outcomes, boundaries, locales, delivery)",
         ],

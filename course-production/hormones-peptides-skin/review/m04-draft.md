@@ -1,6 +1,6 @@
 # Hormones and Peptides for Skin · Module 04 — review draft
 
-*approved · authored 2026-09-24 · 19 moments, ~26 min + module check · 49 sources · 20 claims*
+*approved · authored 2026-09-24 · 19 moments, ~26 min + module check · 61 sources · 24 claims*
 
 Every factual sentence traces to the graded registry (`citations/m04.md`). Moments marked **By role** carry the prescriber · clinical staff · advisor versions of the practice guidance; grades and regulatory facts never change by role.
 
@@ -63,34 +63,34 @@ Every peptide question has four separate answers. For GHK-Cu they point in diffe
 |---|---|---|
 | Mechanism | Plausible | Copper delivery to matrix and antioxidant enzymes; gene-expression data from the originator |
 | Human evidence | Topical: GRADE C · Injectable: none | One small indexed RCT and sponsor-run cosmetic trials; no randomized trials of injection |
-| Regulatory status (US, 14 May 2026) | Non-injectable: 503A Category 1 | Category 1 means FDA is still evaluating and does not intend to act against compounders who meet its conditions; an advisory-committee consultation is planned before the end of February 2027. The injectable route has no such standing. |
+| Regulatory status (US, 14 May 2026; UK, September 2026) | Non-injectable: 503A Category 1 | Category 1 means FDA is still evaluating and does not intend to act against compounders who meet its conditions; an advisory-committee consultation is planned before the end of February 2027. The injectable route has no such standing. In the UK, a GHK-Cu serum sold for appearance is a cosmetic, and cosmetics law excludes anything injected. |
 | Open question | Does it reach the dermis? | Penetration data are in vitro and depend on how they are measured |
 
 **Callout:** A strong mechanism is not a strong trial, and a Category 1 listing is not an approval.
 
-<sub>Sources: Pickart L 2015 · Miller TR 2006 · Hostynek JJ 2010 · Ogórek K 2025 · US Food and Drug Administration 2026 · US Food and Drug Administration 2026 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · Mazurowska L 2008</sub>
+<sub>Sources: Pickart L 2015 · Miller TR 2006 · Hostynek JJ 2010 · Ogórek K 2025 · US Food and Drug Administration 2026 · US Food and Drug Administration 2026 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · Mazurowska L 2008 · Cosmetic Products Regulation 1223/2009 (Great Britain 2009 · Medicines and Healthcare products Regulatory Agency (UK) 2025</sub>
 
 ### 06 / 19 · Serum yes, syringe no.  
 *What changes in practice · audio*
 
-Topical GHK-Cu is a reasonable cosmetic conversation at GRADE C. Injected GHK-Cu is a different product: no randomized trials, injection-site pain and rash are common because copper irritates tissue, and in the US the injectable route sits outside the Category 1 listing.
+Topical GHK-Cu is a reasonable cosmetic conversation at GRADE C. Injected GHK-Cu is a different product: no randomized trials, injection-site pain and rash are common because copper irritates tissue, and in the US the injectable route sits outside the Category 1 listing. In the UK, anything injected falls outside cosmetics law, and MHRA decides whether it is a medicine from its claims, form and use.
 
 - Topical: modest, small-trial support
 - Injectable: anecdote, common local reactions
 - Say which route you mean every time
 
 **By role**
-- *Prescriber:* Before prescribing a compounded topical, confirm the substance's current 503A status and that the pharmacy is working within it. Do not prescribe GHK-Cu for injection. Record that you discussed a product with small-trial evidence and the patient's reasons for choosing it.
+- *Prescriber:* In the US, before prescribing a compounded topical, confirm the substance's current 503A status and that the pharmacy is working within it; in the UK, a GHK-Cu serum presented for appearance is a cosmetic, so there is nothing to prescribe. Do not prescribe GHK-Cu for injection. Record that you discussed a product with small-trial evidence and the patient's reasons for choosing it.
 - *Clinical staff:* If a patient tells you they inject GHK-Cu, record the product, where it was bought and any site reactions, and bring it to the prescriber. Do not advise on amounts or technique.
 - *Advisor:* Describe topical GHK-Cu products as cosmetics with modest, small-trial support. Anyone injecting a copper peptide should be pointed to a prescriber, not to a better supplier.
 
 <details><summary>Narration script</summary>
 
-Here is what that means in the room. Topical GHK-Cu is a reasonable cosmetic conversation, as long as you describe the evidence honestly: small trials, modest effects, grade C. Injected GHK-Cu is not the same product in a stronger form. There are no randomized trials of injection, injection-site pain and rash are common because copper irritates tissue, and in the United States the injectable route sits outside the Category 1 listing that covers non-injectable use. Whatever your role, name the route every time you talk about this peptide.
+Here is what that means in the room. Topical GHK-Cu is a reasonable cosmetic conversation, as long as you describe the evidence honestly: small trials, modest effects, grade C. Injected GHK-Cu is not the same product in a stronger form. There are no randomized trials of injection, injection-site pain and rash are common because copper irritates tissue, and in the United States the injectable route sits outside the Category 1 listing that covers non-injectable use. In the United Kingdom, anything injected falls outside cosmetics law, and MHRA decides whether such a product is a medicine. Whatever your role, name the route every time you talk about this peptide.
 
 </details>
 
-<sub>Sources: The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · Li H 2016 · US Food and Drug Administration 2026</sub>
+<sub>Sources: The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · Li H 2016 · US Food and Drug Administration 2026 · Cosmetic Products Regulation 1223/2009 (Great Britain 2009 · Medicines and Healthcare products Regulatory Agency (UK) 2025</sub>
 
 ### 07 / 19 · Is the injection 'stronger'?  
 *Your turn · quiz*
@@ -160,7 +160,7 @@ Pooled, oral collagen trials show better hydration, elasticity and wrinkle score
 ### 11 / 19 · Cosmetic, supplement, drug: three rulebooks.  
 *What changes in practice · audio*
 
-In the US, cosmetic peptides are cosmetic ingredients, not drugs, and their safety is assessed under a cosmetics framework. Oral collagen is a dietary supplement: it may not claim to treat disease, and product quality and content vary. Neither route has to prove efficacy before sale — which is why the funding question matters.
+In the US, cosmetic peptides are cosmetic ingredients, not drugs, and their safety is assessed under a cosmetics framework. Oral collagen is a dietary supplement: it may not claim to treat disease, and product quality and content vary. Neither route has to prove efficacy before sale — which is why the funding question matters. In the UK, a peptide serum is a cosmetic: its responsible person needs a safety assessment and must notify the regulator before sale, and must be able to prove its claims. Oral collagen is a food supplement: no food may claim to prevent, treat or cure disease, and only authorised health claims may be used. In May 2026 the UK advertising regulator ruled a peptide serum's 'clinically proven' lifting claim misleading because the study behind it was small and uncontrolled.
 
 - Cosmetic ingredient: no efficacy approval needed
 - Dietary supplement: no disease claims; quality varies
@@ -173,11 +173,11 @@ In the US, cosmetic peptides are cosmetic ingredients, not drugs, and their safe
 
 <details><summary>Narration script</summary>
 
-Now the regulatory register, stated for the United States. Cosmetic peptides are cosmetic ingredients, not drugs; their safety is assessed under a cosmetics framework, and nobody has to prove they work before they are sold. Oral collagen is sold as a dietary supplement, so it cannot claim to treat a disease, and what is in the tub varies from brand to brand. That is the whole reason the funding question matters here. When no regulator asks for efficacy, the only efficacy data are the trials someone chose to pay for. UK and EU rules are being mapped for this course and will be added.
+Now the regulatory register, stated for the United States. Cosmetic peptides are cosmetic ingredients, not drugs; their safety is assessed under a cosmetics framework, and nobody has to prove they work before they are sold. Oral collagen is sold as a dietary supplement, so it cannot claim to treat a disease, and what is in the tub varies from brand to brand. That is the whole reason the funding question matters here. When no regulator asks for efficacy, the only efficacy data are the trials someone chose to pay for. The United Kingdom works the same way in outline. A peptide serum is a cosmetic, and its responsible person must hold a safety assessment and evidence for its claims before it goes on sale. Oral collagen is a food supplement, and no food may claim to prevent, treat or cure a disease. In May 2026 the UK advertising regulator ruled against a serum's clinically proven lifting claim, built on a small study with no control group.
 
 </details>
 
-<sub>Sources: Bjerke DL 2026 · Lupo MP 2007 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026</sub>
+<sub>Sources: Bjerke DL 2026 · Lupo MP 2007 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Cosmetic Products Regulation 1223/2009 (Great Britain 2009 · Cosmetic Products Regulation 1223/2009 (Great Britain 2009 · Office for Product Safety and Standards / Department for Business and Trade 2021 · Food Supplements (England) Regulations 2003 2003 · Food Information to Consumers Regulation 1169/2011 (UK 2011 · Nutrition and Health Claims Regulation 1924/2006 (UK 2006 · Medicines and Healthcare products Regulatory Agency (UK) 2025 · Advertising Standards Authority 2026</sub>
 
 ### 12 / 19 · 'Clinically proven' collagen.  
 *Your turn · quiz*
@@ -239,7 +239,7 @@ LL-37, the skin's own cathelicidin, is the one repair peptide with two randomize
 ### 16 / 19 · Where does it stand in the US?  
 *Regulatory status · tool*
 
-Three US categories, dated to the FDA's category list of 14 May 2026 and the advisory-committee meeting of 23–24 July 2026. The committee's votes are advice; FDA must still act through rulemaking before anything joins the bulks list. FDA has sent warning letters naming GHK-Cu and BPC-157 on exactly this basis.
+Three US categories, dated to the FDA's category list of 14 May 2026 and the advisory-committee meeting of 23–24 July 2026. The committee's votes are advice; FDA must still act through rulemaking before anything joins the bulks list. FDA has sent warning letters naming GHK-Cu and BPC-157 on exactly this basis. If you practise in the UK, the route for unlicensed medicines works differently, and lesson 7.2 sets it out.
 
 | | | |
 |---|---|---|
@@ -257,7 +257,7 @@ Three US categories, dated to the FDA's category list of 14 May 2026 and the adv
 - BPC-157 for injection → **Not on the bulks list** — *Reviewed by the advisory committee in July 2026; not on the bulks list unless and until FDA acts by rulemaking.*
 - TB-500 → **Not on the bulks list** — *Same position as BPC-157 after the July 2026 review.*
 
-<sub>Sources: US Food and Drug Administration 2026 · US Food and Drug Administration 2026 · US Food and Drug Administration 2026 · US Food and Drug Administration 2026 · US Food and Drug Administration 2020 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
+<sub>Sources: US Food and Drug Administration 2026 · US Food and Drug Administration 2026 · US Food and Drug Administration 2026 · US Food and Drug Administration 2026 · US Food and Drug Administration 2020 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · Medicines and Healthcare products Regulatory Agency (UK) 2023</sub>
 
 ### 17 / 19 · New dark patches, three months into 'GLOW'.  
 *Fictional case · audio*
@@ -307,7 +307,7 @@ One question to close lesson 4.3.
 Build the checklist you will actually use. It is saved to your path and your tutor will bring it back.
 
 **Exercise (chips) · Your peptide checklist** — Tap everything you will do. Choose as many as you like.
-*Before my next peptide conversation I will …* name the route and the evidence grade · ask who funded the trial behind the claim · ask exactly what was bought and from where · check its current status on the live FDA list · document what I advised and why · send injected or research-use-only products to a prescriber
+*Before my next peptide conversation I will …* name the route and the evidence grade · ask who funded the trial behind the claim · ask exactly what was bought and from where · check its current status with my regulator (FDA lists in the US, MHRA in the UK) · document what I advised and why · send injected or research-use-only products to a prescriber
 
 **By role**
 - *Prescriber:* Your checklist ends with documentation: the investigational nature, the grade you quoted, and the patient's consent.
@@ -338,3 +338,5 @@ Build the checklist you will actually use. It is saved to your path and your tut
 10. Not in either guide, worth adding — Miller 2006 (the one indexed RCT of topical GHK-Cu), Aruan 2023 (independent RCT, Argireline vs pal-KTTKS), Esposito 2012 (TB-500 characterized as the Tβ4 17–23 fragment), the two 2026 BPC-157 trial registrations, and the two independent 2025–26 BPC-157 reviews.
 11. Trial-registry integrity (2026-09-24): ClinicalTrials.gov sponsor 'Hudson Biotech' lists eight 'recruiting' records covering BPC-157, TB-500, MOTS-c, GHK-Cu, Melanotan II, tesamorelin, tirzepatide ('SURMOUNT-1', Lilly's published trial title) and LY3437943, including one titled '(Mock Study)'. The course no longer cites any of them. Recommend neither Hormonaly guide cite registrations from this sponsor, and that the foundry's source check flag registrations whose sponsor holds mock or duplicated records.
 12. Leuphasyl (2026-09-24, from the claim-support check): an independent university volunteer study exists (Dragomirescu 2014, Cosmetics, not PubMed-indexed; three concentrations, wrinkle imaging, no randomized control described). The course now says 'no randomized controlled trial' instead of 'no independent human trial'; the grade stays D. Worth adding to the Pocket Guide's Leuphasyl entry.
+13. UK status (2026-09-25) — neither guide covers UK cosmetics or food law. For a UK reader: peptide serums are cosmetics under the assimilated Cosmetic Products Regulation 1223/2009 (Responsible Person, safety assessment, OPSS notification, claims that must be substantiated; anything injected is not a cosmetic, art 2(2)); oral collagen is a food supplement (Food Supplements (England) Regulations 2003; no disease claims, FIC art 7(3); only authorised health claims, Regulation 1924/2006 art 10). The ASA's 13 May 2026 ruling against a peptide serum's 'clinically proven' 20% lift claim (30 participants, no control) illustrates the guides' own sponsorship point.
+14. Oral collagen, UK health claims (2026-09-25) — the Great Britain nutrition and health claims register (DHSC, 19 May 2026) lists collagen skin claims as non-authorised (e.g. 'helps the skin to preserve its firmness and elasticity', and the proprietary VeriSol P claim on skin elasticity and wrinkles), while 'vitamin C contributes to normal collagen formation for the normal function of skin' is authorised — which is why many collagen products add vitamin C. Worth adding to the guides' oral-collagen entry. The course does not state it yet: the register is published only as a spreadsheet, which the automated source check cannot read.

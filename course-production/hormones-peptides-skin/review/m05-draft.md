@@ -1,6 +1,6 @@
 # Hormones and Peptides for Skin · Module 05 — review draft
 
-*approved · authored 2026-09-24 · 19 moments, ~26 min + module check · 34 sources · 20 claims*
+*approved · authored 2026-09-24 · 19 moments, ~26 min + module check · 41 sources · 25 claims*
 
 Every factual sentence traces to the graded registry (`citations/m05.md`). Moments marked **By role** carry the prescriber · clinical staff · advisor versions of the practice guidance; grades and regulatory facts never change by role.
 
@@ -36,13 +36,13 @@ Each hair follicle behaves like a small gland. When researchers keep human scalp
 ### 03 / 19 · Two trials, 1,200 adults, one approval.  
 *Human evidence · stat*
 
-When immune privilege fails, the attack depends on cytokine signals that JAK inhibitors interrupt. Two randomized phase 3 trials tested oral baricitinib in 1,200 adults with severe alopecia areata. In the US, FDA approved baricitinib for adults with severe alopecia areata on 13 June 2022. The Aesthetic & Regenerative Endocrinology guide grades it A.
+When immune privilege fails, the attack depends on cytokine signals that JAK inhibitors interrupt. Two randomized phase 3 trials tested oral baricitinib in 1,200 adults with severe alopecia areata. In the US, FDA approved baricitinib for adults with severe alopecia areata on 13 June 2022. The Aesthetic & Regenerative Endocrinology guide grades it A. In the UK, baricitinib is licensed for severe alopecia areata in adults, and NICE did not recommend it for NHS use in October 2023, on cost-effectiveness.
 
 **1,200** — adults with severe alopecia areata in the two phase 3 trials of baricitinib (2022) (At 36 weeks, up to 39% of patients on baricitinib had at least 80% of their scalp hair, against 3–6% on placebo)  
 *Means:* Interrupting the immune signalling behind collapsed privilege regrows hair in severe alopecia areata. That is approval-grade evidence (A), and it shows what real follicle evidence looks like.  
 *Does not mean:* It says nothing about pattern hair loss, cosmetic thinning or any peptide. Both trials were funded by the manufacturer, and the authors called for longer trials.
 
-<sub>Sources: King B 2022 · US Food and Drug Administration 2022 · Bertolini M 2020 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
+<sub>Sources: King B 2022 · US Food and Drug Administration 2022 · Bertolini M 2020 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · Eli Lilly Nederland B.V. (marketing authorisation holder) 2024 · National Institute for Health and Care Excellence 2023</sub>
 
 ### 04 / 19 · Four questions before any product.  
 *Worked tool · tool*
@@ -72,24 +72,24 @@ The Aesthetic & Regenerative Endocrinology guide's first-pass hair-loss workup a
 ### 05 / 19 · Work up the hair loss before anyone mentions a peptide.  
 *What changes in practice · audio*
 
-Pattern, trigger, patches and androgens decide the treatment. Pooled randomized trials support topical minoxidil in men and women and finasteride in men. In the US, as of September 2026, topical minoxidil is FDA-approved and sold over the counter, finasteride for pattern hair loss is a prescription drug, and baricitinib is approved for adults with severe alopecia areata.
+Pattern, trigger, patches and androgens decide the treatment. Pooled randomized trials support topical minoxidil in men and women and finasteride in men. In the US, as of September 2026, topical minoxidil is FDA-approved and sold over the counter, finasteride for pattern hair loss is a prescription drug, and baricitinib is approved for adults with severe alopecia areata. In the UK, topical minoxidil is licensed and a men's foam is on general sale, finasteride for hair loss is available only on private prescription, and baricitinib is licensed for severe alopecia areata in adults. In May 2026 MHRA strengthened its warnings that finasteride is associated with depression, suicidal thoughts and sexual dysfunction that may persist after stopping.
 
 - Workup first: ferritin and TSH in everyone
 - Approved options exist, with A-grade evidence
 - Severe or fast-spreading alopecia areata goes to dermatology
 
 **By role**
-- *Prescriber:* Complete the workup and record the pattern before prescribing. Offer the approved options with their grades, refer severe or rapidly progressive alopecia areata, and document any investigational product the patient raises and what you advised.
+- *Prescriber:* Complete the workup and record the pattern before prescribing. Offer the approved options with their grades, refer severe or rapidly progressive alopecia areata, and document any investigational product the patient raises and what you advised. In the UK, before prescribing finasteride, ask about any history of depression, give the patient card, and review mood and sexual side effects.
 - *Clinical staff:* Note the pattern, the timeline and any recent trigger, photograph the scalp with consent if your setting allows, and pass it to the prescriber. Patchy or fast-spreading loss needs prompt escalation.
 - *Advisor:* Explain what the approved options are and what their evidence shows. A patient with new, patchy, scarring or fast-spreading hair loss needs a prescriber before any product.
 
 <details><summary>Narration script</summary>
 
-Most requests for a hair peptide skip the diagnosis. Start with the pattern, ask about a trigger, look for patches and nail pitting, and look for signs of androgen excess. Check ferritin and thyroid function every time, and send a scarring pattern for biopsy. The approved options already carry strong evidence. Pooled randomized trials support topical minoxidil in men and women and finasteride in men. In the United States minoxidil is sold over the counter, while finasteride for hair loss needs a prescription. Severe or fast-spreading alopecia areata belongs with a dermatologist, where a JAK inhibitor is an approved option for adults. Whatever your role, the workup comes before the product.
+Most requests for a hair peptide skip the diagnosis. Start with the pattern, ask about a trigger, look for patches and nail pitting, and look for signs of androgen excess. Check ferritin and thyroid function every time, and send a scarring pattern for biopsy. The approved options already carry strong evidence. Pooled randomized trials support topical minoxidil in men and women and finasteride in men. In the United States minoxidil is sold over the counter, while finasteride for hair loss needs a prescription. In the United Kingdom a men's minoxidil foam is on general sale, finasteride for hair loss is available only on private prescription, and in May 2026 MHRA strengthened its warnings about depression, suicidal thoughts and sexual side effects. Severe or fast-spreading alopecia areata belongs with a dermatologist, where a JAK inhibitor is an approved option for adults. Whatever your role, the workup comes before the product.
 
 </details>
 
-<sub>Sources: Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · Adil A 2017 · US Food and Drug Administration 1988 · US Food and Drug Administration 1997 · US Food and Drug Administration 2022</sub>
+<sub>Sources: Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · Adil A 2017 · US Food and Drug Administration 1988 · US Food and Drug Administration 1997 · US Food and Drug Administration 2022 · McNeil Products Limited (marketing authorisation holder) 2026 · Organon Pharma (UK) Limited (marketing authorisation holder) 2026 · Medicines and Healthcare products Regulatory Agency (UK) 2026 · Eli Lilly Nederland B.V. (marketing authorisation holder) 2024</sub>
 
 ### 06 / 19 · Shedding after the baby.  
 *Your turn · quiz*
@@ -130,12 +130,12 @@ Afamelanotide and Melanotan II are both synthetic relatives of α-MSH. Compare t
 |---|---|---|
 | Mechanism | Afamelanotide: MC1R agonist · Melanotan II: non-selective | Melanotan II also acts on MC3R, MC4R and MC5R and reaches the brain |
 | Human evidence | Afamelanotide: A, for EPP only · Melanotan II: D | Two phase 3 trials in erythropoietic protoporphyria, against a three-volunteer pilot and a ten-man erectile-dysfunction study from the 1990s. The Peptide Pocket Guide rates Melanotan II C and the Aesthetic & Regenerative Endocrinology guide D; with no trial of tanning, this course uses D. |
-| Regulatory status | Afamelanotide: EU 2014, US 2019 · Melanotan II: none | Afamelanotide is approved only for EPP, as the manufacturer's implant. Melanotan II is approved for no indication anywhere. |
+| Regulatory status | Afamelanotide: EU 2014, US 2019, UK licensed · Melanotan II: none | Afamelanotide is approved only for EPP, as the manufacturer's implant. Melanotan II is approved for no indication anywhere. In the UK, afamelanotide is licensed under exceptional circumstances and prescribed only in specialist porphyria centres, and NICE did not recommend it for NHS use (July 2023). |
 | Open question | Uses beyond EPP; melanoma risk | A phase 3 trial of afamelanotide in vitiligo began in 2023 and has posted no results. Whether Melanotan II causes melanoma is unproven. |
 
 **Callout:** A shared receptor does not bring a shared approval.
 
-<sub>Sources: Langendonk JG 2015 · European Medicines Agency 2014 · US Food and Drug Administration / Clinuvel Inc. 2024 · Dorr RT 1996 · Wessells H 1998 · Böhm M 2025 · Clinuvel 2023 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
+<sub>Sources: Langendonk JG 2015 · European Medicines Agency 2014 · US Food and Drug Administration / Clinuvel Inc. 2024 · Dorr RT 1996 · Wessells H 1998 · Böhm M 2025 · Clinuvel 2023 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · National Institute for Health and Care Excellence 2023</sub>
 
 ### 09 / 19 · Sixty-nine hours against forty-one.  
 *The evidence · stat*
@@ -200,7 +200,7 @@ Her booking says skin quality. This patient is fictional, built from the lesson'
 ### 12 / 19 · Three regulators, one answer.  
 *Regulatory status · tool*
 
-Each statement below is dated, because regulatory status changes. None of the three regulators has approved Melanotan II, and each has put its concerns on the record. UK and EU mapping for the rest of this course is still in progress.
+Each statement below is dated, because regulatory status changes. None of the three regulators has approved Melanotan II, and each has put its concerns on the record. EU status is not covered in this course.
 
 | | | |
 |---|---|---|
@@ -282,24 +282,24 @@ Five things patients use or ask about for hair, with what each is claimed to do.
 ### 17 / 19 · When the request is a compounded hair spray.  
 *What changes in practice · audio*
 
-In the US, on FDA's category lists of 14 May 2026, thymulin acetate sits in Category 3: nominated without enough information to evaluate, and outside the enforcement discretion that Category 1 carries. PTD-DBM appears on none of the three lists, and neither substance is on the 503A bulks list. Both carry grade D evidence. The useful conversation names the grade, returns to the workup and describes the approved options.
+In the US, on FDA's category lists of 14 May 2026, thymulin acetate sits in Category 3: nominated without enough information to evaluate, and outside the enforcement discretion that Category 1 carries. PTD-DBM appears on none of the three lists, and neither substance is on the 503A bulks list. Both carry grade D evidence. In the UK, a spray made up for one patient would be an unlicensed 'special', and MHRA guidance says an unlicensed product should not be used where a UK-licensed one, such as minoxidil, could meet the patient's need. The useful conversation names the grade, returns to the workup and describes the approved options.
 
 - Thymulin acetate: 503A Category 3 (US, May 2026)
 - PTD-DBM: on no FDA 503A list
 - Grade D for both: say so, then return to the workup
 
 **By role**
-- *Prescriber:* Check a substance's current 503A status before any compounding conversation; neither peptide has Category 1 standing today. If a patient already uses one, record the product, the source and the grade you quoted, and offer the workup and the approved options.
+- *Prescriber:* Check a substance's current 503A status before any compounding conversation; neither peptide has Category 1 standing today. If a patient already uses one, record the product, the source and the grade you quoted, and offer the workup and the approved options. In the UK, a special needs a clinical need that the licensed options cannot meet; cost and convenience do not count.
 - *Clinical staff:* If a patient mentions a peptide hair spray, note the product, where it came from and any scalp irritation, and pass it to the prescriber. When asked whether it works, keep to what the evidence shows.
 - *Advisor:* Describe PTD-DBM and zinc thymulin as research-stage, with no human trials. Point a patient with hair loss to a prescriber for the workup rather than to a product.
 
 <details><summary>Narration script</summary>
 
-Stated for the United States, the regulatory picture is short. On FDA's category lists of the fourteenth of May, twenty twenty-six, thymulin acetate sits in Category 3, meaning it was nominated without enough information for FDA to evaluate, and it falls outside the enforcement discretion that Category 1 substances receive. PTD-DBM appears on none of the three lists. Neither substance is on the 503A bulks list itself. The evidence grade for both is D. So when a patient asks for a compounded hair spray, give the grade plainly, go back to the diagnosis, and describe the approved options and what they can offer. Mapping of UK and EU status for these two peptides is still under way.
+Stated for the United States, the regulatory picture is short. On FDA's category lists of the fourteenth of May, twenty twenty-six, thymulin acetate sits in Category 3, meaning it was nominated without enough information for FDA to evaluate, and it falls outside the enforcement discretion that Category 1 substances receive. PTD-DBM appears on none of the three lists. Neither substance is on the 503A bulks list itself. The evidence grade for both is D. So when a patient asks for a compounded hair spray, give the grade plainly, go back to the diagnosis, and describe the approved options and what they can offer. In the United Kingdom, a spray made up for one patient would be an unlicensed special, and MHRA guidance puts any licensed product that could meet the need, minoxidil included, ahead of it.
 
 </details>
 
-<sub>Sources: US Food and Drug Administration 2026 · US Food and Drug Administration 2026 · US Code of Federal Regulations (eCFR) 2019 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Adil A 2017</sub>
+<sub>Sources: US Food and Drug Administration 2026 · US Food and Drug Administration 2026 · US Code of Federal Regulations (eCFR) 2019 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Adil A 2017 · Medicines and Healthcare products Regulatory Agency (UK) 2023 · McNeil Products Limited (marketing authorisation holder) 2026</sub>
 
 ### 18 / 19 · 'The new minoxidil'?  
 *Your turn · quiz*
@@ -345,3 +345,4 @@ Build the checklist you will actually use. It is saved to your path and your tut
 7. A&RE hair-loss workup algorithm (p.93) is a figure with no extractable text; the course transcribed it from the rendered page (patterned thinning → AGA; diffuse shed after trigger → telogen effluvium; patchy smooth loss → alopecia areata; androgen excess → hyperandrogenism work-up; always ferritin and TSH, androgens if virilising, scarring → biopsy). Please confirm the transcription.
 8. Not in either guide, worth adding — Adil & Godwin 2017 (RCT meta-analysis for minoxidil and finasteride), Böhm 2025 (MC1R activation review: approved agonists, at least five melanomas with Melanotan II all with other risk factors, skin examination in high-risk people), Laiho & Murray 2022 (receptor map, open access), Breindahl 2015 and Mang 2012 (dermoscopic changes during Melanotan II use).
 9. Trial-registry caution — ClinicalTrials.gov records from the sponsor 'Hudson Biotech' include NCT07437560 (Melanotan II with NB-UVB for vitiligo, 'recruiting' since Feb 2026), whose summary begins 'This example interventional study record describes…', and NCT07481734, titled '(Mock Study)'. The same sponsor holds NCT07437586 (GHK-Cu wound gel) and NCT07437547 (BPC-157 hamstring), which module 04 cites as recruiting trials; they should be re-verified before either guide cites them as real trials. The course does not cite NCT07437560.
+10. UK status (2026-09-25) — worth adding to both guides' hair and melanocortin entries: baricitinib is licensed in the UK for severe alopecia areata but NICE did not recommend it for NHS use (TA926, Oct 2023; ritlecitinib, TA958, is recommended from age 12 and is not taught here); afamelanotide holds a UK licence under exceptional circumstances for specialist porphyria centres, and NICE did not recommend it (HST27, Jul 2023); finasteride 1 mg is a private prescription in the UK, and MHRA strengthened its psychiatric and sexual-dysfunction warnings on 11 May 2026 (patient card since 2024). A men's minoxidil foam is on the General Sales List.

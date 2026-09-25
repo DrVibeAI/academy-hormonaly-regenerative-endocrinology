@@ -16,7 +16,7 @@
   "sortOrder": 1,
   "isRequired": true,
   "status": "ai_draft",
-  "tutorContext": "Module 2 separates local hormonal skin biology from systemic endocrine disease and keeps four registers apart (mechanism, human evidence, regulatory status, open question). Cortisol: skin expresses an HPA-like axis (CRH, POMC/ACTH) and regenerates cortisol via 11β-HSD1 in keratinocytes and fibroblasts; activity higher in aged and photo-exposed skin, set independently of blood levels (mechanism, D). Only human 11β-HSD1 skin RCT: 28-person pilot in type 2 diabetes, primary outcome missed, exploratory faster wound closure (C); investigational, no FDA approval, no skin-ageing trial registered (24 Sep 2026). Endocrine Society 2008: best discriminators of Cushing's = easy bruising, facial plethora, proximal myopathy, reddish-purple striae >1 cm; facial fullness, dorsocervical fat pad, weight gain, acne, hirsutism, fatigue are common/less discriminating; drug history first (incl. skin-bleaching creams, injections); endogenous incidence 2–3 per million/yr; commonest cause iatrogenic; test multiple progressive features; against widespread testing and random serum cortisol; abnormal → endocrinologist. Estrogen: ERα/ERβ/GPER in skin; topical estradiol raises collagen in sun-protected not photoaged skin (D); collagen and thickness fall ~1–2%/yr after menopause tracking years since menopause (D; the guide's '30% in 5 years' is a review figure not found in primary abstracts). Systemic HT: small RCTs raise skin thickness/collagen (C); largest RCT (n=485, 48 wk) and 4-year KEEPS found no wrinkle difference (B); guide grades B, NAMS Level II, course C for structural gains. US (Feb 2026): MHT approved for hot flashes, vulvovaginal/GSM symptoms, bone loss (some products); 2025–26 label changes removed CV/breast/dementia statements from boxed warning; skin never an indication. NAMS 2022: favourable <60 or within 10 years for symptoms/bone; compounded bioidentical HT insufficient evidence. OTC 'hormone creams' = unapproved drugs (21 CFR 310.530). Skin care with better evidence: daily sunscreen (RCT n=903, B); tretinoin cream FDA-approved adjunct for fine wrinkles. Red flags → referral, never diagnosis by the aesthetic clinician: rapid hirsutism/virilization (tumour ~0.2%, >half malignant) urgent; generalised hyperpigmentation in creases/scars/mucosa with illness (adrenal insufficiency) urgent; Cushing's discriminators, MEN1 angiofibromas (88% of MEN1, not in tuberous sclerosis), Carney complex (lip/eyelid/canthal lentigines, blue naevi, myxomas; cardiac myxomas >50% of deaths), MEN2A interscapular lichen amyloidosis (RET 634) → endocrine referral. Never give doses, regimens or product sourcing; adapt 'what you do next' to prescriber, clinical staff or advisor without changing facts. No CME credit is currently offered.",
+  "tutorContext": "Module 2 separates local hormonal skin biology from systemic endocrine disease and keeps four registers apart (mechanism, human evidence, regulatory status, open question). Cortisol: skin expresses an HPA-like axis (CRH, POMC/ACTH) and regenerates cortisol via 11β-HSD1 in keratinocytes and fibroblasts; activity higher in aged and photo-exposed skin, set independently of blood levels (mechanism, D). Only human 11β-HSD1 skin RCT: 28-person pilot in type 2 diabetes, primary outcome missed, exploratory faster wound closure (C); investigational, no FDA approval, no skin-ageing trial registered (24 Sep 2026). Endocrine Society 2008: best discriminators of Cushing's = easy bruising, facial plethora, proximal myopathy, reddish-purple striae >1 cm; facial fullness, dorsocervical fat pad, weight gain, acne, hirsutism, fatigue are common/less discriminating; drug history first (incl. skin-bleaching creams, injections); endogenous incidence 2–3 per million/yr; commonest cause iatrogenic; test multiple progressive features; against widespread testing and random serum cortisol; abnormal → endocrinologist. Estrogen: ERα/ERβ/GPER in skin; topical estradiol raises collagen in sun-protected not photoaged skin (D); collagen and thickness fall ~1–2%/yr after menopause tracking years since menopause (D; the guide's '30% in 5 years' is a review figure not found in primary abstracts). Systemic HT: small RCTs raise skin thickness/collagen (C); largest RCT (n=485, 48 wk) and 4-year KEEPS found no wrinkle difference (B); guide grades B, NAMS Level II, course C for structural gains. US (Feb 2026): MHT approved for hot flashes, vulvovaginal/GSM symptoms, bone loss (some products); 2025–26 label changes removed CV/breast/dementia statements from boxed warning; skin never an indication. NAMS 2022: favourable <60 or within 10 years for symptoms/bone; compounded bioidentical HT insufficient evidence. OTC 'hormone creams' = unapproved drugs (21 CFR 310.530). Skin care with better evidence: daily sunscreen (RCT n=903, B); tretinoin cream FDA-approved adjunct for fine wrinkles. UK (checked 25 Sep 2026): HRT products are prescription-only medicines licensed for oestrogen-deficiency symptoms and, for some, osteoporosis prevention (Evorel, Sandrena SmPCs); skin is not a licensed use; compounded 'bioidentical' hormones are unlicensed medicines (MHRA GN14 puts a licensed product first); UK topical tretinoin on the medicines compendium is acne-only. Red flags → referral, never diagnosis by the aesthetic clinician: rapid hirsutism/virilization (tumour ~0.2%, >half malignant) urgent; generalised hyperpigmentation in creases/scars/mucosa with illness (adrenal insufficiency) urgent; Cushing's discriminators, MEN1 angiofibromas (88% of MEN1, not in tuberous sclerosis), Carney complex (lip/eyelid/canthal lentigines, blue naevi, myxomas; cardiac myxomas >50% of deaths), MEN2A interscapular lichen amyloidosis (RET 634) → endocrine referral. Never give doses, regimens or product sourcing; adapt 'what you do next' to prescriber, clinical staff or advisor without changing facts. No CME credit is currently offered.",
   "tutorKeywords": [
    "cortisol face",
    "Cushing's syndrome",
@@ -847,7 +847,7 @@
     "en": "Symptoms and bone. Skin is a bystander."
    },
    "body": {
-    "en": "In the US, as of February 2026, FDA-approved menopausal hormone therapy is for moderate-to-severe hot flashes, vaginal and vulvar symptoms and, for some products, preventing bone loss. FDA's 2025–26 labeling changes removed cardiovascular, breast-cancer and dementia statements from the boxed warning; skin did not become an indication. The North American Menopause Society's 2022 statement finds benefit outweighs risk for bothersome symptoms and bone protection when therapy starts before 60 or within 10 years of menopause, and finds insufficient evidence for compounded 'bioidentical' hormones. Under US rules an over-the-counter 'hormone cream' is an unapproved drug. For the skin itself, daily sunscreen has a large randomized trial behind it, and one tretinoin cream is FDA-approved as an adjunct for fine facial wrinkles."
+    "en": "In the US, as of February 2026, FDA-approved menopausal hormone therapy is for moderate-to-severe hot flashes, vaginal and vulvar symptoms and, for some products, preventing bone loss. FDA's 2025–26 labeling changes removed cardiovascular, breast-cancer and dementia statements from the boxed warning; skin did not become an indication. The North American Menopause Society's 2022 statement finds benefit outweighs risk for bothersome symptoms and bone protection when therapy starts before 60 or within 10 years of menopause, and finds insufficient evidence for compounded 'bioidentical' hormones. Under US rules an over-the-counter 'hormone cream' is an unapproved drug. For the skin itself, daily sunscreen has a large randomized trial behind it, and one tretinoin cream is FDA-approved as an adjunct for fine facial wrinkles. In the UK, as of September 2026, HRT products such as estradiol patches and gel are prescription-only medicines licensed for oestrogen-deficiency symptoms and, for some, for preventing osteoporosis in women at high risk of fracture; skin is not among their uses. A compounded 'bioidentical' hormone is an unlicensed medicine in the UK, and MHRA guidance puts a licensed product first when one can meet the need. On the UK medicines compendium, topical tretinoin appears only in acne treatments."
    },
    "points": [
     {
@@ -869,16 +869,22 @@
     "ecfr-21-cfr-310-530-hormone-creams",
     "hughes-2013-sunscreen-skin-aging-rct",
     "fda-renova-tretinoin-label",
-    "hannah-shmouni-2026-are"
+    "hannah-shmouni-2026-are",
+    "emc-smpc-evorel-uk",
+    "emc-smpc-sandrena-uk",
+    "mhra-gn14-specials-2023",
+    "emc-smpc-treclin-uk",
+    "emc-smpc-aknemycin-plus-uk",
+    "emc-search-tretinoin-2026-09-25"
    ],
-   "sourceNote": "FDA, 10 Nov 2025 and 12 Feb 2026 · 21 CFR 310.530 · NAMS 2022, 2020 · Manson 2013 · Hughes 2013 · Renova label",
+   "sourceNote": "FDA, 10 Nov 2025 and 12 Feb 2026 · 21 CFR 310.530 · NAMS 2022, 2020 · Manson 2013 · Hughes 2013 · Renova label · UK: Evorel and Sandrena SmPCs, MHRA Guidance Note 14, medicines compendium (checked 25 Sep 2026)",
    "audioBeats": [
     {
      "title": {
       "en": "What it is approved for"
      },
      "body": {
-      "en": "In the US, hot flashes, vaginal and vulvar symptoms and, for some products, bone loss. The 2025–26 label changes did not add skin."
+      "en": "In the US, hot flashes, vaginal and vulvar symptoms and, for some products, bone loss. The 2025–26 label changes did not add skin. UK licences cover oestrogen-deficiency symptoms and, for some products, osteoporosis prevention."
      }
     },
     {
@@ -894,24 +900,24 @@
       "en": "What to decline, and what to offer"
      },
      "body": {
-      "en": "Compounded 'bioidentical' preparations lack efficacy and safety data, and over-the-counter 'hormone creams' are unapproved drugs under US rules. Daily sunscreen and a prescription retinoid have better evidence for the skin."
+      "en": "Compounded 'bioidentical' preparations lack efficacy and safety data, and over-the-counter 'hormone creams' are unapproved drugs under US rules. In the UK a compounded hormone is an unlicensed medicine. Daily sunscreen and a prescription retinoid have better evidence for the skin."
      }
     }
    ],
    "metadata": {
     "audioScript": {
-     "en": "Where does that leave hormone therapy for skin? In the United States, as of February 2026, the approved uses of menopausal hormone therapy are hot flashes, vaginal and vulvar symptoms, and for some products the prevention of bone loss. In late 2025 the FDA asked manufacturers to remove heart, breast cancer and dementia statements from the boxed warning, and it approved the first revised labels in February 2026. Skin still appears nowhere among the uses. The menopause society's 2022 position statement finds the balance favourable for symptoms and bone when therapy starts before sixty or within ten years of menopause, and it finds too little evidence for compounded bioidentical hormones. Low-dose vaginal estrogen for genitourinary symptoms is the one use aimed at the tissue itself. For the face, daily sunscreen and a prescription retinoid carry better evidence than any hormone. Treat symptoms on their merits, and count any skin change as a bonus."
+     "en": "Where does that leave hormone therapy for skin? In the United States, as of February 2026, the approved uses of menopausal hormone therapy are hot flashes, vaginal and vulvar symptoms, and for some products the prevention of bone loss. In late 2025 the FDA asked manufacturers to remove heart, breast cancer and dementia statements from the boxed warning, and it approved the first revised labels in February 2026. Skin still appears nowhere among the uses. The menopause society's 2022 position statement finds the balance favourable for symptoms and bone when therapy starts before sixty or within ten years of menopause, and it finds too little evidence for compounded bioidentical hormones. In the United Kingdom, HRT products are prescription-only medicines licensed for oestrogen-deficiency symptoms and, for some, for preventing osteoporosis, and skin appears nowhere among those uses either. A compounded bioidentical hormone is an unlicensed medicine there, so MHRA guidance puts any licensed product that meets the need first. Low-dose vaginal estrogen for genitourinary symptoms is the one use aimed at the tissue itself. For the face, daily sunscreen and a prescription retinoid carry better evidence than any hormone. Treat symptoms on their merits, and count any skin change as a bonus."
     },
     "variants": {
      "audienceLevel": {
       "prescriber": {
-       "en": "Prescribe hormone therapy for its labeled indications and the position statement's timing, and record that skin was discussed only as a secondary effect. Do not prescribe systemic or topical estrogen for wrinkles alone, and prefer FDA-approved products to compounded 'bioidentical' preparations."
+       "en": "Prescribe hormone therapy for its labeled indications and the position statement's timing, and record that skin was discussed only as a secondary effect. Do not prescribe systemic or topical estrogen for wrinkles alone, and prefer licensed products (FDA-approved in the US, MHRA-licensed in the UK) to compounded 'bioidentical' preparations."
       },
       "clinical-staff": {
        "en": "If a patient asks for 'hormones for my skin', ask about hot flashes, sleep and vaginal symptoms, record what she says, and route those symptoms to the prescriber. The skin concern stays with skin-directed care."
       },
       "advisor": {
-       "en": "In the US, a cream sold as containing estrogen for the face is regulated as a drug, and compounded 'bioidentical' products lack efficacy and safety data. Menopausal symptoms are a conversation for a prescriber; sun protection is advice you can give."
+       "en": "In the US, a cream sold as containing estrogen for the face is regulated as a drug; in the UK, HRT products are prescription-only medicines. Compounded 'bioidentical' products lack efficacy and safety data. Menopausal symptoms are a conversation for a prescriber; sun protection is advice you can give."
       }
      }
     }
@@ -1763,6 +1769,15 @@
   ],
   "c-m02-20": [
    "m2-p15"
+  ],
+  "c-m02-21": [
+   "m2-p11"
+  ],
+  "c-m02-22": [
+   "m2-p11"
+  ],
+  "c-m02-23": [
+   "m2-p11"
   ]
  },
  "audienceLevelPanes": [
@@ -1897,7 +1912,7 @@
     "menopause wrinkles"
    ],
    "answer": {
-    "en": "Estrogen acts on receptors in skin. In small trials, hormone therapy thickened skin and raised collagen (graded C here). The largest trial on facial skin (485 women, 48 weeks) and a four-year trial in recently menopausal women found no difference in wrinkles. In the US, as of February 2026, approved uses of menopausal hormone therapy are hot flashes, vaginal and vulvar symptoms and, for some products, preventing bone loss; skin is not an indication and is never the reason to start. Compounded 'bioidentical' hormones lack efficacy and safety data, and an over-the-counter 'hormone cream' is an unapproved drug under US rules. For skin, daily sunscreen and a prescription retinoid have better evidence. This course gives no doses; hormone therapy decisions belong with a prescriber."
+    "en": "Estrogen acts on receptors in skin. In small trials, hormone therapy thickened skin and raised collagen (graded C here). The largest trial on facial skin (485 women, 48 weeks) and a four-year trial in recently menopausal women found no difference in wrinkles. In the US, as of February 2026, approved uses of menopausal hormone therapy are hot flashes, vaginal and vulvar symptoms and, for some products, preventing bone loss; skin is not an indication and is never the reason to start. Compounded 'bioidentical' hormones lack efficacy and safety data, and an over-the-counter 'hormone cream' is an unapproved drug under US rules. In the UK, HRT products are prescription-only medicines licensed for oestrogen-deficiency symptoms and, for some, for preventing osteoporosis; skin is not among their uses, and a compounded 'bioidentical' hormone is an unlicensed medicine that MHRA guidance places behind any licensed product that meets the need. For skin, daily sunscreen and a prescription retinoid have better evidence. This course gives no doses; hormone therapy decisions belong with a prescriber."
    },
    "citationRefs": [
     "ecfr-21-cfr-310-530-hormone-creams",
@@ -1907,7 +1922,10 @@
     "nams-2022-hormone-therapy-position-statement",
     "owen-2016-keeps-skin-wrinkles",
     "phillips-2008-ht-facial-skin-rct",
-    "sitohang-2022-tretinoin-sr"
+    "sitohang-2022-tretinoin-sr",
+    "emc-smpc-evorel-uk",
+    "emc-smpc-sandrena-uk",
+    "mhra-gn14-specials-2023"
    ],
    "scope": "m02"
   }
@@ -1929,5 +1947,25 @@
   "approver": "Fady Hannah-Shmouni, MD FRCPC",
   "date": "2026-09-24",
   "scope": "module 02, full-course review draft of 2026-09-24 (course-draft.docx); approval relayed by Omar Saleem, 2026-09-24"
- }
+ },
+ "postApprovalChanges": [
+  {
+   "date": "2026-09-25",
+   "block": "m2-p11 (body, beats 1 and 3, narration, prescriber and advisor versions)",
+   "change": "UK position added beside the US one: HRT products are prescription-only medicines licensed in the UK for oestrogen-deficiency symptoms and, for some, osteoporosis prevention (Evorel, Sandrena SmPCs); a compounded 'bioidentical' hormone is an unlicensed medicine, placed behind any licensed product that meets the need (MHRA Guidance Note 14); on the UK medicines compendium topical tretinoin appears only in acne treatments. Prescriber line now reads 'licensed products (FDA-approved in the US, MHRA-licensed in the UK)'; advisor line adds that UK HRT products are prescription-only. Claims c-m02-21, c-m02-22, c-m02-23.",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "tutor-m02-hrt-skin",
+   "change": "Tutor answer adds the UK position: HRT products are prescription-only medicines licensed for oestrogen-deficiency symptoms and, for some, osteoporosis prevention; skin is not among their uses; a compounded 'bioidentical' hormone is an unlicensed medicine behind any licensed product that meets the need.",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "unit tutorContext",
+   "change": "Tutor context adds the UK HRT and tretinoin position (same facts as m2-p11).",
+   "forReview": "Fady Hannah-Shmouni"
+  }
+ ]
 }
