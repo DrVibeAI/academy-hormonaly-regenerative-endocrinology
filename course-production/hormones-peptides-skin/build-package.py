@@ -325,8 +325,13 @@ if COURSE_QUIZ:
 
 # Stage 60 media: the teaching stills that authored blocks reference (block.teachingVisual.assetRef), taken from the image tool's
 # manifest (perceptor-foundry tools/images/generate.mjs). Files live under public/assets/ (published to the media bucket by
-# tools/deploy/publish-media.sh). Every still is a draft until the human media preview; the build never approves one.
+# tools/deploy/publish-media.sh). Every still is a draft until the human media preview is recorded in signoffs.json.
 MEDIA_MANIFEST = HERE / "media" / "images-manifest.json"
+# Media status follows the recorded human media preview (signoffs.json mediaPreview), never the build's own judgement.
+_MP = SIGNOFFS.get("mediaPreview")
+MEDIA_APPROVAL = "approved" if _MP else "draft"
+MEDIA_NOTE = (f"approved — {_MP['approver']}, {_MP['date']} (media preview of {_MP['date']}; see governance approvals)" if _MP
+              else "pending — course-production/hormones-peptides-skin/review/media-preview.html")
 IMAGES = {e["asset_id"]: e for e in json.loads(MEDIA_MANIFEST.read_text()).get("images", []) if not e.get("kind")} if MEDIA_MANIFEST.exists() else {}
 ASSETS = []
 for mid in sorted(AUTHORED):
@@ -345,10 +350,10 @@ for mid in sorted(AUTHORED):
             "checksum": "sha256:" + hashlib.sha256(f.read_bytes()).hexdigest(),
             "generator": {"tool": "perceptor-foundry/tools/images", "model": e["model"],
                           "promptRef": f"course-production/hormones-peptides-skin/media/images-manifest.json#{e['id']}"},
-            "approvalStatus": "draft",
+            "approvalStatus": MEDIA_APPROVAL,
             "metadata": {"block": b["id"], "use": "teachingVisual", "route": e["route"], "tier": e["tier"], "aspectRatio": e["aspect_ratio"],
                          "promptSha256": e["prompt_sha256"], "generatedAt": e["generated_at"],
-                         "mediaPreview": "pending — course-production/hormones-peptides-skin/review/media-preview.html"},
+                         "mediaPreview": MEDIA_NOTE},
         })
 
 # Module opening films (cinematic lane, docs/motion-contract.md § 10b): rendered from course-production/hormones-peptides-skin/video/
@@ -366,15 +371,15 @@ for fm in FILMS:
         "id": fm["id"], "kind": "video", "role": "module-opener", "locale": "en", "uri": fm["uri"], "durationSeconds": fm["durationSeconds"],
         "checksum": "sha256:" + hashlib.sha256(video.read_bytes()).hexdigest(),
         "generator": {"tool": "perceptor-foundry/tools/video/morph.mjs", "model": fm["models"], "promptRef": fm["storyboard"]},
-        "approvalStatus": "draft", "disclosure": fm["disclosure"],
+        "approvalStatus": MEDIA_APPROVAL, "disclosure": fm["disclosure"],
         "metadata": {"block": fm["block"], "use": "module opening film", "scriptSources": fm["scriptSources"],
-                     "mediaPreview": "pending — course-production/hormones-peptides-skin/review/media-preview.html"},
+                     "mediaPreview": MEDIA_NOTE},
     })
     ASSETS.append({
         "id": fm["id"] + "-poster", "kind": "image", "role": "poster", "uri": fm["poster"],
         "checksum": "sha256:" + hashlib.sha256(poster.read_bytes()).hexdigest(),
         "generator": {"tool": "perceptor-foundry/tools/video/morph.mjs", "model": "frame of the film", "promptRef": fm["storyboard"]},
-        "approvalStatus": "draft", "metadata": {"block": fm["block"], "use": "film poster", "mediaPreview": "pending — course-production/hormones-peptides-skin/review/media-preview.html"},
+        "approvalStatus": MEDIA_APPROVAL, "metadata": {"block": fm["block"], "use": "film poster", "mediaPreview": MEDIA_NOTE},
     })
 
 pkg = {

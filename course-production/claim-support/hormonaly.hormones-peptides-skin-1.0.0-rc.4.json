@@ -1,13 +1,13 @@
 {
   "tool": "perceptor-foundry/tools/qa/claim-support.mjs",
   "contract": "docs/claim-support.md",
-  "generatedAt": "2026-09-25T22:32:19.956Z",
+  "generatedAt": "2026-09-25T22:47:28.273Z",
   "package": {
     "id": "hormonaly.hormones-peptides-skin",
     "version": "1.0.0-rc.4",
     "path": "packages/hormones-peptides-skin.json",
-    "sha256": "22859bbc62f9667a8eb93e780da7362ea2ab647e1235b5fc94d1d9b99eb10720",
-    "contentDigest": "b7618afefe6fea8723c9bd329ceca96e4ab519c198dc0edd846ae314736827d7"
+    "sha256": "7a1fcd9bc8c040d7a53f3df687ed1582acf39065af8d3502a161fa042171d177",
+    "contentDigest": "eb7c295365bda7a81b38163a5c3a7b7fd6227e2f5814f21493a4c7f9b5a319e2"
   },
   "edition": "en",
   "models": [
@@ -42,8 +42,8 @@
     }
   },
   "mergedFrom": {
-    "generatedAt": "2026-09-25T22:26:40.754Z",
-    "contentDigest": "31e008edf3316eee293e1cf04b8fffed81041c1bf96de3fe7a2201e4aba29514",
+    "generatedAt": "2026-09-25T22:32:19.956Z",
+    "contentDigest": "b7618afefe6fea8723c9bd329ceca96e4ab519c198dc0edd846ae314736827d7",
     "recheckedUnits": []
   },
   "sources": [
