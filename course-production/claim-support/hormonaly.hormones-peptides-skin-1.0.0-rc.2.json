@@ -1,13 +1,13 @@
 {
   "tool": "perceptor-foundry/tools/qa/claim-support.mjs",
   "contract": "docs/claim-support.md",
-  "generatedAt": "2026-09-25T18:17:48.529Z",
+  "generatedAt": "2026-09-25T18:28:29.578Z",
   "package": {
     "id": "hormonaly.hormones-peptides-skin",
     "version": "1.0.0-rc.2",
     "path": "packages/hormones-peptides-skin.json",
-    "sha256": "357d2473ae0bc64104b8411adba3aa9f786bd709001734e08fcd4cf4558a8563",
-    "contentDigest": "b2d685557e41ba83cea16067ebaa9c0eef05572ca4e0929c280040a51f8d33ab"
+    "sha256": "04f708bc94bcf57e0e6716db34522525f3dd62bebf8b2dececb94c18fa379d72",
+    "contentDigest": "81c97fd78361bba6010421448aefea0721d9a50349c9bdfce41d079071a12033"
   },
   "edition": "en",
   "models": [
@@ -15,14 +15,7 @@
   ],
   "partial": false,
   "maxChars": 60000,
-  "usage": {
-    "gemini-3.7-flash": {
-      "calls": 9,
-      "inputTokens": 1029861,
-      "outputTokens": 14934,
-      "seconds": 124
-    }
-  },
+  "usage": {},
   "summary": {
     "units": 697,
     "nonFactual": 17,
@@ -49,19 +42,9 @@
     }
   },
   "mergedFrom": {
-    "generatedAt": "2026-09-25T17:59:42.289Z",
-    "contentDigest": "4f087b306d049ea37e915bc73b36a30fa9e504b01f870e01f8658d1acf7edbef",
-    "recheckedUnits": [
-      "j-eu-32",
-      "j-pt-51",
-      "m2-p11›metadata.variants.jurisdiction.EU",
-      "m03-story",
-      "m3-p18",
-      "j-br-55",
-      "m07-story",
-      "m7-p22",
-      "m7-p22›metadata.variants.jurisdiction.BR"
-    ]
+    "generatedAt": "2026-09-25T18:17:48.529Z",
+    "contentDigest": "b2d685557e41ba83cea16067ebaa9c0eef05572ca4e0929c280040a51f8d33ab",
+    "recheckedUnits": []
   },
   "sources": [
     {

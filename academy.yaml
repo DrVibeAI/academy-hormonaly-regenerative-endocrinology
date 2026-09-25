@@ -45,7 +45,7 @@ home:
     - q: { en: "Does the course give doses or protocols?" }
       a: { en: "No. It teaches the evidence, the regulatory status and what each role can safely do next. Dosing and product sourcing are excluded by design." }
     - q: { en: "Which countries does the regulatory content cover?" }
-      a: { en: "The United States and the United Kingdom, each labelled and dated. Other countries are not covered." }
+      a: { en: "Six: the United States, the United Kingdom, the European Union, Portugal, Brazil and the United Arab Emirates. Each statement names its country and date, and your own country's notes come first." }
     - q: { en: "Is there CME or CE credit?" }
       a: { en: "Not yet. The course is designed toward future CME accreditation, and no credit is offered at this time." }
     - q: { en: "What do I get at the end?" }

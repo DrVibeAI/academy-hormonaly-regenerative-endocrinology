@@ -142,104 +142,6 @@
       "reviewOwner": "Fady Hannah-Shmouni, MD FRCPC (confirmation pending)"
     },
     {
-      "code": "AE",
-      "name": "United Arab Emirates",
-      "authorities": [
-        {
-          "name": "Emirates Drug Establishment (EDE)",
-          "scope": "Federal regulator of medical products since Federal Decree-Law 28/2023 (in force 30 Sep 2023): marketing approval and registration (medicines, biologicals, healthcare products including supplements and cosmetics with a medical effect), import permits, medical-product advertising licences, controlled and semi-controlled product lists, compounding-pharmacy and GCP certification, pharmacovigilance and safety circulars",
-          "url": "https://www.ede.gov.ae"
-        },
-        {
-          "name": "Ministry of Health and Prevention (MOHAP)",
-          "scope": "Federal health ministry and the medicines regulator before the EDE; its ministerial decisions (e.g. the 2023 semi-controlled list) and circulars issued up to 2025 remain part of the record",
-          "url": "https://mohap.gov.ae"
-        },
-        {
-          "name": "Dubai Health Authority (DHA)",
-          "scope": "Health regulator for the Emirate of Dubai: licensing and standards for health facilities and professionals, health advertising and social-media standards, circulars (including the July 2026 peptide regulations)",
-          "url": "https://www.dha.gov.ae"
-        },
-        {
-          "name": "Department of Health – Abu Dhabi (DoH)",
-          "scope": "Health regulator for the Emirate of Abu Dhabi: standards (including the August 2026 compounding standard), circulars (including the July 2026 peptide requirements), health-advertisement approvals",
-          "url": "https://www.doh.gov.ae"
-        },
-        {
-          "name": "Ministry of Industry and Advanced Technology (MoIAT)",
-          "scope": "Federal conformity scheme (ECAS) for regulated consumer products, including cosmetics and personal-care products under Cabinet Resolution 18/2014",
-          "url": "https://moiat.gov.ae"
-        },
-        {
-          "name": "Dubai Municipality (DM)",
-          "scope": "Registration (Montaji+) and market surveillance of cosmetic and personal-care products in the Emirate of Dubai",
-          "url": "https://www.dm.gov.ae"
-        }
-      ],
-      "layers": [
-        {
-          "id": "product",
-          "status": "mapped",
-          "detail": "33 primary-source statement(s) researched 2026-09-25; notes on 29 moment(s); confirmation pending with the post-approval changes."
-        },
-        {
-          "id": "claims",
-          "status": "mapped",
-          "detail": "20 primary-source statement(s) researched 2026-09-25; notes on 29 moment(s); confirmation pending with the post-approval changes."
-        },
-        {
-          "id": "practice",
-          "status": "mapped",
-          "detail": "40 primary-source statement(s) researched 2026-09-25; notes on 29 moment(s); confirmation pending with the post-approval changes."
-        },
-        {
-          "id": "locale",
-          "status": "mapped",
-          "detail": "Base English edition; each note names its jurisdiction and date and is shown first to learners who choose that country."
-        }
-      ],
-      "reviewOwner": "Fady Hannah-Shmouni, MD FRCPC (confirmation pending)"
-    },
-    {
-      "code": "BR",
-      "name": "Brazil",
-      "authorities": [
-        {
-          "name": "ANVISA – Agência Nacional de Vigilância Sanitária",
-          "scope": "Medicine registration and approved labels (bulas), compounding-pharmacy good practice and GLP-1 compounding rules, controlled-substance lists (Portaria SVS/MS 344/1998), cosmetics, food supplements and claims, medicine advertising, import control, and enforcement (Resoluções-RE)",
-          "url": "https://www.gov.br/anvisa/pt-br"
-        },
-        {
-          "name": "CFM – Conselho Federal de Medicina",
-          "scope": "Professional ethics rules for physicians, including hormone therapy for aesthetic or anti-ageing purposes and medical advertising",
-          "url": "https://portal.cfm.org.br"
-        }
-      ],
-      "layers": [
-        {
-          "id": "product",
-          "status": "mapped",
-          "detail": "27 primary-source statement(s) researched 2026-09-25; notes on 29 moment(s); confirmation pending with the post-approval changes."
-        },
-        {
-          "id": "claims",
-          "status": "mapped",
-          "detail": "10 primary-source statement(s) researched 2026-09-25; notes on 29 moment(s); confirmation pending with the post-approval changes."
-        },
-        {
-          "id": "practice",
-          "status": "mapped",
-          "detail": "25 primary-source statement(s) researched 2026-09-25; notes on 29 moment(s); confirmation pending with the post-approval changes."
-        },
-        {
-          "id": "locale",
-          "status": "mapped",
-          "detail": "Base English edition; each note names its jurisdiction and date and is shown first to learners who choose that country."
-        }
-      ],
-      "reviewOwner": "Fady Hannah-Shmouni, MD FRCPC (confirmation pending)"
-    },
-    {
       "code": "EU",
       "name": "European Union",
       "authorities": [
@@ -343,6 +245,104 @@
           "id": "practice",
           "status": "mapped",
           "detail": "30 primary-source statement(s) researched 2026-09-25; notes on 25 moment(s); confirmation pending with the post-approval changes."
+        },
+        {
+          "id": "locale",
+          "status": "mapped",
+          "detail": "Base English edition; each note names its jurisdiction and date and is shown first to learners who choose that country."
+        }
+      ],
+      "reviewOwner": "Fady Hannah-Shmouni, MD FRCPC (confirmation pending)"
+    },
+    {
+      "code": "BR",
+      "name": "Brazil",
+      "authorities": [
+        {
+          "name": "ANVISA – Agência Nacional de Vigilância Sanitária",
+          "scope": "Medicine registration and approved labels (bulas), compounding-pharmacy good practice and GLP-1 compounding rules, controlled-substance lists (Portaria SVS/MS 344/1998), cosmetics, food supplements and claims, medicine advertising, import control, and enforcement (Resoluções-RE)",
+          "url": "https://www.gov.br/anvisa/pt-br"
+        },
+        {
+          "name": "CFM – Conselho Federal de Medicina",
+          "scope": "Professional ethics rules for physicians, including hormone therapy for aesthetic or anti-ageing purposes and medical advertising",
+          "url": "https://portal.cfm.org.br"
+        }
+      ],
+      "layers": [
+        {
+          "id": "product",
+          "status": "mapped",
+          "detail": "27 primary-source statement(s) researched 2026-09-25; notes on 29 moment(s); confirmation pending with the post-approval changes."
+        },
+        {
+          "id": "claims",
+          "status": "mapped",
+          "detail": "10 primary-source statement(s) researched 2026-09-25; notes on 29 moment(s); confirmation pending with the post-approval changes."
+        },
+        {
+          "id": "practice",
+          "status": "mapped",
+          "detail": "25 primary-source statement(s) researched 2026-09-25; notes on 29 moment(s); confirmation pending with the post-approval changes."
+        },
+        {
+          "id": "locale",
+          "status": "mapped",
+          "detail": "Base English edition; each note names its jurisdiction and date and is shown first to learners who choose that country."
+        }
+      ],
+      "reviewOwner": "Fady Hannah-Shmouni, MD FRCPC (confirmation pending)"
+    },
+    {
+      "code": "AE",
+      "name": "United Arab Emirates",
+      "authorities": [
+        {
+          "name": "Emirates Drug Establishment (EDE)",
+          "scope": "Federal regulator of medical products since Federal Decree-Law 28/2023 (in force 30 Sep 2023): marketing approval and registration (medicines, biologicals, healthcare products including supplements and cosmetics with a medical effect), import permits, medical-product advertising licences, controlled and semi-controlled product lists, compounding-pharmacy and GCP certification, pharmacovigilance and safety circulars",
+          "url": "https://www.ede.gov.ae"
+        },
+        {
+          "name": "Ministry of Health and Prevention (MOHAP)",
+          "scope": "Federal health ministry and the medicines regulator before the EDE; its ministerial decisions (e.g. the 2023 semi-controlled list) and circulars issued up to 2025 remain part of the record",
+          "url": "https://mohap.gov.ae"
+        },
+        {
+          "name": "Dubai Health Authority (DHA)",
+          "scope": "Health regulator for the Emirate of Dubai: licensing and standards for health facilities and professionals, health advertising and social-media standards, circulars (including the July 2026 peptide regulations)",
+          "url": "https://www.dha.gov.ae"
+        },
+        {
+          "name": "Department of Health – Abu Dhabi (DoH)",
+          "scope": "Health regulator for the Emirate of Abu Dhabi: standards (including the August 2026 compounding standard), circulars (including the July 2026 peptide requirements), health-advertisement approvals",
+          "url": "https://www.doh.gov.ae"
+        },
+        {
+          "name": "Ministry of Industry and Advanced Technology (MoIAT)",
+          "scope": "Federal conformity scheme (ECAS) for regulated consumer products, including cosmetics and personal-care products under Cabinet Resolution 18/2014",
+          "url": "https://moiat.gov.ae"
+        },
+        {
+          "name": "Dubai Municipality (DM)",
+          "scope": "Registration (Montaji+) and market surveillance of cosmetic and personal-care products in the Emirate of Dubai",
+          "url": "https://www.dm.gov.ae"
+        }
+      ],
+      "layers": [
+        {
+          "id": "product",
+          "status": "mapped",
+          "detail": "33 primary-source statement(s) researched 2026-09-25; notes on 29 moment(s); confirmation pending with the post-approval changes."
+        },
+        {
+          "id": "claims",
+          "status": "mapped",
+          "detail": "20 primary-source statement(s) researched 2026-09-25; notes on 29 moment(s); confirmation pending with the post-approval changes."
+        },
+        {
+          "id": "practice",
+          "status": "mapped",
+          "detail": "40 primary-source statement(s) researched 2026-09-25; notes on 29 moment(s); confirmation pending with the post-approval changes."
         },
         {
           "id": "locale",

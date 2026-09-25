@@ -94,7 +94,10 @@ def _jprofile(code, info):
     return {"code": code, "name": info.get("name", code),
             "authorities": [{k: a[k] for k in ("name", "scope", "url") if a.get(k)} for a in info.get("authorities", [])],
             "layers": layers, "reviewOwner": "Fady Hannah-Shmouni, MD FRCPC (confirmation pending)"}
-JURISDICTION_PROFILES = [_jprofile(code, info) for code, info in sorted(JREG.get("jurisdictions", {}).items())]
+# Same order everywhere the learner sees the list (homepage, folded notes, course blurb): US, UK, then EU, Portugal, Brazil, UAE.
+JURISDICTION_ORDER = ["EU", "PT", "BR", "AE"]
+JURISDICTION_PROFILES = [_jprofile(code, info) for code, info in sorted(JREG.get("jurisdictions", {}).items(),
+                         key=lambda kv: (JURISDICTION_ORDER.index(kv[0]) if kv[0] in JURISDICTION_ORDER else len(JURISDICTION_ORDER), kv[0]))]
 # A claim may be placed by several modules (jurisdiction statements are shared): its locations are the UNION, never the last
 # module's list (2026-09-25 — a dict comprehension had kept only the last module's placements).
 CLAIM_LOCATIONS = {}
