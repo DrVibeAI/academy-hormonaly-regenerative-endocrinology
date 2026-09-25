@@ -289,7 +289,7 @@ Six things patients bring you under the heading 'gut health for skin'. One at a 
 - Tirzepatide added to a psoriasis biologic → **Tested on skin in randomized trials** — *One open-label, manufacturer-funded phase 3b trial of 274 people: more complete clearance with the add-on at 36 weeks (C). An earlier 20-person placebo-controlled trial of liraglutide found no effect. In the US, tirzepatide is not approved for psoriasis.*
 - A high-fibre, plant-rich diet → **Tested in people, not on skin** — *Strong human evidence for heart and metabolic outcomes; the guide grades it A, and the review behind it rates certainty moderate. No trial has measured skin.*
 - Akkermansia capsules → **Tested in people, not on skin** — *One pilot randomized trial in 32 adults improved insulin sensitivity (C). No skin outcomes.*
-- A 'leaky gut' stack: L-glutamine, zinc carnosine, BPC-157 → **No human outcome data** — *The Hormonaly guide grades it D: mechanism and animal data. As of September 2026, BPC-157 is not on the US 503A bulks list; an FDA advisory committee reviewed it in July 2026.*
+- A 'leaky gut' stack: L-glutamine, zinc carnosine, BPC-157 → **Little or no human outcome data** — *The Hormonaly guide grades it D: mechanism and animal data. As of September 2026, BPC-157 is not on the US 503A bulks list; an FDA advisory committee reviewed it in July 2026.*
 
 <sub>Sources: Makrgeorgou A 2018 · Parodi A 2008 · Lebwohl M 2026 · Faurschou A 2015 · Eli Lilly (Mounjaro prescribing information) 2026 · Eli Lilly (Zepbound prescribing information) 2026 · Reynolds A 2019 · Depommier C 2019 · US Food and Drug Administration 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
 

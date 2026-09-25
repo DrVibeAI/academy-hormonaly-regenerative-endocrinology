@@ -1,6 +1,6 @@
 # Hormones and Peptides for Skin — full course draft for review
 
-*Generated 2026-09-24 · 7 modules*
+*Generated 2026-09-25 · 7 modules*
 
 | Module | Title | Moments | Time | Sources | Claims | Status |
 |--------|--------------------------------|---------:|--------|--------:|-------:|----------|
@@ -24,10 +24,13 @@
 - **m01** · m1-p05, cq-m01-2, tutor-m01-atlas (2026-09-24) — Source-check alignment: vitamin D3 'to the liver' (the cited source names the liver step); atlas tutor answer no longer adds 'including skin' beyond the abstract.
 - **m02** · m2-p03, m2-p19, tutor-m02-hrt-skin (2026-09-24) — Source-check alignment: cortisol callout states what the source says (local regulation independent of systemic levels); HRT chip names approved uses and cites the FDA labeling record; KEEPS four-year trial cited in the tutor answer.
 - **m03** · m3-p08, m3-p15 (2026-09-24) — From the automated source check: the approvals moment now also cites the Wegovy and Zepbound labels; 'by about half' removed from the high-fat-meal endotoxin sentence (the abstract gives no size).
+- **m03** · m3-p17 (2026-09-24) — Quickfire category 'No human outcome data' → 'Little or no human outcome data' (the Hormonaly guide calls the repair stack's human outcome data limited).
 - **m04** · m4-p14 (2026-09-24) — Named the single randomized BPC-157 trial FDA's July 2026 briefing identified (Ruenzi 2005, ulcerative colitis, meeting abstract only, no significant difference from placebo); title, body and stat wording updated; figure unchanged. Source: FDA PCAC briefing document (fda.gov/media/193343), read in full.
 - **m04** · m4-p04, m4-p14 (2026-09-24) — Removed two ClinicalTrials.gov records (NCT07437586 GHK-Cu wound gel; NCT07437547 BPC-157 hamstring) that the draft had cited as recruiting phase 2 trials. Their sponsor, 'Hudson Biotech', also holds a record titled '(Mock Study)', a record whose summary calls itself an 'example interventional study record', and a record re-using the SURMOUNT-1 title; their authenticity cannot be confirmed. The 'phase 2 recruiting' sentence on GHK-Cu is deleted; the BPC-157 list now names only the 2015 PharmaCotherapia phase 1, the 2025 Parlay Wellness product study and the 2026 University of Arkansas phase 1 (start 2027).
 - **m04** · m4-p09 (classify) (2026-09-24) — Leuphasyl: 'no independent or indexed human trial' corrected to 'no randomized trial'. An independent uncontrolled volunteer study exists (Dragomirescu 2014). The classify label 'Manufacturer data only' became 'No randomized trial'; grades unchanged. Found by the automated source check.
 - **m04** · m4-p08 (2026-09-24) — Leuphasyl is no longer grouped with the SNAP-25 mimics: it is an enkephalin analogue (as the module's own exercise already says). Wording only. Found by the automated source check.
+- **m04** · m4-p17 (2026-09-24) — Heavy metals: 'reported for this market but not documented' reworded to 'claimed for this market, but no published analysis behind that claim was found' (the finding already recorded for the A&RE guide's figure). Wording only; found by the automated source check reading the guide.
+- **m04** · m4-p09, m4-p17 (2026-09-24) — Classify label 'No randomized trial' refined to 'No independent randomized trial' (the Peptide Pocket Guide describes independent trials of Matrixyl 3000 as limited, not absent). Heavy metals: the course now reports the Hormonaly guide's statement and then that its published analysis could not be found, instead of contradicting it silently. Wording only.
 - **m05** · m5-check (2026-09-24) — Module check now cites both 1990s Melanotan II studies (Dorr 1996, Wessells 1998).
 - **m05** · m5-p14, m5-q2 (2026-09-24) — Source-check alignment: PTD-DBM described without the HIV Tat detail and thymulin without the residue count (neither in the cited abstracts); the quiz cites the priapism case report.
 - **m06** · m6-p05, cq-m06-2, tutor-m06-gh-excess (2026-09-24) — Source-check alignment: GH adverse-effect statements cite Liu 2007 (whose results list them); the GH-excess tutor answer cites the Endocrine Society acromegaly guideline.
@@ -1091,7 +1094,7 @@ Six things patients bring you under the heading 'gut health for skin'. One at a 
 - Tirzepatide added to a psoriasis biologic → **Tested on skin in randomized trials** — *One open-label, manufacturer-funded phase 3b trial of 274 people: more complete clearance with the add-on at 36 weeks (C). An earlier 20-person placebo-controlled trial of liraglutide found no effect. In the US, tirzepatide is not approved for psoriasis.*
 - A high-fibre, plant-rich diet → **Tested in people, not on skin** — *Strong human evidence for heart and metabolic outcomes; the guide grades it A, and the review behind it rates certainty moderate. No trial has measured skin.*
 - Akkermansia capsules → **Tested in people, not on skin** — *One pilot randomized trial in 32 adults improved insulin sensitivity (C). No skin outcomes.*
-- A 'leaky gut' stack: L-glutamine, zinc carnosine, BPC-157 → **No human outcome data** — *The Hormonaly guide grades it D: mechanism and animal data. As of September 2026, BPC-157 is not on the US 503A bulks list; an FDA advisory committee reviewed it in July 2026.*
+- A 'leaky gut' stack: L-glutamine, zinc carnosine, BPC-157 → **Little or no human outcome data** — *The Hormonaly guide grades it D: mechanism and animal data. As of September 2026, BPC-157 is not on the US 503A bulks list; an FDA advisory committee reviewed it in July 2026.*
 
 <sub>Sources: Makrgeorgou A 2018 · Parodi A 2008 · Lebwohl M 2026 · Faurschou A 2015 · Eli Lilly (Mounjaro prescribing information) 2026 · Eli Lilly (Zepbound prescribing information) 2026 · Reynolds A 2019 · Depommier C 2019 · US Food and Drug Administration 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
 
@@ -1295,10 +1298,10 @@ Five products from two families, and what each promises on the label. Before you
 
 **Exercise (classify) · Trial or brochure?** — Tap what stands behind each product.
 - pal-KTTKS (Matrixyl) → **A randomized human trial** — *GRADE C. A 12-week split-face RCT in 93 women, funded by the manufacturer, and an independent 2023 RCT.*
-- Matrixyl 3000 blend → **No randomized trial** — *GRADE D. Only the maker's technical dossier, which is not indexed.*
+- Matrixyl 3000 blend → **No independent randomized trial** — *GRADE D. The evidence is the maker's technical dossier; no independent randomized trial was found.*
 - Argireline → **A randomized human trial** — *GRADE C in this course. Placebo-controlled RCTs, including an independent head-to-head trial, show modest effects. The two Hormonaly guides disagree (C in Aesthetic & Regenerative Endocrinology, D in the Peptide Pocket Guide); the trials decide it here.*
-- SNAP-8 → **No randomized trial** — *GRADE D. Its efficacy figures come from the manufacturer, and the indexed studies test it mixed with other actives, so none isolates it.*
-- Leuphasyl → **No randomized trial** — *GRADE D. The maker's studies, an in-vitro synergy figure and one small uncontrolled university volunteer study (2014); no randomized trial.*
+- SNAP-8 → **No independent randomized trial** — *GRADE D. Its efficacy figures come from the manufacturer, and the indexed studies test it mixed with other actives, so none isolates it.*
+- Leuphasyl → **No independent randomized trial** — *GRADE D. The maker's studies, an in-vitro synergy figure and one small uncontrolled university volunteer study (2014); no independent randomized trial.*
 
 <sub>Sources: Aruan RR 2023 · Avcil M 2020 · Dragomirescu AO 2014 · Errante F 2020 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Robinson LR 2005 · Shin JY 2024 · Wang Y 2013</sub>
 
@@ -1429,7 +1432,7 @@ A 46-year-old patient has been injecting a research-use-only 'GLOW' blend bought
 A 46-year-old patient has been injecting a research-use-only 'GLOW' blend bought online for three months. She reports smoother skin and asks about continuing. You notice new, patchy darkening on her face and forearms.
 
 - ✗ Reassure her: copper peptides can darken skin while collagen remodels. Review in three months. — *There is no evidence for that explanation, and the guide reads new pigmentation on these products as a warning sign.*
-- ✔ Advise stopping the product, record exactly what she bought, from where and the batch, and route the pigment change for clinical assessment. — *Right. Stop the exposure, capture the evidence, and get the skin change assessed. Contamination with heavy metals is reported for this market but not documented; the change needs assessment either way.*
+- ✔ Advise stopping the product, record exactly what she bought, from where and the batch, and route the pigment change for clinical assessment. — *Right. Stop the exposure, capture the evidence, and get the skin change assessed. The Hormonaly guide states that heavy-metal contamination is documented in these products; the published analysis behind that statement could not be found. The change needs assessment either way.*
 - ✗ Switch her to a compounded version of the same blend from a US pharmacy. — *BPC-157, TB-500 and injectable GHK-Cu are not on the bulks list; a 'pharmacy version' does not solve the problem.*
 
 Follow-up: Then document the conversation: what she used, what you advised, and who assesses the pigmentation next.
@@ -1441,7 +1444,7 @@ Follow-up: Then document the conversation: what she used, what you advised, and 
 
 <details><summary>Narration script</summary>
 
-A fictional case, built from this lesson's evidence. A forty-six-year-old patient has been injecting a research-use-only blend sold as GLOW for three months: GHK-Cu, BPC-157 and TB-500 in one vial. She likes her skin and asks about carrying on. You notice new, patchy darkening on her face and forearms. The blend has no controlled human trials, it is made outside good manufacturing practice, and the Hormonaly guide treats new pigmentation on these products as a red flag. Impurity and mislabelling are documented for similar online products; heavy-metal contamination is reported for this market and has not been documented. Decide what you do first.
+A fictional case, built from this lesson's evidence. A forty-six-year-old patient has been injecting a research-use-only blend sold as GLOW for three months: GHK-Cu, BPC-157 and TB-500 in one vial. She likes her skin and asks about carrying on. You notice new, patchy darkening on her face and forearms. The blend has no controlled human trials, it is made outside good manufacturing practice, and the Hormonaly guide treats new pigmentation on these products as a red flag. Impurity and mislabelling are documented for similar online products; the Hormonaly guide states that heavy-metal contamination is documented in these products, but the published analysis behind that statement could not be found. Decide what you do first.
 
 </details>
 

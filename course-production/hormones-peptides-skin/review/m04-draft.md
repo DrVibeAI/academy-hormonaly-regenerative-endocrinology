@@ -139,10 +139,10 @@ Five products from two families, and what each promises on the label. Before you
 
 **Exercise (classify) · Trial or brochure?** — Tap what stands behind each product.
 - pal-KTTKS (Matrixyl) → **A randomized human trial** — *GRADE C. A 12-week split-face RCT in 93 women, funded by the manufacturer, and an independent 2023 RCT.*
-- Matrixyl 3000 blend → **No randomized trial** — *GRADE D. Only the maker's technical dossier, which is not indexed.*
+- Matrixyl 3000 blend → **No independent randomized trial** — *GRADE D. The evidence is the maker's technical dossier; no independent randomized trial was found.*
 - Argireline → **A randomized human trial** — *GRADE C in this course. Placebo-controlled RCTs, including an independent head-to-head trial, show modest effects. The two Hormonaly guides disagree (C in Aesthetic & Regenerative Endocrinology, D in the Peptide Pocket Guide); the trials decide it here.*
-- SNAP-8 → **No randomized trial** — *GRADE D. Its efficacy figures come from the manufacturer, and the indexed studies test it mixed with other actives, so none isolates it.*
-- Leuphasyl → **No randomized trial** — *GRADE D. The maker's studies, an in-vitro synergy figure and one small uncontrolled university volunteer study (2014); no randomized trial.*
+- SNAP-8 → **No independent randomized trial** — *GRADE D. Its efficacy figures come from the manufacturer, and the indexed studies test it mixed with other actives, so none isolates it.*
+- Leuphasyl → **No independent randomized trial** — *GRADE D. The maker's studies, an in-vitro synergy figure and one small uncontrolled university volunteer study (2014); no independent randomized trial.*
 
 <sub>Sources: Aruan RR 2023 · Avcil M 2020 · Dragomirescu AO 2014 · Errante F 2020 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Robinson LR 2005 · Shin JY 2024 · Wang Y 2013</sub>
 
@@ -273,7 +273,7 @@ A 46-year-old patient has been injecting a research-use-only 'GLOW' blend bought
 A 46-year-old patient has been injecting a research-use-only 'GLOW' blend bought online for three months. She reports smoother skin and asks about continuing. You notice new, patchy darkening on her face and forearms.
 
 - ✗ Reassure her: copper peptides can darken skin while collagen remodels. Review in three months. — *There is no evidence for that explanation, and the guide reads new pigmentation on these products as a warning sign.*
-- ✔ Advise stopping the product, record exactly what she bought, from where and the batch, and route the pigment change for clinical assessment. — *Right. Stop the exposure, capture the evidence, and get the skin change assessed. Contamination with heavy metals is reported for this market but not documented; the change needs assessment either way.*
+- ✔ Advise stopping the product, record exactly what she bought, from where and the batch, and route the pigment change for clinical assessment. — *Right. Stop the exposure, capture the evidence, and get the skin change assessed. The Hormonaly guide states that heavy-metal contamination is documented in these products; the published analysis behind that statement could not be found. The change needs assessment either way.*
 - ✗ Switch her to a compounded version of the same blend from a US pharmacy. — *BPC-157, TB-500 and injectable GHK-Cu are not on the bulks list; a 'pharmacy version' does not solve the problem.*
 
 Follow-up: Then document the conversation: what she used, what you advised, and who assesses the pigmentation next.
@@ -285,7 +285,7 @@ Follow-up: Then document the conversation: what she used, what you advised, and 
 
 <details><summary>Narration script</summary>
 
-A fictional case, built from this lesson's evidence. A forty-six-year-old patient has been injecting a research-use-only blend sold as GLOW for three months: GHK-Cu, BPC-157 and TB-500 in one vial. She likes her skin and asks about carrying on. You notice new, patchy darkening on her face and forearms. The blend has no controlled human trials, it is made outside good manufacturing practice, and the Hormonaly guide treats new pigmentation on these products as a red flag. Impurity and mislabelling are documented for similar online products; heavy-metal contamination is reported for this market and has not been documented. Decide what you do first.
+A fictional case, built from this lesson's evidence. A forty-six-year-old patient has been injecting a research-use-only blend sold as GLOW for three months: GHK-Cu, BPC-157 and TB-500 in one vial. She likes her skin and asks about carrying on. You notice new, patchy darkening on her face and forearms. The blend has no controlled human trials, it is made outside good manufacturing practice, and the Hormonaly guide treats new pigmentation on these products as a red flag. Impurity and mislabelling are documented for similar online products; the Hormonaly guide states that heavy-metal contamination is documented in these products, but the published analysis behind that statement could not be found. Decide what you do first.
 
 </details>
 

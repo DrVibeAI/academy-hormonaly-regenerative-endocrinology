@@ -628,7 +628,7 @@
      {
       "value": "maker",
       "label": {
-       "en": "No randomized trial"
+       "en": "No independent randomized trial"
       },
       "tone": "bad"
      }
@@ -651,7 +651,7 @@
       },
       "answer": "maker",
       "why": {
-       "en": "GRADE D. Only the maker's technical dossier, which is not indexed."
+       "en": "GRADE D. The evidence is the maker's technical dossier; no independent randomized trial was found."
       }
      },
      {
@@ -681,12 +681,12 @@
       },
       "answer": "maker",
       "why": {
-       "en": "GRADE D. The maker's studies, an in-vitro synergy figure and one small uncontrolled university volunteer study (2014); no randomized trial."
+       "en": "GRADE D. The maker's studies, an in-vitro synergy figure and one small uncontrolled university volunteer study (2014); no independent randomized trial."
       }
      }
     ],
     "done": {
-     "en": "Five sorted. Two have randomized trials behind them (C); three have none, only the maker's data or small uncontrolled studies (D)."
+     "en": "Five sorted. Two have randomized trials behind them, including an independent one (C); three have no independent randomized trial, only the maker's data or small uncontrolled studies (D)."
     },
     "citationRefs": [
      "aruan-2023-argireline-vs-pal-kttks-rct",
@@ -1247,7 +1247,7 @@
       },
       "correct": true,
       "why": {
-       "en": "Right. Stop the exposure, capture the evidence, and get the skin change assessed. Contamination with heavy metals is reported for this market but not documented; the change needs assessment either way."
+       "en": "Right. Stop the exposure, capture the evidence, and get the skin change assessed. The Hormonaly guide states that heavy-metal contamination is documented in these products; the published analysis behind that statement could not be found. The change needs assessment either way."
       }
      },
      {
@@ -1286,7 +1286,7 @@
      }
     },
     "audioScript": {
-     "en": "A fictional case, built from this lesson's evidence. A forty-six-year-old patient has been injecting a research-use-only blend sold as GLOW for three months: GHK-Cu, BPC-157 and TB-500 in one vial. She likes her skin and asks about carrying on. You notice new, patchy darkening on her face and forearms. The blend has no controlled human trials, it is made outside good manufacturing practice, and the Hormonaly guide treats new pigmentation on these products as a red flag. Impurity and mislabelling are documented for similar online products; heavy-metal contamination is reported for this market and has not been documented. Decide what you do first."
+     "en": "A fictional case, built from this lesson's evidence. A forty-six-year-old patient has been injecting a research-use-only blend sold as GLOW for three months: GHK-Cu, BPC-157 and TB-500 in one vial. She likes her skin and asks about carrying on. You notice new, patchy darkening on her face and forearms. The blend has no controlled human trials, it is made outside good manufacturing practice, and the Hormonaly guide treats new pigmentation on these products as a red flag. Impurity and mislabelling are documented for similar online products; the Hormonaly guide states that heavy-metal contamination is documented in these products, but the published analysis behind that statement could not be found. Decide what you do first."
     }
    },
    "points": [
@@ -1322,7 +1322,7 @@
       "en": "What is known about contamination"
      },
      "body": {
-      "en": "Impurity and mislabelling are documented for adjacent products. Heavy-metal contamination is reported for this market but not documented; the skin change needs assessment either way."
+      "en": "Impurity and mislabelling are documented for adjacent products. The Hormonaly guide states that heavy-metal contamination is documented in these products; the published analysis behind that statement could not be found. The skin change needs assessment either way."
      }
     }
    ]
@@ -1791,6 +1791,18 @@
    "date": "2026-09-24",
    "block": "m4-p08",
    "change": "Leuphasyl is no longer grouped with the SNAP-25 mimics: it is an enkephalin analogue (as the module's own exercise already says). Wording only. Found by the automated source check.",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-24",
+   "block": "m4-p17",
+   "change": "Heavy metals: 'reported for this market but not documented' reworded to 'claimed for this market, but no published analysis behind that claim was found' (the finding already recorded for the A&RE guide's figure). Wording only; found by the automated source check reading the guide.",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-24",
+   "block": "m4-p09, m4-p17",
+   "change": "Classify label 'No randomized trial' refined to 'No independent randomized trial' (the Peptide Pocket Guide describes independent trials of Matrixyl 3000 as limited, not absent). Heavy metals: the course now reports the Hormonaly guide's statement and then that its published analysis could not be found, instead of contradicting it silently. Wording only.",
    "forReview": "Fady Hannah-Shmouni"
   }
  ]

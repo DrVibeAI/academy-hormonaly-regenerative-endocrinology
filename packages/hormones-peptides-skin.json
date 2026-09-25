@@ -3343,7 +3343,7 @@
       },
       {
         "id": "c-m01-14",
-        "text": "Senescent cells are permanently growth-arrested yet metabolically active; the senescence-associated secretory phenotype (IL-6, IL-8, matrix metalloproteinases, growth factors) was characterised in cultured human cells after DNA damage.",
+        "text": "Senescent cells are permanently growth-arrested yet still secreting; the senescence-associated secretory phenotype (IL-6, IL-8, matrix metalloproteinases, growth factors) was characterised in cultured human cells after DNA damage.",
         "citationRefs": [
           "coppe-2008-sasp",
           "ho-dreesen-2021-skin-senescence",
@@ -5025,7 +5025,7 @@
       },
       {
         "id": "c-m07-06",
-        "text": "In the US, 503A compounding by a licensed pharmacist or physician for an identified patient is exempt from new-drug approval, adequate directions for use and cGMP only if the bulk substance meets a USP/NF monograph, or failing that is a component of an approved drug, or failing that is on the 503A bulks list — and is made by an FDA-registered establishment and accompanied by a valid certificate of analysis. The statute sets no purity figure.",
+        "text": "In the US, 503A compounding by a licensed pharmacist or physician for an identified patient is exempt from new-drug approval, adequate directions for use and cGMP only if the bulk substance meets a USP/NF monograph, or failing that is a component of an approved drug, or failing that is on the 503A bulks list — and is made by an FDA-registered establishment and accompanied by a valid certificate of analysis. Quality is defined by reference to those standards and the certificate, not by a numerical purity threshold in the statute's text.",
         "citationRefs": [
           "usc-21-353a",
           "fda-503a-bulks-page"
@@ -10360,7 +10360,7 @@
                     {
                       "value": "none",
                       "label": {
-                        "en": "No human outcome data"
+                        "en": "Little or no human outcome data"
                       },
                       "tone": "bad"
                     }
@@ -11594,7 +11594,7 @@
                     {
                       "value": "maker",
                       "label": {
-                        "en": "No randomized trial"
+                        "en": "No independent randomized trial"
                       },
                       "tone": "bad"
                     }
@@ -11617,7 +11617,7 @@
                       },
                       "answer": "maker",
                       "why": {
-                        "en": "GRADE D. Only the maker's technical dossier, which is not indexed."
+                        "en": "GRADE D. The evidence is the maker's technical dossier; no independent randomized trial was found."
                       }
                     },
                     {
@@ -11647,12 +11647,12 @@
                       },
                       "answer": "maker",
                       "why": {
-                        "en": "GRADE D. The maker's studies, an in-vitro synergy figure and one small uncontrolled university volunteer study (2014); no randomized trial."
+                        "en": "GRADE D. The maker's studies, an in-vitro synergy figure and one small uncontrolled university volunteer study (2014); no independent randomized trial."
                       }
                     }
                   ],
                   "done": {
-                    "en": "Five sorted. Two have randomized trials behind them (C); three have none, only the maker's data or small uncontrolled studies (D)."
+                    "en": "Five sorted. Two have randomized trials behind them, including an independent one (C); three have no independent randomized trial, only the maker's data or small uncontrolled studies (D)."
                   },
                   "citationRefs": [
                     "aruan-2023-argireline-vs-pal-kttks-rct",
@@ -12213,7 +12213,7 @@
                       },
                       "correct": true,
                       "why": {
-                        "en": "Right. Stop the exposure, capture the evidence, and get the skin change assessed. Contamination with heavy metals is reported for this market but not documented; the change needs assessment either way."
+                        "en": "Right. Stop the exposure, capture the evidence, and get the skin change assessed. The Hormonaly guide states that heavy-metal contamination is documented in these products; the published analysis behind that statement could not be found. The change needs assessment either way."
                       }
                     },
                     {
@@ -12252,7 +12252,7 @@
                     }
                   },
                   "audioScript": {
-                    "en": "A fictional case, built from this lesson's evidence. A forty-six-year-old patient has been injecting a research-use-only blend sold as GLOW for three months: GHK-Cu, BPC-157 and TB-500 in one vial. She likes her skin and asks about carrying on. You notice new, patchy darkening on her face and forearms. The blend has no controlled human trials, it is made outside good manufacturing practice, and the Hormonaly guide treats new pigmentation on these products as a red flag. Impurity and mislabelling are documented for similar online products; heavy-metal contamination is reported for this market and has not been documented. Decide what you do first."
+                    "en": "A fictional case, built from this lesson's evidence. A forty-six-year-old patient has been injecting a research-use-only blend sold as GLOW for three months: GHK-Cu, BPC-157 and TB-500 in one vial. She likes her skin and asks about carrying on. You notice new, patchy darkening on her face and forearms. The blend has no controlled human trials, it is made outside good manufacturing practice, and the Hormonaly guide treats new pigmentation on these products as a red flag. Impurity and mislabelling are documented for similar online products; the Hormonaly guide states that heavy-metal contamination is documented in these products, but the published analysis behind that statement could not be found. Decide what you do first."
                   }
                 },
                 "points": [
@@ -12288,7 +12288,7 @@
                       "en": "What is known about contamination"
                     },
                     "body": {
-                      "en": "Impurity and mislabelling are documented for adjacent products. Heavy-metal contamination is reported for this market but not documented; the skin change needs assessment either way."
+                      "en": "Impurity and mislabelling are documented for adjacent products. The Hormonaly guide states that heavy-metal contamination is documented in these products; the published analysis behind that statement could not be found. The skin change needs assessment either way."
                     }
                   }
                 ]
@@ -19088,7 +19088,7 @@
         "skin has receptors"
       ],
       "answer": {
-        "en": "The Hormone Cell Atlas (Fei, Huang-Doran et al., Science 2026) read RNA for 379 hormone and receptor genes in about 14 million cells and nuclei from 47 human tissues, skin included, and predicted which cell types could make or respond to hormones. Its own authors call these predictions putative and hypothesis-generating: RNA shows capacity, not secretion or effect. Treat any 'skin has receptors for it' product claim as a hypothesis until protein, function and a human trial back it. A few skin outputs are established in people, such as vitamin D3 formed under UVB and released into the blood."
+        "en": "The Hormone Cell Atlas (Fei, Huang-Doran et al., Science 2026) read RNA for 379 hormone and receptor genes in about 14 million cells and nuclei from 47 human tissues and predicted which cell types could make or respond to hormones. Its own authors call these predictions putative and hypothesis-generating: RNA shows capacity, not secretion or effect. Treat any 'skin has receptors for it' product claim as a hypothesis until protein, function and a human trial back it. A few skin outputs are established in people, such as vitamin D3 formed under UVB and released into the blood."
       },
       "citationRefs": [
         "fei-2026-hormone-cell-atlas",
@@ -19219,7 +19219,7 @@
         "inflammaging"
       ],
       "answer": {
-        "en": "Mechanism: bacterial lipopolysaccharide crossing a leaky gut barrier ('metabolic endotoxaemia') drives inflammation and insulin resistance in mice, and a single high-fat meal briefly raised plasma endotoxin in a study of 12 healthy men (D). Human evidence for skin: an independent Cochrane review of 39 trials found probiotics probably make little or no difference to patient-rated eczema symptoms (B); a 2024 meta-analysis in children without food allergy reported small score improvements (C); one small randomized trial found rosacea improved after small-intestinal bacterial overgrowth was treated (C). A leading review concludes it is unproven that restoring barrier function improves disease outside the gut, and a widely used commercial zonulin assay detects proteins other than zonulin. A fibre-rich diet has strong evidence for cardiometabolic outcomes and none for skin. The Hormonaly guide grades the 'leaky gut' repair stack (L-glutamine, zinc carnosine, BPC-157) D; in the US, BPC-157 is not on the 503A bulks list as of September 2026. Start with diet, metabolic health and the skin diagnosis; investigational peptides come last, if at all, and any injected or research peptide needs a prescriber."
+        "en": "Mechanism: bacterial lipopolysaccharide crossing a leaky gut barrier ('metabolic endotoxaemia') drives inflammation and insulin resistance in mice, and a single high-fat meal briefly raised plasma endotoxin in a study of 12 healthy men (D). Human evidence for skin: an independent Cochrane review of 39 trials found probiotics probably make little or no difference to patient-rated eczema symptoms (B); a 2024 meta-analysis in children without food allergy reported small score improvements (C); one small randomized trial found rosacea improved after small-intestinal bacterial overgrowth was treated (C). A leading review concludes it is unproven that restoring barrier function improves disease outside the gut, and a widely used commercial zonulin assay detects proteins other than zonulin. A fibre-rich diet has strong evidence for cardiometabolic outcomes and has not been tested on skin outcomes. The Hormonaly guide grades the 'leaky gut' repair stack (L-glutamine, zinc carnosine, BPC-157) D; in the US, BPC-157 is not on the 503A bulks list as of September 2026. Start with diet, metabolic health and the skin diagnosis; investigational peptides come last, if at all, and any injected or research peptide needs a prescriber."
       },
       "citationRefs": [
         "cani-2007-metabolic-endotoxemia",
@@ -19488,7 +19488,7 @@
         "approver": "Fady Hannah-Shmouni, MD FRCPC",
         "date": "2026-09-24",
         "scope": "module 04, review draft of 2026-09-24; approval relayed by Omar Saleem, 2026-09-24",
-        "notes": "Changed after this approval, awaiting the approver's confirmation: m4-p14: Named the single randomized BPC-157 trial FDA's July 2026 briefing identified (Ruenzi 2005, ulcerative colitis, meeting abstract only, no significant difference from placebo); title, body and stat wording updated; figure unchanged. Source: FDA PCAC briefing document (fda.gov/media/193343), read in full. | m4-p04, m4-p14: Removed two ClinicalTrials.gov records (NCT07437586 GHK-Cu wound gel; NCT07437547 BPC-157 hamstring) that the draft had cited as recruiting phase 2 trials. Their sponsor, 'Hudson Biotech', also holds a record titled '(Mock Study)', a record whose summary calls itself an 'example interventional study record', and a record re-using the SURMOUNT-1 title; their authenticity cannot be confirmed. The 'phase 2 recruiting' sentence on GHK-Cu is deleted; the BPC-157 list now names only the 2015 PharmaCotherapia phase 1, the 2025 Parlay Wellness product study and the 2026 University of Arkansas phase 1 (start 2027). | m4-p09 (classify): Leuphasyl: 'no independent or indexed human trial' corrected to 'no randomized trial'. An independent uncontrolled volunteer study exists (Dragomirescu 2014). The classify label 'Manufacturer data only' became 'No randomized trial'; grades unchanged. Found by the automated source check. | m4-p08: Leuphasyl is no longer grouped with the SNAP-25 mimics: it is an enkephalin analogue (as the module's own exercise already says). Wording only. Found by the automated source check."
+        "notes": "Changed after this approval, awaiting the approver's confirmation: m4-p14: Named the single randomized BPC-157 trial FDA's July 2026 briefing identified (Ruenzi 2005, ulcerative colitis, meeting abstract only, no significant difference from placebo); title, body and stat wording updated; figure unchanged. Source: FDA PCAC briefing document (fda.gov/media/193343), read in full. | m4-p04, m4-p14: Removed two ClinicalTrials.gov records (NCT07437586 GHK-Cu wound gel; NCT07437547 BPC-157 hamstring) that the draft had cited as recruiting phase 2 trials. Their sponsor, 'Hudson Biotech', also holds a record titled '(Mock Study)', a record whose summary calls itself an 'example interventional study record', and a record re-using the SURMOUNT-1 title; their authenticity cannot be confirmed. The 'phase 2 recruiting' sentence on GHK-Cu is deleted; the BPC-157 list now names only the 2015 PharmaCotherapia phase 1, the 2025 Parlay Wellness product study and the 2026 University of Arkansas phase 1 (start 2027). | m4-p09 (classify): Leuphasyl: 'no independent or indexed human trial' corrected to 'no randomized trial'. An independent uncontrolled volunteer study exists (Dragomirescu 2014). The classify label 'Manufacturer data only' became 'No randomized trial'; grades unchanged. Found by the automated source check. | m4-p08: Leuphasyl is no longer grouped with the SNAP-25 mimics: it is an enkephalin analogue (as the module's own exercise already says). Wording only. Found by the automated source check. | m4-p17: Heavy metals: 'reported for this market but not documented' reworded to 'claimed for this market, but no published analysis behind that claim was found' (the finding already recorded for the A&RE guide's figure). Wording only; found by the automated source check reading the guide. | m4-p09, m4-p17: Classify label 'No randomized trial' refined to 'No independent randomized trial' (the Peptide Pocket Guide describes independent trials of Matrixyl 3000 as limited, not absent). Heavy metals: the course now reports the Hormonaly guide's statement and then that its published analysis could not be found, instead of contradicting it silently. Wording only."
       }
     ],
     "accreditation": {

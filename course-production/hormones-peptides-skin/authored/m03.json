@@ -1352,7 +1352,7 @@
      {
       "value": "none",
       "label": {
-       "en": "No human outcome data"
+       "en": "Little or no human outcome data"
       },
       "tone": "bad"
      }
@@ -1961,7 +1961,7 @@
     "inflammaging"
    ],
    "answer": {
-    "en": "Mechanism: bacterial lipopolysaccharide crossing a leaky gut barrier ('metabolic endotoxaemia') drives inflammation and insulin resistance in mice, and a single high-fat meal briefly raised plasma endotoxin in a study of 12 healthy men (D). Human evidence for skin: an independent Cochrane review of 39 trials found probiotics probably make little or no difference to patient-rated eczema symptoms (B); a 2024 meta-analysis in children without food allergy reported small score improvements (C); one small randomized trial found rosacea improved after small-intestinal bacterial overgrowth was treated (C). A leading review concludes it is unproven that restoring barrier function improves disease outside the gut, and a widely used commercial zonulin assay detects proteins other than zonulin. A fibre-rich diet has strong evidence for cardiometabolic outcomes and none for skin. The Hormonaly guide grades the 'leaky gut' repair stack (L-glutamine, zinc carnosine, BPC-157) D; in the US, BPC-157 is not on the 503A bulks list as of September 2026. Start with diet, metabolic health and the skin diagnosis; investigational peptides come last, if at all, and any injected or research peptide needs a prescriber."
+    "en": "Mechanism: bacterial lipopolysaccharide crossing a leaky gut barrier ('metabolic endotoxaemia') drives inflammation and insulin resistance in mice, and a single high-fat meal briefly raised plasma endotoxin in a study of 12 healthy men (D). Human evidence for skin: an independent Cochrane review of 39 trials found probiotics probably make little or no difference to patient-rated eczema symptoms (B); a 2024 meta-analysis in children without food allergy reported small score improvements (C); one small randomized trial found rosacea improved after small-intestinal bacterial overgrowth was treated (C). A leading review concludes it is unproven that restoring barrier function improves disease outside the gut, and a widely used commercial zonulin assay detects proteins other than zonulin. A fibre-rich diet has strong evidence for cardiometabolic outcomes and has not been tested on skin outcomes. The Hormonaly guide grades the 'leaky gut' repair stack (L-glutamine, zinc carnosine, BPC-157) D; in the US, BPC-157 is not on the 503A bulks list as of September 2026. Start with diet, metabolic health and the skin diagnosis; investigational peptides come last, if at all, and any injected or research peptide needs a prescriber."
    },
    "citationRefs": [
     "cani-2007-metabolic-endotoxemia",
@@ -1983,6 +1983,11 @@
    "date": "2026-09-24",
    "blocks": "m3-p08, m3-p15",
    "change": "From the automated source check: the approvals moment now also cites the Wegovy and Zepbound labels; 'by about half' removed from the high-fat-meal endotoxin sentence (the abstract gives no size)."
+  },
+  {
+   "date": "2026-09-24",
+   "blocks": "m3-p17",
+   "change": "Quickfire category 'No human outcome data' → 'Little or no human outcome data' (the Hormonaly guide calls the repair stack's human outcome data limited)."
   }
  ]
 }
