@@ -1,6 +1,6 @@
 # Hormones and Peptides for Skin · Module 01 — review draft
 
-*ai_draft · authored 2026-09-24 · 19 moments, ~25 min + module check · 34 sources · 20 claims*
+*approved · authored 2026-09-24 · 19 moments, ~25 min + module check · 34 sources · 20 claims*
 
 Every factual sentence traces to the graded registry (`citations/m01.md`). Moments marked **By role** carry the prescriber · clinical staff · advisor versions of the practice guidance; grades and regulatory facts never change by role.
 

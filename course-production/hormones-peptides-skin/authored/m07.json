@@ -1,7 +1,7 @@
 {
  "module": "m07",
  "authoredAt": "2026-09-24",
- "status": "ai_draft",
+ "status": "approved",
  "unit": {
   "id": "m07-story",
   "slug": "m07-story",
@@ -1964,5 +1964,11 @@
    "blocks": "m7-p09",
    "change": "Tesamorelin's description cites the EGRIFTA WR label."
   }
- ]
+ ],
+ "approval": {
+  "gate": "medical_review",
+  "approver": "Fady Hannah-Shmouni, MD FRCPC",
+  "date": "2026-09-24",
+  "scope": "module 07, full-course review draft of 2026-09-24 (course-draft.docx); approval relayed by Omar Saleem, 2026-09-24"
+ }
 }

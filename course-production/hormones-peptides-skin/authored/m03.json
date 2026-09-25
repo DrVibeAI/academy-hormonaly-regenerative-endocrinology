@@ -1,7 +1,7 @@
 {
  "module": "m03",
  "authoredAt": "2026-09-24",
- "status": "ai_draft",
+ "status": "approved",
  "unit": {
   "id": "m03-story",
   "slug": "m03-story",
@@ -1964,16 +1964,18 @@
     "en": "Mechanism: bacterial lipopolysaccharide crossing a leaky gut barrier ('metabolic endotoxaemia') drives inflammation and insulin resistance in mice, and a single high-fat meal briefly raised plasma endotoxin in a study of 12 healthy men (D). Human evidence for skin: an independent Cochrane review of 39 trials found probiotics probably make little or no difference to patient-rated eczema symptoms (B); a 2024 meta-analysis in children without food allergy reported small score improvements (C); one small randomized trial found rosacea improved after small-intestinal bacterial overgrowth was treated (C). A leading review concludes it is unproven that restoring barrier function improves disease outside the gut, and a widely used commercial zonulin assay detects proteins other than zonulin. A fibre-rich diet has strong evidence for cardiometabolic outcomes and has not been tested on skin outcomes. The Hormonaly guide grades the 'leaky gut' repair stack (L-glutamine, zinc carnosine, BPC-157) D; in the US, BPC-157 is not on the 503A bulks list as of September 2026. Start with diet, metabolic health and the skin diagnosis; investigational peptides come last, if at all, and any injected or research peptide needs a prescriber."
    },
    "citationRefs": [
+    "camilleri-2019-leaky-gut",
     "cani-2007-metabolic-endotoxemia",
     "erridge-2007-high-fat-meal-endotoxemia",
-    "makrgeorgou-2018-cochrane-probiotics-eczema",
-    "vassilopoulou-2024-eaaci-ad-diet-meta",
-    "parodi-2008-rosacea-sibo",
-    "camilleri-2019-leaky-gut",
-    "scheffler-2018-zonulin-elisa",
-    "reynolds-2019-carbohydrate-quality",
+    "fda-503a-bulks-page",
+    "fda-503a-categories-2026-05-14",
     "fda-pcac-2026-07-meeting",
-    "hannah-shmouni-2026-are"
+    "hannah-shmouni-2026-are",
+    "makrgeorgou-2018-cochrane-probiotics-eczema",
+    "parodi-2008-rosacea-sibo",
+    "reynolds-2019-carbohydrate-quality",
+    "scheffler-2018-zonulin-elisa",
+    "vassilopoulou-2024-eaaci-ad-diet-meta"
    ],
    "scope": "m03"
   }
@@ -1988,6 +1990,17 @@
    "date": "2026-09-24",
    "blocks": "m3-p17",
    "change": "Quickfire category 'No human outcome data' → 'Little or no human outcome data' (the Hormonaly guide calls the repair stack's human outcome data limited)."
+  },
+  {
+   "date": "2026-09-24",
+   "blocks": "m03-tutor-gut-skin",
+   "change": "Citation only: tutor answer now cites fda-503a-categories-2026-05-14, fda-503a-bulks-page for statements it already made. No wording change."
   }
- ]
+ ],
+ "approval": {
+  "gate": "medical_review",
+  "approver": "Fady Hannah-Shmouni, MD FRCPC",
+  "date": "2026-09-24",
+  "scope": "module 03, full-course review draft of 2026-09-24 (course-draft.docx); approval relayed by Omar Saleem, 2026-09-24"
+ }
 }

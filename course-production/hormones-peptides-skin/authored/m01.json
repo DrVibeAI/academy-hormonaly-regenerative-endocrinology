@@ -1,7 +1,7 @@
 {
  "module": "m01",
  "authoredAt": "2026-09-24",
- "status": "ai_draft",
+ "status": "approved",
  "unit": {
   "id": "m01-story",
   "slug": "m01-story",
@@ -1899,5 +1899,11 @@
    "blocks": "m1-p05, cq-m01-2, tutor-m01-atlas",
    "change": "Source-check alignment: vitamin D3 'to the liver' (the cited source names the liver step); atlas tutor answer no longer adds 'including skin' beyond the abstract."
   }
- ]
+ ],
+ "approval": {
+  "gate": "medical_review",
+  "approver": "Fady Hannah-Shmouni, MD FRCPC",
+  "date": "2026-09-24",
+  "scope": "module 01, full-course review draft of 2026-09-24 (course-draft.docx); approval relayed by Omar Saleem, 2026-09-24"
+ }
 }

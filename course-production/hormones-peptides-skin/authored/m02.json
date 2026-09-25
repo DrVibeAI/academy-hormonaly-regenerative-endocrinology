@@ -1,7 +1,7 @@
 {
  "module": "m02",
  "authoredAt": "2026-09-24",
- "status": "ai_draft",
+ "status": "approved",
  "unit": {
   "id": "m02-story",
   "slug": "m02-story",
@@ -1902,10 +1902,12 @@
    "citationRefs": [
     "ecfr-21-cfr-310-530-hormone-creams",
     "fda-mht-labeling-approval-2026-02-12",
+    "fda-renova-tretinoin-label",
     "hughes-2013-sunscreen-skin-aging-rct",
     "nams-2022-hormone-therapy-position-statement",
     "owen-2016-keeps-skin-wrinkles",
-    "phillips-2008-ht-facial-skin-rct"
+    "phillips-2008-ht-facial-skin-rct",
+    "sitohang-2022-tretinoin-sr"
    ],
    "scope": "m02"
   }
@@ -1915,6 +1917,17 @@
    "date": "2026-09-24",
    "blocks": "m2-p03, m2-p19, tutor-m02-hrt-skin",
    "change": "Source-check alignment: cortisol callout states what the source says (local regulation independent of systemic levels); HRT chip names approved uses and cites the FDA labeling record; KEEPS four-year trial cited in the tutor answer."
+  },
+  {
+   "date": "2026-09-24",
+   "blocks": "tutor-m02-hrt-skin",
+   "change": "Citation only: tutor answer now cites fda-renova-tretinoin-label, sitohang-2022-tretinoin-sr for statements it already made. No wording change."
   }
- ]
+ ],
+ "approval": {
+  "gate": "medical_review",
+  "approver": "Fady Hannah-Shmouni, MD FRCPC",
+  "date": "2026-09-24",
+  "scope": "module 02, full-course review draft of 2026-09-24 (course-draft.docx); approval relayed by Omar Saleem, 2026-09-24"
+ }
 }

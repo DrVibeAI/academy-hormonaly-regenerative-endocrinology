@@ -1378,9 +1378,10 @@
     },
     "pillar": "regulatory-safety",
     "citationRefs": [
+     "fda-503a-categories-2026-05-14",
      "fda-pcac-2026-07-meeting",
-     "federal-register-2026-07361-pcac",
-     "fda-warning-letter-tailor-made-2020"
+     "fda-warning-letter-tailor-made-2020",
+     "federal-register-2026-07361-pcac"
     ]
    }
   },
@@ -1773,36 +1774,60 @@
    "date": "2026-09-24",
    "block": "m4-p14",
    "change": "Named the single randomized BPC-157 trial FDA's July 2026 briefing identified (Ruenzi 2005, ulcerative colitis, meeting abstract only, no significant difference from placebo); title, body and stat wording updated; figure unchanged. Source: FDA PCAC briefing document (fda.gov/media/193343), read in full.",
-   "forReview": "Fady Hannah-Shmouni"
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC",
+   "confirmedAt": "2026-09-24",
+   "confirmation": "confirmed with the full-course review draft of 2026-09-24; relayed by Omar Saleem"
   },
   {
    "date": "2026-09-24",
    "block": "m4-p04, m4-p14",
    "change": "Removed two ClinicalTrials.gov records (NCT07437586 GHK-Cu wound gel; NCT07437547 BPC-157 hamstring) that the draft had cited as recruiting phase 2 trials. Their sponsor, 'Hudson Biotech', also holds a record titled '(Mock Study)', a record whose summary calls itself an 'example interventional study record', and a record re-using the SURMOUNT-1 title; their authenticity cannot be confirmed. The 'phase 2 recruiting' sentence on GHK-Cu is deleted; the BPC-157 list now names only the 2015 PharmaCotherapia phase 1, the 2025 Parlay Wellness product study and the 2026 University of Arkansas phase 1 (start 2027).",
-   "forReview": "Fady Hannah-Shmouni"
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC",
+   "confirmedAt": "2026-09-24",
+   "confirmation": "confirmed with the full-course review draft of 2026-09-24; relayed by Omar Saleem"
   },
   {
    "date": "2026-09-24",
    "block": "m4-p09 (classify)",
    "change": "Leuphasyl: 'no independent or indexed human trial' corrected to 'no randomized trial'. An independent uncontrolled volunteer study exists (Dragomirescu 2014). The classify label 'Manufacturer data only' became 'No randomized trial'; grades unchanged. Found by the automated source check.",
-   "forReview": "Fady Hannah-Shmouni"
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC",
+   "confirmedAt": "2026-09-24",
+   "confirmation": "confirmed with the full-course review draft of 2026-09-24; relayed by Omar Saleem"
   },
   {
    "date": "2026-09-24",
    "block": "m4-p08",
    "change": "Leuphasyl is no longer grouped with the SNAP-25 mimics: it is an enkephalin analogue (as the module's own exercise already says). Wording only. Found by the automated source check.",
-   "forReview": "Fady Hannah-Shmouni"
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC",
+   "confirmedAt": "2026-09-24",
+   "confirmation": "confirmed with the full-course review draft of 2026-09-24; relayed by Omar Saleem"
   },
   {
    "date": "2026-09-24",
    "block": "m4-p17",
    "change": "Heavy metals: 'reported for this market but not documented' reworded to 'claimed for this market, but no published analysis behind that claim was found' (the finding already recorded for the A&RE guide's figure). Wording only; found by the automated source check reading the guide.",
-   "forReview": "Fady Hannah-Shmouni"
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC",
+   "confirmedAt": "2026-09-24",
+   "confirmation": "confirmed with the full-course review draft of 2026-09-24; relayed by Omar Saleem"
   },
   {
    "date": "2026-09-24",
    "block": "m4-p09, m4-p17",
    "change": "Classify label 'No randomized trial' refined to 'No independent randomized trial' (the Peptide Pocket Guide describes independent trials of Matrixyl 3000 as limited, not absent). Heavy metals: the course now reports the Hormonaly guide's statement and then that its published analysis could not be found, instead of contradicting it silently. Wording only.",
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC",
+   "confirmedAt": "2026-09-24",
+   "confirmation": "confirmed with the full-course review draft of 2026-09-24; relayed by Omar Saleem"
+  },
+  {
+   "date": "2026-09-24",
+   "block": "m4-q3",
+   "change": "Citation only: the lesson quiz on GHK-Cu's injectable-only Category 1 exception now cites FDA's 503A categories list (14 May 2026). No wording change.",
    "forReview": "Fady Hannah-Shmouni"
   }
  ]

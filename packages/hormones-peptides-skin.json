@@ -3,7 +3,7 @@
   "id": "hormonaly.hormones-peptides-skin",
   "slug": "hormones-peptides-skin",
   "kind": "course",
-  "version": "0.3.0-full-draft",
+  "version": "1.0.0-rc.1",
   "title": {
     "en": "Hormones and Peptides for Skin"
   },
@@ -5272,7 +5272,7 @@
         "sortOrder": 1,
         "prerequisites": [],
         "isCapstone": false,
-        "status": "ai_draft",
+        "status": "approved",
         "units": [
           {
             "id": "m01-story",
@@ -5287,7 +5287,7 @@
             "estimatedMinutes": 25,
             "sortOrder": 1,
             "isRequired": true,
-            "status": "ai_draft",
+            "status": "approved",
             "tutorContext": "Module 1 teaches cutaneous neuro-immuno-endocrine physiology with every finding labelled by evidence type (mechanism, human evidence, regulatory status, open question). The skin is described as four immuno-endocrine units (epidermal, dermal, hypodermal, adnexal) that signal locally, via sensory nerves and via the circulation (mechanism reviews, D). Skin cells express CYP11A1, 11β-HSD1, 5α-reductase and aromatase and make cortisol, DHT and estradiol locally (cell/tissue work, D); human scalp follicles run an HPA-like loop with cortisol secretion and CRH feedback ex vivo (Ito 2005) and a GH/IGF-1 loop ex vivo (Horesh 2023); keratinocyte glucocorticoids restrain skin inflammation in mice (Phan 2021); the thyroid-like loop is mostly mouse data. Three directions: local loop; body to skin (Cushing striae, hypothyroid skin); skin to body (vitamin D3 released into the circulation, established human physiology; a skin contribution to circulating sex steroids per reviews). Refer systemic patterns promptly (violaceous striae with new hypertension or diabetes, rapid virilisation), per the Aesthetic & Regenerative Endocrinology guide. The Hormone Cell Atlas (Fei, Huang-Doran et al., Science 2026) read RNA of 379 hormone/receptor genes in ~14 million cells and nuclei from 47 tissues incl. skin; its authors call the predictions putative and hypothesis-generating: RNA is not protein, secretion or clinical effect. The guide's pearl that serum 25(OH)D falls with sunscreen use is not borne out by field trials of daily moderate-SPF sunscreen (Neale 2019, C; high SPF untested); never advise dropping sun protection. Senescence: p16-positive cells rise with age in human epidermis and dermis (C) and track with wrinkles and perceived age (Waaijer 2016, n=178, association, C); the SASP was defined in cultured cells (D); an MMP-1 collagen-fragmentation loop is shown in aged human dermis plus culture (D), with senescent cells a plausible, unproven driver; clearing senescent cells extends healthy lifespan in mice (D); human senotherapy data are small biomarker pilots (Hickson 2019 open-label n=9, D; Chung 2019 topical rapamycin exploratory RCT, C); no randomized trial with clinical skin-ageing outcomes (checked Sept 2026); the guide confines senolytics to trials. Levers with human trials: daily sunscreen (Hughes 2013, n=903, B), topical tretinoin for photoageing (GRADE A), retinol in very old skin (Kafi 2007, C). Never give doses, concentrations, regimens or sourcing; adapt 'what you do next' to the learner's role (prescriber, clinical staff, advisor) without changing evidence. No CME credit is currently offered.",
             "tutorKeywords": [
               "skin endocrine organ",
@@ -7117,7 +7117,7 @@
           "m01"
         ],
         "isCapstone": false,
-        "status": "ai_draft",
+        "status": "approved",
         "units": [
           {
             "id": "m02-story",
@@ -7132,7 +7132,7 @@
             "estimatedMinutes": 26,
             "sortOrder": 1,
             "isRequired": true,
-            "status": "ai_draft",
+            "status": "approved",
             "tutorContext": "Module 2 separates local hormonal skin biology from systemic endocrine disease and keeps four registers apart (mechanism, human evidence, regulatory status, open question). Cortisol: skin expresses an HPA-like axis (CRH, POMC/ACTH) and regenerates cortisol via 11β-HSD1 in keratinocytes and fibroblasts; activity higher in aged and photo-exposed skin, set independently of blood levels (mechanism, D). Only human 11β-HSD1 skin RCT: 28-person pilot in type 2 diabetes, primary outcome missed, exploratory faster wound closure (C); investigational, no FDA approval, no skin-ageing trial registered (24 Sep 2026). Endocrine Society 2008: best discriminators of Cushing's = easy bruising, facial plethora, proximal myopathy, reddish-purple striae >1 cm; facial fullness, dorsocervical fat pad, weight gain, acne, hirsutism, fatigue are common/less discriminating; drug history first (incl. skin-bleaching creams, injections); endogenous incidence 2–3 per million/yr; commonest cause iatrogenic; test multiple progressive features; against widespread testing and random serum cortisol; abnormal → endocrinologist. Estrogen: ERα/ERβ/GPER in skin; topical estradiol raises collagen in sun-protected not photoaged skin (D); collagen and thickness fall ~1–2%/yr after menopause tracking years since menopause (D; the guide's '30% in 5 years' is a review figure not found in primary abstracts). Systemic HT: small RCTs raise skin thickness/collagen (C); largest RCT (n=485, 48 wk) and 4-year KEEPS found no wrinkle difference (B); guide grades B, NAMS Level II, course C for structural gains. US (Feb 2026): MHT approved for hot flashes, vulvovaginal/GSM symptoms, bone loss (some products); 2025–26 label changes removed CV/breast/dementia statements from boxed warning; skin never an indication. NAMS 2022: favourable <60 or within 10 years for symptoms/bone; compounded bioidentical HT insufficient evidence. OTC 'hormone creams' = unapproved drugs (21 CFR 310.530). Skin care with better evidence: daily sunscreen (RCT n=903, B); tretinoin cream FDA-approved adjunct for fine wrinkles. Red flags → referral, never diagnosis by the aesthetic clinician: rapid hirsutism/virilization (tumour ~0.2%, >half malignant) urgent; generalised hyperpigmentation in creases/scars/mucosa with illness (adrenal insufficiency) urgent; Cushing's discriminators, MEN1 angiofibromas (88% of MEN1, not in tuberous sclerosis), Carney complex (lip/eyelid/canthal lentigines, blue naevi, myxomas; cardiac myxomas >50% of deaths), MEN2A interscapular lichen amyloidosis (RET 634) → endocrine referral. Never give doses, regimens or product sourcing; adapt 'what you do next' to prescriber, clinical staff or advisor without changing facts. No CME credit is currently offered.",
             "tutorKeywords": [
               "cortisol face",
@@ -8989,7 +8989,7 @@
           "m01"
         ],
         "isCapstone": false,
-        "status": "ai_draft",
+        "status": "approved",
         "units": [
           {
             "id": "m03-story",
@@ -9004,7 +9004,7 @@
             "estimatedMinutes": 27,
             "sortOrder": 1,
             "isRequired": true,
-            "status": "ai_draft",
+            "status": "approved",
             "tutorContext": "Module 3 teaches metabolic and adipose influences on facial architecture in four separate registers (mechanism, human evidence, regulatory status, open question). dWAT: distinct adipocyte layer in the reticular dermis; reactive adipogenesis and cathelicidin against S. aureus and its age-related loss via TGF-β are mouse data (D); human dWAT is cone-shaped around follicles and human acne lesions contain cathelicidin-producing preadipocytes (D); its role in human skin ageing is unmeasured. Facial subcutaneous fat sits in discrete compartments (cadaver anatomy); in 186 identical-twin pairs higher BMI looked older before ~40 and younger after (C, observational). Glycation: AGEs accumulate in human skin collagen (~5-fold from 20 to 85 y, up to 2x in type 1 diabetes; skin collagen half-life ~15 y) — C; AGE cross-links and RAGE–NF-κB causing visible ageing: the Aesthetic & Regenerative Endocrinology guide rates B, the course grades D (lab/animal + associations); skin autofluorescence is a surrogate validated in non-pigmented skin; 'anti-glycation' products are tested on surrogates or appearance scores (guide grade C). Incretins: semaglutide (GLP-1 RA) and tirzepatide (GIP/GLP-1 RA). US status Sept 2026: Ozempic (T2D, 2017) and Wegovy (weight 06/2021; adolescents 12/2022; CV risk reduction 03/2024; MASH F2–F3 accelerated 08/2025); Mounjaro (T2D, 2022) and Zepbound (weight 11/2023; OSA 12/2024). Compounded, counterfeit and 'research' versions are not FDA-approved. STEP-1 −14.9% vs −2.4% (68 wk); SURMOUNT-1 −15.0 to −20.9% vs −3.1% (72 wk) — GRADE A for weight; median ~28% of weight lost is muscle-related (35 RCTs, B). Facial change ('Ozempic face'): retrospective imaging n=20, median 9% midface volume loss, mostly superficial, ~7%/10 kg (D); survey n=1,226, sagging/facial volume loss/hair loss rise with % weight lost (C); no RCT has measured the face; direct drug action on facial fat is a cell-study hypothesis. US labels list hair loss (~3–6% vs ~1% placebo, mostly women, linked to weight reduction) but not facial volume loss. Practice: counsel before treatment, photograph with consent, protect lean mass (protein, resistance training — no figures), refer restoration to a qualified aesthetic clinician; restoration advice is industry-linked expert consensus; decisions about stopping or changing the medicine belong to the prescriber and patient — never advise stopping, switching or dosing. Gut: inflammaging (IL-6/CRP predict frailty, death); metabolic endotoxaemia shown in mice and as a transient rise after a fatty meal in 12 men (D); restoring barrier function unproven for disease outside the gut; commercial zonulin ELISA detects other proteins. Probiotics for eczema: Cochrane 39 RCTs little/no patient-rated difference (B); children's meta-analysis small SCORAD gain (C). Rifaximin for rosacea with SIBO: small RCT (C). Tirzepatide + ixekizumab psoriasis: open-label Lilly phase 3b (C); liraglutide 20-person RCT negative (C); tirzepatide not approved for psoriasis in the US. Fibre: strong cardiometabolic evidence (guide grade A; review certainty moderate), no skin trials. Akkermansia pilot RCT metabolic only (C). 'Leaky gut' repair stack incl. BPC-157: guide grade D; BPC-157 not on the 503A bulks list (Sept 2026). Adapt the 'what you do next' to the learner's role (prescriber, clinical staff, advisor) without changing grades or regulatory facts. UK/EU status not yet mapped. No CME credit is currently offered.",
             "tutorKeywords": [
               "dWAT",
@@ -12344,9 +12344,10 @@
                   },
                   "pillar": "regulatory-safety",
                   "citationRefs": [
+                    "fda-503a-categories-2026-05-14",
                     "fda-pcac-2026-07-meeting",
-                    "federal-register-2026-07361-pcac",
-                    "fda-warning-letter-tailor-made-2020"
+                    "fda-warning-letter-tailor-made-2020",
+                    "federal-register-2026-07361-pcac"
                   ]
                 }
               },
@@ -12717,7 +12718,7 @@
           "m01"
         ],
         "isCapstone": false,
-        "status": "ai_draft",
+        "status": "approved",
         "units": [
           {
             "id": "m05-story",
@@ -12732,7 +12733,7 @@
             "estimatedMinutes": 26,
             "sortOrder": 1,
             "isRequired": true,
-            "status": "ai_draft",
+            "status": "approved",
             "tutorContext": "Module 5 teaches the hair follicle and the melanocortin system in four separate registers (mechanism, human evidence, regulatory status, open question). Follicle: ex vivo human scalp follicles run an HPA-like loop (CRH → POMC products → cortisol, with feedback) and a GH/IGF-1-like loop (D, organ culture, Paus group); local DHT miniaturises susceptible follicles (androgenetic alopecia); anagen immune-privilege collapse underlies alopecia areata. Baricitinib: BRAVE-AA1/AA2, 1,200 adults, SALT ≤20 at week 36 in up to 39% on baricitinib vs 3–6% on placebo; FDA-approved 13 Jun 2022 for adults with severe alopecia areata (A). A&RE hair-loss workup: patterned → AGA (topical minoxidil; finasteride in men); diffuse after trigger → telogen effluvium (reassure, ferritin, TSH); patchy smooth ± nail pitting → alopecia areata (dermatology referral, thyroid/autoimmune screen); androgen excess → work-up; ferritin + TSH always; scarring → biopsy; refer severe or rapid AA promptly. Minoxidil (men and women) and finasteride (men): A by RCT meta-analysis (Adil 2017); US: topical minoxidil OTC (approved 1988), finasteride Rx (1997). Melanocortins: skin makes POMC → ACTH, α-MSH, β-endorphin; MC1R pigment, MC2R adrenal, MC3R/MC4R brain (appetite; central sexual effects), MC5R sebum. Afamelanotide: MC1R agonist; two sponsor-funded phase 3 RCTs in EPP (US median 69.4 vs 40.8 pain-free sunlight hours; EU 6.0 vs 0.8); EU authorised 22 Dec 2014 (exceptional circumstances), US 2019; EPP only, manufacturer's implant; US label (Aug 2024) recommends full-body skin examination twice yearly; A for EPP; vitiligo phase 3 has no posted results. Melanotan II: non-selective MC1R/3R/4R/5R agonist, brain-penetrant; only controlled data a 3-man 1996 pilot and a 10-man 1998 ED crossover; guides disagree (Pocket Guide C, A&RE D) — course grades cosmetic use D; case-report harms: darkening/growing and eruptive atypical naevi, melanonychia, ≥5 melanomas all with other risk factors (causation unproven), ischaemic priapism, sympathomimetic toxicity with rhabdomyolysis, PRES; online vials held 43–88% of the label with impurities. Status: approved for no indication; US FDA compounding page (22 Apr 2026) lists it among withdrawn category-2 nominations with safety risks; UK MHRA (17 Apr 2024) injectables are unauthorised medicines, stop immediately; Australia TGA (17 Aug 2026) prescription-only, no ARTG product, not approved for tanning; EU status not asserted. A&RE: personal or family history of melanoma = absolute contraindication. A patient disclosing use: stop, record product and seller, full skin and nail examination with dermoscopy/baseline photos where available, prompt dermatology referral; never offer afamelanotide as a substitute. PTD-DBM: CXXC5–Dishevelled decoy activating Wnt; one 2017 mouse/tissue study from the developer's group; no human trial published or registered (Sept 2026); D; theoretical off-target Wnt cancer concern untested. Zinc thymulin: zinc-dependent thymic nonapeptide; no indexed human hair study; D. US (14 May 2026): thymulin acetate 503A Category 3; PTD-DBM on no list; neither on the bulks list (21 CFR 216.23). Never give doses, regimens, reconstitution, sourcing or administration advice; adapt the 'what you do next' to the learner's role (prescriber, clinical staff, advisor) without changing grades or regulatory facts. No CME credit is currently offered.",
             "tutorKeywords": [
               "hair loss",
@@ -14535,7 +14536,7 @@
           "m01"
         ],
         "isCapstone": false,
-        "status": "ai_draft",
+        "status": "approved",
         "units": [
           {
             "id": "m06-story",
@@ -14550,7 +14551,7 @@
             "estimatedMinutes": 26,
             "sortOrder": 1,
             "isRequired": true,
-            "status": "ai_draft",
+            "status": "approved",
             "tutorContext": "Module 6 teaches the growth-hormone/IGF-1 axis in four separate registers (mechanism, human evidence, regulatory status, open question). Mechanism: GH receptor mainly on dermal fibroblasts (collagen, fibroblast growth); IGF-1 made by fibroblasts/melanocytes acts on keratinocyte IGF-1R (proliferation); hair follicles run a local GHRH-GH-IGF-1 loop ex vivo (all D). Somatopause: GH/IGF-1 fall with age; read IGF-1 against age/sex ranges. Human skin evidence: GHD = thinner epidermis, less sweating (Lange 2001, C); acromegaly = GAG deposition and oedema; GH speeds donor-site/burn healing in >40% TBSA burns (Cochrane 2014, 13 small RCTs, C, more hyperglycaemia); Rudman 1990 skin +7.1% P=0.07, n=12, no placebo (D). Healthy older adults: GH gives ~2 kg less fat/2 kg more lean, more oedema, arthralgia, carpal tunnel, diabetes trend (Liu 2007, B; A&RE says A); US: knowingly distributing GH for anti-ageing is a federal offence (21 USC 333(e)). Tesamorelin: two phase 3 RCTs (806 pooled), VAT about -15% vs placebo; FDA-approved 2010 for excess abdominal fat in HIV lipodystrophy only; GRADE A for that indication only; label: IGF-1 >2 SDS in 47%, diabetes-range HbA1c 5% vs 1%, effects of prolonged IGF-1 elevation unknown. No RCT with a skin outcome for tesamorelin, CJC-1295, ipamorelin or IGF-1 LR3 (PubMed Sept 2026); Khorram 1997 GHRH(1-29) analogue, n=19, caliper skin thickness (D). CJC-1295 with DAC: phase 1 hormone levels only (D; guides say C); CJC-1295 without DAC and IGF-1 LR3: no human studies (D); ipamorelin: phase 2 ileus RCT negative (D for anti-ageing); sermorelin adult use D; ibutamoren (MK-677): IGF-1 and lean mass up, no function gain, glucose worse, hip-fracture trial stopped for heart failure. US status (FDA lists 22 Apr and 14 May 2026): no GH-axis peptide on the 503A bulks list (21 CFR 216.23); ibutamoren 503A+503B Category 2; GHRP-2/-6 503A Category 3; CJC-1295 and ipamorelin 503A nominations withdrawn (ipamorelin 503B Category 2); PCAC Oct 2024 voted against ipamorelin (0-12-1) and ibutamoren (1-13); sermorelin: no marketed approved product (Geref withdrawn 2009, not for safety), in no 503A category. GH excess signs: puffy thick face/hands/feet, oily skin, hyperhidrosis, skin tags, acanthosis, acral/jaw growth; on drugs: oedema, arthralgia, paraesthesia, carpal tunnel; somatropin label: watch nevi. Endocrine Society: measure IGF-1 for acral/facial features; suggest when sleep apnoea, T2D, arthritis, carpal tunnel, hyperhidrosis, hypertension cluster. Route to prescriber/endocrinology. Cancer: mechanism plausible; observational IGF-1 associations modest (Renehan 2004 B, UK Biobank C); acromegaly SIR 1.5 pooled vs 1.1 nationwide; GH replacement cohorts reassuring (SAGhE, 2022 consensus); secretagogue/LR3 long-term data absent. Never give doses, cycles, stacks, reconstitution, sourcing or IGF-1 targets; adapt only the 'what you do next' to role (prescriber, clinical staff, advisor). No CME credit is currently offered.",
             "tutorKeywords": [
               "growth hormone",
@@ -16506,7 +16507,7 @@
           "m06"
         ],
         "isCapstone": false,
-        "status": "ai_draft",
+        "status": "approved",
         "units": [
           {
             "id": "m07-story",
@@ -16521,7 +16522,7 @@
             "estimatedMinutes": 27,
             "sortOrder": 1,
             "isRequired": true,
-            "status": "ai_draft",
+            "status": "approved",
             "tutorContext": "Module 7 closes the course: evidence appraisal, US regulatory frameworks and prescriber compliance, kept in separate registers. GRADE: certainty (high, moderate, low, very low; the guides print A–D) for one outcome across a body of evidence, never for a molecule; RCTs start high, observational studies low; rate down for risk of bias, inconsistency, indirectness (study PICO differs from the question), imprecision (CI crosses the important difference) and publication bias (suspect it when evidence is small industry-funded studies); rate up for large effects. Course examples: GHK-Cu's one indexed RCT measured post-laser healing (indirect for photoageing); BPC-157 wound data are rodent (indirect); LL-37 34-person positive then 148-person negative phase IIb (inconsistent); oral collagen benefit only in low-quality and industry-funded trials (risk of bias, Myung 2025). Lundh 2017 Cochrane: industry-sponsored studies more often favourable efficacy results, RR 1.27 (1.17–1.37). Grade and legal status are separate checks; mechanism never raises a grade. US 503A (21 USC 353a): identified patient, prescription; exempt only from approval, adequate directions, cGMP; bulk substance must meet a USP/NF monograph, else be an approved-drug component, else be on the 503A bulks list; registered manufacturer and valid COA; no statutory purity figure. 21 CFR 216.23: six substances, none a peptide, unchanged since 2019 (eCFR current 22 Sep 2026); listing is no endorsement. Categories 1–3 = interim enforcement posture: Category 1 includes non-injectable GHK-Cu (14 May 2026); 503A Category 2 has six substances; BPC-157, TB-500, KPV, injectable GHK-Cu, LL-37, melanotan II are withdrawn nominations with safety concerns still posted. PCAC 23–24 Jul 2026 is advisory; FDA staff concluded criteria weigh against listing BPC-157; only rulemaking changes the list. 503B: registered outsourcing facility, cGMP, risk-based inspection, adverse-event reporting, may compound without patient-specific prescriptions; products unapproved. >40 alpha amino acids = protein = biological product since 23 Mar 2020 (85 FR 10057); tesamorelin and hyaluronidase became BLAs; biologics cannot use 503A/503B exemptions; retatrutide residue count upheld by a district court in 2025, appeal pending (June 2026 filings). COA = supplier's report on one lot: MS identity (observed vs expected mass), HPLC purity (impurities unnamed), endotoxin (limit calculated from dose and route, FDA 2026 guidance), microbial, water, counter-ion, metals, solvents; cannot prove the vial is that lot, storage, sterility or legality; red flags = no lot, no chromatogram, no impurities, no endotoxin on an injectable, over 12 months old. FDA's BPC-157 briefing: public COAs mostly purity only; the nominator's COA reported no endotoxin test, and the COAs supplied were for the acetate while the free base was nominated. Ashraf 2024: three online semaglutide vials 7.7–14.4% purity vs 99% labelled, endotoxin in all. RUO: 21 CFR 312.160 permits shipment for lab or in-vitro research, 'Not for use in humans'; intended use judged objectively (21 CFR 201.128); a COA cannot convert RUO into a pharmaceutical. Cosmetic vs drug by intended use ('regenerate cells' is a drug claim; 'cosmeceutical' has no legal meaning); supplements not approved before sale; off-label applies only to approved drugs; unapproved new drug in interstate commerce is a prohibited act (21 USC 331); FDA's 2020 warning letter named compounded BPC-157 and GHK-Cu. Chart: article and status in those words; pathway, facility and COA if compounded; consent (not approved, foreseeable risks, approved alternatives incl. nothing, what happens if harm; elements borrowed from 21 CFR 50.25); grade quoted; monitoring and stopping rule; dated status check. US only; UK and EU mapping pending. Never give doses, reconstitution, stacking, administration or sourcing; never validate a vendor or call a COA 'safe'. Adapt 'what you do next' to prescriber, clinical staff or advisor without changing grades or facts. The course is designed toward future CME accreditation; no credit is offered at this time.",
             "tutorKeywords": [
               "GRADE",
@@ -19170,10 +19171,12 @@
       "citationRefs": [
         "ecfr-21-cfr-310-530-hormone-creams",
         "fda-mht-labeling-approval-2026-02-12",
+        "fda-renova-tretinoin-label",
         "hughes-2013-sunscreen-skin-aging-rct",
         "nams-2022-hormone-therapy-position-statement",
         "owen-2016-keeps-skin-wrinkles",
-        "phillips-2008-ht-facial-skin-rct"
+        "phillips-2008-ht-facial-skin-rct",
+        "sitohang-2022-tretinoin-sr"
       ],
       "scope": "m02"
     },
@@ -19222,16 +19225,18 @@
         "en": "Mechanism: bacterial lipopolysaccharide crossing a leaky gut barrier ('metabolic endotoxaemia') drives inflammation and insulin resistance in mice, and a single high-fat meal briefly raised plasma endotoxin in a study of 12 healthy men (D). Human evidence for skin: an independent Cochrane review of 39 trials found probiotics probably make little or no difference to patient-rated eczema symptoms (B); a 2024 meta-analysis in children without food allergy reported small score improvements (C); one small randomized trial found rosacea improved after small-intestinal bacterial overgrowth was treated (C). A leading review concludes it is unproven that restoring barrier function improves disease outside the gut, and a widely used commercial zonulin assay detects proteins other than zonulin. A fibre-rich diet has strong evidence for cardiometabolic outcomes and has not been tested on skin outcomes. The Hormonaly guide grades the 'leaky gut' repair stack (L-glutamine, zinc carnosine, BPC-157) D; in the US, BPC-157 is not on the 503A bulks list as of September 2026. Start with diet, metabolic health and the skin diagnosis; investigational peptides come last, if at all, and any injected or research peptide needs a prescriber."
       },
       "citationRefs": [
+        "camilleri-2019-leaky-gut",
         "cani-2007-metabolic-endotoxemia",
         "erridge-2007-high-fat-meal-endotoxemia",
-        "makrgeorgou-2018-cochrane-probiotics-eczema",
-        "vassilopoulou-2024-eaaci-ad-diet-meta",
-        "parodi-2008-rosacea-sibo",
-        "camilleri-2019-leaky-gut",
-        "scheffler-2018-zonulin-elisa",
-        "reynolds-2019-carbohydrate-quality",
+        "fda-503a-bulks-page",
+        "fda-503a-categories-2026-05-14",
         "fda-pcac-2026-07-meeting",
-        "hannah-shmouni-2026-are"
+        "hannah-shmouni-2026-are",
+        "makrgeorgou-2018-cochrane-probiotics-eczema",
+        "parodi-2008-rosacea-sibo",
+        "reynolds-2019-carbohydrate-quality",
+        "scheffler-2018-zonulin-elisa",
+        "vassilopoulou-2024-eaaci-ad-diet-meta"
       ],
       "scope": "m03"
     },
@@ -19487,14 +19492,50 @@
         "gate": "medical_review",
         "approver": "Fady Hannah-Shmouni, MD FRCPC",
         "date": "2026-09-24",
+        "scope": "module 01, full-course review draft of 2026-09-24 (course-draft.docx); approval relayed by Omar Saleem, 2026-09-24"
+      },
+      {
+        "gate": "medical_review",
+        "approver": "Fady Hannah-Shmouni, MD FRCPC",
+        "date": "2026-09-24",
+        "scope": "module 02, full-course review draft of 2026-09-24 (course-draft.docx); approval relayed by Omar Saleem, 2026-09-24"
+      },
+      {
+        "gate": "medical_review",
+        "approver": "Fady Hannah-Shmouni, MD FRCPC",
+        "date": "2026-09-24",
+        "scope": "module 03, full-course review draft of 2026-09-24 (course-draft.docx); approval relayed by Omar Saleem, 2026-09-24"
+      },
+      {
+        "gate": "medical_review",
+        "approver": "Fady Hannah-Shmouni, MD FRCPC",
+        "date": "2026-09-24",
         "scope": "module 04, review draft of 2026-09-24; approval relayed by Omar Saleem, 2026-09-24",
-        "notes": "Changed after this approval, awaiting the approver's confirmation: m4-p14: Named the single randomized BPC-157 trial FDA's July 2026 briefing identified (Ruenzi 2005, ulcerative colitis, meeting abstract only, no significant difference from placebo); title, body and stat wording updated; figure unchanged. Source: FDA PCAC briefing document (fda.gov/media/193343), read in full. | m4-p04, m4-p14: Removed two ClinicalTrials.gov records (NCT07437586 GHK-Cu wound gel; NCT07437547 BPC-157 hamstring) that the draft had cited as recruiting phase 2 trials. Their sponsor, 'Hudson Biotech', also holds a record titled '(Mock Study)', a record whose summary calls itself an 'example interventional study record', and a record re-using the SURMOUNT-1 title; their authenticity cannot be confirmed. The 'phase 2 recruiting' sentence on GHK-Cu is deleted; the BPC-157 list now names only the 2015 PharmaCotherapia phase 1, the 2025 Parlay Wellness product study and the 2026 University of Arkansas phase 1 (start 2027). | m4-p09 (classify): Leuphasyl: 'no independent or indexed human trial' corrected to 'no randomized trial'. An independent uncontrolled volunteer study exists (Dragomirescu 2014). The classify label 'Manufacturer data only' became 'No randomized trial'; grades unchanged. Found by the automated source check. | m4-p08: Leuphasyl is no longer grouped with the SNAP-25 mimics: it is an enkephalin analogue (as the module's own exercise already says). Wording only. Found by the automated source check. | m4-p17: Heavy metals: 'reported for this market but not documented' reworded to 'claimed for this market, but no published analysis behind that claim was found' (the finding already recorded for the A&RE guide's figure). Wording only; found by the automated source check reading the guide. | m4-p09, m4-p17: Classify label 'No randomized trial' refined to 'No independent randomized trial' (the Peptide Pocket Guide describes independent trials of Matrixyl 3000 as limited, not absent). Heavy metals: the course now reports the Hormonaly guide's statement and then that its published analysis could not be found, instead of contradicting it silently. Wording only."
+        "notes": "Changed after this approval, awaiting the approver's confirmation: m4-q3: Citation only: the lesson quiz on GHK-Cu's injectable-only Category 1 exception now cites FDA's 503A categories list (14 May 2026). No wording change."
+      },
+      {
+        "gate": "medical_review",
+        "approver": "Fady Hannah-Shmouni, MD FRCPC",
+        "date": "2026-09-24",
+        "scope": "module 05, full-course review draft of 2026-09-24 (course-draft.docx); approval relayed by Omar Saleem, 2026-09-24"
+      },
+      {
+        "gate": "medical_review",
+        "approver": "Fady Hannah-Shmouni, MD FRCPC",
+        "date": "2026-09-24",
+        "scope": "module 06, full-course review draft of 2026-09-24 (course-draft.docx); approval relayed by Omar Saleem, 2026-09-24"
+      },
+      {
+        "gate": "medical_review",
+        "approver": "Fady Hannah-Shmouni, MD FRCPC",
+        "date": "2026-09-24",
+        "scope": "module 07, full-course review draft of 2026-09-24 (course-draft.docx); approval relayed by Omar Saleem, 2026-09-24"
       }
     ],
     "accreditation": {
       "body": "GCLS",
       "status": "not_submitted",
-      "notes": "Designed toward future CME accreditation (Omar 2026-09-21; pathway confirmed 2026-09-24: CME to be sought through SEASON and its accredited joint-providership partner). CME-style measurable objectives, independence from commercial bias, disclosure of financial relationships. No CME/CE credit is claimed until that approval exists. GCLS accreditation: add-on licensed (Omar, 2026-09-24); the course goes to the GCLS review room after medical review of every module. The certificate is GCLS-issued only once GCLS accredits."
+      "notes": "Designed toward future CME accreditation (Omar 2026-09-21; pathway confirmed 2026-09-24: CME to be sought through SEASON and its accredited joint-providership partner). CME-style measurable objectives, independence from commercial bias, disclosure of financial relationships. No CME/CE credit is claimed until that approval exists. GCLS accreditation: add-on licensed (Omar, 2026-09-24); medical review of every module complete (2026-09-24); next is the GCLS review room. The certificate is GCLS-issued only once GCLS accredits."
     }
   },
   "distribution": {
@@ -19507,46 +19548,9 @@
   },
   "metadata": {
     "generator": "course-production/hormones-peptides-skin/build-package.py",
-    "pendingReview": [
-      {
-        "gate": "medical_review",
-        "module": "m01",
-        "status": "ai_draft",
-        "owner": "Fady Hannah-Shmouni, MD FRCPC"
-      },
-      {
-        "gate": "medical_review",
-        "module": "m02",
-        "status": "ai_draft",
-        "owner": "Fady Hannah-Shmouni, MD FRCPC"
-      },
-      {
-        "gate": "medical_review",
-        "module": "m03",
-        "status": "ai_draft",
-        "owner": "Fady Hannah-Shmouni, MD FRCPC"
-      },
-      {
-        "gate": "medical_review",
-        "module": "m05",
-        "status": "ai_draft",
-        "owner": "Fady Hannah-Shmouni, MD FRCPC"
-      },
-      {
-        "gate": "medical_review",
-        "module": "m06",
-        "status": "ai_draft",
-        "owner": "Fady Hannah-Shmouni, MD FRCPC"
-      },
-      {
-        "gate": "medical_review",
-        "module": "m07",
-        "status": "ai_draft",
-        "owner": "Fady Hannah-Shmouni, MD FRCPC"
-      }
-    ],
+    "pendingReview": [],
     "generatedAt": "2026-09-24",
-    "factory": "perceptor-foundry · stage 30 authored, all seven modules (m04 medically approved; m01–m03, m05–m07 ai_draft awaiting medical review)",
+    "factory": "perceptor-foundry · stage 30 authored and medically approved, all seven modules (Fady Hannah-Shmouni, 2026-09-24)",
     "template": "blended-certification (phone-first delivery, certification-grade checks; unit rendering decided at authoring — the runtime renders one story per module today)",
     "variants": {
       "dimensions": [

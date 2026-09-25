@@ -226,6 +226,18 @@ assessments += [
     },
 ]
 
+def approval_notes(a):
+    """Changes made after an approval: unconfirmed ones are listed as awaiting the approver (the pre-review treats them as a
+    major risk); confirmed ones are recorded as confirmed, with who and when."""
+    ch = a.get("postApprovalChanges") or []
+    open_ = [c for c in ch if not c.get("confirmedBy")]
+    done = [c for c in ch if c.get("confirmedBy")]
+    if open_:
+        return {"notes": "Changed after this approval, awaiting the approver's confirmation: " + " | ".join(f"{c['block']}: {c['change']}" for c in open_)}
+    if done:
+        return {"notes": f"{len(done)} change{'s' if len(done) != 1 else ''} made after this approval, confirmed by {done[-1]['confirmedBy']} on {done[-1]['confirmedAt']}: " + " | ".join(f"{c['block']}: {c['change']}" for c in done)}
+    return {}
+
 COURSE_QUIZ = [q for mid in sorted(AUTHORED) for q in AUTHORED[mid].get("courseQuiz", [])]
 TUTOR = [t for mid in sorted(AUTHORED) for t in AUTHORED[mid].get("tutorEntries", [])]
 ASSESSMENTS = []
@@ -243,7 +255,7 @@ pkg = {
     "id": "hormonaly.hormones-peptides-skin",
     "slug": "hormones-peptides-skin",
     "kind": "course",
-    "version": "0.3.0-full-draft",
+    "version": "1.0.0-rc.1",
     "title": {"en": "Hormones and Peptides for Skin"},
     "summary": {"en": outline["summary"]},
     "academy": {
@@ -321,10 +333,10 @@ pkg = {
         "requiredGates": ["medical_review", "brand_approval", "localization_review", "gcls_accreditation", "publish"],
         # Changes made after an approval ride on that approval's notes (governance is outside the claim-support content digest),
         # so the GCLS reviewer and the review agent see what the approver has not yet re-confirmed.
-        "approvals": [{**a["approval"], **({"notes": "Changed after this approval, awaiting the approver's confirmation: " + " | ".join(f"{c['block']}: {c['change']}" for c in a["postApprovalChanges"])} if a.get("postApprovalChanges") else {})} for a in AUTHORED.values() if a.get("approval")],
+        "approvals": [{**a["approval"], **approval_notes(a)} for a in AUTHORED.values() if a.get("approval")],
         "accreditation": {
             "body": "GCLS", "status": "not_submitted",
-            "notes": "Designed toward future CME accreditation (Omar 2026-09-21; pathway confirmed 2026-09-24: CME to be sought through SEASON and its accredited joint-providership partner). CME-style measurable objectives, independence from commercial bias, disclosure of financial relationships. No CME/CE credit is claimed until that approval exists. GCLS accreditation: add-on licensed (Omar, 2026-09-24); the course goes to the GCLS review room after medical review of every module. The certificate is GCLS-issued only once GCLS accredits.",
+            "notes": "Designed toward future CME accreditation (Omar 2026-09-21; pathway confirmed 2026-09-24: CME to be sought through SEASON and its accredited joint-providership partner). CME-style measurable objectives, independence from commercial bias, disclosure of financial relationships. No CME/CE credit is claimed until that approval exists. GCLS accreditation: add-on licensed (Omar, 2026-09-24); medical review of every module complete (2026-09-24); next is the GCLS review room. The certificate is GCLS-issued only once GCLS accredits.",
         },
     },
     "distribution": {"targets": [{"platform": "academy-app", "notes": "Hormonaly Academy tenant until SEASON's brand kit arrives; a SEASON-branded edition shares this package (one evidence core, editions per academy)."}]},
@@ -332,7 +344,7 @@ pkg = {
         "generator": "course-production/hormones-peptides-skin/build-package.py",
         "pendingReview": [{"gate": "medical_review", "module": mid, "status": AUTHORED[mid].get("status", "ai_draft"), "owner": "Fady Hannah-Shmouni, MD FRCPC"} for mid in sorted(AUTHORED) if not AUTHORED[mid].get("approval")],
         "generatedAt": TODAY,
-        "factory": "perceptor-foundry · stage 30 authored, all seven modules (m04 medically approved; m01–m03, m05–m07 ai_draft awaiting medical review)",
+        "factory": "perceptor-foundry · stage 30 authored and medically approved, all seven modules (Fady Hannah-Shmouni, 2026-09-24)",
         "template": "blended-certification (phone-first delivery, certification-grade checks; unit rendering decided at authoring — the runtime renders one story per module today)",
         "variants": {
             "dimensions": ["audienceLevel"],

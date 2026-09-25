@@ -1,7 +1,7 @@
 {
  "module": "m06",
  "authoredAt": "2026-09-24",
- "status": "ai_draft",
+ "status": "approved",
  "unit": {
   "id": "m06-story",
   "slug": "m06-story",
@@ -1986,5 +1986,11 @@
    "blocks": "m6-p05, cq-m06-2, tutor-m06-gh-excess",
    "change": "Source-check alignment: GH adverse-effect statements cite Liu 2007 (whose results list them); the GH-excess tutor answer cites the Endocrine Society acromegaly guideline."
   }
- ]
+ ],
+ "approval": {
+  "gate": "medical_review",
+  "approver": "Fady Hannah-Shmouni, MD FRCPC",
+  "date": "2026-09-24",
+  "scope": "module 06, full-course review draft of 2026-09-24 (course-draft.docx); approval relayed by Omar Saleem, 2026-09-24"
+ }
 }

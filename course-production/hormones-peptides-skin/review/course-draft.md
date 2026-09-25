@@ -4,19 +4,18 @@
 
 | Module | Title | Moments | Time | Sources | Claims | Status |
 |--------|--------------------------------|---------:|--------|--------:|-------:|----------|
-| m01 | The skin as an endocrine organ, and how it ages · three lessons | 19 | ~25 min | 34 | 20 | ai_draft |
-| m02 | Systemic hormones and the skin · three lessons | 19 | ~26 min | 33 | 20 | ai_draft |
-| m03 | Fat, incretins and the ageing face · three lessons | 20 | ~27 min | 51 | 20 | ai_draft |
+| m01 | The skin as an endocrine organ, and how it ages · three lessons | 19 | ~25 min | 34 | 20 | approved |
+| m02 | Systemic hormones and the skin · three lessons | 19 | ~26 min | 33 | 20 | approved |
+| m03 | Fat, incretins and the ageing face · three lessons | 20 | ~27 min | 51 | 20 | approved |
 | m04 | Matrix peptides and wound healing · three lessons | 19 | ~26 min | 49 | 20 | approved |
-| m05 | Follicle, pigment and melanocortins · three lessons | 19 | ~26 min | 34 | 20 | ai_draft |
-| m06 | The growth-hormone axis and the skin · three lessons | 19 | ~26 min | 38 | 19 | ai_draft |
-| m07 | Evidence, regulation and compliance · three lessons | 20 | ~27 min | 37 | 20 | ai_draft |
+| m05 | Follicle, pigment and melanocortins · three lessons | 19 | ~26 min | 34 | 20 | approved |
+| m06 | The growth-hormone axis and the skin · three lessons | 19 | ~26 min | 38 | 19 | approved |
+| m07 | Evidence, regulation and compliance · three lessons | 20 | ~27 min | 37 | 20 | approved |
 
 ## What we need from you
 
-1. **Medical review of modules m01, m02, m03, m05, m06, m07** (status: AI draft, every claim verified against its source). Approve, or mark the moments to change.
-2. **Confirm the changes made since approval or flagged by the source check** (listed below; m04 was approved before them).
-3. **Confirm the grading-rule addition** marked "added" in the rule below.
+1. **Confirm the changes made since approval or flagged by the source check** (listed below; m01, m02, m03, m04, m05, m06, m07 were approved before them).
+2. **Confirm the grading-rule addition** marked "added" in the rule below.
 
 ### Changes since approval, and corrections from the source check
 
@@ -39,7 +38,7 @@
 
 ### Grading rule (applies to every module)
 
-Grade = certainty the source gives for the specific clinical statement the lesson makes, on the guides' A–D scale. A: consistent large RCTs or approval-grade evidence. B: at least one well-designed, adequately powered RCT or an independent, quality-stratified meta-analysis (either direction). C: small or sponsor-funded RCTs without independent replication, or pooled trials dominated by them. D: animal, in-vitro, mechanistic, case series, manufacturer dossiers. 'context' = history, reviews used for framing, trial registrations without results, analytical or regulatory records (regulatory records are primary for status statements, not graded for efficacy). Where the two guides disagree, the lesson states both and the claim takes the grade the primary evidence supports. Observational studies (added 2026-09-24, GRADE starting point, for the final reviewer to confirm): adequately sized cohort, case-control or cross-sectional studies grade C for the association they measured; small or single-centre ones grade D; any causal claim drawn from observational data grades D. Meta-analyses of observational studies grade at most B, and only for association. Guidelines and consensus statements are 'context', cited for what they recommend, not graded as evidence.
+Grade = certainty the source gives for the specific clinical statement the lesson makes, on the guides' A–D scale. A: consistent large RCTs or approval-grade evidence. B: at least one well-designed, adequately powered RCT or an independent, quality-stratified meta-analysis (either direction). C: small or sponsor-funded RCTs without independent replication, or pooled trials dominated by them. D: animal, in-vitro, mechanistic, case series, manufacturer dossiers. 'context' = history, reviews used for framing, trial registrations without results, analytical or regulatory records (regulatory records are primary for status statements, not graded for efficacy). Where the two guides disagree, the lesson states both and the claim takes the grade the primary evidence supports. Observational studies (added 2026-09-24, GRADE starting point; confirmed by Fady Hannah-Shmouni, MD FRCPC, 2026-09-24): adequately sized cohort, case-control or cross-sectional studies grade C for the association they measured; small or single-centre ones grade D; any causal claim drawn from observational data grades D. Meta-analyses of observational studies grade at most B, and only for association. Guidelines and consensus statements are 'context', cited for what they recommend, not graded as evidence.
 
 ## Findings for the author (all modules)
 
@@ -123,7 +122,7 @@ Grade = certainty the source gives for the specific clinical statement the lesso
 
 # Hormones and Peptides for Skin · Module 01 — review draft
 
-*ai_draft · authored 2026-09-24 · 19 moments, ~25 min + module check · 34 sources · 20 claims*
+*approved · authored 2026-09-24 · 19 moments, ~25 min + module check · 34 sources · 20 claims*
 
 Every factual sentence traces to the graded registry (`citations/m01.md`). Moments marked **By role** carry the prescriber · clinical staff · advisor versions of the practice guidance; grades and regulatory facts never change by role.
 
@@ -460,7 +459,7 @@ Build the checklist you will actually use. It is saved to your path and your tut
 
 # Hormones and Peptides for Skin · Module 02 — review draft
 
-*ai_draft · authored 2026-09-24 · 19 moments, ~26 min + module check · 33 sources · 20 claims*
+*approved · authored 2026-09-24 · 19 moments, ~26 min + module check · 33 sources · 20 claims*
 
 Every factual sentence traces to the graded registry (`citations/m02.md`). Moments marked **By role** carry the prescriber · clinical staff · advisor versions of the practice guidance; grades and regulatory facts never change by role.
 
@@ -805,7 +804,7 @@ Build the checklist you will actually use. It is saved to your path and your tut
 
 # Hormones and Peptides for Skin · Module 03 — review draft
 
-*ai_draft · authored 2026-09-24 · 20 moments, ~27 min + module check · 51 sources · 20 claims*
+*approved · authored 2026-09-24 · 20 moments, ~27 min + module check · 51 sources · 20 claims*
 
 Every factual sentence traces to the graded registry (`citations/m03.md`). Moments marked **By role** carry the prescriber · clinical staff · advisor versions of the practice guidance; grades and regulatory facts never change by role.
 
@@ -1489,7 +1488,7 @@ Build the checklist you will actually use. It is saved to your path and your tut
 
 # Hormones and Peptides for Skin · Module 05 — review draft
 
-*ai_draft · authored 2026-09-24 · 19 moments, ~26 min + module check · 34 sources · 20 claims*
+*approved · authored 2026-09-24 · 19 moments, ~26 min + module check · 34 sources · 20 claims*
 
 Every factual sentence traces to the graded registry (`citations/m05.md`). Moments marked **By role** carry the prescriber · clinical staff · advisor versions of the practice guidance; grades and regulatory facts never change by role.
 
@@ -1829,7 +1828,7 @@ Build the checklist you will actually use. It is saved to your path and your tut
 
 # Hormones and Peptides for Skin · Module 06 — review draft
 
-*ai_draft · authored 2026-09-24 · 19 moments, ~26 min + module check · 38 sources · 19 claims*
+*approved · authored 2026-09-24 · 19 moments, ~26 min + module check · 38 sources · 19 claims*
 
 Every factual sentence traces to the graded registry (`citations/m06.md`). Moments marked **By role** carry the prescriber · clinical staff · advisor versions of the practice guidance; grades and regulatory facts never change by role.
 
@@ -2176,7 +2175,7 @@ Build the checklist you will actually use. It is saved to your path and your tut
 
 # Hormones and Peptides for Skin · Module 07 — review draft
 
-*ai_draft · authored 2026-09-24 · 20 moments, ~27 min + module check · 37 sources · 20 claims*
+*approved · authored 2026-09-24 · 20 moments, ~27 min + module check · 37 sources · 20 claims*
 
 Every factual sentence traces to the graded registry (`citations/m07.md`). Moments marked **By role** carry the prescriber · clinical staff · advisor versions of the practice guidance; grades and regulatory facts never change by role.
 
@@ -2529,5 +2528,211 @@ This is the last moment of the course. Build the commitment you will actually ke
 - ✗ GHK-Cu is in Category 1, so it is approved for skin and the evidence question is settled. — *Category 1 is an enforcement posture while FDA evaluates. It approves nothing and says nothing about evidence.*
 
 
+
+---
+
+## Final quiz (14 questions, pass mark 80%)
+
+**Q1** (m01, `cq-m01-1`) A single-cell RNA atlas predicts that a skin cell type can make a hormone. What would move that finding toward proof of secretion?
+
+- **✓** Showing the hormone protein and its release by those cells, then its effect in tissue or in people. — *Correct. RNA is the first rung; protein, release and function are the next.*
+- · Finding the same RNA in a second atlas. — *Replicating the RNA confirms the transcript, which is still a prediction about secretion.*
+- · Finding the hormone's receptor RNA in neighbouring cells. — *That predicts a possible receiver; it does not show the hormone is made or released.*
+
+Sources: fei-2026-hormone-cell-atlas, hormone-cell-atlas-portal, liu-2016-mrna-protein
+
+**Q2** (m01, `cq-m01-2`) Which finding is a local cutaneous feedback loop rather than systemic endocrine signalling?
+
+- · Skin-made vitamin D3 carried by the blood to the liver. — *That is the skin supplying a whole-body hormone system: skin to body.*
+- **✓** Human scalp follicles in culture secrete cortisol and then reduce their own CRH. — *Correct. Made, sensed and fed back within the follicle, with no systemic connection.*
+- · Thin skin and striae in Cushing syndrome. — *Circulating cortisol excess acting on the skin: body to skin.*
+
+Sources: ito-2005-hair-follicle-hpa, holick-1980-previtamin-d3, hannah-shmouni-2026-are
+
+**Q3** (m02, `cq-m02-1`) Why can a blood or saliva cortisol level not tell you how much cortisol a patient's skin is generating?
+
+- **✓** Because 11β-HSD1 regenerates cortisol inside skin cells, and local availability is regulated independently of circulating levels. — *Correct: a mechanism shown in human skin samples and mice.*
+- · Because skin cells cannot make or activate cortisol. — *They can: skin expresses an HPA-like axis, and 11β-HSD1 regenerates cortisol locally.*
+- · Because saliva and blood cortisol tests are unreliable for everything. — *Late-night salivary cortisol is a first-line test for Cushing's syndrome; it measures systemic cortisol, which is a different question.*
+
+Sources: tiganescu-2011-11bhsd1-skin, nieman-2008-cushings-diagnosis-guideline
+
+**Q4** (m02, `cq-m02-2`) A patient asks whether starting hormone therapy at menopause will stop her wrinkles. Which answer fits the evidence?
+
+- · Yes: estrogen rebuilds collagen, so her wrinkles will improve. — *Small trials show thicker skin, but the largest trials found no difference in wrinkles.*
+- **✓** It may thicken the skin a little, the largest trials found no difference in wrinkles, and skin is not a reason to start; hot flashes or vaginal symptoms are worth discussing with a prescriber. — *Correct: a secondary effect, and an indication-led decision.*
+- · It has no effect on skin at all. — *Small RCTs do show gains in thickness and collagen; what is unproven is a visible wrinkle benefit.*
+
+Sources: phillips-2008-ht-facial-skin-rct, maheux-1994-cee-skin-thickness-rct, fda-mht-labeling-approval-2026-02-12, nams-2022-hormone-therapy-position-statement
+
+**Q5** (m03, `m03-cq1`) A colleague says tirzepatide is 'GRADE A', so its effect on the face must be well established. What is wrong with that reasoning?
+
+- · Nothing: a drug's grade applies to all of its effects. — *Grades attach to a specific outcome in a specific population. The pivotal trials measured weight and never the face.*
+- **✓** Grades attach to outcomes: weight loss is A from large randomized trials, while facial change rests on small observational studies. — *Correct. One grade per outcome.*
+- · Tirzepatide has no GRADE A evidence for anything. — *It does, for weight management and type 2 diabetes, from large randomized trials such as SURMOUNT-1.*
+
+Sources: jastreboff-2022-surmount1, sharma-2025-midface-volume-glp1, rao-2026-glp1-skin-pro-survey, hannah-shmouni-2026-are
+
+**Q6** (m03, `m03-cq2`) Which statement about the gut–skin link is best supported by the evidence?
+
+- · Probiotic capsules reliably clear eczema by repairing the gut barrier. — *Pooled trials show little or no difference in patient-rated eczema symptoms.*
+- **✓** Metabolic endotoxaemia is shown in mice and small human studies, but restoring the gut barrier has not been shown to improve disease outside the gut. — *Correct. Mechanism in mice and short-term human physiology; no proof that barrier repair helps the skin.*
+- · A zonulin blood test identifies patients whose skin disease comes from a leaky gut. — *A widely used zonulin assay detects proteins other than zonulin.*
+
+Sources: cani-2007-metabolic-endotoxemia, erridge-2007-high-fat-meal-endotoxemia, camilleri-2019-leaky-gut, makrgeorgou-2018-cochrane-probiotics-eczema, scheffler-2018-zonulin-elisa
+
+**Q7** (m04, `cq-m04-1`) Which statement about topical GHK-Cu keeps its evidence and its regulatory status apart correctly?
+
+- **✓** It is GRADE C on small trials, and in the US its non-injectable form sits in 503A Category 1, which means under evaluation. — *Correct. Two separate answers: small-trial human evidence, and an enforcement posture that is not an approval.*
+- · Its Category 1 listing shows FDA has found it effective for skin. — *Category 1 means FDA is still evaluating; it says nothing about efficacy.*
+- · Its copper-enzyme mechanism makes its evidence grade A. — *A plausible mechanism is not human evidence; the trials are small (C).*
+
+Sources: miller-2006-ghk-cu-laser-rct, fda-503a-categories-2026-05-14, hannah-shmouni-2026-ppg-aug
+
+**Q8** (m04, `cq-m04-2`) Oral collagen trials pooled together look positive. What did splitting them by funding and quality show?
+
+- · The benefit held in every subgroup. — *It did not: independent and high-quality trials showed no effect.*
+- **✓** The benefit appeared only in pharmaceutical-funded and lower-quality trials. — *Correct — Myung and Park, 2025, 23 RCTs.*
+- · Independent trials showed harm. — *No harm signal was reported; the finding is about absence of benefit.*
+
+Sources: myung-2025-collagen-funding-meta, pu-2023-oral-collagen-meta
+
+**Q9** (m05, `cq-m05-1`) Which statement about afamelanotide and Melanotan II is accurate?
+
+- **✓** Afamelanotide is approved (EU 2014, US 2019) only for erythropoietic protoporphyria; Melanotan II is approved for no indication, and regulators in the US, UK and Australia have warned about it. — *Correct. Same receptor family, different molecules, and only one has an approval, for one rare disease.*
+- · Afamelanotide's US approval covers cosmetic tanning. — *The US indication is to increase pain-free light exposure in adults with EPP; tanning is not an approved use.*
+- · Melanotan II became approvable once FDA reviewed it for compounding. — *Its compounding nomination was withdrawn, and FDA's page lists serious safety risks. A review is never an approval.*
+
+Sources: ema-scenesse-epar, fda-scenesse-label-2024, fda-503a-category2-safety-risks-page, mhra-foi-24-274-melanotan-ii, tga-2026-melanotan-ii-safety-advisory
+
+**Q10** (m05, `cq-m05-2`) A patient asks about a PTD-DBM hair spray. Which grade fits its evidence, and why?
+
+- · A, because it acts on the central Wnt pathway of hair growth. — *A plausible pathway is mechanism, and grades rest on human evidence.*
+- **✓** D: one 2017 study in mice and scalp tissue from the developer's group, and no human trial published or registered as of September 2026. — *Correct. Animal and tissue data only, from one group with a commercial link.*
+- · C, because small human trials show regrowth. — *No human trial of PTD-DBM exists, small or large.*
+
+Sources: lee-2017-ptd-dbm-cxxc5-hair, mehta-2025-wnt-hair-regrowth-review, hannah-shmouni-2026-ppg-aug
+
+**Q11** (m06, `cq-m06-1`) In the US, as of September 2026, which statement about growth-hormone secretagogues and 503A compounding is accurate?
+
+- · Ipamorelin and CJC-1295 are on the 503A bulks list, because clinics compound them widely. — *Neither is on the list. FDA's advisory committee voted against ipamorelin in 2024, and both 503A nominations were withdrawn.*
+- **✓** None of them is on the 503A bulks list; ibutamoren is in FDA's Category 2 for a heart-failure signal, and the ipamorelin and CJC-1295 nominations were withdrawn. — *Correct, dated to FDA's category documents of April and May 2026.*
+- · Sermorelin is an FDA-approved product marketed for adult anti-ageing. — *No sermorelin product is marketed in the US. Its former approvals were for children with GH deficiency and for diagnostic testing.*
+
+Sources: fda-503a-categories-2026-05-14, fda-503a-category2-safety-risks-page, fda-pcac-2024-10-minutes, fr-2013-geref-determination
+
+**Q12** (m06, `cq-m06-2`) Why does a 'low' IGF-1 in a healthy 60-year-old not, on its own, justify growth-hormone therapy?
+
+- **✓** IGF-1 falls normally with age, and trials in healthy older adults show small body-composition gains with more oedema, joint pain and glucose problems. — *Correct. The somatopause is physiology, and the trials point against treatment.*
+- · Because growth hormone has no effect on skin at all. — *GH acts on dermal fibroblasts, and GH excess visibly changes skin. The problem is the balance of benefit and harm in healthy adults.*
+- · Because IGF-1 cannot be measured reliably. — *IGF-1 is a standard test. The point is to read it against an age-matched range and to treat a diagnosis.*
+
+Sources: blackman-2002-gh-sex-steroids-rct, liu-2007-gh-healthy-elderly, veldhuis-2008-somatotropic-ageing
+
+**Q13** (m07, `cq-m07-1`) In GRADE, what does a certainty rating attach to?
+
+- · A single well-run trial. — *GRADE rates a body of evidence, never one study on its own.*
+- · The molecule, across all its uses. — *The same molecule can be high certainty for one outcome and very low for another.*
+- **✓** A body of evidence for a specific outcome. — *Correct. Certainty belongs to an outcome, across the studies that address it.*
+
+Sources: balshem-2011-grade-rating-quality, guyatt-2025-core-grade-5-indirectness, hannah-shmouni-2026-ppg-aug
+
+**Q14** (m07, `cq-m07-2`) Under section 503A, in what order does the statute let a bulk substance qualify for compounding?
+
+- · The bulks list first, then a monograph, then a component of an approved drug. — *Reversed. The bulks list is the last route, open only when the first two are not.*
+- **✓** A USP or NF monograph first, then a component of an approved drug, then the 503A bulks list, with a valid certificate of analysis in every case. — *Correct. The routes are hierarchical, and the certificate and a registered manufacturer are conditions throughout.*
+- · Any substance whose certificate of analysis shows high purity. — *A certificate is a condition, never a route on its own.*
+
+Sources: usc-21-353a, fda-503a-bulks-page, ecfr-21-cfr-216-23-bulks-list
+
+---
+
+## Tutor: prepared answers (14)
+
+The course tutor answers from the course itself; these prepared answers cover the questions learners are most likely to ask.
+
+**hormone cell atlas · cell atlas · single cell atlas · receptor map** (m01, `tutor-m01-atlas`)
+
+The Hormone Cell Atlas (Fei, Huang-Doran et al., Science 2026) read RNA for 379 hormone and receptor genes in about 14 million cells and nuclei from 47 human tissues and predicted which cell types could make or respond to hormones. Its own authors call these predictions putative and hypothesis-generating: RNA shows capacity, not secretion or effect. Treat any 'skin has receptors for it' product claim as a hypothesis until protein, function and a human trial back it. A few skin outputs are established in people, such as vitamin D3 formed under UVB and released into the blood.
+
+Sources: fei-2026-hormone-cell-atlas, hormone-cell-atlas-portal, liu-2016-mrna-protein, holick-1980-previtamin-d3
+
+**senolytic · senolytics · senescence · senescent cells** (m01, `tutor-m01-senescence`)
+
+Senescent cells accumulate in human epidermis and dermis with age, and in one cohort their number tracked with wrinkles and perceived age: an association. Their secretions (the SASP: IL-6, IL-8, matrix-degrading enzymes) were defined in cultured cells. Evidence that clearing senescent cells improves ageing comes from mice; human data are small open-label or exploratory pilots measuring tissue markers. The one randomized study in skin (topical rapamycin, a senomorphic, 2019) was small and exploratory: it lowered p16, and clinical change was only described. No adequately sized trial with clinical skin-ageing outcomes was found (September 2026). In mice, clearing senescent cells during healing slowed wound closure. The Aesthetic & Regenerative Endocrinology guide advises confining senolytics to clinical trials. This course gives no doses or product advice; daily sunscreen and topical retinoids are the levers with human trials, and a prescriber decides on any treatment.
+
+Sources: waaijer-2016-p16-wrinkles, coppe-2008-sasp, baker-2016-p16-clearance-mice, hickson-2019-senolytic-dkd-pilot, chung-2019-topical-rapamycin, hannah-shmouni-2026-are
+
+**cortisol face · moon face · puffy face cortisol · is it cushing's** (m02, `tutor-m02-cortisol-face`)
+
+Most 'cortisol face' is puffiness from sleep, alcohol, salt and weight, as the Aesthetic & Regenerative Endocrinology guide describes it. Endogenous Cushing's syndrome is rare (two to three new cases per million people a year), and its commonest form comes from a glucocorticoid the patient is using, so ask about tablets, inhalers, injections and creams, including skin-lighteners. The features that best discriminate Cushing's are easy bruising, facial plethora, proximal muscle weakness and reddish-purple striae wider than 1 cm; a round face alone is a weak signal. If several are present and progressing, the next step is formal testing arranged by a prescriber and an endocrinologist, not a supplement or a consumer cortisol panel. Local skin cortisol (11β-HSD1) is a research mechanism with no approved treatment.
+
+Sources: nieman-2008-cushings-diagnosis-guideline, tiganescu-2013-11bhsd1-aged-skin, hannah-shmouni-2026-are
+
+**hrt for skin · hormone therapy skin · estrogen for wrinkles · estrogen cream face** (m02, `tutor-m02-hrt-skin`)
+
+Estrogen acts on receptors in skin. In small trials, hormone therapy thickened skin and raised collagen (graded C here). The largest trial on facial skin (485 women, 48 weeks) and a four-year trial in recently menopausal women found no difference in wrinkles. In the US, as of February 2026, approved uses of menopausal hormone therapy are hot flashes, vaginal and vulvar symptoms and, for some products, preventing bone loss; skin is not an indication and is never the reason to start. Compounded 'bioidentical' hormones lack efficacy and safety data, and an over-the-counter 'hormone cream' is an unapproved drug under US rules. For skin, daily sunscreen and a prescription retinoid have better evidence. This course gives no doses; hormone therapy decisions belong with a prescriber.
+
+Sources: ecfr-21-cfr-310-530-hormone-creams, fda-mht-labeling-approval-2026-02-12, hughes-2013-sunscreen-skin-aging-rct, nams-2022-hormone-therapy-position-statement, owen-2016-keeps-skin-wrinkles, phillips-2008-ht-facial-skin-rct
+
+**ozempic face · facial fat loss on semaglutide · tirzepatide face changes · glp-1 facial volume loss** (m03, `m03-tutor-ozempic-face`)
+
+'Ozempic face' describes facial hollowing and laxity during weight loss on incretin drugs. Mechanism: losing fat deflates the superficial facial fat compartments and unmasks laxity already present. Human evidence is observational and small: one retrospective imaging study of 20 patients found a median 9% loss of midface volume, mostly superficial, about 7% per 10 kg lost (D), and a survey of 1,226 patients found sagging, facial volume loss and hair shedding reported more often the more weight was lost (C). No randomized trial has measured the face. Regulatory status (US, September 2026): semaglutide (Ozempic, Wegovy) and tirzepatide (Mounjaro, Zepbound) are FDA-approved for type 2 diabetes, chronic weight management and further heart, liver and sleep-apnoea indications. Their labels list hair loss (about 3–6% on drug against about 1% on placebo, mostly in women, linked to weight reduction) but not facial volume loss. Open question: whether the drugs act directly on facial fat, beyond weight loss, rests on cell studies. In practice: raise facial and hair changes before treatment, record concerns with consented photographs, refer restoration requests to a qualified aesthetic clinician, and take any question about stopping or changing the medicine to the prescriber. The course gives no dosing advice.
+
+Sources: sharma-2025-midface-volume-glp1, rao-2026-glp1-skin-pro-survey, fda-label-wegovy-2026, fda-label-zepbound-2026, fda-drugsfda-wegovy-nda215256, paschou-2025-glp1ra-skin-aging, hannah-shmouni-2026-are
+
+**leaky gut · gut skin axis · zonulin test · probiotics for eczema** (m03, `m03-tutor-gut-skin`)
+
+Mechanism: bacterial lipopolysaccharide crossing a leaky gut barrier ('metabolic endotoxaemia') drives inflammation and insulin resistance in mice, and a single high-fat meal briefly raised plasma endotoxin in a study of 12 healthy men (D). Human evidence for skin: an independent Cochrane review of 39 trials found probiotics probably make little or no difference to patient-rated eczema symptoms (B); a 2024 meta-analysis in children without food allergy reported small score improvements (C); one small randomized trial found rosacea improved after small-intestinal bacterial overgrowth was treated (C). A leading review concludes it is unproven that restoring barrier function improves disease outside the gut, and a widely used commercial zonulin assay detects proteins other than zonulin. A fibre-rich diet has strong evidence for cardiometabolic outcomes and has not been tested on skin outcomes. The Hormonaly guide grades the 'leaky gut' repair stack (L-glutamine, zinc carnosine, BPC-157) D; in the US, BPC-157 is not on the 503A bulks list as of September 2026. Start with diet, metabolic health and the skin diagnosis; investigational peptides come last, if at all, and any injected or research peptide needs a prescriber.
+
+Sources: cani-2007-metabolic-endotoxemia, erridge-2007-high-fat-meal-endotoxemia, makrgeorgou-2018-cochrane-probiotics-eczema, vassilopoulou-2024-eaaci-ad-diet-meta, parodi-2008-rosacea-sibo, camilleri-2019-leaky-gut, scheffler-2018-zonulin-elisa, reynolds-2019-carbohydrate-quality, fda-pcac-2026-07-meeting, hannah-shmouni-2026-are
+
+**ghk-cu · ghk · copper peptide · copper peptides** (m04, `tutor-m04-ghkcu`)
+
+Topical GHK-Cu has a plausible copper-enzyme mechanism and small-trial human support (GRADE C); injected GHK-Cu has no randomized trials and commonly irritates. In the US, as of FDA's 14 May 2026 list, non-injectable GHK-Cu is in 503A Category 1 (under evaluation, not approved); the injectable route is excluded. This course gives no doses or sourcing advice — for an individual patient, that is the prescriber's decision.
+
+Sources: miller-2006-ghk-cu-laser-rct, fda-503a-categories-2026-05-14, hannah-shmouni-2026-ppg-aug
+
+**bpc-157 · bpc 157 · bpc · tb-500** (m04, `tutor-m04-bpc157`)
+
+BPC-157's evidence is rodent studies from one group plus uncontrolled case series; no randomized efficacy trial in people has been published in full (September 2026); the one randomized trial FDA found, in ulcerative colitis, exists only as a 2005 meeting abstract and showed no significant difference from placebo. TB-500 is a seven-residue fragment of thymosin beta-4 that has never been trialled; KPV has only mouse data. GLOW and KLOW are marketing names for untested blends. FDA's advisory committee reviewed BPC-157, KPV and TB-500 in July 2026 — advice only; they are not on the 503A bulks list. New pigmentation while using research-use-only peptides is a red flag: stop, record the product and source, and get it assessed.
+
+Sources: esposito-2012-tb500-fragment, fda-pcac-2026-07-meeting, fda-pcac-2026-bpc157-briefing, hannah-shmouni-2026-are, seiwerth-2021-bpc157-wound-healing
+
+**melanotan · melanotan ii · melanotan 2 · mt2** (m05, `tutor-m05-melanotan`)
+
+Afamelanotide (Scenesse) is an MC1R agonist approved only for erythropoietic protoporphyria (EU 2014, US 2019), on the strength of two sponsor-funded phase 3 trials; even there, the US label recommends a full-body skin examination twice a year. Melanotan II is a different, non-selective molecule approved for no indication. Its only controlled human data are two tiny 1990s studies, and case reports describe darkening and new moles, nail pigmentation, melanomas in people with other risk factors (causation unproven), priapism and rhabdomyolysis. FDA (April 2026), MHRA (April 2024) and TGA (August 2026) have all put warnings on record. If someone has used it: stop, record the product and seller, examine the skin and nails, and refer changing moles; a personal or family history of melanoma makes it an absolute no in the endocrinology guide. This course gives no doses or sourcing advice.
+
+Sources: langendonk-2015-afamelanotide-epp, fda-scenesse-label-2024, bohm-2025-mc1r-activation-review, habbema-2017-msh-analogue-risks, fda-503a-category2-safety-risks-page, hannah-shmouni-2026-are
+
+**ptd-dbm · ptd dbm · zinc thymulin · thymulin** (m05, `tutor-m05-hair-peptides`)
+
+PTD-DBM releases a brake (CXXC5) on Wnt signalling; its whole evidence is one 2017 mouse and tissue study from the developer's group, with no human trial published or registered as of September 2026 (grade D). Zinc thymulin is a zinc-dependent thymic peptide with no indexed human hair study (grade D). In the US, on FDA's 14 May 2026 lists, thymulin acetate is in 503A Category 3 and PTD-DBM is on no list; neither is on the bulks list. Hair loss starts with a workup (pattern, trigger, patches, androgens; ferritin and TSH in everyone), and the approved options, minoxidil, finasteride in men and baricitinib for severe alopecia areata, carry grade A evidence. This course gives no doses or sourcing advice; treatment choices belong with the prescriber.
+
+Sources: lee-2017-ptd-dbm-cxxc5-hair, dardenne-1982-thymulin-zinc, fda-503a-categories-2026-05-14, adil-2017-aga-treatments-meta, hannah-shmouni-2026-ppg-aug, hannah-shmouni-2026-are
+
+**cjc-1295 · cjc 1295 · ipamorelin · sermorelin** (m06, `tutor-m06-secretagogues`)
+
+Tesamorelin is the one peptide on this axis with approval-grade evidence: two phase 3 trials and US approval (2010) for excess abdominal fat in adults with HIV-associated lipodystrophy, GRADE A for that use only. Sermorelin, CJC-1295 with DAC and ipamorelin have human hormone-level data but no trial showing a clinical or skin benefit; CJC-1295 without DAC and IGF-1 LR3 have no published human studies (this course grades all of these D). In the US, as of FDA's lists of April and May 2026, no growth-hormone secretagogue is on the 503A bulks list; ibutamoren (MK-677) is in Category 2, and the CJC-1295 and ipamorelin 503A nominations were withdrawn. Growth hormone itself is approved for diagnosed deficiency and a few growth disorders, and knowingly distributing it for anti-ageing is a federal offence. This course gives no doses or sourcing advice; for an individual patient, that is a prescriber's decision.
+
+Sources: falutz-2010-tesamorelin-pooled, dominikowski-2026-gh-axis-peptides-review, fda-503a-categories-2026-05-14, fda-503a-category2-safety-risks-page, usc-21-333e-hgh
+
+**too much growth hormone · gh excess signs · acromegaly skin · swollen hands** (m06, `tutor-m06-gh-excess`)
+
+Signs of growth-hormone excess include puffy, thickened skin of the face, hands and feet, oily skin, more sweating, skin tags, acanthosis nigricans, tight rings or shoes, night-time tingling and carpal tunnel symptoms. On GH-axis drugs, fluid retention with swelling and joint pain is common and usually settles when treatment stops. The Endocrine Society recommends IGF-1 testing when typical acral and facial features are present, so route these patients to a prescriber or to endocrinology. On cancer, keep four answers apart: the IGF-1 receptor drives cell growth (mechanism); higher natural IGF-1 goes with modestly higher risk of some cancers (observation); GH replacement in true deficiency has not shown a clear risk in large cohorts; and for secretagogues or IGF-1 LR3 used for skin, long-term cancer data do not exist (open question).
+
+Sources: ben-shlomo-2006-acromegaly-skin, egrifta-wr-label-2026, katznelson-2014-acromegaly-guideline, renehan-2004-igf1-cancer-meta, swerdlow-2017-saghe
+
+**grade · grade a · grade c · evidence grade** (m07, `tutor-m07-grade`)
+
+GRADE rates certainty for a specific outcome across a body of evidence: high, moderate, low or very low (the Hormonaly guides print A to D). Randomized trials start high; certainty drops for risk of bias, inconsistency, indirectness, imprecision or suspected publication bias. Industry-sponsored studies more often report favourable results (Cochrane, 2017), so ask who ran and paid for the trials. A grade is separate from legal status: check both, and never let a mechanism raise a grade. This course gives no doses or sourcing advice.
+
+Sources: balshem-2011-grade-rating-quality, guyatt-2025-core-grade-4-bias, lundh-2017-industry-sponsorship, hannah-shmouni-2026-ppg-aug
+
+**certificate of analysis · coa · hplc · purity** (m07, `tutor-m07-compounding-coa`)
+
+In the US, a 503A pharmacy may compound only from a substance that meets a USP or NF monograph, or else is a component of an approved drug, or else is on the 503A bulks list (six substances, none a peptide, as of September 2026), and it needs a valid certificate of analysis. A certificate is the supplier's report on one lot: mass spectrometry for identity, HPLC for purity, plus endotoxin and microbial results. It cannot prove your vial is that lot, how it was stored, or that it is sterile or lawful. 'Research use only' products are labelled not for use in humans, and 'off-label' applies only to approved drugs. This course gives no doses or sourcing advice; for an individual patient, that is the prescriber's decision.
+
+Sources: usc-21-353a, ecfr-21-cfr-216-23-bulks-list, hannah-shmouni-2026-ppg-aug, ecfr-21-cfr-312-160, fda-off-label-page
 
 ---
