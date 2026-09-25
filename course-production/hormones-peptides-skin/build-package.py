@@ -351,6 +351,32 @@ for mid in sorted(AUTHORED):
                          "mediaPreview": "pending — course-production/hormones-peptides-skin/review/media-preview.html"},
         })
 
+# Module opening films (cinematic lane, docs/motion-contract.md § 10b): rendered from course-production/hormones-peptides-skin/video/
+# cinematic/<id>.storyboard.json and listed in media/films-manifest.json; each film is a draft asset with its poster until the media
+# preview, and carries the disclosure line the runtime shows under the player (a synthetic presenter is never unlabelled).
+FILMS_MANIFEST = HERE / "media" / "films-manifest.json"
+FILMS = json.loads(FILMS_MANIFEST.read_text()).get("films", []) if FILMS_MANIFEST.exists() else []
+for fm in FILMS:
+    for key in ("uri", "poster"):
+        f = ROOT / "public" / fm[key]
+        if not f.exists():
+            sys.exit(f"{fm['block']}: film {key} missing: {f.relative_to(ROOT)}")
+    video = ROOT / "public" / fm["uri"]; poster = ROOT / "public" / fm["poster"]
+    ASSETS.append({
+        "id": fm["id"], "kind": "video", "role": "module-opener", "locale": "en", "uri": fm["uri"], "durationSeconds": fm["durationSeconds"],
+        "checksum": "sha256:" + hashlib.sha256(video.read_bytes()).hexdigest(),
+        "generator": {"tool": "perceptor-foundry/tools/video/morph.mjs", "model": fm["models"], "promptRef": fm["storyboard"]},
+        "approvalStatus": "draft", "disclosure": fm["disclosure"],
+        "metadata": {"block": fm["block"], "use": "module opening film", "scriptSources": fm["scriptSources"],
+                     "mediaPreview": "pending — course-production/hormones-peptides-skin/review/media-preview.html"},
+    })
+    ASSETS.append({
+        "id": fm["id"] + "-poster", "kind": "image", "role": "poster", "uri": fm["poster"],
+        "checksum": "sha256:" + hashlib.sha256(poster.read_bytes()).hexdigest(),
+        "generator": {"tool": "perceptor-foundry/tools/video/morph.mjs", "model": "frame of the film", "promptRef": fm["storyboard"]},
+        "approvalStatus": "draft", "metadata": {"block": fm["block"], "use": "film poster", "mediaPreview": "pending — course-production/hormones-peptides-skin/review/media-preview.html"},
+    })
+
 pkg = {
     "packageSchemaVersion": "0.1.0",
     "id": "hormonaly.hormones-peptides-skin",

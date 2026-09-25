@@ -1,0 +1,301 @@
+{
+  "format": "cinematic/1",
+  "id": "m06-opener",
+  "title": "Module 06 opener — Hormones and Peptides for Skin",
+  "note": "Module opener in the cinematic lane (docs/motion-contract.md § 10b), same look and rules as the Module 1 opener. Script assembled only from approved text (sources below); presenter lines pass the course script review; draft media until the media preview.",
+  "script": {
+    "text": "Growth hormone and IGF-1 genuinely shape skin, and one peptide on this axis has approval-grade trials. Most of what patients are offered has much less behind it. In three lessons you will separate the physiology from the promise, the approved from the anecdotal, and the side-effects you can see from the risks nobody has measured. Two layers of skin listen to two different parts of the same axis. Growth hormone speaks mainly to the dermis. Its receptor is expressed more on fibroblasts than on keratinocytes, and in culture growth hormone increases fibroblast numbers and supports collagen synthesis, sometimes directly and sometimes through IGF-1. The epidermis listens to IGF-1. Keratinocytes carry the IGF-1 receptor, their neighbours in the dermis supply the hormone, and in culture IGF-1 makes keratinocytes divide where growth hormone on its own does nothing. With age, growth-hormone pulses and IGF-1 fall steadily, a change called the somatopause. Hold all of this as mechanism. It explains why the axis could matter for skin. Whether changing it helps a patient is a separate question, and the trials answer it.",
+    "sources": [
+      "m6-p01 body, sentences 1, 2, 3",
+      "m6-p02 audioScript, sentences 1, 2, 3, 4, 5, 7, 8, 9, 10"
+    ],
+    "locale": "en"
+  },
+  "voice": {
+    "provider": "gemini-tts",
+    "voice_id": "en-gb-tutor-1",
+    "name": "Gemini 3.8 TTS · en-gb-tutor-1 (Omar's pick 2026-09-25)",
+    "style": "Warm, clear and precise clinical educator speaking to physicians. Natural, unhurried pace. Pronounce every medical and chemical term carefully and confidently."
+  },
+  "presenter": {
+    "look": "2daeb4c1c74e491c89314a4e7dcd4879",
+    "engine": "avatar_v",
+    "resolution": "4k",
+    "name": "HeyGen stock avatar \"Iris\" (licensed)",
+    "disclosure": {
+      "en": "Presented by a digital avatar (AI-generated presenter and voice)."
+    }
+  },
+  "music": {
+    "src": "m06-score.mp3",
+    "lufs": -22
+  },
+  "chrome": {
+    "kicker": "MODULE 06 · THE GROWTH-HORMONE AXIS AND THE SKIN"
+  },
+  "lead": 0.12,
+  "assets": [
+    {
+      "src": "m6-two-layers.png",
+      "kind": "image",
+      "candidates": 2,
+      "prompt": "Accurate scientific medical illustration: a vertical cross-section of human skin centred with generous empty margins, like a textbook plate: the stratified epidermis of keratinocytes on top, some of them dividing, and below it the dermis with wavy collagen bundles, several spindle-shaped fibroblasts and a small blood capillary. Pale grey-blue hormone particles leave the capillary and reach the fibroblasts; the fibroblasts release tiny violet particles that rise to the keratinocytes at the base of the epidermis."
+    },
+    {
+      "src": "m6-broll-mature.mp4",
+      "kind": "video",
+      "prompt": "Extreme macro cinematography of mature skin texture on the outer upper arm of an older adult: fine crepey lines and soft folds catching warm window light, a very slow smooth push-in, shallow depth of field, calm and clinical. Only skin fills the frame: no face, no mouth, no lips, no eyes, no hands, no fingernails, no jewellery, no clothing, no text, no logos."
+    },
+    {
+      "src": "m06-score.mp3",
+      "kind": "music",
+      "prompt": "Instrumental underscore for a 85-second medical education film opener about skin biology, second in a calm series: calm, precise and modern; soft felt piano motif over warm analogue synth pads, a light pulse at 96 BPM entering after 10 seconds, gentle build to a lift two thirds of the way through, resolving softly at the end; documentary feel, same palette as the series, no vocals, no heavy drums, leave space for narration."
+    }
+  ],
+  "states": [
+    {
+      "id": "intro",
+      "shape": {
+        "kind": "frame",
+        "fill": "ink"
+      },
+      "content": {
+        "video": {
+          "presenter": {
+            "from": "Growth hormone and IGF-1",
+            "to": "much less behind it"
+          },
+          "focus": [
+            0.5,
+            0.36
+          ],
+          "zoom": [
+            1.0,
+            1.07
+          ]
+        }
+      },
+      "kinetic": [
+        {
+          "on": "approval-grade trials",
+          "text": "One peptide: approval-grade trials"
+        },
+        {
+          "on": "much less behind it",
+          "text": "Most: much less"
+        }
+      ],
+      "at": 0
+    },
+    {
+      "id": "lessons",
+      "on": "In three lessons",
+      "shape": {
+        "kind": "panel",
+        "fill": "card"
+      },
+      "list": {
+        "kicker": "Three lessons",
+        "rows": [
+          {
+            "label": "Physiology vs promise",
+            "marks": 0
+          },
+          {
+            "label": "Approved vs anecdotal",
+            "marks": 0
+          },
+          {
+            "label": "Visible effects vs unmeasured risks",
+            "marks": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "l1",
+      "on": "the physiology from the promise",
+      "indicator": {
+        "rows": [
+          0,
+          0
+        ],
+        "tag": null
+      }
+    },
+    {
+      "id": "l2",
+      "on": "the approved from the anecdotal",
+      "indicator": {
+        "rows": [
+          1,
+          1
+        ],
+        "tag": null
+      }
+    },
+    {
+      "id": "l3",
+      "on": "the side-effects you can see",
+      "indicator": {
+        "rows": [
+          2,
+          2
+        ],
+        "tag": null
+      }
+    },
+    {
+      "id": "l4",
+      "on": "the risks nobody has measured",
+      "indicator": {
+        "rows": [
+          2,
+          2
+        ],
+        "tag": null
+      }
+    },
+    {
+      "id": "layers",
+      "on": "Two layers of skin",
+      "shape": {
+        "kind": "window",
+        "fill": "paper",
+        "h": 1280
+      },
+      "kinetic": null,
+      "content": {
+        "image": {
+          "src": "m6-two-layers.png",
+          "regions": {
+            "dermis": "the dermis with the spindle-shaped fibroblasts and collagen",
+            "epidermis": "the epidermis of keratinocytes on top",
+            "capillary": "the small blood capillary in the dermis"
+          },
+          "focus": [
+            {
+              "on": "two different parts",
+              "region": "capillary",
+              "label": "One axis, two hormones"
+            },
+            {
+              "on": "speaks mainly to the dermis",
+              "region": "dermis",
+              "label": "Growth hormone → dermis"
+            },
+            {
+              "on": "expressed more on fibroblasts",
+              "region": "dermis",
+              "label": "GH receptor: mainly fibroblasts"
+            },
+            {
+              "on": "fibroblast numbers",
+              "region": "dermis",
+              "label": "More fibroblasts",
+              "zoom": 1.25
+            },
+            {
+              "on": "supports collagen synthesis",
+              "region": "dermis",
+              "label": "Collagen synthesis",
+              "zoom": 1.25
+            },
+            {
+              "on": "sometimes through IGF-1",
+              "region": "dermis",
+              "label": "Directly, or through IGF-1",
+              "zoom": 1.1
+            },
+            {
+              "on": "The epidermis listens",
+              "region": "epidermis",
+              "label": "IGF-1 → epidermis"
+            },
+            {
+              "on": "carry the IGF-1 receptor",
+              "region": "epidermis",
+              "label": "IGF-1 receptor"
+            },
+            {
+              "on": "neighbours in the dermis supply",
+              "region": "dermis",
+              "label": "Supplied by the dermis"
+            },
+            {
+              "on": "keratinocytes divide",
+              "region": "epidermis",
+              "label": "Keratinocytes divide",
+              "zoom": 1.3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "age",
+      "on": "With age",
+      "shape": {
+        "kind": "frame",
+        "fill": "ink"
+      },
+      "content": {
+        "video": {
+          "src": "m6-broll-mature.mp4",
+          "focus": [
+            0.5,
+            0.55
+          ],
+          "zoom": [
+            1.0,
+            1.12
+          ]
+        }
+      },
+      "kinetic": [
+        {
+          "on": "fall steadily",
+          "text": "GH and IGF-1 fall with age"
+        },
+        {
+          "on": "the somatopause",
+          "text": "The somatopause"
+        }
+      ]
+    },
+    {
+      "id": "close",
+      "shape": {
+        "kind": "frame",
+        "fill": "ink"
+      },
+      "content": {
+        "video": {
+          "presenter": {
+            "from": "Hold all of this as mechanism",
+            "to": "trials answer it"
+          },
+          "focus": [
+            0.5,
+            0.36
+          ],
+          "zoom": [
+            1.04,
+            1.1
+          ]
+        }
+      },
+      "kinetic": [
+        {
+          "on": "could matter for skin",
+          "text": "Why it could matter"
+        },
+        {
+          "on": "the trials answer it",
+          "text": "Whether it helps: the trials"
+        }
+      ],
+      "on": "Hold all of this as mechanism"
+    }
+  ]
+}

@@ -1,0 +1,279 @@
+{
+  "format": "cinematic/1",
+  "id": "m04-opener",
+  "title": "Module 04 opener — Hormones and Peptides for Skin",
+  "note": "Module opener in the cinematic lane (docs/motion-contract.md § 10b), same look and rules as the Module 1 opener. Script assembled only from approved text (sources below); presenter lines pass the course script review; draft media until the media preview.",
+  "script": {
+    "text": "Most skin peptides reach your clinic before any evidence does. In three lessons you will sort them by what the human trials actually show, who paid for those trials, and where each one stands with the regulator. Start with the molecule. GHK is a three-amino-acid peptide that circulates in human plasma; it was first described in 1973. It binds copper readily, and the copper complex, GHK-Cu, is what skin-care labels mean when they say copper peptide. The proposed mechanism is that GHK-Cu delivers copper to enzymes that build and protect the dermal matrix, such as lysyl oxidase and superoxide dismutase, and shifts gene expression toward wound healing. Two things to hold on to. First, this is a mechanism, which explains why the peptide might work and leaves open whether it does. Second, most of this literature was written by the group that discovered the peptide. Keep both in mind when you reach the trials.",
+    "sources": [
+      "m4-p01 body, sentences 1, 2",
+      "m4-p03 audioScript, sentences 1, 2, 3, 4, 5, 6, 7, 8"
+    ],
+    "locale": "en"
+  },
+  "voice": {
+    "provider": "gemini-tts",
+    "voice_id": "en-gb-tutor-1",
+    "name": "Gemini 3.8 TTS · en-gb-tutor-1 (Omar's pick 2026-09-25)",
+    "style": "Warm, clear and precise clinical educator speaking to physicians. Natural, unhurried pace. Pronounce every medical and chemical term carefully and confidently."
+  },
+  "presenter": {
+    "look": "2daeb4c1c74e491c89314a4e7dcd4879",
+    "engine": "avatar_v",
+    "resolution": "4k",
+    "name": "HeyGen stock avatar \"Iris\" (licensed)",
+    "disclosure": {
+      "en": "Presented by a digital avatar (AI-generated presenter and voice)."
+    }
+  },
+  "music": {
+    "src": "m04-score.mp3",
+    "lufs": -22
+  },
+  "chrome": {
+    "kicker": "MODULE 04 · MATRIX PEPTIDES AND WOUND HEALING"
+  },
+  "lead": 0.12,
+  "assets": [
+    {
+      "src": "m4-ghk.png",
+      "kind": "image",
+      "candidates": 2,
+      "prompt": "Schematic scientific illustration of a tripeptide, deliberately NOT a chemical structure: no atoms, no bonds, no rings, no ball-and-stick, no letters. Upper group, centred: three large smooth matte spheres of slightly different warm tones joined in a short gently curved row like beads on a fine thread, and a single smaller burnished copper-coloured sphere cradled between the second and the third bead, held there by two fine lines. Lower group, smaller, for comparison: the same three beads on their own with no copper sphere. Generous empty paper around both groups."
+    },
+    {
+      "src": "m4-matrix.png",
+      "kind": "image",
+      "candidates": 2,
+      "prompt": "Accurate scientific medical illustration: a close-up round vignette of the dermal extracellular matrix, centred with generous empty margins. A spindle-shaped fibroblast lies among wavy collagen fibre bundles and fine elastin fibres; tiny copper-coloured ions are delivered to small enzyme shapes that sit where neighbouring collagen fibres are being cross-linked, the cross-links drawn as short violet bridges between fibres."
+    },
+    {
+      "src": "m04-score.mp3",
+      "kind": "music",
+      "prompt": "Instrumental underscore for a 78-second medical education film opener about matrix peptides and the evidence behind them: calm, precise and modern; soft felt piano motif over warm analogue synth pads, a light pulse at 96 BPM entering after 10 seconds, gentle build to a lift two thirds of the way through, resolving softly at the end; documentary feel, same palette as the series, no vocals, no heavy drums, leave space for narration."
+    }
+  ],
+  "states": [
+    {
+      "id": "intro",
+      "shape": {
+        "kind": "frame",
+        "fill": "ink"
+      },
+      "content": {
+        "video": {
+          "presenter": {
+            "from": "Most skin peptides",
+            "to": "any evidence does"
+          },
+          "focus": [
+            0.5,
+            0.36
+          ],
+          "zoom": [
+            1.0,
+            1.07
+          ]
+        }
+      },
+      "kinetic": [
+        {
+          "on": "reach your clinic",
+          "text": "In your clinic"
+        },
+        {
+          "on": "before any evidence",
+          "text": "before the evidence"
+        }
+      ],
+      "at": 0
+    },
+    {
+      "id": "lessons",
+      "on": "In three lessons",
+      "shape": {
+        "kind": "panel",
+        "fill": "card"
+      },
+      "list": {
+        "kicker": "Three lessons",
+        "rows": [
+          {
+            "label": "What the human trials show",
+            "marks": 0
+          },
+          {
+            "label": "Who paid for them",
+            "marks": 0
+          },
+          {
+            "label": "Where the regulator stands",
+            "marks": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "l1",
+      "on": "what the human trials",
+      "indicator": {
+        "rows": [
+          0,
+          0
+        ],
+        "tag": null
+      }
+    },
+    {
+      "id": "l2",
+      "on": "who paid",
+      "indicator": {
+        "rows": [
+          1,
+          1
+        ],
+        "tag": null
+      }
+    },
+    {
+      "id": "l3",
+      "on": "where each one stands",
+      "indicator": {
+        "rows": [
+          2,
+          2
+        ],
+        "tag": null
+      }
+    },
+    {
+      "id": "molecule",
+      "on": "Start with the molecule",
+      "shape": {
+        "kind": "window",
+        "fill": "paper",
+        "h": 1280
+      },
+      "kinetic": null,
+      "content": {
+        "image": {
+          "src": "m4-ghk.png",
+          "regions": {
+            "peptide": "the lower three-residue chain without copper",
+            "complex": "the upper three-residue chain holding the copper-coloured sphere",
+            "copper": "the single copper-coloured sphere"
+          },
+          "focus": [
+            {
+              "on": "three-amino-acid peptide",
+              "region": "peptide",
+              "label": "GHK · Gly-His-Lys"
+            },
+            {
+              "on": "first described in 1973",
+              "region": "peptide",
+              "label": "Human plasma · 1973"
+            },
+            {
+              "on": "binds copper",
+              "region": "copper",
+              "label": "Copper",
+              "zoom": 1.4
+            },
+            {
+              "on": "copper complex",
+              "region": "complex",
+              "label": "GHK-Cu"
+            },
+            {
+              "on": "skin-care labels",
+              "region": "complex",
+              "label": "“Copper peptide” on labels",
+              "zoom": 1.2
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "matrix",
+      "on": "The proposed mechanism",
+      "shape": {
+        "kind": "window",
+        "fill": "paper",
+        "h": 1100
+      },
+      "kinetic": null,
+      "content": {
+        "image": {
+          "src": "m4-matrix.png",
+          "regions": {
+            "crosslinks": "the violet bridges between neighbouring collagen fibres and the small enzyme shapes at them",
+            "fibroblast": "the spindle-shaped fibroblast"
+          },
+          "focus": [
+            {
+              "on": "delivers copper to enzymes",
+              "region": "crosslinks",
+              "label": "Copper to matrix enzymes",
+              "zoom": 1.15
+            },
+            {
+              "on": "lysyl oxidase",
+              "region": "crosslinks",
+              "label": "Lysyl oxidase · cross-links",
+              "zoom": 1.3
+            },
+            {
+              "on": "superoxide dismutase",
+              "region": "fibroblast",
+              "label": "Superoxide dismutase"
+            },
+            {
+              "on": "toward wound healing",
+              "zoom": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "close",
+      "shape": {
+        "kind": "frame",
+        "fill": "ink"
+      },
+      "content": {
+        "video": {
+          "presenter": {
+            "from": "Two things to hold on to",
+            "to": "reach the trials"
+          },
+          "focus": [
+            0.5,
+            0.36
+          ],
+          "zoom": [
+            1.04,
+            1.1
+          ]
+        }
+      },
+      "kinetic": [
+        {
+          "on": "this is a mechanism",
+          "text": "1 · A mechanism"
+        },
+        {
+          "on": "leaves open whether it does",
+          "text": "Whether it works: open"
+        },
+        {
+          "on": "the group that discovered",
+          "text": "2 · Written by its discoverers"
+        }
+      ],
+      "on": "Two things to hold on to"
+    }
+  ]
+}
