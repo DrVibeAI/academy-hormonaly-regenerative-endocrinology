@@ -1,12 +1,10 @@
-# Claim-support dispositions — hormonaly.hormones-peptides-skin v1.0.0-rc.2
+# Claim-support dispositions — hormonaly.hormones-peptides-skin v1.0.0-rc.3
 
 The automated source check left 19 unit(s) with a major finding: a statement the fetched source text does not fully show — usually because only an abstract was readable, the statement records the absence of evidence, or it is standard clinical knowledge the cited source does not spell out. Each needs one decision from the medical owner: **keep** (the statement is right; say why), **edit** (say how), or **cite** (name the source that states it).
 
 Disposition codes the agent may propose: `keep: absence` (a documented search found nothing — no source can state an absence) · `keep: full text` (the cited source states it beyond the abstract) · `keep: standard knowledge` · `edit: …` · `cite: …`.
 
-Confirmed by: PENDING
-
-rc.2: 8 new proposals (country notes, and two Peptide Pocket Guide grades) for decision; 11 entries carried unchanged from rc.1, where they were confirmed.
+Confirmed by: Fady Hannah-Shmouni, MD FRCPC, 2026-09-25 (rc.2 sign-off packet; relayed by Omar Saleem)
 
 ### `j-br-23`
 
@@ -14,7 +12,7 @@ rc.2: 8 new proposals (country notes, and two Peptide Pocket Guide grades) for d
 - **Source check (partial, br-anvisa-register-opendata):** The dataset confirms an active registration for Leucogen (thymomodulin) as an immunomodulator, but does not mention thymostimulin.
 - **Cited:** br-anvisa-register-opendata, br-anvisa-register-dictionary
 
-**Disposition:** PROPOSED: keep: full text + keep: absence — ANVISA's open-data register (DADOS_ABERTOS_MEDICAMENTOS.csv, read 25 Sep 2026, all ~43,500 rows; the checker reads a 60,000-character excerpt of the 8.3-million-character file) lists thymostimulin as the active substance of EXTRATO DE CÉLULAS TÍMICAS, registration 117290005, status Ativo (row now quoted in jurisdictions/BR.json), and Leucogen (thymomodulin) as Ativo; no row names thymulin. The learner note names only thymomodulin.
+**Disposition:** CONFIRMED as proposed: keep: full text + keep: absence — ANVISA's open-data register (DADOS_ABERTOS_MEDICAMENTOS.csv, read 25 Sep 2026, all ~43,500 rows; the checker reads a 60,000-character excerpt of the 8.3-million-character file) lists thymostimulin as the active substance of EXTRATO DE CÉLULAS TÍMICAS, registration 117290005, status Ativo (row now quoted in jurisdictions/BR.json), and Leucogen (thymomodulin) as Ativo; no row names thymulin. The learner note names only thymomodulin.
 
 ### `c-m02-02`
 
@@ -94,7 +92,7 @@ rc.2: 8 new proposals (country notes, and two Peptide Pocket Guide grades) for d
 - **Source check (partial, br-anvisa-semaglutide-synthetic-2026):** The requirement for retention of prescription for GLP-1 receptor agonists is supported, but the specific effective date (23 June 2025) and regulation numbers (RDC 973/2025, IN 360/2025) are not contained in the readable sources.
 - **Cited:** br-label-ozempic, br-anvisa-register-opendata, br-label-wegovy, br-anvisa-semaglutide-synthetic-2026, br-anvisa-semaglutide-five-2026, br-anvisa-consultas-medicamentos, br-label-mounjaro, br-anvisa-glp1-qa-2025, br-anvisa-glp1-retention-2025
 
-**Disposition:** PROPOSED: keep: full text + keep: absence — ANVISA's GLP-1 questions-and-answers page (br-anvisa-glp1-qa-2025), which the checker could not fetch, reads: 'A Instrução Normativa-IN nº 360 e a Resolução da Diretoria Colegiada - RDC nº 973 foram publicadas em 24 de abril de 2025, e entrarão em vigor 60 (sessenta) dias após essa data. Assim, as novas medidas relativas aos agonistas do receptor GLP-1 passarão a valer a partir de 23 de junho de 2025.' (verbatim, jurisdictions/BR.json). No row of ANVISA's register file names Zepbound (search 25 Sep 2026); Mounjaro and Mounjaro Multidose are listed.
+**Disposition:** CONFIRMED as proposed: keep: full text + keep: absence — ANVISA's GLP-1 questions-and-answers page (br-anvisa-glp1-qa-2025), which the checker could not fetch, reads: 'A Instrução Normativa-IN nº 360 e a Resolução da Diretoria Colegiada - RDC nº 973 foram publicadas em 24 de abril de 2025, e entrarão em vigor 60 (sessenta) dias após essa data. Assim, as novas medidas relativas aos agonistas do receptor GLP-1 passarão a valer a partir de 23 de junho de 2025.' (verbatim, jurisdictions/BR.json). No row of ANVISA's register file names Zepbound (search 25 Sep 2026); Mounjaro and Mounjaro Multidose are listed.
 
 ### `m4-p05›metadata.variants.jurisdiction.GB`
 
@@ -102,7 +100,7 @@ rc.2: 8 new proposals (country notes, and two Peptide Pocket Guide grades) for d
 - **Source check (partial, uk-cosmetics-reg-1223-2009-art2):** The regulation defines cosmetic products as any substance or mixture applied externally to change appearance, but does not specifically mention GHK-Cu.
 - **Cited:** uk-cosmetics-reg-1223-2009-art2, mhra-gn8-medicinal-product-2025
 
-**Disposition:** PROPOSED: keep: definition applied — the cited definition (Regulation 1223/2009 art. 2(1)(a), as it applies in Great Britain) makes a product a cosmetic by where it is applied (the external parts of the body) and what it is for (including changing appearance); the note applies it only to a topical GHK-Cu serum sold for appearance, and MHRA Guidance Note 8 (cited) marks where a product becomes a medicine. No source names GHK-Cu, and none needs to.
+**Disposition:** CONFIRMED as proposed: keep: definition applied — the cited definition (Regulation 1223/2009 art. 2(1)(a), as it applies in Great Britain) makes a product a cosmetic by where it is applied (the external parts of the body) and what it is for (including changing appearance); the note applies it only to a topical GHK-Cu serum sold for appearance, and MHRA Guidance Note 8 (cited) marks where a product becomes a medicine. No source names GHK-Cu, and none needs to.
 
 ### `m4-p15`
 
@@ -128,7 +126,7 @@ rc.2: 8 new proposals (country notes, and two Peptide Pocket Guide grades) for d
 - **Source check (partial, hannah-shmouni-2026-are):** The Aesthetic & Regenerative Endocrinology guide rates Melanotan II D, but the Peptide Pocket Guide excerpt does not contain a Grade C rating for it.
 - **Cited:** langendonk-2015-afamelanotide-epp, ema-scenesse-epar, fda-scenesse-label-2024, dorr-1996-melanotan-ii-pilot, wessells-1998-melanotan-ii-ed, bohm-2025-mc1r-activation-review, nct06109649-scenesse-vitiligo, hannah-shmouni-2026-ppg-aug, hannah-shmouni-2026-are
 
-**Disposition:** PROPOSED: keep: full text — the Peptide Pocket Guide (August 2026) grades Melanotan II C: its contents list ('Melanotan II · GRADE C') and the monograph header on p. 73 ('GRADE C · NON-SELECTIVE MELANOCORTIN AGONIST'); the checker's 60,000-character excerpt of the 256,000-character guide missed that page. The Aesthetic & Regenerative Endocrinology guide's D is the quote the checker found.
+**Disposition:** CONFIRMED as proposed: keep: full text — the Peptide Pocket Guide (August 2026) grades Melanotan II C: its contents list ('Melanotan II · GRADE C') and the monograph header on p. 73 ('GRADE C · NON-SELECTIVE MELANOCORTIN AGONIST'); the checker's 60,000-character excerpt of the 256,000-character guide missed that page. The Aesthetic & Regenerative Endocrinology guide's D is the quote the checker found.
 
 ### `m5-p12›metadata.variants.jurisdiction.BR`
 
@@ -136,7 +134,7 @@ rc.2: 8 new proposals (country notes, and two Peptide Pocket Guide grades) for d
 - **Source check (not_found):** The cited text of Law 6.360/1976 is unavailable in the provided sources.
 - **Cited:** br-anvisa-register-opendata, br-anvisa-register-dictionary, br-anvisa-consultas-medicamentos, br-lei-6360-1976
 
-**Disposition:** PROPOSED: keep: full text + keep: absence — Law 6.360/1976 art. 12 (planalto.gov.br, which the checker could not fetch) reads: 'Art. 12 - Nenhum dos produtos de que trata esta Lei, inclusive os importados, poderá ser industrializado, exposto à venda ou entregue ao consumo antes de registrado no Ministério da Saúde.' (verbatim, jurisdictions/BR.json). No row of ANVISA's register file names melanotan (search 25 Sep 2026).
+**Disposition:** CONFIRMED as proposed: keep: full text + keep: absence — Law 6.360/1976 art. 12 (planalto.gov.br, which the checker could not fetch) reads: 'Art. 12 - Nenhum dos produtos de que trata esta Lei, inclusive os importados, poderá ser industrializado, exposto à venda ou entregue ao consumo antes de registrado no Ministério da Saúde.' (verbatim, jurisdictions/BR.json). No row of ANVISA's register file names melanotan (search 25 Sep 2026).
 
 ### `m5-p17`
 
@@ -144,7 +142,7 @@ rc.2: 8 new proposals (country notes, and two Peptide Pocket Guide grades) for d
 - **Source check (partial, hannah-shmouni-2026-ppg-aug):** The pocket guide rates Zinc Thymulin as Grade D, but PTD-DBM is not mentioned in the provided excerpts.
 - **Cited:** fda-503a-categories-2026-05-14, fda-503a-bulks-page, ecfr-21-cfr-216-23-bulks-list, hannah-shmouni-2026-ppg-aug, adil-2017-aga-treatments-meta
 
-**Disposition:** PROPOSED: keep: full text — the Peptide Pocket Guide grades PTD-DBM D (monograph p. 59, 'GRADE D · CELL-PENETRATING WNT-PATHWAY ACTIVATOR') and zinc thymulin D (p. 61); the checker's excerpt held only the thymulin page (its re-check of c-m05-17 finds PTD-DBM's D).
+**Disposition:** CONFIRMED as proposed: keep: full text — the Peptide Pocket Guide grades PTD-DBM D (monograph p. 59, 'GRADE D · CELL-PENETRATING WNT-PATHWAY ACTIVATOR') and zinc thymulin D (p. 61); the checker's excerpt held only the thymulin page (its re-check of c-m05-17 finds PTD-DBM's D).
 
 ### `m7-p21›metadata.variants.jurisdiction.PT`
 
@@ -152,7 +150,7 @@ rc.2: 8 new proposals (country notes, and two Peptide Pocket Guide grades) for d
 - **Source check (partial, pt-infarmed-aue):** The source confirms INFARMED can authorise exceptional use (AUE) under DL 176/2006, but the consolidated statute text defining clinical indispensability is unavailable.
 - **Cited:** pt-infarmed-circ148-2011, pt-dl176-2006, pt-infarmed-aue, pt-dl95-2004, pt-infarmed-manipulados
 
-**Disposition:** PROPOSED: keep: full text — Decreto-Lei 176/2006 (Estatuto do Medicamento) art. 92(1)(a), whose consolidated text on diariodarepublica.pt the checker could not fetch, reads: 'O INFARMED, I.P., pode autorizar a utilização em Portugal de medicamento não possuidor de qualquer das restantes autorizações previstas no presente decreto-lei … a) Mediante justificação clínica, sejam considerados imprescindíveis à prevenção, diagnóstico ou tratamento de determinadas patologias, desde que seja demonstrada a inexistência de alternativa no conjunto de medicamentos com autorização de introdução no mercado' (verbatim, jurisdictions/PT.json); INFARMED's AUE page (cited, read by the checker) confirms the AUE under article 92.
+**Disposition:** CONFIRMED as proposed: keep: full text — Decreto-Lei 176/2006 (Estatuto do Medicamento) art. 92(1)(a), whose consolidated text on diariodarepublica.pt the checker could not fetch, reads: 'O INFARMED, I.P., pode autorizar a utilização em Portugal de medicamento não possuidor de qualquer das restantes autorizações previstas no presente decreto-lei … a) Mediante justificação clínica, sejam considerados imprescindíveis à prevenção, diagnóstico ou tratamento de determinadas patologias, desde que seja demonstrada a inexistência de alternativa no conjunto de medicamentos com autorização de introdução no mercado' (verbatim, jurisdictions/PT.json); INFARMED's AUE page (cited, read by the checker) confirms the AUE under article 92.
 
 ### `m7-p15›metadata.variants.jurisdiction.PT`
 
@@ -160,4 +158,4 @@ rc.2: 8 new proposals (country notes, and two Peptide Pocket Guide grades) for d
 - **Source check (partial, pt-infarmed-aue):** The source confirms that INFARMED grants exceptional use authorisations (AUE) and mentions situations without therapeutic alternatives, but the specific criterion of being clinically indispensable is not detailed in the text.
 - **Cited:** pt-dl176-2006, pt-infarmed-aue
 
-**Disposition:** PROPOSED: keep: full text — the same Decreto-Lei 176/2006 art. 92(1)(a) text as m7-p21 (PT) above.
+**Disposition:** CONFIRMED as proposed: keep: full text — the same Decreto-Lei 176/2006 art. 92(1)(a) text as m7-p21 (PT) above.

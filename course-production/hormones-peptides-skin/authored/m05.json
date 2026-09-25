@@ -114,8 +114,7 @@
     {
      "en": "5.3 Investigational hair peptides, graded"
     }
-   ],
-   "sourceNote": "Hormones and Peptides for Skin · Module 05"
+   ]
   },
   {
    "id": "m5-p02",
@@ -2425,85 +2424,129 @@
    "date": "2026-09-25",
    "block": "m5-p03 (body)",
    "change": "UK added: baricitinib is licensed for severe alopecia areata in adults; NICE did not recommend it for NHS use (TA926, Oct 2023). Claim c-m05-21.",
-   "forReview": "Fady Hannah-Shmouni"
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
   },
   {
    "date": "2026-09-25",
    "block": "m5-p05 (body, beat 2, narration, prescriber version)",
    "change": "UK added: minoxidil licensed and a men's foam on general sale; finasteride for hair loss only on private prescription; baricitinib licensed; MHRA's strengthened finasteride warnings (11 May 2026). Prescriber version adds the UK finasteride steps (ask about depression, patient card, review). Claims c-m05-21, c-m05-22, c-m05-23.",
-   "forReview": "Fady Hannah-Shmouni"
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
   },
   {
    "date": "2026-09-25",
    "block": "m5-p08 (tool row 3)",
    "change": "Regulatory row adds 'UK licensed' for afamelanotide, with its exceptional-circumstances licence, specialist porphyria centres and NICE's July 2023 decision not to recommend it. Claim c-m05-24.",
-   "forReview": "Fady Hannah-Shmouni"
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
   },
   {
    "date": "2026-09-25",
    "block": "m5-p12 (body)",
    "change": "'UK and EU mapping for the rest of this course is still in progress' → 'EU status is not covered in this course.'",
-   "forReview": "Fady Hannah-Shmouni"
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
   },
   {
    "date": "2026-09-25",
    "block": "m5-p17 (body, narration, prescriber version)",
    "change": "'Mapping of UK and EU status ... still under way' replaced: in the UK a spray made for one patient would be an unlicensed special, and MHRA guidance puts a UK-licensed product that could meet the need (e.g. minoxidil) ahead of it; prescriber version adds that cost and convenience do not justify a special. Claim c-m05-25.",
-   "forReview": "Fady Hannah-Shmouni"
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
   },
   {
    "date": "2026-09-25",
    "block": "tutor-m05-melanotan",
    "change": "Tutor answer adds afamelanotide's UK licence and NICE HST27. Citation only: it now also cites the MHRA FOI and TGA advisory records its existing sentence on FDA, MHRA and TGA warnings already relied on (the source check flagged the TGA mention as uncited once the MHRA record was added).",
-   "forReview": "Fady Hannah-Shmouni"
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
   },
   {
    "date": "2026-09-25",
    "block": "tutor-m05-hair-peptides",
    "change": "Tutor answer adds the UK status of minoxidil, finasteride (with MHRA's May 2026 warnings) and baricitinib, and the specials position for a peptide spray.",
-   "forReview": "Fady Hannah-Shmouni"
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
   },
   {
    "date": "2026-09-25",
    "block": "unit tutorContext",
    "change": "Tutor context adds the UK facts above; EU marked as not covered.",
-   "forReview": "Fady Hannah-Shmouni"
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
   },
   {
    "date": "2026-09-25",
    "block": "m5-p03",
    "change": "UK text moved verbatim into the UK note; block sources back to the approved list (the UK sources now sit on the UK note); EU, PT, BR and AE notes added.",
-   "forReview": "Fady Hannah-Shmouni"
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
   },
   {
    "date": "2026-09-25",
    "block": "m5-p05",
    "change": "UK text moved verbatim into the UK note; the UK lines in beat 2 and the narration removed, restoring their approved wording; block sources back to the approved list; EU, PT, BR and AE notes added. The prescriber version's UK finasteride steps stay (they are not in the UK note).",
-   "forReview": "Fady Hannah-Shmouni"
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
   },
   {
    "date": "2026-09-25",
    "block": "m5-p08",
    "change": "UK text moved verbatim into the UK note (row 3 note; 'UK licensed' dropped from the row value, which the UK note states); block sources back to the approved list; EU, PT, BR and AE notes added.",
-   "forReview": "Fady Hannah-Shmouni"
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
   },
   {
    "date": "2026-09-25",
    "block": "m5-p12",
    "change": "'EU status is not covered in this course' removed; EU, PT, BR and AE notes added on Melanotan II; the approved UK row stays in the comparison table.",
-   "forReview": "Fady Hannah-Shmouni"
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
   },
   {
    "date": "2026-09-25",
    "block": "m5-p17",
    "change": "UK text moved verbatim into the UK note; the UK line in the narration removed; block sources back to the approved list; EU, PT, BR and AE notes added. The prescriber version's UK specials line stays (it is not in the UK note).",
-   "forReview": "Fady Hannah-Shmouni"
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
   },
   {
    "date": "2026-09-25",
    "block": "unit tutorContext",
    "change": "Removed 'EU status not asserted' and 'EU not covered'; EU, Portugal, Brazil and UAE status now sits in the moments' jurisdiction notes.",
-   "forReview": "Fady Hannah-Shmouni"
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m5-p01",
+   "change": "Editorial: placeholder source lines removed (the course citing itself on the module cover; an internal audience decision on the role picker). These moments state no facts; nothing else changed.",
+   "forReview": "Omar Saleem",
+   "confirmedBy": "Omar Saleem, product owner (editorial; no medical content changed)",
+   "confirmedAt": "2026-09-25"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m05 module title",
+   "change": "Editorial: the module title is now the plain title 'Follicle, pigment and melanocortins' everywhere (app, homepage, certificate), replacing the intake plan's working title (Omar: \"plain module titles might be nicer, esp on mobile\").",
+   "forReview": "Omar Saleem",
+   "confirmedBy": "Omar Saleem, product owner (editorial; no medical content changed)",
+   "confirmedAt": "2026-09-25"
   }
  ],
  "mediaChanges": [

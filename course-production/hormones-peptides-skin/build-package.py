@@ -75,6 +75,14 @@ for a in AUTHORED.values():
     for cid, locs in (a.get("claimLocations") or {}).items():
         if cid.startswith("j-"):
             PLACED.setdefault(cid.split("-")[1].upper(), set()).update(locs)
+# Medical confirmation of the post-approval changes (every country note is one), from the authored change logs: the jurisdiction
+# records read "confirmed by <reviewer> on <date>" once none is open, never a stale "confirmation pending".
+_CHANGES = [c for a in AUTHORED.values() for c in (a.get("postApprovalChanges") or [])]
+_OPEN = [c for c in _CHANGES if not c.get("confirmedBy")]
+_MED = sorted((c for c in _CHANGES if str(c.get("confirmedBy", "")).startswith("Fady Hannah-Shmouni")), key=lambda c: c.get("confirmedAt", ""))
+CONFIRMATION = ("confirmation pending with the post-approval changes" if _OPEN or not _MED
+                else f"confirmed by Fady Hannah-Shmouni, MD FRCPC on {_MED[-1]['confirmedAt']}")
+REVIEW_OWNER = "Fady Hannah-Shmouni, MD FRCPC" + (" (confirmation pending)" if _OPEN or not _MED else f" (confirmed {_MED[-1]['confirmedAt']})")
 JURISDICTION_LAYER_TOPICS = {
     "product": ("substances", None),
     "claims": ("frameworks", {"advertising", "cosmetics", "supplements"}),
@@ -88,12 +96,12 @@ def _jprofile(code, info):
         kind, topics = JURISDICTION_LAYER_TOPICS[layer]
         n = sum(1 for c in claims if (c.get("kind") == "substance") == (kind == "substances") and (topics is None or c.get("subject") in topics))
         return (f"{n} primary-source statement(s) researched {info.get('researchedAt')}; " +
-                (f"notes on {len(placed)} moment(s); confirmation pending with the post-approval changes." if placed else "not yet placed on moments."))
+                (f"notes on {len(placed)} moment(s); {CONFIRMATION}." if placed else "not yet placed on moments."))
     layers = [{"id": k, "status": status, "detail": detail(k)} for k in ("product", "claims", "practice")]
     layers.append({"id": "locale", "status": status, "detail": "Base English edition; each note names its jurisdiction and date and is shown first to learners who choose that country."})
     return {"code": code, "name": info.get("name", code),
             "authorities": [{k: a[k] for k in ("name", "scope", "url") if a.get(k)} for a in info.get("authorities", [])],
-            "layers": layers, "reviewOwner": "Fady Hannah-Shmouni, MD FRCPC (confirmation pending)"}
+            "layers": layers, "reviewOwner": REVIEW_OWNER}
 # Same order everywhere the learner sees the list (homepage, folded notes, course blurb): US, UK, then EU, Portugal, Brazil, UAE.
 JURISDICTION_ORDER = ["EU", "PT", "BR", "AE"]
 JURISDICTION_PROFILES = [_jprofile(code, info) for code, info in sorted(JREG.get("jurisdictions", {}).items(),
@@ -219,10 +227,15 @@ for i, m in enumerate(outline["modules"], 1):
         story["metadata"] = {"lessons": authored["lessons"], "audienceLevelPanes": authored.get("audienceLevelPanes", []),
                              "authoredAt": authored["authoredAt"], "source": f"course-production/hormones-peptides-skin/authored/{mid}.json"}
         units = [story]
+    # Plain titles everywhere (Omar 2026-09-25: "plain module titles might be nicer, esp on mobile"): the authored unit's title
+    # without its lesson count, in the app, the homepage and the certificate alike; the intake plan's working title stays in the plan.
+    plain = re.sub(r"\s*·\s*(one|two|three|four|five|six|\d+) lessons?$", "", (authored or {}).get("unit", {}).get("title", {}).get("en", "")).strip() or m["title"]
+    if authored:
+        units[0]["title"] = {"en": plain}
     modules.append({
         "id": mid,
         "slug": SLUGS[m["id"]],
-        "title": {"en": m["title"]},
+        "title": {"en": plain},
         "eyebrow": {"en": (f"Module {i:02d} · 3 lessons · {len(authored['blocks'])} moments · ~{authored['unit']['estimatedMinutes']} min"
                            if authored else f"Module {i:02d} · {len(units)} lessons · ~{LESSON_MIN*len(units)+CHECK_MIN} min")},
         "summary": {"en": m["scope"]},
@@ -288,7 +301,11 @@ def approval_notes(a):
     if open_:
         return {"notes": "Changed after this approval, awaiting the approver's confirmation: " + " | ".join(f"{c['block']}: {c['change']}" for c in open_)}
     if done:
-        return {"notes": f"{len(done)} change{'s' if len(done) != 1 else ''} made after this approval, confirmed by {done[-1]['confirmedBy']} on {done[-1]['confirmedAt']}: " + " | ".join(f"{c['block']}: {c['change']}" for c in done)}
+        groups = {}
+        for c in done:
+            groups.setdefault((c["confirmedBy"], c["confirmedAt"]), []).append(c)
+        return {"notes": "; ".join(f"{len(g)} change{'s' if len(g) != 1 else ''} made after this approval, confirmed by {by} on {at}: " + " | ".join(f"{c['block']}: {c['change']}" for c in g)
+                                  for (by, at), g in groups.items())}
     return {}
 
 # Course-level sign-offs (final quiz, tutor answers) recorded from the medical owner's final packet (signoffs.json).
@@ -339,7 +356,7 @@ pkg = {
     "id": "hormonaly.hormones-peptides-skin",
     "slug": "hormones-peptides-skin",
     "kind": "course",
-    "version": "1.0.0-rc.2",
+    "version": "1.0.0-rc.3",
     "title": {"en": "Hormones and Peptides for Skin"},
     "summary": {"en": outline["summary"]},
     "academy": {
@@ -386,13 +403,13 @@ pkg = {
                 {"name": "ASA / CAP", "scope": "Advertising claims, including the ban on advertising prescription-only medicines to the public (CAP Code 12.12)", "url": "https://www.asa.org.uk/type/non_broadcast/code_section/12.html"},
                 {"name": "GMC · GPhC · NMC", "scope": "Professional standards for prescribing unlicensed medicines and for cosmetic interventions", "url": "https://www.gmc-uk.org/professional-standards/the-professional-standards/good-practice-in-prescribing-and-managing-medicines-and-devices/prescribing-unlicensed-medicines"},
             ],
-            "layers": [{"id": k, "status": "mapped", "detail": d + " UK statements added 2026-09-25; confirmation pending with the post-approval changes."} for k, d in [
+            "layers": [{"id": k, "status": "mapped", "detail": d + f" UK statements added 2026-09-25; {CONFIRMATION}."} for k, d in [
                 ("product", "Product status mapped for the UK: MHRA-licensed products checked in UK product information (semaglutide as Ozempic and Wegovy, tirzepatide as Mounjaro, baricitinib, minoxidil, finasteride, somatropin, estradiol HRT, topical tretinoin), afamelanotide's UK licence (via NICE HST27), no UK product information for tesamorelin, sermorelin or ipamorelin (MHRA products database), somatropin as a Class C controlled drug, and the cosmetic (assimilated Regulation 1223/2009) and food-supplement (Food Supplements (England) Regulations 2003) categories. Modules 02–06."),
                 ("claims", "Claims and advertising mapped for the UK: no sale, supply or advertising of a medicine without a UK marketing authorisation (Human Medicines Regulations 2012, regs 46 and 279), no advertising of prescription-only medicines to the public (reg. 284; CAP Code 12.12; MHRA Blue Guide; ASA ruling of 11 Feb 2026), cosmetic claims (Regulation 1223/2009 art. 20; ASA ruling of 13 May 2026 on a peptide serum), and food disease and health claims (Regulation 1169/2011 art. 7(3); Regulation 1924/2006 art. 10). Modules 04 and 07."),
                 ("practice", "Practice mapped for the UK: the 'specials' route (reg. 167) and pharmacy preparation (Medicines Act 1968 s. 10) in place of 503A/503B, MHRA Guidance Note 14's order of preference (licensed, off-label, imported, special), prescriber responsibility (GMC paras 102–108, MHRA Drug Safety Update 2009, GPhC 2025, NMC Code 18), GMC's physical examination before injectable cosmetic medicines, MHRA's finasteride warnings (May 2026) and enforcement (retatrutide; the May 2026 seizure including peptide products; melanotan). Two new moments in module 07 (m7-p21, m7-p22); role versions changed only where the practice line differs by jurisdiction."),
                 ("locale", "Locale mapped for UK learners on the base English edition: UK regulatory wording ('licensed', 'unlicensed medicine', 'special', 'prescription-only medicine', 'marketing authorisation') is used in the UK notes, each labelled 'In the UK' and dated, and shown first to learners who choose the United Kingdom."),
             ]],
-            "reviewOwner": "Fady Hannah-Shmouni, MD FRCPC (confirmation pending)",
+            "reviewOwner": REVIEW_OWNER,
         },
     ] + JURISDICTION_PROFILES,
     "provenance": {
@@ -471,11 +488,8 @@ pkg = {
             "directionApproved": "2026-09-21 via test client invitation — direction only, scientific review pending",
         },
         "openItems": [
-            "author findings for Dr. Hannah-Shmouni (citations/m04.md, end) — send with the final draft",
             "capstone (adversarial co-design conversation) needs a package-driven runtime capstone; credential.capstoneRequired is false until then",
             "balance between endocrinopathy-with-skin-signs and elective aesthetic peptide content (plan question 2)",
-            "GB regulatory mapping — UK statements added 2026-09-25 across modules 02–07 (two new module 07 moments); logged as post-approval changes awaiting Dr. Hannah-Shmouni's confirmation; EU not in scope",
-            "primary citations per module before authoring (guides are single-author secondary sources)",
             "tier-1 brief still 7/8 open on the intake portal (audience, outcomes, boundaries, locales, delivery)",
         ],
     },

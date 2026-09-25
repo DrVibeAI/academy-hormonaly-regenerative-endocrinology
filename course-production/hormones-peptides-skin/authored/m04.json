@@ -112,8 +112,7 @@
     {
      "en": "4.3 Repair peptides, one negative trial, and the compounding line"
     }
-   ],
-   "sourceNote": "Hormones and Peptides for Skin · Module 04"
+   ]
   },
   {
    "id": "m4-p02",
@@ -170,8 +169,7 @@
     "responseLead": {
      "en": "Your path adjusts"
     }
-   },
-   "sourceNote": "Audience decision, Omar Saleem 2026-09-22"
+   }
   },
   {
    "id": "m4-p03",
@@ -2412,91 +2410,137 @@
    "date": "2026-09-25",
    "block": "m4-p05 (tool row 3)",
    "change": "Row relabelled 'US, 14 May 2026; UK, September 2026'; adds that in the UK a GHK-Cu serum sold for appearance is a cosmetic and cosmetics law excludes anything injected. Claim c-m04-21.",
-   "forReview": "Fady Hannah-Shmouni"
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
   },
   {
    "date": "2026-09-25",
    "block": "m4-p06 (body, narration, prescriber version)",
    "change": "UK added: anything injected falls outside cosmetics law and MHRA decides whether it is a medicine; the prescriber line now says '503A' checks apply in the US, and that in the UK a GHK-Cu serum presented for appearance is a cosmetic with nothing to prescribe. Claims c-m04-21, c-m04-24.",
-   "forReview": "Fady Hannah-Shmouni"
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
   },
   {
    "date": "2026-09-25",
    "block": "m4-p11 (body, narration)",
    "change": "'UK and EU rules are being mapped' replaced by the UK position: serums are cosmetics (responsible person, safety assessment, notification, substantiated claims); oral collagen is a food supplement (no disease claims, only authorised health claims); ASA ruling of 13 May 2026 against a peptide serum's 'clinically proven' lift claim. Claims c-m04-21, c-m04-22, c-m04-23.",
-   "forReview": "Fady Hannah-Shmouni"
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
   },
   {
    "date": "2026-09-25",
    "block": "m4-p16 (body)",
    "change": "Pointer added for UK learners: the route for unlicensed medicines works differently in the UK and lesson 7.2 sets it out.",
-   "forReview": "Fady Hannah-Shmouni"
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
   },
   {
    "date": "2026-09-25",
    "block": "m4-p19 (suggestion 3, chip)",
    "change": "'check ... on the live FDA list' → 'check ... with my regulator (FDA lists in the US, MHRA in the UK)'.",
-   "forReview": "Fady Hannah-Shmouni"
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
   },
   {
    "date": "2026-09-25",
    "block": "tutor-m04-ghkcu",
    "change": "Tutor answer adds the UK position (serum = cosmetic; injected products fall outside cosmetics law; an unauthorised medicine may not be sold, supplied or advertised).",
-   "forReview": "Fady Hannah-Shmouni"
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
   },
   {
    "date": "2026-09-25",
    "block": "tutor-m04-bpc157",
    "change": "Tutor answer adds the UK position (no sale, supply or advertising without a UK marketing authorisation; MHRA's May 2026 seizure included peptide products).",
-   "forReview": "Fady Hannah-Shmouni"
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
   },
   {
    "date": "2026-09-25",
    "block": "unit tutorContext",
    "change": "Tutor context adds the UK cosmetic, food-supplement and unlicensed-medicine position (same facts as the blocks).",
-   "forReview": "Fady Hannah-Shmouni"
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
   },
   {
    "date": "2026-09-25",
    "block": "m4-p05",
    "change": "UK text moved verbatim into the UK note (row label back to 'Regulatory status (US, 14 May 2026)'; its 'UK, September 2026' date now closes the note; the UK source ids and the sourceNote's UK part moved from the block to the note). EU, Portugal, Brazil and UAE notes added.",
-   "forReview": "Fady Hannah-Shmouni"
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
   },
   {
    "date": "2026-09-25",
    "block": "m4-p06",
    "change": "UK text moved verbatim into the UK note: the body's UK sentence and the prescriber version's UK clause (removed from the role note, which keeps its US line); the narration's UK sentence removed, so the narration is back to its approved text; UK source ids and the sourceNote's UK part moved from the block to the note. EU, Portugal, Brazil and UAE notes added.",
-   "forReview": "Fady Hannah-Shmouni"
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
   },
   {
    "date": "2026-09-25",
    "block": "m4-p11",
    "change": "UK text moved verbatim into the UK note (the body's three UK sentences); the narration's four UK sentences removed (the earlier 'UK and EU rules are being mapped' line is not restored); UK source ids and the sourceNote's UK part moved from the block to the note. EU, Portugal, Brazil and UAE notes added.",
-   "forReview": "Fady Hannah-Shmouni"
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
   },
   {
    "date": "2026-09-25",
    "block": "m4-p16",
    "change": "UK text moved verbatim into the UK note (the pointer to lesson 7.2, with its MHRA source id). EU, Portugal, Brazil and UAE notes added.",
-   "forReview": "Fady Hannah-Shmouni"
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
   },
   {
    "date": "2026-09-25",
    "block": "m4-p17",
    "change": "EU, Portugal, Brazil and UAE notes added (research-use-only products bought online; registration status of GHK-Cu, BPC-157 and TB-500).",
-   "forReview": "Fady Hannah-Shmouni"
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
   },
   {
    "date": "2026-09-25",
    "block": "m4-p02",
    "change": "Role line no longer says regulatory status is the same for everyone: 'The evidence and grades are the same for everyone, and regulatory notes follow the country you choose. What changes with your role…' (six-jurisdiction course).",
-   "forReview": "Fady Hannah-Shmouni"
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
   },
   {
    "date": "2026-09-25",
    "block": "m4-p05",
    "change": "Source line drops the internal word 'Registry m04 ·'; now reads 'FDA 503A category list, updated 14 May 2026'.",
-   "forReview": "Fady Hannah-Shmouni"
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m4-p01, m4-p02",
+   "change": "Editorial: placeholder source lines removed (the course citing itself on the module cover; an internal audience decision on the role picker). These moments state no facts; nothing else changed.",
+   "forReview": "Omar Saleem",
+   "confirmedBy": "Omar Saleem, product owner (editorial; no medical content changed)",
+   "confirmedAt": "2026-09-25"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m04 module title",
+   "change": "Editorial: the module title is now the plain title 'Matrix peptides and wound healing' everywhere (app, homepage, certificate), replacing the intake plan's working title (Omar: \"plain module titles might be nicer, esp on mobile\").",
+   "forReview": "Omar Saleem",
+   "confirmedBy": "Omar Saleem, product owner (editorial; no medical content changed)",
+   "confirmedAt": "2026-09-25"
   }
  ],
  "mediaChanges": [

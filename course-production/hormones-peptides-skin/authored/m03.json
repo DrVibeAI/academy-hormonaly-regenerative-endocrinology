@@ -114,8 +114,7 @@
     {
      "en": "3.3 The gut barrier, endotoxaemia and inflammaging"
     }
-   ],
-   "sourceNote": "Hormones and Peptides for Skin · Module 03"
+   ]
   },
   {
    "id": "m3-p02",
@@ -2510,91 +2509,137 @@
    "date": "2026-09-25",
    "block": "m3-p08 (body, beat 3, narration)",
    "change": "UK added: both molecules are MHRA-licensed, and tirzepatide's diabetes and weight-management uses share one UK brand, Mounjaro (UK SmPCs; MHRA 8 Nov 2023). Beat 3 now labels the four-brand statement as US. Claim c-m03-21.",
-   "forReview": "Fady Hannah-Shmouni"
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
   },
   {
    "date": "2026-09-25",
    "block": "m3-p09",
    "change": "'UK and EU status is being mapped' replaced by a UK row: Ozempic diabetes, Wegovy weight and heart, Mounjaro diabetes and weight (Nov 2023); MHRA says retatrutide is not authorised and illegal to sell (24 Jul 2026) and made its largest seizure of unlicensed weight-loss medicines in May 2026. EU marked as not covered. Claims c-m03-21, c-m03-23.",
-   "forReview": "Fady Hannah-Shmouni"
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
   },
   {
    "date": "2026-09-25",
    "block": "m3-p11",
    "change": "Regulatory row relabelled 'US and UK'; adds that UK product information also lists hair loss (Wegovy 2.5%, Mounjaro 4.9%, placebo 1.0%). Claim c-m03-22.",
-   "forReview": "Fady Hannah-Shmouni"
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
   },
   {
    "date": "2026-09-25",
    "block": "m3-p17 (quickfire why, tirzepatide)",
    "change": "'In the US, tirzepatide is not approved for psoriasis' → 'Its US approval and its UK licence both leave out psoriasis' (Mounjaro UK SmPC).",
-   "forReview": "Fady Hannah-Shmouni"
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
   },
   {
    "date": "2026-09-25",
    "block": "m3-p18 (narration, prescriber version)",
    "change": "UK sentence added: an unlicensed peptide reaches a patient only through narrow routes such as a special for one patient's clinical need (module 07); prescriber version adds that a UK special needs a clinical need no licensed product meets, on the prescriber's responsibility. Claim c-m03-24.",
-   "forReview": "Fady Hannah-Shmouni"
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
   },
   {
    "date": "2026-09-25",
    "block": "m03-tutor-ozempic-face",
    "change": "Tutor answer adds the UK licences (Ozempic, Wegovy, Mounjaro), UK hair-loss labelling and MHRA's statement that retatrutide is not authorised in the UK.",
-   "forReview": "Fady Hannah-Shmouni"
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
   },
   {
    "date": "2026-09-25",
    "block": "m03-tutor-gut-skin",
    "change": "Tutor answer adds the UK specials route (one patient's special clinical need, prescriber's responsibility).",
-   "forReview": "Fady Hannah-Shmouni"
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
   },
   {
    "date": "2026-09-25",
    "block": "unit tutorContext",
    "change": "'UK/EU status not yet mapped' replaced by the UK facts above; EU marked as not covered.",
-   "forReview": "Fady Hannah-Shmouni"
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
   },
   {
    "date": "2026-09-25",
    "block": "m3-p08",
    "change": "UK text moved verbatim into the UK note (the body sentence; the same UK fact removed from beat 3 and the narration, which is back to the approved wording) and the UK sources with it; EU, Brazil and UAE notes added.",
-   "forReview": "Fady Hannah-Shmouni"
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
   },
   {
    "date": "2026-09-25",
    "block": "m3-p09",
    "change": "UK text moved verbatim into the UK note (the UK row's label and value joined into one opening sentence, its note verbatim) and the UK sources with it; body's UK clause and 'EU status is not covered' removed, US sentence as approved 24 Sep; EU, Portugal, Brazil and UAE notes added.",
-   "forReview": "Fady Hannah-Shmouni"
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
   },
   {
    "date": "2026-09-25",
    "block": "m3-p11",
    "change": "UK text moved verbatim into the UK note and the UK sources with it; regulatory row label back to 'Regulatory status (US, September 2026)' as approved 24 Sep. No EU, Portugal, Brazil or UAE note: no verified source on hair-loss labelling there.",
-   "forReview": "Fady Hannah-Shmouni"
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
   },
   {
    "date": "2026-09-25",
    "block": "m3-p17",
    "change": "EU, Brazil and UAE notes added (tirzepatide indications; BPC-157 status, with Dubai and Abu Dhabi rules). UK clause in the tirzepatide feedback left in place: it shares one sentence with the US statement.",
-   "forReview": "Fady Hannah-Shmouni"
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
   },
   {
    "date": "2026-09-25",
    "block": "m3-p18",
    "change": "UK text moved verbatim into the UK note (the narration sentence) and the UK sources with it; the UK-only sentence removed from the prescriber version, now covered by the UK note; EU, Portugal, Brazil and UAE notes added.",
-   "forReview": "Fady Hannah-Shmouni"
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
   },
   {
    "date": "2026-09-25",
    "block": "unit tutorContext",
    "change": "'EU not covered' removed; the moments' country notes now carry EU, Portugal, Brazil and UAE status.",
-   "forReview": "Fady Hannah-Shmouni"
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
   },
   {
    "date": "2026-09-25",
    "block": "m3-p18",
    "change": "Sources only, no wording changed: the Cochrane review of probiotics for eczema (Makrgeorgou 2018) and the 503A bulks list (21 CFR 216.23) added to the citations and source line; they state the narration's eczema and BPC-157 sentences, which the previously cited sources did not.",
-   "forReview": "Fady Hannah-Shmouni"
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m3-p01",
+   "change": "Editorial: placeholder source lines removed (the course citing itself on the module cover; an internal audience decision on the role picker). These moments state no facts; nothing else changed.",
+   "forReview": "Omar Saleem",
+   "confirmedBy": "Omar Saleem, product owner (editorial; no medical content changed)",
+   "confirmedAt": "2026-09-25"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m03 module title",
+   "change": "Editorial: the module title is now the plain title 'Fat, incretins and the ageing face' everywhere (app, homepage, certificate), replacing the intake plan's working title (Omar: \"plain module titles might be nicer, esp on mobile\").",
+   "forReview": "Omar Saleem",
+   "confirmedBy": "Omar Saleem, product owner (editorial; no medical content changed)",
+   "confirmedAt": "2026-09-25"
   }
  ],
  "mediaChanges": [

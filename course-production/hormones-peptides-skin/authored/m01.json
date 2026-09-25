@@ -114,8 +114,7 @@
     {
      "en": "1.3 Senescence, the SASP and the ageing dermis"
     }
-   ],
-   "sourceNote": "Hormones and Peptides for Skin · Module 01 · course opener"
+   ]
   },
   {
    "id": "m1-p02",
@@ -172,8 +171,7 @@
     "responseLead": {
      "en": "Your path adjusts"
     }
-   },
-   "sourceNote": "Audience decision, Omar Saleem 2026-09-22 · course-wide role router"
+   }
   },
   {
    "id": "m1-p03",
@@ -1997,7 +1995,25 @@
    "date": "2026-09-25",
    "block": "m1-p02",
    "change": "Role picker no longer says regulatory facts are the same for everyone: 'The evidence and grades are the same for everyone, and regulatory notes follow the country you choose. What changes with your role…' (six-jurisdiction course).",
-   "forReview": "Fady Hannah-Shmouni"
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m1-p01, m1-p02",
+   "change": "Editorial: placeholder source lines removed (the course citing itself on the module cover; an internal audience decision on the role picker). These moments state no facts; nothing else changed.",
+   "forReview": "Omar Saleem",
+   "confirmedBy": "Omar Saleem, product owner (editorial; no medical content changed)",
+   "confirmedAt": "2026-09-25"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m01 module title",
+   "change": "Editorial: the module title is now the plain title 'The skin as an endocrine organ, and how it ages' everywhere (app, homepage, certificate), replacing the intake plan's working title (Omar: \"plain module titles might be nicer, esp on mobile\").",
+   "forReview": "Omar Saleem",
+   "confirmedBy": "Omar Saleem, product owner (editorial; no medical content changed)",
+   "confirmedAt": "2026-09-25"
   }
  ],
  "reviewNotes": [
