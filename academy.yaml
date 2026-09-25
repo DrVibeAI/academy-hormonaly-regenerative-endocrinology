@@ -19,11 +19,11 @@ catalog:
   # The academy's first catalog entry is the course the runtime serves. The 2026-09-02 intake placeholder
   # (packages/aesthetic-regenerative-endocrinology.json, never authored) was removed 2026-09-24 so the catalog gate passes;
   # re-add it when that package exists.
-  - course: packages/hormones-peptides-skin.json          # Hormones and Peptides for Skin (SEASON skin edition of the peptide master)
+  - course: packages/hormones-peptides-skin.json          # Hormones and Peptides for Skin
     status: draft
     series: regenerative-endocrinology
     order: 1
-    entitlement: { type: open }         # free to learners per the SEASON model; confirm for the Hormonaly tenant
+    entitlement: { type: open }         # open enrolment; pricing/entitlement to confirm with Hormonaly
     certificate: { access: included }
 modules: { fieldbook: true, promptLab: false, webinars: false, blog: false, peers: false, achievements: false }
 accreditation:

@@ -21,7 +21,7 @@
     },
     "client": {
       "organization": "Hormonaly.ai / Hormonaly Press",
-      "productContext": "Skin edition of the Hormonaly peptide master course for clinicians, commissioned by SEASON Aesthetic Conferences and built on Perceptors."
+      "productContext": "A peptides-for-skin course for clinicians from Hormonaly Academy, built on Perceptors."
     }
   },
   "baseLocale": "en",
@@ -31,7 +31,7 @@
       "name": "English",
       "direction": "ltr",
       "status": "base",
-      "reviewOwner": "Omar Saleem (reviewer of record) · SEASON reviewer pending",
+      "reviewOwner": "Omar Saleem (reviewer of record)",
       "unitsPolicy": "US and UK conventions; regulatory examples labelled by jurisdiction"
     }
   ],
@@ -71,26 +71,26 @@
       "layers": [
         {
           "id": "product",
-          "status": "review",
-          "detail": "Mapped from the guides' US regulatory content; a named owner confirms."
+          "status": "mapped",
+          "detail": "US regulatory statements (FDA approvals, 503A/503B categories, warnings; dated September 2026) reviewed within the medical review of every module (Fady Hannah-Shmouni, 2026-09-24/25)."
         },
         {
           "id": "claims",
-          "status": "review",
-          "detail": "Mapped from the guides' US regulatory content; a named owner confirms."
+          "status": "mapped",
+          "detail": "US regulatory statements (FDA approvals, 503A/503B categories, warnings; dated September 2026) reviewed within the medical review of every module (Fady Hannah-Shmouni, 2026-09-24/25)."
         },
         {
           "id": "practice",
-          "status": "review",
-          "detail": "Mapped from the guides' US regulatory content; a named owner confirms."
+          "status": "mapped",
+          "detail": "US regulatory statements (FDA approvals, 503A/503B categories, warnings; dated September 2026) reviewed within the medical review of every module (Fady Hannah-Shmouni, 2026-09-24/25)."
         },
         {
           "id": "locale",
-          "status": "review",
-          "detail": "Mapped from the guides' US regulatory content; a named owner confirms."
+          "status": "mapped",
+          "detail": "US regulatory statements (FDA approvals, 503A/503B categories, warnings; dated September 2026) reviewed within the medical review of every module (Fady Hannah-Shmouni, 2026-09-24/25)."
         }
       ],
-      "reviewOwner": "pending (medical owner)"
+      "reviewOwner": "Fady Hannah-Shmouni, MD FRCPC (medical review of every module, 2026-09-24/25)"
     },
     {
       "code": "GB",
@@ -98,7 +98,7 @@
       "authorities": [
         {
           "name": "MHRA",
-          "scope": "Medicines and unlicensed products; SEASON London Skills Lab audience",
+          "scope": "Medicines, unlicensed ('special') products, cosmetics and supplements for UK learners",
           "url": "https://www.gov.uk/government/organisations/medicines-and-healthcare-products-regulatory-agency"
         }
       ],
@@ -124,7 +124,7 @@
           "detail": "No UK-specific regulatory content in the corpus yet; US examples must be labelled until mapped."
         }
       ],
-      "reviewOwner": "pending (SEASON reviewer)"
+      "reviewOwner": "pending (medical owner)"
     }
   ],
   "provenance": {
@@ -3704,8 +3704,8 @@
         "text": "Primary adrenal insufficiency causes hyperpigmentation particularly of sun-exposed areas, skin creases, mucosa and scars; the Endocrine Society recommends testing acutely ill patients with such signs and treating a suspected adrenal crisis before test results are available.",
         "citationRefs": [
           "bornstein-2016-pai-guideline",
-          "lause-2017-dermatologic-endocrine",
-          "hannah-shmouni-2026-are"
+          "hannah-shmouni-2026-are",
+          "lause-2017-dermatologic-endocrine"
         ],
         "status": "verified",
         "locations": [
@@ -4201,7 +4201,7 @@
         "locations": [
           "m4-p11"
         ],
-        "reviewNote": "US framing; UK/EU cosmetics regulation to be added for the SEASON edition · grader: Graded 2026-09-24 by the agent under Omar Saleem's delegation (\"you should be able to do that from the guide\"); rule set below; final review Dr. Hannah-Shmouni"
+        "reviewNote": "US framing; UK cosmetics regulation to be added (in progress) · grader: Graded 2026-09-24 by the agent under Omar Saleem's delegation (\"you should be able to do that from the guide\"); rule set below; final review Dr. Hannah-Shmouni"
       },
       {
         "id": "c-m04-11",
@@ -4336,7 +4336,7 @@
         "locations": [
           "m4-p11"
         ],
-        "reviewNote": "added 2026-09-24; UK/EU food-supplement framing to be mapped for SEASON · grader: Graded 2026-09-24 by the agent under Omar Saleem's delegation (\"you should be able to do that from the guide\"); rule set below; final review Dr. Hannah-Shmouni"
+        "reviewNote": "added 2026-09-24; UK food-supplement framing to be mapped (in progress) · grader: Graded 2026-09-24 by the agent under Omar Saleem's delegation (\"you should be able to do that from the guide\"); rule set below; final review Dr. Hannah-Shmouni"
       },
       {
         "id": "c-m04-20",
@@ -19070,7 +19070,7 @@
         "regulatory-safety": 0.29,
         "patient-conversation": 0.07
       },
-      "status": "ai_draft"
+      "status": "approved"
     }
   ],
   "tutorCorpus": [
@@ -19511,7 +19511,7 @@
         "approver": "Fady Hannah-Shmouni, MD FRCPC",
         "date": "2026-09-24",
         "scope": "module 04, review draft of 2026-09-24; approval relayed by Omar Saleem, 2026-09-24",
-        "notes": "Changed after this approval, awaiting the approver's confirmation: m4-q3: Citation only: the lesson quiz on GHK-Cu's injectable-only Category 1 exception now cites FDA's 503A categories list (14 May 2026). No wording change."
+        "notes": "7 changes made after this approval, confirmed by Fady Hannah-Shmouni, MD FRCPC on 2026-09-25: m4-p14: Named the single randomized BPC-157 trial FDA's July 2026 briefing identified (Ruenzi 2005, ulcerative colitis, meeting abstract only, no significant difference from placebo); title, body and stat wording updated; figure unchanged. Source: FDA PCAC briefing document (fda.gov/media/193343), read in full. | m4-p04, m4-p14: Removed two ClinicalTrials.gov records (NCT07437586 GHK-Cu wound gel; NCT07437547 BPC-157 hamstring) that the draft had cited as recruiting phase 2 trials. Their sponsor, 'Hudson Biotech', also holds a record titled '(Mock Study)', a record whose summary calls itself an 'example interventional study record', and a record re-using the SURMOUNT-1 title; their authenticity cannot be confirmed. The 'phase 2 recruiting' sentence on GHK-Cu is deleted; the BPC-157 list now names only the 2015 PharmaCotherapia phase 1, the 2025 Parlay Wellness product study and the 2026 University of Arkansas phase 1 (start 2027). | m4-p09 (classify): Leuphasyl: 'no independent or indexed human trial' corrected to 'no randomized trial'. An independent uncontrolled volunteer study exists (Dragomirescu 2014). The classify label 'Manufacturer data only' became 'No randomized trial'; grades unchanged. Found by the automated source check. | m4-p08: Leuphasyl is no longer grouped with the SNAP-25 mimics: it is an enkephalin analogue (as the module's own exercise already says). Wording only. Found by the automated source check. | m4-p17: Heavy metals: 'reported for this market but not documented' reworded to 'claimed for this market, but no published analysis behind that claim was found' (the finding already recorded for the A&RE guide's figure). Wording only; found by the automated source check reading the guide. | m4-p09, m4-p17: Classify label 'No randomized trial' refined to 'No independent randomized trial' (the Peptide Pocket Guide describes independent trials of Matrixyl 3000 as limited, not absent). Heavy metals: the course now reports the Hormonaly guide's statement and then that its published analysis could not be found, instead of contradicting it silently. Wording only. | m4-q3: Citation only: the lesson quiz on GHK-Cu's injectable-only Category 1 exception now cites FDA's 503A categories list (14 May 2026). No wording change."
       },
       {
         "gate": "medical_review",
@@ -19530,19 +19530,31 @@
         "approver": "Fady Hannah-Shmouni, MD FRCPC",
         "date": "2026-09-24",
         "scope": "module 07, full-course review draft of 2026-09-24 (course-draft.docx); approval relayed by Omar Saleem, 2026-09-24"
+      },
+      {
+        "gate": "medical_review",
+        "approver": "Fady Hannah-Shmouni, MD FRCPC",
+        "date": "2026-09-25",
+        "scope": "final quiz (course-quiz, 14 questions), final sign-off packet of 2026-09-25 (signoff-items.docx); approval relayed by Omar Saleem, 2026-09-25"
+      },
+      {
+        "gate": "medical_review",
+        "approver": "Fady Hannah-Shmouni, MD FRCPC",
+        "date": "2026-09-25",
+        "scope": "tutor prepared answers (14), final sign-off packet of 2026-09-25; approval relayed by Omar Saleem, 2026-09-25"
       }
     ],
     "accreditation": {
       "body": "GCLS",
       "status": "not_submitted",
-      "notes": "Designed toward future CME accreditation (Omar 2026-09-21; pathway confirmed 2026-09-24: CME to be sought through SEASON and its accredited joint-providership partner). CME-style measurable objectives, independence from commercial bias, disclosure of financial relationships. No CME/CE credit is claimed until that approval exists. GCLS accreditation: add-on licensed (Omar, 2026-09-24); medical review of every module complete (2026-09-24); next is the GCLS review room. The certificate is GCLS-issued only once GCLS accredits."
+      "notes": "Designed toward future CME accreditation (Omar 2026-09-21; pathway confirmed 2026-09-24: CME to be sought through an accredited provider (pathway to be confirmed)). CME-style measurable objectives, independence from commercial bias, disclosure of financial relationships. No CME/CE credit is claimed until that approval exists. GCLS accreditation: add-on licensed (Omar, 2026-09-24); medical review of every module complete (2026-09-24); next is the GCLS review room. The certificate is GCLS-issued only once GCLS accredits."
     }
   },
   "distribution": {
     "targets": [
       {
         "platform": "academy-app",
-        "notes": "Hormonaly Academy tenant until SEASON's brand kit arrives; a SEASON-branded edition shares this package (one evidence core, editions per academy)."
+        "notes": "Hormonaly Academy (hormonaly.perceptors.ai), the home for Hormonaly's peptide courses. Partner editions may share this package later (one evidence core, editions per academy)."
       }
     ]
   },
@@ -19586,8 +19598,7 @@
     },
     "review": {
       "literatureGrader": "Graded by the agent under Omar Saleem's delegation (2026-09-24), grading rule recorded in citations/<module>.json; Omar reviews, Dr. Hannah-Shmouni gives final review",
-      "finalReviewer": "Fady Hannah-Shmouni, MD FRCPC — receives the final draft for review (Omar 2026-09-22)",
-      "seasonReviewer": "pending"
+      "finalReviewer": "Fady Hannah-Shmouni, MD FRCPC — receives the final draft for review (Omar 2026-09-22)"
     },
     "assessmentPlan": [
       {
@@ -19701,9 +19712,8 @@
     "openItems": [
       "author findings for Dr. Hannah-Shmouni (citations/m04.md, end) — send with the final draft",
       "capstone (adversarial co-design conversation) needs a package-driven runtime capstone; credential.capstoneRequired is false until then",
-      "SEASON reviewer",
       "balance between endocrinopathy-with-skin-signs and elective aesthetic peptide content (plan question 2)",
-      "GB/EU regulatory mapping for the SEASON London audience",
+      "GB regulatory mapping (MHRA) — in progress 2026-09-25; EU not in scope",
       "primary citations per module before authoring (guides are single-author secondary sources)",
       "tier-1 brief still 7/8 open on the intake portal (audience, outcomes, boundaries, locales, delivery)"
     ]

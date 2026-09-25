@@ -238,6 +238,9 @@ def approval_notes(a):
         return {"notes": f"{len(done)} change{'s' if len(done) != 1 else ''} made after this approval, confirmed by {done[-1]['confirmedBy']} on {done[-1]['confirmedAt']}: " + " | ".join(f"{c['block']}: {c['change']}" for c in done)}
     return {}
 
+# Course-level sign-offs (final quiz, tutor answers) recorded from the medical owner's final packet (signoffs.json).
+SIGNOFFS = json.loads((HERE / "signoffs.json").read_text()) if (HERE / "signoffs.json").exists() else {}
+
 COURSE_QUIZ = [q for mid in sorted(AUTHORED) for q in AUTHORED[mid].get("courseQuiz", [])]
 TUTOR = [t for mid in sorted(AUTHORED) for t in AUTHORED[mid].get("tutorEntries", [])]
 ASSESSMENTS = []
@@ -247,7 +250,7 @@ if COURSE_QUIZ:
         "title": {"en": "Final check · Hormones and Peptides for Skin"},
         "questions": COURSE_QUIZ, "passingScorePct": 80,
         "weightDistribution": {p: round(sum(1 for q in COURSE_QUIZ if q.get("pillar") == p) / len(COURSE_QUIZ), 2) for p in PILLARS},
-        "status": "ai_draft",
+        "status": "approved" if SIGNOFFS.get("courseQuiz") else "ai_draft",
     })
 
 pkg = {
@@ -265,13 +268,13 @@ pkg = {
         "brand": {"displayName": "Hormonaly Academy", "accentColor": "#5A4BC4", "brandOwner": "Hormonaly.ai"},
         "client": {
             "organization": "Hormonaly.ai / Hormonaly Press",
-            "productContext": "Skin edition of the Hormonaly peptide master course for clinicians, commissioned by SEASON Aesthetic Conferences and built on Perceptors.",
+            "productContext": "A peptides-for-skin course for clinicians from Hormonaly Academy, built on Perceptors.",
         },
     },
     "baseLocale": "en",
     "locales": [
         {"locale": "en", "name": "English", "direction": "ltr", "status": "base",
-         "reviewOwner": "Omar Saleem (reviewer of record) · SEASON reviewer pending", "unitsPolicy": "US and UK conventions; regulatory examples labelled by jurisdiction"},
+         "reviewOwner": "Omar Saleem (reviewer of record)", "unitsPolicy": "US and UK conventions; regulatory examples labelled by jurisdiction"},
     ],
     "audience": {
         "personas": [
@@ -291,14 +294,14 @@ pkg = {
         {
             "code": "US", "name": "United States",
             "authorities": [{"name": "FDA", "scope": "Compounding (503A/503B), bulk-substance categories, cosmetic vs drug", "url": "https://www.fda.gov/drugs/human-drug-compounding"}],
-            "layers": [{"id": k, "status": "review", "detail": "Mapped from the guides' US regulatory content; a named owner confirms."} for k in ["product", "claims", "practice", "locale"]],
-            "reviewOwner": "pending (medical owner)",
+            "layers": [{"id": k, "status": "mapped", "detail": "US regulatory statements (FDA approvals, 503A/503B categories, warnings; dated September 2026) reviewed within the medical review of every module (Fady Hannah-Shmouni, 2026-09-24/25)."} for k in ["product", "claims", "practice", "locale"]],
+            "reviewOwner": "Fady Hannah-Shmouni, MD FRCPC (medical review of every module, 2026-09-24/25)",
         },
         {
             "code": "GB", "name": "United Kingdom",
-            "authorities": [{"name": "MHRA", "scope": "Medicines and unlicensed products; SEASON London Skills Lab audience", "url": "https://www.gov.uk/government/organisations/medicines-and-healthcare-products-regulatory-agency"}],
+            "authorities": [{"name": "MHRA", "scope": "Medicines, unlicensed ('special') products, cosmetics and supplements for UK learners", "url": "https://www.gov.uk/government/organisations/medicines-and-healthcare-products-regulatory-agency"}],
             "layers": [{"id": k, "status": "review", "detail": "No UK-specific regulatory content in the corpus yet; US examples must be labelled until mapped."} for k in ["product", "claims", "practice", "locale"]],
-            "reviewOwner": "pending (SEASON reviewer)",
+            "reviewOwner": "pending (medical owner)",
         },
     ],
     "provenance": {
@@ -333,13 +336,13 @@ pkg = {
         "requiredGates": ["medical_review", "brand_approval", "localization_review", "gcls_accreditation", "publish"],
         # Changes made after an approval ride on that approval's notes (governance is outside the claim-support content digest),
         # so the GCLS reviewer and the review agent see what the approver has not yet re-confirmed.
-        "approvals": [{**a["approval"], **approval_notes(a)} for a in AUTHORED.values() if a.get("approval")],
+        "approvals": [{**a["approval"], **approval_notes(a)} for a in AUTHORED.values() if a.get("approval")] + [SIGNOFFS[k] for k in ("courseQuiz", "tutorCorpus") if SIGNOFFS.get(k)],
         "accreditation": {
             "body": "GCLS", "status": "not_submitted",
-            "notes": "Designed toward future CME accreditation (Omar 2026-09-21; pathway confirmed 2026-09-24: CME to be sought through SEASON and its accredited joint-providership partner). CME-style measurable objectives, independence from commercial bias, disclosure of financial relationships. No CME/CE credit is claimed until that approval exists. GCLS accreditation: add-on licensed (Omar, 2026-09-24); medical review of every module complete (2026-09-24); next is the GCLS review room. The certificate is GCLS-issued only once GCLS accredits.",
+            "notes": "Designed toward future CME accreditation (Omar 2026-09-21; pathway confirmed 2026-09-24: CME to be sought through an accredited provider (pathway to be confirmed)). CME-style measurable objectives, independence from commercial bias, disclosure of financial relationships. No CME/CE credit is claimed until that approval exists. GCLS accreditation: add-on licensed (Omar, 2026-09-24); medical review of every module complete (2026-09-24); next is the GCLS review room. The certificate is GCLS-issued only once GCLS accredits.",
         },
     },
-    "distribution": {"targets": [{"platform": "academy-app", "notes": "Hormonaly Academy tenant until SEASON's brand kit arrives; a SEASON-branded edition shares this package (one evidence core, editions per academy)."}]},
+    "distribution": {"targets": [{"platform": "academy-app", "notes": "Hormonaly Academy (hormonaly.perceptors.ai), the home for Hormonaly's peptide courses. Partner editions may share this package later (one evidence core, editions per academy)."}]},
     "metadata": {
         "generator": "course-production/hormones-peptides-skin/build-package.py",
         "pendingReview": [{"gate": "medical_review", "module": mid, "status": AUTHORED[mid].get("status", "ai_draft"), "owner": "Fady Hannah-Shmouni, MD FRCPC"} for mid in sorted(AUTHORED) if not AUTHORED[mid].get("approval")],
@@ -362,7 +365,6 @@ pkg = {
         "review": {
             "literatureGrader": "Graded by the agent under Omar Saleem's delegation (2026-09-24), grading rule recorded in citations/<module>.json; Omar reviews, Dr. Hannah-Shmouni gives final review",
             "finalReviewer": "Fady Hannah-Shmouni, MD FRCPC — receives the final draft for review (Omar 2026-09-22)",
-            "seasonReviewer": "pending",
         },
         "assessmentPlan": assessments,
         "courseShape": "7 modules × 3 lessons = 21 lessons, ~3 h; module check per module, course quiz weighted across four pillars, capstone = one adversarial co-design conversation with a dossier output",
@@ -375,9 +377,8 @@ pkg = {
         "openItems": [
             "author findings for Dr. Hannah-Shmouni (citations/m04.md, end) — send with the final draft",
             "capstone (adversarial co-design conversation) needs a package-driven runtime capstone; credential.capstoneRequired is false until then",
-            "SEASON reviewer",
             "balance between endocrinopathy-with-skin-signs and elective aesthetic peptide content (plan question 2)",
-            "GB/EU regulatory mapping for the SEASON London audience",
+            "GB regulatory mapping (MHRA) — in progress 2026-09-25; EU not in scope",
             "primary citations per module before authoring (guides are single-author secondary sources)",
             "tier-1 brief still 7/8 open on the intake portal (audience, outcomes, boundaries, locales, delivery)",
         ],

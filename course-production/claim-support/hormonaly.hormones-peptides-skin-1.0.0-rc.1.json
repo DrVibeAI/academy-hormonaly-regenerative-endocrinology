@@ -1,13 +1,13 @@
 {
   "tool": "perceptor-foundry/tools/qa/claim-support.mjs",
   "contract": "docs/claim-support.md",
-  "generatedAt": "2026-09-25T05:13:12.534Z",
+  "generatedAt": "2026-09-25T12:30:27.760Z",
   "package": {
     "id": "hormonaly.hormones-peptides-skin",
     "version": "1.0.0-rc.1",
     "path": "packages/hormones-peptides-skin.json",
-    "sha256": "6ed65d6f54c40d0f60a421d485ab998716f4f45ce8c88708d29e8c8101e4d66b",
-    "contentDigest": "b7d07723ee38e1ea494c185780c71a7a003f2eaa5a2481238204dbd9268def41"
+    "sha256": "90a9058ff610ae898ab8913d17ab1de7694fcb9c24ec2861c279c789d8ddce60",
+    "contentDigest": "06b82781c37b15c0c97b80694a6787c31d11ddb28a885ec7c0e48d5f767accc5"
   },
   "edition": "en",
   "models": [
@@ -15,14 +15,7 @@
   ],
   "partial": false,
   "maxChars": 60000,
-  "usage": {
-    "gemini-3.7-flash": {
-      "calls": 3,
-      "inputTokens": 99038,
-      "outputTokens": 11172,
-      "seconds": 35
-    }
-  },
+  "usage": {},
   "summary": {
     "units": 336,
     "nonFactual": 15,
@@ -49,13 +42,9 @@
     }
   },
   "mergedFrom": {
-    "generatedAt": "2026-09-25T05:08:37.454Z",
-    "contentDigest": "f01854350a3265ccaddee1e4935a7a5bfee4276c5d3e9dd217609593d745e67d",
-    "recheckedUnits": [
-      "m4-q3",
-      "tutor-m02-hrt-skin",
-      "m03-tutor-gut-skin"
-    ]
+    "generatedAt": "2026-09-25T12:29:48.559Z",
+    "contentDigest": "75de6d1b4c8280d0ee94e98d42017892ee4b94237854dcb7c651f1fb94238bcc",
+    "recheckedUnits": []
   },
   "sources": [
     {
