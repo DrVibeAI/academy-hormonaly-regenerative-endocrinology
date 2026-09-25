@@ -66,6 +66,65 @@ catalog:
     entitlement: { type: open }         # open enrolment; pricing/entitlement to confirm with Hormonaly
     certificate: { access: included }
 modules: { fieldbook: true, promptLab: false, webinars: false, blog: false, peers: false, achievements: false }
+# Learner country (onboarding + Perfil). The course is one English edition; the country decides which regulatory note each moment
+# shows first (package blocks' metadata.variants.jurisdiction; runtime falls back to EU for member states). Omar 2026-09-25:
+# US, UK, EU, Portugal, Brazil and the UAE. Flip each pending line to reviewed once Fady confirms that country's notes.
+localization:
+  countries:
+    - code: US
+      country: { en: "United States" }
+      centers: ["United States"]
+      edition: { en: "English" }
+      units: { en: "As reported in each cited source" }
+      approval: { en: "Regulatory notes reviewed by Fady Hannah-Shmouni, MD FRCPC" }
+      contextLine: { en: "FDA status and US compounding rules with each moment" }
+      status: demo-ready
+      learning: { locale: en, language: English, shortLabel: EN, direction: ltr, review: { en: "Medical review: Fady Hannah-Shmouni, MD FRCPC" } }
+    - code: GB
+      country: { en: "United Kingdom" }
+      centers: ["United Kingdom"]
+      edition: { en: "English" }
+      units: { en: "As reported in each cited source" }
+      approval: { en: "Regulatory notes awaiting medical review" }
+      contextLine: { en: "MHRA status and UK rules with each moment" }
+      status: demo-ready
+      learning: { locale: en, language: English, shortLabel: EN, direction: ltr, review: { en: "Medical review: Fady Hannah-Shmouni, MD FRCPC" } }
+    - code: EU
+      country: { en: "Another EU country" }
+      centers: ["Another EU country"]
+      edition: { en: "English" }
+      units: { en: "As reported in each cited source" }
+      approval: { en: "Regulatory notes awaiting medical review" }
+      contextLine: { en: "EMA status and EU-wide rules with each moment" }
+      status: demo-ready
+      learning: { locale: en, language: English, shortLabel: EN, direction: ltr, review: { en: "Medical review: Fady Hannah-Shmouni, MD FRCPC" } }
+    - code: PT
+      country: { en: "Portugal" }
+      centers: ["Portugal"]
+      edition: { en: "English" }
+      units: { en: "As reported in each cited source" }
+      approval: { en: "Regulatory notes awaiting medical review" }
+      contextLine: { en: "INFARMED and EU status with each moment" }
+      status: demo-ready
+      learning: { locale: en, language: English, shortLabel: EN, direction: ltr, review: { en: "Medical review: Fady Hannah-Shmouni, MD FRCPC" } }
+    - code: BR
+      country: { en: "Brazil" }
+      centers: ["Brazil"]
+      edition: { en: "English" }
+      units: { en: "As reported in each cited source" }
+      approval: { en: "Regulatory notes awaiting medical review" }
+      contextLine: { en: "ANVISA status and Brazilian rules with each moment" }
+      status: demo-ready
+      learning: { locale: en, language: English, shortLabel: EN, direction: ltr, review: { en: "Medical review: Fady Hannah-Shmouni, MD FRCPC" } }
+    - code: AE
+      country: { en: "United Arab Emirates" }
+      centers: ["United Arab Emirates"]
+      edition: { en: "English" }
+      units: { en: "As reported in each cited source" }
+      approval: { en: "Regulatory notes awaiting medical review" }
+      contextLine: { en: "UAE federal status plus Dubai and Abu Dhabi rules with each moment" }
+      status: demo-ready
+      learning: { locale: en, language: English, shortLabel: EN, direction: ltr, review: { en: "Medical review: Fady Hannah-Shmouni, MD FRCPC" } }
 accreditation:
   gcls: true                    # GCLS-issued certificate once accredited (Omar 2026-09-24: "start having it be a GCLS-accredited certificate")
   reviewAccessDays: 30          # reviewer access expires; re-deploy or re-seed to extend
