@@ -5,7 +5,8 @@
 ## What we need from you
 
 1. **Approve the changed tutor answers** (9, section 2).
-2. **Confirm 81 changes made after your approval** — each shown with its current wording (section 3).
+2. **Confirm 83 changes made after your approval** — each shown with its current wording (section 3).
+3. **Confirm or change the proposed disposition for each flagged statement** (section 4).
 
 ## 2 · Tutor answers (9)
 
@@ -81,7 +82,7 @@ In the US, as of February 2026, FDA-approved menopausal hormone therapy is for m
 
 **Regulatory status by jurisdiction**
 - *GB:* In the UK, as of September 2026, HRT products such as estradiol patches and gel are prescription-only medicines licensed for oestrogen-deficiency symptoms and, for some, for preventing osteoporosis in women at high risk of fracture; skin is not among their uses. A compounded 'bioidentical' hormone is an unlicensed medicine in the UK, and MHRA guidance puts a licensed product first when one can meet the need. On the UK medicines compendium, topical tretinoin appears only in acne treatments. <sub>(Theramex HQ UK Limited (marketing authorisation holder) 2025 · Orion Corporation (marketing authorisation holder) 2025 · Medicines and Healthcare products Regulatory Agency (UK) 2023 · Viatris Products Limited (marketing authorisation holder) 2026 · Almirall Hermal GmbH (marketing authorisation holder) 2026 · Datapharm (emc) 2026)</sub>
-- *EU:* In the EU, HRT is authorised nationally, and the harmonised EU core product information (CMDh, December 2025) lists oestrogen-deficiency symptoms after menopause, osteoporosis prevention and vaginal atrophy as its indications; skin is not an indication. EU cosmetics law prohibits oestrogens, progestogens and tretinoin in cosmetic products (Regulation (EC) No 1223/2009, Annex II), and anti-wrinkle products containing tretinoin marketed as cosmetics are illegal cosmetics. <sub>(eu-hma-core-smpc-hrt-2025 · eu-reg-1223-2009 · eu-ec-cosmetics-borderline-manual-2025)</sub>
+- *EU:* In the EU, the harmonised core product information for HRT (CMDh, December 2025) lists oestrogen-deficiency symptoms after menopause, osteoporosis prevention and vaginal atrophy as its indications; skin is not an indication. EU cosmetics law prohibits oestrogens, progestogens and tretinoin in cosmetic products (Regulation (EC) No 1223/2009, Annex II), and anti-wrinkle products containing tretinoin marketed as cosmetics are illegal cosmetics. <sub>(eu-hma-core-smpc-hrt-2025 · eu-reg-1223-2009 · eu-ec-cosmetics-borderline-manual-2025)</sub>
 - *PT:* In Portugal, as of September 2026, the estradiol HRT products Estreva gel and Estrofem tablets are authorised for symptoms of oestrogen deficiency in postmenopausal women. The topical tretinoin product Ketrel cream is authorised and prescription-only on INFARMED's database, with indications for acne (except acne rosacea) and keratinisation disorders. <sub>(pt-rcm-estreva · pt-rcm-estrofem · pt-infomed · pt-rcm-ketrel)</sub>
 - *BR:* In Brazil, as of September 2026, estradiol for menopausal hormone therapy is registered and the Oestrogel label covers menopausal symptoms and prevention of postmenopausal osteoporosis, not skin ageing, while the Vitacid label for topical tretinoin names cutaneous photoageing as well as acne vulgaris. The Federal Council of Medicine (CFM) bars physicians from using hormones, in any formulation, except in diagnosed deficiencies where replacement shows evidence of scientifically proven benefit (Resolution 1.999/2012), and from prescribing hormones marketed as 'bioidentical' or 'nano' without proof of superiority (Resolution 2.333/2023). <sub>(br-label-oestrogel · br-anvisa-register-opendata · br-label-vitacid · br-cfm-1999-2012 · br-cfm-norms-search · br-cfm-2333-2023)</sub>
 - *AE:* In the UAE, the Emirates Drug Establishment (EDE), the federal regulator of medical products since Federal Decree-Law 28/2023, registers estradiol products as Prescription Only Medicines, for example Oestrogel gel (since 11 November 2021). The EDE register lists therapeutic categories rather than indications, so it does not show whether any UAE label includes a skin indication (25 September 2026). Under the medicines law, Federal Decree-Law 38 of 2024, a compounding pharmacy may not compound products that are essentially copies of EDE-approved products unless no commercially available product can deliver the expected benefit to the patient. <sub>(ae-fdl-28-2023 · ae-ede-reg-oestrogel · ae-ede-register · ae-fdl-38-2024)</sub>
@@ -116,7 +117,38 @@ In the US, as of February 2026, FDA-approved menopausal hormone therapy is for m
 
 **Regulatory status by jurisdiction**
 - *GB:* In the UK, as of September 2026, HRT products such as estradiol patches and gel are prescription-only medicines licensed for oestrogen-deficiency symptoms and, for some, for preventing osteoporosis in women at high risk of fracture; skin is not among their uses. A compounded 'bioidentical' hormone is an unlicensed medicine in the UK, and MHRA guidance puts a licensed product first when one can meet the need. On the UK medicines compendium, topical tretinoin appears only in acne treatments. <sub>(Theramex HQ UK Limited (marketing authorisation holder) 2025 · Orion Corporation (marketing authorisation holder) 2025 · Medicines and Healthcare products Regulatory Agency (UK) 2023 · Viatris Products Limited (marketing authorisation holder) 2026 · Almirall Hermal GmbH (marketing authorisation holder) 2026 · Datapharm (emc) 2026)</sub>
-- *EU:* In the EU, HRT is authorised nationally, and the harmonised EU core product information (CMDh, December 2025) lists oestrogen-deficiency symptoms after menopause, osteoporosis prevention and vaginal atrophy as its indications; skin is not an indication. EU cosmetics law prohibits oestrogens, progestogens and tretinoin in cosmetic products (Regulation (EC) No 1223/2009, Annex II), and anti-wrinkle products containing tretinoin marketed as cosmetics are illegal cosmetics. <sub>(eu-hma-core-smpc-hrt-2025 · eu-reg-1223-2009 · eu-ec-cosmetics-borderline-manual-2025)</sub>
+- *EU:* In the EU, the harmonised core product information for HRT (CMDh, December 2025) lists oestrogen-deficiency symptoms after menopause, osteoporosis prevention and vaginal atrophy as its indications; skin is not an indication. EU cosmetics law prohibits oestrogens, progestogens and tretinoin in cosmetic products (Regulation (EC) No 1223/2009, Annex II), and anti-wrinkle products containing tretinoin marketed as cosmetics are illegal cosmetics. <sub>(eu-hma-core-smpc-hrt-2025 · eu-reg-1223-2009 · eu-ec-cosmetics-borderline-manual-2025)</sub>
+- *PT:* In Portugal, as of September 2026, the estradiol HRT products Estreva gel and Estrofem tablets are authorised for symptoms of oestrogen deficiency in postmenopausal women. The topical tretinoin product Ketrel cream is authorised and prescription-only on INFARMED's database, with indications for acne (except acne rosacea) and keratinisation disorders. <sub>(pt-rcm-estreva · pt-rcm-estrofem · pt-infomed · pt-rcm-ketrel)</sub>
+- *BR:* In Brazil, as of September 2026, estradiol for menopausal hormone therapy is registered and the Oestrogel label covers menopausal symptoms and prevention of postmenopausal osteoporosis, not skin ageing, while the Vitacid label for topical tretinoin names cutaneous photoageing as well as acne vulgaris. The Federal Council of Medicine (CFM) bars physicians from using hormones, in any formulation, except in diagnosed deficiencies where replacement shows evidence of scientifically proven benefit (Resolution 1.999/2012), and from prescribing hormones marketed as 'bioidentical' or 'nano' without proof of superiority (Resolution 2.333/2023). <sub>(br-label-oestrogel · br-anvisa-register-opendata · br-label-vitacid · br-cfm-1999-2012 · br-cfm-norms-search · br-cfm-2333-2023)</sub>
+- *AE:* In the UAE, the Emirates Drug Establishment (EDE), the federal regulator of medical products since Federal Decree-Law 28/2023, registers estradiol products as Prescription Only Medicines, for example Oestrogel gel (since 11 November 2021). The EDE register lists therapeutic categories rather than indications, so it does not show whether any UAE label includes a skin indication (25 September 2026). Under the medicines law, Federal Decree-Law 38 of 2024, a compounding pharmacy may not compound products that are essentially copies of EDE-approved products unless no commercially available product can deliver the expected benefit to the patient. <sub>(ae-fdl-28-2023 · ae-ede-reg-oestrogel · ae-ede-register · ae-fdl-38-2024)</sub>
+
+<details><summary>Narration script</summary>
+
+Where does that leave hormone therapy for skin? In the United States, as of February 2026, the approved uses of menopausal hormone therapy are hot flashes, vaginal and vulvar symptoms, and for some products the prevention of bone loss. In late 2025 the FDA asked manufacturers to remove heart, breast cancer and dementia statements from the boxed warning, and it approved the first revised labels in February 2026. Skin still appears nowhere among the uses. The menopause society's 2022 position statement finds the balance favourable for symptoms and bone when therapy starts before sixty or within ten years of menopause, and it finds too little evidence for compounded bioidentical hormones. Low-dose vaginal estrogen for genitourinary symptoms is the one use aimed at the tissue itself. For the face, daily sunscreen and a prescription retinoid carry better evidence than any hormone. Treat symptoms on their merits, and count any skin change as a bonus.
+
+</details>
+
+<sub>Sources: US Food and Drug Administration 2025 · US Food and Drug Administration 2026 · North American Menopause Society (2022 Hormone Therapy Advisory Panel) 2022 · North American Menopause Society (2020 GSM Editorial Panel) 2020 · Manson JE 2013 · US Food and Drug Administration 1993 · Hughes MC 2013 · Bausch Health US LLC (FDA-approved labeling) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · Theramex HQ UK Limited (marketing authorisation holder) 2025 · Orion Corporation (marketing authorisation holder) 2025 · Medicines and Healthcare products Regulatory Agency (UK) 2023 · Viatris Products Limited (marketing authorisation holder) 2026 · Almirall Hermal GmbH (marketing authorisation holder) 2026 · Datapharm (emc) 2026</sub>
+
+**m2-p11** — EU note: the opening clause 'HRT is authorised nationally' removed; the cited EU core product information (CMDh, December 2025) lists HRT's indications but says nothing about how HRT products are authorised. The note now states only what that text lists.
+
+#### Now reads: 11 / 19 · Symptoms and bone. Skin is a bystander.  
+*Regulatory status and indications · audio*
+
+In the US, as of February 2026, FDA-approved menopausal hormone therapy is for moderate-to-severe hot flashes, vaginal and vulvar symptoms and, for some products, preventing bone loss. FDA's 2025–26 labeling changes removed cardiovascular, breast-cancer and dementia statements from the boxed warning; skin did not become an indication. The North American Menopause Society's 2022 statement finds benefit outweighs risk for bothersome symptoms and bone protection when therapy starts before 60 or within 10 years of menopause, and finds insufficient evidence for compounded 'bioidentical' hormones. Under US rules an over-the-counter 'hormone cream' is an unapproved drug. For the skin itself, daily sunscreen has a large randomized trial behind it, and one tretinoin cream is FDA-approved as an adjunct for fine facial wrinkles.
+
+- Indications: hot flashes, genitourinary symptoms, bone
+- Low-dose vaginal estrogen for GSM: the one estrogen-for-tissue use
+- For the skin itself: daily sunscreen and a retinoid
+
+**By role**
+- *Prescriber:* Prescribe hormone therapy for its labeled indications and the position statement's timing, and record that skin was discussed only as a secondary effect. Do not prescribe systemic or topical estrogen for wrinkles alone, and prefer licensed products (FDA-approved in the US) to compounded 'bioidentical' preparations.
+- *Clinical staff:* If a patient asks for 'hormones for my skin', ask about hot flashes, sleep and vaginal symptoms, record what she says, and route those symptoms to the prescriber. The skin concern stays with skin-directed care.
+- *Advisor:* In the US, a cream sold as containing estrogen for the face is regulated as a drug, and compounded 'bioidentical' products lack efficacy and safety data. Menopausal symptoms are a conversation for a prescriber; sun protection is advice you can give.
+
+**Regulatory status by jurisdiction**
+- *GB:* In the UK, as of September 2026, HRT products such as estradiol patches and gel are prescription-only medicines licensed for oestrogen-deficiency symptoms and, for some, for preventing osteoporosis in women at high risk of fracture; skin is not among their uses. A compounded 'bioidentical' hormone is an unlicensed medicine in the UK, and MHRA guidance puts a licensed product first when one can meet the need. On the UK medicines compendium, topical tretinoin appears only in acne treatments. <sub>(Theramex HQ UK Limited (marketing authorisation holder) 2025 · Orion Corporation (marketing authorisation holder) 2025 · Medicines and Healthcare products Regulatory Agency (UK) 2023 · Viatris Products Limited (marketing authorisation holder) 2026 · Almirall Hermal GmbH (marketing authorisation holder) 2026 · Datapharm (emc) 2026)</sub>
+- *EU:* In the EU, the harmonised core product information for HRT (CMDh, December 2025) lists oestrogen-deficiency symptoms after menopause, osteoporosis prevention and vaginal atrophy as its indications; skin is not an indication. EU cosmetics law prohibits oestrogens, progestogens and tretinoin in cosmetic products (Regulation (EC) No 1223/2009, Annex II), and anti-wrinkle products containing tretinoin marketed as cosmetics are illegal cosmetics. <sub>(eu-hma-core-smpc-hrt-2025 · eu-reg-1223-2009 · eu-ec-cosmetics-borderline-manual-2025)</sub>
 - *PT:* In Portugal, as of September 2026, the estradiol HRT products Estreva gel and Estrofem tablets are authorised for symptoms of oestrogen deficiency in postmenopausal women. The topical tretinoin product Ketrel cream is authorised and prescription-only on INFARMED's database, with indications for acne (except acne rosacea) and keratinisation disorders. <sub>(pt-rcm-estreva · pt-rcm-estrofem · pt-infomed · pt-rcm-ketrel)</sub>
 - *BR:* In Brazil, as of September 2026, estradiol for menopausal hormone therapy is registered and the Oestrogel label covers menopausal symptoms and prevention of postmenopausal osteoporosis, not skin ageing, while the Vitacid label for topical tretinoin names cutaneous photoageing as well as acne vulgaris. The Federal Council of Medicine (CFM) bars physicians from using hormones, in any formulation, except in diagnosed deficiencies where replacement shows evidence of scientifically proven benefit (Resolution 1.999/2012), and from prescribing hormones marketed as 'bioidentical' or 'nano' without proof of superiority (Resolution 2.333/2023). <sub>(br-label-oestrogel · br-anvisa-register-opendata · br-label-vitacid · br-cfm-1999-2012 · br-cfm-norms-search · br-cfm-2333-2023)</sub>
 - *AE:* In the UAE, the Emirates Drug Establishment (EDE), the federal regulator of medical products since Federal Decree-Law 28/2023, registers estradiol products as Prescription Only Medicines, for example Oestrogel gel (since 11 November 2021). The EDE register lists therapeutic categories rather than indications, so it does not show whether any UAE label includes a skin indication (25 September 2026). Under the medicines law, Federal Decree-Law 38 of 2024, a compounding pharmacy may not compound products that are essentially copies of EDE-approved products unless no commercially available product can deliver the expected benefit to the patient. <sub>(ae-fdl-28-2023 · ae-ede-reg-oestrogel · ae-ede-register · ae-fdl-38-2024)</sub>
@@ -265,7 +297,7 @@ Patients often link their skin to their gut. Start where the evidence is. Diet q
 
 </details>
 
-<sub>Sources: Scheffler L 2018 · Camilleri M 2019 · Reynolds A 2019 · Suez J 2019 · US Food and Drug Administration 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
+<sub>Sources: Scheffler L 2018 · Camilleri M 2019 · Reynolds A 2019 · Suez J 2019 · Makrgeorgou A 2018 · US Food and Drug Administration 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · ecfr-21-cfr-216-23-bulks-list</sub>
 
 **m03-tutor-ozempic-face** — Tutor answer adds the UK licences (Ozempic, Wegovy, Mounjaro), UK hair-loss labelling and MHRA's statement that retatrutide is not authorised in the UK.
 
@@ -407,9 +439,40 @@ Patients often link their skin to their gut. Start where the evidence is. Diet q
 
 </details>
 
-<sub>Sources: Scheffler L 2018 · Camilleri M 2019 · Reynolds A 2019 · Suez J 2019 · US Food and Drug Administration 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
+<sub>Sources: Scheffler L 2018 · Camilleri M 2019 · Reynolds A 2019 · Suez J 2019 · Makrgeorgou A 2018 · US Food and Drug Administration 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · ecfr-21-cfr-216-23-bulks-list</sub>
 
 **unit tutorContext** — 'EU not covered' removed; the moments' country notes now carry EU, Portugal, Brazil and UAE status.
+
+**m3-p18** — Sources only, no wording changed: the Cochrane review of probiotics for eczema (Makrgeorgou 2018) and the 503A bulks list (21 CFR 216.23) added to the citations and source line; they state the narration's eczema and BPC-157 sentences, which the previously cited sources did not.
+
+#### Now reads: 18 / 20 · Diet first, a bottle last.  
+*What changes in practice · audio*
+
+When a patient links their skin to their gut, start with what has evidence: diet quality, treating metabolic disease directly, and established treatment for the skin condition itself. A widely used commercial zonulin assay has been shown to detect proteins other than zonulin, so a result cannot tell you whether a gut is leaky. Restoring barrier function has not been shown to improve disease outside the gut. Investigational peptides sold for gut repair come last, if at all.
+
+- Start with diet, metabolic health and the skin diagnosis
+- Zonulin tests may not measure zonulin
+- Gut-repair peptides: last, if at all
+
+**By role**
+- *Prescriber:* Treat the skin disease on its own evidence and metabolic disease directly. A zonulin result should not guide care. In the US, BPC-157 has no 503A bulks-list standing as of September 2026, so compounding it for gut repair is not an option.
+- *Clinical staff:* If a patient brings a gut-repair kit or a zonulin result, record the products and the result and bring them to the prescriber. Do not interpret the test or advise on the products.
+- *Advisor:* You can say that fibre-rich diets have strong evidence for metabolic health, that probiotics are strain-specific with small skin effects at best, and that injected or research peptides need a prescriber.
+
+**Regulatory status by jurisdiction**
+- *GB:* In the United Kingdom, an unlicensed peptide reaches a patient only through narrow routes, such as a special ordered for one patient's clinical need, which module seven sets out. <sub>(Medicines and Healthcare products Regulatory Agency (UK) 2023 · Medicines and Healthcare products Regulatory Agency (UK) 2009)</sub>
+- *EU:* In the EU, Directive 2001/83/EC allows a medicine on the market only with a national or EU-wide marketing authorisation (Article 6(1)), while medicines prepared in a pharmacy for an individual patient on prescription (magistral formulas) fall outside the directive and need no marketing authorisation under it (Article 3). Each member state may also, under its own law, allow an unauthorised medicine for an individual patient on a bona fide unsolicited order from an authorised health professional, under that professional's direct personal responsibility (Article 5(1)). <sub>(eu-dir-2001-83)</sub>
+- *PT:* In Portugal, no medicine containing BPC-157 is listed in INFARMED's Infomed register (25 September 2026). A medicine is defined as any substance or combination of substances presented as having properties for treating or preventing disease or that may be used or administered to restore, correct, or modify physiological functions through pharmacological, immunological, or metabolic action (Estatuto do Medicamento, Article 3). INFARMED does not authorise importing medicines for personal use, and a compounded medicine may use only raw materials listed in the Portuguese Pharmacopoeia, the European Pharmacopoeia, pharmacopoeias of other States Parties to the European Pharmacopoeia Convention, or compendial scientific documentation (Decreto-Lei 95/2004, Article 6). <sub>(pt-infomed · pt-dl176-2006 · pt-infarmed-circ148-2011 · pt-dl95-2004 · pt-infarmed-manipulados)</sub>
+- *BR:* In Brazil, ANVISA stated on 2 July 2026 that any substance must have undergone efficacy and safety assessments before it can be compounded, and that some injectable peptides are not regularised in any category (food, medicine, cosmetic or food supplement) and are illegal for any health use, including aesthetic use. ANVISA also stated in July 2026 that an investigational medicine is used exclusively in authorised clinical research. <sub>(br-anvisa-peptides-2026 · br-anvisa-medicine-types-2026)</sub>
+- *AE:* In the UAE, Federal Decree-Law 38/2024, in force since 2 January 2025, bars importing, selling or using any medical product without a marketing approval from the Emirates Drug Establishment (EDE), and lets a physician prescribe a medicine never submitted for approval only when necessary, when no equivalent alternative is available and with the patient's approval. In Dubai, the DHA prohibits using any research-use peptide on humans, or for treatment, outside a study or clinical trial approved by the competent authority (29 July 2026). In Abu Dhabi, the DoH lets physicians prescribe peptide therapies only for clinical indications supported by available scientific evidence, after a documented eligibility assessment and with informed consent that covers the product's regulatory approval status, and compounded peptides may use only certified active ingredients imported under EDE oversight (31 July 2026). <sub>(ae-fdl-38-2024 · ae-dha-cir-peptides-2026 · ae-doh-cir-148-2026)</sub>
+
+<details><summary>Narration script</summary>
+
+Patients often link their skin to their gut. Start where the evidence is. Diet quality, treatment of metabolic disease and the established treatment for the skin condition itself all come first. Be careful with tests. A widely used commercial zonulin assay was shown to detect proteins other than zonulin, so a result cannot tell you whether a gut is leaky. Be careful with products too. Probiotics are strain-specific, and their effects on eczema are small at best. The Hormonaly guide gives the popular gut-repair stack of glutamine, zinc carnosine and BPC-157 a grade of D. As of September 2026, in the United States, BPC-157 remains off the 503A bulks list after the July advisory-committee review. Investigational peptides come last, if at all. Whatever your role, name the evidence type before you name the product.
+
+</details>
+
+<sub>Sources: Scheffler L 2018 · Camilleri M 2019 · Reynolds A 2019 · Suez J 2019 · Makrgeorgou A 2018 · US Food and Drug Administration 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · ecfr-21-cfr-216-23-bulks-list</sub>
 
 ### Module 04
 
@@ -1678,3 +1741,168 @@ This is the last moment of the course. Build the commitment you will actually ke
 - *Advisor:* Your commitment ends with referral: you explain grades and categories, and treatment decisions go to a prescriber.
 
 <sub>Sources: The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
+
+## 4 · Flagged statements: proposed dispositions
+
+
+The automated source check left 19 unit(s) with a major finding: a statement the fetched source text does not fully show — usually because only an abstract was readable, the statement records the absence of evidence, or it is standard clinical knowledge the cited source does not spell out. Each needs one decision from the medical owner: **keep** (the statement is right; say why), **edit** (say how), or **cite** (name the source that states it).
+
+Disposition codes the agent may propose: `keep: absence` (a documented search found nothing — no source can state an absence) · `keep: full text` (the cited source states it beyond the abstract) · `keep: standard knowledge` · `edit: …` · `cite: …`.
+
+Confirmed by: PENDING
+
+rc.2: 8 new proposals (country notes, and two Peptide Pocket Guide grades) for decision; 11 entries carried unchanged from rc.1, where they were confirmed.
+
+### `j-br-23`
+
+- **Statement:** Thymus-derived immunomodulators containing other active ingredients (thymomodulin, Leucogen, thymostimulin) hold active registrations in ANVISA's register.
+- **Source check (partial, br-anvisa-register-opendata):** The dataset confirms an active registration for Leucogen (thymomodulin) as an immunomodulator, but does not mention thymostimulin.
+- **Cited:** br-anvisa-register-opendata, br-anvisa-register-dictionary
+
+**Disposition:** PROPOSED: keep: full text + keep: absence — ANVISA's open-data register (DADOS_ABERTOS_MEDICAMENTOS.csv, read 25 Sep 2026, all ~43,500 rows; the checker reads a 60,000-character excerpt of the 8.3-million-character file) lists thymostimulin as the active substance of EXTRATO DE CÉLULAS TÍMICAS, registration 117290005, status Ativo (row now quoted in jurisdictions/BR.json), and Leucogen (thymomodulin) as Ativo; no row names thymulin. The learner note names only thymomodulin.
+
+### `c-m02-02`
+
+- **Statement:** No registered trial tests an 11β-HSD1 inhibitor for skin ageing, and AZD4017 has no FDA approval.
+- **Source check (not_found):** The provided sources do not confirm whether other registered trials exist for skin ageing or whether AZD4017 has FDA approval.
+- **Cited:** ajjan-2022-azd4017-skin-pilot-rct, nct03313297-gc-sheald
+
+**Disposition:** CONFIRMED for rc.1 (Fady Hannah-Shmouni, 2026-09-25), unit unchanged in rc.2 — keep: absence — PubMed and ClinicalTrials.gov searches (September 2026) found no registered 11β-HSD1-inhibitor trial with a skin-ageing endpoint; AZD4017 has no Drugs@FDA record. No source can state an absence; the course dates it.
+
+### `c-m02-04`
+
+- **Statement:** The guideline recommends taking a detailed drug history to exclude exogenous glucocorticoid exposure (oral, inhaled, topical, injected, skin-bleaching creams, herbal tonics, joint/nerve injections) before biochemical testing.
+- **Source check (partial, nieman-2008-cushings-diagnosis-guideline):** The abstract recommends excluding exogenous glucocorticoids prior to testing, but does not list the specific exposure routes or products.
+- **Cited:** nieman-2008-cushings-diagnosis-guideline
+
+**Disposition:** CONFIRMED for rc.1 (Fady Hannah-Shmouni, 2026-09-25), unit unchanged in rc.2 — keep: full text — Nieman 2008 recommendation 3.1 (full text, PMC2386281, not open access) lists the exogenous glucocorticoid routes; the checker could read only the abstract. Medical owner to confirm against the guideline.
+
+### `c-m02-05`
+
+- **Statement:** The guideline recommends testing patients with multiple and progressive features (particularly discriminating ones) or features unusual for age.
+- **Source check (partial, nieman-2008-cushings-diagnosis-guideline):** The abstract supports testing patients with multiple and progressive features with high discriminatory value, but does not mention features unusual for age.
+- **Cited:** nieman-2008-cushings-diagnosis-guideline, hannah-shmouni-2026-are
+
+**Disposition:** CONFIRMED for rc.1 (Fady Hannah-Shmouni, 2026-09-25), unit unchanged in rc.2 — keep: full text — Nieman 2008 recommendations 1.x (testing for unusual features for age; multiple and progressive features; against widespread testing) are in the full guideline, not the abstract.
+
+### `c-m02-11`
+
+- **Statement:** The labeling changes did not add skin as an indication.
+- **Source check (not_found):** The provided FDA sources do not mention skin or address whether it was added as an indication.
+- **Cited:** fda-mht-labeling-request-2025-11-10, fda-mht-labeling-approval-2026-02-12
+
+**Disposition:** CONFIRMED for rc.1 (Fady Hannah-Shmouni, 2026-09-25), unit unchanged in rc.2 — keep: absence — the approved indications in the menopausal hormone therapy labels (hot flashes, vulvovaginal symptoms, bone) do not include skin; the 2026 labeling change revised warnings and added no indication.
+
+### `c-m02-18`
+
+- **Statement:** Primary adrenal insufficiency causes hyperpigmentation particularly of sun-exposed areas, skin creases, mucosa and scars.
+- **Source check (partial, hannah-shmouni-2026-are):** The source confirms hyperpigmentation of palmar creases, scars, and mucosa in primary adrenal insufficiency, but does not mention sun-exposed areas.
+- **Cited:** bornstein-2016-pai-guideline, lause-2017-dermatologic-endocrine, hannah-shmouni-2026-are
+
+**Disposition:** CONFIRMED for rc.1 (Fady Hannah-Shmouni, 2026-09-25), unit unchanged in rc.2 — keep: full text — the claim already cites the Endocrine Society guideline (Bornstein 2016), whose full text describes the hyperpigmentation distribution, including sun-exposed areas; the checker could read only its abstract.
+
+### `c-m02-19`
+
+- **Statement:** Androgen-secreting neoplasms account for about 0.2% of hyperandrogenic women, and over half are malignant.
+- **Source check (not_found):** Neither provided source contains the prevalence figure (about 0.2%) or the proportion of malignancy.
+- **Cited:** martin-2018-hirsutism-guideline, hannah-shmouni-2026-are
+
+**Disposition:** CONFIRMED for rc.1 (Fady Hannah-Shmouni, 2026-09-25), unit unchanged in rc.2 — keep: full text — Martin 2018 (Endocrine Society hirsutism guideline, full text) gives the ~0.2% frequency of androgen-secreting tumours in hyperandrogenic women and their malignant share. Medical owner to confirm the 'over half' figure against the guideline text; otherwise edit to 'a substantial share'.
+
+### `c-m04-07`
+
+- **Statement:** Palmitoyl pentapeptide-4 (pal-KTTKS, Matrixyl) improved photoaging measures in a 12-week randomized trial funded by the manufacturer.
+- **Source check (partial, robinson-2005-pal-kttks-rct):** The abstract confirms the 12-week randomized trial demonstrating significant improvement in fine lines/wrinkles in photoaged skin, but it does not specify manufacturer funding.
+- **Cited:** robinson-2005-pal-kttks-rct, lintner-peschard-2000-pal-kttks, hannah-shmouni-2026-ppg-aug
+
+**Disposition:** CONFIRMED for rc.1 (Fady Hannah-Shmouni, 2026-09-25), unit unchanged in rc.2 — keep: full text — Robinson 2005's authors are employees of the company that sells the tested pal-KTTKS product (author affiliations on the paper), which is what 'run by the manufacturer' records.
+
+### `c-m05-17`
+
+- **Statement:** The single 2017 study from the developer's group is PTD-DBM's whole evidence, with no human trials published or registered as of 24 September 2026.
+- **Source check (partial, hannah-shmouni-2026-ppg-aug):** The source notes only preclinical research by the developer's group and no human RCTs, but it dates from August 2026 and does not explicitly check through 24 September 2026.
+- **Cited:** lee-2017-ptd-dbm-cxxc5-hair, hannah-shmouni-2026-ppg-aug
+
+**Disposition:** CONFIRMED for rc.1 (Fady Hannah-Shmouni, 2026-09-25), unit unchanged in rc.2 — keep: absence — PubMed and ClinicalTrials.gov searches on 24 September 2026 found no human trial of PTD-DBM; the course dates the statement.
+
+### `c-m07-03`
+
+- **Statement:** Topical GHK-Cu's only indexed RCT evaluated post-laser healing.
+- **Source check (partial, miller-2006-ghk-cu-laser-rct):** The trial evaluated topical GHK-Cu on laser-resurfaced skin, but the abstract does not confirm it is the only indexed RCT.
+- **Cited:** miller-2006-ghk-cu-laser-rct, seiwerth-2021-bpc157-wound-healing, gronberg-2014-ll37-rct, mahlapuu-2021-ll37-phase2b, myung-2025-collagen-funding-meta, guyatt-2025-core-grade-5-indirectness
+
+**Disposition:** CONFIRMED for rc.1 (Fady Hannah-Shmouni, 2026-09-25), unit unchanged in rc.2 — keep: absence — a PubMed search (September 2026) found one indexed randomized trial of topical GHK-Cu (Miller 2006); the course states the date of the search.
+
+### `m3-p08›metadata.variants.jurisdiction.BR`
+
+- **Statement:** Since 23 June 2025, GLP-1 receptor agonist medicines may only be sold with retention of the prescription under RDC 973/2025 and IN 360/2025.
+- **Source check (partial, br-anvisa-semaglutide-synthetic-2026):** The requirement for retention of prescription for GLP-1 receptor agonists is supported, but the specific effective date (23 June 2025) and regulation numbers (RDC 973/2025, IN 360/2025) are not contained in the readable sources.
+- **Cited:** br-label-ozempic, br-anvisa-register-opendata, br-label-wegovy, br-anvisa-semaglutide-synthetic-2026, br-anvisa-semaglutide-five-2026, br-anvisa-consultas-medicamentos, br-label-mounjaro, br-anvisa-glp1-qa-2025, br-anvisa-glp1-retention-2025
+
+**Disposition:** PROPOSED: keep: full text + keep: absence — ANVISA's GLP-1 questions-and-answers page (br-anvisa-glp1-qa-2025), which the checker could not fetch, reads: 'A Instrução Normativa-IN nº 360 e a Resolução da Diretoria Colegiada - RDC nº 973 foram publicadas em 24 de abril de 2025, e entrarão em vigor 60 (sessenta) dias após essa data. Assim, as novas medidas relativas aos agonistas do receptor GLP-1 passarão a valer a partir de 23 de junho de 2025.' (verbatim, jurisdictions/BR.json). No row of ANVISA's register file names Zepbound (search 25 Sep 2026); Mounjaro and Mounjaro Multidose are listed.
+
+### `m4-p05›metadata.variants.jurisdiction.GB`
+
+- **Statement:** In the UK, a GHK-Cu serum sold for appearance is classified as a cosmetic product.
+- **Source check (partial, uk-cosmetics-reg-1223-2009-art2):** The regulation defines cosmetic products as any substance or mixture applied externally to change appearance, but does not specifically mention GHK-Cu.
+- **Cited:** uk-cosmetics-reg-1223-2009-art2, mhra-gn8-medicinal-product-2025
+
+**Disposition:** PROPOSED: keep: definition applied — the cited definition (Regulation 1223/2009 art. 2(1)(a), as it applies in Great Britain) makes a product a cosmetic by where it is applied (the external parts of the body) and what it is for (including changing appearance); the note applies it only to a topical GHK-Cu serum sold for appearance, and MHRA Guidance Note 8 (cited) marks where a product becomes a medicine. No source names GHK-Cu, and none needs to.
+
+### `m4-p15`
+
+- **Statement:** Both clinical trials of LL-37 were run/sponsored by the peptide's developer.
+- **Source check (partial, mahlapuu-2021-ll37-phase2b):** The provided text confirms the developer sponsored the 2021 trial, but does not provide sponsorship details for the 2014 trial.
+- **Cited:** gronberg-2014-ll37-rct, mahlapuu-2021-ll37-phase2b, schauber-gallo-2008-amps, hannah-shmouni-2026-ppg-aug
+
+**Disposition:** CONFIRMED for rc.1 (Fady Hannah-Shmouni, 2026-09-25), unit unchanged in rc.2 — keep: full text — both LL-37 trials were run by the developer (Grönberg 2014 by Lipopeptide AB, its predecessor company; Mahlapuu 2021 by Promore Pharma), per the papers' affiliations and funding statements.
+
+### `m5-p04`
+
+- **Statement:** Diffuse hair shedding occurring a few months after childbirth or a rapid low-calorie diet represents telogen effluvium.
+- **Source check (partial, hannah-shmouni-2026-are):** The text notes that rapid weight loss or sudden physiologic stressors cause telogen effluvium, but does not specifically mention postpartum shedding.
+- **Statement:** Smooth bald patches (such as in the beard or spreading across the scalp) with or without nail pitting represent alopecia areata.
+- **Source check (partial, hannah-shmouni-2026-are):** The text discusses alopecia areata and notes nail dystrophy alongside it in APS-1, but does not describe the smooth bald patch presentation in the beard or scalp.
+- **Cited:** hannah-shmouni-2026-are, adil-2017-aga-treatments-meta, king-2022-baricitinib-brave-aa
+
+**Disposition:** CONFIRMED for rc.1 (Fady Hannah-Shmouni, 2026-09-25), unit unchanged in rc.2 — keep: standard knowledge — postpartum or post-diet telogen effluvium and smooth patchy alopecia areata (beard or scalp, nail pitting) are standard clinical presentations; they match the Hormonaly guide's hair-loss algorithm (p. 93, an image the checker cannot read).
+
+### `m5-p08`
+
+- **Statement:** The Peptide Pocket Guide rates Melanotan II C and the Aesthetic & Regenerative Endocrinology guide rates it D.
+- **Source check (partial, hannah-shmouni-2026-are):** The Aesthetic & Regenerative Endocrinology guide rates Melanotan II D, but the Peptide Pocket Guide excerpt does not contain a Grade C rating for it.
+- **Cited:** langendonk-2015-afamelanotide-epp, ema-scenesse-epar, fda-scenesse-label-2024, dorr-1996-melanotan-ii-pilot, wessells-1998-melanotan-ii-ed, bohm-2025-mc1r-activation-review, nct06109649-scenesse-vitiligo, hannah-shmouni-2026-ppg-aug, hannah-shmouni-2026-are
+
+**Disposition:** PROPOSED: keep: full text — the Peptide Pocket Guide (August 2026) grades Melanotan II C: its contents list ('Melanotan II · GRADE C') and the monograph header on p. 73 ('GRADE C · NON-SELECTIVE MELANOCORTIN AGONIST'); the checker's 60,000-character excerpt of the 256,000-character guide missed that page. The Aesthetic & Regenerative Endocrinology guide's D is the quote the checker found.
+
+### `m5-p12›metadata.variants.jurisdiction.BR`
+
+- **Statement:** Under Law 6.360/1976, no product covered by the law, including an imported one, may be manufactured, offered for sale or supplied for consumption before being registered with the Ministry of Health.
+- **Source check (not_found):** The cited text of Law 6.360/1976 is unavailable in the provided sources.
+- **Cited:** br-anvisa-register-opendata, br-anvisa-register-dictionary, br-anvisa-consultas-medicamentos, br-lei-6360-1976
+
+**Disposition:** PROPOSED: keep: full text + keep: absence — Law 6.360/1976 art. 12 (planalto.gov.br, which the checker could not fetch) reads: 'Art. 12 - Nenhum dos produtos de que trata esta Lei, inclusive os importados, poderá ser industrializado, exposto à venda ou entregue ao consumo antes de registrado no Ministério da Saúde.' (verbatim, jurisdictions/BR.json). No row of ANVISA's register file names melanotan (search 25 Sep 2026).
+
+### `m5-p17`
+
+- **Statement:** Both thymulin and PTD-DBM carry Grade D evidence.
+- **Source check (partial, hannah-shmouni-2026-ppg-aug):** The pocket guide rates Zinc Thymulin as Grade D, but PTD-DBM is not mentioned in the provided excerpts.
+- **Cited:** fda-503a-categories-2026-05-14, fda-503a-bulks-page, ecfr-21-cfr-216-23-bulks-list, hannah-shmouni-2026-ppg-aug, adil-2017-aga-treatments-meta
+
+**Disposition:** PROPOSED: keep: full text — the Peptide Pocket Guide grades PTD-DBM D (monograph p. 59, 'GRADE D · CELL-PENETRATING WNT-PATHWAY ACTIVATOR') and zinc thymulin D (p. 61); the checker's excerpt held only the thymulin page (its re-check of c-m05-17 finds PTD-DBM's D).
+
+### `m7-p21›metadata.variants.jurisdiction.PT`
+
+- **Statement:** INFARMED may authorise exceptional use (AUE) of a medicine without a marketing authorisation when clinically justified as indispensable and no authorised alternative exists.
+- **Source check (partial, pt-infarmed-aue):** The source confirms INFARMED can authorise exceptional use (AUE) under DL 176/2006, but the consolidated statute text defining clinical indispensability is unavailable.
+- **Cited:** pt-infarmed-circ148-2011, pt-dl176-2006, pt-infarmed-aue, pt-dl95-2004, pt-infarmed-manipulados
+
+**Disposition:** PROPOSED: keep: full text — Decreto-Lei 176/2006 (Estatuto do Medicamento) art. 92(1)(a), whose consolidated text on diariodarepublica.pt the checker could not fetch, reads: 'O INFARMED, I.P., pode autorizar a utilização em Portugal de medicamento não possuidor de qualquer das restantes autorizações previstas no presente decreto-lei … a) Mediante justificação clínica, sejam considerados imprescindíveis à prevenção, diagnóstico ou tratamento de determinadas patologias, desde que seja demonstrada a inexistência de alternativa no conjunto de medicamentos com autorização de introdução no mercado' (verbatim, jurisdictions/PT.json); INFARMED's AUE page (cited, read by the checker) confirms the AUE under article 92.
+
+### `m7-p15›metadata.variants.jurisdiction.PT`
+
+- **Statement:** INFARMED may authorise exceptional use (AUE) of a medicine without a marketing authorisation, for example when it is clinically justified as indispensable and no authorised alternative exists.
+- **Source check (partial, pt-infarmed-aue):** The source confirms that INFARMED grants exceptional use authorisations (AUE) and mentions situations without therapeutic alternatives, but the specific criterion of being clinically indispensable is not detailed in the text.
+- **Cited:** pt-dl176-2006, pt-infarmed-aue
+
+**Disposition:** PROPOSED: keep: full text — the same Decreto-Lei 176/2006 art. 92(1)(a) text as m7-p21 (PT) above.

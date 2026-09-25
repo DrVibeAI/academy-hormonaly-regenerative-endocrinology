@@ -981,7 +981,7 @@
       },
       "EU": {
        "text": {
-        "en": "In the EU, HRT is authorised nationally, and the harmonised EU core product information (CMDh, December 2025) lists oestrogen-deficiency symptoms after menopause, osteoporosis prevention and vaginal atrophy as its indications; skin is not an indication. EU cosmetics law prohibits oestrogens, progestogens and tretinoin in cosmetic products (Regulation (EC) No 1223/2009, Annex II), and anti-wrinkle products containing tretinoin marketed as cosmetics are illegal cosmetics."
+        "en": "In the EU, the harmonised core product information for HRT (CMDh, December 2025) lists oestrogen-deficiency symptoms after menopause, osteoporosis prevention and vaginal atrophy as its indications; skin is not an indication. EU cosmetics law prohibits oestrogens, progestogens and tretinoin in cosmetic products (Regulation (EC) No 1223/2009, Annex II), and anti-wrinkle products containing tretinoin marketed as cosmetics are illegal cosmetics."
        },
        "citationRefs": [
         "eu-hma-core-smpc-hrt-2025",
@@ -2175,6 +2175,12 @@
    "date": "2026-09-25",
    "block": "m2-p11",
    "change": "UK text moved verbatim into the UK note; the same UK facts left beats 1 and 3 and the narration, and the UK-only lines left the prescriber and advisor versions (advisor sentence rejoined as approved on 24 Sep), so the base copy is the approved US text; EU, Portugal, Brazil and UAE notes added.",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m2-p11",
+   "change": "EU note: the opening clause 'HRT is authorised nationally' removed; the cited EU core product information (CMDh, December 2025) lists HRT's indications but says nothing about how HRT products are authorised. The note now states only what that text lists.",
    "forReview": "Fady Hannah-Shmouni"
   }
  ],

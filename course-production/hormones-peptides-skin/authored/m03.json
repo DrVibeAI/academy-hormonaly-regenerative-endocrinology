@@ -1734,10 +1734,12 @@
     "camilleri-2019-leaky-gut",
     "reynolds-2019-carbohydrate-quality",
     "suez-2019-probiotics-review",
+    "makrgeorgou-2018-cochrane-probiotics-eczema",
     "fda-pcac-2026-07-meeting",
-    "hannah-shmouni-2026-are"
+    "hannah-shmouni-2026-are",
+    "ecfr-21-cfr-216-23-bulks-list"
    ],
-   "sourceNote": "Scheffler 2018 · Camilleri 2019 · Aesthetic & Regenerative Endocrinology, ch. 16 · FDA PCAC, July 2026",
+   "sourceNote": "Scheffler 2018 · Camilleri 2019 · Makrgeorgou 2018 (Cochrane) · Aesthetic & Regenerative Endocrinology, ch. 16 · FDA PCAC, July 2026 · 21 CFR 216.23",
    "audioBeats": [
     {
      "title": {
@@ -2586,6 +2588,12 @@
    "date": "2026-09-25",
    "block": "unit tutorContext",
    "change": "'EU not covered' removed; the moments' country notes now carry EU, Portugal, Brazil and UAE status.",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m3-p18",
+   "change": "Sources only, no wording changed: the Cochrane review of probiotics for eczema (Makrgeorgou 2018) and the 503A bulks list (21 CFR 216.23) added to the citations and source line; they state the narration's eczema and BPC-157 sentences, which the previously cited sources did not.",
    "forReview": "Fady Hannah-Shmouni"
   }
  ],

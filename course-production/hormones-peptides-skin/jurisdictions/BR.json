@@ -945,8 +945,8 @@
         "br-anvisa-register-opendata",
         "br-anvisa-register-dictionary"
       ],
-      "quote": "\"MEDICAMENTO\";\"LEUCOGEN\";\"19/11/2003\";\"Específico\";105730062;\"022028\";\"2500100242582\";\"IMUNOMODULADOR\";\"60659463002992 - ACHÉ LABORATÓRIOS FARMACÊUTICOS S.A\";\"Ativo\";\"timomodulina\"",
-      "quoteEn": "Register row: medicine LEUCOGEN, specific-medicine category, registration 105730062, class immunomodulator, Aché Laboratórios, status Active, active substance thymomodulin."
+      "quote": "\"MEDICAMENTO\";\"LEUCOGEN\";\"19/11/2003\";\"Específico\";105730062;\"022028\";\"2500100242582\";\"IMUNOMODULADOR\";\"60659463002992 - ACHÉ LABORATÓRIOS FARMACÊUTICOS S.A\";\"Ativo\";\"timomodulina\" … \"MEDICAMENTO\";\"EXTRATO DE CÉLULAS TÍMICAS\";\"05/01/2001\";\"Similar\";117290005;\"012036\";\"250000179829237\";\"IMUNOMODULADOR\";\"28614626000107 - LABORATORIO DE EXTRATOS ALERGENICOS LTDA\";\"Ativo\";\"timostimulina\"",
+      "quoteEn": "Register row: medicine LEUCOGEN, specific-medicine category, registration 105730062, class immunomodulator, Aché Laboratórios, status Active, active substance thymomodulin. … Register row: medicine EXTRATO DE CÉLULAS TÍMICAS (thymic cell extract), similar-medicine category, registration 117290005, class immunomodulator, Laboratório de Extratos Alergênicos, status Active, active substance thymostimulin."
     },
     {
       "name": "PTD-DBM",

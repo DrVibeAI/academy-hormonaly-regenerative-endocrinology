@@ -5477,7 +5477,7 @@
     "br-anvisa-register-dictionary"
    ],
    "status": "verified",
-   "reviewNote": "primary source quote: \"\"MEDICAMENTO\";\"LEUCOGEN\";\"19/11/2003\";\"Específico\";105730062;\"022028\";\"2500100242582\";\"IMUNOMODULADOR\";\"60659463002992 - ACHÉ LABORATÓRIOS FARMACÊUTICOS S.A\";\"Ativo\";\"timomodulina\"\" (English: \"Register row: medicine LEUCOGEN, specific-medicine category, registration 105730062, class immunomodulator, Aché Laboratórios, status Active, active substance thymomodulin.\")",
+   "reviewNote": "primary source quote: \"\"MEDICAMENTO\";\"LEUCOGEN\";\"19/11/2003\";\"Específico\";105730062;\"022028\";\"2500100242582\";\"IMUNOMODULADOR\";\"60659463002992 - ACHÉ LABORATÓRIOS FARMACÊUTICOS S.A\";\"Ativo\";\"timomodulina\" … \"MEDICAMENTO\";\"EXTRATO DE CÉLULAS TÍMICAS\";\"05/01/2001\";\"Similar\";117290005;\"012036\";\"250000179829237\";\"IMUNOMODULADOR\";\"28614626000107 - LABORATORIO DE EXTRATOS ALERGENICOS LTDA\";\"Ativo\";\"timostimulina\"\" (English: \"Register row: medicine LEUCOGEN, specific-medicine category, registration 105730062, class immunomodulator, Aché Laboratórios, status Active, active substance thymomodulin. … Register row: medicine EXTRATO DE CÉLULAS TÍMICAS (thymic cell extract), similar-medicine category, registration 117290005, class immunomodulator, Laboratório de Extratos Alergênicos, status Active, active substance thymostimulin.\")",
    "gradeDecision": "context — regulatory status"
   },
   {
@@ -6545,7 +6545,7 @@
    "kind": "substance",
    "subject": "estradiol / menopausal hormone therapy",
    "substanceStatus": "authorised",
-   "text": "In the EU, estradiol HRT is authorised nationally; the harmonised EU core product information (CMDh, December 2025) lists oestrogen-deficiency symptoms after menopause, osteoporosis prevention and vaginal atrophy as indications — skin is not an indication.",
+   "text": "In the EU, the harmonised core product information for HRT products (CMDh, December 2025) lists oestrogen-deficiency symptoms after menopause, osteoporosis prevention and vaginal atrophy as indications — skin is not an indication.",
    "citationRefs": [
     "eu-hma-core-smpc-hrt-2025"
    ],
@@ -7916,7 +7916,7 @@
    "jurisdiction": "PT",
    "kind": "framework",
    "subject": "cosmetics",
-   "text": "In Portugal, INFARMED is the national competent authority for cosmetic products under the EU Cosmetics Regulation (Decreto-Lei 23/2025, in force 24 Mar 2025).",
+   "text": "In Portugal, INFARMED is the national competent authority for cosmetic products under the EU Cosmetics Regulation (Decreto-Lei 23/2025 of 19 March 2025).",
    "citationRefs": [
     "pt-dl23-2025",
     "pt-infarmed-cosmetics-faq"

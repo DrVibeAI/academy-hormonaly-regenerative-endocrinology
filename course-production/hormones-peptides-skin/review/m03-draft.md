@@ -341,7 +341,7 @@ Patients often link their skin to their gut. Start where the evidence is. Diet q
 
 </details>
 
-<sub>Sources: Scheffler L 2018 · Camilleri M 2019 · Reynolds A 2019 · Suez J 2019 · US Food and Drug Administration 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
+<sub>Sources: Scheffler L 2018 · Camilleri M 2019 · Reynolds A 2019 · Suez J 2019 · Makrgeorgou A 2018 · US Food and Drug Administration 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · ecfr-21-cfr-216-23-bulks-list</sub>
 
 ### 19 / 20 · The zonulin test.  
 *Your turn · quiz*
