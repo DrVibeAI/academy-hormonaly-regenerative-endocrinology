@@ -19,7 +19,7 @@ This course starts with physiology, because every later question about a hormone
 ### 02 / 19 · How will you use this course?  
 *Set your path · reflection*
 
-The evidence, grades and regulatory facts are the same for everyone. What changes, in every module, is the 'what you do next' at the end of each lesson, so it fits what your licence lets you do.
+The evidence and grades are the same for everyone, and regulatory notes follow the country you choose. What changes with your role, in every module, is the 'what you do next' at the end of each lesson, so it fits what your licence lets you do.
 
 *Choose the one closest to your role*
 - **I prescribe: physician, NP or PA** → Your path closes each lesson on the prescribing decision: assessment, referral, consent and documentation.

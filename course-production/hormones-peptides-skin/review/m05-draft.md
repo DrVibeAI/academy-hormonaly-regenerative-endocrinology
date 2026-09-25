@@ -36,13 +36,20 @@ Each hair follicle behaves like a small gland. When researchers keep human scalp
 ### 03 / 19 · Two trials, 1,200 adults, one approval.  
 *Human evidence · stat*
 
-When immune privilege fails, the attack depends on cytokine signals that JAK inhibitors interrupt. Two randomized phase 3 trials tested oral baricitinib in 1,200 adults with severe alopecia areata. In the US, FDA approved baricitinib for adults with severe alopecia areata on 13 June 2022. The Aesthetic & Regenerative Endocrinology guide grades it A. In the UK, baricitinib is licensed for severe alopecia areata in adults, and NICE did not recommend it for NHS use in October 2023, on cost-effectiveness.
+When immune privilege fails, the attack depends on cytokine signals that JAK inhibitors interrupt. Two randomized phase 3 trials tested oral baricitinib in 1,200 adults with severe alopecia areata. In the US, FDA approved baricitinib for adults with severe alopecia areata on 13 June 2022. The Aesthetic & Regenerative Endocrinology guide grades it A.
 
 **1,200** — adults with severe alopecia areata in the two phase 3 trials of baricitinib (2022) (At 36 weeks, up to 39% of patients on baricitinib had at least 80% of their scalp hair, against 3–6% on placebo)  
 *Means:* Interrupting the immune signalling behind collapsed privilege regrows hair in severe alopecia areata. That is approval-grade evidence (A), and it shows what real follicle evidence looks like.  
 *Does not mean:* It says nothing about pattern hair loss, cosmetic thinning or any peptide. Both trials were funded by the manufacturer, and the authors called for longer trials.
 
-<sub>Sources: King B 2022 · US Food and Drug Administration 2022 · Bertolini M 2020 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · Eli Lilly Nederland B.V. (marketing authorisation holder) 2024 · National Institute for Health and Care Excellence 2023</sub>
+**Regulatory status by jurisdiction**
+- *GB:* In the UK, baricitinib is licensed for severe alopecia areata in adults, and NICE did not recommend it for NHS use in October 2023, on cost-effectiveness. <sub>(Eli Lilly Nederland B.V. (marketing authorisation holder) 2024 · National Institute for Health and Care Excellence 2023)</sub>
+- *EU:* In the EU, baricitinib (Olumiant) has been centrally authorised since 13 February 2017; its indications include severe alopecia areata in adults and adolescents aged 12 and over, and it is prescription-only, started by a doctor experienced in the condition (EMA). Since EMA's January 2023 review, JAK inhibitors including Olumiant should be used in people aged 65 or over, at raised cardiovascular or cancer risk, or long-term smokers only if no suitable alternative exists, and this applies to alopecia areata. <sub>(eu-ema-epar-olumiant · eu-ema-ref-jaki-2023)</sub>
+- *PT:* In Portugal, Olumiant (baricitinib) is classified as a restricted-prescription medicine (MSRM restrita - Alínea a), according to INFARMED's Infomed register on 25 September 2026. <sub>(pt-infomed · pt-dl176-2006)</sub>
+- *BR:* In Brazil, baricitinib (Olumiant) has been registered by ANVISA since 26 November 2018, and its current label includes severe alopecia areata in adults and adolescents aged 12 or over weighing at least 30 kg (checked 25 September 2026). <sub>(br-label-olumiant · br-anvisa-register-opendata)</sub>
+- *AE:* In the UAE, the Emirates Drug Establishment (EDE) has held medicines registration since Federal Decree-Law 28/2023, and the medicines law is Federal Decree-Law 38 of 2024. The EDE register lists Olumiant (baricitinib) tablets, registered since 8 June 2017, as Prescription Only and files them under rheumatic diseases; it does not show whether alopecia areata is an approved UAE indication (25 September 2026). <sub>(ae-fdl-28-2023 · ae-fdl-38-2024 · ae-ede-reg-olumiant)</sub>
+
+<sub>Sources: King B 2022 · US Food and Drug Administration 2022 · Bertolini M 2020 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
 
 ### 04 / 19 · Four questions before any product.  
 *Worked tool · tool*
@@ -72,7 +79,7 @@ The Aesthetic & Regenerative Endocrinology guide's first-pass hair-loss workup a
 ### 05 / 19 · Work up the hair loss before anyone mentions a peptide.  
 *What changes in practice · audio*
 
-Pattern, trigger, patches and androgens decide the treatment. Pooled randomized trials support topical minoxidil in men and women and finasteride in men. In the US, as of September 2026, topical minoxidil is FDA-approved and sold over the counter, finasteride for pattern hair loss is a prescription drug, and baricitinib is approved for adults with severe alopecia areata. In the UK, topical minoxidil is licensed and a men's foam is on general sale, finasteride for hair loss is available only on private prescription, and baricitinib is licensed for severe alopecia areata in adults. In May 2026 MHRA strengthened its warnings that finasteride is associated with depression, suicidal thoughts and sexual dysfunction that may persist after stopping.
+Pattern, trigger, patches and androgens decide the treatment. Pooled randomized trials support topical minoxidil in men and women and finasteride in men. In the US, as of September 2026, topical minoxidil is FDA-approved and sold over the counter, finasteride for pattern hair loss is a prescription drug, and baricitinib is approved for adults with severe alopecia areata.
 
 - Workup first: ferritin and TSH in everyone
 - Approved options exist, with A-grade evidence
@@ -83,13 +90,20 @@ Pattern, trigger, patches and androgens decide the treatment. Pooled randomized 
 - *Clinical staff:* Note the pattern, the timeline and any recent trigger, photograph the scalp with consent if your setting allows, and pass it to the prescriber. Patchy or fast-spreading loss needs prompt escalation.
 - *Advisor:* Explain what the approved options are and what their evidence shows. A patient with new, patchy, scarring or fast-spreading hair loss needs a prescriber before any product.
 
+**Regulatory status by jurisdiction**
+- *GB:* In the UK, topical minoxidil is licensed and a men's foam is on general sale, finasteride for hair loss is available only on private prescription, and baricitinib is licensed for severe alopecia areata in adults. In May 2026 MHRA strengthened its warnings that finasteride is associated with depression, suicidal thoughts and sexual dysfunction that may persist after stopping. <sub>(McNeil Products Limited (marketing authorisation holder) 2026 · Organon Pharma (UK) Limited (marketing authorisation holder) 2026 · Medicines and Healthcare products Regulatory Agency (UK) 2026 · Eli Lilly Nederland B.V. (marketing authorisation holder) 2024)</sub>
+- *EU:* In the EU, topical minoxidil is authorised nationally, finasteride tablets and a finasteride skin spray are authorised in various member states for early androgenetic alopecia in men aged 18 to 41 (EMA, 2025), and baricitinib (Olumiant) is centrally authorised and prescription-only, with severe alopecia areata in adults and adolescents aged 12 and over among its indications. After an EU-wide review endorsed on 19 June 2025, suicidal ideation is a confirmed side effect of finasteride tablets, and packs of the hair-loss tablets carry a patient card. <sub>(eu-ema-psusa-minoxidil-2024 · eu-union-register · eu-ema-medicines-data · eu-ema-ref-finasteride-2025 · eu-ema-epar-olumiant)</sub>
+- *PT:* In Portugal, topical minoxidil is a non-prescription medicine (MNSRM), and the label of Minox 5 solution covers alopecia areata as well as androgenetic alopecia in men and women. Finasteride for hair loss (Propecia) is prescription-only (MSRM), and baricitinib (Olumiant) is a restricted-prescription medicine (MSRM restrita – point a) (INFARMED's Infomed register, 25 September 2026). <sub>(pt-infomed · pt-rcm-minox5 · pt-dl176-2006)</sub>
+- *BR:* In Brazil, minoxidil products such as Aloxidil are indicated for androgenetic alopecia in adult men, and finasteride products such as Pro Hair are indicated for the treatment of men with male-pattern baldness (androgenetic alopecia). Baricitinib (Olumiant) is indicated for adult and adolescent patients aged 12 years or older and weighing at least 30 kg with severe alopecia areata (ANVISA, 25 September 2026). <sub>(br-label-aloxidil · br-anvisa-register-opendata · br-label-prohair · br-label-olumiant)</sub>
+- *AE:* In the UAE, the Emirates Drug Establishment (EDE) has held medicines registration since Federal Decree-Law 28/2023, and the medicines law is Federal Decree-Law 38 of 2024. The EDE register lists topical minoxidil (for example Regaine solution, a Pharmacist Only Medicine), oral finasteride (Propecia, Prescription Only), a topical finasteride spray registered in March 2025 (Fincrezo, Prescription Only) and Olumiant (baricitinib, Prescription Only), without showing whether alopecia areata is an approved UAE indication (25 September 2026). <sub>(ae-fdl-28-2023 · ae-fdl-38-2024 · ae-ede-reg-regaine · ae-ede-register · ae-ede-reg-propecia · ae-ede-reg-fincrezo · ae-ede-reg-olumiant)</sub>
+
 <details><summary>Narration script</summary>
 
-Most requests for a hair peptide skip the diagnosis. Start with the pattern, ask about a trigger, look for patches and nail pitting, and look for signs of androgen excess. Check ferritin and thyroid function every time, and send a scarring pattern for biopsy. The approved options already carry strong evidence. Pooled randomized trials support topical minoxidil in men and women and finasteride in men. In the United States minoxidil is sold over the counter, while finasteride for hair loss needs a prescription. In the United Kingdom a men's minoxidil foam is on general sale, finasteride for hair loss is available only on private prescription, and in May 2026 MHRA strengthened its warnings about depression, suicidal thoughts and sexual side effects. Severe or fast-spreading alopecia areata belongs with a dermatologist, where a JAK inhibitor is an approved option for adults. Whatever your role, the workup comes before the product.
+Most requests for a hair peptide skip the diagnosis. Start with the pattern, ask about a trigger, look for patches and nail pitting, and look for signs of androgen excess. Check ferritin and thyroid function every time, and send a scarring pattern for biopsy. The approved options already carry strong evidence. Pooled randomized trials support topical minoxidil in men and women and finasteride in men. In the United States minoxidil is sold over the counter, while finasteride for hair loss needs a prescription. Severe or fast-spreading alopecia areata belongs with a dermatologist, where a JAK inhibitor is an approved option for adults. Whatever your role, the workup comes before the product.
 
 </details>
 
-<sub>Sources: Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · Adil A 2017 · US Food and Drug Administration 1988 · US Food and Drug Administration 1997 · US Food and Drug Administration 2022 · McNeil Products Limited (marketing authorisation holder) 2026 · Organon Pharma (UK) Limited (marketing authorisation holder) 2026 · Medicines and Healthcare products Regulatory Agency (UK) 2026 · Eli Lilly Nederland B.V. (marketing authorisation holder) 2024</sub>
+<sub>Sources: Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · Adil A 2017 · US Food and Drug Administration 1988 · US Food and Drug Administration 1997 · US Food and Drug Administration 2022</sub>
 
 ### 06 / 19 · Shedding after the baby.  
 *Your turn · quiz*
@@ -130,12 +144,19 @@ Afamelanotide and Melanotan II are both synthetic relatives of α-MSH. Compare t
 |---|---|---|
 | Mechanism | Afamelanotide: MC1R agonist · Melanotan II: non-selective | Melanotan II also acts on MC3R, MC4R and MC5R and reaches the brain |
 | Human evidence | Afamelanotide: A, for EPP only · Melanotan II: D | Two phase 3 trials in erythropoietic protoporphyria, against a three-volunteer pilot and a ten-man erectile-dysfunction study from the 1990s. The Peptide Pocket Guide rates Melanotan II C and the Aesthetic & Regenerative Endocrinology guide D; with no trial of tanning, this course uses D. |
-| Regulatory status | Afamelanotide: EU 2014, US 2019, UK licensed · Melanotan II: none | Afamelanotide is approved only for EPP, as the manufacturer's implant. Melanotan II is approved for no indication anywhere. In the UK, afamelanotide is licensed under exceptional circumstances and prescribed only in specialist porphyria centres, and NICE did not recommend it for NHS use (July 2023). |
+| Regulatory status | Afamelanotide: EU 2014, US 2019 · Melanotan II: none | Afamelanotide is approved only for EPP, as the manufacturer's implant. Melanotan II is approved for no indication anywhere. |
 | Open question | Uses beyond EPP; melanoma risk | A phase 3 trial of afamelanotide in vitiligo began in 2023 and has posted no results. Whether Melanotan II causes melanoma is unproven. |
 
 **Callout:** A shared receptor does not bring a shared approval.
 
-<sub>Sources: Langendonk JG 2015 · European Medicines Agency 2014 · US Food and Drug Administration / Clinuvel Inc. 2024 · Dorr RT 1996 · Wessells H 1998 · Böhm M 2025 · Clinuvel 2023 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · National Institute for Health and Care Excellence 2023</sub>
+**Regulatory status by jurisdiction**
+- *GB:* In the UK, afamelanotide is licensed under exceptional circumstances and prescribed only in specialist porphyria centres, and NICE did not recommend it for NHS use (July 2023). <sub>(National Institute for Health and Care Excellence 2023)</sub>
+- *EU:* In the EU, afamelanotide (Scenesse implant) is authorised for erythropoietic protoporphyria, under exceptional circumstances (European Commission, 22 December 2014), and is prescribed only by specialists in recognised EPP centres. <sub>(eu-ema-epar-scenesse · eu-union-register)</sub>
+- *PT:* In Portugal, Scenesse is authorised through the EU procedure but classified as a restricted-prescription medicine for exclusive hospital use (MSRM restrita, alínea a), and no presentation is marketed in Portugal (INFARMED's Infomed register, 25 September 2026). <sub>(pt-infomed · pt-dl176-2006)</sub>
+- *BR:* In Brazil, no registered medicine containing afamelanotide (Scenesse) was found: ANVISA's open-data register and its online medicines search returned no match on 25 September 2026, and the substance is absent from ANVISA's substance dictionary. <sub>(br-anvisa-register-opendata · br-anvisa-register-dictionary · br-anvisa-consultas-medicamentos)</sub>
+- *AE:* In the UAE, the Emirates Drug Establishment (EDE) has held medicines registration since Federal Decree-Law 28/2023, and the medicines law is Federal Decree-Law 38 of 2024. An ingredient and product-name search of the EDE register found no registered product containing afamelanotide, and none named Scenesse (25 September 2026). <sub>(ae-fdl-28-2023 · ae-fdl-38-2024 · ae-ede-register)</sub>
+
+<sub>Sources: Langendonk JG 2015 · European Medicines Agency 2014 · US Food and Drug Administration / Clinuvel Inc. 2024 · Dorr RT 1996 · Wessells H 1998 · Böhm M 2025 · Clinuvel 2023 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
 
 ### 09 / 19 · Sixty-nine hours against forty-one.  
 *The evidence · stat*
@@ -200,7 +221,7 @@ Her booking says skin quality. This patient is fictional, built from the lesson'
 ### 12 / 19 · Three regulators, one answer.  
 *Regulatory status · tool*
 
-Each statement below is dated, because regulatory status changes. None of the three regulators has approved Melanotan II, and each has put its concerns on the record. EU status is not covered in this course.
+Each statement below is dated, because regulatory status changes. None of the three regulators has approved Melanotan II, and each has put its concerns on the record.
 
 | | | |
 |---|---|---|
@@ -209,6 +230,12 @@ Each statement below is dated, because regulatory status changes. None of the th
 | Australia · TGA (17 August 2026) | Prescription-only; no approved product | Not approved as a tanning agent and nothing on the national register; seized, identically labelled nasal sprays varied more than twofold in content |
 
 **Callout:** Check the regulator in your own jurisdiction, and date what you say.
+
+**Regulatory status by jurisdiction**
+- *EU:* In the EU, no centrally authorised medicine containing melanotan (Melanotan II) was found in the Union Register or in EMA's data on authorised, refused and withdrawn medicines (searched 25 September 2026). <sub>(eu-ema-medicines-data · eu-union-register)</sub>
+- *PT:* In Portugal, no medicine containing melanotan is listed in INFARMED's Infomed register: a substance search for 'melanot' returns only afamelanotide (Scenesse) and setmelanotide (Imcivree), and a product-name search for 'Melanotan' returns nothing (25 September 2026). <sub>(pt-infomed)</sub>
+- *BR:* In Brazil, no registered medicine containing melanotan was found in ANVISA's register (25 September 2026). Under Law 6.360/1976, no product covered by the law, including an imported one, may be manufactured, offered for sale or supplied for consumption before being registered with the Ministry of Health. <sub>(br-anvisa-register-opendata · br-anvisa-register-dictionary · br-anvisa-consultas-medicamentos · br-lei-6360-1976)</sub>
+- *AE:* In the UAE, the Emirates Drug Establishment (EDE) has held medicines registration since Federal Decree-Law 28/2023, and the medicines law is Federal Decree-Law 38 of 2024; no melanotan product was found in the EDE register (25 September 2026). In Abu Dhabi, the Department of Health (Circular 112/2025, 2 July 2025), relaying an EDE warning on Melanotan II ('Barbie drug'), requires facilities to prohibit its importation, distribution, marketing or use. In Dubai, the Dubai Health Authority (DHA) sent the Ministry of Health and Prevention's Circular 06 of 2025 on the serious safety concerns of Melanotan II to all health facilities for adherence (25 June 2025). <sub>(ae-fdl-28-2023 · ae-fdl-38-2024 · ae-doh-cir-112-2025 · ae-ede-register · ae-dha-cir-melanotan-2025)</sub>
 
 <sub>Sources: US Food and Drug Administration 2026 · Medicines and Healthcare products Regulatory Agency (UK) 2024 · Therapeutic Goods Administration (Australia) 2026 · Böhm M 2025 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
 
@@ -282,7 +309,7 @@ Five things patients use or ask about for hair, with what each is claimed to do.
 ### 17 / 19 · When the request is a compounded hair spray.  
 *What changes in practice · audio*
 
-In the US, on FDA's category lists of 14 May 2026, thymulin acetate sits in Category 3: nominated without enough information to evaluate, and outside the enforcement discretion that Category 1 carries. PTD-DBM appears on none of the three lists, and neither substance is on the 503A bulks list. Both carry grade D evidence. In the UK, a spray made up for one patient would be an unlicensed 'special', and MHRA guidance says an unlicensed product should not be used where a UK-licensed one, such as minoxidil, could meet the patient's need. The useful conversation names the grade, returns to the workup and describes the approved options.
+In the US, on FDA's category lists of 14 May 2026, thymulin acetate sits in Category 3: nominated without enough information to evaluate, and outside the enforcement discretion that Category 1 carries. PTD-DBM appears on none of the three lists, and neither substance is on the 503A bulks list. Both carry grade D evidence. The useful conversation names the grade, returns to the workup and describes the approved options.
 
 - Thymulin acetate: 503A Category 3 (US, May 2026)
 - PTD-DBM: on no FDA 503A list
@@ -293,13 +320,20 @@ In the US, on FDA's category lists of 14 May 2026, thymulin acetate sits in Cate
 - *Clinical staff:* If a patient mentions a peptide hair spray, note the product, where it came from and any scalp irritation, and pass it to the prescriber. When asked whether it works, keep to what the evidence shows.
 - *Advisor:* Describe PTD-DBM and zinc thymulin as research-stage, with no human trials. Point a patient with hair loss to a prescriber for the workup rather than to a product.
 
+**Regulatory status by jurisdiction**
+- *GB:* In the UK, a spray made up for one patient would be an unlicensed 'special', and MHRA guidance says an unlicensed product should not be used where a UK-licensed one, such as minoxidil, could meet the patient's need. <sub>(Medicines and Healthcare products Regulatory Agency (UK) 2023 · McNeil Products Limited (marketing authorisation holder) 2026)</sub>
+- *EU:* In the EU, a medicine prepared in a pharmacy for an individual patient on prescription (a magistral formula) falls outside Directive 2001/83/EC (Article 3). A search of the Union Register and EMA's medicines data found no centrally authorised medicine containing thymulin or PTD-DBM (25 September 2026). <sub>(eu-dir-2001-83 · eu-ema-medicines-data · eu-union-register)</sub>
+- *PT:* In Portugal, a magistral formula may use only raw materials listed in the Portuguese or European pharmacopoeia, another European pharmacopoeia or compendial scientific documentation, and the prescribing physician must satisfy themselves of its safety and efficacy (Decreto-Lei 95/2004). INFARMED's Infomed register lists no medicine containing thymulin or PTD-DBM (25 September 2026). <sub>(pt-dl95-2004 · pt-infarmed-manipulados · pt-infomed)</sub>
+- *BR:* In Brazil, ANVISA stated on 2 July 2026 that a substance must have passed efficacy and safety assessment before it can be compounded, and that compounding may only be individual, on prescription, by a pharmacy licensed by local health surveillance. A search of ANVISA's register found no registered medicine containing PTD-DBM or thymulin (25 September 2026), though immunomodulators such as thymomodulin are registered. <sub>(br-anvisa-peptides-2026 · br-anvisa-register-opendata · br-anvisa-register-dictionary)</sub>
+- *AE:* In the UAE, the Emirates Drug Establishment (EDE) has held medicines registration since Federal Decree-Law 28/2023; under the medicines law, Federal Decree-Law 38 of 2024, products compounded in licensed compounding pharmacies need no marketing approval, and no product containing thymulin or PTD-DBM was found in the EDE register (25 September 2026). In Dubai, the Dubai Health Authority (DHA) prohibits circulating, prescribing, dispensing or using any peptide product that is not registered or licensed with the EDE (29 July 2026). In Abu Dhabi, the Department of Health (DoH) lets compounded peptide formulations use only certified active ingredients imported under EDE oversight (31 July 2026), and its August 2026 compounding standard treats peptides as emerging, high-risk substances that may be compounded only if monographed, part of an approved medicine or listed on the DoH's register of compounded substances. <sub>(ae-fdl-28-2023 · ae-fdl-38-2024 · ae-ede-register · ae-dha-cir-peptides-2026 · ae-doh-cir-148-2026 · ae-doh-compounding-std-2026)</sub>
+
 <details><summary>Narration script</summary>
 
-Stated for the United States, the regulatory picture is short. On FDA's category lists of the fourteenth of May, twenty twenty-six, thymulin acetate sits in Category 3, meaning it was nominated without enough information for FDA to evaluate, and it falls outside the enforcement discretion that Category 1 substances receive. PTD-DBM appears on none of the three lists. Neither substance is on the 503A bulks list itself. The evidence grade for both is D. So when a patient asks for a compounded hair spray, give the grade plainly, go back to the diagnosis, and describe the approved options and what they can offer. In the United Kingdom, a spray made up for one patient would be an unlicensed special, and MHRA guidance puts any licensed product that could meet the need, minoxidil included, ahead of it.
+Stated for the United States, the regulatory picture is short. On FDA's category lists of the fourteenth of May, twenty twenty-six, thymulin acetate sits in Category 3, meaning it was nominated without enough information for FDA to evaluate, and it falls outside the enforcement discretion that Category 1 substances receive. PTD-DBM appears on none of the three lists. Neither substance is on the 503A bulks list itself. The evidence grade for both is D. So when a patient asks for a compounded hair spray, give the grade plainly, go back to the diagnosis, and describe the approved options and what they can offer.
 
 </details>
 
-<sub>Sources: US Food and Drug Administration 2026 · US Food and Drug Administration 2026 · US Code of Federal Regulations (eCFR) 2019 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Adil A 2017 · Medicines and Healthcare products Regulatory Agency (UK) 2023 · McNeil Products Limited (marketing authorisation holder) 2026</sub>
+<sub>Sources: US Food and Drug Administration 2026 · US Food and Drug Administration 2026 · US Code of Federal Regulations (eCFR) 2019 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Adil A 2017</sub>
 
 ### 18 / 19 · 'The new minoxidil'?  
 *Your turn · quiz*
