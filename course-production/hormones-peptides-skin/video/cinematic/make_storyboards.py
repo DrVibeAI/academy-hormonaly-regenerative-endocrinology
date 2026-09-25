@@ -233,5 +233,8 @@ for m, f in FILMS.items():
     for st in sb["states"]:
         for fo in (st.get("content", {}).get("image", {}) or {}).get("focus", []) or []:
             if fo.get("label", 1) is None: fo.pop("label")
+    if m == 7:
+        for st in sb["states"]:
+            if st["id"] == "close": st["drop"] = ["same"]
     (OUT / f"m0{m}-opener.storyboard.json").write_text(json.dumps(sb, indent=2, ensure_ascii=False) + "\n")
     print(f"m0{m}: {len(f['script'].split())} words, {len(sb['states'])} states, {len(sb['assets'])} assets")

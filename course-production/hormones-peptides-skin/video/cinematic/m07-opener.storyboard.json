@@ -405,7 +405,10 @@
           "text": "…not whether it is legal"
         }
       ],
-      "on": "They rate the evidence"
+      "on": "They rate the evidence",
+      "drop": [
+        "same"
+      ]
     }
   ]
 }

@@ -1,6 +1,6 @@
 # Hormones and Peptides for Skin · Module 02 — review draft
 
-*approved · authored 2026-09-24 · 19 moments, ~26 min + module check · 39 sources · 23 claims*
+*approved · authored 2026-09-24 · 20 moments, ~26 min + module check · 39 sources · 23 claims*
 
 Every factual sentence traces to the graded registry (`citations/m02.md`). Moments marked **By role** carry the prescriber · clinical staff · advisor versions of the practice guidance; grades and regulatory facts never change by role.
 
@@ -15,6 +15,11 @@ Most skin changes you see are ageing or lifestyle. A few are the first visible s
 - 2.1 Cortisol on the skin: local 11β-HSD1 and Cushing's syndrome
 - 2.2 Estrogen, menopause and collagen: what the trials show
 - 2.3 Skin signs that need an endocrinologist
+
+###  · Systemic hormones and the skin  
+*Module 02 · Opening film · video*
+
+<sub>Sources: Slominski A 2000 · Tiganescu A 2011 · Tiganescu A 2013 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
 
 ### 02 / 19 · The skin regenerates its own cortisol.  
 *Mechanism · audio*

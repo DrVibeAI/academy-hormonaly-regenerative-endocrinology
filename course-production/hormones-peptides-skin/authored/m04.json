@@ -51,6 +51,7 @@
    },
    "blocks": [
     "m4-p01",
+    "m4-opener",
     "m4-p02",
     "m4-p03",
     "m4-p04",
@@ -113,6 +114,43 @@
      "en": "4.3 Repair peptides, one negative trial, and the compounding line"
     }
    ]
+  },
+  {
+   "id": "m4-opener",
+   "type": "video",
+   "lead": {
+    "en": "Module 04 · Opening film"
+   },
+   "title": {
+    "en": "Matrix peptides and wound healing"
+   },
+   "assetRefs": [
+    "asset-hps-m04-opener",
+    "asset-hps-m04-opener-poster"
+   ],
+   "citationRefs": [
+    "pickart-thaler-1973",
+    "pickart-2015-ghk-skin-regeneration",
+    "pickart-margolina-2018",
+    "pickart-2008-ghk-tissue-remodeling",
+    "hannah-shmouni-2026-ppg-aug",
+    "pickart-margolina-2012"
+   ],
+   "sourceNote": "Pickart & Thaler 1973 · Pickart 2008, 2015, 2018 · Peptide Pocket Guide",
+   "metadata": {
+    "videoMode": "player",
+    "captionsBurnedIn": true,
+    "videoTranscript": {
+     "en": "Most skin peptides reach your clinic before any evidence does. In three lessons you will sort them by what the human trials actually show, who paid for those trials, and where each one stands with the regulator. Start with the molecule. GHK is a three-amino-acid peptide that circulates in human plasma; it was first described in 1973. It binds copper readily, and the copper complex, GHK-Cu, is what skin-care labels mean when they say copper peptide. The proposed mechanism is that GHK-Cu delivers copper to enzymes that build and protect the dermal matrix, such as lysyl oxidase and superoxide dismutase, and shifts gene expression toward wound healing. Two things to hold on to. First, this is a mechanism, which explains why the peptide might work and leaves open whether it does. Second, most of this literature was written by the group that discovered the peptide. Keep both in mind when you reach the trials."
+    },
+    "script": {
+     "sources": [
+      "m4-p01 body, sentences 1, 2",
+      "m4-p03 audioScript, sentences 1, 2, 3, 4, 5, 6, 7, 8"
+     ],
+     "rule": "verbatim approved sentences only"
+    }
+   }
   },
   {
    "id": "m4-p02",
@@ -2541,6 +2579,12 @@
    "forReview": "Omar Saleem",
    "confirmedBy": "Omar Saleem, product owner (editorial; no medical content changed)",
    "confirmedAt": "2026-09-25"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m4-opener",
+   "change": "New moment: the module's opening film (about 67 s; draft media for the media preview). The narration is approved text, verbatim (m4-p01 body, sentences 1, 2; m4-p03 audioScript, sentences 1, 2, 3, 4, 5, 6, 7, 8); the presenter is a HeyGen digital avatar, and the player shows \"Presented by a digital avatar (AI-generated presenter and voice).\" under the video.",
+   "forReview": "Fady Hannah-Shmouni"
   }
  ],
  "mediaChanges": [

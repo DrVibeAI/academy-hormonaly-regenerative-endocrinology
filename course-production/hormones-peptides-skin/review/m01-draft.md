@@ -1,6 +1,6 @@
 # Hormones and Peptides for Skin · Module 01 — review draft
 
-*approved · authored 2026-09-24 · 19 moments, ~25 min + module check · 34 sources · 20 claims*
+*approved · authored 2026-09-24 · 20 moments, ~25 min + module check · 34 sources · 20 claims*
 
 Every factual sentence traces to the graded registry (`citations/m01.md`). Moments marked **By role** carry the prescriber · clinical staff · advisor versions of the practice guidance; grades and regulatory facts never change by role.
 
@@ -15,6 +15,11 @@ This course starts with physiology, because every later question about a hormone
 - 1.1 The skin as a steroidogenic, endocrine organ
 - 1.2 Receptor maps: what a cell atlas can and cannot show
 - 1.3 Senescence, the SASP and the ageing dermis
+
+###  · The skin as an endocrine organ, and how it ages  
+*Module 01 · Opening film · video*
+
+<sub>Sources: Slominski RM 2025 · Slominski A 2000 · Zouboulis CC 2004 · Roosterman D 2006 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
 
 ### 02 / 19 · How will you use this course?  
 *Set your path · reflection*

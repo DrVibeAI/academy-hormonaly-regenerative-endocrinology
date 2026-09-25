@@ -53,6 +53,7 @@
    },
    "blocks": [
     "m5-p01",
+    "m5-opener",
     "m5-p02",
     "m5-p03",
     "m5-p04",
@@ -115,6 +116,42 @@
      "en": "5.3 Investigational hair peptides, graded"
     }
    ]
+  },
+  {
+   "id": "m5-opener",
+   "type": "video",
+   "lead": {
+    "en": "Module 05 · Opening film"
+   },
+   "title": {
+    "en": "Follicle, pigment and melanocortins"
+   },
+   "assetRefs": [
+    "asset-hps-m05-opener",
+    "asset-hps-m05-opener-poster"
+   ],
+   "citationRefs": [
+    "ito-2005-hair-follicle-hpa",
+    "horesh-2023-hair-follicle-somatotropic",
+    "bertolini-2020-hair-follicle-immune-privilege",
+    "adil-2017-aga-treatments-meta",
+    "hannah-shmouni-2026-are"
+   ],
+   "sourceNote": "Ito 2005 · Horesh 2023 · Bertolini 2020 · Aesthetic & Regenerative Endocrinology, ch. 6",
+   "metadata": {
+    "videoMode": "player",
+    "captionsBurnedIn": true,
+    "videoTranscript": {
+     "en": "Two requests reach aesthetic clinics well ahead of their evidence: a peptide to regrow hair and an injection to tan. In three lessons you will see how the follicle and the pigment system run on the skin's own hormones, why one melanocortin drug is approved while its gray-market cousin is approved nowhere, and how to grade the hair peptides patients bring to you. Each hair follicle behaves like a small gland. When researchers keep human scalp follicles alive in culture, the follicles answer corticotropin-releasing hormone the way the pituitary and adrenal glands do. They make ACTH and alpha-MSH, they secrete cortisol, and cortisol-like signals feed back to switch the stimulus down. On the scalp, an enzyme called five-alpha-reductase turns testosterone into dihydrotestosterone, and in genetically susceptible follicles that hormone drives the gradual shrinking behind pattern hair loss. Most of this biology comes from tissue kept alive outside the body, so hold it as mechanism, a reason something might matter in patients."
+    },
+    "script": {
+     "sources": [
+      "m5-p01 body, sentences 1, 2",
+      "m5-p02 audioScript, sentences 1, 2, 3, 5, 8"
+     ],
+     "rule": "verbatim approved sentences only"
+    }
+   }
   },
   {
    "id": "m5-p02",
@@ -2547,6 +2584,12 @@
    "forReview": "Omar Saleem",
    "confirmedBy": "Omar Saleem, product owner (editorial; no medical content changed)",
    "confirmedAt": "2026-09-25"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m5-opener",
+   "change": "New moment: the module's opening film (about 71 s; draft media for the media preview). The narration is approved text, verbatim (m5-p01 body, sentences 1, 2; m5-p02 audioScript, sentences 1, 2, 3, 5, 8); the presenter is a HeyGen digital avatar, and the player shows \"Presented by a digital avatar (AI-generated presenter and voice).\" under the video.",
+   "forReview": "Fady Hannah-Shmouni"
   }
  ],
  "mediaChanges": [

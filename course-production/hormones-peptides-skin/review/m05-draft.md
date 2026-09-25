@@ -1,6 +1,6 @@
 # Hormones and Peptides for Skin · Module 05 — review draft
 
-*approved · authored 2026-09-24 · 19 moments, ~26 min + module check · 41 sources · 25 claims*
+*approved · authored 2026-09-24 · 20 moments, ~26 min + module check · 41 sources · 25 claims*
 
 Every factual sentence traces to the graded registry (`citations/m05.md`). Moments marked **By role** carry the prescriber · clinical staff · advisor versions of the practice guidance; grades and regulatory facts never change by role.
 
@@ -15,6 +15,11 @@ Two requests reach aesthetic clinics well ahead of their evidence: a peptide to 
 - 5.1 The hair follicle as an endocrine mini-organ
 - 5.2 Afamelanotide, Melanotan II and the melanocortin receptors
 - 5.3 Investigational hair peptides, graded
+
+###  · Follicle, pigment and melanocortins  
+*Module 05 · Opening film · video*
+
+<sub>Sources: Ito N 2005 · Horesh EJ 2023 · Bertolini M 2020 · Adil A 2017 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
 
 ### 02 / 19 · A follicle that runs its own hormones.  
 *Mechanism · audio*

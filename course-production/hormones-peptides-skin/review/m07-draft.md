@@ -1,6 +1,6 @@
 # Hormones and Peptides for Skin · Module 07 — review draft
 
-*approved · authored 2026-09-24 · 22 moments, ~29 min + module check · 54 sources · 29 claims*
+*approved · authored 2026-09-24 · 23 moments, ~29 min + module check · 54 sources · 29 claims*
 
 Every factual sentence traces to the graded registry (`citations/m07.md`). Moments marked **By role** carry the prescriber · clinical staff · advisor versions of the practice guidance; grades and regulatory facts never change by role.
 
@@ -15,6 +15,11 @@ This last module turns the course into three habits. You will rate the certainty
 - 7.1 Grading the evidence behind an aesthetic claim
 - 7.2 Compounding law, the 40-amino-acid line and certificates of analysis
 - 7.3 Cosmetic, compounded or investigational: consent and the chart
+
+###  · Evidence, regulation and compliance  
+*Module 07 · Opening film · video*
+
+<sub>Sources: Balshem H 2011 · Guyatt GH 2008 · Guyatt G 2025 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
 
 ### 02 / 22 · GRADE rates certainty in an effect, one outcome at a time.  
 *Lesson 7.1 · Concept · audio*

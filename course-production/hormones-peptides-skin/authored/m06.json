@@ -52,6 +52,7 @@
    },
    "blocks": [
     "m6-p01",
+    "m6-opener",
     "m6-p02",
     "m6-p03",
     "m6-p04",
@@ -114,6 +115,42 @@
      "en": "6.3 Signs of excess, oedema and mitogenic risk"
     }
    ]
+  },
+  {
+   "id": "m6-opener",
+   "type": "video",
+   "lead": {
+    "en": "Module 06 · Opening film"
+   },
+   "title": {
+    "en": "The growth-hormone axis and the skin"
+   },
+   "assetRefs": [
+    "asset-hps-m06-opener",
+    "asset-hps-m06-opener-poster"
+   ],
+   "citationRefs": [
+    "tavakkol-1992-gh-receptor-skin",
+    "edmondson-2003-epidermal-gh-igf",
+    "horesh-2023-hair-follicle-somatotropic",
+    "veldhuis-2008-somatotropic-ageing",
+    "hannah-shmouni-2026-are"
+   ],
+   "sourceNote": "Tavakkol 1992 · Edmondson 2003 · Horesh 2023 · Veldhuis 2008 · Aesthetic & Regenerative Endocrinology, ch. 2 and 6",
+   "metadata": {
+    "videoMode": "player",
+    "captionsBurnedIn": true,
+    "videoTranscript": {
+     "en": "Growth hormone and IGF-1 genuinely shape skin, and one peptide on this axis has approval-grade trials. Most of what patients are offered has much less behind it. In three lessons you will separate the physiology from the promise, the approved from the anecdotal, and the side-effects you can see from the risks nobody has measured. Two layers of skin listen to two different parts of the same axis. Growth hormone speaks mainly to the dermis. Its receptor is expressed more on fibroblasts than on keratinocytes, and in culture growth hormone increases fibroblast numbers and supports collagen synthesis, sometimes directly and sometimes through IGF-1. The epidermis listens to IGF-1. Keratinocytes carry the IGF-1 receptor, their neighbours in the dermis supply the hormone, and in culture IGF-1 makes keratinocytes divide where growth hormone on its own does nothing. With age, growth-hormone pulses and IGF-1 fall steadily, a change called the somatopause. Hold all of this as mechanism. It explains why the axis could matter for skin. Whether changing it helps a patient is a separate question, and the trials answer it."
+    },
+    "script": {
+     "sources": [
+      "m6-p01 body, sentences 1, 2, 3",
+      "m6-p02 audioScript, sentences 1, 2, 3, 4, 5, 7, 8, 9, 10"
+     ],
+     "rule": "verbatim approved sentences only"
+    }
+   }
   },
   {
    "id": "m6-p02",
@@ -2562,6 +2599,12 @@
    "forReview": "Omar Saleem",
    "confirmedBy": "Omar Saleem, product owner (editorial; no medical content changed)",
    "confirmedAt": "2026-09-25"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m6-opener",
+   "change": "New moment: the module's opening film (about 84 s; draft media for the media preview). The narration is approved text, verbatim (m6-p01 body, sentences 1, 2, 3; m6-p02 audioScript, sentences 1, 2, 3, 4, 5, 7, 8, 9, 10); the presenter is a HeyGen digital avatar, and the player shows \"Presented by a digital avatar (AI-generated presenter and voice).\" under the video.",
+   "forReview": "Fady Hannah-Shmouni"
   }
  ],
  "mediaChanges": [

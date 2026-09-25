@@ -1,6 +1,6 @@
 # Hormones and Peptides for Skin · Module 04 — review draft
 
-*approved · authored 2026-09-24 · 19 moments, ~26 min + module check · 61 sources · 24 claims*
+*approved · authored 2026-09-24 · 20 moments, ~26 min + module check · 61 sources · 24 claims*
 
 Every factual sentence traces to the graded registry (`citations/m04.md`). Moments marked **By role** carry the prescriber · clinical staff · advisor versions of the practice guidance; grades and regulatory facts never change by role.
 
@@ -15,6 +15,11 @@ Most skin peptides reach your clinic before any evidence does. In three lessons 
 - 4.1 Copper peptides: GHK and GHK-Cu
 - 4.2 Signal peptides, oral collagen and the 'topical Botox' family
 - 4.3 Repair peptides, one negative trial, and the compounding line
+
+###  · Matrix peptides and wound healing  
+*Module 04 · Opening film · video*
+
+<sub>Sources: Pickart L 1973 · Pickart L 2015 · Pickart L 2018 · Pickart L 2008 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Pickart L 2012</sub>
 
 ### 02 / 19 · How will you use this module?  
 *Set your path · reflection*

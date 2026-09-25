@@ -52,6 +52,7 @@
    },
    "blocks": [
     "m3-p01",
+    "m3-opener",
     "m3-p02",
     "m3-p03",
     "m3-p04",
@@ -115,6 +116,44 @@
      "en": "3.3 The gut barrier, endotoxaemia and inflammaging"
     }
    ]
+  },
+  {
+   "id": "m3-opener",
+   "type": "video",
+   "lead": {
+    "en": "Module 03 · Opening film"
+   },
+   "title": {
+    "en": "Fat, incretins and the ageing face"
+   },
+   "assetRefs": [
+    "asset-hps-m03-opener",
+    "asset-hps-m03-opener-poster"
+   ],
+   "citationRefs": [
+    "chen-zhang-gallo-2019-dwat-review",
+    "zhang-2015-dermal-adipocytes-s-aureus",
+    "zhang-2019-dwat-aging-tgfb",
+    "kruglikov-scherer-2016-dermal-adipocytes",
+    "oneill-2022-acne-preadipocytes-cathelicidin",
+    "kershaw-flier-2004-adipose-endocrine",
+    "hannah-shmouni-2026-are"
+   ],
+   "sourceNote": "Zhang 2015, 2019 · Chen 2019 · Kruglikov & Scherer 2016 · O'Neill 2022 · Aesthetic & Regenerative Endocrinology, ch. 11",
+   "metadata": {
+    "videoMode": "player",
+    "captionsBurnedIn": true,
+    "videoTranscript": {
+     "en": "Facial shape depends on fat as much as on collagen. In three lessons you will separate what is known about the skin's own fat, sugar damage to the dermis, weight-loss drugs and the gut from what is still mechanism, marketing or an open question. Most people picture skin fat as one layer under the dermis. There is a second, thinner layer inside the reticular dermis itself, called dermal white adipose tissue. In mice, this layer expands rapidly after a Staphylococcus aureus infection, and its new fat cells release cathelicidin, an antimicrobial peptide. Older mice lose much of that capacity, through TGF-beta signalling. Human skin arranges this fat differently, in small cones around hair follicles, and human acne lesions contain preadipocytes around the follicle that make cathelicidin. What the layer contributes to human skin ageing has not yet been measured. So hold two things apart when you hear about skin fat. The defence story is strong in mice and emerging in people. The ageing story in people is still a proposal."
+    },
+    "script": {
+     "sources": [
+      "m3-p01 body, sentences 1, 2",
+      "m3-p02 audioScript, sentences 1, 2, 3, 4, 5, 6, 7, 8, 9"
+     ],
+     "rule": "verbatim approved sentences only"
+    }
+   }
   },
   {
    "id": "m3-p02",
@@ -2640,6 +2679,12 @@
    "forReview": "Omar Saleem",
    "confirmedBy": "Omar Saleem, product owner (editorial; no medical content changed)",
    "confirmedAt": "2026-09-25"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m3-opener",
+   "change": "New moment: the module's opening film (about 72 s; draft media for the media preview). The narration is approved text, verbatim (m3-p01 body, sentences 1, 2; m3-p02 audioScript, sentences 1, 2, 3, 4, 5, 6, 7, 8, 9); the presenter is a HeyGen digital avatar, and the player shows \"Presented by a digital avatar (AI-generated presenter and voice).\" under the video.",
+   "forReview": "Fady Hannah-Shmouni"
   }
  ],
  "mediaChanges": [

@@ -1,4 +1,4 @@
-# Claim-support dispositions — hormonaly.hormones-peptides-skin v1.0.0-rc.3
+# Claim-support dispositions — hormonaly.hormones-peptides-skin v1.0.0-rc.4
 
 The automated source check left 19 unit(s) with a major finding: a statement the fetched source text does not fully show — usually because only an abstract was readable, the statement records the absence of evidence, or it is standard clinical knowledge the cited source does not spell out. Each needs one decision from the medical owner: **keep** (the statement is right; say why), **edit** (say how), or **cite** (name the source that states it).
 

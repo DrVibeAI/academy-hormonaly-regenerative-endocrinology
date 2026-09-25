@@ -1,6 +1,6 @@
 # Hormones and Peptides for Skin · Module 06 — review draft
 
-*approved · authored 2026-09-24 · 19 moments, ~26 min + module check · 42 sources · 21 claims*
+*approved · authored 2026-09-24 · 20 moments, ~26 min + module check · 42 sources · 21 claims*
 
 Every factual sentence traces to the graded registry (`citations/m06.md`). Moments marked **By role** carry the prescriber · clinical staff · advisor versions of the practice guidance; grades and regulatory facts never change by role.
 
@@ -15,6 +15,11 @@ Growth hormone and IGF-1 genuinely shape skin, and one peptide on this axis has 
 - 6.1 Growth hormone and IGF-1 in the skin
 - 6.2 GHRH analogues and secretagogues: what stands behind each
 - 6.3 Signs of excess, oedema and mitogenic risk
+
+###  · The growth-hormone axis and the skin  
+*Module 06 · Opening film · video*
+
+<sub>Sources: Tavakkol A 1992 · Edmondson SR 2003 · Horesh EJ 2023 · Veldhuis JD 2008 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
 
 ### 02 / 19 · Two hormones, two layers of skin.  
 *Lesson 6.1 · Mechanism · audio*

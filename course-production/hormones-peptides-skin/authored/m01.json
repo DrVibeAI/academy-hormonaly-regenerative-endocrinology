@@ -53,6 +53,7 @@
    },
    "blocks": [
     "m1-p01",
+    "m1-opener",
     "m1-p02",
     "m1-p03",
     "m1-p04",
@@ -115,6 +116,42 @@
      "en": "1.3 Senescence, the SASP and the ageing dermis"
     }
    ]
+  },
+  {
+   "id": "m1-opener",
+   "type": "video",
+   "lead": {
+    "en": "Module 01 · Opening film"
+   },
+   "title": {
+    "en": "The skin as an endocrine organ, and how it ages"
+   },
+   "assetRefs": [
+    "asset-hps-m01-opener",
+    "asset-hps-m01-opener-poster"
+   ],
+   "citationRefs": [
+    "slominski-2025-skin-neuro-immuno-endocrinology",
+    "slominski-wortsman-2000-skin-neuroendocrinology",
+    "zouboulis-2004-skin-endocrine-gland",
+    "roosterman-2006-neuronal-control-skin",
+    "hannah-shmouni-2026-are"
+   ],
+   "sourceNote": "Slominski 2025 · Slominski & Wortsman 2000 · Zouboulis 2004 · Roosterman 2006 · Aesthetic & Regenerative Endocrinology, ch. 5–6",
+   "metadata": {
+    "videoMode": "player",
+    "captionsBurnedIn": true,
+    "videoTranscript": {
+     "en": "This course starts with physiology, because every later question about a hormone or peptide for skin rests on it. Skin senses hormones from the blood, makes several of its own, and ages in ways that change both. Think of the skin as a sensing organ with its own hormone supply. Researchers who study it describe four units, epidermal, dermal, hypodermal and adnexal, the last meaning hair follicles and glands. Each unit holds cells that can make hormones and mount an immune response, such as keratinocytes, fibroblasts, sebocytes, fat cells and mast cells. Signals move three ways. Neighbouring cells talk directly, sensory nerves carry messages in and out, and some products enter the blood and reach distant organs. Keep one distinction in view for the whole module. A signal that is made and used inside the skin is a local loop. A hormone that arrives from the blood, or leaves the skin for the rest of the body, is systemic signalling."
+    },
+    "script": {
+     "sources": [
+      "m1-p01 body, sentences 1–2",
+      "m1-p03 audioScript, sentences 1–8"
+     ],
+     "rule": "verbatim approved sentences only"
+    }
+   }
   },
   {
    "id": "m1-p02",
@@ -2014,6 +2051,12 @@
    "forReview": "Omar Saleem",
    "confirmedBy": "Omar Saleem, product owner (editorial; no medical content changed)",
    "confirmedAt": "2026-09-25"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m1-opener",
+   "change": "New moment: the module's opening film (about 70 s; draft media for the media preview). The narration is approved text, verbatim (m1-p01 body, sentences 1–2; m1-p03 audioScript, sentences 1–8); the presenter is a HeyGen digital avatar, and the player shows \"Presented by a digital avatar (AI-generated presenter and voice).\" under the video.",
+   "forReview": "Fady Hannah-Shmouni"
   }
  ],
  "reviewNotes": [

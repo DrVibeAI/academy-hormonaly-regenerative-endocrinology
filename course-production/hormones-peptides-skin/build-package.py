@@ -382,7 +382,7 @@ pkg = {
     "id": "hormonaly.hormones-peptides-skin",
     "slug": "hormones-peptides-skin",
     "kind": "course",
-    "version": "1.0.0-rc.3",
+    "version": "1.0.0-rc.4",
     "title": {"en": "Hormones and Peptides for Skin"},
     "summary": {"en": outline["summary"]},
     "academy": {

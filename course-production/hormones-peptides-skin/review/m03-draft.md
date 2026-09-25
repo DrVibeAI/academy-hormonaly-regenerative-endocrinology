@@ -1,6 +1,6 @@
 # Hormones and Peptides for Skin · Module 03 — review draft
 
-*approved · authored 2026-09-24 · 20 moments, ~27 min + module check · 59 sources · 24 claims*
+*approved · authored 2026-09-24 · 21 moments, ~27 min + module check · 59 sources · 24 claims*
 
 Every factual sentence traces to the graded registry (`citations/m03.md`). Moments marked **By role** carry the prescriber · clinical staff · advisor versions of the practice guidance; grades and regulatory facts never change by role.
 
@@ -15,6 +15,11 @@ Facial shape depends on fat as much as on collagen. In three lessons you will se
 - 3.1 Dermal fat and sugar damage to collagen
 - 3.2 Semaglutide, tirzepatide and the changing face
 - 3.3 The gut barrier, endotoxaemia and inflammaging
+
+###  · Fat, incretins and the ageing face  
+*Module 03 · Opening film · video*
+
+<sub>Sources: Chen SX 2019 · Zhang LJ 2015 · Zhang LJ 2019 · Kruglikov IL 2016 · O'Neill AM 2022 · Kershaw EE 2004 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
 
 ### 02 / 20 · The skin keeps its own fat.  
 *Mechanism · audio*
