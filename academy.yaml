@@ -59,7 +59,7 @@ catalog:
   # re-add it when that package exists.
   - course: packages/hormones-peptides-skin.json          # Hormones and Peptides for Skin
     audience: { en: "Physicians, nurse practitioners and physician associates, nurses and other licensed providers" }
-    blurb: { en: "The hormones and peptides your patients ask about for skin, hair and the ageing face: what is shown in people, what is only mechanism, and what the rules allow in the US and the UK." }
+    blurb: { en: "The hormones and peptides your patients ask about for skin, hair and the ageing face: what is shown in people, what is only mechanism, and what the rules allow in the US, the UK, the EU, Portugal, Brazil and the UAE." }
     status: draft
     series: regenerative-endocrinology
     order: 1

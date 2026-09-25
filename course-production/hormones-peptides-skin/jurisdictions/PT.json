@@ -940,7 +940,7 @@
     },
     {
       "topic": "import",
-      "statement": "In Portugal, INFARMED does not authorise the import of medicines for personal use; medicines imported this way are not cleared by customs but destroyed, analysed or returned, and a medicine not available in Portugal must be obtained through an exceptional-use authorisation via a pharmacy (Circular 148/CD, 29 Jul 2011).",
+      "statement": "In Portugal, INFARMED does not authorise the import of medicines for personal use (Circular 148/CD, 29 Jul 2011).",
       "sourceIds": [
         "pt-infarmed-circ148-2011"
       ],
@@ -1005,7 +1005,7 @@
     },
     {
       "topic": "supplements",
-      "statement": "In Portugal, food supplements (defined in Decreto-Lei 136/2003 as republished by Decreto-Lei 118/2015, under DGAV) must have a physiological, not pharmacological, effect and are meant to maintain homeostasis, not to prevent, treat or cure disease (DGAV, read 25 Sep 2026).",
+      "statement": "In Portugal, food supplements are intended to maintain the body's homeostasis, not to prevent, treat or cure disease (DGAV, read 25 Sep 2026).",
       "sourceIds": [
         "pt-dgav-supplements"
       ],
@@ -1273,6 +1273,7 @@
     "A clinician may find surprising: Portugal's anti-doping law (Lei 81/2021, Art 57) makes unauthorised selling, importing or illicit holding of listed substances a crime for anyone (1-5 years), not only in sport; the Ordem dos Farmacêuticos says pharmacists should not perform aesthetic procedures; topical minoxidil is a non-prescription medicine and Minox 5's label includes alopecia areata; the only authorised single-agent topical tretinoin (Ketrel) is labelled for acne and keratinisation disorders, not photoageing.",
     "Infomed's conditions of use forbid republishing its content without INFARMED's written authorisation and prescribe a citation form ('Infomed – base de dados de medicamentos do Infarmed consultada em extranet.infarmed.pt/INFOMED-fo/index.xhtml (acedida em 25/09/2026)'); learner notes should state status facts and cite, not reproduce, Infomed records.",
     "Oral collagen was given status 'unknown' because the enum has no value for a notified food supplement: in Portugal supplements are notified to DGAV, not authorised, and DGAV says notification never means a product is authorised or compliant.",
-    "The EMA/HMA GLP-1 warning relayed by INFARMED (5 Sep 2025) and Pangea XVIII (Mar 2026, weight-loss products among main seizures, 7 criminal inquiries over anabolic substances) are the dated Portuguese enforcement signals; no Portugal-specific melanotan or peptide alert was found."
+    "The EMA/HMA GLP-1 warning relayed by INFARMED (5 Sep 2025) and Pangea XVIII (Mar 2026, weight-loss products among main seizures, 7 criminal inquiries over anabolic substances) are the dated Portuguese enforcement signals; no Portugal-specific melanotan or peptide alert was found.",
+    "Integrator 2026-09-25: 2 statement(s) narrowed to exactly what their verbatim quotes support (clauses beyond the quote removed; flagged by the module 07 agent)."
   ]
 }

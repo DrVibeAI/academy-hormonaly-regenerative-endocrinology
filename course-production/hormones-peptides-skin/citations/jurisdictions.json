@@ -200,7 +200,10 @@
     "Retatrutide is unregistered everywhere; ANVISA ordered seizure of all retatrutide-based products from an unidentified manufacturer sold online (RE 3.480/2026, 3 Sep 2026), found it in irregular supply chains in 3 states, and said the developer has not applied for registration. ANVISA refused clinical-trial petitions for ibutamoren (LUM-201) in Jun 2026.",
     "Criminal exposure: dealing in unregistered medicines is a Penal Code art. 273 offence (1–3 years' imprisonment after STF Tema 1003). ANVISA fiscal measures apply to 'any natural or legal persons or media outlets' that sell or advertise the products.",
     "Doctors' social media: CFM 2.336/2023 forbids promoting medicines not registered with ANVISA and regulates before-and-after images. RDC 96/2008 limits prescription-medicine promotion to prescribers and dispensers, and ANVISA treats public advertising of compounded products as prohibited.",
-    "ANVISA's consultation site (consultas.anvisa.gov.br) blocks plain HTTP clients with Cloudflare but works in a browser; the open-data register at dados.anvisa.gov.br is freely downloadable and was used for conclusive absence checks."
+    "ANVISA's consultation site (consultas.anvisa.gov.br) blocks plain HTTP clients with Cloudflare but works in a browser; the open-data register at dados.anvisa.gov.br is freely downloadable and was used for conclusive absence checks.",
+    "Integrator 2026-09-25: the CFM 2.333/2023 statement now reads \"in force since its publication on 11 Apr 2023; listed as in force on 25 Sep 2026\" (Art. 4: in force on publication), and its quote adds Art. 3 IV (the \"bioidentical\"/\"nano\" ban), checked against the resolution text the research agent saved (scratchpad cfm2333.txt, lines 122–124).",
+    "Integrator 2026-09-25: the ANVISA 2 Jul 2026 statement said \"injectable peptides sold online\"; its quote says \"alguns peptídeos injetáveis\" (some injectable peptides) — narrowed to the source (flagged by the module 04 agent).",
+    "Integrator 2026-09-25: 4 statement(s) narrowed to exactly what their verbatim quotes support (clauses beyond the quote removed; flagged by the module 07 agent)."
    ]
   },
   "EU": {
@@ -399,7 +402,8 @@
     "A clinician may find surprising: Portugal's anti-doping law (Lei 81/2021, Art 57) makes unauthorised selling, importing or illicit holding of listed substances a crime for anyone (1-5 years), not only in sport; the Ordem dos Farmacêuticos says pharmacists should not perform aesthetic procedures; topical minoxidil is a non-prescription medicine and Minox 5's label includes alopecia areata; the only authorised single-agent topical tretinoin (Ketrel) is labelled for acne and keratinisation disorders, not photoageing.",
     "Infomed's conditions of use forbid republishing its content without INFARMED's written authorisation and prescribe a citation form ('Infomed – base de dados de medicamentos do Infarmed consultada em extranet.infarmed.pt/INFOMED-fo/index.xhtml (acedida em 25/09/2026)'); learner notes should state status facts and cite, not reproduce, Infomed records.",
     "Oral collagen was given status 'unknown' because the enum has no value for a notified food supplement: in Portugal supplements are notified to DGAV, not authorised, and DGAV says notification never means a product is authorised or compliant.",
-    "The EMA/HMA GLP-1 warning relayed by INFARMED (5 Sep 2025) and Pangea XVIII (Mar 2026, weight-loss products among main seizures, 7 criminal inquiries over anabolic substances) are the dated Portuguese enforcement signals; no Portugal-specific melanotan or peptide alert was found."
+    "The EMA/HMA GLP-1 warning relayed by INFARMED (5 Sep 2025) and Pangea XVIII (Mar 2026, weight-loss products among main seizures, 7 criminal inquiries over anabolic substances) are the dated Portuguese enforcement signals; no Portugal-specific melanotan or peptide alert was found.",
+    "Integrator 2026-09-25: 2 statement(s) narrowed to exactly what their verbatim quotes support (clauses beyond the quote removed; flagged by the module 07 agent)."
    ]
   }
  },
@@ -5561,7 +5565,7 @@
    "jurisdiction": "BR",
    "kind": "framework",
    "subject": "compounding",
-   "text": "In Brazil, ANVISA stated on 2 Jul 2026 that any substance must have passed efficacy and safety assessment before it can be compounded, and that compounding may only be individual, on prescription, by a pharmacy licensed by local health surveillance; unregistered peptides therefore cannot be lawfully compounded.",
+   "text": "In Brazil, ANVISA stated on 2 Jul 2026 that any substance must have undergone efficacy and safety assessment before it can be compounded, and that compounding may only be individual, on a medical prescription, by a compounding pharmacy licensed by local health surveillance.",
    "citationRefs": [
     "br-anvisa-peptides-2026"
    ],
@@ -5619,7 +5623,7 @@
    "jurisdiction": "BR",
    "kind": "framework",
    "subject": "unlicensed",
-   "text": "In Brazil, ANVISA stated in Apr 2025 that physicians keep the right to prescribe registered medicines off-label when they judge benefits outweigh risks for the individual patient, with the patient properly informed.",
+   "text": "In Brazil, ANVISA stated in Apr 2025 that its measure does not change the physician's right to prescribe medicines for purposes other than those on the label (off-label use), when the physician considers that, for a given patient, the benefits outweigh the risks.",
    "citationRefs": [
     "br-anvisa-glp1-retention-2025"
    ],
@@ -5647,7 +5651,7 @@
    "jurisdiction": "BR",
    "kind": "framework",
    "subject": "research-use-only",
-   "text": "In Brazil, ANVISA stated on 2 Jul 2026 that injectable peptides sold online are not regularised in any category (food, medicine, cosmetic or supplement) and are illegal for any health use, including aesthetic use.",
+   "text": "In Brazil, ANVISA stated on 2 Jul 2026 that some injectable peptides are not regularised in any category (food, medicine, cosmetic or supplement) and are therefore illegal for any health use, including aesthetic use.",
    "citationRefs": [
     "br-anvisa-peptides-2026"
    ],
@@ -5661,7 +5665,7 @@
    "jurisdiction": "BR",
    "kind": "framework",
    "subject": "research-use-only",
-   "text": "In Brazil, ANVISA stated in Jul 2026 that an investigational (experimental) medicine may be used only in authorised clinical research and is not authorised for commercial use.",
+   "text": "In Brazil, ANVISA stated in Jul 2026 that an investigational (experimental) medicine is used exclusively in authorised clinical research.",
    "citationRefs": [
     "br-anvisa-medicine-types-2026"
    ],
@@ -5776,7 +5780,7 @@
    "jurisdiction": "BR",
    "kind": "framework",
    "subject": "supplements",
-   "text": "In Brazil, supplements may use only constituents on ANVISA's authorised list (IN 28/2018 and its updates) and only ANVISA-approved claims; they may never claim to prevent, treat or cure disease.",
+   "text": "In Brazil, the constituents a food supplement may use are those on ANVISA's authorised list (IN 28/2018); constituents not on the list must not be used.",
    "citationRefs": [
     "br-anvisa-supplements-ingredients"
    ],
@@ -5905,13 +5909,13 @@
    "jurisdiction": "BR",
    "kind": "framework",
    "subject": "professional",
-   "text": "In Brazil, the Federal Council of Medicine bars physicians from using anabolic steroids or androgens for aesthetic purposes or performance, and from prescribing hormones marketed as \"bioidentical\" or \"nano\" without proof of superiority (CFM Resolution 2.333/2023, published 11 Apr 2023, in force Sep 2026).",
+   "text": "In Brazil, the Federal Council of Medicine bars physicians from using anabolic steroids or androgens for aesthetic purposes or performance, and from prescribing hormones marketed as \"bioidentical\" or \"nano\" without proof of superiority (CFM Resolution 2.333/2023, in force since its publication on 11 Apr 2023; listed as in force on 25 Sep 2026).",
    "citationRefs": [
     "br-cfm-2333-2023",
     "br-cfm-norms-search"
    ],
    "status": "verified",
-   "reviewNote": "primary source quote: \"Art. 3º São vedados no exercício da Medicina, por serem destituídos de comprovação científica suficiente quanto ao seu benefício e segurança para o ser humano, o uso e a divulgação dos seguintes procedimentos: … II – Utilização de formulações de esteroides anabolizantes ou hormônios androgênicos com a finalidade estética;\" (English: \"Art. 3 The following procedures are prohibited in medical practice, lacking sufficient scientific proof of benefit and safety for humans, as are their use and promotion: … II – Use of formulations of anabolic steroids or androgenic hormones for aesthetic purposes;\")",
+   "reviewNote": "primary source quote: \"Art. 3º São vedados no exercício da Medicina, por serem destituídos de comprovação científica suficiente quanto ao seu benefício e segurança para o ser humano, o uso e a divulgação dos seguintes procedimentos: … II – Utilização de formulações de esteroides anabolizantes ou hormônios androgênicos com a finalidade estética; … IV – A prescrição de hormônios divulgados como “bioidênticos”, em formulação “nano” ou nomenclaturas de cunho comercial e sem a devida comprovação científica de superioridade clínica para a finalidade prevista nesta resolução.\" (English: \"Art. 3 The following procedures are prohibited in medical practice, lacking sufficient scientific proof of benefit and safety for humans, as are their use and promotion: … II – Use of formulations of anabolic steroids or androgenic hormones for aesthetic purposes; … IV – The prescription of hormones promoted as “bioidentical”, in “nano” formulation or under commercial names, without due scientific proof of clinical superiority for the purpose set out in this resolution.\")",
    "gradeDecision": "context — regulatory status"
   },
   {
@@ -7883,7 +7887,7 @@
    "jurisdiction": "PT",
    "kind": "framework",
    "subject": "import",
-   "text": "In Portugal, INFARMED does not authorise the import of medicines for personal use; medicines imported this way are not cleared by customs but destroyed, analysed or returned, and a medicine not available in Portugal must be obtained through an exceptional-use authorisation via a pharmacy (Circular 148/CD, 29 Jul 2011).",
+   "text": "In Portugal, INFARMED does not authorise the import of medicines for personal use (Circular 148/CD, 29 Jul 2011).",
    "citationRefs": [
     "pt-infarmed-circ148-2011"
    ],
@@ -7983,7 +7987,7 @@
    "jurisdiction": "PT",
    "kind": "framework",
    "subject": "supplements",
-   "text": "In Portugal, food supplements (defined in Decreto-Lei 136/2003 as republished by Decreto-Lei 118/2015, under DGAV) must have a physiological, not pharmacological, effect and are meant to maintain homeostasis, not to prevent, treat or cure disease (DGAV, read 25 Sep 2026).",
+   "text": "In Portugal, food supplements are intended to maintain the body's homeostasis, not to prevent, treat or cure disease (DGAV, read 25 Sep 2026).",
    "citationRefs": [
     "pt-dgav-supplements"
    ],
@@ -8328,6 +8332,9 @@
   "BR: Criminal exposure: dealing in unregistered medicines is a Penal Code art. 273 offence (1–3 years' imprisonment after STF Tema 1003). ANVISA fiscal measures apply to 'any natural or legal persons or media outlets' that sell or advertise the products.",
   "BR: Doctors' social media: CFM 2.336/2023 forbids promoting medicines not registered with ANVISA and regulates before-and-after images. RDC 96/2008 limits prescription-medicine promotion to prescribers and dispensers, and ANVISA treats public advertising of compounded products as prohibited.",
   "BR: ANVISA's consultation site (consultas.anvisa.gov.br) blocks plain HTTP clients with Cloudflare but works in a browser; the open-data register at dados.anvisa.gov.br is freely downloadable and was used for conclusive absence checks.",
+  "BR: Integrator 2026-09-25: the CFM 2.333/2023 statement now reads \"in force since its publication on 11 Apr 2023; listed as in force on 25 Sep 2026\" (Art. 4: in force on publication), and its quote adds Art. 3 IV (the \"bioidentical\"/\"nano\" ban), checked against the resolution text the research agent saved (scratchpad cfm2333.txt, lines 122–124).",
+  "BR: Integrator 2026-09-25: the ANVISA 2 Jul 2026 statement said \"injectable peptides sold online\"; its quote says \"alguns peptídeos injetáveis\" (some injectable peptides) — narrowed to the source (flagged by the module 04 agent).",
+  "BR: Integrator 2026-09-25: 4 statement(s) narrowed to exactly what their verbatim quotes support (clauses beyond the quote removed; flagged by the module 07 agent).",
   "EU: Directive 2001/83/EC is still the EU medicines code: EUR-Lex shows the 1 January 2025 consolidation as current with no end date. Its replacement (the 'Union code', procedure 2023/0132 (COD)) was politically agreed and, per Council note 12263/26 of 21 September 2026, awaits the Council's first-reading position and Parliament's second reading (eu-council-st-12263-2026). Re-check before publishing, and date every EU statement.",
   "EU: The EU has no counterpart to US 503A/503B compounding categories: magistral and officinal preparations sit outside Directive 2001/83/EC (Article 3) and pharmacy preparation is exempt from manufacturing authorisation (Article 40(2)), so the rules on what a pharmacy may compound, and from which active substances, are national. Do not map FDA category lists onto EU learners.",
   "EU: The EU line for peptide skin products runs through three instruments: a topical product with a cosmetic purpose is a cosmetic (1223/2009); anything injected or implanted is never a cosmetic (Art 2(2)), nor is a vial product sold with an injecting device or a needle-roller product reaching the dermis (borderline manual); an injected product without a medical purpose may be a device (MDR Annex XVI fillers), and anything acting pharmacologically is a medicine (2001/83 Art 1(2), with Art 2(2) resolving doubt towards medicines law).",
@@ -8347,7 +8354,8 @@
   "PT: A clinician may find surprising: Portugal's anti-doping law (Lei 81/2021, Art 57) makes unauthorised selling, importing or illicit holding of listed substances a crime for anyone (1-5 years), not only in sport; the Ordem dos Farmacêuticos says pharmacists should not perform aesthetic procedures; topical minoxidil is a non-prescription medicine and Minox 5's label includes alopecia areata; the only authorised single-agent topical tretinoin (Ketrel) is labelled for acne and keratinisation disorders, not photoageing.",
   "PT: Infomed's conditions of use forbid republishing its content without INFARMED's written authorisation and prescribe a citation form ('Infomed – base de dados de medicamentos do Infarmed consultada em extranet.infarmed.pt/INFOMED-fo/index.xhtml (acedida em 25/09/2026)'); learner notes should state status facts and cite, not reproduce, Infomed records.",
   "PT: Oral collagen was given status 'unknown' because the enum has no value for a notified food supplement: in Portugal supplements are notified to DGAV, not authorised, and DGAV says notification never means a product is authorised or compliant.",
-  "PT: The EMA/HMA GLP-1 warning relayed by INFARMED (5 Sep 2025) and Pangea XVIII (Mar 2026, weight-loss products among main seizures, 7 criminal inquiries over anabolic substances) are the dated Portuguese enforcement signals; no Portugal-specific melanotan or peptide alert was found."
+  "PT: The EMA/HMA GLP-1 warning relayed by INFARMED (5 Sep 2025) and Pangea XVIII (Mar 2026, weight-loss products among main seizures, 7 criminal inquiries over anabolic substances) are the dated Portuguese enforcement signals; no Portugal-specific melanotan or peptide alert was found.",
+  "PT: Integrator 2026-09-25: 2 statement(s) narrowed to exactly what their verbatim quotes support (clauses beyond the quote removed; flagged by the module 07 agent)."
  ],
  "consideredNotUsed": [
   {

@@ -128,7 +128,7 @@
     "en": "How will you use this course?"
    },
    "body": {
-    "en": "The evidence, grades and regulatory facts are the same for everyone. What changes, in every module, is the 'what you do next' at the end of each lesson, so it fits what your licence lets you do."
+    "en": "The evidence and grades are the same for everyone, and regulatory notes follow the country you choose. What changes with your role, in every module, is the 'what you do next' at the end of each lesson, so it fits what your licence lets you do."
    },
    "reflection": {
     "prompt": {
@@ -1992,7 +1992,14 @@
    "scope": "m01"
   }
  ],
- "postApprovalChanges": [],
+ "postApprovalChanges": [
+  {
+   "date": "2026-09-25",
+   "block": "m1-p02",
+   "change": "Role picker no longer says regulatory facts are the same for everyone: 'The evidence and grades are the same for everyone, and regulatory notes follow the country you choose. What changes with your role…' (six-jurisdiction course).",
+   "forReview": "Fady Hannah-Shmouni"
+  }
+ ],
  "reviewNotes": [
   {
    "date": "2026-09-24",

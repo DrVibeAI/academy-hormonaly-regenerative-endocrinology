@@ -892,7 +892,7 @@
     "en": "Symptoms and bone. Skin is a bystander."
    },
    "body": {
-    "en": "In the US, as of February 2026, FDA-approved menopausal hormone therapy is for moderate-to-severe hot flashes, vaginal and vulvar symptoms and, for some products, preventing bone loss. FDA's 2025–26 labeling changes removed cardiovascular, breast-cancer and dementia statements from the boxed warning; skin did not become an indication. The North American Menopause Society's 2022 statement finds benefit outweighs risk for bothersome symptoms and bone protection when therapy starts before 60 or within 10 years of menopause, and finds insufficient evidence for compounded 'bioidentical' hormones. Under US rules an over-the-counter 'hormone cream' is an unapproved drug. For the skin itself, daily sunscreen has a large randomized trial behind it, and one tretinoin cream is FDA-approved as an adjunct for fine facial wrinkles. In the UK, as of September 2026, HRT products such as estradiol patches and gel are prescription-only medicines licensed for oestrogen-deficiency symptoms and, for some, for preventing osteoporosis in women at high risk of fracture; skin is not among their uses. A compounded 'bioidentical' hormone is an unlicensed medicine in the UK, and MHRA guidance puts a licensed product first when one can meet the need. On the UK medicines compendium, topical tretinoin appears only in acne treatments."
+    "en": "In the US, as of February 2026, FDA-approved menopausal hormone therapy is for moderate-to-severe hot flashes, vaginal and vulvar symptoms and, for some products, preventing bone loss. FDA's 2025–26 labeling changes removed cardiovascular, breast-cancer and dementia statements from the boxed warning; skin did not become an indication. The North American Menopause Society's 2022 statement finds benefit outweighs risk for bothersome symptoms and bone protection when therapy starts before 60 or within 10 years of menopause, and finds insufficient evidence for compounded 'bioidentical' hormones. Under US rules an over-the-counter 'hormone cream' is an unapproved drug. For the skin itself, daily sunscreen has a large randomized trial behind it, and one tretinoin cream is FDA-approved as an adjunct for fine facial wrinkles."
    },
    "points": [
     {
@@ -929,7 +929,7 @@
       "en": "What it is approved for"
      },
      "body": {
-      "en": "In the US, hot flashes, vaginal and vulvar symptoms and, for some products, bone loss. The 2025–26 label changes did not add skin. UK licences cover oestrogen-deficiency symptoms and, for some products, osteoporosis prevention."
+      "en": "In the US, hot flashes, vaginal and vulvar symptoms and, for some products, bone loss. The 2025–26 label changes did not add skin."
      }
     },
     {
@@ -945,24 +945,84 @@
       "en": "What to decline, and what to offer"
      },
      "body": {
-      "en": "Compounded 'bioidentical' preparations lack efficacy and safety data, and over-the-counter 'hormone creams' are unapproved drugs under US rules. In the UK a compounded hormone is an unlicensed medicine. Daily sunscreen and a prescription retinoid have better evidence for the skin."
+      "en": "Compounded 'bioidentical' preparations lack efficacy and safety data, and over-the-counter 'hormone creams' are unapproved drugs under US rules. Daily sunscreen and a prescription retinoid have better evidence for the skin."
      }
     }
    ],
    "metadata": {
     "audioScript": {
-     "en": "Where does that leave hormone therapy for skin? In the United States, as of February 2026, the approved uses of menopausal hormone therapy are hot flashes, vaginal and vulvar symptoms, and for some products the prevention of bone loss. In late 2025 the FDA asked manufacturers to remove heart, breast cancer and dementia statements from the boxed warning, and it approved the first revised labels in February 2026. Skin still appears nowhere among the uses. The menopause society's 2022 position statement finds the balance favourable for symptoms and bone when therapy starts before sixty or within ten years of menopause, and it finds too little evidence for compounded bioidentical hormones. In the United Kingdom, HRT products are prescription-only medicines licensed for oestrogen-deficiency symptoms and, for some, for preventing osteoporosis, and skin appears nowhere among those uses either. A compounded bioidentical hormone is an unlicensed medicine there, so MHRA guidance puts any licensed product that meets the need first. Low-dose vaginal estrogen for genitourinary symptoms is the one use aimed at the tissue itself. For the face, daily sunscreen and a prescription retinoid carry better evidence than any hormone. Treat symptoms on their merits, and count any skin change as a bonus."
+     "en": "Where does that leave hormone therapy for skin? In the United States, as of February 2026, the approved uses of menopausal hormone therapy are hot flashes, vaginal and vulvar symptoms, and for some products the prevention of bone loss. In late 2025 the FDA asked manufacturers to remove heart, breast cancer and dementia statements from the boxed warning, and it approved the first revised labels in February 2026. Skin still appears nowhere among the uses. The menopause society's 2022 position statement finds the balance favourable for symptoms and bone when therapy starts before sixty or within ten years of menopause, and it finds too little evidence for compounded bioidentical hormones. Low-dose vaginal estrogen for genitourinary symptoms is the one use aimed at the tissue itself. For the face, daily sunscreen and a prescription retinoid carry better evidence than any hormone. Treat symptoms on their merits, and count any skin change as a bonus."
     },
     "variants": {
      "audienceLevel": {
       "prescriber": {
-       "en": "Prescribe hormone therapy for its labeled indications and the position statement's timing, and record that skin was discussed only as a secondary effect. Do not prescribe systemic or topical estrogen for wrinkles alone, and prefer licensed products (FDA-approved in the US, MHRA-licensed in the UK) to compounded 'bioidentical' preparations."
+       "en": "Prescribe hormone therapy for its labeled indications and the position statement's timing, and record that skin was discussed only as a secondary effect. Do not prescribe systemic or topical estrogen for wrinkles alone, and prefer licensed products (FDA-approved in the US) to compounded 'bioidentical' preparations."
       },
       "clinical-staff": {
        "en": "If a patient asks for 'hormones for my skin', ask about hot flashes, sleep and vaginal symptoms, record what she says, and route those symptoms to the prescriber. The skin concern stays with skin-directed care."
       },
       "advisor": {
-       "en": "In the US, a cream sold as containing estrogen for the face is regulated as a drug; in the UK, HRT products are prescription-only medicines. Compounded 'bioidentical' products lack efficacy and safety data. Menopausal symptoms are a conversation for a prescriber; sun protection is advice you can give."
+       "en": "In the US, a cream sold as containing estrogen for the face is regulated as a drug, and compounded 'bioidentical' products lack efficacy and safety data. Menopausal symptoms are a conversation for a prescriber; sun protection is advice you can give."
+      }
+     },
+     "jurisdiction": {
+      "GB": {
+       "text": {
+        "en": "In the UK, as of September 2026, HRT products such as estradiol patches and gel are prescription-only medicines licensed for oestrogen-deficiency symptoms and, for some, for preventing osteoporosis in women at high risk of fracture; skin is not among their uses. A compounded 'bioidentical' hormone is an unlicensed medicine in the UK, and MHRA guidance puts a licensed product first when one can meet the need. On the UK medicines compendium, topical tretinoin appears only in acne treatments."
+       },
+       "citationRefs": [
+        "emc-smpc-evorel-uk",
+        "emc-smpc-sandrena-uk",
+        "mhra-gn14-specials-2023",
+        "emc-smpc-treclin-uk",
+        "emc-smpc-aknemycin-plus-uk",
+        "emc-search-tretinoin-2026-09-25"
+       ]
+      },
+      "EU": {
+       "text": {
+        "en": "In the EU, HRT is authorised nationally, and the harmonised EU core product information (CMDh, December 2025) lists oestrogen-deficiency symptoms after menopause, osteoporosis prevention and vaginal atrophy as its indications; skin is not an indication. EU cosmetics law prohibits oestrogens, progestogens and tretinoin in cosmetic products (Regulation (EC) No 1223/2009, Annex II), and anti-wrinkle products containing tretinoin marketed as cosmetics are illegal cosmetics."
+       },
+       "citationRefs": [
+        "eu-hma-core-smpc-hrt-2025",
+        "eu-reg-1223-2009",
+        "eu-ec-cosmetics-borderline-manual-2025"
+       ]
+      },
+      "PT": {
+       "text": {
+        "en": "In Portugal, as of September 2026, the estradiol HRT products Estreva gel and Estrofem tablets are authorised for symptoms of oestrogen deficiency in postmenopausal women. The topical tretinoin product Ketrel cream is authorised and prescription-only on INFARMED's database, with indications for acne (except acne rosacea) and keratinisation disorders."
+       },
+       "citationRefs": [
+        "pt-rcm-estreva",
+        "pt-rcm-estrofem",
+        "pt-infomed",
+        "pt-rcm-ketrel"
+       ]
+      },
+      "BR": {
+       "text": {
+        "en": "In Brazil, as of September 2026, estradiol for menopausal hormone therapy is registered and the Oestrogel label covers menopausal symptoms and prevention of postmenopausal osteoporosis, not skin ageing, while the Vitacid label for topical tretinoin names cutaneous photoageing as well as acne vulgaris. The Federal Council of Medicine (CFM) bars physicians from using hormones, in any formulation, except in diagnosed deficiencies where replacement shows evidence of scientifically proven benefit (Resolution 1.999/2012), and from prescribing hormones marketed as 'bioidentical' or 'nano' without proof of superiority (Resolution 2.333/2023)."
+       },
+       "citationRefs": [
+        "br-label-oestrogel",
+        "br-anvisa-register-opendata",
+        "br-label-vitacid",
+        "br-cfm-1999-2012",
+        "br-cfm-norms-search",
+        "br-cfm-2333-2023"
+       ]
+      },
+      "AE": {
+       "text": {
+        "en": "In the UAE, the Emirates Drug Establishment (EDE), the federal regulator of medical products since Federal Decree-Law 28/2023, registers estradiol products as Prescription Only Medicines, for example Oestrogel gel (since 11 November 2021). The EDE register lists therapeutic categories rather than indications, so it does not show whether any UAE label includes a skin indication (25 September 2026). Under the medicines law, Federal Decree-Law 38 of 2024, a compounding pharmacy may not compound products that are essentially copies of EDE-approved products unless no commercially available product can deliver the expected benefit to the patient."
+       },
+       "citationRefs": [
+        "ae-fdl-28-2023",
+        "ae-ede-reg-oestrogel",
+        "ae-ede-register",
+        "ae-fdl-38-2024"
+       ]
       }
      }
     }
@@ -1883,6 +1943,45 @@
   ],
   "c-m02-23": [
    "m2-p11"
+  ],
+  "j-eu-32": [
+   "m2-p11"
+  ],
+  "j-eu-35": [
+   "m2-p11"
+  ],
+  "j-eu-31": [
+   "m2-p11"
+  ],
+  "j-pt-31": [
+   "m2-p11"
+  ],
+  "j-pt-29": [
+   "m2-p11"
+  ],
+  "j-pt-30": [
+   "m2-p11"
+  ],
+  "j-br-26": [
+   "m2-p11"
+  ],
+  "j-br-25": [
+   "m2-p11"
+  ],
+  "j-br-54": [
+   "m2-p11"
+  ],
+  "j-br-53": [
+   "m2-p11"
+  ],
+  "j-ae-34": [
+   "m2-p11"
+  ],
+  "j-ae-29": [
+   "m2-p11"
+  ],
+  "j-ae-41": [
+   "m2-p11"
   ]
  },
  "audienceLevelPanes": [
@@ -2070,6 +2169,12 @@
    "date": "2026-09-25",
    "block": "unit tutorContext",
    "change": "Tutor context adds the UK HRT and tretinoin position (same facts as m2-p11).",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m2-p11",
+   "change": "UK text moved verbatim into the UK note; the same UK facts left beats 1 and 3 and the narration, and the UK-only lines left the prescriber and advisor versions (advisor sentence rejoined as approved on 24 Sep), so the base copy is the approved US text; EU, Portugal, Brazil and UAE notes added.",
    "forReview": "Fady Hannah-Shmouni"
   }
  ],

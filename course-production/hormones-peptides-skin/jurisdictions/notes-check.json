@@ -1,0 +1,3534 @@
+{
+ "checkedAt": "2026-09-25T17:24:06.032Z",
+ "model": "gemini-3.7-flash",
+ "notes": 112,
+ "unsupported": 62,
+ "errors": 0,
+ "results": [
+  {
+   "module": "m02",
+   "block": "m2-p11",
+   "code": "EU",
+   "text": "In the EU, estradiol HRT is authorised nationally, and the harmonised EU core product information (CMDh, December 2025) lists oestrogen-deficiency symptoms after menopause, osteoporosis prevention and vaginal atrophy as its indications; skin is not an indication. EU cosmetics law prohibits oestrogens, progestogens and tretinoin in cosmetic products (Regulation (EC) No 1223/2009, Annex II), so neither a hormone-containing skin cream nor a tretinoin anti-wrinkle product is lawful as a cosmetic.",
+   "claimIds": [
+    "j-eu-32",
+    "j-eu-35",
+    "j-eu-31"
+   ],
+   "supported": false,
+   "unsupported": [
+    {
+     "clause": "estradiol HRT is authorised nationally",
+     "reason": "The source metadata and quote refer to 'Hormone Replacement Therapy (HRT) products' in general; 'estradiol' is not mentioned in the quotes or metadata."
+    },
+    {
+     "clause": "so neither a hormone-containing skin cream nor a tretinoin anti-wrinkle product is lawful as a cosmetic",
+     "reason": "The word 'so' draws an inference; the quotes state that cosmetic products shall not contain oestrogens or progestogens and that anti-wrinkle products containing tretinoin marketed as cosmetics are illegal cosmetics, but do not state this synthesized conclusion."
+    }
+   ],
+   "rewrite": "In the EU, HRT is authorised nationally, and the harmonised EU core product information (CMDh, December 2025) lists oestrogen-deficiency symptoms after menopause, osteoporosis prevention and vaginal atrophy as its indications; skin is not an indication. EU cosmetics law prohibits oestrogens, progestogens and tretinoin in cosmetic products (Regulation (EC) No 1223/2009, Annex II), and anti-wrinkle products containing tretinoin marketed as cosmetics are illegal cosmetics.",
+   "usage": {
+    "promptTokenCount": 1762,
+    "candidatesTokenCount": 290,
+    "totalTokenCount": 4461,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1762
+     }
+    ],
+    "thoughtsTokenCount": 2409,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m02",
+   "block": "m2-p11",
+   "code": "PT",
+   "text": "In Portugal, as of September 2026, the estradiol HRT products Estreva gel and Estrofem tablets are authorised only for symptoms of oestrogen deficiency in postmenopausal women, with no skin indication. The only authorised single-ingredient topical tretinoin on INFARMED's database, Ketrel cream, is prescription-only, and its indications are acne (other than rosacea) and keratinisation disorders, not photoageing.",
+   "claimIds": [
+    "j-pt-31",
+    "j-pt-29",
+    "j-pt-30"
+   ],
+   "supported": false,
+   "unsupported": [
+    {
+     "clause": "The only authorised single-ingredient topical tretinoin on INFARMED's database",
+     "reason": "Neither the quotes nor the search log in the source metadata record a search establishing that Ketrel is the sole authorised single-ingredient topical tretinoin on Infomed (this claim appears only in the non-evidence research statement)."
+    }
+   ],
+   "rewrite": "In Portugal, as of September 2026, the estradiol HRT products Estreva gel and Estrofem tablets are authorised for symptoms of oestrogen deficiency in postmenopausal women. The topical tretinoin product Ketrel cream is authorised and prescription-only on INFARMED's database, with indications for acne (except acne rosacea) and keratinisation disorders.",
+   "usage": {
+    "promptTokenCount": 1751,
+    "candidatesTokenCount": 186,
+    "totalTokenCount": 3425,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1751
+     }
+    ],
+    "thoughtsTokenCount": 1488,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m02",
+   "block": "m2-p11",
+   "code": "BR",
+   "text": "In Brazil, as of September 2026, estradiol for menopausal hormone therapy is registered and the Oestrogel label covers menopausal symptoms and prevention of postmenopausal osteoporosis, not skin ageing, while the Vitacid label for topical tretinoin names cutaneous photoageing as well as acne vulgaris. The Federal Council of Medicine (CFM) bars physicians from using hormones to prevent, delay, modulate or reverse ageing, except to replace a diagnosed deficiency with proven benefit (Resolution 1.999/2012), and from prescribing hormones marketed as 'bioidentical' or 'nano' without proof of superiority (Resolution 2.333/2023).",
+   "claimIds": [
+    "j-br-26",
+    "j-br-25",
+    "j-br-54",
+    "j-br-53"
+   ],
+   "supported": false,
+   "unsupported": [
+    {
+     "clause": "using hormones to prevent, delay, modulate or reverse ageing, except to replace a diagnosed deficiency with proven benefit",
+     "reason": "Quote [j-br-54] prohibits the use of hormones in any formulation (including growth hormone) except in diagnosed deficiencies where replacement shows evidence of scientifically proven benefit, but does not mention the phrase 'to prevent, delay, modulate or reverse ageing' (which appears only in the research statement)."
+    }
+   ],
+   "rewrite": "In Brazil, as of September 2026, estradiol for menopausal hormone therapy is registered and the Oestrogel label covers menopausal symptoms and prevention of postmenopausal osteoporosis, not skin ageing, while the Vitacid label for topical tretinoin names cutaneous photoageing as well as acne vulgaris. The Federal Council of Medicine (CFM) bars physicians from using hormones, in any formulation, except in diagnosed deficiencies where replacement shows evidence of scientifically proven benefit (Resolution 1.999/2012), and from prescribing hormones marketed as 'bioidentical' or 'nano' without proof of superiority (Resolution 2.333/2023).",
+   "usage": {
+    "promptTokenCount": 2154,
+    "candidatesTokenCount": 267,
+    "totalTokenCount": 4244,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 2154
+     }
+    ],
+    "thoughtsTokenCount": 1823,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m02",
+   "block": "m2-p11",
+   "code": "AE",
+   "text": "In the UAE, the Emirates Drug Establishment (EDE), the federal regulator of medical products since Federal Decree-Law 28/2023, registers estradiol products for menopausal hormone therapy as Prescription Only Medicines, for example Oestrogel gel (since 11 November 2021) and Femoston tablets. The EDE register lists therapeutic categories rather than indications, so it does not show whether any UAE label includes a skin indication (25 September 2026). Under the medicines law, Federal Decree-Law 38 of 2024, a compounding pharmacy may not compound products that are essentially copies of EDE-approved products unless no commercially available product can deliver the expected benefit to the patient.",
+   "claimIds": [
+    "j-ae-34",
+    "j-ae-29",
+    "j-ae-41"
+   ],
+   "supported": true,
+   "unsupported": [],
+   "rewrite": "In the UAE, the Emirates Drug Establishment (EDE), the federal regulator of medical products since Federal Decree-Law 28/2023, registers estradiol products for menopausal hormone therapy as Prescription Only Medicines, for example Oestrogel gel (since 11 November 2021) and Femoston tablets. The EDE register lists therapeutic categories rather than indications, so it does not show whether any UAE label includes a skin indication (25 September 2026). Under the medicines law, Federal Decree-Law 38 of 2024, a compounding pharmacy may not compound products that are essentially copies of EDE-approved products unless no commercially available product can deliver the expected benefit to the patient.",
+   "usage": {
+    "promptTokenCount": 2008,
+    "candidatesTokenCount": 175,
+    "totalTokenCount": 3351,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 2008
+     }
+    ],
+    "thoughtsTokenCount": 1168,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m03",
+   "block": "m3-p08",
+   "code": "EU",
+   "text": "In the EU, semaglutide is a centrally authorised prescription medicine, as Ozempic and Rybelsus for type 2 diabetes and Wegovy for weight management (EMA and HMA, June 2024), and tirzepatide is authorised as Mounjaro (EU-wide, 15 September 2022) for type 2 diabetes and adult weight management, prescription-only. A search of the Union Register and EMA's medicines data on 25 September 2026 found no EU product named Zepbound.",
+   "claimIds": [
+    "j-eu-01",
+    "j-eu-05"
+   ],
+   "supported": false,
+   "unsupported": [
+    {
+     "clause": "for type 2 diabetes",
+     "reason": "The primary sources state that Ozempic, Rybelsus, and Mounjaro are authorised for 'diabetes' generally, without specifying 'type 2'."
+    }
+   ],
+   "rewrite": "In the EU, semaglutide is a centrally authorised prescription medicine, as Ozempic and Rybelsus for diabetes and Wegovy for weight management (EMA and HMA, June 2024), and tirzepatide is authorised as Mounjaro (EU-wide, 15 September 2022) for diabetes and adult weight management, prescription-only. A search of the Union Register and EMA's medicines data on 25 September 2026 found no EU product named Zepbound.",
+   "usage": {
+    "promptTokenCount": 1649,
+    "candidatesTokenCount": 195,
+    "totalTokenCount": 3660,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1649
+     }
+    ],
+    "thoughtsTokenCount": 1816,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m03",
+   "block": "m3-p08",
+   "code": "BR",
+   "text": "In Brazil, ANVISA has registered semaglutide as Ozempic (since 6 August 2018) and Wegovy (since 2 January 2023), with synthetic semaglutide pens registered from 26 May 2026 after the patent expired on 20 March 2026, and tirzepatide as Mounjaro (since 25 September 2023); a search of its register on 25 September 2026 found no product named Zepbound. Since 23 June 2025, every GLP-1 agonist medicine, industrial or compounded, needs a two-copy prescription, valid for 90 days, that the pharmacy retains (RDC 973/2025 and IN 360/2025).",
+   "claimIds": [
+    "j-br-01",
+    "j-br-02",
+    "j-br-03",
+    "j-br-04",
+    "j-br-52"
+   ],
+   "supported": false,
+   "unsupported": [
+    {
+     "clause": "after the patent expired on 20 March 2026",
+     "reason": "The patent expiration date of 20 March 2026 appears only in the non-evidence research statement and is absent from the provided quotes and source metadata."
+    },
+    {
+     "clause": "every GLP-1 agonist medicine, industrial or compounded, needs a two-copy prescription, valid for 90 days, that the pharmacy retains",
+     "reason": "Details specifying a two-copy prescription, a 90-day validity, and explicit inclusion of industrial or compounded forms appear only in the research statement; the quote and source metadata support only that GLP-1 receptor agonist measures apply from 23 June 2025 under RDC 973/2025 and IN 360/2025 requiring prescription retention."
+    }
+   ],
+   "rewrite": "In Brazil, ANVISA has registered semaglutide as Ozempic (since 6 August 2018) and Wegovy (since 2 January 2023), with synthetic semaglutide pens registered from 26 May 2026, and tirzepatide as Mounjaro (since 25 September 2023); a search of its register on 25 September 2026 found no product named Zepbound. Since 23 June 2025, GLP-1 receptor agonist medicines may only be sold with retention of the prescription (RDC 973/2025 and IN 360/2025).",
+   "usage": {
+    "promptTokenCount": 2900,
+    "candidatesTokenCount": 380,
+    "totalTokenCount": 4894,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 2900
+     }
+    ],
+    "thoughtsTokenCount": 1614,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m03",
+   "block": "m3-p08",
+   "code": "AE",
+   "text": "In the UAE, the Emirates Drug Establishment (EDE) has been the federal authority regulating medical products since Federal Decree-Law 28/2023, and its register lists semaglutide as Ozempic, Rybelsus and Wegovy and tirzepatide as Mounjaro; every entry checked is a Prescription Only Medicine. A search of the EDE register on 25 September 2026 found no product named Zepbound.",
+   "claimIds": [
+    "j-ae-01",
+    "j-ae-03",
+    "j-ae-34"
+   ],
+   "supported": true,
+   "unsupported": [],
+   "rewrite": "In the UAE, the Emirates Drug Establishment (EDE) has been the federal authority regulating medical products since Federal Decree-Law 28/2023, and its register lists semaglutide as Ozempic, Rybelsus and Wegovy and tirzepatide as Mounjaro; every entry checked is a Prescription Only Medicine. A search of the EDE register on 25 September 2026 found no product named Zepbound.",
+   "usage": {
+    "promptTokenCount": 2396,
+    "candidatesTokenCount": 119,
+    "totalTokenCount": 3159,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 2396
+     }
+    ],
+    "thoughtsTokenCount": 644,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m03",
+   "block": "m3-p09",
+   "code": "EU",
+   "text": "In the EU, semaglutide is authorised as Ozempic for type 2 diabetes (since 8 February 2018) and Wegovy for weight management (since 6 January 2022), and tirzepatide as Mounjaro for type 2 diabetes and adult weight management (since 15 September 2022), all prescription-only. In June 2024 EMA and HMA's shortage steering group said GLP-1 receptor agonists are not approved for, and should not be used for, cosmetic weight loss, and on 3 September 2025 EMA and HMA warned of a sharp rise in illegal medicines sold online and on social media as semaglutide, liraglutide or tirzepatide, which are unauthorised and may not contain the stated substance.",
+   "claimIds": [
+    "j-eu-01",
+    "j-eu-02",
+    "j-eu-03",
+    "j-eu-05",
+    "j-eu-41",
+    "j-eu-47"
+   ],
+   "supported": false,
+   "unsupported": [
+    {
+     "clause": "for type 2 diabetes",
+     "reason": "The quotes state that Ozempic is authorised for 'diabetes only' and Mounjaro is authorised for 'both diabetes and weight management', without specifying type 2 diabetes."
+    }
+   ],
+   "rewrite": "In the EU, semaglutide is authorised as Ozempic for diabetes (since 8 February 2018) and Wegovy for weight management (since 6 January 2022), and tirzepatide as Mounjaro for diabetes and adult weight management (since 15 September 2022), all prescription-only. In June 2024 EMA and HMA's shortage steering group said GLP-1 receptor agonists are not approved for, and should not be used for, cosmetic weight loss, and on 3 September 2025 EMA and HMA warned of a sharp rise in illegal medicines sold online and on social media as semaglutide, liraglutide or tirzepatide, which are unauthorised and may not contain the stated substance.",
+   "usage": {
+    "promptTokenCount": 2830,
+    "candidatesTokenCount": 255,
+    "totalTokenCount": 5241,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 2830
+     }
+    ],
+    "thoughtsTokenCount": 2156,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m03",
+   "block": "m3-p09",
+   "code": "PT",
+   "text": "In Portugal, Ozempic, Wegovy and Mounjaro are authorised through the EU centralised procedure and are prescription-only, and on 4 July 2024 INFARMED told prescribers that Ozempic, Trulicity and Victoza should not be prescribed to people without diabetes, because off-label use, notably for weight loss, threatens supply for diabetic patients (Circular 045/CD/100.20.200). In September 2025 INFARMED relayed the EMA and HMA warning of a sharp rise in illegal online sales of products presented as GLP-1 agonists, and stated that these prescription-only medicines are sold only in pharmacies.",
+   "claimIds": [
+    "j-pt-01",
+    "j-pt-02",
+    "j-pt-42",
+    "j-pt-76",
+    "j-pt-77"
+   ],
+   "supported": false,
+   "unsupported": [
+    {
+     "clause": "Ozempic ... authorised through the EU centralised procedure and are prescription-only",
+     "reason": "The verbatim quotes provide authorisation details and prescription-only status (MSRM) for Wegovy and Mounjaro, but do not contain the marketing authorisation or dispensing classification record for Ozempic."
+    },
+    {
+     "clause": "because off-label use, notably for weight loss, threatens supply for diabetic patients",
+     "reason": "This rationale appears only in the non-evidence research statement; quote [j-pt-42] only states that Ozempic, Trulicity, and Victoza must not be prescribed to non-diabetic patients."
+    },
+    {
+     "clause": "and stated that these prescription-only medicines are sold only in pharmacies",
+     "reason": "Quote [j-pt-77] states that medicines can only be acquired online via the websites of pharmacies and licensed non-prescription medicine outlets (LVMNSRM), not that GLP-1 agonists or prescription-only medicines are sold only in pharmacies."
+    }
+   ],
+   "rewrite": "In Portugal, Wegovy and Mounjaro are authorised through the EU centralised procedure and are prescription-only, and on 4 July 2024 INFARMED stated that Ozempic, Trulicity and Victoza must not be prescribed to patients who are not diabetic (Circular 045/CD/100.20.200). In September 2025 INFARMED relayed the EMA and HMA warning of a sharp increase in the illegal marketing of medicines presented as GLP-1 receptor agonists, and stated that in Portugal medicines can only be bought on the internet from the websites of pharmacies and licensed non-prescription medicine outlets (LVMNSRM).",
+   "usage": {
+    "promptTokenCount": 2873,
+    "candidatesTokenCount": 414,
+    "totalTokenCount": 4831,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 2873
+     }
+    ],
+    "thoughtsTokenCount": 1544,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m03",
+   "block": "m3-p09",
+   "code": "BR",
+   "text": "In Brazil, as of September 2026, Ozempic's label indicates it only for adults with type 2 diabetes, Wegovy is registered for chronic weight management in adults and in adolescents aged 12 or over with obesity, Mounjaro's label covers type 2 diabetes, chronic weight management in adults and obstructive sleep apnoea, and the synthetic semaglutide copies are indicated for type 2 diabetes, not weight management. Nota Técnica 200/2025 (August 2025) allows compounding of GLP-1 agonists only in narrow conditions, and ANVISA inspections from January to April 2026 led to the closure of 8 of the 26 compounding pharmacies and importers assessed and the seizure of more than 1.3 million irregular injectable units.",
+   "claimIds": [
+    "j-br-01",
+    "j-br-02",
+    "j-br-03",
+    "j-br-04",
+    "j-br-31",
+    "j-br-60"
+   ],
+   "supported": false,
+   "unsupported": [
+    {
+     "clause": "and in adolescents aged 12 or over with obesity",
+     "reason": "The Wegovy quote ([j-br-02]) only mentions adults ('em adultos'). The adolescent indication is mentioned only in the non-evidential research statement."
+    },
+    {
+     "clause": "Mounjaro's label covers type 2 diabetes ... and obstructive sleep apnoea",
+     "reason": "The Mounjaro quote ([j-br-04]) only indicates chronic weight management in adults. Type 2 diabetes and obstructive sleep apnoea are not in the primary-source quote."
+    },
+    {
+     "clause": "compounding pharmacies and importers assessed",
+     "reason": "Quote [j-br-60] refers to 'estabelecimentos avaliados' (establishments assessed) generally, not specifically compounding pharmacies and importers."
+    }
+   ],
+   "rewrite": "In Brazil, as of September 2026, Ozempic is indicated for adults with insufficiently controlled type 2 diabetes mellitus, Wegovy is indicated for weight management in adults, Mounjaro is indicated for chronic weight management in adults, and the approved synthetic semaglutide copies are indicated for adult patients with insufficiently controlled type 2 diabetes mellitus. Nota Técnica 200/2025 (August 2025) permits compounding of chemically synthesised APIs provided registered medicines with the same molecule already exist in Brazil, and ANVISA inspections from January to April 2026 led to the closure of 8 of the 26 establishments assessed and the seizure of more than 1.3 million units of irregular injectable medicines.",
+   "usage": {
+    "promptTokenCount": 3291,
+    "candidatesTokenCount": 379,
+    "totalTokenCount": 5039,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 3291
+     }
+    ],
+    "thoughtsTokenCount": 1369,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m03",
+   "block": "m3-p09",
+   "code": "AE",
+   "text": "In the UAE, the Emirates Drug Establishment (EDE) announced on 1 June 2026 that it had approved oral Wegovy (semaglutide) for long-term weight management in adults with obesity, or overweight with weight-related conditions, and a Ministry of Health and Prevention alert (Circular 9217/2024, October 2024) described genuine Mounjaro as registered for type 2 diabetes and weight management. Federal Decree-Law 38/2024 bars compounding pharmacies from compounding essential copies of products that hold an EDE marketing approval unless no commercially available product can deliver the expected benefit to the patient. On 20 July 2026 the EDE warned that 1,659 packs of Mounjaro and Ozempic stolen from a German wholesaler are outside the legitimate supply chain and told the public to buy these medicines only from licensed pharmacies.",
+   "claimIds": [
+    "j-ae-02",
+    "j-ae-04",
+    "j-ae-41",
+    "j-ae-85"
+   ],
+   "supported": false,
+   "unsupported": [
+    {
+     "clause": "stolen from a German wholesaler",
+     "reason": "The quote states that the packs were identified as missing from a warehouse (and the source title refers to stolen packs), but neither the quotes nor the source metadata mention a German wholesaler."
+    }
+   ],
+   "rewrite": "In the UAE, the Emirates Drug Establishment (EDE) announced on 1 June 2026 that it had approved oral Wegovy (semaglutide) for long-term weight management in adults with obesity, or overweight with weight-related conditions, and a Ministry of Health and Prevention alert (Circular 9217/2024, October 2024) described genuine Mounjaro as registered for type 2 diabetes and weight management. Federal Decree-Law 38/2024 bars compounding pharmacies from compounding essential copies of products that hold an EDE marketing approval unless no commercially available product can deliver the expected benefit to the patient. On 20 July 2026 the EDE warned that 1,659 packs of Mounjaro and Ozempic missing from a warehouse are outside the legitimate supply chain and told the public to buy these medicines only from licensed pharmacies.",
+   "usage": {
+    "promptTokenCount": 1755,
+    "candidatesTokenCount": 279,
+    "totalTokenCount": 3386,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1755
+     }
+    ],
+    "thoughtsTokenCount": 1352,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m03",
+   "block": "m3-p17",
+   "code": "EU",
+   "text": "In the EU, tirzepatide is authorised as Mounjaro (EU-wide, 15 September 2022) for type 2 diabetes and adult weight management, prescription-only. A search of the Union Register and EMA's data on authorised, refused and withdrawn medicines on 25 September 2026 found no centrally authorised medicine containing BPC-157.",
+   "claimIds": [
+    "j-eu-05",
+    "j-eu-22"
+   ],
+   "supported": false,
+   "unsupported": [
+    {
+     "clause": "for type 2 diabetes",
+     "reason": "Neither the provided quotes nor the source metadata mention type 2 diabetes; it appears only in the research statement, which cannot be accepted as evidence."
+    }
+   ],
+   "rewrite": "In the EU, tirzepatide is authorised as Mounjaro (EU-wide, 15 September 2022) for adult weight management, prescription-only. A search of the Union Register and EMA's data on authorised, refused and withdrawn medicines on 25 September 2026 found no centrally authorised medicine containing BPC-157.",
+   "usage": {
+    "promptTokenCount": 2027,
+    "candidatesTokenCount": 158,
+    "totalTokenCount": 3017,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 2027
+     }
+    ],
+    "thoughtsTokenCount": 832,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m03",
+   "block": "m3-p17",
+   "code": "BR",
+   "text": "In Brazil, Mounjaro (tirzepatide), registered by ANVISA since 25 September 2023, is labelled for type 2 diabetes, chronic weight management in adults and obstructive sleep apnoea. ANVISA stated on 2 July 2026 that BPC-157 is not registered as a medicine and is not authorised as a food supplement, and that no company has applied for supplement authorisation.",
+   "claimIds": [
+    "j-br-04",
+    "j-br-18"
+   ],
+   "supported": false,
+   "unsupported": [
+    {
+     "clause": "is labelled for type 2 diabetes, chronic weight management in adults and obstructive sleep apnoea",
+     "reason": "The quote for Mounjaro only mentions chronic weight management in adults; indications for type 2 diabetes and obstructive sleep apnoea are not in the primary quotes."
+    },
+    {
+     "clause": "ANVISA stated on 2 July 2026 that BPC-157 is not registered as a medicine",
+     "reason": "Quote [j-br-18] addresses authorization and company applications for use as a food supplement, not a statement by ANVISA that it is not registered as a medicine."
+    }
+   ],
+   "rewrite": "In Brazil, Mounjaro (tirzepatide), registered by ANVISA since 25 September 2023, is indicated as an adjunct to a low-calorie diet and increased physical activity for chronic weight management in adults. ANVISA stated on 2 July 2026 that BPC-157 is not authorised for use as a food supplement and that no company applications or studies have been submitted to regularise it as a food supplement.",
+   "usage": {
+    "promptTokenCount": 1144,
+    "candidatesTokenCount": 273,
+    "totalTokenCount": 2833,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1144
+     }
+    ],
+    "thoughtsTokenCount": 1416,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m03",
+   "block": "m3-p17",
+   "code": "AE",
+   "text": "In the UAE, a search of the Emirates Drug Establishment (EDE) register on 25 September 2026 found no registered product containing BPC-157, and a Ministry of Health and Prevention alert (Circular 9217/2024) described genuine Mounjaro (tirzepatide) as registered for type 2 diabetes and weight management. In Dubai, the DHA prohibits prescribing, dispensing, administering or using any peptide product unless it is registered or licensed with the EDE and used within the scope of its licence (29 July 2026). In Abu Dhabi, the DoH treats peptides as emerging, high-risk substances that may be compounded only if monographed, part of an approved medicine or listed by the DoH for compounding (August 2026).",
+   "claimIds": [
+    "j-ae-04",
+    "j-ae-12",
+    "j-ae-39",
+    "j-ae-44"
+   ],
+   "supported": false,
+   "unsupported": [
+    {
+     "clause": "the DoH treats peptides as emerging, high-risk substances",
+     "reason": "The descriptor 'emerging' is absent from the primary-source quote and source metadata (the quote states peptides are an example of substances defined by risk signature, treated as high-risk and non-default)."
+    }
+   ],
+   "rewrite": "In the UAE, a search of the Emirates Drug Establishment (EDE) register on 25 September 2026 found no registered product containing BPC-157, and a Ministry of Health and Prevention alert (Circular 9217/2024) described genuine Mounjaro (tirzepatide) as registered for type 2 diabetes and weight management. In Dubai, the DHA prohibits prescribing, dispensing, administering or using any peptide product unless it is registered or licensed with the EDE and used within the scope of its licence (29 July 2026). In Abu Dhabi, the DoH treats peptides as high-risk substances that may be compounded only if monographed, part of an approved medicine or listed by the DoH for compounding (August 2026).",
+   "usage": {
+    "promptTokenCount": 2012,
+    "candidatesTokenCount": 267,
+    "totalTokenCount": 3878,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 2012
+     }
+    ],
+    "thoughtsTokenCount": 1599,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m03",
+   "block": "m3-p18",
+   "code": "EU",
+   "text": "In the EU, Directive 2001/83/EC allows a medicine on the market only with a national or EU-wide marketing authorisation (Article 6(1)), while medicines prepared in a pharmacy for an individual patient on prescription (magistral formulas) fall outside the directive and need no marketing authorisation under it (Article 3). Each member state may also, under its own law, allow an unauthorised medicine for an individual patient on a bona fide unsolicited order from an authorised health professional, under that professional's direct personal responsibility (Article 5(1)).",
+   "claimIds": [
+    "j-eu-37",
+    "j-eu-39",
+    "j-eu-40"
+   ],
+   "supported": true,
+   "unsupported": [],
+   "rewrite": "In the EU, Directive 2001/83/EC allows a medicine on the market only with a national or EU-wide marketing authorisation (Article 6(1)), while medicines prepared in a pharmacy for an individual patient on prescription (magistral formulas) fall outside the directive and need no marketing authorisation under it (Article 3). Each member state may also, under its own law, allow an unauthorised medicine for an individual patient on a bona fide unsolicited order from an authorised health professional, under that professional's direct personal responsibility (Article 5(1)).",
+   "usage": {
+    "promptTokenCount": 1909,
+    "candidatesTokenCount": 142,
+    "totalTokenCount": 2846,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1909
+     }
+    ],
+    "thoughtsTokenCount": 795,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m03",
+   "block": "m3-p18",
+   "code": "PT",
+   "text": "In Portugal, no medicine containing BPC-157 is listed in INFARMED's Infomed register (25 September 2026), so it has no marketing authorisation valid in Portugal, and a 'research use only' label does not take a product presented or used as a medicine outside medicines law (Estatuto do Medicamento, Article 3). INFARMED does not authorise importing medicines for personal use, a medicine not available in Portugal must be obtained through an exceptional-use authorisation via a pharmacy, and a magistral (compounded) medicine may use only raw materials listed in a Portuguese or European pharmacopoeia or in compendial scientific documentation (Decreto-Lei 95/2004, Article 6).",
+   "claimIds": [
+    "j-pt-22",
+    "j-pt-36",
+    "j-pt-44",
+    "j-pt-49"
+   ],
+   "supported": false,
+   "unsupported": [
+    {
+     "clause": "so it has no marketing authorisation valid in Portugal",
+     "reason": "This is an inferred conclusion ('so') not directly stated in quote [j-pt-22]."
+    },
+    {
+     "clause": "a 'research use only' label does not take a product presented or used as a medicine outside medicines law",
+     "reason": "The term 'research use only' appears only in a research statement; quote [j-pt-44] defines a medicine based on presentation and pharmacological, immunological, or metabolic action without mentioning 'research use only' labels."
+    },
+    {
+     "clause": "a medicine not available in Portugal must be obtained through an exceptional-use authorisation via a pharmacy",
+     "reason": "This requirement is completely absent from all provided quotes."
+    }
+   ],
+   "rewrite": "In Portugal, no medicine containing BPC-157 is listed in INFARMED's Infomed register (25 September 2026). A medicine is defined as any substance or combination of substances presented as having properties for treating or preventing disease or that may be used or administered to restore, correct, or modify physiological functions through pharmacological, immunological, or metabolic action (Estatuto do Medicamento, Article 3). INFARMED does not authorise importing medicines for personal use, and a compounded medicine may use only raw materials listed in the Portuguese Pharmacopoeia, the European Pharmacopoeia, pharmacopoeias of other States Parties to the European Pharmacopoeia Convention, or compendial scientific documentation (Decreto-Lei 95/2004, Article 6).",
+   "usage": {
+    "promptTokenCount": 2333,
+    "candidatesTokenCount": 371,
+    "totalTokenCount": 3660,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 2333
+     }
+    ],
+    "thoughtsTokenCount": 956,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m03",
+   "block": "m3-p18",
+   "code": "BR",
+   "text": "In Brazil, ANVISA stated on 2 July 2026 that any substance must have passed efficacy and safety assessment before it can be compounded, so unregistered peptides cannot be lawfully compounded, and that injectable peptides sold online are not regularised in any category (food, medicine, cosmetic or supplement) and are illegal for any health use, including aesthetic use. ANVISA also stated in July 2026 that an investigational medicine may be used only in authorised clinical research.",
+   "claimIds": [
+    "j-br-29",
+    "j-br-35",
+    "j-br-36"
+   ],
+   "supported": false,
+   "unsupported": [
+    {
+     "clause": "so unregistered peptides cannot be lawfully compounded",
+     "reason": "This is an unsupported inference ('so...') not stated directly in quote [j-br-29]."
+    },
+    {
+     "clause": "injectable peptides sold online are not regularised in any category",
+     "reason": "Quote [j-br-35] specifies 'some injectable peptides' ('alguns peptídeos injetáveis'), not all injectable peptides, and the detail 'sold online' does not appear in the quote."
+    }
+   ],
+   "rewrite": "In Brazil, ANVISA stated on 2 July 2026 that any substance must have undergone efficacy and safety assessments before it can be compounded, and that some injectable peptides are not regularised in any category (food, medicine, cosmetic or food supplement) and are illegal for any health use, including aesthetic use. ANVISA also stated in July 2026 that an investigational medicine is used exclusively in authorised clinical research.",
+   "usage": {
+    "promptTokenCount": 1089,
+    "candidatesTokenCount": 237,
+    "totalTokenCount": 1877,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1089
+     }
+    ],
+    "thoughtsTokenCount": 551,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m03",
+   "block": "m3-p18",
+   "code": "AE",
+   "text": "In the UAE, Federal Decree-Law 38/2024, in force since 2 January 2025, bars importing, selling or using any medical product without a marketing approval from the Emirates Drug Establishment (EDE), and lets a physician prescribe a medicine never submitted for approval only when necessary, when no equivalent alternative is available and with the patient's approval. In Dubai, the DHA prohibits using any research-use peptide on humans, or for treatment, outside a study or clinical trial approved by the competent authority (29 July 2026). In Abu Dhabi, the DoH lets physicians prescribe peptide therapies only for clinical indications supported by available scientific evidence, after a documented eligibility assessment and with informed consent that covers the product's regulatory approval status, and compounded peptides may use only certified active ingredients imported under EDE oversight (31 July 2026).",
+   "claimIds": [
+    "j-ae-36",
+    "j-ae-37",
+    "j-ae-46",
+    "j-ae-47",
+    "j-ae-79"
+   ],
+   "supported": true,
+   "unsupported": [],
+   "rewrite": "In the UAE, Federal Decree-Law 38/2024, in force since 2 January 2025, bars importing, selling or using any medical product without a marketing approval from the Emirates Drug Establishment (EDE), and lets a physician prescribe a medicine never submitted for approval only when necessary, when no equivalent alternative is available and with the patient's approval. In Dubai, the DHA prohibits using any research-use peptide on humans, or for treatment, outside a study or clinical trial approved by the competent authority (29 July 2026). In Abu Dhabi, the DoH lets physicians prescribe peptide therapies only for clinical indications supported by available scientific evidence, after a documented eligibility assessment and with informed consent that covers the product's regulatory approval status, and compounded peptides may use only certified active ingredients imported under EDE oversight (31 July 2026).",
+   "usage": {
+    "promptTokenCount": 2226,
+    "candidatesTokenCount": 207,
+    "totalTokenCount": 2923,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 2226
+     }
+    ],
+    "thoughtsTokenCount": 490,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m04",
+   "block": "m4-p05",
+   "code": "EU",
+   "text": "In the EU, copper tripeptide-1 (GHK-Cu) is listed in the Commission's CosIng inventory as a cosmetic ingredient with a skin-conditioning function, but CosIng is not legally binding and a listing is not an authorisation (as of 25 September 2026). No centrally authorised medicine containing GHK-Cu was found in the Union Register or in EMA's data on authorised, refused and withdrawn medicines (searched 25 September 2026).",
+   "claimIds": [
+    "j-eu-25",
+    "j-eu-26"
+   ],
+   "supported": false,
+   "unsupported": [
+    {
+     "clause": "but CosIng is not legally binding and a listing is not an authorisation",
+     "reason": "The provided quotes contain the CosIng ingredient record details and function, but do not contain verbatim text from the notice on legal status stating that CosIng is not legally binding or that a listing is not an authorisation."
+    }
+   ],
+   "rewrite": "In the EU, copper tripeptide-1 is listed in the Commission's CosIng inventory with a skin-conditioning function (read 25 September 2026). No centrally authorised medicine containing GHK-Cu was found in the Union Register or in EMA's data on authorised, refused and withdrawn medicines (searched 25 September 2026).",
+   "usage": {
+    "promptTokenCount": 1558,
+    "candidatesTokenCount": 179,
+    "totalTokenCount": 2593,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1558
+     }
+    ],
+    "thoughtsTokenCount": 856,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m04",
+   "block": "m4-p05",
+   "code": "PT",
+   "text": "In Portugal, no medicine containing GHK-Cu is listed in INFARMED's Infomed register, which includes authorised, lapsed and revoked products (searched 25 September 2026); it has no marketing authorisation valid in Portugal.",
+   "claimIds": [
+    "j-pt-25"
+   ],
+   "supported": false,
+   "unsupported": [
+    {
+     "clause": "it has no marketing authorisation valid in Portugal",
+     "reason": "The quote and source note record that zero medicines were found in the Infomed database search, but do not explicitly contain the broader legal conclusion that it has no marketing authorisation valid in Portugal."
+    }
+   ],
+   "rewrite": "In Portugal, no medicine containing GHK-Cu is listed in INFARMED's Infomed register, which includes authorised, lapsed and revoked products (searched 25 September 2026).",
+   "usage": {
+    "promptTokenCount": 1098,
+    "candidatesTokenCount": 133,
+    "totalTokenCount": 2648,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1098
+     }
+    ],
+    "thoughtsTokenCount": 1417,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m04",
+   "block": "m4-p05",
+   "code": "BR",
+   "text": "In Brazil, ANVISA stated on 2 July 2026 that injectable GHK-Cu products are not registered and are illegal for any health or aesthetic use; topical GHK-Cu cosmetics are a separate category.",
+   "claimIds": [
+    "j-br-21"
+   ],
+   "supported": false,
+   "unsupported": [
+    {
+     "clause": "injectable GHK-Cu products",
+     "reason": "The quote refers generally to 'products presented as peptides called GHK-CU', not specifically to 'injectable' products."
+    },
+    {
+     "clause": "are illegal",
+     "reason": "The quote states they are not registered with Anvisa ('NÃO se encontram registrados na Anvisa'), not that they are 'illegal'."
+    },
+    {
+     "clause": "topical GHK-Cu cosmetics are a separate category",
+     "reason": "This assertion is absent from the provided quote and source metadata."
+    }
+   ],
+   "rewrite": "In Brazil, ANVISA stated on 2 July 2026 that products presented as peptides called GHK-Cu that promise aesthetic effects or improvement in health conditions are not registered with Anvisa.",
+   "usage": {
+    "promptTokenCount": 603,
+    "candidatesTokenCount": 209,
+    "totalTokenCount": 1178,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 603
+     }
+    ],
+    "thoughtsTokenCount": 366,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m04",
+   "block": "m4-p05",
+   "code": "AE",
+   "text": "In the UAE, the Emirates Drug Establishment (EDE) has held medicines registration since Federal Decree-Law 28/2023, and no registered medical product matching GHK-Cu was found in the EDE register (25 September 2026), which does not cover ordinary cosmetics. In Dubai, the DHA's rules for health facilities prohibit circulating, prescribing, dispensing, administering or using any peptide product unless it is registered or licensed with the EDE (29 July 2026); in Abu Dhabi, the DoH classes topical cosmetic peptides with no systemic effect as low-risk products that stay under existing regulatory pathways, while systemic, regenerative or weakly evidenced peptides face enhanced controls (31 July 2026).",
+   "claimIds": [
+    "j-ae-18",
+    "j-ae-34",
+    "j-ae-39",
+    "j-ae-59"
+   ],
+   "supported": false,
+   "unsupported": [
+    {
+     "clause": "which does not cover ordinary cosmetics",
+     "reason": "The fact that the EDE register does not cover ordinary cosmetics appears only in a non-evidentiary research statement and is not supported by any quote or source metadata."
+    }
+   ],
+   "rewrite": "In the UAE, the Emirates Drug Establishment (EDE) has held medicines registration since Federal Decree-Law 28/2023, and no registered medical product matching GHK, prezatide, copper tripeptide or copper peptide was found in the EDE register (25 September 2026). In Dubai, the DHA's rules for health facilities prohibit circulating, prescribing, dispensing, administering or using any peptide product unless it is registered or licensed with the EDE (29 July 2026); in Abu Dhabi, the DoH classes topical cosmetic peptides with no systemic effect as low-risk products that stay under existing regulatory pathways, while systemic, regenerative or weakly evidenced peptides face enhanced controls (31 July 2026).",
+   "usage": {
+    "promptTokenCount": 2056,
+    "candidatesTokenCount": 241,
+    "totalTokenCount": 4089,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 2056
+     }
+    ],
+    "thoughtsTokenCount": 1792,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m04",
+   "block": "m4-p06",
+   "code": "EU",
+   "text": "In the EU, anything intended to be injected is not a cosmetic (Regulation (EC) No 1223/2009, Article 2(2)); the EU borderline manual adds that a product in a vial or ampoule for injection cannot be a cosmetic, and that one sold as a cosmetic must be clearly for external use and not marketed with a device allowing injection or delivery below the epidermis. Whether a product is a cosmetic is decided case by case by national authorities, and the manual says an anti-wrinkle product that significantly restores, corrects or modifies physiological functions by a pharmacological, immunological or metabolic action does not qualify as one (version 5.5, June 2025).",
+   "claimIds": [
+    "j-eu-51",
+    "j-eu-52",
+    "j-eu-54"
+   ],
+   "supported": false,
+   "unsupported": [
+    {
+     "clause": "and that one sold as a cosmetic must be clearly for external use",
+     "reason": "This requirement appears in the research statement but is not contained in any of the primary-source quotes."
+    }
+   ],
+   "rewrite": "In the EU, a substance or mixture intended to be injected is not considered a cosmetic product (Regulation (EC) No 1223/2009, Article 2(2)); the EU borderline manual adds that a product in a vial or ampoule for use by injection cannot be considered a cosmetic product, and should not be marketed with a device that could allow injection or delivery below the epidermis. Whether a product qualifies as a cosmetic is decided case by case by national competent authorities, and the manual says an anti-wrinkle product that significantly restores, corrects or modifies physiological functions by exerting a pharmacological, immunological or metabolic action does not qualify as one (version 5.5, June 2025).",
+   "usage": {
+    "promptTokenCount": 1813,
+    "candidatesTokenCount": 226,
+    "totalTokenCount": 3055,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1813
+     }
+    ],
+    "thoughtsTokenCount": 1016,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m04",
+   "block": "m4-p06",
+   "code": "PT",
+   "text": "In Portugal, INFARMED states that products administered by injection are not cosmetics, so an injected 'peptide' cannot be sold as a cosmetic (as of 25 September 2026), and every medicine intended for injection is prescription-only by law (Estatuto do Medicamento, Art 114(1)(d)).",
+   "claimIds": [
+    "j-pt-53",
+    "j-pt-67"
+   ],
+   "supported": false,
+   "unsupported": [
+    {
+     "clause": "so an injected 'peptide' cannot be sold as a cosmetic",
+     "reason": "This is an inference ('so') introducing 'peptide' and rules on sale; the quote only states that products administered by injection are not considered cosmetics."
+    },
+    {
+     "clause": "every medicine intended for injection is prescription-only",
+     "reason": "The quote specifies medicines intended for 'parenteral administration' ('via parentérica') being subject to medical prescription, rather than 'injection'."
+    }
+   ],
+   "rewrite": "In Portugal, INFARMED states that products administered by injection are not considered cosmetics (as of 25 September 2026), and medicines intended for parenteral administration are subject to medical prescription by law (Estatuto do Medicamento, Art 114(1)(d)).",
+   "usage": {
+    "promptTokenCount": 911,
+    "candidatesTokenCount": 203,
+    "totalTokenCount": 1817,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 911
+     }
+    ],
+    "thoughtsTokenCount": 703,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m04",
+   "block": "m4-p06",
+   "code": "BR",
+   "text": "In Brazil, ANVISA stated on 2 July 2026 that injectable cosmetics do not exist; an injectable product offered as a cosmetic is irregular. Topical products named after GHK-Cu appear as notified cosmetics in ANVISA's public cosmetics data (221 entries, 25 September 2026), and ANVISA cancelled several GHK-Cu cosmetic processes on 29 April 2026 without published reasons (RE 1.771/2026).",
+   "claimIds": [
+    "j-br-42"
+   ],
+   "supported": false,
+   "unsupported": [
+    {
+     "clause": "Topical products named after GHK-Cu appear as notified cosmetics in ANVISA's public cosmetics data (221 entries, 25 September 2026)",
+     "reason": "The source metadata specifies 221 rows with 'GHK' in the product name, not specifically 'topical' products or 'GHK-Cu'."
+    }
+   ],
+   "rewrite": "In Brazil, ANVISA stated on 2 July 2026 that injectable cosmetics do not exist; an injectable product offered as a cosmetic is irregular. Products with 'GHK' in the product name appear as notified cosmetics in ANVISA's public cosmetics data (221 entries, 25 September 2026), and ANVISA cancelled several GHK-Cu cosmetic processes on 29 April 2026 without published reasons (RE 1.771/2026).",
+   "usage": {
+    "promptTokenCount": 908,
+    "candidatesTokenCount": 222,
+    "totalTokenCount": 2428,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 908
+     }
+    ],
+    "thoughtsTokenCount": 1298,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m04",
+   "block": "m4-p06",
+   "code": "AE",
+   "text": "In the UAE, the medicines law (Federal Decree-Law 38 of 2024) counts cosmetics with a medical effect on the skin, hair or nails among the medical products regulated by the Emirates Drug Establishment (EDE), and whether a borderline product such as a peptide serum needs an EDE marketing authorisation, and in which category, is settled by an EDE classification letter based on its presentation, composition, use and design. In Dubai, peptide products may be prescribed, dispensed or administered only by licensed, authorised professionals in a licensed health facility (DHA, 29 July 2026); in Abu Dhabi, physicians may prescribe peptide therapies only for clinical indications supported by available scientific evidence, after a documented eligibility assessment and with informed consent that covers benefits, uncertainties, risks, alternatives and the product's regulatory approval status (DoH, 31 July 2026).",
+   "claimIds": [
+    "j-ae-53",
+    "j-ae-55",
+    "j-ae-78",
+    "j-ae-79"
+   ],
+   "supported": false,
+   "unsupported": [
+    {
+     "clause": "such as a peptide serum",
+     "reason": "The quote from the Emirates Drug Establishment service page refers generally to 'products of all types and forms' and does not mention borderline products or peptide serums."
+    }
+   ],
+   "rewrite": "In the UAE, the medicines law (Federal Decree-Law 38 of 2024) defines cosmetics as products with a medical effect on the skin, hair or nails, and whether a product requires an Emirates Drug Establishment (EDE) marketing authorisation, and in which category, is determined by an EDE classification letter based on its presentation, composition, use and design. In Dubai, peptide products may be prescribed, dispensed or administered only by licensed, authorised professionals in a licensed health facility (DHA, 29 July 2026); in Abu Dhabi, physicians may prescribe peptide therapies only for clinical indications supported by available scientific evidence, after a documented eligibility assessment and with informed consent that covers benefits, uncertainties, risks, alternatives and the product's regulatory approval status (DoH, 31 July 2026).",
+   "usage": {
+    "promptTokenCount": 1777,
+    "candidatesTokenCount": 253,
+    "totalTokenCount": 3537,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1777
+     }
+    ],
+    "thoughtsTokenCount": 1507,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m04",
+   "block": "m4-p11",
+   "code": "EU",
+   "text": "In the EU, a peptide serum sold as a cosmetic needs a responsible person in the EU, a safety assessment with a product safety report and electronic notification to the Commission before it is placed on the market (Regulation (EC) No 1223/2009), and its claims must be supported by adequate and verifiable evidence (Regulation (EU) No 655/2013). Food labelling and advertising may not claim that a food prevents, treats or cures a disease, and health claims on foods are prohibited unless authorised: the Commission refused a claim that a collagen peptide mixture maintains skin health by increasing elasticity and reducing wrinkles, because cause and effect was not established (Regulation (EU) No 1154/2014), and the EU Register lists no authorised claim for collagen itself (searched 25 September 2026).",
+   "claimIds": [
+    "j-eu-36",
+    "j-eu-58",
+    "j-eu-60",
+    "j-eu-64",
+    "j-eu-66"
+   ],
+   "supported": true,
+   "unsupported": [],
+   "rewrite": "In the EU, a peptide serum sold as a cosmetic needs a responsible person in the EU, a safety assessment with a product safety report and electronic notification to the Commission before it is placed on the market (Regulation (EC) No 1223/2009), and its claims must be supported by adequate and verifiable evidence (Regulation (EU) No 655/2013). Food labelling and advertising may not claim that a food prevents, treats or cures a disease, and health claims on foods are prohibited unless authorised: the Commission refused a claim that a collagen peptide mixture maintains skin health by increasing elasticity and reducing wrinkles, because cause and effect was not established (Regulation (EU) No 1154/2014), and the EU Register lists no authorised claim for collagen itself (searched 25 September 2026).",
+   "usage": {
+    "promptTokenCount": 2880,
+    "candidatesTokenCount": 203,
+    "totalTokenCount": 3725,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 2880
+     }
+    ],
+    "thoughtsTokenCount": 642,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m04",
+   "block": "m4-p11",
+   "code": "PT",
+   "text": "In Portugal, INFARMED is the competent authority for cosmetics (Decreto-Lei 23/2025); cosmetics need no prior authorisation but are subject to INFARMED's market surveillance, and a borderline product such as a topical peptide serum with medicinal-sounding claims must be classified case by case by its Responsible Person. An oral collagen product sold as a food supplement must be notified to DGAV before it is placed on the market, but notification involves no evaluation of the product or its label, so it is not an authorisation (DGAV, as of 25 September 2026).",
+   "claimIds": [
+    "j-pt-32",
+    "j-pt-51",
+    "j-pt-54"
+   ],
+   "supported": false,
+   "unsupported": [
+    {
+     "clause": "cosmetics need no prior authorisation but are subject to INFARMED's market surveillance",
+     "reason": "This clause is absent from the provided quotes (it appears only in the non-evidentiary research statement)."
+    },
+    {
+     "clause": "such as a topical peptide serum with medicinal-sounding claims",
+     "reason": "Specific product examples like topical peptide serums are absent from quote [j-pt-54] and appear only in the research statement."
+    },
+    {
+     "clause": "An oral collagen product sold as a food supplement must be notified to DGAV before it is placed on the market",
+     "reason": "Oral collagen and the requirement to notify before placing on the market are not stated in quote [j-pt-32]."
+    },
+    {
+     "clause": "so it is not an authorisation",
+     "reason": "This is an inferred explanation not stated verbatim in quote [j-pt-32]."
+    }
+   ],
+   "rewrite": "In Portugal, INFARMED is the competent authority for cosmetics (Decreto-Lei 23/2025), and borderline products must be assessed case by case by the Responsible Person, taking all their characteristics into account (INFARMED, as of 25 September 2026). For food supplement notification, there is no evaluation of the product or validation of labelling; control is carried out afterwards by sampling and may take place at any time (DGAV, as of 25 September 2026).",
+   "usage": {
+    "promptTokenCount": 1238,
+    "candidatesTokenCount": 359,
+    "totalTokenCount": 2389,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1238
+     }
+    ],
+    "thoughtsTokenCount": 792,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m04",
+   "block": "m4-p11",
+   "code": "BR",
+   "text": "In Brazil, cosmetic labelling may not carry therapeutic claims for the product or its ingredients, so a peptide serum that claims to treat a condition falls outside the cosmetic category (RDC 907/2024, art. 12). Oral collagen is regulated as a food supplement, which may carry only ANVISA-approved claims and never a claim to prevent, treat or cure disease; ANVISA's January 2025 guidance lists an approved skin-health claim for 2 kDa bioactive collagen peptides, restricted to products meeting an ANVISA-set minimum content, for adults only.",
+   "claimIds": [
+    "j-br-27",
+    "j-br-41",
+    "j-br-44"
+   ],
+   "supported": false,
+   "unsupported": [
+    {
+     "clause": "so a peptide serum that claims to treat a condition falls outside the cosmetic category",
+     "reason": "This inference about peptide serums is not stated in RDC 907/2024 art. 12 or any provided quote."
+    },
+    {
+     "clause": "which may carry only ANVISA-approved claims and never a claim to prevent, treat or cure disease",
+     "reason": "None of the provided quotes state the general rule prohibiting disease prevention, treatment, or cure claims for food supplements."
+    },
+    {
+     "clause": "restricted to products meeting an ANVISA-set minimum content, for adults only",
+     "reason": "These restrictions appear only in the research statement; quote [j-br-27] contains only the approved claim wording."
+    }
+   ],
+   "rewrite": "In Brazil, cosmetic labelling must not contain trade names, brands, images, electronic links or wording that represent therapeutic claims attributed to the use of the product or its ingredients (RDC 907/2024, art. 12). Under ANVISA's January 2025 food supplement guidance, an approved claim is that bioactive hydrolysed collagen peptides with an average molecular weight of 2 kDa help maintain skin health.",
+   "usage": {
+    "promptTokenCount": 1256,
+    "candidatesTokenCount": 301,
+    "totalTokenCount": 2471,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1256
+     }
+    ],
+    "thoughtsTokenCount": 914,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m04",
+   "block": "m4-p11",
+   "code": "AE",
+   "text": "In the UAE, the medicines law (Federal Decree-Law 38 of 2024) treats food supplements, oral products that support the diet and do not treat, diagnose or prevent disease, as medical products regulated by the Emirates Drug Establishment (EDE): oral collagen products are registered with the EDE as general-sale-list health products rather than medicines, while ordinary cosmetics need a conformity certificate from the Ministry of Industry and Advanced Technology under Cabinet Resolution 18/2014. Advertising any medical product, social media included, requires EDE approval. In Dubai, the DHA's rules for health facilities ban misleading or unproven peptide claims, such as anti-ageing, cell regeneration or improved appearance, unless the use is within the product's approved status (29 July 2026); in Abu Dhabi, the DoH bars healthcare providers from promoting peptide therapies with misleading or unsubstantiated claims, or advertising them without prior approval from the DoH and relevant authorities (31 July 2026).",
+   "claimIds": [
+    "j-ae-30",
+    "j-ae-54",
+    "j-ae-56",
+    "j-ae-60",
+    "j-ae-63",
+    "j-ae-66",
+    "j-ae-70"
+   ],
+   "supported": true,
+   "unsupported": [],
+   "rewrite": "In the UAE, the medicines law (Federal Decree-Law 38 of 2024) treats food supplements, oral products that support the diet and do not treat, diagnose or prevent disease, as medical products regulated by the Emirates Drug Establishment (EDE): oral collagen products are registered with the EDE as general-sale-list health products rather than medicines, while ordinary cosmetics need a conformity certificate from the Ministry of Industry and Advanced Technology under Cabinet Resolution 18/2014. Advertising any medical product, social media included, requires EDE approval. In Dubai, the DHA's rules for health facilities ban misleading or unproven peptide claims, such as anti-ageing, cell regeneration or improved appearance, unless the use is within the product's approved status (29 July 2026); in Abu Dhabi, the DoH bars healthcare providers from promoting peptide therapies with misleading or unsubstantiated claims, or advertising them without prior approval from the DoH and relevant authorities (31 July 2026).",
+   "usage": {
+    "promptTokenCount": 3505,
+    "candidatesTokenCount": 238,
+    "totalTokenCount": 4379,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 3505
+     }
+    ],
+    "thoughtsTokenCount": 636,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m04",
+   "block": "m4-p16",
+   "code": "EU",
+   "text": "In the EU, a medicine prepared in a pharmacy on prescription for an individual patient (magistral formula), or to a pharmacopoeia for the pharmacy's own patients (officinal formula), falls outside Directive 2001/83/EC and needs no marketing authorisation under it (Article 3), and each member state may, under its own law, allow an unauthorised medicine for an individual patient on a professional's bona fide unsolicited order, under that professional's direct personal responsibility (Article 5(1)). No centrally authorised medicine containing GHK-Cu, BPC-157 or TB-500 was found in the Union Register or in EMA's data on authorised, refused and withdrawn medicines (searched 25 September 2026).",
+   "claimIds": [
+    "j-eu-22",
+    "j-eu-23",
+    "j-eu-25",
+    "j-eu-37",
+    "j-eu-40"
+   ],
+   "supported": true,
+   "unsupported": [],
+   "rewrite": "In the EU, a medicine prepared in a pharmacy on prescription for an individual patient (magistral formula), or to a pharmacopoeia for the pharmacy's own patients (officinal formula), falls outside Directive 2001/83/EC and needs no marketing authorisation under it (Article 3), and each member state may, under its own law, allow an unauthorised medicine for an individual patient on a professional's bona fide unsolicited order, under that professional's direct personal responsibility (Article 5(1)). No centrally authorised medicine containing GHK-Cu, BPC-157 or TB-500 was found in the Union Register or in EMA's data on authorised, refused and withdrawn medicines (searched 25 September 2026).",
+   "usage": {
+    "promptTokenCount": 3831,
+    "candidatesTokenCount": 186,
+    "totalTokenCount": 4618,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 3831
+     }
+    ],
+    "thoughtsTokenCount": 601,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m04",
+   "block": "m4-p16",
+   "code": "PT",
+   "text": "In Portugal, a magistral formula is a medicine prepared in a community or hospital pharmacy, under a pharmacist's responsibility, on a medical prescription that names the patient, and the prescribing physician must satisfy themselves of its safety and efficacy (Decreto-Lei 95/2004, Arts 1 and 3). Compounded medicines may use only raw materials listed in the Portuguese pharmacopoeia, the European pharmacopoeia or another European pharmacopoeia, or in compendial scientific documentation, and one containing any other raw material may not be prescribed (Art 6).",
+   "claimIds": [
+    "j-pt-34",
+    "j-pt-35",
+    "j-pt-36"
+   ],
+   "supported": false,
+   "unsupported": [
+    {
+     "clause": "Arts 1 and 3",
+     "reason": "The specific article numbers (Articles 1 and 3) do not appear in the primary quotes or source metadata; they appear only in the research statements."
+    },
+    {
+     "clause": "(Art 6)",
+     "reason": "The specific article number (Article 6) does not appear in the primary quote or source metadata; it appears only in the research statement."
+    }
+   ],
+   "rewrite": "In Portugal, a magistral formula is a medicine prepared in a community or hospital pharmacy, under a pharmacist's responsibility, on a medical prescription that names the patient, and the prescribing physician must satisfy themselves of its safety and efficacy (Decreto-Lei 95/2004). Compounded medicines may use only raw materials listed in the Portuguese pharmacopoeia, the European pharmacopoeia or another European pharmacopoeia, or in compendial scientific documentation, and one containing any other raw material may not be prescribed.",
+   "usage": {
+    "promptTokenCount": 1553,
+    "candidatesTokenCount": 240,
+    "totalTokenCount": 3540,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1553
+     }
+    ],
+    "thoughtsTokenCount": 1747,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m04",
+   "block": "m4-p16",
+   "code": "BR",
+   "text": "In Brazil, ANVISA stated on 2 July 2026 that any substance must have passed efficacy and safety assessment before it can be compounded, and that compounding may only be individual, on prescription, by a pharmacy licensed by local health surveillance, so unregistered peptides cannot be lawfully compounded. The same notice says BPC-157 and TB-500 are not registered as medicines or authorised as food supplements, and that injectable GHK-Cu products are not registered.",
+   "claimIds": [
+    "j-br-18",
+    "j-br-19",
+    "j-br-21",
+    "j-br-29"
+   ],
+   "supported": false,
+   "unsupported": [
+    {
+     "clause": "so unregistered peptides cannot be lawfully compounded",
+     "reason": "This is an inferred conclusion introduced by 'so' that is not explicitly stated in the primary source quote."
+    },
+    {
+     "clause": "and that injectable GHK-Cu products are not registered",
+     "reason": "The quote refers generally to 'Products presented as peptides called GHK-CU, BPC-157, TB500, CJC-1295 and Ipamorelin, which promise aesthetic effects or improvement in health conditions' and does not specify 'injectable'."
+    }
+   ],
+   "rewrite": "In Brazil, ANVISA stated on 2 July 2026 that any substance must have passed efficacy and safety assessment before it can be compounded, and that compounding may only be individual, on presentation of a medical prescription, by a compounding pharmacy licensed by local health surveillance. The same notice says BPC-157 and TB-500 are not authorised as food supplements, and that products presented as peptides called GHK-CU, BPC-157, and TB-500 promising aesthetic effects or health improvements are not registered with ANVISA.",
+   "usage": {
+    "promptTokenCount": 1449,
+    "candidatesTokenCount": 279,
+    "totalTokenCount": 2604,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1449
+     }
+    ],
+    "thoughtsTokenCount": 876,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m04",
+   "block": "m4-p16",
+   "code": "AE",
+   "text": "In the UAE, the medicines law (Federal Decree-Law 38 of 2024, in force 2 January 2025) exempts medical products compounded in licensed compounding pharmacies from the requirement for a marketing approval from the Emirates Drug Establishment (EDE). In Dubai, the DHA's rules for health facilities prohibit circulating, prescribing, dispensing, administering or using any peptide product unless it is registered or licensed with the EDE (29 July 2026); in Abu Dhabi, the DoH treats peptides as emerging, non-monographed, high-risk substances, and novel substances of unknown risk may be compounded only if monographed, a component of an approved medicine or listed on the DoH's register of compounded substances (compounding standard, August 2026).",
+   "claimIds": [
+    "j-ae-36",
+    "j-ae-39",
+    "j-ae-40",
+    "j-ae-44"
+   ],
+   "supported": true,
+   "unsupported": [],
+   "rewrite": "In the UAE, the medicines law (Federal Decree-Law 38 of 2024, in force 2 January 2025) exempts medical products compounded in licensed compounding pharmacies from the requirement for a marketing approval from the Emirates Drug Establishment (EDE). In Dubai, the DHA's rules for health facilities prohibit circulating, prescribing, dispensing, administering or using any peptide product unless it is registered or licensed with the EDE (29 July 2026); in Abu Dhabi, the DoH treats peptides as emerging, non-monographed, high-risk substances, and novel substances of unknown risk may be compounded only if monographed, a component of an approved medicine or listed on the DoH's register of compounded substances (compounding standard, August 2026).",
+   "usage": {
+    "promptTokenCount": 1907,
+    "candidatesTokenCount": 190,
+    "totalTokenCount": 4166,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1907
+     }
+    ],
+    "thoughtsTokenCount": 2069,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m04",
+   "block": "m4-p17",
+   "code": "EU",
+   "text": "In the EU, a product presented as treating or preventing disease, or used to restore, correct or modify physiological functions by a pharmacological, immunological or metabolic action, is a medicine, and where a product could be both a medicine and another regulated product, medicines law applies (Directive 2001/83/EC, Articles 1(2) and 2(2)). No medicine may be placed on a member state's market without a national or EU-wide marketing authorisation (Article 6(1)), and the directive's exclusion for research concerns medicinal products intended for research and development trials (Article 3(3)).",
+   "claimIds": [
+    "j-eu-39",
+    "j-eu-42",
+    "j-eu-43"
+   ],
+   "supported": true,
+   "unsupported": [],
+   "rewrite": "In the EU, a product presented as treating or preventing disease, or used to restore, correct or modify physiological functions by a pharmacological, immunological or metabolic action, is a medicine, and where a product could be both a medicine and another regulated product, medicines law applies (Directive 2001/83/EC, Articles 1(2) and 2(2)). No medicine may be placed on a member state's market without a national or EU-wide marketing authorisation (Article 6(1)), and the directive's exclusion for research concerns medicinal products intended for research and development trials (Article 3(3)).",
+   "usage": {
+    "promptTokenCount": 2029,
+    "candidatesTokenCount": 154,
+    "totalTokenCount": 2686,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 2029
+     }
+    ],
+    "thoughtsTokenCount": 503,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m04",
+   "block": "m4-p17",
+   "code": "PT",
+   "text": "In Portugal, a 'research use only' label does not take a product presented as treating or preventing disease, or used to restore, correct or modify physiological functions by a pharmacological, immunological or metabolic action, outside medicines law, and making, selling, supplying or administering a medicine without the required authorisation is an administrative offence (Estatuto do Medicamento, Arts 3 and 181). No medicine containing GHK-Cu, BPC-157 or TB-500 is listed in INFARMED's Infomed register, which includes authorised, lapsed and revoked products (searched 25 September 2026), and INFARMED does not authorise the import of medicines for personal use (Circular 148/CD, 29 July 2011).",
+   "claimIds": [
+    "j-pt-22",
+    "j-pt-23",
+    "j-pt-25",
+    "j-pt-44",
+    "j-pt-46",
+    "j-pt-49"
+   ],
+   "supported": false,
+   "unsupported": [
+    {
+     "clause": "a 'research use only' label does not take a product presented as treating or preventing disease, or used to restore, correct or modify physiological functions by a pharmacological, immunological or metabolic action, outside medicines law",
+     "reason": "The quote from Estatuto do Medicamento (Art 3) defines 'medicine', but does not mention 'research use only' labels or their legal effect (this phrasing comes only from the non-evidentiary research statement)."
+    }
+   ],
+   "rewrite": "In Portugal, a medicine is defined as any substance or combination of substances presented as having properties for treating or preventing disease or used in or administered to human beings to restore, correct or modify physiological functions by exerting a pharmacological, immunological or metabolic action, and making, selling, supplying or administering a medicine without the required authorisation is an administrative offence (Estatuto do Medicamento, Arts 3 and 181). No medicine containing GHK-Cu, BPC-157 or TB-500 is listed in INFARMED's Infomed register, which includes authorised, lapsed and revoked products (searched 25 September 2026), and INFARMED does not authorise the import of medicines for personal use (Circular 148/CD, 29 July 2011).",
+   "usage": {
+    "promptTokenCount": 4004,
+    "candidatesTokenCount": 301,
+    "totalTokenCount": 5712,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 4004
+     }
+    ],
+    "thoughtsTokenCount": 1407,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m04",
+   "block": "m4-p17",
+   "code": "BR",
+   "text": "In Brazil, ANVISA stated on 2 July 2026 that BPC-157, TB-500 and injectable GHK-Cu products are not registered, and that injectable peptides not regularised in any category (food, medicine, cosmetic or supplement) are illegal for any health use, including aesthetic use. ANVISA also states that an investigational medicine may be used only in authorised clinical research and is not authorised for commercial use (July 2026).",
+   "claimIds": [
+    "j-br-18",
+    "j-br-19",
+    "j-br-21",
+    "j-br-35",
+    "j-br-36"
+   ],
+   "supported": false,
+   "unsupported": [
+    {
+     "clause": "injectable GHK-Cu products",
+     "reason": "Quotes j-br-19 and j-br-21 refer to 'products presented as peptides called GHK-CU', not specifically 'injectable GHK-Cu products'."
+    },
+    {
+     "clause": "injectable peptides not regularised in any category",
+     "reason": "Quote j-br-35 specifies that 'some injectable peptides' are not regularised in any category and are illegal for any health use, rather than making a general statement about injectable peptides."
+    },
+    {
+     "clause": "and is not authorised for commercial use",
+     "reason": "Quote j-br-36 states only that an investigational medicine is used exclusively in authorised clinical research; the explicit statement that it is not authorised for commercial use is absent from the quote."
+    }
+   ],
+   "rewrite": "In Brazil, ANVISA stated on 2 July 2026 that products presented as peptides called BPC-157, TB-500 and GHK-Cu are not registered, and that some injectable peptides not regularised in any category (food, medicine, cosmetic or food supplement) are illegal for any health use, including aesthetic use. ANVISA also stated in July 2026 that an investigational medicine is used exclusively in authorised clinical research.",
+   "usage": {
+    "promptTokenCount": 1624,
+    "candidatesTokenCount": 321,
+    "totalTokenCount": 3174,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1624
+     }
+    ],
+    "thoughtsTokenCount": 1229,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m04",
+   "block": "m4-p17",
+   "code": "AE",
+   "text": "In the UAE, the medicines law (Federal Decree-Law 38 of 2024) has, since 2 January 2025, barred importing, distributing, possessing, selling, using or manufacturing any medical product for circulation without a marketing approval from the Emirates Drug Establishment (EDE), and no registered medical product matching GHK-Cu, BPC-157 or TB-500 was found in the EDE register (25 September 2026). In Dubai, the DHA's rules for health facilities prohibit using any peptide product intended for research use on humans, or for therapeutic purposes, outside a study or clinical trial approved by the competent authority, and bar buying, accepting or using peptide products from websites, social media, individual accounts or unlicensed or unverifiable suppliers (29 July 2026). In Abu Dhabi, the DoH requires compounded peptide formulations to use only certified active ingredients imported under EDE oversight, with peptide products traceable from source to patient (31 July 2026).",
+   "claimIds": [
+    "j-ae-12",
+    "j-ae-13",
+    "j-ae-18",
+    "j-ae-36",
+    "j-ae-46",
+    "j-ae-47",
+    "j-ae-51"
+   ],
+   "supported": true,
+   "unsupported": [],
+   "rewrite": "In the UAE, the medicines law (Federal Decree-Law 38 of 2024) has, since 2 January 2025, barred importing, distributing, possessing, selling, using or manufacturing any medical product for circulation without a marketing approval from the Emirates Drug Establishment (EDE), and no registered medical product matching GHK-Cu, BPC-157 or TB-500 was found in the EDE register (25 September 2026). In Dubai, the DHA's rules for health facilities prohibit using any peptide product intended for research use on humans, or for therapeutic purposes, outside a study or clinical trial approved by the competent authority, and bar buying, accepting or using peptide products from websites, social media, individual accounts or unlicensed or unverifiable suppliers (29 July 2026). In Abu Dhabi, the DoH requires compounded peptide formulations to use only certified active ingredients imported under EDE oversight, with peptide products traceable from source to patient (31 July 2026).",
+   "usage": {
+    "promptTokenCount": 3730,
+    "candidatesTokenCount": 240,
+    "totalTokenCount": 4880,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 3730
+     }
+    ],
+    "thoughtsTokenCount": 910,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m05",
+   "block": "m5-p03",
+   "code": "EU",
+   "text": "In the EU, baricitinib (Olumiant) has been centrally authorised since 13 February 2017; its indications include severe alopecia areata in adults and adolescents aged 12 and over, and it is prescription-only, started by a doctor experienced in the condition (EMA). Since EMA's January 2023 review, JAK inhibitors including Olumiant should be used in people aged 65 or over, at raised cardiovascular or cancer risk, or long-term smokers only if no suitable alternative exists, and this applies to alopecia areata.",
+   "claimIds": [
+    "j-eu-09",
+    "j-eu-10"
+   ],
+   "supported": true,
+   "unsupported": [],
+   "rewrite": "In the EU, baricitinib (Olumiant) has been centrally authorised since 13 February 2017; its indications include severe alopecia areata in adults and adolescents aged 12 and over, and it is prescription-only, started by a doctor experienced in the condition (EMA). Since EMA's January 2023 review, JAK inhibitors including Olumiant should be used in people aged 65 or over, at raised cardiovascular or cancer risk, or long-term smokers only if no suitable alternative exists, and this applies to alopecia areata.",
+   "usage": {
+    "promptTokenCount": 1153,
+    "candidatesTokenCount": 143,
+    "totalTokenCount": 1819,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1153
+     }
+    ],
+    "thoughtsTokenCount": 523,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m05",
+   "block": "m5-p03",
+   "code": "PT",
+   "text": "In Portugal, Olumiant (baricitinib) is classified as a restricted-prescription medicine for exclusive hospital use (MSRM restrita, alínea a), according to INFARMED's Infomed register on 25 September 2026.",
+   "claimIds": [
+    "j-pt-08"
+   ],
+   "supported": false,
+   "unsupported": [
+    {
+     "clause": "for exclusive hospital use",
+     "reason": "The quote gives the dispensing classification as 'MSRM restrita - Alínea a)' ('restricted prescription – point a)') without stating the phrase or definition 'exclusive hospital use'."
+    }
+   ],
+   "rewrite": "In Portugal, Olumiant (baricitinib) is classified as a restricted-prescription medicine (MSRM restrita - Alínea a), according to INFARMED's Infomed register on 25 September 2026.",
+   "usage": {
+    "promptTokenCount": 1452,
+    "candidatesTokenCount": 138,
+    "totalTokenCount": 2692,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1452
+     }
+    ],
+    "thoughtsTokenCount": 1102,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m05",
+   "block": "m5-p03",
+   "code": "BR",
+   "text": "In Brazil, baricitinib (Olumiant) has been registered by ANVISA since 26 November 2018, and its current label includes severe alopecia areata in adults and adolescents aged 12 or over weighing at least 30 kg (checked 25 September 2026).",
+   "claimIds": [
+    "j-br-08"
+   ],
+   "supported": true,
+   "unsupported": [],
+   "rewrite": "In Brazil, baricitinib (Olumiant) has been registered by ANVISA since 26 November 2018, and its current label includes severe alopecia areata in adults and adolescents aged 12 or over weighing at least 30 kg (checked 25 September 2026).",
+   "usage": {
+    "promptTokenCount": 765,
+    "candidatesTokenCount": 89,
+    "totalTokenCount": 1302,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 765
+     }
+    ],
+    "thoughtsTokenCount": 448,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m05",
+   "block": "m5-p03",
+   "code": "AE",
+   "text": "In the UAE, the Emirates Drug Establishment (EDE) has held medicines registration since Federal Decree-Law 28/2023, and the medicines law is Federal Decree-Law 38 of 2024. The EDE register lists Olumiant (baricitinib) tablets, registered since 8 June 2017, as Prescription Only and files them under rheumatic diseases; it does not show whether alopecia areata is an approved UAE indication (25 September 2026).",
+   "claimIds": [
+    "j-ae-34",
+    "j-ae-36",
+    "j-ae-20"
+   ],
+   "supported": true,
+   "unsupported": [],
+   "rewrite": "In the UAE, the Emirates Drug Establishment (EDE) has held medicines registration since Federal Decree-Law 28/2023, and the medicines law is Federal Decree-Law 38 of 2024. The EDE register lists Olumiant (baricitinib) tablets, registered since 8 June 2017, as Prescription Only and files them under rheumatic diseases; it does not show whether alopecia areata is an approved UAE indication (25 September 2026).",
+   "usage": {
+    "promptTokenCount": 1344,
+    "candidatesTokenCount": 130,
+    "totalTokenCount": 2339,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1344
+     }
+    ],
+    "thoughtsTokenCount": 865,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m05",
+   "block": "m5-p05",
+   "code": "EU",
+   "text": "In the EU, topical minoxidil is authorised nationally, finasteride tablets and a finasteride skin spray are authorised in various member states for early androgenetic alopecia in men aged 18 to 41 (EMA, 2025), and baricitinib (Olumiant) is centrally authorised and prescription-only, with severe alopecia areata in adults and adolescents aged 12 and over among its indications. After an EU-wide review endorsed on 19 June 2025, suicidal ideation is a confirmed side effect of finasteride tablets, and packs of the hair-loss tablets carry a patient card.",
+   "claimIds": [
+    "j-eu-09",
+    "j-eu-11",
+    "j-eu-13",
+    "j-eu-14"
+   ],
+   "supported": true,
+   "unsupported": [],
+   "rewrite": "In the EU, topical minoxidil is authorised nationally, finasteride tablets and a finasteride skin spray are authorised in various member states for early androgenetic alopecia in men aged 18 to 41 (EMA, 2025), and baricitinib (Olumiant) is centrally authorised and prescription-only, with severe alopecia areata in adults and adolescents aged 12 and over among its indications. After an EU-wide review endorsed on 19 June 2025, suicidal ideation is a confirmed side effect of finasteride tablets, and packs of the hair-loss tablets carry a patient card.",
+   "usage": {
+    "promptTokenCount": 2447,
+    "candidatesTokenCount": 157,
+    "totalTokenCount": 3454,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 2447
+     }
+    ],
+    "thoughtsTokenCount": 850,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m05",
+   "block": "m5-p05",
+   "code": "PT",
+   "text": "In Portugal, topical minoxidil is a non-prescription medicine (MNSRM), and the label of Minox 5 solution covers alopecia areata as well as androgenetic alopecia in men and women. Finasteride for hair loss (Propecia) is prescription-only (MSRM), and baricitinib (Olumiant) is a restricted-prescription medicine for exclusive hospital use (INFARMED's Infomed register, 25 September 2026).",
+   "claimIds": [
+    "j-pt-08",
+    "j-pt-10",
+    "j-pt-11",
+    "j-pt-13"
+   ],
+   "supported": false,
+   "unsupported": [
+    {
+     "clause": "for exclusive hospital use",
+     "reason": "Quote [j-pt-08] classifies Olumiant as 'MSRM restrita - Alínea a)' ('restricted prescription – point a)'), but does not contain text or statutory definitions stating that point (a) means exclusive hospital use."
+    }
+   ],
+   "rewrite": "In Portugal, topical minoxidil is a non-prescription medicine (MNSRM), and the label of Minox 5 solution covers alopecia areata as well as androgenetic alopecia in men and women. Finasteride for hair loss (Propecia) is prescription-only (MSRM), and baricitinib (Olumiant) is a restricted-prescription medicine (MSRM restrita – point a) (INFARMED's Infomed register, 25 September 2026).",
+   "usage": {
+    "promptTokenCount": 3399,
+    "candidatesTokenCount": 208,
+    "totalTokenCount": 5570,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 3399
+     }
+    ],
+    "thoughtsTokenCount": 1963,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m05",
+   "block": "m5-p05",
+   "code": "BR",
+   "text": "In Brazil, every active minoxidil registration sits in ANVISA's anti-alopecia class (for example Aloxidil, for androgenetic alopecia in adult men), and finasteride products such as Pro Hair are registered for male-pattern hair loss in men and are not indicated for women or children. Baricitinib (Olumiant) is registered with severe alopecia areata on its label (ANVISA, 25 September 2026).",
+   "claimIds": [
+    "j-br-08",
+    "j-br-09",
+    "j-br-10"
+   ],
+   "supported": false,
+   "unsupported": [
+    {
+     "clause": "every active minoxidil registration sits in ANVISA's anti-alopecia class",
+     "reason": "This claim appears only in the non-evidentiary research statement. The provided quote (j-br-09) only gives the indication for Aloxidil 5%."
+    },
+    {
+     "clause": "and are not indicated for women or children",
+     "reason": "Quote j-br-10 states the approved indication for Pro Hair in men with male-pattern baldness, but contains no quote or source metadata stating that it is not indicated for women or children (this appears only in the research statement)."
+    }
+   ],
+   "rewrite": "In Brazil, minoxidil products such as Aloxidil are indicated for androgenetic alopecia in adult men, and finasteride products such as Pro Hair are indicated for the treatment of men with male-pattern baldness (androgenetic alopecia). Baricitinib (Olumiant) is indicated for adult and adolescent patients aged 12 years or older and weighing at least 30 kg with severe alopecia areata (ANVISA, 25 September 2026).",
+   "usage": {
+    "promptTokenCount": 1600,
+    "candidatesTokenCount": 275,
+    "totalTokenCount": 2904,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1600
+     }
+    ],
+    "thoughtsTokenCount": 1029,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m05",
+   "block": "m5-p05",
+   "code": "AE",
+   "text": "In the UAE, the Emirates Drug Establishment (EDE) has held medicines registration since Federal Decree-Law 28/2023, and the medicines law is Federal Decree-Law 38 of 2024. The EDE register lists topical minoxidil (for example Regaine solution, a Pharmacist Only Medicine), oral finasteride (Propecia, Prescription Only), a topical finasteride spray registered in March 2025 (Fincrezo, Prescription Only) and Olumiant (baricitinib, Prescription Only), without showing whether alopecia areata is an approved UAE indication (25 September 2026).",
+   "claimIds": [
+    "j-ae-34",
+    "j-ae-36",
+    "j-ae-20",
+    "j-ae-21",
+    "j-ae-23",
+    "j-ae-24"
+   ],
+   "supported": true,
+   "unsupported": [],
+   "rewrite": "In the UAE, the Emirates Drug Establishment (EDE) has held medicines registration since Federal Decree-Law 28/2023, and the medicines law is Federal Decree-Law 38 of 2024. The EDE register lists topical minoxidil (for example Regaine solution, a Pharmacist Only Medicine), oral finasteride (Propecia, Prescription Only), a topical finasteride spray registered in March 2025 (Fincrezo, Prescription Only) and Olumiant (baricitinib, Prescription Only), without showing whether alopecia areata is an approved UAE indication (25 September 2026).",
+   "usage": {
+    "promptTokenCount": 3064,
+    "candidatesTokenCount": 160,
+    "totalTokenCount": 3914,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 3064
+     }
+    ],
+    "thoughtsTokenCount": 690,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m05",
+   "block": "m5-p08",
+   "code": "EU",
+   "text": "In the EU, afamelanotide (Scenesse implant) is authorised only for erythropoietic protoporphyria, under exceptional circumstances (European Commission, 22 December 2014), and is prescribed only by specialists in recognised EPP centres.",
+   "claimIds": [
+    "j-eu-07"
+   ],
+   "supported": false,
+   "unsupported": [
+    {
+     "clause": "authorised only for erythropoietic protoporphyria",
+     "reason": "The quotes state that Scenesse is an implant used to treat patients with erythropoietic protoporphyria and was authorised under exceptional circumstances, but do not include the restrictive word 'only' for its indication."
+    }
+   ],
+   "rewrite": "In the EU, afamelanotide (Scenesse implant) is authorised for erythropoietic protoporphyria, under exceptional circumstances (European Commission, 22 December 2014), and is prescribed only by specialists in recognised EPP centres.",
+   "usage": {
+    "promptTokenCount": 955,
+    "candidatesTokenCount": 152,
+    "totalTokenCount": 1823,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 955
+     }
+    ],
+    "thoughtsTokenCount": 716,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m05",
+   "block": "m5-p08",
+   "code": "PT",
+   "text": "In Portugal, Scenesse is authorised through the EU procedure but classified as a restricted-prescription medicine for exclusive hospital use (MSRM restrita, alínea a), and no presentation is marketed in Portugal (INFARMED's Infomed register, 25 September 2026).",
+   "claimIds": [
+    "j-pt-05"
+   ],
+   "supported": true,
+   "unsupported": [],
+   "rewrite": "In Portugal, Scenesse is authorised through the EU procedure but classified as a restricted-prescription medicine for exclusive hospital use (MSRM restrita, alínea a), and no presentation is marketed in Portugal (INFARMED's Infomed register, 25 September 2026).",
+   "usage": {
+    "promptTokenCount": 1468,
+    "candidatesTokenCount": 86,
+    "totalTokenCount": 2244,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1468
+     }
+    ],
+    "thoughtsTokenCount": 690,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m05",
+   "block": "m5-p08",
+   "code": "BR",
+   "text": "In Brazil, no registered medicine containing afamelanotide (Scenesse) was found: ANVISA's open-data register and its online medicines search returned no match on 25 September 2026, and the substance is absent from ANVISA's substance dictionary.",
+   "claimIds": [
+    "j-br-06"
+   ],
+   "supported": true,
+   "unsupported": [],
+   "rewrite": "In Brazil, no registered medicine containing afamelanotide (Scenesse) was found: ANVISA's open-data register and its online medicines search returned no match on 25 September 2026, and the substance is absent from ANVISA's substance dictionary.",
+   "usage": {
+    "promptTokenCount": 939,
+    "candidatesTokenCount": 82,
+    "totalTokenCount": 1614,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 939
+     }
+    ],
+    "thoughtsTokenCount": 593,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m05",
+   "block": "m5-p08",
+   "code": "AE",
+   "text": "In the UAE, the Emirates Drug Establishment (EDE) has held medicines registration since Federal Decree-Law 28/2023, and the medicines law is Federal Decree-Law 38 of 2024. An ingredient and product-name search of the EDE register found no registered product containing afamelanotide, and none named Scenesse (25 September 2026).",
+   "claimIds": [
+    "j-ae-34",
+    "j-ae-36",
+    "j-ae-06"
+   ],
+   "supported": true,
+   "unsupported": [],
+   "rewrite": "In the UAE, the Emirates Drug Establishment (EDE) has held medicines registration since Federal Decree-Law 28/2023, and the medicines law is Federal Decree-Law 38 of 2024. An ingredient and product-name search of the EDE register found no registered product containing afamelanotide, and none named Scenesse (25 September 2026).",
+   "usage": {
+    "promptTokenCount": 1671,
+    "candidatesTokenCount": 109,
+    "totalTokenCount": 2122,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1671
+     }
+    ],
+    "thoughtsTokenCount": 342,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m05",
+   "block": "m5-p12",
+   "code": "EU",
+   "text": "In the EU, no centrally authorised medicine containing melanotan (Melanotan II) was found in the Union Register or in EMA's data on authorised, refused and withdrawn medicines (searched 25 September 2026).",
+   "claimIds": [
+    "j-eu-08"
+   ],
+   "supported": true,
+   "unsupported": [],
+   "rewrite": "In the EU, no centrally authorised medicine containing melanotan (Melanotan II) was found in the Union Register or in EMA's data on authorised, refused and withdrawn medicines (searched 25 September 2026).",
+   "usage": {
+    "promptTokenCount": 1115,
+    "candidatesTokenCount": 72,
+    "totalTokenCount": 1767,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1115
+     }
+    ],
+    "thoughtsTokenCount": 580,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m05",
+   "block": "m5-p12",
+   "code": "PT",
+   "text": "In Portugal, no medicine containing melanotan is listed in INFARMED's Infomed register: a substance search for 'melanot' returns only afamelanotide (Scenesse) and setmelanotide (Imcivree), and a product-name search for 'Melanotan' returns nothing (25 September 2026).",
+   "claimIds": [
+    "j-pt-07"
+   ],
+   "supported": true,
+   "unsupported": [],
+   "rewrite": "In Portugal, no medicine containing melanotan is listed in INFARMED's Infomed register: a substance search for 'melanot' returns only afamelanotide (Scenesse) and setmelanotide (Imcivree), and a product-name search for 'Melanotan' returns nothing (25 September 2026).",
+   "usage": {
+    "promptTokenCount": 1100,
+    "candidatesTokenCount": 97,
+    "totalTokenCount": 1630,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1100
+     }
+    ],
+    "thoughtsTokenCount": 433,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m05",
+   "block": "m5-p12",
+   "code": "BR",
+   "text": "In Brazil, no registered medicine containing melanotan was found in ANVISA's register (25 September 2026), and no ANVISA resolution naming melanotan was found in the Diário Oficial, so the general rules for unregistered medicines apply rather than a specific ban. Under Law 6.360/1976, no medicine, including an imported one, may be manufactured, sold or supplied before it is registered.",
+   "claimIds": [
+    "j-br-07",
+    "j-br-34"
+   ],
+   "supported": false,
+   "unsupported": [
+    {
+     "clause": "and no ANVISA resolution naming melanotan was found in the Diário Oficial, so the general rules for unregistered medicines apply rather than a specific ban",
+     "reason": "No quote or source metadata records a search of the Diário Oficial for ANVISA resolutions naming melanotan (the Diário Oficial search appears only in the research statement, which is not evidence), and the concluding clause is an unsupported inference."
+    }
+   ],
+   "rewrite": "In Brazil, no registered medicine containing melanotan was found in ANVISA's register (25 September 2026). Under Law 6.360/1976, no product covered by the law, including an imported one, may be manufactured, offered for sale or supplied for consumption before being registered with the Ministry of Health.",
+   "usage": {
+    "promptTokenCount": 1186,
+    "candidatesTokenCount": 195,
+    "totalTokenCount": 2158,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1186
+     }
+    ],
+    "thoughtsTokenCount": 777,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m05",
+   "block": "m5-p12",
+   "code": "AE",
+   "text": "In the UAE, the Emirates Drug Establishment (EDE) has held medicines registration since Federal Decree-Law 28/2023, and the medicines law is Federal Decree-Law 38 of 2024; no melanotan product was found in the EDE register (25 September 2026). In Abu Dhabi, the Department of Health (Circular 112/2025, 2 July 2025), relaying an EDE warning on Melanotan II ('Barbie drug'), requires facilities to prohibit its importation, distribution, marketing or use. In Dubai, the Dubai Health Authority (DHA) sent the Ministry of Health and Prevention's Circular 06 of 2025 on the serious safety concerns of Melanotan II to all private health facilities for adherence (25 June 2025).",
+   "claimIds": [
+    "j-ae-34",
+    "j-ae-36",
+    "j-ae-19",
+    "j-ae-92"
+   ],
+   "supported": false,
+   "unsupported": [
+    {
+     "clause": "to all private health facilities",
+     "reason": "Quote [j-ae-92] states DHA notifies 'all health facilities' regarding the circulars; the word 'private' is not in the quote or source metadata."
+    }
+   ],
+   "rewrite": "In the UAE, the Emirates Drug Establishment (EDE) has held medicines registration since Federal Decree-Law 28/2023, and the medicines law is Federal Decree-Law 38 of 2024; no melanotan product was found in the EDE register (25 September 2026). In Abu Dhabi, the Department of Health (Circular 112/2025, 2 July 2025), relaying an EDE warning on Melanotan II ('Barbie drug'), requires facilities to prohibit its importation, distribution, marketing or use. In Dubai, the Dubai Health Authority (DHA) sent the Ministry of Health and Prevention's Circular 06 of 2025 on the serious safety concerns of Melanotan II to all health facilities for adherence (25 June 2025).",
+   "usage": {
+    "promptTokenCount": 2227,
+    "candidatesTokenCount": 267,
+    "totalTokenCount": 3784,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 2227
+     }
+    ],
+    "thoughtsTokenCount": 1290,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m05",
+   "block": "m5-p17",
+   "code": "EU",
+   "text": "In the EU, a medicine prepared in a pharmacy for an individual patient on prescription (a magistral formula) falls outside Directive 2001/83/EC and needs no marketing authorisation under it (Article 3). A search of the Union Register and EMA's medicines data found no centrally authorised medicine containing thymulin or PTD-DBM (25 September 2026).",
+   "claimIds": [
+    "j-eu-37",
+    "j-eu-28",
+    "j-eu-29"
+   ],
+   "supported": false,
+   "unsupported": [
+    {
+     "clause": "needs no marketing authorisation under it",
+     "reason": "The quote for Article 3 of Directive 2001/83/EC states only that the Directive shall not apply to a magistral formula; it does not mention marketing authorisations."
+    }
+   ],
+   "rewrite": "In the EU, a medicine prepared in a pharmacy for an individual patient on prescription (a magistral formula) falls outside Directive 2001/83/EC (Article 3). A search of the Union Register and EMA's medicines data found no centrally authorised medicine containing thymulin or PTD-DBM (25 September 2026).",
+   "usage": {
+    "promptTokenCount": 2459,
+    "candidatesTokenCount": 167,
+    "totalTokenCount": 4889,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 2459
+     }
+    ],
+    "thoughtsTokenCount": 2263,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m05",
+   "block": "m5-p17",
+   "code": "PT",
+   "text": "In Portugal, a magistral formula may use only raw materials listed in the Portuguese or European pharmacopoeia, another European pharmacopoeia or compendial scientific documentation, and the prescribing physician must satisfy themselves of its safety and efficacy (Decreto-Lei 95/2004). INFARMED's Infomed register lists no medicine containing thymulin or PTD-DBM (25 September 2026).",
+   "claimIds": [
+    "j-pt-36",
+    "j-pt-35",
+    "j-pt-27",
+    "j-pt-28"
+   ],
+   "supported": true,
+   "unsupported": [],
+   "rewrite": "In Portugal, a magistral formula may use only raw materials listed in the Portuguese or European pharmacopoeia, another European pharmacopoeia or compendial scientific documentation, and the prescribing physician must satisfy themselves of its safety and efficacy (Decreto-Lei 95/2004). INFARMED's Infomed register lists no medicine containing thymulin or PTD-DBM (25 September 2026).",
+   "usage": {
+    "promptTokenCount": 2644,
+    "candidatesTokenCount": 113,
+    "totalTokenCount": 3557,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 2644
+     }
+    ],
+    "thoughtsTokenCount": 800,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m05",
+   "block": "m5-p17",
+   "code": "BR",
+   "text": "In Brazil, ANVISA stated on 2 July 2026 that a substance must have passed efficacy and safety assessment before it can be compounded, and that compounding may only be individual, on prescription, by a pharmacy licensed by local health surveillance. A search of ANVISA's register found no registered medicine containing PTD-DBM or thymulin (25 September 2026), though thymus-derived immunomodulators with other actives, such as thymomodulin, are registered.",
+   "claimIds": [
+    "j-br-29",
+    "j-br-24",
+    "j-br-23"
+   ],
+   "supported": false,
+   "unsupported": [
+    {
+     "clause": "though thymus-derived immunomodulators with other actives, such as thymomodulin, are registered",
+     "reason": "The quote shows that thymomodulin is registered in the class 'IMUNOMODULADOR', but does not state that it is 'thymus-derived' (which appears only in the research statement)."
+    }
+   ],
+   "rewrite": "In Brazil, ANVISA stated on 2 July 2026 that a substance must have passed efficacy and safety assessment before it can be compounded, and that compounding may only be individual, on prescription, by a pharmacy licensed by local health surveillance. A search of ANVISA's register found no registered medicine containing PTD-DBM or thymulin (25 September 2026), though immunomodulators such as thymomodulin are registered.",
+   "usage": {
+    "promptTokenCount": 1464,
+    "candidatesTokenCount": 200,
+    "totalTokenCount": 3005,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1464
+     }
+    ],
+    "thoughtsTokenCount": 1341,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m05",
+   "block": "m5-p17",
+   "code": "AE",
+   "text": "In the UAE, the Emirates Drug Establishment (EDE) has held medicines registration since Federal Decree-Law 28/2023; under the medicines law, Federal Decree-Law 38 of 2024, products compounded in licensed compounding pharmacies need no marketing approval, and no product containing thymulin or PTD-DBM was found in the EDE register (25 September 2026). In Dubai, the Dubai Health Authority (DHA) prohibits circulating, prescribing, dispensing or using any peptide product that is not registered or licensed with the EDE (29 July 2026). In Abu Dhabi, the Department of Health (DoH) lets compounded peptide formulations use only certified active ingredients imported under EDE oversight (31 July 2026), and its August 2026 compounding standard treats peptides as emerging, high-risk substances that may be compounded only if monographed, part of an approved medicine or listed on the DoH's register of compounded substances.",
+   "claimIds": [
+    "j-ae-34",
+    "j-ae-36",
+    "j-ae-40",
+    "j-ae-16",
+    "j-ae-17",
+    "j-ae-39",
+    "j-ae-46",
+    "j-ae-44"
+   ],
+   "supported": true,
+   "unsupported": [],
+   "rewrite": "In the UAE, the Emirates Drug Establishment (EDE) has held medicines registration since Federal Decree-Law 28/2023; under the medicines law, Federal Decree-Law 38 of 2024, products compounded in licensed compounding pharmacies need no marketing approval, and no product containing thymulin or PTD-DBM was found in the EDE register (25 September 2026). In Dubai, the Dubai Health Authority (DHA) prohibits circulating, prescribing, dispensing or using any peptide product that is not registered or licensed with the EDE (29 July 2026). In Abu Dhabi, the Department of Health (DoH) lets compounded peptide formulations use only certified active ingredients imported under EDE oversight (31 July 2026), and its August 2026 compounding standard treats peptides as emerging, high-risk substances that may be compounded only if monographed, part of an approved medicine or listed on the DoH's register of compounded substances.",
+   "usage": {
+    "promptTokenCount": 3711,
+    "candidatesTokenCount": 236,
+    "totalTokenCount": 5800,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 3711
+     }
+    ],
+    "thoughtsTokenCount": 1853,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m06",
+   "block": "m6-p05",
+   "code": "EU",
+   "text": "In the EU, somatropin medicines have been authorised since the 1980s, through central and national procedures, for growth hormone replacement and for short stature in specific childhood conditions (EMA, 2012). The centrally authorised Omnitrope (since 12 April 2006) is prescription-only, and treatment is started and monitored by a doctor experienced in growth disorders.",
+   "claimIds": [
+    "j-eu-15",
+    "j-eu-16"
+   ],
+   "supported": true,
+   "unsupported": [],
+   "rewrite": "In the EU, somatropin medicines have been authorised since the 1980s, through central and national procedures, for growth hormone replacement and for short stature in specific childhood conditions (EMA, 2012). The centrally authorised Omnitrope (since 12 April 2006) is prescription-only, and treatment is started and monitored by a doctor experienced in growth disorders.",
+   "usage": {
+    "promptTokenCount": 963,
+    "candidatesTokenCount": 108,
+    "totalTokenCount": 1577,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 963
+     }
+    ],
+    "thoughtsTokenCount": 506,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m06",
+   "block": "m6-p05",
+   "code": "PT",
+   "text": "In Portugal, somatropin medicines are authorised as restricted-prescription medicines, reserved for conditions diagnosed only in hospital or specialised settings, and INFARMED's register gives them no narcotic classification (25 September 2026). Growth hormone is distributed free of charge through hospitals with endocrinology or paediatric services, and a national commission (CNNHC) sets the conditions for its administration.",
+   "claimIds": [
+    "j-pt-15",
+    "j-pt-68",
+    "j-pt-69"
+   ],
+   "supported": true,
+   "unsupported": [],
+   "rewrite": "In Portugal, somatropin medicines are authorised as restricted-prescription medicines, reserved for conditions diagnosed only in hospital or specialised settings, and INFARMED's register gives them no narcotic classification (25 September 2026). Growth hormone is distributed free of charge through hospitals with endocrinology or paediatric services, and a national commission (CNNHC) sets the conditions for its administration.",
+   "usage": {
+    "promptTokenCount": 2908,
+    "candidatesTokenCount": 104,
+    "totalTokenCount": 3610,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 2908
+     }
+    ],
+    "thoughtsTokenCount": 598,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m06",
+   "block": "m6-p05",
+   "code": "BR",
+   "text": "In Brazil, somatropin is registered for growth disorders in children and for replacement therapy in adults with severe growth hormone deficiency, and it is a controlled substance on List C5 (anabolic substances) that needs a special-control prescription in two copies (RDC 1.036/2026). The Federal Council of Medicine's Resolution 1.999/2012, in force in September 2026, bars physicians from using hormones, including growth hormone, to prevent, delay, modulate or reverse ageing, except to replace a diagnosed deficiency with proven benefit.",
+   "claimIds": [
+    "j-br-11",
+    "j-br-12",
+    "j-br-54"
+   ],
+   "supported": false,
+   "unsupported": [
+    {
+     "clause": "for growth disorders in children and",
+     "reason": "The quote (j-br-11) only mentions replacement therapy in adults with marked growth hormone deficiency; paediatric growth disorders are not mentioned in any quote."
+    },
+    {
+     "clause": "to prevent, delay, modulate or reverse ageing,",
+     "reason": "Quote j-br-54 does not include the anti-ageing phrasing (prevent, delay, modulate, or reverse ageing)."
+    }
+   ],
+   "rewrite": "In Brazil, somatropin is registered for replacement therapy in adults with marked growth hormone deficiency, and it is a controlled substance on List C5 (anabolic substances) that needs a special-control prescription in two copies (RDC 1.036/2026). The Federal Council of Medicine's Resolution 1.999/2012, in force in September 2026, bars the use of hormones, including growth hormone, except in diagnosed deficiencies where replacement shows evidence of scientifically proven benefit.",
+   "usage": {
+    "promptTokenCount": 1488,
+    "candidatesTokenCount": 252,
+    "totalTokenCount": 2645,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1488
+     }
+    ],
+    "thoughtsTokenCount": 905,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m06",
+   "block": "m6-p05",
+   "code": "AE",
+   "text": "In the UAE, the Emirates Drug Establishment (EDE) has held medicines registration since Federal Decree-Law 28/2023; the medicines law is Federal Decree-Law 38 of 2024, which prohibits advertising semi-controlled products to the public. Somatropin is registered with the EDE and is on the federal list of semi-controlled medical products (MOHAP Ministerial Decision 306/2023), and every somatropin entry in the EDE register is dispensed as a semi-controlled drug (25 September 2026).",
+   "claimIds": [
+    "j-ae-25",
+    "j-ae-26",
+    "j-ae-34",
+    "j-ae-36",
+    "j-ae-63"
+   ],
+   "supported": true,
+   "unsupported": [],
+   "rewrite": "In the UAE, the Emirates Drug Establishment (EDE) has held medicines registration since Federal Decree-Law 28/2023; the medicines law is Federal Decree-Law 38 of 2024, which prohibits advertising semi-controlled products to the public. Somatropin is registered with the EDE and is on the federal list of semi-controlled medical products (MOHAP Ministerial Decision 306/2023), and every somatropin entry in the EDE register is dispensed as a semi-controlled drug (25 September 2026).",
+   "usage": {
+    "promptTokenCount": 2766,
+    "candidatesTokenCount": 149,
+    "totalTokenCount": 3814,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 2766
+     }
+    ],
+    "thoughtsTokenCount": 899,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m06",
+   "block": "m6-p08",
+   "code": "EU",
+   "text": "In the EU, tesamorelin has no marketing authorisation: the application for Egrifta (excess abdominal fat in HIV lipodystrophy) was withdrawn on 21 June 2012, when the provisional view of EMA's human-medicines committee (CHMP) was that it could not be approved, partly because raised IGF-1 was a major safety concern.",
+   "claimIds": [
+    "j-eu-17"
+   ],
+   "supported": true,
+   "unsupported": [],
+   "rewrite": "In the EU, tesamorelin has no marketing authorisation: the application for Egrifta (excess abdominal fat in HIV lipodystrophy) was withdrawn on 21 June 2012, when the provisional view of EMA's human-medicines committee (CHMP) was that it could not be approved, partly because raised IGF-1 was a major safety concern.",
+   "usage": {
+    "promptTokenCount": 1108,
+    "candidatesTokenCount": 103,
+    "totalTokenCount": 1844,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1108
+     }
+    ],
+    "thoughtsTokenCount": 633,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m06",
+   "block": "m6-p08",
+   "code": "BR",
+   "text": "In Brazil, no registered medicine containing tesamorelin, including Egrifta, was found in ANVISA's register or online search (25 September 2026).",
+   "claimIds": [
+    "j-br-13"
+   ],
+   "supported": true,
+   "unsupported": [],
+   "rewrite": "In Brazil, no registered medicine containing tesamorelin, including Egrifta, was found in ANVISA's register or online search (25 September 2026).",
+   "usage": {
+    "promptTokenCount": 897,
+    "candidatesTokenCount": 61,
+    "totalTokenCount": 1197,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 897
+     }
+    ],
+    "thoughtsTokenCount": 239,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m06",
+   "block": "m6-p08",
+   "code": "AE",
+   "text": "In the UAE, the Emirates Drug Establishment (EDE) has held medicines registration since Federal Decree-Law 28/2023; the medicines law is Federal Decree-Law 38 of 2024. No registered product containing tesamorelin, and none named Egrifta, was found in the EDE register (25 September 2026). In Dubai, the DHA prohibits prescribing, dispensing or using any peptide product that is not registered or licensed with the EDE (29 July 2026); in Abu Dhabi, physicians may prescribe peptide therapies only for clinical indications supported by available scientific evidence, after a documented eligibility assessment and with informed consent that covers the product's regulatory approval status (DoH, 31 July 2026).",
+   "claimIds": [
+    "j-ae-07",
+    "j-ae-34",
+    "j-ae-36",
+    "j-ae-39",
+    "j-ae-79"
+   ],
+   "supported": true,
+   "unsupported": [],
+   "rewrite": "In the UAE, the Emirates Drug Establishment (EDE) has held medicines registration since Federal Decree-Law 28/2023; the medicines law is Federal Decree-Law 38 of 2024. No registered product containing tesamorelin, and none named Egrifta, was found in the EDE register (25 September 2026). In Dubai, the DHA prohibits prescribing, dispensing or using any peptide product that is not registered or licensed with the EDE (29 July 2026); in Abu Dhabi, physicians may prescribe peptide therapies only for clinical indications supported by available scientific evidence, after a documented eligibility assessment and with informed consent that covers the product's regulatory approval status (DoH, 31 July 2026).",
+   "usage": {
+    "promptTokenCount": 2445,
+    "candidatesTokenCount": 188,
+    "totalTokenCount": 3250,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 2445
+     }
+    ],
+    "thoughtsTokenCount": 617,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m06",
+   "block": "m6-p11",
+   "code": "EU",
+   "text": "In the EU, somatropin has been authorised since the 1980s for growth hormone replacement and short stature in specific childhood conditions, while tesamorelin has no marketing authorisation (its application was withdrawn on 21 June 2012). No centrally authorised medicine containing sermorelin, ipamorelin or CJC-1295 was found in the Union Register or EMA's data (25 September 2026), and ibutamoren (MK-677) is not an authorised medicine: its orphan designation for growth hormone deficiency (20 June 2017) is, as EMA states, not a marketing authorisation.",
+   "claimIds": [
+    "j-eu-15",
+    "j-eu-17",
+    "j-eu-18",
+    "j-eu-19",
+    "j-eu-20",
+    "j-eu-21"
+   ],
+   "supported": true,
+   "unsupported": [],
+   "rewrite": "In the EU, somatropin has been authorised since the 1980s for growth hormone replacement and short stature in specific childhood conditions, while tesamorelin has no marketing authorisation (its application was withdrawn on 21 June 2012). No centrally authorised medicine containing sermorelin, ipamorelin or CJC-1295 was found in the Union Register or EMA's data (25 September 2026), and ibutamoren (MK-677) is not an authorised medicine: its orphan designation for growth hormone deficiency (20 June 2017) is, as EMA states, not a marketing authorisation.",
+   "usage": {
+    "promptTokenCount": 4794,
+    "candidatesTokenCount": 164,
+    "totalTokenCount": 5744,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 4794
+     }
+    ],
+    "thoughtsTokenCount": 786,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m06",
+   "block": "m6-p11",
+   "code": "PT",
+   "text": "In Portugal, no medicine containing tesamorelin, sermorelin, ipamorelin, CJC-1295 or ibutamoren (MK-677) is listed in INFARMED's Infomed register, which includes authorised, lapsed and revoked products (25 September 2026). Compounded medicines may use only raw materials listed in the Portuguese or European pharmacopoeia, another European pharmacopoeia or compendial scientific documentation, and one containing any other raw material may not be prescribed (Decreto-Lei 95/2004, Art 6).",
+   "claimIds": [
+    "j-pt-17",
+    "j-pt-18",
+    "j-pt-19",
+    "j-pt-20",
+    "j-pt-21",
+    "j-pt-36"
+   ],
+   "supported": false,
+   "unsupported": [
+    {
+     "clause": "Art 6",
+     "reason": "The article number (Art 6) is not present in the primary-source quote or source metadata; it appears only in the research statement, which cannot be used as evidence."
+    }
+   ],
+   "rewrite": "In Portugal, no medicine containing tesamorelin, sermorelin, ipamorelin, CJC-1295 or ibutamoren (MK-677) is listed in INFARMED's Infomed register, which includes authorised, lapsed and revoked products (25 September 2026). Compounded medicines may use only raw materials listed in the Portuguese or European pharmacopoeia, another European pharmacopoeia or compendial scientific documentation, and one containing any other raw material may not be prescribed (Decreto-Lei 95/2004).",
+   "usage": {
+    "promptTokenCount": 4575,
+    "candidatesTokenCount": 205,
+    "totalTokenCount": 6508,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 4575
+     }
+    ],
+    "thoughtsTokenCount": 1728,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m06",
+   "block": "m6-p11",
+   "code": "BR",
+   "text": "In Brazil, no registered medicine containing tesamorelin or sermorelin was found in ANVISA's register (25 September 2026), and ANVISA stated on 2 July 2026 that CJC-1295 and ipamorelin products are not registered in any category and that any substance must have passed efficacy and safety assessment before it can be compounded. Ibutamoren is not a registered medicine, and ANVISA refused the clinical-trial petitions for ibutamoren mesylate on 9 June 2026.",
+   "claimIds": [
+    "j-br-13",
+    "j-br-14",
+    "j-br-15",
+    "j-br-16",
+    "j-br-17",
+    "j-br-29"
+   ],
+   "supported": false,
+   "unsupported": [
+    {
+     "clause": "CJC-1295 and ipamorelin products are not registered in any category",
+     "reason": "The quote states that products presented as these peptides are not registered with ANVISA, but does not state 'in any category'."
+    }
+   ],
+   "rewrite": "In Brazil, no registered medicine containing tesamorelin or sermorelin was found in ANVISA's register (25 September 2026), and ANVISA stated on 2 July 2026 that CJC-1295 and ipamorelin products are not registered with ANVISA and that any substance must have passed efficacy and safety assessment before it can be compounded. Ibutamoren is not a registered medicine, and ANVISA refused the clinical-trial petitions for ibutamoren mesylate on 9 June 2026.",
+   "usage": {
+    "promptTokenCount": 3056,
+    "candidatesTokenCount": 205,
+    "totalTokenCount": 4909,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 3056
+     }
+    ],
+    "thoughtsTokenCount": 1648,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m06",
+   "block": "m6-p11",
+   "code": "AE",
+   "text": "In the UAE, the Emirates Drug Establishment (EDE) has held medicines registration since Federal Decree-Law 28/2023; the medicines law is Federal Decree-Law 38 of 2024. Somatropin is registered and dispensed as a semi-controlled drug, while no registered product containing tesamorelin, sermorelin, ipamorelin, CJC-1295 or ibutamoren was found in the EDE register (25 September 2026). In Dubai, the DHA prohibits prescribing, dispensing or using any peptide product that is not registered or licensed with the EDE (29 July 2026); in Abu Dhabi, the DoH's compounding standard treats peptides as emerging, non-monographed, high-risk substances and lets novel substances of unknown risk be compounded only if monographed, part of an approved medicine or listed on the DoH Registry for Compounded Substances (August 2026).",
+   "claimIds": [
+    "j-ae-07",
+    "j-ae-08",
+    "j-ae-09",
+    "j-ae-10",
+    "j-ae-11",
+    "j-ae-25",
+    "j-ae-34",
+    "j-ae-36",
+    "j-ae-39",
+    "j-ae-44"
+   ],
+   "supported": false,
+   "unsupported": [
+    {
+     "clause": "treats peptides as emerging, non-monographed, high-risk substances",
+     "reason": "The descriptor \"emerging\" does not appear in the primary-source quote, which states that substances such as peptides are defined by risk signature (no monograph, marketed ahead of approval, thin evidence, identity or purity risk, or demand-driven uptake) and treated as high-risk and non-default."
+    }
+   ],
+   "rewrite": "In the UAE, the Emirates Drug Establishment (EDE) has held medicines registration since Federal Decree-Law 28/2023; the medicines law is Federal Decree-Law 38 of 2024. Somatropin is registered and dispensed as a semi-controlled drug, while no registered product containing tesamorelin, sermorelin, ipamorelin, CJC-1295 or ibutamoren was found in the EDE register (25 September 2026). In Dubai, the DHA prohibits prescribing, dispensing or using any peptide product that is not registered or licensed with the EDE (29 July 2026); in Abu Dhabi, the DoH's compounding standard treats peptides as non-monographed, high-risk substances and lets novel substances of unknown risk be compounded only if monographed, part of an approved medicine or listed on the DoH Registry for Compounded Substances (August 2026).",
+   "usage": {
+    "promptTokenCount": 5589,
+    "candidatesTokenCount": 324,
+    "totalTokenCount": 9034,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 5589
+     }
+    ],
+    "thoughtsTokenCount": 3121,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m06",
+   "block": "m6-p12",
+   "code": "EU",
+   "text": "In the EU, tesamorelin has no marketing authorisation (its application was withdrawn on 21 June 2012), and no centrally authorised medicine containing sermorelin or ipamorelin was found in the Union Register or EMA's data (25 September 2026). EU law lets each member state, under its own legislation, allow an unauthorised medicine for an individual patient on a bona fide unsolicited order from an authorised health professional, under that professional's direct personal responsibility (Directive 2001/83/EC, Article 5(1)).",
+   "claimIds": [
+    "j-eu-17",
+    "j-eu-18",
+    "j-eu-19",
+    "j-eu-40"
+   ],
+   "supported": true,
+   "unsupported": [],
+   "rewrite": "In the EU, tesamorelin has no marketing authorisation (its application was withdrawn on 21 June 2012), and no centrally authorised medicine containing sermorelin or ipamorelin was found in the Union Register or EMA's data (25 September 2026). EU law lets each member state, under its own legislation, allow an unauthorised medicine for an individual patient on a bona fide unsolicited order from an authorised health professional, under that professional's direct personal responsibility (Directive 2001/83/EC, Article 5(1)).",
+   "usage": {
+    "promptTokenCount": 3200,
+    "candidatesTokenCount": 144,
+    "totalTokenCount": 4077,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 3200
+     }
+    ],
+    "thoughtsTokenCount": 733,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m06",
+   "block": "m6-p12",
+   "code": "PT",
+   "text": "In Portugal, no medicine containing tesamorelin, sermorelin or ipamorelin is listed in INFARMED's Infomed register, which includes authorised, lapsed and revoked products (25 September 2026). INFARMED may authorise exceptional use (AUE) of a medicine without a marketing authorisation, for example when it is clinically justified as indispensable and no authorised alternative exists (Estatuto do Medicamento, Art 92).",
+   "claimIds": [
+    "j-pt-17",
+    "j-pt-18",
+    "j-pt-19",
+    "j-pt-40"
+   ],
+   "supported": false,
+   "unsupported": [
+    {
+     "clause": "Art 92",
+     "reason": "Article 92 is not mentioned in any quote or source metadata (it appears only in the non-evidential research statement)."
+    }
+   ],
+   "rewrite": "In Portugal, no medicine containing tesamorelin, sermorelin or ipamorelin is listed in INFARMED's Infomed register, which includes authorised, lapsed and revoked products (25 September 2026). INFARMED may authorise exceptional use (AUE) of a medicine without a marketing authorisation, for example when it is clinically justified as indispensable and no authorised alternative exists (Estatuto do Medicamento).",
+   "usage": {
+    "promptTokenCount": 3155,
+    "candidatesTokenCount": 163,
+    "totalTokenCount": 5402,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 3155
+     }
+    ],
+    "thoughtsTokenCount": 2084,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m06",
+   "block": "m6-p12",
+   "code": "BR",
+   "text": "In Brazil, no registered medicine containing tesamorelin or sermorelin was found in ANVISA's register (25 September 2026). ANVISA stated on 2 July 2026 that ipamorelin products are not registered in any category, and that some injectable peptides are not regularised in any category and are therefore illegal for any health use, including aesthetic use.",
+   "claimIds": [
+    "j-br-13",
+    "j-br-14",
+    "j-br-15",
+    "j-br-35"
+   ],
+   "supported": false,
+   "unsupported": [
+    {
+     "clause": "ipamorelin products are not registered in any category",
+     "reason": "Quote [j-br-15] states that products presented as peptides called ipamorelin that promise aesthetic effects or health improvements are not registered with ANVISA; the phrase 'in any category' appears in quote [j-br-35] in reference to 'some injectable peptides'."
+    }
+   ],
+   "rewrite": "In Brazil, no registered medicine containing tesamorelin or sermorelin was found in ANVISA's register (25 September 2026). ANVISA stated on 2 July 2026 that products presented as peptides called ipamorelin that promise aesthetic effects or health improvements are not registered with ANVISA, and that some injectable peptides are not regularised in any category and are therefore illegal for any health use, including aesthetic use.",
+   "usage": {
+    "promptTokenCount": 2176,
+    "candidatesTokenCount": 206,
+    "totalTokenCount": 3692,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 2176
+     }
+    ],
+    "thoughtsTokenCount": 1310,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m06",
+   "block": "m6-p12",
+   "code": "AE",
+   "text": "In the UAE, the Emirates Drug Establishment (EDE) has held medicines registration since Federal Decree-Law 28/2023; the medicines law is Federal Decree-Law 38 of 2024. No registered product containing tesamorelin, sermorelin or ipamorelin was found in the EDE register (25 September 2026). In Dubai, the DHA prohibits prescribing, dispensing or using any peptide product that is not registered or licensed with the EDE and bans misleading or unproven anti-ageing claims for peptides (29 July 2026); in Abu Dhabi, physicians may prescribe peptide therapies only for clinical indications supported by available scientific evidence, after a documented eligibility assessment and with informed consent that covers the product's regulatory approval status (DoH, 31 July 2026).",
+   "claimIds": [
+    "j-ae-07",
+    "j-ae-08",
+    "j-ae-09",
+    "j-ae-34",
+    "j-ae-36",
+    "j-ae-39",
+    "j-ae-66",
+    "j-ae-79"
+   ],
+   "supported": true,
+   "unsupported": [],
+   "rewrite": "In the UAE, the Emirates Drug Establishment (EDE) has held medicines registration since Federal Decree-Law 28/2023; the medicines law is Federal Decree-Law 38 of 2024. No registered product containing tesamorelin, sermorelin or ipamorelin was found in the EDE register (25 September 2026). In Dubai, the DHA prohibits prescribing, dispensing or using any peptide product that is not registered or licensed with the EDE and bans misleading or unproven anti-ageing claims for peptides (29 July 2026); in Abu Dhabi, physicians may prescribe peptide therapies only for clinical indications supported by available scientific evidence, after a documented eligibility assessment and with informed consent that covers the product's regulatory approval status (DoH, 31 July 2026).",
+   "usage": {
+    "promptTokenCount": 4064,
+    "candidatesTokenCount": 200,
+    "totalTokenCount": 5113,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 4064
+     }
+    ],
+    "thoughtsTokenCount": 849,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m07",
+   "block": "m7-p07",
+   "code": "EU",
+   "text": "In the EU, medicines prepared in a pharmacy on prescription for an individual patient (magistral formulas) or to a pharmacopoeia for the pharmacy's own patients (officinal formulas) are outside Directive 2001/83/EC and need no marketing authorisation under it (Article 3). Pharmacists who prepare medicines solely for retail supply in dispensing pharmacies are also exempt from the manufacturing authorisation that all other manufacture needs (Article 40(2)).",
+   "claimIds": [
+    "j-eu-37",
+    "j-eu-38"
+   ],
+   "supported": false,
+   "unsupported": [
+    {
+     "clause": "and need no marketing authorisation under it",
+     "reason": "The quote states that Directive 2001/83/EC does not apply to magistral and officinal formulas, but does not explicitly mention marketing authorisation."
+    },
+    {
+     "clause": "that all other manufacture needs",
+     "reason": "The quote states that authorization is not required for preparation solely for retail supply by pharmacists in dispensing pharmacies, but does not state that all other manufacture requires it."
+    }
+   ],
+   "rewrite": "In the EU, medicines prepared in a pharmacy on prescription for an individual patient (magistral formulas) or to a pharmacopoeia for the pharmacy's own patients (officinal formulas) are outside Directive 2001/83/EC (Article 3). Pharmacists who prepare medicines solely for retail supply in dispensing pharmacies are also exempt from manufacturing authorisation (Article 40(2)).",
+   "usage": {
+    "promptTokenCount": 1374,
+    "candidatesTokenCount": 225,
+    "totalTokenCount": 3586,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1374
+     }
+    ],
+    "thoughtsTokenCount": 1987,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m07",
+   "block": "m7-p07",
+   "code": "PT",
+   "text": "In Portugal, a magistral formula is prepared in a community or hospital pharmacy on a medical prescription naming the patient, under a pharmacist's responsibility (Decreto-Lei 95/2004, Art 1). Compounded medicines may use only raw materials listed in the Portuguese or European pharmacopoeia, another European pharmacopoeia or compendial scientific documentation, and one containing any other raw material may not be prescribed (Art 6).",
+   "claimIds": [
+    "j-pt-34",
+    "j-pt-36"
+   ],
+   "supported": false,
+   "unsupported": [
+    {
+     "clause": "Art 1",
+     "reason": "The article number 'Art 1' does not appear in the quotes or source metadata."
+    },
+    {
+     "clause": "Art 6",
+     "reason": "The article number 'Art 6' does not appear in the quotes or source metadata."
+    }
+   ],
+   "rewrite": "In Portugal, a magistral formula is prepared in a community or hospital pharmacy on a medical prescription naming the patient, under a pharmacist's responsibility (Decreto-Lei 95/2004). Compounded medicines may use only raw materials listed in the Portuguese or European pharmacopoeia, another European pharmacopoeia or compendial scientific documentation, and one containing any other raw material may not be prescribed.",
+   "usage": {
+    "promptTokenCount": 1172,
+    "candidatesTokenCount": 191,
+    "totalTokenCount": 2732,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1172
+     }
+    ],
+    "thoughtsTokenCount": 1369,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m07",
+   "block": "m7-p07",
+   "code": "BR",
+   "text": "In Brazil, a magistral preparation is made individually by a pharmacy against a prescription from an authorised professional (RDC 96/2008). ANVISA stated on 2 July 2026 that any substance must have passed efficacy and safety assessment before it can be compounded, and that compounding may take place only individually, on a medical prescription, in a pharmacy licensed by local health surveillance.",
+   "claimIds": [
+    "j-br-28",
+    "j-br-29"
+   ],
+   "supported": true,
+   "unsupported": [],
+   "rewrite": "In Brazil, a magistral preparation is made individually by a pharmacy against a prescription from an authorised professional (RDC 96/2008). ANVISA stated on 2 July 2026 that any substance must have passed efficacy and safety assessment before it can be compounded, and that compounding may take place only individually, on a medical prescription, in a pharmacy licensed by local health surveillance.",
+   "usage": {
+    "promptTokenCount": 974,
+    "candidatesTokenCount": 106,
+    "totalTokenCount": 1468,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 974
+     }
+    ],
+    "thoughtsTokenCount": 388,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m07",
+   "block": "m7-p07",
+   "code": "AE",
+   "text": "In the UAE, where the Emirates Drug Establishment (EDE) has regulated medical products since Federal Decree-Law 28/2023, products compounded in licensed compounding pharmacies are exempt from marketing approval under Federal Decree-Law 38 of 2024 (Art. 5(2)), although such a pharmacy may not copy an EDE-approved product unless no commercial product can deliver the expected benefit, nor formulate products for research, development or experimentation (Art. 95). In Abu Dhabi, the DoH's compounding standard (August 2026) treats peptides as emerging, high-risk substances and lets novel substances of unknown risk be compounded only if monographed, a component of an approved medicine or listed on the DoH Registry for Compounded Substances. In Dubai, the DHA prohibits prescribing, dispensing or using any peptide product that is not registered or licensed with the EDE (29 July 2026).",
+   "claimIds": [
+    "j-ae-34",
+    "j-ae-40",
+    "j-ae-41",
+    "j-ae-44",
+    "j-ae-39"
+   ],
+   "supported": false,
+   "unsupported": [
+    {
+     "clause": "treats peptides as emerging, high-risk substances",
+     "reason": "The quote does not describe peptides or risk-signature substances as 'emerging'; it states they are defined by risk signature and treated as 'high-risk and non-default'."
+    }
+   ],
+   "rewrite": "In the UAE, where the Emirates Drug Establishment (EDE) has regulated medical products since Federal Decree-Law 28/2023, products compounded in licensed compounding pharmacies are exempt from marketing approval under Federal Decree-Law 38 of 2024 (Art. 5(2)), although such a pharmacy may not copy an EDE-approved product unless no commercial product can deliver the expected benefit, nor formulate products for research, development or experimentation (Art. 95). In Abu Dhabi, the DoH's compounding standard (August 2026) treats peptides as high-risk substances and lets novel substances of unknown risk be compounded only if monographed, a component of an approved medicine or listed on the DoH Registry for Compounded Substances. In Dubai, the DHA prohibits prescribing, dispensing or using any peptide product that is not registered or licensed with the EDE (29 July 2026).",
+   "usage": {
+    "promptTokenCount": 2327,
+    "candidatesTokenCount": 285,
+    "totalTokenCount": 4153,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 2327
+     }
+    ],
+    "thoughtsTokenCount": 1541,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m07",
+   "block": "m7-p08",
+   "code": "EU",
+   "text": "In the EU, no centrally authorised medicine containing BPC-157, TB-500, KPV, GHK-Cu, LL-37 or melanotan was found in the Union Register or in EMA's data on authorised, refused and withdrawn medicines (searched 25 September 2026). Copper tripeptide-1 (GHK-Cu) is listed in the Commission's CosIng inventory as a cosmetic ingredient with a skin-conditioning function, but CosIng is not legally binding and a listing is not an authorisation (read 25 September 2026).",
+   "claimIds": [
+    "j-eu-22",
+    "j-eu-23",
+    "j-eu-24",
+    "j-eu-25",
+    "j-eu-27",
+    "j-eu-08",
+    "j-eu-26"
+   ],
+   "supported": false,
+   "unsupported": [
+    {
+     "clause": "but CosIng is not legally binding and a listing is not an authorisation",
+     "reason": "This legal disclaimer/status is not contained in any provided quote or source metadata (it appears only in the research statement, which is explicitly not evidence)."
+    }
+   ],
+   "rewrite": "In the EU, no centrally authorised medicine containing BPC-157, TB-500, KPV, GHK-Cu, LL-37 or melanotan was found in the Union Register or in EMA's data on authorised, refused and withdrawn medicines (searched 25 September 2026). Copper tripeptide-1 (GHK-Cu) is listed in the Commission's CosIng inventory as a cosmetic ingredient with a skin-conditioning function (read 25 September 2026).",
+   "usage": {
+    "promptTokenCount": 5487,
+    "candidatesTokenCount": 201,
+    "totalTokenCount": 6561,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 5487
+     }
+    ],
+    "thoughtsTokenCount": 873,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m07",
+   "block": "m7-p08",
+   "code": "PT",
+   "text": "In Portugal, no medicine containing BPC-157, TB-500, KPV, GHK-Cu, LL-37 or melanotan is listed in INFARMED's Infomed register, which includes authorised, lapsed and revoked products (searched 25 September 2026).",
+   "claimIds": [
+    "j-pt-22",
+    "j-pt-23",
+    "j-pt-24",
+    "j-pt-25",
+    "j-pt-26",
+    "j-pt-07"
+   ],
+   "supported": true,
+   "unsupported": [],
+   "rewrite": "In Portugal, no medicine containing BPC-157, TB-500, KPV, GHK-Cu, LL-37 or melanotan is listed in INFARMED's Infomed register, which includes authorised, lapsed and revoked products (searched 25 September 2026).",
+   "usage": {
+    "promptTokenCount": 4830,
+    "candidatesTokenCount": 90,
+    "totalTokenCount": 5502,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 4830
+     }
+    ],
+    "thoughtsTokenCount": 582,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m07",
+   "block": "m7-p08",
+   "code": "BR",
+   "text": "In Brazil, ANVISA stated on 2 July 2026 that BPC-157 and TB-500 are not registered as medicines or authorised as food supplements, and that injectable GHK-Cu products are not registered and are illegal for any health or aesthetic use. No registered medicine containing KPV, LL-37 or melanotan was found in ANVISA's register (25 September 2026).",
+   "claimIds": [
+    "j-br-18",
+    "j-br-19",
+    "j-br-21",
+    "j-br-20",
+    "j-br-22",
+    "j-br-07"
+   ],
+   "supported": false,
+   "unsupported": [
+    {
+     "clause": "and that injectable GHK-Cu products are not registered and are illegal for any health or aesthetic use",
+     "reason": "The quote does not specify 'injectable' products nor state that they are 'illegal for any health or aesthetic use'; it states that products presented as peptides called GHK-Cu (along with BPC-157, TB-500, CJC-1295, and Ipamorelin) that promise aesthetic effects or improvement in health conditions are not registered with ANVISA."
+    }
+   ],
+   "rewrite": "In Brazil, ANVISA stated on 2 July 2026 that BPC-157 and TB-500 are not authorised as food supplements, and that peptide products such as GHK-Cu, BPC-157, and TB-500 that promise aesthetic effects or improvement in health conditions are not registered with ANVISA. No registered medicine containing KPV, LL-37 or melanotan was found in ANVISA's register (25 September 2026).",
+   "usage": {
+    "promptTokenCount": 2688,
+    "candidatesTokenCount": 254,
+    "totalTokenCount": 3899,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 2688
+     }
+    ],
+    "thoughtsTokenCount": 957,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m07",
+   "block": "m7-p08",
+   "code": "AE",
+   "text": "In the UAE, no registered product containing BPC-157, TB-500, KPV, LL-37, GHK-Cu or melanotan was found in the register of the Emirates Drug Establishment (EDE), the federal regulator of medical products since Federal Decree-Law 28/2023 (searched 25 September 2026); ordinary cosmetics are outside that register. In Dubai, the DHA prohibits any peptide product that is not registered or licensed with the EDE (29 July 2026). In Abu Dhabi, the DoH puts systemic, regenerative or weakly evidenced peptides under enhanced controls (31 July 2026) and requires facilities to prohibit the import, distribution, marketing or use of Melanotan II (2 July 2025).",
+   "claimIds": [
+    "j-ae-34",
+    "j-ae-39",
+    "j-ae-12",
+    "j-ae-13",
+    "j-ae-14",
+    "j-ae-15",
+    "j-ae-18",
+    "j-ae-19",
+    "j-ae-59"
+   ],
+   "supported": false,
+   "unsupported": [
+    {
+     "clause": "ordinary cosmetics are outside that register",
+     "reason": "This claim appears only in a research statement, which is not evidence. No quote or source metadata states that ordinary cosmetics fall outside the EDE register."
+    }
+   ],
+   "rewrite": "In the UAE, no registered product containing BPC-157, TB-500, KPV, LL-37, GHK-Cu or melanotan was found in the register of the Emirates Drug Establishment (EDE), the federal regulator of medical products since Federal Decree-Law 28/2023 (searched 25 September 2026). In Dubai, the DHA prohibits any peptide product that is not registered or licensed with the EDE (29 July 2026). In Abu Dhabi, the DoH puts systemic, regenerative or weakly evidenced peptides under enhanced controls (31 July 2026) and requires facilities to prohibit the import, distribution, marketing or use of Melanotan II (2 July 2025).",
+   "usage": {
+    "promptTokenCount": 5181,
+    "candidatesTokenCount": 245,
+    "totalTokenCount": 7588,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 5181
+     }
+    ],
+    "thoughtsTokenCount": 2162,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m07",
+   "block": "m7-p09",
+   "code": "EU",
+   "text": "In the EU, tesamorelin has no marketing authorisation: the application for Egrifta, for excess abdominal fat in HIV patients with lipodystrophy, was withdrawn on 21 June 2012, when the provisional view of EMA's human-medicines committee (CHMP) was that it could not be approved.",
+   "claimIds": [
+    "j-eu-17"
+   ],
+   "supported": true,
+   "unsupported": [],
+   "rewrite": "In the EU, tesamorelin has no marketing authorisation: the application for Egrifta, for excess abdominal fat in HIV patients with lipodystrophy, was withdrawn on 21 June 2012, when the provisional view of EMA's human-medicines committee (CHMP) was that it could not be approved.",
+   "usage": {
+    "promptTokenCount": 1099,
+    "candidatesTokenCount": 94,
+    "totalTokenCount": 1584,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1099
+     }
+    ],
+    "thoughtsTokenCount": 391,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m07",
+   "block": "m7-p09",
+   "code": "BR",
+   "text": "In Brazil, no registered medicine containing tesamorelin, including Egrifta, was found in ANVISA's register or online search (25 September 2026).",
+   "claimIds": [
+    "j-br-13"
+   ],
+   "supported": true,
+   "unsupported": [],
+   "rewrite": "In Brazil, no registered medicine containing tesamorelin, including Egrifta, was found in ANVISA's register or online search (25 September 2026).",
+   "usage": {
+    "promptTokenCount": 897,
+    "candidatesTokenCount": 61,
+    "totalTokenCount": 1137,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 897
+     }
+    ],
+    "thoughtsTokenCount": 179,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m07",
+   "block": "m7-p09",
+   "code": "AE",
+   "text": "In the UAE, no registered product containing tesamorelin, and none named Egrifta, was found in the register of the Emirates Drug Establishment (EDE), the federal regulator of medical products since Federal Decree-Law 28/2023 (searched 25 September 2026).",
+   "claimIds": [
+    "j-ae-34",
+    "j-ae-07"
+   ],
+   "supported": true,
+   "unsupported": [],
+   "rewrite": "In the UAE, no registered product containing tesamorelin, and none named Egrifta, was found in the register of the Emirates Drug Establishment (EDE), the federal regulator of medical products since Federal Decree-Law 28/2023 (searched 25 September 2026).",
+   "usage": {
+    "promptTokenCount": 1253,
+    "candidatesTokenCount": 88,
+    "totalTokenCount": 1854,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1253
+     }
+    ],
+    "thoughtsTokenCount": 513,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m07",
+   "block": "m7-p21",
+   "code": "EU",
+   "text": "In the EU, a member state may, under its own legislation, allow an unauthorised medicine for an individual patient on a bona fide unsolicited order from an authorised health professional, under that professional's direct personal responsibility (Directive 2001/83/EC, Article 5(1)). Medicines prepared in a pharmacy on prescription for an individual patient (magistral formulas) or to a pharmacopoeia for the pharmacy's own patients (officinal formulas) are outside the Directive and need no marketing authorisation under it (Article 3).",
+   "claimIds": [
+    "j-eu-37",
+    "j-eu-40"
+   ],
+   "supported": true,
+   "unsupported": [],
+   "rewrite": "In the EU, a member state may, under its own legislation, allow an unauthorised medicine for an individual patient on a bona fide unsolicited order from an authorised health professional, under that professional's direct personal responsibility (Directive 2001/83/EC, Article 5(1)). Medicines prepared in a pharmacy on prescription for an individual patient (magistral formulas) or to a pharmacopoeia for the pharmacy's own patients (officinal formulas) are outside the Directive and need no marketing authorisation under it (Article 3).",
+   "usage": {
+    "promptTokenCount": 1427,
+    "candidatesTokenCount": 135,
+    "totalTokenCount": 2528,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1427
+     }
+    ],
+    "thoughtsTokenCount": 966,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m07",
+   "block": "m7-p21",
+   "code": "PT",
+   "text": "In Portugal, INFARMED does not authorise the import of medicines for personal use (Circular 148/CD, 29 July 2011), but it may authorise exceptional use (AUE) of a medicine without a marketing authorisation, for example when it is clinically justified as indispensable and no authorised alternative exists (Estatuto do Medicamento, Art 92). A physician who prescribes a magistral formula must satisfy themselves of its safety and efficacy, including possible interactions (Decreto-Lei 95/2004, Art 3(1)).",
+   "claimIds": [
+    "j-pt-49",
+    "j-pt-40",
+    "j-pt-35"
+   ],
+   "supported": false,
+   "unsupported": [
+    {
+     "clause": "Art 92",
+     "reason": "The specific article number 'Art 92' is not mentioned in the quote or source metadata (it appears only in the research statement)."
+    },
+    {
+     "clause": "Art 3(1)",
+     "reason": "The specific article/paragraph reference 'Art 3(1)' is not mentioned in the quote or source metadata (it appears only in the research statement)."
+    }
+   ],
+   "rewrite": "In Portugal, INFARMED does not authorise the import of medicines for personal use (Circular 148/CD, 29 July 2011), but it may authorise exceptional use (AUE) of a medicine without a marketing authorisation, for example when it is clinically justified as indispensable and no authorised alternative exists (Estatuto do Medicamento). A physician who prescribes a magistral formula must satisfy themselves of its safety and efficacy, including possible interactions (Decreto-Lei 95/2004).",
+   "usage": {
+    "promptTokenCount": 1504,
+    "candidatesTokenCount": 241,
+    "totalTokenCount": 3999,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1504
+     }
+    ],
+    "thoughtsTokenCount": 2254,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m07",
+   "block": "m7-p21",
+   "code": "BR",
+   "text": "In Brazil, unregistered medicines may be imported only exceptionally, for strictly personal use and on a medical prescription, and import by any route is suspended when ANVISA publishes a specific prohibition; ANVISA stated in September 2025 that using an unregistered imported medicine is entirely the responsibility of the patient and the prescribing physician. ANVISA also stated in November 2024 that compounded medicines should be used only when the registered industrial product is unavailable in the dose or dosage form the patient needs.",
+   "claimIds": [
+    "j-br-38",
+    "j-br-39",
+    "j-br-30"
+   ],
+   "supported": true,
+   "unsupported": [],
+   "rewrite": "In Brazil, unregistered medicines may be imported only exceptionally, for strictly personal use and on a medical prescription, and import by any route is suspended when ANVISA publishes a specific prohibition; ANVISA stated in September 2025 that using an unregistered imported medicine is entirely the responsibility of the patient and the prescribing physician. ANVISA also stated in November 2024 that compounded medicines should be used only when the registered industrial product is unavailable in the dose or dosage form the patient needs.",
+   "usage": {
+    "promptTokenCount": 1157,
+    "candidatesTokenCount": 122,
+    "totalTokenCount": 1794,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1157
+     }
+    ],
+    "thoughtsTokenCount": 515,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m07",
+   "block": "m7-p21",
+   "code": "AE",
+   "text": "In the UAE, Federal Decree-Law 38 of 2024 exempts products compounded in licensed compounding pharmacies from marketing approval (Art. 5(2)) and lets a physician prescribe a product never submitted to the Emirates Drug Establishment (EDE, the federal regulator of medical products since Federal Decree-Law 28/2023) for marketing approval only when necessary, with no equivalent alternative available and with the patient's approval (Art. 42(1)). In Abu Dhabi, the DoH's compounding standard (August 2026) allows compounding only for a genuine, documented clinical need that no suitable licensed product meets, and where peptides are permitted it limits prescribing to eligible facilities and credentialed prescribers, office-stock ordering to hospitals and DoH-approved specialty clinics, and dispensing by compounding pharmacies to individual prescriptions. In Dubai, the DHA prohibits any peptide product that is not registered or licensed with the EDE (29 July 2026).",
+   "claimIds": [
+    "j-ae-34",
+    "j-ae-40",
+    "j-ae-39",
+    "j-ae-37",
+    "j-ae-42",
+    "j-ae-45"
+   ],
+   "supported": false,
+   "unsupported": [
+    {
+     "clause": "where peptides are permitted",
+     "reason": "Quote [j-ae-45] states 'Where permitted' without specifying peptides; the mention of peptides in that context appears only in the research summary statement, not in the primary-source quotes."
+    }
+   ],
+   "rewrite": "In the UAE, Federal Decree-Law 38 of 2024 exempts products compounded in licensed compounding pharmacies from marketing approval (Art. 5(2)) and lets a physician prescribe a product never submitted to the Emirates Drug Establishment (EDE, the federal regulator of medical products since Federal Decree-Law 28/2023) for marketing approval only when necessary, with no equivalent alternative available and with the patient's approval (Art. 42(1)). In Abu Dhabi, the DoH's compounding standard (August 2026) allows compounding only for a genuine, documented clinical need that no suitable licensed product meets, and where permitted it limits prescribing to eligible facilities and credentialed prescribers, office-stock ordering to hospitals and DoH-approved specialty clinics, and dispensing by compounding pharmacies to individual prescriptions. In Dubai, the DHA prohibits any peptide product that is not registered or licensed with the EDE (29 July 2026).",
+   "usage": {
+    "promptTokenCount": 2576,
+    "candidatesTokenCount": 295,
+    "totalTokenCount": 4419,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 2576
+     }
+    ],
+    "thoughtsTokenCount": 1548,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m07",
+   "block": "m7-p13",
+   "code": "EU",
+   "text": "In the EU, a product is a medicine by presentation (presented as treating or preventing disease) or by function (restoring, correcting or modifying physiological functions by a pharmacological, immunological or metabolic action), and where it could be both a medicine and another regulated product, medicines law applies (Directive 2001/83/EC, Articles 1(2) and 2(2)). The Directive's research exclusion covers medicinal products intended for research and development trials (Article 3(3)).",
+   "claimIds": [
+    "j-eu-42",
+    "j-eu-43"
+   ],
+   "supported": true,
+   "unsupported": [],
+   "rewrite": "In the EU, a product is a medicine by presentation (presented as treating or preventing disease) or by function (restoring, correcting or modifying physiological functions by a pharmacological, immunological or metabolic action), and where it could be both a medicine and another regulated product, medicines law applies (Directive 2001/83/EC, Articles 1(2) and 2(2)). The Directive's research exclusion covers medicinal products intended for research and development trials (Article 3(3)).",
+   "usage": {
+    "promptTokenCount": 1526,
+    "candidatesTokenCount": 127,
+    "totalTokenCount": 3784,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1526
+     }
+    ],
+    "thoughtsTokenCount": 2131,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m07",
+   "block": "m7-p13",
+   "code": "PT",
+   "text": "In Portugal, a medicine is any substance presented as treating or preventing disease, or used to restore, correct or modify physiological functions by a pharmacological, immunological or metabolic action, so a 'research use only' label does not take such a product outside medicines law (Estatuto do Medicamento, Art 3). Making, selling, supplying or administering medicines without the required authorisation is an administrative offence fined from €2,000 up to 15% of turnover or €180,000, whichever is lower (Art 181(2)(a)).",
+   "claimIds": [
+    "j-pt-44",
+    "j-pt-46"
+   ],
+   "supported": false,
+   "unsupported": [
+    {
+     "clause": "so a 'research use only' label does not take such a product outside medicines law",
+     "reason": "The quote defines a medicine by presentation and function, but contains no mention of 'research use only' labels or their legal status under medicines law; this is an inference."
+    }
+   ],
+   "rewrite": "In Portugal, a medicine is any substance or combination of substances presented as having properties for treating or preventing disease in human beings or its symptoms, or which may be used in or administered to human beings to make a medical diagnosis or to restore, correct or modify physiological functions by exerting a pharmacological, immunological or metabolic action (Estatuto do Medicamento). Making, selling, supplying or administering medicines without the required authorisations or registrations is an administrative offence punishable by a fine from €2,000 up to 15% of turnover or €180,000, whichever is lower.",
+   "usage": {
+    "promptTokenCount": 1488,
+    "candidatesTokenCount": 218,
+    "totalTokenCount": 2508,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1488
+     }
+    ],
+    "thoughtsTokenCount": 802,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m07",
+   "block": "m7-p13",
+   "code": "BR",
+   "text": "In Brazil, ANVISA stated on 2 July 2026 that some injectable peptides are not regularised in any category (food, medicine, cosmetic or food supplement) and so are illegal for any health use, including aesthetic use. ANVISA also stated in July 2026 that an investigational medicine is used only in authorised clinical research.",
+   "claimIds": [
+    "j-br-35",
+    "j-br-36"
+   ],
+   "supported": true,
+   "unsupported": [],
+   "rewrite": "In Brazil, ANVISA stated on 2 July 2026 that some injectable peptides are not regularised in any category (food, medicine, cosmetic or food supplement) and so are illegal for any health use, including aesthetic use. ANVISA also stated in July 2026 that an investigational medicine is used only in authorised clinical research.",
+   "usage": {
+    "promptTokenCount": 796,
+    "candidatesTokenCount": 97,
+    "totalTokenCount": 1432,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 796
+     }
+    ],
+    "thoughtsTokenCount": 539,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m07",
+   "block": "m7-p13",
+   "code": "AE",
+   "text": "In the UAE, Federal Decree-Law 38 of 2024 has, since 2 January 2025, barred importing, distributing, possessing, selling, displaying or using any medical product without a marketing approval from the Emirates Drug Establishment (EDE), the federal regulator of medical products since Federal Decree-Law 28/2023. In Dubai, the DHA prohibits using any peptide product intended for research use on humans, or for therapeutic purposes outside an approved study or clinical trial, and bars facilities from buying peptide products from websites, social media or unverifiable suppliers (29 July 2026). In Abu Dhabi, the DoH's compounding standard (August 2026) prohibits compounding from unapproved or unknown-source substances, or from substances not on the DoH Registry for Compounded Substances, unless the DoH permits it.",
+   "claimIds": [
+    "j-ae-34",
+    "j-ae-36",
+    "j-ae-47",
+    "j-ae-51",
+    "j-ae-43"
+   ],
+   "supported": true,
+   "unsupported": [],
+   "rewrite": "In the UAE, Federal Decree-Law 38 of 2024 has, since 2 January 2025, barred importing, distributing, possessing, selling, displaying or using any medical product without a marketing approval from the Emirates Drug Establishment (EDE), the federal regulator of medical products since Federal Decree-Law 28/2023. In Dubai, the DHA prohibits using any peptide product intended for research use on humans, or for therapeutic purposes outside an approved study or clinical trial, and bars facilities from buying peptide products from websites, social media or unverifiable suppliers (29 July 2026). In Abu Dhabi, the DoH's compounding standard (August 2026) prohibits compounding from unapproved or unknown-source substances, or from substances not on the DoH Registry for Compounded Substances, unless the DoH permits it.",
+   "usage": {
+    "promptTokenCount": 2318,
+    "candidatesTokenCount": 205,
+    "totalTokenCount": 3760,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 2318
+     }
+    ],
+    "thoughtsTokenCount": 1237,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m07",
+   "block": "m7-p22",
+   "code": "EU",
+   "text": "In the EU, member states must prohibit any advertising of a medicine that has no marketing authorisation, and any advertising of prescription-only medicines to the general public, where advertising includes any inducement designed to promote prescription, supply, sale or consumption (Directive 2001/83/EC, Articles 86 to 88). EU audiovisual law also bans audiovisual commercial communications for prescription-only medicines and medical treatment, and video-sharing platforms must apply this to advertising on their services, including advertising they do not sell themselves (Directive 2010/13/EU).",
+   "claimIds": [
+    "j-eu-68",
+    "j-eu-69",
+    "j-eu-72"
+   ],
+   "supported": true,
+   "unsupported": [],
+   "rewrite": "In the EU, member states must prohibit any advertising of a medicine that has no marketing authorisation, and any advertising of prescription-only medicines to the general public, where advertising includes any inducement designed to promote prescription, supply, sale or consumption (Directive 2001/83/EC, Articles 86 to 88). EU audiovisual law also bans audiovisual commercial communications for prescription-only medicines and medical treatment, and video-sharing platforms must apply this to advertising on their services, including advertising they do not sell themselves (Directive 2010/13/EU).",
+   "usage": {
+    "promptTokenCount": 1832,
+    "candidatesTokenCount": 143,
+    "totalTokenCount": 2785,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1832
+     }
+    ],
+    "thoughtsTokenCount": 810,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m07",
+   "block": "m7-p22",
+   "code": "PT",
+   "text": "In Portugal, advertising a medicine without a valid national authorisation, or one used only under an exceptional-use authorisation, is prohibited, prescription-only medicines may be advertised only in technical media for health professionals, and the advertiser, the agency, anyone disseminating the advertising and the owner of the medium are all liable (Estatuto do Medicamento, Arts 152, 154 and 182). Advertising of health services, including by clinics offering aesthetic treatments, falls under Decreto-Lei 238/2015, which bans false claims of guaranteed cure or results or of absence of side effects and is enforced by the health regulator ERS.",
+   "claimIds": [
+    "j-pt-61",
+    "j-pt-62",
+    "j-pt-64",
+    "j-pt-65",
+    "j-pt-66"
+   ],
+   "supported": false,
+   "unsupported": [
+    {
+     "clause": "used only under an exceptional-use authorisation",
+     "reason": "The quote states 'authorised under Articles 92 and 93' (ao abrigo do artigo 92.º e 93.º); 'exceptional-use authorisation' appears only in the research statement, not in the primary quotes."
+    },
+    {
+     "clause": "Arts 152, 154 and 182",
+     "reason": "Specific article numbers 152, 154, and 182 do not appear in any quote or source metadata (they appear only in research statements)."
+    },
+    {
+     "clause": "including by clinics offering aesthetic treatments",
+     "reason": "Specific reference to clinics offering aesthetic treatments is absent from the primary quotes and appears only in the research statement."
+    }
+   ],
+   "rewrite": "In Portugal, advertising a medicine without a valid national authorisation or registration, or one authorised under Articles 92 and 93, is prohibited, prescription-only medicines may be advertised only in technical media for health professionals, and the advertiser, the agency, anyone disseminating the advertising and the owner of the medium are all liable (Estatuto do Medicamento). Health advertising practices fall under Decreto-Lei 238/2015, which bans false claims of guaranteed cure or results or of absence of side effects and is enforced by the Health Regulatory Authority (ERS).",
+   "usage": {
+    "promptTokenCount": 2396,
+    "candidatesTokenCount": 336,
+    "totalTokenCount": 3654,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 2396
+     }
+    ],
+    "thoughtsTokenCount": 922,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m07",
+   "block": "m7-p22",
+   "code": "BR",
+   "text": "In Brazil, promotion of prescription-only medicines is restricted to media aimed exclusively at professionals who can prescribe or dispense them, with online promotion behind a registration system for those professionals (RDC 96/2008), and ANVISA restated in November 2024 that advertising compounded products to the public is not permitted. CFM Resolution 2.336/2023 forbids physicians to promote medicines not registered with ANVISA, and ANVISA stated on 2 July 2026 that some injectable peptides are not regularised in any category and so are illegal for any health use, including aesthetic use.",
+   "claimIds": [
+    "j-br-35",
+    "j-br-47",
+    "j-br-48",
+    "j-br-55"
+   ],
+   "supported": false,
+   "unsupported": [
+    {
+     "clause": "promotion of prescription-only medicines is restricted to media aimed exclusively at professionals who can prescribe or dispense them",
+     "reason": "Quote [j-br-47] (Art. 29 of RDC 96/2008) specifies internet advertising accessible exclusively via an electronic registration system, not general media restrictions across all channels (Art. 27 is not quoted)."
+    }
+   ],
+   "rewrite": "In Brazil, advertising of prescription-only medicines on the internet must be accessible exclusively to professionals authorised to prescribe or dispense them, through an electronic registration system (RDC 96/2008), and ANVISA restated in November 2024 that advertising compounded products to the public is not permitted. CFM Resolution 2.336/2023 forbids physicians to promote medicines not registered with ANVISA, and ANVISA stated on 2 July 2026 that some injectable peptides are not regularised in any category and so are illegal for any health use, including aesthetic use.",
+   "usage": {
+    "promptTokenCount": 1627,
+    "candidatesTokenCount": 246,
+    "totalTokenCount": 3285,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1627
+     }
+    ],
+    "thoughtsTokenCount": 1412,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m07",
+   "block": "m7-p22",
+   "code": "AE",
+   "text": "In the UAE, advertising or promoting any medical product by any means, social media included, needs approval from the Emirates Drug Establishment (EDE), the federal regulator of medical products since Federal Decree-Law 28/2023, and advertising controlled or semi-controlled products to the public is prohibited (Federal Decree-Law 38 of 2024, Art. 44); an EDE advertising licence requires a valid EDE marketing authorisation for the product, apart from products the Cabinet exempts. In Dubai, the DHA bans misleading or unproven peptide claims, such as anti-ageing, cell regeneration or improved appearance, unless the use is approved within the product's regulatory status, and requires any promotion of unregistered materials, including through influencers, to stop (29 July 2026). In Abu Dhabi, the DoH bars advertising peptide therapies without prior approval from the DoH and relevant authorities (31 July 2026), and its compounding standard (August 2026) bars advertising emerging, non-monographed substances such as peptides to patients or professionals.",
+   "claimIds": [
+    "j-ae-34",
+    "j-ae-63",
+    "j-ae-64",
+    "j-ae-66",
+    "j-ae-70",
+    "j-ae-71"
+   ],
+   "supported": false,
+   "unsupported": [
+    {
+     "clause": "apart from products the Cabinet exempts",
+     "reason": "Quote [j-ae-64] specifies products exempted under Article 5(3) of Federal Decree-Law 38 of 2024; neither the quote nor the source metadata mentions the Cabinet."
+    },
+    {
+     "clause": "such as peptides",
+     "reason": "Quote [j-ae-71] states 'Emerging and non-monographed substances shall not be advertised...', without specifying 'such as peptides' (which appears only in the research statement)."
+    }
+   ],
+   "rewrite": "In the UAE, advertising or promoting any medical product by any means, social media included, needs approval from the Emirates Drug Establishment (EDE), the federal regulator of medical products since Federal Decree-Law 28/2023, and advertising controlled or semi-controlled products to the public is prohibited (Federal Decree-Law 38 of 2024, Art. 44); an EDE advertising licence requires a valid EDE marketing authorisation for the product, apart from products exempted under Article 5(3) of Federal Decree-Law 38 of 2024. In Dubai, the DHA bans misleading or unproven peptide claims, such as anti-ageing, cell regeneration or improved appearance, unless the use is approved within the product's regulatory status, and requires any promotion of unregistered materials, including through influencers, to stop (29 July 2026). In Abu Dhabi, the DoH bars advertising peptide therapies without prior approval from the DoH and relevant authorities (31 July 2026), and its compounding standard (August 2026) bars advertising emerging, non-monographed substances to patients or professionals.",
+   "usage": {
+    "promptTokenCount": 2460,
+    "candidatesTokenCount": 403,
+    "totalTokenCount": 4582,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 2460
+     }
+    ],
+    "thoughtsTokenCount": 1719,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m07",
+   "block": "m7-p15",
+   "code": "EU",
+   "text": "In the EU, no medicine may be placed on a member state's market without a national marketing authorisation or an EU-wide (central) authorisation (Directive 2001/83/EC, Article 6(1)). A member state may, under its own legislation, allow an unauthorised medicine for an individual patient on a bona fide unsolicited order from an authorised health professional, under that professional's direct personal responsibility (Article 5(1)).",
+   "claimIds": [
+    "j-eu-40",
+    "j-eu-39"
+   ],
+   "supported": true,
+   "unsupported": [],
+   "rewrite": "In the EU, no medicine may be placed on a member state's market without a national marketing authorisation or an EU-wide (central) authorisation (Directive 2001/83/EC, Article 6(1)). A member state may, under its own legislation, allow an unauthorised medicine for an individual patient on a bona fide unsolicited order from an authorised health professional, under that professional's direct personal responsibility (Article 5(1)).",
+   "usage": {
+    "promptTokenCount": 1349,
+    "candidatesTokenCount": 118,
+    "totalTokenCount": 1965,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1349
+     }
+    ],
+    "thoughtsTokenCount": 498,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m07",
+   "block": "m7-p15",
+   "code": "PT",
+   "text": "In Portugal, marketing a medicine requires INFARMED's authorisation unless the law provides otherwise (Estatuto do Medicamento, Art 14(1)), and INFARMED may authorise exceptional use (AUE) of a medicine without a marketing authorisation, for example when it is clinically justified as indispensable and no authorised alternative exists (Art 92).",
+   "claimIds": [
+    "j-pt-40",
+    "j-pt-45"
+   ],
+   "supported": false,
+   "unsupported": [
+    {
+     "clause": "Art 14(1)",
+     "reason": "The specific article number (Art 14(1)) is not mentioned in the quote or source metadata; it appears only in the research statement, which is not evidence."
+    },
+    {
+     "clause": "Art 92",
+     "reason": "The specific article number (Art 92) is not mentioned in the quote or source metadata; it appears only in the research statement, which is not evidence."
+    }
+   ],
+   "rewrite": "In Portugal, marketing a medicine requires INFARMED's authorisation unless the law provides otherwise (Estatuto do Medicamento), and INFARMED may authorise exceptional use (AUE) of a medicine without a marketing authorisation, for example when it is clinically justified as indispensable and no authorised alternative exists.",
+   "usage": {
+    "promptTokenCount": 1287,
+    "candidatesTokenCount": 203,
+    "totalTokenCount": 2849,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1287
+     }
+    ],
+    "thoughtsTokenCount": 1359,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m07",
+   "block": "m7-p15",
+   "code": "BR",
+   "text": "In Brazil, ANVISA stated in April 2025 that physicians keep the right to prescribe registered medicines off-label when they judge that, for a given patient, benefits outweigh risks, while no medicine may be manufactured, sold or supplied before it is registered (Law 6.360/1976, art. 12). ANVISA stated on 2 July 2026 that BPC-157 is not registered as a medicine and that injectable GHK-Cu products are not registered and are illegal for any health or aesthetic use.",
+   "claimIds": [
+    "j-br-18",
+    "j-br-21",
+    "j-br-33",
+    "j-br-34"
+   ],
+   "supported": false,
+   "unsupported": [
+    {
+     "clause": "injectable GHK-Cu products are not registered and are illegal for any health or aesthetic use",
+     "reason": "Quote [j-br-21] states that products presented as peptides such as GHK-CU promising aesthetic effects or improvement in health conditions are not registered with ANVISA. The quote does not specify 'injectable' nor does it state that they are 'illegal'."
+    }
+   ],
+   "rewrite": "In Brazil, ANVISA stated in April 2025 that physicians keep the right to prescribe medicines off-label when they judge that, for a given patient, benefits outweigh risks, while no medicine may be manufactured, sold or supplied before it is registered (Law 6.360/1976, art. 12). ANVISA stated on 2 July 2026 that products presented as peptides including BPC-157 and GHK-Cu that promise aesthetic effects or improvement in health conditions are not registered with ANVISA, and that BPC-157 is not authorised for use as a food supplement.",
+   "usage": {
+    "promptTokenCount": 1440,
+    "candidatesTokenCount": 254,
+    "totalTokenCount": 2757,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1440
+     }
+    ],
+    "thoughtsTokenCount": 1063,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m07",
+   "block": "m7-p15",
+   "code": "AE",
+   "text": "In the UAE, Federal Decree-Law 38 of 2024 lets a physician prescribe a medical product for a use not in its leaflet, or one never submitted to the Emirates Drug Establishment (EDE, the federal regulator of medical products since Federal Decree-Law 28/2023) for marketing approval, only when necessary, when no equivalent alternative is available and with the patient's approval (Art. 42(1)). In Dubai, the DHA prohibits any peptide product that is not registered or licensed with the EDE and requires registered peptide products to be used strictly within their approved indications (29 July 2026). In Abu Dhabi, the DoH allows peptide therapies only for clinical indications supported by available scientific evidence, after a documented eligibility assessment and with informed consent that covers the product's regulatory approval status (31 July 2026).",
+   "claimIds": [
+    "j-ae-34",
+    "j-ae-39",
+    "j-ae-37",
+    "j-ae-79"
+   ],
+   "supported": true,
+   "unsupported": [],
+   "rewrite": "In the UAE, Federal Decree-Law 38 of 2024 lets a physician prescribe a medical product for a use not in its leaflet, or one never submitted to the Emirates Drug Establishment (EDE, the federal regulator of medical products since Federal Decree-Law 28/2023) for marketing approval, only when necessary, when no equivalent alternative is available and with the patient's approval (Art. 42(1)). In Dubai, the DHA prohibits any peptide product that is not registered or licensed with the EDE and requires registered peptide products to be used strictly within their approved indications (29 July 2026). In Abu Dhabi, the DoH allows peptide therapies only for clinical indications supported by available scientific evidence, after a documented eligibility assessment and with informed consent that covers the product's regulatory approval status (31 July 2026).",
+   "usage": {
+    "promptTokenCount": 1907,
+    "candidatesTokenCount": 207,
+    "totalTokenCount": 3121,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1907
+     }
+    ],
+    "thoughtsTokenCount": 1007,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m07",
+   "block": "m7-p16",
+   "code": "EU",
+   "text": "In the EU, a product is a medicine by presentation or by pharmacological, immunological or metabolic function, and where it could also fall under another product law, medicines law applies (Directive 2001/83/EC, Articles 1(2) and 2(2)); anything intended to be ingested, inhaled, injected or implanted is not a cosmetic (Regulation (EC) No 1223/2009, Article 2(2)). Food supplements are foods, and a health claim on a food is prohibited unless it is authorised and on the EU lists of authorised claims (Directive 2002/46/EC; Regulation (EC) No 1924/2006, Article 10(1)).",
+   "claimIds": [
+    "j-eu-42",
+    "j-eu-51",
+    "j-eu-63",
+    "j-eu-64"
+   ],
+   "supported": true,
+   "unsupported": [],
+   "rewrite": "In the EU, a product is a medicine by presentation or by pharmacological, immunological or metabolic function, and where it could also fall under another product law, medicines law applies (Directive 2001/83/EC, Articles 1(2) and 2(2)); anything intended to be ingested, inhaled, injected or implanted is not a cosmetic (Regulation (EC) No 1223/2009, Article 2(2)). Food supplements are foods, and a health claim on a food is prohibited unless it is authorised and on the EU lists of authorised claims (Directive 2002/46/EC; Regulation (EC) No 1924/2006, Article 10(1)).",
+   "usage": {
+    "promptTokenCount": 2321,
+    "candidatesTokenCount": 183,
+    "totalTokenCount": 3114,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 2321
+     }
+    ],
+    "thoughtsTokenCount": 610,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m07",
+   "block": "m7-p16",
+   "code": "PT",
+   "text": "In Portugal, INFARMED is the competent authority for cosmetics and states that products administered by ingestion, inhalation, injection or implantation are not cosmetics, so an injected 'peptide' cannot be sold as a cosmetic (read 25 September 2026). Food supplements are meant to maintain the body's homeostasis, not to prevent, treat or cure disease, and must be notified to DGAV before sale; DGAV warns that notification does not mean a supplement is authorised or compliant.",
+   "claimIds": [
+    "j-pt-51",
+    "j-pt-53",
+    "j-pt-56",
+    "j-pt-57",
+    "j-pt-58"
+   ],
+   "supported": false,
+   "unsupported": [
+    {
+     "clause": "so an injected 'peptide' cannot be sold as a cosmetic",
+     "reason": "The quotes state generally that products administered by ingestion, inhalation, injection, or implantation into the body are not cosmetics, but they do not mention peptides; this conclusion is an inference."
+    }
+   ],
+   "rewrite": "In Portugal, INFARMED is the competent authority for cosmetics and states that products administered by ingestion, inhalation, injection or implantation into the body are not cosmetics (read 25 September 2026). Food supplements are meant to maintain the body's homeostasis, not to prevent, treat or cure disease, and must be notified to DGAV before sale; DGAV warns that notification does not mean a supplement is authorised or compliant.",
+   "usage": {
+    "promptTokenCount": 1533,
+    "candidatesTokenCount": 182,
+    "totalTokenCount": 2442,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1533
+     }
+    ],
+    "thoughtsTokenCount": 727,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m07",
+   "block": "m7-p16",
+   "code": "BR",
+   "text": "In Brazil, cosmetic labelling may not carry therapeutic claims for the product or its ingredients (RDC 907/2024, art. 12), and ANVISA stated on 2 July 2026 that injectable cosmetics do not exist, so an injectable product offered as a cosmetic is irregular. A food supplement is by definition a product for oral ingestion by healthy people (RDC 243/2018), and it may use only constituents on ANVISA's authorised list (IN 28/2018).",
+   "claimIds": [
+    "j-br-41",
+    "j-br-42",
+    "j-br-43",
+    "j-br-44"
+   ],
+   "supported": true,
+   "unsupported": [],
+   "rewrite": "In Brazil, cosmetic labelling may not carry therapeutic claims for the product or its ingredients (RDC 907/2024, art. 12), and ANVISA stated on 2 July 2026 that injectable cosmetics do not exist, so an injectable product offered as a cosmetic is irregular. A food supplement is by definition a product for oral ingestion by healthy people (RDC 243/2018), and it may use only constituents on ANVISA's authorised list (IN 28/2018).",
+   "usage": {
+    "promptTokenCount": 1773,
+    "candidatesTokenCount": 140,
+    "totalTokenCount": 3593,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1773
+     }
+    ],
+    "thoughtsTokenCount": 1680,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m07",
+   "block": "m7-p16",
+   "code": "AE",
+   "text": "In the UAE, Federal Decree-Law 38 of 2024 makes cosmetics with a medical effect on the skin, hair or nails, and food supplements, medical products regulated by the Emirates Drug Establishment (EDE, the federal regulator of medical products since Federal Decree-Law 28/2023), while ordinary cosmetics need a MoIAT conformity certificate (Cabinet Resolution 18/2014); an EDE classification letter settles whether a borderline product, such as a peptide serum, needs EDE authorisation and in which category. In Abu Dhabi, the DoH keeps topical cosmetic peptides with no systemic effect on existing pathways as low-risk products, while systemic, regenerative or weakly evidenced peptides face enhanced controls (31 July 2026).",
+   "claimIds": [
+    "j-ae-34",
+    "j-ae-59",
+    "j-ae-53",
+    "j-ae-60",
+    "j-ae-56",
+    "j-ae-55"
+   ],
+   "supported": false,
+   "unsupported": [
+    {
+     "clause": "such as a peptide serum",
+     "reason": "The quote for the EDE classification service refers broadly to 'products of all types and forms', without mentioning peptide serums (this example appears only in the non-evidentiary research statement)."
+    }
+   ],
+   "rewrite": "In the UAE, Federal Decree-Law 38 of 2024 makes cosmetics with a medical effect on the skin, hair or nails, and food supplements, medical products regulated by the Emirates Drug Establishment (EDE, the federal regulator of medical products since Federal Decree-Law 28/2023), while ordinary cosmetics need a MoIAT conformity certificate (Cabinet Resolution 18/2014); an EDE classification letter settles whether a product needs EDE marketing authorisation and in which regulatory category. In Abu Dhabi, the DoH keeps topical cosmetic peptides with no systemic effect on existing pathways as low-risk products, while systemic, regenerative or weakly evidenced peptides face enhanced controls (31 July 2026).",
+   "usage": {
+    "promptTokenCount": 2445,
+    "candidatesTokenCount": 239,
+    "totalTokenCount": 4141,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 2445
+     }
+    ],
+    "thoughtsTokenCount": 1457,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m07",
+   "block": "m7-p17",
+   "code": "EU",
+   "text": "In the EU, no centrally authorised medicine containing BPC-157 was found in the Union Register or in EMA's data on authorised, refused and withdrawn medicines (searched 25 September 2026).",
+   "claimIds": [
+    "j-eu-22"
+   ],
+   "supported": true,
+   "unsupported": [],
+   "rewrite": "In the EU, no centrally authorised medicine containing BPC-157 was found in the Union Register or in EMA's data on authorised, refused and withdrawn medicines (searched 25 September 2026).",
+   "usage": {
+    "promptTokenCount": 1111,
+    "candidatesTokenCount": 70,
+    "totalTokenCount": 1624,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1111
+     }
+    ],
+    "thoughtsTokenCount": 443,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m07",
+   "block": "m7-p17",
+   "code": "PT",
+   "text": "In Portugal, no medicine containing BPC-157 is listed in INFARMED's Infomed register, which includes authorised, lapsed and revoked products (searched 25 September 2026), so it has no marketing authorisation valid in Portugal. A compounded medicine may use only raw materials listed in the Portuguese or European pharmacopoeia, another European pharmacopoeia or compendial scientific documentation (Decreto-Lei 95/2004, Art 6).",
+   "claimIds": [
+    "j-pt-36",
+    "j-pt-22"
+   ],
+   "supported": false,
+   "unsupported": [
+    {
+     "clause": "so it has no marketing authorisation valid in Portugal",
+     "reason": "This is an inferred conclusion ('so'); the primary source only records the absence of results in the Infomed search."
+    },
+    {
+     "clause": "Art 6",
+     "reason": "Article 6 is not mentioned in the quote or source metadata (it appears only in the research statement, which is not evidence)."
+    }
+   ],
+   "rewrite": "In Portugal, no medicine containing BPC-157 is listed in INFARMED's Infomed register, which includes authorised, lapsed and revoked products (searched 25 September 2026). A compounded medicine may use only raw materials listed in the Portuguese or European pharmacopoeia, another European pharmacopoeia or compendial scientific documentation (Decreto-Lei 95/2004).",
+   "usage": {
+    "promptTokenCount": 1587,
+    "candidatesTokenCount": 213,
+    "totalTokenCount": 3064,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1587
+     }
+    ],
+    "thoughtsTokenCount": 1264,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m07",
+   "block": "m7-p17",
+   "code": "BR",
+   "text": "In Brazil, ANVISA stated on 2 July 2026 that BPC-157 is not registered as a medicine and is not authorised as a food supplement, and that any substance must have passed efficacy and safety assessment before it can be compounded.",
+   "claimIds": [
+    "j-br-29",
+    "j-br-18"
+   ],
+   "supported": false,
+   "unsupported": [
+    {
+     "clause": "BPC-157 is not registered as a medicine",
+     "reason": "The quotes state that BPC-157 is not authorised for use as a food supplement and that substances must undergo safety and efficacy assessments to be compounded, but neither quote states that BPC-157 is not registered as a medicine."
+    }
+   ],
+   "rewrite": "In Brazil, ANVISA stated on 2 July 2026 that BPC-157 is not authorised for use as a food supplement, and that any substance must have passed efficacy and safety assessment before it can be compounded.",
+   "usage": {
+    "promptTokenCount": 870,
+    "candidatesTokenCount": 156,
+    "totalTokenCount": 1621,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 870
+     }
+    ],
+    "thoughtsTokenCount": 595,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m07",
+   "block": "m7-p17",
+   "code": "AE",
+   "text": "In the UAE, no registered product containing BPC-157 was found in the register of the Emirates Drug Establishment (EDE), the federal regulator of medical products since Federal Decree-Law 28/2023 (searched 25 September 2026). In Dubai, the DHA prohibits any peptide product that is not registered or licensed with the EDE (29 July 2026). In Abu Dhabi, the DoH's compounding standard (August 2026) treats peptides as emerging, high-risk substances and lets novel substances of unknown risk be compounded only if monographed, a component of an approved medicine or listed on the DoH Registry for Compounded Substances.",
+   "claimIds": [
+    "j-ae-34",
+    "j-ae-44",
+    "j-ae-39",
+    "j-ae-12"
+   ],
+   "supported": false,
+   "unsupported": [
+    {
+     "clause": "treats peptides as emerging, high-risk substances",
+     "reason": "The quote (j-ae-44) states that substances such as peptides are defined by risk signature and 'Treated as high-risk and non-default', but does not mention or support the term 'emerging' (which appears only in the non-evidence research statement)."
+    }
+   ],
+   "rewrite": "In the UAE, no registered product containing BPC-157 was found in the register of the Emirates Drug Establishment (EDE), the federal regulator of medical products since Federal Decree-Law 28/2023 (searched 25 September 2026). In Dubai, the DHA prohibits any peptide product that is not registered or licensed with the EDE (29 July 2026). In Abu Dhabi, the DoH's compounding standard (August 2026) treats peptides as high-risk substances and lets novel substances of unknown risk be compounded only if monographed, a component of an approved medicine or listed on the DoH Registry for Compounded Substances.",
+   "usage": {
+    "promptTokenCount": 2057,
+    "candidatesTokenCount": 259,
+    "totalTokenCount": 4120,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 2057
+     }
+    ],
+    "thoughtsTokenCount": 1804,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m07",
+   "block": "m7-p18",
+   "code": "EU",
+   "text": "In the EU, a member state may, under its own legislation, allow an unauthorised medicine for an individual patient on a bona fide unsolicited order from an authorised health professional, under that professional's direct personal responsibility (Directive 2001/83/EC, Article 5(1)).",
+   "claimIds": [
+    "j-eu-40"
+   ],
+   "supported": true,
+   "unsupported": [],
+   "rewrite": "In the EU, a member state may, under its own legislation, allow an unauthorised medicine for an individual patient on a bona fide unsolicited order from an authorised health professional, under that professional's direct personal responsibility (Directive 2001/83/EC, Article 5(1)).",
+   "usage": {
+    "promptTokenCount": 840,
+    "candidatesTokenCount": 85,
+    "totalTokenCount": 1604,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 840
+     }
+    ],
+    "thoughtsTokenCount": 679,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m07",
+   "block": "m7-p18",
+   "code": "PT",
+   "text": "In Portugal, a physician who prescribes a magistral formula must satisfy themselves of its safety and efficacy, including possible interactions (Decreto-Lei 95/2004, Art 3(1)), and a patient-specific exceptional-use authorisation (AUE) always needs an individual clinical justification that the medicine is indispensable (Deliberação 840/2023, 31 August 2023).",
+   "claimIds": [
+    "j-pt-35",
+    "j-pt-41"
+   ],
+   "supported": false,
+   "unsupported": [
+    {
+     "clause": "Art 3(1)",
+     "reason": "The specific article number 'Art 3(1)' does not appear in the quote or source metadata (it is only present in the research statement, which cannot be used as evidence)."
+    }
+   ],
+   "rewrite": "In Portugal, a physician who prescribes a magistral formula must satisfy themselves of its safety and efficacy, including possible interactions (Decreto-Lei 95/2004), and a patient-specific exceptional-use authorisation (AUE) always needs an individual clinical justification that the medicine is indispensable (Deliberação 840/2023, 31 August 2023).",
+   "usage": {
+    "promptTokenCount": 1125,
+    "candidatesTokenCount": 172,
+    "totalTokenCount": 2369,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1125
+     }
+    ],
+    "thoughtsTokenCount": 1072,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m07",
+   "block": "m7-p18",
+   "code": "BR",
+   "text": "In Brazil, ANVISA stated in September 2025 that using an unregistered imported medicine is entirely the responsibility of the patient and the prescribing physician, and in April 2025 that off-label prescribing of a registered medicine rests on the physician's judgment that, for a given patient, benefits outweigh risks.",
+   "claimIds": [
+    "j-br-39",
+    "j-br-33"
+   ],
+   "supported": true,
+   "unsupported": [],
+   "rewrite": "In Brazil, ANVISA stated in September 2025 that using an unregistered imported medicine is entirely the responsibility of the patient and the prescribing physician, and in April 2025 that off-label prescribing of a registered medicine rests on the physician's judgment that, for a given patient, benefits outweigh risks.",
+   "usage": {
+    "promptTokenCount": 858,
+    "candidatesTokenCount": 89,
+    "totalTokenCount": 1428,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 858
+     }
+    ],
+    "thoughtsTokenCount": 481,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "module": "m07",
+   "block": "m7-p18",
+   "code": "AE",
+   "text": "In the UAE, Federal Decree-Law 38 of 2024 allows prescribing outside a product's leaflet, or a product never submitted to the Emirates Drug Establishment (EDE, the federal regulator of medical products since Federal Decree-Law 28/2023) for marketing approval, only when necessary, with no equivalent alternative available and with the patient's approval (Art. 42(1)). In Abu Dhabi, the DoH requires a documented eligibility assessment before peptide therapy and documented informed consent covering expected benefits, uncertainties, risks, alternatives and the product's regulatory approval status (31 July 2026). In Dubai, the DHA does not permit injections or intravenous therapies for 'wellness', 'recovery', 'detoxification' or 'energy enhancement' without a documented medical indication and treatment plan (29 July 2026).",
+   "claimIds": [
+    "j-ae-34",
+    "j-ae-37",
+    "j-ae-79",
+    "j-ae-78"
+   ],
+   "supported": true,
+   "unsupported": [],
+   "rewrite": "In the UAE, Federal Decree-Law 38 of 2024 allows prescribing outside a product's leaflet, or a product never submitted to the Emirates Drug Establishment (EDE, the federal regulator of medical products since Federal Decree-Law 28/2023) for marketing approval, only when necessary, with no equivalent alternative available and with the patient's approval (Art. 42(1)). In Abu Dhabi, the DoH requires a documented eligibility assessment before peptide therapy and documented informed consent covering expected benefits, uncertainties, risks, alternatives and the product's regulatory approval status (31 July 2026). In Dubai, the DHA does not permit injections or intravenous therapies for 'wellness', 'recovery', 'detoxification' or 'energy enhancement' without a documented medical indication and treatment plan (29 July 2026).",
+   "usage": {
+    "promptTokenCount": 1971,
+    "candidatesTokenCount": 205,
+    "totalTokenCount": 2799,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1971
+     }
+    ],
+    "thoughtsTokenCount": 623,
+    "serviceTier": "standard"
+   }
+  }
+ ]
+}

@@ -126,7 +126,7 @@
     "en": "How will you use this module?"
    },
    "body": {
-    "en": "The evidence, grades and regulatory status are the same for everyone. What changes is the 'what you do next' at the end of each lesson, so it fits what your licence lets you do."
+    "en": "The evidence and grades are the same for everyone, and regulatory notes follow the country you choose. What changes with your role is the 'what you do next' at the end of each lesson, so it fits what your licence lets you do."
    },
    "reflection": {
     "prompt": {
@@ -310,11 +310,9 @@
     "fda-503a-bulks-page",
     "hannah-shmouni-2026-ppg-aug",
     "hannah-shmouni-2026-are",
-    "mazurowska-2008-copper-peptide-penetration",
-    "uk-cosmetics-reg-1223-2009-art2",
-    "mhra-gn8-medicinal-product-2025"
+    "mazurowska-2008-copper-peptide-penetration"
    ],
-   "sourceNote": "Registry m04 · FDA 503A category list, updated 14 May 2026 · UK Cosmetics Regulation art. 2 · MHRA Guidance Note 8",
+   "sourceNote": "FDA 503A category list, updated 14 May 2026",
    "tool": {
     "items": [
      {
@@ -341,13 +339,13 @@
      },
      {
       "label": {
-       "en": "Regulatory status (US, 14 May 2026; UK, September 2026)"
+       "en": "Regulatory status (US, 14 May 2026)"
       },
       "value": {
        "en": "Non-injectable: 503A Category 1"
       },
       "note": {
-       "en": "Category 1 means FDA is still evaluating and does not intend to act against compounders who meet its conditions; an advisory-committee consultation is planned before the end of February 2027. The injectable route has no such standing. In the UK, a GHK-Cu serum sold for appearance is a cosmetic, and cosmetics law excludes anything injected."
+       "en": "Category 1 means FDA is still evaluating and does not intend to act against compounders who meet its conditions; an advisory-committee consultation is planned before the end of February 2027. The injectable route has no such standing."
       }
      },
      {
@@ -365,6 +363,59 @@
     "callout": {
      "en": "A strong mechanism is not a strong trial, and a Category 1 listing is not an approval."
     }
+   },
+   "metadata": {
+    "variants": {
+     "jurisdiction": {
+      "GB": {
+       "text": {
+        "en": "In the UK, a GHK-Cu serum sold for appearance is a cosmetic, and cosmetics law excludes anything injected (September 2026)."
+       },
+       "citationRefs": [
+        "uk-cosmetics-reg-1223-2009-art2",
+        "mhra-gn8-medicinal-product-2025"
+       ]
+      },
+      "EU": {
+       "text": {
+        "en": "In the EU, copper tripeptide-1 is listed in the Commission's CosIng inventory with a skin-conditioning function (read 25 September 2026). No centrally authorised medicine containing GHK-Cu was found in the Union Register or in EMA's data on authorised, refused and withdrawn medicines (searched 25 September 2026)."
+       },
+       "citationRefs": [
+        "eu-cosing-copper-tripeptide-1",
+        "eu-cosing-home",
+        "eu-ema-medicines-data",
+        "eu-union-register"
+       ]
+      },
+      "PT": {
+       "text": {
+        "en": "In Portugal, no medicine containing GHK-Cu is listed in INFARMED's Infomed register, which includes authorised, lapsed and revoked products (searched 25 September 2026)."
+       },
+       "citationRefs": [
+        "pt-infomed"
+       ]
+      },
+      "BR": {
+       "text": {
+        "en": "In Brazil, ANVISA stated on 2 July 2026 that products presented as peptides called GHK-Cu that promise aesthetic effects or improvement in health conditions are not registered with Anvisa."
+       },
+       "citationRefs": [
+        "br-anvisa-peptides-2026"
+       ]
+      },
+      "AE": {
+       "text": {
+        "en": "In the UAE, the Emirates Drug Establishment (EDE) has held medicines registration since Federal Decree-Law 28/2023, and no registered medical product matching GHK, prezatide, copper tripeptide or copper peptide was found in the EDE register (25 September 2026). In Dubai, the DHA's rules for health facilities prohibit circulating, prescribing, dispensing, administering or using any peptide product unless it is registered or licensed with the EDE (29 July 2026); in Abu Dhabi, the DoH classes topical cosmetic peptides with no systemic effect as low-risk products that stay under existing regulatory pathways, while systemic, regenerative or weakly evidenced peptides face enhanced controls (31 July 2026)."
+       },
+       "citationRefs": [
+        "ae-fdl-28-2023",
+        "ae-ede-register",
+        "ae-dha-cir-peptides-2026",
+        "ae-doh-cir-148-2026"
+       ]
+      }
+     }
+    }
    }
   },
   {
@@ -378,7 +429,7 @@
     "en": "Serum yes, syringe no."
    },
    "body": {
-    "en": "Topical GHK-Cu is a reasonable cosmetic conversation at GRADE C. Injected GHK-Cu is a different product: no randomized trials, injection-site pain and rash are common because copper irritates tissue, and in the US the injectable route sits outside the Category 1 listing. In the UK, anything injected falls outside cosmetics law, and MHRA decides whether it is a medicine from its claims, form and use."
+    "en": "Topical GHK-Cu is a reasonable cosmetic conversation at GRADE C. Injected GHK-Cu is a different product: no randomized trials, injection-site pain and rash are common because copper irritates tissue, and in the US the injectable route sits outside the Category 1 listing."
    },
    "points": [
     {
@@ -395,25 +446,74 @@
     "hannah-shmouni-2026-ppg-aug",
     "hannah-shmouni-2026-are",
     "li-2016-copper-skin-toxicity",
-    "fda-503a-categories-2026-05-14",
-    "uk-cosmetics-reg-1223-2009-art2",
-    "mhra-gn8-medicinal-product-2025"
+    "fda-503a-categories-2026-05-14"
    ],
-   "sourceNote": "Peptide Pocket Guide · Aesthetic & Regenerative Endocrinology, ch. 15 · FDA 503A categories · UK Cosmetics Regulation art. 2 · MHRA Guidance Note 8",
+   "sourceNote": "Peptide Pocket Guide · Aesthetic & Regenerative Endocrinology, ch. 15 · FDA 503A categories",
    "metadata": {
     "audioScript": {
-     "en": "Here is what that means in the room. Topical GHK-Cu is a reasonable cosmetic conversation, as long as you describe the evidence honestly: small trials, modest effects, grade C. Injected GHK-Cu is not the same product in a stronger form. There are no randomized trials of injection, injection-site pain and rash are common because copper irritates tissue, and in the United States the injectable route sits outside the Category 1 listing that covers non-injectable use. In the United Kingdom, anything injected falls outside cosmetics law, and MHRA decides whether such a product is a medicine. Whatever your role, name the route every time you talk about this peptide."
+     "en": "Here is what that means in the room. Topical GHK-Cu is a reasonable cosmetic conversation, as long as you describe the evidence honestly: small trials, modest effects, grade C. Injected GHK-Cu is not the same product in a stronger form. There are no randomized trials of injection, injection-site pain and rash are common because copper irritates tissue, and in the United States the injectable route sits outside the Category 1 listing that covers non-injectable use. Whatever your role, name the route every time you talk about this peptide."
     },
     "variants": {
      "audienceLevel": {
       "prescriber": {
-       "en": "In the US, before prescribing a compounded topical, confirm the substance's current 503A status and that the pharmacy is working within it; in the UK, a GHK-Cu serum presented for appearance is a cosmetic, so there is nothing to prescribe. Do not prescribe GHK-Cu for injection. Record that you discussed a product with small-trial evidence and the patient's reasons for choosing it."
+       "en": "In the US, before prescribing a compounded topical, confirm the substance's current 503A status and that the pharmacy is working within it. Do not prescribe GHK-Cu for injection. Record that you discussed a product with small-trial evidence and the patient's reasons for choosing it."
       },
       "clinical-staff": {
        "en": "If a patient tells you they inject GHK-Cu, record the product, where it was bought and any site reactions, and bring it to the prescriber. Do not advise on amounts or technique."
       },
       "advisor": {
        "en": "Describe topical GHK-Cu products as cosmetics with modest, small-trial support. Anyone injecting a copper peptide should be pointed to a prescriber, not to a better supplier."
+      }
+     },
+     "jurisdiction": {
+      "GB": {
+       "text": {
+        "en": "In the UK, anything injected falls outside cosmetics law, and MHRA decides whether it is a medicine from its claims, form and use. In the UK, a GHK-Cu serum presented for appearance is a cosmetic, so there is nothing to prescribe."
+       },
+       "citationRefs": [
+        "uk-cosmetics-reg-1223-2009-art2",
+        "mhra-gn8-medicinal-product-2025"
+       ]
+      },
+      "EU": {
+       "text": {
+        "en": "In the EU, a substance or mixture intended to be injected is not considered a cosmetic product (Regulation (EC) No 1223/2009, Article 2(2)); the EU borderline manual adds that a product in a vial or ampoule for use by injection cannot be considered a cosmetic product, and should not be marketed with a device that could allow injection or delivery below the epidermis. Whether a product qualifies as a cosmetic is decided case by case by national competent authorities, and the manual says an anti-wrinkle product that significantly restores, corrects or modifies physiological functions by exerting a pharmacological, immunological or metabolic action does not qualify as one (version 5.5, June 2025)."
+       },
+       "citationRefs": [
+        "eu-reg-1223-2009",
+        "eu-ec-cosmetics-borderline-manual-2025",
+        "eu-reg-1223-2009-oj"
+       ]
+      },
+      "PT": {
+       "text": {
+        "en": "In Portugal, INFARMED states that products administered by injection are not considered cosmetics (as of 25 September 2026), and medicines intended for parenteral administration are subject to medical prescription by law (Estatuto do Medicamento, Art 114(1)(d))."
+       },
+       "citationRefs": [
+        "pt-infarmed-cosmetics-faq",
+        "pt-dl176-2006"
+       ]
+      },
+      "BR": {
+       "text": {
+        "en": "In Brazil, ANVISA stated on 2 July 2026 that injectable cosmetics do not exist; an injectable product offered as a cosmetic is irregular. Products with 'GHK' in the product name appear as notified cosmetics in ANVISA's public cosmetics data (221 entries, 25 September 2026), and ANVISA cancelled several GHK-Cu cosmetic processes on 29 April 2026 without published reasons (RE 1.771/2026)."
+       },
+       "citationRefs": [
+        "br-anvisa-peptides-2026",
+        "br-anvisa-cosmetics-opendata",
+        "br-dou-re-1771-2026"
+       ]
+      },
+      "AE": {
+       "text": {
+        "en": "In the UAE, the medicines law (Federal Decree-Law 38 of 2024) defines cosmetics as products with a medical effect on the skin, hair or nails, and whether a product requires an Emirates Drug Establishment (EDE) marketing authorisation, and in which category, is determined by an EDE classification letter based on its presentation, composition, use and design. In Dubai, peptide products may be prescribed, dispensed or administered only by licensed, authorised professionals in a licensed health facility (DHA, 29 July 2026); in Abu Dhabi, physicians may prescribe peptide therapies only for clinical indications supported by available scientific evidence, after a documented eligibility assessment and with informed consent that covers benefits, uncertainties, risks, alternatives and the product's regulatory approval status (DoH, 31 July 2026)."
+       },
+       "citationRefs": [
+        "ae-fdl-38-2024",
+        "ae-ede-svc-classification",
+        "ae-dha-cir-peptides-2026",
+        "ae-doh-cir-148-2026"
+       ]
       }
      }
     }
@@ -797,7 +897,7 @@
     "en": "Cosmetic, supplement, drug: three rulebooks."
    },
    "body": {
-    "en": "In the US, cosmetic peptides are cosmetic ingredients, not drugs, and their safety is assessed under a cosmetics framework. Oral collagen is a dietary supplement: it may not claim to treat disease, and product quality and content vary. Neither route has to prove efficacy before sale — which is why the funding question matters. In the UK, a peptide serum is a cosmetic: its responsible person needs a safety assessment and must notify the regulator before sale, and must be able to prove its claims. Oral collagen is a food supplement: no food may claim to prevent, treat or cure disease, and only authorised health claims may be used. In May 2026 the UK advertising regulator ruled a peptide serum's 'clinically proven' lifting claim misleading because the study behind it was small and uncontrolled."
+    "en": "In the US, cosmetic peptides are cosmetic ingredients, not drugs, and their safety is assessed under a cosmetics framework. Oral collagen is a dietary supplement: it may not claim to treat disease, and product quality and content vary. Neither route has to prove efficacy before sale — which is why the funding question matters."
    },
    "points": [
     {
@@ -814,20 +914,12 @@
     "bjerke-2026-cosmetic-peptide-safety-framework",
     "lupo-cole-2007-cosmeceutical-peptides",
     "hannah-shmouni-2026-are",
-    "hannah-shmouni-2026-ppg-aug",
-    "uk-cosmetics-reg-1223-2009-art2",
-    "uk-cosmetics-reg-1223-2009-art20",
-    "opss-cosmetics-gb-guidance",
-    "uk-food-supplements-england-2003-reg2",
-    "uk-fic-1169-2011-art7",
-    "uk-nhc-1924-2006-art10",
-    "mhra-gn8-medicinal-product-2025",
-    "asa-ruling-111skin-2026"
+    "hannah-shmouni-2026-ppg-aug"
    ],
-   "sourceNote": "Bjerke 2026 · Aesthetic & Regenerative Endocrinology · Pocket Guide · UK: Cosmetics Regulation 1223/2009 arts 2 and 20 · OPSS guidance · Food Supplements (England) Regulations 2003 · Regulation 1169/2011 art. 7 · Regulation 1924/2006 art. 10 · MHRA Guidance Note 8 · ASA ruling, 13 May 2026",
+   "sourceNote": "Bjerke 2026 · Aesthetic & Regenerative Endocrinology · Pocket Guide",
    "metadata": {
     "audioScript": {
-     "en": "Now the regulatory register, stated for the United States. Cosmetic peptides are cosmetic ingredients, not drugs; their safety is assessed under a cosmetics framework, and nobody has to prove they work before they are sold. Oral collagen is sold as a dietary supplement, so it cannot claim to treat a disease, and what is in the tub varies from brand to brand. That is the whole reason the funding question matters here. When no regulator asks for efficacy, the only efficacy data are the trials someone chose to pay for. The United Kingdom works the same way in outline. A peptide serum is a cosmetic, and its responsible person must hold a safety assessment and evidence for its claims before it goes on sale. Oral collagen is a food supplement, and no food may claim to prevent, treat or cure a disease. In May 2026 the UK advertising regulator ruled against a serum's clinically proven lifting claim, built on a small study with no control group."
+     "en": "Now the regulatory register, stated for the United States. Cosmetic peptides are cosmetic ingredients, not drugs; their safety is assessed under a cosmetics framework, and nobody has to prove they work before they are sold. Oral collagen is sold as a dietary supplement, so it cannot claim to treat a disease, and what is in the tub varies from brand to brand. That is the whole reason the funding question matters here. When no regulator asks for efficacy, the only efficacy data are the trials someone chose to pay for."
     },
     "variants": {
      "audienceLevel": {
@@ -839,6 +931,74 @@
       },
       "advisor": {
        "en": "The claim you can stand behind is modest, small-trial evidence. Supplements cannot be sold as treating a disease; if a patient expects collagen to fix a skin condition, that is a conversation for a prescriber."
+      }
+     },
+     "jurisdiction": {
+      "GB": {
+       "text": {
+        "en": "In the UK, a peptide serum is a cosmetic: its responsible person needs a safety assessment and must notify the regulator before sale, and must be able to prove its claims. Oral collagen is a food supplement: no food may claim to prevent, treat or cure disease, and only authorised health claims may be used. In May 2026 the UK advertising regulator ruled a peptide serum's 'clinically proven' lifting claim misleading because the study behind it was small and uncontrolled."
+       },
+       "citationRefs": [
+        "uk-cosmetics-reg-1223-2009-art2",
+        "uk-cosmetics-reg-1223-2009-art20",
+        "opss-cosmetics-gb-guidance",
+        "uk-food-supplements-england-2003-reg2",
+        "uk-fic-1169-2011-art7",
+        "uk-nhc-1924-2006-art10",
+        "mhra-gn8-medicinal-product-2025",
+        "asa-ruling-111skin-2026"
+       ]
+      },
+      "EU": {
+       "text": {
+        "en": "In the EU, a peptide serum sold as a cosmetic needs a responsible person in the EU, a safety assessment with a product safety report and electronic notification to the Commission before it is placed on the market (Regulation (EC) No 1223/2009), and its claims must be supported by adequate and verifiable evidence (Regulation (EU) No 655/2013). Food labelling and advertising may not claim that a food prevents, treats or cures a disease, and health claims on foods are prohibited unless authorised: the Commission refused a claim that a collagen peptide mixture maintains skin health by increasing elasticity and reducing wrinkles, because cause and effect was not established (Regulation (EU) No 1154/2014), and the EU Register lists no authorised claim for collagen itself (searched 25 September 2026)."
+       },
+       "citationRefs": [
+        "eu-reg-1223-2009",
+        "eu-reg-655-2013",
+        "eu-reg-1169-2011",
+        "eu-reg-1924-2006",
+        "eu-reg-1154-2014",
+        "eu-claims-register"
+       ]
+      },
+      "PT": {
+       "text": {
+        "en": "In Portugal, INFARMED is the competent authority for cosmetics (Decreto-Lei 23/2025), and borderline products must be assessed case by case by the Responsible Person, taking all their characteristics into account (INFARMED, as of 25 September 2026). For food supplement notification, there is no evaluation of the product or validation of labelling; control is carried out afterwards by sampling and may take place at any time (DGAV, as of 25 September 2026)."
+       },
+       "citationRefs": [
+        "pt-dl23-2025",
+        "pt-infarmed-cosmetics-faq",
+        "pt-dgav-notification",
+        "pt-dgav-supplements"
+       ]
+      },
+      "BR": {
+       "text": {
+        "en": "In Brazil, cosmetic labelling must not contain trade names, brands, images, electronic links or wording that represent therapeutic claims attributed to the use of the product or its ingredients (RDC 907/2024, art. 12). Under ANVISA's January 2025 food supplement guidance, an approved claim is that bioactive hydrolysed collagen peptides with an average molecular weight of 2 kDa help maintain skin health."
+       },
+       "citationRefs": [
+        "br-rdc-907-2024",
+        "br-anvisa-supplements-ingredients",
+        "br-anvisa-supplements-qa-2025",
+        "br-rdc-243-2018"
+       ]
+      },
+      "AE": {
+       "text": {
+        "en": "In the UAE, the medicines law (Federal Decree-Law 38 of 2024) treats food supplements, oral products that support the diet and do not treat, diagnose or prevent disease, as medical products regulated by the Emirates Drug Establishment (EDE): oral collagen products are registered with the EDE as general-sale-list health products rather than medicines, while ordinary cosmetics need a conformity certificate from the Ministry of Industry and Advanced Technology under Cabinet Resolution 18/2014. Advertising any medical product, social media included, requires EDE approval. In Dubai, the DHA's rules for health facilities ban misleading or unproven peptide claims, such as anti-ageing, cell regeneration or improved appearance, unless the use is within the product's approved status (29 July 2026); in Abu Dhabi, the DoH bars healthcare providers from promoting peptide therapies with misleading or unsubstantiated claims, or advertising them without prior approval from the DoH and relevant authorities (31 July 2026)."
+       },
+       "citationRefs": [
+        "ae-fdl-38-2024",
+        "ae-ede-svc-healthcare-product",
+        "ae-ede-reg-collafix",
+        "ae-ede-reg-centrum-shn",
+        "ae-ede-register",
+        "ae-moiat-regulated-products",
+        "ae-moiat-ecas-service",
+        "ae-dha-cir-peptides-2026",
+        "ae-doh-cir-148-2026"
+       ]
       }
      }
     }
@@ -1120,7 +1280,7 @@
     "en": "Where does it stand in the US?"
    },
    "body": {
-    "en": "Three US categories, dated to the FDA's category list of 14 May 2026 and the advisory-committee meeting of 23–24 July 2026. The committee's votes are advice; FDA must still act through rulemaking before anything joins the bulks list. FDA has sent warning letters naming GHK-Cu and BPC-157 on exactly this basis. If you practise in the UK, the route for unlicensed medicines works differently, and lesson 7.2 sets it out."
+    "en": "Three US categories, dated to the FDA's category list of 14 May 2026 and the advisory-committee meeting of 23–24 July 2026. The committee's votes are advice; FDA must still act through rulemaking before anything joins the bulks list. FDA has sent warning letters naming GHK-Cu and BPC-157 on exactly this basis."
    },
    "citationRefs": [
     "fda-503a-categories-2026-05-14",
@@ -1128,8 +1288,7 @@
     "federal-register-2026-07361-pcac",
     "fda-pcac-2026-07-meeting",
     "fda-warning-letter-tailor-made-2020",
-    "hannah-shmouni-2026-are",
-    "mhra-gn14-specials-2023"
+    "hannah-shmouni-2026-are"
    ],
    "sourceNote": "FDA 503A categories (14 May 2026) · 91 FR 20465 · PCAC 23–24 Jul 2026 · FDA warning letter 2020",
    "tool": {
@@ -1275,6 +1434,57 @@
      "hannah-shmouni-2026-ppg-aug"
     ],
     "source": "authored:2026-09-24 from m4-p16.tool.items"
+   },
+   "metadata": {
+    "variants": {
+     "jurisdiction": {
+      "GB": {
+       "text": {
+        "en": "If you practise in the UK, the route for unlicensed medicines works differently, and lesson 7.2 sets it out."
+       },
+       "citationRefs": [
+        "mhra-gn14-specials-2023"
+       ]
+      },
+      "EU": {
+       "text": {
+        "en": "In the EU, a medicine prepared in a pharmacy on prescription for an individual patient (magistral formula), or to a pharmacopoeia for the pharmacy's own patients (officinal formula), falls outside Directive 2001/83/EC and needs no marketing authorisation under it (Article 3), and each member state may, under its own law, allow an unauthorised medicine for an individual patient on a professional's bona fide unsolicited order, under that professional's direct personal responsibility (Article 5(1)). No centrally authorised medicine containing GHK-Cu, BPC-157 or TB-500 was found in the Union Register or in EMA's data on authorised, refused and withdrawn medicines (searched 25 September 2026)."
+       },
+       "citationRefs": [
+        "eu-dir-2001-83",
+        "eu-ema-medicines-data",
+        "eu-union-register"
+       ]
+      },
+      "PT": {
+       "text": {
+        "en": "In Portugal, a magistral formula is a medicine prepared in a community or hospital pharmacy, under a pharmacist's responsibility, on a medical prescription that names the patient, and the prescribing physician must satisfy themselves of its safety and efficacy (Decreto-Lei 95/2004). Compounded medicines may use only raw materials listed in the Portuguese pharmacopoeia, the European pharmacopoeia or another European pharmacopoeia, or in compendial scientific documentation, and one containing any other raw material may not be prescribed."
+       },
+       "citationRefs": [
+        "pt-dl95-2004",
+        "pt-infarmed-manipulados"
+       ]
+      },
+      "BR": {
+       "text": {
+        "en": "In Brazil, ANVISA stated on 2 July 2026 that any substance must have passed efficacy and safety assessment before it can be compounded, and that compounding may only be individual, on presentation of a medical prescription, by a compounding pharmacy licensed by local health surveillance. The same notice says BPC-157 and TB-500 are not authorised as food supplements, and that products presented as peptides called GHK-CU, BPC-157, and TB-500 promising aesthetic effects or health improvements are not registered with ANVISA."
+       },
+       "citationRefs": [
+        "br-anvisa-peptides-2026"
+       ]
+      },
+      "AE": {
+       "text": {
+        "en": "In the UAE, the medicines law (Federal Decree-Law 38 of 2024, in force 2 January 2025) exempts medical products compounded in licensed compounding pharmacies from the requirement for a marketing approval from the Emirates Drug Establishment (EDE). In Dubai, the DHA's rules for health facilities prohibit circulating, prescribing, dispensing, administering or using any peptide product unless it is registered or licensed with the EDE (29 July 2026); in Abu Dhabi, the DoH treats peptides as emerging, non-monographed, high-risk substances, and novel substances of unknown risk may be compounded only if monographed, a component of an approved medicine or listed on the DoH's register of compounded substances (compounding standard, August 2026)."
+       },
+       "citationRefs": [
+        "ae-fdl-38-2024",
+        "ae-dha-cir-peptides-2026",
+        "ae-doh-compounding-std-2026"
+       ]
+      }
+     }
+    }
    }
   },
   {
@@ -1370,6 +1580,46 @@
       },
       "advisor": {
        "en": "You advise her to stop, keep the vial and packaging, and see a prescriber promptly; you do not suggest an alternative supplier."
+      }
+     },
+     "jurisdiction": {
+      "EU": {
+       "text": {
+        "en": "In the EU, a product presented as treating or preventing disease, or used to restore, correct or modify physiological functions by a pharmacological, immunological or metabolic action, is a medicine, and where a product could be both a medicine and another regulated product, medicines law applies (Directive 2001/83/EC, Articles 1(2) and 2(2)). No medicine may be placed on a member state's market without a national or EU-wide marketing authorisation (Article 6(1)), and the directive's exclusion for research concerns medicinal products intended for research and development trials (Article 3(3))."
+       },
+       "citationRefs": [
+        "eu-dir-2001-83"
+       ]
+      },
+      "PT": {
+       "text": {
+        "en": "In Portugal, a medicine is defined as any substance or combination of substances presented as having properties for treating or preventing disease or used in or administered to human beings to restore, correct or modify physiological functions by exerting a pharmacological, immunological or metabolic action, and making, selling, supplying or administering a medicine without the required authorisation is an administrative offence (Estatuto do Medicamento, Arts 3 and 181). No medicine containing GHK-Cu, BPC-157 or TB-500 is listed in INFARMED's Infomed register, which includes authorised, lapsed and revoked products (searched 25 September 2026), and INFARMED does not authorise the import of medicines for personal use (Circular 148/CD, 29 July 2011)."
+       },
+       "citationRefs": [
+        "pt-dl176-2006",
+        "pt-infomed",
+        "pt-infarmed-circ148-2011"
+       ]
+      },
+      "BR": {
+       "text": {
+        "en": "In Brazil, ANVISA stated on 2 July 2026 that products presented as peptides called BPC-157, TB-500 and GHK-Cu are not registered, and that some injectable peptides not regularised in any category (food, medicine, cosmetic or food supplement) are illegal for any health use, including aesthetic use. ANVISA also stated in July 2026 that an investigational medicine is used exclusively in authorised clinical research."
+       },
+       "citationRefs": [
+        "br-anvisa-peptides-2026",
+        "br-anvisa-medicine-types-2026"
+       ]
+      },
+      "AE": {
+       "text": {
+        "en": "In the UAE, the medicines law (Federal Decree-Law 38 of 2024) has, since 2 January 2025, barred importing, distributing, possessing, selling, using or manufacturing any medical product for circulation without a marketing approval from the Emirates Drug Establishment (EDE), and no registered medical product matching GHK-Cu, BPC-157 or TB-500 was found in the EDE register (25 September 2026). In Dubai, the DHA's rules for health facilities prohibit using any peptide product intended for research use on humans, or for therapeutic purposes, outside a study or clinical trial approved by the competent authority, and bar buying, accepting or using peptide products from websites, social media, individual accounts or unlicensed or unverifiable suppliers (29 July 2026). In Abu Dhabi, the DoH requires compounded peptide formulations to use only certified active ingredients imported under EDE oversight, with peptide products traceable from source to patient (31 July 2026)."
+       },
+       "citationRefs": [
+        "ae-fdl-38-2024",
+        "ae-ede-register",
+        "ae-dha-cir-peptides-2026",
+        "ae-doh-cir-148-2026"
+       ]
       }
      }
     },
@@ -1737,6 +1987,207 @@
   ],
   "c-m04-24": [
    "m4-p06"
+  ],
+  "j-ae-12": [
+   "m4-p17"
+  ],
+  "j-ae-13": [
+   "m4-p17"
+  ],
+  "j-ae-18": [
+   "m4-p05",
+   "m4-p17"
+  ],
+  "j-ae-30": [
+   "m4-p11"
+  ],
+  "j-ae-34": [
+   "m4-p05"
+  ],
+  "j-ae-36": [
+   "m4-p16",
+   "m4-p17"
+  ],
+  "j-ae-39": [
+   "m4-p05",
+   "m4-p16"
+  ],
+  "j-ae-40": [
+   "m4-p16"
+  ],
+  "j-ae-44": [
+   "m4-p16"
+  ],
+  "j-ae-46": [
+   "m4-p17"
+  ],
+  "j-ae-47": [
+   "m4-p17"
+  ],
+  "j-ae-51": [
+   "m4-p17"
+  ],
+  "j-ae-53": [
+   "m4-p06"
+  ],
+  "j-ae-54": [
+   "m4-p11"
+  ],
+  "j-ae-55": [
+   "m4-p06"
+  ],
+  "j-ae-56": [
+   "m4-p11"
+  ],
+  "j-ae-59": [
+   "m4-p05"
+  ],
+  "j-ae-60": [
+   "m4-p11"
+  ],
+  "j-ae-63": [
+   "m4-p11"
+  ],
+  "j-ae-66": [
+   "m4-p11"
+  ],
+  "j-ae-70": [
+   "m4-p11"
+  ],
+  "j-ae-78": [
+   "m4-p06"
+  ],
+  "j-ae-79": [
+   "m4-p06"
+  ],
+  "j-br-18": [
+   "m4-p16",
+   "m4-p17"
+  ],
+  "j-br-19": [
+   "m4-p16",
+   "m4-p17"
+  ],
+  "j-br-21": [
+   "m4-p05",
+   "m4-p16",
+   "m4-p17"
+  ],
+  "j-br-27": [
+   "m4-p11"
+  ],
+  "j-br-29": [
+   "m4-p16"
+  ],
+  "j-br-35": [
+   "m4-p17"
+  ],
+  "j-br-36": [
+   "m4-p17"
+  ],
+  "j-br-41": [
+   "m4-p11"
+  ],
+  "j-br-42": [
+   "m4-p06"
+  ],
+  "j-br-44": [
+   "m4-p11"
+  ],
+  "j-eu-22": [
+   "m4-p16"
+  ],
+  "j-eu-23": [
+   "m4-p16"
+  ],
+  "j-eu-25": [
+   "m4-p05",
+   "m4-p16"
+  ],
+  "j-eu-26": [
+   "m4-p05"
+  ],
+  "j-eu-36": [
+   "m4-p11"
+  ],
+  "j-eu-37": [
+   "m4-p16"
+  ],
+  "j-eu-39": [
+   "m4-p17"
+  ],
+  "j-eu-40": [
+   "m4-p16"
+  ],
+  "j-eu-42": [
+   "m4-p17"
+  ],
+  "j-eu-43": [
+   "m4-p17"
+  ],
+  "j-eu-51": [
+   "m4-p06"
+  ],
+  "j-eu-52": [
+   "m4-p06"
+  ],
+  "j-eu-54": [
+   "m4-p06"
+  ],
+  "j-eu-58": [
+   "m4-p11"
+  ],
+  "j-eu-60": [
+   "m4-p11"
+  ],
+  "j-eu-64": [
+   "m4-p11"
+  ],
+  "j-eu-66": [
+   "m4-p11"
+  ],
+  "j-pt-22": [
+   "m4-p17"
+  ],
+  "j-pt-23": [
+   "m4-p17"
+  ],
+  "j-pt-25": [
+   "m4-p05",
+   "m4-p17"
+  ],
+  "j-pt-32": [
+   "m4-p11"
+  ],
+  "j-pt-34": [
+   "m4-p16"
+  ],
+  "j-pt-35": [
+   "m4-p16"
+  ],
+  "j-pt-36": [
+   "m4-p16"
+  ],
+  "j-pt-44": [
+   "m4-p17"
+  ],
+  "j-pt-46": [
+   "m4-p17"
+  ],
+  "j-pt-49": [
+   "m4-p17"
+  ],
+  "j-pt-51": [
+   "m4-p11"
+  ],
+  "j-pt-53": [
+   "m4-p06"
+  ],
+  "j-pt-54": [
+   "m4-p11"
+  ],
+  "j-pt-67": [
+   "m4-p06"
   ]
  },
  "audienceLevelPanes": [
@@ -2003,6 +2454,48 @@
    "date": "2026-09-25",
    "block": "unit tutorContext",
    "change": "Tutor context adds the UK cosmetic, food-supplement and unlicensed-medicine position (same facts as the blocks).",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m4-p05",
+   "change": "UK text moved verbatim into the UK note (row label back to 'Regulatory status (US, 14 May 2026)'; its 'UK, September 2026' date now closes the note; the UK source ids and the sourceNote's UK part moved from the block to the note). EU, Portugal, Brazil and UAE notes added.",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m4-p06",
+   "change": "UK text moved verbatim into the UK note: the body's UK sentence and the prescriber version's UK clause (removed from the role note, which keeps its US line); the narration's UK sentence removed, so the narration is back to its approved text; UK source ids and the sourceNote's UK part moved from the block to the note. EU, Portugal, Brazil and UAE notes added.",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m4-p11",
+   "change": "UK text moved verbatim into the UK note (the body's three UK sentences); the narration's four UK sentences removed (the earlier 'UK and EU rules are being mapped' line is not restored); UK source ids and the sourceNote's UK part moved from the block to the note. EU, Portugal, Brazil and UAE notes added.",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m4-p16",
+   "change": "UK text moved verbatim into the UK note (the pointer to lesson 7.2, with its MHRA source id). EU, Portugal, Brazil and UAE notes added.",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m4-p17",
+   "change": "EU, Portugal, Brazil and UAE notes added (research-use-only products bought online; registration status of GHK-Cu, BPC-157 and TB-500).",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m4-p02",
+   "change": "Role line no longer says regulatory status is the same for everyone: 'The evidence and grades are the same for everyone, and regulatory notes follow the country you choose. What changes with your role…' (six-jurisdiction course).",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m4-p05",
+   "change": "Source line drops the internal word 'Registry m04 ·'; now reads 'FDA 503A category list, updated 14 May 2026'.",
    "forReview": "Fady Hannah-Shmouni"
   }
  ],

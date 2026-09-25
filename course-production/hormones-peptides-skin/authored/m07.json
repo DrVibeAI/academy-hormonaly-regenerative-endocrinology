@@ -16,7 +16,7 @@
   "sortOrder": 1,
   "isRequired": true,
   "status": "ai_draft",
-  "tutorContext": "Module 7 closes the course: evidence appraisal, US regulatory frameworks and prescriber compliance, kept in separate registers. GRADE: certainty (high, moderate, low, very low; the guides print A–D) for one outcome across a body of evidence, never for a molecule; RCTs start high, observational studies low; rate down for risk of bias, inconsistency, indirectness (study PICO differs from the question), imprecision (CI crosses the important difference) and publication bias (suspect it when evidence is small industry-funded studies); rate up for large effects. Course examples: GHK-Cu's one indexed RCT measured post-laser healing (indirect for photoageing); BPC-157 wound data are rodent (indirect); LL-37 34-person positive then 148-person negative phase IIb (inconsistent); oral collagen benefit only in low-quality and industry-funded trials (risk of bias, Myung 2025). Lundh 2017 Cochrane: industry-sponsored studies more often favourable efficacy results, RR 1.27 (1.17–1.37). Grade and legal status are separate checks; mechanism never raises a grade. US 503A (21 USC 353a): identified patient, prescription; exempt only from approval, adequate directions, cGMP; bulk substance must meet a USP/NF monograph, else be an approved-drug component, else be on the 503A bulks list; registered manufacturer and valid COA; no statutory purity figure. 21 CFR 216.23: six substances, none a peptide, unchanged since 2019 (eCFR current 22 Sep 2026); listing is no endorsement. Categories 1–3 = interim enforcement posture: Category 1 includes non-injectable GHK-Cu (14 May 2026); 503A Category 2 has six substances; BPC-157, TB-500, KPV, injectable GHK-Cu, LL-37, melanotan II are withdrawn nominations with safety concerns still posted. PCAC 23–24 Jul 2026 is advisory; FDA staff concluded criteria weigh against listing BPC-157; only rulemaking changes the list. 503B: registered outsourcing facility, cGMP, risk-based inspection, adverse-event reporting, may compound without patient-specific prescriptions; products unapproved. >40 alpha amino acids = protein = biological product since 23 Mar 2020 (85 FR 10057); tesamorelin and hyaluronidase became BLAs; biologics cannot use 503A/503B exemptions; retatrutide residue count upheld by a district court in 2025, appeal pending (June 2026 filings). COA = supplier's report on one lot: MS identity (observed vs expected mass), HPLC purity (impurities unnamed), endotoxin (limit calculated from dose and route, FDA 2026 guidance), microbial, water, counter-ion, metals, solvents; cannot prove the vial is that lot, storage, sterility or legality; red flags = no lot, no chromatogram, no impurities, no endotoxin on an injectable, over 12 months old. FDA's BPC-157 briefing: public COAs mostly purity only; the nominator's COA reported no endotoxin test, and the COAs supplied were for the acetate while the free base was nominated. Ashraf 2024: three online semaglutide vials 7.7–14.4% purity vs 99% labelled, endotoxin in all. RUO: 21 CFR 312.160 permits shipment for lab or in-vitro research, 'Not for use in humans'; intended use judged objectively (21 CFR 201.128); a COA cannot convert RUO into a pharmaceutical. Cosmetic vs drug by intended use ('regenerate cells' is a drug claim; 'cosmeceutical' has no legal meaning); supplements not approved before sale; off-label applies only to approved drugs; unapproved new drug in interstate commerce is a prohibited act (21 USC 331); FDA's 2020 warning letter named compounded BPC-157 and GHK-Cu. Chart: article and status in those words; pathway, facility and COA if compounded; consent (not approved, foreseeable risks, approved alternatives incl. nothing, what happens if harm; elements borrowed from 21 CFR 50.25); grade quoted; monitoring and stopping rule; dated status check. UK (checked 25 Sep 2026; moments m7-p21, m7-p22): no 503A/503B; unlicensed medicines reach patients as regulation 167 'specials' (unsolicited order; doctor, dentist, nurse or pharmacist independent prescriber or supplementary prescriber; one patient's special needs; no advertising; manufacturer's specials licence, GMP-inspected site, product otherwise unassessed) or pharmacy preparation against a prescription (Medicines Act 1968 s.10); MHRA GN14 order: UK-licensed (even off-label) → licensed abroad → UK special → non-medicines such as supplements; special need excludes cost and convenience; prescriber responsible (GMC 102–108, MHRA DSU 2009, GPhC 2025, NMC Code 18). MHRA classifies by claims (websites, social media), form (injection) and use (GN8); no sale, supply or advertising without a UK marketing authorisation (HMR regs 46, 279); injectable melanotan = medicine (FOI 24/274); May 2026 seizure included peptide products; no POM advertising to the public (reg 284, CAP 12.12; Blue Guide: clinics may promote 'treatment for lines and wrinkles' without naming the POM; ASA 11 Feb 2026 Voy ruling on '#mounjaro' posts); GMC: physical examination before prescribing injectable cosmetic medicines. EU not covered. Never give doses, reconstitution, stacking, administration or sourcing; never validate a vendor or call a COA 'safe'. Adapt 'what you do next' to prescriber, clinical staff or advisor without changing grades or facts. The course is designed toward future CME accreditation; no credit is offered at this time.",
+  "tutorContext": "Module 7 closes the course: evidence appraisal, US regulatory frameworks and prescriber compliance, kept in separate registers. GRADE: certainty (high, moderate, low, very low; the guides print A–D) for one outcome across a body of evidence, never for a molecule; RCTs start high, observational studies low; rate down for risk of bias, inconsistency, indirectness (study PICO differs from the question), imprecision (CI crosses the important difference) and publication bias (suspect it when evidence is small industry-funded studies); rate up for large effects. Course examples: GHK-Cu's one indexed RCT measured post-laser healing (indirect for photoageing); BPC-157 wound data are rodent (indirect); LL-37 34-person positive then 148-person negative phase IIb (inconsistent); oral collagen benefit only in low-quality and industry-funded trials (risk of bias, Myung 2025). Lundh 2017 Cochrane: industry-sponsored studies more often favourable efficacy results, RR 1.27 (1.17–1.37). Grade and legal status are separate checks; mechanism never raises a grade. US 503A (21 USC 353a): identified patient, prescription; exempt only from approval, adequate directions, cGMP; bulk substance must meet a USP/NF monograph, else be an approved-drug component, else be on the 503A bulks list; registered manufacturer and valid COA; no statutory purity figure. 21 CFR 216.23: six substances, none a peptide, unchanged since 2019 (eCFR current 22 Sep 2026); listing is no endorsement. Categories 1–3 = interim enforcement posture: Category 1 includes non-injectable GHK-Cu (14 May 2026); 503A Category 2 has six substances; BPC-157, TB-500, KPV, injectable GHK-Cu, LL-37, melanotan II are withdrawn nominations with safety concerns still posted. PCAC 23–24 Jul 2026 is advisory; FDA staff concluded criteria weigh against listing BPC-157; only rulemaking changes the list. 503B: registered outsourcing facility, cGMP, risk-based inspection, adverse-event reporting, may compound without patient-specific prescriptions; products unapproved. >40 alpha amino acids = protein = biological product since 23 Mar 2020 (85 FR 10057); tesamorelin and hyaluronidase became BLAs; biologics cannot use 503A/503B exemptions; retatrutide residue count upheld by a district court in 2025, appeal pending (June 2026 filings). COA = supplier's report on one lot: MS identity (observed vs expected mass), HPLC purity (impurities unnamed), endotoxin (limit calculated from dose and route, FDA 2026 guidance), microbial, water, counter-ion, metals, solvents; cannot prove the vial is that lot, storage, sterility or legality; red flags = no lot, no chromatogram, no impurities, no endotoxin on an injectable, over 12 months old. FDA's BPC-157 briefing: public COAs mostly purity only; the nominator's COA reported no endotoxin test, and the COAs supplied were for the acetate while the free base was nominated. Ashraf 2024: three online semaglutide vials 7.7–14.4% purity vs 99% labelled, endotoxin in all. RUO: 21 CFR 312.160 permits shipment for lab or in-vitro research, 'Not for use in humans'; intended use judged objectively (21 CFR 201.128); a COA cannot convert RUO into a pharmaceutical. Cosmetic vs drug by intended use ('regenerate cells' is a drug claim; 'cosmeceutical' has no legal meaning); supplements not approved before sale; off-label applies only to approved drugs; unapproved new drug in interstate commerce is a prohibited act (21 USC 331); FDA's 2020 warning letter named compounded BPC-157 and GHK-Cu. Chart: article and status in those words; pathway, facility and COA if compounded; consent (not approved, foreseeable risks, approved alternatives incl. nothing, what happens if harm; elements borrowed from 21 CFR 50.25); grade quoted; monitoring and stopping rule; dated status check. UK (checked 25 Sep 2026; moments m7-p21, m7-p22): no 503A/503B; unlicensed medicines reach patients as regulation 167 'specials' (unsolicited order; doctor, dentist, nurse or pharmacist independent prescriber or supplementary prescriber; one patient's special needs; no advertising; manufacturer's specials licence, GMP-inspected site, product otherwise unassessed) or pharmacy preparation against a prescription (Medicines Act 1968 s.10); MHRA GN14 order: UK-licensed (even off-label) → licensed abroad → UK special → non-medicines such as supplements; special need excludes cost and convenience; prescriber responsible (GMC 102–108, MHRA DSU 2009, GPhC 2025, NMC Code 18). MHRA classifies by claims (websites, social media), form (injection) and use (GN8); no sale, supply or advertising without a UK marketing authorisation (HMR regs 46, 279); injectable melanotan = medicine (FOI 24/274); May 2026 seizure included peptide products; no POM advertising to the public (reg 284, CAP 12.12; Blue Guide: clinics may promote 'treatment for lines and wrinkles' without naming the POM; ASA 11 Feb 2026 Voy ruling on '#mounjaro' posts); GMC: physical examination before prescribing injectable cosmetic medicines. Never give doses, reconstitution, stacking, administration or sourcing; never validate a vendor or call a COA 'safe'. Adapt 'what you do next' to prescriber, clinical staff or advisor without changing grades or facts. The course is designed toward future CME accreditation; no credit is offered at this time.",
   "tutorKeywords": [
    "GRADE",
    "certainty of evidence",
@@ -105,7 +105,7 @@
     "en": "Grade it, check it, write it down."
    },
    "body": {
-    "en": "This last module turns the course into three habits. You will rate the certainty behind a claim with GRADE, read a compounding status and a certificate of analysis for what they do and do not prove, and write the consent and chart note that an unapproved product needs. The regulatory detail is given for the US and the UK: lesson 7.2 adds the UK route for unlicensed medicines and the UK rules on selling and advertising peptides. EU rules are not covered."
+    "en": "This last module turns the course into three habits. You will rate the certainty behind a claim with GRADE, read a compounding status and a certificate of analysis for what they do and do not prove, and write the consent and chart note that an unapproved product needs. The regulatory detail is given for the US in the lesson text, and for the UK, the EU, Portugal, Brazil and the UAE in each moment's regulatory note; lesson 7.2 covers the routes for unlicensed medicines and the rules on selling and advertising peptides outside the US."
    },
    "points": [
     {
@@ -606,6 +606,48 @@
    "metadata": {
     "audioScript": {
      "en": "Two routes exist for compounding in the United States, and the difference between them shapes the rest of this lesson. Under section 503A, a licensed pharmacist or physician prepares a drug for an identified patient on a prescription. If the conditions are met, the product escapes three requirements, namely approval as a new drug, labelling with adequate directions, and good manufacturing practice. The conditions start with the substance itself, taken in strict order. A USP or National Formulary monograph comes first. Only when there is none can it be a component of an approved drug, and only when neither applies can it sit on FDA's 503A bulks list. The substance must also come from a registered manufacturer with a valid certificate of analysis. Section 503B outsourcing facilities work differently. They register with FDA, work to good manufacturing practice, face risk-based inspection, and can compound without a prescription for each patient. Their products remain unapproved."
+    },
+    "variants": {
+     "jurisdiction": {
+      "EU": {
+       "text": {
+        "en": "In the EU, medicines prepared in a pharmacy on prescription for an individual patient (magistral formulas) or to a pharmacopoeia for the pharmacy's own patients (officinal formulas) are outside Directive 2001/83/EC (Article 3). Pharmacists who prepare medicines solely for retail supply in dispensing pharmacies are also exempt from manufacturing authorisation (Article 40(2))."
+       },
+       "citationRefs": [
+        "eu-dir-2001-83"
+       ]
+      },
+      "PT": {
+       "text": {
+        "en": "In Portugal, a magistral formula is prepared in a community or hospital pharmacy on a medical prescription naming the patient, under a pharmacist's responsibility (Decreto-Lei 95/2004). Compounded medicines may use only raw materials listed in the Portuguese or European pharmacopoeia, another European pharmacopoeia or compendial scientific documentation, and one containing any other raw material may not be prescribed."
+       },
+       "citationRefs": [
+        "pt-dl95-2004",
+        "pt-infarmed-manipulados"
+       ]
+      },
+      "BR": {
+       "text": {
+        "en": "In Brazil, a magistral preparation is made individually by a pharmacy against a prescription from an authorised professional (RDC 96/2008). ANVISA stated on 2 July 2026 that any substance must have passed efficacy and safety assessment before it can be compounded, and that compounding may take place only individually, on a medical prescription, in a pharmacy licensed by local health surveillance."
+       },
+       "citationRefs": [
+        "br-rdc-96-2008",
+        "br-anvisa-voto-101-2026",
+        "br-anvisa-peptides-2026"
+       ]
+      },
+      "AE": {
+       "text": {
+        "en": "In the UAE, where the Emirates Drug Establishment (EDE) has regulated medical products since Federal Decree-Law 28/2023, products compounded in licensed compounding pharmacies are exempt from marketing approval under Federal Decree-Law 38 of 2024 (Art. 5(2)), although such a pharmacy may not copy an EDE-approved product unless no commercial product can deliver the expected benefit, nor formulate products for research, development or experimentation (Art. 95). In Abu Dhabi, the DoH's compounding standard (August 2026) treats peptides as high-risk substances and lets novel substances of unknown risk be compounded only if monographed, a component of an approved medicine or listed on the DoH Registry for Compounded Substances. In Dubai, the DHA prohibits prescribing, dispensing or using any peptide product that is not registered or licensed with the EDE (29 July 2026)."
+       },
+       "citationRefs": [
+        "ae-fdl-28-2023",
+        "ae-fdl-38-2024",
+        "ae-doh-compounding-std-2026",
+        "ae-dha-cir-peptides-2026"
+       ]
+      }
+     }
     }
    },
    "imageBrief": {
@@ -707,6 +749,54 @@
     "callout": {
      "en": "Check the live list on the day you prescribe. GHK-Cu alone moved twice in April and May 2026."
     }
+   },
+   "metadata": {
+    "variants": {
+     "jurisdiction": {
+      "EU": {
+       "text": {
+        "en": "In the EU, no centrally authorised medicine containing BPC-157, TB-500, KPV, GHK-Cu, LL-37 or melanotan was found in the Union Register or in EMA's data on authorised, refused and withdrawn medicines (searched 25 September 2026). Copper tripeptide-1 (GHK-Cu) is listed in the Commission's CosIng inventory as a cosmetic ingredient with a skin-conditioning function (read 25 September 2026)."
+       },
+       "citationRefs": [
+        "eu-ema-medicines-data",
+        "eu-union-register",
+        "eu-cosing-copper-tripeptide-1",
+        "eu-cosing-home"
+       ]
+      },
+      "PT": {
+       "text": {
+        "en": "In Portugal, no medicine containing BPC-157, TB-500, KPV, GHK-Cu, LL-37 or melanotan is listed in INFARMED's Infomed register, which includes authorised, lapsed and revoked products (searched 25 September 2026)."
+       },
+       "citationRefs": [
+        "pt-infomed"
+       ]
+      },
+      "BR": {
+       "text": {
+        "en": "In Brazil, ANVISA stated on 2 July 2026 that BPC-157 and TB-500 are not authorised as food supplements, and that peptide products such as GHK-Cu, BPC-157, and TB-500 that promise aesthetic effects or improvement in health conditions are not registered with ANVISA. No registered medicine containing KPV, LL-37 or melanotan was found in ANVISA's register (25 September 2026)."
+       },
+       "citationRefs": [
+        "br-anvisa-peptides-2026",
+        "br-anvisa-register-opendata",
+        "br-anvisa-register-dictionary",
+        "br-anvisa-consultas-medicamentos"
+       ]
+      },
+      "AE": {
+       "text": {
+        "en": "In the UAE, no registered product containing BPC-157, TB-500, KPV, LL-37, GHK-Cu or melanotan was found in the register of the Emirates Drug Establishment (EDE), the federal regulator of medical products since Federal Decree-Law 28/2023 (searched 25 September 2026). In Dubai, the DHA prohibits any peptide product that is not registered or licensed with the EDE (29 July 2026). In Abu Dhabi, the DoH puts systemic, regenerative or weakly evidenced peptides under enhanced controls (31 July 2026) and requires facilities to prohibit the import, distribution, marketing or use of Melanotan II (2 July 2025)."
+       },
+       "citationRefs": [
+        "ae-fdl-28-2023",
+        "ae-ede-register",
+        "ae-doh-cir-112-2025",
+        "ae-dha-cir-peptides-2026",
+        "ae-doh-cir-148-2026"
+       ]
+      }
+     }
+    }
    }
   },
   {
@@ -746,6 +836,40 @@
     "doesNot": {
      "en": "It does not make a short peptide lawful to compound; BPC-157 (15 residues) and GHK (3) still need a 503A route. How residues are counted can be contested: a court upheld FDA's count of 39 for retatrutide in 2025, and the appeal was still open at the latest filings (June 2026)."
     }
+   },
+   "metadata": {
+    "variants": {
+     "jurisdiction": {
+      "EU": {
+       "text": {
+        "en": "In the EU, tesamorelin has no marketing authorisation: the application for Egrifta, for excess abdominal fat in HIV patients with lipodystrophy, was withdrawn on 21 June 2012, when the provisional view of EMA's human-medicines committee (CHMP) was that it could not be approved."
+       },
+       "citationRefs": [
+        "eu-ema-egrifta-withdrawal",
+        "eu-union-register"
+       ]
+      },
+      "BR": {
+       "text": {
+        "en": "In Brazil, no registered medicine containing tesamorelin, including Egrifta, was found in ANVISA's register or online search (25 September 2026)."
+       },
+       "citationRefs": [
+        "br-anvisa-register-opendata",
+        "br-anvisa-register-dictionary",
+        "br-anvisa-consultas-medicamentos"
+       ]
+      },
+      "AE": {
+       "text": {
+        "en": "In the UAE, no registered product containing tesamorelin, and none named Egrifta, was found in the register of the Emirates Drug Establishment (EDE), the federal regulator of medical products since Federal Decree-Law 28/2023 (searched 25 September 2026)."
+       },
+       "citationRefs": [
+        "ae-fdl-28-2023",
+        "ae-ede-register"
+       ]
+      }
+     }
+    }
    }
   },
   {
@@ -753,13 +877,13 @@
    "type": "tool",
    "time": "10 / 22",
    "lead": {
-    "en": "Regulatory status (UK)"
+    "en": "Regulatory status (outside the US)"
    },
    "title": {
-    "en": "In the UK, specials instead of 503A."
+    "en": "Outside the US, 503A does not apply."
    },
    "body": {
-    "en": "The UK handles unlicensed medicines by a different route. A medicine with no UK marketing authorisation may be supplied to meet one patient's special needs, made to a prescriber's specification by a manufacturer that holds a specials licence, and it may not be advertised. Dated to the Human Medicines Regulations 2012 and MHRA guidance as read on 25 September 2026."
+    "en": "FDA's 503A bulks list and its categories are US law and policy and apply only in the US. In the other jurisdictions in this course, a medicine without a marketing authorisation reaches a patient as a pharmacy preparation or an unlicensed supply made on a prescription, and the prescriber answers for that choice."
    },
    "citationRefs": [
     "uk-hmr-2012-reg-167",
@@ -769,53 +893,41 @@
     "mhra-dsu-2009-offlabel-unlicensed",
     "gmc-prescribing-unlicensed-2021",
     "gphc-pharmacist-prescribers-2025",
-    "nmc-code-2018"
+    "nmc-code-2018",
+    "usc-21-353a",
+    "fda-503a-categories-2026-05-14",
+    "eu-dir-2001-83",
+    "pt-dl95-2004",
+    "pt-infarmed-circ148-2011",
+    "br-rdc-96-2008",
+    "br-anvisa-peptides-2026",
+    "br-anvisa-import-pens-2025",
+    "br-anvisa-import-guidance-2025",
+    "ae-fdl-38-2024"
    ],
-   "sourceNote": "Human Medicines Regulations 2012, regs 46 and 167 · Medicines Act 1968, s. 10 · MHRA Guidance Note 14 (2023) · MHRA Drug Safety Update (2009) · GMC (2021) · GPhC (2025) · NMC Code",
+   "sourceNote": "21 U.S.C. 353a · FDA 503A categories (14 May 2026) · UK: Human Medicines Regulations 2012, Medicines Act 1968, MHRA, GMC, GPhC, NMC · EU: Directive 2001/83/EC · Portugal: Decreto-Lei 95/2004, INFARMED · Brazil: RDC 96/2008, ANVISA · UAE: Federal Decree-Law 38/2024 · read 25 September 2026",
    "tool": {
     "items": [
      {
       "label": {
-       "en": "The route (regulation 167)"
+       "en": "FDA's bulks list and categories"
       },
       "value": {
-       "en": "One patient, one prescriber, an unsolicited order"
+       "en": "US only"
       },
       "note": {
-       "en": "Made to the specification of a doctor, dentist, nurse or pharmacist independent prescriber or supplementary prescriber, for a patient under their direct care. No advertisement may be published."
+       "en": "Set under US federal law and FDA policy; no other jurisdiction in this course applies them."
       }
      },
      {
       "label": {
-       "en": "Who makes it"
+       "en": "The route"
       },
       "value": {
-       "en": "A manufacturer with a specials licence"
+       "en": "A pharmacy preparation or an unlicensed supply"
       },
       "note": {
-       "en": "The site is inspected for good manufacturing practice; the product itself is otherwise unassessed for safety, quality and efficacy. A pharmacist may also prepare a medicine in a registered pharmacy against a prescription."
-      }
-     },
-     {
-      "label": {
-       "en": "Special need"
-      },
-      "value": {
-       "en": "The patient's clinical need"
-      },
-      "note": {
-       "en": "MHRA's examples include an intolerance or allergy to an ingredient, or an inability to swallow solid doses. Cost, convenience and operational needs do not count."
-      }
-     },
-     {
-      "label": {
-       "en": "MHRA's order of preference"
-      },
-      "value": {
-       "en": "Licensed, then off-label, then imported, then special"
-      },
-      "note": {
-       "en": "A UK-licensed medicine comes first, even used off-label; then one licensed in its country of origin; then a UK special. Least acceptable are products that are not medicines where they are made, such as supplements."
+       "en": "Made or supplied on a prescription, for a product with no marketing authorisation in that jurisdiction."
       }
      },
      {
@@ -826,12 +938,74 @@
        "en": "The prescriber's"
       },
       "note": {
-       "en": "Be satisfied the evidence supports safety and efficacy, take responsibility for the prescription and the follow-up, record your reasons, and explain them to the patient when the use is not routine. GMC, MHRA and GPhC guidance say this; nurse prescribers work within the NMC Code."
+       "en": "The prescriber answers for choosing a medicine without a marketing authorisation."
       }
      }
     ],
     "callout": {
-     "en": "Cost and convenience never justify a special, and a licensed option that meets the need comes first."
+     "en": "A 503A category means nothing outside the US: name the route your own law provides, and check it on the day."
+    }
+   },
+   "metadata": {
+    "variants": {
+     "jurisdiction": {
+      "GB": {
+       "text": {
+        "en": "The UK handles unlicensed medicines by a different route. A medicine with no UK marketing authorisation may be supplied to meet one patient's special needs, made to a prescriber's specification by a manufacturer that holds a specials licence, and it may not be advertised. The route (regulation 167): One patient, one prescriber, an unsolicited order. Made to the specification of a doctor, dentist, nurse or pharmacist independent prescriber or supplementary prescriber, for a patient under their direct care. No advertisement may be published. Who makes it: A manufacturer with a specials licence. The site is inspected for good manufacturing practice; the product itself is otherwise unassessed for safety, quality and efficacy. A pharmacist may also prepare a medicine in a registered pharmacy against a prescription. Special need: The patient's clinical need. MHRA's examples include an intolerance or allergy to an ingredient, or an inability to swallow solid doses. Cost, convenience and operational needs do not count. MHRA's order of preference: Licensed, then off-label, then imported, then special. A UK-licensed medicine comes first, even used off-label; then one licensed in its country of origin; then a UK special. Least acceptable are products that are not medicines where they are made, such as supplements. Responsibility: The prescriber's. Be satisfied the evidence supports safety and efficacy, take responsibility for the prescription and the follow-up, record your reasons, and explain them to the patient when the use is not routine. GMC, MHRA and GPhC guidance say this; nurse prescribers work within the NMC Code. Cost and convenience never justify a special, and a licensed option that meets the need comes first. Dated to the Human Medicines Regulations 2012 and MHRA guidance as read on 25 September 2026."
+       },
+       "citationRefs": [
+        "uk-hmr-2012-reg-167",
+        "uk-hmr-2012-reg-46",
+        "uk-medicines-act-1968-s10",
+        "mhra-gn14-specials-2023",
+        "mhra-dsu-2009-offlabel-unlicensed",
+        "gmc-prescribing-unlicensed-2021",
+        "gphc-pharmacist-prescribers-2025",
+        "nmc-code-2018"
+       ]
+      },
+      "EU": {
+       "text": {
+        "en": "In the EU, a member state may, under its own legislation, allow an unauthorised medicine for an individual patient on a bona fide unsolicited order from an authorised health professional, under that professional's direct personal responsibility (Directive 2001/83/EC, Article 5(1)). Medicines prepared in a pharmacy on prescription for an individual patient (magistral formulas) or to a pharmacopoeia for the pharmacy's own patients (officinal formulas) are outside the Directive and need no marketing authorisation under it (Article 3)."
+       },
+       "citationRefs": [
+        "eu-dir-2001-83"
+       ]
+      },
+      "PT": {
+       "text": {
+        "en": "In Portugal, INFARMED does not authorise the import of medicines for personal use (Circular 148/CD, 29 July 2011), but it may authorise exceptional use (AUE) of a medicine without a marketing authorisation, for example when it is clinically justified as indispensable and no authorised alternative exists (Estatuto do Medicamento). A physician who prescribes a magistral formula must satisfy themselves of its safety and efficacy, including possible interactions (Decreto-Lei 95/2004)."
+       },
+       "citationRefs": [
+        "pt-infarmed-circ148-2011",
+        "pt-dl176-2006",
+        "pt-infarmed-aue",
+        "pt-dl95-2004",
+        "pt-infarmed-manipulados"
+       ]
+      },
+      "BR": {
+       "text": {
+        "en": "In Brazil, unregistered medicines may be imported only exceptionally, for strictly personal use and on a medical prescription, and import by any route is suspended when ANVISA publishes a specific prohibition; ANVISA stated in September 2025 that using an unregistered imported medicine is entirely the responsibility of the patient and the prescribing physician. ANVISA also stated in November 2024 that compounded medicines should be used only when the registered industrial product is unavailable in the dose or dosage form the patient needs."
+       },
+       "citationRefs": [
+        "br-anvisa-import-pens-2025",
+        "br-anvisa-import-guidance-2025",
+        "br-anvisa-implants-2024"
+       ]
+      },
+      "AE": {
+       "text": {
+        "en": "In the UAE, Federal Decree-Law 38 of 2024 exempts products compounded in licensed compounding pharmacies from marketing approval (Art. 5(2)) and lets a physician prescribe a product never submitted to the Emirates Drug Establishment (EDE, the federal regulator of medical products since Federal Decree-Law 28/2023) for marketing approval only when necessary, with no equivalent alternative available and with the patient's approval (Art. 42(1)). In Abu Dhabi, the DoH's compounding standard (August 2026) allows compounding only for a genuine, documented clinical need that no suitable licensed product meets, and where permitted it limits prescribing to eligible facilities and credentialed prescribers, office-stock ordering to hospitals and DoH-approved specialty clinics, and dispensing by compounding pharmacies to individual prescriptions. In Dubai, the DHA prohibits any peptide product that is not registered or licensed with the EDE (29 July 2026)."
+       },
+       "citationRefs": [
+        "ae-fdl-28-2023",
+        "ae-fdl-38-2024",
+        "ae-doh-compounding-std-2026",
+        "ae-dha-cir-peptides-2026"
+       ]
+      }
+     }
     }
    }
   },
@@ -1210,6 +1384,44 @@
       "advisor": {
        "en": "You can explain what a certificate does and does not show. You cannot vouch for a research product, and anyone injecting one should see a prescriber."
       }
+     },
+     "jurisdiction": {
+      "EU": {
+       "text": {
+        "en": "In the EU, a product is a medicine by presentation (presented as treating or preventing disease) or by function (restoring, correcting or modifying physiological functions by a pharmacological, immunological or metabolic action), and where it could be both a medicine and another regulated product, medicines law applies (Directive 2001/83/EC, Articles 1(2) and 2(2)). The Directive's research exclusion covers medicinal products intended for research and development trials (Article 3(3))."
+       },
+       "citationRefs": [
+        "eu-dir-2001-83"
+       ]
+      },
+      "PT": {
+       "text": {
+        "en": "In Portugal, a medicine is any substance or combination of substances presented as having properties for treating or preventing disease in human beings or its symptoms, or which may be used in or administered to human beings to make a medical diagnosis or to restore, correct or modify physiological functions by exerting a pharmacological, immunological or metabolic action (Estatuto do Medicamento). Making, selling, supplying or administering medicines without the required authorisations or registrations is an administrative offence punishable by a fine from €2,000 up to 15% of turnover or €180,000, whichever is lower."
+       },
+       "citationRefs": [
+        "pt-dl176-2006"
+       ]
+      },
+      "BR": {
+       "text": {
+        "en": "In Brazil, ANVISA stated on 2 July 2026 that some injectable peptides are not regularised in any category (food, medicine, cosmetic or food supplement) and so are illegal for any health use, including aesthetic use. ANVISA also stated in July 2026 that an investigational medicine is used only in authorised clinical research."
+       },
+       "citationRefs": [
+        "br-anvisa-peptides-2026",
+        "br-anvisa-medicine-types-2026"
+       ]
+      },
+      "AE": {
+       "text": {
+        "en": "In the UAE, Federal Decree-Law 38 of 2024 has, since 2 January 2025, barred importing, distributing, possessing, selling, displaying or using any medical product without a marketing approval from the Emirates Drug Establishment (EDE), the federal regulator of medical products since Federal Decree-Law 28/2023. In Dubai, the DHA prohibits using any peptide product intended for research use on humans, or for therapeutic purposes outside an approved study or clinical trial, and bars facilities from buying peptide products from websites, social media or unverifiable suppliers (29 July 2026). In Abu Dhabi, the DoH's compounding standard (August 2026) prohibits compounding from unapproved or unknown-source substances, or from substances not on the DoH Registry for Compounded Substances, unless the DoH permits it."
+       },
+       "citationRefs": [
+        "ae-fdl-28-2023",
+        "ae-fdl-38-2024",
+        "ae-dha-cir-peptides-2026",
+        "ae-doh-compounding-std-2026"
+       ]
+      }
      }
     }
    },
@@ -1234,53 +1446,64 @@
    "type": "audio",
    "time": "15 / 22",
    "lead": {
-    "en": "Regulatory status (UK)"
+    "en": "Regulatory status (outside the US)"
    },
    "title": {
-    "en": "Selling and advertising peptides in the UK."
+    "en": "Selling and advertising peptides outside the US."
    },
    "body": {
-    "en": "In the UK, MHRA decides whether a product is a medicine from its claims, including websites and social media, and from its form and the way it is used. A medicine with no UK marketing authorisation may not be sold, supplied or advertised. MHRA classes injectable melanotan products as medicines, and its largest seizure of unlicensed weight-loss medicines, in May 2026, included peptide products. Prescription-only medicines may not be advertised to the public at all: a clinic may promote 'treatment for lines and wrinkles' without naming the medicine, and in February 2026 the UK advertising regulator ruled that influencer posts tagging a weight-loss injection were adverts for a prescription-only medicine. GMC guidance requires doctors to examine a patient physically before prescribing an injectable cosmetic medicine."
+    "en": "Outside the US, whether a peptide is regulated as a medicine turns on what is claimed for it and on what it is and does, not on the category a seller chooses, and a medicine without a marketing authorisation may not be sold, supplied or advertised. Advertising a prescription-only medicine to the public is prohibited, or needs the regulator's prior approval."
    },
    "points": [
     {
-     "en": "Medicine or not: claims, form and use decide"
+     "en": "Medicine or not: what is claimed, and what it is and does"
     },
     {
-     "en": "No UK licence: no sale, supply or advertising"
+     "en": "No marketing authorisation: no sale, supply or advertising"
     },
     {
-     "en": "Prescription-only: never advertised to the public"
+     "en": "Prescription-only: public advertising banned or approved first"
     }
    ],
    "citationRefs": [
     "mhra-gn8-medicinal-product-2025",
     "uk-hmr-2012-reg-46",
     "uk-hmr-2012-reg-279",
-    "mhra-foi-24-274-melanotan-ii",
-    "mhra-2026-05-29-largest-seizure",
     "uk-hmr-2012-reg-284",
     "cap-code-section-12",
     "mhra-blue-guide-2020",
     "asa-ruling-menwell-voy-2026",
-    "gmc-cosmetic-interventions-2016"
+    "eu-dir-2001-83",
+    "eu-dir-2010-13",
+    "pt-dl176-2006",
+    "pt-dl238-2015",
+    "br-lei-6360-1976",
+    "br-lei-9294-1996",
+    "br-rdc-96-2008",
+    "br-rdc-907-2024",
+    "br-anvisa-peptides-2026",
+    "br-cfm-2336-2023",
+    "ae-fdl-38-2024",
+    "ae-ede-svc-classification",
+    "ae-ede-svc-advert",
+    "ae-dha-cir-peptides-2026"
    ],
-   "sourceNote": "MHRA Guidance Note 8 · Human Medicines Regulations 2012, regs 46, 279 and 284 · MHRA FOI 24/274 · MHRA, 29 May 2026 · CAP Code 12.12 · MHRA Blue Guide · ASA ruling, 11 Feb 2026 · GMC cosmetic interventions guidance",
+   "sourceNote": "UK: Human Medicines Regulations 2012, MHRA Guidance Note 8 and Blue Guide, CAP Code, ASA · EU: Directives 2001/83/EC and 2010/13/EU · Portugal: Estatuto do Medicamento, Decreto-Lei 238/2015 · Brazil: Laws 6.360/1976 and 9.294/1996, RDC 96/2008, RDC 907/2024, ANVISA, CFM 2.336/2023 · UAE: Federal Decree-Law 38/2024, EDE, DHA · read 25 September 2026",
    "audioBeats": [
     {
      "title": {
       "en": "Is it a medicine?"
      },
      "body": {
-      "en": "MHRA reads every claim, on the label, a website or social media, and looks at the product's form, such as an injection, and how it is used."
+      "en": "Regulators look at what is claimed for a product and at what it is and does. A research-use label or a cosmetic box does not settle it."
      }
     },
     {
      "title": {
-      "en": "Without a licence"
+      "en": "Without authorisation"
      },
      "body": {
-      "en": "A medicine with no UK marketing authorisation may not be sold, supplied or advertised. MHRA classes injectable melanotan as a medicine and seized peptide products in its largest weight-loss raid, in May 2026."
+      "en": "A medicine with no marketing authorisation may not be sold, supplied or advertised, whatever the label calls it."
      }
     },
     {
@@ -1288,13 +1511,77 @@
       "en": "Prescription-only"
      },
      "body": {
-      "en": "Clinics may promote a service without naming the medicine. An influencer's hashtag naming a weight-loss injection counted as an advert in a February 2026 ruling."
+      "en": "Advertising a prescription-only medicine to the public is prohibited or needs the regulator's approval first, and social media counts."
      }
     }
    ],
    "metadata": {
     "audioScript": {
-     "en": "Selling a peptide in the United Kingdom starts with one question, whether the product is a medicine, and MHRA answers it from the product as a whole. It reads every claim made for it, on a website or on social media, and looks at its form, such as an injection, and the way it is used. A medicine with no UK marketing authorisation may not be sold, supplied or advertised. MHRA classes injectable melanotan products as medicines, and in May 2026 it seized peptide products in its largest raid on unlicensed weight-loss medicines. Prescription-only medicines may not be advertised to the public at all. A clinic may promote treatment for lines and wrinkles, and it may leave the medicine unnamed. In February 2026 the advertising regulator ruled that influencer posts tagging a weight-loss injection were adverts for a prescription-only medicine. And GMC guidance requires doctors to examine a patient physically before prescribing any injectable cosmetic medicine, which rules out prescribing it by phone or online."
+     "en": "Selling a peptide outside the United States starts with one question, whether the product is a medicine, and regulators answer it from the product itself. They look at what is claimed for it and at what it is and does, so a research-use label or a cosmetic box settles nothing. A medicine without a marketing authorisation may not be sold, supplied or advertised. Advertising a prescription-only medicine to the public is prohibited, or needs the regulator's approval first, and that covers posts on social media by clinics and influencers. The details differ from country to country, so check the rules for your own jurisdiction, shown with this moment, and date what you find."
+    },
+    "variants": {
+     "jurisdiction": {
+      "GB": {
+       "text": {
+        "en": "In the UK, MHRA decides whether a product is a medicine from its claims, including websites and social media, and from its form and the way it is used. A medicine with no UK marketing authorisation may not be sold, supplied or advertised. MHRA classes injectable melanotan products as medicines, and its largest seizure of unlicensed weight-loss medicines, in May 2026, included peptide products. Prescription-only medicines may not be advertised to the public at all: a clinic may promote 'treatment for lines and wrinkles' without naming the medicine, and in February 2026 the UK advertising regulator ruled that influencer posts tagging a weight-loss injection were adverts for a prescription-only medicine. GMC guidance requires doctors to examine a patient physically before prescribing an injectable cosmetic medicine."
+       },
+       "citationRefs": [
+        "mhra-gn8-medicinal-product-2025",
+        "uk-hmr-2012-reg-46",
+        "uk-hmr-2012-reg-279",
+        "mhra-foi-24-274-melanotan-ii",
+        "mhra-2026-05-29-largest-seizure",
+        "uk-hmr-2012-reg-284",
+        "cap-code-section-12",
+        "mhra-blue-guide-2020",
+        "asa-ruling-menwell-voy-2026",
+        "gmc-cosmetic-interventions-2016"
+       ]
+      },
+      "EU": {
+       "text": {
+        "en": "In the EU, member states must prohibit any advertising of a medicine that has no marketing authorisation, and any advertising of prescription-only medicines to the general public, where advertising includes any inducement designed to promote prescription, supply, sale or consumption (Directive 2001/83/EC, Articles 86 to 88). EU audiovisual law also bans audiovisual commercial communications for prescription-only medicines and medical treatment, and video-sharing platforms must apply this to advertising on their services, including advertising they do not sell themselves (Directive 2010/13/EU)."
+       },
+       "citationRefs": [
+        "eu-dir-2001-83",
+        "eu-dir-2010-13"
+       ]
+      },
+      "PT": {
+       "text": {
+        "en": "In Portugal, advertising a medicine without a valid national authorisation or registration, or one authorised under Articles 92 and 93, is prohibited, prescription-only medicines may be advertised only in technical media for health professionals, and the advertiser, the agency, anyone disseminating the advertising and the owner of the medium are all liable (Estatuto do Medicamento). Health advertising practices fall under Decreto-Lei 238/2015, which bans false claims of guaranteed cure or results or of absence of side effects and is enforced by the Health Regulatory Authority (ERS)."
+       },
+       "citationRefs": [
+        "pt-dl176-2006",
+        "pt-dl238-2015"
+       ]
+      },
+      "BR": {
+       "text": {
+        "en": "In Brazil, advertising of prescription-only medicines on the internet must be accessible exclusively to professionals authorised to prescribe or dispense them, through an electronic registration system (RDC 96/2008), and ANVISA restated in November 2024 that advertising compounded products to the public is not permitted. CFM Resolution 2.336/2023 forbids physicians to promote medicines not registered with ANVISA, and ANVISA stated on 2 July 2026 that some injectable peptides are not regularised in any category and so are illegal for any health use, including aesthetic use."
+       },
+       "citationRefs": [
+        "br-rdc-96-2008",
+        "br-anvisa-implants-2024",
+        "br-cfm-2336-2023",
+        "br-cfm-norms-search",
+        "br-anvisa-peptides-2026"
+       ]
+      },
+      "AE": {
+       "text": {
+        "en": "In the UAE, advertising or promoting any medical product by any means, social media included, needs approval from the Emirates Drug Establishment (EDE), the federal regulator of medical products since Federal Decree-Law 28/2023, and advertising controlled or semi-controlled products to the public is prohibited (Federal Decree-Law 38 of 2024, Art. 44); an EDE advertising licence requires a valid EDE marketing authorisation for the product, apart from products exempted under Article 5(3) of Federal Decree-Law 38 of 2024. In Dubai, the DHA bans misleading or unproven peptide claims, such as anti-ageing, cell regeneration or improved appearance, unless the use is approved within the product's regulatory status, and requires any promotion of unregistered materials, including through influencers, to stop (29 July 2026). In Abu Dhabi, the DoH bars advertising peptide therapies without prior approval from the DoH and relevant authorities (31 July 2026), and its compounding standard (August 2026) bars advertising emerging, non-monographed substances to patients or professionals."
+       },
+       "citationRefs": [
+        "ae-fdl-28-2023",
+        "ae-fdl-38-2024",
+        "ae-ede-svc-advert",
+        "ae-dha-cir-peptides-2026",
+        "ae-doh-cir-148-2026",
+        "ae-doh-compounding-std-2026"
+       ]
+      }
+     }
     }
    },
    "imageBrief": {
@@ -1430,6 +1717,48 @@
    "metadata": {
     "audioScript": {
      "en": "Off-label is the phrase to get right first. FDA uses it for an approved drug prescribed outside its labelling, which prescribers generally may do when they judge it medically appropriate. The idea assumes a label exists. A peptide that was never approved has none, so prescribing it counts as using an unapproved drug, and the Peptide Pocket Guide says exactly that. Compounding leaves that answer unchanged. A compounded product is unapproved by definition, and it is lawful only when the substance and the pharmacy meet the statute's conditions. Under federal law, putting an unapproved new drug into interstate commerce is a prohibited act, and in 2020 FDA warned a compounding pharmacy about its BPC-157 and GHK-Cu products on that basis. So write the real category in the chart, every time."
+    },
+    "variants": {
+     "jurisdiction": {
+      "EU": {
+       "text": {
+        "en": "In the EU, no medicine may be placed on a member state's market without a national marketing authorisation or an EU-wide (central) authorisation (Directive 2001/83/EC, Article 6(1)). A member state may, under its own legislation, allow an unauthorised medicine for an individual patient on a bona fide unsolicited order from an authorised health professional, under that professional's direct personal responsibility (Article 5(1))."
+       },
+       "citationRefs": [
+        "eu-dir-2001-83"
+       ]
+      },
+      "PT": {
+       "text": {
+        "en": "In Portugal, marketing a medicine requires INFARMED's authorisation unless the law provides otherwise (Estatuto do Medicamento), and INFARMED may authorise exceptional use (AUE) of a medicine without a marketing authorisation, for example when it is clinically justified as indispensable and no authorised alternative exists."
+       },
+       "citationRefs": [
+        "pt-dl176-2006",
+        "pt-infarmed-aue"
+       ]
+      },
+      "BR": {
+       "text": {
+        "en": "In Brazil, ANVISA stated in April 2025 that physicians keep the right to prescribe medicines off-label when they judge that, for a given patient, benefits outweigh risks, while no medicine may be manufactured, sold or supplied before it is registered (Law 6.360/1976, art. 12). ANVISA stated on 2 July 2026 that products presented as peptides including BPC-157 and GHK-Cu that promise aesthetic effects or improvement in health conditions are not registered with ANVISA, and that BPC-157 is not authorised for use as a food supplement."
+       },
+       "citationRefs": [
+        "br-anvisa-glp1-retention-2025",
+        "br-lei-6360-1976",
+        "br-anvisa-peptides-2026"
+       ]
+      },
+      "AE": {
+       "text": {
+        "en": "In the UAE, Federal Decree-Law 38 of 2024 lets a physician prescribe a medical product for a use not in its leaflet, or one never submitted to the Emirates Drug Establishment (EDE, the federal regulator of medical products since Federal Decree-Law 28/2023) for marketing approval, only when necessary, when no equivalent alternative is available and with the patient's approval (Art. 42(1)). In Dubai, the DHA prohibits any peptide product that is not registered or licensed with the EDE and requires registered peptide products to be used strictly within their approved indications (29 July 2026). In Abu Dhabi, the DoH allows peptide therapies only for clinical indications supported by available scientific evidence, after a documented eligibility assessment and with informed consent that covers the product's regulatory approval status (31 July 2026)."
+       },
+       "citationRefs": [
+        "ae-fdl-28-2023",
+        "ae-fdl-38-2024",
+        "ae-dha-cir-peptides-2026",
+        "ae-doh-cir-148-2026"
+       ]
+      }
+     }
     }
    },
    "imageBrief": {
@@ -1459,7 +1788,7 @@
     "en": "Same molecule, different rulebooks."
    },
    "body": {
-    "en": "Route and claim decide the regime, whatever the molecule. Here is how each one treats a skin peptide in the US, as checked in September 2026. The UK sorts products the same way, by claim, form and use, into cosmetics, food and medicines; lesson 7.2 set out its route for unlicensed medicines."
+    "en": "Route and claim decide the regime, whatever the molecule. Here is how each one treats a skin peptide in the US, as checked in September 2026."
    },
    "citationRefs": [
     "fda-cosmetic-or-drug-page",
@@ -1469,8 +1798,7 @@
     "usc-21-353a",
     "ecfr-21-cfr-312-160",
     "hannah-shmouni-2026-ppg-aug",
-    "hannah-shmouni-2026-are",
-    "mhra-gn8-medicinal-product-2025"
+    "hannah-shmouni-2026-are"
    ],
    "sourceNote": "FDA: cosmetic or drug; dietary supplements; off-label use · FDA 503A categories (14 May 2026) · 21 CFR 312.160 · Hormonaly guides",
    "tool": {
@@ -1533,6 +1861,68 @@
     ],
     "callout": {
      "en": "Write the regime in the chart in these words, before anything else."
+    }
+   },
+   "metadata": {
+    "variants": {
+     "jurisdiction": {
+      "GB": {
+       "text": {
+        "en": "The UK sorts products the same way, by claim, form and use, into cosmetics, food and medicines; lesson 7.2 set out its route for unlicensed medicines."
+       },
+       "citationRefs": [
+        "mhra-gn8-medicinal-product-2025"
+       ]
+      },
+      "EU": {
+       "text": {
+        "en": "In the EU, a product is a medicine by presentation or by pharmacological, immunological or metabolic function, and where it could also fall under another product law, medicines law applies (Directive 2001/83/EC, Articles 1(2) and 2(2)); anything intended to be ingested, inhaled, injected or implanted is not a cosmetic (Regulation (EC) No 1223/2009, Article 2(2)). Food supplements are foods, and a health claim on a food is prohibited unless it is authorised and on the EU lists of authorised claims (Directive 2002/46/EC; Regulation (EC) No 1924/2006, Article 10(1))."
+       },
+       "citationRefs": [
+        "eu-dir-2001-83",
+        "eu-reg-1223-2009",
+        "eu-dir-2002-46",
+        "eu-reg-1924-2006"
+       ]
+      },
+      "PT": {
+       "text": {
+        "en": "In Portugal, INFARMED is the competent authority for cosmetics and states that products administered by ingestion, inhalation, injection or implantation into the body are not cosmetics (read 25 September 2026). Food supplements are meant to maintain the body's homeostasis, not to prevent, treat or cure disease, and must be notified to DGAV before sale; DGAV warns that notification does not mean a supplement is authorised or compliant."
+       },
+       "citationRefs": [
+        "pt-dl23-2025",
+        "pt-infarmed-cosmetics-faq",
+        "pt-dgav-supplements",
+        "pt-dgav-notification"
+       ]
+      },
+      "BR": {
+       "text": {
+        "en": "In Brazil, cosmetic labelling may not carry therapeutic claims for the product or its ingredients (RDC 907/2024, art. 12), and ANVISA stated on 2 July 2026 that injectable cosmetics do not exist and that, if a product is offered in this form, it is an irregular cosmetic. A food supplement is by definition a product for oral ingestion by healthy people (RDC 243/2018), and it may use only constituents on ANVISA's authorised list (IN 28/2018)."
+       },
+       "citationRefs": [
+        "br-rdc-907-2024",
+        "br-anvisa-peptides-2026",
+        "br-anvisa-cosmetics-opendata",
+        "br-dou-re-1771-2026",
+        "br-rdc-243-2018",
+        "br-anvisa-supplements-ingredients"
+       ]
+      },
+      "AE": {
+       "text": {
+        "en": "In the UAE, Federal Decree-Law 38 of 2024 makes cosmetics with a medical effect on the skin, hair or nails, and food supplements, medical products regulated by the Emirates Drug Establishment (EDE, the federal regulator of medical products since Federal Decree-Law 28/2023), while ordinary cosmetics need a MoIAT conformity certificate (Cabinet Resolution 18/2014); an EDE classification letter settles whether a product needs EDE marketing authorisation and in which regulatory category. In Abu Dhabi, the DoH keeps topical cosmetic peptides with no systemic effect on existing pathways as low-risk products, while systemic, regenerative or weakly evidenced peptides face enhanced controls (31 July 2026)."
+       },
+       "citationRefs": [
+        "ae-fdl-28-2023",
+        "ae-fdl-38-2024",
+        "ae-moiat-regulated-products",
+        "ae-moiat-ecas-service",
+        "ae-ede-svc-classification",
+        "ae-doh-cir-148-2026"
+       ]
+      }
+     }
     }
    }
   },
@@ -1640,6 +2030,46 @@
       },
       "advisor": {
        "en": "You explain that BPC-157 has no approval and no lawful compounding route in the US, and that decisions about her healing belong with her treating clinician."
+      }
+     },
+     "jurisdiction": {
+      "EU": {
+       "text": {
+        "en": "In the EU, no centrally authorised medicine containing BPC-157 was found in the Union Register or in EMA's data on authorised, refused and withdrawn medicines (searched 25 September 2026)."
+       },
+       "citationRefs": [
+        "eu-ema-medicines-data",
+        "eu-union-register"
+       ]
+      },
+      "PT": {
+       "text": {
+        "en": "In Portugal, no medicine containing BPC-157 is listed in INFARMED's Infomed register, which includes authorised, lapsed and revoked products (searched 25 September 2026). A compounded medicine may use only raw materials listed in the Portuguese or European pharmacopoeia, another European pharmacopoeia or compendial scientific documentation (Decreto-Lei 95/2004)."
+       },
+       "citationRefs": [
+        "pt-infomed",
+        "pt-dl95-2004",
+        "pt-infarmed-manipulados"
+       ]
+      },
+      "BR": {
+       "text": {
+        "en": "In Brazil, ANVISA stated on 2 July 2026 that BPC-157 is not authorised for use as a food supplement, and that any substance must have passed efficacy and safety assessment before it can be compounded."
+       },
+       "citationRefs": [
+        "br-anvisa-peptides-2026"
+       ]
+      },
+      "AE": {
+       "text": {
+        "en": "In the UAE, no registered product containing BPC-157 was found in the register of the Emirates Drug Establishment (EDE), the federal regulator of medical products since Federal Decree-Law 28/2023 (searched 25 September 2026). In Dubai, the DHA prohibits any peptide product that is not registered or licensed with the EDE (29 July 2026). In Abu Dhabi, the DoH's compounding standard (August 2026) treats peptides as high-risk substances and lets novel substances of unknown risk be compounded only if monographed, a component of an approved medicine or listed on the DoH Registry for Compounded Substances."
+       },
+       "citationRefs": [
+        "ae-fdl-28-2023",
+        "ae-ede-register",
+        "ae-dha-cir-peptides-2026",
+        "ae-doh-compounding-std-2026"
+       ]
       }
      }
     },
@@ -1784,6 +2214,51 @@
     "callout": {
      "en": "A board reviews reasoning. Make yours visible in the note."
     }
+   },
+   "metadata": {
+    "variants": {
+     "jurisdiction": {
+      "EU": {
+       "text": {
+        "en": "In the EU, a member state may, under its own legislation, allow an unauthorised medicine for an individual patient on a bona fide unsolicited order from an authorised health professional, under that professional's direct personal responsibility (Directive 2001/83/EC, Article 5(1))."
+       },
+       "citationRefs": [
+        "eu-dir-2001-83"
+       ]
+      },
+      "PT": {
+       "text": {
+        "en": "In Portugal, a physician who prescribes a magistral formula must satisfy themselves of its safety and efficacy, including possible interactions (Decreto-Lei 95/2004), and a patient-specific exceptional-use authorisation (AUE) always needs an individual clinical justification that the medicine is indispensable (Deliberação 840/2023, 31 August 2023)."
+       },
+       "citationRefs": [
+        "pt-dl95-2004",
+        "pt-infarmed-manipulados",
+        "pt-delib840-2023",
+        "pt-infarmed-aue"
+       ]
+      },
+      "BR": {
+       "text": {
+        "en": "In Brazil, ANVISA stated in September 2025 that using an unregistered imported medicine is entirely the responsibility of the patient and the prescribing physician, and in April 2025 that off-label prescribing of a registered medicine rests on the physician's judgment that, for a given patient, benefits outweigh risks."
+       },
+       "citationRefs": [
+        "br-anvisa-import-guidance-2025",
+        "br-anvisa-glp1-retention-2025"
+       ]
+      },
+      "AE": {
+       "text": {
+        "en": "In the UAE, Federal Decree-Law 38 of 2024 allows prescribing outside a product's leaflet, or a product never submitted to the Emirates Drug Establishment (EDE, the federal regulator of medical products since Federal Decree-Law 28/2023) for marketing approval, only when necessary, with no equivalent alternative available and with the patient's approval (Art. 42(1)). In Abu Dhabi, the DoH requires a documented eligibility assessment before peptide therapy and documented informed consent covering expected benefits, uncertainties, risks, alternatives and the product's regulatory approval status (31 July 2026). In Dubai, the DHA does not permit injections or intravenous therapies for 'wellness', 'recovery', 'detoxification' or 'energy enhancement' without a documented medical indication and treatment plan (29 July 2026)."
+       },
+       "citationRefs": [
+        "ae-fdl-28-2023",
+        "ae-fdl-38-2024",
+        "ae-doh-cir-148-2026",
+        "ae-dha-cir-peptides-2026"
+       ]
+      }
+     }
+    }
    }
   },
   {
@@ -1873,7 +2348,7 @@
       "en": "I will grade the outcome the patient wants, and name what lowers it."
      },
      {
-      "en": "I will check the live regulatory status on the day (FDA lists in the US, MHRA in the UK), and date it."
+      "en": "I will check the live regulatory status on the day with my national regulator (for example FDA lists in the US, MHRA in the UK), and date it."
      },
      {
       "en": "I will chart the regime, the grade and the consent in plain words."
@@ -1930,7 +2405,7 @@
      {
       "value": "status-live",
       "label": {
-       "en": "check the live status with my regulator on the day (FDA or MHRA), and date the check"
+       "en": "check the live status with my national regulator on the day (for example FDA or MHRA), and date the check"
       },
       "group": "regulatory"
      },
@@ -2115,6 +2590,339 @@
   ],
   "c-m07-29": [
    "m7-p22"
+  ],
+  "j-eu-37": [
+   "m7-p07",
+   "m7-p21"
+  ],
+  "j-eu-38": [
+   "m7-p07"
+  ],
+  "j-pt-34": [
+   "m7-p07"
+  ],
+  "j-pt-36": [
+   "m7-p07",
+   "m7-p17"
+  ],
+  "j-br-28": [
+   "m7-p07"
+  ],
+  "j-br-29": [
+   "m7-p07",
+   "m7-p17"
+  ],
+  "j-ae-34": [
+   "m7-p07",
+   "m7-p08",
+   "m7-p09",
+   "m7-p21",
+   "m7-p13",
+   "m7-p22",
+   "m7-p15",
+   "m7-p16",
+   "m7-p17",
+   "m7-p18"
+  ],
+  "j-ae-40": [
+   "m7-p07",
+   "m7-p21"
+  ],
+  "j-ae-41": [
+   "m7-p07"
+  ],
+  "j-ae-44": [
+   "m7-p07",
+   "m7-p17"
+  ],
+  "j-ae-39": [
+   "m7-p07",
+   "m7-p08",
+   "m7-p21",
+   "m7-p15",
+   "m7-p17"
+  ],
+  "j-eu-22": [
+   "m7-p08",
+   "m7-p17"
+  ],
+  "j-eu-23": [
+   "m7-p08"
+  ],
+  "j-eu-24": [
+   "m7-p08"
+  ],
+  "j-eu-25": [
+   "m7-p08"
+  ],
+  "j-eu-27": [
+   "m7-p08"
+  ],
+  "j-eu-08": [
+   "m7-p08"
+  ],
+  "j-eu-26": [
+   "m7-p08"
+  ],
+  "j-pt-22": [
+   "m7-p08",
+   "m7-p17"
+  ],
+  "j-pt-23": [
+   "m7-p08"
+  ],
+  "j-pt-24": [
+   "m7-p08"
+  ],
+  "j-pt-25": [
+   "m7-p08"
+  ],
+  "j-pt-26": [
+   "m7-p08"
+  ],
+  "j-pt-07": [
+   "m7-p08"
+  ],
+  "j-br-18": [
+   "m7-p08",
+   "m7-p15",
+   "m7-p17"
+  ],
+  "j-br-19": [
+   "m7-p08"
+  ],
+  "j-br-21": [
+   "m7-p08",
+   "m7-p15"
+  ],
+  "j-br-20": [
+   "m7-p08"
+  ],
+  "j-br-22": [
+   "m7-p08"
+  ],
+  "j-br-07": [
+   "m7-p08"
+  ],
+  "j-ae-12": [
+   "m7-p08",
+   "m7-p17"
+  ],
+  "j-ae-13": [
+   "m7-p08"
+  ],
+  "j-ae-14": [
+   "m7-p08"
+  ],
+  "j-ae-15": [
+   "m7-p08"
+  ],
+  "j-ae-18": [
+   "m7-p08"
+  ],
+  "j-ae-19": [
+   "m7-p08"
+  ],
+  "j-ae-59": [
+   "m7-p08",
+   "m7-p16"
+  ],
+  "j-eu-17": [
+   "m7-p09"
+  ],
+  "j-br-13": [
+   "m7-p09"
+  ],
+  "j-ae-07": [
+   "m7-p09"
+  ],
+  "j-eu-40": [
+   "m7-p21",
+   "m7-p15",
+   "m7-p18"
+  ],
+  "j-pt-49": [
+   "m7-p21"
+  ],
+  "j-pt-40": [
+   "m7-p21",
+   "m7-p15"
+  ],
+  "j-pt-35": [
+   "m7-p21",
+   "m7-p18"
+  ],
+  "j-br-38": [
+   "m7-p21"
+  ],
+  "j-br-39": [
+   "m7-p21",
+   "m7-p18"
+  ],
+  "j-br-30": [
+   "m7-p21"
+  ],
+  "j-ae-37": [
+   "m7-p21",
+   "m7-p15",
+   "m7-p18"
+  ],
+  "j-ae-42": [
+   "m7-p21"
+  ],
+  "j-ae-45": [
+   "m7-p21"
+  ],
+  "j-eu-42": [
+   "m7-p13",
+   "m7-p16"
+  ],
+  "j-eu-43": [
+   "m7-p13"
+  ],
+  "j-pt-44": [
+   "m7-p13"
+  ],
+  "j-pt-46": [
+   "m7-p13"
+  ],
+  "j-br-35": [
+   "m7-p13",
+   "m7-p22"
+  ],
+  "j-br-36": [
+   "m7-p13"
+  ],
+  "j-ae-36": [
+   "m7-p13"
+  ],
+  "j-ae-47": [
+   "m7-p13"
+  ],
+  "j-ae-51": [
+   "m7-p13"
+  ],
+  "j-ae-43": [
+   "m7-p13"
+  ],
+  "j-eu-68": [
+   "m7-p22"
+  ],
+  "j-eu-69": [
+   "m7-p22"
+  ],
+  "j-eu-72": [
+   "m7-p22"
+  ],
+  "j-pt-61": [
+   "m7-p22"
+  ],
+  "j-pt-62": [
+   "m7-p22"
+  ],
+  "j-pt-64": [
+   "m7-p22"
+  ],
+  "j-pt-65": [
+   "m7-p22"
+  ],
+  "j-pt-66": [
+   "m7-p22"
+  ],
+  "j-br-47": [
+   "m7-p22"
+  ],
+  "j-br-48": [
+   "m7-p22"
+  ],
+  "j-br-55": [
+   "m7-p22"
+  ],
+  "j-ae-63": [
+   "m7-p22"
+  ],
+  "j-ae-64": [
+   "m7-p22"
+  ],
+  "j-ae-66": [
+   "m7-p22"
+  ],
+  "j-ae-70": [
+   "m7-p22"
+  ],
+  "j-ae-71": [
+   "m7-p22"
+  ],
+  "j-eu-39": [
+   "m7-p15"
+  ],
+  "j-pt-45": [
+   "m7-p15"
+  ],
+  "j-br-33": [
+   "m7-p15",
+   "m7-p18"
+  ],
+  "j-br-34": [
+   "m7-p15"
+  ],
+  "j-ae-79": [
+   "m7-p15",
+   "m7-p18"
+  ],
+  "j-eu-51": [
+   "m7-p16"
+  ],
+  "j-eu-63": [
+   "m7-p16"
+  ],
+  "j-eu-64": [
+   "m7-p16"
+  ],
+  "j-pt-51": [
+   "m7-p16"
+  ],
+  "j-pt-53": [
+   "m7-p16"
+  ],
+  "j-pt-56": [
+   "m7-p16"
+  ],
+  "j-pt-57": [
+   "m7-p16"
+  ],
+  "j-pt-58": [
+   "m7-p16"
+  ],
+  "j-br-41": [
+   "m7-p16"
+  ],
+  "j-br-42": [
+   "m7-p16"
+  ],
+  "j-br-43": [
+   "m7-p16"
+  ],
+  "j-br-44": [
+   "m7-p16"
+  ],
+  "j-ae-53": [
+   "m7-p16"
+  ],
+  "j-ae-60": [
+   "m7-p16"
+  ],
+  "j-ae-56": [
+   "m7-p16"
+  ],
+  "j-ae-55": [
+   "m7-p16"
+  ],
+  "j-pt-41": [
+   "m7-p18"
+  ],
+  "j-ae-78": [
+   "m7-p18"
   ]
  },
  "audienceLevelPanes": [
@@ -2338,6 +3146,84 @@
    "date": "2026-09-25",
    "block": "unit tutorContext",
    "change": "'US only; UK and EU mapping pending' replaced by the UK framework summary; EU marked as not covered.",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m7-p07",
+   "change": "EU, PT, BR and AE regulatory notes added (pharmacy preparation and compounding rules); US base copy unchanged.",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m7-p08",
+   "change": "EU, PT, BR and AE regulatory notes added (status of BPC-157, TB-500, KPV, GHK-Cu, LL-37 and melanotan); US base copy unchanged.",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m7-p09",
+   "change": "EU, BR and AE regulatory notes added (tesamorelin status); no PT note, the EU note covers Portugal; US base copy unchanged.",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m7-p21",
+   "change": "Rebuilt as the outside-the-US moment (id kept): lead, title, body, tool rows, callout and sources now state what holds across the non-US jurisdictions; UK text moved verbatim into the UK note; EU, PT, BR and AE notes added.",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m7-p13",
+   "change": "EU, PT, BR and AE regulatory notes added (research-use-only products and unauthorised supply); US base copy unchanged.",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m7-p22",
+   "change": "Rebuilt as the outside-the-US moment (id kept): lead, title, body, points, audio beats, narration and sources now state what holds across the non-US jurisdictions; UK text moved verbatim into the UK note; EU, PT, BR and AE notes added.",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m7-p15",
+   "change": "EU, PT, BR and AE regulatory notes added (off-label use and unauthorised medicines); US base copy unchanged.",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m7-p16",
+   "change": "UK text moved verbatim into the UK note (its MHRA source moved with it); EU, PT, BR and AE regulatory notes added.",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m7-p17",
+   "change": "EU, PT, BR and AE regulatory notes added (BPC-157 status and compounding); US base copy unchanged.",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m7-p18",
+   "change": "EU, PT, BR and AE regulatory notes added; UK chart wording left in place because each row pairs the US and UK examples in one cell.",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "unit tutorContext",
+   "change": "'EU not covered' removed from the unit tutorContext; the Guide reads each moment's jurisdiction notes.",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m7-p01",
+   "change": "Module opener: regulatory detail now given for the US in the lesson text and for the UK, EU, Portugal, Brazil and the UAE in each moment's regulatory note (was: US and UK; 'EU rules are not covered').",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m7-p20",
+   "change": "Commitment chip and suggestion: check live status 'with my national regulator (for example FDA or MHRA)' instead of FDA or MHRA only.",
    "forReview": "Fady Hannah-Shmouni"
   }
  ],

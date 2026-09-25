@@ -95,7 +95,13 @@ def _jprofile(code, info):
             "authorities": [{k: a[k] for k in ("name", "scope", "url") if a.get(k)} for a in info.get("authorities", [])],
             "layers": layers, "reviewOwner": "Fady Hannah-Shmouni, MD FRCPC (confirmation pending)"}
 JURISDICTION_PROFILES = [_jprofile(code, info) for code, info in sorted(JREG.get("jurisdictions", {}).items())]
-CLAIM_LOCATIONS = {k: v for a in AUTHORED.values() for k, v in a.get("claimLocations", {}).items()}
+# A claim may be placed by several modules (jurisdiction statements are shared): its locations are the UNION, never the last
+# module's list (2026-09-25 — a dict comprehension had kept only the last module's placements).
+CLAIM_LOCATIONS = {}
+for _a in AUTHORED.values():
+    for _k, _v in (_a.get("claimLocations") or {}).items():
+        _locs = CLAIM_LOCATIONS.setdefault(_k, [])
+        _locs.extend(x for x in _v if x not in _locs)
 CLAIMS = [
     {"id": cl["id"], "text": cl["text"], "citationRefs": cl["citationRefs"], "status": cl["status"],
      "locations": CLAIM_LOCATIONS.get(cl["id"], [cl["unit"]]), "reviewNote": (cl.get("reviewNote") or "") + f" · grader: {reg['grader']}"}
@@ -330,7 +336,7 @@ pkg = {
     "id": "hormonaly.hormones-peptides-skin",
     "slug": "hormones-peptides-skin",
     "kind": "course",
-    "version": "1.0.0-rc.1",
+    "version": "1.0.0-rc.2",
     "title": {"en": "Hormones and Peptides for Skin"},
     "summary": {"en": outline["summary"]},
     "academy": {
@@ -358,7 +364,7 @@ pkg = {
         "professionalScope": {"en": "Continuing professional education for licensed clinicians and allied providers. Every learner gets the same evidence, regulatory status and safety content; what each may do with it — prescribe, recommend, administer, or refer — follows their own licence and scope, and the course adapts its practice guidance to that role. It informs clinical reasoning; it is not a protocol, contains no dosing, and does not replace specialist input, formal guidelines or individual judgment."},
         "disclaimers": [
             {"en": "Educational content for clinicians. It does not prescribe, and it never restates an evidence grade above what the source assigns to the specific indication."},
-            {"en": "Regulatory statements name their jurisdiction and date. US status (FDA, 503A/503B compounding) and UK status (MHRA licensing, the 'specials' route for unlicensed medicines, UK cosmetics, food and advertising rules) are given side by side where they differ; the US compounding categories have no UK equivalent. EU status is not covered."},
+            {"en": "Regulatory statements name their jurisdiction and date. US status (FDA, 503A/503B compounding) is given in the lesson text; status in the United Kingdom, the European Union, Portugal, Brazil and the United Arab Emirates (federal, with Dubai and Abu Dhabi where they differ) is given in each moment's regulatory note, read from each regulator's own primary sources in September 2026, and the learner's own country is shown first. The US compounding categories have no equivalent in the other jurisdictions. Check the live status with the national regulator before acting."},
             {"en": "Designed toward future CME accreditation. No CME or CE credit is currently offered."},
         ],
     },
@@ -381,7 +387,7 @@ pkg = {
                 ("product", "Product status mapped for the UK: MHRA-licensed products checked in UK product information (semaglutide as Ozempic and Wegovy, tirzepatide as Mounjaro, baricitinib, minoxidil, finasteride, somatropin, estradiol HRT, topical tretinoin), afamelanotide's UK licence (via NICE HST27), no UK product information for tesamorelin, sermorelin or ipamorelin (MHRA products database), somatropin as a Class C controlled drug, and the cosmetic (assimilated Regulation 1223/2009) and food-supplement (Food Supplements (England) Regulations 2003) categories. Modules 02–06."),
                 ("claims", "Claims and advertising mapped for the UK: no sale, supply or advertising of a medicine without a UK marketing authorisation (Human Medicines Regulations 2012, regs 46 and 279), no advertising of prescription-only medicines to the public (reg. 284; CAP Code 12.12; MHRA Blue Guide; ASA ruling of 11 Feb 2026), cosmetic claims (Regulation 1223/2009 art. 20; ASA ruling of 13 May 2026 on a peptide serum), and food disease and health claims (Regulation 1169/2011 art. 7(3); Regulation 1924/2006 art. 10). Modules 04 and 07."),
                 ("practice", "Practice mapped for the UK: the 'specials' route (reg. 167) and pharmacy preparation (Medicines Act 1968 s. 10) in place of 503A/503B, MHRA Guidance Note 14's order of preference (licensed, off-label, imported, special), prescriber responsibility (GMC paras 102–108, MHRA Drug Safety Update 2009, GPhC 2025, NMC Code 18), GMC's physical examination before injectable cosmetic medicines, MHRA's finasteride warnings (May 2026) and enforcement (retatrutide; the May 2026 seizure including peptide products; melanotan). Two new moments in module 07 (m7-p21, m7-p22); role versions changed only where the practice line differs by jurisdiction."),
-                ("locale", "Locale mapped for UK learners on the base English edition: UK regulatory wording ('licensed', 'unlicensed medicine', 'special', 'prescription-only medicine', 'marketing authorisation') is used wherever UK status is stated, each statement labelled 'In the UK' and dated; EU status is marked as not covered."),
+                ("locale", "Locale mapped for UK learners on the base English edition: UK regulatory wording ('licensed', 'unlicensed medicine', 'special', 'prescription-only medicine', 'marketing authorisation') is used in the UK notes, each labelled 'In the UK' and dated, and shown first to learners who choose the United Kingdom."),
             ]],
             "reviewOwner": "Fady Hannah-Shmouni, MD FRCPC (confirmation pending)",
         },
@@ -433,7 +439,11 @@ pkg = {
         "factory": "perceptor-foundry · stage 30 authored and medically approved, all seven modules (Fady Hannah-Shmouni, 2026-09-24)",
         "template": "blended-certification (phone-first delivery, certification-grade checks; unit rendering decided at authoring — the runtime renders one story per module today)",
         "variants": {
-            "dimensions": ["audienceLevel"],
+            "dimensions": ["audienceLevel", "jurisdiction"],
+            "jurisdiction": {
+                "decision": "Omar 2026-09-25: regulatory status for the US, UK, EU, Portugal, Brazil and the UAE, course in English. US in the lesson text; each other jurisdiction in metadata.variants.jurisdiction on the moments that state a status or rule, cited to that jurisdiction's primary sources (citations/jurisdictions.json, research in jurisdictions/<CODE>.json); the runtime shows the learner's own country first (EU note for other member states).",
+                "invariant": "evidence grades, safety signals and the teaching never change by jurisdiction; only the regulatory status and rules do"
+            },
             "audienceLevel": {
                 "decision": "Omar 2026-09-22: all clinicians included — physicians, NPs, PAs, nurses and other providers — and the agentic LMS adapts to each learner's application level.",
                 "levels": [
@@ -468,5 +478,28 @@ pkg = {
     },
 }
 out = ROOT / "packages" / "hormones-peptides-skin.json"
+# Jurisdiction sources that are the same document as a course citation (same URL; e.g. the EMA Scenesse EPAR registered by
+# module 05 and by the EU research) collapse onto the course id: every citationRef is rewritten and the duplicate dropped.
+import re as _re
+def _norm_url(u):
+    u = str(u or "").lower()
+    u = _re.sub(r"^https?://(www\.)?", "", u)
+    u = _re.sub(r"#(?!!?/).*$", "", u)
+    return u.rstrip("/")
+_course_by_url = {_norm_url(c.get("url")): c["id"] for c in pkg["provenance"]["citations"] if c["id"] not in _JIDS and c.get("url")}
+_alias = {c["id"]: _course_by_url[_norm_url(c.get("url"))] for c in pkg["provenance"]["citations"] if c["id"] in _JIDS and _norm_url(c.get("url")) in _course_by_url}
+def _realias(node):
+    if isinstance(node, dict):
+        for k, v in node.items():
+            if k == "citationRefs" and isinstance(v, list):
+                node[k] = list(dict.fromkeys(_alias.get(x, x) for x in v))
+            else:
+                _realias(v)
+    elif isinstance(node, list):
+        for v in node: _realias(v)
+if _alias:
+    _realias(pkg)
+    pkg["provenance"]["citations"] = [c for c in pkg["provenance"]["citations"] if c["id"] not in _alias]
+    print("aliased jurisdiction sources onto course citations:", _alias)
 out.write_text(json.dumps(pkg, indent=2, ensure_ascii=False) + "\n")
 print(out, len(modules), "modules,", sum(len(m["units"]) for m in modules), "units,", len(assessments), "planned assessments")
