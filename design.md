@@ -6,7 +6,7 @@
 
 ## Identity in one sentence
 
-Evidence-graded clinical education for every clinician who meets skin and hormone questions, in the Perceptors
+Evidence-graded clinical education in hormone and peptide medicine, course by course, for every clinician who meets these questions, in the Perceptors
 premium-editorial register: calm, exact, and no marketing noise.
 
 ## Inherited from the house

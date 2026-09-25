@@ -1,4 +1,5 @@
-# Academy catalog — Hormonaly (Aesthetic & Regenerative Endocrinology)
+# Academy catalog — Hormonaly Academy at hormonaly.perceptors.ai: the home for Hormonaly's peptide-based courses (Omar, 2026-09-25).
+# Hormones and Peptides for Skin is the first; further peptide courses join this catalog (runtime multi-course support pending).
 academy: hormonaly
 brand:
   voices:                       # stock library voice (no faculty likeness/voice without a release); intake video brief: "voice: library"
@@ -11,7 +12,7 @@ brand:
   theme: perceptors-house               # design tier 0: the Perceptors house theme verbatim (design.md), Omar 2026-09-24
   designTier: 0
   accent: "#5A4BC4"                     # Perceptors violet (house); palette and fonts are inherited from the house, not copied
-  tagline: { en: "The skin–endocrine system, evidence-graded." }
+  tagline: { en: "Hormones and peptides, evidence-graded." }   # academy-level: every course in the catalog sits under it
   supportEmail: support@hormonaly.ai    # placeholder — confirm with customer
   issuer: Hormonaly Academy
 catalog:
