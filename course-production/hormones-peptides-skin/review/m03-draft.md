@@ -7,7 +7,7 @@ Every factual sentence traces to the graded registry (`citations/m03.md`). Momen
 
 ## Lesson 3.1 · Dermal fat and matrix glycation
 
-### 01 / 20 · The face changes when the fat does.  
+### 01 / 21 · The face changes when the fat does.  
 *Module 03 · Fat, incretins and the ageing face · title*
 
 Facial shape depends on fat as much as on collagen. In three lessons you will separate what is known about the skin's own fat, sugar damage to the dermis, weight-loss drugs and the gut from what is still mechanism, marketing or an open question.
@@ -16,12 +16,12 @@ Facial shape depends on fat as much as on collagen. In three lessons you will se
 - 3.2 Semaglutide, tirzepatide and the changing face
 - 3.3 The gut barrier, endotoxaemia and inflammaging
 
-###  · Fat, incretins and the ageing face  
+### 02 / 21 · Fat, incretins and the ageing face  
 *Module 03 · Opening film · video*
 
 <sub>Sources: Chen SX 2019 · Zhang LJ 2015 · Zhang LJ 2019 · Kruglikov IL 2016 · O'Neill AM 2022 · Kershaw EE 2004 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
 
-### 02 / 20 · The skin keeps its own fat.  
+### 03 / 21 · The skin keeps its own fat.  
 *Mechanism · audio*
 
 Beneath the dermis lies subcutaneous fat. Within the reticular dermis itself sits a thinner layer, dermal white adipose tissue. In mice, this layer expands rapidly after a Staphylococcus aureus infection, its new fat cells release the antimicrobial peptide cathelicidin, and the capacity fades with age through TGF-β signalling. Human skin arranges this fat differently, in cones around hair follicles, and human acne lesions contain perifollicular preadipocytes that make cathelicidin. What the layer contributes to human skin ageing has not been measured.
@@ -38,7 +38,7 @@ Most people picture skin fat as one layer under the dermis. There is a second, t
 
 <sub>Sources: Chen SX 2019 · Zhang LJ 2015 · Zhang LJ 2019 · Kruglikov IL 2016 · O'Neill AM 2022 · Kershaw EE 2004 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
 
-### 03 / 20 · Fat that holds the face up.  
+### 04 / 21 · Fat that holds the face up.  
 *Human evidence · stat*
 
 Cadaver dissection shows that the face's subcutaneous fat sits in separate compartments, and facial ageing is partly how each compartment changes. Weight shows the same thing from the outside. In a study of 186 pairs of identical twins, the twin with the higher body-mass index looked older before about age 40 and younger after it.
@@ -49,7 +49,7 @@ Cadaver dissection shows that the face's subcutaneous fat sits in separate compa
 
 <sub>Sources: Rohrich RJ 2007 · Guyuron B 2009 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
 
-### 04 / 20 · Sugar that sticks to collagen.  
+### 05 / 21 · Sugar that sticks to collagen.  
 *Mechanism · audio*
 
 Glycation is a slow, non-enzymatic reaction. Reducing sugars attach to protein amino groups, rearrange into Amadori products and end as advanced glycation end products, or AGEs. On long-lived dermal collagen, AGEs form cross-links that stiffen the matrix. Through their receptor, RAGE, AGEs switch on inflammatory signalling in laboratory studies. The Aesthetic & Regenerative Endocrinology guide rates the structural and inflammatory effects B; the course grades the causal link to visible ageing D, because the human data are associations.
@@ -66,7 +66,7 @@ Glycation is chemistry before it is biology. Reducing sugars attach to the amino
 
 <sub>Sources: Gkogkolou P 2012 · Dyer DG 1993 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
 
-### 05 / 20 · Fifteen years on the same collagen.  
+### 06 / 21 · Fifteen years on the same collagen.  
 *Human evidence · stat*
 
 Human skin collagen turns over slowly; tissue analysis puts its half-life at about 15 years. In skin biopsies, glycoxidation products in collagen rose about five-fold between ages 20 and 85, and were up to twice as high in type 1 diabetes. Skin autofluorescence, a non-invasive reading, correlates moderately with those biopsy measures and was validated in non-pigmented skin.
@@ -77,7 +77,7 @@ Human skin collagen turns over slowly; tissue analysis puts its half-life at abo
 
 <sub>Sources: Verzijl N 2000 · Dyer DG 1993 · Meerwaldt R 2004 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
 
-### 06 / 20 · Mouse, human or marketing?  
+### 07 / 21 · Mouse, human or marketing?  
 *Sort the evidence · tool*
 
 Six statements you will hear about skin fat and glycation. Before you see where each one stands, decide what kind of evidence is behind it.
@@ -103,7 +103,7 @@ Six statements you will hear about skin fat and glycation. Before you see where 
 
 <sub>Sources: Zhang LJ 2015 · Zhang LJ 2019 · O'Neill AM 2022 · Kruglikov IL 2016 · Dyer DG 1993 · Verzijl N 2000 · Gkogkolou P 2012 · Draelos ZD 2025 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
 
-### 07 / 20 · A lower reading.  
+### 08 / 21 · A lower reading.  
 *Your turn · quiz*
 
 One question to close lesson 3.1.
@@ -116,7 +116,7 @@ One question to close lesson 3.1.
 
 ## Lesson 3.2 · Incretin therapy and the changing face
 
-### 08 / 20 · Two gut hormones, re-engineered.  
+### 09 / 21 · Two gut hormones, re-engineered.  
 *Lesson 3.2 · Concept · audio*
 
 GLP-1 and GIP are incretins, hormones the gut releases after a meal that amplify glucose-dependent insulin release; GLP-1 also slows gastric emptying and reduces appetite. Native GLP-1 is broken down within minutes. Semaglutide is a long-acting GLP-1 receptor agonist, and tirzepatide activates both GIP and GLP-1 receptors. In the US, as of September 2026, both are FDA-approved drugs for defined indications, set out in the next moment.
@@ -139,7 +139,7 @@ After a meal, the gut releases two hormones called incretins, GLP-1 and GIP. Bot
 
 <sub>Sources: Drucker DJ 2018 · Eli Lilly (Mounjaro prescribing information) 2026 · Novo Nordisk (Ozempic prescribing information) 2026 · Novo Nordisk (Wegovy prescribing information) 2026 · Eli Lilly (Zepbound prescribing information) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026</sub>
 
-### 09 / 20 · Approved for what, exactly?  
+### 10 / 21 · Approved for what, exactly?  
 *Regulatory status · tool*
 
 The facial changes in this lesson happen to people taking approved drugs for approved reasons. Know the indications, and their dates, before you discuss the side effects. Status below is for the US, from FDA records checked in September 2026.
@@ -163,7 +163,7 @@ The facial changes in this lesson happen to people taking approved drugs for app
 
 <sub>Sources: Novo Nordisk (Ozempic prescribing information) 2026 · Novo Nordisk (Wegovy prescribing information) 2026 · US Food and Drug Administration (Drugs@FDA 2026 · Lincoff AM 2023 · Eli Lilly (Mounjaro prescribing information) 2026 · Eli Lilly (Zepbound prescribing information) 2026 · US Food and Drug Administration (Drugs@FDA 2026 · US Food and Drug Administration 2026 · Ashraf AR 2024 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026</sub>
 
-### 10 / 20 · Large trials, measured on the scale.  
+### 11 / 21 · Large trials, measured on the scale.  
 *Human evidence · stat*
 
 In STEP-1, 1,961 adults without diabetes lost a mean 14.9% of body weight on semaglutide over 68 weeks, against 2.4% on placebo. In SURMOUNT-1, 2,539 adults lost 15.0% to 20.9% on tirzepatide over 72 weeks, depending on dose, against 3.1% on placebo. Both Hormonaly guides grade weight management A. Across 35 randomized trials of incretin drugs, a median of about 28% of the weight lost was muscle-related tissue.
@@ -174,7 +174,7 @@ In STEP-1, 1,961 adults without diabetes lost a mean 14.9% of body weight on sem
 
 <sub>Sources: Wilding JPH 2021 · Jastreboff AM 2022 · Batsis JA 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026</sub>
 
-### 11 / 20 · 'Ozempic face', answer by answer.  
+### 12 / 21 · 'Ozempic face', answer by answer.  
 *Four registers · tool*
 
 The phrase bundles four kinds of statement. Kept apart, they tell a patient far more than the headline does.
@@ -193,7 +193,7 @@ The phrase bundles four kinds of statement. Kept apart, they tell a patient far 
 
 <sub>Sources: Rohrich RJ 2007 · Sharma RK 2025 · Rao S 2026 · Daneshgaran G 2025 · Humphrey CD 2023 · Novo Nordisk (Wegovy prescribing information) 2026 · Eli Lilly (Zepbound prescribing information) 2026 · Paschou IA 2025 · Persson C 2025 · Burke OM 2025 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
 
-### 12 / 20 · Counsel before, record during, refer when asked.  
+### 13 / 21 · Counsel before, record during, refer when asked.  
 *What changes in practice · audio*
 
 Raise facial volume change and hair shedding before treatment starts; the Hormonaly guide advises this especially for older patients. During treatment, photograph the face with consent, and support the protein intake and resistance training the guide recommends to protect lean mass. When a patient wants the face restored, refer to a qualified aesthetic or dermatology colleague. Published advice on restoration is expert opinion, the main consensus statement was developed with industry involvement, and randomized trials of fillers and devices in these patients are registered without results. Decisions about the medicine itself stay with the prescriber and the patient.
@@ -215,7 +215,7 @@ Three moments matter in practice. Before treatment starts, raise facial volume c
 
 <sub>Sources: Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · Humphrey CD 2023 · Nikolis A 2025 · Kalpna Kay Durairaj 2026 · Sofwave Medical LTD 2026 · Batsis JA 2026</sub>
 
-### 13 / 20 · Ten months in, and unhappy with the mirror.  
+### 14 / 21 · Ten months in, and unhappy with the mirror.  
 *Fictional case · audio*
 
 A 58-year-old patient has taken semaglutide for obesity for ten months, prescribed by her physician, and has lost 18% of her body weight. Her blood pressure and glucose have improved. She is distressed by hollow cheeks, new laxity along the jaw and more hair in her brush, and asks whether she should stop the injections. This is a fictional case built from the lesson's evidence; there is one right first move.
@@ -247,7 +247,7 @@ Picture a fifty-eight-year-old patient, fictional and built from this lesson's e
 
 <sub>Sources: Sharma RK 2025 · Rao S 2026 · Novo Nordisk (Wegovy prescribing information) 2026 · Nikolis A 2025 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
 
-### 14 / 20 · What the evidence shows.  
+### 15 / 21 · What the evidence shows.  
 *Your turn · quiz*
 
 One question to close lesson 3.2.
@@ -260,7 +260,7 @@ One question to close lesson 3.2.
 
 ## Lesson 3.3 · Gut barrier, endotoxaemia and inflammaging
 
-### 15 / 20 · Inflammation that comes with age.  
+### 16 / 21 · Inflammation that comes with age.  
 *Lesson 3.3 · Concept · audio*
 
 Inflammaging is the chronic, low-grade, sterile inflammation that rises with age. In older adults, higher IL-6 and CRP predict frailty and death. One proposed source is the gut. In mice, a high-fat diet raises circulating bacterial lipopolysaccharide, and infusing it reproduces weight gain and insulin resistance. In 12 healthy men, a single high-fat meal raised plasma endotoxin within four hours. Whether a leaky gut drives skin disease in people has not been shown.
@@ -277,7 +277,7 @@ Ageing brings a slow rise in background inflammation, called inflammaging. It is
 
 <sub>Sources: Franceschi C 2000 · Ferrucci L 2018 · Cani PD 2007 · Erridge C 2007 · Camilleri M 2019 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
 
-### 16 / 20 · Thirty-nine trials of probiotics for eczema.  
+### 17 / 21 · Thirty-nine trials of probiotics for eczema.  
 *The evidence · stat*
 
 An independent Cochrane review pooled 39 randomized trials, with 2,599 participants, of oral probiotics for eczema. Probiotics probably make little or no difference to patient-rated symptoms, and investigator-rated severity fell by less than the minimum clinically important difference. A 2024 European task-force meta-analysis in children without food allergy reported a significant fall in severity scores.
@@ -288,7 +288,7 @@ An independent Cochrane review pooled 39 randomized trials, with 2,599 participa
 
 <sub>Sources: Makrgeorgou A 2018 · Vassilopoulou E 2024 · Suez J 2019 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
 
-### 17 / 20 · What has been tested on skin?  
+### 18 / 21 · What has been tested on skin?  
 *Sort the toolkit · tool*
 
 Six things patients bring you under the heading 'gut health for skin'. One at a time, decide what stands behind each.
@@ -319,7 +319,7 @@ Six things patients bring you under the heading 'gut health for skin'. One at a 
 
 <sub>Sources: Makrgeorgou A 2018 · Parodi A 2008 · Lebwohl M 2026 · Faurschou A 2015 · Eli Lilly (Mounjaro prescribing information) 2026 · Eli Lilly (Zepbound prescribing information) 2026 · Reynolds A 2019 · Depommier C 2019 · US Food and Drug Administration 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · Eli Lilly Nederland B.V. (marketing authorisation holder) 2026</sub>
 
-### 18 / 20 · Diet first, a bottle last.  
+### 19 / 21 · Diet first, a bottle last.  
 *What changes in practice · audio*
 
 When a patient links their skin to their gut, start with what has evidence: diet quality, treating metabolic disease directly, and established treatment for the skin condition itself. A widely used commercial zonulin assay has been shown to detect proteins other than zonulin, so a result cannot tell you whether a gut is leaky. Restoring barrier function has not been shown to improve disease outside the gut. Investigational peptides sold for gut repair come last, if at all.
@@ -348,7 +348,7 @@ Patients often link their skin to their gut. Start where the evidence is. Diet q
 
 <sub>Sources: Scheffler L 2018 · Camilleri M 2019 · Reynolds A 2019 · Suez J 2019 · Makrgeorgou A 2018 · US Food and Drug Administration 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · US Code of Federal Regulations (eCFR) 2019</sub>
 
-### 19 / 20 · The zonulin test.  
+### 20 / 21 · The zonulin test.  
 *Your turn · quiz*
 
 One question to close lesson 3.3.
@@ -358,7 +358,7 @@ One question to close lesson 3.3.
 - ✔ The test is unreliable and would not change care: treat the rosacea on its own evidence, and assess any gut symptoms clinically. — *Correct. The small trial that linked gut bacteria to rosacea used breath testing and clinical assessment, and no zonulin test.*
 - ✗ Rosacea has nothing to do with the gut, so there is nothing to discuss. — *Too strong: a small randomized trial found rosacea improved after bacterial overgrowth was treated. The link is possible; the test is the problem.*
 
-### 20 / 20 · Before my next conversation about weight, skin and the gut.  
+### 21 / 21 · Before my next conversation about weight, skin and the gut.  
 *Closing and commitment · action*
 
 Build the checklist you will actually use. It is saved to your path and your tutor will bring it back.

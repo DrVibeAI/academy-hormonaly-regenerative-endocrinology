@@ -7,7 +7,7 @@ Every factual sentence traces to the graded registry (`citations/m06.md`). Momen
 
 ## Lesson 6.1 · Growth hormone and IGF-1 in skin homeostasis
 
-### 01 / 19 · Real endocrinology, borrowed for marketing.  
+### 01 / 20 · Real endocrinology, borrowed for marketing.  
 *Module 06 · The growth-hormone axis and the skin · title*
 
 Growth hormone and IGF-1 genuinely shape skin, and one peptide on this axis has approval-grade trials. Most of what patients are offered has much less behind it. In three lessons you will separate the physiology from the promise, the approved from the anecdotal, and the side-effects you can see from the risks nobody has measured.
@@ -16,12 +16,12 @@ Growth hormone and IGF-1 genuinely shape skin, and one peptide on this axis has 
 - 6.2 GHRH analogues and secretagogues: what stands behind each
 - 6.3 Signs of excess, oedema and mitogenic risk
 
-###  · The growth-hormone axis and the skin  
+### 02 / 20 · The growth-hormone axis and the skin  
 *Module 06 · Opening film · video*
 
 <sub>Sources: Tavakkol A 1992 · Edmondson SR 2003 · Horesh EJ 2023 · Veldhuis JD 2008 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
 
-### 02 / 19 · Two hormones, two layers of skin.  
+### 03 / 20 · Two hormones, two layers of skin.  
 *Lesson 6.1 · Mechanism · audio*
 
 Growth hormone acts mostly in the dermis. Its receptor is expressed more by fibroblasts than by keratinocytes, and it increases fibroblast numbers and supports collagen synthesis. IGF-1, made locally by fibroblasts and melanocytes, reaches keratinocytes through the IGF-1 receptor and makes them divide. Human hair follicles even run their own small growth-hormone loop in the laboratory. With age, GH secretion and IGF-1 fall steadily; this is the somatopause.
@@ -38,7 +38,7 @@ Two layers of skin listen to two different parts of the same axis. Growth hormon
 
 <sub>Sources: Tavakkol A 1992 · Edmondson SR 2003 · Horesh EJ 2023 · Veldhuis JD 2008 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
 
-### 03 / 19 · A much-cited skin result, read again.  
+### 04 / 20 · A much-cited skin result, read again.  
 *Human evidence · stat*
 
 In 1990 a much-cited New England Journal of Medicine study gave growth hormone for six months to 12 healthy men over 60, with nine untreated men for comparison and no placebo. Lean mass rose and fat fell. Skin thickness rose 7.1%, with P = 0.07, short of statistical significance. A small 1996 randomized trial in 28 older men found 15% more collagen laid down in implanted wound tubes on GH, a laboratory surrogate for repair.
@@ -49,7 +49,7 @@ In 1990 a much-cited New England Journal of Medicine study gave growth hormone f
 
 <sub>Sources: Rudman D 1990 · Papadakis MA 1996</sub>
 
-### 04 / 19 · Mechanism, human evidence or open question?  
+### 05 / 20 · Mechanism, human evidence or open question?  
 *Sort the evidence · tool*
 
 Six things you will hear about growth hormone and skin, each accurate as worded. Before you see the answer, decide what kind of statement each one is.
@@ -75,7 +75,7 @@ Six things you will hear about growth hormone and skin, each accurate as worded.
 
 <sub>Sources: Tavakkol A 1992 · Lange M 2001 · Breederveld RS 2014 · Horesh EJ 2023 · Ben-Shlomo A 2006 · Rudman D 1990 · Edmondson SR 2003</sub>
 
-### 05 / 19 · Deficiency is a diagnosis. Decline is ageing.  
+### 06 / 20 · Deficiency is a diagnosis. Decline is ageing.  
 *What changes in practice · audio*
 
 In healthy older adults, randomized trials of growth hormone show small shifts in body composition, about 2 kg less fat and 2 kg more lean mass, with more oedema, joint pain, carpal tunnel syndrome and a trend towards diabetes. Strength and endurance change little. The Aesthetic & Regenerative Endocrinology guide grades its advice against treatment A; graded on the trials themselves the evidence is B, and the conclusion is the same. In the US, as of September 2026, knowingly distributing growth hormone for anti-ageing is a federal offence.
@@ -104,7 +104,7 @@ Here the physiology meets the waiting room. A patient in their fifties has read 
 
 <sub>Sources: Blackman MR 2002 · Pfizer (FDA-approved labeling) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · Liu H 2007 · Office of the Law Revision Counsel 2026 · Pfizer Limited (marketing authorisation holder) 2024 · Misuse of Drugs Act 1971 (UK) 1971</sub>
 
-### 06 / 19 · 'Low for my age.'  
+### 07 / 20 · 'Low for my age.'  
 *Your turn · quiz*
 
 One question to close lesson 6.1.
@@ -117,7 +117,7 @@ One question to close lesson 6.1.
 
 ## Lesson 6.2 · GHRH analogues and secretagogues: clinical pharmacology
 
-### 07 / 19 · One axis, four ways in.  
+### 08 / 20 · One axis, four ways in.  
 *Lesson 6.2 · Concept · audio*
 
 Somatropin is growth hormone itself. GHRH analogues (sermorelin, tesamorelin, CJC-1295) stimulate the pituitary's GHRH receptor. Ghrelin-receptor agonists (ipamorelin, GHRP-2, GHRP-6 and the oral ibutamoren, MK-677) stimulate GH release through a second pituitary receptor. IGF-1 analogues such as IGF-1 LR3 bypass the pituitary altogether. They are sold as one family, and the next moments take them apart.
@@ -134,7 +134,7 @@ Four routes lead into the same axis, and patients rarely know which one they are
 
 <sub>Sources: Dominikowski A 2026 · Teichman SL 2006 · Nass R 2008 · Pfizer (FDA-approved labeling) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026</sub>
 
-### 08 / 19 · What real peptide evidence looks like.  
+### 09 / 20 · What real peptide evidence looks like.  
 *Worked example · tool*
 
 Tesamorelin is the instructive exception on this axis. Both Hormonaly guides grade it A, for one indication. Read the record in order.
@@ -157,7 +157,7 @@ Tesamorelin is the instructive exception on this axis. Both Hormonaly guides gra
 
 <sub>Sources: Falutz J 2007 · Falutz J 2010 · Theratechnologies Inc. (FDA-approved labeling) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Medicines and Healthcare products Regulatory Agency (UK) 2026</sub>
 
-### 09 / 19 · Zero skin trials.  
+### 10 / 20 · Zero skin trials.  
 *The evidence · stat*
 
 A PubMed search in September 2026 found no randomized trial with a skin outcome for tesamorelin, CJC-1295, ipamorelin or IGF-1 LR3. The nearest is a 1997 study of a GHRH(1-29) analogue related to sermorelin, in 19 older adults. Skin thickness measured by caliper rose after 16 weeks, compared with a placebo lead-in rather than a parallel control group.
@@ -168,7 +168,7 @@ A PubMed search in September 2026 found no randomized trial with a skin outcome 
 
 <sub>Sources: Khorram O 1997 · Dominikowski A 2026 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026</sub>
 
-### 10 / 19 · Approval-grade, hormone levels, or nothing?  
+### 11 / 20 · Approval-grade, hormone levels, or nothing?  
 *Sort the evidence · tool*
 
 Seven products on this axis and the use each one is offered for. Decide what actually stands behind each before you see its grade.
@@ -196,7 +196,7 @@ Seven products on this axis and the use each one is offered for. Decide what act
 
 <sub>Sources: Falutz J 2007 · Pfizer (FDA-approved labeling) 2026 · Teichman SL 2006 · Beck DE 2014 · Dominikowski A 2026 · US Food and Drug Administration 2013 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026</sub>
 
-### 11 / 19 · Where each one stands in the US.  
+### 12 / 20 · Where each one stands in the US.  
 *Regulatory status · tool*
 
 Dated to FDA's 503A category list of 14 May 2026, its Category 2 page (current as of 22 April 2026), the October 2024 advisory-committee votes, the bulks list in 21 CFR 216.23 and Drugs@FDA as checked on 24 September 2026. Absence from every list does not make a substance permitted, and FDA stopped placing newly nominated substances into categories in January 2025.
@@ -220,7 +220,7 @@ Dated to FDA's 503A category list of 14 May 2026, its Category 2 page (current a
 
 <sub>Sources: US Food and Drug Administration 2026 · US Food and Drug Administration 2026 · US Food and Drug Administration 2024 · Code of Federal Regulations (eCFR) 2026 · US Food and Drug Administration 2026 · US Food and Drug Administration 2013 · US Food and Drug Administration 2020 · US Food and Drug Administration 2026 · Office of the Law Revision Counsel 2026 · Theratechnologies Inc. (FDA-approved labeling) 2026 · Adunsky A 2011</sub>
 
-### 12 / 19 · Name the indication before the molecule.  
+### 13 / 20 · Name the indication before the molecule.  
 *What changes in practice · audio*
 
 When a patient asks about a growth-hormone peptide, three answers come first. Which molecule, exactly, including whether 'CJC' means with or without DAC. What stands behind it, whether approval-grade trials for one indication, hormone levels only, or nothing. And where it stands in the US today, read off the live FDA lists. Tesamorelin's GRADE A belongs to HIV-associated abdominal fat and transfers to nothing else.
@@ -249,7 +249,7 @@ Imagine the request as it usually arrives. A patient says their clinic offers a 
 
 <sub>Sources: Theratechnologies Inc. (FDA-approved labeling) 2026 · Dominikowski A 2026 · US Food and Drug Administration 2026 · Code of Federal Regulations (eCFR) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · Medicines and Healthcare products Regulatory Agency (UK) 2026 · Medicines and Healthcare products Regulatory Agency (UK) 2023</sub>
 
-### 13 / 19 · 'Basically tesamorelin?'  
+### 14 / 20 · 'Basically tesamorelin?'  
 *Your turn · quiz*
 
 One question to close lesson 6.2.
@@ -262,7 +262,7 @@ One question to close lesson 6.2.
 
 ## Lesson 6.3 · GH excess, oedema and mitogenic risk
 
-### 14 / 19 · What too much growth hormone looks like.  
+### 15 / 20 · What too much growth hormone looks like.  
 *Lesson 6.3 · Recognition · audio*
 
 Sustained GH excess changes skin in ways you can see. In acromegaly, glycosaminoglycan deposits and oedema make the face, hands and feet puffy and thick; the skin turns oily with large pores; sweating increases; skin tags and acanthosis nigricans appear. Drugs on this axis bring their own signs: fluid retention with swelling, joint pain, tingling and carpal tunnel symptoms. The Endocrine Society recommends measuring IGF-1 when typical acral and facial features are present.
@@ -279,7 +279,7 @@ Excess growth hormone leaves visible marks on skin and soft tissue, and noticing
 
 <sub>Sources: Ben-Shlomo A 2006 · Katznelson L 2014 · Giustina A 2024 · Pfizer (FDA-approved labeling) 2026 · Liu H 2007</sub>
 
-### 15 / 19 · Does raising IGF-1 cause cancer?  
+### 16 / 20 · Does raising IGF-1 cause cancer?  
 *Four registers · tool*
 
 The honest answer has four parts, and each has its own source. Keep them apart, or a mechanism will be heard as a measured risk.
@@ -296,7 +296,7 @@ The honest answer has four parts, and each has its own source. Keep them apart, 
 
 <sub>Sources: Edmondson SR 2003 · Renehan AG 2004 · Knuppel A 2020 · Dal J 2018 · Swerdlow AJ 2017 · Boguszewski MCS 2022 · Guevara-Aguirre J 2011 · Dominikowski A 2026</sub>
 
-### 16 / 19 · Half the patients on the approved one.  
+### 17 / 20 · Half the patients on the approved one.  
 *The evidence · stat*
 
 Tesamorelin is the best-studied peptide on this axis. In its pivotal trials, 47% of treated patients had IGF-1 more than two standard deviations above the mean at 26 weeks, and 36% more than three. Its label states that the effects of prolonged IGF-1 elevation are unknown. For unapproved secretagogues bought for skin, nobody has published the equivalent figure.
@@ -307,7 +307,7 @@ Tesamorelin is the best-studied peptide on this axis. In its pivotal trials, 47%
 
 <sub>Sources: Theratechnologies Inc. (FDA-approved labeling) 2026 · Falutz J 2010 · Dominikowski A 2026</sub>
 
-### 17 / 19 · Tight rings, eight months into 'CJC/ipa'.  
+### 18 / 20 · Tight rings, eight months into 'CJC/ipa'.  
 *Fictional case · audio*
 
 A 52-year-old patient has injected a clinic-supplied 'CJC-1295/ipamorelin' product for eight months for skin and recovery. Her rings no longer fit, her face and hands look puffy, her fingers tingle at night, she sweats more, and new skin tags have appeared on her neck. She asks for a stronger version. This case is fictional, built from the lesson's evidence; there is one best first step.
@@ -339,7 +339,7 @@ This patient is fictional, built from the lesson's evidence. She is fifty-two an
 
 <sub>Sources: Katznelson L 2014 · Ben-Shlomo A 2006 · Giustina A 2024 · Theratechnologies Inc. (FDA-approved labeling) 2026 · US Food and Drug Administration 2026 · Dominikowski A 2026 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026</sub>
 
-### 18 / 19 · 'Will it give me cancer?'  
+### 19 / 20 · 'Will it give me cancer?'  
 *Your turn · quiz*
 
 One question to close lesson 6.3.
@@ -349,7 +349,7 @@ One question to close lesson 6.3.
 - ✔ The mechanism makes it a concern; people with higher natural IGF-1 have slightly higher rates of some cancers; IGF-1 LR3 itself has no human studies, so the risk is plausible and unmeasured. — *Correct. Mechanism, observation and the open question, each stated for what it is.*
 - ✗ No. Large studies of growth-hormone treatment found no cancer signal. — *Those cohorts studied replacement in children with growth failure, and even they flagged a few signals. They say nothing about an unstudied IGF-1 analogue used for skin.*
 
-### 19 / 19 · Before my next growth-hormone conversation.  
+### 20 / 20 · Before my next growth-hormone conversation.  
 *Closing and commitment · action*
 
 Build the checklist you will actually use. It is saved to your path and your tutor will bring it back.

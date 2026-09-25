@@ -7,7 +7,7 @@ Every factual sentence traces to the graded registry (`citations/m02.md`). Momen
 
 ## Lesson 2.1 · Cortisol signatures: local 11β-HSD1 and Cushing's syndrome
 
-### 01 / 19 · The face that might be a diagnosis.  
+### 01 / 20 · The face that might be a diagnosis.  
 *Module 02 · Hormones written on the skin · title*
 
 Most skin changes you see are ageing or lifestyle. A few are the first visible sign of endocrine disease. In three lessons you will separate them: what local and systemic hormones do to skin, what hormone therapy can and cannot do for it, and which signs belong with an endocrinologist.
@@ -16,12 +16,12 @@ Most skin changes you see are ageing or lifestyle. A few are the first visible s
 - 2.2 Estrogen, menopause and collagen: what the trials show
 - 2.3 Skin signs that need an endocrinologist
 
-###  · Systemic hormones and the skin  
+### 02 / 20 · Systemic hormones and the skin  
 *Module 02 · Opening film · video*
 
 <sub>Sources: Slominski A 2000 · Tiganescu A 2011 · Tiganescu A 2013 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
 
-### 02 / 19 · The skin regenerates its own cortisol.  
+### 03 / 20 · The skin regenerates its own cortisol.  
 *Mechanism · audio*
 
 Skin expresses the machinery of a local stress axis, including CRH and POMC with its product ACTH. Keratinocytes and dermal fibroblasts also carry 11β-HSD1, the enzyme that turns inactive cortisone back into active cortisol inside the cell. In human skin samples its activity is higher with age and in sun-exposed skin, and local cortisol availability is set independently of blood levels. Cortisol slows collagen production in dermal fibroblasts, and mice lacking the enzyme kept their dermal thickness with age.
@@ -38,7 +38,7 @@ Picture the skin as a small endocrine organ with its own stress axis. Skin cells
 
 <sub>Sources: Slominski A 2000 · Tiganescu A 2011 · Tiganescu A 2013 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
 
-### 03 / 19 · 11β-HSD1: four separate answers.  
+### 04 / 20 · 11β-HSD1: four separate answers.  
 *Four registers · tool*
 
 Local cortisol regeneration is a real and interesting mechanism. Each register below answers a different question, and blending them produces the line you will hear online: that blocking cortisol in the skin reverses ageing.
@@ -54,7 +54,7 @@ Local cortisol regeneration is a real and interesting mechanism. Each register b
 
 <sub>Sources: Tiganescu A 2011 · Tiganescu A 2013 · Ajjan RA 2022 · University of Leeds 2018 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
 
-### 04 / 19 · Which features point to Cushing's?  
+### 05 / 20 · Which features point to Cushing's?  
 *Sort the signs · tool*
 
 Cushing's syndrome shares most of its features with ordinary weight gain, poor sleep and stress. The Endocrine Society's diagnostic guideline separates the few that discriminate from the many that are common. Before you see its verdicts, sort these eight.
@@ -84,7 +84,7 @@ Cushing's syndrome shares most of its features with ordinary weight gain, poor s
 
 <sub>Sources: Nieman LK 2008 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
 
-### 05 / 19 · Rare, and usually from a prescription.  
+### 06 / 20 · Rare, and usually from a prescription.  
 *The evidence · stat*
 
 Endogenous Cushing's syndrome is uncommon: European population studies put it at two to three new cases per million people a year. The commonest cause of Cushing's syndrome is iatrogenic, from glucocorticoids given as medicine. The Endocrine Society therefore asks for a drug history first, covering tablets, inhalers, injections and creams, including skin-bleaching products, and recommends testing when features are multiple and progressive.
@@ -95,7 +95,7 @@ Endogenous Cushing's syndrome is uncommon: European population studies put it at
 
 <sub>Sources: Nieman LK 2008 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
 
-### 06 / 19 · Reassure the many, refer the few.  
+### 07 / 20 · Reassure the many, refer the few.  
 *What changes in practice · audio*
 
 When a patient asks about 'cortisol face', start with the drug history: steroid creams, skin-lighteners, herbal tonics and injections. Then look for the discriminating features. Without them, the Aesthetic & Regenerative Endocrinology guide reads most puffiness as sleep, alcohol, salt and fluid, and the Endocrine Society recommends against widespread testing. With them, especially when they are progressing, the next step is formal testing and an endocrinologist. A cortisol supplement or a consumer cortisol panel answers the wrong question.
@@ -117,7 +117,7 @@ Here is how that plays out when a patient asks about cortisol face. Begin with a
 
 <sub>Sources: Nieman LK 2008 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
 
-### 07 / 19 · 'Is this cortisol face?'  
+### 08 / 20 · 'Is this cortisol face?'  
 *Your turn · quiz*
 
 One question to close lesson 2.1.
@@ -130,7 +130,7 @@ One question to close lesson 2.1.
 
 ## Lesson 2.2 · Estrogen, menopause and dermal collagen
 
-### 08 / 19 · Estrogen and the dermis.  
+### 09 / 20 · Estrogen and the dermis.  
 *Lesson 2.2 · Concept · audio*
 
 Skin carries estrogen receptors (ERα, ERβ and the membrane receptor GPER) in both sun-protected and sun-damaged sites. In postmenopausal women, two weeks of topical estradiol raised collagen production in sun-protected hip skin; photoaged facial skin showed no such response. After menopause, small biopsy studies found skin collagen and thickness falling year by year, following years since menopause more closely than age. That is mechanism and natural history. What hormone therapy does to a face is a separate question.
@@ -147,7 +147,7 @@ Estrogen is the hormone the guide says dominates the visible ageing of women's s
 
 <sub>Sources: Rittié L 2008 · Thornton MJ 2013 · Brincat M 1985 · Affinito P 1999 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
 
-### 09 / 19 · One to two per cent a year.  
+### 10 / 20 · One to two per cent a year.  
 *The evidence · stat*
 
 In small biopsy studies of postmenopausal women, skin collagen content and skin thickness fell by about 1–2% a year, in step with bone mass, and followed years since menopause more than age. Reviews, and the Aesthetic & Regenerative Endocrinology guide, quote a steeper early loss of up to 30% in the first five years. That figure traces to the same small studies, and a check of their abstracts in September 2026 did not find it stated.
@@ -158,7 +158,7 @@ In small biopsy studies of postmenopausal women, skin collagen content and skin 
 
 <sub>Sources: Brincat M 1987 · Brincat M 1985 · Affinito P 1999 · Thornton MJ 2013 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
 
-### 10 / 19 · Biopsy gains, mirror results.  
+### 11 / 20 · Biopsy gains, mirror results.  
 *Human evidence · tool*
 
 Hormone therapy has two kinds of trial behind it. Small trials measure the dermis; larger trials measure the face. They point in different directions, so read them separately. The Aesthetic & Regenerative Endocrinology guide grades the skin benefit B; the North American Menopause Society rates the same evidence 'limited or inconsistent'. This course grades the structural gains C and teaches the negative wrinkle trials alongside them.
@@ -175,7 +175,7 @@ Hormone therapy has two kinds of trial behind it. Small trials measure the dermi
 
 <sub>Sources: Maheux R 1994 · Sauerbronn AV 2000 · Phillips TJ 2008 · Owen CM 2016 · Pivazyan L 2023 · Creidi P 1994 · Rittié L 2008 · Ashcroft GS 1999 · North American Menopause Society (2022 Hormone Therapy Advisory Panel) 2022 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
 
-### 11 / 19 · Symptoms and bone. Skin is a bystander.  
+### 12 / 20 · Symptoms and bone. Skin is a bystander.  
 *Regulatory status and indications · audio*
 
 In the US, as of February 2026, FDA-approved menopausal hormone therapy is for moderate-to-severe hot flashes, vaginal and vulvar symptoms and, for some products, preventing bone loss. FDA's 2025–26 labeling changes removed cardiovascular, breast-cancer and dementia statements from the boxed warning; skin did not become an indication. The North American Menopause Society's 2022 statement finds benefit outweighs risk for bothersome symptoms and bone protection when therapy starts before 60 or within 10 years of menopause, and finds insufficient evidence for compounded 'bioidentical' hormones. Under US rules an over-the-counter 'hormone cream' is an unapproved drug. For the skin itself, daily sunscreen has a large randomized trial behind it, and one tretinoin cream is FDA-approved as an adjunct for fine facial wrinkles.
@@ -204,7 +204,7 @@ Where does that leave hormone therapy for skin? In the United States, as of Febr
 
 <sub>Sources: US Food and Drug Administration 2025 · US Food and Drug Administration 2026 · North American Menopause Society (2022 Hormone Therapy Advisory Panel) 2022 · North American Menopause Society (2020 GSM Editorial Panel) 2020 · Manson JE 2013 · US Food and Drug Administration 1993 · Hughes MC 2013 · Bausch Health US LLC (FDA-approved labeling) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · Theramex HQ UK Limited (marketing authorisation holder) 2025 · Orion Corporation (marketing authorisation holder) 2025 · Medicines and Healthcare products Regulatory Agency (UK) 2023 · Viatris Products Limited (marketing authorisation holder) 2026 · Almirall Hermal GmbH (marketing authorisation holder) 2026 · Datapharm (emc) 2026</sub>
 
-### 12 / 19 · 'Hormones for my skin.'  
+### 13 / 20 · 'Hormones for my skin.'  
 *Your turn · quiz*
 
 One question to close lesson 2.2.
@@ -217,7 +217,7 @@ One question to close lesson 2.2.
 
 ## Lesson 2.3 · Skin hallmarks of inherited and systemic endocrinopathies
 
-### 13 / 19 · Some syndromes show on the skin first.  
+### 14 / 20 · Some syndromes show on the skin first.  
 *Lesson 2.3 · Concept · audio*
 
 A handful of inherited endocrine syndromes appear on the skin before the glands declare themselves. In multiple endocrine neoplasia type 1 (MEN1), multiple facial angiofibromas and collagenomas are common. In Carney complex, lentigines on the lips, eyelids and canthi, blue naevi and small skin myxomas sit alongside myxomas of the heart and cortisol-secreting adrenal disease. In MEN2A, an itchy, rippled, pigmented plaque between the shoulder blades can precede medullary thyroid cancer.
@@ -234,7 +234,7 @@ Some endocrine syndromes are written on the skin years before the glands give th
 
 <sub>Sources: Darling TN 1997 · Kirschner LS 2000 · Correa R 2015 · Stanescu LS 2024 · Lause M 2017 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
 
-### 14 / 19 · Eighty-eight per cent.  
+### 15 / 20 · Eighty-eight per cent.  
 *The evidence · stat*
 
 In a consecutive series of 32 people with MEN1 examined at the US National Institutes of Health, 88% had multiple facial angiofibromas and 72% had collagenomas. The angiofibromas were clinically and histologically identical to those of tuberous sclerosis. The authors concluded that angiofibromas in someone without tuberous sclerosis call for biochemical testing for MEN1.
@@ -245,7 +245,7 @@ In a consecutive series of 32 people with MEN1 examined at the US National Insti
 
 <sub>Sources: Darling TN 1997 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
 
-### 15 / 19 · The everyday endocrine signs.  
+### 16 / 20 · The everyday endocrine signs.  
 *Concept · audio*
 
 Most endocrine skin signs you meet come from common disease. New generalised darkening, strongest in skin creases, scars, mucosa and sun-exposed skin, can signal primary adrenal insufficiency, which can turn into a life-threatening crisis. Hirsutism that appears fast, keeps progressing, or comes with a deepening voice or clitoromegaly makes an androgen-secreting tumour more likely. Velvety dark plaques of acanthosis nigricans track insulin resistance, pretibial myxoedema points to Graves' disease, and cold, dry skin suggests hypothyroidism.
@@ -262,7 +262,7 @@ Most of the endocrine skin signs you will actually meet come from common conditi
 
 <sub>Sources: Bornstein SR 2016 · Martin KA 2018 · Lause M 2017 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
 
-### 16 / 19 · Where does this skin finding go?  
+### 17 / 20 · Where does this skin finding go?  
 *Triage · tool*
 
 Seven presentations from an aesthetic list, and three routes. Your job is to route the finding, not to make the diagnosis. The verdict and the source behind each appear as you answer.
@@ -286,7 +286,7 @@ Seven presentations from an aesthetic list, and three routes. Your job is to rou
 
 <sub>Sources: Martin KA 2018 · Bornstein SR 2016 · Nieman LK 2008 · Darling TN 1997 · Stanescu LS 2024 · Lause M 2017 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
 
-### 17 / 19 · Freckles before the wedding.  
+### 18 / 20 · Freckles before the wedding.  
 *Fictional case · audio*
 
 A 29-year-old asks for laser removal of 'freckles' on her lips and at the corners of her eyes before her wedding. You notice a soft, skin-coloured papule on one eyelid. She mentions her father had 'a heart tumour' removed in his thirties. This is a fictional case built from the lesson's evidence; choose the first move that fits it.
@@ -318,7 +318,7 @@ Consider a fictional patient, built from this lesson's evidence. She is twenty-n
 
 <sub>Sources: Correa R 2015 · Kirschner LS 2000 · Lause M 2017 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
 
-### 18 / 19 · Hair removal, or referral?  
+### 19 / 20 · Hair removal, or referral?  
 *Your turn · quiz*
 
 One question to close lesson 2.3.
@@ -328,7 +328,7 @@ One question to close lesson 2.3.
 - ✔ Urgent endocrine assessment for an androgen-secreting tumour, before any cosmetic treatment. — *Correct. Rapid progression and virilization are the red flags in the Endocrine Society guideline, and the guide calls this the one finding that demands urgent work-up.*
 - ✗ Treat it as polycystic ovary syndrome and combine laser with a topical cream. — *Rapid onset with a deepening voice is outside the usual picture, and a tumour needs excluding before any label is attached.*
 
-### 19 / 19 · Before I treat a face that might be hormonal.  
+### 20 / 20 · Before I treat a face that might be hormonal.  
 *Closing and commitment · action*
 
 Build the checklist you will actually use. It is saved to your path and your tutor will bring it back.

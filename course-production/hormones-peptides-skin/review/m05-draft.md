@@ -7,7 +7,7 @@ Every factual sentence traces to the graded registry (`citations/m05.md`). Momen
 
 ## Lesson 5.1 · The hair follicle as an endocrine mini-organ
 
-### 01 / 19 · A spray for the scalp, a tan in a vial.  
+### 01 / 20 · A spray for the scalp, a tan in a vial.  
 *Module 05 · Follicle, pigment and melanocortins · title*
 
 Two requests reach aesthetic clinics well ahead of their evidence: a peptide to regrow hair and an injection to tan. In three lessons you will see how the follicle and the pigment system run on the skin's own hormones, why one melanocortin drug is approved while its gray-market cousin is approved nowhere, and how to grade the hair peptides patients bring to you.
@@ -16,12 +16,12 @@ Two requests reach aesthetic clinics well ahead of their evidence: a peptide to 
 - 5.2 Afamelanotide, Melanotan II and the melanocortin receptors
 - 5.3 Investigational hair peptides, graded
 
-###  · Follicle, pigment and melanocortins  
+### 02 / 20 · Follicle, pigment and melanocortins  
 *Module 05 · Opening film · video*
 
 <sub>Sources: Ito N 2005 · Horesh EJ 2023 · Bertolini M 2020 · Adil A 2017 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
 
-### 02 / 19 · A follicle that runs its own hormones.  
+### 03 / 20 · A follicle that runs its own hormones.  
 *Mechanism · audio*
 
 Human scalp hair follicles kept alive in the laboratory answer corticotropin-releasing hormone by making ACTH and α-MSH and secreting cortisol, with a feedback loop like the adrenal axis. They also run a growth hormone and IGF-1 loop of their own. Locally made dihydrotestosterone shrinks genetically susceptible scalp follicles, the process behind pattern hair loss. Growing follicles are shielded from immune attack, and alopecia areata begins when that shield fails.
@@ -38,7 +38,7 @@ Each hair follicle behaves like a small gland. When researchers keep human scalp
 
 <sub>Sources: Ito N 2005 · Horesh EJ 2023 · Bertolini M 2020 · Adil A 2017 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
 
-### 03 / 19 · Two trials, 1,200 adults, one approval.  
+### 04 / 20 · Two trials, 1,200 adults, one approval.  
 *Human evidence · stat*
 
 When immune privilege fails, the attack depends on cytokine signals that JAK inhibitors interrupt. Two randomized phase 3 trials tested oral baricitinib in 1,200 adults with severe alopecia areata. In the US, FDA approved baricitinib for adults with severe alopecia areata on 13 June 2022. The Aesthetic & Regenerative Endocrinology guide grades it A.
@@ -56,7 +56,7 @@ When immune privilege fails, the attack depends on cytokine signals that JAK inh
 
 <sub>Sources: King B 2022 · US Food and Drug Administration 2022 · Bertolini M 2020 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
 
-### 04 / 19 · Four questions before any product.  
+### 05 / 20 · Four questions before any product.  
 *Worked tool · tool*
 
 The Aesthetic & Regenerative Endocrinology guide's first-pass hair-loss workup asks four questions in order. Each yes points to a different condition and a different next step.
@@ -81,7 +81,7 @@ The Aesthetic & Regenerative Endocrinology guide's first-pass hair-loss workup a
 
 <sub>Sources: Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · Adil A 2017 · King B 2022</sub>
 
-### 05 / 19 · Work up the hair loss before anyone mentions a peptide.  
+### 06 / 20 · Work up the hair loss before anyone mentions a peptide.  
 *What changes in practice · audio*
 
 Pattern, trigger, patches and androgens decide the treatment. Pooled randomized trials support topical minoxidil in men and women and finasteride in men. In the US, as of September 2026, topical minoxidil is FDA-approved and sold over the counter, finasteride for pattern hair loss is a prescription drug, and baricitinib is approved for adults with severe alopecia areata.
@@ -110,7 +110,7 @@ Most requests for a hair peptide skip the diagnosis. Start with the pattern, ask
 
 <sub>Sources: Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · Adil A 2017 · US Food and Drug Administration 1988 · US Food and Drug Administration 1997 · US Food and Drug Administration 2022</sub>
 
-### 06 / 19 · Shedding after the baby.  
+### 07 / 20 · Shedding after the baby.  
 *Your turn · quiz*
 
 One question to close lesson 5.1.
@@ -123,7 +123,7 @@ One question to close lesson 5.1.
 
 ## Lesson 5.2 · Melanocortins: approved afamelanotide and gray-market Melanotan II
 
-### 07 / 19 · Five receptors, one family of hormones.  
+### 08 / 20 · Five receptors, one family of hormones.  
 *Lesson 5.2 · Concept · audio*
 
 Skin makes proopiomelanocortin (POMC) and cuts it into ACTH, α-MSH and β-endorphin, and the same cells carry the receptors that answer them. Those peptides act on five melanocortin receptors. MC1R drives pigment in skin and hair, MC2R answers ACTH in the adrenal gland, MC3R and MC4R act in the brain on appetite, and MC5R governs sebum. Which receptors a drug reaches decides what else it does.
@@ -140,7 +140,7 @@ Pigment starts with hormones the skin makes for itself. Skin cells produce a pre
 
 <sub>Sources: Slominski A 2000 · Laiho L 2022 · Böhm M 2025 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
 
-### 08 / 19 · One receptor family, two very different molecules.  
+### 09 / 20 · One receptor family, two very different molecules.  
 *Four registers · tool*
 
 Afamelanotide and Melanotan II are both synthetic relatives of α-MSH. Compare them register by register and the resemblance ends at the receptor.
@@ -163,7 +163,7 @@ Afamelanotide and Melanotan II are both synthetic relatives of α-MSH. Compare t
 
 <sub>Sources: Langendonk JG 2015 · European Medicines Agency 2014 · US Food and Drug Administration / Clinuvel Inc. 2024 · Dorr RT 1996 · Wessells H 1998 · Böhm M 2025 · Clinuvel 2023 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
 
-### 09 / 19 · Sixty-nine hours against forty-one.  
+### 10 / 20 · Sixty-nine hours against forty-one.  
 *The evidence · stat*
 
 Erythropoietic protoporphyria (EPP) is a rare disorder in which sunlight causes acute, severe pain. In the US phase 3 trial, adults on afamelanotide spent a median 69.4 hours in direct sunlight without pain over six months, against 40.8 hours on placebo. The European trial also showed more pain-free time and fewer phototoxic reactions. Both trials were funded by the manufacturer.
@@ -174,7 +174,7 @@ Erythropoietic protoporphyria (EPP) is a rare disorder in which sunlight causes 
 
 <sub>Sources: Langendonk JG 2015 · US Food and Drug Administration / Clinuvel Inc. 2024 · European Medicines Agency 2014 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026</sub>
 
-### 10 / 19 · What the case reports show.  
+### 11 / 20 · What the case reports show.  
 *Safety signals · audio*
 
 The harms of Melanotan II come from case reports and reviews, so they show what can happen without telling you how often. Reported skin effects include darkening and growth of existing moles, crops of new and sometimes atypical naevi, and dark bands in the nails. At least five melanomas have been reported during or after use, each in someone with other risk factors, so causation is unproven. Systemic reports include ischaemic priapism needing surgery and a stimulant-like toxic reaction with rhabdomyolysis, and FDA lists posterior reversible encephalopathy syndrome among published serious events.
@@ -191,7 +191,7 @@ Now the harms, and the kind of evidence behind them. Everything here comes from 
 
 <sub>Sources: Habbema L 2017 · Cardones AR 2009 · Paurobally D 2013 · Hjuler KF 2014 · Böhm M 2025 · Mallory CW 2021 · Nelson ME 2012 · US Food and Drug Administration 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
 
-### 11 / 19 · New moles after a summer of tanning shots.  
+### 12 / 20 · New moles after a summer of tanning shots.  
 *Fictional case · audio*
 
 A 27-year-old attends for a skin-quality consultation and mentions injecting a 'tanning peptide' bought online for three months. She has noticed darker moles, several new small ones and a dark stripe along one fingernail. Her mother had melanoma. This is a fictional case built from the lesson's evidence, and one move clearly comes before the others.
@@ -223,7 +223,7 @@ Her booking says skin quality. This patient is fictional, built from the lesson'
 
 <sub>Sources: Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · Cardones AR 2009 · Mang R 2012 · Paurobally D 2013 · US Food and Drug Administration / Clinuvel Inc. 2024 · Böhm M 2025 · Habbema L 2017 · Breindahl T 2015</sub>
 
-### 12 / 19 · Three regulators, one answer.  
+### 13 / 20 · Three regulators, one answer.  
 *Regulatory status · tool*
 
 Each statement below is dated, because regulatory status changes. None of the three regulators has approved Melanotan II, and each has put its concerns on the record.
@@ -244,7 +244,7 @@ Each statement below is dated, because regulatory status changes. None of the th
 
 <sub>Sources: US Food and Drug Administration 2026 · Medicines and Healthcare products Regulatory Agency (UK) 2024 · Therapeutic Goods Administration (Australia) 2026 · Böhm M 2025 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
 
-### 13 / 19 · 'The approved one is the same thing.'  
+### 14 / 20 · 'The approved one is the same thing.'  
 *Your turn · quiz*
 
 One question to close lesson 5.2.
@@ -259,7 +259,7 @@ One question to close lesson 5.2.
 
 ## Lesson 5.3 · Investigational hair peptides and how to grade them
 
-### 14 / 19 · A Wnt switch and a zinc question.  
+### 15 / 20 · A Wnt switch and a zinc question.  
 *Lesson 5.3 · Concept · audio*
 
 PTD-DBM joins a cell-penetrating peptide to a short decoy sequence that stops the protein CXXC5 from binding Dishevelled. Freed from that brake, Wnt/β-catenin signalling rises, and in mice hair regrew faster. Its developers also found CXXC5 raised in human balding scalp. Zinc thymulin is a thymic peptide that is active only when bound to zinc. How it might act on hair has never been defined, and whether any effect would come from the peptide or the zinc is unknown.
@@ -276,7 +276,7 @@ Two peptides are sold for hair, and both arrive with better stories than data. P
 
 <sub>Sources: Lee SH 2017 · Dardenne M 1982 · Mehta A 2025 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026</sub>
 
-### 15 / 19 · Zero trials in people.  
+### 16 / 20 · Zero trials in people.  
 *The evidence · stat*
 
 As of September 2026, PubMed and ClinicalTrials.gov list no human trial of PTD-DBM, published or registered. Its evidence is one 2017 study in mice and human scalp tissue from the developer's group, whose senior author is affiliated with a biotech company. A 2025 review's summary speaks of 'clinical efficacy', yet the review's own text describes PTD-DBM results in mouse models only.
@@ -287,7 +287,7 @@ As of September 2026, PubMed and ClinicalTrials.gov list no human trial of PTD-D
 
 <sub>Sources: Lee SH 2017 · Mehta A 2025 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026</sub>
 
-### 16 / 19 · Approved, or unproven?  
+### 17 / 20 · Approved, or unproven?  
 *Sort the evidence · tool*
 
 Five things patients use or ask about for hair, with what each is claimed to do. Decide what stands behind each one before you see a grade.
@@ -311,7 +311,7 @@ Five things patients use or ask about for hair, with what each is claimed to do.
 
 <sub>Sources: Adil A 2017 · King B 2022 · US Food and Drug Administration 1988 · US Food and Drug Administration 1997 · US Food and Drug Administration 2022 · Lee SH 2017 · Dardenne M 1982 · US Food and Drug Administration 2026 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026</sub>
 
-### 17 / 19 · When the request is a compounded hair spray.  
+### 18 / 20 · When the request is a compounded hair spray.  
 *What changes in practice · audio*
 
 In the US, on FDA's category lists of 14 May 2026, thymulin acetate sits in Category 3: nominated without enough information to evaluate, and outside the enforcement discretion that Category 1 carries. PTD-DBM appears on none of the three lists, and neither substance is on the 503A bulks list. Both carry grade D evidence. The useful conversation names the grade, returns to the workup and describes the approved options.
@@ -340,7 +340,7 @@ Stated for the United States, the regulatory picture is short. On FDA's category
 
 <sub>Sources: US Food and Drug Administration 2026 · US Food and Drug Administration 2026 · US Code of Federal Regulations (eCFR) 2019 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Adil A 2017</sub>
 
-### 18 / 19 · 'The new minoxidil'?  
+### 19 / 20 · 'The new minoxidil'?  
 *Your turn · quiz*
 
 One question to close lesson 5.3.
@@ -350,7 +350,7 @@ One question to close lesson 5.3.
 - ✔ PTD-DBM has mouse data and no human trial (D); minoxidil has randomized-trial support and US approval (A). Start with the workup and the approved options. — *Correct. Name the grade of each, then go back to the diagnosis.*
 - ✗ It is safer than minoxidil because it is a peptide. — *Being a peptide says nothing about safety. Its effects in people, short or long term, are unknown.*
 
-### 19 / 19 · Before my next hair or tanning conversation.  
+### 20 / 20 · Before my next hair or tanning conversation.  
 *Closing and commitment · action*
 
 Build the checklist you will actually use. It is saved to your path and your tutor will bring it back.

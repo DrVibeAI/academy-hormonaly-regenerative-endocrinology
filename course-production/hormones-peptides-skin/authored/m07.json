@@ -98,7 +98,7 @@
   {
    "id": "m7-p01",
    "type": "title",
-   "time": "01 / 22",
+   "time": "01 / 23",
    "lead": {
     "en": "Module 07 · Evidence, regulation and compliance"
    },
@@ -154,12 +154,13 @@
      ],
      "rule": "verbatim approved sentences only"
     }
-   }
+   },
+   "time": "02 / 23"
   },
   {
    "id": "m7-p02",
    "type": "audio",
-   "time": "02 / 22",
+   "time": "03 / 23",
    "lead": {
     "en": "Lesson 7.1 · Concept"
    },
@@ -238,7 +239,7 @@
   {
    "id": "m7-p03",
    "type": "stat",
-   "time": "03 / 22",
+   "time": "04 / 23",
    "lead": {
     "en": "Who paid"
    },
@@ -273,7 +274,7 @@
   {
    "id": "m7-p04",
    "type": "tool",
-   "time": "04 / 22",
+   "time": "05 / 23",
    "lead": {
     "en": "Worked example"
    },
@@ -436,7 +437,7 @@
   {
    "id": "m7-p05",
    "type": "audio",
-   "time": "05 / 22",
+   "time": "06 / 23",
    "lead": {
     "en": "What changes in practice"
    },
@@ -527,7 +528,7 @@
   {
    "id": "m7-p06",
    "type": "quiz",
-   "time": "06 / 22",
+   "time": "07 / 23",
    "lead": {
     "en": "Your turn"
    },
@@ -585,7 +586,7 @@
   {
    "id": "m7-p07",
    "type": "audio",
-   "time": "07 / 22",
+   "time": "08 / 23",
    "lead": {
     "en": "Lesson 7.2 · Concept"
    },
@@ -705,7 +706,7 @@
   {
    "id": "m7-p08",
    "type": "tool",
-   "time": "08 / 22",
+   "time": "09 / 23",
    "lead": {
     "en": "Regulatory status (US)"
    },
@@ -838,7 +839,7 @@
   {
    "id": "m7-p09",
    "type": "stat",
-   "time": "09 / 22",
+   "time": "10 / 23",
    "lead": {
     "en": "Peptide or biologic"
    },
@@ -911,7 +912,7 @@
   {
    "id": "m7-p21",
    "type": "tool",
-   "time": "10 / 22",
+   "time": "11 / 23",
    "lead": {
     "en": "Regulatory status (outside the US)"
    },
@@ -1048,7 +1049,7 @@
   {
    "id": "m7-p10",
    "type": "audio",
-   "time": "11 / 22",
+   "time": "12 / 23",
    "lead": {
     "en": "Concept"
    },
@@ -1127,7 +1128,7 @@
   {
    "id": "m7-p11",
    "type": "tool",
-   "time": "12 / 22",
+   "time": "13 / 23",
    "lead": {
     "en": "Fictional certificate"
    },
@@ -1317,7 +1318,7 @@
   {
    "id": "m7-p12",
    "type": "stat",
-   "time": "13 / 22",
+   "time": "14 / 23",
    "lead": {
     "en": "Label against laboratory"
    },
@@ -1351,7 +1352,7 @@
   {
    "id": "m7-p13",
    "type": "audio",
-   "time": "14 / 22",
+   "time": "15 / 23",
    "lead": {
     "en": "What changes in practice"
    },
@@ -1480,7 +1481,7 @@
   {
    "id": "m7-p22",
    "type": "audio",
-   "time": "15 / 22",
+   "time": "16 / 23",
    "lead": {
     "en": "Regulatory status (outside the US)"
    },
@@ -1639,7 +1640,7 @@
   {
    "id": "m7-p14",
    "type": "quiz",
-   "time": "16 / 22",
+   "time": "17 / 23",
    "lead": {
     "en": "Your turn"
    },
@@ -1696,7 +1697,7 @@
   {
    "id": "m7-p15",
    "type": "audio",
-   "time": "17 / 22",
+   "time": "18 / 23",
    "lead": {
     "en": "Lesson 7.3 · Concept"
    },
@@ -1816,7 +1817,7 @@
   {
    "id": "m7-p16",
    "type": "tool",
-   "time": "18 / 22",
+   "time": "19 / 23",
    "lead": {
     "en": "Classification (US)"
    },
@@ -1965,7 +1966,7 @@
   {
    "id": "m7-p17",
    "type": "audio",
-   "time": "19 / 22",
+   "time": "20 / 23",
    "lead": {
     "en": "Fictional case"
    },
@@ -2158,7 +2159,7 @@
   {
    "id": "m7-p18",
    "type": "tool",
-   "time": "20 / 22",
+   "time": "21 / 23",
    "lead": {
     "en": "Documentation"
    },
@@ -2300,7 +2301,7 @@
   {
    "id": "m7-p19",
    "type": "quiz",
-   "time": "21 / 22",
+   "time": "22 / 23",
    "lead": {
     "en": "Your turn"
    },
@@ -2357,7 +2358,7 @@
   {
    "id": "m7-p20",
    "type": "action",
-   "time": "22 / 22",
+   "time": "23 / 23",
    "lead": {
     "en": "Closing and commitment"
    },
@@ -3325,7 +3326,7 @@
   {
    "date": "2026-09-25",
    "block": "m7-opener",
-   "change": "New moment: the module's opening film (about 75 s; draft media for the media preview). The narration is approved text, verbatim (m7-p01 body, sentences 1, 2; m7-p02 audioScript, sentences 1, 2, 3, 4, 5, 6, 8, 9, 10); the presenter is a HeyGen digital avatar, and the player shows \"Presented by a digital avatar (AI-generated presenter and voice).\" under the video.",
+   "change": "New moment: the module's opening film (about 75 s; draft media for the media preview). The narration is approved text, verbatim (m7-p01 body, sentences 1, 2; m7-p02 audioScript, sentences 1, 2, 3, 4, 5, 6, 8, 9, 10); the presenter is a HeyGen digital avatar, and the player shows \"Presented by a digital avatar (AI-generated presenter and voice).\" under the video. The moments' position labels are renumbered to /23.",
    "forReview": "Fady Hannah-Shmouni"
   }
  ],

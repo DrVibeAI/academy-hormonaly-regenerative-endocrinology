@@ -95,7 +95,7 @@
   {
    "id": "m3-p01",
    "type": "title",
-   "time": "01 / 20",
+   "time": "01 / 21",
    "lead": {
     "en": "Module 03 · Fat, incretins and the ageing face"
    },
@@ -153,12 +153,13 @@
      ],
      "rule": "verbatim approved sentences only"
     }
-   }
+   },
+   "time": "02 / 21"
   },
   {
    "id": "m3-p02",
    "type": "audio",
-   "time": "02 / 20",
+   "time": "03 / 21",
    "lead": {
     "en": "Mechanism"
    },
@@ -239,7 +240,7 @@
   {
    "id": "m3-p03",
    "type": "stat",
-   "time": "03 / 20",
+   "time": "04 / 21",
    "lead": {
     "en": "Human evidence"
    },
@@ -274,7 +275,7 @@
   {
    "id": "m3-p04",
    "type": "audio",
-   "time": "04 / 20",
+   "time": "05 / 21",
    "lead": {
     "en": "Mechanism"
    },
@@ -351,7 +352,7 @@
   {
    "id": "m3-p05",
    "type": "stat",
-   "time": "05 / 20",
+   "time": "06 / 21",
    "lead": {
     "en": "Human evidence"
    },
@@ -387,7 +388,7 @@
   {
    "id": "m3-p06",
    "type": "tool",
-   "time": "06 / 20",
+   "time": "07 / 21",
    "lead": {
     "en": "Sort the evidence"
    },
@@ -594,7 +595,7 @@
   {
    "id": "m3-p07",
    "type": "quiz",
-   "time": "07 / 20",
+   "time": "08 / 21",
    "lead": {
     "en": "Your turn"
    },
@@ -651,7 +652,7 @@
   {
    "id": "m3-p08",
    "type": "audio",
-   "time": "08 / 20",
+   "time": "09 / 21",
    "lead": {
     "en": "Lesson 3.2 · Concept"
    },
@@ -785,7 +786,7 @@
   {
    "id": "m3-p09",
    "type": "tool",
-   "time": "09 / 20",
+   "time": "10 / 21",
    "lead": {
     "en": "Regulatory status"
    },
@@ -947,7 +948,7 @@
   {
    "id": "m3-p10",
    "type": "stat",
-   "time": "10 / 20",
+   "time": "11 / 21",
    "lead": {
     "en": "Human evidence"
    },
@@ -984,7 +985,7 @@
   {
    "id": "m3-p11",
    "type": "tool",
-   "time": "11 / 20",
+   "time": "12 / 21",
    "lead": {
     "en": "Four registers"
    },
@@ -1078,7 +1079,7 @@
   {
    "id": "m3-p12",
    "type": "audio",
-   "time": "12 / 20",
+   "time": "13 / 21",
    "lead": {
     "en": "What changes in practice"
    },
@@ -1171,7 +1172,7 @@
   {
    "id": "m3-p13",
    "type": "audio",
-   "time": "13 / 20",
+   "time": "14 / 21",
    "lead": {
     "en": "Fictional case"
    },
@@ -1324,7 +1325,7 @@
   {
    "id": "m3-p14",
    "type": "quiz",
-   "time": "14 / 20",
+   "time": "15 / 21",
    "lead": {
     "en": "Your turn"
    },
@@ -1383,7 +1384,7 @@
   {
    "id": "m3-p15",
    "type": "audio",
-   "time": "15 / 20",
+   "time": "16 / 21",
    "lead": {
     "en": "Lesson 3.3 · Concept"
    },
@@ -1463,7 +1464,7 @@
   {
    "id": "m3-p16",
    "type": "stat",
-   "time": "16 / 20",
+   "time": "17 / 21",
    "lead": {
     "en": "The evidence"
    },
@@ -1499,7 +1500,7 @@
   {
    "id": "m3-p17",
    "type": "tool",
-   "time": "17 / 20",
+   "time": "18 / 21",
    "lead": {
     "en": "Sort the toolkit"
    },
@@ -1746,7 +1747,7 @@
   {
    "id": "m3-p18",
    "type": "audio",
-   "time": "18 / 20",
+   "time": "19 / 21",
    "lead": {
     "en": "What changes in practice"
    },
@@ -1891,7 +1892,7 @@
   {
    "id": "m3-p19",
    "type": "quiz",
-   "time": "19 / 20",
+   "time": "20 / 21",
    "lead": {
     "en": "Your turn"
    },
@@ -1948,7 +1949,7 @@
   {
    "id": "m3-p20",
    "type": "action",
-   "time": "20 / 20",
+   "time": "21 / 21",
    "lead": {
     "en": "Closing and commitment"
    },
@@ -2683,7 +2684,7 @@
   {
    "date": "2026-09-25",
    "block": "m3-opener",
-   "change": "New moment: the module's opening film (about 72 s; draft media for the media preview). The narration is approved text, verbatim (m3-p01 body, sentences 1, 2; m3-p02 audioScript, sentences 1, 2, 3, 4, 5, 6, 7, 8, 9); the presenter is a HeyGen digital avatar, and the player shows \"Presented by a digital avatar (AI-generated presenter and voice).\" under the video.",
+   "change": "New moment: the module's opening film (about 72 s; draft media for the media preview). The narration is approved text, verbatim (m3-p01 body, sentences 1, 2; m3-p02 audioScript, sentences 1, 2, 3, 4, 5, 6, 7, 8, 9); the presenter is a HeyGen digital avatar, and the player shows \"Presented by a digital avatar (AI-generated presenter and voice).\" under the video. The moments' position labels are renumbered to /21.",
    "forReview": "Fady Hannah-Shmouni"
   }
  ],

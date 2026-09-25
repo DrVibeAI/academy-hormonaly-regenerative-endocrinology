@@ -1,13 +1,13 @@
 {
   "tool": "perceptor-foundry/tools/qa/claim-support.mjs",
   "contract": "docs/claim-support.md",
-  "generatedAt": "2026-09-25T22:26:40.754Z",
+  "generatedAt": "2026-09-25T22:32:19.956Z",
   "package": {
     "id": "hormonaly.hormones-peptides-skin",
     "version": "1.0.0-rc.4",
     "path": "packages/hormones-peptides-skin.json",
-    "sha256": "df9e77ccf1e5acc9e689f24ca965c2523f5295b62e0f4890187ee1cff607259c",
-    "contentDigest": "31e008edf3316eee293e1cf04b8fffed81041c1bf96de3fe7a2201e4aba29514"
+    "sha256": "22859bbc62f9667a8eb93e780da7362ea2ab647e1235b5fc94d1d9b99eb10720",
+    "contentDigest": "b7618afefe6fea8723c9bd329ceca96e4ab519c198dc0edd846ae314736827d7"
   },
   "edition": "en",
   "models": [
@@ -15,14 +15,7 @@
   ],
   "partial": false,
   "maxChars": 60000,
-  "usage": {
-    "gemini-3.7-flash": {
-      "calls": 7,
-      "inputTokens": 192911,
-      "outputTokens": 2266,
-      "seconds": 23
-    }
-  },
+  "usage": {},
   "summary": {
     "units": 704,
     "nonFactual": 25,
@@ -49,17 +42,9 @@
     }
   },
   "mergedFrom": {
-    "generatedAt": "2026-09-25T19:05:29.143Z",
-    "contentDigest": "b226ef784ee8e0f1dc9701f735423f297d98a4b4422c1d356226945dd73d9535",
-    "recheckedUnits": [
-      "m1-opener",
-      "m2-opener",
-      "m3-opener",
-      "m4-opener",
-      "m5-opener",
-      "m6-opener",
-      "m7-opener"
-    ]
+    "generatedAt": "2026-09-25T22:26:40.754Z",
+    "contentDigest": "31e008edf3316eee293e1cf04b8fffed81041c1bf96de3fe7a2201e4aba29514",
+    "recheckedUnits": []
   },
   "sources": [
     {

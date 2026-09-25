@@ -93,7 +93,7 @@
   {
    "id": "m4-p01",
    "type": "title",
-   "time": "01 / 19",
+   "time": "01 / 20",
    "lead": {
     "en": "Module 04 · Matrix peptides and wound healing"
    },
@@ -150,12 +150,13 @@
      ],
      "rule": "verbatim approved sentences only"
     }
-   }
+   },
+   "time": "02 / 20"
   },
   {
    "id": "m4-p02",
    "type": "reflection",
-   "time": "02 / 19",
+   "time": "03 / 20",
    "lead": {
     "en": "Set your path"
    },
@@ -212,7 +213,7 @@
   {
    "id": "m4-p03",
    "type": "audio",
-   "time": "03 / 19",
+   "time": "04 / 20",
    "lead": {
     "en": "Mechanism"
    },
@@ -292,7 +293,7 @@
   {
    "id": "m4-p04",
    "type": "stat",
-   "time": "04 / 19",
+   "time": "05 / 20",
    "lead": {
     "en": "Human evidence"
    },
@@ -327,7 +328,7 @@
   {
    "id": "m4-p05",
    "type": "tool",
-   "time": "05 / 19",
+   "time": "06 / 20",
    "lead": {
     "en": "Four registers"
    },
@@ -457,7 +458,7 @@
   {
    "id": "m4-p06",
    "type": "audio",
-   "time": "06 / 19",
+   "time": "07 / 20",
    "lead": {
     "en": "What changes in practice"
    },
@@ -573,7 +574,7 @@
   {
    "id": "m4-p07",
    "type": "quiz",
-   "time": "07 / 19",
+   "time": "08 / 20",
    "lead": {
     "en": "Your turn"
    },
@@ -630,7 +631,7 @@
   {
    "id": "m4-p08",
    "type": "audio",
-   "time": "08 / 19",
+   "time": "09 / 20",
    "lead": {
     "en": "Lesson 4.2 · Concept"
    },
@@ -710,7 +711,7 @@
   {
    "id": "m4-p09",
    "type": "tool",
-   "time": "09 / 19",
+   "time": "10 / 20",
    "lead": {
     "en": "Sort the evidence"
    },
@@ -888,7 +889,7 @@
   {
    "id": "m4-p10",
    "type": "stat",
-   "time": "10 / 19",
+   "time": "11 / 20",
    "lead": {
     "en": "The evidence"
    },
@@ -925,7 +926,7 @@
   {
    "id": "m4-p11",
    "type": "audio",
-   "time": "11 / 19",
+   "time": "12 / 20",
    "lead": {
     "en": "What changes in practice"
    },
@@ -1058,7 +1059,7 @@
   {
    "id": "m4-p12",
    "type": "quiz",
-   "time": "12 / 19",
+   "time": "13 / 20",
    "lead": {
     "en": "Your turn"
    },
@@ -1114,7 +1115,7 @@
   {
    "id": "m4-p13",
    "type": "audio",
-   "time": "13 / 19",
+   "time": "14 / 20",
    "lead": {
     "en": "Lesson 4.3 · Concept"
    },
@@ -1197,7 +1198,7 @@
   {
    "id": "m4-p14",
    "type": "stat",
-   "time": "14 / 19",
+   "time": "15 / 20",
    "lead": {
     "en": "The evidence"
    },
@@ -1236,7 +1237,7 @@
   {
    "id": "m4-p15",
    "type": "tool",
-   "time": "15 / 19",
+   "time": "16 / 20",
    "lead": {
     "en": "Worked example"
    },
@@ -1308,7 +1309,7 @@
   {
    "id": "m4-p16",
    "type": "tool",
-   "time": "16 / 19",
+   "time": "17 / 20",
    "lead": {
     "en": "Regulatory status"
    },
@@ -1526,7 +1527,7 @@
   {
    "id": "m4-p17",
    "type": "audio",
-   "time": "17 / 19",
+   "time": "18 / 20",
    "lead": {
     "en": "Fictional case"
    },
@@ -1719,7 +1720,7 @@
   {
    "id": "m4-p18",
    "type": "quiz",
-   "time": "18 / 19",
+   "time": "19 / 20",
    "lead": {
     "en": "Your turn"
    },
@@ -1777,7 +1778,7 @@
   {
    "id": "m4-p19",
    "type": "action",
-   "time": "19 / 19",
+   "time": "20 / 20",
    "lead": {
     "en": "Closing and commitment"
    },
@@ -2583,7 +2584,7 @@
   {
    "date": "2026-09-25",
    "block": "m4-opener",
-   "change": "New moment: the module's opening film (about 67 s; draft media for the media preview). The narration is approved text, verbatim (m4-p01 body, sentences 1, 2; m4-p03 audioScript, sentences 1, 2, 3, 4, 5, 6, 7, 8); the presenter is a HeyGen digital avatar, and the player shows \"Presented by a digital avatar (AI-generated presenter and voice).\" under the video.",
+   "change": "New moment: the module's opening film (about 67 s; draft media for the media preview). The narration is approved text, verbatim (m4-p01 body, sentences 1, 2; m4-p03 audioScript, sentences 1, 2, 3, 4, 5, 6, 7, 8); the presenter is a HeyGen digital avatar, and the player shows \"Presented by a digital avatar (AI-generated presenter and voice).\" under the video. The moments' position labels are renumbered to /20.",
    "forReview": "Fady Hannah-Shmouni"
   }
  ],

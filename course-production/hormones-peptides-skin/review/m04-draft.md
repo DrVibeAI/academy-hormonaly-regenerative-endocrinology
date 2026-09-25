@@ -7,7 +7,7 @@ Every factual sentence traces to the graded registry (`citations/m04.md`). Momen
 
 ## Lesson 4.1 · Copper peptides: GHK and GHK-Cu
 
-### 01 / 19 · The peptide your patient already bought.  
+### 01 / 20 · The peptide your patient already bought.  
 *Module 04 · Matrix peptides and wound healing · title*
 
 Most skin peptides reach your clinic before any evidence does. In three lessons you will sort them by what the human trials actually show, who paid for those trials, and where each one stands with the regulator.
@@ -16,12 +16,12 @@ Most skin peptides reach your clinic before any evidence does. In three lessons 
 - 4.2 Signal peptides, oral collagen and the 'topical Botox' family
 - 4.3 Repair peptides, one negative trial, and the compounding line
 
-###  · Matrix peptides and wound healing  
+### 02 / 20 · Matrix peptides and wound healing  
 *Module 04 · Opening film · video*
 
 <sub>Sources: Pickart L 1973 · Pickart L 2015 · Pickart L 2018 · Pickart L 2008 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Pickart L 2012</sub>
 
-### 02 / 19 · How will you use this module?  
+### 03 / 20 · How will you use this module?  
 *Set your path · reflection*
 
 The evidence and grades are the same for everyone, and regulatory notes follow the country you choose. What changes with your role is the 'what you do next' at the end of each lesson, so it fits what your licence lets you do.
@@ -31,7 +31,7 @@ The evidence and grades are the same for everyone, and regulatory notes follow t
 - **I deliver treatments: RN, aesthetic nurse or injector** → Your path closes each lesson on what you notice, what you record and when you escalate to the prescriber.
 - **I advise on products: pharmacist, ND or allied professional** → Your path closes each lesson on what you can accurately say about a product and when a patient needs a prescriber.
 
-### 03 / 19 · A plasma tripeptide with a copper habit.  
+### 04 / 20 · A plasma tripeptide with a copper habit.  
 *Mechanism · audio*
 
 GHK is a tripeptide found in human plasma, first described in 1973. Bound to copper it becomes GHK-Cu, which is proposed to deliver copper to enzymes such as superoxide dismutase and lysyl oxidase and to switch on wound-healing and antioxidant gene programmes. Most of that mechanistic literature comes from the group that discovered the peptide.
@@ -48,7 +48,7 @@ Start with the molecule. GHK is a three-amino-acid peptide that circulates in hu
 
 <sub>Sources: Pickart L 1973 · Pickart L 2015 · Pickart L 2018 · Pickart L 2008 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Pickart L 2012</sub>
 
-### 04 / 19 · One indexed randomized trial.  
+### 05 / 20 · One indexed randomized trial.  
 *Human evidence · stat*
 
 A search of PubMed in September 2026 found one randomized controlled trial of topical GHK-Cu in human skin: 2006, healing after CO₂ laser resurfacing. The cosmetic trials cited for anti-ageing claims are manufacturer-sponsored and not indexed. Both Hormonaly guides grade topical use C.
@@ -59,7 +59,7 @@ A search of PubMed in September 2026 found one randomized controlled trial of to
 
 <sub>Sources: Miller TR 2006 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
 
-### 05 / 19 · Keep the four answers apart.  
+### 06 / 20 · Keep the four answers apart.  
 *Four registers · tool*
 
 Every peptide question has four separate answers. For GHK-Cu they point in different directions, which is exactly why they must not be blended into one sentence.
@@ -82,7 +82,7 @@ Every peptide question has four separate answers. For GHK-Cu they point in diffe
 
 <sub>Sources: Pickart L 2015 · Miller TR 2006 · Hostynek JJ 2010 · Ogórek K 2025 · US Food and Drug Administration 2026 · US Food and Drug Administration 2026 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · Mazurowska L 2008</sub>
 
-### 06 / 19 · Serum yes, syringe no.  
+### 07 / 20 · Serum yes, syringe no.  
 *What changes in practice · audio*
 
 Topical GHK-Cu is a reasonable cosmetic conversation at GRADE C. Injected GHK-Cu is a different product: no randomized trials, injection-site pain and rash are common because copper irritates tissue, and in the US the injectable route sits outside the Category 1 listing.
@@ -111,7 +111,7 @@ Here is what that means in the room. Topical GHK-Cu is a reasonable cosmetic con
 
 <sub>Sources: The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · Li H 2016 · US Food and Drug Administration 2026</sub>
 
-### 07 / 19 · Is the injection 'stronger'?  
+### 08 / 20 · Is the injection 'stronger'?  
 *Your turn · quiz*
 
 One question to close lesson 4.1.
@@ -124,7 +124,7 @@ One question to close lesson 4.1.
 
 ## Lesson 4.2 · Signal peptides, oral collagen and SNAP-25 mimics
 
-### 08 / 19 · Three families, one question: who ran the trial?  
+### 09 / 20 · Three families, one question: who ran the trial?  
 *Lesson 4.2 · Concept · audio*
 
 Signal peptides such as palmitoyl pentapeptide-4 (pal-KTTKS, Matrixyl) are meant to tell fibroblasts to make matrix. SNAP-25 mimics (Argireline and its longer cousin SNAP-8) and Leuphasyl, an enkephalin analogue, are meant to quieten expression lines. Oral collagen peptides are swallowed, not applied. All three families have a trial record, and in all three the question that matters most is who funded it.
@@ -141,7 +141,7 @@ Lesson two covers three families that fill the cosmetic and supplement shelves. 
 
 <sub>Sources: Lupo MP 2007 · Lintner K 2000 · Blanes-Mira C 2002 · Errante F 2020 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · Schagen SK 2017</sub>
 
-### 09 / 19 · A trial, or a brochure?  
+### 10 / 20 · A trial, or a brochure?  
 *Sort the evidence · tool*
 
 Five products from two families, and what each promises on the label. Before you see a grade, decide what actually stands behind each one.
@@ -165,7 +165,7 @@ Five products from two families, and what each promises on the label. Before you
 
 <sub>Sources: Aruan RR 2023 · Avcil M 2020 · Dragomirescu AO 2014 · Errante F 2020 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Robinson LR 2005 · Shin JY 2024 · Wang Y 2013</sub>
 
-### 10 / 19 · Twenty-three trials, split by who paid.  
+### 11 / 20 · Twenty-three trials, split by who paid.  
 *The evidence · stat*
 
 Pooled, oral collagen trials show better hydration, elasticity and wrinkle scores, and the Aesthetic & Regenerative Endocrinology guide grades them C. A 2025 meta-analysis split the same kind of trials by funding and by quality. The benefit appeared only in pharmaceutical-funded and low-quality trials. Unfunded and high-quality trials showed no effect.
@@ -176,7 +176,7 @@ Pooled, oral collagen trials show better hydration, elasticity and wrinkle score
 
 <sub>Sources: Myung SK 2025 · Pu SY 2023 · de Miranda RB 2021 · Kim DU 2018 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
 
-### 11 / 19 · Cosmetic, supplement, drug: three rulebooks.  
+### 12 / 20 · Cosmetic, supplement, drug: three rulebooks.  
 *What changes in practice · audio*
 
 In the US, cosmetic peptides are cosmetic ingredients, not drugs, and their safety is assessed under a cosmetics framework. Oral collagen is a dietary supplement: it may not claim to treat disease, and product quality and content vary. Neither route has to prove efficacy before sale — which is why the funding question matters.
@@ -205,7 +205,7 @@ Now the regulatory register, stated for the United States. Cosmetic peptides are
 
 <sub>Sources: Bjerke DL 2026 · Lupo MP 2007 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026</sub>
 
-### 12 / 19 · 'Clinically proven' collagen.  
+### 13 / 20 · 'Clinically proven' collagen.  
 *Your turn · quiz*
 
 One question to close lesson 4.2.
@@ -218,7 +218,7 @@ One question to close lesson 4.2.
 
 ## Lesson 4.3 · Repair peptides and the compounding line
 
-### 13 / 19 · Rodents, a fragment, and a tripeptide.  
+### 14 / 20 · Rodents, a fragment, and a tripeptide.  
 *Lesson 4.3 · Concept · audio*
 
 BPC-157 rests on a large rodent literature, mostly from one research group, and on uncontrolled human case series. TB-500 is not thymosin β4: it is a seven-residue fragment of it, identified by analysing the product itself, and no trial has tested the fragment. KPV, a tripeptide from the end of α-MSH, calms inflammation in mouse colitis and has no randomized human trial.
@@ -235,7 +235,7 @@ Lesson three moves from the cosmetic shelf to the peptides patients buy online a
 
 <sub>Sources: Sikiric P 2018 · Seiwerth S 2021 · Lee E 2021 · Esposito S 2012 · Crockford D 2010 · Dalmasso G 2008 · Kannengiesser K 2008 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Sikirić P 1993</sub>
 
-### 14 / 19 · One abstract, no published trial.  
+### 15 / 20 · One abstract, no published trial.  
 *The evidence · stat*
 
 As of September 2026 no randomized efficacy trial of BPC-157 in people has been published in full. FDA's July 2026 briefing found one randomized, placebo-controlled trial reported only as a 2005 meeting abstract: 53 people with ulcerative colitis, two weeks of treatment, and no significant difference from placebo. ClinicalTrials.gov adds a 2015 phase 1 safety study that never posted results, a completed 2025 single-arm product study with no results posted, and a randomized phase 1 trial after rotator-cuff surgery due to start in 2027.
@@ -246,7 +246,7 @@ As of September 2026 no randomized efficacy trial of BPC-157 in people has been 
 
 <sub>Sources: US Food and Drug Administration 2026 · Mayfield CK 2026 · McGuire FP 2025 · PharmaCotherapia d.o.o. 2015 · Parlay Wellness 2025 · University of Arkansas 2027</sub>
 
-### 15 / 19 · Two trials, one peptide: LL-37.  
+### 16 / 20 · Two trials, one peptide: LL-37.  
 *Worked example · tool*
 
 LL-37, the skin's own cathelicidin, is the one repair peptide with two randomized trials in hard-to-heal venous leg ulcers. Read them in order.
@@ -262,7 +262,7 @@ LL-37, the skin's own cathelicidin, is the one repair peptide with two randomize
 
 <sub>Sources: Grönberg A 2014 · Mahlapuu M 2021 · Schauber J 2008 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026</sub>
 
-### 16 / 19 · Where does it stand in the US?  
+### 17 / 20 · Where does it stand in the US?  
 *Regulatory status · tool*
 
 Three US categories, dated to the FDA's category list of 14 May 2026 and the advisory-committee meeting of 23–24 July 2026. The committee's votes are advice; FDA must still act through rulemaking before anything joins the bulks list. FDA has sent warning letters naming GHK-Cu and BPC-157 on exactly this basis.
@@ -292,7 +292,7 @@ Three US categories, dated to the FDA's category list of 14 May 2026 and the adv
 
 <sub>Sources: US Food and Drug Administration 2026 · US Food and Drug Administration 2026 · US Food and Drug Administration 2026 · US Food and Drug Administration 2026 · US Food and Drug Administration 2020 · Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026</sub>
 
-### 17 / 19 · New dark patches, three months into 'GLOW'.  
+### 18 / 20 · New dark patches, three months into 'GLOW'.  
 *Fictional case · audio*
 
 A 46-year-old patient has been injecting a research-use-only 'GLOW' blend bought online for three months. She reports smoother skin and asks about continuing. You notice new, patchy darkening on her face and forearms. This is a fictional case built from the lesson's evidence; there is one right first move.
@@ -330,7 +330,7 @@ A fictional case, built from this lesson's evidence. A forty-six-year-old patien
 
 <sub>Sources: Aesthetic & Regenerative Endocrinology — A Clinician's Pocket Guide 2026 · The Peptide Pocket Guide — 2026 Edition · Clinical Reference (seventy-two entries) 2026 · Vanhee C 2020 · Ashraf AR 2024 · US Food and Drug Administration 2026 · US Food and Drug Administration 2026</sub>
 
-### 18 / 19 · After the July review.  
+### 19 / 20 · After the July review.  
 *Your turn · quiz*
 
 One question to close lesson 4.3.
@@ -340,7 +340,7 @@ One question to close lesson 4.3.
 - ✔ Nothing yet: the committee advises, FDA must still act by rulemaking, and until then compounded products do not qualify for the 503A exemptions. — *Correct. Review is not approval.*
 - ✗ Only the injectable forms are restricted now. — *None of the three is on the bulks list in any form; the injectable-only exception applies to GHK-Cu's Category 1 entry, not to these.*
 
-### 19 / 19 · Before my next peptide conversation.  
+### 20 / 20 · Before my next peptide conversation.  
 *Closing and commitment · action*
 
 Build the checklist you will actually use. It is saved to your path and your tutor will bring it back.

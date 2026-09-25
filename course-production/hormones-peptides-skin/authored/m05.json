@@ -95,7 +95,7 @@
   {
    "id": "m5-p01",
    "type": "title",
-   "time": "01 / 19",
+   "time": "01 / 20",
    "lead": {
     "en": "Module 05 · Follicle, pigment and melanocortins"
    },
@@ -151,12 +151,13 @@
      ],
      "rule": "verbatim approved sentences only"
     }
-   }
+   },
+   "time": "02 / 20"
   },
   {
    "id": "m5-p02",
    "type": "audio",
-   "time": "02 / 19",
+   "time": "03 / 20",
    "lead": {
     "en": "Mechanism"
    },
@@ -235,7 +236,7 @@
   {
    "id": "m5-p03",
    "type": "stat",
-   "time": "03 / 19",
+   "time": "04 / 20",
    "lead": {
     "en": "Human evidence"
    },
@@ -323,7 +324,7 @@
   {
    "id": "m5-p04",
    "type": "tool",
-   "time": "04 / 19",
+   "time": "05 / 20",
    "lead": {
     "en": "Worked tool"
    },
@@ -509,7 +510,7 @@
   {
    "id": "m5-p05",
    "type": "audio",
-   "time": "05 / 19",
+   "time": "06 / 20",
    "lead": {
     "en": "What changes in practice"
    },
@@ -661,7 +662,7 @@
   {
    "id": "m5-p06",
    "type": "quiz",
-   "time": "06 / 19",
+   "time": "07 / 20",
    "lead": {
     "en": "Your turn"
    },
@@ -717,7 +718,7 @@
   {
    "id": "m5-p07",
    "type": "audio",
-   "time": "07 / 19",
+   "time": "08 / 20",
    "lead": {
     "en": "Lesson 5.2 · Concept"
    },
@@ -795,7 +796,7 @@
   {
    "id": "m5-p08",
    "type": "tool",
-   "time": "08 / 19",
+   "time": "09 / 20",
    "lead": {
     "en": "Four registers"
    },
@@ -924,7 +925,7 @@
   {
    "id": "m5-p09",
    "type": "stat",
-   "time": "09 / 19",
+   "time": "10 / 20",
    "lead": {
     "en": "The evidence"
    },
@@ -960,7 +961,7 @@
   {
    "id": "m5-p10",
    "type": "audio",
-   "time": "10 / 19",
+   "time": "11 / 20",
    "lead": {
     "en": "Safety signals"
    },
@@ -1043,7 +1044,7 @@
   {
    "id": "m5-p11",
    "type": "audio",
-   "time": "11 / 19",
+   "time": "12 / 20",
    "lead": {
     "en": "Fictional case"
    },
@@ -1200,7 +1201,7 @@
   {
    "id": "m5-p12",
    "type": "tool",
-   "time": "12 / 19",
+   "time": "13 / 20",
    "lead": {
     "en": "Regulatory status"
    },
@@ -1308,7 +1309,7 @@
   {
    "id": "m5-p13",
    "type": "quiz",
-   "time": "13 / 19",
+   "time": "14 / 20",
    "lead": {
     "en": "Your turn"
    },
@@ -1370,7 +1371,7 @@
   {
    "id": "m5-p14",
    "type": "audio",
-   "time": "14 / 19",
+   "time": "15 / 20",
    "lead": {
     "en": "Lesson 5.3 · Concept"
    },
@@ -1448,7 +1449,7 @@
   {
    "id": "m5-p15",
    "type": "stat",
-   "time": "15 / 19",
+   "time": "16 / 20",
    "lead": {
     "en": "The evidence"
    },
@@ -1483,7 +1484,7 @@
   {
    "id": "m5-p16",
    "type": "tool",
-   "time": "16 / 19",
+   "time": "17 / 20",
    "lead": {
     "en": "Sort the evidence"
    },
@@ -1662,7 +1663,7 @@
   {
    "id": "m5-p17",
    "type": "audio",
-   "time": "17 / 19",
+   "time": "18 / 20",
    "lead": {
     "en": "What changes in practice"
    },
@@ -1808,7 +1809,7 @@
   {
    "id": "m5-p18",
    "type": "quiz",
-   "time": "18 / 19",
+   "time": "19 / 20",
    "lead": {
     "en": "Your turn"
    },
@@ -1865,7 +1866,7 @@
   {
    "id": "m5-p19",
    "type": "action",
-   "time": "19 / 19",
+   "time": "20 / 20",
    "lead": {
     "en": "Closing and commitment"
    },
@@ -2588,7 +2589,7 @@
   {
    "date": "2026-09-25",
    "block": "m5-opener",
-   "change": "New moment: the module's opening film (about 71 s; draft media for the media preview). The narration is approved text, verbatim (m5-p01 body, sentences 1, 2; m5-p02 audioScript, sentences 1, 2, 3, 5, 8); the presenter is a HeyGen digital avatar, and the player shows \"Presented by a digital avatar (AI-generated presenter and voice).\" under the video.",
+   "change": "New moment: the module's opening film (about 71 s; draft media for the media preview). The narration is approved text, verbatim (m5-p01 body, sentences 1, 2; m5-p02 audioScript, sentences 1, 2, 3, 5, 8); the presenter is a HeyGen digital avatar, and the player shows \"Presented by a digital avatar (AI-generated presenter and voice).\" under the video. The moments' position labels are renumbered to /20.",
    "forReview": "Fady Hannah-Shmouni"
   }
  ],
