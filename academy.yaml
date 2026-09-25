@@ -20,7 +20,7 @@ brand:
 # No accreditation or credit claim appears unless the package records it (runtime gate).
 home:
   kicker: { en: "Hormonaly Academy · for clinicians" }
-  headline: { en: "Hormones and peptides, evidence-graded." }
+  headline: { en: "Hormones and peptides, evidence‑graded." }   # non-breaking hyphen keeps "evidence-graded" on one line
   lede: { en: "Short courses for clinicians who are asked about hormone and peptide treatments for skin, hair and ageing. Every statement is graded and traced to its source, and a physician reviews every course before it opens." }
   primaryAction: { en: "Start learning" }
   secondaryAction: { en: "See the courses" }
@@ -50,6 +50,7 @@ home:
       a: { en: "Not yet. The course is designed toward future CME accreditation, and no credit is offered at this time." }
     - q: { en: "What do I get at the end?" }
       a: { en: "Pass the final check with 80% or more to receive a certificate of completion with a public verification code." }
+  ctaTitle: { en: "Start with the first module." }
   disclaimer: { en: "Educational content for licensed clinicians. It does not replace clinical judgement, specialist input or formal guidelines." }
 
 catalog:
@@ -57,6 +58,8 @@ catalog:
   # (packages/aesthetic-regenerative-endocrinology.json, never authored) was removed 2026-09-24 so the catalog gate passes;
   # re-add it when that package exists.
   - course: packages/hormones-peptides-skin.json          # Hormones and Peptides for Skin
+    audience: { en: "Physicians, nurse practitioners and physician associates, nurses and other licensed providers" }
+    blurb: { en: "The hormones and peptides your patients ask about for skin, hair and the ageing face: what is shown in people, what is only mechanism, and what the rules allow in the US and the UK." }
     status: draft
     series: regenerative-endocrinology
     order: 1
