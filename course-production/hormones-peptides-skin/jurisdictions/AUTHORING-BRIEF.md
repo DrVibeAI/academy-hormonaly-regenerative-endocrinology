@@ -36,6 +36,10 @@ report if it does not).
    a Portuguese learner otherwise reads the EU note. Each note: one or two sentences, plain English, starts with the jurisdiction
    ("In the EU, …", "In Brazil, …", "In the UAE, …"), dated where the source is dated, and states only what a registry claim states.
    Stay as close to the claim's `text` as the moment allows; never add facts. `citationRefs` = that claim's `citationRefs`.
+   **UAE notes** start with the federal position (the Emirates Drug Establishment, EDE, has held medicines registration since
+   Federal Decree-Law 28/2023; the medicines law is Federal Decree-Law 38 of 2024). Where Dubai (DHA) and Abu Dhabi (DoH) differ —
+   peptides above all: DHA 29 July 2026 vs DoH 31 July 2026 — say so in the same `AE` note, naming each emirate (up to three
+   sentences for AE only).
 4. **Record placement**: for every registry claim a note uses, add `claimLocations["j-xx-NN"] = [block ids]` in your module.
 5. **Nothing verified, no note.** If the registry has no statement for a substance in a jurisdiction (or lists it under
    `consideredNotUsed`), omit that jurisdiction's note on that moment. Absence statements keep the registry's strength exactly:

@@ -7,6 +7,121 @@
  "gradingRule": "Regulatory statements are not graded as evidence (context). A statement is kept only with a verbatim primary-source quote; absence claims only where the official register is searchable and the search conclusive.",
  "finalReviewer": "Fady Hannah-Shmouni, MD FRCPC",
  "jurisdictions": {
+  "AE": {
+   "name": "United Arab Emirates",
+   "authorities": [
+    {
+     "name": "Emirates Drug Establishment (EDE)",
+     "scope": "Federal regulator of medical products since Federal Decree-Law 28/2023 (in force 30 Sep 2023): marketing approval and registration (medicines, biologicals, healthcare products including supplements and cosmetics with a medical effect), import permits, medical-product advertising licences, controlled and semi-controlled product lists, compounding-pharmacy and GCP certification, pharmacovigilance and safety circulars",
+     "url": "https://www.ede.gov.ae"
+    },
+    {
+     "name": "Ministry of Health and Prevention (MOHAP)",
+     "scope": "Federal health ministry and the medicines regulator before the EDE; its ministerial decisions (e.g. the 2023 semi-controlled list) and circulars issued up to 2025 remain part of the record",
+     "url": "https://mohap.gov.ae"
+    },
+    {
+     "name": "Dubai Health Authority (DHA)",
+     "scope": "Health regulator for the Emirate of Dubai: licensing and standards for health facilities and professionals, health advertising and social-media standards, circulars (including the July 2026 peptide regulations)",
+     "url": "https://www.dha.gov.ae"
+    },
+    {
+     "name": "Department of Health – Abu Dhabi (DoH)",
+     "scope": "Health regulator for the Emirate of Abu Dhabi: standards (including the August 2026 compounding standard), circulars (including the July 2026 peptide requirements), health-advertisement approvals",
+     "url": "https://www.doh.gov.ae"
+    },
+    {
+     "name": "Ministry of Industry and Advanced Technology (MoIAT)",
+     "scope": "Federal conformity scheme (ECAS) for regulated consumer products, including cosmetics and personal-care products under Cabinet Resolution 18/2014",
+     "url": "https://moiat.gov.ae"
+    },
+    {
+     "name": "Dubai Municipality (DM)",
+     "scope": "Registration (Montaji+) and market surveillance of cosmetic and personal-care products in the Emirate of Dubai",
+     "url": "https://www.dm.gov.ae"
+    }
+   ],
+   "researchedAt": "2026-09-25",
+   "sources": 50,
+   "statements": 93,
+   "notVerified": [
+    {
+     "subject": "MOHAP website (mohap.gov.ae): circulars, news and its copy of Federal Decree-Law 38/2024",
+     "reason": "Connection reset or timed out on 25 Sep 2026 (scripted fetch and browser). MOHAP circulars were read only where DHA or DoH republished them."
+    },
+    {
+     "subject": "Date on which the EDE took over medicine registration from MOHAP in practice",
+     "reason": "Federal Decree-Law 28/2023 lets the Cabinet keep MOHAP exercising the powers until the EDE runs all its operations; the Cabinet resolution(s) effecting the transfer were not found. A MOHAP alert of October 2024 still says Mounjaro 'is registered in MOHAP'; 2025-2026 circulars and approvals come from the EDE."
+    },
+    {
+     "subject": "Approved UAE indications: Olumiant (alopecia areata), Wegovy injection, Ozempic, topical tretinoin (photoageing), estradiol products (any skin indication)",
+     "reason": "The EDE register shows a therapeutic category (e.g. both Wegovy and Ozempic under 'ENDOCRINE SYSTEM-DIABETES'), not indications; UAE product leaflets were not read."
+    },
+    {
+     "subject": "Federal compounding rules in MOHAP Ministerial Decision 228/2023 (technical and health provisions for compounding pharmacy)",
+     "reason": "The published copy (DHA upload, circulated 26 Oct 2023) is a scanned image with no text layer; not read. No Dubai-specific compounding standard was found."
+    },
+    {
+     "subject": "Schedules of Federal Decree-Law 30/2021 (narcotics): whether any schedule lists somatropin, anabolic steroids or peptides",
+     "reason": "The ten schedules are annexed Regulation Tables not included in the page text read; the body text has no such mention."
+    },
+    {
+     "subject": "Annex 1 of Cabinet Resolution 90/2021 (personal-use import conditions); executive regulations of Federal Decree-Law 38/2024; compassionate-use conditions",
+     "reason": "Annex not read; no executive regulation of the 2024 law was found on the EDE legislation page (read 25 Sep 2026)."
+    },
+    {
+     "subject": "Personal import of semi-controlled medicines (e.g. somatropin) by travellers",
+     "reason": "The EDE traveller guidance covers narcotic and psychotropic (CD) medicines; semi-controlled items are not on its list and no SCD-specific traveller rule was found."
+    },
+    {
+     "subject": "Dubai Municipality cosmetics technical guideline (DM-HSD-GU116-CPCP2 v2.0) and the text of Cabinet Resolution 18/2014; cosmetic registration status of copper-peptide (GHK-Cu) or other peptide serums",
+     "reason": "The DM PDF redirects automated requests to the home page; the Cabinet Resolution text was not read (only MoIAT's listing of it); Montaji and ECAS product records were not searched."
+    },
+    {
+     "subject": "EDE enforcement against peptide weight-loss products and influencers (reported by news media in July 2026)",
+     "reason": "Not found among the 63 English news items on ede.gov.ae/en/news or in the DHA and DoH circulars read; news reports are not primary sources."
+    },
+    {
+     "subject": "DoH Registry for Compounded Substances; DoH Standard for Therapies in Human Cell-Based, Tissue-Based and Regenerative Medicine; DoH Chairman Resolution 37/2019 (Health Media & Advertising Regulations)",
+     "reason": "Cited by the DoH documents read but not located; which peptides the registry lists is unknown."
+    },
+    {
+     "subject": "Whether DHA's 29 July 2026 peptide circular ('registered or licensed with the Emirates Drug Establishment') allows peptides compounded by licensed compounding pharmacies",
+     "reason": "The circular does not say; compounded products are exempt from marketing approval under Federal Decree-Law 38/2024 Art. 5(2), but no DHA clarification was found."
+    },
+    {
+     "subject": "Health claims permitted for oral collagen and other food supplements",
+     "reason": "No UAE list of permitted supplement claims was read; only registration status was verified."
+    },
+    {
+     "subject": "Cabinet Decision 61/2023 (amending the 2007 health-advertisement regulation) and MOHAP Ministerial Decision 226/2023 (sale, display, storage and circulation of medical products)",
+     "reason": "Scanned PDFs without a text layer; not read."
+    },
+    {
+     "subject": "Any cosmetics-law ban on melanotan tanning products",
+     "reason": "Only the DoH/EDE and MOHAP medicine warnings were found; no cosmetic-specific measure was located."
+    },
+    {
+     "subject": "An updated (post-2022) version of DHA's social-media advertising standard reported in August 2026",
+     "reason": "The attachment to DHA circular CIR-2026-00000144 (17 Aug 2026) is byte-identical to version 1.1 (2022); no newer version was found."
+    }
+   ],
+   "authorFindings": [
+    "Regulator: medicine registration, import permits, advertising licences for medical products, the controlled and semi-controlled lists and compounding-pharmacy GCP certificates now sit with the Emirates Drug Establishment (EDE), created by Federal Decree-Law 28/2023 (in force 30 Sep 2023) to succeed MOHAP. Official translations name it differently ('UAE Drug Corporation' on the legislation portal, 'Emirates Pharmaceutical Corporation' in DHA's list, 'Emirates Medicines Corporation' on the EDE legislation page); use 'Emirates Drug Establishment (EDE)'. MOHAP letterhead appears on the circulars read up to October 2024 (the Mounjaro alert says 'registered in MOHAP'); 2025-2026 circulars and approvals come from the EDE, although DHA attributed the June 2025 Melanotan II circular to MOHAP while DoH attributed the same warning to the EDE.",
+    "Off-label prescribing is conditioned in statute: Federal Decree-Law 38/2024 Art. 42(1) allows uses outside the leaflet, or a product never submitted for marketing approval, only when necessary, with no equivalent alternative and with the patient's approval (ae-fdl-38-2024).",
+    "Dubai and Abu Dhabi diverged on peptides within two days: DHA (29 Jul 2026) prohibits any peptide product not registered or licensed with the EDE and any research-use peptide outside approved trials; DoH (31 Jul 2026) runs a risk-tiered model with compounding through licensed pharmacies, EDE-overseen APIs, full traceability, consent covering regulatory status and prior approval of any advertising, and its August 2026 compounding standard treats peptides as emerging substances usable only if monographed, an approved-medicine component or on the DoH registry. Notes must name the emirate (ae-dha-cir-peptides-2026, ae-doh-cir-148-2026, ae-doh-compounding-std-2026).",
+    "Federal compounding: products compounded in licensed compounding pharmacies need no marketing approval (Art. 5(2)), but compounded essential copies of EDE-approved products are barred unless no commercial product can deliver the benefit (Art. 95(4)); since semaglutide (Ozempic, Wegovy injection and tablets, Rybelsus) and tirzepatide (Mounjaro) are registered, this copy rule bears directly on compounded GLP-1s. This is an inference from the two articles: no EDE statement on compounded GLP-1s was found.",
+    "Growth hormone and anabolic steroids are 'semi-controlled' medicines, not scheduled narcotics: every registered somatropin brand is dispensed as SCD, as are injectable testosterone, nandrolone, stanozolol and mesterolone; oral tretinoin, isotretinoin and acitretin are SCD too. Public advertising of controlled and semi-controlled products is banned (ae-mohap-md-306-2023, ae-ede-register, ae-fdl-38-2024).",
+    "Hair-loss products: no oral minoxidil product is registered (all 17 minoxidil entries are topical), while a topical finasteride spray (Fincrezo 2.275 mg/ml) has been registered since March 2025.",
+    "Recent EDE approvals relevant to the course: oral Wegovy (announced 1 June 2026, second country worldwide), orforglipron as Foundayo (3 April 2026, second country worldwide, months after the EDE's December 2025 warning about falsified 'orforglipron'), and upadacitinib (Rinvoq) for non-segmental vitiligo (17 Aug 2026, first country worldwide) (ae-ede-news-oral-wegovy, ae-ede-news-orforglipron, ae-ede-news-rinvoq-vitiligo). Ritlecitinib (Litfulo 50 mg) is also in the register.",
+    "Skin-clinic enforcement: exosome and PDRN products, including 'skin boosters' used with microneedling or mesotherapy, are unauthorised (EDE Circular 40/2026, 11 Sep 2026); glutathione injections for skin whitening are unregistered and must not be used (MOHAP, Oct 2021); Melanotan II warnings from MOHAP/EDE (June 2025) and DoH (July 2025); counterfeit and stolen Ozempic/Mounjaro alerts from 2024 to 2026.",
+    "Selling from clinics: licensed professionals other than pharmacists may not sell any medical product, directly or indirectly, without Ministry or health-authority approval (Art. 42(5)); only pharmaceutical establishments may sell prescription-only medicines (Art. 40); in Abu Dhabi, prescription-only medicines may be sold online only against a verified prescription (Circular 152/2026).",
+    "Cosmetics run on three tracks: ordinary cosmetics (MoIAT conformity under Cabinet Resolution 18/2014, plus Dubai Municipality Montaji registration in Dubai), 'cosmetics with a medical effect' registered by the EDE as healthcare products, and medicines. The EDE classification letter settles borderline products; Abu Dhabi treats topical cosmetic peptides as low risk.",
+    "Advertising: every medical-product advertisement, social media included, needs an EDE licence tied to a valid marketing authorisation and the approved indications, so unregistered peptides cannot lawfully be advertised. Dubai also bans titles such as 'Anti-Aging Specialist' or 'Aesthetic Consultant' and absolute claims.",
+    "Publication caution: the DoH circulars read (10/2025, 112/2025, 48/2026, 69/2026, 148/2026, 152/2026) say they 'should not be used as content for media publication', and the EDE and MOHAP circulars (EDE 20/2025, 31/2026, 40/2026; MOHAP 9217/2024) say they 'should not be used for media publication'. The integrator may prefer to keep those quotes in this file only (the registry's --no-quote-hosts option works per host: www.doh.gov.ae; the EDE/MOHAP circulars are hosted on www.dha.gov.ae, which also hosts DHA standards without that restriction).",
+    "Advertising compounded products: the EDE advertising licence requires a valid marketing authorisation and excuses only products exempted by the Cabinet under Art. 5(3); compounded products are exempt from marketing approval under Art. 5(2) instead, so on the service page's wording they cannot obtain an advertising licence (an inference; no EDE statement on advertising compounded products was found)."
+   ]
+  },
   "BR": {
    "name": "Brazil",
    "authorities": [
@@ -289,6 +404,906 @@
   }
  },
  "citations": [
+  {
+   "id": "ae-fdl-28-2023",
+   "lesson": "jurisdictions",
+   "title": "Federal Decree-Law No. (28) of 2023 On the Establishment of the UAE Drug Corporation (official English translation)",
+   "authors": "UAE federal legislation (President of the UAE)",
+   "publication": "UAE Legislations portal; Official Gazette No. 760 (29 Sep 2023)",
+   "year": 2023,
+   "url": "https://uaelegislation.gov.ae/en/legislations/2122",
+   "sourceType": "legislation",
+   "language": "en",
+   "design": "primary regulatory source (legislation)",
+   "independence": "issuing authority",
+   "role": "United Arab Emirates regulatory status",
+   "guideGrade": "—",
+   "note": "read 2026-09-25 · Issued 25 Sep 2023; effective 30 Sep 2023; listed as Active. The portal states the Arabic text prevails. The translation names the body 'UAE Drug Corporation'; Federal Decree-Law 38/2024 and the body's own site call it the Emirates Drug Establishment (EDE). Read in a browser (the portal blocks scripted requests). Articles 1-18 read.",
+   "grade": "context",
+   "gradeNote": "regulatory fact, not graded evidence"
+  },
+  {
+   "id": "ae-fdl-38-2024",
+   "lesson": "jurisdictions",
+   "title": "Federal Decree-Law No. (38) of 2024 Governing Medical Products, Pharmacists and Pharmaceutical Establishments (official English translation)",
+   "authors": "UAE federal legislation (President of the UAE)",
+   "publication": "UAE Legislations portal; Official Gazette No. 785 (14 Oct 2024)",
+   "year": 2024,
+   "url": "https://uaelegislation.gov.ae/en/legislations/2751",
+   "sourceType": "legislation",
+   "language": "en",
+   "design": "primary regulatory source (legislation)",
+   "independence": "issuing authority",
+   "role": "United Arab Emirates regulatory status",
+   "guideGrade": "—",
+   "note": "read 2026-09-25 · Issued 1 Oct 2024; in force 2 Jan 2025 (Art. 181); repeals Federal Law No. 8 of 2019 (Art. 180); listed as Active. Arabic text prevails. Read: Art. 1 (definitions), 2, 5, 31, 35, 39, 40, 42, 44, 52, 95, 180, 181. The Arabic original is also posted by the EDE (https://www.ede.gov.ae/documents/d/ede/-38-2024-pdf) but its text layer is not machine-readable.",
+   "grade": "context",
+   "gradeNote": "regulatory fact, not graded evidence"
+  },
+  {
+   "id": "ae-cr-90-2021",
+   "lesson": "jurisdictions",
+   "title": "Cabinet Resolution No. (90) of 2021 Concerning the Executive Regulations of Federal Law No. (8) of 2019 Concerning Medical Products, Pharmacy Profession and Pharmaceutical Establishments (official English translation)",
+   "authors": "UAE Cabinet",
+   "publication": "UAE Legislations portal; Official Gazette No. 713 (14 Oct 2021)",
+   "year": 2021,
+   "url": "https://uaelegislation.gov.ae/en/legislations/1523",
+   "sourceType": "legislation",
+   "language": "en",
+   "design": "primary regulatory source (legislation)",
+   "independence": "issuing authority",
+   "role": "United Arab Emirates regulatory status",
+   "guideGrade": "—",
+   "note": "read 2026-09-25 · Issued 28 Sep 2021; listed as Active; kept in force by Art. 180(2) of Federal Decree-Law 38/2024 until replaced. Article 4 read; Annex No. (1) not read.",
+   "grade": "context",
+   "gradeNote": "regulatory fact, not graded evidence"
+  },
+  {
+   "id": "ae-cr-7-2007",
+   "lesson": "jurisdictions",
+   "title": "Cabinet Resolution No. (7) of 2007 Concerning the Health Advertisement Regulations (official English translation)",
+   "authors": "UAE Cabinet",
+   "publication": "UAE Legislations portal; Official Gazette No. 463 (29 Mar 2007)",
+   "year": 2007,
+   "url": "https://uaelegislation.gov.ae/en/legislations/2354",
+   "sourceType": "legislation",
+   "language": "en",
+   "design": "primary regulatory source (legislation)",
+   "independence": "issuing authority",
+   "role": "United Arab Emirates regulatory status",
+   "guideGrade": "—",
+   "note": "read 2026-09-25 · Issued 20 Feb 2007; listed as Active with one amendment (Cabinet Decision No. 61 of 2023, not read). Articles 1-9 read.",
+   "grade": "context",
+   "gradeNote": "regulatory fact, not graded evidence"
+  },
+  {
+   "id": "ae-fdl-30-2021",
+   "lesson": "jurisdictions",
+   "title": "Federal Decree-Law No. (30) of 2021 on Combating Narcotics and Psychotropic Substances (official English translation)",
+   "authors": "UAE federal legislation (President of the UAE)",
+   "publication": "UAE Legislations portal; Official Gazette No. 712, supplement (26 Sep 2021)",
+   "year": 2021,
+   "url": "https://uaelegislation.gov.ae/en/legislations/1540",
+   "sourceType": "legislation",
+   "language": "en",
+   "design": "primary regulatory source (legislation)",
+   "independence": "issuing authority",
+   "role": "United Arab Emirates regulatory status",
+   "guideGrade": "—",
+   "note": "read 2026-09-25 · Issued 16 Sep 2021; effective 2 Jan 2022; three amendments listed. The page text read has no mention of somatropin, growth hormone, testosterone, nandrolone, anabolic steroids or peptides; the ten annexed schedules (Regulation Tables) were not read.",
+   "grade": "context",
+   "gradeNote": "regulatory fact, not graded evidence"
+  },
+  {
+   "id": "ae-mohap-md-306-2023",
+   "lesson": "jurisdictions",
+   "title": "قرار وزاري رقم (306) لسنة 2023 في شأن قائمة المواد والمنتجات الطبية شبه المراقبة (Ministerial Decision No. 306 of 2023 on the list of semi-controlled medical materials and products)",
+   "authors": "Minister of Health and Prevention (MOHAP)",
+   "publication": "Ministerial decision with the English annex 'MOHAP – LIST OF REGISTERED SCD MEDICINES'; copy published by the Dubai Health Authority",
+   "year": 2023,
+   "url": "https://www.dha.gov.ae/uploads/112023/Ministerial%20Decision%20no20231126852.pdf",
+   "sourceType": "legislation",
+   "language": "ar",
+   "design": "primary regulatory source (legislation)",
+   "independence": "issuing authority",
+   "role": "United Arab Emirates regulatory status",
+   "guideGrade": "—",
+   "note": "read 2026-09-25 · in ar · Arabic decision signed 24 Oct 2023, effective the day after Official Gazette publication (gazette date not read); the 109-item annex is in English and is quoted as printed. Scanned image PDF without a text layer, read page by page.",
+   "grade": "context",
+   "gradeNote": "regulatory fact, not graded evidence"
+  },
+  {
+   "id": "ae-ede-register",
+   "lesson": "jurisdictions",
+   "title": "Registered medical product directory (Drug Directory)",
+   "authors": "Emirates Drug Establishment (EDE)",
+   "publication": "EDE online register at services.ede.gov.ae/drugdirectory (embedded at www.ede.gov.ae/en/drug-directory)",
+   "year": 2026,
+   "url": "https://services.ede.gov.ae/drugdirectory",
+   "sourceType": "register",
+   "language": "en",
+   "design": "primary regulatory source (register)",
+   "independence": "issuing authority",
+   "role": "United Arab Emirates regulatory status",
+   "guideGrade": "—",
+   "note": "read 2026-09-25 · Searched 25 Sep 2026 by ingredient (IngredientName, substring match) and product name (SearchTerm), e.g. https://services.ede.gov.ae/drugdirectory?IngredientName=semaglutide&ViewMode=list&PageSize=100. Every row returned was 'Active'; the directory has no status filter, so withdrawn or cancelled registrations may not appear. Rows give classification, strength, form, manufacturer, status and registration date; detail pages add dispensing mode and a therapeutic category but no indications. Quotes join table cells with ' | ' and page fields with spaces; '…' marks omitted cells or fields. Searches with no hits: retatrutide, afamelanotide, Scenesse, melanotan, Melanotan, tesamorelin, Tesamorelin, Egrifta, sermorelin, Sermorelin, ipamorelin, Ipamorelin, CJC, CJC-1295, ibutamoren, Ibutamoren, MK-677, BPC-157, BPC 157, pentadecapeptide, TB-500, TB500, thymosin, Thymosin, thymosin beta, KPV, LL-37, cathelicidin, GHK (ingredient and product name), prezatide, copper tripeptide, copper peptide, thymulin, Thymulin, PTD, DBM, PTD-DBM, Zepbound, Loniten, Minoxidil tablet, growth hormone, Skytrofa. 'BPC' as an ingredient matched only two unrelated products whose ingredients carry the 'BPC' pharmacopoeia suffix (Permethrin BPC, Cajuput Oil BPC). 'tripeptide' as an ingredient returned 7 rows: Martiderm anti-hair-loss ampoules, lotion and shampoos (biotinoyl tripeptide-1; GSL products) and the ST500 gel medical device (SH-tripeptide-1).",
+   "grade": "context",
+   "gradeNote": "regulatory fact, not graded evidence"
+  },
+  {
+   "id": "ae-ede-reg-wegovy",
+   "lesson": "jurisdictions",
+   "title": "Wegovy® 2.4mg FlexTouch® — EDE register entry",
+   "authors": "Emirates Drug Establishment (EDE)",
+   "publication": "Registered medical product directory (product detail page)",
+   "year": 2026,
+   "url": "https://services.ede.gov.ae/drugdirectory/Products/Details/16100",
+   "sourceType": "register",
+   "language": "en",
+   "design": "primary regulatory source (register)",
+   "independence": "issuing authority",
+   "role": "United Arab Emirates regulatory status",
+   "guideGrade": "—",
+   "note": "read 2026-09-25 · Other semaglutide entries seen in the ingredient search (18 rows): Ozempic 0.25/0.5/1 mg (21 Oct 2019), Ozempic 2 mg (30 Sep 2025), Rybelsus 3/7/14 mg (31 Aug 2020), Wegovy FlexTouch 0.25-2.4 mg (14 Nov 2022), Wegovy tablets 1.5/4/9/25 mg (4 May 2026). Detail pages checked for Ozempic 0.25 mg and 2 mg, Rybelsus 14 mg, Wegovy 0.25 mg and 25 mg tablets: all 'Prescription Only Medicine (POM)'.",
+   "grade": "context",
+   "gradeNote": "regulatory fact, not graded evidence"
+  },
+  {
+   "id": "ae-ede-reg-mounjaro",
+   "lesson": "jurisdictions",
+   "title": "MOUNJARO™ 2.5 mg/0.5 ml — EDE register entry",
+   "authors": "Emirates Drug Establishment (EDE)",
+   "publication": "Registered medical product directory (product detail page)",
+   "year": 2026,
+   "url": "https://services.ede.gov.ae/drugdirectory/Products/Details/9080",
+   "sourceType": "register",
+   "language": "en",
+   "design": "primary regulatory source (register)",
+   "independence": "issuing authority",
+   "role": "United Arab Emirates regulatory status",
+   "guideGrade": "—",
+   "note": "read 2026-09-25 · Tirzepatide ingredient search: 11 rows, Mounjaro 2.5-15 mg (registered 18 May 2022) and Mounjaro KwikPen 2.5-15 mg (18 Jan 2024).",
+   "grade": "context",
+   "gradeNote": "regulatory fact, not graded evidence"
+  },
+  {
+   "id": "ae-ede-reg-olumiant",
+   "lesson": "jurisdictions",
+   "title": "olumiant™ 2 mg — EDE register entry",
+   "authors": "Emirates Drug Establishment (EDE)",
+   "publication": "Registered medical product directory (product detail page)",
+   "year": 2026,
+   "url": "https://services.ede.gov.ae/drugdirectory/Products/Details/17066",
+   "sourceType": "register",
+   "language": "en",
+   "design": "primary regulatory source (register)",
+   "independence": "issuing authority",
+   "role": "United Arab Emirates regulatory status",
+   "guideGrade": "—",
+   "note": "read 2026-09-25 · Baricitinib ingredient search: 2 rows (Olumiant 2 mg and 4 mg, both registered 8 Jun 2017).",
+   "grade": "context",
+   "gradeNote": "regulatory fact, not graded evidence"
+  },
+  {
+   "id": "ae-ede-reg-propecia",
+   "lesson": "jurisdictions",
+   "title": "Propecia ®1mg — EDE register entry",
+   "authors": "Emirates Drug Establishment (EDE)",
+   "publication": "Registered medical product directory (product detail page)",
+   "year": 2026,
+   "url": "https://services.ede.gov.ae/drugdirectory/Products/Details/12167",
+   "sourceType": "register",
+   "language": "en",
+   "design": "primary regulatory source (register)",
+   "independence": "issuing authority",
+   "role": "United Arab Emirates regulatory status",
+   "guideGrade": "—",
+   "note": "read 2026-09-25 · Finasteride ingredient search: 11 rows (Propecia 1 mg, Proscar 5 mg registered 25 Mar 1993, Binfin 1 and 5, Finiscar 5 mg, Finorma 5 mg, Fincrezo spray).",
+   "grade": "context",
+   "gradeNote": "regulatory fact, not graded evidence"
+  },
+  {
+   "id": "ae-ede-reg-fincrezo",
+   "lesson": "jurisdictions",
+   "title": "Fincrezo® 2.275 mg/ml — EDE register entry",
+   "authors": "Emirates Drug Establishment (EDE)",
+   "publication": "Registered medical product directory (product detail page)",
+   "year": 2026,
+   "url": "https://services.ede.gov.ae/drugdirectory/Products/Details/5717",
+   "sourceType": "register",
+   "language": "en",
+   "design": "primary regulatory source (register)",
+   "independence": "issuing authority",
+   "role": "United Arab Emirates regulatory status",
+   "guideGrade": "—",
+   "note": "read 2026-09-25 · Topical finasteride spray; manufacturer Jazeera Pharmaceutical Industries (Saudi Arabia).",
+   "grade": "context",
+   "gradeNote": "regulatory fact, not graded evidence"
+  },
+  {
+   "id": "ae-ede-reg-regaine",
+   "lesson": "jurisdictions",
+   "title": "Regaine® 5% — EDE register entry",
+   "authors": "Emirates Drug Establishment (EDE)",
+   "publication": "Registered medical product directory (product detail page)",
+   "year": 2026,
+   "url": "https://services.ede.gov.ae/drugdirectory/Products/Details/12694",
+   "sourceType": "register",
+   "language": "en",
+   "design": "primary regulatory source (register)",
+   "independence": "issuing authority",
+   "role": "United Arab Emirates regulatory status",
+   "guideGrade": "—",
+   "note": "read 2026-09-25 · Minoxidil ingredient search: 17 rows, all solutions, foam or gel (Alopexy, Avogain, Hairgaine, Hairgrow, Minorga, Regaine).",
+   "grade": "context",
+   "gradeNote": "regulatory fact, not graded evidence"
+  },
+  {
+   "id": "ae-ede-reg-genotropin",
+   "lesson": "jurisdictions",
+   "title": "Genotropin® 12 mg GoQuick® — EDE register entry",
+   "authors": "Emirates Drug Establishment (EDE)",
+   "publication": "Registered medical product directory (product detail page)",
+   "year": 2026,
+   "url": "https://services.ede.gov.ae/drugdirectory/Products/Details/6272",
+   "sourceType": "register",
+   "language": "en",
+   "design": "primary regulatory source (register)",
+   "independence": "issuing authority",
+   "role": "United Arab Emirates regulatory status",
+   "guideGrade": "—",
+   "note": "read 2026-09-25 · Somatropin ingredient search: 9 rows (Genotropin 5.3 and 12 mg, Norditropin FlexPro 5/10/15 mg, Omnitrope 5 and 10 mg, Saizen 5.83 and 8 mg/ml); all nine detail pages read 'Semi Controlled Drug-SCD'. Long-acting analogues: Sogroya (somapacitan) SCD; Ngenla (somatrogon) POM.",
+   "grade": "context",
+   "gradeNote": "regulatory fact, not graded evidence"
+  },
+  {
+   "id": "ae-ede-reg-acretin",
+   "lesson": "jurisdictions",
+   "title": "Acretin™ 0.025% — EDE register entry",
+   "authors": "Emirates Drug Establishment (EDE)",
+   "publication": "Registered medical product directory (product detail page)",
+   "year": 2026,
+   "url": "https://services.ede.gov.ae/drugdirectory/Products/Details/1084",
+   "sourceType": "register",
+   "language": "en",
+   "design": "primary regulatory source (register)",
+   "independence": "issuing authority",
+   "role": "United Arab Emirates regulatory status",
+   "guideGrade": "—",
+   "note": "read 2026-09-25 · Tretinoin ingredient search (substring, so it also returns isotretinoin): 29 rows; topical tretinoin products include A-Ret, Acretin, Avotin-A, Optimal, Tri-Luma (fluocinolone/hydroquinone/tretinoin, registered 7 Nov 2018, POM) and Triolite.",
+   "grade": "context",
+   "gradeNote": "regulatory fact, not graded evidence"
+  },
+  {
+   "id": "ae-ede-reg-oestrogel",
+   "lesson": "jurisdictions",
+   "title": "Oestrogel 0.06% — EDE register entry",
+   "authors": "Emirates Drug Establishment (EDE)",
+   "publication": "Registered medical product directory (product detail page)",
+   "year": 2026,
+   "url": "https://services.ede.gov.ae/drugdirectory/Products/Details/10813",
+   "sourceType": "register",
+   "language": "en",
+   "design": "primary regulatory source (register)",
+   "independence": "issuing authority",
+   "role": "United Arab Emirates regulatory status",
+   "guideGrade": "—",
+   "note": "read 2026-09-25 · Estradiol ingredient search (substring, so it also returns ethinylestradiol contraceptives): 21 rows; menopausal products include Oestrogel, Femoston 1/10, 2/10 and conti 1/5 (POM) and Progyluton.",
+   "grade": "context",
+   "gradeNote": "regulatory fact, not graded evidence"
+  },
+  {
+   "id": "ae-ede-reg-collafix",
+   "lesson": "jurisdictions",
+   "title": "Collafix® for Skin & Hair Health — EDE register entry",
+   "authors": "Emirates Drug Establishment (EDE)",
+   "publication": "Registered medical product directory (product detail page)",
+   "year": 2026,
+   "url": "https://services.ede.gov.ae/drugdirectory/Products/Details/3637",
+   "sourceType": "register",
+   "language": "en",
+   "design": "primary regulatory source (register)",
+   "independence": "issuing authority",
+   "role": "United Arab Emirates regulatory status",
+   "guideGrade": "—",
+   "note": "read 2026-09-25 · Collagen ingredient search: 155 rows, mostly 'GSL Products' and 'Natural Source Medicines' (oral) plus collagen medical devices.",
+   "grade": "context",
+   "gradeNote": "regulatory fact, not graded evidence"
+  },
+  {
+   "id": "ae-ede-reg-centrum-shn",
+   "lesson": "jurisdictions",
+   "title": "Centrum Skin, Hair & Nails — EDE register entry",
+   "authors": "Emirates Drug Establishment (EDE)",
+   "publication": "Registered medical product directory (product detail page)",
+   "year": 2026,
+   "url": "https://services.ede.gov.ae/drugdirectory/Products/Details/3412",
+   "sourceType": "register",
+   "language": "en",
+   "design": "primary regulatory source (register)",
+   "independence": "issuing authority",
+   "role": "United Arab Emirates regulatory status",
+   "guideGrade": "—",
+   "note": "read 2026-09-25 · Oral multivitamin with hydrolysed bovine collagen.",
+   "grade": "context",
+   "gradeNote": "regulatory fact, not graded evidence"
+  },
+  {
+   "id": "ae-ede-reg-martiderm",
+   "lesson": "jurisdictions",
+   "title": "MARTIDERM ANTI HAIR-LOSS AMPOULES — EDE register entry",
+   "authors": "Emirates Drug Establishment (EDE)",
+   "publication": "Registered medical product directory (product detail page)",
+   "year": 2026,
+   "url": "https://services.ede.gov.ae/drugdirectory/Products/Details/8693",
+   "sourceType": "register",
+   "language": "en",
+   "design": "primary regulatory source (register)",
+   "independence": "issuing authority",
+   "role": "United Arab Emirates regulatory status",
+   "guideGrade": "—",
+   "note": "read 2026-09-25 · Topical anti-hair-loss ampoules; ingredients include biotinoyl tripeptide-1 and plant-derived oligopeptides; therapeutic category shown as N/A.",
+   "grade": "context",
+   "gradeNote": "regulatory fact, not graded evidence"
+  },
+  {
+   "id": "ae-ede-reg-nebido",
+   "lesson": "jurisdictions",
+   "title": "NEBIDO® — EDE register entry",
+   "authors": "Emirates Drug Establishment (EDE)",
+   "publication": "Registered medical product directory (product detail page)",
+   "year": 2026,
+   "url": "https://services.ede.gov.ae/drugdirectory/Products/Details/9869",
+   "sourceType": "register",
+   "language": "en",
+   "design": "primary regulatory source (register)",
+   "independence": "issuing authority",
+   "role": "United Arab Emirates regulatory status",
+   "guideGrade": "—",
+   "note": "read 2026-09-25 · Testosterone ingredient search: 8 rows; Nebido and Sustanon 250 read 'Semi Controlled Drug-SCD', Androgel 16.2 mg/g reads 'Prescription Only Medicine (POM)'; Deca-Durabolin (nandrolone) reads 'Semi Controlled Drug-SCD'.",
+   "grade": "context",
+   "gradeNote": "regulatory fact, not graded evidence"
+  },
+  {
+   "id": "ae-ede-svc-personal-import",
+   "lesson": "jurisdictions",
+   "title": "Issue of Permit to Import Medicines for Personal Use (service page)",
+   "authors": "Emirates Drug Establishment (EDE)",
+   "publication": "EDE services portal",
+   "year": 2026,
+   "url": "https://www.ede.gov.ae/en/w/issue-of-permit-to-import-medicines-for-personal-use",
+   "sourceType": "regulator",
+   "language": "en",
+   "design": "primary regulatory source (regulator)",
+   "independence": "issuing authority",
+   "role": "United Arab Emirates regulatory status",
+   "guideGrade": "—",
+   "note": "read 2026-09-25 · Service description, conditions and FAQ read. Links the EDE list of controlled medicines for travellers (ae-ede-controlled-list).",
+   "grade": "context",
+   "gradeNote": "regulatory fact, not graded evidence"
+  },
+  {
+   "id": "ae-ede-controlled-list",
+   "lesson": "jurisdictions",
+   "title": "Controlled and semi-controlled medicines list (alphabetical list of narcotic, psychotropic and controlled (CD) drugs for travellers)",
+   "authors": "Emirates Drug Establishment (EDE)",
+   "publication": "PDF attached to the EDE personal-import service page",
+   "year": 2025,
+   "url": "https://www.ede.gov.ae/documents/61005/0/Controlled+and+semi-controlled+medicines+list.pdf/9a7ac2c4-ec95-5b9a-9720-214314184141",
+   "sourceType": "regulator",
+   "language": "en",
+   "design": "primary regulatory source (regulator)",
+   "independence": "issuing authority",
+   "role": "United Arab Emirates regulatory status",
+   "guideGrade": "—",
+   "note": "read 2026-09-25 · PDF created 29 Dec 2025; the list states it was updated on 15/09/2022; 268 entries graded as narcotic or psychotropic schedules or 'CD'. Despite the file name it contains no semi-controlled (SCD) entries. Text search found no entry for somatropin, growth hormone, testosterone, nandrolone, stanozolol, oxandrolone, mesterolone, anabolic steroids, hCG/gonadotropin, clenbuterol, melanotan, semaglutide, tirzepatide, ibutamoren, tesamorelin, sermorelin or 'peptide'.",
+   "grade": "context",
+   "gradeNote": "regulatory fact, not graded evidence"
+  },
+  {
+   "id": "ae-ede-svc-advert",
+   "lesson": "jurisdictions",
+   "title": "Licensing an advertisement for a medical product (service page)",
+   "authors": "Emirates Drug Establishment (EDE)",
+   "publication": "EDE services portal",
+   "year": 2026,
+   "url": "https://www.ede.gov.ae/en/w/licensing-an-advertisement-for-a-medical-product",
+   "sourceType": "regulator",
+   "language": "en",
+   "design": "primary regulatory source (regulator)",
+   "independence": "issuing authority",
+   "role": "United Arab Emirates regulatory status",
+   "guideGrade": "—",
+   "note": "read 2026-09-25 · Service description, conditions and FAQ read.",
+   "grade": "context",
+   "gradeNote": "regulatory fact, not graded evidence"
+  },
+  {
+   "id": "ae-ede-svc-classification",
+   "lesson": "jurisdictions",
+   "title": "Classification of a Medical Product (service page)",
+   "authors": "Emirates Drug Establishment (EDE)",
+   "publication": "EDE services portal",
+   "year": 2026,
+   "url": "https://www.ede.gov.ae/en/w/classification-of-a-product",
+   "sourceType": "regulator",
+   "language": "en",
+   "design": "primary regulatory source (regulator)",
+   "independence": "issuing authority",
+   "role": "United Arab Emirates regulatory status",
+   "guideGrade": "—",
+   "note": "read 2026-09-25 · Service description and conditions read.",
+   "grade": "context",
+   "gradeNote": "regulatory fact, not graded evidence"
+  },
+  {
+   "id": "ae-ede-svc-healthcare-product",
+   "lesson": "jurisdictions",
+   "title": "Issuance of Marketing Authorization for a Healthcare Product (service page)",
+   "authors": "Emirates Drug Establishment (EDE)",
+   "publication": "EDE services portal",
+   "year": 2026,
+   "url": "https://www.ede.gov.ae/en/w/issuance-of-marketing-authorization-for-a-healthcare-product",
+   "sourceType": "regulator",
+   "language": "en",
+   "design": "primary regulatory source (regulator)",
+   "independence": "issuing authority",
+   "role": "United Arab Emirates regulatory status",
+   "guideGrade": "—",
+   "note": "read 2026-09-25 · Service description and required documents read.",
+   "grade": "context",
+   "gradeNote": "regulatory fact, not graded evidence"
+  },
+  {
+   "id": "ae-ede-news-oral-wegovy",
+   "lesson": "jurisdictions",
+   "title": "Emirates Drug Establishment approves oral Wegovy® (semaglutide) for weight management and cardiovascular risk reduction",
+   "authors": "Emirates Drug Establishment (EDE)",
+   "publication": "EDE news, published 1 June 2026",
+   "year": 2026,
+   "url": "https://www.ede.gov.ae/en/w/emirates-drug-establishment-approves-oral-wegovy%C2%AE-semaglutide-for-weight-management-and-cardiovascular-risk-reduction",
+   "sourceType": "regulator",
+   "language": "en",
+   "design": "primary regulatory source (regulator)",
+   "independence": "issuing authority",
+   "role": "United Arab Emirates regulatory status",
+   "guideGrade": "—",
+   "note": "read 2026-09-25 · EDE press release.",
+   "grade": "context",
+   "gradeNote": "regulatory fact, not graded evidence"
+  },
+  {
+   "id": "ae-ede-news-orforglipron",
+   "lesson": "jurisdictions",
+   "title": "Emirates Drug Establishment approves oral obesity treatment, marking shift away from injections",
+   "authors": "Emirates Drug Establishment (EDE)",
+   "publication": "EDE news, published 3 April 2026",
+   "year": 2026,
+   "url": "https://www.ede.gov.ae/en/w/emirates-drug-establishment-approves-oral-obesity-treatment-marking-shift-away-from-injections",
+   "sourceType": "regulator",
+   "language": "en",
+   "design": "primary regulatory source (regulator)",
+   "independence": "issuing authority",
+   "role": "United Arab Emirates regulatory status",
+   "guideGrade": "—",
+   "note": "read 2026-09-25 · EDE press release on Foundayo (orforglipron).",
+   "grade": "context",
+   "gradeNote": "regulatory fact, not graded evidence"
+  },
+  {
+   "id": "ae-ede-news-rinvoq-vitiligo",
+   "lesson": "jurisdictions",
+   "title": "Emirates Drug Establishment approves new RINVOQ use as first oral treatment for non-segmental vitiligo",
+   "authors": "Emirates Drug Establishment (EDE)",
+   "publication": "EDE news, published 17 August 2026",
+   "year": 2026,
+   "url": "https://www.ede.gov.ae/en/w/emirates-drug-establishment-approves-new-rinvoq-use-as-first-oral-treatment-for-non-segmental-vitiligo",
+   "sourceType": "regulator",
+   "language": "en",
+   "design": "primary regulatory source (regulator)",
+   "independence": "issuing authority",
+   "role": "United Arab Emirates regulatory status",
+   "guideGrade": "—",
+   "note": "read 2026-09-25 · EDE press release.",
+   "grade": "context",
+   "gradeNote": "regulatory fact, not graded evidence"
+  },
+  {
+   "id": "ae-ede-cir-40-2026",
+   "lesson": "jurisdictions",
+   "title": "EDE Circular No. (40/2026): Regulatory Warning on Unauthorized Medical Products Containing Exosomes or Polydeoxyribonucleotide (PDRN)",
+   "authors": "Emirates Drug Establishment (EDE)",
+   "publication": "EDE circular dated 11 Sep 2026, forwarded to Dubai facilities by DHA circular CIR-2026-00000168 (16 Sep 2026)",
+   "year": 2026,
+   "url": "https://www.dha.gov.ae/api/hasana/downloadfile/B12A8276-0988-C12E-8700-A0A879B00000",
+   "sourceType": "regulator",
+   "language": "en",
+   "design": "primary regulatory source (regulator)",
+   "independence": "issuing authority",
+   "role": "United Arab Emirates regulatory status",
+   "guideGrade": "—",
+   "note": "read 2026-09-25 · Bilingual Arabic/English circular; the English text is quoted. Addressed to health authorities, facilities, professionals, the federal customs authority and the public. The circular states it is for regulatory procedures and should not be used for media publication.",
+   "grade": "context",
+   "gradeNote": "regulatory fact, not graded evidence"
+  },
+  {
+   "id": "ae-ede-cir-31-2026",
+   "lesson": "jurisdictions",
+   "title": "EDE Circular No. (31/2026): Awareness Circular – Stolen Packs of Mounjaro® and Ozempic®",
+   "authors": "Emirates Drug Establishment (EDE)",
+   "publication": "EDE circular dated 20 Jul 2026, forwarded by DHA circular CIR-2026-00000100 (20 Jul 2026)",
+   "year": 2026,
+   "url": "https://www.dha.gov.ae/api/hasana/downloadfile/35B33F32-6328-C0F3-8794-9F7E10000000",
+   "sourceType": "regulator",
+   "language": "en",
+   "design": "primary regulatory source (regulator)",
+   "independence": "issuing authority",
+   "role": "United Arab Emirates regulatory status",
+   "guideGrade": "—",
+   "note": "read 2026-09-25 · Bilingual Arabic/English circular; the English text is quoted. Also forwarded by DoH as Circular 145/2026 (30 Jul 2026). The circular states it is for regulatory procedures and should not be used for media publication.",
+   "grade": "context",
+   "gradeNote": "regulatory fact, not graded evidence"
+  },
+  {
+   "id": "ae-ede-cir-20-2025",
+   "lesson": "jurisdictions",
+   "title": "EDE Circular No. (20): Awareness Circular – Detection of Falsified Cagrilintide Product in International Markets",
+   "authors": "Emirates Drug Establishment (EDE)",
+   "publication": "EDE circular dated 5 Dec 2025, forwarded by DHA circular CIR-2025-00000228 (8 Dec 2025)",
+   "year": 2025,
+   "url": "https://www.dha.gov.ae/api/hasana/downloadfile/9FE0FE93-1E70-CA13-878E-9AFC36D00000",
+   "sourceType": "regulator",
+   "language": "en",
+   "design": "primary regulatory source (regulator)",
+   "independence": "issuing authority",
+   "role": "United Arab Emirates regulatory status",
+   "guideGrade": "—",
+   "note": "read 2026-09-25 · Bilingual Arabic/English circular; the English text is quoted. Source of warning: Ireland's HPRA. The circular states it is for regulatory procedures and should not be used for media publication.",
+   "grade": "context",
+   "gradeNote": "regulatory fact, not graded evidence"
+  },
+  {
+   "id": "ae-ede-cir-24-2025",
+   "lesson": "jurisdictions",
+   "title": "EDE Circular No. (24): Awareness Circular – Warning about using the falsified product Orforglipron",
+   "authors": "Emirates Drug Establishment (EDE)",
+   "publication": "EDE circular forwarded by DHA circular CIR-2025-00000233 (24 Dec 2025)",
+   "year": 2025,
+   "url": "https://www.dha.gov.ae/api/hasana/downloadfile/5BB165EC-16F2-C33A-843F-9B4E8D900000",
+   "sourceType": "regulator",
+   "language": "en",
+   "design": "primary regulatory source (regulator)",
+   "independence": "issuing authority",
+   "role": "United Arab Emirates regulatory status",
+   "guideGrade": "—",
+   "note": "read 2026-09-25 · Bilingual Arabic/English circular; the English text is quoted. Source of warning: INTERPOL. Orforglipron was later approved by the EDE (ae-ede-news-orforglipron).",
+   "grade": "context",
+   "gradeNote": "regulatory fact, not graded evidence"
+  },
+  {
+   "id": "ae-mohap-cir-9217-2024",
+   "lesson": "jurisdictions",
+   "title": "MOHAP Circular No. (9217)/2024: Alert Against the use of Counterfeit version of medicinal product (Mounjaro)",
+   "authors": "Ministry of Health and Prevention (MOHAP)",
+   "publication": "MOHAP circular (ref. MOHAP/O/24/009230), forwarded by DHA circular CIR-2024-00000191 (21 Oct 2024)",
+   "year": 2024,
+   "url": "https://www.dha.gov.ae/api/hasana/downloadfile/5687ADDC-18BE-CEB5-AB20-92ADD1500000",
+   "sourceType": "regulator",
+   "language": "en",
+   "design": "primary regulatory source (regulator)",
+   "independence": "issuing authority",
+   "role": "United Arab Emirates regulatory status",
+   "guideGrade": "—",
+   "note": "read 2026-09-25 · Bilingual Arabic/English circular; the English text is quoted. The circular states it is for regulatory procedures and should not be used for media publication.",
+   "grade": "context",
+   "gradeNote": "regulatory fact, not graded evidence"
+  },
+  {
+   "id": "ae-mohap-cir-10073-2021",
+   "lesson": "jurisdictions",
+   "title": "MOHAP Circular No. (10073)/2021: Warning the use of Glutathione for dermatological treatment as injection into a vein or muscle or under the skin",
+   "authors": "Ministry of Health and Prevention (MOHAP)",
+   "publication": "MOHAP circular dated 4 Oct 2021, forwarded by DHA circular CIR-2021-00000172 (5 Oct 2021)",
+   "year": 2021,
+   "url": "https://www.dha.gov.ae/api/hasana/downloadfile/44D61FFC-D035-CB4C-94BE-7C4FB8E00000",
+   "sourceType": "regulator",
+   "language": "en",
+   "design": "primary regulatory source (regulator)",
+   "independence": "issuing authority",
+   "role": "United Arab Emirates regulatory status",
+   "guideGrade": "—",
+   "note": "read 2026-09-25 · Bilingual Arabic/English circular; the English text is quoted.",
+   "grade": "context",
+   "gradeNote": "regulatory fact, not graded evidence"
+  },
+  {
+   "id": "ae-dha-cir-peptides-2026",
+   "lesson": "jurisdictions",
+   "title": "DHA External Circular DHA/OUT/2026/0000867: Regulations for Handling Peptide Products in Healthcare Facilities (technical annex)",
+   "authors": "Dubai Health Authority (DHA), Health Regulation Sector",
+   "publication": "DHA circular CIR-2026-00000107, dated 29 Jul 2026",
+   "year": 2026,
+   "url": "https://www.dha.gov.ae/api/hasana/downloadfile/D038B3CC-E292-CFD1-902E-9FAC68900000",
+   "sourceType": "regulator",
+   "language": "en",
+   "design": "primary regulatory source (regulator)",
+   "independence": "issuing authority",
+   "role": "United Arab Emirates regulatory status",
+   "guideGrade": "—",
+   "note": "read 2026-09-25 · Bilingual Arabic/English annex; English column quoted. Cover letter: https://www.dha.gov.ae/api/hasana/downloadfile/DC0095FF-C545-CFA7-858E-9FAC68700000 (effective from issue; addressed to all health professionals and facilities in DHA's jurisdiction). DHA held a compliance workshop on it on 11 Sep 2026 (circular CIR-2026-00000167). Circulars are listed at https://www.dha.gov.ae/en/policiesRegulationsAndCirculars/circulars.",
+   "grade": "context",
+   "gradeNote": "regulatory fact, not graded evidence"
+  },
+  {
+   "id": "ae-dha-cir-melanotan-2025",
+   "lesson": "jurisdictions",
+   "title": "DHA circular CIR-2025-00000111: Serious Safety Concerns Regarding the Use of Melanotan II (Barbie Drug)",
+   "authors": "Dubai Health Authority (DHA), Drug Control Section",
+   "publication": "DHA circular published 25 Jun 2025 forwarding MOHAP Circular No. 06 of 2025",
+   "year": 2025,
+   "url": "https://www.dha.gov.ae/api/hasana/circulars/detailOfCirculars?ref=CIR-2025-00000111",
+   "sourceType": "regulator",
+   "language": "en",
+   "design": "primary regulatory source (regulator)",
+   "independence": "issuing authority",
+   "role": "United Arab Emirates regulatory status",
+   "guideGrade": "—",
+   "note": "read 2026-09-25 · Circular text read from DHA's public circulars API (the attached MOHAP circular was not attached to the record).",
+   "grade": "context",
+   "gradeNote": "regulatory fact, not graded evidence"
+  },
+  {
+   "id": "ae-dha-social-media-std",
+   "lesson": "jurisdictions",
+   "title": "Standards for Medical Advertisement Content on Social Media, Version 1.1 (DHA/HRS/HPSD/ST-21)",
+   "authors": "Dubai Health Authority (DHA), Health Policies and Standards Department",
+   "publication": "DHA standard; issued 3 Aug 2022, effective 3 Oct 2022",
+   "year": 2022,
+   "url": "https://www.dha.gov.ae/uploads/042022/Standards%20for%20Medical%20Advertisement%20Content%20in%20Social%20Media2022433965.pdf",
+   "sourceType": "regulator",
+   "language": "en",
+   "design": "primary regulatory source (regulator)",
+   "independence": "issuing authority",
+   "role": "United Arab Emirates regulatory status",
+   "guideGrade": "—",
+   "note": "read 2026-09-25 · The attachment to DHA circular CIR-2026-00000144 (17 Aug 2026) is byte-identical to this version 1.1.",
+   "grade": "context",
+   "gradeNote": "regulatory fact, not graded evidence"
+  },
+  {
+   "id": "ae-dha-cir-social-2026",
+   "lesson": "jurisdictions",
+   "title": "DHA circular CIR-2026-00000144: Standards for Medical Advertisement Content on Social Media",
+   "authors": "Dubai Health Authority (DHA), Health Regulation Sector",
+   "publication": "DHA circular published 17 Aug 2026 to all licensed private facilities and professionals",
+   "year": 2026,
+   "url": "https://www.dha.gov.ae/api/hasana/circulars/detailOfCirculars?ref=CIR-2026-00000144",
+   "sourceType": "regulator",
+   "language": "en",
+   "design": "primary regulatory source (regulator)",
+   "independence": "issuing authority",
+   "role": "United Arab Emirates regulatory status",
+   "guideGrade": "—",
+   "note": "read 2026-09-25 · Circular text read from DHA's public circulars API.",
+   "grade": "context",
+   "gradeNote": "regulatory fact, not graded evidence"
+  },
+  {
+   "id": "ae-dha-nsc-std",
+   "lesson": "jurisdictions",
+   "title": "Standards for Non-Surgical Cosmetic Procedures, Version 2.1 (DHA/HRS/HPSD/ST-05)",
+   "authors": "Dubai Health Authority (DHA), Health Policies and Standards Department",
+   "publication": "DHA standard; issued 18 Dec 2024, effective 18 Feb 2025; circulated by DHA circular CIR-2025-00000107 (4 Jun 2025)",
+   "year": 2024,
+   "url": "https://www.dha.gov.ae/api/hasana/downloadfile/33A7E1B3-391B-CF56-A198-973A87600000",
+   "sourceType": "regulator",
+   "language": "en",
+   "design": "primary regulatory source (regulator)",
+   "independence": "issuing authority",
+   "role": "United Arab Emirates regulatory status",
+   "guideGrade": "—",
+   "note": "read 2026-09-25 · 49 pages; general provisions and Appendix 1 read by text search.",
+   "grade": "context",
+   "gradeNote": "regulatory fact, not graded evidence"
+  },
+  {
+   "id": "ae-doh-compounding-std-2026",
+   "lesson": "jurisdictions",
+   "title": "DoH Standard for Provision of Compounding Pharmacy Services (DoH/SD/HLS/PCPS/V1/2026)",
+   "authors": "Department of Health – Abu Dhabi (DoH)",
+   "publication": "DoH standard; published and effective August 2026",
+   "year": 2026,
+   "url": "https://www.doh.gov.ae/-/media/Feature/Resources/Standards/2026/081826_Standard-For-Provision-of-Compounding-Pharmacy.ashx",
+   "sourceType": "regulator",
+   "language": "en",
+   "design": "primary regulatory source (regulator)",
+   "independence": "issuing authority",
+   "role": "United Arab Emirates regulatory status",
+   "guideGrade": "—",
+   "note": "read 2026-09-25 · New standard (29 pages) listed in the DoH standards feed on 26 Aug 2026; applies to all DoH-licensed facilities and pharmacies that compound or supply compounded preparations.",
+   "grade": "context",
+   "gradeNote": "regulatory fact, not graded evidence"
+  },
+  {
+   "id": "ae-doh-cir-148-2026",
+   "lesson": "jurisdictions",
+   "title": "DoH Circular No. (148)/2026: Mandatory Requirements for Peptide Products",
+   "authors": "Department of Health – Abu Dhabi (DoH)",
+   "publication": "DoH circular dated 31 Jul 2026",
+   "year": 2026,
+   "url": "https://www.doh.gov.ae/-/media/Feature/Resources/Circulars/2026/148--2026.ashx",
+   "sourceType": "regulator",
+   "language": "en",
+   "design": "primary regulatory source (regulator)",
+   "independence": "issuing authority",
+   "role": "United Arab Emirates regulatory status",
+   "guideGrade": "—",
+   "note": "read 2026-09-25 · Bilingual Arabic/English circular; the English text is quoted. Addressed to pharmaceutical agents and distributors, facilities, pharmacies, compounding pharmacies and physicians. The circular carries the line 'This circular is designed for regulatory procedures and should not be used as content for media publication'.",
+   "grade": "context",
+   "gradeNote": "regulatory fact, not graded evidence"
+  },
+  {
+   "id": "ae-doh-cir-112-2025",
+   "lesson": "jurisdictions",
+   "title": "DoH Circular No. (112)/2025: Serious Safety Concerns Regarding Use of Pharmaceutical Melanotan II ('Barbie Drug')",
+   "authors": "Department of Health – Abu Dhabi (DoH)",
+   "publication": "DoH circular dated 2 Jul 2025",
+   "year": 2025,
+   "url": "https://www.doh.gov.ae/-/media/3531F224BD5044159EA79E6277E8D9E2.ashx",
+   "sourceType": "regulator",
+   "language": "en",
+   "design": "primary regulatory source (regulator)",
+   "independence": "issuing authority",
+   "role": "United Arab Emirates regulatory status",
+   "guideGrade": "—",
+   "note": "read 2026-09-25 · Bilingual Arabic/English circular; the English text is quoted. The circular carries the line 'This circular is designed for regulatory procedures and should not be used as content for media publication'.",
+   "grade": "context",
+   "gradeNote": "regulatory fact, not graded evidence"
+  },
+  {
+   "id": "ae-doh-cir-48-2026",
+   "lesson": "jurisdictions",
+   "title": "DoH Circular No. (48)/2026: Alert Against Use of Counterfeit Weight Loss Products",
+   "authors": "Department of Health – Abu Dhabi (DoH)",
+   "publication": "DoH circular dated 16 Mar 2026",
+   "year": 2026,
+   "url": "https://www.doh.gov.ae/-/media/22652518F4564C46A0207B22E385225A.ashx",
+   "sourceType": "regulator",
+   "language": "en",
+   "design": "primary regulatory source (regulator)",
+   "independence": "issuing authority",
+   "role": "United Arab Emirates regulatory status",
+   "guideGrade": "—",
+   "note": "read 2026-09-25 · Bilingual Arabic/English circular; the English text is quoted. Relays a TGA (Australia) advisory. The circular carries the line 'This circular is designed for regulatory procedures and should not be used as content for media publication'.",
+   "grade": "context",
+   "gradeNote": "regulatory fact, not graded evidence"
+  },
+  {
+   "id": "ae-doh-cir-10-2025",
+   "lesson": "jurisdictions",
+   "title": "DoH Circular No. (10)/2025: Alert Against the Use of Counterfeit Version of Ozempic and Mounjaro",
+   "authors": "Department of Health – Abu Dhabi (DoH)",
+   "publication": "DoH circular dated 04/02/2025",
+   "year": 2025,
+   "url": "https://www.doh.gov.ae/-/media/AF6E690828694E5D8D20ACF8D4BF9E92.ashx",
+   "sourceType": "regulator",
+   "language": "en",
+   "design": "primary regulatory source (regulator)",
+   "independence": "issuing authority",
+   "role": "United Arab Emirates regulatory status",
+   "guideGrade": "—",
+   "note": "read 2026-09-25 · Bilingual Arabic/English circular; the English text is quoted. The circular is dated 04/02/2025 (DoH uses day/month order); the DoH circulars index lists it under 4 Jan 2025. The circular carries the line 'This circular is designed for regulatory procedures and should not be used as content for media publication'.",
+   "grade": "context",
+   "gradeNote": "regulatory fact, not graded evidence"
+  },
+  {
+   "id": "ae-doh-cir-152-2026",
+   "lesson": "jurisdictions",
+   "title": "DoH Circular No. (152)/2026: Reminder on Compliance with Dispensing and Selling Prescription Only Medicines (POM) through Electronic Websites and Medicine Delivery Applications",
+   "authors": "Department of Health – Abu Dhabi (DoH)",
+   "publication": "DoH circular dated 5 Aug 2026",
+   "year": 2026,
+   "url": "https://www.doh.gov.ae/-/media/Feature/Resources/Circulars/2026/152--2026.ashx",
+   "sourceType": "regulator",
+   "language": "en",
+   "design": "primary regulatory source (regulator)",
+   "independence": "issuing authority",
+   "role": "United Arab Emirates regulatory status",
+   "guideGrade": "—",
+   "note": "read 2026-09-25 · Bilingual Arabic/English circular; the English text is quoted. The circular carries the line 'This circular is designed for regulatory procedures and should not be used as content for media publication'.",
+   "grade": "context",
+   "gradeNote": "regulatory fact, not graded evidence"
+  },
+  {
+   "id": "ae-doh-cir-69-2026",
+   "lesson": "jurisdictions",
+   "title": "DoH Circular No. (69)/2026: New Requirements for Submitting Press Releases via the Request to Log a Health Advertisement Service",
+   "authors": "Department of Health – Abu Dhabi (DoH)",
+   "publication": "DoH circular dated 29 Apr 2026",
+   "year": 2026,
+   "url": "https://www.doh.gov.ae/-/media/4E958532CC5843B588D7717CFD0DAE1E.ashx",
+   "sourceType": "regulator",
+   "language": "en",
+   "design": "primary regulatory source (regulator)",
+   "independence": "issuing authority",
+   "role": "United Arab Emirates regulatory status",
+   "guideGrade": "—",
+   "note": "read 2026-09-25 · Bilingual Arabic/English circular; the English text is quoted. DoH Chairman Resolution No. 37 of 2019, which it cites, was not read. The circular carries the line 'This circular is designed for regulatory procedures and should not be used as content for media publication'.",
+   "grade": "context",
+   "gradeNote": "regulatory fact, not graded evidence"
+  },
+  {
+   "id": "ae-doh-supplements-page",
+   "lesson": "jurisdictions",
+   "title": "Medications & Supplements Awareness Material",
+   "authors": "Department of Health – Abu Dhabi (DoH)",
+   "publication": "DoH website resource page (last updated 25 Sep 2026)",
+   "year": 2026,
+   "url": "https://www.doh.gov.ae/en/resources/Supplement-Product",
+   "sourceType": "regulator",
+   "language": "en",
+   "design": "primary regulatory source (regulator)",
+   "independence": "issuing authority",
+   "role": "United Arab Emirates regulatory status",
+   "guideGrade": "—",
+   "note": "read 2026-09-25 · Links the DoH list of adulterated products (not read).",
+   "grade": "context",
+   "gradeNote": "regulatory fact, not graded evidence"
+  },
+  {
+   "id": "ae-moiat-regulated-products",
+   "lesson": "jurisdictions",
+   "title": "قائمة بمتطلبات جميع التشريعات و الأنظمة الرقابية الخاصة بالمنتجات (List of technical requirements for regulated products, 'CAD Regulated Sheet')",
+   "authors": "Ministry of Industry and Advanced Technology (MoIAT)",
+   "publication": "Document attached to MoIAT's conformity-certificate (ECAS) service page; PDF created 30 Jun 2022",
+   "year": 2022,
+   "url": "https://moiat.gov.ae/-/media/site/moiat/document/services-user-manual/cad-regulated-sheet.ashx",
+   "sourceType": "regulator",
+   "language": "ar",
+   "design": "primary regulatory source (regulator)",
+   "independence": "issuing authority",
+   "role": "United Arab Emirates regulatory status",
+   "guideGrade": "—",
+   "note": "read 2026-09-25 · in ar · Bilingual table: requirements in English, regulation name and number in Arabic. Row read: cosmetics and personal care products.",
+   "grade": "context",
+   "gradeNote": "regulatory fact, not graded evidence"
+  },
+  {
+   "id": "ae-moiat-ecas-service",
+   "lesson": "jurisdictions",
+   "title": "Issue Conformity Certificates for Regulated Products (ECAS) (service page)",
+   "authors": "Ministry of Industry and Advanced Technology (MoIAT)",
+   "publication": "MoIAT e-services",
+   "year": 2026,
+   "url": "https://moiat.gov.ae/en/services/issue-conformity-certificates-for-regulated-products",
+   "sourceType": "regulator",
+   "language": "en",
+   "design": "primary regulatory source (regulator)",
+   "independence": "issuing authority",
+   "role": "United Arab Emirates regulatory status",
+   "guideGrade": "—",
+   "note": "read 2026-09-25 · Service description read.",
+   "grade": "context",
+   "gradeNote": "regulatory fact, not graded evidence"
+  },
+  {
+   "id": "ae-dm-beautyworld-2025",
+   "lesson": "jurisdictions",
+   "title": "Dubai Municipality showcases regulatory leadership in product safety at Beautyworld Middle East 2025",
+   "authors": "Dubai Municipality (DM)",
+   "publication": "Dubai Municipality news, 27 October 2025",
+   "year": 2025,
+   "url": "https://www.dm.gov.ae/product-safety-at-beautyworld-middle-east-2025/",
+   "sourceType": "regulator",
+   "language": "en",
+   "design": "primary regulatory source (regulator)",
+   "independence": "issuing authority",
+   "role": "United Arab Emirates regulatory status",
+   "guideGrade": "—",
+   "note": "read 2026-09-25 · DM's cosmetics technical guideline PDF (DM-HSD-GU116-CPCP2 v2.0) could not be read: automated requests are redirected to the home page.",
+   "grade": "context",
+   "gradeNote": "regulatory fact, not graded evidence"
+  },
   {
    "id": "br-anvisa-register-opendata",
    "lesson": "jurisdictions",
@@ -2739,6 +3754,1356 @@
   }
  ],
  "claims": [
+  {
+   "id": "j-ae-01",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "substance",
+   "subject": "semaglutide",
+   "substanceStatus": "authorised",
+   "text": "In the UAE, semaglutide is registered with the Emirates Drug Establishment (EDE) as Ozempic (injection, since 21 Oct 2019), Rybelsus (tablets, 31 Aug 2020) and Wegovy (FlexTouch injection, 14 Nov 2022; tablets, 4 May 2026); every entry checked is a Prescription Only Medicine (EDE register, 25 Sep 2026).",
+   "citationRefs": [
+    "ae-ede-reg-wegovy",
+    "ae-ede-register"
+   ],
+   "status": "verified",
+   "reviewNote": "primary source quote: \"Wegovy® 2.4mg FlexTouch® … Classification Biological Medicines Dispensing mode Prescription Only Medicine (POM) … Registration date 2022-11-14 Description ENDOCRINE SYSTEM-DIABETES … Ingredients Semaglutide 3.2 mg/ml\"",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-02",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "substance",
+   "subject": "semaglutide",
+   "substanceStatus": "authorised",
+   "text": "In the UAE, the EDE announced on 1 June 2026 that it had approved oral Wegovy (semaglutide) for long-term weight management in adults with obesity, or overweight with weight-related conditions, the second country to do so.",
+   "citationRefs": [
+    "ae-ede-news-oral-wegovy"
+   ],
+   "status": "verified",
+   "reviewNote": "verbatim quote kept in jurisdictions/AE.json (the source's terms allow citation, not republication)",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-03",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "substance",
+   "subject": "tirzepatide",
+   "substanceStatus": "authorised",
+   "text": "In the UAE, tirzepatide is registered as Mounjaro (injection, since 18 May 2022; KwikPen, 18 Jan 2024) as a Prescription Only Medicine; no product named Zepbound was found in the EDE register (25 Sep 2026).",
+   "citationRefs": [
+    "ae-ede-reg-mounjaro",
+    "ae-ede-register"
+   ],
+   "status": "verified",
+   "reviewNote": "primary source quote: \"MOUNJARO™ 2.5 mg/0.5 ml … Classification Conventional Medicines Dispensing mode Prescription Only Medicine (POM) … Registration date 2022-05-18 Description ENDOCRINE SYSTEM-DIABETES … Ingredients Tirzepatide 2.5 mg/0.5 mL\"",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-04",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "substance",
+   "subject": "tirzepatide",
+   "substanceStatus": "authorised",
+   "text": "In the UAE, a MOHAP counterfeit alert on Mounjaro (Circular 9217/2024, relayed by DHA on 21 Oct 2024) described the genuine product as registered, with the indication 'treatment for type 2 diabetes mellitus and weight management'.",
+   "citationRefs": [
+    "ae-mohap-cir-9217-2024"
+   ],
+   "status": "verified",
+   "reviewNote": "verbatim quote kept in jurisdictions/AE.json (the source's terms allow citation, not republication)",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-05",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "substance",
+   "subject": "retatrutide",
+   "substanceStatus": "not-authorised",
+   "text": "In the UAE, no registered product containing retatrutide was found in the EDE register (ingredient and product-name search, 25 Sep 2026).",
+   "citationRefs": [
+    "ae-ede-register"
+   ],
+   "status": "verified",
+   "reviewNote": "primary source quote: \"Showing 0–0 of 0 results … No products match your filters.\"",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-06",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "substance",
+   "subject": "afamelanotide (Scenesse)",
+   "substanceStatus": "not-authorised",
+   "text": "In the UAE, no registered product containing afamelanotide, and none named Scenesse, was found in the EDE register (ingredient and product-name search, 25 Sep 2026).",
+   "citationRefs": [
+    "ae-ede-register"
+   ],
+   "status": "verified",
+   "reviewNote": "primary source quote: \"Showing 0–0 of 0 results … No products match your filters.\"",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-07",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "substance",
+   "subject": "tesamorelin",
+   "substanceStatus": "not-authorised",
+   "text": "In the UAE, no registered product containing tesamorelin, and none named Egrifta, was found in the EDE register (ingredient and product-name search, 25 Sep 2026).",
+   "citationRefs": [
+    "ae-ede-register"
+   ],
+   "status": "verified",
+   "reviewNote": "primary source quote: \"Showing 0–0 of 0 results … No products match your filters.\"",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-08",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "substance",
+   "subject": "sermorelin",
+   "substanceStatus": "not-authorised",
+   "text": "In the UAE, no registered product containing sermorelin was found in the EDE register (ingredient and product-name search, 25 Sep 2026).",
+   "citationRefs": [
+    "ae-ede-register"
+   ],
+   "status": "verified",
+   "reviewNote": "primary source quote: \"Showing 0–0 of 0 results … No products match your filters.\"",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-09",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "substance",
+   "subject": "ipamorelin",
+   "substanceStatus": "not-authorised",
+   "text": "In the UAE, no registered product containing ipamorelin was found in the EDE register (ingredient and product-name search, 25 Sep 2026).",
+   "citationRefs": [
+    "ae-ede-register"
+   ],
+   "status": "verified",
+   "reviewNote": "primary source quote: \"Showing 0–0 of 0 results … No products match your filters.\"",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-10",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "substance",
+   "subject": "CJC-1295",
+   "substanceStatus": "not-authorised",
+   "text": "In the UAE, no registered product matching 'CJC' or 'CJC-1295' was found in the EDE register (ingredient and product-name search, 25 Sep 2026).",
+   "citationRefs": [
+    "ae-ede-register"
+   ],
+   "status": "verified",
+   "reviewNote": "primary source quote: \"Showing 0–0 of 0 results … No products match your filters.\"",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-11",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "substance",
+   "subject": "ibutamoren (MK-677)",
+   "substanceStatus": "not-authorised",
+   "text": "In the UAE, no registered product containing ibutamoren or named MK-677 was found in the EDE register (ingredient and product-name search, 25 Sep 2026).",
+   "citationRefs": [
+    "ae-ede-register"
+   ],
+   "status": "verified",
+   "reviewNote": "primary source quote: \"Showing 0–0 of 0 results … No products match your filters.\"",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-12",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "substance",
+   "subject": "BPC-157",
+   "substanceStatus": "not-authorised",
+   "text": "In the UAE, no registered product containing BPC-157 (searched as 'BPC-157', 'BPC 157' and 'pentadecapeptide') was found in the EDE register (ingredient and product-name search, 25 Sep 2026).",
+   "citationRefs": [
+    "ae-ede-register"
+   ],
+   "status": "verified",
+   "reviewNote": "primary source quote: \"Showing 0–0 of 0 results … No products match your filters.\"",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-13",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "substance",
+   "subject": "TB-500 (thymosin beta-4 fragment)",
+   "substanceStatus": "not-authorised",
+   "text": "In the UAE, no registered product matching 'TB-500', 'TB500' or 'thymosin' was found in the EDE register (ingredient and product-name search, 25 Sep 2026).",
+   "citationRefs": [
+    "ae-ede-register"
+   ],
+   "status": "verified",
+   "reviewNote": "primary source quote: \"Showing 0–0 of 0 results … No products match your filters.\"",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-14",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "substance",
+   "subject": "KPV",
+   "substanceStatus": "not-authorised",
+   "text": "In the UAE, no registered product containing KPV was found in the EDE register (ingredient and product-name search, 25 Sep 2026).",
+   "citationRefs": [
+    "ae-ede-register"
+   ],
+   "status": "verified",
+   "reviewNote": "primary source quote: \"Showing 0–0 of 0 results … No products match your filters.\"",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-15",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "substance",
+   "subject": "LL-37",
+   "substanceStatus": "not-authorised",
+   "text": "In the UAE, no registered product containing LL-37 or cathelicidin was found in the EDE register (ingredient and product-name search, 25 Sep 2026).",
+   "citationRefs": [
+    "ae-ede-register"
+   ],
+   "status": "verified",
+   "reviewNote": "primary source quote: \"Showing 0–0 of 0 results … No products match your filters.\"",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-16",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "substance",
+   "subject": "thymulin",
+   "substanceStatus": "not-authorised",
+   "text": "In the UAE, no registered product containing thymulin was found in the EDE register (ingredient and product-name search, 25 Sep 2026).",
+   "citationRefs": [
+    "ae-ede-register"
+   ],
+   "status": "verified",
+   "reviewNote": "primary source quote: \"Showing 0–0 of 0 results … No products match your filters.\"",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-17",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "substance",
+   "subject": "PTD-DBM",
+   "substanceStatus": "not-authorised",
+   "text": "In the UAE, no registered product matching 'PTD-DBM', 'PTD' or 'DBM' was found in the EDE register (ingredient and product-name search, 25 Sep 2026).",
+   "citationRefs": [
+    "ae-ede-register"
+   ],
+   "status": "verified",
+   "reviewNote": "primary source quote: \"Showing 0–0 of 0 results … No products match your filters.\"",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-18",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "substance",
+   "subject": "GHK-Cu",
+   "substanceStatus": "not-authorised",
+   "text": "In the UAE, no registered medical product matching 'GHK', 'prezatide', 'copper tripeptide' or 'copper peptide' was found in the EDE register (25 Sep 2026); the register does not cover ordinary cosmetics, so copper-peptide cosmetics were not checked.",
+   "citationRefs": [
+    "ae-ede-register"
+   ],
+   "status": "verified",
+   "reviewNote": "primary source quote: \"Showing 0–0 of 0 results … No products match your filters.\"",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-19",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "substance",
+   "subject": "Melanotan II / melanotan",
+   "substanceStatus": "not-authorised",
+   "text": "In Abu Dhabi, the Department of Health (Circular 112/2025, 2 July 2025), relaying an EDE warning on Melanotan II ('Barbie drug'), requires facilities to prohibit its importation, distribution, marketing or use; no melanotan product was found in the EDE register (25 Sep 2026).",
+   "citationRefs": [
+    "ae-doh-cir-112-2025",
+    "ae-ede-register"
+   ],
+   "status": "verified",
+   "reviewNote": "primary source quote: \"The Department of Health (DoH) would like to bring to your attention the warning issued by the Emirates Drug Establishment (EDE) on serious safety concerns regarding the use of pharmaceutical Melanotan II \"Barbie Drug\". … Based on the above, the DoH requires the following actions to be taken: 1. Prohibit importation, distribution, marketing, or use of the above-mentioned product.\"",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-20",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "substance",
+   "subject": "baricitinib (Olumiant)",
+   "substanceStatus": "authorised",
+   "text": "In the UAE, baricitinib is registered as Olumiant 2 mg and 4 mg tablets (since 8 Jun 2017), Prescription Only; the register files it under rheumatic diseases and does not show whether alopecia areata is an approved UAE indication.",
+   "citationRefs": [
+    "ae-ede-reg-olumiant"
+   ],
+   "status": "verified",
+   "reviewNote": "primary source quote: \"olumiant™ 2 mg … Dispensing mode Prescription Only Medicine (POM) … Registration date 2017-06-08 Description MUSCULOSKELETAL ,JOINT DISEASES-RHEUMATIC DISEASES , GOUT … Ingredients Baricitinib 2 mg/tablet\"",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-21",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "substance",
+   "subject": "minoxidil",
+   "substanceStatus": "authorised",
+   "text": "In the UAE, topical minoxidil is registered (17 active entries, e.g. Regaine 5% solution since 28 Apr 1997, a Pharmacist Only Medicine; EDE register, 25 Sep 2026).",
+   "citationRefs": [
+    "ae-ede-reg-regaine",
+    "ae-ede-register"
+   ],
+   "status": "verified",
+   "reviewNote": "primary source quote: \"Regaine® 5% … Dispensing mode Pharmacist Only Medicine (Ph-OM) … Registration date 1997-04-28 Description SKIN-SHAMPOO , OTHER SCALP PREPARATIONS … Ingredients Minoxidil 5% (50mg / ml)\"",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-22",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "substance",
+   "subject": "minoxidil (oral)",
+   "substanceStatus": "not-authorised",
+   "text": "In the UAE, no oral minoxidil product was found in the EDE register: all 17 active minoxidil entries are topical solutions, foam or gel, and name searches for 'Loniten' and 'Minoxidil tablet' returned nothing (25 Sep 2026).",
+   "citationRefs": [
+    "ae-ede-register"
+   ],
+   "status": "verified",
+   "reviewNote": "primary source quote: \"Showing 1–17 of 17 results … ALOPEXY ® 5% | Conventional Medicines | 5% | Solution … Hairgaine ® GEL | Conventional Medicines | 2%w/w | Gel … Regaine® | Conventional Medicines | 5% w/w [50mg / g] | Foam (aerosol)\"",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-23",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "substance",
+   "subject": "finasteride",
+   "substanceStatus": "authorised",
+   "text": "In the UAE, oral finasteride is registered, e.g. Propecia 1 mg (since 14 Jan 2003) and Proscar 5 mg (since 25 Mar 1993), with generics; Propecia is a Prescription Only Medicine (EDE register, 25 Sep 2026).",
+   "citationRefs": [
+    "ae-ede-reg-propecia",
+    "ae-ede-register"
+   ],
+   "status": "verified",
+   "reviewNote": "primary source quote: \"Propecia ®1mg … Dispensing mode Prescription Only Medicine (POM) … Registration date 2003-01-14 Description ENDOCRINE SYSTEM-SEX HORMONES … Ingredients Finasteride 1mg / Tablet\"",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-24",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "substance",
+   "subject": "finasteride (topical)",
+   "substanceStatus": "authorised",
+   "text": "In the UAE, a topical finasteride spray, Fincrezo 2.275 mg/ml, has been registered since 24 Mar 2025 as a Prescription Only Medicine (EDE register, 25 Sep 2026).",
+   "citationRefs": [
+    "ae-ede-reg-fincrezo"
+   ],
+   "status": "verified",
+   "reviewNote": "primary source quote: \"Fincrezo® 2.275 mg/ml … Form Spray … Dispensing mode Prescription Only Medicine (POM) Country of origin Saudi Arabia Registration date 2025-03-24 … Ingredients Finasteride [Ph. Eur.] 2.275 mg/ml\"",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-25",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "substance",
+   "subject": "somatropin (growth hormone)",
+   "substanceStatus": "authorised",
+   "text": "In the UAE, somatropin is registered as Genotropin (since 13 Sep 2017), Norditropin FlexPro (10 Oct 2004), Omnitrope (4 May 2014) and Saizen (30 Jun 2013), and every somatropin entry is dispensed as a Semi Controlled Drug (SCD) (EDE register, 25 Sep 2026).",
+   "citationRefs": [
+    "ae-ede-reg-genotropin",
+    "ae-ede-register"
+   ],
+   "status": "verified",
+   "reviewNote": "primary source quote: \"Genotropin® 12 mg GoQuick® … Classification Biological Medicines Dispensing mode Semi Controlled Drug-SCD … Registration date 2017-09-13\"",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-26",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "substance",
+   "subject": "somatropin (growth hormone)",
+   "substanceStatus": "controlled",
+   "text": "In the UAE, somatropin is on the federal list of semi-controlled medical products (MOHAP Ministerial Decision 306/2023, signed 24 Oct 2023), alongside the anabolic steroids mesterolone, parenteral nandrolone, stanozolol and oral or parenteral testosterone.",
+   "citationRefs": [
+    "ae-mohap-md-306-2023"
+   ],
+   "status": "verified",
+   "reviewNote": "verbatim quote kept in jurisdictions/AE.json (the source's terms allow citation, not republication)",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-27",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "substance",
+   "subject": "tretinoin (topical)",
+   "substanceStatus": "authorised",
+   "text": "In the UAE, topical tretinoin is registered as Prescription Only creams and gels, e.g. Acretin 0.025% cream (since 27 Aug 2002, filed under 'SKIN-ACNE'); the register gives no indications, so a photoageing indication was not verified (25 Sep 2026).",
+   "citationRefs": [
+    "ae-ede-reg-acretin",
+    "ae-ede-register"
+   ],
+   "status": "verified",
+   "reviewNote": "primary source quote: \"Acretin™ 0.025% … Dispensing mode Prescription Only Medicine (POM) … Registration date 2002-08-27 Description SKIN-ACNE … Ingredients Tretinoin 0.025%\"",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-28",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "substance",
+   "subject": "tretinoin (oral), isotretinoin, acitretin",
+   "substanceStatus": "controlled",
+   "text": "In the UAE, oral tretinoin, oral isotretinoin and acitretin are semi-controlled drugs, while topical preparations of listed actives stay Prescription Only unless stated otherwise (MOHAP Ministerial Decision 306/2023).",
+   "citationRefs": [
+    "ae-mohap-md-306-2023"
+   ],
+   "status": "verified",
+   "reviewNote": "verbatim quote kept in jurisdictions/AE.json (the source's terms allow citation, not republication)",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-29",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "substance",
+   "subject": "estradiol / menopausal hormone therapy",
+   "substanceStatus": "authorised",
+   "text": "In the UAE, estradiol products for menopausal hormone therapy are registered as Prescription Only Medicines, e.g. Oestrogel 0.06% gel (since 11 Nov 2021) and Femoston tablets; the register gives therapeutic categories only, so whether any UAE label includes a skin indication was not verified (25 Sep 2026).",
+   "citationRefs": [
+    "ae-ede-reg-oestrogel",
+    "ae-ede-register"
+   ],
+   "status": "verified",
+   "reviewNote": "primary source quote: \"Oestrogel 0.06% … Form Gel … Dispensing mode Prescription Only Medicine (POM) … Registration date 2021-11-11 Description OBSTETRICS,GYNAECOLOGY,URINARY-TRACT-GENITO-URINARY DISORDERS, REPRODUCTIVE SYSTEM-SEX HORMONES\"",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-30",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "substance",
+   "subject": "oral collagen",
+   "substanceStatus": "authorised",
+   "text": "In the UAE, oral collagen products are registered with the EDE as general-sale-list (GSL) health products rather than medicines, e.g. Collafix for Skin & Hair Health (bovine hydrolysed collagen, since 31 Aug 2023, pharmacy-only) and Centrum Skin, Hair & Nails (since 28 Apr 2025, general sale).",
+   "citationRefs": [
+    "ae-ede-reg-collafix",
+    "ae-ede-reg-centrum-shn",
+    "ae-ede-register"
+   ],
+   "status": "verified",
+   "reviewNote": "primary source quote: \"Collafix® for Skin & Hair Health … Classification GSL Products Dispensing mode Pharmacy Only (P) … Registration date 2023-08-31 … Ingredients Bovine Hydrolyzed Collagen 5000mg/Ampoule\"",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-31",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "substance",
+   "subject": "orforglipron (Foundayo)",
+   "substanceStatus": "authorised",
+   "text": "In the UAE, the EDE approved Foundayo (orforglipron), an oral GLP-1 receptor agonist for chronic weight management, announcing it on 3 April 2026 as the second country to register it.",
+   "citationRefs": [
+    "ae-ede-news-orforglipron"
+   ],
+   "status": "verified",
+   "reviewNote": "verbatim quote kept in jurisdictions/AE.json (the source's terms allow citation, not republication)",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-32",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "substance",
+   "subject": "upadacitinib (Rinvoq)",
+   "substanceStatus": "authorised",
+   "text": "In the UAE, the EDE approved upadacitinib (Rinvoq) for non-segmental vitiligo in adults and adolescents aged 12 and over who need systemic therapy, announcing it on 17 Aug 2026 as the first country to approve this use.",
+   "citationRefs": [
+    "ae-ede-news-rinvoq-vitiligo"
+   ],
+   "status": "verified",
+   "reviewNote": "verbatim quote kept in jurisdictions/AE.json (the source's terms allow citation, not republication)",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-33",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "substance",
+   "subject": "ritlecitinib (Litfulo)",
+   "substanceStatus": "authorised",
+   "text": "In the UAE, ritlecitinib is registered as Litfulo 50 mg capsules (since 13 Dec 2023; EDE register, 25 Sep 2026); the register does not show its indication.",
+   "citationRefs": [
+    "ae-ede-register"
+   ],
+   "status": "verified",
+   "reviewNote": "primary source quote: \"Litfulo® 50 mg | Conventional Medicines | 50 mg/ Capsule | Capsule | Pfizer Manufacturing Deutschland GmbH (PMD), Germany, Freiburg im Breisgau | BELGIUM | Active | 13 Dec 2023\"",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-34",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "framework",
+   "subject": "unlicensed",
+   "text": "In the UAE, the Emirates Drug Establishment (EDE; 'UAE Drug Corporation' in the official English translation) has been the federal authority regulating medical products since Federal Decree-Law 28/2023 (issued 25 Sep 2023, in force 30 Sep 2023), with the power to approve and register medical products.",
+   "citationRefs": [
+    "ae-fdl-28-2023"
+   ],
+   "status": "verified",
+   "reviewNote": "primary source quote: \"The Corporation shall be the federal authority responsible for regulating medical products in the State. To this end, the corporation shall be entitled to the following: … 7. Approve and register medical products and supervise them in accordance with the relevant legislations;\"",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-35",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "framework",
+   "subject": "unlicensed",
+   "text": "In the UAE, the EDE succeeded the Ministry of Health and Prevention (MOHAP) in regulating medical products, and the 2023 law let the Cabinet keep MOHAP exercising these powers until the EDE carried out all its operations (Federal Decree-Law 28/2023, Arts. 15-16).",
+   "citationRefs": [
+    "ae-fdl-28-2023"
+   ],
+   "status": "verified",
+   "reviewNote": "primary source quote: \"The Corporation shall succeed the Ministry of Health and Prevention and the Ministry of Climate Change and Environment in all rights, obligations, and legal matters pertaining to the regulation and management of medical products. … the Cabinet may assign the Ministry of Health and Prevention and the Ministry of Climate Change and Environment or any other entity to exercise the competences stipulated herein until the Corporation carries out all its operations.\"",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-36",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "framework",
+   "subject": "unlicensed",
+   "text": "In the UAE, since 2 January 2025 (Federal Decree-Law 38/2024, which replaced Federal Law 8/2019), no medical product may be imported, distributed, possessed, sold, displayed, used or manufactured for circulation without an EDE marketing approval.",
+   "citationRefs": [
+    "ae-fdl-38-2024"
+   ],
+   "status": "verified",
+   "reviewNote": "primary source quote: \"Without prejudice to the applicable legislation concerning veterinary preparations, it is not permitted to import, distribute, possess, sell, display, re-market, use, or manufacture any Medical Product in the State for circulation therein, except after obtaining Marketing Approval of any type from the EDE.\"",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-37",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "framework",
+   "subject": "unlicensed",
+   "text": "In the UAE, physicians may prescribe a medicine for uses not in its leaflet, or a medicine never submitted for marketing approval, only when necessary, when no equivalent alternative is available and with the patient's approval; compassionate use is excluded from this rule (Federal Decree-Law 38/2024, Art. 42(1)).",
+   "citationRefs": [
+    "ae-fdl-38-2024"
+   ],
+   "status": "verified",
+   "reviewNote": "primary source quote: \"Physicians may not prescribe a Medical Product for new uses not specified in the internal leaflet or electronic leaflet, or prescribe a Medical Product that has not been submitted for Marketing Approval, except when necessary, provided that there is no equivalent alternative available and with the patient approval. The compassionate use of the Medical Product is excluded from the provisions of this Clause.\"",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-38",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "framework",
+   "subject": "unlicensed",
+   "text": "In the UAE, only pharmaceutical establishments may import, market, sell, display or store prescription-only medicines (Federal Decree-Law 38/2024, Art. 40).",
+   "citationRefs": [
+    "ae-fdl-38-2024"
+   ],
+   "status": "verified",
+   "reviewNote": "primary source quote: \"Non-Pharmaceutical Establishments are prohibited from importing, marketing, selling, displaying, storing or circulation any Medical Product that requires a prescription for dispensing.\"",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-39",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "framework",
+   "subject": "unlicensed",
+   "text": "In Dubai, the DHA prohibits circulating, prescribing, dispensing, administering or using any peptide product unless it is registered or licensed with the EDE and used within the scope of its licence, and requires registered peptide products to be used strictly within their approved indications (External Circular 0867, 29 July 2026).",
+   "citationRefs": [
+    "ae-dha-cir-peptides-2026"
+   ],
+   "status": "verified",
+   "reviewNote": "verbatim quote kept in jurisdictions/AE.json (the source's terms allow citation, not republication)",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-40",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "framework",
+   "subject": "compounding",
+   "text": "In the UAE, medical products compounded in licensed compounding pharmacies are exempt from the marketing-approval requirement (Federal Decree-Law 38/2024, Art. 5(2), in force 2 Jan 2025).",
+   "citationRefs": [
+    "ae-fdl-38-2024"
+   ],
+   "status": "verified",
+   "reviewNote": "primary source quote: \"As an exception to Clause (1) of this Article, all categories of Medical Products that are compounded in licensed compounding pharmacies are exempt from the requirement to obtain Marketing Approval.\"",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-41",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "framework",
+   "subject": "compounding",
+   "text": "In the UAE, a compounding pharmacy may not compound essential copies of products holding an EDE marketing approval unless no commercially available product can deliver the expected benefit to the patient, and may not formulate products intended for research, development or experimentation (Federal Decree-Law 38/2024, Art. 95).",
+   "citationRefs": [
+    "ae-fdl-38-2024"
+   ],
+   "status": "verified",
+   "reviewNote": "primary source quote: \"The Compound Pharmacy is prohibited from the following: … 4. Commencing the installation of Medical Products that are essentially copies of Medical Products that have a valid Marketing Approval from the EDE, unless there is no commercially available Medical Product that can achieve the expected direct benefit to the patient health, and similar results could not be obtained by other means. 5. Compounding Pharmacies may not conduct any activities related to improvised, unstudied formulations or the extraction process of medicines and preparations derived from natural sources, and it is not permitted to formulate a Medical Product prepared for research, development or experimentation.\"",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-42",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "framework",
+   "subject": "compounding",
+   "text": "In Abu Dhabi, the DoH Standard for Provision of Compounding Pharmacy Services (August 2026) allows compounding only for a genuine, documented clinical need that no suitable licensed product meets, and bars copying commercially available products for convenience or cost or introducing experimental or unverified products.",
+   "citationRefs": [
+    "ae-doh-compounding-std-2026"
+   ],
+   "status": "verified",
+   "reviewNote": "verbatim quote kept in jurisdictions/AE.json (the source's terms allow citation, not republication)",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-43",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "framework",
+   "subject": "compounding",
+   "text": "In Abu Dhabi, compounding requires a Good Compounding Practice (GCP) certificate issued by the EDE, and compounding from unapproved or unknown-source substances, or from substances not on the DoH Registry for Compounded Substances, is prohibited unless the DoH permits it (DoH compounding standard, August 2026).",
+   "citationRefs": [
+    "ae-doh-compounding-std-2026"
+   ],
+   "status": "verified",
+   "reviewNote": "verbatim quote kept in jurisdictions/AE.json (the source's terms allow citation, not republication)",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-44",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "framework",
+   "subject": "compounding",
+   "text": "In Abu Dhabi, the DoH treats peptides as emerging, non-monographed, high-risk substances: novel substances of unknown risk may be compounded only if monographed, a component of an approved medicine, or listed on the DoH Registry for Compounded Substances (DoH compounding standard, August 2026).",
+   "citationRefs": [
+    "ae-doh-compounding-std-2026"
+   ],
+   "status": "verified",
+   "reviewNote": "verbatim quote kept in jurisdictions/AE.json (the source's terms allow citation, not republication)",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-45",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "framework",
+   "subject": "compounding",
+   "text": "In Abu Dhabi, where emerging substances such as peptides are permitted, prescribing is limited to eligible facilities and credentialed prescribers for accepted indications, office-stock ordering to hospitals and DoH-approved specialty clinics, and compounding pharmacies must dispense only against individual prescriptions (DoH compounding standard, August 2026).",
+   "citationRefs": [
+    "ae-doh-compounding-std-2026"
+   ],
+   "status": "verified",
+   "reviewNote": "verbatim quote kept in jurisdictions/AE.json (the source's terms allow citation, not republication)",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-46",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "framework",
+   "subject": "compounding",
+   "text": "In Abu Dhabi, compounded peptide formulations may use only certified active ingredients imported under EDE oversight, clinics must hold technical agreements with licensed compounding pharmacies, and peptide products must be traceable from source to patient (DoH Circular 148/2026, 31 July 2026).",
+   "citationRefs": [
+    "ae-doh-cir-148-2026"
+   ],
+   "status": "verified",
+   "reviewNote": "verbatim quote kept in jurisdictions/AE.json (the source's terms allow citation, not republication)",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-47",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "framework",
+   "subject": "research-use-only",
+   "text": "In Dubai, the DHA prohibits using any peptide product intended for research use on humans or for therapeutic purposes outside a study or clinical trial approved by the competent authority (External Circular 0867, 29 July 2026).",
+   "citationRefs": [
+    "ae-dha-cir-peptides-2026"
+   ],
+   "status": "verified",
+   "reviewNote": "verbatim quote kept in jurisdictions/AE.json (the source's terms allow citation, not republication)",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-48",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "framework",
+   "subject": "import",
+   "text": "In the UAE, importing any medical product, or the raw materials used to make it, requires an EDE approval or permit (Federal Decree-Law 38/2024, Art. 31).",
+   "citationRefs": [
+    "ae-fdl-38-2024"
+   ],
+   "status": "verified",
+   "reviewNote": "primary source quote: \"It is not permitted to import, export or re-export any Medical Product or any raw materials or pharmaceutical raw materials used in its manufacture except after obtaining approval or permit from the EDE.\"",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-49",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "framework",
+   "subject": "import",
+   "text": "In the UAE, the conditions for bringing a medicine in for personal use, carried by a traveller or sent by express courier, are set by executive regulation (Federal Decree-Law 38/2024, Art. 35); the 2021 executive regulation sets them in its Annex 1 (Cabinet Resolution 90/2021, Art. 4).",
+   "citationRefs": [
+    "ae-fdl-38-2024",
+    "ae-cr-90-2021"
+   ],
+   "status": "verified",
+   "reviewNote": "primary source quote: \"The Executive Regulations of this Decree-Law shall specify the conditions, rules and controls for bringing, possessing or obtaining a Medical Product with any person upon entering or leaving the State for personal use, or bringing or sending the Medical Product through express shipping institutions.\"",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-50",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "framework",
+   "subject": "import",
+   "text": "In the UAE, the EDE lets travellers bring medicines that are not narcotic or psychotropic without prior submission; narcotic and psychotropic (controlled) medicines may be carried within three months' need with a prescription or medical report, and residents can obtain EDE approval to import such medicines for personal use through shipping companies (EDE personal-import service, read 25 Sep 2026).",
+   "citationRefs": [
+    "ae-ede-svc-personal-import"
+   ],
+   "status": "verified",
+   "reviewNote": "verbatim quote kept in jurisdictions/AE.json (the source's terms allow citation, not republication)",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-51",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "framework",
+   "subject": "import",
+   "text": "In Dubai, facilities may not buy, accept or use peptide products from websites, social media, individual accounts or unlicensed or unverifiable suppliers, and products without full identification data (active substance, concentration, batch, expiry) may not be used (DHA External Circular 0867, 29 July 2026).",
+   "citationRefs": [
+    "ae-dha-cir-peptides-2026"
+   ],
+   "status": "verified",
+   "reviewNote": "verbatim quote kept in jurisdictions/AE.json (the source's terms allow citation, not republication)",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-52",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "framework",
+   "subject": "import",
+   "text": "In Abu Dhabi, prescription-only medicines may not be sold or dispensed through websites or delivery apps unless a valid prescription from a licensed practitioner has been verified, and online delivery needs prior DoH approval (Circular 152/2026, 5 Aug 2026).",
+   "citationRefs": [
+    "ae-doh-cir-152-2026"
+   ],
+   "status": "verified",
+   "reviewNote": "verbatim quote kept in jurisdictions/AE.json (the source's terms allow citation, not republication)",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-53",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "framework",
+   "subject": "cosmetics",
+   "text": "In the UAE, Federal Decree-Law 38/2024 brings cosmetics with a medical effect on the skin, hair or nails within its definition of medical products regulated by the EDE.",
+   "citationRefs": [
+    "ae-fdl-38-2024"
+   ],
+   "status": "verified",
+   "reviewNote": "primary source quote: \"Cosmetics: Products with a medical effect that are used on the human body to produce a desired local effect on the skin, hair or nails and do not require a prescription or direct medical supervision for their sale when used.\"",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-54",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "framework",
+   "subject": "cosmetics",
+   "text": "In the UAE, the EDE registers 'healthcare products' not intended to diagnose, treat or prevent disease, including dietary supplements, herbal products and cosmetics with a medical effect, through a marketing authorisation valid for five years (EDE service page, read 25 Sep 2026).",
+   "citationRefs": [
+    "ae-ede-svc-healthcare-product"
+   ],
+   "status": "verified",
+   "reviewNote": "verbatim quote kept in jurisdictions/AE.json (the source's terms allow citation, not republication)",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-55",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "framework",
+   "subject": "cosmetics",
+   "text": "In the UAE, whether a borderline product (for example a peptide serum) needs an EDE marketing authorisation, and in which category, is settled by an EDE classification letter based on the product's presentation, composition, use and design (EDE service page, read 25 Sep 2026).",
+   "citationRefs": [
+    "ae-ede-svc-classification"
+   ],
+   "status": "verified",
+   "reviewNote": "verbatim quote kept in jurisdictions/AE.json (the source's terms allow citation, not republication)",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-56",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "framework",
+   "subject": "cosmetics",
+   "text": "In the UAE, ordinary cosmetics and personal-care products are a MoIAT-regulated product category under Cabinet Resolution 18/2014 (the UAE control system for cosmetics and personal care products), needing a conformity certificate backed by accredited test reports, a formula declaration and a product safety report.",
+   "citationRefs": [
+    "ae-moiat-regulated-products",
+    "ae-moiat-ecas-service"
+   ],
+   "status": "verified",
+   "reviewNote": "primary source quote: \"Test Report from accredited and recognized laboratory according to Gulf standard, UAE.S GSO 1943 … Formula Declaration with ingredients and percentage issued by the manufacturer. … Cosmetics and personal care … قرار مجلس الوزراء رقم (18) لسنة 2014 … النظام الإماراتي للرقابة على مستحضرات التجميل والعناية الشخصية … Product safety report according to Annex No. 3 of the cabinet resolution No. 18 of 2014\" (English: \"Test Report from accredited and recognized laboratory according to Gulf standard, UAE.S GSO 1943 … Formula Declaration with ingredients and percentage issued by the manufacturer. … Cosmetics and personal care … Cabinet Resolution No. (18) of 2014 … UAE system for the control of cosmetics and personal care products … Product safety report according to Annex No. 3 of the cabinet resolution No. 18 of 2014\")",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-57",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "framework",
+   "subject": "cosmetics",
+   "text": "In the UAE, some topical peptide products with a hair or skin claim are registered by the EDE as general-sale-list (GSL) health products rather than medicines, e.g. Martiderm Anti Hair-Loss Ampoules containing biotinoyl tripeptide-1 (registered 24 Aug 2022, pharmacy-only) (EDE register, 25 Sep 2026).",
+   "citationRefs": [
+    "ae-ede-reg-martiderm",
+    "ae-ede-register"
+   ],
+   "status": "verified",
+   "reviewNote": "primary source quote: \"MARTIDERM ANTI HAIR-LOSS AMPOULES … Classification GSL Products Dispensing mode Pharmacy Only (P) Country of origin Spain Registration date 2022-08-24 … Biotinoyl Tripeptide-1 0.000600\"",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-58",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "framework",
+   "subject": "cosmetics",
+   "text": "In Dubai, Dubai Municipality evaluates, registers, releases and monitors cosmetic products on the market, with registration through its Montaji+ platform (DM, 27 Oct 2025).",
+   "citationRefs": [
+    "ae-dm-beautyworld-2025"
+   ],
+   "status": "verified",
+   "reviewNote": "primary source quote: \"Through its presence, the Municipality is highlighting its comprehensive role in overseeing the evaluation, registration, release, and post-market monitoring of cosmetic products in the emirate. Central to its exhibition is Montaji+ , the Municipality’s upgraded digital platform that integrates artificial intelligence to streamline product registration\"",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-59",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "framework",
+   "subject": "cosmetics",
+   "text": "In Abu Dhabi, the DoH classes topical cosmetic peptides with no systemic effect as low-risk products that stay under existing regulatory pathways, while systemic, regenerative or weakly evidenced peptides face enhanced controls (Circular 148/2026, 31 July 2026).",
+   "citationRefs": [
+    "ae-doh-cir-148-2026"
+   ],
+   "status": "verified",
+   "reviewNote": "verbatim quote kept in jurisdictions/AE.json (the source's terms allow citation, not republication)",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-60",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "framework",
+   "subject": "supplements",
+   "text": "In the UAE, food supplements are medical products under Federal Decree-Law 38/2024, defined as oral products that support the diet and do not treat, diagnose or prevent disease.",
+   "citationRefs": [
+    "ae-fdl-38-2024"
+   ],
+   "status": "verified",
+   "reviewNote": "primary source quote: \"Food Supplements: Products taken orally that support the human diet and do not treat, diagnose, or prevent diseases. They consist of natural or partially manufactured products, or both, and do not require a prescription or direct medical supervision when used.\"",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-61",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "framework",
+   "subject": "supplements",
+   "text": "In the UAE, a company registering a healthcare product such as a supplement with the EDE must declare it free of hormones, steroids, antibiotics, heavy metals and pig derivatives (EDE healthcare-product requirements, read 25 Sep 2026).",
+   "citationRefs": [
+    "ae-ede-svc-healthcare-product"
+   ],
+   "status": "verified",
+   "reviewNote": "verbatim quote kept in jurisdictions/AE.json (the source's terms allow citation, not republication)",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-62",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "framework",
+   "subject": "supplements",
+   "text": "In Abu Dhabi, the DoH keeps a list of adulterated or contaminated supplements claimed for bodybuilding, sexual enhancement, weight reduction or cosmetic uses (DoH awareness page, read 25 Sep 2026).",
+   "citationRefs": [
+    "ae-doh-supplements-page"
+   ],
+   "status": "verified",
+   "reviewNote": "verbatim quote kept in jurisdictions/AE.json (the source's terms allow citation, not republication)",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-63",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "framework",
+   "subject": "advertising",
+   "text": "In the UAE, advertising or promoting any medical product by any means, including social media, requires EDE approval, and advertising controlled or semi-controlled products to the public is prohibited (Federal Decree-Law 38/2024, Art. 44).",
+   "citationRefs": [
+    "ae-fdl-38-2024"
+   ],
+   "status": "verified",
+   "reviewNote": "primary source quote: \"1. It is prohibited to advertise, publicize or promote Medical Products by any means, whether visual, written, audible or on social media, unless approved by the EDE. 2. Advertising, publicity or promotion to the public of controlled, semi-controlled, hazardous or toxic chemical precursors, products or substances, whether for human or veterinary use, is prohibited.\"",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-64",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "framework",
+   "subject": "advertising",
+   "text": "In the UAE, an EDE licence to advertise a medical product requires a valid EDE marketing authorisation for the product (only products exempted by the Cabinet under Art. 5(3) of Federal Decree-Law 38/2024 are excused), a licensed pharmaceutical or healthcare establishment as applicant, and truthful, evidence-based content matching the approved indications (EDE service page, read 25 Sep 2026).",
+   "citationRefs": [
+    "ae-ede-svc-advert"
+   ],
+   "status": "verified",
+   "reviewNote": "verbatim quote kept in jurisdictions/AE.json (the source's terms allow citation, not republication)",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-65",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "framework",
+   "subject": "advertising",
+   "text": "In the UAE, the federal health-advertisement regulation (Cabinet Resolution 7/2007) bars anyone from advertising or promoting products presented as related to a medical product without prior authorisation, and bans terms such as 'the only', 'unique' and 'best product'.",
+   "citationRefs": [
+    "ae-cr-7-2007"
+   ],
+   "status": "verified",
+   "reviewNote": "primary source quote: \"No natural or legal person may advertise or promote the sale of products related to or that are likely to make anyone believe that such an advertisement or promotion is related to any medical product without prior authorization from the Ministry of Health. … Using words like 'the only', 'unique', 'best product', 'Beware of imitation!', 'Don't miss!' must be avoided.\"",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-66",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "framework",
+   "subject": "advertising",
+   "text": "In Dubai, the DHA bans misleading or unproven peptide claims, including anti-aging, cell regeneration, weight loss, muscle building and improved appearance, unless the use is within the product's approved status, and requires any promotion of unregistered materials, including through influencers or social media, to stop (29 July 2026).",
+   "citationRefs": [
+    "ae-dha-cir-peptides-2026"
+   ],
+   "status": "verified",
+   "reviewNote": "verbatim quote kept in jurisdictions/AE.json (the source's terms allow citation, not republication)",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-67",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "framework",
+   "subject": "advertising",
+   "text": "In Dubai, DHA-licensed professionals may not advertise on social media under titles that differ from their DHA licence, such as 'Aesthetic Specialist or Consultant', 'Cosmetologist' or 'Anti-Aging Specialist or Consultant' (DHA social-media advertising standard v1.1, effective 3 Oct 2022).",
+   "citationRefs": [
+    "ae-dha-social-media-std"
+   ],
+   "status": "verified",
+   "reviewNote": "verbatim quote kept in jurisdictions/AE.json (the source's terms allow citation, not republication)",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-68",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "framework",
+   "subject": "advertising",
+   "text": "In Dubai, social-media content from professionals, influencers or staff that names a health facility must be approved by its medical director, and absolute claims such as 'safest', 'magic', 'miraculous', '100%', 'has no side effects' or 'immediate results' must not be used (DHA social-media advertising standard v1.1).",
+   "citationRefs": [
+    "ae-dha-social-media-std"
+   ],
+   "status": "verified",
+   "reviewNote": "verbatim quote kept in jurisdictions/AE.json (the source's terms allow citation, not republication)",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-69",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "framework",
+   "subject": "advertising",
+   "text": "In Dubai, the DHA recirculated its social-media advertising standard to all licensed private facilities and professionals on 17 Aug 2026, warning that non-compliance will lead to disciplinary action.",
+   "citationRefs": [
+    "ae-dha-cir-social-2026"
+   ],
+   "status": "verified",
+   "reviewNote": "verbatim quote kept in jurisdictions/AE.json (the source's terms allow citation, not republication)",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-70",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "framework",
+   "subject": "advertising",
+   "text": "In Abu Dhabi, healthcare providers may not promote peptide therapies with misleading or unsubstantiated claims, or advertise, market or publish media content about them without prior approval from the DoH and relevant authorities (Circular 148/2026, 31 July 2026).",
+   "citationRefs": [
+    "ae-doh-cir-148-2026"
+   ],
+   "status": "verified",
+   "reviewNote": "verbatim quote kept in jurisdictions/AE.json (the source's terms allow citation, not republication)",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-71",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "framework",
+   "subject": "advertising",
+   "text": "In Abu Dhabi, emerging and non-monographed compounded substances such as peptides may not be advertised, promoted or marketed, directly or indirectly, to patients or healthcare professionals (DoH compounding standard, August 2026).",
+   "citationRefs": [
+    "ae-doh-compounding-std-2026"
+   ],
+   "status": "verified",
+   "reviewNote": "verbatim quote kept in jurisdictions/AE.json (the source's terms allow citation, not republication)",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-72",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "framework",
+   "subject": "advertising",
+   "text": "In Abu Dhabi, health advertisements, including press releases, are submitted for DoH approval through the health-advertisement registration service on the TAMM platform under DoH Chairman Resolution 37/2019 (Health Media & Advertising Regulations) (Circular 69/2026, 29 Apr 2026).",
+   "citationRefs": [
+    "ae-doh-cir-69-2026"
+   ],
+   "status": "verified",
+   "reviewNote": "verbatim quote kept in jurisdictions/AE.json (the source's terms allow citation, not republication)",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-73",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "framework",
+   "subject": "controlled",
+   "text": "In the UAE, injectable and oral testosterone, parenteral nandrolone, stanozolol, mesterolone and somatropin are semi-controlled drugs (SCD) under MOHAP Ministerial Decision 306/2023 (signed 24 Oct 2023), while topical forms of listed actives stay Prescription Only unless stated otherwise.",
+   "citationRefs": [
+    "ae-mohap-md-306-2023"
+   ],
+   "status": "verified",
+   "reviewNote": "verbatim quote kept in jurisdictions/AE.json (the source's terms allow citation, not republication)",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-74",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "framework",
+   "subject": "controlled",
+   "text": "In the UAE, the EDE register lists injectable testosterone (e.g. Nebido, Sustanon 250) and injectable nandrolone (Deca-Durabolin) as Semi Controlled Drugs, while testosterone gel (Androgel 16.2 mg/g) is Prescription Only (25 Sep 2026).",
+   "citationRefs": [
+    "ae-ede-reg-nebido",
+    "ae-ede-register"
+   ],
+   "status": "verified",
+   "reviewNote": "primary source quote: \"NEBIDO® … Dispensing mode Semi Controlled Drug-SCD … Registration date 2013-12-15 Description ENDOCRINE SYSTEM-SEX HORMONES … Ingredients Testosterone undecanoate 250 mg equivalent to 157.9 mg of Testosterone Base\"",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-75",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "framework",
+   "subject": "controlled",
+   "text": "In the UAE, 'narcotics' and 'psychotropic substances' are legally those listed in Schedules 1-4 and 5-8 of Federal Decree-Law 30/2021 (in force 2 Jan 2022); growth hormone and anabolic steroids are handled as semi-controlled medical products under the medical-products framework.",
+   "citationRefs": [
+    "ae-fdl-30-2021",
+    "ae-mohap-md-306-2023"
+   ],
+   "status": "verified",
+   "reviewNote": "primary source quote: \"Narcotics: Any natural or synthetic substance listed in Schedules (1), (2), (3), and (4) annexed to this Decree by Law. … Psychotropic Substances: Any natural or synthetic substance listed in Schedules (5), (6), (7), and (8) annexed to this Decree by Law.\"",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-76",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "framework",
+   "subject": "controlled",
+   "text": "In the UAE, somatropin, testosterone, nandrolone, stanozolol and other anabolic steroids do not appear on the EDE's list of narcotic, psychotropic and controlled (CD) medicines for travellers (updated 15 Sep 2022; text search 25 Sep 2026), which warns that unlisted substances may still be covered by the law.",
+   "citationRefs": [
+    "ae-ede-controlled-list"
+   ],
+   "status": "verified",
+   "reviewNote": "verbatim quote kept in jurisdictions/AE.json (the source's terms allow citation, not republication)",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-77",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "framework",
+   "subject": "professional",
+   "text": "In the UAE, healthcare professionals may not prescribe or advise any medical product for personal gain, and licensed health professionals other than pharmacists may not sell any medical product, directly or indirectly, without approval from the Ministry or the competent health authority in coordination with the EDE (Federal Decree-Law 38/2024, Art. 42).",
+   "citationRefs": [
+    "ae-fdl-38-2024"
+   ],
+   "status": "verified",
+   "reviewNote": "primary source quote: \"3. Healthcare professionals are prohibited from prescribing or advising any Medical Product for personal gain. … 5. Licensed health professionals other than Pharmacists are prohibited from selling any Medical Product directly or indirectly except after obtaining the approval of the Ministry or the Competent Health Authority in coordination with the EDE.\"",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-78",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "framework",
+   "subject": "professional",
+   "text": "In Dubai, peptide products may be prescribed, dispensed or administered only by licensed, authorised professionals in a licensed facility, and injections or IV therapies for 'wellness', 'recovery', 'detoxification' or 'energy enhancement' are not permitted without a documented medical indication and treatment plan (DHA External Circular 0867, 29 July 2026).",
+   "citationRefs": [
+    "ae-dha-cir-peptides-2026"
+   ],
+   "status": "verified",
+   "reviewNote": "verbatim quote kept in jurisdictions/AE.json (the source's terms allow citation, not republication)",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-79",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "framework",
+   "subject": "professional",
+   "text": "In Abu Dhabi, physicians may prescribe peptide therapies only for clinical indications supported by available scientific evidence, after a documented eligibility assessment and with informed consent that covers benefits, uncertainties, risks, alternatives and the product's regulatory approval status (DoH Circular 148/2026, 31 July 2026).",
+   "citationRefs": [
+    "ae-doh-cir-148-2026"
+   ],
+   "status": "verified",
+   "reviewNote": "verbatim quote kept in jurisdictions/AE.json (the source's terms allow citation, not republication)",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-80",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "framework",
+   "subject": "professional",
+   "text": "In Abu Dhabi, the DoH has announced further peptide rules: competency criteria for physicians prescribing peptide therapies and pre-authorisation for specific moderate- to high-risk peptide therapies (Circular 148/2026, 31 July 2026).",
+   "citationRefs": [
+    "ae-doh-cir-148-2026"
+   ],
+   "status": "verified",
+   "reviewNote": "verbatim quote kept in jurisdictions/AE.json (the source's terms allow citation, not republication)",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-81",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "framework",
+   "subject": "professional",
+   "text": "In Dubai, nurses, physiotherapists and massage or beauty therapists may perform only the listed non-surgical cosmetic procedures, prescribed by a DHA-licensed consultant or specialist dermatologist or plastic surgeon (Standards for Non-Surgical Cosmetic Procedures v2.1, effective 18 Feb 2025).",
+   "citationRefs": [
+    "ae-dha-nsc-std"
+   ],
+   "status": "verified",
+   "reviewNote": "verbatim quote kept in jurisdictions/AE.json (the source's terms allow citation, not republication)",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-82",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "framework",
+   "subject": "professional",
+   "text": "In Dubai, platelet-rich plasma (PRP) injections are permitted only in the face and hair, not the body (DHA Standards for Non-Surgical Cosmetic Procedures v2.1, effective 18 Feb 2025).",
+   "citationRefs": [
+    "ae-dha-nsc-std"
+   ],
+   "status": "verified",
+   "reviewNote": "verbatim quote kept in jurisdictions/AE.json (the source's terms allow citation, not republication)",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-83",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "framework",
+   "subject": "enforcement",
+   "text": "In the UAE, trading in counterfeit, defective or expired medical products is prohibited (Federal Decree-Law 38/2024, Art. 39).",
+   "citationRefs": [
+    "ae-fdl-38-2024"
+   ],
+   "status": "verified",
+   "reviewNote": "primary source quote: \"It is prohibited to trade in counterfeit, defective or expired Medical Products.\"",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-84",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "framework",
+   "subject": "enforcement",
+   "text": "In the UAE, the EDE warned on 11 Sep 2026 (Circular 40/2026) that products marketed as containing exosomes or polydeoxyribonucleotide (PDRN) for cosmetic, regenerative or therapeutic use, including by injection, mesotherapy or microneedling, are not authorised for import, supply, sale or clinical use.",
+   "citationRefs": [
+    "ae-ede-cir-40-2026"
+   ],
+   "status": "verified",
+   "reviewNote": "verbatim quote kept in jurisdictions/AE.json (the source's terms allow citation, not republication)",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-85",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "framework",
+   "subject": "enforcement",
+   "text": "In the UAE, the EDE warned on 20 Jul 2026 (Circular 31/2026) that 1,659 packs of Mounjaro and Ozempic stolen from a German wholesaler are outside the legitimate supply chain, and told the public to buy these medicines only from licensed pharmacies.",
+   "citationRefs": [
+    "ae-ede-cir-31-2026"
+   ],
+   "status": "verified",
+   "reviewNote": "verbatim quote kept in jurisdictions/AE.json (the source's terms allow citation, not republication)",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-86",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "framework",
+   "subject": "enforcement",
+   "text": "In the UAE, MOHAP alerted facilities in October 2024 (Circular 9217/2024) to a counterfeit Mounjaro 15 mg pen pack printed in English and Arabic, in which MOHAP's quality-control laboratory could not identify tirzepatide.",
+   "citationRefs": [
+    "ae-mohap-cir-9217-2024"
+   ],
+   "status": "verified",
+   "reviewNote": "verbatim quote kept in jurisdictions/AE.json (the source's terms allow citation, not republication)",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-87",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "framework",
+   "subject": "enforcement",
+   "text": "In Abu Dhabi, the DoH warned (Circular 10/2025) against counterfeit Ozempic and Mounjaro sold through Instagram and a website, and restated that both are prescription-only medicines.",
+   "citationRefs": [
+    "ae-doh-cir-10-2025"
+   ],
+   "status": "verified",
+   "reviewNote": "verbatim quote kept in jurisdictions/AE.json (the source's terms allow citation, not republication)",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-88",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "framework",
+   "subject": "enforcement",
+   "text": "In Abu Dhabi, the DoH warned on 16 Mar 2026 (Circular 48/2026) that counterfeit products claiming to contain GLP-1 receptor agonists are not registered with the EDE but are sold online and on social media, and that GLP-1 agonists are prescription-only.",
+   "citationRefs": [
+    "ae-doh-cir-48-2026"
+   ],
+   "status": "verified",
+   "reviewNote": "verbatim quote kept in jurisdictions/AE.json (the source's terms allow citation, not republication)",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-89",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "framework",
+   "subject": "enforcement",
+   "text": "In the UAE, the EDE warned on 5 Dec 2025 (Circular 20) of falsified 'cagrilintide' weight-loss products, stating that no legitimate supply exists and that no product labelled cagrilintide may be authorised, imported, dispensed, sold or promoted.",
+   "citationRefs": [
+    "ae-ede-cir-20-2025"
+   ],
+   "status": "verified",
+   "reviewNote": "verbatim quote kept in jurisdictions/AE.json (the source's terms allow citation, not republication)",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-90",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "framework",
+   "subject": "enforcement",
+   "text": "In the UAE, the EDE warned in December 2025 (Circular 24, circulated by DHA on 24 Dec 2025) of falsified 'orforglipron' weight-loss products sold before the medicine was approved anywhere.",
+   "citationRefs": [
+    "ae-ede-cir-24-2025"
+   ],
+   "status": "verified",
+   "reviewNote": "verbatim quote kept in jurisdictions/AE.json (the source's terms allow citation, not republication)",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-91",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "framework",
+   "subject": "enforcement",
+   "text": "In the UAE, MOHAP warned on 4 Oct 2021 (Circular 10073/2021) that glutathione injections used for skin whitening are not registered, and told facilities not to import, buy, sell or use injectable glutathione for dermatological treatment.",
+   "citationRefs": [
+    "ae-mohap-cir-10073-2021"
+   ],
+   "status": "verified",
+   "reviewNote": "verbatim quote kept in jurisdictions/AE.json (the source's terms allow citation, not republication)",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-92",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "framework",
+   "subject": "enforcement",
+   "text": "In Dubai, the DHA sent MOHAP Circular 06 of 2025 on the serious safety concerns of Melanotan II ('Barbie drug') to all private health facilities for adherence (25 Jun 2025).",
+   "citationRefs": [
+    "ae-dha-cir-melanotan-2025"
+   ],
+   "status": "verified",
+   "reviewNote": "verbatim quote kept in jurisdictions/AE.json (the source's terms allow citation, not republication)",
+   "gradeDecision": "context — regulatory status"
+  },
+  {
+   "id": "j-ae-93",
+   "unit": "jurisdictions",
+   "jurisdiction": "AE",
+   "kind": "framework",
+   "subject": "enforcement",
+   "text": "In Abu Dhabi, the DoH (Circular 112/2025, 2 Jul 2025) warned that Melanotan II is promoted online and in gyms as a fast-tanning injection or nasal spray and is not approved by any major health authority.",
+   "citationRefs": [
+    "ae-doh-cir-112-2025"
+   ],
+   "status": "verified",
+   "reviewNote": "verbatim quote kept in jurisdictions/AE.json (the source's terms allow citation, not republication)",
+   "gradeDecision": "context — regulatory status"
+  },
   {
    "id": "j-br-01",
    "unit": "jurisdictions",
@@ -5939,6 +8304,19 @@
   }
  ],
  "authorFindings": [
+  "AE: Regulator: medicine registration, import permits, advertising licences for medical products, the controlled and semi-controlled lists and compounding-pharmacy GCP certificates now sit with the Emirates Drug Establishment (EDE), created by Federal Decree-Law 28/2023 (in force 30 Sep 2023) to succeed MOHAP. Official translations name it differently ('UAE Drug Corporation' on the legislation portal, 'Emirates Pharmaceutical Corporation' in DHA's list, 'Emirates Medicines Corporation' on the EDE legislation page); use 'Emirates Drug Establishment (EDE)'. MOHAP letterhead appears on the circulars read up to October 2024 (the Mounjaro alert says 'registered in MOHAP'); 2025-2026 circulars and approvals come from the EDE, although DHA attributed the June 2025 Melanotan II circular to MOHAP while DoH attributed the same warning to the EDE.",
+  "AE: Off-label prescribing is conditioned in statute: Federal Decree-Law 38/2024 Art. 42(1) allows uses outside the leaflet, or a product never submitted for marketing approval, only when necessary, with no equivalent alternative and with the patient's approval (ae-fdl-38-2024).",
+  "AE: Dubai and Abu Dhabi diverged on peptides within two days: DHA (29 Jul 2026) prohibits any peptide product not registered or licensed with the EDE and any research-use peptide outside approved trials; DoH (31 Jul 2026) runs a risk-tiered model with compounding through licensed pharmacies, EDE-overseen APIs, full traceability, consent covering regulatory status and prior approval of any advertising, and its August 2026 compounding standard treats peptides as emerging substances usable only if monographed, an approved-medicine component or on the DoH registry. Notes must name the emirate (ae-dha-cir-peptides-2026, ae-doh-cir-148-2026, ae-doh-compounding-std-2026).",
+  "AE: Federal compounding: products compounded in licensed compounding pharmacies need no marketing approval (Art. 5(2)), but compounded essential copies of EDE-approved products are barred unless no commercial product can deliver the benefit (Art. 95(4)); since semaglutide (Ozempic, Wegovy injection and tablets, Rybelsus) and tirzepatide (Mounjaro) are registered, this copy rule bears directly on compounded GLP-1s. This is an inference from the two articles: no EDE statement on compounded GLP-1s was found.",
+  "AE: Growth hormone and anabolic steroids are 'semi-controlled' medicines, not scheduled narcotics: every registered somatropin brand is dispensed as SCD, as are injectable testosterone, nandrolone, stanozolol and mesterolone; oral tretinoin, isotretinoin and acitretin are SCD too. Public advertising of controlled and semi-controlled products is banned (ae-mohap-md-306-2023, ae-ede-register, ae-fdl-38-2024).",
+  "AE: Hair-loss products: no oral minoxidil product is registered (all 17 minoxidil entries are topical), while a topical finasteride spray (Fincrezo 2.275 mg/ml) has been registered since March 2025.",
+  "AE: Recent EDE approvals relevant to the course: oral Wegovy (announced 1 June 2026, second country worldwide), orforglipron as Foundayo (3 April 2026, second country worldwide, months after the EDE's December 2025 warning about falsified 'orforglipron'), and upadacitinib (Rinvoq) for non-segmental vitiligo (17 Aug 2026, first country worldwide) (ae-ede-news-oral-wegovy, ae-ede-news-orforglipron, ae-ede-news-rinvoq-vitiligo). Ritlecitinib (Litfulo 50 mg) is also in the register.",
+  "AE: Skin-clinic enforcement: exosome and PDRN products, including 'skin boosters' used with microneedling or mesotherapy, are unauthorised (EDE Circular 40/2026, 11 Sep 2026); glutathione injections for skin whitening are unregistered and must not be used (MOHAP, Oct 2021); Melanotan II warnings from MOHAP/EDE (June 2025) and DoH (July 2025); counterfeit and stolen Ozempic/Mounjaro alerts from 2024 to 2026.",
+  "AE: Selling from clinics: licensed professionals other than pharmacists may not sell any medical product, directly or indirectly, without Ministry or health-authority approval (Art. 42(5)); only pharmaceutical establishments may sell prescription-only medicines (Art. 40); in Abu Dhabi, prescription-only medicines may be sold online only against a verified prescription (Circular 152/2026).",
+  "AE: Cosmetics run on three tracks: ordinary cosmetics (MoIAT conformity under Cabinet Resolution 18/2014, plus Dubai Municipality Montaji registration in Dubai), 'cosmetics with a medical effect' registered by the EDE as healthcare products, and medicines. The EDE classification letter settles borderline products; Abu Dhabi treats topical cosmetic peptides as low risk.",
+  "AE: Advertising: every medical-product advertisement, social media included, needs an EDE licence tied to a valid marketing authorisation and the approved indications, so unregistered peptides cannot lawfully be advertised. Dubai also bans titles such as 'Anti-Aging Specialist' or 'Aesthetic Consultant' and absolute claims.",
+  "AE: Publication caution: the DoH circulars read (10/2025, 112/2025, 48/2026, 69/2026, 148/2026, 152/2026) say they 'should not be used as content for media publication', and the EDE and MOHAP circulars (EDE 20/2025, 31/2026, 40/2026; MOHAP 9217/2024) say they 'should not be used for media publication'. The integrator may prefer to keep those quotes in this file only (the registry's --no-quote-hosts option works per host: www.doh.gov.ae; the EDE/MOHAP circulars are hosted on www.dha.gov.ae, which also hosts DHA standards without that restriction).",
+  "AE: Advertising compounded products: the EDE advertising licence requires a valid marketing authorisation and excuses only products exempted by the Cabinet under Art. 5(3); compounded products are exempt from marketing approval under Art. 5(2) instead, so on the service page's wording they cannot obtain an advertising licence (an inference; no EDE statement on advertising compounded products was found).",
   "BR: GLP-1 compounding is lawful in Brazil but narrow and heavily policed: NT 200/2025 permits it only under specific API conditions, all GLP-1 prescriptions have been retained by pharmacies since 23 Jun 2025, and ANVISA's 2026 enforcement closed 8 of 26 compounding pharmacies and importers inspected (Jan–Apr) and is working jointly with the Federal Police.",
   "BR: Semaglutide went off-patent in Brazil on 20 Mar 2026; ANVISA registered the first synthetic semaglutide (Ozivy, 26 May 2026) and five more on 29 Jul 2026, so 15 semaglutide products were active on 25 Sep 2026. The synthetic copies are for type 2 diabetes only; weight-management labelling sits with Wegovy (and Mounjaro for tirzepatide).",
   "BR: ANVISA's 2 Jul 2026 statement names GHK-Cu, BPC-157, TB-500, CJC-1295 and ipamorelin as not registered in any category and 'illegal for any health use, including aesthetic'; it also says only substances with efficacy and safety assessment may be compounded, which rules out compounding these peptides.",
@@ -5972,6 +8350,81 @@
   "PT: The EMA/HMA GLP-1 warning relayed by INFARMED (5 Sep 2025) and Pangea XVIII (Mar 2026, weight-loss products among main seizures, 7 criminal inquiries over anabolic substances) are the dated Portuguese enforcement signals; no Portugal-specific melanotan or peptide alert was found."
  ],
  "consideredNotUsed": [
+  {
+   "jurisdiction": "AE",
+   "subject": "MOHAP website (mohap.gov.ae): circulars, news and its copy of Federal Decree-Law 38/2024",
+   "reason": "Connection reset or timed out on 25 Sep 2026 (scripted fetch and browser). MOHAP circulars were read only where DHA or DoH republished them."
+  },
+  {
+   "jurisdiction": "AE",
+   "subject": "Date on which the EDE took over medicine registration from MOHAP in practice",
+   "reason": "Federal Decree-Law 28/2023 lets the Cabinet keep MOHAP exercising the powers until the EDE runs all its operations; the Cabinet resolution(s) effecting the transfer were not found. A MOHAP alert of October 2024 still says Mounjaro 'is registered in MOHAP'; 2025-2026 circulars and approvals come from the EDE."
+  },
+  {
+   "jurisdiction": "AE",
+   "subject": "Approved UAE indications: Olumiant (alopecia areata), Wegovy injection, Ozempic, topical tretinoin (photoageing), estradiol products (any skin indication)",
+   "reason": "The EDE register shows a therapeutic category (e.g. both Wegovy and Ozempic under 'ENDOCRINE SYSTEM-DIABETES'), not indications; UAE product leaflets were not read."
+  },
+  {
+   "jurisdiction": "AE",
+   "subject": "Federal compounding rules in MOHAP Ministerial Decision 228/2023 (technical and health provisions for compounding pharmacy)",
+   "reason": "The published copy (DHA upload, circulated 26 Oct 2023) is a scanned image with no text layer; not read. No Dubai-specific compounding standard was found."
+  },
+  {
+   "jurisdiction": "AE",
+   "subject": "Schedules of Federal Decree-Law 30/2021 (narcotics): whether any schedule lists somatropin, anabolic steroids or peptides",
+   "reason": "The ten schedules are annexed Regulation Tables not included in the page text read; the body text has no such mention."
+  },
+  {
+   "jurisdiction": "AE",
+   "subject": "Annex 1 of Cabinet Resolution 90/2021 (personal-use import conditions); executive regulations of Federal Decree-Law 38/2024; compassionate-use conditions",
+   "reason": "Annex not read; no executive regulation of the 2024 law was found on the EDE legislation page (read 25 Sep 2026)."
+  },
+  {
+   "jurisdiction": "AE",
+   "subject": "Personal import of semi-controlled medicines (e.g. somatropin) by travellers",
+   "reason": "The EDE traveller guidance covers narcotic and psychotropic (CD) medicines; semi-controlled items are not on its list and no SCD-specific traveller rule was found."
+  },
+  {
+   "jurisdiction": "AE",
+   "subject": "Dubai Municipality cosmetics technical guideline (DM-HSD-GU116-CPCP2 v2.0) and the text of Cabinet Resolution 18/2014; cosmetic registration status of copper-peptide (GHK-Cu) or other peptide serums",
+   "reason": "The DM PDF redirects automated requests to the home page; the Cabinet Resolution text was not read (only MoIAT's listing of it); Montaji and ECAS product records were not searched."
+  },
+  {
+   "jurisdiction": "AE",
+   "subject": "EDE enforcement against peptide weight-loss products and influencers (reported by news media in July 2026)",
+   "reason": "Not found among the 63 English news items on ede.gov.ae/en/news or in the DHA and DoH circulars read; news reports are not primary sources."
+  },
+  {
+   "jurisdiction": "AE",
+   "subject": "DoH Registry for Compounded Substances; DoH Standard for Therapies in Human Cell-Based, Tissue-Based and Regenerative Medicine; DoH Chairman Resolution 37/2019 (Health Media & Advertising Regulations)",
+   "reason": "Cited by the DoH documents read but not located; which peptides the registry lists is unknown."
+  },
+  {
+   "jurisdiction": "AE",
+   "subject": "Whether DHA's 29 July 2026 peptide circular ('registered or licensed with the Emirates Drug Establishment') allows peptides compounded by licensed compounding pharmacies",
+   "reason": "The circular does not say; compounded products are exempt from marketing approval under Federal Decree-Law 38/2024 Art. 5(2), but no DHA clarification was found."
+  },
+  {
+   "jurisdiction": "AE",
+   "subject": "Health claims permitted for oral collagen and other food supplements",
+   "reason": "No UAE list of permitted supplement claims was read; only registration status was verified."
+  },
+  {
+   "jurisdiction": "AE",
+   "subject": "Cabinet Decision 61/2023 (amending the 2007 health-advertisement regulation) and MOHAP Ministerial Decision 226/2023 (sale, display, storage and circulation of medical products)",
+   "reason": "Scanned PDFs without a text layer; not read."
+  },
+  {
+   "jurisdiction": "AE",
+   "subject": "Any cosmetics-law ban on melanotan tanning products",
+   "reason": "Only the DoH/EDE and MOHAP medicine warnings were found; no cosmetic-specific measure was located."
+  },
+  {
+   "jurisdiction": "AE",
+   "subject": "An updated (post-2022) version of DHA's social-media advertising standard reported in August 2026",
+   "reason": "The attachment to DHA circular CIR-2026-00000144 (17 Aug 2026) is byte-identical to version 1.1 (2022); no newer version was found."
+  },
   {
    "jurisdiction": "BR",
    "subject": "Melanotan / Melanotan II / \"bronzeamento injetável\" – specific ANVISA action",
