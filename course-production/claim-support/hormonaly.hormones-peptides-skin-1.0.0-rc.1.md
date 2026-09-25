@@ -1,6 +1,6 @@
 # Claim support — Hormones and Peptides for Skin (v1.0.0-rc.1)
 
-Generated 2026-09-25 13:12 UTC by `tools/qa/claim-support.mjs` · edition `en` · judge gemini-3.7-flash · package sha256 `64229171acdf` · content digest `83552b2c46f6`
+Generated 2026-09-25 13:49 UTC by `tools/qa/claim-support.mjs` · edition `en` · judge gemini-3.7-flash · package sha256 `3697048a23c9` · content digest `85a335a94fae`
 
 Read-before-cite check (docs/claim-support.md). Every quoted passage below was found, after normalization, in the text fetched from the cited source. A judgment without a verified passage is reported as *unverified*, never as support. This report recommends; humans decide.
 

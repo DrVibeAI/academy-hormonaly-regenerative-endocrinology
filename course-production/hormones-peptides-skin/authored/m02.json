@@ -178,6 +178,21 @@
     "audioScript": {
      "en": "Picture the skin as a small endocrine organ with its own stress axis. Skin cells make CRH and ACTH, the same signals that drive the adrenal glands, and they carry the receptors to respond to them. They also carry an enzyme called eleven beta HSD one, which turns inactive cortisone back into active cortisol inside the cell. In human skin samples that enzyme works harder with age and in sun-exposed skin, and it sets local cortisol independently of the level in the blood. Cortisol slows collagen production in dermal fibroblasts, and mice bred without the enzyme kept their dermal thickness as they aged. Hold all of this in the mechanism register. It comes from biopsies, cultured cells and mice, and it says nothing yet about how a patient's face will age."
     }
+   },
+   "imageBrief": {
+    "prompt": "A large round magnified inset fills the centre, showing one dermal fibroblast — a spindle-shaped cell with an oval nucleus — among a few thin, sparse collagen fibres. A small hollow grey token shaped like a rounded lozenge enters the cell from the left, passes through a crescent-shaped enzyme in the cytoplasm, and leaves on the right as a solid violet lozenge of the same shape. To the upper left, a small plain skin section (epidermis over dermis only) shows where the inset comes from, joined to it by two fine ink lines. Draw only the elements named here; do not repeat the reference image's hair follicle, sweat gland, nerve fibre, blood-vessel loop or curved arrows. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m2-p02-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m2-p02-img",
+    "alt": {
+     "en": "A magnified skin cell in which an enzyme turns an inactive hormone into its active form, surrounded by thin, sparse collagen fibres."
+    },
+    "treatment": "cover",
+    "position": "top"
    }
   },
   {
@@ -588,6 +603,21 @@
       }
      }
     }
+   },
+   "imageBrief": {
+    "prompt": "A flow of shapes from left to right: a broad stream of small grey round tokens travels along a wide paper path and first passes under a small magnifying lens. At a fork, most tokens continue straight into a calm, open pool; a few tokens, coloured violet, turn off onto a narrower path that climbs to a small, simple building with an open door. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m2-p06-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m2-p06-img",
+    "alt": {
+     "en": "A stream of tokens passes under a lens; most continue into a calm pool, while a few violet tokens turn onto a path toward a small building."
+    },
+    "treatment": "cover",
+    "position": "top"
    }
   },
   {
@@ -708,6 +738,21 @@
     "audioScript": {
      "en": "Estrogen is the hormone the guide says dominates the visible ageing of women's skin, so start with what it does in the dermis. Skin carries estrogen receptors in sun-protected and sun-damaged sites alike. In a vehicle-controlled study, two weeks of topical estradiol raised collagen production in the hip skin of postmenopausal women; in photoaged forearm and facial skin, the same treatment made no measurable difference. Small biopsy studies from the nineteen eighties and nineties found that skin collagen and thickness fall after menopause, and that the fall follows years since the last period more closely than birthdays. Keep two questions apart as you go. One is what estrogen does in the dermis. The other is whether giving it changes how a face ages, and those answers come from different trials."
     }
+   },
+   "imageBrief": {
+    "prompt": "A side-by-side comparison of two panels of dermis, separated by a thin vertical hairline, each capped by a thin epidermis. Left (sun-protected skin): spindle-shaped fibroblasts carrying small violet cup-shaped receptors, surrounded by orderly wavy collagen strands, several of them new and drawn in violet. Right (sun-damaged skin): fibroblasts carrying the same violet receptors, but the dermis is filled with fragmented grey collagen and clumped, tangled grey material, and no violet strands appear at all. Draw only the elements named here; do not repeat the reference image's hair follicle, sweat gland, nerve fibre, blood-vessel loop or curved arrows. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m2-p08-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m2-p08-img",
+    "alt": {
+     "en": "Two panels of dermis: in sun-protected skin, receptor-bearing cells lay down new collagen; in sun-damaged skin, the same cells sit among fragmented, clumped fibres with no new collagen."
+    },
+    "treatment": "cover",
+    "position": "top"
    }
   },
   {
@@ -921,6 +966,21 @@
       }
      }
     }
+   },
+   "imageBrief": {
+    "prompt": "A simple open paper frame, like a bracket enclosure, holding two objects coloured violet: a set of three rising wavy heat lines, and a small cross-section of spongy trabecular bone. Outside the frame, to the right and set slightly apart, a small cross-section block of skin drawn only in grey ink, as a bystander. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m2-p11-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m2-p11-img",
+    "alt": {
+     "en": "An open frame holds rising heat lines and a piece of spongy bone, while a small block of skin sits outside it, drawn in grey."
+    },
+    "treatment": "cover",
+    "position": "top"
    }
   },
   {
@@ -1045,6 +1105,21 @@
     "audioScript": {
      "en": "Some endocrine syndromes are written on the skin years before the glands give them away. In multiple endocrine neoplasia type one, most patients in one careful series had several facial angiofibromas, the same lesions seen in tuberous sclerosis, along with collagenomas on the trunk. In Carney complex, usually caused by inactivating variants in the PRKAR1A gene, freckle-like lentigines cluster on the lips, eyelids and the corners of the eyes, alongside blue naevi and small skin myxomas. The same patients can develop myxomas in the heart and cortisol-secreting adrenal disease. In MEN two A, an itchy, rippled, darkened patch between the shoulder blades, called cutaneous lichen amyloidosis, can appear long before medullary thyroid cancer. Each of these is a referral finding, and none of them is yours to diagnose alone."
     }
+   },
+   "imageBrief": {
+    "prompt": "Two drawings joined by one fine violet line. Left: an upper back seen from BEHIND as a smooth, featureless ivory silhouette of the shoulders and upper back — the spine drawn as a faint vertical line down the middle and both shoulder blades outlined, no head detail, no hair. Between the shoulder blades, over the spine, sits a small rippled, pigmented patch of skin drawn with fine parallel ridges in dark ink. Right: a small separate drawing of the butterfly-shaped thyroid gland in violet. The fine violet line runs from the patch to the thyroid. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m2-p13-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m2-p13-img",
+    "alt": {
+     "en": "An upper back seen from behind with a rippled, pigmented patch between the shoulder blades, linked by a fine line to a drawing of the thyroid gland."
+    },
+    "treatment": "cover",
+    "position": "top"
    }
   },
   {
@@ -1142,6 +1217,21 @@
     "audioScript": {
      "en": "Most of the endocrine skin signs you will actually meet come from common conditions. New, generalised darkening, most obvious in skin creases such as the palms, in scars, on the gums and on sun-exposed skin, can be the sign of primary adrenal insufficiency. In a patient who is also unwell, the Endocrine Society recommends testing, and a suspected adrenal crisis is treated before the results come back, because delay raises the risk of death. Hirsutism that arrives quickly, keeps progressing, or comes with a deeper voice or clitoromegaly makes an androgen-secreting tumour more likely, and more than half of those tumours are malignant. Velvety dark plaques in the neck folds track insulin resistance. Firm plaques on the shins point to Graves' disease, and cold, dry, coarse skin suggests an underactive thyroid. The skin shows you which door to knock on."
     }
+   },
+   "imageBrief": {
+    "prompt": "Three small vignettes in a row, separated by thin vertical hairlines, each a plain, featureless ivory body-part outline with an ink contour and no face anywhere. First: an open palm seen from the front, its skin creases traced in violet. Second: the back of the neck and one shoulder seen from behind, with no hair and no head detail, and a velvety violet patch across the skin fold at the back of the neck. Third: the front of one lower leg from knee to ankle, with a raised violet plaque on the shin. All three vignettes sit in the upper two-thirds of the frame. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m2-p15-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m2-p15-img",
+    "alt": {
+     "en": "Three body-part outlines with typical sites marked: the palm creases, a velvety patch at the back of the neck, and a raised plaque on the front of the shin."
+    },
+    "treatment": "cover",
+    "position": "top"
    }
   },
   {
@@ -1457,6 +1547,21 @@
       }
      }
     }
+   },
+   "imageBrief": {
+    "prompt": "Three small elements in a row on paper, connected by a single thin ink line. Left: a two-generation family tree in standard pedigree notation — a violet-filled square (the father) joined by a short horizontal line to an unfilled white circle (the mother), and from the middle of that line a vertical line down to one violet-filled circle (the daughter). Centre: a small round swatch of skin surface with a scatter of small, flat, dark freckle-like spots and one soft, skin-coloured dome-shaped bump. Right: a simple four-chamber cutaway of the heart in standard textbook orientation, the patient's left on the VIEWER'S RIGHT: two upper chambers (atria) above two larger lower chambers (ventricles), divided down the middle by a central wall. A small rounded violet mass on a short stalk hangs from the central wall into the upper chamber on the VIEWER'S RIGHT — the left atrium. The upper chamber on the viewer's left stays empty. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m2-p17-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m2-p17-img",
+    "alt": {
+     "en": "A pedigree with an affected father and daughter, a patch of skin with small dark spots and a soft bump, and a heart with a small mass in its left upper chamber, linked by one line."
+    },
+    "treatment": "cover",
+    "position": "top"
    }
   },
   {
@@ -1966,6 +2071,50 @@
    "block": "unit tutorContext",
    "change": "Tutor context adds the UK HRT and tretinoin position (same facts as m2-p11).",
    "forReview": "Fady Hannah-Shmouni"
+  }
+ ],
+ "mediaChanges": [
+  {
+   "date": "2026-09-25",
+   "block": "m2-p02",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m2-p02-img"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m2-p06",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m2-p06-img"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m2-p08",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m2-p08-img"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m2-p11",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m2-p11-img"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m2-p13",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m2-p13-img"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m2-p15",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m2-p15-img"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m2-p17",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m2-p17-img"
   }
  ]
 }

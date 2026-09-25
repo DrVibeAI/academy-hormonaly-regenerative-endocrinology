@@ -182,6 +182,21 @@
     "audioScript": {
      "en": "Every claim you hear about a skin peptide carries a hidden question. How sure can we be? GRADE answers it with four levels of certainty, from high to very low. The rating belongs to a body of evidence for one outcome, such as wrinkle depth at twelve weeks, and never to a single study or to the molecule itself. Randomized trials start high and observational studies start low. From there, certainty drops for five reasons you can name, which are risk of bias, inconsistency between trials, indirectness, imprecision, and suspected publication bias. It can occasionally rise, for example when an effect is very large. Both Hormonaly guides print a letter from A to D beside each use. Read those letters as the same four levels, adapted. They rate the evidence for that use, and they say nothing about whether a product is legal."
     }
+   },
+   "imageBrief": {
+    "prompt": "EXACTLY FOUR horizontal paper shelves, no more and no fewer, stacked one above the other with even gaps, like four levels. On the top shelf rests a violet pair of matched dot grids — two neat square grids of small round dots side by side, lying flat (flat dots, not coins, not stacks). On the third shelf from the top lies a loose, irregular scatter of grey dots. A short curved path shows one violet dot stepping down from the top shelf to the second shelf. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m7-p02-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m7-p02-img",
+    "alt": {
+     "en": "Four shelves of certainty: randomized trials start on the top shelf with one dot stepping down, observational studies lie on the third shelf, and a small cluster rests on the lowest."
+    },
+    "treatment": "cover",
+    "position": "top"
    }
   },
   {
@@ -456,6 +471,21 @@
       }
      }
     }
+   },
+   "imageBrief": {
+    "prompt": "One path running left to right passes through two separate checkpoints in sequence. First checkpoint: a small arch with a magnifying lens hanging in it, looking at two neat parallel columns of identical tokens. Second checkpoint: a different, taller gate bearing a plain blank round seal. A single violet token travels the path and must pass both; the two checkpoints look clearly different from each other. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m7-p05-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m7-p05-img",
+    "alt": {
+     "en": "A token travels a path through two different checkpoints in turn: a lens over trial evidence, then a gate bearing a blank seal."
+    },
+    "treatment": "cover",
+    "position": "top"
    }
   },
   {
@@ -577,6 +607,21 @@
     "audioScript": {
      "en": "Two routes exist for compounding in the United States, and the difference between them shapes the rest of this lesson. Under section 503A, a licensed pharmacist or physician prepares a drug for an identified patient on a prescription. If the conditions are met, the product escapes three requirements, namely approval as a new drug, labelling with adequate directions, and good manufacturing practice. The conditions start with the substance itself, taken in strict order. A USP or National Formulary monograph comes first. Only when there is none can it be a component of an approved drug, and only when neither applies can it sit on FDA's 503A bulks list. The substance must also come from a registered manufacturer with a valid certificate of analysis. Section 503B outsourcing facilities work differently. They register with FDA, work to good manufacturing practice, face risk-based inspection, and can compound without a prescription for each patient. Their products remain unapproved."
     }
+   },
+   "imageBrief": {
+    "prompt": "Two contrasting scenes side by side, separated by a thin vertical hairline, drawn only as simple buildings, counters and round tokens — no human figures of any kind, no silhouettes. Left: a small open-fronted pharmacy with one counter; on the counter a single violet token sits on a small tray, and a single grey token waits in front of the counter, paired to it by a short thin line (one preparation for one identified patient). Right: a larger facility building with a broad roof, containing rows of identical grey tokens on trays, with a large magnifying lens hovering above the building. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m7-p07-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m7-p07-img",
+    "alt": {
+     "en": "A small counter preparing one item for one waiting person, beside a larger facility producing trays of identical items under an inspecting lens."
+    },
+    "treatment": "cover",
+    "position": "top"
    }
   },
   {
@@ -852,6 +897,21 @@
     "audioScript": {
      "en": "Picture the certificate a patient hands you, and read it line by line, asking what each line actually tests. Mass spectrometry checks identity, and a careful certificate shows the expected mass next to the one measured. HPLC reports purity as a percentage of the main peak, which tells you how much else is present and nothing about what that something else is. Endotoxin matters for anything injected, and FDA's guidance says the acceptable limit is calculated from the dose and the route, so a bare figure settles little. When FDA reviewed BPC-157 for its advisory committee, most public certificates listed purity alone, and the one a nominator supplied mentioned no endotoxin test. Then remember what paper cannot do. A certificate describes a lot. It cannot show that your vial came from that lot, how the vial was stored, or that it is sterile."
     }
+   },
+   "imageBrief": {
+    "prompt": "Three elements on paper. Left: a plain blank document with a round blank seal and only faint grey bars where text would be. A fine ink line joins it to one tray of identical small round tokens. Above the tray, a magnifying lens enlarges one token and reveals a short bead chain inside it, drawn in violet. To the right, set apart, one loose token whose dashed link back to the tray breaks off halfway. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m7-p10-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m7-p10-img",
+    "alt": {
+     "en": "A blank certificate linked to one tray of identical items, a lens revealing the molecule inside one of them, and a loose item whose link back to the tray is broken."
+    },
+    "treatment": "cover",
+    "position": "top"
    }
   },
   {
@@ -1152,6 +1212,21 @@
       }
      }
     }
+   },
+   "imageBrief": {
+    "prompt": "A path runs from a laboratory bench on the left — glass flasks and shallow culture dishes, no people — toward the right, where it ends at a closed violet gate. A small blank tag hangs from the gate on a string. Beyond the gate, out of reach, is a simple clinic room with an empty treatment couch. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m7-p13-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m7-p13-img",
+    "alt": {
+     "en": "A path from a laboratory bench ends at a closed gate with a blank tag hanging on it, before a clinic room with an empty couch."
+    },
+    "treatment": "cover",
+    "position": "top"
    }
   },
   {
@@ -1221,6 +1296,21 @@
     "audioScript": {
      "en": "Selling a peptide in the United Kingdom starts with one question, whether the product is a medicine, and MHRA answers it from the product as a whole. It reads every claim made for it, on a website or on social media, and looks at its form, such as an injection, and the way it is used. A medicine with no UK marketing authorisation may not be sold, supplied or advertised. MHRA classes injectable melanotan products as medicines, and in May 2026 it seized peptide products in its largest raid on unlicensed weight-loss medicines. Prescription-only medicines may not be advertised to the public at all. A clinic may promote treatment for lines and wrinkles, and it may leave the medicine unnamed. In February 2026 the advertising regulator ruled that influencer posts tagging a weight-loss injection were adverts for a prescription-only medicine. And GMC guidance requires doctors to examine a patient physically before prescribing any injectable cosmetic medicine, which rules out prescribing it by phone or online."
     }
+   },
+   "imageBrief": {
+    "prompt": "Two elements side by side. Left: a large magnifying lens held over a plain phone whose screen shows only three soft grey rectangles stacked like a generic post — no icons, no hearts, no symbols, no interface marks of any app. Right: a simple megaphone with a violet bar laid across its mouth, silencing it. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m7-p22-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m7-p22-img",
+    "alt": {
+     "en": "A magnifying lens examines a plain phone screen showing a generic post, beside a megaphone blocked by a bar."
+    },
+    "treatment": "cover",
+    "position": "top"
    }
   },
   {
@@ -1341,6 +1431,21 @@
     "audioScript": {
      "en": "Off-label is the phrase to get right first. FDA uses it for an approved drug prescribed outside its labelling, which prescribers generally may do when they judge it medically appropriate. The idea assumes a label exists. A peptide that was never approved has none, so prescribing it counts as using an unapproved drug, and the Peptide Pocket Guide says exactly that. Compounding leaves that answer unchanged. A compounded product is unapproved by definition, and it is lawful only when the substance and the pharmacy meet the statute's conditions. Under federal law, putting an unapproved new drug into interstate commerce is a prohibited act, and in 2020 FDA warned a compounding pharmacy about its BPC-157 and GHK-Cu products on that basis. So write the real category in the chart, every time."
     }
+   },
+   "imageBrief": {
+    "prompt": "A side-by-side comparison, separated by a thin vertical hairline. Left: a plain round tablet beside a folded blank leaflet showing only faint grey lines; a dotted boundary circle is drawn around the leaflet's scope, and the tablet has stepped just outside that circle along a short violet path, still joined to its leaflet by a thin line. Right: a plain round tablet alone, with no leaflet and no boundary, only empty paper around it. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m7-p15-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m7-p15-img",
+    "alt": {
+     "en": "On the left, a tablet with its leaflet steps just outside the leaflet's boundary; on the right, a tablet stands alone with no leaflet and no boundary."
+    },
+    "treatment": "cover",
+    "position": "top"
    }
   },
   {
@@ -1567,7 +1672,22 @@
       "en": "One lot's identity and purity, as the supplier reports them. Sterility, storage and legality sit outside it."
      }
     }
-   ]
+   ],
+   "imageBrief": {
+    "prompt": "A path runs left to right toward a closed gate on the right. On the path, a single small violet token waits before the gate. At the left, a plain blank certificate with a round blank seal casts a narrow, soft cone of pale light that falls only on the token; outside that light, beside the path, a simple thermometer and a sealed plain pouch stand a little dimmer. The paper ground stays light everywhere — soft shading only, no dark panel or dark background block. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m7-p17-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m7-p17-img",
+    "alt": {
+     "en": "A single item waits before a closed gate; a blank certificate lights only the item itself, leaving a thermometer and a sealed pouch outside its light."
+    },
+    "treatment": "cover",
+    "position": "top"
+   }
   },
   {
    "id": "m7-p18",
@@ -2219,6 +2339,56 @@
    "block": "unit tutorContext",
    "change": "'US only; UK and EU mapping pending' replaced by the UK framework summary; EU marked as not covered.",
    "forReview": "Fady Hannah-Shmouni"
+  }
+ ],
+ "mediaChanges": [
+  {
+   "date": "2026-09-25",
+   "block": "m7-p02",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m7-p02-img"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m7-p05",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m7-p05-img"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m7-p07",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m7-p07-img"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m7-p10",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m7-p10-img"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m7-p13",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m7-p13-img"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m7-p22",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m7-p22-img"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m7-p15",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m7-p15-img"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m7-p17",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m7-p17-img"
   }
  ]
 }

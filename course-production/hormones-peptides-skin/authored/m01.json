@@ -237,6 +237,21 @@
     "audioScript": {
      "en": "Think of the skin as a sensing organ with its own hormone supply. Researchers who study it describe four units, epidermal, dermal, hypodermal and adnexal, the last meaning hair follicles and glands. Each unit holds cells that can make hormones and mount an immune response, such as keratinocytes, fibroblasts, sebocytes, fat cells and mast cells. Signals move three ways. Neighbouring cells talk directly, sensory nerves carry messages in and out, and some products enter the blood and reach distant organs. Keep one distinction in view for the whole module. A signal that is made and used inside the skin is a local loop. A hormone that arrives from the blood, or leaves the skin for the rest of the body, is systemic signalling. Much of what follows is mechanism, drawn from cell, tissue and animal studies, and each finding will be labelled that way."
     }
+   },
+   "imageBrief": {
+    "prompt": "A cross-section of human skin drawn as a clean rectangular block, showing its four units: a thin wavy epidermis on top; a thicker dermis of loose wavy collagen fibres with a few scattered cells; a bottom layer of rounded subcutaneous fat lobules; and the adnexa — one hair follicle running obliquely down through the dermis with a small sebaceous gland beside its upper part, and one coiled sweat gland low in the dermis. Three signalling routes are drawn in violet: short curved arcs passing between neighbouring cells in the epidermis, a fine sensory nerve fibre branching up from the deep dermis toward the epidermis, and a small blood-vessel loop in the dermis whose ends run off the side of the block. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m1-p03-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m1-p03-img",
+    "alt": {
+     "en": "A cross-section of skin showing the epidermis, dermis, fat layer and a hair follicle with its glands, with signals passing between cells, along a nerve and into a blood vessel."
+    },
+    "treatment": "cover",
+    "position": "top"
    }
   },
   {
@@ -593,6 +608,21 @@
       }
      }
     }
+   },
+   "imageBrief": {
+    "prompt": "Three pairs side by side in a row, with generous space between them and no body outline. Each pair is a round magnifying window showing a patch of skin surface, joined by a short vertical ink line to one small gland drawn in violet directly beneath it. First pair: thin, translucent skin with a faint bruise, above an adrenal gland capping the top of a kidney. Second pair: coarse, dry skin with fine scaling, above the butterfly-shaped thyroid gland. Third pair: velvety, darker, folded skin, above the pancreas. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m1-p06-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m1-p06-img",
+    "alt": {
+     "en": "Three magnified patches of skin — thin with a bruise, coarse and dry, velvety and dark — each linked to the gland it points to: an adrenal gland, the thyroid and the pancreas."
+    },
+    "treatment": "cover",
+    "position": "top"
    }
   },
   {
@@ -712,6 +742,21 @@
     "audioScript": {
      "en": "Fourteen million cells is the scale of the Hormone Cell Atlas, a Cambridge-led study published in Science in 2026. The team read the RNA for 379 hormone and receptor genes in single cells and nuclei from forty-seven human tissues, skin included. From those readings they scored each cell type for its predicted capacity to make or to receive a hormone, and they flagged unexpected sites, such as RNA for the gut hormone secretin in a type of immune cell. The Aesthetic and Regenerative Endocrinology guide uses the atlas to argue that the skin, built from every major cell lineage, is plausibly one of the body's largest distributed signalling networks. The word plausibly matters. Everything in the atlas starts from RNA, and RNA tells you what a cell could make. Whether the cell actually makes and releases the hormone is the question the rest of this lesson answers."
     }
+   },
+   "imageBrief": {
+    "prompt": "An atlas laid out like a specimen tray: a neat grid of many small square tissue tiles, each holding a handful of simple round cells drawn in ink on ivory. One tile in the centre, slightly larger and raised, is a slice of skin with a layered surface. In that tile some cells carry a small violet cup-shaped receptor on their surface, and a few hold small violet granules inside drawn as dotted outlines (predicted, not observed). The other tiles show the same two marks sparsely, in pale violet wash. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m1-p08-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m1-p08-img",
+    "alt": {
+     "en": "A grid of small tissue tiles with a skin tile at the centre, where some cells carry receptor cups and a few hold outlined granules, marking cells predicted to respond to or make a hormone."
+    },
+    "treatment": "cover",
+    "position": "top"
    }
   },
   {
@@ -985,6 +1030,21 @@
       }
      }
     }
+   },
+   "imageBrief": {
+    "prompt": "A two-part figure joined by one thin ink line running left to right. Left: a close cross-section of the upper skin with a small droplet resting on the surface; below it one skin cell carries a violet cup-shaped receptor on its surface, and a small crescent-shaped enzyme beside the cell reshapes a passing molecule token. Right: a randomized trial drawn as two matched groups of small round dots laid flat on the paper in neat square grids side by side, one group violet and one grey, with a thin divider between them (flat dots, not coins, not stacks). Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m1-p11-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m1-p11-img",
+    "alt": {
+     "en": "A droplet on the skin reaches a cell's receptor while an enzyme reshapes a passing molecule, and a line leads to two matched groups of dots standing for a randomized trial."
+    },
+    "treatment": "cover",
+    "position": "top"
    }
   },
   {
@@ -1108,6 +1168,21 @@
     "audioScript": {
      "en": "Senescence begins as a safety mechanism. A cell that has taken enough damage stops dividing for good, which helps guard against cancer and is useful during wound repair. The problem is what the cell does next. It stays alive and metabolically busy and releases a mixture of inflammatory cytokines such as interleukin six and eight, enzymes that break down matrix, and growth factors. This secretory profile, the SASP, was characterised in human cells grown in the laboratory after DNA damage. In living human skin, the evidence is observational. Skin samples from older people contain more cells carrying the senescence marker p16, in both the epidermis and the dermis, and fibroblasts, keratinocytes and melanocytes can all become senescent. Researchers also caution that no single marker identifies a senescent cell with certainty, so counts depend on the marker chosen."
     }
+   },
+   "imageBrief": {
+    "prompt": "A side-by-side comparison of cells in a thin layer of dermis, separated by a thin vertical hairline. Left: an ordinary fibroblast dividing cleanly into two small daughter cells. Right: a senescent cell — noticeably larger and flattened, with a large nucleus — that has stopped dividing but releases a halo of small violet particles into the surrounding collagen fibres, several of which look frayed near it. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m1-p13-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m1-p13-img",
+    "alt": {
+     "en": "On the left a cell divides into two; on the right a larger, flattened cell has stopped dividing and releases a cloud of small particles into the frayed fibres around it."
+    },
+    "treatment": "cover",
+    "position": "top"
    }
   },
   {
@@ -1285,6 +1360,21 @@
     "audioScript": {
      "en": "Set the senescence story beside the interventions that have been tested in people. In Nambour, Australia, a publicly funded trial randomised 903 adults to daily or discretionary sunscreen, and over four and a half years skin ageing was about a quarter lower with daily use. Topical tretinoin has a run of randomised trials in photoaged skin that agree with one another, and the Aesthetic and Regenerative Endocrinology guide rates topical retinoids first-line, grade A. Retinol has smaller trials, including one in residents in their late eighties whose fine wrinkling improved and whose biopsies showed more procollagen. Both levers protect or rebuild the dermal matrix that ultraviolet light and, it is thought, the SASP erode, and both have human outcome data. Senolytics for skin have no such data yet. Keep that order in mind when a patient asks what actually works."
     }
+   },
+   "imageBrief": {
+    "prompt": "A cross-section of skin, epidermis above and dermis below. On the skin surface lies a thin translucent protective film, and simple straight sun rays coming from the upper left stop at the film and turn back. Beside the film, a few small droplets rest on the surface and soak into the upper skin toward fibroblasts. In the dermis beneath, collagen bundles are dense, wavy and well organised, drawn in violet. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m1-p16-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m1-p16-img",
+    "alt": {
+     "en": "A skin cross-section with a thin protective film turning back sun rays and a few drops soaking in, above dense, orderly collagen in the dermis."
+    },
+    "treatment": "cover",
+    "position": "top"
    }
   },
   {
@@ -1425,6 +1515,21 @@
       }
      }
     }
+   },
+   "imageBrief": {
+    "prompt": "An evidence staircase of three plain paper steps rising from left to right. On the lowest step sits a shallow laboratory culture dish; on the middle step a small mouse silhouette; on the top step two neat parallel columns of identical round tokens, one violet and one grey, standing for a randomized trial in people, with a thin translucent protective film shape lying beside them. A single plain, unmarked capsule outlined in violet rests on the middle step beside the mouse. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m1-p17-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m1-p17-img",
+    "alt": {
+     "en": "Three steps of evidence, from a culture dish to a mouse to a human trial; an unmarked capsule sits on the mouse step, while a sun-protection film sits on the top step."
+    },
+    "treatment": "cover",
+    "position": "top"
    }
   },
   {
@@ -1905,5 +2010,49 @@
   "approver": "Fady Hannah-Shmouni, MD FRCPC",
   "date": "2026-09-24",
   "scope": "module 01, full-course review draft of 2026-09-24 (course-draft.docx); approval relayed by Omar Saleem, 2026-09-24"
- }
+ },
+ "mediaChanges": [
+  {
+   "date": "2026-09-25",
+   "block": "m1-p03",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m1-p03-img"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m1-p06",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m1-p06-img"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m1-p08",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m1-p08-img"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m1-p11",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m1-p11-img"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m1-p13",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m1-p13-img"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m1-p16",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m1-p16-img"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m1-p17",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m1-p17-img"
+  }
+ ]
 }

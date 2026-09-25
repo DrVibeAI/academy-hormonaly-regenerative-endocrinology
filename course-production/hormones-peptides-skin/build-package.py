@@ -6,7 +6,7 @@ skin-outline-20260921-v2) and emits packages/hormones-peptides-skin.json:
 modules, units, objectives, pillar tags and assessment skeletons — no blocks.
 Re-run after any change to the handoff or to the mappings below.
 """
-import json, re, sys
+import hashlib, json, re, sys
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
@@ -253,6 +253,34 @@ if COURSE_QUIZ:
         "status": "approved" if SIGNOFFS.get("courseQuiz") else "ai_draft",
     })
 
+# Stage 60 media: the teaching stills that authored blocks reference (block.teachingVisual.assetRef), taken from the image tool's
+# manifest (perceptor-foundry tools/images/generate.mjs). Files live under public/assets/ (published to the media bucket by
+# tools/deploy/publish-media.sh). Every still is a draft until the human media preview; the build never approves one.
+MEDIA_MANIFEST = HERE / "media" / "images-manifest.json"
+IMAGES = {e["asset_id"]: e for e in json.loads(MEDIA_MANIFEST.read_text()).get("images", []) if not e.get("kind")} if MEDIA_MANIFEST.exists() else {}
+ASSETS = []
+for mid in sorted(AUTHORED):
+    for b in AUTHORED[mid]["blocks"]:
+        ref = (b.get("teachingVisual") or {}).get("assetRef")
+        if not ref:
+            continue
+        e = IMAGES.get(ref)
+        if not e:
+            sys.exit(f"{b['id']}: teachingVisual.assetRef {ref} is not in {MEDIA_MANIFEST.relative_to(ROOT)}")
+        f = ROOT / "public" / e["uri"].lstrip("/")
+        if not f.exists():
+            sys.exit(f"{b['id']}: {ref} file missing: {f.relative_to(ROOT)}")
+        ASSETS.append({
+            "id": ref, "kind": "image", "role": "illustration", "uri": e["uri"].lstrip("/"),
+            "checksum": "sha256:" + hashlib.sha256(f.read_bytes()).hexdigest(),
+            "generator": {"tool": "perceptor-foundry/tools/images", "model": e["model"],
+                          "promptRef": f"course-production/hormones-peptides-skin/media/images-manifest.json#{e['id']}"},
+            "approvalStatus": "draft",
+            "metadata": {"block": b["id"], "use": "teachingVisual", "route": e["route"], "tier": e["tier"], "aspectRatio": e["aspect_ratio"],
+                         "promptSha256": e["prompt_sha256"], "generatedAt": e["generated_at"],
+                         "mediaPreview": "pending — course-production/hormones-peptides-skin/review/media-preview.html"},
+        })
+
 pkg = {
     "packageSchemaVersion": "0.1.0",
     "id": "hormonaly.hormones-peptides-skin",
@@ -332,6 +360,7 @@ pkg = {
         "claims": CLAIMS,
     },
     "curriculum": {"pillars": PILLARS, "modules": modules},
+    **({"assets": ASSETS} if ASSETS else {}),
     **({"assessments": ASSESSMENTS} if ASSESSMENTS else {}),
     **({"tutorCorpus": TUTOR} if TUTOR else {}),
     "credential": {

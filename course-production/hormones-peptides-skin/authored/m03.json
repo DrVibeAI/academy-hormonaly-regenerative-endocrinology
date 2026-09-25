@@ -181,6 +181,21 @@
     "audioScript": {
      "en": "Most people picture skin fat as one layer under the dermis. There is a second, thinner layer inside the reticular dermis itself, called dermal white adipose tissue. In mice, this layer expands rapidly after a Staphylococcus aureus infection, and its new fat cells release cathelicidin, an antimicrobial peptide. Older mice lose much of that capacity, through TGF-beta signalling. Human skin arranges this fat differently, in small cones around hair follicles, and human acne lesions contain preadipocytes around the follicle that make cathelicidin. What the layer contributes to human skin ageing has not yet been measured. So hold two things apart when you hear about skin fat. The defence story is strong in mice and emerging in people. The ageing story in people is still a proposal."
     }
+   },
+   "imageBrief": {
+    "prompt": "A cross-section of human skin: epidermis on top, dermis below, and rounded grey subcutaneous fat lobules at the base. One hair follicle runs straight down through the dermis, and its lower part and bulb sit INSIDE a cone of small violet fat cells: the violet cone wraps all the way around the lower follicle, widest at its base where it meets the fat layer and narrowing upward along the follicle, clearly distinct in colour from the grey fat below. Draw only these elements; do not repeat the reference image's sweat gland, nerve fibre, blood-vessel loop or curved arrows. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m3-p02-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m3-p02-img",
+    "alt": {
+     "en": "A skin cross-section in which a cone of small fat cells surrounds the lower hair follicle inside the dermis, separate from the fat layer beneath."
+    },
+    "treatment": "cover",
+    "position": "top"
    }
   },
   {
@@ -278,6 +293,21 @@
     "audioScript": {
      "en": "Glycation is chemistry before it is biology. Reducing sugars attach to the amino groups of proteins, rearrange into more stable products, and end as advanced glycation end products, known as AGEs. Dermal collagen lasts for years, so it collects AGEs, and they form cross-links that make the matrix stiffer. AGEs also bind a receptor called RAGE, which in laboratory studies switches on inflammatory signalling and enzymes that break down matrix. Keep the registers apart here. The chemistry, and the build-up of AGEs in human skin, are well documented. The idea that AGEs cause the wrinkles and laxity you see in clinic rests on laboratory and animal work plus human associations. The Aesthetic and Regenerative Endocrinology guide rates the structural and inflammatory effects grade B. This course grades the causal link D, and the next moment shows why."
     }
+   },
+   "imageBrief": {
+    "prompt": "A side-by-side comparison of collagen fibres, separated by a thin vertical hairline. Left: three long rope-like collagen fibres lying parallel and free, each with a subtle twisted texture. Right: the same three fibres, now tied to one another at intervals by short violet bridges, with small plain hexagon outlines (sugar rings) stuck directly onto the fibres along their length; the fibres look stiffer and straighter. The hexagons are empty outlines — no letters, atom symbols or marks inside them. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m3-p04-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m3-p04-img",
+    "alt": {
+     "en": "On the left, parallel collagen fibres lie free; on the right, the same fibres carry small sugar rings and are tied together by short cross-links."
+    },
+    "treatment": "cover",
+    "position": "top"
    }
   },
   {
@@ -648,6 +678,21 @@
     "audioScript": {
      "en": "After a meal, the gut releases two hormones called incretins, GLP-1 and GIP. Both amplify insulin release when glucose is high, and GLP-1 also slows the stomach and reduces appetite. Native GLP-1 lasts only minutes in the blood before an enzyme breaks it down, so the drug molecules are engineered to last far longer. Semaglutide activates the GLP-1 receptor. Tirzepatide activates both the GIP and the GLP-1 receptors. Those are the mechanisms. The regulatory facts sit in a separate register. In the United States, as of September 2026, both molecules are FDA-approved drugs, sold under one brand name for type 2 diabetes and another for chronic weight management, with further indications for the heart, the liver and sleep apnoea. In the United Kingdom both are licensed by the MHRA, and tirzepatide's weight-management licence sits on the same brand as its diabetes licence, Mounjaro. The face appears nowhere on those labels, and that is where this lesson begins."
     }
+   },
+   "imageBrief": {
+    "prompt": "A side-by-side mechanism comparison, separated by a thin vertical hairline. Left: a short native peptide hormone drawn as a straight horizontal chain of about twelve round grey beads; at its LEFT END a crescent-shaped enzyme has just clipped off exactly TWO beads — one small joined pair of two beads, not three — which floats away, while the rest of the chain stays in one piece. Right: an engineered version of the same straight chain: only its second bead from the left end is a different, violet shape, and a short wavy violet fatty tail hangs from a bead in the middle of the chain; the crescent enzyme touches the left end but cannot cut, and the chain stays whole. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m3-p08-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m3-p08-img",
+    "alt": {
+     "en": "On the left an enzyme clips a pair of units off the end of a natural hormone chain; on the right a modified chain with an altered unit and a fatty tail resists the enzyme and stays whole."
+    },
+    "treatment": "cover",
+    "position": "top"
    }
   },
   {
@@ -950,6 +995,21 @@
       }
      }
     }
+   },
+   "imageBrief": {
+    "prompt": "Three stations along one thin ink path running left to right, with no people anywhere. First: two small overlapping blank conversation cards. Second: a simple camera on a small stand, pointed at a plain blank frame. Third: an open door, drawn in violet, leading through to a second room. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m3-p12-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m3-p12-img",
+    "alt": {
+     "en": "A path passes two blank conversation cards, a camera pointed at a blank frame, and an open door into another room."
+    },
+    "treatment": "cover",
+    "position": "top"
    }
   },
   {
@@ -1088,6 +1148,21 @@
       }
      }
     }
+   },
+   "imageBrief": {
+    "prompt": "Side-by-side cross-sections of the soft tissue of a cheek over bone, separated by a thin vertical hairline, drawn as anatomical layers only — no face, no features. Left: skin on top, a full, rounded fat pad beneath it coloured violet, and a band of bone at the base. Right: the same layers with a clearly thinner fat pad, and the skin surface above it slightly loose and folded. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m3-p13-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m3-p13-img",
+    "alt": {
+     "en": "Two cross-sections of cheek tissue over bone: one with a full fat pad under the skin, the other with a thinner pad and looser skin above it."
+    },
+    "treatment": "cover",
+    "position": "top"
    }
   },
   {
@@ -1212,6 +1287,21 @@
     "audioScript": {
      "en": "Ageing brings a slow rise in background inflammation, called inflammaging. It is low-grade and sterile, and in older adults higher IL-6 and C-reactive protein predict frailty, disability and death. One proposed source is the gut. In mice, a high-fat diet raises bacterial lipopolysaccharide in the blood, and infusing that endotoxin reproduces weight gain and insulin resistance. In twelve healthy men, a single high-fat meal raised plasma endotoxin within four hours. That is the mechanism usually called metabolic endotoxaemia, or leaky gut. The human evidence stops short of the skin. Measuring gut permeability is difficult, and a leading review concludes that it is still unproven whether restoring the barrier improves disease outside the gut. Hold that line as you look at what patients are sold."
     }
+   },
+   "imageBrief": {
+    "prompt": "Side-by-side cross-sections of the gut lining, separated by a thin vertical hairline. Each shows a single row of tall column-shaped epithelial cells joined tightly near their tops, the gut interior above and a small blood vessel running below. Left: the junctions between the cells are closed, and small violet bacterial fragments stay above the lining. Right: two junctions have loosened into gaps, and small violet fragments pass through the gaps into the blood vessel beneath. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m3-p15-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m3-p15-img",
+    "alt": {
+     "en": "Two views of the gut lining: one with closed junctions keeping small bacterial fragments out, the other with loosened junctions letting them pass into a blood vessel."
+    },
+    "treatment": "cover",
+    "position": "top"
    }
   },
   {
@@ -1538,6 +1628,21 @@
       }
      }
     }
+   },
+   "imageBrief": {
+    "prompt": "A row of four flat stepping stones running from left to right across the upper half of the frame, each stone smaller and paler than the one before. On the first, largest stone at the left: a plate of whole foods — leafy greens, beans, a piece of fish and grains — drawn in warm greys and ivory, not green. On the second stone: a small plain cross-section block of skin (epidermis, dermis, fat only). The third stone is empty. On the last, smallest stone at the right: a single plain, unmarked capsule outlined in violet. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m3-p18-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m3-p18-img",
+    "alt": {
+     "en": "A row of stepping stones leads from a plate of whole foods, past a small block of skin, to a single unmarked capsule on the last, smallest stone."
+    },
+    "treatment": "cover",
+    "position": "top"
    }
   },
   {
@@ -2099,6 +2204,50 @@
    "block": "unit tutorContext",
    "change": "'UK/EU status not yet mapped' replaced by the UK facts above; EU marked as not covered.",
    "forReview": "Fady Hannah-Shmouni"
+  }
+ ],
+ "mediaChanges": [
+  {
+   "date": "2026-09-25",
+   "block": "m3-p02",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m3-p02-img"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m3-p04",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m3-p04-img"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m3-p08",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m3-p08-img"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m3-p12",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m3-p12-img"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m3-p13",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m3-p13-img"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m3-p15",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m3-p15-img"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m3-p18",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m3-p18-img"
   }
  ]
 }

@@ -236,6 +236,21 @@
     "audioScript": {
      "en": "Start with the molecule. GHK is a three-amino-acid peptide that circulates in human plasma; it was first described in 1973. It binds copper readily, and the copper complex, GHK-Cu, is what skin-care labels mean when they say copper peptide. The proposed mechanism is that GHK-Cu delivers copper to enzymes that build and protect the dermal matrix, such as lysyl oxidase and superoxide dismutase, and shifts gene expression toward wound healing. Two things to hold on to. First, this is a mechanism, which explains why the peptide might work and leaves open whether it does. Second, most of this literature was written by the group that discovered the peptide. Keep both in mind when you reach the trials."
     }
+   },
+   "imageBrief": {
+    "prompt": "A molecular illustration on plain paper: a short chain of EXACTLY THREE round beads in a row (a tripeptide — bead one, bead two, bead three, no more), shown large in the centre, with a single violet sphere (a copper ion) nestled against beads one and two. A few fine ink lines lead from the copper toward a faint band of dermal collagen fibres and two small enzyme shapes at one side. Plain paper background: no hair follicles, glands or cells behind the molecule, no sunburst. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m4-p03-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m4-p03-img",
+    "alt": {
+     "en": "A three-bead peptide holds a copper ion, with fine lines toward the collagen fibres and enzymes it is proposed to supply."
+    },
+    "treatment": "cover",
+    "position": "top"
    }
   },
   {
@@ -402,6 +417,21 @@
       }
      }
     }
+   },
+   "imageBrief": {
+    "prompt": "Side-by-side cross-sections of skin, separated by a thin vertical hairline. Left: a few small violet droplets rest on the skin surface and soak only into the outermost layer. Right: a small violet deposit lies deep in the dermis at the end of a narrow track from the surface, surrounded by a soft ring of irritated, swollen tissue drawn as a pale halo. No instruments appear. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m4-p06-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m4-p06-img",
+    "alt": {
+     "en": "Two skin cross-sections: drops resting on the surface on the left, and a deposit deep in the dermis with a ring of irritated tissue on the right."
+    },
+    "treatment": "cover",
+    "position": "top"
    }
   },
   {
@@ -524,6 +554,21 @@
     "audioScript": {
      "en": "Lesson two covers three families that fill the cosmetic and supplement shelves. Signal peptides, like palmitoyl pentapeptide-4, sold as Matrixyl, are fragments of matrix proteins meant to tell fibroblasts to make more collagen. SNAP-25 mimics, Argireline and its longer cousin SNAP-8, copy part of a nerve-terminal protein that botulinum toxin targets; the idea is a gentle, topical version of that effect. And oral collagen peptides are swallowed, not applied. Every one of these has trials behind it. As you go through them, keep asking one question before any other: who ran the trial, and who paid for it."
     }
+   },
+   "imageBrief": {
+    "prompt": "Three small vignettes side by side, separated by thin vertical hairlines. First: a short bead-chain peptide with a wavy fatty tail approaching a dermal fibroblast near collagen strands. Second: a nerve ending resting on a striped muscle fibre, with small round vesicles inside the nerve ending and a short bead chain sitting at the junction between them. Third: a simple outline of the stomach and upper intestine with a longer bead chain breaking into small two- and three-bead pieces inside it. The three peptides are violet. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m4-p08-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m4-p08-img",
+    "alt": {
+     "en": "Three vignettes: a fatty-tailed peptide near a skin fibroblast, a peptide at a nerve-muscle junction, and a collagen chain breaking into small pieces in the gut."
+    },
+    "treatment": "cover",
+    "position": "top"
    }
   },
   {
@@ -797,6 +842,21 @@
       }
      }
     }
+   },
+   "imageBrief": {
+    "prompt": "A flat, top-down plan view with no perspective: three parallel horizontal paper lanes, well separated, running left to right. Top lane: a single droplet near the right end, and nothing across the lane. Middle lane: a plain unmarked capsule near the right end, and nothing across the lane. Bottom lane: a plain round tablet near the left end, and a thick violet bar drawn straight across the bottom lane only, just to the right of the tablet, blocking it. Nothing crosses the top or middle lanes. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m4-p11-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m4-p11-img",
+    "alt": {
+     "en": "Three lanes: a droplet and a capsule pass freely, while a tablet waits at a violet barrier across the third lane."
+    },
+    "treatment": "cover",
+    "position": "top"
    }
   },
   {
@@ -921,6 +981,21 @@
     "audioScript": {
      "en": "Lesson three moves from the cosmetic shelf to the peptides patients buy online and inject. BPC-157 is a fifteen-residue peptide first described in 1993. Its evidence is a large rodent literature, most of it from one research group, and uncontrolled human case series. TB-500 is sold as thymosin, but when anti-doping chemists analysed the product they found a seven-residue fragment, residues seventeen to twenty-three of thymosin beta-four. That fragment has never been tested in a trial. KPV is the last three amino acids of alpha-MSH; it calms inflammation in mouse colitis models, and there is no randomized human trial of it for anything. All three have plausible mechanisms, and none has a controlled human trial."
     }
+   },
+   "imageBrief": {
+    "prompt": "Three elements in a row. Left: a small mouse silhouette standing on a low laboratory plinth. Centre: a long chain of many small grey round beads, with one short segment of seven beads from the first half of the chain lifted out above it and coloured violet — a fragment taken from the whole. Right: a shorter chain of grey beads whose last three beads at one end are coloured violet and slightly separated. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m4-p13-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m4-p13-img",
+    "alt": {
+     "en": "A mouse on a lab plinth, a long peptide chain with a short fragment lifted out, and a shorter chain with its last three beads set apart."
+    },
+    "treatment": "cover",
+    "position": "top"
    }
   },
   {
@@ -1338,7 +1413,22 @@
       "en": "Impurity and mislabelling are documented for adjacent products. The Hormonaly guide states that heavy-metal contamination is documented in these products; the published analysis behind that statement could not be found. The skin change needs assessment either way."
      }
     }
-   ]
+   ],
+   "imageBrief": {
+    "prompt": "Two elements joined by a thin ink line. Left: three different short bead-chain peptides, each with a different bead shape, tangled together in a loose cluster and coloured violet, with a few stray dark specks of unknown material among them. Right: a cross-section of the upper skin in which the pigment cells along the base of the epidermis are crowded with dark pigment granules that spread into the cells above, making the band darker in patches. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m4-p17-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m4-p17-img",
+    "alt": {
+     "en": "A tangle of three different peptides with stray specks among them, linked to a skin cross-section where pigment cells at the base of the epidermis are crowded with dark granules."
+    },
+    "treatment": "cover",
+    "position": "top"
+   }
   },
   {
    "id": "m4-p18",
@@ -1914,6 +2004,44 @@
    "block": "unit tutorContext",
    "change": "Tutor context adds the UK cosmetic, food-supplement and unlicensed-medicine position (same facts as the blocks).",
    "forReview": "Fady Hannah-Shmouni"
+  }
+ ],
+ "mediaChanges": [
+  {
+   "date": "2026-09-25",
+   "block": "m4-p03",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m4-p03-img"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m4-p06",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m4-p06-img"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m4-p08",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m4-p08-img"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m4-p11",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m4-p11-img"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m4-p13",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m4-p13-img"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m4-p17",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m4-p17-img"
   }
  ]
 }

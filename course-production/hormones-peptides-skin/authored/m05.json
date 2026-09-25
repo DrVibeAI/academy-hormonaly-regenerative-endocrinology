@@ -179,6 +179,21 @@
     "audioScript": {
      "en": "Each hair follicle behaves like a small gland. When researchers keep human scalp follicles alive in culture, the follicles answer corticotropin-releasing hormone the way the pituitary and adrenal glands do. They make ACTH and alpha-MSH, they secrete cortisol, and cortisol-like signals feed back to switch the stimulus down. The same follicles run a growth hormone and IGF-1 loop of their own. On the scalp, an enzyme called five-alpha-reductase turns testosterone into dihydrotestosterone, and in genetically susceptible follicles that hormone drives the gradual shrinking behind pattern hair loss. Growing follicles also hide from the immune system. When that protection collapses, immune cells attack the hair bulb, and the result is alopecia areata. Most of this biology comes from tissue kept alive outside the body, so hold it as mechanism, a reason something might matter in patients."
     }
+   },
+   "imageBrief": {
+    "prompt": "A single growing hair follicle in cross-section, drawn large: the hair shaft rising to the skin surface, a small sebaceous gland beside the upper follicle, and the rounded bulb at the base cupping the dermal papilla. Around the bulb runs a closed circular loop of three curved violet arrows. The bulb is wrapped in a faint protective shell, and a few small round immune cells wait outside the shell without entering. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m5-p02-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m5-p02-img",
+    "alt": {
+     "en": "A hair follicle with a closed feedback loop drawn around its bulb, which sits inside a faint protective shell that keeps nearby immune cells out."
+    },
+    "treatment": "cover",
+    "position": "top"
    }
   },
   {
@@ -484,6 +499,21 @@
       }
      }
     }
+   },
+   "imageBrief": {
+    "prompt": "Four simple views of the top of the head seen from directly above, in a row: each is a plain oval scalp covered with fine stipple dots for hair, with no face and no ears. First: sparse dots at the crown and a receding front. Second: evenly thinned dots across the whole scalp. Third: full density with one smooth, round, completely bare patch outlined in violet. Fourth: a widened central parting with thinning along it and a preserved front hairline. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m5-p05-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m5-p05-img",
+    "alt": {
+     "en": "Four views of the scalp from above: thinning at the crown and front, even thinning everywhere, one round bare patch, and a widened central parting."
+    },
+    "treatment": "cover",
+    "position": "top"
    }
   },
   {
@@ -603,6 +633,21 @@
     "audioScript": {
      "en": "Pigment starts with hormones the skin makes for itself. Skin cells produce a precursor called POMC and cut it into ACTH, alpha-MSH and beta-endorphin, and the same cells carry the receptors that answer them. There are five melanocortin receptors. MC1R sets the pigment of skin and hair. MC2R is the adrenal receptor for ACTH. MC3R and MC4R work in the brain on appetite, and central receptors also drive sexual responses. MC5R governs sebum. Researchers caution that the real map is messier, with receptors turning up in more tissues than the textbook suggests. For this lesson one idea matters most. A drug that stays on MC1R mostly changes pigment, and a drug that reaches the brain's receptors brings other effects with it."
     }
+   },
+   "imageBrief": {
+    "prompt": "Across the top of the frame, a long bead chain (the precursor) cut into three shorter violet pieces. Below it, a single neat row of exactly five small square tiles, evenly spaced, each with one small violet receptor cup at its top edge: tile one, a pigment cell with branching dendrites among skin cells; tile two, an adrenal gland capping the top of one kidney; tile three, a plain matte outline of the brain; tile four, the same plain brain outline again; tile five, a sebaceous gland beside a hair follicle. Only one kidney in the whole picture. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m5-p07-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m5-p07-img",
+    "alt": {
+     "en": "A precursor peptide cut into three pieces above a row of five receptor tiles: a pigment cell, an adrenal gland, the brain twice, and a sebaceous gland."
+    },
+    "treatment": "cover",
+    "position": "top"
    }
   },
   {
@@ -785,6 +830,21 @@
     "audioScript": {
      "en": "Now the harms, and the kind of evidence behind them. Everything here comes from case reports and reviews, which tell you what can happen and leave open how often it does. In the skin, existing moles darken and grow, new moles erupt in crops, some of them atypical under the microscope, and dark bands can appear in the nails. At least five melanomas have been reported during or after Melanotan use. Each patient had other risk factors, such as fair skin, sunbed use or a family history, so causation is unproven, and the concern rests on a drug that pushes melanocytes to multiply. Beyond the skin, reports describe priapism that needed surgery, a stimulant-like toxic reaction with muscle breakdown and kidney injury, and a brain swelling syndrome that FDA lists among the published serious events."
     }
+   },
+   "imageBrief": {
+    "prompt": "Two elements side by side, separated by a thin vertical hairline. Left: a small swatch of skin surface with several moles of varied size, some darker and larger, and a cluster of new small dark spots; one mole is outlined in violet. Right: a single fingertip seen from above with its nail, the nail plate showing one straight dark band running lengthwise from its base to its tip. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m5-p10-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m5-p10-img",
+    "alt": {
+     "en": "A patch of skin with darkened, varied moles and a crop of new small ones, beside a fingernail with a dark band running along its length."
+    },
+    "treatment": "cover",
+    "position": "top"
    }
   },
   {
@@ -927,6 +987,21 @@
       }
      }
     }
+   },
+   "imageBrief": {
+    "prompt": "Three elements in a row connected by a thin ink line. Left: a two-generation family tree in standard pedigree shapes — a circle above joined by a vertical line to a circle below; only the upper circle is filled violet. Centre: a small swatch of skin surface with several darker moles and a scatter of new small dark spots. Right: a fingertip seen from above whose nail shows one dark band running lengthwise. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m5-p11-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m5-p11-img",
+    "alt": {
+     "en": "A mother-and-daughter pedigree with the mother marked, a patch of skin with darker and new moles, and a fingernail with a dark band."
+    },
+    "treatment": "cover",
+    "position": "top"
    }
   },
   {
@@ -1114,6 +1189,21 @@
     "audioScript": {
      "en": "Two peptides are sold for hair, and both arrive with better stories than data. PTD-DBM joins a cell-penetrating fragment borrowed from an HIV protein to a short decoy sequence. Inside follicle cells, the decoy keeps a protein called CXXC5 from binding its partner, Dishevelled, and that releases a brake on Wnt signalling, a pathway involved in hair regrowth. In mice, hair regrew faster and follicles formed in healed wounds. The work came from the developer's own group. Zinc thymulin is a thymic hormone that becomes active only when zinc binds to it. How it might help hair has never been defined, and nobody has shown whether any effect would come from the peptide or from the zinc. Hold both as mechanism, and look for the human trial."
     }
+   },
+   "imageBrief": {
+    "prompt": "A molecular mechanism inside one follicle cell, drawn as simple shapes. A short violet bead-chain decoy, attached to a small tag that has carried it through the cell membrane, occupies a docking groove on a rounded signalling protein. A second, grey protein — the brake that would normally dock in that groove — floats free nearby, unable to attach. Downstream, small violet tokens gather in the cytoplasm and move into the round nucleus. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m5-p14-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m5-p14-img",
+    "alt": {
+     "en": "Inside a cell, a small decoy peptide keeps a brake protein from docking on a signalling protein, and small signal tokens move into the nucleus."
+    },
+    "treatment": "cover",
+    "position": "top"
    }
   },
   {
@@ -1407,6 +1497,21 @@
       }
      }
     }
+   },
+   "imageBrief": {
+    "prompt": "A flow of shapes laid out like a small map on paper. A single start token sits at the left. From it, a solid violet path runs to the right, passes under a small magnifying lens (the diagnosis), and ends at an open doorway at the right. Partway along, before the lens, a separate dashed grey branch splits off upward from the main path and stops dead at a closed grey gate; nothing passes that gate. No heads, no faces, no people. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m5-p17-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m5-p17-img",
+    "alt": {
+     "en": "A violet path passes under a magnifying lens to an open doorway, while a dashed side branch stops at a closed gate."
+    },
+    "treatment": "cover",
+    "position": "top"
    }
   },
   {
@@ -1964,6 +2069,50 @@
    "block": "unit tutorContext",
    "change": "Tutor context adds the UK facts above; EU marked as not covered.",
    "forReview": "Fady Hannah-Shmouni"
+  }
+ ],
+ "mediaChanges": [
+  {
+   "date": "2026-09-25",
+   "block": "m5-p02",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m5-p02-img"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m5-p05",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m5-p05-img"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m5-p07",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m5-p07-img"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m5-p10",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m5-p10-img"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m5-p11",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m5-p11-img"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m5-p14",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m5-p14-img"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m5-p17",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m5-p17-img"
   }
  ]
 }

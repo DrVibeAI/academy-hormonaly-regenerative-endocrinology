@@ -178,6 +178,21 @@
     "audioScript": {
      "en": "Two layers of skin listen to two different parts of the same axis. Growth hormone speaks mainly to the dermis. Its receptor is expressed more on fibroblasts than on keratinocytes, and in culture growth hormone increases fibroblast numbers and supports collagen synthesis, sometimes directly and sometimes through IGF-1. The epidermis listens to IGF-1. Keratinocytes carry the IGF-1 receptor, their neighbours in the dermis supply the hormone, and in culture IGF-1 makes keratinocytes divide where growth hormone on its own does nothing. Human hair follicles even keep a small growth-hormone loop running when they are cultured outside the body. With age, growth-hormone pulses and IGF-1 fall steadily, a change called the somatopause. Hold all of this as mechanism. It explains why the axis could matter for skin. Whether changing it helps a patient is a separate question, and the trials answer it."
     }
+   },
+   "imageBrief": {
+    "prompt": "A cross-section of skin, epidermis above and dermis below, with a small capillary in the dermis. Violet hormone tokens leave the capillary and dock on cup-shaped receptors on several dermal fibroblasts, which sit among collagen strands. From the fibroblasts, smaller pale-violet tokens drift upward to the base of the epidermis, where they dock on skin cells; two of those cells are shown dividing. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m6-p02-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m6-p02-img",
+    "alt": {
+     "en": "A skin cross-section where growth hormone from a capillary reaches fibroblasts in the dermis, which send smaller signals up to dividing cells at the base of the epidermis."
+    },
+    "treatment": "cover",
+    "position": "top"
    }
   },
   {
@@ -494,6 +509,21 @@
       }
      }
     }
+   },
+   "imageBrief": {
+    "prompt": "A side-by-side comparison, separated by a thin vertical hairline, of the pituitary gland hanging on its stalk beneath a plain, matte outline of the base of the brain. Left: a rounded mass grows within the gland and presses on it, and no droplets are released. Right: the same gland intact but releasing only a few small, widely spaced violet droplets downward. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m6-p05-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m6-p05-img",
+    "alt": {
+     "en": "Two views of the pituitary: one pressed by a mass and releasing nothing, the other intact but releasing only a few small droplets."
+    },
+    "treatment": "cover",
+    "position": "top"
    }
   },
   {
@@ -617,6 +647,21 @@
     "audioScript": {
      "en": "Four routes lead into the same axis, and patients rarely know which one they are on. Somatropin is growth hormone itself, made by recombinant technology. GHRH analogues, sermorelin, tesamorelin and CJC-1295, press on the pituitary's releasing-hormone receptor, so the gland releases its own growth hormone in pulses. Ghrelin-receptor agonists, ipamorelin, GHRP-2, GHRP-6 and the oral compound ibutamoren, press on a second pituitary receptor. IGF-1 analogues such as IGF-1 LR3 skip the pituitary and act on the IGF-1 receptor directly. Every route ends at that same receptor, which is why lesson three treats their risks together. Clinics often sell all of these as one family with one promise. Keep them apart, because the trials, the approvals and the side-effects belong to each molecule separately."
     }
+   },
+   "imageBrief": {
+    "prompt": "A simple hormone axis of shapes running LEFT TO RIGHT across the upper half of the frame: at the far left, a small node at the base of a plain matte brain outline, with a short stalk down to a pea-shaped gland; from that gland a thin vessel runs right to a liver shape in the middle; from the liver a vessel runs right to a small block of tissue at the far right. Four violet tokens enter the axis at different points: two at two different docking sites on the pea-shaped gland, one directly into the vessel just after that gland, and one directly onto the tissue block at the far right. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m6-p07-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m6-p07-img",
+    "alt": {
+     "en": "A hormone axis from the brain to the pituitary, liver and tissue, with four violet entry points: two on the pituitary, one in the bloodstream and one at the tissue itself."
+    },
+    "treatment": "cover",
+    "position": "top"
    }
   },
   {
@@ -1155,6 +1200,21 @@
       }
      }
     }
+   },
+   "imageBrief": {
+    "prompt": "Three plain cards in a row from left to right, each holding one simple drawing and no marks: first card, a short chain of round beads; second card, two neat parallel columns of small identical round tokens, one violet and one grey; third card, a closed gate. A thin violet line joins the three cards in order. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m6-p12-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m6-p12-img",
+    "alt": {
+     "en": "Three cards in order: a bead-chain molecule, two columns of tokens standing for trial evidence, and a closed gate for regulatory status."
+    },
+    "treatment": "cover",
+    "position": "top"
    }
   },
   {
@@ -1278,6 +1338,21 @@
     "audioScript": {
      "en": "Excess growth hormone leaves visible marks on skin and soft tissue, and noticing them early matters. In acromegaly, glycosaminoglycan deposits and oedema thicken the face, hands and feet, so features look puffy and coarse. The skin turns oily with large pores, sweating increases, and skin tags and acanthosis nigricans appear. Hands and feet enlarge slowly, and the jaw widens. Drugs on this axis bring their own signs, usually transient, with swelling, joint pain, tingling fingers and carpal tunnel symptoms. On somatropin, the label asks for existing moles to be watched for growth or malignant change. The Endocrine Society recommends measuring IGF-1 when typical acral and facial features are present, and suggests it when several associated conditions cluster. For most of you the job is recognition and referral, and the diagnosis belongs to endocrinology."
     }
+   },
+   "imageBrief": {
+    "prompt": "A side-by-side comparison, separated by a thin vertical hairline, of two hands seen from the back, drawn as plain flat outlines. Left: a hand of ordinary proportions. Right: a broader, thicker hand with wide, spade-like fingers and puffy soft tissue, filled with pale violet wash. Beneath each hand, a small skin cross-section: on the left of ordinary thickness; on the right thicker, with a swollen dermis dotted with small deposits and a few large open pores at the surface. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m6-p14-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m6-p14-img",
+    "alt": {
+     "en": "Two hands seen from the back, one of ordinary size and one broad and thick-fingered, each above a small skin section — the second thicker, with a swollen dermis and large pores."
+    },
+    "treatment": "cover",
+    "position": "top"
    }
   },
   {
@@ -1540,7 +1615,22 @@
       "en": "Carpal tunnel symptoms and hyperhidrosis are among the conditions that prompt IGF-1 testing; signs that persist off the product need an endocrine work-up."
      }
     }
-   ]
+   ],
+   "imageBrief": {
+    "prompt": "A single open hand seen from the palm side, drawn as a plain flat outline, with puffy, swollen fingers; a simple plain ring on the ring finger presses tightly into the swollen soft tissue, which bulges on either side of it, drawn in pale violet wash. Short, fine wavy violet lines along the thumb, index and middle fingers suggest tingling. Nothing else in the frame. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m6-p17-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m6-p17-img",
+    "alt": {
+     "en": "An open, puffy hand with a ring pressing into a swollen finger and fine wavy lines along the thumb, index and middle fingers suggesting tingling."
+    },
+    "treatment": "cover",
+    "position": "top"
+   }
   },
   {
    "id": "m6-p18",
@@ -2055,6 +2145,44 @@
    "block": "unit tutorContext",
    "change": "Tutor context adds the UK somatropin and secretagogue position.",
    "forReview": "Fady Hannah-Shmouni"
+  }
+ ],
+ "mediaChanges": [
+  {
+   "date": "2026-09-25",
+   "block": "m6-p02",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m6-p02-img"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m6-p05",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m6-p05-img"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m6-p07",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m6-p07-img"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m6-p12",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m6-p12-img"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m6-p14",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m6-p14-img"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m6-p17",
+   "change": "teaching still added (draft)",
+   "assetRef": "asset-hormones-peptides-skin-image-m6-p17-img"
   }
  ]
 }
