@@ -33,5 +33,6 @@ accreditation:
 notifications:
   newCourse: [push, email]
 auth:
+  tenantId: hormonaly-academy-srbsc   # Identity Platform tenant (project perceptors), created 2026-09-25 by perceptor tenant
   methods: [password, email-link]
 admins: [omar@hormonaly.ai, omar@perceptors.ai]   # Omar (reviewer of record / publish owner); add Hormonaly admins when named
