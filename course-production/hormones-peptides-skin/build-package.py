@@ -64,12 +64,56 @@ for f in sorted((HERE / "citations").glob("*.json")):
         entry["note"] = {"en": f"{c.get('design','')} · {c.get('independence','')} · role: {c.get('role','')}" + (f" · PMID {c['pmid']}" if c.get("pmid") else "") + (f" · {c['note']}" if c.get("note") else "")}
         CITATIONS.append(entry)
 AUTHORED = {f.stem: json.loads(f.read_text()) for f in sorted((HERE / "authored").glob("*.json"))}
+
+# --- jurisdictions researched after the US/UK build (citations/jurisdictions.json, from jurisdictions/<CODE>.json via the foundry's
+# tools/course/jurisdiction-registry.mjs). A jurisdiction's layers read "mapped" only once its notes sit on moments
+# (claimLocations of its j-<code>-NN claims); until then "review". Confirmation by the medical reviewer is tracked per module in
+# postApprovalChanges, like every other change after approval.
+JREG = LIT.get("jurisdictions", {})
+PLACED = {}
+for a in AUTHORED.values():
+    for cid, locs in (a.get("claimLocations") or {}).items():
+        if cid.startswith("j-"):
+            PLACED.setdefault(cid.split("-")[1].upper(), set()).update(locs)
+JURISDICTION_LAYER_TOPICS = {
+    "product": ("substances", None),
+    "claims": ("frameworks", {"advertising", "cosmetics", "supplements"}),
+    "practice": ("frameworks", {"compounding", "unlicensed", "professional", "import", "controlled", "research-use-only", "enforcement"}),
+}
+def _jprofile(code, info):
+    claims = [c for c in JREG.get("claims", []) if c.get("jurisdiction") == code]
+    placed = sorted(PLACED.get(code, set()))
+    status = "mapped" if placed else "review"
+    def detail(layer):
+        kind, topics = JURISDICTION_LAYER_TOPICS[layer]
+        n = sum(1 for c in claims if (c.get("kind") == "substance") == (kind == "substances") and (topics is None or c.get("subject") in topics))
+        return (f"{n} primary-source statement(s) researched {info.get('researchedAt')}; " +
+                (f"notes on {len(placed)} moment(s); confirmation pending with the post-approval changes." if placed else "not yet placed on moments."))
+    layers = [{"id": k, "status": status, "detail": detail(k)} for k in ("product", "claims", "practice")]
+    layers.append({"id": "locale", "status": status, "detail": "Base English edition; each note names its jurisdiction and date and is shown first to learners who choose that country."})
+    return {"code": code, "name": info.get("name", code),
+            "authorities": [{k: a[k] for k in ("name", "scope", "url") if a.get(k)} for a in info.get("authorities", [])],
+            "layers": layers, "reviewOwner": "Fady Hannah-Shmouni, MD FRCPC (confirmation pending)"}
+JURISDICTION_PROFILES = [_jprofile(code, info) for code, info in sorted(JREG.get("jurisdictions", {}).items())]
 CLAIM_LOCATIONS = {k: v for a in AUTHORED.values() for k, v in a.get("claimLocations", {}).items()}
 CLAIMS = [
     {"id": cl["id"], "text": cl["text"], "citationRefs": cl["citationRefs"], "status": cl["status"],
      "locations": CLAIM_LOCATIONS.get(cl["id"], [cl["unit"]]), "reviewNote": (cl.get("reviewNote") or "") + f" · grader: {reg['grader']}"}
     for reg in LIT.values() for cl in reg["claims"]
+    if reg["module"] != "jurisdictions" or cl["id"] in CLAIM_LOCATIONS  # research statements enter the package once a moment uses them
 ]
+# Jurisdiction sources likewise: only those a placed statement or an authored note cites (the registry keeps the full research).
+def _refs(node, out):
+    if isinstance(node, dict):
+        for k, v in node.items():
+            if k == "citationRefs" and isinstance(v, list): out.update(v)
+            else: _refs(v, out)
+    elif isinstance(node, list):
+        for v in node: _refs(v, out)
+    return out
+_JIDS = {c["id"] for c in JREG.get("citations", [])}
+_JUSED = _refs(list(AUTHORED.values()), set()) | {r for cl in CLAIMS for r in cl["citationRefs"]}
+CITATIONS[:] = [c for c in CITATIONS if c["id"] not in _JIDS or c["id"] in _JUSED]
 
 # --- pillars -------------------------------------------------------------
 PILLARS = ["physiology", "evidence-appraisal", "regulatory-safety", "patient-conversation"]
@@ -341,7 +385,7 @@ pkg = {
             ]],
             "reviewOwner": "Fady Hannah-Shmouni, MD FRCPC (confirmation pending)",
         },
-    ],
+    ] + JURISDICTION_PROFILES,
     "provenance": {
         "sourceLock": {
             "lockedAt": TODAY,

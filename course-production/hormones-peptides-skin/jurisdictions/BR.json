@@ -1,0 +1,1392 @@
+{
+  "jurisdiction": {
+    "code": "BR",
+    "name": "Brazil",
+    "authorities": [
+      {
+        "name": "ANVISA – Agência Nacional de Vigilância Sanitária",
+        "scope": "Medicine registration and approved labels (bulas), compounding-pharmacy good practice and GLP-1 compounding rules, controlled-substance lists (Portaria SVS/MS 344/1998), cosmetics, food supplements and claims, medicine advertising, import control, and enforcement (Resoluções-RE)",
+        "url": "https://www.gov.br/anvisa/pt-br"
+      },
+      {
+        "name": "CFM – Conselho Federal de Medicina",
+        "scope": "Professional ethics rules for physicians, including hormone therapy for aesthetic or anti-ageing purposes and medical advertising",
+        "url": "https://portal.cfm.org.br"
+      }
+    ]
+  },
+  "researchedAt": "2026-09-25",
+  "sources": [
+    {
+      "id": "br-anvisa-register-opendata",
+      "title": "Dados abertos de medicamentos registrados (DADOS_ABERTOS_MEDICAMENTOS.csv)",
+      "authors": "Agência Nacional de Vigilância Sanitária (Anvisa)",
+      "publication": "Anvisa open-data portal (extract of the DATAVISA register)",
+      "year": 2026,
+      "url": "https://dados.anvisa.gov.br/dados/DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "sourceType": "register",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": "File Last-Modified 25 Sep 2026 10:22 GMT; 43,558 rows (17,078 Ativo / 26,230 Inativo). Searched by product name and PRINCIPIO_ATIVO for every course substance on 25 Sep 2026."
+    },
+    {
+      "id": "br-anvisa-register-dictionary",
+      "title": "Documentação e Dicionário de Dados – Registros Válidos Medicamento V1",
+      "authors": "Agência Nacional de Vigilância Sanitária (Anvisa)",
+      "publication": "Anvisa open-data portal",
+      "year": 2026,
+      "url": "https://dados.anvisa.gov.br/dados/Documentacao_e_Dicionario_de_Dados_Registros_Validos_Medicamento_V1.pdf",
+      "sourceType": "register",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": "States the open-data file covers all medicines registered in Brazil held in DATAVISA; used to support absence findings."
+    },
+    {
+      "id": "br-anvisa-consultas-medicamentos",
+      "title": "Consultas – Medicamentos (product and substance search)",
+      "authors": "Agência Nacional de Vigilância Sanitária (Anvisa)",
+      "publication": "consultas.anvisa.gov.br",
+      "year": 2026,
+      "url": "https://consultas.anvisa.gov.br/#/medicamentos/",
+      "sourceType": "register",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": "Read in a browser (plain requests are blocked by Cloudflare). Queried product names SCENESSE, AFAMELANOTIDA, EGRIFTA, TESAMORELINA, RETATRUTIDA, MELANOTAN, SERMORELINA, IPAMORELINA, IBUTAMOREN, BPC, ZEPBOUND (0 results each) and PROPECIA, LONITEN (Inativo); substance dictionary has no entry for afamelanot*, tesamorel*, melanot*, retatrut*, sermorel*, ipamorel*, ibutamor*, catelicid*; substance-code search: tirzepatida = 2 products (Mounjaro, Mounjaro Multidose), semaglutida = 15 active products, baricitinibe = 1 (Olumiant)."
+    },
+    {
+      "id": "br-label-ozempic",
+      "title": "Ozempic (semaglutida) – bula profissional",
+      "authors": "Novo Nordisk Farmacêutica do Brasil Ltda (Anvisa-approved package leaflet)",
+      "publication": "Anvisa Bulário Eletrônico",
+      "year": 2026,
+      "url": "https://consultas.anvisa.gov.br/#/bulario/q/?nomeProduto=OZEMPIC",
+      "sourceType": "label",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": "Bula dated 17 Apr 2026 in the Bulário; register no. 117660036, registered 6 Aug 2018."
+    },
+    {
+      "id": "br-label-wegovy",
+      "title": "Wegovy (semaglutida) – bula profissional",
+      "authors": "Novo Nordisk Farmacêutica do Brasil Ltda (Anvisa-approved package leaflet)",
+      "publication": "Anvisa Bulário Eletrônico",
+      "year": 2026,
+      "url": "https://consultas.anvisa.gov.br/#/bulario/q/?nomeProduto=WEGOVY",
+      "sourceType": "label",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": "Bula dated 4 May 2026; register no. 117660039, registered 2 Jan 2023."
+    },
+    {
+      "id": "br-label-mounjaro",
+      "title": "Mounjaro (tirzepatida) – bula profissional",
+      "authors": "Eli Lilly do Brasil Ltda (Anvisa-approved package leaflet)",
+      "publication": "Anvisa Bulário Eletrônico",
+      "year": 2026,
+      "url": "https://consultas.anvisa.gov.br/#/bulario/q/?nomeProduto=MOUNJARO",
+      "sourceType": "label",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": "Bula dated 21 May 2026; register no. 112600202, registered 25 Sep 2023."
+    },
+    {
+      "id": "br-label-olumiant",
+      "title": "Olumiant (baricitinibe) – bula profissional",
+      "authors": "Eli Lilly do Brasil Ltda (Anvisa-approved package leaflet)",
+      "publication": "Anvisa Bulário Eletrônico",
+      "year": 2026,
+      "url": "https://consultas.anvisa.gov.br/#/bulario/q/?nomeProduto=OLUMIANT",
+      "sourceType": "label",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": "Bula dated 2 Jul 2026; register no. 112600198, registered 26 Nov 2018."
+    },
+    {
+      "id": "br-label-prohair",
+      "title": "Pro Hair (finasterida 1 mg) – bula profissional",
+      "authors": "União Química Farmacêutica Nacional S/A (Anvisa-approved package leaflet)",
+      "publication": "Anvisa Bulário Eletrônico",
+      "year": 2021,
+      "url": "https://consultas.anvisa.gov.br/#/bulario/q/?nomeProduto=PROHAIR",
+      "sourceType": "label",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": "Bula dated 24 Sep 2021; register no. 104971177 (Ativo)."
+    },
+    {
+      "id": "br-label-aloxidil",
+      "title": "Aloxidil 5% (minoxidil) – bula profissional",
+      "authors": "Theraskin Farmacêutica Ltda (Anvisa-approved package leaflet)",
+      "publication": "Anvisa Bulário Eletrônico",
+      "year": 2025,
+      "url": "https://consultas.anvisa.gov.br/#/bulario/q/?nomeProduto=ALOXIDIL",
+      "sourceType": "label",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": "Bula dated 18 Dec 2025; register no. 101910304 (Ativo)."
+    },
+    {
+      "id": "br-label-vitacid",
+      "title": "Vitacid (tretinoína) – bula profissional",
+      "authors": "Theraskin Farmacêutica Ltda (Anvisa-approved package leaflet)",
+      "publication": "Anvisa Bulário Eletrônico",
+      "year": 2025,
+      "url": "https://consultas.anvisa.gov.br/#/bulario/q/?nomeProduto=VITACID",
+      "sourceType": "label",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": "Bula dated 18 Dec 2025; register no. 101910267 (Ativo)."
+    },
+    {
+      "id": "br-label-oestrogel",
+      "title": "Oestrogel (estradiol) – bula profissional",
+      "authors": "Besins Healthcare Brasil (Anvisa-approved package leaflet)",
+      "publication": "Anvisa Bulário Eletrônico",
+      "year": 2025,
+      "url": "https://consultas.anvisa.gov.br/#/bulario/q/?nomeProduto=OESTROGEL",
+      "sourceType": "label",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": "Bula dated 27 Aug 2025; register no. 187590002 (Ativo). Only this estradiol label was read."
+    },
+    {
+      "id": "br-label-genotropin",
+      "title": "Genotropin (somatropina) – bula profissional",
+      "authors": "Pfizer Brasil Ltda (Anvisa-approved package leaflet)",
+      "publication": "Anvisa Bulário Eletrônico",
+      "year": 2025,
+      "url": "https://consultas.anvisa.gov.br/#/bulario/q/?nomeProduto=GENOTROPIN",
+      "sourceType": "label",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": "Bula dated 11 Dec 2025; register no. 121100459 (Ativo)."
+    },
+    {
+      "id": "br-anvisa-peptides-2026",
+      "title": "Checamos: peptídeos que prometem milagres NÃO estão registrados na Anvisa",
+      "authors": "Agência Nacional de Vigilância Sanitária (Anvisa)",
+      "publication": "gov.br/anvisa – Notícias",
+      "year": 2026,
+      "url": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/checamos-peptideos-que-prometem-milagres-nao-estao-registrados-na-anvisa",
+      "sourceType": "regulator",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": "Published 2 Jul 2026."
+    },
+    {
+      "id": "br-anvisa-retatrutide-2026",
+      "title": "Retatrutida ainda NÃO está aprovada para uso em nenhum lugar do mundo",
+      "authors": "Agência Nacional de Vigilância Sanitária (Anvisa)",
+      "publication": "gov.br/anvisa – Notícias",
+      "year": 2026,
+      "url": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/retatrutida-ainda-nao-esta-aprovada-para-uso-em-nenhum-lugar-do-mundo",
+      "sourceType": "regulator",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": "Published 24 Jul 2026."
+    },
+    {
+      "id": "br-dou-re-3480-2026",
+      "title": "Resolução-RE nº 3.480, de 3 de setembro de 2026",
+      "authors": "Anvisa – Gerência-Geral de Inspeção e Fiscalização Sanitária",
+      "publication": "Diário Oficial da União, Seção 1, 8 Sep 2026, p. 147",
+      "year": 2026,
+      "url": "https://www.in.gov.br/web/dou/-/resolucao-re-n-3.480-de-3-de-setembro-de-2026-730267353",
+      "sourceType": "legislation",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": ""
+    },
+    {
+      "id": "br-dou-re-2318-2026",
+      "title": "Resolução-RE nº 2.318, de 9 de junho de 2026",
+      "authors": "Anvisa – Coordenação de Pesquisa Clínica em Medicamentos e Produtos Biológicos",
+      "publication": "Diário Oficial da União, Seção 1, 10 Jun 2026, p. 310",
+      "year": 2026,
+      "url": "https://www.in.gov.br/web/dou/-/resolucao-re-n-2.318-de-9-de-junho-de-2026-711403496",
+      "sourceType": "legislation",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": "Refusal of clinical-trial petitions (DDCM) for ibutamoren mesylate (LUM-201)."
+    },
+    {
+      "id": "br-anvisa-glp1-compounding-2025",
+      "title": "Anvisa esclarece e determina regras para manipulação de canetas de GLP-1",
+      "authors": "Agência Nacional de Vigilância Sanitária (Anvisa)",
+      "publication": "gov.br/anvisa – Notícias",
+      "year": 2025,
+      "url": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2025/anvisa-esclarece-e-determina-regras-para-manipulacao-de-canetas-de-glp-1",
+      "sourceType": "regulator",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": "Published 25 Aug 2025; approves Nota Técnica 200/2025 (Circuito Deliberativo 898/2025, 22 Aug 2025)."
+    },
+    {
+      "id": "br-anvisa-nt200-2025",
+      "title": "Nota Técnica nº 200/2025/SEI/GIMED/GGFIS/DIRE4/ANVISA – importação, manipulação e controle sanitário de IFAs agonistas GLP-1",
+      "authors": "Anvisa – GIMED/GGFIS",
+      "publication": "gov.br/anvisa",
+      "year": 2025,
+      "url": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2025/anvisa-esclarece-e-determina-regras-para-manipulacao-de-canetas-de-glp-1/SEI_3775484_Nota_Tecnica_2002.pdf",
+      "sourceType": "regulator",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": ""
+    },
+    {
+      "id": "br-anvisa-glp1-actionplan-2026",
+      "title": "Anvisa anuncia novas medidas de combate a irregularidades na importação e manipulação de canetas emagrecedoras",
+      "authors": "Agência Nacional de Vigilância Sanitária (Anvisa)",
+      "publication": "gov.br/anvisa – Notícias",
+      "year": 2026,
+      "url": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-anuncia-novas-medidas-de-combate-a-irregularidades-na-importacao-e-manipulacao-de-canetas-emagrecedoras",
+      "sourceType": "regulator",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": "Published 6 Apr 2026."
+    },
+    {
+      "id": "br-anvisa-glp1-draft-in-2026",
+      "title": "Anvisa discute norma para manipulação de canetas emagrecedoras",
+      "authors": "Agência Nacional de Vigilância Sanitária (Anvisa)",
+      "publication": "gov.br/anvisa – Notícias",
+      "year": 2026,
+      "url": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-discute-norma-para-manipulacao-de-canetas-emagrecedoras",
+      "sourceType": "regulator",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": "Published 17 Apr 2026; adoption of the draft IN not confirmed (see notVerified)."
+    },
+    {
+      "id": "br-anvisa-voto-101-2026",
+      "title": "Voto nº 101/2026/SEI/DIRE4/ANVISA",
+      "authors": "Anvisa – Diretoria Colegiada (Quarta Diretoria)",
+      "publication": "gov.br/anvisa – votos dos circuitos deliberativos",
+      "year": 2026,
+      "url": "https://www.gov.br/anvisa/pt-br/composicao/diretoria-colegiada/reunioes-da-diretoria/votos-dos-circuitos-deliberativos-1/2026-1/cd-0308-2026-voto.pdf",
+      "sourceType": "regulator",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": "Access-to-information appeal; restates the legal basis for magistral pharmacies."
+    },
+    {
+      "id": "br-anvisa-glp1-retention-2025",
+      "title": "Medicamentos agonistas GLP-1 só poderão ser vendidos com retenção da receita",
+      "authors": "Agência Nacional de Vigilância Sanitária (Anvisa)",
+      "publication": "gov.br/anvisa – Notícias",
+      "year": 2025,
+      "url": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2025/canetas-emagrecedoras-so-poderao-ser-vendidas-com-retencao-de-receita",
+      "sourceType": "regulator",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": "Published 16 Apr 2025 (Diretoria Colegiada decision)."
+    },
+    {
+      "id": "br-anvisa-glp1-qa-2025",
+      "title": "Perguntas e respostas – RDC nº 973/2025 e IN nº 360/2025 (agonistas do receptor GLP-1)",
+      "authors": "Anvisa – DIRE5/GGMON/GPCON",
+      "publication": "gov.br/anvisa – publicações",
+      "year": 2025,
+      "url": "https://www.gov.br/anvisa/pt-br/centraisdeconteudo/publicacoes/medicamentos/controlados/perguntas_respostas_glp1_2025_06_v1_final.pdf",
+      "sourceType": "regulator",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": "June 2025, v1."
+    },
+    {
+      "id": "br-anvisa-semaglutide-synthetic-2026",
+      "title": "Anvisa aprova primeira caneta de semaglutida sintética análoga ao Ozempic para diabetes",
+      "authors": "Agência Nacional de Vigilância Sanitária (Anvisa)",
+      "publication": "gov.br/anvisa – Notícias",
+      "year": 2026,
+      "url": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-aprova-primeira-caneta-de-semaglutida-sintetica-analoga-ao-ozempic-para-diabetes",
+      "sourceType": "regulator",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": "Published 26 May 2026 (Resolução-RE 2.122/2026)."
+    },
+    {
+      "id": "br-anvisa-semaglutide-five-2026",
+      "title": "Anvisa registra cinco novas canetas de semaglutida",
+      "authors": "Agência Nacional de Vigilância Sanitária (Anvisa)",
+      "publication": "gov.br/anvisa – Notícias",
+      "year": 2026,
+      "url": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-registra-cinco-novas-canetas-de-semaglutida",
+      "sourceType": "regulator",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": "Published 29 Jul 2026 (REs 2.941/2026 and 2.942/2026)."
+    },
+    {
+      "id": "br-anvisa-tirzepatide-seizure-2026",
+      "title": "Anvisa proíbe venda de tirzepatida irregular",
+      "authors": "Agência Nacional de Vigilância Sanitária (Anvisa)",
+      "publication": "gov.br/anvisa – Notícias",
+      "year": 2026,
+      "url": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-proibe-venda-de-tirzepatida-irregular",
+      "sourceType": "regulator",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": "Published 2 Jun 2026 (Resolução-RE 2.238/2026)."
+    },
+    {
+      "id": "br-anvisa-pens-seizure-2026",
+      "title": "Anvisa determina apreensão de canetas emagrecedoras sem registro",
+      "authors": "Agência Nacional de Vigilância Sanitária (Anvisa)",
+      "publication": "gov.br/anvisa – Notícias",
+      "year": 2026,
+      "url": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-determina-apreensao-de-canetas-emagrecedoras-sem-registro-sanitario",
+      "sourceType": "regulator",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": "Published 23 Feb 2026 (Resolução-RE 690/2026)."
+    },
+    {
+      "id": "br-anvisa-compounding-pharmacies-2026",
+      "title": "Anvisa proíbe venda e propaganda de produtos de farmácias de manipulação",
+      "authors": "Agência Nacional de Vigilância Sanitária (Anvisa)",
+      "publication": "gov.br/anvisa – Notícias",
+      "year": 2026,
+      "url": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-proibe-venda-e-propaganda-de-produtos-de-farmacias-de-manipulacao",
+      "sourceType": "regulator",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": "Published 27 Apr 2026 (REs 1.683/2026 and 1.684/2026)."
+    },
+    {
+      "id": "br-anvisa-pf-2026",
+      "title": "Anvisa e Polícia Federal farão análise conjunta de canetas irregulares apreendidas",
+      "authors": "Agência Nacional de Vigilância Sanitária (Anvisa)",
+      "publication": "gov.br/anvisa – Notícias",
+      "year": 2026,
+      "url": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-e-policia-federal-farao-analise-conjunta-de-canetas-irregulares-apreendidas",
+      "sourceType": "regulator",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": "Published 6 May 2026; the joint technical note itself was not read."
+    },
+    {
+      "id": "br-anvisa-ozempic-falsified-2023",
+      "title": "Anvisa alerta sobre falsificação dos medicamentos Tysabri® e Ozempic®",
+      "authors": "Agência Nacional de Vigilância Sanitária (Anvisa)",
+      "publication": "gov.br/anvisa – Notícias",
+      "year": 2023,
+      "url": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2023/anvisa-alertasobre-falsificacao-dos-medicamentos-tysabri-r-e-ozempic-r",
+      "sourceType": "regulator",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": "Published 3 Nov 2023; Ozempic measure = Resolução-RE 3.945/2023."
+    },
+    {
+      "id": "br-anvisa-ozempic-falsified-2024",
+      "title": "Anvisa alerta sobre falsificação do medicamento Ozempic",
+      "authors": "Agência Nacional de Vigilância Sanitária (Anvisa)",
+      "publication": "gov.br/anvisa – Notícias",
+      "year": 2024,
+      "url": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2024/anvisa-alertasobre-falsificacao-do-medicamento-ozempic-r",
+      "sourceType": "regulator",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": "Published 29 Oct 2024."
+    },
+    {
+      "id": "br-dou-re-3240-2026",
+      "title": "Resolução-RE nº 3.240, de 14 de agosto de 2026",
+      "authors": "Anvisa – Gerência-Geral de Inspeção e Fiscalização Sanitária",
+      "publication": "Diário Oficial da União, Seção 1, 17 Aug 2026, p. 142",
+      "year": 2026,
+      "url": "https://www.in.gov.br/web/dou/-/resolucao-re-n-3.240-de-14-de-agosto-de-2026-725591781",
+      "sourceType": "legislation",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": "Falsified Mounjaro lot 955010."
+    },
+    {
+      "id": "br-anvisa-pancreatitis-2026",
+      "title": "Anvisa emite alerta para risco de pancreatite aguda associada ao uso indevido de canetas emagrecedoras",
+      "authors": "Agência Nacional de Vigilância Sanitária (Anvisa)",
+      "publication": "gov.br/anvisa – Notícias",
+      "year": 2026,
+      "url": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-emite-alerta-para-risco-de-pancreatite-aguda-associada-ao-uso-indevido-de-canetas-emagrecedoras",
+      "sourceType": "regulator",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": "Published 9 Feb 2026, modified 1 Aug 2026."
+    },
+    {
+      "id": "br-anvisa-import-pf-page",
+      "title": "Importações por pessoa física",
+      "authors": "Agência Nacional de Vigilância Sanitária (Anvisa)",
+      "publication": "gov.br/anvisa – Portos, aeroportos e fronteiras",
+      "year": 2020,
+      "url": "https://www.gov.br/anvisa/pt-br/assuntos/paf/anuencia/controle-administrativo-anvisa-no-comercio-exterior/importacao-de-produtos/importacoes-por-pessoa-fisica/importacao",
+      "sourceType": "regulator",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": "Page dated 21 Sep 2020; RDC 81/2008 text itself not read."
+    },
+    {
+      "id": "br-anvisa-import-pens-2025",
+      "title": "Anvisa informa sobre proibição de ingresso de canetas emagrecedoras no Brasil",
+      "authors": "Agência Nacional de Vigilância Sanitária (Anvisa)",
+      "publication": "gov.br/anvisa – Notícias",
+      "year": 2025,
+      "url": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2025/anvisa-esclarece-sobre-proibicao-de-ingresso-de-canetas-emagrecedoras",
+      "sourceType": "regulator",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": "Published 20 Nov 2025."
+    },
+    {
+      "id": "br-anvisa-import-guidance-2025",
+      "title": "Anvisa reforça orientações sobre importação de produtos para tratamento de saúde",
+      "authors": "Agência Nacional de Vigilância Sanitária (Anvisa)",
+      "publication": "gov.br/anvisa – Notícias",
+      "year": 2025,
+      "url": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2025/anvisa-reforca-orientacoes-sobre-importacao-de-produtos-para-tratamento-de-saude",
+      "sourceType": "regulator",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": "Published 4 Sep 2025."
+    },
+    {
+      "id": "br-anvisa-medicine-types-2026",
+      "title": "Autorizado, importado, experimental ou falsificado? Anvisa explica as diferenças entre os medicamentos",
+      "authors": "Agência Nacional de Vigilância Sanitária (Anvisa)",
+      "publication": "gov.br/anvisa – Notícias",
+      "year": 2026,
+      "url": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/autorizado-importado-experimental-ou-falsificado-anvisa-explica-as-diferencas-entre-os-medicamentos",
+      "sourceType": "regulator",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": "Published 13 Jul 2026."
+    },
+    {
+      "id": "br-lei-6360-1976",
+      "title": "Lei nº 6.360, de 23 de setembro de 1976 (vigilância sanitária de medicamentos)",
+      "authors": "Presidência da República",
+      "publication": "planalto.gov.br",
+      "year": 1976,
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l6360.htm",
+      "sourceType": "legislation",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": ""
+    },
+    {
+      "id": "br-cp-art273",
+      "title": "Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), art. 273 – texto compilado",
+      "authors": "Presidência da República",
+      "publication": "planalto.gov.br",
+      "year": 1940,
+      "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+      "sourceType": "legislation",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": "Compiled text does not annotate the STF ruling; read with br-stf-tema1003."
+    },
+    {
+      "id": "br-stf-tema1003",
+      "title": "STF estende tese sobre pena por importação de medicamento sem registro sanitário (RE 979.962, Tema 1003)",
+      "authors": "Supremo Tribunal Federal",
+      "publication": "portal.stf.jus.br – Notícias",
+      "year": 2023,
+      "url": "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=509391&ori=1",
+      "sourceType": "legislation",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": "Published 22 Jun 2023; primary court source outside the regulator list."
+    },
+    {
+      "id": "br-lei-9294-1996",
+      "title": "Lei nº 9.294, de 15 de julho de 1996 (restrições à propaganda de medicamentos e terapias)",
+      "authors": "Presidência da República",
+      "publication": "planalto.gov.br",
+      "year": 1996,
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l9294.htm",
+      "sourceType": "legislation",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": ""
+    },
+    {
+      "id": "br-lei-9965-2000",
+      "title": "Lei nº 9.965, de 27 de abril de 2000 (restringe a venda de esteróides ou peptídeos anabolizantes)",
+      "authors": "Presidência da República",
+      "publication": "planalto.gov.br",
+      "year": 2000,
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l9965.htm",
+      "sourceType": "legislation",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": ""
+    },
+    {
+      "id": "br-rdc-96-2008",
+      "title": "Resolução-RDC nº 96, de 17 de dezembro de 2008 (propaganda de medicamentos)",
+      "authors": "Anvisa – Diretoria Colegiada",
+      "publication": "gov.br/anvisa – legislação de propaganda",
+      "year": 2008,
+      "url": "https://www.gov.br/anvisa/pt-br/assuntos/fiscalizacao-e-monitoramento/propaganda/legislacao/arquivos/8812json-file-1",
+      "sourceType": "legislation",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": ""
+    },
+    {
+      "id": "br-rdc-907-2024",
+      "title": "Resolução RDC nº 907, de 19 de setembro de 2024 (produtos de higiene pessoal, cosméticos e perfumes)",
+      "authors": "Anvisa – Diretoria Colegiada",
+      "publication": "Diário Oficial da União, Seção 1, 23 Sep 2024, p. 212",
+      "year": 2024,
+      "url": "https://www.in.gov.br/web/dou/-/resolucao-rdc-n-907-de-19-de-setembro-de-2024-585939539",
+      "sourceType": "legislation",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": "Art. 51 revokes RDC 752/2022."
+    },
+    {
+      "id": "br-anvisa-cosmetics-opendata",
+      "title": "Consulta de cosméticos regularizados (TA_CONSULTA_COSMETICOS.CSV)",
+      "authors": "Agência Nacional de Vigilância Sanitária (Anvisa)",
+      "publication": "Anvisa open-data portal",
+      "year": 2026,
+      "url": "https://dados.anvisa.gov.br/dados/CONSULTAS/PRODUTOS/TA_CONSULTA_COSMETICOS.CSV",
+      "sourceType": "register",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": "File Last-Modified 25 Sep 2026; 221 rows with 'GHK' in the product name, all 'Notificado'. The meaning of the ST_SITUACAO_PRODUTO flag is not documented."
+    },
+    {
+      "id": "br-dou-re-1771-2026",
+      "title": "Resolução-RE nº 1.771, de 29 de abril de 2026",
+      "authors": "Anvisa – Gerência-Geral de Cosméticos e Saneantes",
+      "publication": "Diário Oficial da União, Seção 1, 4 May 2026, p. 174",
+      "year": 2026,
+      "url": "https://www.in.gov.br/web/dou/-/resolucao-re-n-1.771-de-29-de-abril-de-2026-702828226",
+      "sourceType": "legislation",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": "Cancels cosmetic processes including several GHK-Cu-named products; reasons not stated."
+    },
+    {
+      "id": "br-rdc-243-2018",
+      "title": "Resolução da Diretoria Colegiada – RDC nº 243, de 26 de julho de 2018 (suplementos alimentares)",
+      "authors": "Anvisa – Diretoria Colegiada",
+      "publication": "Diário Oficial da União, Seção 1, 27 Jul 2018, p. 100",
+      "year": 2018,
+      "url": "https://www.in.gov.br/web/dou/-/resolucao-da-diretoria-colegiada-rdc-n-243-de-26-de-julho-de-2018-34379917",
+      "sourceType": "legislation",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": ""
+    },
+    {
+      "id": "br-anvisa-supplements-ingredients",
+      "title": "Ingredientes autorizados – suplementos alimentares",
+      "authors": "Agência Nacional de Vigilância Sanitária (Anvisa)",
+      "publication": "gov.br/anvisa",
+      "year": 2026,
+      "url": "https://www.gov.br/anvisa/pt-br/assuntos/alimentos/suplementos-alimentares/ingredientes",
+      "sourceType": "regulator",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": ""
+    },
+    {
+      "id": "br-anvisa-supplements-qa-2025",
+      "title": "Perguntas e respostas sobre suplementos alimentares, 9ª edição",
+      "authors": "Anvisa – Gerência-Geral de Alimentos",
+      "publication": "gov.br/anvisa – publicações",
+      "year": 2025,
+      "url": "https://www.gov.br/anvisa/pt-br/centraisdeconteudo/publicacoes/alimentos/perguntas-e-respostas-arquivos/suplementos-alimentares.pdf",
+      "sourceType": "regulator",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": "9th edition, 16 Jan 2025; question 79 (collagen)."
+    },
+    {
+      "id": "br-rdc-1036-2026",
+      "title": "Resolução da Diretoria Colegiada Anvisa nº 1.036, de 9 de julho de 2026 (atualização do Anexo I da Portaria SVS/MS nº 344/1998)",
+      "authors": "Anvisa – Diretoria Colegiada",
+      "publication": "AnvisaLegis (anvisalegis.datalegis.net)",
+      "year": 2026,
+      "url": "https://anvisalegis.datalegis.net/action/ActionDatalegis.php?acao=abrirTextoAto&tipo=RDC&numeroAto=00001036&seqAto=000&valorAno=2026&orgao=RDC/DC/ANVISA/MS&codTipo=&desItem=&desItemFim=&cod_menu=1696&cod_modulo=134&pesquisa=true",
+      "sourceType": "legislation",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": "Marked 'versão vigente' on Anvisa's controlled-substances page on 25 Sep 2026."
+    },
+    {
+      "id": "br-anvisa-controlled-lists-page",
+      "title": "Lista de substâncias sujeitas a controle especial no Brasil",
+      "authors": "Agência Nacional de Vigilância Sanitária (Anvisa)",
+      "publication": "gov.br/anvisa",
+      "year": 2026,
+      "url": "https://www.gov.br/anvisa/pt-br/assuntos/medicamentos/controlados/lista-substancias",
+      "sourceType": "regulator",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": ""
+    },
+    {
+      "id": "br-anvisa-implants-2024",
+      "title": "Implantes hormonais: novas medidas vão impor mais rigor à manipulação",
+      "authors": "Agência Nacional de Vigilância Sanitária (Anvisa)",
+      "publication": "gov.br/anvisa – Notícias",
+      "year": 2024,
+      "url": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2024/implantes-hormonais-novas-medidas-vao-impor-mais-rigor-a-manipulacao",
+      "sourceType": "regulator",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": "Published 26 Nov 2024 (Resolução-RE 4.353/2024 of 22 Nov 2024)."
+    },
+    {
+      "id": "br-cfm-2333-2023",
+      "title": "Resolução CFM nº 2.333/2023",
+      "authors": "Conselho Federal de Medicina",
+      "publication": "Diário Oficial da União, Seção 1, 11 Apr 2023, p. 226 (CFM normas)",
+      "year": 2023,
+      "url": "https://sistemas.cfm.org.br/normas/arquivos/resolucoes/BR/2023/2333_2023.pdf",
+      "sourceType": "legislation",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": "Status 'Em vigor' on portal.cfm.org.br norms search, 25 Sep 2026."
+    },
+    {
+      "id": "br-cfm-1999-2012",
+      "title": "Resolução CFM nº 1.999/2012",
+      "authors": "Conselho Federal de Medicina",
+      "publication": "Diário Oficial da União, Seção 1, 19 Oct 2012, p. 139 (CFM normas)",
+      "year": 2012,
+      "url": "https://sistemas.cfm.org.br/normas/arquivos/resolucoes/BR/2012/1999_2012.pdf",
+      "sourceType": "legislation",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": "Status 'Em vigor' on portal.cfm.org.br norms search, 25 Sep 2026."
+    },
+    {
+      "id": "br-cfm-2336-2023",
+      "title": "Resolução CFM nº 2.336/2023 (publicidade e propaganda médicas)",
+      "authors": "Conselho Federal de Medicina",
+      "publication": "Diário Oficial da União, Seção 1, 13 Sep 2023, p. 312 (CFM normas)",
+      "year": 2023,
+      "url": "https://sistemas.cfm.org.br/normas/arquivos/resolucoes/BR/2023/2336_2023.pdf",
+      "sourceType": "legislation",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": "Status 'Em vigor' on portal.cfm.org.br norms search, 25 Sep 2026."
+    },
+    {
+      "id": "br-cfm-norms-search",
+      "title": "Buscar normas CFM e CRM",
+      "authors": "Conselho Federal de Medicina",
+      "publication": "portal.cfm.org.br",
+      "year": 2026,
+      "url": "https://portal.cfm.org.br/buscar-normas-cfm-e-crm/",
+      "sourceType": "regulator",
+      "language": "pt",
+      "readAt": "2026-09-25",
+      "note": "Used to confirm 'Situação: Em vigor' for Resolutions 1.999/2012, 2.333/2023 and 2.336/2023."
+    }
+  ],
+  "substances": [
+    {
+      "name": "semaglutide",
+      "status": "authorised",
+      "statement": "In Brazil, Ozempic (semaglutide, Novo Nordisk) has been registered by ANVISA since 6 Aug 2018; its label (Sep 2026 check) indicates it only for adults with inadequately controlled type 2 diabetes, including kidney-outcome risk reduction in type 2 diabetes with chronic kidney disease.",
+      "sourceIds": [
+        "br-label-ozempic",
+        "br-anvisa-register-opendata"
+      ],
+      "quote": "Ozempic® é indicado para o tratamento de adultos com diabetes mellitus tipo 2 insuficientemente controlado, como adjuvante à dieta e exercício",
+      "quoteEn": "Ozempic® is indicated for the treatment of adults with insufficiently controlled type 2 diabetes mellitus, as an adjunct to diet and exercise"
+    },
+    {
+      "name": "semaglutide",
+      "status": "authorised",
+      "statement": "In Brazil, Wegovy (semaglutide, Novo Nordisk) has been registered by ANVISA since 2 Jan 2023 for chronic weight management in adults (BMI ≥30, or ≥27 with a weight-related comorbidity) and in adolescents aged 12 or over with obesity and body weight above 60 kg.",
+      "sourceIds": [
+        "br-label-wegovy",
+        "br-anvisa-register-opendata"
+      ],
+      "quote": "Wegovy® é indicado como um adjuvante a uma dieta hipocalórica e aumento da atividade física para controle de peso, incluindo perda e manutenção de peso, em adultos",
+      "quoteEn": "Wegovy® is indicated as an adjunct to a reduced-calorie diet and increased physical activity for weight management, including weight loss and weight maintenance, in adults"
+    },
+    {
+      "name": "semaglutide",
+      "status": "authorised",
+      "statement": "In Brazil, the semaglutide patent expired on 20 Mar 2026 and ANVISA registered the first synthetic semaglutide pen (Ozivy, EMS) on 26 May 2026, followed by five more synthetic pens on 29 Jul 2026; these copies are indicated for type 2 diabetes, not weight management. ANVISA's register listed 15 active semaglutide products on 25 Sep 2026.",
+      "sourceIds": [
+        "br-anvisa-semaglutide-synthetic-2026",
+        "br-anvisa-semaglutide-five-2026",
+        "br-anvisa-consultas-medicamentos"
+      ],
+      "quote": "Os medicamentos aprovados foram registrados por comparação com o produto biológico Ozempic, sendo indicados para o tratamento de pacientes adultos com diabetes mellitus tipo 2 insuficientemente controlado.",
+      "quoteEn": "The approved medicines were registered by comparison with the biological product Ozempic and are indicated for the treatment of adult patients with insufficiently controlled type 2 diabetes mellitus."
+    },
+    {
+      "name": "tirzepatide",
+      "status": "authorised",
+      "statement": "In Brazil, Mounjaro (tirzepatide, Eli Lilly) has been registered by ANVISA since 25 Sep 2023; its label covers type 2 diabetes, chronic weight management in adults and obstructive sleep apnoea. No product named Zepbound was found in ANVISA's register (25 Sep 2026).",
+      "sourceIds": [
+        "br-label-mounjaro",
+        "br-anvisa-consultas-medicamentos"
+      ],
+      "quote": "MOUNJARO é indicado como adjuvante à dieta de baixa caloria e aumento de atividade física para controle crônico do peso, incluindo perda de peso e manutenção do peso, em adultos",
+      "quoteEn": "MOUNJARO is indicated as an adjunct to a low-calorie diet and increased physical activity for chronic weight management, including weight loss and weight maintenance, in adults"
+    },
+    {
+      "name": "retatrutide",
+      "status": "not-authorised",
+      "statement": "In Brazil, retatrutide is not registered; ANVISA said in Jul 2026 it is still an investigational medicine not approved anywhere, and on 3 Sep 2026 it ordered seizure of, and banned sale, import, advertising and use of, all retatrutide-based products from an unidentified manufacturer offered on a website (RE 3.480/2026).",
+      "sourceIds": [
+        "br-anvisa-retatrutide-2026",
+        "br-dou-re-3480-2026",
+        "br-anvisa-register-opendata"
+      ],
+      "quote": "a retatrutida, tem ganhado destaque apesar de ser ainda um medicamento experimental, em fase de pesquisa. Como os testes ainda não foram concluídos, o produto ainda NÃO está disponível para venda em nenhum lugar do mundo.",
+      "quoteEn": "retatrutide has gained prominence despite still being an experimental medicine in the research phase. As testing has not been completed, the product is still NOT available for sale anywhere in the world."
+    },
+    {
+      "name": "afamelanotide (Scenesse)",
+      "status": "not-authorised",
+      "statement": "In Brazil, no registered medicine containing afamelanotide (Scenesse) was found: ANVISA's open-data register and its online medicines search returned no match on 25 Sep 2026, and the substance is absent from ANVISA's substance dictionary.",
+      "sourceIds": [
+        "br-anvisa-register-opendata",
+        "br-anvisa-register-dictionary",
+        "br-anvisa-consultas-medicamentos"
+      ],
+      "quote": "Estão disponíveis todos os dados de produtos (medicamentos) registrados no Brasil cadastrados no DATAVISA.",
+      "quoteEn": "All data on products (medicines) registered in Brazil that are recorded in DATAVISA are available."
+    },
+    {
+      "name": "Melanotan II / \"melanotan\"",
+      "status": "not-authorised",
+      "statement": "In Brazil, no registered medicine containing melanotan was found in ANVISA's register (25 Sep 2026); no ANVISA resolution naming melanotan was found in the Diário Oficial search, so unregistered-medicine rules apply rather than a specific ban.",
+      "sourceIds": [
+        "br-anvisa-register-opendata",
+        "br-anvisa-register-dictionary",
+        "br-anvisa-consultas-medicamentos"
+      ],
+      "quote": "Estão disponíveis todos os dados de produtos (medicamentos) registrados no Brasil cadastrados no DATAVISA.",
+      "quoteEn": "All data on products (medicines) registered in Brazil that are recorded in DATAVISA are available."
+    },
+    {
+      "name": "baricitinib",
+      "status": "authorised",
+      "statement": "In Brazil, Olumiant (baricitinib, Eli Lilly) has been registered by ANVISA since 26 Nov 2018; its current label includes severe alopecia areata in adults and adolescents aged 12 or over weighing at least 30 kg, besides rheumatoid arthritis, atopic dermatitis and COVID-19.",
+      "sourceIds": [
+        "br-label-olumiant",
+        "br-anvisa-register-opendata"
+      ],
+      "quote": "OLUMIANT é indicado para o tratamento de pacientes adultos e adolescentes, com idade igual ou superior a 12 anos e com peso ≥ 30 kg com alopecia areata grave.",
+      "quoteEn": "OLUMIANT is indicated for the treatment of adult and adolescent patients aged 12 years or older and weighing ≥ 30 kg with severe alopecia areata."
+    },
+    {
+      "name": "minoxidil",
+      "status": "authorised",
+      "statement": "In Brazil, minoxidil is registered as an anti-alopecia medicine (for example Aloxidil 5%, indicated for androgenetic alopecia in adult men); every active minoxidil registration sits in the anti-alopecia class, and the oral antihypertensive Loniten registrations are all inactive (register, 25 Sep 2026).",
+      "sourceIds": [
+        "br-label-aloxidil",
+        "br-anvisa-register-opendata"
+      ],
+      "quote": "Aloxidil® 5% (minoxidil) é indicado no tratamento da alopecia androgênica (calvície hereditária) em homens adultos.",
+      "quoteEn": "Aloxidil® 5% (minoxidil) is indicated for the treatment of androgenetic alopecia (hereditary baldness) in adult men."
+    },
+    {
+      "name": "finasteride",
+      "status": "authorised",
+      "statement": "In Brazil, 1 mg finasteride products such as Pro Hair are registered for male-pattern hair loss in men and are not indicated for women or children; the Propecia brand registration is inactive (register, 25 Sep 2026).",
+      "sourceIds": [
+        "br-label-prohair",
+        "br-anvisa-register-opendata"
+      ],
+      "quote": "PRO HAIR é indicado para o tratamento de homens com calvície de padrão masculino (alopecia androgênica), para aumentar o crescimento e prevenir a queda adicional de cabelo.",
+      "quoteEn": "PRO HAIR is indicated for the treatment of men with male-pattern baldness (androgenetic alopecia), to increase growth and prevent further hair loss."
+    },
+    {
+      "name": "somatropin",
+      "status": "authorised",
+      "statement": "In Brazil, somatropin is registered (for example Genotropin, Pfizer, registered 12 Aug 2019) for growth disorders in children and for replacement therapy in adults with severe growth hormone deficiency; skin or anti-ageing uses are not labelled indications.",
+      "sourceIds": [
+        "br-label-genotropin",
+        "br-anvisa-register-opendata"
+      ],
+      "quote": "Genotropin® também é indicado na terapia de reposição em adultos com deficiência de hormônio de crescimento acentuada.",
+      "quoteEn": "Genotropin® is also indicated for replacement therapy in adults with marked growth hormone deficiency."
+    },
+    {
+      "name": "somatropin",
+      "status": "controlled",
+      "statement": "In Brazil, somatropin is a controlled substance on List C5 (anabolic substances) of Portaria SVS/MS 344/1998, as updated by RDC 1.036/2026, and needs a special-control prescription in two copies.",
+      "sourceIds": [
+        "br-rdc-1036-2026",
+        "br-anvisa-controlled-lists-page"
+      ],
+      "quote": "LISTA - C5 LISTA DAS SUBSTÂNCIAS ANABOLIZANTES (Sujeitas à Receita de Controle Especial em duas vias) … 29. Somatropina (hormônio do crescimento humano)",
+      "quoteEn": "LIST C5 – LIST OF ANABOLIC SUBSTANCES (subject to a special-control prescription in two copies) … 29. Somatropin (human growth hormone)"
+    },
+    {
+      "name": "tesamorelin",
+      "status": "not-authorised",
+      "statement": "In Brazil, no registered medicine containing tesamorelin (including Egrifta) was found in ANVISA's register or online search (25 Sep 2026).",
+      "sourceIds": [
+        "br-anvisa-register-opendata",
+        "br-anvisa-register-dictionary",
+        "br-anvisa-consultas-medicamentos"
+      ],
+      "quote": "Estão disponíveis todos os dados de produtos (medicamentos) registrados no Brasil cadastrados no DATAVISA.",
+      "quoteEn": "All data on products (medicines) registered in Brazil that are recorded in DATAVISA are available."
+    },
+    {
+      "name": "sermorelin",
+      "status": "not-authorised",
+      "statement": "In Brazil, no registered medicine containing sermorelin was found in ANVISA's register or online search (25 Sep 2026).",
+      "sourceIds": [
+        "br-anvisa-register-opendata",
+        "br-anvisa-register-dictionary",
+        "br-anvisa-consultas-medicamentos"
+      ],
+      "quote": "Estão disponíveis todos os dados de produtos (medicamentos) registrados no Brasil cadastrados no DATAVISA.",
+      "quoteEn": "All data on products (medicines) registered in Brazil that are recorded in DATAVISA are available."
+    },
+    {
+      "name": "ipamorelin",
+      "status": "not-authorised",
+      "statement": "In Brazil, ANVISA stated on 2 Jul 2026 that injectable ipamorelin products are not registered in any category.",
+      "sourceIds": [
+        "br-anvisa-peptides-2026",
+        "br-anvisa-register-opendata"
+      ],
+      "quote": "Os produtos que se apresentam como peptídeos denominados GHK-CU, BPC-157, TB500, CJC-1295 e Ipamorelina, que prometem efeitos estéticos ou melhora em quadros de saúde, também NÃO se encontram registrados na Anvisa.",
+      "quoteEn": "Products presented as peptides called GHK-CU, BPC-157, TB500, CJC-1295 and Ipamorelin, which promise aesthetic effects or improvement in health conditions, are also NOT registered with Anvisa."
+    },
+    {
+      "name": "CJC-1295",
+      "status": "not-authorised",
+      "statement": "In Brazil, ANVISA stated on 2 Jul 2026 that CJC-1295 products are not registered in any category.",
+      "sourceIds": [
+        "br-anvisa-peptides-2026",
+        "br-anvisa-register-opendata"
+      ],
+      "quote": "Os produtos que se apresentam como peptídeos denominados GHK-CU, BPC-157, TB500, CJC-1295 e Ipamorelina, que prometem efeitos estéticos ou melhora em quadros de saúde, também NÃO se encontram registrados na Anvisa.",
+      "quoteEn": "Products presented as peptides called GHK-CU, BPC-157, TB500, CJC-1295 and Ipamorelin, which promise aesthetic effects or improvement in health conditions, are also NOT registered with Anvisa."
+    },
+    {
+      "name": "ibutamoren (MK-677)",
+      "status": "refused",
+      "statement": "In Brazil, ibutamoren is not a registered medicine, and on 9 Jun 2026 ANVISA refused the clinical-trial petitions for ibutamoren mesylate (LUM-201) (RE 2.318/2026).",
+      "sourceIds": [
+        "br-dou-re-2318-2026",
+        "br-anvisa-register-opendata"
+      ],
+      "quote": "Art. 1º Indeferir petições relacionadas à Coordenação de Pesquisa Clínica em Medicamentos e Produtos Biológicos, conforme anexo. … Mesilato de ibutamoren (LUM-201)",
+      "quoteEn": "Art. 1 To refuse petitions related to the Clinical Research Coordination for Medicines and Biological Products, as annexed. … Ibutamoren mesylate (LUM-201)"
+    },
+    {
+      "name": "BPC-157",
+      "status": "not-authorised",
+      "statement": "In Brazil, ANVISA stated on 2 Jul 2026 that BPC-157 is not registered as a medicine and is not authorised as a food supplement, and that no company has applied for supplement authorisation.",
+      "sourceIds": [
+        "br-anvisa-peptides-2026"
+      ],
+      "quote": "No Brasil, substâncias como BPC-157 e TB-500 não possuem autorização de uso como suplemento alimentar e, até o momento, não há solicitações de empresas ou estudos submetidos à Anvisa para a regularização dessas substâncias como suplementos alimentares .",
+      "quoteEn": "In Brazil, substances such as BPC-157 and TB-500 are not authorised for use as food supplements and, so far, no company applications or studies have been submitted to Anvisa to regularise these substances as food supplements."
+    },
+    {
+      "name": "TB-500 (thymosin beta-4 fragment)",
+      "status": "not-authorised",
+      "statement": "In Brazil, ANVISA stated on 2 Jul 2026 that TB-500 is not registered as a medicine and is not authorised as a food supplement.",
+      "sourceIds": [
+        "br-anvisa-peptides-2026"
+      ],
+      "quote": "Os produtos que se apresentam como peptídeos denominados GHK-CU, BPC-157, TB500, CJC-1295 e Ipamorelina, que prometem efeitos estéticos ou melhora em quadros de saúde, também NÃO se encontram registrados na Anvisa.",
+      "quoteEn": "Products presented as peptides called GHK-CU, BPC-157, TB500, CJC-1295 and Ipamorelin, which promise aesthetic effects or improvement in health conditions, are also NOT registered with Anvisa."
+    },
+    {
+      "name": "KPV",
+      "status": "not-authorised",
+      "statement": "In Brazil, no registered medicine containing KPV was found in ANVISA's register (25 Sep 2026).",
+      "sourceIds": [
+        "br-anvisa-register-opendata",
+        "br-anvisa-register-dictionary"
+      ],
+      "quote": "Estão disponíveis todos os dados de produtos (medicamentos) registrados no Brasil cadastrados no DATAVISA.",
+      "quoteEn": "All data on products (medicines) registered in Brazil that are recorded in DATAVISA are available."
+    },
+    {
+      "name": "GHK-Cu",
+      "status": "not-authorised",
+      "statement": "In Brazil, ANVISA stated on 2 Jul 2026 that injectable GHK-Cu products are not registered and are illegal for any health or aesthetic use; topical GHK-Cu cosmetics are a separate category (see cosmetics).",
+      "sourceIds": [
+        "br-anvisa-peptides-2026"
+      ],
+      "quote": "Os produtos que se apresentam como peptídeos denominados GHK-CU, BPC-157, TB500, CJC-1295 e Ipamorelina, que prometem efeitos estéticos ou melhora em quadros de saúde, também NÃO se encontram registrados na Anvisa.",
+      "quoteEn": "Products presented as peptides called GHK-CU, BPC-157, TB500, CJC-1295 and Ipamorelin, which promise aesthetic effects or improvement in health conditions, are also NOT registered with Anvisa."
+    },
+    {
+      "name": "LL-37",
+      "status": "not-authorised",
+      "statement": "In Brazil, no registered medicine containing LL-37 (cathelicidin) was found in ANVISA's register, and the substance is absent from ANVISA's substance dictionary (25 Sep 2026).",
+      "sourceIds": [
+        "br-anvisa-register-opendata",
+        "br-anvisa-register-dictionary",
+        "br-anvisa-consultas-medicamentos"
+      ],
+      "quote": "Estão disponíveis todos os dados de produtos (medicamentos) registrados no Brasil cadastrados no DATAVISA.",
+      "quoteEn": "All data on products (medicines) registered in Brazil that are recorded in DATAVISA are available."
+    },
+    {
+      "name": "thymulin",
+      "status": "not-authorised",
+      "statement": "In Brazil, no registered medicine containing thymulin was found in ANVISA's register (25 Sep 2026); thymus-derived immunomodulators with other actives (thymomodulin, Leucogen; thymostimulin) do hold active registrations.",
+      "sourceIds": [
+        "br-anvisa-register-opendata",
+        "br-anvisa-register-dictionary"
+      ],
+      "quote": "\"MEDICAMENTO\";\"LEUCOGEN\";\"19/11/2003\";\"Específico\";105730062;\"022028\";\"2500100242582\";\"IMUNOMODULADOR\";\"60659463002992 - ACHÉ LABORATÓRIOS FARMACÊUTICOS S.A\";\"Ativo\";\"timomodulina\"",
+      "quoteEn": "Register row: medicine LEUCOGEN, specific-medicine category, registration 105730062, class immunomodulator, Aché Laboratórios, status Active, active substance thymomodulin."
+    },
+    {
+      "name": "PTD-DBM",
+      "status": "not-authorised",
+      "statement": "In Brazil, no registered medicine containing PTD-DBM was found in ANVISA's register (25 Sep 2026).",
+      "sourceIds": [
+        "br-anvisa-register-opendata",
+        "br-anvisa-register-dictionary"
+      ],
+      "quote": "Estão disponíveis todos os dados de produtos (medicamentos) registrados no Brasil cadastrados no DATAVISA.",
+      "quoteEn": "All data on products (medicines) registered in Brazil that are recorded in DATAVISA are available."
+    },
+    {
+      "name": "topical tretinoin",
+      "status": "authorised",
+      "statement": "In Brazil, topical tretinoin (for example Vitacid, Theraskin) is registered, and its label names cutaneous photoageing as well as acne vulgaris, for dermatological use in adults and patients over 12.",
+      "sourceIds": [
+        "br-label-vitacid",
+        "br-anvisa-register-opendata"
+      ],
+      "quote": "Vitacid® é indicado para o tratamento fotoenvelhecimento cutâneo, proporcionando a melhora de alguns sinais associados a essa condição. É indicado também no tratamento da acne vulgar, em que predominam comedões, pápulas e pústulas.",
+      "quoteEn": "Vitacid® is indicated for the treatment of cutaneous photoageing, improving some signs associated with this condition. It is also indicated for the treatment of acne vulgaris in which comedones, papules and pustules predominate."
+    },
+    {
+      "name": "estradiol (menopausal hormone therapy)",
+      "status": "authorised",
+      "statement": "In Brazil, estradiol for menopausal hormone therapy is registered (for example Oestrogel, Besins); the label read covers menopausal symptoms and prevention of postmenopausal osteoporosis, and skin ageing is not a labelled indication.",
+      "sourceIds": [
+        "br-label-oestrogel",
+        "br-anvisa-register-opendata"
+      ],
+      "quote": "Oestrogel® é indicado para o tratamento de sinais e sintomas oriundos da deficiência estrogênica relacionados à menopausa natural ou cirúrgica (fogachos, atrofia urogenital, distúrbio no sono e astenia) e prevenção da osteoporose (perda óssea) pós-menopausa.",
+      "quoteEn": "Oestrogel® is indicated for the treatment of signs and symptoms of oestrogen deficiency related to natural or surgical menopause (hot flushes, urogenital atrophy, sleep disturbance and asthenia) and for prevention of postmenopausal osteoporosis (bone loss)."
+    },
+    {
+      "name": "oral collagen",
+      "status": "authorised",
+      "statement": "In Brazil, oral collagen is regulated as a food supplement, not a medicine; ANVISA's Jan 2025 guidance lists an approved skin-health claim for 2 kDa bioactive collagen peptides, restricted to products meeting an ANVISA-set minimum content, for adults only.",
+      "sourceIds": [
+        "br-anvisa-supplements-qa-2025",
+        "br-rdc-243-2018"
+      ],
+      "quote": "“Os peptídeos bioativos de colágeno hidrolisado com peso molecular médio de 2 kDa auxiliam na manutenção da saúde da pele.”",
+      "quoteEn": "“Bioactive hydrolysed collagen peptides with an average molecular weight of 2 kDa help maintain skin health.”"
+    }
+  ],
+  "frameworks": [
+    {
+      "topic": "compounding",
+      "statement": "In Brazil, a compounded (magistral) preparation must be made individually by the pharmacy against a prescription from an authorised professional that sets its composition, form and dosing (RDC 96/2008 definition).",
+      "sourceIds": [
+        "br-rdc-96-2008",
+        "br-anvisa-voto-101-2026"
+      ],
+      "quote": "PREPARAÇÃO MAGISTRAL - É aquela preparada na farmácia, de forma individualizada, para ser dispensada atendendo a uma prescrição de um profissional habilitado, respeitada a legislação vigente, que estabelece sua composição, forma farmacêutica, posologia e modo de usar.",
+      "quoteEn": "MAGISTRAL PREPARATION – One prepared in the pharmacy, individually, to be dispensed against a prescription from an authorised professional, in accordance with current legislation, which sets its composition, dosage form, dosing and directions for use."
+    },
+    {
+      "topic": "compounding",
+      "statement": "In Brazil, ANVISA stated on 2 Jul 2026 that any substance must have passed efficacy and safety assessment before it can be compounded, and that compounding may only be individual, on prescription, by a pharmacy licensed by local health surveillance; unregistered peptides therefore cannot be lawfully compounded.",
+      "sourceIds": [
+        "br-anvisa-peptides-2026"
+      ],
+      "quote": "Para ser manipulada, qualquer substância precisa ter passado por análises de eficácia e segurança. Além disso, a manipulação de qualquer fórmula SÓ pode ocorrer de forma individualizada, com apresentação de receita médica, por farmácias de manipulação que estejam devidamente regularizadas na vigilância sanitária local.",
+      "quoteEn": "To be compounded, any substance must have undergone efficacy and safety assessments. In addition, compounding of any formula may ONLY take place individually, on presentation of a medical prescription, by compounding pharmacies duly licensed by local health surveillance."
+    },
+    {
+      "topic": "compounding",
+      "statement": "In Brazil, ANVISA stated in Nov 2024 that compounded medicines should be used only when the registered industrial product is unavailable in the dose or dosage form the patient needs, and that only APIs with a current or past registration may be compounded into hormonal implants.",
+      "sourceIds": [
+        "br-anvisa-implants-2024"
+      ],
+      "quote": "A Anvisa ressalta que medicamentos manipulados devem ser utilizados somente diante da indisponibilidade do produto industrializado, registrado na Agência, na dosagem ou forma farmacêutica específica necessária ao paciente, e a partir de avaliação e da prescrição do profissional médico responsável.",
+      "quoteEn": "Anvisa stresses that compounded medicines should be used only when the industrialised product registered with the Agency is unavailable in the specific dose or dosage form the patient needs, and following assessment and prescription by the responsible physician."
+    },
+    {
+      "topic": "compounding",
+      "statement": "In Brazil, Nota Técnica 200/2025 (Aug 2025) allows compounding of GLP-1 agonists only in narrow conditions: synthetic APIs only if a registered medicine with the same molecule exists, biotech APIs only from the manufacturer assessed at registration, with mandatory quality testing; at that date synthetic semaglutide could not be imported or compounded.",
+      "sourceIds": [
+        "br-anvisa-glp1-compounding-2025",
+        "br-anvisa-nt200-2025"
+      ],
+      "quote": "No caso dos IFAs obtidos por síntese química, a manipulação é permitida desde que já existam medicamentos registrados no Brasil com a mesma molécula. … Por exemplo, atualmente, a semaglutida possui registro apenas como produto biotecnológico. Portanto, não é permitida a importação nem a manipulação da semaglutida sintética até que exista um medicamento registrado com o IFA sintético.",
+      "quoteEn": "For APIs obtained by chemical synthesis, compounding is permitted provided registered medicines with the same molecule already exist in Brazil. … For example, semaglutide is currently registered only as a biotechnological product. Therefore, import and compounding of synthetic semaglutide are not permitted until a medicine with the synthetic API is registered."
+    },
+    {
+      "topic": "compounding",
+      "statement": "In Brazil, ANVISA announced on 6 Apr 2026 an action plan to revise the compounding good-practice rule (RDC 67/2007) and Nota Técnica 200/2025 for GLP-1 pens, and scheduled a draft normative instruction on GLP-1/GIP compounding for Collegiate Board discussion on 29 Apr 2026.",
+      "sourceIds": [
+        "br-anvisa-glp1-actionplan-2026",
+        "br-anvisa-glp1-draft-in-2026"
+      ],
+      "quote": "São parte do novo plano de ação da Anvisa as revisões das regras atuais para manipulação desses medicamentos, que incluem a Resolução da Diretoria Colegiada (RDC) 67/2007 e a Nota Técnica 200/2025 .",
+      "quoteEn": "Part of Anvisa's new action plan is the revision of the current rules for compounding these medicines, which include Collegiate Board Resolution (RDC) 67/2007 and Technical Note 200/2025."
+    },
+    {
+      "topic": "unlicensed",
+      "statement": "In Brazil, ANVISA stated in Apr 2025 that physicians keep the right to prescribe registered medicines off-label when they judge benefits outweigh risks for the individual patient, with the patient properly informed.",
+      "sourceIds": [
+        "br-anvisa-glp1-retention-2025"
+      ],
+      "quote": "A medida não altera o direito do profissional médico de prescrever medicamentos para finalidades diferentes das descritas na bula. Essa prática, conhecida como uso \"off label\", acontece quando o médico entende que, para determinado paciente, os benefícios do tratamento superam os riscos.",
+      "quoteEn": "The measure does not change the physician's right to prescribe medicines for purposes other than those described in the label. This practice, known as \"off-label\" use, occurs when the physician considers that, for a given patient, the benefits of treatment outweigh the risks."
+    },
+    {
+      "topic": "unlicensed",
+      "statement": "In Brazil, no medicine, including an imported one, may be manufactured, sold or supplied before it is registered (Law 6.360/1976, art. 12).",
+      "sourceIds": [
+        "br-lei-6360-1976"
+      ],
+      "quote": "Art. 12 - Nenhum dos produtos de que trata esta Lei, inclusive os importados, poderá ser industrializado, exposto à venda ou entregue ao consumo antes de registrado no Ministério da Saúde.",
+      "quoteEn": "Art. 12 – None of the products covered by this Law, including imported ones, may be manufactured, offered for sale or supplied for consumption before being registered with the Ministry of Health."
+    },
+    {
+      "topic": "research-use-only",
+      "statement": "In Brazil, ANVISA stated on 2 Jul 2026 that injectable peptides sold online are not regularised in any category (food, medicine, cosmetic or supplement) and are illegal for any health use, including aesthetic use.",
+      "sourceIds": [
+        "br-anvisa-peptides-2026"
+      ],
+      "quote": "Não à toa, alguns peptídeos injetáveis NÃO estão regularizados na Agência Nacional de Vigilância Sanitária (Anvisa) em nenhuma categoria - alimento, medicamento, cosmético, suplemento alimentar -, ou seja, são ILEGAIS para qualquer uso em saúde, inclusive estético.",
+      "quoteEn": "Not surprisingly, some injectable peptides are NOT regularised with the National Health Surveillance Agency (Anvisa) in any category – food, medicine, cosmetic, food supplement – that is, they are ILLEGAL for any health use, including aesthetic use."
+    },
+    {
+      "topic": "research-use-only",
+      "statement": "In Brazil, ANVISA stated in Jul 2026 that an investigational (experimental) medicine may be used only in authorised clinical research and is not authorised for commercial use.",
+      "sourceIds": [
+        "br-anvisa-medicine-types-2026"
+      ],
+      "quote": "O medicamento experimental, também chamado de medicamento investigacional, é utilizado exclusivamente em pesquisas clínicas autorizadas.",
+      "quoteEn": "An experimental medicine, also called an investigational medicine, is used exclusively in authorised clinical research."
+    },
+    {
+      "topic": "import",
+      "statement": "In Brazil, personal import of medicines for one's own use does not need prior ANVISA authorisation (RDC 81/2008 chapter XII, as amended by RDC 28/2011), but quantities must be for personal use and ANVISA may ask for the prescription.",
+      "sourceIds": [
+        "br-anvisa-import-pf-page"
+      ],
+      "quote": "A importação por pessoa física de bens ou de produtos sujeitos ao controle sanitário é regulamentada pelo Capítulo XII da Resolução de Diretoria Colegiada (RDC) 81, de 5 de novembro de 2008 , com as alterações promovidas pela RDC 28, de 28 de junho de 2011.",
+      "quoteEn": "Import by individuals of goods or products subject to health control is regulated by Chapter XII of Collegiate Board Resolution (RDC) 81 of 5 November 2008, as amended by RDC 28 of 28 June 2011."
+    },
+    {
+      "topic": "import",
+      "statement": "In Brazil, unregistered medicines may be imported only exceptionally, for strictly personal use, with a medical prescription; when ANVISA publishes a specific prohibition (as for several GLP-1 pens in 2025–2026), import by any route is suspended.",
+      "sourceIds": [
+        "br-anvisa-import-pens-2025"
+      ],
+      "quote": "Medicamentos sem registro no Brasil só podem ser importados de forma excepcional e para uso exclusivamente pessoal, mediante prescrição médica e o cumprimento de requisitos adicionais. Porém, nos casos em que a Anvisa publica proibição específica, a importação, por qualquer modalidade, também fica suspensa.",
+      "quoteEn": "Medicines without registration in Brazil may only be imported exceptionally and for exclusively personal use, on medical prescription and subject to additional requirements. However, where Anvisa publishes a specific prohibition, import by any route is also suspended."
+    },
+    {
+      "topic": "import",
+      "statement": "In Brazil, ANVISA stated in Sep 2025 that use of an unregistered imported medicine is entirely the responsibility of the patient and the prescribing physician.",
+      "sourceIds": [
+        "br-anvisa-import-guidance-2025"
+      ],
+      "quote": "Outro alerta: medicamentos sem registro no Brasil não tiveram sua segurança e eficácia avaliadas pela Agência. Seu uso é de inteira responsabilidade do paciente e do médico prescritor, além do risco de falsificação no mercado internacional.",
+      "quoteEn": "Another warning: medicines without registration in Brazil have not had their safety and efficacy assessed by the Agency. Their use is the entire responsibility of the patient and the prescribing physician, besides the risk of falsification on the international market."
+    },
+    {
+      "topic": "cosmetics",
+      "statement": "In Brazil, cosmetics are defined as preparations for external use on the body to clean, perfume, change appearance, correct odours or protect and keep it in good condition (RDC 907/2024, which revoked RDC 752/2022 in Sep 2024).",
+      "sourceIds": [
+        "br-rdc-907-2024"
+      ],
+      "quote": "XVI - produtos de higiene pessoal, cosméticos e perfumes: são preparações constituídas por substâncias naturais ou sintéticas, de uso externo nas diversas partes do corpo humano, pele, sistema capilar, unhas, lábios, órgãos genitais externos, dentes e membranas mucosas da cavidade oral, com o objetivo exclusivo ou principal de limpá- los, perfumá-los, alterar sua aparência e ou corrigir odores corporais e ou protegê-los ou mantê-los em bom estado;",
+      "quoteEn": "XVI – personal hygiene products, cosmetics and perfumes: preparations made of natural or synthetic substances for external use on the various parts of the human body, skin, hair, nails, lips, external genitalia, teeth and oral mucosa, with the exclusive or main aim of cleaning them, perfuming them, changing their appearance and/or correcting body odours and/or protecting them or keeping them in good condition;"
+    },
+    {
+      "topic": "cosmetics",
+      "statement": "In Brazil, cosmetic labelling may not carry therapeutic claims for the product or its ingredients (RDC 907/2024, art. 12), so a peptide serum that claims to treat a condition falls outside the cosmetic category.",
+      "sourceIds": [
+        "br-rdc-907-2024"
+      ],
+      "quote": "Art. 12. A rotulagem não deve conter nome comercial, marcas, imagens, links eletrônicos ou dizeres que: … II - representem alegações terapêuticas atribuídas ao uso do produto ou de seus ingredientes",
+      "quoteEn": "Art. 12. Labelling must not contain trade names, brands, images, electronic links or wording that: … II – represent therapeutic claims attributed to the use of the product or its ingredients"
+    },
+    {
+      "topic": "cosmetics",
+      "statement": "In Brazil, ANVISA stated on 2 Jul 2026 that injectable cosmetics do not exist; an injectable product offered as a cosmetic is irregular. Topical products named after GHK-Cu do appear as notified cosmetics in ANVISA's cosmetics dataset (221 entries, 25 Sep 2026); ANVISA cancelled several GHK-Cu cosmetic processes on 29 Apr 2026 without published reasons (RE 1.771/2026).",
+      "sourceIds": [
+        "br-anvisa-peptides-2026",
+        "br-anvisa-cosmetics-opendata",
+        "br-dou-re-1771-2026"
+      ],
+      "quote": "Por fim, apesar de suposta finalidade estética, esses produtos também NÃO são cosméticos. Não existem cosméticos injetáveis e, se o produto é oferecido desta forma, trata-se de cosmético irregular.",
+      "quoteEn": "Finally, despite their supposed aesthetic purpose, these products are also NOT cosmetics. Injectable cosmetics do not exist and, if the product is offered in this form, it is an irregular cosmetic."
+    },
+    {
+      "topic": "supplements",
+      "statement": "In Brazil, a food supplement is by definition a product for oral ingestion for healthy people (RDC 243/2018), so no injectable supplement can exist.",
+      "sourceIds": [
+        "br-rdc-243-2018",
+        "br-anvisa-peptides-2026"
+      ],
+      "quote": "VII - suplemento alimentar: produto para ingestão oral, apresentado em formas farmacêuticas, destinado a suplementar a alimentação de indivíduos saudáveis com nutrientes, substâncias bioativas, enzimas ou probióticos, isolados ou combinados.",
+      "quoteEn": "VII – food supplement: a product for oral ingestion, presented in pharmaceutical forms, intended to supplement the diet of healthy individuals with nutrients, bioactive substances, enzymes or probiotics, alone or combined."
+    },
+    {
+      "topic": "supplements",
+      "statement": "In Brazil, supplements may use only constituents on ANVISA's authorised list (IN 28/2018 and its updates) and only ANVISA-approved claims; they may never claim to prevent, treat or cure disease.",
+      "sourceIds": [
+        "br-anvisa-supplements-ingredients"
+      ],
+      "quote": "Os constituintes autorizados constam da lista aprovada na IN 28/2018 e são diferentes para os seguintes grupos etários: 0 a 3 anos (Anexo II) e acima de 3 anos (Anexo I). … Constituintes que não constem dessa lista não devem ser utilizados.",
+      "quoteEn": "Authorised constituents are on the list approved in IN 28/2018 and differ for the following age groups: 0 to 3 years (Annex II) and over 3 years (Annex I). … Constituents not on this list must not be used."
+    },
+    {
+      "topic": "supplements",
+      "statement": "In Brazil, collagen is authorised in supplements both as a protein source and as three bioactive forms, and ANVISA lists an approved skin-health claim for 2 kDa bioactive collagen peptides (guidance of 16 Jan 2025); these products must carry a warning against use in pregnancy, lactation and children.",
+      "sourceIds": [
+        "br-anvisa-supplements-qa-2025"
+      ],
+      "quote": "No entanto, a atualização do marco normativo permitiu que o colágeno também fosse autorizado em suplementos alimentares como substância bioativa.",
+      "quoteEn": "However, the update of the regulatory framework allowed collagen also to be authorised in food supplements as a bioactive substance."
+    },
+    {
+      "topic": "advertising",
+      "statement": "In Brazil, federal law limits advertising of medicines and therapies to specialised publications aimed at health professionals, while over-the-counter medicines may be advertised to the public with warnings (Law 9.294/1996, art. 7).",
+      "sourceIds": [
+        "br-lei-9294-1996"
+      ],
+      "quote": "Art. 7° A propaganda de medicamentos e terapias de qualquer tipo ou espécie poderá ser feita em publicações especializadas dirigidas direta e especificamente a profissionais e instituições de saúde.",
+      "quoteEn": "Art. 7 Advertising of medicines and therapies of any type or kind may be carried out in specialised publications addressed directly and specifically to health professionals and institutions."
+    },
+    {
+      "topic": "advertising",
+      "statement": "In Brazil, promotion of prescription-only medicines is restricted to media aimed exclusively at professionals who can prescribe or dispense them, and online promotion must sit behind a registration wall for those professionals (RDC 96/2008, arts 27 and 29).",
+      "sourceIds": [
+        "br-rdc-96-2008"
+      ],
+      "quote": "Art. 29 A propaganda ou publicidade de medicamentos de venda sob prescrição veiculada na internet deve ser acessível, exclusivamente, aos profissionais habilitados a prescrever ou dispensar medicamentos, por meio de sistema de cadastramento eletrônico",
+      "quoteEn": "Art. 29 Advertising or publicity of prescription-only medicines on the internet must be accessible exclusively to professionals authorised to prescribe or dispense medicines, through an electronic registration system"
+    },
+    {
+      "topic": "advertising",
+      "statement": "In Brazil, compounding pharmacies may give only prescribers factual material naming active substances and referenced indications, with no brand names, prices or promotional content (RDC 96/2008, art. 36); ANVISA restated in Nov 2024 that advertising compounded products to the public is not permitted.",
+      "sourceIds": [
+        "br-rdc-96-2008",
+        "br-anvisa-implants-2024"
+      ],
+      "quote": "A norma também reforçou a proibição da propaganda de produtos manipulados para o público em geral, o que não é permitido na legislação atual.",
+      "quoteEn": "The rule also reinforced the prohibition on advertising compounded products to the general public, which is not permitted under current legislation."
+    },
+    {
+      "topic": "advertising",
+      "statement": "In Brazil, ANVISA said in Nov 2025 that its bans on unregistered GLP-1 pens were prompted by irregular advertising and sale, including online, which is prohibited for medicines; on 27 Apr 2026 it suspended sale and advertising of products from several compounding pharmacies, including standardised compounded medicines sold online without individual prescriptions (REs 1.683 and 1.684/2026).",
+      "sourceIds": [
+        "br-anvisa-import-pens-2025",
+        "br-anvisa-compounding-pharmacies-2026"
+      ],
+      "quote": "As medidas foram motivadas pelo aumento das evidências de propaganda e comercialização irregulares das chamadas canetas emagrecedoras, inclusive na internet, o que é proibido para medicamentos no Brasil.",
+      "quoteEn": "The measures were prompted by growing evidence of irregular advertising and sale of so-called slimming pens, including on the internet, which is prohibited for medicines in Brazil."
+    },
+    {
+      "topic": "controlled",
+      "statement": "In Brazil, dispensing of anabolic steroids or peptides requires the pharmacy to retain a carbon copy of a prescription from a registered physician or dentist that includes the ICD code (Law 9.965/2000).",
+      "sourceIds": [
+        "br-lei-9965-2000"
+      ],
+      "quote": "Art. 1 o A dispensação ou a venda de medicamentos do grupo terapêutico dos esteróides ou peptídeos anabolizantes para uso humano estarão restritas à apresentação e retenção, pela farmácia ou drogaria, da cópia carbonada de receita emitida por médico ou dentista devidamente registrados nos respectivos conselhos profissionais.",
+      "quoteEn": "Art. 1 Dispensing or sale of medicines of the therapeutic group of anabolic steroids or peptides for human use is restricted to presentation and retention, by the pharmacy or drugstore, of the carbon copy of a prescription issued by a physician or dentist duly registered with their professional councils."
+    },
+    {
+      "topic": "controlled",
+      "statement": "In Brazil, List C5 (anabolic substances) of Portaria SVS/MS 344/1998, current version RDC 1.036/2026, includes somatropin, somatrogon, somapacitan, testosterone, DHEA and gestrinone; topical products with these substances need a prescription but no retention.",
+      "sourceIds": [
+        "br-rdc-1036-2026"
+      ],
+      "quote": "2) os medicamentos de uso tópico contendo as substâncias desta Lista ficam sujeitos a VENDA SOB PRESCRIÇÃO MÉDICA SEM RETENÇÃO DE RECEITA.",
+      "quoteEn": "2) topical medicines containing the substances on this List are subject to SALE ON MEDICAL PRESCRIPTION WITHOUT PRESCRIPTION RETENTION."
+    },
+    {
+      "topic": "controlled",
+      "statement": "In Brazil, since 23 Jun 2025 all GLP-1 agonist medicines (semaglutide, liraglutide, dulaglutide, tirzepatide and others), industrial or compounded, need a two-copy prescription valid 90 days that the pharmacy retains (RDC 973/2025 and IN 360/2025).",
+      "sourceIds": [
+        "br-anvisa-glp1-qa-2025",
+        "br-anvisa-glp1-retention-2025"
+      ],
+      "quote": "A Instrução Normativa-IN nº 360 e a Resolução da Diretoria Colegiada - RDC nº 973 foram publicadas em 24 de abril de 2025, e entrarão em vigor 60 (sessenta) dias após essa data. Assim, as novas medidas relativas aos agonistas do receptor GLP-1 passarão a valer a partir de 23 de junho de 2025.",
+      "quoteEn": "Normative Instruction IN 360 and Collegiate Board Resolution RDC 973 were published on 24 April 2025 and enter into force 60 (sixty) days after that date. Thus, the new measures on GLP-1 receptor agonists apply from 23 June 2025."
+    },
+    {
+      "topic": "professional",
+      "statement": "In Brazil, the Federal Council of Medicine bars physicians from using anabolic steroids or androgens for aesthetic purposes or performance, and from prescribing hormones marketed as \"bioidentical\" or \"nano\" without proof of superiority (CFM Resolution 2.333/2023, published 11 Apr 2023, in force Sep 2026).",
+      "sourceIds": [
+        "br-cfm-2333-2023",
+        "br-cfm-norms-search"
+      ],
+      "quote": "Art. 3º São vedados no exercício da Medicina, por serem destituídos de comprovação científica suficiente quanto ao seu benefício e segurança para o ser humano, o uso e a divulgação dos seguintes procedimentos: … II – Utilização de formulações de esteroides anabolizantes ou hormônios androgênicos com a finalidade estética;",
+      "quoteEn": "Art. 3 The following procedures are prohibited in medical practice, lacking sufficient scientific proof of benefit and safety for humans, as are their use and promotion: … II – Use of formulations of anabolic steroids or androgenic hormones for aesthetic purposes;"
+    },
+    {
+      "topic": "professional",
+      "statement": "In Brazil, CFM Resolution 1.999/2012 (in force Sep 2026) bars physicians from using hormones, including growth hormone, to prevent, delay, modulate or reverse ageing, except to replace a diagnosed deficiency with proven benefit.",
+      "sourceIds": [
+        "br-cfm-1999-2012",
+        "br-cfm-norms-search"
+      ],
+      "quote": "III. Utilização de hormônios, em qualquer formulação, inclusive o hormônio de crescimento, exceto nas situações de deficiências diagnosticadas cuja reposição mostra evidências de benefícios cientificamente comprovados;",
+      "quoteEn": "III. Use of hormones, in any formulation, including growth hormone, except in diagnosed deficiencies where replacement shows evidence of scientifically proven benefit;"
+    },
+    {
+      "topic": "professional",
+      "statement": "In Brazil, CFM Resolution 2.336/2023 on medical advertising forbids physicians to promote medicines not registered with ANVISA or to take part in product advertising that implies guaranteed results; before-and-after images must show satisfactory and unsatisfactory outcomes and complications.",
+      "sourceIds": [
+        "br-cfm-2336-2023",
+        "br-cfm-norms-search"
+      ],
+      "quote": "Art. 11. É vedado ao médico e, naquilo que couber, às pessoas jurídicas, entes sindicais e associativos de natureza médica: … III– divulgar equipamento e/ou medicamento sem registro na Anvisa, ou agência que a suceda;",
+      "quoteEn": "Art. 11. Physicians and, where applicable, medical legal entities, unions and associations are prohibited from: … III – promoting equipment and/or medicines not registered with Anvisa or its successor agency;"
+    },
+    {
+      "topic": "professional",
+      "statement": "In Brazil, ANVISA banned in Nov 2024 the compounding, sale and use of hormonal implants based on anabolic steroids or androgens for aesthetic, sporting or muscle-gain purposes (\"chip da beleza\"; RE 4.353/2024), and requires the ICD code on prescriptions, excluding purposes barred by CFM 2.333/2023.",
+      "sourceIds": [
+        "br-anvisa-implants-2024"
+      ],
+      "quote": "A Resolução 4.353/2024 atualizou as condições excepcionais para manipulação de implantes e proibiu a manipulação, a comercialização e o uso de implantes hormonais à base de esteroides anabolizantes ou hormônios androgênicos, para fins estéticos, esportivos ou de ganho de massa muscular.",
+      "quoteEn": "Resolution 4.353/2024 updated the exceptional conditions for compounding implants and banned the compounding, sale and use of hormonal implants based on anabolic steroids or androgenic hormones for aesthetic, sporting or muscle-gain purposes."
+    },
+    {
+      "topic": "enforcement",
+      "statement": "In Brazil, ANVISA ordered seizure of a falsified Ozempic lot (LP6F832) in Nov 2023 (RE 3.945/2023) and warned in Oct 2024 that Fiasp insulin pens were relabelled as Ozempic lot NP5K174.",
+      "sourceIds": [
+        "br-anvisa-ozempic-falsified-2023",
+        "br-anvisa-ozempic-falsified-2024"
+      ],
+      "quote": "A Anvisa recebeu comunicado da empresa responsável pelo produto biológico Ozempic ® (semaglutida) – Novo Nordisk Farmacêutica do Brasil Ltda. – sobre a presença de unidades, no mercado brasileiro, do lote LP6F832 , válido até 11/2025.",
+      "quoteEn": "Anvisa received notice from the company responsible for the biological product Ozempic® (semaglutide) – Novo Nordisk Farmacêutica do Brasil Ltda. – of units of lot LP6F832, valid until 11/2025, on the Brazilian market."
+    },
+    {
+      "topic": "enforcement",
+      "statement": "In Brazil, ANVISA ordered seizure of a falsified Mounjaro lot (955010) on 14 Aug 2026 after Eli Lilly said it did not recognise the lot as original (RE 3.240/2026).",
+      "sourceIds": [
+        "br-dou-re-3240-2026"
+      ],
+      "quote": "Motivação: Comunicado da empresa detentora do registro do medicamento ELI LILLY DO BRASIL LTDA, CNPJ 43.940.618/0001-44, informando que não reconhece como original o lote 955010 do medicamento MOUNJARO (tirzepatida), concluindo tratar-se de produto falsificado.",
+      "quoteEn": "Reason: Notice from the registration holder ELI LILLY DO BRASIL LTDA stating that it does not recognise lot 955010 of MOUNJARO (tirzepatide) as original, concluding that it is a falsified product."
+    },
+    {
+      "topic": "enforcement",
+      "statement": "In Brazil, ANVISA ordered seizure in Feb 2026 of unregistered pens including Lipoless, Tirzec, T.G. and all \"Retatrutide 40mg\" brands (RE 690/2026), and in Jun 2026 suspended all tirzepatide production at a compounding pharmacy selling standardised, non-individualised products without prescription (RE 2.238/2026).",
+      "sourceIds": [
+        "br-anvisa-pens-seizure-2026",
+        "br-anvisa-tirzepatide-seizure-2026"
+      ],
+      "quote": "Foi comprovada a venda de produto manipulado padronizado e não individualizado, sem a devida prescrição médica por profissional competente. As ações estão em desacordo com a definição de preparação magistral.",
+      "quoteEn": "The sale of a standardised, non-individualised compounded product without a proper medical prescription from a competent professional was proven. These actions do not comply with the definition of a magistral preparation."
+    },
+    {
+      "topic": "enforcement",
+      "statement": "In Brazil, ANVISA inspections between Jan and Apr 2026 led to interdiction of 8 of the 26 compounding pharmacies and importers assessed and seized over 1.3 million irregular injectable units; ANVISA and the Federal Police issued a joint technical note on 6 May 2026 on crimes involving irregular GLP-1 medicines.",
+      "sourceIds": [
+        "br-anvisa-pf-2026",
+        "br-anvisa-glp1-actionplan-2026"
+      ],
+      "quote": "Inspeções conduzidas pela Anvisa entre janeiro e abril resultaram na interdição de 8 dos 26 estabelecimentos avaliados, além da apreensão de mais de 1,3 milhão de unidades de medicamentos injetáveis irregulares e da adoção de mais de 11 medidas proibitivas envolvendo importação, comércio e uso desses produtos.",
+      "quoteEn": "Inspections by Anvisa between January and April led to the closure of 8 of the 26 establishments assessed, as well as the seizure of more than 1.3 million units of irregular injectable medicines and more than 11 prohibition measures on the import, trade and use of these products."
+    },
+    {
+      "topic": "enforcement",
+      "statement": "In Brazil, ANVISA issued a pharmacovigilance alert on 9 Feb 2026 on acute pancreatitis with GLP-1 agonists, stressing use only within labelled indications and linking misuse for weight loss without clinical need to higher risk.",
+      "sourceIds": [
+        "br-anvisa-pancreatitis-2026"
+      ],
+      "quote": "A Anvisa destaca que o uso indiscriminado e fora das indicações autorizadas, especialmente para emagrecimento sem necessidade clínica, eleva significativamente o risco de efeitos adversos e dificulta o diagnóstico precoce de complicações graves.",
+      "quoteEn": "Anvisa highlights that indiscriminate use outside authorised indications, especially for weight loss without clinical need, significantly raises the risk of adverse effects and hampers early diagnosis of serious complications."
+    },
+    {
+      "topic": "enforcement",
+      "statement": "In Brazil, selling, storing for sale or distributing a medicine without the required registration is a crime under Penal Code art. 273 §1º-B(I); the Supreme Court (RE 979.962, Tema 1003; extended Jun 2023) held the 10–15-year penalty unconstitutional for these acts and restored 1–3 years' imprisonment plus fine.",
+      "sourceIds": [
+        "br-cp-art273",
+        "br-stf-tema1003"
+      ],
+      "quote": "É inconstitucional a aplicação do preceito secundário do art. 273 do Código Penal, com redação dada pela Lei nº 9.677/98 (reclusão, de 10 a 15 anos, e multa), à hipótese prevista no seu § 1º-B, I, que versa sobre importar, vender, expor à venda, ter em depósito para vender ou, de qualquer forma, distribuir ou entregar produto sem registro no órgão de vigilância sanitária. Para estas situações específicas, fica repristinado o preceito secundário do art. 273, na sua redação originária (reclusão, de 1 a 3 anos, e multa)",
+      "quoteEn": "Applying the penalty of art. 273 of the Penal Code as worded by Law 9.677/98 (10 to 15 years' imprisonment and a fine) to the case in its §1-B, I – importing, selling, offering for sale, holding in stock for sale or in any way distributing or supplying a product without registration with the health surveillance body – is unconstitutional. For these specific situations, the original penalty of art. 273 (1 to 3 years' imprisonment and a fine) is restored."
+    }
+  ],
+  "notVerified": [
+    {
+      "subject": "Melanotan / Melanotan II / \"bronzeamento injetável\" – specific ANVISA action",
+      "reason": "No ANVISA resolution, alert or news item naming melanotan was found: Diário Oficial full-text search for 'melanotan' returned 0 results (25 Sep 2026) and gov.br/anvisa site search was unavailable ('em manutenção'). Status rests on absence from the register only."
+    },
+    {
+      "subject": "RDC 67/2007 (compounding good practice) – consolidated text",
+      "reason": "AnvisaLegis did not render the act ('Este ato está sendo processado') and the Ministry of Health legislation library returned HTTP 503. Compounding statements rely on RDC 96/2008's definition, Nota Técnica 200/2025 and ANVISA statements that cite RDC 67/2007 (for example its item 5.10 on exceptional compounding of equivalents)."
+    },
+    {
+      "subject": "Draft normative instruction on GLP-1/GIP compounding (discussed 29 Apr 2026) and revised Nota Técnica 200/2025",
+      "reason": "Whether the draft IN was adopted and published, and whether the revised technical note replaced NT 200/2025, could not be confirmed from ANVISA pages or the DOU search."
+    },
+    {
+      "subject": "Compounding of synthetic semaglutide after May 2026",
+      "reason": "NT 200/2025 barred synthetic semaglutide compounding until a synthetic-API medicine was registered; synthetic semaglutide products were registered from 26 May 2026. No ANVISA statement was found on whether compounding of synthetic semaglutide is now permitted."
+    },
+    {
+      "subject": "Personal import rules – RDC 81/2008 chapter XII and any later replacement",
+      "reason": "The resolution text was not read; the statement relies on ANVISA's personal-import page (dated 21 Sep 2020) and 2025 news items. Whether RDC 81/2008 has since been replaced was not checked."
+    },
+    {
+      "subject": "Cosmetic prohibited/restricted substance lists (e.g. RDC 529/2021, RDC 530/2021)",
+      "reason": "Not read; whether tretinoin, hormones or specific peptides are prohibited in Brazilian cosmetics is unverified."
+    },
+    {
+      "subject": "Topical GHK-Cu cosmetics – status meaning",
+      "reason": "The cosmetics open-data file lists 221 GHK-named products as 'Notificado', but the ST_SITUACAO_PRODUTO flag is undocumented and RE 1.771/2026 cancelled several GHK-Cu cosmetic processes without stating reasons; no ANVISA guidance on copper peptides in cosmetics was found."
+    },
+    {
+      "subject": "Afamelanotide exceptional import / compassionate access",
+      "reason": "No record checked of exceptional import authorisations or compassionate-use programmes for Scenesse in Brazil."
+    },
+    {
+      "subject": "CFM rule on GLP-1 prescribing for aesthetic weight loss",
+      "reason": "No CFM resolution specific to GLP-1 agonists was searched for or found; only CFM 2.333/2023, 1.999/2012 and 2.336/2023 were read."
+    },
+    {
+      "subject": "ANVISA–Federal Police joint technical note (6 May 2026) and ANVISA Alerta 02/2026 (farmacovigilância)",
+      "reason": "Only the ANVISA news summaries were read; the full technical note and the alert page on antigo.anvisa.gov.br were not."
+    },
+    {
+      "subject": "Other estradiol product labels",
+      "reason": "Only the Oestrogel professional label was read; other estradiol products (tablets, patches, combinations) were not checked for skin-related indications. The register also lists topical alfaestradiol (17α-estradiol) products in the anti-alopecia class, but their labels were not read."
+    },
+    {
+      "subject": "Oral minoxidil (compounded)",
+      "reason": "No active industrial oral minoxidil registration was found, but ANVISA's position on compounded low-dose oral minoxidil was not researched."
+    }
+  ],
+  "authorFindings": [
+    "GLP-1 compounding is lawful in Brazil but narrow and heavily policed: NT 200/2025 permits it only under specific API conditions, all GLP-1 prescriptions have been retained by pharmacies since 23 Jun 2025, and ANVISA's 2026 enforcement closed 8 of 26 compounding pharmacies and importers inspected (Jan–Apr) and is working jointly with the Federal Police.",
+    "Semaglutide went off-patent in Brazil on 20 Mar 2026; ANVISA registered the first synthetic semaglutide (Ozivy, 26 May 2026) and five more on 29 Jul 2026, so 15 semaglutide products were active on 25 Sep 2026. The synthetic copies are for type 2 diabetes only; weight-management labelling sits with Wegovy (and Mounjaro for tirzepatide).",
+    "ANVISA's 2 Jul 2026 statement names GHK-Cu, BPC-157, TB-500, CJC-1295 and ipamorelin as not registered in any category and 'illegal for any health use, including aesthetic'; it also says only substances with efficacy and safety assessment may be compounded, which rules out compounding these peptides.",
+    "The CFM bans hormone use for anti-ageing, including growth hormone (Res. 1.999/2012), and androgens or anabolic steroids for aesthetic purposes, plus 'bioidentical'/'nano' hormone marketing (Res. 2.333/2023). ANVISA banned aesthetic hormonal implants ('chip da beleza') in Nov 2024. Both apply directly to aesthetic-hormone practice.",
+    "Somatropin is a List C5 anabolic (two-copy special-control prescription), and Law 9.965/2000 requires prescription retention with the ICD code for 'anabolic steroids or peptides'. Gestrinone, DHEA, somatrogon and somapacitan are also on C5.",
+    "Brazil-specific label differences: topical tretinoin (Vitacid) is labelled for cutaneous photoageing; Olumiant is labelled for severe alopecia areata from age 12; the Propecia brand is inactive but 1 mg finasteride products (e.g. Pro Hair) are registered; no active oral minoxidil registration exists (Loniten inactive).",
+    "Oral collagen: Brazil authorises a skin-health claim for 2 kDa bioactive collagen peptides in food supplements (ANVISA Q&A, 9th ed., 16 Jan 2025). This is a regulated supplement claim, not a medicine indication. Supplements are oral only by definition.",
+    "Retatrutide is unregistered everywhere; ANVISA ordered seizure of all retatrutide-based products from an unidentified manufacturer sold online (RE 3.480/2026, 3 Sep 2026), found it in irregular supply chains in 3 states, and said the developer has not applied for registration. ANVISA refused clinical-trial petitions for ibutamoren (LUM-201) in Jun 2026.",
+    "Criminal exposure: dealing in unregistered medicines is a Penal Code art. 273 offence (1–3 years' imprisonment after STF Tema 1003). ANVISA fiscal measures apply to 'any natural or legal persons or media outlets' that sell or advertise the products.",
+    "Doctors' social media: CFM 2.336/2023 forbids promoting medicines not registered with ANVISA and regulates before-and-after images. RDC 96/2008 limits prescription-medicine promotion to prescribers and dispensers, and ANVISA treats public advertising of compounded products as prohibited.",
+    "ANVISA's consultation site (consultas.anvisa.gov.br) blocks plain HTTP clients with Cloudflare but works in a browser; the open-data register at dados.anvisa.gov.br is freely downloadable and was used for conclusive absence checks."
+  ]
+}

@@ -1,0 +1,1386 @@
+{
+  "jurisdiction": {
+    "code": "EU",
+    "name": "European Union",
+    "authorities": [
+      {
+        "name": "European Commission (DG Health and Food Safety)",
+        "scope": "Grants EU-wide (central) marketing authorisations on EMA's opinion; keeps the Union Register; food supplements, health claims and novel foods; common logo for online sale of medicines",
+        "url": "https://health.ec.europa.eu/medicinal-products_en"
+      },
+      {
+        "name": "European Medicines Agency (EMA)",
+        "scope": "Scientific assessment of centrally authorised medicines, EU safety reviews (PRAC, referrals, PSUSAs), orphan designations, shortage and falsified-medicine warnings",
+        "url": "https://www.ema.europa.eu/"
+      },
+      {
+        "name": "Heads of Medicines Agencies (HMA) / CMDh",
+        "scope": "Network of national medicines agencies; CMDh harmonises product information and safety measures for nationally authorised medicines",
+        "url": "https://www.hma.eu/"
+      },
+      {
+        "name": "European Commission (DG GROW) and Working Group on Cosmetic Products",
+        "scope": "Cosmetics Regulation (EC) No 1223/2009, CosIng, borderline manual; enforcement of cosmetics law is national",
+        "url": "https://single-market-economy.ec.europa.eu/sectors/cosmetics_en"
+      },
+      {
+        "name": "National competent authorities of the member states",
+        "scope": "National marketing authorisations, pharmacy (magistral) rules, prescribing, personal import, advertising enforcement and controlled drugs (e.g. INFARMED in Portugal — see PT.json)",
+        "url": "https://www.ema.europa.eu/en/partners-networks/eu-partners/eu-member-states/national-competent-authorities-human"
+      }
+    ]
+  },
+  "researchedAt": "2026-09-25",
+  "sources": [
+    {
+      "id": "eu-dir-2001-83",
+      "title": "Directive 2001/83/EC on the Community code relating to medicinal products for human use (consolidated text of 1 January 2025)",
+      "authors": "European Parliament and Council of the European Union",
+      "publication": "OJ L 311, 28.11.2001 · consolidated version 02001L0083-20250101",
+      "year": 2001,
+      "url": "https://publications.europa.eu/resource/cellar/d105edf6-c200-11ef-91ed-01aa75ed71a1.0007.02/DOC_1",
+      "sourceType": "legislation",
+      "language": "en",
+      "readAt": "2026-09-25",
+      "note": "Read in full from the Publications Office (Cellar) copy of the EUR-Lex text, which is machine-readable; the same text on EUR-Lex: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02001L0083-20250101. EUR-Lex showed 01/01/2025 as the current consolidated version and 'Date of end of validity: No end date' on 25 September 2026. Articles used: 1(2), 2(2), 3, 5(1), 6(1), 40(2), 85c, 86-88, 90, 94."
+    },
+    {
+      "id": "eu-dir-2011-62",
+      "title": "Directive 2011/62/EU amending Directive 2001/83/EC as regards the prevention of the entry into the legal supply chain of falsified medicinal products (Falsified Medicines Directive)",
+      "authors": "European Parliament and Council of the European Union",
+      "publication": "OJ L 174, 1.7.2011, p. 74",
+      "year": 2011,
+      "url": "https://publications.europa.eu/resource/cellar/ba995577-528f-44cc-8ac9-22b0449fd522.0019.03/DOC_1",
+      "sourceType": "legislation",
+      "language": "en",
+      "readAt": "2026-09-25",
+      "note": "Read in full from the Publications Office (Cellar) copy of the EUR-Lex text, which is machine-readable; the same text on EUR-Lex: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011L0062. Inserted Article 85c (online sale, common logo) into Directive 2001/83/EC; quotes on Article 85c are taken from the consolidated Directive 2001/83/EC."
+    },
+    {
+      "id": "eu-reg-699-2014",
+      "title": "Commission Implementing Regulation (EU) No 699/2014 on the design of the common logo to identify persons offering medicinal products for sale at a distance to the public",
+      "authors": "European Commission",
+      "publication": "OJ L 184, 25.6.2014, p. 5",
+      "year": 2014,
+      "url": "https://publications.europa.eu/resource/cellar/331ea02b-fc38-11e3-831f-01aa75ed71a1.0006.03/DOC_1",
+      "sourceType": "legislation",
+      "language": "en",
+      "readAt": "2026-09-25",
+      "note": "Read in full from the Publications Office (Cellar) copy of the EUR-Lex text, which is machine-readable; the same text on EUR-Lex: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014R0699."
+    },
+    {
+      "id": "eu-reg-1223-2009",
+      "title": "Regulation (EC) No 1223/2009 on cosmetic products (consolidated text of 18 May 2026)",
+      "authors": "European Parliament and Council of the European Union",
+      "publication": "OJ L 342, 22.12.2009 · consolidated version 02009R1223-20260518",
+      "year": 2009,
+      "url": "https://publications.europa.eu/resource/cellar/9382f98e-9b27-11f1-b25c-01aa75ed71a1.0001.02/DOC_1",
+      "sourceType": "legislation",
+      "language": "en",
+      "readAt": "2026-09-25",
+      "note": "Read in full from the Publications Office (Cellar) copy of the EUR-Lex text, which is machine-readable; the same text on EUR-Lex: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009R1223-20260518. Latest consolidated version found in the Publications Office index on 25 September 2026. Articles used: 2, 4, 10, 13, 14, 20; Annex II entries 37, 194, 260, 372, 375, 390."
+    },
+    {
+      "id": "eu-reg-1223-2009-oj",
+      "title": "Regulation (EC) No 1223/2009 on cosmetic products — Official Journal text (recitals)",
+      "authors": "European Parliament and Council of the European Union",
+      "publication": "OJ L 342, 22.12.2009, p. 59",
+      "year": 2009,
+      "url": "https://publications.europa.eu/resource/cellar/4100396c-575c-4150-8d92-e7c23ab1ce97.0006.02/DOC_1",
+      "sourceType": "legislation",
+      "language": "en",
+      "readAt": "2026-09-25",
+      "note": "Read in full from the Publications Office (Cellar) copy of the EUR-Lex text, which is machine-readable; the same text on EUR-Lex: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32009R1223. Recitals are not reproduced in consolidated texts; recitals 6 and 7 read here."
+    },
+    {
+      "id": "eu-reg-655-2013",
+      "title": "Commission Regulation (EU) No 655/2013 laying down common criteria for the justification of claims used in relation to cosmetic products",
+      "authors": "European Commission",
+      "publication": "OJ L 190, 11.7.2013, p. 31",
+      "year": 2013,
+      "url": "https://publications.europa.eu/resource/cellar/4821a83b-e9f9-11e2-99b0-01aa75ed71a1.0006.03/DOC_1",
+      "sourceType": "legislation",
+      "language": "en",
+      "readAt": "2026-09-25",
+      "note": "Read in full from the Publications Office (Cellar) copy of the EUR-Lex text, which is machine-readable; the same text on EUR-Lex: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32013R0655."
+    },
+    {
+      "id": "eu-dir-2002-46",
+      "title": "Directive 2002/46/EC on the approximation of the laws of the Member States relating to food supplements (consolidated text of 26 November 2025)",
+      "authors": "European Parliament and Council of the European Union",
+      "publication": "OJ L 183, 12.7.2002 · consolidated version 02002L0046-20251126",
+      "year": 2002,
+      "url": "https://publications.europa.eu/resource/cellar/2932c627-d518-11f0-8da2-01aa75ed71a1.0007.02/DOC_1",
+      "sourceType": "legislation",
+      "language": "en",
+      "readAt": "2026-09-25",
+      "note": "Read in full from the Publications Office (Cellar) copy of the EUR-Lex text, which is machine-readable; the same text on EUR-Lex: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02002L0046-20251126."
+    },
+    {
+      "id": "eu-reg-1924-2006",
+      "title": "Regulation (EC) No 1924/2006 on nutrition and health claims made on foods (consolidated text of 13 December 2014)",
+      "authors": "European Parliament and Council of the European Union",
+      "publication": "OJ L 404, 30.12.2006 · consolidated version 02006R1924-20141213",
+      "year": 2006,
+      "url": "https://publications.europa.eu/resource/cellar/b68885ee-3a4a-43ce-b69a-e89a119bb71a.0020.02/DOC_1",
+      "sourceType": "legislation",
+      "language": "en",
+      "readAt": "2026-09-25",
+      "note": "Read in full from the Publications Office (Cellar) copy of the EUR-Lex text, which is machine-readable; the same text on EUR-Lex: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02006R1924-20141213. Latest consolidated version found in the Publications Office index on 25 September 2026."
+    },
+    {
+      "id": "eu-reg-432-2012",
+      "title": "Commission Regulation (EU) No 432/2012 establishing a list of permitted health claims made on foods (consolidated text of 20 August 2025)",
+      "authors": "European Commission",
+      "publication": "OJ L 136, 25.5.2012 · consolidated version 02012R0432-20250820",
+      "year": 2012,
+      "url": "https://publications.europa.eu/resource/cellar/77e981b4-a91e-11f0-89c6-01aa75ed71a1.0006.02/DOC_1",
+      "sourceType": "legislation",
+      "language": "en",
+      "readAt": "2026-09-25",
+      "note": "Read in full from the Publications Office (Cellar) copy of the EUR-Lex text, which is machine-readable; the same text on EUR-Lex: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02012R0432-20250820. Full-text search of the Annex on 25 September 2026: the word 'collagen' occurs only in six vitamin C claims (normal collagen formation for blood vessels, bones, cartilage, gums, skin, teeth)."
+    },
+    {
+      "id": "eu-reg-1154-2014",
+      "title": "Commission Regulation (EU) No 1154/2014 refusing to authorise certain health claims made on foods, other than those referring to the reduction of disease risk and to children's development and health",
+      "authors": "European Commission",
+      "publication": "OJ L 309, 30.10.2014, p. 23",
+      "year": 2014,
+      "url": "https://publications.europa.eu/resource/cellar/e3558852-5fff-11e4-9cbe-01aa75ed71a1.0006.03/DOC_1",
+      "sourceType": "legislation",
+      "language": "en",
+      "readAt": "2026-09-25",
+      "note": "Read in full from the Publications Office (Cellar) copy of the EUR-Lex text, which is machine-readable; the same text on EUR-Lex: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014R1154. Refuses the Article 13(5) claim for VeriSol®P collagen peptides and skin health (EFSA-Q-2012-00839); linked from the EU Register entry POL-HC-8433."
+    },
+    {
+      "id": "eu-reg-1169-2011",
+      "title": "Regulation (EU) No 1169/2011 on the provision of food information to consumers (consolidated text of 1 April 2025)",
+      "authors": "European Parliament and Council of the European Union",
+      "publication": "OJ L 304, 22.11.2011 · consolidated version 02011R1169-20250401",
+      "year": 2011,
+      "url": "https://publications.europa.eu/resource/cellar/0d97f4fa-212e-11f0-af23-01aa75ed71a1.0006.03/DOC_1",
+      "sourceType": "legislation",
+      "language": "en",
+      "readAt": "2026-09-25",
+      "note": "Read in full from the Publications Office (Cellar) copy of the EUR-Lex text, which is machine-readable; the same text on EUR-Lex: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02011R1169-20250401."
+    },
+    {
+      "id": "eu-reg-2015-2283",
+      "title": "Regulation (EU) 2015/2283 on novel foods (consolidated text of 27 March 2021)",
+      "authors": "European Parliament and Council of the European Union",
+      "publication": "OJ L 327, 11.12.2015 · consolidated version 02015R2283-20210327",
+      "year": 2015,
+      "url": "https://publications.europa.eu/resource/cellar/f57c83c0-69fa-11ea-b735-01aa75ed71a1.0007.03/DOC_1",
+      "sourceType": "legislation",
+      "language": "en",
+      "readAt": "2026-09-25",
+      "note": "Read in full from the Publications Office (Cellar) copy of the EUR-Lex text, which is machine-readable; the same text on EUR-Lex: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02015R2283-20210327."
+    },
+    {
+      "id": "eu-reg-2017-745",
+      "title": "Regulation (EU) 2017/745 on medical devices (consolidated text of 19 July 2026), Annex XVI",
+      "authors": "European Parliament and Council of the European Union",
+      "publication": "OJ L 117, 5.5.2017 · consolidated version 02017R0745-20260719",
+      "year": 2017,
+      "url": "https://publications.europa.eu/resource/cellar/e56fc708-95ab-11f1-9262-01aa75ed71a1.0004.02/DOC_1",
+      "sourceType": "legislation",
+      "language": "en",
+      "readAt": "2026-09-25",
+      "note": "Read in full from the Publications Office (Cellar) copy of the EUR-Lex text, which is machine-readable; the same text on EUR-Lex: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02017R0745-20260719."
+    },
+    {
+      "id": "eu-dir-2010-13",
+      "title": "Directive 2010/13/EU (Audiovisual Media Services Directive), consolidated text of 8 February 2025 — Articles 9(1) and 28b",
+      "authors": "European Parliament and Council of the European Union",
+      "publication": "OJ L 95, 15.4.2010 · consolidated version 02010L0013-20250208",
+      "year": 2010,
+      "url": "https://publications.europa.eu/resource/cellar/f5e5072d-e2ff-11ef-be2a-01aa75ed71a1.0006.02/DOC_1",
+      "sourceType": "legislation",
+      "language": "en",
+      "readAt": "2026-09-25",
+      "note": "Read in full from the Publications Office (Cellar) copy of the EUR-Lex text, which is machine-readable; the same text on EUR-Lex: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02010L0013-20250208."
+    },
+    {
+      "id": "eu-dir-2005-29",
+      "title": "Directive 2005/29/EC on unfair business-to-consumer commercial practices (consolidated text of 28 May 2022), Annex I",
+      "authors": "European Parliament and Council of the European Union",
+      "publication": "OJ L 149, 11.6.2005 · consolidated version 02005L0029-20220528",
+      "year": 2005,
+      "url": "https://publications.europa.eu/resource/cellar/bf9a3433-702b-11ea-a07e-01aa75ed71a1.0006.03/DOC_1",
+      "sourceType": "legislation",
+      "language": "en",
+      "readAt": "2026-09-25",
+      "note": "Read in full from the Publications Office (Cellar) copy of the EUR-Lex text, which is machine-readable; the same text on EUR-Lex: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02005L0029-20220528. Annex I point 17 is unchanged in the consolidated version dated 27 September 2026 (amendments by Directive (EU) 2024/825), also checked."
+    },
+    {
+      "id": "eu-fd-2004-757",
+      "title": "Council Framework Decision 2004/757/JHA on illicit drug trafficking (consolidated text of 12 January 2026), Article 1 and Annex",
+      "authors": "Council of the European Union",
+      "publication": "OJ L 335, 11.11.2004 · consolidated version 02004F0757-20260112",
+      "year": 2004,
+      "url": "https://publications.europa.eu/resource/cellar/6dc1fe9c-11bc-11f1-8870-01aa75ed71a1.0006.02/DOC_1",
+      "sourceType": "legislation",
+      "language": "en",
+      "readAt": "2026-09-25",
+      "note": "Read in full from the Publications Office (Cellar) copy of the EUR-Lex text, which is machine-readable; the same text on EUR-Lex: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02004F0757-20260112. Full-text search on 25 September 2026 for somatropin, growth hormone, anabolic, melanotan and peptide: no hits in the Annex of new psychoactive substances."
+    },
+    {
+      "id": "eu-council-st-12263-2026",
+      "title": "Draft Directive on the Union code relating to medicinal products for human use, repealing Directives 2001/83/EC and 2009/35/EC (first reading) — adoption of the Council's position at first reading ('I/A' item note 12263/26)",
+      "authors": "General Secretariat of the Council of the European Union",
+      "publication": "Council document ST 12263 2026 INIT · 21 September 2026",
+      "year": 2026,
+      "url": "https://data.consilium.europa.eu/doc/document/ST-12263-2026-INIT/en/pdf",
+      "sourceType": "legislation",
+      "language": "en",
+      "readAt": "2026-09-25",
+      "note": "Procedure 2023/0132 (COD), the EU pharmaceutical package. Found via EUR-Lex search of Council documents on 25 September 2026."
+    },
+    {
+      "id": "eu-union-register",
+      "title": "Union Register of medicinal products for human use (authorised, not active and refused lists)",
+      "authors": "European Commission, DG Health and Food Safety",
+      "publication": "health.ec.europa.eu · register pages updated 25 September 2026 (refusals list 17 September 2026)",
+      "year": 2026,
+      "url": "https://ec.europa.eu/health/documents/community-register/html/reg_hum_act.htm?sort=a",
+      "sourceType": "register",
+      "language": "en",
+      "readAt": "2026-09-25",
+      "note": "Searched 25 September 2026 by downloading the three register lists (reg_hum_act, reg_hum_nact, reg_hum_refus) and searching product names and INNs for: semaglutide, tirzepatide, Zepbound, retatrutide, afamelanotide, melanotan, baricitinib, minoxidil, finasteride, somatropin, tesamorelin, sermorelin, ipamorelin, CJC, ibutamoren, BPC, thymosin, TB-500, KPV, GHK, copper, LL-37, cathelicidin, thymulin, PTD, tretinoin, estradiol, collagen. Covers only centrally authorised (EU-wide) medicines; the product data are embedded in the page as script data, so a plain-text reader sees only the header. National authorisations are not in this register."
+    },
+    {
+      "id": "eu-ema-medicines-data",
+      "title": "Download medicine data — EMA medicines data table (centrally authorised, refused, withdrawn and withdrawn-application medicines)",
+      "authors": "European Medicines Agency",
+      "publication": "ema.europa.eu · table generated 25 September 2026 06:00",
+      "year": 2026,
+      "url": "https://www.ema.europa.eu/en/medicines/download-medicine-data",
+      "sourceType": "register",
+      "language": "en",
+      "readAt": "2026-09-25",
+      "note": "Downloaded medicines-output-medicines-report_en.xlsx (2,746 rows), plus the orphan-designation, referral, PSUSA and shortage tables, on 25 September 2026 and searched the same terms as the Union Register (plus mecasermin, pentadecapeptide, ropocamptide, MK-677, Egrifta, Geref). Hits: Ozempic, Rybelsus, Wegovy, Kayshild, Kyinsu (semaglutide); Mounjaro; Scenesse; Olumiant; Omnitrope, NutropinAq, Valtropin, Somatropin Biopartners, Ngenla, Sogroya, Skytrofa (growth hormone); Egrifta (tesamorelin, application withdrawn). No hits for retatrutide, melanotan, minoxidil, finasteride, sermorelin, ipamorelin, CJC-1295, ibutamoren, BPC-157, thymosin/TB-500, KPV, GHK/copper tripeptide, LL-37, thymulin or PTD-DBM."
+    },
+    {
+      "id": "eu-claims-register",
+      "title": "EU Register of nutrition and health claims made on foods — health-claims dataset",
+      "authors": "European Commission, DG Health and Food Safety",
+      "publication": "Food and Feed Information Portal · dataset read 25 September 2026 (2,337 health-claim records)",
+      "year": 2026,
+      "url": "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items?foodDomain=nut&authorisationType=nut_auth",
+      "sourceType": "register",
+      "language": "en",
+      "readAt": "2026-09-25",
+      "note": "Public register screen: https://ec.europa.eu/food/food-feed-portal/screen/health-claims/eu-register (a JavaScript application); the URL given is the JSON dataset the screen loads. 36 records mention collagen: the only authorised ones are six vitamin C claims; collagen's own claims (e.g. POL-HC-8291, POL-HC-8433, POL-HC-6212) are non-authorised."
+    },
+    {
+      "id": "eu-cosing-home",
+      "title": "CosIng — Cosmetic ingredients database (notice on legal status)",
+      "authors": "European Commission, DG Internal Market, Industry, Entrepreneurship and SMEs",
+      "publication": "ec.europa.eu/growth · read in a browser 25 September 2026",
+      "year": 2026,
+      "url": "https://ec.europa.eu/growth/tools-databases/cosing/",
+      "sourceType": "register",
+      "language": "en",
+      "readAt": "2026-09-25",
+      "note": "JavaScript application: read in a browser; the automated source check cannot read it."
+    },
+    {
+      "id": "eu-cosing-copper-tripeptide-1",
+      "title": "CosIng ingredient record: COPPER TRIPEPTIDE-1",
+      "authors": "European Commission, DG Internal Market, Industry, Entrepreneurship and SMEs",
+      "publication": "ec.europa.eu/growth · record 55687 · read in a browser 25 September 2026",
+      "year": 2026,
+      "url": "https://ec.europa.eu/growth/tools-databases/cosing/details/55687",
+      "sourceType": "register",
+      "language": "en",
+      "readAt": "2026-09-25",
+      "note": "JavaScript application: read in a browser; the automated source check cannot read it. A name search for 'copper tripeptide-1' returned 8 inventory entries (e.g. copper tripeptide-1 acetate, copper tripeptide-1 palmitamide); none shows an Annex II-VI restriction."
+    },
+    {
+      "id": "eu-ema-epar-ozempic",
+      "title": "Ozempic (semaglutide) — EPAR medicine overview",
+      "authors": "European Medicines Agency",
+      "publication": "ema.europa.eu · EPAR page",
+      "year": 2018,
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/ozempic",
+      "sourceType": "regulator",
+      "language": "en",
+      "readAt": "2026-09-25",
+      "note": ""
+    },
+    {
+      "id": "eu-ema-epar-wegovy",
+      "title": "Wegovy (semaglutide) — EPAR medicine overview",
+      "authors": "European Medicines Agency",
+      "publication": "ema.europa.eu · EPAR page",
+      "year": 2022,
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/wegovy",
+      "sourceType": "regulator",
+      "language": "en",
+      "readAt": "2026-09-25",
+      "note": ""
+    },
+    {
+      "id": "eu-ema-epar-mounjaro",
+      "title": "Mounjaro (tirzepatide) — EPAR medicine overview",
+      "authors": "European Medicines Agency",
+      "publication": "ema.europa.eu · EPAR page",
+      "year": 2022,
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/mounjaro",
+      "sourceType": "regulator",
+      "language": "en",
+      "readAt": "2026-09-25",
+      "note": ""
+    },
+    {
+      "id": "eu-ema-epar-scenesse",
+      "title": "Scenesse (afamelanotide) — EPAR medicine overview",
+      "authors": "European Medicines Agency",
+      "publication": "ema.europa.eu · EPAR page",
+      "year": 2014,
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/scenesse",
+      "sourceType": "regulator",
+      "language": "en",
+      "readAt": "2026-09-25",
+      "note": ""
+    },
+    {
+      "id": "eu-ema-epar-olumiant",
+      "title": "Olumiant (baricitinib) — EPAR medicine overview",
+      "authors": "European Medicines Agency",
+      "publication": "ema.europa.eu · EPAR page (overview last updated 10-2023)",
+      "year": 2017,
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/olumiant",
+      "sourceType": "regulator",
+      "language": "en",
+      "readAt": "2026-09-25",
+      "note": "The date on which the alopecia areata indication was added is not stated on this page."
+    },
+    {
+      "id": "eu-ema-epar-omnitrope",
+      "title": "Omnitrope (somatropin) — EPAR medicine overview",
+      "authors": "European Medicines Agency",
+      "publication": "ema.europa.eu · EPAR page",
+      "year": 2006,
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/omnitrope",
+      "sourceType": "regulator",
+      "language": "en",
+      "readAt": "2026-09-25",
+      "note": ""
+    },
+    {
+      "id": "eu-ema-egrifta-withdrawal",
+      "title": "Egrifta (tesamorelin) — withdrawal of the marketing authorisation application",
+      "authors": "European Medicines Agency",
+      "publication": "ema.europa.eu · withdrawn-application page (Q&A EMA/CHMP/475021/2012, 18 July 2012)",
+      "year": 2012,
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/egrifta",
+      "sourceType": "regulator",
+      "language": "en",
+      "readAt": "2026-09-25",
+      "note": ""
+    },
+    {
+      "id": "eu-ema-od-ibutamoren-2017",
+      "title": "EU/3/17/1882 — orphan designation for ibutamoren mesilate for the treatment of growth hormone deficiency",
+      "authors": "European Medicines Agency",
+      "publication": "ema.europa.eu · orphan designation page (public summary EMA/325369/2017)",
+      "year": 2017,
+      "url": "https://www.ema.europa.eu/en/medicines/human/orphan-designations/eu-3-17-1882",
+      "sourceType": "regulator",
+      "language": "en",
+      "readAt": "2026-09-25",
+      "note": ""
+    },
+    {
+      "id": "eu-ema-ref-finasteride-2025",
+      "title": "Finasteride- and dutasteride-containing medicinal products — Article 31 referral (EMEA/H/A-31/1539)",
+      "authors": "European Medicines Agency",
+      "publication": "ema.europa.eu · referral page · CMDh position 19 June 2025; European Commission final decision",
+      "year": 2025,
+      "url": "https://www.ema.europa.eu/en/medicines/human/referrals/finasteride-dutasteride-containing-medicinal-products",
+      "sourceType": "regulator",
+      "language": "en",
+      "readAt": "2026-09-25",
+      "note": ""
+    },
+    {
+      "id": "eu-ema-ref-retinoids-2018",
+      "title": "Retinoid-containing medicinal products — Article 31 referral (EMEA/H/A-31/1446)",
+      "authors": "European Medicines Agency",
+      "publication": "ema.europa.eu · referral page · EMA review completed 22 March 2018; European Commission final decision",
+      "year": 2018,
+      "url": "https://www.ema.europa.eu/en/medicines/human/referrals/retinoid-containing-medicinal-products",
+      "sourceType": "regulator",
+      "language": "en",
+      "readAt": "2026-09-25",
+      "note": ""
+    },
+    {
+      "id": "eu-ema-ref-estradiol-2020",
+      "title": "Estradiol-containing (0.01% w/w) medicinal products for topical use — Article 31 referral (EMEA/H/A-31/1482)",
+      "authors": "European Medicines Agency",
+      "publication": "ema.europa.eu · referral page · PRAC 16 January 2020, CMDh 30 January 2020",
+      "year": 2020,
+      "url": "https://www.ema.europa.eu/en/medicines/human/referrals/estradiol-containing-001-w-w-medicinal-products-topical-use",
+      "sourceType": "regulator",
+      "language": "en",
+      "readAt": "2026-09-25",
+      "note": ""
+    },
+    {
+      "id": "eu-ema-ref-jaki-2023",
+      "title": "Janus kinase inhibitors (JAKi) — Article 20 procedure (EMEA/H-A20/1517)",
+      "authors": "European Medicines Agency",
+      "publication": "ema.europa.eu · referral page · CHMP 23 January 2023; European Commission final decision",
+      "year": 2023,
+      "url": "https://www.ema.europa.eu/en/medicines/human/referrals/janus-kinase-inhibitors-jaki",
+      "sourceType": "regulator",
+      "language": "en",
+      "readAt": "2026-09-25",
+      "note": ""
+    },
+    {
+      "id": "eu-ema-ref-somatropin-2012",
+      "title": "Somatropin-containing medicines — Article 107 review (EMEA/H/A-107/001287)",
+      "authors": "European Medicines Agency",
+      "publication": "ema.europa.eu · referral page · European Commission decision 27 February 2012",
+      "year": 2012,
+      "url": "https://www.ema.europa.eu/en/medicines/human/referrals/somatropin",
+      "sourceType": "regulator",
+      "language": "en",
+      "readAt": "2026-09-25",
+      "note": ""
+    },
+    {
+      "id": "eu-ema-psusa-minoxidil-2024",
+      "title": "Minoxidil (topical formulation): CMDh scientific conclusions and grounds for variation, amendments to the product information and timetable for the implementation — PSUSA/00002067/202310",
+      "authors": "European Medicines Agency / CMDh",
+      "publication": "ema.europa.eu · PDF · first published 13 August 2024 (CMDh position June 2024)",
+      "year": 2024,
+      "url": "https://www.ema.europa.eu/en/documents/psusa/minoxidil-topical-formulation-cmdh-scientific-conclusions-grounds-variation-amendments-product-information-timetable-implementation-psusa-00002067-202310_en.pdf",
+      "sourceType": "regulator",
+      "language": "en",
+      "readAt": "2026-09-25",
+      "note": "The EMA server returned 502/504 on the first attempts; read on a later attempt."
+    },
+    {
+      "id": "eu-hma-core-smpc-hrt-2025",
+      "title": "Core SmPC for hormone replacement therapy products (CMDh/131/2003, Rev. 11)",
+      "authors": "Co-ordination Group for Mutual Recognition and Decentralised Procedures – Human (CMDh), Heads of Medicines Agencies",
+      "publication": "hma.eu · PDF · December 2025",
+      "year": 2025,
+      "url": "https://www.hma.eu/fileadmin/dateien/Human_Medicines/CMD_h_/Product_Information/Core_SPC_PL/Core_SPCs/CMDh_131-2003_Rev11_2025_12_clean_-_Core_SmPC_HRT.pdf",
+      "sourceType": "regulator",
+      "language": "en",
+      "readAt": "2026-09-25",
+      "note": "Harmonised core product information agreed by the CMDh (the member states' coordination group) for nationally authorised HRT products."
+    },
+    {
+      "id": "eu-ema-glp1-shortages-2024",
+      "title": "EU actions to tackle shortages of GLP-1 receptor agonists (news)",
+      "authors": "European Medicines Agency and Heads of Medicines Agencies (MSSG)",
+      "publication": "ema.europa.eu · news · 26 June 2024",
+      "year": 2024,
+      "url": "https://www.ema.europa.eu/en/news/eu-actions-tackle-shortages-glp-1-receptor-agonists",
+      "sourceType": "regulator",
+      "language": "en",
+      "readAt": "2026-09-25",
+      "note": "Recommendations of the EMA/HMA Executive Steering Group on Shortages and Safety of Medicinal Products (MSSG). EMA's shortage table (25 September 2026) marks the Ozempic shortage 'resolved' (last updated 13 January 2026)."
+    },
+    {
+      "id": "eu-ema-illegal-glp1-2025",
+      "title": "Warning about sharp rise in illegal medicines sold in the EU (news)",
+      "authors": "European Medicines Agency and Heads of Medicines Agencies",
+      "publication": "ema.europa.eu · news · 3 September 2025",
+      "year": 2025,
+      "url": "https://www.ema.europa.eu/en/news/warning-about-sharp-rise-illegal-medicines-sold-eu",
+      "sourceType": "regulator",
+      "language": "en",
+      "readAt": "2026-09-25",
+      "note": ""
+    },
+    {
+      "id": "eu-ema-falsified-ozempic-2023",
+      "title": "EMA alerts EU patients and healthcare professionals to reports of falsified Ozempic pens (news)",
+      "authors": "European Medicines Agency",
+      "publication": "ema.europa.eu · news · 18 October 2023",
+      "year": 2023,
+      "url": "https://www.ema.europa.eu/en/news/ema-alerts-eu-patients-healthcare-professionals-reports-falsified-ozempic-pens",
+      "sourceType": "regulator",
+      "language": "en",
+      "readAt": "2026-09-25",
+      "note": ""
+    },
+    {
+      "id": "eu-ema-buying-online",
+      "title": "Buying medicines online",
+      "authors": "European Medicines Agency",
+      "publication": "ema.europa.eu · falsified medicines overview page",
+      "year": 2026,
+      "url": "https://www.ema.europa.eu/en/human-regulatory-overview/public-health-threats/falsified-medicines-overview/buying-medicines-online",
+      "sourceType": "regulator",
+      "language": "en",
+      "readAt": "2026-09-25",
+      "note": ""
+    },
+    {
+      "id": "eu-ema-naion-2025",
+      "title": "PRAC concludes eye condition NAION is a very rare side effect of semaglutide medicines Ozempic, Rybelsus and Wegovy (news)",
+      "authors": "European Medicines Agency",
+      "publication": "ema.europa.eu · news · 6 June 2025 (revised 13 June 2025)",
+      "year": 2025,
+      "url": "https://www.ema.europa.eu/en/news/prac-concludes-eye-condition-naion-very-rare-side-effect-semaglutide-medicines-ozempic-rybelsus-wegovy",
+      "sourceType": "regulator",
+      "language": "en",
+      "readAt": "2026-09-25",
+      "note": ""
+    },
+    {
+      "id": "eu-ec-common-logo",
+      "title": "EU logo for online sale of medicines",
+      "authors": "European Commission, DG Health and Food Safety",
+      "publication": "health.ec.europa.eu · medicinal products page",
+      "year": 2026,
+      "url": "https://health.ec.europa.eu/medicinal-products/other-topics/eu-logo-online-sale-medicines_en",
+      "sourceType": "regulator",
+      "language": "en",
+      "readAt": "2026-09-25",
+      "note": ""
+    },
+    {
+      "id": "eu-ec-cosmetics-borderline-manual-2025",
+      "title": "Manual of the Working Group on Cosmetic Products (Sub-group on Borderline Products) on the scope of application of the Cosmetics Regulation (EC) No 1223/2009 (Art. 2(1)(a)), version 5.5",
+      "authors": "Working Group on Cosmetic Products (European Commission and member states)",
+      "publication": "single-market-economy.ec.europa.eu · PDF · version 5.5, June 2025 (endorsed 12 March and 23 June 2025)",
+      "year": 2025,
+      "url": "https://single-market-economy.ec.europa.eu/document/download/93257feb-2b4d-4b85-a851-225f1ccf3c9b_en?filename=Borderline%20Manual",
+      "sourceType": "regulator",
+      "language": "en",
+      "readAt": "2026-09-25",
+      "note": "Linked from the Commission's 'Borderline products' page. The manual states it is not legally binding, is not a Commission document, and that national authorities and courts decide case by case."
+    },
+    {
+      "id": "eu-europol-shield-vi-2026",
+      "title": "3 354 individuals prosecuted in Europol-coordinated hit against pharmaceutical crime networks — Operation SHIELD VI (news)",
+      "authors": "Europol (European Union Agency for Law Enforcement Cooperation)",
+      "publication": "europol.europa.eu · news · 25 February 2026",
+      "year": 2026,
+      "url": "https://www.europol.europa.eu/media-press/newsroom/news/3354-individuals-prosecuted-in-europol-coordinated-hit-against-pharmaceutical-crime-networks",
+      "sourceType": "regulator",
+      "language": "en",
+      "readAt": "2026-09-25",
+      "note": "EU law-enforcement agency, not a medicines regulator. JavaScript page: read in a browser; the automated source check cannot read it."
+    }
+  ],
+  "substances": [
+    {
+      "name": "semaglutide",
+      "status": "authorised",
+      "statement": "In the EU, semaglutide is a centrally authorised prescription medicine: Ozempic and Rybelsus for type 2 diabetes and Wegovy for weight management (EMA and HMA, June 2024).",
+      "sourceIds": [
+        "eu-ema-glp1-shortages-2024"
+      ],
+      "quote": "The medicines Bydureon, Byetta, Lyxumia, Ozempic, Rybelsus, Trulicity and Victoza are authorised for diabetes only. Saxenda and Wegovy are authorised for weight management and Mounjaro is authorised for both diabetes and weight management. All these medicines (called GLP-1 receptor agonists) are prescription medicines and should only be used under medical supervision.",
+      "quoteEn": "The medicines Bydureon, Byetta, Lyxumia, Ozempic, Rybelsus, Trulicity and Victoza are authorised for diabetes only. Saxenda and Wegovy are authorised for weight management and Mounjaro is authorised for both diabetes and weight management. All these medicines (called GLP-1 receptor agonists) are prescription medicines and should only be used under medical supervision."
+    },
+    {
+      "name": "semaglutide",
+      "status": "authorised",
+      "statement": "In the EU, Ozempic (semaglutide) has held an EU-wide marketing authorisation since 8 February 2018 and is prescription-only (EMA).",
+      "sourceIds": [
+        "eu-ema-epar-ozempic"
+      ],
+      "quote": "Ozempic is available as a solution for injection in prefilled pens and can only be obtained with a prescription. … The European Commission granted a marketing authorisation valid throughout the European Union for Ozempic on 8 February 2018.",
+      "quoteEn": "Ozempic is available as a solution for injection in prefilled pens and can only be obtained with a prescription. … The European Commission granted a marketing authorisation valid throughout the European Union for Ozempic on 8 February 2018."
+    },
+    {
+      "name": "semaglutide",
+      "status": "authorised",
+      "statement": "In the EU, Wegovy (semaglutide) has held an EU-wide marketing authorisation for weight management since 6 January 2022 and is prescription-only (EMA).",
+      "sourceIds": [
+        "eu-ema-epar-wegovy"
+      ],
+      "quote": "Wegovy can only be obtained with a prescription. … Wegovy received a marketing authorisation valid throughout the EU on 6 January 2022.",
+      "quoteEn": "Wegovy can only be obtained with a prescription. … Wegovy received a marketing authorisation valid throughout the EU on 6 January 2022."
+    },
+    {
+      "name": "semaglutide",
+      "status": "authorised",
+      "statement": "EMA's safety committee concluded on 6 June 2025 that NAION, an eye condition that can cause loss of vision, is a very rare side effect of semaglutide (Ozempic, Rybelsus, Wegovy), affecting up to 1 in 10,000 people.",
+      "sourceIds": [
+        "eu-ema-naion-2025"
+      ],
+      "quote": "PRAC has concluded that NAION is a very rare side effect of semaglutide (meaning it may affect up to 1 in 10,000 people taking semaglutide).",
+      "quoteEn": "PRAC has concluded that NAION is a very rare side effect of semaglutide (meaning it may affect up to 1 in 10,000 people taking semaglutide)."
+    },
+    {
+      "name": "tirzepatide",
+      "status": "authorised",
+      "statement": "In the EU, tirzepatide is authorised as Mounjaro (EU-wide authorisation 15 September 2022) for type 2 diabetes and adult weight management, prescription-only; no EU product named Zepbound was found in the Union Register or EMA data (searched 25 September 2026).",
+      "sourceIds": [
+        "eu-ema-epar-mounjaro",
+        "eu-union-register",
+        "eu-ema-medicines-data"
+      ],
+      "quote": "Mounjaro is also used together with diet and physical activity to help adults to lose weight and keep their weight under control. … Mounjaro can only be obtained with a prescription. … Mounjaro received a marketing authorisation valid throughout the EU on 15 September 2022.",
+      "quoteEn": "Mounjaro is also used together with diet and physical activity to help adults to lose weight and keep their weight under control. … Mounjaro can only be obtained with a prescription. … Mounjaro received a marketing authorisation valid throughout the EU on 15 September 2022."
+    },
+    {
+      "name": "retatrutide",
+      "status": "not-authorised",
+      "statement": "In the EU, no centrally authorised medicine containing retatrutide was found in the Union Register or in EMA's data on authorised, refused and withdrawn medicines (searched 25 September 2026).",
+      "sourceIds": [
+        "eu-ema-medicines-data",
+        "eu-union-register"
+      ],
+      "quote": "This includes information on marketing authorisations of centrally authorised medicines and post-authorisation procedures. … These pages also contain information on medicines for which the European Commission has refused a marketing authorisation, or has suspended or withdrawn the marketing authorisation after approval.",
+      "quoteEn": "This includes information on marketing authorisations of centrally authorised medicines and post-authorisation procedures. … These pages also contain information on medicines for which the European Commission has refused a marketing authorisation, or has suspended or withdrawn the marketing authorisation after approval."
+    },
+    {
+      "name": "afamelanotide",
+      "status": "authorised",
+      "statement": "In the EU, afamelanotide (Scenesse implant) is authorised only for erythropoietic protoporphyria, under exceptional circumstances (European Commission, 22 December 2014), and is prescribed only by specialists in recognised EPP centres.",
+      "sourceIds": [
+        "eu-ema-epar-scenesse",
+        "eu-union-register"
+      ],
+      "quote": "Scenesse is an implant used to treat patients with erythropoietic protoporphyria (EPP), a rare disease that causes intolerance to light. … Scenesse is only prescribed by specialist doctors in recognised centres for treating EPP and should only be used by doctors who have been properly trained. … Scenesse has been authorised under ‘exceptional circumstances’. … The European Commission granted a marketing authorisation valid throughout the European Union for Scenesse on 22 December 2014.",
+      "quoteEn": "Scenesse is an implant used to treat patients with erythropoietic protoporphyria (EPP), a rare disease that causes intolerance to light. … Scenesse is only prescribed by specialist doctors in recognised centres for treating EPP and should only be used by doctors who have been properly trained. … Scenesse has been authorised under ‘exceptional circumstances’. … The European Commission granted a marketing authorisation valid throughout the European Union for Scenesse on 22 December 2014."
+    },
+    {
+      "name": "Melanotan II / \"melanotan\"",
+      "status": "not-authorised",
+      "statement": "In the EU, no centrally authorised medicine containing melanotan (Melanotan II) was found in the Union Register or in EMA's data on authorised, refused and withdrawn medicines (searched 25 September 2026).",
+      "sourceIds": [
+        "eu-ema-medicines-data",
+        "eu-union-register"
+      ],
+      "quote": "This includes information on marketing authorisations of centrally authorised medicines and post-authorisation procedures. … These pages also contain information on medicines for which the European Commission has refused a marketing authorisation, or has suspended or withdrawn the marketing authorisation after approval.",
+      "quoteEn": "This includes information on marketing authorisations of centrally authorised medicines and post-authorisation procedures. … These pages also contain information on medicines for which the European Commission has refused a marketing authorisation, or has suspended or withdrawn the marketing authorisation after approval."
+    },
+    {
+      "name": "baricitinib",
+      "status": "authorised",
+      "statement": "In the EU, baricitinib (Olumiant) has been centrally authorised since 13 February 2017; its indications include severe alopecia areata in adults and adolescents aged 12 and over, and it is prescription-only, started by a doctor experienced in the condition (EMA).",
+      "sourceIds": [
+        "eu-ema-epar-olumiant"
+      ],
+      "quote": "Olumiant can only be obtained with a prescription, and treatment must be started by a doctor who has experience in the diagnosis and treatment of the conditions for which it is used. … Olumiant received a marketing authorisation valid throughout the EU on 13 February 2017. … Baricitinib is indicated for the treatment of severe alopecia areata in adult and adolescent patients 12 years of age and older.",
+      "quoteEn": "Olumiant can only be obtained with a prescription, and treatment must be started by a doctor who has experience in the diagnosis and treatment of the conditions for which it is used. … Olumiant received a marketing authorisation valid throughout the EU on 13 February 2017. … Baricitinib is indicated for the treatment of severe alopecia areata in adult and adolescent patients 12 years of age and older."
+    },
+    {
+      "name": "baricitinib",
+      "status": "authorised",
+      "statement": "Since EMA's January 2023 review, JAK inhibitors including Olumiant should be used in people aged 65 or over, at raised cardiovascular or cancer risk, or long-term smokers only if no suitable alternative exists, and this applies to alopecia areata.",
+      "sourceIds": [
+        "eu-ema-ref-jaki-2023"
+      ],
+      "quote": "These medicines should be used in the following patients only if no suitable treatment alternatives are available: those aged 65 years or above, those at increased risk of major cardiovascular problems (such as heart attack or stroke), those who smoke or have done so for a long time in the past and those at increased risk of cancer. … EMA has now concluded that these safety findings apply to all approved uses of JAK inhibitors in chronic inflammatory disorders (rheumatoid arthritis, psoriatic arthritis, juvenile idiopathic arthritis, axial spondyloarthritis, ulcerative colitis, atopic dermatitis and alopecia areata).",
+      "quoteEn": "These medicines should be used in the following patients only if no suitable treatment alternatives are available: those aged 65 years or above, those at increased risk of major cardiovascular problems (such as heart attack or stroke), those who smoke or have done so for a long time in the past and those at increased risk of cancer. … EMA has now concluded that these safety findings apply to all approved uses of JAK inhibitors in chronic inflammatory disorders (rheumatoid arthritis, psoriatic arthritis, juvenile idiopathic arthritis, axial spondyloarthritis, ulcerative colitis, atopic dermatitis and alopecia areata)."
+    },
+    {
+      "name": "minoxidil",
+      "status": "authorised",
+      "statement": "In the EU, topical minoxidil medicines are authorised nationally (no centrally authorised product was found); after an EU safety review (CMDh, June 2024) their product information warns of reversible excess hair growth in infants after skin contact with a caregiver's application site.",
+      "sourceIds": [
+        "eu-ema-psusa-minoxidil-2024",
+        "eu-union-register",
+        "eu-ema-medicines-data"
+      ],
+      "quote": "Amendments to the product information of the nationally authorised medicinal product(s) … Cases of hypertrichosis have been reported in infants following skin contact with minoxidil application sites of patients (caregivers) using topical minoxidil. Hypertrichosis was reversible, within months, when infants were no longer exposed to minoxidil.",
+      "quoteEn": "Amendments to the product information of the nationally authorised medicinal product(s) … Cases of hypertrichosis have been reported in infants following skin contact with minoxidil application sites of patients (caregivers) using topical minoxidil. Hypertrichosis was reversible, within months, when infants were no longer exposed to minoxidil."
+    },
+    {
+      "name": "minoxidil",
+      "status": "authorised",
+      "statement": "In the EU, minoxidil and its salts are prohibited in cosmetic products (Regulation (EC) No 1223/2009, Annex II entry 372), so a hair-growth product containing minoxidil cannot be sold as a cosmetic.",
+      "sourceIds": [
+        "eu-reg-1223-2009"
+      ],
+      "quote": "cosmetic products shall not contain any of the following: … prohibited substances listed in Annex II … 6-(Piperidinyl)-2,4-pyrimidinediamine 3-oxide (Minoxidil (INN)) and its salts",
+      "quoteEn": "cosmetic products shall not contain any of the following: … prohibited substances listed in Annex II … 6-(Piperidinyl)-2,4-pyrimidinediamine 3-oxide (Minoxidil (INN)) and its salts"
+    },
+    {
+      "name": "finasteride",
+      "status": "authorised",
+      "statement": "In the EU, finasteride 1 mg tablets and a finasteride skin spray are authorised nationally in various member states for early androgenetic alopecia in men aged 18 to 41 (EMA, 2025).",
+      "sourceIds": [
+        "eu-ema-ref-finasteride-2025"
+      ],
+      "quote": "Medicines containing finasteride 1 mg tablets or sprays to be applied to the skin are authorised in various EU Member States to prevent hair loss and stimulate hair growth in men aged 18 to 41 years with early-stage androgenetic alopecia (hair loss due to male hormones).",
+      "quoteEn": "Medicines containing finasteride 1 mg tablets or sprays to be applied to the skin are authorised in various EU Member States to prevent hair loss and stimulate hair growth in men aged 18 to 41 years with early-stage androgenetic alopecia (hair loss due to male hormones)."
+    },
+    {
+      "name": "finasteride",
+      "status": "authorised",
+      "statement": "After an EU-wide review endorsed by the CMDh on 19 June 2025, suicidal ideation is a confirmed side effect of finasteride tablets; people taking 1 mg for hair loss who notice mood changes should stop and seek advice, and packs carry a patient card.",
+      "sourceIds": [
+        "eu-ema-ref-finasteride-2025"
+      ],
+      "quote": "On 19 June 2025, the CMDh … Suicidal ideation was confirmed as a side effect of finasteride 1 and 5 mg tablets by the PRAC, following an EU-wide review of available data on these medicines. … A patient card will be included in the packages of 1 mg finasteride tablets to remind patients of these risks and to advise them about the appropriate course of action. … If you are taking finasteride 1 mg tablets for hair loss and you experience any mood changes, stop taking finasteride and contact your doctor for further medical advice as soon as possible.",
+      "quoteEn": "On 19 June 2025, the CMDh … Suicidal ideation was confirmed as a side effect of finasteride 1 and 5 mg tablets by the PRAC, following an EU-wide review of available data on these medicines. … A patient card will be included in the packages of 1 mg finasteride tablets to remind patients of these risks and to advise them about the appropriate course of action. … If you are taking finasteride 1 mg tablets for hair loss and you experience any mood changes, stop taking finasteride and contact your doctor for further medical advice as soon as possible."
+    },
+    {
+      "name": "somatropin (growth hormone)",
+      "status": "authorised",
+      "statement": "In the EU, somatropin is an injectable medicine authorised since the 1980s through central and national procedures for growth hormone replacement and for short stature in specific childhood conditions (EMA, 2012).",
+      "sourceIds": [
+        "eu-ema-ref-somatropin-2012"
+      ],
+      "quote": "Medicines containing somatropin are given by injection. They have been authorised in the EU since the 1980s through centralised or national procedures … The approved indications vary for the different somatropin-containing medicines: they may be used as hormone replacement therapy, and to correct short stature (height) in children with certain genetic diseases (Turner syndrome or Prader Willi syndrome), children who have long-standing kidney problems and children born small for their gestational age.",
+      "quoteEn": "Medicines containing somatropin are given by injection. They have been authorised in the EU since the 1980s through centralised or national procedures … The approved indications vary for the different somatropin-containing medicines: they may be used as hormone replacement therapy, and to correct short stature (height) in children with certain genetic diseases (Turner syndrome or Prader Willi syndrome), children who have long-standing kidney problems and children born small for their gestational age."
+    },
+    {
+      "name": "somatropin (growth hormone)",
+      "status": "authorised",
+      "statement": "In the EU, the centrally authorised somatropin Omnitrope (since 12 April 2006) is prescription-only, and treatment is started and monitored by a doctor experienced in growth disorders (EMA).",
+      "sourceIds": [
+        "eu-ema-epar-omnitrope"
+      ],
+      "quote": "Omnitrope can only be obtained with a prescription and treatment should be started and monitored by a doctor experienced in the management of patients with growth disorders. … The European Commission granted a marketing authorisation valid throughout the European Union for Omnitrope on 12 April 2006.",
+      "quoteEn": "Omnitrope can only be obtained with a prescription and treatment should be started and monitored by a doctor experienced in the management of patients with growth disorders. … The European Commission granted a marketing authorisation valid throughout the European Union for Omnitrope on 12 April 2006."
+    },
+    {
+      "name": "tesamorelin",
+      "status": "not-authorised",
+      "statement": "In the EU, tesamorelin has no marketing authorisation: the application for Egrifta (excess abdominal fat in HIV lipodystrophy) was withdrawn on 21 June 2012 when the CHMP's provisional view was that it could not be approved, partly because raised IGF-1 was a major safety concern.",
+      "sourceIds": [
+        "eu-ema-egrifta-withdrawal",
+        "eu-union-register"
+      ],
+      "quote": "On 21 June 2012, Ferrer Internacional, S.A. officially notified the Committee for Medicinal Products for Human Use (CHMP) that it wishes to withdraw its application for a marketing authorisation for Egrifta, for the treatment of excess abdominal fat in HIV patients with lipodystrophy. … the CHMP had some concerns and was of the provisional opinion that Egrifta could not have been approved for the treatment of excess abdominal fat in HIV patients with lipodystrophy. … High levels of IGF-1 may be associated with an increased risk of cancer and a potential worsening of diabetic eye disease, and the Committee considered this to be a major safety concern.",
+      "quoteEn": "On 21 June 2012, Ferrer Internacional, S.A. officially notified the Committee for Medicinal Products for Human Use (CHMP) that it wishes to withdraw its application for a marketing authorisation for Egrifta, for the treatment of excess abdominal fat in HIV patients with lipodystrophy. … the CHMP had some concerns and was of the provisional opinion that Egrifta could not have been approved for the treatment of excess abdominal fat in HIV patients with lipodystrophy. … High levels of IGF-1 may be associated with an increased risk of cancer and a potential worsening of diabetic eye disease, and the Committee considered this to be a major safety concern."
+    },
+    {
+      "name": "sermorelin",
+      "status": "not-authorised",
+      "statement": "In the EU, no centrally authorised medicine containing sermorelin was found in the Union Register or in EMA's data on authorised, refused and withdrawn medicines (searched 25 September 2026).",
+      "sourceIds": [
+        "eu-ema-medicines-data",
+        "eu-union-register"
+      ],
+      "quote": "This includes information on marketing authorisations of centrally authorised medicines and post-authorisation procedures. … These pages also contain information on medicines for which the European Commission has refused a marketing authorisation, or has suspended or withdrawn the marketing authorisation after approval.",
+      "quoteEn": "This includes information on marketing authorisations of centrally authorised medicines and post-authorisation procedures. … These pages also contain information on medicines for which the European Commission has refused a marketing authorisation, or has suspended or withdrawn the marketing authorisation after approval."
+    },
+    {
+      "name": "ipamorelin",
+      "status": "not-authorised",
+      "statement": "In the EU, no centrally authorised medicine containing ipamorelin was found in the Union Register or in EMA's data on authorised, refused and withdrawn medicines (searched 25 September 2026).",
+      "sourceIds": [
+        "eu-ema-medicines-data",
+        "eu-union-register"
+      ],
+      "quote": "This includes information on marketing authorisations of centrally authorised medicines and post-authorisation procedures. … These pages also contain information on medicines for which the European Commission has refused a marketing authorisation, or has suspended or withdrawn the marketing authorisation after approval.",
+      "quoteEn": "This includes information on marketing authorisations of centrally authorised medicines and post-authorisation procedures. … These pages also contain information on medicines for which the European Commission has refused a marketing authorisation, or has suspended or withdrawn the marketing authorisation after approval."
+    },
+    {
+      "name": "CJC-1295",
+      "status": "not-authorised",
+      "statement": "In the EU, no centrally authorised medicine containing CJC-1295 was found in the Union Register or in EMA's data on authorised, refused and withdrawn medicines (searched 25 September 2026).",
+      "sourceIds": [
+        "eu-ema-medicines-data",
+        "eu-union-register"
+      ],
+      "quote": "This includes information on marketing authorisations of centrally authorised medicines and post-authorisation procedures. … These pages also contain information on medicines for which the European Commission has refused a marketing authorisation, or has suspended or withdrawn the marketing authorisation after approval.",
+      "quoteEn": "This includes information on marketing authorisations of centrally authorised medicines and post-authorisation procedures. … These pages also contain information on medicines for which the European Commission has refused a marketing authorisation, or has suspended or withdrawn the marketing authorisation after approval."
+    },
+    {
+      "name": "ibutamoren (MK-677)",
+      "status": "not-authorised",
+      "statement": "In the EU, ibutamoren (MK-677) is not an authorised medicine; it holds an orphan designation for growth hormone deficiency (EU/3/17/1882, 20 June 2017), which EMA states is not a marketing authorisation.",
+      "sourceIds": [
+        "eu-ema-od-ibutamoren-2017",
+        "eu-union-register",
+        "eu-ema-medicines-data"
+      ],
+      "quote": "On 20 June 2017, orphan designation (EU/3/17/1882) was granted by the European Commission to Richardson Associates Regulatory Affairs Ltd., United Kingdom, for ibutamoren mesilate (also known as MK-0677) for the treatment of growth hormone deficiency. … An orphan designation is not a marketing authorisation.",
+      "quoteEn": "On 20 June 2017, orphan designation (EU/3/17/1882) was granted by the European Commission to Richardson Associates Regulatory Affairs Ltd., United Kingdom, for ibutamoren mesilate (also known as MK-0677) for the treatment of growth hormone deficiency. … An orphan designation is not a marketing authorisation."
+    },
+    {
+      "name": "BPC-157",
+      "status": "not-authorised",
+      "statement": "In the EU, no centrally authorised medicine containing BPC-157 was found in the Union Register or in EMA's data on authorised, refused and withdrawn medicines (searched 25 September 2026).",
+      "sourceIds": [
+        "eu-ema-medicines-data",
+        "eu-union-register"
+      ],
+      "quote": "This includes information on marketing authorisations of centrally authorised medicines and post-authorisation procedures. … These pages also contain information on medicines for which the European Commission has refused a marketing authorisation, or has suspended or withdrawn the marketing authorisation after approval.",
+      "quoteEn": "This includes information on marketing authorisations of centrally authorised medicines and post-authorisation procedures. … These pages also contain information on medicines for which the European Commission has refused a marketing authorisation, or has suspended or withdrawn the marketing authorisation after approval."
+    },
+    {
+      "name": "TB-500 (thymosin beta-4 fragment)",
+      "status": "not-authorised",
+      "statement": "In the EU, no centrally authorised medicine containing TB-500 or thymosin beta-4 was found in the Union Register or in EMA's data on authorised, refused and withdrawn medicines (searched 25 September 2026).",
+      "sourceIds": [
+        "eu-ema-medicines-data",
+        "eu-union-register"
+      ],
+      "quote": "This includes information on marketing authorisations of centrally authorised medicines and post-authorisation procedures. … These pages also contain information on medicines for which the European Commission has refused a marketing authorisation, or has suspended or withdrawn the marketing authorisation after approval.",
+      "quoteEn": "This includes information on marketing authorisations of centrally authorised medicines and post-authorisation procedures. … These pages also contain information on medicines for which the European Commission has refused a marketing authorisation, or has suspended or withdrawn the marketing authorisation after approval."
+    },
+    {
+      "name": "KPV",
+      "status": "not-authorised",
+      "statement": "In the EU, no centrally authorised medicine containing KPV was found in the Union Register or in EMA's data on authorised, refused and withdrawn medicines (searched 25 September 2026).",
+      "sourceIds": [
+        "eu-ema-medicines-data",
+        "eu-union-register"
+      ],
+      "quote": "This includes information on marketing authorisations of centrally authorised medicines and post-authorisation procedures. … These pages also contain information on medicines for which the European Commission has refused a marketing authorisation, or has suspended or withdrawn the marketing authorisation after approval.",
+      "quoteEn": "This includes information on marketing authorisations of centrally authorised medicines and post-authorisation procedures. … These pages also contain information on medicines for which the European Commission has refused a marketing authorisation, or has suspended or withdrawn the marketing authorisation after approval."
+    },
+    {
+      "name": "GHK-Cu",
+      "status": "not-authorised",
+      "statement": "In the EU, no centrally authorised medicine containing GHK-Cu (copper tripeptide-1) was found in the Union Register or in EMA's data on authorised, refused and withdrawn medicines (searched 25 September 2026).",
+      "sourceIds": [
+        "eu-ema-medicines-data",
+        "eu-union-register"
+      ],
+      "quote": "This includes information on marketing authorisations of centrally authorised medicines and post-authorisation procedures. … These pages also contain information on medicines for which the European Commission has refused a marketing authorisation, or has suspended or withdrawn the marketing authorisation after approval.",
+      "quoteEn": "This includes information on marketing authorisations of centrally authorised medicines and post-authorisation procedures. … These pages also contain information on medicines for which the European Commission has refused a marketing authorisation, or has suspended or withdrawn the marketing authorisation after approval."
+    },
+    {
+      "name": "GHK-Cu",
+      "status": "not-authorised",
+      "statement": "In the EU, copper tripeptide-1 (GHK-Cu) is listed in the Commission's CosIng inventory as a cosmetic ingredient with a skin-conditioning function; CosIng is not legally binding and a listing is not an authorisation (read 25 September 2026).",
+      "sourceIds": [
+        "eu-cosing-copper-tripeptide-1",
+        "eu-cosing-home"
+      ],
+      "quote": "INCI Name COPPER TRIPEPTIDE-1 Description Copper Tripeptide-1 is a copper complex of Tripeptide-1 … Functions SKIN CONDITIONING",
+      "quoteEn": "INCI Name COPPER TRIPEPTIDE-1 Description Copper Tripeptide-1 is a copper complex of Tripeptide-1 … Functions SKIN CONDITIONING"
+    },
+    {
+      "name": "LL-37",
+      "status": "not-authorised",
+      "statement": "In the EU, no centrally authorised medicine containing LL-37 was found in the Union Register or in EMA's data on authorised, refused and withdrawn medicines (searched 25 September 2026).",
+      "sourceIds": [
+        "eu-ema-medicines-data",
+        "eu-union-register"
+      ],
+      "quote": "This includes information on marketing authorisations of centrally authorised medicines and post-authorisation procedures. … These pages also contain information on medicines for which the European Commission has refused a marketing authorisation, or has suspended or withdrawn the marketing authorisation after approval.",
+      "quoteEn": "This includes information on marketing authorisations of centrally authorised medicines and post-authorisation procedures. … These pages also contain information on medicines for which the European Commission has refused a marketing authorisation, or has suspended or withdrawn the marketing authorisation after approval."
+    },
+    {
+      "name": "thymulin",
+      "status": "not-authorised",
+      "statement": "In the EU, no centrally authorised medicine containing thymulin was found in the Union Register or in EMA's data on authorised, refused and withdrawn medicines (searched 25 September 2026).",
+      "sourceIds": [
+        "eu-ema-medicines-data",
+        "eu-union-register"
+      ],
+      "quote": "This includes information on marketing authorisations of centrally authorised medicines and post-authorisation procedures. … These pages also contain information on medicines for which the European Commission has refused a marketing authorisation, or has suspended or withdrawn the marketing authorisation after approval.",
+      "quoteEn": "This includes information on marketing authorisations of centrally authorised medicines and post-authorisation procedures. … These pages also contain information on medicines for which the European Commission has refused a marketing authorisation, or has suspended or withdrawn the marketing authorisation after approval."
+    },
+    {
+      "name": "PTD-DBM",
+      "status": "not-authorised",
+      "statement": "In the EU, no centrally authorised medicine containing PTD-DBM was found in the Union Register or in EMA's data on authorised, refused and withdrawn medicines (searched 25 September 2026).",
+      "sourceIds": [
+        "eu-ema-medicines-data",
+        "eu-union-register"
+      ],
+      "quote": "This includes information on marketing authorisations of centrally authorised medicines and post-authorisation procedures. … These pages also contain information on medicines for which the European Commission has refused a marketing authorisation, or has suspended or withdrawn the marketing authorisation after approval.",
+      "quoteEn": "This includes information on marketing authorisations of centrally authorised medicines and post-authorisation procedures. … These pages also contain information on medicines for which the European Commission has refused a marketing authorisation, or has suspended or withdrawn the marketing authorisation after approval."
+    },
+    {
+      "name": "tretinoin (topical)",
+      "status": "authorised",
+      "statement": "In the EU, tretinoin is an authorised retinoid, including creams and gels for skin conditions such as acne (no centrally authorised tretinoin product was found; products are national); since EMA's 2018 review, topical retinoids must not be used in pregnancy or by women planning a pregnancy.",
+      "sourceIds": [
+        "eu-ema-ref-retinoids-2018",
+        "eu-union-register"
+      ],
+      "quote": "Retinoids include the active substances acitretin, adapalene, alitretinoin, bexarotene, isotretinoin, tazarotene and tretinoin. They are taken by mouth or applied as creams or gels to treat several conditions mainly affecting the skin, including severe acne and psoriasis. … Topical retinoids (those applied to the skin) must also not be used during pregnancy, and by women planning to have a baby.",
+      "quoteEn": "Retinoids include the active substances acitretin, adapalene, alitretinoin, bexarotene, isotretinoin, tazarotene and tretinoin. They are taken by mouth or applied as creams or gels to treat several conditions mainly affecting the skin, including severe acne and psoriasis. … Topical retinoids (those applied to the skin) must also not be used during pregnancy, and by women planning to have a baby."
+    },
+    {
+      "name": "tretinoin (topical)",
+      "status": "authorised",
+      "statement": "In the EU, tretinoin (retinoic acid) is banned in cosmetics (Annex II entry 375), and the Commission's borderline manual says an anti-wrinkle product containing it that is marketed as a cosmetic is an illegal cosmetic (June 2025).",
+      "sourceIds": [
+        "eu-ec-cosmetics-borderline-manual-2025",
+        "eu-reg-1223-2009"
+      ],
+      "quote": "Some substances - such as tretinoin … are banned when used in cosmetic products. In this case, if anti -wrinkle products containing these ingredients are marketed as cosmetics, they are illegal cosmetics.",
+      "quoteEn": "Some substances - such as tretinoin … are banned when used in cosmetic products. In this case, if anti -wrinkle products containing these ingredients are marketed as cosmetics, they are illegal cosmetics."
+    },
+    {
+      "name": "estradiol / menopausal hormone therapy",
+      "status": "authorised",
+      "statement": "In the EU, estradiol HRT is authorised nationally; the harmonised EU core product information (CMDh, December 2025) lists oestrogen-deficiency symptoms after menopause, osteoporosis prevention and vaginal atrophy as indications — skin is not an indication.",
+      "sourceIds": [
+        "eu-hma-core-smpc-hrt-2025"
+      ],
+      "quote": "4.1 Therapeutic Indications … Hormone Replacement Therapy (HRT) for oestrogen deficiency symptoms in postmenopausal women. … Prevention of osteoporosis in postmenopausal women at high risk of future fractures who are intolerant of, or contraindicated for, other medicinal products approved for the prevention of osteoporosis. … Treatment of symptoms of vaginal atrophy due to oestrogen deficiency in postmenopausal women.",
+      "quoteEn": "4.1 Therapeutic Indications … Hormone Replacement Therapy (HRT) for oestrogen deficiency symptoms in postmenopausal women. … Prevention of osteoporosis in postmenopausal women at high risk of future fractures who are intolerant of, or contraindicated for, other medicinal products approved for the prevention of osteoporosis. … Treatment of symptoms of vaginal atrophy due to oestrogen deficiency in postmenopausal women."
+    },
+    {
+      "name": "estradiol / menopausal hormone therapy",
+      "status": "authorised",
+      "statement": "The EU core product information for estradiol gels and sprays warns that estradiol can pass to children by skin contact, with reports of breast development, precocious puberty and gynaecomastia (CMDh, December 2025).",
+      "sourceIds": [
+        "eu-hma-core-smpc-hrt-2025"
+      ],
+      "quote": "Estradiol spray/gel can be accidentally transferred to children from the area of the skin where it was sprayed/applied on. Post-marketing reports of breast budding and breast masses in prepubertal females, precocious puberty, gynaecomastia and breast masses in prepubertal males following unintentional secondary exposure to estradiol spray/gel have been reported.",
+      "quoteEn": "Estradiol spray/gel can be accidentally transferred to children from the area of the skin where it was sprayed/applied on. Post-marketing reports of breast budding and breast masses in prepubertal females, precocious puberty, gynaecomastia and breast masses in prepubertal males following unintentional secondary exposure to estradiol spray/gel have been reported."
+    },
+    {
+      "name": "estradiol / menopausal hormone therapy",
+      "status": "authorised",
+      "statement": "In the EU, high-strength estradiol creams (100 micrograms/g, 0.01%) for vaginal atrophy are limited to a single treatment period of up to 4 weeks because estradiol is absorbed into the bloodstream (EMA PRAC, 16 January 2020; CMDh, 30 January 2020).",
+      "sourceIds": [
+        "eu-ema-ref-estradiol-2020"
+      ],
+      "quote": "On 16 January 2020, EMA’s safety committee (PRAC) confirmed its recommendation to limit the use of high-strength creams containing 100 micrograms/gram (0.01%) of estradiol to a single treatment period of up to 4‑weeks. … The PRAC concluded that absorption of estradiol into the bloodstream is of concern and could result in similar side effects to those seen with hormone replacement therapy (HRT).",
+      "quoteEn": "On 16 January 2020, EMA’s safety committee (PRAC) confirmed its recommendation to limit the use of high-strength creams containing 100 micrograms/gram (0.01%) of estradiol to a single treatment period of up to 4‑weeks. … The PRAC concluded that absorption of estradiol into the bloodstream is of concern and could result in similar side effects to those seen with hormone replacement therapy (HRT)."
+    },
+    {
+      "name": "estradiol / menopausal hormone therapy",
+      "status": "authorised",
+      "statement": "In the EU, oestrogens and progestogens are prohibited in cosmetic products (Regulation (EC) No 1223/2009, Annex II entries 260 and 194), so a hormone-containing 'cosmetic' skin cream is not lawful as a cosmetic.",
+      "sourceIds": [
+        "eu-reg-1223-2009"
+      ],
+      "quote": "cosmetic products shall not contain any of the following: … prohibited substances listed in Annex II … Progestogens … Oestrogens",
+      "quoteEn": "cosmetic products shall not contain any of the following: … prohibited substances listed in Annex II … Progestogens … Oestrogens"
+    },
+    {
+      "name": "oral collagen",
+      "status": "refused",
+      "statement": "In the EU, the Commission refused (Regulation (EU) No 1154/2014) a claim that a collagen peptide mixture maintains skin health by increasing elasticity and reducing wrinkles, because a cause-and-effect relationship was not established; the EU Register lists no authorised claim for collagen itself (searched 25 September 2026).",
+      "sourceIds": [
+        "eu-reg-1154-2014",
+        "eu-claims-register"
+      ],
+      "quote": "Characteristic collagen peptide mixture (collagen hydrolysate) having a beneficial physiological effect on the maintenance of skin health, as indicated by an increased skin elasticity and a reduction of wrinkles volume, by contributing to a normal collagen and elastin synthesis … a cause and effect relationship could not be established between the consumption of Verisol®P and the claimed effect. Accordingly, as the claim does not comply with the requirements of Regulation (EC) No 1924/2006, it should not be authorised.",
+      "quoteEn": "Characteristic collagen peptide mixture (collagen hydrolysate) having a beneficial physiological effect on the maintenance of skin health, as indicated by an increased skin elasticity and a reduction of wrinkles volume, by contributing to a normal collagen and elastin synthesis … a cause and effect relationship could not be established between the consumption of Verisol®P and the claimed effect. Accordingly, as the claim does not comply with the requirements of Regulation (EC) No 1924/2006, it should not be authorised."
+    }
+  ],
+  "frameworks": [
+    {
+      "topic": "compounding",
+      "statement": "In the EU, medicines prepared in a pharmacy for an individual patient on prescription (magistral formula) or to a pharmacopoeia for the pharmacy's own patients (officinal formula) are outside Directive 2001/83/EC, so they need no marketing authorisation under it (Article 3).",
+      "sourceIds": [
+        "eu-dir-2001-83"
+      ],
+      "quote": "This Directive shall not apply to: … Any medicinal product prepared in a pharmacy in accordance with a medical prescription for an individual patient (commonly known as the magistral formula). … Any medicinal product which is prepared in a pharmacy in accordance with the prescriptions of a pharmacopoeia and is intended to be supplied directly to the patients served by the pharmacy in question (commonly known as the officinal formula).",
+      "quoteEn": "This Directive shall not apply to: … Any medicinal product prepared in a pharmacy in accordance with a medical prescription for an individual patient (commonly known as the magistral formula). … Any medicinal product which is prepared in a pharmacy in accordance with the prescriptions of a pharmacopoeia and is intended to be supplied directly to the patients served by the pharmacy in question (commonly known as the officinal formula)."
+    },
+    {
+      "topic": "compounding",
+      "statement": "EU law exempts pharmacists who prepare medicines solely for retail supply in dispensing pharmacies from the manufacturing authorisation that all other manufacture needs (Directive 2001/83/EC, Article 40(2)).",
+      "sourceIds": [
+        "eu-dir-2001-83"
+      ],
+      "quote": "However, such authorization shall not be required for preparation, dividing up, changes in packaging or presentation where these processes are carried out, solely for retail supply, by pharmacists in dispensing pharmacies or by persons legally authorized in the Member States to carry out such processes.",
+      "quoteEn": "However, such authorization shall not be required for preparation, dividing up, changes in packaging or presentation where these processes are carried out, solely for retail supply, by pharmacists in dispensing pharmacies or by persons legally authorized in the Member States to carry out such processes."
+    },
+    {
+      "topic": "unlicensed",
+      "statement": "In the EU, no medicine may be placed on a member state's market without a national marketing authorisation or an EU-wide (central) authorisation (Directive 2001/83/EC, Article 6(1)).",
+      "sourceIds": [
+        "eu-dir-2001-83"
+      ],
+      "quote": "No medicinal product may be placed on the market of a Member State unless a marketing authorisation has been issued by the competent authorities of that Member State in accordance with this Directive or an authorisation has been granted in accordance with Regulation (EC) No 726/2004",
+      "quoteEn": "No medicinal product may be placed on the market of a Member State unless a marketing authorisation has been issued by the competent authorities of that Member State in accordance with this Directive or an authorisation has been granted in accordance with Regulation (EC) No 726/2004"
+    },
+    {
+      "topic": "unlicensed",
+      "statement": "EU law lets each member state, under its own legislation, allow an unauthorised medicine for an individual patient on a bona fide unsolicited order from an authorised health professional, under that professional's direct personal responsibility (Directive 2001/83/EC, Article 5(1)).",
+      "sourceIds": [
+        "eu-dir-2001-83"
+      ],
+      "quote": "A Member State may, in accordance with legislation in force and to fulfil special needs, exclude from the provisions of this Directive medicinal products supplied in response to a bona fide unsolicited order, formulated in accordance with the specifications of an authorised health-care professional and for use by an individual patient under his direct personal responsibility.",
+      "quoteEn": "A Member State may, in accordance with legislation in force and to fulfil special needs, exclude from the provisions of this Directive medicinal products supplied in response to a bona fide unsolicited order, formulated in accordance with the specifications of an authorised health-care professional and for use by an individual patient under his direct personal responsibility."
+    },
+    {
+      "topic": "unlicensed",
+      "statement": "EMA and HMA's shortage steering group asked EU prescribers in June 2024 to prescribe GLP-1 receptor agonists only for their authorised uses and said these medicines are not approved for, and should not be used for, cosmetic weight loss.",
+      "sourceIds": [
+        "eu-ema-glp1-shortages-2024"
+      ],
+      "quote": "The MSSG therefore recommends that healthcare professionals prescribe these medicines in line with their authorised use(s) only, taking into account guidance issued by national authorities or applicable national therapeutic guidelines. GLP-1 receptor agonists are not approved for, and should not be used for, cosmetic weight loss, i.e. use for weight loss in people without obesity or people with overweight who do not have weight-related health problems.",
+      "quoteEn": "The MSSG therefore recommends that healthcare professionals prescribe these medicines in line with their authorised use(s) only, taking into account guidance issued by national authorities or applicable national therapeutic guidelines. GLP-1 receptor agonists are not approved for, and should not be used for, cosmetic weight loss, i.e. use for weight loss in people without obesity or people with overweight who do not have weight-related health problems."
+    },
+    {
+      "topic": "research-use-only",
+      "statement": "Under EU law a product is a medicine by presentation (presented as treating or preventing disease) or by function (restoring, correcting or modifying physiological functions by a pharmacological, immunological or metabolic action), and where a product could be both a medicine and another regulated product, medicines law applies (Directive 2001/83/EC, Articles 1(2) and 2(2)).",
+      "sourceIds": [
+        "eu-dir-2001-83"
+      ],
+      "quote": "Any substance or combination of substances presented as having properties for treating or preventing disease in human beings; or … Any substance or combination of substances which may be used in or administered to human beings either with a view to restoring, correcting or modifying physiological functions by exerting a pharmacological, immunological or metabolic action, or to making a medical diagnosis. … In cases of doubt, where, taking into account all its characteristics, a product may fall within the definition of a ‘medicinal product’ and within the definition of a product covered by other Community legislation the provisions of this Directive shall apply.",
+      "quoteEn": "Any substance or combination of substances presented as having properties for treating or preventing disease in human beings; or … Any substance or combination of substances which may be used in or administered to human beings either with a view to restoring, correcting or modifying physiological functions by exerting a pharmacological, immunological or metabolic action, or to making a medical diagnosis. … In cases of doubt, where, taking into account all its characteristics, a product may fall within the definition of a ‘medicinal product’ and within the definition of a product covered by other Community legislation the provisions of this Directive shall apply."
+    },
+    {
+      "topic": "research-use-only",
+      "statement": "The research exclusion in Directive 2001/83/EC concerns medicinal products intended for research and development trials and is without prejudice to EU clinical-trials law (Article 3(3)).",
+      "sourceIds": [
+        "eu-dir-2001-83"
+      ],
+      "quote": "Medicinal products intended for research and development trials, but without prejudice to the provisions of Directive 2001/20/EC of the European Parliament and of the Council of 4 April 2001 on the approximation of the laws, regulations and administrative provisions of the Member States relating to the implementation of good clinical practice in the conduct of clinical trials on medicinal products for human use",
+      "quoteEn": "Medicinal products intended for research and development trials, but without prejudice to the provisions of Directive 2001/20/EC of the European Parliament and of the Council of 4 April 2001 on the approximation of the laws, regulations and administrative provisions of the Member States relating to the implementation of good clinical practice in the conduct of clinical trials on medicinal products for human use"
+    },
+    {
+      "topic": "import",
+      "statement": "Under EU law (Article 85c of Directive 2001/83/EC, inserted by the Falsified Medicines Directive 2011/62/EU), an online seller of medicines must be authorised in its member state, the medicines must comply with the law of the destination country, and the EU common logo must appear on every relevant page; member states may still ban online sale of prescription medicines.",
+      "sourceIds": [
+        "eu-dir-2001-83",
+        "eu-dir-2011-62"
+      ],
+      "quote": "Without prejudice to national legislation prohibiting the offer for sale at a distance of prescription medicinal products to the public by means of information society services … the natural or legal person offering the medicinal products is authorised or entitled to supply medicinal products to the public, also at a distance, in accordance with national legislation of the Member State in which that person is established … the medicinal products comply with the national legislation of the Member State of destination in accordance with Article 6(1) … the common logo referred to in paragraph 3 clearly displayed on every page of the website that relates to the offer for sale at a distance to the public of medicinal products",
+      "quoteEn": "Without prejudice to national legislation prohibiting the offer for sale at a distance of prescription medicinal products to the public by means of information society services … the natural or legal person offering the medicinal products is authorised or entitled to supply medicinal products to the public, also at a distance, in accordance with national legislation of the Member State in which that person is established … the medicinal products comply with the national legislation of the Member State of destination in accordance with Article 6(1) … the common logo referred to in paragraph 3 clearly displayed on every page of the website that relates to the offer for sale at a distance to the public of medicinal products"
+    },
+    {
+      "topic": "import",
+      "statement": "Since 1 July 2015 every legally operating online pharmacy or retailer in the EU should display the common logo (Implementing Regulation (EU) No 699/2014), which links to the national register; a logo showing the EU flag is not legal (European Commission).",
+      "sourceIds": [
+        "eu-ec-common-logo",
+        "eu-reg-699-2014"
+      ],
+      "quote": "On 24 June 2014 the European Commission adopted the new common logo through Implementing Regulation 699/2014 . As of 1st of July 2015, all online pharmacies or retailers legally operating in the EU should display the logo. … Therefore, a logo displaying the EU flag, for example, would not be legal.",
+      "quoteEn": "On 24 June 2014 the European Commission adopted the new common logo through Implementing Regulation 699/2014 . As of 1st of July 2015, all online pharmacies or retailers legally operating in the EU should display the logo. … Therefore, a logo displaying the EU flag, for example, would not be legal."
+    },
+    {
+      "topic": "import",
+      "statement": "EMA advises the public to buy medicines online only from retailers registered with national authorities, and to click the common logo and confirm the retailer is on the national register before buying.",
+      "sourceIds": [
+        "eu-ema-buying-online"
+      ],
+      "quote": "Patients should only buy medicines from online retailers registered with the national competent authorities in the EU Member States, to reduce the risk of buying sub-standard or falsified medicines. … Click on the logo and confirm that the online pharmacy is listed on the national authority website",
+      "quoteEn": "Patients should only buy medicines from online retailers registered with the national competent authorities in the EU Member States, to reduce the risk of buying sub-standard or falsified medicines. … Click on the logo and confirm that the online pharmacy is listed on the national authority website"
+    },
+    {
+      "topic": "enforcement",
+      "statement": "On 3 September 2025 EMA and HMA warned of a sharp rise in illegal medicines sold online and on social media as GLP-1 receptor agonists (semaglutide, liraglutide, tirzepatide); these products are unauthorised and may not contain the stated substance.",
+      "sourceIds": [
+        "eu-ema-illegal-glp1-2025"
+      ],
+      "quote": "In recent months there has been a sharp rise in the number of illegal medicines marketed as GLP-1 receptor agonists such as semaglutide, liraglutide and tirzepatide for weight loss and diabetes. These products, often sold via fraudulent websites and promoted on social media, are not authorised and do not meet necessary standards of quality, safety and efficacy. … They may not contain the claimed active substance at all and may contain harmful levels of other substances.",
+      "quoteEn": "In recent months there has been a sharp rise in the number of illegal medicines marketed as GLP-1 receptor agonists such as semaglutide, liraglutide and tirzepatide for weight loss and diabetes. These products, often sold via fraudulent websites and promoted on social media, are not authorised and do not meet necessary standards of quality, safety and efficacy. … They may not contain the claimed active substance at all and may contain harmful levels of other substances."
+    },
+    {
+      "topic": "enforcement",
+      "statement": "On 18 October 2023 EMA alerted EU patients and professionals that falsified pens labelled as Ozempic had been found at wholesalers in the EU (from Austria and Germany) and the UK, detected because their serial numbers scanned as inactive.",
+      "sourceIds": [
+        "eu-ema-falsified-ozempic-2023"
+      ],
+      "quote": "pre-filled pens falsely labelled as the diabetes medicine Ozempic (semaglutide, 1 mg, solution for injection) have been identified at wholesalers in the EU and the UK. … The pens, with labels in German, originated from wholesalers in Austria and Germany. … When the packs of the falsified Ozempic were scanned, the serial numbers were shown to be inactive, thereby alerting operators to a potential falsification.",
+      "quoteEn": "pre-filled pens falsely labelled as the diabetes medicine Ozempic (semaglutide, 1 mg, solution for injection) have been identified at wholesalers in the EU and the UK. … The pens, with labels in German, originated from wholesalers in Austria and Germany. … When the packs of the falsified Ozempic were scanned, the serial numbers were shown to be inactive, thereby alerting operators to a potential falsification."
+    },
+    {
+      "topic": "enforcement",
+      "statement": "Europol's Operation SHIELD VI (April–November 2025, reported 25 February 2026) flagged counterfeit semaglutide products sold as fat-burners and dismantled a Spanish network supplying illegal medicines for cosmetic medicine to clinics, whose activities extended to Portugal.",
+      "sourceIds": [
+        "eu-europol-shield-vi-2026"
+      ],
+      "quote": "Operation SHIELD VI highlighted several critical public health threats, including the proliferation of counterfeit Semaglutide-based products used as fat-burners … In Spain, the Guardia Civil and the Spanish Customs collaborated to dismantle a criminal organisation involved in the import, storage, and distribution of illegal medicines and health products for cosmetic medicine. … The criminal network’s activities extended to Portugal",
+      "quoteEn": "Operation SHIELD VI highlighted several critical public health threats, including the proliferation of counterfeit Semaglutide-based products used as fat-burners … In Spain, the Guardia Civil and the Spanish Customs collaborated to dismantle a criminal organisation involved in the import, storage, and distribution of illegal medicines and health products for cosmetic medicine. … The criminal network’s activities extended to Portugal"
+    },
+    {
+      "topic": "cosmetics",
+      "statement": "In the EU, a cosmetic is a substance or mixture placed on the external parts of the body (skin, hair, nails, lips, external genitals) or teeth and oral mucosa, mainly to clean, perfume, change appearance, protect, keep in good condition or correct body odour (Regulation (EC) No 1223/2009, Article 2(1)(a)).",
+      "sourceIds": [
+        "eu-reg-1223-2009"
+      ],
+      "quote": "‘cosmetic product’ means any substance or mixture intended to be placed in contact with the external parts of the human body (epidermis, hair system, nails, lips and external genital organs) or with the teeth and the mucous membranes of the oral cavity with a view exclusively or mainly to cleaning them, perfuming them, changing their appearance, protecting them, keeping them in good condition or correcting body odours",
+      "quoteEn": "‘cosmetic product’ means any substance or mixture intended to be placed in contact with the external parts of the human body (epidermis, hair system, nails, lips and external genital organs) or with the teeth and the mucous membranes of the oral cavity with a view exclusively or mainly to cleaning them, perfuming them, changing their appearance, protecting them, keeping them in good condition or correcting body odours"
+    },
+    {
+      "topic": "cosmetics",
+      "statement": "In the EU, anything intended to be ingested, inhaled, injected or implanted is not a cosmetic (Regulation (EC) No 1223/2009, Article 2(2)), so an injected peptide can never be a cosmetic.",
+      "sourceIds": [
+        "eu-reg-1223-2009"
+      ],
+      "quote": "a substance or mixture intended to be ingested, inhaled, injected or implanted into the human body shall not be considered to be a cosmetic product",
+      "quoteEn": "a substance or mixture intended to be ingested, inhaled, injected or implanted into the human body shall not be considered to be a cosmetic product"
+    },
+    {
+      "topic": "cosmetics",
+      "statement": "The EU borderline manual (version 5.4, November 2024, retained in 5.5) says a product in a vial or ampoule for injection cannot be a cosmetic, and one sold as a cosmetic must be clearly for external use and not marketed with a device allowing injection or delivery below the epidermis.",
+      "sourceIds": [
+        "eu-ec-cosmetics-borderline-manual-2025"
+      ],
+      "quote": "If a substance or mixture presented in a vial or ampoule is for use by injection, then the product cannot be considered to meet the definition of a cosmetic product by virtue of Article 2(2) of the Cosmetics Regulation … Furthermore, the product should not be marketed with a device which could allow the injection of this product or its delivery below the epidermis",
+      "quoteEn": "If a substance or mixture presented in a vial or ampoule is for use by injection, then the product cannot be considered to meet the definition of a cosmetic product by virtue of Article 2(2) of the Cosmetics Regulation … Furthermore, the product should not be marketed with a device which could allow the injection of this product or its delivery below the epidermis"
+    },
+    {
+      "topic": "cosmetics",
+      "statement": "The EU borderline manual says products used with needle rollers are cosmetics only if the product stays in the epidermis; if the needles reach the dermis, the product cannot be a cosmetic.",
+      "sourceIds": [
+        "eu-ec-cosmetics-borderline-manual-2025"
+      ],
+      "quote": "If the use of the roller only ena bles the application of the product in the epidermis, then the product is a cosmetic and its safety should be assessed taking into account the composition and the mode of delivery. On the other hand, if the needles reach the dermis, the use of the roller induces a deeper application of the product, and therefore this product cannot be qualified as a cosmetic.",
+      "quoteEn": "If the use of the roller only ena bles the application of the product in the epidermis, then the product is a cosmetic and its safety should be assessed taking into account the composition and the mode of delivery. On the other hand, if the needles reach the dermis, the use of the roller induces a deeper application of the product, and therefore this product cannot be qualified as a cosmetic."
+    },
+    {
+      "topic": "cosmetics",
+      "statement": "Whether an EU product is a cosmetic is decided case by case by national authorities; the borderline manual says an anti-wrinkle product that significantly restores, corrects or modifies physiological functions by a pharmacological, immunological or metabolic action does not qualify as a cosmetic (June 2025).",
+      "sourceIds": [
+        "eu-ec-cosmetics-borderline-manual-2025",
+        "eu-reg-1223-2009-oj"
+      ],
+      "quote": "However, some products presented as anti -wrinkle may significantly restore, correct or modify physiological functions by exerting a pharmacological, immunological or metabolic action. In that case, they would not qualify as cosmetics. … A decision on the qualification of the products has to be made by the na tional competent authorities on a case -by-case basis",
+      "quoteEn": "However, some products presented as anti -wrinkle may significantly restore, correct or modify physiological functions by exerting a pharmacological, immunological or metabolic action. In that case, they would not qualify as cosmetics. … A decision on the qualification of the products has to be made by the na tional competent authorities on a case -by-case basis"
+    },
+    {
+      "topic": "cosmetics",
+      "statement": "The EU borderline manual notes that a product can act pharmacologically, and so fall outside cosmetics law, even when its ingredient is not used in any medicine, naming 'some specially designed peptides' in eyelash-growth products.",
+      "sourceIds": [
+        "eu-ec-cosmetics-borderline-manual-2025"
+      ],
+      "quote": "other substances with an influence on eyelash growth may exist (or be designed), which are not used as active drug ingredients, but the product containing them could still restore, correct or modify physiological functions by exerting a pharmacological, immunological or metabolic action (e.g. some specially designed peptides).",
+      "quoteEn": "other substances with an influence on eyelash growth may exist (or be designed), which are not used as active drug ingredients, but the product containing them could still restore, correct or modify physiological functions by exerting a pharmacological, immunological or metabolic action (e.g. some specially designed peptides)."
+    },
+    {
+      "topic": "cosmetics",
+      "statement": "The EU borderline manual states that topical products working through hormones or hormone-like substances (its example: breast-augmentation products) act pharmacologically and cannot be cosmetics.",
+      "sourceIds": [
+        "eu-ec-cosmetics-borderline-manual-2025"
+      ],
+      "quote": "Topical breast augmentation products achieve their objective through the action of hormones … They therefore significantly \" restore, correct or modify physiological functions by exerting a pharmacological, immunological or metabolic action \" … and cannot be qualified as cosmetic products.",
+      "quoteEn": "Topical breast augmentation products achieve their objective through the action of hormones … They therefore significantly \" restore, correct or modify physiological functions by exerting a pharmacological, immunological or metabolic action \" … and cannot be qualified as cosmetic products."
+    },
+    {
+      "topic": "cosmetics",
+      "statement": "EU cosmetics law also prohibits substances with androgenic effect and steroidal anti-androgens in cosmetic products (Regulation (EC) No 1223/2009, Annex II entries 37 and 390).",
+      "sourceIds": [
+        "eu-reg-1223-2009"
+      ],
+      "quote": "cosmetic products shall not contain any of the following: … prohibited substances listed in Annex II … Substances with androgenic effect … Anti-androgens of steroidal structure",
+      "quoteEn": "cosmetic products shall not contain any of the following: … prohibited substances listed in Annex II … Substances with androgenic effect … Anti-androgens of steroidal structure"
+    },
+    {
+      "topic": "cosmetics",
+      "statement": "Before an EU cosmetic is placed on the market it needs a responsible person in the EU, a safety assessment with a cosmetic product safety report, and electronic notification to the Commission (Regulation (EC) No 1223/2009, Articles 4, 10 and 13).",
+      "sourceIds": [
+        "eu-reg-1223-2009"
+      ],
+      "quote": "Only cosmetic products for which a legal or natural person is designated within the Community as ‘responsible person’ shall be placed on the market. … the responsible person shall, prior to placing a cosmetic product on the market, ensure that the cosmetic product has undergone a safety assessment on the basis of the relevant information and that a cosmetic product safety report is set up in accordance with Annex I. … Prior to placing the cosmetic product on the market the responsible person shall submit, by electronic means, the following information to the Commission",
+      "quoteEn": "Only cosmetic products for which a legal or natural person is designated within the Community as ‘responsible person’ shall be placed on the market. … the responsible person shall, prior to placing a cosmetic product on the market, ensure that the cosmetic product has undergone a safety assessment on the basis of the relevant information and that a cosmetic product safety report is set up in accordance with Annex I. … Prior to placing the cosmetic product on the market the responsible person shall submit, by electronic means, the following information to the Commission"
+    },
+    {
+      "topic": "cosmetics",
+      "statement": "In the EU, cosmetic labelling, marketing and advertising must not use text, names, pictures or signs implying that a product has characteristics or functions it does not have (Regulation (EC) No 1223/2009, Article 20(1)).",
+      "sourceIds": [
+        "eu-reg-1223-2009"
+      ],
+      "quote": "In the labelling, making available on the market and advertising of cosmetic products, text, names, trade marks, pictures and figurative or other signs shall not be used to imply that these products have characteristics or functions which they do not have.",
+      "quoteEn": "In the labelling, making available on the market and advertising of cosmetic products, text, names, trade marks, pictures and figurative or other signs shall not be used to imply that these products have characteristics or functions which they do not have."
+    },
+    {
+      "topic": "cosmetics",
+      "statement": "EU cosmetic claims must be supported by adequate and verifiable evidence, and a claim that extrapolates an ingredient's properties (for example a peptide's) to the finished product needs evidence such as the ingredient's presence at an effective concentration (Regulation (EU) No 655/2013).",
+      "sourceIds": [
+        "eu-reg-655-2013"
+      ],
+      "quote": "Claims for cosmetic products, whether explicit or implicit, shall be supported by adequate and verifiable evidence regardless of the types of evidential support used to substantiate them, including where appropriate expert assessments. … A claim extrapolating (explicitly or implicitly) ingredient properties to the finished product shall be supported by adequate and verifiable evidence, such as by demonstrating the presence of the ingredient at an effective concentration.",
+      "quoteEn": "Claims for cosmetic products, whether explicit or implicit, shall be supported by adequate and verifiable evidence regardless of the types of evidential support used to substantiate them, including where appropriate expert assessments. … A claim extrapolating (explicitly or implicitly) ingredient properties to the finished product shall be supported by adequate and verifiable evidence, such as by demonstrating the presence of the ingredient at an effective concentration."
+    },
+    {
+      "topic": "cosmetics",
+      "statement": "The Commission's CosIng database is not legally binding: a listing does not determine an ingredient's regulatory status, which only Regulation (EC) No 1223/2009 and its Annexes set (read 25 September 2026).",
+      "sourceIds": [
+        "eu-cosing-home"
+      ],
+      "quote": "CosIng is a non-legally binding information database. It provides information on cosmetic ingredients but does not, in itself, determine their regulatory status. Only Regulation (EC) No 1223/2009 and its Annexes establish whether, and under which conditions, substances may be used in cosmetic products.",
+      "quoteEn": "CosIng is a non-legally binding information database. It provides information on cosmetic ingredients but does not, in itself, determine their regulatory status. Only Regulation (EC) No 1223/2009 and its Annexes establish whether, and under which conditions, substances may be used in cosmetic products."
+    },
+    {
+      "topic": "cosmetics",
+      "statement": "Injectable dermal fillers without a medical purpose are regulated in the EU under the Medical Devices Regulation (EU) 2017/745 as Annex XVI products.",
+      "sourceIds": [
+        "eu-reg-2017-745"
+      ],
+      "quote": "LIST OF GROUPS OF PRODUCTS WITHOUT AN INTENDED MEDICAL PURPOSE REFERRED TO IN ARTICLE 1(2) … Substances, combinations of substances, or items intended to be used for facial or other dermal or mucous membrane filling by subcutaneous, submucous or intradermal injection or other introduction, excluding those for tattooing.",
+      "quoteEn": "LIST OF GROUPS OF PRODUCTS WITHOUT AN INTENDED MEDICAL PURPOSE REFERRED TO IN ARTICLE 1(2) … Substances, combinations of substances, or items intended to be used for facial or other dermal or mucous membrane filling by subcutaneous, submucous or intradermal injection or other introduction, excluding those for tattooing."
+    },
+    {
+      "topic": "supplements",
+      "statement": "In the EU, food supplements are foods that supplement the normal diet, are concentrated sources of nutrients or other substances with a nutritional or physiological effect, and are sold in measured doses such as capsules, tablets or sachets (Directive 2002/46/EC, Article 2(a)).",
+      "sourceIds": [
+        "eu-dir-2002-46"
+      ],
+      "quote": "‘food supplements’ means foodstuffs the purpose of which is to supplement the normal diet and which are concentrated sources of nutrients or other substances with a nutritional or physiological effect, alone or in combination, marketed in dose form, namely forms such as capsules, pastilles, tablets, pills and other similar forms, sachets of powder, ampoules of liquids, drop dispensing bottles, and other similar forms of liquids and powders designed to be taken in measured small unit quantities",
+      "quoteEn": "‘food supplements’ means foodstuffs the purpose of which is to supplement the normal diet and which are concentrated sources of nutrients or other substances with a nutritional or physiological effect, alone or in combination, marketed in dose form, namely forms such as capsules, pastilles, tablets, pills and other similar forms, sachets of powder, ampoules of liquids, drop dispensing bottles, and other similar forms of liquids and powders designed to be taken in measured small unit quantities"
+    },
+    {
+      "topic": "supplements",
+      "statement": "In the EU, a health claim on a food is prohibited unless it is authorised and included in the EU lists of authorised claims (Regulation (EC) No 1924/2006, Article 10(1)).",
+      "sourceIds": [
+        "eu-reg-1924-2006"
+      ],
+      "quote": "Health claims shall be prohibited unless they comply with the general requirements in Chapter II and the specific requirements in this Chapter and are authorised in accordance with this Regulation and included in the lists of authorised claims provided for in Articles 13 and 14.",
+      "quoteEn": "Health claims shall be prohibited unless they comply with the general requirements in Chapter II and the specific requirements in this Chapter and are authorised in accordance with this Regulation and included in the lists of authorised claims provided for in Articles 13 and 14."
+    },
+    {
+      "topic": "supplements",
+      "statement": "The EU authorised claim linking collagen to skin is a vitamin C claim — 'Vitamin C contributes to normal collagen formation for the normal function of skin' — usable only on foods that are at least a source of vitamin C (Regulation (EU) No 432/2012).",
+      "sourceIds": [
+        "eu-reg-432-2012",
+        "eu-claims-register"
+      ],
+      "quote": "Vitamin C contributes to normal collagen formation for the normal function of skin … The claim may be used only for food which is at least a source of vitamin C as referred to in the claim SOURCE OF [NAME OF VITAMIN/S] AND/OR [NAME OF MINERAL/S] as listed in the Annex to Regulation (EC) No 1924/2006.",
+      "quoteEn": "Vitamin C contributes to normal collagen formation for the normal function of skin … The claim may be used only for food which is at least a source of vitamin C as referred to in the claim SOURCE OF [NAME OF VITAMIN/S] AND/OR [NAME OF MINERAL/S] as listed in the Annex to Regulation (EC) No 1924/2006."
+    },
+    {
+      "topic": "supplements",
+      "statement": "In the EU, food information, including advertising, must not attribute to any food the property of preventing, treating or curing a human disease (Regulation (EU) No 1169/2011, Article 7(3) and (4)).",
+      "sourceIds": [
+        "eu-reg-1169-2011"
+      ],
+      "quote": "food information shall not attribute to any food the property of preventing, treating or curing a human disease, nor refer to such properties. … Paragraphs 1, 2 and 3 shall also apply to: … advertising",
+      "quoteEn": "food information shall not attribute to any food the property of preventing, treating or curing a human disease, nor refer to such properties. … Paragraphs 1, 2 and 3 shall also apply to: … advertising"
+    },
+    {
+      "topic": "supplements",
+      "statement": "In the EU, a food not consumed to a significant degree in the Union before 15 May 1997 (for example, one with a new molecular structure) is a novel food and may be sold only once authorised and listed in the Union list (Regulation (EU) 2015/2283, Articles 3 and 6).",
+      "sourceIds": [
+        "eu-reg-2015-2283"
+      ],
+      "quote": "‘novel food’ means any food that was not used for human consumption to a significant degree within the Union before 15 May 1997 … food with a new or intentionally modified molecular structure, where that structure was not used as, or in, a food within the Union before 15 May 1997 … Only novel foods authorised and included in the Union list may be placed on the market within the Union as such, or used in or on foods",
+      "quoteEn": "‘novel food’ means any food that was not used for human consumption to a significant degree within the Union before 15 May 1997 … food with a new or intentionally modified molecular structure, where that structure was not used as, or in, a food within the Union before 15 May 1997 … Only novel foods authorised and included in the Union list may be placed on the market within the Union as such, or used in or on foods"
+    },
+    {
+      "topic": "advertising",
+      "statement": "EU law requires member states to prohibit any advertising of a medicine that has no marketing authorisation, and advertising of authorised medicines must match the summary of product characteristics (Directive 2001/83/EC, Article 87).",
+      "sourceIds": [
+        "eu-dir-2001-83"
+      ],
+      "quote": "Member States shall prohibit any advertising of a medicinal product in respect of which a marketing authorization has not been granted in accordance with Community law. … All parts of the advertising of a medicinal product must comply with the particulars listed in the summary of product characteristics.",
+      "quoteEn": "Member States shall prohibit any advertising of a medicinal product in respect of which a marketing authorization has not been granted in accordance with Community law. … All parts of the advertising of a medicinal product must comply with the particulars listed in the summary of product characteristics."
+    },
+    {
+      "topic": "advertising",
+      "statement": "EU law requires member states to prohibit advertising of prescription-only medicines to the general public (Directive 2001/83/EC, Article 88(1)(a)); 'advertising' includes any inducement designed to promote prescription, supply, sale or consumption (Article 86(1)).",
+      "sourceIds": [
+        "eu-dir-2001-83"
+      ],
+      "quote": "‘advertising of medicinal products’ shall include any form of door-to-door information, canvassing activity or inducement designed to promote the prescription, supply, sale or consumption of medicinal products … Member States shall prohibit the advertising to the general public of medicinal products which: … are available on medical prescription only, in accordance with Title VI",
+      "quoteEn": "‘advertising of medicinal products’ shall include any form of door-to-door information, canvassing activity or inducement designed to promote the prescription, supply, sale or consumption of medicinal products … Member States shall prohibit the advertising to the general public of medicinal products which: … are available on medical prescription only, in accordance with Title VI"
+    },
+    {
+      "topic": "advertising",
+      "statement": "Where EU law allows advertising of a medicine to the public, it must not refer to a recommendation by scientists, health professionals or celebrities, or suggest the medicine is a cosmetic (Directive 2001/83/EC, Article 90).",
+      "sourceIds": [
+        "eu-dir-2001-83"
+      ],
+      "quote": "The advertising of a medicinal product to the general public shall not contain any material which: … refers to a recommendation by scientists, health professionals or persons who are neither of the foregoing but who, because of their celebrity, could encourage the consumption of medicinal products … suggests that the medicinal product is a foodstuff, cosmetic or other consumer product",
+      "quoteEn": "The advertising of a medicinal product to the general public shall not contain any material which: … refers to a recommendation by scientists, health professionals or persons who are neither of the foregoing but who, because of their celebrity, could encourage the consumption of medicinal products … suggests that the medicinal product is a foodstuff, cosmetic or other consumer product"
+    },
+    {
+      "topic": "advertising",
+      "statement": "When medicines are promoted to prescribers or suppliers in the EU, no gifts, pecuniary advantages or benefits in kind may be offered unless inexpensive and relevant to practice, and prescribers must not solicit or accept prohibited inducements (Directive 2001/83/EC, Article 94).",
+      "sourceIds": [
+        "eu-dir-2001-83"
+      ],
+      "quote": "Where medicinal products are being promoted to persons qualified to prescribe or supply them, no gifts, pecuniary advantages or benefits in kind may be supplied, offered or promised to such persons unless they are inexpensive and relevant to the practice of medicine or pharmacy. … Persons qualified to prescribe or supply medicinal products shall not solicit or accept any inducement prohibited under paragraph 1 or contrary to paragraph 2.",
+      "quoteEn": "Where medicinal products are being promoted to persons qualified to prescribe or supply them, no gifts, pecuniary advantages or benefits in kind may be supplied, offered or promised to such persons unless they are inexpensive and relevant to the practice of medicine or pharmacy. … Persons qualified to prescribe or supply medicinal products shall not solicit or accept any inducement prohibited under paragraph 1 or contrary to paragraph 2."
+    },
+    {
+      "topic": "advertising",
+      "statement": "EU audiovisual law bans audiovisual commercial communications for prescription-only medicines and medical treatment, and video-sharing platforms must take measures to apply this to advertising on their services, including advertising they do not sell themselves (Directive 2010/13/EU, Articles 9(1)(f) and 28b(2)).",
+      "sourceIds": [
+        "eu-dir-2010-13"
+      ],
+      "quote": "audiovisual commercial communications for medicinal products and medical treatment available only on prescription in the Member State within whose jurisdiction the media service provider falls shall be prohibited … Member States shall ensure that the video-sharing platform providers under their jurisdiction take appropriate measures to comply with the requirements set out in Article 9(1) with respect to audiovisual commercial communications that are not marketed, sold or arranged by those video-sharing platform providers",
+      "quoteEn": "audiovisual commercial communications for medicinal products and medical treatment available only on prescription in the Member State within whose jurisdiction the media service provider falls shall be prohibited … Member States shall ensure that the video-sharing platform providers under their jurisdiction take appropriate measures to comply with the requirements set out in Article 9(1) with respect to audiovisual commercial communications that are not marketed, sold or arranged by those video-sharing platform providers"
+    },
+    {
+      "topic": "advertising",
+      "statement": "EU consumer law blacklists falsely claiming that a product can cure illnesses, dysfunction or malformations as an unfair commercial practice in all circumstances (Directive 2005/29/EC, Annex I point 17).",
+      "sourceIds": [
+        "eu-dir-2005-29"
+      ],
+      "quote": "Falsely claiming that a product is able to cure illnesses, dysfunction or malformations.",
+      "quoteEn": "Falsely claiming that a product is able to cure illnesses, dysfunction or malformations."
+    },
+    {
+      "topic": "controlled",
+      "statement": "EU criminal drug-trafficking law defines 'drug' as substances covered by the UN 1961 and 1971 conventions plus the new psychoactive substances listed in its Annex; none of the course substances appears in that Annex (Framework Decision 2004/757/JHA, consolidated 12 January 2026), so controlled status is set by national and UN schedules.",
+      "sourceIds": [
+        "eu-fd-2004-757"
+      ],
+      "quote": "‘drug’: means any of the following: … a substance covered by the 1961 United Nations Single Convention on Narcotic Drugs, as amended by the 1972 Protocol, or by the 1971 United Nations Convention on Psychotropic Substances; … any of the substances listed in the Annex",
+      "quoteEn": "‘drug’: means any of the following: … a substance covered by the 1961 United Nations Single Convention on Narcotic Drugs, as amended by the 1972 Protocol, or by the 1971 United Nations Convention on Psychotropic Substances; … any of the substances listed in the Annex"
+    },
+    {
+      "topic": "professional",
+      "statement": "EU marketing authorisations can restrict who prescribes: Scenesse (afamelanotide) is prescribed only by specialist doctors in recognised EPP centres and used only by properly trained doctors (EMA).",
+      "sourceIds": [
+        "eu-ema-epar-scenesse"
+      ],
+      "quote": "Scenesse is only prescribed by specialist doctors in recognised centres for treating EPP and should only be used by doctors who have been properly trained.",
+      "quoteEn": "Scenesse is only prescribed by specialist doctors in recognised centres for treating EPP and should only be used by doctors who have been properly trained."
+    }
+  ],
+  "notVerified": [
+    {
+      "subject": "National authorisations (minoxidil, finasteride, topical tretinoin, estradiol HRT, somatropin brands such as Genotropin, Norditropin, Humatrope, Saizen, Zomacton; any historic sermorelin product)",
+      "reason": "Out of scope for the EU file: the Union Register and EMA data cover only central (EU-wide) authorisations. EMA referral and PSUSA pages confirm national authorisations exist for minoxidil, finasteride, tretinoin, estradiol and somatropin, but which products are authorised in which member state must be read from each national register (Portugal: INFARMED, in PT.json)."
+    },
+    {
+      "subject": "Absence statements for retatrutide, melanotan II, sermorelin, ipamorelin, CJC-1295, ibutamoren, BPC-157, TB-500, KPV, GHK-Cu, LL-37, thymulin, PTD-DBM",
+      "reason": "Conclusive only for central authorisation (Union Register and EMA data searched 25 September 2026). A national authorisation in some member state cannot be excluded from EU sources."
+    },
+    {
+      "subject": "EU-level warning about melanotan / Melanotan II",
+      "reason": "No EMA, HMA or European Commission statement specific to melanotan was found; EMA's site search is behind a bot-verification challenge that was not bypassed, and web searches restricted to ema.europa.eu returned nothing. National warnings exist (for example Ireland's HPRA) and belong in national files."
+    },
+    {
+      "subject": "EU-level statement on compounded (magistral) GLP-1 receptor agonists",
+      "reason": "No EMA, HMA or Commission statement specifically on compounded semaglutide or tirzepatide was found; EU statements found concern illegal/falsified products (2023, 2025) and off-label/cosmetic use during shortages (June 2024). National positions (e.g. on magistral semaglutide) must be checked per country."
+    },
+    {
+      "subject": "Personal import of unauthorised medicines by individuals",
+      "reason": "No harmonised EU rule on personal import was found in Directive 2001/83/EC; Article 85c governs online sale by retailers and leaves retail conditions to member states. Personal-import allowances are national."
+    },
+    {
+      "subject": "Off-label prescribing and prescribing of unlicensed medicines by doctors",
+      "reason": "EU medicines law regulates authorisation, supply and advertising, not the individual prescribing decision; Article 5(1) of Directive 2001/83/EC is an option member states implement nationally. Professional rules on off-label and aesthetic prescribing are national (medical councils, orders)."
+    },
+    {
+      "subject": "Professional-regulator rules on aesthetic prescribing or hormone use for aesthetic purposes",
+      "reason": "No EU-level professional regulator exists for this; rules are national."
+    },
+    {
+      "subject": "Controlled-substance status of somatropin, anabolic agents and peptide secretagogues",
+      "reason": "EU drug law defers to the UN 1961/1971 conventions and its own NPS annex (no course substance listed). The UN schedules were not checked here, and national doping or medicines laws may control growth hormone; check nationally."
+    },
+    {
+      "subject": "Council of Europe Resolution CM/Res(2016)1 on quality and safety assurance for medicinal products prepared in pharmacies",
+      "reason": "Relevant to magistral preparation standards in EU countries but not an EU instrument; not read."
+    },
+    {
+      "subject": "Final adoption and application dates of the new EU pharmaceutical legislation (Union code replacing Directive 2001/83/EC)",
+      "reason": "As of the Council note of 21 September 2026 the Council had yet to adopt its first-reading position and the European Parliament its second reading; the publication date, transposition deadline and any changes to the magistral/officinal and advertising articles were not verified."
+    },
+    {
+      "subject": "Date the alopecia areata indication was added to Olumiant",
+      "reason": "The EMA overview (last updated 10-2023) lists the indication but not the date of the extension; the procedure history was not read."
+    },
+    {
+      "subject": "Novel-food status of specific collagen peptide ingredients",
+      "reason": "The Novel Food Status Catalogue is a JavaScript application; it was not searched. Only the general novel-food definition is stated."
+    },
+    {
+      "subject": "Olumiant alopecia indication and other EU product information details beyond the EMA overview pages",
+      "reason": "Statements rely on EMA EPAR overview pages and the Union Register indication text; the full SmPCs (product-information PDFs) were not read."
+    }
+  ],
+  "authorFindings": [
+    "Directive 2001/83/EC is still the EU medicines code: EUR-Lex shows the 1 January 2025 consolidation as current with no end date. Its replacement (the 'Union code', procedure 2023/0132 (COD)) was politically agreed and, per Council note 12263/26 of 21 September 2026, awaits the Council's first-reading position and Parliament's second reading (eu-council-st-12263-2026). Re-check before publishing, and date every EU statement.",
+    "The EU has no counterpart to US 503A/503B compounding categories: magistral and officinal preparations sit outside Directive 2001/83/EC (Article 3) and pharmacy preparation is exempt from manufacturing authorisation (Article 40(2)), so the rules on what a pharmacy may compound, and from which active substances, are national. Do not map FDA category lists onto EU learners.",
+    "The EU line for peptide skin products runs through three instruments: a topical product with a cosmetic purpose is a cosmetic (1223/2009); anything injected or implanted is never a cosmetic (Art 2(2)), nor is a vial product sold with an injecting device or a needle-roller product reaching the dermis (borderline manual); an injected product without a medical purpose may be a device (MDR Annex XVI fillers), and anything acting pharmacologically is a medicine (2001/83 Art 1(2), with Art 2(2) resolving doubt towards medicines law).",
+    "Several substances in the course are banned from EU cosmetics outright: tretinoin (Annex II/375), minoxidil (II/372), oestrogens (II/260), progestogens (II/194), substances with androgenic effect (II/37) and steroidal anti-androgens (II/390). A 'cosmeceutical' containing them is an illegal cosmetic, whatever its label says.",
+    "Collagen marketing: the EU refused a VeriSol®P collagen-peptide claim on skin elasticity and wrinkles (Regulation 1154/2014) and the general 'collagen helps skin firmness and elasticity' claim is non-authorised in the EU Register (POL-HC-8291). The only authorised claim that mentions skin collagen is the vitamin C claim, which explains why EU collagen supplements often add vitamin C.",
+    "Orphan designations are not authorisations but appear in marketing: ibutamoren mesilate (MK-677) holds EU/3/17/1882 for growth hormone deficiency (2017), and afamelanotide holds designations beyond EPP (e.g. xeroderma pigmentosum and variegate porphyria, 2024, per EMA's orphan-designation table read 25 September 2026).",
+    "EMA's medicines table (25 September 2026) also lists items the course may want: Litfulo (ritlecitinib), a second JAK inhibitor, centrally authorised on 15 September 2023 and indicated for severe alopecia areata in adults and adolescents aged 12 and over (EMA data table); long-acting growth hormones Sogroya (somapacitan, 2021), Ngenla (somatrogon, 2022) and Skytrofa (lonapegsomatropin, 2022); and Kayshild (semaglutide, 2026) for MASH. Verify indications from the EPARs before using them.",
+    "Safety updates EU clinicians should know: semaglutide — NAION very rare side effect (PRAC, June 2025); finasteride — suicidal ideation confirmed, patient card (2025); topical minoxidil — infant hypertrichosis warning (2024); JAK inhibitors — restricted use in higher-risk groups (2023); topical retinoids — not in pregnancy (2018).",
+    "The June 2024 EMA/HMA call not to use GLP-1 receptor agonists for cosmetic weight loss was issued during shortages; EMA's shortage table now marks the Ozempic shortage resolved (last updated 13 January 2026), but the statement that these medicines are not approved for cosmetic weight loss remains true of their authorised indications.",
+    "Europol's SHIELD VI summary (25 February 2026) describes a Spanish network supplying illegal medicines and health products for cosmetic medicine to legal and clandestine clinics, with activity extending to Portugal — useful context for the PT file.",
+    "Method note: EUR-Lex answers automated requests with an empty 202 (bot protection), so every EU legal text was read from the Publications Office (Cellar) copy of the same document; the source URLs point there so the claim-support fetcher can read them, and each note gives the EUR-Lex link for learners. CosIng, the EU claims register screen and Europol are JavaScript pages read in a browser."
+  ]
+}
