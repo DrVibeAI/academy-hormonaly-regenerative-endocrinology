@@ -3,4 +3,6 @@
 # 2026-09-25: pinned to the foundry commit rc.4 was built and gated with (perceptor-foundry factory/automation-gaps-20260924,
 # PR #9: asset.disclosure schema, editorial audit, cinematic lane); move to the merge commit once PR #9 lands on main.
 # 2026-09-25 (1.1): moved to the foundry commit with the sequence and branching interaction kinds, hedge, living diagrams and the dive.
-ref=13962054140c00b04cff101af283cc3ad8a0c2b8
+# 2026-09-26 (1.1): moved to the foundry commit 1.1 was gated with (perceptor-foundry PR #11 on PR #9: inspect polarity in claim
+# support; the final gate reads the authored change logs).
+ref=7e1d1e1890eee22a5dc5e0c17a31ec457c4d15dc
