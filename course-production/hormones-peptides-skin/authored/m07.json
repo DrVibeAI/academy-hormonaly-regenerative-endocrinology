@@ -2369,7 +2369,7 @@
     "en": "My practice, from the next conversation."
    },
    "body": {
-    "en": "This is the last moment of the course. Build the commitment you will actually keep; it is saved to your path, and your tutor will bring it back. The course is designed toward future CME accreditation and does not award credit at this time."
+    "en": "This is the last step of the course. Build the commitment you will actually keep; it is saved in My notes, in the Library. The course is designed toward future CME accreditation and does not award credit at this time."
    },
    "sourceNote": "Module 07 · course close",
    "citationRefs": [
@@ -3352,6 +3352,12 @@
    "date": "2026-09-25",
    "block": "tutor-m07-grade, tutor-m07-compounding-coa",
    "change": "Editorial: each prepared Guide answer now carries the question it answers as a suggested prompt (tutor-m07-grade → 'How good is the evidence behind a “clinically proven” claim?'; tutor-m07-compounding-coa → 'What does a certificate of analysis (COA) prove about purity?'), so the Guide opens on course questions instead of platform help. The prepared answers are unchanged. (editorial; no medical content changed)",
+   "forReview": "Omar Saleem (product owner)"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m7-p20",
+   "change": "Editorial: closing line 'This is the last moment of the course. Build the commitment you will actually keep; it is saved to your path, and your tutor will bring it back.' → 'This is the last step of the course. Build the commitment you will actually keep; it is saved in My notes, in the Library.' (the CME sentence after it unchanged). (editorial; no medical content changed)",
    "forReview": "Omar Saleem (product owner)"
   }
  ],

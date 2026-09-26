@@ -100,7 +100,7 @@
    "type": "title",
    "time": "01 / 20",
    "lead": {
-    "en": "Hormones and Peptides for Skin · Module 01"
+    "en": "Module 01 · The skin as an endocrine organ"
    },
    "title": {
     "en": "The skin makes its own hormones."
@@ -162,7 +162,7 @@
    "type": "reflection",
    "time": "03 / 20",
    "lead": {
-    "en": "Set your path"
+    "en": "Your role"
    },
    "title": {
     "en": "How will you use this course?"
@@ -181,7 +181,7 @@
        "en": "I prescribe: physician, NP or PA"
       },
       "response": {
-       "en": "Your path closes each lesson on the prescribing decision: assessment, referral, consent and documentation."
+       "en": "Each lesson now closes on the prescribing decision: assessment, referral, consent and documentation."
       }
      },
      {
@@ -190,7 +190,7 @@
        "en": "I deliver treatments: RN, aesthetic nurse or injector"
       },
       "response": {
-       "en": "Your path closes each lesson on what you notice, what you record and when you escalate to the prescriber."
+       "en": "Each lesson now closes on what you notice, what you record and when you escalate to the prescriber."
       }
      },
      {
@@ -199,7 +199,7 @@
        "en": "I advise on products: pharmacist, ND or allied professional"
       },
       "response": {
-       "en": "Your path closes each lesson on what you can accurately say and when someone needs a prescriber."
+       "en": "Each lesson now closes on what you can accurately say and when someone needs a prescriber."
       }
      }
     ],
@@ -210,7 +210,7 @@
      "en": "For example, why skin thins after menopause"
     },
     "responseLead": {
-     "en": "Your path adjusts"
+     "en": "Set for your role"
     }
    }
   },
@@ -1642,7 +1642,7 @@
     "en": "Before my next skin-and-hormone conversation."
    },
    "body": {
-    "en": "Build the checklist you will actually use. It is saved to your path and your tutor will bring it back."
+    "en": "Build the checklist you will actually use. It is saved in My notes, in the Library."
    },
    "sourceNote": "Module 01",
    "citationRefs": [
@@ -2082,6 +2082,24 @@
    "date": "2026-09-25",
    "block": "tutor-m01-atlas, tutor-m01-senescence",
    "change": "Editorial: each prepared Guide answer now carries the question it answers as a suggested prompt (tutor-m01-atlas → 'A product says skin has receptors for it. Does that prove it works?'; tutor-m01-senescence → 'Do senolytics help ageing skin?'), so the Guide opens on course questions instead of platform help. The prepared answers are unchanged. (editorial; no medical content changed)",
+   "forReview": "Omar Saleem (product owner)"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m1-p01",
+   "change": "Editorial: cover kicker 'Hormones and Peptides for Skin · Module 01' → 'Module 01 · The skin as an endocrine organ' (the course name appears once per screen; the other six covers already read 'Module NN · <topic>'). (editorial; no medical content changed)",
+   "forReview": "Omar Saleem (product owner)"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m1-p02",
+   "change": "Editorial: role question: kicker 'Set your path' → 'Your role'; reply heading 'Your path adjusts' → 'Set for your role'; each reply 'Your path closes each lesson on …' → 'Each lesson now closes on …' (the rest of each reply unchanged); the body text confirmed on 2026-09-25 is unchanged. (editorial; no medical content changed)",
+   "forReview": "Omar Saleem (product owner)"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m1-p19",
+   "change": "Editorial: closing line 'Build the checklist you will actually use. It is saved to your path and your tutor will bring it back.' → 'Build the checklist you will actually use. It is saved in My notes, in the Library.' (the Guide does not bring the checklist back; My notes keeps it). (editorial; no medical content changed)",
    "forReview": "Omar Saleem (product owner)"
   }
  ],
