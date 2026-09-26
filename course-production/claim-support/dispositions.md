@@ -1,6 +1,6 @@
-# Claim-support dispositions — hormonaly.hormones-peptides-skin v1.0.0
+# Claim-support dispositions — hormonaly.hormones-peptides-skin v1.0.1
 
-The automated source check left 19 unit(s) with a major finding: a statement the fetched source text does not fully show — usually because only an abstract was readable, the statement records the absence of evidence, or it is standard clinical knowledge the cited source does not spell out. Each needs one decision from the medical owner: **keep** (the statement is right; say why), **edit** (say how), or **cite** (name the source that states it).
+The automated source check left 18 unit(s) with a major finding: a statement the fetched source text does not fully show — usually because only an abstract was readable, the statement records the absence of evidence, or it is standard clinical knowledge the cited source does not spell out. Each needs one decision from the medical owner: **keep** (the statement is right; say why), **edit** (say how), or **cite** (name the source that states it).
 
 Disposition codes the agent may propose: `keep: absence` (a documented search found nothing — no source can state an absence) · `keep: full text` (the cited source states it beyond the abstract) · `keep: standard knowledge` · `edit: …` · `cite: …`.
 
@@ -53,14 +53,6 @@ Confirmed by: Fady Hannah-Shmouni, MD FRCPC, 2026-09-25 (rc.2 sign-off packet; r
 - **Cited:** bornstein-2016-pai-guideline, lause-2017-dermatologic-endocrine, hannah-shmouni-2026-are
 
 **Disposition:** CONFIRMED for rc.1 (Fady Hannah-Shmouni, 2026-09-25), unit unchanged in rc.2 — keep: full text — the claim already cites the Endocrine Society guideline (Bornstein 2016), whose full text describes the hyperpigmentation distribution, including sun-exposed areas; the checker could read only its abstract.
-
-### `c-m02-19`
-
-- **Statement:** Androgen-secreting neoplasms account for about 0.2% of hyperandrogenic women, and over half are malignant.
-- **Source check (not_found):** Neither provided source contains the prevalence figure (about 0.2%) or the proportion of malignancy.
-- **Cited:** martin-2018-hirsutism-guideline, hannah-shmouni-2026-are
-
-**Disposition:** CONFIRMED for rc.1 (Fady Hannah-Shmouni, 2026-09-25), unit unchanged in rc.2 — keep: full text — Martin 2018 (Endocrine Society hirsutism guideline, full text) gives the ~0.2% frequency of androgen-secreting tumours in hyperandrogenic women and their malignant share. Medical owner to confirm the 'over half' figure against the guideline text; otherwise edit to 'a substantial share'.
 
 ### `c-m04-07`
 

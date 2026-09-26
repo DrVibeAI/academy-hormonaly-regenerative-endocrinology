@@ -256,7 +256,7 @@ Most endocrine skin signs you meet come from common disease. New generalised dar
 
 <details><summary>Narration script</summary>
 
-Most of the endocrine skin signs you will actually meet come from common conditions. New, generalised darkening, most obvious in skin creases such as the palms, in scars, on the gums and on sun-exposed skin, can be the sign of primary adrenal insufficiency. In a patient who is also unwell, the Endocrine Society recommends testing, and a suspected adrenal crisis is treated before the results come back, because delay raises the risk of death. Hirsutism that arrives quickly, keeps progressing, or comes with a deeper voice or clitoromegaly makes an androgen-secreting tumour more likely, and more than half of those tumours are malignant. Velvety dark plaques in the neck folds track insulin resistance. Firm plaques on the shins point to Graves' disease, and cold, dry, coarse skin suggests an underactive thyroid. The skin shows you which door to knock on.
+Most of the endocrine skin signs you will actually meet come from common conditions. New, generalised darkening, most obvious in skin creases such as the palms, in scars, on the gums and on sun-exposed skin, can be the sign of primary adrenal insufficiency. In a patient who is also unwell, the Endocrine Society recommends testing, and a suspected adrenal crisis is treated before the results come back, because delay raises the risk of death. Hirsutism that arrives quickly, keeps progressing, or comes with a deeper voice or clitoromegaly makes an androgen-secreting tumour more likely and calls for prompt referral. Velvety dark plaques in the neck folds track insulin resistance. Firm plaques on the shins point to Graves' disease, and cold, dry, coarse skin suggests an underactive thyroid. The skin shows you which door to knock on.
 
 </details>
 
@@ -276,7 +276,7 @@ Seven presentations from an aesthetic list, and three routes. Your job is to rou
 **Callout:** You route; the endocrinologist diagnoses.
 
 **Exercise (quickfire) · Route the finding** — One patient at a time: which route does this finding take?
-- Coarse chin and chest hair over four months; her voice has deepened → **Urgent assessment** — *Rapid progression with virilization raises the likelihood of an androgen-secreting tumour, over half of which are malignant (Endocrine Society, 2018). The guide calls rapid virilization the one finding that demands urgent work-up.*
+- Coarse chin and chest hair over four months; her voice has deepened → **Urgent assessment** — *Rapid progression with virilization raises the likelihood of an androgen-secreting tumour (Endocrine Society, 2018). The guide calls rapid virilization the one finding that demands urgent work-up.*
 - Darkening of palm creases and gums, weight loss, feeling faint on standing → **Urgent assessment** — *Hyperpigmentation with systemic symptoms suggests primary adrenal insufficiency; the guideline recommends testing in unwell patients and treating a suspected crisis without waiting for results.*
 - Wide purple abdominal striae, easy bruising, trouble climbing stairs → **Endocrine referral** — *Several discriminating features together: the guideline recommends testing for Cushing's syndrome, and the guide lists it for prompt endocrine referral.*
 - Several facial angiofibromas, no tuberous sclerosis; her father had parathyroid surgery → **Endocrine referral** — *Angiofibromas outside tuberous sclerosis call for biochemical testing for MEN1, and a relative with parathyroid disease strengthens the case.*
