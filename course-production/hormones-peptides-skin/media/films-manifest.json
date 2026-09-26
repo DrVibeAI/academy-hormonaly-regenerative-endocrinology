@@ -19,8 +19,8 @@
   {
    "id": "asset-hps-m02-opener",
    "block": "m2-opener",
-   "uri": "assets/hormones-peptides-skin/video/m02-opener.mp4",
-   "poster": "assets/hormones-peptides-skin/video/m02-opener-poster.jpg",
+   "uri": "assets/hormones-peptides-skin/video/m02-opener-r3.mp4",
+   "poster": "assets/hormones-peptides-skin/video/m02-opener-r3-poster.jpg",
    "durationSeconds": 76.14,
    "storyboard": "course-production/hormones-peptides-skin/video/cinematic/m02-opener.storyboard.json",
    "models": "HeyGen Avatar V (stock look) · Gemini 3.8 TTS en-gb-tutor-1 · GPT Image 2.5 · Veo 3.1 · Lyria 3.5 · HyperFrames",
