@@ -2,6 +2,9 @@
  "module": "m05",
  "authoredAt": "2026-09-24",
  "status": "approved",
+ "summary": {
+  "en": "Two requests reach aesthetic clinics well ahead of their evidence: a peptide to regrow hair and an injection to tan."
+ },
  "unit": {
   "id": "m05-story",
   "slug": "m05-story",
@@ -2593,6 +2596,12 @@
    "forReview": "Fady Hannah-Shmouni",
    "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
    "confirmedAt": "2026-09-25"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m05 module summary",
+   "change": "Editorial: the module summary shown on Today and Course is now one sentence from the module's cover (m5-p01), 'Two requests reach aesthetic clinics well ahead of their evidence: a peptide to regrow hair and an injection to tan.', replacing the intake plan's scope list, which stays in the package as metadata.scope (runtime clarity pass: summaries read like specifications). (editorial; no medical content changed)",
+   "forReview": "Omar Saleem (product owner)"
   }
  ],
  "mediaChanges": [

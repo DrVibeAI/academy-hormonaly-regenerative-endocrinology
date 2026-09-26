@@ -2,6 +2,9 @@
  "module": "m02",
  "authoredAt": "2026-09-24",
  "status": "approved",
+ "summary": {
+  "en": "Most skin changes you see are ageing or lifestyle; a few are the first visible sign of endocrine disease."
+ },
  "unit": {
   "id": "m02-story",
   "slug": "m02-story",
@@ -2260,6 +2263,12 @@
    "forReview": "Fady Hannah-Shmouni",
    "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
    "confirmedAt": "2026-09-25"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m02 module summary",
+   "change": "Editorial: the module summary shown on Today and Course is now one sentence from the module's cover (m2-p01), 'Most skin changes you see are ageing or lifestyle; a few are the first visible sign of endocrine disease.', replacing the intake plan's scope list, which stays in the package as metadata.scope (runtime clarity pass: summaries read like specifications). (editorial; no medical content changed)",
+   "forReview": "Omar Saleem (product owner)"
   }
  ],
  "mediaChanges": [

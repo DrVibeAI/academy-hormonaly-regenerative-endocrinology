@@ -2,6 +2,9 @@
  "module": "m01",
  "authoredAt": "2026-09-24",
  "status": "approved",
+ "summary": {
+  "en": "Skin senses hormones from the blood, makes several of its own, and ages in ways that change both."
+ },
  "unit": {
   "id": "m01-story",
   "slug": "m01-story",
@@ -2060,6 +2063,12 @@
    "forReview": "Fady Hannah-Shmouni",
    "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
    "confirmedAt": "2026-09-25"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m01 module summary",
+   "change": "Editorial: the module summary shown on Today and Course is now one sentence from the module's cover (m1-p01), 'Skin senses hormones from the blood, makes several of its own, and ages in ways that change both.', replacing the intake plan's scope list, which stays in the package as metadata.scope (runtime clarity pass: summaries read like specifications). (editorial; no medical content changed)",
+   "forReview": "Omar Saleem (product owner)"
   }
  ],
  "reviewNotes": [

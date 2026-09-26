@@ -2,6 +2,9 @@
  "module": "m04",
  "authoredAt": "2026-09-24",
  "status": "approved",
+ "summary": {
+  "en": "Most skin peptides reach your clinic before any evidence does."
+ },
  "unit": {
   "id": "m04-story",
   "slug": "m04-story",
@@ -2588,6 +2591,12 @@
    "forReview": "Fady Hannah-Shmouni",
    "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
    "confirmedAt": "2026-09-25"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m04 module summary",
+   "change": "Editorial: the module summary shown on Today and Course is now one sentence from the module's cover (m4-p01), 'Most skin peptides reach your clinic before any evidence does.', replacing the intake plan's scope list, which stays in the package as metadata.scope (runtime clarity pass: summaries read like specifications). (editorial; no medical content changed)",
+   "forReview": "Omar Saleem (product owner)"
   }
  ],
  "mediaChanges": [

@@ -121,25 +121,25 @@
         {
           "id": "product",
           "status": "mapped",
-          "detail": "Product status mapped for the UK: MHRA-licensed products checked in UK product information (semaglutide as Ozempic and Wegovy, tirzepatide as Mounjaro, baricitinib, minoxidil, finasteride, somatropin, estradiol HRT, topical tretinoin), afamelanotide's UK licence (via NICE HST27), no UK product information for tesamorelin, sermorelin or ipamorelin (MHRA products database), somatropin as a Class C controlled drug, and the cosmetic (assimilated Regulation 1223/2009) and food-supplement (Food Supplements (England) Regulations 2003) categories. Modules 02–06. UK statements added 2026-09-25; confirmed by Fady Hannah-Shmouni, MD FRCPC on 2026-09-25."
+          "detail": "Product status mapped for the UK: MHRA-licensed products checked in UK product information (semaglutide as Ozempic and Wegovy, tirzepatide as Mounjaro, baricitinib, minoxidil, finasteride, somatropin, estradiol HRT, topical tretinoin), afamelanotide's UK licence (via NICE HST27), no UK product information for tesamorelin, sermorelin or ipamorelin (MHRA products database), somatropin as a Class C controlled drug, and the cosmetic (assimilated Regulation 1223/2009) and food-supplement (Food Supplements (England) Regulations 2003) categories. Modules 02–06. UK statements added 2026-09-25; confirmation pending with the post-approval changes."
         },
         {
           "id": "claims",
           "status": "mapped",
-          "detail": "Claims and advertising mapped for the UK: no sale, supply or advertising of a medicine without a UK marketing authorisation (Human Medicines Regulations 2012, regs 46 and 279), no advertising of prescription-only medicines to the public (reg. 284; CAP Code 12.12; MHRA Blue Guide; ASA ruling of 11 Feb 2026), cosmetic claims (Regulation 1223/2009 art. 20; ASA ruling of 13 May 2026 on a peptide serum), and food disease and health claims (Regulation 1169/2011 art. 7(3); Regulation 1924/2006 art. 10). Modules 04 and 07. UK statements added 2026-09-25; confirmed by Fady Hannah-Shmouni, MD FRCPC on 2026-09-25."
+          "detail": "Claims and advertising mapped for the UK: no sale, supply or advertising of a medicine without a UK marketing authorisation (Human Medicines Regulations 2012, regs 46 and 279), no advertising of prescription-only medicines to the public (reg. 284; CAP Code 12.12; MHRA Blue Guide; ASA ruling of 11 Feb 2026), cosmetic claims (Regulation 1223/2009 art. 20; ASA ruling of 13 May 2026 on a peptide serum), and food disease and health claims (Regulation 1169/2011 art. 7(3); Regulation 1924/2006 art. 10). Modules 04 and 07. UK statements added 2026-09-25; confirmation pending with the post-approval changes."
         },
         {
           "id": "practice",
           "status": "mapped",
-          "detail": "Practice mapped for the UK: the 'specials' route (reg. 167) and pharmacy preparation (Medicines Act 1968 s. 10) in place of 503A/503B, MHRA Guidance Note 14's order of preference (licensed, off-label, imported, special), prescriber responsibility (GMC paras 102–108, MHRA Drug Safety Update 2009, GPhC 2025, NMC Code 18), GMC's physical examination before injectable cosmetic medicines, MHRA's finasteride warnings (May 2026) and enforcement (retatrutide; the May 2026 seizure including peptide products; melanotan). Two new moments in module 07 (m7-p21, m7-p22); role versions changed only where the practice line differs by jurisdiction. UK statements added 2026-09-25; confirmed by Fady Hannah-Shmouni, MD FRCPC on 2026-09-25."
+          "detail": "Practice mapped for the UK: the 'specials' route (reg. 167) and pharmacy preparation (Medicines Act 1968 s. 10) in place of 503A/503B, MHRA Guidance Note 14's order of preference (licensed, off-label, imported, special), prescriber responsibility (GMC paras 102–108, MHRA Drug Safety Update 2009, GPhC 2025, NMC Code 18), GMC's physical examination before injectable cosmetic medicines, MHRA's finasteride warnings (May 2026) and enforcement (retatrutide; the May 2026 seizure including peptide products; melanotan). Two new moments in module 07 (m7-p21, m7-p22); role versions changed only where the practice line differs by jurisdiction. UK statements added 2026-09-25; confirmation pending with the post-approval changes."
         },
         {
           "id": "locale",
           "status": "mapped",
-          "detail": "Locale mapped for UK learners on the base English edition: UK regulatory wording ('licensed', 'unlicensed medicine', 'special', 'prescription-only medicine', 'marketing authorisation') is used in the UK notes, each labelled 'In the UK' and dated, and shown first to learners who choose the United Kingdom. UK statements added 2026-09-25; confirmed by Fady Hannah-Shmouni, MD FRCPC on 2026-09-25."
+          "detail": "Locale mapped for UK learners on the base English edition: UK regulatory wording ('licensed', 'unlicensed medicine', 'special', 'prescription-only medicine', 'marketing authorisation') is used in the UK notes, each labelled 'In the UK' and dated, and shown first to learners who choose the United Kingdom. UK statements added 2026-09-25; confirmation pending with the post-approval changes."
         }
       ],
-      "reviewOwner": "Fady Hannah-Shmouni, MD FRCPC (confirmed 2026-09-25)"
+      "reviewOwner": "Fady Hannah-Shmouni, MD FRCPC (confirmation pending)"
     },
     {
       "code": "EU",
@@ -175,17 +175,17 @@
         {
           "id": "product",
           "status": "mapped",
-          "detail": "36 primary-source statement(s) researched 2026-09-25; notes on 29 moment(s); confirmed by Fady Hannah-Shmouni, MD FRCPC on 2026-09-25."
+          "detail": "36 primary-source statement(s) researched 2026-09-25; notes on 29 moment(s); confirmation pending with the post-approval changes."
         },
         {
           "id": "claims",
           "status": "mapped",
-          "detail": "24 primary-source statement(s) researched 2026-09-25; notes on 29 moment(s); confirmed by Fady Hannah-Shmouni, MD FRCPC on 2026-09-25."
+          "detail": "24 primary-source statement(s) researched 2026-09-25; notes on 29 moment(s); confirmation pending with the post-approval changes."
         },
         {
           "id": "practice",
           "status": "mapped",
-          "detail": "15 primary-source statement(s) researched 2026-09-25; notes on 29 moment(s); confirmed by Fady Hannah-Shmouni, MD FRCPC on 2026-09-25."
+          "detail": "15 primary-source statement(s) researched 2026-09-25; notes on 29 moment(s); confirmation pending with the post-approval changes."
         },
         {
           "id": "locale",
@@ -193,7 +193,7 @@
           "detail": "Base English edition; each note names its jurisdiction and date and is shown first to learners who choose that country."
         }
       ],
-      "reviewOwner": "Fady Hannah-Shmouni, MD FRCPC (confirmed 2026-09-25)"
+      "reviewOwner": "Fady Hannah-Shmouni, MD FRCPC (confirmation pending)"
     },
     {
       "code": "PT",
@@ -234,17 +234,17 @@
         {
           "id": "product",
           "status": "mapped",
-          "detail": "32 primary-source statement(s) researched 2026-09-25; notes on 25 moment(s); confirmed by Fady Hannah-Shmouni, MD FRCPC on 2026-09-25."
+          "detail": "32 primary-source statement(s) researched 2026-09-25; notes on 25 moment(s); confirmation pending with the post-approval changes."
         },
         {
           "id": "claims",
           "status": "mapped",
-          "detail": "16 primary-source statement(s) researched 2026-09-25; notes on 25 moment(s); confirmed by Fady Hannah-Shmouni, MD FRCPC on 2026-09-25."
+          "detail": "16 primary-source statement(s) researched 2026-09-25; notes on 25 moment(s); confirmation pending with the post-approval changes."
         },
         {
           "id": "practice",
           "status": "mapped",
-          "detail": "30 primary-source statement(s) researched 2026-09-25; notes on 25 moment(s); confirmed by Fady Hannah-Shmouni, MD FRCPC on 2026-09-25."
+          "detail": "30 primary-source statement(s) researched 2026-09-25; notes on 25 moment(s); confirmation pending with the post-approval changes."
         },
         {
           "id": "locale",
@@ -252,7 +252,7 @@
           "detail": "Base English edition; each note names its jurisdiction and date and is shown first to learners who choose that country."
         }
       ],
-      "reviewOwner": "Fady Hannah-Shmouni, MD FRCPC (confirmed 2026-09-25)"
+      "reviewOwner": "Fady Hannah-Shmouni, MD FRCPC (confirmation pending)"
     },
     {
       "code": "BR",
@@ -273,17 +273,17 @@
         {
           "id": "product",
           "status": "mapped",
-          "detail": "27 primary-source statement(s) researched 2026-09-25; notes on 29 moment(s); confirmed by Fady Hannah-Shmouni, MD FRCPC on 2026-09-25."
+          "detail": "27 primary-source statement(s) researched 2026-09-25; notes on 29 moment(s); confirmation pending with the post-approval changes."
         },
         {
           "id": "claims",
           "status": "mapped",
-          "detail": "10 primary-source statement(s) researched 2026-09-25; notes on 29 moment(s); confirmed by Fady Hannah-Shmouni, MD FRCPC on 2026-09-25."
+          "detail": "10 primary-source statement(s) researched 2026-09-25; notes on 29 moment(s); confirmation pending with the post-approval changes."
         },
         {
           "id": "practice",
           "status": "mapped",
-          "detail": "25 primary-source statement(s) researched 2026-09-25; notes on 29 moment(s); confirmed by Fady Hannah-Shmouni, MD FRCPC on 2026-09-25."
+          "detail": "25 primary-source statement(s) researched 2026-09-25; notes on 29 moment(s); confirmation pending with the post-approval changes."
         },
         {
           "id": "locale",
@@ -291,7 +291,7 @@
           "detail": "Base English edition; each note names its jurisdiction and date and is shown first to learners who choose that country."
         }
       ],
-      "reviewOwner": "Fady Hannah-Shmouni, MD FRCPC (confirmed 2026-09-25)"
+      "reviewOwner": "Fady Hannah-Shmouni, MD FRCPC (confirmation pending)"
     },
     {
       "code": "AE",
@@ -332,17 +332,17 @@
         {
           "id": "product",
           "status": "mapped",
-          "detail": "33 primary-source statement(s) researched 2026-09-25; notes on 29 moment(s); confirmed by Fady Hannah-Shmouni, MD FRCPC on 2026-09-25."
+          "detail": "33 primary-source statement(s) researched 2026-09-25; notes on 29 moment(s); confirmation pending with the post-approval changes."
         },
         {
           "id": "claims",
           "status": "mapped",
-          "detail": "20 primary-source statement(s) researched 2026-09-25; notes on 29 moment(s); confirmed by Fady Hannah-Shmouni, MD FRCPC on 2026-09-25."
+          "detail": "20 primary-source statement(s) researched 2026-09-25; notes on 29 moment(s); confirmation pending with the post-approval changes."
         },
         {
           "id": "practice",
           "status": "mapped",
-          "detail": "40 primary-source statement(s) researched 2026-09-25; notes on 29 moment(s); confirmed by Fady Hannah-Shmouni, MD FRCPC on 2026-09-25."
+          "detail": "40 primary-source statement(s) researched 2026-09-25; notes on 29 moment(s); confirmation pending with the post-approval changes."
         },
         {
           "id": "locale",
@@ -350,7 +350,7 @@
           "detail": "Base English edition; each note names its jurisdiction and date and is shown first to learners who choose that country."
         }
       ],
-      "reviewOwner": "Fady Hannah-Shmouni, MD FRCPC (confirmed 2026-09-25)"
+      "reviewOwner": "Fady Hannah-Shmouni, MD FRCPC (confirmation pending)"
     }
   ],
   "provenance": {
@@ -10482,7 +10482,7 @@
           "en": "Module 01 · 3 lessons · 20 moments · ~25 min"
         },
         "summary": {
-          "en": "The skin as an endocrine organ; four immuno-endocrine microenvironments; local peripheral endocrine axes (HPA, thyroid, somatotropic, melanocortin); Hormone Cell Atlas cutaneous receptor distribution; endocrine senescence and SASP pathophysiology."
+          "en": "Skin senses hormones from the blood, makes several of its own, and ages in ways that change both."
         },
         "objective": {
           "en": "By the end, you can analyze the autonomous neuro-immuno-endocrine physiology of the skin and evaluate how local steroidogenesis, receptor expression, and cellular senescence drive structural dermal aging."
@@ -12353,6 +12353,9 @@
         },
         "metadata": {
           "intakePlanModuleId": "module-01",
+          "scope": {
+            "en": "The skin as an endocrine organ; four immuno-endocrine microenvironments; local peripheral endocrine axes (HPA, thyroid, somatotropic, melanocortin); Hormone Cell Atlas cutaneous receptor distribution; endocrine senescence and SASP pathophysiology."
+          },
           "sourceSections": [
             {
               "id": "jbUNSyYUCm3woAe10XL90N-part-2",
@@ -12466,7 +12469,7 @@
           "en": "Module 02 · 3 lessons · 20 moments · ~26 min"
         },
         "summary": {
-          "en": "Cutaneous 11β-HSD1 and local cortisol conversion; clinical triage of hypercortisolemia versus cosmetic 'cortisol face'; estrogen withdrawal kinetics and postmenopausal collagen loss; systemic and topical hormone therapy boundaries; pathognomonic skin signs of endocrine syndromes."
+          "en": "Most skin changes you see are ageing or lifestyle; a few are the first visible sign of endocrine disease."
         },
         "objective": {
           "en": "By the end, you can differentiate cutaneous manifestations of systemic endocrine disorders from localized hormonal aging, appraising the clinical limitations and risks of hormone replacement in skin health."
@@ -14437,6 +14440,9 @@
         },
         "metadata": {
           "intakePlanModuleId": "module-02",
+          "scope": {
+            "en": "Cutaneous 11β-HSD1 and local cortisol conversion; clinical triage of hypercortisolemia versus cosmetic 'cortisol face'; estrogen withdrawal kinetics and postmenopausal collagen loss; systemic and topical hormone therapy boundaries; pathognomonic skin signs of endocrine syndromes."
+          },
           "sourceSections": [
             {
               "id": "jbUNSyYUCm3woAe10XL90N-part-6",
@@ -14551,7 +14557,7 @@
           "en": "Module 03 · 3 lessons · 21 moments · ~27 min"
         },
         "summary": {
-          "en": "Dermal white adipose tissue (dWAT) biology; advanced glycation end products (AGEs) and inflammaging; the gut-skin neuroendocrine axis; incretin pharmacology; clinical management of rapid subcutaneous facial fat atrophy."
+          "en": "Facial shape depends on fat as much as on collagen."
         },
         "objective": {
           "en": "By the end, you can evaluate the pathophysiology of dermal white adipose tissue, systemic inflammaging, and the facial structural consequences of GLP-1 and dual-incretin receptor agonist therapies."
@@ -16763,6 +16769,9 @@
         },
         "metadata": {
           "intakePlanModuleId": "module-03",
+          "scope": {
+            "en": "Dermal white adipose tissue (dWAT) biology; advanced glycation end products (AGEs) and inflammaging; the gut-skin neuroendocrine axis; incretin pharmacology; clinical management of rapid subcutaneous facial fat atrophy."
+          },
           "sourceSections": [
             {
               "id": "jbUNSyYUCm3woAe10XL90N-part-8",
@@ -16889,7 +16898,7 @@
           "en": "Module 04 · 3 lessons · 20 moments · ~26 min"
         },
         "summary": {
-          "en": "Copper peptides (GHK/GHK-Cu); signal peptides and matrikines (pal-KTTKS / Matrixyl, Matrixyl 3000, Palmitoyl Tripeptide-1); oral collagen peptides; neurotransmitter modulators (Argireline, SNAP-8, Leuphasyl); investigational repair peptides (BPC-157, TB-500, KPV, LL-37); evidence hierarchies, sponsorship and funding bias; US and UK regulatory status."
+          "en": "Most skin peptides reach your clinic before any evidence does."
         },
         "objective": {
           "en": "By the end, you can critique the biological plausibility, transdermal penetration barriers, and human clinical evidence for cosmetic, matrikine, and investigational tissue-repair peptides."
@@ -18925,6 +18934,9 @@
         },
         "metadata": {
           "intakePlanModuleId": "module-04",
+          "scope": {
+            "en": "Copper peptides (GHK/GHK-Cu); signal peptides and matrikines (pal-KTTKS / Matrixyl, Matrixyl 3000, Palmitoyl Tripeptide-1); oral collagen peptides; neurotransmitter modulators (Argireline, SNAP-8, Leuphasyl); investigational repair peptides (BPC-157, TB-500, KPV, LL-37); evidence hierarchies, sponsorship and funding bias; US and UK regulatory status."
+          },
           "sourceSections": [
             {
               "id": "jbUNSyYUCm3woAe10XL90N-part-3",
@@ -19050,7 +19062,7 @@
           "en": "Module 05 · 3 lessons · 20 moments · ~26 min"
         },
         "summary": {
-          "en": "Hair follicle neuroendocrine regulation, immune privilege collapse, and cycling; melanocortin receptor pharmacology (MC1R-MC5R); afamelanotide indications; Melanotan II systemic toxicity and oncologic risk; experimental hair peptides (PTD-DBM, Zinc Thymulin)."
+          "en": "Two requests reach aesthetic clinics well ahead of their evidence: a peptide to regrow hair and an injection to tan."
         },
         "objective": {
           "en": "By the end, you can appraise the neuroendocrinology of the hair follicle and melanocortin receptor system, contrasting FDA-approved therapeutics with the clinical and oncologic hazards of unregulated peptides."
@@ -21161,6 +21173,9 @@
         },
         "metadata": {
           "intakePlanModuleId": "module-05",
+          "scope": {
+            "en": "Hair follicle neuroendocrine regulation, immune privilege collapse, and cycling; melanocortin receptor pharmacology (MC1R-MC5R); afamelanotide indications; Melanotan II systemic toxicity and oncologic risk; experimental hair peptides (PTD-DBM, Zinc Thymulin)."
+          },
           "sourceSections": [
             {
               "id": "jbUNSyYUCm3woAe10XL90N-part-4",
@@ -21275,7 +21290,7 @@
           "en": "Module 06 · 3 lessons · 20 moments · ~26 min"
         },
         "summary": {
-          "en": "Physiology of somatopause and dermal effects; rhGH (somatropin); GHRH analogs (sermorelin, tesamorelin); GH secretagogues and secretagogue receptor agonists (CJC-1295, ipamorelin, GHRPs, IGF-1 LR3); cutaneous signs of GH excess; proliferative and oncogenic risks."
+          "en": "Growth hormone and IGF-1 genuinely shape skin, and one peptide on this axis has approval-grade trials."
         },
         "objective": {
           "en": "By the end, you can analyze the impact of growth hormone and IGF-1 axis modulation on dermal architecture, collagen homeostasis, fluid dynamics, and mitogenic safety concerns."
@@ -23454,6 +23469,9 @@
         },
         "metadata": {
           "intakePlanModuleId": "module-06",
+          "scope": {
+            "en": "Physiology of somatopause and dermal effects; rhGH (somatropin); GHRH analogs (sermorelin, tesamorelin); GH secretagogues and secretagogue receptor agonists (CJC-1295, ipamorelin, GHRPs, IGF-1 LR3); cutaneous signs of GH excess; proliferative and oncogenic risks."
+          },
           "sourceSections": [
             {
               "id": "jbUNSyYUCm3woAe10XL90N-part-1",
@@ -23590,7 +23608,7 @@
           "en": "Module 07 · 3 lessons · 23 moments · ~29 min"
         },
         "summary": {
-          "en": "GRADE framework applied to cutaneous therapies; FDA Sections 503A and 503B compounding boundaries; PCAC category rulings; 40-amino-acid biologic threshold; Certificate of Analysis (COA) interpretation (HPLC, mass spectrometry, endotoxin); risks of Research Use Only (RUO) peptide marketing blends; prescriber legal liability."
+          "en": "You will rate the certainty behind a claim with GRADE, read a compounding status and a certificate of analysis for what they do and do not prove, and write the consent and chart note that an unapproved product needs."
         },
         "objective": {
           "en": "By the end, you can apply statutory drug compounding frameworks, quality assurance standards, and GRADE criteria to establish compliant, evidence-graded clinical practices in aesthetic endocrinology."
@@ -26228,6 +26246,9 @@
         },
         "metadata": {
           "intakePlanModuleId": "module-07",
+          "scope": {
+            "en": "GRADE framework applied to cutaneous therapies; FDA Sections 503A and 503B compounding boundaries; PCAC category rulings; 40-amino-acid biologic threshold; Certificate of Analysis (COA) interpretation (HPLC, mass spectrometry, endotoxin); risks of Research Use Only (RUO) peptide marketing blends; prescriber legal liability."
+          },
           "sourceSections": [
             {
               "id": "jbUNSyYUCm3woAe10XL90N-part-2",
@@ -28875,49 +28896,49 @@
         "approver": "Fady Hannah-Shmouni, MD FRCPC",
         "date": "2026-09-24",
         "scope": "module 01, full-course review draft of 2026-09-24 (course-draft.docx); approval relayed by Omar Saleem, 2026-09-24",
-        "notes": "2 changes made after this approval, confirmed by Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem) on 2026-09-25: m1-p02: Role picker no longer says regulatory facts are the same for everyone: 'The evidence and grades are the same for everyone, and regulatory notes follow the country you choose. What changes with your role…' (six-jurisdiction course). | m1-opener: New moment: the module's opening film (about 70 s; draft media for the media preview). The narration is approved text, verbatim (m1-p01 body, sentences 1–2; m1-p03 audioScript, sentences 1–8); the presenter is a HeyGen digital avatar, and the player shows \"Presented by a digital avatar (AI-generated presenter and voice).\" under the video. The moments' position labels are renumbered to /20.; 2 changes made after this approval, confirmed by Omar Saleem, product owner (editorial; no medical content changed) on 2026-09-25: m1-p01, m1-p02: Editorial: placeholder source lines removed (the course citing itself on the module cover; an internal audience decision on the role picker). These moments state no facts; nothing else changed. | m01 module title: Editorial: the module title is now the plain title 'The skin as an endocrine organ, and how it ages' everywhere (app, homepage, certificate), replacing the intake plan's working title (Omar: \"plain module titles might be nicer, esp on mobile\")."
+        "notes": "Changed after this approval, awaiting the approver's confirmation: m01 module summary: Editorial: the module summary shown on Today and Course is now one sentence from the module's cover (m1-p01), 'Skin senses hormones from the blood, makes several of its own, and ages in ways that change both.', replacing the intake plan's scope list, which stays in the package as metadata.scope (runtime clarity pass: summaries read like specifications). (editorial; no medical content changed)"
       },
       {
         "gate": "medical_review",
         "approver": "Fady Hannah-Shmouni, MD FRCPC",
         "date": "2026-09-24",
         "scope": "module 02, full-course review draft of 2026-09-24 (course-draft.docx); approval relayed by Omar Saleem, 2026-09-24",
-        "notes": "7 changes made after this approval, confirmed by Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem) on 2026-09-25: m2-p11 (body, beats 1 and 3, narration, prescriber and advisor versions): UK position added beside the US one: HRT products are prescription-only medicines licensed in the UK for oestrogen-deficiency symptoms and, for some, osteoporosis prevention (Evorel, Sandrena SmPCs); a compounded 'bioidentical' hormone is an unlicensed medicine, placed behind any licensed product that meets the need (MHRA Guidance Note 14); on the UK medicines compendium topical tretinoin appears only in acne treatments. Prescriber line now reads 'licensed products (FDA-approved in the US, MHRA-licensed in the UK)'; advisor line adds that UK HRT products are prescription-only. Claims c-m02-21, c-m02-22, c-m02-23. | tutor-m02-hrt-skin: Tutor answer adds the UK position: HRT products are prescription-only medicines licensed for oestrogen-deficiency symptoms and, for some, osteoporosis prevention; skin is not among their uses; a compounded 'bioidentical' hormone is an unlicensed medicine behind any licensed product that meets the need. | unit tutorContext: Tutor context adds the UK HRT and tretinoin position (same facts as m2-p11). | m2-p11: UK text moved verbatim into the UK note; the same UK facts left beats 1 and 3 and the narration, and the UK-only lines left the prescriber and advisor versions (advisor sentence rejoined as approved on 24 Sep), so the base copy is the approved US text; EU, Portugal, Brazil and UAE notes added. | m2-p11: EU note: the opening clause 'HRT is authorised nationally' removed; the cited EU core product information (CMDh, December 2025) lists HRT's indications but says nothing about how HRT products are authorised. The note now states only what that text lists. | m2-opener: New moment: the module's opening film (about 76 s; draft media for the media preview). The narration is approved text, verbatim (m2-p01 body, sentences 1, 2, 3; m2-p02 audioScript, sentences 1, 2, 3, 4, 5, 6, 7); the presenter is a HeyGen digital avatar, and the player shows \"Presented by a digital avatar (AI-generated presenter and voice).\" under the video. The moments' position labels are renumbered to /20. | m2-p15 (Androgens beat, narration), m2-p16 (feedback): The androgen-secreting tumour figures removed ('about 0.2% of hyperandrogenic women', 'over half malignant'): neither the cited guideline's accessible text nor the Hormonaly guide states them, as the GCLS pre-review and claim support flagged. The text now reads that rapid onset, progression or virilization raises the likelihood of such a tumour and calls for prompt referral.; 2 changes made after this approval, confirmed by Omar Saleem, product owner (editorial; no medical content changed) on 2026-09-25: m2-p01: Editorial: placeholder source lines removed (the course citing itself on the module cover; an internal audience decision on the role picker). These moments state no facts; nothing else changed. | m02 module title: Editorial: the module title is now the plain title 'Systemic hormones and the skin' everywhere (app, homepage, certificate), replacing the intake plan's working title (Omar: \"plain module titles might be nicer, esp on mobile\")."
+        "notes": "Changed after this approval, awaiting the approver's confirmation: m02 module summary: Editorial: the module summary shown on Today and Course is now one sentence from the module's cover (m2-p01), 'Most skin changes you see are ageing or lifestyle; a few are the first visible sign of endocrine disease.', replacing the intake plan's scope list, which stays in the package as metadata.scope (runtime clarity pass: summaries read like specifications). (editorial; no medical content changed)"
       },
       {
         "gate": "medical_review",
         "approver": "Fady Hannah-Shmouni, MD FRCPC",
         "date": "2026-09-24",
         "scope": "module 03, full-course review draft of 2026-09-24 (course-draft.docx); approval relayed by Omar Saleem, 2026-09-24",
-        "notes": "16 changes made after this approval, confirmed by Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem) on 2026-09-25: m3-p08 (body, beat 3, narration): UK added: both molecules are MHRA-licensed, and tirzepatide's diabetes and weight-management uses share one UK brand, Mounjaro (UK SmPCs; MHRA 8 Nov 2023). Beat 3 now labels the four-brand statement as US. Claim c-m03-21. | m3-p09: 'UK and EU status is being mapped' replaced by a UK row: Ozempic diabetes, Wegovy weight and heart, Mounjaro diabetes and weight (Nov 2023); MHRA says retatrutide is not authorised and illegal to sell (24 Jul 2026) and made its largest seizure of unlicensed weight-loss medicines in May 2026. EU marked as not covered. Claims c-m03-21, c-m03-23. | m3-p11: Regulatory row relabelled 'US and UK'; adds that UK product information also lists hair loss (Wegovy 2.5%, Mounjaro 4.9%, placebo 1.0%). Claim c-m03-22. | m3-p17 (quickfire why, tirzepatide): 'In the US, tirzepatide is not approved for psoriasis' → 'Its US approval and its UK licence both leave out psoriasis' (Mounjaro UK SmPC). | m3-p18 (narration, prescriber version): UK sentence added: an unlicensed peptide reaches a patient only through narrow routes such as a special for one patient's clinical need (module 07); prescriber version adds that a UK special needs a clinical need no licensed product meets, on the prescriber's responsibility. Claim c-m03-24. | m03-tutor-ozempic-face: Tutor answer adds the UK licences (Ozempic, Wegovy, Mounjaro), UK hair-loss labelling and MHRA's statement that retatrutide is not authorised in the UK. | m03-tutor-gut-skin: Tutor answer adds the UK specials route (one patient's special clinical need, prescriber's responsibility). | unit tutorContext: 'UK/EU status not yet mapped' replaced by the UK facts above; EU marked as not covered. | m3-p08: UK text moved verbatim into the UK note (the body sentence; the same UK fact removed from beat 3 and the narration, which is back to the approved wording) and the UK sources with it; EU, Brazil and UAE notes added. | m3-p09: UK text moved verbatim into the UK note (the UK row's label and value joined into one opening sentence, its note verbatim) and the UK sources with it; body's UK clause and 'EU status is not covered' removed, US sentence as approved 24 Sep; EU, Portugal, Brazil and UAE notes added. | m3-p11: UK text moved verbatim into the UK note and the UK sources with it; regulatory row label back to 'Regulatory status (US, September 2026)' as approved 24 Sep. No EU, Portugal, Brazil or UAE note: no verified source on hair-loss labelling there. | m3-p17: EU, Brazil and UAE notes added (tirzepatide indications; BPC-157 status, with Dubai and Abu Dhabi rules). UK clause in the tirzepatide feedback left in place: it shares one sentence with the US statement. | m3-p18: UK text moved verbatim into the UK note (the narration sentence) and the UK sources with it; the UK-only sentence removed from the prescriber version, now covered by the UK note; EU, Portugal, Brazil and UAE notes added. | unit tutorContext: 'EU not covered' removed; the moments' country notes now carry EU, Portugal, Brazil and UAE status. | m3-p18: Sources only, no wording changed: the Cochrane review of probiotics for eczema (Makrgeorgou 2018) and the 503A bulks list (21 CFR 216.23) added to the citations and source line; they state the narration's eczema and BPC-157 sentences, which the previously cited sources did not. | m3-opener: New moment: the module's opening film (about 72 s; draft media for the media preview). The narration is approved text, verbatim (m3-p01 body, sentences 1, 2; m3-p02 audioScript, sentences 1, 2, 3, 4, 5, 6, 7, 8, 9); the presenter is a HeyGen digital avatar, and the player shows \"Presented by a digital avatar (AI-generated presenter and voice).\" under the video. The moments' position labels are renumbered to /21.; 2 changes made after this approval, confirmed by Omar Saleem, product owner (editorial; no medical content changed) on 2026-09-25: m3-p01: Editorial: placeholder source lines removed (the course citing itself on the module cover; an internal audience decision on the role picker). These moments state no facts; nothing else changed. | m03 module title: Editorial: the module title is now the plain title 'Fat, incretins and the ageing face' everywhere (app, homepage, certificate), replacing the intake plan's working title (Omar: \"plain module titles might be nicer, esp on mobile\")."
+        "notes": "Changed after this approval, awaiting the approver's confirmation: m03 module summary: Editorial: the module summary shown on Today and Course is now one sentence from the module's cover (m3-p01), 'Facial shape depends on fat as much as on collagen.', replacing the intake plan's scope list, which stays in the package as metadata.scope (runtime clarity pass: summaries read like specifications). (editorial; no medical content changed)"
       },
       {
         "gate": "medical_review",
         "approver": "Fady Hannah-Shmouni, MD FRCPC",
         "date": "2026-09-24",
         "scope": "module 04, review draft of 2026-09-24; approval relayed by Omar Saleem, 2026-09-24",
-        "notes": "6 changes made after this approval, confirmed by Fady Hannah-Shmouni, MD FRCPC on 2026-09-24: m4-p14: Named the single randomized BPC-157 trial FDA's July 2026 briefing identified (Ruenzi 2005, ulcerative colitis, meeting abstract only, no significant difference from placebo); title, body and stat wording updated; figure unchanged. Source: FDA PCAC briefing document (fda.gov/media/193343), read in full. | m4-p04, m4-p14: Removed two ClinicalTrials.gov records (NCT07437586 GHK-Cu wound gel; NCT07437547 BPC-157 hamstring) that the draft had cited as recruiting phase 2 trials. Their sponsor, 'Hudson Biotech', also holds a record titled '(Mock Study)', a record whose summary calls itself an 'example interventional study record', and a record re-using the SURMOUNT-1 title; their authenticity cannot be confirmed. The 'phase 2 recruiting' sentence on GHK-Cu is deleted; the BPC-157 list now names only the 2015 PharmaCotherapia phase 1, the 2025 Parlay Wellness product study and the 2026 University of Arkansas phase 1 (start 2027). | m4-p09 (classify): Leuphasyl: 'no independent or indexed human trial' corrected to 'no randomized trial'. An independent uncontrolled volunteer study exists (Dragomirescu 2014). The classify label 'Manufacturer data only' became 'No randomized trial'; grades unchanged. Found by the automated source check. | m4-p08: Leuphasyl is no longer grouped with the SNAP-25 mimics: it is an enkephalin analogue (as the module's own exercise already says). Wording only. Found by the automated source check. | m4-p17: Heavy metals: 'reported for this market but not documented' reworded to 'claimed for this market, but no published analysis behind that claim was found' (the finding already recorded for the A&RE guide's figure). Wording only; found by the automated source check reading the guide. | m4-p09, m4-p17: Classify label 'No randomized trial' refined to 'No independent randomized trial' (the Peptide Pocket Guide describes independent trials of Matrixyl 3000 as limited, not absent). Heavy metals: the course now reports the Hormonaly guide's statement and then that its published analysis could not be found, instead of contradicting it silently. Wording only.; 1 change made after this approval, confirmed by Fady Hannah-Shmouni, MD FRCPC on 2026-09-25: m4-q3: Citation only: the lesson quiz on GHK-Cu's injectable-only Category 1 exception now cites FDA's 503A categories list (14 May 2026). No wording change.; 16 changes made after this approval, confirmed by Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem) on 2026-09-25: m4-p05 (tool row 3): Row relabelled 'US, 14 May 2026; UK, September 2026'; adds that in the UK a GHK-Cu serum sold for appearance is a cosmetic and cosmetics law excludes anything injected. Claim c-m04-21. | m4-p06 (body, narration, prescriber version): UK added: anything injected falls outside cosmetics law and MHRA decides whether it is a medicine; the prescriber line now says '503A' checks apply in the US, and that in the UK a GHK-Cu serum presented for appearance is a cosmetic with nothing to prescribe. Claims c-m04-21, c-m04-24. | m4-p11 (body, narration): 'UK and EU rules are being mapped' replaced by the UK position: serums are cosmetics (responsible person, safety assessment, notification, substantiated claims); oral collagen is a food supplement (no disease claims, only authorised health claims); ASA ruling of 13 May 2026 against a peptide serum's 'clinically proven' lift claim. Claims c-m04-21, c-m04-22, c-m04-23. | m4-p16 (body): Pointer added for UK learners: the route for unlicensed medicines works differently in the UK and lesson 7.2 sets it out. | m4-p19 (suggestion 3, chip): 'check ... on the live FDA list' → 'check ... with my regulator (FDA lists in the US, MHRA in the UK)'. | tutor-m04-ghkcu: Tutor answer adds the UK position (serum = cosmetic; injected products fall outside cosmetics law; an unauthorised medicine may not be sold, supplied or advertised). | tutor-m04-bpc157: Tutor answer adds the UK position (no sale, supply or advertising without a UK marketing authorisation; MHRA's May 2026 seizure included peptide products). | unit tutorContext: Tutor context adds the UK cosmetic, food-supplement and unlicensed-medicine position (same facts as the blocks). | m4-p05: UK text moved verbatim into the UK note (row label back to 'Regulatory status (US, 14 May 2026)'; its 'UK, September 2026' date now closes the note; the UK source ids and the sourceNote's UK part moved from the block to the note). EU, Portugal, Brazil and UAE notes added. | m4-p06: UK text moved verbatim into the UK note: the body's UK sentence and the prescriber version's UK clause (removed from the role note, which keeps its US line); the narration's UK sentence removed, so the narration is back to its approved text; UK source ids and the sourceNote's UK part moved from the block to the note. EU, Portugal, Brazil and UAE notes added. | m4-p11: UK text moved verbatim into the UK note (the body's three UK sentences); the narration's four UK sentences removed (the earlier 'UK and EU rules are being mapped' line is not restored); UK source ids and the sourceNote's UK part moved from the block to the note. EU, Portugal, Brazil and UAE notes added. | m4-p16: UK text moved verbatim into the UK note (the pointer to lesson 7.2, with its MHRA source id). EU, Portugal, Brazil and UAE notes added. | m4-p17: EU, Portugal, Brazil and UAE notes added (research-use-only products bought online; registration status of GHK-Cu, BPC-157 and TB-500). | m4-p02: Role line no longer says regulatory status is the same for everyone: 'The evidence and grades are the same for everyone, and regulatory notes follow the country you choose. What changes with your role…' (six-jurisdiction course). | m4-p05: Source line drops the internal word 'Registry m04 ·'; now reads 'FDA 503A category list, updated 14 May 2026'. | m4-opener: New moment: the module's opening film (about 67 s; draft media for the media preview). The narration is approved text, verbatim (m4-p01 body, sentences 1, 2; m4-p03 audioScript, sentences 1, 2, 3, 4, 5, 6, 7, 8); the presenter is a HeyGen digital avatar, and the player shows \"Presented by a digital avatar (AI-generated presenter and voice).\" under the video. The moments' position labels are renumbered to /20.; 2 changes made after this approval, confirmed by Omar Saleem, product owner (editorial; no medical content changed) on 2026-09-25: m4-p01, m4-p02: Editorial: placeholder source lines removed (the course citing itself on the module cover; an internal audience decision on the role picker). These moments state no facts; nothing else changed. | m04 module title: Editorial: the module title is now the plain title 'Matrix peptides and wound healing' everywhere (app, homepage, certificate), replacing the intake plan's working title (Omar: \"plain module titles might be nicer, esp on mobile\")."
+        "notes": "Changed after this approval, awaiting the approver's confirmation: m04 module summary: Editorial: the module summary shown on Today and Course is now one sentence from the module's cover (m4-p01), 'Most skin peptides reach your clinic before any evidence does.', replacing the intake plan's scope list, which stays in the package as metadata.scope (runtime clarity pass: summaries read like specifications). (editorial; no medical content changed)"
       },
       {
         "gate": "medical_review",
         "approver": "Fady Hannah-Shmouni, MD FRCPC",
         "date": "2026-09-24",
         "scope": "module 05, full-course review draft of 2026-09-24 (course-draft.docx); approval relayed by Omar Saleem, 2026-09-24",
-        "notes": "15 changes made after this approval, confirmed by Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem) on 2026-09-25: m5-p03 (body): UK added: baricitinib is licensed for severe alopecia areata in adults; NICE did not recommend it for NHS use (TA926, Oct 2023). Claim c-m05-21. | m5-p05 (body, beat 2, narration, prescriber version): UK added: minoxidil licensed and a men's foam on general sale; finasteride for hair loss only on private prescription; baricitinib licensed; MHRA's strengthened finasteride warnings (11 May 2026). Prescriber version adds the UK finasteride steps (ask about depression, patient card, review). Claims c-m05-21, c-m05-22, c-m05-23. | m5-p08 (tool row 3): Regulatory row adds 'UK licensed' for afamelanotide, with its exceptional-circumstances licence, specialist porphyria centres and NICE's July 2023 decision not to recommend it. Claim c-m05-24. | m5-p12 (body): 'UK and EU mapping for the rest of this course is still in progress' → 'EU status is not covered in this course.' | m5-p17 (body, narration, prescriber version): 'Mapping of UK and EU status ... still under way' replaced: in the UK a spray made for one patient would be an unlicensed special, and MHRA guidance puts a UK-licensed product that could meet the need (e.g. minoxidil) ahead of it; prescriber version adds that cost and convenience do not justify a special. Claim c-m05-25. | tutor-m05-melanotan: Tutor answer adds afamelanotide's UK licence and NICE HST27. Citation only: it now also cites the MHRA FOI and TGA advisory records its existing sentence on FDA, MHRA and TGA warnings already relied on (the source check flagged the TGA mention as uncited once the MHRA record was added). | tutor-m05-hair-peptides: Tutor answer adds the UK status of minoxidil, finasteride (with MHRA's May 2026 warnings) and baricitinib, and the specials position for a peptide spray. | unit tutorContext: Tutor context adds the UK facts above; EU marked as not covered. | m5-p03: UK text moved verbatim into the UK note; block sources back to the approved list (the UK sources now sit on the UK note); EU, PT, BR and AE notes added. | m5-p05: UK text moved verbatim into the UK note; the UK lines in beat 2 and the narration removed, restoring their approved wording; block sources back to the approved list; EU, PT, BR and AE notes added. The prescriber version's UK finasteride steps stay (they are not in the UK note). | m5-p08: UK text moved verbatim into the UK note (row 3 note; 'UK licensed' dropped from the row value, which the UK note states); block sources back to the approved list; EU, PT, BR and AE notes added. | m5-p12: 'EU status is not covered in this course' removed; EU, PT, BR and AE notes added on Melanotan II; the approved UK row stays in the comparison table. | m5-p17: UK text moved verbatim into the UK note; the UK line in the narration removed; block sources back to the approved list; EU, PT, BR and AE notes added. The prescriber version's UK specials line stays (it is not in the UK note). | unit tutorContext: Removed 'EU status not asserted' and 'EU not covered'; EU, Portugal, Brazil and UAE status now sits in the moments' jurisdiction notes. | m5-opener: New moment: the module's opening film (about 71 s; draft media for the media preview). The narration is approved text, verbatim (m5-p01 body, sentences 1, 2; m5-p02 audioScript, sentences 1, 2, 3, 5, 8); the presenter is a HeyGen digital avatar, and the player shows \"Presented by a digital avatar (AI-generated presenter and voice).\" under the video. The moments' position labels are renumbered to /20.; 2 changes made after this approval, confirmed by Omar Saleem, product owner (editorial; no medical content changed) on 2026-09-25: m5-p01: Editorial: placeholder source lines removed (the course citing itself on the module cover; an internal audience decision on the role picker). These moments state no facts; nothing else changed. | m05 module title: Editorial: the module title is now the plain title 'Follicle, pigment and melanocortins' everywhere (app, homepage, certificate), replacing the intake plan's working title (Omar: \"plain module titles might be nicer, esp on mobile\")."
+        "notes": "Changed after this approval, awaiting the approver's confirmation: m05 module summary: Editorial: the module summary shown on Today and Course is now one sentence from the module's cover (m5-p01), 'Two requests reach aesthetic clinics well ahead of their evidence: a peptide to regrow hair and an injection to tan.', replacing the intake plan's scope list, which stays in the package as metadata.scope (runtime clarity pass: summaries read like specifications). (editorial; no medical content changed)"
       },
       {
         "gate": "medical_review",
         "approver": "Fady Hannah-Shmouni, MD FRCPC",
         "date": "2026-09-24",
         "scope": "module 06, full-course review draft of 2026-09-24 (course-draft.docx); approval relayed by Omar Saleem, 2026-09-24",
-        "notes": "12 changes made after this approval, confirmed by Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem) on 2026-09-25: m6-p05 (body, point 3, beat 3, narration): UK added: somatropin is a prescription-only medicine licensed for GH deficiency and specific growth disorders, and a Class C controlled drug (Genotropin UK SmPC; Misuse of Drugs Act 1971 Sch. 2). Claim c-m06-20. | m6-p08 (new tool row): UK row added after the US row: MHRA's products database holds no UK product information for tesamorelin (searched 25 Sep 2026). Claim c-m06-21. | m6-p12 (body, point 3, beat 3, narration, prescriber version): 'UK and EU status is still being mapped ... treat these as US facts' replaced: MHRA's products database holds no product information for tesamorelin, sermorelin or ipamorelin, so any of them would be an unlicensed medicine in the UK; point 3 now reads 'with your regulator'; prescriber version adds the UK specials test. Claim c-m06-21. | m6-p19 (chip): 'check its current US status on the live FDA lists' → 'check its current status with my regulator (FDA lists in the US, MHRA in the UK)'. | tutor-m06-secretagogues: Tutor answer labels the federal-offence sentence as US and adds the UK position (somatropin prescription-only and Class C; no UK product information for tesamorelin, sermorelin or ipamorelin). | unit tutorContext: Tutor context adds the UK somatropin and secretagogue position. | m6-p05: UK text moved verbatim into the UK note (the body sentence; the same UK sentence also left point 3, beat 3 and the narration); EU, PT, BR and AE notes added. | m6-p08: UK text moved verbatim into the UK note (the 'UK status' tool row, its label, value and note joined); EU, BR and AE notes added. | m6-p11: EU, PT, BR and AE notes added. | m6-p12: UK text moved verbatim into the UK note (the body sentence; the same UK sentence also left beat 3 and the narration; the UK-only sentence left the prescriber version, its specials clause kept verbatim in the UK note); EU, PT, BR and AE notes added. | unit tutorContext: Removed 'EU not covered.'; the Guide reads the jurisdiction notes directly. | m6-opener: New moment: the module's opening film (about 84 s; draft media for the media preview). The narration is approved text, verbatim (m6-p01 body, sentences 1, 2, 3; m6-p02 audioScript, sentences 1, 2, 3, 4, 5, 7, 8, 9, 10); the presenter is a HeyGen digital avatar, and the player shows \"Presented by a digital avatar (AI-generated presenter and voice).\" under the video. The moments' position labels are renumbered to /20.; 2 changes made after this approval, confirmed by Omar Saleem, product owner (editorial; no medical content changed) on 2026-09-25: m6-p01: Editorial: placeholder source lines removed (the course citing itself on the module cover; an internal audience decision on the role picker). These moments state no facts; nothing else changed. | m06 module title: Editorial: the module title is now the plain title 'The growth-hormone axis and the skin' everywhere (app, homepage, certificate), replacing the intake plan's working title (Omar: \"plain module titles might be nicer, esp on mobile\")."
+        "notes": "Changed after this approval, awaiting the approver's confirmation: m06 module summary: Editorial: the module summary shown on Today and Course is now one sentence from the module's cover (m6-p01), 'Growth hormone and IGF-1 genuinely shape skin, and one peptide on this axis has approval-grade trials.', replacing the intake plan's scope list, which stays in the package as metadata.scope (runtime clarity pass: summaries read like specifications). (editorial; no medical content changed)"
       },
       {
         "gate": "medical_review",
         "approver": "Fady Hannah-Shmouni, MD FRCPC",
         "date": "2026-09-24",
         "scope": "module 07, full-course review draft of 2026-09-24 (course-draft.docx); approval relayed by Omar Saleem, 2026-09-24",
-        "notes": "23 changes made after this approval, confirmed by Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem) on 2026-09-25: m7-p21 (NEW moment, lesson 7.2, after m7-p09): New tool moment 'In the UK, specials instead of 503A.': regulation 167 specials (one patient, one prescriber, unsolicited order, no advertising), specials-licensed manufacture (GMP-inspected, product otherwise unassessed) and pharmacy preparation (Medicines Act s. 10), special need (clinical, never cost or convenience), MHRA's order of preference (licensed → off-label → imported → special → non-medicines), prescriber responsibility (GMC, MHRA, GPhC, NMC). No interaction. Claims c-m07-21, c-m07-22, c-m07-23, c-m07-24. | m7-p22 (NEW moment, lesson 7.2, after m7-p13): New audio moment 'Selling and advertising peptides in the UK.': MHRA classifies by claims, form and use (GN8); no sale, supply or advertising without a UK licence (regs 46, 279); injectable melanotan classed as a medicine and peptide products seized in May 2026; no advertising of prescription-only medicines to the public (reg. 284, CAP 12.12, Blue Guide); ASA ruling of 11 Feb 2026 on influencer '#mounjaro' posts; GMC physical examination before prescribing injectable cosmetic medicines. No interaction, no role versions. Claims c-m07-25, c-m07-26, c-m07-27, c-m07-28, c-m07-29. | module 07 counters and timing: Moment counters renumbered '01 / 22' to '22 / 22' for the two new moments; lesson 7.2 now lists them; estimated time 27 → 29 minutes. No other wording changed by this. | m7-p01 (body): 'The regulatory detail is US; UK and EU mapping ... still in progress' → US and UK detail, lesson 7.2 adds the UK route and UK selling and advertising rules; EU not covered. | m7-p16 (body): Pointer added: the UK sorts products the same way (claim, form, use) into cosmetics, food and medicines, and lesson 7.2 set out its unlicensed-medicines route. Claim c-m07-25. | m7-p18 (tool rows 1, 2 and 6): UK chart wording added: 'unlicensed medicine' as the UK article-and-status wording; for a UK special, the specials manufacturer and the patient's special need; the dated status check may be MHRA's product information. Claim c-m07-24. | m7-p20 (suggestion 2, chip): 'check the live FDA status/lists' → FDA lists in the US or MHRA in the UK. | tutor-m07-compounding-coa: Tutor answer adds the UK specials route, pharmacy preparation, MHRA's order of preference and the ban on advertising specials. | unit tutorContext: 'US only; UK and EU mapping pending' replaced by the UK framework summary; EU marked as not covered. | m7-p07: EU, PT, BR and AE regulatory notes added (pharmacy preparation and compounding rules); US base copy unchanged. | m7-p08: EU, PT, BR and AE regulatory notes added (status of BPC-157, TB-500, KPV, GHK-Cu, LL-37 and melanotan); US base copy unchanged. | m7-p09: EU, BR and AE regulatory notes added (tesamorelin status); no PT note, the EU note covers Portugal; US base copy unchanged. | m7-p21: Rebuilt as the outside-the-US moment (id kept): lead, title, body, tool rows, callout and sources now state what holds across the non-US jurisdictions; UK text moved verbatim into the UK note; EU, PT, BR and AE notes added. | m7-p13: EU, PT, BR and AE regulatory notes added (research-use-only products and unauthorised supply); US base copy unchanged. | m7-p22: Rebuilt as the outside-the-US moment (id kept): lead, title, body, points, audio beats, narration and sources now state what holds across the non-US jurisdictions; UK text moved verbatim into the UK note; EU, PT, BR and AE notes added. | m7-p15: EU, PT, BR and AE regulatory notes added (off-label use and unauthorised medicines); US base copy unchanged. | m7-p16: UK text moved verbatim into the UK note (its MHRA source moved with it); EU, PT, BR and AE regulatory notes added. | m7-p17: EU, PT, BR and AE regulatory notes added (BPC-157 status and compounding); US base copy unchanged. | m7-p18: EU, PT, BR and AE regulatory notes added; UK chart wording left in place because each row pairs the US and UK examples in one cell. | unit tutorContext: 'EU not covered' removed from the unit tutorContext; the Guide reads each moment's jurisdiction notes. | m7-p01: Module opener: regulatory detail now given for the US in the lesson text and for the UK, EU, Portugal, Brazil and the UAE in each moment's regulatory note (was: US and UK; 'EU rules are not covered'). | m7-p20: Commitment chip and suggestion: check live status 'with my national regulator (for example FDA or MHRA)' instead of FDA or MHRA only. | m7-opener: New moment: the module's opening film (about 75 s; draft media for the media preview). The narration is approved text, verbatim (m7-p01 body, sentences 1, 2; m7-p02 audioScript, sentences 1, 2, 3, 4, 5, 6, 8, 9, 10); the presenter is a HeyGen digital avatar, and the player shows \"Presented by a digital avatar (AI-generated presenter and voice).\" under the video. The moments' position labels are renumbered to /23.; 2 changes made after this approval, confirmed by Omar Saleem, product owner (editorial; no medical content changed) on 2026-09-25: m7-p01: Editorial: placeholder source lines removed (the course citing itself on the module cover; an internal audience decision on the role picker). These moments state no facts; nothing else changed. | m07 module title: Editorial: the module title is now the plain title 'Evidence, regulation and compliance' everywhere (app, homepage, certificate), replacing the intake plan's working title (Omar: \"plain module titles might be nicer, esp on mobile\")."
+        "notes": "Changed after this approval, awaiting the approver's confirmation: m07 module summary: Editorial: the module summary shown on Today and Course is now one sentence from the module's cover (m7-p01), 'You will rate the certainty behind a claim with GRADE, read a compounding status and a certificate of analysis for what they do and do not prove, and write the consent and chart note that an unapproved product needs.', replacing the intake plan's scope list, which stays in the package as metadata.scope (runtime clarity pass: summaries read like specifications). (editorial; no medical content changed)"
       },
       {
         "gate": "medical_review",

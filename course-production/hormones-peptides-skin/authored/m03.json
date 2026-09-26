@@ -2,6 +2,9 @@
  "module": "m03",
  "authoredAt": "2026-09-24",
  "status": "approved",
+ "summary": {
+  "en": "Facial shape depends on fat as much as on collagen."
+ },
  "unit": {
   "id": "m03-story",
   "slug": "m03-story",
@@ -2688,6 +2691,12 @@
    "forReview": "Fady Hannah-Shmouni",
    "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
    "confirmedAt": "2026-09-25"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m03 module summary",
+   "change": "Editorial: the module summary shown on Today and Course is now one sentence from the module's cover (m3-p01), 'Facial shape depends on fat as much as on collagen.', replacing the intake plan's scope list, which stays in the package as metadata.scope (runtime clarity pass: summaries read like specifications). (editorial; no medical content changed)",
+   "forReview": "Omar Saleem (product owner)"
   }
  ],
  "mediaChanges": [

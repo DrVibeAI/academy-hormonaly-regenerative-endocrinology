@@ -2,6 +2,9 @@
  "module": "m06",
  "authoredAt": "2026-09-24",
  "status": "approved",
+ "summary": {
+  "en": "Growth hormone and IGF-1 genuinely shape skin, and one peptide on this axis has approval-grade trials."
+ },
  "unit": {
   "id": "m06-story",
   "slug": "m06-story",
@@ -2608,6 +2611,12 @@
    "forReview": "Fady Hannah-Shmouni",
    "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
    "confirmedAt": "2026-09-25"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m06 module summary",
+   "change": "Editorial: the module summary shown on Today and Course is now one sentence from the module's cover (m6-p01), 'Growth hormone and IGF-1 genuinely shape skin, and one peptide on this axis has approval-grade trials.', replacing the intake plan's scope list, which stays in the package as metadata.scope (runtime clarity pass: summaries read like specifications). (editorial; no medical content changed)",
+   "forReview": "Omar Saleem (product owner)"
   }
  ],
  "mediaChanges": [

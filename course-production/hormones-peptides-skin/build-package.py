@@ -238,7 +238,9 @@ for i, m in enumerate(outline["modules"], 1):
         "title": {"en": plain},
         "eyebrow": {"en": (f"Module {i:02d} · 3 lessons · {len(authored['blocks'])} moments · ~{authored['unit']['estimatedMinutes']} min"
                            if authored else f"Module {i:02d} · {len(units)} lessons · ~{LESSON_MIN*len(units)+CHECK_MIN} min")},
-        "summary": {"en": m["scope"]},
+        # The learner-facing summary is one sentence from the module's cover (authored "summary", runtime clarity pass 2026-09-25);
+        # the intake plan's scope list stays with the module as metadata.scope.
+        "summary": (authored or {}).get("summary") or {"en": m["scope"]},
         "objective": {"en": learner_objective(m["objective"])},
         "pillars": MODULE_PILLARS[m["id"]],
         "estimatedMinutes": (authored["unit"]["estimatedMinutes"] + CHECK_MIN) if authored else LESSON_MIN * len(units) + CHECK_MIN,
@@ -250,6 +252,7 @@ for i, m in enumerate(outline["modules"], 1):
         **({"check": authored["check"]} if authored else {}),
         "metadata": {
             "intakePlanModuleId": m["id"],
+            "scope": {"en": m["scope"]},
             "sourceSections": [
                 {"id": r, "citation": sections[r]["citation"], "label": sections[r]["label"], "topics": sections[r]["topics"]}
                 for r in m["sourceRefs"]

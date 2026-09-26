@@ -2,6 +2,9 @@
  "module": "m07",
  "authoredAt": "2026-09-24",
  "status": "approved",
+ "summary": {
+  "en": "You will rate the certainty behind a claim with GRADE, read a compounding status and a certificate of analysis for what they do and do not prove, and write the consent and chart note that an unapproved product needs."
+ },
  "unit": {
   "id": "m07-story",
   "slug": "m07-story",
@@ -3330,6 +3333,12 @@
    "forReview": "Fady Hannah-Shmouni",
    "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
    "confirmedAt": "2026-09-25"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m07 module summary",
+   "change": "Editorial: the module summary shown on Today and Course is now one sentence from the module's cover (m7-p01), 'You will rate the certainty behind a claim with GRADE, read a compounding status and a certificate of analysis for what they do and do not prove, and write the consent and chart note that an unapproved product needs.', replacing the intake plan's scope list, which stays in the package as metadata.scope (runtime clarity pass: summaries read like specifications). (editorial; no medical content changed)",
+   "forReview": "Omar Saleem (product owner)"
   }
  ],
  "mediaChanges": [
