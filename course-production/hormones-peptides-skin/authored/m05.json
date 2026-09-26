@@ -15,7 +15,7 @@
   "description": {
    "en": "Lesson 5.1 The hair follicle as an endocrine mini-organ · Lesson 5.2 Afamelanotide, Melanotan II and the melanocortin receptors · Lesson 5.3 Investigational hair peptides, graded."
   },
-  "estimatedMinutes": 26,
+  "estimatedMinutes": 37,
   "sortOrder": 1,
   "isRequired": true,
   "status": "ai_draft",
@@ -58,6 +58,7 @@
     "m5-p01",
     "m5-opener",
     "m5-p02",
+    "m5-x01",
     "m5-p03",
     "m5-p04",
     "m5-p05",
@@ -71,9 +72,11 @@
    },
    "blocks": [
     "m5-p07",
+    "m5-x02",
     "m5-p08",
     "m5-p09",
     "m5-p10",
+    "m5-x03",
     "m5-p11",
     "m5-p12",
     "m5-p13"
@@ -87,8 +90,10 @@
    "blocks": [
     "m5-p14",
     "m5-p15",
+    "m5-x04",
     "m5-p16",
     "m5-p17",
+    "m5-x05",
     "m5-p18",
     "m5-p19"
    ]
@@ -98,7 +103,7 @@
   {
    "id": "m5-p01",
    "type": "title",
-   "time": "01 / 20",
+   "time": "01 / 25",
    "lead": {
     "en": "Module 05 · Follicle, pigment and melanocortins"
    },
@@ -155,12 +160,12 @@
      "rule": "verbatim approved sentences only"
     }
    },
-   "time": "02 / 20"
+   "time": "02 / 25"
   },
   {
    "id": "m5-p02",
    "type": "audio",
-   "time": "03 / 20",
+   "time": "03 / 25",
    "lead": {
     "en": "Mechanism"
    },
@@ -237,9 +242,97 @@
    }
   },
   {
+   "id": "m5-x01",
+   "type": "tool",
+   "time": "04 / 25",
+   "lead": {
+    "en": "Practice"
+   },
+   "title": {
+    "en": "The follicle's own stress loop"
+   },
+   "body": {
+    "en": "Human scalp follicles kept alive in culture run a feedback loop like the adrenal axis."
+   },
+   "citationRefs": [
+    "ito-2005-hair-follicle-hpa",
+    "hannah-shmouni-2026-are"
+   ],
+   "sourceNote": "Ito 2005 · Aesthetic & Regenerative Endocrinology, ch. 6",
+   "interaction": {
+    "kind": "sequence",
+    "title": {
+     "en": "CRH to cortisol, and back"
+    },
+    "prompt": {
+     "en": "Put the follicle's stress loop in order, from the signal it answers to the feedback that closes it."
+    },
+    "steps": [
+     {
+      "id": "crh",
+      "label": {
+       "en": "CRH stimulates the follicle"
+      },
+      "why": {
+       "en": "The loop starts with corticotropin-releasing hormone, which follicles kept alive in culture answer the way the pituitary and adrenal glands do."
+      }
+     },
+     {
+      "id": "acth-msh",
+      "label": {
+       "en": "The follicle makes ACTH and α-MSH"
+      },
+      "why": {
+       "en": "The follicles answer CRH by making POMC products, ACTH and α-MSH, before any cortisol."
+      }
+     },
+     {
+      "id": "cortisol",
+      "label": {
+       "en": "The follicle secretes cortisol"
+      },
+      "why": {
+       "en": "After ACTH and α-MSH, the follicles secrete cortisol."
+      }
+     },
+     {
+      "id": "feedback",
+      "label": {
+       "en": "Cortisol-like signals damp CRH"
+      },
+      "why": {
+       "en": "The loop closes last: cortisol-like signals feed back, and hydrocortisone in turn damps follicular CRH, the adrenal axis in miniature."
+      }
+     }
+    ],
+    "done": {
+     "en": "CRH, then ACTH and α-MSH, then cortisol, which feeds back to damp CRH: the adrenal axis in miniature, in human follicles kept alive in culture."
+    },
+    "citationRefs": [
+     "ito-2005-hair-follicle-hpa",
+     "hannah-shmouni-2026-are"
+    ],
+    "source": "authored:2026-09-25 from m5-p02",
+    "hedge": {
+     "en": "Mechanism · human follicles in culture"
+    }
+   },
+   "metadata": {
+    "activity": {
+     "version": "1.1",
+     "sources": [
+      "m5-p02 body, sentence 1",
+      "m5-p02 audioScript, sentences 2, 3, 8",
+      "m5-p02 beat 1, sentence 1",
+      "m5-p02 point 1"
+     ]
+    }
+   }
+  },
+  {
    "id": "m5-p03",
    "type": "stat",
-   "time": "04 / 20",
+   "time": "05 / 25",
    "lead": {
     "en": "Human evidence"
    },
@@ -327,7 +420,7 @@
   {
    "id": "m5-p04",
    "type": "tool",
-   "time": "05 / 20",
+   "time": "06 / 25",
    "lead": {
     "en": "Worked tool"
    },
@@ -513,7 +606,7 @@
   {
    "id": "m5-p05",
    "type": "audio",
-   "time": "06 / 20",
+   "time": "07 / 25",
    "lead": {
     "en": "What changes in practice"
    },
@@ -665,7 +758,7 @@
   {
    "id": "m5-p06",
    "type": "quiz",
-   "time": "07 / 20",
+   "time": "08 / 25",
    "lead": {
     "en": "Your turn"
    },
@@ -721,7 +814,7 @@
   {
    "id": "m5-p07",
    "type": "audio",
-   "time": "08 / 20",
+   "time": "09 / 25",
    "lead": {
     "en": "Lesson 5.2 · Concept"
    },
@@ -797,9 +890,130 @@
    }
   },
   {
+   "id": "m5-x02",
+   "type": "tool",
+   "time": "10 / 25",
+   "lead": {
+    "en": "Practice"
+   },
+   "title": {
+    "en": "Pigment, adrenal, brain, sebum"
+   },
+   "body": {
+    "en": "Those peptides act on five melanocortin receptors, and which receptors a drug reaches decides what else it does."
+   },
+   "citationRefs": [
+    "slominski-wortsman-2000-skin-neuroendocrinology",
+    "laiho-2022-melanocortin-receptors",
+    "bohm-2025-mc1r-activation-review",
+    "hannah-shmouni-2026-are"
+   ],
+   "sourceNote": "Slominski & Wortsman 2000 · Laiho & Murray 2022 · Böhm 2025",
+   "interaction": {
+    "kind": "hotspots",
+    "title": {
+     "en": "MC1R to MC5R"
+    },
+    "prompt": {
+     "en": "Five melanocortin receptors do four jobs. Find each job on the tiles."
+    },
+    "imageAssetRef": "asset-hormones-peptides-skin-image-m5-p07-img",
+    "hotspots": [
+     {
+      "id": "mc1r",
+      "at": [
+       14.8,
+       46.3
+      ],
+      "radius": 15.5,
+      "label": {
+       "en": "MC1R: pigment of skin and hair"
+      },
+      "why": {
+       "en": "MC1R sets the pigment of skin and hair. A drug that stays on MC1R mostly changes pigment."
+      }
+     },
+     {
+      "id": "mc2r",
+      "at": [
+       32.4,
+       46.3
+      ],
+      "radius": 15.5,
+      "label": {
+       "en": "MC2R: adrenal receptor for ACTH"
+      },
+      "why": {
+       "en": "MC2R answers ACTH in the adrenal gland."
+      }
+     },
+     {
+      "id": "mc3r-mc4r",
+      "at": [
+       58.9,
+       46.3
+      ],
+      "radius": 16.8,
+      "label": {
+       "en": "MC3R and MC4R: appetite, in the brain"
+      },
+      "why": {
+       "en": "MC3R and MC4R work in the brain on appetite, and central receptors also drive sexual responses. A drug that reaches the brain's receptors brings nausea, appetite loss and erections with it."
+      }
+     },
+     {
+      "id": "mc5r",
+      "at": [
+       85.3,
+       43.8
+      ],
+      "radius": 18.1,
+      "label": {
+       "en": "MC5R: sebum"
+      },
+      "why": {
+       "en": "MC5R governs sebum. Reviewers note the real distribution is probably wider than this tidy map."
+      }
+     }
+    ],
+    "done": {
+     "en": "MC1R pigment, MC2R adrenal, MC3R and MC4R brain, MC5R sebum: which receptors a drug reaches decides what else it does."
+    },
+    "citationRefs": [
+     "slominski-wortsman-2000-skin-neuroendocrinology",
+     "laiho-2022-melanocortin-receptors",
+     "bohm-2025-mc1r-activation-review",
+     "hannah-shmouni-2026-are"
+    ],
+    "source": "authored:2026-09-25 from m5-p07",
+    "hedge": {
+     "en": "Simplified map"
+    }
+   },
+   "metadata": {
+    "activity": {
+     "version": "1.1",
+     "sources": [
+      "m5-p07 body, sentences 2, 3, 4",
+      "m5-p07 audioScript, sentences 4, 5, 6, 7, 8",
+      "m5-p07 beat 2, sentence 2",
+      "m5-p07 beat 3, sentences 1, 2",
+      "m5-p07 points 1, 3",
+      "m5-p07 teachingVisual (asset-hormones-peptides-skin-image-m5-p07-img) and its alt text"
+     ],
+     "hotspotFind": {
+      "mc1r": "The leftmost of the five square tiles: a large grey pigment cell with long branching arms and a dark nucleus, lying among wavy fibres beneath a row of skin cells, under a violet receptor cup.",
+      "mc2r": "The second tile from the left: a pale kidney, its ureter at the lower left, with a small grey-brown adrenal gland capping its top.",
+      "mc3r-mc4r": "The third and fourth tiles from the left: two identical brain outlines on a pale violet wash. The spot is centred in the gap between these two tiles and is wide enough to cover both brains.",
+      "mc5r": "The rightmost tile: a hair follicle whose shaft rises diagonally out of the top of the tile, with small lobed sebaceous glands on either side of the follicle below the skin surface."
+     }
+    }
+   }
+  },
+  {
    "id": "m5-p08",
    "type": "tool",
-   "time": "09 / 20",
+   "time": "11 / 25",
    "lead": {
     "en": "Four registers"
    },
@@ -928,7 +1142,7 @@
   {
    "id": "m5-p09",
    "type": "stat",
-   "time": "10 / 20",
+   "time": "12 / 25",
    "lead": {
     "en": "The evidence"
    },
@@ -964,7 +1178,7 @@
   {
    "id": "m5-p10",
    "type": "audio",
-   "time": "11 / 20",
+   "time": "13 / 25",
    "lead": {
     "en": "Safety signals"
    },
@@ -1045,9 +1259,163 @@
    }
   },
   {
+   "id": "m5-x03",
+   "type": "tool",
+   "time": "14 / 25",
+   "lead": {
+    "en": "Practice"
+   },
+   "title": {
+    "en": "Six findings, three kinds of evidence"
+   },
+   "body": {
+    "en": "Before you see a grade, decide what kind of evidence stands behind each finding."
+   },
+   "citationRefs": [
+    "langendonk-2015-afamelanotide-epp",
+    "king-2022-baricitinib-brave-aa",
+    "dorr-1996-melanotan-ii-pilot",
+    "wessells-1998-melanotan-ii-ed",
+    "hjuler-2014-melanotan-ii-melanoma",
+    "habbema-2017-msh-analogue-risks",
+    "ito-2005-hair-follicle-hpa",
+    "horesh-2023-hair-follicle-somatotropic",
+    "hannah-shmouni-2026-ppg-aug",
+    "hannah-shmouni-2026-are"
+   ],
+   "sourceNote": "Langendonk 2015 · King 2022 (BRAVE-AA1 and -AA2) · Dorr 1996 · Wessells 1998 · Hjuler 2014 · Habbema 2017 · Ito 2005 · Horesh 2023 · Pocket Guide · Aesthetic & Regenerative Endocrinology",
+   "interaction": {
+    "kind": "classify",
+    "title": {
+     "en": "Trial, case report or culture dish?"
+    },
+    "prompt": {
+     "en": "What kind of evidence stands behind each finding?"
+    },
+    "labels": [
+     {
+      "value": "rct",
+      "label": {
+       "en": "Randomized trials in people"
+      },
+      "tone": "good"
+     },
+     {
+      "value": "small",
+      "label": {
+       "en": "Small studies or case reports"
+      },
+      "tone": "neutral"
+     },
+     {
+      "value": "mechanism",
+      "label": {
+       "en": "Mechanism: cells, tissue or animals"
+      },
+      "tone": "bad"
+     }
+    ],
+    "items": [
+     {
+      "id": "afamelanotide-epp",
+      "label": {
+       "en": "Afamelanotide: more pain-free time in sunlight in EPP"
+      },
+      "answer": "rct",
+      "why": {
+       "en": "Two randomized phase 3 trials, both funded by the manufacturer: in the US trial, a median 69.4 against 40.8 pain-free hours in direct sunlight over six months. Grade A, for EPP only."
+      }
+     },
+     {
+      "id": "baricitinib-aa",
+      "label": {
+       "en": "Baricitinib: regrowth in severe alopecia areata"
+      },
+      "answer": "rct",
+      "why": {
+       "en": "Two randomized phase 3 trials in 1,200 adults: at 36 weeks, up to 39% had at least 80% of their scalp hair, against 3–6% on placebo. Grade A."
+      }
+     },
+     {
+      "id": "melanotan-tan",
+      "label": {
+       "en": "Melanotan II: a tan"
+      },
+      "answer": "small",
+      "why": {
+       "en": "Only a three-volunteer pilot and a ten-man erectile-dysfunction study from the 1990s; with no trial of tanning, this course grades it D."
+      }
+     },
+     {
+      "id": "melanotan-melanoma",
+      "label": {
+       "en": "Melanotan II: melanomas reported during or after use"
+      },
+      "answer": "small",
+      "why": {
+       "en": "Case reports: at least five melanomas, each in someone with other risk factors such as fair skin, sunbed use or a family history, so causation is unproven."
+      }
+     },
+     {
+      "id": "follicle-cortisol",
+      "label": {
+       "en": "Scalp follicles secrete cortisol in answer to CRH"
+      },
+      "answer": "mechanism",
+      "why": {
+       "en": "Human scalp follicles kept alive in culture: hold it as mechanism, a reason something might matter in patients."
+      }
+     },
+     {
+      "id": "follicle-gh-igf1",
+      "label": {
+       "en": "Scalp follicles run their own GH and IGF-1 loop"
+      },
+      "answer": "mechanism",
+      "why": {
+       "en": "Shown outside the body, in follicles kept alive in the laboratory, so it is mechanism too."
+      }
+     }
+    ],
+    "done": {
+     "en": "Randomized trials stand behind two findings (A); Melanotan II rests on tiny studies and case reports; the follicle's own loops are mechanism, from tissue in culture."
+    },
+    "citationRefs": [
+     "langendonk-2015-afamelanotide-epp",
+     "king-2022-baricitinib-brave-aa",
+     "dorr-1996-melanotan-ii-pilot",
+     "wessells-1998-melanotan-ii-ed",
+     "hjuler-2014-melanotan-ii-melanoma",
+     "habbema-2017-msh-analogue-risks",
+     "ito-2005-hair-follicle-hpa",
+     "horesh-2023-hair-follicle-somatotropic",
+     "hannah-shmouni-2026-ppg-aug",
+     "hannah-shmouni-2026-are"
+    ],
+    "source": "authored:2026-09-25 from m5-p02, m5-p03, m5-p08, m5-p09, m5-p10"
+   },
+   "metadata": {
+    "activity": {
+     "version": "1.1",
+     "sources": [
+      "m5-p02 body, sentences 1, 2",
+      "m5-p02 audioScript, sentences 2, 8",
+      "m5-p02 beat 2, sentence 1",
+      "m5-p03 body, sentences 2, 4",
+      "m5-p03 stat detail",
+      "m5-p08 tool row 2 (Human evidence), value and note",
+      "m5-p09 body, sentences 1, 2, 4",
+      "m5-p10 body, sentences 1, 3",
+      "m5-p10 audioScript, sentence 5",
+      "m05 unit tutorContext: 'two sponsor-funded phase 3 RCTs in EPP' (for 'randomized')"
+     ]
+    }
+   }
+  },
+  {
    "id": "m5-p11",
    "type": "audio",
-   "time": "12 / 20",
+   "time": "15 / 25",
    "lead": {
     "en": "Fictional case"
    },
@@ -1204,7 +1572,7 @@
   {
    "id": "m5-p12",
    "type": "tool",
-   "time": "13 / 20",
+   "time": "16 / 25",
    "lead": {
     "en": "Regulatory status"
    },
@@ -1312,7 +1680,7 @@
   {
    "id": "m5-p13",
    "type": "quiz",
-   "time": "14 / 20",
+   "time": "17 / 25",
    "lead": {
     "en": "Your turn"
    },
@@ -1374,7 +1742,7 @@
   {
    "id": "m5-p14",
    "type": "audio",
-   "time": "15 / 20",
+   "time": "18 / 25",
    "lead": {
     "en": "Lesson 5.3 · Concept"
    },
@@ -1452,7 +1820,7 @@
   {
    "id": "m5-p15",
    "type": "stat",
-   "time": "16 / 20",
+   "time": "19 / 25",
    "lead": {
     "en": "The evidence"
    },
@@ -1485,9 +1853,138 @@
    }
   },
   {
+   "id": "m5-x04",
+   "type": "tool",
+   "time": "20 / 25",
+   "lead": {
+    "en": "Practice"
+   },
+   "title": {
+    "en": "The PTD-DBM sales page"
+   },
+   "body": {
+    "en": "A fictional clinic's web page for a PTD-DBM scalp spray, read line by line against the evidence."
+   },
+   "citationRefs": [
+    "lee-2017-ptd-dbm-cxxc5-hair",
+    "mehta-2025-wnt-hair-regrowth-review",
+    "hannah-shmouni-2026-ppg-aug"
+   ],
+   "sourceNote": "Lee 2017 (J Invest Dermatol) · Mehta 2025 · PubMed and ClinicalTrials.gov, searched 24 Sep 2026 · Pocket Guide",
+   "interaction": {
+    "kind": "inspect",
+    "title": {
+     "en": "Proven, or proven in mice?"
+    },
+    "prompt": {
+     "en": "A fictional clinic's web page for a PTD-DBM scalp spray. Find the claims the evidence does not support."
+    },
+    "segments": [
+     {
+      "id": "decoy",
+      "text": {
+       "en": "PTD-DBM, the peptide in our spray, keeps the protein CXXC5 from binding Dishevelled."
+      },
+      "suspect": false,
+      "why": {
+       "en": "Accurate, as mechanism: its decoy sequence stops CXXC5 from binding Dishevelled."
+      }
+     },
+     {
+      "id": "wnt",
+      "text": {
+       "en": "That releases a brake on Wnt signalling, a pathway involved in hair regrowth."
+      },
+      "suspect": false,
+      "why": {
+       "en": "Accurate, as mechanism: freed from that brake, Wnt/β-catenin signalling rises."
+      }
+     },
+     {
+      "id": "proven",
+      "text": {
+       "en": "Clinically proven to regrow hair."
+      },
+      "suspect": true,
+      "why": {
+       "en": "No human trial of PTD-DBM is published or registered (September 2026), so whether it regrows human hair is unknown."
+      }
+     },
+     {
+      "id": "mice",
+      "text": {
+       "en": "In mice, hair regrew faster."
+      },
+      "suspect": false,
+      "why": {
+       "en": "Accurate, and labelled for what it is: mouse data, from one 2017 study by the developer's group."
+      }
+     },
+     {
+      "id": "review",
+      "text": {
+       "en": "A 2025 scientific review confirms its clinical efficacy."
+      },
+      "suspect": true,
+      "why": {
+       "en": "The review's summary speaks of 'clinical efficacy', yet its own text describes PTD-DBM results in mouse models only."
+      }
+     },
+     {
+      "id": "independent",
+      "text": {
+       "en": "Backed by independent research."
+      },
+      "suspect": true,
+      "why": {
+       "en": "Its evidence is one study from the developer's group, whose senior author is affiliated with a biotech company."
+      }
+     },
+     {
+      "id": "safe",
+      "text": {
+       "en": "Safe for long-term use."
+      },
+      "suspect": true,
+      "why": {
+       "en": "No human trial of PTD-DBM exists, so 'safe' has nothing behind it in people, and the 2025 review flags a theoretical concern nobody has tested for this peptide: off-target Wnt activation is associated with colorectal and liver cancers."
+      }
+     }
+    ],
+    "hint": {
+     "en": "The mechanism can be stated accurately. Look for the lines that would need a human trial, or an independent source, behind them."
+    },
+    "done": {
+     "en": "The mechanism and the mouse result hold up; 'proven', 'confirms', 'independent' and 'safe' do not, and PTD-DBM stays grade D."
+    },
+    "citationRefs": [
+     "lee-2017-ptd-dbm-cxxc5-hair",
+     "mehta-2025-wnt-hair-regrowth-review",
+     "hannah-shmouni-2026-ppg-aug"
+    ],
+    "source": "authored:2026-09-25 from m5-p14, m5-p15",
+    "hedge": {
+     "en": "Mouse data"
+    }
+   },
+   "metadata": {
+    "activity": {
+     "version": "1.1",
+     "sources": [
+      "m5-p14 body, sentences 1, 2",
+      "m5-p14 audioScript, sentences 3, 4",
+      "m5-p14 point 1",
+      "m5-p15 body, sentences 1, 2, 3",
+      "m5-p15 stat means, sentences 1, 2",
+      "m5-p15 stat doesNot, sentence 2"
+     ]
+    }
+   }
+  },
+  {
    "id": "m5-p16",
    "type": "tool",
-   "time": "17 / 20",
+   "time": "21 / 25",
    "lead": {
     "en": "Sort the evidence"
    },
@@ -1666,7 +2163,7 @@
   {
    "id": "m5-p17",
    "type": "audio",
-   "time": "18 / 20",
+   "time": "22 / 25",
    "lead": {
     "en": "What changes in practice"
    },
@@ -1810,9 +2307,187 @@
    }
   },
   {
+   "id": "m5-x05",
+   "type": "tool",
+   "time": "23 / 25",
+   "lead": {
+    "en": "Practice"
+   },
+   "title": {
+    "en": "'Will my thymulin spray work?'"
+   },
+   "body": {
+    "en": "A fictional case in three decisions, built from the lesson's guidance."
+   },
+   "citationRefs": [
+    "hannah-shmouni-2026-ppg-aug",
+    "dardenne-1982-thymulin-zinc",
+    "lee-2017-ptd-dbm-cxxc5-hair",
+    "hannah-shmouni-2026-are",
+    "adil-2017-aga-treatments-meta",
+    "fda-olumiant-aa-approval-2022"
+   ],
+   "sourceNote": "Aesthetic & Regenerative Endocrinology · Adil 2017 · Dardenne 1982 · Lee 2017 · Pocket Guide · FDA approval letter 2022",
+   "interaction": {
+    "kind": "branching",
+    "title": {
+     "en": "The thymulin spray conversation"
+    },
+    "prompt": {
+     "en": "Fictional case: a woman with a slowly widening central parting has been using a zinc thymulin scalp spray, and asks whether it will work."
+    },
+    "start": "n1",
+    "nodes": [
+     {
+      "id": "n1",
+      "prompt": {
+       "en": "What do you tell her first?"
+      },
+      "options": [
+       {
+        "value": "name-grade",
+        "label": {
+         "en": "Name the grade plainly: D. No indexed human study has tested zinc thymulin for hair."
+        },
+        "correct": true,
+        "next": "n2",
+        "why": {
+         "en": "The useful conversation names the grade first. Zinc thymulin's proposed hair effect has no defined mechanism and no indexed human study."
+        }
+       },
+       {
+        "value": "thymic-hormone",
+        "label": {
+         "en": "Reassure her: thymulin is a natural thymic hormone, so it should help."
+        },
+        "why": {
+         "en": "Being a thymic hormone says nothing about hair. How it might act on hair has never been defined, and whether any effect would come from the peptide or the zinc is unknown."
+        }
+       },
+       {
+        "value": "switch-ptd-dbm",
+        "label": {
+         "en": "Suggest a PTD-DBM spray instead, since it releases a brake on Wnt signalling."
+        },
+        "why": {
+         "en": "PTD-DBM carries grade D too: one 2017 study in mice and human scalp tissue from the developer's group, and no human trial, published or registered."
+        }
+       }
+      ]
+     },
+     {
+      "id": "n2",
+      "prompt": {
+       "en": "She asks what she should do instead. What comes next?"
+      },
+      "options": [
+       {
+        "value": "workup",
+        "label": {
+         "en": "Go back to the diagnosis: the workup, with ferritin and TSH, comes before any product."
+        },
+        "correct": true,
+        "next": "n3",
+        "why": {
+         "en": "The conversation returns to the workup. Pattern, trigger, patches and signs of androgen excess sort most hair loss, and ferritin and TSH are checked in everyone."
+        }
+       },
+       {
+        "value": "keep-going",
+        "label": {
+         "en": "Keep the spray going for a few more months, then decide."
+        },
+        "why": {
+         "en": "That skips the diagnosis. Whatever your role, the workup comes before the product."
+        }
+       },
+       {
+        "value": "jak",
+        "label": {
+         "en": "Refer her for a JAK inhibitor."
+        },
+        "why": {
+         "en": "A JAK inhibitor is an approved option for adults with severe or fast-spreading alopecia areata, which shows as patchy, smooth loss. Her hair loss needs the workup first."
+        }
+       }
+      ]
+     },
+     {
+      "id": "n3",
+      "prompt": {
+       "en": "The workup points to androgenetic alopecia, and her ferritin and TSH are normal. What now?"
+      },
+      "options": [
+       {
+        "value": "options-and-record",
+        "label": {
+         "en": "Describe the approved options, such as topical minoxidil (A), and make sure the spray, where it came from and the grade you quoted go in her notes."
+        },
+        "correct": true,
+        "why": {
+         "en": "Pooled randomized trials support topical minoxidil in men and women. When a patient already uses a peptide spray, record the product, the source and the grade you quoted."
+        }
+       },
+       {
+        "value": "leave-out",
+        "label": {
+         "en": "Describe topical minoxidil, and leave the spray out of her notes: it was her own choice."
+        },
+        "why": {
+         "en": "The product she raised belongs in the notes: record the product, the source and the grade you quoted, and what you advised."
+        }
+       },
+       {
+        "value": "biopsy",
+        "label": {
+         "en": "Arrange a scalp biopsy before any treatment."
+        },
+        "why": {
+         "en": "A scarring pattern goes to biopsy. Her patterned thinning points to androgenetic alopecia, where the approved options come next."
+        }
+       }
+      ]
+     }
+    ],
+    "done": {
+     "en": "Name the grade, go back to the diagnosis, describe the approved options, and record the product she raised."
+    },
+    "citationRefs": [
+     "hannah-shmouni-2026-ppg-aug",
+     "dardenne-1982-thymulin-zinc",
+     "lee-2017-ptd-dbm-cxxc5-hair",
+     "hannah-shmouni-2026-are",
+     "adil-2017-aga-treatments-meta",
+     "fda-olumiant-aa-approval-2022"
+    ],
+    "source": "authored:2026-09-25 from m5-p04, m5-p05, m5-p14, m5-p15, m5-p17"
+   },
+   "metadata": {
+    "activity": {
+     "version": "1.1",
+     "sources": [
+      "m5-p14 body, sentences 4, 5",
+      "m5-p14 beat 3, sentence 2",
+      "m5-p15 body, sentences 1, 2",
+      "m5-p17 body, sentences 3, 4",
+      "m5-p17 beat 3, sentence 1",
+      "m5-p17 prescriber version, sentence 2",
+      "m5-p17 clinical-staff version, sentence 1",
+      "m5-p05 body, sentence 2",
+      "m5-p05 audioScript, sentences 1, 8",
+      "m5-p05 beat 1, sentences 1, 2",
+      "m5-p05 beat 3, sentence 1",
+      "m5-p05 prescriber version, sentence 2",
+      "m5-p04 tool rows 1 and 3 (label and value)",
+      "m5-p04 interaction item wide-part (label: 'a slowly widening central part')"
+     ]
+    }
+   }
+  },
+  {
    "id": "m5-p18",
    "type": "quiz",
-   "time": "19 / 20",
+   "time": "24 / 25",
    "lead": {
     "en": "Your turn"
    },
@@ -1869,7 +2544,7 @@
   {
    "id": "m5-p19",
    "type": "action",
-   "time": "20 / 20",
+   "time": "25 / 25",
    "lead": {
     "en": "Closing and commitment"
    },
@@ -2628,6 +3303,36 @@
    "forReview": "Omar Saleem (product owner)",
    "confirmedBy": "Omar Saleem, product owner (editorial; no medical content changed)",
    "confirmedAt": "2026-09-26"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m5-x01",
+   "change": "New practice (1.1): sequence — the follicle's own stress loop in order (CRH, then ACTH and α-MSH, then cortisol, then cortisol-like feedback damping CRH), hedged as mechanism in human follicles kept alive in culture. Built only from approved sentences (m5-p02).",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m5-x02",
+   "change": "New practice (1.1): hotspots — on the m5-p07 still, the five melanocortin receptors and their jobs (MC1R pigment, MC2R adrenal, MC3R and MC4R brain, MC5R sebum), with the selectivity point and the 'probably wider' caveat. Built only from approved sentences (m5-p07).",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m5-x03",
+   "change": "New practice (1.1): classify (grade the evidence) — six findings sorted into randomized trials in people, small studies or case reports, and mechanism: afamelanotide in EPP and baricitinib (A), Melanotan II for tanning (D) and its melanoma case reports, and the follicle's CRH and GH/IGF-1 loops in culture. Built only from approved sentences (m5-p02, m5-p03, m5-p08, m5-p09, m5-p10, unit tutorContext).",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m5-x04",
+   "change": "New practice (1.1): inspect — a fictional clinic web page for a PTD-DBM scalp spray: four unsupported claims ('clinically proven', a 2025 review 'confirms' efficacy, 'independent research', 'safe for long-term use') among three accurate lines of mechanism and mouse data; hedged as mouse data. Built only from approved sentences (m5-p14, m5-p15).",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m5-x05",
+   "change": "New practice (1.1): branching — a fictional patient using a zinc thymulin spray, in three decisions: name grade D, return to the workup, then describe the approved options and record the product, its source and the grade quoted. Built only from approved sentences (m5-p04, m5-p05, m5-p14, m5-p15, m5-p17).",
+   "forReview": "Fady Hannah-Shmouni"
   }
  ],
  "mediaChanges": [

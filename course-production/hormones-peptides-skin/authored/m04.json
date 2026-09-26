@@ -15,7 +15,7 @@
   "description": {
    "en": "Lesson 4.1 Copper peptides · Lesson 4.2 Signal peptides, oral collagen and SNAP-25 mimics · Lesson 4.3 Repair peptides and the compounding line."
   },
-  "estimatedMinutes": 26,
+  "estimatedMinutes": 37,
   "sortOrder": 1,
   "isRequired": true,
   "status": "ai_draft",
@@ -59,6 +59,7 @@
     "m4-p03",
     "m4-p04",
     "m4-p05",
+    "m4-x01",
     "m4-p06",
     "m4-p07"
    ]
@@ -70,6 +71,7 @@
    },
    "blocks": [
     "m4-p08",
+    "m4-x02",
     "m4-p09",
     "m4-p10",
     "m4-p11",
@@ -84,8 +86,11 @@
    "blocks": [
     "m4-p13",
     "m4-p14",
+    "m4-x03",
     "m4-p15",
+    "m4-x04",
     "m4-p16",
+    "m4-x05",
     "m4-p17",
     "m4-p18",
     "m4-p19"
@@ -96,7 +101,7 @@
   {
    "id": "m4-p01",
    "type": "title",
-   "time": "01 / 20",
+   "time": "01 / 25",
    "lead": {
     "en": "Module 04 · Matrix peptides and wound healing"
    },
@@ -154,12 +159,12 @@
      "rule": "verbatim approved sentences only"
     }
    },
-   "time": "02 / 20"
+   "time": "02 / 25"
   },
   {
    "id": "m4-p02",
    "type": "reflection",
-   "time": "03 / 20",
+   "time": "03 / 25",
    "lead": {
     "en": "Your role"
    },
@@ -216,7 +221,7 @@
   {
    "id": "m4-p03",
    "type": "audio",
-   "time": "04 / 20",
+   "time": "04 / 25",
    "lead": {
     "en": "Mechanism"
    },
@@ -296,7 +301,7 @@
   {
    "id": "m4-p04",
    "type": "stat",
-   "time": "05 / 20",
+   "time": "05 / 25",
    "lead": {
     "en": "Human evidence"
    },
@@ -331,7 +336,7 @@
   {
    "id": "m4-p05",
    "type": "tool",
-   "time": "06 / 20",
+   "time": "06 / 25",
    "lead": {
     "en": "Four registers"
    },
@@ -459,9 +464,153 @@
    }
   },
   {
+   "id": "m4-x01",
+   "type": "tool",
+   "time": "07 / 25",
+   "lead": {
+    "en": "Practice"
+   },
+   "title": {
+    "en": "A copper serum's sales page"
+   },
+   "body": {
+    "en": "A fictional product page, read against the four registers."
+   },
+   "citationRefs": [
+    "pickart-thaler-1973",
+    "pickart-2008-ghk-tissue-remodeling",
+    "pickart-2015-ghk-skin-regeneration",
+    "pickart-margolina-2018",
+    "miller-2006-ghk-cu-laser-rct",
+    "mazurowska-2008-copper-peptide-penetration",
+    "hostynek-2010-ghk-cu-penetration",
+    "ogorek-2025-ghk-cu-permeation-review",
+    "fda-503a-categories-2026-05-14",
+    "hannah-shmouni-2026-ppg-aug",
+    "hannah-shmouni-2026-are"
+   ],
+   "sourceNote": "Pickart & Thaler 1973 · Pickart 2008, 2015, 2018 · Miller 2006 · Peptide Pocket Guide · Aesthetic & Regenerative Endocrinology · FDA 503A category list, updated 14 May 2026",
+   "interaction": {
+    "kind": "inspect",
+    "title": {
+     "en": "Which lines claim too much?"
+    },
+    "prompt": {
+     "en": "Tap each line of this fictional serum page that claims more than the evidence shows."
+    },
+    "segments": [
+     {
+      "id": "copper-peptide",
+      "text": {
+       "en": "Our star ingredient: GHK-Cu, the copper peptide."
+      },
+      "suspect": false,
+      "why": {
+       "en": "Accurate. GHK-Cu, the copper complex of GHK, is what skin-care labels mean when they say copper peptide."
+      }
+     },
+     {
+      "id": "plasma",
+      "text": {
+       "en": "GHK is a tripeptide found in human plasma, first described in 1973."
+      },
+      "suspect": false,
+      "why": {
+       "en": "Accurate. GHK is a three-amino-acid peptide that circulates in human plasma; it was first described in 1973."
+      }
+     },
+     {
+      "id": "mechanism",
+      "text": {
+       "en": "It delivers copper to the enzymes that build and protect your skin's matrix."
+      },
+      "suspect": true,
+      "why": {
+       "en": "Stated as fact, but it is the proposed mechanism, written largely by the group that discovered the peptide. A mechanism explains why the peptide might work and leaves open whether it does."
+      }
+     },
+     {
+      "id": "dermis",
+      "text": {
+       "en": "Penetrates deep into the dermis."
+      },
+      "suspect": true,
+      "why": {
+       "en": "That is the open question, stated as settled. Does it reach the dermis? Penetration data are in vitro and depend on how they are measured."
+      }
+     },
+     {
+      "id": "photoageing",
+      "text": {
+       "en": "Clinically proven to reverse photoageing."
+      },
+      "suspect": true,
+      "why": {
+       "en": "The one indexed randomized trial of topical GHK-Cu in human skin (2006) studied healing after CO₂ laser resurfacing, not photoageing, and the cosmetic trials cited for anti-ageing claims are manufacturer-sponsored and not indexed. Topical use is graded C."
+      }
+     },
+     {
+      "id": "fda",
+      "text": {
+       "en": "Regulator-approved: FDA Category 1."
+      },
+      "suspect": true,
+      "why": {
+       "en": "In the US, non-injectable GHK-Cu is in 503A Category 1: FDA is still evaluating it and does not intend to act against compounders who meet its conditions. A Category 1 listing is not an approval."
+      }
+     },
+     {
+      "id": "route",
+      "text": {
+       "en": "For external use only; not for injection."
+      },
+      "suspect": false,
+      "why": {
+       "en": "Accurate, and it names the route: the small-trial human evidence (GRADE C) is for topical use, and there are no randomized trials of injection."
+      }
+     }
+    ],
+    "hint": {
+     "en": "Give each line its register (mechanism, human evidence, regulatory status or open question), then ask whether the page claims more than that register can show."
+    },
+    "done": {
+     "en": "Four lines claimed too much: a proposed mechanism stated as fact, an open question stated as settled, a laser-healing trial sold as photoageing proof, and a Category 1 listing read as an approval."
+    },
+    "citationRefs": [
+     "pickart-thaler-1973",
+     "pickart-2008-ghk-tissue-remodeling",
+     "pickart-2015-ghk-skin-regeneration",
+     "pickart-margolina-2018",
+     "miller-2006-ghk-cu-laser-rct",
+     "mazurowska-2008-copper-peptide-penetration",
+     "hostynek-2010-ghk-cu-penetration",
+     "ogorek-2025-ghk-cu-permeation-review",
+     "fda-503a-categories-2026-05-14",
+     "hannah-shmouni-2026-ppg-aug",
+     "hannah-shmouni-2026-are"
+    ],
+    "source": "authored:2026-09-25 from m4-p03, m4-p04, m4-p05"
+   },
+   "metadata": {
+    "activity": {
+     "version": "1.1",
+     "sources": [
+      "m4-p03 audioScript, sentence 3 (line 'copper-peptide')",
+      "m4-p03 body, sentence 1; m4-p03 audioScript, sentence 2 (line 'plasma')",
+      "m4-p03 audioScript, sentences 4, 6, 7; m4-p03 points, item 3 (line 'mechanism')",
+      "m4-p05 tool row 4 (Open question), value and note (line 'dermis')",
+      "m4-p04 body, sentences 1, 2, 3; m4-p04 stat detail (line 'photoageing')",
+      "m4-p05 tool row 3 (Regulatory status, US), value and note sentence 1; m4-p05 tool callout (line 'fda')",
+      "m4-p05 tool row 2 (Human evidence), value and note (line 'route')",
+      "m4-p05 body, sentences 1, 2 (hint)"
+     ]
+    }
+   }
+  },
+  {
    "id": "m4-p06",
    "type": "audio",
-   "time": "07 / 20",
+   "time": "08 / 25",
    "lead": {
     "en": "What changes in practice"
    },
@@ -577,7 +726,7 @@
   {
    "id": "m4-p07",
    "type": "quiz",
-   "time": "08 / 20",
+   "time": "09 / 25",
    "lead": {
     "en": "Your turn"
    },
@@ -634,7 +783,7 @@
   {
    "id": "m4-p08",
    "type": "audio",
-   "time": "09 / 20",
+   "time": "10 / 25",
    "lead": {
     "en": "Lesson 4.2 · Concept"
    },
@@ -712,9 +861,115 @@
    }
   },
   {
+   "id": "m4-x02",
+   "type": "tool",
+   "time": "11 / 25",
+   "lead": {
+    "en": "Practice"
+   },
+   "title": {
+    "en": "Three families, three premises"
+   },
+   "body": {
+    "en": "The three families that fill the cosmetic and supplement shelves, and what each is meant to do."
+   },
+   "citationRefs": [
+    "lupo-cole-2007-cosmeceutical-peptides",
+    "lintner-peschard-2000-pal-kttks",
+    "blanes-mira-2002-argireline",
+    "errante-2020-cosmeceutical-peptides",
+    "schagen-2017-topical-peptides",
+    "hannah-shmouni-2026-are"
+   ],
+   "sourceNote": "Lupo & Cole 2007 · Lintner & Peschard 2000 · Blanes-Mira 2002 · Errante 2020",
+   "interaction": {
+    "kind": "hotspots",
+    "title": {
+     "en": "What is each one meant to do?"
+    },
+    "prompt": {
+     "en": "Tap each peptide family in the picture."
+    },
+    "imageAssetRef": "asset-hormones-peptides-skin-image-m4-p08-img",
+    "hotspots": [
+     {
+      "id": "signal-peptide",
+      "at": [
+       17.9,
+       36.1
+      ],
+      "radius": 8.2,
+      "label": {
+       "en": "Signal peptide"
+      },
+      "why": {
+       "en": "Signal peptides such as pal-KTTKS (Matrixyl) are fragments of matrix proteins meant to tell fibroblasts to make more collagen. The palmitoyl tail helps them into the skin."
+      }
+     },
+     {
+      "id": "snap25-mimic",
+      "at": [
+       50.8,
+       44.4
+      ],
+      "radius": 6,
+      "label": {
+       "en": "SNAP-25 mimic"
+      },
+      "why": {
+       "en": "Argireline copies the end of SNAP-25, a protein botulinum toxin cleaves, and SNAP-8 is the maker's eight-residue extension. The premise is a gentler topical version of the same effect."
+      }
+     },
+     {
+      "id": "oral-collagen",
+      "at": [
+       79.6,
+       42
+      ],
+      "radius": 9.3,
+      "label": {
+       "en": "Oral collagen peptides"
+      },
+      "why": {
+       "en": "Hydrolysed collagen, swallowed rather than applied, is sold as a supplement, with more randomized trials than any topical peptide and the clearest funding problem."
+      }
+     }
+    ],
+    "done": {
+     "en": "'Make more matrix', 'relax the line' and the supplement aisle: three premises, and for all three the question that matters most is who funded the trials."
+    },
+    "citationRefs": [
+     "lupo-cole-2007-cosmeceutical-peptides",
+     "lintner-peschard-2000-pal-kttks",
+     "blanes-mira-2002-argireline",
+     "errante-2020-cosmeceutical-peptides",
+     "schagen-2017-topical-peptides",
+     "hannah-shmouni-2026-are"
+    ],
+    "source": "authored:2026-09-25 from m4-p08"
+   },
+   "metadata": {
+    "activity": {
+     "version": "1.1",
+     "sources": [
+      "m4-p08 teachingVisual (asset-hormones-peptides-skin-image-m4-p08-img)",
+      "m4-p08 audioScript, sentence 2; m4-p08 audioBeats 1 (Signal peptides), sentence 2 (spot 'signal-peptide')",
+      "m4-p08 audioBeats 2 (SNAP-25 mimics), sentences 1, 2, 3 (spot 'snap25-mimic')",
+      "m4-p08 body, sentence 3; m4-p08 audioBeats 3 (Oral collagen) (spot 'oral-collagen')",
+      "m4-p08 points, items 1, 2, 3; m4-p08 body, sentence 4 (done)"
+     ],
+     "hotspotFind": {
+      "signal-peptide": "the violet bead chain with a wavy violet tail, above the long spindle-shaped cell among the pale fibres in the left-hand vignette",
+      "snap25-mimic": "the short violet bead chain lying along the junction between the rounded nerve ending and the striped muscle fibre in the middle vignette",
+      "oral-collagen": "the violet bead chain breaking into small pieces inside the stomach outline in the right-hand vignette"
+     }
+    }
+   }
+  },
+  {
    "id": "m4-p09",
    "type": "tool",
-   "time": "10 / 20",
+   "time": "12 / 25",
    "lead": {
     "en": "Sort the evidence"
    },
@@ -892,7 +1147,7 @@
   {
    "id": "m4-p10",
    "type": "stat",
-   "time": "11 / 20",
+   "time": "13 / 25",
    "lead": {
     "en": "The evidence"
    },
@@ -929,7 +1184,7 @@
   {
    "id": "m4-p11",
    "type": "audio",
-   "time": "12 / 20",
+   "time": "14 / 25",
    "lead": {
     "en": "What changes in practice"
    },
@@ -1062,7 +1317,7 @@
   {
    "id": "m4-p12",
    "type": "quiz",
-   "time": "13 / 20",
+   "time": "15 / 25",
    "lead": {
     "en": "Your turn"
    },
@@ -1118,7 +1373,7 @@
   {
    "id": "m4-p13",
    "type": "audio",
-   "time": "14 / 20",
+   "time": "16 / 25",
    "lead": {
     "en": "Lesson 4.3 · Concept"
    },
@@ -1201,7 +1456,7 @@
   {
    "id": "m4-p14",
    "type": "stat",
-   "time": "15 / 20",
+   "time": "17 / 25",
    "lead": {
     "en": "The evidence"
    },
@@ -1238,9 +1493,195 @@
    "metadata": {}
   },
   {
+   "id": "m4-x03",
+   "type": "tool",
+   "time": "18 / 25",
+   "lead": {
+    "en": "Practice"
+   },
+   "title": {
+    "en": "A patient asks for BPC-157"
+   },
+   "body": {
+    "en": "A fictional case built from this lesson's evidence."
+   },
+   "citationRefs": [
+    "sikiric-2018-bpc157-vascular-recruitment",
+    "seiwerth-2021-bpc157-wound-healing",
+    "lee-2021-bpc157-knee",
+    "fda-pcac-2026-bpc157-briefing",
+    "mayfield-2026-injectable-peptide-primer",
+    "mcguire-2025-bpc157-regeneration-or-risk",
+    "nct02637284-bpc157-phase1-2015",
+    "nct07752381-bpc157-gummy-2025",
+    "nct07803250-bpc157-rotator-cuff",
+    "hannah-shmouni-2026-ppg-aug",
+    "hannah-shmouni-2026-are"
+   ],
+   "sourceNote": "Sikiric 2018 · Seiwerth 2021 · Lee 2021 · ClinicalTrials.gov, checked 24 Sep 2026 · McGuire 2025 · Mayfield 2026",
+   "interaction": {
+    "kind": "branching",
+    "title": {
+     "en": "What stands behind BPC-157?"
+    },
+    "prompt": {
+     "en": "Take her questions one at a time."
+    },
+    "setup": {
+     "en": "A 49-year-old patient wants BPC-157 'to heal faster'. She shows you a supplier's page that calls it 'backed by hundreds of studies' and 'now in clinical trials'."
+    },
+    "start": "start",
+    "nodes": [
+     {
+      "id": "start",
+      "prompt": {
+       "en": "'Backed by hundreds of studies.' What actually stands behind BPC-157?"
+      },
+      "options": [
+       {
+        "value": "rodents-case-series",
+        "label": {
+         "en": "A large rodent literature, mostly from one research group, plus uncontrolled human case series."
+        },
+        "correct": true,
+        "next": "n2",
+        "why": {
+         "en": "Right. That is the evidence base: rodents and uncontrolled case series. As of September 2026, no randomized efficacy trial of BPC-157 in people has been published in full."
+        }
+       },
+       {
+        "value": "human-trials",
+        "label": {
+         "en": "Randomized trials in people showing faster healing."
+        },
+        "why": {
+         "en": "As of September 2026, no randomized efficacy trial of BPC-157 in people has been published in full. Its evidence is a large rodent literature, most of it from one research group, and uncontrolled human case series."
+        }
+       },
+       {
+        "value": "never-studied",
+        "label": {
+         "en": "Nothing: it has never been studied."
+        },
+        "why": {
+         "en": "It has a large rodent literature and uncontrolled human case series. What it does not have is a controlled human trial."
+        }
+       }
+      ]
+     },
+     {
+      "id": "n2",
+      "prompt": {
+       "en": "'Now in clinical trials.' What does the record show?"
+      },
+      "options": [
+       {
+        "value": "abstract-and-registered",
+        "label": {
+         "en": "One randomized trial exists only as a 2005 abstract, with no significant benefit; the registered studies have no results yet."
+        },
+        "correct": true,
+        "next": "n3",
+        "why": {
+         "en": "Right. The abstract: 53 people with ulcerative colitis, two weeks of treatment, no significant difference from placebo. Registered: a 2015 phase 1 safety study that never posted results, a completed 2025 single-arm product study with no results posted, and a randomized phase 1 trial after rotator-cuff surgery due to start in 2027."
+        }
+       },
+       {
+        "value": "published-positive",
+        "label": {
+         "en": "A published randomized trial showed it speeds healing."
+        },
+        "why": {
+         "en": "No randomized efficacy trial in people has been published in full. The only randomized human result is an abstract that showed no significant benefit."
+        }
+       },
+       {
+        "value": "registered-settled",
+        "label": {
+         "en": "The trials are registered, so the question is settled."
+        },
+        "why": {
+         "en": "None of the registered studies has posted results, and one is due to start in 2027. Whether BPC-157 helps people heal is unknown."
+        }
+       }
+      ]
+     },
+     {
+      "id": "n3",
+      "prompt": {
+       "en": "'So does it work or not?' What is the honest answer?"
+      },
+      "options": [
+       {
+        "value": "unknown",
+        "label": {
+         "en": "In people, nobody knows yet: the lack of trials is not proof that it fails, and the registered trials may change the answer."
+        },
+        "correct": true,
+        "why": {
+         "en": "Right. Whether BPC-157 helps people heal is unknown. Absence of trials is absence of evidence, and that will change when the registered trials report."
+        }
+       },
+       {
+        "value": "disproven",
+        "label": {
+         "en": "No: the one randomized trial found no difference."
+        },
+        "why": {
+         "en": "That was one two-week trial in 53 people with ulcerative colitis, reported only as a meeting abstract, and it showed no significant benefit. Whether BPC-157 helps people heal is still unknown."
+        }
+       },
+       {
+        "value": "rodents-enough",
+        "label": {
+         "en": "Yes: the rodent results are strong enough to go on."
+        },
+        "why": {
+         "en": "The enthusiasm rests on rodents and uncontrolled case series, most of the rodent work from one group. Whether it helps people heal is unknown."
+        }
+       }
+      ]
+     }
+    ],
+    "followUp": {
+     "en": "Whatever your role, give no advice on amounts, technique or sourcing, and route injected or research-use-only products to a prescriber."
+    },
+    "done": {
+     "en": "Rodents and case series, one abstract with no significant benefit, registered trials with no results: in people, BPC-157 is an unknown, not a negative."
+    },
+    "citationRefs": [
+     "sikiric-2018-bpc157-vascular-recruitment",
+     "seiwerth-2021-bpc157-wound-healing",
+     "lee-2021-bpc157-knee",
+     "fda-pcac-2026-bpc157-briefing",
+     "mayfield-2026-injectable-peptide-primer",
+     "mcguire-2025-bpc157-regeneration-or-risk",
+     "nct02637284-bpc157-phase1-2015",
+     "nct07752381-bpc157-gummy-2025",
+     "nct07803250-bpc157-rotator-cuff",
+     "hannah-shmouni-2026-ppg-aug",
+     "hannah-shmouni-2026-are"
+    ],
+    "source": "authored:2026-09-25 from m4-p13, m4-p14 (follow-up: m4-p06 role guidance, unit tutorContext)"
+   },
+   "metadata": {
+    "activity": {
+     "version": "1.1",
+     "sources": [
+      "m4-p13 audioScript, sentence 1 (setup: peptides patients buy online and inject); m4-p14 stat means, sentence 1 (setup: 'heal')",
+      "m4-p13 body, sentence 1; m4-p13 audioScript, sentences 3, 7; m4-p14 body, sentence 1 (decision 1)",
+      "m4-p14 body, sentences 1, 2, 3; m4-p14 stat detail; m4-p14 stat means, sentences 1, 2 (decision 2)",
+      "m4-p14 stat means, sentences 1, 2; m4-p14 stat doesNot, sentences 1, 2; m4-p14 body, sentence 2; m4-p13 body, sentence 1 (decision 3)",
+      "m4-p14 body, sentences 1, 2, 3; m4-p04 stat doesNot, sentence 2 ('an unknown, not a negative') (done)",
+      "m4-p06 audioScript, sentence 5 ('Whatever your role'); m4-p06 audienceLevel clinical-staff, sentence 2; m4-p06 audienceLevel advisor, sentence 2; unit tutorContext, sentence 7 (followUp)"
+     ]
+    }
+   }
+  },
+  {
    "id": "m4-p15",
    "type": "tool",
-   "time": "16 / 20",
+   "time": "19 / 25",
    "lead": {
     "en": "Worked example"
    },
@@ -1310,9 +1751,171 @@
    }
   },
   {
+   "id": "m4-x04",
+   "type": "tool",
+   "time": "20 / 25",
+   "lead": {
+    "en": "Practice"
+   },
+   "title": {
+    "en": "Six peptides, three kinds of evidence"
+   },
+   "body": {
+    "en": "Sort each peptide by the strongest evidence behind it in people."
+   },
+   "citationRefs": [
+    "miller-2006-ghk-cu-laser-rct",
+    "li-2016-copper-skin-toxicity",
+    "gronberg-2014-ll37-rct",
+    "mahlapuu-2021-ll37-phase2b",
+    "sikiric-2018-bpc157-vascular-recruitment",
+    "seiwerth-2021-bpc157-wound-healing",
+    "lee-2021-bpc157-knee",
+    "fda-pcac-2026-bpc157-briefing",
+    "mayfield-2026-injectable-peptide-primer",
+    "mcguire-2025-bpc157-regeneration-or-risk",
+    "esposito-2012-tb500-fragment",
+    "crockford-2010-thymosin-beta4",
+    "dalmasso-2008-kpv",
+    "kannengiesser-2008-kpv",
+    "hannah-shmouni-2026-ppg-aug",
+    "hannah-shmouni-2026-are"
+   ],
+   "sourceNote": "Miller 2006 · Grönberg 2014 · Mahlapuu 2021 · Sikiric 2018 · Seiwerth 2021 · Lee 2021 · McGuire 2025 · Mayfield 2026 · Esposito 2012 · Dalmasso 2008 · Peptide Pocket Guide · Aesthetic & Regenerative Endocrinology",
+   "interaction": {
+    "kind": "classify",
+    "title": {
+     "en": "Trial, anecdote or mechanism?"
+    },
+    "prompt": {
+     "en": "Tap the strongest evidence behind each one."
+    },
+    "labels": [
+     {
+      "value": "rct",
+      "label": {
+       "en": "Published randomized trial in people"
+      },
+      "tone": "good"
+     },
+     {
+      "value": "reports",
+      "label": {
+       "en": "Anecdote or case series only"
+      },
+      "tone": "neutral"
+     },
+     {
+      "value": "preclinical",
+      "label": {
+       "en": "Mechanism or animal data only"
+      },
+      "tone": "bad"
+     }
+    ],
+    "items": [
+     {
+      "id": "ghkcu-serum",
+      "label": {
+       "en": "GHK-Cu serum"
+      },
+      "answer": "rct",
+      "why": {
+       "en": "One small indexed randomized trial (2006, healing after CO₂ laser resurfacing, not photoageing), plus sponsor-run cosmetic trials. GRADE C."
+      }
+     },
+     {
+      "id": "ghkcu-injection",
+      "label": {
+       "en": "GHK-Cu for injection"
+      },
+      "answer": "reports",
+      "why": {
+       "en": "No randomized trials of injection: anecdote, and common local reactions because copper irritates tissue."
+      }
+     },
+     {
+      "id": "ll37",
+      "label": {
+       "en": "LL-37 in venous leg ulcers"
+      },
+      "answer": "rct",
+      "why": {
+       "en": "Two randomized trials, both run by the developer: a small first trial positive at low dose, then a phase IIb trial negative in the full cohort. GRADE C, inconsistent."
+      }
+     },
+     {
+      "id": "bpc157",
+      "label": {
+       "en": "BPC-157"
+      },
+      "answer": "reports",
+      "why": {
+       "en": "Uncontrolled human case series on top of a large rodent literature. The one randomized trial exists only as a 2005 meeting abstract; none has been published in full."
+      }
+     },
+     {
+      "id": "tb500",
+      "label": {
+       "en": "TB-500"
+      },
+      "answer": "preclinical",
+      "why": {
+       "en": "A seven-residue fragment of thymosin β4 that has never been tested in a trial; what it has is a plausible mechanism."
+      }
+     },
+     {
+      "id": "kpv",
+      "label": {
+       "en": "KPV"
+      },
+      "answer": "preclinical",
+      "why": {
+       "en": "Calms inflammation in mouse colitis models; no randomized human trial for any indication."
+      }
+     }
+    ],
+    "done": {
+     "en": "Two have published randomized trials, both graded C; two rest on anecdote or case series; two have only a mechanism or mouse data."
+    },
+    "citationRefs": [
+     "miller-2006-ghk-cu-laser-rct",
+     "li-2016-copper-skin-toxicity",
+     "gronberg-2014-ll37-rct",
+     "mahlapuu-2021-ll37-phase2b",
+     "sikiric-2018-bpc157-vascular-recruitment",
+     "seiwerth-2021-bpc157-wound-healing",
+     "lee-2021-bpc157-knee",
+     "fda-pcac-2026-bpc157-briefing",
+     "mayfield-2026-injectable-peptide-primer",
+     "mcguire-2025-bpc157-regeneration-or-risk",
+     "esposito-2012-tb500-fragment",
+     "crockford-2010-thymosin-beta4",
+     "dalmasso-2008-kpv",
+     "kannengiesser-2008-kpv",
+     "hannah-shmouni-2026-ppg-aug",
+     "hannah-shmouni-2026-are"
+    ],
+    "source": "authored:2026-09-25 from m4-p04, m4-p06, m4-p13, m4-p14, m4-p15"
+   },
+   "metadata": {
+    "activity": {
+     "version": "1.1",
+     "sources": [
+      "m4-p04 body, sentences 1, 3; m4-p04 stat detail; m4-p04 stat means, sentence 1 (item 'ghkcu-serum')",
+      "m4-p06 body, sentence 2; m4-p06 points, item 2 (item 'ghkcu-injection')",
+      "m4-p15 body, sentence 1; m4-p15 tool rows 1-4 (item 'll37')",
+      "m4-p13 body, sentence 1; m4-p14 body, sentences 1, 2 (item 'bpc157')",
+      "m4-p13 body, sentence 2; m4-p13 audioScript, sentences 5, 7 (item 'tb500')",
+      "m4-p13 body, sentence 3; m4-p13 audioScript, sentence 6; m4-p13 audioBeats 3 (KPV) (item 'kpv')"
+     ]
+    }
+   }
+  },
+  {
    "id": "m4-p16",
    "type": "tool",
-   "time": "17 / 20",
+   "time": "21 / 25",
    "lead": {
     "en": "Regulatory status"
    },
@@ -1528,9 +2131,103 @@
    }
   },
   {
+   "id": "m4-x05",
+   "type": "tool",
+   "time": "22 / 25",
+   "lead": {
+    "en": "Practice"
+   },
+   "title": {
+    "en": "From Category 1 to the bulks list"
+   },
+   "body": {
+    "en": "US only, dated to FDA's category list of 14 May 2026."
+   },
+   "citationRefs": [
+    "fda-503a-categories-2026-05-14",
+    "fda-503a-bulks-page",
+    "federal-register-2026-07361-pcac",
+    "fda-pcac-2026-07-meeting"
+   ],
+   "sourceNote": "FDA 503A categories (14 May 2026) · 91 FR 20465 · PCAC 23–24 Jul 2026",
+   "interaction": {
+    "kind": "sequence",
+    "title": {
+     "en": "GHK-Cu's road to the bulks list"
+    },
+    "prompt": {
+     "en": "In the US, non-injectable GHK-Cu is in Category 1. Put the steps in the order they must happen before it could join the 503A bulks list."
+    },
+    "steps": [
+     {
+      "id": "category-1",
+      "label": {
+       "en": "Category 1: FDA still evaluating"
+      },
+      "why": {
+       "en": "Where non-injectable GHK-Cu sits on FDA's list of 14 May 2026. FDA does not intend to act against compounders who meet its conditions while it evaluates; that is not an approval."
+      }
+     },
+     {
+      "id": "committee",
+      "label": {
+       "en": "Advisory-committee consultation"
+      },
+      "why": {
+       "en": "Planned for GHK-Cu before the end of February 2027. The committee's votes are advice."
+      }
+     },
+     {
+      "id": "rulemaking",
+      "label": {
+       "en": "FDA acts through rulemaking"
+      },
+      "why": {
+       "en": "FDA must still act through rulemaking before anything joins the bulks list."
+      }
+     },
+     {
+      "id": "bulks-list",
+      "label": {
+       "en": "Joins the 503A bulks list"
+      },
+      "why": {
+       "en": "The last step. Until FDA acts, an advisory-committee review is not approval."
+      }
+     }
+    ],
+    "done": {
+     "en": "Category 1 is where the path starts, not where it ends: the committee advises, and FDA must still act through rulemaking before anything joins the bulks list."
+    },
+    "hedge": {
+     "en": "US only"
+    },
+    "citationRefs": [
+     "fda-503a-categories-2026-05-14",
+     "fda-503a-bulks-page",
+     "federal-register-2026-07361-pcac",
+     "fda-pcac-2026-07-meeting"
+    ],
+    "source": "authored:2026-09-25 from m4-p05, m4-p16"
+   },
+   "metadata": {
+    "activity": {
+     "version": "1.1",
+     "sources": [
+      "m4-p05 tool row 3 (Regulatory status, US), value and note sentence 1; m4-p16 tool row 2 (503A Category 1), note; m4-p05 tool callout (step 'category-1')",
+      "m4-p05 tool row 3, note sentence 1 ('an advisory-committee consultation is planned before the end of February 2027'); m4-p16 body, sentence 2 (step 'committee')",
+      "m4-p16 body, sentence 2 (step 'rulemaking')",
+      "m4-p16 body, sentence 2; m4-p16 tool row 3 (Not on the 503A bulks list), note (step 'bulks-list')",
+      "m4-p16 interaction item 'ghkcu-topical', why (Category 1 pending the consultation); m4-p16 tool callout, sentence 1",
+      "m4-p05 tool row 3 label ('US, 14 May 2026'); m4-p16 body, sentence 1 ('Three US categories') (hedge 'US only')"
+     ]
+    }
+   }
+  },
+  {
    "id": "m4-p17",
    "type": "audio",
-   "time": "18 / 20",
+   "time": "23 / 25",
    "lead": {
     "en": "Fictional case"
    },
@@ -1723,7 +2420,7 @@
   {
    "id": "m4-p18",
    "type": "quiz",
-   "time": "19 / 20",
+   "time": "24 / 25",
    "lead": {
     "en": "Your turn"
    },
@@ -1781,7 +2478,7 @@
   {
    "id": "m4-p19",
    "type": "action",
-   "time": "20 / 20",
+   "time": "25 / 25",
    "lead": {
     "en": "Closing and commitment"
    },
@@ -2631,6 +3328,36 @@
    "forReview": "Omar Saleem (product owner)",
    "confirmedBy": "Omar Saleem, product owner (editorial; no medical content changed)",
    "confirmedAt": "2026-09-26"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m4-x01",
+   "change": "New practice (1.1): inspect — a fictional GHK-Cu serum page; the learner finds the four lines that blend the registers (a proposed mechanism stated as fact, dermal reach stated as settled, the post-laser healing trial sold as photoageing proof, Category 1 read as an approval) among three accurate lines. Built only from approved sentences (m4-p03, m4-p04, m4-p05).",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m4-x02",
+   "change": "New practice (1.1): hotspots on the approved m4-p08 still — the three families (signal peptide, SNAP-25 mimic, oral collagen peptides) and what each is meant to do; the spots carry 'find' descriptions for grounding. Built only from approved sentences (m4-p08).",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m4-x03",
+   "change": "New practice (1.1): branching — a fictional patient asks for BPC-157 after reading a supplier's page; three decisions: what stands behind 'hundreds of studies', what the trial record shows, and the honest answer (unknown in people, not disproven); follow-up on role limits. Built only from approved sentences (m4-p13, m4-p14; follow-up from m4-p06 role guidance and the unit's tutor context).",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m4-x04",
+   "change": "New practice (1.1): classify (grade the evidence) — six peptides by the strongest evidence in people: published randomized trial (GHK-Cu serum, LL-37), anecdote or case series (injected GHK-Cu, BPC-157), mechanism or animal data only (TB-500, KPV). Built only from approved sentences (m4-p04, m4-p06, m4-p13, m4-p14, m4-p15).",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m4-x05",
+   "change": "New practice (1.1): sequence (US only) — non-injectable GHK-Cu's path from Category 1 to the 503A bulks list: Category 1, advisory-committee consultation, FDA rulemaking, bulks list. Built only from approved sentences (m4-p05, m4-p16).",
+   "forReview": "Fady Hannah-Shmouni"
   }
  ],
  "mediaChanges": [

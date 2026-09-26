@@ -13,3 +13,7 @@ together, figure truth against the narration and the moment's cited sources): `v
 ## 2026-09-25 — label corrections (M4, M5)
 - **m04-opener** ("Lysyl oxidase" only): whole-film check 0 blocking, 1 warn (a short lag on the final text graphic; cosmetic).
 - **m05-opener** (CRH and ACTH · α-MSH · cortisol label the follicle as a whole): 0 blocking, 0 warn.
+- **m02-opener-r3** (1.1: axis and conversion diagrams, the sunlight dive, mouse labels): 0 blocking, 1 warn — "'11ß-HSD1' uses
+  the German sharp S". **Verified false positive:** the label is U+03B2 GREEK SMALL LETTER BETA, and the rendered frame at 38.6 s
+  (zoomed) shows a beta with its descender; the composer now gives Greek letters a face that draws them (perceptor-foundry
+  2026-09-25), and this render is after that fix.

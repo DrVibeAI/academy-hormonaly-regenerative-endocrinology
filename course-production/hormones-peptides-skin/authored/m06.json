@@ -15,7 +15,7 @@
   "description": {
    "en": "Lesson 6.1 Growth hormone and IGF-1 in the skin · Lesson 6.2 GHRH analogues and secretagogues: what stands behind each · Lesson 6.3 Signs of excess, oedema and mitogenic risk."
   },
-  "estimatedMinutes": 26,
+  "estimatedMinutes": 37,
   "sortOrder": 1,
   "isRequired": true,
   "status": "ai_draft",
@@ -57,6 +57,7 @@
     "m6-p01",
     "m6-opener",
     "m6-p02",
+    "m6-x01",
     "m6-p03",
     "m6-p04",
     "m6-p05",
@@ -70,11 +71,14 @@
    },
    "blocks": [
     "m6-p07",
+    "m6-x02",
     "m6-p08",
     "m6-p09",
+    "m6-x03",
     "m6-p10",
     "m6-p11",
     "m6-p12",
+    "m6-x04",
     "m6-p13"
    ]
   },
@@ -87,6 +91,7 @@
     "m6-p14",
     "m6-p15",
     "m6-p16",
+    "m6-x05",
     "m6-p17",
     "m6-p18",
     "m6-p19"
@@ -97,7 +102,7 @@
   {
    "id": "m6-p01",
    "type": "title",
-   "time": "01 / 20",
+   "time": "01 / 25",
    "lead": {
     "en": "Module 06 · The growth-hormone axis and the skin"
    },
@@ -154,12 +159,12 @@
      "rule": "verbatim approved sentences only"
     }
    },
-   "time": "02 / 20"
+   "time": "02 / 25"
   },
   {
    "id": "m6-p02",
    "type": "audio",
-   "time": "03 / 20",
+   "time": "03 / 25",
    "lead": {
     "en": "Lesson 6.1 · Mechanism"
    },
@@ -236,9 +241,130 @@
    }
   },
   {
+   "id": "m6-x01",
+   "type": "tool",
+   "time": "04 / 25",
+   "lead": {
+    "en": "Practice"
+   },
+   "title": {
+    "en": "Where GH and IGF-1 act in skin."
+   },
+   "body": {
+    "en": "Two layers of skin listen to two different parts of the same axis."
+   },
+   "citationRefs": [
+    "tavakkol-1992-gh-receptor-skin",
+    "edmondson-2003-epidermal-gh-igf",
+    "hannah-shmouni-2026-are"
+   ],
+   "sourceNote": "Tavakkol 1992 · Edmondson 2003 · Aesthetic & Regenerative Endocrinology, ch. 2 and 6",
+   "interaction": {
+    "kind": "hotspots",
+    "title": {
+     "en": "Two layers, two hormones"
+    },
+    "prompt": {
+     "en": "Find where growth hormone and IGF-1 act on this skin section."
+    },
+    "imageAssetRef": "asset-hormones-peptides-skin-image-m6-p02-img",
+    "hotspots": [
+     {
+      "id": "gh-receptors",
+      "at": [
+       56.8,
+       49.8
+      ],
+      "radius": 12.6,
+      "label": {
+       "en": "Growth-hormone receptors on fibroblasts"
+      },
+      "why": {
+       "en": "Growth hormone speaks mainly to the dermis. Its receptor is expressed more on fibroblasts than on keratinocytes."
+      }
+     },
+     {
+      "id": "igf1-supply",
+      "at": [
+       62.5,
+       36
+      ],
+      "radius": 7.2,
+      "label": {
+       "en": "IGF-1 supplied by the dermis"
+      },
+      "why": {
+       "en": "Keratinocytes carry the IGF-1 receptor but make little IGF-1 themselves; fibroblasts supply it."
+      }
+     },
+     {
+      "id": "igf1-receptors",
+      "at": [
+       63.6,
+       31.3
+      ],
+      "radius": 6,
+      "label": {
+       "en": "IGF-1 receptors on keratinocytes"
+      },
+      "why": {
+       "en": "The epidermis listens to IGF-1. In culture, IGF-1 makes keratinocytes divide where growth hormone on its own does nothing."
+      }
+     },
+     {
+      "id": "collagen",
+      "at": [
+       38.7,
+       46.7
+      ],
+      "radius": 14.4,
+      "label": {
+       "en": "Collagen in the dermis"
+      },
+      "why": {
+       "en": "In culture, growth hormone increases fibroblast numbers and supports collagen synthesis, sometimes directly and sometimes through IGF-1."
+      }
+     }
+    ],
+    "done": {
+     "en": "Growth hormone speaks mainly to the dermis and its fibroblasts; the epidermis listens to IGF-1 that the dermis supplies."
+    },
+    "citationRefs": [
+     "tavakkol-1992-gh-receptor-skin",
+     "edmondson-2003-epidermal-gh-igf",
+     "hannah-shmouni-2026-are"
+    ],
+    "source": "authored:2026-09-25 from m6-p02",
+    "hedge": {
+     "en": "Mechanism"
+    }
+   },
+   "metadata": {
+    "activity": {
+     "version": "1.1",
+     "sources": [
+      "m6-p02 audioScript, sentence 1",
+      "m6-p02 audioScript, sentence 2",
+      "m6-p02 audioScript, sentence 3",
+      "m6-p02 audioScript, sentence 4",
+      "m6-p02 audioScript, sentence 5",
+      "m6-p02 audioScript, sentence 8",
+      "m6-p02 beat 2, sentence 1",
+      "m6-p02 teachingVisual (asset-hormones-peptides-skin-image-m6-p02-img)"
+     ],
+     "hotspotFind": {
+      "gh-receptors": "The dark violet cup shapes, each holding a dark violet dot, attached to the three large grey spindle-shaped cells in the middle layer of the skin block, just right of the image centre.",
+      "igf1-supply": "The loose scatter of small pale lilac dots (not the cup shapes) in the gap between the large spindle-shaped cells and the underside of the top row of cells, in the upper right of the skin block.",
+      "igf1-receptors": "The two pale lilac cup shapes stuck to the underside of the top row of cells (the wavy top layer of the skin block), right of centre near the top of the skin block.",
+      "collagen": "The long pale wavy fibres running left to right across the middle layer of the skin block, clearest in its left half between the small oval cells, away from all violet shapes."
+     }
+    }
+   }
+  },
+  {
    "id": "m6-p03",
    "type": "stat",
-   "time": "04 / 20",
+   "time": "05 / 25",
    "lead": {
     "en": "Human evidence"
    },
@@ -272,7 +398,7 @@
   {
    "id": "m6-p04",
    "type": "tool",
-   "time": "05 / 20",
+   "time": "06 / 25",
    "lead": {
     "en": "Sort the evidence"
    },
@@ -475,7 +601,7 @@
   {
    "id": "m6-p05",
    "type": "audio",
-   "time": "06 / 20",
+   "time": "07 / 25",
    "lead": {
     "en": "What changes in practice"
    },
@@ -625,7 +751,7 @@
   {
    "id": "m6-p06",
    "type": "quiz",
-   "time": "07 / 20",
+   "time": "08 / 25",
    "lead": {
     "en": "Your turn"
    },
@@ -683,7 +809,7 @@
   {
    "id": "m6-p07",
    "type": "audio",
-   "time": "08 / 20",
+   "time": "09 / 25",
    "lead": {
     "en": "Lesson 6.2 · Concept"
    },
@@ -761,9 +887,99 @@
    }
   },
   {
+   "id": "m6-x02",
+   "type": "tool",
+   "time": "10 / 25",
+   "lead": {
+    "en": "Practice"
+   },
+   "title": {
+    "en": "Where each route enters the axis."
+   },
+   "body": {
+    "en": "Four routes lead into the same axis, and patients rarely know which one they are on."
+   },
+   "citationRefs": [
+    "dominikowski-2026-gh-axis-peptides-review",
+    "teichman-2006-cjc1295-phase1",
+    "nass-2008-mk677-older-adults",
+    "genotropin-label-2026",
+    "hannah-shmouni-2026-are",
+    "hannah-shmouni-2026-ppg-aug"
+   ],
+   "sourceNote": "Aesthetic & Regenerative Endocrinology, ch. 3 · Peptide Pocket Guide, growth-hormone axis · Dominikowski 2026",
+   "interaction": {
+    "kind": "sequence",
+    "title": {
+     "en": "From pituitary to IGF-1 receptor"
+    },
+    "prompt": {
+     "en": "Put the entry points in order along the axis, from upstream to downstream."
+    },
+    "steps": [
+     {
+      "id": "pituitary",
+      "label": {
+       "en": "The pituitary: GHRH analogues and ghrelin-receptor agonists"
+      },
+      "why": {
+       "en": "Stimulate. GHRH analogues press on the pituitary's releasing-hormone receptor and ghrelin-receptor agonists on a second pituitary receptor, so the gland releases its own growth hormone, in pulses."
+      }
+     },
+     {
+      "id": "growth-hormone",
+      "label": {
+       "en": "Growth hormone itself: somatropin"
+      },
+      "why": {
+       "en": "Replace. Somatropin is growth hormone itself, made by recombinant technology: it replaces the hormone the pituitary releases."
+      }
+     },
+     {
+      "id": "igf1-receptor",
+      "label": {
+       "en": "The IGF-1 receptor: IGF-1 analogues"
+      },
+      "why": {
+       "en": "Bypass. IGF-1 analogues such as IGF-1 LR3 skip the pituitary and act on the IGF-1 receptor directly. Every route ends at that same receptor."
+      }
+     }
+    ],
+    "done": {
+     "en": "Stimulate the pituitary, replace the hormone itself, or bypass the pituitary at the IGF-1 receptor: every route ends at that same receptor."
+    },
+    "citationRefs": [
+     "dominikowski-2026-gh-axis-peptides-review",
+     "teichman-2006-cjc1295-phase1",
+     "nass-2008-mk677-older-adults",
+     "genotropin-label-2026",
+     "hannah-shmouni-2026-are",
+     "hannah-shmouni-2026-ppg-aug"
+    ],
+    "source": "authored:2026-09-25 from m6-p07"
+   },
+   "metadata": {
+    "activity": {
+     "version": "1.1",
+     "sources": [
+      "m6-p07 audioScript, sentence 1",
+      "m6-p07 audioScript, sentence 2",
+      "m6-p07 audioScript, sentence 3",
+      "m6-p07 audioScript, sentence 4",
+      "m6-p07 audioScript, sentence 5",
+      "m6-p07 audioScript, sentence 6",
+      "m6-p07 beat 1 (Replace)",
+      "m6-p07 beat 2 (Stimulate)",
+      "m6-p07 beat 3 (Bypass: 'downstream of the pituitary')",
+      "m6-p07 points 1-3"
+     ]
+    }
+   }
+  },
+  {
    "id": "m6-p08",
    "type": "tool",
-   "time": "09 / 20",
+   "time": "11 / 25",
    "lead": {
     "en": "Worked example"
    },
@@ -893,7 +1109,7 @@
   {
    "id": "m6-p09",
    "type": "stat",
-   "time": "10 / 20",
+   "time": "12 / 25",
    "lead": {
     "en": "The evidence"
    },
@@ -926,9 +1142,146 @@
    }
   },
   {
+   "id": "m6-x03",
+   "type": "tool",
+   "time": "13 / 25",
+   "lead": {
+    "en": "Practice"
+   },
+   "title": {
+    "en": "Five growth-hormone results, graded by design."
+   },
+   "body": {
+    "en": "Each result is accurate as worded; what differs is the design behind it."
+   },
+   "citationRefs": [
+    "tavakkol-1992-gh-receptor-skin",
+    "edmondson-2003-epidermal-gh-igf",
+    "rudman-1990-gh-men-over-60",
+    "papadakis-1996-gh-wound-healing",
+    "khorram-1997-ghrh-analogue-older-adults",
+    "liu-2007-gh-healthy-elderly"
+   ],
+   "sourceNote": "Tavakkol 1992 · Rudman 1990 · Papadakis 1996 · Khorram 1997 · Liu 2007",
+   "interaction": {
+    "kind": "classify",
+    "title": {
+     "en": "Trial, small study or cell culture?"
+    },
+    "prompt": {
+     "en": "What stands behind each result?"
+    },
+    "labels": [
+     {
+      "value": "rct",
+      "label": {
+       "en": "Randomized trial in people"
+      },
+      "tone": "good"
+     },
+     {
+      "value": "small",
+      "label": {
+       "en": "Small or uncontrolled human data"
+      },
+      "tone": "neutral"
+     },
+     {
+      "value": "mechanism",
+      "label": {
+       "en": "Mechanism, cells in culture"
+      },
+      "tone": "bad"
+     }
+    ],
+    "items": [
+     {
+      "id": "fibroblasts",
+      "label": {
+       "en": "In culture, growth hormone increases fibroblast numbers and supports collagen synthesis"
+      },
+      "answer": "mechanism",
+      "why": {
+       "en": "Mechanism (D), from cells in culture. It explains why the axis could matter for skin; whether changing it helps a patient is a separate question."
+      }
+     },
+     {
+      "id": "skin-1990",
+      "label": {
+       "en": "Skin thickness up 7.1% in 12 older men on growth hormone for six months, with nine untreated men and no placebo (1990)"
+      },
+      "answer": "small",
+      "why": {
+       "en": "Twelve treated men, no placebo, and P = 0.07, short of statistical significance. Graded on its design, it is D."
+      }
+     },
+     {
+      "id": "wound-tubes",
+      "label": {
+       "en": "15% more collagen laid down in implanted wound tubes, in a small randomized trial of 28 older men (1996)"
+      },
+      "answer": "rct",
+      "why": {
+       "en": "Randomized, though small. Its outcome, collagen in implanted wound tubes, is a laboratory surrogate for repair."
+      }
+     },
+     {
+      "id": "caliper-1997",
+      "label": {
+       "en": "Caliper skin thickness up after 16 weeks on a GHRH(1-29) analogue in 19 older adults, against a placebo lead-in (1997)"
+      },
+      "answer": "small",
+      "why": {
+       "en": "Compared with a placebo lead-in rather than a parallel control group: one small study (D), and still the nearest skin data for the peptides on this axis."
+      }
+     },
+     {
+      "id": "healthy-ageing",
+      "label": {
+       "en": "About 2 kg less fat and 2 kg more lean mass on growth hormone, pooled from randomized trials in healthy older adults"
+      },
+      "answer": "rct",
+      "why": {
+       "en": "Pooled randomized trials, graded B: consistent and independent though small. They also show more oedema, joint pain and carpal tunnel syndrome, and strength and endurance change little."
+      }
+     }
+    ],
+    "done": {
+     "en": "Two randomized, two small studies graded D and one mechanism: the direct skin evidence on this axis is thin."
+    },
+    "citationRefs": [
+     "tavakkol-1992-gh-receptor-skin",
+     "edmondson-2003-epidermal-gh-igf",
+     "rudman-1990-gh-men-over-60",
+     "papadakis-1996-gh-wound-healing",
+     "khorram-1997-ghrh-analogue-older-adults",
+     "liu-2007-gh-healthy-elderly"
+    ],
+    "source": "authored:2026-09-25 from m6-p02, m6-p03, m6-p04, m6-p05, m6-p09"
+   },
+   "metadata": {
+    "activity": {
+     "version": "1.1",
+     "sources": [
+      "m6-p02 audioScript, sentence 3",
+      "m6-p02 audioScript, sentences 9-10",
+      "m6-p04 interaction, item 'keratinocytes' why (Mechanism (D) for the 1992 cell-culture work)",
+      "m6-p03 body, sentences 1 and 3",
+      "m6-p03 stat.means, sentence 2",
+      "m6-p03 body, sentence 4",
+      "m6-p09 body, sentences 2-3",
+      "m6-p09 stat.means, sentence 2",
+      "m6-p05 body, sentences 1-2",
+      "m6-p05 audioScript, sentence 5",
+      "m6-p03 stat.doesNot, sentence 2"
+     ]
+    }
+   }
+  },
+  {
    "id": "m6-p10",
    "type": "tool",
-   "time": "11 / 20",
+   "time": "14 / 25",
    "lead": {
     "en": "Sort the evidence"
    },
@@ -1155,7 +1508,7 @@
   {
    "id": "m6-p11",
    "type": "tool",
-   "time": "12 / 20",
+   "time": "15 / 25",
    "lead": {
     "en": "Regulatory status"
    },
@@ -1309,7 +1662,7 @@
   {
    "id": "m6-p12",
    "type": "audio",
-   "time": "13 / 20",
+   "time": "16 / 25",
    "lead": {
     "en": "What changes in practice"
    },
@@ -1456,9 +1809,198 @@
    }
   },
   {
+   "id": "m6-x04",
+   "type": "tool",
+   "time": "17 / 25",
+   "lead": {
+    "en": "Practice"
+   },
+   "title": {
+    "en": "'It raises growth hormone naturally.'"
+   },
+   "body": {
+    "en": "This case is fictional, built from the lesson's evidence; each right move leads to the next."
+   },
+   "citationRefs": [
+    "teichman-2006-cjc1295-phase1",
+    "dominikowski-2026-gh-axis-peptides-review",
+    "falutz-2010-tesamorelin-pooled",
+    "egrifta-wr-label-2026",
+    "fda-503a-categories-2026-05-14",
+    "fda-503a-category2-safety-risks-page",
+    "fda-503a-bulks-page",
+    "ecfr-21-cfr-216-23-bulks-list",
+    "hannah-shmouni-2026-are",
+    "hannah-shmouni-2026-ppg-aug"
+   ],
+   "sourceNote": "Aesthetic & Regenerative Endocrinology, ch. 3 and 15 · Teichman 2006 · Dominikowski 2026 · Falutz 2010 · FDA 503A categories (14 May 2026) · FDA Category 2 page (22 Apr 2026) · 21 CFR 216.23",
+   "interaction": {
+    "kind": "branching",
+    "title": {
+     "en": "Molecule, evidence, status"
+    },
+    "prompt": {
+     "en": "A patient says their clinic offers 'CJC', a peptide that raises growth hormone naturally, for skin and sleep, and asks what you think."
+    },
+    "start": "start",
+    "nodes": [
+     {
+      "id": "start",
+      "prompt": {
+       "en": "What do you establish first?"
+      },
+      "options": [
+       {
+        "value": "molecule",
+        "label": {
+         "en": "Which molecule, exactly: CJC-1295 with or without DAC"
+        },
+        "correct": true,
+        "next": "n2",
+        "why": {
+         "en": "Three answers come before anything else, and this is the first. CJC-1295 with and without its albumin-binding tail are two different products, and only the version with the tail has been tested in people."
+        }
+       },
+       {
+        "value": "igf1",
+        "label": {
+         "en": "Whether it raises IGF-1"
+        },
+        "why": {
+         "en": "A higher IGF-1 is a laboratory result. Benefit to a patient needs a clinical trial. First, which molecule, exactly."
+        }
+       },
+       {
+        "value": "others-skin",
+        "label": {
+         "en": "Whether other patients' skin improved on it"
+        },
+        "why": {
+         "en": "Every skin promise made for these peptides rests on mechanism and anecdote. First, which molecule, exactly."
+        }
+       }
+      ]
+     },
+     {
+      "id": "n2",
+      "prompt": {
+       "en": "It is 'Mod GRF 1-29': CJC-1295 without DAC. What stands behind it?"
+      },
+      "options": [
+       {
+        "value": "none",
+        "label": {
+         "en": "No published human studies"
+        },
+        "correct": true,
+        "next": "n3",
+        "why": {
+         "en": "GRADE D. No peer-reviewed human study of this form exists; its promises are borrowed from sermorelin and from the DAC version."
+        }
+       },
+       {
+        "value": "levels",
+        "label": {
+         "en": "Hormone levels rise; no benefit shown"
+        },
+        "why": {
+         "en": "That is CJC-1295 with DAC: two phase 1 trials in healthy adults showed GH and IGF-1 rising for days, and neither measured a clinical outcome. Only the DAC form has been given to people in a trial."
+        }
+       },
+       {
+        "value": "approval",
+        "label": {
+         "en": "Approval-grade trials for this use"
+        },
+        "why": {
+         "en": "Tesamorelin has approval-grade trials for visceral fat in people with HIV, and the rest stop at hormone levels or have never been studied in humans."
+        }
+       }
+      ]
+     },
+     {
+      "id": "n3",
+      "prompt": {
+       "en": "Last, where does it stand in the US today?"
+      },
+      "options": [
+       {
+        "value": "no-standing",
+        "label": {
+         "en": "Not on the 503A bulks list, and FDA lists the CJC-1295 nomination as withdrawn"
+        },
+        "correct": true,
+        "why": {
+         "en": "As of September 2026, none of the growth-hormone secretagogues sits on the 503A bulks list, and FDA lists CJC-1295 among Category 2 nominations that were withdrawn, citing serious adverse events. Check the live lists and name the date."
+        }
+       },
+       {
+        "value": "unlisted",
+        "label": {
+         "en": "Free to compound, as long as no FDA list forbids it"
+        },
+        "why": {
+         "en": "Absence from every list does not make a substance permitted, and FDA stopped placing newly nominated substances into categories in January 2025."
+        }
+       },
+       {
+        "value": "popular",
+        "label": {
+         "en": "On the bulks list, since clinics compound it widely"
+        },
+        "why": {
+         "en": "Popularity and compounding volume are not regulatory standing. The 503A bulks list holds six substances, none on this axis."
+        }
+       }
+      ]
+     }
+    ],
+    "done": {
+     "en": "Molecule first, then what stands behind it, then its status: this one has no published human studies and no US bulks-list standing."
+    },
+    "citationRefs": [
+     "teichman-2006-cjc1295-phase1",
+     "dominikowski-2026-gh-axis-peptides-review",
+     "falutz-2010-tesamorelin-pooled",
+     "egrifta-wr-label-2026",
+     "fda-503a-categories-2026-05-14",
+     "fda-503a-category2-safety-risks-page",
+     "fda-503a-bulks-page",
+     "ecfr-21-cfr-216-23-bulks-list",
+     "hannah-shmouni-2026-are",
+     "hannah-shmouni-2026-ppg-aug"
+    ],
+    "source": "authored:2026-09-25 from m6-p09, m6-p10, m6-p11, m6-p12, m6-p13, cq-m06-1"
+   },
+   "metadata": {
+    "activity": {
+     "version": "1.1",
+     "sources": [
+      "m6-p12 audioScript, sentence 2",
+      "m6-p12 body, sentence 2",
+      "m6-p12 audioScript, sentences 3-4",
+      "m6-p10 tool.callout",
+      "m6-p09 stat.means, sentence 1",
+      "m6-p10 tool item 'CJC-1295 without DAC ('Mod GRF 1-29')'",
+      "m6-p10 interaction labels 'none', 'levels', 'approval'",
+      "m6-p10 interaction, item 'cjc-nodac' why",
+      "m6-p10 interaction, item 'cjc-dac' why, sentence 2",
+      "m6-p12 beat 1, sentence 2",
+      "m6-p12 audioScript, sentence 6",
+      "m6-p12 audioScript, sentences 7-8",
+      "m6-p11 tool row 'Ipamorelin · CJC-1295', note sentence 1",
+      "cq-m06-1 rationale",
+      "m6-p11 body, sentence 2",
+      "m6-p11 tool.callout, sentence 1",
+      "m6-p13 quiz, option 3 why"
+     ]
+    }
+   }
+  },
+  {
    "id": "m6-p13",
    "type": "quiz",
-   "time": "14 / 20",
+   "time": "18 / 25",
    "lead": {
     "en": "Your turn"
    },
@@ -1517,7 +2059,7 @@
   {
    "id": "m6-p14",
    "type": "audio",
-   "time": "15 / 20",
+   "time": "19 / 25",
    "lead": {
     "en": "Lesson 6.3 · Recognition"
    },
@@ -1596,7 +2138,7 @@
   {
    "id": "m6-p15",
    "type": "tool",
-   "time": "16 / 20",
+   "time": "20 / 25",
    "lead": {
     "en": "Four registers"
    },
@@ -1683,7 +2225,7 @@
   {
    "id": "m6-p16",
    "type": "stat",
-   "time": "17 / 20",
+   "time": "21 / 25",
    "lead": {
     "en": "The evidence"
    },
@@ -1716,9 +2258,160 @@
    }
   },
   {
+   "id": "m6-x05",
+   "type": "tool",
+   "time": "22 / 25",
+   "lead": {
+    "en": "Practice"
+   },
+   "title": {
+    "en": "A clinic page, read line by line."
+   },
+   "body": {
+    "en": "Separate the physiology from the promise."
+   },
+   "citationRefs": [
+    "veldhuis-2008-somatotropic-ageing",
+    "tavakkol-1992-gh-receptor-skin",
+    "edmondson-2003-epidermal-gh-igf",
+    "dominikowski-2026-gh-axis-peptides-review",
+    "falutz-2010-tesamorelin-pooled",
+    "egrifta-wr-label-2026",
+    "genotropin-label-2026",
+    "liu-2007-gh-healthy-elderly",
+    "hannah-shmouni-2026-are",
+    "hannah-shmouni-2026-ppg-aug"
+   ],
+   "sourceNote": "Veldhuis 2008 · Tavakkol 1992 · Dominikowski 2026 · Falutz 2010 · EGRIFTA WR prescribing information · somatropin label · Liu 2007 · both Hormonaly guides",
+   "interaction": {
+    "kind": "inspect",
+    "title": {
+     "en": "Physiology or promise?"
+    },
+    "prompt": {
+     "en": "A fictional clinic page for a growth-hormone peptide. Find the lines the evidence does not support."
+    },
+    "segments": [
+     {
+      "id": "somatopause",
+      "suspect": false,
+      "text": {
+       "en": "Growth hormone and IGF-1 fall steadily from early adulthood."
+      },
+      "why": {
+       "en": "Sound. GH pulses and IGF-1 fall from early adulthood: the somatopause, a normal part of ageing."
+      }
+     },
+     {
+      "id": "age-band",
+      "suspect": true,
+      "text": {
+       "en": "If your IGF-1 is below the range for a 30-year-old, your body needs topping up."
+      },
+      "why": {
+       "en": "Reference ranges are age-adjusted, so an IGF-1 that is low for a 25-year-old is often normal for the patient's age. Treat a diagnosis, not a number read against the wrong age band."
+      }
+     },
+     {
+      "id": "fibroblasts",
+      "suspect": false,
+      "text": {
+       "en": "In laboratory studies, growth hormone acts on dermal fibroblasts and supports collagen synthesis."
+      },
+      "why": {
+       "en": "Sound, as mechanism: in culture growth hormone increases fibroblast numbers and supports collagen synthesis. It explains why the axis could matter for skin, not whether changing it helps a patient."
+      }
+     },
+     {
+      "id": "proven",
+      "suspect": true,
+      "text": {
+       "en": "Our CJC-1295 and ipamorelin injections are clinically proven to thicken skin."
+      },
+      "why": {
+       "en": "A PubMed search in September 2026 found no randomized trial with a skin outcome for tesamorelin, CJC-1295, ipamorelin or IGF-1 LR3."
+      }
+     },
+     {
+      "id": "tesamorelin",
+      "suspect": false,
+      "text": {
+       "en": "Tesamorelin, a peptide on the same axis, is FDA-approved."
+      },
+      "why": {
+       "en": "Sound, for one use: FDA-approved since 2010 to reduce excess abdominal fat in adults with HIV-associated lipodystrophy."
+      }
+     },
+     {
+      "id": "borrowed-approval",
+      "suspect": true,
+      "text": {
+       "en": "Our blend works the same way, so it carries the same clinical backing."
+      },
+      "why": {
+       "en": "A GRADE A travels with its indication; the molecule does not carry it anywhere else. Different molecules, different evidence, different regulatory standing."
+      }
+     },
+     {
+      "id": "natural-safe",
+      "suspect": true,
+      "text": {
+       "en": "It is natural and free of side-effects, because it only releases your own growth hormone."
+      },
+      "why": {
+       "en": "Drugs on this axis bring their own signs: fluid retention with swelling, joint pain, tingling and carpal tunnel symptoms. Even tesamorelin, used as labelled in its pivotal trials, pushed IGF-1 more than two standard deviations above the mean in 47% of treated patients."
+      }
+     }
+    ],
+    "hint": {
+     "en": "Look for a true fact stretched into a promise: ageing read as deficiency, mechanism as proof, one molecule's approval as another's, 'your own hormone' as 'safe'."
+    },
+    "done": {
+     "en": "Three lines are real endocrinology; the other four borrow it for a promise."
+    },
+    "citationRefs": [
+     "veldhuis-2008-somatotropic-ageing",
+     "tavakkol-1992-gh-receptor-skin",
+     "edmondson-2003-epidermal-gh-igf",
+     "dominikowski-2026-gh-axis-peptides-review",
+     "falutz-2010-tesamorelin-pooled",
+     "egrifta-wr-label-2026",
+     "genotropin-label-2026",
+     "liu-2007-gh-healthy-elderly",
+     "hannah-shmouni-2026-are",
+     "hannah-shmouni-2026-ppg-aug"
+    ],
+    "source": "authored:2026-09-25 from m6-p01, m6-p02, m6-p05, m6-p06, m6-p08, m6-p09, m6-p13, m6-p14, m6-p16"
+   },
+   "metadata": {
+    "activity": {
+     "version": "1.1",
+     "sources": [
+      "m6-p01 body, sentence 3",
+      "m6-p01 title",
+      "m6-p02 beat 3, sentence 1",
+      "m6-p02 audioScript, sentence 7",
+      "m6-p05 audioScript, sentence 9",
+      "m6-p05 audioScript, sentence 2",
+      "m6-p06 quiz prompt",
+      "m6-p02 beat 3, sentence 2",
+      "m6-p06 quiz feedback",
+      "m6-p02 audioScript, sentences 3, 9 and 10",
+      "m6-p09 body, sentence 1",
+      "m6-p08 tool row 'US status (label, August 2026)'",
+      "m6-p08 tool.callout",
+      "m6-p13 quiz, option 2 why",
+      "m6-p14 body, sentence 3",
+      "m6-p16 body, sentence 2",
+      "m6-p16 stat.means"
+     ]
+    }
+   }
+  },
+  {
    "id": "m6-p17",
    "type": "audio",
-   "time": "18 / 20",
+   "time": "23 / 25",
    "lead": {
     "en": "Fictional case"
    },
@@ -1873,7 +2566,7 @@
   {
    "id": "m6-p18",
    "type": "quiz",
-   "time": "19 / 20",
+   "time": "24 / 25",
    "lead": {
     "en": "Your turn"
    },
@@ -1931,7 +2624,7 @@
   {
    "id": "m6-p19",
    "type": "action",
-   "time": "20 / 20",
+   "time": "25 / 25",
    "lead": {
     "en": "Closing and commitment"
    },
@@ -2643,6 +3336,36 @@
    "forReview": "Omar Saleem (product owner)",
    "confirmedBy": "Omar Saleem, product owner (editorial; no medical content changed)",
    "confirmedAt": "2026-09-26"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m6-x01",
+   "change": "New practice (1.1): hotspots — where growth hormone and IGF-1 act in skin, found on the m6-p02 illustration (growth-hormone receptors on fibroblasts, IGF-1 supplied by the dermis, IGF-1 receptors on keratinocytes, collagen in the dermis); hedged 'Mechanism'. Built only from approved sentences (m6-p02).",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m6-x02",
+   "change": "New practice (1.1): sequence — the four routes into the growth-hormone axis in order, upstream to downstream (the pituitary: GHRH analogues and ghrelin-receptor agonists; growth hormone itself: somatropin; the IGF-1 receptor: IGF-1 analogues); no liver step. Built only from approved sentences (m6-p07).",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m6-x03",
+   "change": "New practice (1.1): classify — five growth-hormone results graded by design (randomized trial in people · small or uncontrolled human data · mechanism, cells in culture): fibroblasts in culture, the 1990 skin-thickness study, the 1996 wound-tube trial, the 1997 caliper study, the pooled healthy-ageing trials. Built only from approved sentences (m6-p02, m6-p03, m6-p04, m6-p05, m6-p09).",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m6-x04",
+   "change": "New practice (1.1): branching — a fictional 'CJC' request worked in three decisions in the lesson's order: which molecule (with or without DAC), what stands behind it (no human studies for the non-DAC form), and US status (not on the 503A bulks list; nomination withdrawn). Built only from approved sentences (m6-p09, m6-p10, m6-p11, m6-p12, m6-p13, cq-m06-1).",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m6-x05",
+   "change": "New practice (1.1): inspect — a fictional clinic page for a growth-hormone peptide: three sound lines (the somatopause, the fibroblast mechanism, tesamorelin's US approval) and four unsupported ones (an IGF-1 read against a young age band, 'clinically proven' skin thickening, a borrowed approval, 'natural and free of side-effects'). Built only from approved sentences (m6-p01, m6-p02, m6-p05, m6-p06, m6-p08, m6-p09, m6-p13, m6-p14, m6-p16).",
+   "forReview": "Fady Hannah-Shmouni"
   }
  ],
  "mediaChanges": [

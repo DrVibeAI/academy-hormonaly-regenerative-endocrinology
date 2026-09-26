@@ -2,7 +2,7 @@
   "format": "cinematic/1",
   "id": "m02-opener",
   "title": "Module 02 opener — Hormones and Peptides for Skin",
-  "note": "Module opener in the cinematic lane (docs/motion-contract.md § 10b), same look and rules as the Module 1 opener. Script assembled only from approved text (sources below); presenter lines pass the course script review; draft media until the media preview.",
+  "note": "Module opener in the cinematic lane (docs/motion-contract.md § 10b), same look and rules as the Module 1 opener. Script assembled only from approved text (sources below); presenter lines pass the course script review; draft media until the media preview. Revision 3 (Omar 2026-09-25: \"for the hormones we mention like crh, acth … a diagram of the hormone axis and then also the pathway of the cortisone to active cortisol\"; \"move from gross b-roll like the sunlight shining on the skin and then it zooms in … an illustration\"): the axis and the conversion are drawn on their words (content.diagram); the sunlit hand dives into the skin block on \"it sets local cortisol\"; the dermis plate is marked as mouse data. Narration unchanged.",
   "script": {
     "text": "Most skin changes you see are ageing or lifestyle. A few are the first visible sign of endocrine disease. In three lessons you will separate them: what local and systemic hormones do to skin, what hormone therapy can and cannot do for it, and which signs belong with an endocrinologist. Picture the skin as a small endocrine organ with its own stress axis. Skin cells make CRH and ACTH, the same signals that drive the adrenal glands, and they carry the receptors to respond to them. They also carry an enzyme called eleven beta HSD one, which turns inactive cortisone back into active cortisol inside the cell. In human skin samples that enzyme works harder with age and in sun-exposed skin, and it sets local cortisol independently of the level in the blood. Cortisol slows collagen production in dermal fibroblasts, and mice bred without the enzyme kept their dermal thickness as they aged. Hold all of this in the mechanism register. It comes from biopsies, cultured cells and mice, and it says nothing yet about how a patient's face will age.",
     "sources": [
@@ -168,52 +168,109 @@
       "shape": {
         "kind": "window",
         "fill": "paper",
-        "h": 1280
+        "w": 880,
+        "h": 1180
       },
       "kinetic": null,
       "content": {
-        "image": {
-          "src": "m2-axis.png",
-          "regions": {
-            "adrenal": "the top vignette: the brain, pituitary, blood vessel and the kidney with its adrenal gland",
-            "skin": "the bottom vignette: the strip of skin cells releasing violet signal molecules",
-            "cell": "the single highlighted cell in the middle of the bottom vignette"
-          },
-          "focus": [
+        "diagram": {
+          "layout": "column",
+          "kicker": "The skin's own stress axis",
+          "nodes": [
             {
-              "on": "its own stress axis",
-              "region": "skin",
-              "label": "The skin's own stress axis"
+              "id": "cells",
+              "label": "Skin cells",
+              "on": "its own stress axis"
             },
             {
-              "on": "make CRH and ACTH",
-              "region": "skin",
-              "label": "CRH · ACTH"
+              "id": "crh",
+              "label": "CRH",
+              "on": "make CRH"
             },
             {
-              "on": "drive the adrenal glands",
-              "region": "adrenal",
-              "label": "The adrenal axis"
+              "id": "acth",
+              "label": "ACTH",
+              "on": "and ACTH,"
             },
             {
-              "on": "respond to them",
-              "region": "skin",
-              "label": "…and their receptors"
+              "id": "rec",
+              "label": "Receptors",
+              "sub": "to respond to them",
+              "on": "the receptors"
+            }
+          ],
+          "edges": [
+            {
+              "from": "cells",
+              "to": "crh"
             },
             {
-              "on": "eleven beta HSD one",
-              "region": "cell",
-              "label": "11β-HSD1",
-              "zoom": 1.4
+              "from": "crh",
+              "to": "acth"
             },
             {
-              "on": "active cortisol",
-              "region": "cell",
-              "label": "Cortisone → cortisol",
-              "zoom": 1.4
+              "from": "acth",
+              "to": "rec"
             }
           ]
         }
+      },
+      "chips": [
+        {
+          "id": "adrenal",
+          "on": "the same signals",
+          "text": "The same signals that drive the adrenal glands",
+          "place": "below"
+        }
+      ]
+    },
+    {
+      "id": "convert",
+      "on": "They also carry",
+      "drop": [
+        "adrenal"
+      ],
+      "content": {
+        "diagram": {
+          "layout": "row",
+          "kicker": "Inside the cell",
+          "nodes": [
+            {
+              "id": "cortisone",
+              "label": "Cortisone",
+              "sub": "inactive",
+              "on": "inactive cortisone"
+            },
+            {
+              "id": "cortisol",
+              "label": "Cortisol",
+              "sub": "active",
+              "tone": "violet",
+              "on": "active cortisol"
+            }
+          ],
+          "edges": [
+            {
+              "from": "cortisone",
+              "to": "cortisol",
+              "on": "back into"
+            }
+          ]
+        }
+      },
+      "chips": [
+        {
+          "id": "enzyme",
+          "on": "an enzyme called",
+          "text": "11β-HSD1 · an enzyme in skin cells",
+          "place": "above"
+        }
+      ],
+      "shape": {
+        "kind": "window",
+        "fill": "paper",
+        "w": 880,
+        "h": 760
       }
     },
     {
@@ -244,12 +301,53 @@
         {
           "on": "sun-exposed skin",
           "text": "and in sun-exposed skin"
-        },
-        {
-          "on": "independently of the level",
-          "text": "Independent of blood levels"
         }
+      ],
+      "drop": [
+        "enzyme"
       ]
+    },
+    {
+      "id": "local",
+      "on": "it sets local cortisol",
+      "transition": "dive",
+      "diveInto": [
+        0.5,
+        0.5
+      ],
+      "shape": {
+        "kind": "window",
+        "fill": "paper",
+        "w": 960,
+        "h": 1240
+      },
+      "kinetic": null,
+      "content": {
+        "image": {
+          "src": "diagram-gpt25.png",
+          "regions": {
+            "epidermis": "the thin top layer of the skin block (epidermis)",
+            "vessel": "the small red blood-vessel loop in the dermis"
+          },
+          "from": {
+            "region": "epidermis",
+            "zoom": 2.4
+          },
+          "focus": [
+            {
+              "on": "sets local cortisol",
+              "region": "epidermis",
+              "label": "Local cortisol, set in the skin",
+              "zoom": 1.15
+            },
+            {
+              "on": "independently of",
+              "region": "vessel",
+              "label": "Blood level, separate"
+            }
+          ]
+        }
+      }
     },
     {
       "id": "dermis",
@@ -270,13 +368,17 @@
           "focus": [
             {
               "on": "slows collagen production",
-              "region": "thin",
-              "label": "Cortisol: less collagen"
+              "zoom": 1
             },
             {
               "on": "mice bred without",
               "region": "thick",
-              "label": "No enzyme (mice): dermis kept"
+              "label": "Mice without the enzyme: dermis kept"
+            },
+            {
+              "on": "as they aged",
+              "region": "thin",
+              "label": "Mice with the enzyme"
             }
           ]
         }

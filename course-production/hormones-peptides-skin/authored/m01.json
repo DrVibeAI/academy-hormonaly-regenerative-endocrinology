@@ -15,7 +15,7 @@
   "description": {
    "en": "Lesson 1.1 The skin as a steroidogenic, endocrine organ · Lesson 1.2 Receptor maps and what they prove · Lesson 1.3 Senescence, the SASP and the ageing dermis."
   },
-  "estimatedMinutes": 25,
+  "estimatedMinutes": 36,
   "sortOrder": 1,
   "isRequired": true,
   "status": "ai_draft",
@@ -61,7 +61,9 @@
     "m1-p03",
     "m1-p04",
     "m1-p05",
+    "m1-x01",
     "m1-p06",
+    "m1-x02",
     "m1-p07"
    ]
   },
@@ -75,6 +77,7 @@
     "m1-p09",
     "m1-p10",
     "m1-p11",
+    "m1-x03",
     "m1-p12"
    ]
   },
@@ -85,9 +88,11 @@
    },
    "blocks": [
     "m1-p13",
+    "m1-x04",
     "m1-p14",
     "m1-p15",
     "m1-p16",
+    "m1-x05",
     "m1-p17",
     "m1-p18",
     "m1-p19"
@@ -98,7 +103,7 @@
   {
    "id": "m1-p01",
    "type": "title",
-   "time": "01 / 20",
+   "time": "01 / 25",
    "lead": {
     "en": "Module 01 · The skin as an endocrine organ"
    },
@@ -155,12 +160,12 @@
      "rule": "verbatim approved sentences only"
     }
    },
-   "time": "02 / 20"
+   "time": "02 / 25"
   },
   {
    "id": "m1-p02",
    "type": "reflection",
-   "time": "03 / 20",
+   "time": "03 / 25",
    "lead": {
     "en": "Your role"
    },
@@ -217,7 +222,7 @@
   {
    "id": "m1-p03",
    "type": "audio",
-   "time": "04 / 20",
+   "time": "04 / 25",
    "lead": {
     "en": "Lesson 1.1 · Concept"
    },
@@ -296,7 +301,7 @@
   {
    "id": "m1-p04",
    "type": "tool",
-   "time": "05 / 20",
+   "time": "05 / 25",
    "lead": {
     "en": "Mechanism"
    },
@@ -394,7 +399,7 @@
   {
    "id": "m1-p05",
    "type": "tool",
-   "time": "06 / 20",
+   "time": "06 / 25",
    "lead": {
     "en": "Local or systemic"
    },
@@ -575,9 +580,100 @@
    }
   },
   {
+   "id": "m1-x01",
+   "type": "tool",
+   "time": "07 / 25",
+   "lead": {
+    "en": "Practice"
+   },
+   "title": {
+    "en": "An HPA-like loop inside the follicle."
+   },
+   "body": {
+    "en": "Human scalp follicles kept alive in culture run a shortened copy of the body's central hormone axis."
+   },
+   "citationRefs": [
+    "ito-2005-hair-follicle-hpa",
+    "slominski-2013-skin-steroidogenesis",
+    "hannah-shmouni-2026-are"
+   ],
+   "sourceNote": "Ito 2005 · Slominski 2013 · Aesthetic & Regenerative Endocrinology, ch. 6",
+   "interaction": {
+    "kind": "sequence",
+    "title": {
+     "en": "From CRH to cortisol, and back"
+    },
+    "prompt": {
+     "en": "Put the follicle's loop in order, from the first signal to the feedback."
+    },
+    "steps": [
+     {
+      "id": "crh",
+      "label": {
+       "en": "CRH"
+      },
+      "why": {
+       "en": "First. The loop opens with CRH; the skin runs shortened copies of the body's central hormone axes."
+      }
+     },
+     {
+      "id": "acth",
+      "label": {
+       "en": "ACTH"
+      },
+      "why": {
+       "en": "Second. CRH leads to ACTH, the order of the HPA axis this loop is named after."
+      }
+     },
+     {
+      "id": "cortisol",
+      "label": {
+       "en": "Cortisol"
+      },
+      "why": {
+       "en": "Third. The follicles make cortisol themselves, in human tissue kept alive outside the body."
+      }
+     },
+     {
+      "id": "feedback",
+      "label": {
+       "en": "Feedback: the follicle's own CRH switched off"
+      },
+      "why": {
+       "en": "Last. The loop runs with feedback: the follicles switch off their own CRH. Made and used inside the skin, it is a local loop."
+      }
+     }
+    ],
+    "done": {
+     "en": "CRH, ACTH, cortisol, then feedback: a shortened copy of the central axis, running in human follicles kept alive in culture."
+    },
+    "citationRefs": [
+     "ito-2005-hair-follicle-hpa",
+     "slominski-2013-skin-steroidogenesis",
+     "hannah-shmouni-2026-are"
+    ],
+    "source": "authored:2026-09-25 from m1-p04 (HPA-like loop row) + m1-p03 (local loop) + registry m01 (claim c-m01-03)",
+    "hedge": {
+     "en": "Ex vivo, human tissue"
+    }
+   },
+   "metadata": {
+    "activity": {
+     "version": "1.1",
+     "sources": [
+      "m1-p04 tool, row 'HPA-like loop', value: 'CRH → ACTH → cortisol, with feedback'",
+      "m1-p04 tool, row 'HPA-like loop', note, sentences 1–2",
+      "m1-p04 body, sentences 1–2",
+      "m1-p03 audioScript, sentence 7",
+      "m1-p05 interaction item 'follicle-cortisol', label (wording of the feedback step, 'switch off their own CRH'; claim c-m01-03 is located at m1-p04)"
+     ]
+    }
+   }
+  },
+  {
    "id": "m1-p06",
    "type": "audio",
-   "time": "07 / 20",
+   "time": "08 / 25",
    "lead": {
     "en": "What changes in practice"
    },
@@ -665,9 +761,173 @@
    }
   },
   {
+   "id": "m1-x02",
+   "type": "tool",
+   "time": "09 / 25",
+   "lead": {
+    "en": "Practice"
+   },
+   "title": {
+    "en": "'Which serum for my dry skin?'"
+   },
+   "body": {
+    "en": "A fictional case in three decisions, built from this lesson's guidance."
+   },
+   "citationRefs": [
+    "hannah-shmouni-2026-are",
+    "safer-2011-thyroid-skin",
+    "mancino-2021-thyroid-epidermis",
+    "slominski-2013-skin-steroidogenesis"
+   ],
+   "sourceNote": "Fictional case · Aesthetic & Regenerative Endocrinology, ch. 5–6 · Safer 2011 · Mancino 2021 · Slominski 2013",
+   "interaction": {
+    "kind": "branching",
+    "title": {
+     "en": "Dry skin, or a thyroid question?"
+    },
+    "prompt": {
+     "en": "Work through her visit one decision at a time."
+    },
+    "setup": {
+     "en": "Fictional case. A 44-year-old asks which serum would help her skin. Over the past year it has become coarse, dry and cool."
+    },
+    "start": "start",
+    "nodes": [
+     {
+      "id": "start",
+      "prompt": {
+       "en": "What do you do first?"
+      },
+      "options": [
+       {
+        "value": "richer-serum",
+        "label": {
+         "en": "Suggest a richer serum and see how her skin responds."
+        },
+        "why": {
+         "en": "That reaches for a serum first. The guide asks you to read the skin as a window on the whole endocrine system before reaching for a serum."
+        }
+       },
+       {
+        "value": "read-as-screen",
+        "label": {
+         "en": "Read the change as a possible sign of an underactive thyroid, before any product."
+        },
+        "why": {
+         "en": "Right. Coarse, dry, cool skin suggests an underactive thyroid, and the guide treats the aesthetic exam as a systemic screen."
+        },
+        "correct": true,
+        "next": "n2"
+       },
+       {
+        "value": "skin-alone",
+        "label": {
+         "en": "Tell her dry skin is a problem for the skin alone."
+        },
+        "why": {
+         "en": "A skin finding can be the visible sign of a systemic disorder, and knowing which way the signal runs decides whether the answer lies in the skin or in a systemic assessment."
+        }
+       }
+      ]
+     },
+     {
+      "id": "n2",
+      "prompt": {
+       "en": "Her skin suggests an underactive thyroid. What comes before any cosmetic plan?"
+      },
+      "options": [
+       {
+        "value": "systemic-answer",
+        "label": {
+         "en": "A systemic answer: a prescriber assesses or refers her, and the discussion is recorded."
+        },
+        "why": {
+         "en": "Right. Whatever your role, a systemic pattern in the skin gets a systemic answer, before any cosmetic plan."
+        },
+        "correct": true,
+        "next": "n3"
+       },
+       {
+        "value": "serum-first",
+        "label": {
+         "en": "Start the serum now, and look at her thyroid only if it fails."
+        },
+        "why": {
+         "en": "A serum cannot answer a systemic question. The pattern is assessed or referred before any cosmetic plan."
+        }
+       }
+      ]
+     },
+     {
+      "id": "n3",
+      "prompt": {
+       "en": "She has read that skin runs its own thyroid-like loop and asks for a cream to restore it. What do you tell her?"
+      },
+      "options": [
+       {
+        "value": "cream-too",
+        "label": {
+         "en": "That a cream is reasonable alongside the assessment, because the loop is real."
+        },
+        "why": {
+         "en": "The guide is explicit that local loops are no rationale for dosing anyone with a hormone, and this one rests mostly on mouse models."
+        }
+       },
+       {
+        "value": "no-loops",
+        "label": {
+         "en": "That skin has no hormone loops of its own."
+        },
+        "why": {
+         "en": "Skin does run shortened copies of the body's central hormone axes. They explain how skin behaves; they do not justify prescribing a hormone."
+        }
+       },
+       {
+        "value": "foundation",
+        "label": {
+         "en": "That the loop rests mostly on mouse models, and that local loops explain biology but are no reason to dose anyone with a hormone."
+        },
+        "why": {
+         "en": "Right. The skin's thyroid-like loop comes mostly from mouse models, and the guide calls a local axis foundation, not a dosing rationale."
+        },
+        "correct": true
+       }
+      ]
+     }
+    ],
+    "done": {
+     "en": "Read the skin as a screen, give a systemic pattern a systemic answer, and keep local loops as foundation biology, never a reason to prescribe a hormone."
+    },
+    "citationRefs": [
+     "hannah-shmouni-2026-are",
+     "safer-2011-thyroid-skin",
+     "mancino-2021-thyroid-epidermis",
+     "slominski-2013-skin-steroidogenesis"
+    ],
+    "source": "authored:2026-09-25 from m1-p06 (+ its role versions) + m1-p05 + m1-p04"
+   },
+   "metadata": {
+    "activity": {
+     "version": "1.1",
+     "sources": [
+      "m1-p06 body, sentences 1–2 and 4",
+      "m1-p06 audioScript, sentences 2, 4, 8 and 9",
+      "m1-p06 variants.audienceLevel.prescriber, sentence 1",
+      "m1-p06 variants.audienceLevel.clinical-staff, sentence 1",
+      "m1-p06 variants.audienceLevel.advisor, sentences 1–2",
+      "m1-p05 body, sentence 5",
+      "m1-p05 tool, row 'Body to skin', note",
+      "m1-p04 body, sentence 1",
+      "m1-p04 tool, row 'Thyroid-like loop', value and note",
+      "m1-p04 tool callout"
+     ]
+    }
+   }
+  },
+  {
    "id": "m1-p07",
    "type": "quiz",
-   "time": "08 / 20",
+   "time": "10 / 25",
    "lead": {
     "en": "Your turn"
    },
@@ -724,7 +984,7 @@
   {
    "id": "m1-p08",
    "type": "audio",
-   "time": "09 / 20",
+   "time": "11 / 25",
    "lead": {
     "en": "Lesson 1.2 · Concept"
    },
@@ -801,7 +1061,7 @@
   {
    "id": "m1-p09",
    "type": "stat",
-   "time": "10 / 20",
+   "time": "12 / 25",
    "lead": {
     "en": "What the atlas is"
    },
@@ -837,7 +1097,7 @@
   {
    "id": "m1-p10",
    "type": "tool",
-   "time": "11 / 20",
+   "time": "13 / 25",
    "lead": {
     "en": "Sort the evidence"
    },
@@ -998,7 +1258,7 @@
   {
    "id": "m1-p11",
    "type": "audio",
-   "time": "12 / 20",
+   "time": "14 / 25",
    "lead": {
     "en": "What changes in practice"
    },
@@ -1087,9 +1347,129 @@
    }
   },
   {
+   "id": "m1-x03",
+   "type": "tool",
+   "time": "15 / 25",
+   "lead": {
+    "en": "Practice"
+   },
+   "title": {
+    "en": "A serum page, line by line."
+   },
+   "body": {
+    "en": "A fictional product page that leans on the cell atlas."
+   },
+   "citationRefs": [
+    "fei-2026-hormone-cell-atlas",
+    "hormone-cell-atlas-portal",
+    "neale-2019-sunscreen-vitamin-d",
+    "hannah-shmouni-2026-are"
+   ],
+   "sourceNote": "Fictional product page · Fei & Huang-Doran, Science 2026 · hormonecellatlas.org.uk · Neale 2019 · Aesthetic & Regenerative Endocrinology, ch. 6–7",
+   "interaction": {
+    "kind": "inspect",
+    "title": {
+     "en": "Where the page overreaches"
+    },
+    "prompt": {
+     "en": "A fictional product page. Find the lines this lesson's evidence does not support."
+    },
+    "hint": {
+     "en": "Hold each line against what an RNA map can show, what a receptor can promise, how skin changes a hormone's strength, and what the sunscreen trials found."
+    },
+    "segments": [
+     {
+      "id": "atlas",
+      "text": {
+       "en": "The Hormone Cell Atlas (Science, 2026) read the RNA for 379 hormone and receptor genes in about 14 million cells and nuclei, skin among them."
+      },
+      "suspect": false,
+      "why": {
+       "en": "Accurate. The atlas read RNA in about 14 million cells and nuclei from 47 human tissues, skin among them; it did not measure hormone release."
+      }
+     },
+     {
+      "id": "proof",
+      "text": {
+       "en": "It proves your skin responds to the hormone in this serum."
+      },
+      "suspect": true,
+      "why": {
+       "en": "The atlas predicts from RNA, and its own portal calls the scores 'putative and hypothesis-generating'. It does not show that a hormone acts in skin."
+      }
+     },
+     {
+      "id": "receptors",
+      "text": {
+       "en": "Treatments applied to the skin act through receptors the skin already carries."
+      },
+      "suspect": false,
+      "why": {
+       "en": "Supported. Receptors explain how a topical could act; whether this one does is a question for a human trial."
+      }
+     },
+     {
+      "id": "results",
+      "text": {
+       "en": "So those receptors guarantee visible results."
+      },
+      "suspect": true,
+      "why": {
+       "en": "A receptor gene on the map is not evidence that a product aimed at it works. The receptor is where an efficacy question starts, and the answer still needs a trial."
+      }
+     },
+     {
+      "id": "strength",
+      "text": {
+       "en": "Your skin's response always matches the strength on the label."
+      },
+      "suspect": true,
+      "why": {
+       "en": "The skin's own enzymes change how strongly a hormone acts once it arrives, so the response in skin can differ from what the dose predicts."
+      }
+     },
+     {
+      "id": "sunscreen",
+      "text": {
+       "en": "Skip sunscreen on serum days, so your skin can make its own vitamin D."
+      },
+      "suspect": true,
+      "why": {
+       "en": "Sunscreen blocks vitamin D synthesis under artificial UV, yet field trials of daily use did not lower blood levels, and high-protection products have not been trialled. Keep recommending sun protection, and treat vitamin D as its own question."
+      }
+     }
+    ],
+    "done": {
+     "en": "Four lines overreach: an RNA prediction presented as proof, a receptor as a result, the label's strength as the skin's response, and vitamin D as a reason to drop sunscreen."
+    },
+    "citationRefs": [
+     "fei-2026-hormone-cell-atlas",
+     "hormone-cell-atlas-portal",
+     "neale-2019-sunscreen-vitamin-d",
+     "hannah-shmouni-2026-are"
+    ],
+    "source": "authored:2026-09-25 from m1-p08, m1-p09, m1-p11"
+   },
+   "metadata": {
+    "activity": {
+     "version": "1.1",
+     "sources": [
+      "m1-p08 body, sentences 1–3",
+      "m1-p09 body, sentence 1",
+      "m1-p09 stat.doesNot, sentences 1–2",
+      "m1-p11 body, sentence 1",
+      "m1-p11 audioBeats 1 ('Claims built on receptors'), sentences 1–2",
+      "m1-p11 audioScript, sentences 3–4",
+      "m1-p11 audioBeats 3 ('Sunscreen and vitamin D'), sentences 1–2",
+      "m1-p11 audioScript, sentences 7–8"
+     ]
+    }
+   }
+  },
+  {
    "id": "m1-p12",
    "type": "quiz",
-   "time": "13 / 20",
+   "time": "16 / 25",
    "lead": {
     "en": "Your turn"
    },
@@ -1146,7 +1526,7 @@
   {
    "id": "m1-p13",
    "type": "audio",
-   "time": "14 / 20",
+   "time": "17 / 25",
    "lead": {
     "en": "Lesson 1.3 · Concept"
    },
@@ -1225,9 +1605,112 @@
    }
   },
   {
+   "id": "m1-x04",
+   "type": "tool",
+   "time": "18 / 25",
+   "lead": {
+    "en": "Practice"
+   },
+   "title": {
+    "en": "Stopped for good, still secreting."
+   },
+   "body": {
+    "en": "A senescent cell beside one that still divides."
+   },
+   "citationRefs": [
+    "coppe-2008-sasp",
+    "ho-dreesen-2021-skin-senescence",
+    "wang-dreesen-2018-senescence-biomarkers",
+    "hannah-shmouni-2026-are"
+   ],
+   "sourceNote": "Coppé 2008 · Ho & Dreesen 2021 · Wang & Dreesen 2018 · Aesthetic & Regenerative Endocrinology, ch. 7",
+   "interaction": {
+    "kind": "hotspots",
+    "title": {
+     "en": "Dividing, senescent, secreting"
+    },
+    "prompt": {
+     "en": "Find the cell that still divides, the senescent cell and the SASP it releases."
+    },
+    "imageAssetRef": "asset-hormones-peptides-skin-image-m1-p13-img",
+    "hotspots": [
+     {
+      "id": "dividing",
+      "at": [
+       28.8,
+       41
+      ],
+      "radius": 14.5,
+      "label": {
+       "en": "A dividing cell"
+      },
+      "why": {
+       "en": "On the left, a cell divides into two. A cell that has taken enough damage stops dividing for good, which helps guard against cancer and is useful during wound repair."
+      }
+     },
+     {
+      "id": "senescent",
+      "at": [
+       72.2,
+       43.4
+      ],
+      "radius": 12.9,
+      "label": {
+       "en": "A senescent cell"
+      },
+      "why": {
+       "en": "It has stopped dividing for good but stays metabolically active. Fibroblasts, keratinocytes and melanocytes can all become senescent."
+      }
+     },
+     {
+      "id": "sasp",
+      "at": [
+       71,
+       42.3
+      ],
+      "radius": 20,
+      "label": {
+       "en": "The SASP"
+      },
+      "why": {
+       "en": "What it releases: inflammatory cytokines such as IL-6 and IL-8, enzymes that break down matrix, and growth factors. This secretory profile was characterised in cultured cells."
+      }
+     }
+    ],
+    "done": {
+     "en": "Three found: a cell that still divides, a senescent cell that has stopped for good, and the SASP it keeps releasing."
+    },
+    "citationRefs": [
+     "coppe-2008-sasp",
+     "ho-dreesen-2021-skin-senescence",
+     "wang-dreesen-2018-senescence-biomarkers"
+    ],
+    "source": "authored:2026-09-25 from m1-p13 (body, audioScript, points) on its approved teaching still",
+    "hedge": {
+     "en": "SASP: characterised in cultured cells"
+    }
+   },
+   "metadata": {
+    "activity": {
+     "version": "1.1",
+     "sources": [
+      "m1-p13 body, sentences 1–2",
+      "m1-p13 audioScript, sentences 2, 4, 5 and 7",
+      "m1-p13 points 1–2",
+      "m1-p13 teachingVisual.alt, sentence 1 (the picture's two halves)"
+     ],
+     "hotspotFind": {
+      "dividing": "Left half of the picture, centre: three pale spindle-shaped cells with grey nuclei joined by a narrow pinched bridge, one cell splitting into two",
+      "senescent": "Right half of the picture, centre: the single large, flattened, lens-shaped pale cell with a big grey oval nucleus",
+      "sasp": "Right half of the picture: the halo of small violet dots around the large flattened cell; place the spot on the dots themselves (the upper-left arc of the halo), clear of the cell body"
+     }
+    }
+   }
+  },
+  {
    "id": "m1-p14",
    "type": "stat",
-   "time": "15 / 20",
+   "time": "19 / 25",
    "lead": {
     "en": "Human evidence"
    },
@@ -1261,7 +1744,7 @@
   {
    "id": "m1-p15",
    "type": "tool",
-   "time": "16 / 20",
+   "time": "20 / 25",
    "lead": {
     "en": "Four registers"
    },
@@ -1339,7 +1822,7 @@
   {
    "id": "m1-p16",
    "type": "audio",
-   "time": "17 / 20",
+   "time": "21 / 25",
    "lead": {
     "en": "Where the evidence is strongest"
    },
@@ -1417,9 +1900,160 @@
    }
   },
   {
+   "id": "m1-x05",
+   "type": "tool",
+   "time": "22 / 25",
+   "lead": {
+    "en": "Practice"
+   },
+   "title": {
+    "en": "From the dish to the trial."
+   },
+   "body": {
+    "en": "Six findings from this lesson, and the evidence under each."
+   },
+   "citationRefs": [
+    "hughes-2013-sunscreen-skin-aging-rct",
+    "sitohang-2022-tretinoin-sr",
+    "hannah-shmouni-2026-are",
+    "waaijer-2016-p16-wrinkles",
+    "chung-2019-topical-rapamycin",
+    "hickson-2019-senolytic-dkd-pilot",
+    "haykal-2026-dermatology-senotherapeutics",
+    "baker-2016-p16-clearance-mice",
+    "xu-2018-senolytics-mice",
+    "coppe-2008-sasp"
+   ],
+   "sourceNote": "Hughes 2013 · Sitohang 2022 · Waaijer 2016 · Chung 2019 · Hickson 2019 · Haykal 2026 · Baker 2016 · Xu 2018 · Coppé 2008 · Aesthetic & Regenerative Endocrinology, ch. 5 and 7",
+   "interaction": {
+    "kind": "classify",
+    "title": {
+     "en": "What stands behind it?"
+    },
+    "prompt": {
+     "en": "Sort each finding by the strongest evidence behind it."
+    },
+    "labels": [
+     {
+      "value": "trial",
+      "label": {
+       "en": "Randomized trials with clinical skin outcomes"
+      },
+      "tone": "good"
+     },
+     {
+      "value": "human",
+      "label": {
+       "en": "Human association or biomarker pilots"
+      },
+      "tone": "neutral"
+     },
+     {
+      "value": "lab",
+      "label": {
+       "en": "Mice or cultured cells only"
+      },
+      "tone": "neutral"
+     }
+    ],
+    "items": [
+     {
+      "id": "daily-sunscreen",
+      "label": {
+       "en": "Daily sunscreen for four and a half years slowed photoageing"
+      },
+      "answer": "trial",
+      "why": {
+       "en": "GRADE B. A community trial randomized 903 adults to daily or discretionary sunscreen, and skin ageing was about a quarter lower with daily use."
+      }
+     },
+     {
+      "id": "tretinoin",
+      "label": {
+       "en": "Topical tretinoin improves photoageing"
+      },
+      "answer": "trial",
+      "why": {
+       "en": "Randomized trials of tretinoin in photoaged skin agree with one another, and the guide rates topical retinoids first-line, GRADE A."
+      }
+     },
+     {
+      "id": "p16-wrinkles",
+      "label": {
+       "en": "More p16-positive cells in arm skin went with more facial wrinkles and an older look"
+      },
+      "answer": "human",
+      "why": {
+       "en": "An association from one observational cohort of 178 adults. It does not show that senescent cells cause wrinkles."
+      }
+     },
+     {
+      "id": "rapamycin-p16",
+      "label": {
+       "en": "Topical rapamycin lowered p16 in human skin"
+      },
+      "answer": "human",
+      "why": {
+       "en": "An exploratory randomized trial (36 enrolled, 19 dropped out) that measured a tissue marker; clinical change was only described. No adequately sized trial with clinical skin-ageing outcomes was found (September 2026)."
+      }
+     },
+     {
+      "id": "mouse-clearance",
+      "label": {
+       "en": "Clearing p16-positive cells, or giving senolytic drugs, extends healthy lifespan"
+      },
+      "answer": "lab",
+      "why": {
+       "en": "Causation, in mice. Skin was checked only for safety, and clearing these cells during healing slowed wound closure."
+      }
+     },
+     {
+      "id": "sasp-culture",
+      "label": {
+       "en": "Senescent cells release IL-6, IL-8, matrix-degrading enzymes and growth factors"
+      },
+      "answer": "lab",
+      "why": {
+       "en": "The SASP was characterised in human cells grown in the laboratory after DNA damage: a finding from the dish."
+      }
+     }
+    ],
+    "done": {
+     "en": "Sunscreen and tretinoin have randomized trials with clinical skin outcomes; the senescence findings stop at human association, biomarker pilots, mice and the dish."
+    },
+    "citationRefs": [
+     "hughes-2013-sunscreen-skin-aging-rct",
+     "sitohang-2022-tretinoin-sr",
+     "hannah-shmouni-2026-are",
+     "waaijer-2016-p16-wrinkles",
+     "chung-2019-topical-rapamycin",
+     "hickson-2019-senolytic-dkd-pilot",
+     "haykal-2026-dermatology-senotherapeutics",
+     "baker-2016-p16-clearance-mice",
+     "xu-2018-senolytics-mice",
+     "coppe-2008-sasp"
+    ],
+    "source": "authored:2026-09-25 from m1-p13, m1-p14, m1-p15, m1-p16"
+   },
+   "metadata": {
+    "activity": {
+     "version": "1.1",
+     "sources": [
+      "m1-p16 body, sentences 1–3",
+      "m1-p16 audioScript, sentences 2–3 and 5",
+      "m1-p16 audioBeats 3 ('Senotherapies'), sentence 1",
+      "m1-p15 body, sentence 1",
+      "m1-p15 tool, rows 'Human evidence', 'Animal evidence' and 'Open question' (notes)",
+      "m1-p14 body, sentence 1; stat.detail; stat.doesNot, sentences 1–2",
+      "m1-p13 points 2; audioScript, sentence 5"
+     ]
+    }
+   }
+  },
+  {
    "id": "m1-p17",
    "type": "audio",
-   "time": "18 / 20",
+   "time": "23 / 25",
    "lead": {
     "en": "Fictional case"
    },
@@ -1574,7 +2208,7 @@
   {
    "id": "m1-p18",
    "type": "quiz",
-   "time": "19 / 20",
+   "time": "24 / 25",
    "lead": {
     "en": "Your turn"
    },
@@ -1634,7 +2268,7 @@
   {
    "id": "m1-p19",
    "type": "action",
-   "time": "20 / 20",
+   "time": "25 / 25",
    "lead": {
     "en": "Closing and commitment"
    },
@@ -2111,6 +2745,36 @@
    "forReview": "Omar Saleem (product owner)",
    "confirmedBy": "Omar Saleem, product owner (editorial; no medical content changed)",
    "confirmedAt": "2026-09-26"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m1-x01",
+   "change": "New practice (1.1): sequence — the hair follicle's HPA-like loop in order: CRH → ACTH → cortisol → feedback that switches the follicle's own CRH off (hedge: ex vivo, human tissue). Built only from approved sentences (m1-p04, m1-p03, m1-p05).",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m1-x02",
+   "change": "New practice (1.1): branching — a fictional three-decision case: coarse, dry, cool skin read as a possible sign of an underactive thyroid; a systemic answer before any cosmetic plan; the skin's thyroid-like loop (mostly mouse models) as no reason to dose anyone with a hormone. Built only from approved sentences (m1-p04, m1-p05, m1-p06).",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m1-x03",
+   "change": "New practice (1.1): inspect — a fictional serum product page with four unsupported lines (the atlas as proof, receptors as guaranteed results, label strength as the skin's response, skipping sunscreen for vitamin D) and two supported ones. Built only from approved sentences (m1-p08, m1-p09, m1-p11).",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m1-x04",
+   "change": "New practice (1.1): hotspots — on the approved m1-p13 still: a dividing cell, a senescent cell and the SASP it releases (hedge: SASP characterised in cultured cells); spot positions still to be grounded from their descriptions. Built only from approved sentences (m1-p13).",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m1-x05",
+   "change": "New practice (1.1): classify (grade the evidence) — six lesson 1.3 findings sorted into randomized trials with clinical skin outcomes (daily sunscreen, GRADE B; tretinoin, topical retinoids GRADE A), human association or biomarker pilots, or mice or cultured cells only. Built only from approved sentences (m1-p13, m1-p14, m1-p15, m1-p16).",
+   "forReview": "Fady Hannah-Shmouni"
   }
  ],
  "reviewNotes": [
