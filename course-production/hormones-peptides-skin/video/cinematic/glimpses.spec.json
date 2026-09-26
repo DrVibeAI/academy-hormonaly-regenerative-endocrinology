@@ -1,0 +1,25 @@
+{
+ "base": "http://localhost:5177/",
+ "viewport": { "w": 390, "h": 844, "dpr": 2 },
+ "storage": { "hormonaly-onboarded": true, "hormonaly-role": "prescriber", "hormonaly-country": "PT" },
+ "css": ".local-auth-banner{display:none!important}",
+ "clips": [
+  { "id": "trial-or-brochure", "path": "/?lesson=4&pane=9", "storage": { "hormonaly-lessons": [1, 2, 3] },
+    "steps": [ { "wait": 500 },
+      { "tap": { "text": "A randomized human trial", "within": "pal-KTTKS" } }, { "wait": 1300 },
+      { "tap": { "text": "No independent randomized trial", "within": "Matrixyl 3000" } }, { "wait": 1300 },
+      { "tap": { "text": "A randomized human trial", "within": "Argireline" } }, { "wait": 1500 } ] },
+  { "id": "audit-certificate", "path": "/?lesson=7&pane=12", "storage": { "hormonaly-lessons": [1, 2, 3, 4, 5, 6] },
+    "steps": [ { "wait": 500 },
+      { "tap": { "text": "Useful, if it matches the vial", "within": "Lot number printed" } }, { "wait": 1200 },
+      { "tap": { "text": "Red flag", "within": "Purity 99.2%" } }, { "wait": 1300 },
+      { "tap": { "text": "Red flag", "within": "Impurities: not listed" } }, { "wait": 1500 } ] },
+  { "id": "glow-case", "path": "/?lesson=4&pane=17", "storage": { "hormonaly-lessons": [1, 2, 3] },
+    "steps": [ { "wait": 700 }, { "scroll": 240 }, { "wait": 500 },
+      { "tap": { "text": "Advise stopping the product" } }, { "wait": 2200 } ] },
+  { "id": "country-rules", "path": "/?lesson=2&pane=11", "storage": { "hormonaly-lessons": [1] },
+    "steps": [ { "wait": 600 }, { "scroll": 300 }, { "wait": 600 },
+      { "tap": { "text": "Other jurisdictions" } }, { "wait": 900 }, { "scroll": 380 }, { "wait": 1400 } ] },
+  { "id": "module-film", "path": "/?lesson=1&pane=1", "settle": 2600, "steps": [ { "wait": 4200 } ], "tail": 200 }
+ ]
+}
