@@ -3346,19 +3346,25 @@
    "date": "2026-09-25",
    "block": "m07 module summary",
    "change": "Editorial: the module summary shown on Today and Course is now one sentence from the module's cover (m7-p01), 'You will rate the certainty behind a claim with GRADE, read a compounding status and a certificate of analysis for what they do and do not prove, and write the consent and chart note that an unapproved product needs.', replacing the intake plan's scope list, which stays in the package as metadata.scope (runtime clarity pass: summaries read like specifications). (editorial; no medical content changed)",
-   "forReview": "Omar Saleem (product owner)"
+   "forReview": "Omar Saleem (product owner)",
+   "confirmedBy": "Omar Saleem, product owner (editorial; no medical content changed)",
+   "confirmedAt": "2026-09-26"
   },
   {
    "date": "2026-09-25",
    "block": "tutor-m07-grade, tutor-m07-compounding-coa",
    "change": "Editorial: each prepared Guide answer now carries the question it answers as a suggested prompt (tutor-m07-grade → 'How good is the evidence behind a “clinically proven” claim?'; tutor-m07-compounding-coa → 'What does a certificate of analysis (COA) prove about purity?'), so the Guide opens on course questions instead of platform help. The prepared answers are unchanged. (editorial; no medical content changed)",
-   "forReview": "Omar Saleem (product owner)"
+   "forReview": "Omar Saleem (product owner)",
+   "confirmedBy": "Omar Saleem, product owner (editorial; no medical content changed)",
+   "confirmedAt": "2026-09-26"
   },
   {
    "date": "2026-09-25",
    "block": "m7-p20",
    "change": "Editorial: closing line 'This is the last moment of the course. Build the commitment you will actually keep; it is saved to your path, and your tutor will bring it back.' → 'This is the last step of the course. Build the commitment you will actually keep; it is saved in My notes, in the Library.' (the CME sentence after it unchanged). (editorial; no medical content changed)",
-   "forReview": "Omar Saleem (product owner)"
+   "forReview": "Omar Saleem (product owner)",
+   "confirmedBy": "Omar Saleem, product owner (editorial; no medical content changed)",
+   "confirmedAt": "2026-09-26"
   }
  ],
  "mediaChanges": [
