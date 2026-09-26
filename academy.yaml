@@ -107,6 +107,26 @@ catalog:
     final: { by: "Omar Saleem (product owner)", date: "2026-09-25", revision: "academy-hormonaly-00009-6jl · 1.0.0-rc.4, walked end to end on hormonaly.perceptors.ai" }   # Omar: "it's final, go ahead"
     # 1.0.1 (2026-09-25): the androgen-secreting tumour figures removed from m2-p15/m2-p16 on Omar's instruction, Fady approving ("remove the numbers, fady's fine with that").
 modules: { fieldbook: true, promptLab: false, webinars: false, blog: false, peers: false, achievements: false, studio: false }   # studio: operator demo view off for learners
+# Learner experience (runtime clarity pass, 2026-09-25 — for Omar's review). The roles are the course's own audience levels
+# (package metadata.variants.audienceLevel: prescriber · clinical-staff · advisor, the "How will you use this course?" moments):
+# onboarding and Profile offer them, and the learner's choice pre-answers that question in modules 1 and 4. Labels follow the
+# runtime's audience-level names; descriptions follow the course's own role options.
+experience:
+  defaultRole: prescriber
+  roles:
+    - id: prescriber
+      label: { en: "Prescriber" }
+      description: { en: "Physician, NP or PA" }
+    - id: clinical-staff
+      label: { en: "Clinical staff" }
+      description: { en: "RN, aesthetic nurse or injector" }
+    - id: advisor
+      label: { en: "Advisor" }
+      description: { en: "Pharmacist, ND or allied professional" }
+  practicePrompts: false   # clinicians get the role notes; no "how this looks in my week" expanders or wellness tails from the Guide
+  library:
+    sourceNotes: false     # citation notes in this package are internal reading records (hashes, corpus paths, retrieval logs)
+    evidencePolicy: { en: "Mechanism, human evidence, regulatory status and open questions are kept apart. The course gives no doses and no product sourcing." }
 # Learner country (onboarding + Perfil). The course is one English edition; the country decides which regulatory note each moment
 # shows first (package blocks' metadata.variants.jurisdiction; runtime falls back to EU for member states). Omar 2026-09-25:
 # US, UK, EU, Portugal, Brazil and the UAE. Every country's notes confirmed by Fady 2026-09-25 (rc.2 packet, relayed by Omar).
