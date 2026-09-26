@@ -2672,6 +2672,13 @@
    "block": "m5-p17",
    "change": "teaching still added (draft)",
    "assetRef": "asset-hormones-peptides-skin-image-m5-p17-img"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m5-opener",
+   "assetRef": "asset-hps-m05-opener",
+   "change": "Opening film labels corrected: CRH and 'ACTH · α-MSH · cortisol' now label the follicle as a whole (the approved text does not place them in the outer root sheath or the bulb). Narration and presenter unchanged.",
+   "forReview": "Fady Hannah-Shmouni"
   }
  ]
 }
