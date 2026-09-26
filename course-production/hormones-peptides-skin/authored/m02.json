@@ -2,6 +2,9 @@
  "module": "m02",
  "authoredAt": "2026-09-24",
  "status": "approved",
+ "summary": {
+  "en": "Most skin changes you see are ageing or lifestyle; a few are the first visible sign of endocrine disease."
+ },
  "unit": {
   "id": "m02-story",
   "slug": "m02-story",
@@ -1727,7 +1730,7 @@
     "en": "Before I treat a face that might be hormonal."
    },
    "body": {
-    "en": "Build the checklist you will actually use. It is saved to your path and your tutor will bring it back."
+    "en": "Build the checklist you will actually use. It is saved in My notes, in the Library."
    },
    "sourceNote": "Module 02",
    "citationRefs": [
@@ -2135,7 +2138,11 @@
     "tiganescu-2013-11bhsd1-aged-skin",
     "hannah-shmouni-2026-are"
    ],
-   "scope": "m02"
+   "scope": "m02",
+   "suggestedPrompt": {
+    "en": "When is a “cortisol face” a sign of Cushing's syndrome?"
+   },
+   "suggestionRank": 8
   },
   {
    "id": "tutor-m02-hrt-skin",
@@ -2167,7 +2174,11 @@
     "emc-smpc-sandrena-uk",
     "mhra-gn14-specials-2023"
    ],
-   "scope": "m02"
+   "scope": "m02",
+   "suggestedPrompt": {
+    "en": "Does HRT help wrinkles?"
+   },
+   "suggestionRank": 3
   }
  ],
  "reviewNotes": [
@@ -2260,6 +2271,30 @@
    "forReview": "Fady Hannah-Shmouni",
    "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
    "confirmedAt": "2026-09-25"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m02 module summary",
+   "change": "Editorial: the module summary shown on Today and Course is now one sentence from the module's cover (m2-p01), 'Most skin changes you see are ageing or lifestyle; a few are the first visible sign of endocrine disease.', replacing the intake plan's scope list, which stays in the package as metadata.scope (runtime clarity pass: summaries read like specifications). (editorial; no medical content changed)",
+   "forReview": "Omar Saleem (product owner)",
+   "confirmedBy": "Omar Saleem, product owner (editorial; no medical content changed)",
+   "confirmedAt": "2026-09-26"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "tutor-m02-cortisol-face, tutor-m02-hrt-skin",
+   "change": "Editorial: each prepared Guide answer now carries the question it answers as a suggested prompt (tutor-m02-cortisol-face → 'When is a “cortisol face” a sign of Cushing's syndrome?'; tutor-m02-hrt-skin → 'Does HRT help wrinkles?'), so the Guide opens on course questions instead of platform help. The prepared answers are unchanged. (editorial; no medical content changed)",
+   "forReview": "Omar Saleem (product owner)",
+   "confirmedBy": "Omar Saleem, product owner (editorial; no medical content changed)",
+   "confirmedAt": "2026-09-26"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m2-p19",
+   "change": "Editorial: closing line 'Build the checklist you will actually use. It is saved to your path and your tutor will bring it back.' → 'Build the checklist you will actually use. It is saved in My notes, in the Library.' (the Guide does not bring the checklist back; My notes keeps it). (editorial; no medical content changed)",
+   "forReview": "Omar Saleem (product owner)",
+   "confirmedBy": "Omar Saleem, product owner (editorial; no medical content changed)",
+   "confirmedAt": "2026-09-26"
   }
  ],
  "mediaChanges": [

@@ -2,6 +2,9 @@
  "module": "m03",
  "authoredAt": "2026-09-24",
  "status": "approved",
+ "summary": {
+  "en": "Facial shape depends on fat as much as on collagen."
+ },
  "unit": {
   "id": "m03-story",
   "slug": "m03-story",
@@ -1957,7 +1960,7 @@
     "en": "Before my next conversation about weight, skin and the gut."
    },
    "body": {
-    "en": "Build the checklist you will actually use. It is saved to your path and your tutor will bring it back."
+    "en": "Build the checklist you will actually use. It is saved in My notes, in the Library."
    },
    "sourceNote": "Module 03",
    "citationRefs": [
@@ -2483,7 +2486,11 @@
     "mhra-2023-11-08-mounjaro-weight",
     "mhra-2026-07-24-no-summer-shortcut"
    ],
-   "scope": "m03"
+   "scope": "m03",
+   "suggestedPrompt": {
+    "en": "What causes “Ozempic face”?"
+   },
+   "suggestionRank": 2
   },
   {
    "id": "m03-tutor-gut-skin",
@@ -2518,7 +2525,11 @@
     "mhra-gn14-specials-2023",
     "mhra-dsu-2009-offlabel-unlicensed"
    ],
-   "scope": "m03"
+   "scope": "m03",
+   "suggestedPrompt": {
+    "en": "Does a leaky gut cause skin problems?"
+   },
+   "suggestionRank": 9
   }
  ],
  "reviewNotes": [
@@ -2688,6 +2699,30 @@
    "forReview": "Fady Hannah-Shmouni",
    "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
    "confirmedAt": "2026-09-25"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m03 module summary",
+   "change": "Editorial: the module summary shown on Today and Course is now one sentence from the module's cover (m3-p01), 'Facial shape depends on fat as much as on collagen.', replacing the intake plan's scope list, which stays in the package as metadata.scope (runtime clarity pass: summaries read like specifications). (editorial; no medical content changed)",
+   "forReview": "Omar Saleem (product owner)",
+   "confirmedBy": "Omar Saleem, product owner (editorial; no medical content changed)",
+   "confirmedAt": "2026-09-26"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m03-tutor-ozempic-face, m03-tutor-gut-skin",
+   "change": "Editorial: each prepared Guide answer now carries the question it answers as a suggested prompt (m03-tutor-ozempic-face → 'What causes “Ozempic face”?'; m03-tutor-gut-skin → 'Does a leaky gut cause skin problems?'), so the Guide opens on course questions instead of platform help. The prepared answers are unchanged. (editorial; no medical content changed)",
+   "forReview": "Omar Saleem (product owner)",
+   "confirmedBy": "Omar Saleem, product owner (editorial; no medical content changed)",
+   "confirmedAt": "2026-09-26"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m3-p20",
+   "change": "Editorial: closing line 'Build the checklist you will actually use. It is saved to your path and your tutor will bring it back.' → 'Build the checklist you will actually use. It is saved in My notes, in the Library.' (the Guide does not bring the checklist back; My notes keeps it). (editorial; no medical content changed)",
+   "forReview": "Omar Saleem (product owner)",
+   "confirmedBy": "Omar Saleem, product owner (editorial; no medical content changed)",
+   "confirmedAt": "2026-09-26"
   }
  ],
  "mediaChanges": [

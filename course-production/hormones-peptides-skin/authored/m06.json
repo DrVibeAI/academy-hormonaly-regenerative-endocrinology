@@ -2,6 +2,9 @@
  "module": "m06",
  "authoredAt": "2026-09-24",
  "status": "approved",
+ "summary": {
+  "en": "Growth hormone and IGF-1 genuinely shape skin, and one peptide on this axis has approval-grade trials."
+ },
  "unit": {
   "id": "m06-story",
   "slug": "m06-story",
@@ -1936,7 +1939,7 @@
     "en": "Before my next growth-hormone conversation."
    },
    "body": {
-    "en": "Build the checklist you will actually use. It is saved to your path and your tutor will bring it back."
+    "en": "Build the checklist you will actually use. It is saved in My notes, in the Library."
    },
    "sourceNote": "Module 06",
    "citationRefs": [
@@ -2454,7 +2457,11 @@
     "uk-misuse-of-drugs-act-1971-sch2",
     "mhra-products-database-search-2026-09-25"
    ],
-   "scope": "m06"
+   "scope": "m06",
+   "suggestedPrompt": {
+    "en": "What do growth hormone peptides do for skin?"
+   },
+   "suggestionRank": 11
   },
   {
    "id": "tutor-m06-gh-excess",
@@ -2480,7 +2487,11 @@
     "renehan-2004-igf1-cancer-meta",
     "swerdlow-2017-saghe"
    ],
-   "scope": "m06"
+   "scope": "m06",
+   "suggestedPrompt": {
+    "en": "What are the signs of too much growth hormone?"
+   },
+   "suggestionRank": 12
   }
  ],
  "reviewNotes": [
@@ -2608,6 +2619,30 @@
    "forReview": "Fady Hannah-Shmouni",
    "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
    "confirmedAt": "2026-09-25"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m06 module summary",
+   "change": "Editorial: the module summary shown on Today and Course is now one sentence from the module's cover (m6-p01), 'Growth hormone and IGF-1 genuinely shape skin, and one peptide on this axis has approval-grade trials.', replacing the intake plan's scope list, which stays in the package as metadata.scope (runtime clarity pass: summaries read like specifications). (editorial; no medical content changed)",
+   "forReview": "Omar Saleem (product owner)",
+   "confirmedBy": "Omar Saleem, product owner (editorial; no medical content changed)",
+   "confirmedAt": "2026-09-26"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "tutor-m06-secretagogues, tutor-m06-gh-excess",
+   "change": "Editorial: each prepared Guide answer now carries the question it answers as a suggested prompt (tutor-m06-secretagogues → 'What do growth hormone peptides do for skin?'; tutor-m06-gh-excess → 'What are the signs of too much growth hormone?'), so the Guide opens on course questions instead of platform help. The prepared answers are unchanged. (editorial; no medical content changed)",
+   "forReview": "Omar Saleem (product owner)",
+   "confirmedBy": "Omar Saleem, product owner (editorial; no medical content changed)",
+   "confirmedAt": "2026-09-26"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m6-p19",
+   "change": "Editorial: closing line 'Build the checklist you will actually use. It is saved to your path and your tutor will bring it back.' → 'Build the checklist you will actually use. It is saved in My notes, in the Library.' (the Guide does not bring the checklist back; My notes keeps it). (editorial; no medical content changed)",
+   "forReview": "Omar Saleem (product owner)",
+   "confirmedBy": "Omar Saleem, product owner (editorial; no medical content changed)",
+   "confirmedAt": "2026-09-26"
   }
  ],
  "mediaChanges": [

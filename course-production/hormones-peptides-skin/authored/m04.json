@@ -2,6 +2,9 @@
  "module": "m04",
  "authoredAt": "2026-09-24",
  "status": "approved",
+ "summary": {
+  "en": "Most skin peptides reach your clinic before any evidence does."
+ },
  "unit": {
   "id": "m04-story",
   "slug": "m04-story",
@@ -158,7 +161,7 @@
    "type": "reflection",
    "time": "03 / 20",
    "lead": {
-    "en": "Set your path"
+    "en": "Your role"
    },
    "title": {
     "en": "How will you use this module?"
@@ -177,7 +180,7 @@
        "en": "I prescribe: physician, NP or PA"
       },
       "response": {
-       "en": "Your path closes each lesson on the prescribing decision: status checks, consent, documentation and when to refer."
+       "en": "Each lesson now closes on the prescribing decision: status checks, consent, documentation and when to refer."
       }
      },
      {
@@ -186,7 +189,7 @@
        "en": "I deliver treatments: RN, aesthetic nurse or injector"
       },
       "response": {
-       "en": "Your path closes each lesson on what you notice, what you record and when you escalate to the prescriber."
+       "en": "Each lesson now closes on what you notice, what you record and when you escalate to the prescriber."
       }
      },
      {
@@ -195,7 +198,7 @@
        "en": "I advise on products: pharmacist, ND or allied professional"
       },
       "response": {
-       "en": "Your path closes each lesson on what you can accurately say about a product and when a patient needs a prescriber."
+       "en": "Each lesson now closes on what you can accurately say about a product and when a patient needs a prescriber."
       }
      }
     ],
@@ -206,7 +209,7 @@
      "en": "For example, GHK-Cu serum"
     },
     "responseLead": {
-     "en": "Your path adjusts"
+     "en": "Set for your role"
     }
    }
   },
@@ -1786,7 +1789,7 @@
     "en": "Before my next peptide conversation."
    },
    "body": {
-    "en": "Build the checklist you will actually use. It is saved to your path and your tutor will bring it back."
+    "en": "Build the checklist you will actually use. It is saved in My notes, in the Library."
    },
    "sourceNote": "Module 04",
    "citationRefs": [
@@ -2350,7 +2353,11 @@
     "uk-hmr-2012-reg-46",
     "uk-hmr-2012-reg-279"
    ],
-   "scope": "m04"
+   "scope": "m04",
+   "suggestedPrompt": {
+    "en": "What does the evidence show for copper peptides (GHK-Cu)?"
+   },
+   "suggestionRank": 1
   },
   {
    "id": "tutor-m04-bpc157",
@@ -2378,7 +2385,11 @@
     "uk-hmr-2012-reg-279",
     "mhra-2026-05-29-largest-seizure"
    ],
-   "scope": "m04"
+   "scope": "m04",
+   "suggestedPrompt": {
+    "en": "Is there human evidence for BPC-157?"
+   },
+   "suggestionRank": 4
   }
  ],
  "postApprovalChanges": [
@@ -2588,6 +2599,38 @@
    "forReview": "Fady Hannah-Shmouni",
    "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
    "confirmedAt": "2026-09-25"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m04 module summary",
+   "change": "Editorial: the module summary shown on Today and Course is now one sentence from the module's cover (m4-p01), 'Most skin peptides reach your clinic before any evidence does.', replacing the intake plan's scope list, which stays in the package as metadata.scope (runtime clarity pass: summaries read like specifications). (editorial; no medical content changed)",
+   "forReview": "Omar Saleem (product owner)",
+   "confirmedBy": "Omar Saleem, product owner (editorial; no medical content changed)",
+   "confirmedAt": "2026-09-26"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "tutor-m04-ghkcu, tutor-m04-bpc157",
+   "change": "Editorial: each prepared Guide answer now carries the question it answers as a suggested prompt (tutor-m04-ghkcu → 'What does the evidence show for copper peptides (GHK-Cu)?'; tutor-m04-bpc157 → 'Is there human evidence for BPC-157?'), so the Guide opens on course questions instead of platform help. The prepared answers are unchanged. (editorial; no medical content changed)",
+   "forReview": "Omar Saleem (product owner)",
+   "confirmedBy": "Omar Saleem, product owner (editorial; no medical content changed)",
+   "confirmedAt": "2026-09-26"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m4-p02",
+   "change": "Editorial: role question: kicker 'Set your path' → 'Your role'; reply heading 'Your path adjusts' → 'Set for your role'; each reply 'Your path closes each lesson on …' → 'Each lesson now closes on …' (the rest of each reply unchanged); the body text confirmed on 2026-09-25 is unchanged. (editorial; no medical content changed)",
+   "forReview": "Omar Saleem (product owner)",
+   "confirmedBy": "Omar Saleem, product owner (editorial; no medical content changed)",
+   "confirmedAt": "2026-09-26"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m4-p19",
+   "change": "Editorial: closing line 'Build the checklist you will actually use. It is saved to your path and your tutor will bring it back.' → 'Build the checklist you will actually use. It is saved in My notes, in the Library.' (the Guide does not bring the checklist back; My notes keeps it). (editorial; no medical content changed)",
+   "forReview": "Omar Saleem (product owner)",
+   "confirmedBy": "Omar Saleem, product owner (editorial; no medical content changed)",
+   "confirmedAt": "2026-09-26"
   }
  ],
  "mediaChanges": [
