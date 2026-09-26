@@ -1,0 +1,42 @@
+{
+  "model": "gemini-3.7-flash",
+  "mode": "video",
+  "video_engine": "agentic",
+  "reviewed_at": "2026-09-26T00:00:44.651Z",
+  "figure_truth": true,
+  "videos": [
+    {
+      "label": "m02-opener.mp4",
+      "file": "/Users/omar/DrVibe/academy-hormonaly-regenerative-endocrinology/public/assets/hormones-peptides-skin/video/m02-opener.mp4",
+      "summary": "agentic: The video accurately and clearly explains skin neuroendocrinology and local 11β-HSD1 cortisol activation with correct anatomical diagrams, precise captions, and flawless sync.",
+      "findings": [],
+      "usage": [
+        17196
+      ],
+      "mode_used": "agentic",
+      "tokens": {
+        "total": 17196,
+        "input": 1669,
+        "output": 149,
+        "thought": 1904,
+        "tool_use": 13474,
+        "video_input": 0,
+        "tool_use_by_modality": [
+          {
+            "modality": "image",
+            "tokens": 5016
+          },
+          {
+            "modality": "text",
+            "tokens": 3442
+          },
+          {
+            "modality": "video",
+            "tokens": 5016
+          }
+        ],
+        "cost_usd_est": 0.0096
+      }
+    }
+  ]
+}

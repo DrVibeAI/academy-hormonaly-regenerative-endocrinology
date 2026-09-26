@@ -1,0 +1,57 @@
+{
+  "model": "gemini-3.7-flash",
+  "mode": "video",
+  "video_engine": "agentic",
+  "reviewed_at": "2026-09-25T23:59:54.047Z",
+  "figure_truth": true,
+  "videos": [
+    {
+      "label": "m01-opener.mp4",
+      "file": "/Users/omar/DrVibe/academy-hormonaly-regenerative-endocrinology/public/assets/hormones-peptides-skin/video/m01-opener.mp4",
+      "summary": "agentic: The video reviews the skin as an endocrine organ, the four skin units, cell types, and signalling pathways, but contains a visual transition glitch and a spoken narration repeat.",
+      "findings": [
+        {
+          "time": 57,
+          "severity": "warn",
+          "code": "broken",
+          "note": "A blank grey placeholder card flashes on screen during the transition between the presenter footage and the signalling diagram.",
+          "model": "gemini-3.7-flash"
+        },
+        {
+          "time": 59,
+          "severity": "blocking",
+          "code": "captions",
+          "note": "Narration contains a false start/repeat ('inside... Inside the skin is a local loop') which deviates from the authored text and desynchronises with the burned-in caption.",
+          "model": "gemini-3.7-flash"
+        }
+      ],
+      "usage": [
+        32179
+      ],
+      "mode_used": "agentic",
+      "tokens": {
+        "total": 32179,
+        "input": 1895,
+        "output": 388,
+        "thought": 1067,
+        "tool_use": 28829,
+        "video_input": 0,
+        "tool_use_by_modality": [
+          {
+            "modality": "text",
+            "tokens": 7445
+          },
+          {
+            "modality": "video",
+            "tokens": 10692
+          },
+          {
+            "modality": "image",
+            "tokens": 10692
+          }
+        ],
+        "cost_usd_est": 0.0144
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "model": "gemini-3.7-flash",
+  "mode": "video",
+  "video_engine": "agentic",
+  "reviewed_at": "2026-09-26T00:05:48.684Z",
+  "figure_truth": true,
+  "videos": [
+    {
+      "label": "m01-opener.mp4",
+      "file": "/Users/omar/DrVibe/academy-hormonaly-regenerative-endocrinology/public/assets/hormones-peptides-skin/video/m01-opener.mp4",
+      "summary": "agentic: The video accurately presents the introductory physiology module on the skin as an endocrine organ, with well-synchronized visual callouts, correct anatomical and cellular diagrams, and faithful captions.",
+      "findings": [],
+      "usage": [
+        52148
+      ],
+      "mode_used": "agentic",
+      "tokens": {
+        "total": 52148,
+        "input": 2128,
+        "output": 326,
+        "thought": 1559,
+        "tool_use": 48135,
+        "video_input": 0,
+        "tool_use_by_modality": [
+          {
+            "modality": "text",
+            "tokens": 11615
+          },
+          {
+            "modality": "video",
+            "tokens": 18260
+          },
+          {
+            "modality": "image",
+            "tokens": 18084
+          },
+          {
+            "modality": "audio",
+            "tokens": 176
+          }
+        ],
+        "cost_usd_est": 0.0226
+      }
+    }
+  ]
+}
