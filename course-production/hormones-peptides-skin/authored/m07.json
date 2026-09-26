@@ -15,7 +15,7 @@
   "description": {
    "en": "Lesson 7.1 Grading the evidence behind an aesthetic claim · Lesson 7.2 Compounding law, the 40-amino-acid line and certificates of analysis · Lesson 7.3 Cosmetic, compounded or investigational: consent and the chart."
   },
-  "estimatedMinutes": 29,
+  "estimatedMinutes": 40,
   "sortOrder": 1,
   "isRequired": true,
   "status": "ai_draft",
@@ -61,6 +61,7 @@
     "m7-p03",
     "m7-p04",
     "m7-p05",
+    "m7-x01",
     "m7-p06"
    ]
   },
@@ -71,6 +72,8 @@
    },
    "blocks": [
     "m7-p07",
+    "m7-x02",
+    "m7-x03",
     "m7-p08",
     "m7-p09",
     "m7-p21",
@@ -90,8 +93,10 @@
    "blocks": [
     "m7-p15",
     "m7-p16",
+    "m7-x04",
     "m7-p17",
     "m7-p18",
+    "m7-x05",
     "m7-p19",
     "m7-p20"
    ]
@@ -101,7 +106,7 @@
   {
    "id": "m7-p01",
    "type": "title",
-   "time": "01 / 23",
+   "time": "01 / 28",
    "lead": {
     "en": "Module 07 · Evidence, regulation and compliance"
    },
@@ -158,12 +163,12 @@
      "rule": "verbatim approved sentences only"
     }
    },
-   "time": "02 / 23"
+   "time": "02 / 28"
   },
   {
    "id": "m7-p02",
    "type": "audio",
-   "time": "03 / 23",
+   "time": "03 / 28",
    "lead": {
     "en": "Lesson 7.1 · Concept"
    },
@@ -242,7 +247,7 @@
   {
    "id": "m7-p03",
    "type": "stat",
-   "time": "04 / 23",
+   "time": "04 / 28",
    "lead": {
     "en": "Who paid"
    },
@@ -277,7 +282,7 @@
   {
    "id": "m7-p04",
    "type": "tool",
-   "time": "05 / 23",
+   "time": "05 / 28",
    "lead": {
     "en": "Worked example"
    },
@@ -440,7 +445,7 @@
   {
    "id": "m7-p05",
    "type": "audio",
-   "time": "06 / 23",
+   "time": "06 / 28",
    "lead": {
     "en": "What changes in practice"
    },
@@ -529,9 +534,154 @@
    }
   },
   {
+   "id": "m7-x01",
+   "type": "tool",
+   "time": "07 / 28",
+   "lead": {
+    "en": "Practice"
+   },
+   "title": {
+    "en": "What moves a grade, and what does not."
+   },
+   "body": {
+    "en": "Six things you may hear about the evidence for one outcome."
+   },
+   "citationRefs": [
+    "balshem-2011-grade-rating-quality",
+    "guyatt-2008-grade-consensus",
+    "guyatt-2025-core-grade-2-imprecision",
+    "guyatt-2025-core-grade-4-bias",
+    "hannah-shmouni-2026-ppg-aug",
+    "hannah-shmouni-2026-are"
+   ],
+   "sourceNote": "Guyatt 2008 · Balshem 2011 · Core GRADE 2 and 4 (BMJ 2025) · Hormonaly guides",
+   "interaction": {
+    "kind": "classify",
+    "title": {
+     "en": "Down, up or unchanged?"
+    },
+    "prompt": {
+     "en": "What does each one do to the certainty of the evidence for that outcome?"
+    },
+    "labels": [
+     {
+      "value": "down",
+      "label": {
+       "en": "Lowers certainty"
+      },
+      "tone": "bad"
+     },
+     {
+      "value": "up",
+      "label": {
+       "en": "Can raise certainty"
+      },
+      "tone": "good"
+     },
+     {
+      "value": "same",
+      "label": {
+       "en": "Leaves the grade where it is"
+      },
+      "tone": "neutral"
+     }
+    ],
+    "items": [
+     {
+      "id": "small-funded",
+      "label": {
+       "en": "A handful of small, mostly commercially funded studies"
+      },
+      "answer": "down",
+      "why": {
+       "en": "Publication bias is suspected when the evidence is a handful of small, mostly commercially funded studies. It is one of the five named reasons to rate down."
+      }
+     },
+     {
+      "id": "mechanism",
+      "label": {
+       "en": "A persuasive mechanism"
+      },
+      "answer": "same",
+      "why": {
+       "en": "A persuasive mechanism leaves the grade exactly where it is. Both Hormonaly guides say so in almost the same words."
+      }
+     },
+     {
+      "id": "large-effect",
+      "label": {
+       "en": "A very large effect"
+      },
+      "answer": "up",
+      "why": {
+       "en": "Certainty can occasionally rise, for example when an effect is very large."
+      }
+     },
+     {
+      "id": "approved-elsewhere",
+      "label": {
+       "en": "The drug's approval for a different use"
+      },
+      "answer": "same",
+      "why": {
+       "en": "An approval says nothing about the grade for an unapproved use: an approved drug can carry a low grade for the use a patient wants."
+      }
+     },
+     {
+      "id": "few-people",
+      "label": {
+       "en": "Too few people or events: the confidence interval spans an important effect and little or none"
+      },
+      "answer": "down",
+      "why": {
+       "en": "Imprecision: too little data. It is one of the five named reasons to rate down."
+      }
+     },
+     {
+      "id": "popular",
+      "label": {
+       "en": "The peptide patients ask for most"
+      },
+      "answer": "same",
+      "why": {
+       "en": "The letter rates the evidence for a listed use. It does not rate legality, popularity or mechanism."
+      }
+     }
+    ],
+    "done": {
+     "en": "Certainty falls for five named reasons and occasionally rises for a very large effect; a mechanism, an approval for another use and popularity leave it where it is."
+    },
+    "citationRefs": [
+     "balshem-2011-grade-rating-quality",
+     "guyatt-2008-grade-consensus",
+     "guyatt-2025-core-grade-2-imprecision",
+     "guyatt-2025-core-grade-4-bias",
+     "hannah-shmouni-2026-ppg-aug",
+     "hannah-shmouni-2026-are"
+    ],
+    "source": "authored:2026-09-25 from m7-p02, m7-p04, m7-p05"
+   },
+   "metadata": {
+    "activity": {
+     "version": "1.1",
+     "sources": [
+      "m7-p02 body, sentence 3",
+      "m7-p02 audioScript, sentences 6, 7",
+      "m7-p02 audioBeats[2] (The guides' letters), sentences 2, 3",
+      "m7-p04 body, sentence 4",
+      "m7-p04 tool.items[3] (Imprecision), value and note",
+      "m7-p05 body, sentences 2, 3",
+      "m7-p05 audioScript, sentence 6",
+      "m7-p05 audioBeats[1] (Then the status), sentence 2",
+      "m7-p05 audioBeats[2] (Mechanism), sentences 1, 2"
+     ]
+    }
+   }
+  },
+  {
    "id": "m7-p06",
    "type": "quiz",
-   "time": "07 / 23",
+   "time": "08 / 28",
    "lead": {
     "en": "Your turn"
    },
@@ -589,7 +739,7 @@
   {
    "id": "m7-p07",
    "type": "audio",
-   "time": "08 / 23",
+   "time": "09 / 28",
    "lead": {
     "en": "Lesson 7.2 · Concept"
    },
@@ -707,9 +857,201 @@
    }
   },
   {
+   "id": "m7-x02",
+   "type": "tool",
+   "time": "10 / 28",
+   "lead": {
+    "en": "Practice"
+   },
+   "title": {
+    "en": "503A and 503B, side by side."
+   },
+   "body": {
+    "en": "Two routes exist for compounding in the United States."
+   },
+   "citationRefs": [
+    "usc-21-353a",
+    "usc-21-353b",
+    "fda-outsourcing-facilities-503b"
+   ],
+   "sourceNote": "21 U.S.C. 353a and 353b · FDA, information for outsourcing facilities",
+   "interaction": {
+    "kind": "hotspots",
+    "title": {
+     "en": "Who prepares it, and for whom"
+    },
+    "prompt": {
+     "en": "In this picture of the two US routes, find the 503A preparation and its patient, then the 503B facility's trays and the check it works under."
+    },
+    "imageAssetRef": "asset-hormones-peptides-skin-image-m7-p07-img",
+    "hotspots": [
+     {
+      "id": "503a-preparation",
+      "at": [
+       24.9,
+       45.6
+      ],
+      "radius": 6,
+      "label": {
+       "en": "A 503A preparation"
+      },
+      "why": {
+       "en": "Under section 503A, a licensed pharmacist or physician prepares a drug for an identified patient on a prescription. Meeting the conditions exempts the product from approval, adequate directions and good manufacturing practice, and from nothing else."
+      }
+     },
+     {
+      "id": "identified-patient",
+      "at": [
+       32.8,
+       59.8
+      ],
+      "radius": 6,
+      "label": {
+       "en": "An identified patient, on a prescription"
+      },
+      "why": {
+       "en": "503A is patient-specific: a licensed pharmacist or physician compounds for an identified patient on a valid prescription."
+      }
+     },
+     {
+      "id": "503b-trays",
+      "at": [
+       70.2,
+       51.5
+      ],
+      "radius": 19.4,
+      "label": {
+       "en": "503B: no prescription for each patient"
+      },
+      "why": {
+       "en": "Section 503B outsourcing facilities can compound without a prescription for each patient. Their products remain unapproved."
+      }
+     },
+     {
+      "id": "inspection",
+      "at": [
+       76.9,
+       37.3
+      ],
+      "radius": 20,
+      "label": {
+       "en": "Good manufacturing practice, under inspection"
+      },
+      "why": {
+       "en": "Outsourcing facilities register with FDA, meet good manufacturing practice, are inspected on a risk-based schedule and report adverse events. The 503A route is exempt from good manufacturing practice."
+      }
+     }
+    ],
+    "done": {
+     "en": "503A is one preparation for an identified patient on a prescription; 503B works to good manufacturing practice under inspection, without patient-specific prescriptions, and its products remain unapproved."
+    },
+    "citationRefs": [
+     "usc-21-353a",
+     "usc-21-353b",
+     "fda-outsourcing-facilities-503b"
+    ],
+    "source": "authored:2026-09-25 from m7-p07 (on its teaching still, asset-hormones-peptides-skin-image-m7-p07-img)"
+   },
+   "metadata": {
+    "activity": {
+     "version": "1.1",
+     "sources": [
+      "m7-p07 body, sentences 1, 4",
+      "m7-p07 audioScript, sentences 1, 2, 9, 10",
+      "m7-p07 audioBeats[0] (503A), sentences 1, 2",
+      "m7-p07 audioBeats[2] (503B), sentences 1, 2",
+      "m7-p07 points[0]",
+      "m7-p07 teachingVisual alt and imageBrief (what each element of the still stands for)"
+     ],
+     "hotspotFind": {
+      "503a-preparation": "The small violet disc on a little tray on the counter shelf inside the small open-fronted booth in the left half of the image.",
+      "identified-patient": "The single grey disc resting on the ground just outside the small booth on the left, at the lower end of the thin violet line that runs down to it from the tray on the counter.",
+      "503b-trays": "The trays of identical grey discs laid out in two rows on the floor of the large building in the right half of the image, especially the front-left trays nearest the thin vertical dividing line, away from the magnifying lens.",
+      "inspection": "The large magnifying lens hovering over the roof of the large building on the right: its round, violet-tinted glass sits above the middle of the building, upper right of the image, and its long handle runs down to the lower right."
+     }
+    }
+   }
+  },
+  {
+   "id": "m7-x03",
+   "type": "tool",
+   "time": "11 / 28",
+   "lead": {
+    "en": "Practice"
+   },
+   "title": {
+    "en": "The substance, in strict order."
+   },
+   "body": {
+    "en": "In the US, the conditions for 503A compounding start with the substance itself, taken in strict order."
+   },
+   "citationRefs": [
+    "usc-21-353a",
+    "fda-503a-bulks-page"
+   ],
+   "sourceNote": "21 U.S.C. 353a · FDA 503A bulks page (updated 14 May 2026)",
+   "interaction": {
+    "kind": "sequence",
+    "title": {
+     "en": "The statute's order"
+    },
+    "prompt": {
+     "en": "Put the three routes by which a bulk substance can qualify for 503A compounding in the order the statute takes them."
+    },
+    "steps": [
+     {
+      "id": "monograph",
+      "label": {
+       "en": "A USP or National Formulary monograph"
+      },
+      "why": {
+       "en": "A USP or National Formulary monograph comes first."
+      }
+     },
+     {
+      "id": "approved-component",
+      "label": {
+       "en": "A component of an approved drug"
+      },
+      "why": {
+       "en": "Only when there is no monograph can the substance be a component of an approved drug."
+      }
+     },
+     {
+      "id": "bulks-list",
+      "label": {
+       "en": "FDA's 503A bulks list"
+      },
+      "why": {
+       "en": "Only when neither applies can it sit on FDA's 503A bulks list."
+      }
+     }
+    ],
+    "done": {
+     "en": "Monograph, then a component of an approved drug, then the bulks list; the substance must also come from a registered manufacturer with a valid certificate of analysis."
+    },
+    "citationRefs": [
+     "usc-21-353a",
+     "fda-503a-bulks-page"
+    ],
+    "source": "authored:2026-09-25 from m7-p07"
+   },
+   "metadata": {
+    "activity": {
+     "version": "1.1",
+     "sources": [
+      "m7-p07 body, sentences 1, 2, 3",
+      "m7-p07 audioScript, sentences 4, 5, 6, 7",
+      "m7-p07 audioBeats[1] (The order of routes), sentences 1, 2, 3, 4",
+      "m7-p07 points[1]"
+     ]
+    }
+   }
+  },
+  {
    "id": "m7-p08",
    "type": "tool",
-   "time": "09 / 23",
+   "time": "12 / 28",
    "lead": {
     "en": "Regulatory status (US)"
    },
@@ -842,7 +1184,7 @@
   {
    "id": "m7-p09",
    "type": "stat",
-   "time": "10 / 23",
+   "time": "13 / 28",
    "lead": {
     "en": "Peptide or biologic"
    },
@@ -915,7 +1257,7 @@
   {
    "id": "m7-p21",
    "type": "tool",
-   "time": "11 / 23",
+   "time": "14 / 28",
    "lead": {
     "en": "Regulatory status (outside the US)"
    },
@@ -1052,7 +1394,7 @@
   {
    "id": "m7-p10",
    "type": "audio",
-   "time": "12 / 23",
+   "time": "15 / 28",
    "lead": {
     "en": "Concept"
    },
@@ -1131,7 +1473,7 @@
   {
    "id": "m7-p11",
    "type": "tool",
-   "time": "13 / 23",
+   "time": "16 / 28",
    "lead": {
     "en": "Fictional certificate"
    },
@@ -1321,7 +1663,7 @@
   {
    "id": "m7-p12",
    "type": "stat",
-   "time": "14 / 23",
+   "time": "17 / 28",
    "lead": {
     "en": "Label against laboratory"
    },
@@ -1355,7 +1697,7 @@
   {
    "id": "m7-p13",
    "type": "audio",
-   "time": "15 / 23",
+   "time": "18 / 28",
    "lead": {
     "en": "What changes in practice"
    },
@@ -1484,7 +1826,7 @@
   {
    "id": "m7-p22",
    "type": "audio",
-   "time": "16 / 23",
+   "time": "19 / 28",
    "lead": {
     "en": "Regulatory status (outside the US)"
    },
@@ -1643,7 +1985,7 @@
   {
    "id": "m7-p14",
    "type": "quiz",
-   "time": "17 / 23",
+   "time": "20 / 28",
    "lead": {
     "en": "Your turn"
    },
@@ -1700,7 +2042,7 @@
   {
    "id": "m7-p15",
    "type": "audio",
-   "time": "18 / 23",
+   "time": "21 / 28",
    "lead": {
     "en": "Lesson 7.3 · Concept"
    },
@@ -1820,7 +2162,7 @@
   {
    "id": "m7-p16",
    "type": "tool",
-   "time": "19 / 23",
+   "time": "22 / 28",
    "lead": {
     "en": "Classification (US)"
    },
@@ -1967,9 +2309,133 @@
    }
   },
   {
+   "id": "m7-x04",
+   "type": "tool",
+   "time": "23 / 28",
+   "lead": {
+    "en": "Practice"
+   },
+   "title": {
+    "en": "Six lines from a serum page."
+   },
+   "body": {
+    "en": "A fictional US product page for a topical GHK-Cu serum."
+   },
+   "citationRefs": [
+    "fda-cosmetic-or-drug-page",
+    "balshem-2011-grade-rating-quality",
+    "guyatt-2025-core-grade-5-indirectness",
+    "miller-2006-ghk-cu-laser-rct",
+    "hannah-shmouni-2026-ppg-aug",
+    "hannah-shmouni-2026-are"
+   ],
+   "sourceNote": "Fictional product page · FDA, cosmetic or drug · Balshem 2011 · Core GRADE 5 (BMJ 2025) · Miller 2006 · Hormonaly guides",
+   "interaction": {
+    "kind": "inspect",
+    "title": {
+     "en": "Which lines overclaim?"
+    },
+    "prompt": {
+     "en": "Find each line that claims more than the evidence or the US rules support."
+    },
+    "segments": [
+     {
+      "id": "cosmeceutical",
+      "text": {
+       "en": "GHK-Cu serum: a true cosmeceutical."
+      },
+      "suspect": true,
+      "why": {
+       "en": "'Cosmeceutical' has no legal meaning. Route and claim decide the regime, whatever the molecule."
+      }
+     },
+     {
+      "id": "regenerates",
+      "text": {
+       "en": "It regenerates skin cells."
+      },
+      "suspect": true,
+      "why": {
+       "en": "A claim to affect structure or function, such as 'regenerates cells', makes it a drug."
+      }
+     },
+     {
+      "id": "laser-trial",
+      "text": {
+       "en": "Tested in a trial of skin healing after laser resurfacing."
+      },
+      "suspect": false,
+      "why": {
+       "en": "Accurate as stated: topical GHK-Cu's only indexed trial measured healing after laser resurfacing. It is a real trial, of a different outcome."
+      }
+     },
+     {
+      "id": "grade-a",
+      "text": {
+       "en": "Rated GRADE A for fine lines."
+      },
+      "suspect": true,
+      "why": {
+       "en": "GRADE rates the body of evidence for one outcome. For fine lines, the only indexed trial measured a different outcome, healing after laser resurfacing, and indirectness lowers certainty."
+      }
+     },
+     {
+      "id": "mechanism",
+      "text": {
+       "en": "Its mechanism proves it works."
+      },
+      "suspect": true,
+      "why": {
+       "en": "A plausible mechanism never raises a grade."
+      }
+     },
+     {
+      "id": "identity",
+      "text": {
+       "en": "Each lot's certificate of analysis prints the expected mass beside the observed one."
+      },
+      "suspect": false,
+      "why": {
+       "en": "That is how a careful certificate shows identity. It is still the supplier's own report on a named lot."
+      }
+     }
+    ],
+    "hint": {
+     "en": "For each line, ask what it makes the product, and what it says about the evidence for fine lines."
+    },
+    "done": {
+     "en": "Four lines overclaim: route and claim decide the regime, and a grade belongs to the evidence for one outcome, never to a molecule or its mechanism."
+    },
+    "citationRefs": [
+     "fda-cosmetic-or-drug-page",
+     "balshem-2011-grade-rating-quality",
+     "guyatt-2025-core-grade-5-indirectness",
+     "miller-2006-ghk-cu-laser-rct",
+     "hannah-shmouni-2026-ppg-aug",
+     "hannah-shmouni-2026-are"
+    ],
+    "source": "authored:2026-09-25 fictional product page from m7-p02, m7-p04, m7-p05, m7-p10, m7-p16"
+   },
+   "metadata": {
+    "activity": {
+     "version": "1.1",
+     "sources": [
+      "m7-p02 body, sentence 2",
+      "m7-p02 audioScript, sentence 6",
+      "m7-p04 tool.items[2] (Indirectness), value and note",
+      "m7-p04 interaction.items[0] (ghkcu-laser), label and why",
+      "m7-p05 body, sentence 3",
+      "m7-p10 body, sentences 1, 2",
+      "m7-p16 body, sentence 1",
+      "m7-p16 tool.items[0] (Cosmetic), note sentence 2"
+     ]
+    }
+   }
+  },
+  {
    "id": "m7-p17",
    "type": "audio",
-   "time": "20 / 23",
+   "time": "24 / 28",
    "lead": {
     "en": "Fictional case"
    },
@@ -2162,7 +2628,7 @@
   {
    "id": "m7-p18",
    "type": "tool",
-   "time": "21 / 23",
+   "time": "25 / 28",
    "lead": {
     "en": "Documentation"
    },
@@ -2302,9 +2768,195 @@
    }
   },
   {
+   "id": "m7-x05",
+   "type": "tool",
+   "time": "26 / 28",
+   "lead": {
+    "en": "Practice"
+   },
+   "title": {
+    "en": "'Could you supervise my injections?'"
+   },
+   "body": {
+    "en": "A fictional case built from the module's sources, in three decisions."
+   },
+   "citationRefs": [
+    "ecfr-21-cfr-312-160",
+    "ecfr-21-cfr-201-128",
+    "fda-503a-categories-2026-05-14",
+    "fda-503a-category2-safety-risks-page",
+    "fda-off-label-page",
+    "hannah-shmouni-2026-ppg-aug",
+    "hannah-shmouni-2026-are"
+   ],
+   "sourceNote": "Fictional case · 21 CFR 312.160 and 201.128 · FDA 503A categories (14 May 2026) · FDA safety-risks table (22 Apr 2026) · FDA, off-label use · Peptide Pocket Guide, prescriber checklist",
+   "interaction": {
+    "kind": "branching",
+    "title": {
+     "en": "From the vial to the note"
+    },
+    "prompt": {
+     "en": "Decide what you tell her, what FDA's record shows and what you write down."
+    },
+    "setup": {
+     "en": "A fictional patient has been injecting a research-use-only GHK-Cu vial for her skin, bought online and sold with injection instructions. She brings the vial and its certificate of analysis, and asks you to supervise her injections."
+    },
+    "start": "n1",
+    "nodes": [
+     {
+      "id": "n1",
+      "prompt": {
+       "en": "What do you tell her?"
+      },
+      "options": [
+       {
+        "value": "consent-form",
+        "label": {
+         "en": "Agree to supervise once she signs a consent form."
+        },
+        "why": {
+         "en": "Research use only is not a clinical pathway. Do not prescribe, supply, supervise or recommend a research-use-only product."
+        }
+       },
+       {
+        "value": "decline",
+        "correct": true,
+        "next": "n2",
+        "label": {
+         "en": "Decline to supervise, supply or recommend it: a research-use-only product stays outside clinical care."
+        },
+        "why": {
+         "en": "Right. FDA reads intended use from claims, marketing and the circumstances of sale, so the 'not for use in humans' disclaimer changes nothing about a vial sold with injection instructions."
+        }
+       },
+       {
+        "value": "certificate",
+        "label": {
+         "en": "Agree to supervise if the certificate shows high purity."
+        },
+        "why": {
+         "en": "A certificate of analysis, however clean, cannot convert that vial into a pharmaceutical: sterility, manufacturing standards and a lawful route are all still missing."
+        }
+       }
+      ]
+     },
+     {
+      "id": "n2",
+      "prompt": {
+       "en": "She asks whether a 503A compounding pharmacy could make GHK-Cu injections for her instead. In the US, what does FDA's record show, as checked in September 2026?"
+      },
+      "options": [
+       {
+        "value": "category-1",
+        "label": {
+         "en": "GHK-Cu is in Category 1, so a 503A pharmacy can compound it for injection."
+        },
+        "why": {
+         "en": "Category 1 holds GHK-Cu for non-injectable routes only (list of 14 May 2026), and the categories are FDA's interim enforcement posture while nominations are evaluated, not an approval."
+        }
+       },
+       {
+        "value": "withdrawn",
+        "correct": true,
+        "next": "n3",
+        "label": {
+         "en": "Category 1 covers only non-injectable GHK-Cu; injectable GHK-Cu is a withdrawn nomination, in no category."
+        },
+        "why": {
+         "en": "Right. FDA's safety concerns stay posted, and withdrawal is not clearance. Check the live list on the day: GHK-Cu alone moved twice in April and May 2026."
+        }
+       },
+       {
+        "value": "off-label",
+        "label": {
+         "en": "It could be prescribed as off-label use."
+        },
+        "why": {
+         "en": "Off-label applies only to approved drugs. A never-approved peptide has no label to depart from, so prescribing it is use of an unapproved drug."
+        }
+       }
+      ]
+     },
+     {
+      "id": "n3",
+      "prompt": {
+       "en": "Whatever she decides, what goes in your note?"
+      },
+      "options": [
+       {
+        "value": "off-label-note",
+        "label": {
+         "en": "'Off-label GHK-Cu; patient advised.'"
+        },
+        "why": {
+         "en": "Off-label needs a label. Write the article and status in those words, such as 'research use only', never 'off-label'."
+        }
+       },
+       {
+        "value": "full-note",
+        "correct": true,
+        "label": {
+         "en": "The product, lot and supplier she names, its status in plain words, your advice to stop, her decision and the date you checked FDA's lists."
+        },
+        "why": {
+         "en": "Right. Record the product, lot and supplier the patient names and your advice to stop, and date the status check: FDA's lists changed in April and May 2026."
+        }
+       },
+       {
+        "value": "nothing",
+        "label": {
+         "en": "Nothing, because you prescribed nothing."
+        },
+        "why": {
+         "en": "The checklist is for any conversation about an unapproved or compounded peptide, whether or not you prescribe."
+        }
+       }
+      ]
+     }
+    ],
+    "followUp": {
+     "en": "A board reviews reasoning. Make yours visible in the note."
+    },
+    "done": {
+     "en": "A research-use-only vial stays outside care, injectable GHK-Cu sits in no 503A category, and the note records what she named, what you advised and the day you checked."
+    },
+    "citationRefs": [
+     "ecfr-21-cfr-312-160",
+     "ecfr-21-cfr-201-128",
+     "fda-503a-categories-2026-05-14",
+     "fda-503a-category2-safety-risks-page",
+     "fda-off-label-page",
+     "hannah-shmouni-2026-ppg-aug",
+     "hannah-shmouni-2026-are"
+    ],
+    "source": "authored:2026-09-25 fictional case from m7-p08, m7-p13, m7-p15, m7-p17, m7-p18"
+   },
+   "metadata": {
+    "activity": {
+     "version": "1.1",
+     "sources": [
+      "m7-p08 body, sentences 1, 2, 3",
+      "m7-p08 tool.items[1] (Category 1), note sentence 2",
+      "m7-p08 tool.items[3] (Withdrawn nominations), value and note",
+      "m7-p08 callout",
+      "m7-p11 body, sentence 1 (sold online with injection instructions)",
+      "m7-p13 body, sentences 1, 2, 3",
+      "m7-p13 audioScript, sentences 6, 7",
+      "m7-p13 audienceLevel prescriber, sentences 1, 2",
+      "m7-p15 title; m7-p15 body, sentences 1, 2",
+      "m7-p17 interaction.followUp (her decision)",
+      "m7-p18 body, sentence 2",
+      "m7-p18 tool.items[0] (What it is), value and note",
+      "m7-p18 tool.items[5] (Status check), note",
+      "m7-p18 callout"
+     ]
+    }
+   }
+  },
+  {
    "id": "m7-p19",
    "type": "quiz",
-   "time": "22 / 23",
+   "time": "27 / 28",
    "lead": {
     "en": "Your turn"
    },
@@ -2361,7 +3013,7 @@
   {
    "id": "m7-p20",
    "type": "action",
-   "time": "23 / 23",
+   "time": "28 / 28",
    "lead": {
     "en": "Closing and commitment"
    },
@@ -3365,6 +4017,36 @@
    "forReview": "Omar Saleem (product owner)",
    "confirmedBy": "Omar Saleem, product owner (editorial; no medical content changed)",
    "confirmedAt": "2026-09-26"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m7-x01",
+   "change": "New practice (1.1): classify — grading the evidence by what moves a GRADE rating: two named reasons to rate down (suspected publication bias, imprecision), a very large effect that can raise certainty, and three things that leave the grade where it is (a persuasive mechanism, an approval for another use, popularity). Built only from approved sentences (m7-p02, m7-p04, m7-p05).",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m7-x02",
+   "change": "New practice (1.1): hotspots on the m7-p07 teaching still — the two US compounding routes: a 503A preparation for an identified patient on a prescription, 503B compounding without a prescription for each patient, and good manufacturing practice under inspection. Built only from approved sentences (m7-p07).",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m7-x03",
+   "change": "New practice (1.1): sequence — the strict US 503A order for a bulk substance: a USP or NF monograph, then a component of an approved drug, then FDA's 503A bulks list. Built only from approved sentences (m7-p07).",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m7-x04",
+   "change": "New practice (1.1): inspect — a fictional US product page for a topical GHK-Cu serum: four overclaims ('cosmeceutical', a structure-or-function claim, a letter grade given to the product, mechanism as proof) and two sound lines (the laser-resurfacing trial, identity shown as expected beside observed mass). Built only from approved sentences (m7-p02, m7-p04, m7-p05, m7-p10, m7-p16).",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m7-x05",
+   "change": "New practice (1.1): branching — a fictional case in three decisions: decline to supervise a research-use-only GHK-Cu vial, read FDA's record as checked in September 2026 for injectable GHK-Cu (Category 1 covers only non-injectable routes; the injectable nomination was withdrawn), and chart the product, status, advice, decision and a dated status check. Built only from approved sentences (m7-p08, m7-p13, m7-p15, m7-p17, m7-p18).",
+   "forReview": "Fady Hannah-Shmouni"
   }
  ],
  "mediaChanges": [

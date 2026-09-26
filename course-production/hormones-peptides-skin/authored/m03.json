@@ -15,7 +15,7 @@
   "description": {
    "en": "Lesson 3.1 Dermal fat and matrix glycation · Lesson 3.2 Incretin therapy and the changing face · Lesson 3.3 Gut barrier, endotoxaemia and inflammaging."
   },
-  "estimatedMinutes": 27,
+  "estimatedMinutes": 38,
   "sortOrder": 1,
   "isRequired": true,
   "status": "ai_draft",
@@ -57,8 +57,10 @@
     "m3-p01",
     "m3-opener",
     "m3-p02",
+    "m3-x01",
     "m3-p03",
     "m3-p04",
+    "m3-x02",
     "m3-p05",
     "m3-p06",
     "m3-p07"
@@ -74,7 +76,9 @@
     "m3-p09",
     "m3-p10",
     "m3-p11",
+    "m3-x03",
     "m3-p12",
+    "m3-x04",
     "m3-p13",
     "m3-p14"
    ]
@@ -89,6 +93,7 @@
     "m3-p16",
     "m3-p17",
     "m3-p18",
+    "m3-x05",
     "m3-p19",
     "m3-p20"
    ]
@@ -98,7 +103,7 @@
   {
    "id": "m3-p01",
    "type": "title",
-   "time": "01 / 21",
+   "time": "01 / 26",
    "lead": {
     "en": "Module 03 · Fat, incretins and the ageing face"
    },
@@ -157,12 +162,12 @@
      "rule": "verbatim approved sentences only"
     }
    },
-   "time": "02 / 21"
+   "time": "02 / 26"
   },
   {
    "id": "m3-p02",
    "type": "audio",
-   "time": "03 / 21",
+   "time": "03 / 26",
    "lead": {
     "en": "Mechanism"
    },
@@ -241,9 +246,125 @@
    }
   },
   {
+   "id": "m3-x01",
+   "type": "tool",
+   "time": "04 / 26",
+   "lead": {
+    "en": "Practice"
+   },
+   "title": {
+    "en": "Fat inside the dermis, and below it."
+   },
+   "body": {
+    "en": "The skin keeps two layers of fat, and one of them sits inside the dermis."
+   },
+   "citationRefs": [
+    "chen-zhang-gallo-2019-dwat-review",
+    "kruglikov-scherer-2016-dermal-adipocytes",
+    "oneill-2022-acne-preadipocytes-cathelicidin",
+    "hannah-shmouni-2026-are"
+   ],
+   "sourceNote": "Chen 2019 · Kruglikov & Scherer 2016 · O'Neill 2022 · Aesthetic & Regenerative Endocrinology, ch. 11",
+   "interaction": {
+    "kind": "hotspots",
+    "title": {
+     "en": "Two fat layers, one follicle"
+    },
+    "prompt": {
+     "en": "Find the dermis, the two fat layers, and the follicle the thinner layer surrounds."
+    },
+    "imageAssetRef": "asset-hormones-peptides-skin-image-m3-p02-img",
+    "hotspots": [
+     {
+      "id": "dwat-cone",
+      "at": [
+       53.8,
+       50.8
+      ],
+      "radius": 15.7,
+      "label": {
+       "en": "Dermal white adipose tissue"
+      },
+      "why": {
+       "en": "The thinner fat layer inside the reticular dermis itself. In human skin it sits in cones around hair follicles, and what it contributes to skin ageing has not been measured."
+      }
+     },
+     {
+      "id": "hair-follicle",
+      "at": [
+       60.5,
+       33.6
+      ],
+      "radius": 20,
+      "label": {
+       "en": "Hair follicle"
+      },
+      "why": {
+       "en": "Human dermal fat clusters in cones around hair follicles, and human acne lesions contain preadipocytes around the follicle that make cathelicidin."
+      }
+     },
+     {
+      "id": "subcutaneous-fat",
+      "at": [
+       67.8,
+       67.4
+      ],
+      "radius": 7.8,
+      "label": {
+       "en": "Subcutaneous fat"
+      },
+      "why": {
+       "en": "Beneath the dermis lies subcutaneous fat, separate from the thinner dermal fat layer above it."
+      }
+     },
+     {
+      "id": "dermis",
+      "at": [
+       41.9,
+       46.6
+      ],
+      "radius": 19.9,
+      "label": {
+       "en": "Dermis"
+      },
+      "why": {
+       "en": "Most people picture skin fat as one layer under the dermis; there is a second, thinner layer inside the reticular dermis itself."
+      }
+     }
+    ],
+    "done": {
+     "en": "Two fat layers: subcutaneous fat beneath the dermis, and dermal white adipose tissue inside it, which human skin arranges in cones around hair follicles."
+    },
+    "citationRefs": [
+     "chen-zhang-gallo-2019-dwat-review",
+     "kruglikov-scherer-2016-dermal-adipocytes",
+     "oneill-2022-acne-preadipocytes-cathelicidin",
+     "hannah-shmouni-2026-are"
+    ],
+    "source": "authored:2026-09-25 from m3-p02 (its teaching still, asset-hormones-peptides-skin-image-m3-p02-img)"
+   },
+   "metadata": {
+    "activity": {
+     "version": "1.1",
+     "sources": [
+      "m3-p02 body, sentences 1, 2, 4, 5",
+      "m3-p02 beat 1, sentence 1",
+      "m3-p02 beat 3, sentence 1",
+      "m3-p02 audioScript, sentences 1, 2, 5"
+     ],
+     "hotspotFind": {
+      "dwat-cone": "the cone of small, saturated violet round cells packed around the lower part of the hair follicle, in the lower middle of the skin block; it is widest at its base, where it sits on the grey fat lobules, and narrows upward along the follicle",
+      "hair-follicle": "the hair follicle where it passes down through the grey middle layer just above the violet cone: the pale sheath with the grey hair inside it, left of the small lobed ivory gland; the hair continues diagonally up and out of the skin surface at the top right",
+      "subcutaneous-fat": "the large, rounded grey fat lobules that fill the bottom band of the skin block, on the right side, clear of the violet cone",
+      "dermis": "the broad grey middle layer with wavy fibre lines and small oval cells, on the left half of the skin block, midway between the ivory top layer and the grey fat lobules at the bottom"
+     }
+    }
+   }
+  },
+  {
    "id": "m3-p03",
    "type": "stat",
-   "time": "04 / 21",
+   "time": "05 / 26",
    "lead": {
     "en": "Human evidence"
    },
@@ -278,7 +399,7 @@
   {
    "id": "m3-p04",
    "type": "audio",
-   "time": "05 / 21",
+   "time": "06 / 26",
    "lead": {
     "en": "Mechanism"
    },
@@ -353,9 +474,105 @@
    }
   },
   {
+   "id": "m3-x02",
+   "type": "tool",
+   "time": "07 / 26",
+   "lead": {
+    "en": "Practice"
+   },
+   "title": {
+    "en": "From sugar to cross-link."
+   },
+   "body": {
+    "en": "The chemistry behind sugar damage to the dermis, in five steps."
+   },
+   "citationRefs": [
+    "gkogkolou-bohm-2012-ages-skin-aging",
+    "dyer-1993-skin-collagen-maillard",
+    "hannah-shmouni-2026-are"
+   ],
+   "sourceNote": "Gkogkolou & Böhm 2012 · Dyer 1993 · Aesthetic & Regenerative Endocrinology, ch. 13",
+   "interaction": {
+    "kind": "sequence",
+    "title": {
+     "en": "From sugar to cross-link"
+    },
+    "prompt": {
+     "en": "Put glycation in order, from a sugar meeting a protein to a stiffer matrix."
+    },
+    "steps": [
+     {
+      "id": "sugar-binds",
+      "label": {
+       "en": "Reducing sugar binds a protein amino group"
+      },
+      "why": {
+       "en": "Glycation is a slow, non-enzymatic reaction: reducing sugars attach to protein amino groups."
+      }
+     },
+     {
+      "id": "schiff-base",
+      "label": {
+       "en": "Reversible Schiff base"
+      },
+      "why": {
+       "en": "The first product, the Schiff base, is reversible."
+      }
+     },
+     {
+      "id": "amadori",
+      "label": {
+       "en": "More stable Amadori product"
+      },
+      "why": {
+       "en": "It rearranges into a more stable Amadori product."
+      }
+     },
+     {
+      "id": "ages",
+      "label": {
+       "en": "Irreversible AGEs"
+      },
+      "why": {
+       "en": "The reaction ends as advanced glycation end products, or AGEs, which are irreversible."
+      }
+     },
+     {
+      "id": "cross-links",
+      "label": {
+       "en": "Cross-links stiffen long-lived collagen"
+      },
+      "why": {
+       "en": "Dermal collagen lasts for years, so it collects AGEs, and they form cross-links that make the matrix stiffer."
+      }
+     }
+    ],
+    "done": {
+     "en": "The chemistry is well documented; that AGEs cause visible ageing is graded D, because the human data are associations."
+    },
+    "citationRefs": [
+     "gkogkolou-bohm-2012-ages-skin-aging",
+     "dyer-1993-skin-collagen-maillard",
+     "hannah-shmouni-2026-are"
+    ],
+    "source": "authored:2026-09-25 from m3-p04"
+   },
+   "metadata": {
+    "activity": {
+     "version": "1.1",
+     "sources": [
+      "m3-p04 body, sentences 1, 2, 3, 5",
+      "m3-p04 beat 1, sentence 1",
+      "m3-p04 points, 1 and 2",
+      "m3-p04 audioScript, sentences 3, 6"
+     ]
+    }
+   }
+  },
+  {
    "id": "m3-p05",
    "type": "stat",
-   "time": "06 / 21",
+   "time": "08 / 26",
    "lead": {
     "en": "Human evidence"
    },
@@ -391,7 +608,7 @@
   {
    "id": "m3-p06",
    "type": "tool",
-   "time": "07 / 21",
+   "time": "09 / 26",
    "lead": {
     "en": "Sort the evidence"
    },
@@ -598,7 +815,7 @@
   {
    "id": "m3-p07",
    "type": "quiz",
-   "time": "08 / 21",
+   "time": "10 / 26",
    "lead": {
     "en": "Your turn"
    },
@@ -655,7 +872,7 @@
   {
    "id": "m3-p08",
    "type": "audio",
-   "time": "09 / 21",
+   "time": "11 / 26",
    "lead": {
     "en": "Lesson 3.2 · Concept"
    },
@@ -789,7 +1006,7 @@
   {
    "id": "m3-p09",
    "type": "tool",
-   "time": "10 / 21",
+   "time": "12 / 26",
    "lead": {
     "en": "Regulatory status"
    },
@@ -951,7 +1168,7 @@
   {
    "id": "m3-p10",
    "type": "stat",
-   "time": "11 / 21",
+   "time": "13 / 26",
    "lead": {
     "en": "Human evidence"
    },
@@ -988,7 +1205,7 @@
   {
    "id": "m3-p11",
    "type": "tool",
-   "time": "12 / 21",
+   "time": "14 / 26",
    "lead": {
     "en": "Four registers"
    },
@@ -1080,9 +1297,146 @@
    }
   },
   {
+   "id": "m3-x03",
+   "type": "tool",
+   "time": "15 / 26",
+   "lead": {
+    "en": "Practice"
+   },
+   "title": {
+    "en": "Randomized, observational or cells only?"
+   },
+   "body": {
+    "en": "Five findings from this lesson, from the scale to the face."
+   },
+   "citationRefs": [
+    "wilding-2021-step1",
+    "jastreboff-2022-surmount1",
+    "batsis-2026-incretin-body-composition",
+    "sharma-2025-midface-volume-glp1",
+    "rao-2026-glp1-skin-pro-survey",
+    "paschou-2025-glp1ra-skin-aging",
+    "hannah-shmouni-2026-are",
+    "hannah-shmouni-2026-ppg-aug"
+   ],
+   "sourceNote": "Wilding 2021 · Jastreboff 2022 · Batsis 2026 · Sharma 2025 · Rao 2026 · Paschou 2025",
+   "interaction": {
+    "kind": "classify",
+    "title": {
+     "en": "Randomized, observational or cells only?"
+    },
+    "prompt": {
+     "en": "What kind of study stands behind each finding?"
+    },
+    "labels": [
+     {
+      "value": "rct",
+      "label": {
+       "en": "Randomized trials in people"
+      },
+      "tone": "good"
+     },
+     {
+      "value": "observational",
+      "label": {
+       "en": "Small or observational studies in people"
+      },
+      "tone": "neutral"
+     },
+     {
+      "value": "cells",
+      "label": {
+       "en": "Cell studies only"
+      },
+      "tone": "bad"
+     }
+    ],
+    "items": [
+     {
+      "id": "weight-loss",
+      "label": {
+       "en": "Weight loss on semaglutide and tirzepatide"
+      },
+      "answer": "rct",
+      "why": {
+       "en": "STEP-1 and SURMOUNT-1 were large randomized trials against placebo, and both Hormonaly guides grade weight management A."
+      }
+     },
+     {
+      "id": "lean-tissue",
+      "label": {
+       "en": "Part of the weight lost is muscle-related tissue"
+      },
+      "answer": "rct",
+      "why": {
+       "en": "Across 35 randomized trials of incretin drugs, a median of about 28% of the weight lost was muscle-related tissue, which is why the guide pairs treatment with protein and resistance training."
+      }
+     },
+     {
+      "id": "midface-volume",
+      "label": {
+       "en": "Midface volume falls with the weight lost"
+      },
+      "answer": "observational",
+      "why": {
+       "en": "One imaging study of 20 patients found a median 9% loss of midface volume, mostly superficial, about 7% per 10 kg lost (D): small and observational."
+      }
+     },
+     {
+      "id": "reported-sagging",
+      "label": {
+       "en": "More sagging and hair shedding reported with more weight lost"
+      },
+      "answer": "observational",
+      "why": {
+       "en": "A survey of 1,226 patients found sagging, facial volume loss and hair shedding reported more often the more weight was lost (C). No randomized trial has measured the face."
+      }
+     },
+     {
+      "id": "direct-effect",
+      "label": {
+       "en": "A direct drug action on facial fat or skin cells"
+      },
+      "answer": "cells",
+      "why": {
+       "en": "Whether these drugs act on facial fat or skin cells beyond the effect of weight loss rests on cell studies and has not been tested in people."
+      }
+     }
+    ],
+    "done": {
+     "en": "The weight lost and its muscle-related share rest on randomized trials, facial change on small or observational studies (C to D), and a direct drug effect on cell studies alone."
+    },
+    "citationRefs": [
+     "wilding-2021-step1",
+     "jastreboff-2022-surmount1",
+     "batsis-2026-incretin-body-composition",
+     "sharma-2025-midface-volume-glp1",
+     "rao-2026-glp1-skin-pro-survey",
+     "paschou-2025-glp1ra-skin-aging",
+     "hannah-shmouni-2026-are",
+     "hannah-shmouni-2026-ppg-aug"
+    ],
+    "source": "authored:2026-09-25 from m3-p10, m3-p11 and m03-tutor-ozempic-face"
+   },
+   "metadata": {
+    "activity": {
+     "version": "1.1",
+     "sources": [
+      "m3-p10 title",
+      "m3-p10 body, sentences 1, 2, 3, 4",
+      "m3-p10 stat.means, sentences 1, 2",
+      "m3-p11 tool row 2 (Human evidence) value",
+      "m3-p11 tool row 2 note, sentences 1, 2, 4",
+      "m3-p11 tool row 4 (Open question) note, sentence 1",
+      "m03-tutor-ozempic-face answer, sentence 3"
+     ]
+    }
+   }
+  },
+  {
    "id": "m3-p12",
    "type": "audio",
-   "time": "13 / 21",
+   "time": "16 / 26",
    "lead": {
     "en": "What changes in practice"
    },
@@ -1173,9 +1527,197 @@
    }
   },
   {
+   "id": "m3-x04",
+   "type": "tool",
+   "time": "17 / 26",
+   "lead": {
+    "en": "Practice"
+   },
+   "title": {
+    "en": "Starting tirzepatide, worried about her face."
+   },
+   "body": {
+    "en": "A fictional case in three decisions, from before treatment to a request for restoration."
+   },
+   "citationRefs": [
+    "hannah-shmouni-2026-are",
+    "humphrey-lawrence-2023-ozempic-face",
+    "nikolis-2025-mdwl-delphi",
+    "nct07419854-radiesse-after-glp1",
+    "nct07685834-sofwave-tirzepatide",
+    "batsis-2026-incretin-body-composition",
+    "wilding-2021-step1",
+    "jastreboff-2022-surmount1",
+    "sharma-2025-midface-volume-glp1",
+    "rao-2026-glp1-skin-pro-survey"
+   ],
+   "sourceNote": "Aesthetic & Regenerative Endocrinology, ch. 12, 14 · Nikolis 2025 · ClinicalTrials.gov, checked 24 Sep 2026 · Wilding 2021 · Jastreboff 2022 · Batsis 2026 · Sharma 2025 · Rao 2026",
+   "interaction": {
+    "kind": "branching",
+    "title": {
+     "en": "Before, during, when asked"
+    },
+    "prompt": {
+     "en": "What do you do at each stage?"
+    },
+    "setup": {
+     "en": "A fictional case, built from this lesson's guidance. An older patient is about to start tirzepatide for weight management, prescribed by her physician. She has read about 'Ozempic face' and asks what the drug will do to her face."
+    },
+    "start": "n1",
+    "nodes": [
+     {
+      "id": "n1",
+      "prompt": {
+       "en": "Before she starts, what do you do?"
+      },
+      "options": [
+       {
+        "value": "raise-and-record",
+        "label": {
+         "en": "Tell her facial volume change and hair shedding are possible, and that facial change so far tracks the weight lost; record that you told her."
+        },
+        "why": {
+         "en": "Right. The Hormonaly guide advises raising facial volume change and hair shedding before treatment starts, especially with older patients, and recording that you did. So far, the evidence ties facial change to how much weight is lost."
+        },
+        "correct": true,
+        "next": "n2"
+       },
+       {
+        "value": "trials-found-nothing",
+        "label": {
+         "en": "Tell her the large trials found no effect on the face, so there is nothing to expect."
+        },
+        "why": {
+         "en": "The large trials never looked: neither pivotal trial measured facial fat, skin laxity or appearance. Smaller observational studies tie facial change to the weight lost."
+        }
+       },
+       {
+        "value": "wait-and-see",
+        "label": {
+         "en": "Say nothing yet; raise the face if she notices a change."
+        },
+        "why": {
+         "en": "The guide's advice is to raise facial volume change and hair shedding before treatment starts, especially with older patients, and to record that you did."
+        }
+       }
+      ]
+     },
+     {
+      "id": "n2",
+      "prompt": {
+       "en": "Months into treatment, she is losing weight steadily. What do you add at follow-up?"
+      },
+      "options": [
+       {
+        "value": "photos-and-lean-mass",
+        "label": {
+         "en": "Consented photographs of her face, and support for protein intake and resistance training."
+        },
+        "why": {
+         "en": "Right. Photographs mean change is measured rather than remembered, and the guide recommends protein intake and resistance training to protect lean mass: across 35 randomized trials, a median of about 28% of the weight lost was muscle-related tissue."
+        },
+        "correct": true,
+        "next": "n3"
+       },
+       {
+        "value": "scale-only",
+        "label": {
+         "en": "Nothing beyond her weight; that is what the trials measured."
+        },
+        "why": {
+         "en": "Weight is only part of what changes. Part of what is lost is lean tissue, which is why the Hormonaly guide pairs treatment with protein and resistance training."
+        }
+       },
+       {
+        "value": "ask-her",
+        "label": {
+         "en": "Ask at each visit whether her face looks different to her."
+        },
+        "why": {
+         "en": "Memory is not a record. Photograph the face with consent, so that change is measured rather than remembered."
+        }
+       }
+      ]
+     },
+     {
+      "id": "n3",
+      "prompt": {
+       "en": "Later, she asks you to restore the volume in her cheeks. What do you do?"
+      },
+      "options": [
+       {
+        "value": "refer",
+        "label": {
+         "en": "Refer her to a qualified aesthetic or dermatology colleague, and tell her that advice on restoration is still expert opinion."
+        },
+        "why": {
+         "en": "Right. Published advice on restoration is expert opinion, the main consensus statement was developed with industry involvement, and randomized trials of fillers and devices in these patients are registered without results."
+        },
+        "correct": true
+       },
+       {
+        "value": "trials-show",
+        "label": {
+         "en": "Tell her randomized trials show that fillers restore the face after drug-driven weight loss."
+        },
+        "why": {
+         "en": "They have not reported: randomized trials of fillers and devices in these patients are registered without results, and published advice is expert opinion."
+        }
+       },
+       {
+        "value": "improvise",
+        "label": {
+         "en": "Improvise a restoration plan yourself at today's visit."
+        },
+        "why": {
+         "en": "Refer restoration requests rather than improvising them; the guidance is to refer to a qualified aesthetic or dermatology colleague."
+        }
+       }
+      ]
+     }
+    ],
+    "followUp": {
+     "en": "Document each stage as you go: what you raised before treatment, the consented photographs and the referral."
+    },
+    "done": {
+     "en": "Counsel before, record during, refer when asked, and leave decisions about the medicine itself to the prescriber and the patient."
+    },
+    "citationRefs": [
+     "hannah-shmouni-2026-are",
+     "humphrey-lawrence-2023-ozempic-face",
+     "nikolis-2025-mdwl-delphi",
+     "nct07419854-radiesse-after-glp1",
+     "nct07685834-sofwave-tirzepatide",
+     "batsis-2026-incretin-body-composition",
+     "wilding-2021-step1",
+     "jastreboff-2022-surmount1",
+     "sharma-2025-midface-volume-glp1",
+     "rao-2026-glp1-skin-pro-survey"
+    ],
+    "source": "authored:2026-09-25 from m3-p10, m3-p11 and m3-p12"
+   },
+   "metadata": {
+    "activity": {
+     "version": "1.1",
+     "sources": [
+      "m3-p10 body, sentence 4",
+      "m3-p10 stat.means, sentence 2",
+      "m3-p10 stat.doesNot, sentence 1",
+      "m3-p11 tool row 2 (Human evidence) value",
+      "m3-p11 tool callout",
+      "m3-p12 title",
+      "m3-p12 body, sentences 1, 3, 4, 5",
+      "m3-p12 audioScript, sentences 2, 3",
+      "m3-p12 beat 3, sentence 2",
+      "m3-p12 prescriber variant, sentences 1, 2, 3"
+     ]
+    }
+   }
+  },
+  {
    "id": "m3-p13",
    "type": "audio",
-   "time": "14 / 21",
+   "time": "18 / 26",
    "lead": {
     "en": "Fictional case"
    },
@@ -1328,7 +1870,7 @@
   {
    "id": "m3-p14",
    "type": "quiz",
-   "time": "15 / 21",
+   "time": "19 / 26",
    "lead": {
     "en": "Your turn"
    },
@@ -1387,7 +1929,7 @@
   {
    "id": "m3-p15",
    "type": "audio",
-   "time": "16 / 21",
+   "time": "20 / 26",
    "lead": {
     "en": "Lesson 3.3 · Concept"
    },
@@ -1467,7 +2009,7 @@
   {
    "id": "m3-p16",
    "type": "stat",
-   "time": "17 / 21",
+   "time": "21 / 26",
    "lead": {
     "en": "The evidence"
    },
@@ -1503,7 +2045,7 @@
   {
    "id": "m3-p17",
    "type": "tool",
-   "time": "18 / 21",
+   "time": "22 / 26",
    "lead": {
     "en": "Sort the toolkit"
    },
@@ -1750,7 +2292,7 @@
   {
    "id": "m3-p18",
    "type": "audio",
-   "time": "19 / 21",
+   "time": "23 / 26",
    "lead": {
     "en": "What changes in practice"
    },
@@ -1893,9 +2435,144 @@
    }
   },
   {
+   "id": "m3-x05",
+   "type": "tool",
+   "time": "24 / 26",
+   "lead": {
+    "en": "Practice"
+   },
+   "title": {
+    "en": "From a fatty meal to clear skin?"
+   },
+   "body": {
+    "en": "A fictional sales page that mixes sound physiology with promises about skin."
+   },
+   "citationRefs": [
+    "franceschi-2000-inflamm-aging",
+    "ferrucci-fabbri-2018-inflammageing",
+    "cani-2007-metabolic-endotoxemia",
+    "erridge-2007-high-fat-meal-endotoxemia",
+    "camilleri-2019-leaky-gut",
+    "reynolds-2019-carbohydrate-quality",
+    "hannah-shmouni-2026-are"
+   ],
+   "sourceNote": "Franceschi 2000 · Ferrucci & Fabbri 2018 · Cani 2007 · Erridge 2007 · Camilleri 2019 · Reynolds 2019 · Aesthetic & Regenerative Endocrinology, ch. 16",
+   "interaction": {
+    "kind": "inspect",
+    "title": {
+     "en": "Where does the page overreach?"
+    },
+    "prompt": {
+     "en": "A patient shows you this fictional sales page for a 'gut–skin reset' kit. Which sentences does the evidence not support?"
+    },
+    "segments": [
+     {
+      "id": "inflammaging",
+      "text": {
+       "en": "Background inflammation rises slowly with age; researchers call it inflammaging."
+      },
+      "suspect": false,
+      "why": {
+       "en": "Supported. Inflammaging is the chronic, low-grade, sterile inflammation that rises with age."
+      }
+     },
+     {
+      "id": "markers",
+      "text": {
+       "en": "In older adults, higher IL-6 and CRP predict frailty and death."
+      },
+      "suspect": false,
+      "why": {
+       "en": "Supported, as a prediction: in older adults, higher IL-6 and CRP predict frailty, disability and death."
+      }
+     },
+     {
+      "id": "mouse-endotoxin",
+      "text": {
+       "en": "Studies show that a high-fat diet raises gut bacterial toxin in the blood, and that the toxin causes weight gain and insulin resistance."
+      },
+      "suspect": true,
+      "why": {
+       "en": "Shown in mice. There, a high-fat diet raised bacterial lipopolysaccharide in the blood, and infusing it reproduced weight gain and insulin resistance; the page leaves out the species."
+      }
+     },
+     {
+      "id": "fatty-meal",
+      "text": {
+       "en": "In a small study of healthy men, a single high-fat meal raised endotoxin in the blood within four hours."
+      },
+      "suspect": false,
+      "why": {
+       "en": "Supported: in 12 healthy men, a single high-fat meal raised plasma endotoxin within four hours. A short rise in a small study; the human evidence stops short of the skin."
+      }
+     },
+     {
+      "id": "leak-drives-skin",
+      "text": {
+       "en": "That leak is what drives acne, eczema and rosacea."
+      },
+      "suspect": true,
+      "why": {
+       "en": "Not shown. Whether a leaky gut drives skin disease in people has not been shown."
+      }
+     },
+     {
+      "id": "seal-the-barrier",
+      "text": {
+       "en": "Seal the barrier with this kit and your skin clears from the inside out."
+      },
+      "suspect": true,
+      "why": {
+       "en": "Unproven. Restoring barrier function has not been shown to improve disease outside the gut."
+      }
+     },
+     {
+      "id": "fibre",
+      "text": {
+       "en": "A fibre-rich diet has strong evidence for heart and metabolic health."
+      },
+      "suspect": false,
+      "why": {
+       "en": "Supported, for the heart and metabolism: the guide grades it A, and the review behind it rates certainty moderate. No trial has measured skin."
+      }
+     }
+    ],
+    "hint": {
+     "en": "Ask where each sentence was shown: in mice, in a small human study, or nowhere yet."
+    },
+    "done": {
+     "en": "The supported sentences stop short of the skin; the leaps rest on a mouse result told as a human one and on skin benefits no study has shown."
+    },
+    "citationRefs": [
+     "franceschi-2000-inflamm-aging",
+     "ferrucci-fabbri-2018-inflammageing",
+     "cani-2007-metabolic-endotoxemia",
+     "erridge-2007-high-fat-meal-endotoxemia",
+     "camilleri-2019-leaky-gut",
+     "reynolds-2019-carbohydrate-quality",
+     "hannah-shmouni-2026-are"
+    ],
+    "source": "authored:2026-09-25 from m3-p15, m3-p17 and m3-p18"
+   },
+   "metadata": {
+    "activity": {
+     "version": "1.1",
+     "sources": [
+      "m3-p15 body, sentences 1, 2, 4, 5, 6",
+      "m3-p15 beat 1, sentence 2",
+      "m3-p15 beat 2, sentence 1",
+      "m3-p15 audioScript, sentences 1, 7",
+      "m3-p17 quickfire item 'fibre' why, sentences 1, 2",
+      "m3-p18 body, sentence 3",
+      "m3-p06 tool callout (the hint's wording)"
+     ]
+    }
+   }
+  },
+  {
    "id": "m3-p19",
    "type": "quiz",
-   "time": "20 / 21",
+   "time": "25 / 26",
    "lead": {
     "en": "Your turn"
    },
@@ -1952,7 +2629,7 @@
   {
    "id": "m3-p20",
    "type": "action",
-   "time": "21 / 21",
+   "time": "26 / 26",
    "lead": {
     "en": "Closing and commitment"
    },
@@ -2723,6 +3400,36 @@
    "forReview": "Omar Saleem (product owner)",
    "confirmedBy": "Omar Saleem, product owner (editorial; no medical content changed)",
    "confirmedAt": "2026-09-26"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m3-x01",
+   "change": "New practice (1.1): hotspots — the skin's two fat layers on the lesson's own teaching still (dermis; dermal white adipose tissue in its cone around the follicle; the hair follicle; subcutaneous fat). Built only from approved sentences (m3-p02).",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m3-x02",
+   "change": "New practice (1.1): sequence — the glycation cascade in order: reducing sugar binds a protein amino group → reversible Schiff base → more stable Amadori product → irreversible AGEs → cross-links that stiffen long-lived collagen; the done line keeps the course's D for the causal link to visible ageing. Built only from approved sentences (m3-p04).",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m3-x03",
+   "change": "New practice (1.1): classify (grade the evidence) — five incretin findings by the study behind them: randomized trials (weight loss; the muscle-related share of it), small or observational studies (midface imaging, n=20, D; patient survey, n=1,226, C), cell studies only (a direct drug action on facial fat or skin cells). Built only from approved sentences (m3-p10, m3-p11, m03-tutor-ozempic-face).",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m3-x04",
+   "change": "New practice (1.1): branching — a fictional older patient starting tirzepatide for weight management, in three decisions: counsel before treatment (raise face and hair, record it), during treatment (consented photographs, protein and resistance training), when asked (refer restoration; advice is expert opinion, trials unreported). No medicine or dosing decision is offered. Built only from approved sentences (m3-p10, m3-p11, m3-p12).",
+   "forReview": "Fady Hannah-Shmouni"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m3-x05",
+   "change": "New practice (1.1): inspect — a fictional, unbranded 'gut–skin reset' sales page: three unsupported sentences (a mouse endotoxin result told as a human one; a leaky gut driving acne, eczema and rosacea; sealing the barrier to clear skin) among four supported ones (inflammaging; IL-6 and CRP; the 12-man fatty-meal study; fibre for heart and metabolism). Built only from approved sentences (m3-p15, m3-p17, m3-p18).",
+   "forReview": "Fady Hannah-Shmouni"
   }
  ],
  "mediaChanges": [

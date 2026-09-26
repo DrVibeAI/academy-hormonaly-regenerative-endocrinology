@@ -2,4 +2,5 @@
 # Upgrades are PRs (the nightly sweep opens them); never float on main.
 # 2026-09-25: pinned to the foundry commit rc.4 was built and gated with (perceptor-foundry factory/automation-gaps-20260924,
 # PR #9: asset.disclosure schema, editorial audit, cinematic lane); move to the merge commit once PR #9 lands on main.
-ref=a02bc40abcbf5f7ae32bc757a37dad26062af1ed
+# 2026-09-25 (1.1): moved to the foundry commit with the sequence and branching interaction kinds, hedge, living diagrams and the dive.
+ref=13962054140c00b04cff101af283cc3ad8a0c2b8
