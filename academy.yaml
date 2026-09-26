@@ -21,9 +21,9 @@ brand:
 home:
   # Homepage copy (2026-09-25, Omar: the page should speak to the clinician with confidence, not explain the platform; less text,
   # clear headings, more pictures and numbers; skin aesthetics as a practice lever). Numbers come from the package, never from here.
-  kicker: { en: "Hormonaly Academy · for clinicians" }
+  kicker: { en: "For clinicians" }
   headline: { en: "Skin peptides, answered with evidence." }
-  lede: { en: "Your patients are already asking. Learn what the trials show, what is approved where you practise, and what to say next." }
+  lede: { en: "Your patients are already asking about hormones and peptides for their skin. Learn what the trials show, what is approved where you practise, and what to say next." }
   primaryAction: { en: "Enrol now" }
   secondaryAction: { en: "Watch the trailer" }
   heroImage: { src: "assets/hormones-peptides-skin/home/hero-skin.jpg" }
@@ -63,7 +63,7 @@ home:
       - title: { en: "Ask the course" }
         body: { en: "A tutor answers from the course and its sources, and says when a question is outside them." }
   reviewers:
-    - name: "Dr. Fady Hannah-Shmouni, MD FRCPC"
+    - name: "Fady Hannah-Shmouni, MD FRCPC"
       role: { en: "Medical review · author of the Hormonaly pocket guides on aesthetic and regenerative endocrinology and on peptides" }
   faq:
     - q: { en: "Does the course give doses or protocols?" }
@@ -71,9 +71,19 @@ home:
     - q: { en: "Which countries does it cover?" }
       a: { en: "The United States, the United Kingdom, the European Union, Portugal, Brazil and the United Arab Emirates. Each statement names its country and date, and your own country comes first." }
     - q: { en: "Is there CME or CE credit?" }
-      a: { en: "Not yet. The course is designed toward future CME accreditation; no credit is offered at this time." }
+      a: { en: "The course is accredited by GCLS, the Geneva College of Longevity Sciences. CME or CE credit is not offered at this time." }
     - q: { en: "What do I get at the end?" }
-      a: { en: "Pass the final check with 80% or more to receive a certificate of completion with a public verification code." }
+      a: { en: "Pass the final check with 80% or more to receive a certificate of completion for this GCLS-accredited course, with a public verification code." }
+  certificate:
+    title: { en: "Earn a GCLS-accredited certificate." }
+    body: { en: "Finish the seven modules and pass the final check to receive your certificate of completion." }
+  creators:
+    kicker: { en: "For physician creators" }
+    title: { en: "Launch your own course with Perceptors." }
+    body: { en: "Physicians, educators and creators with something clinicians should learn: we turn your expertise into an evidence-checked course and academy like this one." }
+    action:
+      label: { en: "Talk to us" }
+      href: "https://www.perceptors.ai/contact?prompt=I%20want%20to%20launch%20my%20own%20course%20with%20Perceptors#general-inquiries"
   ctaTitle: { en: "Start with Module 1 today." }
   disclaimer: { en: "Educational content for licensed clinicians. It does not replace clinical judgement, specialist input or formal guidelines." }
 
@@ -87,7 +97,12 @@ catalog:
     status: draft
     series: regenerative-endocrinology
     order: 1
-    entitlement: { type: open }         # open enrolment; pricing/entitlement to confirm with Hormonaly
+    # GCLS accreditation, relayed by Omar 2026-09-25: "they gave me verbal that they'll be accredited, but they'll send over the email
+    # afterwards … mention that it is GCLS-accredited". The certificate stays academy-issued until the written confirmation and an
+    # accreditation id arrive (package governance.accreditation), then it becomes GCLS-issued.
+    accreditation: { body: "GCLS", name: "Geneva College of Longevity Sciences", status: accredited, logo: "/gcls/gcls-logo.png",
+      basis: "Verbal confirmation from GCLS to Omar Saleem (product owner), 2026-09-25; written confirmation to follow" }
+    entitlement: { type: open }         # price set by Omar 2026-09-25: USD 199 — becomes { type: paid, price: { amount: 199, currency: usd } } when checkout is live
     certificate: { access: included }
     final: { by: "Omar Saleem (product owner)", date: "2026-09-25", revision: "academy-hormonaly-00009-6jl · 1.0.0-rc.4, walked end to end on hormonaly.perceptors.ai" }   # Omar: "it's final, go ahead"
     # 1.0.1 (2026-09-25): the androgen-secreting tumour figures removed from m2-p15/m2-p16 on Omar's instruction, Fady approving ("remove the numbers, fady's fine with that").
