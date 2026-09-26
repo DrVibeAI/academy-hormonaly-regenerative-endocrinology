@@ -1297,7 +1297,7 @@
       "en": "Androgens"
      },
      "body": {
-      "en": "Rapid onset or progression of hirsutism, or signs of virilization, raise the likelihood of an androgen-secreting tumour; about 0.2% of hyperandrogenic women have one, and over half are malignant."
+      "en": "Rapid onset or progression of hirsutism, or signs of virilization, raise the likelihood of an androgen-secreting tumour and call for prompt referral."
      }
     },
     {
@@ -1311,7 +1311,7 @@
    ],
    "metadata": {
     "audioScript": {
-     "en": "Most of the endocrine skin signs you will actually meet come from common conditions. New, generalised darkening, most obvious in skin creases such as the palms, in scars, on the gums and on sun-exposed skin, can be the sign of primary adrenal insufficiency. In a patient who is also unwell, the Endocrine Society recommends testing, and a suspected adrenal crisis is treated before the results come back, because delay raises the risk of death. Hirsutism that arrives quickly, keeps progressing, or comes with a deeper voice or clitoromegaly makes an androgen-secreting tumour more likely, and more than half of those tumours are malignant. Velvety dark plaques in the neck folds track insulin resistance. Firm plaques on the shins point to Graves' disease, and cold, dry, coarse skin suggests an underactive thyroid. The skin shows you which door to knock on."
+     "en": "Most of the endocrine skin signs you will actually meet come from common conditions. New, generalised darkening, most obvious in skin creases such as the palms, in scars, on the gums and on sun-exposed skin, can be the sign of primary adrenal insufficiency. In a patient who is also unwell, the Endocrine Society recommends testing, and a suspected adrenal crisis is treated before the results come back, because delay raises the risk of death. Hirsutism that arrives quickly, keeps progressing, or comes with a deeper voice or clitoromegaly makes an androgen-secreting tumour more likely and calls for prompt referral. Velvety dark plaques in the neck folds track insulin resistance. Firm plaques on the shins point to Graves' disease, and cold, dry, coarse skin suggests an underactive thyroid. The skin shows you which door to knock on."
     }
    },
    "imageBrief": {
@@ -1432,7 +1432,7 @@
       },
       "answer": "urgent",
       "why": {
-       "en": "Rapid progression with virilization raises the likelihood of an androgen-secreting tumour, over half of which are malignant (Endocrine Society, 2018). The guide calls rapid virilization the one finding that demands urgent work-up."
+       "en": "Rapid progression with virilization raises the likelihood of an androgen-secreting tumour (Endocrine Society, 2018). The guide calls rapid virilization the one finding that demands urgent work-up."
       }
      },
      {
@@ -2249,6 +2249,14 @@
    "date": "2026-09-25",
    "block": "m2-opener",
    "change": "New moment: the module's opening film (about 76 s; draft media for the media preview). The narration is approved text, verbatim (m2-p01 body, sentences 1, 2, 3; m2-p02 audioScript, sentences 1, 2, 3, 4, 5, 6, 7); the presenter is a HeyGen digital avatar, and the player shows \"Presented by a digital avatar (AI-generated presenter and voice).\" under the video. The moments' position labels are renumbered to /20.",
+   "forReview": "Fady Hannah-Shmouni",
+   "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
+   "confirmedAt": "2026-09-25"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m2-p15 (Androgens beat, narration), m2-p16 (feedback)",
+   "change": "The androgen-secreting tumour figures removed ('about 0.2% of hyperandrogenic women', 'over half malignant'): neither the cited guideline's accessible text nor the Hormonaly guide states them, as the GCLS pre-review and claim support flagged. The text now reads that rapid onset, progression or virilization raises the likelihood of such a tumour and calls for prompt referral.",
    "forReview": "Fady Hannah-Shmouni",
    "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
    "confirmedAt": "2026-09-25"

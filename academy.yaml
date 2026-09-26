@@ -66,6 +66,7 @@ catalog:
     entitlement: { type: open }         # open enrolment; pricing/entitlement to confirm with Hormonaly
     certificate: { access: included }
     final: { by: "Omar Saleem (product owner)", date: "2026-09-25", revision: "academy-hormonaly-00009-6jl · 1.0.0-rc.4, walked end to end on hormonaly.perceptors.ai" }   # Omar: "it's final, go ahead"
+    # 1.0.1 (2026-09-25): the androgen-secreting tumour figures removed from m2-p15/m2-p16 on Omar's instruction, Fady approving ("remove the numbers, fady's fine with that").
 modules: { fieldbook: true, promptLab: false, webinars: false, blog: false, peers: false, achievements: false, studio: false }   # studio: operator demo view off for learners
 # Learner country (onboarding + Perfil). The course is one English edition; the country decides which regulatory note each moment
 # shows first (package blocks' metadata.variants.jurisdiction; runtime falls back to EU for member states). Omar 2026-09-25:
