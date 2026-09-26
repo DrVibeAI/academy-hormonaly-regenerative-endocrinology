@@ -2138,7 +2138,11 @@
     "tiganescu-2013-11bhsd1-aged-skin",
     "hannah-shmouni-2026-are"
    ],
-   "scope": "m02"
+   "scope": "m02",
+   "suggestedPrompt": {
+    "en": "When is a “cortisol face” a sign of Cushing's syndrome?"
+   },
+   "suggestionRank": 8
   },
   {
    "id": "tutor-m02-hrt-skin",
@@ -2170,7 +2174,11 @@
     "emc-smpc-sandrena-uk",
     "mhra-gn14-specials-2023"
    ],
-   "scope": "m02"
+   "scope": "m02",
+   "suggestedPrompt": {
+    "en": "Does HRT help wrinkles?"
+   },
+   "suggestionRank": 3
   }
  ],
  "reviewNotes": [
@@ -2268,6 +2276,12 @@
    "date": "2026-09-25",
    "block": "m02 module summary",
    "change": "Editorial: the module summary shown on Today and Course is now one sentence from the module's cover (m2-p01), 'Most skin changes you see are ageing or lifestyle; a few are the first visible sign of endocrine disease.', replacing the intake plan's scope list, which stays in the package as metadata.scope (runtime clarity pass: summaries read like specifications). (editorial; no medical content changed)",
+   "forReview": "Omar Saleem (product owner)"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "tutor-m02-cortisol-face, tutor-m02-hrt-skin",
+   "change": "Editorial: each prepared Guide answer now carries the question it answers as a suggested prompt (tutor-m02-cortisol-face → 'When is a “cortisol face” a sign of Cushing's syndrome?'; tutor-m02-hrt-skin → 'Does HRT help wrinkles?'), so the Guide opens on course questions instead of platform help. The prepared answers are unchanged. (editorial; no medical content changed)",
    "forReview": "Omar Saleem (product owner)"
   }
  ],

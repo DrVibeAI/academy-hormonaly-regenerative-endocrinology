@@ -2353,7 +2353,11 @@
     "uk-hmr-2012-reg-46",
     "uk-hmr-2012-reg-279"
    ],
-   "scope": "m04"
+   "scope": "m04",
+   "suggestedPrompt": {
+    "en": "What does the evidence show for copper peptides (GHK-Cu)?"
+   },
+   "suggestionRank": 1
   },
   {
    "id": "tutor-m04-bpc157",
@@ -2381,7 +2385,11 @@
     "uk-hmr-2012-reg-279",
     "mhra-2026-05-29-largest-seizure"
    ],
-   "scope": "m04"
+   "scope": "m04",
+   "suggestedPrompt": {
+    "en": "Is there human evidence for BPC-157?"
+   },
+   "suggestionRank": 4
   }
  ],
  "postApprovalChanges": [
@@ -2596,6 +2604,12 @@
    "date": "2026-09-25",
    "block": "m04 module summary",
    "change": "Editorial: the module summary shown on Today and Course is now one sentence from the module's cover (m4-p01), 'Most skin peptides reach your clinic before any evidence does.', replacing the intake plan's scope list, which stays in the package as metadata.scope (runtime clarity pass: summaries read like specifications). (editorial; no medical content changed)",
+   "forReview": "Omar Saleem (product owner)"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "tutor-m04-ghkcu, tutor-m04-bpc157",
+   "change": "Editorial: each prepared Guide answer now carries the question it answers as a suggested prompt (tutor-m04-ghkcu → 'What does the evidence show for copper peptides (GHK-Cu)?'; tutor-m04-bpc157 → 'Is there human evidence for BPC-157?'), so the Guide opens on course questions instead of platform help. The prepared answers are unchanged. (editorial; no medical content changed)",
    "forReview": "Omar Saleem (product owner)"
   }
  ],

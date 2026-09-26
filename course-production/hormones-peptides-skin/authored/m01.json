@@ -2000,7 +2000,11 @@
     "liu-2016-mrna-protein",
     "holick-1980-previtamin-d3"
    ],
-   "scope": "m01"
+   "scope": "m01",
+   "suggestedPrompt": {
+    "en": "A product says skin has receptors for it. Does that prove it works?"
+   },
+   "suggestionRank": 6
   },
   {
    "id": "tutor-m01-senescence",
@@ -2028,7 +2032,11 @@
     "chung-2019-topical-rapamycin",
     "hannah-shmouni-2026-are"
    ],
-   "scope": "m01"
+   "scope": "m01",
+   "suggestedPrompt": {
+    "en": "Do senolytics help ageing skin?"
+   },
+   "suggestionRank": 7
   }
  ],
  "postApprovalChanges": [
@@ -2068,6 +2076,12 @@
    "date": "2026-09-25",
    "block": "m01 module summary",
    "change": "Editorial: the module summary shown on Today and Course is now one sentence from the module's cover (m1-p01), 'Skin senses hormones from the blood, makes several of its own, and ages in ways that change both.', replacing the intake plan's scope list, which stays in the package as metadata.scope (runtime clarity pass: summaries read like specifications). (editorial; no medical content changed)",
+   "forReview": "Omar Saleem (product owner)"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "tutor-m01-atlas, tutor-m01-senescence",
+   "change": "Editorial: each prepared Guide answer now carries the question it answers as a suggested prompt (tutor-m01-atlas → 'A product says skin has receptors for it. Does that prove it works?'; tutor-m01-senescence → 'Do senolytics help ageing skin?'), so the Guide opens on course questions instead of platform help. The prepared answers are unchanged. (editorial; no medical content changed)",
    "forReview": "Omar Saleem (product owner)"
   }
  ],

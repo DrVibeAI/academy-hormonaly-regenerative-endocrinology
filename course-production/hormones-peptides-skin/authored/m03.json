@@ -2486,7 +2486,11 @@
     "mhra-2023-11-08-mounjaro-weight",
     "mhra-2026-07-24-no-summer-shortcut"
    ],
-   "scope": "m03"
+   "scope": "m03",
+   "suggestedPrompt": {
+    "en": "What causes “Ozempic face”?"
+   },
+   "suggestionRank": 2
   },
   {
    "id": "m03-tutor-gut-skin",
@@ -2521,7 +2525,11 @@
     "mhra-gn14-specials-2023",
     "mhra-dsu-2009-offlabel-unlicensed"
    ],
-   "scope": "m03"
+   "scope": "m03",
+   "suggestedPrompt": {
+    "en": "Does a leaky gut cause skin problems?"
+   },
+   "suggestionRank": 9
   }
  ],
  "reviewNotes": [
@@ -2696,6 +2704,12 @@
    "date": "2026-09-25",
    "block": "m03 module summary",
    "change": "Editorial: the module summary shown on Today and Course is now one sentence from the module's cover (m3-p01), 'Facial shape depends on fat as much as on collagen.', replacing the intake plan's scope list, which stays in the package as metadata.scope (runtime clarity pass: summaries read like specifications). (editorial; no medical content changed)",
+   "forReview": "Omar Saleem (product owner)"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m03-tutor-ozempic-face, m03-tutor-gut-skin",
+   "change": "Editorial: each prepared Guide answer now carries the question it answers as a suggested prompt (m03-tutor-ozempic-face → 'What causes “Ozempic face”?'; m03-tutor-gut-skin → 'Does a leaky gut cause skin problems?'), so the Guide opens on course questions instead of platform help. The prepared answers are unchanged. (editorial; no medical content changed)",
    "forReview": "Omar Saleem (product owner)"
   }
  ],

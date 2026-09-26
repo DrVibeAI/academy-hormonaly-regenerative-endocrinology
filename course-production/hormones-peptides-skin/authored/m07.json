@@ -3081,7 +3081,11 @@
     "lundh-2017-industry-sponsorship",
     "hannah-shmouni-2026-ppg-aug"
    ],
-   "scope": "m07"
+   "scope": "m07",
+   "suggestedPrompt": {
+    "en": "How good is the evidence behind a “clinically proven” claim?"
+   },
+   "suggestionRank": 13
   },
   {
    "id": "tutor-m07-compounding-coa",
@@ -3112,7 +3116,11 @@
     "mhra-gn14-specials-2023",
     "uk-medicines-act-1968-s10"
    ],
-   "scope": "m07"
+   "scope": "m07",
+   "suggestedPrompt": {
+    "en": "What does a certificate of analysis (COA) prove about purity?"
+   },
+   "suggestionRank": 14
   }
  ],
  "reviewNotes": [
@@ -3338,6 +3346,12 @@
    "date": "2026-09-25",
    "block": "m07 module summary",
    "change": "Editorial: the module summary shown on Today and Course is now one sentence from the module's cover (m7-p01), 'You will rate the certainty behind a claim with GRADE, read a compounding status and a certificate of analysis for what they do and do not prove, and write the consent and chart note that an unapproved product needs.', replacing the intake plan's scope list, which stays in the package as metadata.scope (runtime clarity pass: summaries read like specifications). (editorial; no medical content changed)",
+   "forReview": "Omar Saleem (product owner)"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "tutor-m07-grade, tutor-m07-compounding-coa",
+   "change": "Editorial: each prepared Guide answer now carries the question it answers as a suggested prompt (tutor-m07-grade → 'How good is the evidence behind a “clinically proven” claim?'; tutor-m07-compounding-coa → 'What does a certificate of analysis (COA) prove about purity?'), so the Guide opens on course questions instead of platform help. The prepared answers are unchanged. (editorial; no medical content changed)",
    "forReview": "Omar Saleem (product owner)"
   }
  ],

@@ -2407,7 +2407,11 @@
     "mhra-foi-24-274-melanotan-ii",
     "tga-2026-melanotan-ii-safety-advisory"
    ],
-   "scope": "m05"
+   "scope": "m05",
+   "suggestedPrompt": {
+    "en": "What are the risks of a tanning injection such as Melanotan II?"
+   },
+   "suggestionRank": 5
   },
   {
    "id": "tutor-m05-hair-peptides",
@@ -2439,7 +2443,11 @@
     "emc-smpc-olumiant-uk",
     "mhra-gn14-specials-2023"
    ],
-   "scope": "m05"
+   "scope": "m05",
+   "suggestedPrompt": {
+    "en": "Is there a peptide for hair loss with human trials?"
+   },
+   "suggestionRank": 10
   }
  ],
  "reviewNotes": [
@@ -2601,6 +2609,12 @@
    "date": "2026-09-25",
    "block": "m05 module summary",
    "change": "Editorial: the module summary shown on Today and Course is now one sentence from the module's cover (m5-p01), 'Two requests reach aesthetic clinics well ahead of their evidence: a peptide to regrow hair and an injection to tan.', replacing the intake plan's scope list, which stays in the package as metadata.scope (runtime clarity pass: summaries read like specifications). (editorial; no medical content changed)",
+   "forReview": "Omar Saleem (product owner)"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "tutor-m05-melanotan, tutor-m05-hair-peptides",
+   "change": "Editorial: each prepared Guide answer now carries the question it answers as a suggested prompt (tutor-m05-melanotan → 'What are the risks of a tanning injection such as Melanotan II?'; tutor-m05-hair-peptides → 'Is there a peptide for hair loss with human trials?'), so the Guide opens on course questions instead of platform help. The prepared answers are unchanged. (editorial; no medical content changed)",
    "forReview": "Omar Saleem (product owner)"
   }
  ],

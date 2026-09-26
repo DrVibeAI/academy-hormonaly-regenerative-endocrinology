@@ -2457,7 +2457,11 @@
     "uk-misuse-of-drugs-act-1971-sch2",
     "mhra-products-database-search-2026-09-25"
    ],
-   "scope": "m06"
+   "scope": "m06",
+   "suggestedPrompt": {
+    "en": "What do growth hormone peptides do for skin?"
+   },
+   "suggestionRank": 11
   },
   {
    "id": "tutor-m06-gh-excess",
@@ -2483,7 +2487,11 @@
     "renehan-2004-igf1-cancer-meta",
     "swerdlow-2017-saghe"
    ],
-   "scope": "m06"
+   "scope": "m06",
+   "suggestedPrompt": {
+    "en": "What are the signs of too much growth hormone?"
+   },
+   "suggestionRank": 12
   }
  ],
  "reviewNotes": [
@@ -2616,6 +2624,12 @@
    "date": "2026-09-25",
    "block": "m06 module summary",
    "change": "Editorial: the module summary shown on Today and Course is now one sentence from the module's cover (m6-p01), 'Growth hormone and IGF-1 genuinely shape skin, and one peptide on this axis has approval-grade trials.', replacing the intake plan's scope list, which stays in the package as metadata.scope (runtime clarity pass: summaries read like specifications). (editorial; no medical content changed)",
+   "forReview": "Omar Saleem (product owner)"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "tutor-m06-secretagogues, tutor-m06-gh-excess",
+   "change": "Editorial: each prepared Guide answer now carries the question it answers as a suggested prompt (tutor-m06-secretagogues → 'What do growth hormone peptides do for skin?'; tutor-m06-gh-excess → 'What are the signs of too much growth hormone?'), so the Guide opens on course questions instead of platform help. The prepared answers are unchanged. (editorial; no medical content changed)",
    "forReview": "Omar Saleem (product owner)"
   }
  ],
