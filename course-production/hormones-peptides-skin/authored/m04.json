@@ -2669,6 +2669,13 @@
    "block": "m4-p17",
    "change": "teaching still added (draft)",
    "assetRef": "asset-hormones-peptides-skin-image-m4-p17-img"
+  },
+  {
+   "date": "2026-09-25",
+   "block": "m4-opener",
+   "assetRef": "asset-hps-m04-opener",
+   "change": "Opening film label corrected: 'Lysyl oxidase · cross-links' → 'Lysyl oxidase' (the approved text names the enzyme only; cross-links are not in it). Narration and presenter unchanged.",
+   "forReview": "Fady Hannah-Shmouni"
   }
  ]
 }

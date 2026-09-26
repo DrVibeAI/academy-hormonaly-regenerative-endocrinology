@@ -161,7 +161,8 @@
           "regions": {
             "sheath": "the outer root sheath along the side of the follicle where violet molecules are released",
             "bulb": "the onion-shaped hair bulb and dermal papilla at the base",
-            "loop": "the dotted violet loop returning from the bulb"
+            "loop": "the dotted violet loop returning from the bulb",
+            "follicle": "the whole hair follicle, from the skin surface down to the bulb at its base"
           },
           "focus": [
             {
@@ -175,14 +176,14 @@
             },
             {
               "on": "corticotropin-releasing hormone",
-              "region": "sheath",
+              "region": "follicle",
               "label": "CRH"
             },
             {
               "on": "ACTH and alpha-MSH",
-              "region": "bulb",
+              "region": "follicle",
               "label": "ACTH · α-MSH · cortisol",
-              "zoom": 1.3
+              "zoom": 1.1
             },
             {
               "on": "feed back",
