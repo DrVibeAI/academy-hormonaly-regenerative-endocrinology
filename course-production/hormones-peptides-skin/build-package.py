@@ -314,6 +314,12 @@ def approval_notes(a):
 # Course-level sign-offs (final quiz, tutor answers) recorded from the medical owner's final packet (signoffs.json).
 SIGNOFFS = json.loads((HERE / "signoffs.json").read_text()) if (HERE / "signoffs.json").exists() else {}
 
+def media_notes():
+    """Films and stills revised after the media preview (authored mediaChanges that ask for review) are listed on the media_preview
+    approval exactly as approval_notes lists text changes, so the course-final gate blocks until the approver confirms them.
+    2026-09-26: three opening-film revisions awaited the medical owner while the gate passed."""
+    return approval_notes({"postApprovalChanges": [c for a in AUTHORED.values() for c in (a.get("mediaChanges") or []) if c.get("forReview")]})
+
 COURSE_QUIZ = [q for mid in sorted(AUTHORED) for q in AUTHORED[mid].get("courseQuiz", [])]
 TUTOR = [t for mid in sorted(AUTHORED) for t in AUTHORED[mid].get("tutorEntries", [])]
 ASSESSMENTS = []
@@ -390,7 +396,7 @@ pkg = {
     "id": "hormonaly.hormones-peptides-skin",
     "slug": "hormones-peptides-skin",
     "kind": "course",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "title": {"en": "Hormones and Peptides for Skin"},
     "summary": {"en": outline["summary"]},
     "academy": {
@@ -479,7 +485,7 @@ pkg = {
         "requiredGates": ["medical_review", "brand_approval", "localization_review", "gcls_accreditation", "publish"],
         # Changes made after an approval ride on that approval's notes (governance is outside the claim-support content digest),
         # so the GCLS reviewer and the review agent see what the approver has not yet re-confirmed.
-        "approvals": [{**a["approval"], **approval_notes(a)} for a in AUTHORED.values() if a.get("approval")] + [SIGNOFFS[k] for k in ("courseQuiz", "tutorCorpus", "mediaPreview") if SIGNOFFS.get(k)],
+        "approvals": [{**a["approval"], **approval_notes(a)} for a in AUTHORED.values() if a.get("approval")] + [({**SIGNOFFS[k], **media_notes()} if k == "mediaPreview" else SIGNOFFS[k]) for k in ("courseQuiz", "tutorCorpus", "mediaPreview") if SIGNOFFS.get(k)],
         "accreditation": {
             "body": "GCLS", "status": "not_submitted",
             "notes": "Designed toward future CME accreditation (Omar 2026-09-21; pathway confirmed 2026-09-24: CME to be sought through an accredited provider (pathway to be confirmed)). CME-style measurable objectives, independence from commercial bias, disclosure of financial relationships. No CME/CE credit is claimed until that approval exists. GCLS accreditation: add-on licensed (Omar, 2026-09-24); medical review of every module complete (2026-09-24); next is the GCLS review room. The certificate is GCLS-issued only once GCLS accredits.",

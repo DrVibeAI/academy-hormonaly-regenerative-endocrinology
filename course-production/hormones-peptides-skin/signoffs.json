@@ -16,5 +16,11 @@
   "approver": "Fady Hannah-Shmouni, MD FRCPC",
   "date": "2026-09-25",
   "scope": "scientific accuracy of the media preview of 2026-09-25 (review/media-preview.html/.docx): the 7 module opening films and the 48 teaching stills; approval relayed by Omar Saleem, 2026-09-25. Design sign-off: Omar Saleem, with the product-owner final sign-off."
+ },
+ "activities11": {
+  "gate": "medical_review",
+  "approver": "Fady Hannah-Shmouni, MD FRCPC",
+  "date": "2026-09-26",
+  "scope": "the 35 practice activities of 1.1.0 (m<N>-x01…x05; review/activities-1.1.html/.docx, each with its approved source sentences); approval relayed by Omar Saleem, 2026-09-26 (\"Fady approved the packet\")."
  }
 }
