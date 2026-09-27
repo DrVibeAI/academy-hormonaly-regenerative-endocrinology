@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26",
+  "generatedAt": "2026-09-27",
   "tool": "perceptor-foundry/tools/accreditation/dossier.mjs",
   "package": {
     "id": "hormonaly.hormones-peptides-skin",
@@ -17593,34 +17593,62 @@
     }
   ],
   "cardCourse": null,
+  "standard": {
+    "version": "0.1",
+    "status": "draft"
+  },
   "checklist": [
     {
-      "id": "evidence",
-      "text": "Every quantitative claim traces to a locked source and the figure matches the source."
+      "id": "c1",
+      "text": "Claims trace to locked sources: Does every quantitative or causal claim trace to a source in the course's source lock, with the figure matching that source?"
     },
     {
-      "id": "scope",
-      "text": "The professional scope and disclaimers are accurate for the jurisdictions and the audience; nothing reads as diagnosis, prescription, or dosing."
+      "id": "c2",
+      "text": "Professional scope and jurisdictions: Is the course educational only (no diagnosis, prescription, dosing or individual advice) and correct for every jurisdiction it names?"
     },
     {
-      "id": "currency",
-      "text": "Sources are current for the jurisdictions named; no superseded guidance is presented as current."
+      "id": "c3",
+      "text": "No overpromising: Are benefits and limits presented proportionately, with no promised outcomes?"
     },
     {
-      "id": "balance",
-      "text": "Benefits and limits are presented proportionately; no overpromising of outcomes."
+      "id": "c4",
+      "text": "Sources are current: Are the sources current for the named jurisdictions, with no superseded guidance presented as current?"
     },
     {
-      "id": "assessment",
-      "text": "Module checks and the course assessment test the stated objectives and have one defensible correct answer each."
+      "id": "c5",
+      "text": "Checks have one defensible answer: Do the module checks and the final quiz test the stated objectives, with exactly one defensible correct answer each?"
     },
     {
-      "id": "locale",
-      "text": "The requested English edition is complete. No translated edition is claimed."
+      "id": "c6",
+      "text": "Language editions agree: Do the requested language editions say the same thing, with locale-correct units and references?"
     },
     {
-      "id": "credential",
-      "text": "The credential spec (type, requirements, validity, co-brand) is appropriate for this course."
+      "id": "c7",
+      "text": "Credential fits the rigor: Does the credential type (completion, module or certification) fit the rigor of the course and its assessment?"
+    },
+    {
+      "id": "c8",
+      "text": "Measurable objectives: Are the learning objectives stated, specific and measurable?"
+    },
+    {
+      "id": "c9",
+      "text": "Structure and method: Is the course logically structured, with a sound instructional method?"
+    },
+    {
+      "id": "c10",
+      "text": "Assessment aligned with outcomes: Do the assessments measure the stated learning outcomes?"
+    },
+    {
+      "id": "c11",
+      "text": "Meaningful content: Is the content meaningful, without padding or repetition?"
+    },
+    {
+      "id": "c12",
+      "text": "Learning time estimated independently: What is the actual learning time, estimated from video runtime, reading, quizzes, exercises and assignments?"
+    },
+    {
+      "id": "c13",
+      "text": "Credential and hours proportionate: Are the credential and any credit hours proportionate to the actual course?"
     }
   ]
 }

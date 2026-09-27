@@ -1,6 +1,6 @@
 # Accreditation dossier — Hormones and Peptides for Skin (v1.1.0)
 
-Package `hormonaly.hormones-peptides-skin` · sha256 `6419297d6d012d8c…` · generated 2026-09-26 · academy Hormonaly Academy
+Package `hormonaly.hormones-peptides-skin` · sha256 `6419297d6d012d8c…` · generated 2026-09-27 · academy Hormonaly Academy
 
 ## Automated gates
 - **PASS** Package schema v0.2 (structure, gates, credential) — ✓ packages/hormones-peptides-skin.json
@@ -378,13 +378,19 @@ Package `hormonaly.hormones-peptides-skin` · sha256 `6419297d6d012d8c…` · ge
 - `c-m07-29` GMC guidance for doctors who offer cosmetic interventions requires a physical examination before prescribing injectable cosmetic medicines, which therefore may not be prescribed by telephone, video link or online for patients the doctor has not examined. → Guidance for doctors who offer cosmetic interventions — Safety and quality (paragraphs 7–13) (gmc-uk.org · in effect 1 June 2016, updated 13 December 2024)
 
 ## Reviewer checklist
-- [ ] Every quantitative claim traces to a locked source and the figure matches the source.
-- [ ] The professional scope and disclaimers are accurate for the jurisdictions and the audience; nothing reads as diagnosis, prescription, or dosing.
-- [ ] Sources are current for the jurisdictions named; no superseded guidance is presented as current.
-- [ ] Benefits and limits are presented proportionately; no overpromising of outcomes.
-- [ ] Module checks and the course assessment test the stated objectives and have one defensible correct answer each.
-- [ ] The requested English edition is complete. No translated edition is claimed.
-- [ ] The credential spec (type, requirements, validity, co-brand) is appropriate for this course.
+- [ ] Claims trace to locked sources: Does every quantitative or causal claim trace to a source in the course's source lock, with the figure matching that source?
+- [ ] Professional scope and jurisdictions: Is the course educational only (no diagnosis, prescription, dosing or individual advice) and correct for every jurisdiction it names?
+- [ ] No overpromising: Are benefits and limits presented proportionately, with no promised outcomes?
+- [ ] Sources are current: Are the sources current for the named jurisdictions, with no superseded guidance presented as current?
+- [ ] Checks have one defensible answer: Do the module checks and the final quiz test the stated objectives, with exactly one defensible correct answer each?
+- [ ] Language editions agree: Do the requested language editions say the same thing, with locale-correct units and references?
+- [ ] Credential fits the rigor: Does the credential type (completion, module or certification) fit the rigor of the course and its assessment?
+- [ ] Measurable objectives: Are the learning objectives stated, specific and measurable?
+- [ ] Structure and method: Is the course logically structured, with a sound instructional method?
+- [ ] Assessment aligned with outcomes: Do the assessments measure the stated learning outcomes?
+- [ ] Meaningful content: Is the content meaningful, without padding or repetition?
+- [ ] Learning time estimated independently: What is the actual learning time, estimated from video runtime, reading, quizzes, exercises and assignments?
+- [ ] Credential and hours proportionate: Are the credential and any credit hours proportionate to the actual course?
 
 ## Decision
 - [ ] Accredited · accreditationId ______ · credit hours ____ · valid until ________
