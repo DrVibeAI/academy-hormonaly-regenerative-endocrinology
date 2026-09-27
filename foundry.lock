@@ -5,4 +5,6 @@
 # 2026-09-25 (1.1): moved to the foundry commit with the sequence and branching interaction kinds, hedge, living diagrams and the dive.
 # 2026-09-26 (1.1): moved to the foundry commit 1.1 was gated with (perceptor-foundry PR #11 on PR #9: inspect polarity in claim
 # support; the final gate reads the authored change logs).
-ref=7e1d1e1890eee22a5dc5e0c17a31ec457c4d15dc
+# 2026-09-26 ($199): moved to the foundry commit whose academy validator knows the paid entitlement (perceptor-foundry PR #14,
+# stacked on #11 and #9).
+ref=af3bd68cb6b34c92cfc4cf4cd21223b6eed8c283
