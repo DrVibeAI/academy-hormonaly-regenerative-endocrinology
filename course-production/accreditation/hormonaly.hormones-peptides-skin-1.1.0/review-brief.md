@@ -1,417 +1,145 @@
 # Agent pre-review — Hormones and Peptides for Skin (v1.1.0)
 
-*Agent pre-review. Recommendation only — the GCLS board decides. Model gemini-3.8-flash, 2026-09-26. Package sha256 6419297d6d01.*
+*Agent pre-review. Recommendation only — the GCLS board decides. Model gemini-3.8-flash, 2026-09-27. Package sha256 6419297d6d01.*
 
-**Recommendation: accredit with conditions** (confidence high) · human time needed ≈ 34 min
+**Recommendation: accredit with conditions** (confidence high) · human time needed ≈ 45 min
 
-This course is a comprehensive, clinically rigorous continuing education programme designed for dermatologists, aesthetic physicians, plastic surgeons, nurse practitioners, physician associates, and allied healthcare professionals. It evaluates the cutaneous neuro-immuno-endocrine system, systemic hormonal influences on skin architecture, incretin-associated facial and fat remodeling, and the clinical evidence surrounding matrix, hair, and growth-hormone axis peptides. Throughout, the course teaches an objective, evidence-based methodology that separates biological plausibility from human clinical trials, statutory regulatory frameworks, and unanswered research questions. The tone is sober, analytical, and uncompromisingly committed to patient safety and medicolegal compliance, avoiding overpromising and explicitly eschewing clinical dosing or prescription advice.
+This course is continuing professional education designed for licensed aesthetic clinicians, dermatologists, and allied prescribers/counsellors evaluating hormone and peptide therapies for skin. It covers cutaneous endocrinology, the effects of systemic hormone disorders on skin, cosmetic peptides,increments and metabolic effects on facial aesthetics, melanocortins, and the growth-hormone axis, alongside regulatory and compounding compliance across six jurisdictions. The tone is measured, highly critical of commercial overpromising, strictly educational, and anchored in evidence appraisal. Dosing, prescribing protocols, and specific clinical regimens are systematically excluded.
 
 ## Conditions
-- Verify primary source support or revise the negative assertions in c-m02-02 (AZD4017 registration and FDA status) and c-m02-11 (MHT label indications regarding skin) where claimSupport reported not_found under searchedWholeDocument.
-- Deposit static PDF or screen captures in the audit repository for jurisdiction regulatory queries (notably EDE register queries, ANVISA DATAVISA extracts, and GMC guidance) where live checks were impeded by portal blockers or unreadable text layers.
-- Ensure final human sign-off on the synthesized audio and graphical assets for the 7 digital avatar module opening films prior to public deployment.
+- Retain the explicit disclaimer that the course is educational continuing education and offers no CME, CE, or CPD credits until an accredited provider has formally approved it.
+- Maintain the current course boundaries excluding all dosing schedules, titration protocols, product concentrations, and peptide stacking formulas from learner-facing content.
+- Ensure all dynamic international register lookups (EDE, ANVISA, INFARMED) that could not be mechanically verified in automated claim-support checks are backed by static, timestamped PDF captures in the audit archive before final publishing.
+
+## Scorecard (GCLS review standard v0.1, draft)
+- **c1 Claims trace to locked sources** — concern: 1,851 assertions are verified against primary sources, but 257 assertions were flagged not_found and 62 units were unavailable, mostly reflecting regional register lookups (UAE, Brazil, Portugal) and unreadable dynamic search portals. 19 major findings were confirmed by medical owner disposition rather than textual revision. (j-ae-01, j-ae-03, j-br-04, j-pt-05, c-m02-04, c-m05-05, claim-support)
+- **c2 Professional scope and jurisdictions** — meets: The course maintains strict professional educational scope without dosing, regimens, or individualized treatment protocols, deferring clinical authority to the learner's license. Regional statutory requirements across US, UK, EU, PT, BR, and AE are explicitly documented with primary regulatory citations. (m1-p02, m3-p18, m7-p07, m7-p21, m7-p22, ae-fdl-38-2024, uk-hmr-2012-reg-167)
+- **c3 No overpromising** — meets: The material consistently contextualizes preclinical animal data and surrogate endpoints, downgrading unsupported commercial claims (e.g. BPC-157, PTD-DBM, and collagen) using a strict GRADE methodology. (c-m01-18, c-m03-04, c-m04-18, c-m05-17, m4-p10, m7-p04)
+- **c4 Sources are current** — meets: The sources are exceptionally current, capturing regulatory actions, advisory committee decisions, and statutory revisions through September 2026 across all designated authorities. (fda-pcac-2026-07-meeting, mhra-2026-07-24-no-summer-shortcut, tga-2026-melanotan-ii-safety-advisory, br-rdc-1036-2026, ae-dha-cir-peptides-2026)
+- **c5 Checks have one defensible answer** — meets: Module checks and the 14-item final course quiz test stated learning objectives with exactly one defensible correct answer and detailed explanatory feedback.
+- **c6 Language editions agree** — not applicable: Only the English edition (en) was requested and submitted in the course package; no translated language editions are being claimed.
+- **c7 Credential fits the rigor** — meets: The credential sought is a certification tied to an 80% passing threshold on a comprehensive 14-item final assessment across clinical, evidence-appraisal, and regulatory pillars.
+- **c8 Measurable objectives** — meets: Learning objectives across all seven modules are stated in specific, observable, measurable cognitive terms aligning with Bloom's higher-order taxonomy. (m01, m02, m03, m04, m05, m06, m07)
+- **c9 Structure and method** — meets: Instruction follows a consistent pedagogical architecture comprising narrative openers, data statistics, interactive clinical inspection tools, branching scenarios, and formative checkpoints. (m1-x02, m2-x05, m3-x04, m4-x03, m5-x05, m6-x04, m7-x05)
+- **c10 Assessment aligned with outcomes** — meets: The final examination items map directly to the defined syllabus objectives across physiology, evidence appraisal, regulatory safety, and patient conversation without excessive clustering. (cq-m01-1, cq-m02-1, m03-cq1, cq-m04-1, cq-m05-1, cq-m06-1, cq-m07-1)
+- **c11 Meaningful content** — meets: The curriculum is dense, rigorous, and relevant to professional clinical practice, eliminating promotional filler while maintaining deliberate iterative review of evidence evaluation principles. (m1-p10, m3-p11, m4-p05, m5-p08, m6-p11, m7-p08)
+- **c12 Learning time estimated independently** — meets: Independent assessment of video runtime, reading volume, interactive tool operations, and quiz attempts totals approximately 290 minutes, matching the 289 minutes estimated by the module planning values. (m01, m02, m03, m04, m05, m06, m07)
+- **c13 Credential and hours proportionate** — meets: The course explicitly disclaims offering CME/CE credit currently, and the certification credential issued upon passing the comprehensive quiz is proportionate to ~5 hours of clinical instruction. (m7-p20)
 
 ## Look at these first
-1. **c-m02-02** — The claim assertion that no registered trial tests an 11β-HSD1 inhibitor for skin ageing and that AZD4017 lacks FDA approval was searched across the whole document and returned not_found in the cited sources. Verify primary registry and FDA records. (~5 min)
-2. **c-m02-11** — The assertion that FDA labeling changes for menopausal hormone therapy did not add skin as an indication was searched whole document and returned not_found in the cited FDA news releases. Verify against full prescribing information. (~4 min)
-3. **c-m04-11** — Inspect human trial claims for BPC-157 (the 2005 Ruenzi meeting abstract, the 2015 phase 1 study, the 2025 gummy study, and the 2027 planned trial) against the July 2026 FDA Pharmacy Compounding Advisory Committee briefing document. (~6 min)
-4. **c-m05-11** — Verify evidence and regulatory characterization of Melanotan II across US FDA Category 2 safety listings, UK MHRA statements, and Australian TGA advisories regarding eruptive nevi, priapism, and lack of approval. (~6 min)
-5. **c-m07-07** — Verify statutory compounding distinctions under FD&C Act Sections 503A and 503B, confirming that GHK-Cu non-injectable sits in Category 1 while BPC-157, TB-500, and injectable GHK-Cu lack 503A Bulks List authorization. (~5 min)
-6. **m1-opener** — Verify that the HeyGen digital avatar voiceover and visual graphics in the module video openers match the approved medical review text and correctly display the AI-presenter disclaimer. (~8 min)
+1. **claim-support** — Verify the 19 major findings in 18 units dispositioned by the medical owner rather than modified in copy, particularly regarding unreadable international regulatory registers. (~15 min)
+2. **m2-p15** — Confirm that the removed androgen-secreting tumour prevalence statistics have been cleanly replaced by qualitative red-flag clinical descriptions. (~5 min)
+3. **m4-p14** — Audit the citations regarding BPC-157 clinical trial data to ensure 'Hudson Biotech' mock trial registrations remain removed and only genuine registrations are cited. (~5 min)
+4. **m7-p08** — Verify the accuracy of the May 2026 and July 2026 FDA compounding statuses (503A Category 1 non-injectable GHK-Cu vs withdrawn BPC-157/TB-500/KPV). (~10 min)
+5. **course-quiz** — Ensure the 14 quiz questions maintain strict keyed accuracy and unambiguous distractors across all 4 core pillars. (~10 min)
 
-## Risks (5)
-- ⚠️ **major · evidence** @ c-m02-02: The assertion that no registered trial tests an 11β-HSD1 inhibitor for skin ageing and that AZD4017 has no FDA approval was marked not_found in claimSupport under searchedWholeDocument across both cited sources (Ajjan 2022 and NCT03313297). → *Provide secondary documentation from ClinicalTrials.gov and Drugs@FDA search outputs or revise the sentence to specify that within the identified trial literature, no registered trial for skin ageing was reported.*
-- ⚠️ **major · evidence** @ c-m02-11: The assertion that FDA labeling changes for menopausal hormone therapy did not add skin as an indication was marked not_found in claimSupport under searchedWholeDocument because the cited FDA press notices describe only VMS, GSM, and osteoporosis without mentioning skin. → *Cite an approved product label (e.g. Premarin, Vivelle-Dot) or rephrase to state that the approved indications remain vasomotor symptoms, genitourinary symptoms, and osteoporosis prevention.*
-- · **minor · evidence** @ c-m04-07: The assertion that the 12-week pal-KTTKS randomized trial was funded by the manufacturer was marked partial in claimSupport because the abstract of Robinson et al. 2005 did not state Procter & Gamble funding. → *Add full-text passage from the publication confirming Procter & Gamble corporate sponsorship.*
-- · **minor · evidence** @ j-br-23: The assertion that thymus-derived immunomodulators including thymostimulin hold active ANVISA registrations was marked partial in claimSupport because the CSV excerpt confirmed Leucogen (thymomodulin) but not thymostimulin. → *Confirm thymostimulin registration number in the open-data register or limit the claim text to thymomodulin (Leucogen).*
-- · **minor · regulatory** @ jurisdictions (AE, BR, PT): Numerous jurisdiction claims rely on live portal lookups or landing pages where automated checks encountered unreadable sources (Cloudflare blocks, scan-only PDFs, or JavaScript applications). → *Archive static PDF captures or verified registry query printouts in the course repository for regulatory audits.*
+## Risks (3)
+- · **minor · evidence** @ claim-support: 62 regulatory units and 257 assertions were marked unavailable or not_found during automated checking because official registers in the UAE, Brazil, and Portugal operate as dynamic or script-protected databases. → *Archive static PDF or timestamped full-page screenshots of all register search results in the source lock repository.*
+- · **minor · evidence** @ m2-p04: Table 1 of the 2008 Endocrine Society Cushing's syndrome diagnostic guideline is cited from an abstract-only read, leaving discriminating vs non-discriminating feature counts unverified by automated text match. → *Ensure the full text of Nieman 2008 (PMC2386281) is included in the reading repository rather than an abstract-only basis.*
+- · **minor · evidence** @ m4-p17: Heavy metal contamination (lead, arsenic) in research-use-only peptide vials is stated by the clinician guide spine, but the primary laboratory report could not be indexed on PubMed. → *Maintain the current course copy distinction noting that heavy-metal contamination is reported in clinical guides for this market but remains unverified by published indexed peer-reviewed studies.*
 
-## Claims (367)
-- `j-ae-01` **plausible needs source check** — The cited EDE drug directory query page provided in claimSupport was a landing page showing default entries for unrelated products, and the specific Wegovy detail source was unreadable.
-- `j-ae-02` **supported as cited** — Supported by verbatim passage from the Emirates Drug Establishment announcement of 1 June 2026 confirming approval of oral Wegovy.
-- `j-ae-03` **plausible needs source check** — The Mounjaro detail page was unreadable and the EDE directory landing page displayed only initial records without confirming the register-wide absence of Zepbound.
-- `j-ae-04` **supported as cited** — Supported by verbatim text from MOHAP Circular 9217/2024 confirming genuine registered Mounjaro's indications.
-- `j-ae-06` **plausible needs source check** — Limited by register landing page showing only the first 24 entries rather than the full searchable dataset.
-- `j-ae-07` **plausible needs source check** — Limited by register landing page showing default records without specific search verification.
-- `j-ae-08` **plausible needs source check** — Limited by register landing page showing initial directory listings only.
-- `j-ae-09` **plausible needs source check** — Limited by register landing page showing default directory entries.
-- `j-ae-10` **plausible needs source check** — Limited by register landing page showing default directory entries.
-- `j-ae-11` **plausible needs source check** — Limited by register landing page showing default directory entries.
-- `j-ae-12` **plausible needs source check** — Limited by register landing page showing default directory entries.
-- `j-ae-13` **plausible needs source check** — Limited by register landing page showing default directory entries.
-- `j-ae-14` **plausible needs source check** — Limited by register landing page showing default directory entries.
-- `j-ae-15` **plausible needs source check** — Limited by register landing page showing default directory entries.
-- `j-ae-16` **plausible needs source check** — Limited by register landing page showing default directory entries.
-- `j-ae-17` **plausible needs source check** — Limited by register landing page showing default directory entries.
-- `j-ae-18` **plausible needs source check** — Limited by register landing page showing default directory entries.
-- `j-ae-19` **plausible needs source check** — Circular 112/2025 is supported by verbatim passage, but the absence of Melanotan in the full EDE register was limited by a landing page excerpt.
-- `j-ae-20` **plausible needs source check** — The primary register source for Olumiant was unavailable (no readable text layer).
-- `j-ae-21` **plausible needs source check** — Detail page for Regaine was unavailable and directory landing page showed only initial records.
-- `j-ae-23` **plausible needs source check** — Product detail source was unreadable and register landing page showed default listings.
-- `j-ae-24` **plausible needs source check** — Primary register source for Fincrezo spray was unavailable (no readable text).
-- `j-ae-25` **plausible needs source check** — Detail page was unavailable and register landing page showed generic entries.
-- `j-ae-26` **plausible needs source check** — MOHAP Ministerial Decision 306/2023 was unreadable (scanned image PDF without machine-readable text).
-- `j-ae-29` **plausible needs source check** — Detail page for Oestrogel was unavailable and register landing page showed generic entries.
-- `j-ae-30` **plausible needs source check** — Centrum registration is supported by verbatim passage, but Collafix detail page was unavailable.
-- `j-ae-34` **plausible needs source check** — Federal Decree-Law 28/2023 portal page was unreadable (scripted requests blocked).
-- `j-ae-36` **plausible needs source check** — Federal Decree-Law 38/2024 portal page was unreadable (scripted requests blocked).
-- `j-ae-37` **plausible needs source check** — Federal Decree-Law 38/2024 portal page was unreadable.
-- `j-ae-39` **supported as cited** — Supported by verbatim text from DHA External Circular 0867 prohibiting unregistered peptides.
-- `j-ae-40` **plausible needs source check** — Federal Decree-Law 38/2024 portal page was unreadable.
-- `j-ae-41` **plausible needs source check** — Federal Decree-Law 38/2024 portal page was unreadable.
-- `j-ae-42` **supported as cited** — Supported by verbatim text from DoH Standard for Provision of Compounding Pharmacy Services.
-- `j-ae-43` **supported as cited** — Supported by verbatim text from DoH Standard for Provision of Compounding Pharmacy Services.
-- `j-ae-44` **supported as cited** — Supported by verbatim text from DoH Standard for Provision of Compounding Pharmacy Services.
-- `j-ae-45` **supported as cited** — Supported by verbatim text from DoH Standard for Provision of Compounding Pharmacy Services.
-- `j-ae-46` **supported as cited** — Supported by verbatim text from DoH Circular 148/2026 on peptide requirements.
-- `j-ae-47` **supported as cited** — Supported by verbatim text from DHA External Circular 0867.
-- `j-ae-51` **supported as cited** — Supported by verbatim text from DHA External Circular 0867.
-- `j-ae-53` **plausible needs source check** — Federal Decree-Law 38/2024 was unreadable.
-- `j-ae-54` **supported as cited** — Supported by verbatim text from EDE healthcare product service page.
-- `j-ae-55` **supported as cited** — Supported by verbatim text from EDE medical product classification service page.
-- `j-ae-56` **supported as cited** — Supported by verbatim text from MoIAT CAD Regulated Sheet on cosmetics.
-- `j-ae-59` **supported as cited** — Supported by verbatim text from DoH Circular 148/2026.
-- `j-ae-60` **plausible needs source check** — Federal Decree-Law 38/2024 was unreadable.
-- `j-ae-63` **plausible needs source check** — Federal Decree-Law 38/2024 was unreadable.
-- `j-ae-64` **supported as cited** — Supported by verbatim text from EDE advertising licensing service page.
-- `j-ae-66` **supported as cited** — Supported by verbatim text from DHA External Circular 0867.
-- `j-ae-70` **supported as cited** — Supported by verbatim text from DoH Circular 148/2026.
-- `j-ae-71` **supported as cited** — Supported by verbatim text from DoH Standard for Provision of Compounding Pharmacy Services.
-- `j-ae-78` **supported as cited** — Supported by verbatim text from DHA External Circular 0867.
-- `j-ae-79` **supported as cited** — Supported by verbatim text from DoH Circular 148/2026.
-- `j-ae-85` **supported as cited** — Supported by verbatim text from EDE Circular 31/2026.
-- `j-ae-92` **supported as cited** — Supported by verbatim text from DHA Circular CIR-2025-00000111.
-- `j-br-01` **plausible needs source check** — Registration date supported by ANVISA open data, but professional bula text was unreadable.
-- `j-br-02` **plausible needs source check** — Bula was unreadable and Wegovy was not in the provided open data CSV excerpt.
-- `j-br-03` **plausible needs source check** — Patent expiry and synthetic registrations supported by ANVISA news releases; total active products count was in unreadable database.
-- `j-br-04` **plausible needs source check** — Both cited Brazilian sources (bula and online search) were unreadable.
-- `j-br-06` **plausible needs source check** — Online search was unreadable and CSV excerpt did not substantiate the complete negative search.
-- `j-br-07` **plausible needs source check** — Online search was unreadable and CSV excerpt did not substantiate the complete negative search.
-- `j-br-08` **plausible needs source check** — Olumiant registration is supported by open data; indication text from bula was unreadable.
-- `j-br-09` **plausible needs source check** — Minoxidil class and Loniten inactive status supported; Aloxidil label was unreadable.
-- `j-br-10` **plausible needs source check** — Pro Hair label was unreadable and CSV excerpt omitted finasteride records.
-- `j-br-11` **plausible needs source check** — Genotropin registration supported by open data; label indications unreadable.
-- `j-br-12` **supported as cited** — Supported by verbatim text from RDC 1.036/2026 listing somatropin on List C5.
-- `j-br-13` **plausible needs source check** — Search database was unreadable and CSV excerpt did not substantiate the complete negative search.
-- `j-br-14` **plausible needs source check** — Search database was unreadable and CSV excerpt did not substantiate the complete negative search.
-- `j-br-15` **supported as cited** — Supported by verbatim text from ANVISA fact check of 2 July 2026.
-- `j-br-16` **supported as cited** — Supported by verbatim text from ANVISA fact check of 2 July 2026.
-- `j-br-17` **plausible needs source check** — Trial refusal supported by RE 2.318/2026; unapproved market status was in unreadable database.
-- `j-br-18` **supported as cited** — Supported by verbatim text from ANVISA fact check of 2 July 2026.
-- `j-br-19` **supported as cited** — Supported by verbatim text from ANVISA fact check of 2 July 2026.
-- `j-br-20` **plausible needs source check** — CSV excerpt was incomplete and could not substantiate complete negative finding for KPV.
-- `j-br-21` **supported as cited** — Supported by verbatim text from ANVISA fact check of 2 July 2026.
-- `j-br-22` **plausible needs source check** — Online search was unreadable and CSV excerpt did not substantiate complete negative finding.
-- `j-br-23` **plausible needs source check** — Leucogen registration is supported by open data, but thymostimulin was not found in the excerpt.
-- `j-br-24` **plausible needs source check** — CSV excerpt did not substantiate complete negative finding for PTD-DBM.
-- `j-br-25` **plausible needs source check** — Vitacid registration supported by open data; label indications unreadable.
-- `j-br-26` **plausible needs source check** — Oestrogel registration supported by open data; label indications unreadable.
-- `j-br-27` **plausible needs source check** — The 2025 supplements guidance document was unreadable.
-- `j-br-28` **plausible needs source check** — RDC 96/2008 and Voto 101/2026 sources were unreadable.
-- `j-br-29` **supported as cited** — Supported by verbatim text from ANVISA fact check of 2 July 2026.
-- `j-br-30` **plausible needs source check** — ANVISA implants news release of November 2024 was unreadable.
-- `j-br-31` **plausible needs source check** — Nota Técnica 200/2025 was unreadable.
-- `j-br-33` **plausible needs source check** — The April 2025 news release excerpt in claimSupport omitted the off-label prescribing statement.
-- `j-br-34` **plausible needs source check** — Law 6.360/1976 was unreadable.
-- `j-br-35` **supported as cited** — Supported by verbatim text from ANVISA fact check of 2 July 2026.
-- `j-br-36` **supported as cited** — Supported by verbatim text from ANVISA news release of 13 July 2026.
-- `j-br-38` **plausible needs source check** — ANVISA import news release of November 2025 was unreadable.
-- `j-br-39` **plausible needs source check** — ANVISA import guidance of September 2025 was unreadable.
-- `j-br-41` **supported as cited** — Supported by verbatim text from RDC 907/2024, art. 12.
-- `j-br-42` **plausible needs source check** — Injectable cosmetics prohibition supported by ANVISA fact check and RE 1.771/2026 supported by Diário Oficial, but cosmetics dataset was unreadable.
-- `j-br-43` **supported as cited** — Supported by verbatim text from RDC 243/2018 and ANVISA fact check of 2 July 2026.
-- `j-br-44` **supported as cited** — Supported by verbatim text from ANVISA supplements ingredients service page.
-- `j-br-47` **plausible needs source check** — RDC 96/2008 was unreadable.
-- `j-br-48` **plausible needs source check** — RDC 96/2008 and implants release were unreadable.
-- `j-br-52` **plausible needs source check** — Prescription retention is supported; 90-day validity and IN 360/2025 details were not in the provided news excerpt.
-- `j-br-53` **supported as cited** — Supported by verbatim text from CFM Resolution 2.333/2023.
-- `j-br-54` **supported as cited** — Supported by verbatim text from CFM Resolution 1.999/2012.
-- `j-br-55` **supported as cited** — Supported by verbatim text from CFM Resolution 2.336/2023.
-- `j-br-60` **supported as cited** — Supported by verbatim text from ANVISA news releases of May and April 2026.
-- `j-eu-01` **supported as cited** — Supported by verbatim text from EMA news release of 26 June 2024.
-- `j-eu-02` **supported as cited** — Supported by verbatim text from EMA Ozempic EPAR overview.
-- `j-eu-03` **supported as cited** — Supported by verbatim text from EMA Wegovy EPAR overview.
-- `j-eu-05` **plausible needs source check** — Mounjaro EU authorisation supported by EPAR; absence of Zepbound was in unreadable register.
-- `j-eu-07` **supported as cited** — Supported by verbatim text from EMA Scenesse EPAR overview.
-- `j-eu-08` **plausible needs source check** — Union Register was unreadable and EMA download page did not contain table contents.
-- `j-eu-09` **supported as cited** — Supported by verbatim text from EMA Olumiant EPAR overview.
-- `j-eu-10` **supported as cited** — Supported by verbatim text from EMA JAK inhibitors referral procedure (January 2023).
-- `j-eu-11` **supported as cited** — Supported by verbatim text from CMDh PSUSA variation document for topical minoxidil (August 2024).
-- `j-eu-13` **supported as cited** — Supported by verbatim text from EMA finasteride Article 31 referral page.
-- `j-eu-14` **supported as cited** — Supported by verbatim text from EMA finasteride Article 31 referral page.
-- `j-eu-15` **supported as cited** — Supported by verbatim text from EMA somatropin Article 107 review page.
-- `j-eu-16` **supported as cited** — Supported by verbatim text from EMA Omnitrope EPAR overview.
-- `j-eu-17` **supported as cited** — Supported by verbatim text from EMA Egrifta withdrawal overview.
-- `j-eu-18` **plausible needs source check** — EMA download page did not contain the table contents and Union Register was unreadable.
-- `j-eu-19` **plausible needs source check** — EMA download page did not contain the table contents and Union Register was unreadable.
-- `j-eu-20` **plausible needs source check** — EMA download page did not contain the table contents and Union Register was unreadable.
-- `j-eu-21` **supported as cited** — Supported by verbatim text from EMA orphan designation EU/3/17/1882 overview.
-- `j-eu-22` **plausible needs source check** — Union Register was unreadable and EMA data table contents were not displayed.
-- `j-eu-23` **plausible needs source check** — Union Register was unreadable and EMA data table contents were not displayed.
-- `j-eu-24` **plausible needs source check** — Union Register was unreadable and EMA data table contents were not displayed.
-- `j-eu-25` **plausible needs source check** — Union Register was unreadable and EMA data table contents were not displayed.
-- `j-eu-26` **plausible needs source check** — CosIng database records were unreadable (JavaScript application).
-- `j-eu-27` **plausible needs source check** — Union Register was unreadable and EMA data table contents were not displayed.
-- `j-eu-28` **plausible needs source check** — Union Register was unreadable and EMA data table contents were not displayed.
-- `j-eu-29` **plausible needs source check** — Union Register was unreadable and EMA data table contents were not displayed.
-- `j-eu-31` **supported as cited** — Supported by verbatim text from Regulation (EC) No 1223/2009 Annex II and the Borderline Manual.
-- `j-eu-32` **supported as cited** — Supported by verbatim text from CMDh Core SmPC for HRT products (December 2025).
-- `j-eu-35` **plausible needs source check** — Progestogen ban verified; oestrogen entry 260 was omitted from the provided text excerpt.
-- `j-eu-36` **plausible needs source check** — Refusal under Regulation 1154/2014 is supported; register-wide absence of other collagen claims was limited by excerpt.
-- `j-eu-37` **supported as cited** — Supported by verbatim text from Directive 2001/83/EC, Article 3.
-- `j-eu-38` **supported as cited** — Supported by verbatim text from Directive 2001/83/EC, Article 40(2).
-- `j-eu-39` **supported as cited** — Supported by verbatim text from Directive 2001/83/EC, Article 6(1).
-- `j-eu-40` **supported as cited** — Supported by verbatim text from Directive 2001/83/EC, Article 5(1).
-- `j-eu-41` **supported as cited** — Supported by verbatim text from EMA news release of 26 June 2024.
-- `j-eu-42` **supported as cited** — Supported by verbatim text from Directive 2001/83/EC, Articles 1(2) and 2(2).
-- `j-eu-43` **supported as cited** — Supported by verbatim text from Directive 2001/83/EC, Article 3(3).
-- `j-eu-47` **supported as cited** — Supported by verbatim text from EMA/HMA news release of 3 September 2025.
-- `j-eu-51` **supported as cited** — Supported by verbatim text from Regulation (EC) No 1223/2009, Article 2(2).
-- `j-eu-52` **supported as cited** — Supported by verbatim text from EU Borderline Manual (June 2025).
-- `j-eu-54` **supported as cited** — Supported by verbatim text from EU Borderline Manual (June 2025).
-- `j-eu-58` **supported as cited** — Supported by verbatim text from Regulation (EC) No 1223/2009, Articles 4, 10, and 13.
-- `j-eu-60` **supported as cited** — Supported by verbatim text from Regulation (EU) No 655/2013.
-- `j-eu-63` **supported as cited** — Supported by verbatim text from Directive 2002/46/EC, Article 2(a).
-- `j-eu-64` **supported as cited** — Supported by verbatim text from Regulation (EC) No 1924/2006, Article 10(1).
-- `j-eu-66` **supported as cited** — Supported by verbatim text from Regulation (EU) No 1169/2011, Article 7(3) and (4).
-- `j-eu-68` **supported as cited** — Supported by verbatim text from Directive 2001/83/EC, Article 87.
-- `j-eu-69` **supported as cited** — Supported by verbatim text from Directive 2001/83/EC, Articles 86(1) and 88(1)(a).
-- `j-eu-72` **plausible needs source check** — Platform rule supported by Article 28b(2); Article 9(1)(f) text was omitted from the provided excerpt.
-- `j-pt-01` **plausible needs source check** — Infomed database was unreadable and user guide text did not contain product-specific details.
-- `j-pt-02` **plausible needs source check** — Infomed database was unreadable.
-- `j-pt-05` **plausible needs source check** — Infomed database and Decreto-Lei 176/2006 were unreadable.
-- `j-pt-07` **plausible needs source check** — Infomed database was unreadable.
-- `j-pt-08` **plausible needs source check** — Infomed database and Decreto-Lei 176/2006 were unreadable.
-- `j-pt-10` **plausible needs source check** — Infomed database was unreadable.
-- `j-pt-11` **supported as cited** — Supported by verbatim text from Minox 5 SmPC via Infomed.
-- `j-pt-13` **plausible needs source check** — Infomed database was unreadable.
-- `j-pt-15` **plausible needs source check** — Infomed database and Decreto-Lei 176/2006 were unreadable.
-- `j-pt-17` **plausible needs source check** — Infomed database was unreadable.
-- `j-pt-18` **plausible needs source check** — Infomed database was unreadable.
-- `j-pt-19` **plausible needs source check** — Infomed database was unreadable.
-- `j-pt-20` **plausible needs source check** — Infomed database was unreadable.
-- `j-pt-21` **plausible needs source check** — Infomed database was unreadable.
-- `j-pt-22` **plausible needs source check** — Infomed database was unreadable.
-- `j-pt-23` **plausible needs source check** — Infomed database was unreadable.
-- `j-pt-24` **plausible needs source check** — Infomed database was unreadable.
-- `j-pt-25` **plausible needs source check** — Infomed database was unreadable.
-- `j-pt-26` **plausible needs source check** — Infomed database was unreadable.
-- `j-pt-27` **plausible needs source check** — Infomed database was unreadable.
-- `j-pt-28` **plausible needs source check** — Infomed database was unreadable.
-- `j-pt-29` **plausible needs source check** — Infomed database was unreadable.
-- `j-pt-30` **supported as cited** — Supported by verbatim text from Ketrel SmPC approved 24 October 2024.
-- `j-pt-31` **supported as cited** — Supported by verbatim text from Estreva and Estrofem SmPCs.
-- `j-pt-32` **supported as cited** — Supported by verbatim text from DGAV supplements notification pages.
-- `j-pt-34` **supported as cited** — Supported by verbatim text from Decreto-Lei 95/2004, Art 1.
-- `j-pt-35` **supported as cited** — Supported by verbatim text from Decreto-Lei 95/2004, Art 3(1).
-- `j-pt-36` **supported as cited** — Supported by verbatim text from Decreto-Lei 95/2004, Art 6.
-- `j-pt-40` **plausible needs source check** — INFARMED AUE authority supported by webpage; statutory criteria text in DL 176/2006 was unreadable.
-- `j-pt-41` **supported as cited** — Supported by verbatim text from INFARMED Deliberação 840/2023.
-- `j-pt-42` **supported as cited** — Supported by verbatim text from INFARMED Circular 045/CD/100.20.200.
-- `j-pt-44` **plausible needs source check** — Decreto-Lei 176/2006 was unreadable.
-- `j-pt-45` **plausible needs source check** — Decreto-Lei 176/2006 was unreadable.
-- `j-pt-46` **plausible needs source check** — Decreto-Lei 176/2006 was unreadable.
-- `j-pt-49` **supported as cited** — Supported by verbatim text from INFARMED Circular 148/CD.
-- `j-pt-51` **supported as cited** — Supported by verbatim text from Decreto-Lei 23/2025.
-- `j-pt-53` **supported as cited** — Supported by verbatim text from INFARMED cosmetics FAQ.
-- `j-pt-54` **supported as cited** — Supported by verbatim text from INFARMED cosmetics FAQ.
-- `j-pt-56` **supported as cited** — Supported by verbatim text from DGAV supplements page.
-- `j-pt-57` **supported as cited** — Supported by verbatim text from DGAV supplements notification page.
-- `j-pt-58` **supported as cited** — Supported by verbatim text from DGAV supplements notification procedure.
-- `j-pt-61` **plausible needs source check** — Decreto-Lei 176/2006 was unreadable.
-- `j-pt-62` **plausible needs source check** — Decreto-Lei 176/2006 was unreadable.
-- `j-pt-64` **plausible needs source check** — Decreto-Lei 176/2006 was unreadable.
-- `j-pt-65` **plausible needs source check** — Decreto-Lei 238/2015 was unreadable.
-- `j-pt-66` **plausible needs source check** — Decreto-Lei 238/2015 was unreadable.
-- `j-pt-67` **plausible needs source check** — Decreto-Lei 176/2006 was unreadable.
-- `j-pt-68` **plausible needs source check** — Decreto-Lei 176/2006 and Infomed were unreadable.
-- `j-pt-69` **supported as cited** — Supported by verbatim text from INFARMED CNNHC description.
-- `j-pt-76` **supported as cited** — Supported by verbatim text from INFARMED news of 5 September 2025.
-- `j-pt-77` **supported as cited** — Supported by verbatim text from INFARMED news of 5 September 2025.
-- `c-m01-01` **supported as cited** — Supported by verbatim text from Slominski 2025 and Hannah-Shmouni 2026.
-- `c-m01-02` **supported as cited** — Supported by verbatim text from Hannah-Shmouni 2026 and Slominski 2013.
-- `c-m01-03` **supported as cited** — Supported by verbatim text from Ito et al. 2005.
-- `c-m01-04` **supported as cited** — Supported by verbatim text from Phan et al. 2021.
-- `c-m01-05` **supported as cited** — Supported by verbatim text from Mancino 2021 and Hannah-Shmouni 2026.
-- `c-m01-06` **supported as cited** — Supported by verbatim text from Bikle 2014.
-- `c-m01-07` **supported as cited** — Supported by verbatim text from Zouboulis 2004 and Slominski 2013.
-- `c-m01-08` **supported as cited** — Supported by verbatim text from Hannah-Shmouni 2026.
-- `c-m01-09` **plausible needs source check** — Dataset size and genes supported by Fei 2026 abstract; inclusion of skin was in the portal landing page which omitted specific tissue rosters.
-- `c-m01-10` **supported as cited** — Supported by verbatim text from Hormone Cell Atlas portal and Liu 2016.
-- `c-m01-11` **supported as cited** — Supported by verbatim text from Hannah-Shmouni 2026.
-- `c-m01-12` **supported as cited** — Supported by verbatim text from Hannah-Shmouni 2026 and Hormone Cell Atlas portal.
-- `c-m01-13` **supported as cited** — Supported by verbatim text from Hannah-Shmouni 2026 and Neale 2019.
-- `c-m01-14` **supported as cited** — Supported by verbatim text from Wang & Dreesen 2018 and Coppé 2008.
-- `c-m01-15` **supported as cited** — Supported by verbatim text from Ressler 2006 and Wang & Dreesen 2018.
-- `c-m01-16` **supported as cited** — Supported by verbatim text from Waaijer et al. 2016.
-- `c-m01-17` **plausible needs source check** — Collagen decline, MMP-1, and fragmentation supported by Shuster, Fisher, and Varani; assertion regarding senescent cell contribution in living skin was not explicitly in the abstracts.
-- `c-m01-18` **supported as cited** — Supported by verbatim text from Baker 2016 and Xu 2018.
-- `c-m01-19` **plausible needs source check** — Pilot results supported by Hickson 2019 and Chung 2019; the 24 September 2026 database search itself was not documented in the sources.
-- `c-m01-20` **supported as cited** — Supported by verbatim text from Hughes 2013, Sitohang 2022, Kafi 2007, and Varani 2000.
-- `c-m02-01` **supported as cited** — Supported by verbatim text from Slominski & Wortsman 2000, and Tiganescu 2011 and 2013.
-- `c-m02-02` **unsupported** — In claimSupport, assertion 5 ('No registered trial tests an 11β-HSD1 inhibitor for skin ageing, and AZD4017 has no FDA approval') was searched whole document in ajjan-2022-azd4017-skin-pilot-rct and nct03313297-gc-sheald and returned not_found.
-- `c-m02-03` **plausible needs source check** — The guideline abstract notes discriminating features generally, but specific enumeration from Table 1 was omitted from the provided abstract.
-- `c-m02-04` **plausible needs source check** — Excluding exogenous glucocorticoids is supported, but European incidence rates and specific route lists were omitted from the abstract.
-- `c-m02-05` **plausible needs source check** — Endocrinologist referral and consumer panel limitations supported; recommendation against random serum cortisol was omitted from the provided abstract.
-- `c-m02-06` **supported as cited** — Supported by verbatim text from Rittié et al. 2008.
-- `c-m02-07` **supported as cited** — Supported by verbatim text from Brincat 1985, Brincat 1987, and Thornton 2013.
-- `c-m02-08` **supported as cited** — Supported by verbatim text from Maheux 1994, Sauerbronn 2000, and Pivazyan 2023.
-- `c-m02-09` **plausible needs source check** — Trials supported by Phillips 2008 and Owen 2016; Level II rating in NAMS 2022 was omitted from the provided abstract.
-- `c-m02-10` **supported as cited** — Supported by verbatim text from Creidi 1994, Ashcroft 1999, 21 CFR 310.530, and Hannah-Shmouni 2026.
-- `c-m02-11` **unsupported** — In claimSupport, assertion 3 ('The labeling changes did not add skin as an indication') was searched whole document in fda-mht-labeling-request-2025-11-10 and fda-mht-labeling-approval-2026-02-12 and returned not_found.
-- `c-m02-12` **plausible needs source check** — WHI findings and VMS/bone benefits supported; NAMS compounded bioidentical statements were omitted from the provided abstract.
-- `c-m02-13` **supported as cited** — Supported by verbatim text from NAMS 2020 GSM statement and Hannah-Shmouni 2026.
-- `c-m02-14` **supported as cited** — Supported by verbatim text from Hughes 2013 and Renova FDA label.
-- `c-m02-15` **supported as cited** — Supported by verbatim text from Darling et al. 1997.
-- `c-m02-16` **supported as cited** — Supported by verbatim text from Correa et al. 2015.
-- `c-m02-17` **supported as cited** — Supported by verbatim text from Stanescu et al. 2024.
-- `c-m02-18` **plausible needs source check** — Diagnostic testing in acutely ill supported; sun-exposed hyperpigmentation and immediate crisis treatment before test return were omitted from the abstract.
-- `c-m02-19` **supported as cited** — Supported by verbatim text from Hannah-Shmouni 2026 and Martin et al. 2018.
-- `c-m02-20` **plausible needs source check** — Acanthosis nigricans and hypothyroidism signs supported; Graves thyrotropin-receptor mechanism text was omitted from the excerpt.
-- `c-m02-21` **supported as cited** — Supported by verbatim text from Evorel and Sandrena UK SmPCs.
-- `c-m02-22` **supported as cited** — Supported by verbatim text from MHRA Guidance Note 14.
-- `c-m02-23` **supported as cited** — Supported by verbatim text from Treclin and Aknemycin Plus SmPCs and emc search results.
-- `c-m03-01` **plausible needs source check** — dWAT structure, S. aureus cathelicidin release, and acne preadipocytes supported; assertion that aging contribution has not been measured was not explicitly found in texts.
-- `c-m03-02` **supported as cited** — Supported by verbatim text from Rohrich & Pessa 2007.
-- `c-m03-03` **supported as cited** — Supported by verbatim text from Guyuron et al. 2009.
-- `c-m03-04` **supported as cited** — Supported by verbatim text from Gkogkolou & Böhm 2012 and Hannah-Shmouni 2026.
-- `c-m03-05` **supported as cited** — Supported by verbatim text from Dyer et al. 1993 and Verzijl et al. 2000.
-- `c-m03-06` **supported as cited** — Supported by verbatim text from Meerwaldt et al. 2004.
-- `c-m03-07` **supported as cited** — Supported by verbatim text from Hannah-Shmouni 2026 and Draelos et al. 2025.
-- `c-m03-08` **supported as cited** — Supported by verbatim text from Drucker 2018 and Hannah-Shmouni 2026.
-- `c-m03-09` **supported as cited** — Supported by verbatim text from FDA prescribing labels for Ozempic, Wegovy, Mounjaro, and Zepbound.
-- `c-m03-10` **supported as cited** — Supported by verbatim text from STEP-1 (Wilding 2021) and SURMOUNT-1 (Jastreboff 2022).
-- `c-m03-11` **supported as cited** — Supported by verbatim text from Batsis et al. 2026 and FDA Wegovy/Zepbound labels.
-- `c-m03-12` **supported as cited** — Supported by verbatim text from Sharma 2025, Rao 2026, and Daneshgaran 2025.
-- `c-m03-13` **supported as cited** — Supported by verbatim text from FDA Wegovy and Zepbound prescribing information.
-- `c-m03-14` **supported as cited** — Supported by verbatim text from Hannah-Shmouni 2026 and Paschou 2025.
-- `c-m03-15` **supported as cited** — Supported by verbatim text from FDA Drug Alerts (September 2026) and Ashraf et al. 2024.
-- `c-m03-16` **supported as cited** — Supported by verbatim text from Hannah-Shmouni 2026 and Nikolis et al. 2025.
-- `c-m03-17` **supported as cited** — Supported by verbatim text from Franceschi 2000, Ferrucci & Fabbri 2018, and Hannah-Shmouni 2026.
-- `c-m03-18` **supported as cited** — Supported by verbatim text from Cani 2007, Erridge 2007, Camilleri 2019, and Scheffler 2018.
-- `c-m03-19` **supported as cited** — Supported by verbatim text from Makrgeorgou 2018 (Cochrane) and Vassilopoulou 2024.
-- `c-m03-20` **plausible needs source check** — Rifaximin, liraglutide, tirzepatide, and Akkermansia trials supported; September 2026 post-PCAC status text was in unverified list.
-- `c-m03-21` **supported as cited** — Supported by verbatim text from UK SmPCs for Ozempic, Wegovy, and Mounjaro, and MHRA 2023 release.
-- `c-m03-22` **supported as cited** — Supported by verbatim text from UK SmPCs for Wegovy and Mounjaro.
-- `c-m03-23` **supported as cited** — Supported by verbatim text from MHRA press releases of May and July 2026.
-- `c-m03-24` **supported as cited** — Supported by verbatim text from MHRA Guidance Note 14 and Drug Safety Update.
-- `c-m04-01` **supported as cited** — Supported by verbatim text from Hannah-Shmouni 2026.
-- `c-m04-02` **supported as cited** — Supported by verbatim text from Pickart 2015 and Pickart & Margolina 2018.
-- `c-m04-03` **supported as cited** — Supported by verbatim text from Miller et al. 2006 and Hannah-Shmouni 2026.
-- `c-m04-04` **supported as cited** — Supported by verbatim text from Hannah-Shmouni 2026.
-- `c-m04-05` **supported as cited** — Supported by verbatim text from Ogórek et al. 2025 and Hostynek 2010.
-- `c-m04-06` **supported as cited** — Supported by verbatim text from FDA 503A categories update of 14 May 2026.
-- `c-m04-07` **plausible needs source check** — 12-week trial supported by Robinson 2005; manufacturer funding was marked partial as it was not in the abstract.
-- `c-m04-08` **supported as cited** — Supported by verbatim text from Wang 2013 and Hannah-Shmouni 2026.
-- `c-m04-09` **supported as cited** — Supported by verbatim text from Errante 2020 and Hannah-Shmouni 2026.
-- `c-m04-10` **supported as cited** — Supported by verbatim text from Hannah-Shmouni 2026 and Bjerke et al. 2026.
-- `c-m04-11` **supported as cited** — Supported by verbatim text from FDA PCAC BPC-157 briefing document and ClinicalTrials.gov records.
-- `c-m04-12` **plausible needs source check** — Identification of Ac-LKKTETQ fragment supported by Esposito 2012; lack of human trials was not in the abstract.
-- `c-m04-13` **supported as cited** — Supported by verbatim text from Kannengiesser 2008 and Hannah-Shmouni 2026.
-- `c-m04-14` **supported as cited** — Supported by verbatim text from Grönberg 2014 and Mahlapuu 2021.
-- `c-m04-15` **supported as cited** — Supported by verbatim text from Federal Register notice 91 FR 20465 and FDA warning letters.
-- `c-m04-16` **supported as cited** — Supported by verbatim text from Hannah-Shmouni 2026 and Ashraf et al. 2024.
-- `c-m04-17` **supported as cited** — Supported by verbatim text from Hannah-Shmouni 2026.
-- `c-m04-18` **supported as cited** — Supported by verbatim text from Myung & Park 2025 and Hannah-Shmouni 2026.
-- `c-m04-19` **supported as cited** — Supported by verbatim text from Hannah-Shmouni 2026.
-- `c-m04-20` **supported as cited** — Supported by verbatim text from Errante 2020 and Shin 2024.
-- `c-m04-21` **supported as cited** — Supported by verbatim text from UK Assimilated Regulation (EC) No 1223/2009 and OPSS guidance.
-- `c-m04-22` **plausible needs source check** — Food health claim prohibition supported by Assimilated Regulation 1169/2011; oral collagen specific supplement categorization was not in the text excerpt.
-- `c-m04-23` **supported as cited** — Supported by verbatim text from ASA Ruling on 111 Skin Ltd (13 May 2026).
-- `c-m04-24` **supported as cited** — Supported by verbatim text from MHRA Guidance Note 8, Human Medicines Regulations, and MHRA press release.
-- `c-m05-01` **supported as cited** — Supported by verbatim text from Ito et al. 2005 and Hannah-Shmouni 2026.
-- `c-m05-02` **supported as cited** — Supported by verbatim text from Adil 2017 and Hannah-Shmouni 2026.
-- `c-m05-03` **supported as cited** — Supported by verbatim text from Bertolini et al. 2020.
-- `c-m05-04` **supported as cited** — Supported by verbatim text from King et al. 2022 and FDA approval letter of 13 June 2022.
-- `c-m05-05` **plausible needs source check** — Referral trigger supported; detailed algorithm steps were omitted from the provided guide excerpt.
-- `c-m05-06` **supported as cited** — Supported by verbatim text from Adil & Godwin 2017.
-- `c-m05-07` **supported as cited** — Supported by verbatim text from Drugs@FDA database entries for Rogaine and Propecia.
-- `c-m05-08` **supported as cited** — Supported by verbatim text from Slominski & Wortsman 2000 and Laiho & Murray 2022.
-- `c-m05-09` **plausible needs source check** — Trials supported by Langendonk 2015 and NCT06109649; the Grade A designation was omitted from the guide excerpt.
-- `c-m05-10` **supported as cited** — Supported by verbatim text from EMA Scenesse EPAR and FDA prescribing information.
-- `c-m05-11` **supported as cited** — Supported by verbatim text from Böhm 2025 and Hannah-Shmouni 2026.
-- `c-m05-12` **supported as cited** — Supported by verbatim text from Böhm 2025, Mallory 2021, Nelson 2012, and FDA Category 2 table.
-- `c-m05-13` **supported as cited** — Supported by verbatim text from Breindahl 2015 and TGA safety advisory (August 2026).
-- `c-m05-14` **supported as cited** — Supported by verbatim text from Böhm 2025, FDA Category 2 page, MHRA FOI 24/274, and TGA advisory.
-- `c-m05-15` **supported as cited** — Supported by verbatim text from Hannah-Shmouni 2026, Cardones 2009, and Böhm 2025.
-- `c-m05-16` **supported as cited** — Supported by verbatim text from Mang 2012 and FDA Scenesse prescribing information.
-- `c-m05-17` **plausible needs source check** — Lee 2017 mouse data supported; check through 24 September 2026 was marked partial as guide was dated August 2026.
-- `c-m05-18` **supported as cited** — Supported by verbatim text from Mehta et al. 2025.
-- `c-m05-19` **plausible needs source check** — Zinc requirement supported by Dardenne 1982; clinical case series was noted as unindexed.
-- `c-m05-20` **plausible needs source check** — Absence from bulks list and Category lists supported; Category 3 roster in FDA PDF was unverified.
-- `c-m05-21` **supported as cited** — Supported by verbatim text from Olumiant UK SmPC and NICE TA926.
-- `c-m05-22` **supported as cited** — Supported by verbatim text from Regaine SmPC, Propecia SmPC, and MHRA Drug Safety Update.
-- `c-m05-23` **supported as cited** — Supported by verbatim text from MHRA Drug Safety Update of 11 May 2026.
-- `c-m05-24` **supported as cited** — Supported by verbatim text from NICE highly specialised technology guidance HST27.
-- `c-m05-25` **supported as cited** — Supported by verbatim text from MHRA Guidance Note 14.
-- `c-m06-01` **supported as cited** — Supported by verbatim text from Edmondson 2003 and Tavakkol 1992.
-- `c-m06-02` **supported as cited** — Supported by verbatim text from Hannah-Shmouni 2026.
-- `c-m06-03` **supported as cited** — Supported by verbatim text from Hannah-Shmouni 2026.
-- `c-m06-04` **supported as cited** — Supported by verbatim text from Lange 2001 and Ben-Shlomo 2006.
-- `c-m06-05` **supported as cited** — Supported by verbatim text from Breederveld & Tuinebreijer 2014 (Cochrane).
-- `c-m06-06` **supported as cited** — Supported by verbatim text from Rudman 1990 and Papadakis 1996.
-- `c-m06-07` **supported as cited** — Supported by verbatim text from Liu et al. 2007, Blackman 2002, and Hannah-Shmouni 2026.
-- `c-m06-08` **supported as cited** — Supported by verbatim text from 21 U.S.C. § 333(e).
-- `c-m06-09` **supported as cited** — Supported by verbatim text from Falutz 2010, EGRIFTA WR prescribing information, and Hannah-Shmouni 2026.
-- `c-m06-10` **supported as cited** — Supported by verbatim text from EGRIFTA WR prescribing information.
-- `c-m06-11` **plausible needs source check** — 1997 trial supported by Khorram 1997; the September 2026 PubMed search was not in the provided texts.
-- `c-m06-12` **supported as cited** — Supported by verbatim text from Teichman 2006, Dominikowski 2026, and Hannah-Shmouni 2026.
-- `c-m06-13` **supported as cited** — Supported by verbatim text from Beck 2014, Nass 2008, and Adunsky 2011.
-- `c-m06-14` **supported as cited** — Supported by verbatim text from Federal Register 78 FR 14095 and Drugs@FDA.
-- `c-m06-15` **supported as cited** — Supported by verbatim text from 21 CFR 216.23, FDA Category 2 table, PCAC minutes, and warning letters.
-- `c-m06-16` **plausible needs source check** — Cutaneous and acral signs supported by Ben-Shlomo 2006 and Giustina 2024; Endocrine Society comorbidity list was omitted from the abstract.
-- `c-m06-17` **supported as cited** — Supported by verbatim text from Genotropin and EGRIFTA WR prescribing information.
-- `c-m06-18` **supported as cited** — Supported by verbatim text from Knuppel 2020 and Dal 2018.
-- `c-m06-19` **supported as cited** — Supported by verbatim text from Swerdlow 2017, Boguszewski 2022, Guevara-Aguirre 2011, and Dominikowski 2026.
-- `c-m06-20` **supported as cited** — Supported by verbatim text from Genotropin UK SmPC and Misuse of Drugs Act 1971 Sch. 2.
-- `c-m06-21` **plausible needs source check** — MHRA specials rules supported; MHRA products database search results source was unreadable.
-- `c-m07-01` **supported as cited** — Supported by verbatim text from Balshem et al. 2011.
-- `c-m07-02` **supported as cited** — Supported by verbatim text from Balshem 2011 and Guyatt et al. (Core GRADE series 2025).
-- `c-m07-03` **plausible needs source check** — All specific peptide trial results supported; statement that Miller 2006 is the 'only' indexed RCT was marked partial in the abstract.
-- `c-m07-04` **supported as cited** — Supported by verbatim text from Lundh et al. 2017 (Cochrane).
-- `c-m07-05` **supported as cited** — Supported by verbatim text from Hannah-Shmouni 2026.
-- `c-m07-06` **supported as cited** — Supported by verbatim text from 21 U.S.C. § 353a and FDA 503A guidance.
-- `c-m07-07` **supported as cited** — Supported by verbatim text from 21 U.S.C. § 353b and FDA outsourcing guidance.
-- `c-m07-08` **supported as cited** — Supported by verbatim text from 21 CFR 216.23 and FDA 503A guidance.
-- `c-m07-09` **supported as cited** — Supported by verbatim text from FDA 503A Category lists and Safety Risks table (May 2026).
-- `c-m07-10` **supported as cited** — Supported by verbatim text from FDA PCAC BPC-157 briefing document and 21 CFR 216.23.
-- `c-m07-11` **supported as cited** — Supported by verbatim text from Federal Register 85 FR 10057 and FDA deemed-BLA list.
-- `c-m07-12` **supported as cited** — Supported by verbatim text from Hannah-Shmouni 2026 and Eli Lilly v. Kennedy order.
-- `c-m07-13` **supported as cited** — Supported by verbatim text from Hannah-Shmouni 2026.
-- `c-m07-14` **supported as cited** — Supported by verbatim text from FDA Pyrogen and Endotoxins guidance (2026) and Hannah-Shmouni 2026.
-- `c-m07-15` **supported as cited** — Supported by verbatim text from FDA PCAC BPC-157 briefing document (July 2026).
-- `c-m07-16` **supported as cited** — Supported by verbatim text from Ashraf et al. 2024 and Popławska 2019.
-- `c-m07-17` **supported as cited** — Supported by verbatim text from 21 CFR 312.160, 21 CFR 201.128, and Hannah-Shmouni 2026.
-- `c-m07-18` **supported as cited** — Supported by verbatim text from FDA cosmetics guidance and dietary supplements pages.
-- `c-m07-19` **supported as cited** — Supported by verbatim text from Hannah-Shmouni 2026 and FDA Tailor Made warning letter.
-- `c-m07-20` **supported as cited** — Supported by verbatim text from Hannah-Shmouni 2026.
-- `c-m07-21` **supported as cited** — Supported by verbatim text from Human Medicines Regulations 2012 reg. 167 and MHRA Guidance Note 14.
-- `c-m07-22` **supported as cited** — Supported by verbatim text from MHRA Guidance Note 14.
-- `c-m07-23` **supported as cited** — Supported by verbatim text from Medicines Act 1968 s. 10 and MHRA Guidance Note 14.
-- `c-m07-24` **supported as cited** — Supported by verbatim text from MHRA Drug Safety Update, GPhC guidance, and NMC Code.
-- `c-m07-25` **supported as cited** — Supported by verbatim text from MHRA Guidance Note 8 and Human Medicines Regulations 2012.
-- `c-m07-26` **supported as cited** — Supported by verbatim text from MHRA FOI 24/274 and MHRA May 2026 press release.
-- `c-m07-27` **supported as cited** — Supported by verbatim text from Human Medicines Regulations reg. 284, CAP Code, and MHRA Blue Guide.
-- `c-m07-28` **supported as cited** — Supported by verbatim text from ASA Ruling on Menwell Ltd (February 2026).
-- `c-m07-29` **plausible needs source check** — The cited GMC cosmetic interventions guidance document was unreadable (scripted requests blocked with HTTP 403).
+## Claims (83)
+- `j-ae-01` **plausible needs source check** — The EDE drug directory query landing page displays only default initial entries, leaving the semaglutide registration dates unverified by mechanical check.
+- `j-ae-02` **supported as cited** — The EDE news announcement confirms the approval of oral Wegovy for weight management on 1 June 2026.
+- `j-ae-03` **plausible needs source check** — The specific Mounjaro EDE detail page was unavailable and the directory excerpt does not confirm the absence of Zepbound.
+- `j-ae-04` **supported as cited** — MOHAP Circular 9217/2024 confirms genuine Mounjaro is registered for type 2 diabetes mellitus and weight management.
+- `j-ae-06` **plausible needs source check** — The register search page excerpt shows default records and does not verify the absence of afamelanotide or Scenesse across the full register.
+- `j-ae-07` **plausible needs source check** — The register excerpt only displays the default landing page and does not confirm the absence of tesamorelin or Egrifta.
+- `j-ae-12` **plausible needs source check** — The register landing page shows the initial 24 entries and does not verify the full register search for BPC-157.
+- `j-ae-19` **supported as cited** — Abu Dhabi DoH Circular 112/2025 explicitly mandates the prohibition of importation, distribution, marketing, or use of Melanotan II.
+- `j-ae-39` **supported as cited** — DHA Circular 0867 (29 July 2026) confirms the prohibition of circulating, prescribing, or using unregistered peptides, and requires use strictly within approved indications.
+- `j-ae-42` **supported as cited** — The Abu Dhabi DoH Compounding Standard (August 2026) restricts compounding to genuine documented clinical need and bars copying commercial products.
+- `j-ae-44` **supported as cited** — The DoH Compounding Standard defines peptides as emerging, non-monographed high-risk substances and bars unapproved novel substances.
+- `j-br-01` **plausible needs source check** — Registration date is verified in DATAVISA open data, but the specific label text for indication limits was unavailable.
+- `j-br-03` **supported as cited** — ANVISA official news releases verify the patent expiration date, approval of Ozivy, and registration of five additional synthetic semaglutide pens for diabetes.
+- `j-br-12` **supported as cited** — RDC 1.036/2026 explicitly lists somatropin on List C5 (anabolic substances) requiring a special-control prescription in two copies.
+- `j-br-15` **supported as cited** — ANVISA's official statement from 2 July 2026 verifies that injectable ipamorelin is not registered in any category and is illegal.
+- `j-br-16` **supported as cited** — ANVISA's statement from 2 July 2026 confirms CJC-1295 is not registered in any category.
+- `j-br-18` **supported as cited** — ANVISA verified on 2 July 2026 that BPC-157 is not registered as a medicine or authorized as a food supplement, with no pending applications.
+- `j-br-29` **supported as cited** — ANVISA verified that compounding requires documented safety/efficacy and an individualized prescription dispensed by a licensed pharmacy.
+- `j-br-53` **supported as cited** — CFM Resolution 2.333/2023 prohibits prescribing androgens or anabolic steroids for aesthetic/performance purposes and bans unproven 'bioidentical' claims.
+- `j-br-54` **supported as cited** — CFM Resolution 1.999/2012 explicitly prohibits using hormones including growth hormone for anti-aging purposes.
+- `j-br-60` **supported as cited** — ANVISA official communications document the interdiction of 8 compounding establishments, seizure of 1.3M units, and the joint technical note with the Federal Police.
+- `j-eu-01` **supported as cited** — EMA shortage communications verify the central authorization and approved indications for Ozempic, Rybelsus, Wegovy, and Mounjaro.
+- `j-eu-07` **supported as cited** — EMA EPAR documentation confirms Scenesse received EU marketing authorization under exceptional circumstances for EPP in 2014.
+- `j-eu-09` **supported as cited** — EMA EPAR confirms Olumiant (baricitinib) is centrally authorized for severe alopecia areata in adults and adolescents aged 12 and over.
+- `j-eu-10` **supported as cited** — EMA referral records confirm the January 2023 safety restrictions on JAK inhibitors across chronic inflammatory indications, including alopecia areata.
+- `j-eu-14` **supported as cited** — EMA Article 31 referral records confirm suicidal ideation is an established side effect of finasteride 1 mg, requiring a patient card.
+- `j-eu-17` **supported as cited** — EMA withdrawal public assessment report confirms the Egrifta (tesamorelin) application was withdrawn in 2012 due to CHMP concerns regarding IGF-1 elevation.
+- `j-eu-31` **supported as cited** — Regulation (EC) No 1223/2009 Annex II entry 375 and the Borderline Manual confirm tretinoin is banned in cosmetics and that anti-wrinkle cosmetics containing it are illegal.
+- `j-eu-37` **supported as cited** — Directive 2001/83/EC Article 3 explicitly excludes magistral and officinal formulas prepared in pharmacies from its scope.
+- `j-eu-41` **supported as cited** — EMA/HMA MSSG statements confirm guidance instructing clinicians not to prescribe GLP-1 receptor agonists for cosmetic weight loss.
+- `j-eu-51` **supported as cited** — Regulation (EC) No 1223/2009 Article 2(2) explicitly excludes substances intended for injection, ingestion, inhalation, or implantation from cosmetics.
+- `j-pt-11` **supported as cited** — The approved Portuguese SmPC for Minox 5 confirms indications for androgenetic alopecia and alopecia areata.
+- `j-pt-30` **supported as cited** — The approved SmPC for Ketrel cream confirms indications for acne and keratinisation disorders, excluding photoaging.
+- `j-pt-34` **supported as cited** — Decreto-Lei n.º 95/2004 Article 1 defines magistral formula and establishes pharmacist responsibility for compounding.
+- `j-pt-36` **supported as cited** — Decreto-Lei n.º 95/2004 Article 6 limits raw materials for compounding to recognised pharmacopoeias and compendial documentation.
+- `c-m01-01` **supported as cited** — Slominski 2025 and Hannah-Shmouni 2026 confirm the 4 neuro-immuno-endocrine units and three-way cutaneous signaling pathways.
+- `c-m01-03` **supported as cited** — Ito 2005 confirms cultured human hair follicles operate an autonomous HPA-like loop producing POMC products and cortisol with negative feedback.
+- `c-m01-09` **plausible needs source check** — The Hormone Cell Atlas Science paper abstract confirms 379 genes across 14 million cells and 47 tissues, but skin is not specifically listed in the abstract text.
+- `c-m01-16` **supported as cited** — Waaijer 2016 verifies that p16-positive cells in sun-protected skin track with elastic fiber morphology, facial wrinkles, and perceived age (3-year difference between tertiles).
+- `c-m01-20` **supported as cited** — Hughes 2013 (Nambour trial), Sitohang 2022, and Kafi 2007 support the clinical trial evidence for sunscreen, tretinoin, and retinol.
+- `c-m02-01` **supported as cited** — Tiganescu 2011 and 2013 confirm 11β-HSD1 expression in skin, age-related upregulation, prereceptor cortisol regulation, and dermal protection in knockout mice.
+- `c-m02-03` **plausible needs source check** — The Endocrine Society guideline abstract mentions high-discriminatory-value features, but the specific discriminatory features listed in Table 1 require the full text.
+- `c-m02-09` **supported as cited** — Phillips 2008 (485 women) and Owen 2016 (KEEPS) confirm that systemic hormone therapy showed no significant difference in facial wrinkles compared to placebo.
+- `c-m02-11` **supported as cited** — FDA announcements in 2025 and 2026 confirm approved indications for MHT and the removal of CV, breast cancer, and dementia boxed warnings without adding skin.
+- `c-m02-15` **supported as cited** — Darling 1997 confirms multiple facial angiofibromas in 88% and collagenomas in 72% of 32 MEN1 patients.
+- `c-m02-16` **supported as cited** — Correa 2015 confirms that PRKAR1A variants account for >70% of Carney complex, canthal lentigines, myxomas, and that cardiac myxomas account for >50% of mortality.
+- `c-m03-03` **supported as cited** — Guyuron 2009 confirms that in 186 twin pairs, a 4-point higher BMI correlated with an older appearance before 40 and younger appearance after 40.
+- `c-m03-05` **supported as cited** — Dyer 1993 confirms 5-fold rise in CML/pentosidine from age 20 to 85, and Verzijl 2000 confirms skin collagen half-life is ~15 years.
+- `c-m03-10` **supported as cited** — Wilding 2021 (STEP-1, -14.9% vs -2.4%) and Jastreboff 2022 (SURMOUNT-1, -15.0% to -20.9% vs -3.1%) confirm weight-loss figures.
+- `c-m03-11` **supported as cited** — Batsis 2026 confirms that a median of 28.3% of weight lost on incretins was muscle-related tissue across 35 RCTs, with no objective physical function outcomes reported.
+- `c-m03-12` **supported as cited** — Sharma 2025 confirms median 9% midface volume loss (7% per 10 kg lost), and Rao 2026 confirms patient-reported survey trends in 1,226 patients.
+- `c-m03-18` **supported as cited** — Cani 2007, Erridge 2007, Camilleri 2019, and Scheffler 2018 confirm metabolic endotoxemia mechanisms, human postprandial rise, lack of systemic barrier-repair proof, and zonulin assay unreliability.
+- `c-m03-19` **supported as cited** — Makrgeorgou 2018 (Cochrane) confirms probiotics make little or no difference in patient-rated eczema symptoms, and Vassilopoulou 2024 reports pediatric SCORAD reductions.
+- `c-m04-03` **supported as cited** — Miller 2006 confirms the only indexed RCT of topical GHK-Cu evaluated CO2 laser resurfacing, and the guide rates cosmetic indications GRADE C.
+- `c-m04-06` **supported as cited** — FDA 503A Category lists confirm GHK-Cu for non-injectable routes was reinstated to Category 1 in May 2026 with a PCAC consultation planned before end of February 2027.
+- `c-m04-11` **supported as cited** — FDA PCAC July 2026 briefing documents confirm BPC-157 has zero fully published randomized trials, with the only RCT being an unpublished 2005 meeting abstract showing no significant difference from placebo.
+- `c-m04-14` **supported as cited** — Grönberg 2014 and Mahlapuu 2021 confirm LL-37 had a small positive phase 2 trial (n=34) followed by a larger negative phase IIb trial (n=148) in venous leg ulcers.
+- `c-m04-18` **supported as cited** — Myung & Park 2025 meta-analysis confirms that oral collagen benefits were present only in industry-funded and lower-quality trials, disappearing in unfunded and high-quality trials.
+- `c-m05-04` **supported as cited** — King 2022 (BRAVE-AA1/AA2) and FDA approval letter confirm baricitinib efficacy and US approval for severe alopecia areata on 13 June 2022.
+- `c-m05-09` **supported as cited** — Langendonk 2015 and FDA prescribing information confirm afamelanotide efficacy in EPP and approval restricted strictly to EPP.
+- `c-m05-12` **supported as cited** — Case literature and FDA compounding safety pages confirm Melanotan II is associated with eruptive nevi, priapism, rhabdomyolysis, and PRES.
+- `c-m05-13` **supported as cited** — Breindahl 2015 (43-88% active content, up to 5.9% impurities) and TGA 2026 advisory (22-54 mg across 30 mg bottles) confirm Melanotan II dosage inconsistency.
+- `c-m05-17` **supported as cited** — Lee 2017 confirms PTD-DBM acts by disrupting CXXC5-Dishevelled binding in mice, with zero published human trials.
+- `c-m06-06` **supported as cited** — Rudman 1990 confirms skin thickness increased 7.1% (P = 0.07, not significant) in 12 older men on GH, and Papadakis 1996 confirms 15% more hydroxyproline in wound tubes.
+- `c-m06-07` **supported as cited** — Liu 2007 meta-analysis confirms GH in healthy elderly reduces fat mass by 2.1 kg and increases lean mass by 2.1 kg, with higher rates of edema, arthralgia, and carpal tunnel.
+- `c-m06-08` **supported as cited** — 21 U.S.C. § 333(e) confirms that knowingly distributing human growth hormone for unapproved uses like anti-aging is a federal crime.
+- `c-m06-09` **supported as cited** — Falutz 2010 and DailyMed label confirm tesamorelin reduced visceral fat by ~15% at 26 weeks, maintained to 52 weeks, with FDA approval restricted to HIV-associated lipodystrophy.
+- `c-m06-10` **supported as cited** — EGRIFTA WR prescribing information confirms IGF-1 > +2 SDS in 47% and > +3 SDS in 36% of patients at 26 weeks, noting long-term risks are unknown.
+- `c-m06-15` **supported as cited** — FDA 503A/503B category tables, PCAC minutes, and warning letters confirm no GH secretagogue is on the bulks list, ibutamoren is in Category 2, and ipamorelin nominations were rejected/withdrawn.
+- `c-m06-19` **supported as cited** — Swerdlow 2017 (SAGhE, 23,984 children) and Boguszewski 2022 confirm no overall cancer risk in replacement therapy, while long-term safety data for secretagogues remain entirely absent.
+- `c-m07-01` **supported as cited** — Balshem 2011 confirms GRADE rates bodies of evidence into 4 certainty levels, with RCTs starting high and observational studies starting low.
+- `c-m07-04` **supported as cited** — Lundh 2017 (Cochrane) confirms industry-sponsored trials report favorable efficacy results more often (RR 1.27, 95% CI 1.17–1.37) and favorable conclusions (RR 1.34).
+- `c-m07-06` **supported as cited** — 21 U.S.C. § 353a confirms the three-tier hierarchy for 503A bulk substances (monograph, approved drug component, bulks list) and registered facility/CoA requirements.
+- `c-m07-08` **supported as cited** — 21 CFR 216.23 confirms the 503A bulks list holds only six substances, none of which is a peptide.
+- `c-m07-11` **supported as cited** — 85 FR 10057 and FDA notices confirm proteins (>40 amino acids) transitioned to biological products on 23 March 2020 and cannot use 503A/503B compounding exemptions.
+- `c-m07-13` **supported as cited** — Peptide Pocket Guide and FDA PCAC briefing verify the analytical elements of a CoA and its inability to establish vial sterility, handling, or lawful clinical route.
+- `c-m07-16` **supported as cited** — Ashraf 2024 confirms online semaglutide vials had 7.7–14.4% purity and 100% endotoxin contamination, and Popławska 2019 identified an undocumented GHRP-2 analogue in a seized vial.
+- `c-m07-17` **supported as cited** — 21 CFR 312.160 and 201.128 confirm 'research use only' permits shipping solely for laboratory in vitro/animal work and intended use is evaluated objectively from marketing.
+- `c-m07-19` **supported as cited** — FDA off-label guidance and 21 U.S.C. § 331 confirm off-label use presupposes an approved drug and prescribing never-approved peptides constitutes distributing unapproved new drugs.
+- `c-m07-20` **supported as cited** — Hannah-Shmouni 2026 and 21 CFR 50.25 establish the informed consent and charting requirements for unapproved and compounded peptides.
+- `c-m07-21` **supported as cited** — UK Human Medicines Regulations 2012 reg. 167 confirms the conditions for supplying unlicensed specials against an unsolicited order for special clinical needs without advertising.
+- `c-m07-24` **supported as cited** — MHRA Drug Safety Updates and GMC/GPhC/NMC standards confirm prescriber responsibility, clinical necessity, and charting obligations for unlicensed medicines.
+- `c-m07-27` **supported as cited** — UK Human Medicines Regulations 2012 reg. 284, CAP Code 12.12, and the MHRA Blue Guide confirm the ban on advertising prescription-only medicines to the public.
 
 ## Modules
-- **m01** [skim] Covers the skin's autonomous neuro-immuno-endocrine units, cutaneous steroidogenesis, single-cell RNA atlas interpretation, and cellular senescence mechanisms. Scientifically sound with clear distinctions between biological capacity and clinical proof.
-- **m02** [verify] Details local cortisol regeneration via 11β-HSD1, clinical triage of Cushing's syndrome versus lifestyle puffiness, menopausal hormone therapy trial evidence, and inherited endocrine syndromes. Clinically rigorous with strong red-flag triage.
-- **m03** [skim] Examines dermal white adipose tissue, glycation biology, GLP-1 and dual-incretin agonist facial/hair impacts, and gut-skin axis claims. Maintains strict boundaries between proven weight loss and unproven direct skin actions.
-- **m04** [verify] Critically reviews GHK-Cu, matrikines, neurotransmitter-inhibiting peptides, oral collagen funding bias, and wound-repair peptides (BPC-157, TB-500, KPV, LL-37). Demonstrates exceptional evidence appraisal rigor.
-- **m05** [skim] Contrasts approved hair loss therapies and afamelanotide for EPP against unproven PTD-DBM, zinc thymulin, and hazardous Melanotan II. Rigorously balances clinical dermatologic management and oncologic warnings.
-- **m06** [skim] Analyzes somatotropic axis physiology, somatopause versus deficiency, tesamorelin trials, secretagogue limitations, acromegaly signs, and IGF-1 oncologic safety. Robustly separates endocrine disease from lifestyle anti-aging.
-- **m07** [verify] Integrates GRADE methodology, US 503A/503B compounding hierarchies, certificate of analysis auditing, research-use-only restrictions, and international prescribing/advertising laws. Exemplary medicolegal and compliance capstone.
+- **m01** [skim] Teaches the skin as a peripheral neuro-immuno-endocrine organ with autonomous steroidogenic and local HPA/somatotropic loops, contrasting mechanistic capacity with cellular senescence biology. Instructionally sound.
+- **m02** [skim] Covers systemic endocrine diseases affecting the skin (Cushing's, thyroid, Carney complex, MEN) and critically reviews the evidence for menopausal hormone therapy in cutaneous aging. Rigorous and balanced.
+- **m03** [verify] Examines dermal white adipose tissue, glycation/AGEs, and the facial structural and dermatologic effects of GLP-1 and dual-incretin receptor agonists. Highly relevant and objective.
+- **m04** [verify] Appraises cosmetic and tissue-repair peptides (GHK-Cu, palmitoyl peptides, SNAP-25 mimics, BPC-157, TB-500, KPV, LL-37), exposing commercial trial funding bias. Methodologically robust.
+- **m05** [skim] Explores hair follicle neuroendocrinology and melanocortin receptor pharmacology, contrasting approved drugs (baricitinib, minoxidil, finasteride, afamelanotide) with grey-market peptides (PTD-DBM, zinc thymulin, Melanotan II). Excellent safety framing.
+- **m06** [verify] Details the growth hormone/IGF-1 axis in dermal homeostasis, reviewing healthy-aging trials, acromegaly, tesamorelin, secretagogues, and oncologic safety concerns. Thorough and objective.
+- **m07** [verify] Synthesizes GRADE certainty ratings, US 503A/503B compounding law, international unlicensed medicine pathways, CoA auditing, and medicolegal charting. Exceptional regulatory rigor.
 
 ## Assessment
-The module end checks and the 14-question final course quiz test the stated learning objectives with high psychometric and clinical fidelity. Every item has exactly one defensible, evidence-grounded correct answer, accompanied by detailed feedback explaining why alternative options are incorrect. The items rigorously assess distinction across the four defined registers: biological mechanism, human clinical evidence, statutory regulatory status, and unresolved questions. No trivial or psychometrically invalid items were detected.
+The module check items and the 14-question final course quiz test the stated learning objectives with exact alignment. Every item has exactly one defensible correct answer, plausible distractors reflecting common clinical misconceptions, and thorough explanatory rationales. The weight distribution appropriately balances physiology (36%), evidence appraisal (29%), and regulatory safety (29%). No weak, ambiguous, or broken items were identified.
 
 ## Educational quality
-Educational quality is exceptional. Learning objectives are stated in measurable, Bloom-aligned clinical competencies. The instructional architecture follows an exemplary logical progression from fundamental cutaneous neuroendocrinology to systemic endocrine manifestations, incretin-driven structural facial changes, topical/matrikine peptides, melanocortin pharmacology, growth-hormone axis modulation, and concludes with a robust compliance and GRADE appraisal capstone. Content is meaningful, dense, and devoid of unnecessary padding, utilizing interactive case scenarios, sequence ordering, hotspot identification, and certificate auditing.
+Educational quality is exceptional. Learning objectives across all seven modules are measurable and action-oriented. The curriculum moves systematically from foundational organ-level endocrinology to clinical pattern recognition, pharmacology, trial appraisal, and regulatory compliance. Content is dense and completely free of padding or ungrounded promotional bias. Practical exercises, including sales-page audits and chart-note drafting, foster critical reasoning rather than passive recall.
 
 ## Learning time
-≈ 350 min (Calculated independently across 7 modules: 7 opening video films (approx. 9 minutes total runtime), 24 audio narration tracks (approx. 40 minutes), reading volume of approximately 25,000 words including base text and six jurisdiction-specific notes at 180 wpm (approx. 140 minutes), 35 interactive practice exercises including branching cases and certificate audits at 3 minutes each (approx. 105 minutes), and 42 assessment items across module checks, lesson quizzes, and final quiz at 1.3 minutes each (approx. 55 minutes).) — credit hours proportionate: yes · The course package assigns a completion certificate without offering CME/CE credit hours (CME credit is explicitly disclaimed for future accreditation), which is fully proportionate and appropriate for a professional certificate course of approximately 5.8 to 6.0 hours total duration.
+≈ 290 min (Calculated independently across 7 modules: 7 opening videos (8.5 minutes total runtime) + 48 lesson text and audio script blocks (approx. 24,000 words at 140 wpm reading/listening = 171 minutes) + 35 interactive tool and scenario exercises (at 2.5 minutes each = 87.5 minutes) + 7 module formative quizzes and checks (10 minutes) + 14-item final certification exam (15 minutes).) — credit hours proportionate: yes · Total independent learning time of 290 minutes (~4.8 hours) matches the package's 289-minute planning estimate. The course explicitly disclaims awarding CME or CE credit at this time.
 
 ## Localization
-Only English ('en') is requested and assessed. No translated edition is being claimed. Locale-specific regulatory differences across the United States, United Kingdom, European Union, Portugal, Brazil, and United Arab Emirates are handled through dedicated jurisdiction metadata notes within the English package, citing primary national statutes and authorities.
+Only one locale is requested (en). No translated edition is being claimed. Within the English edition, regional regulatory variations are systematically delineated across six jurisdictions (US, GB, EU, PT, BR, AE) using modular, authority-specific notes.

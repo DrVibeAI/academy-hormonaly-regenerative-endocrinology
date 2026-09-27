@@ -7,4 +7,6 @@
 # support; the final gate reads the authored change logs).
 # 2026-09-26 ($199): moved to the foundry commit whose academy validator knows the paid entitlement (perceptor-foundry PR #14,
 # stacked on #11 and #9).
-ref=af3bd68cb6b34c92cfc4cf4cd21223b6eed8c283
+# 2026-09-27: moved to the foundry commit the 1.1.0 dossier and scorecard pre-review were built with: perceptor-foundry #17 (the
+# #9/#11/#14 stack merged with main 1b7ecbd: GCLS review standard v0.1 + scorecard).
+ref=69b4706c26505bb6b03b08be6ab900b7493a0816
