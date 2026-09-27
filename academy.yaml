@@ -127,6 +127,88 @@ experience:
   library:
     sourceNotes: false     # citation notes in this package are internal reading records (hashes, corpus paths, retrieval logs)
     evidencePolicy: { en: "Mechanism, human evidence, regulatory status and open questions are kept apart. The course gives no doses and no product sourcing." }
+# Today (runtime, 2026-09-26; Omar: "why is the today page so empty feeling? … a rotating quote about the skin with a generated
+# nice image"). A line of the day from the course, rotating daily, with a picture; "See the moment" opens the moment it comes from.
+# Approved text only: `text` is the moment's own headline, `detail` its own sentences, verbatim (tools/qa/signature-audit.mjs checks
+# both against the package). Pictures: perceptor-foundry tools/images/today-lines.mjs (Nano Banana 2 Lite, photographic, no text,
+# no faces); `prompt` never reaches the app.
+today:
+  lines:
+    label: { en: "Line of the day" }
+    items:
+      - from: m1-p01
+        text: { en: "The skin makes its own hormones." }
+        detail: { en: "Skin senses hormones from the blood, makes several of its own, and ages in ways that change both." }
+        image: { src: "assets/hormones-peptides-skin/today/m1-p01.jpg", alt: { en: "Warm morning light across the skin of a forearm" },
+          prompt: "Macro of the smooth skin on the inside of a forearm catching warm morning light, fine vellus hairs glowing along the edge." }
+      - from: m2-p02
+        text: { en: "The skin regenerates its own cortisol." }
+        detail: { en: "Keratinocytes and dermal fibroblasts also carry 11β-HSD1, the enzyme that turns inactive cortisone back into active cortisol inside the cell." }
+        image: { src: "assets/hormones-peptides-skin/today/m2-p02.jpg", alt: { en: "Sunlight falling across the skin of a bare shoulder" },
+          prompt: "Late sunlight falling across the skin of a bare shoulder blade, a soft glow over fine texture, the light fading into a warm gradient." }
+      - from: m3-p05
+        text: { en: "Fifteen years on the same collagen." }
+        detail: { en: "Human skin collagen turns over slowly; tissue analysis puts its half-life at about 15 years." }
+        image: { src: "assets/hormones-peptides-skin/today/m3-p05.jpg", alt: { en: "Close-up of softly creased linen threads" },
+          prompt: "Close-up of finely woven natural linen threads, softly creased and slightly worn, in warm side light: long-lived fibres." }
+      - from: m4-p01
+        text: { en: "The peptide your patient already bought." }
+        detail: { en: "Most skin peptides reach your clinic before any evidence does." }
+        image: { src: "assets/hormones-peptides-skin/today/m4-p01.jpg", alt: { en: "A small unlabelled serum bottle on a stone shelf" },
+          prompt: "A small clear glass dropper bottle of serum with no label, standing on a travertine shelf beside a folded cotton towel, soft window light." }
+      - from: m5-p02
+        text: { en: "A follicle that runs its own hormones." }
+        detail: { en: "Human scalp hair follicles kept alive in the laboratory answer corticotropin-releasing hormone by making ACTH and α-MSH and secreting cortisol, with a feedback loop like the adrenal axis." }
+        image: { src: "assets/hormones-peptides-skin/today/m5-p02.jpg", alt: { en: "Backlit fine hairs on the skin of an arm" },
+          prompt: "Fine hairs on the skin of a forearm, backlit so each hair glows like a filament against a soft cream background." }
+      - from: m6-p02
+        text: { en: "Two hormones, two layers of skin." }
+        detail: { en: "Growth hormone acts mostly in the dermis. IGF-1, made locally by fibroblasts and melanocytes, reaches keratinocytes through the IGF-1 receptor and makes them divide." }
+        image: { src: "assets/hormones-peptides-skin/today/m6-p02.jpg", alt: { en: "Two layered sheets of translucent silk, backlit" },
+          prompt: "Two sheets of translucent silk in cream and blush, one laid over the other and backlit so both layers glow." }
+      - from: m7-p13
+        text: { en: "Research use only is a label, and never a route." }
+        image: { src: "assets/hormones-peptides-skin/today/m7-p13.jpg", alt: { en: "An unlabelled glass vial on a clean laboratory bench" },
+          prompt: "A single small glass vial with a plain blank white label on a clean laboratory bench, cool clinical light, calm empty space around it." }
+      - from: m1-p13
+        text: { en: "Cells that stop dividing and keep talking." }
+        detail: { en: "A senescent cell has stopped dividing for good but stays metabolically active, releasing cytokines, matrix-degrading enzymes and growth factors: the senescence-associated secretory phenotype, or SASP." }
+        image: { src: "assets/hormones-peptides-skin/today/m1-p13.jpg", alt: { en: "Soft luminous spheres clustered like cells" },
+          prompt: "Dreamlike macro of soft luminous translucent spheres clustered like cells, lit in amber with faint violet shadows, like a painterly micrograph." }
+      - from: m2-p01
+        text: { en: "The face that might be a diagnosis." }
+        detail: { en: "Most skin changes you see are ageing or lifestyle. A few are the first visible sign of endocrine disease." }
+        image: { src: "assets/hormones-peptides-skin/today/m2-p01.jpg", alt: { en: "A round mirror in a quiet clinic room" },
+          prompt: "A round mirror on a pale plaster wall reflecting only soft daylight and a window, a calm and empty examination room." }
+      - from: m3-p04
+        text: { en: "Sugar that sticks to collagen." }
+        detail: { en: "Glycation is a slow, non-enzymatic reaction. Reducing sugars attach to protein amino groups, rearrange into Amadori products and end as advanced glycation end products, or AGEs." }
+        image: { src: "assets/hormones-peptides-skin/today/m3-p04.jpg", alt: { en: "Sugar crystals scattered on cream silk" },
+          prompt: "Sugar crystals scattered over smooth cream silk, macro, warm side light making the crystals sparkle." }
+      - from: m6-p05
+        text: { en: "Deficiency is a diagnosis. Decline is ageing." }
+        image: { src: "assets/hormones-peptides-skin/today/m6-p05.jpg", alt: { en: "Late light moving across a plaster wall" },
+          prompt: "The shadow of a window frame falling across a warm plaster wall in late-afternoon light, a quiet sense of time passing." }
+      - from: m1-p06
+        text: { en: "Read the skin before the serum." }
+        detail: { en: "The Aesthetic & Regenerative Endocrinology guide treats the aesthetic exam as a systemic screen." }
+        image: { src: "assets/hormones-peptides-skin/today/m1-p06.jpg", alt: { en: "A hand holding a magnifying loupe in window light" },
+          prompt: "A hand in a clean white sleeve holding a small magnifying loupe in soft window light; a serum bottle stands out of focus in the background." }
+      - from: m2-p13
+        text: { en: "Some syndromes show on the skin first." }
+        detail: { en: "A handful of inherited endocrine syndromes appear on the skin before the glands declare themselves." }
+        image: { src: "assets/hormones-peptides-skin/today/m2-p13.jpg", alt: { en: "Raking light across the skin of an upper arm" },
+          prompt: "Raking early light across the skin of an upper arm, revealing its fine topography like a landscape at dawn." }
+      - from: m3-p02
+        text: { en: "The skin keeps its own fat." }
+        detail: { en: "Beneath the dermis lies subcutaneous fat. Within the reticular dermis itself sits a thinner layer, dermal white adipose tissue." }
+        image: { src: "assets/hormones-peptides-skin/today/m3-p02.jpg", alt: { en: "Golden droplets suspended in clear water" },
+          prompt: "Abstract macro of golden oil droplets suspended in clear water, soft warm light, gentle bokeh." }
+      - from: m2-p06
+        text: { en: "Reassure the many, refer the few." }
+        detail: { en: "When a patient asks about 'cortisol face', start with the drug history: steroid creams, skin-lighteners, herbal tonics and injections." }
+        image: { src: "assets/hormones-peptides-skin/today/m2-p06.jpg", alt: { en: "A quiet clinic corridor with warm light from a door" },
+          prompt: "A quiet clinic corridor at dusk, one door ajar with warm light spilling across a pale floor." }
 # Learner country (onboarding + Perfil). The course is one English edition; the country decides which regulatory note each moment
 # shows first (package blocks' metadata.variants.jurisdiction; runtime falls back to EU for member states). Omar 2026-09-25:
 # US, UK, EU, Portugal, Brazil and the UAE. Every country's notes confirmed by Fady 2026-09-25 (rc.2 packet, relayed by Omar).
