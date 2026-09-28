@@ -12,4 +12,7 @@
 # 2026-09-28 (sitting-design pilot, Module 1): moved to the head of perceptor-foundry draft PR #19 (factory/sitting-design-20260928,
 # e031406: dosage audit, read-along beats, twotier and ladder, Gemini 3.8 TTS beats.mjs), stacked on #17. Move it to the merge
 # commit when #19 lands on main.
-ref=e031406a2633d976b4551ee42cdd51b5e4566833
+# 2026-09-28 (round 2): moved to PR #19's new head f319b9a. Its dosage audit counts what perceptor-runtime PR #27 (dc4da71) shows
+# before the first tap (task-first body placement), and caps a case card (scenario, branching, twotier with a setup) at 150 words;
+# every other card stays at 100. Move it to the merge commit when #19 lands on main.
+ref=f319b9affb2c8f7acd43e6265f6feea32e63e94d
