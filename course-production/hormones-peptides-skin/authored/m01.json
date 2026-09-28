@@ -501,6 +501,131 @@
     "callout": {
      "en": "A local axis explains biology. The Aesthetic & Regenerative Endocrinology guide calls it foundation, not a dosing rationale."
     }
+   },
+   "interaction": {
+    "kind": "ladder",
+    "title": {
+     "en": "Which rung?"
+    },
+    "prompt": {
+     "en": "Tap the rung each loop rests on."
+    },
+    "rungs": [
+     {
+      "value": "cell",
+      "label": {
+       "en": "Cell & tissue studies"
+      }
+     },
+     {
+      "value": "animal",
+      "label": {
+       "en": "Animal models"
+      }
+     },
+     {
+      "value": "exvivo",
+      "label": {
+       "en": "Human tissue, ex vivo"
+      }
+     },
+     {
+      "value": "people",
+      "label": {
+       "en": "People (clinical)"
+      }
+     }
+    ],
+    "items": [
+     {
+      "id": "steroid-synthesis",
+      "label": {
+       "en": "Steroid synthesis"
+      },
+      "note": {
+       "en": "CYP11A1 starts the chain; 11β-HSD1, 5α-reductase and aromatase activate precursors from the blood. Cell and tissue studies."
+      },
+      "answer": "cell",
+      "why": {
+       "en": "Cell and tissue studies."
+      }
+     },
+     {
+      "id": "hpa-loop",
+      "label": {
+       "en": "HPA-like loop"
+      },
+      "note": {
+       "en": "Human scalp follicles kept alive in culture. Ex vivo, human tissue."
+      },
+      "answer": "exvivo",
+      "why": {
+       "en": "Ex vivo, human tissue."
+      }
+     },
+     {
+      "id": "keratinocyte-glucocorticoids",
+      "label": {
+       "en": "Keratinocyte glucocorticoids"
+      },
+      "note": {
+       "en": "Genetic deletion in mouse keratinocytes. Animal evidence."
+      },
+      "answer": "animal",
+      "why": {
+       "en": "Animal evidence."
+      }
+     },
+     {
+      "id": "thyroid-loop",
+      "label": {
+       "en": "Thyroid-like loop"
+      },
+      "detail": {
+       "en": "TRH, TSH and deiodinases → T3"
+      },
+      "note": {
+       "en": "Keratinocyte growth and the hair cycle. Mostly mouse models."
+      },
+      "answer": "animal",
+      "why": {
+       "en": "Mostly mouse models."
+      }
+     },
+     {
+      "id": "somatotropic-loop",
+      "label": {
+       "en": "Somatotropic loop"
+      },
+      "detail": {
+       "en": "GH and IGF-1"
+      },
+      "note": {
+       "en": "Human hair follicles, ex vivo."
+      },
+      "answer": "exvivo",
+      "why": {
+       "en": "Human hair follicles, ex vivo."
+      }
+     }
+    ],
+    "summary": {
+     "en": "A local axis explains biology."
+    },
+    "done": {
+     "en": "The Aesthetic & Regenerative Endocrinology guide calls it foundation, not a dosing rationale."
+    },
+    "citationRefs": [
+     "slominski-2013-skin-steroidogenesis",
+     "zouboulis-2004-skin-endocrine-gland",
+     "ito-2005-hair-follicle-hpa",
+     "phan-2021-keratinocyte-glucocorticoids",
+     "mancino-2021-thyroid-epidermis",
+     "horesh-2023-hair-follicle-somatotropic",
+     "slominski-wortsman-2000-skin-neuroendocrinology",
+     "hannah-shmouni-2026-are"
+    ],
+    "source": "authored:2026-09-28 from m1-p04 tool rows 1–5 (label; note verbatim; the value as the detail on rows 4–5) and callout (sentence 1 as summary, sentence 2 as the closing line); row 6 (Melanocortins) names no evidence type and is left out"
    }
   },
   {
@@ -1096,7 +1221,7 @@
   },
   {
    "id": "m1-p07",
-   "type": "quiz",
+   "type": "tool",
    "time": "10 / 25",
    "lead": {
     "en": "Your turn"
@@ -1108,14 +1233,26 @@
     "en": "One question to close lesson 1.1."
    },
    "sourceNote": "Lesson 1.1",
-   "quiz": {
-    "id": "m1-q1",
+   "citationRefs": [
+    "hannah-shmouni-2026-are",
+    "phan-2021-keratinocyte-glucocorticoids",
+    "slominski-2013-skin-steroidogenesis"
+   ],
+   "interaction": {
+    "kind": "twotier",
+    "title": {
+     "en": "Local or systemic"
+    },
+    "setup": {
+     "en": "Fictional case. A 52-year-old has new thin, easily bruised skin on her forearms, new violaceous striae and newly raised blood pressure. She has read that skin makes its own cortisol and asks whether a cream could calm it."
+    },
     "prompt": {
-     "en": "Fictional case. A 52-year-old has new thin, easily bruised skin on her forearms, new violaceous striae and newly raised blood pressure. She has read that skin makes its own cortisol and asks whether a cream could calm it. Which reading is right?"
+     "en": "Which reading is right?"
     },
     "options": [
      {
-      "text": {
+      "value": "local",
+      "label": {
        "en": "Her skin's own cortisol explains the picture, so the answer is local."
       },
       "why": {
@@ -1123,32 +1260,68 @@
       }
      },
      {
-      "text": {
-       "en": "The combination is a systemic pattern; the guide lists it as a reason for prompt endocrine referral before any skin treatment."
+      "value": "interchangeable",
+      "label": {
+       "en": "Local and systemic cortisol are interchangeable, so either explanation fits."
       },
       "why": {
-       "en": "Correct. Striae, bruising and new hypertension together point to possible systemic cortisol excess: a body-to-skin signal."
+       "en": "Local synthesis acts within the skin and runs its own feedback; a systemic syndrome needs a systemic assessment."
       }
      },
      {
-      "text": {
-       "en": "Local and systemic cortisol are interchangeable, so either explanation fits."
+      "value": "systemic",
+      "label": {
+       "en": "The combination is a systemic pattern; the guide lists it as a reason for prompt endocrine referral before any skin treatment."
+      },
+      "why": {
+       "en": "A serum cannot answer a systemic question."
+      },
+      "correct": true
+     }
+    ],
+    "reasonPrompt": {
+     "en": "Why is that reading right?"
+    },
+    "reasons": [
+     {
+      "value": "systemic-cortisol",
+      "label": {
+       "en": "Striae, bruising and new hypertension together point to possible systemic cortisol excess: a body-to-skin signal."
+      },
+      "why": {
+       "en": "Body to skin. Systemic cortisol excess acting on the dermis. The Aesthetic & Regenerative Endocrinology guide lists suspected Cushing syndrome as a reason to refer promptly."
+      },
+      "correct": true
+     },
+     {
+      "value": "no-loops",
+      "label": {
+       "en": "Skin has no hormone loops of its own."
+      },
+      "why": {
+       "en": "Skin does run shortened copies of the body's central hormone axes. They explain how skin behaves; they do not justify prescribing a hormone."
+      }
+     },
+     {
+      "value": "interchangeable",
+      "label": {
+       "en": "Local and systemic cortisol are interchangeable."
       },
       "why": {
        "en": "Local synthesis acts within the skin and runs its own feedback; a systemic syndrome needs a systemic assessment."
       }
      }
     ],
-    "correct": 1,
-    "feedback": {
+    "ownWords": true,
+    "done": {
      "en": "Decide which direction the signal runs before you decide what to treat."
     },
-    "pillar": "physiology",
     "citationRefs": [
      "hannah-shmouni-2026-are",
      "phan-2021-keratinocyte-glucocorticoids",
      "slominski-2013-skin-steroidogenesis"
-    ]
+    ],
+    "source": "authored:2026-09-28 from m1-p07 quiz (prompt, options and whys, feedback) + m1-x02 decision 3 option 'no-loops' (label, why) + m1-p05 item 'cushing-skin' why + m1-p06 variants.audienceLevel.advisor sentence 2"
    }
   },
   {
@@ -2178,6 +2351,114 @@
     "callout": {
      "en": "A mouse lifespan result is not a skin treatment."
     }
+   },
+   "interaction": {
+    "kind": "ladder",
+    "title": {
+     "en": "Which rung?"
+    },
+    "prompt": {
+     "en": "Tap the rung each finding rests on."
+    },
+    "rungs": [
+     {
+      "value": "cell",
+      "label": {
+       "en": "Cell & tissue studies"
+      }
+     },
+     {
+      "value": "animal",
+      "label": {
+       "en": "Animal models"
+      }
+     },
+     {
+      "value": "exvivo",
+      "label": {
+       "en": "Human tissue, ex vivo"
+      }
+     },
+     {
+      "value": "people",
+      "label": {
+       "en": "People (clinical)"
+      }
+     }
+    ],
+    "items": [
+     {
+      "id": "mechanism",
+      "label": {
+       "en": "Mechanism"
+      },
+      "note": {
+       "en": "Skin collagen falls with age. Aged human dermis shows more fibroblast MMP-1 and fragmented collagen; in culture, fragmentation raises MMP-1 further."
+      },
+      "answer": "exvivo",
+      "why": {
+       "en": "That senescent cells drive this in living skin is plausible, not shown."
+      }
+     },
+     {
+      "id": "human-evidence",
+      "label": {
+       "en": "Human evidence"
+      },
+      "note": {
+       "en": "p16-positive cells rise with age and track with wrinkles and perceived age"
+      },
+      "answer": "people",
+      "why": {
+       "en": "One observational cohort shows an association."
+      }
+     },
+     {
+      "id": "animal-evidence",
+      "label": {
+       "en": "Animal evidence"
+      },
+      "note": {
+       "en": "Clearing p16-positive cells, or giving senolytic drugs, extends healthy lifespan in mice."
+      },
+      "answer": "animal",
+      "why": {
+       "en": "Skin was checked only for safety, and clearing these cells during healing slowed wound closure."
+      }
+     },
+     {
+      "id": "open-question",
+      "label": {
+       "en": "Open question"
+      },
+      "note": {
+       "en": "One exploratory randomized trial of topical rapamycin (36 enrolled, 19 dropped out) lowered skin p16, and clinical change was only described."
+      },
+      "answer": "people",
+      "why": {
+       "en": "No adequately sized trial with clinical skin-ageing outcomes was found (September 2026)."
+      }
+     }
+    ],
+    "summary": {
+     "en": "A mouse lifespan result is not a skin treatment."
+    },
+    "done": {
+     "en": "Name the species before you weigh the finding."
+    },
+    "citationRefs": [
+     "shuster-1975-skin-collagen-age",
+     "varani-2006-aged-fibroblast-collagen",
+     "fisher-2009-collagen-fragmentation",
+     "waaijer-2016-p16-wrinkles",
+     "baker-2016-p16-clearance-mice",
+     "xu-2018-senolytics-mice",
+     "hickson-2019-senolytic-dkd-pilot",
+     "chung-2019-topical-rapamycin",
+     "haykal-2026-dermatology-senotherapeutics",
+     "hannah-shmouni-2026-are"
+    ],
+    "source": "authored:2026-09-28 from m1-p15 tool rows 1–4 (label; the note's evidence sentences as the note, its last sentence as the why) and callout (summary); human-evidence why from m1-p14 stat.doesNot sentence 2; closing line from m1-p18 quiz feedback"
    }
   },
   {
@@ -4051,6 +4332,279 @@
     "body s2 and audioScript s3 (she does not use sunscreen daily): the case setup of the exercise on this card (m1-p17 interaction.setup, verbatim)",
     "audioScript s4–6 (three facts frame the conversation): the exercise's 'what you notice' list on this card",
     "audioScript s9 (decide what you say first): the exercise title 'What do you do first?'"
+   ],
+   "forReview": "Fady Hannah-Shmouni",
+   "pilot": "sitting-design-2026-09-28"
+  },
+  {
+   "date": "2026-09-28",
+   "block": "m1-p04",
+   "change": "New exercise (evidence ladder) on the model grid: the five loops whose rows name their evidence are placed on four rungs (cell & tissue studies · animal models · human tissue, ex vivo · people); each item's note is the row's evidence text and its why the row's evidence sentence, verbatim. The callout closes the ladder. The grid stays in the package; a ladder pane draws its rows instead of the table.",
+   "reason": "Sitting design pilot on Module 1 (Omar, 2026-09-28: \"yes to all 4\"; perceptor-foundry templates/microlearning/SITTING-DESIGN.md). Approved by Omar (2026-09-28): build the evidence ladder first. Dosage rule: at most 100 words before the first tap (the grid had 174; the ladder has 94) and it turns a passive grid into a decision.",
+   "before": {
+    "tool.items": [
+     {
+      "label": "Steroid synthesis",
+      "value": "Cholesterol to cortisol, androgens and estrogens",
+      "note": "CYP11A1 starts the chain; 11β-HSD1, 5α-reductase and aromatase activate precursors from the blood. Cell and tissue studies."
+     },
+     {
+      "label": "HPA-like loop",
+      "value": "CRH → ACTH → cortisol, with feedback",
+      "note": "Human scalp follicles kept alive in culture. Ex vivo, human tissue."
+     },
+     {
+      "label": "Keratinocyte glucocorticoids",
+      "value": "Set local immune tone",
+      "note": "Genetic deletion in mouse keratinocytes. Animal evidence."
+     },
+     {
+      "label": "Thyroid-like loop",
+      "value": "TRH, TSH and deiodinases → T3",
+      "note": "Keratinocyte growth and the hair cycle. Mostly mouse models."
+     },
+     {
+      "label": "Somatotropic loop",
+      "value": "GH and IGF-1",
+      "note": "Human hair follicles, ex vivo."
+     },
+     {
+      "label": "Melanocortins",
+      "value": "POMC → α-MSH, ACTH, β-endorphin",
+      "note": "Pigment, barrier and local immune restraint. Module 05 returns to this."
+     }
+    ],
+    "callout": "A local axis explains biology. The Aesthetic & Regenerative Endocrinology guide calls it foundation, not a dosing rationale."
+   },
+   "after": {
+    "rungs": [
+     "Cell & tissue studies",
+     "Animal models",
+     "Human tissue, ex vivo",
+     "People (clinical)"
+    ],
+    "items": [
+     {
+      "label": "Steroid synthesis",
+      "note": "CYP11A1 starts the chain; 11β-HSD1, 5α-reductase and aromatase activate precursors from the blood. Cell and tissue studies.",
+      "rung": "Cell & tissue studies",
+      "why": "Cell and tissue studies."
+     },
+     {
+      "label": "HPA-like loop",
+      "note": "Human scalp follicles kept alive in culture. Ex vivo, human tissue.",
+      "rung": "Human tissue, ex vivo",
+      "why": "Ex vivo, human tissue."
+     },
+     {
+      "label": "Keratinocyte glucocorticoids",
+      "note": "Genetic deletion in mouse keratinocytes. Animal evidence.",
+      "rung": "Animal models",
+      "why": "Animal evidence."
+     },
+     {
+      "label": "Thyroid-like loop",
+      "detail": "TRH, TSH and deiodinases → T3",
+      "note": "Keratinocyte growth and the hair cycle. Mostly mouse models.",
+      "rung": "Animal models",
+      "why": "Mostly mouse models."
+     },
+     {
+      "label": "Somatotropic loop",
+      "detail": "GH and IGF-1",
+      "note": "Human hair follicles, ex vivo.",
+      "rung": "Human tissue, ex vivo",
+      "why": "Human hair follicles, ex vivo."
+     }
+    ],
+    "summary": "A local axis explains biology.",
+    "done": "The Aesthetic & Regenerative Endocrinology guide calls it foundation, not a dosing rationale.",
+    "title": "Which rung?",
+    "prompt": "Tap the rung each loop rests on."
+   },
+   "sources": [
+    "tool rows 1–5: label, note (verbatim); rows 4–5 also their value as the detail",
+    "why: each row's evidence sentence (the last sentence of its note, or the whole note on row 5)",
+    "summary and closing line: the tool callout, sentences 1 and 2"
+   ],
+   "carriedElsewhere": [
+    "row 1 value (cholesterol to cortisol, androgens and estrogens): the moment's own line above the ladder ('build steroids from cholesterol or to activate precursors arriving in the blood') and m1-p05 quick-fire items 'keratinocyte-cortisol' and 'sex-steroid-supply'",
+    "row 2 value (CRH → ACTH → cortisol, with feedback): m1-x01 sequence, two moments later",
+    "row 3 value (set local immune tone): m1-p05 quick-fire item 'keratinocyte-cortisol'"
+   ],
+   "flags": [
+    "row 6 (Melanocortins: POMC → α-MSH, ACTH, β-endorphin; pigment, barrier and local immune restraint) states no evidence type, so it is not on the ladder and leaves the learner's screen in Module 1 (Module 05 teaches it)",
+    "the rung names are new labels in the course's own registers (cell & tissue studies · animal models · human tissue, ex vivo · people (clinical)); the prompt and title are instructions, not claims"
+   ],
+   "forReview": "Fady Hannah-Shmouni",
+   "pilot": "sitting-design-2026-09-28"
+  },
+  {
+   "date": "2026-09-28",
+   "block": "m1-p15",
+   "change": "New exercise (evidence ladder) on the model grid: the four registers (mechanism, human evidence, animal evidence, open question) are placed on the same four rungs. Each note quotes the row's evidence sentences and each why the row's own limit sentence, verbatim; the callout is the summary. The grid stays in the package; a ladder pane draws its rows instead of the table.",
+   "reason": "Sitting design pilot on Module 1 (Omar, 2026-09-28: \"yes to all 4\"; perceptor-foundry templates/microlearning/SITTING-DESIGN.md). Approved by Omar (2026-09-28): build the evidence ladder first. Dosage rules: at most 100 words before the first tap (the grid had 172; the ladder has 99) and never more than two passive cards in a row (the stat, the grid and the narrated card made three).",
+   "before": {
+    "tool.items": [
+     {
+      "label": "Mechanism",
+      "value": "A collagen-fragmentation loop",
+      "note": "Skin collagen falls with age. Aged human dermis shows more fibroblast MMP-1 and fragmented collagen; in culture, fragmentation raises MMP-1 further. That senescent cells drive this in living skin is plausible, not shown."
+     },
+     {
+      "label": "Human evidence",
+      "value": "Association",
+      "note": "p16-positive cells rise with age and track with wrinkles and perceived age"
+     },
+     {
+      "label": "Animal evidence",
+      "value": "Causation, in mice",
+      "note": "Clearing p16-positive cells, or giving senolytic drugs, extends healthy lifespan in mice. Skin was checked only for safety, and clearing these cells during healing slowed wound closure."
+     },
+     {
+      "label": "Open question",
+      "value": "Do senotherapies change human skin?",
+      "note": "Small pilots measuring tissue markers. One exploratory randomized trial of topical rapamycin (36 enrolled, 19 dropped out) lowered skin p16, and clinical change was only described. No adequately sized trial with clinical skin-ageing outcomes was found (September 2026)."
+     }
+    ],
+    "callout": "A mouse lifespan result is not a skin treatment."
+   },
+   "after": {
+    "rungs": [
+     "Cell & tissue studies",
+     "Animal models",
+     "Human tissue, ex vivo",
+     "People (clinical)"
+    ],
+    "items": [
+     {
+      "label": "Mechanism",
+      "note": "Skin collagen falls with age. Aged human dermis shows more fibroblast MMP-1 and fragmented collagen; in culture, fragmentation raises MMP-1 further.",
+      "rung": "Human tissue, ex vivo",
+      "why": "That senescent cells drive this in living skin is plausible, not shown."
+     },
+     {
+      "label": "Human evidence",
+      "note": "p16-positive cells rise with age and track with wrinkles and perceived age",
+      "rung": "People (clinical)",
+      "why": "One observational cohort shows an association."
+     },
+     {
+      "label": "Animal evidence",
+      "note": "Clearing p16-positive cells, or giving senolytic drugs, extends healthy lifespan in mice.",
+      "rung": "Animal models",
+      "why": "Skin was checked only for safety, and clearing these cells during healing slowed wound closure."
+     },
+     {
+      "label": "Open question",
+      "note": "One exploratory randomized trial of topical rapamycin (36 enrolled, 19 dropped out) lowered skin p16, and clinical change was only described.",
+      "rung": "People (clinical)",
+      "why": "No adequately sized trial with clinical skin-ageing outcomes was found (September 2026)."
+     }
+    ],
+    "summary": "A mouse lifespan result is not a skin treatment.",
+    "done": "Name the species before you weigh the finding.",
+    "title": "Which rung?",
+    "prompt": "Tap the rung each finding rests on."
+   },
+   "sources": [
+    "Mechanism: note = row note sentences 1–2, why = sentence 3",
+    "Human evidence: note = row note; why = m1-p14 stat.doesNot, sentence 2",
+    "Animal evidence: note = row note sentence 1, why = sentence 2",
+    "Open question: note = row note sentence 2, why = sentence 3",
+    "summary: the tool callout; closing line: m1-p18 quiz feedback"
+   ],
+   "carriedElsewhere": [
+    "Open question, sentence 1 ('Small pilots measuring tissue markers.'): m1-p17 beat 2 ('human data are small biomarker pilots'), m1-x05 label 'Human association or biomarker pilots' and m1-p18 option 1 why",
+    "the row values ('A collagen-fragmentation loop', 'Association', 'Causation, in mice', 'Do senotherapies change human skin?') leave the screen; each row's note carries its content"
+   ],
+   "flags": [
+    "the Mechanism row names two kinds of evidence (aged human dermis; the feedback loop in culture). It is keyed to 'Human tissue, ex vivo', the highest rung its evidence reaches; the loop's feedback step itself rests on culture. Please confirm the key, or move it to 'Cell & tissue studies'",
+    "the Human evidence row has no evidence sentence of its own; its why is m1-p14's approved 'One observational cohort shows an association.'"
+   ],
+   "forReview": "Fady Hannah-Shmouni",
+   "pilot": "sitting-design-2026-09-28"
+  },
+  {
+   "date": "2026-09-28",
+   "block": "m1-p07",
+   "change": "Quiz becomes move and reason (twotier): the three readings are the moves, with their approved whys; the reason step offers the right reason (the right option's own why), the misconception 'skin has no hormone loops of its own' (from m1-x02) and the belief behind the third option. An optional reason in the learner's own words is never graded. Closing line: the quiz's own feedback.",
+   "reason": "Sitting design pilot on Module 1 (Omar, 2026-09-28: \"yes to all 4\"; perceptor-foundry templates/microlearning/SITTING-DESIGN.md). Approved by Omar (2026-09-28): build move and reason first. p07 is the case with a clinical move (refer before any skin treatment) and a reason that can be right or wrong on its own; it also gives lesson 1.1 its constructive step (own words).",
+   "before": {
+    "type": "quiz",
+    "prompt": "Fictional case. A 52-year-old has new thin, easily bruised skin on her forearms, new violaceous striae and newly raised blood pressure. She has read that skin makes its own cortisol and asks whether a cream could calm it. Which reading is right?",
+    "options": [
+     {
+      "text": "Her skin's own cortisol explains the picture, so the answer is local.",
+      "why": "Local skin cortisol tunes immune activity where it is made. It does not explain new striae together with new hypertension.",
+      "correct": false
+     },
+     {
+      "text": "The combination is a systemic pattern; the guide lists it as a reason for prompt endocrine referral before any skin treatment.",
+      "why": "Correct. Striae, bruising and new hypertension together point to possible systemic cortisol excess: a body-to-skin signal.",
+      "correct": true
+     },
+     {
+      "text": "Local and systemic cortisol are interchangeable, so either explanation fits.",
+      "why": "Local synthesis acts within the skin and runs its own feedback; a systemic syndrome needs a systemic assessment.",
+      "correct": false
+     }
+    ],
+    "feedback": "Decide which direction the signal runs before you decide what to treat."
+   },
+   "after": {
+    "type": "tool + twotier",
+    "title": "Local or systemic",
+    "setup": "Fictional case. A 52-year-old has new thin, easily bruised skin on her forearms, new violaceous striae and newly raised blood pressure. She has read that skin makes its own cortisol and asks whether a cream could calm it.",
+    "prompt": "Which reading is right?",
+    "moves": [
+     {
+      "label": "Her skin's own cortisol explains the picture, so the answer is local.",
+      "why": "Local skin cortisol tunes immune activity where it is made. It does not explain new striae together with new hypertension.",
+      "correct": false
+     },
+     {
+      "label": "Local and systemic cortisol are interchangeable, so either explanation fits.",
+      "why": "Local synthesis acts within the skin and runs its own feedback; a systemic syndrome needs a systemic assessment.",
+      "correct": false
+     },
+     {
+      "label": "The combination is a systemic pattern; the guide lists it as a reason for prompt endocrine referral before any skin treatment.",
+      "why": "A serum cannot answer a systemic question.",
+      "correct": true
+     }
+    ],
+    "reasonPrompt": "Why is that reading right?",
+    "reasons": [
+     {
+      "label": "Striae, bruising and new hypertension together point to possible systemic cortisol excess: a body-to-skin signal.",
+      "why": "Body to skin. Systemic cortisol excess acting on the dermis. The Aesthetic & Regenerative Endocrinology guide lists suspected Cushing syndrome as a reason to refer promptly.",
+      "correct": true
+     },
+     {
+      "label": "Skin has no hormone loops of its own.",
+      "why": "Skin does run shortened copies of the body's central hormone axes. They explain how skin behaves; they do not justify prescribing a hormone.",
+      "correct": false
+     },
+     {
+      "label": "Local and systemic cortisol are interchangeable.",
+      "why": "Local synthesis acts within the skin and runs its own feedback; a systemic syndrome needs a systemic assessment.",
+      "correct": false
+     }
+    ],
+    "ownWords": true,
+    "done": "Decide which direction the signal runs before you decide what to treat."
+   },
+   "sources": [
+    "moves: m1-p07 quiz options with their whys (reordered so the keyed move is third; the runtime shuffles)",
+    "right move's feedback: m1-p06 variants.audienceLevel.advisor, sentence 2 ('A serum cannot answer a systemic question.'). The right option's approved why ('Striae, bruising and new hypertension…') became the right REASON, so step 1 does not give step 2 away",
+    "right reason: m1-p07 option 2 why (without 'Correct.'); its why: m1-p05 quick-fire item 'cushing-skin' why",
+    "wrong reason 1: m1-x02 decision 3 option 'no-loops' label ('That skin has no hormone loops of its own.', trimmed) and its why",
+    "wrong reason 2: m1-p07 option 3, the belief behind it (trimmed) and its why",
+    "closing line: m1-p07 quiz feedback; title 'Local or systemic': m1-p05 lead"
+   ],
+   "flags": [
+    "the right move's feedback changes from the quiz's 'Correct. Striae, bruising and new hypertension…' (now the right reason) to 'A serum cannot answer a systemic question.' (approved on m1-p06 for advisors and in m1-x02)"
    ],
    "forReview": "Fady Hannah-Shmouni",
    "pilot": "sitting-design-2026-09-28"
