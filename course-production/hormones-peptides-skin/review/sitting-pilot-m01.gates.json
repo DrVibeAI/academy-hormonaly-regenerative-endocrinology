@@ -1,7 +1,7 @@
 {
  "package": "hormonaly.hormones-peptides-skin 1.2.0-rc.1",
- "foundry": "perceptor-foundry e031406 (PR #19 head)",
- "date": "2026-09-28",
+ "foundry": "perceptor-foundry f319b9a (PR #19 head; foundry.lock)",
+ "runtime": "perceptor-runtime dc4da71 (PR #27), where the preview ran",
  "gates": [
   {
    "gate": "scripts/validate.mjs",
@@ -9,43 +9,39 @@
   },
   {
    "gate": "perceptor check",
-   "result": "all gates pass (validate, tic, anchor, citation, dead-screen, interaction, dosage report-only, captions, catalog, design, skills, config)"
+   "result": "✓ check: all gates pass"
   },
   {
    "gate": "dosage audit · Module 1",
-   "result": "11 failures → 1 (m1-p19: the audit counts the action's hidden prompt and the commitment's prefix; the app shows 96 words) · first decision 1:42 · 1:44 · 1:13 → 0:23 · 0:48 · 0:55 · longest passive run 3 → 2 · cards over 100 words 7 → 1 (the same m1-p19)"
+   "result": "9 failures → 1 (m1-p17: card total 240 words (read-along 96 + exercise 144); the rule is ≤ 200) · first decision 1:42 · 1:44 · 1:13 → 0:23 · 0:48 · 0:55 · longest passive run 3 → 2"
   },
   {
    "gate": "dosage audit · course",
-   "result": "81 failures → 71 (modules 2–7 not in this pilot)"
+   "result": "70 failures → 62 (modules 2–7 are not in this pilot)"
   },
   {
    "gate": "interaction audit",
-   "result": "0 warnings · Module 1: 12 exercises (ladder ×2 and twotier ×1 new)"
+   "result": "TOTAL 66 interaction(s) across 7 module(s) · 0 warning(s) · ladder 2 · quickfire 7 · sequence 7 · branching 7 · twotier 1 · classify 14 · inspect 7 · hotspots 7 · scenario 7 · chips 7"
   },
   {
    "gate": "signature audit (with academy.yaml)",
-   "result": "0 errors, 0 warnings (the three Module 1 Today lines are still the moments' own text)"
+   "result": "✓ signature audit: 0 error(s), 0 warning(s) (the three Module 1 Today lines are still the moments' own text)"
   },
   {
-   "gate": "editorial audit",
-   "result": "0 findings"
-  },
-  {
-   "gate": "narration tic audit",
-   "result": "0 findings (read-along beats are in scope)"
+   "gate": "editorial · tic · citation · dosing audits",
+   "result": "✓ editorial audit: 0 finding(s) · contrastive: 0 meta: 0 colon: 0 dupOpen: 0 dupClose: 0 · ✓ citation audit: 0 finding(s) · ✓ dosing audit: 0 finding(s) for human review (report-only; --strict to enforce)"
   },
   {
    "gate": "claim support (--merge, gemini-3.7-flash)",
-   "result": "first run re-checked 38 changed units (the rerun after the final build: 0). The 14 changed Module 1 units: 54 supported (0 partial, 0 contradicted, 0 not found); course: 0 blocking / 18 major / 345 minor (1.1.0: 0 / 19 / 345). The other 24 re-checked units are role versions in modules 2–7, read for the first time since foundry ba5181a: 3 minor not-found (m2-p06, m5-p05, m5-p17), pre-existing and not from this pilot"
+   "result": "course: 0 blocking / 18 major / 345 minor (1.1.0: 0 / 19 / 345); every changed Module 1 unit supported or nothing checkable; 3 minor not-found in modules 2–7 role versions are pre-existing"
   },
   {
    "gate": "course-final gate",
-   "result": "blocks, as it should: 28 changes await the approvers (14 text, 14 media) and the branch is not merged"
+   "result": "blocks, as it should: [medical review] no change made after an approval awaits the approver; [medical review] every logged change after approval is confirmed (29 open in course-production/*/authored); [framework] academy content merged to origin/factory/intake-hormonaly (reviewed build reproducible)"
   },
   {
    "gate": "narration",
-   "result": "21 of 21 beats voiced, 263.6 s · −16 LUFS as heard (−15.9 to −16.5) · word timings 91–100% (the gaps are spelling variants and numbers spoken as words) · beats.mjs --relink is a no-op after a rebuild"
+   "result": "21 of 21 beats voiced, 263.6 s · −16 LUFS as heard · beats.mjs --relink after a rebuild is a no-op"
   }
  ]
 }

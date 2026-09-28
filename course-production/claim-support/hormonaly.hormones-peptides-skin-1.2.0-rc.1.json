@@ -1,13 +1,13 @@
 {
   "tool": "perceptor-foundry/tools/qa/claim-support.mjs",
   "contract": "docs/claim-support.md",
-  "generatedAt": "2026-09-28T05:00:28.889Z",
+  "generatedAt": "2026-09-28T05:32:12.427Z",
   "package": {
     "id": "hormonaly.hormones-peptides-skin",
     "version": "1.2.0-rc.1",
     "path": "packages/hormones-peptides-skin.json",
-    "sha256": "dac03b5678acfbbaf25ae2175ae5b907fa1bdb299c6e563924d80ccbfce24896",
-    "contentDigest": "1e50312ab039cb808cf36055e7b1487743fa58d622b6e8b8945bdbf477933a8e"
+    "sha256": "44bad6ee747dc18cb668cbfdc52222d478157c1136467b52c3e7044c8bf8d04b",
+    "contentDigest": "6ad1b8ba9e75ff7603cc585d97df49a988e709067ff008f7d0fccf281fe5fabf"
   },
   "edition": "en",
   "models": [
@@ -15,7 +15,14 @@
   ],
   "partial": false,
   "maxChars": 60000,
-  "usage": {},
+  "usage": {
+    "gemini-3.7-flash": {
+      "calls": 1,
+      "inputTokens": 20292,
+      "outputTokens": 326,
+      "seconds": 3
+    }
+  },
   "summary": {
     "units": 777,
     "nonFactual": 44,
@@ -42,9 +49,11 @@
     }
   },
   "mergedFrom": {
-    "generatedAt": "2026-09-28T04:53:48.365Z",
-    "contentDigest": "e708438e4c9d7b5df3296a73fd8b1bdee9edb0d552da562562bd94ba66067f96",
-    "recheckedUnits": []
+    "generatedAt": "2026-09-28T05:00:28.889Z",
+    "contentDigest": "1e50312ab039cb808cf36055e7b1487743fa58d622b6e8b8945bdbf477933a8e",
+    "recheckedUnits": [
+      "m1-x03"
+    ]
   },
   "sources": [
     {
@@ -223,7 +232,7 @@
       "resolvedVia": [],
       "basis": "none",
       "preprint": false,
-      "error": "PDF has no usable text layer (0 characters over 8 pages) — needs OCR or a text edition of the document",
+      "error": "python3 unavailable (ETIMEDOUT) — install pypdf to read PDF sources",
       "titleMatch": null,
       "entrySha": "06f20c0e80187b3c8a62f911f682c06c23e6c14c5020312d25ddbbec37aa3397",
       "chars": 0,
@@ -28054,7 +28063,7 @@
       "id": "m1-x03",
       "kind": "block",
       "path": "curriculum.modules[0].units[0].blocks[14]",
-      "text": "Practice\nA serum page, line by line.\nA fictional product page that leans on the cell atlas.",
+      "text": "Practice\nA serum page, line by line.\nFictional product page.",
       "citationRefs": [
         "fei-2026-hormone-cell-atlas",
         "hormone-cell-atlas-portal",
@@ -28068,7 +28077,7 @@
       "fullyRead": false,
       "severity": "ok",
       "status": "non-factual",
-      "unitSha": "9431f26cf6ccfb990427ee72a11276623753dfa8f7f6f4c5ce6d1365bce598ba"
+      "unitSha": "3e3d2fb654733193194d57031e1c6147906b465cc77c919d4d9159de9f454e19"
     },
     {
       "id": "m1-x03›interaction",

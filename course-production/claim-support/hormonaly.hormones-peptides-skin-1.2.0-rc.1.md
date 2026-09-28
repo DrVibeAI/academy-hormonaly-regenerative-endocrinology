@@ -1,6 +1,6 @@
 # Claim support — Hormones and Peptides for Skin (v1.2.0-rc.1)
 
-Generated 2026-09-28 05:00 UTC by `tools/qa/claim-support.mjs` · edition `en` · judge gemini-3.7-flash · package sha256 `dac03b5678ac` · content digest `1e50312ab039`
+Generated 2026-09-28 05:32 UTC by `tools/qa/claim-support.mjs` · edition `en` · judge gemini-3.7-flash · package sha256 `44bad6ee747d` · content digest `6ad1b8ba9e75`
 
 Read-before-cite check (docs/claim-support.md). Every quoted passage below was found, after normalization, in the text fetched from the cited source. A judgment without a verified passage is reported as *unverified*, never as support. This report recommends; humans decide.
 
@@ -24,7 +24,7 @@ Every unit citing these can only be checked as far as the page allows. Point eac
 - `ae-ede-reg-propecia` → no readable text (https://services.ede.gov.ae/drugdirectory/Products/Details/12167): the cited URL has no readable text (landing page or JavaScript app) — cite the specific record or document · cited by 2 unit(s)
 - `ae-ede-reg-fincrezo` → no readable text (https://services.ede.gov.ae/drugdirectory/Products/Details/5717): the cited URL has no readable text (landing page or JavaScript app) — cite the specific record or document · cited by 2 unit(s)
 - `ae-ede-reg-genotropin` → no readable text (https://services.ede.gov.ae/drugdirectory/Products/Details/6272): the cited URL has no readable text (landing page or JavaScript app) — cite the specific record or document · cited by 3 unit(s)
-- `ae-mohap-md-306-2023` → no readable text (https://www.dha.gov.ae/uploads/112023/Ministerial%20Decision%20no20231126852.pdf): PDF has no usable text layer (0 characters over 8 pages) — needs OCR or a text edition of the document · cited by 2 unit(s)
+- `ae-mohap-md-306-2023` → no readable text (https://www.dha.gov.ae/uploads/112023/Ministerial%20Decision%20no20231126852.pdf): python3 unavailable (ETIMEDOUT) — install pypdf to read PDF sources · cited by 2 unit(s)
 - `ae-ede-reg-oestrogel` → no readable text (https://services.ede.gov.ae/drugdirectory/Products/Details/10813): the cited URL has no readable text (landing page or JavaScript app) — cite the specific record or document · cited by 2 unit(s)
 - `ae-ede-reg-collafix` → no readable text (https://services.ede.gov.ae/drugdirectory/Products/Details/3637): the cited URL has no readable text (landing page or JavaScript app) — cite the specific record or document · cited by 2 unit(s)
 - `ae-ede-reg-centrum-shn` → landing or portal page (https://services.ede.gov.ae/drugdirectory/Products/Details/3412): the cited page is a landing or portal page (888 characters, 332 in prose paragraphs) — cite the specific document or record · cited by 2 unit(s)
@@ -1071,7 +1071,7 @@ Every unit citing these can only be checked as far as the page allows. Point eac
 | ae-ede-reg-propecia | UNAVAILABLE | — | 0 | the cited URL has no readable text (landing page or JavaScript app) — cite the specific record or document |
 | ae-ede-reg-fincrezo | UNAVAILABLE | — | 0 | the cited URL has no readable text (landing page or JavaScript app) — cite the specific record or document |
 | ae-ede-reg-genotropin | UNAVAILABLE | — | 0 | the cited URL has no readable text (landing page or JavaScript app) — cite the specific record or document |
-| ae-mohap-md-306-2023 | UNAVAILABLE | — | 0 | PDF has no usable text layer (0 characters over 8 pages) — needs OCR or a text edition of the document |
+| ae-mohap-md-306-2023 | UNAVAILABLE | — | 0 | python3 unavailable (ETIMEDOUT) — install pypdf to read PDF sources |
 | ae-ede-reg-oestrogel | UNAVAILABLE | — | 0 | the cited URL has no readable text (landing page or JavaScript app) — cite the specific record or document |
 | ae-ede-reg-collafix | UNAVAILABLE | — | 0 | the cited URL has no readable text (landing page or JavaScript app) — cite the specific record or document |
 | ae-ede-reg-centrum-shn | LANDING PAGE (little more than a title) | url:landing | 1,091 | the cited page is a landing or portal page (888 characters, 332 in prose paragraphs) — cite the specific document or record |

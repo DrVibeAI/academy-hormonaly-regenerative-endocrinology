@@ -260,7 +260,7 @@ Two habits follow from the atlas. The first concerns product claims. Topical and
 ### 15 / 25 · A serum page, line by line.  
 *Practice · tool*
 
-A fictional product page that leans on the cell atlas.
+Fictional product page.
 
 **Exercise (inspect) · Where the page overreaches** — Find the lines this lesson's evidence does not support.
 

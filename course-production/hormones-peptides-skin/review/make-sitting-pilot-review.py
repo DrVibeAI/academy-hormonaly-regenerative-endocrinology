@@ -75,6 +75,13 @@ def sequence(report, label):
             f"<th>First decision</th><th>Passive in a row</th><th>Most words before a tap</th><th>Constructive step</th></tr>{''.join(rows)}</table>")
 
 
+def over_cap(p):
+    cap = 150 if p.get("loadKind") == "case" else 100
+    parts = p.get("parts")
+    if parts: return parts["readalong"] > 100 or parts["exercise"] > cap or parts["readalong"] + parts["exercise"] > 200
+    return p["words"] > cap
+
+
 def dose_summary(report):
     s, m = report["summary"], next(m for m in report["modules"] if m["id"] == "m01")
     fails = [f for f in report["findings"] if f["level"] == "fail" and f.get("module") == "m01"]
@@ -110,7 +117,7 @@ def narration_rows(bid):
 def change_card(c):
     bid = c["block"].split(",")[0].strip()
     parts = [f"<article class='chg' id='{esc(bid)}-{abs(hash(c['change'])) % 10000}'>",
-             f"<p class='mono'>{esc(c['block'])} · {esc(c['date'])} · for {esc(c['forReview'])} · <b class='await'>awaiting confirmation</b></p>",
+             f"<p class='mono'>{esc(c['block'])} · {esc(c['date'])}{' · round 2' if c.get('round') == 2 else ''}{' · a separate commit Omar can accept or drop' if c.get('separable') else ''} · for {esc(c['forReview'])} · <b class='await'>awaiting confirmation</b></p>",
              f"<h3>{esc(c['change'])}</h3>", f"<p class='why'><b>Why.</b> {esc(c['reason'])}</p>"]
     ra = bid in B and (B[bid].get("metadata") or {}).get("presentation") == "readalong" and isinstance(c.get("after"), list)
     if ra:
@@ -140,17 +147,17 @@ if before and after:
     row = lambda k, x, y: f"<tr><td>{k}</td><td>{x}</td><td>{y}</td></tr>"
     def mm(s): return "—" if s is None else f"{s // 60}:{s % 60:02d}"
     fdb = [s["firstDecisionSeconds"] for s in mb["sittings"]]; fda = [s["firstDecisionSeconds"] for s in ma["sittings"]]
-    dose_html = ("<h2>The dose, before and after</h2><p>perceptor-foundry <span class='mono'>tools/qa/dosage-audit.mjs</span> (report-only), Module 1. Estimates from content, not measured learner time."
+    dose_html = ("<h2>The dose, before and after</h2><p>perceptor-foundry <span class='mono'>tools/qa/dosage-audit.mjs</span> at " + esc(str(after.get("foundry", "")).replace("perceptor-foundry ", "")) + " (report-only), Module 1, both columns counted the same way: what the app shows before the first tap (perceptor-runtime PR #27). Estimates from content, not measured learner time."
                  " The films are unchanged.</p><table><tr><th>Module 1</th><th>1.1.0</th><th>" + esc(pkg["version"]) + "</th></tr>"
                  + row("First decision, per lesson", " · ".join(mm(x) for x in fdb), " · ".join(mm(x) for x in fda))
                  + row("Longest run of passive cards", max(s["maxPassiveRun"] for s in mb["sittings"]), max(s["maxPassiveRun"] for s in ma["sittings"]))
-                 + row("Cards over 100 words before the first tap", sum(1 for s in mb["sittings"] for p in s["panes"] if p["words"] > 100), sum(1 for s in ma["sittings"] for p in s["panes"] if p["words"] > 100))
+                 + row("Cards over their cap before the first tap (100; a case card 150)", sum(1 for s in mb["sittings"] for p in s["panes"] if over_cap(p)), sum(1 for s in ma["sittings"] for p in s["panes"] if over_cap(p)))
                  + row("Decisions (per 5 min, per lesson)", " · ".join(f"{s['decisions']} ({s['decisionsPer5Min']})" for s in mb["sittings"]), " · ".join(f"{s['decisions']} ({s['decisionsPer5Min']})" for s in ma["sittings"]))
                  + row("Lessons with a constructive step", sum(1 for s in mb["sittings"] if s["constructive"]), sum(1 for s in ma["sittings"] if s["constructive"]))
                  + row("Failures (rules broken)", len(fb), len(fa))
                  + row("Estimated minutes (stated 40)", mb["estimatedMinutes"], ma["estimatedMinutes"])
                  + "</table>" + sequence(before, "1.1.0, as authored") + sequence(after, f"{pkg['version']}, the re-cut")
-                 + ("<p class='muted'>Remaining: " + "; ".join(esc(f"{f.get('pane', '')}: {f['msg']}") for f in fa) + ". The audit counts the action card's hidden prompt and the commitment's prefix, which the app draws only after a tap: on screen the card shows 96 words.</p>" if fa else ""))
+                 + ("<p class='muted'>Still failing: " + "; ".join(esc(f"{f.get('pane', '')}: {f['msg']}") for f in fa) + ".</p>" if fa else "<p class='muted'>No Module 1 rule is broken.</p>"))
 
 total_s = sum(x["duration_seconds"] for x in man.values())
 narr_list = "".join(f"<tr><td>{esc(x['block'])}</td><td>{x['beat']}</td><td>{x['duration_seconds']:.1f} s</td><td><audio controls preload='none' src='{esc(rel_public(x['audio_uri']))}'></audio></td><td class='path'>{esc(x['audio_uri'].split('/')[-1])}</td></tr>"
@@ -220,7 +227,7 @@ if shutil.which("pandoc"):
         md.append("| | 1.1.0 | " + pkg["version"] + " |\n|---|---|---|")
         md.append(f"| First decision per lesson | {' · '.join(mm(x) for x in fdb)} | {' · '.join(mm(x) for x in fda)} |")
         md.append(f"| Longest passive run | {max(s['maxPassiveRun'] for s in mb['sittings'])} | {max(s['maxPassiveRun'] for s in ma['sittings'])} |")
-        md.append(f"| Cards over 100 words | {sum(1 for s in mb['sittings'] for p in s['panes'] if p['words'] > 100)} | {sum(1 for s in ma['sittings'] for p in s['panes'] if p['words'] > 100)} |")
+        md.append(f"| Cards over their cap (100; a case card 150) | {sum(1 for s in mb['sittings'] for p in s['panes'] if over_cap(p))} | {sum(1 for s in ma['sittings'] for p in s['panes'] if over_cap(p))} |")
         md.append(f"| Failures | {len(fb)} | {len(fa)} |\n")
         for rep, lab in ((before, "1.1.0"), (after, pkg["version"])):
             m = next(m for m in rep["modules"] if m["id"] == "m01")
@@ -231,7 +238,7 @@ if shutil.which("pandoc"):
     for c in changes:
         bid = c["block"].split(",")[0].strip()
         md.append(f"### {c['block']} · {c['change']}\n")
-        md.append(f"*For {c['forReview']} · awaiting confirmation · {c['date']}*  \n**Why.** {c['reason']}\n")
+        md.append(f"*For {c['forReview']} · awaiting confirmation · {c['date']}{' · round 2' if c.get('round') == 2 else ''}{' · a separate commit Omar can accept or drop' if c.get('separable') else ''}*  \n**Why.** {c['reason']}\n")
         if bid in B and (B[bid].get("metadata") or {}).get("presentation") == "readalong" and isinstance(c.get("after"), list):
             md.append("**Before (flip-card chapters):**\n")
             md += [f"{i}. **{x['title']}** — {x['body']}" for i, x in enumerate(c["before"], 1)] + [""]

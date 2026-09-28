@@ -1823,7 +1823,7 @@
     "en": "A serum page, line by line."
    },
    "body": {
-    "en": "A fictional product page that leans on the cell atlas."
+    "en": "Fictional product page."
    },
    "citationRefs": [
     "fei-2026-hormone-cell-atlas",
@@ -4608,6 +4608,23 @@
    ],
    "forReview": "Fady Hannah-Shmouni",
    "pilot": "sitting-design-2026-09-28"
+  },
+  {
+   "date": "2026-09-28",
+   "block": "m1-x03",
+   "change": "Trimmed: the line above the exercise keeps its fictional label and drops the rest: 'A fictional product page that leans on the cell atlas.' becomes 'Fictional product page.' Nothing is added; the page's six lines do not change.",
+   "reason": "Round 2. The dosage audit now counts what the app shows (perceptor-foundry 8a8f8ee, perceptor-runtime dc4da71). That includes this line, which the app draws above an exercise with no model table. The card counted 107 words before the first tap; it now counts 100 (the rule is ≤ 100). The page's first line names the cell atlas itself.",
+   "before": "A fictional product page that leans on the cell atlas.",
+   "after": "Fictional product page.",
+   "carriedElsewhere": [
+    "the page's link to the atlas: its first line, 'The Hormone Cell Atlas (Science, 2026) read the RNA for 379 hormone and receptor genes…'"
+   ],
+   "flags": [
+    "the audit also counts the exercise's own title ('Where the page overreaches'), which the inspect card does not draw; without it the card counts 96"
+   ],
+   "forReview": "Fady Hannah-Shmouni; Omar Saleem",
+   "pilot": "sitting-design-2026-09-28",
+   "round": 2
   }
  ],
  "reviewNotes": [
