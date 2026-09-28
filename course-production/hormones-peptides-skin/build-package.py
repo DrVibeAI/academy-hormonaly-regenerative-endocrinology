@@ -468,7 +468,9 @@ pkg = {
     "id": "hormonaly.hormones-peptides-skin",
     "slug": "hormones-peptides-skin",
     "kind": "course",
-    "version": "1.1.0",
+    # 1.2.0-rc.1 (2026-09-28): the sitting-design pilot on Module 1 (journey re-cut, read-along cards, evidence ladders, move and
+    # reason, Gemini 3.8 TTS beat narration), a draft for Fady Hannah-Shmouni and Omar Saleem; 1.1.0 stays live until they sign off.
+    "version": "1.2.0-rc.1",
     "title": {"en": "Hormones and Peptides for Skin"},
     "summary": {"en": outline["summary"]},
     "academy": {

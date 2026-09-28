@@ -3,7 +3,7 @@
   "id": "hormonaly.hormones-peptides-skin",
   "slug": "hormones-peptides-skin",
   "kind": "course",
-  "version": "1.1.0",
+  "version": "1.2.0-rc.1",
   "title": {
     "en": "Hormones and Peptides for Skin"
   },
@@ -10598,7 +10598,7 @@
                   "en": "The skin makes its own hormones."
                 },
                 "body": {
-                  "en": "This course starts with physiology, because every later question about a hormone or peptide for skin rests on it. Skin senses hormones from the blood, makes several of its own, and ages in ways that change both. In three lessons you will separate what happens locally in the skin from what the rest of the body sends in, and label each finding by the kind of evidence behind it."
+                  "en": "Skin senses hormones from the blood, makes several of its own, and ages in ways that change both. In three lessons you will separate what happens locally in the skin from what the rest of the body sends in, and label each finding by the kind of evidence behind it."
                 },
                 "points": [
                   {
@@ -10613,46 +10613,9 @@
                 ]
               },
               {
-                "id": "m1-opener",
-                "type": "video",
-                "lead": {
-                  "en": "Module 01 · Opening film"
-                },
-                "title": {
-                  "en": "The skin as an endocrine organ, and how it ages"
-                },
-                "assetRefs": [
-                  "asset-hps-m01-opener",
-                  "asset-hps-m01-opener-poster"
-                ],
-                "citationRefs": [
-                  "slominski-2025-skin-neuro-immuno-endocrinology",
-                  "slominski-wortsman-2000-skin-neuroendocrinology",
-                  "zouboulis-2004-skin-endocrine-gland",
-                  "roosterman-2006-neuronal-control-skin",
-                  "hannah-shmouni-2026-are"
-                ],
-                "sourceNote": "Slominski 2025 · Slominski & Wortsman 2000 · Zouboulis 2004 · Roosterman 2006 · Aesthetic & Regenerative Endocrinology, ch. 5–6",
-                "metadata": {
-                  "videoMode": "player",
-                  "captionsBurnedIn": true,
-                  "videoTranscript": {
-                    "en": "This course starts with physiology, because every later question about a hormone or peptide for skin rests on it. Skin senses hormones from the blood, makes several of its own, and ages in ways that change both. Think of the skin as a sensing organ with its own hormone supply. Researchers who study it describe four units, epidermal, dermal, hypodermal and adnexal, the last meaning hair follicles and glands. Each unit holds cells that can make hormones and mount an immune response, such as keratinocytes, fibroblasts, sebocytes, fat cells and mast cells. Signals move three ways. Neighbouring cells talk directly, sensory nerves carry messages in and out, and some products enter the blood and reach distant organs. Keep one distinction in view for the whole module. A signal that is made and used inside the skin is a local loop. A hormone that arrives from the blood, or leaves the skin for the rest of the body, is systemic signalling."
-                  },
-                  "script": {
-                    "sources": [
-                      "m1-p01 body, sentences 1–2",
-                      "m1-p03 audioScript, sentences 1–8"
-                    ],
-                    "rule": "verbatim approved sentences only"
-                  }
-                },
-                "time": "02 / 25"
-              },
-              {
                 "id": "m1-p02",
                 "type": "reflection",
-                "time": "03 / 25",
+                "time": "02 / 25",
                 "lead": {
                   "en": "Your role"
                 },
@@ -10707,6 +10670,43 @@
                 }
               },
               {
+                "id": "m1-opener",
+                "type": "video",
+                "lead": {
+                  "en": "Module 01 · Opening film"
+                },
+                "title": {
+                  "en": "The skin as an endocrine organ, and how it ages"
+                },
+                "assetRefs": [
+                  "asset-hps-m01-opener",
+                  "asset-hps-m01-opener-poster"
+                ],
+                "citationRefs": [
+                  "slominski-2025-skin-neuro-immuno-endocrinology",
+                  "slominski-wortsman-2000-skin-neuroendocrinology",
+                  "zouboulis-2004-skin-endocrine-gland",
+                  "roosterman-2006-neuronal-control-skin",
+                  "hannah-shmouni-2026-are"
+                ],
+                "sourceNote": "Slominski 2025 · Slominski & Wortsman 2000 · Zouboulis 2004 · Roosterman 2006 · Aesthetic & Regenerative Endocrinology, ch. 5–6",
+                "metadata": {
+                  "videoMode": "player",
+                  "captionsBurnedIn": true,
+                  "videoTranscript": {
+                    "en": "This course starts with physiology, because every later question about a hormone or peptide for skin rests on it. Skin senses hormones from the blood, makes several of its own, and ages in ways that change both. Think of the skin as a sensing organ with its own hormone supply. Researchers who study it describe four units, epidermal, dermal, hypodermal and adnexal, the last meaning hair follicles and glands. Each unit holds cells that can make hormones and mount an immune response, such as keratinocytes, fibroblasts, sebocytes, fat cells and mast cells. Signals move three ways. Neighbouring cells talk directly, sensory nerves carry messages in and out, and some products enter the blood and reach distant organs. Keep one distinction in view for the whole module. A signal that is made and used inside the skin is a local loop. A hormone that arrives from the blood, or leaves the skin for the rest of the body, is systemic signalling."
+                  },
+                  "script": {
+                    "sources": [
+                      "m1-p01 body, sentences 1–2",
+                      "m1-p03 audioScript, sentences 1–8"
+                    ],
+                    "rule": "verbatim approved sentences only"
+                  }
+                },
+                "time": "03 / 25"
+              },
+              {
                 "id": "m1-p03",
                 "type": "audio",
                 "time": "04 / 25",
@@ -10745,7 +10745,71 @@
                     },
                     "body": {
                       "en": "Epidermis, dermis, subcutis and the adnexa each hold cells that make hormones and cells that react to them, from keratinocytes and fibroblasts to fat cells and mast cells."
-                    }
+                    },
+                    "keyTerms": [
+                      {
+                        "en": "Epidermis"
+                      },
+                      {
+                        "en": "dermis"
+                      },
+                      {
+                        "en": "subcutis"
+                      },
+                      {
+                        "en": "adnexa"
+                      }
+                    ],
+                    "focus": [
+                      {
+                        "x": 24.7,
+                        "y": 20.8,
+                        "w": 50.7,
+                        "h": 11.1,
+                        "label": {
+                          "en": "Epidermis"
+                        }
+                      },
+                      {
+                        "x": 24.7,
+                        "y": 31.9,
+                        "w": 50.7,
+                        "h": 28.6,
+                        "label": {
+                          "en": "Dermis"
+                        }
+                      },
+                      {
+                        "x": 24.7,
+                        "y": 60.5,
+                        "w": 50.7,
+                        "h": 12.4,
+                        "label": {
+                          "en": "Subcutis"
+                        }
+                      },
+                      {
+                        "x": 52.3,
+                        "y": 5.2,
+                        "w": 16.4,
+                        "h": 56.6,
+                        "label": {
+                          "en": "Adnexa"
+                        }
+                      },
+                      {
+                        "x": 34.2,
+                        "y": 23.4,
+                        "w": 6.9,
+                        "h": 37.8
+                      }
+                    ],
+                    "audioAssetRefs": [
+                      "m1-p03-b1-en-586b3ab3"
+                    ],
+                    "timingsAssetRefs": [
+                      "m1-p03-b1-en-586b3ab3-timings"
+                    ]
                   },
                   {
                     "title": {
@@ -10753,7 +10817,53 @@
                     },
                     "body": {
                       "en": "Signals pass between neighbouring cells, along sensory nerves, and into the blood, where they can reach distant organs."
-                    }
+                    },
+                    "keyTerms": [
+                      {
+                        "en": "neighbouring cells"
+                      },
+                      {
+                        "en": "sensory nerves"
+                      },
+                      {
+                        "en": "the blood"
+                      }
+                    ],
+                    "focus": [
+                      {
+                        "x": 38.2,
+                        "y": 18.2,
+                        "w": 20.0,
+                        "h": 15.6,
+                        "label": {
+                          "en": "Neighbouring cells"
+                        }
+                      },
+                      {
+                        "x": 42.9,
+                        "y": 28.0,
+                        "w": 15.3,
+                        "h": 37.1,
+                        "label": {
+                          "en": "Sensory nerves"
+                        }
+                      },
+                      {
+                        "x": 64.0,
+                        "y": 43.6,
+                        "w": 14.0,
+                        "h": 15.0,
+                        "label": {
+                          "en": "Blood"
+                        }
+                      }
+                    ],
+                    "audioAssetRefs": [
+                      "m1-p03-b2-en-b9b350d7"
+                    ],
+                    "timingsAssetRefs": [
+                      "m1-p03-b2-en-b9b350d7-timings"
+                    ]
                   },
                   {
                     "title": {
@@ -10761,13 +10871,28 @@
                     },
                     "body": {
                       "en": "The framework is drawn from cell, tissue and animal work. It explains how skin behaves; each finding in this module is labelled by the evidence behind it."
-                    }
+                    },
+                    "keyTerms": [
+                      {
+                        "en": "cell, tissue and animal work"
+                      },
+                      {
+                        "en": "labelled by the evidence behind it"
+                      }
+                    ],
+                    "audioAssetRefs": [
+                      "m1-p03-b3-en-caa1800a"
+                    ],
+                    "timingsAssetRefs": [
+                      "m1-p03-b3-en-caa1800a-timings"
+                    ]
                   }
                 ],
                 "metadata": {
                   "audioScript": {
                     "en": "Think of the skin as a sensing organ with its own hormone supply. Researchers who study it describe four units, epidermal, dermal, hypodermal and adnexal, the last meaning hair follicles and glands. Each unit holds cells that can make hormones and mount an immune response, such as keratinocytes, fibroblasts, sebocytes, fat cells and mast cells. Signals move three ways. Neighbouring cells talk directly, sensory nerves carry messages in and out, and some products enter the blood and reach distant organs. Keep one distinction in view for the whole module. A signal that is made and used inside the skin is a local loop. A hormone that arrives from the blood, or leaves the skin for the rest of the body, is systemic signalling. Much of what follows is mechanism, drawn from cell, tissue and animal studies, and each finding will be labelled that way."
-                  }
+                  },
+                  "presentation": "readalong"
                 },
                 "imageBrief": {
                   "prompt": "A cross-section of human skin drawn as a clean rectangular block, showing its four units: a thin wavy epidermis on top; a thicker dermis of loose wavy collagen fibres with a few scattered cells; a bottom layer of rounded subcutaneous fat lobules; and the adnexa — one hair follicle running obliquely down through the dermis with a small sebaceous gland beside its upper part, and one coiled sweat gland low in the dermis. Three signalling routes are drawn in violet: short curved arcs passing between neighbouring cells in the epidermis, a fine sensory nerve fibre branching up from the deep dermis toward the epidermis, and a small blood-vessel loop in the dermis whose ends run off the side of the block. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
@@ -10881,6 +11006,131 @@
                   "callout": {
                     "en": "A local axis explains biology. The Aesthetic & Regenerative Endocrinology guide calls it foundation, not a dosing rationale."
                   }
+                },
+                "interaction": {
+                  "kind": "ladder",
+                  "title": {
+                    "en": "Which rung?"
+                  },
+                  "prompt": {
+                    "en": "Tap the rung each loop rests on."
+                  },
+                  "rungs": [
+                    {
+                      "value": "cell",
+                      "label": {
+                        "en": "Cell & tissue studies"
+                      }
+                    },
+                    {
+                      "value": "animal",
+                      "label": {
+                        "en": "Animal models"
+                      }
+                    },
+                    {
+                      "value": "exvivo",
+                      "label": {
+                        "en": "Human tissue, ex vivo"
+                      }
+                    },
+                    {
+                      "value": "people",
+                      "label": {
+                        "en": "People (clinical)"
+                      }
+                    }
+                  ],
+                  "items": [
+                    {
+                      "id": "steroid-synthesis",
+                      "label": {
+                        "en": "Steroid synthesis"
+                      },
+                      "note": {
+                        "en": "CYP11A1 starts the chain; 11β-HSD1, 5α-reductase and aromatase activate precursors from the blood. Cell and tissue studies."
+                      },
+                      "answer": "cell",
+                      "why": {
+                        "en": "Cell and tissue studies."
+                      }
+                    },
+                    {
+                      "id": "hpa-loop",
+                      "label": {
+                        "en": "HPA-like loop"
+                      },
+                      "note": {
+                        "en": "Human scalp follicles kept alive in culture. Ex vivo, human tissue."
+                      },
+                      "answer": "exvivo",
+                      "why": {
+                        "en": "Ex vivo, human tissue."
+                      }
+                    },
+                    {
+                      "id": "keratinocyte-glucocorticoids",
+                      "label": {
+                        "en": "Keratinocyte glucocorticoids"
+                      },
+                      "note": {
+                        "en": "Genetic deletion in mouse keratinocytes. Animal evidence."
+                      },
+                      "answer": "animal",
+                      "why": {
+                        "en": "Animal evidence."
+                      }
+                    },
+                    {
+                      "id": "thyroid-loop",
+                      "label": {
+                        "en": "Thyroid-like loop"
+                      },
+                      "detail": {
+                        "en": "TRH, TSH and deiodinases → T3"
+                      },
+                      "note": {
+                        "en": "Keratinocyte growth and the hair cycle. Mostly mouse models."
+                      },
+                      "answer": "animal",
+                      "why": {
+                        "en": "Mostly mouse models."
+                      }
+                    },
+                    {
+                      "id": "somatotropic-loop",
+                      "label": {
+                        "en": "Somatotropic loop"
+                      },
+                      "detail": {
+                        "en": "GH and IGF-1"
+                      },
+                      "note": {
+                        "en": "Human hair follicles, ex vivo."
+                      },
+                      "answer": "exvivo",
+                      "why": {
+                        "en": "Human hair follicles, ex vivo."
+                      }
+                    }
+                  ],
+                  "summary": {
+                    "en": "A local axis explains biology."
+                  },
+                  "done": {
+                    "en": "The Aesthetic & Regenerative Endocrinology guide calls it foundation, not a dosing rationale."
+                  },
+                  "citationRefs": [
+                    "slominski-2013-skin-steroidogenesis",
+                    "zouboulis-2004-skin-endocrine-gland",
+                    "ito-2005-hair-follicle-hpa",
+                    "phan-2021-keratinocyte-glucocorticoids",
+                    "mancino-2021-thyroid-epidermis",
+                    "horesh-2023-hair-follicle-somatotropic",
+                    "slominski-wortsman-2000-skin-neuroendocrinology",
+                    "hannah-shmouni-2026-are"
+                  ],
+                  "source": "authored:2026-09-28 from m1-p04 tool rows 1–5 (label; note verbatim; the value as the detail on rows 4–5) and callout (sentence 1 as summary, sentence 2 as the closing line); row 6 (Melanocortins) names no evidence type and is left out"
                 }
               },
               {
@@ -11193,24 +11443,104 @@
                       "en": "The exam as a screen"
                     },
                     "body": {
-                      "en": "Thinning and bruising, coarse dry skin, new acanthosis nigricans: each points to a systemic axis before it points to a serum."
-                    }
+                      "en": "The Aesthetic & Regenerative Endocrinology guide treats the aesthetic exam as a systemic screen. Sudden thinning and easy bruising suggest cortisol excess; coarse, dry, cool skin suggests hypothyroidism; new acanthosis nigricans flags insulin resistance."
+                    },
+                    "keyTerms": [
+                      {
+                        "en": "systemic screen"
+                      },
+                      {
+                        "en": "cortisol excess"
+                      },
+                      {
+                        "en": "hypothyroidism"
+                      },
+                      {
+                        "en": "insulin resistance"
+                      }
+                    ],
+                    "focus": [
+                      {
+                        "x": 14.0,
+                        "y": 16.9,
+                        "w": 20.0,
+                        "h": 58.0,
+                        "label": {
+                          "en": "Cortisol excess"
+                        }
+                      },
+                      {
+                        "x": 40.0,
+                        "y": 16.9,
+                        "w": 20.0,
+                        "h": 54.7,
+                        "label": {
+                          "en": "Hypothyroidism"
+                        }
+                      },
+                      {
+                        "x": 64.0,
+                        "y": 16.9,
+                        "w": 22.0,
+                        "h": 55.4,
+                        "label": {
+                          "en": "Insulin resistance"
+                        }
+                      }
+                    ],
+                    "audioAssetRefs": [
+                      "m1-p06-b1-en-6dc050b9"
+                    ],
+                    "timingsAssetRefs": [
+                      "m1-p06-b1-en-6dc050b9-timings"
+                    ]
                   },
                   {
                     "title": {
                       "en": "When to refer"
                     },
                     "body": {
-                      "en": "The guide lists violaceous striae with new hypertension or diabetes, rapid virilisation and signs of an endocrine tumour as reasons to refer promptly."
-                    }
+                      "en": "The guide lists violaceous striae with new hypertension or diabetes, rapidly progressive virilisation, and signs of an endocrine tumour as reasons to refer promptly to endocrinology."
+                    },
+                    "keyTerms": [
+                      {
+                        "en": "violaceous striae"
+                      },
+                      {
+                        "en": "rapidly progressive virilisation"
+                      },
+                      {
+                        "en": "refer promptly to endocrinology"
+                      }
+                    ],
+                    "audioAssetRefs": [
+                      "m1-p06-b2-en-32387b8b"
+                    ],
+                    "timingsAssetRefs": [
+                      "m1-p06-b2-en-32387b8b-timings"
+                    ]
                   },
                   {
                     "title": {
                       "en": "Where local biology fits"
                     },
                     "body": {
-                      "en": "Local loops explain how skin behaves day to day. The guide calls them foundation, never a reason to dose anyone with a hormone."
-                    }
+                      "en": "Local skin biology explains how skin behaves; it does not justify prescribing a hormone."
+                    },
+                    "keyTerms": [
+                      {
+                        "en": "Local skin biology"
+                      },
+                      {
+                        "en": "does not justify prescribing a hormone"
+                      }
+                    ],
+                    "audioAssetRefs": [
+                      "m1-p06-b3-en-2d166489"
+                    ],
+                    "timingsAssetRefs": [
+                      "m1-p06-b3-en-2d166489-timings"
+                    ]
                   }
                 ],
                 "metadata": {
@@ -11229,7 +11559,8 @@
                         "en": "If a client's skin change comes with new systemic symptoms, suggest they see a prescriber before trying another product. A serum cannot answer a systemic question."
                       }
                     }
-                  }
+                  },
+                  "presentation": "readalong"
                 },
                 "imageBrief": {
                   "prompt": "Three pairs side by side in a row, with generous space between them and no body outline. Each pair is a round magnifying window showing a patch of skin surface, joined by a short vertical ink line to one small gland drawn in violet directly beneath it. First pair: thin, translucent skin with a faint bruise, above an adrenal gland capping the top of a kidney. Second pair: coarse, dry skin with fine scaling, above the butterfly-shaped thyroid gland. Third pair: velvety, darker, folded skin, above the pancreas. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
@@ -11413,7 +11744,7 @@
               },
               {
                 "id": "m1-p07",
-                "type": "quiz",
+                "type": "tool",
                 "time": "10 / 25",
                 "lead": {
                   "en": "Your turn"
@@ -11425,14 +11756,26 @@
                   "en": "One question to close lesson 1.1."
                 },
                 "sourceNote": "Lesson 1.1",
-                "quiz": {
-                  "id": "m1-q1",
+                "citationRefs": [
+                  "hannah-shmouni-2026-are",
+                  "phan-2021-keratinocyte-glucocorticoids",
+                  "slominski-2013-skin-steroidogenesis"
+                ],
+                "interaction": {
+                  "kind": "twotier",
+                  "title": {
+                    "en": "Local or systemic"
+                  },
+                  "setup": {
+                    "en": "Fictional case. A 52-year-old has new thin, easily bruised skin on her forearms, new violaceous striae and newly raised blood pressure. She has read that skin makes its own cortisol and asks whether a cream could calm it."
+                  },
                   "prompt": {
-                    "en": "Fictional case. A 52-year-old has new thin, easily bruised skin on her forearms, new violaceous striae and newly raised blood pressure. She has read that skin makes its own cortisol and asks whether a cream could calm it. Which reading is right?"
+                    "en": "Which reading is right?"
                   },
                   "options": [
                     {
-                      "text": {
+                      "value": "local",
+                      "label": {
                         "en": "Her skin's own cortisol explains the picture, so the answer is local."
                       },
                       "why": {
@@ -11440,32 +11783,68 @@
                       }
                     },
                     {
-                      "text": {
-                        "en": "The combination is a systemic pattern; the guide lists it as a reason for prompt endocrine referral before any skin treatment."
+                      "value": "interchangeable",
+                      "label": {
+                        "en": "Local and systemic cortisol are interchangeable, so either explanation fits."
                       },
                       "why": {
-                        "en": "Correct. Striae, bruising and new hypertension together point to possible systemic cortisol excess: a body-to-skin signal."
+                        "en": "Local synthesis acts within the skin and runs its own feedback; a systemic syndrome needs a systemic assessment."
                       }
                     },
                     {
-                      "text": {
-                        "en": "Local and systemic cortisol are interchangeable, so either explanation fits."
+                      "value": "systemic",
+                      "label": {
+                        "en": "The combination is a systemic pattern; the guide lists it as a reason for prompt endocrine referral before any skin treatment."
+                      },
+                      "why": {
+                        "en": "A serum cannot answer a systemic question."
+                      },
+                      "correct": true
+                    }
+                  ],
+                  "reasonPrompt": {
+                    "en": "Why is that reading right?"
+                  },
+                  "reasons": [
+                    {
+                      "value": "systemic-cortisol",
+                      "label": {
+                        "en": "Striae, bruising and new hypertension together point to possible systemic cortisol excess: a body-to-skin signal."
+                      },
+                      "why": {
+                        "en": "Body to skin. Systemic cortisol excess acting on the dermis. The Aesthetic & Regenerative Endocrinology guide lists suspected Cushing syndrome as a reason to refer promptly."
+                      },
+                      "correct": true
+                    },
+                    {
+                      "value": "no-loops",
+                      "label": {
+                        "en": "Skin has no hormone loops of its own."
+                      },
+                      "why": {
+                        "en": "Skin does run shortened copies of the body's central hormone axes. They explain how skin behaves; they do not justify prescribing a hormone."
+                      }
+                    },
+                    {
+                      "value": "interchangeable",
+                      "label": {
+                        "en": "Local and systemic cortisol are interchangeable."
                       },
                       "why": {
                         "en": "Local synthesis acts within the skin and runs its own feedback; a systemic syndrome needs a systemic assessment."
                       }
                     }
                   ],
-                  "correct": 1,
-                  "feedback": {
+                  "ownWords": true,
+                  "done": {
                     "en": "Decide which direction the signal runs before you decide what to treat."
                   },
-                  "pillar": "physiology",
                   "citationRefs": [
                     "hannah-shmouni-2026-are",
                     "phan-2021-keratinocyte-glucocorticoids",
                     "slominski-2013-skin-steroidogenesis"
-                  ]
+                  ],
+                  "source": "authored:2026-09-28 from m1-p07 quiz (prompt, options and whys, feedback) + m1-x02 decision 3 option 'no-loops' (label, why) + m1-p05 item 'cushing-skin' why + m1-p06 variants.audienceLevel.advisor sentence 2"
                 }
               },
               {
@@ -11504,30 +11883,109 @@
                       "en": "What it measured"
                     },
                     "body": {
-                      "en": "RNA for 379 hormone and receptor genes, cell by cell, across 47 human tissues including skin."
-                    }
+                      "en": "The Hormone Cell Atlas, published in Science in 2026, read the RNA for 379 hormone and receptor genes in about 14 million single cells and nuclei from 47 human tissues, skin among them."
+                    },
+                    "keyTerms": [
+                      {
+                        "en": "379 hormone and receptor genes"
+                      },
+                      {
+                        "en": "14 million single cells and nuclei"
+                      },
+                      {
+                        "en": "47 human tissues"
+                      }
+                    ],
+                    "focus": [
+                      {
+                        "x": 0,
+                        "y": 0,
+                        "w": 100,
+                        "h": 65,
+                        "label": {
+                          "en": "47 human tissues"
+                        }
+                      }
+                    ],
+                    "audioAssetRefs": [
+                      "m1-p08-b1-en-7a683187"
+                    ],
+                    "timingsAssetRefs": [
+                      "m1-p08-b1-en-7a683187-timings"
+                    ]
                   },
                   {
                     "title": {
                       "en": "What it predicted"
                     },
                     "body": {
-                      "en": "Which cell types could make a hormone and which could respond, including unexpected sites outside the classic glands."
-                    }
+                      "en": "From that RNA it predicted which cell types could make a hormone and which could respond to one."
+                    },
+                    "keyTerms": [
+                      {
+                        "en": "make a hormone"
+                      },
+                      {
+                        "en": "respond to one"
+                      }
+                    ],
+                    "focus": [
+                      {
+                        "x": 33.6,
+                        "y": 21.9,
+                        "w": 32.8,
+                        "h": 39.9,
+                        "label": {
+                          "en": "Skin"
+                        }
+                      }
+                    ],
+                    "audioAssetRefs": [
+                      "m1-p08-b2-en-0976c332"
+                    ],
+                    "timingsAssetRefs": [
+                      "m1-p08-b2-en-0976c332-timings"
+                    ]
                   },
                   {
                     "title": {
                       "en": "What it leaves open"
                     },
                     "body": {
-                      "en": "Whether a cell actually makes and releases the hormone, and whether that hormone does anything there."
-                    }
+                      "en": "The guide uses the atlas to argue that the skin is plausibly one of the body's largest distributed signalling networks. RNA tells you what a cell could make."
+                    },
+                    "keyTerms": [
+                      {
+                        "en": "plausibly"
+                      },
+                      {
+                        "en": "largest distributed signalling networks"
+                      },
+                      {
+                        "en": "what a cell could make"
+                      }
+                    ],
+                    "focus": [
+                      {
+                        "x": 42.5,
+                        "y": 43.0,
+                        "w": 14.2,
+                        "h": 11.0
+                      }
+                    ],
+                    "audioAssetRefs": [
+                      "m1-p08-b3-en-ad535fe7"
+                    ],
+                    "timingsAssetRefs": [
+                      "m1-p08-b3-en-ad535fe7-timings"
+                    ]
                   }
                 ],
                 "metadata": {
                   "audioScript": {
                     "en": "Fourteen million cells is the scale of the Hormone Cell Atlas, a Cambridge-led study published in Science in 2026. The team read the RNA for 379 hormone and receptor genes in single cells and nuclei from forty-seven human tissues, skin included. From those readings they scored each cell type for its predicted capacity to make or to receive a hormone, and they flagged unexpected sites, such as RNA for the gut hormone secretin in a type of immune cell. The Aesthetic and Regenerative Endocrinology guide uses the atlas to argue that the skin, built from every major cell lineage, is plausibly one of the body's largest distributed signalling networks. The word plausibly matters. Everything in the atlas starts from RNA, and RNA tells you what a cell could make. Whether the cell actually makes and releases the hormone is the question the rest of this lesson answers."
-                  }
+                  },
+                  "presentation": "readalong"
                 },
                 "imageBrief": {
                   "prompt": "An atlas laid out like a specimen tray: a neat grid of many small square tissue tiles, each holding a handful of simple round cells drawn in ink on ivory. One tile in the centre, slightly larger and raised, is a slice of skin with a layered surface. In that tile some cells carry a small violet cup-shaped receptor on their surface, and a few hold small violet granules inside drawn as dotted outlines (predicted, not observed). The other tiles show the same two marks sparsely, in pale violet wash. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
@@ -11546,45 +12004,9 @@
                 }
               },
               {
-                "id": "m1-p09",
-                "type": "stat",
-                "time": "12 / 25",
-                "lead": {
-                  "en": "What the atlas is"
-                },
-                "title": {
-                  "en": "Prediction, in the authors' own words."
-                },
-                "body": {
-                  "en": "The atlas's own portal describes its scores as 'putative and hypothesis-generating'. A few predictions were tested in cells in the paper itself; the rest are left for users to validate. Across biology, the amount of RNA for a gene is often a poor guide to how much protein a cell makes, and protein is still a step short of secretion."
-                },
-                "citationRefs": [
-                  "fei-2026-hormone-cell-atlas",
-                  "hormone-cell-atlas-portal",
-                  "liu-2016-mrna-protein",
-                  "hannah-shmouni-2026-are"
-                ],
-                "sourceNote": "Fei & Huang-Doran, Science 2026 · hormonecellatlas.org.uk About/FAQ, read 24 Sep 2026 · Liu 2016",
-                "stat": {
-                  "figure": "379",
-                  "label": {
-                    "en": "hormone and receptor genes read as RNA, cell by cell"
-                  },
-                  "detail": {
-                    "en": "Fei, Huang-Doran et al., Science 2026 · about 14 million cells and nuclei · 47 human tissues"
-                  },
-                  "means": {
-                    "en": "The atlas shows which skin cells carry the RNA to make or sense a hormone. That is a well-founded hypothesis about where to look."
-                  },
-                  "doesNot": {
-                    "en": "It does not show that a skin cell secretes a hormone, how much, or that the hormone acts there. A receptor gene on the map is not evidence that a product aimed at it works."
-                  }
-                }
-              },
-              {
                 "id": "m1-p10",
                 "type": "tool",
-                "time": "13 / 25",
+                "time": "12 / 25",
                 "lead": {
                   "en": "Sort the evidence"
                 },
@@ -11743,6 +12165,42 @@
                 }
               },
               {
+                "id": "m1-p09",
+                "type": "stat",
+                "time": "13 / 25",
+                "lead": {
+                  "en": "What the atlas is"
+                },
+                "title": {
+                  "en": "Prediction, in the authors' own words."
+                },
+                "body": {
+                  "en": "The atlas's own portal describes its scores as 'putative and hypothesis-generating'. A few predictions were tested in cells in the paper itself; the rest are left for users to validate. Across biology, the amount of RNA for a gene is often a poor guide to how much protein a cell makes, and protein is still a step short of secretion."
+                },
+                "citationRefs": [
+                  "fei-2026-hormone-cell-atlas",
+                  "hormone-cell-atlas-portal",
+                  "liu-2016-mrna-protein",
+                  "hannah-shmouni-2026-are"
+                ],
+                "sourceNote": "Fei & Huang-Doran, Science 2026 · hormonecellatlas.org.uk About/FAQ, read 24 Sep 2026 · Liu 2016",
+                "stat": {
+                  "figure": "379",
+                  "label": {
+                    "en": "hormone and receptor genes read as RNA, cell by cell"
+                  },
+                  "detail": {
+                    "en": "Fei, Huang-Doran et al., Science 2026 · about 14 million cells and nuclei · 47 human tissues"
+                  },
+                  "means": {
+                    "en": "The atlas shows which skin cells carry the RNA to make or sense a hormone. That is a well-founded hypothesis about where to look."
+                  },
+                  "doesNot": {
+                    "en": "It does not show that a skin cell secretes a hormone, how much, or that the hormone acts there. A receptor gene on the map is not evidence that a product aimed at it works."
+                  }
+                }
+              },
+              {
                 "id": "m1-p11",
                 "type": "audio",
                 "time": "14 / 25",
@@ -11780,7 +12238,41 @@
                     },
                     "body": {
                       "en": "Receptors explain how a topical could act. Whether it does is a question for a human trial."
-                    }
+                    },
+                    "keyTerms": [
+                      {
+                        "en": "how a topical could act"
+                      },
+                      {
+                        "en": "a human trial"
+                      }
+                    ],
+                    "focus": [
+                      {
+                        "x": 29.0,
+                        "y": 12.0,
+                        "w": 6.5,
+                        "h": 33.0,
+                        "label": {
+                          "en": "Receptors"
+                        }
+                      },
+                      {
+                        "x": 56.5,
+                        "y": 31.5,
+                        "w": 36.0,
+                        "h": 32.5,
+                        "label": {
+                          "en": "Human trial"
+                        }
+                      }
+                    ],
+                    "audioAssetRefs": [
+                      "m1-p11-b1-en-9daeeb9e"
+                    ],
+                    "timingsAssetRefs": [
+                      "m1-p11-b1-en-9daeeb9e-timings"
+                    ]
                   },
                   {
                     "title": {
@@ -11788,15 +12280,60 @@
                     },
                     "body": {
                       "en": "Steroid-metabolising enzymes in skin change potency, so the response in skin can differ from what the dose predicts."
-                    }
+                    },
+                    "keyTerms": [
+                      {
+                        "en": "Steroid-metabolising enzymes"
+                      },
+                      {
+                        "en": "change potency"
+                      },
+                      {
+                        "en": "what the dose predicts"
+                      }
+                    ],
+                    "focus": [
+                      {
+                        "x": 34.5,
+                        "y": 36.5,
+                        "w": 9.5,
+                        "h": 14.5,
+                        "label": {
+                          "en": "Enzymes"
+                        }
+                      }
+                    ],
+                    "audioAssetRefs": [
+                      "m1-p11-b2-en-a88593f9"
+                    ],
+                    "timingsAssetRefs": [
+                      "m1-p11-b2-en-a88593f9-timings"
+                    ]
                   },
                   {
                     "title": {
                       "en": "Sunscreen and vitamin D"
                     },
                     "body": {
-                      "en": "Artificial-UV experiments show sunscreen blocks vitamin D synthesis; field trials of daily use did not lower blood levels. High-protection products have not been trialled."
-                    }
+                      "en": "The guide says serum vitamin D falls with sunscreen use, yet field trials of daily sunscreen did not lower it. High-protection products have not been trialled."
+                    },
+                    "keyTerms": [
+                      {
+                        "en": "serum vitamin D falls with sunscreen use"
+                      },
+                      {
+                        "en": "field trials of daily sunscreen"
+                      },
+                      {
+                        "en": "High-protection products"
+                      }
+                    ],
+                    "audioAssetRefs": [
+                      "m1-p11-b3-en-24644415"
+                    ],
+                    "timingsAssetRefs": [
+                      "m1-p11-b3-en-24644415-timings"
+                    ]
                   }
                 ],
                 "metadata": {
@@ -11815,7 +12352,8 @@
                         "en": "Describe receptor-based product claims as hypotheses unless a human trial backs them, keep sun-protection advice unchanged, and send vitamin D questions to a prescriber."
                       }
                     }
-                  }
+                  },
+                  "presentation": "readalong"
                 },
                 "imageBrief": {
                   "prompt": "A two-part figure joined by one thin ink line running left to right. Left: a close cross-section of the upper skin with a small droplet resting on the surface; below it one skin cell carries a violet cup-shaped receptor on its surface, and a small crescent-shaped enzyme beside the cell reshapes a passing molecule token. Right: a randomized trial drawn as two matched groups of small round dots laid flat on the paper in neat square grids side by side, one group violet and one grey, with a thin divider between them (flat dots, not coins, not stacks). Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
@@ -11859,7 +12397,7 @@
                     "en": "Where the page overreaches"
                   },
                   "prompt": {
-                    "en": "A fictional product page. Find the lines this lesson's evidence does not support."
+                    "en": "Find the lines this lesson's evidence does not support."
                   },
                   "hint": {
                     "en": "Hold each line against what an RNA map can show, what a receptor can promise, how skin changes a hormone's strength, and what the sunscreen trials found."
@@ -12051,29 +12589,115 @@
                     },
                     "body": {
                       "en": "A damaged cell stops dividing for good, which guards against cancer and helps wound repair."
-                    }
+                    },
+                    "keyTerms": [
+                      {
+                        "en": "stops dividing for good"
+                      },
+                      {
+                        "en": "guards against cancer"
+                      },
+                      {
+                        "en": "wound repair"
+                      }
+                    ],
+                    "focus": [
+                      {
+                        "x": 14.5,
+                        "y": 26.0,
+                        "w": 28.4,
+                        "h": 27.6,
+                        "label": {
+                          "en": "Dividing"
+                        }
+                      },
+                      {
+                        "x": 59.4,
+                        "y": 31.6,
+                        "w": 25.3,
+                        "h": 23.1,
+                        "label": {
+                          "en": "Stopped for good"
+                        }
+                      }
+                    ],
+                    "audioAssetRefs": [
+                      "m1-p13-b1-en-73a1d145"
+                    ],
+                    "timingsAssetRefs": [
+                      "m1-p13-b1-en-73a1d145-timings"
+                    ]
                   },
                   {
                     "title": {
                       "en": "The secretory phase"
                     },
                     "body": {
-                      "en": "It stays active and releases inflammatory cytokines, matrix-degrading enzymes and growth factors, first catalogued in cultured human cells."
-                    }
+                      "en": "A senescent cell has stopped dividing for good but stays metabolically active, releasing cytokines, matrix-degrading enzymes and growth factors: the senescence-associated secretory phenotype, or SASP. The SASP was characterised in cultured cells."
+                    },
+                    "keyTerms": [
+                      {
+                        "en": "metabolically active"
+                      },
+                      {
+                        "en": "cytokines, matrix-degrading enzymes and growth factors"
+                      },
+                      {
+                        "en": "SASP"
+                      },
+                      {
+                        "en": "cultured cells"
+                      }
+                    ],
+                    "focus": [
+                      {
+                        "x": 58.1,
+                        "y": 20.8,
+                        "w": 25.5,
+                        "h": 42.4,
+                        "label": {
+                          "en": "SASP"
+                        }
+                      }
+                    ],
+                    "audioAssetRefs": [
+                      "m1-p13-b2-en-6dd9f978"
+                    ],
+                    "timingsAssetRefs": [
+                      "m1-p13-b2-en-6dd9f978-timings"
+                    ]
                   },
                   {
                     "title": {
-                      "en": "What we see in human skin"
+                      "en": "In human skin"
                     },
                     "body": {
-                      "en": "Older skin holds more cells carrying the marker p16 in epidermis and dermis. No single marker is definitive."
-                    }
+                      "en": "Older skin holds more cells carrying the marker p16 in epidermis and dermis. Researchers also caution that no single marker identifies a senescent cell with certainty, so counts depend on the marker chosen."
+                    },
+                    "keyTerms": [
+                      {
+                        "en": "marker p16"
+                      },
+                      {
+                        "en": "no single marker"
+                      },
+                      {
+                        "en": "counts depend on the marker chosen"
+                      }
+                    ],
+                    "audioAssetRefs": [
+                      "m1-p13-b3-en-ef8d41de"
+                    ],
+                    "timingsAssetRefs": [
+                      "m1-p13-b3-en-ef8d41de-timings"
+                    ]
                   }
                 ],
                 "metadata": {
                   "audioScript": {
                     "en": "Senescence begins as a safety mechanism. A cell that has taken enough damage stops dividing for good, which helps guard against cancer and is useful during wound repair. The problem is what the cell does next. It stays alive and metabolically busy and releases a mixture of inflammatory cytokines such as interleukin six and eight, enzymes that break down matrix, and growth factors. This secretory profile, the SASP, was characterised in human cells grown in the laboratory after DNA damage. In living human skin, the evidence is observational. Skin samples from older people contain more cells carrying the senescence marker p16, in both the epidermis and the dermis, and fibroblasts, keratinocytes and melanocytes can all become senescent. Researchers also caution that no single marker identifies a senescent cell with certainty, so counts depend on the marker chosen."
-                  }
+                  },
+                  "presentation": "readalong"
                 },
                 "imageBrief": {
                   "prompt": "A side-by-side comparison of cells in a thin layer of dermis, separated by a thin vertical hairline. Left: an ordinary fibroblast dividing cleanly into two small daughter cells. Right: a senescent cell — noticeably larger and flattened, with a large nucleus — that has stopped dividing but releases a halo of small violet particles into the surrounding collagen fibres, several of which look frayed near it. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
@@ -12304,6 +12928,114 @@
                   "callout": {
                     "en": "A mouse lifespan result is not a skin treatment."
                   }
+                },
+                "interaction": {
+                  "kind": "ladder",
+                  "title": {
+                    "en": "Which rung?"
+                  },
+                  "prompt": {
+                    "en": "Tap the rung each finding rests on."
+                  },
+                  "rungs": [
+                    {
+                      "value": "cell",
+                      "label": {
+                        "en": "Cell & tissue studies"
+                      }
+                    },
+                    {
+                      "value": "animal",
+                      "label": {
+                        "en": "Animal models"
+                      }
+                    },
+                    {
+                      "value": "exvivo",
+                      "label": {
+                        "en": "Human tissue, ex vivo"
+                      }
+                    },
+                    {
+                      "value": "people",
+                      "label": {
+                        "en": "People (clinical)"
+                      }
+                    }
+                  ],
+                  "items": [
+                    {
+                      "id": "mechanism",
+                      "label": {
+                        "en": "Mechanism"
+                      },
+                      "note": {
+                        "en": "Skin collagen falls with age. Aged human dermis shows more fibroblast MMP-1 and fragmented collagen; in culture, fragmentation raises MMP-1 further."
+                      },
+                      "answer": "exvivo",
+                      "why": {
+                        "en": "That senescent cells drive this in living skin is plausible, not shown."
+                      }
+                    },
+                    {
+                      "id": "human-evidence",
+                      "label": {
+                        "en": "Human evidence"
+                      },
+                      "note": {
+                        "en": "p16-positive cells rise with age and track with wrinkles and perceived age"
+                      },
+                      "answer": "people",
+                      "why": {
+                        "en": "One observational cohort shows an association."
+                      }
+                    },
+                    {
+                      "id": "animal-evidence",
+                      "label": {
+                        "en": "Animal evidence"
+                      },
+                      "note": {
+                        "en": "Clearing p16-positive cells, or giving senolytic drugs, extends healthy lifespan in mice."
+                      },
+                      "answer": "animal",
+                      "why": {
+                        "en": "Skin was checked only for safety, and clearing these cells during healing slowed wound closure."
+                      }
+                    },
+                    {
+                      "id": "open-question",
+                      "label": {
+                        "en": "Open question"
+                      },
+                      "note": {
+                        "en": "One exploratory randomized trial of topical rapamycin (36 enrolled, 19 dropped out) lowered skin p16, and clinical change was only described."
+                      },
+                      "answer": "people",
+                      "why": {
+                        "en": "No adequately sized trial with clinical skin-ageing outcomes was found (September 2026)."
+                      }
+                    }
+                  ],
+                  "summary": {
+                    "en": "A mouse lifespan result is not a skin treatment."
+                  },
+                  "done": {
+                    "en": "Name the species before you weigh the finding."
+                  },
+                  "citationRefs": [
+                    "shuster-1975-skin-collagen-age",
+                    "varani-2006-aged-fibroblast-collagen",
+                    "fisher-2009-collagen-fragmentation",
+                    "waaijer-2016-p16-wrinkles",
+                    "baker-2016-p16-clearance-mice",
+                    "xu-2018-senolytics-mice",
+                    "hickson-2019-senolytic-dkd-pilot",
+                    "chung-2019-topical-rapamycin",
+                    "haykal-2026-dermatology-senotherapeutics",
+                    "hannah-shmouni-2026-are"
+                  ],
+                  "source": "authored:2026-09-28 from m1-p15 tool rows 1–4 (label; the note's evidence sentences as the note, its last sentence as the why) and callout (summary); human-evidence why from m1-p14 stat.doesNot sentence 2; closing line from m1-p18 quiz feedback"
                 }
               },
               {
@@ -12345,30 +13077,118 @@
                       "en": "Sun protection"
                     },
                     "body": {
-                      "en": "A publicly funded Australian trial of 903 adults: daily sunscreen meant about a quarter less skin ageing over four and a half years."
-                    }
+                      "en": "In a community trial of 903 adults, daily sunscreen for four and a half years slowed photoageing compared with discretionary use (GRADE B)."
+                    },
+                    "keyTerms": [
+                      {
+                        "en": "903 adults"
+                      },
+                      {
+                        "en": "daily sunscreen"
+                      },
+                      {
+                        "en": "GRADE B"
+                      }
+                    ],
+                    "focus": [
+                      {
+                        "x": 22.9,
+                        "y": 0,
+                        "w": 28.2,
+                        "h": 22.0,
+                        "label": {
+                          "en": "Daily sunscreen"
+                        }
+                      }
+                    ],
+                    "audioAssetRefs": [
+                      "m1-p16-b1-en-e25e91d3"
+                    ],
+                    "timingsAssetRefs": [
+                      "m1-p16-b1-en-e25e91d3-timings"
+                    ]
                   },
                   {
                     "title": {
                       "en": "Retinoids"
                     },
                     "body": {
-                      "en": "Consistent randomized trials for tretinoin in photoaged skin; the guide's GRADE A. Retinol has smaller trials, including one in very old skin."
-                    }
+                      "en": "Topical tretinoin improves photoageing consistently across randomized trials, and the Aesthetic & Regenerative Endocrinology guide rates topical retinoids first-line, GRADE A. Retinol improved fine wrinkles in very old skin in a small trial (GRADE C)."
+                    },
+                    "keyTerms": [
+                      {
+                        "en": "Topical tretinoin"
+                      },
+                      {
+                        "en": "GRADE A"
+                      },
+                      {
+                        "en": "Retinol"
+                      },
+                      {
+                        "en": "a small trial"
+                      }
+                    ],
+                    "focus": [
+                      {
+                        "x": 42.0,
+                        "y": 15.5,
+                        "w": 11.5,
+                        "h": 17.0,
+                        "label": {
+                          "en": "Topical retinoids"
+                        }
+                      }
+                    ],
+                    "audioAssetRefs": [
+                      "m1-p16-b2-en-f9891d1a"
+                    ],
+                    "timingsAssetRefs": [
+                      "m1-p16-b2-en-f9891d1a-timings"
+                    ]
                   },
                   {
                     "title": {
                       "en": "Senotherapies"
                     },
                     "body": {
-                      "en": "Biomarker pilots only, so far. They sit below the levers that already have outcome data."
-                    }
+                      "en": "Both levers protect or rebuild the dermal matrix, and both have human outcome data. Senolytics for skin have no such data yet."
+                    },
+                    "keyTerms": [
+                      {
+                        "en": "dermal matrix"
+                      },
+                      {
+                        "en": "human outcome data"
+                      },
+                      {
+                        "en": "Senolytics for skin"
+                      }
+                    ],
+                    "focus": [
+                      {
+                        "x": 24.7,
+                        "y": 38.4,
+                        "w": 50.7,
+                        "h": 22.8,
+                        "label": {
+                          "en": "Dermal matrix"
+                        }
+                      }
+                    ],
+                    "audioAssetRefs": [
+                      "m1-p16-b3-en-35ac90b7"
+                    ],
+                    "timingsAssetRefs": [
+                      "m1-p16-b3-en-35ac90b7-timings"
+                    ]
                   }
                 ],
                 "metadata": {
                   "audioScript": {
                     "en": "Set the senescence story beside the interventions that have been tested in people. In Nambour, Australia, a publicly funded trial randomised 903 adults to daily or discretionary sunscreen, and over four and a half years skin ageing was about a quarter lower with daily use. Topical tretinoin has a run of randomised trials in photoaged skin that agree with one another, and the Aesthetic and Regenerative Endocrinology guide rates topical retinoids first-line, grade A. Retinol has smaller trials, including one in residents in their late eighties whose fine wrinkling improved and whose biopsies showed more procollagen. Both levers protect or rebuild the dermal matrix that ultraviolet light and, it is thought, the SASP erode, and both have human outcome data. Senolytics for skin have no such data yet. Keep that order in mind when a patient asks what actually works."
-                  }
+                  },
+                  "presentation": "readalong"
                 },
                 "imageBrief": {
                   "prompt": "A cross-section of skin, epidermis above and dermis below. On the skin surface lies a thin translucent protective film, and simple straight sun rays coming from the upper left stop at the film and turn back. Beside the film, a few small droplets rest on the surface and soak into the upper skin toward fibroblasts. In the dermis beneath, collagen bundles are dense, wavy and well organised, drawn in violet. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
@@ -12576,8 +13396,33 @@
                       "en": "What she read"
                     },
                     "body": {
-                      "en": "That senolytic supplements clear senescent cells and reverse skin ageing."
-                    }
+                      "en": "Consider a fifty-eight-year-old patient, fictional and built from this lesson's evidence. She has read that senolytic supplements clear so-called zombie cells and reverse skin ageing, and she asks whether to start one she found online."
+                    },
+                    "keyTerms": [
+                      {
+                        "en": "fictional"
+                      },
+                      {
+                        "en": "senolytic supplements"
+                      },
+                      {
+                        "en": "reverse skin ageing"
+                      }
+                    ],
+                    "focus": [
+                      {
+                        "x": 47.5,
+                        "y": 43.5,
+                        "w": 8.5,
+                        "h": 7.5
+                      }
+                    ],
+                    "audioAssetRefs": [
+                      "m1-p17-b1-en-0d0cd72c"
+                    ],
+                    "timingsAssetRefs": [
+                      "m1-p17-b1-en-0d0cd72c-timings"
+                    ]
                   },
                   {
                     "title": {
@@ -12585,15 +13430,71 @@
                     },
                     "body": {
                       "en": "Senescent cells track with visible ageing in human skin; clearing them helps in mice; human data are small biomarker pilots."
-                    }
+                    },
+                    "keyTerms": [
+                      {
+                        "en": "visible ageing in human skin"
+                      },
+                      {
+                        "en": "helps in mice"
+                      },
+                      {
+                        "en": "small biomarker pilots"
+                      }
+                    ],
+                    "focus": [
+                      {
+                        "x": 40.5,
+                        "y": 31.5,
+                        "w": 13.0,
+                        "h": 14.5,
+                        "label": {
+                          "en": "In mice"
+                        }
+                      }
+                    ],
+                    "audioAssetRefs": [
+                      "m1-p17-b2-en-cba1a1e5"
+                    ],
+                    "timingsAssetRefs": [
+                      "m1-p17-b2-en-cba1a1e5-timings"
+                    ]
                   },
                   {
                     "title": {
                       "en": "What has trials"
                     },
                     "body": {
-                      "en": "Daily sunscreen and topical retinoids have randomized trials with visible skin outcomes."
-                    }
+                      "en": "Daily sunscreen and topical retinoids, by contrast, have randomised trials with visible skin outcomes. The Aesthetic and Regenerative Endocrinology guide advises keeping senolytics within clinical trials."
+                    },
+                    "keyTerms": [
+                      {
+                        "en": "Daily sunscreen and topical retinoids"
+                      },
+                      {
+                        "en": "randomised trials"
+                      },
+                      {
+                        "en": "within clinical trials"
+                      }
+                    ],
+                    "focus": [
+                      {
+                        "x": 55.0,
+                        "y": 19.5,
+                        "w": 24.5,
+                        "h": 22.0,
+                        "label": {
+                          "en": "Randomised trials"
+                        }
+                      }
+                    ],
+                    "audioAssetRefs": [
+                      "m1-p17-b3-en-9adb1711"
+                    ],
+                    "timingsAssetRefs": [
+                      "m1-p17-b3-en-9adb1711-timings"
+                    ]
                   }
                 ],
                 "interaction": {
@@ -12674,7 +13575,8 @@
                         "en": "You explain the difference between mouse and human evidence, reinforce daily sunscreen, and suggest a prescriber for a retinoid or if she wants to explore a trial."
                       }
                     }
-                  }
+                  },
+                  "presentation": "readalong"
                 },
                 "imageBrief": {
                   "prompt": "An evidence staircase of three plain paper steps rising from left to right. On the lowest step sits a shallow laboratory culture dish; on the middle step a small mouse silhouette; on the top step two neat parallel columns of identical round tokens, one violet and one grey, standing for a randomized trial in people, with a thin translucent protective film shape lying beside them. A single plain, unmarked capsule outlined in violet rests on the middle step beside the mouse. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
@@ -12888,8 +13790,8 @@
                   },
                   "blocks": [
                     "m1-p01",
-                    "m1-opener",
                     "m1-p02",
+                    "m1-opener",
                     "m1-p03",
                     "m1-p04",
                     "m1-p05",
@@ -12906,8 +13808,8 @@
                   },
                   "blocks": [
                     "m1-p08",
-                    "m1-p09",
                     "m1-p10",
+                    "m1-p09",
                     "m1-p11",
                     "m1-x03",
                     "m1-p12"
@@ -13044,8 +13946,8 @@
               },
               "blocks": [
                 "m1-p01",
-                "m1-opener",
                 "m1-p02",
+                "m1-opener",
                 "m1-p03",
                 "m1-p04",
                 "m1-p05",
@@ -13062,8 +13964,8 @@
               },
               "blocks": [
                 "m1-p08",
-                "m1-p09",
                 "m1-p10",
+                "m1-p09",
                 "m1-p11",
                 "m1-x03",
                 "m1-p12"
@@ -32585,6 +33487,846 @@
         "use": "film poster",
         "mediaPreview": "approved — Fady Hannah-Shmouni, MD FRCPC, 2026-09-25 (media preview of 2026-09-25; see governance approvals)"
       }
+    },
+    {
+      "id": "m1-p03-b1-en-586b3ab3",
+      "kind": "audio",
+      "role": "narration",
+      "locale": "en",
+      "uri": "assets/hormones-peptides-skin/narration/readalong/m1-p03/b1.en.586b3ab3.mp3",
+      "durationSeconds": 14.56,
+      "checksum": "sha256:15fa4ddeff6aceffa08fb6241cb661129f6c08cc28ebf6ed44484c0562e75e92",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/narration/beats.mjs",
+        "model": "gemini-3.8-flash-tts · en-gb-tutor-1",
+        "promptRef": "586b3ab324bffdb01f821bef048856133a1aadb1a9a495cfcfc6b969b7e4c187"
+      },
+      "metadata": {
+        "block": "m1-p03",
+        "use": "read-along beat 1 narration",
+        "loudness": "-16 LUFS as heard",
+        "mediaPreview": "pending — the narration media preview (review/sitting-pilot-m01.html)"
+      }
+    },
+    {
+      "id": "m1-p03-b1-en-586b3ab3-timings",
+      "kind": "captions",
+      "role": "word-timings",
+      "locale": "en",
+      "uri": "assets/hormones-peptides-skin/narration/readalong/m1-p03/b1.en.586b3ab3.json",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/narration/beats.mjs",
+        "model": "elevenlabs scribe_v1 word timestamps → alignToCanonical",
+        "promptRef": "586b3ab324bffdb01f821bef048856133a1aadb1a9a495cfcfc6b969b7e4c187"
+      },
+      "metadata": {
+        "block": "m1-p03",
+        "use": "read-along beat 1 word timings",
+        "matchRate": 1,
+        "mediaPreview": "pending — the narration media preview (review/sitting-pilot-m01.html)"
+      }
+    },
+    {
+      "id": "m1-p03-b2-en-b9b350d7",
+      "kind": "audio",
+      "role": "narration",
+      "locale": "en",
+      "uri": "assets/hormones-peptides-skin/narration/readalong/m1-p03/b2.en.b9b350d7.mp3",
+      "durationSeconds": 8.56,
+      "checksum": "sha256:cd137be375d32a14f6913fe4ce501ca7687e7ba32b0d2c77fab99a4af40dbae1",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/narration/beats.mjs",
+        "model": "gemini-3.8-flash-tts · en-gb-tutor-1",
+        "promptRef": "b9b350d7d4ca594c82974bfd0bf5209235e33a38c6ef8902e5fad356510f2116"
+      },
+      "metadata": {
+        "block": "m1-p03",
+        "use": "read-along beat 2 narration",
+        "loudness": "-16 LUFS as heard",
+        "mediaPreview": "pending — the narration media preview (review/sitting-pilot-m01.html)"
+      }
+    },
+    {
+      "id": "m1-p03-b2-en-b9b350d7-timings",
+      "kind": "captions",
+      "role": "word-timings",
+      "locale": "en",
+      "uri": "assets/hormones-peptides-skin/narration/readalong/m1-p03/b2.en.b9b350d7.json",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/narration/beats.mjs",
+        "model": "elevenlabs scribe_v1 word timestamps → alignToCanonical",
+        "promptRef": "b9b350d7d4ca594c82974bfd0bf5209235e33a38c6ef8902e5fad356510f2116"
+      },
+      "metadata": {
+        "block": "m1-p03",
+        "use": "read-along beat 2 word timings",
+        "matchRate": 0.944,
+        "mediaPreview": "pending — the narration media preview (review/sitting-pilot-m01.html)"
+      }
+    },
+    {
+      "id": "m1-p03-b3-en-caa1800a",
+      "kind": "audio",
+      "role": "narration",
+      "locale": "en",
+      "uri": "assets/hormones-peptides-skin/narration/readalong/m1-p03/b3.en.caa1800a.mp3",
+      "durationSeconds": 11.04,
+      "checksum": "sha256:aa07a7ff32e1ddcddaba92655e66be452cb2c1ea4944e3c54947158b77b5ebf0",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/narration/beats.mjs",
+        "model": "gemini-3.8-flash-tts · en-gb-tutor-1",
+        "promptRef": "caa1800a029609778aaed77ef4fcf41e55008acfc09713c22fbe51e5072a11f2"
+      },
+      "metadata": {
+        "block": "m1-p03",
+        "use": "read-along beat 3 narration",
+        "loudness": "-16 LUFS as heard",
+        "mediaPreview": "pending — the narration media preview (review/sitting-pilot-m01.html)"
+      }
+    },
+    {
+      "id": "m1-p03-b3-en-caa1800a-timings",
+      "kind": "captions",
+      "role": "word-timings",
+      "locale": "en",
+      "uri": "assets/hormones-peptides-skin/narration/readalong/m1-p03/b3.en.caa1800a.json",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/narration/beats.mjs",
+        "model": "elevenlabs scribe_v1 word timestamps → alignToCanonical",
+        "promptRef": "caa1800a029609778aaed77ef4fcf41e55008acfc09713c22fbe51e5072a11f2"
+      },
+      "metadata": {
+        "block": "m1-p03",
+        "use": "read-along beat 3 word timings",
+        "matchRate": 0.963,
+        "mediaPreview": "pending — the narration media preview (review/sitting-pilot-m01.html)"
+      }
+    },
+    {
+      "id": "m1-p06-b1-en-6dc050b9",
+      "kind": "audio",
+      "role": "narration",
+      "locale": "en",
+      "uri": "assets/hormones-peptides-skin/narration/readalong/m1-p06/b1.en.6dc050b9.mp3",
+      "durationSeconds": 20.2,
+      "checksum": "sha256:1b7d022bbc869e3b83f1f9b19b79d49d0779cfa43ee955d79cae865cc75e58af",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/narration/beats.mjs",
+        "model": "gemini-3.8-flash-tts · en-gb-tutor-1",
+        "promptRef": "6dc050b9055e747e887fd3b5e45629388d9c5392ca7353a940f6d751153bffc9"
+      },
+      "metadata": {
+        "block": "m1-p06",
+        "use": "read-along beat 1 narration",
+        "loudness": "-16 LUFS as heard",
+        "mediaPreview": "pending — the narration media preview (review/sitting-pilot-m01.html)"
+      }
+    },
+    {
+      "id": "m1-p06-b1-en-6dc050b9-timings",
+      "kind": "captions",
+      "role": "word-timings",
+      "locale": "en",
+      "uri": "assets/hormones-peptides-skin/narration/readalong/m1-p06/b1.en.6dc050b9.json",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/narration/beats.mjs",
+        "model": "elevenlabs scribe_v1 word timestamps → alignToCanonical",
+        "promptRef": "6dc050b9055e747e887fd3b5e45629388d9c5392ca7353a940f6d751153bffc9"
+      },
+      "metadata": {
+        "block": "m1-p06",
+        "use": "read-along beat 1 word timings",
+        "matchRate": 1,
+        "mediaPreview": "pending — the narration media preview (review/sitting-pilot-m01.html)"
+      }
+    },
+    {
+      "id": "m1-p06-b2-en-32387b8b",
+      "kind": "audio",
+      "role": "narration",
+      "locale": "en",
+      "uri": "assets/hormones-peptides-skin/narration/readalong/m1-p06/b2.en.32387b8b.mp3",
+      "durationSeconds": 14.16,
+      "checksum": "sha256:f6c65c6f50e34603d5df8ab590f36133b3a1c91e4611a085917e207e6b32496d",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/narration/beats.mjs",
+        "model": "gemini-3.8-flash-tts · en-gb-tutor-1",
+        "promptRef": "32387b8b634f208d283906c4152304a188f63d7b791666c6315ad17770edf9d1"
+      },
+      "metadata": {
+        "block": "m1-p06",
+        "use": "read-along beat 2 narration",
+        "loudness": "-16 LUFS as heard",
+        "mediaPreview": "pending — the narration media preview (review/sitting-pilot-m01.html)"
+      }
+    },
+    {
+      "id": "m1-p06-b2-en-32387b8b-timings",
+      "kind": "captions",
+      "role": "word-timings",
+      "locale": "en",
+      "uri": "assets/hormones-peptides-skin/narration/readalong/m1-p06/b2.en.32387b8b.json",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/narration/beats.mjs",
+        "model": "elevenlabs scribe_v1 word timestamps → alignToCanonical",
+        "promptRef": "32387b8b634f208d283906c4152304a188f63d7b791666c6315ad17770edf9d1"
+      },
+      "metadata": {
+        "block": "m1-p06",
+        "use": "read-along beat 2 word timings",
+        "matchRate": 0.923,
+        "mediaPreview": "pending — the narration media preview (review/sitting-pilot-m01.html)"
+      }
+    },
+    {
+      "id": "m1-p06-b3-en-2d166489",
+      "kind": "audio",
+      "role": "narration",
+      "locale": "en",
+      "uri": "assets/hormones-peptides-skin/narration/readalong/m1-p06/b3.en.2d166489.mp3",
+      "durationSeconds": 6.68,
+      "checksum": "sha256:1b1ece28e225aee1456091ff851fd42cb5ace54aa82a4f1234c026792e0676a1",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/narration/beats.mjs",
+        "model": "gemini-3.8-flash-tts · en-gb-tutor-1",
+        "promptRef": "2d166489b09304870311afb2ce24ed9e7b9d38666243c733c4a863aefbb99d10"
+      },
+      "metadata": {
+        "block": "m1-p06",
+        "use": "read-along beat 3 narration",
+        "loudness": "-16 LUFS as heard",
+        "mediaPreview": "pending — the narration media preview (review/sitting-pilot-m01.html)"
+      }
+    },
+    {
+      "id": "m1-p06-b3-en-2d166489-timings",
+      "kind": "captions",
+      "role": "word-timings",
+      "locale": "en",
+      "uri": "assets/hormones-peptides-skin/narration/readalong/m1-p06/b3.en.2d166489.json",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/narration/beats.mjs",
+        "model": "elevenlabs scribe_v1 word timestamps → alignToCanonical",
+        "promptRef": "2d166489b09304870311afb2ce24ed9e7b9d38666243c733c4a863aefbb99d10"
+      },
+      "metadata": {
+        "block": "m1-p06",
+        "use": "read-along beat 3 word timings",
+        "matchRate": 1,
+        "mediaPreview": "pending — the narration media preview (review/sitting-pilot-m01.html)"
+      }
+    },
+    {
+      "id": "m1-p08-b1-en-7a683187",
+      "kind": "audio",
+      "role": "narration",
+      "locale": "en",
+      "uri": "assets/hormones-peptides-skin/narration/readalong/m1-p08/b1.en.7a683187.mp3",
+      "durationSeconds": 16.4,
+      "checksum": "sha256:c0192f8ddededea24c5fc3e3c96d8550f5bd49220e408e7c160b634818b90526",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/narration/beats.mjs",
+        "model": "gemini-3.8-flash-tts · en-gb-tutor-1",
+        "promptRef": "7a6831872c639610100971dee76903c0fd6b4d3cc9157850bf942427e5d420cb"
+      },
+      "metadata": {
+        "block": "m1-p08",
+        "use": "read-along beat 1 narration",
+        "loudness": "-16 LUFS as heard",
+        "mediaPreview": "pending — the narration media preview (review/sitting-pilot-m01.html)"
+      }
+    },
+    {
+      "id": "m1-p08-b1-en-7a683187-timings",
+      "kind": "captions",
+      "role": "word-timings",
+      "locale": "en",
+      "uri": "assets/hormones-peptides-skin/narration/readalong/m1-p08/b1.en.7a683187.json",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/narration/beats.mjs",
+        "model": "elevenlabs scribe_v1 word timestamps → alignToCanonical",
+        "promptRef": "7a6831872c639610100971dee76903c0fd6b4d3cc9157850bf942427e5d420cb"
+      },
+      "metadata": {
+        "block": "m1-p08",
+        "use": "read-along beat 1 word timings",
+        "matchRate": 0.909,
+        "mediaPreview": "pending — the narration media preview (review/sitting-pilot-m01.html)"
+      }
+    },
+    {
+      "id": "m1-p08-b2-en-0976c332",
+      "kind": "audio",
+      "role": "narration",
+      "locale": "en",
+      "uri": "assets/hormones-peptides-skin/narration/readalong/m1-p08/b2.en.0976c332.mp3",
+      "durationSeconds": 6.76,
+      "checksum": "sha256:3e7edde67eeff78757321925aa84c4154240cf3c54b67a30c12491c55bbb3270",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/narration/beats.mjs",
+        "model": "gemini-3.8-flash-tts · en-gb-tutor-1",
+        "promptRef": "0976c3329cb39cdf3a0e64ea78b1197a0f4ce76f283d1829e09b6da4ef82ad6a"
+      },
+      "metadata": {
+        "block": "m1-p08",
+        "use": "read-along beat 2 narration",
+        "loudness": "-16 LUFS as heard",
+        "mediaPreview": "pending — the narration media preview (review/sitting-pilot-m01.html)"
+      }
+    },
+    {
+      "id": "m1-p08-b2-en-0976c332-timings",
+      "kind": "captions",
+      "role": "word-timings",
+      "locale": "en",
+      "uri": "assets/hormones-peptides-skin/narration/readalong/m1-p08/b2.en.0976c332.json",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/narration/beats.mjs",
+        "model": "elevenlabs scribe_v1 word timestamps → alignToCanonical",
+        "promptRef": "0976c3329cb39cdf3a0e64ea78b1197a0f4ce76f283d1829e09b6da4ef82ad6a"
+      },
+      "metadata": {
+        "block": "m1-p08",
+        "use": "read-along beat 2 word timings",
+        "matchRate": 1,
+        "mediaPreview": "pending — the narration media preview (review/sitting-pilot-m01.html)"
+      }
+    },
+    {
+      "id": "m1-p08-b3-en-ad535fe7",
+      "kind": "audio",
+      "role": "narration",
+      "locale": "en",
+      "uri": "assets/hormones-peptides-skin/narration/readalong/m1-p08/b3.en.ad535fe7.mp3",
+      "durationSeconds": 12.04,
+      "checksum": "sha256:e38540c099b4b78f619af7009e4faa03dfd5c80084916aa445a20dcd6f6ec78a",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/narration/beats.mjs",
+        "model": "gemini-3.8-flash-tts · en-gb-tutor-1",
+        "promptRef": "ad535fe79ff3e8f42991cbd31ab64ec19192b2c45c65de6efbcced3c5267f138"
+      },
+      "metadata": {
+        "block": "m1-p08",
+        "use": "read-along beat 3 narration",
+        "loudness": "-16 LUFS as heard",
+        "mediaPreview": "pending — the narration media preview (review/sitting-pilot-m01.html)"
+      }
+    },
+    {
+      "id": "m1-p08-b3-en-ad535fe7-timings",
+      "kind": "captions",
+      "role": "word-timings",
+      "locale": "en",
+      "uri": "assets/hormones-peptides-skin/narration/readalong/m1-p08/b3.en.ad535fe7.json",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/narration/beats.mjs",
+        "model": "elevenlabs scribe_v1 word timestamps → alignToCanonical",
+        "promptRef": "ad535fe79ff3e8f42991cbd31ab64ec19192b2c45c65de6efbcced3c5267f138"
+      },
+      "metadata": {
+        "block": "m1-p08",
+        "use": "read-along beat 3 word timings",
+        "matchRate": 0.964,
+        "mediaPreview": "pending — the narration media preview (review/sitting-pilot-m01.html)"
+      }
+    },
+    {
+      "id": "m1-p11-b1-en-9daeeb9e",
+      "kind": "audio",
+      "role": "narration",
+      "locale": "en",
+      "uri": "assets/hormones-peptides-skin/narration/readalong/m1-p11/b1.en.9daeeb9e.mp3",
+      "durationSeconds": 7.24,
+      "checksum": "sha256:70e0b5167b6f2034000dd957a7ef6339722528781961bc65e13a5daaa4b3a507",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/narration/beats.mjs",
+        "model": "gemini-3.8-flash-tts · en-gb-tutor-1",
+        "promptRef": "9daeeb9ef39253157e9310c9d5f22dc359eb03c8d2b6ee83440b7c59eb49610c"
+      },
+      "metadata": {
+        "block": "m1-p11",
+        "use": "read-along beat 1 narration",
+        "loudness": "-16 LUFS as heard",
+        "mediaPreview": "pending — the narration media preview (review/sitting-pilot-m01.html)"
+      }
+    },
+    {
+      "id": "m1-p11-b1-en-9daeeb9e-timings",
+      "kind": "captions",
+      "role": "word-timings",
+      "locale": "en",
+      "uri": "assets/hormones-peptides-skin/narration/readalong/m1-p11/b1.en.9daeeb9e.json",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/narration/beats.mjs",
+        "model": "elevenlabs scribe_v1 word timestamps → alignToCanonical",
+        "promptRef": "9daeeb9ef39253157e9310c9d5f22dc359eb03c8d2b6ee83440b7c59eb49610c"
+      },
+      "metadata": {
+        "block": "m1-p11",
+        "use": "read-along beat 1 word timings",
+        "matchRate": 1,
+        "mediaPreview": "pending — the narration media preview (review/sitting-pilot-m01.html)"
+      }
+    },
+    {
+      "id": "m1-p11-b2-en-a88593f9",
+      "kind": "audio",
+      "role": "narration",
+      "locale": "en",
+      "uri": "assets/hormones-peptides-skin/narration/readalong/m1-p11/b2.en.a88593f9.mp3",
+      "durationSeconds": 8.84,
+      "checksum": "sha256:69538fa62e01d839d41d8f563bb8e4754a59d6ae2d12da72b943a5eb47ec0223",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/narration/beats.mjs",
+        "model": "gemini-3.8-flash-tts · en-gb-tutor-1",
+        "promptRef": "a88593f92944d43dea8b268fc1b0c313a1865f30a8013624709655ac2505596e"
+      },
+      "metadata": {
+        "block": "m1-p11",
+        "use": "read-along beat 2 narration",
+        "loudness": "-16 LUFS as heard",
+        "mediaPreview": "pending — the narration media preview (review/sitting-pilot-m01.html)"
+      }
+    },
+    {
+      "id": "m1-p11-b2-en-a88593f9-timings",
+      "kind": "captions",
+      "role": "word-timings",
+      "locale": "en",
+      "uri": "assets/hormones-peptides-skin/narration/readalong/m1-p11/b2.en.a88593f9.json",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/narration/beats.mjs",
+        "model": "elevenlabs scribe_v1 word timestamps → alignToCanonical",
+        "promptRef": "a88593f92944d43dea8b268fc1b0c313a1865f30a8013624709655ac2505596e"
+      },
+      "metadata": {
+        "block": "m1-p11",
+        "use": "read-along beat 2 word timings",
+        "matchRate": 0.944,
+        "mediaPreview": "pending — the narration media preview (review/sitting-pilot-m01.html)"
+      }
+    },
+    {
+      "id": "m1-p11-b3-en-24644415",
+      "kind": "audio",
+      "role": "narration",
+      "locale": "en",
+      "uri": "assets/hormones-peptides-skin/narration/readalong/m1-p11/b3.en.24644415.mp3",
+      "durationSeconds": 12.28,
+      "checksum": "sha256:bfaaca43627c81803b7e9b28a5fd6c611009eb360dce1b9f336add4c74e48d36",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/narration/beats.mjs",
+        "model": "gemini-3.8-flash-tts · en-gb-tutor-1",
+        "promptRef": "24644415f72ba76a7046ec095cdcedc314f37ebf5d31bba424e46a15a90b9a97"
+      },
+      "metadata": {
+        "block": "m1-p11",
+        "use": "read-along beat 3 narration",
+        "loudness": "-16 LUFS as heard",
+        "mediaPreview": "pending — the narration media preview (review/sitting-pilot-m01.html)"
+      }
+    },
+    {
+      "id": "m1-p11-b3-en-24644415-timings",
+      "kind": "captions",
+      "role": "word-timings",
+      "locale": "en",
+      "uri": "assets/hormones-peptides-skin/narration/readalong/m1-p11/b3.en.24644415.json",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/narration/beats.mjs",
+        "model": "elevenlabs scribe_v1 word timestamps → alignToCanonical",
+        "promptRef": "24644415f72ba76a7046ec095cdcedc314f37ebf5d31bba424e46a15a90b9a97"
+      },
+      "metadata": {
+        "block": "m1-p11",
+        "use": "read-along beat 3 word timings",
+        "matchRate": 0.923,
+        "mediaPreview": "pending — the narration media preview (review/sitting-pilot-m01.html)"
+      }
+    },
+    {
+      "id": "m1-p13-b1-en-73a1d145",
+      "kind": "audio",
+      "role": "narration",
+      "locale": "en",
+      "uri": "assets/hormones-peptides-skin/narration/readalong/m1-p13/b1.en.73a1d145.mp3",
+      "durationSeconds": 6.4,
+      "checksum": "sha256:2dc89d57b61717c220df97b166e81942601055a96cd1c8d89c0127c4fa2351c6",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/narration/beats.mjs",
+        "model": "gemini-3.8-flash-tts · en-gb-tutor-1",
+        "promptRef": "73a1d145572c19e87398a709ee874dc987e51449d0f31bf420e40238c43135ea"
+      },
+      "metadata": {
+        "block": "m1-p13",
+        "use": "read-along beat 1 narration",
+        "loudness": "-16 LUFS as heard",
+        "mediaPreview": "pending — the narration media preview (review/sitting-pilot-m01.html)"
+      }
+    },
+    {
+      "id": "m1-p13-b1-en-73a1d145-timings",
+      "kind": "captions",
+      "role": "word-timings",
+      "locale": "en",
+      "uri": "assets/hormones-peptides-skin/narration/readalong/m1-p13/b1.en.73a1d145.json",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/narration/beats.mjs",
+        "model": "elevenlabs scribe_v1 word timestamps → alignToCanonical",
+        "promptRef": "73a1d145572c19e87398a709ee874dc987e51449d0f31bf420e40238c43135ea"
+      },
+      "metadata": {
+        "block": "m1-p13",
+        "use": "read-along beat 1 word timings",
+        "matchRate": 1,
+        "mediaPreview": "pending — the narration media preview (review/sitting-pilot-m01.html)"
+      }
+    },
+    {
+      "id": "m1-p13-b2-en-6dd9f978",
+      "kind": "audio",
+      "role": "narration",
+      "locale": "en",
+      "uri": "assets/hormones-peptides-skin/narration/readalong/m1-p13/b2.en.6dd9f978.mp3",
+      "durationSeconds": 19.96,
+      "checksum": "sha256:310b39eb8a787569b824cabfe155e7415ec666bf12f34ed4b96eecb9f17e7dd0",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/narration/beats.mjs",
+        "model": "gemini-3.8-flash-tts · en-gb-tutor-1",
+        "promptRef": "6dd9f9783c848396de5aa96845b65e8ac6405e57700002a25bf319b3dae16194"
+      },
+      "metadata": {
+        "block": "m1-p13",
+        "use": "read-along beat 2 narration",
+        "loudness": "-16 LUFS as heard",
+        "mediaPreview": "pending — the narration media preview (review/sitting-pilot-m01.html)"
+      }
+    },
+    {
+      "id": "m1-p13-b2-en-6dd9f978-timings",
+      "kind": "captions",
+      "role": "word-timings",
+      "locale": "en",
+      "uri": "assets/hormones-peptides-skin/narration/readalong/m1-p13/b2.en.6dd9f978.json",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/narration/beats.mjs",
+        "model": "elevenlabs scribe_v1 word timestamps → alignToCanonical",
+        "promptRef": "6dd9f9783c848396de5aa96845b65e8ac6405e57700002a25bf319b3dae16194"
+      },
+      "metadata": {
+        "block": "m1-p13",
+        "use": "read-along beat 2 word timings",
+        "matchRate": 0.969,
+        "mediaPreview": "pending — the narration media preview (review/sitting-pilot-m01.html)"
+      }
+    },
+    {
+      "id": "m1-p13-b3-en-ef8d41de",
+      "kind": "audio",
+      "role": "narration",
+      "locale": "en",
+      "uri": "assets/hormones-peptides-skin/narration/readalong/m1-p13/b3.en.ef8d41de.mp3",
+      "durationSeconds": 15.56,
+      "checksum": "sha256:213b77a3c7c3d07e7abde7710b471c8d3c53caf794f3bc02865be89879c37c29",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/narration/beats.mjs",
+        "model": "gemini-3.8-flash-tts · en-gb-tutor-1",
+        "promptRef": "ef8d41de24930d5b5ed09437b130294891f5032d94ded72c7963f9d15d5c7272"
+      },
+      "metadata": {
+        "block": "m1-p13",
+        "use": "read-along beat 3 narration",
+        "loudness": "-16 LUFS as heard",
+        "mediaPreview": "pending — the narration media preview (review/sitting-pilot-m01.html)"
+      }
+    },
+    {
+      "id": "m1-p13-b3-en-ef8d41de-timings",
+      "kind": "captions",
+      "role": "word-timings",
+      "locale": "en",
+      "uri": "assets/hormones-peptides-skin/narration/readalong/m1-p13/b3.en.ef8d41de.json",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/narration/beats.mjs",
+        "model": "elevenlabs scribe_v1 word timestamps → alignToCanonical",
+        "promptRef": "ef8d41de24930d5b5ed09437b130294891f5032d94ded72c7963f9d15d5c7272"
+      },
+      "metadata": {
+        "block": "m1-p13",
+        "use": "read-along beat 3 word timings",
+        "matchRate": 1,
+        "mediaPreview": "pending — the narration media preview (review/sitting-pilot-m01.html)"
+      }
+    },
+    {
+      "id": "m1-p16-b1-en-e25e91d3",
+      "kind": "audio",
+      "role": "narration",
+      "locale": "en",
+      "uri": "assets/hormones-peptides-skin/narration/readalong/m1-p16/b1.en.e25e91d3.mp3",
+      "durationSeconds": 10.8,
+      "checksum": "sha256:9505f6edd86cef0ef7416000e0a21bb5af5b95acfef084fa44c96fb32ddd0106",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/narration/beats.mjs",
+        "model": "gemini-3.8-flash-tts · en-gb-tutor-1",
+        "promptRef": "e25e91d3c7cdac9e20f3cd5f201b408d58422c642bf8e151b0fe0d769b0b8bdc"
+      },
+      "metadata": {
+        "block": "m1-p16",
+        "use": "read-along beat 1 narration",
+        "loudness": "-16 LUFS as heard",
+        "mediaPreview": "pending — the narration media preview (review/sitting-pilot-m01.html)"
+      }
+    },
+    {
+      "id": "m1-p16-b1-en-e25e91d3-timings",
+      "kind": "captions",
+      "role": "word-timings",
+      "locale": "en",
+      "uri": "assets/hormones-peptides-skin/narration/readalong/m1-p16/b1.en.e25e91d3.json",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/narration/beats.mjs",
+        "model": "elevenlabs scribe_v1 word timestamps → alignToCanonical",
+        "promptRef": "e25e91d3c7cdac9e20f3cd5f201b408d58422c642bf8e151b0fe0d769b0b8bdc"
+      },
+      "metadata": {
+        "block": "m1-p16",
+        "use": "read-along beat 1 word timings",
+        "matchRate": 0.957,
+        "mediaPreview": "pending — the narration media preview (review/sitting-pilot-m01.html)"
+      }
+    },
+    {
+      "id": "m1-p16-b2-en-f9891d1a",
+      "kind": "audio",
+      "role": "narration",
+      "locale": "en",
+      "uri": "assets/hormones-peptides-skin/narration/readalong/m1-p16/b2.en.f9891d1a.mp3",
+      "durationSeconds": 18.68,
+      "checksum": "sha256:b9bae4c766a3424b6d4681e31d650b31c7f44d6e13192839646fadc5e1cbf2f5",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/narration/beats.mjs",
+        "model": "gemini-3.8-flash-tts · en-gb-tutor-1",
+        "promptRef": "f9891d1a39bc25a52e9fb25b0e2dffe2200bcb678b2f84a1a1a75253366b719e"
+      },
+      "metadata": {
+        "block": "m1-p16",
+        "use": "read-along beat 2 narration",
+        "loudness": "-16 LUFS as heard",
+        "mediaPreview": "pending — the narration media preview (review/sitting-pilot-m01.html)"
+      }
+    },
+    {
+      "id": "m1-p16-b2-en-f9891d1a-timings",
+      "kind": "captions",
+      "role": "word-timings",
+      "locale": "en",
+      "uri": "assets/hormones-peptides-skin/narration/readalong/m1-p16/b2.en.f9891d1a.json",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/narration/beats.mjs",
+        "model": "elevenlabs scribe_v1 word timestamps → alignToCanonical",
+        "promptRef": "f9891d1a39bc25a52e9fb25b0e2dffe2200bcb678b2f84a1a1a75253366b719e"
+      },
+      "metadata": {
+        "block": "m1-p16",
+        "use": "read-along beat 2 word timings",
+        "matchRate": 0.971,
+        "mediaPreview": "pending — the narration media preview (review/sitting-pilot-m01.html)"
+      }
+    },
+    {
+      "id": "m1-p16-b3-en-35ac90b7",
+      "kind": "audio",
+      "role": "narration",
+      "locale": "en",
+      "uri": "assets/hormones-peptides-skin/narration/readalong/m1-p16/b3.en.35ac90b7.mp3",
+      "durationSeconds": 10.68,
+      "checksum": "sha256:b1fdedadc428c11bfa45b8a440e7c258dc96e50daaa75c52977a145c0b6b7760",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/narration/beats.mjs",
+        "model": "gemini-3.8-flash-tts · en-gb-tutor-1",
+        "promptRef": "35ac90b71d9beb451fdff445aabf4d180cb4f51785bd8599ccc49f5c1b1b08dc"
+      },
+      "metadata": {
+        "block": "m1-p16",
+        "use": "read-along beat 3 narration",
+        "loudness": "-16 LUFS as heard",
+        "mediaPreview": "pending — the narration media preview (review/sitting-pilot-m01.html)"
+      }
+    },
+    {
+      "id": "m1-p16-b3-en-35ac90b7-timings",
+      "kind": "captions",
+      "role": "word-timings",
+      "locale": "en",
+      "uri": "assets/hormones-peptides-skin/narration/readalong/m1-p16/b3.en.35ac90b7.json",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/narration/beats.mjs",
+        "model": "elevenlabs scribe_v1 word timestamps → alignToCanonical",
+        "promptRef": "35ac90b71d9beb451fdff445aabf4d180cb4f51785bd8599ccc49f5c1b1b08dc"
+      },
+      "metadata": {
+        "block": "m1-p16",
+        "use": "read-along beat 3 word timings",
+        "matchRate": 1,
+        "mediaPreview": "pending — the narration media preview (review/sitting-pilot-m01.html)"
+      }
+    },
+    {
+      "id": "m1-p17-b1-en-0d0cd72c",
+      "kind": "audio",
+      "role": "narration",
+      "locale": "en",
+      "uri": "assets/hormones-peptides-skin/narration/readalong/m1-p17/b1.en.0d0cd72c.mp3",
+      "durationSeconds": 16.68,
+      "checksum": "sha256:0338c71fd0c3bbffb25a446f9bb12becfb56f9eab79dd1896a2cd04e3179dbbb",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/narration/beats.mjs",
+        "model": "gemini-3.8-flash-tts · en-gb-tutor-1",
+        "promptRef": "0d0cd72c260aca84a0a2f14383ba087e234675050109986a1ec18fcd467c7054"
+      },
+      "metadata": {
+        "block": "m1-p17",
+        "use": "read-along beat 1 narration",
+        "loudness": "-16 LUFS as heard",
+        "mediaPreview": "pending — the narration media preview (review/sitting-pilot-m01.html)"
+      }
+    },
+    {
+      "id": "m1-p17-b1-en-0d0cd72c-timings",
+      "kind": "captions",
+      "role": "word-timings",
+      "locale": "en",
+      "uri": "assets/hormones-peptides-skin/narration/readalong/m1-p17/b1.en.0d0cd72c.json",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/narration/beats.mjs",
+        "model": "elevenlabs scribe_v1 word timestamps → alignToCanonical",
+        "promptRef": "0d0cd72c260aca84a0a2f14383ba087e234675050109986a1ec18fcd467c7054"
+      },
+      "metadata": {
+        "block": "m1-p17",
+        "use": "read-along beat 1 word timings",
+        "matchRate": 0.943,
+        "mediaPreview": "pending — the narration media preview (review/sitting-pilot-m01.html)"
+      }
+    },
+    {
+      "id": "m1-p17-b2-en-cba1a1e5",
+      "kind": "audio",
+      "role": "narration",
+      "locale": "en",
+      "uri": "assets/hormones-peptides-skin/narration/readalong/m1-p17/b2.en.cba1a1e5.mp3",
+      "durationSeconds": 10.56,
+      "checksum": "sha256:b45eb051ddf05e5f7e9108f0776ba7237385d5034f7dae64dffe8b360b2c27d3",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/narration/beats.mjs",
+        "model": "gemini-3.8-flash-tts · en-gb-tutor-1",
+        "promptRef": "cba1a1e55d9dbd7ae85d67425014fd85fcfa00d67279092c61c7a57dbab39136"
+      },
+      "metadata": {
+        "block": "m1-p17",
+        "use": "read-along beat 2 narration",
+        "loudness": "-16 LUFS as heard",
+        "mediaPreview": "pending — the narration media preview (review/sitting-pilot-m01.html)"
+      }
+    },
+    {
+      "id": "m1-p17-b2-en-cba1a1e5-timings",
+      "kind": "captions",
+      "role": "word-timings",
+      "locale": "en",
+      "uri": "assets/hormones-peptides-skin/narration/readalong/m1-p17/b2.en.cba1a1e5.json",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/narration/beats.mjs",
+        "model": "elevenlabs scribe_v1 word timestamps → alignToCanonical",
+        "promptRef": "cba1a1e55d9dbd7ae85d67425014fd85fcfa00d67279092c61c7a57dbab39136"
+      },
+      "metadata": {
+        "block": "m1-p17",
+        "use": "read-along beat 2 word timings",
+        "matchRate": 0.95,
+        "mediaPreview": "pending — the narration media preview (review/sitting-pilot-m01.html)"
+      }
+    },
+    {
+      "id": "m1-p17-b3-en-9adb1711",
+      "kind": "audio",
+      "role": "narration",
+      "locale": "en",
+      "uri": "assets/hormones-peptides-skin/narration/readalong/m1-p17/b3.en.9adb1711.mp3",
+      "durationSeconds": 15.52,
+      "checksum": "sha256:6047c2ad2056a464d700886073f838004d660ec0650d33a94d7cfceed95dafcc",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/narration/beats.mjs",
+        "model": "gemini-3.8-flash-tts · en-gb-tutor-1",
+        "promptRef": "9adb1711126b7020ce88987a85a34efda60d2fdafb5819edf4761f4e248dec1b"
+      },
+      "metadata": {
+        "block": "m1-p17",
+        "use": "read-along beat 3 narration",
+        "loudness": "-16 LUFS as heard",
+        "mediaPreview": "pending — the narration media preview (review/sitting-pilot-m01.html)"
+      }
+    },
+    {
+      "id": "m1-p17-b3-en-9adb1711-timings",
+      "kind": "captions",
+      "role": "word-timings",
+      "locale": "en",
+      "uri": "assets/hormones-peptides-skin/narration/readalong/m1-p17/b3.en.9adb1711.json",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/narration/beats.mjs",
+        "model": "elevenlabs scribe_v1 word timestamps → alignToCanonical",
+        "promptRef": "9adb1711126b7020ce88987a85a34efda60d2fdafb5819edf4761f4e248dec1b"
+      },
+      "metadata": {
+        "block": "m1-p17",
+        "use": "read-along beat 3 word timings",
+        "matchRate": 0.962,
+        "mediaPreview": "pending — the narration media preview (review/sitting-pilot-m01.html)"
+      }
     }
   ],
   "assessments": [
@@ -33706,7 +35448,7 @@
         "approver": "Fady Hannah-Shmouni, MD FRCPC",
         "date": "2026-09-24",
         "scope": "module 01, full-course review draft of 2026-09-24 (course-draft.docx); approval relayed by Omar Saleem, 2026-09-24",
-        "notes": "2 changes made after this approval, confirmed by Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem) on 2026-09-25: m1-p02: Role picker no longer says regulatory facts are the same for everyone: 'The evidence and grades are the same for everyone, and regulatory notes follow the country you choose. What changes with your role…' (six-jurisdiction course). | m1-opener: New moment: the module's opening film (about 70 s; draft media for the media preview). The narration is approved text, verbatim (m1-p01 body, sentences 1–2; m1-p03 audioScript, sentences 1–8); the presenter is a HeyGen digital avatar, and the player shows \"Presented by a digital avatar (AI-generated presenter and voice).\" under the video. The moments' position labels are renumbered to /20.; 2 changes made after this approval, confirmed by Omar Saleem, product owner (editorial; no medical content changed) on 2026-09-25: m1-p01, m1-p02: Editorial: placeholder source lines removed (the course citing itself on the module cover; an internal audience decision on the role picker). These moments state no facts; nothing else changed. | m01 module title: Editorial: the module title is now the plain title 'The skin as an endocrine organ, and how it ages' everywhere (app, homepage, certificate), replacing the intake plan's working title (Omar: \"plain module titles might be nicer, esp on mobile\").; 5 changes made after this approval, confirmed by Omar Saleem, product owner (editorial; no medical content changed) on 2026-09-26: m01 module summary: Editorial: the module summary shown on Today and Course is now one sentence from the module's cover (m1-p01), 'Skin senses hormones from the blood, makes several of its own, and ages in ways that change both.', replacing the intake plan's scope list, which stays in the package as metadata.scope (runtime clarity pass: summaries read like specifications). (editorial; no medical content changed) | tutor-m01-atlas, tutor-m01-senescence: Editorial: each prepared Guide answer now carries the question it answers as a suggested prompt (tutor-m01-atlas → 'A product says skin has receptors for it. Does that prove it works?'; tutor-m01-senescence → 'Do senolytics help ageing skin?'), so the Guide opens on course questions instead of platform help. The prepared answers are unchanged. (editorial; no medical content changed) | m1-p01: Editorial: cover kicker 'Hormones and Peptides for Skin · Module 01' → 'Module 01 · The skin as an endocrine organ' (the course name appears once per screen; the other six covers already read 'Module NN · <topic>'). (editorial; no medical content changed) | m1-p02: Editorial: role question: kicker 'Set your path' → 'Your role'; reply heading 'Your path adjusts' → 'Set for your role'; each reply 'Your path closes each lesson on …' → 'Each lesson now closes on …' (the rest of each reply unchanged); the body text confirmed on 2026-09-25 is unchanged. (editorial; no medical content changed) | m1-p19: Editorial: closing line 'Build the checklist you will actually use. It is saved to your path and your tutor will bring it back.' → 'Build the checklist you will actually use. It is saved in My notes, in the Library.' (the Guide does not bring the checklist back; My notes keeps it). (editorial; no medical content changed); 5 changes made after this approval, confirmed by Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem) on 2026-09-26: m1-x01: New practice (1.1): sequence — the hair follicle's HPA-like loop in order: CRH → ACTH → cortisol → feedback that switches the follicle's own CRH off (hedge: ex vivo, human tissue). Built only from approved sentences (m1-p04, m1-p03, m1-p05). | m1-x02: New practice (1.1): branching — a fictional three-decision case: coarse, dry, cool skin read as a possible sign of an underactive thyroid; a systemic answer before any cosmetic plan; the skin's thyroid-like loop (mostly mouse models) as no reason to dose anyone with a hormone. Built only from approved sentences (m1-p04, m1-p05, m1-p06). | m1-x03: New practice (1.1): inspect — a fictional serum product page with four unsupported lines (the atlas as proof, receptors as guaranteed results, label strength as the skin's response, skipping sunscreen for vitamin D) and two supported ones. Built only from approved sentences (m1-p08, m1-p09, m1-p11). | m1-x04: New practice (1.1): hotspots — on the approved m1-p13 still: a dividing cell, a senescent cell and the SASP it releases (hedge: SASP characterised in cultured cells); spot positions still to be grounded from their descriptions. Built only from approved sentences (m1-p13). | m1-x05: New practice (1.1): classify (grade the evidence) — six lesson 1.3 findings sorted into randomized trials with clinical skin outcomes (daily sunscreen, GRADE B; tretinoin, topical retinoids GRADE A), human association or biomarker pilots, or mice or cultured cells only. Built only from approved sentences (m1-p13, m1-p14, m1-p15, m1-p16)."
+        "notes": "Changed after this approval, awaiting the approver's confirmation: m1-p02, m1-opener: Moved: the role question now comes before the opening film (moments 02 and 03 swap), so lesson 1.1 asks for a decision in its first minute. Both moments are unchanged. | m1-p10, m1-p09: Moved: the sort 'Transcript, tissue or person?' now comes before the stat 'Prediction, in the authors' own words.', so lesson 1.2 asks for a decision in its first minute; the stat then confirms the authors' own word, 'putative'. Both moments are unchanged. | m1-p01: Trimmed: the cover's first sentence ('This course starts with physiology…') is removed; the opening film, two moments later, speaks it verbatim. Nothing is added. | m1-x03: Trimmed: the exercise prompt no longer repeats 'A fictional product page.'; the moment's own line above it ('A fictional product page that leans on the cell atlas.') keeps the fictional label on screen. | m1-p03: Read-along beats from approved sentences (audioBeats): the flip-card audio story becomes a read-along card of 3 beats, each with 2–4 key terms quoted from it and focus regions on the approved still. The body, points and narration script stay in the package for the Guide; the beats are what the learner reads and hears. | m1-p06: Read-along beats from approved sentences (body, audioScript): the flip-card audio story becomes a read-along card of 3 beats, each with 2–4 key terms quoted from it and focus regions on the approved still. The body, points and narration script stay in the package for the Guide; the beats are what the learner reads and hears. | m1-p08: Read-along beats from approved sentences (body, audioScript): the flip-card audio story becomes a read-along card of 3 beats, each with 2–4 key terms quoted from it and focus regions on the approved still. The body, points and narration script stay in the package for the Guide; the beats are what the learner reads and hears. | m1-p11: Read-along beats from approved sentences (body, audioBeats): the flip-card audio story becomes a read-along card of 3 beats, each with 2–4 key terms quoted from it and focus regions on the approved still. The body, points and narration script stay in the package for the Guide; the beats are what the learner reads and hears. | m1-p13: Read-along beats from approved sentences (body, audioScript, audioBeats): the flip-card audio story becomes a read-along card of 3 beats, each with 2–4 key terms quoted from it and focus regions on the approved still. The body, points and narration script stay in the package for the Guide; the beats are what the learner reads and hears. | m1-p16: Read-along beats from approved sentences (body, audioScript): the flip-card audio story becomes a read-along card of 3 beats, each with 2–4 key terms quoted from it and focus regions on the approved still. The body, points and narration script stay in the package for the Guide; the beats are what the learner reads and hears. | m1-p17: Read-along beats from approved sentences (audioScript, audioBeats): the flip-card audio story becomes a read-along card of 3 beats, each with 2–4 key terms quoted from it and focus regions on the approved still. The body, points and narration script stay in the package for the Guide; the beats are what the learner reads and hears. | m1-p04: New exercise (evidence ladder) on the model grid: the five loops whose rows name their evidence are placed on four rungs (cell & tissue studies · animal models · human tissue, ex vivo · people); each item's note is the row's evidence text and its why the row's evidence sentence, verbatim. The callout closes the ladder. The grid stays in the package; a ladder pane draws its rows instead of the table. | m1-p15: New exercise (evidence ladder) on the model grid: the four registers (mechanism, human evidence, animal evidence, open question) are placed on the same four rungs. Each note quotes the row's evidence sentences and each why the row's own limit sentence, verbatim; the callout is the summary. The grid stays in the package; a ladder pane draws its rows instead of the table. | m1-p07: Quiz becomes move and reason (twotier): the three readings are the moves, with their approved whys; the reason step offers the right reason (the right option's own why), the misconception 'skin has no hormone loops of its own' (from m1-x02) and the belief behind the third option. An optional reason in the learner's own words is never graded. Closing line: the quiz's own feedback."
       },
       {
         "gate": "medical_review",
@@ -33767,7 +35509,7 @@
         "approver": "Fady Hannah-Shmouni, MD FRCPC",
         "date": "2026-09-25",
         "scope": "scientific accuracy of the media preview of 2026-09-25 (review/media-preview.html/.docx): the 7 module opening films and the 48 teaching stills; approval relayed by Omar Saleem, 2026-09-25. Design sign-off: Omar Saleem, with the product-owner final sign-off.",
-        "notes": "3 changes made after this approval, confirmed by Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem) on 2026-09-26: m2-opener: Opening film re-cut (revision 3, Omar: a diagram of the hormone axis, the cortisone → cortisol pathway, and b-roll that zooms into an illustration): CRH → ACTH → receptors and cortisone → cortisol by 11β-HSD1 are drawn on their words; the sunlit hand zooms into the skin block on 'it sets local cortisol' (labels: local cortisol set in the skin; blood level separate); the dermis plate is labelled as mouse data ('Mice without the enzyme: dermis kept' / 'Mice with the enzyme'). Narration and presenter unchanged. | m4-opener: Opening film label corrected: 'Lysyl oxidase · cross-links' → 'Lysyl oxidase' (the approved text names the enzyme only; cross-links are not in it). Narration and presenter unchanged. | m5-opener: Opening film labels corrected: CRH and 'ACTH · α-MSH · cortisol' now label the follicle as a whole (the approved text does not place them in the outer root sheath or the bulb). Narration and presenter unchanged."
+        "notes": "Changed after this approval, awaiting the approver's confirmation: m1-p03: read-along focus regions on the approved still (draft): beat 1: the four layers (epidermis, dermis, subcutis) and the adnexa (the hair follicle with its sebaceous gland, and the coiled sweat gland); beat 2: the violet arcs between epidermal cells, the sensory nerve fibre, the blood-vessel loop; beat 3: nothing in the picture (no region) | m1-p06: read-along focus regions on the approved still (draft): beat 1: the three magnified patches, each with the gland it points to (thin bruised skin and the adrenal; coarse dry skin and the thyroid; velvety dark skin and the pancreas); beats 2–3: nothing in the picture shows the referral list or local biology (no region) | m1-p08: read-along focus regions on the approved still (draft): beat 1: the grid of tissue tiles; beat 2: the raised skin tile, its cells with receptor cups; beat 3: the few skin cells with outlined granules (cells predicted to make a hormone) | m1-p11: read-along focus regions on the approved still (draft): beat 1: the droplet on the skin down to the receptor cup on the cell, and the two matched groups of dots (a randomized trial); beat 2: the enzyme reshaping a passing molecule; beat 3: nothing in the picture shows sunscreen or vitamin D (no region) | m1-p13: read-along focus regions on the approved still (draft): beat 1: the dividing cells on the left and the large flattened cell that has stopped on the right; beat 2: the halo of violet dots the senescent cell releases (the SASP); beat 3: the picture shows no human skin sample (no region) | m1-p16: read-along focus regions on the approved still (draft): beat 1: the sun rays turned back by the protective film on the skin surface; beat 2: the drops soaking into the epidermis; beat 3: the dense violet collagen of the dermis | m1-p17: read-along focus regions on the approved still (draft): beat 1: the unmarked capsule on the mouse step (a box without a label, so it does not cover the capsule); beat 2: the mouse; beat 3: the top step, two groups of discs (a trial) beside the sun-protection film | m1-p03: read-along narration (draft): 3 beats, 34.2 s, Gemini 3.8 Flash TTS (en-gb-tutor-1, the films' voice and delivery), −16 LUFS as heard, word timings aligned to each beat's own text; replaces on-demand ElevenLabs narration | m1-p06: read-along narration (draft): 3 beats, 41.0 s, Gemini 3.8 Flash TTS (en-gb-tutor-1, the films' voice and delivery), −16 LUFS as heard, word timings aligned to each beat's own text; replaces on-demand ElevenLabs narration | m1-p08: read-along narration (draft): 3 beats, 35.2 s, Gemini 3.8 Flash TTS (en-gb-tutor-1, the films' voice and delivery), −16 LUFS as heard, word timings aligned to each beat's own text; replaces on-demand ElevenLabs narration | m1-p11: read-along narration (draft): 3 beats, 28.4 s, Gemini 3.8 Flash TTS (en-gb-tutor-1, the films' voice and delivery), −16 LUFS as heard, word timings aligned to each beat's own text; replaces on-demand ElevenLabs narration | m1-p13: read-along narration (draft): 3 beats, 41.9 s, Gemini 3.8 Flash TTS (en-gb-tutor-1, the films' voice and delivery), −16 LUFS as heard, word timings aligned to each beat's own text; replaces on-demand ElevenLabs narration | m1-p16: read-along narration (draft): 3 beats, 40.2 s, Gemini 3.8 Flash TTS (en-gb-tutor-1, the films' voice and delivery), −16 LUFS as heard, word timings aligned to each beat's own text; replaces on-demand ElevenLabs narration | m1-p17: read-along narration (draft): 3 beats, 42.8 s, Gemini 3.8 Flash TTS (en-gb-tutor-1, the films' voice and delivery), −16 LUFS as heard, word timings aligned to each beat's own text; replaces on-demand ElevenLabs narration"
       }
     ],
     "accreditation": {
