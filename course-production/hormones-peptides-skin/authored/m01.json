@@ -56,8 +56,8 @@
    },
    "blocks": [
     "m1-p01",
-    "m1-opener",
     "m1-p02",
+    "m1-opener",
     "m1-p03",
     "m1-p04",
     "m1-p05",
@@ -74,8 +74,8 @@
    },
    "blocks": [
     "m1-p08",
-    "m1-p09",
     "m1-p10",
+    "m1-p09",
     "m1-p11",
     "m1-x03",
     "m1-p12"
@@ -111,7 +111,7 @@
     "en": "The skin makes its own hormones."
    },
    "body": {
-    "en": "This course starts with physiology, because every later question about a hormone or peptide for skin rests on it. Skin senses hormones from the blood, makes several of its own, and ages in ways that change both. In three lessons you will separate what happens locally in the skin from what the rest of the body sends in, and label each finding by the kind of evidence behind it."
+    "en": "Skin senses hormones from the blood, makes several of its own, and ages in ways that change both. In three lessons you will separate what happens locally in the skin from what the rest of the body sends in, and label each finding by the kind of evidence behind it."
    },
    "points": [
     {
@@ -126,46 +126,9 @@
    ]
   },
   {
-   "id": "m1-opener",
-   "type": "video",
-   "lead": {
-    "en": "Module 01 · Opening film"
-   },
-   "title": {
-    "en": "The skin as an endocrine organ, and how it ages"
-   },
-   "assetRefs": [
-    "asset-hps-m01-opener",
-    "asset-hps-m01-opener-poster"
-   ],
-   "citationRefs": [
-    "slominski-2025-skin-neuro-immuno-endocrinology",
-    "slominski-wortsman-2000-skin-neuroendocrinology",
-    "zouboulis-2004-skin-endocrine-gland",
-    "roosterman-2006-neuronal-control-skin",
-    "hannah-shmouni-2026-are"
-   ],
-   "sourceNote": "Slominski 2025 · Slominski & Wortsman 2000 · Zouboulis 2004 · Roosterman 2006 · Aesthetic & Regenerative Endocrinology, ch. 5–6",
-   "metadata": {
-    "videoMode": "player",
-    "captionsBurnedIn": true,
-    "videoTranscript": {
-     "en": "This course starts with physiology, because every later question about a hormone or peptide for skin rests on it. Skin senses hormones from the blood, makes several of its own, and ages in ways that change both. Think of the skin as a sensing organ with its own hormone supply. Researchers who study it describe four units, epidermal, dermal, hypodermal and adnexal, the last meaning hair follicles and glands. Each unit holds cells that can make hormones and mount an immune response, such as keratinocytes, fibroblasts, sebocytes, fat cells and mast cells. Signals move three ways. Neighbouring cells talk directly, sensory nerves carry messages in and out, and some products enter the blood and reach distant organs. Keep one distinction in view for the whole module. A signal that is made and used inside the skin is a local loop. A hormone that arrives from the blood, or leaves the skin for the rest of the body, is systemic signalling."
-    },
-    "script": {
-     "sources": [
-      "m1-p01 body, sentences 1–2",
-      "m1-p03 audioScript, sentences 1–8"
-     ],
-     "rule": "verbatim approved sentences only"
-    }
-   },
-   "time": "02 / 25"
-  },
-  {
    "id": "m1-p02",
    "type": "reflection",
-   "time": "03 / 25",
+   "time": "02 / 25",
    "lead": {
     "en": "Your role"
    },
@@ -218,6 +181,43 @@
      "en": "Set for your role"
     }
    }
+  },
+  {
+   "id": "m1-opener",
+   "type": "video",
+   "lead": {
+    "en": "Module 01 · Opening film"
+   },
+   "title": {
+    "en": "The skin as an endocrine organ, and how it ages"
+   },
+   "assetRefs": [
+    "asset-hps-m01-opener",
+    "asset-hps-m01-opener-poster"
+   ],
+   "citationRefs": [
+    "slominski-2025-skin-neuro-immuno-endocrinology",
+    "slominski-wortsman-2000-skin-neuroendocrinology",
+    "zouboulis-2004-skin-endocrine-gland",
+    "roosterman-2006-neuronal-control-skin",
+    "hannah-shmouni-2026-are"
+   ],
+   "sourceNote": "Slominski 2025 · Slominski & Wortsman 2000 · Zouboulis 2004 · Roosterman 2006 · Aesthetic & Regenerative Endocrinology, ch. 5–6",
+   "metadata": {
+    "videoMode": "player",
+    "captionsBurnedIn": true,
+    "videoTranscript": {
+     "en": "This course starts with physiology, because every later question about a hormone or peptide for skin rests on it. Skin senses hormones from the blood, makes several of its own, and ages in ways that change both. Think of the skin as a sensing organ with its own hormone supply. Researchers who study it describe four units, epidermal, dermal, hypodermal and adnexal, the last meaning hair follicles and glands. Each unit holds cells that can make hormones and mount an immune response, such as keratinocytes, fibroblasts, sebocytes, fat cells and mast cells. Signals move three ways. Neighbouring cells talk directly, sensory nerves carry messages in and out, and some products enter the blood and reach distant organs. Keep one distinction in view for the whole module. A signal that is made and used inside the skin is a local loop. A hormone that arrives from the blood, or leaves the skin for the rest of the body, is systemic signalling."
+    },
+    "script": {
+     "sources": [
+      "m1-p01 body, sentences 1–2",
+      "m1-p03 audioScript, sentences 1–8"
+     ],
+     "rule": "verbatim approved sentences only"
+    }
+   },
+   "time": "03 / 25"
   },
   {
    "id": "m1-p03",
@@ -1059,45 +1059,9 @@
    }
   },
   {
-   "id": "m1-p09",
-   "type": "stat",
-   "time": "12 / 25",
-   "lead": {
-    "en": "What the atlas is"
-   },
-   "title": {
-    "en": "Prediction, in the authors' own words."
-   },
-   "body": {
-    "en": "The atlas's own portal describes its scores as 'putative and hypothesis-generating'. A few predictions were tested in cells in the paper itself; the rest are left for users to validate. Across biology, the amount of RNA for a gene is often a poor guide to how much protein a cell makes, and protein is still a step short of secretion."
-   },
-   "citationRefs": [
-    "fei-2026-hormone-cell-atlas",
-    "hormone-cell-atlas-portal",
-    "liu-2016-mrna-protein",
-    "hannah-shmouni-2026-are"
-   ],
-   "sourceNote": "Fei & Huang-Doran, Science 2026 · hormonecellatlas.org.uk About/FAQ, read 24 Sep 2026 · Liu 2016",
-   "stat": {
-    "figure": "379",
-    "label": {
-     "en": "hormone and receptor genes read as RNA, cell by cell"
-    },
-    "detail": {
-     "en": "Fei, Huang-Doran et al., Science 2026 · about 14 million cells and nuclei · 47 human tissues"
-    },
-    "means": {
-     "en": "The atlas shows which skin cells carry the RNA to make or sense a hormone. That is a well-founded hypothesis about where to look."
-    },
-    "doesNot": {
-     "en": "It does not show that a skin cell secretes a hormone, how much, or that the hormone acts there. A receptor gene on the map is not evidence that a product aimed at it works."
-    }
-   }
-  },
-  {
    "id": "m1-p10",
    "type": "tool",
-   "time": "13 / 25",
+   "time": "12 / 25",
    "lead": {
     "en": "Sort the evidence"
    },
@@ -1256,6 +1220,42 @@
    }
   },
   {
+   "id": "m1-p09",
+   "type": "stat",
+   "time": "13 / 25",
+   "lead": {
+    "en": "What the atlas is"
+   },
+   "title": {
+    "en": "Prediction, in the authors' own words."
+   },
+   "body": {
+    "en": "The atlas's own portal describes its scores as 'putative and hypothesis-generating'. A few predictions were tested in cells in the paper itself; the rest are left for users to validate. Across biology, the amount of RNA for a gene is often a poor guide to how much protein a cell makes, and protein is still a step short of secretion."
+   },
+   "citationRefs": [
+    "fei-2026-hormone-cell-atlas",
+    "hormone-cell-atlas-portal",
+    "liu-2016-mrna-protein",
+    "hannah-shmouni-2026-are"
+   ],
+   "sourceNote": "Fei & Huang-Doran, Science 2026 · hormonecellatlas.org.uk About/FAQ, read 24 Sep 2026 · Liu 2016",
+   "stat": {
+    "figure": "379",
+    "label": {
+     "en": "hormone and receptor genes read as RNA, cell by cell"
+    },
+    "detail": {
+     "en": "Fei, Huang-Doran et al., Science 2026 · about 14 million cells and nuclei · 47 human tissues"
+    },
+    "means": {
+     "en": "The atlas shows which skin cells carry the RNA to make or sense a hormone. That is a well-founded hypothesis about where to look."
+    },
+    "doesNot": {
+     "en": "It does not show that a skin cell secretes a hormone, how much, or that the hormone acts there. A receptor gene on the map is not evidence that a product aimed at it works."
+    }
+   }
+  },
+  {
    "id": "m1-p11",
    "type": "audio",
    "time": "14 / 25",
@@ -1372,7 +1372,7 @@
      "en": "Where the page overreaches"
     },
     "prompt": {
-     "en": "A fictional product page. Find the lines this lesson's evidence does not support."
+     "en": "Find the lines this lesson's evidence does not support."
     },
     "hint": {
      "en": "Hold each line against what an RNA map can show, what a receptor can promise, how skin changes a hormone's strength, and what the sunscreen trials found."
@@ -2785,6 +2785,76 @@
    "forReview": "Fady Hannah-Shmouni",
    "confirmedBy": "Fady Hannah-Shmouni, MD FRCPC (relayed by Omar Saleem)",
    "confirmedAt": "2026-09-26"
+  },
+  {
+   "date": "2026-09-28",
+   "block": "m1-p02, m1-opener",
+   "change": "Moved: the role question now comes before the opening film (moments 02 and 03 swap), so lesson 1.1 asks for a decision in its first minute. Both moments are unchanged.",
+   "reason": "Sitting design pilot on Module 1 (Omar, 2026-09-28: \"yes to all 4\"; perceptor-foundry templates/microlearning/SITTING-DESIGN.md). Omar: films stay unchanged; \"its more what is around them and the journey\". Dosage rule: a decision within 60 s; the role question landed at 1:42.",
+   "before": {
+    "order": "m1-p01 › m1-opener › m1-p02",
+    "time": {
+     "m1-opener": "02 / 25",
+     "m1-p02": "03 / 25"
+    }
+   },
+   "after": {
+    "order": "m1-p01 › m1-p02 › m1-opener",
+    "time": {
+     "m1-p02": "02 / 25",
+     "m1-opener": "03 / 25"
+    }
+   },
+   "forReview": "Fady Hannah-Shmouni; Omar Saleem",
+   "pilot": "sitting-design-2026-09-28"
+  },
+  {
+   "date": "2026-09-28",
+   "block": "m1-p10, m1-p09",
+   "change": "Moved: the sort 'Transcript, tissue or person?' now comes before the stat 'Prediction, in the authors' own words.', so lesson 1.2 asks for a decision in its first minute; the stat then confirms the authors' own word, 'putative'. Both moments are unchanged.",
+   "reason": "Sitting design pilot on Module 1 (Omar, 2026-09-28: \"yes to all 4\"; perceptor-foundry templates/microlearning/SITTING-DESIGN.md). Dosage rule: a decision within 60 s; the sort landed at 1:44 after the narrated card and the stat.",
+   "before": {
+    "order": "m1-p08 › m1-p09 › m1-p10",
+    "time": {
+     "m1-p09": "12 / 25",
+     "m1-p10": "13 / 25"
+    }
+   },
+   "after": {
+    "order": "m1-p08 › m1-p10 › m1-p09",
+    "time": {
+     "m1-p10": "12 / 25",
+     "m1-p09": "13 / 25"
+    }
+   },
+   "forReview": "Fady Hannah-Shmouni; Omar Saleem",
+   "pilot": "sitting-design-2026-09-28"
+  },
+  {
+   "date": "2026-09-28",
+   "block": "m1-p01",
+   "change": "Trimmed: the cover's first sentence ('This course starts with physiology…') is removed; the opening film, two moments later, speaks it verbatim. Nothing is added.",
+   "reason": "Sitting design pilot on Module 1 (Omar, 2026-09-28: \"yes to all 4\"; perceptor-foundry templates/microlearning/SITTING-DESIGN.md). Dosage rule: at most 100 words before the first tap (the cover had 110; now 91). Say it once: the cover and the film repeated the same two sentences.",
+   "before": "This course starts with physiology, because every later question about a hormone or peptide for skin rests on it. Skin senses hormones from the blood, makes several of its own, and ages in ways that change both. In three lessons you will separate what happens locally in the skin from what the rest of the body sends in, and label each finding by the kind of evidence behind it.",
+   "after": "Skin senses hormones from the blood, makes several of its own, and ages in ways that change both. In three lessons you will separate what happens locally in the skin from what the rest of the body sends in, and label each finding by the kind of evidence behind it.",
+   "carriedElsewhere": [
+    "m1-opener videoTranscript, sentence 1 (verbatim)"
+   ],
+   "forReview": "Fady Hannah-Shmouni; Omar Saleem",
+   "pilot": "sitting-design-2026-09-28"
+  },
+  {
+   "date": "2026-09-28",
+   "block": "m1-x03",
+   "change": "Trimmed: the exercise prompt no longer repeats 'A fictional product page.'; the moment's own line above it ('A fictional product page that leans on the cell atlas.') keeps the fictional label on screen.",
+   "reason": "Sitting design pilot on Module 1 (Omar, 2026-09-28: \"yes to all 4\"; perceptor-foundry templates/microlearning/SITTING-DESIGN.md). Dosage rule: at most 100 words before the first tap (102; now 98).",
+   "before": "A fictional product page. Find the lines this lesson's evidence does not support.",
+   "after": "Find the lines this lesson's evidence does not support.",
+   "carriedElsewhere": [
+    "m1-x03 body (shown above the exercise)"
+   ],
+   "forReview": "Fady Hannah-Shmouni; Omar Saleem",
+   "pilot": "sitting-design-2026-09-28"
   }
  ],
  "reviewNotes": [
