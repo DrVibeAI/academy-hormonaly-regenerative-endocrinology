@@ -1,0 +1,200 @@
+{
+ "schema": "perceptor.narration-alignment/1",
+ "audio": "b3.en.caa1800a.mp3",
+ "locale": "en",
+ "text": "The framework is drawn from cell, tissue and animal work. It explains how skin behaves; each finding in this module is labelled by the evidence behind it.",
+ "text_sha256": "9e72a49b61e1c3399cee20641c2853e7d90c3925f24b8661a96388fe7c2f2eb3",
+ "duration_seconds": 11.04,
+ "engine": {
+  "tool": "elevenlabs-scribe",
+  "model": "scribe_v1",
+  "synthesis": {
+   "provider": "gemini-tts",
+   "model": "gemini-3.8-flash-tts",
+   "voice": "en-gb-tutor-1",
+   "key": "caa1800a029609778aaed77ef4fcf41e55008acfc09713c22fbe51e5072a11f2"
+  }
+ },
+ "generated_at": "2026-09-28T04:41:24.310Z",
+ "stats": {
+  "tokens": 27,
+  "spoken_tokens": 27,
+  "matched": 26,
+  "mismatched": 1,
+  "interpolated": 0,
+  "unmatched_heard": 0,
+  "match_rate": 0.963,
+  "first_word_start": 0.32,
+  "last_word_end": 10.72
+ },
+ "words": [
+  {
+   "text": "The",
+   "start": 0.32,
+   "end": 0.4
+  },
+  {
+   "text": "framework",
+   "start": 0.46,
+   "end": 1
+  },
+  {
+   "text": "is",
+   "start": 1.06,
+   "end": 1.18
+  },
+  {
+   "text": "drawn",
+   "start": 1.24,
+   "end": 1.56
+  },
+  {
+   "text": "from",
+   "start": 1.6,
+   "end": 1.84
+  },
+  {
+   "text": "cell,",
+   "start": 1.94,
+   "end": 2.34
+  },
+  {
+   "text": "tissue",
+   "start": 2.64,
+   "end": 3.1
+  },
+  {
+   "text": "and",
+   "start": 3.3,
+   "end": 3.52
+  },
+  {
+   "text": "animal",
+   "start": 3.6,
+   "end": 3.92
+  },
+  {
+   "text": "work.",
+   "start": 3.98,
+   "end": 4.28
+  },
+  {
+   "text": "It",
+   "start": 4.8,
+   "end": 4.86
+  },
+  {
+   "text": "explains",
+   "start": 4.92,
+   "end": 5.42
+  },
+  {
+   "text": "how",
+   "start": 5.5,
+   "end": 5.72
+  },
+  {
+   "text": "skin",
+   "start": 5.8,
+   "end": 6.02
+  },
+  {
+   "text": "behaves;",
+   "start": 6.06,
+   "end": 6.68
+  },
+  {
+   "text": "each",
+   "start": 7.22,
+   "end": 7.46
+  },
+  {
+   "text": "finding",
+   "start": 7.54,
+   "end": 7.92
+  },
+  {
+   "text": "in",
+   "start": 7.98,
+   "end": 8.06
+  },
+  {
+   "text": "this",
+   "start": 8.1,
+   "end": 8.24
+  },
+  {
+   "text": "module",
+   "start": 8.3,
+   "end": 8.68
+  },
+  {
+   "text": "is",
+   "start": 8.76,
+   "end": 8.9
+  },
+  {
+   "text": "labelled",
+   "start": 8.98,
+   "end": 9.4,
+   "matched": false,
+   "heard": "labeled"
+  },
+  {
+   "text": "by",
+   "start": 9.44,
+   "end": 9.56
+  },
+  {
+   "text": "the",
+   "start": 9.62,
+   "end": 9.68
+  },
+  {
+   "text": "evidence",
+   "start": 9.74,
+   "end": 10.1
+  },
+  {
+   "text": "behind",
+   "start": 10.14,
+   "end": 10.48
+  },
+  {
+   "text": "it.",
+   "start": 10.52,
+   "end": 10.72
+  }
+ ],
+ "mismatches": [
+  {
+   "index": 21,
+   "canonical": "labelled",
+   "heard": "labeled",
+   "start": 8.98
+  }
+ ],
+ "unmatched_heard": [],
+ "cues": [
+  {
+   "text": "The framework is drawn from cell, tissue and animal work.",
+   "at": 0.32,
+   "until": 4.58
+  },
+  {
+   "text": "It explains how skin behaves;",
+   "at": 4.8,
+   "until": 6.98
+  },
+  {
+   "text": "each finding in this module is",
+   "at": 7.22,
+   "until": 8.98
+  },
+  {
+   "text": "labelled by the evidence behind it.",
+   "at": 8.98,
+   "until": 11.02
+  }
+ ]
+}

@@ -1,0 +1,262 @@
+{
+ "schema": "perceptor.narration-alignment/1",
+ "audio": "b1.en.7a683187.mp3",
+ "locale": "en",
+ "text": "The Hormone Cell Atlas, published in Science in 2026, read the RNA for 379 hormone and receptor genes in about 14 million single cells and nuclei from 47 human tissues, skin among them.",
+ "text_sha256": "316cdb72ce23f2e752cdad6fd79a5cf494a9bcb6a8a395c532f431203e3ad967",
+ "duration_seconds": 16.4,
+ "engine": {
+  "tool": "elevenlabs-scribe",
+  "model": "scribe_v1",
+  "synthesis": {
+   "provider": "gemini-tts",
+   "model": "gemini-3.8-flash-tts",
+   "voice": "en-gb-tutor-1",
+   "key": "7a6831872c639610100971dee76903c0fd6b4d3cc9157850bf942427e5d420cb"
+  }
+ },
+ "generated_at": "2026-09-28T04:41:53.008Z",
+ "stats": {
+  "tokens": 33,
+  "spoken_tokens": 33,
+  "matched": 30,
+  "mismatched": 3,
+  "interpolated": 0,
+  "unmatched_heard": 3,
+  "match_rate": 0.909,
+  "first_word_start": 0.38,
+  "last_word_end": 16.1
+ },
+ "words": [
+  {
+   "text": "The",
+   "start": 0.38,
+   "end": 0.46
+  },
+  {
+   "text": "Hormone",
+   "start": 0.54,
+   "end": 1.02
+  },
+  {
+   "text": "Cell",
+   "start": 1.18,
+   "end": 1.38
+  },
+  {
+   "text": "Atlas,",
+   "start": 1.46,
+   "end": 1.9
+  },
+  {
+   "text": "published",
+   "start": 2.14,
+   "end": 2.48
+  },
+  {
+   "text": "in",
+   "start": 2.54,
+   "end": 2.68
+  },
+  {
+   "text": "Science",
+   "start": 2.76,
+   "end": 3.18
+  },
+  {
+   "text": "in",
+   "start": 3.22,
+   "end": 3.34
+  },
+  {
+   "text": "2026,",
+   "start": 3.46,
+   "end": 4.26
+  },
+  {
+   "text": "read",
+   "start": 4.82,
+   "end": 5.02
+  },
+  {
+   "text": "the",
+   "start": 5.08,
+   "end": 5.24
+  },
+  {
+   "text": "RNA",
+   "start": 5.4,
+   "end": 5.92
+  },
+  {
+   "text": "for",
+   "start": 5.98,
+   "end": 6.12
+  },
+  {
+   "text": "379",
+   "start": 6.96,
+   "end": 7.78,
+   "matched": false,
+   "heard": "seventy-nine"
+  },
+  {
+   "text": "hormone",
+   "start": 7.92,
+   "end": 8.44
+  },
+  {
+   "text": "and",
+   "start": 8.48,
+   "end": 8.64
+  },
+  {
+   "text": "receptor",
+   "start": 8.68,
+   "end": 9.08
+  },
+  {
+   "text": "genes",
+   "start": 9.18,
+   "end": 9.58
+  },
+  {
+   "text": "in",
+   "start": 9.7,
+   "end": 9.74
+  },
+  {
+   "text": "about",
+   "start": 9.8,
+   "end": 10.02
+  },
+  {
+   "text": "14",
+   "start": 10.24,
+   "end": 10.74,
+   "matched": false,
+   "heard": "fourteen"
+  },
+  {
+   "text": "million",
+   "start": 10.88,
+   "end": 11.24
+  },
+  {
+   "text": "single",
+   "start": 11.38,
+   "end": 11.66
+  },
+  {
+   "text": "cells",
+   "start": 11.76,
+   "end": 12.06
+  },
+  {
+   "text": "and",
+   "start": 12.08,
+   "end": 12.18
+  },
+  {
+   "text": "nuclei",
+   "start": 12.24,
+   "end": 12.76
+  },
+  {
+   "text": "from",
+   "start": 13.1,
+   "end": 13.3
+  },
+  {
+   "text": "47",
+   "start": 13.38,
+   "end": 14,
+   "matched": false,
+   "heard": "forty-seven"
+  },
+  {
+   "text": "human",
+   "start": 14.1,
+   "end": 14.36
+  },
+  {
+   "text": "tissues,",
+   "start": 14.42,
+   "end": 14.86
+  },
+  {
+   "text": "skin",
+   "start": 15.34,
+   "end": 15.62
+  },
+  {
+   "text": "among",
+   "start": 15.68,
+   "end": 15.9
+  },
+  {
+   "text": "them.",
+   "start": 15.94,
+   "end": 16.1
+  }
+ ],
+ "mismatches": [
+  {
+   "index": 13,
+   "canonical": "379",
+   "heard": "seventy-nine",
+   "start": 6.96
+  },
+  {
+   "index": 20,
+   "canonical": "14",
+   "heard": "fourteen",
+   "start": 10.24
+  },
+  {
+   "index": 27,
+   "canonical": "47",
+   "heard": "forty-seven",
+   "start": 13.38
+  }
+ ],
+ "unmatched_heard": [
+  {
+   "text": "three",
+   "start": 6.18,
+   "end": 6.4
+  },
+  {
+   "text": "hundred",
+   "start": 6.5,
+   "end": 6.74
+  },
+  {
+   "text": "and",
+   "start": 6.78,
+   "end": 6.84
+  }
+ ],
+ "cues": [
+  {
+   "text": "The Hormone Cell Atlas, published in Science in 2026,",
+   "at": 0.38,
+   "until": 4.56
+  },
+  {
+   "text": "read the RNA for 379 hormone and receptor genes in about",
+   "at": 4.82,
+   "until": 10.24
+  },
+  {
+   "text": "14 million single cells and nuclei from 47 human tissues,",
+   "at": 10.24,
+   "until": 15.16
+  },
+  {
+   "text": "skin among them.",
+   "at": 15.34,
+   "until": 16.4
+  }
+ ]
+}
