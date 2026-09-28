@@ -94,6 +94,7 @@
     "m1-p16",
     "m1-x05",
     "m1-p17",
+    "m1-p17b",
     "m1-p18",
     "m1-p19"
    ]
@@ -103,7 +104,7 @@
   {
    "id": "m1-p01",
    "type": "title",
-   "time": "01 / 25",
+   "time": "01 / 26",
    "lead": {
     "en": "Module 01 · The skin as an endocrine organ"
    },
@@ -128,7 +129,7 @@
   {
    "id": "m1-p02",
    "type": "reflection",
-   "time": "02 / 25",
+   "time": "02 / 26",
    "lead": {
     "en": "Your role"
    },
@@ -217,12 +218,12 @@
      "rule": "verbatim approved sentences only"
     }
    },
-   "time": "03 / 25"
+   "time": "03 / 26"
   },
   {
    "id": "m1-p03",
    "type": "audio",
-   "time": "04 / 25",
+   "time": "04 / 26",
    "lead": {
     "en": "Lesson 1.1 · Concept"
    },
@@ -408,7 +409,7 @@
   {
    "id": "m1-p04",
    "type": "tool",
-   "time": "05 / 25",
+   "time": "05 / 26",
    "lead": {
     "en": "Mechanism"
    },
@@ -631,7 +632,7 @@
   {
    "id": "m1-p05",
    "type": "tool",
-   "time": "06 / 25",
+   "time": "06 / 26",
    "lead": {
     "en": "Local or systemic"
    },
@@ -814,7 +815,7 @@
   {
    "id": "m1-x01",
    "type": "tool",
-   "time": "07 / 25",
+   "time": "07 / 26",
    "lead": {
     "en": "Practice"
    },
@@ -905,7 +906,7 @@
   {
    "id": "m1-p06",
    "type": "audio",
-   "time": "08 / 25",
+   "time": "08 / 26",
    "lead": {
     "en": "What changes in practice"
    },
@@ -1058,7 +1059,7 @@
   {
    "id": "m1-x02",
    "type": "tool",
-   "time": "09 / 25",
+   "time": "09 / 26",
    "lead": {
     "en": "Practice"
    },
@@ -1222,7 +1223,7 @@
   {
    "id": "m1-p07",
    "type": "tool",
-   "time": "10 / 25",
+   "time": "10 / 26",
    "lead": {
     "en": "Your turn"
    },
@@ -1327,7 +1328,7 @@
   {
    "id": "m1-p08",
    "type": "audio",
-   "time": "11 / 25",
+   "time": "11 / 26",
    "lead": {
     "en": "Lesson 1.2 · Concept"
    },
@@ -1465,7 +1466,7 @@
   {
    "id": "m1-p10",
    "type": "tool",
-   "time": "12 / 25",
+   "time": "12 / 26",
    "lead": {
     "en": "Sort the evidence"
    },
@@ -1626,7 +1627,7 @@
   {
    "id": "m1-p09",
    "type": "stat",
-   "time": "13 / 25",
+   "time": "13 / 26",
    "lead": {
     "en": "What the atlas is"
    },
@@ -1662,7 +1663,7 @@
   {
    "id": "m1-p11",
    "type": "audio",
-   "time": "14 / 25",
+   "time": "14 / 26",
    "lead": {
     "en": "What changes in practice"
    },
@@ -1815,7 +1816,7 @@
   {
    "id": "m1-x03",
    "type": "tool",
-   "time": "15 / 25",
+   "time": "15 / 26",
    "lead": {
     "en": "Practice"
    },
@@ -1935,7 +1936,7 @@
   {
    "id": "m1-p12",
    "type": "quiz",
-   "time": "16 / 25",
+   "time": "16 / 26",
    "lead": {
     "en": "Your turn"
    },
@@ -1992,7 +1993,7 @@
   {
    "id": "m1-p13",
    "type": "audio",
-   "time": "17 / 25",
+   "time": "17 / 26",
    "lead": {
     "en": "Lesson 1.3 · Concept"
    },
@@ -2141,7 +2142,7 @@
   {
    "id": "m1-x04",
    "type": "tool",
-   "time": "18 / 25",
+   "time": "18 / 26",
    "lead": {
     "en": "Practice"
    },
@@ -2244,7 +2245,7 @@
   {
    "id": "m1-p14",
    "type": "stat",
-   "time": "19 / 25",
+   "time": "19 / 26",
    "lead": {
     "en": "Human evidence"
    },
@@ -2278,7 +2279,7 @@
   {
    "id": "m1-p15",
    "type": "tool",
-   "time": "20 / 25",
+   "time": "20 / 26",
    "lead": {
     "en": "Four registers"
    },
@@ -2464,7 +2465,7 @@
   {
    "id": "m1-p16",
    "type": "audio",
-   "time": "21 / 25",
+   "time": "21 / 26",
    "lead": {
     "en": "Where the evidence is strongest"
    },
@@ -2614,7 +2615,7 @@
   {
    "id": "m1-x05",
    "type": "tool",
-   "time": "22 / 25",
+   "time": "22 / 26",
    "lead": {
     "en": "Practice"
    },
@@ -2765,7 +2766,7 @@
   {
    "id": "m1-p17",
    "type": "audio",
-   "time": "23 / 25",
+   "time": "23 / 26",
    "lead": {
     "en": "Fictional case"
    },
@@ -2884,6 +2885,47 @@
      ]
     }
    ],
+   "metadata": {
+    "audioScript": {
+     "en": "Consider a fifty-eight-year-old patient, fictional and built from this lesson's evidence. She has read that senolytic supplements clear so-called zombie cells and reverse skin ageing, and she asks whether to start one she found online. She does not wear sunscreen every day. Three facts frame the conversation. Senescent cells really do accumulate in human skin, and their number tracks with wrinkles and with how old a person looks. The evidence that clearing them helps comes from mice, and the human studies so far are small pilots measuring markers in tissue. Daily sunscreen and topical retinoids, by contrast, have randomised trials with visible skin outcomes. The Aesthetic and Regenerative Endocrinology guide advises keeping senolytics within clinical trials. Decide what you say first."
+    },
+    "presentation": "readalong"
+   },
+   "imageBrief": {
+    "prompt": "An evidence staircase of three plain paper steps rising from left to right. On the lowest step sits a shallow laboratory culture dish; on the middle step a small mouse silhouette; on the top step two neat parallel columns of identical round tokens, one violet and one grey, standing for a randomized trial in people, with a thin translucent protective film shape lying beside them. A single plain, unmarked capsule outlined in violet rests on the middle step beside the mouse. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+    "aspectRatio": "16:9",
+    "styleRef": "house",
+    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+    "assetRef": "asset-hormones-peptides-skin-image-m1-p17-img"
+   },
+   "teachingVisual": {
+    "assetRef": "asset-hormones-peptides-skin-image-m1-p17-img",
+    "alt": {
+     "en": "Three steps of evidence, from a culture dish to a mouse to a human trial; an unmarked capsule sits on the mouse step, while a sun-protection film sits on the top step."
+    },
+    "treatment": "cover",
+    "position": "top"
+   }
+  },
+  {
+   "id": "m1-p17b",
+   "type": "tool",
+   "time": "24 / 26",
+   "lead": {
+    "en": "Fictional case"
+   },
+   "title": {
+    "en": "What do you do first?"
+   },
+   "citationRefs": [
+    "waaijer-2016-p16-wrinkles",
+    "baker-2016-p16-clearance-mice",
+    "hickson-2019-senolytic-dkd-pilot",
+    "hughes-2013-sunscreen-skin-aging-rct",
+    "sitohang-2022-tretinoin-sr",
+    "hannah-shmouni-2026-are"
+   ],
+   "sourceNote": "Fictional case · Waaijer 2016 · Baker 2016 · Hickson 2019 · Hughes 2013 · Sitohang 2022 · Aesthetic & Regenerative Endocrinology, ch. 17",
    "interaction": {
     "kind": "scenario",
     "title": {
@@ -2947,9 +2989,6 @@
     "source": "authored:2026-09-24 from registry m01 claims c-m01-16, -18, -19, -20 + Aesthetic & Regenerative Endocrinology ch.17 clinical pearl"
    },
    "metadata": {
-    "audioScript": {
-     "en": "Consider a fifty-eight-year-old patient, fictional and built from this lesson's evidence. She has read that senolytic supplements clear so-called zombie cells and reverse skin ageing, and she asks whether to start one she found online. She does not wear sunscreen every day. Three facts frame the conversation. Senescent cells really do accumulate in human skin, and their number tracks with wrinkles and with how old a person looks. The evidence that clearing them helps comes from mice, and the human studies so far are small pilots measuring markers in tissue. Daily sunscreen and topical retinoids, by contrast, have randomised trials with visible skin outcomes. The Aesthetic and Regenerative Endocrinology guide advises keeping senolytics within clinical trials. Decide what you say first."
-    },
     "variants": {
      "audienceLevel": {
       "prescriber": {
@@ -2962,29 +3001,13 @@
        "en": "You explain the difference between mouse and human evidence, reinforce daily sunscreen, and suggest a prescriber for a retinoid or if she wants to explore a trial."
       }
      }
-    },
-    "presentation": "readalong"
-   },
-   "imageBrief": {
-    "prompt": "An evidence staircase of three plain paper steps rising from left to right. On the lowest step sits a shallow laboratory culture dish; on the middle step a small mouse silhouette; on the top step two neat parallel columns of identical round tokens, one violet and one grey, standing for a randomized trial in people, with a thin translucent protective film shape lying beside them. A single plain, unmarked capsule outlined in violet rests on the middle step beside the mouse. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
-    "aspectRatio": "16:9",
-    "styleRef": "house",
-    "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
-    "assetRef": "asset-hormones-peptides-skin-image-m1-p17-img"
-   },
-   "teachingVisual": {
-    "assetRef": "asset-hormones-peptides-skin-image-m1-p17-img",
-    "alt": {
-     "en": "Three steps of evidence, from a culture dish to a mouse to a human trial; an unmarked capsule sits on the mouse step, while a sun-protection film sits on the top step."
-    },
-    "treatment": "cover",
-    "position": "top"
+    }
    }
   },
   {
    "id": "m1-p18",
    "type": "quiz",
-   "time": "24 / 25",
+   "time": "25 / 26",
    "lead": {
     "en": "Your turn"
    },
@@ -3044,7 +3067,7 @@
   {
    "id": "m1-p19",
    "type": "action",
-   "time": "25 / 25",
+   "time": "26 / 26",
    "lead": {
     "en": "Closing and commitment"
    },
@@ -3273,6 +3296,7 @@
    "m1-p14",
    "m1-p15",
    "m1-p17",
+   "m1-p17b",
    "m1-p18"
   ],
   "c-m01-17": [
@@ -3281,23 +3305,26 @@
   "c-m01-18": [
    "m1-p15",
    "m1-p17",
+   "m1-p17b",
    "m1-p18"
   ],
   "c-m01-19": [
    "m1-p15",
    "m1-p17",
+   "m1-p17b",
    "m1-p18"
   ],
   "c-m01-20": [
    "m1-p16",
-   "m1-p17"
+   "m1-p17",
+   "m1-p17b"
   ]
  },
  "audienceLevelPanes": [
   "m1-p02 (router)",
   "m1-p06",
   "m1-p11",
-  "m1-p17",
+  "m1-p17b",
   "m1-p19"
  ],
  "courseQuiz": [
@@ -4625,6 +4652,33 @@
    "forReview": "Fady Hannah-Shmouni; Omar Saleem",
    "pilot": "sitting-design-2026-09-28",
    "round": 2
+  },
+  {
+   "date": "2026-09-28",
+   "block": "m1-p17, m1-p17b",
+   "change": "Split: the case exercise moves from the read-along card m1-p17 to a new moment right after it, m1-p17b, unchanged. m1-p17 keeps its three beats, picture and narration. m1-p17b's lead ('Fictional case') is m1-p17's and its title is the exercise's own ('What do you do first?'). The role versions move with the case, so they still come after the decision. No text changes.",
+   "reason": "Round 2, a separate change Omar can accept or drop. On one card, the read-along and the case put about 240 words on screen before the first decision in Read mode. Split, the read-along card has 98 and the case card carries the approved case as it is. Its setup, 'what you notice' list and three options run over 100 words before the first tap, and trimming them would change approved text, so that is left to Omar and Fady.",
+   "before": {
+    "order": "m1-p16 › m1-x05 › m1-p17 (read-along + case) › m1-p18",
+    "moments": 25
+   },
+   "after": {
+    "order": "m1-p16 › m1-x05 › m1-p17 (read-along) › m1-p17b (case) › m1-p18",
+    "moments": 26,
+    "moved to m1-p17b": [
+     "interaction (the scenario, unchanged)",
+     "metadata.variants.audienceLevel (the three role versions, unchanged)",
+     "citationRefs and sourceNote (copied)"
+    ],
+    "labels": "renumbered 01 / 26 … 26 / 26"
+   },
+   "carriedElsewhere": [
+    "claims c-m01-16, -18, -19 and -20 are now located at m1-p17 and m1-p17b"
+   ],
+   "forReview": "Fady Hannah-Shmouni; Omar Saleem",
+   "pilot": "sitting-design-2026-09-28",
+   "round": 2,
+   "separable": true
   }
  ],
  "reviewNotes": [

@@ -13,11 +13,11 @@
   },
   {
    "gate": "dosage audit · Module 1",
-   "result": "9 failures → 1 (m1-p17: card total 240 words (read-along 96 + exercise 144); the rule is ≤ 200) · first decision 1:42 · 1:44 · 1:13 → 0:23 · 0:48 · 0:55 · longest passive run 3 → 2"
+   "result": "9 failures → 0 · first decision 1:42 · 1:44 · 1:13 → 0:23 · 0:48 · 0:55 · longest passive run 3 → 2"
   },
   {
    "gate": "dosage audit · course",
-   "result": "70 failures → 62 (modules 2–7 are not in this pilot)"
+   "result": "70 failures → 61 (modules 2–7 are not in this pilot)"
   },
   {
    "gate": "interaction audit",
@@ -37,7 +37,7 @@
   },
   {
    "gate": "course-final gate",
-   "result": "blocks, as it should: [medical review] no change made after an approval awaits the approver; [medical review] every logged change after approval is confirmed (29 open in course-production/*/authored); [framework] academy content merged to origin/factory/intake-hormonaly (reviewed build reproducible)"
+   "result": "blocks, as it should: [medical review] no change made after an approval awaits the approver; [medical review] every logged change after approval is confirmed (30 open in course-production/*/authored); [framework] academy content merged to origin/factory/intake-hormonaly (reviewed build reproducible)"
   },
   {
    "gate": "narration",

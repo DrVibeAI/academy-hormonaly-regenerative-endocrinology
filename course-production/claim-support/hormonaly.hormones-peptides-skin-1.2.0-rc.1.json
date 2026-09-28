@@ -1,13 +1,13 @@
 {
   "tool": "perceptor-foundry/tools/qa/claim-support.mjs",
   "contract": "docs/claim-support.md",
-  "generatedAt": "2026-09-28T05:32:12.427Z",
+  "generatedAt": "2026-09-28T05:34:39.440Z",
   "package": {
     "id": "hormonaly.hormones-peptides-skin",
     "version": "1.2.0-rc.1",
     "path": "packages/hormones-peptides-skin.json",
-    "sha256": "44bad6ee747dc18cb668cbfdc52222d478157c1136467b52c3e7044c8bf8d04b",
-    "contentDigest": "6ad1b8ba9e75ff7603cc585d97df49a988e709067ff008f7d0fccf281fe5fabf"
+    "sha256": "3d08e580ac2e9a843c653b880bd3594f1a0eddeb4eb4f63537c3d51d971cfd70",
+    "contentDigest": "4e5bf240aa09f21c7bb80c65de43efe11839b04f8c056b10875d6fd979034bb9"
   },
   "edition": "en",
   "models": [
@@ -17,19 +17,19 @@
   "maxChars": 60000,
   "usage": {
     "gemini-3.7-flash": {
-      "calls": 1,
-      "inputTokens": 20292,
-      "outputTokens": 326,
-      "seconds": 3
+      "calls": 3,
+      "inputTokens": 163047,
+      "outputTokens": 6801,
+      "seconds": 26
     }
   },
   "summary": {
-    "units": 777,
+    "units": 778,
     "nonFactual": 44,
     "unavailableUnits": 62,
     "errors": 0,
-    "assertions": 2172,
-    "supported": 1871,
+    "assertions": 2173,
+    "supported": 1872,
     "partial": 15,
     "contradicted": 0,
     "not_found": 258,
@@ -49,10 +49,12 @@
     }
   },
   "mergedFrom": {
-    "generatedAt": "2026-09-28T05:00:28.889Z",
-    "contentDigest": "1e50312ab039cb808cf36055e7b1487743fa58d622b6e8b8945bdbf477933a8e",
+    "generatedAt": "2026-09-28T05:32:12.427Z",
+    "contentDigest": "6ad1b8ba9e75ff7603cc585d97df49a988e709067ff008f7d0fccf281fe5fabf",
     "recheckedUnits": [
-      "m1-x03"
+      "m1-p17",
+      "m1-p17b",
+      "m1-p17b›interaction"
     ]
   },
   "sources": [
@@ -232,7 +234,7 @@
       "resolvedVia": [],
       "basis": "none",
       "preprint": false,
-      "error": "python3 unavailable (ETIMEDOUT) — install pypdf to read PDF sources",
+      "error": "PDF has no usable text layer (0 characters over 8 pages) — needs OCR or a text edition of the document",
       "titleMatch": null,
       "entrySha": "06f20c0e80187b3c8a62f911f682c06c23e6c14c5020312d25ddbbec37aa3397",
       "chars": 0,
@@ -28989,12 +28991,12 @@
       "nonFactual": false,
       "assertions": [
         {
-          "text": "Senescent cells accumulate in human skin and correlate with facial wrinkles and perceived age.",
+          "text": "Senescent cells accumulate in human skin and their numbers correlate with facial wrinkles and perceived age.",
           "kind": "descriptive",
           "verdict": "supported",
           "sourceId": "waaijer-2016-p16-wrinkles",
           "quote": "The p16INK4a positive epidermal cells (identified as primarily melanocytes) were also significantly associated with more facial wrinkles and a higher perceived age.",
-          "note": "A study of human skin biopsies found epidermal senescent cell counts were significantly associated with facial wrinkling and perceived age.",
+          "note": "Waaijer et al. (2016) found p16INK4a-positive epidermal cells were significantly associated with facial wrinkles and higher perceived age.",
           "status": "supported",
           "quoteCheck": {
             "ok": true,
@@ -29003,12 +29005,12 @@
           "severity": "ok"
         },
         {
-          "text": "Evidence for clearing senescent cells is based on mouse studies, whereas human studies to date are small pilot trials assessing tissue biomarkers.",
+          "text": "Evidence that clearing senescent cells provides benefits comes from mouse models, while human studies to date are small biomarker pilots.",
           "kind": "descriptive",
           "verdict": "supported",
           "sourceId": "hannah-shmouni-2026-are",
           "quote": "Senolytics (dasatinib plus quercetin; fisetin) clear senescent cells and extend healthspan in mice;[1] first-in-human pilots in pulmonary fibrosis and diabetic kidney disease show feasibility and reduced senescent-cell burden but are small, surrogate-only, and not outcome-powered, so any human healthspan claim remains GRADE C.[2,3]",
-          "note": "The guide and literature note that evidence of senolytic clearance comes from animal models alongside small human biomarker pilot trials.",
+          "note": "Hannah-Shmouni notes that senolytics show healthspan extension in mice, whereas first-in-human studies are small, surrogate/biomarker pilots.",
           "status": "supported",
           "quoteCheck": {
             "ok": true,
@@ -29017,12 +29019,12 @@
           "severity": "ok"
         },
         {
-          "text": "Daily sunscreen use and topical retinoids have randomized controlled trial evidence demonstrating visible improvements in skin aging outcomes.",
+          "text": "Daily sunscreen and topical retinoids have randomized human trials showing improvements in visible skin aging outcomes.",
           "kind": "descriptive",
           "verdict": "supported",
-          "sourceId": "sitohang-2022-tretinoin-sr",
-          "quote": "With regard to efficacy, all studies consistently reported that topical tretinoin was efficacious in improving clinical appearance of photoaging in terms of wrinkling, mottled hyperpigmentation, sallowness, and lentigines as early as 1 month and lasted after 24 months.",
-          "note": "Systematic review and randomized trial data confirm that daily sunscreen and topical retinoids significantly improve visible skin photoaging signs.",
+          "sourceId": "hughes-2013-sunscreen-skin-aging-rct",
+          "quote": "Skin aging from baseline to the end of the trial was 24% less in the daily sunscreen group than in the discretionary sunscreen group (relative odds, 0.76 [95% CI, 0.59 to 0.98]).",
+          "note": "Hughes et al. (2013) demonstrated randomized trial evidence for daily sunscreen retarding skin aging, and Sitohang et al. (2022) systematic review confirmed RCT evidence for tretinoin.",
           "status": "supported",
           "quoteCheck": {
             "ok": true,
@@ -29031,12 +29033,12 @@
           "severity": "ok"
         },
         {
-          "text": "The Aesthetic & Regenerative Endocrinology guide advises that senolytics should be restricted to clinical trials.",
+          "text": "The Aesthetic and Regenerative Endocrinology guide advises that senolytics should generally be confined to clinical trials.",
           "kind": "recommendation",
           "verdict": "supported",
           "sourceId": "hannah-shmouni-2026-are",
-          "quote": "PEARL 10 — Senolytics belong in trials. The preclinical story is compelling; human outcome evidence is not yet there. Intermittent dasatinib + quercetin and similar regimens should generally stay within registered studies.",
-          "note": "The clinical guide specifically recommends keeping senolytic regimens confined to registered clinical trial protocols.",
+          "quote": "Senolytics in particular should generally be confined to clinical trials.",
+          "note": "The guide explicitly advises keeping senolytic regimens confined to clinical trials.",
           "status": "supported",
           "quoteCheck": {
             "ok": true,
@@ -29048,12 +29050,49 @@
       "fullyRead": false,
       "severity": "ok",
       "status": "supported",
-      "unitSha": "b99b7d81beaa965630174fb6e22baa91a1dde9e3f947c2deba6fc25eece6f9e7"
+      "unitSha": "29a79c4bc082b2449a18c31d5e2f1ab787d7f4a63f0d66f8f7765888fa7d4eda"
     },
     {
-      "id": "m1-p17›interaction",
+      "id": "m1-p17b",
+      "kind": "block",
+      "path": "curriculum.modules[0].units[0].blocks[23]",
+      "text": "Fictional case\nWhat do you do first?\nRole version (prescriber): You weigh a prescription retinoid against her skin and history, document the discussion, and explain that senolytics are still at the pilot-study stage and belong in trials.\nRole version (clinical-staff): You record what she plans to buy and anything she already takes, share the evidence summary, and pass the retinoid question to the prescriber.\nRole version (advisor): You explain the difference between mouse and human evidence, reinforce daily sunscreen, and suggest a prescriber for a retinoid or if she wants to explore a trial.",
+      "citationRefs": [
+        "waaijer-2016-p16-wrinkles",
+        "baker-2016-p16-clearance-mice",
+        "hickson-2019-senolytic-dkd-pilot",
+        "hughes-2013-sunscreen-skin-aging-rct",
+        "sitohang-2022-tretinoin-sr",
+        "hannah-shmouni-2026-are"
+      ],
+      "sourceNote": "Fictional case · Waaijer 2016 · Baker 2016 · Hickson 2019 · Hughes 2013 · Sitohang 2022 · Aesthetic & Regenerative Endocrinology, ch. 17",
+      "preprintCited": [],
+      "nonFactual": false,
+      "assertions": [
+        {
+          "text": "Senolytics are currently at the pilot-study stage and should be confined to clinical trials.",
+          "kind": "descriptive",
+          "verdict": "supported",
+          "sourceId": "hannah-shmouni-2026-are",
+          "quote": "PEARL 10 — Senolytics belong in trials. The preclinical story is compelling; human outcome evidence is not yet there. Intermittent dasatinib + quercetin and similar regimens should generally stay within registered studies.",
+          "note": "The pocket guide confirms that human senolytic data remain at the small pilot-study stage and that senolytics belong in registered clinical trials.",
+          "status": "supported",
+          "quoteCheck": {
+            "ok": true,
+            "how": "exact"
+          },
+          "severity": "ok"
+        }
+      ],
+      "fullyRead": false,
+      "severity": "ok",
+      "status": "supported",
+      "unitSha": "0b685fda34eff0173489b1bec7e9a1132b42cdb1a9d5650b31d23699c95eb965"
+    },
+    {
+      "id": "m1-p17b›interaction",
       "kind": "unit",
-      "path": "curriculum.modules[0].units[0].blocks[16].interaction",
+      "path": "curriculum.modules[0].units[0].blocks[23].interaction",
       "text": "What do you do first?\nDistractor (deliberately false, not a claim): Support a trial of the supplement: senescent cells clearly age skin, so clearing them should help.\nExplanation: The human evidence is an association and the clearing evidence is in mice. No trial has tested senolytics on skin-ageing outcomes.\nCorrect answer: Explain what is known in people and what only in mice, point her to the measures with trials (daily sunscreen, and a topical retinoid discussed with a prescriber), and mention that senolytics are being studied in trials.\nExplanation: Right. It keeps the registers apart and moves her toward the levers with human outcome data. The guide advises that senolytics generally be confined to clinical trials.\nDistractor (deliberately false, not a claim): Tell her senescence is a mouse phenomenon with no relevance to human skin.\nExplanation: Senescent cells are measurable in hu…",
       "citationRefs": [
         "waaijer-2016-p16-wrinkles",
@@ -29067,12 +29106,12 @@
       "nonFactual": false,
       "assertions": [
         {
-          "text": "Senescent cell numbers in human skin are measurable and track with facial wrinkles and perceived age.",
+          "text": "Senescent cells are measurable in human skin and associate with facial wrinkles and perceived age.",
           "kind": "descriptive",
           "verdict": "supported",
           "sourceId": "waaijer-2016-p16-wrinkles",
           "quote": "The p16INK4a positive epidermal cells (identified as primarily melanocytes) were also significantly associated with more facial wrinkles and a higher perceived age.",
-          "note": "Epidermal p16INK4a-positive senescent cells were significantly associated with more wrinkles and higher perceived age.",
+          "note": "Waaijer et al. showed that epidermal p16INK4a-positive cells were significantly associated with facial wrinkles and perceived age.",
           "status": "supported",
           "quoteCheck": {
             "ok": true,
@@ -29081,12 +29120,12 @@
           "severity": "ok"
         },
         {
-          "text": "Evidence of benefits from clearing senescent cells has been demonstrated in mice.",
-          "kind": "causal",
+          "text": "Evidence for clearing senescent cells to improve lifespan and organ deterioration comes from mouse models.",
+          "kind": "descriptive",
           "verdict": "supported",
           "sourceId": "baker-2016-p16-clearance-mice",
           "quote": "Clearance of p16 Ink4a -positive cells delayed tumorigenesis and attenuated age-related deterioration of several organs without apparent side effects, including kidney, heart and fat, where clearance preserved the functionality of glomeruli, cardio-protective K ATP channels, and adipocytes, respectively.",
-          "note": "Clearing p16Ink4a-positive cells attenuated age-related deterioration across several organs in mice.",
+          "note": "Baker et al. demonstrated that clearing p16Ink4a-positive cells in mice extended lifespan and delayed organ deterioration.",
           "status": "supported",
           "quoteCheck": {
             "ok": true,
@@ -29095,12 +29134,12 @@
           "severity": "ok"
         },
         {
-          "text": "Measures with randomized trial evidence for preventing or treating skin aging include daily sunscreen and topical retinoids.",
+          "text": "Daily sunscreen use has randomized trial evidence retarding skin aging.",
           "kind": "descriptive",
           "verdict": "supported",
           "sourceId": "hughes-2013-sunscreen-skin-aging-rct",
-          "quote": "The daily sunscreen group showed no detectable increase in skin aging after 4.5 years. Skin aging from baseline to the end of the trial was 24% less in the daily sunscreen group than in the discretionary sunscreen group (relative odds, 0.76 [95% CI, 0.59 to 0.98]).",
-          "note": "A randomized trial showed that regular daily sunscreen use retards skin aging over 4.5 years.",
+          "quote": "Regular sunscreen use retards skin aging in healthy, middle-aged men and women.",
+          "note": "Hughes et al. demonstrated in an RCT that regular sunscreen use retards skin aging.",
           "status": "supported",
           "quoteCheck": {
             "ok": true,
@@ -29109,26 +29148,26 @@
           "severity": "ok"
         },
         {
-          "text": "The clinical guide advises that senolytics should generally be confined to clinical trials.",
+          "text": "Topical retinoids have clinical trial evidence for improving signs of skin photoaging.",
+          "kind": "descriptive",
+          "verdict": "supported",
+          "sourceId": "sitohang-2022-tretinoin-sr",
+          "quote": "Topical tretinoin is a safe and effective therapeutic modality for long-term treatment of photoaging.",
+          "note": "A systematic review of RCTs confirmed that topical tretinoin is effective for treating photoaged skin.",
+          "status": "supported",
+          "quoteCheck": {
+            "ok": true,
+            "how": "exact"
+          },
+          "severity": "ok"
+        },
+        {
+          "text": "The guide advises that senolytics should generally be confined to clinical trials.",
           "kind": "recommendation",
           "verdict": "supported",
           "sourceId": "hannah-shmouni-2026-are",
           "quote": "Senolytics in particular should generally be confined to clinical trials.",
-          "note": "The clinical pocket guide specifically states that senolytics should generally be confined to clinical trials.",
-          "status": "supported",
-          "quoteCheck": {
-            "ok": true,
-            "how": "exact"
-          },
-          "severity": "ok"
-        },
-        {
-          "text": "No trial has tested senolytics on skin-ageing outcomes, and senolytics remain investigational with human outcome data lacking.",
-          "kind": "descriptive",
-          "verdict": "supported",
-          "sourceId": "hannah-shmouni-2026-are",
-          "quote": "NAD⁺ precursors raise NAD⁺ but lack outcome data; spermidine is promising-but-investigational (C) and senolytics remain investigational with no human outcome data (D).",
-          "note": "The guide notes that senolytics remain investigational without human outcome data.",
+          "note": "The guide explicitly advises confining senolytics to clinical trials.",
           "status": "supported",
           "quoteCheck": {
             "ok": true,

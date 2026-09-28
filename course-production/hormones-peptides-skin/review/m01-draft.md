@@ -1,6 +1,6 @@
 # Module 01 — review draft
 
-*Hormones and Peptides for Skin · stage 30 `approved` · authored 2026-09-24 · 25 moments, ~36 min + module check*
+*Hormones and Peptides for Skin · stage 30 `approved` · authored 2026-09-24 · 26 moments, ~36 min + module check*
 
 For review by Omar Saleem, then Dr. Fady Hannah-Shmouni (final). Every factual sentence traces to the graded registry in
 `citations/m01.md` (34 sources, 20 claims). No dosing appears anywhere, by design. Audience: all
@@ -10,7 +10,7 @@ grades and regulatory facts never change by role. The last section lists what th
 
 ## Lesson 1.1 · The skin as a steroidogenic, endocrine organ
 
-### 01 / 25 · The skin makes its own hormones.  
+### 01 / 26 · The skin makes its own hormones.  
 *Module 01 · The skin as an endocrine organ · title*
 
 Skin senses hormones from the blood, makes several of its own, and ages in ways that change both. In three lessons you will separate what happens locally in the skin from what the rest of the body sends in, and label each finding by the kind of evidence behind it.
@@ -19,7 +19,7 @@ Skin senses hormones from the blood, makes several of its own, and ages in ways 
 - 1.2 Receptor maps: what a cell atlas can and cannot show
 - 1.3 Senescence, the SASP and the ageing dermis
 
-### 02 / 25 · How will you use this course?  
+### 02 / 26 · How will you use this course?  
 *Your role · reflection*
 
 The evidence and grades are the same for everyone, and regulatory notes follow the country you choose. What changes with your role, in every module, is the 'what you do next' at the end of each lesson, so it fits what your licence lets you do.
@@ -29,12 +29,12 @@ The evidence and grades are the same for everyone, and regulatory notes follow t
 - **I deliver treatments: RN, aesthetic nurse or injector** → Each lesson now closes on what you notice, what you record and when you escalate to the prescriber.
 - **I advise on products: pharmacist, ND or allied professional** → Each lesson now closes on what you can accurately say and when someone needs a prescriber.
 
-### 03 / 25 · The skin as an endocrine organ, and how it ages  
+### 03 / 26 · The skin as an endocrine organ, and how it ages  
 *Module 01 · Opening film · video*
 
 <sub>Sources: Slominski RM 2025 · Slominski A 2000 · Zouboulis CC 2004 · Roosterman D 2006 · Aesthetic & Regenerative Endocrinology 2026</sub>
 
-### 04 / 25 · Four units, one circuit.  
+### 04 / 26 · Four units, one circuit.  
 *Lesson 1.1 · Concept · audio*
 
 *Kept in the package for the Guide (a read-along card shows its beats instead):* Recent reviews describe the skin as a neuro-immuno-endocrine organ built from four units: epidermal, dermal, hypodermal and adnexal (hair follicles and glands). Each holds cells that can make hormones and mount an immune response. They signal to neighbouring cells, through sensory nerves, and through the blood. Most of this picture comes from cell, tissue and animal studies.
@@ -55,7 +55,7 @@ Think of the skin as a sensing organ with its own hormone supply. Researchers wh
 
 <sub>Sources: Slominski RM 2025 · Slominski A 2000 · Zouboulis CC 2004 · Roosterman D 2006 · Aesthetic & Regenerative Endocrinology 2026</sub>
 
-### 05 / 25 · A steroid factory with local axes.  
+### 05 / 26 · A steroid factory with local axes.  
 *Mechanism · tool*
 
 Skin cells carry the enzymes to build steroids from cholesterol or to activate precursors arriving in the blood, and they run shortened copies of the body's central hormone axes. Each row names the evidence it rests on, because most of it comes from cells, tissue kept alive outside the body, or mice.
@@ -83,7 +83,7 @@ Summary: A local axis explains biology. · Closing: The Aesthetic & Regenerative
 
 <sub>Sources: Slominski A 2013 · Zouboulis CC 2004 · Ito N 2005 · Phan TS 2021 · Mancino G 2021 · Horesh EJ 2023 · Slominski A 2000 · Aesthetic & Regenerative Endocrinology 2026</sub>
 
-### 06 / 25 · Three directions of traffic.  
+### 06 / 26 · Three directions of traffic.  
 *Local or systemic · tool*
 
 Hormone signals in skin run in three directions. Some are made and used in the same patch of skin. Some arrive from the blood. A few leave the skin and act on the rest of the body. Knowing which one you are looking at decides whether the answer lies in the skin or in a systemic assessment.
@@ -107,7 +107,7 @@ Hormone signals in skin run in three directions. Some are made and used in the s
 
 <sub>Sources: Slominski RM 2025 · Phan TS 2021 · Ito N 2005 · Holick MF 1980 · Bikle DD 2014 · Slominski A 2013 · Zouboulis CC 2004 · Safer JD 2011 · Aesthetic & Regenerative Endocrinology 2026</sub>
 
-### 07 / 25 · An HPA-like loop inside the follicle.  
+### 07 / 26 · An HPA-like loop inside the follicle.  
 *Practice · tool*
 
 Human scalp follicles kept alive in culture run a shortened copy of the body's central hormone axis.
@@ -116,7 +116,7 @@ Human scalp follicles kept alive in culture run a shortened copy of the body's c
 
 <sub>Sources: Ito N 2005 · Slominski A 2013 · Aesthetic & Regenerative Endocrinology 2026</sub>
 
-### 08 / 25 · Read the skin before the serum.  
+### 08 / 26 · Read the skin before the serum.  
 *What changes in practice · audio*
 
 *Kept in the package for the Guide (a read-along card shows its beats instead):* The Aesthetic & Regenerative Endocrinology guide treats the aesthetic exam as a systemic screen. Sudden thinning and easy bruising suggest cortisol excess; coarse, dry, cool skin suggests hypothyroidism; new acanthosis nigricans flags insulin resistance. It lists violaceous striae with new hypertension or diabetes, and rapidly progressive virilisation, among reasons to refer promptly to endocrinology. Local skin biology explains how skin behaves; it does not justify prescribing a hormone.
@@ -142,7 +142,7 @@ Picture the consultation where a patient asks about thinning, bruising skin. The
 
 <sub>Sources: Aesthetic & Regenerative Endocrinology 2026 · Safer JD 2011 · Slominski A 2013</sub>
 
-### 09 / 25 · 'Which serum for my dry skin?'  
+### 09 / 26 · 'Which serum for my dry skin?'  
 *Practice · tool*
 
 A fictional case in three decisions, built from this lesson's guidance.
@@ -151,7 +151,7 @@ A fictional case in three decisions, built from this lesson's guidance.
 
 <sub>Sources: Aesthetic & Regenerative Endocrinology 2026 · Safer JD 2011 · Mancino G 2021 · Slominski A 2013</sub>
 
-### 10 / 25 · 'My skin makes its own cortisol.'  
+### 10 / 26 · 'My skin makes its own cortisol.'  
 *Your turn · tool*
 
 One question to close lesson 1.1.
@@ -177,7 +177,7 @@ Optional reason in the learner’s own words (never graded). Closing: Decide whi
 
 ## Lesson 1.2 · The Hormone Cell Atlas: receptor maps and what they prove
 
-### 11 / 25 · A map of fourteen million cells.  
+### 11 / 26 · A map of fourteen million cells.  
 *Lesson 1.2 · Concept · audio*
 
 *Kept in the package for the Guide (a read-along card shows its beats instead):* The Hormone Cell Atlas, published in Science in 2026, read the RNA for 379 hormone and receptor genes in about 14 million single cells and nuclei from 47 human tissues, skin among them. From that RNA it predicted which cell types could make a hormone and which could respond to one. It is a map of predicted capacity; it did not measure hormone release.
@@ -198,7 +198,7 @@ Fourteen million cells is the scale of the Hormone Cell Atlas, a Cambridge-led s
 
 <sub>Sources: Fei L 2026 · Hormone Cell Atlas team (Farooqi and Teichmann groups) 2026 · Aesthetic & Regenerative Endocrinology 2026</sub>
 
-### 12 / 25 · Transcript, tissue or person?  
+### 12 / 26 · Transcript, tissue or person?  
 *Sort the evidence · tool*
 
 Findings about skin as an endocrine organ sit on different rungs of the same ladder. Before you see the answers, decide how far up each one reaches.
@@ -220,7 +220,7 @@ Findings about skin as an endocrine organ sit on different rungs of the same lad
 
 <sub>Sources: Fei L 2026 · Hormone Cell Atlas team (Farooqi and Teichmann groups) 2026 · Ito N 2005 · Phan TS 2021 · Horesh EJ 2023 · Holick MF 1980 · Bikle DD 2014 · Aesthetic & Regenerative Endocrinology 2026</sub>
 
-### 13 / 25 · Prediction, in the authors' own words.  
+### 13 / 26 · Prediction, in the authors' own words.  
 *What the atlas is · stat*
 
 The atlas's own portal describes its scores as 'putative and hypothesis-generating'. A few predictions were tested in cells in the paper itself; the rest are left for users to validate. Across biology, the amount of RNA for a gene is often a poor guide to how much protein a cell makes, and protein is still a step short of secretion.
@@ -231,7 +231,7 @@ The atlas's own portal describes its scores as 'putative and hypothesis-generati
 
 <sub>Sources: Fei L 2026 · Hormone Cell Atlas team (Farooqi and Teichmann groups) 2026 · Liu Y 2016 · Aesthetic & Regenerative Endocrinology 2026</sub>
 
-### 14 / 25 · A map to confirm, then a trial.  
+### 14 / 26 · A map to confirm, then a trial.  
 *What changes in practice · audio*
 
 *Kept in the package for the Guide (a read-along card shows its beats instead):* Topical and transdermal treatments act through receptors the skin already carries, and the skin's own enzymes change how strongly a hormone acts, so the skin's response need not mirror the dose. A receptor on a map is where an efficacy question starts. The same caution applies to physiology you think you know: the guide says serum vitamin D falls with sunscreen use, yet field trials of daily sunscreen did not lower it.
@@ -257,7 +257,7 @@ Two habits follow from the atlas. The first concerns product claims. Topical and
 
 <sub>Sources: Aesthetic & Regenerative Endocrinology 2026 · Neale RE 2019 · Fei L 2026 · Bikle DD 2014</sub>
 
-### 15 / 25 · A serum page, line by line.  
+### 15 / 26 · A serum page, line by line.  
 *Practice · tool*
 
 Fictional product page.
@@ -266,7 +266,7 @@ Fictional product page.
 
 <sub>Sources: Fei L 2026 · Hormone Cell Atlas team (Farooqi and Teichmann groups) 2026 · Neale RE 2019 · Aesthetic & Regenerative Endocrinology 2026</sub>
 
-### 16 / 25 · 'Your skin has receptors for it.'  
+### 16 / 26 · 'Your skin has receptors for it.'  
 *Your turn · quiz*
 
 One question to close lesson 1.2.
@@ -279,7 +279,7 @@ One question to close lesson 1.2.
 
 ## Lesson 1.3 · Senescence, the SASP and the ageing dermis
 
-### 17 / 25 · Cells that stop dividing and keep talking.  
+### 17 / 26 · Cells that stop dividing and keep talking.  
 *Lesson 1.3 · Concept · audio*
 
 *Kept in the package for the Guide (a read-along card shows its beats instead):* A senescent cell has stopped dividing for good but stays metabolically active, releasing cytokines, matrix-degrading enzymes and growth factors: the senescence-associated secretory phenotype, or SASP. The SASP was characterised in cultured cells. In human skin, cells carrying the senescence marker p16INK4a become more common with age in both epidermis and dermis.
@@ -300,7 +300,7 @@ Senescence begins as a safety mechanism. A cell that has taken enough damage sto
 
 <sub>Sources: Coppé JP 2008 · Ressler S 2006 · Ho CY 2021 · Wang AS 2018 · Haykal D 2026 · Baker DJ 2016 · Aesthetic & Regenerative Endocrinology 2026</sub>
 
-### 18 / 25 · Stopped for good, still secreting.  
+### 18 / 26 · Stopped for good, still secreting.  
 *Practice · tool*
 
 A senescent cell beside one that still divides.
@@ -309,7 +309,7 @@ A senescent cell beside one that still divides.
 
 <sub>Sources: Coppé JP 2008 · Ho CY 2021 · Wang AS 2018 · Aesthetic & Regenerative Endocrinology 2026</sub>
 
-### 19 / 25 · Three years of perceived age.  
+### 19 / 26 · Three years of perceived age.  
 *Human evidence · stat*
 
 In a Dutch cohort, people with more p16-positive cells in sun-protected arm skin had more ageing-type elastic fibres, more facial wrinkles and looked older, after allowing for their actual age. The epidermal p16-positive cells were mostly melanocytes. The study was publicly funded; one co-author worked for Unilever.
@@ -320,7 +320,7 @@ In a Dutch cohort, people with more p16-positive cells in sun-protected arm skin
 
 <sub>Sources: Waaijer ME 2016 · Ressler S 2006</sub>
 
-### 20 / 25 · Human, mouse or dish?  
+### 20 / 26 · Human, mouse or dish?  
 *Four registers · tool*
 
 Senescence research mixes human tissue, mice and cultured cells. For the ageing dermis the four answers point in different directions, which is why they belong in separate sentences.
@@ -345,7 +345,7 @@ Summary: A mouse lifespan result is not a skin treatment. · Closing: Name the s
 
 <sub>Sources: Shuster S 1975 · Varani J 2006 · Fisher GJ 2009 · Waaijer ME 2016 · Baker DJ 2016 · Xu M 2018 · Hickson LJ 2019 · Chung CL 2019 · Haykal D 2026 · Aesthetic & Regenerative Endocrinology 2026</sub>
 
-### 21 / 25 · The levers with trials behind them.  
+### 21 / 26 · The levers with trials behind them.  
 *Where the evidence is strongest · audio*
 
 *Kept in the package for the Guide (a read-along card shows its beats instead):* Two ways of protecting or rebuilding the dermal matrix have randomized human trials. In a community trial of 903 adults, daily sunscreen for four and a half years slowed photoageing compared with discretionary use (GRADE B). Topical tretinoin improves photoageing consistently across randomized trials, and the Aesthetic & Regenerative Endocrinology guide rates topical retinoids first-line, GRADE A. Retinol improved fine wrinkles in very old skin in a small trial (C), and within a week it raised collagen synthesis and lowered MMPs in biopsies of aged human skin.
@@ -366,7 +366,7 @@ Set the senescence story beside the interventions that have been tested in peopl
 
 <sub>Sources: Hughes MC 2013 · Sitohang IBS 2022 · Kafi R 2007 · Varani J 2000 · Fisher GJ 2002 · Aesthetic & Regenerative Endocrinology 2026</sub>
 
-### 22 / 25 · From the dish to the trial.  
+### 22 / 26 · From the dish to the trial.  
 *Practice · tool*
 
 Six findings from this lesson, and the evidence under each.
@@ -381,10 +381,29 @@ Six findings from this lesson, and the evidence under each.
 
 <sub>Sources: Hughes MC 2013 · Sitohang IBS 2022 · Aesthetic & Regenerative Endocrinology 2026 · Waaijer ME 2016 · Chung CL 2019 · Hickson LJ 2019 · Haykal D 2026 · Baker DJ 2016 · Xu M 2018 · Coppé JP 2008</sub>
 
-### 23 / 25 · 'Can a senolytic fix my skin?'  
+### 23 / 26 · 'Can a senolytic fix my skin?'  
 *Fictional case · audio*
 
 *Kept in the package for the Guide (a read-along card shows its beats instead):* A 58-year-old patient has read that senolytic supplements 'clear zombie cells' and reverse skin ageing, and asks whether to start one she found online. She does not use sunscreen daily. The case is fictional and built from the lesson's evidence; decide your first move.
+
+**Read-along beats**
+1. **What she read** — Consider a fifty-eight-year-old patient, fictional and built from this lesson's evidence. She has read that senolytic supplements clear so-called zombie cells and reverse skin ageing, and she asks whether to start one she found online.  
+   *Key terms:* fictional · senolytic supplements · reverse skin ageing  ·  *Picture:* region
+2. **What is known** — Senescent cells track with visible ageing in human skin; clearing them helps in mice; human data are small biomarker pilots.  
+   *Key terms:* visible ageing in human skin · helps in mice · small biomarker pilots  ·  *Picture:* In mice
+3. **What has trials** — Daily sunscreen and topical retinoids, by contrast, have randomised trials with visible skin outcomes. The Aesthetic and Regenerative Endocrinology guide advises keeping senolytics within clinical trials.  
+   *Key terms:* Daily sunscreen and topical retinoids · randomised trials · within clinical trials  ·  *Picture:* Randomised trials
+
+<details><summary>Narration script of the audio story (kept for the Guide; this card speaks its beats)</summary>
+
+Consider a fifty-eight-year-old patient, fictional and built from this lesson's evidence. She has read that senolytic supplements clear so-called zombie cells and reverse skin ageing, and she asks whether to start one she found online. She does not wear sunscreen every day. Three facts frame the conversation. Senescent cells really do accumulate in human skin, and their number tracks with wrinkles and with how old a person looks. The evidence that clearing them helps comes from mice, and the human studies so far are small pilots measuring markers in tissue. Daily sunscreen and topical retinoids, by contrast, have randomised trials with visible skin outcomes. The Aesthetic and Regenerative Endocrinology guide advises keeping senolytics within clinical trials. Decide what you say first.
+
+</details>
+
+<sub>Sources: Waaijer ME 2016 · Baker DJ 2016 · Hickson LJ 2019 · Hughes MC 2013 · Sitohang IBS 2022 · Aesthetic & Regenerative Endocrinology 2026</sub>
+
+### 24 / 26 · What do you do first?  
+*Fictional case · tool*
 
 **Exercise (scenario) · What do you do first?** — 
 
@@ -396,28 +415,14 @@ A 58-year-old patient has read that senolytic supplements 'clear zombie cells' a
 
 Follow-up: Then record what she was considering and what you advised, including any product she has already bought.
 
-**Read-along beats**
-1. **What she read** — Consider a fifty-eight-year-old patient, fictional and built from this lesson's evidence. She has read that senolytic supplements clear so-called zombie cells and reverse skin ageing, and she asks whether to start one she found online.  
-   *Key terms:* fictional · senolytic supplements · reverse skin ageing  ·  *Picture:* region
-2. **What is known** — Senescent cells track with visible ageing in human skin; clearing them helps in mice; human data are small biomarker pilots.  
-   *Key terms:* visible ageing in human skin · helps in mice · small biomarker pilots  ·  *Picture:* In mice
-3. **What has trials** — Daily sunscreen and topical retinoids, by contrast, have randomised trials with visible skin outcomes. The Aesthetic and Regenerative Endocrinology guide advises keeping senolytics within clinical trials.  
-   *Key terms:* Daily sunscreen and topical retinoids · randomised trials · within clinical trials  ·  *Picture:* Randomised trials
-
 **By role**
 - *Prescriber:* You weigh a prescription retinoid against her skin and history, document the discussion, and explain that senolytics are still at the pilot-study stage and belong in trials.
 - *Clinical staff:* You record what she plans to buy and anything she already takes, share the evidence summary, and pass the retinoid question to the prescriber.
 - *Advisor:* You explain the difference between mouse and human evidence, reinforce daily sunscreen, and suggest a prescriber for a retinoid or if she wants to explore a trial.
 
-<details><summary>Narration script of the audio story (kept for the Guide; this card speaks its beats)</summary>
-
-Consider a fifty-eight-year-old patient, fictional and built from this lesson's evidence. She has read that senolytic supplements clear so-called zombie cells and reverse skin ageing, and she asks whether to start one she found online. She does not wear sunscreen every day. Three facts frame the conversation. Senescent cells really do accumulate in human skin, and their number tracks with wrinkles and with how old a person looks. The evidence that clearing them helps comes from mice, and the human studies so far are small pilots measuring markers in tissue. Daily sunscreen and topical retinoids, by contrast, have randomised trials with visible skin outcomes. The Aesthetic and Regenerative Endocrinology guide advises keeping senolytics within clinical trials. Decide what you say first.
-
-</details>
-
 <sub>Sources: Waaijer ME 2016 · Baker DJ 2016 · Hickson LJ 2019 · Hughes MC 2013 · Sitohang IBS 2022 · Aesthetic & Regenerative Endocrinology 2026</sub>
 
-### 24 / 25 · Mouse, human, or both?  
+### 25 / 26 · Mouse, human, or both?  
 *Your turn · quiz*
 
 One question to close lesson 1.3.
@@ -427,7 +432,7 @@ One question to close lesson 1.3.
 - ✗ Senescence has been seen only in mice and cultured cells. — *p16-positive cells are measurable in human skin and become more common with age.*
 - ✔ In human skin, senescent cells increase with age and track with wrinkles; the evidence that clearing them improves ageing comes from mice. — *Correct. Human association, mouse causation: two registers, kept apart.*
 
-### 25 / 25 · Before my next skin-and-hormone conversation.  
+### 26 / 26 · Before my next skin-and-hormone conversation.  
 *Closing and commitment · action*
 
 Build the checklist you will actually use. It is saved in My notes, in the Library.

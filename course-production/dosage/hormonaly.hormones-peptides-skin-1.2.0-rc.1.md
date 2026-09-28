@@ -1,6 +1,6 @@
 # Dosage audit — Hormones and Peptides for Skin 1.2.0-rc.1 (the Module 1 sitting-design pilot) · counted with perceptor-foundry f319b9a
 
-Package `hormonaly.hormones-peptides-skin` 1.2.0-rc.1 · pane course · locale en · `packages/hormones-peptides-skin.json` · sha256 44bad6ee747d
+Package `hormonaly.hormones-peptides-skin` 1.2.0-rc.1 · pane course · locale en · `packages/hormones-peptides-skin.json` · sha256 3d08e580ac2e
 
 Rules: templates/microlearning/dosage.yaml 1.0.0 (report-only). Estimates from content, not measured learner time: media + words at 238 wpm (narration without a duration at 150 wpm) + 8 s per tap-decision.
 
@@ -8,16 +8,15 @@ Rules: templates/microlearning/dosage.yaml 1.0.0 (report-only). Estimates from c
 
 | Measure | Value | Rule |
 |---|---|---|
-| Sittings audited | 21 in 7 module(s) · 179 cards · ~158.1 min | 5–10 min each (convention) |
+| Sittings audited | 21 in 7 module(s) · 180 cards · ~158.1 min | 5–10 min each (convention) |
 | First decision | median 1:35, latest 3:39; 17 sitting(s) over the limit | ≤ 1:00 |
 | Passive cards in a row | longest 4; 11 sitting(s) over the limit | ≤ 2 |
 | Decisions per 5 min | median 2.7 | ≥ 1 |
 | Words before the first tap | longest card 284; 33 card(s) over the limit | ≤ 100; a case card ≤ 150 |
-| Read-along card with an exercise | 1 card(s) over the card total | ≤ 200 in total |
 | Answer positions | lessons, authored order 28 keyed item(s): A 16 · B 11 · C 1 · shown shuffled 22 (not counted) · final check 14: A 5 · B 8 · C 1 | ≤ 60% at one position once ≥ 5 items |
 | Why on every option | every option 34 | every option |
 | Sittings with a constructive step | 1 of 21 | ≥ 1 per sitting (planner rule) |
-| Findings | 62 fail · 13 warn · 4 note | report-only |
+| Findings | 61 fail · 13 warn · 4 note | report-only |
 
 ## m01 · The skin as an endocrine organ, and how it ages
 
@@ -27,7 +26,7 @@ Stated 40 min · estimated 21 min (-47%) · answer positions A 1 · B 2 · C 1 �
 |---|---|---|---|---|---|---|---|
 | 1.1 · The skin as a steroidogenic, endocrine organ | 10 | 8:59 | 0:23 (card 2; first tap ≈ 0:42) | 2 | 6 (3.3) | 100 (m1-p07) | yes |
 | 1.2 · The Hormone Cell Atlas: receptor maps and what they prove | 6 | 4:36 | 0:48 (card 2; first tap ≈ 0:56) | 2 | 3 (3.3) | 100 (m1-x03) | no |
-| 1.3 · Senescence, the SASP and the ageing dermis | 9 | 7:26 | 0:55 (card 2; first tap ≈ 1:03) | 1 | 6 (4) | 144 (m1-p17) | no |
+| 1.3 · Senescence, the SASP and the ageing dermis | 10 | 7:26 | 0:55 (card 2; first tap ≈ 1:03) | 1 | 6 (4) | 144 (m1-p17b) | no |
 
 <details><summary>Cards</summary>
 
@@ -55,9 +54,10 @@ Stated 40 min · estimated 21 min (-47%) · answer positions A 1 · B 2 · C 1 �
 | 1.3 · 4 | m1-p15 | tool+ladder **◆** | 1:46 | 64 s | 67 | 4 | — |
 | 1.3 · 5 | m1-p16 | audio (read-along) | 2:50 | 50 s | 89 | 0 | 40 s (beat audio) |
 | 1.3 · 6 | m1-x05 | tool+classify **◆** | 3:40 | 74 s | 42 | 6 | — |
-| 1.3 · 7 | m1-p17 | audio+scenario (read-along) **◆** | 4:53 | 98 s | 96 + 144 = 240 | 1 | 43 s (beat audio) |
-| 1.3 · 8 | m1-p18 | quiz **◆** | 6:31 | 22 s | 55 | 1 | — |
-| 1.3 · 9 | m1-p19 | action+chips **◆** | 6:54 | 32 s | 93 | 1 | — |
+| 1.3 · 7 | m1-p17 | audio (read-along) | 4:53 | 54 s | 96 | 0 | 43 s (beat audio) |
+| 1.3 · 8 | m1-p17b | tool+scenario **◆** | 5:47 | 45 s | 144 | 1 | — |
+| 1.3 · 9 | m1-p18 | quiz **◆** | 6:32 | 22 s | 55 | 1 | — |
+| 1.3 · 10 | m1-p19 | action+chips **◆** | 6:54 | 32 s | 93 | 1 | — |
 
 ◆ = decision card.
 
@@ -333,7 +333,6 @@ Stated 44 min · estimated 25.7 min (-42%) · answer positions B 4 · explain �
 
 ## Failures (rules broken)
 
-- **cardTotal** · m01 › 1.3 · Senescence, the SASP and the ageing dermis › m1-p17 — card total 240 words (read-along 96 + exercise 144); the rule is ≤ 200
 - **firstDecision** · m02 › 2.1 · Cortisol signatures: local 11β-HSD1 and Cushing's syndrome › m2-x01 — first decision at 2:58 (card 4); the rule is ≤ 1:00
 - **passiveRun** · m02 › 2.1 · Cortisol signatures: local 11β-HSD1 and Cushing's syndrome › m2-p01 — 3 passive cards in a row (m2-p01 → m2-opener → m2-p02); the rule is ≤ 2
 - **visibleWords** · m02 › 2.1 · Cortisol signatures: local 11β-HSD1 and Cushing's syndrome › m2-p03 — 157 words before the first tap (tool); the rule is ≤ 100
@@ -419,4 +418,4 @@ Stated 44 min · estimated 25.7 min (-42%) · answer positions B 4 · explain �
 - **spacedReview** · course — 34 of 34 quiz question(s) have options without stable ids (spaced-review readiness: question.options[].id)
 - **answerPosition** · course — module checks in the package that no quiz card shows (not counted): m1-check B, m2-check B, m3-check B, m4-check B, m5-check B, m6-check B, m7-check B
 
-✗ dosage audit: 62 failure(s), 13 warning(s), 4 note(s) (report-only; --strict to enforce)
+✗ dosage audit: 61 failure(s), 13 warning(s), 4 note(s) (report-only; --strict to enforce)
