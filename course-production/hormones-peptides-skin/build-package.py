@@ -78,7 +78,14 @@ for a in AUTHORED.values():
 # Medical confirmation of the post-approval changes (every country note is one), from the authored change logs: the jurisdiction
 # records read "confirmed by <reviewer> on <date>" once none is open, never a stale "confirmation pending".
 _CHANGES = [c for a in AUTHORED.values() for c in (a.get("postApprovalChanges") or [])]
-_OPEN = [c for c in _CHANGES if not c.get("confirmedBy")]
+# 2026-09-28: an open change counts against the jurisdiction confirmation only when it touches a moment that carries country notes
+# (metadata.variants.jurisdiction), or names no moment. The Module 1 sitting-design pilot changed no country note, and must not turn the
+# six jurisdictions' recorded confirmation back to "pending".
+_JNOTE_BLOCKS = {b["id"] for a in AUTHORED.values() for b in a["blocks"] if ((b.get("metadata") or {}).get("variants") or {}).get("jurisdiction")}
+def _touches_country_notes(c):
+    ids = re.findall(r"\bm\d+-[a-z0-9]+\b", str(c.get("block", "")))
+    return not ids or any(i in _JNOTE_BLOCKS for i in ids)
+_OPEN = [c for c in _CHANGES if not c.get("confirmedBy") and _touches_country_notes(c)]
 _MED = sorted((c for c in _CHANGES if str(c.get("confirmedBy", "")).startswith("Fady Hannah-Shmouni")), key=lambda c: c.get("confirmedAt", ""))
 CONFIRMATION = ("confirmation pending with the post-approval changes" if _OPEN or not _MED
                 else f"confirmed by Fady Hannah-Shmouni, MD FRCPC on {_MED[-1]['confirmedAt']}")
@@ -390,6 +397,71 @@ for fm in FILMS:
         "generator": {"tool": "perceptor-foundry/tools/video/morph.mjs", "model": "frame of the film", "promptRef": fm["storyboard"]},
         "approvalStatus": MEDIA_APPROVAL, "metadata": {"block": fm["block"], "use": "film poster", "mediaPreview": MEDIA_NOTE},
     })
+
+# Read-along narration (sitting design, 2026-09-28; perceptor-foundry tools/narration/beats.mjs, templates/microlearning/
+# SITTING-DESIGN.md § 6). Every beat of an audio block with metadata.presentation "readalong" is voiced per locale with Gemini 3.8 TTS
+# (the voice in narration-voices.json), loudness-normalized, with word timings, into public/assets/hormones-peptides-skin/narration/
+# readalong/<block>/b<n>.<locale>.<sha8>.{mp3,json}; beats.mjs caches each render in narration/readalong-manifest.json. The build
+# registers the render the manifest holds for each beat's CURRENT text, voice, style and model, exactly as beats.mjs registers it
+# (audio · narration and captions · word-timings drafts; the beat's audioAssetRefs / timingsAssetRefs), so a rebuild keeps them.
+# A beat whose text or voice changed has no render until beats.mjs runs again, and is listed below. Films keep their own audio.
+# Narration stays draft until its media preview is recorded in signoffs.json (narrationPreview), like the stills and films.
+NARRATION_MANIFEST = HERE / "narration" / "readalong-manifest.json"
+NARRATION_VOICES = json.loads((HERE / "narration-voices.json").read_text()) if (HERE / "narration-voices.json").exists() else {}
+NARRATION = json.loads(NARRATION_MANIFEST.read_text()).get("beats", {}) if NARRATION_MANIFEST.exists() else {}
+BEATS_TOOL = "perceptor-foundry/tools/narration/beats.mjs"
+_NP = SIGNOFFS.get("narrationPreview")
+NARRATION_APPROVAL = "approved" if _NP else "draft"
+NARRATION_NOTE = (f"approved — {_NP['approver']}, {_NP['date']}" if _NP
+                  else "pending — the narration media preview (review/sitting-pilot-m01.html)")
+
+def narration_voice(locale):
+    """The voice registry entry for a locale (exact, then same language), as beats.mjs resolves it; only gemini-tts voices beats."""
+    lang = locale.split("-")[0]
+    key = locale if locale in NARRATION_VOICES else next((k for k in NARRATION_VOICES if not k.startswith("_") and k.split("-")[0] == lang), None)
+    v = NARRATION_VOICES.get(key) if key else None
+    return v if v and v.get("provider") == "gemini-tts" and v.get("voice_id") else None
+
+UNVOICED = []
+for mid in sorted(AUTHORED):
+    for b in AUTHORED[mid]["blocks"]:
+        if b.get("type") != "audio" or (b.get("metadata") or {}).get("presentation") != "readalong":
+            continue
+        for n, beat in enumerate(b.get("audioBeats") or [], 1):
+            beat.pop("audioAssetRefs", None); beat.pop("timingsAssetRefs", None)   # refs come from the manifest, never from authoring
+            for locale, text in sorted((beat.get("body") or {}).items()):
+                v = narration_voice(locale)
+                model = (v or {}).get("model") or "gemini-3.8-flash-tts"
+                hit = next(((k, e) for k, e in NARRATION.items() if v and e.get("block") == b["id"] and e.get("beat") == n and e.get("locale") == locale
+                            and e.get("text_sha256") == hashlib.sha256(text.encode("utf-8")).hexdigest() and e.get("voice_id") == v["voice_id"]
+                            and (e.get("style") or "") == (v.get("style") or "") and e.get("model") == model), None)
+                if not hit:
+                    UNVOICED.append(f"{b['id']} beat {n} ({locale})")
+                    continue
+                key, e = hit
+                mp3 = ROOT / "public" / e["audio_uri"]
+                if not mp3.exists():
+                    sys.exit(f"{b['id']} beat {n}: narration file missing: {mp3.relative_to(ROOT)} (run beats.mjs)")
+                stem = f"{b['id']}-b{n}-{locale}-{key[:8]}"
+                ASSETS.append({
+                    "id": stem, "kind": "audio", "role": "narration", "locale": locale, "uri": e["audio_uri"],
+                    "durationSeconds": e["duration_seconds"], "checksum": "sha256:" + hashlib.sha256(mp3.read_bytes()).hexdigest(),
+                    "approvalStatus": NARRATION_APPROVAL,
+                    "generator": {"tool": BEATS_TOOL, "model": f"{e['model']} · {e['voice_id']}", "promptRef": key},
+                    "metadata": {"block": b["id"], "use": f"read-along beat {n} narration", "loudness": e.get("loudness"), "mediaPreview": NARRATION_NOTE},
+                })
+                beat.setdefault("audioAssetRefs", []).append(stem)
+                if e.get("timings_uri") and (ROOT / "public" / e["timings_uri"]).exists():
+                    ASSETS.append({
+                        "id": f"{stem}-timings", "kind": "captions", "role": "word-timings", "locale": locale, "uri": e["timings_uri"],
+                        "approvalStatus": NARRATION_APPROVAL,
+                        "generator": {"tool": BEATS_TOOL, "model": ("openai-whisper word timestamps → alignToCanonical" if e.get("aligner") == "whisper"
+                                                                   else "elevenlabs scribe_v1 word timestamps → alignToCanonical"), "promptRef": key},
+                        "metadata": {"block": b["id"], "use": f"read-along beat {n} word timings", "matchRate": e.get("match_rate"), "mediaPreview": NARRATION_NOTE},
+                    })
+                    beat.setdefault("timingsAssetRefs", []).append(f"{stem}-timings")
+if UNVOICED:
+    print(f"read-along beats without a current render ({len(UNVOICED)}), run perceptor-foundry tools/narration/beats.mjs:", "; ".join(UNVOICED))
 
 pkg = {
     "packageSchemaVersion": "0.1.0",
