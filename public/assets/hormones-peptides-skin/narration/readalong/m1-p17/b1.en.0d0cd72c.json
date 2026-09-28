@@ -1,0 +1,253 @@
+{
+ "schema": "perceptor.narration-alignment/1",
+ "audio": "b1.en.0d0cd72c.mp3",
+ "locale": "en",
+ "text": "Consider a fifty-eight-year-old patient, fictional and built from this lesson's evidence. She has read that senolytic supplements clear so-called zombie cells and reverse skin ageing, and she asks whether to start one she found online.",
+ "text_sha256": "8762d7170e8157c62d076074b10949204e57adc2b542e299ce83f43d149f6087",
+ "duration_seconds": 16.68,
+ "engine": {
+  "tool": "elevenlabs-scribe",
+  "model": "scribe_v1",
+  "synthesis": {
+   "provider": "gemini-tts",
+   "model": "gemini-3.8-flash-tts",
+   "voice": "en-gb-tutor-1",
+   "key": "0d0cd72c260aca84a0a2f14383ba087e234675050109986a1ec18fcd467c7054"
+  }
+ },
+ "generated_at": "2026-09-28T04:43:12.730Z",
+ "stats": {
+  "tokens": 35,
+  "spoken_tokens": 35,
+  "matched": 33,
+  "mismatched": 2,
+  "interpolated": 0,
+  "unmatched_heard": 0,
+  "match_rate": 0.943,
+  "first_word_start": 0.36,
+  "last_word_end": 15.94
+ },
+ "words": [
+  {
+   "text": "Consider",
+   "start": 0.36,
+   "end": 0.84
+  },
+  {
+   "text": "a",
+   "start": 0.92,
+   "end": 1.02
+  },
+  {
+   "text": "fifty-eight-year-old",
+   "start": 1.26,
+   "end": 1.9,
+   "matched": false,
+   "heard": "58-year-old"
+  },
+  {
+   "text": "patient,",
+   "start": 1.98,
+   "end": 2.4
+  },
+  {
+   "text": "fictional",
+   "start": 2.94,
+   "end": 3.48
+  },
+  {
+   "text": "and",
+   "start": 3.56,
+   "end": 3.8
+  },
+  {
+   "text": "built",
+   "start": 3.86,
+   "end": 4.1
+  },
+  {
+   "text": "from",
+   "start": 4.14,
+   "end": 4.28
+  },
+  {
+   "text": "this",
+   "start": 4.32,
+   "end": 4.46
+  },
+  {
+   "text": "lesson's",
+   "start": 4.52,
+   "end": 4.86
+  },
+  {
+   "text": "evidence.",
+   "start": 4.94,
+   "end": 5.36
+  },
+  {
+   "text": "She",
+   "start": 6.18,
+   "end": 6.34
+  },
+  {
+   "text": "has",
+   "start": 6.38,
+   "end": 6.54
+  },
+  {
+   "text": "read",
+   "start": 6.6,
+   "end": 6.92
+  },
+  {
+   "text": "that",
+   "start": 6.98,
+   "end": 7.22
+  },
+  {
+   "text": "senolytic",
+   "start": 7.32,
+   "end": 7.88
+  },
+  {
+   "text": "supplements",
+   "start": 7.94,
+   "end": 8.5
+  },
+  {
+   "text": "clear",
+   "start": 8.72,
+   "end": 9.2
+  },
+  {
+   "text": "so-called",
+   "start": 9.3,
+   "end": 9.8
+  },
+  {
+   "text": "zombie",
+   "start": 10.08,
+   "end": 10.46
+  },
+  {
+   "text": "cells",
+   "start": 10.52,
+   "end": 10.92
+  },
+  {
+   "text": "and",
+   "start": 11.18,
+   "end": 11.4
+  },
+  {
+   "text": "reverse",
+   "start": 11.46,
+   "end": 12.02
+  },
+  {
+   "text": "skin",
+   "start": 12.1,
+   "end": 12.28
+  },
+  {
+   "text": "ageing,",
+   "start": 12.36,
+   "end": 12.68,
+   "matched": false,
+   "heard": "aging,"
+  },
+  {
+   "text": "and",
+   "start": 13.28,
+   "end": 13.44
+  },
+  {
+   "text": "she",
+   "start": 13.5,
+   "end": 13.6
+  },
+  {
+   "text": "asks",
+   "start": 13.66,
+   "end": 13.98
+  },
+  {
+   "text": "whether",
+   "start": 14.02,
+   "end": 14.24
+  },
+  {
+   "text": "to",
+   "start": 14.28,
+   "end": 14.38
+  },
+  {
+   "text": "start",
+   "start": 14.48,
+   "end": 14.78
+  },
+  {
+   "text": "one",
+   "start": 14.88,
+   "end": 15.02
+  },
+  {
+   "text": "she",
+   "start": 15.08,
+   "end": 15.18
+  },
+  {
+   "text": "found",
+   "start": 15.24,
+   "end": 15.44
+  },
+  {
+   "text": "online.",
+   "start": 15.5,
+   "end": 15.94
+  }
+ ],
+ "mismatches": [
+  {
+   "index": 2,
+   "canonical": "fifty-eight-year-old",
+   "heard": "58-year-old",
+   "start": 1.26
+  },
+  {
+   "index": 24,
+   "canonical": "ageing,",
+   "heard": "aging,",
+   "start": 12.36
+  }
+ ],
+ "unmatched_heard": [],
+ "cues": [
+  {
+   "text": "Consider a fifty-eight-year-old patient,",
+   "at": 0.36,
+   "until": 2.7
+  },
+  {
+   "text": "fictional and built from this lesson's evidence.",
+   "at": 2.94,
+   "until": 5.66
+  },
+  {
+   "text": "She has read that senolytic supplements clear",
+   "at": 6.18,
+   "until": 9.3
+  },
+  {
+   "text": "so-called zombie cells and reverse skin ageing,",
+   "at": 9.3,
+   "until": 12.98
+  },
+  {
+   "text": "and she asks whether to start one she found online.",
+   "at": 13.28,
+   "until": 16.24
+  }
+ ]
+}

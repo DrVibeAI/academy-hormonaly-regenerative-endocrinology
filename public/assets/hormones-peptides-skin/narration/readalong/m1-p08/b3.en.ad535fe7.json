@@ -1,0 +1,200 @@
+{
+ "schema": "perceptor.narration-alignment/1",
+ "audio": "b3.en.ad535fe7.mp3",
+ "locale": "en",
+ "text": "The guide uses the atlas to argue that the skin is plausibly one of the body's largest distributed signalling networks. RNA tells you what a cell could make.",
+ "text_sha256": "5458708cfe55f8c8b6dfbae247f028f3cb7a3eccb63bb4b9f10b49813c1b965c",
+ "duration_seconds": 12.04,
+ "engine": {
+  "tool": "elevenlabs-scribe",
+  "model": "scribe_v1",
+  "synthesis": {
+   "provider": "gemini-tts",
+   "model": "gemini-3.8-flash-tts",
+   "voice": "en-gb-tutor-1",
+   "key": "ad535fe79ff3e8f42991cbd31ab64ec19192b2c45c65de6efbcced3c5267f138"
+  }
+ },
+ "generated_at": "2026-09-28T04:42:04.568Z",
+ "stats": {
+  "tokens": 28,
+  "spoken_tokens": 28,
+  "matched": 27,
+  "mismatched": 1,
+  "interpolated": 0,
+  "unmatched_heard": 0,
+  "match_rate": 0.964,
+  "first_word_start": 0.38,
+  "last_word_end": 11.74
+ },
+ "words": [
+  {
+   "text": "The",
+   "start": 0.38,
+   "end": 0.42
+  },
+  {
+   "text": "guide",
+   "start": 0.52,
+   "end": 0.82
+  },
+  {
+   "text": "uses",
+   "start": 0.96,
+   "end": 1.28
+  },
+  {
+   "text": "the",
+   "start": 1.32,
+   "end": 1.4
+  },
+  {
+   "text": "atlas",
+   "start": 1.48,
+   "end": 1.94
+  },
+  {
+   "text": "to",
+   "start": 2.08,
+   "end": 2.22
+  },
+  {
+   "text": "argue",
+   "start": 2.3,
+   "end": 2.68
+  },
+  {
+   "text": "that",
+   "start": 2.74,
+   "end": 2.92
+  },
+  {
+   "text": "the",
+   "start": 2.98,
+   "end": 3.1
+  },
+  {
+   "text": "skin",
+   "start": 3.16,
+   "end": 3.62
+  },
+  {
+   "text": "is",
+   "start": 3.7,
+   "end": 3.9
+  },
+  {
+   "text": "plausibly",
+   "start": 3.96,
+   "end": 4.56
+  },
+  {
+   "text": "one",
+   "start": 4.96,
+   "end": 5.04
+  },
+  {
+   "text": "of",
+   "start": 5.08,
+   "end": 5.16
+  },
+  {
+   "text": "the",
+   "start": 5.2,
+   "end": 5.28
+  },
+  {
+   "text": "body's",
+   "start": 5.32,
+   "end": 5.66
+  },
+  {
+   "text": "largest",
+   "start": 5.82,
+   "end": 6.36
+  },
+  {
+   "text": "distributed",
+   "start": 6.4,
+   "end": 7.1
+  },
+  {
+   "text": "signalling",
+   "start": 7.24,
+   "end": 7.66,
+   "matched": false,
+   "heard": "signaling"
+  },
+  {
+   "text": "networks.",
+   "start": 7.7,
+   "end": 8.28
+  },
+  {
+   "text": "RNA",
+   "start": 9.16,
+   "end": 9.82
+  },
+  {
+   "text": "tells",
+   "start": 9.9,
+   "end": 10.14
+  },
+  {
+   "text": "you",
+   "start": 10.2,
+   "end": 10.32
+  },
+  {
+   "text": "what",
+   "start": 10.36,
+   "end": 10.5
+  },
+  {
+   "text": "a",
+   "start": 10.54,
+   "end": 10.6
+  },
+  {
+   "text": "cell",
+   "start": 10.66,
+   "end": 10.86
+  },
+  {
+   "text": "could",
+   "start": 11.1,
+   "end": 11.32
+  },
+  {
+   "text": "make.",
+   "start": 11.44,
+   "end": 11.74
+  }
+ ],
+ "mismatches": [
+  {
+   "index": 18,
+   "canonical": "signalling",
+   "heard": "signaling",
+   "start": 7.24
+  }
+ ],
+ "unmatched_heard": [],
+ "cues": [
+  {
+   "text": "The guide uses the atlas to argue that the skin is plausibly",
+   "at": 0.38,
+   "until": 4.86
+  },
+  {
+   "text": "one of the body's largest distributed signalling networks.",
+   "at": 4.96,
+   "until": 8.58
+  },
+  {
+   "text": "RNA tells you what a cell could make.",
+   "at": 9.16,
+   "until": 12.04
+  }
+ ]
+}

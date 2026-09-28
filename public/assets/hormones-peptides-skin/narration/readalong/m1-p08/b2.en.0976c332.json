@@ -1,0 +1,136 @@
+{
+ "schema": "perceptor.narration-alignment/1",
+ "audio": "b2.en.0976c332.mp3",
+ "locale": "en",
+ "text": "From that RNA it predicted which cell types could make a hormone and which could respond to one.",
+ "text_sha256": "1d0d33b91d853cc8ace328e73a8f79b07b5c5b93b5ffb1af25740fd89279e732",
+ "duration_seconds": 6.76,
+ "engine": {
+  "tool": "elevenlabs-scribe",
+  "model": "scribe_v1",
+  "synthesis": {
+   "provider": "gemini-tts",
+   "model": "gemini-3.8-flash-tts",
+   "voice": "en-gb-tutor-1",
+   "key": "0976c3329cb39cdf3a0e64ea78b1197a0f4ce76f283d1829e09b6da4ef82ad6a"
+  }
+ },
+ "generated_at": "2026-09-28T04:41:57.331Z",
+ "stats": {
+  "tokens": 18,
+  "spoken_tokens": 18,
+  "matched": 18,
+  "mismatched": 0,
+  "interpolated": 0,
+  "unmatched_heard": 0,
+  "match_rate": 1,
+  "first_word_start": 0.36,
+  "last_word_end": 6.48
+ },
+ "words": [
+  {
+   "text": "From",
+   "start": 0.36,
+   "end": 0.52
+  },
+  {
+   "text": "that",
+   "start": 0.6,
+   "end": 0.82
+  },
+  {
+   "text": "RNA",
+   "start": 1,
+   "end": 1.5
+  },
+  {
+   "text": "it",
+   "start": 1.94,
+   "end": 2.02
+  },
+  {
+   "text": "predicted",
+   "start": 2.08,
+   "end": 2.58
+  },
+  {
+   "text": "which",
+   "start": 2.66,
+   "end": 2.88
+  },
+  {
+   "text": "cell",
+   "start": 2.96,
+   "end": 3.16
+  },
+  {
+   "text": "types",
+   "start": 3.22,
+   "end": 3.6
+  },
+  {
+   "text": "could",
+   "start": 3.66,
+   "end": 3.86
+  },
+  {
+   "text": "make",
+   "start": 3.92,
+   "end": 4.08
+  },
+  {
+   "text": "a",
+   "start": 4.14,
+   "end": 4.18
+  },
+  {
+   "text": "hormone",
+   "start": 4.22,
+   "end": 4.66
+  },
+  {
+   "text": "and",
+   "start": 5.08,
+   "end": 5.2
+  },
+  {
+   "text": "which",
+   "start": 5.26,
+   "end": 5.48
+  },
+  {
+   "text": "could",
+   "start": 5.54,
+   "end": 5.66
+  },
+  {
+   "text": "respond",
+   "start": 5.7,
+   "end": 6.12
+  },
+  {
+   "text": "to",
+   "start": 6.16,
+   "end": 6.24
+  },
+  {
+   "text": "one.",
+   "start": 6.32,
+   "end": 6.48
+  }
+ ],
+ "mismatches": [],
+ "unmatched_heard": [],
+ "cues": [
+  {
+   "text": "From that RNA it predicted which cell types could",
+   "at": 0.36,
+   "until": 3.92
+  },
+  {
+   "text": "make a hormone and which could respond to one.",
+   "at": 3.92,
+   "until": 6.76
+  }
+ ]
+}

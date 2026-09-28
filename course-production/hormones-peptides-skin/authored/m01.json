@@ -4726,6 +4726,125 @@
    "assetRef": "asset-hormones-peptides-skin-image-m1-p17-img",
    "forReview": "Omar Saleem (design); Fady Hannah-Shmouni (what each region points to)",
    "pilot": "sitting-design-2026-09-28"
+  },
+  {
+   "date": "2026-09-28",
+   "block": "m1-p03",
+   "change": "read-along narration (draft): 3 beats, 34.2 s, Gemini 3.8 Flash TTS (en-gb-tutor-1, the films' voice and delivery), −16 LUFS as heard, word timings aligned to each beat's own text; replaces on-demand ElevenLabs narration",
+   "assetRefs": [
+    "m1-p03-b1-en-586b3ab3",
+    "m1-p03-b2-en-b9b350d7",
+    "m1-p03-b3-en-caa1800a"
+   ],
+   "files": [
+    "assets/hormones-peptides-skin/narration/readalong/m1-p03/b1.en.586b3ab3.mp3",
+    "assets/hormones-peptides-skin/narration/readalong/m1-p03/b2.en.b9b350d7.mp3",
+    "assets/hormones-peptides-skin/narration/readalong/m1-p03/b3.en.caa1800a.mp3"
+   ],
+   "forReview": "Omar Saleem (by ear); Fady Hannah-Shmouni (what is said)",
+   "pilot": "sitting-design-2026-09-28"
+  },
+  {
+   "date": "2026-09-28",
+   "block": "m1-p06",
+   "change": "read-along narration (draft): 3 beats, 41.0 s, Gemini 3.8 Flash TTS (en-gb-tutor-1, the films' voice and delivery), −16 LUFS as heard, word timings aligned to each beat's own text; replaces on-demand ElevenLabs narration",
+   "assetRefs": [
+    "m1-p06-b1-en-6dc050b9",
+    "m1-p06-b2-en-32387b8b",
+    "m1-p06-b3-en-2d166489"
+   ],
+   "files": [
+    "assets/hormones-peptides-skin/narration/readalong/m1-p06/b1.en.6dc050b9.mp3",
+    "assets/hormones-peptides-skin/narration/readalong/m1-p06/b2.en.32387b8b.mp3",
+    "assets/hormones-peptides-skin/narration/readalong/m1-p06/b3.en.2d166489.mp3"
+   ],
+   "forReview": "Omar Saleem (by ear); Fady Hannah-Shmouni (what is said)",
+   "pilot": "sitting-design-2026-09-28"
+  },
+  {
+   "date": "2026-09-28",
+   "block": "m1-p08",
+   "change": "read-along narration (draft): 3 beats, 35.2 s, Gemini 3.8 Flash TTS (en-gb-tutor-1, the films' voice and delivery), −16 LUFS as heard, word timings aligned to each beat's own text; replaces on-demand ElevenLabs narration",
+   "assetRefs": [
+    "m1-p08-b1-en-7a683187",
+    "m1-p08-b2-en-0976c332",
+    "m1-p08-b3-en-ad535fe7"
+   ],
+   "files": [
+    "assets/hormones-peptides-skin/narration/readalong/m1-p08/b1.en.7a683187.mp3",
+    "assets/hormones-peptides-skin/narration/readalong/m1-p08/b2.en.0976c332.mp3",
+    "assets/hormones-peptides-skin/narration/readalong/m1-p08/b3.en.ad535fe7.mp3"
+   ],
+   "forReview": "Omar Saleem (by ear); Fady Hannah-Shmouni (what is said)",
+   "pilot": "sitting-design-2026-09-28"
+  },
+  {
+   "date": "2026-09-28",
+   "block": "m1-p11",
+   "change": "read-along narration (draft): 3 beats, 28.4 s, Gemini 3.8 Flash TTS (en-gb-tutor-1, the films' voice and delivery), −16 LUFS as heard, word timings aligned to each beat's own text; replaces on-demand ElevenLabs narration",
+   "assetRefs": [
+    "m1-p11-b1-en-9daeeb9e",
+    "m1-p11-b2-en-a88593f9",
+    "m1-p11-b3-en-24644415"
+   ],
+   "files": [
+    "assets/hormones-peptides-skin/narration/readalong/m1-p11/b1.en.9daeeb9e.mp3",
+    "assets/hormones-peptides-skin/narration/readalong/m1-p11/b2.en.a88593f9.mp3",
+    "assets/hormones-peptides-skin/narration/readalong/m1-p11/b3.en.24644415.mp3"
+   ],
+   "forReview": "Omar Saleem (by ear); Fady Hannah-Shmouni (what is said)",
+   "pilot": "sitting-design-2026-09-28"
+  },
+  {
+   "date": "2026-09-28",
+   "block": "m1-p13",
+   "change": "read-along narration (draft): 3 beats, 41.9 s, Gemini 3.8 Flash TTS (en-gb-tutor-1, the films' voice and delivery), −16 LUFS as heard, word timings aligned to each beat's own text; replaces on-demand ElevenLabs narration",
+   "assetRefs": [
+    "m1-p13-b1-en-73a1d145",
+    "m1-p13-b2-en-6dd9f978",
+    "m1-p13-b3-en-ef8d41de"
+   ],
+   "files": [
+    "assets/hormones-peptides-skin/narration/readalong/m1-p13/b1.en.73a1d145.mp3",
+    "assets/hormones-peptides-skin/narration/readalong/m1-p13/b2.en.6dd9f978.mp3",
+    "assets/hormones-peptides-skin/narration/readalong/m1-p13/b3.en.ef8d41de.mp3"
+   ],
+   "forReview": "Omar Saleem (by ear); Fady Hannah-Shmouni (what is said)",
+   "pilot": "sitting-design-2026-09-28"
+  },
+  {
+   "date": "2026-09-28",
+   "block": "m1-p16",
+   "change": "read-along narration (draft): 3 beats, 40.2 s, Gemini 3.8 Flash TTS (en-gb-tutor-1, the films' voice and delivery), −16 LUFS as heard, word timings aligned to each beat's own text; replaces on-demand ElevenLabs narration",
+   "assetRefs": [
+    "m1-p16-b1-en-e25e91d3",
+    "m1-p16-b2-en-f9891d1a",
+    "m1-p16-b3-en-35ac90b7"
+   ],
+   "files": [
+    "assets/hormones-peptides-skin/narration/readalong/m1-p16/b1.en.e25e91d3.mp3",
+    "assets/hormones-peptides-skin/narration/readalong/m1-p16/b2.en.f9891d1a.mp3",
+    "assets/hormones-peptides-skin/narration/readalong/m1-p16/b3.en.35ac90b7.mp3"
+   ],
+   "forReview": "Omar Saleem (by ear); Fady Hannah-Shmouni (what is said)",
+   "pilot": "sitting-design-2026-09-28"
+  },
+  {
+   "date": "2026-09-28",
+   "block": "m1-p17",
+   "change": "read-along narration (draft): 3 beats, 42.8 s, Gemini 3.8 Flash TTS (en-gb-tutor-1, the films' voice and delivery), −16 LUFS as heard, word timings aligned to each beat's own text; replaces on-demand ElevenLabs narration",
+   "assetRefs": [
+    "m1-p17-b1-en-0d0cd72c",
+    "m1-p17-b2-en-cba1a1e5",
+    "m1-p17-b3-en-9adb1711"
+   ],
+   "files": [
+    "assets/hormones-peptides-skin/narration/readalong/m1-p17/b1.en.0d0cd72c.mp3",
+    "assets/hormones-peptides-skin/narration/readalong/m1-p17/b2.en.cba1a1e5.mp3",
+    "assets/hormones-peptides-skin/narration/readalong/m1-p17/b3.en.9adb1711.mp3"
+   ],
+   "forReview": "Omar Saleem (by ear); Fady Hannah-Shmouni (what is said)",
+   "pilot": "sitting-design-2026-09-28"
   }
  ]
 }
