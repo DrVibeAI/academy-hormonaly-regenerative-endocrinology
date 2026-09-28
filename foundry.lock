@@ -9,4 +9,7 @@
 # stacked on #11 and #9).
 # 2026-09-27: moved to the foundry commit the 1.1.0 dossier and scorecard pre-review were built with: perceptor-foundry #17 (the
 # #9/#11/#14 stack merged with main 1b7ecbd: GCLS review standard v0.1 + scorecard).
-ref=69b4706c26505bb6b03b08be6ab900b7493a0816
+# 2026-09-28 (sitting-design pilot, Module 1): moved to the head of perceptor-foundry draft PR #19 (factory/sitting-design-20260928,
+# e031406: dosage audit, read-along beats, twotier and ladder, Gemini 3.8 TTS beats.mjs), stacked on #17. Move it to the merge
+# commit when #19 lands on main.
+ref=e031406a2633d976b4551ee42cdd51b5e4566833
