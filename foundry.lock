@@ -15,4 +15,6 @@
 # 2026-09-28 (round 2): moved to PR #19's new head f319b9a. Its dosage audit counts what perceptor-runtime PR #27 (dc4da71) shows
 # before the first tap (task-first body placement), and caps a case card (scenario, branching, twotier with a setup) at 150 words;
 # every other card stays at 100. Move it to the merge commit when #19 lands on main.
-ref=f319b9affb2c8f7acd43e6265f6feea32e63e94d
+# 2026-09-28 (deploy for Omar's test): moved to PR #19's head f285f3f (an inspect card counts only the prompt and the lines its
+# renderer draws). Module 1 still passes every dosage rule. Move it to the merge commit when #19 lands on main.
+ref=f285f3f5ea981e5745d0c4fca75344a05d1dfe9e
