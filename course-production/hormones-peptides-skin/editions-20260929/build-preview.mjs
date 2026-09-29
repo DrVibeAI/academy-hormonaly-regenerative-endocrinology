@@ -62,6 +62,20 @@ academy.home.faq.push({
   q: { en: 'Is a certificate issued during this preview?', [market === 'MX' ? 'es' : 'id']: market === 'MX' ? '¿Se emite una constancia durante esta vista previa?' : 'Apakah sertifikat diterbitkan selama pratinjau ini?' },
   a: { en: 'No. This is a translation preview while regional clinical, regulatory and media reviews are in progress.', [market === 'MX' ? 'es' : 'id']: market === 'MX' ? 'No. Esta es una vista previa de la traducción mientras continúan las revisiones clínicas, regulatorias y de medios para México.' : 'Tidak. Ini adalah pratinjau terjemahan selama tinjauan klinis, regulasi, dan media untuk Indonesia masih berlangsung.' },
 })
+const marketName = market === 'MX' ? 'Mexico' : 'Indonesia'
+academy.home.kicker.en = `${marketName} translation preview · ${academy.brand.name}`
+academy.home.lede.en = `Invitation-only translation preview for clinical review. ${notice.en}`
+academy.home.practice.body.en = 'Review the source evidence and draft regional notes. Verify local authorization, clinical scope, and claims before applying any teaching in practice.'
+academy.home.practice.points[2].en = 'Identify local authorization and scope questions for review'
+academy.home.glimpses.items[0].caption.en = 'An English film opens every module'
+academy.home.trust.title.en = 'Source evidence. Regional review in progress.'
+academy.home.trust.items[1].title.en = `${marketName} notes in review`
+academy.home.trust.items[1].body.en = `Regional status statements for ${marketName} are draft and require named local clinical and regulatory review.`
+academy.home.disclaimer.en = `${notice.en} ${academy.home.disclaimer.en}`
+const regionalFaq = academy.home.faq.find((item) => /Which countries|Which markets/i.test(item.q?.en ?? ''))
+if (regionalFaq) regionalFaq.a.en = `This preview is for ${marketName}. The source course also describes other jurisdictions, but ${marketName} notes are under review and must not be treated as final local advice.`
+academy.catalog[0].blurb.en = `${academy.catalog[0].blurb.en} ${marketName} translation preview; local review pending.`
+if (academy.brand.landing?.og) academy.brand.landing.og.description = `${marketName} translation preview for invited clinical reviewers. Local clinical and regulatory review is pending.`
 academy.localization ??= { countries: [] }
 academy.localization.defaultCountry = market
 if (market === 'MX') {
