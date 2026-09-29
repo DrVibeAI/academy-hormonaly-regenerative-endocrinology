@@ -35,4 +35,15 @@ Before learner release: finish the regional work list, obtain native clinical/la
 
 The safety and tutor runtime fix was staged and promoted on the existing English skin services. Cloud Run reports 100% traffic on `academy-cenegenics-skin-00004-skr`, `academy-parallaxnet-skin-00009-bxj`, and `academy-hormonaly-00026-5mn`. Each live `/_health` returned `app: ok, db: ok`; each unauthenticated `/api/certificate` request returned 401. The partner services used the exact Hormonaly 1.1.0 store pin and unchanged package SHA above. The final Hormonaly candidate was built from that same checked commit and SHA, and its review-hub record identifies version 1.1.0 at `6419297d6d01`.
 
-An earlier Hormonaly runtime promotion, `academy-hormonaly-00025-j6x`, briefly used an older local 1.0.1 course checkout. It was replaced with the checked 1.1.0 revision above. The mistaken revision has no production traffic. No new-language candidate was promoted or added to a store edition list.
+An earlier Hormonaly runtime promotion, `academy-hormonaly-00025-j6x`, briefly used an older local 1.0.1 course checkout. It was replaced with the checked 1.1.0 revision above. The mistaken revision has no production traffic. At that point, no new-language candidate had been staged or added to a store edition list.
+
+## Invitation-only translation previews, 2026-09-29
+
+Omar approved deployment. The Mexico and Indonesia drafts were staged as **review candidates** on their existing partner services, with 0% production traffic and no change to the English store pins. The reproducible assembly is in `build-preview.mjs`: it checks the store's exact source SHA, applies the partner overlay, marks the regional language `in_review`, keeps the catalog `draft` and invitation based, removes credential and accreditation promotion from the preview landing page, and adds an explicit English-film and pending-review notice. The package governance record stays `not_submitted`. The semantic Guide index is disabled for these previews; the deterministic Guide remains available. The seven source videos remain English.
+
+| Partner preview | Package SHA256 | Cloud Run candidate | Review URL | Live traffic |
+| --- | --- | --- | --- | --- |
+| Cenegenics Spanish for Mexico | `a30b4086dcd272c1ea11915ec175434ff7551f2be4b5f4df821e55b6b0a75eb0` | `academy-cenegenics-skin-00005-lmw` | [Mexico review course](https://candidate---academy-cenegenics-skin-limjs7pr6a-uc.a.run.app/hormones-peptides-skin/) | English `academy-cenegenics-skin-00004-skr` at 100% |
+| Parallaxnet Bahasa Indonesia | `ec8a2c76798347d49357a1c6c441401760d44cc075882e3c7505833a8c705641` | `academy-parallaxnet-skin-00010-n4w` | [Indonesia review course](https://candidate---academy-parallaxnet-skin-limjs7pr6a-uc.a.run.app/hormones-peptides-skin/) | English `academy-parallaxnet-skin-00009-bxj` at 100% |
+
+For both candidates, the deployment gate passed all six runtime suites and TypeScript checks; Cloud Run reported `app: ok, db: ok`; the course route returned HTTP 200; and unauthenticated `/api/certificate` returned 401. The preview package has `credential: null`, and the runtime blocks certificate issuance for such packages. Signed-in learner completion, native language review, and named local clinical/regulatory review remain open. Biolongeva was not staged because its launch is on hold.
