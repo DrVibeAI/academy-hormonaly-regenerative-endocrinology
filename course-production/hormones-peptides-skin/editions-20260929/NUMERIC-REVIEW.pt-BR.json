@@ -1,0 +1,182 @@
+{
+  "locale": "pt-BR",
+  "model": "gemini-3.7-flash",
+  "status": "agent-pre-review",
+  "sourceFlags": 29,
+  "findings": [
+    {
+      "path": "/provenance/citations/59/note",
+      "category": "harmless",
+      "reason": "Standard date localization format (DD/MM/YYYY) matching the English date, with identical quantities preserved.",
+      "correction": ""
+    },
+    {
+      "path": "/provenance/citations/63/note",
+      "category": "harmless",
+      "reason": "Standard date and ordinal number localization format in Portuguese matching the English source.",
+      "correction": ""
+    },
+    {
+      "path": "/provenance/citations/64/note",
+      "category": "harmless",
+      "reason": "Standard date localization format (DD/MM/YYYY) matching the English date.",
+      "correction": ""
+    },
+    {
+      "path": "/provenance/citations/67/note",
+      "category": "harmless",
+      "reason": "Standard date localization format (DD/MM/YYYY) matching the English date.",
+      "correction": ""
+    },
+    {
+      "path": "/provenance/citations/68/note",
+      "category": "harmless",
+      "reason": "Standard date localization format (DD/MM/YYYY) matching the English date.",
+      "correction": ""
+    },
+    {
+      "path": "/provenance/citations/69/note",
+      "category": "harmless",
+      "reason": "Standard date localization format (DD/MM/YYYY) matching the English date.",
+      "correction": ""
+    },
+    {
+      "path": "/provenance/citations/310/note",
+      "category": "harmless",
+      "reason": "Standard decimal comma localization and date abbreviation matching the English source.",
+      "correction": ""
+    },
+    {
+      "path": "/provenance/citations/368/note",
+      "category": "harmless",
+      "reason": "Thousands separators (period), decimal commas, and localized date format matching all numerical values.",
+      "correction": ""
+    },
+    {
+      "path": "/curriculum/modules/0/units/0/blocks/16/metadata/audioScript",
+      "category": "harmless",
+      "reason": "Spelled-out numbers in English ('six and eight') rendered as digits ('6 e 8') with all biological markers preserved.",
+      "correction": ""
+    },
+    {
+      "path": "/curriculum/modules/0/units/0/blocks/20/metadata/audioScript",
+      "category": "harmless",
+      "reason": "Spelled-out decade ('late eighties') translated to digits ('seus 80 anos') with all other numbers preserved.",
+      "correction": ""
+    },
+    {
+      "path": "/curriculum/modules/0/units/0/blocks/22/metadata/audioScript",
+      "category": "harmless",
+      "reason": "Spelled-out age ('fifty-eight-year-old') correctly rendered as digits ('58 anos').",
+      "correction": ""
+    },
+    {
+      "path": "/curriculum/modules/1/units/0/blocks/1/metadata/videoTranscript",
+      "category": "harmless",
+      "reason": "Spelled-out enzyme nomenclature ('eleven beta HSD one') correctly localized to standard notation ('11-beta HSD 1').",
+      "correction": ""
+    },
+    {
+      "path": "/curriculum/modules/1/units/0/blocks/2/metadata/audioScript",
+      "category": "harmless",
+      "reason": "Spelled-out enzyme nomenclature ('eleven beta HSD one') correctly localized to standard notation ('11-beta HSD 1').",
+      "correction": ""
+    },
+    {
+      "path": "/curriculum/modules/1/units/0/blocks/10/metadata/audioScript",
+      "category": "harmless",
+      "reason": "Spelled-out decades ('nineteen eighties and nineties') localized to standard year format ('décadas de 1980 e 1990').",
+      "correction": ""
+    },
+    {
+      "path": "/curriculum/modules/1/units/0/blocks/12/body",
+      "category": "harmless",
+      "reason": "Percentage range formatted with Portuguese standard percent sign usage ('1% a 2%') preserving identical numerical values.",
+      "correction": ""
+    },
+    {
+      "path": "/curriculum/modules/1/units/0/blocks/18/metadata/audioScript",
+      "category": "harmless",
+      "reason": "Spelled-out numbers in syndrome names ('type one', 'two A') correctly formatted with standard numerals ('tipo 1', '2A').",
+      "correction": ""
+    },
+    {
+      "path": "/curriculum/modules/3/units/0/blocks/15/metadata/audioScript",
+      "category": "harmless",
+      "reason": "Spelled-out isoform number ('beta-four') rendered as digit ('beta-4') with all other quantities and peptide identifiers preserved.",
+      "correction": ""
+    },
+    {
+      "path": "/curriculum/modules/3/units/0/blocks/22/metadata/audioScript",
+      "category": "harmless",
+      "reason": "Spelled-out English age 'forty-six-year-old' is accurately localized as numeral '46 anos'.",
+      "correction": ""
+    },
+    {
+      "path": "/curriculum/modules/4/units/0/blocks/1/metadata/videoTranscript",
+      "category": "harmless",
+      "reason": "Spelled-out enzyme name 'five-alpha-reductase' appropriately rendered as standard notation '5-alfa-redutase'.",
+      "correction": ""
+    },
+    {
+      "path": "/curriculum/modules/4/units/0/blocks/2/metadata/audioScript",
+      "category": "harmless",
+      "reason": "Spelled-out enzyme name 'five-alpha-reductase' appropriately rendered as standard notation '5-alfa-redutase'.",
+      "correction": ""
+    },
+    {
+      "path": "/curriculum/modules/4/units/0/blocks/10/tool/items/1/note",
+      "category": "harmless",
+      "reason": "All clinical numbers, phases, study participant counts, and decade references match accurately.",
+      "correction": ""
+    },
+    {
+      "path": "/curriculum/modules/4/units/0/blocks/13/interaction/items/2/why",
+      "category": "harmless",
+      "reason": "Study sample sizes and decade references match exactly.",
+      "correction": ""
+    },
+    {
+      "path": "/curriculum/modules/4/units/0/blocks/21/metadata/audioScript",
+      "category": "harmless",
+      "reason": "Spelled-out date 'fourteenth of May, twenty twenty-six' converted to standard numeric format '14 de maio de 2026'; regulatory categories and 503A references match exactly.",
+      "correction": ""
+    },
+    {
+      "path": "/curriculum/modules/4/check/options/1/text",
+      "category": "harmless",
+      "reason": "Decade reference and count of studies match accurately.",
+      "correction": ""
+    },
+    {
+      "path": "/curriculum/modules/5/units/0/blocks/6/metadata/variants/jurisdiction/EU/text",
+      "category": "harmless",
+      "reason": "Decade, citation year, and calendar date match accurately.",
+      "correction": ""
+    },
+    {
+      "path": "/curriculum/modules/5/units/0/blocks/14/metadata/variants/jurisdiction/EU/text",
+      "category": "harmless",
+      "reason": "Dates and chemical/investigational compound identifiers match accurately.",
+      "correction": ""
+    },
+    {
+      "path": "/curriculum/modules/5/units/0/blocks/22/metadata/audioScript",
+      "category": "harmless",
+      "reason": "Spelled-out patient age 'fifty-two' converted to digit '52'; peptide identifier CJC-1295 and duration match accurately.",
+      "correction": ""
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/23/metadata/audioScript",
+      "category": "harmless",
+      "reason": "Spelled-out patient age 'fifty-two' converted to digit '52'; regulatory section 503A, peptide name BPC-157, and date match accurately.",
+      "correction": ""
+    },
+    {
+      "path": "/tutorCorpus/8/answer",
+      "category": "harmless",
+      "reason": "All regulatory approval years, phase numbers, decades, and regulatory warning dates match accurately.",
+      "correction": ""
+    }
+  ]
+}
