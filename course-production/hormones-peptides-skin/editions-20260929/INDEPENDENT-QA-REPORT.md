@@ -47,3 +47,14 @@ Omar approved deployment. The Mexico and Indonesia drafts were staged as **revie
 | Parallaxnet Bahasa Indonesia | `ec8a2c76798347d49357a1c6c441401760d44cc075882e3c7505833a8c705641` | `academy-parallaxnet-skin-00011-8bq` | [Indonesia review course](https://candidate---academy-parallaxnet-skin-limjs7pr6a-uc.a.run.app/hormones-peptides-skin/) | English `academy-parallaxnet-skin-00009-bxj` at 100% |
 
 For both final candidates, the deployment gate passed all six runtime suites and TypeScript checks; Cloud Run reported `app: ok, db: ok`; the course route returned HTTP 200; and unauthenticated `/api/certificate` returned 401. A browser check confirmed that the public landing screen identifies the translation preview, pending regional review, English videos, and no certificate before sign-in. The preview package has `credential: null`, and the runtime blocks certificate issuance for such packages. Signed-in learner completion, native language review, and named local clinical/regulatory review remain open. Biolongeva was not staged because its launch is on hold.
+
+## Localized landing correction, 2026-09-29
+
+The revisions above were superseded after Omar observed that the main page still opened in English. The assembly now provides translated landing copy and makes the regional language the default for each review candidate. A visible header toggle switches the complete public page between the regional language and English; the choice carries into sign-in. The Indonesian sign-in course title is translated as well.
+
+| Partner preview | Current candidate | Default page | Toggle | Production traffic |
+| --- | --- | --- | --- | --- |
+| [Cenegenics Mexico](https://candidate---academy-cenegenics-skin-limjs7pr6a-uc.a.run.app/hormones-peptides-skin/) | `academy-cenegenics-skin-00007-dqh` | Spanish | English / Español | English `academy-cenegenics-skin-00004-skr` at 100% |
+| [Parallaxnet Indonesia](https://candidate---academy-parallaxnet-skin-limjs7pr6a-uc.a.run.app/hormones-peptides-skin/) | `academy-parallaxnet-skin-00012-2z7` | Bahasa Indonesia | English / Bahasa Indonesia | English `academy-parallaxnet-skin-00009-bxj` at 100% |
+
+Both new candidates passed all six release eval suites and TypeScript checks. In the live browser, each loaded its regional-language homepage, switched to English and back, and opened a regional-language sign-in screen with a translated course title. Cloud Run reported `app: ok, db: ok` for both, and unauthenticated certificate requests returned 401. These remain invitation-only, no-certificate review previews. The videos remain English; the regional clinical, regulatory, native-language, media and signed-in completion reviews remain open.
