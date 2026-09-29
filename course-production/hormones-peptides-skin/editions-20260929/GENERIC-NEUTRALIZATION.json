@@ -1,0 +1,211 @@
+{
+  "sourceSha256": "6419297d6d012d8c8e5b58909e9e9f1f950443aa548ca20618017dbb0ebfa4fa",
+  "status": "generic owner-brand neutralization draft; book titles and authors remain intact",
+  "entries": [
+    {
+      "path": "/provenance/citations/0/publication",
+      "from": "Hormonaly Press · first edition 2026 · 109 pp",
+      "to": "first edition 2026 · 109 pp"
+    },
+    {
+      "path": "/provenance/citations/0/note/en",
+      "from": "Course spine. Secondary source by one author; GRADE ratings and chapter reference blocks are carried, clinical statements still need their primary citation before authoring. corpus/hormonaly-pocket-guide-2026.pdf · sha256 1478266b0809a3e3…",
+      "to": "Course spine. Secondary source by one author; GRADE ratings and chapter reference blocks are carried, clinical statements still need their primary citation before authoring."
+    },
+    {
+      "path": "/provenance/citations/1/publication",
+      "from": "Hormonaly Press · August 2026 build · 146 pp",
+      "to": "August 2026 build · 146 pp"
+    },
+    {
+      "path": "/curriculum/modules/2/units/0/blocks/5/audioBeats/2/body/en",
+      "from": "The Hormonaly endocrinology guide rates both B. The course grades the causal link to visible ageing D, because the human data are associations.",
+      "to": "The endocrinology reference guide rates both B. The course grades the causal link to visible ageing D, because the human data are associations."
+    },
+    {
+      "path": "/curriculum/modules/2/units/0/blocks/12/body/en",
+      "from": "In STEP-1, 1,961 adults without diabetes lost a mean 14.9% of body weight on semaglutide over 68 weeks, against 2.4% on placebo. In SURMOUNT-1, 2,539 adults lost 15.0% to 20.9% on tirzepatide over 72 weeks, depending on dose, against 3.1% on placebo. Both Hormonaly guides grade weight management A. Across 35 randomized trials of incretin drugs, a median of about 28% of the weight lost was muscle-related tissue.",
+      "to": "In STEP-1, 1,961 adults without diabetes lost a mean 14.9% of body weight on semaglutide over 68 weeks, against 2.4% on placebo. In SURMOUNT-1, 2,539 adults lost 15.0% to 20.9% on tirzepatide over 72 weeks, depending on dose, against 3.1% on placebo. Both reference guides grade weight management A. Across 35 randomized trials of incretin drugs, a median of about 28% of the weight lost was muscle-related tissue."
+    },
+    {
+      "path": "/curriculum/modules/2/units/0/blocks/12/stat/means/en",
+      "from": "These drugs produce large, reproducible weight loss in randomized trials: GRADE A for the approved indications. Part of what is lost is lean tissue, which is why the Hormonaly guide pairs treatment with protein and resistance training.",
+      "to": "These drugs produce large, reproducible weight loss in randomized trials: GRADE A for the approved indications. Part of what is lost is lean tissue, which is why the reference guide pairs treatment with protein and resistance training."
+    },
+    {
+      "path": "/curriculum/modules/2/units/0/blocks/14/interaction/items/0/why/en",
+      "from": "STEP-1 and SURMOUNT-1 were large randomized trials against placebo, and both Hormonaly guides grade weight management A.",
+      "to": "STEP-1 and SURMOUNT-1 were large randomized trials against placebo, and both reference guides grade weight management A."
+    },
+    {
+      "path": "/curriculum/modules/2/units/0/blocks/15/body/en",
+      "from": "Raise facial volume change and hair shedding before treatment starts; the Hormonaly guide advises this especially for older patients. During treatment, photograph the face with consent, and support the protein intake and resistance training the guide recommends to protect lean mass. When a patient wants the face restored, refer to a qualified aesthetic or dermatology colleague. Published advice on restoration is expert opinion, the main consensus statement was developed with industry involvement, and randomized trials of fillers and devices in these patients are registered without results. Decisions about the medicine itself stay with the prescriber and the patient.",
+      "to": "Raise facial volume change and hair shedding before treatment starts; the reference guide advises this especially for older patients. During treatment, photograph the face with consent, and support the protein intake and resistance training the guide recommends to protect lean mass. When a patient wants the face restored, refer to a qualified aesthetic or dermatology colleague. Published advice on restoration is expert opinion, the main consensus statement was developed with industry involvement, and randomized trials of fillers and devices in these patients are registered without results. Decisions about the medicine itself stay with the prescriber and the patient."
+    },
+    {
+      "path": "/curriculum/modules/2/units/0/blocks/15/metadata/audioScript/en",
+      "from": "Three moments matter in practice. Before treatment starts, raise facial volume change and hair shedding as possibilities, especially with older patients, as the Hormonaly guide advises, and record that you did. During treatment, photograph the face with consent so that change is measured rather than remembered, and support the protein intake and resistance training the guide recommends to protect lean mass. When a patient asks for help with the face, refer to a qualified aesthetic or dermatology colleague. The published advice on restoring volume after drug-driven weight loss is expert opinion, the main consensus statement was developed with industry involvement, and randomized trials of fillers and devices in these patients are registered with no results yet. Whatever your role, decisions about the medicine itself stay with the prescriber and the patient.",
+      "to": "Three moments matter in practice. Before treatment starts, raise facial volume change and hair shedding as possibilities, especially with older patients, as the reference guide advises, and record that you did. During treatment, photograph the face with consent so that change is measured rather than remembered, and support the protein intake and resistance training the guide recommends to protect lean mass. When a patient asks for help with the face, refer to a qualified aesthetic or dermatology colleague. The published advice on restoring volume after drug-driven weight loss is expert opinion, the main consensus statement was developed with industry involvement, and randomized trials of fillers and devices in these patients are registered with no results yet. Whatever your role, decisions about the medicine itself stay with the prescriber and the patient."
+    },
+    {
+      "path": "/curriculum/modules/2/units/0/blocks/16/interaction/nodes/0/options/0/why/en",
+      "from": "Right. The Hormonaly guide advises raising facial volume change and hair shedding before treatment starts, especially with older patients, and recording that you did. So far, the evidence ties facial change to how much weight is lost.",
+      "to": "Right. The reference guide advises raising facial volume change and hair shedding before treatment starts, especially with older patients, and recording that you did. So far, the evidence ties facial change to how much weight is lost."
+    },
+    {
+      "path": "/curriculum/modules/2/units/0/blocks/16/interaction/nodes/1/options/1/why/en",
+      "from": "Weight is only part of what changes. Part of what is lost is lean tissue, which is why the Hormonaly guide pairs treatment with protein and resistance training.",
+      "to": "Weight is only part of what changes. Part of what is lost is lean tissue, which is why the reference guide pairs treatment with protein and resistance training."
+    },
+    {
+      "path": "/curriculum/modules/2/units/0/blocks/21/interaction/items/5/why/en",
+      "from": "The Hormonaly guide grades it D: mechanism and animal data. As of September 2026, BPC-157 is not on the US 503A bulks list; an FDA advisory committee reviewed it in July 2026.",
+      "to": "The reference guide grades it D: mechanism and animal data. As of September 2026, BPC-157 is not on the US 503A bulks list; an FDA advisory committee reviewed it in July 2026."
+    },
+    {
+      "path": "/curriculum/modules/2/units/0/blocks/22/metadata/audioScript/en",
+      "from": "Patients often link their skin to their gut. Start where the evidence is. Diet quality, treatment of metabolic disease and the established treatment for the skin condition itself all come first. Be careful with tests. A widely used commercial zonulin assay was shown to detect proteins other than zonulin, so a result cannot tell you whether a gut is leaky. Be careful with products too. Probiotics are strain-specific, and their effects on eczema are small at best. The Hormonaly guide gives the popular gut-repair stack of glutamine, zinc carnosine and BPC-157 a grade of D. As of September 2026, in the United States, BPC-157 remains off the 503A bulks list after the July advisory-committee review. Investigational peptides come last, if at all. Whatever your role, name the evidence type before you name the product.",
+      "to": "Patients often link their skin to their gut. Start where the evidence is. Diet quality, treatment of metabolic disease and the established treatment for the skin condition itself all come first. Be careful with tests. A widely used commercial zonulin assay was shown to detect proteins other than zonulin, so a result cannot tell you whether a gut is leaky. Be careful with products too. Probiotics are strain-specific, and their effects on eczema are small at best. The reference guide gives the popular gut-repair stack of glutamine, zinc carnosine and BPC-157 a grade of D. As of September 2026, in the United States, BPC-157 remains off the 503A bulks list after the July advisory-committee review. Investigational peptides come last, if at all. Whatever your role, name the evidence type before you name the product."
+    },
+    {
+      "path": "/curriculum/modules/3/units/0/blocks/4/body/en",
+      "from": "A search of PubMed in September 2026 found one randomized controlled trial of topical GHK-Cu in human skin: 2006, healing after CO₂ laser resurfacing. The cosmetic trials cited for anti-ageing claims are manufacturer-sponsored and not indexed. Both Hormonaly guides grade topical use C.",
+      "to": "A search of PubMed in September 2026 found one randomized controlled trial of topical GHK-Cu in human skin: 2006, healing after CO₂ laser resurfacing. The cosmetic trials cited for anti-ageing claims are manufacturer-sponsored and not indexed. Both reference guides grade topical use C."
+    },
+    {
+      "path": "/curriculum/modules/3/units/0/blocks/11/interaction/items/2/why/en",
+      "from": "GRADE C in this course. Placebo-controlled RCTs, including an independent head-to-head trial, show modest effects. The two Hormonaly guides disagree (C in Aesthetic & Regenerative Endocrinology, D in the Peptide Pocket Guide); the trials decide it here.",
+      "to": "GRADE C in this course. Placebo-controlled RCTs, including an independent head-to-head trial, show modest effects. The two reference guides disagree (C in Aesthetic & Regenerative Endocrinology, D in the Peptide Pocket Guide); the trials decide it here."
+    },
+    {
+      "path": "/curriculum/modules/3/units/0/blocks/22/interaction/notice/2/en",
+      "from": "The Hormonaly endocrinology guide treats new pigmentation on research-use-only peptides as a red flag",
+      "to": "The endocrinology reference guide treats new pigmentation on research-use-only peptides as a red flag"
+    },
+    {
+      "path": "/curriculum/modules/3/units/0/blocks/22/interaction/options/1/why/en",
+      "from": "Right. Stop the exposure, capture the evidence, and get the skin change assessed. The Hormonaly guide states that heavy-metal contamination is documented in these products; the published analysis behind that statement could not be found. The change needs assessment either way.",
+      "to": "Right. Stop the exposure, capture the evidence, and get the skin change assessed. The reference guide states that heavy-metal contamination is documented in these products; the published analysis behind that statement could not be found. The change needs assessment either way."
+    },
+    {
+      "path": "/curriculum/modules/3/units/0/blocks/22/metadata/audioScript/en",
+      "from": "A fictional case, built from this lesson's evidence. A forty-six-year-old patient has been injecting a research-use-only blend sold as GLOW for three months: GHK-Cu, BPC-157 and TB-500 in one vial. She likes her skin and asks about carrying on. You notice new, patchy darkening on her face and forearms. The blend has no controlled human trials, it is made outside good manufacturing practice, and the Hormonaly guide treats new pigmentation on these products as a red flag. Impurity and mislabelling are documented for similar online products; the Hormonaly guide states that heavy-metal contamination is documented in these products, but the published analysis behind that statement could not be found. Decide what you do first.",
+      "to": "A fictional case, built from this lesson's evidence. A forty-six-year-old patient has been injecting a research-use-only blend sold as GLOW for three months: GHK-Cu, BPC-157 and TB-500 in one vial. She likes her skin and asks about carrying on. You notice new, patchy darkening on her face and forearms. The blend has no controlled human trials, it is made outside good manufacturing practice, and the reference guide treats new pigmentation on these products as a red flag. Impurity and mislabelling are documented for similar online products; the reference guide states that heavy-metal contamination is documented in these products, but the published analysis behind that statement could not be found. Decide what you do first."
+    },
+    {
+      "path": "/curriculum/modules/3/units/0/blocks/22/audioBeats/1/body/en",
+      "from": "New, patchy darkening on sun-exposed and covered skin, three months in. The Hormonaly endocrinology guide reads new pigmentation on research-use-only peptides as a warning sign.",
+      "to": "New, patchy darkening on sun-exposed and covered skin, three months in. The endocrinology reference guide reads new pigmentation on research-use-only peptides as a warning sign."
+    },
+    {
+      "path": "/curriculum/modules/3/units/0/blocks/22/audioBeats/2/body/en",
+      "from": "Impurity and mislabelling are documented for adjacent products. The Hormonaly guide states that heavy-metal contamination is documented in these products; the published analysis behind that statement could not be found. The skin change needs assessment either way.",
+      "to": "Impurity and mislabelling are documented for adjacent products. The reference guide states that heavy-metal contamination is documented in these products; the published analysis behind that statement could not be found. The skin change needs assessment either way."
+    },
+    {
+      "path": "/curriculum/modules/4/units/0/blocks/14/interaction/notice/2/en",
+      "from": "The Hormonaly endocrinology guide treats a family history of melanoma as an absolute contraindication",
+      "to": "The endocrinology reference guide treats a family history of melanoma as an absolute contraindication"
+    },
+    {
+      "path": "/curriculum/modules/5/units/0/blocks/10/body/en",
+      "from": "Tesamorelin is the instructive exception on this axis. Both Hormonaly guides grade it A, for one indication. Read the record in order.",
+      "to": "Tesamorelin is the instructive exception on this axis. Both reference guides grade it A, for one indication. Read the record in order."
+    },
+    {
+      "path": "/curriculum/modules/5/units/0/blocks/13/sourceNote",
+      "from": "Falutz 2007 · Teichman 2006 · Beck 2014 · Dominikowski 2026 · both Hormonaly guides",
+      "to": "Falutz 2007 · Teichman 2006 · Beck 2014 · Dominikowski 2026 · both reference guides"
+    },
+    {
+      "path": "/curriculum/modules/5/units/0/blocks/13/interaction/items/3/why/en",
+      "from": "GRADE D for any clinical use. Two phase 1 trials in healthy adults showed GH and IGF-1 rising for days; neither measured a clinical outcome. The Hormonaly guides rate it C; the trials stop at hormone levels.",
+      "to": "GRADE D for any clinical use. Two phase 1 trials in healthy adults showed GH and IGF-1 rising for days; neither measured a clinical outcome. The reference guides rate it C; the trials stop at hormone levels."
+    },
+    {
+      "path": "/curriculum/modules/5/units/0/blocks/21/sourceNote",
+      "from": "Veldhuis 2008 · Tavakkol 1992 · Dominikowski 2026 · Falutz 2010 · EGRIFTA WR prescribing information · somatropin label · Liu 2007 · both Hormonaly guides",
+      "to": "Veldhuis 2008 · Tavakkol 1992 · Dominikowski 2026 · Falutz 2010 · EGRIFTA WR prescribing information · somatropin label · Liu 2007 · both reference guides"
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/1/sourceNote",
+      "from": "Guyatt 2008 · Balshem 2011 · Core GRADE 2025 · Hormonaly guides",
+      "to": "Guyatt 2008 · Balshem 2011 · Core GRADE 2025 · reference guides"
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/1/metadata/videoTranscript/en",
+      "from": "This last module turns the course into three habits. You will rate the certainty behind a claim with GRADE, read a compounding status and a certificate of analysis for what they do and do not prove, and write the consent and chart note that an unapproved product needs. Every claim you hear about a skin peptide carries a hidden question. How sure can we be? GRADE answers it with four levels of certainty, from high to very low. The rating belongs to a body of evidence for one outcome, such as wrinkle depth at twelve weeks, and never to a single study or to the molecule itself. Randomized trials start high and observational studies start low. From there, certainty drops for five reasons you can name, which are risk of bias, inconsistency between trials, indirectness, imprecision, and suspected publication bias. Both Hormonaly guides print a letter from A to D beside each use. Read those letters as the same four levels, adapted. They rate the evidence for that use, and they say nothing about whether a product is legal.",
+      "to": "This last module turns the course into three habits. You will rate the certainty behind a claim with GRADE, read a compounding status and a certificate of analysis for what they do and do not prove, and write the consent and chart note that an unapproved product needs. Every claim you hear about a skin peptide carries a hidden question. How sure can we be? GRADE answers it with four levels of certainty, from high to very low. The rating belongs to a body of evidence for one outcome, such as wrinkle depth at twelve weeks, and never to a single study or to the molecule itself. Randomized trials start high and observational studies start low. From there, certainty drops for five reasons you can name, which are risk of bias, inconsistency between trials, indirectness, imprecision, and suspected publication bias. Both reference guides print a letter from A to D beside each use. Read those letters as the same four levels, adapted. They rate the evidence for that use, and they say nothing about whether a product is legal."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/2/body/en",
+      "from": "GRADE sorts the evidence on a specific question into four levels of certainty: high, moderate, low and very low. The rating applies to a body of evidence for one outcome, never to a single study or to a molecule. Randomized trials start high and observational studies start low; certainty then falls for risk of bias, inconsistency, indirectness, imprecision or suspected publication bias, and occasionally rises for a very large effect. Both Hormonaly guides print the letters A to D for the same idea, adapted, and attach each letter to a specific use.",
+      "to": "GRADE sorts the evidence on a specific question into four levels of certainty: high, moderate, low and very low. The rating applies to a body of evidence for one outcome, never to a single study or to a molecule. Randomized trials start high and observational studies start low; certainty then falls for risk of bias, inconsistency, indirectness, imprecision or suspected publication bias, and occasionally rises for a very large effect. Both reference guides print the letters A to D for the same idea, adapted, and attach each letter to a specific use."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/2/sourceNote",
+      "from": "Guyatt 2008 · Balshem 2011 · Core GRADE 2025 · Hormonaly guides",
+      "to": "Guyatt 2008 · Balshem 2011 · Core GRADE 2025 · reference guides"
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/2/audioBeats/2/body/en",
+      "from": "A to D in both Hormonaly guides maps onto the same four levels. The letter rates the evidence for a listed use. It does not rate legality, popularity or mechanism.",
+      "to": "A to D in both reference guides maps onto the same four levels. The letter rates the evidence for a listed use. It does not rate legality, popularity or mechanism."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/2/metadata/audioScript/en",
+      "from": "Every claim you hear about a skin peptide carries a hidden question. How sure can we be? GRADE answers it with four levels of certainty, from high to very low. The rating belongs to a body of evidence for one outcome, such as wrinkle depth at twelve weeks, and never to a single study or to the molecule itself. Randomized trials start high and observational studies start low. From there, certainty drops for five reasons you can name, which are risk of bias, inconsistency between trials, indirectness, imprecision, and suspected publication bias. It can occasionally rise, for example when an effect is very large. Both Hormonaly guides print a letter from A to D beside each use. Read those letters as the same four levels, adapted. They rate the evidence for that use, and they say nothing about whether a product is legal.",
+      "to": "Every claim you hear about a skin peptide carries a hidden question. How sure can we be? GRADE answers it with four levels of certainty, from high to very low. The rating belongs to a body of evidence for one outcome, such as wrinkle depth at twelve weeks, and never to a single study or to the molecule itself. Randomized trials start high and observational studies start low. From there, certainty drops for five reasons you can name, which are risk of bias, inconsistency between trials, indirectness, imprecision, and suspected publication bias. It can occasionally rise, for example when an effect is very large. Both reference guides print a letter from A to D beside each use. Read those letters as the same four levels, adapted. They rate the evidence for that use, and they say nothing about whether a product is legal."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/5/body/en",
+      "from": "Evidence grade and regulatory status are separate axes, and both Hormonaly guides ask you to clear both. An approved drug can carry a low grade for the use a patient wants, and a compound with stronger human data can still have no lawful route. A plausible mechanism never raises a grade. Say the outcome, the grade and who ran the trials, then check the status as its own step.",
+      "to": "Evidence grade and regulatory status are separate axes, and both reference guides ask you to clear both. An approved drug can carry a low grade for the use a patient wants, and a compound with stronger human data can still have no lawful route. A plausible mechanism never raises a grade. Say the outcome, the grade and who ran the trials, then check the status as its own step."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/5/audioBeats/2/body/en",
+      "from": "A persuasive mechanism leaves the grade where it is. Both Hormonaly guides say so in almost the same words.",
+      "to": "A persuasive mechanism leaves the grade where it is. Both reference guides say so in almost the same words."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/5/metadata/audioScript/en",
+      "from": "Suppose a patient asks whether a peptide works. Start with the outcome they care about, say fewer lines around the eyes, and give the certainty for that outcome, along with who paid for the trials behind it. Then, as a separate step, check what the product legally is. The Hormonaly guides keep these two checks apart for a reason. An approved drug can carry a low grade for the particular use a patient has in mind, and a compound with stronger human data may still have no lawful route in the United States. A persuasive mechanism leaves the grade exactly where it is. Whatever your role, say the outcome and the grade in one breath, and treat the regulatory answer as a question of its own.",
+      "to": "Suppose a patient asks whether a peptide works. Start with the outcome they care about, say fewer lines around the eyes, and give the certainty for that outcome, along with who paid for the trials behind it. Then, as a separate step, check what the product legally is. The reference guides keep these two checks apart for a reason. An approved drug can carry a low grade for the particular use a patient has in mind, and a compound with stronger human data may still have no lawful route in the United States. A persuasive mechanism leaves the grade exactly where it is. Whatever your role, say the outcome and the grade in one breath, and treat the regulatory answer as a question of its own."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/6/sourceNote",
+      "from": "Guyatt 2008 · Balshem 2011 · Core GRADE 2 and 4 (BMJ 2025) · Hormonaly guides",
+      "to": "Guyatt 2008 · Balshem 2011 · Core GRADE 2 and 4 (BMJ 2025) · reference guides"
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/6/interaction/items/1/why/en",
+      "from": "A persuasive mechanism leaves the grade exactly where it is. Both Hormonaly guides say so in almost the same words.",
+      "to": "A persuasive mechanism leaves the grade exactly where it is. Both reference guides say so in almost the same words."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/17/metadata/audioScript/en",
+      "from": "Research use only sounds like a category. In law it works as a shipping permission. The US rule lets a supplier send an investigational drug for laboratory or test-tube work if the label says it must stay out of people, and the shipper is meant to confirm that is how it will be used. FDA judges what a product is for by how it is marketed and sold, so a disclaimer on a vial offered with injection instructions carries no weight. The Hormonaly guides say it plainly. Research use only is not a clinical pathway. A certificate of analysis, however clean, cannot convert that vial into a pharmaceutical, because sterility, manufacturing standards and a lawful route are all still missing. Whatever your role, treat these products as outside clinical care, and write down exactly what you were told.",
+      "to": "Research use only sounds like a category. In law it works as a shipping permission. The US rule lets a supplier send an investigational drug for laboratory or test-tube work if the label says it must stay out of people, and the shipper is meant to confirm that is how it will be used. FDA judges what a product is for by how it is marketed and sold, so a disclaimer on a vial offered with injection instructions carries no weight. The reference guides say it plainly. Research use only is not a clinical pathway. A certificate of analysis, however clean, cannot convert that vial into a pharmaceutical, because sterility, manufacturing standards and a lawful route are all still missing. Whatever your role, treat these products as outside clinical care, and write down exactly what you were told."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/21/sourceNote",
+      "from": "FDA: cosmetic or drug; dietary supplements; off-label use · FDA 503A categories (14 May 2026) · 21 CFR 312.160 · Hormonaly guides",
+      "to": "FDA: cosmetic or drug; dietary supplements; off-label use · FDA 503A categories (14 May 2026) · 21 CFR 312.160 · reference guides"
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/22/sourceNote",
+      "from": "Fictional product page · FDA, cosmetic or drug · Balshem 2011 · Core GRADE 5 (BMJ 2025) · Miller 2006 · Hormonaly guides",
+      "to": "Fictional product page · FDA, cosmetic or drug · Balshem 2011 · Core GRADE 5 (BMJ 2025) · Miller 2006 · reference guides"
+    },
+    {
+      "path": "/tutorCorpus/5/answer/en",
+      "from": "Mechanism: bacterial lipopolysaccharide crossing a leaky gut barrier ('metabolic endotoxaemia') drives inflammation and insulin resistance in mice, and a single high-fat meal briefly raised plasma endotoxin in a study of 12 healthy men (D). Human evidence for skin: an independent Cochrane review of 39 trials found probiotics probably make little or no difference to patient-rated eczema symptoms (B); a 2024 meta-analysis in children without food allergy reported small score improvements (C); one small randomized trial found rosacea improved after small-intestinal bacterial overgrowth was treated (C). A leading review concludes it is unproven that restoring barrier function improves disease outside the gut, and a widely used commercial zonulin assay detects proteins other than zonulin. A fibre-rich diet has strong evidence for cardiometabolic outcomes and has not been tested on skin outcomes. The Hormonaly guide grades the 'leaky gut' repair stack (L-glutamine, zinc carnosine, BPC-157) D; in the US, BPC-157 is not on the 503A bulks list as of September 2026. In the UK, an unlicensed medicine can be supplied as a 'special' only for an individual patient's special clinical need that no licensed product meets, on the prescriber's responsibility. Start with diet, metabolic health and the skin diagnosis; investigational peptides come last, if at all, and any injected or research peptide needs a prescriber.",
+      "to": "Mechanism: bacterial lipopolysaccharide crossing a leaky gut barrier ('metabolic endotoxaemia') drives inflammation and insulin resistance in mice, and a single high-fat meal briefly raised plasma endotoxin in a study of 12 healthy men (D). Human evidence for skin: an independent Cochrane review of 39 trials found probiotics probably make little or no difference to patient-rated eczema symptoms (B); a 2024 meta-analysis in children without food allergy reported small score improvements (C); one small randomized trial found rosacea improved after small-intestinal bacterial overgrowth was treated (C). A leading review concludes it is unproven that restoring barrier function improves disease outside the gut, and a widely used commercial zonulin assay detects proteins other than zonulin. A fibre-rich diet has strong evidence for cardiometabolic outcomes and has not been tested on skin outcomes. The reference guide grades the 'leaky gut' repair stack (L-glutamine, zinc carnosine, BPC-157) D; in the US, BPC-157 is not on the 503A bulks list as of September 2026. In the UK, an unlicensed medicine can be supplied as a 'special' only for an individual patient's special clinical need that no licensed product meets, on the prescriber's responsibility. Start with diet, metabolic health and the skin diagnosis; investigational peptides come last, if at all, and any injected or research peptide needs a prescriber."
+    },
+    {
+      "path": "/tutorCorpus/12/answer/en",
+      "from": "GRADE rates certainty for a specific outcome across a body of evidence: high, moderate, low or very low (the Hormonaly guides print A to D). Randomized trials start high; certainty drops for risk of bias, inconsistency, indirectness, imprecision or suspected publication bias. Industry-sponsored studies more often report favourable results (Cochrane, 2017), so ask who ran and paid for the trials. A grade is separate from legal status: check both, and never let a mechanism raise a grade. This course gives no doses or sourcing advice.",
+      "to": "GRADE rates certainty for a specific outcome across a body of evidence: high, moderate, low or very low (the reference guides print A to D). Randomized trials start high; certainty drops for risk of bias, inconsistency, indirectness, imprecision or suspected publication bias. Industry-sponsored studies more often report favourable results (Cochrane, 2017), so ask who ran and paid for the trials. A grade is separate from legal status: check both, and never let a mechanism raise a grade. This course gives no doses or sourcing advice."
+    }
+  ]
+}

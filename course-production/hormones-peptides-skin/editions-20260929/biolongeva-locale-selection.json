@@ -1,0 +1,30 @@
+{
+  "academy": {"slug": "biolongeva", "name": "Biolongeva"},
+  "locales": {"base": "en", "editions": ["pt-BR"]},
+  "jurisdictions": ["BR"],
+  "production": {
+    "workstream": "Peptides for Skin: Biolongeva clinician edition for Brazil, held for launch readiness",
+    "excludedWorkstreams": ["Biolongeva Peptide Foundations", "GCLS LATAM AI course"],
+    "adaptation": {
+      "mode": "adapt-existing",
+      "sourceInventory": "Hormonaly hormones-peptides-skin package 1.1.0, SHA256 6419297d6d012d8c8e5b58909e9e9f1f950443aa548ca20618017dbb0ebfa4fa, and its cited media",
+      "preserve": "Stable unit IDs, evidence grades, citations, clinical uncertainty, assessment intent and safety boundaries",
+      "change": "Brazilian Portuguese, Biolongeva presentation and refreshed ANVISA review"
+    },
+    "experience": {
+      "surface": "standalone",
+      "features": ["course player", "checks", "tutor", "completion"],
+      "authentication": "Biolongeva access model pending",
+      "progressOwner": "Biolongeva academy, subject to integration decision",
+      "completionRule": "Partner credential decision pending",
+      "accessibilityNeeds": "Captions, transcript and mobile controls"
+    },
+    "localization": {
+      "rollout": "staged",
+      "editions": [
+        {"locale":"en","priority":1,"mediaMode":"text","existingAssets":"Source English package and media","terminology":"Source clinical terminology","reviewer":{}},
+        {"locale":"pt-BR","priority":2,"mediaMode":"full-media","existingAssets":"No Brazilian Portuguese skin-course media verified","terminology":"Brazilian clinical Portuguese; ANVISA medicine/cosmetic terms","reviewer":{},"voicePlan":"Brazilian Portuguese narration voice and presenter authorization pending"}
+      ]
+    }
+  }
+}

@@ -1,0 +1,175 @@
+[
+  {
+    "partner": "cenegenics",
+    "locale": "es-MX",
+    "sourceMaps": 3796,
+    "intentionallyRemoved": [
+      "/credential/coBrand/lockup"
+    ],
+    "missing": [],
+    "same": [],
+    "numbers": [
+      "/provenance/citations/63/note",
+      "/provenance/citations/248/note",
+      "/provenance/citations/304/note",
+      "/provenance/citations/310/note",
+      "/provenance/citations/368/note",
+      "/provenance/citations/375/note",
+      "/curriculum/modules/0/units/0/blocks/16/metadata/audioScript",
+      "/curriculum/modules/0/units/0/blocks/20/metadata/audioScript",
+      "/curriculum/modules/1/units/0/blocks/1/metadata/videoTranscript",
+      "/curriculum/modules/1/units/0/blocks/2/metadata/audioScript",
+      "/curriculum/modules/1/units/0/blocks/10/metadata/audioScript",
+      "/curriculum/modules/1/units/0/blocks/18/metadata/audioScript",
+      "/curriculum/modules/2/units/0/blocks/17/metadata/audioScript",
+      "/curriculum/modules/3/units/0/blocks/15/metadata/audioScript",
+      "/curriculum/modules/3/units/0/blocks/22/metadata/audioScript",
+      "/curriculum/modules/4/units/0/blocks/1/metadata/videoTranscript",
+      "/curriculum/modules/4/units/0/blocks/2/metadata/audioScript",
+      "/curriculum/modules/4/units/0/blocks/10/tool/items/1/note",
+      "/curriculum/modules/4/units/0/blocks/13/interaction/items/2/why",
+      "/curriculum/modules/4/check/options/1/text",
+      "/curriculum/modules/5/units/0/blocks/6/metadata/variants/jurisdiction/EU/text",
+      "/curriculum/modules/5/units/0/blocks/14/metadata/variants/jurisdiction/EU/text",
+      "/curriculum/modules/6/units/0/blocks/13/metadata/variants/jurisdiction/GB/text",
+      "/curriculum/modules/6/units/0/blocks/17/metadata/variants/jurisdiction/PT/text",
+      "/curriculum/modules/6/units/0/blocks/23/metadata/audioScript",
+      "/tutorCorpus/8/answer"
+    ],
+    "branding": [],
+    "statuses": {
+      "locale": "draft",
+      "modules": [
+        "ai_draft"
+      ],
+      "units": [
+        "ai_draft"
+      ],
+      "assets": [
+        "draft"
+      ],
+      "approvalCount": 0
+    },
+    "media": {
+      "sourceEnglishVideos": 7,
+      "targetVideos": 0,
+      "targetCaptions": 0
+    },
+    "publishReady": false
+  },
+  {
+    "partner": "biolongeva",
+    "locale": "pt-BR",
+    "sourceMaps": 3796,
+    "intentionallyRemoved": [
+      "/credential/coBrand/lockup"
+    ],
+    "missing": [],
+    "same": [],
+    "numbers": [
+      "/provenance/citations/59/note",
+      "/provenance/citations/63/note",
+      "/provenance/citations/64/note",
+      "/provenance/citations/67/note",
+      "/provenance/citations/68/note",
+      "/provenance/citations/69/note",
+      "/provenance/citations/310/note",
+      "/provenance/citations/368/note",
+      "/curriculum/modules/0/units/0/blocks/16/metadata/audioScript",
+      "/curriculum/modules/0/units/0/blocks/20/metadata/audioScript",
+      "/curriculum/modules/0/units/0/blocks/22/metadata/audioScript",
+      "/curriculum/modules/1/units/0/blocks/1/metadata/videoTranscript",
+      "/curriculum/modules/1/units/0/blocks/2/metadata/audioScript",
+      "/curriculum/modules/1/units/0/blocks/10/metadata/audioScript",
+      "/curriculum/modules/1/units/0/blocks/12/body",
+      "/curriculum/modules/1/units/0/blocks/18/metadata/audioScript",
+      "/curriculum/modules/3/units/0/blocks/15/metadata/audioScript",
+      "/curriculum/modules/3/units/0/blocks/22/metadata/audioScript",
+      "/curriculum/modules/4/units/0/blocks/1/metadata/videoTranscript",
+      "/curriculum/modules/4/units/0/blocks/2/metadata/audioScript",
+      "/curriculum/modules/4/units/0/blocks/10/tool/items/1/note",
+      "/curriculum/modules/4/units/0/blocks/13/interaction/items/2/why",
+      "/curriculum/modules/4/units/0/blocks/21/metadata/audioScript",
+      "/curriculum/modules/4/check/options/1/text",
+      "/curriculum/modules/5/units/0/blocks/6/metadata/variants/jurisdiction/EU/text",
+      "/curriculum/modules/5/units/0/blocks/14/metadata/variants/jurisdiction/EU/text",
+      "/curriculum/modules/5/units/0/blocks/22/metadata/audioScript",
+      "/curriculum/modules/6/units/0/blocks/23/metadata/audioScript",
+      "/tutorCorpus/8/answer"
+    ],
+    "branding": [],
+    "statuses": {
+      "locale": "draft",
+      "modules": [
+        "ai_draft"
+      ],
+      "units": [
+        "ai_draft"
+      ],
+      "assets": [
+        "draft"
+      ],
+      "approvalCount": 0
+    },
+    "media": {
+      "sourceEnglishVideos": 7,
+      "targetVideos": 0,
+      "targetCaptions": 0
+    },
+    "publishReady": false
+  },
+  {
+    "partner": "parallaxnet-skin",
+    "locale": "id",
+    "sourceMaps": 3796,
+    "intentionallyRemoved": [
+      "/credential/coBrand/lockup"
+    ],
+    "missing": [],
+    "same": [],
+    "numbers": [
+      "/provenance/citations/63/note",
+      "/provenance/citations/310/note",
+      "/provenance/citations/368/note",
+      "/curriculum/modules/0/units/0/blocks/16/metadata/audioScript",
+      "/curriculum/modules/0/units/0/blocks/20/metadata/audioScript",
+      "/curriculum/modules/1/units/0/blocks/10/metadata/audioScript",
+      "/curriculum/modules/1/units/0/blocks/13/tool/items/1/note",
+      "/curriculum/modules/1/units/0/blocks/22/metadata/audioScript",
+      "/curriculum/modules/2/units/0/blocks/17/metadata/audioScript",
+      "/curriculum/modules/4/units/0/blocks/1/metadata/videoTranscript",
+      "/curriculum/modules/4/units/0/blocks/2/metadata/audioScript",
+      "/curriculum/modules/4/units/0/blocks/10/tool/items/1/note",
+      "/curriculum/modules/4/units/0/blocks/13/interaction/items/2/why",
+      "/curriculum/modules/4/units/0/blocks/21/metadata/audioScript",
+      "/curriculum/modules/4/check/options/1/text",
+      "/curriculum/modules/5/units/0/blocks/6/metadata/audioScript",
+      "/curriculum/modules/5/units/0/blocks/6/metadata/variants/jurisdiction/EU/text",
+      "/curriculum/modules/5/units/0/blocks/14/metadata/variants/jurisdiction/EU/text",
+      "/curriculum/modules/5/units/0/blocks/22/metadata/audioScript",
+      "/curriculum/modules/6/units/0/blocks/23/points/1",
+      "/curriculum/modules/6/units/0/blocks/23/interaction/notice/1",
+      "/tutorCorpus/8/answer"
+    ],
+    "branding": [],
+    "statuses": {
+      "locale": "draft",
+      "modules": [
+        "ai_draft"
+      ],
+      "units": [
+        "ai_draft"
+      ],
+      "assets": [
+        "draft"
+      ],
+      "approvalCount": 0
+    },
+    "media": {
+      "sourceEnglishVideos": 7,
+      "targetVideos": 0,
+      "targetCaptions": 0
+    },
+    "publishReady": false
+  }
+]

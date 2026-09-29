@@ -1,0 +1,795 @@
+{
+  "sourcePackage": "hormonaly.hormones-peptides-skin",
+  "sourceVersion": "1.1.0",
+  "sourceSha256": "6419297d6d012d8c8e5b58909e9e9f1f950443aa548ca20618017dbb0ebfa4fa",
+  "checkedAt": "2026-09-29",
+  "jobs": [
+    {
+      "module": "m02",
+      "block": "m2-p11",
+      "type": "audio",
+      "sourcePath": "/curriculum/modules/1/units/0/blocks/15",
+      "sourceExcerpt": "In the US, as of February 2026, FDA-approved menopausal hormone therapy is for moderate-to-severe hot flashes, vaginal and vulvar symptoms and, for some products, preventing bone loss. FDA's 2025–26 labeling changes removed cardiovascular, breast-cancer and dementia statements fr",
+      "existingCountries": [
+        "AE",
+        "BR",
+        "EU",
+        "GB",
+        "PT"
+      ],
+      "BrazilNote": "In Brazil, as of September 2026, estradiol for menopausal hormone therapy is registered and the Oestrogel label covers menopausal symptoms and prevention of postmenopausal osteoporosis, not skin ageing, while the Vitacid label for topical tretinoin names cutaneous photoageing as well as acne vulgaris. The Federal Council of Medicine (CFM) bars physicians from using hormones, in any formulation, except in diagnosed deficiencies where replacement shows evidence of scientifically proven benefit (Resolution 1.999/2012), and from prescribing hormones marketed as 'bioidentical' or 'nano' without proof of superiority (Resolution 2.333/2023).",
+      "Mexico": "pending exact-product/route/indication and practice-scope check",
+      "Indonesia": "pending exact-product/route/indication and practice-scope check",
+      "sourceCitationRefs": [
+        "fda-mht-labeling-request-2025-11-10",
+        "fda-mht-labeling-approval-2026-02-12",
+        "nams-2022-hormone-therapy-position-statement",
+        "nams-2020-gsm-position-statement",
+        "manson-2013-whi-extended-follow-up",
+        "ecfr-21-cfr-310-530-hormone-creams",
+        "hughes-2013-sunscreen-skin-aging-rct",
+        "fda-renova-tretinoin-label",
+        "hannah-shmouni-2026-are",
+        "emc-smpc-evorel-uk",
+        "emc-smpc-sandrena-uk",
+        "mhra-gn14-specials-2023",
+        "emc-smpc-treclin-uk",
+        "emc-smpc-aknemycin-plus-uk",
+        "emc-search-tretinoin-2026-09-25"
+      ]
+    },
+    {
+      "module": "m03",
+      "block": "m3-p08",
+      "type": "audio",
+      "sourcePath": "/curriculum/modules/2/units/0/blocks/10",
+      "sourceExcerpt": "GLP-1 and GIP are incretins, hormones the gut releases after a meal that amplify glucose-dependent insulin release; GLP-1 also slows gastric emptying and reduces appetite. Native GLP-1 is broken down within minutes. Semaglutide is a long-acting GLP-1 receptor agonist, and tirzepa",
+      "existingCountries": [
+        "AE",
+        "BR",
+        "EU",
+        "GB"
+      ],
+      "BrazilNote": "In Brazil, ANVISA has registered semaglutide as Ozempic (since 6 August 2018) and Wegovy (since 2 January 2023), with synthetic semaglutide pens registered from 26 May 2026, and tirzepatide as Mounjaro (since 25 September 2023); a search of its register on 25 September 2026 found no product named Zepbound. Since 23 June 2025, GLP-1 receptor agonist medicines may only be sold with retention of the prescription (RDC 973/2025 and IN 360/2025).",
+      "Mexico": "pending exact-product/route/indication and practice-scope check",
+      "Indonesia": "pending exact-product/route/indication and practice-scope check",
+      "sourceCitationRefs": [
+        "drucker-2018-glp1-mechanisms",
+        "fda-label-mounjaro-2026",
+        "fda-label-ozempic-2026",
+        "fda-label-wegovy-2026",
+        "fda-label-zepbound-2026",
+        "hannah-shmouni-2026-are",
+        "hannah-shmouni-2026-ppg-aug"
+      ]
+    },
+    {
+      "module": "m03",
+      "block": "m3-p09",
+      "type": "tool",
+      "sourcePath": "/curriculum/modules/2/units/0/blocks/11",
+      "sourceExcerpt": "The facial changes in this lesson happen to people taking approved drugs for approved reasons. Know the indications, and their dates, before you discuss the side effects. Status below is for the US, from FDA records checked in September 2026.",
+      "existingCountries": [
+        "AE",
+        "BR",
+        "EU",
+        "GB",
+        "PT"
+      ],
+      "BrazilNote": "In Brazil, as of September 2026, Ozempic is indicated for adults with insufficiently controlled type 2 diabetes mellitus, Wegovy is indicated for weight management in adults, Mounjaro is indicated for chronic weight management in adults, and the approved synthetic semaglutide copies are indicated for adult patients with insufficiently controlled type 2 diabetes mellitus. Nota Técnica 200/2025 (August 2025) permits compounding of chemically synthesised APIs provided registered medicines with the same molecule already exist in Brazil, and ANVISA inspections from January to April 2026 led to the closure of 8 of the 26 establishments assessed and the seizure of more than 1.3 million units of irregular injectable medicines.",
+      "Mexico": "pending exact-product/route/indication and practice-scope check",
+      "Indonesia": "pending exact-product/route/indication and practice-scope check",
+      "sourceCitationRefs": [
+        "fda-label-ozempic-2026",
+        "fda-label-wegovy-2026",
+        "fda-drugsfda-wegovy-nda215256",
+        "lincoff-2023-select",
+        "fda-label-mounjaro-2026",
+        "fda-label-zepbound-2026",
+        "fda-drugsfda-zepbound-nda217806",
+        "fda-unapproved-glp1-concerns-2026",
+        "ashraf-2024-online-semaglutide-quality",
+        "hannah-shmouni-2026-ppg-aug"
+      ]
+    },
+    {
+      "module": "m03",
+      "block": "m3-p11",
+      "type": "tool",
+      "sourcePath": "/curriculum/modules/2/units/0/blocks/13",
+      "sourceExcerpt": "The phrase bundles four kinds of statement. Kept apart, they tell a patient far more than the headline does.",
+      "existingCountries": [
+        "GB"
+      ],
+      "BrazilNote": null,
+      "Mexico": "pending exact-product/route/indication and practice-scope check",
+      "Indonesia": "pending exact-product/route/indication and practice-scope check",
+      "sourceCitationRefs": [
+        "rohrich-pessa-2007-facial-fat-compartments",
+        "sharma-2025-midface-volume-glp1",
+        "rao-2026-glp1-skin-pro-survey",
+        "daneshgaran-2025-ozempic-face-sr",
+        "humphrey-lawrence-2023-ozempic-face",
+        "fda-label-wegovy-2026",
+        "fda-label-zepbound-2026",
+        "paschou-2025-glp1ra-skin-aging",
+        "persson-2025-glp1-dermatological-profile",
+        "burke-2025-glp1-dermatologic",
+        "hannah-shmouni-2026-are"
+      ]
+    },
+    {
+      "module": "m03",
+      "block": "m3-p17",
+      "type": "tool",
+      "sourcePath": "/curriculum/modules/2/units/0/blocks/21",
+      "sourceExcerpt": "Six things patients bring you under the heading 'gut health for skin'. One at a time, decide what stands behind each.",
+      "existingCountries": [
+        "AE",
+        "BR",
+        "EU"
+      ],
+      "BrazilNote": "In Brazil, Mounjaro (tirzepatide), registered by ANVISA since 25 September 2023, is indicated as an adjunct to a low-calorie diet and increased physical activity for chronic weight management in adults. ANVISA stated on 2 July 2026 that BPC-157 is not authorised for use as a food supplement and that no company applications or studies have been submitted to regularise it as a food supplement.",
+      "Mexico": "pending exact-product/route/indication and practice-scope check",
+      "Indonesia": "pending exact-product/route/indication and practice-scope check",
+      "sourceCitationRefs": [
+        "makrgeorgou-2018-cochrane-probiotics-eczema",
+        "parodi-2008-rosacea-sibo",
+        "lebwohl-2026-together-pso",
+        "faurschou-2015-liraglutide-psoriasis",
+        "fda-label-mounjaro-2026",
+        "fda-label-zepbound-2026",
+        "reynolds-2019-carbohydrate-quality",
+        "depommier-2019-akkermansia",
+        "fda-pcac-2026-07-meeting",
+        "hannah-shmouni-2026-are",
+        "emc-smpc-mounjaro-uk"
+      ]
+    },
+    {
+      "module": "m03",
+      "block": "m3-p18",
+      "type": "audio",
+      "sourcePath": "/curriculum/modules/2/units/0/blocks/22",
+      "sourceExcerpt": "When a patient links their skin to their gut, start with what has evidence: diet quality, treating metabolic disease directly, and established treatment for the skin condition itself. A widely used commercial zonulin assay has been shown to detect proteins other than zonulin, so ",
+      "existingCountries": [
+        "AE",
+        "BR",
+        "EU",
+        "GB",
+        "PT"
+      ],
+      "BrazilNote": "In Brazil, ANVISA stated on 2 July 2026 that any substance must have undergone efficacy and safety assessments before it can be compounded, and that some injectable peptides are not regularised in any category (food, medicine, cosmetic or food supplement) and are illegal for any health use, including aesthetic use. ANVISA also stated in July 2026 that an investigational medicine is used exclusively in authorised clinical research.",
+      "Mexico": "pending exact-product/route/indication and practice-scope check",
+      "Indonesia": "pending exact-product/route/indication and practice-scope check",
+      "sourceCitationRefs": [
+        "scheffler-2018-zonulin-elisa",
+        "camilleri-2019-leaky-gut",
+        "reynolds-2019-carbohydrate-quality",
+        "suez-2019-probiotics-review",
+        "makrgeorgou-2018-cochrane-probiotics-eczema",
+        "fda-pcac-2026-07-meeting",
+        "hannah-shmouni-2026-are",
+        "ecfr-21-cfr-216-23-bulks-list"
+      ]
+    },
+    {
+      "module": "m04",
+      "block": "m4-p05",
+      "type": "tool",
+      "sourcePath": "/curriculum/modules/3/units/0/blocks/5",
+      "sourceExcerpt": "Every peptide question has four separate answers. For GHK-Cu they point in different directions, which is exactly why they must not be blended into one sentence.",
+      "existingCountries": [
+        "AE",
+        "BR",
+        "EU",
+        "GB",
+        "PT"
+      ],
+      "BrazilNote": "In Brazil, ANVISA stated on 2 July 2026 that products presented as peptides called GHK-Cu that promise aesthetic effects or improvement in health conditions are not registered with Anvisa.",
+      "Mexico": "pending exact-product/route/indication and practice-scope check",
+      "Indonesia": "pending exact-product/route/indication and practice-scope check",
+      "sourceCitationRefs": [
+        "pickart-2015-ghk-skin-regeneration",
+        "miller-2006-ghk-cu-laser-rct",
+        "hostynek-2010-ghk-cu-penetration",
+        "ogorek-2025-ghk-cu-permeation-review",
+        "fda-503a-categories-2026-05-14",
+        "fda-503a-bulks-page",
+        "hannah-shmouni-2026-ppg-aug",
+        "hannah-shmouni-2026-are",
+        "mazurowska-2008-copper-peptide-penetration"
+      ]
+    },
+    {
+      "module": "m04",
+      "block": "m4-p06",
+      "type": "audio",
+      "sourcePath": "/curriculum/modules/3/units/0/blocks/7",
+      "sourceExcerpt": "Topical GHK-Cu is a reasonable cosmetic conversation at GRADE C. Injected GHK-Cu is a different product: no randomized trials, injection-site pain and rash are common because copper irritates tissue, and in the US the injectable route sits outside the Category 1 listing.",
+      "existingCountries": [
+        "AE",
+        "BR",
+        "EU",
+        "GB",
+        "PT"
+      ],
+      "BrazilNote": "In Brazil, ANVISA stated on 2 July 2026 that injectable cosmetics do not exist; an injectable product offered as a cosmetic is irregular. Products with 'GHK' in the product name appear as notified cosmetics in ANVISA's public cosmetics data (221 entries, 25 September 2026), and ANVISA cancelled several GHK-Cu cosmetic processes on 29 April 2026 without published reasons (RE 1.771/2026).",
+      "Mexico": "pending exact-product/route/indication and practice-scope check",
+      "Indonesia": "pending exact-product/route/indication and practice-scope check",
+      "sourceCitationRefs": [
+        "hannah-shmouni-2026-ppg-aug",
+        "hannah-shmouni-2026-are",
+        "li-2016-copper-skin-toxicity",
+        "fda-503a-categories-2026-05-14"
+      ]
+    },
+    {
+      "module": "m04",
+      "block": "m4-p11",
+      "type": "audio",
+      "sourcePath": "/curriculum/modules/3/units/0/blocks/13",
+      "sourceExcerpt": "In the US, cosmetic peptides are cosmetic ingredients, not drugs, and their safety is assessed under a cosmetics framework. Oral collagen is a dietary supplement: it may not claim to treat disease, and product quality and content vary. Neither route has to prove efficacy before s",
+      "existingCountries": [
+        "AE",
+        "BR",
+        "EU",
+        "GB",
+        "PT"
+      ],
+      "BrazilNote": "In Brazil, cosmetic labelling must not contain trade names, brands, images, electronic links or wording that represent therapeutic claims attributed to the use of the product or its ingredients (RDC 907/2024, art. 12). Under ANVISA's January 2025 food supplement guidance, an approved claim is that bioactive hydrolysed collagen peptides with an average molecular weight of 2 kDa help maintain skin health.",
+      "Mexico": "pending exact-product/route/indication and practice-scope check",
+      "Indonesia": "pending exact-product/route/indication and practice-scope check",
+      "sourceCitationRefs": [
+        "bjerke-2026-cosmetic-peptide-safety-framework",
+        "lupo-cole-2007-cosmeceutical-peptides",
+        "hannah-shmouni-2026-are",
+        "hannah-shmouni-2026-ppg-aug"
+      ]
+    },
+    {
+      "module": "m04",
+      "block": "m4-p16",
+      "type": "tool",
+      "sourcePath": "/curriculum/modules/3/units/0/blocks/20",
+      "sourceExcerpt": "Three US categories, dated to the FDA's category list of 14 May 2026 and the advisory-committee meeting of 23–24 July 2026. The committee's votes are advice; FDA must still act through rulemaking before anything joins the bulks list. FDA has sent warning letters naming GHK-Cu and",
+      "existingCountries": [
+        "AE",
+        "BR",
+        "EU",
+        "GB",
+        "PT"
+      ],
+      "BrazilNote": "In Brazil, ANVISA stated on 2 July 2026 that any substance must have passed efficacy and safety assessment before it can be compounded, and that compounding may only be individual, on presentation of a medical prescription, by a compounding pharmacy licensed by local health surveillance. The same notice says BPC-157 and TB-500 are not authorised as food supplements, and that products presented as peptides called GHK-CU, BPC-157, and TB-500 promising aesthetic effects or health improvements are not registered with ANVISA.",
+      "Mexico": "pending exact-product/route/indication and practice-scope check",
+      "Indonesia": "pending exact-product/route/indication and practice-scope check",
+      "sourceCitationRefs": [
+        "fda-503a-categories-2026-05-14",
+        "fda-503a-bulks-page",
+        "federal-register-2026-07361-pcac",
+        "fda-pcac-2026-07-meeting",
+        "fda-warning-letter-tailor-made-2020",
+        "hannah-shmouni-2026-are"
+      ]
+    },
+    {
+      "module": "m04",
+      "block": "m4-p17",
+      "type": "audio",
+      "sourcePath": "/curriculum/modules/3/units/0/blocks/22",
+      "sourceExcerpt": "A 46-year-old patient has been injecting a research-use-only 'GLOW' blend bought online for three months. She reports smoother skin and asks about continuing. You notice new, patchy darkening on her face and forearms. This is a fictional case built from the lesson's evidence; the",
+      "existingCountries": [
+        "AE",
+        "BR",
+        "EU",
+        "PT"
+      ],
+      "BrazilNote": "In Brazil, ANVISA stated on 2 July 2026 that products presented as peptides called BPC-157, TB-500 and GHK-Cu are not registered, and that some injectable peptides not regularised in any category (food, medicine, cosmetic or food supplement) are illegal for any health use, including aesthetic use. ANVISA also stated in July 2026 that an investigational medicine is used exclusively in authorised clinical research.",
+      "Mexico": "pending exact-product/route/indication and practice-scope check",
+      "Indonesia": "pending exact-product/route/indication and practice-scope check",
+      "sourceCitationRefs": [
+        "hannah-shmouni-2026-are",
+        "hannah-shmouni-2026-ppg-aug",
+        "vanhee-2020-seized-research-peptides",
+        "ashraf-2024-online-semaglutide-quality",
+        "fda-503a-categories-2026-05-14",
+        "fda-pcac-2026-07-meeting"
+      ]
+    },
+    {
+      "module": "m05",
+      "block": "m5-p03",
+      "type": "stat",
+      "sourcePath": "/curriculum/modules/4/units/0/blocks/4",
+      "sourceExcerpt": "When immune privilege fails, the attack depends on cytokine signals that JAK inhibitors interrupt. Two randomized phase 3 trials tested oral baricitinib in 1,200 adults with severe alopecia areata. In the US, FDA approved baricitinib for adults with severe alopecia areata on 13 J",
+      "existingCountries": [
+        "AE",
+        "BR",
+        "EU",
+        "GB",
+        "PT"
+      ],
+      "BrazilNote": "In Brazil, baricitinib (Olumiant) has been registered by ANVISA since 26 November 2018, and its current label includes severe alopecia areata in adults and adolescents aged 12 or over weighing at least 30 kg (checked 25 September 2026).",
+      "Mexico": "pending exact-product/route/indication and practice-scope check",
+      "Indonesia": "pending exact-product/route/indication and practice-scope check",
+      "sourceCitationRefs": [
+        "king-2022-baricitinib-brave-aa",
+        "fda-olumiant-aa-approval-2022",
+        "bertolini-2020-hair-follicle-immune-privilege",
+        "hannah-shmouni-2026-are"
+      ]
+    },
+    {
+      "module": "m05",
+      "block": "m5-p05",
+      "type": "audio",
+      "sourcePath": "/curriculum/modules/4/units/0/blocks/6",
+      "sourceExcerpt": "Pattern, trigger, patches and androgens decide the treatment. Pooled randomized trials support topical minoxidil in men and women and finasteride in men. In the US, as of September 2026, topical minoxidil is FDA-approved and sold over the counter, finasteride for pattern hair los",
+      "existingCountries": [
+        "AE",
+        "BR",
+        "EU",
+        "GB",
+        "PT"
+      ],
+      "BrazilNote": "In Brazil, minoxidil products such as Aloxidil are indicated for androgenetic alopecia in adult men, and finasteride products such as Pro Hair are indicated for the treatment of men with male-pattern baldness (androgenetic alopecia). Baricitinib (Olumiant) is indicated for adult and adolescent patients aged 12 years or older and weighing at least 30 kg with severe alopecia areata (ANVISA, 25 September 2026).",
+      "Mexico": "pending exact-product/route/indication and practice-scope check",
+      "Indonesia": "pending exact-product/route/indication and practice-scope check",
+      "sourceCitationRefs": [
+        "hannah-shmouni-2026-are",
+        "adil-2017-aga-treatments-meta",
+        "fda-drugsatfda-rogaine-019501",
+        "fda-drugsatfda-propecia-020788",
+        "fda-olumiant-aa-approval-2022"
+      ]
+    },
+    {
+      "module": "m05",
+      "block": "m5-p08",
+      "type": "tool",
+      "sourcePath": "/curriculum/modules/4/units/0/blocks/10",
+      "sourceExcerpt": "Afamelanotide and Melanotan II are both synthetic relatives of α-MSH. Compare them register by register and the resemblance ends at the receptor.",
+      "existingCountries": [
+        "AE",
+        "BR",
+        "EU",
+        "GB",
+        "PT"
+      ],
+      "BrazilNote": "In Brazil, no registered medicine containing afamelanotide (Scenesse) was found: ANVISA's open-data register and its online medicines search returned no match on 25 September 2026, and the substance is absent from ANVISA's substance dictionary.",
+      "Mexico": "pending exact-product/route/indication and practice-scope check",
+      "Indonesia": "pending exact-product/route/indication and practice-scope check",
+      "sourceCitationRefs": [
+        "langendonk-2015-afamelanotide-epp",
+        "ema-scenesse-epar",
+        "fda-scenesse-label-2024",
+        "dorr-1996-melanotan-ii-pilot",
+        "wessells-1998-melanotan-ii-ed",
+        "bohm-2025-mc1r-activation-review",
+        "nct06109649-scenesse-vitiligo",
+        "hannah-shmouni-2026-ppg-aug",
+        "hannah-shmouni-2026-are"
+      ]
+    },
+    {
+      "module": "m05",
+      "block": "m5-p12",
+      "type": "tool",
+      "sourcePath": "/curriculum/modules/4/units/0/blocks/15",
+      "sourceExcerpt": "Each statement below is dated, because regulatory status changes. None of the three regulators has approved Melanotan II, and each has put its concerns on the record.",
+      "existingCountries": [
+        "AE",
+        "BR",
+        "EU",
+        "PT"
+      ],
+      "BrazilNote": "In Brazil, no registered medicine containing melanotan was found in ANVISA's register (25 September 2026). Under Law 6.360/1976, no product covered by the law, including an imported one, may be manufactured, offered for sale or supplied for consumption before being registered with the Ministry of Health.",
+      "Mexico": "pending exact-product/route/indication and practice-scope check",
+      "Indonesia": "pending exact-product/route/indication and practice-scope check",
+      "sourceCitationRefs": [
+        "fda-503a-category2-safety-risks-page",
+        "mhra-foi-24-274-melanotan-ii",
+        "tga-2026-melanotan-ii-safety-advisory",
+        "bohm-2025-mc1r-activation-review",
+        "hannah-shmouni-2026-are"
+      ]
+    },
+    {
+      "module": "m05",
+      "block": "m5-p17",
+      "type": "audio",
+      "sourcePath": "/curriculum/modules/4/units/0/blocks/21",
+      "sourceExcerpt": "In the US, on FDA's category lists of 14 May 2026, thymulin acetate sits in Category 3: nominated without enough information to evaluate, and outside the enforcement discretion that Category 1 carries. PTD-DBM appears on none of the three lists, and neither substance is on the 50",
+      "existingCountries": [
+        "AE",
+        "BR",
+        "EU",
+        "GB",
+        "PT"
+      ],
+      "BrazilNote": "In Brazil, ANVISA stated on 2 July 2026 that a substance must have passed efficacy and safety assessment before it can be compounded, and that compounding may only be individual, on prescription, by a pharmacy licensed by local health surveillance. A search of ANVISA's register found no registered medicine containing PTD-DBM or thymulin (25 September 2026), though immunomodulators such as thymomodulin are registered.",
+      "Mexico": "pending exact-product/route/indication and practice-scope check",
+      "Indonesia": "pending exact-product/route/indication and practice-scope check",
+      "sourceCitationRefs": [
+        "fda-503a-categories-2026-05-14",
+        "fda-503a-bulks-page",
+        "ecfr-21-cfr-216-23-bulks-list",
+        "hannah-shmouni-2026-ppg-aug",
+        "adil-2017-aga-treatments-meta"
+      ]
+    },
+    {
+      "module": "m06",
+      "block": "m6-p05",
+      "type": "audio",
+      "sourcePath": "/curriculum/modules/5/units/0/blocks/6",
+      "sourceExcerpt": "In healthy older adults, randomized trials of growth hormone show small shifts in body composition, about 2 kg less fat and 2 kg more lean mass, with more oedema, joint pain, carpal tunnel syndrome and a trend towards diabetes. Strength and endurance change little. The Aesthetic ",
+      "existingCountries": [
+        "AE",
+        "BR",
+        "EU",
+        "GB",
+        "PT"
+      ],
+      "BrazilNote": "In Brazil, somatropin is registered for replacement therapy in adults with marked growth hormone deficiency, and it is a controlled substance on List C5 (anabolic substances) that needs a special-control prescription in two copies (RDC 1.036/2026). The Federal Council of Medicine's Resolution 1.999/2012, in force in September 2026, bars the use of hormones, including growth hormone, except in diagnosed deficiencies where replacement shows evidence of scientifically proven benefit.",
+      "Mexico": "pending exact-product/route/indication and practice-scope check",
+      "Indonesia": "pending exact-product/route/indication and practice-scope check",
+      "sourceCitationRefs": [
+        "blackman-2002-gh-sex-steroids-rct",
+        "genotropin-label-2026",
+        "hannah-shmouni-2026-are",
+        "liu-2007-gh-healthy-elderly",
+        "usc-21-333e-hgh",
+        "emc-smpc-genotropin-uk",
+        "uk-misuse-of-drugs-act-1971-sch2"
+      ]
+    },
+    {
+      "module": "m06",
+      "block": "m6-p08",
+      "type": "tool",
+      "sourcePath": "/curriculum/modules/5/units/0/blocks/10",
+      "sourceExcerpt": "Tesamorelin is the instructive exception on this axis. Both Hormonaly guides grade it A, for one indication. Read the record in order.",
+      "existingCountries": [
+        "AE",
+        "BR",
+        "EU",
+        "GB"
+      ],
+      "BrazilNote": "In Brazil, no registered medicine containing tesamorelin, including Egrifta, was found in ANVISA's register or online search (25 September 2026).",
+      "Mexico": "pending exact-product/route/indication and practice-scope check",
+      "Indonesia": "pending exact-product/route/indication and practice-scope check",
+      "sourceCitationRefs": [
+        "falutz-2007-tesamorelin-nejm",
+        "falutz-2010-tesamorelin-pooled",
+        "egrifta-wr-label-2026",
+        "hannah-shmouni-2026-are",
+        "hannah-shmouni-2026-ppg-aug",
+        "mhra-products-database-search-2026-09-25"
+      ]
+    },
+    {
+      "module": "m06",
+      "block": "m6-p11",
+      "type": "tool",
+      "sourcePath": "/curriculum/modules/5/units/0/blocks/14",
+      "sourceExcerpt": "Dated to FDA's 503A category list of 14 May 2026, its Category 2 page (current as of 22 April 2026), the October 2024 advisory-committee votes, the bulks list in 21 CFR 216.23 and Drugs@FDA as checked on 24 September 2026. Absence from every list does not make a substance permitt",
+      "existingCountries": [
+        "AE",
+        "BR",
+        "EU",
+        "PT"
+      ],
+      "BrazilNote": "In Brazil, no registered medicine containing tesamorelin or sermorelin was found in ANVISA's register (25 September 2026), and ANVISA stated on 2 July 2026 that CJC-1295 and ipamorelin products are not registered with ANVISA and that any substance must have passed efficacy and safety assessment before it can be compounded. Ibutamoren is not a registered medicine, and ANVISA refused the clinical-trial petitions for ibutamoren mesylate on 9 June 2026.",
+      "Mexico": "pending exact-product/route/indication and practice-scope check",
+      "Indonesia": "pending exact-product/route/indication and practice-scope check",
+      "sourceCitationRefs": [
+        "fda-503a-categories-2026-05-14",
+        "fda-503a-category2-safety-risks-page",
+        "fda-pcac-2024-10-minutes",
+        "ecfr-21-cfr-216-23-bulks-list",
+        "fda-drugsatfda-geref",
+        "fr-2013-geref-determination",
+        "fda-warning-letter-tailor-made-2020",
+        "fda-503a-bulks-page",
+        "usc-21-333e-hgh",
+        "egrifta-wr-label-2026",
+        "adunsky-2011-mk677-hip-fracture"
+      ]
+    },
+    {
+      "module": "m06",
+      "block": "m6-p12",
+      "type": "audio",
+      "sourcePath": "/curriculum/modules/5/units/0/blocks/15",
+      "sourceExcerpt": "When a patient asks about a growth-hormone peptide, three answers come first. Which molecule, exactly, including whether 'CJC' means with or without DAC. What stands behind it, whether approval-grade trials for one indication, hormone levels only, or nothing. And where it stands ",
+      "existingCountries": [
+        "AE",
+        "BR",
+        "EU",
+        "GB",
+        "PT"
+      ],
+      "BrazilNote": "In Brazil, no registered medicine containing tesamorelin or sermorelin was found in ANVISA's register (25 September 2026). ANVISA stated on 2 July 2026 that products presented as peptides called ipamorelin that promise aesthetic effects or health improvements are not registered with ANVISA, and that some injectable peptides are not regularised in any category and are therefore illegal for any health use, including aesthetic use.",
+      "Mexico": "pending exact-product/route/indication and practice-scope check",
+      "Indonesia": "pending exact-product/route/indication and practice-scope check",
+      "sourceCitationRefs": [
+        "egrifta-wr-label-2026",
+        "dominikowski-2026-gh-axis-peptides-review",
+        "fda-503a-categories-2026-05-14",
+        "ecfr-21-cfr-216-23-bulks-list",
+        "hannah-shmouni-2026-are",
+        "mhra-products-database-search-2026-09-25",
+        "mhra-gn14-specials-2023"
+      ]
+    },
+    {
+      "module": "m07",
+      "block": "m7-p07",
+      "type": "audio",
+      "sourcePath": "/curriculum/modules/6/units/0/blocks/8",
+      "sourceExcerpt": "In the US, section 503A lets a licensed pharmacist or physician compound for an identified patient on a prescription, exempt from new-drug approval, adequate directions for use and good manufacturing practice. The bulk substance must meet a USP or NF monograph; failing that, be a",
+      "existingCountries": [
+        "AE",
+        "BR",
+        "EU",
+        "PT"
+      ],
+      "BrazilNote": "In Brazil, a magistral preparation is made individually by a pharmacy against a prescription from an authorised professional (RDC 96/2008). ANVISA stated on 2 July 2026 that any substance must have passed efficacy and safety assessment before it can be compounded, and that compounding may take place only individually, on a medical prescription, in a pharmacy licensed by local health surveillance.",
+      "Mexico": "pending exact-product/route/indication and practice-scope check",
+      "Indonesia": "pending exact-product/route/indication and practice-scope check",
+      "sourceCitationRefs": [
+        "usc-21-353a",
+        "fda-503a-bulks-page",
+        "usc-21-353b",
+        "fda-outsourcing-facilities-503b"
+      ]
+    },
+    {
+      "module": "m07",
+      "block": "m7-p08",
+      "type": "tool",
+      "sourcePath": "/curriculum/modules/6/units/0/blocks/11",
+      "sourceExcerpt": "Dated to FDA's records as checked in September 2026. The bulks list is law, changed only by rulemaking; the categories are FDA's interim enforcement posture while nominations are evaluated. Neither is an approval.",
+      "existingCountries": [
+        "AE",
+        "BR",
+        "EU",
+        "PT"
+      ],
+      "BrazilNote": "In Brazil, ANVISA stated on 2 July 2026 that BPC-157 and TB-500 are not authorised as food supplements, and that peptide products such as GHK-Cu, BPC-157, and TB-500 that promise aesthetic effects or improvement in health conditions are not registered with ANVISA. No registered medicine containing KPV, LL-37 or melanotan was found in ANVISA's register (25 September 2026).",
+      "Mexico": "pending exact-product/route/indication and practice-scope check",
+      "Indonesia": "pending exact-product/route/indication and practice-scope check",
+      "sourceCitationRefs": [
+        "ecfr-21-cfr-216-23-bulks-list",
+        "fda-503a-bulks-page",
+        "fda-503a-categories-2026-05-14",
+        "fda-503a-category2-safety-risks-page",
+        "fda-pcac-2026-07-meeting",
+        "fda-pcac-2026-bpc157-briefing"
+      ]
+    },
+    {
+      "module": "m07",
+      "block": "m7-p09",
+      "type": "stat",
+      "sourcePath": "/curriculum/modules/6/units/0/blocks/12",
+      "sourceExcerpt": "Since 23 March 2020 FDA defines a protein as an alpha amino acid polymer of more than 40 amino acids, whether or not it is chemically synthesized, so anything above the line is a biological product. On that date tesamorelin, a 44-residue GHRH analogue, and the enzyme hyaluronidas",
+      "existingCountries": [
+        "AE",
+        "BR",
+        "EU"
+      ],
+      "BrazilNote": "In Brazil, no registered medicine containing tesamorelin, including Egrifta, was found in ANVISA's register or online search (25 September 2026).",
+      "Mexico": "pending exact-product/route/indication and practice-scope check",
+      "Indonesia": "pending exact-product/route/indication and practice-scope check",
+      "sourceCitationRefs": [
+        "egrifta-wr-label-2026",
+        "fda-deemed-bla-list-2020",
+        "fda-notice-compounders-2020-03-23",
+        "federal-register-2020-03505-biological-product",
+        "hannah-shmouni-2026-ppg-aug",
+        "lilly-v-kennedy-2025-sdind-order",
+        "lilly-v-kennedy-7th-cir-26-1301"
+      ]
+    },
+    {
+      "module": "m07",
+      "block": "m7-p21",
+      "type": "tool",
+      "sourcePath": "/curriculum/modules/6/units/0/blocks/13",
+      "sourceExcerpt": "FDA's 503A bulks list and its categories are US law and policy and apply only in the US. In the other jurisdictions in this course, a medicine without a marketing authorisation reaches a patient as a pharmacy preparation or an unlicensed supply made on a prescription, and the pre",
+      "existingCountries": [
+        "AE",
+        "BR",
+        "EU",
+        "GB",
+        "PT"
+      ],
+      "BrazilNote": "In Brazil, unregistered medicines may be imported only exceptionally, for strictly personal use and on a medical prescription, and import by any route is suspended when ANVISA publishes a specific prohibition; ANVISA stated in September 2025 that using an unregistered imported medicine is entirely the responsibility of the patient and the prescribing physician. ANVISA also stated in November 2024 that compounded medicines should be used only when the registered industrial product is unavailable in the dose or dosage form the patient needs.",
+      "Mexico": "pending exact-product/route/indication and practice-scope check",
+      "Indonesia": "pending exact-product/route/indication and practice-scope check",
+      "sourceCitationRefs": [
+        "uk-hmr-2012-reg-167",
+        "uk-hmr-2012-reg-46",
+        "uk-medicines-act-1968-s10",
+        "mhra-gn14-specials-2023",
+        "mhra-dsu-2009-offlabel-unlicensed",
+        "gmc-prescribing-unlicensed-2021",
+        "gphc-pharmacist-prescribers-2025",
+        "nmc-code-2018",
+        "usc-21-353a",
+        "fda-503a-categories-2026-05-14",
+        "eu-dir-2001-83",
+        "pt-dl95-2004",
+        "pt-infarmed-circ148-2011",
+        "br-rdc-96-2008",
+        "br-anvisa-peptides-2026",
+        "br-anvisa-import-pens-2025",
+        "br-anvisa-import-guidance-2025",
+        "ae-fdl-38-2024"
+      ]
+    },
+    {
+      "module": "m07",
+      "block": "m7-p13",
+      "type": "audio",
+      "sourcePath": "/curriculum/modules/6/units/0/blocks/17",
+      "sourceExcerpt": "In the US, 'not for use in humans' labelling lets a supplier ship an investigational drug for laboratory or in-vitro research, and obliges the shipper to check that is how it will be used. FDA reads intended use from claims, marketing and the circumstances of sale, so the disclai",
+      "existingCountries": [
+        "AE",
+        "BR",
+        "EU",
+        "PT"
+      ],
+      "BrazilNote": "In Brazil, ANVISA stated on 2 July 2026 that some injectable peptides are not regularised in any category (food, medicine, cosmetic or food supplement) and so are illegal for any health use, including aesthetic use. ANVISA also stated in July 2026 that an investigational medicine is used only in authorised clinical research.",
+      "Mexico": "pending exact-product/route/indication and practice-scope check",
+      "Indonesia": "pending exact-product/route/indication and practice-scope check",
+      "sourceCitationRefs": [
+        "ecfr-21-cfr-312-160",
+        "ecfr-21-cfr-201-128",
+        "hannah-shmouni-2026-are",
+        "hannah-shmouni-2026-ppg-aug"
+      ]
+    },
+    {
+      "module": "m07",
+      "block": "m7-p22",
+      "type": "audio",
+      "sourcePath": "/curriculum/modules/6/units/0/blocks/18",
+      "sourceExcerpt": "Outside the US, whether a peptide is regulated as a medicine turns on what is claimed for it and on what it is and does, not on the category a seller chooses, and a medicine without a marketing authorisation may not be sold, supplied or advertised. Advertising a prescription-only",
+      "existingCountries": [
+        "AE",
+        "BR",
+        "EU",
+        "GB",
+        "PT"
+      ],
+      "BrazilNote": "In Brazil, advertising of prescription-only medicines on the internet must be accessible exclusively to professionals authorised to prescribe or dispense them, through an electronic registration system (RDC 96/2008), and ANVISA restated in November 2024 that advertising compounded products to the public is not permitted. CFM Resolution 2.336/2023 forbids physicians to promote medicines not registered with ANVISA, and ANVISA stated on 2 July 2026 that some injectable peptides are not regularised in any category and so are illegal for any health use, including aesthetic use.",
+      "Mexico": "pending exact-product/route/indication and practice-scope check",
+      "Indonesia": "pending exact-product/route/indication and practice-scope check",
+      "sourceCitationRefs": [
+        "mhra-gn8-medicinal-product-2025",
+        "uk-hmr-2012-reg-46",
+        "uk-hmr-2012-reg-279",
+        "uk-hmr-2012-reg-284",
+        "cap-code-section-12",
+        "mhra-blue-guide-2020",
+        "asa-ruling-menwell-voy-2026",
+        "eu-dir-2001-83",
+        "eu-dir-2010-13",
+        "pt-dl176-2006",
+        "pt-dl238-2015",
+        "br-lei-6360-1976",
+        "br-lei-9294-1996",
+        "br-rdc-96-2008",
+        "br-rdc-907-2024",
+        "br-anvisa-peptides-2026",
+        "br-cfm-2336-2023",
+        "ae-fdl-38-2024",
+        "ae-ede-svc-classification",
+        "ae-ede-svc-advert",
+        "ae-dha-cir-peptides-2026"
+      ]
+    },
+    {
+      "module": "m07",
+      "block": "m7-p15",
+      "type": "audio",
+      "sourcePath": "/curriculum/modules/6/units/0/blocks/20",
+      "sourceExcerpt": "Off-label prescribing means using an approved drug for a use its labelling does not cover, and FDA accepts it as clinical judgment. A never-approved peptide has no label to depart from, so prescribing it is use of an unapproved drug. Introducing an unapproved new drug into inters",
+      "existingCountries": [
+        "AE",
+        "BR",
+        "EU",
+        "PT"
+      ],
+      "BrazilNote": "In Brazil, ANVISA stated in April 2025 that physicians keep the right to prescribe medicines off-label when they judge that, for a given patient, benefits outweigh risks, while no medicine may be manufactured, sold or supplied before it is registered (Law 6.360/1976, art. 12). ANVISA stated on 2 July 2026 that products presented as peptides including BPC-157 and GHK-Cu that promise aesthetic effects or improvement in health conditions are not registered with ANVISA, and that BPC-157 is not authorised for use as a food supplement.",
+      "Mexico": "pending exact-product/route/indication and practice-scope check",
+      "Indonesia": "pending exact-product/route/indication and practice-scope check",
+      "sourceCitationRefs": [
+        "fda-off-label-page",
+        "usc-21-331-prohibited-acts",
+        "fda-warning-letter-tailor-made-2020",
+        "hannah-shmouni-2026-ppg-aug"
+      ]
+    },
+    {
+      "module": "m07",
+      "block": "m7-p16",
+      "type": "tool",
+      "sourcePath": "/curriculum/modules/6/units/0/blocks/21",
+      "sourceExcerpt": "Route and claim decide the regime, whatever the molecule. Here is how each one treats a skin peptide in the US, as checked in September 2026.",
+      "existingCountries": [
+        "AE",
+        "BR",
+        "EU",
+        "GB",
+        "PT"
+      ],
+      "BrazilNote": "In Brazil, cosmetic labelling may not carry therapeutic claims for the product or its ingredients (RDC 907/2024, art. 12), and ANVISA stated on 2 July 2026 that injectable cosmetics do not exist and that, if a product is offered in this form, it is an irregular cosmetic. A food supplement is by definition a product for oral ingestion by healthy people (RDC 243/2018), and it may use only constituents on ANVISA's authorised list (IN 28/2018).",
+      "Mexico": "pending exact-product/route/indication and practice-scope check",
+      "Indonesia": "pending exact-product/route/indication and practice-scope check",
+      "sourceCitationRefs": [
+        "fda-cosmetic-or-drug-page",
+        "fda-dietary-supplements-page",
+        "fda-off-label-page",
+        "fda-503a-categories-2026-05-14",
+        "usc-21-353a",
+        "ecfr-21-cfr-312-160",
+        "hannah-shmouni-2026-ppg-aug",
+        "hannah-shmouni-2026-are"
+      ]
+    },
+    {
+      "module": "m07",
+      "block": "m7-p17",
+      "type": "audio",
+      "sourcePath": "/curriculum/modules/6/units/0/blocks/23",
+      "sourceExcerpt": "A 52-year-old patient, three weeks after a fractional laser treatment, asks you to prescribe compounded BPC-157 injections 'off-label' to speed healing. She has found a pharmacy willing to make it and shows you its certificate of analysis. This is a fictional case built from the ",
+      "existingCountries": [
+        "AE",
+        "BR",
+        "EU",
+        "PT"
+      ],
+      "BrazilNote": "In Brazil, ANVISA stated on 2 July 2026 that BPC-157 is not authorised for use as a food supplement, and that any substance must have passed efficacy and safety assessment before it can be compounded.",
+      "Mexico": "pending exact-product/route/indication and practice-scope check",
+      "Indonesia": "pending exact-product/route/indication and practice-scope check",
+      "sourceCitationRefs": [
+        "fda-off-label-page",
+        "fda-pcac-2026-bpc157-briefing",
+        "fda-warning-letter-tailor-made-2020",
+        "fda-503a-category2-safety-risks-page",
+        "hannah-shmouni-2026-ppg-aug",
+        "hannah-shmouni-2026-are"
+      ]
+    },
+    {
+      "module": "m07",
+      "block": "m7-p18",
+      "type": "tool",
+      "sourcePath": "/curriculum/modules/6/units/0/blocks/24",
+      "sourceExcerpt": "The Peptide Pocket Guide's prescriber checklist, with consent built from the elements FDA's research-consent rule lists. Use it for any conversation about an unapproved or compounded peptide, whether or not you prescribe.",
+      "existingCountries": [
+        "AE",
+        "BR",
+        "EU",
+        "PT"
+      ],
+      "BrazilNote": "In Brazil, ANVISA stated in September 2025 that using an unregistered imported medicine is entirely the responsibility of the patient and the prescribing physician, and in April 2025 that off-label prescribing of a registered medicine rests on the physician's judgment that, for a given patient, benefits outweigh risks.",
+      "Mexico": "pending exact-product/route/indication and practice-scope check",
+      "Indonesia": "pending exact-product/route/indication and practice-scope check",
+      "sourceCitationRefs": [
+        "hannah-shmouni-2026-ppg-aug",
+        "hannah-shmouni-2026-are",
+        "ecfr-21-cfr-50-25",
+        "fda-503a-categories-2026-05-14",
+        "mhra-gn14-specials-2023",
+        "gmc-prescribing-unlicensed-2021",
+        "mhra-dsu-2009-offlabel-unlicensed"
+      ]
+    }
+  ],
+  "publishReady": false
+}
