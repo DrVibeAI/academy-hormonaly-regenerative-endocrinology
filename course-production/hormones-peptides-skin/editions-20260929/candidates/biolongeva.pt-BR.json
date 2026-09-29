@@ -5476,6 +5476,19 @@
           "en": "professional standard · statutory professional regulator · role: UK doctors offering cosmetic interventions must carry out a physical examination before prescribing injectable cosmetic medicines and must not prescribe them by telephone, video link, online or at the request of others for patients they have not examined (11); interventions must rest on the best available evidence about effectiveness, side effects and risks (12) · Read in a browser 2026-09-25; gmc-uk.org answers scripts with HTTP 403, so the automated source check cannot read it.",
           "pt-BR": "padrão profissional · órgão regulador profissional estatutário · função: médicos do Reino Unido que realizam procedimentos estéticos devem realizar um exame físico presencial antes de prescrever medicamentos estéticos injetáveis e não devem prescrevê-los por telefone, teleconsulta com vídeo, online ou a pedido de terceiros para pacientes que não tenham examinado presencialmente (11); as intervenções devem se basear nas melhores evidências disponíveis sobre eficácia, eventos adversos e riscos (12) · Lido em um navegador em 25-09-2026; gmc-uk.org responde a scripts com HTTP 403, portanto a verificação automatizada da fonte não pôde lê-lo."
         }
+      },
+      {
+        "id": "br-anvisa-tirzepatide-alerta-2026",
+        "title": "Alerta da Anvisa sobre manipulação caseira de tirzepatida",
+        "authors": "Agência Nacional de Vigilância Sanitária (Anvisa)",
+        "publication": "Notícias Anvisa (23 de setembro de 2026)",
+        "year": 2026,
+        "url": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/manipulacao-caseira-de-tirzepatida-nao-e-segura",
+        "sourceType": "alert",
+        "note": {
+          "en": "Primary regulatory alert · issuing authority · role: Brazil regulatory status · 23 Sep 2026 · Warns against homemade reconstitution and compounding of tirzepatide.",
+          "pt-BR": "Alerta sanitário primário · autoridade emissora · função: status regulatório no Brasil · 23 de setembro de 2026 · Alerta sobre os riscos da manipulação e reconstituição caseira de tirzepatida."
+        }
       }
     ],
     "claims": [
@@ -18081,8 +18094,8 @@
                       },
                       "BR": {
                         "text": {
-                          "en": "In Brazil, ANVISA has registered semaglutide as Ozempic (since 6 August 2018) and Wegovy (since 2 January 2023), with synthetic semaglutide pens registered from 26 May 2026, and tirzepatide as Mounjaro (since 25 September 2023); a search of its register on 25 September 2026 found no product named Zepbound. Since 23 June 2025, GLP-1 receptor agonist medicines may only be sold with retention of the prescription (RDC 973/2025 and IN 360/2025).",
-                          "pt-BR": "No Brasil, a ANVISA registrou a semaglutida como Ozempic (desde 6 de agosto de 2018) e Wegovy (desde 2 de janeiro de 2023), com canetas de semaglutida sintética registradas a partir de 26 de maio de 2026, e a tirzepatida como Mounjaro (desde 25 de setembro de 2023); uma busca em seu registro em 25 de setembro de 2026 não encontrou nenhum produto denominado Zepbound. Desde 23 de junho de 2025, os medicamentos agonistas do receptor de GLP-1 só podem ser comercializados com retenção de receita (RDC 973/2025 e IN 360/2025)."
+                          "en": "In Brazil, ANVISA has registered semaglutide as Ozempic (since 6 August 2018) and Wegovy (since 2 January 2023), with synthetic semaglutide pens registered from 26 May 2026, and tirzepatide as Mounjaro (since 25 September 2023); a search of its register on 25 September 2026 found no product named Zepbound. Since 23 June 2025, GLP-1 receptor agonist medicines may only be sold with retention of the prescription (RDC 973/2025 and IN 360/2025). On 23 September 2026, ANVISA issued a specific alert warning against homemade reconstitution and manipulation of tirzepatide, highlighting acute risks of microbial contamination, dose errors, and lack of sterility.",
+                          "pt-BR": "No Brasil, a ANVISA registrou a semaglutida como Ozempic (desde 6 de agosto de 2018) e Wegovy (desde 2 de janeiro de 2023), com canetas de semaglutida sintética registradas a partir de 26 de maio de 2026, e a tirzepatida como Mounjaro (desde 25 de setembro de 2023); uma busca em seu registro em 25 de setembro de 2026 não encontrou nenhum produto denominado Zepbound. Desde 23 de junho de 2025, os medicamentos agonistas do receptor de GLP-1 só podem ser comercializados com retenção de receita (RDC 973/2025 e IN 360/2025). Em 23 de setembro de 2026, a Anvisa emitiu alerta específico sobre os riscos da manipulação caseira de tirzepatida, destacando perigos de contaminação microbiológica, erros de dosagem e ausência de esterilidade."
                         },
                         "citationRefs": [
                           "br-label-ozempic",
@@ -18093,7 +18106,8 @@
                           "br-anvisa-consultas-medicamentos",
                           "br-label-mounjaro",
                           "br-anvisa-glp1-qa-2025",
-                          "br-anvisa-glp1-retention-2025"
+                          "br-anvisa-glp1-retention-2025",
+                          "br-anvisa-tirzepatide-alerta-2026"
                         ]
                       },
                       "AE": {
@@ -36728,7 +36742,17 @@
         "skin hormone receptors",
         "transcriptomic",
         "receptor gene",
-        "skin has receptors"
+        "skin has receptors",
+        "atlas celular",
+        "atlas de celulas",
+        "receptores na pele",
+        "receptores cutaneos",
+        "a pele produz hormonios",
+        "receptores hormonais na pele",
+        "a pele tem receptores",
+        "pele possui receptores",
+        "receptores para ele",
+        "a pele possui receptores"
       ],
       "answer": {
         "en": "The Hormone Cell Atlas (Fei, Huang-Doran et al., Science 2026) read RNA for 379 hormone and receptor genes in about 14 million cells and nuclei from 47 human tissues and predicted which cell types could make or respond to hormones. Its own authors call these predictions putative and hypothesis-generating: RNA shows capacity, not secretion or effect. Treat any 'skin has receptors for it' product claim as a hypothesis until protein, function and a human trial back it. A few skin outputs are established in people, such as vitamin D3 formed under UVB and released into the blood.",
@@ -36760,7 +36784,15 @@
         "dasatinib",
         "quercetin",
         "p16",
-        "anti-aging supplement"
+        "anti-aging supplement",
+        "senolitico",
+        "senoliticos",
+        "senescencia",
+        "celulas senescentes",
+        "celulas zumbi",
+        "fisetina",
+        "quercetina",
+        "pele envelhecida"
       ],
       "answer": {
         "en": "Senescent cells accumulate in human epidermis and dermis with age, and in one cohort their number tracked with wrinkles and perceived age: an association. Their secretions (the SASP: IL-6, IL-8, matrix-degrading enzymes) were defined in cultured cells. Evidence that clearing senescent cells improves ageing comes from mice; human data are small open-label or exploratory pilots measuring tissue markers. The one randomized study in skin (topical rapamycin, a senomorphic, 2019) was small and exploratory: it lowered p16, and clinical change was only described. No adequately sized trial with clinical skin-ageing outcomes was found (September 2026). In mice, clearing senescent cells during healing slowed wound closure. The Aesthetic & Regenerative Endocrinology guide advises confining senolytics to clinical trials. This course gives no doses or product advice; daily sunscreen and topical retinoids are the levers with human trials, and a prescriber decides on any treatment.",
@@ -36793,7 +36825,13 @@
         "saliva cortisol test",
         "cortisol supplement",
         "stress face",
-        "11b-hsd1"
+        "11b-hsd1",
+        "rosto de cortisol",
+        "facies de lua cheia",
+        "rosto inchado cortisol",
+        "inchaco facial cortisol",
+        "sindrome de cushing",
+        "sinais de cortisol alto"
       ],
       "answer": {
         "en": "Most 'cortisol face' is puffiness from sleep, alcohol, salt and weight, as the Aesthetic & Regenerative Endocrinology guide describes it. Endogenous Cushing's syndrome is rare (two to three new cases per million people a year), and its commonest form comes from a glucocorticoid the patient is using, so ask about tablets, inhalers, injections and creams, including skin-lighteners. The features that best discriminate Cushing's are easy bruising, facial plethora, proximal muscle weakness and reddish-purple striae wider than 1 cm; a round face alone is a weak signal. If several are present and progressing, the next step is formal testing arranged by a prescriber and an endocrinologist, not a supplement or a consumer cortisol panel. Local skin cortisol (11β-HSD1) is a research mechanism with no approved treatment.",
@@ -36823,7 +36861,14 @@
         "menopause skin collagen",
         "estriol cream",
         "hormone cream",
-        "menopause wrinkles"
+        "menopause wrinkles",
+        "trh para a pele",
+        "terapia hormonal pele",
+        "estrogenio para rugas",
+        "estrogenio topico",
+        "pele na menopausa",
+        "trh",
+        "rugas"
       ],
       "answer": {
         "en": "Estrogen acts on receptors in skin. In small trials, hormone therapy thickened skin and raised collagen (graded C here). The largest trial on facial skin (485 women, 48 weeks) and a four-year trial in recently menopausal women found no difference in wrinkles. In the US, as of February 2026, approved uses of menopausal hormone therapy are hot flashes, vaginal and vulvar symptoms and, for some products, preventing bone loss; skin is not an indication and is never the reason to start. Compounded 'bioidentical' hormones lack efficacy and safety data, and an over-the-counter 'hormone cream' is an unapproved drug under US rules. In the UK, HRT products are prescription-only medicines licensed for oestrogen-deficiency symptoms and, for some, for preventing osteoporosis; skin is not among their uses, and a compounded 'bioidentical' hormone is an unlicensed medicine that MHRA guidance places behind any licensed product that meets the need. For skin, daily sunscreen and a prescription retinoid have better evidence. This course gives no doses; hormone therapy decisions belong with a prescriber.",
@@ -36860,7 +36905,12 @@
         "mounjaro face",
         "zepbound hair loss",
         "hollow cheeks weight loss drug",
-        "should i stop ozempic because of my face"
+        "should i stop ozempic because of my face",
+        "rosto de ozempic",
+        "perda de gordura facial semaglutida",
+        "alteracoes faciais tirzepatida",
+        "envelhecimento facial glp-1",
+        "flacidez facial semaglutida"
       ],
       "answer": {
         "en": "'Ozempic face' describes facial hollowing and laxity during weight loss on incretin drugs. Mechanism: losing fat deflates the superficial facial fat compartments and unmasks laxity already present. Human evidence is observational and small: one retrospective imaging study of 20 patients found a median 9% loss of midface volume, mostly superficial, about 7% per 10 kg lost (D), and a survey of 1,226 patients found sagging, facial volume loss and hair shedding reported more often the more weight was lost (C). No randomized trial has measured the face. Regulatory status (US, September 2026): semaglutide (Ozempic, Wegovy) and tirzepatide (Mounjaro, Zepbound) are FDA-approved for type 2 diabetes, chronic weight management and further heart, liver and sleep-apnoea indications. Their labels list hair loss (about 3–6% on drug against about 1% on placebo, mostly in women, linked to weight reduction) but not facial volume loss. In the UK (September 2026), Ozempic is licensed for type 2 diabetes, Wegovy for weight management and cardiovascular risk reduction, and Mounjaro for both type 2 diabetes and weight management; UK product information also lists hair loss, and MHRA says retatrutide is not authorised in the UK. Open question: whether the drugs act directly on facial fat, beyond weight loss, rests on cell studies. In practice: raise facial and hair changes before treatment, record concerns with consented photographs, refer restoration requests to a qualified aesthetic clinician, and take any question about stopping or changing the medicine to the prescriber. The course gives no dosing advice.",
@@ -36899,7 +36949,13 @@
         "gut repair supplements",
         "bpc-157 for gut",
         "rosacea and gut bacteria",
-        "inflammaging"
+        "inflammaging",
+        "intestino permeavel",
+        "eixo intestino pele",
+        "teste de zonulina",
+        "permeabilidade intestinal pele",
+        "microbioma intestinal acne",
+        "hiperpermeabilidade intestinal"
       ],
       "answer": {
         "en": "Mechanism: bacterial lipopolysaccharide crossing a leaky gut barrier ('metabolic endotoxaemia') drives inflammation and insulin resistance in mice, and a single high-fat meal briefly raised plasma endotoxin in a study of 12 healthy men (D). Human evidence for skin: an independent Cochrane review of 39 trials found probiotics probably make little or no difference to patient-rated eczema symptoms (B); a 2024 meta-analysis in children without food allergy reported small score improvements (C); one small randomized trial found rosacea improved after small-intestinal bacterial overgrowth was treated (C). A leading review concludes it is unproven that restoring barrier function improves disease outside the gut, and a widely used commercial zonulin assay detects proteins other than zonulin. A fibre-rich diet has strong evidence for cardiometabolic outcomes and has not been tested on skin outcomes. The reference guide grades the 'leaky gut' repair stack (L-glutamine, zinc carnosine, BPC-157) D; in the US, BPC-157 is not on the 503A bulks list as of September 2026. In the UK, an unlicensed medicine can be supplied as a 'special' only for an individual patient's special clinical need that no licensed product meets, on the prescriber's responsibility. Start with diet, metabolic health and the skin diagnosis; investigational peptides come last, if at all, and any injected or research peptide needs a prescriber.",
@@ -36938,7 +36994,12 @@
         "copper serum",
         "inject ghk",
         "ghk injection",
-        "is ghk-cu legal"
+        "is ghk-cu legal",
+        "peptideo de cobre",
+        "peptideos de cobre",
+        "peptideo de cobre topico",
+        "ensaios humanos ghk-cu",
+        "evidencia ghk-cu"
       ],
       "answer": {
         "en": "Topical GHK-Cu has a plausible copper-enzyme mechanism and small-trial human support (GRADE C); injected GHK-Cu has no randomized trials and commonly irritates. In the US, as of FDA's 14 May 2026 list, non-injectable GHK-Cu is in 503A Category 1 (under evaluation, not approved); the injectable route is excluded. In the UK, a GHK-Cu serum presented for appearance is regulated as a cosmetic, and cosmetics law excludes anything injected; MHRA decides from its claims, form and use whether an injected product is a medicine, and a medicine with no UK marketing authorisation may not be sold, supplied or advertised. This course gives no doses or sourcing advice — for an individual patient, that is the prescriber's decision.",
@@ -36971,7 +37032,11 @@
         "glow",
         "klow",
         "kpv",
-        "repair peptides"
+        "repair peptides",
+        "bpc-157 ensaios humanos",
+        "bpc-157 cicatrizacao",
+        "seguranca bpc-157",
+        "evidencia em humanos"
       ],
       "answer": {
         "en": "BPC-157's evidence is rodent studies from one group plus uncontrolled case series; no randomized efficacy trial in people has been published in full (September 2026); the one randomized trial FDA found, in ulcerative colitis, exists only as a 2005 meeting abstract and showed no significant difference from placebo. TB-500 is a seven-residue fragment of thymosin beta-4 that has never been trialled; KPV has only mouse data. GLOW and KLOW are marketing names for untested blends. FDA's advisory committee reviewed BPC-157, KPV and TB-500 in July 2026 — advice only; they are not on the 503A bulks list. In the UK, a medicine with no marketing authorisation may not be sold, supplied or advertised, and MHRA's largest seizure of unlicensed weight-loss medicines, in May 2026, included peptide products. New pigmentation while using research-use-only peptides is a red flag: stop, record the product and source, and get it assessed.",
@@ -37007,7 +37072,11 @@
         "tanning nasal spray",
         "barbie drug",
         "afamelanotide",
-        "scenesse"
+        "scenesse",
+        "injecao bronzeadora",
+        "spray nasal bronzeador",
+        "riscos do melanotan",
+        "bronzeamento injetavel"
       ],
       "answer": {
         "en": "Afamelanotide (Scenesse) is an MC1R agonist approved only for erythropoietic protoporphyria (EU 2014, US 2019; licensed in the UK, where NICE did not recommend it for NHS use in 2023), on the strength of two sponsor-funded phase 3 trials; even there, the US label recommends a full-body skin examination twice a year. Melanotan II is a different, non-selective molecule approved for no indication. Its only controlled human data are two tiny 1990s studies, and case reports describe darkening and new moles, nail pigmentation, melanomas in people with other risk factors (causation unproven), priapism and rhabdomyolysis. FDA (April 2026), MHRA (April 2024) and TGA (August 2026) have all put warnings on record. If someone has used it: stop, record the product and seller, examine the skin and nails, and refer changing moles; a personal or family history of melanoma makes it an absolute no in the endocrinology guide. This course gives no doses or sourcing advice.",
@@ -37043,7 +37112,12 @@
         "hair growth peptide",
         "cxxc5",
         "compounded hair spray",
-        "peptide hair spray"
+        "peptide hair spray",
+        "peptideos para queda de cabelo",
+        "peptideos crescimento capilar",
+        "peptideos alopecia",
+        "zinco timulina",
+        "queda de cabelo"
       ],
       "answer": {
         "en": "PTD-DBM releases a brake (CXXC5) on Wnt signalling; its whole evidence is one 2017 mouse and tissue study from the developer's group, with no human trial published or registered as of September 2026 (grade D). Zinc thymulin is a zinc-dependent thymic peptide with no indexed human hair study (grade D). In the US, on FDA's 14 May 2026 lists, thymulin acetate is in 503A Category 3 and PTD-DBM is on no list; neither is on the bulks list. Hair loss starts with a workup (pattern, trigger, patches, androgens; ferritin and TSH in everyone), and the approved options, minoxidil, finasteride in men and baricitinib for severe alopecia areata, carry grade A evidence. In the UK, a men's minoxidil foam is on general sale, finasteride for hair loss is a private prescription carrying MHRA's strengthened warnings on depression and sexual dysfunction (May 2026), baricitinib is licensed for severe alopecia areata, and a peptide spray made up for one patient would be an unlicensed special that MHRA guidance places behind any licensed product that could meet the need. This course gives no doses or sourcing advice; treatment choices belong with the prescriber.",
@@ -37082,7 +37156,12 @@
         "igf-1 lr3",
         "growth hormone peptides",
         "gh secretagogue",
-        "hgh for skin"
+        "hgh for skin",
+        "secretagogos de gh pele",
+        "peptideos do hormonio do crescimento",
+        "peptideos hormonio crescimento",
+        "ipamorelina",
+        "sermorelina"
       ],
       "answer": {
         "en": "Tesamorelin is the one peptide on this axis with approval-grade evidence: two phase 3 trials and US approval (2010) for excess abdominal fat in adults with HIV-associated lipodystrophy, GRADE A for that use only. Sermorelin, CJC-1295 with DAC and ipamorelin have human hormone-level data but no trial showing a clinical or skin benefit; CJC-1295 without DAC and IGF-1 LR3 have no published human studies (this course grades all of these D). In the US, as of FDA's lists of April and May 2026, no growth-hormone secretagogue is on the 503A bulks list; ibutamoren (MK-677) is in Category 2, and the CJC-1295 and ipamorelin 503A nominations were withdrawn. Growth hormone itself is approved for diagnosed deficiency and a few growth disorders, and knowingly distributing it for anti-ageing is a federal offence in the US. In the UK, somatropin is a prescription-only medicine and a Class C controlled drug, and MHRA's products database holds no product information for tesamorelin, sermorelin or ipamorelin (September 2026). This course gives no doses or sourcing advice; for an individual patient, that is a prescriber's decision.",
@@ -37117,7 +37196,12 @@
         "igf-1 cancer",
         "do growth hormone peptides cause cancer",
         "skin tags on peptides",
-        "igf-1 too high"
+        "igf-1 too high",
+        "excesso de hormonio do crescimento",
+        "sinais de excesso de gh",
+        "acromegalia pele",
+        "acrocordons gh",
+        "sinais de excesso de hormonio"
       ],
       "answer": {
         "en": "Signs of growth-hormone excess include puffy, thickened skin of the face, hands and feet, oily skin, more sweating, skin tags, acanthosis nigricans, tight rings or shoes, night-time tingling and carpal tunnel symptoms. On GH-axis drugs, fluid retention with swelling and joint pain is common and usually settles when treatment stops. The Endocrine Society recommends IGF-1 testing when typical acral and facial features are present, so route these patients to a prescriber or to endocrinology. On cancer, keep four answers apart: the IGF-1 receptor drives cell growth (mechanism); higher natural IGF-1 goes with modestly higher risk of some cancers (observation); GH replacement in true deficiency has not shown a clear risk in large cohorts; and for secretagogues or IGF-1 LR3 used for skin, long-term cancer data do not exist (open question).",
@@ -37149,7 +37233,12 @@
         "how good is the evidence",
         "sponsored trial",
         "industry funded",
-        "clinically proven"
+        "clinically proven",
+        "clinicamente comprovado",
+        "qualidade da evidencia",
+        "grau de recomendacao",
+        "alegacao clinicamente comprovado",
+        "nivel de evidencia"
       ],
       "answer": {
         "en": "GRADE rates certainty for a specific outcome across a body of evidence: high, moderate, low or very low (the reference guides print A to D). Randomized trials start high; certainty drops for risk of bias, inconsistency, indirectness, imprecision or suspected publication bias. Industry-sponsored studies more often report favourable results (Cochrane, 2017), so ask who ran and paid for the trials. A grade is separate from legal status: check both, and never let a mechanism raise a grade. This course gives no doses or sourcing advice.",
@@ -37182,7 +37271,12 @@
         "503b",
         "compounding pharmacy",
         "pharmacy grade",
-        "off label"
+        "off label",
+        "certificado de analise",
+        "pureza de peptideos",
+        "testes de pureza",
+        "farmacia magistral testes",
+        "pureza"
       ],
       "answer": {
         "en": "In the US, a 503A pharmacy may compound only from a substance that meets a USP or NF monograph, or else is a component of an approved drug, or else is on the 503A bulks list (six substances, none a peptide, as of September 2026), and it needs a valid certificate of analysis. A certificate is the supplier's report on one lot: mass spectrometry for identity, HPLC for purity, plus endotoxin and microbial results. It cannot prove your vial is that lot, how it was stored, or that it is sterile or lawful. 'Research use only' products are labelled not for use in humans, and 'off-label' applies only to approved drugs. In the UK, an unlicensed medicine reaches a patient as a 'special', made by a licensed specials manufacturer to a prescriber's order for one patient's special clinical need, or as a medicine a pharmacist prepares against a prescription; MHRA guidance ranks a UK-licensed medicine, even used off-label, ahead of an unlicensed one, and specials may not be advertised. This course gives no doses or sourcing advice; for an individual patient, that is the prescriber's decision.",
