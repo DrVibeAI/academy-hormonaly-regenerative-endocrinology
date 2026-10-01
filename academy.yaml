@@ -1,6 +1,8 @@
 # Academy catalog — Hormonaly Academy at hormonaly.perceptors.ai: the home for Hormonaly's peptide-based courses (Omar, 2026-09-25).
 # Hormones and Peptides for Skin is the first; further peptide courses join this catalog (runtime multi-course support pending).
 academy: hormonaly
+deployment:
+  serviceAccount: academy-hormonaly@perceptors.iam.gserviceaccount.com
 brand:
   voices:                       # stock library voice (no faculty likeness/voice without a release); intake video brief: "voice: library"
     es-MX: { voice_id: "", name: "" }
@@ -320,4 +322,12 @@ notifications:
 auth:
   tenantId: hormonaly-academy-srbsc   # Identity Platform tenant (project perceptors), created 2026-09-25 by perceptor tenant
   methods: [password, email-link]
+  email:
+    provider: resend
+    apiKeySecret: resend-api-key
+    from: "Hormonaly Academy <info@hormonaly.ai>"
+    replyTo: info@hormonaly.ai
+    origin: https://hormonaly.perceptors.ai
+    logoUrl: https://insider.fitt.co/wp-content/uploads/2026/04/image-1.png
+    accent: "#2463eb"
 admins: [omar@hormonaly.ai, omar@perceptors.ai]   # Omar (reviewer of record / publish owner); add Hormonaly admins when named
