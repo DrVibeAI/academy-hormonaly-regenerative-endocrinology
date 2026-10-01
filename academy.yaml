@@ -75,10 +75,9 @@ home:
     title: { en: "Learn by doing." }
     items:
       - { src: "assets/hormones-peptides-skin/home/inside-film-blue.png", caption: { en: "A short film opens every module" } }
+      - { src: "assets/hormones-peptides-skin/home/inside-science-blue.jpg", caption: { en: "Explore the science through illustrations" } }
       - { src: "assets/hormones-peptides-skin/home/inside-trial-blue.png", caption: { en: "Sort the evidence, one tap at a time" } }
       - { src: "assets/hormones-peptides-skin/home/inside-case-blue.png", caption: { en: "Work through clinic cases" } }
-      - { src: "assets/hormones-peptides-skin/home/inside-certificate-blue.png", caption: { en: "Audit a certificate of analysis" } }
-      - { src: "assets/hormones-peptides-skin/home/inside-country-blue.png", caption: { en: "Your country's rules, dated" } }
   trust:
     title: { en: "Built on evidence. Reviewed by a physician." }
     items:
@@ -93,13 +92,26 @@ home:
   reviewers:
     - name: "Fady Hannah-Shmouni, MD FRCPC"
       role: { en: "Medical review · author of the Hormonaly pocket guides on aesthetic and regenerative endocrinology and on peptides" }
+  faculty:
+    title: { en: "Faculty & advisory" }
+    items:
+      - name: "Fady Hannah-Shmouni, MD FRCPC"
+        designation: { en: "Faculty · Medical review" }
+        role: { en: "Endocrinologist and biochemical geneticist. Author of the Hormonaly pocket guides." }
+        image: "assets/faculty/fady-hannah-shmouni.webp"
+      - name: "Dominik Thor"
+        designation: { en: "Advisory" }
+        image: "assets/faculty/dominik-thor.webp"
+      - name: "Omar Saleem"
+        designation: { en: "Advisory" }
+        image: "assets/faculty/omar-saleem.webp"
   faq:
     - q: { en: "Does the course give doses or protocols?" }
       a: { en: "No. It teaches the evidence, the regulatory status and what each role can safely do next. Dosing and product sourcing are excluded by design." }
     - q: { en: "Which countries does it cover?" }
       a: { en: "The United States, the United Kingdom, the European Union, Portugal, Brazil and the United Arab Emirates. Each statement names its country and date, and your own country comes first." }
     - q: { en: "Is there CME or CE credit?" }
-      a: { en: "The course is accredited by GCLS, the Geneva College of Longevity Sciences. CME or CE credit is not offered at this time." }
+      a: { en: "The course is accredited by GCLS, the Geneva College of Longevity Science. CME or CE credit is not offered at this time." }
     - q: { en: "What do I get at the end?" }
       a: { en: "Pass the final check with 80% or more to receive a certificate of completion for this GCLS-accredited course, with a public verification code." }
   certificate:
@@ -128,7 +140,7 @@ catalog:
     # GCLS accreditation, relayed by Omar 2026-09-25: "they gave me verbal that they'll be accredited, but they'll send over the email
     # afterwards … mention that it is GCLS-accredited". The certificate stays academy-issued until the written confirmation and an
     # accreditation id arrive (package governance.accreditation), then it becomes GCLS-issued.
-    accreditation: { body: "GCLS", name: "Geneva College of Longevity Sciences", status: accredited, logo: "/gcls/gcls-logo.png",
+    accreditation: { body: "GCLS", name: "Geneva College of Longevity Science", status: accredited, logo: "/gcls/gcls-logo.png",
       basis: "Verbal confirmation from GCLS to Omar Saleem (product owner), 2026-09-25; written confirmation to follow" }
     entitlement:
       type: paid

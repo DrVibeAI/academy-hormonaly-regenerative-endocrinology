@@ -13,13 +13,21 @@
   "locale": "en",
   "country": "US",
   "captureMethod": "Codex in-app browser; actual learner runtime in isolated local mode, 390x844 iframe viewport",
-  "fixture": "Local capture only: prescriber role and modules 1–6 unlocked; exercise answers selected through UI. No production progress or assessment writes.",
+  "fixture": "Local capture only: science screen uses Module 1, pane 3, at 390x844 in the actual responsive runtime. Existing film, trial and case captures retained unchanged. No production progress or assessment writes.",
   "captures": [
     {
       "src": "assets/hormones-peptides-skin/home/inside-film-blue.png",
       "sha256": "925a4025072797ba027c7f671ed9d10f30b5283cbfc391da953336512c1a3f28",
       "lesson": 1,
       "pane": 1
+    },
+    {
+      "src": "assets/hormones-peptides-skin/home/inside-science-blue.jpg",
+      "sha256": "36f8004cd4a292c9d28734825044ab70eada08574e666820eda114c6e7448efc",
+      "lesson": 1,
+      "pane": 3,
+      "capturedAt": "2026-10-01T17:43:55.295100+00:00",
+      "sourceRuntimeCommit": "ebde079"
     },
     {
       "src": "assets/hormones-peptides-skin/home/inside-trial-blue.png",
@@ -32,18 +40,7 @@
       "sha256": "e51afb9258b05c222a9ebc971f2b5e4adfa91a3355cd1e8c5cdbbf2c9dde0685",
       "lesson": 4,
       "pane": 22
-    },
-    {
-      "src": "assets/hormones-peptides-skin/home/inside-certificate-blue.png",
-      "sha256": "25a8abf2183314f4d911a2c418c4ea2425191422fd61da77cef0bdcf36414bfa",
-      "lesson": 7,
-      "pane": 15
-    },
-    {
-      "src": "assets/hormones-peptides-skin/home/inside-country-blue.png",
-      "sha256": "9c72e4d8b0792f6333c07d923a272be11f3da267d244b18ac5af3ea33e34abeb",
-      "lesson": 2,
-      "pane": 15
     }
-  ]
+  ],
+  "selectionUpdatedAt": "2026-10-01T17:43:55.295232+00:00"
 }
