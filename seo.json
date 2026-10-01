@@ -1,0 +1,38 @@
+{
+  "origin": "https://hormonaly.perceptors.ai",
+  "name": "Hormonaly Academy",
+  "themeColor": "#004C99",
+  "languages": {
+    "es": "es-MX",
+    "en": "en-US",
+    "pt": "pt-BR",
+    "id": "id-ID",
+    "ms": "ms-MY",
+    "fil": "fil-PH"
+  },
+  "icons": {
+    "favicon16": "/seo-20260930/academy-hormonaly-16.png",
+    "favicon32": "/seo-20260930/academy-hormonaly-32.png",
+    "appleTouch": "/seo-20260930/academy-hormonaly-180.png",
+    "icon192": "/seo-20260930/academy-hormonaly-192.png",
+    "icon512": "/seo-20260930/academy-hormonaly-512.png"
+  },
+  "pages": [
+    {
+      "path": "/",
+      "type": "Course",
+      "indexable": true,
+      "defaultLang": "en",
+      "locales": {
+        "en": {
+          "title": "Hormones and Peptides for Skin | Hormonaly Academy",
+          "description": "Explore hormones and peptides for skin, hair and the ageing face. A clinical course on evidence, evaluating claims and boundaries for practice.",
+          "name": "Hormones and Peptides for Skin"
+        }
+      },
+      "image": "/seo-20260930/academy-hormonaly-skin.png",
+      "imageAlt": "Hormones and Peptides for Skin — Hormonaly Academy"
+    }
+  ],
+  "assetDirectory": "seo-20260930"
+}

@@ -128,7 +128,19 @@ catalog:
     # accreditation id arrive (package governance.accreditation), then it becomes GCLS-issued.
     accreditation: { body: "GCLS", name: "Geneva College of Longevity Sciences", status: accredited, logo: "/gcls/gcls-logo.png",
       basis: "Verbal confirmation from GCLS to Omar Saleem (product owner), 2026-09-25; written confirmation to follow" }
-    entitlement: { type: paid, price: { amount: 199, currency: usd } }   # Omar 2026-09-25: "let's price it at $199" (Stripe Checkout; server/checkout.ts); live 2026-09-26 on the DrVibe, Inc. account, GCLS webhook guard deployed first
+    entitlement:
+      type: paid
+      price: { amount: 199, currency: usd }
+      # Omar 2026-10-01: October $0 promotion. New sessions return to $199 on November 1, Los Angeles time.
+      promotion:
+        id: october-2026
+        amount: 0
+        startsAt: '2026-10-01T00:00:00-07:00'
+        endsAt: '2026-11-01T00:00:00-07:00'
+        label:
+          en: 'October offer · free through October 31'
+          es: 'Oferta de octubre · gratis hasta el 31 de octubre'
+          pt: 'Oferta de outubro · grátis até 31 de outubro'
     certificate: { access: included }
     final: { by: "Omar Saleem (product owner)", date: "2026-09-25", revision: "academy-hormonaly-00009-6jl · 1.0.0-rc.4, walked end to end on hormonaly.perceptors.ai" }   # Omar: "it's final, go ahead"
     # 1.0.1 (2026-09-25): the androgen-secreting tumour figures removed from m2-p15/m2-p16 on Omar's instruction, Fady approving ("remove the numbers, fady's fine with that").
