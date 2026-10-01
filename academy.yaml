@@ -330,4 +330,4 @@ auth:
     origin: https://hormonaly.perceptors.ai
     logoUrl: https://insider.fitt.co/wp-content/uploads/2026/04/image-1.png
     accent: "#2463eb"
-admins: [omar@hormonaly.ai, omar@perceptors.ai]   # Omar (reviewer of record / publish owner); add Hormonaly admins when named
+admins: [omar@hormonaly.ai, omar@perceptors.ai, fady@hormonaly.ai]   # Academy admins named by Omar; Omar remains reviewer of record / publish owner
