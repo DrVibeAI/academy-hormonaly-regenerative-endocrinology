@@ -1,0 +1,9 @@
+# Ship retro — Hormonaly presentation release, 2026-09-30
+
+The academy palette/mark inputs and explicit tutor visual mappings kept the client work inside the shared runtime. Reusing lecture images avoided new clinical illustrations and commercial PDF reuse. The isolated release checkout kept pending certificate changes out of the live deployment.
+
+The course originally had no tutor fixtures, so generic checks did not exercise its two visible questions. Adding HRT/GHK-Cu probes caught malformed or incomplete model responses. Required JSON fields, thought-part filtering and array validation fixed response handling; a hosted check also caught loss of a product qualification and a source-label cap. The prompt now gives clinical qualifiers priority over word targets, and the readable source disclosure retains every cited source. Those rules and automated checks are codified in Foundry docs/learner-experience.md and docs/improvement-ledger.md.
+
+Scorecard: final release gate six of six suites; tutor 29/29 assertions over 14 cases; live RAG 11/11 checks on two course-shaped prompts plus off-topic/safety probes; focused Guide/regional 11/11; locale parity 3,636 fields with no issues. Course-shaped corpus hit rate was 2/2 in the final eval; this is not a production usage metric. Owner reviewed branding, palette, tutor layout and spelling iteratively in the conversation. Time per stage was not instrumented; cloud-build IDs/timestamps remain in the release inputs. Two candidates were built; only the corrected final candidate was promoted. The first failed eval attempts never changed live traffic.
+
+The hosted viewport control applied the phone size to the public tab but not reliably to the signed-in Guide. Mobile homepage proof is hosted; Guide phone proof remains local. No physical-device test, full completion/payment/certificate journey or new locale review was claimed. Future work: on-demand Lite visuals and the owner's later metrics setup.

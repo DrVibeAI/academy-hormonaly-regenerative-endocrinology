@@ -34,3 +34,6 @@ Importer contract: `scripts/tutor-visuals.mts` and `scripts/import-package.mts`.
 Live format instruction: `server/guide-rag.ts`; oversized generated replies fall back rather than truncating a safety caveat.
 
 For this local preview, `public/assets/hormones-peptides-skin` is linked to the academy's existing assets. Recreate this link if a subsequent prepare removes it; normal release packaging must include these assets.
+
+
+Deployment update (2026-09-30): the reviewed work is now live at https://hormonaly.perceptors.ai on academy-hormonaly-00029-nj2. See ../release-20260930/QA-REPORT.md for exact scope, pins, live proof and remaining verification limits.

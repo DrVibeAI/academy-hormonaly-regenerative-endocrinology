@@ -1,0 +1,20 @@
+{
+  "/_health": {
+    "status": 200,
+    "body": {
+      "app": "ok",
+      "db": "ok"
+    }
+  },
+  "/api/state": {
+    "status": 401
+  },
+  "/api/certificate": {
+    "status": 401
+  },
+  "revision": {
+    "name": "academy-hormonaly-00029-nj2",
+    "imageDigest": "us-central1-docker.pkg.dev/perceptors/cloud-run-source-deploy/academy-hormonaly@sha256:ab561417036ad43183628124d5d4496dd3479211804eeb5ce17403188c674f67",
+    "ready": true
+  }
+}

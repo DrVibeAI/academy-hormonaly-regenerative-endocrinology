@@ -13,3 +13,6 @@ Validation: final production build, TypeScript, isolation and locale checks pass
 Screenshots: homepage-blue-desktop.jpg, homepage-blue-mobile.jpg, tutor-blue-desktop.jpg, tutor-blue-mobile.jpg.
 
 Preview: http://127.0.0.1:5187/ . Local mode, sign-in disabled. No authenticated session, live tutor backend or deployment verified. No live course promotion. Changes remain uncommitted alongside earlier authority work. A release must include the shared runtime support for the academy inputs.
+
+
+Deployment update (2026-09-30): the reviewed work is now live at https://hormonaly.perceptors.ai on academy-hormonaly-00029-nj2. See ../release-20260930/QA-REPORT.md for exact scope, pins, live proof and remaining verification limits.

@@ -1,0 +1,22 @@
+{
+  "academyInputCommit": "0952755c6033715a0ee970b87e0e4aafb8f493d5",
+  "runtimeCommit": "39089c3025f12aca21c479988379c9106545c81b",
+  "runtimeBranch": "codex/hormonaly-brand-guide-release-20260930",
+  "packageVersion": "1.1.0",
+  "packageSHA256": "cb7b66528438d0081b05cc3d08e4b5f2625f3eac94898beb13ebafd5dd936334",
+  "cloudBuildId": "f3a35b3b-9058-4725-8c78-b2b99e08830f",
+  "previousProductionRevision": "academy-hormonaly-00026-5mn",
+  "scope": [
+    "Hormonaly palette and marks",
+    "Tutor formatted replies, source details and course illustrations",
+    "Enroll now spelling",
+    "Structured grounded-response validation"
+  ],
+  "excluded": [
+    "Integrative aesthetics PDF",
+    "On-demand Nano Banana Lite generation",
+    "Pending certificate layout and issuance-policy work"
+  ],
+  "productionRevision": "academy-hormonaly-00029-nj2",
+  "foundryContractCommit": "4159cd65315ed6ebf8bcffdcbd3b9bdabc29d8bc"
+}
