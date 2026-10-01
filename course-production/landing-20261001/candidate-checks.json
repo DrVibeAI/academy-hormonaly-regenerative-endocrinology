@@ -1,0 +1,28 @@
+{
+  "/_health": {
+    "http": 200,
+    "body": "{\"app\":\"ok\",\"db\":\"ok\"}"
+  },
+  "/api/certificate": {
+    "http": 401
+  },
+  "/api/state": {
+    "http": 401
+  },
+  "assets/hormones-peptides-skin/home/inside-science-blue.jpg": {
+    "http": 200,
+    "matchesLocal": true
+  },
+  "assets/faculty/fady-hannah-shmouni.webp": {
+    "http": 200,
+    "matchesLocal": true
+  },
+  "assets/faculty/dominik-thor.webp": {
+    "http": 200,
+    "matchesLocal": true
+  },
+  "assets/faculty/omar-saleem.webp": {
+    "http": 200,
+    "matchesLocal": true
+  }
+}

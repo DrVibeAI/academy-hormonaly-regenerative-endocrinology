@@ -1,0 +1,26 @@
+[
+  {
+    "path": "assets/hormones-peptides-skin/home/inside-science-blue.jpg",
+    "http": 200,
+    "matchesLocal": true,
+    "sha256": "36f8004cd4a292c9d28734825044ab70eada08574e666820eda114c6e7448efc"
+  },
+  {
+    "path": "assets/faculty/fady-hannah-shmouni.webp",
+    "http": 200,
+    "matchesLocal": true,
+    "sha256": "9a176195a98f2b1496c5a9893a7f61a47df2ec17a132606f17c0d725a031bfb1"
+  },
+  {
+    "path": "assets/faculty/dominik-thor.webp",
+    "http": 200,
+    "matchesLocal": true,
+    "sha256": "1a57433710a6b264ff3e2cb8bb85188023fed8750fe59ddedcec66385f0cbb5c"
+  },
+  {
+    "path": "assets/faculty/omar-saleem.webp",
+    "http": 200,
+    "matchesLocal": true,
+    "sha256": "7912e7c5ec018cccf245f9f3bdd0ec651d915d78d3fabd6f8c679ef735056ba4"
+  }
+]

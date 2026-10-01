@@ -1,0 +1,40 @@
+{
+  "faculty": [
+    {
+      "designation": "Faculty · Medical review",
+      "name": "Fady Hannah-Shmouni, MD FRCPC",
+      "portraitLoaded": true
+    },
+    {
+      "designation": "Advisory",
+      "name": "Dominik Thor",
+      "portraitLoaded": true
+    },
+    {
+      "designation": "Advisory",
+      "name": "Omar Saleem",
+      "portraitLoaded": true
+    }
+  ],
+  "previews": [
+    {
+      "caption": "A short film opens every module",
+      "loaded": true
+    },
+    {
+      "caption": "Explore the science through illustrations",
+      "loaded": true
+    },
+    {
+      "caption": "Sort the evidence, one tap at a time",
+      "loaded": true
+    },
+    {
+      "caption": "Work through clinic cases",
+      "loaded": true
+    }
+  ],
+  "viewport": 1280,
+  "width": 1280,
+  "wrongCollegeSpelling": false
+}
