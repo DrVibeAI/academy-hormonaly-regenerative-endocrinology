@@ -34,8 +34,8 @@ brand:
     onPrimary: "#FFFFFF"
     action: "#0071E3"
     link: "#0064CA"
-    successSoft: "#E9FBF3"
-    successInk: "#157347"
+    successSoft: "#EBF4FF"
+    successInk: "#0064CA"
     dangerSoft: "#FEEDEC"
   tagline: { en: "Hormones and peptides, evidence-graded." }   # academy-level: every course in the catalog sits under it
   supportEmail: support@hormonaly.ai    # placeholder — confirm with customer
