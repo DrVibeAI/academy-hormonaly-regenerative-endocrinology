@@ -343,3 +343,9 @@ auth:
     logoUrl: https://insider.fitt.co/wp-content/uploads/2026/04/image-1.png
     accent: "#2463eb"
 admins: [omar@hormonaly.ai, omar@perceptors.ai, fady@hormonaly.ai]   # Academy admins named by Omar; Omar remains reviewer of record / publish owner
+
+# Admin assistant pilot. Clinical drafts use the existing human review pipeline.
+editing:
+  enabled: true
+  publishers: [omar@hormonaly.ai, omar@perceptors.ai]
+  approvedAssets: [./assets/brand/hormonaly-mark-flat.svg, ./assets/brand/hormonaly-app-icon.svg]
