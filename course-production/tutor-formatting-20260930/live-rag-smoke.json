@@ -1,0 +1,31 @@
+[
+  {
+    "question": "Does HRT help wrinkles?",
+    "reply": {
+      "text": "Current trial evidence shows hormone therapy does not improve facial wrinkles. The largest randomized trial (485 women, 48 weeks) and a four-year trial in recently menopausal women both found no significant difference in wrinkles compared to placebo.\n\n### Evidence and limits\n- Skin has estrogen receptors, and small trials showed hormone therapy thickened skin and increased collagen.\n- However, topical estradiol increased collagen production only in sun-protected skin, showing no such response in photoaged facial skin.\n\n### Regulatory rules\n- In the US, as of February 2026, approved uses are hot flashes, vulvovaginal symptoms, and bone loss prevention for some products; skin is never an approved indication or a reason to start.\n- In the UK, HRT is licensed for oestrogen-deficiency symptoms and osteoporosis prevention, not skin.\n\n### Practical boundaries\n- Daily sunscreen and prescription retinoids have better evidence for skin aging.",
+      "source": "ecfr-21-cfr-310-530-hormone-creams · fda-mht-labeling-approval-2026-02-12 · fda-renova-tretinoin-label · hughes-2013-sunscreen-skin-aging-rct",
+      "grounded": true,
+      "chunkIds": [
+        "corpus-3-en",
+        "m2-p08-en",
+        "source-phillips-2008-ht-facial-skin-rct-en",
+        "source-owen-2016-keeps-skin-wrinkles-en",
+        "m2-p11-en"
+      ]
+    }
+  },
+  {
+    "question": "What does the evidence show for copper peptides (GHK-Cu)?",
+    "reply": {
+      "text": "Topical GHK-Cu has modest human trial evidence graded at GRADE C, whereas injectable GHK-Cu lacks randomized trials and commonly causes tissue irritation.\n\n### Evidence and limits\n- Mechanistically, GHK-Cu is proposed to deliver copper to enzymes like superoxide dismutase and lysyl oxidase, though much of this literature comes from its original discoverer.\n- Human data for topical use includes one indexed 2006 randomized trial on healing after CO₂ laser resurfacing; anti-aging claims rely on non-indexed, manufacturer-sponsored trials.\n- Injected GHK-Cu relies entirely on anecdote, has no randomized trials, and frequently causes injection-site pain and rash.\n\n### Regulatory context\n- In the US, as of FDA's 14 May 2026 list, non-injectable GHK-Cu sits in 503A Category 1, but the injectable route is excluded.",
+      "source": "Peptide Pocket Guide · Aesthetic & Regenerative Endocrinology, ch. 15 · FDA 503A categories · Miller 2006",
+      "grounded": true,
+      "chunkIds": [
+        "m4-p06-en",
+        "m4-p04-en",
+        "corpus-6-en",
+        "m4-p03-en"
+      ]
+    }
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "id": "hrt-skin-evidence",
+    "lang": "en",
+    "q": "Does HRT help wrinkles?",
+    "expect": [
+      {
+        "name": "course sources",
+        "type": "has-source"
+      },
+      {
+        "name": "negative wrinkle trial finding",
+        "type": "text-match",
+        "pattern": "no (?:significant )?(?:difference|improvement)|does not improve"
+      },
+      {
+        "name": "skin is not an indication",
+        "type": "text-match",
+        "pattern": "skin.{0,70}(?:not|never)|not.{0,70}(?:skin|indication)"
+      }
+    ]
+  },
+  {
+    "id": "ghkcu-route-boundaries",
+    "lang": "en",
+    "q": "What does the evidence show for copper peptides (GHK-Cu)?",
+    "expect": [
+      {
+        "name": "course sources",
+        "type": "has-source"
+      },
+      {
+        "name": "topical route",
+        "type": "text-match",
+        "pattern": "topical"
+      },
+      {
+        "name": "injected route",
+        "type": "text-match",
+        "pattern": "inject"
+      },
+      {
+        "name": "limited human evidence",
+        "type": "text-match",
+        "pattern": "GRADE C|graded C|small.{0,20}trial|limited.{0,25}(?:human|trial|evidence)"
+      },
+      {
+        "name": "no invented dose",
+        "type": "text-not-match",
+        "pattern": "\\d+\\s*(?:mg|mcg|iu|ml)\\b"
+      }
+    ]
+  }
+]
