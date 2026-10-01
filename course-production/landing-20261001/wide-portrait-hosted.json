@@ -1,0 +1,20 @@
+[
+  {
+    "src": "assets/faculty/fady-hannah-shmouni-wide.png",
+    "http": 200,
+    "sha256": "05fdf4eecfd5451f8f3c481ee00852701d66f1fa87776f4e5a0a43431526c020",
+    "matchesLocal": true
+  },
+  {
+    "src": "assets/faculty/dominik-thor-wide.png",
+    "http": 200,
+    "sha256": "afcc530b4e8a14145cc4133818835688779a0e8a98794b4200f27b881245d39d",
+    "matchesLocal": true
+  },
+  {
+    "src": "assets/faculty/omar-saleem-wide.png",
+    "http": 200,
+    "sha256": "53366b3ab3d7baef4464f05adfc8af9ab85229db69e8239ad9e5fc522073daa5",
+    "matchesLocal": true
+  }
+]

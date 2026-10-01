@@ -1,0 +1,26 @@
+{
+  "portraits": [
+    {
+      "loaded": true,
+      "name": "Fady Hannah-Shmouni, MD FRCPC",
+      "naturalWidth": 1024,
+      "src": "/assets/faculty/fady-hannah-shmouni-wide.png"
+    },
+    {
+      "loaded": true,
+      "name": "Dominik Thor",
+      "naturalWidth": 1024,
+      "src": "/assets/faculty/dominik-thor-wide.png"
+    },
+    {
+      "loaded": true,
+      "name": "Omar Saleem",
+      "naturalWidth": 1024,
+      "src": "/assets/faculty/omar-saleem-wide.png"
+    }
+  ],
+  "previews": 4,
+  "url": "https://hormonaly.perceptors.ai/",
+  "viewport": 1280,
+  "width": 1280
+}

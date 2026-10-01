@@ -1,0 +1,10 @@
+{
+  "/_health": {
+    "status": 200,
+    "body": "{\"app\":\"ok\",\"db\":\"ok\"}"
+  },
+  "/api/certificate": {
+    "status": 401,
+    "body": "{\"error\":\"unauthorized\"}"
+  }
+}

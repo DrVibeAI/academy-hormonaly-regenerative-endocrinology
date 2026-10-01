@@ -1,0 +1,13 @@
+{
+  "status": {
+    "latestReadyRevisionName": "academy-hormonaly-00041-czr",
+    "traffic": [
+      {
+        "percent": 100,
+        "revisionName": "academy-hormonaly-00041-czr",
+        "tag": "candidate",
+        "url": "https://candidate---academy-hormonaly-limjs7pr6a-uc.a.run.app"
+      }
+    ]
+  }
+}

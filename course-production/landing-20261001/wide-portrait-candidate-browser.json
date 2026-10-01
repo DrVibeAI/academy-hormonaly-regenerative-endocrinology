@@ -1,0 +1,22 @@
+{
+  "portraits": [
+    {
+      "loaded": true,
+      "name": "Fady Hannah-Shmouni, MD FRCPC",
+      "src": "/assets/faculty/fady-hannah-shmouni-wide.png"
+    },
+    {
+      "loaded": true,
+      "name": "Dominik Thor",
+      "src": "/assets/faculty/dominik-thor-wide.png"
+    },
+    {
+      "loaded": true,
+      "name": "Omar Saleem",
+      "src": "/assets/faculty/omar-saleem-wide.png"
+    }
+  ],
+  "previews": 4,
+  "viewport": 1280,
+  "width": 1280
+}
