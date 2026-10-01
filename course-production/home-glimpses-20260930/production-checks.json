@@ -1,0 +1,46 @@
+{
+  "health": {
+    "app": "ok",
+    "db": "ok"
+  },
+  "stateStatus": 401,
+  "certificateStatus": 401,
+  "images": [
+    {
+      "src": "assets/hormones-peptides-skin/home/inside-film-blue.png",
+      "status": 200,
+      "matchesCapture": true
+    },
+    {
+      "src": "assets/hormones-peptides-skin/home/inside-trial-blue.png",
+      "status": 200,
+      "matchesCapture": true
+    },
+    {
+      "src": "assets/hormones-peptides-skin/home/inside-case-blue.png",
+      "status": 200,
+      "matchesCapture": true
+    },
+    {
+      "src": "assets/hormones-peptides-skin/home/inside-certificate-blue.png",
+      "status": 200,
+      "matchesCapture": true
+    },
+    {
+      "src": "assets/hormones-peptides-skin/home/inside-country-blue.png",
+      "status": 200,
+      "matchesCapture": true
+    }
+  ],
+  "traffic": [
+    {
+      "percent": 100,
+      "revisionName": "academy-hormonaly-00031-q7f",
+      "tag": "candidate",
+      "url": "https://candidate---academy-hormonaly-limjs7pr6a-uc.a.run.app"
+    }
+  ],
+  "runtimeCommit": "5e9d98cddfc80fc8b47b68c93423406dd606e9d2",
+  "academyInputCommit": "495981abab6a6d351a6590ba12a14b678e602623",
+  "checkedAt": "2026-10-01T04:36:03.456395+00:00"
+}

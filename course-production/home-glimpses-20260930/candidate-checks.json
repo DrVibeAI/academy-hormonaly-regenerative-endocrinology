@@ -1,0 +1,43 @@
+{
+  "revision": "academy-hormonaly-00031-q7f",
+  "health": {
+    "app": "ok",
+    "db": "ok"
+  },
+  "stateStatus": 401,
+  "certificateStatus": 401,
+  "images": [
+    {
+      "src": "assets/hormones-peptides-skin/home/inside-film-blue.png",
+      "status": 200,
+      "sha256": "925a4025072797ba027c7f671ed9d10f30b5283cbfc391da953336512c1a3f28",
+      "matchesCapture": true
+    },
+    {
+      "src": "assets/hormones-peptides-skin/home/inside-trial-blue.png",
+      "status": 200,
+      "sha256": "c77f7f44b05ef1d4276a674178191cd77ad53adf1acecce46df7250d83ed56e6",
+      "matchesCapture": true
+    },
+    {
+      "src": "assets/hormones-peptides-skin/home/inside-case-blue.png",
+      "status": 200,
+      "sha256": "e51afb9258b05c222a9ebc971f2b5e4adfa91a3355cd1e8c5cdbbf2c9dde0685",
+      "matchesCapture": true
+    },
+    {
+      "src": "assets/hormones-peptides-skin/home/inside-certificate-blue.png",
+      "status": 200,
+      "sha256": "25a8abf2183314f4d911a2c418c4ea2425191422fd61da77cef0bdcf36414bfa",
+      "matchesCapture": true
+    },
+    {
+      "src": "assets/hormones-peptides-skin/home/inside-country-blue.png",
+      "status": 200,
+      "sha256": "9c72e4d8b0792f6333c07d923a272be11f3da267d244b18ac5af3ea33e34abeb",
+      "matchesCapture": true
+    }
+  ],
+  "imageDigest": "us-central1-docker.pkg.dev/perceptors/cloud-run-source-deploy/academy-hormonaly@sha256:cc57d91cd3c541a1762b5058a99faa9993cd11b3f95bd310358e081ee8f8cb1e",
+  "checkedAt": "2026-10-01T04:34:03.643121+00:00"
+}
