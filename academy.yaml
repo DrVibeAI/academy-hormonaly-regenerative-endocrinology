@@ -98,13 +98,13 @@ home:
       - name: "Fady Hannah-Shmouni, MD FRCPC"
         designation: { en: "Faculty · Medical review" }
         role: { en: "Endocrinologist and biochemical geneticist. Author of the Hormonaly pocket guides." }
-        image: "assets/faculty/fady-hannah-shmouni.webp"
+        image: "assets/faculty/fady-hannah-shmouni-wide.png"
       - name: "Dominik Thor"
         designation: { en: "Advisory" }
-        image: "assets/faculty/dominik-thor.webp"
+        image: "assets/faculty/dominik-thor-wide.png"
       - name: "Omar Saleem"
         designation: { en: "Advisory" }
-        image: "assets/faculty/omar-saleem.webp"
+        image: "assets/faculty/omar-saleem-wide.png"
   faq:
     - q: { en: "Does the course give doses or protocols?" }
       a: { en: "No. It teaches the evidence, the regulatory status and what each role can safely do next. Dosing and product sourcing are excluded by design." }
