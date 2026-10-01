@@ -1,0 +1,26 @@
+{
+  "/_health": {
+    "status": 200,
+    "body": {
+      "app": "ok",
+      "db": "ok"
+    }
+  },
+  "/api/state": {
+    "status": 401
+  },
+  "/api/certificate": {
+    "status": 401
+  },
+  "/assets/brand/hormonaly-app-icon.svg": {
+    "status": 200
+  },
+  "revision": {
+    "metadata": {
+      "name": "academy-hormonaly-00030-jkj"
+    },
+    "status": {
+      "imageDigest": "us-central1-docker.pkg.dev/perceptors/cloud-run-source-deploy/academy-hormonaly@sha256:70bd9eed6230c7ee90ea179adfcfb77696980ce54a8dc135c5c219b7b674da9c"
+    }
+  }
+}

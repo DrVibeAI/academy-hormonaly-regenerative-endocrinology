@@ -1,5 +1,7 @@
 # Hormonaly branding and Guide release — deployed
 
+Current production follow-up: **academy-hormonaly-00030-jkj**, replacing the remaining green success/exercise accents with Hormonaly blue. See `../blue-feedback-20260930/QA-REPORT.md` for current source pins, traffic and color proof. The details below record the preceding presentation release.
+
 Owner authorization: Omar, “Let's deploy.” in this conversation. Live: https://hormonaly.perceptors.ai . Cloud Run serves **100% on academy-hormonaly-00029-nj2**, promoted from the exact tested candidate. Previous production revision: academy-hormonaly-00026-5mn.
 
 - Runtime: `39089c3025f12aca21c479988379c9106545c81b` in `/Users/omar/DrVibe/releases/hormonaly-brand-guide-20260930/perceptor-runtime`; isolated from pending certificate work.

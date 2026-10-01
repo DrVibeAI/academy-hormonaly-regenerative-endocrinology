@@ -1,0 +1,15 @@
+{
+  "greenColors": [],
+  "placed": [
+    {
+      "background": "rgb(235, 244, 255)",
+      "class": "ix-seq__slot placed",
+      "color": "rgb(29, 29, 31)"
+    },
+    {
+      "background": "rgb(0, 113, 227)",
+      "class": "ix-seq__n",
+      "color": "rgb(255, 255, 255)"
+    }
+  ]
+}

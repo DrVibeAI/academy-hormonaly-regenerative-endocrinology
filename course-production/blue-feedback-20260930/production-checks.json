@@ -1,0 +1,17 @@
+{
+  "health": {
+    "app": "ok",
+    "db": "ok"
+  },
+  "traffic": [
+    {
+      "percent": 100,
+      "revisionName": "academy-hormonaly-00030-jkj",
+      "tag": "candidate",
+      "url": "https://candidate---academy-hormonaly-limjs7pr6a-uc.a.run.app"
+    }
+  ],
+  "runtimeCommit": "b937d9a1a58c9210843476996bbd5e1189583cc7",
+  "academyInputCommit": "890b53a63efcd4bc0e8e6773bf206bd5cfd006a0",
+  "checkedAt": "2026-10-01T02:11:03.785460+00:00"
+}
