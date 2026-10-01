@@ -141,6 +141,10 @@ catalog:
           en: 'October offer · free through October 31'
           es: 'Oferta de octubre · gratis hasta el 31 de octubre'
           pt: 'Oferta de outubro · grátis até 31 de outubro'
+        banner:
+          headline: { en: 'Free for October', es: 'Gratis en octubre', pt: 'Grátis em outubro' }
+          detail: { en: 'Limited-time offer · Ends October 31', es: 'Oferta por tiempo limitado · Hasta el 31 de octubre', pt: 'Oferta por tempo limitado · Até 31 de outubro' }
+          action: { en: 'Enroll free', es: 'Inscríbete gratis', pt: 'Inscreva-se grátis' }
     certificate: { access: included }
     final: { by: "Omar Saleem (product owner)", date: "2026-09-25", revision: "academy-hormonaly-00009-6jl · 1.0.0-rc.4, walked end to end on hormonaly.perceptors.ai" }   # Omar: "it's final, go ahead"
     # 1.0.1 (2026-09-25): the androgen-secreting tumour figures removed from m2-p15/m2-p16 on Omar's instruction, Fady approving ("remove the numbers, fady's fine with that").
