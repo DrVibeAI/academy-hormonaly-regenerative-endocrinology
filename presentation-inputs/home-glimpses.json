@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "academy": "hormonaly",
+  "brandFingerprint": "37e5037cbac7cf513a7b2cb1d7166ade9efcc918d3c5cebd3b993fc214deb0b7",
+  "course": "packages/hormones-peptides-skin.json",
+  "packageSha256": "cb7b66528438d0081b05cc3d08e4b5f2625f3eac94898beb13ebafd5dd936334",
+  "capturedAt": "2026-10-01T04:25:49.252Z",
+  "sourceRuntimeCommit": "b937d9a1a58c9210843476996bbd5e1189583cc7",
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "locale": "en",
+  "country": "US",
+  "captureMethod": "Codex in-app browser; actual learner runtime in isolated local mode, 390x844 iframe viewport",
+  "fixture": "Local capture only: prescriber role and modules 1–6 unlocked; exercise answers selected through UI. No production progress or assessment writes.",
+  "captures": [
+    {
+      "src": "assets/hormones-peptides-skin/home/inside-film-blue.png",
+      "sha256": "925a4025072797ba027c7f671ed9d10f30b5283cbfc391da953336512c1a3f28",
+      "lesson": 1,
+      "pane": 1
+    },
+    {
+      "src": "assets/hormones-peptides-skin/home/inside-trial-blue.png",
+      "sha256": "c77f7f44b05ef1d4276a674178191cd77ad53adf1acecce46df7250d83ed56e6",
+      "lesson": 4,
+      "pane": 11
+    },
+    {
+      "src": "assets/hormones-peptides-skin/home/inside-case-blue.png",
+      "sha256": "e51afb9258b05c222a9ebc971f2b5e4adfa91a3355cd1e8c5cdbbf2c9dde0685",
+      "lesson": 4,
+      "pane": 22
+    },
+    {
+      "src": "assets/hormones-peptides-skin/home/inside-certificate-blue.png",
+      "sha256": "25a8abf2183314f4d911a2c418c4ea2425191422fd61da77cef0bdcf36414bfa",
+      "lesson": 7,
+      "pane": 15
+    },
+    {
+      "src": "assets/hormones-peptides-skin/home/inside-country-blue.png",
+      "sha256": "9c72e4d8b0792f6333c07d923a272be11f3da267d244b18ac5af3ea33e34abeb",
+      "lesson": 2,
+      "pane": 15
+    }
+  ]
+}

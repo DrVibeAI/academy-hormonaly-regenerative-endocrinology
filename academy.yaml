@@ -69,13 +69,14 @@ home:
   coursesTitle: { en: "The course" }
   coursesNote: { en: "More peptide courses are on the way." }
   glimpses:
+    captureManifest: presentation-inputs/home-glimpses.json
     title: { en: "Learn by doing." }
     items:
-      - { src: "assets/hormones-peptides-skin/home/inside-film.jpg", caption: { en: "A short film opens every module" } }
-      - { src: "assets/hormones-peptides-skin/home/inside-trial.jpg", caption: { en: "Sort the evidence, one tap at a time" } }
-      - { src: "assets/hormones-peptides-skin/home/inside-case.jpg", caption: { en: "Work through clinic cases" } }
-      - { src: "assets/hormones-peptides-skin/home/inside-certificate.jpg", caption: { en: "Audit a certificate of analysis" } }
-      - { src: "assets/hormones-peptides-skin/home/inside-country.jpg", caption: { en: "Your country's rules, dated" } }
+      - { src: "assets/hormones-peptides-skin/home/inside-film-blue.png", caption: { en: "A short film opens every module" } }
+      - { src: "assets/hormones-peptides-skin/home/inside-trial-blue.png", caption: { en: "Sort the evidence, one tap at a time" } }
+      - { src: "assets/hormones-peptides-skin/home/inside-case-blue.png", caption: { en: "Work through clinic cases" } }
+      - { src: "assets/hormones-peptides-skin/home/inside-certificate-blue.png", caption: { en: "Audit a certificate of analysis" } }
+      - { src: "assets/hormones-peptides-skin/home/inside-country-blue.png", caption: { en: "Your country's rules, dated" } }
   trust:
     title: { en: "Built on evidence. Reviewed by a physician." }
     items:
