@@ -21,7 +21,7 @@
       {
         "name": "bone indication retains product qualifier when mentioned",
         "type": "text-not-match",
-        "pattern": "\\A(?![\\s\\S]*(?:some|certain|specific|select)\\s+(?:products|formulations|preparations))[\\s\\S]*(?:prevent.{0,25}(?:bone|osteoporosis)|bone protection)"
+        "pattern": "^(?![\\s\\S]*(?:some|certain|specific|select)\\s+(?:products|formulations|preparations))[\\s\\S]*(?:prevent.{0,25}(?:bone|osteoporosis)|bone protection)"
       }
     ]
   },
