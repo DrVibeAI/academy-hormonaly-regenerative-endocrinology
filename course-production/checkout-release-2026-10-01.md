@@ -1,6 +1,6 @@
 # Skin course October checkout release
 
-Live: https://hormonaly.perceptors.ai/ · revision `academy-hormonaly-00038-w2t` at 100% traffic (Hormonaly-branded Resend verification email following the password-email fix in `academy-hormonaly-00035-kbm`, top banner in `academy-hormonaly-00034-s7h`, and checkout release `academy-hormonaly-00033-7d9`).
+Live: https://hormonaly.perceptors.ai/ · revision `academy-hormonaly-00039-g8r` at 100% traffic (Fady admin access following Hormonaly-branded Resend verification email in `academy-hormonaly-00038-w2t`, password-email fix in `academy-hormonaly-00035-kbm`, top banner in `academy-hormonaly-00034-s7h`, and checkout release `academy-hormonaly-00033-7d9`).
 
 The course is $0 for new Stripe Checkout sessions created from October 1, 2026 at 00:00 through November 1, 2026 at 00:00, America/Los_Angeles. The normal one-time price remains $199 USD and resumes automatically for new sessions on November 1. No promotion code or card is required for the free offer. The full course and included completion certificate retain their existing completion requirements. Enrolled learners retain course access after the promotion expires. A session created during October keeps its offer for Stripe's normal session lifetime.
 
@@ -19,7 +19,7 @@ Promotion configuration: `catalog[0].entitlement.promotion` in `academy.yaml`. T
 
 ## Source for subsequent deployments
 
-This release was built on the exact serving SEO release, preserving homepage images and public metadata. Runtime source: `/Users/omar/DrVibe/releases/hormonaly-october-promo-20261001/perceptor-runtime`, deployed runtime commit `bddd6ae` on `codex/hormonaly-october-promo-20261001` (base `42cc868`; subsequent permission documentation in `ebde079`). Academy source: `codex/hormonaly-october-promo-20261001`, promotion commit `402bfa9`, banner commit `d2a288a`. Deploy only through `deploy/gcp.sh` with `ACADEMY_DIR`.
+This release was built on the exact serving SEO release, preserving homepage images and public metadata. Runtime source: `/Users/omar/DrVibe/releases/hormonaly-october-promo-20261001/perceptor-runtime`, deployed runtime commit `ebde079` on `codex/hormonaly-october-promo-20261001` (base `42cc868`; same application code as `bddd6ae`, plus permission documentation). Academy source: `codex/hormonaly-october-promo-20261001`, promotion commit `402bfa9`, banner commit `d2a288a`. Deploy only through `deploy/gcp.sh` with `ACADEMY_DIR`.
 
 Future runtime releases must include `af09c83` or the equivalent promotion support; older runtime checkouts ignore the promotion config. The working runtime checkout with pending unrelated authority changes was preserved.
 
@@ -51,3 +51,10 @@ The dedicated runtime identity is `academy-hormonaly@perceptors.iam.gserviceacco
 Build/type checks and all seven deployment eval suites passed (`report-2026-10-01T162735Z.md`), including 14 checkout tests and 5 verification-mail tests. A dedicated unverified password QA account received the actual Resend message, ID `01a0f854-72e2-71b3-ad64-8be36f592f4a`; Resend reported **delivered**. Sender and subject matched the intended Hormonaly envelope. Consuming that delivered message’s verification code verified only the QA account. In the same browser, “I verified my email” released the Enrol · $0 button, and enrollment opened real live Stripe Checkout at $0.00 with no card fields. This follow-up did not complete the order, issue a charge or grant course access. No email was sent to the real learner and their verification flag was not changed.
 
 The exact tested revision `academy-hormonaly-00038-w2t` was promoted through `deploy/gcp.sh`. Public health reports app/database OK; pricing remains $0 during October with $199 regular price; anonymous certificate and verification-mail requests return 401. The verified QA account’s public mail request returns `{verified:true}` without sending another message, and course access remains 403 until enrollment. Desktop and 390 × 844 mobile email previews were reviewed with no horizontal overflow. Proof is in `/Users/omar/DrVibe/outputs/hormonaly-verification-email-2026-10-01/`: `verification-email-desktop.jpg`, `verification-email-mobile.jpg`, `verified-return-to-enrollment.jpg` and `verified-resend-zero-checkout.jpg`.
+
+
+## Fady admin access
+
+On October 1, Omar explicitly requested admin access for `fady@hormonaly.ai`. Academy commit `d7f61f8` adds that exact email to the existing Hormonaly `admins` list, preserving both Omar addresses. This grants the existing academy admin console and course access through the standard allowlist. A read-only tenant lookup confirmed Fady already has an enabled academy account; no credentials, account verification flag or payment record was changed, and no email was sent.
+
+The prepared config matched exactly the three authorized admin emails. All seven deployment eval suites and type checks passed (`report-2026-10-01T171415Z.md`). Candidate `academy-hormonaly-00039-g8r` served the new admin list and passed app/database health and anonymous admin/certificate authentication checks. It was promoted through `deploy/gcp.sh` to 100% traffic. Public `/admin` serves the new configuration, anonymous `/api/admin/overview` and `/api/certificate` remain 401, and the October $0 / regular $199 pricing remains correct. Fady’s sign-in was not impersonated; he can use his own account at https://hormonaly.perceptors.ai/admin.
