@@ -1,0 +1,2405 @@
+{
+  "schema": "respond.bank/1",
+  "bankId": "skin-en",
+  "locale": "en",
+  "status": "proposed",
+  "review": {
+    "confirmedBy": null,
+    "confirmedAt": null,
+    "note": "Drafted 2026-09-29 from approved sentences in Module 4 (package 1.2.0-rc.1); revised to v0.2 on 2026-10-01 (lesson-end chips, quiz-style answers). Awaiting the medical owner; nothing here is live. Source compatibility reverified against 1.1.0 on 2026-10-02: zero audit failures; review remains proposed."
+  },
+  "vocabulary": {
+    "entities": [
+      {
+        "id": "ghk-cu",
+        "type": "peptide",
+        "label": {
+          "en": "GHK-Cu"
+        },
+        "aliases": [
+          "ghk-cu",
+          "ghk cu",
+          "ghkcu",
+          "ghk",
+          "copper peptide",
+          "copper peptides",
+          "copper tripeptide"
+        ],
+        "unitRefs": [
+          "m4-p03",
+          "m4-p04",
+          "m4-p06"
+        ],
+        "citationRefs": [
+          "miller-2006-ghk-cu-laser-rct",
+          "hannah-shmouni-2026-ppg-aug",
+          "hannah-shmouni-2026-are"
+        ]
+      },
+      {
+        "id": "matrixyl",
+        "type": "peptide",
+        "label": {
+          "en": "Matrixyl"
+        },
+        "aliases": [
+          "matrixyl",
+          "matrixyl 3000",
+          "pal-kttks",
+          "palmitoyl pentapeptide-4",
+          "palmitoyl pentapeptide"
+        ],
+        "unitRefs": [
+          "m4-p08",
+          "m4-p09"
+        ],
+        "citationRefs": [
+          "robinson-2005-pal-kttks-rct",
+          "aruan-2023-argireline-vs-pal-kttks-rct"
+        ]
+      },
+      {
+        "id": "bpc-157",
+        "type": "peptide",
+        "label": {
+          "en": "BPC-157"
+        },
+        "aliases": [
+          "bpc-157",
+          "bpc157",
+          "bpc 157",
+          "bpc"
+        ],
+        "unitRefs": [
+          "m4-p13",
+          "m4-p14",
+          "m4-x03"
+        ],
+        "citationRefs": [
+          "fda-pcac-2026-bpc157-briefing"
+        ]
+      },
+      {
+        "id": "tb-500",
+        "type": "peptide",
+        "label": {
+          "en": "TB-500"
+        },
+        "aliases": [
+          "tb-500",
+          "tb500",
+          "tb 500"
+        ],
+        "unitRefs": [
+          "m4-p13"
+        ],
+        "citationRefs": [
+          "esposito-2012-tb500-fragment"
+        ]
+      },
+      {
+        "id": "topical",
+        "type": "route",
+        "label": {
+          "en": "Topical"
+        },
+        "aliases": [
+          "topical",
+          "topically",
+          "serum",
+          "serums",
+          "gel"
+        ],
+        "unitRefs": [
+          "m4-p06"
+        ],
+        "route": "topical",
+        "citationRefs": [
+          "hannah-shmouni-2026-ppg-aug",
+          "hannah-shmouni-2026-are",
+          "li-2016-copper-skin-toxicity",
+          "fda-503a-categories-2026-05-14"
+        ]
+      },
+      {
+        "id": "injectable",
+        "type": "route",
+        "label": {
+          "en": "Injectable"
+        },
+        "aliases": [
+          "injectable",
+          "injectables",
+          "injected",
+          "injection",
+          "injections",
+          "inject",
+          "injecting",
+          "syringe",
+          "needle",
+          "shots"
+        ],
+        "unitRefs": [
+          "m4-p06"
+        ],
+        "route": "injectable",
+        "citationRefs": [
+          "hannah-shmouni-2026-ppg-aug",
+          "hannah-shmouni-2026-are",
+          "li-2016-copper-skin-toxicity",
+          "fda-503a-categories-2026-05-14"
+        ]
+      },
+      {
+        "id": "all-patients",
+        "type": "population",
+        "label": {
+          "en": "All patients"
+        },
+        "aliases": [
+          "everyone",
+          "everybody",
+          "all patients",
+          "all my patients",
+          "all of my patients",
+          "every patient",
+          "every single patient",
+          "each patient",
+          "all clients",
+          "every client"
+        ],
+        "unitRefs": [
+          "m4-p06"
+        ],
+        "inline": {
+          "en": "all patients"
+        }
+      },
+      {
+        "id": "microneedling",
+        "type": "procedure",
+        "label": {
+          "en": "Microneedling"
+        },
+        "aliases": [
+          "microneedling",
+          "micro-needling",
+          "micro needling",
+          "needling"
+        ],
+        "unitRefs": []
+      },
+      {
+        "id": "laser",
+        "type": "procedure",
+        "label": {
+          "en": "Laser resurfacing"
+        },
+        "aliases": [
+          "laser resurfacing",
+          "co2 laser",
+          "fractional laser",
+          "laser"
+        ],
+        "unitRefs": [
+          "m4-p04"
+        ],
+        "citationRefs": [
+          "miller-2006-ghk-cu-laser-rct"
+        ]
+      },
+      {
+        "id": "melasma",
+        "type": "situation",
+        "label": {
+          "en": "Melasma"
+        },
+        "aliases": [
+          "melasma",
+          "chloasma"
+        ],
+        "unitRefs": []
+      },
+      {
+        "id": "estrogen-cream",
+        "type": "hormone",
+        "label": {
+          "en": "Estrogen cream"
+        },
+        "aliases": [
+          "estrogen cream",
+          "estrogen creams",
+          "oestrogen cream",
+          "topical estrogen",
+          "estriol cream",
+          "estradiol cream",
+          "hormone cream",
+          "hormone creams"
+        ],
+        "unitRefs": [
+          "m2-p10",
+          "m2-p11"
+        ]
+      },
+      {
+        "id": "aesthetician",
+        "type": "audience",
+        "label": {
+          "en": "Aesthetician"
+        },
+        "aliases": [
+          "aesthetician",
+          "aestheticians",
+          "esthetician",
+          "estheticians",
+          "aesthetic nurse",
+          "injector",
+          "injectors",
+          "med spa",
+          "medspa"
+        ],
+        "unitRefs": [
+          "m4-x03"
+        ]
+      },
+      {
+        "id": "nurse",
+        "type": "audience",
+        "label": {
+          "en": "Nurse"
+        },
+        "aliases": [
+          "nurse",
+          "nurses",
+          "colleague"
+        ],
+        "unitRefs": []
+      },
+      {
+        "id": "fine-lines",
+        "type": "situation",
+        "label": {
+          "en": "Fine lines"
+        },
+        "aliases": [
+          "fine lines",
+          "fine line",
+          "wrinkles"
+        ],
+        "unitRefs": []
+      }
+    ],
+    "misconceptions": [
+      {
+        "id": "default-first",
+        "name": {
+          "en": "One product as the first step for everyone"
+        },
+        "severity": "safety",
+        "riskFlag": "overgeneralization"
+      },
+      {
+        "id": "injectable-stronger",
+        "name": {
+          "en": "Injection as the stronger form"
+        },
+        "severity": "safety",
+        "riskFlag": "route_confusion"
+      },
+      {
+        "id": "mechanism-is-evidence",
+        "name": {
+          "en": "A plausible mechanism as proof"
+        },
+        "severity": "accuracy",
+        "riskFlag": "evidence_overreach"
+      },
+      {
+        "id": "absence-is-negative",
+        "name": {
+          "en": "No trials as proof it fails"
+        },
+        "severity": "accuracy",
+        "riskFlag": "evidence_overreach"
+      },
+      {
+        "id": "advice-outside-scope",
+        "name": {
+          "en": "Advice beyond your role"
+        },
+        "severity": "safety",
+        "riskFlag": "scope_of_practice"
+      }
+    ]
+  },
+  "library": {
+    "mirror-generalization": {
+      "type": "claim_mirror",
+      "props": {
+        "quote": "",
+        "statement": {
+          "en": "Claim to test: {{product}} as the first step for {{population}}."
+        },
+        "confidence": "medium",
+        "provisional": false,
+        "confirm": {
+          "options": [
+            "yes",
+            "edit"
+          ]
+        }
+      },
+      "review": "proposed",
+      "source": "authored:2026-09-29 from chrome",
+      "slots": {
+        "product": {
+          "entityType": "peptide",
+          "default": "ghk-cu",
+          "allowed": [
+            "ghk-cu",
+            "matrixyl",
+            "bpc-157",
+            "tb-500"
+          ]
+        },
+        "population": {
+          "entityType": "population",
+          "default": "all-patients"
+        }
+      }
+    },
+    "mirror-question": {
+      "type": "claim_mirror",
+      "props": {
+        "quote": "",
+        "statement": {
+          "en": "Question about {{product}}."
+        },
+        "confidence": "medium",
+        "provisional": false,
+        "confirm": {
+          "options": [
+            "yes",
+            "edit"
+          ]
+        }
+      },
+      "review": "proposed",
+      "source": "authored:2026-09-29 from chrome",
+      "slots": {
+        "product": {
+          "entityType": "peptide",
+          "default": "ghk-cu",
+          "allowed": [
+            "ghk-cu",
+            "matrixyl",
+            "bpc-157",
+            "tb-500"
+          ]
+        }
+      }
+    },
+    "mirror-compare": {
+      "type": "claim_mirror",
+      "props": {
+        "quote": "",
+        "statement": {
+          "en": "Question: are {{product}} and {{product2}} the same idea?"
+        },
+        "confidence": "medium",
+        "provisional": false,
+        "confirm": {
+          "options": [
+            "yes",
+            "edit"
+          ]
+        }
+      },
+      "review": "proposed",
+      "source": "authored:2026-09-29 from chrome",
+      "slots": {
+        "product": {
+          "entityType": "peptide",
+          "default": "matrixyl",
+          "allowed": [
+            "ghk-cu",
+            "matrixyl",
+            "bpc-157",
+            "tb-500"
+          ]
+        },
+        "product2": {
+          "entityType": "peptide",
+          "default": "bpc-157",
+          "allowed": [
+            "ghk-cu",
+            "matrixyl",
+            "bpc-157",
+            "tb-500"
+          ]
+        }
+      }
+    },
+    "mirror-scope": {
+      "type": "claim_mirror",
+      "props": {
+        "quote": "",
+        "statement": {
+          "en": "Question about advice outside prescribing."
+        },
+        "confidence": "medium",
+        "provisional": false,
+        "confirm": {
+          "options": [
+            "yes",
+            "edit"
+          ]
+        }
+      },
+      "review": "proposed",
+      "source": "authored:2026-09-29 from chrome"
+    },
+    "mirror-explain": {
+      "type": "claim_mirror",
+      "props": {
+        "quote": "",
+        "statement": {
+          "en": "Asked to explain this in one sentence."
+        },
+        "confidence": "medium",
+        "provisional": false,
+        "confirm": {
+          "options": [
+            "yes",
+            "edit"
+          ]
+        }
+      },
+      "review": "proposed",
+      "source": "authored:2026-09-29 from chrome"
+    },
+    "mirror-post-needling": {
+      "type": "claim_mirror",
+      "props": {
+        "quote": "",
+        "statement": {
+          "en": "The course does not cover microneedling."
+        },
+        "confidence": "medium",
+        "provisional": false,
+        "confirm": {
+          "options": [
+            "yes",
+            "edit"
+          ]
+        }
+      },
+      "review": "proposed",
+      "source": "authored:2026-09-29 from chrome",
+      "checks": {
+        "absent": [
+          "microneedl"
+        ]
+      }
+    },
+    "mirror-post-laser": {
+      "type": "claim_mirror",
+      "props": {
+        "quote": "",
+        "statement": {
+          "en": "Question: topical copper peptide after laser resurfacing."
+        },
+        "confidence": "medium",
+        "provisional": false,
+        "confirm": {
+          "options": [
+            "yes",
+            "edit"
+          ]
+        }
+      },
+      "review": "proposed",
+      "source": "authored:2026-09-29 from chrome"
+    },
+    "case-default-ghk": {
+      "type": "case_card",
+      "props": {
+        "caseId": "case-default-ghk",
+        "fictional": true,
+        "title": {
+          "en": "A patient asks about copper peptides"
+        },
+        "lead": {
+          "en": "She has seen a GHK-Cu serum online and asks whether to start it."
+        },
+        "facts": [
+          {
+            "label": {
+              "en": "Your habit"
+            },
+            "value": {
+              "en": "{{product}} first, for {{population}}"
+            }
+          },
+          {
+            "label": {
+              "en": "She asks"
+            },
+            "value": {
+              "en": "Should I start the serum?"
+            }
+          },
+          {
+            "label": {
+              "en": "Route"
+            },
+            "value": {
+              "en": "Topical serum"
+            }
+          },
+          {
+            "label": {
+              "en": "Your move"
+            },
+            "value": {
+              "en": "What do you tell her?"
+            }
+          }
+        ]
+      },
+      "review": "proposed",
+      "source": "authored:2026-09-29 from framing only",
+      "slots": {
+        "product": {
+          "entityType": "peptide",
+          "default": "ghk-cu",
+          "allowed": [
+            "ghk-cu"
+          ]
+        },
+        "population": {
+          "entityType": "population",
+          "default": "all-patients"
+        }
+      }
+    },
+    "dec-default-ghk": {
+      "type": "decision_choice",
+      "props": {
+        "form": "scenario",
+        "itemId": "dec-default-ghk",
+        "objectiveId": "skin-m4-o-unsafe-generalization",
+        "prompt": {
+          "en": "What do you tell her?"
+        },
+        "options": [
+          {
+            "id": "o-standard",
+            "label": {
+              "en": "GHK-Cu serum is the standard first step."
+            },
+            "correct": false,
+            "safety": true,
+            "why": {
+              "en": "The human evidence for topical GHK-Cu is small: one small indexed trial plus sponsor-run cosmetic studies. GRADE C is the honest ceiling."
+            }
+          },
+          {
+            "id": "o-conversation",
+            "label": {
+              "en": "It is a reasonable cosmetic conversation at GRADE C, and I name the route."
+            },
+            "correct": true,
+            "why": {
+              "en": "Topical GHK-Cu is a reasonable cosmetic conversation at GRADE C. Say which route you mean every time."
+            }
+          },
+          {
+            "id": "o-inject",
+            "label": {
+              "en": "Offer the injection instead. It is the stronger form."
+            },
+            "correct": false,
+            "safety": true,
+            "why": {
+              "en": "Injected GHK-Cu is a different product: no randomized trials, injection-site pain and rash are common because copper irritates tissue, and in the US the injectable route sits outside the Category 1 listing."
+            }
+          }
+        ],
+        "revealAfterMisses": 1,
+        "citationRefs": [
+          "miller-2006-ghk-cu-laser-rct",
+          "hannah-shmouni-2026-ppg-aug",
+          "hannah-shmouni-2026-are",
+          "li-2016-copper-skin-toxicity",
+          "fda-503a-categories-2026-05-14"
+        ]
+      },
+      "review": "proposed",
+      "source": "authored:2026-09-29 from m4-p04, m4-p06"
+    },
+    "flag-injectable": {
+      "type": "safety_flag",
+      "props": {
+        "severity": "stop",
+        "title": {
+          "en": "Injected GHK-Cu is a different product"
+        },
+        "rationale": {
+          "en": "There are no randomized trials of injection, injection-site pain and rash are common because copper irritates tissue, and in the United States the injectable route sits outside the Category 1 listing that covers non-injectable use."
+        },
+        "practice": {
+          "en": "Whatever your role, name the route every time you talk about this peptide."
+        },
+        "trigger": {
+          "kind": "decision",
+          "refId": "dec-default-ghk"
+        },
+        "acknowledge": false,
+        "citationRefs": [
+          "hannah-shmouni-2026-ppg-aug",
+          "hannah-shmouni-2026-are",
+          "li-2016-copper-skin-toxicity",
+          "fda-503a-categories-2026-05-14"
+        ]
+      },
+      "review": "proposed",
+      "source": "authored:2026-09-29 from m4-p06",
+      "variants": {
+        "audienceLevel": {
+          "prescriber": {
+            "practice": {
+              "en": "Do not prescribe GHK-Cu for injection."
+            }
+          },
+          "clinical-staff": {
+            "practice": {
+              "en": "If a patient tells you they inject GHK-Cu, record the product, where it was bought and any site reactions, and bring it to the prescriber. Do not advise on amounts or technique."
+            }
+          },
+          "advisor": {
+            "practice": {
+              "en": "Anyone injecting a copper peptide should be pointed to a prescriber, not to a better supplier."
+            }
+          }
+        }
+      }
+    },
+    "cmp-ghk-route": {
+      "type": "contrast",
+      "props": {
+        "title": {
+          "en": "Same molecule, two routes"
+        },
+        "columns": [
+          {
+            "entityId": "topical",
+            "label": {
+              "en": "Topical GHK-Cu"
+            },
+            "grade": {
+              "system": "authored",
+              "code": "C",
+              "label": {
+                "en": "GRADE C"
+              },
+              "asOf": "2026-09-25"
+            },
+            "facts": [
+              {
+                "dimension": "evidence",
+                "label": {
+                  "en": "Evidence"
+                },
+                "text": {
+                  "en": "Modest, small-trial support"
+                }
+              },
+              {
+                "dimension": "limit",
+                "label": {
+                  "en": "Limit"
+                },
+                "text": {
+                  "en": "GRADE C is the honest ceiling"
+                }
+              },
+              {
+                "dimension": "status",
+                "label": {
+                  "en": "US status"
+                },
+                "text": {
+                  "en": "Non-injectable: 503A Category 1"
+                }
+              }
+            ],
+            "citationRefs": [
+              "miller-2006-ghk-cu-laser-rct",
+              "hannah-shmouni-2026-ppg-aug",
+              "hannah-shmouni-2026-are",
+              "fda-503a-categories-2026-05-14"
+            ]
+          },
+          {
+            "entityId": "injectable",
+            "label": {
+              "en": "Injected GHK-Cu"
+            },
+            "grade": {
+              "system": "authored",
+              "code": "none",
+              "label": {
+                "en": "No randomized trials"
+              },
+              "asOf": "2026-09-25"
+            },
+            "facts": [
+              {
+                "dimension": "evidence",
+                "label": {
+                  "en": "Evidence"
+                },
+                "text": {
+                  "en": "No randomized trials of injection: anecdote"
+                }
+              },
+              {
+                "dimension": "limit",
+                "label": {
+                  "en": "Limit"
+                },
+                "text": {
+                  "en": "Common local reactions because copper irritates tissue"
+                }
+              },
+              {
+                "dimension": "status",
+                "label": {
+                  "en": "US status"
+                },
+                "text": {
+                  "en": "In the US the injectable route sits outside the Category 1 listing"
+                }
+              }
+            ],
+            "citationRefs": [
+              "li-2016-copper-skin-toxicity",
+              "fda-503a-categories-2026-05-14",
+              "hannah-shmouni-2026-ppg-aug"
+            ]
+          }
+        ],
+        "takeaway": {
+          "en": "Same molecule, different route, different evidence and different regulatory standing."
+        },
+        "citationRefs": [
+          "miller-2006-ghk-cu-laser-rct",
+          "hannah-shmouni-2026-ppg-aug",
+          "fda-503a-categories-2026-05-14"
+        ]
+      },
+      "review": "proposed",
+      "source": "authored:2026-09-29 from m4-p04, m4-p05, m4-p06, m4-p07, m4-x04"
+    },
+    "qc-route-01": {
+      "type": "quick_check",
+      "props": {
+        "itemId": "qc-route-01",
+        "objectiveId": "skin-m4-o-route",
+        "question": {
+          "en": "Which route of GHK-Cu has an indexed randomized trial in human skin?"
+        },
+        "options": [
+          {
+            "id": "o-topical",
+            "text": {
+              "en": "Topical GHK-Cu"
+            },
+            "correct": true,
+            "why": {
+              "en": "A search of PubMed in September 2026 found one randomized controlled trial of topical GHK-Cu in human skin: 2006, healing after CO₂ laser resurfacing."
+            }
+          },
+          {
+            "id": "o-injected",
+            "text": {
+              "en": "Injected GHK-Cu"
+            },
+            "correct": false,
+            "why": {
+              "en": "There are no randomized trials of injection."
+            }
+          },
+          {
+            "id": "o-both",
+            "text": {
+              "en": "Both, since it is the same molecule"
+            },
+            "correct": false,
+            "why": {
+              "en": "The molecule is the same; the route changes the evidence, the side-effects and the regulatory status."
+            }
+          }
+        ],
+        "safetyItem": true,
+        "citationRefs": [
+          "miller-2006-ghk-cu-laser-rct",
+          "hannah-shmouni-2026-ppg-aug",
+          "hannah-shmouni-2026-are",
+          "li-2016-copper-skin-toxicity",
+          "fda-503a-categories-2026-05-14"
+        ]
+      },
+      "review": "proposed",
+      "source": "authored:2026-09-29 from m4-p04, m4-p06, m4-p07"
+    },
+    "cmp-three": {
+      "type": "contrast",
+      "props": {
+        "title": {
+          "en": "Compare by what stands behind each"
+        },
+        "columns": [
+          {
+            "entityId": "ghk-cu",
+            "label": {
+              "en": "GHK-Cu (topical)"
+            },
+            "grade": {
+              "system": "authored",
+              "code": "C",
+              "label": {
+                "en": "GRADE C"
+              },
+              "asOf": "2026-09-25"
+            },
+            "facts": [
+              {
+                "dimension": "evidence",
+                "label": {
+                  "en": "Evidence"
+                },
+                "text": {
+                  "en": "One small indexed trial plus sponsor-run cosmetic studies"
+                }
+              }
+            ],
+            "citationRefs": [
+              "miller-2006-ghk-cu-laser-rct",
+              "hannah-shmouni-2026-ppg-aug",
+              "hannah-shmouni-2026-are"
+            ]
+          },
+          {
+            "entityId": "matrixyl",
+            "label": {
+              "en": "Matrixyl (pal-KTTKS)"
+            },
+            "grade": {
+              "system": "authored",
+              "code": "C",
+              "label": {
+                "en": "GRADE C"
+              },
+              "asOf": "2026-09-25"
+            },
+            "facts": [
+              {
+                "dimension": "evidence",
+                "label": {
+                  "en": "Evidence"
+                },
+                "text": {
+                  "en": "A split-face RCT funded by the manufacturer, and an independent 2023 RCT"
+                }
+              }
+            ],
+            "citationRefs": [
+              "robinson-2005-pal-kttks-rct",
+              "aruan-2023-argireline-vs-pal-kttks-rct"
+            ]
+          },
+          {
+            "entityId": "bpc-157",
+            "label": {
+              "en": "BPC-157"
+            },
+            "grade": {
+              "system": "authored",
+              "code": "reports",
+              "label": {
+                "en": "Anecdote or case series only"
+              },
+              "asOf": "2026-09-25"
+            },
+            "facts": [
+              {
+                "dimension": "evidence",
+                "label": {
+                  "en": "Evidence"
+                },
+                "text": {
+                  "en": "A large rodent literature, mostly from one research group, and uncontrolled human case series"
+                }
+              }
+            ],
+            "citationRefs": [
+              "sikiric-2018-bpc157-vascular-recruitment",
+              "lee-2021-bpc157-knee",
+              "fda-pcac-2026-bpc157-briefing"
+            ]
+          }
+        ],
+        "takeaway": {
+          "en": "A strong mechanism is not a strong trial, and a Category 1 listing is not an approval."
+        },
+        "citationRefs": [
+          "miller-2006-ghk-cu-laser-rct",
+          "fda-503a-categories-2026-05-14"
+        ]
+      },
+      "review": "proposed",
+      "source": "authored:2026-09-29 from m4-p04, m4-p05, m4-p09, m4-p11, m4-p13, m4-p16, m4-x04"
+    },
+    "qc-compare-01": {
+      "type": "quick_check",
+      "props": {
+        "itemId": "qc-compare-01",
+        "objectiveId": "skin-m4-o-compare",
+        "question": {
+          "en": "Which one has no randomized efficacy trial in people published in full?"
+        },
+        "options": [
+          {
+            "id": "o-bpc",
+            "text": {
+              "en": "BPC-157"
+            },
+            "correct": true,
+            "why": {
+              "en": "As of September 2026 no randomized efficacy trial of BPC-157 in people has been published in full."
+            }
+          },
+          {
+            "id": "o-ghk",
+            "text": {
+              "en": "Topical GHK-Cu"
+            },
+            "correct": false,
+            "why": {
+              "en": "A search of PubMed in September 2026 found one randomized controlled trial of topical GHK-Cu in human skin."
+            }
+          },
+          {
+            "id": "o-matrixyl",
+            "text": {
+              "en": "Matrixyl (pal-KTTKS)"
+            },
+            "correct": false,
+            "why": {
+              "en": "A 12-week split-face RCT in 93 women, funded by the manufacturer, and an independent 2023 RCT."
+            }
+          }
+        ],
+        "citationRefs": [
+          "miller-2006-ghk-cu-laser-rct",
+          "robinson-2005-pal-kttks-rct",
+          "aruan-2023-argireline-vs-pal-kttks-rct",
+          "fda-pcac-2026-bpc157-briefing"
+        ]
+      },
+      "review": "proposed",
+      "source": "authored:2026-09-29 from m4-p04, m4-p09, m4-p14"
+    },
+    "prot-bpc157": {
+      "type": "protocol_card",
+      "props": {
+        "entityId": "bpc-157",
+        "title": {
+          "en": "BPC-157"
+        },
+        "route": "unspecified",
+        "status": {
+          "jurisdiction": "US",
+          "text": {
+            "en": "Reviewed by the advisory committee in July 2026; not on the bulks list unless and until FDA acts by rulemaking."
+          },
+          "asOf": "2026-07-24",
+          "citationRefs": [
+            "fda-pcac-2026-07-meeting",
+            "federal-register-2026-07361-pcac",
+            "fda-503a-bulks-page"
+          ]
+        },
+        "grade": {
+          "system": "authored",
+          "code": "reports",
+          "label": {
+            "en": "Anecdote or case series only"
+          },
+          "asOf": "2026-09-25"
+        },
+        "means": {
+          "en": "Whether BPC-157 helps people heal is unknown."
+        },
+        "doesNot": {
+          "en": "It does not show BPC-157 is ineffective or unsafe."
+        },
+        "limit": {
+          "en": "As of September 2026 no randomized efficacy trial of BPC-157 in people has been published in full."
+        },
+        "citationRefs": [
+          "fda-pcac-2026-bpc157-briefing",
+          "nct02637284-bpc157-phase1-2015",
+          "nct07752381-bpc157-gummy-2025",
+          "nct07803250-bpc157-rotator-cuff"
+        ]
+      },
+      "review": "proposed",
+      "source": "authored:2026-09-29 from m4-p14, m4-p16, m4-x04"
+    },
+    "qc-bpc-01": {
+      "type": "quick_check",
+      "props": {
+        "itemId": "qc-bpc-01",
+        "objectiveId": "skin-m4-o-bpc-evidence",
+        "question": {
+          "en": "What do the missing trials show about BPC-157?"
+        },
+        "options": [
+          {
+            "id": "o-unknown",
+            "text": {
+              "en": "In people, it is an unknown, not a negative."
+            },
+            "correct": true,
+            "why": {
+              "en": "Absence of trials is absence of evidence, and this figure will change when the registered trials report."
+            }
+          },
+          {
+            "id": "o-fails",
+            "text": {
+              "en": "It does not work."
+            },
+            "correct": false,
+            "why": {
+              "en": "It does not show BPC-157 is ineffective or unsafe."
+            }
+          },
+          {
+            "id": "o-rodents",
+            "text": {
+              "en": "The rodent results are enough to go on."
+            },
+            "correct": false,
+            "why": {
+              "en": "The enthusiasm rests on rodents and uncontrolled case series, most of the rodent work from one group. Whether it helps people heal is unknown."
+            }
+          }
+        ],
+        "safetyItem": true,
+        "citationRefs": [
+          "fda-pcac-2026-bpc157-briefing",
+          "nct02637284-bpc157-phase1-2015",
+          "nct07752381-bpc157-gummy-2025",
+          "nct07803250-bpc157-rotator-cuff",
+          "mcguire-2025-bpc157-regeneration-or-risk"
+        ]
+      },
+      "review": "proposed",
+      "source": "authored:2026-09-29 from m4-p14, m4-x03"
+    },
+    "flag-scope": {
+      "type": "safety_flag",
+      "props": {
+        "severity": "scope",
+        "title": {
+          "en": "Route injected products to a prescriber"
+        },
+        "rationale": {
+          "en": "You cannot vouch for a research product, and anyone injecting one should see a prescriber."
+        },
+        "practice": {
+          "en": "Whatever your role, give no advice on amounts, technique or sourcing, and route injected or research-use-only products to a prescriber."
+        },
+        "trigger": {
+          "kind": "boundary"
+        },
+        "acknowledge": false,
+        "citationRefs": [
+          "hannah-shmouni-2026-ppg-aug",
+          "hannah-shmouni-2026-are",
+          "ecfr-21-cfr-312-160",
+          "ecfr-21-cfr-201-128"
+        ]
+      },
+      "review": "proposed",
+      "source": "authored:2026-09-29 from m4-x03, m7-p13",
+      "variants": {
+        "audienceLevel": {
+          "prescriber": {
+            "rationale": {
+              "en": "Do not prescribe, supply, supervise or recommend a research-use-only product, and do not read its certificate as permission."
+            }
+          },
+          "clinical-staff": {
+            "rationale": {
+              "en": "If a patient brings a research-use-only vial or its certificate, record the product name, lot and supplier exactly as printed, do not handle or administer it, and tell the prescriber the same day."
+            }
+          }
+        }
+      }
+    },
+    "flag-dose": {
+      "type": "safety_flag",
+      "props": {
+        "severity": "scope",
+        "title": {
+          "en": "No advice on amounts, technique or sourcing"
+        },
+        "rationale": {
+          "en": "Whatever your role, give no advice on amounts, technique or sourcing."
+        },
+        "practice": {
+          "en": "Route injected or research-use-only products to a prescriber."
+        },
+        "trigger": {
+          "kind": "boundary"
+        },
+        "acknowledge": false,
+        "citationRefs": [
+          "hannah-shmouni-2026-ppg-aug",
+          "hannah-shmouni-2026-are"
+        ]
+      },
+      "review": "proposed",
+      "source": "authored:2026-09-29 from m4-x03",
+      "checks": {
+        "absent": [
+          "\\b\\d+(\\.\\d+)?\\s?(mg|mcg|µg|iu)\\b"
+        ]
+      }
+    },
+    "tb-scope": {
+      "type": "teach_back",
+      "props": {
+        "prompt": {
+          "en": "Say it to them in one sentence."
+        },
+        "audience": "aesthetician",
+        "starters": [
+          {
+            "en": "Whatever your role, I can't..."
+          },
+          {
+            "en": "Injected products go to..."
+          }
+        ],
+        "maxChars": 200,
+        "rubric": {
+          "levels": [
+            {
+              "id": "l1",
+              "label": {
+                "en": "Not yet"
+              },
+              "description": {
+                "en": "Gives advice, or says nothing about who decides."
+              },
+              "feedback": {
+                "en": "Whatever your role, give no advice on amounts, technique or sourcing."
+              }
+            },
+            {
+              "id": "l2",
+              "label": {
+                "en": "Half"
+              },
+              "description": {
+                "en": "Names the limit or the referral, not both."
+              },
+              "feedback": {
+                "en": "Route injected or research-use-only products to a prescriber."
+              }
+            },
+            {
+              "id": "l3",
+              "label": {
+                "en": "Complete"
+              },
+              "description": {
+                "en": "Gives no advice on amounts, technique or sourcing, and routes injected products to a prescriber."
+              },
+              "feedback": {
+                "en": "Whatever your role, give no advice on amounts, technique or sourcing, and route injected or research-use-only products to a prescriber."
+              }
+            }
+          ]
+        },
+        "scorer": "self",
+        "answer": {
+          "en": "Whatever your role, give no advice on amounts, technique or sourcing, and route injected or research-use-only products to a prescriber."
+        },
+        "citationRefs": [
+          "hannah-shmouni-2026-ppg-aug",
+          "hannah-shmouni-2026-are"
+        ]
+      },
+      "review": "proposed",
+      "source": "authored:2026-09-29 from m4-x03"
+    },
+    "tb-bpc-explain": {
+      "type": "teach_back",
+      "props": {
+        "prompt": {
+          "en": "Explain this to a nurse in one sentence."
+        },
+        "audience": "nurse",
+        "starters": [
+          {
+            "en": "For BPC-157, the evidence is..."
+          },
+          {
+            "en": "In people, BPC-157 is..."
+          }
+        ],
+        "maxChars": 200,
+        "rubric": {
+          "levels": [
+            {
+              "id": "l1",
+              "label": {
+                "en": "Not yet"
+              },
+              "description": {
+                "en": "Says it works or it does not."
+              },
+              "feedback": {
+                "en": "Whether BPC-157 helps people heal is unknown."
+              }
+            },
+            {
+              "id": "l2",
+              "label": {
+                "en": "Half"
+              },
+              "description": {
+                "en": "Names what the evidence is, not what it means."
+              },
+              "feedback": {
+                "en": "The enthusiasm rests on rodents and uncontrolled case series."
+              }
+            },
+            {
+              "id": "l3",
+              "label": {
+                "en": "Complete"
+              },
+              "description": {
+                "en": "Names the evidence and says it is an unknown, not a negative."
+              },
+              "feedback": {
+                "en": "Rodents and case series, one abstract with no significant benefit, registered trials with no results: in people, BPC-157 is an unknown, not a negative."
+              }
+            }
+          ]
+        },
+        "scorer": "self",
+        "answer": {
+          "en": "Rodents and case series, one abstract with no significant benefit, registered trials with no results: in people, BPC-157 is an unknown, not a negative."
+        },
+        "citationRefs": [
+          "sikiric-2018-bpc157-vascular-recruitment",
+          "fda-pcac-2026-bpc157-briefing",
+          "nct02637284-bpc157-phase1-2015",
+          "nct07752381-bpc157-gummy-2025",
+          "nct07803250-bpc157-rotator-cuff"
+        ]
+      },
+      "review": "proposed",
+      "source": "authored:2026-09-29 from m4-x03"
+    },
+    "prot-ghk-topical": {
+      "type": "protocol_card",
+      "props": {
+        "entityId": "ghk-cu",
+        "title": {
+          "en": "Topical GHK-Cu"
+        },
+        "route": "topical",
+        "status": {
+          "jurisdiction": "US",
+          "text": {
+            "en": "Non-injectable GHK-Cu is in 503A Category 1 (FDA list of 14 May 2026), pending an advisory-committee consultation before the end of February 2027."
+          },
+          "asOf": "2026-05-14",
+          "citationRefs": [
+            "fda-503a-categories-2026-05-14",
+            "fda-503a-bulks-page"
+          ]
+        },
+        "grade": {
+          "system": "authored",
+          "code": "C",
+          "label": {
+            "en": "GRADE C"
+          },
+          "asOf": "2026-09-25"
+        },
+        "means": {
+          "en": "The human evidence for topical GHK-Cu is small."
+        },
+        "doesNot": {
+          "en": "It does not show that GHK-Cu fails, that it treats photoageing, or anything about injecting it."
+        },
+        "limit": {
+          "en": "Miller et al., 2006 — healing after CO₂ laser resurfacing, not photoageing"
+        },
+        "citationRefs": [
+          "miller-2006-ghk-cu-laser-rct",
+          "hannah-shmouni-2026-ppg-aug",
+          "hannah-shmouni-2026-are"
+        ]
+      },
+      "review": "proposed",
+      "source": "authored:2026-09-29 from m4-p04, m4-p05, m4-p16",
+      "variants": {
+        "jurisdiction": {
+          "GB": {
+            "status": {
+              "text": {
+                "en": "In the UK, a GHK-Cu serum sold for appearance is a cosmetic, and cosmetics law excludes anything injected (September 2026)."
+              },
+              "asOf": "2026-09-25",
+              "citationRefs": [
+                "uk-cosmetics-reg-1223-2009-art2",
+                "mhra-gn8-medicinal-product-2025"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "dec-post-01": {
+      "type": "decision_choice",
+      "props": {
+        "form": "scenario",
+        "itemId": "dec-post-01",
+        "objectiveId": "skin-m4-o-apply",
+        "prompt": {
+          "en": "What do you tell her?"
+        },
+        "options": [
+          {
+            "id": "o-proven",
+            "label": {
+              "en": "It is proven to speed healing after procedures."
+            },
+            "correct": false,
+            "safety": true,
+            "why": {
+              "en": "The human evidence for topical GHK-Cu is small: one small indexed trial plus sponsor-run cosmetic studies."
+            }
+          },
+          {
+            "id": "o-narrow",
+            "label": {
+              "en": "One small trial, after laser resurfacing. The rest is small or sponsor-run."
+            },
+            "correct": true,
+            "why": {
+              "en": "A search of PubMed in September 2026 found one randomized controlled trial of topical GHK-Cu in human skin: 2006, healing after CO₂ laser resurfacing. The cosmetic trials cited for anti-ageing claims are manufacturer-sponsored and not indexed."
+            }
+          },
+          {
+            "id": "o-inject",
+            "label": {
+              "en": "Inject it instead, for faster healing."
+            },
+            "correct": false,
+            "safety": true,
+            "why": {
+              "en": "Injected GHK-Cu is a different product: no randomized trials, injection-site pain and rash are common because copper irritates tissue, and in the US the injectable route sits outside the Category 1 listing."
+            }
+          }
+        ],
+        "revealAfterMisses": 1,
+        "citationRefs": [
+          "miller-2006-ghk-cu-laser-rct",
+          "hannah-shmouni-2026-ppg-aug",
+          "hannah-shmouni-2026-are",
+          "li-2016-copper-skin-toxicity",
+          "fda-503a-categories-2026-05-14"
+        ]
+      },
+      "review": "proposed",
+      "source": "authored:2026-09-29 from m4-p04, m4-p06"
+    },
+    "fb-gap-melasma": {
+      "type": "feedback_card",
+      "props": {
+        "kind": "gap",
+        "title": {
+          "en": "Not covered in this course"
+        },
+        "text": {
+          "en": "This course does not cover melasma or pigment changes on hormone creams. Its lesson on hormone creams is in Module 2."
+        },
+        "next": {
+          "label": {
+            "en": "Open the Module 2 lesson"
+          },
+          "action": "see_unit",
+          "target": "m2-p11"
+        }
+      },
+      "review": "proposed",
+      "source": "authored:2026-09-29 from coverage map",
+      "checks": {
+        "absent": [
+          "melasma",
+          "chloasma"
+        ]
+      }
+    },
+    "fb-gap": {
+      "type": "feedback_card",
+      "props": {
+        "kind": "gap",
+        "title": {
+          "en": "No match in this lesson"
+        },
+        "text": {
+          "en": "I could not match that to what this lesson teaches, so I will not guess. Try a suggestion, or ask the Guide."
+        },
+        "next": {
+          "label": {
+            "en": "Ask the Guide about this card"
+          },
+          "action": "open_guide"
+        }
+      },
+      "review": "proposed",
+      "source": "authored:2026-09-29 from chrome"
+    },
+    "fb-blocked": {
+      "type": "feedback_card",
+      "props": {
+        "kind": "gap",
+        "title": {
+          "en": "I did not read that"
+        },
+        "text": {
+          "en": "It looks like it holds a name, a date or an instruction, so I left it alone. Ask about the lesson without patient details."
+        },
+        "next": {
+          "label": {
+            "en": "Done"
+          },
+          "action": "resume"
+        }
+      },
+      "review": "proposed",
+      "source": "authored:2026-09-29 from chrome"
+    },
+    "fb-handoff": {
+      "type": "feedback_card",
+      "props": {
+        "kind": "handoff",
+        "text": {
+          "en": "The Guide can look across the whole course. It receives your question and this card."
+        },
+        "next": {
+          "label": {
+            "en": "Open the Guide"
+          },
+          "action": "open_guide"
+        }
+      },
+      "review": "proposed",
+      "source": "authored:2026-09-29 from chrome"
+    }
+  },
+  "grains": [
+    {
+      "id": "skin-m4-g1-default-first",
+      "title": {
+        "en": "Unsafe generalizations"
+      },
+      "objective": {
+        "id": "skin-m4-o-unsafe-generalization",
+        "text": {
+          "en": "Spot a default-first claim about a peptide and test it against the evidence."
+        },
+        "unitRefs": [
+          "m4-p06",
+          "m4-p07"
+        ]
+      },
+      "anchor": {
+        "momentIds": [
+          "m4-p07"
+        ],
+        "resumeAt": "m4-p07"
+      },
+      "teach": {
+        "unitRef": "m4-p06",
+        "quote": "Topical GHK-Cu is a reasonable cosmetic conversation at GRADE C. Injected GHK-Cu is a different product: no randomized trials, injection-site pain and rash are common because copper irritates tissue, and in the US the injectable route sits outside the Category 1 listing.",
+        "citationRefs": [
+          "hannah-shmouni-2026-ppg-aug",
+          "hannah-shmouni-2026-are",
+          "li-2016-copper-skin-toxicity",
+          "fda-503a-categories-2026-05-14"
+        ]
+      },
+      "mustTeach": [
+        "ghk-cu",
+        "topical",
+        "injectable"
+      ],
+      "commonMisses": [
+        "default-first",
+        "injectable-stronger"
+      ],
+      "allowedWidgets": [
+        "claim_mirror",
+        "case_card",
+        "decision_choice",
+        "contrast",
+        "protocol_card",
+        "safety_flag",
+        "teach_back",
+        "quick_check",
+        "feedback_card"
+      ],
+      "budget": {
+        "maxWidgets": 3,
+        "maxWords": 150,
+        "maxTurns": 3
+      },
+      "chips": [
+        {
+          "id": "g1c1",
+          "text": "Should I start everyone on GHK-Cu?"
+        },
+        {
+          "id": "g1c2",
+          "text": "Is GHK-Cu a good first step for every patient?"
+        }
+      ],
+      "responses": [
+        {
+          "id": "r-default-ghk",
+          "when": {
+            "claimKind": [
+              "generalization"
+            ],
+            "entities": {
+              "any": [
+                "ghk-cu"
+              ]
+            }
+          },
+          "plan": [
+            {
+              "widget": "claim_mirror",
+              "item": "mirror-generalization"
+            },
+            {
+              "widget": "case_card",
+              "item": "case-default-ghk",
+              "phase": "pause"
+            },
+            {
+              "widget": "decision_choice",
+              "item": "dec-default-ghk",
+              "phase": "pause"
+            }
+          ],
+          "afterDecision": {
+            "byOption": {
+              "o-inject": [
+                {
+                  "widget": "safety_flag",
+                  "item": "flag-injectable"
+                }
+              ]
+            }
+          },
+          "completes": "decision.correct",
+          "misconceptions": [
+            "default-first",
+            "injectable-stronger"
+          ],
+          "examples": [
+            "I usually start everyone on GHK-Cu serum",
+            "I put all my patients on copper peptides first",
+            "GHK-Cu is my default for every patient",
+            "Copper peptide serum is first-line for everyone",
+            "I always start with GHK-Cu",
+            "Should I start everyone on GHK-Cu?",
+            "Is GHK-Cu a good first step for every patient?"
+          ],
+          "counterExamples": [
+            "Can I use copper peptides after microneedling?",
+            "Is Matrixyl the same idea as BPC-157?",
+            "Is injected GHK-Cu stronger than the serum?"
+          ]
+        }
+      ],
+      "fallback": {
+        "gap": "fb-gap",
+        "handoff": "fb-handoff",
+        "dose": "flag-dose",
+        "blocked": "fb-blocked"
+      },
+      "pass": "Picks the option that names the route and the grade on the first tap.",
+      "remediate": "A wrong tap shows the right option and the why for every option, as the platform quiz does. Choosing the injection also raises the stop flag. The visit is logged as assisted."
+    },
+    {
+      "id": "skin-m4-g2-route",
+      "title": {
+        "en": "Topical or injected"
+      },
+      "objective": {
+        "id": "skin-m4-o-route",
+        "text": {
+          "en": "Tell topical cosmetic use from injectable use, in evidence and in status."
+        },
+        "unitRefs": [
+          "m4-p05",
+          "m4-p06"
+        ]
+      },
+      "anchor": {
+        "momentIds": [
+          "m4-p06"
+        ],
+        "resumeAt": "m4-p06"
+      },
+      "teach": {
+        "unitRef": "m4-p05",
+        "quote": "Topical: GRADE C · Injectable: none",
+        "citationRefs": [
+          "miller-2006-ghk-cu-laser-rct",
+          "hannah-shmouni-2026-ppg-aug",
+          "hannah-shmouni-2026-are"
+        ]
+      },
+      "mustTeach": [
+        "ghk-cu",
+        "topical",
+        "injectable"
+      ],
+      "commonMisses": [
+        "injectable-stronger"
+      ],
+      "allowedWidgets": [
+        "claim_mirror",
+        "case_card",
+        "decision_choice",
+        "contrast",
+        "protocol_card",
+        "safety_flag",
+        "teach_back",
+        "quick_check",
+        "feedback_card"
+      ],
+      "budget": {
+        "maxWidgets": 3,
+        "maxWords": 150,
+        "maxTurns": 3
+      },
+      "chips": [
+        {
+          "id": "g2c1",
+          "text": "Can I inject GHK-Cu?"
+        },
+        {
+          "id": "g2c2",
+          "text": "Topical vs injectable GHK-Cu"
+        }
+      ],
+      "responses": [
+        {
+          "id": "r-route-ghk",
+          "when": {
+            "claimKind": [
+              "question",
+              "contrast",
+              "statement",
+              "application"
+            ],
+            "entities": {
+              "all": [
+                "ghk-cu"
+              ],
+              "any": [
+                "injectable",
+                "topical"
+              ],
+              "none": [
+                "microneedling",
+                "laser"
+              ]
+            }
+          },
+          "plan": [
+            {
+              "widget": "claim_mirror",
+              "item": "mirror-question"
+            },
+            {
+              "widget": "contrast",
+              "item": "cmp-ghk-route",
+              "phase": "pause"
+            },
+            {
+              "widget": "quick_check",
+              "item": "qc-route-01",
+              "phase": "pause"
+            }
+          ],
+          "completes": "decision.correct",
+          "misconceptions": [
+            "injectable-stronger"
+          ],
+          "examples": [
+            "Can I inject GHK-Cu?",
+            "What is the difference between topical and injected GHK-Cu?",
+            "Is injectable copper peptide better than the serum?",
+            "Topical vs injectable GHK-Cu",
+            "Is injected GHK-Cu stronger than the serum?"
+          ],
+          "counterExamples": [
+            "I usually start everyone on GHK-Cu serum",
+            "Why not BPC-157 first?"
+          ]
+        }
+      ],
+      "fallback": {
+        "gap": "fb-gap",
+        "handoff": "fb-handoff",
+        "dose": "flag-dose",
+        "blocked": "fb-blocked"
+      },
+      "pass": "Answers the retrieval item on which route has a randomized trial.",
+      "remediate": "A wrong tap shows the right option and every why, which name the route and the grade."
+    },
+    {
+      "id": "skin-m4-g3-compare",
+      "title": {
+        "en": "Compare by evidence"
+      },
+      "objective": {
+        "id": "skin-m4-o-compare",
+        "text": {
+          "en": "Compare peptides by who ran the trial and what stands behind each one."
+        },
+        "unitRefs": [
+          "m4-p08",
+          "m4-p09"
+        ]
+      },
+      "anchor": {
+        "momentIds": [
+          "m4-p09"
+        ],
+        "resumeAt": "m4-p09"
+      },
+      "teach": {
+        "unitRef": "m4-p08",
+        "quote": "All three families have a trial record, and in all three the question that matters most is who funded it.",
+        "citationRefs": [
+          "lupo-cole-2007-cosmeceutical-peptides",
+          "lintner-peschard-2000-pal-kttks",
+          "blanes-mira-2002-argireline",
+          "errante-2020-cosmeceutical-peptides",
+          "hannah-shmouni-2026-are",
+          "schagen-2017-topical-peptides"
+        ]
+      },
+      "mustTeach": [
+        "ghk-cu",
+        "matrixyl",
+        "bpc-157"
+      ],
+      "commonMisses": [
+        "mechanism-is-evidence"
+      ],
+      "allowedWidgets": [
+        "claim_mirror",
+        "case_card",
+        "decision_choice",
+        "contrast",
+        "protocol_card",
+        "safety_flag",
+        "teach_back",
+        "quick_check",
+        "feedback_card"
+      ],
+      "budget": {
+        "maxWidgets": 3,
+        "maxWords": 150,
+        "maxTurns": 3
+      },
+      "chips": [
+        {
+          "id": "g3c1",
+          "text": "Is Matrixyl the same idea as BPC-157?"
+        },
+        {
+          "id": "g3c2",
+          "text": "GHK-Cu vs Matrixyl: which has better evidence?"
+        }
+      ],
+      "responses": [
+        {
+          "id": "r-compare",
+          "when": {
+            "claimKind": [
+              "contrast"
+            ],
+            "entities": {
+              "any": [
+                "ghk-cu",
+                "matrixyl",
+                "bpc-157"
+              ]
+            }
+          },
+          "plan": [
+            {
+              "widget": "claim_mirror",
+              "item": "mirror-compare"
+            },
+            {
+              "widget": "contrast",
+              "item": "cmp-three",
+              "phase": "pause"
+            },
+            {
+              "widget": "quick_check",
+              "item": "qc-compare-01",
+              "phase": "pause"
+            }
+          ],
+          "completes": "decision.correct",
+          "misconceptions": [
+            "mechanism-is-evidence"
+          ],
+          "examples": [
+            "Is Matrixyl the same idea as BPC-157?",
+            "GHK-Cu vs Matrixyl: which has better evidence?",
+            "How does BPC-157 compare with Matrixyl?",
+            "Is BPC-157 like GHK-Cu?"
+          ],
+          "counterExamples": [
+            "Why not BPC-157 first?",
+            "I usually start everyone on GHK-Cu serum"
+          ]
+        }
+      ],
+      "fallback": {
+        "gap": "fb-gap",
+        "handoff": "fb-handoff",
+        "dose": "flag-dose",
+        "blocked": "fb-blocked"
+      },
+      "pass": "Identifies BPC-157 as the one without a published randomized efficacy trial.",
+      "remediate": "A wrong tap shows the right option and every why; the comparison's takeaway says a strong mechanism is not a strong trial."
+    },
+    {
+      "id": "skin-m4-g4-bpc157",
+      "title": {
+        "en": "What stands behind BPC-157"
+      },
+      "objective": {
+        "id": "skin-m4-o-bpc-evidence",
+        "text": {
+          "en": "State what the evidence for BPC-157 does and does not show."
+        },
+        "unitRefs": [
+          "m4-p13",
+          "m4-p14"
+        ]
+      },
+      "anchor": {
+        "momentIds": [
+          "m4-p14"
+        ],
+        "resumeAt": "m4-p14"
+      },
+      "teach": {
+        "unitRef": "m4-p14",
+        "quote": "As of September 2026 no randomized efficacy trial of BPC-157 in people has been published in full.",
+        "citationRefs": [
+          "fda-pcac-2026-bpc157-briefing",
+          "mayfield-2026-injectable-peptide-primer",
+          "mcguire-2025-bpc157-regeneration-or-risk",
+          "nct02637284-bpc157-phase1-2015",
+          "nct07752381-bpc157-gummy-2025",
+          "nct07803250-bpc157-rotator-cuff"
+        ]
+      },
+      "mustTeach": [
+        "bpc-157"
+      ],
+      "commonMisses": [
+        "absence-is-negative",
+        "mechanism-is-evidence"
+      ],
+      "allowedWidgets": [
+        "claim_mirror",
+        "case_card",
+        "decision_choice",
+        "contrast",
+        "protocol_card",
+        "safety_flag",
+        "teach_back",
+        "quick_check",
+        "feedback_card"
+      ],
+      "budget": {
+        "maxWidgets": 3,
+        "maxWords": 150,
+        "maxTurns": 3
+      },
+      "chips": [
+        {
+          "id": "g4c1",
+          "text": "Why not BPC-157 first?"
+        },
+        {
+          "id": "g4c2",
+          "text": "What is the evidence for BPC-157?"
+        }
+      ],
+      "responses": [
+        {
+          "id": "r-bpc-why",
+          "when": {
+            "claimKind": [
+              "question",
+              "statement",
+              "application"
+            ],
+            "entities": {
+              "any": [
+                "bpc-157"
+              ]
+            }
+          },
+          "plan": [
+            {
+              "widget": "claim_mirror",
+              "item": "mirror-question"
+            },
+            {
+              "widget": "protocol_card",
+              "item": "prot-bpc157",
+              "phase": "pause"
+            },
+            {
+              "widget": "quick_check",
+              "item": "qc-bpc-01",
+              "phase": "pause"
+            }
+          ],
+          "completes": "decision.correct",
+          "misconceptions": [
+            "absence-is-negative"
+          ],
+          "examples": [
+            "Why not BPC-157 first?",
+            "What is the evidence for BPC-157?",
+            "Is BPC-157 proven to heal faster?",
+            "My patient wants BPC-157 to heal faster",
+            "Can I inject BPC-157?"
+          ],
+          "counterExamples": [
+            "Is Matrixyl the same idea as BPC-157?",
+            "Explain this to a nurse"
+          ]
+        }
+      ],
+      "fallback": {
+        "gap": "fb-gap",
+        "handoff": "fb-handoff",
+        "dose": "flag-dose",
+        "blocked": "fb-blocked"
+      },
+      "pass": "Chooses 'an unknown, not a negative'.",
+      "remediate": "A wrong tap shows the right option and every why: in people, BPC-157 is an unknown, not a negative."
+    },
+    {
+      "id": "skin-m4-g5-scope",
+      "title": {
+        "en": "Stay inside your role"
+      },
+      "objective": {
+        "id": "skin-m4-o-scope",
+        "text": {
+          "en": "Keep advice inside your role and route injected products to a prescriber."
+        },
+        "unitRefs": [
+          "m4-x03",
+          "m7-p13"
+        ]
+      },
+      "anchor": {
+        "momentIds": [
+          "m4-x03"
+        ],
+        "resumeAt": "m4-x03"
+      },
+      "teach": {
+        "unitRef": "m4-x03",
+        "quote": "Whatever your role, give no advice on amounts, technique or sourcing, and route injected or research-use-only products to a prescriber.",
+        "citationRefs": [
+          "hannah-shmouni-2026-ppg-aug",
+          "hannah-shmouni-2026-are"
+        ]
+      },
+      "mustTeach": [
+        "aesthetician",
+        "injectable"
+      ],
+      "commonMisses": [
+        "advice-outside-scope"
+      ],
+      "allowedWidgets": [
+        "claim_mirror",
+        "case_card",
+        "decision_choice",
+        "contrast",
+        "protocol_card",
+        "safety_flag",
+        "teach_back",
+        "quick_check",
+        "feedback_card"
+      ],
+      "budget": {
+        "maxWidgets": 3,
+        "maxWords": 150,
+        "maxTurns": 3
+      },
+      "chips": [
+        {
+          "id": "g5c1",
+          "text": "Explain this to a nurse"
+        },
+        {
+          "id": "g5c2",
+          "text": "An aesthetician asks about injectables"
+        }
+      ],
+      "responses": [
+        {
+          "id": "r-scope-injectable",
+          "when": {
+            "riskFlags": [
+              "scope_of_practice"
+            ]
+          },
+          "plan": [
+            {
+              "widget": "claim_mirror",
+              "item": "mirror-scope"
+            },
+            {
+              "widget": "safety_flag",
+              "item": "flag-scope"
+            },
+            {
+              "widget": "teach_back",
+              "item": "tb-scope",
+              "phase": "pause"
+            }
+          ],
+          "completes": "teachback.scored",
+          "misconceptions": [
+            "advice-outside-scope"
+          ],
+          "examples": [
+            "What do I tell an aesthetician who wants injectable peptides for fine lines?",
+            "An aesthetician wants to inject peptides for wrinkles",
+            "A med spa asked me about injectable peptides",
+            "What should I say to an esthetician asking about injectable copper peptides?"
+          ],
+          "counterExamples": [
+            "Explain this to a nurse",
+            "Why not BPC-157 first?"
+          ]
+        },
+        {
+          "id": "r-explain-bpc",
+          "when": {
+            "intent": [
+              "explain"
+            ]
+          },
+          "plan": [
+            {
+              "widget": "claim_mirror",
+              "item": "mirror-explain"
+            },
+            {
+              "widget": "teach_back",
+              "item": "tb-bpc-explain",
+              "phase": "pause"
+            }
+          ],
+          "completes": "teachback.scored",
+          "examples": [
+            "Explain this to a nurse",
+            "How do I explain BPC-157 to a colleague?",
+            "What should I tell the nurse about this?"
+          ],
+          "counterExamples": [
+            "What do I tell an aesthetician who wants injectable peptides for fine lines?"
+          ]
+        }
+      ],
+      "fallback": {
+        "gap": "fb-gap",
+        "handoff": "fb-handoff",
+        "dose": "flag-dose",
+        "blocked": "fb-blocked"
+      },
+      "pass": "Says the follow-up in one sentence: no advice on amounts, technique or sourcing, and injected products go to a prescriber.",
+      "remediate": "The scope note stays on screen; the model answer is shown and the learner rates their own."
+    },
+    {
+      "id": "skin-m4-g6-apply",
+      "title": {
+        "en": "Apply it to a patient"
+      },
+      "objective": {
+        "id": "skin-m4-o-apply",
+        "text": {
+          "en": "Answer a patient's question with the evidence the course supports, and say where it stops."
+        },
+        "unitRefs": [
+          "m4-p04",
+          "m4-p06"
+        ]
+      },
+      "anchor": {
+        "momentIds": [
+          "m4-p04"
+        ],
+        "resumeAt": "m4-p04"
+      },
+      "teach": {
+        "unitRef": "m4-p04",
+        "quote": "A search of PubMed in September 2026 found one randomized controlled trial of topical GHK-Cu in human skin: 2006, healing after CO₂ laser resurfacing.",
+        "citationRefs": [
+          "miller-2006-ghk-cu-laser-rct",
+          "hannah-shmouni-2026-ppg-aug",
+          "hannah-shmouni-2026-are"
+        ]
+      },
+      "mustTeach": [
+        "ghk-cu",
+        "laser"
+      ],
+      "commonMisses": [
+        "default-first",
+        "injectable-stronger"
+      ],
+      "allowedWidgets": [
+        "claim_mirror",
+        "case_card",
+        "decision_choice",
+        "contrast",
+        "protocol_card",
+        "safety_flag",
+        "teach_back",
+        "quick_check",
+        "feedback_card"
+      ],
+      "budget": {
+        "maxWidgets": 3,
+        "maxWords": 150,
+        "maxTurns": 3
+      },
+      "chips": [
+        {
+          "id": "g6c1",
+          "text": "Post-microneedling copper peptide?"
+        }
+      ],
+      "responses": [
+        {
+          "id": "r-post-microneedling",
+          "when": {
+            "entities": {
+              "all": [
+                "ghk-cu",
+                "microneedling"
+              ]
+            }
+          },
+          "plan": [
+            {
+              "widget": "claim_mirror",
+              "item": "mirror-post-needling"
+            },
+            {
+              "widget": "protocol_card",
+              "item": "prot-ghk-topical",
+              "phase": "pause"
+            },
+            {
+              "widget": "decision_choice",
+              "item": "dec-post-01",
+              "phase": "pause"
+            }
+          ],
+          "afterDecision": {
+            "byOption": {
+              "o-inject": [
+                {
+                  "widget": "safety_flag",
+                  "item": "flag-injectable"
+                }
+              ]
+            }
+          },
+          "completes": "decision.correct",
+          "misconceptions": [
+            "default-first"
+          ],
+          "examples": [
+            "Can I use copper peptides after microneedling?",
+            "Post-microneedling copper peptide?",
+            "Is GHK-Cu OK after micro-needling?",
+            "Copper peptide serum after needling"
+          ],
+          "counterExamples": [
+            "I usually start everyone on GHK-Cu serum"
+          ]
+        },
+        {
+          "id": "r-post-laser",
+          "when": {
+            "entities": {
+              "all": [
+                "ghk-cu",
+                "laser"
+              ]
+            }
+          },
+          "plan": [
+            {
+              "widget": "claim_mirror",
+              "item": "mirror-post-laser"
+            },
+            {
+              "widget": "protocol_card",
+              "item": "prot-ghk-topical",
+              "phase": "pause"
+            },
+            {
+              "widget": "decision_choice",
+              "item": "dec-post-01",
+              "phase": "pause"
+            }
+          ],
+          "afterDecision": {
+            "byOption": {
+              "o-inject": [
+                {
+                  "widget": "safety_flag",
+                  "item": "flag-injectable"
+                }
+              ]
+            }
+          },
+          "completes": "decision.correct",
+          "misconceptions": [
+            "default-first"
+          ],
+          "examples": [
+            "Can I use GHK-Cu after laser resurfacing?",
+            "Copper peptide after a CO2 laser",
+            "Is topical GHK-Cu proven after laser?"
+          ],
+          "counterExamples": [
+            "Can I use copper peptides after microneedling?"
+          ]
+        },
+        {
+          "id": "r-gap-melasma",
+          "when": {
+            "entities": {
+              "any": [
+                "melasma",
+                "estrogen-cream"
+              ]
+            }
+          },
+          "plan": [
+            {
+              "widget": "feedback_card",
+              "item": "fb-gap-melasma"
+            }
+          ],
+          "examples": [
+            "This patient is on estrogen cream and has melasma",
+            "Melasma on estrogen cream",
+            "Does topical estrogen worsen melasma?"
+          ],
+          "counterExamples": [
+            "Can I use copper peptides after microneedling?"
+          ]
+        }
+      ],
+      "fallback": {
+        "gap": "fb-gap",
+        "handoff": "fb-handoff",
+        "dose": "flag-dose",
+        "blocked": "fb-blocked"
+      },
+      "pass": "Names the one trial and where it stops, and does not call the product proven or inject it.",
+      "remediate": "A wrong tap shows the right option and every why; choosing the injection raises the stop flag. Typed melasma questions end at an honest gap with a link to Module 2."
+    }
+  ],
+  "placements": [
+    {
+      "afterMomentId": "m4-p07",
+      "title": {
+        "en": "Try it on a case"
+      },
+      "chipIds": [
+        "g1c1",
+        "g2c2",
+        "g6c1"
+      ]
+    },
+    {
+      "afterMomentId": "m4-p12",
+      "title": {
+        "en": "Try it on a case"
+      },
+      "chipIds": [
+        "g3c1",
+        "g3c2"
+      ]
+    },
+    {
+      "afterMomentId": "m4-p18",
+      "title": {
+        "en": "Try it on a case"
+      },
+      "chipIds": [
+        "g4c1",
+        "g5c2",
+        "g5c1"
+      ]
+    }
+  ]
+}
