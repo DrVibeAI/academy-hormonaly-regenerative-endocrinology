@@ -1,0 +1,41 @@
+
+> perceptor-runtime@0.1.0 build
+> node scripts/check-isolation.mjs && node scripts/check-locale-variants.mjs && pnpm run typecheck && vite build
+
+isolation: clean — no academy literals in runtime source (src, server, scripts, deploy, tools, public, index.html, vite.config.ts, package.json, Dockerfile)
+pt-BR locale: clean — 115 runtime source files scanned
+$ tsc --noEmit && tsc --project tsconfig.node.json --noEmit
+(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+  - import "../src/generated/academyConfig" without a file extension (scripts/academy-meta-plugin.mts:8:25). Add the file extension
+  - import "../src/locales" without a file extension (scripts/academy-meta-plugin.mts:9:36). Add the file extension
+  - import "./locales" without a file extension (src/nutritionCourse.ts:2:53). Add the file extension
+  - import "../nutritionCourse" without a file extension (src/generated/courseContent.ts:3:45). Add the file extension
+  - import "./locales" without a file extension (src/nutritionCourse.ts:3:38). Add the file extension
+  - import "./generated/academyConfig" without a file extension (src/academy-locales.ts:5:25). Add the file extension
+  - import "./locales" without a file extension (src/nutritionCourse.ts:4:20). Add the file extension
+  - import "./locales" without a file extension (src/academy-locales.ts:6:74). Add the file extension
+  - import "./generated/courseContent" without a file extension (src/nutritionCourse.ts:212:77). Add the file extension
+Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.
+vite v8.2.2 building client environment for production...
+transforming...
+✓ 1904 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                            3.13 kB │ gzip:   0.95 kB
+dist/assets/academy-home-BOvFVjqX.css     15.74 kB │ gzip:   4.07 kB
+dist/assets/main-BANklRVs.css             38.51 kB │ gzip:   7.76 kB
+dist/assets/editing-CAm-o_bP.css         485.48 kB │ gzip:  79.13 kB
+dist/assets/preview-main-BpxiOjJk.js       2.01 kB │ gzip:   0.89 kB
+dist/assets/index-Bq9E4DEN.js             19.54 kB │ gzip:   7.18 kB
+dist/assets/academy-home-zO4ilKse.js      19.90 kB │ gzip:   6.12 kB
+dist/assets/mux-BPva59o1.js               91.56 kB │ gzip:  26.23 kB
+dist/assets/editing-OVgyQOkU.js          390.09 kB │ gzip: 121.76 kB
+dist/assets/hls-DSymRVZ7.js              574.61 kB │ gzip: 179.00 kB
+dist/assets/main-DcgT7HVz.js           1,363.42 kB │ gzip: 397.43 kB
+
+✓ built in 322ms
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.

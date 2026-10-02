@@ -1,0 +1,15 @@
+{
+ "bank": "skin-en",
+ "status": "proposed",
+ "grains": 6,
+ "responses": 9,
+ "library": 26,
+ "golden": {
+  "total": 64,
+  "ok": 64
+ },
+ "maxWordsBeforeFirstTap": 100,
+ "newWording": 52,
+ "fails": 0,
+ "warns": 0
+}
