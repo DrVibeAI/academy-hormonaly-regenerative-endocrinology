@@ -1,0 +1,14 @@
+{
+  "recordedBy": "Codex, from a human user message",
+  "confirmationReportedBy": "Omar Saleem",
+  "reviewerReported": "Fady Hannah-Shmouni",
+  "receivedAt": "2026-10-02T22:20:57Z",
+  "exactUserReply": "confirmed",
+  "question": "Has Fady confirmed the new Skin practice bank? If yes, provide his exact approval and date.",
+  "preConfirmationBankSha256": "12121e756cca16c4e6afbc35f4eb9ef5186fb3ef2186a1df3f2819c1f6048153",
+  "confirmedBankSha256": "38e62e0c8a4499bc52b66eca0cc2e84e7e79cc50d9960146a9ed1ea7a6107364",
+  "scope": "Whole skin-en bank, 52 framing lines and 26 library items in the linked medical packet",
+  "changes": "Review metadata only; clinical wording, sources, rubric and keys unchanged",
+  "originalFadyReviewDate": null,
+  "separateFadySignatureSupplied": false
+}

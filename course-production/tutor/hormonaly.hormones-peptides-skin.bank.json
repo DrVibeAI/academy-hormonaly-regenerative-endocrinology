@@ -2,11 +2,11 @@
   "schema": "respond.bank/1",
   "bankId": "skin-en",
   "locale": "en",
-  "status": "proposed",
+  "status": "confirmed",
   "review": {
-    "confirmedBy": null,
-    "confirmedAt": null,
-    "note": "Drafted 2026-09-29 from approved sentences in Module 4 (package 1.2.0-rc.1); revised to v0.2 on 2026-10-01 (lesson-end chips, quiz-style answers). Awaiting the medical owner; nothing here is live. Source compatibility reverified against 1.1.0 on 2026-10-02: zero audit failures; review remains proposed."
+    "confirmedBy": "Omar Saleem, reporting Fady Hannah-Shmouni confirmation",
+    "confirmedAt": "2026-10-02T22:20:57Z",
+    "note": "Omar answered \"confirmed\" on October 2, 2026, in response to the question whether Fady confirmed this exact bank. This records the human report, not an agent medical verdict or a separate Fady signature. Exact pre-confirmation bank SHA-256: 12121e756cca16c4e6afbc35f4eb9ef5186fb3ef2186a1df3f2819c1f6048153. Clinical wording, sources, rubrics, placements and answer keys unchanged; only review metadata updated."
   },
   "vocabulary": {
     "entities": [
@@ -349,7 +349,7 @@
           ]
         }
       },
-      "review": "proposed",
+      "review": "confirmed",
       "source": "authored:2026-09-29 from chrome",
       "slots": {
         "product": {
@@ -384,7 +384,7 @@
           ]
         }
       },
-      "review": "proposed",
+      "review": "confirmed",
       "source": "authored:2026-09-29 from chrome",
       "slots": {
         "product": {
@@ -415,7 +415,7 @@
           ]
         }
       },
-      "review": "proposed",
+      "review": "confirmed",
       "source": "authored:2026-09-29 from chrome",
       "slots": {
         "product": {
@@ -456,7 +456,7 @@
           ]
         }
       },
-      "review": "proposed",
+      "review": "confirmed",
       "source": "authored:2026-09-29 from chrome"
     },
     "mirror-explain": {
@@ -475,7 +475,7 @@
           ]
         }
       },
-      "review": "proposed",
+      "review": "confirmed",
       "source": "authored:2026-09-29 from chrome"
     },
     "mirror-post-needling": {
@@ -494,7 +494,7 @@
           ]
         }
       },
-      "review": "proposed",
+      "review": "confirmed",
       "source": "authored:2026-09-29 from chrome",
       "checks": {
         "absent": [
@@ -518,7 +518,7 @@
           ]
         }
       },
-      "review": "proposed",
+      "review": "confirmed",
       "source": "authored:2026-09-29 from chrome"
     },
     "case-default-ghk": {
@@ -567,7 +567,7 @@
           }
         ]
       },
-      "review": "proposed",
+      "review": "confirmed",
       "source": "authored:2026-09-29 from framing only",
       "slots": {
         "product": {
@@ -635,7 +635,7 @@
           "fda-503a-categories-2026-05-14"
         ]
       },
-      "review": "proposed",
+      "review": "confirmed",
       "source": "authored:2026-09-29 from m4-p04, m4-p06"
     },
     "flag-injectable": {
@@ -663,7 +663,7 @@
           "fda-503a-categories-2026-05-14"
         ]
       },
-      "review": "proposed",
+      "review": "confirmed",
       "source": "authored:2026-09-29 from m4-p06",
       "variants": {
         "audienceLevel": {
@@ -799,7 +799,7 @@
           "fda-503a-categories-2026-05-14"
         ]
       },
-      "review": "proposed",
+      "review": "confirmed",
       "source": "authored:2026-09-29 from m4-p04, m4-p05, m4-p06, m4-p07, m4-x04"
     },
     "qc-route-01": {
@@ -851,7 +851,7 @@
           "fda-503a-categories-2026-05-14"
         ]
       },
-      "review": "proposed",
+      "review": "confirmed",
       "source": "authored:2026-09-29 from m4-p04, m4-p06, m4-p07"
     },
     "cmp-three": {
@@ -959,7 +959,7 @@
           "fda-503a-categories-2026-05-14"
         ]
       },
-      "review": "proposed",
+      "review": "confirmed",
       "source": "authored:2026-09-29 from m4-p04, m4-p05, m4-p09, m4-p11, m4-p13, m4-p16, m4-x04"
     },
     "qc-compare-01": {
@@ -1009,7 +1009,7 @@
           "fda-pcac-2026-bpc157-briefing"
         ]
       },
-      "review": "proposed",
+      "review": "confirmed",
       "source": "authored:2026-09-29 from m4-p04, m4-p09, m4-p14"
     },
     "prot-bpc157": {
@@ -1056,7 +1056,7 @@
           "nct07803250-bpc157-rotator-cuff"
         ]
       },
-      "review": "proposed",
+      "review": "confirmed",
       "source": "authored:2026-09-29 from m4-p14, m4-p16, m4-x04"
     },
     "qc-bpc-01": {
@@ -1108,7 +1108,7 @@
           "mcguire-2025-bpc157-regeneration-or-risk"
         ]
       },
-      "review": "proposed",
+      "review": "confirmed",
       "source": "authored:2026-09-29 from m4-p14, m4-x03"
     },
     "flag-scope": {
@@ -1135,7 +1135,7 @@
           "ecfr-21-cfr-201-128"
         ]
       },
-      "review": "proposed",
+      "review": "confirmed",
       "source": "authored:2026-09-29 from m4-x03, m7-p13",
       "variants": {
         "audienceLevel": {
@@ -1174,7 +1174,7 @@
           "hannah-shmouni-2026-are"
         ]
       },
-      "review": "proposed",
+      "review": "confirmed",
       "source": "authored:2026-09-29 from m4-x03",
       "checks": {
         "absent": [
@@ -1247,7 +1247,7 @@
           "hannah-shmouni-2026-are"
         ]
       },
-      "review": "proposed",
+      "review": "confirmed",
       "source": "authored:2026-09-29 from m4-x03"
     },
     "tb-bpc-explain": {
@@ -1318,7 +1318,7 @@
           "nct07803250-bpc157-rotator-cuff"
         ]
       },
-      "review": "proposed",
+      "review": "confirmed",
       "source": "authored:2026-09-29 from m4-x03"
     },
     "prot-ghk-topical": {
@@ -1363,7 +1363,7 @@
           "hannah-shmouni-2026-are"
         ]
       },
-      "review": "proposed",
+      "review": "confirmed",
       "source": "authored:2026-09-29 from m4-p04, m4-p05, m4-p16",
       "variants": {
         "jurisdiction": {
@@ -1434,7 +1434,7 @@
           "fda-503a-categories-2026-05-14"
         ]
       },
-      "review": "proposed",
+      "review": "confirmed",
       "source": "authored:2026-09-29 from m4-p04, m4-p06"
     },
     "fb-gap-melasma": {
@@ -1455,7 +1455,7 @@
           "target": "m2-p11"
         }
       },
-      "review": "proposed",
+      "review": "confirmed",
       "source": "authored:2026-09-29 from coverage map",
       "checks": {
         "absent": [
@@ -1481,7 +1481,7 @@
           "action": "open_guide"
         }
       },
-      "review": "proposed",
+      "review": "confirmed",
       "source": "authored:2026-09-29 from chrome"
     },
     "fb-blocked": {
@@ -1501,7 +1501,7 @@
           "action": "resume"
         }
       },
-      "review": "proposed",
+      "review": "confirmed",
       "source": "authored:2026-09-29 from chrome"
     },
     "fb-handoff": {
@@ -1518,7 +1518,7 @@
           "action": "open_guide"
         }
       },
-      "review": "proposed",
+      "review": "confirmed",
       "source": "authored:2026-09-29 from chrome"
     }
   },
