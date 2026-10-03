@@ -1,33 +1,26 @@
-# Skin text tutor integration — October 2, 2026
+# Skin text tutor release — October 2, 2026
 
-**agent pre-review — no gate opened**
+Deployed to https://hormonaly.perceptors.ai as `academy-hormonaly-00046-th7`, 100% traffic. Runtime image code `74c818c` preserves the existing admin release `30ac81e6`. Promotion used `deploy/gcp.sh` with the exact ready candidate and health/certificate authentication gates. Rollback: `academy-hormonaly-00044-2h8`.
 
-The shared runtime candidate adds current authored activity, explicit editable preferences, optional prepared practice and aggregate formative metrics to the existing text Guide. The bank is a separate companion; the approved hormones-peptides-skin 1.1.0 package is byte-identical to the existing release. Current Hormonaly admin-assistant code/configuration is preserved.
+## Human confirmation and preservation
 
-## Candidate and content
+Omar answered “confirmed” to the exact-bank question about Fady's review. [Confirmation record](CONFIRMATION.json) records this as Omar's relay of Fady Hannah-Shmouni's confirmation, received `2026-10-02T22:20:57Z`. No separate Fady signature or original review date was supplied. Only review metadata changed; all 52 framing lines, 26 library items, sources, keys and rubric remain the reviewed bytes. [Medical packet](MEDICAL-REVIEW.md).
 
-- Runtime pin: `1ee774a2b2779831a5281fe92192c50f203cd39b`, based on the live admin-assistant runtime `30ac81e6f2af198377586e92252800d3c3c98020`.
-- Academy baseline: `fec72a7c02f8148fb20231c99dd7f9a22167531b`. Companion bank: `../tutor/hormonaly.hormones-peptides-skin.bank.json`; proposed, no reviewer confirmation recorded.
-- [Medical packet](MEDICAL-REVIEW.md): 52 new framing lines and 26 sourced library items, with exact bank digest. Existing source approval does not approve a new clinical case.
-- Bank audit: 64/64 golden cases, zero failures/warnings, 100-word maximum before the first tap. [Audit](bank-audit.json).
+Confirmed bank SHA-256: `38e62e0c8a4499bc52b66eca0cc2e84e7e79cc50d9960146a9ed1ea7a6107364`. Existing hormones-peptides-skin 1.1.0 package SHA-256: `cb7b66528438d0081b05cc3d08e4b5f2625f3eac94898beb13ebafd5dd936334`, unchanged. Companion only; existing formal checks, earned progress, media and accreditation records retain their authority.
 
-## Findings
+## Verification
 
-| Check | Finding / evidence |
+| Evidence | Result |
 |---|---|
-| Authored activity and grounded fallback | Module/moment/locale resolved by server; safety and existing retrieval retained. Final seven release suites pass at the runtime pin. [Final course report](../evals/report-2026-10-02T220200Z.md). |
-| Scope, server grading, review/locale gates | Authenticated org/course/user; forged choices/scores, replay and stale versions rejected. Proposed and unsupported-locale banks disabled in production. [Tutor suite](tutor-tests.txt). |
-| Preference durability and event privacy | Closed learner-selected fields; course/account isolation, transactional rollback and server aggregates exercised with real PostgreSQL semantics via pinned PGlite. Typed questions/mirror quotes/teach-back prose excluded from new records. Existing Guide gap/chat logging remains separate. |
-| Wrong-answer feedback and repeated exposure | Every option's rationale and correct marker shown immediately; options remain tappable. Repeated correct taps and revisits do not inflate first independent correct indicators. [Browser preview](skin-quick-check-feedback-final.png). |
-| UI and production build | Current Guide styling, preferences and source controls checked locally. [Build](skin-build.txt). [Admin regression](editing-regression.txt) preserves current assistant/editing behavior. |
-| Small screen | Real course rendered in a synthetic 390 × 844 CSS viewport; scrolling, feedback, input and memory controls inspected. [Phone preview](skin-phone-feedback-390.png). This is not physical-device evidence. |
-| Formal checks and approved assets | Approved package unchanged; prepared practice is formative and cannot award course/check/certificate outcomes. Narration, video, captions and accreditation records unchanged. |
+| [Final live authenticated checks](skin-final-auth-qa.json) | 13/13 pass on the public production domain, after final revision 00046. Account isolation, preference save/clear, closed fields, admin protection, hidden keys, session isolation, every option's feedback, repeated taps, formal assessment guard, unchanged progress and real PostgreSQL persistence. Two disposable accounts removed. |
+| [Text-only policy](skin-text-only-api.json) | Learner voice notes disabled. Final public checks also verify `stt:false, tts:true`: existing narration remains available. No learner microphone control. |
+| [Actual hosted UI](skin-hosted-feedback.png) | Final candidate 00046: wrong tap reveals the correct option and every rationale, further options remain tappable; text input and preferences visible. Synthetic account only. |
+| [Bank audit](bank-audit.json) | Confirmed bank rerun: 64/64 golden cases, zero failures/warnings; first-tap framing bounded. |
+| [Tutor and SQL tests](tutor-tests.txt) | Scope, review/locale gates, private keys, forged scores, sequence/replay/stale versions, exposure, bounded events and persisted transactions pass. |
+| Existing course gates | Seven release suites, build/typecheck and [admin regression](editing-regression.txt) pass. Existing grounding and safety retained. |
+| [390 px preview](skin-phone-feedback-390.png) | Actual course with synthetic host; readable feedback, scrolling and controls. Physical-device acceptance remains separate. |
+| [Promotion](skin-promote.log) | Exact revision promoted after hosted acceptance; app/database healthy, anonymous certificate denied. |
 
-## Open release conditions
+Initial 00045 checks are historical; the final API rerun above is on 00046. New records contain closed preferences and structured formative events, excluding typed questions, mirror quotes and teach-back prose. Existing Guide logging remains separate. Repeated/revealed answers cannot inflate first independent correct indicators. Prepared practice cannot grant grades, completion or certificates.
 
-1. Fady Hannah-Shmouni confirms or revises the exact bank and each item. The response-layer specification says: “The medical owner confirms” and “A learner-facing build refuses any item that is not confirmed.” Proposed content appears only in the visibly marked local preview. No field was pre-confirmed.
-2. Stage a candidate based on the current release lineage, then check an actual enrolled session, preference save/reload/clear across sessions, practice review gating, source navigation and existing paid enrollment/media/admin boundaries on that exact revision.
-3. Inspect declared locale/jurisdiction/device behavior. Skin remains English text-only. Future course banks and translations need their own review; this bank must not be copied into unrelated courses.
-4. Promote only the tested revision through the existing release process. Current observed live service remains `academy-hormonaly-00044-2h8`; this change has not been published.
-
-No live learners, formal assessments, provider purchases or clinical approvals were changed. No conversational video integration or active pilot. Vendor latency/cost, delayed recall, transfer benefit and international network performance are not measured by these local checks.
+English Skin availability is unchanged. The same confirmed bank was separately verified against the unchanged regional Skin curriculum/source IDs; that deployment has independent evidence in the Foundry rollout packet. Other courses need their own reviewed banks. No conversational video integration or active pilot. Provider cost/latency, delayed recall, independent transfer and causal learning benefit remain unmeasured. Inactive-account event cleanup needs an operator sweep; activity-based expiry/caps are implemented.
