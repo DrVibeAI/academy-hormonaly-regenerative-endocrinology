@@ -1,0 +1,900 @@
+{
+  "summary": {
+    "bank": "skin-en",
+    "status": "confirmed",
+    "grains": 6,
+    "responses": 9,
+    "library": 26,
+    "golden": {
+      "total": 64,
+      "ok": 64
+    },
+    "maxWordsBeforeFirstTap": 100,
+    "newWording": 52,
+    "fails": 0,
+    "warns": 0
+  },
+  "fails": [],
+  "warns": [],
+  "newWording": [
+    {
+      "item": "mirror-generalization",
+      "type": "claim_mirror",
+      "path": "statement",
+      "text": "Claim to test: {{product}} as the first step for {{population}}."
+    },
+    {
+      "item": "mirror-question",
+      "type": "claim_mirror",
+      "path": "statement",
+      "text": "Question about {{product}}."
+    },
+    {
+      "item": "mirror-compare",
+      "type": "claim_mirror",
+      "path": "statement",
+      "text": "Question: are {{product}} and {{product2}} the same idea?"
+    },
+    {
+      "item": "mirror-scope",
+      "type": "claim_mirror",
+      "path": "statement",
+      "text": "Question about advice outside prescribing."
+    },
+    {
+      "item": "mirror-explain",
+      "type": "claim_mirror",
+      "path": "statement",
+      "text": "Asked to explain this in one sentence."
+    },
+    {
+      "item": "mirror-post-needling",
+      "type": "claim_mirror",
+      "path": "statement",
+      "text": "The course does not cover microneedling."
+    },
+    {
+      "item": "mirror-post-laser",
+      "type": "claim_mirror",
+      "path": "statement",
+      "text": "Question: topical copper peptide after laser resurfacing."
+    },
+    {
+      "item": "case-default-ghk",
+      "type": "case_card",
+      "path": "title",
+      "text": "A patient asks about copper peptides"
+    },
+    {
+      "item": "case-default-ghk",
+      "type": "case_card",
+      "path": "lead",
+      "text": "She has seen a GHK-Cu serum online and asks whether to start it."
+    },
+    {
+      "item": "case-default-ghk",
+      "type": "case_card",
+      "path": "facts[0]",
+      "text": "Your habit: {{product}} first, for {{population}}"
+    },
+    {
+      "item": "case-default-ghk",
+      "type": "case_card",
+      "path": "facts[1]",
+      "text": "She asks: Should I start the serum?"
+    },
+    {
+      "item": "case-default-ghk",
+      "type": "case_card",
+      "path": "facts[2]",
+      "text": "Route: Topical serum"
+    },
+    {
+      "item": "case-default-ghk",
+      "type": "case_card",
+      "path": "facts[3]",
+      "text": "Your move: What do you tell her?"
+    },
+    {
+      "item": "dec-default-ghk",
+      "type": "decision_choice",
+      "path": "prompt",
+      "text": "What do you tell her?"
+    },
+    {
+      "item": "dec-default-ghk",
+      "type": "decision_choice",
+      "path": "options[0].label",
+      "text": "GHK-Cu serum is the standard first step."
+    },
+    {
+      "item": "dec-default-ghk",
+      "type": "decision_choice",
+      "path": "options[1].label",
+      "text": "It is a reasonable cosmetic conversation at GRADE C, and I name the route."
+    },
+    {
+      "item": "dec-default-ghk",
+      "type": "decision_choice",
+      "path": "options[2].label",
+      "text": "Offer the injection instead. It is the stronger form."
+    },
+    {
+      "item": "cmp-ghk-route",
+      "type": "contrast",
+      "path": "title",
+      "text": "Same molecule, two routes"
+    },
+    {
+      "item": "qc-route-01",
+      "type": "quick_check",
+      "path": "question",
+      "text": "Which route of GHK-Cu has an indexed randomized trial in human skin?"
+    },
+    {
+      "item": "qc-route-01",
+      "type": "quick_check",
+      "path": "options[0].text",
+      "text": "Topical GHK-Cu"
+    },
+    {
+      "item": "qc-route-01",
+      "type": "quick_check",
+      "path": "options[1].text",
+      "text": "Injected GHK-Cu"
+    },
+    {
+      "item": "qc-route-01",
+      "type": "quick_check",
+      "path": "options[2].text",
+      "text": "Both, since it is the same molecule"
+    },
+    {
+      "item": "cmp-three",
+      "type": "contrast",
+      "path": "title",
+      "text": "Compare by what stands behind each"
+    },
+    {
+      "item": "qc-compare-01",
+      "type": "quick_check",
+      "path": "question",
+      "text": "Which one has no randomized efficacy trial in people published in full?"
+    },
+    {
+      "item": "qc-compare-01",
+      "type": "quick_check",
+      "path": "options[0].text",
+      "text": "BPC-157"
+    },
+    {
+      "item": "qc-compare-01",
+      "type": "quick_check",
+      "path": "options[1].text",
+      "text": "Topical GHK-Cu"
+    },
+    {
+      "item": "qc-compare-01",
+      "type": "quick_check",
+      "path": "options[2].text",
+      "text": "Matrixyl (pal-KTTKS)"
+    },
+    {
+      "item": "prot-bpc157",
+      "type": "protocol_card",
+      "path": "title",
+      "text": "BPC-157"
+    },
+    {
+      "item": "qc-bpc-01",
+      "type": "quick_check",
+      "path": "question",
+      "text": "What do the missing trials show about BPC-157?"
+    },
+    {
+      "item": "qc-bpc-01",
+      "type": "quick_check",
+      "path": "options[0].text",
+      "text": "In people, it is an unknown, not a negative."
+    },
+    {
+      "item": "qc-bpc-01",
+      "type": "quick_check",
+      "path": "options[1].text",
+      "text": "It does not work."
+    },
+    {
+      "item": "qc-bpc-01",
+      "type": "quick_check",
+      "path": "options[2].text",
+      "text": "The rodent results are enough to go on."
+    },
+    {
+      "item": "tb-scope",
+      "type": "teach_back",
+      "path": "prompt",
+      "text": "Say it to them in one sentence."
+    },
+    {
+      "item": "tb-scope",
+      "type": "teach_back",
+      "path": "rubric.levels[0].description",
+      "text": "Gives advice, or says nothing about who decides."
+    },
+    {
+      "item": "tb-scope",
+      "type": "teach_back",
+      "path": "rubric.levels[1].description",
+      "text": "Names the limit or the referral, not both."
+    },
+    {
+      "item": "tb-scope",
+      "type": "teach_back",
+      "path": "rubric.levels[2].description",
+      "text": "Gives no advice on amounts, technique or sourcing, and routes injected products to a prescriber."
+    },
+    {
+      "item": "tb-bpc-explain",
+      "type": "teach_back",
+      "path": "prompt",
+      "text": "Explain this to a nurse in one sentence."
+    },
+    {
+      "item": "tb-bpc-explain",
+      "type": "teach_back",
+      "path": "rubric.levels[0].description",
+      "text": "Says it works or it does not."
+    },
+    {
+      "item": "tb-bpc-explain",
+      "type": "teach_back",
+      "path": "rubric.levels[1].description",
+      "text": "Names what the evidence is, not what it means."
+    },
+    {
+      "item": "tb-bpc-explain",
+      "type": "teach_back",
+      "path": "rubric.levels[2].description",
+      "text": "Names the evidence and says it is an unknown, not a negative."
+    },
+    {
+      "item": "prot-ghk-topical",
+      "type": "protocol_card",
+      "path": "title",
+      "text": "Topical GHK-Cu"
+    },
+    {
+      "item": "dec-post-01",
+      "type": "decision_choice",
+      "path": "prompt",
+      "text": "What do you tell her?"
+    },
+    {
+      "item": "dec-post-01",
+      "type": "decision_choice",
+      "path": "options[0].label",
+      "text": "It is proven to speed healing after procedures."
+    },
+    {
+      "item": "dec-post-01",
+      "type": "decision_choice",
+      "path": "options[1].label",
+      "text": "One small trial, after laser resurfacing. The rest is small or sponsor-run."
+    },
+    {
+      "item": "dec-post-01",
+      "type": "decision_choice",
+      "path": "options[2].label",
+      "text": "Inject it instead, for faster healing."
+    },
+    {
+      "item": "fb-gap-melasma",
+      "type": "feedback_card",
+      "path": "title",
+      "text": "Not covered in this course"
+    },
+    {
+      "item": "fb-gap-melasma",
+      "type": "feedback_card",
+      "path": "text",
+      "text": "This course does not cover melasma or pigment changes on hormone creams. Its lesson on hormone creams is in Module 2."
+    },
+    {
+      "item": "fb-gap",
+      "type": "feedback_card",
+      "path": "title",
+      "text": "No match in this lesson"
+    },
+    {
+      "item": "fb-gap",
+      "type": "feedback_card",
+      "path": "text",
+      "text": "I could not match that to what this lesson teaches, so I will not guess. Try a suggestion, or ask the Guide."
+    },
+    {
+      "item": "fb-blocked",
+      "type": "feedback_card",
+      "path": "title",
+      "text": "I did not read that"
+    },
+    {
+      "item": "fb-blocked",
+      "type": "feedback_card",
+      "path": "text",
+      "text": "It looks like it holds a name, a date or an instruction, so I left it alone. Ask about the lesson without patient details."
+    },
+    {
+      "item": "fb-handoff",
+      "type": "feedback_card",
+      "path": "text",
+      "text": "The Guide can look across the whole course. It receives your question and this card."
+    }
+  ],
+  "golden": [
+    {
+      "grain": "skin-m4-g1-default-first",
+      "response": "r-default-ghk",
+      "kind": "example",
+      "text": "I usually start everyone on GHK-Cu serum",
+      "got": "r-default-ghk",
+      "ok": true,
+      "words": 89
+    },
+    {
+      "grain": "skin-m4-g1-default-first",
+      "response": "r-default-ghk",
+      "kind": "example",
+      "text": "I put all my patients on copper peptides first",
+      "got": "r-default-ghk",
+      "ok": true,
+      "words": 89
+    },
+    {
+      "grain": "skin-m4-g1-default-first",
+      "response": "r-default-ghk",
+      "kind": "example",
+      "text": "GHK-Cu is my default for every patient",
+      "got": "r-default-ghk",
+      "ok": true,
+      "words": 89
+    },
+    {
+      "grain": "skin-m4-g1-default-first",
+      "response": "r-default-ghk",
+      "kind": "example",
+      "text": "Copper peptide serum is first-line for everyone",
+      "got": "r-default-ghk",
+      "ok": true,
+      "words": 89
+    },
+    {
+      "grain": "skin-m4-g1-default-first",
+      "response": "r-default-ghk",
+      "kind": "example",
+      "text": "I always start with GHK-Cu",
+      "got": "r-default-ghk",
+      "ok": true,
+      "words": 89
+    },
+    {
+      "grain": "skin-m4-g1-default-first",
+      "response": "r-default-ghk",
+      "kind": "example",
+      "text": "Should I start everyone on GHK-Cu?",
+      "got": "r-default-ghk",
+      "ok": true,
+      "words": 89
+    },
+    {
+      "grain": "skin-m4-g1-default-first",
+      "response": "r-default-ghk",
+      "kind": "example",
+      "text": "Is GHK-Cu a good first step for every patient?",
+      "got": "r-default-ghk",
+      "ok": true,
+      "words": 89
+    },
+    {
+      "grain": "skin-m4-g1-default-first",
+      "response": "r-default-ghk",
+      "kind": "counter",
+      "text": "Can I use copper peptides after microneedling?",
+      "got": "r-post-microneedling",
+      "ok": true,
+      "words": 99
+    },
+    {
+      "grain": "skin-m4-g1-default-first",
+      "response": "r-default-ghk",
+      "kind": "counter",
+      "text": "Is Matrixyl the same idea as BPC-157?",
+      "got": "r-compare",
+      "ok": true,
+      "words": 99
+    },
+    {
+      "grain": "skin-m4-g1-default-first",
+      "response": "r-default-ghk",
+      "kind": "counter",
+      "text": "Is injected GHK-Cu stronger than the serum?",
+      "got": "r-route-ghk",
+      "ok": true,
+      "words": 95
+    },
+    {
+      "grain": "skin-m4-g1-default-first",
+      "response": "r-default-ghk",
+      "kind": "chip",
+      "text": "Should I start everyone on GHK-Cu?",
+      "got": "r-default-ghk",
+      "ok": true
+    },
+    {
+      "grain": "skin-m4-g1-default-first",
+      "response": "r-default-ghk",
+      "kind": "chip",
+      "text": "Is GHK-Cu a good first step for every patient?",
+      "got": "r-default-ghk",
+      "ok": true
+    },
+    {
+      "grain": "skin-m4-g2-route",
+      "response": "r-route-ghk",
+      "kind": "example",
+      "text": "Can I inject GHK-Cu?",
+      "got": "r-route-ghk",
+      "ok": true,
+      "words": 95
+    },
+    {
+      "grain": "skin-m4-g2-route",
+      "response": "r-route-ghk",
+      "kind": "example",
+      "text": "What is the difference between topical and injected GHK-Cu?",
+      "got": "r-route-ghk",
+      "ok": true,
+      "words": 95
+    },
+    {
+      "grain": "skin-m4-g2-route",
+      "response": "r-route-ghk",
+      "kind": "example",
+      "text": "Is injectable copper peptide better than the serum?",
+      "got": "r-route-ghk",
+      "ok": true,
+      "words": 95
+    },
+    {
+      "grain": "skin-m4-g2-route",
+      "response": "r-route-ghk",
+      "kind": "example",
+      "text": "Topical vs injectable GHK-Cu",
+      "got": "r-route-ghk",
+      "ok": true,
+      "words": 95
+    },
+    {
+      "grain": "skin-m4-g2-route",
+      "response": "r-route-ghk",
+      "kind": "example",
+      "text": "Is injected GHK-Cu stronger than the serum?",
+      "got": "r-route-ghk",
+      "ok": true,
+      "words": 95
+    },
+    {
+      "grain": "skin-m4-g2-route",
+      "response": "r-route-ghk",
+      "kind": "counter",
+      "text": "I usually start everyone on GHK-Cu serum",
+      "got": "r-default-ghk",
+      "ok": true,
+      "words": 89
+    },
+    {
+      "grain": "skin-m4-g2-route",
+      "response": "r-route-ghk",
+      "kind": "counter",
+      "text": "Why not BPC-157 first?",
+      "got": "r-bpc-why",
+      "ok": true,
+      "words": 91
+    },
+    {
+      "grain": "skin-m4-g2-route",
+      "response": "r-route-ghk",
+      "kind": "chip",
+      "text": "Can I inject GHK-Cu?",
+      "got": "r-route-ghk",
+      "ok": true
+    },
+    {
+      "grain": "skin-m4-g2-route",
+      "response": "r-route-ghk",
+      "kind": "chip",
+      "text": "Topical vs injectable GHK-Cu",
+      "got": "r-route-ghk",
+      "ok": true
+    },
+    {
+      "grain": "skin-m4-g3-compare",
+      "response": "r-compare",
+      "kind": "example",
+      "text": "Is Matrixyl the same idea as BPC-157?",
+      "got": "r-compare",
+      "ok": true,
+      "words": 99
+    },
+    {
+      "grain": "skin-m4-g3-compare",
+      "response": "r-compare",
+      "kind": "example",
+      "text": "GHK-Cu vs Matrixyl: which has better evidence?",
+      "got": "r-compare",
+      "ok": true,
+      "words": 99
+    },
+    {
+      "grain": "skin-m4-g3-compare",
+      "response": "r-compare",
+      "kind": "example",
+      "text": "How does BPC-157 compare with Matrixyl?",
+      "got": "r-compare",
+      "ok": true,
+      "words": 99
+    },
+    {
+      "grain": "skin-m4-g3-compare",
+      "response": "r-compare",
+      "kind": "example",
+      "text": "Is BPC-157 like GHK-Cu?",
+      "got": "r-compare",
+      "ok": true,
+      "words": 99
+    },
+    {
+      "grain": "skin-m4-g3-compare",
+      "response": "r-compare",
+      "kind": "counter",
+      "text": "Why not BPC-157 first?",
+      "got": "r-bpc-why",
+      "ok": true,
+      "words": 91
+    },
+    {
+      "grain": "skin-m4-g3-compare",
+      "response": "r-compare",
+      "kind": "counter",
+      "text": "I usually start everyone on GHK-Cu serum",
+      "got": "r-default-ghk",
+      "ok": true,
+      "words": 89
+    },
+    {
+      "grain": "skin-m4-g3-compare",
+      "response": "r-compare",
+      "kind": "chip",
+      "text": "Is Matrixyl the same idea as BPC-157?",
+      "got": "r-compare",
+      "ok": true
+    },
+    {
+      "grain": "skin-m4-g3-compare",
+      "response": "r-compare",
+      "kind": "chip",
+      "text": "GHK-Cu vs Matrixyl: which has better evidence?",
+      "got": "r-compare",
+      "ok": true
+    },
+    {
+      "grain": "skin-m4-g4-bpc157",
+      "response": "r-bpc-why",
+      "kind": "example",
+      "text": "Why not BPC-157 first?",
+      "got": "r-bpc-why",
+      "ok": true,
+      "words": 91
+    },
+    {
+      "grain": "skin-m4-g4-bpc157",
+      "response": "r-bpc-why",
+      "kind": "example",
+      "text": "What is the evidence for BPC-157?",
+      "got": "r-bpc-why",
+      "ok": true,
+      "words": 91
+    },
+    {
+      "grain": "skin-m4-g4-bpc157",
+      "response": "r-bpc-why",
+      "kind": "example",
+      "text": "Is BPC-157 proven to heal faster?",
+      "got": "r-bpc-why",
+      "ok": true,
+      "words": 91
+    },
+    {
+      "grain": "skin-m4-g4-bpc157",
+      "response": "r-bpc-why",
+      "kind": "example",
+      "text": "My patient wants BPC-157 to heal faster",
+      "got": "r-bpc-why",
+      "ok": true,
+      "words": 91
+    },
+    {
+      "grain": "skin-m4-g4-bpc157",
+      "response": "r-bpc-why",
+      "kind": "example",
+      "text": "Can I inject BPC-157?",
+      "got": "r-bpc-why",
+      "ok": true,
+      "words": 91
+    },
+    {
+      "grain": "skin-m4-g4-bpc157",
+      "response": "r-bpc-why",
+      "kind": "counter",
+      "text": "Is Matrixyl the same idea as BPC-157?",
+      "got": "r-compare",
+      "ok": true,
+      "words": 99
+    },
+    {
+      "grain": "skin-m4-g4-bpc157",
+      "response": "r-bpc-why",
+      "kind": "counter",
+      "text": "Explain this to a nurse",
+      "got": "r-explain-bpc",
+      "ok": true,
+      "words": 24
+    },
+    {
+      "grain": "skin-m4-g4-bpc157",
+      "response": "r-bpc-why",
+      "kind": "chip",
+      "text": "Why not BPC-157 first?",
+      "got": "r-bpc-why",
+      "ok": true
+    },
+    {
+      "grain": "skin-m4-g4-bpc157",
+      "response": "r-bpc-why",
+      "kind": "chip",
+      "text": "What is the evidence for BPC-157?",
+      "got": "r-bpc-why",
+      "ok": true
+    },
+    {
+      "grain": "skin-m4-g5-scope",
+      "response": "r-scope-injectable",
+      "kind": "example",
+      "text": "What do I tell an aesthetician who wants injectable peptides for fine lines?",
+      "got": "r-scope-injectable",
+      "ok": true,
+      "words": 62
+    },
+    {
+      "grain": "skin-m4-g5-scope",
+      "response": "r-scope-injectable",
+      "kind": "example",
+      "text": "An aesthetician wants to inject peptides for wrinkles",
+      "got": "r-scope-injectable",
+      "ok": true,
+      "words": 62
+    },
+    {
+      "grain": "skin-m4-g5-scope",
+      "response": "r-scope-injectable",
+      "kind": "example",
+      "text": "A med spa asked me about injectable peptides",
+      "got": "r-scope-injectable",
+      "ok": true,
+      "words": 62
+    },
+    {
+      "grain": "skin-m4-g5-scope",
+      "response": "r-scope-injectable",
+      "kind": "example",
+      "text": "What should I say to an esthetician asking about injectable copper peptides?",
+      "got": "r-scope-injectable",
+      "ok": true,
+      "words": 62
+    },
+    {
+      "grain": "skin-m4-g5-scope",
+      "response": "r-scope-injectable",
+      "kind": "counter",
+      "text": "Explain this to a nurse",
+      "got": "r-explain-bpc",
+      "ok": true,
+      "words": 24
+    },
+    {
+      "grain": "skin-m4-g5-scope",
+      "response": "r-scope-injectable",
+      "kind": "counter",
+      "text": "Why not BPC-157 first?",
+      "got": "r-bpc-why",
+      "ok": true,
+      "words": 91
+    },
+    {
+      "grain": "skin-m4-g5-scope",
+      "response": "r-explain-bpc",
+      "kind": "example",
+      "text": "Explain this to a nurse",
+      "got": "r-explain-bpc",
+      "ok": true,
+      "words": 24
+    },
+    {
+      "grain": "skin-m4-g5-scope",
+      "response": "r-explain-bpc",
+      "kind": "example",
+      "text": "How do I explain BPC-157 to a colleague?",
+      "got": "r-explain-bpc",
+      "ok": true,
+      "words": 24
+    },
+    {
+      "grain": "skin-m4-g5-scope",
+      "response": "r-explain-bpc",
+      "kind": "example",
+      "text": "What should I tell the nurse about this?",
+      "got": "r-explain-bpc",
+      "ok": true,
+      "words": 24
+    },
+    {
+      "grain": "skin-m4-g5-scope",
+      "response": "r-explain-bpc",
+      "kind": "counter",
+      "text": "What do I tell an aesthetician who wants injectable peptides for fine lines?",
+      "got": "r-scope-injectable",
+      "ok": true,
+      "words": 62
+    },
+    {
+      "grain": "skin-m4-g5-scope",
+      "response": "r-explain-bpc",
+      "kind": "chip",
+      "text": "Explain this to a nurse",
+      "got": "r-explain-bpc",
+      "ok": true
+    },
+    {
+      "grain": "skin-m4-g5-scope",
+      "response": "r-scope-injectable",
+      "kind": "chip",
+      "text": "An aesthetician asks about injectables",
+      "got": "r-scope-injectable",
+      "ok": true
+    },
+    {
+      "grain": "skin-m4-g6-apply",
+      "response": "r-post-microneedling",
+      "kind": "example",
+      "text": "Can I use copper peptides after microneedling?",
+      "got": "r-post-microneedling",
+      "ok": true,
+      "words": 99
+    },
+    {
+      "grain": "skin-m4-g6-apply",
+      "response": "r-post-microneedling",
+      "kind": "example",
+      "text": "Post-microneedling copper peptide?",
+      "got": "r-post-microneedling",
+      "ok": true,
+      "words": 99
+    },
+    {
+      "grain": "skin-m4-g6-apply",
+      "response": "r-post-microneedling",
+      "kind": "example",
+      "text": "Is GHK-Cu OK after micro-needling?",
+      "got": "r-post-microneedling",
+      "ok": true,
+      "words": 99
+    },
+    {
+      "grain": "skin-m4-g6-apply",
+      "response": "r-post-microneedling",
+      "kind": "example",
+      "text": "Copper peptide serum after needling",
+      "got": "r-post-microneedling",
+      "ok": true,
+      "words": 99
+    },
+    {
+      "grain": "skin-m4-g6-apply",
+      "response": "r-post-microneedling",
+      "kind": "counter",
+      "text": "I usually start everyone on GHK-Cu serum",
+      "got": "r-default-ghk",
+      "ok": true,
+      "words": 89
+    },
+    {
+      "grain": "skin-m4-g6-apply",
+      "response": "r-post-laser",
+      "kind": "example",
+      "text": "Can I use GHK-Cu after laser resurfacing?",
+      "got": "r-post-laser",
+      "ok": true,
+      "words": 100
+    },
+    {
+      "grain": "skin-m4-g6-apply",
+      "response": "r-post-laser",
+      "kind": "example",
+      "text": "Copper peptide after a CO2 laser",
+      "got": "r-post-laser",
+      "ok": true,
+      "words": 100
+    },
+    {
+      "grain": "skin-m4-g6-apply",
+      "response": "r-post-laser",
+      "kind": "example",
+      "text": "Is topical GHK-Cu proven after laser?",
+      "got": "r-post-laser",
+      "ok": true,
+      "words": 100
+    },
+    {
+      "grain": "skin-m4-g6-apply",
+      "response": "r-post-laser",
+      "kind": "counter",
+      "text": "Can I use copper peptides after microneedling?",
+      "got": "r-post-microneedling",
+      "ok": true,
+      "words": 99
+    },
+    {
+      "grain": "skin-m4-g6-apply",
+      "response": "r-gap-melasma",
+      "kind": "example",
+      "text": "This patient is on estrogen cream and has melasma",
+      "got": "r-gap-melasma",
+      "ok": true,
+      "words": 26
+    },
+    {
+      "grain": "skin-m4-g6-apply",
+      "response": "r-gap-melasma",
+      "kind": "example",
+      "text": "Melasma on estrogen cream",
+      "got": "r-gap-melasma",
+      "ok": true,
+      "words": 26
+    },
+    {
+      "grain": "skin-m4-g6-apply",
+      "response": "r-gap-melasma",
+      "kind": "example",
+      "text": "Does topical estrogen worsen melasma?",
+      "got": "r-gap-melasma",
+      "ok": true,
+      "words": 26
+    },
+    {
+      "grain": "skin-m4-g6-apply",
+      "response": "r-gap-melasma",
+      "kind": "counter",
+      "text": "Can I use copper peptides after microneedling?",
+      "got": "r-post-microneedling",
+      "ok": true,
+      "words": 99
+    },
+    {
+      "grain": "skin-m4-g6-apply",
+      "response": "r-post-microneedling",
+      "kind": "chip",
+      "text": "Post-microneedling copper peptide?",
+      "got": "r-post-microneedling",
+      "ok": true
+    }
+  ]
+}

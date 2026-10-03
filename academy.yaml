@@ -168,6 +168,7 @@ modules: { fieldbook: true, promptLab: false, webinars: false, blog: false, peer
 # onboarding and Profile offer them, and the learner's choice pre-answers that question in modules 1 and 4. Labels follow the
 # runtime's audience-level names; descriptions follow the course's own role options.
 experience:
+  voiceNotes: false   # Skin tutor and learner reflections accept text only; authored course audio remains available.
   defaultRole: prescriber
   roles:
     - id: prescriber

@@ -1,0 +1,7 @@
+
+> perceptor-runtime@0.1.0 test:tutor
+> tsx tests/tutor-learning.test.ts && tsx tests/tutor-postgres.test.ts && tsx tests/native-tutor-learning.test.ts
+
+PASS: 6 practice decisions; review/locale gates, scope, replay, assistance, privacy, versioning, API authorization
+PASS: PostgreSQL durable preference/session/evidence, scope, aggregate metrics and rollback
+PASS: native authenticated/scoped memory, revision conflicts, clearing, card validation and assessment boundary
