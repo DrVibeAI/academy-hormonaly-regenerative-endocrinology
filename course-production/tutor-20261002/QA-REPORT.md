@@ -19,7 +19,7 @@ Confirmed bank SHA-256: `38e62e0c8a4499bc52b66eca0cc2e84e7e79cc50d9960146a9ed1ea
 | [Tutor and SQL tests](tutor-tests.txt) | Scope, review/locale gates, private keys, forged scores, sequence/replay/stale versions, exposure, bounded events and persisted transactions pass. |
 | Existing course gates | Seven release suites, build/typecheck and [admin regression](editing-regression.txt) pass. Existing grounding and safety retained. |
 | [390 px preview](skin-phone-feedback-390.png) | Actual course with synthetic host; readable feedback, scrolling and controls. Physical-device acceptance remains separate. |
-| [Promotion](skin-promote.log) | Exact revision promoted after hosted acceptance; app/database healthy, anonymous certificate denied. |
+| [Promotion](skin-promote.txt) | Exact revision promoted after hosted acceptance; app/database healthy, anonymous certificate denied. |
 
 Initial 00045 checks are historical; the final API rerun above is on 00046. New records contain closed preferences and structured formative events, excluding typed questions, mirror quotes and teach-back prose. Existing Guide logging remains separate. Repeated/revealed answers cannot inflate first independent correct indicators. Prepared practice cannot grant grades, completion or certificates.
 
