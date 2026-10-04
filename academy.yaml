@@ -168,6 +168,7 @@ modules: { fieldbook: true, promptLab: false, webinars: false, blog: false, peer
 # onboarding and Profile offer them, and the learner's choice pre-answers that question in modules 1 and 4. Labels follow the
 # runtime's audience-level names; descriptions follow the course's own role options.
 experience:
+  voiceNotes: false   # Skin tutor and learner reflections accept text only; authored course audio remains available.
   defaultRole: prescriber
   roles:
     - id: prescriber
@@ -340,8 +341,9 @@ auth:
     from: "Hormonaly Academy <info@hormonaly.ai>"
     replyTo: info@hormonaly.ai
     origin: https://hormonaly.perceptors.ai
-    logoUrl: https://insider.fitt.co/wp-content/uploads/2026/04/image-1.png
-    accent: "#2463eb"
+    logoUrl: https://hormonaly.perceptors.ai/assets/brand/hormonaly-email-logo.png
+    logoWidth: 280
+    accent: "#0071E3"
 admins: [omar@hormonaly.ai, omar@perceptors.ai, fady@hormonaly.ai]   # Academy admins named by Omar; Omar remains reviewer of record / publish owner
 
 # Admin assistant pilot. Clinical drafts use the existing human review pipeline.

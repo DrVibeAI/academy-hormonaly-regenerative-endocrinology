@@ -1,0 +1,35 @@
+
+> perceptor-runtime@0.1.0 test:editing
+> node --import tsx --test scripts/test-editing.mts scripts/test-editing-model.mts
+
+✔ admin assistant requires its OpenRouter credential and never uses the review/tutor credential (1.275459ms)
+✔ GLM 5.3 receives strict structured proposals, bounded conversation and independent model routing (9.830875ms)
+✔ only complete final content is parsed, never reasoning, refusal or tool calls (1.264333ms)
+✔ malformed structured responses cannot become a draft (0.866584ms)
+✔ provider errors and network failures stay generic and never fall back to another model (0.42525ms)
+✔ only enabled draft-preview HTML allows same-origin embedding (0.511292ms)
+✔ generated context separates academy identity, assets, source mappings and opt-in (0.674584ms)
+✔ proposal is atomic and cannot write unknown/code/credential fields (0.459542ms)
+✔ validation rejects markup, arbitrary assets, unsupported fonts and duplicated fields (0.389209ms)
+✔ primary, actions, page text and links retain readable contrast (0.393083ms)
+✔ conversation cannot publish and non-publishers cannot publish or restore (1.290708ms)
+✔ clinical or mixed proposals can be submitted but cannot publish even by owner (0.123375ms)
+✔ publication, stale protection, history and restore create attributable releases (0.237917ms)
+✔ stored drafts are revalidated at publication (1.047833ms)
+✔ overlay only changes approved configuration paths and never lesson/source data (0.24475ms)
+✔ HTTP requires an administrator and exposes no private state publicly (25.004458ms)
+✔ HTTP rechecks editing scope independently of a model response (4.445458ms)
+✔ HTTP publication is explicit, publisher-only, revision-checked and reflected publicly (8.925042ms)
+✔ HTTP content export keeps citations and clinical review dependencies private (4.289334ms)
+✔ concurrent model requests cannot silently overwrite workspace changes (3.117291ms)
+✔ file development store survives restart, isolates academies, fails closed on source changes (1.013167ms)
+✔ HTTP rejects invalid bodies and preserves state after model failure (4.331625ms)
+✔ disabled academy and rate limit reject editing without mutation (3.567292ms)
+ℹ tests 23
+ℹ suites 0
+ℹ pass 23
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 232.471708

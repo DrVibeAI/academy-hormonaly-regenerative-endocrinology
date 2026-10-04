@@ -1,0 +1,15 @@
+Updating traffic...
+Routing traffic........................done
+Done.
+URL: https://academy-hormonaly-limjs7pr6a-uc.a.run.app
+Traffic:
+  100% academy-hormonaly-00046-th7
+         candidate: https://candidate---academy-hormonaly-limjs7pr6a-uc.a.run.app
+Promoted academy-hormonaly-00046-th7 to 100% traffic
+Copying file:///var/folders/25/1742nktj7yl7th499b7g5g6h0000gn/T/review-hub-pe2gHH/context.json to gs://perceptors-review-hub/contexts/hormonaly/hormonaly.hormones-peptides-skin/1.1.0@cb7b66528438.json
+  
+.......
+Copying file:///var/folders/25/1742nktj7yl7th499b7g5g6h0000gn/T/review-hub-pe2gHH/meta.json to gs://perceptors-review-hub/contexts/hormonaly/hormonaly.hormones-peptides-skin/1.1.0@cb7b66528438.meta.json
+  
+......
+✓ review hub: Hormones and Peptides for Skin v1.1.0 (not_submitted) → gs://perceptors-review-hub/contexts/hormonaly/hormonaly.hormones-peptides-skin/1.1.0@cb7b66528438.json — operators see it now; the board after notify releases it

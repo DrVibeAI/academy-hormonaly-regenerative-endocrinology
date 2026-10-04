@@ -1,0 +1,10 @@
+→ prepare (/Users/omar/DrVibe/worktrees/tutor-integration-20261002/academy-hormonaly-regenerative-endocrinology)
+$ npx -y tsx scripts/prepare.mts
+✓ Locale parity
+✓ Guía consistency & clinical safety
+✓ Regional emergency routing and clinical terms
+✓ RAG groundedness (grounded coach)
+✓ Paid enrolment boundaries
+✓ Verification email identity and delivery boundaries
+✓ Today line (rotation, moments)
+report: /Users/omar/DrVibe/worktrees/tutor-integration-20261002/academy-hormonaly-regenerative-endocrinology/course-production/evals/report-2026-10-02T220200Z.md

@@ -1,0 +1,21 @@
+{
+  "base": "https://hormonaly.perceptors.ai",
+  "courseId": "hormonaly.hormones-peptides-skin",
+  "at": "2026-10-03T00:04:36.213Z",
+  "tests": {
+    "auth": true,
+    "bankGate": true,
+    "isolation": true,
+    "clear": true,
+    "closedMemory": true,
+    "adminProtection": true,
+    "privateKeys": true,
+    "sessionIsolation": true,
+    "feedback": true,
+    "repeatTaps": true,
+    "assessmentGuard": true,
+    "progressUnchanged": true,
+    "postgresPersistence": true
+  },
+  "disposableAccountsRetainedForUi": false
+}
