@@ -1,0 +1,208 @@
+{
+ "schema": "perceptor.narration-alignment/1",
+ "audio": "b2.en.32387b8b.mp3",
+ "locale": "en",
+ "text": "The guide lists violaceous striae with new hypertension or diabetes, rapidly progressive virilisation, and signs of an endocrine tumour as reasons to refer promptly to endocrinology.",
+ "text_sha256": "430117eea41a6d96ca80cba31450296937e3cab665aa3d7d9b7afb0751cdcd30",
+ "duration_seconds": 14.16,
+ "engine": {
+  "tool": "elevenlabs-scribe",
+  "model": "scribe_v1",
+  "synthesis": {
+   "provider": "gemini-tts",
+   "model": "gemini-3.8-flash-tts",
+   "voice": "en-gb-tutor-1",
+   "key": "32387b8b634f208d283906c4152304a188f63d7b791666c6315ad17770edf9d1"
+  }
+ },
+ "generated_at": "2026-09-28T04:41:40.155Z",
+ "stats": {
+  "tokens": 26,
+  "spoken_tokens": 26,
+  "matched": 24,
+  "mismatched": 2,
+  "interpolated": 0,
+  "unmatched_heard": 0,
+  "match_rate": 0.923,
+  "first_word_start": 0.28,
+  "last_word_end": 13.88
+ },
+ "words": [
+  {
+   "text": "The",
+   "start": 0.28,
+   "end": 0.38
+  },
+  {
+   "text": "guide",
+   "start": 0.42,
+   "end": 0.7
+  },
+  {
+   "text": "lists",
+   "start": 0.8,
+   "end": 1.16
+  },
+  {
+   "text": "violaceous",
+   "start": 1.36,
+   "end": 2.08
+  },
+  {
+   "text": "striae",
+   "start": 2.22,
+   "end": 2.76
+  },
+  {
+   "text": "with",
+   "start": 3.02,
+   "end": 3.22
+  },
+  {
+   "text": "new",
+   "start": 3.28,
+   "end": 3.54
+  },
+  {
+   "text": "hypertension",
+   "start": 3.58,
+   "end": 4.52
+  },
+  {
+   "text": "or",
+   "start": 4.6,
+   "end": 4.7
+  },
+  {
+   "text": "diabetes,",
+   "start": 4.8,
+   "end": 5.58
+  },
+  {
+   "text": "rapidly",
+   "start": 6.22,
+   "end": 6.7
+  },
+  {
+   "text": "progressive",
+   "start": 6.74,
+   "end": 7.36
+  },
+  {
+   "text": "virilisation,",
+   "start": 7.48,
+   "end": 8.32,
+   "matched": false,
+   "heard": "virilization"
+  },
+  {
+   "text": "and",
+   "start": 8.84,
+   "end": 8.94
+  },
+  {
+   "text": "signs",
+   "start": 9.08,
+   "end": 9.38
+  },
+  {
+   "text": "of",
+   "start": 9.42,
+   "end": 9.48
+  },
+  {
+   "text": "an",
+   "start": 9.52,
+   "end": 9.64
+  },
+  {
+   "text": "endocrine",
+   "start": 9.7,
+   "end": 10.16
+  },
+  {
+   "text": "tumour",
+   "start": 10.32,
+   "end": 10.68,
+   "matched": false,
+   "heard": "tumor"
+  },
+  {
+   "text": "as",
+   "start": 11.16,
+   "end": 11.28
+  },
+  {
+   "text": "reasons",
+   "start": 11.34,
+   "end": 11.72
+  },
+  {
+   "text": "to",
+   "start": 11.76,
+   "end": 11.84
+  },
+  {
+   "text": "refer",
+   "start": 11.88,
+   "end": 12.2
+  },
+  {
+   "text": "promptly",
+   "start": 12.32,
+   "end": 12.84
+  },
+  {
+   "text": "to",
+   "start": 12.9,
+   "end": 13.04
+  },
+  {
+   "text": "endocrinology.",
+   "start": 13.1,
+   "end": 13.88
+  }
+ ],
+ "mismatches": [
+  {
+   "index": 12,
+   "canonical": "virilisation,",
+   "heard": "virilization",
+   "start": 7.48
+  },
+  {
+   "index": 18,
+   "canonical": "tumour",
+   "heard": "tumor",
+   "start": 10.32
+  }
+ ],
+ "unmatched_heard": [],
+ "cues": [
+  {
+   "text": "The guide lists violaceous striae",
+   "at": 0.28,
+   "until": 3.02
+  },
+  {
+   "text": "with new hypertension or diabetes,",
+   "at": 3.02,
+   "until": 5.88
+  },
+  {
+   "text": "rapidly progressive virilisation,",
+   "at": 6.22,
+   "until": 8.62
+  },
+  {
+   "text": "and signs of an endocrine tumour as",
+   "at": 8.84,
+   "until": 11.34
+  },
+  {
+   "text": "reasons to refer promptly to endocrinology.",
+   "at": 11.34,
+   "until": 14.16
+  }
+ ]
+}

@@ -1,0 +1,6625 @@
+{
+ "tool": "perceptor-foundry/tools/qa/dosage-audit.mjs",
+ "rulesVersion": "1.0.0",
+ "status": "report-only",
+ "package": {
+  "id": "hormonaly.hormones-peptides-skin",
+  "version": "1.1.0",
+  "baseLocale": "en",
+  "locale": "en",
+  "shape": "pane course",
+  "path": "packages/hormones-peptides-skin.json at d7aeb97",
+  "sha256": "6419297d6d012d8c8e5b58909e9e9f1f950443aa548ca20618017dbb0ebfa4fa"
+ },
+ "estimate": {
+  "readingWpm": 238,
+  "narrationWpm": 150,
+  "secondsPerDecision": 8
+ },
+ "thresholds": {
+  "firstDecisionSeconds": 60,
+  "passiveRun": 2,
+  "filmSeconds": [
+   60,
+   180
+  ],
+  "filmMaxSeconds": 360,
+  "decisionsPer5Min": 1,
+  "visibleWords": 100,
+  "caseWords": 150,
+  "cardTotal": 200,
+  "answerPosition": {
+   "rule": "No answer position carries more than 60% of the keyed answers once there are five or more items. Options show in authored order.",
+   "maxShare": 0.6,
+   "minItems": 5,
+   "strength": "convention (a test-wiseness guard)",
+   "measure": "positions of the correct option in quiz cards, the module checks learners see, single-answer exercises and the final check"
+  }
+ },
+ "summary": {
+  "modules": 7,
+  "placeholders": 0,
+  "sittings": 21,
+  "cards": 179,
+  "minutes": 160.2,
+  "firstDecisionOverLimit": 20,
+  "firstDecisionMedian": 102,
+  "firstDecisionMax": 219,
+  "passiveRunMax": 4,
+  "passiveRunOverLimit": 12,
+  "decisionsPer5MinMedian": 2.7,
+  "maxWords": 284,
+  "cardsOverWords": 38,
+  "cardsOverTotal": 0,
+  "constructiveSittings": 0,
+  "answerPositions": {
+   "items": 28,
+   "positions": {
+    "A": 16,
+    "B": 11,
+    "C": 1
+   },
+   "top": "A",
+   "topShare": 0.57,
+   "biased": false
+  },
+  "shuffledPositions": {
+   "items": 21,
+   "positions": {
+    "A": 1,
+    "B": 17,
+    "C": 3
+   },
+   "top": "B",
+   "topShare": 0.81,
+   "biased": true
+  },
+  "finalCheck": {
+   "items": 14,
+   "positions": {
+    "A": 5,
+    "B": 8,
+    "C": 1
+   },
+   "top": "B",
+   "topShare": 0.57,
+   "biased": false
+  },
+  "allAnswers": {
+   "items": 42,
+   "positions": {
+    "A": 21,
+    "B": 19,
+    "C": 2
+   },
+   "top": "A",
+   "topShare": 0.5,
+   "biased": false
+  },
+  "whys": {
+   "every option": 35
+  },
+  "failures": 70,
+  "warnings": 6,
+  "notes": 4
+ },
+ "modules": [
+  {
+   "id": "m01",
+   "title": "The skin as an endocrine organ, and how it ages",
+   "statedMinutes": 40,
+   "placeholder": false,
+   "sittings": [
+    {
+     "label": "1.1 · The skin as a steroidogenic, endocrine organ",
+     "id": "1.1",
+     "source": "unit.metadata.lessons",
+     "seconds": 561,
+     "minutes": 9.3,
+     "cards": 10,
+     "firstDecisionSeconds": 102,
+     "firstTapSeconds": 120,
+     "firstDecisionPane": "m1-p02",
+     "firstDecisionCard": 3,
+     "wordsBeforeFirstDecision": 112,
+     "maxPassiveRun": 2,
+     "maxPassiveRunPanes": [
+      "m1-p01",
+      "m1-opener"
+     ],
+     "decisions": 5,
+     "decisionsPer5Min": 2.7,
+     "maxWords": 173,
+     "maxWordsPane": "m1-p04",
+     "constructive": false,
+     "taps": 16,
+     "panes": [
+      {
+       "id": "m1-p01",
+       "blockIds": [
+        "m1-p01"
+       ],
+       "type": "title",
+       "pane": "title",
+       "kind": "title",
+       "decision": false,
+       "taps": 0,
+       "words": 102,
+       "loadKind": "default",
+       "readWords": 110,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 27.7,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 0,
+       "title": "The skin makes its own hormones."
+      },
+      {
+       "id": "m1-opener",
+       "blockIds": [
+        "m1-opener"
+       ],
+       "type": "video",
+       "pane": "video",
+       "kind": "video",
+       "decision": false,
+       "taps": 0,
+       "words": 10,
+       "loadKind": "default",
+       "readWords": 14,
+       "media": 70.3,
+       "mediaSource": "asset",
+       "narrationWords": 0,
+       "seconds": 73.8,
+       "film": true,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 27.7,
+       "title": "The skin as an endocrine organ, and how it ages"
+      },
+      {
+       "id": "m1-p02",
+       "blockIds": [
+        "m1-p02"
+       ],
+       "type": "reflection",
+       "pane": "reflection",
+       "kind": "reflection",
+       "decision": true,
+       "taps": 1,
+       "words": 75,
+       "loadKind": "default",
+       "readWords": 77,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 27.4,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 101.5,
+       "title": "How will you use this course?"
+      },
+      {
+       "id": "m1-p03",
+       "blockIds": [
+        "m1-p03"
+       ],
+       "type": "audio",
+       "pane": "slide-audio",
+       "kind": "audio",
+       "decision": false,
+       "taps": 0,
+       "words": 69,
+       "loadKind": "default",
+       "readWords": 72,
+       "media": 57.6,
+       "mediaSource": "narration words",
+       "narrationWords": 144,
+       "seconds": 75.8,
+       "film": false,
+       "audio": true,
+       "visual": true,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 128.9,
+       "title": "Four units, one circuit."
+      },
+      {
+       "id": "m1-p04",
+       "blockIds": [
+        "m1-p04"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool",
+       "decision": false,
+       "taps": 0,
+       "words": 173,
+       "loadKind": "default",
+       "readWords": 174,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 43.9,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 204.7,
+       "title": "A steroid factory with local axes."
+      },
+      {
+       "id": "m1-p05",
+       "blockIds": [
+        "m1-p05"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool+quickfire",
+       "decision": true,
+       "taps": 7,
+       "words": 33,
+       "loadKind": "default",
+       "readWords": 110,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 83.7,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 248.6,
+       "title": "Three directions of traffic."
+      },
+      {
+       "id": "m1-x01",
+       "blockIds": [
+        "m1-x01"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool+sequence",
+       "decision": true,
+       "taps": 4,
+       "words": 56,
+       "loadKind": "default",
+       "readWords": 57,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 46.4,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 332.3,
+       "title": "An HPA-like loop inside the follicle."
+      },
+      {
+       "id": "m1-p06",
+       "blockIds": [
+        "m1-p06"
+       ],
+       "type": "audio",
+       "pane": "slide-audio",
+       "kind": "audio",
+       "decision": false,
+       "taps": 0,
+       "words": 85,
+       "loadKind": "default",
+       "readWords": 89,
+       "media": 53.2,
+       "mediaSource": "narration words",
+       "narrationWords": 133,
+       "seconds": 75.6,
+       "film": false,
+       "audio": true,
+       "visual": true,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 378.7,
+       "title": "Read the skin before the serum."
+      },
+      {
+       "id": "m1-x02",
+       "blockIds": [
+        "m1-x02"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool+branching",
+       "decision": true,
+       "taps": 3,
+       "words": 94,
+       "loadKind": "case",
+       "readWords": 203,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 75.2,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [
+        {
+         "index": 1,
+         "of": 3,
+         "source": "branching start",
+         "shuffled": false
+        },
+        {
+         "index": 0,
+         "of": 2,
+         "source": "branching n2",
+         "shuffled": false
+        },
+        {
+         "index": 2,
+         "of": 3,
+         "source": "branching n3",
+         "shuffled": false
+        }
+       ],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 454.3,
+       "title": "'Which serum for my dry skin?'"
+      },
+      {
+       "id": "m1-p07",
+       "blockIds": [
+        "m1-p07"
+       ],
+       "type": "quiz",
+       "pane": "quiz",
+       "kind": "quiz",
+       "decision": true,
+       "taps": 1,
+       "words": 91,
+       "loadKind": "default",
+       "readWords": 93,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 31.4,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [
+        {
+         "index": 1,
+         "of": 3,
+         "source": "quiz card",
+         "shuffled": true
+        }
+       ],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 529.5,
+       "title": "'My skin makes its own cortisol.'"
+      }
+     ]
+    },
+    {
+     "label": "1.2 · The Hormone Cell Atlas: receptor maps and what they prove",
+     "id": "1.2",
+     "source": "unit.metadata.lessons",
+     "seconds": 347,
+     "minutes": 5.8,
+     "cards": 6,
+     "firstDecisionSeconds": 104,
+     "firstTapSeconds": 112,
+     "firstDecisionPane": "m1-p10",
+     "firstDecisionCard": 3,
+     "wordsBeforeFirstDecision": 171,
+     "maxPassiveRun": 2,
+     "maxPassiveRunPanes": [
+      "m1-p08",
+      "m1-p09"
+     ],
+     "decisions": 3,
+     "decisionsPer5Min": 2.6,
+     "maxWords": 111,
+     "maxWordsPane": "m1-x03",
+     "constructive": false,
+     "taps": 12,
+     "panes": [
+      {
+       "id": "m1-p08",
+       "blockIds": [
+        "m1-p08"
+       ],
+       "type": "audio",
+       "pane": "slide-audio",
+       "kind": "audio",
+       "decision": false,
+       "taps": 0,
+       "words": 80,
+       "loadKind": "default",
+       "readWords": 83,
+       "media": 58.8,
+       "mediaSource": "narration words",
+       "narrationWords": 147,
+       "seconds": 79.7,
+       "film": false,
+       "audio": true,
+       "visual": true,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 0,
+       "title": "A map of fourteen million cells."
+      },
+      {
+       "id": "m1-p09",
+       "blockIds": [
+        "m1-p09"
+       ],
+       "type": "stat",
+       "pane": "stat",
+       "kind": "stat",
+       "decision": false,
+       "taps": 0,
+       "words": 91,
+       "loadKind": "default",
+       "readWords": 95,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 23.9,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 79.7,
+       "title": "Prediction, in the authors' own words."
+      },
+      {
+       "id": "m1-p10",
+       "blockIds": [
+        "m1-p10"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool+classify",
+       "decision": true,
+       "taps": 5,
+       "words": 32,
+       "loadKind": "default",
+       "readWords": 92,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 63.2,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 103.6,
+       "title": "Transcript, tissue or person?"
+      },
+      {
+       "id": "m1-p11",
+       "blockIds": [
+        "m1-p11"
+       ],
+       "type": "audio",
+       "pane": "slide-audio",
+       "kind": "audio",
+       "decision": false,
+       "taps": 0,
+       "words": 89,
+       "loadKind": "default",
+       "readWords": 93,
+       "media": 53.6,
+       "mediaSource": "narration words",
+       "narrationWords": 134,
+       "seconds": 77,
+       "film": false,
+       "audio": true,
+       "visual": true,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 166.8,
+       "title": "A map to confirm, then a trial."
+      },
+      {
+       "id": "m1-x03",
+       "blockIds": [
+        "m1-x03"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool+inspect",
+       "decision": true,
+       "taps": 6,
+       "words": 111,
+       "loadKind": "default",
+       "readWords": 112,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 76.2,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 243.8,
+       "title": "A serum page, line by line."
+      },
+      {
+       "id": "m1-p12",
+       "blockIds": [
+        "m1-p12"
+       ],
+       "type": "quiz",
+       "pane": "quiz",
+       "kind": "quiz",
+       "decision": true,
+       "taps": 1,
+       "words": 72,
+       "loadKind": "default",
+       "readWords": 74,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 26.7,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [
+        {
+         "index": 2,
+         "of": 3,
+         "source": "quiz card",
+         "shuffled": true
+        }
+       ],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 320,
+       "title": "'Your skin has receptors for it.'"
+      }
+     ]
+    },
+    {
+     "label": "1.3 · Senescence, the SASP and the ageing dermis",
+     "id": "1.3",
+     "source": "unit.metadata.lessons",
+     "seconds": 475,
+     "minutes": 7.9,
+     "cards": 9,
+     "firstDecisionSeconds": 73,
+     "firstTapSeconds": 82,
+     "firstDecisionPane": "m1-x04",
+     "firstDecisionCard": 2,
+     "wordsBeforeFirstDecision": 70,
+     "maxPassiveRun": 3,
+     "maxPassiveRunPanes": [
+      "m1-p14",
+      "m1-p15",
+      "m1-p16"
+     ],
+     "decisions": 5,
+     "decisionsPer5Min": 3.2,
+     "maxWords": 170,
+     "maxWordsPane": "m1-p15",
+     "constructive": false,
+     "taps": 12,
+     "panes": [
+      {
+       "id": "m1-p13",
+       "blockIds": [
+        "m1-p13"
+       ],
+       "type": "audio",
+       "pane": "slide-audio",
+       "kind": "audio",
+       "decision": false,
+       "taps": 0,
+       "words": 70,
+       "loadKind": "default",
+       "readWords": 73,
+       "media": 54.8,
+       "mediaSource": "narration words",
+       "narrationWords": 137,
+       "seconds": 73.2,
+       "film": false,
+       "audio": true,
+       "visual": true,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 0,
+       "title": "Cells that stop dividing and keep talking."
+      },
+      {
+       "id": "m1-x04",
+       "blockIds": [
+        "m1-x04"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool+hotspots",
+       "decision": true,
+       "taps": 3,
+       "words": 35,
+       "loadKind": "default",
+       "readWords": 36,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 33.1,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 73.2,
+       "title": "Stopped for good, still secreting."
+      },
+      {
+       "id": "m1-p14",
+       "blockIds": [
+        "m1-p14"
+       ],
+       "type": "stat",
+       "pane": "stat",
+       "kind": "stat",
+       "decision": false,
+       "taps": 0,
+       "words": 71,
+       "loadKind": "default",
+       "readWords": 73,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 18.4,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 106.3,
+       "title": "Three years of perceived age."
+      },
+      {
+       "id": "m1-p15",
+       "blockIds": [
+        "m1-p15"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool",
+       "decision": false,
+       "taps": 0,
+       "words": 170,
+       "loadKind": "default",
+       "readWords": 172,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 43.4,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 124.7,
+       "title": "Human, mouse or dish?"
+      },
+      {
+       "id": "m1-p16",
+       "blockIds": [
+        "m1-p16"
+       ],
+       "type": "audio",
+       "pane": "slide-audio",
+       "kind": "audio",
+       "decision": false,
+       "taps": 0,
+       "words": 96,
+       "loadKind": "default",
+       "readWords": 101,
+       "media": 56,
+       "mediaSource": "narration words",
+       "narrationWords": 140,
+       "seconds": 81.5,
+       "film": false,
+       "audio": true,
+       "visual": true,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 168.1,
+       "title": "The levers with trials behind them."
+      },
+      {
+       "id": "m1-x05",
+       "blockIds": [
+        "m1-x05"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool+classify",
+       "decision": true,
+       "taps": 6,
+       "words": 42,
+       "loadKind": "default",
+       "readWords": 102,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 73.7,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 249.6,
+       "title": "From the dish to the trial."
+      },
+      {
+       "id": "m1-p17",
+       "blockIds": [
+        "m1-p17"
+       ],
+       "type": "audio",
+       "pane": "slide-audio",
+       "kind": "audio+scenario",
+       "decision": true,
+       "taps": 1,
+       "words": 159,
+       "loadKind": "case",
+       "readWords": 161,
+       "media": 48.4,
+       "mediaSource": "narration words",
+       "narrationWords": 121,
+       "seconds": 97,
+       "film": false,
+       "audio": true,
+       "visual": true,
+       "answers": [
+        {
+         "index": 1,
+         "of": 3,
+         "source": "scenario move",
+         "shuffled": false
+        }
+       ],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 323.3,
+       "title": "'Can a senolytic fix my skin?'"
+      },
+      {
+       "id": "m1-p18",
+       "blockIds": [
+        "m1-p18"
+       ],
+       "type": "quiz",
+       "pane": "quiz",
+       "kind": "quiz",
+       "decision": true,
+       "taps": 1,
+       "words": 55,
+       "loadKind": "default",
+       "readWords": 57,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 22.4,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [
+        {
+         "index": 2,
+         "of": 3,
+         "source": "quiz card",
+         "shuffled": true
+        }
+       ],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 420.3,
+       "title": "Mouse, human, or both?"
+      },
+      {
+       "id": "m1-p19",
+       "blockIds": [
+        "m1-p19"
+       ],
+       "type": "action",
+       "pane": "action",
+       "kind": "action+chips",
+       "decision": true,
+       "taps": 1,
+       "words": 93,
+       "loadKind": "default",
+       "readWords": 96,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 32.2,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 442.7,
+       "title": "Before my next skin-and-hormone conversation."
+      }
+     ]
+    }
+   ],
+   "findings": [],
+   "checkNotShown": {
+    "id": "m1-check",
+    "position": "B"
+   },
+   "answerPositions": {
+    "items": 4,
+    "positions": {
+     "A": 1,
+     "B": 2,
+     "C": 1
+    },
+    "top": "B",
+    "topShare": 0.5,
+    "biased": false
+   },
+   "shuffledPositions": {
+    "items": 3,
+    "positions": {
+     "B": 1,
+     "C": 2
+    },
+    "top": "C",
+    "topShare": 0.67,
+    "biased": false
+   },
+   "answerItems": [
+    "m1-x02:B/3 (branching start)",
+    "m1-x02:A/2 (branching n2)",
+    "m1-x02:C/3 (branching n3)",
+    "m1-p07:B/3 (quiz card, shown shuffled)",
+    "m1-p12:C/3 (quiz card, shown shuffled)",
+    "m1-p17:B/3 (scenario move)",
+    "m1-p18:C/3 (quiz card, shown shuffled)"
+   ],
+   "triad": {
+    "explain": true,
+    "practice": true,
+    "check": true
+   },
+   "estimatedMinutes": 23,
+   "drift": -0.42
+  },
+  {
+   "id": "m02",
+   "title": "Systemic hormones and the skin",
+   "statedMinutes": 41,
+   "placeholder": false,
+   "sittings": [
+    {
+     "label": "2.1 · Cortisol signatures: local 11β-HSD1 and Cushing's syndrome",
+     "id": "2.1",
+     "source": "unit.metadata.lessons",
+     "seconds": 549,
+     "minutes": 9.1,
+     "cards": 10,
+     "firstDecisionSeconds": 178,
+     "firstTapSeconds": 194,
+     "firstDecisionPane": "m2-x01",
+     "firstDecisionCard": 4,
+     "wordsBeforeFirstDecision": 184,
+     "maxPassiveRun": 3,
+     "maxPassiveRunPanes": [
+      "m2-p01",
+      "m2-opener",
+      "m2-p02"
+     ],
+     "decisions": 4,
+     "decisionsPer5Min": 2.2,
+     "maxWords": 157,
+     "maxWordsPane": "m2-p03",
+     "constructive": false,
+     "taps": 20,
+     "panes": [
+      {
+       "id": "m2-p01",
+       "blockIds": [
+        "m2-p01"
+       ],
+       "type": "title",
+       "pane": "title",
+       "kind": "title",
+       "decision": false,
+       "taps": 0,
+       "words": 83,
+       "loadKind": "default",
+       "readWords": 90,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 22.7,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 0,
+       "title": "The face that might be a diagnosis."
+      },
+      {
+       "id": "m2-opener",
+       "blockIds": [
+        "m2-opener"
+       ],
+       "type": "video",
+       "pane": "video",
+       "kind": "video",
+       "decision": false,
+       "taps": 0,
+       "words": 5,
+       "loadKind": "default",
+       "readWords": 9,
+       "media": 76.1,
+       "mediaSource": "asset",
+       "narrationWords": 0,
+       "seconds": 78.4,
+       "film": true,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 22.7,
+       "title": "Systemic hormones and the skin"
+      },
+      {
+       "id": "m2-p02",
+       "blockIds": [
+        "m2-p02"
+       ],
+       "type": "audio",
+       "pane": "slide-audio",
+       "kind": "audio",
+       "decision": false,
+       "taps": 0,
+       "words": 96,
+       "loadKind": "default",
+       "readWords": 97,
+       "media": 52.4,
+       "mediaSource": "narration words",
+       "narrationWords": 131,
+       "seconds": 76.9,
+       "film": false,
+       "audio": true,
+       "visual": true,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 101.1,
+       "title": "The skin regenerates its own cortisol."
+      },
+      {
+       "id": "m2-x01",
+       "blockIds": [
+        "m2-x01"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool+sequence",
+       "decision": true,
+       "taps": 4,
+       "words": 64,
+       "loadKind": "default",
+       "readWords": 65,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 48.4,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 178,
+       "title": "From cortisone to slower collagen"
+      },
+      {
+       "id": "m2-p03",
+       "blockIds": [
+        "m2-p03"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool",
+       "decision": false,
+       "taps": 0,
+       "words": 157,
+       "loadKind": "default",
+       "readWords": 159,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 40.1,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 226.4,
+       "title": "11β-HSD1: four separate answers."
+      },
+      {
+       "id": "m2-p04",
+       "blockIds": [
+        "m2-p04"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool+classify",
+       "decision": true,
+       "taps": 8,
+       "words": 17,
+       "loadKind": "default",
+       "readWords": 41,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 74.3,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 266.5,
+       "title": "Which features point to Cushing's?"
+      },
+      {
+       "id": "m2-p05",
+       "blockIds": [
+        "m2-p05"
+       ],
+       "type": "stat",
+       "pane": "stat",
+       "kind": "stat",
+       "decision": false,
+       "taps": 0,
+       "words": 102,
+       "loadKind": "default",
+       "readWords": 104,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 26.2,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 340.8,
+       "title": "Rare, and usually from a prescription."
+      },
+      {
+       "id": "m2-p06",
+       "blockIds": [
+        "m2-p06"
+       ],
+       "type": "audio",
+       "pane": "slide-audio",
+       "kind": "audio",
+       "decision": false,
+       "taps": 0,
+       "words": 89,
+       "loadKind": "default",
+       "readWords": 93,
+       "media": 52,
+       "mediaSource": "narration words",
+       "narrationWords": 130,
+       "seconds": 75.4,
+       "film": false,
+       "audio": true,
+       "visual": true,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 367,
+       "title": "Reassure the many, refer the few."
+      },
+      {
+       "id": "m2-x02",
+       "blockIds": [
+        "m2-x02"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool+inspect",
+       "decision": true,
+       "taps": 7,
+       "words": 92,
+       "loadKind": "default",
+       "readWords": 93,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 79.4,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 442.4,
+       "title": "The 'cortisol face' serum"
+      },
+      {
+       "id": "m2-p07",
+       "blockIds": [
+        "m2-p07"
+       ],
+       "type": "quiz",
+       "pane": "quiz",
+       "kind": "quiz",
+       "decision": true,
+       "taps": 1,
+       "words": 72,
+       "loadKind": "default",
+       "readWords": 74,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 26.7,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [
+        {
+         "index": 1,
+         "of": 3,
+         "source": "quiz card",
+         "shuffled": true
+        }
+       ],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 521.8,
+       "title": "'Is this cortisol face?'"
+      }
+     ]
+    },
+    {
+     "label": "2.2 · Estrogen, menopause and dermal collagen",
+     "id": "2.2",
+     "source": "unit.metadata.lessons",
+     "seconds": 443,
+     "minutes": 7.4,
+     "cards": 8,
+     "firstDecisionSeconds": 77,
+     "firstTapSeconds": 87,
+     "firstDecisionPane": "m2-x03",
+     "firstDecisionCard": 2,
+     "wordsBeforeFirstDecision": 95,
+     "maxPassiveRun": 2,
+     "maxPassiveRunPanes": [
+      "m2-p09",
+      "m2-p10"
+     ],
+     "decisions": 4,
+     "decisionsPer5Min": 2.7,
+     "maxWords": 204,
+     "maxWordsPane": "m2-p10",
+     "constructive": false,
+     "taps": 13,
+     "panes": [
+      {
+       "id": "m2-p08",
+       "blockIds": [
+        "m2-p08"
+       ],
+       "type": "audio",
+       "pane": "slide-audio",
+       "kind": "audio",
+       "decision": false,
+       "taps": 0,
+       "words": 95,
+       "loadKind": "default",
+       "readWords": 98,
+       "media": 52,
+       "mediaSource": "narration words",
+       "narrationWords": 130,
+       "seconds": 76.7,
+       "film": false,
+       "audio": true,
+       "visual": true,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 0,
+       "title": "Estrogen and the dermis."
+      },
+      {
+       "id": "m2-x03",
+       "blockIds": [
+        "m2-x03"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool+hotspots",
+       "decision": true,
+       "taps": 4,
+       "words": 40,
+       "loadKind": "default",
+       "readWords": 41,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 42.3,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 76.7,
+       "title": "Same receptors, different response"
+      },
+      {
+       "id": "m2-p09",
+       "blockIds": [
+        "m2-p09"
+       ],
+       "type": "stat",
+       "pane": "stat",
+       "kind": "stat",
+       "decision": false,
+       "taps": 0,
+       "words": 76,
+       "loadKind": "default",
+       "readWords": 78,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 19.7,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 119,
+       "title": "One to two per cent a year."
+      },
+      {
+       "id": "m2-p10",
+       "blockIds": [
+        "m2-p10"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool",
+       "decision": false,
+       "taps": 0,
+       "words": 204,
+       "loadKind": "default",
+       "readWords": 206,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 51.9,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 138.7,
+       "title": "Biopsy gains, mirror results."
+      },
+      {
+       "id": "m2-x04",
+       "blockIds": [
+        "m2-x04"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool+classify",
+       "decision": true,
+       "taps": 5,
+       "words": 45,
+       "loadKind": "default",
+       "readWords": 95,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 63.9,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 190.6,
+       "title": "Trial, observation or mechanism?"
+      },
+      {
+       "id": "m2-p11",
+       "blockIds": [
+        "m2-p11"
+       ],
+       "type": "audio",
+       "pane": "slide-audio",
+       "kind": "audio",
+       "decision": false,
+       "taps": 0,
+       "words": 144,
+       "loadKind": "default",
+       "readWords": 148,
+       "media": 61.2,
+       "mediaSource": "narration words",
+       "narrationWords": 153,
+       "seconds": 98.5,
+       "film": false,
+       "audio": true,
+       "visual": true,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 254.5,
+       "title": "Symptoms and bone. Skin is a bystander."
+      },
+      {
+       "id": "m2-x05",
+       "blockIds": [
+        "m2-x05"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool+branching",
+       "decision": true,
+       "taps": 3,
+       "words": 70,
+       "loadKind": "case",
+       "readWords": 148,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 61.3,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [
+        {
+         "index": 0,
+         "of": 3,
+         "source": "branching start",
+         "shuffled": false
+        },
+        {
+         "index": 0,
+         "of": 3,
+         "source": "branching n2",
+         "shuffled": false
+        },
+        {
+         "index": 0,
+         "of": 3,
+         "source": "branching n3",
+         "shuffled": false
+        }
+       ],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 353,
+       "title": "Hot flashes and a skin question"
+      },
+      {
+       "id": "m2-p12",
+       "blockIds": [
+        "m2-p12"
+       ],
+       "type": "quiz",
+       "pane": "quiz",
+       "kind": "quiz",
+       "decision": true,
+       "taps": 1,
+       "words": 80,
+       "loadKind": "default",
+       "readWords": 82,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 28.7,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [
+        {
+         "index": 2,
+         "of": 3,
+         "source": "quiz card",
+         "shuffled": true
+        }
+       ],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 414.3,
+       "title": "'Hormones for my skin.'"
+      }
+     ]
+    },
+    {
+     "label": "2.3 · Skin hallmarks of inherited and systemic endocrinopathies",
+     "id": "2.3",
+     "source": "unit.metadata.lessons",
+     "seconds": 402,
+     "minutes": 6.7,
+     "cards": 7,
+     "firstDecisionSeconds": 168,
+     "firstTapSeconds": 177,
+     "firstDecisionPane": "m2-p16",
+     "firstDecisionCard": 4,
+     "wordsBeforeFirstDecision": 241,
+     "maxPassiveRun": 3,
+     "maxPassiveRunPanes": [
+      "m2-p13",
+      "m2-p14",
+      "m2-p15"
+     ],
+     "decisions": 4,
+     "decisionsPer5Min": 3,
+     "maxWords": 136,
+     "maxWordsPane": "m2-p17",
+     "constructive": false,
+     "taps": 10,
+     "panes": [
+      {
+       "id": "m2-p13",
+       "blockIds": [
+        "m2-p13"
+       ],
+       "type": "audio",
+       "pane": "slide-audio",
+       "kind": "audio",
+       "decision": false,
+       "taps": 0,
+       "words": 82,
+       "loadKind": "default",
+       "readWords": 85,
+       "media": 51.6,
+       "mediaSource": "narration words",
+       "narrationWords": 129,
+       "seconds": 73,
+       "film": false,
+       "audio": true,
+       "visual": true,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 0,
+       "title": "Some syndromes show on the skin first."
+      },
+      {
+       "id": "m2-p14",
+       "blockIds": [
+        "m2-p14"
+       ],
+       "type": "stat",
+       "pane": "stat",
+       "kind": "stat",
+       "decision": false,
+       "taps": 0,
+       "words": 75,
+       "loadKind": "default",
+       "readWords": 77,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 19.4,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 73,
+       "title": "Eighty-eight per cent."
+      },
+      {
+       "id": "m2-p15",
+       "blockIds": [
+        "m2-p15"
+       ],
+       "type": "audio",
+       "pane": "slide-audio",
+       "kind": "audio",
+       "decision": false,
+       "taps": 0,
+       "words": 84,
+       "loadKind": "default",
+       "readWords": 85,
+       "media": 54.4,
+       "mediaSource": "narration words",
+       "narrationWords": 136,
+       "seconds": 75.8,
+       "film": false,
+       "audio": true,
+       "visual": true,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 92.4,
+       "title": "The everyday endocrine signs."
+      },
+      {
+       "id": "m2-p16",
+       "blockIds": [
+        "m2-p16"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool+quickfire",
+       "decision": true,
+       "taps": 7,
+       "words": 35,
+       "loadKind": "default",
+       "readWords": 106,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 82.7,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 168.2,
+       "title": "Where does this skin finding go?"
+      },
+      {
+       "id": "m2-p17",
+       "blockIds": [
+        "m2-p17"
+       ],
+       "type": "audio",
+       "pane": "slide-audio",
+       "kind": "audio+scenario",
+       "decision": true,
+       "taps": 1,
+       "words": 136,
+       "loadKind": "case",
+       "readWords": 138,
+       "media": 50,
+       "mediaSource": "narration words",
+       "narrationWords": 125,
+       "seconds": 92.8,
+       "film": false,
+       "audio": true,
+       "visual": true,
+       "answers": [
+        {
+         "index": 1,
+         "of": 3,
+         "source": "scenario move",
+         "shuffled": false
+        }
+       ],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 250.9,
+       "title": "Freckles before the wedding."
+      },
+      {
+       "id": "m2-p18",
+       "blockIds": [
+        "m2-p18"
+       ],
+       "type": "quiz",
+       "pane": "quiz",
+       "kind": "quiz",
+       "decision": true,
+       "taps": 1,
+       "words": 64,
+       "loadKind": "default",
+       "readWords": 66,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 24.6,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [
+        {
+         "index": 1,
+         "of": 3,
+         "source": "quiz card",
+         "shuffled": true
+        }
+       ],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 343.7,
+       "title": "Hair removal, or referral?"
+      },
+      {
+       "id": "m2-p19",
+       "blockIds": [
+        "m2-p19"
+       ],
+       "type": "action",
+       "pane": "action",
+       "kind": "action+chips",
+       "decision": true,
+       "taps": 1,
+       "words": 99,
+       "loadKind": "default",
+       "readWords": 102,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 33.7,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 368.3,
+       "title": "Before I treat a face that might be hormonal."
+      }
+     ]
+    }
+   ],
+   "findings": [],
+   "checkNotShown": {
+    "id": "m2-check",
+    "position": "B"
+   },
+   "answerPositions": {
+    "items": 4,
+    "positions": {
+     "A": 3,
+     "B": 1
+    },
+    "top": "A",
+    "topShare": 0.75,
+    "biased": false
+   },
+   "shuffledPositions": {
+    "items": 3,
+    "positions": {
+     "B": 2,
+     "C": 1
+    },
+    "top": "B",
+    "topShare": 0.67,
+    "biased": false
+   },
+   "answerItems": [
+    "m2-p07:B/3 (quiz card, shown shuffled)",
+    "m2-x05:A/3 (branching start)",
+    "m2-x05:A/3 (branching n2)",
+    "m2-x05:A/3 (branching n3)",
+    "m2-p12:C/3 (quiz card, shown shuffled)",
+    "m2-p17:B/3 (scenario move)",
+    "m2-p18:B/3 (quiz card, shown shuffled)"
+   ],
+   "triad": {
+    "explain": true,
+    "practice": true,
+    "check": true
+   },
+   "estimatedMinutes": 23.2,
+   "drift": -0.43
+  },
+  {
+   "id": "m03",
+   "title": "Fat, incretins and the ageing face",
+   "statedMinutes": 42,
+   "placeholder": false,
+   "sittings": [
+    {
+     "label": "3.1 · Dermal fat and matrix glycation",
+     "id": "3.1",
+     "source": "unit.metadata.lessons",
+     "seconds": 483,
+     "minutes": 8,
+     "cards": 10,
+     "firstDecisionSeconds": 171,
+     "firstTapSeconds": 182,
+     "firstDecisionPane": "m3-x01",
+     "firstDecisionCard": 4,
+     "wordsBeforeFirstDecision": 180,
+     "maxPassiveRun": 3,
+     "maxPassiveRunPanes": [
+      "m3-p01",
+      "m3-opener",
+      "m3-p02"
+     ],
+     "decisions": 4,
+     "decisionsPer5Min": 2.5,
+     "maxWords": 101,
+     "maxWordsPane": "m3-p02",
+     "constructive": false,
+     "taps": 16,
+     "panes": [
+      {
+       "id": "m3-p01",
+       "blockIds": [
+        "m3-p01"
+       ],
+       "type": "title",
+       "pane": "title",
+       "kind": "title",
+       "decision": false,
+       "taps": 0,
+       "words": 73,
+       "loadKind": "default",
+       "readWords": 81,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 20.4,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 0,
+       "title": "The face changes when the fat does."
+      },
+      {
+       "id": "m3-opener",
+       "blockIds": [
+        "m3-opener"
+       ],
+       "type": "video",
+       "pane": "video",
+       "kind": "video",
+       "decision": false,
+       "taps": 0,
+       "words": 6,
+       "loadKind": "default",
+       "readWords": 10,
+       "media": 72.3,
+       "mediaSource": "asset",
+       "narrationWords": 0,
+       "seconds": 74.9,
+       "film": true,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 20.4,
+       "title": "Fat, incretins and the ageing face"
+      },
+      {
+       "id": "m3-p02",
+       "blockIds": [
+        "m3-p02"
+       ],
+       "type": "audio",
+       "pane": "slide-audio",
+       "kind": "audio",
+       "decision": false,
+       "taps": 0,
+       "words": 101,
+       "loadKind": "default",
+       "readWords": 102,
+       "media": 50.4,
+       "mediaSource": "narration words",
+       "narrationWords": 126,
+       "seconds": 76.1,
+       "film": false,
+       "audio": true,
+       "visual": true,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 95.3,
+       "title": "The skin keeps its own fat."
+      },
+      {
+       "id": "m3-x01",
+       "blockIds": [
+        "m3-x01"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool+hotspots",
+       "decision": true,
+       "taps": 4,
+       "words": 41,
+       "loadKind": "default",
+       "readWords": 42,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 42.6,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 171.4,
+       "title": "Fat inside the dermis, and below it."
+      },
+      {
+       "id": "m3-p03",
+       "blockIds": [
+        "m3-p03"
+       ],
+       "type": "stat",
+       "pane": "stat",
+       "kind": "stat",
+       "decision": false,
+       "taps": 0,
+       "words": 89,
+       "loadKind": "default",
+       "readWords": 91,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 22.9,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 214,
+       "title": "Fat that holds the face up."
+      },
+      {
+       "id": "m3-p04",
+       "blockIds": [
+        "m3-p04"
+       ],
+       "type": "audio",
+       "pane": "slide-audio",
+       "kind": "audio",
+       "decision": false,
+       "taps": 0,
+       "words": 92,
+       "loadKind": "default",
+       "readWords": 93,
+       "media": 54.8,
+       "mediaSource": "narration words",
+       "narrationWords": 137,
+       "seconds": 78.2,
+       "film": false,
+       "audio": true,
+       "visual": true,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 236.9,
+       "title": "Sugar that sticks to collagen."
+      },
+      {
+       "id": "m3-x02",
+       "blockIds": [
+        "m3-x02"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool+sequence",
+       "decision": true,
+       "taps": 5,
+       "words": 49,
+       "loadKind": "default",
+       "readWords": 50,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 52.6,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 315.1,
+       "title": "From sugar to cross-link."
+      },
+      {
+       "id": "m3-p05",
+       "blockIds": [
+        "m3-p05"
+       ],
+       "type": "stat",
+       "pane": "stat",
+       "kind": "stat",
+       "decision": false,
+       "taps": 0,
+       "words": 88,
+       "loadKind": "default",
+       "readWords": 90,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 22.7,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 367.7,
+       "title": "Fifteen years on the same collagen."
+      },
+      {
+       "id": "m3-p06",
+       "blockIds": [
+        "m3-p06"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool+classify",
+       "decision": true,
+       "taps": 6,
+       "words": 22,
+       "loadKind": "default",
+       "readWords": 76,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 67.2,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 390.4,
+       "title": "Mouse, human or marketing?"
+      },
+      {
+       "id": "m3-p07",
+       "blockIds": [
+        "m3-p07"
+       ],
+       "type": "quiz",
+       "pane": "quiz",
+       "kind": "quiz",
+       "decision": true,
+       "taps": 1,
+       "words": 65,
+       "loadKind": "default",
+       "readWords": 67,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 24.9,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [
+        {
+         "index": 1,
+         "of": 3,
+         "source": "quiz card",
+         "shuffled": true
+        }
+       ],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 457.6,
+       "title": "A lower reading."
+      }
+     ]
+    },
+    {
+     "label": "3.2 · Incretin therapy and the changing face",
+     "id": "3.2",
+     "source": "unit.metadata.lessons",
+     "seconds": 553,
+     "minutes": 9.2,
+     "cards": 9,
+     "firstDecisionSeconds": 201,
+     "firstTapSeconds": 209,
+     "firstDecisionPane": "m3-x03",
+     "firstDecisionCard": 5,
+     "wordsBeforeFirstDecision": 576,
+     "maxPassiveRun": 4,
+     "maxPassiveRunPanes": [
+      "m3-p08",
+      "m3-p09",
+      "m3-p10",
+      "m3-p11"
+     ],
+     "decisions": 4,
+     "decisionsPer5Min": 2.2,
+     "maxWords": 208,
+     "maxWordsPane": "m3-p11",
+     "constructive": false,
+     "taps": 10,
+     "panes": [
+      {
+       "id": "m3-p08",
+       "blockIds": [
+        "m3-p08"
+       ],
+       "type": "audio",
+       "pane": "slide-audio",
+       "kind": "audio",
+       "decision": false,
+       "taps": 0,
+       "words": 79,
+       "loadKind": "default",
+       "readWords": 82,
+       "media": 53.2,
+       "mediaSource": "narration words",
+       "narrationWords": 133,
+       "seconds": 73.9,
+       "film": false,
+       "audio": true,
+       "visual": true,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 0,
+       "title": "Two gut hormones, re-engineered."
+      },
+      {
+       "id": "m3-p09",
+       "blockIds": [
+        "m3-p09"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool",
+       "decision": false,
+       "taps": 0,
+       "words": 197,
+       "loadKind": "default",
+       "readWords": 199,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 50.2,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 73.9,
+       "title": "Approved for what, exactly?"
+      },
+      {
+       "id": "m3-p10",
+       "blockIds": [
+        "m3-p10"
+       ],
+       "type": "stat",
+       "pane": "stat",
+       "kind": "stat",
+       "decision": false,
+       "taps": 0,
+       "words": 92,
+       "loadKind": "default",
+       "readWords": 94,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 23.7,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 124.1,
+       "title": "Large trials, measured on the scale."
+      },
+      {
+       "id": "m3-p11",
+       "blockIds": [
+        "m3-p11"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool",
+       "decision": false,
+       "taps": 0,
+       "words": 208,
+       "loadKind": "default",
+       "readWords": 210,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 52.9,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 147.8,
+       "title": "'Ozempic face', answer by answer."
+      },
+      {
+       "id": "m3-x03",
+       "blockIds": [
+        "m3-x03"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool+classify",
+       "decision": true,
+       "taps": 5,
+       "words": 33,
+       "loadKind": "default",
+       "readWords": 79,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 59.9,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 200.7,
+       "title": "Randomized, observational or cells only?"
+      },
+      {
+       "id": "m3-p12",
+       "blockIds": [
+        "m3-p12"
+       ],
+       "type": "audio",
+       "pane": "slide-audio",
+       "kind": "audio",
+       "decision": false,
+       "taps": 0,
+       "words": 111,
+       "loadKind": "default",
+       "readWords": 115,
+       "media": 52.4,
+       "mediaSource": "narration words",
+       "narrationWords": 131,
+       "seconds": 81.4,
+       "film": false,
+       "audio": true,
+       "visual": true,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 260.6,
+       "title": "Counsel before, record during, refer when asked."
+      },
+      {
+       "id": "m3-x04",
+       "blockIds": [
+        "m3-x04"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool+branching",
+       "decision": true,
+       "taps": 3,
+       "words": 130,
+       "loadKind": "case",
+       "readWords": 236,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 83.5,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [
+        {
+         "index": 0,
+         "of": 3,
+         "source": "branching n1",
+         "shuffled": false
+        },
+        {
+         "index": 0,
+         "of": 3,
+         "source": "branching n2",
+         "shuffled": false
+        },
+        {
+         "index": 0,
+         "of": 3,
+         "source": "branching n3",
+         "shuffled": false
+        }
+       ],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 342,
+       "title": "Starting tirzepatide, worried about her face."
+      },
+      {
+       "id": "m3-p13",
+       "blockIds": [
+        "m3-p13"
+       ],
+       "type": "audio",
+       "pane": "slide-audio",
+       "kind": "audio+scenario",
+       "decision": true,
+       "taps": 1,
+       "words": 177,
+       "loadKind": "case",
+       "readWords": 179,
+       "media": 50,
+       "mediaSource": "narration words",
+       "narrationWords": 125,
+       "seconds": 103.1,
+       "film": false,
+       "audio": true,
+       "visual": true,
+       "answers": [
+        {
+         "index": 1,
+         "of": 3,
+         "source": "scenario move",
+         "shuffled": false
+        }
+       ],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 425.5,
+       "title": "Ten months in, and unhappy with the mirror."
+      },
+      {
+       "id": "m3-p14",
+       "blockIds": [
+        "m3-p14"
+       ],
+       "type": "quiz",
+       "pane": "quiz",
+       "kind": "quiz",
+       "decision": true,
+       "taps": 1,
+       "words": 64,
+       "loadKind": "default",
+       "readWords": 66,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 24.6,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [
+        {
+         "index": 1,
+         "of": 3,
+         "source": "quiz card",
+         "shuffled": true
+        }
+       ],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 528.6,
+       "title": "What the evidence shows."
+      }
+     ]
+    },
+    {
+     "label": "3.3 · Gut barrier, endotoxaemia and inflammaging",
+     "id": "3.3",
+     "source": "unit.metadata.lessons",
+     "seconds": 390,
+     "minutes": 6.5,
+     "cards": 7,
+     "firstDecisionSeconds": 95,
+     "firstTapSeconds": 101,
+     "firstDecisionPane": "m3-p17",
+     "firstDecisionCard": 3,
+     "wordsBeforeFirstDecision": 177,
+     "maxPassiveRun": 2,
+     "maxPassiveRunPanes": [
+      "m3-p15",
+      "m3-p16"
+     ],
+     "decisions": 4,
+     "decisionsPer5Min": 3.1,
+     "maxWords": 142,
+     "maxWordsPane": "m3-x05",
+     "constructive": false,
+     "taps": 15,
+     "panes": [
+      {
+       "id": "m3-p15",
+       "blockIds": [
+        "m3-p15"
+       ],
+       "type": "audio",
+       "pane": "slide-audio",
+       "kind": "audio",
+       "decision": false,
+       "taps": 0,
+       "words": 86,
+       "loadKind": "default",
+       "readWords": 89,
+       "media": 49.6,
+       "mediaSource": "narration words",
+       "narrationWords": 124,
+       "seconds": 72,
+       "film": false,
+       "audio": true,
+       "visual": true,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 0,
+       "title": "Inflammation that comes with age."
+      },
+      {
+       "id": "m3-p16",
+       "blockIds": [
+        "m3-p16"
+       ],
+       "type": "stat",
+       "pane": "stat",
+       "kind": "stat",
+       "decision": false,
+       "taps": 0,
+       "words": 91,
+       "loadKind": "default",
+       "readWords": 93,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 23.4,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 72,
+       "title": "Thirty-nine trials of probiotics for eczema."
+      },
+      {
+       "id": "m3-p17",
+       "blockIds": [
+        "m3-p17"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool+quickfire",
+       "decision": true,
+       "taps": 6,
+       "words": 24,
+       "loadKind": "default",
+       "readWords": 68,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 65.1,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 95.4,
+       "title": "What has been tested on skin?"
+      },
+      {
+       "id": "m3-p18",
+       "blockIds": [
+        "m3-p18"
+       ],
+       "type": "audio",
+       "pane": "slide-audio",
+       "kind": "audio",
+       "decision": false,
+       "taps": 0,
+       "words": 94,
+       "loadKind": "default",
+       "readWords": 98,
+       "media": 53.6,
+       "mediaSource": "narration words",
+       "narrationWords": 134,
+       "seconds": 78.3,
+       "film": false,
+       "audio": true,
+       "visual": true,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 160.5,
+       "title": "Diet first, a bottle last."
+      },
+      {
+       "id": "m3-x05",
+       "blockIds": [
+        "m3-x05"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool+inspect",
+       "decision": true,
+       "taps": 7,
+       "words": 142,
+       "loadKind": "default",
+       "readWords": 143,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 92.1,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 238.8,
+       "title": "From a fatty meal to clear skin?"
+      },
+      {
+       "id": "m3-p19",
+       "blockIds": [
+        "m3-p19"
+       ],
+       "type": "quiz",
+       "pane": "quiz",
+       "kind": "quiz",
+       "decision": true,
+       "taps": 1,
+       "words": 75,
+       "loadKind": "default",
+       "readWords": 77,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 27.4,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [
+        {
+         "index": 1,
+         "of": 3,
+         "source": "quiz card",
+         "shuffled": true
+        }
+       ],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 330.9,
+       "title": "The zonulin test."
+      },
+      {
+       "id": "m3-p20",
+       "blockIds": [
+        "m3-p20"
+       ],
+       "type": "action",
+       "pane": "action",
+       "kind": "action+chips",
+       "decision": true,
+       "taps": 1,
+       "words": 91,
+       "loadKind": "default",
+       "readWords": 94,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 31.7,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 358.3,
+       "title": "Before my next conversation about weight, skin and the gut."
+      }
+     ]
+    }
+   ],
+   "findings": [],
+   "checkNotShown": {
+    "id": "m3-check",
+    "position": "B"
+   },
+   "answerPositions": {
+    "items": 4,
+    "positions": {
+     "A": 3,
+     "B": 1
+    },
+    "top": "A",
+    "topShare": 0.75,
+    "biased": false
+   },
+   "shuffledPositions": {
+    "items": 3,
+    "positions": {
+     "B": 3
+    },
+    "top": "B",
+    "topShare": 1,
+    "biased": false
+   },
+   "answerItems": [
+    "m3-p07:B/3 (quiz card, shown shuffled)",
+    "m3-x04:A/3 (branching n1)",
+    "m3-x04:A/3 (branching n2)",
+    "m3-x04:A/3 (branching n3)",
+    "m3-p13:B/3 (scenario move)",
+    "m3-p14:B/3 (quiz card, shown shuffled)",
+    "m3-p19:B/3 (quiz card, shown shuffled)"
+   ],
+   "triad": {
+    "explain": true,
+    "practice": true,
+    "check": true
+   },
+   "estimatedMinutes": 23.8,
+   "drift": -0.43
+  },
+  {
+   "id": "m04",
+   "title": "Matrix peptides and wound healing",
+   "statedMinutes": 41,
+   "placeholder": false,
+   "sittings": [
+    {
+     "label": "4.1 · Copper peptides: GHK and GHK-Cu",
+     "id": "4.1",
+     "source": "unit.metadata.lessons",
+     "seconds": 393,
+     "minutes": 6.5,
+     "cards": 9,
+     "firstDecisionSeconds": 89,
+     "firstTapSeconds": 107,
+     "firstDecisionPane": "m4-p02",
+     "firstDecisionCard": 3,
+     "wordsBeforeFirstDecision": 74,
+     "maxPassiveRun": 3,
+     "maxPassiveRunPanes": [
+      "m4-p03",
+      "m4-p04",
+      "m4-p05"
+     ],
+     "decisions": 3,
+     "decisionsPer5Min": 2.3,
+     "maxWords": 148,
+     "maxWordsPane": "m4-p05",
+     "constructive": false,
+     "taps": 9,
+     "panes": [
+      {
+       "id": "m4-p01",
+       "blockIds": [
+        "m4-p01"
+       ],
+       "type": "title",
+       "pane": "title",
+       "kind": "title",
+       "decision": false,
+       "taps": 0,
+       "words": 69,
+       "loadKind": "default",
+       "readWords": 76,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 19.2,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 0,
+       "title": "The peptide your patient already bought."
+      },
+      {
+       "id": "m4-opener",
+       "blockIds": [
+        "m4-opener"
+       ],
+       "type": "video",
+       "pane": "video",
+       "kind": "video",
+       "decision": false,
+       "taps": 0,
+       "words": 5,
+       "loadKind": "default",
+       "readWords": 9,
+       "media": 67.1,
+       "mediaSource": "asset",
+       "narrationWords": 0,
+       "seconds": 69.4,
+       "film": true,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 19.2,
+       "title": "Matrix peptides and wound healing"
+      },
+      {
+       "id": "m4-p02",
+       "blockIds": [
+        "m4-p02"
+       ],
+       "type": "reflection",
+       "pane": "reflection",
+       "kind": "reflection",
+       "decision": true,
+       "taps": 1,
+       "words": 72,
+       "loadKind": "default",
+       "readWords": 74,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 26.7,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 88.6,
+       "title": "How will you use this module?"
+      },
+      {
+       "id": "m4-p03",
+       "blockIds": [
+        "m4-p03"
+       ],
+       "type": "audio",
+       "pane": "slide-audio",
+       "kind": "audio",
+       "decision": false,
+       "taps": 0,
+       "words": 75,
+       "loadKind": "default",
+       "readWords": 76,
+       "media": 46.8,
+       "mediaSource": "narration words",
+       "narrationWords": 117,
+       "seconds": 66,
+       "film": false,
+       "audio": true,
+       "visual": true,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 115.3,
+       "title": "A plasma tripeptide with a copper habit."
+      },
+      {
+       "id": "m4-p04",
+       "blockIds": [
+        "m4-p04"
+       ],
+       "type": "stat",
+       "pane": "stat",
+       "kind": "stat",
+       "decision": false,
+       "taps": 0,
+       "words": 73,
+       "loadKind": "default",
+       "readWords": 75,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 18.9,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 181.3,
+       "title": "One indexed randomized trial."
+      },
+      {
+       "id": "m4-p05",
+       "blockIds": [
+        "m4-p05"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool",
+       "decision": false,
+       "taps": 0,
+       "words": 148,
+       "loadKind": "default",
+       "readWords": 150,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 37.8,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 200.2,
+       "title": "Keep the four answers apart."
+      },
+      {
+       "id": "m4-x01",
+       "blockIds": [
+        "m4-x01"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool+inspect",
+       "decision": true,
+       "taps": 7,
+       "words": 87,
+       "loadKind": "default",
+       "readWords": 88,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 78.2,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 238,
+       "title": "A copper serum's sales page"
+      },
+      {
+       "id": "m4-p06",
+       "blockIds": [
+        "m4-p06"
+       ],
+       "type": "audio",
+       "pane": "slide-audio",
+       "kind": "audio",
+       "decision": false,
+       "taps": 0,
+       "words": 62,
+       "loadKind": "default",
+       "readWords": 66,
+       "media": 35.2,
+       "mediaSource": "narration words",
+       "narrationWords": 88,
+       "seconds": 51.8,
+       "film": false,
+       "audio": true,
+       "visual": true,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 316.2,
+       "title": "Serum yes, syringe no."
+      },
+      {
+       "id": "m4-p07",
+       "blockIds": [
+        "m4-p07"
+       ],
+       "type": "quiz",
+       "pane": "quiz",
+       "kind": "quiz",
+       "decision": true,
+       "taps": 1,
+       "words": 64,
+       "loadKind": "default",
+       "readWords": 66,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 24.6,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [
+        {
+         "index": 1,
+         "of": 3,
+         "source": "quiz card",
+         "shuffled": true
+        }
+       ],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 368,
+       "title": "Is the injection 'stronger'?"
+      }
+     ]
+    },
+    {
+     "label": "4.2 · Signal peptides, oral collagen and SNAP-25 mimics",
+     "id": "4.2",
+     "source": "unit.metadata.lessons",
+     "seconds": 242,
+     "minutes": 4,
+     "cards": 6,
+     "firstDecisionSeconds": 59,
+     "firstTapSeconds": 68,
+     "firstDecisionPane": "m4-x02",
+     "firstDecisionCard": 2,
+     "wordsBeforeFirstDecision": 76,
+     "maxPassiveRun": 2,
+     "maxPassiveRunPanes": [
+      "m4-p10",
+      "m4-p11"
+     ],
+     "decisions": 3,
+     "decisionsPer5Min": 3.7,
+     "maxWords": 87,
+     "maxWordsPane": "m4-p10",
+     "constructive": false,
+     "taps": 9,
+     "panes": [
+      {
+       "id": "m4-p08",
+       "blockIds": [
+        "m4-p08"
+       ],
+       "type": "audio",
+       "pane": "slide-audio",
+       "kind": "audio",
+       "decision": false,
+       "taps": 0,
+       "words": 76,
+       "loadKind": "default",
+       "readWords": 79,
+       "media": 39.2,
+       "mediaSource": "narration words",
+       "narrationWords": 98,
+       "seconds": 59.1,
+       "film": false,
+       "audio": true,
+       "visual": true,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 0,
+       "title": "Three families, one question: who ran the trial?"
+      },
+      {
+       "id": "m4-x02",
+       "blockIds": [
+        "m4-x02"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool+hotspots",
+       "decision": true,
+       "taps": 3,
+       "words": 35,
+       "loadKind": "default",
+       "readWords": 36,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 33.1,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 59.1,
+       "title": "Three families, three premises"
+      },
+      {
+       "id": "m4-p09",
+       "blockIds": [
+        "m4-p09"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool+classify",
+       "decision": true,
+       "taps": 5,
+       "words": 18,
+       "loadKind": "default",
+       "readWords": 33,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 48.3,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 92.2,
+       "title": "A trial, or a brochure?"
+      },
+      {
+       "id": "m4-p10",
+       "blockIds": [
+        "m4-p10"
+       ],
+       "type": "stat",
+       "pane": "stat",
+       "kind": "stat",
+       "decision": false,
+       "taps": 0,
+       "words": 87,
+       "loadKind": "default",
+       "readWords": 89,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 22.4,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 140.5,
+       "title": "Twenty-three trials, split by who paid."
+      },
+      {
+       "id": "m4-p11",
+       "blockIds": [
+        "m4-p11"
+       ],
+       "type": "audio",
+       "pane": "slide-audio",
+       "kind": "audio",
+       "decision": false,
+       "taps": 0,
+       "words": 77,
+       "loadKind": "default",
+       "readWords": 81,
+       "media": 36,
+       "mediaSource": "narration words",
+       "narrationWords": 90,
+       "seconds": 56.4,
+       "film": false,
+       "audio": true,
+       "visual": true,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 162.9,
+       "title": "Cosmetic, supplement, drug: three rulebooks."
+      },
+      {
+       "id": "m4-p12",
+       "blockIds": [
+        "m4-p12"
+       ],
+       "type": "quiz",
+       "pane": "quiz",
+       "kind": "quiz",
+       "decision": true,
+       "taps": 1,
+       "words": 57,
+       "loadKind": "default",
+       "readWords": 59,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 22.9,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [
+        {
+         "index": 0,
+         "of": 3,
+         "source": "quiz card",
+         "shuffled": true
+        }
+       ],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 219.3,
+       "title": "'Clinically proven' collagen."
+      }
+     ]
+    },
+    {
+     "label": "4.3 · Repair peptides and the compounding line",
+     "id": "4.3",
+     "source": "unit.metadata.lessons",
+     "seconds": 510,
+     "minutes": 8.5,
+     "cards": 10,
+     "firstDecisionSeconds": 93,
+     "firstTapSeconds": 115,
+     "firstDecisionPane": "m4-x03",
+     "firstDecisionCard": 3,
+     "wordsBeforeFirstDecision": 181,
+     "maxPassiveRun": 2,
+     "maxPassiveRunPanes": [
+      "m4-p13",
+      "m4-p14"
+     ],
+     "decisions": 7,
+     "decisionsPer5Min": 4.1,
+     "maxWords": 139,
+     "maxWordsPane": "m4-p17",
+     "constructive": false,
+     "taps": 22,
+     "panes": [
+      {
+       "id": "m4-p13",
+       "blockIds": [
+        "m4-p13"
+       ],
+       "type": "audio",
+       "pane": "slide-audio",
+       "kind": "audio",
+       "decision": false,
+       "taps": 0,
+       "words": 71,
+       "loadKind": "default",
+       "readWords": 74,
+       "media": 46,
+       "mediaSource": "narration words",
+       "narrationWords": 115,
+       "seconds": 64.7,
+       "film": false,
+       "audio": true,
+       "visual": true,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 0,
+       "title": "Rodents, a fragment, and a tripeptide."
+      },
+      {
+       "id": "m4-p14",
+       "blockIds": [
+        "m4-p14"
+       ],
+       "type": "stat",
+       "pane": "stat",
+       "kind": "stat",
+       "decision": false,
+       "taps": 0,
+       "words": 110,
+       "loadKind": "default",
+       "readWords": 112,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 28.2,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 64.7,
+       "title": "One abstract, no published trial."
+      },
+      {
+       "id": "m4-x03",
+       "blockIds": [
+        "m4-x03"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool+branching",
+       "decision": true,
+       "taps": 3,
+       "words": 88,
+       "loadKind": "case",
+       "readWords": 187,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 71.1,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [
+        {
+         "index": 0,
+         "of": 3,
+         "source": "branching start",
+         "shuffled": false
+        },
+        {
+         "index": 0,
+         "of": 3,
+         "source": "branching n2",
+         "shuffled": false
+        },
+        {
+         "index": 0,
+         "of": 3,
+         "source": "branching n3",
+         "shuffled": false
+        }
+       ],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 92.9,
+       "title": "A patient asks for BPC-157"
+      },
+      {
+       "id": "m4-p15",
+       "blockIds": [
+        "m4-p15"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool",
+       "decision": false,
+       "taps": 0,
+       "words": 110,
+       "loadKind": "default",
+       "readWords": 112,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 28.2,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 164,
+       "title": "Two trials, one peptide: LL-37."
+      },
+      {
+       "id": "m4-x04",
+       "blockIds": [
+        "m4-x04"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool+classify",
+       "decision": true,
+       "taps": 6,
+       "words": 33,
+       "loadKind": "default",
+       "readWords": 57,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 62.4,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 192.2,
+       "title": "Six peptides, three kinds of evidence"
+      },
+      {
+       "id": "m4-p16",
+       "blockIds": [
+        "m4-p16"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool+quickfire",
+       "decision": true,
+       "taps": 6,
+       "words": 29,
+       "loadKind": "default",
+       "readWords": 54,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 61.6,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 254.6,
+       "title": "Where does it stand in the US?"
+      },
+      {
+       "id": "m4-x05",
+       "blockIds": [
+        "m4-x05"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool+sequence",
+       "decision": true,
+       "taps": 4,
+       "words": 68,
+       "loadKind": "default",
+       "readWords": 69,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 49.4,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 316.2,
+       "title": "From Category 1 to the bulks list"
+      },
+      {
+       "id": "m4-p17",
+       "blockIds": [
+        "m4-p17"
+       ],
+       "type": "audio",
+       "pane": "slide-audio",
+       "kind": "audio+scenario",
+       "decision": true,
+       "taps": 1,
+       "words": 139,
+       "loadKind": "case",
+       "readWords": 141,
+       "media": 45.6,
+       "mediaSource": "narration words",
+       "narrationWords": 114,
+       "seconds": 89.1,
+       "film": false,
+       "audio": true,
+       "visual": true,
+       "answers": [
+        {
+         "index": 1,
+         "of": 3,
+         "source": "scenario move",
+         "shuffled": false
+        }
+       ],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 365.6,
+       "title": "New dark patches, three months into 'GLOW'."
+      },
+      {
+       "id": "m4-p18",
+       "blockIds": [
+        "m4-p18"
+       ],
+       "type": "quiz",
+       "pane": "quiz",
+       "kind": "quiz",
+       "decision": true,
+       "taps": 1,
+       "words": 65,
+       "loadKind": "default",
+       "readWords": 67,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 24.9,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [
+        {
+         "index": 1,
+         "of": 3,
+         "source": "quiz card",
+         "shuffled": true
+        }
+       ],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 454.7,
+       "title": "After the July review."
+      },
+      {
+       "id": "m4-p19",
+       "blockIds": [
+        "m4-p19"
+       ],
+       "type": "action",
+       "pane": "action",
+       "kind": "action+chips",
+       "decision": true,
+       "taps": 1,
+       "words": 88,
+       "loadKind": "default",
+       "readWords": 91,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 30.9,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 479.6,
+       "title": "Before my next peptide conversation."
+      }
+     ]
+    }
+   ],
+   "findings": [],
+   "checkNotShown": {
+    "id": "m4-check",
+    "position": "B"
+   },
+   "answerPositions": {
+    "items": 4,
+    "positions": {
+     "A": 3,
+     "B": 1
+    },
+    "top": "A",
+    "topShare": 0.75,
+    "biased": false
+   },
+   "shuffledPositions": {
+    "items": 3,
+    "positions": {
+     "A": 1,
+     "B": 2
+    },
+    "top": "B",
+    "topShare": 0.67,
+    "biased": false
+   },
+   "answerItems": [
+    "m4-p07:B/3 (quiz card, shown shuffled)",
+    "m4-p12:A/3 (quiz card, shown shuffled)",
+    "m4-x03:A/3 (branching start)",
+    "m4-x03:A/3 (branching n2)",
+    "m4-x03:A/3 (branching n3)",
+    "m4-p17:B/3 (scenario move)",
+    "m4-p18:B/3 (quiz card, shown shuffled)"
+   ],
+   "triad": {
+    "explain": true,
+    "practice": true,
+    "check": true
+   },
+   "estimatedMinutes": 19.1,
+   "drift": -0.53
+  },
+  {
+   "id": "m05",
+   "title": "Follicle, pigment and melanocortins",
+   "statedMinutes": 41,
+   "placeholder": false,
+   "sittings": [
+    {
+     "label": "5.1 · The hair follicle as an endocrine mini-organ",
+     "id": "5.1",
+     "source": "unit.metadata.lessons",
+     "seconds": 414,
+     "minutes": 6.9,
+     "cards": 8,
+     "firstDecisionSeconds": 176,
+     "firstTapSeconds": 192,
+     "firstDecisionPane": "m5-x01",
+     "firstDecisionCard": 4,
+     "wordsBeforeFirstDecision": 189,
+     "maxPassiveRun": 3,
+     "maxPassiveRunPanes": [
+      "m5-p01",
+      "m5-opener",
+      "m5-p02"
+     ],
+     "decisions": 3,
+     "decisionsPer5Min": 2.2,
+     "maxWords": 97,
+     "maxWordsPane": "m5-p03",
+     "constructive": false,
+     "taps": 11,
+     "panes": [
+      {
+       "id": "m5-p01",
+       "blockIds": [
+        "m5-p01"
+       ],
+       "type": "title",
+       "pane": "title",
+       "kind": "title",
+       "decision": false,
+       "taps": 0,
+       "words": 94,
+       "loadKind": "default",
+       "readWords": 100,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 25.2,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 0,
+       "title": "A spray for the scalp, a tan in a vial."
+      },
+      {
+       "id": "m5-opener",
+       "blockIds": [
+        "m5-opener"
+       ],
+       "type": "video",
+       "pane": "video",
+       "kind": "video",
+       "decision": false,
+       "taps": 0,
+       "words": 4,
+       "loadKind": "default",
+       "readWords": 8,
+       "media": 71.3,
+       "mediaSource": "asset",
+       "narrationWords": 0,
+       "seconds": 73.3,
+       "film": true,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 25.2,
+       "title": "Follicle, pigment and melanocortins"
+      },
+      {
+       "id": "m5-p02",
+       "blockIds": [
+        "m5-p02"
+       ],
+       "type": "audio",
+       "pane": "slide-audio",
+       "kind": "audio",
+       "decision": false,
+       "taps": 0,
+       "words": 91,
+       "loadKind": "default",
+       "readWords": 92,
+       "media": 54,
+       "mediaSource": "narration words",
+       "narrationWords": 135,
+       "seconds": 77.2,
+       "film": false,
+       "audio": true,
+       "visual": true,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 98.5,
+       "title": "A follicle that runs its own hormones."
+      },
+      {
+       "id": "m5-x01",
+       "blockIds": [
+        "m5-x01"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool+sequence",
+       "decision": true,
+       "taps": 4,
+       "words": 66,
+       "loadKind": "default",
+       "readWords": 67,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 48.9,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 175.7,
+       "title": "The follicle's own stress loop"
+      },
+      {
+       "id": "m5-p03",
+       "blockIds": [
+        "m5-p03"
+       ],
+       "type": "stat",
+       "pane": "stat",
+       "kind": "stat",
+       "decision": false,
+       "taps": 0,
+       "words": 97,
+       "loadKind": "default",
+       "readWords": 99,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 25,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 224.6,
+       "title": "Two trials, 1,200 adults, one approval."
+      },
+      {
+       "id": "m5-p04",
+       "blockIds": [
+        "m5-p04"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool+quickfire",
+       "decision": true,
+       "taps": 6,
+       "words": 35,
+       "loadKind": "default",
+       "readWords": 102,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 73.7,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 249.6,
+       "title": "Four questions before any product."
+      },
+      {
+       "id": "m5-p05",
+       "blockIds": [
+        "m5-p05"
+       ],
+       "type": "audio",
+       "pane": "slide-audio",
+       "kind": "audio",
+       "decision": false,
+       "taps": 0,
+       "words": 75,
+       "loadKind": "default",
+       "readWords": 79,
+       "media": 44.4,
+       "mediaSource": "narration words",
+       "narrationWords": 111,
+       "seconds": 64.3,
+       "film": false,
+       "audio": true,
+       "visual": true,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 323.3,
+       "title": "Work up the hair loss before anyone mentions a peptide."
+      },
+      {
+       "id": "m5-p06",
+       "blockIds": [
+        "m5-p06"
+       ],
+       "type": "quiz",
+       "pane": "quiz",
+       "kind": "quiz",
+       "decision": true,
+       "taps": 1,
+       "words": 71,
+       "loadKind": "default",
+       "readWords": 73,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 26.4,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [
+        {
+         "index": 1,
+         "of": 3,
+         "source": "quiz card",
+         "shuffled": true
+        }
+       ],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 387.6,
+       "title": "Shedding after the baby."
+      }
+     ]
+    },
+    {
+     "label": "5.2 · Melanocortins: approved afamelanotide and gray-market Melanotan II",
+     "id": "5.2",
+     "source": "unit.metadata.lessons",
+     "seconds": 496,
+     "minutes": 8.3,
+     "cards": 9,
+     "firstDecisionSeconds": 70,
+     "firstTapSeconds": 80,
+     "firstDecisionPane": "m5-x02",
+     "firstDecisionCard": 2,
+     "wordsBeforeFirstDecision": 83,
+     "maxPassiveRun": 3,
+     "maxPassiveRunPanes": [
+      "m5-p08",
+      "m5-p09",
+      "m5-p10"
+     ],
+     "decisions": 4,
+     "decisionsPer5Min": 2.4,
+     "maxWords": 169,
+     "maxWordsPane": "m5-p08",
+     "constructive": false,
+     "taps": 12,
+     "panes": [
+      {
+       "id": "m5-p07",
+       "blockIds": [
+        "m5-p07"
+       ],
+       "type": "audio",
+       "pane": "slide-audio",
+       "kind": "audio",
+       "decision": false,
+       "taps": 0,
+       "words": 83,
+       "loadKind": "default",
+       "readWords": 86,
+       "media": 48.4,
+       "mediaSource": "narration words",
+       "narrationWords": 121,
+       "seconds": 70.1,
+       "film": false,
+       "audio": true,
+       "visual": true,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 0,
+       "title": "Five receptors, one family of hormones."
+      },
+      {
+       "id": "m5-x02",
+       "blockIds": [
+        "m5-x02"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool+hotspots",
+       "decision": true,
+       "taps": 4,
+       "words": 39,
+       "loadKind": "default",
+       "readWords": 40,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 42.1,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 70.1,
+       "title": "Pigment, adrenal, brain, sebum"
+      },
+      {
+       "id": "m5-p08",
+       "blockIds": [
+        "m5-p08"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool",
+       "decision": false,
+       "taps": 0,
+       "words": 169,
+       "loadKind": "default",
+       "readWords": 171,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 43.1,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 112.2,
+       "title": "One receptor family, two very different molecules."
+      },
+      {
+       "id": "m5-p09",
+       "blockIds": [
+        "m5-p09"
+       ],
+       "type": "stat",
+       "pane": "stat",
+       "kind": "stat",
+       "decision": false,
+       "taps": 0,
+       "words": 92,
+       "loadKind": "default",
+       "readWords": 94,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 23.7,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 155.3,
+       "title": "Sixty-nine hours against forty-one."
+      },
+      {
+       "id": "m5-p10",
+       "blockIds": [
+        "m5-p10"
+       ],
+       "type": "audio",
+       "pane": "slide-audio",
+       "kind": "audio",
+       "decision": false,
+       "taps": 0,
+       "words": 110,
+       "loadKind": "default",
+       "readWords": 112,
+       "media": 54,
+       "mediaSource": "narration words",
+       "narrationWords": 135,
+       "seconds": 82.2,
+       "film": false,
+       "audio": true,
+       "visual": true,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 179,
+       "title": "What the case reports show."
+      },
+      {
+       "id": "m5-x03",
+       "blockIds": [
+        "m5-x03"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool+classify",
+       "decision": true,
+       "taps": 6,
+       "words": 45,
+       "loadKind": "default",
+       "readWords": 92,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 71.2,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 261.2,
+       "title": "Six findings, three kinds of evidence"
+      },
+      {
+       "id": "m5-p11",
+       "blockIds": [
+        "m5-p11"
+       ],
+       "type": "audio",
+       "pane": "slide-audio",
+       "kind": "audio+scenario",
+       "decision": true,
+       "taps": 1,
+       "words": 162,
+       "loadKind": "case",
+       "readWords": 164,
+       "media": 47.2,
+       "mediaSource": "narration words",
+       "narrationWords": 118,
+       "seconds": 96.5,
+       "film": false,
+       "audio": true,
+       "visual": true,
+       "answers": [
+        {
+         "index": 1,
+         "of": 3,
+         "source": "scenario move",
+         "shuffled": false
+        }
+       ],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 332.4,
+       "title": "New moles after a summer of tanning shots."
+      },
+      {
+       "id": "m5-p12",
+       "blockIds": [
+        "m5-p12"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool",
+       "decision": false,
+       "taps": 0,
+       "words": 149,
+       "loadKind": "default",
+       "readWords": 151,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 38.1,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 428.9,
+       "title": "Three regulators, one answer."
+      },
+      {
+       "id": "m5-p13",
+       "blockIds": [
+        "m5-p13"
+       ],
+       "type": "quiz",
+       "pane": "quiz",
+       "kind": "quiz",
+       "decision": true,
+       "taps": 1,
+       "words": 80,
+       "loadKind": "default",
+       "readWords": 82,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 28.7,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [
+        {
+         "index": 1,
+         "of": 3,
+         "source": "quiz card",
+         "shuffled": true
+        }
+       ],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 467,
+       "title": "'The approved one is the same thing.'"
+      }
+     ]
+    },
+    {
+     "label": "5.3 · Investigational hair peptides and how to grade them",
+     "id": "5.3",
+     "source": "unit.metadata.lessons",
+     "seconds": 419,
+     "minutes": 7,
+     "cards": 8,
+     "firstDecisionSeconds": 97,
+     "firstTapSeconds": 122,
+     "firstDecisionPane": "m5-x04",
+     "firstDecisionCard": 3,
+     "wordsBeforeFirstDecision": 178,
+     "maxPassiveRun": 2,
+     "maxPassiveRunPanes": [
+      "m5-p14",
+      "m5-p15"
+     ],
+     "decisions": 5,
+     "decisionsPer5Min": 3.6,
+     "maxWords": 98,
+     "maxWordsPane": "m5-x04",
+     "constructive": false,
+     "taps": 17,
+     "panes": [
+      {
+       "id": "m5-p14",
+       "blockIds": [
+        "m5-p14"
+       ],
+       "type": "audio",
+       "pane": "slide-audio",
+       "kind": "audio",
+       "decision": false,
+       "taps": 0,
+       "words": 93,
+       "loadKind": "default",
+       "readWords": 96,
+       "media": 50.8,
+       "mediaSource": "narration words",
+       "narrationWords": 127,
+       "seconds": 75,
+       "film": false,
+       "audio": true,
+       "visual": true,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 0,
+       "title": "A Wnt switch and a zinc question."
+      },
+      {
+       "id": "m5-p15",
+       "blockIds": [
+        "m5-p15"
+       ],
+       "type": "stat",
+       "pane": "stat",
+       "kind": "stat",
+       "decision": false,
+       "taps": 0,
+       "words": 85,
+       "loadKind": "default",
+       "readWords": 87,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 21.9,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 75,
+       "title": "Zero trials in people."
+      },
+      {
+       "id": "m5-x04",
+       "blockIds": [
+        "m5-x04"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool+inspect",
+       "decision": true,
+       "taps": 7,
+       "words": 98,
+       "loadKind": "default",
+       "readWords": 99,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 81,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 96.9,
+       "title": "The PTD-DBM sales page"
+      },
+      {
+       "id": "m5-p16",
+       "blockIds": [
+        "m5-p16"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool+classify",
+       "decision": true,
+       "taps": 5,
+       "words": 16,
+       "loadKind": "default",
+       "readWords": 32,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 48.1,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 177.9,
+       "title": "Approved, or unproven?"
+      },
+      {
+       "id": "m5-p17",
+       "blockIds": [
+        "m5-p17"
+       ],
+       "type": "audio",
+       "pane": "slide-audio",
+       "kind": "audio",
+       "decision": false,
+       "taps": 0,
+       "words": 82,
+       "loadKind": "default",
+       "readWords": 86,
+       "media": 41.2,
+       "mediaSource": "narration words",
+       "narrationWords": 103,
+       "seconds": 62.9,
+       "film": false,
+       "audio": true,
+       "visual": true,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 226,
+       "title": "When the request is a compounded hair spray."
+      },
+      {
+       "id": "m5-x05",
+       "blockIds": [
+        "m5-x05"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool+branching",
+       "decision": true,
+       "taps": 3,
+       "words": 90,
+       "loadKind": "case",
+       "readWords": 198,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 73.9,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [
+        {
+         "index": 0,
+         "of": 3,
+         "source": "branching n1",
+         "shuffled": false
+        },
+        {
+         "index": 0,
+         "of": 3,
+         "source": "branching n2",
+         "shuffled": false
+        },
+        {
+         "index": 0,
+         "of": 3,
+         "source": "branching n3",
+         "shuffled": false
+        }
+       ],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 288.9,
+       "title": "'Will my thymulin spray work?'"
+      },
+      {
+       "id": "m5-p18",
+       "blockIds": [
+        "m5-p18"
+       ],
+       "type": "quiz",
+       "pane": "quiz",
+       "kind": "quiz",
+       "decision": true,
+       "taps": 1,
+       "words": 69,
+       "loadKind": "default",
+       "readWords": 71,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 25.9,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [
+        {
+         "index": 1,
+         "of": 3,
+         "source": "quiz card",
+         "shuffled": true
+        }
+       ],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 362.8,
+       "title": "'The new minoxidil'?"
+      },
+      {
+       "id": "m5-p19",
+       "blockIds": [
+        "m5-p19"
+       ],
+       "type": "action",
+       "pane": "action",
+       "kind": "action+chips",
+       "decision": true,
+       "taps": 1,
+       "words": 87,
+       "loadKind": "default",
+       "readWords": 90,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 30.7,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 388.7,
+       "title": "Before my next hair or tanning conversation."
+      }
+     ]
+    }
+   ],
+   "findings": [],
+   "checkNotShown": {
+    "id": "m5-check",
+    "position": "B"
+   },
+   "answerPositions": {
+    "items": 4,
+    "positions": {
+     "A": 3,
+     "B": 1
+    },
+    "top": "A",
+    "topShare": 0.75,
+    "biased": false
+   },
+   "shuffledPositions": {
+    "items": 3,
+    "positions": {
+     "B": 3
+    },
+    "top": "B",
+    "topShare": 1,
+    "biased": false
+   },
+   "answerItems": [
+    "m5-p06:B/3 (quiz card, shown shuffled)",
+    "m5-p11:B/3 (scenario move)",
+    "m5-p13:B/3 (quiz card, shown shuffled)",
+    "m5-x05:A/3 (branching n1)",
+    "m5-x05:A/3 (branching n2)",
+    "m5-x05:A/3 (branching n3)",
+    "m5-p18:B/3 (quiz card, shown shuffled)"
+   ],
+   "triad": {
+    "explain": true,
+    "practice": true,
+    "check": true
+   },
+   "estimatedMinutes": 22.2,
+   "drift": -0.46
+  },
+  {
+   "id": "m06",
+   "title": "The growth-hormone axis and the skin",
+   "statedMinutes": 41,
+   "placeholder": false,
+   "sittings": [
+    {
+     "label": "6.1 · Growth hormone and IGF-1 in skin homeostasis",
+     "id": "6.1",
+     "source": "unit.metadata.lessons",
+     "seconds": 440,
+     "minutes": 7.3,
+     "cards": 8,
+     "firstDecisionSeconds": 189,
+     "firstTapSeconds": 198,
+     "firstDecisionPane": "m6-x01",
+     "firstDecisionCard": 4,
+     "wordsBeforeFirstDecision": 178,
+     "maxPassiveRun": 3,
+     "maxPassiveRunPanes": [
+      "m6-p01",
+      "m6-opener",
+      "m6-p02"
+     ],
+     "decisions": 3,
+     "decisionsPer5Min": 2,
+     "maxWords": 104,
+     "maxWordsPane": "m6-p05",
+     "constructive": false,
+     "taps": 11,
+     "panes": [
+      {
+       "id": "m6-p01",
+       "blockIds": [
+        "m6-p01"
+       ],
+       "type": "title",
+       "pane": "title",
+       "kind": "title",
+       "decision": false,
+       "taps": 0,
+       "words": 85,
+       "loadKind": "default",
+       "readWords": 93,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 23.4,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 0,
+       "title": "Real endocrinology, borrowed for marketing."
+      },
+      {
+       "id": "m6-opener",
+       "blockIds": [
+        "m6-opener"
+       ],
+       "type": "video",
+       "pane": "video",
+       "kind": "video",
+       "decision": false,
+       "taps": 0,
+       "words": 6,
+       "loadKind": "default",
+       "readWords": 10,
+       "media": 83.5,
+       "mediaSource": "asset",
+       "narrationWords": 0,
+       "seconds": 86.1,
+       "film": true,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 23.4,
+       "title": "The growth-hormone axis and the skin"
+      },
+      {
+       "id": "m6-p02",
+       "blockIds": [
+        "m6-p02"
+       ],
+       "type": "audio",
+       "pane": "slide-audio",
+       "kind": "audio",
+       "decision": false,
+       "taps": 0,
+       "words": 87,
+       "loadKind": "default",
+       "readWords": 90,
+       "media": 56.4,
+       "mediaSource": "narration words",
+       "narrationWords": 141,
+       "seconds": 79.1,
+       "film": false,
+       "audio": true,
+       "visual": true,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 109.5,
+       "title": "Two hormones, two layers of skin."
+      },
+      {
+       "id": "m6-x01",
+       "blockIds": [
+        "m6-x01"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool+hotspots",
+       "decision": true,
+       "taps": 4,
+       "words": 36,
+       "loadKind": "default",
+       "readWords": 37,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 41.3,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 188.6,
+       "title": "Where GH and IGF-1 act in skin."
+      },
+      {
+       "id": "m6-p03",
+       "blockIds": [
+        "m6-p03"
+       ],
+       "type": "stat",
+       "pane": "stat",
+       "kind": "stat",
+       "decision": false,
+       "taps": 0,
+       "words": 95,
+       "loadKind": "default",
+       "readWords": 97,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 24.5,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 229.9,
+       "title": "A much-cited skin result, read again."
+      },
+      {
+       "id": "m6-p04",
+       "blockIds": [
+        "m6-p04"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool+classify",
+       "decision": true,
+       "taps": 6,
+       "words": 29,
+       "loadKind": "default",
+       "readWords": 87,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 69.9,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 254.4,
+       "title": "Mechanism, human evidence or open question?"
+      },
+      {
+       "id": "m6-p05",
+       "blockIds": [
+        "m6-p05"
+       ],
+       "type": "audio",
+       "pane": "slide-audio",
+       "kind": "audio",
+       "decision": false,
+       "taps": 0,
+       "words": 104,
+       "loadKind": "default",
+       "readWords": 108,
+       "media": 57.6,
+       "mediaSource": "narration words",
+       "narrationWords": 144,
+       "seconds": 84.8,
+       "film": false,
+       "audio": true,
+       "visual": true,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 324.3,
+       "title": "Deficiency is a diagnosis. Decline is ageing."
+      },
+      {
+       "id": "m6-p06",
+       "blockIds": [
+        "m6-p06"
+       ],
+       "type": "quiz",
+       "pane": "quiz",
+       "kind": "quiz",
+       "decision": true,
+       "taps": 1,
+       "words": 90,
+       "loadKind": "default",
+       "readWords": 92,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 31.2,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [
+        {
+         "index": 1,
+         "of": 3,
+         "source": "quiz card",
+         "shuffled": true
+        }
+       ],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 409.1,
+       "title": "'Low for my age.'"
+      }
+     ]
+    },
+    {
+     "label": "6.2 · GHRH analogues and secretagogues: clinical pharmacology",
+     "id": "6.2",
+     "source": "unit.metadata.lessons",
+     "seconds": 557,
+     "minutes": 9.3,
+     "cards": 10,
+     "firstDecisionSeconds": 66,
+     "firstTapSeconds": 80,
+     "firstDecisionPane": "m6-x02",
+     "firstDecisionCard": 2,
+     "wordsBeforeFirstDecision": 64,
+     "maxPassiveRun": 2,
+     "maxPassiveRunPanes": [
+      "m6-p08",
+      "m6-p09"
+     ],
+     "decisions": 5,
+     "decisionsPer5Min": 2.7,
+     "maxWords": 284,
+     "maxWordsPane": "m6-p11",
+     "constructive": false,
+     "taps": 19,
+     "panes": [
+      {
+       "id": "m6-p07",
+       "blockIds": [
+        "m6-p07"
+       ],
+       "type": "audio",
+       "pane": "slide-audio",
+       "kind": "audio",
+       "decision": false,
+       "taps": 0,
+       "words": 64,
+       "loadKind": "default",
+       "readWords": 67,
+       "media": 49.2,
+       "mediaSource": "narration words",
+       "narrationWords": 123,
+       "seconds": 66.1,
+       "film": false,
+       "audio": true,
+       "visual": true,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 0,
+       "title": "One axis, four ways in."
+      },
+      {
+       "id": "m6-x02",
+       "blockIds": [
+        "m6-x02"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool+sequence",
+       "decision": true,
+       "taps": 3,
+       "words": 56,
+       "loadKind": "default",
+       "readWords": 57,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 38.4,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 66.1,
+       "title": "Where each route enters the axis."
+      },
+      {
+       "id": "m6-p08",
+       "blockIds": [
+        "m6-p08"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool",
+       "decision": false,
+       "taps": 0,
+       "words": 173,
+       "loadKind": "default",
+       "readWords": 175,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 44.1,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 104.5,
+       "title": "What real peptide evidence looks like."
+      },
+      {
+       "id": "m6-p09",
+       "blockIds": [
+        "m6-p09"
+       ],
+       "type": "stat",
+       "pane": "stat",
+       "kind": "stat",
+       "decision": false,
+       "taps": 0,
+       "words": 92,
+       "loadKind": "default",
+       "readWords": 94,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 23.7,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 148.6,
+       "title": "Zero skin trials."
+      },
+      {
+       "id": "m6-x03",
+       "blockIds": [
+        "m6-x03"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool+classify",
+       "decision": true,
+       "taps": 5,
+       "words": 44,
+       "loadKind": "default",
+       "readWords": 139,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 75,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 172.3,
+       "title": "Five growth-hormone results, graded by design."
+      },
+      {
+       "id": "m6-p10",
+       "blockIds": [
+        "m6-p10"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool+quickfire",
+       "decision": true,
+       "taps": 7,
+       "words": 31,
+       "loadKind": "default",
+       "readWords": 82,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 76.7,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 247.3,
+       "title": "Approval-grade, hormone levels, or nothing?"
+      },
+      {
+       "id": "m6-p11",
+       "blockIds": [
+        "m6-p11"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool",
+       "decision": false,
+       "taps": 0,
+       "words": 284,
+       "loadKind": "default",
+       "readWords": 286,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 72.1,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 324,
+       "title": "Where each one stands in the US."
+      },
+      {
+       "id": "m6-p12",
+       "blockIds": [
+        "m6-p12"
+       ],
+       "type": "audio",
+       "pane": "slide-audio",
+       "kind": "audio",
+       "decision": false,
+       "taps": 0,
+       "words": 80,
+       "loadKind": "default",
+       "readWords": 84,
+       "media": 48.8,
+       "mediaSource": "narration words",
+       "narrationWords": 122,
+       "seconds": 70,
+       "film": false,
+       "audio": true,
+       "visual": true,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 396.1,
+       "title": "Name the indication before the molecule."
+      },
+      {
+       "id": "m6-x04",
+       "blockIds": [
+        "m6-x04"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool+branching",
+       "decision": true,
+       "taps": 3,
+       "words": 71,
+       "loadKind": "case",
+       "readWords": 142,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 59.8,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [
+        {
+         "index": 0,
+         "of": 3,
+         "source": "branching start",
+         "shuffled": false
+        },
+        {
+         "index": 0,
+         "of": 3,
+         "source": "branching n2",
+         "shuffled": false
+        },
+        {
+         "index": 0,
+         "of": 3,
+         "source": "branching n3",
+         "shuffled": false
+        }
+       ],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 466.1,
+       "title": "'It raises growth hormone naturally.'"
+      },
+      {
+       "id": "m6-p13",
+       "blockIds": [
+        "m6-p13"
+       ],
+       "type": "quiz",
+       "pane": "quiz",
+       "kind": "quiz",
+       "decision": true,
+       "taps": 1,
+       "words": 89,
+       "loadKind": "default",
+       "readWords": 91,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 30.9,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [
+        {
+         "index": 1,
+         "of": 3,
+         "source": "quiz card",
+         "shuffled": true
+        }
+       ],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 525.9,
+       "title": "'Basically tesamorelin?'"
+      }
+     ]
+    },
+    {
+     "label": "6.3 · GH excess, oedema and mitogenic risk",
+     "id": "6.3",
+     "source": "unit.metadata.lessons",
+     "seconds": 394,
+     "minutes": 6.6,
+     "cards": 7,
+     "firstDecisionSeconds": 147,
+     "firstTapSeconds": 176,
+     "firstDecisionPane": "m6-x05",
+     "firstDecisionCard": 4,
+     "wordsBeforeFirstDecision": 364,
+     "maxPassiveRun": 3,
+     "maxPassiveRunPanes": [
+      "m6-p14",
+      "m6-p15",
+      "m6-p16"
+     ],
+     "decisions": 4,
+     "decisionsPer5Min": 3,
+     "maxWords": 190,
+     "maxWordsPane": "m6-p15",
+     "constructive": false,
+     "taps": 10,
+     "panes": [
+      {
+       "id": "m6-p14",
+       "blockIds": [
+        "m6-p14"
+       ],
+       "type": "audio",
+       "pane": "slide-audio",
+       "kind": "audio",
+       "decision": false,
+       "taps": 0,
+       "words": 90,
+       "loadKind": "default",
+       "readWords": 93,
+       "media": 53.2,
+       "mediaSource": "narration words",
+       "narrationWords": 133,
+       "seconds": 76.6,
+       "film": false,
+       "audio": true,
+       "visual": true,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 0,
+       "title": "What too much growth hormone looks like."
+      },
+      {
+       "id": "m6-p15",
+       "blockIds": [
+        "m6-p15"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool",
+       "decision": false,
+       "taps": 0,
+       "words": 190,
+       "loadKind": "default",
+       "readWords": 192,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 48.4,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 76.6,
+       "title": "Does raising IGF-1 cause cancer?"
+      },
+      {
+       "id": "m6-p16",
+       "blockIds": [
+        "m6-p16"
+       ],
+       "type": "stat",
+       "pane": "stat",
+       "kind": "stat",
+       "decision": false,
+       "taps": 0,
+       "words": 84,
+       "loadKind": "default",
+       "readWords": 86,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 21.7,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 125,
+       "title": "Half the patients on the approved one."
+      },
+      {
+       "id": "m6-x05",
+       "blockIds": [
+        "m6-x05"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool+inspect",
+       "decision": true,
+       "taps": 7,
+       "words": 117,
+       "loadKind": "default",
+       "readWords": 118,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 85.7,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 146.7,
+       "title": "A clinic page, read line by line."
+      },
+      {
+       "id": "m6-p17",
+       "blockIds": [
+        "m6-p17"
+       ],
+       "type": "audio",
+       "pane": "slide-audio",
+       "kind": "audio+scenario",
+       "decision": true,
+       "taps": 1,
+       "words": 170,
+       "loadKind": "case",
+       "readWords": 172,
+       "media": 50.8,
+       "mediaSource": "narration words",
+       "narrationWords": 127,
+       "seconds": 102.2,
+       "film": false,
+       "audio": true,
+       "visual": true,
+       "answers": [
+        {
+         "index": 1,
+         "of": 3,
+         "source": "scenario move",
+         "shuffled": false
+        }
+       ],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 232.4,
+       "title": "Tight rings, eight months into 'CJC/ipa'."
+      },
+      {
+       "id": "m6-p18",
+       "blockIds": [
+        "m6-p18"
+       ],
+       "type": "quiz",
+       "pane": "quiz",
+       "kind": "quiz",
+       "decision": true,
+       "taps": 1,
+       "words": 81,
+       "loadKind": "default",
+       "readWords": 83,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 28.9,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [
+        {
+         "index": 1,
+         "of": 3,
+         "source": "quiz card",
+         "shuffled": true
+        }
+       ],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 334.6,
+       "title": "'Will it give me cancer?'"
+      },
+      {
+       "id": "m6-p19",
+       "blockIds": [
+        "m6-p19"
+       ],
+       "type": "action",
+       "pane": "action",
+       "kind": "action+chips",
+       "decision": true,
+       "taps": 1,
+       "words": 88,
+       "loadKind": "default",
+       "readWords": 91,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 30.9,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 363.5,
+       "title": "Before my next growth-hormone conversation."
+      }
+     ]
+    }
+   ],
+   "findings": [],
+   "checkNotShown": {
+    "id": "m6-check",
+    "position": "B"
+   },
+   "answerPositions": {
+    "items": 4,
+    "positions": {
+     "A": 3,
+     "B": 1
+    },
+    "top": "A",
+    "topShare": 0.75,
+    "biased": false
+   },
+   "shuffledPositions": {
+    "items": 3,
+    "positions": {
+     "B": 3
+    },
+    "top": "B",
+    "topShare": 1,
+    "biased": false
+   },
+   "answerItems": [
+    "m6-p06:B/3 (quiz card, shown shuffled)",
+    "m6-x04:A/3 (branching start)",
+    "m6-x04:A/3 (branching n2)",
+    "m6-x04:A/3 (branching n3)",
+    "m6-p13:B/3 (quiz card, shown shuffled)",
+    "m6-p17:B/3 (scenario move)",
+    "m6-p18:B/3 (quiz card, shown shuffled)"
+   ],
+   "triad": {
+    "explain": true,
+    "practice": true,
+    "check": true
+   },
+   "estimatedMinutes": 23.2,
+   "drift": -0.43
+  },
+  {
+   "id": "m07",
+   "title": "Evidence, regulation and compliance",
+   "statedMinutes": 44,
+   "placeholder": false,
+   "sittings": [
+    {
+     "label": "7.1 · Grading the evidence behind an aesthetic claim",
+     "id": "7.1",
+     "source": "unit.metadata.lessons",
+     "seconds": 443,
+     "minutes": 7.4,
+     "cards": 8,
+     "firstDecisionSeconds": 219,
+     "firstTapSeconds": 228,
+     "firstDecisionPane": "m7-p04",
+     "firstDecisionCard": 5,
+     "wordsBeforeFirstDecision": 328,
+     "maxPassiveRun": 4,
+     "maxPassiveRunPanes": [
+      "m7-p01",
+      "m7-opener",
+      "m7-p02",
+      "m7-p03"
+     ],
+     "decisions": 3,
+     "decisionsPer5Min": 2,
+     "maxWords": 129,
+     "maxWordsPane": "m7-p01",
+     "constructive": false,
+     "taps": 11,
+     "panes": [
+      {
+       "id": "m7-p01",
+       "blockIds": [
+        "m7-p01"
+       ],
+       "type": "title",
+       "pane": "title",
+       "kind": "title",
+       "decision": false,
+       "taps": 0,
+       "words": 129,
+       "loadKind": "default",
+       "readWords": 135,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 34,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 0,
+       "title": "Grade it, check it, write it down."
+      },
+      {
+       "id": "m7-opener",
+       "blockIds": [
+        "m7-opener"
+       ],
+       "type": "video",
+       "pane": "video",
+       "kind": "video",
+       "decision": false,
+       "taps": 0,
+       "words": 4,
+       "loadKind": "default",
+       "readWords": 8,
+       "media": 75.3,
+       "mediaSource": "asset",
+       "narrationWords": 0,
+       "seconds": 77.3,
+       "film": true,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 34,
+       "title": "Evidence, regulation and compliance"
+      },
+      {
+       "id": "m7-p02",
+       "blockIds": [
+        "m7-p02"
+       ],
+       "type": "audio",
+       "pane": "slide-audio",
+       "kind": "audio",
+       "decision": false,
+       "taps": 0,
+       "words": 111,
+       "loadKind": "default",
+       "readWords": 114,
+       "media": 57.2,
+       "mediaSource": "narration words",
+       "narrationWords": 143,
+       "seconds": 85.9,
+       "film": false,
+       "audio": true,
+       "visual": true,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 111.3,
+       "title": "GRADE rates certainty in an effect, one outcome at a time."
+      },
+      {
+       "id": "m7-p03",
+       "blockIds": [
+        "m7-p03"
+       ],
+       "type": "stat",
+       "pane": "stat",
+       "kind": "stat",
+       "decision": false,
+       "taps": 0,
+       "words": 84,
+       "loadKind": "default",
+       "readWords": 86,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 21.7,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 197.2,
+       "title": "Sponsored studies come out better."
+      },
+      {
+       "id": "m7-p04",
+       "blockIds": [
+        "m7-p04"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool+quickfire",
+       "decision": true,
+       "taps": 4,
+       "words": 37,
+       "loadKind": "default",
+       "readWords": 86,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 53.7,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 218.9,
+       "title": "Name what lowers certainty."
+      },
+      {
+       "id": "m7-p05",
+       "blockIds": [
+        "m7-p05"
+       ],
+       "type": "audio",
+       "pane": "slide-audio",
+       "kind": "audio",
+       "decision": false,
+       "taps": 0,
+       "words": 81,
+       "loadKind": "default",
+       "readWords": 85,
+       "media": 50.4,
+       "mediaSource": "narration words",
+       "narrationWords": 126,
+       "seconds": 71.8,
+       "film": false,
+       "audio": true,
+       "visual": true,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 272.6,
+       "title": "Two checks, never one."
+      },
+      {
+       "id": "m7-x01",
+       "blockIds": [
+        "m7-x01"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool+classify",
+       "decision": true,
+       "taps": 6,
+       "words": 48,
+       "loadKind": "default",
+       "readWords": 93,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 71.4,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 344.4,
+       "title": "What moves a grade, and what does not."
+      },
+      {
+       "id": "m7-p06",
+       "blockIds": [
+        "m7-p06"
+       ],
+       "type": "quiz",
+       "pane": "quiz",
+       "kind": "quiz",
+       "decision": true,
+       "taps": 1,
+       "words": 75,
+       "loadKind": "default",
+       "readWords": 77,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 27.4,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [
+        {
+         "index": 1,
+         "of": 3,
+         "source": "quiz card",
+         "shuffled": true
+        }
+       ],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 415.8,
+       "title": "Three trials, grade A?"
+      }
+     ]
+    },
+    {
+     "label": "7.2 · Compounding law, the 40-amino-acid line and certificates of analysis",
+     "id": "7.2",
+     "source": "unit.metadata.lessons",
+     "seconds": 625,
+     "minutes": 10.4,
+     "cards": 12,
+     "firstDecisionSeconds": 89,
+     "firstTapSeconds": 100,
+     "firstDecisionPane": "m7-x02",
+     "firstDecisionCard": 2,
+     "wordsBeforeFirstDecision": 104,
+     "maxPassiveRun": 4,
+     "maxPassiveRunPanes": [
+      "m7-p08",
+      "m7-p09",
+      "m7-p21",
+      "m7-p10"
+     ],
+     "decisions": 4,
+     "decisionsPer5Min": 1.9,
+     "maxWords": 172,
+     "maxWordsPane": "m7-p08",
+     "constructive": false,
+     "taps": 14,
+     "panes": [
+      {
+       "id": "m7-p07",
+       "blockIds": [
+        "m7-p07"
+       ],
+       "type": "audio",
+       "pane": "slide-audio",
+       "kind": "audio",
+       "decision": false,
+       "taps": 0,
+       "words": 104,
+       "loadKind": "default",
+       "readWords": 107,
+       "media": 61.6,
+       "mediaSource": "narration words",
+       "narrationWords": 154,
+       "seconds": 88.6,
+       "film": false,
+       "audio": true,
+       "visual": true,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 0,
+       "title": "Two compounding routes, one strict order."
+      },
+      {
+       "id": "m7-x02",
+       "blockIds": [
+        "m7-x02"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool+hotspots",
+       "decision": true,
+       "taps": 4,
+       "words": 47,
+       "loadKind": "default",
+       "readWords": 48,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 44.1,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 88.6,
+       "title": "503A and 503B, side by side."
+      },
+      {
+       "id": "m7-x03",
+       "blockIds": [
+        "m7-x03"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool+sequence",
+       "decision": true,
+       "taps": 3,
+       "words": 62,
+       "loadKind": "default",
+       "readWords": 63,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 39.9,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 132.7,
+       "title": "The substance, in strict order."
+      },
+      {
+       "id": "m7-p08",
+       "blockIds": [
+        "m7-p08"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool",
+       "decision": false,
+       "taps": 0,
+       "words": 172,
+       "loadKind": "default",
+       "readWords": 175,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 44.1,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 172.6,
+       "title": "A short list, three categories and a withdrawn table."
+      },
+      {
+       "id": "m7-p09",
+       "blockIds": [
+        "m7-p09"
+       ],
+       "type": "stat",
+       "pane": "stat",
+       "kind": "stat",
+       "decision": false,
+       "taps": 0,
+       "words": 122,
+       "loadKind": "default",
+       "readWords": 125,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 31.5,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 216.7,
+       "title": "Forty amino acids."
+      },
+      {
+       "id": "m7-p21",
+       "blockIds": [
+        "m7-p21"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool",
+       "decision": false,
+       "taps": 0,
+       "words": 143,
+       "loadKind": "default",
+       "readWords": 148,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 37.3,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 248.2,
+       "title": "Outside the US, 503A does not apply."
+      },
+      {
+       "id": "m7-p10",
+       "blockIds": [
+        "m7-p10"
+       ],
+       "type": "audio",
+       "pane": "slide-audio",
+       "kind": "audio",
+       "decision": false,
+       "taps": 0,
+       "words": 91,
+       "loadKind": "default",
+       "readWords": 92,
+       "media": 57.2,
+       "mediaSource": "narration words",
+       "narrationWords": 143,
+       "seconds": 80.4,
+       "film": false,
+       "audio": true,
+       "visual": true,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 285.5,
+       "title": "What a certificate can and cannot prove."
+      },
+      {
+       "id": "m7-p11",
+       "blockIds": [
+        "m7-p11"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool+classify",
+       "decision": true,
+       "taps": 6,
+       "words": 22,
+       "loadKind": "default",
+       "readWords": 61,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 63.4,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 365.9,
+       "title": "Audit this certificate."
+      },
+      {
+       "id": "m7-p12",
+       "blockIds": [
+        "m7-p12"
+       ],
+       "type": "stat",
+       "pane": "stat",
+       "kind": "stat",
+       "decision": false,
+       "taps": 0,
+       "words": 93,
+       "loadKind": "default",
+       "readWords": 96,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 24.2,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 429.3,
+       "title": "99% on the label."
+      },
+      {
+       "id": "m7-p13",
+       "blockIds": [
+        "m7-p13"
+       ],
+       "type": "audio",
+       "pane": "slide-audio",
+       "kind": "audio",
+       "decision": false,
+       "taps": 0,
+       "words": 85,
+       "loadKind": "default",
+       "readWords": 89,
+       "media": 55.2,
+       "mediaSource": "narration words",
+       "narrationWords": 138,
+       "seconds": 77.6,
+       "film": false,
+       "audio": true,
+       "visual": true,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 453.5,
+       "title": "Research use only is a label, and never a route."
+      },
+      {
+       "id": "m7-p22",
+       "blockIds": [
+        "m7-p22"
+       ],
+       "type": "audio",
+       "pane": "slide-audio",
+       "kind": "audio",
+       "decision": false,
+       "taps": 0,
+       "words": 75,
+       "loadKind": "default",
+       "readWords": 80,
+       "media": 45.2,
+       "mediaSource": "narration words",
+       "narrationWords": 113,
+       "seconds": 65.4,
+       "film": false,
+       "audio": true,
+       "visual": true,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 531.1,
+       "title": "Selling and advertising peptides outside the US."
+      },
+      {
+       "id": "m7-p14",
+       "blockIds": [
+        "m7-p14"
+       ],
+       "type": "quiz",
+       "pane": "quiz",
+       "kind": "quiz",
+       "decision": true,
+       "taps": 1,
+       "words": 79,
+       "loadKind": "default",
+       "readWords": 81,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 28.4,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [
+        {
+         "index": 1,
+         "of": 3,
+         "source": "quiz card",
+         "shuffled": true
+        }
+       ],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 596.5,
+       "title": "A clean certificate."
+      }
+     ]
+    },
+    {
+     "label": "7.3 · Cosmetic, compounded or investigational: consent and the chart",
+     "id": "7.3",
+     "source": "unit.metadata.lessons",
+     "seconds": 473,
+     "minutes": 7.9,
+     "cards": 8,
+     "firstDecisionSeconds": 115,
+     "firstTapSeconds": 134,
+     "firstDecisionPane": "m7-x04",
+     "firstDecisionCard": 3,
+     "wordsBeforeFirstDecision": 245,
+     "maxPassiveRun": 2,
+     "maxPassiveRunPanes": [
+      "m7-p15",
+      "m7-p16"
+     ],
+     "decisions": 5,
+     "decisionsPer5Min": 3.2,
+     "maxWords": 178,
+     "maxWordsPane": "m7-p18",
+     "constructive": false,
+     "taps": 12,
+     "panes": [
+      {
+       "id": "m7-p15",
+       "blockIds": [
+        "m7-p15"
+       ],
+       "type": "audio",
+       "pane": "slide-audio",
+       "kind": "audio",
+       "decision": false,
+       "taps": 0,
+       "words": 81,
+       "loadKind": "default",
+       "readWords": 84,
+       "media": 52,
+       "mediaSource": "narration words",
+       "narrationWords": 130,
+       "seconds": 73.2,
+       "film": false,
+       "audio": true,
+       "visual": true,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 0,
+       "title": "Off-label needs a label."
+      },
+      {
+       "id": "m7-p16",
+       "blockIds": [
+        "m7-p16"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool",
+       "decision": false,
+       "taps": 0,
+       "words": 164,
+       "loadKind": "default",
+       "readWords": 166,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 41.8,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 73.2,
+       "title": "Same molecule, different rulebooks."
+      },
+      {
+       "id": "m7-x04",
+       "blockIds": [
+        "m7-x04"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool+inspect",
+       "decision": true,
+       "taps": 6,
+       "words": 76,
+       "loadKind": "default",
+       "readWords": 77,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 67.4,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 115,
+       "title": "Six lines from a serum page."
+      },
+      {
+       "id": "m7-p17",
+       "blockIds": [
+        "m7-p17"
+       ],
+       "type": "audio",
+       "pane": "slide-audio",
+       "kind": "audio+scenario",
+       "decision": true,
+       "taps": 1,
+       "words": 162,
+       "loadKind": "case",
+       "readWords": 164,
+       "media": 47.6,
+       "mediaSource": "narration words",
+       "narrationWords": 119,
+       "seconds": 96.9,
+       "film": false,
+       "audio": true,
+       "visual": true,
+       "answers": [
+        {
+         "index": 1,
+         "of": 3,
+         "source": "scenario move",
+         "shuffled": false
+        }
+       ],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 182.4,
+       "title": "'Just prescribe it off-label.'"
+      },
+      {
+       "id": "m7-p18",
+       "blockIds": [
+        "m7-p18"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool",
+       "decision": false,
+       "taps": 0,
+       "words": 178,
+       "loadKind": "default",
+       "readWords": 179,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 45.1,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 279.3,
+       "title": "A chart note a reviewer can follow."
+      },
+      {
+       "id": "m7-x05",
+       "blockIds": [
+        "m7-x05"
+       ],
+       "type": "tool",
+       "pane": "tool",
+       "kind": "tool+branching",
+       "decision": true,
+       "taps": 3,
+       "words": 109,
+       "loadKind": "case",
+       "readWords": 215,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 78.2,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [
+        {
+         "index": 1,
+         "of": 3,
+         "source": "branching n1",
+         "shuffled": false
+        },
+        {
+         "index": 1,
+         "of": 3,
+         "source": "branching n2",
+         "shuffled": false
+        },
+        {
+         "index": 1,
+         "of": 3,
+         "source": "branching n3",
+         "shuffled": false
+        }
+       ],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 324.4,
+       "title": "'Could you supervise my injections?'"
+      },
+      {
+       "id": "m7-p19",
+       "blockIds": [
+        "m7-p19"
+       ],
+       "type": "quiz",
+       "pane": "quiz",
+       "kind": "quiz",
+       "decision": true,
+       "taps": 1,
+       "words": 85,
+       "loadKind": "default",
+       "readWords": 87,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 29.9,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [
+        {
+         "index": 1,
+         "of": 3,
+         "source": "quiz card",
+         "shuffled": true
+        }
+       ],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 402.6,
+       "title": "One molecule, three products."
+      },
+      {
+       "id": "m7-p20",
+       "blockIds": [
+        "m7-p20"
+       ],
+       "type": "action",
+       "pane": "action",
+       "kind": "action+chips",
+       "decision": true,
+       "taps": 1,
+       "words": 124,
+       "loadKind": "default",
+       "readWords": 127,
+       "media": null,
+       "mediaSource": null,
+       "narrationWords": 0,
+       "seconds": 40,
+       "film": false,
+       "audio": false,
+       "visual": false,
+       "answers": [],
+       "constructive": null,
+       "notes": [],
+       "startsAt": 432.5,
+       "title": "My practice, from the next conversation."
+      }
+     ]
+    }
+   ],
+   "findings": [],
+   "checkNotShown": {
+    "id": "m7-check",
+    "position": "B"
+   },
+   "answerPositions": {
+    "items": 4,
+    "positions": {
+     "B": 4
+    },
+    "top": "B",
+    "topShare": 1,
+    "biased": false
+   },
+   "shuffledPositions": {
+    "items": 3,
+    "positions": {
+     "B": 3
+    },
+    "top": "B",
+    "topShare": 1,
+    "biased": false
+   },
+   "answerItems": [
+    "m7-p06:B/3 (quiz card, shown shuffled)",
+    "m7-p14:B/3 (quiz card, shown shuffled)",
+    "m7-p17:B/3 (scenario move)",
+    "m7-x05:B/3 (branching n1)",
+    "m7-x05:B/3 (branching n2)",
+    "m7-x05:B/3 (branching n3)",
+    "m7-p19:B/3 (quiz card, shown shuffled)"
+   ],
+   "triad": {
+    "explain": true,
+    "practice": true,
+    "check": true
+   },
+   "estimatedMinutes": 25.7,
+   "drift": -0.42
+  }
+ ],
+ "findings": [
+  {
+   "level": "fail",
+   "rule": "firstDecision",
+   "module": "m01",
+   "sitting": "1.1 · The skin as a steroidogenic, endocrine organ",
+   "pane": "m1-p02",
+   "msg": "first decision at 1:42 (card 3); the rule is ≤ 1:00"
+  },
+  {
+   "level": "fail",
+   "rule": "visibleWords",
+   "module": "m01",
+   "sitting": "1.1 · The skin as a steroidogenic, endocrine organ",
+   "pane": "m1-p01",
+   "msg": "102 words before the first tap (title); the rule is ≤ 100"
+  },
+  {
+   "level": "fail",
+   "rule": "visibleWords",
+   "module": "m01",
+   "sitting": "1.1 · The skin as a steroidogenic, endocrine organ",
+   "pane": "m1-p04",
+   "msg": "173 words before the first tap (tool); the rule is ≤ 100"
+  },
+  {
+   "level": "fail",
+   "rule": "firstDecision",
+   "module": "m01",
+   "sitting": "1.2 · The Hormone Cell Atlas: receptor maps and what they prove",
+   "pane": "m1-p10",
+   "msg": "first decision at 1:44 (card 3); the rule is ≤ 1:00"
+  },
+  {
+   "level": "fail",
+   "rule": "visibleWords",
+   "module": "m01",
+   "sitting": "1.2 · The Hormone Cell Atlas: receptor maps and what they prove",
+   "pane": "m1-x03",
+   "msg": "111 words before the first tap (tool+inspect); the rule is ≤ 100"
+  },
+  {
+   "level": "fail",
+   "rule": "firstDecision",
+   "module": "m01",
+   "sitting": "1.3 · Senescence, the SASP and the ageing dermis",
+   "pane": "m1-x04",
+   "msg": "first decision at 1:13 (card 2); the rule is ≤ 1:00"
+  },
+  {
+   "level": "fail",
+   "rule": "passiveRun",
+   "module": "m01",
+   "sitting": "1.3 · Senescence, the SASP and the ageing dermis",
+   "pane": "m1-p14",
+   "msg": "3 passive cards in a row (m1-p14 → m1-p15 → m1-p16); the rule is ≤ 2"
+  },
+  {
+   "level": "fail",
+   "rule": "visibleWords",
+   "module": "m01",
+   "sitting": "1.3 · Senescence, the SASP and the ageing dermis",
+   "pane": "m1-p15",
+   "msg": "170 words before the first tap (tool); the rule is ≤ 100"
+  },
+  {
+   "level": "fail",
+   "rule": "visibleWords",
+   "module": "m01",
+   "sitting": "1.3 · Senescence, the SASP and the ageing dermis",
+   "pane": "m1-p17",
+   "msg": "159 words before the first tap (audio+scenario); the rule is ≤ 150 for a case card"
+  },
+  {
+   "level": "fail",
+   "rule": "firstDecision",
+   "module": "m02",
+   "sitting": "2.1 · Cortisol signatures: local 11β-HSD1 and Cushing's syndrome",
+   "pane": "m2-x01",
+   "msg": "first decision at 2:58 (card 4); the rule is ≤ 1:00"
+  },
+  {
+   "level": "fail",
+   "rule": "passiveRun",
+   "module": "m02",
+   "sitting": "2.1 · Cortisol signatures: local 11β-HSD1 and Cushing's syndrome",
+   "pane": "m2-p01",
+   "msg": "3 passive cards in a row (m2-p01 → m2-opener → m2-p02); the rule is ≤ 2"
+  },
+  {
+   "level": "fail",
+   "rule": "visibleWords",
+   "module": "m02",
+   "sitting": "2.1 · Cortisol signatures: local 11β-HSD1 and Cushing's syndrome",
+   "pane": "m2-p03",
+   "msg": "157 words before the first tap (tool); the rule is ≤ 100"
+  },
+  {
+   "level": "fail",
+   "rule": "visibleWords",
+   "module": "m02",
+   "sitting": "2.1 · Cortisol signatures: local 11β-HSD1 and Cushing's syndrome",
+   "pane": "m2-p05",
+   "msg": "102 words before the first tap (stat); the rule is ≤ 100"
+  },
+  {
+   "level": "warn",
+   "rule": "films",
+   "module": "m02",
+   "sitting": "2.1 · Cortisol signatures: local 11β-HSD1 and Cushing's syndrome",
+   "pane": "m2-opener",
+   "msg": "no decision right before or after this film"
+  },
+  {
+   "level": "fail",
+   "rule": "firstDecision",
+   "module": "m02",
+   "sitting": "2.2 · Estrogen, menopause and dermal collagen",
+   "pane": "m2-x03",
+   "msg": "first decision at 1:17 (card 2); the rule is ≤ 1:00"
+  },
+  {
+   "level": "fail",
+   "rule": "visibleWords",
+   "module": "m02",
+   "sitting": "2.2 · Estrogen, menopause and dermal collagen",
+   "pane": "m2-p10",
+   "msg": "204 words before the first tap (tool); the rule is ≤ 100"
+  },
+  {
+   "level": "fail",
+   "rule": "visibleWords",
+   "module": "m02",
+   "sitting": "2.2 · Estrogen, menopause and dermal collagen",
+   "pane": "m2-p11",
+   "msg": "144 words before the first tap (audio); the rule is ≤ 100"
+  },
+  {
+   "level": "fail",
+   "rule": "firstDecision",
+   "module": "m02",
+   "sitting": "2.3 · Skin hallmarks of inherited and systemic endocrinopathies",
+   "pane": "m2-p16",
+   "msg": "first decision at 2:48 (card 4); the rule is ≤ 1:00"
+  },
+  {
+   "level": "fail",
+   "rule": "passiveRun",
+   "module": "m02",
+   "sitting": "2.3 · Skin hallmarks of inherited and systemic endocrinopathies",
+   "pane": "m2-p13",
+   "msg": "3 passive cards in a row (m2-p13 → m2-p14 → m2-p15); the rule is ≤ 2"
+  },
+  {
+   "level": "fail",
+   "rule": "firstDecision",
+   "module": "m03",
+   "sitting": "3.1 · Dermal fat and matrix glycation",
+   "pane": "m3-x01",
+   "msg": "first decision at 2:51 (card 4); the rule is ≤ 1:00"
+  },
+  {
+   "level": "fail",
+   "rule": "passiveRun",
+   "module": "m03",
+   "sitting": "3.1 · Dermal fat and matrix glycation",
+   "pane": "m3-p01",
+   "msg": "3 passive cards in a row (m3-p01 → m3-opener → m3-p02); the rule is ≤ 2"
+  },
+  {
+   "level": "fail",
+   "rule": "visibleWords",
+   "module": "m03",
+   "sitting": "3.1 · Dermal fat and matrix glycation",
+   "pane": "m3-p02",
+   "msg": "101 words before the first tap (audio); the rule is ≤ 100"
+  },
+  {
+   "level": "warn",
+   "rule": "films",
+   "module": "m03",
+   "sitting": "3.1 · Dermal fat and matrix glycation",
+   "pane": "m3-opener",
+   "msg": "no decision right before or after this film"
+  },
+  {
+   "level": "fail",
+   "rule": "firstDecision",
+   "module": "m03",
+   "sitting": "3.2 · Incretin therapy and the changing face",
+   "pane": "m3-x03",
+   "msg": "first decision at 3:21 (card 5); the rule is ≤ 1:00"
+  },
+  {
+   "level": "fail",
+   "rule": "passiveRun",
+   "module": "m03",
+   "sitting": "3.2 · Incretin therapy and the changing face",
+   "pane": "m3-p08",
+   "msg": "4 passive cards in a row (m3-p08 → m3-p09 → m3-p10 → m3-p11); the rule is ≤ 2"
+  },
+  {
+   "level": "fail",
+   "rule": "visibleWords",
+   "module": "m03",
+   "sitting": "3.2 · Incretin therapy and the changing face",
+   "pane": "m3-p09",
+   "msg": "197 words before the first tap (tool); the rule is ≤ 100"
+  },
+  {
+   "level": "fail",
+   "rule": "visibleWords",
+   "module": "m03",
+   "sitting": "3.2 · Incretin therapy and the changing face",
+   "pane": "m3-p11",
+   "msg": "208 words before the first tap (tool); the rule is ≤ 100"
+  },
+  {
+   "level": "fail",
+   "rule": "visibleWords",
+   "module": "m03",
+   "sitting": "3.2 · Incretin therapy and the changing face",
+   "pane": "m3-p12",
+   "msg": "111 words before the first tap (audio); the rule is ≤ 100"
+  },
+  {
+   "level": "fail",
+   "rule": "visibleWords",
+   "module": "m03",
+   "sitting": "3.2 · Incretin therapy and the changing face",
+   "pane": "m3-p13",
+   "msg": "177 words before the first tap (audio+scenario); the rule is ≤ 150 for a case card"
+  },
+  {
+   "level": "fail",
+   "rule": "firstDecision",
+   "module": "m03",
+   "sitting": "3.3 · Gut barrier, endotoxaemia and inflammaging",
+   "pane": "m3-p17",
+   "msg": "first decision at 1:35 (card 3); the rule is ≤ 1:00"
+  },
+  {
+   "level": "fail",
+   "rule": "visibleWords",
+   "module": "m03",
+   "sitting": "3.3 · Gut barrier, endotoxaemia and inflammaging",
+   "pane": "m3-x05",
+   "msg": "142 words before the first tap (tool+inspect); the rule is ≤ 100"
+  },
+  {
+   "level": "fail",
+   "rule": "firstDecision",
+   "module": "m04",
+   "sitting": "4.1 · Copper peptides: GHK and GHK-Cu",
+   "pane": "m4-p02",
+   "msg": "first decision at 1:29 (card 3); the rule is ≤ 1:00"
+  },
+  {
+   "level": "fail",
+   "rule": "passiveRun",
+   "module": "m04",
+   "sitting": "4.1 · Copper peptides: GHK and GHK-Cu",
+   "pane": "m4-p03",
+   "msg": "3 passive cards in a row (m4-p03 → m4-p04 → m4-p05); the rule is ≤ 2"
+  },
+  {
+   "level": "fail",
+   "rule": "visibleWords",
+   "module": "m04",
+   "sitting": "4.1 · Copper peptides: GHK and GHK-Cu",
+   "pane": "m4-p05",
+   "msg": "148 words before the first tap (tool); the rule is ≤ 100"
+  },
+  {
+   "level": "fail",
+   "rule": "firstDecision",
+   "module": "m04",
+   "sitting": "4.3 · Repair peptides and the compounding line",
+   "pane": "m4-x03",
+   "msg": "first decision at 1:33 (card 3); the rule is ≤ 1:00"
+  },
+  {
+   "level": "fail",
+   "rule": "visibleWords",
+   "module": "m04",
+   "sitting": "4.3 · Repair peptides and the compounding line",
+   "pane": "m4-p14",
+   "msg": "110 words before the first tap (stat); the rule is ≤ 100"
+  },
+  {
+   "level": "fail",
+   "rule": "visibleWords",
+   "module": "m04",
+   "sitting": "4.3 · Repair peptides and the compounding line",
+   "pane": "m4-p15",
+   "msg": "110 words before the first tap (tool); the rule is ≤ 100"
+  },
+  {
+   "level": "warn",
+   "rule": "estimatedMinutes",
+   "module": "m04",
+   "msg": "states 41 min; the content estimate is 19.1 min (-53%)"
+  },
+  {
+   "level": "fail",
+   "rule": "firstDecision",
+   "module": "m05",
+   "sitting": "5.1 · The hair follicle as an endocrine mini-organ",
+   "pane": "m5-x01",
+   "msg": "first decision at 2:56 (card 4); the rule is ≤ 1:00"
+  },
+  {
+   "level": "fail",
+   "rule": "passiveRun",
+   "module": "m05",
+   "sitting": "5.1 · The hair follicle as an endocrine mini-organ",
+   "pane": "m5-p01",
+   "msg": "3 passive cards in a row (m5-p01 → m5-opener → m5-p02); the rule is ≤ 2"
+  },
+  {
+   "level": "warn",
+   "rule": "films",
+   "module": "m05",
+   "sitting": "5.1 · The hair follicle as an endocrine mini-organ",
+   "pane": "m5-opener",
+   "msg": "no decision right before or after this film"
+  },
+  {
+   "level": "fail",
+   "rule": "firstDecision",
+   "module": "m05",
+   "sitting": "5.2 · Melanocortins: approved afamelanotide and gray-market Melanotan II",
+   "pane": "m5-x02",
+   "msg": "first decision at 1:10 (card 2); the rule is ≤ 1:00"
+  },
+  {
+   "level": "fail",
+   "rule": "passiveRun",
+   "module": "m05",
+   "sitting": "5.2 · Melanocortins: approved afamelanotide and gray-market Melanotan II",
+   "pane": "m5-p08",
+   "msg": "3 passive cards in a row (m5-p08 → m5-p09 → m5-p10); the rule is ≤ 2"
+  },
+  {
+   "level": "fail",
+   "rule": "visibleWords",
+   "module": "m05",
+   "sitting": "5.2 · Melanocortins: approved afamelanotide and gray-market Melanotan II",
+   "pane": "m5-p08",
+   "msg": "169 words before the first tap (tool); the rule is ≤ 100"
+  },
+  {
+   "level": "fail",
+   "rule": "visibleWords",
+   "module": "m05",
+   "sitting": "5.2 · Melanocortins: approved afamelanotide and gray-market Melanotan II",
+   "pane": "m5-p10",
+   "msg": "110 words before the first tap (audio); the rule is ≤ 100"
+  },
+  {
+   "level": "fail",
+   "rule": "visibleWords",
+   "module": "m05",
+   "sitting": "5.2 · Melanocortins: approved afamelanotide and gray-market Melanotan II",
+   "pane": "m5-p11",
+   "msg": "162 words before the first tap (audio+scenario); the rule is ≤ 150 for a case card"
+  },
+  {
+   "level": "fail",
+   "rule": "visibleWords",
+   "module": "m05",
+   "sitting": "5.2 · Melanocortins: approved afamelanotide and gray-market Melanotan II",
+   "pane": "m5-p12",
+   "msg": "149 words before the first tap (tool); the rule is ≤ 100"
+  },
+  {
+   "level": "fail",
+   "rule": "firstDecision",
+   "module": "m05",
+   "sitting": "5.3 · Investigational hair peptides and how to grade them",
+   "pane": "m5-x04",
+   "msg": "first decision at 1:37 (card 3); the rule is ≤ 1:00"
+  },
+  {
+   "level": "fail",
+   "rule": "firstDecision",
+   "module": "m06",
+   "sitting": "6.1 · Growth hormone and IGF-1 in skin homeostasis",
+   "pane": "m6-x01",
+   "msg": "first decision at 3:09 (card 4); the rule is ≤ 1:00"
+  },
+  {
+   "level": "fail",
+   "rule": "passiveRun",
+   "module": "m06",
+   "sitting": "6.1 · Growth hormone and IGF-1 in skin homeostasis",
+   "pane": "m6-p01",
+   "msg": "3 passive cards in a row (m6-p01 → m6-opener → m6-p02); the rule is ≤ 2"
+  },
+  {
+   "level": "fail",
+   "rule": "visibleWords",
+   "module": "m06",
+   "sitting": "6.1 · Growth hormone and IGF-1 in skin homeostasis",
+   "pane": "m6-p05",
+   "msg": "104 words before the first tap (audio); the rule is ≤ 100"
+  },
+  {
+   "level": "warn",
+   "rule": "films",
+   "module": "m06",
+   "sitting": "6.1 · Growth hormone and IGF-1 in skin homeostasis",
+   "pane": "m6-opener",
+   "msg": "no decision right before or after this film"
+  },
+  {
+   "level": "fail",
+   "rule": "firstDecision",
+   "module": "m06",
+   "sitting": "6.2 · GHRH analogues and secretagogues: clinical pharmacology",
+   "pane": "m6-x02",
+   "msg": "first decision at 1:06 (card 2); the rule is ≤ 1:00"
+  },
+  {
+   "level": "fail",
+   "rule": "visibleWords",
+   "module": "m06",
+   "sitting": "6.2 · GHRH analogues and secretagogues: clinical pharmacology",
+   "pane": "m6-p08",
+   "msg": "173 words before the first tap (tool); the rule is ≤ 100"
+  },
+  {
+   "level": "fail",
+   "rule": "visibleWords",
+   "module": "m06",
+   "sitting": "6.2 · GHRH analogues and secretagogues: clinical pharmacology",
+   "pane": "m6-p11",
+   "msg": "284 words before the first tap (tool); the rule is ≤ 100"
+  },
+  {
+   "level": "fail",
+   "rule": "firstDecision",
+   "module": "m06",
+   "sitting": "6.3 · GH excess, oedema and mitogenic risk",
+   "pane": "m6-x05",
+   "msg": "first decision at 2:27 (card 4); the rule is ≤ 1:00"
+  },
+  {
+   "level": "fail",
+   "rule": "passiveRun",
+   "module": "m06",
+   "sitting": "6.3 · GH excess, oedema and mitogenic risk",
+   "pane": "m6-p14",
+   "msg": "3 passive cards in a row (m6-p14 → m6-p15 → m6-p16); the rule is ≤ 2"
+  },
+  {
+   "level": "fail",
+   "rule": "visibleWords",
+   "module": "m06",
+   "sitting": "6.3 · GH excess, oedema and mitogenic risk",
+   "pane": "m6-p15",
+   "msg": "190 words before the first tap (tool); the rule is ≤ 100"
+  },
+  {
+   "level": "fail",
+   "rule": "visibleWords",
+   "module": "m06",
+   "sitting": "6.3 · GH excess, oedema and mitogenic risk",
+   "pane": "m6-x05",
+   "msg": "117 words before the first tap (tool+inspect); the rule is ≤ 100"
+  },
+  {
+   "level": "fail",
+   "rule": "visibleWords",
+   "module": "m06",
+   "sitting": "6.3 · GH excess, oedema and mitogenic risk",
+   "pane": "m6-p17",
+   "msg": "170 words before the first tap (audio+scenario); the rule is ≤ 150 for a case card"
+  },
+  {
+   "level": "fail",
+   "rule": "firstDecision",
+   "module": "m07",
+   "sitting": "7.1 · Grading the evidence behind an aesthetic claim",
+   "pane": "m7-p04",
+   "msg": "first decision at 3:39 (card 5); the rule is ≤ 1:00"
+  },
+  {
+   "level": "fail",
+   "rule": "passiveRun",
+   "module": "m07",
+   "sitting": "7.1 · Grading the evidence behind an aesthetic claim",
+   "pane": "m7-p01",
+   "msg": "4 passive cards in a row (m7-p01 → m7-opener → m7-p02 → m7-p03); the rule is ≤ 2"
+  },
+  {
+   "level": "fail",
+   "rule": "visibleWords",
+   "module": "m07",
+   "sitting": "7.1 · Grading the evidence behind an aesthetic claim",
+   "pane": "m7-p01",
+   "msg": "129 words before the first tap (title); the rule is ≤ 100"
+  },
+  {
+   "level": "fail",
+   "rule": "visibleWords",
+   "module": "m07",
+   "sitting": "7.1 · Grading the evidence behind an aesthetic claim",
+   "pane": "m7-p02",
+   "msg": "111 words before the first tap (audio); the rule is ≤ 100"
+  },
+  {
+   "level": "warn",
+   "rule": "films",
+   "module": "m07",
+   "sitting": "7.1 · Grading the evidence behind an aesthetic claim",
+   "pane": "m7-opener",
+   "msg": "no decision right before or after this film"
+  },
+  {
+   "level": "fail",
+   "rule": "firstDecision",
+   "module": "m07",
+   "sitting": "7.2 · Compounding law, the 40-amino-acid line and certificates of analysis",
+   "pane": "m7-x02",
+   "msg": "first decision at 1:29 (card 2); the rule is ≤ 1:00"
+  },
+  {
+   "level": "fail",
+   "rule": "passiveRun",
+   "module": "m07",
+   "sitting": "7.2 · Compounding law, the 40-amino-acid line and certificates of analysis",
+   "pane": "m7-p08",
+   "msg": "4 passive cards in a row (m7-p08 → m7-p09 → m7-p21 → m7-p10); the rule is ≤ 2"
+  },
+  {
+   "level": "note",
+   "rule": "sittingLength",
+   "module": "m07",
+   "sitting": "7.2 · Compounding law, the 40-amino-acid line and certificates of analysis",
+   "msg": "10:25 estimated (the convention is 5–10 min)"
+  },
+  {
+   "level": "fail",
+   "rule": "visibleWords",
+   "module": "m07",
+   "sitting": "7.2 · Compounding law, the 40-amino-acid line and certificates of analysis",
+   "pane": "m7-p07",
+   "msg": "104 words before the first tap (audio); the rule is ≤ 100"
+  },
+  {
+   "level": "fail",
+   "rule": "visibleWords",
+   "module": "m07",
+   "sitting": "7.2 · Compounding law, the 40-amino-acid line and certificates of analysis",
+   "pane": "m7-p08",
+   "msg": "172 words before the first tap (tool); the rule is ≤ 100"
+  },
+  {
+   "level": "fail",
+   "rule": "visibleWords",
+   "module": "m07",
+   "sitting": "7.2 · Compounding law, the 40-amino-acid line and certificates of analysis",
+   "pane": "m7-p09",
+   "msg": "122 words before the first tap (stat); the rule is ≤ 100"
+  },
+  {
+   "level": "fail",
+   "rule": "visibleWords",
+   "module": "m07",
+   "sitting": "7.2 · Compounding law, the 40-amino-acid line and certificates of analysis",
+   "pane": "m7-p21",
+   "msg": "143 words before the first tap (tool); the rule is ≤ 100"
+  },
+  {
+   "level": "fail",
+   "rule": "firstDecision",
+   "module": "m07",
+   "sitting": "7.3 · Cosmetic, compounded or investigational: consent and the chart",
+   "pane": "m7-x04",
+   "msg": "first decision at 1:55 (card 3); the rule is ≤ 1:00"
+  },
+  {
+   "level": "fail",
+   "rule": "visibleWords",
+   "module": "m07",
+   "sitting": "7.3 · Cosmetic, compounded or investigational: consent and the chart",
+   "pane": "m7-p16",
+   "msg": "164 words before the first tap (tool); the rule is ≤ 100"
+  },
+  {
+   "level": "fail",
+   "rule": "visibleWords",
+   "module": "m07",
+   "sitting": "7.3 · Cosmetic, compounded or investigational: consent and the chart",
+   "pane": "m7-p17",
+   "msg": "162 words before the first tap (audio+scenario); the rule is ≤ 150 for a case card"
+  },
+  {
+   "level": "fail",
+   "rule": "visibleWords",
+   "module": "m07",
+   "sitting": "7.3 · Cosmetic, compounded or investigational: consent and the chart",
+   "pane": "m7-p18",
+   "msg": "178 words before the first tap (tool); the rule is ≤ 100"
+  },
+  {
+   "level": "fail",
+   "rule": "visibleWords",
+   "module": "m07",
+   "sitting": "7.3 · Cosmetic, compounded or investigational: consent and the chart",
+   "pane": "m7-p20",
+   "msg": "124 words before the first tap (action+chips); the rule is ≤ 100"
+  },
+  {
+   "level": "note",
+   "rule": "answerPosition",
+   "module": "course",
+   "msg": "21 keyed answer(s) the runtime shows shuffled (quiz cards, shown module checks, twotier; PR #27), not counted: authored A 1 · B 17 · C 3 — 81% at B in the package, harmless only where the runtime shuffles"
+  },
+  {
+   "level": "note",
+   "rule": "spacedReview",
+   "module": "course",
+   "msg": "35 of 35 quiz question(s) have options without stable ids (spaced-review readiness: question.options[].id)"
+  },
+  {
+   "level": "note",
+   "rule": "answerPosition",
+   "module": "course",
+   "msg": "module checks in the package that no quiz card shows (not counted): m1-check B, m2-check B, m3-check B, m4-check B, m5-check B, m6-check B, m7-check B"
+  }
+ ],
+ "foundry": "perceptor-foundry f319b9a"
+}
