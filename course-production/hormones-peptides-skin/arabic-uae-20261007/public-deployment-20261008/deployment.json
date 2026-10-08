@@ -1,0 +1,26 @@
+{
+  "url": "https://hormonaly.perceptors.ai/",
+  "revision": "academy-hormonaly-00054-4bq",
+  "trafficPercent": 100,
+  "runtimeCommit": "14cdacd80df1e18094599ac7b0b28eaad8a269e3",
+  "buildId": "e7b7d711-90e5-4e0b-a7ac-7fda07cbbc53",
+  "packageSha256": "9f3f3b47199c7aad43a2e23b30476784c44ed446abfcd64b65d5dd6b2a7b4491",
+  "configSha256": "c30fb7dad72e337b8c551e9897438368aab6bddeb16e12fade0ad2508d4f40dd",
+  "ownerApproval": {
+    "recordedAt": "2026-10-08",
+    "actor": "Omar Saleem \u2014 product owner, direct chat instruction",
+    "statement": "arabic approved now, lets finalize deploy",
+    "scope": "Arabic edition and final public bilingual deployment",
+    "medicalReviewerAttestationRecorded": false,
+    "regulatoryFindingsChanged": false,
+    "arabicMediaComplete": false
+  },
+  "locales": [
+    "en",
+    "ar-AE"
+  ],
+  "defaultLocale": "en",
+  "defaultPracticeCountry": "AE",
+  "mobileWidth": 390,
+  "mobileScrollWidth": 390
+}
