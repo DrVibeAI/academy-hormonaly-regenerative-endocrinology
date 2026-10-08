@@ -1,0 +1,13 @@
+{
+  "files": 7,
+  "cues": 168,
+  "findings": [
+    {
+      "file": "m03-opener.recovered.en.vtt",
+      "check": "short-cue",
+      "level": "warn",
+      "cue": 8,
+      "msg": "cue 8 lasts 1.14s (< 1.2s)"
+    }
+  ]
+}

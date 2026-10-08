@@ -44,6 +44,7 @@ pkg.governance.approvals=[]
 pkg.governance.requiredGates=[...new Set([...pkg.governance.requiredGates,'regulatory_review'])]
 pkg.governance.accreditation={body:'GCLS',status:'not_submitted',notes:'Arabic locale derivative awaiting review. Source English decisions are recorded only in the source package.'}
 for(const m of pkg.curriculum.modules){m.status='ai_draft';for(const u of m.units)u.status='ai_draft'}
+for(const assessment of pkg.assessments??[])assessment.status='ai_draft'
 const addendum=JSON.parse(readFileSync(join(root,'regulatory-addendum.json')))
 for(const s of addendum.sources){
  pkg.provenance.citations.push({id:s.id,title:s.title,url:s.url,sourceType:'regulator',year:2026,note:{en:'Proposed Arabic-edition source-lock amendment; reviewer confirmation pending. Checked 2026-10-07.','ar-AE':'إضافة مقترحة إلى مصادر النسخة العربية؛ بانتظار تأكيد المراجع. تاريخ التحقق 2026-10-07.'}})
@@ -51,7 +52,8 @@ for(const s of addendum.sources){
 }
 pkg.metadata.arabicEdition.regulatoryAmendmentStatus='pending-human-review'
 const lastUnit=pkg.curriculum.modules.at(-1).units.at(-1)
-lastUnit.blocks.push({id:'m7-ar-uae-sa-context',type:'action',title:addendum.title,body:addendum.scope,points:addendum.rows.map(r=>({en:`${r.jurisdiction} · ${r.product}: ${r.text.en}`,[locale]:`${r.jurisdictionLabel?.[locale]??r.jurisdiction} · ${r.productLabel?.[locale]??r.product}: ${r.text[locale]}`})),citationRefs:addendum.sources.map(s=>s.id),metadata:{status:'ai_draft',reviewOwner:owner,checkedAt:addendum.checkedAt,sourceLockAmendment:'pending-review'}})
+lastUnit.blocks.push({id:'m7-ar-uae-sa-context',type:'tool',title:addendum.title,body:addendum.scope,lead:{en:'Arabic review draft · checked 7 October 2026',[locale]:'مسودة عربية قيد المراجعة · تاريخ التحقق 7 أكتوبر 2026'},tool:{items:addendum.rows.map(r=>({label:r.jurisdictionLabel,value:r.productLabel,note:r.text}))},citationRefs:addendum.sources.map(s=>s.id),metadata:{toolLayout:'stacked',status:'ai_draft',reviewOwner:owner,checkedAt:addendum.checkedAt,sourceLockAmendment:'pending-review'}})
+pkg.jurisdictions.push({code:'SA',name:'Saudi Arabia',authorities:[{name:'Saudi Food and Drug Authority',scope:'Product registration and labelling; product checks pending',url:'https://www.sfda.gov.sa/'}],layers:['product','claims','practice','locale'].map(id=>({id,status:'review',detail:'Arabic derivative: Saudi review pending.'})),reviewOwner:owner})
 const regionalOverlay=JSON.parse(readFileSync(join(root,'jurisdiction-overlay.json')))
 for(const m of pkg.curriculum.modules)for(const u of m.units)for(const b of u.blocks??[]){
  const note=regionalOverlay.blocks[b.id]
@@ -59,12 +61,29 @@ for(const m of pkg.curriculum.modules)for(const u of m.units)for(const b of u.bl
  b.metadata??={};b.metadata.variants??={};b.metadata.variants.jurisdiction??={}
  b.metadata.variants.jurisdiction.SA={text:note.text,citationRefs:note.citationRefs}
  b.metadata.regionalReview={country:'SA',topic:note.topic,checkedAt:note.checkedAt,status:note.status}
+ if(!note.citationRefs.length){
+  const gapId=`sa-product-verification-${b.id}`
+  b.metadata.regionalReview.verificationGapId=gapId
+  pkg.metadata.pendingReview??=[]
+  pkg.metadata.pendingReview.push({id:gapId,gate:'regulatory_review',module:m.id,kind:'regulatory-product-verification',blockId:b.id,jurisdiction:'SA',topic:note.topic,owner,status:'pending',checkedAt:note.checkedAt,detail:'Exact product, formulation, route, indication and current Saudi registration/label require reviewer verification. No permission or prohibition is established.'})
+ }
+
 }
 const allBlocks=pkg.curriculum.modules.flatMap(m=>m.units.flatMap(u=>u.blocks))
 const incretinAE=allBlocks.find(b=>b.id==='m3-p09').metadata.variants.jurisdiction.AE
 allBlocks.find(b=>b.id==='m3-p11').metadata.variants.jurisdiction.AE=structuredClone(incretinAE)
 pkg.metadata.arabicEdition.localizationPolicy='course-production/hormones-peptides-skin/arabic-uae-20261007/localization-policy.json'
 pkg.tutorCorpus.push({id:'tutor-ar-sa-peptide-status',keys:['الببتيدات السعودية','ببتيدات السعودية','هل الببتيدات ممنوعة','SFDA peptides','Saudi peptide approval'],answer:{en:addendum.rows[0].text.en+' '+addendum.rows[2].text.en,[locale]:addendum.rows[0].text[locale]+' '+addendum.rows[2].text[locale]},citationRefs:['sa-sfda-unregistered-peptides-20260929'],scope:'m07',suggestedPrompt:{en:'Are all peptides prohibited in Saudi Arabia?',[locale]:'هل جميع الببتيدات ممنوعة في السعودية؟'}})
+// Country-specific fallback answers are reviewed with the package, never hardcoded in the runtime.
+const regionalText=(rows)=>Object.fromEntries(['en',locale].map(l=>[l,rows.map(i=>`${addendum.rows[i].jurisdictionLabel[l]} · ${addendum.rows[i].productLabel[l]}: ${addendum.rows[i].text[l]}`).join('\n\n')+(l===locale?'\n\nمسودة النسخة العربية؛ المراجعة الطبية والتنظيمية قيد الانتظار.':'\n\nArabic edition draft; medical and regulatory review pending.')]))
+const regionalNote=(rows)=>({text:regionalText(rows),source:[...new Set(rows.flatMap(i=>addendum.rows[i].sourceRefs))].map(id=>addendum.sources.find(s=>s.id===id)?.title??id).join(' · ')})
+pkg.metadata.regionalTutor={countries:[{code:'AE',aliases:['UAE','United Arab Emirates','Abu Dhabi','Dubai','الإمارات','أبوظبي','أبو ظبي','دبي']},{code:'SA',aliases:['Saudi','السعودية']}],topics:[
+ {id:'peptide-category',keys:['peptide','الببتيدات','ببتيدات'],notes:{SA:regionalNote([0]),AE:regionalNote([4])}},
+ {id:'research-peptides',keys:['BPC-157','BPC 157','TB-500','CJC-1295','GHK-Cu','GHK Cu','ipamorelin','Melanotan','إيباموريلين','ميلانوتان'],notes:{SA:regionalNote([0,2]),AE:regionalNote([3,4])}},
+ {id:'semaglutide',keys:['semaglutide','Ozempic','Wegovy','Rybelsus','سيماجلوتايد','أوزمبيك','ويغوفي','ريبلسس'],notes:{SA:regionalNote([1]),AE:regionalNote([4])}},
+ {id:'other-products',keys:['Mounjaro','tirzepatide','مونجارو','تيرزيباتايد','oral collagen','الكولاجين','topical GHK-Cu','GHK-Cu الموضعي','GHK-Cu موضعي','cosmetic','تجميلي'],notes:{SA:regionalNote([5]),AE:regionalNote([4])}}
+]}
+
 // Narration variants use the existing source scripts and one licensed library voice.
 const audio=[]
 for(const m of pkg.curriculum.modules)for(const u of m.units)for(const b of u.blocks??[]){

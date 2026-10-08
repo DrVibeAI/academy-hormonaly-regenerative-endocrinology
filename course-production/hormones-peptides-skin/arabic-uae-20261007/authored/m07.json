@@ -1044,7 +1044,8 @@
               "country": "SA",
               "topic": "local regulatory workflow",
               "checkedAt": "2026-10-07",
-              "status": "pending-medical-regulatory-review"
+              "status": "pending-medical-regulatory-review",
+              "verificationGapId": "sa-product-verification-m7-p07"
             }
           },
           "imageBrief": {
@@ -1450,7 +1451,8 @@
               "country": "SA",
               "topic": "local regulatory workflow",
               "checkedAt": "2026-10-07",
-              "status": "pending-medical-regulatory-review"
+              "status": "pending-medical-regulatory-review",
+              "verificationGapId": "sa-product-verification-m7-p08"
             }
           }
         },
@@ -1546,7 +1548,8 @@
               "country": "SA",
               "topic": "local regulatory workflow",
               "checkedAt": "2026-10-07",
-              "status": "pending-medical-regulatory-review"
+              "status": "pending-medical-regulatory-review",
+              "verificationGapId": "sa-product-verification-m7-p09"
             }
           }
         },
@@ -1714,7 +1717,8 @@
               "country": "SA",
               "topic": "local regulatory workflow",
               "checkedAt": "2026-10-07",
-              "status": "pending-medical-regulatory-review"
+              "status": "pending-medical-regulatory-review",
+              "verificationGapId": "sa-product-verification-m7-p21"
             }
           }
         },
@@ -2227,7 +2231,8 @@
               "country": "SA",
               "topic": "local regulatory workflow",
               "checkedAt": "2026-10-07",
-              "status": "pending-medical-regulatory-review"
+              "status": "pending-medical-regulatory-review",
+              "verificationGapId": "sa-product-verification-m7-p13"
             }
           },
           "imageBrief": {
@@ -2421,7 +2426,8 @@
               "country": "SA",
               "topic": "local regulatory workflow",
               "checkedAt": "2026-10-07",
-              "status": "pending-medical-regulatory-review"
+              "status": "pending-medical-regulatory-review",
+              "verificationGapId": "sa-product-verification-m7-p22"
             }
           },
           "imageBrief": {
@@ -2643,7 +2649,8 @@
               "country": "SA",
               "topic": "local regulatory workflow",
               "checkedAt": "2026-10-07",
-              "status": "pending-medical-regulatory-review"
+              "status": "pending-medical-regulatory-review",
+              "verificationGapId": "sa-product-verification-m7-p15"
             }
           },
           "imageBrief": {
@@ -2848,7 +2855,8 @@
               "country": "SA",
               "topic": "cosmetics and supplements",
               "checkedAt": "2026-10-07",
-              "status": "pending-medical-regulatory-review"
+              "status": "pending-medical-regulatory-review",
+              "verificationGapId": "sa-product-verification-m7-p16"
             }
           }
         },
@@ -3416,7 +3424,8 @@
               "country": "SA",
               "topic": "local regulatory workflow",
               "checkedAt": "2026-10-07",
-              "status": "pending-medical-regulatory-review"
+              "status": "pending-medical-regulatory-review",
+              "verificationGapId": "sa-product-verification-m7-p18"
             }
           }
         },
@@ -3852,7 +3861,7 @@
         },
         {
           "id": "m7-ar-uae-sa-context",
-          "type": "action",
+          "type": "tool",
           "title": {
             "en": "UAE practice and Saudi product checks",
             "ar-AE": "الممارسة في الإمارات والتحقق من المنتجات في السعودية"
@@ -3861,32 +3870,98 @@
             "en": "Check the exact product, indication, route and local authority. A peptide class is not a marketing authorization.",
             "ar-AE": "تحقق من المنتج المحدد، والاستطباب، وطريق الإعطاء، والجهة المحلية المختصة. انتماء المادة إلى فئة الببتيدات لا يُعد ترخيصاً بتسويقها."
           },
-          "points": [
-            {
-              "en": "SA · Unregistered peptide products: SFDA's September 29 action concerns unregistered products marketed without authorization; it is not a class-wide peptide ban.",
-              "ar-AE": "المملكة العربية السعودية · المنتجات الببتيدية غير المسجلة: يتعلق إجراء الهيئة بتاريخ 29 سبتمبر بمنتجات غير مسجلة تُسوّق دون ترخيص؛ ولا يثبت حظراً شاملاً لفئة الببتيدات."
-            },
-            {
-              "en": "SA · Semaglutide: Wegovy / Ozempic / Rybelsus: Saudi product information describes weight-management or diabetes indications, depending on brand. These are not skin-rejuvenation approvals. Sudden visual symptoms require urgent ophthalmological assessment.",
-              "ar-AE": "المملكة العربية السعودية · سيماجلوتايد: ويغوفي / أوزمبيك / ريبلسس (Wegovy / Ozempic / Rybelsus): تصف المعلومات الدوائية السعودية استطبابات لضبط الوزن أو السكري بحسب العلامة التجارية. وهي ليست موافقات لتجديد الجلد. تستدعي الأعراض البصرية المفاجئة تقييماً عاجلاً لدى طبيب العيون."
-            },
-            {
-              "en": "SA · BPC-157 / GHK-Cu injectable / CJC-1295 / ipamorelin / Melanotan II / TB-500: No product-specific Saudi registration was verified in this review. Do not present these as permitted treatments. The unregistered-product rule applies; this is not proof of an ingredient-specific statutory ban.",
-              "ar-AE": "المملكة العربية السعودية · BPC-157 / GHK-Cu للحقن / CJC-1295 / إيباموريلين / ميلانوتان II / TB-500: لم يُتحقق في هذه المراجعة من تسجيل سعودي لمنتج محدد من هذه المواد. لا تُعرض كعلاجات مسموحة. تنطبق قاعدة المستحضرات غير المسجلة، دون أن يثبت ذلك حظراً تشريعياً خاصاً بكل مادة."
-            },
-            {
-              "en": "AE-Abu-Dhabi · BPC-157 / CJC-1295 / ipamorelin / Melanotan II / injectable GHK-Cu / thymosin beta-4 fragment: DoH Appendix 2 lists these among prohibited ingredients for compounding or sourcing in unregistered products. Respect route qualifiers. This is an Abu Dhabi rule, not a Saudi list.",
-              "ar-AE": "أبوظبي — الإمارات العربية المتحدة · BPC-157 / CJC-1295 / إيباموريلين / ميلانوتان II / GHK-Cu للحقن / جزء ثيموسين بيتا-4: يدرجها الملحق 2 لدائرة الصحة ضمن المواد المحظورة للتحضير الصيدلاني أو التوريد في منتجات غير مسجلة. يجب مراعاة قيود طريق الإعطاء. هذه قاعدة لأبوظبي وليست قائمة سعودية."
-            },
-            {
-              "en": "AE · Finished medicinal peptide products: Verify EDE authorization and the applicable emirate's practice requirements. A clinic advertisement or analysis certificate does not establish permission.",
-              "ar-AE": "الإمارات العربية المتحدة · المستحضرات الدوائية الببتيدية النهائية: تحقق من ترخيص مؤسسة الإمارات للدواء ومتطلبات الممارسة في الإمارة المعنية. إعلان العيادة أو شهادة التحليل لا يثبتان السماح بالاستخدام."
-            },
-            {
-              "en": "SA · Topical cosmetic peptides / oral collagen / Mounjaro: Separate product checks are still required. Do not infer a cosmetic, supplement or medicine's status from another formulation or country.",
-              "ar-AE": "المملكة العربية السعودية · الببتيدات التجميلية الموضعية / الكولاجين الفموي / مونجارو (Mounjaro): يلزم التحقق من كل منتج على حدة. لا تستنتج وضع مستحضر تجميلي أو مكمل أو دواء من صيغة أخرى أو من دولة أخرى."
-            }
-          ],
+          "lead": {
+            "en": "Arabic review draft · checked 7 October 2026",
+            "ar-AE": "مسودة عربية قيد المراجعة · تاريخ التحقق 7 أكتوبر 2026"
+          },
+          "tool": {
+            "items": [
+              {
+                "label": {
+                  "en": "Saudi Arabia",
+                  "ar-AE": "المملكة العربية السعودية"
+                },
+                "value": {
+                  "en": "Unregistered peptide products",
+                  "ar-AE": "المنتجات الببتيدية غير المسجلة"
+                },
+                "note": {
+                  "en": "SFDA's September 29 action concerns unregistered products marketed without authorization; it is not a class-wide peptide ban.",
+                  "ar-AE": "يتعلق إجراء الهيئة بتاريخ 29 سبتمبر بمنتجات غير مسجلة تُسوّق دون ترخيص؛ ولا يثبت حظراً شاملاً لفئة الببتيدات."
+                }
+              },
+              {
+                "label": {
+                  "en": "Saudi Arabia",
+                  "ar-AE": "المملكة العربية السعودية"
+                },
+                "value": {
+                  "en": "Semaglutide: Wegovy / Ozempic / Rybelsus",
+                  "ar-AE": "سيماجلوتايد: ويغوفي / أوزمبيك / ريبلسس (Wegovy / Ozempic / Rybelsus)"
+                },
+                "note": {
+                  "en": "Saudi product information describes weight-management or diabetes indications, depending on brand. These are not skin-rejuvenation approvals. Sudden visual symptoms require urgent ophthalmological assessment.",
+                  "ar-AE": "تصف المعلومات الدوائية السعودية استطبابات لضبط الوزن أو السكري بحسب العلامة التجارية. وهي ليست موافقات لتجديد الجلد. تستدعي الأعراض البصرية المفاجئة تقييماً عاجلاً لدى طبيب العيون."
+                }
+              },
+              {
+                "label": {
+                  "en": "Saudi Arabia",
+                  "ar-AE": "المملكة العربية السعودية"
+                },
+                "value": {
+                  "en": "BPC-157 / GHK-Cu injectable / CJC-1295 / ipamorelin / Melanotan II / TB-500",
+                  "ar-AE": "BPC-157 / GHK-Cu للحقن / CJC-1295 / إيباموريلين / ميلانوتان II / TB-500"
+                },
+                "note": {
+                  "en": "No product-specific Saudi registration was verified in this review. Do not present these as permitted treatments. The unregistered-product rule applies; this is not proof of an ingredient-specific statutory ban.",
+                  "ar-AE": "لم يُتحقق في هذه المراجعة من تسجيل سعودي لمنتج محدد من هذه المواد. لا تُعرض كعلاجات مسموحة. تنطبق قاعدة المستحضرات غير المسجلة، دون أن يثبت ذلك حظراً تشريعياً خاصاً بكل مادة."
+                }
+              },
+              {
+                "label": {
+                  "en": "Abu Dhabi — United Arab Emirates",
+                  "ar-AE": "أبوظبي — الإمارات العربية المتحدة"
+                },
+                "value": {
+                  "en": "BPC-157 / CJC-1295 / ipamorelin / Melanotan II / injectable GHK-Cu / thymosin beta-4 fragment",
+                  "ar-AE": "BPC-157 / CJC-1295 / إيباموريلين / ميلانوتان II / GHK-Cu للحقن / جزء ثيموسين بيتا-4"
+                },
+                "note": {
+                  "en": "DoH Appendix 2 lists these among prohibited ingredients for compounding or sourcing in unregistered products. Respect route qualifiers. This is an Abu Dhabi rule, not a Saudi list.",
+                  "ar-AE": "يدرجها الملحق 2 لدائرة الصحة ضمن المواد المحظورة للتحضير الصيدلاني أو التوريد في منتجات غير مسجلة. يجب مراعاة قيود طريق الإعطاء. هذه قاعدة لأبوظبي وليست قائمة سعودية."
+                }
+              },
+              {
+                "label": {
+                  "en": "United Arab Emirates",
+                  "ar-AE": "الإمارات العربية المتحدة"
+                },
+                "value": {
+                  "en": "Finished medicinal peptide products",
+                  "ar-AE": "المستحضرات الدوائية الببتيدية النهائية"
+                },
+                "note": {
+                  "en": "Verify EDE authorization and the applicable emirate's practice requirements. A clinic advertisement or analysis certificate does not establish permission.",
+                  "ar-AE": "تحقق من ترخيص مؤسسة الإمارات للدواء ومتطلبات الممارسة في الإمارة المعنية. إعلان العيادة أو شهادة التحليل لا يثبتان السماح بالاستخدام."
+                }
+              },
+              {
+                "label": {
+                  "en": "Saudi Arabia",
+                  "ar-AE": "المملكة العربية السعودية"
+                },
+                "value": {
+                  "en": "Topical cosmetic peptides / oral collagen / Mounjaro",
+                  "ar-AE": "الببتيدات التجميلية الموضعية / الكولاجين الفموي / مونجارو (Mounjaro)"
+                },
+                "note": {
+                  "en": "Separate product checks are still required. Do not infer a cosmetic, supplement or medicine's status from another formulation or country.",
+                  "ar-AE": "يلزم التحقق من كل منتج على حدة. لا تستنتج وضع مستحضر تجميلي أو مكمل أو دواء من صيغة أخرى أو من دولة أخرى."
+                }
+              }
+            ]
+          },
           "citationRefs": [
             "sa-sfda-unregistered-peptides-20260929",
             "sa-sfda-semaglutide-dhpc-202609",
@@ -3894,6 +3969,7 @@
             "ae-ede-directory-20261007"
           ],
           "metadata": {
+            "toolLayout": "stacked",
             "status": "ai_draft",
             "reviewOwner": "Fady Hannah-Shmouni, MD FRCPC — Fady@hormonaly.ai",
             "checkedAt": "2026-10-07",

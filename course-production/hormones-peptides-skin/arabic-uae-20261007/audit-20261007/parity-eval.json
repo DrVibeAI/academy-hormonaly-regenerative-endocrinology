@@ -1,0 +1,19 @@
+{
+ "suite": "parity",
+ "langs": [
+  "ar",
+  "en"
+ ],
+ "checked": 3866,
+ "fail": 7,
+ "missing": [
+  "lessons[0].panes[1].videoBadge: en empty",
+  "lessons[1].panes[1].videoBadge: en empty",
+  "lessons[2].panes[1].videoBadge: en empty",
+  "lessons[3].panes[1].videoBadge: en empty",
+  "lessons[4].panes[1].videoBadge: en empty",
+  "lessons[5].panes[1].videoBadge: en empty",
+  "lessons[6].panes[1].videoBadge: en empty"
+ ],
+ "quizIssues": []
+}

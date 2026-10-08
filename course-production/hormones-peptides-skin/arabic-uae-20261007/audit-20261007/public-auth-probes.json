@@ -1,0 +1,21 @@
+[
+  {
+    "url": "https://hormonaly.perceptors.ai/api/certificate",
+    "status": 401,
+    "body": "{\"error\":\"unauthorized\"}",
+    "headers": {
+      "content-type": "application/json"
+    }
+  },
+  {
+    "url": "https://hormonaly.perceptors.ai/api/admin/overview",
+    "status": 401,
+    "body": "{\"error\":\"unauthorized\"}",
+    "headers": {
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "DENY",
+      "content-type": "application/json",
+      "cache-control": "no-store"
+    }
+  }
+]

@@ -79,7 +79,8 @@ home:
       ar-AE: الهرمونات والببتيدات للجلد، المقطع الترويجي للدورة
     disclosure:
       en: Presented by a digital avatar (AI-generated presenter and voice).
-      ar-AE: يُقدَّم عبر مجسّد رقمي (مقدّم وصوت مُنشآن بالذكاء الاصطناعي).
+      ar-AE: يُقدَّم عبر مجسّد رقمي (مقدّم وصوت مُنشآن بالذكاء الاصطناعي). الفيلم
+        المرجعي بالإنجليزية؛ النسخة العربية قيد الإنتاج.
   practice:
     kicker:
       en: In your practice
@@ -624,7 +625,10 @@ localization:
         en: United Arab Emirates
         ar-AE: الإمارات العربية المتحدة
       centers:
-        - United Arab Emirates
+        - name: United Arab Emirates
+          labels:
+            en: United Arab Emirates
+            ar-AE: الإمارات العربية المتحدة
       edition:
         en: English
         ar-AE: العربية — نسخة إماراتية قيد المراجعة
@@ -652,7 +656,10 @@ localization:
         en: United States
         ar-AE: الولايات المتحدة
       centers:
-        - United States
+        - name: United States
+          labels:
+            en: United States
+            ar-AE: الولايات المتحدة
       edition:
         en: English
         ar-AE: الإنجليزية
@@ -680,7 +687,10 @@ localization:
         en: United Kingdom
         ar-AE: المملكة المتحدة
       centers:
-        - United Kingdom
+        - name: United Kingdom
+          labels:
+            en: United Kingdom
+            ar-AE: المملكة المتحدة
       edition:
         en: English
         ar-AE: الإنجليزية
@@ -708,7 +718,10 @@ localization:
         en: Another EU country
         ar-AE: دولة أخرى في الاتحاد الأوروبي
       centers:
-        - Another EU country
+        - name: Another EU country
+          labels:
+            en: Another EU country
+            ar-AE: دولة أخرى في الاتحاد الأوروبي
       edition:
         en: English
         ar-AE: الإنجليزية
@@ -736,7 +749,10 @@ localization:
         en: Portugal
         ar-AE: البرتغال
       centers:
-        - Portugal
+        - name: Portugal
+          labels:
+            en: Portugal
+            ar-AE: البرتغال
       edition:
         en: English
         ar-AE: الإنجليزية
@@ -764,7 +780,10 @@ localization:
         en: Brazil
         ar-AE: البرازيل
       centers:
-        - Brazil
+        - name: Brazil
+          labels:
+            en: Brazil
+            ar-AE: البرازيل
       edition:
         en: English
         ar-AE: الإنجليزية
@@ -854,3 +873,351 @@ editing:
   approvedAssets:
     - ./assets/brand/hormonaly-mark-flat.svg
     - ./assets/brand/hormonaly-app-icon.svg
+site:
+  contact:
+    organization: Perceptors · GCLS AI Lab
+    email: support@perceptors.ai
+    location:
+      en: Dubai, United Arab Emirates
+      es: Dubái, Emiratos Árabes Unidos
+      pt: Dubai, Emirados Árabes Unidos
+      ar: دبي، الإمارات العربية المتحدة
+      id: Dubai, Uni Emirat Arab
+    socials:
+      - label: Instagram · GCLS
+        handle: "@gcls.study"
+        url: https://www.instagram.com/gcls.study/
+      - label: LinkedIn · GCLS
+        handle: Geneva College of Longevity Science
+        url: https://www.linkedin.com/company/geneva-college-of-longevity-science
+  certificatePartner:
+    name: GCLS AI Lab
+    note:
+      en: Learning technology partner. This mark does not confer GCLS accreditation.
+      ar: شريك تقنيات التعلم. لا تمنح هذه العلامة اعتماد GCLS.
+  terms:
+    version: 2026-10-03-v2-ar-review-20261007
+    updated: October 3, 2026
+    title:
+      en: Terms and Conditions
+      ar: الشروط والأحكام
+    sections:
+      - title:
+          en: Using Perceptors and your academy
+          ar: استخدام Perceptors وأكاديميتك
+        paragraphs:
+          - en: Perceptors is a learning platform from GCLS AI Lab. These terms cover use of
+              the Perceptors website and platform. Your course provider is
+              identified on its academy page; additional enrollment or
+              institutional terms may apply to that course. Contact
+              support@perceptors.ai for access, certificate or terms questions.
+            ar: Perceptors منصة تعليمية تابعة لـ GCLS AI Lab. تسري هذه الشروط على استخدام
+              موقع Perceptors ومنصتها. تُعرّف صفحة الأكاديمية الجهة المقدمة
+              لدورتك؛ وقد تسري على الدورة شروط إضافية للتسجيل أو شروط مؤسسية.
+              للاستفسارات المتعلقة بالدخول أو الشهادات أو الشروط، تواصل عبر
+              support@perceptors.ai.
+      - title:
+          en: Your account
+          ar: حسابك
+        paragraphs:
+          - en: Use accurate account details and keep your sign-in credentials private. Each
+              learner account is personal. Use courses within your
+              qualifications and the requirements of your institution and
+              jurisdiction. Report suspected unauthorized access to support.
+            ar: استخدم بيانات حساب دقيقة واحتفظ ببيانات تسجيل الدخول بسرية. كل حساب متعلم
+              شخصي. استخدم الدورات ضمن حدود مؤهلاتك ومتطلبات مؤسستك والجهات
+              المختصة في نطاق ممارستك. أبلغ الدعم عن أي اشتباه في دخول غير مصرح
+              به.
+      - title:
+          en: Education and AI tools
+          ar: التعليم وأدوات الذكاء الاصطناعي
+        paragraphs:
+          - en: Course materials and AI responses support learning. They do not provide
+              individual medical advice, professional licensure or a substitute
+              for qualified clinical judgment. AI responses may contain errors.
+              Check sources and applicable professional guidance before applying
+              course information.
+            ar: تدعم مواد الدورة وإجابات الذكاء الاصطناعي التعلم. ولا تقدم مشورة طبية فردية
+              أو ترخيصاً مهنياً، ولا تحل محل التقدير السريري المؤهل. قد تتضمن
+              إجابات الذكاء الاصطناعي أخطاء. تحقق من المصادر والإرشادات المهنية
+              المعمول بها قبل تطبيق معلومات الدورة.
+          - en: Do not submit patient records, identifiable health information, confidential
+              employer material or information you do not have permission to
+              use. Use fictional examples for practice.
+            ar: لا تُدخل سجلات مرضى أو معلومات صحية تكشف الهوية أو مواد سرية تخص جهة العمل
+              أو معلومات لا تملك إذناً باستخدامها. استخدم أمثلة افتراضية في
+              التمارين.
+      - title:
+          en: Course creators’ views and independent content
+          ar: آراء منشئي الدورات والمحتوى المستقل
+        paragraphs:
+          - en: The views, interpretations, opinions and recommendations expressed in a
+              course are those of its identified creators, instructors and
+              contributors. They do not necessarily reflect the views of, or
+              constitute endorsement by, Perceptors.ai, DrVibe Inc., GCLS AI Lab
+              or their affiliates. Course creators are responsible for the
+              substance of the teaching content they contribute, including the
+              evidence and professional positions they present.
+            ar: الآراء والتفسيرات ووجهات النظر والتوصيات الواردة في الدورة تخص منشئيها
+              ومدرّسيها والمساهمين المحددين فيها. وهي لا تعكس بالضرورة آراء
+              Perceptors.ai أو DrVibe Inc. أو GCLS AI Lab أو الجهات التابعة لها،
+              ولا تشكل تأييداً منها. يتحمل منشئو الدورات مسؤولية مضمون المحتوى
+              التعليمي الذي يقدمونه، بما في ذلك الأدلة والمواقف المهنية التي
+              يعرضونها.
+          - en: Courses may discuss emerging, investigational, controversial or off-label
+              approaches, or practices that differ from established clinical
+              guidelines. Making a course available through the platform does
+              not mean that Perceptors.ai, DrVibe Inc., GCLS AI Lab or their
+              affiliates recommend those approaches, consider them
+              guideline-concordant, or authorize their clinical use. Platform
+              delivery does not give these entities control over every
+              statement, opinion or interpretation made by a course creator.
+            ar: قد تناقش الدورات أساليب ناشئة أو قيد البحث أو مثيرة للجدل أو استخدامات خارج
+              الاستطبابات المعتمدة، أو ممارسات تختلف عن الإرشادات السريرية
+              الراسخة. إتاحة دورة عبر المنصة لا تعني أن Perceptors.ai أو DrVibe
+              Inc. أو GCLS AI Lab أو الجهات التابعة لها توصي بهذه الأساليب، أو
+              تعدّها متوافقة مع الإرشادات، أو تجيز استخدامها سريرياً. تقديم
+              الدورة عبر المنصة لا يمنح هذه الجهات السيطرة على كل عبارة أو رأي
+              أو تفسير يصدر عن منشئ الدورة.
+          - en: Learners must independently assess the evidence, applicable guidelines,
+              regulatory requirements and their professional scope before
+              applying information in practice. Educational content does not
+              replace individual clinical judgment or patient-specific
+              evaluation. This clause does not exclude any duty, liability or
+              consumer right that cannot lawfully be excluded, or change the
+              responsibilities of an entity that is itself identified as the
+              creator or provider of particular content.
+            ar: على المتعلمين تقييم الأدلة والإرشادات المعمول بها والمتطلبات التنظيمية وحدود
+              نطاقهم المهني بصورة مستقلة قبل تطبيق المعلومات عملياً. لا يحل
+              المحتوى التعليمي محل التقدير السريري الفردي أو التقييم الخاص بكل
+              مريض. لا يستبعد هذا البند أي واجب أو مسؤولية أو حق للمستهلك لا
+              يجوز استبعاده قانوناً، ولا يغيّر مسؤوليات أي جهة تُعرّف هي نفسها
+              بوصفها منشئ محتوى معين أو مقدمه.
+        id: course-creators-views
+      - title:
+          en: Enrollment and payment
+          ar: التسجيل والدفع
+        paragraphs:
+          - en: The course page and checkout describe the price, currency, access period and
+              included services. A free enrollment does not create a paid
+              subscription. Contact support about billing errors, cancellation
+              or refunds. Nothing in these terms removes mandatory consumer
+              rights.
+            ar: توضح صفحة الدورة وصفحة الدفع السعر والعملة ومدة الإتاحة والخدمات المشمولة.
+              لا ينشئ التسجيل المجاني اشتراكاً مدفوعاً. تواصل مع الدعم بشأن
+              أخطاء الفوترة أو الإلغاء أو استرداد المبالغ. لا تلغي هذه الشروط أي
+              حقوق إلزامية للمستهلك.
+      - title:
+          en: Assessments and certificates
+          ar: التقييمات والشهادات
+        paragraphs:
+          - en: Complete assessments honestly and meet the course’s stated requirements. A
+              certificate records completion under the named issuer’s rules.
+              GCLS AI Lab branding identifies platform or learning support; it
+              does not establish GCLS accreditation, CME or CE credit. Formal
+              accreditation or credit applies only when explicitly confirmed for
+              the specific course.
+            ar: أكمل التقييمات بأمانة واستوفِ متطلبات الدورة المعلنة. تسجل الشهادة الإتمام
+              وفق قواعد الجهة المُصدرة المسماة. تشير علامة GCLS AI Lab إلى دعم
+              المنصة أو التعلم؛ ولا تثبت اعتماد GCLS أو رصيداً للتعليم الطبي أو
+              المهني المستمر (CME أو CE). لا يسري اعتماد رسمي أو رصيد إلا عند
+              تأكيده صراحة للدورة المعنية.
+      - title:
+          en: Materials and acceptable use
+          ar: المواد والاستخدام المقبول
+        paragraphs:
+          - en: Use learning materials for your personal or authorized institutional
+              learning. Do not redistribute, sell or publish them without the
+              rights holder’s permission, except where law permits. Do not
+              bypass enrollment, assessments or access controls, access other
+              users’ data, or disrupt the service. Access restrictions can be
+              raised with support for review.
+            ar: استخدم المواد التعليمية لتعلمك الشخصي أو للتعلم المؤسسي المصرح به. لا تعِد
+              توزيعها أو بيعها أو نشرها دون إذن صاحب الحقوق، إلا حيث يسمح
+              القانون. لا تتجاوز التسجيل أو التقييمات أو ضوابط الوصول، ولا تصل
+              إلى بيانات مستخدمين آخرين أو تعطل الخدمة. يمكن عرض القيود على
+              الوصول على الدعم لمراجعتها.
+      - title:
+          en: Availability and external services
+          ar: الإتاحة والخدمات الخارجية
+        paragraphs:
+          - en: Courses and platform features may be maintained or updated. Availability can
+              be interrupted. External resources are governed by their
+              providers’ terms. Retain your own copies of permitted personal
+              learning artifacts where needed.
+            ar: قد تخضع الدورات وخصائص المنصة للصيانة أو التحديث، وقد تنقطع الإتاحة. تخضع
+              الموارد الخارجية لشروط مقدميها. احتفظ عند الحاجة بنسخك الخاصة من
+              مخرجات تعلمك الشخصية المسموح بالاحتفاظ بها.
+      - title:
+          en: Your agreement and changes
+          ar: موافقتك والتغييرات
+        paragraphs:
+          - en: The displayed version identifies these terms. When requested after sign-in,
+              your typed name and affirmative checkbox record your electronic
+              acceptance. Acceptance is saved to your account for the applicable
+              academy and course. A changed document will require renewed
+              acceptance.
+            ar: يحدد رقم الإصدار المعروض هذه الشروط. عند طلب الموافقة بعد تسجيل الدخول، يسجل
+              اسمك المكتوب واختيارك الإيجابي لمربع الموافقة قبولك الإلكتروني.
+              تُحفظ الموافقة في حسابك للأكاديمية والدورة المعنيتين. يتطلب تغيير
+              الوثيقة تجديد الموافقة.
+          - en: Accepting these terms is separate from marketing consent and optional
+              tutor-memory preferences. The Privacy Policy explains how platform
+              information is handled. Contact support@perceptors.ai about either
+              document.
+            ar: قبول هذه الشروط منفصل عن الموافقة على التسويق وتفضيلات ذاكرة المدرّس
+              الاختيارية. توضح سياسة الخصوصية كيفية التعامل مع معلومات المنصة.
+              للاستفسار عن أي من الوثيقتين، تواصل عبر support@perceptors.ai.
+    sourceVersion: 2026-10-03-v2
+    sourceSha256: b9c9d0bc112edba9caeaf2917519563ed32ef9dd5c3371792fe4a07709832fc2
+    reviewNotice:
+      en: Arabic translation draft — legal review pending.
+      ar: مسودة ترجمة عربية — بانتظار المراجعة القانونية.
+  privacy:
+    version: 2026-10-03-v1-ar-review-20261007
+    updated: October 3, 2026
+    title:
+      en: Privacy Policy
+      ar: سياسة الخصوصية
+    sections:
+      - title:
+          en: Who to contact
+          ar: جهة التواصل
+        paragraphs:
+          - en: Perceptors, a GCLS AI Lab platform, supports the academy provider identified
+              on your course page. Contact support@perceptors.ai about privacy
+              or account requests and identify the academy you use. Our contact
+              location is Dubai, United Arab Emirates. Your academy or
+              institution may provide an additional privacy notice for its own
+              processing.
+            ar: تدعم Perceptors، وهي منصة تابعة لـ GCLS AI Lab، الجهة المقدمة للأكاديمية
+              المحددة في صفحة دورتك. لطلبات الخصوصية أو الحساب، تواصل عبر
+              support@perceptors.ai وحدد الأكاديمية التي تستخدمها. موقع التواصل
+              لدينا هو دبي، الإمارات العربية المتحدة. قد تقدم أكاديميتك أو
+              مؤسستك إشعار خصوصية إضافياً يتعلق بمعالجتها الخاصة للبيانات.
+      - title:
+          en: Account, inquiry and learning information
+          ar: معلومات الحساب والاستفسارات والتعلم
+        paragraphs:
+          - en: We process the information you provide in contact forms, including your
+              name, email, organization and message, to respond to your inquiry.
+              Learner accounts use identity and sign-in information, course
+              enrollment, learning progress, assessment submissions and results
+              to provide and administer learning.
+            ar: نعالج المعلومات التي تقدمها في نماذج التواصل، ومنها اسمك وبريدك الإلكتروني
+              ومؤسستك ورسالتك، للرد على استفسارك. تستخدم حسابات المتعلمين
+              معلومات الهوية وتسجيل الدخول والتسجيل في الدورات والتقدم التعليمي
+              وإجابات التقييمات ونتائجها لتوفير التعلم وإدارته.
+          - en: Where agreement is required, we retain the name you type, your account and
+              academy/course identifiers, document version and snapshot,
+              language and server-recorded acceptance time. This records what
+              you agreed to.
+            ar: عندما تكون الموافقة مطلوبة، نحتفظ بالاسم الذي تكتبه ومعرّفات حسابك
+              والأكاديمية والدورة وإصدار الوثيقة ونسخة منها واللغة ووقت الموافقة
+              المسجل على الخادم. يوثق ذلك ما وافقت عليه.
+      - title:
+          en: AI-assisted learning
+          ar: التعلم بمساعدة الذكاء الاصطناعي
+        paragraphs:
+          - en: Questions, responses and learning context are processed to provide tutor
+              features and feedback. Optional remembered preferences use the
+              controls described in the course. Do not enter patient
+              information, sensitive health details or confidential information.
+              AI providers may process the information needed to deliver the
+              requested feature.
+            ar: تُعالج الأسئلة والإجابات وسياق التعلم لتوفير خصائص المدرّس والتغذية الراجعة.
+              تُدار التفضيلات المحفوظة الاختيارية عبر الضوابط الموضحة في الدورة.
+              لا تُدخل معلومات المرضى أو تفاصيل صحية حساسة أو معلومات سرية. قد
+              يعالج مقدمو خدمات الذكاء الاصطناعي المعلومات اللازمة لتقديم
+              الخاصية المطلوبة.
+      - title:
+          en: Service providers and recipients
+          ar: مقدمو الخدمات والجهات المتلقية
+        paragraphs:
+          - en: Providers of hosting, authentication, email, payment and AI services process
+              information needed for those services. Academy administrators and
+              authorized faculty may access learning records needed to
+              administer the course, support learners and review assessments.
+              Payment details are handled by the payment provider; the platform
+              uses transaction and enrollment records to manage access.
+            ar: يعالج مقدمو خدمات الاستضافة والمصادقة والبريد الإلكتروني والدفع والذكاء
+              الاصطناعي المعلومات اللازمة لتلك الخدمات. قد يطلع مسؤولو
+              الأكاديمية وأعضاء هيئة التدريس المصرح لهم على سجلات التعلم اللازمة
+              لإدارة الدورة ودعم المتعلمين ومراجعة التقييمات. يتولى مقدم خدمة
+              الدفع معالجة بيانات الدفع؛ وتستخدم المنصة سجلات المعاملات والتسجيل
+              لإدارة الوصول.
+          - en: Public certificate verification can disclose the learner name, course,
+              issuer, date and certificate status to someone with the
+              verification link or code. Avoid sharing that link if you do not
+              want to make those details available.
+            ar: قد يكشف التحقق العام من الشهادات اسم المتعلم والدورة والجهة المُصدرة
+              والتاريخ وحالة الشهادة لمن يملك رابط التحقق أو رمزه. تجنب مشاركة
+              الرابط إذا كنت لا ترغب في إتاحة تلك التفاصيل.
+      - title:
+          en: Storage, international processing and security
+          ar: التخزين والمعالجة الدولية والأمان
+        paragraphs:
+          - en: Services may process information in different countries depending on the
+              academy’s hosting and provider arrangements. Institutional hosting
+              and data requirements are set with the relevant provider; do not
+              assume a particular country of storage from a contact address.
+            ar: قد تعالج الخدمات المعلومات في دول مختلفة بحسب ترتيبات استضافة الأكاديمية
+              ومقدمي خدماتها. تُحدد متطلبات الاستضافة والبيانات المؤسسية مع مقدم
+              الخدمة المعني؛ فلا تفترض دولة معينة للتخزين استناداً إلى عنوان
+              التواصل.
+          - en: Access controls and operational safeguards support protection of
+              information. No service can guarantee absolute security. We retain
+              information as needed to provide learning, document certificates
+              and agreements, resolve issues and meet applicable obligations.
+              Retention depends on record type and academy arrangements.
+            ar: تسهم ضوابط الوصول والتدابير التشغيلية في حماية المعلومات. لا تستطيع أي خدمة
+              ضمان الأمان المطلق. نحتفظ بالمعلومات بقدر الحاجة لتوفير التعلم
+              وتوثيق الشهادات والاتفاقات ومعالجة المشكلات والوفاء بالالتزامات
+              المعمول بها. تعتمد مدة الاحتفاظ على نوع السجل وترتيبات الأكاديمية.
+      - title:
+          en: Cookies and device storage
+          ar: ملفات تعريف الارتباط وتخزين الجهاز
+        paragraphs:
+          - en: Sign-in and learning features use browser storage to keep your session,
+              language and learning state. The public website may collect usage
+              events through its configured analytics service. Browser controls
+              can clear or restrict local storage; doing so can affect sign-in
+              and unsynchronized learning progress.
+            ar: تستخدم خصائص تسجيل الدخول والتعلم تخزين المتصفح للاحتفاظ بجلستك ولغتك وحالة
+              تعلمك. قد يجمع الموقع العام أحداث الاستخدام عبر خدمة التحليلات
+              المعدّة له. تتيح إعدادات المتصفح مسح التخزين المحلي أو تقييده؛ وقد
+              يؤثر ذلك في تسجيل الدخول والتقدم التعليمي غير المتزامن.
+      - title:
+          en: Your choices and requests
+          ar: خياراتك وطلباتك
+        paragraphs:
+          - en: You can use available account and tutor controls and contact support to
+              request access, correction or deletion of personal information.
+              Rights and exceptions depend on applicable law and the role of
+              your academy or institution. We may need to verify your identity
+              before acting. Do not send identity documents or sensitive records
+              unless requested through an appropriate process.
+            ar: يمكنك استخدام ضوابط الحساب والمدرّس المتاحة والتواصل مع الدعم لطلب الوصول
+              إلى معلوماتك الشخصية أو تصحيحها أو حذفها. تعتمد الحقوق
+              والاستثناءات على القانون المعمول به ودور أكاديميتك أو مؤسستك. قد
+              نحتاج إلى التحقق من هويتك قبل تنفيذ الطلب. لا ترسل وثائق هوية أو
+              سجلات حساسة إلا إذا طُلبت منك ضمن إجراء مناسب.
+          - en: Terms acceptance does not sign you up for marketing. Optional communications
+              and optional tutor preferences are managed separately.
+            ar: لا يؤدي قبول الشروط إلى اشتراكك في التسويق. تُدار المراسلات الاختيارية
+              وتفضيلات المدرّس الاختيارية بصورة منفصلة.
+      - title:
+          en: Policy updates
+          ar: تحديثات السياسة
+        paragraphs:
+          - en: The displayed version and date identify this policy. Material changes are
+              reflected in an updated notice. Where the learner agreement is
+              presented again, it identifies the revised documents.
+            ar: يحدد الإصدار والتاريخ المعروضان هذه السياسة. تنعكس التغييرات الجوهرية في
+              إشعار محدّث. وعند عرض اتفاق المتعلم مجدداً، فإنه يحدد الوثائق
+              المعدلة.
+    sourceVersion: 2026-10-03-v1
+    sourceSha256: b9c9d0bc112edba9caeaf2917519563ed32ef9dd5c3371792fe4a07709832fc2
+    reviewNotice:
+      en: Arabic translation draft — legal review pending.
+      ar: مسودة ترجمة عربية — بانتظار المراجعة القانونية.
