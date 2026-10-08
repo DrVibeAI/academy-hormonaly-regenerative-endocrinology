@@ -1,4 +1,6 @@
 academy: hormonaly
+deployment:
+  serviceAccount: academy-hormonaly@perceptors.iam.gserviceaccount.com
 brand:
   voices:
     es-MX:
@@ -13,10 +15,35 @@ brand:
   name: Hormonaly Academy
   shortName: Hormonaly
   wordmarkSuffix: ACADEMY
-  logo: ./assets/hormonaly-logo.png
+  logo: ""
+  mark: ./assets/brand/hormonaly-mark-flat.svg
+  favicon: ./assets/brand/hormonaly-app-icon.svg
+  authority:
+    by: academy
+    mark: ./assets/brand/hormonaly-app-icon.svg
   theme: perceptors-house
   designTier: 0
-  accent: "#5A4BC4"
+  accent: "#0071E3"
+  palette:
+    primary: "#0071E3"
+    primaryDeep: "#0064CA"
+    primaryDeepest: "#004C99"
+    primarySoft: "#EBF4FF"
+    ink: "#1D1D1F"
+    paper: "#F5F5F7"
+    paperDeep: "#E8E8EB"
+    panel: "#FFFFFF"
+    line: "#E8E8EB"
+    muted: "#6E6E73"
+    mutedLight: "#6E6E73"
+    navy: "#1E232B"
+    primaryTint: "#C7E2FF"
+    onPrimary: "#FFFFFF"
+    action: "#0071E3"
+    link: "#0064CA"
+    successSoft: "#EBF4FF"
+    successInk: "#0064CA"
+    dangerSoft: "#FEEDEC"
   tagline:
     en: Hormones and peptides, evidence-graded.
     ar-AE: الهرمونات والببتيدات، مصنّفة وفق درجات الأدلة.
@@ -37,7 +64,7 @@ home:
       تُظهره التجارب السريرية، وما هو معتمد في مكان ممارستك، وما ينبغي قوله
       تالياً.
   primaryAction:
-    en: Enrol now
+    en: Enroll now
     ar-AE: سجّل الآن
   secondaryAction:
     en: Watch the trailer
@@ -86,30 +113,27 @@ home:
     en: More peptide courses are on the way.
     ar-AE: المزيد من دورات الببتيدات قيد الإعداد.
   glimpses:
+    captureManifest: presentation-inputs/home-glimpses.json
     title:
       en: Learn by doing.
       ar-AE: تعلّم عبر التطبيق العملي.
     items:
-      - src: assets/hormones-peptides-skin/home/inside-film.jpg
+      - src: assets/hormones-peptides-skin/home/inside-film-blue.png
         caption:
           en: A short film opens every module
           ar-AE: يبدأ كل موديول بفيلم قصير
-      - src: assets/hormones-peptides-skin/home/inside-trial.jpg
+      - src: assets/hormones-peptides-skin/home/inside-science-blue.jpg
+        caption:
+          en: Explore the science through illustrations
+          ar-AE: استكشف العلم من خلال الرسوم التوضيحية
+      - src: assets/hormones-peptides-skin/home/inside-trial-blue.png
         caption:
           en: Sort the evidence, one tap at a time
           ar-AE: فرز الأدلة بنقرة واحدة في كل خطوة
-      - src: assets/hormones-peptides-skin/home/inside-case.jpg
+      - src: assets/hormones-peptides-skin/home/inside-case-blue.png
         caption:
           en: Work through clinic cases
           ar-AE: دراسة حالات سريرية واقعية
-      - src: assets/hormones-peptides-skin/home/inside-certificate.jpg
-        caption:
-          en: Audit a certificate of analysis
-          ar-AE: تدقيق شهادة التحليل المخبري
-      - src: assets/hormones-peptides-skin/home/inside-country.jpg
-        caption:
-          en: Your country's rules, dated
-          ar-AE: لوائح بلدك التنظيمية، مؤرّخة ومحدثة
   trust:
     title:
       en: Built on evidence. Reviewed by a physician.
@@ -148,6 +172,31 @@ home:
         en: Medical review · author of the Hormonaly pocket guides on aesthetic and
           regenerative endocrinology and on peptides
         ar-AE: "مراجع النسخة العربية: فادي حنّا شمعوني — المراجعة قيد الانتظار"
+  faculty:
+    title:
+      en: Faculty & advisory
+      ar-AE: هيئة التدريس والمجلس الاستشاري
+    items:
+      - name: Fady Hannah-Shmouni, MD FRCPC
+        designation:
+          en: Faculty · Medical review
+          ar-AE: هيئة التدريس · المراجعة الطبية
+        role:
+          en: Endocrinologist and biochemical geneticist. Author of the Hormonaly pocket
+            guides.
+          ar-AE: اختصاصي الغدد الصماء والوراثة الكيميائية الحيوية، ومؤلف أدلة هورمونالي
+            المرجعية المختصرة.
+        image: assets/faculty/fady-hannah-shmouni-wide.png
+      - name: Dominik Thor
+        designation:
+          en: Advisory
+          ar-AE: المجلس الاستشاري
+        image: assets/faculty/dominik-thor-wide.png
+      - name: Omar Saleem
+        designation:
+          en: Advisory
+          ar-AE: المجلس الاستشاري
+        image: assets/faculty/omar-saleem-wide.png
   faq:
     - q:
         en: Does the course give doses or protocols?
@@ -173,11 +222,9 @@ home:
         ar-AE: هل تمنح الدورة ساعات معتمدة للتعليم الطبي المستمر (CME) أو التعليم
           المستمر (CE)؟
       a:
-        en: The course is accredited by GCLS, the Geneva College of Longevity Sciences.
+        en: The course is accredited by GCLS, the Geneva College of Longevity Science.
           CME or CE credit is not offered at this time.
-        ar-AE: الدورة معتمدة من GCLS (Geneva College of Longevity Sciences). لا يتم
-          تقديم ساعات معتمدة للتعليم الطبي المستمر (CME) أو التعليم المستمر (CE)
-          في الوقت الحالي.
+        ar-AE: النسخة العربية قيد المراجعة، ولم يُعتمد لها رصيد تعليم طبي أو مهني مستمر.
     - q:
         en: What do I get at the end?
         ar-AE: ما الذي سأحصل عليه عند إتمام الدورة؟
@@ -241,7 +288,7 @@ catalog:
     order: 1
     accreditation:
       body: GCLS
-      name: Geneva College of Longevity Sciences
+      name: Geneva College of Longevity Science
       status: accredited
       logo: /gcls/gcls-logo.png
       basis: Verbal confirmation from GCLS to Omar Saleem (product owner), 2026-09-25;
@@ -251,6 +298,32 @@ catalog:
       price:
         amount: 199
         currency: usd
+      promotion:
+        id: october-2026
+        amount: 0
+        startsAt: 2026-10-01T00:00:00-07:00
+        endsAt: 2026-11-01T00:00:00-07:00
+        label:
+          en: October offer · free through October 31
+          es: Oferta de octubre · gratis hasta el 31 de octubre
+          pt: Oferta de outubro · grátis até 31 de outubro
+          ar-AE: عرض أكتوبر · مجانًا حتى 31 أكتوبر
+        banner:
+          headline:
+            en: Free for October
+            es: Gratis en octubre
+            pt: Grátis em outubro
+            ar-AE: مجانًا خلال أكتوبر
+          detail:
+            en: Limited-time offer · Ends October 31
+            es: Oferta por tiempo limitado · Hasta el 31 de octubre
+            pt: Oferta por tempo limitado · Até 31 de outubro
+            ar-AE: عرض لفترة محدودة · ينتهي في 31 أكتوبر
+          action:
+            en: Enroll free
+            es: Inscríbete gratis
+            pt: Inscreva-se grátis
+            ar-AE: سجّل مجانًا
     certificate:
       access: included
     final:
@@ -267,6 +340,7 @@ modules:
   achievements: false
   studio: false
 experience:
+  voiceNotes: false
   defaultRole: prescriber
   roles:
     - id: prescriber
@@ -759,6 +833,24 @@ auth:
   methods:
     - password
     - email-link
+  email:
+    provider: resend
+    apiKeySecret: resend-api-key
+    from: Hormonaly Academy <info@hormonaly.ai>
+    replyTo: info@hormonaly.ai
+    origin: https://hormonaly.perceptors.ai
+    logoUrl: https://hormonaly.perceptors.ai/assets/brand/hormonaly-email-logo.png
+    logoWidth: 280
+    accent: "#0071E3"
 admins:
   - omar@hormonaly.ai
   - omar@perceptors.ai
+  - fady@hormonaly.ai
+editing:
+  enabled: true
+  publishers:
+    - omar@hormonaly.ai
+    - omar@perceptors.ai
+  approvedAssets:
+    - ./assets/brand/hormonaly-mark-flat.svg
+    - ./assets/brand/hormonaly-app-icon.svg

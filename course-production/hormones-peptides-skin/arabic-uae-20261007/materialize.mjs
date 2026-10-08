@@ -101,3 +101,6 @@ for(const m of pkg.curriculum.modules)writeFileSync(join(root,'authored',m.id+'.
 const report={sourceSha256:sha(bytes),sourceVersion:original.version,locale,reviewOwner:owner,localizedFields:localized,sourceLocalizedFields:3797,modules:pkg.curriculum.modules.length,blocks:pkg.curriculum.modules.flatMap(m=>m.units).reduce((n,u)=>n+u.blocks.length,0),narrationScripts:audio.length,filmScripts:films.length,sourcePackageUnchanged:true,releaseReady:false,openGates:['Arabic linguistic and medical review','UAE/Saudi source-lock amendment review','Arabic films and captions','Media preview','Native learner acceptance and publication']}
 writeFileSync(join(root,'BUILD-REPORT.json'),JSON.stringify(report,null,2)+'\n')
 console.log(JSON.stringify(report))
+
+// Carry forward the verified serving release, whose configuration is ahead of the canonical branch.
+await import('./sync-live-baseline.mjs')

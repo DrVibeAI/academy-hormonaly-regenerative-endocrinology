@@ -3,7 +3,7 @@ import{dirname,join,resolve}from'node:path'
 import{fileURLToPath}from'node:url'
 import{createHash}from'node:crypto'
 const root=dirname(fileURLToPath(import.meta.url)),academy=resolve(root,'../../..'),locale='ar-AE'
-const source=JSON.parse(readFileSync(join(academy,'packages/hormones-peptides-skin.json')))
+const source=JSON.parse(readFileSync(join(root,'live-baseline/hormones-peptides-skin.json')))
 const pkg=JSON.parse(readFileSync(join(academy,'packages/hormones-peptides-skin.ar-AE.json')))
 const sourceMap=JSON.parse(readFileSync(join(root,'source-map.json')))
 const at=(v,p)=>p.split('/').slice(1).reduce((o,k)=>o[k],v)

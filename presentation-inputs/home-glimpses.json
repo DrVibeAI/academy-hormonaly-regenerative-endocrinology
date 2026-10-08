@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "academy": "hormonaly",
+  "brandFingerprint": "37e5037cbac7cf513a7b2cb1d7166ade9efcc918d3c5cebd3b993fc214deb0b7",
+  "course": "packages/hormones-peptides-skin.json",
+  "packageSha256": "cb7b66528438d0081b05cc3d08e4b5f2625f3eac94898beb13ebafd5dd936334",
+  "capturedAt": "2026-10-01T04:25:49.252Z",
+  "sourceRuntimeCommit": "b937d9a1a58c9210843476996bbd5e1189583cc7",
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "locale": "en",
+  "country": "US",
+  "captureMethod": "Codex in-app browser; actual learner runtime in isolated local mode, 390x844 iframe viewport",
+  "fixture": "Local capture only: science screen uses Module 1, pane 3, at 390x844 in the actual responsive runtime. Existing film, trial and case captures retained unchanged. No production progress or assessment writes.",
+  "captures": [
+    {
+      "src": "assets/hormones-peptides-skin/home/inside-film-blue.png",
+      "sha256": "925a4025072797ba027c7f671ed9d10f30b5283cbfc391da953336512c1a3f28",
+      "lesson": 1,
+      "pane": 1
+    },
+    {
+      "src": "assets/hormones-peptides-skin/home/inside-science-blue.jpg",
+      "sha256": "36f8004cd4a292c9d28734825044ab70eada08574e666820eda114c6e7448efc",
+      "lesson": 1,
+      "pane": 3,
+      "capturedAt": "2026-10-01T17:43:55.295100+00:00",
+      "sourceRuntimeCommit": "ebde079"
+    },
+    {
+      "src": "assets/hormones-peptides-skin/home/inside-trial-blue.png",
+      "sha256": "c77f7f44b05ef1d4276a674178191cd77ad53adf1acecce46df7250d83ed56e6",
+      "lesson": 4,
+      "pane": 11
+    },
+    {
+      "src": "assets/hormones-peptides-skin/home/inside-case-blue.png",
+      "sha256": "e51afb9258b05c222a9ebc971f2b5e4adfa91a3355cd1e8c5cdbbf2c9dde0685",
+      "lesson": 4,
+      "pane": 22
+    }
+  ],
+  "selectionUpdatedAt": "2026-10-01T17:43:55.295232+00:00"
+}

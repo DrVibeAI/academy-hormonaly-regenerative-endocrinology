@@ -3,7 +3,7 @@
 The Arabic edition targets UAE clinicians, with Saudi Arabia as an explicit comparison and alternate practice context. Language and practice country are independent. This is an agent-reviewed draft, not a regulatory or medical approval.
 
 ## Implemented
-- All 3,797 original localized fields have Arabic text. Original English, assessment answers, grades and citation references remain intact.
+- All 3,797 original localized fields have Arabic text. Deployed English, assessment answers, grades and citation references are retained. The initial canonical source is also preserved; BASELINE-AUDIT.md records the deployed tutor presentation overlay.
 - Thirty lesson points contain both UAE and Saudi notes. Saudi notes now use an explicit topic/block map instead of selecting a generic note from a drug-name match.
 - Arabic authority and product display labels preserve official identities and active ingredient names. Cases use unnamed patients; no fictional Western names needed replacement. Actual authors and reviewers remain unchanged.
 - UAE guidance distinguishes federal product registration from emirate practice rules. Abu Dhabi requirements remain scoped to Abu Dhabi. US law appears as labelled comparative context.

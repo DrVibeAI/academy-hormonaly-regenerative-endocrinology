@@ -4,6 +4,9 @@ Agent pre-review — no gate opened. Prepared 7 October 2026.
 
 Primary audience: clinicians in the UAE. Language: Modern Standard Arabic, ar-AE, RTL. Secondary regulatory context: Saudi Arabia, with product-specific status and explicit uncertainty. Named medical/language reviewer: Fady Hannah-Shmouni, Fady@hormonaly.ai. No message has been sent to the reviewer.
 
+## Baseline correction
+The initial preview used an older runtime/configuration. It now uses the verified serving Hormonaly release academy-hormonaly-00051-54r (runtime 7209291) plus Arabic changes. See BASELINE-AUDIT.md and live-baseline/provenance.json. Canonical source and deployed source differ only in tutor presentation/mappings; deployed branding/configuration also supersede the older canonical settings. English homepage images and newly carried live surfaces still require final Arabic review.
+
 ## Delivered for review
 - Seven modules, all 3,797 original localized text fields translated; zero blank Arabic fields or unchanged long English passages. Seven module checks and 14 final questions retained.
 - Arabic tutor answers, search synonyms, source notes, and localized academy copy.

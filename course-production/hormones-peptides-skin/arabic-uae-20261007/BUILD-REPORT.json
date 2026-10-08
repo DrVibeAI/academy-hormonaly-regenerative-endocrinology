@@ -2,7 +2,7 @@
   "sourceSha256": "6419297d6d012d8c8e5b58909e9e9f1f950443aa548ca20618017dbb0ebfa4fa",
   "sourceVersion": "1.1.0",
   "locale": "ar-AE",
-  "reviewOwner": "Fady Hannah-Shmouni, MD FRCPC — Fady@hormonaly.ai",
+  "reviewOwner": "Fady Hannah-Shmouni, MD FRCPC \u2014 Fady@hormonaly.ai",
   "localizedFields": 3935,
   "sourceLocalizedFields": 3797,
   "modules": 7,
@@ -17,5 +17,14 @@
     "Arabic films and captions",
     "Media preview",
     "Native learner acceptance and publication"
-  ]
+  ],
+  "deployedBaseline": {
+    "checkedAt": "2026-10-07",
+    "servingRevision": "academy-hormonaly-00051-54r",
+    "trafficPercent": 100,
+    "runtimeCommit": "7209291fde69e6330b1d5ce0d3170f3111fde02e",
+    "archive": "gs://run-sources-perceptors-us-central1/services/academy-hormonaly/1791076227.259652-2f6a61e249394a01b723b769feceee56.zip",
+    "sourceCourseSha256": "cb7b66528438d0081b05cc3d08e4b5f2625f3eac94898beb13ebafd5dd936334",
+    "finding": "Canonical academy branch was behind deployed configuration. Seven lesson modules match; deployed tutor answers have formatting and one sentence-order change, plus tutor visual mappings."
+  }
 }
