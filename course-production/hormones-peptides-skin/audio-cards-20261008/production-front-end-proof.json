@@ -1,0 +1,46 @@
+{
+  "origin": "https://hormonaly.perceptors.ai/",
+  "verifiedAt": "2026-10-08T18:26:40.293Z",
+  "health": {
+    "app": "ok",
+    "db": "ok"
+  },
+  "certificateStatus": 401,
+  "bundles": [
+    {
+      "url": "https://hormonaly.perceptors.ai/assets/index-R8iRFbA-.js",
+      "sha256": "b74667b0a927cfaa0bec254109897874d227fa0d6ccfa6cb0ca74e5823a2246b",
+      "updatedCards": false
+    },
+    {
+      "url": "https://hormonaly.perceptors.ai/public-page-seo.js?v=20261001",
+      "sha256": "de6ab85a9e97a73744528b66a18e68ac365048a301338a576d10e1a90e835a0f",
+      "updatedCards": false
+    },
+    {
+      "url": "https://hormonaly.perceptors.ai/assets/preview-main-DHLDhpOQ.js",
+      "sha256": "d2ecbaf0ef9736d07b2e91f8a6e901a6a702a44541ef85137df81e36ea62d8e9",
+      "updatedCards": false
+    },
+    {
+      "url": "https://hormonaly.perceptors.ai/assets/main-WtV6-t_l.js",
+      "sha256": "271948e907900e8eac6a370ee6316dfb93bb55f0ecc5e40ad35affaeb84aaa89",
+      "updatedCards": true
+    },
+    {
+      "url": "https://hormonaly.perceptors.ai/assets/academy-home-CvWT5aIJ.js",
+      "sha256": "3abcf0eee6fef44ed6e5949e0c237c1c30ae263982c10d7c2bde44a0e0c38214",
+      "updatedCards": false
+    },
+    {
+      "url": "https://hormonaly.perceptors.ai/assets/mux-BPva59o1.js",
+      "sha256": "47f88d56004feeea1c7a475f7e90eab0d0807a7aebbe8e4e0110abaa7fd0121e",
+      "updatedCards": false
+    },
+    {
+      "url": "https://hormonaly.perceptors.ai/assets/hls-DSymRVZ7.js",
+      "sha256": "a1a8288293b12d599eb02c04389c8982d78d580b58238c0d1cd06432156a4bf8",
+      "updatedCards": false
+    }
+  ]
+}

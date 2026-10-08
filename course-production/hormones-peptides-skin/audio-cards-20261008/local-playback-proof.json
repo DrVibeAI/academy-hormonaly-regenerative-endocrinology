@@ -1,0 +1,119 @@
+[
+  {
+    "case": "manual-before-play",
+    "paused": true,
+    "revealed": [
+      false,
+      true,
+      false
+    ],
+    "time": 0
+  },
+  {
+    "case": "play-start",
+    "active": [
+      true,
+      false,
+      false
+    ],
+    "duration": 101.36,
+    "paused": false,
+    "revealed": [
+      true,
+      false,
+      false
+    ],
+    "time": 10.063046
+  },
+  {
+    "case": "manual-during-play",
+    "before": 10.072126,
+    "paused": false,
+    "revealed": [
+      false,
+      false,
+      false
+    ],
+    "time": 10.327299
+  },
+  {
+    "case": "automatic-next-chapter",
+    "active": [
+      false,
+      false,
+      true
+    ],
+    "paused": false,
+    "revealed": [
+      false,
+      true,
+      true
+    ],
+    "time": 68.854609
+  },
+  {
+    "case": "manual-while-paused",
+    "before": 68.877616,
+    "paused": true,
+    "revealed": [
+      false,
+      false,
+      true
+    ],
+    "time": 68.877616
+  },
+  {
+    "case": "playback-completed",
+    "ended": true,
+    "paused": true,
+    "revealed": [
+      false,
+      false,
+      true
+    ],
+    "time": 101.36
+  },
+  {
+    "case": "replay",
+    "active": [
+      false,
+      true,
+      false
+    ],
+    "paused": false,
+    "revealed": [
+      true,
+      true,
+      false
+    ],
+    "time": 43.078552
+  },
+  {
+    "case": "current-manual-flip-survives-resume",
+    "before": 43.097915,
+    "active": [
+      false,
+      true,
+      false
+    ],
+    "paused": false,
+    "revealed": [
+      true,
+      false,
+      false
+    ],
+    "time": 43.284616
+  },
+  {
+    "case": "english-manual-before-narration",
+    "audioElements": 0,
+    "hint": "Cards follow the audio. Tap to flip.",
+    "lang": "en",
+    "playLabel": "Play audio",
+    "revealed": [
+      true,
+      false,
+      false
+    ]
+  }
+]
