@@ -15,3 +15,5 @@ Units: preserve the cited study's numbers, unit symbols and reference intervals.
 Release conditions: complete translation and numeric/terminology QA; Fady's Arabic medical/language and jurisdiction review; Arabic media and caption preview; native learner-flow verification; Omar's publication decision. Existing English approvals do not approve this Arabic edition.
 
 Media policy: Yousef — Calm, Deep and Natural, ElevenLabs library voice ZCXYdzd5Evtsll2EdoCi (Arabic, Modern Standard, informative/educational). No faculty voice cloning. Arabic opening films require source-locked visual/timing shells before Avatar V generation. Existing English videos are not relabelled Arabic.
+
+Owner clarification, 2026-10-07: `microlearning-motion` is the course media mode. The course deliberately has no slide deck. Localize microlearning cards and editable HyperFrames motion graphics, narration and captions; do not introduce a slide-deck requirement. Language and practice country are independent; UAE is the primary editorial audience, not an inference about every Arabic-speaking learner.

@@ -1,0 +1,325 @@
+{
+  "locale": "ar-AE",
+  "country": "SA",
+  "sourceStatus": "draft-amendment",
+  "blocks": {
+    "m2-p11": {
+      "topic": "menopausal hormone therapy",
+      "text": {
+        "en": "Saudi context: this review has not verified the Saudi label of the exact hormone product. US indications do not establish Saudi indications; check the exact local registration and label. An indication for menopausal symptoms does not establish a skin-improvement approval.",
+        "ar-AE": "السياق السعودي: لم تُتحقق في هذه المراجعة النشرة السعودية للمستحضر الهرموني المحدد. لا تنقل استطبابات FDA إلى السعودية؛ راجع تسجيل المنتج واستطباباته المحلية قبل وصفه. لا يُستنتج اعتماد لتحسين الجلد من اعتماد لعلاج أعراض سن اليأس."
+      },
+      "citationRefs": [],
+      "checkedAt": "2026-10-07",
+      "status": "pending-medical-regulatory-review"
+    },
+    "m3-p08": {
+      "topic": "incretin medicines",
+      "text": {
+        "en": "Saudi product information describes weight-management or diabetes indications, depending on brand. These are not skin-rejuvenation approvals. Sudden visual symptoms require urgent ophthalmological assessment. Current Saudi product-record and label verification for Mounjaro (tirzepatide) remains open in this edition; this does not mean it is banned or unregistered.",
+        "ar-AE": "تصف المعلومات الدوائية السعودية استطبابات لضبط الوزن أو السكري بحسب العلامة التجارية. وهي ليست موافقات لتجديد الجلد. تستدعي الأعراض البصرية المفاجئة تقييماً عاجلاً لدى طبيب العيون. أما مونجارو (تيرزيباتايد) فيبقى التحقق من سجله ونشرته السعودية الحالية مفتوحاً في هذه النسخة؛ ولا يعني ذلك أنه محظور أو غير مسجل."
+      },
+      "citationRefs": [
+        "sa-sfda-semaglutide-dhpc-202609"
+      ],
+      "checkedAt": "2026-10-07",
+      "status": "pending-medical-regulatory-review"
+    },
+    "m3-p09": {
+      "topic": "incretin medicines",
+      "text": {
+        "en": "Saudi product information describes weight-management or diabetes indications, depending on brand. These are not skin-rejuvenation approvals. Sudden visual symptoms require urgent ophthalmological assessment. Current Saudi product-record and label verification for Mounjaro (tirzepatide) remains open in this edition; this does not mean it is banned or unregistered.",
+        "ar-AE": "تصف المعلومات الدوائية السعودية استطبابات لضبط الوزن أو السكري بحسب العلامة التجارية. وهي ليست موافقات لتجديد الجلد. تستدعي الأعراض البصرية المفاجئة تقييماً عاجلاً لدى طبيب العيون. أما مونجارو (تيرزيباتايد) فيبقى التحقق من سجله ونشرته السعودية الحالية مفتوحاً في هذه النسخة؛ ولا يعني ذلك أنه محظور أو غير مسجل."
+      },
+      "citationRefs": [
+        "sa-sfda-semaglutide-dhpc-202609"
+      ],
+      "checkedAt": "2026-10-07",
+      "status": "pending-medical-regulatory-review"
+    },
+    "m3-p11": {
+      "topic": "incretin medicines",
+      "text": {
+        "en": "Saudi product information describes weight-management or diabetes indications, depending on brand. These are not skin-rejuvenation approvals. Sudden visual symptoms require urgent ophthalmological assessment. Current Saudi product-record and label verification for Mounjaro (tirzepatide) remains open in this edition; this does not mean it is banned or unregistered.",
+        "ar-AE": "تصف المعلومات الدوائية السعودية استطبابات لضبط الوزن أو السكري بحسب العلامة التجارية. وهي ليست موافقات لتجديد الجلد. تستدعي الأعراض البصرية المفاجئة تقييماً عاجلاً لدى طبيب العيون. أما مونجارو (تيرزيباتايد) فيبقى التحقق من سجله ونشرته السعودية الحالية مفتوحاً في هذه النسخة؛ ولا يعني ذلك أنه محظور أو غير مسجل."
+      },
+      "citationRefs": [
+        "sa-sfda-semaglutide-dhpc-202609"
+      ],
+      "checkedAt": "2026-10-07",
+      "status": "pending-medical-regulatory-review"
+    },
+    "m3-p17": {
+      "topic": "research peptides",
+      "text": {
+        "en": "Saudi context: this review has not established registration of an exact BPC-157, TB-500 or injectable GHK-Cu product. This is neither permission to use it nor proof of an ingredient-specific statutory ban. SFDA action on unregistered peptides does not establish a ban on all peptide medicines.",
+        "ar-AE": "السياق السعودي: لم نثبت في هذه المراجعة تسجيل منتج محدد يحتوي على BPC-157 أو TB-500 أو GHK-Cu للحقن. لا يُعرض ذلك كترخيص للاستخدام ولا كإثبات لحظر تشريعي خاص بالمادة. إجراء الهيئة ضد المنتجات الببتيدية غير المسجلة لا يثبت حظراً على جميع الأدوية الببتيدية."
+      },
+      "citationRefs": [
+        "sa-sfda-unregistered-peptides-20260929"
+      ],
+      "checkedAt": "2026-10-07",
+      "status": "pending-medical-regulatory-review"
+    },
+    "m3-p18": {
+      "topic": "research peptides",
+      "text": {
+        "en": "Saudi context: this review has not established registration of an exact BPC-157, TB-500 or injectable GHK-Cu product. This is neither permission to use it nor proof of an ingredient-specific statutory ban. SFDA action on unregistered peptides does not establish a ban on all peptide medicines.",
+        "ar-AE": "السياق السعودي: لم نثبت في هذه المراجعة تسجيل منتج محدد يحتوي على BPC-157 أو TB-500 أو GHK-Cu للحقن. لا يُعرض ذلك كترخيص للاستخدام ولا كإثبات لحظر تشريعي خاص بالمادة. إجراء الهيئة ضد المنتجات الببتيدية غير المسجلة لا يثبت حظراً على جميع الأدوية الببتيدية."
+      },
+      "citationRefs": [
+        "sa-sfda-unregistered-peptides-20260929"
+      ],
+      "checkedAt": "2026-10-07",
+      "status": "pending-medical-regulatory-review"
+    },
+    "m4-p16": {
+      "topic": "research peptides",
+      "text": {
+        "en": "Saudi context: this review has not established registration of an exact BPC-157, TB-500 or injectable GHK-Cu product. This is neither permission to use it nor proof of an ingredient-specific statutory ban. SFDA action on unregistered peptides does not establish a ban on all peptide medicines.",
+        "ar-AE": "السياق السعودي: لم نثبت في هذه المراجعة تسجيل منتج محدد يحتوي على BPC-157 أو TB-500 أو GHK-Cu للحقن. لا يُعرض ذلك كترخيص للاستخدام ولا كإثبات لحظر تشريعي خاص بالمادة. إجراء الهيئة ضد المنتجات الببتيدية غير المسجلة لا يثبت حظراً على جميع الأدوية الببتيدية."
+      },
+      "citationRefs": [
+        "sa-sfda-unregistered-peptides-20260929"
+      ],
+      "checkedAt": "2026-10-07",
+      "status": "pending-medical-regulatory-review"
+    },
+    "m4-p17": {
+      "topic": "research peptides",
+      "text": {
+        "en": "Saudi context: this review has not established registration of an exact BPC-157, TB-500 or injectable GHK-Cu product. This is neither permission to use it nor proof of an ingredient-specific statutory ban. SFDA action on unregistered peptides does not establish a ban on all peptide medicines.",
+        "ar-AE": "السياق السعودي: لم نثبت في هذه المراجعة تسجيل منتج محدد يحتوي على BPC-157 أو TB-500 أو GHK-Cu للحقن. لا يُعرض ذلك كترخيص للاستخدام ولا كإثبات لحظر تشريعي خاص بالمادة. إجراء الهيئة ضد المنتجات الببتيدية غير المسجلة لا يثبت حظراً على جميع الأدوية الببتيدية."
+      },
+      "citationRefs": [
+        "sa-sfda-unregistered-peptides-20260929"
+      ],
+      "checkedAt": "2026-10-07",
+      "status": "pending-medical-regulatory-review"
+    },
+    "m7-p17": {
+      "topic": "research peptides",
+      "text": {
+        "en": "Saudi context: this review has not established registration of an exact BPC-157, TB-500 or injectable GHK-Cu product. This is neither permission to use it nor proof of an ingredient-specific statutory ban. SFDA action on unregistered peptides does not establish a ban on all peptide medicines.",
+        "ar-AE": "السياق السعودي: لم نثبت في هذه المراجعة تسجيل منتج محدد يحتوي على BPC-157 أو TB-500 أو GHK-Cu للحقن. لا يُعرض ذلك كترخيص للاستخدام ولا كإثبات لحظر تشريعي خاص بالمادة. إجراء الهيئة ضد المنتجات الببتيدية غير المسجلة لا يثبت حظراً على جميع الأدوية الببتيدية."
+      },
+      "citationRefs": [
+        "sa-sfda-unregistered-peptides-20260929"
+      ],
+      "checkedAt": "2026-10-07",
+      "status": "pending-medical-regulatory-review"
+    },
+    "m4-p05": {
+      "topic": "GHK-Cu route distinction",
+      "text": {
+        "en": "Saudi context: distinguish a topical GHK-Cu cosmetic from an injectable product. This review has not verified the local status of an exact product in either category. An FDA classification does not establish Saudi permission. Check product category, route, claims and the SFDA record.",
+        "ar-AE": "السياق السعودي: افصل بين مستحضر GHK-Cu التجميلي الموضعي ومستحضر الحقن؛ لم يُتحقق هنا من الوضع المحلي لمنتج محدد لأي منهما. تصنيف FDA الأمريكي للمادة لا يثبت ترخيصاً سعودياً. تحقق من فئة المنتج وطريق استعماله وادعاءاته وسجله لدى الهيئة قبل الحكم عليه."
+      },
+      "citationRefs": [],
+      "checkedAt": "2026-10-07",
+      "status": "pending-medical-regulatory-review"
+    },
+    "m4-p06": {
+      "topic": "GHK-Cu route distinction",
+      "text": {
+        "en": "Saudi context: distinguish a topical GHK-Cu cosmetic from an injectable product. This review has not verified the local status of an exact product in either category. An FDA classification does not establish Saudi permission. Check product category, route, claims and the SFDA record.",
+        "ar-AE": "السياق السعودي: افصل بين مستحضر GHK-Cu التجميلي الموضعي ومستحضر الحقن؛ لم يُتحقق هنا من الوضع المحلي لمنتج محدد لأي منهما. تصنيف FDA الأمريكي للمادة لا يثبت ترخيصاً سعودياً. تحقق من فئة المنتج وطريق استعماله وادعاءاته وسجله لدى الهيئة قبل الحكم عليه."
+      },
+      "citationRefs": [],
+      "checkedAt": "2026-10-07",
+      "status": "pending-medical-regulatory-review"
+    },
+    "m4-p11": {
+      "topic": "cosmetics and supplements",
+      "text": {
+        "en": "Saudi context: check each cosmetic or collagen supplement’s category, record and claims separately. Listing a topical product does not establish permission to inject the same ingredient; registering a supplement does not establish efficacy for treating skin disease. Exact commercial-product verification remains incomplete.",
+        "ar-AE": "السياق السعودي: يلزم التحقق من فئة كل مستحضر تجميلي أو مكمل كولاجين ومن سجله وادعاءاته على حدة. لا يثبت إدراج مستحضر موضعي السماح بحقن المادة نفسها، ولا يثبت تسجيل مكمل فعاليته لعلاج مرض جلدي. لم تُستكمل هنا مراجعة المنتجات التجارية المحددة."
+      },
+      "citationRefs": [],
+      "checkedAt": "2026-10-07",
+      "status": "pending-medical-regulatory-review"
+    },
+    "m7-p16": {
+      "topic": "cosmetics and supplements",
+      "text": {
+        "en": "Saudi context: check each cosmetic or collagen supplement’s category, record and claims separately. Listing a topical product does not establish permission to inject the same ingredient; registering a supplement does not establish efficacy for treating skin disease. Exact commercial-product verification remains incomplete.",
+        "ar-AE": "السياق السعودي: يلزم التحقق من فئة كل مستحضر تجميلي أو مكمل كولاجين ومن سجله وادعاءاته على حدة. لا يثبت إدراج مستحضر موضعي السماح بحقن المادة نفسها، ولا يثبت تسجيل مكمل فعاليته لعلاج مرض جلدي. لم تُستكمل هنا مراجعة المنتجات التجارية المحددة."
+      },
+      "citationRefs": [],
+      "checkedAt": "2026-10-07",
+      "status": "pending-medical-regulatory-review"
+    },
+    "m5-p03": {
+      "topic": "baricitinib",
+      "text": {
+        "en": "Saudi context: baricitinib (Olumiant) is a specific medicine; its current Saudi alopecia indication was not verified here. Approval for another indication or in another country is insufficient.",
+        "ar-AE": "السياق السعودي: باريسيتينيب (Olumiant) اسم دواء محدد؛ لم تُراجع هنا نشرته السعودية الحالية لاستطباب الثعلبة. اعتماد الدواء لاستطباب آخر أو في بلد آخر لا يكفي لإثبات هذا الاستطباب في السعودية."
+      },
+      "citationRefs": [],
+      "checkedAt": "2026-10-07",
+      "status": "pending-medical-regulatory-review"
+    },
+    "m5-p05": {
+      "topic": "hair-loss products",
+      "text": {
+        "en": "Saudi context: separately verify the product, strength, route and indication for minoxidil and finasteride, and the local status of any thymulin or PTD-DBM preparation. These checks remain incomplete; clinical evidence or foreign authorization does not automatically establish local permission.",
+        "ar-AE": "السياق السعودي: تحقق على حدة من المستحضر والتركيز وطريق الاستعمال والاستطباب لكل من مينوكسيديل وفيناستيرايد، ومن الوضع المحلي لأي تركيبة تحتوي على ثيمولين أو PTD-DBM. لم يُستكمل هذا التحقق في النسخة الحالية؛ لا ينقل الدليل السريري أو الترخيص الأجنبي تلقائياً إذناً محلياً."
+      },
+      "citationRefs": [],
+      "checkedAt": "2026-10-07",
+      "status": "pending-medical-regulatory-review"
+    },
+    "m5-p17": {
+      "topic": "hair-loss products",
+      "text": {
+        "en": "Saudi context: separately verify the product, strength, route and indication for minoxidil and finasteride, and the local status of any thymulin or PTD-DBM preparation. These checks remain incomplete; clinical evidence or foreign authorization does not automatically establish local permission.",
+        "ar-AE": "السياق السعودي: تحقق على حدة من المستحضر والتركيز وطريق الاستعمال والاستطباب لكل من مينوكسيديل وفيناستيرايد، ومن الوضع المحلي لأي تركيبة تحتوي على ثيمولين أو PTD-DBM. لم يُستكمل هذا التحقق في النسخة الحالية؛ لا ينقل الدليل السريري أو الترخيص الأجنبي تلقائياً إذناً محلياً."
+      },
+      "citationRefs": [],
+      "checkedAt": "2026-10-07",
+      "status": "pending-medical-regulatory-review"
+    },
+    "m5-p08": {
+      "topic": "afamelanotide",
+      "text": {
+        "en": "Saudi context: do not conflate afamelanotide (Scenesse) with Melanotan II. Saudi registration or a specific access pathway for Scenesse has not been verified here; foreign approval does not establish its local status.",
+        "ar-AE": "السياق السعودي: لا تخلط بين أفاميلانوتايد (Scenesse) وميلانوتان II. لم يُتحقق هنا من تسجيل منتج Scenesse أو من مسار وصول خاص به في السعودية؛ اعتماده في بلد آخر لا يحسم وضعه المحلي."
+      },
+      "citationRefs": [],
+      "checkedAt": "2026-10-07",
+      "status": "pending-medical-regulatory-review"
+    },
+    "m5-p12": {
+      "topic": "Melanotan II",
+      "text": {
+        "en": "Saudi context: registration of an exact Melanotan II product has not been verified. Do not present it as a permitted tanning option or infer permission from afamelanotide’s approval elsewhere. Do not turn the SFDA unregistered-peptide warning into an undocumented ingredient-specific statutory ban.",
+        "ar-AE": "السياق السعودي: لم يُتحقق هنا من تسجيل منتج ميلانوتان II. لا يُسوّق في الدورة كخيار مسموح للتسمير، ولا يُفترض ترخيصه لأن أفاميلانوتايد دواء معتمد في بلد آخر. تحذير الهيئة من الببتيدات غير المسجلة لا يُحوّل إلى ادعاء غير موثق بحظر تشريعي خاص بكل مادة."
+      },
+      "citationRefs": [
+        "sa-sfda-unregistered-peptides-20260929"
+      ],
+      "checkedAt": "2026-10-07",
+      "status": "pending-medical-regulatory-review"
+    },
+    "m6-p05": {
+      "topic": "somatropin",
+      "text": {
+        "en": "Saudi context: verify the exact somatropin product, Saudi label and prescribing scope; this review has not completed those checks. A growth-hormone-deficiency indication or foreign authorization does not establish an anti-ageing or skin indication.",
+        "ar-AE": "السياق السعودي: يُراجع مستحضر سوماتروبين ونشرته ونطاق وصفه محلياً؛ لم تُستكمل هذه المراجعة هنا. لا يُستنتج استطباب لمكافحة الشيخوخة أو تحسين الجلد من علاج نقص هرمون النمو أو من تصريح أجنبي."
+      },
+      "citationRefs": [],
+      "checkedAt": "2026-10-07",
+      "status": "pending-medical-regulatory-review"
+    },
+    "m6-p08": {
+      "topic": "GH-axis products",
+      "text": {
+        "en": "Saudi context: assess exact products, indications and routes separately for tesamorelin, sermorelin, ipamorelin, CJC-1295 and ibutamoren. This review has not established Saudi registration for exact products; US compounding lists or overseas use do not establish permission.",
+        "ar-AE": "السياق السعودي: تُفحص المنتجات والاستطبابات وطرق الإعطاء كل على حدة لتيساموريلين وسيرموريلين وإيباموريلين وCJC-1295 وإيبوتامورين. لم تُثبت المراجعة الحالية تسجيل منتجات محددة منها في السعودية؛ لا يُستنتج السماح من قوائم التحضير الصيدلاني الأمريكية أو من استخدامها خارج السعودية."
+      },
+      "citationRefs": [],
+      "checkedAt": "2026-10-07",
+      "status": "pending-medical-regulatory-review"
+    },
+    "m6-p11": {
+      "topic": "GH-axis products",
+      "text": {
+        "en": "Saudi context: assess exact products, indications and routes separately for tesamorelin, sermorelin, ipamorelin, CJC-1295 and ibutamoren. This review has not established Saudi registration for exact products; US compounding lists or overseas use do not establish permission.",
+        "ar-AE": "السياق السعودي: تُفحص المنتجات والاستطبابات وطرق الإعطاء كل على حدة لتيساموريلين وسيرموريلين وإيباموريلين وCJC-1295 وإيبوتامورين. لم تُثبت المراجعة الحالية تسجيل منتجات محددة منها في السعودية؛ لا يُستنتج السماح من قوائم التحضير الصيدلاني الأمريكية أو من استخدامها خارج السعودية."
+      },
+      "citationRefs": [],
+      "checkedAt": "2026-10-07",
+      "status": "pending-medical-regulatory-review"
+    },
+    "m6-p12": {
+      "topic": "GH-axis products",
+      "text": {
+        "en": "Saudi context: assess exact products, indications and routes separately for tesamorelin, sermorelin, ipamorelin, CJC-1295 and ibutamoren. This review has not established Saudi registration for exact products; US compounding lists or overseas use do not establish permission.",
+        "ar-AE": "السياق السعودي: تُفحص المنتجات والاستطبابات وطرق الإعطاء كل على حدة لتيساموريلين وسيرموريلين وإيباموريلين وCJC-1295 وإيبوتامورين. لم تُثبت المراجعة الحالية تسجيل منتجات محددة منها في السعودية؛ لا يُستنتج السماح من قوائم التحضير الصيدلاني الأمريكية أو من استخدامها خارج السعودية."
+      },
+      "citationRefs": [],
+      "checkedAt": "2026-10-07",
+      "status": "pending-medical-regulatory-review"
+    },
+    "m7-p07": {
+      "topic": "local regulatory workflow",
+      "text": {
+        "en": "Saudi context: FDA and 503A/503B rules are US comparison material, not a Saudi authorization pathway. Separate registration and indication from practitioner/facility scope, compounding, import and advertising. Check Saudi requirements for each decision; neither a certificate of analysis nor informed consent establishes product authorization. Detailed Saudi pathway review remains open.",
+        "ar-AE": "السياق السعودي: تُعرض قواعد FDA و503A و503B هنا للمقارنة الأمريكية، وليست مسار ترخيص سعودياً. افصل بين تسجيل المنتج واستطبابه، ونطاق ممارسة الواصف والمنشأة، والتحضير الصيدلاني والاستيراد والإعلان. يلزم التحقق من المتطلبات السعودية لكل قرار؛ ولا تثبت شهادة التحليل أو الموافقة المستنيرة ترخيص المنتج. المراجعة التفصيلية للمسارات السعودية لا تزال مفتوحة."
+      },
+      "citationRefs": [],
+      "checkedAt": "2026-10-07",
+      "status": "pending-medical-regulatory-review"
+    },
+    "m7-p08": {
+      "topic": "local regulatory workflow",
+      "text": {
+        "en": "Saudi context: FDA and 503A/503B rules are US comparison material, not a Saudi authorization pathway. Separate registration and indication from practitioner/facility scope, compounding, import and advertising. Check Saudi requirements for each decision; neither a certificate of analysis nor informed consent establishes product authorization. Detailed Saudi pathway review remains open.",
+        "ar-AE": "السياق السعودي: تُعرض قواعد FDA و503A و503B هنا للمقارنة الأمريكية، وليست مسار ترخيص سعودياً. افصل بين تسجيل المنتج واستطبابه، ونطاق ممارسة الواصف والمنشأة، والتحضير الصيدلاني والاستيراد والإعلان. يلزم التحقق من المتطلبات السعودية لكل قرار؛ ولا تثبت شهادة التحليل أو الموافقة المستنيرة ترخيص المنتج. المراجعة التفصيلية للمسارات السعودية لا تزال مفتوحة."
+      },
+      "citationRefs": [],
+      "checkedAt": "2026-10-07",
+      "status": "pending-medical-regulatory-review"
+    },
+    "m7-p09": {
+      "topic": "local regulatory workflow",
+      "text": {
+        "en": "Saudi context: FDA and 503A/503B rules are US comparison material, not a Saudi authorization pathway. Separate registration and indication from practitioner/facility scope, compounding, import and advertising. Check Saudi requirements for each decision; neither a certificate of analysis nor informed consent establishes product authorization. Detailed Saudi pathway review remains open.",
+        "ar-AE": "السياق السعودي: تُعرض قواعد FDA و503A و503B هنا للمقارنة الأمريكية، وليست مسار ترخيص سعودياً. افصل بين تسجيل المنتج واستطبابه، ونطاق ممارسة الواصف والمنشأة، والتحضير الصيدلاني والاستيراد والإعلان. يلزم التحقق من المتطلبات السعودية لكل قرار؛ ولا تثبت شهادة التحليل أو الموافقة المستنيرة ترخيص المنتج. المراجعة التفصيلية للمسارات السعودية لا تزال مفتوحة."
+      },
+      "citationRefs": [],
+      "checkedAt": "2026-10-07",
+      "status": "pending-medical-regulatory-review"
+    },
+    "m7-p21": {
+      "topic": "local regulatory workflow",
+      "text": {
+        "en": "Saudi context: FDA and 503A/503B rules are US comparison material, not a Saudi authorization pathway. Separate registration and indication from practitioner/facility scope, compounding, import and advertising. Check Saudi requirements for each decision; neither a certificate of analysis nor informed consent establishes product authorization. Detailed Saudi pathway review remains open.",
+        "ar-AE": "السياق السعودي: تُعرض قواعد FDA و503A و503B هنا للمقارنة الأمريكية، وليست مسار ترخيص سعودياً. افصل بين تسجيل المنتج واستطبابه، ونطاق ممارسة الواصف والمنشأة، والتحضير الصيدلاني والاستيراد والإعلان. يلزم التحقق من المتطلبات السعودية لكل قرار؛ ولا تثبت شهادة التحليل أو الموافقة المستنيرة ترخيص المنتج. المراجعة التفصيلية للمسارات السعودية لا تزال مفتوحة."
+      },
+      "citationRefs": [],
+      "checkedAt": "2026-10-07",
+      "status": "pending-medical-regulatory-review"
+    },
+    "m7-p13": {
+      "topic": "local regulatory workflow",
+      "text": {
+        "en": "Saudi context: FDA and 503A/503B rules are US comparison material, not a Saudi authorization pathway. Separate registration and indication from practitioner/facility scope, compounding, import and advertising. Check Saudi requirements for each decision; neither a certificate of analysis nor informed consent establishes product authorization. Detailed Saudi pathway review remains open.",
+        "ar-AE": "السياق السعودي: تُعرض قواعد FDA و503A و503B هنا للمقارنة الأمريكية، وليست مسار ترخيص سعودياً. افصل بين تسجيل المنتج واستطبابه، ونطاق ممارسة الواصف والمنشأة، والتحضير الصيدلاني والاستيراد والإعلان. يلزم التحقق من المتطلبات السعودية لكل قرار؛ ولا تثبت شهادة التحليل أو الموافقة المستنيرة ترخيص المنتج. المراجعة التفصيلية للمسارات السعودية لا تزال مفتوحة."
+      },
+      "citationRefs": [],
+      "checkedAt": "2026-10-07",
+      "status": "pending-medical-regulatory-review"
+    },
+    "m7-p22": {
+      "topic": "local regulatory workflow",
+      "text": {
+        "en": "Saudi context: FDA and 503A/503B rules are US comparison material, not a Saudi authorization pathway. Separate registration and indication from practitioner/facility scope, compounding, import and advertising. Check Saudi requirements for each decision; neither a certificate of analysis nor informed consent establishes product authorization. Detailed Saudi pathway review remains open.",
+        "ar-AE": "السياق السعودي: تُعرض قواعد FDA و503A و503B هنا للمقارنة الأمريكية، وليست مسار ترخيص سعودياً. افصل بين تسجيل المنتج واستطبابه، ونطاق ممارسة الواصف والمنشأة، والتحضير الصيدلاني والاستيراد والإعلان. يلزم التحقق من المتطلبات السعودية لكل قرار؛ ولا تثبت شهادة التحليل أو الموافقة المستنيرة ترخيص المنتج. المراجعة التفصيلية للمسارات السعودية لا تزال مفتوحة."
+      },
+      "citationRefs": [],
+      "checkedAt": "2026-10-07",
+      "status": "pending-medical-regulatory-review"
+    },
+    "m7-p15": {
+      "topic": "local regulatory workflow",
+      "text": {
+        "en": "Saudi context: FDA and 503A/503B rules are US comparison material, not a Saudi authorization pathway. Separate registration and indication from practitioner/facility scope, compounding, import and advertising. Check Saudi requirements for each decision; neither a certificate of analysis nor informed consent establishes product authorization. Detailed Saudi pathway review remains open.",
+        "ar-AE": "السياق السعودي: تُعرض قواعد FDA و503A و503B هنا للمقارنة الأمريكية، وليست مسار ترخيص سعودياً. افصل بين تسجيل المنتج واستطبابه، ونطاق ممارسة الواصف والمنشأة، والتحضير الصيدلاني والاستيراد والإعلان. يلزم التحقق من المتطلبات السعودية لكل قرار؛ ولا تثبت شهادة التحليل أو الموافقة المستنيرة ترخيص المنتج. المراجعة التفصيلية للمسارات السعودية لا تزال مفتوحة."
+      },
+      "citationRefs": [],
+      "checkedAt": "2026-10-07",
+      "status": "pending-medical-regulatory-review"
+    },
+    "m7-p18": {
+      "topic": "local regulatory workflow",
+      "text": {
+        "en": "Saudi context: FDA and 503A/503B rules are US comparison material, not a Saudi authorization pathway. Separate registration and indication from practitioner/facility scope, compounding, import and advertising. Check Saudi requirements for each decision; neither a certificate of analysis nor informed consent establishes product authorization. Detailed Saudi pathway review remains open.",
+        "ar-AE": "السياق السعودي: تُعرض قواعد FDA و503A و503B هنا للمقارنة الأمريكية، وليست مسار ترخيص سعودياً. افصل بين تسجيل المنتج واستطبابه، ونطاق ممارسة الواصف والمنشأة، والتحضير الصيدلاني والاستيراد والإعلان. يلزم التحقق من المتطلبات السعودية لكل قرار؛ ولا تثبت شهادة التحليل أو الموافقة المستنيرة ترخيص المنتج. المراجعة التفصيلية للمسارات السعودية لا تزال مفتوحة."
+      },
+      "citationRefs": [],
+      "checkedAt": "2026-10-07",
+      "status": "pending-medical-regulatory-review"
+    }
+  }
+}

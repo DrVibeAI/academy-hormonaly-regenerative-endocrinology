@@ -15898,14 +15898,18 @@
                       },
                       "SA": {
                         "text": {
-                          "en": "SFDA's September 29 action concerns unregistered products marketed without authorization; it is not a class-wide peptide ban.",
-                          "ar-AE": "يتعلق إجراء الهيئة بتاريخ 29 سبتمبر بمنتجات غير مسجلة تُسوّق دون ترخيص؛ ولا يثبت حظراً شاملاً لفئة الببتيدات."
+                          "en": "Saudi context: this review has not verified the Saudi label of the exact hormone product. US indications do not establish Saudi indications; check the exact local registration and label. An indication for menopausal symptoms does not establish a skin-improvement approval.",
+                          "ar-AE": "السياق السعودي: لم تُتحقق في هذه المراجعة النشرة السعودية للمستحضر الهرموني المحدد. لا تنقل استطبابات FDA إلى السعودية؛ راجع تسجيل المنتج واستطباباته المحلية قبل وصفه. لا يُستنتج اعتماد لتحسين الجلد من اعتماد لعلاج أعراض سن اليأس."
                         },
-                        "citationRefs": [
-                          "sa-sfda-unregistered-peptides-20260929"
-                        ]
+                        "citationRefs": []
                       }
                     }
+                  },
+                  "regionalReview": {
+                    "country": "SA",
+                    "topic": "menopausal hormone therapy",
+                    "checkedAt": "2026-10-07",
+                    "status": "pending-medical-regulatory-review"
                   }
                 },
                 "imageBrief": {
@@ -18483,14 +18487,20 @@
                       },
                       "SA": {
                         "text": {
-                          "en": "Saudi product information describes weight-management or diabetes indications, depending on brand. These are not skin-rejuvenation approvals. Sudden visual symptoms require urgent ophthalmological assessment.",
-                          "ar-AE": "تصف المعلومات الدوائية السعودية استطبابات لضبط الوزن أو السكري بحسب العلامة التجارية. وهي ليست موافقات لتجديد الجلد. تستدعي الأعراض البصرية المفاجئة تقييماً عاجلاً لدى طبيب العيون."
+                          "en": "Saudi product information describes weight-management or diabetes indications, depending on brand. These are not skin-rejuvenation approvals. Sudden visual symptoms require urgent ophthalmological assessment. Current Saudi product-record and label verification for Mounjaro (tirzepatide) remains open in this edition; this does not mean it is banned or unregistered.",
+                          "ar-AE": "تصف المعلومات الدوائية السعودية استطبابات لضبط الوزن أو السكري بحسب العلامة التجارية. وهي ليست موافقات لتجديد الجلد. تستدعي الأعراض البصرية المفاجئة تقييماً عاجلاً لدى طبيب العيون. أما مونجارو (تيرزيباتايد) فيبقى التحقق من سجله ونشرته السعودية الحالية مفتوحاً في هذه النسخة؛ ولا يعني ذلك أنه محظور أو غير مسجل."
                         },
                         "citationRefs": [
                           "sa-sfda-semaglutide-dhpc-202609"
                         ]
                       }
                     }
+                  },
+                  "regionalReview": {
+                    "country": "SA",
+                    "topic": "incretin medicines",
+                    "checkedAt": "2026-10-07",
+                    "status": "pending-medical-regulatory-review"
                   }
                 },
                 "imageBrief": {
@@ -18697,14 +18707,20 @@
                       },
                       "SA": {
                         "text": {
-                          "en": "Saudi product information describes weight-management or diabetes indications, depending on brand. These are not skin-rejuvenation approvals. Sudden visual symptoms require urgent ophthalmological assessment.",
-                          "ar-AE": "تصف المعلومات الدوائية السعودية استطبابات لضبط الوزن أو السكري بحسب العلامة التجارية. وهي ليست موافقات لتجديد الجلد. تستدعي الأعراض البصرية المفاجئة تقييماً عاجلاً لدى طبيب العيون."
+                          "en": "Saudi product information describes weight-management or diabetes indications, depending on brand. These are not skin-rejuvenation approvals. Sudden visual symptoms require urgent ophthalmological assessment. Current Saudi product-record and label verification for Mounjaro (tirzepatide) remains open in this edition; this does not mean it is banned or unregistered.",
+                          "ar-AE": "تصف المعلومات الدوائية السعودية استطبابات لضبط الوزن أو السكري بحسب العلامة التجارية. وهي ليست موافقات لتجديد الجلد. تستدعي الأعراض البصرية المفاجئة تقييماً عاجلاً لدى طبيب العيون. أما مونجارو (تيرزيباتايد) فيبقى التحقق من سجله ونشرته السعودية الحالية مفتوحاً في هذه النسخة؛ ولا يعني ذلك أنه محظور أو غير مسجل."
                         },
                         "citationRefs": [
                           "sa-sfda-semaglutide-dhpc-202609"
                         ]
                       }
                     }
+                  },
+                  "regionalReview": {
+                    "country": "SA",
+                    "topic": "incretin medicines",
+                    "checkedAt": "2026-10-07",
+                    "status": "pending-medical-regulatory-review"
                   }
                 }
               },
@@ -18861,14 +18877,32 @@
                       },
                       "SA": {
                         "text": {
-                          "en": "Saudi product information describes weight-management or diabetes indications, depending on brand. These are not skin-rejuvenation approvals. Sudden visual symptoms require urgent ophthalmological assessment.",
-                          "ar-AE": "تصف المعلومات الدوائية السعودية استطبابات لضبط الوزن أو السكري بحسب العلامة التجارية. وهي ليست موافقات لتجديد الجلد. تستدعي الأعراض البصرية المفاجئة تقييماً عاجلاً لدى طبيب العيون."
+                          "en": "Saudi product information describes weight-management or diabetes indications, depending on brand. These are not skin-rejuvenation approvals. Sudden visual symptoms require urgent ophthalmological assessment. Current Saudi product-record and label verification for Mounjaro (tirzepatide) remains open in this edition; this does not mean it is banned or unregistered.",
+                          "ar-AE": "تصف المعلومات الدوائية السعودية استطبابات لضبط الوزن أو السكري بحسب العلامة التجارية. وهي ليست موافقات لتجديد الجلد. تستدعي الأعراض البصرية المفاجئة تقييماً عاجلاً لدى طبيب العيون. أما مونجارو (تيرزيباتايد) فيبقى التحقق من سجله ونشرته السعودية الحالية مفتوحاً في هذه النسخة؛ ولا يعني ذلك أنه محظور أو غير مسجل."
                         },
                         "citationRefs": [
                           "sa-sfda-semaglutide-dhpc-202609"
                         ]
+                      },
+                      "AE": {
+                        "text": {
+                          "en": "In the UAE, the Emirates Drug Establishment (EDE) announced on 1 June 2026 that it had approved oral Wegovy (semaglutide) for long-term weight management in adults with obesity, or overweight with weight-related conditions, and a Ministry of Health and Prevention alert (Circular 9217/2024, October 2024) described genuine Mounjaro as registered for type 2 diabetes and weight management. Federal Decree-Law 38/2024 bars compounding pharmacies from compounding essential copies of products that hold an EDE marketing approval unless no commercially available product can deliver the expected benefit to the patient. On 20 July 2026 the EDE warned that 1,659 packs of Mounjaro and Ozempic missing from a warehouse are outside the legitimate supply chain and told the public to buy these medicines only from licensed pharmacies.",
+                          "ar-AE": "في الإمارات العربية المتحدة، أعلنت مؤسسة الإمارات للدواء (EDE) في 1 يونيو 2026 أنها اعتمدت دواء Wegovy الفموي (semaglutide) لإدارة الوزن على المدى الطويل لدى البالغين المصابين بالسمنة، أو زيادة الوزن المصحوبة بحالات مرتبطة بالوزن، ووصف تنبيه صادر عن وزارة الصحة ووقاية المجتمع (التعميم 9217/2024، أكتوبر 2024) دواء Mounjaro الأصلي بأنه مسجل لداء السكري من النوع 2 وإدارة الوزن. ويحظر المرسوم بقانون اتحادي رقم 38/2024 على صيدليات التحضير الصيدلاني تحضير نسخ مطابقة أساسية للمنتجات الحاصلة على موافقة تسويق من EDE ما لم يتعذر على أي منتج متوفر تجارياً تحقيق الفائدة المتوقعة للمريض. وفي 20 يوليو 2026، حذرت EDE من أن 1,659 عبوة مفقودة من مستودع من Mounjaro وOzempic تقع خارج سلسلة التوريد المشروعة ووجهت الجمهور لشراء هذه الأدوية من الصيدليات المرخصة فقط."
+                        },
+                        "citationRefs": [
+                          "ae-ede-news-oral-wegovy",
+                          "ae-mohap-cir-9217-2024",
+                          "ae-fdl-38-2024",
+                          "ae-ede-cir-31-2026"
+                        ]
                       }
                     }
+                  },
+                  "regionalReview": {
+                    "country": "SA",
+                    "topic": "incretin medicines",
+                    "checkedAt": "2026-10-07",
+                    "status": "pending-medical-regulatory-review"
                   }
                 }
               },
@@ -20041,14 +20075,20 @@
                       },
                       "SA": {
                         "text": {
-                          "en": "No product-specific Saudi registration was verified in this review. Do not present these as permitted treatments. The unregistered-product rule applies; this is not proof of an ingredient-specific statutory ban.",
-                          "ar-AE": "لم يُتحقق في هذه المراجعة من تسجيل سعودي لمنتج محدد من هذه المواد. لا تُعرض كعلاجات مسموحة. تنطبق قاعدة المستحضرات غير المسجلة، دون أن يثبت ذلك حظراً تشريعياً خاصاً بكل مادة."
+                          "en": "Saudi context: this review has not established registration of an exact BPC-157, TB-500 or injectable GHK-Cu product. This is neither permission to use it nor proof of an ingredient-specific statutory ban. SFDA action on unregistered peptides does not establish a ban on all peptide medicines.",
+                          "ar-AE": "السياق السعودي: لم نثبت في هذه المراجعة تسجيل منتج محدد يحتوي على BPC-157 أو TB-500 أو GHK-Cu للحقن. لا يُعرض ذلك كترخيص للاستخدام ولا كإثبات لحظر تشريعي خاص بالمادة. إجراء الهيئة ضد المنتجات الببتيدية غير المسجلة لا يثبت حظراً على جميع الأدوية الببتيدية."
                         },
                         "citationRefs": [
                           "sa-sfda-unregistered-peptides-20260929"
                         ]
                       }
                     }
+                  },
+                  "regionalReview": {
+                    "country": "SA",
+                    "topic": "research peptides",
+                    "checkedAt": "2026-10-07",
+                    "status": "pending-medical-regulatory-review"
                   }
                 }
               },
@@ -20201,14 +20241,20 @@
                       },
                       "SA": {
                         "text": {
-                          "en": "No product-specific Saudi registration was verified in this review. Do not present these as permitted treatments. The unregistered-product rule applies; this is not proof of an ingredient-specific statutory ban.",
-                          "ar-AE": "لم يُتحقق في هذه المراجعة من تسجيل سعودي لمنتج محدد من هذه المواد. لا تُعرض كعلاجات مسموحة. تنطبق قاعدة المستحضرات غير المسجلة، دون أن يثبت ذلك حظراً تشريعياً خاصاً بكل مادة."
+                          "en": "Saudi context: this review has not established registration of an exact BPC-157, TB-500 or injectable GHK-Cu product. This is neither permission to use it nor proof of an ingredient-specific statutory ban. SFDA action on unregistered peptides does not establish a ban on all peptide medicines.",
+                          "ar-AE": "السياق السعودي: لم نثبت في هذه المراجعة تسجيل منتج محدد يحتوي على BPC-157 أو TB-500 أو GHK-Cu للحقن. لا يُعرض ذلك كترخيص للاستخدام ولا كإثبات لحظر تشريعي خاص بالمادة. إجراء الهيئة ضد المنتجات الببتيدية غير المسجلة لا يثبت حظراً على جميع الأدوية الببتيدية."
                         },
                         "citationRefs": [
                           "sa-sfda-unregistered-peptides-20260929"
                         ]
                       }
                     }
+                  },
+                  "regionalReview": {
+                    "country": "SA",
+                    "topic": "research peptides",
+                    "checkedAt": "2026-10-07",
+                    "status": "pending-medical-regulatory-review"
                   }
                 },
                 "imageBrief": {
@@ -21428,14 +21474,18 @@
                       },
                       "SA": {
                         "text": {
-                          "en": "No product-specific Saudi registration was verified in this review. Do not present these as permitted treatments. The unregistered-product rule applies; this is not proof of an ingredient-specific statutory ban.",
-                          "ar-AE": "لم يُتحقق في هذه المراجعة من تسجيل سعودي لمنتج محدد من هذه المواد. لا تُعرض كعلاجات مسموحة. تنطبق قاعدة المستحضرات غير المسجلة، دون أن يثبت ذلك حظراً تشريعياً خاصاً بكل مادة."
+                          "en": "Saudi context: distinguish a topical GHK-Cu cosmetic from an injectable product. This review has not verified the local status of an exact product in either category. An FDA classification does not establish Saudi permission. Check product category, route, claims and the SFDA record.",
+                          "ar-AE": "السياق السعودي: افصل بين مستحضر GHK-Cu التجميلي الموضعي ومستحضر الحقن؛ لم يُتحقق هنا من الوضع المحلي لمنتج محدد لأي منهما. تصنيف FDA الأمريكي للمادة لا يثبت ترخيصاً سعودياً. تحقق من فئة المنتج وطريق استعماله وادعاءاته وسجله لدى الهيئة قبل الحكم عليه."
                         },
-                        "citationRefs": [
-                          "sa-sfda-unregistered-peptides-20260929"
-                        ]
+                        "citationRefs": []
                       }
                     }
+                  },
+                  "regionalReview": {
+                    "country": "SA",
+                    "topic": "GHK-Cu route distinction",
+                    "checkedAt": "2026-10-07",
+                    "status": "pending-medical-regulatory-review"
                   }
                 }
               },
@@ -21718,14 +21768,18 @@
                       },
                       "SA": {
                         "text": {
-                          "en": "No product-specific Saudi registration was verified in this review. Do not present these as permitted treatments. The unregistered-product rule applies; this is not proof of an ingredient-specific statutory ban.",
-                          "ar-AE": "لم يُتحقق في هذه المراجعة من تسجيل سعودي لمنتج محدد من هذه المواد. لا تُعرض كعلاجات مسموحة. تنطبق قاعدة المستحضرات غير المسجلة، دون أن يثبت ذلك حظراً تشريعياً خاصاً بكل مادة."
+                          "en": "Saudi context: distinguish a topical GHK-Cu cosmetic from an injectable product. This review has not verified the local status of an exact product in either category. An FDA classification does not establish Saudi permission. Check product category, route, claims and the SFDA record.",
+                          "ar-AE": "السياق السعودي: افصل بين مستحضر GHK-Cu التجميلي الموضعي ومستحضر الحقن؛ لم يُتحقق هنا من الوضع المحلي لمنتج محدد لأي منهما. تصنيف FDA الأمريكي للمادة لا يثبت ترخيصاً سعودياً. تحقق من فئة المنتج وطريق استعماله وادعاءاته وسجله لدى الهيئة قبل الحكم عليه."
                         },
-                        "citationRefs": [
-                          "sa-sfda-unregistered-peptides-20260929"
-                        ]
+                        "citationRefs": []
                       }
                     }
+                  },
+                  "regionalReview": {
+                    "country": "SA",
+                    "topic": "GHK-Cu route distinction",
+                    "checkedAt": "2026-10-07",
+                    "status": "pending-medical-regulatory-review"
                   }
                 },
                 "imageBrief": {
@@ -22418,14 +22472,18 @@
                       },
                       "SA": {
                         "text": {
-                          "en": "SFDA's September 29 action concerns unregistered products marketed without authorization; it is not a class-wide peptide ban.",
-                          "ar-AE": "يتعلق إجراء الهيئة بتاريخ 29 سبتمبر بمنتجات غير مسجلة تُسوّق دون ترخيص؛ ولا يثبت حظراً شاملاً لفئة الببتيدات."
+                          "en": "Saudi context: check each cosmetic or collagen supplement’s category, record and claims separately. Listing a topical product does not establish permission to inject the same ingredient; registering a supplement does not establish efficacy for treating skin disease. Exact commercial-product verification remains incomplete.",
+                          "ar-AE": "السياق السعودي: يلزم التحقق من فئة كل مستحضر تجميلي أو مكمل كولاجين ومن سجله وادعاءاته على حدة. لا يثبت إدراج مستحضر موضعي السماح بحقن المادة نفسها، ولا يثبت تسجيل مكمل فعاليته لعلاج مرض جلدي. لم تُستكمل هنا مراجعة المنتجات التجارية المحددة."
                         },
-                        "citationRefs": [
-                          "sa-sfda-unregistered-peptides-20260929"
-                        ]
+                        "citationRefs": []
                       }
                     }
+                  },
+                  "regionalReview": {
+                    "country": "SA",
+                    "topic": "cosmetics and supplements",
+                    "checkedAt": "2026-10-07",
+                    "status": "pending-medical-regulatory-review"
                   }
                 },
                 "imageBrief": {
@@ -23399,14 +23457,20 @@
                       },
                       "SA": {
                         "text": {
-                          "en": "No product-specific Saudi registration was verified in this review. Do not present these as permitted treatments. The unregistered-product rule applies; this is not proof of an ingredient-specific statutory ban.",
-                          "ar-AE": "لم يُتحقق في هذه المراجعة من تسجيل سعودي لمنتج محدد من هذه المواد. لا تُعرض كعلاجات مسموحة. تنطبق قاعدة المستحضرات غير المسجلة، دون أن يثبت ذلك حظراً تشريعياً خاصاً بكل مادة."
+                          "en": "Saudi context: this review has not established registration of an exact BPC-157, TB-500 or injectable GHK-Cu product. This is neither permission to use it nor proof of an ingredient-specific statutory ban. SFDA action on unregistered peptides does not establish a ban on all peptide medicines.",
+                          "ar-AE": "السياق السعودي: لم نثبت في هذه المراجعة تسجيل منتج محدد يحتوي على BPC-157 أو TB-500 أو GHK-Cu للحقن. لا يُعرض ذلك كترخيص للاستخدام ولا كإثبات لحظر تشريعي خاص بالمادة. إجراء الهيئة ضد المنتجات الببتيدية غير المسجلة لا يثبت حظراً على جميع الأدوية الببتيدية."
                         },
                         "citationRefs": [
                           "sa-sfda-unregistered-peptides-20260929"
                         ]
                       }
                     }
+                  },
+                  "regionalReview": {
+                    "country": "SA",
+                    "topic": "research peptides",
+                    "checkedAt": "2026-10-07",
+                    "status": "pending-medical-regulatory-review"
                   }
                 }
               },
@@ -23677,11 +23741,11 @@
                       },
                       "SA": {
                         "text": {
-                          "en": "Saudi product information describes weight-management or diabetes indications, depending on brand. These are not skin-rejuvenation approvals. Sudden visual symptoms require urgent ophthalmological assessment.",
-                          "ar-AE": "تصف المعلومات الدوائية السعودية استطبابات لضبط الوزن أو السكري بحسب العلامة التجارية. وهي ليست موافقات لتجديد الجلد. تستدعي الأعراض البصرية المفاجئة تقييماً عاجلاً لدى طبيب العيون."
+                          "en": "Saudi context: this review has not established registration of an exact BPC-157, TB-500 or injectable GHK-Cu product. This is neither permission to use it nor proof of an ingredient-specific statutory ban. SFDA action on unregistered peptides does not establish a ban on all peptide medicines.",
+                          "ar-AE": "السياق السعودي: لم نثبت في هذه المراجعة تسجيل منتج محدد يحتوي على BPC-157 أو TB-500 أو GHK-Cu للحقن. لا يُعرض ذلك كترخيص للاستخدام ولا كإثبات لحظر تشريعي خاص بالمادة. إجراء الهيئة ضد المنتجات الببتيدية غير المسجلة لا يثبت حظراً على جميع الأدوية الببتيدية."
                         },
                         "citationRefs": [
-                          "sa-sfda-semaglutide-dhpc-202609"
+                          "sa-sfda-unregistered-peptides-20260929"
                         ]
                       }
                     }
@@ -23689,6 +23753,12 @@
                   "audioScript": {
                     "en": "A fictional case, built from this lesson's evidence. A forty-six-year-old patient has been injecting a research-use-only blend sold as GLOW for three months: GHK-Cu, BPC-157 and TB-500 in one vial. She likes her skin and asks about carrying on. You notice new, patchy darkening on her face and forearms. The blend has no controlled human trials, it is made outside good manufacturing practice, and the Hormonaly guide treats new pigmentation on these products as a red flag. Impurity and mislabelling are documented for similar online products; the Hormonaly guide states that heavy-metal contamination is documented in these products, but the published analysis behind that statement could not be found. Decide what you do first.",
                     "ar-AE": "حالة افتراضية مبنية على أدلة هذا الدرس. مريضة تبلغ من العمر ستة وأربعين عاماً تحقن منذ ثلاثة أشهر مزيجاً مخصصاً لأغراض البحث فقط يُباع باسم GLOW: يحتوي على GHK-Cu وBPC-157 وTB-500 في قارورة واحدة. يعجبها مظهر جلدها وتسأل عن متابعة الاستخدام. تلاحظ ظهور اسمرار جديد وغير منتظم على وجهها وساعديها. لا توجد للمزيج أي تجارب بشرية مضبوطة، وهو مُصنّع خارج ممارسات التصنيع الجيد، ويتعامل دليل Hormonaly مع التصبغ الجديد الناتج عن هذه المنتجات كعلامة تحذيرية حمراء. الشوائب ووضع ملصقات غير دقيقة موثقة في منتجات مماثلة على الإنترنت؛ كما يذكر دليل Hormonaly أن التلوث بالمعادن الثقيلة موثق في هذه المنتجات، ولكن تعذر العثور على التحليل المنشور الذي يستند إليه هذا الادعاء. حدد الإجراء الأول الذي ستتخذه."
+                  },
+                  "regionalReview": {
+                    "country": "SA",
+                    "topic": "research peptides",
+                    "checkedAt": "2026-10-07",
+                    "status": "pending-medical-regulatory-review"
                   }
                 },
                 "points": [
@@ -24721,14 +24791,18 @@
                       },
                       "SA": {
                         "text": {
-                          "en": "SFDA's September 29 action concerns unregistered products marketed without authorization; it is not a class-wide peptide ban.",
-                          "ar-AE": "يتعلق إجراء الهيئة بتاريخ 29 سبتمبر بمنتجات غير مسجلة تُسوّق دون ترخيص؛ ولا يثبت حظراً شاملاً لفئة الببتيدات."
+                          "en": "Saudi context: baricitinib (Olumiant) is a specific medicine; its current Saudi alopecia indication was not verified here. Approval for another indication or in another country is insufficient.",
+                          "ar-AE": "السياق السعودي: باريسيتينيب (Olumiant) اسم دواء محدد؛ لم تُراجع هنا نشرته السعودية الحالية لاستطباب الثعلبة. اعتماد الدواء لاستطباب آخر أو في بلد آخر لا يكفي لإثبات هذا الاستطباب في السعودية."
                         },
-                        "citationRefs": [
-                          "sa-sfda-unregistered-peptides-20260929"
-                        ]
+                        "citationRefs": []
                       }
                     }
+                  },
+                  "regionalReview": {
+                    "country": "SA",
+                    "topic": "baricitinib",
+                    "checkedAt": "2026-10-07",
+                    "status": "pending-medical-regulatory-review"
                   }
                 }
               },
@@ -25111,14 +25185,18 @@
                       },
                       "SA": {
                         "text": {
-                          "en": "SFDA's September 29 action concerns unregistered products marketed without authorization; it is not a class-wide peptide ban.",
-                          "ar-AE": "يتعلق إجراء الهيئة بتاريخ 29 سبتمبر بمنتجات غير مسجلة تُسوّق دون ترخيص؛ ولا يثبت حظراً شاملاً لفئة الببتيدات."
+                          "en": "Saudi context: separately verify the product, strength, route and indication for minoxidil and finasteride, and the local status of any thymulin or PTD-DBM preparation. These checks remain incomplete; clinical evidence or foreign authorization does not automatically establish local permission.",
+                          "ar-AE": "السياق السعودي: تحقق على حدة من المستحضر والتركيز وطريق الاستعمال والاستطباب لكل من مينوكسيديل وفيناستيرايد، ومن الوضع المحلي لأي تركيبة تحتوي على ثيمولين أو PTD-DBM. لم يُستكمل هذا التحقق في النسخة الحالية؛ لا ينقل الدليل السريري أو الترخيص الأجنبي تلقائياً إذناً محلياً."
                         },
-                        "citationRefs": [
-                          "sa-sfda-unregistered-peptides-20260929"
-                        ]
+                        "citationRefs": []
                       }
                     }
+                  },
+                  "regionalReview": {
+                    "country": "SA",
+                    "topic": "hair-loss products",
+                    "checkedAt": "2026-10-07",
+                    "status": "pending-medical-regulatory-review"
                   }
                 },
                 "imageBrief": {
@@ -25587,14 +25665,18 @@
                       },
                       "SA": {
                         "text": {
-                          "en": "No product-specific Saudi registration was verified in this review. Do not present these as permitted treatments. The unregistered-product rule applies; this is not proof of an ingredient-specific statutory ban.",
-                          "ar-AE": "لم يُتحقق في هذه المراجعة من تسجيل سعودي لمنتج محدد من هذه المواد. لا تُعرض كعلاجات مسموحة. تنطبق قاعدة المستحضرات غير المسجلة، دون أن يثبت ذلك حظراً تشريعياً خاصاً بكل مادة."
+                          "en": "Saudi context: do not conflate afamelanotide (Scenesse) with Melanotan II. Saudi registration or a specific access pathway for Scenesse has not been verified here; foreign approval does not establish its local status.",
+                          "ar-AE": "السياق السعودي: لا تخلط بين أفاميلانوتايد (Scenesse) وميلانوتان II. لم يُتحقق هنا من تسجيل منتج Scenesse أو من مسار وصول خاص به في السعودية؛ اعتماده في بلد آخر لا يحسم وضعه المحلي."
                         },
-                        "citationRefs": [
-                          "sa-sfda-unregistered-peptides-20260929"
-                        ]
+                        "citationRefs": []
                       }
                     }
+                  },
+                  "regionalReview": {
+                    "country": "SA",
+                    "topic": "afamelanotide",
+                    "checkedAt": "2026-10-07",
+                    "status": "pending-medical-regulatory-review"
                   }
                 }
               },
@@ -26228,14 +26310,20 @@
                       },
                       "SA": {
                         "text": {
-                          "en": "No product-specific Saudi registration was verified in this review. Do not present these as permitted treatments. The unregistered-product rule applies; this is not proof of an ingredient-specific statutory ban.",
-                          "ar-AE": "لم يُتحقق في هذه المراجعة من تسجيل سعودي لمنتج محدد من هذه المواد. لا تُعرض كعلاجات مسموحة. تنطبق قاعدة المستحضرات غير المسجلة، دون أن يثبت ذلك حظراً تشريعياً خاصاً بكل مادة."
+                          "en": "Saudi context: registration of an exact Melanotan II product has not been verified. Do not present it as a permitted tanning option or infer permission from afamelanotide’s approval elsewhere. Do not turn the SFDA unregistered-peptide warning into an undocumented ingredient-specific statutory ban.",
+                          "ar-AE": "السياق السعودي: لم يُتحقق هنا من تسجيل منتج ميلانوتان II. لا يُسوّق في الدورة كخيار مسموح للتسمير، ولا يُفترض ترخيصه لأن أفاميلانوتايد دواء معتمد في بلد آخر. تحذير الهيئة من الببتيدات غير المسجلة لا يُحوّل إلى ادعاء غير موثق بحظر تشريعي خاص بكل مادة."
                         },
                         "citationRefs": [
                           "sa-sfda-unregistered-peptides-20260929"
                         ]
                       }
                     }
+                  },
+                  "regionalReview": {
+                    "country": "SA",
+                    "topic": "Melanotan II",
+                    "checkedAt": "2026-10-07",
+                    "status": "pending-medical-regulatory-review"
                   }
                 }
               },
@@ -26963,14 +27051,18 @@
                       },
                       "SA": {
                         "text": {
-                          "en": "SFDA's September 29 action concerns unregistered products marketed without authorization; it is not a class-wide peptide ban.",
-                          "ar-AE": "يتعلق إجراء الهيئة بتاريخ 29 سبتمبر بمنتجات غير مسجلة تُسوّق دون ترخيص؛ ولا يثبت حظراً شاملاً لفئة الببتيدات."
+                          "en": "Saudi context: separately verify the product, strength, route and indication for minoxidil and finasteride, and the local status of any thymulin or PTD-DBM preparation. These checks remain incomplete; clinical evidence or foreign authorization does not automatically establish local permission.",
+                          "ar-AE": "السياق السعودي: تحقق على حدة من المستحضر والتركيز وطريق الاستعمال والاستطباب لكل من مينوكسيديل وفيناستيرايد، ومن الوضع المحلي لأي تركيبة تحتوي على ثيمولين أو PTD-DBM. لم يُستكمل هذا التحقق في النسخة الحالية؛ لا ينقل الدليل السريري أو الترخيص الأجنبي تلقائياً إذناً محلياً."
                         },
-                        "citationRefs": [
-                          "sa-sfda-unregistered-peptides-20260929"
-                        ]
+                        "citationRefs": []
                       }
                     }
+                  },
+                  "regionalReview": {
+                    "country": "SA",
+                    "topic": "hair-loss products",
+                    "checkedAt": "2026-10-07",
+                    "status": "pending-medical-regulatory-review"
                   }
                 },
                 "imageBrief": {
@@ -28532,14 +28624,18 @@
                       },
                       "SA": {
                         "text": {
-                          "en": "SFDA's September 29 action concerns unregistered products marketed without authorization; it is not a class-wide peptide ban.",
-                          "ar-AE": "يتعلق إجراء الهيئة بتاريخ 29 سبتمبر بمنتجات غير مسجلة تُسوّق دون ترخيص؛ ولا يثبت حظراً شاملاً لفئة الببتيدات."
+                          "en": "Saudi context: verify the exact somatropin product, Saudi label and prescribing scope; this review has not completed those checks. A growth-hormone-deficiency indication or foreign authorization does not establish an anti-ageing or skin indication.",
+                          "ar-AE": "السياق السعودي: يُراجع مستحضر سوماتروبين ونشرته ونطاق وصفه محلياً؛ لم تُستكمل هذه المراجعة هنا. لا يُستنتج استطباب لمكافحة الشيخوخة أو تحسين الجلد من علاج نقص هرمون النمو أو من تصريح أجنبي."
                         },
-                        "citationRefs": [
-                          "sa-sfda-unregistered-peptides-20260929"
-                        ]
+                        "citationRefs": []
                       }
                     }
+                  },
+                  "regionalReview": {
+                    "country": "SA",
+                    "topic": "somatropin",
+                    "checkedAt": "2026-10-07",
+                    "status": "pending-medical-regulatory-review"
                   }
                 },
                 "imageBrief": {
@@ -28981,14 +29077,18 @@
                       },
                       "SA": {
                         "text": {
-                          "en": "SFDA's September 29 action concerns unregistered products marketed without authorization; it is not a class-wide peptide ban.",
-                          "ar-AE": "يتعلق إجراء الهيئة بتاريخ 29 سبتمبر بمنتجات غير مسجلة تُسوّق دون ترخيص؛ ولا يثبت حظراً شاملاً لفئة الببتيدات."
+                          "en": "Saudi context: assess exact products, indications and routes separately for tesamorelin, sermorelin, ipamorelin, CJC-1295 and ibutamoren. This review has not established Saudi registration for exact products; US compounding lists or overseas use do not establish permission.",
+                          "ar-AE": "السياق السعودي: تُفحص المنتجات والاستطبابات وطرق الإعطاء كل على حدة لتيساموريلين وسيرموريلين وإيباموريلين وCJC-1295 وإيبوتامورين. لم تُثبت المراجعة الحالية تسجيل منتجات محددة منها في السعودية؛ لا يُستنتج السماح من قوائم التحضير الصيدلاني الأمريكية أو من استخدامها خارج السعودية."
                         },
-                        "citationRefs": [
-                          "sa-sfda-unregistered-peptides-20260929"
-                        ]
+                        "citationRefs": []
                       }
                     }
+                  },
+                  "regionalReview": {
+                    "country": "SA",
+                    "topic": "GH-axis products",
+                    "checkedAt": "2026-10-07",
+                    "status": "pending-medical-regulatory-review"
                   }
                 }
               },
@@ -29640,14 +29740,18 @@
                       },
                       "SA": {
                         "text": {
-                          "en": "No product-specific Saudi registration was verified in this review. Do not present these as permitted treatments. The unregistered-product rule applies; this is not proof of an ingredient-specific statutory ban.",
-                          "ar-AE": "لم يُتحقق في هذه المراجعة من تسجيل سعودي لمنتج محدد من هذه المواد. لا تُعرض كعلاجات مسموحة. تنطبق قاعدة المستحضرات غير المسجلة، دون أن يثبت ذلك حظراً تشريعياً خاصاً بكل مادة."
+                          "en": "Saudi context: assess exact products, indications and routes separately for tesamorelin, sermorelin, ipamorelin, CJC-1295 and ibutamoren. This review has not established Saudi registration for exact products; US compounding lists or overseas use do not establish permission.",
+                          "ar-AE": "السياق السعودي: تُفحص المنتجات والاستطبابات وطرق الإعطاء كل على حدة لتيساموريلين وسيرموريلين وإيباموريلين وCJC-1295 وإيبوتامورين. لم تُثبت المراجعة الحالية تسجيل منتجات محددة منها في السعودية؛ لا يُستنتج السماح من قوائم التحضير الصيدلاني الأمريكية أو من استخدامها خارج السعودية."
                         },
-                        "citationRefs": [
-                          "sa-sfda-unregistered-peptides-20260929"
-                        ]
+                        "citationRefs": []
                       }
                     }
+                  },
+                  "regionalReview": {
+                    "country": "SA",
+                    "topic": "GH-axis products",
+                    "checkedAt": "2026-10-07",
+                    "status": "pending-medical-regulatory-review"
                   }
                 }
               },
@@ -29804,14 +29908,18 @@
                       },
                       "SA": {
                         "text": {
-                          "en": "No product-specific Saudi registration was verified in this review. Do not present these as permitted treatments. The unregistered-product rule applies; this is not proof of an ingredient-specific statutory ban.",
-                          "ar-AE": "لم يُتحقق في هذه المراجعة من تسجيل سعودي لمنتج محدد من هذه المواد. لا تُعرض كعلاجات مسموحة. تنطبق قاعدة المستحضرات غير المسجلة، دون أن يثبت ذلك حظراً تشريعياً خاصاً بكل مادة."
+                          "en": "Saudi context: assess exact products, indications and routes separately for tesamorelin, sermorelin, ipamorelin, CJC-1295 and ibutamoren. This review has not established Saudi registration for exact products; US compounding lists or overseas use do not establish permission.",
+                          "ar-AE": "السياق السعودي: تُفحص المنتجات والاستطبابات وطرق الإعطاء كل على حدة لتيساموريلين وسيرموريلين وإيباموريلين وCJC-1295 وإيبوتامورين. لم تُثبت المراجعة الحالية تسجيل منتجات محددة منها في السعودية؛ لا يُستنتج السماح من قوائم التحضير الصيدلاني الأمريكية أو من استخدامها خارج السعودية."
                         },
-                        "citationRefs": [
-                          "sa-sfda-unregistered-peptides-20260929"
-                        ]
+                        "citationRefs": []
                       }
                     }
+                  },
+                  "regionalReview": {
+                    "country": "SA",
+                    "topic": "GH-axis products",
+                    "checkedAt": "2026-10-07",
+                    "status": "pending-medical-regulatory-review"
                   }
                 },
                 "imageBrief": {
@@ -32236,14 +32344,18 @@
                       },
                       "SA": {
                         "text": {
-                          "en": "SFDA's September 29 action concerns unregistered products marketed without authorization; it is not a class-wide peptide ban.",
-                          "ar-AE": "يتعلق إجراء الهيئة بتاريخ 29 سبتمبر بمنتجات غير مسجلة تُسوّق دون ترخيص؛ ولا يثبت حظراً شاملاً لفئة الببتيدات."
+                          "en": "Saudi context: FDA and 503A/503B rules are US comparison material, not a Saudi authorization pathway. Separate registration and indication from practitioner/facility scope, compounding, import and advertising. Check Saudi requirements for each decision; neither a certificate of analysis nor informed consent establishes product authorization. Detailed Saudi pathway review remains open.",
+                          "ar-AE": "السياق السعودي: تُعرض قواعد FDA و503A و503B هنا للمقارنة الأمريكية، وليست مسار ترخيص سعودياً. افصل بين تسجيل المنتج واستطبابه، ونطاق ممارسة الواصف والمنشأة، والتحضير الصيدلاني والاستيراد والإعلان. يلزم التحقق من المتطلبات السعودية لكل قرار؛ ولا تثبت شهادة التحليل أو الموافقة المستنيرة ترخيص المنتج. المراجعة التفصيلية للمسارات السعودية لا تزال مفتوحة."
                         },
-                        "citationRefs": [
-                          "sa-sfda-unregistered-peptides-20260929"
-                        ]
+                        "citationRefs": []
                       }
                     }
+                  },
+                  "regionalReview": {
+                    "country": "SA",
+                    "topic": "local regulatory workflow",
+                    "checkedAt": "2026-10-07",
+                    "status": "pending-medical-regulatory-review"
                   }
                 },
                 "imageBrief": {
@@ -32638,14 +32750,18 @@
                       },
                       "SA": {
                         "text": {
-                          "en": "No product-specific Saudi registration was verified in this review. Do not present these as permitted treatments. The unregistered-product rule applies; this is not proof of an ingredient-specific statutory ban.",
-                          "ar-AE": "لم يُتحقق في هذه المراجعة من تسجيل سعودي لمنتج محدد من هذه المواد. لا تُعرض كعلاجات مسموحة. تنطبق قاعدة المستحضرات غير المسجلة، دون أن يثبت ذلك حظراً تشريعياً خاصاً بكل مادة."
+                          "en": "Saudi context: FDA and 503A/503B rules are US comparison material, not a Saudi authorization pathway. Separate registration and indication from practitioner/facility scope, compounding, import and advertising. Check Saudi requirements for each decision; neither a certificate of analysis nor informed consent establishes product authorization. Detailed Saudi pathway review remains open.",
+                          "ar-AE": "السياق السعودي: تُعرض قواعد FDA و503A و503B هنا للمقارنة الأمريكية، وليست مسار ترخيص سعودياً. افصل بين تسجيل المنتج واستطبابه، ونطاق ممارسة الواصف والمنشأة، والتحضير الصيدلاني والاستيراد والإعلان. يلزم التحقق من المتطلبات السعودية لكل قرار؛ ولا تثبت شهادة التحليل أو الموافقة المستنيرة ترخيص المنتج. المراجعة التفصيلية للمسارات السعودية لا تزال مفتوحة."
                         },
-                        "citationRefs": [
-                          "sa-sfda-unregistered-peptides-20260929"
-                        ]
+                        "citationRefs": []
                       }
                     }
+                  },
+                  "regionalReview": {
+                    "country": "SA",
+                    "topic": "local regulatory workflow",
+                    "checkedAt": "2026-10-07",
+                    "status": "pending-medical-regulatory-review"
                   }
                 }
               },
@@ -32730,14 +32846,18 @@
                       },
                       "SA": {
                         "text": {
-                          "en": "No product-specific Saudi registration was verified in this review. Do not present these as permitted treatments. The unregistered-product rule applies; this is not proof of an ingredient-specific statutory ban.",
-                          "ar-AE": "لم يُتحقق في هذه المراجعة من تسجيل سعودي لمنتج محدد من هذه المواد. لا تُعرض كعلاجات مسموحة. تنطبق قاعدة المستحضرات غير المسجلة، دون أن يثبت ذلك حظراً تشريعياً خاصاً بكل مادة."
+                          "en": "Saudi context: FDA and 503A/503B rules are US comparison material, not a Saudi authorization pathway. Separate registration and indication from practitioner/facility scope, compounding, import and advertising. Check Saudi requirements for each decision; neither a certificate of analysis nor informed consent establishes product authorization. Detailed Saudi pathway review remains open.",
+                          "ar-AE": "السياق السعودي: تُعرض قواعد FDA و503A و503B هنا للمقارنة الأمريكية، وليست مسار ترخيص سعودياً. افصل بين تسجيل المنتج واستطبابه، ونطاق ممارسة الواصف والمنشأة، والتحضير الصيدلاني والاستيراد والإعلان. يلزم التحقق من المتطلبات السعودية لكل قرار؛ ولا تثبت شهادة التحليل أو الموافقة المستنيرة ترخيص المنتج. المراجعة التفصيلية للمسارات السعودية لا تزال مفتوحة."
                         },
-                        "citationRefs": [
-                          "sa-sfda-unregistered-peptides-20260929"
-                        ]
+                        "citationRefs": []
                       }
                     }
+                  },
+                  "regionalReview": {
+                    "country": "SA",
+                    "topic": "local regulatory workflow",
+                    "checkedAt": "2026-10-07",
+                    "status": "pending-medical-regulatory-review"
                   }
                 }
               },
@@ -32894,14 +33014,18 @@
                       },
                       "SA": {
                         "text": {
-                          "en": "SFDA's September 29 action concerns unregistered products marketed without authorization; it is not a class-wide peptide ban.",
-                          "ar-AE": "يتعلق إجراء الهيئة بتاريخ 29 سبتمبر بمنتجات غير مسجلة تُسوّق دون ترخيص؛ ولا يثبت حظراً شاملاً لفئة الببتيدات."
+                          "en": "Saudi context: FDA and 503A/503B rules are US comparison material, not a Saudi authorization pathway. Separate registration and indication from practitioner/facility scope, compounding, import and advertising. Check Saudi requirements for each decision; neither a certificate of analysis nor informed consent establishes product authorization. Detailed Saudi pathway review remains open.",
+                          "ar-AE": "السياق السعودي: تُعرض قواعد FDA و503A و503B هنا للمقارنة الأمريكية، وليست مسار ترخيص سعودياً. افصل بين تسجيل المنتج واستطبابه، ونطاق ممارسة الواصف والمنشأة، والتحضير الصيدلاني والاستيراد والإعلان. يلزم التحقق من المتطلبات السعودية لكل قرار؛ ولا تثبت شهادة التحليل أو الموافقة المستنيرة ترخيص المنتج. المراجعة التفصيلية للمسارات السعودية لا تزال مفتوحة."
                         },
-                        "citationRefs": [
-                          "sa-sfda-unregistered-peptides-20260929"
-                        ]
+                        "citationRefs": []
                       }
                     }
+                  },
+                  "regionalReview": {
+                    "country": "SA",
+                    "topic": "local regulatory workflow",
+                    "checkedAt": "2026-10-07",
+                    "status": "pending-medical-regulatory-review"
                   }
                 }
               },
@@ -33403,14 +33527,18 @@
                       },
                       "SA": {
                         "text": {
-                          "en": "SFDA's September 29 action concerns unregistered products marketed without authorization; it is not a class-wide peptide ban.",
-                          "ar-AE": "يتعلق إجراء الهيئة بتاريخ 29 سبتمبر بمنتجات غير مسجلة تُسوّق دون ترخيص؛ ولا يثبت حظراً شاملاً لفئة الببتيدات."
+                          "en": "Saudi context: FDA and 503A/503B rules are US comparison material, not a Saudi authorization pathway. Separate registration and indication from practitioner/facility scope, compounding, import and advertising. Check Saudi requirements for each decision; neither a certificate of analysis nor informed consent establishes product authorization. Detailed Saudi pathway review remains open.",
+                          "ar-AE": "السياق السعودي: تُعرض قواعد FDA و503A و503B هنا للمقارنة الأمريكية، وليست مسار ترخيص سعودياً. افصل بين تسجيل المنتج واستطبابه، ونطاق ممارسة الواصف والمنشأة، والتحضير الصيدلاني والاستيراد والإعلان. يلزم التحقق من المتطلبات السعودية لكل قرار؛ ولا تثبت شهادة التحليل أو الموافقة المستنيرة ترخيص المنتج. المراجعة التفصيلية للمسارات السعودية لا تزال مفتوحة."
                         },
-                        "citationRefs": [
-                          "sa-sfda-unregistered-peptides-20260929"
-                        ]
+                        "citationRefs": []
                       }
                     }
+                  },
+                  "regionalReview": {
+                    "country": "SA",
+                    "topic": "local regulatory workflow",
+                    "checkedAt": "2026-10-07",
+                    "status": "pending-medical-regulatory-review"
                   }
                 },
                 "imageBrief": {
@@ -33593,14 +33721,18 @@
                       },
                       "SA": {
                         "text": {
-                          "en": "No product-specific Saudi registration was verified in this review. Do not present these as permitted treatments. The unregistered-product rule applies; this is not proof of an ingredient-specific statutory ban.",
-                          "ar-AE": "لم يُتحقق في هذه المراجعة من تسجيل سعودي لمنتج محدد من هذه المواد. لا تُعرض كعلاجات مسموحة. تنطبق قاعدة المستحضرات غير المسجلة، دون أن يثبت ذلك حظراً تشريعياً خاصاً بكل مادة."
+                          "en": "Saudi context: FDA and 503A/503B rules are US comparison material, not a Saudi authorization pathway. Separate registration and indication from practitioner/facility scope, compounding, import and advertising. Check Saudi requirements for each decision; neither a certificate of analysis nor informed consent establishes product authorization. Detailed Saudi pathway review remains open.",
+                          "ar-AE": "السياق السعودي: تُعرض قواعد FDA و503A و503B هنا للمقارنة الأمريكية، وليست مسار ترخيص سعودياً. افصل بين تسجيل المنتج واستطبابه، ونطاق ممارسة الواصف والمنشأة، والتحضير الصيدلاني والاستيراد والإعلان. يلزم التحقق من المتطلبات السعودية لكل قرار؛ ولا تثبت شهادة التحليل أو الموافقة المستنيرة ترخيص المنتج. المراجعة التفصيلية للمسارات السعودية لا تزال مفتوحة."
                         },
-                        "citationRefs": [
-                          "sa-sfda-unregistered-peptides-20260929"
-                        ]
+                        "citationRefs": []
                       }
                     }
+                  },
+                  "regionalReview": {
+                    "country": "SA",
+                    "topic": "local regulatory workflow",
+                    "checkedAt": "2026-10-07",
+                    "status": "pending-medical-regulatory-review"
                   }
                 },
                 "imageBrief": {
@@ -33811,14 +33943,18 @@
                       },
                       "SA": {
                         "text": {
-                          "en": "No product-specific Saudi registration was verified in this review. Do not present these as permitted treatments. The unregistered-product rule applies; this is not proof of an ingredient-specific statutory ban.",
-                          "ar-AE": "لم يُتحقق في هذه المراجعة من تسجيل سعودي لمنتج محدد من هذه المواد. لا تُعرض كعلاجات مسموحة. تنطبق قاعدة المستحضرات غير المسجلة، دون أن يثبت ذلك حظراً تشريعياً خاصاً بكل مادة."
+                          "en": "Saudi context: FDA and 503A/503B rules are US comparison material, not a Saudi authorization pathway. Separate registration and indication from practitioner/facility scope, compounding, import and advertising. Check Saudi requirements for each decision; neither a certificate of analysis nor informed consent establishes product authorization. Detailed Saudi pathway review remains open.",
+                          "ar-AE": "السياق السعودي: تُعرض قواعد FDA و503A و503B هنا للمقارنة الأمريكية، وليست مسار ترخيص سعودياً. افصل بين تسجيل المنتج واستطبابه، ونطاق ممارسة الواصف والمنشأة، والتحضير الصيدلاني والاستيراد والإعلان. يلزم التحقق من المتطلبات السعودية لكل قرار؛ ولا تثبت شهادة التحليل أو الموافقة المستنيرة ترخيص المنتج. المراجعة التفصيلية للمسارات السعودية لا تزال مفتوحة."
                         },
-                        "citationRefs": [
-                          "sa-sfda-unregistered-peptides-20260929"
-                        ]
+                        "citationRefs": []
                       }
                     }
+                  },
+                  "regionalReview": {
+                    "country": "SA",
+                    "topic": "local regulatory workflow",
+                    "checkedAt": "2026-10-07",
+                    "status": "pending-medical-regulatory-review"
                   }
                 },
                 "imageBrief": {
@@ -34012,14 +34148,18 @@
                       },
                       "SA": {
                         "text": {
-                          "en": "No product-specific Saudi registration was verified in this review. Do not present these as permitted treatments. The unregistered-product rule applies; this is not proof of an ingredient-specific statutory ban.",
-                          "ar-AE": "لم يُتحقق في هذه المراجعة من تسجيل سعودي لمنتج محدد من هذه المواد. لا تُعرض كعلاجات مسموحة. تنطبق قاعدة المستحضرات غير المسجلة، دون أن يثبت ذلك حظراً تشريعياً خاصاً بكل مادة."
+                          "en": "Saudi context: check each cosmetic or collagen supplement’s category, record and claims separately. Listing a topical product does not establish permission to inject the same ingredient; registering a supplement does not establish efficacy for treating skin disease. Exact commercial-product verification remains incomplete.",
+                          "ar-AE": "السياق السعودي: يلزم التحقق من فئة كل مستحضر تجميلي أو مكمل كولاجين ومن سجله وادعاءاته على حدة. لا يثبت إدراج مستحضر موضعي السماح بحقن المادة نفسها، ولا يثبت تسجيل مكمل فعاليته لعلاج مرض جلدي. لم تُستكمل هنا مراجعة المنتجات التجارية المحددة."
                         },
-                        "citationRefs": [
-                          "sa-sfda-unregistered-peptides-20260929"
-                        ]
+                        "citationRefs": []
                       }
                     }
+                  },
+                  "regionalReview": {
+                    "country": "SA",
+                    "topic": "cosmetics and supplements",
+                    "checkedAt": "2026-10-07",
+                    "status": "pending-medical-regulatory-review"
                   }
                 }
               },
@@ -34338,8 +34478,8 @@
                       },
                       "SA": {
                         "text": {
-                          "en": "No product-specific Saudi registration was verified in this review. Do not present these as permitted treatments. The unregistered-product rule applies; this is not proof of an ingredient-specific statutory ban.",
-                          "ar-AE": "لم يُتحقق في هذه المراجعة من تسجيل سعودي لمنتج محدد من هذه المواد. لا تُعرض كعلاجات مسموحة. تنطبق قاعدة المستحضرات غير المسجلة، دون أن يثبت ذلك حظراً تشريعياً خاصاً بكل مادة."
+                          "en": "Saudi context: this review has not established registration of an exact BPC-157, TB-500 or injectable GHK-Cu product. This is neither permission to use it nor proof of an ingredient-specific statutory ban. SFDA action on unregistered peptides does not establish a ban on all peptide medicines.",
+                          "ar-AE": "السياق السعودي: لم نثبت في هذه المراجعة تسجيل منتج محدد يحتوي على BPC-157 أو TB-500 أو GHK-Cu للحقن. لا يُعرض ذلك كترخيص للاستخدام ولا كإثبات لحظر تشريعي خاص بالمادة. إجراء الهيئة ضد المنتجات الببتيدية غير المسجلة لا يثبت حظراً على جميع الأدوية الببتيدية."
                         },
                         "citationRefs": [
                           "sa-sfda-unregistered-peptides-20260929"
@@ -34350,6 +34490,12 @@
                   "audioScript": {
                     "en": "A fictional patient, built from this module's sources, is fifty-two and three weeks past a fractional laser treatment. She asks you to prescribe compounded BPC-157 injections off-label to speed her healing. A pharmacy is willing to make it, and she shows you its certificate of analysis. Three facts shape your answer. BPC-157 has never been approved, so there is no label to prescribe around. It has no 503A route, its nominations were withdrawn, and FDA's own reviewers advised against listing it in July 2026, noting a lack of evidence that it works even for the condition they studied. And a certificate describes a batch, which leaves sterility and legality exactly where they were. Decide how you will answer her.",
                     "ar-AE": "مريضة افتراضية، مبنية على مصادر هذه الوحدة، تبلغ من العمر اثنتين وخمسين سنة وتمر بالأسبوع الثالث بعد علاج بالليزر الجزئي. تطلب منك وصف حقن BPC-157 محضرة صيدلانياً خارج نطاق التسمية لتسريع التئامها. وهناك صيدلية مستعدة لتحضيره، وتعرض عليك شهادة التحليل الخاصة به. ثلاث حقائق تحدد إجابتك: لم يُعتمد BPC-157 على الإطلاق، لذا لا توجد تسمية معتمدة ليُصف خارجها. وليس له مسار بموجب القسم 503A، وسُحبت ترشيحاته، كما أوصى مراجعو FDA أنفسهم بعدم إدراجه في يوليو 2026، مشيرين إلى نقص الأدلة على فاعليته حتى بالنسبة للحالة التي راجعوها. وتصف الشهادة تشغيلة معينة، مما يترك العقامة والمشروعية القانونية دون أي تغيير. قرر كيف ستجيبها."
+                  },
+                  "regionalReview": {
+                    "country": "SA",
+                    "topic": "research peptides",
+                    "checkedAt": "2026-10-07",
+                    "status": "pending-medical-regulatory-review"
                   }
                 },
                 "audioBeats": [
@@ -34570,14 +34716,18 @@
                       },
                       "SA": {
                         "text": {
-                          "en": "SFDA's September 29 action concerns unregistered products marketed without authorization; it is not a class-wide peptide ban.",
-                          "ar-AE": "يتعلق إجراء الهيئة بتاريخ 29 سبتمبر بمنتجات غير مسجلة تُسوّق دون ترخيص؛ ولا يثبت حظراً شاملاً لفئة الببتيدات."
+                          "en": "Saudi context: FDA and 503A/503B rules are US comparison material, not a Saudi authorization pathway. Separate registration and indication from practitioner/facility scope, compounding, import and advertising. Check Saudi requirements for each decision; neither a certificate of analysis nor informed consent establishes product authorization. Detailed Saudi pathway review remains open.",
+                          "ar-AE": "السياق السعودي: تُعرض قواعد FDA و503A و503B هنا للمقارنة الأمريكية، وليست مسار ترخيص سعودياً. افصل بين تسجيل المنتج واستطبابه، ونطاق ممارسة الواصف والمنشأة، والتحضير الصيدلاني والاستيراد والإعلان. يلزم التحقق من المتطلبات السعودية لكل قرار؛ ولا تثبت شهادة التحليل أو الموافقة المستنيرة ترخيص المنتج. المراجعة التفصيلية للمسارات السعودية لا تزال مفتوحة."
                         },
-                        "citationRefs": [
-                          "sa-sfda-unregistered-peptides-20260929"
-                        ]
+                        "citationRefs": []
                       }
                     }
+                  },
+                  "regionalReview": {
+                    "country": "SA",
+                    "topic": "local regulatory workflow",
+                    "checkedAt": "2026-10-07",
+                    "status": "pending-medical-regulatory-review"
                   }
                 }
               },
@@ -35025,27 +35175,27 @@
                 "points": [
                   {
                     "en": "SA · Unregistered peptide products: SFDA's September 29 action concerns unregistered products marketed without authorization; it is not a class-wide peptide ban.",
-                    "ar-AE": "SA · Unregistered peptide products: يتعلق إجراء الهيئة بتاريخ 29 سبتمبر بمنتجات غير مسجلة تُسوّق دون ترخيص؛ ولا يثبت حظراً شاملاً لفئة الببتيدات."
+                    "ar-AE": "المملكة العربية السعودية · المنتجات الببتيدية غير المسجلة: يتعلق إجراء الهيئة بتاريخ 29 سبتمبر بمنتجات غير مسجلة تُسوّق دون ترخيص؛ ولا يثبت حظراً شاملاً لفئة الببتيدات."
                   },
                   {
                     "en": "SA · Semaglutide: Wegovy / Ozempic / Rybelsus: Saudi product information describes weight-management or diabetes indications, depending on brand. These are not skin-rejuvenation approvals. Sudden visual symptoms require urgent ophthalmological assessment.",
-                    "ar-AE": "SA · Semaglutide: Wegovy / Ozempic / Rybelsus: تصف المعلومات الدوائية السعودية استطبابات لضبط الوزن أو السكري بحسب العلامة التجارية. وهي ليست موافقات لتجديد الجلد. تستدعي الأعراض البصرية المفاجئة تقييماً عاجلاً لدى طبيب العيون."
+                    "ar-AE": "المملكة العربية السعودية · سيماجلوتايد: ويغوفي / أوزمبيك / ريبلسس (Wegovy / Ozempic / Rybelsus): تصف المعلومات الدوائية السعودية استطبابات لضبط الوزن أو السكري بحسب العلامة التجارية. وهي ليست موافقات لتجديد الجلد. تستدعي الأعراض البصرية المفاجئة تقييماً عاجلاً لدى طبيب العيون."
                   },
                   {
                     "en": "SA · BPC-157 / GHK-Cu injectable / CJC-1295 / ipamorelin / Melanotan II / TB-500: No product-specific Saudi registration was verified in this review. Do not present these as permitted treatments. The unregistered-product rule applies; this is not proof of an ingredient-specific statutory ban.",
-                    "ar-AE": "SA · BPC-157 / GHK-Cu injectable / CJC-1295 / ipamorelin / Melanotan II / TB-500: لم يُتحقق في هذه المراجعة من تسجيل سعودي لمنتج محدد من هذه المواد. لا تُعرض كعلاجات مسموحة. تنطبق قاعدة المستحضرات غير المسجلة، دون أن يثبت ذلك حظراً تشريعياً خاصاً بكل مادة."
+                    "ar-AE": "المملكة العربية السعودية · BPC-157 / GHK-Cu للحقن / CJC-1295 / إيباموريلين / ميلانوتان II / TB-500: لم يُتحقق في هذه المراجعة من تسجيل سعودي لمنتج محدد من هذه المواد. لا تُعرض كعلاجات مسموحة. تنطبق قاعدة المستحضرات غير المسجلة، دون أن يثبت ذلك حظراً تشريعياً خاصاً بكل مادة."
                   },
                   {
                     "en": "AE-Abu-Dhabi · BPC-157 / CJC-1295 / ipamorelin / Melanotan II / injectable GHK-Cu / thymosin beta-4 fragment: DoH Appendix 2 lists these among prohibited ingredients for compounding or sourcing in unregistered products. Respect route qualifiers. This is an Abu Dhabi rule, not a Saudi list.",
-                    "ar-AE": "AE-Abu-Dhabi · BPC-157 / CJC-1295 / ipamorelin / Melanotan II / injectable GHK-Cu / thymosin beta-4 fragment: يدرجها الملحق 2 لدائرة الصحة ضمن المواد المحظورة للتحضير الصيدلاني أو التوريد في منتجات غير مسجلة. يجب مراعاة قيود طريق الإعطاء. هذه قاعدة لأبوظبي وليست قائمة سعودية."
+                    "ar-AE": "أبوظبي — الإمارات العربية المتحدة · BPC-157 / CJC-1295 / إيباموريلين / ميلانوتان II / GHK-Cu للحقن / جزء ثيموسين بيتا-4: يدرجها الملحق 2 لدائرة الصحة ضمن المواد المحظورة للتحضير الصيدلاني أو التوريد في منتجات غير مسجلة. يجب مراعاة قيود طريق الإعطاء. هذه قاعدة لأبوظبي وليست قائمة سعودية."
                   },
                   {
                     "en": "AE · Finished medicinal peptide products: Verify EDE authorization and the applicable emirate's practice requirements. A clinic advertisement or analysis certificate does not establish permission.",
-                    "ar-AE": "AE · Finished medicinal peptide products: تحقق من ترخيص مؤسسة الإمارات للدواء ومتطلبات الممارسة في الإمارة المعنية. إعلان العيادة أو شهادة التحليل لا يثبتان السماح بالاستخدام."
+                    "ar-AE": "الإمارات العربية المتحدة · المستحضرات الدوائية الببتيدية النهائية: تحقق من ترخيص مؤسسة الإمارات للدواء ومتطلبات الممارسة في الإمارة المعنية. إعلان العيادة أو شهادة التحليل لا يثبتان السماح بالاستخدام."
                   },
                   {
                     "en": "SA · Topical cosmetic peptides / oral collagen / Mounjaro: Separate product checks are still required. Do not infer a cosmetic, supplement or medicine's status from another formulation or country.",
-                    "ar-AE": "SA · Topical cosmetic peptides / oral collagen / Mounjaro: يلزم التحقق من كل منتج على حدة. لا تستنتج وضع مستحضر تجميلي أو مكمل أو دواء من صيغة أخرى أو من دولة أخرى."
+                    "ar-AE": "المملكة العربية السعودية · الببتيدات التجميلية الموضعية / الكولاجين الفموي / مونجارو (Mounjaro): يلزم التحقق من كل منتج على حدة. لا تستنتج وضع مستحضر تجميلي أو مكمل أو دواء من صيغة أخرى أو من دولة أخرى."
                   }
                 ],
                 "citationRefs": [
@@ -39129,7 +39279,8 @@
       "publishReady": false,
       "sourceApprovalsApplyTo": "English source only",
       "regulatoryAddendum": "course-production/hormones-peptides-skin/arabic-uae-20261007/regulatory-addendum.json",
-      "regulatoryAmendmentStatus": "pending-human-review"
+      "regulatoryAmendmentStatus": "pending-human-review",
+      "localizationPolicy": "course-production/hormones-peptides-skin/arabic-uae-20261007/localization-policy.json"
     }
   }
 }

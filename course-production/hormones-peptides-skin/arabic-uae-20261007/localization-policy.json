@@ -1,0 +1,71 @@
+{
+  "version": "1.0.0",
+  "checkedAt": "2026-10-07",
+  "locale": "ar-AE",
+  "language": "Modern Standard Arabic",
+  "primaryJurisdiction": "AE",
+  "secondaryJurisdictions": [
+    "SA"
+  ],
+  "jurisdictionFromLanguage": false,
+  "reviewOwner": "Fady Hannah-Shmouni — Fady@hormonaly.ai",
+  "status": "in_review",
+  "mediaMode": "microlearning-motion",
+  "slideDeckRequired": false,
+  "ownerDirection": "Omar, 2026-10-07: localize microlearning cards and editable HyperFrames motion-design films; no slide deck.",
+  "names": {
+    "fictionalCases": "Current clinical cases use unnamed patients; retain unless a named continuity case is authored.",
+    "realPeople": "Preserve real faculty, authors and researchers; Arabic transliteration does not change identity.",
+    "products": "Arabic generic/display name plus INN or brand when useful; exact product identities remain unchanged.",
+    "authorities": {
+      "EDE": "مؤسسة الإمارات للدواء",
+      "DHA": "هيئة الصحة بدبي",
+      "DoH": "دائرة الصحة – أبوظبي",
+      "SFDA": "الهيئة العامة للغذاء والدواء"
+    }
+  },
+  "countryProfiles": {
+    "AE": {
+      "label": "الإمارات العربية المتحدة",
+      "federalProductAuthority": "EDE",
+      "subnationalAuthorities": {
+        "Dubai": "DHA",
+        "Abu Dhabi": "DoH"
+      },
+      "rule": "Keep federal product authorization distinct from emirate/facility/professional practice requirements; do not generalize Abu Dhabi rules across UAE."
+    },
+    "SA": {
+      "label": "المملكة العربية السعودية",
+      "productAuthority": "SFDA",
+      "rule": "Exact product, indication, route and current status; unregistered-product enforcement is not a class-wide peptide ban."
+    }
+  },
+  "regulatoryRecordFields": [
+    "product",
+    "ingredient",
+    "formulation",
+    "route",
+    "indication",
+    "jurisdiction",
+    "authority",
+    "status",
+    "registrationIdIfAvailable",
+    "sourceURL",
+    "sourceSection",
+    "sourceDate",
+    "checkedAt",
+    "reviewStatus"
+  ],
+  "unverifiedDoesNotMean": "banned or permitted",
+  "countryNotes": "jurisdiction-overlay.json",
+  "regionalSources": "regulatory-addendum.json",
+  "reviewGaps": [
+    "Current exact-product Saudi records and indications beyond verified semaglutide communication",
+    "Saudi compounding/import/advertising and professional-scope pathways",
+    "Freshness review of the preserved September 25 UAE sources and exact-product records",
+    "Named medical/language/pronunciation review",
+    "Arabic opening-film production and media review"
+  ],
+  "agentSkill": "perceptor-regional-localization",
+  "gclsReference": "CAIH Geo-Adaptive Agent: primary and secondary jurisdictions, source-grounded regional context; no US-law fallback for medication legality."
+}

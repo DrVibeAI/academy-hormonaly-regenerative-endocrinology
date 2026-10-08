@@ -51,13 +51,19 @@ for(const s of addendum.sources){
 }
 pkg.metadata.arabicEdition.regulatoryAmendmentStatus='pending-human-review'
 const lastUnit=pkg.curriculum.modules.at(-1).units.at(-1)
-lastUnit.blocks.push({id:'m7-ar-uae-sa-context',type:'action',title:addendum.title,body:addendum.scope,points:addendum.rows.map(r=>({en:`${r.jurisdiction} · ${r.product}: ${r.text.en}`,[locale]:`${r.jurisdiction} · ${r.product}: ${r.text[locale]}`})),citationRefs:addendum.sources.map(s=>s.id),metadata:{status:'ai_draft',reviewOwner:owner,checkedAt:addendum.checkedAt,sourceLockAmendment:'pending-review'}})
+lastUnit.blocks.push({id:'m7-ar-uae-sa-context',type:'action',title:addendum.title,body:addendum.scope,points:addendum.rows.map(r=>({en:`${r.jurisdiction} · ${r.product}: ${r.text.en}`,[locale]:`${r.jurisdictionLabel?.[locale]??r.jurisdiction} · ${r.productLabel?.[locale]??r.product}: ${r.text[locale]}`})),citationRefs:addendum.sources.map(s=>s.id),metadata:{status:'ai_draft',reviewOwner:owner,checkedAt:addendum.checkedAt,sourceLockAmendment:'pending-review'}})
+const regionalOverlay=JSON.parse(readFileSync(join(root,'jurisdiction-overlay.json')))
 for(const m of pkg.curriculum.modules)for(const u of m.units)for(const b of u.blocks??[]){
- if(!b.metadata?.variants?.jurisdiction)continue
- const text=JSON.stringify(b)
- const row=/semaglutide|Wegovy|Ozempic|Rybelsus/i.test(text)?addendum.rows[1]:/BPC-157|GHK-Cu|CJC-1295|ipamorelin|Melanotan|TB-500/i.test(text)?addendum.rows[2]:addendum.rows[0]
- b.metadata.variants.jurisdiction.SA={text:row.text,citationRefs:row.sourceRefs}
+ const note=regionalOverlay.blocks[b.id]
+ if(!note)continue
+ b.metadata??={};b.metadata.variants??={};b.metadata.variants.jurisdiction??={}
+ b.metadata.variants.jurisdiction.SA={text:note.text,citationRefs:note.citationRefs}
+ b.metadata.regionalReview={country:'SA',topic:note.topic,checkedAt:note.checkedAt,status:note.status}
 }
+const allBlocks=pkg.curriculum.modules.flatMap(m=>m.units.flatMap(u=>u.blocks))
+const incretinAE=allBlocks.find(b=>b.id==='m3-p09').metadata.variants.jurisdiction.AE
+allBlocks.find(b=>b.id==='m3-p11').metadata.variants.jurisdiction.AE=structuredClone(incretinAE)
+pkg.metadata.arabicEdition.localizationPolicy='course-production/hormones-peptides-skin/arabic-uae-20261007/localization-policy.json'
 pkg.tutorCorpus.push({id:'tutor-ar-sa-peptide-status',keys:['الببتيدات السعودية','ببتيدات السعودية','هل الببتيدات ممنوعة','SFDA peptides','Saudi peptide approval'],answer:{en:addendum.rows[0].text.en+' '+addendum.rows[2].text.en,[locale]:addendum.rows[0].text[locale]+' '+addendum.rows[2].text[locale]},citationRefs:['sa-sfda-unregistered-peptides-20260929'],scope:'m07',suggestedPrompt:{en:'Are all peptides prohibited in Saudi Arabia?',[locale]:'هل جميع الببتيدات ممنوعة في السعودية؟'}})
 // Narration variants use the existing source scripts and one licensed library voice.
 const audio=[]

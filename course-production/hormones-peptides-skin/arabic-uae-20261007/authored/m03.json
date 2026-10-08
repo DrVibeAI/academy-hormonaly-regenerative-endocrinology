@@ -1186,14 +1186,20 @@
                 },
                 "SA": {
                   "text": {
-                    "en": "Saudi product information describes weight-management or diabetes indications, depending on brand. These are not skin-rejuvenation approvals. Sudden visual symptoms require urgent ophthalmological assessment.",
-                    "ar-AE": "تصف المعلومات الدوائية السعودية استطبابات لضبط الوزن أو السكري بحسب العلامة التجارية. وهي ليست موافقات لتجديد الجلد. تستدعي الأعراض البصرية المفاجئة تقييماً عاجلاً لدى طبيب العيون."
+                    "en": "Saudi product information describes weight-management or diabetes indications, depending on brand. These are not skin-rejuvenation approvals. Sudden visual symptoms require urgent ophthalmological assessment. Current Saudi product-record and label verification for Mounjaro (tirzepatide) remains open in this edition; this does not mean it is banned or unregistered.",
+                    "ar-AE": "تصف المعلومات الدوائية السعودية استطبابات لضبط الوزن أو السكري بحسب العلامة التجارية. وهي ليست موافقات لتجديد الجلد. تستدعي الأعراض البصرية المفاجئة تقييماً عاجلاً لدى طبيب العيون. أما مونجارو (تيرزيباتايد) فيبقى التحقق من سجله ونشرته السعودية الحالية مفتوحاً في هذه النسخة؛ ولا يعني ذلك أنه محظور أو غير مسجل."
                   },
                   "citationRefs": [
                     "sa-sfda-semaglutide-dhpc-202609"
                   ]
                 }
               }
+            },
+            "regionalReview": {
+              "country": "SA",
+              "topic": "incretin medicines",
+              "checkedAt": "2026-10-07",
+              "status": "pending-medical-regulatory-review"
             }
           },
           "imageBrief": {
@@ -1400,14 +1406,20 @@
                 },
                 "SA": {
                   "text": {
-                    "en": "Saudi product information describes weight-management or diabetes indications, depending on brand. These are not skin-rejuvenation approvals. Sudden visual symptoms require urgent ophthalmological assessment.",
-                    "ar-AE": "تصف المعلومات الدوائية السعودية استطبابات لضبط الوزن أو السكري بحسب العلامة التجارية. وهي ليست موافقات لتجديد الجلد. تستدعي الأعراض البصرية المفاجئة تقييماً عاجلاً لدى طبيب العيون."
+                    "en": "Saudi product information describes weight-management or diabetes indications, depending on brand. These are not skin-rejuvenation approvals. Sudden visual symptoms require urgent ophthalmological assessment. Current Saudi product-record and label verification for Mounjaro (tirzepatide) remains open in this edition; this does not mean it is banned or unregistered.",
+                    "ar-AE": "تصف المعلومات الدوائية السعودية استطبابات لضبط الوزن أو السكري بحسب العلامة التجارية. وهي ليست موافقات لتجديد الجلد. تستدعي الأعراض البصرية المفاجئة تقييماً عاجلاً لدى طبيب العيون. أما مونجارو (تيرزيباتايد) فيبقى التحقق من سجله ونشرته السعودية الحالية مفتوحاً في هذه النسخة؛ ولا يعني ذلك أنه محظور أو غير مسجل."
                   },
                   "citationRefs": [
                     "sa-sfda-semaglutide-dhpc-202609"
                   ]
                 }
               }
+            },
+            "regionalReview": {
+              "country": "SA",
+              "topic": "incretin medicines",
+              "checkedAt": "2026-10-07",
+              "status": "pending-medical-regulatory-review"
             }
           }
         },
@@ -1564,14 +1576,32 @@
                 },
                 "SA": {
                   "text": {
-                    "en": "Saudi product information describes weight-management or diabetes indications, depending on brand. These are not skin-rejuvenation approvals. Sudden visual symptoms require urgent ophthalmological assessment.",
-                    "ar-AE": "تصف المعلومات الدوائية السعودية استطبابات لضبط الوزن أو السكري بحسب العلامة التجارية. وهي ليست موافقات لتجديد الجلد. تستدعي الأعراض البصرية المفاجئة تقييماً عاجلاً لدى طبيب العيون."
+                    "en": "Saudi product information describes weight-management or diabetes indications, depending on brand. These are not skin-rejuvenation approvals. Sudden visual symptoms require urgent ophthalmological assessment. Current Saudi product-record and label verification for Mounjaro (tirzepatide) remains open in this edition; this does not mean it is banned or unregistered.",
+                    "ar-AE": "تصف المعلومات الدوائية السعودية استطبابات لضبط الوزن أو السكري بحسب العلامة التجارية. وهي ليست موافقات لتجديد الجلد. تستدعي الأعراض البصرية المفاجئة تقييماً عاجلاً لدى طبيب العيون. أما مونجارو (تيرزيباتايد) فيبقى التحقق من سجله ونشرته السعودية الحالية مفتوحاً في هذه النسخة؛ ولا يعني ذلك أنه محظور أو غير مسجل."
                   },
                   "citationRefs": [
                     "sa-sfda-semaglutide-dhpc-202609"
                   ]
+                },
+                "AE": {
+                  "text": {
+                    "en": "In the UAE, the Emirates Drug Establishment (EDE) announced on 1 June 2026 that it had approved oral Wegovy (semaglutide) for long-term weight management in adults with obesity, or overweight with weight-related conditions, and a Ministry of Health and Prevention alert (Circular 9217/2024, October 2024) described genuine Mounjaro as registered for type 2 diabetes and weight management. Federal Decree-Law 38/2024 bars compounding pharmacies from compounding essential copies of products that hold an EDE marketing approval unless no commercially available product can deliver the expected benefit to the patient. On 20 July 2026 the EDE warned that 1,659 packs of Mounjaro and Ozempic missing from a warehouse are outside the legitimate supply chain and told the public to buy these medicines only from licensed pharmacies.",
+                    "ar-AE": "في الإمارات العربية المتحدة، أعلنت مؤسسة الإمارات للدواء (EDE) في 1 يونيو 2026 أنها اعتمدت دواء Wegovy الفموي (semaglutide) لإدارة الوزن على المدى الطويل لدى البالغين المصابين بالسمنة، أو زيادة الوزن المصحوبة بحالات مرتبطة بالوزن، ووصف تنبيه صادر عن وزارة الصحة ووقاية المجتمع (التعميم 9217/2024، أكتوبر 2024) دواء Mounjaro الأصلي بأنه مسجل لداء السكري من النوع 2 وإدارة الوزن. ويحظر المرسوم بقانون اتحادي رقم 38/2024 على صيدليات التحضير الصيدلاني تحضير نسخ مطابقة أساسية للمنتجات الحاصلة على موافقة تسويق من EDE ما لم يتعذر على أي منتج متوفر تجارياً تحقيق الفائدة المتوقعة للمريض. وفي 20 يوليو 2026، حذرت EDE من أن 1,659 عبوة مفقودة من مستودع من Mounjaro وOzempic تقع خارج سلسلة التوريد المشروعة ووجهت الجمهور لشراء هذه الأدوية من الصيدليات المرخصة فقط."
+                  },
+                  "citationRefs": [
+                    "ae-ede-news-oral-wegovy",
+                    "ae-mohap-cir-9217-2024",
+                    "ae-fdl-38-2024",
+                    "ae-ede-cir-31-2026"
+                  ]
                 }
               }
+            },
+            "regionalReview": {
+              "country": "SA",
+              "topic": "incretin medicines",
+              "checkedAt": "2026-10-07",
+              "status": "pending-medical-regulatory-review"
             }
           }
         },
@@ -2744,14 +2774,20 @@
                 },
                 "SA": {
                   "text": {
-                    "en": "No product-specific Saudi registration was verified in this review. Do not present these as permitted treatments. The unregistered-product rule applies; this is not proof of an ingredient-specific statutory ban.",
-                    "ar-AE": "لم يُتحقق في هذه المراجعة من تسجيل سعودي لمنتج محدد من هذه المواد. لا تُعرض كعلاجات مسموحة. تنطبق قاعدة المستحضرات غير المسجلة، دون أن يثبت ذلك حظراً تشريعياً خاصاً بكل مادة."
+                    "en": "Saudi context: this review has not established registration of an exact BPC-157, TB-500 or injectable GHK-Cu product. This is neither permission to use it nor proof of an ingredient-specific statutory ban. SFDA action on unregistered peptides does not establish a ban on all peptide medicines.",
+                    "ar-AE": "السياق السعودي: لم نثبت في هذه المراجعة تسجيل منتج محدد يحتوي على BPC-157 أو TB-500 أو GHK-Cu للحقن. لا يُعرض ذلك كترخيص للاستخدام ولا كإثبات لحظر تشريعي خاص بالمادة. إجراء الهيئة ضد المنتجات الببتيدية غير المسجلة لا يثبت حظراً على جميع الأدوية الببتيدية."
                   },
                   "citationRefs": [
                     "sa-sfda-unregistered-peptides-20260929"
                   ]
                 }
               }
+            },
+            "regionalReview": {
+              "country": "SA",
+              "topic": "research peptides",
+              "checkedAt": "2026-10-07",
+              "status": "pending-medical-regulatory-review"
             }
           }
         },
@@ -2904,14 +2940,20 @@
                 },
                 "SA": {
                   "text": {
-                    "en": "No product-specific Saudi registration was verified in this review. Do not present these as permitted treatments. The unregistered-product rule applies; this is not proof of an ingredient-specific statutory ban.",
-                    "ar-AE": "لم يُتحقق في هذه المراجعة من تسجيل سعودي لمنتج محدد من هذه المواد. لا تُعرض كعلاجات مسموحة. تنطبق قاعدة المستحضرات غير المسجلة، دون أن يثبت ذلك حظراً تشريعياً خاصاً بكل مادة."
+                    "en": "Saudi context: this review has not established registration of an exact BPC-157, TB-500 or injectable GHK-Cu product. This is neither permission to use it nor proof of an ingredient-specific statutory ban. SFDA action on unregistered peptides does not establish a ban on all peptide medicines.",
+                    "ar-AE": "السياق السعودي: لم نثبت في هذه المراجعة تسجيل منتج محدد يحتوي على BPC-157 أو TB-500 أو GHK-Cu للحقن. لا يُعرض ذلك كترخيص للاستخدام ولا كإثبات لحظر تشريعي خاص بالمادة. إجراء الهيئة ضد المنتجات الببتيدية غير المسجلة لا يثبت حظراً على جميع الأدوية الببتيدية."
                   },
                   "citationRefs": [
                     "sa-sfda-unregistered-peptides-20260929"
                   ]
                 }
               }
+            },
+            "regionalReview": {
+              "country": "SA",
+              "topic": "research peptides",
+              "checkedAt": "2026-10-07",
+              "status": "pending-medical-regulatory-review"
             }
           },
           "imageBrief": {

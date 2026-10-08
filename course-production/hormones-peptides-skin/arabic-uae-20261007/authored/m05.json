@@ -495,14 +495,18 @@
                 },
                 "SA": {
                   "text": {
-                    "en": "SFDA's September 29 action concerns unregistered products marketed without authorization; it is not a class-wide peptide ban.",
-                    "ar-AE": "يتعلق إجراء الهيئة بتاريخ 29 سبتمبر بمنتجات غير مسجلة تُسوّق دون ترخيص؛ ولا يثبت حظراً شاملاً لفئة الببتيدات."
+                    "en": "Saudi context: baricitinib (Olumiant) is a specific medicine; its current Saudi alopecia indication was not verified here. Approval for another indication or in another country is insufficient.",
+                    "ar-AE": "السياق السعودي: باريسيتينيب (Olumiant) اسم دواء محدد؛ لم تُراجع هنا نشرته السعودية الحالية لاستطباب الثعلبة. اعتماد الدواء لاستطباب آخر أو في بلد آخر لا يكفي لإثبات هذا الاستطباب في السعودية."
                   },
-                  "citationRefs": [
-                    "sa-sfda-unregistered-peptides-20260929"
-                  ]
+                  "citationRefs": []
                 }
               }
+            },
+            "regionalReview": {
+              "country": "SA",
+              "topic": "baricitinib",
+              "checkedAt": "2026-10-07",
+              "status": "pending-medical-regulatory-review"
             }
           }
         },
@@ -885,14 +889,18 @@
                 },
                 "SA": {
                   "text": {
-                    "en": "SFDA's September 29 action concerns unregistered products marketed without authorization; it is not a class-wide peptide ban.",
-                    "ar-AE": "يتعلق إجراء الهيئة بتاريخ 29 سبتمبر بمنتجات غير مسجلة تُسوّق دون ترخيص؛ ولا يثبت حظراً شاملاً لفئة الببتيدات."
+                    "en": "Saudi context: separately verify the product, strength, route and indication for minoxidil and finasteride, and the local status of any thymulin or PTD-DBM preparation. These checks remain incomplete; clinical evidence or foreign authorization does not automatically establish local permission.",
+                    "ar-AE": "السياق السعودي: تحقق على حدة من المستحضر والتركيز وطريق الاستعمال والاستطباب لكل من مينوكسيديل وفيناستيرايد، ومن الوضع المحلي لأي تركيبة تحتوي على ثيمولين أو PTD-DBM. لم يُستكمل هذا التحقق في النسخة الحالية؛ لا ينقل الدليل السريري أو الترخيص الأجنبي تلقائياً إذناً محلياً."
                   },
-                  "citationRefs": [
-                    "sa-sfda-unregistered-peptides-20260929"
-                  ]
+                  "citationRefs": []
                 }
               }
+            },
+            "regionalReview": {
+              "country": "SA",
+              "topic": "hair-loss products",
+              "checkedAt": "2026-10-07",
+              "status": "pending-medical-regulatory-review"
             }
           },
           "imageBrief": {
@@ -1361,14 +1369,18 @@
                 },
                 "SA": {
                   "text": {
-                    "en": "No product-specific Saudi registration was verified in this review. Do not present these as permitted treatments. The unregistered-product rule applies; this is not proof of an ingredient-specific statutory ban.",
-                    "ar-AE": "لم يُتحقق في هذه المراجعة من تسجيل سعودي لمنتج محدد من هذه المواد. لا تُعرض كعلاجات مسموحة. تنطبق قاعدة المستحضرات غير المسجلة، دون أن يثبت ذلك حظراً تشريعياً خاصاً بكل مادة."
+                    "en": "Saudi context: do not conflate afamelanotide (Scenesse) with Melanotan II. Saudi registration or a specific access pathway for Scenesse has not been verified here; foreign approval does not establish its local status.",
+                    "ar-AE": "السياق السعودي: لا تخلط بين أفاميلانوتايد (Scenesse) وميلانوتان II. لم يُتحقق هنا من تسجيل منتج Scenesse أو من مسار وصول خاص به في السعودية؛ اعتماده في بلد آخر لا يحسم وضعه المحلي."
                   },
-                  "citationRefs": [
-                    "sa-sfda-unregistered-peptides-20260929"
-                  ]
+                  "citationRefs": []
                 }
               }
+            },
+            "regionalReview": {
+              "country": "SA",
+              "topic": "afamelanotide",
+              "checkedAt": "2026-10-07",
+              "status": "pending-medical-regulatory-review"
             }
           }
         },
@@ -2002,14 +2014,20 @@
                 },
                 "SA": {
                   "text": {
-                    "en": "No product-specific Saudi registration was verified in this review. Do not present these as permitted treatments. The unregistered-product rule applies; this is not proof of an ingredient-specific statutory ban.",
-                    "ar-AE": "لم يُتحقق في هذه المراجعة من تسجيل سعودي لمنتج محدد من هذه المواد. لا تُعرض كعلاجات مسموحة. تنطبق قاعدة المستحضرات غير المسجلة، دون أن يثبت ذلك حظراً تشريعياً خاصاً بكل مادة."
+                    "en": "Saudi context: registration of an exact Melanotan II product has not been verified. Do not present it as a permitted tanning option or infer permission from afamelanotide’s approval elsewhere. Do not turn the SFDA unregistered-peptide warning into an undocumented ingredient-specific statutory ban.",
+                    "ar-AE": "السياق السعودي: لم يُتحقق هنا من تسجيل منتج ميلانوتان II. لا يُسوّق في الدورة كخيار مسموح للتسمير، ولا يُفترض ترخيصه لأن أفاميلانوتايد دواء معتمد في بلد آخر. تحذير الهيئة من الببتيدات غير المسجلة لا يُحوّل إلى ادعاء غير موثق بحظر تشريعي خاص بكل مادة."
                   },
                   "citationRefs": [
                     "sa-sfda-unregistered-peptides-20260929"
                   ]
                 }
               }
+            },
+            "regionalReview": {
+              "country": "SA",
+              "topic": "Melanotan II",
+              "checkedAt": "2026-10-07",
+              "status": "pending-medical-regulatory-review"
             }
           }
         },
@@ -2737,14 +2755,18 @@
                 },
                 "SA": {
                   "text": {
-                    "en": "SFDA's September 29 action concerns unregistered products marketed without authorization; it is not a class-wide peptide ban.",
-                    "ar-AE": "يتعلق إجراء الهيئة بتاريخ 29 سبتمبر بمنتجات غير مسجلة تُسوّق دون ترخيص؛ ولا يثبت حظراً شاملاً لفئة الببتيدات."
+                    "en": "Saudi context: separately verify the product, strength, route and indication for minoxidil and finasteride, and the local status of any thymulin or PTD-DBM preparation. These checks remain incomplete; clinical evidence or foreign authorization does not automatically establish local permission.",
+                    "ar-AE": "السياق السعودي: تحقق على حدة من المستحضر والتركيز وطريق الاستعمال والاستطباب لكل من مينوكسيديل وفيناستيرايد، ومن الوضع المحلي لأي تركيبة تحتوي على ثيمولين أو PTD-DBM. لم يُستكمل هذا التحقق في النسخة الحالية؛ لا ينقل الدليل السريري أو الترخيص الأجنبي تلقائياً إذناً محلياً."
                   },
-                  "citationRefs": [
-                    "sa-sfda-unregistered-peptides-20260929"
-                  ]
+                  "citationRefs": []
                 }
               }
+            },
+            "regionalReview": {
+              "country": "SA",
+              "topic": "hair-loss products",
+              "checkedAt": "2026-10-07",
+              "status": "pending-medical-regulatory-review"
             }
           },
           "imageBrief": {

@@ -1869,14 +1869,18 @@
                 },
                 "SA": {
                   "text": {
-                    "en": "SFDA's September 29 action concerns unregistered products marketed without authorization; it is not a class-wide peptide ban.",
-                    "ar-AE": "يتعلق إجراء الهيئة بتاريخ 29 سبتمبر بمنتجات غير مسجلة تُسوّق دون ترخيص؛ ولا يثبت حظراً شاملاً لفئة الببتيدات."
+                    "en": "Saudi context: this review has not verified the Saudi label of the exact hormone product. US indications do not establish Saudi indications; check the exact local registration and label. An indication for menopausal symptoms does not establish a skin-improvement approval.",
+                    "ar-AE": "السياق السعودي: لم تُتحقق في هذه المراجعة النشرة السعودية للمستحضر الهرموني المحدد. لا تنقل استطبابات FDA إلى السعودية؛ راجع تسجيل المنتج واستطباباته المحلية قبل وصفه. لا يُستنتج اعتماد لتحسين الجلد من اعتماد لعلاج أعراض سن اليأس."
                   },
-                  "citationRefs": [
-                    "sa-sfda-unregistered-peptides-20260929"
-                  ]
+                  "citationRefs": []
                 }
               }
+            },
+            "regionalReview": {
+              "country": "SA",
+              "topic": "menopausal hormone therapy",
+              "checkedAt": "2026-10-07",
+              "status": "pending-medical-regulatory-review"
             }
           },
           "imageBrief": {

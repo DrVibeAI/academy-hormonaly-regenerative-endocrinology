@@ -1,0 +1,4 @@
+interface:
+  display_name: "Perceptor Regional Localization"
+  short_description: "Localize clinical microlearning by language and country"
+  default_prompt: "Use $perceptor-regional-localization to adapt this clinical microlearning course for the target language and practice jurisdiction, including cases, regulation, tutor behavior and motion-design media."

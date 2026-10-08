@@ -570,14 +570,18 @@
                 },
                 "SA": {
                   "text": {
-                    "en": "No product-specific Saudi registration was verified in this review. Do not present these as permitted treatments. The unregistered-product rule applies; this is not proof of an ingredient-specific statutory ban.",
-                    "ar-AE": "لم يُتحقق في هذه المراجعة من تسجيل سعودي لمنتج محدد من هذه المواد. لا تُعرض كعلاجات مسموحة. تنطبق قاعدة المستحضرات غير المسجلة، دون أن يثبت ذلك حظراً تشريعياً خاصاً بكل مادة."
+                    "en": "Saudi context: distinguish a topical GHK-Cu cosmetic from an injectable product. This review has not verified the local status of an exact product in either category. An FDA classification does not establish Saudi permission. Check product category, route, claims and the SFDA record.",
+                    "ar-AE": "السياق السعودي: افصل بين مستحضر GHK-Cu التجميلي الموضعي ومستحضر الحقن؛ لم يُتحقق هنا من الوضع المحلي لمنتج محدد لأي منهما. تصنيف FDA الأمريكي للمادة لا يثبت ترخيصاً سعودياً. تحقق من فئة المنتج وطريق استعماله وادعاءاته وسجله لدى الهيئة قبل الحكم عليه."
                   },
-                  "citationRefs": [
-                    "sa-sfda-unregistered-peptides-20260929"
-                  ]
+                  "citationRefs": []
                 }
               }
+            },
+            "regionalReview": {
+              "country": "SA",
+              "topic": "GHK-Cu route distinction",
+              "checkedAt": "2026-10-07",
+              "status": "pending-medical-regulatory-review"
             }
           }
         },
@@ -860,14 +864,18 @@
                 },
                 "SA": {
                   "text": {
-                    "en": "No product-specific Saudi registration was verified in this review. Do not present these as permitted treatments. The unregistered-product rule applies; this is not proof of an ingredient-specific statutory ban.",
-                    "ar-AE": "لم يُتحقق في هذه المراجعة من تسجيل سعودي لمنتج محدد من هذه المواد. لا تُعرض كعلاجات مسموحة. تنطبق قاعدة المستحضرات غير المسجلة، دون أن يثبت ذلك حظراً تشريعياً خاصاً بكل مادة."
+                    "en": "Saudi context: distinguish a topical GHK-Cu cosmetic from an injectable product. This review has not verified the local status of an exact product in either category. An FDA classification does not establish Saudi permission. Check product category, route, claims and the SFDA record.",
+                    "ar-AE": "السياق السعودي: افصل بين مستحضر GHK-Cu التجميلي الموضعي ومستحضر الحقن؛ لم يُتحقق هنا من الوضع المحلي لمنتج محدد لأي منهما. تصنيف FDA الأمريكي للمادة لا يثبت ترخيصاً سعودياً. تحقق من فئة المنتج وطريق استعماله وادعاءاته وسجله لدى الهيئة قبل الحكم عليه."
                   },
-                  "citationRefs": [
-                    "sa-sfda-unregistered-peptides-20260929"
-                  ]
+                  "citationRefs": []
                 }
               }
+            },
+            "regionalReview": {
+              "country": "SA",
+              "topic": "GHK-Cu route distinction",
+              "checkedAt": "2026-10-07",
+              "status": "pending-medical-regulatory-review"
             }
           },
           "imageBrief": {
@@ -1560,14 +1568,18 @@
                 },
                 "SA": {
                   "text": {
-                    "en": "SFDA's September 29 action concerns unregistered products marketed without authorization; it is not a class-wide peptide ban.",
-                    "ar-AE": "يتعلق إجراء الهيئة بتاريخ 29 سبتمبر بمنتجات غير مسجلة تُسوّق دون ترخيص؛ ولا يثبت حظراً شاملاً لفئة الببتيدات."
+                    "en": "Saudi context: check each cosmetic or collagen supplement’s category, record and claims separately. Listing a topical product does not establish permission to inject the same ingredient; registering a supplement does not establish efficacy for treating skin disease. Exact commercial-product verification remains incomplete.",
+                    "ar-AE": "السياق السعودي: يلزم التحقق من فئة كل مستحضر تجميلي أو مكمل كولاجين ومن سجله وادعاءاته على حدة. لا يثبت إدراج مستحضر موضعي السماح بحقن المادة نفسها، ولا يثبت تسجيل مكمل فعاليته لعلاج مرض جلدي. لم تُستكمل هنا مراجعة المنتجات التجارية المحددة."
                   },
-                  "citationRefs": [
-                    "sa-sfda-unregistered-peptides-20260929"
-                  ]
+                  "citationRefs": []
                 }
               }
+            },
+            "regionalReview": {
+              "country": "SA",
+              "topic": "cosmetics and supplements",
+              "checkedAt": "2026-10-07",
+              "status": "pending-medical-regulatory-review"
             }
           },
           "imageBrief": {
@@ -2541,14 +2553,20 @@
                 },
                 "SA": {
                   "text": {
-                    "en": "No product-specific Saudi registration was verified in this review. Do not present these as permitted treatments. The unregistered-product rule applies; this is not proof of an ingredient-specific statutory ban.",
-                    "ar-AE": "لم يُتحقق في هذه المراجعة من تسجيل سعودي لمنتج محدد من هذه المواد. لا تُعرض كعلاجات مسموحة. تنطبق قاعدة المستحضرات غير المسجلة، دون أن يثبت ذلك حظراً تشريعياً خاصاً بكل مادة."
+                    "en": "Saudi context: this review has not established registration of an exact BPC-157, TB-500 or injectable GHK-Cu product. This is neither permission to use it nor proof of an ingredient-specific statutory ban. SFDA action on unregistered peptides does not establish a ban on all peptide medicines.",
+                    "ar-AE": "السياق السعودي: لم نثبت في هذه المراجعة تسجيل منتج محدد يحتوي على BPC-157 أو TB-500 أو GHK-Cu للحقن. لا يُعرض ذلك كترخيص للاستخدام ولا كإثبات لحظر تشريعي خاص بالمادة. إجراء الهيئة ضد المنتجات الببتيدية غير المسجلة لا يثبت حظراً على جميع الأدوية الببتيدية."
                   },
                   "citationRefs": [
                     "sa-sfda-unregistered-peptides-20260929"
                   ]
                 }
               }
+            },
+            "regionalReview": {
+              "country": "SA",
+              "topic": "research peptides",
+              "checkedAt": "2026-10-07",
+              "status": "pending-medical-regulatory-review"
             }
           }
         },
@@ -2819,11 +2837,11 @@
                 },
                 "SA": {
                   "text": {
-                    "en": "Saudi product information describes weight-management or diabetes indications, depending on brand. These are not skin-rejuvenation approvals. Sudden visual symptoms require urgent ophthalmological assessment.",
-                    "ar-AE": "تصف المعلومات الدوائية السعودية استطبابات لضبط الوزن أو السكري بحسب العلامة التجارية. وهي ليست موافقات لتجديد الجلد. تستدعي الأعراض البصرية المفاجئة تقييماً عاجلاً لدى طبيب العيون."
+                    "en": "Saudi context: this review has not established registration of an exact BPC-157, TB-500 or injectable GHK-Cu product. This is neither permission to use it nor proof of an ingredient-specific statutory ban. SFDA action on unregistered peptides does not establish a ban on all peptide medicines.",
+                    "ar-AE": "السياق السعودي: لم نثبت في هذه المراجعة تسجيل منتج محدد يحتوي على BPC-157 أو TB-500 أو GHK-Cu للحقن. لا يُعرض ذلك كترخيص للاستخدام ولا كإثبات لحظر تشريعي خاص بالمادة. إجراء الهيئة ضد المنتجات الببتيدية غير المسجلة لا يثبت حظراً على جميع الأدوية الببتيدية."
                   },
                   "citationRefs": [
-                    "sa-sfda-semaglutide-dhpc-202609"
+                    "sa-sfda-unregistered-peptides-20260929"
                   ]
                 }
               }
@@ -2831,6 +2849,12 @@
             "audioScript": {
               "en": "A fictional case, built from this lesson's evidence. A forty-six-year-old patient has been injecting a research-use-only blend sold as GLOW for three months: GHK-Cu, BPC-157 and TB-500 in one vial. She likes her skin and asks about carrying on. You notice new, patchy darkening on her face and forearms. The blend has no controlled human trials, it is made outside good manufacturing practice, and the Hormonaly guide treats new pigmentation on these products as a red flag. Impurity and mislabelling are documented for similar online products; the Hormonaly guide states that heavy-metal contamination is documented in these products, but the published analysis behind that statement could not be found. Decide what you do first.",
               "ar-AE": "حالة افتراضية مبنية على أدلة هذا الدرس. مريضة تبلغ من العمر ستة وأربعين عاماً تحقن منذ ثلاثة أشهر مزيجاً مخصصاً لأغراض البحث فقط يُباع باسم GLOW: يحتوي على GHK-Cu وBPC-157 وTB-500 في قارورة واحدة. يعجبها مظهر جلدها وتسأل عن متابعة الاستخدام. تلاحظ ظهور اسمرار جديد وغير منتظم على وجهها وساعديها. لا توجد للمزيج أي تجارب بشرية مضبوطة، وهو مُصنّع خارج ممارسات التصنيع الجيد، ويتعامل دليل Hormonaly مع التصبغ الجديد الناتج عن هذه المنتجات كعلامة تحذيرية حمراء. الشوائب ووضع ملصقات غير دقيقة موثقة في منتجات مماثلة على الإنترنت؛ كما يذكر دليل Hormonaly أن التلوث بالمعادن الثقيلة موثق في هذه المنتجات، ولكن تعذر العثور على التحليل المنشور الذي يستند إليه هذا الادعاء. حدد الإجراء الأول الذي ستتخذه."
+            },
+            "regionalReview": {
+              "country": "SA",
+              "topic": "research peptides",
+              "checkedAt": "2026-10-07",
+              "status": "pending-medical-regulatory-review"
             }
           },
           "points": [
