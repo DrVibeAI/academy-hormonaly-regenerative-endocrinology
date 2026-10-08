@@ -1,5 +1,7 @@
 # Arabic Hormonaly Academy — QA repairs, 7 October 2026
 
+8 October interface follow-ups: [Learner continuity, admin assistant and layout fixes](course-production/hormones-peptides-skin/ui-polish-20261008/QA.md); [Three language-matched homepage previews](course-production/hormones-peptides-skin/home-previews-20261008/QA.md). The dated audit below is retained as history.
+
 Public release follow-up: [Bilingual deployment and visible language toggle](course-production/hormones-peptides-skin/arabic-uae-20261007/public-deployment-20261008/DEPLOYMENT.md), authorized by Omar on 8 October UTC.
 
 Deployment follow-up: [Arabic review candidate and remaining release gates](course-production/hormones-peptides-skin/arabic-uae-20261007/deployment-20261007/DEPLOYMENT.md). Public English traffic remains unchanged.

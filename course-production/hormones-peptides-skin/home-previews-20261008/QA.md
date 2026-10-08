@@ -8,4 +8,8 @@ The manifest in `presentation-inputs/home-glimpses-bilingual.json` records every
 
 Local checks: three capture-validation tests pass, including wrong-language and changed-image rejection; application and server type checks pass. Actual browser checks confirm exactly three screenshots, `/ar/` paths when Arabic is selected, `/en/` paths when English is selected, all images loaded, and no document horizontal overflow at 390px. Desktop RTL rendering was visually inspected at 1280px. All eight canonical deployment evaluation suites passed.
 
-Runtime commits: `8b0e8e8`, `d25331f`. Foundry workflow correction: `9f3e8bc`. Hosted proof follows after candidate verification and promotion.
+Runtime commits: `8b0e8e8`, `d25331f`. Foundry workflow correction: `9f3e8bc`. Academy capture/config commit: `353880d`.
+
+Published via canonical candidate-only deployment and exact-revision promotion: `academy-hormonaly-00056-kgf`, 100% traffic. Cloud Build `fa8200d2-1315-4e2a-8ae2-67bc038b3df6` completed successfully. Candidate browser checks verified three loaded Arabic images, correct English switching, RTL, and no document overflow at 390px. Authenticated candidate checks retained 54 enrolled/started learners, one certificate, three editor proposals, seven messages and five releases. No assistant mutation was requested. Production verification confirms three loaded Arabic images and certificate API 401 without authentication. All six published screenshot bytes match their recorded SHA-256 hashes.
+
+See `production-arabic-previews.png`, `production-traffic.json`, `candidate-arabic-proof.json`, `candidate-admin-proof.json` and `published-image-proof.json`. Prepared deployment: `/Users/omar/DrVibe/releases/hormonaly-home-previews-20261008`. Temporary local servers and the capture browser tab were closed after verification.

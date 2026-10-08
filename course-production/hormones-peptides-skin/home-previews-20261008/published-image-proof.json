@@ -1,0 +1,41 @@
+{
+  "checkedAt": "2026-10-08T18:03:03.407Z",
+  "results": [
+    {
+      "src": "assets/hormones-peptides-skin/home/en/inside-film.png",
+      "status": 200,
+      "locale": "en",
+      "hashMatches": true
+    },
+    {
+      "src": "assets/hormones-peptides-skin/home/ar/inside-practice.png",
+      "status": 200,
+      "locale": "ar",
+      "hashMatches": true
+    },
+    {
+      "src": "assets/hormones-peptides-skin/home/en/inside-science.png",
+      "status": 200,
+      "locale": "en",
+      "hashMatches": true
+    },
+    {
+      "src": "assets/hormones-peptides-skin/home/ar/inside-science.png",
+      "status": 200,
+      "locale": "ar",
+      "hashMatches": true
+    },
+    {
+      "src": "assets/hormones-peptides-skin/home/en/inside-trial.png",
+      "status": 200,
+      "locale": "en",
+      "hashMatches": true
+    },
+    {
+      "src": "assets/hormones-peptides-skin/home/ar/inside-trial.png",
+      "status": 200,
+      "locale": "ar",
+      "hashMatches": true
+    }
+  ]
+}
