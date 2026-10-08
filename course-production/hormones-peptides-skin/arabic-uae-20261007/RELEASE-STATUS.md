@@ -8,7 +8,7 @@ Primary audience: clinicians in the UAE. Language: Modern Standard Arabic, ar-AE
 - Seven modules, all 3,797 original localized text fields translated; zero blank Arabic fields or unchanged long English passages. Seven module checks and 14 final questions retained.
 - Arabic tutor answers, search synonyms, source notes, and localized academy copy.
 - 48 Arabic narration recordings (Yousef, licensed ElevenLabs library voice), transcripts, duration and checksum manifest. Technical playback tested; pronunciation review is pending.
-- Seven opening-film scripts translated. Original English film exports and storyboards retained as sources.
+- Seven opening-film scripts translated. Original editable English projects, narration, visuals, presenter media and caption timings recovered; source hashes and extracted English VTTs recorded.
 - UAE/Saudi regulatory addendum with official sources and pending source-lock amendment.
 - Native platform Arabic interface and regional-locale fixes; RTL desktop/mobile checks, role selection, exercise feedback and audio playback verified.
 - Arabic certificate PDF layout proof. SAMPLE-NOT-VALID is a layout specimen, not an issued credential. Mixed-direction text and numbers checked visually.
@@ -25,7 +25,7 @@ Primary audience: clinicians in the UAE. Language: Modern Standard Arabic, ar-AE
 ## Still required before release
 1. Fady’s Arabic language/medical review, including pronunciation, study claims, evidence grades, professional scope and diagram-arrow direction.
 2. Review of the regulatory source-lock amendment. Saudi registration is not inferred for research peptides or for Mounjaro from an inaccessible product record. Unregistered-product enforcement is not described as a ban on every peptide medicine. Abu Dhabi rules remain explicitly scoped to DoH facilities.
-3. Restore the seven editable opening-film projects and source assets, pin each render contract, then produce Arabic films and timed captions. Reviewed English caption tracks are not yet located.
+3. The seven original editable films and source assets have now been recovered from the laptop’s hidden Perceptors media folder; see FILM-SOURCES-RECOVERED.json. English timed captions were recovered verbatim from the compositions. Confirm their approved release correspondence, pin the Arabic render contracts, and produce/QA the Arabic films and captions.
 4. Media review, native acceptance on the approved edition, accreditation decision where applicable, and explicit publication authorization.
 
 The ar-AE edition stays `in_review`, with `mediaComplete:false` and `publishReady:false`. No approvals were copied from the English edition. No live course or deployment was changed.
