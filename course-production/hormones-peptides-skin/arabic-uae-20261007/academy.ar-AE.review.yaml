@@ -1,0 +1,764 @@
+academy: hormonaly
+brand:
+  voices:
+    es-MX:
+      voice_id: ""
+      name: ""
+    en:
+      voice_id: Xb7hH8MSUJpSbSDYk0k2
+      name: Alice — Clear, Engaging Educator (ElevenLabs library)
+    ar-AE:
+      voice_id: ZCXYdzd5Evtsll2EdoCi
+      name: Yousef — Modern Standard Arabic (ElevenLabs library)
+  name: Hormonaly Academy
+  shortName: Hormonaly
+  wordmarkSuffix: ACADEMY
+  logo: ./assets/hormonaly-logo.png
+  theme: perceptors-house
+  designTier: 0
+  accent: "#5A4BC4"
+  tagline:
+    en: Hormones and peptides, evidence-graded.
+    ar-AE: الهرمونات والببتيدات، مصنّفة وفق درجات الأدلة.
+  supportEmail: support@hormonaly.ai
+  issuer: Hormonaly Academy
+home:
+  kicker:
+    en: For clinicians
+    ar-AE: للممارسين السريريين
+  headline:
+    en: Skin peptides, answered with evidence.
+    ar-AE: ببتيدات الجلد، إجابات مدعومة بالأدلة.
+  lede:
+    en: Your patients are already asking about hormones and peptides for their skin.
+      Learn what the trials show, what is approved where you practise, and what
+      to say next.
+    ar-AE: يسألك مرضاك بالفعل عن الهرمونات والببتيدات لصحة جلدهم. تعرّف على ما
+      تُظهره التجارب السريرية، وما هو معتمد في مكان ممارستك، وما ينبغي قوله
+      تالياً.
+  primaryAction:
+    en: Enrol now
+    ar-AE: سجّل الآن
+  secondaryAction:
+    en: Watch the trailer
+    ar-AE: شاهد المقطع الترويجي
+  heroImage:
+    src: assets/hormones-peptides-skin/home/hero-skin.jpg
+  heroVideo:
+    src: assets/hormones-peptides-skin/home/trailer.mp4
+    poster: assets/hormones-peptides-skin/home/trailer-poster.jpg
+    label:
+      en: Hormones and Peptides for Skin, the course trailer
+      ar-AE: الهرمونات والببتيدات للجلد، المقطع الترويجي للدورة
+    disclosure:
+      en: Presented by a digital avatar (AI-generated presenter and voice).
+      ar-AE: يُقدَّم عبر مجسّد رقمي (مقدّم وصوت مُنشآن بالذكاء الاصطناعي).
+  practice:
+    kicker:
+      en: In your practice
+      ar-AE: في ممارستك السريرية
+    title:
+      en: Turn the questions into a service.
+      ar-AE: حوّل التساؤلات إلى خدمة سريرية.
+    body:
+      en: "Copper peptides, collagen, tanning shots, growth-hormone boosters: most
+        reach your clinic before any evidence does. Be the clinician with real
+        answers, and build a skin service you can stand behind."
+      ar-AE: "ببتيدات النحاس، الكولاجين، إبر التسمير، محفزات هرمون النمو: معظمها يصل
+        إلى عيادتك قبل وصول أي أدلة سريرية. كن الممارس السريري الذي يمتلك إجابات
+        حقيقية، وابنِ خدمة للعناية بالجلد يمكنك الاعتماد عليها بثقة."
+    points:
+      - en: Tell a randomized trial from a brochure
+        ar-AE: ميّز بين التجربة العشوائية والمطوية الدعائية
+      - en: Spot the red flags on a certificate of analysis
+        ar-AE: رصد العلامات التحذيرية في شهادة التحليل المخبري
+      - en: Know what is approved in your country, and when to refer
+        ar-AE: اعرف ما هو معتمد في بلدك، ومتى يتعين الإحالة
+    image:
+      src: assets/hormones-peptides-skin/home/practice-skin.jpg
+      alt:
+        en: Close-up of healthy, glowing skin
+        ar-AE: صورة مقربة لجلد صحي ومتألق
+  coursesTitle:
+    en: The course
+    ar-AE: الدورة التدريبية
+  coursesNote:
+    en: More peptide courses are on the way.
+    ar-AE: المزيد من دورات الببتيدات قيد الإعداد.
+  glimpses:
+    title:
+      en: Learn by doing.
+      ar-AE: تعلّم عبر التطبيق العملي.
+    items:
+      - src: assets/hormones-peptides-skin/home/inside-film.jpg
+        caption:
+          en: A short film opens every module
+          ar-AE: يبدأ كل موديول بفيلم قصير
+      - src: assets/hormones-peptides-skin/home/inside-trial.jpg
+        caption:
+          en: Sort the evidence, one tap at a time
+          ar-AE: فرز الأدلة بنقرة واحدة في كل خطوة
+      - src: assets/hormones-peptides-skin/home/inside-case.jpg
+        caption:
+          en: Work through clinic cases
+          ar-AE: دراسة حالات سريرية واقعية
+      - src: assets/hormones-peptides-skin/home/inside-certificate.jpg
+        caption:
+          en: Audit a certificate of analysis
+          ar-AE: تدقيق شهادة التحليل المخبري
+      - src: assets/hormones-peptides-skin/home/inside-country.jpg
+        caption:
+          en: Your country's rules, dated
+          ar-AE: لوائح بلدك التنظيمية، مؤرّخة ومحدثة
+  trust:
+    title:
+      en: Built on evidence. Reviewed by a physician.
+      ar-AE: محتوى يستند إلى الأدلة — النسخة العربية قيد المراجعة
+    items:
+      - title:
+          en: Every claim graded
+          ar-AE: تقييم درجة الأدلة لكل ادعاء
+        body:
+          en: Each statement carries its evidence grade and its source.
+          ar-AE: تحمل كل عبارة درجة الأدلة الخاصة بها ومصدرها.
+      - title:
+          en: Your country first
+          ar-AE: بلدك أولاً
+        body:
+          en: Regulatory status for six jurisdictions, labelled and dated.
+          ar-AE: الوضع التنظيمي لستة نطاقات قضائية، مصنف ومؤرخ.
+      - title:
+          en: No dosing
+          ar-AE: لا تتضمن جرعات دوائية
+        body:
+          en: Evidence, regulation and next steps. Never doses or product sourcing.
+          ar-AE: الأدلة، اللوائح التنظيمية، والخطوات التالية؛ دون التطرق أبداً للجرعات أو
+            توريد المنتجات.
+      - title:
+          en: Ask the course
+          ar-AE: وجّه أسئلتك لمحتوى الدورة
+        body:
+          en: A tutor answers from the course and its sources, and says when a question is
+            outside them.
+          ar-AE: مدرّس يجيب استناداً إلى الدورة ومصادرها، ويوضح متى يكون السؤال خارج
+            نطاقهما.
+  reviewers:
+    - name: Fady Hannah-Shmouni, MD FRCPC
+      role:
+        en: Medical review · author of the Hormonaly pocket guides on aesthetic and
+          regenerative endocrinology and on peptides
+        ar-AE: "مراجع النسخة العربية: فادي حنّا شمعوني — المراجعة قيد الانتظار"
+  faq:
+    - q:
+        en: Does the course give doses or protocols?
+        ar-AE: هل تقدم الدورة جرعات أو بروتوكولات؟
+      a:
+        en: No. It teaches the evidence, the regulatory status and what each role can
+          safely do next. Dosing and product sourcing are excluded by design.
+        ar-AE: كلا. إنها تشرح الأدلة، والوضع التنظيمي، وما يمكن لكل دور مهني القيام به
+          بأمان كخطوة تالية. وتُستثنى الجرعات وتوريد المنتجات عن قصد وبشكل
+          أساسي.
+    - q:
+        en: Which countries does it cover?
+        ar-AE: ما هي الدول التي تغطيها الدورة؟
+      a:
+        en: The United States, the United Kingdom, the European Union, Portugal, Brazil
+          and the United Arab Emirates. Each statement names its country and
+          date, and your own country comes first.
+        ar-AE: الولايات المتحدة، والمملكة المتحدة، والاتحاد الأوروبي، والبرتغال،
+          والبرازيل، والإمارات العربية المتحدة. تحدد كل عبارة بلدها وتاريخها،
+          ويأتي بلدك أولاً.
+    - q:
+        en: Is there CME or CE credit?
+        ar-AE: هل تمنح الدورة ساعات معتمدة للتعليم الطبي المستمر (CME) أو التعليم
+          المستمر (CE)؟
+      a:
+        en: The course is accredited by GCLS, the Geneva College of Longevity Sciences.
+          CME or CE credit is not offered at this time.
+        ar-AE: الدورة معتمدة من GCLS (Geneva College of Longevity Sciences). لا يتم
+          تقديم ساعات معتمدة للتعليم الطبي المستمر (CME) أو التعليم المستمر (CE)
+          في الوقت الحالي.
+    - q:
+        en: What do I get at the end?
+        ar-AE: ما الذي سأحصل عليه عند إتمام الدورة؟
+      a:
+        en: Pass the final check with 80% or more to receive a certificate of completion
+          for this GCLS-accredited course, with a public verification code.
+        ar-AE: اجتز التقييم النهائي بنسبة 80% أو أكثر لتنال شهادة إتمام لهذه الدورة
+          المعتمدة من GCLS، مع رمز تحقق متاح للعامة.
+  certificate:
+    title:
+      en: Earn a GCLS-accredited certificate.
+      ar-AE: شهادة إتمام الدورة
+    body:
+      en: Finish the seven modules and pass the final check to receive your
+        certificate of completion.
+      ar-AE: تخضع النسخة العربية للمراجعة قبل إتاحتها للمتعلمين وإصدار شهاداتها.
+  creators:
+    kicker:
+      en: For physician creators
+      ar-AE: للأطباء منشئي المحتوى التدريبي
+    title:
+      en: Launch your own course with Perceptors.
+      ar-AE: أطلق دورتك الخاصة بالتعاون مع Perceptors.
+    body:
+      en: "Physicians, educators and creators with something clinicians should learn:
+        we turn your expertise into an evidence-checked course and academy like
+        this one."
+      ar-AE: "للأطباء، والمعلمين، وصناع المحتوى الذين يمتلكون معرفة يحتاجها الممارسون
+        السريريون: نحوّل خبرتك إلى دورة وأكاديمية مدققة الأدلة كهذه."
+    action:
+      label:
+        en: Talk to us
+        ar-AE: تحدث إلينا
+      href: https://www.perceptors.ai/contact?prompt=I%20want%20to%20launch%20my%20own%20course%20with%20Perceptors#general-inquiries
+  ctaTitle:
+    en: Start with Module 1 today.
+    ar-AE: ابدأ بالموديول 1 اليوم.
+  disclaimer:
+    en: Educational content for licensed clinicians. It does not replace clinical
+      judgement, specialist input or formal guidelines.
+    ar-AE: محتوى تعليمي مخصص للممارسين السريريين المرخصين. ولا يُغني عن التقدير
+      السريري، أو المشورة التخصصية، أو الإرشادات التوجيهية الرسمية.
+catalog:
+  - course: packages/hormones-peptides-skin.ar-AE.json
+    audience:
+      en: Physicians, nurse practitioners and physician associates, nurses and other
+        licensed providers
+      ar-AE: الأطباء، والممرضون الممارسون، ومساعدو الأطباء، وممارسو التمريض، وغيرهم من
+        مقدمي الرعاية المرخصين
+    blurb:
+      en: "The hormones and peptides your patients ask about for skin, hair and the
+        ageing face: what is shown in people, what is only mechanism, and what
+        the rules allow in the US, the UK, the EU, Portugal, Brazil and the
+        UAE."
+      ar-AE: "الهرمونات والببتيدات التي يسأل عنها مرضاك لصحة الجلد والشعر والوجه
+        المتقدم في السن: ما أثبتته الأدلة البشرية، وما يقتصر على آلية العمل، وما
+        تسمح به اللوائح في الولايات المتحدة، والمملكة المتحدة، والاتحاد
+        الأوروبي، والبرتغال، والبرازيل، والإمارات العربية المتحدة."
+    status: draft
+    series: regenerative-endocrinology
+    order: 1
+    accreditation:
+      body: GCLS
+      name: Geneva College of Longevity Sciences
+      status: accredited
+      logo: /gcls/gcls-logo.png
+      basis: Verbal confirmation from GCLS to Omar Saleem (product owner), 2026-09-25;
+        written confirmation to follow
+    entitlement:
+      type: paid
+      price:
+        amount: 199
+        currency: usd
+    certificate:
+      access: included
+    final:
+      by: Omar Saleem (product owner)
+      date: 2026-09-25
+      revision: academy-hormonaly-00009-6jl · 1.0.0-rc.4, walked end to end on
+        hormonaly.perceptors.ai
+modules:
+  fieldbook: true
+  promptLab: false
+  webinars: false
+  blog: false
+  peers: false
+  achievements: false
+  studio: false
+experience:
+  defaultRole: prescriber
+  roles:
+    - id: prescriber
+      label:
+        en: Prescriber
+        ar-AE: الممارس المخوّل بالوصف الدوائي
+      description:
+        en: Physician, NP or PA
+        ar-AE: طبيب، أو ممرض ممارس (NP)، أو مساعد طبيب (PA)
+    - id: clinical-staff
+      label:
+        en: Clinical staff
+        ar-AE: الكادر السريري
+      description:
+        en: RN, aesthetic nurse or injector
+        ar-AE: ممرض قانوني (RN)، أو ممرض تجميلي، أو ممارس حقن تجميلي
+    - id: advisor
+      label:
+        en: Advisor
+        ar-AE: المستشار السريري
+      description:
+        en: Pharmacist, ND or allied professional
+        ar-AE: صيدلي، أو طبيب علاج طبيعي (ND)، أو ممارس رعاية صحية مساندة
+  practicePrompts: false
+  library:
+    sourceNotes: false
+    evidencePolicy:
+      en: Mechanism, human evidence, regulatory status and open questions are kept
+        apart. The course gives no doses and no product sourcing.
+      ar-AE: يتم الفصل بدقة بين آلية العمل، والأدلة البشرية، والوضع التنظيمي، والمسائل
+        غير المحسومة. لا تقدم الدورة أي جرعات أو معلومات لتوريد المنتجات.
+today:
+  lines:
+    label:
+      en: Line of the day
+      ar-AE: عبارة اليوم
+    items:
+      - from: m1-p01
+        text:
+          en: The skin makes its own hormones.
+          ar-AE: يُنتج الجلد هرموناته الخاصة.
+        detail:
+          en: Skin senses hormones from the blood, makes several of its own, and ages in
+            ways that change both.
+          ar-AE: يستشعر الجلد الهرمونات من الدم، ويُصنّع العديد منها بنفسه، ويشيخ بطرق
+            تُغيّر كليهما.
+        image:
+          src: assets/hormones-peptides-skin/today/m1-p01.jpg
+          alt:
+            en: Warm morning light across the skin of a forearm
+            ar-AE: ضوء الصباح الدافئ ينساب عبر جلد الساعد
+          prompt: Macro of the smooth skin on the inside of a forearm catching warm
+            morning light, fine vellus hairs glowing along the edge.
+      - from: m2-p02
+        text:
+          en: The skin regenerates its own cortisol.
+          ar-AE: يُعيد الجلد تجديد الكورتيزول الخاص به.
+        detail:
+          en: Keratinocytes and dermal fibroblasts also carry 11β-HSD1, the enzyme that
+            turns inactive cortisone back into active cortisol inside the cell.
+          ar-AE: تحمل الخلايا الكيراتينية والخلايا الليفية في الأدمة أيضاً إنزيم 11β-HSD1،
+            وهو الإنزيم الذي يُحوّل الكورتيزون غير النشط مرة أخرى إلى كورتيزول
+            نشط داخل الخلية.
+        image:
+          src: assets/hormones-peptides-skin/today/m2-p02.jpg
+          alt:
+            en: Sunlight falling across the skin of a bare shoulder
+            ar-AE: ضوء الشمس يسقط على جلد كتف عارٍ
+          prompt: Late sunlight falling across the skin of a bare shoulder blade, a soft
+            glow over fine texture, the light fading into a warm gradient.
+      - from: m3-p05
+        text:
+          en: Fifteen years on the same collagen.
+          ar-AE: خمسة عشر عاماً على الكولاجين ذاته.
+        detail:
+          en: Human skin collagen turns over slowly; tissue analysis puts its half-life at
+            about 15 years.
+          ar-AE: يتجدد كولاجين جلد الإنسان ببطء؛ ويُقدّر التحليل النسيجي عمر النصف له بنحو
+            15 عاماً.
+        image:
+          src: assets/hormones-peptides-skin/today/m3-p05.jpg
+          alt:
+            en: Close-up of softly creased linen threads
+            ar-AE: لقطة مقربة لخيوط كتان متجعدة بنعومة
+          prompt: "Close-up of finely woven natural linen threads, softly creased and
+            slightly worn, in warm side light: long-lived fibres."
+      - from: m4-p01
+        text:
+          en: The peptide your patient already bought.
+          ar-AE: الببتيد الذي اشتراه مريضك بالفعل.
+        detail:
+          en: Most skin peptides reach your clinic before any evidence does.
+          ar-AE: تصل معظم ببتيدات الجلد إلى عيادتك قبل وصول أي أدلة.
+        image:
+          src: assets/hormones-peptides-skin/today/m4-p01.jpg
+          alt:
+            en: A small unlabelled serum bottle on a stone shelf
+            ar-AE: زجاجة مصل صغيرة بلا ملصق تعريفي على رف حجري
+          prompt: A small clear glass dropper bottle of serum with no label, standing on a
+            travertine shelf beside a folded cotton towel, soft window light.
+      - from: m5-p02
+        text:
+          en: A follicle that runs its own hormones.
+          ar-AE: جريب يُدير هرموناته بنفسه.
+        detail:
+          en: Human scalp hair follicles kept alive in the laboratory answer
+            corticotropin-releasing hormone by making ACTH and α-MSH and
+            secreting cortisol, with a feedback loop like the adrenal axis.
+          ar-AE: تستجيب جريبات شعر فروة رأس الإنسان المحفوظة حية في المختبر للهرمون المطلق
+            لموجهة القشرة عن طريق تصنيع ACTH وα-MSH وإفراز الكورتيزول، مع وجود
+            حلقة تغذية راجعة مماثلة للمحور الكظري.
+        image:
+          src: assets/hormones-peptides-skin/today/m5-p02.jpg
+          alt:
+            en: Backlit fine hairs on the skin of an arm
+            ar-AE: شعيرات دقيقة مضاءة من الخلف على جلد الذراع
+          prompt: Fine hairs on the skin of a forearm, backlit so each hair glows like a
+            filament against a soft cream background.
+      - from: m6-p02
+        text:
+          en: Two hormones, two layers of skin.
+          ar-AE: هرمونان، وطبقتان من الجلد.
+        detail:
+          en: Growth hormone acts mostly in the dermis. IGF-1, made locally by fibroblasts
+            and melanocytes, reaches keratinocytes through the IGF-1 receptor
+            and makes them divide.
+          ar-AE: يعمل هرمون النمو بشكل أساسي في الأدمة. بينما يصل IGF-1، الذي يُصنّع
+            محلياً بواسطة الخلايا الليفية والخلايا الصباغية، إلى الخلايا
+            الكيراتينية عبر مستقبل IGF-1 ويحثها على الانقسام.
+        image:
+          src: assets/hormones-peptides-skin/today/m6-p02.jpg
+          alt:
+            en: Two layered sheets of translucent silk, backlit
+            ar-AE: طبقتان من الحرير شبه الشفاف، مضاءتان من الخلف
+          prompt: Two sheets of translucent silk in cream and blush, one laid over the
+            other and backlit so both layers glow.
+      - from: m7-p13
+        text:
+          en: Research use only is a label, and never a route.
+          ar-AE: عبارة «للاستخدام البحثي فقط» هي ملصق تصنيفي وليست مساراً للإعطاء على
+            الإطلاق.
+        image:
+          src: assets/hormones-peptides-skin/today/m7-p13.jpg
+          alt:
+            en: An unlabelled glass vial on a clean laboratory bench
+            ar-AE: قارورة زجاجية بلا ملصق تعريفي على طاولة مختبر نظيفة
+          prompt: A single small glass vial with a plain blank white label on a clean
+            laboratory bench, cool clinical light, calm empty space around it.
+      - from: m1-p13
+        text:
+          en: Cells that stop dividing and keep talking.
+          ar-AE: خلايا تتوقف عن الانقسام وتستمر في التواصل.
+        detail:
+          en: "A senescent cell has stopped dividing for good but stays metabolically
+            active, releasing cytokines, matrix-degrading enzymes and growth
+            factors: the senescence-associated secretory phenotype, or SASP."
+          ar-AE: "تتوقف الخلية الهرمة عن الانقسام نهائياً لكنها تظل نشطة استقلابياً، حيث
+            تفرز السيتوكينات والإنزيمات المُحللة للمطرس وعوامل النمو: وهو ما
+            يُعرف بالنمط الظاهري الإفرازي المرتبط بالشيخوخة الخلوية (SASP)."
+        image:
+          src: assets/hormones-peptides-skin/today/m1-p13.jpg
+          alt:
+            en: Soft luminous spheres clustered like cells
+            ar-AE: كريات مضيئة ناعمة متجمعة كالخلايا
+          prompt: Dreamlike macro of soft luminous translucent spheres clustered like
+            cells, lit in amber with faint violet shadows, like a painterly
+            micrograph.
+      - from: m2-p01
+        text:
+          en: The face that might be a diagnosis.
+          ar-AE: الوجه الذي قد يمثل تشخيصاً.
+        detail:
+          en: Most skin changes you see are ageing or lifestyle. A few are the first
+            visible sign of endocrine disease.
+          ar-AE: معظم التغيرات الجلدية التي تراها تعود إلى التقدم في العمر أو نمط الحياة.
+            وقليل منها هو أول علامة مرئية لمرض في الغدد الصماء.
+        image:
+          src: assets/hormones-peptides-skin/today/m2-p01.jpg
+          alt:
+            en: A round mirror in a quiet clinic room
+            ar-AE: مرآة مستديرة في غرفة عيادة هادئة
+          prompt: A round mirror on a pale plaster wall reflecting only soft daylight and
+            a window, a calm and empty examination room.
+      - from: m3-p04
+        text:
+          en: Sugar that sticks to collagen.
+          ar-AE: السكر الذي يلتصق بالكولاجين.
+        detail:
+          en: Glycation is a slow, non-enzymatic reaction. Reducing sugars attach to
+            protein amino groups, rearrange into Amadori products and end as
+            advanced glycation end products, or AGEs.
+          ar-AE: التسكير تفاعل بطيء وغير إنزيمي؛ حيث ترتبط السكريات المختزلة بالمجموعات
+            الأمينية البروتينية، وتُعيد ترتيب نفسها لتشكل نواتج أمادوري، وتنتهي
+            بإنتاج نواتج التسكير المتقدمة، أو AGEs.
+        image:
+          src: assets/hormones-peptides-skin/today/m3-p04.jpg
+          alt:
+            en: Sugar crystals scattered on cream silk
+            ar-AE: بلورات سكر متناثرة على حرير كريمي اللون
+          prompt: Sugar crystals scattered over smooth cream silk, macro, warm side light
+            making the crystals sparkle.
+      - from: m6-p05
+        text:
+          en: Deficiency is a diagnosis. Decline is ageing.
+          ar-AE: العوز تشخيص. والتراجع شيخوخة.
+        image:
+          src: assets/hormones-peptides-skin/today/m6-p05.jpg
+          alt:
+            en: Late light moving across a plaster wall
+            ar-AE: ضوء الأصيل يتحرك عبر جدار جصي
+          prompt: The shadow of a window frame falling across a warm plaster wall in
+            late-afternoon light, a quiet sense of time passing.
+      - from: m1-p06
+        text:
+          en: Read the skin before the serum.
+          ar-AE: اقرأ الجلد قبل المصل.
+        detail:
+          en: The Aesthetic & Regenerative Endocrinology guide treats the aesthetic exam
+            as a systemic screen.
+          ar-AE: يتعامل دليل طب الغدد الصماء التجميلي والتجديدي مع الفحص التجميلي بوصفه
+            مسحاً جهازياً.
+        image:
+          src: assets/hormones-peptides-skin/today/m1-p06.jpg
+          alt:
+            en: A hand holding a magnifying loupe in window light
+            ar-AE: يد تمسك بعدسة مكبرة في ضوء النافذة
+          prompt: A hand in a clean white sleeve holding a small magnifying loupe in soft
+            window light; a serum bottle stands out of focus in the background.
+      - from: m2-p13
+        text:
+          en: Some syndromes show on the skin first.
+          ar-AE: تظهر بعض المتلازمات على الجلد أولاً.
+        detail:
+          en: A handful of inherited endocrine syndromes appear on the skin before the
+            glands declare themselves.
+          ar-AE: يظهر عدد قليل من متلازمات الغدد الصماء الوراثية على الجلد قبل أن تُفصح
+            الغدد عن عللها.
+        image:
+          src: assets/hormones-peptides-skin/today/m2-p13.jpg
+          alt:
+            en: Raking light across the skin of an upper arm
+            ar-AE: ضوء مائل ينساب عبر جلد أعلى الذراع
+          prompt: Raking early light across the skin of an upper arm, revealing its fine
+            topography like a landscape at dawn.
+      - from: m3-p02
+        text:
+          en: The skin keeps its own fat.
+          ar-AE: يحتفظ الجلد بدهونه الخاصة.
+        detail:
+          en: Beneath the dermis lies subcutaneous fat. Within the reticular dermis itself
+            sits a thinner layer, dermal white adipose tissue.
+          ar-AE: تحت الأدمة تقع الدهون تحت الجلد. وداخل الأدمة الشبكية نفسها تستقر طبقة
+            أرق، وهي النسيج الشحمي الأبيض الأدمي.
+        image:
+          src: assets/hormones-peptides-skin/today/m3-p02.jpg
+          alt:
+            en: Golden droplets suspended in clear water
+            ar-AE: قطرات ذهبية معلقة في ماء صافٍ
+          prompt: Abstract macro of golden oil droplets suspended in clear water, soft
+            warm light, gentle bokeh.
+      - from: m2-p06
+        text:
+          en: Reassure the many, refer the few.
+          ar-AE: طمئن الغالبية، وأحل القلة.
+        detail:
+          en: "When a patient asks about 'cortisol face', start with the drug history:
+            steroid creams, skin-lighteners, herbal tonics and injections."
+          ar-AE: "عندما يسأل مريض عن «وجه الكورتيزول»، ابدأ بالتاريخ الدوائي: كريمات
+            الستيرويد، ومفتحات البشرة، والمقويات العشبية، والحقن."
+        image:
+          src: assets/hormones-peptides-skin/today/m2-p06.jpg
+          alt:
+            en: A quiet clinic corridor with warm light from a door
+            ar-AE: ممر عيادة هادئ مع ضوء دافئ ينبعث من باب
+          prompt: A quiet clinic corridor at dusk, one door ajar with warm light spilling
+            across a pale floor.
+localization:
+  countries:
+    - code: AE
+      country:
+        en: United Arab Emirates
+        ar-AE: الإمارات العربية المتحدة
+      centers:
+        - United Arab Emirates
+      edition:
+        en: English
+        ar-AE: العربية — نسخة إماراتية قيد المراجعة
+      units:
+        en: As reported in each cited source
+        ar-AE: كما ورد في كل مصدر مُستشهد به
+      approval:
+        en: Regulatory notes reviewed by Fady Hannah-Shmouni, MD FRCPC
+        ar-AE: "المراجعة العربية والطبية: فادي حنّا شمعوني — بانتظار الاعتماد"
+      contextLine:
+        en: UAE federal status plus Dubai and Abu Dhabi rules with each moment
+        ar-AE: الوضع الاتحادي في دولة الإمارات العربية المتحدة بالإضافة إلى قواعد دبي
+          وأبوظبي مع كل حالة
+      status: demo-ready
+      learning:
+        locale: en
+        language: English
+        shortLabel: EN
+        direction: ltr
+        review:
+          en: "Medical review: Fady Hannah-Shmouni, MD FRCPC"
+          ar-AE: "المراجعة الطبية: Fady Hannah-Shmouni, MD FRCPC"
+    - code: US
+      country:
+        en: United States
+        ar-AE: الولايات المتحدة
+      centers:
+        - United States
+      edition:
+        en: English
+        ar-AE: الإنجليزية
+      units:
+        en: As reported in each cited source
+        ar-AE: كما ورد في كل مصدر مُستشهد به
+      approval:
+        en: Regulatory notes reviewed by Fady Hannah-Shmouni, MD FRCPC
+        ar-AE: الملاحظات التنظيمية راجعها Fady Hannah-Shmouni, MD FRCPC
+      contextLine:
+        en: FDA status and US compounding rules with each moment
+        ar-AE: الوضع التنظيمي لدى إدارة الغذاء والدواء الأمريكية (FDA) وقواعد التحضير
+          الصيدلاني في الولايات المتحدة مع كل حالة
+      status: demo-ready
+      learning:
+        locale: en
+        language: English
+        shortLabel: EN
+        direction: ltr
+        review:
+          en: "Medical review: Fady Hannah-Shmouni, MD FRCPC"
+          ar-AE: "المراجعة الطبية: Fady Hannah-Shmouni, MD FRCPC"
+    - code: GB
+      country:
+        en: United Kingdom
+        ar-AE: المملكة المتحدة
+      centers:
+        - United Kingdom
+      edition:
+        en: English
+        ar-AE: الإنجليزية
+      units:
+        en: As reported in each cited source
+        ar-AE: كما ورد في كل مصدر مُستشهد به
+      approval:
+        en: Regulatory notes reviewed by Fady Hannah-Shmouni, MD FRCPC
+        ar-AE: الملاحظات التنظيمية راجعها Fady Hannah-Shmouni, MD FRCPC
+      contextLine:
+        en: MHRA status and UK rules with each moment
+        ar-AE: الوضع التنظيمي لدى وكالة تنظيم الأدوية ومنتجات الرعاية الصحية (MHRA)
+          وقواعد المملكة المتحدة مع كل حالة
+      status: demo-ready
+      learning:
+        locale: en
+        language: English
+        shortLabel: EN
+        direction: ltr
+        review:
+          en: "Medical review: Fady Hannah-Shmouni, MD FRCPC"
+          ar-AE: "المراجعة الطبية: Fady Hannah-Shmouni, MD FRCPC"
+    - code: EU
+      country:
+        en: Another EU country
+        ar-AE: دولة أخرى في الاتحاد الأوروبي
+      centers:
+        - Another EU country
+      edition:
+        en: English
+        ar-AE: الإنجليزية
+      units:
+        en: As reported in each cited source
+        ar-AE: كما ورد في كل مصدر مُستشهد به
+      approval:
+        en: Regulatory notes reviewed by Fady Hannah-Shmouni, MD FRCPC
+        ar-AE: الملاحظات التنظيمية راجعها Fady Hannah-Shmouni, MD FRCPC
+      contextLine:
+        en: EMA status and EU-wide rules with each moment
+        ar-AE: الوضع التنظيمي لدى وكالة الأدوية الأوروبية (EMA) والقواعد المطبقة على
+          مستوى الاتحاد الأوروبي مع كل حالة
+      status: demo-ready
+      learning:
+        locale: en
+        language: English
+        shortLabel: EN
+        direction: ltr
+        review:
+          en: "Medical review: Fady Hannah-Shmouni, MD FRCPC"
+          ar-AE: "المراجعة الطبية: Fady Hannah-Shmouni, MD FRCPC"
+    - code: PT
+      country:
+        en: Portugal
+        ar-AE: البرتغال
+      centers:
+        - Portugal
+      edition:
+        en: English
+        ar-AE: الإنجليزية
+      units:
+        en: As reported in each cited source
+        ar-AE: كما ورد في كل مصدر مُستشهد به
+      approval:
+        en: Regulatory notes reviewed by Fady Hannah-Shmouni, MD FRCPC
+        ar-AE: الملاحظات التنظيمية راجعها Fady Hannah-Shmouni, MD FRCPC
+      contextLine:
+        en: INFARMED and EU status with each moment
+        ar-AE: الوضع التنظيمي لدى الهيئة الوطنية للأدوية والمنتجات الصحية في البرتغال
+          (INFARMED) والاتحاد الأوروبي مع كل حالة
+      status: demo-ready
+      learning:
+        locale: en
+        language: English
+        shortLabel: EN
+        direction: ltr
+        review:
+          en: "Medical review: Fady Hannah-Shmouni, MD FRCPC"
+          ar-AE: "المراجعة الطبية: Fady Hannah-Shmouni, MD FRCPC"
+    - code: BR
+      country:
+        en: Brazil
+        ar-AE: البرازيل
+      centers:
+        - Brazil
+      edition:
+        en: English
+        ar-AE: الإنجليزية
+      units:
+        en: As reported in each cited source
+        ar-AE: كما ورد في كل مصدر مُستشهد به
+      approval:
+        en: Regulatory notes reviewed by Fady Hannah-Shmouni, MD FRCPC
+        ar-AE: الملاحظات التنظيمية راجعها Fady Hannah-Shmouni, MD FRCPC
+      contextLine:
+        en: ANVISA status and Brazilian rules with each moment
+        ar-AE: الوضع التنظيمي لدى وكالة الرقابة الصحية البرازيلية (ANVISA) والقواعد
+          البرازيلية مع كل حالة
+      status: demo-ready
+      learning:
+        locale: en
+        language: English
+        shortLabel: EN
+        direction: ltr
+        review:
+          en: "Medical review: Fady Hannah-Shmouni, MD FRCPC"
+          ar-AE: "المراجعة الطبية: Fady Hannah-Shmouni, MD FRCPC"
+    - code: SA
+      country:
+        en: Saudi Arabia
+        ar-AE: المملكة العربية السعودية
+      centers:
+        - name: Saudi Arabia
+          labels:
+            en: Saudi Arabia
+            ar-AE: المملكة العربية السعودية
+      edition:
+        en: Arabic UAE edition with Saudi supplement
+        ar-AE: نسخة عربية إماراتية مع ملحق سعودي
+      units:
+        en: Preserve source units; use local laboratory reference intervals
+        ar-AE: حفظ وحدات المصدر واستخدام المجالات المرجعية للمختبر المحلي
+      approval:
+        en: Saudi product checks awaiting Fady review
+        ar-AE: التحقق من المنتجات السعودية بانتظار مراجعة فادي
+      contextLine:
+        en: Product-specific SFDA status; no class-wide inference
+        ar-AE: وضع كل منتج لدى هيئة الغذاء والدواء؛ دون تعميم على الفئة
+      status: blueprint
+      learning:
+        locale: ar-AE
+        language: العربية
+        shortLabel: AR
+        direction: rtl
+        review:
+          en: Review pending
+          ar-AE: المراجعة قيد الانتظار
+accreditation:
+  gcls: true
+  reviewAccessDays: 30
+  reviewers:
+    - email: d.thor@gcls.study
+      name: Dr. Dominik Thor, MSc
+      role: President · Professor of Pharmacy, Geneva College of Longevity Science
+notifications:
+  newCourse:
+    - push
+    - email
+auth:
+  tenantId: hormonaly-academy-srbsc
+  methods:
+    - password
+    - email-link
+admins:
+  - omar@hormonaly.ai
+  - omar@perceptors.ai

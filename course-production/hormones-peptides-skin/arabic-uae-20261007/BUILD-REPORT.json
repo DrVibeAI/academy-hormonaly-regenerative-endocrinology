@@ -1,0 +1,21 @@
+{
+  "sourceSha256": "6419297d6d012d8c8e5b58909e9e9f1f950443aa548ca20618017dbb0ebfa4fa",
+  "sourceVersion": "1.1.0",
+  "locale": "ar-AE",
+  "reviewOwner": "Fady Hannah-Shmouni, MD FRCPC — Fady@hormonaly.ai",
+  "localizedFields": 3935,
+  "sourceLocalizedFields": 3797,
+  "modules": 7,
+  "blocks": 180,
+  "narrationScripts": 48,
+  "filmScripts": 7,
+  "sourcePackageUnchanged": true,
+  "releaseReady": false,
+  "openGates": [
+    "Arabic linguistic and medical review",
+    "UAE/Saudi source-lock amendment review",
+    "Arabic films and captions",
+    "Media preview",
+    "Native learner acceptance and publication"
+  ]
+}

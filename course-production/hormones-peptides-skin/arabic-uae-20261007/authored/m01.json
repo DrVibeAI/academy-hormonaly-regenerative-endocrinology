@@ -1,0 +1,3080 @@
+{
+  "id": "m01",
+  "slug": "skin-as-endocrine-organ",
+  "title": {
+    "en": "The skin as an endocrine organ, and how it ages",
+    "ar-AE": "الجلد كعضو صماوي، وكيف يشيخ"
+  },
+  "eyebrow": {
+    "en": "Module 01 · 3 lessons · 25 moments · ~36 min",
+    "ar-AE": "الوحدة 01 · 3 دروس · 25 مقطعاً · ~36 دقيقة"
+  },
+  "summary": {
+    "en": "Skin senses hormones from the blood, makes several of its own, and ages in ways that change both.",
+    "ar-AE": "يستشعر الجلد الهرمونات من الدم، ويُصنّع العديد منها بنفسه، ويشيخ بطرق تُغيّر كليهما."
+  },
+  "objective": {
+    "en": "By the end, you can analyze the autonomous neuro-immuno-endocrine physiology of the skin and evaluate how local steroidogenesis, receptor expression, and cellular senescence drive structural dermal aging.",
+    "ar-AE": "بحلول النهاية، ستتمكن من تحليل الفسيولوجيا العصبية المناعية الصماوية الذاتية للجلد وتقييم كيف يؤدي تخليق الستيرويدات موضعياً، والتعبير عن المستقبلات، والشيخوخة الخلوية إلى شيخوخة الأدمة البنيوية."
+  },
+  "pillars": [
+    "physiology"
+  ],
+  "estimatedMinutes": 40,
+  "sortOrder": 1,
+  "prerequisites": [],
+  "isCapstone": false,
+  "status": "ai_draft",
+  "units": [
+    {
+      "id": "m01-story",
+      "slug": "m01-story",
+      "type": "story",
+      "title": {
+        "en": "The skin as an endocrine organ, and how it ages",
+        "ar-AE": "الجلد كعضو صماوي، وكيف يشيخ"
+      },
+      "description": {
+        "en": "Lesson 1.1 The skin as a steroidogenic, endocrine organ · Lesson 1.2 Receptor maps and what they prove · Lesson 1.3 Senescence, the SASP and the ageing dermis.",
+        "ar-AE": "الدرس 1.1 الجلد كعضو صماوي مُخلِّق للستيرويدات · الدرس 1.2 خرائط المستقبلات وما تثبته · الدرس 1.3 الشيخوخة الخلوية، والنمط الظاهري الإفرازي المرتبط بالشيخوخة (SASP)، والأدمة المتقدمة في السن."
+      },
+      "estimatedMinutes": 36,
+      "sortOrder": 1,
+      "isRequired": true,
+      "status": "ai_draft",
+      "tutorContext": "Module 1 teaches cutaneous neuro-immuno-endocrine physiology with every finding labelled by evidence type (mechanism, human evidence, regulatory status, open question). The skin is described as four immuno-endocrine units (epidermal, dermal, hypodermal, adnexal) that signal locally, via sensory nerves and via the circulation (mechanism reviews, D). Skin cells express CYP11A1, 11β-HSD1, 5α-reductase and aromatase and make cortisol, DHT and estradiol locally (cell/tissue work, D); human scalp follicles run an HPA-like loop with cortisol secretion and CRH feedback ex vivo (Ito 2005) and a GH/IGF-1 loop ex vivo (Horesh 2023); keratinocyte glucocorticoids restrain skin inflammation in mice (Phan 2021); the thyroid-like loop is mostly mouse data. Three directions: local loop; body to skin (Cushing striae, hypothyroid skin); skin to body (vitamin D3 released into the circulation, established human physiology; a skin contribution to circulating sex steroids per reviews). Refer systemic patterns promptly (violaceous striae with new hypertension or diabetes, rapid virilisation), per the Aesthetic & Regenerative Endocrinology guide. The Hormone Cell Atlas (Fei, Huang-Doran et al., Science 2026) read RNA of 379 hormone/receptor genes in ~14 million cells and nuclei from 47 tissues incl. skin; its authors call the predictions putative and hypothesis-generating: RNA is not protein, secretion or clinical effect. The guide's pearl that serum 25(OH)D falls with sunscreen use is not borne out by field trials of daily moderate-SPF sunscreen (Neale 2019, C; high SPF untested); never advise dropping sun protection. Senescence: p16-positive cells rise with age in human epidermis and dermis (C) and track with wrinkles and perceived age (Waaijer 2016, n=178, association, C); the SASP was defined in cultured cells (D); an MMP-1 collagen-fragmentation loop is shown in aged human dermis plus culture (D), with senescent cells a plausible, unproven driver; clearing senescent cells extends healthy lifespan in mice (D); human senotherapy data are small biomarker pilots (Hickson 2019 open-label n=9, D; Chung 2019 topical rapamycin exploratory RCT, C); no randomized trial with clinical skin-ageing outcomes (checked Sept 2026); the guide confines senolytics to trials. Levers with human trials: daily sunscreen (Hughes 2013, n=903, B), topical tretinoin for photoageing (GRADE A), retinol in very old skin (Kafi 2007, C). Never give doses, concentrations, regimens or sourcing; adapt 'what you do next' to the learner's role (prescriber, clinical staff, advisor) without changing evidence. No CME credit is currently offered.",
+      "tutorKeywords": [
+        "skin endocrine organ",
+        "neuro-immuno-endocrine",
+        "steroidogenesis",
+        "CYP11A1",
+        "11β-HSD1",
+        "5α-reductase",
+        "DHT",
+        "cortisol",
+        "HPA axis",
+        "hair follicle",
+        "vitamin D",
+        "sunscreen",
+        "Hormone Cell Atlas",
+        "receptor",
+        "transcriptomic",
+        "senescence",
+        "SASP",
+        "p16",
+        "senolytic",
+        "collagen",
+        "MMP",
+        "retinoid",
+        "tretinoin",
+        "Cushing",
+        "hypothyroidism"
+      ],
+      "learningObjectives": [
+        {
+          "en": "Characterize local steroidogenesis and the autonomous peripheral neuroendocrine axes operating within epidermal, dermal, hypodermal, and adnexal compartments.",
+          "ar-AE": "توصيف تخليق الستيرويدات موضعياً والمحاور العصبية الصماوية المحيطية الذاتية التي تعمل ضمن الحجيرات البشروية، والأدمية، وتحت الجلدية، والملحقة."
+        },
+        {
+          "en": "Differentiate between transcriptomic hormone receptor predictions and validated endocrine secretion across cutaneous cell lineages.",
+          "ar-AE": "التمييز بين التنبؤات الترانسكريبتومية لمستقبلات الهرمونات والإفراز الصماوي المؤكد عبر السلالات الخلوية الجلدية."
+        },
+        {
+          "en": "Assess how senescent cutaneous cell accumulation and the senescence-associated secretory phenotype (SASP) impair extracellular matrix maintenance and accelerate dermal thinning.",
+          "ar-AE": "تقييم كيف يؤدي تراكم الخلايا الجلدية الهرمة والنمط الظاهري الإفرازي المرتبط بالشيخوخة (SASP) إلى إعاقة الحفاظ على المادة الخلالية خارج الخلية وتسريع ترقق الأدمة."
+        }
+      ],
+      "citationRefs": [
+        "baker-2016-p16-clearance-mice",
+        "bikle-2014-vitamin-d",
+        "chung-2019-topical-rapamycin",
+        "coppe-2008-sasp",
+        "fei-2026-hormone-cell-atlas",
+        "fisher-2002-photoaging-mechanisms",
+        "fisher-2009-collagen-fragmentation",
+        "hannah-shmouni-2026-are",
+        "haykal-2026-dermatology-senotherapeutics",
+        "hickson-2019-senolytic-dkd-pilot",
+        "ho-dreesen-2021-skin-senescence",
+        "holick-1980-previtamin-d3",
+        "horesh-2023-hair-follicle-somatotropic",
+        "hormone-cell-atlas-portal",
+        "hughes-2013-sunscreen-skin-aging-rct",
+        "ito-2005-hair-follicle-hpa",
+        "kafi-2007-retinol-aged-skin",
+        "liu-2016-mrna-protein",
+        "mancino-2021-thyroid-epidermis",
+        "neale-2019-sunscreen-vitamin-d",
+        "phan-2021-keratinocyte-glucocorticoids",
+        "ressler-2006-p16-human-skin",
+        "roosterman-2006-neuronal-control-skin",
+        "safer-2011-thyroid-skin",
+        "shuster-1975-skin-collagen-age",
+        "sitohang-2022-tretinoin-sr",
+        "slominski-2013-skin-steroidogenesis",
+        "slominski-2025-skin-neuro-immuno-endocrinology",
+        "slominski-wortsman-2000-skin-neuroendocrinology",
+        "varani-2000-retinol-aged-skin",
+        "varani-2006-aged-fibroblast-collagen",
+        "waaijer-2016-p16-wrinkles",
+        "wang-dreesen-2018-senescence-biomarkers",
+        "xu-2018-senolytics-mice",
+        "zouboulis-2004-skin-endocrine-gland"
+      ],
+      "blocks": [
+        {
+          "id": "m1-p01",
+          "type": "title",
+          "time": "01 / 25",
+          "lead": {
+            "en": "Module 01 · The skin as an endocrine organ",
+            "ar-AE": "الوحدة 01 · الجلد كعضو صماوي"
+          },
+          "title": {
+            "en": "The skin makes its own hormones.",
+            "ar-AE": "يُنتج الجلد هرموناته الخاصة."
+          },
+          "body": {
+            "en": "This course starts with physiology, because every later question about a hormone or peptide for skin rests on it. Skin senses hormones from the blood, makes several of its own, and ages in ways that change both. In three lessons you will separate what happens locally in the skin from what the rest of the body sends in, and label each finding by the kind of evidence behind it.",
+            "ar-AE": "تبدأ هذه الدورة بالفسيولوجيا، لأن كل سؤال لاحق حول هرمون أو ببتيد للجلد يرتكز عليها. يتحسس الجلد الهرمونات الآتية من الدم، ويصنع العديد من هرموناته الخاصة، وتطرأ عليه تغيرات مرتبطة بالتقدم في العمر تؤثر في كليهما. في ثلاثة دروس، ستفصل بين ما يحدث موضعياً في الجلد وما يرسله سائر الجسم إليه، مع تصنيف كل نتيجة وفق نوع الأدلة الداعمة لها."
+          },
+          "points": [
+            {
+              "en": "1.1 The skin as a steroidogenic, endocrine organ",
+              "ar-AE": "1.1 الجلد كعضو صماوي مُخلِّق للستيرويدات"
+            },
+            {
+              "en": "1.2 Receptor maps: what a cell atlas can and cannot show",
+              "ar-AE": "1.2 خرائط المستقبلات: ما يمكن لأطلس الخلايا إظهاره وما لا يمكنه إظهاره"
+            },
+            {
+              "en": "1.3 Senescence, the SASP and the ageing dermis",
+              "ar-AE": "1.3 الشيخوخة الخلوية، والنمط الظاهري الإفرازي المرتبط بالشيخوخة (SASP)، والأدمة المتقدمة في السن"
+            }
+          ]
+        },
+        {
+          "id": "m1-opener",
+          "type": "video",
+          "lead": {
+            "en": "Module 01 · Opening film",
+            "ar-AE": "الوحدة 01 · العرض الافتتاحي"
+          },
+          "title": {
+            "en": "The skin as an endocrine organ, and how it ages",
+            "ar-AE": "الجلد كعضو صماوي، وكيف يشيخ"
+          },
+          "assetRefs": [
+            "asset-hps-m01-opener",
+            "asset-hps-m01-opener-poster"
+          ],
+          "citationRefs": [
+            "slominski-2025-skin-neuro-immuno-endocrinology",
+            "slominski-wortsman-2000-skin-neuroendocrinology",
+            "zouboulis-2004-skin-endocrine-gland",
+            "roosterman-2006-neuronal-control-skin",
+            "hannah-shmouni-2026-are"
+          ],
+          "sourceNote": "Slominski 2025 · Slominski & Wortsman 2000 · Zouboulis 2004 · Roosterman 2006 · Aesthetic & Regenerative Endocrinology, ch. 5–6",
+          "metadata": {
+            "videoMode": "player",
+            "captionsBurnedIn": true,
+            "videoTranscript": {
+              "en": "This course starts with physiology, because every later question about a hormone or peptide for skin rests on it. Skin senses hormones from the blood, makes several of its own, and ages in ways that change both. Think of the skin as a sensing organ with its own hormone supply. Researchers who study it describe four units, epidermal, dermal, hypodermal and adnexal, the last meaning hair follicles and glands. Each unit holds cells that can make hormones and mount an immune response, such as keratinocytes, fibroblasts, sebocytes, fat cells and mast cells. Signals move three ways. Neighbouring cells talk directly, sensory nerves carry messages in and out, and some products enter the blood and reach distant organs. Keep one distinction in view for the whole module. A signal that is made and used inside the skin is a local loop. A hormone that arrives from the blood, or leaves the skin for the rest of the body, is systemic signalling.",
+              "ar-AE": "تبدأ هذه الدورة بعلم وظائف الأعضاء، لأن كل سؤال لاحق حول أي هرمون أو ببتيد مخصص للجلد يستند إليها. يستشعر الجلد الهرمونات الآتية من الدم، ويُصنّع العديد من هرموناته الخاصة، وتطرأ عليه تغيرات الشيخوخة بطرق تؤثر في كليهما. انظر إلى الجلد بوصفه عضوًا حسيًا مستشعرًا ذا إمداد هرموني خاص به. يصف الباحثون الذين يدرسونه أربع وحدات: البشرة، والأدمة، وتحت الأدمة، والملحقات، ويُقصد بالأخيرة جريبات الشعر والغدد. تحتوي كل وحدة على خلايا قادرة على تصنيع الهرمونات وإطلاق استجابة مناعية، مثل الخلايا الكيراتينية، والخلايا الليفية اليافعة، والخلايا الزهمية، والخلايا الدهنية، والخلايا البدينة. وتنتقل الإشارات بثلاث طرق: تتواصل الخلايا المتجاورة بشكل مباشر، وتنقل الأعصاب الحسية الرسائل إلى الداخل والخارج، وتدخل بعض النواتج إلى مجرى الدم وتصل إلى أعضاء بعيدة. ضع تمييزًا واحدًا نُصب عينيك طوال هذا الموديل: الإشارة التي تُصنع وتُستخدم داخل الجلد تمثل حلقة موضعية، بينما الهرمون الذي يصل عبر الدم، أو يغادر الجلد إلى بقية الجسم، يمثل إشارات جهازية."
+            },
+            "script": {
+              "sources": [
+                "m1-p01 body, sentences 1–2",
+                "m1-p03 audioScript, sentences 1–8"
+              ],
+              "rule": "verbatim approved sentences only"
+            }
+          },
+          "time": "02 / 25"
+        },
+        {
+          "id": "m1-p02",
+          "type": "reflection",
+          "time": "03 / 25",
+          "lead": {
+            "en": "Your role",
+            "ar-AE": "دورك المهني"
+          },
+          "title": {
+            "en": "How will you use this course?",
+            "ar-AE": "كيف ستستفيد من هذه الدورة؟"
+          },
+          "body": {
+            "en": "The evidence and grades are the same for everyone, and regulatory notes follow the country you choose. What changes with your role, in every module, is the 'what you do next' at the end of each lesson, so it fits what your licence lets you do.",
+            "ar-AE": "الأدلة ودرجاتها متطابقة للجميع، والملاحظات التنظيمية تتبع البلد الذي تختاره. ما يتغير بتغير دورك المهني، في كل وحدة، هو فقرة «ما تفعله بعد ذلك» في نهاية كل درس، بحيث تتوافق مع ما يتيحه لك ترخيصك المهني."
+          },
+          "reflection": {
+            "prompt": {
+              "en": "Choose the one closest to your role",
+              "ar-AE": "اختر الدور الأقرب إلى ممارستك المهنية"
+            },
+            "options": [
+              {
+                "value": "prescriber",
+                "label": {
+                  "en": "I prescribe: physician, NP or PA",
+                  "ar-AE": "أمارس الوصف الدوائي: طبيب بشري، أو ممارس تمريضي متقدم (NP)، أو مساعد طبيب (PA)"
+                },
+                "response": {
+                  "en": "Each lesson now closes on the prescribing decision: assessment, referral, consent and documentation.",
+                  "ar-AE": "يُختتم كل درس الآن بقرار الوصف الدوائي: التقييم، والإحالة، والموافقة المستنيرة، والتوثيق."
+                }
+              },
+              {
+                "value": "clinical-staff",
+                "label": {
+                  "en": "I deliver treatments: RN, aesthetic nurse or injector",
+                  "ar-AE": "أقدم العلاجات: ممرض قانوني (RN)، أو ممرض تجميلي، أو ممارس حقن"
+                },
+                "response": {
+                  "en": "Each lesson now closes on what you notice, what you record and when you escalate to the prescriber.",
+                  "ar-AE": "يُختتم كل درس الآن بما تلاحظه، وما تسجله، ومتى تُصعّد الحالة إلى الممارس الواصف للدواء."
+                }
+              },
+              {
+                "value": "advisor",
+                "label": {
+                  "en": "I advise on products: pharmacist, ND or allied professional",
+                  "ar-AE": "أقدم المشورة بشأن المنتجات: صيدلي، أو ممارس طب المعالجة الطبيعية (ND)، أو أخصائي مهن صحية مساندة"
+                },
+                "response": {
+                  "en": "Each lesson now closes on what you can accurately say and when someone needs a prescriber.",
+                  "ar-AE": "يُختتم كل درس الآن بما يمكنك قوله بدقة ومتى يحتاج الشخص إلى الإحالة لممارس واصف."
+                }
+              }
+            ],
+            "inputLabel": {
+              "en": "Optional: the skin-and-hormone question patients ask you most",
+              "ar-AE": "اختياري: السؤال الأكثر تكراراً من المرضى حول الجلد والهرمونات"
+            },
+            "inputPlaceholder": {
+              "en": "For example, why skin thins after menopause",
+              "ar-AE": "على سبيل المثال، لماذا يترقق الجلد بعد انقطاع الطمث"
+            },
+            "responseLead": {
+              "en": "Set for your role",
+              "ar-AE": "تم التحديد وفقاً لدورك المهني"
+            }
+          }
+        },
+        {
+          "id": "m1-p03",
+          "type": "audio",
+          "time": "04 / 25",
+          "lead": {
+            "en": "Lesson 1.1 · Concept",
+            "ar-AE": "الدرس 1.1 · المفهوم"
+          },
+          "title": {
+            "en": "Four units, one circuit.",
+            "ar-AE": "أربع وحدات، دارة واحدة."
+          },
+          "body": {
+            "en": "Recent reviews describe the skin as a neuro-immuno-endocrine organ built from four units: epidermal, dermal, hypodermal and adnexal (hair follicles and glands). Each holds cells that can make hormones and mount an immune response. They signal to neighbouring cells, through sensory nerves, and through the blood. Most of this picture comes from cell, tissue and animal studies.",
+            "ar-AE": "تصف المراجعات الحديثة الجلد بأنه عضو عصبي مناعي صماوي مبني من أربع وحدات: البشرة، والأدمة، وتحت الجلد، والملحقات (جريبات الشعر والغدد). تضم كل وحدة خلايا قادرة على إنتاج الهرمونات وإطلاق استجابة مناعية. وتنتقل إشاراتها إلى الخلايا المجاورة، وعبر الأعصاب الحسية، وعبر مجرى الدم. وتستند معظم هذه الصورة إلى دراسات خلوية ونسيجية وحيوانية."
+          },
+          "points": [
+            {
+              "en": "Four units: epidermal, dermal, hypodermal, adnexal",
+              "ar-AE": "أربع وحدات: البشرة، والأدمة، وتحت الجلد، والملحقات"
+            },
+            {
+              "en": "Three routes: neighbour to neighbour, nerve, bloodstream",
+              "ar-AE": "ثلاثة مسارات: من خلية مجاورة إلى أخرى، وعبر العصب، وعبر مجرى الدم"
+            },
+            {
+              "en": "Mechanism register: cell, tissue and animal work",
+              "ar-AE": "سجل آلية العمل: أبحاث خلوية، ونسيجية، وحيوانية"
+            }
+          ],
+          "citationRefs": [
+            "slominski-2025-skin-neuro-immuno-endocrinology",
+            "slominski-wortsman-2000-skin-neuroendocrinology",
+            "zouboulis-2004-skin-endocrine-gland",
+            "roosterman-2006-neuronal-control-skin",
+            "hannah-shmouni-2026-are"
+          ],
+          "sourceNote": "Slominski 2025 · Slominski & Wortsman 2000 · Zouboulis 2004 · Roosterman 2006 · Aesthetic & Regenerative Endocrinology, ch. 5–6",
+          "audioBeats": [
+            {
+              "title": {
+                "en": "Four units",
+                "ar-AE": "أربع وحدات"
+              },
+              "body": {
+                "en": "Epidermis, dermis, subcutis and the adnexa each hold cells that make hormones and cells that react to them, from keratinocytes and fibroblasts to fat cells and mast cells.",
+                "ar-AE": "تضم كل من البشرة والأدمة وتحت الجلد والملحقات خلايا تُنتج الهرمونات وخلايا تستجيب لها، بدءاً من الخلايا الكيراتينية والخلايا الليفية اليافعة وصولاً إلى الخلايا الشحمية والخلايا البدينة."
+              }
+            },
+            {
+              "title": {
+                "en": "Three routes",
+                "ar-AE": "ثلاثة مسارات"
+              },
+              "body": {
+                "en": "Signals pass between neighbouring cells, along sensory nerves, and into the blood, where they can reach distant organs.",
+                "ar-AE": "تنتقل الإشارات بين الخلايا المتجاورة، وعلى طول الأعصاب الحسية، وإلى داخل الدم، حيث يمكنها الوصول إلى أعضاء بعيدة."
+              }
+            },
+            {
+              "title": {
+                "en": "What kind of evidence",
+                "ar-AE": "نوع الأدلة"
+              },
+              "body": {
+                "en": "The framework is drawn from cell, tissue and animal work. It explains how skin behaves; each finding in this module is labelled by the evidence behind it.",
+                "ar-AE": "هذا الإطار النظري مستمد من أبحاث خلوية ونسيجية وحيوانية. وهو يفسر كيف يتصرف الجلد؛ وكل نتيجة في هذه الوحدة مصنفة وفق الأدلة الداعمة لها."
+              }
+            }
+          ],
+          "metadata": {
+            "audioScript": {
+              "en": "Think of the skin as a sensing organ with its own hormone supply. Researchers who study it describe four units, epidermal, dermal, hypodermal and adnexal, the last meaning hair follicles and glands. Each unit holds cells that can make hormones and mount an immune response, such as keratinocytes, fibroblasts, sebocytes, fat cells and mast cells. Signals move three ways. Neighbouring cells talk directly, sensory nerves carry messages in and out, and some products enter the blood and reach distant organs. Keep one distinction in view for the whole module. A signal that is made and used inside the skin is a local loop. A hormone that arrives from the blood, or leaves the skin for the rest of the body, is systemic signalling. Much of what follows is mechanism, drawn from cell, tissue and animal studies, and each finding will be labelled that way.",
+              "ar-AE": "اعتبر الجلد عضواً حسياً يمتلك إمداده الهرموني الخاص. يصف الباحثون الذين يدرسونه أربع وحدات: البشرة، والأدمة، وتحت الجلد، والملحقات، ويقصد بالأخيرة جريبات الشعر والغدد. تضم كل وحدة خلايا قادرة على صنع الهرمونات وإطلاق استجابة مناعية، مثل الخلايا الكيراتينية، والخلايا الليفية اليافعة، والخلايا الدهنية الإفرازية، والخلايا الشحمية، والخلايا البدينة. تنتقل الإشارات بثلاث طرق: تتواصل الخلايا المتجاورة مباشرةً، وتنقل الأعصاب الحسية الرسائل للداخل والخارج، وتدخل بعض النواتج إلى الدم لتصل إلى أعضاء بعيدة. احتفظ بتمييز واحد حاضر في ذهنك طوال هذه الوحدة: الإشارة التي تُصنع وتُستخدم داخل الجلد هي حلقة موضعية. أما الهرمون الذي يصل عبر الدم، أو يغادر الجلد إلى بقية الجسم، فهو تأشير جهازي. يعتمد جانب كبير مما يلي على آلية العمل، المستمدة من دراسات خلوية ونسيجية وحيوانية، وسيتم تصنيف كل نتيجة وفق ذلك النمط."
+            }
+          },
+          "imageBrief": {
+            "prompt": "A cross-section of human skin drawn as a clean rectangular block, showing its four units: a thin wavy epidermis on top; a thicker dermis of loose wavy collagen fibres with a few scattered cells; a bottom layer of rounded subcutaneous fat lobules; and the adnexa — one hair follicle running obliquely down through the dermis with a small sebaceous gland beside its upper part, and one coiled sweat gland low in the dermis. Three signalling routes are drawn in violet: short curved arcs passing between neighbouring cells in the epidermis, a fine sensory nerve fibre branching up from the deep dermis toward the epidermis, and a small blood-vessel loop in the dermis whose ends run off the side of the block. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+            "aspectRatio": "16:9",
+            "styleRef": "house",
+            "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+            "assetRef": "asset-hormones-peptides-skin-image-m1-p03-img"
+          },
+          "teachingVisual": {
+            "assetRef": "asset-hormones-peptides-skin-image-m1-p03-img",
+            "alt": {
+              "en": "A cross-section of skin showing the epidermis, dermis, fat layer and a hair follicle with its glands, with signals passing between cells, along a nerve and into a blood vessel.",
+              "ar-AE": "مقطع عرضي للجلد يوضح البشرة، والأدمة، والطبقة الدهنية، وجريب الشعر مع غدده، مع مرور الإشارات بين الخلايا، وعلى امتداد العصب، وإلى داخل وعاء دموي."
+            },
+            "treatment": "cover",
+            "position": "top"
+          },
+          "assetRefs": [
+            "m1-p03-narration-ar-AE"
+          ]
+        },
+        {
+          "id": "m1-p04",
+          "type": "tool",
+          "time": "05 / 25",
+          "lead": {
+            "en": "Mechanism",
+            "ar-AE": "آلية العمل"
+          },
+          "title": {
+            "en": "A steroid factory with local axes.",
+            "ar-AE": "مصنع للستيرويدات بمحاور موضعية."
+          },
+          "body": {
+            "en": "Skin cells carry the enzymes to build steroids from cholesterol or to activate precursors arriving in the blood, and they run shortened copies of the body's central hormone axes. Each row names the evidence it rests on, because most of it comes from cells, tissue kept alive outside the body, or mice.",
+            "ar-AE": "تحمل خلايا الجلد الإنزيمات اللازمة لتخليق الستيرويدات من الكوليسترول أو لتنشيط السلائف الواصلة عبر الدم، وتدير نسخاً مصغرة من محاور الهرمونات المركزية في الجسم. يذكر كل صف الأدلة التي يستند إليها، لأن معظمها مستمد من خلايا، أو أنسجة محفوظة حية خارج الجسم، أو فئران."
+          },
+          "citationRefs": [
+            "slominski-2013-skin-steroidogenesis",
+            "zouboulis-2004-skin-endocrine-gland",
+            "ito-2005-hair-follicle-hpa",
+            "phan-2021-keratinocyte-glucocorticoids",
+            "mancino-2021-thyroid-epidermis",
+            "horesh-2023-hair-follicle-somatotropic",
+            "slominski-wortsman-2000-skin-neuroendocrinology",
+            "hannah-shmouni-2026-are"
+          ],
+          "sourceNote": "Slominski 2013 · Ito 2005 · Phan 2021 · Mancino 2021 · Horesh 2023 · Aesthetic & Regenerative Endocrinology, ch. 6",
+          "tool": {
+            "items": [
+              {
+                "label": {
+                  "en": "Steroid synthesis",
+                  "ar-AE": "تخليق الستيرويدات"
+                },
+                "value": {
+                  "en": "Cholesterol to cortisol, androgens and estrogens",
+                  "ar-AE": "من الكوليسترول إلى الكورتيزول، والأندروجينات، والإستروجينات"
+                },
+                "note": {
+                  "en": "CYP11A1 starts the chain; 11β-HSD1, 5α-reductase and aromatase activate precursors from the blood. Cell and tissue studies.",
+                  "ar-AE": "يبدأ CYP11A1 هذه السلسلة؛ وتعمل إنزيمات 11β-HSD1 و5α-reductase والأروماتاز (aromatase) على تنشيط السلائف القادمة من الدم. دراسات خلوية ونسيجية."
+                }
+              },
+              {
+                "label": {
+                  "en": "HPA-like loop",
+                  "ar-AE": "حلقة شبيهة بالمحور الوطائي-النخامي-الكظري (HPA-like loop)"
+                },
+                "value": {
+                  "en": "CRH → ACTH → cortisol, with feedback",
+                  "ar-AE": "CRH ← ACTH ← الكورتيزول، مع الارتجاع البيولوجي (feedback)"
+                },
+                "note": {
+                  "en": "Human scalp follicles kept alive in culture. Ex vivo, human tissue.",
+                  "ar-AE": "جريبات فروة الرأس البشرية المحفوظة حية في المستنبت. خارج الجسم الحي (Ex vivo)، نسيج بشري."
+                }
+              },
+              {
+                "label": {
+                  "en": "Keratinocyte glucocorticoids",
+                  "ar-AE": "القشرانيات السكرية في الخلايا الكيراتينية"
+                },
+                "value": {
+                  "en": "Set local immune tone",
+                  "ar-AE": "تحدد التوازن المناعي الموضعي"
+                },
+                "note": {
+                  "en": "Genetic deletion in mouse keratinocytes. Animal evidence.",
+                  "ar-AE": "حذف جيني في الخلايا الكيراتينية لدى الفئران. أدلة حيوانية."
+                }
+              },
+              {
+                "label": {
+                  "en": "Thyroid-like loop",
+                  "ar-AE": "حلقة شبيهة بالمحور الدرقي"
+                },
+                "value": {
+                  "en": "TRH, TSH and deiodinases → T3",
+                  "ar-AE": "TRH وTSH والديودينازات (deiodinases) ← T3"
+                },
+                "note": {
+                  "en": "Keratinocyte growth and the hair cycle. Mostly mouse models.",
+                  "ar-AE": "نمو الخلايا الكيراتينية ودورة الشعر. في الغالب نماذج فئران."
+                }
+              },
+              {
+                "label": {
+                  "en": "Somatotropic loop",
+                  "ar-AE": "الحلقة الموجهة للجسد (الحلقة السوماتوتروبية)"
+                },
+                "value": {
+                  "en": "GH and IGF-1",
+                  "ar-AE": "GH وIGF-1"
+                },
+                "note": {
+                  "en": "Human hair follicles, ex vivo.",
+                  "ar-AE": "جريبات الشعر البشرية، خارج الجسم الحي (ex vivo)."
+                }
+              },
+              {
+                "label": {
+                  "en": "Melanocortins",
+                  "ar-AE": "الميلانوكورتينات"
+                },
+                "value": {
+                  "en": "POMC → α-MSH, ACTH, β-endorphin",
+                  "ar-AE": "POMC ← α-MSH وACTH وβ-endorphin"
+                },
+                "note": {
+                  "en": "Pigment, barrier and local immune restraint. Module 05 returns to this.",
+                  "ar-AE": "التصبغ، والحاجز الجلدي، والتثبيط المناعي الموضعي. تعود الوحدة 05 إلى هذا الموضوع."
+                }
+              }
+            ],
+            "callout": {
+              "en": "A local axis explains biology. The Aesthetic & Regenerative Endocrinology guide calls it foundation, not a dosing rationale.",
+              "ar-AE": "يفسر المحور الموضعي البيولوجيا. ويصفه دليل الغدد الصماء التجميلية والتجديدية بأنه أساس علمي، وليس مبرراً لتحديد الجرعات."
+            }
+          }
+        },
+        {
+          "id": "m1-p05",
+          "type": "tool",
+          "time": "06 / 25",
+          "lead": {
+            "en": "Local or systemic",
+            "ar-AE": "موضعي أم جهازي"
+          },
+          "title": {
+            "en": "Three directions of traffic.",
+            "ar-AE": "ثلاثة اتجاهات لحركة الإشارات."
+          },
+          "body": {
+            "en": "Hormone signals in skin run in three directions. Some are made and used in the same patch of skin. Some arrive from the blood. A few leave the skin and act on the rest of the body. Knowing which one you are looking at decides whether the answer lies in the skin or in a systemic assessment.",
+            "ar-AE": "تسير الإشارات الهرمونية في الجلد في ثلاثة اتجاهات. فبعضها يُصنَّع ويُستخدَم في نفس الرقعة من الجلد. وبعضها يصل عن طريق الدم. بينما يغادر القليل منها الجلد ليؤثر على بقية أجزاء الجسم. وتحديد أيٍّ منها تفحصه يحدد ما إذا كان الحل يكمن في الجلد أم في تقييم جهازي شامل."
+          },
+          "citationRefs": [
+            "slominski-2025-skin-neuro-immuno-endocrinology",
+            "phan-2021-keratinocyte-glucocorticoids",
+            "ito-2005-hair-follicle-hpa",
+            "holick-1980-previtamin-d3",
+            "bikle-2014-vitamin-d",
+            "slominski-2013-skin-steroidogenesis",
+            "zouboulis-2004-skin-endocrine-gland",
+            "safer-2011-thyroid-skin",
+            "hannah-shmouni-2026-are"
+          ],
+          "sourceNote": "Slominski 2025 · Phan 2021 · Ito 2005 · Holick 1980 · Bikle 2014 · Safer 2011 · Aesthetic & Regenerative Endocrinology, ch. 5–7",
+          "tool": {
+            "items": [
+              {
+                "label": {
+                  "en": "Local loop",
+                  "ar-AE": "حلقة موضعية"
+                },
+                "value": {
+                  "en": "Made and used in the skin",
+                  "ar-AE": "تُصنَّع وتُستخدَم داخل الجلد"
+                },
+                "note": {
+                  "en": "Between neighbouring cells, back on the same cell, or inside it",
+                  "ar-AE": "بين الخلايا المجاورة، أو بالتأثير الارتجاعي على نفس الخلية، أو داخلها"
+                }
+              },
+              {
+                "label": {
+                  "en": "Body to skin",
+                  "ar-AE": "من الجسم إلى الجلد"
+                },
+                "value": {
+                  "en": "A circulating hormone acting on skin",
+                  "ar-AE": "هرمون جائل في الدورة الدموية يؤثر على الجلد"
+                },
+                "note": {
+                  "en": "The skin finding can be the visible sign of a systemic disorder",
+                  "ar-AE": "قد تكون العلامة الجلدية هي المؤشر المرئي لاضطراب جهازي"
+                }
+              },
+              {
+                "label": {
+                  "en": "Skin to body",
+                  "ar-AE": "من الجلد إلى الجسم"
+                },
+                "value": {
+                  "en": "A skin product entering the circulation",
+                  "ar-AE": "منتج جلدي يدخل إلى الدورة الدموية"
+                },
+                "note": {
+                  "en": "The skin acting as an endocrine gland for other organs",
+                  "ar-AE": "يعمل الجلد كغدة صماء للأعضاء الأخرى"
+                }
+              }
+            ],
+            "callout": {
+              "en": "Before you treat a skin finding, decide which direction it runs.",
+              "ar-AE": "قبل علاج أي علامة جلدية، حدد الاتجاه الذي تسلكه الإشارة."
+            }
+          },
+          "interaction": {
+            "kind": "quickfire",
+            "title": {
+              "en": "Which direction?",
+              "ar-AE": "أي اتجاه؟"
+            },
+            "prompt": {
+              "en": "One finding at a time: which way does the signal run?",
+              "ar-AE": "علامة تلو الأخرى: في أي اتجاه تسري الإشارة؟"
+            },
+            "labels": [
+              {
+                "value": "local",
+                "label": {
+                  "en": "Local loop",
+                  "ar-AE": "حلقة موضعية"
+                },
+                "tone": "neutral"
+              },
+              {
+                "value": "in",
+                "label": {
+                  "en": "Body to skin",
+                  "ar-AE": "من الجسم إلى الجلد"
+                },
+                "tone": "neutral"
+              },
+              {
+                "value": "out",
+                "label": {
+                  "en": "Skin to body",
+                  "ar-AE": "من الجلد إلى الجسم"
+                },
+                "tone": "neutral"
+              }
+            ],
+            "items": [
+              {
+                "id": "keratinocyte-cortisol",
+                "label": {
+                  "en": "Keratinocytes make cortisol that restrains immune cells in the same patch of skin",
+                  "ar-AE": "تنتج الخلايا الكيراتينية الكورتيزول الذي يثبط الخلايا المناعية في الرقعة الجلدية ذاتها"
+                },
+                "answer": "local",
+                "why": {
+                  "en": "Local loop. Made and used where it is produced; the functional proof comes from mice that cannot make it in keratinocytes and develop skin inflammation.",
+                  "ar-AE": "حلقة موضعية. يُصنَّع ويُستخدَم في موضع إنتاجه؛ ويأتي الدليل الوظيفي من فئران تفتقر إلى القدرة على تصنيعه في الخلايا الكيراتينية فتصاب بالتهاب جلدي."
+                }
+              },
+              {
+                "id": "vitamin-d3",
+                "label": {
+                  "en": "UVB turns 7-dehydrocholesterol into vitamin D3, which the blood carries to the liver",
+                  "ar-AE": "تحول الأشعة فوق البنفسجية من النوع B (UVB) مركب 7-ديهيدروكوليسترول إلى فيتامين D3، والذي ينقله الدم إلى الكبد"
+                },
+                "answer": "out",
+                "why": {
+                  "en": "Skin to body. Vitamin D3 made in the skin is released into the circulation and activated elsewhere. Established human physiology.",
+                  "ar-AE": "من الجلد إلى الجسم. يُفرز فيتامين D3 المُصنَّع في الجلد إلى الدورة الدموية ويتم تنشيطه في مكان آخر. وهي فسيولوجيا بشرية مثبتة ومستقرة."
+                }
+              },
+              {
+                "id": "cushing-skin",
+                "label": {
+                  "en": "Violaceous striae, thin skin and easy bruising in Cushing syndrome",
+                  "ar-AE": "خطوط بنفسجية (فزر بنفسجية)، وترقق الجلد وسهولة التكدم في متلازمة كوشينغ"
+                },
+                "answer": "in",
+                "why": {
+                  "en": "Body to skin. Systemic cortisol excess acting on the dermis. The Aesthetic & Regenerative Endocrinology guide lists suspected Cushing syndrome as a reason to refer promptly.",
+                  "ar-AE": "من الجسم إلى الجلد. فرط الكورتيزول الجهازي يؤثر على الأدمة. ويُدرج دليل الغدد الصماء التجميلية والتجديدية الاشتباه في متلازمة كوشينغ كسبب للإحالة الفورية."
+                }
+              },
+              {
+                "id": "follicle-cortisol",
+                "label": {
+                  "en": "Scalp hair follicles kept alive in culture secrete cortisol, then switch off their own CRH",
+                  "ar-AE": "تفرز جريبات شعر فروة الرأس المحفوظة حية في المزرعة الكورتيزول، ثم تثبط الهرمون المطلق لموجهة القشرة (CRH) الخاص بها"
+                },
+                "answer": "local",
+                "why": {
+                  "en": "Local loop, with its own feedback, running with no blood supply or nerves attached. Human tissue, ex vivo.",
+                  "ar-AE": "حلقة موضعية، ذات تغذية راجعة خاصة بها، تعمل دون تروية دموية أو اتصال عصبي. نسيج بشري، خارج الجسم الحي (ex vivo)."
+                }
+              },
+              {
+                "id": "sex-steroid-supply",
+                "label": {
+                  "en": "Skin converts circulating precursors into androgens and estrogens that add to the body's supply",
+                  "ar-AE": "يحول الجلد السلائف الجائلة في الدورة الدموية إلى أندروجينات وإستروجينات تعزز إمداد الجسم بها"
+                },
+                "answer": "out",
+                "why": {
+                  "en": "Skin to body. Reviews describe a skin contribution to circulating sex steroids, more so in older people; the evidence is mainly biochemical.",
+                  "ar-AE": "من الجلد إلى الجسم. تصف المراجعات مساهمة الجلد في الستيرويدات الجنسية الجائلة في الدورة الدموية، وتزداد هذه المساهمة لدى كبار السن؛ والأدلة كيميائية حيوية بشكل رئيسي."
+                }
+              },
+              {
+                "id": "hypothyroid-skin",
+                "label": {
+                  "en": "Dry, coarse skin and myxoedema in hypothyroidism",
+                  "ar-AE": "جلد جاف وخشن ووذمة مخاطية في قصور الغدة الدرقية"
+                },
+                "answer": "in",
+                "why": {
+                  "en": "Body to skin. Circulating thyroid hormone sets epidermal turnover and dermal matrix; the skin signs track the systemic deficit.",
+                  "ar-AE": "من الجسم إلى الجلد. يحدد هرمون الغدة الدرقية الجائل في الدورة الدموية معدل تجدد البشرة والمطرس الأدمي؛ وتتبع العلامات الجلدية هذا القصور الجهازي."
+                }
+              },
+              {
+                "id": "follicle-dht",
+                "label": {
+                  "en": "Scalp follicles convert testosterone to DHT, which shrinks susceptible follicles",
+                  "ar-AE": "تحول جريبات فروة الرأس التستوستيرون إلى ديهيدروتستوستيرون (DHT)، مما يؤدي إلى تقليص حجم الجريبات القابلة للتأثر"
+                },
+                "answer": "local",
+                "why": {
+                  "en": "Local loop. 5α-reductase in the pilosebaceous unit makes DHT where it acts; the guide names it the substrate of acne, androgenetic alopecia and hirsutism.",
+                  "ar-AE": "حلقة موضعية. ينتج إنزيم مختزلة الألفا-5 (5α-reductase) في الوحدة الشعرية الزهمية مركب DHT في موضع تأثيره؛ ويحدده الدليل بوصفه الأساس المرضي لحب الشباب، والثعلبة الأندروجينية، والشعرانية."
+                }
+              }
+            ],
+            "done": {
+              "en": "Seven placed. Three local loops, two signals the skin sends out, and two it receives.",
+              "ar-AE": "تم تصنيف الحالات السبع. ثلاث حلقات موضعية، وإشارتان يرسلهما الجلد، وإشارتان يستقبلهما."
+            },
+            "citationRefs": [
+              "phan-2021-keratinocyte-glucocorticoids",
+              "ito-2005-hair-follicle-hpa",
+              "holick-1980-previtamin-d3",
+              "slominski-2013-skin-steroidogenesis",
+              "zouboulis-2004-skin-endocrine-gland",
+              "safer-2011-thyroid-skin",
+              "hannah-shmouni-2026-are"
+            ],
+            "source": "authored:2026-09-24 from m1-p05.tool.items + registry m01 (claims c-m01-03, -04, -06, -07, -08)"
+          }
+        },
+        {
+          "id": "m1-x01",
+          "type": "tool",
+          "time": "07 / 25",
+          "lead": {
+            "en": "Practice",
+            "ar-AE": "تطبيق سريري"
+          },
+          "title": {
+            "en": "An HPA-like loop inside the follicle.",
+            "ar-AE": "حلقة شبيهة بالمحور الوطائي-النخامي-الكظري (HPA) داخل الجريب."
+          },
+          "body": {
+            "en": "Human scalp follicles kept alive in culture run a shortened copy of the body's central hormone axis.",
+            "ar-AE": "تُشغّل جريبات فروة الرأس البشرية المحفوظة حية في المزرعة نسخة مصغرة من المحور الهرموني المركزي للجسم."
+          },
+          "citationRefs": [
+            "ito-2005-hair-follicle-hpa",
+            "slominski-2013-skin-steroidogenesis",
+            "hannah-shmouni-2026-are"
+          ],
+          "sourceNote": "Ito 2005 · Slominski 2013 · Aesthetic & Regenerative Endocrinology, ch. 6",
+          "interaction": {
+            "kind": "sequence",
+            "title": {
+              "en": "From CRH to cortisol, and back",
+              "ar-AE": "من CRH إلى الكورتيزول، والعكس"
+            },
+            "prompt": {
+              "en": "Put the follicle's loop in order, from the first signal to the feedback.",
+              "ar-AE": "رتب حلقة الجريب بالتسلسل، بدءاً من الإشارة الأولى وصولاً إلى التغذية الراجعة."
+            },
+            "steps": [
+              {
+                "id": "crh",
+                "label": {
+                  "en": "CRH",
+                  "ar-AE": "CRH"
+                },
+                "why": {
+                  "en": "First. The loop opens with CRH; the skin runs shortened copies of the body's central hormone axes.",
+                  "ar-AE": "أولاً. تبدأ الحلقة بالهرمون المطلق لموجهة القشرة (CRH)؛ إذ يُشغّل الجلد نسخاً مصغرة من المحاور الهرمونية المركزية للجسم."
+                }
+              },
+              {
+                "id": "acth",
+                "label": {
+                  "en": "ACTH",
+                  "ar-AE": "ACTH"
+                },
+                "why": {
+                  "en": "Second. CRH leads to ACTH, the order of the HPA axis this loop is named after.",
+                  "ar-AE": "ثانياً. يؤدي CRH إلى ACTH، وهو تسلسل محور HPA نفسه الذي سُميت هذه الحلقة تيمناً به."
+                }
+              },
+              {
+                "id": "cortisol",
+                "label": {
+                  "en": "Cortisol",
+                  "ar-AE": "الكورتيزول"
+                },
+                "why": {
+                  "en": "Third. The follicles make cortisol themselves, in human tissue kept alive outside the body.",
+                  "ar-AE": "ثالثاً. تُصنّع الجريبات الكورتيزول بنفسها، في نسيج بشري محفوظ حياً خارج الجسم."
+                }
+              },
+              {
+                "id": "feedback",
+                "label": {
+                  "en": "Feedback: the follicle's own CRH switched off",
+                  "ar-AE": "التغذية الراجعة: تثبيط الـ CRH الخاص بالجريب"
+                },
+                "why": {
+                  "en": "Last. The loop runs with feedback: the follicles switch off their own CRH. Made and used inside the skin, it is a local loop.",
+                  "ar-AE": "أخيراً. تكتمل الدورة بالتغذية الراجعة: تُثبّط الجريبات إنتاج CRH الخاص بها. ونظراً لتصنيعه واستخدامه داخل الجلد، فإنه يُعد حلقة موضعية."
+                }
+              }
+            ],
+            "done": {
+              "en": "CRH, ACTH, cortisol, then feedback: a shortened copy of the central axis, running in human follicles kept alive in culture.",
+              "ar-AE": "CRH، ثم ACTH، ثم الكورتيزول، تليها التغذية الراجعة: نسخة مصغرة من المحور المركزي، تعمل في جريبات بشرية محفوظة حية في المزرعة."
+            },
+            "citationRefs": [
+              "ito-2005-hair-follicle-hpa",
+              "slominski-2013-skin-steroidogenesis",
+              "hannah-shmouni-2026-are"
+            ],
+            "source": "authored:2026-09-25 from m1-p04 (HPA-like loop row) + m1-p03 (local loop) + registry m01 (claim c-m01-03)",
+            "hedge": {
+              "en": "Ex vivo, human tissue",
+              "ar-AE": "خارج الجسم الحي (ex vivo)، نسيج بشري"
+            }
+          },
+          "metadata": {
+            "activity": {
+              "version": "1.1",
+              "sources": [
+                "m1-p04 tool, row 'HPA-like loop', value: 'CRH → ACTH → cortisol, with feedback'",
+                "m1-p04 tool, row 'HPA-like loop', note, sentences 1–2",
+                "m1-p04 body, sentences 1–2",
+                "m1-p03 audioScript, sentence 7",
+                "m1-p05 interaction item 'follicle-cortisol', label (wording of the feedback step, 'switch off their own CRH'; claim c-m01-03 is located at m1-p04)"
+              ]
+            }
+          }
+        },
+        {
+          "id": "m1-p06",
+          "type": "audio",
+          "time": "08 / 25",
+          "lead": {
+            "en": "What changes in practice",
+            "ar-AE": "ما الذي يتغير في الممارسة السريرية"
+          },
+          "title": {
+            "en": "Read the skin before the serum.",
+            "ar-AE": "اقرأ الجلد قبل المصل."
+          },
+          "body": {
+            "en": "The Aesthetic & Regenerative Endocrinology guide treats the aesthetic exam as a systemic screen. Sudden thinning and easy bruising suggest cortisol excess; coarse, dry, cool skin suggests hypothyroidism; new acanthosis nigricans flags insulin resistance. It lists violaceous striae with new hypertension or diabetes, and rapidly progressive virilisation, among reasons to refer promptly to endocrinology. Local skin biology explains how skin behaves; it does not justify prescribing a hormone.",
+            "ar-AE": "يتعامل دليل الغدد الصماء التجميلية والتجديدية مع الفحص التجميلي بوصفه مسحاً جهازياً. فالترقق المفاجئ وسهولة التكدم يشيران إلى فرط الكورتيزول؛ والجلد الخشن والجاف والبارد يشير إلى قصور الغدة الدرقية؛ والظهور الحديث للشواك الأسود يُنذر بمقاومة الإنسولين. ويُدرج الدليل الخطوط البنفسجية المترافقة مع ظهور حديث لارتفاع ضغط الدم أو داء السكري، وظهور الاسترجال المتسارع، ضمن أسباب الإحالة العاجلة إلى اختصاصي الغدد الصماء. تشرح بيولوجيا الجلد الموضعية آلية استجابة الجلد وتصرفه، لكنها لا تبرر وصف الهرمونات."
+          },
+          "points": [
+            {
+              "en": "A skin sign can be the first sign of a systemic disorder",
+              "ar-AE": "قد تكون العلامة الجلدية أول علامة على اضطراب جهازي"
+            },
+            {
+              "en": "Some patterns need prompt endocrine referral",
+              "ar-AE": "تتطلب بعض الأنماط إحالة فورية إلى أخصائي الغدد الصماء"
+            },
+            {
+              "en": "Local loops explain biology; they do not justify treatment",
+              "ar-AE": "الحلقات الموضعية تفسر البيولوجيا؛ لكنها لا تبرر العلاج"
+            }
+          ],
+          "citationRefs": [
+            "hannah-shmouni-2026-are",
+            "safer-2011-thyroid-skin",
+            "slominski-2013-skin-steroidogenesis"
+          ],
+          "sourceNote": "Aesthetic & Regenerative Endocrinology, ch. 5 clinical pearl and referral list · Safer 2011",
+          "audioBeats": [
+            {
+              "title": {
+                "en": "The exam as a screen",
+                "ar-AE": "الفحص السريري كأداة مسح"
+              },
+              "body": {
+                "en": "Thinning and bruising, coarse dry skin, new acanthosis nigricans: each points to a systemic axis before it points to a serum.",
+                "ar-AE": "ترقق الجلد وظهور الكدمات، والجلد الخشن الجاف، والشواك الأسود حديث الظهور: يشير كل منها إلى محور جهازي قبل أن يشير إلى مصل موضعي (سيروم)."
+              }
+            },
+            {
+              "title": {
+                "en": "When to refer",
+                "ar-AE": "متى ينبغي الإحالة"
+              },
+              "body": {
+                "en": "The guide lists violaceous striae with new hypertension or diabetes, rapid virilisation and signs of an endocrine tumour as reasons to refer promptly.",
+                "ar-AE": "يورد الدليل الفزر البنفسجية المصحوبة بارتفاع ضغط الدم أو داء السكري حديثي الظهور، والتذكير السريع، وعلامات وجود ورم صماوي بوصفها أسباباً تستدعي الإحالة الفورية."
+              }
+            },
+            {
+              "title": {
+                "en": "Where local biology fits",
+                "ar-AE": "موضع البيولوجيا الموضعية وسياقها"
+              },
+              "body": {
+                "en": "Local loops explain how skin behaves day to day. The guide calls them foundation, never a reason to dose anyone with a hormone.",
+                "ar-AE": "تفسر الحلقات الموضعية سلوك الجلد يوماً بعد يوم. ويصفها الدليل بأنها بيولوجيا أساسية، وليست بأي حال مبرراً لإعطاء جرعة هرمونية لأي مريض."
+              }
+            }
+          ],
+          "metadata": {
+            "audioScript": {
+              "en": "Picture the consultation where a patient asks about thinning, bruising skin. The Aesthetic and Regenerative Endocrinology guide asks you to read that skin as a window on the whole endocrine system before reaching for a serum. Sudden thinning with easy bruising suggests cortisol excess. Coarse, dry, cool skin suggests an underactive thyroid. New acanthosis nigricans points to insulin resistance. The guide lists violaceous striae with new hypertension or diabetes, rapidly progressive virilisation, and signs of an endocrine tumour as reasons to refer promptly to endocrinology. The local loops from the last two moments explain how skin behaves day to day. They are foundation biology, and the guide is explicit that they are no rationale for dosing anyone with a hormone. Whatever your role, a systemic pattern in the skin gets a systemic answer.",
+              "ar-AE": "تخيل استشارة تسأل فيها مريضة عن ترقق الجلد وسهولة تعرضه للكدمات. يطلب منك دليل الغدد الصماء التجميلية والتجديدية أن تنظر إلى ذلك الجلد كنافذة على جهاز الغدد الصماء بأكمله قبل اللجوء إلى مصل موضعي (سيروم). يشير الترقق المفاجئ المصحوب بكدمات سهلة الظهور إلى فرط الكورتيزول. ويوحي الجلد الخشن والجاف والبارد بقصور نشاط الغدة الدرقية. بينما يشير الشواك الأسود حديث الظهور إلى مقاومة الأنسولين. ويورد الدليل الفزر البنفسجية المصحوبة بارتفاع ضغط الدم أو داء السكري حديثي الظهور، والتذكير سريع الترقي، وعلامات وجود ورم صماوي، بوصفها أسباباً تستوجب الإحالة الفورية إلى اختصاصي الغدد الصماء. وتفسر الحلقات الموضعية من الجزأين السابقين كيفية تصرف الجلد يوماً بعد يوم؛ فهي بيولوجيا أساسية، ويؤكد الدليل بوضوح أنها لا تمثل مبرراً لإعطاء جرعة هرمونية لأي شخص. وأياً كان دورك السريري، فإن النمط الجهازي الذي يظهر على الجلد يتطلب حلاً جهازياً."
+            },
+            "variants": {
+              "audienceLevel": {
+                "prescriber": {
+                  "en": "When a skin pattern suggests a systemic disorder, assess or refer before any cosmetic plan, and record that you considered it. Local skin biology is no basis for prescribing a hormone for appearance.",
+                  "ar-AE": "عندما يشير نمط جلدي إلى اضطراب جهازي، قم بإجراء تقييم أو أحِل المريض قبل وضع أي خطة تجميلية، ووثق أنك وضعت ذلك في الحسبان. لا تشكل البيولوجيا الموضعية للجلد أساساً لوصف هرمون لأغراض المظهر الجمالي."
+                },
+                "clinical-staff": {
+                  "en": "If you see new striae, rapid bruising, sudden hair change or signs of virilisation, record them and raise them with the prescriber before the next treatment.",
+                  "ar-AE": "إذا لاحظت ظهور فزر جديدة، أو كدمات سريعة، أو تغيراً مفاجئاً في الشعر، أو علامات تذكير، فقم بتوثيقها ومناقشتها مع الواصف المخول قبل العلاج التالي."
+                },
+                "advisor": {
+                  "en": "If a client's skin change comes with new systemic symptoms, suggest they see a prescriber before trying another product. A serum cannot answer a systemic question.",
+                  "ar-AE": "إذا ترافق التغير في جلد المتعامل مع أعراض جهازية جديدة، فاقترح عليه مراجعة ممارس مخول بالوصف قبل تجربة منتج آخر؛ فالمصل الموضعي (السيروم) لا يمكنه معالجة مسألة جهازية."
+                }
+              }
+            }
+          },
+          "imageBrief": {
+            "prompt": "Three pairs side by side in a row, with generous space between them and no body outline. Each pair is a round magnifying window showing a patch of skin surface, joined by a short vertical ink line to one small gland drawn in violet directly beneath it. First pair: thin, translucent skin with a faint bruise, above an adrenal gland capping the top of a kidney. Second pair: coarse, dry skin with fine scaling, above the butterfly-shaped thyroid gland. Third pair: velvety, darker, folded skin, above the pancreas. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+            "aspectRatio": "16:9",
+            "styleRef": "house",
+            "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+            "assetRef": "asset-hormones-peptides-skin-image-m1-p06-img"
+          },
+          "teachingVisual": {
+            "assetRef": "asset-hormones-peptides-skin-image-m1-p06-img",
+            "alt": {
+              "en": "Three magnified patches of skin — thin with a bruise, coarse and dry, velvety and dark — each linked to the gland it points to: an adrenal gland, the thyroid and the pancreas.",
+              "ar-AE": "ثلاث بقع مكبرة من الجلد — رقيقة مع كدمة، خشنة وجافة، مخملية وداكنة — ترتبط كل منها بالغدة التي تشير إليها: الغدة الكظرية، والغدة الدرقية، والبنكرياس."
+            },
+            "treatment": "cover",
+            "position": "top"
+          },
+          "assetRefs": [
+            "m1-p06-narration-ar-AE"
+          ]
+        },
+        {
+          "id": "m1-x02",
+          "type": "tool",
+          "time": "09 / 25",
+          "lead": {
+            "en": "Practice",
+            "ar-AE": "تطبيق سريري"
+          },
+          "title": {
+            "en": "'Which serum for my dry skin?'",
+            "ar-AE": "'أي سيروم يناسب جلدي الجاف؟'"
+          },
+          "body": {
+            "en": "A fictional case in three decisions, built from this lesson's guidance.",
+            "ar-AE": "حالة افتراضية تتضمن ثلاثة قرارات، مبنية على إرشادات هذا الدرس."
+          },
+          "citationRefs": [
+            "hannah-shmouni-2026-are",
+            "safer-2011-thyroid-skin",
+            "mancino-2021-thyroid-epidermis",
+            "slominski-2013-skin-steroidogenesis"
+          ],
+          "sourceNote": "Fictional case · Aesthetic & Regenerative Endocrinology, ch. 5–6 · Safer 2011 · Mancino 2021 · Slominski 2013",
+          "interaction": {
+            "kind": "branching",
+            "title": {
+              "en": "Dry skin, or a thyroid question?",
+              "ar-AE": "جلد جاف، أم مسألة مرتبطة بالغدة الدرقية؟"
+            },
+            "prompt": {
+              "en": "Work through her visit one decision at a time.",
+              "ar-AE": "تعامل مع زيارتها خطوة بخطوة عبر اتخاذ قرار واحد في كل مرة."
+            },
+            "setup": {
+              "en": "Fictional case. A 44-year-old asks which serum would help her skin. Over the past year it has become coarse, dry and cool.",
+              "ar-AE": "حالة افتراضية. سيدة تبلغ من العمر 44 عاماً تسأل عن السيروم الذي قد يفيد جلدها؛ إذ أصبح على مدار العام الماضي خشناً وجافاً وبارداً."
+            },
+            "start": "start",
+            "nodes": [
+              {
+                "id": "start",
+                "prompt": {
+                  "en": "What do you do first?",
+                  "ar-AE": "ما الإجراء الأول الذي تتخذه؟"
+                },
+                "options": [
+                  {
+                    "value": "richer-serum",
+                    "label": {
+                      "en": "Suggest a richer serum and see how her skin responds.",
+                      "ar-AE": "اقتراح سيروم ذي قوام أغنى ومراقبة استجابة جلدها."
+                    },
+                    "why": {
+                      "en": "That reaches for a serum first. The guide asks you to read the skin as a window on the whole endocrine system before reaching for a serum.",
+                      "ar-AE": "هذا الإجراء يلجأ إلى السيروم أولاً. في حين يطلب منك الدليل النظر إلى الجلد كنافذة على كامل جهاز الغدد الصماء قبل اللجوء إلى أي سيروم."
+                    }
+                  },
+                  {
+                    "value": "read-as-screen",
+                    "label": {
+                      "en": "Read the change as a possible sign of an underactive thyroid, before any product.",
+                      "ar-AE": "تفسير هذا التغير بوصفه علامة محتملة لقصور نشاط الغدة الدرقية، قبل استخدام أي منتج."
+                    },
+                    "why": {
+                      "en": "Right. Coarse, dry, cool skin suggests an underactive thyroid, and the guide treats the aesthetic exam as a systemic screen.",
+                      "ar-AE": "صحيح. يوحي الجلد الخشن والجاف والبارد بوجود قصور في نشاط الغدة الدرقية، ويتعامل الدليل مع الفحص التجميلي بوصفه مسحاً استقصائياً جهازياً."
+                    },
+                    "correct": true,
+                    "next": "n2"
+                  },
+                  {
+                    "value": "skin-alone",
+                    "label": {
+                      "en": "Tell her dry skin is a problem for the skin alone.",
+                      "ar-AE": "إخبارها بأن جفاف الجلد يمثل مشكلة جلدية بحتة."
+                    },
+                    "why": {
+                      "en": "A skin finding can be the visible sign of a systemic disorder, and knowing which way the signal runs decides whether the answer lies in the skin or in a systemic assessment.",
+                      "ar-AE": "قد تكون العلامة الجلدية مؤشراً مرئياً لاضطراب جهازي، ومعرفة اتجاه الإشارة يحدد ما إذا كان الحل يكمن في الجلد نفسه أم في إجراء تقييم جهازي."
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "n2",
+                "prompt": {
+                  "en": "Her skin suggests an underactive thyroid. What comes before any cosmetic plan?",
+                  "ar-AE": "يشير جلدها إلى قصور محتمل في نشاط الغدة الدرقية. ما الذي ينبغي أن يسبق أي خطة تجميلية؟"
+                },
+                "options": [
+                  {
+                    "value": "systemic-answer",
+                    "label": {
+                      "en": "A systemic answer: a prescriber assesses or refers her, and the discussion is recorded.",
+                      "ar-AE": "حل جهازي: يقوم ممارس مخول بالوصف بتقييم حالتها أو إحالتها، مع توثيق هذه المناقشة."
+                    },
+                    "why": {
+                      "en": "Right. Whatever your role, a systemic pattern in the skin gets a systemic answer, before any cosmetic plan.",
+                      "ar-AE": "صحيح. أياً كان دورك، فإن النمط الجهازي على الجلد يتطلب حلاً جهازياً قبل وضع أي خطة تجميلية."
+                    },
+                    "correct": true,
+                    "next": "n3"
+                  },
+                  {
+                    "value": "serum-first",
+                    "label": {
+                      "en": "Start the serum now, and look at her thyroid only if it fails.",
+                      "ar-AE": "البدء بالسيروم الآن، والتحقق من حالة الغدة الدرقية فقط في حال عدم استجابتها."
+                    },
+                    "why": {
+                      "en": "A serum cannot answer a systemic question. The pattern is assessed or referred before any cosmetic plan.",
+                      "ar-AE": "لا يمكن للمصل الموضعي (السيروم) الإجابة عن مسألة جهازية. يجب تقييم النمط أو إحالته قبل الشروع في أي خطة تجميلية."
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "n3",
+                "prompt": {
+                  "en": "She has read that skin runs its own thyroid-like loop and asks for a cream to restore it. What do you tell her?",
+                  "ar-AE": "لقد قرأت أن الجلد يحتوي على حلقة خاصة به شبيهة بالحلقة الدرقية، وتطلب كريماً لاستعادتها. ماذا تقول لها؟"
+                },
+                "options": [
+                  {
+                    "value": "cream-too",
+                    "label": {
+                      "en": "That a cream is reasonable alongside the assessment, because the loop is real.",
+                      "ar-AE": "أن استخدام الكريم أمر معقول إلى جانب التقييم، لأن هذه الحلقة حقيقية."
+                    },
+                    "why": {
+                      "en": "The guide is explicit that local loops are no rationale for dosing anyone with a hormone, and this one rests mostly on mouse models.",
+                      "ar-AE": "يؤكد الدليل بوضوح أن الحلقات الموضعية لا تمثل مبرراً لإعطاء أي شخص جرعة هرمونية، فضلاً عن أن هذه الحلقة تستند في الغالب إلى نماذج من الفئران."
+                    }
+                  },
+                  {
+                    "value": "no-loops",
+                    "label": {
+                      "en": "That skin has no hormone loops of its own.",
+                      "ar-AE": "أن الجلد لا يحتوي على حلقات هرمونية خاصة به."
+                    },
+                    "why": {
+                      "en": "Skin does run shortened copies of the body's central hormone axes. They explain how skin behaves; they do not justify prescribing a hormone.",
+                      "ar-AE": "يحتوي الجلد بالفعل على نسخ مصغرة من محاور الهرمونات المركزية في الجسم؛ وهي تفسر سلوك الجلد، لكنها لا تبرر وصف هرمون."
+                    }
+                  },
+                  {
+                    "value": "foundation",
+                    "label": {
+                      "en": "That the loop rests mostly on mouse models, and that local loops explain biology but are no reason to dose anyone with a hormone.",
+                      "ar-AE": "أن هذه الحلقة تستند أساساً إلى نماذج الفئران، وأن الحلقات الموضعية تفسر البيولوجيا لكنها لا تشكل سبباً لإعطاء أي مريض جرعة هرمونية."
+                    },
+                    "why": {
+                      "en": "Right. The skin's thyroid-like loop comes mostly from mouse models, and the guide calls a local axis foundation, not a dosing rationale.",
+                      "ar-AE": "صحيح. إن الحلقة الجلدية الشبيهة بالحلقة الدرقية مستمدة في الغالب من نماذج الفئران، ويعدّ الدليل المحور الموضعي أساساً بيولوجياً وليس مبرراً لتحديد الجرعات العلاجية."
+                    },
+                    "correct": true
+                  }
+                ]
+              }
+            ],
+            "done": {
+              "en": "Read the skin as a screen, give a systemic pattern a systemic answer, and keep local loops as foundation biology, never a reason to prescribe a hormone.",
+              "ar-AE": "انظر إلى الجلد كوسيلة مسح، وقدّم للنمط الجهازي حلاً جهازياً، واعتبر الحلقات الموضعية بيولوجيا أساسية، وليست مبرراً بأي حال لوصف هرمون."
+            },
+            "citationRefs": [
+              "hannah-shmouni-2026-are",
+              "safer-2011-thyroid-skin",
+              "mancino-2021-thyroid-epidermis",
+              "slominski-2013-skin-steroidogenesis"
+            ],
+            "source": "authored:2026-09-25 from m1-p06 (+ its role versions) + m1-p05 + m1-p04"
+          },
+          "metadata": {
+            "activity": {
+              "version": "1.1",
+              "sources": [
+                "m1-p06 body, sentences 1–2 and 4",
+                "m1-p06 audioScript, sentences 2, 4, 8 and 9",
+                "m1-p06 variants.audienceLevel.prescriber, sentence 1",
+                "m1-p06 variants.audienceLevel.clinical-staff, sentence 1",
+                "m1-p06 variants.audienceLevel.advisor, sentences 1–2",
+                "m1-p05 body, sentence 5",
+                "m1-p05 tool, row 'Body to skin', note",
+                "m1-p04 body, sentence 1",
+                "m1-p04 tool, row 'Thyroid-like loop', value and note",
+                "m1-p04 tool callout"
+              ]
+            }
+          }
+        },
+        {
+          "id": "m1-p07",
+          "type": "quiz",
+          "time": "10 / 25",
+          "lead": {
+            "en": "Your turn",
+            "ar-AE": "دورك الآن"
+          },
+          "title": {
+            "en": "'My skin makes its own cortisol.'",
+            "ar-AE": "'جلدي يصنع الكورتيزول الخاص به.'"
+          },
+          "body": {
+            "en": "One question to close lesson 1.1.",
+            "ar-AE": "سؤال واحد لاختتام الدرس 1.1."
+          },
+          "sourceNote": "Lesson 1.1",
+          "quiz": {
+            "id": "m1-q1",
+            "prompt": {
+              "en": "Fictional case. A 52-year-old has new thin, easily bruised skin on her forearms, new violaceous striae and newly raised blood pressure. She has read that skin makes its own cortisol and asks whether a cream could calm it. Which reading is right?",
+              "ar-AE": "حالة افتراضية. تعاني سيدة تبلغ من العمر 52 عاماً من ترقق حديث في جلد الساعدين وسهولة إصابته بالكدمات، وفزر بنفسجية جديدة، وارتفاع حديث في ضغط الدم. قرأت أن الجلد يصنع الكورتيزول الخاص به وتسأل عما إذا كان هناك كريم يمكنه تهدئة ذلك. أي التفسيرات التالية هو الصحيح؟"
+            },
+            "options": [
+              {
+                "text": {
+                  "en": "Her skin's own cortisol explains the picture, so the answer is local.",
+                  "ar-AE": "يفسر الكورتيزول الخاص بجلدها هذه الصورة السريرية، لذا فإن الحل يكون موضعياً."
+                },
+                "why": {
+                  "en": "Local skin cortisol tunes immune activity where it is made. It does not explain new striae together with new hypertension.",
+                  "ar-AE": "يعمل كورتيزول الجلد الموضعي على ضبط النشاط المناعي في موضع تصنيعه؛ ولا يفسر ظهور الفزر الجديدة المترافقة مع ارتفاع جديد في ضغط الدم."
+                }
+              },
+              {
+                "text": {
+                  "en": "The combination is a systemic pattern; the guide lists it as a reason for prompt endocrine referral before any skin treatment.",
+                  "ar-AE": "يشكل هذا المزيج نمطاً جهازياً؛ ويورده الدليل كسبب للإحالة الصماوية الفورية قبل البدء بأي علاج جلدي."
+                },
+                "why": {
+                  "en": "Correct. Striae, bruising and new hypertension together point to possible systemic cortisol excess: a body-to-skin signal.",
+                  "ar-AE": "صحيح. تشير الفزر والكدمات وارتفاع ضغط الدم الجديد معاً إلى احتمال وجود فرط جهازي في الكورتيزول: وهي إشارة صادرة من الجسم نحو الجلد."
+                }
+              },
+              {
+                "text": {
+                  "en": "Local and systemic cortisol are interchangeable, so either explanation fits.",
+                  "ar-AE": "الكورتيزول الموضعي والجهازي قابلان للتبادل، لذا فإن كلا التفسيرين ملائم."
+                },
+                "why": {
+                  "en": "Local synthesis acts within the skin and runs its own feedback; a systemic syndrome needs a systemic assessment.",
+                  "ar-AE": "يعمل التخليق الموضعي داخل الجلد ويخضع لتلقيم راجع خاص به؛ بينما تتطلب المتلازمة الجهازية تقييماً جهازياً."
+                }
+              }
+            ],
+            "correct": 1,
+            "feedback": {
+              "en": "Decide which direction the signal runs before you decide what to treat.",
+              "ar-AE": "حدد اتجاه مسار الإشارة قبل أن تقرر ما ستعالجه."
+            },
+            "pillar": "physiology",
+            "citationRefs": [
+              "hannah-shmouni-2026-are",
+              "phan-2021-keratinocyte-glucocorticoids",
+              "slominski-2013-skin-steroidogenesis"
+            ]
+          }
+        },
+        {
+          "id": "m1-p08",
+          "type": "audio",
+          "time": "11 / 25",
+          "lead": {
+            "en": "Lesson 1.2 · Concept",
+            "ar-AE": "الدرس 1.2 · المفهوم"
+          },
+          "title": {
+            "en": "A map of fourteen million cells.",
+            "ar-AE": "خريطة لأربعة عشر مليون خلية."
+          },
+          "body": {
+            "en": "The Hormone Cell Atlas, published in Science in 2026, read the RNA for 379 hormone and receptor genes in about 14 million single cells and nuclei from 47 human tissues, skin among them. From that RNA it predicted which cell types could make a hormone and which could respond to one. It is a map of predicted capacity; it did not measure hormone release.",
+            "ar-AE": "قام أطلس الخلايا الهرمونية (Hormone Cell Atlas)، المنشور في مجلة Science عام 2026، بقراءة الحمض النووي الريبوزي (RNA) لـ 379 جيناً للهرمونات ومستقبلاتها في حوالي 14 مليون خلية ونواة مفردة من 47 نسيجاً بشرياً، كان الجلد من بينها. وتنبأ انطلاقاً من ذلك الـ RNA بأنواع الخلايا القادرة على إنتاج الهرمون وتلك القادرة على الاستجابة له. إنه خريطة للقدرة المتوقعة؛ ولم يقِس تحرر الهرمونات الفعلي."
+          },
+          "points": [
+            {
+              "en": "RNA for 379 hormone and receptor genes",
+              "ar-AE": "الحمض النووي الريبوزي (RNA) لـ 379 جيناً للهرمونات ومستقبلاتها"
+            },
+            {
+              "en": "About 14 million cells and nuclei, 47 tissues",
+              "ar-AE": "حوالي 14 مليون خلية ونواة، من 47 نسيجاً"
+            },
+            {
+              "en": "Output: predicted producers and receivers",
+              "ar-AE": "المخرجات: منتجات ومستقبلات متوقعة"
+            }
+          ],
+          "citationRefs": [
+            "fei-2026-hormone-cell-atlas",
+            "hormone-cell-atlas-portal",
+            "hannah-shmouni-2026-are"
+          ],
+          "sourceNote": "Fei & Huang-Doran et al., Science 2026 · hormonecellatlas.org.uk · Aesthetic & Regenerative Endocrinology, ch. 7",
+          "audioBeats": [
+            {
+              "title": {
+                "en": "What it measured",
+                "ar-AE": "ما تم قياسه"
+              },
+              "body": {
+                "en": "RNA for 379 hormone and receptor genes, cell by cell, across 47 human tissues including skin.",
+                "ar-AE": "الـ RNA لـ 379 جيناً للهرمونات ومستقبلاتها، خلية تلو الأخرى، عبر 47 نسيجاً بشرياً بما فيها الجلد."
+              }
+            },
+            {
+              "title": {
+                "en": "What it predicted",
+                "ar-AE": "ما تم التنبؤ به"
+              },
+              "body": {
+                "en": "Which cell types could make a hormone and which could respond, including unexpected sites outside the classic glands.",
+                "ar-AE": "أنواع الخلايا القادرة على إنتاج الهرمون وتلك القادرة على الاستجابة، بما في ذلك مواقع غير متوقعة خارج الغدد التقليدية."
+              }
+            },
+            {
+              "title": {
+                "en": "What it leaves open",
+                "ar-AE": "ما يتركه معلقاً دون جزم"
+              },
+              "body": {
+                "en": "Whether a cell actually makes and releases the hormone, and whether that hormone does anything there.",
+                "ar-AE": "ما إذا كانت الخلية تصنع الهرمون وتحرره فعلياً، وما إذا كان هذا الهرمون يؤدي أي دور هناك."
+              }
+            }
+          ],
+          "metadata": {
+            "audioScript": {
+              "en": "Fourteen million cells is the scale of the Hormone Cell Atlas, a Cambridge-led study published in Science in 2026. The team read the RNA for 379 hormone and receptor genes in single cells and nuclei from forty-seven human tissues, skin included. From those readings they scored each cell type for its predicted capacity to make or to receive a hormone, and they flagged unexpected sites, such as RNA for the gut hormone secretin in a type of immune cell. The Aesthetic and Regenerative Endocrinology guide uses the atlas to argue that the skin, built from every major cell lineage, is plausibly one of the body's largest distributed signalling networks. The word plausibly matters. Everything in the atlas starts from RNA, and RNA tells you what a cell could make. Whether the cell actually makes and releases the hormone is the question the rest of this lesson answers.",
+              "ar-AE": "أربعة عشر مليون خلية هو نطاق أطلس الخلايا الهرمونية (Hormone Cell Atlas)، وهي دراسة قادتها كامبريدج ونُشرت في مجلة Science عام 2026. قرأ الفريق الـ RNA لـ 379 جيناً للهرمونات ومستقبلاتها في خلايا وأنوية مفردة من سبعة وأربعين نسيجاً بشرياً، بما فيها الجلد. ومن واقع تلك القراءات، حددوا درجة لكل نوع خلوي وفقاً لقدرته المتوقعة على إنتاج الهرمون أو استقباله، وأشاروا إلى مواقع غير متوقعة، مثل الـ RNA لهرمون السيكريتين المعوي في أحد أنواع الخلايا المناعية. ويستند دليل الغدد الصماء التجميلية والتجديدية إلى هذا الأطلس ليطرح فكرة أن الجلد، المكون من كل السلالات الخلوية الرئيسية، يُعد على نحو معقول واحداً من أكبر شبكات الإشارات الموزعة في الجسم. ولكلمة 'على نحو معقول' وزنها البالغ؛ إذ يبدأ كل شيء في الأطلس من الـ RNA، والـ RNA يخبرك بما تستطيع الخلية صنعه فحسب، أما مسألة ما إذا كانت الخلية تصنع الهرمون وتحرره فعلياً فهي السؤال الذي يجيب عنه باقي هذا الدرس."
+            }
+          },
+          "imageBrief": {
+            "prompt": "An atlas laid out like a specimen tray: a neat grid of many small square tissue tiles, each holding a handful of simple round cells drawn in ink on ivory. One tile in the centre, slightly larger and raised, is a slice of skin with a layered surface. In that tile some cells carry a small violet cup-shaped receptor on their surface, and a few hold small violet granules inside drawn as dotted outlines (predicted, not observed). The other tiles show the same two marks sparsely, in pale violet wash. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+            "aspectRatio": "16:9",
+            "styleRef": "house",
+            "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+            "assetRef": "asset-hormones-peptides-skin-image-m1-p08-img"
+          },
+          "teachingVisual": {
+            "assetRef": "asset-hormones-peptides-skin-image-m1-p08-img",
+            "alt": {
+              "en": "A grid of small tissue tiles with a skin tile at the centre, where some cells carry receptor cups and a few hold outlined granules, marking cells predicted to respond to or make a hormone.",
+              "ar-AE": "شبكة من مربعات الأنسجة الصغيرة يتوسطها مربع يمثل الجلد، حيث تحمل بعض الخلايا تجاويف مستقبلات ويحتوي عدد قليل منها على حبيبات محددة المعالم، لتمييز الخلايا المتوقع استجابتها للهرمون أو إنتاجها له."
+            },
+            "treatment": "cover",
+            "position": "top"
+          },
+          "assetRefs": [
+            "m1-p08-narration-ar-AE"
+          ]
+        },
+        {
+          "id": "m1-p09",
+          "type": "stat",
+          "time": "12 / 25",
+          "lead": {
+            "en": "What the atlas is",
+            "ar-AE": "ما هو الأطلس"
+          },
+          "title": {
+            "en": "Prediction, in the authors' own words.",
+            "ar-AE": "تنبؤ، بكلمات المؤلفين أنفسهم."
+          },
+          "body": {
+            "en": "The atlas's own portal describes its scores as 'putative and hypothesis-generating'. A few predictions were tested in cells in the paper itself; the rest are left for users to validate. Across biology, the amount of RNA for a gene is often a poor guide to how much protein a cell makes, and protein is still a step short of secretion.",
+            "ar-AE": "تصف البوابة الإلكترونية الخاصة بالأطلس نتائجه بأنها \"افتراضية ومولدة للفرضيات\". تم اختبار عدد قليل من التنبؤات في الخلايا ضمن الورقة البحثية نفسها؛ وتُركت البقية للمستخدمين للتحقق من صحتها. في جميع فروع علم الأحياء، غالباً ما تكون كمية الرنا (RNA) لجين معين دليلاً ضعيفاً على كمية البروتين التي تنتجها الخلية، ولا يزال البروتين بحد ذاته خطوة تسبق الإفراز."
+          },
+          "citationRefs": [
+            "fei-2026-hormone-cell-atlas",
+            "hormone-cell-atlas-portal",
+            "liu-2016-mrna-protein",
+            "hannah-shmouni-2026-are"
+          ],
+          "sourceNote": "Fei & Huang-Doran, Science 2026 · hormonecellatlas.org.uk About/FAQ, read 24 Sep 2026 · Liu 2016",
+          "stat": {
+            "figure": "379",
+            "label": {
+              "en": "hormone and receptor genes read as RNA, cell by cell",
+              "ar-AE": "جينات الهرمونات والمستقبلات مقروءة كرنا (RNA)، خلية بخلية"
+            },
+            "detail": {
+              "en": "Fei, Huang-Doran et al., Science 2026 · about 14 million cells and nuclei · 47 human tissues",
+              "ar-AE": "Fei, Huang-Doran et al., Science 2026 · حوالي 14 مليون خلية ونواة · 47 نسيجاً بشرياً"
+            },
+            "means": {
+              "en": "The atlas shows which skin cells carry the RNA to make or sense a hormone. That is a well-founded hypothesis about where to look.",
+              "ar-AE": "يوضح الأطلس خلايا الجلد التي تحمل الرنا (RNA) اللازم لتصنيع هرمون أو استشعاره. وتلك فرضية مبنية على أسس متينة حول الموضع الذي ينبغي البحث فيه."
+            },
+            "doesNot": {
+              "en": "It does not show that a skin cell secretes a hormone, how much, or that the hormone acts there. A receptor gene on the map is not evidence that a product aimed at it works.",
+              "ar-AE": "إنه لا يثبت أن خلية الجلد تفرز هرموناً، ولا يوضح الكمية، ولا يُظهر أن الهرمون يعمل هناك. وجود جين المستقبل على الخريطة ليس دليلاً على فعالية منتج يستهدفه."
+            }
+          }
+        },
+        {
+          "id": "m1-p10",
+          "type": "tool",
+          "time": "13 / 25",
+          "lead": {
+            "en": "Sort the evidence",
+            "ar-AE": "تصنيف الأدلة"
+          },
+          "title": {
+            "en": "Transcript, tissue or person?",
+            "ar-AE": "نسخة منسوخة (Transcript)، أم نسيج، أم إنسان؟"
+          },
+          "body": {
+            "en": "Findings about skin as an endocrine organ sit on different rungs of the same ladder. Before you see the answers, decide how far up each one reaches.",
+            "ar-AE": "تقع النتائج المتعلقة بالجلد كعضو صماوي على درجات مختلفة من السلم نفسه. قبل أن تطّلع على الإجابات، حدد إلى أي مدى ترتقي كل نتيجة منها."
+          },
+          "citationRefs": [
+            "fei-2026-hormone-cell-atlas",
+            "hormone-cell-atlas-portal",
+            "ito-2005-hair-follicle-hpa",
+            "phan-2021-keratinocyte-glucocorticoids",
+            "horesh-2023-hair-follicle-somatotropic",
+            "holick-1980-previtamin-d3",
+            "bikle-2014-vitamin-d",
+            "hannah-shmouni-2026-are"
+          ],
+          "sourceNote": "Fei 2026 · atlas portal · Ito 2005 · Phan 2021 · Horesh 2023 · Holick 1980 · Bikle 2014",
+          "tool": {
+            "items": [
+              {
+                "label": {
+                  "en": "Transcript",
+                  "ar-AE": "نسخة منسوخة (Transcript)"
+                },
+                "value": {
+                  "en": "The cell carries the RNA",
+                  "ar-AE": "الخلية تحمل الرنا (RNA)"
+                },
+                "note": {
+                  "en": "Single-cell atlases; a prediction to confirm",
+                  "ar-AE": "أطالس الخلية المفردة؛ تنبؤ بحاجة إلى تأكيد"
+                }
+              },
+              {
+                "label": {
+                  "en": "Function in tissue or animals",
+                  "ar-AE": "الوظيفة في النسيج أو الحيوانات"
+                },
+                "value": {
+                  "en": "The pathway works",
+                  "ar-AE": "المسار يعمل"
+                },
+                "note": {
+                  "en": "Human tissue kept alive in culture, or animal models",
+                  "ar-AE": "نسيج بشري محفوظ حياً في مستنبت، أو نماذج حيوانية"
+                }
+              },
+              {
+                "label": {
+                  "en": "Human, in vivo",
+                  "ar-AE": "الإنسان، في الجسم الحي (in vivo)"
+                },
+                "value": {
+                  "en": "It happens in living people",
+                  "ar-AE": "يحدث في أشخاص أحياء"
+                },
+                "note": {
+                  "en": "Measured in people, in the body",
+                  "ar-AE": "مقاس في البشر، داخل الجسم"
+                }
+              }
+            ],
+            "callout": {
+              "en": "Each rung needs the one below it, and advice to a patient needs the top one.",
+              "ar-AE": "كل درجة تعتمد على الدرجة التي تسبقها، وتقديم المشورة للمريض يتطلب الوصول إلى الدرجة العليا."
+            }
+          },
+          "interaction": {
+            "kind": "classify",
+            "title": {
+              "en": "How far up?",
+              "ar-AE": "إلى أي مدى ترتقي؟"
+            },
+            "prompt": {
+              "en": "Tap the highest rung each finding reaches.",
+              "ar-AE": "انقر على أعلى درجة يصل إليها كل اكتشاف."
+            },
+            "labels": [
+              {
+                "value": "transcript",
+                "label": {
+                  "en": "Transcript prediction",
+                  "ar-AE": "تنبؤ مستند إلى النسخ المنسوخة (Transcript)"
+                },
+                "tone": "neutral"
+              },
+              {
+                "value": "function",
+                "label": {
+                  "en": "Function in tissue or animals",
+                  "ar-AE": "الوظيفة في النسيج أو الحيوانات"
+                },
+                "tone": "neutral"
+              },
+              {
+                "value": "human",
+                "label": {
+                  "en": "Human, in vivo",
+                  "ar-AE": "الإنسان، في الجسم الحي (in vivo)"
+                },
+                "tone": "good"
+              }
+            ],
+            "items": [
+              {
+                "id": "atlas-score",
+                "label": {
+                  "en": "A skin cell type scores high as a hormone producer in a single-cell RNA atlas",
+                  "ar-AE": "نوع من خلايا الجلد يسجل درجة عالية كمنتج للهرمونات في أطلس الرنا (RNA) أحادي الخلية"
+                },
+                "answer": "transcript",
+                "why": {
+                  "en": "Transcript. The score comes from RNA; the atlas's authors call such predictions putative until validated.",
+                  "ar-AE": "نسخة منسوخة (Transcript). الدرجة مشتقة من الرنا (RNA)؛ ويصف مؤلفو الأطلس مثل هذه التنبؤات بأنها افتراضية إلى أن يتم التحقق منها."
+                }
+              },
+              {
+                "id": "follicle-cortisol-exvivo",
+                "label": {
+                  "en": "Scalp hair follicles kept alive in culture secrete cortisol and switch off their own CRH",
+                  "ar-AE": "أجربة شعر فروة الرأس المحفوظة حية في مستنبت تفرز الكورتيزول وتثبط إفراز هرمون CRH الخاص بها ذاتياً"
+                },
+                "answer": "function",
+                "why": {
+                  "en": "Function in human tissue. The loop works ex vivo; whether it shapes hair growth in a living scalp is a further step.",
+                  "ar-AE": "الوظيفة في النسيج البشري. الحلقة تعمل خارج الجسم الحي (ex vivo)؛ أما ما إذا كانت تؤثر على نمو الشعر في فروة رأس حية فذلك يتطلب خطوة إضافية."
+                }
+              },
+              {
+                "id": "brochure-receptor",
+                "label": {
+                  "en": "A brochure says skin 'has receptors for' a hormone, citing an RNA atlas",
+                  "ar-AE": "كتيب يذكر أن الجلد \"يحتوي على مستقبلات لـ\" هرمون ما، مستشهداً بأطلس الرنا (RNA)"
+                },
+                "answer": "transcript",
+                "why": {
+                  "en": "Transcript. A receptor gene on a map is where the question starts, and where this brochure stops.",
+                  "ar-AE": "نسخة منسوخة (Transcript). وجود جين المستقبل على الخريطة هو نقطة انطلاق التساؤل، وهو النقطة التي يتوقف عندها هذا الكتيب."
+                }
+              },
+              {
+                "id": "mouse-keratinocyte-gc",
+                "label": {
+                  "en": "Mice unable to make glucocorticoids in keratinocytes develop skin inflammation",
+                  "ar-AE": "الفئران العاجزة عن تصنيع الجلوكوكورتيكويدات في الخلايا الكيراتينية تُصاب بالتهاب الجلد"
+                },
+                "answer": "function",
+                "why": {
+                  "en": "Function in animals. Strong evidence that local glucocorticoids matter in mouse skin; in people there is only an association with inflammatory skin disease.",
+                  "ar-AE": "الوظيفة في الحيوانات. دليل قوي على أهمية الجلوكوكورتيكويدات الموضعية في جلد الفئران؛ أما لدى البشر فلا يوجد سوى ارتباط بالأمراض الجلدية الالتهابية."
+                }
+              },
+              {
+                "id": "vitamin-d3-human",
+                "label": {
+                  "en": "Sunlight on human skin forms vitamin D3 that the blood carries away",
+                  "ar-AE": "أشعة الشمس الساقطة على جلد الإنسان تكوّن فيتامين D3 الذي ينقله الدم بعيداً"
+                },
+                "answer": "human",
+                "why": {
+                  "en": "Human, in vivo. Cutaneous vitamin D3 synthesis and its release into the circulation were shown in human skin and are established physiology.",
+                  "ar-AE": "الإنسان، في الجسم الحي (in vivo). تم إثبات تصنيع فيتامين D3 الجلدي وإطلاقه في الدورة الدموية في جلد الإنسان، وهي حقائق فسيولوجية راسخة."
+                }
+              }
+            ],
+            "done": {
+              "en": "Five sorted. One reaches living people; the rest are maps or mechanisms.",
+              "ar-AE": "تم تصنيف خمس نتائج. واحدة منها تصل إلى مستوى البشر الأحياء؛ والبقية إما خرائط أو آليات عمل."
+            },
+            "citationRefs": [
+              "fei-2026-hormone-cell-atlas",
+              "hormone-cell-atlas-portal",
+              "ito-2005-hair-follicle-hpa",
+              "phan-2021-keratinocyte-glucocorticoids",
+              "holick-1980-previtamin-d3",
+              "bikle-2014-vitamin-d"
+            ],
+            "source": "authored:2026-09-24 from m1-p10.tool.items + registry m01 (claims c-m01-03, -04, -06, -10)"
+          }
+        },
+        {
+          "id": "m1-p11",
+          "type": "audio",
+          "time": "14 / 25",
+          "lead": {
+            "en": "What changes in practice",
+            "ar-AE": "ما الذي يتغير في الممارسة السريرية"
+          },
+          "title": {
+            "en": "A map to confirm, then a trial.",
+            "ar-AE": "خريطة تتطلب التأكيد، تليها تجربة سريرية."
+          },
+          "body": {
+            "en": "Topical and transdermal treatments act through receptors the skin already carries, and the skin's own enzymes change how strongly a hormone acts, so the skin's response need not mirror the dose. A receptor on a map is where an efficacy question starts. The same caution applies to physiology you think you know: the guide says serum vitamin D falls with sunscreen use, yet field trials of daily sunscreen did not lower it.",
+            "ar-AE": "تعمل العلاجات الموضعية وعبر الجلد من خلال مستقبلات يحملها الجلد بالفعل، كما أن إنزيمات الجلد نفسه تعدل مدى قوة تأثير الهرمون، وبالتالي لا يلزم أن تعكس استجابة الجلد حجم الجرعة. إن وجود مستقبل على الخريطة هو نقطة البداية للسؤال عن الفعالية. وينطبق الحذر نفسه على الفسيولوجيا التي تعتقد أنك تعرفها: يشير الدليل الإرشادي إلى أن فيتامين D في المصل ينخفض مع استخدام واقي الشمس، إلا أن التجارب الميدانية للاستخدام اليومي لواقي الشمس لم تخفض مستوياته."
+          },
+          "points": [
+            {
+              "en": "A receptor on the map is a hypothesis",
+              "ar-AE": "المستقبل الموجود على الخريطة هو فرضية"
+            },
+            {
+              "en": "Local enzymes change potency in skin",
+              "ar-AE": "الإنزيمات الموضعية تغير الفعالية في الجلد"
+            },
+            {
+              "en": "Daily-sunscreen field trials did not lower vitamin D",
+              "ar-AE": "التجارب الميدانية للاستخدام اليومي لواقي الشمس لم تخفض فيتامين D"
+            }
+          ],
+          "citationRefs": [
+            "hannah-shmouni-2026-are",
+            "neale-2019-sunscreen-vitamin-d",
+            "fei-2026-hormone-cell-atlas",
+            "bikle-2014-vitamin-d"
+          ],
+          "sourceNote": "Aesthetic & Regenerative Endocrinology, ch. 6–7 pearls · Neale 2019 · Fei 2026 · Bikle 2014",
+          "audioBeats": [
+            {
+              "title": {
+                "en": "Claims built on receptors",
+                "ar-AE": "ادعاءات مبنية على المستقبلات"
+              },
+              "body": {
+                "en": "Receptors explain how a topical could act. Whether it does is a question for a human trial.",
+                "ar-AE": "تفسر المستقبلات الكيفية التي يمكن أن يؤثر بها العلاج الموضعي. أما مسألة حدوث هذا التأثير بالفعل فهي مسألة تُحسم بالتجربة السريرية على البشر."
+              }
+            },
+            {
+              "title": {
+                "en": "Local enzymes",
+                "ar-AE": "الإنزيمات الموضعية"
+              },
+              "body": {
+                "en": "Steroid-metabolising enzymes in skin change potency, so the response in skin can differ from what the dose predicts.",
+                "ar-AE": "الإنزيمات المستقلبة للستيرويدات في الجلد تغير الفعالية، وبالتالي قد تختلف الاستجابة في الجلد عما تتنبأ به الجرعة."
+              }
+            },
+            {
+              "title": {
+                "en": "Sunscreen and vitamin D",
+                "ar-AE": "واقي الشمس وفيتامين D"
+              },
+              "body": {
+                "en": "Artificial-UV experiments show sunscreen blocks vitamin D synthesis; field trials of daily use did not lower blood levels. High-protection products have not been trialled.",
+                "ar-AE": "تُظهر التجارب باستخدام الأشعة فوق البنفسجية الاصطناعية أن واقي الشمس يمنع تصنيع فيتامين D؛ إلا أن التجارب الميدانية للاستخدام اليومي لم تخفض مستوياته في الدم. ولم يتم اختبار المنتجات ذات الحماية العالية."
+              }
+            }
+          ],
+          "metadata": {
+            "audioScript": {
+              "en": "Two habits follow from the atlas. The first concerns product claims. Topical and transdermal treatments act through receptors the skin already carries, and the skin's own enzymes change how strongly a hormone acts once it arrives, so the response in skin can differ from what the dose predicts. A receptor on a map is where an efficacy question starts, and the answer still needs a trial. The second habit concerns the physiology you think you know. The guide's testing pearl says serum vitamin D falls with sunscreen use, which the biology predicts. An independent review found that in real-life field trials, daily sunscreen did not lower blood levels, although the sunscreens tested were moderate and today's high-protection products have never been trialled. Keep recommending sun protection, and treat vitamin D as its own question.",
+              "ar-AE": "ينبثق نمطان من الممارسة عن هذا الأطلس. الأول يختص بالادعاءات حول المنتجات. تعمل العلاجات الموضعية وعبر الجلد من خلال مستقبلات يحملها الجلد بالفعل، وتقوم إنزيمات الجلد بتعديل مدى قوة تأثير الهرمون بمجرد وصوله، وبالتالي قد تختلف الاستجابة في الجلد عما تتنبأ به الجرعة. إن وجود مستقبل على الخريطة يمثل نقطة البداية لطرح السؤال عن الفعالية، وتتطلب الإجابة إجراء تجربة سريرية. النمط الثاني يرتبط بالفسيولوجيا التي تعتقد أنك على دراية بها؛ حيث تنص الفائدة الاختبارية في الدليل على أن فيتامين D في المصل ينخفض مع استخدام واقي الشمس، وهو ما يتوقعه علم الأحياء. ولكن وجدت مراجعة مستقلة أنه في التجارب الميدانية الواقعية، لم يؤدِ الاستخدام اليومي لواقي الشمس إلى خفض مستوياته في الدم، على الرغم من أن واقيات الشمس المختبرة كانت ذات حماية معتدلة ولم يتم مطلقاً اختبار المنتجات الحديثة ذات الحماية العالية. استمر في التوصية بالحماية من الشمس، وتعامل مع فيتامين D كمسألة سريرية مستقلة."
+            },
+            "variants": {
+              "audienceLevel": {
+                "prescriber": {
+                  "en": "When a product or protocol is justified by 'skin has receptors for it', ask for the human trial before you prescribe. Assess vitamin D on clinical grounds, and do not advise patients to drop sun protection.",
+                  "ar-AE": "عند تبرير منتج أو بروتوكول بعبارة \"الجلد يحتوي على مستقبلات له\"، اطلب الاطلاع على التجربة البشرية قبل وصفه. قيّم فيتامين D بناءً على الأسس السريرية، ولا تنصح المرضى بالتخلي عن الحماية من الشمس."
+                },
+                "clinical-staff": {
+                  "en": "If a patient says they stopped sunscreen to raise their vitamin D, note it and pass it to the prescriber; the trials do not support stopping.",
+                  "ar-AE": "إذا ذكر مريض أنه توقف عن استخدام واقي الشمس لرفع مستوى فيتامين D لديه، فدوّن ذلك وأحله إلى الطبيب الواصف؛ إذ لا تدعم التجارب السريرية التوقف عن استخدامه."
+                },
+                "advisor": {
+                  "en": "Describe receptor-based product claims as hypotheses unless a human trial backs them, keep sun-protection advice unchanged, and send vitamin D questions to a prescriber.",
+                  "ar-AE": "صف الادعاءات المتعلقة بالمنتجات والقائمة على المستقبلات بأنها فرضيات ما لم تدعمها تجربة بشرية، وحافظ على مشورة الحماية من الشمس دون تغيير، وأحل التساؤلات المتعلقة بفيتامين D إلى الطبيب الواصف."
+                }
+              }
+            }
+          },
+          "imageBrief": {
+            "prompt": "A two-part figure joined by one thin ink line running left to right. Left: a close cross-section of the upper skin with a small droplet resting on the surface; below it one skin cell carries a violet cup-shaped receptor on its surface, and a small crescent-shaped enzyme beside the cell reshapes a passing molecule token. Right: a randomized trial drawn as two matched groups of small round dots laid flat on the paper in neat square grids side by side, one group violet and one grey, with a thin divider between them (flat dots, not coins, not stacks). Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+            "aspectRatio": "16:9",
+            "styleRef": "house",
+            "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+            "assetRef": "asset-hormones-peptides-skin-image-m1-p11-img"
+          },
+          "teachingVisual": {
+            "assetRef": "asset-hormones-peptides-skin-image-m1-p11-img",
+            "alt": {
+              "en": "A droplet on the skin reaches a cell's receptor while an enzyme reshapes a passing molecule, and a line leads to two matched groups of dots standing for a randomized trial.",
+              "ar-AE": "قطرة على الجلد تصل إلى مستقبل الخلية بينما يُعيد إنزيم تشكيل جزيء عابر، ويمتد خط إلى مجموعتين متطابقتين من النقاط تمثلان تجربة عشوائية."
+            },
+            "treatment": "cover",
+            "position": "top"
+          },
+          "assetRefs": [
+            "m1-p11-narration-ar-AE"
+          ]
+        },
+        {
+          "id": "m1-x03",
+          "type": "tool",
+          "time": "15 / 25",
+          "lead": {
+            "en": "Practice",
+            "ar-AE": "تطبيق سريري"
+          },
+          "title": {
+            "en": "A serum page, line by line.",
+            "ar-AE": "صفحة مصل، سطراً بسطر."
+          },
+          "body": {
+            "en": "A fictional product page that leans on the cell atlas.",
+            "ar-AE": "صفحة منتج خيالي تعتمد على أطلس الخلايا."
+          },
+          "citationRefs": [
+            "fei-2026-hormone-cell-atlas",
+            "hormone-cell-atlas-portal",
+            "neale-2019-sunscreen-vitamin-d",
+            "hannah-shmouni-2026-are"
+          ],
+          "sourceNote": "Fictional product page · Fei & Huang-Doran, Science 2026 · hormonecellatlas.org.uk · Neale 2019 · Aesthetic & Regenerative Endocrinology, ch. 6–7",
+          "interaction": {
+            "kind": "inspect",
+            "title": {
+              "en": "Where the page overreaches",
+              "ar-AE": "مواضع المغالاة في الصفحة"
+            },
+            "prompt": {
+              "en": "A fictional product page. Find the lines this lesson's evidence does not support.",
+              "ar-AE": "صفحة منتج خيالي. حدد العبارات التي لا تدعمها أدلة هذا الدرس."
+            },
+            "hint": {
+              "en": "Hold each line against what an RNA map can show, what a receptor can promise, how skin changes a hormone's strength, and what the sunscreen trials found.",
+              "ar-AE": "قارن كل سطر بما يمكن أن تظهره خريطة الرنا (RNA)، وما يمكن أن يعد به المستقبل، وكيف يغير الجلد قوة الهرمون، وما توصلت إليه تجارب واقي الشمس."
+            },
+            "segments": [
+              {
+                "id": "atlas",
+                "text": {
+                  "en": "The Hormone Cell Atlas (Science, 2026) read the RNA for 379 hormone and receptor genes in about 14 million cells and nuclei, skin among them.",
+                  "ar-AE": "قام أطلس الخلايا الهرمونية (Science, 2026) بقراءة الرنا (RNA) لـ 379 جيناً للهرمونات والمستقبلات في حوالي 14 مليون خلية ونواة، وكان الجلد من بينها."
+                },
+                "suspect": false,
+                "why": {
+                  "en": "Accurate. The atlas read RNA in about 14 million cells and nuclei from 47 human tissues, skin among them; it did not measure hormone release.",
+                  "ar-AE": "دقيق. قرأ الأطلس الرنا (RNA) في حوالي 14 مليون خلية ونواة من 47 نسيجاً بشرياً، وكان الجلد من بينها؛ ولم يقِس إفراز الهرمونات."
+                }
+              },
+              {
+                "id": "proof",
+                "text": {
+                  "en": "It proves your skin responds to the hormone in this serum.",
+                  "ar-AE": "إنه يثبت أن جلدك يستجيب للهرمون الموجود في هذا المصل."
+                },
+                "suspect": true,
+                "why": {
+                  "en": "The atlas predicts from RNA, and its own portal calls the scores 'putative and hypothesis-generating'. It does not show that a hormone acts in skin.",
+                  "ar-AE": "يتنبأ الأطلس استناداً إلى الرنا (RNA)، وتصف بوابته الإلكترونية النتائج بأنها \"افتراضية ومولدة للفرضيات\". إنه لا يُظهر أن الهرمون يؤثر فعلياً في الجلد."
+                }
+              },
+              {
+                "id": "receptors",
+                "text": {
+                  "en": "Treatments applied to the skin act through receptors the skin already carries.",
+                  "ar-AE": "تعمل العلاجات المطبقة على الجلد من خلال مستقبلات يحملها الجلد بالفعل."
+                },
+                "suspect": false,
+                "why": {
+                  "en": "Supported. Receptors explain how a topical could act; whether this one does is a question for a human trial.",
+                  "ar-AE": "مدعوم. تفسر المستقبلات كيف يمكن لمستحضر موضعي أن يؤثر؛ أما ما إذا كان هذا المستحضر بالذات يفعل ذلك، فهذه مسألة تتطلب تجربة بشرية."
+                }
+              },
+              {
+                "id": "results",
+                "text": {
+                  "en": "So those receptors guarantee visible results.",
+                  "ar-AE": "إذن، تضمن تلك المستقبلات نتائج مرئية."
+                },
+                "suspect": true,
+                "why": {
+                  "en": "A receptor gene on the map is not evidence that a product aimed at it works. The receptor is where an efficacy question starts, and the answer still needs a trial.",
+                  "ar-AE": "وجود جين المستقبل في المخطط الجيني ليس دليلاً على فعالية المنتج الموجه نحوه. المستقبل هو نقطة البداية لطرح تساؤل الفعالية، وتظل الإجابة بحاجة إلى تجربة سريرية."
+                }
+              },
+              {
+                "id": "strength",
+                "text": {
+                  "en": "Your skin's response always matches the strength on the label.",
+                  "ar-AE": "استجابة جلدك تطابق دائمًا التركيز المذكور على الملصق."
+                },
+                "suspect": true,
+                "why": {
+                  "en": "The skin's own enzymes change how strongly a hormone acts once it arrives, so the response in skin can differ from what the dose predicts.",
+                  "ar-AE": "تعدل إنزيمات الجلد الذاتية من مدى قوة تأثير الهرمون بمجرد وصوله، وبالتالي قد تختلف الاستجابة في الجلد عما تتنبأ به الجرعة."
+                }
+              },
+              {
+                "id": "sunscreen",
+                "text": {
+                  "en": "Skip sunscreen on serum days, so your skin can make its own vitamin D.",
+                  "ar-AE": "تخطي واقي الشمس في الأيام التي تستخدم فيها المصل، حتى يتمكن جلدك من تصنيع فيتامين D بنفسه."
+                },
+                "suspect": true,
+                "why": {
+                  "en": "Sunscreen blocks vitamin D synthesis under artificial UV, yet field trials of daily use did not lower blood levels, and high-protection products have not been trialled. Keep recommending sun protection, and treat vitamin D as its own question.",
+                  "ar-AE": "يحجب واقي الشمس تصنيع فيتامين D تحت الأشعة فوق البنفسجية الاصطناعية، ومع ذلك فإن التجارب الميدانية للاستخدام اليومي لم تخفض مستوياته في الدم، كما لم تُختبر المنتجات ذات الحماية العالية في تجارب سريرية. استمر في التوصية بالحماية من الشمس، وتعامل مع فيتامين D كمسألة منفصلة بحد ذاتها."
+                }
+              }
+            ],
+            "done": {
+              "en": "Four lines overreach: an RNA prediction presented as proof, a receptor as a result, the label's strength as the skin's response, and vitamin D as a reason to drop sunscreen.",
+              "ar-AE": "أربعة ادعاءات مبالغ فيها: تقديم تنبؤ الحمض النووي الريبي (RNA) كإثبات، واعتبار المستقبل بمثابة نتيجة، واعتبار التركيز المكتوب على الملصق معبرًا عن استجابة الجلد، واستخدام فيتامين D كمبرر للتخلي عن واقي الشمس."
+            },
+            "citationRefs": [
+              "fei-2026-hormone-cell-atlas",
+              "hormone-cell-atlas-portal",
+              "neale-2019-sunscreen-vitamin-d",
+              "hannah-shmouni-2026-are"
+            ],
+            "source": "authored:2026-09-25 from m1-p08, m1-p09, m1-p11"
+          },
+          "metadata": {
+            "activity": {
+              "version": "1.1",
+              "sources": [
+                "m1-p08 body, sentences 1–3",
+                "m1-p09 body, sentence 1",
+                "m1-p09 stat.doesNot, sentences 1–2",
+                "m1-p11 body, sentence 1",
+                "m1-p11 audioBeats 1 ('Claims built on receptors'), sentences 1–2",
+                "m1-p11 audioScript, sentences 3–4",
+                "m1-p11 audioBeats 3 ('Sunscreen and vitamin D'), sentences 1–2",
+                "m1-p11 audioScript, sentences 7–8"
+              ]
+            }
+          }
+        },
+        {
+          "id": "m1-p12",
+          "type": "quiz",
+          "time": "16 / 25",
+          "lead": {
+            "en": "Your turn",
+            "ar-AE": "دورك الآن"
+          },
+          "title": {
+            "en": "'Your skin has receptors for it.'",
+            "ar-AE": "«يحتوي جلدك على مستقبلات له»."
+          },
+          "body": {
+            "en": "One question to close lesson 1.2.",
+            "ar-AE": "سؤال واحد لاختتام الدرس 1.2."
+          },
+          "sourceNote": "Lesson 1.2",
+          "quiz": {
+            "id": "m1-q2",
+            "prompt": {
+              "en": "A brochure for a hormone-containing serum cites a single-cell atlas showing that dermal fibroblasts carry the RNA for that hormone's receptor. What does that finding establish?",
+              "ar-AE": "يستشهد كتيب تعريفي لمصل يحتوي على هرمون بأطلس أحادي الخلية يوضح أن الخلايا الليفية اليافعة في الأدمة تحمل الحمض النووي الريبي (RNA) لمستقبل ذلك الهرمون. ماذا يثبت هذا الاكتشاف؟"
+            },
+            "options": [
+              {
+                "text": {
+                  "en": "That the serum reaches those fibroblasts and improves the skin.",
+                  "ar-AE": "أن المصل يصل إلى تلك الخلايا الليفية اليافعة ويحسن الجلد."
+                },
+                "why": {
+                  "en": "That needs penetration data and a clinical trial; an RNA map provides neither.",
+                  "ar-AE": "يتطلب ذلك بيانات اختراق وتجربة سريرية؛ ولا يقدم أطلس الحمض النووي الريبي (RNA) أياً منهما."
+                }
+              },
+              {
+                "text": {
+                  "en": "That skin secretes the hormone and needs it replaced when levels fall.",
+                  "ar-AE": "أن الجلد يفرز الهرمون ويحتاج إلى تعويضه عندما تنخفض مستوياته."
+                },
+                "why": {
+                  "en": "The finding concerns a receptor, and RNA says nothing about secretion or deficiency.",
+                  "ar-AE": "تتعلق النتيجة بمستقبل، ولا يُعطي الحمض النووي الريبي (RNA) أي دلالة على الإفراز أو النقص."
+                }
+              },
+              {
+                "text": {
+                  "en": "That fibroblasts may respond to the hormone: a hypothesis to confirm at the protein, function and clinical level.",
+                  "ar-AE": "أن الخلايا الليفية اليافعة قد تستجيب للهرمون: وهي فرضية يلزم تأكيدها على المستويات البروتينية والوظيفية والسريرية."
+                },
+                "why": {
+                  "en": "Correct. The atlas's authors call such predictions putative and hypothesis-generating.",
+                  "ar-AE": "صحيح. يصف مؤلفو الأطلس مثل هذه التنبؤات بأنها مفترضة ومولدة للفرضيات."
+                }
+              }
+            ],
+            "correct": 2,
+            "feedback": {
+              "en": "A receptor on the map is where the question starts.",
+              "ar-AE": "وجود المستقبل في المخطط الجيني هو نقطة بداية التساؤل."
+            },
+            "pillar": "physiology",
+            "citationRefs": [
+              "fei-2026-hormone-cell-atlas",
+              "hormone-cell-atlas-portal",
+              "liu-2016-mrna-protein"
+            ]
+          }
+        },
+        {
+          "id": "m1-p13",
+          "type": "audio",
+          "time": "17 / 25",
+          "lead": {
+            "en": "Lesson 1.3 · Concept",
+            "ar-AE": "الدرس 1.3 · المفهوم"
+          },
+          "title": {
+            "en": "Cells that stop dividing and keep talking.",
+            "ar-AE": "خلايا تتوقف عن الانقسام وتستمر في التواصل."
+          },
+          "body": {
+            "en": "A senescent cell has stopped dividing for good but stays metabolically active, releasing cytokines, matrix-degrading enzymes and growth factors: the senescence-associated secretory phenotype, or SASP. The SASP was characterised in cultured cells. In human skin, cells carrying the senescence marker p16INK4a become more common with age in both epidermis and dermis.",
+            "ar-AE": "تتوقف الخلية الهرمة (senescent cell) عن الانقسام نهائياً ولكنها تظل نشطة استقلابياً، حيث تفرز السيتوكينات، والإنزيمات المفككة للمطرس، وعوامل النمو: وهو ما يُعرف بالنمط الظاهري الإفرازي المرتبط بالشيخوخة الخلوية (SASP). تم توصيف الـ SASP في الخلايا المستنبتة. وفي جلد الإنسان، تصبح الخلايا التي تحمل علامة الشيخوخة الخلوية p16INK4a أكثر شيوعاً مع تقدم العمر في كل من البشرة والأدمة."
+          },
+          "points": [
+            {
+              "en": "Senescent: permanent arrest, still secreting",
+              "ar-AE": "هرمة: توقف دائم عن الانقسام مع استمرار الإفراز"
+            },
+            {
+              "en": "SASP (IL-6, IL-8, MMPs, growth factors): defined in culture",
+              "ar-AE": "النمط الظاهري الإفرازي المرتبط بالشيخوخة الخلوية (SASP) (يشمل IL-6 وIL-8 وMMPs وعوامل النمو): حُدد مخبرياً في المستنبتات الخلوية"
+            },
+            {
+              "en": "Human skin: p16-positive cells rise with age",
+              "ar-AE": "جلد الإنسان: تزداد الخلايا الإيجابية لـ p16 مع تقدم العمر"
+            }
+          ],
+          "citationRefs": [
+            "coppe-2008-sasp",
+            "ressler-2006-p16-human-skin",
+            "ho-dreesen-2021-skin-senescence",
+            "wang-dreesen-2018-senescence-biomarkers",
+            "haykal-2026-dermatology-senotherapeutics",
+            "baker-2016-p16-clearance-mice",
+            "hannah-shmouni-2026-are"
+          ],
+          "sourceNote": "Coppé 2008 · Ressler 2006 · Ho & Dreesen 2021 · Wang & Dreesen 2018 · Haykal 2026 · Aesthetic & Regenerative Endocrinology, ch. 7",
+          "audioBeats": [
+            {
+              "title": {
+                "en": "A safety mechanism",
+                "ar-AE": "آلية أمان"
+              },
+              "body": {
+                "en": "A damaged cell stops dividing for good, which guards against cancer and helps wound repair.",
+                "ar-AE": "تتوقف الخلية المتضررة عن الانقسام نهائياً، مما يقي من السرطان ويساعد في التئام الجروح."
+              }
+            },
+            {
+              "title": {
+                "en": "The secretory phase",
+                "ar-AE": "المرحلة الإفرازية"
+              },
+              "body": {
+                "en": "It stays active and releases inflammatory cytokines, matrix-degrading enzymes and growth factors, first catalogued in cultured human cells.",
+                "ar-AE": "تظل الخلية نشطة وتفرز سيتوكينات التهابية، وإنزيمات مفككة للمطرس، وعوامل نمو، والتي جرى تصنيفها لأول مرة في خلايا بشرية مستنبتة."
+              }
+            },
+            {
+              "title": {
+                "en": "What we see in human skin",
+                "ar-AE": "ما نراه في جلد الإنسان"
+              },
+              "body": {
+                "en": "Older skin holds more cells carrying the marker p16 in epidermis and dermis. No single marker is definitive.",
+                "ar-AE": "يحتوي الجلد الأكبر سناً على مزيد من الخلايا الحاملة للعلامة p16 في البشرة والأدمة. ولا توجد علامة حيوية واحدة تعد حاسمة بمفردها."
+              }
+            }
+          ],
+          "metadata": {
+            "audioScript": {
+              "en": "Senescence begins as a safety mechanism. A cell that has taken enough damage stops dividing for good, which helps guard against cancer and is useful during wound repair. The problem is what the cell does next. It stays alive and metabolically busy and releases a mixture of inflammatory cytokines such as interleukin six and eight, enzymes that break down matrix, and growth factors. This secretory profile, the SASP, was characterised in human cells grown in the laboratory after DNA damage. In living human skin, the evidence is observational. Skin samples from older people contain more cells carrying the senescence marker p16, in both the epidermis and the dermis, and fibroblasts, keratinocytes and melanocytes can all become senescent. Researchers also caution that no single marker identifies a senescent cell with certainty, so counts depend on the marker chosen.",
+              "ar-AE": "تبدأ الشيخوخة الخلوية كآلية أمان. فالخلية التي تعرضت لقدر كافٍ من الضرر تتوقف عن الانقسام نهائياً، مما يساعد في الوقاية من السرطان ويفيد أثناء التئام الجروح. وتكمن المشكلة فيما تفعله الخلية بعد ذلك؛ إذ تظل حية ونشطة استقلابياً وتفرز مزيجاً من السيتوكينات الالتهابية مثل إنترلوكين 6 و8، وإنزيمات تفكك المطرس، وعوامل نمو. وقد تم توصيف هذا الملف الإفرازي، أي SASP، في خلايا بشرية مستنبتة معملياً بعد تعرض الحمض النووي للضرر. أما في جلد الإنسان الحي، فإن الأدلة قائمة على الملاحظة. إذ تحتوي عينات الجلد المأخوذة من كبار السن على عدد أكبر من الخلايا الحاملة لعلامة الشيخوخة الخلوية p16، في كل من البشرة والأدمة، ويمكن لكل من الخلايا الليفية اليافعة والخلايا الكيراتينية والخلايا الصباغية أن تصبح هرمة. كما يحذر الباحثون من عدم وجود علامة واحدة تحدد الخلية الهرمة بشكل قاطع، وبالتالي تعتمد التعدادات على العلامة المختارة."
+            }
+          },
+          "imageBrief": {
+            "prompt": "A side-by-side comparison of cells in a thin layer of dermis, separated by a thin vertical hairline. Left: an ordinary fibroblast dividing cleanly into two small daughter cells. Right: a senescent cell — noticeably larger and flattened, with a large nucleus — that has stopped dividing but releases a halo of small violet particles into the surrounding collagen fibres, several of which look frayed near it. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+            "aspectRatio": "16:9",
+            "styleRef": "house",
+            "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+            "assetRef": "asset-hormones-peptides-skin-image-m1-p13-img"
+          },
+          "teachingVisual": {
+            "assetRef": "asset-hormones-peptides-skin-image-m1-p13-img",
+            "alt": {
+              "en": "On the left a cell divides into two; on the right a larger, flattened cell has stopped dividing and releases a cloud of small particles into the frayed fibres around it.",
+              "ar-AE": "على اليسار تنقسم خلية إلى خليتين؛ وعلى اليمين توقفت خلية أكبر حجماً ومفلطحة عن الانقسام وتطلق سحابة من الجزيئات الصغيرة في الألياف المتآكلة المحيطة بها."
+            },
+            "treatment": "cover",
+            "position": "top"
+          },
+          "assetRefs": [
+            "m1-p13-narration-ar-AE"
+          ]
+        },
+        {
+          "id": "m1-x04",
+          "type": "tool",
+          "time": "18 / 25",
+          "lead": {
+            "en": "Practice",
+            "ar-AE": "تطبيق سريري"
+          },
+          "title": {
+            "en": "Stopped for good, still secreting.",
+            "ar-AE": "توقفت نهائياً عن الانقسام، وما زالت تفرز."
+          },
+          "body": {
+            "en": "A senescent cell beside one that still divides.",
+            "ar-AE": "خلية هرمة بجانب خلية لا تزال تنقسم."
+          },
+          "citationRefs": [
+            "coppe-2008-sasp",
+            "ho-dreesen-2021-skin-senescence",
+            "wang-dreesen-2018-senescence-biomarkers",
+            "hannah-shmouni-2026-are"
+          ],
+          "sourceNote": "Coppé 2008 · Ho & Dreesen 2021 · Wang & Dreesen 2018 · Aesthetic & Regenerative Endocrinology, ch. 7",
+          "interaction": {
+            "kind": "hotspots",
+            "title": {
+              "en": "Dividing, senescent, secreting",
+              "ar-AE": "منقسمة، هرمة، مفرزة"
+            },
+            "prompt": {
+              "en": "Find the cell that still divides, the senescent cell and the SASP it releases.",
+              "ar-AE": "حدد الخلية التي لا تزال تنقسم، والخلية الهرمة، ونمط SASP الذي تفرزه."
+            },
+            "imageAssetRef": "asset-hormones-peptides-skin-image-m1-p13-img",
+            "hotspots": [
+              {
+                "id": "dividing",
+                "at": [
+                  28.8,
+                  41
+                ],
+                "radius": 14.5,
+                "label": {
+                  "en": "A dividing cell",
+                  "ar-AE": "خلية منقسمة"
+                },
+                "why": {
+                  "en": "On the left, a cell divides into two. A cell that has taken enough damage stops dividing for good, which helps guard against cancer and is useful during wound repair.",
+                  "ar-AE": "على اليسار، تنقسم خلية إلى خليتين. تتوقف الخلية التي تعرضت لضرر كافٍ عن الانقسام نهائياً، مما يساعد على الوقاية من السرطان ويفيد في التئام الجروح."
+                }
+              },
+              {
+                "id": "senescent",
+                "at": [
+                  72.2,
+                  43.4
+                ],
+                "radius": 12.9,
+                "label": {
+                  "en": "A senescent cell",
+                  "ar-AE": "خلية هرمة"
+                },
+                "why": {
+                  "en": "It has stopped dividing for good but stays metabolically active. Fibroblasts, keratinocytes and melanocytes can all become senescent.",
+                  "ar-AE": "لقد توقفت عن الانقسام نهائياً لكنها تظل نشطة استقلابياً. ويمكن للخلايا الليفية اليافعة والخلايا الكيراتينية والخلايا الصباغية أن تصبح هرمة جميعاً."
+                }
+              },
+              {
+                "id": "sasp",
+                "at": [
+                  71,
+                  42.3
+                ],
+                "radius": 20,
+                "label": {
+                  "en": "The SASP",
+                  "ar-AE": "النمط الظاهري الإفرازي المرتبط بالشيخوخة الخلوية (SASP)"
+                },
+                "why": {
+                  "en": "What it releases: inflammatory cytokines such as IL-6 and IL-8, enzymes that break down matrix, and growth factors. This secretory profile was characterised in cultured cells.",
+                  "ar-AE": "ما تفرزه الخلية: سيتوكينات التهابية مثل IL-6 وIL-8، وإنزيمات تفكك المطرس، وعوامل نمو. تم توصيف هذا الملف الإفرازي في الخلايا المستنبتة."
+                }
+              }
+            ],
+            "done": {
+              "en": "Three found: a cell that still divides, a senescent cell that has stopped for good, and the SASP it keeps releasing.",
+              "ar-AE": "تم العثور على ثلاثة: خلية لا تزال تنقسم، وخلية هرمة توقفت نهائياً، ونمط SASP الذي تواصل إفرازه."
+            },
+            "citationRefs": [
+              "coppe-2008-sasp",
+              "ho-dreesen-2021-skin-senescence",
+              "wang-dreesen-2018-senescence-biomarkers"
+            ],
+            "source": "authored:2026-09-25 from m1-p13 (body, audioScript, points) on its approved teaching still",
+            "hedge": {
+              "en": "SASP: characterised in cultured cells",
+              "ar-AE": "نمط SASP: جرى توصيفه في الخلايا المستنبتة"
+            }
+          },
+          "metadata": {
+            "activity": {
+              "version": "1.1",
+              "sources": [
+                "m1-p13 body, sentences 1–2",
+                "m1-p13 audioScript, sentences 2, 4, 5 and 7",
+                "m1-p13 points 1–2",
+                "m1-p13 teachingVisual.alt, sentence 1 (the picture's two halves)"
+              ],
+              "hotspotFind": {
+                "dividing": "Left half of the picture, centre: three pale spindle-shaped cells with grey nuclei joined by a narrow pinched bridge, one cell splitting into two",
+                "senescent": "Right half of the picture, centre: the single large, flattened, lens-shaped pale cell with a big grey oval nucleus",
+                "sasp": "Right half of the picture: the halo of small violet dots around the large flattened cell; place the spot on the dots themselves (the upper-left arc of the halo), clear of the cell body"
+              }
+            }
+          }
+        },
+        {
+          "id": "m1-p14",
+          "type": "stat",
+          "time": "19 / 25",
+          "lead": {
+            "en": "Human evidence",
+            "ar-AE": "الأدلة البشرية"
+          },
+          "title": {
+            "en": "Three years of perceived age.",
+            "ar-AE": "ثلاث سنوات من العمر الظاهري."
+          },
+          "body": {
+            "en": "In a Dutch cohort, people with more p16-positive cells in sun-protected arm skin had more ageing-type elastic fibres, more facial wrinkles and looked older, after allowing for their actual age. The epidermal p16-positive cells were mostly melanocytes. The study was publicly funded; one co-author worked for Unilever.",
+            "ar-AE": "في أتراب هولندي، كان الأشخاص الذين لديهم عدد أكبر من الخلايا الإيجابية لـ p16 في جلد الذراع المحمي من الشمس لديهم المزيد من الألياف المرنة المرتبطة بالشيخوخة، ومزيد من تجاعيد الوجه، وبدوا أكبر سناً، بعد تعديل النتائج وفقاً لعمرهم الفعلي. وكانت الخلايا الإيجابية لـ p16 في البشرة في معظمها خلايا صباغية. تم تمويل الدراسة من أموال عامة؛ وكان أحد المؤلفين المشاركين يعمل لدى شركة Unilever."
+          },
+          "citationRefs": [
+            "waaijer-2016-p16-wrinkles",
+            "ressler-2006-p16-human-skin"
+          ],
+          "sourceNote": "Waaijer 2016 (Leiden Longevity Study) · Ressler 2006",
+          "stat": {
+            "figure": "3 years",
+            "label": {
+              "en": "younger-looking: fewest versus most p16-positive epidermal cells, at the same chronological age",
+              "ar-AE": "مظهر أكثر شباباً: الأقل مقارنة بالأكثر في عدد خلايا البشرة الإيجابية لـ p16، عند نفس العمر الزمني"
+            },
+            "detail": {
+              "en": "Waaijer et al., 2016 — 178 adults aged 45–81, Leiden Longevity Study, sun-protected arm biopsies",
+              "ar-AE": "Waaijer وآخرون، 2016 — 178 بالغاً تتراوح أعمارهم بين 45 و81 عاماً، دراسة لايدن لطول العمر (Leiden Longevity Study)، خزعات من جلد الذراع المحمي من الشمس"
+            },
+            "means": {
+              "en": "Senescent-cell burden in human skin tracks visible ageing, even in skin that sees little sun.",
+              "ar-AE": "يتطابق عبء الخلايا الهرمة في جلد الإنسان مع مظاهر الشيخوخة المرئية، حتى في الجلد الذي يتعرض لقدر قليل من أشعة الشمس."
+            },
+            "doesNot": {
+              "en": "It does not show that senescent cells cause wrinkles, or that removing them would reverse any. One observational cohort shows an association.",
+              "ar-AE": "لا يُظهر ذلك أن الخلايا الهرمة تسبب التجاعيد، أو أن إزالتها ستعكس أياً منها. وتُظهر دراسة أترابية رصدية واحدة وجود ارتباط."
+            }
+          }
+        },
+        {
+          "id": "m1-p15",
+          "type": "tool",
+          "time": "20 / 25",
+          "lead": {
+            "en": "Four registers",
+            "ar-AE": "أربعة سجلات"
+          },
+          "title": {
+            "en": "Human, mouse or dish?",
+            "ar-AE": "إنسان، أم فأر، أم طبق مخبري؟"
+          },
+          "body": {
+            "en": "Senescence research mixes human tissue, mice and cultured cells. For the ageing dermis the four answers point in different directions, which is why they belong in separate sentences.",
+            "ar-AE": "تجمع أبحاث الشيخوخة الخلوية بين الأنسجة البشرية والفئران والخلايا المستنبتة. وفيما يتعلق بأدمة الجلد المتقدمة في السن، تشير الإجابات الأربع إلى اتجاهات مختلفة، ولهذا السبب يجب وضعها في جمل منفصلة."
+          },
+          "citationRefs": [
+            "shuster-1975-skin-collagen-age",
+            "varani-2006-aged-fibroblast-collagen",
+            "fisher-2009-collagen-fragmentation",
+            "waaijer-2016-p16-wrinkles",
+            "baker-2016-p16-clearance-mice",
+            "xu-2018-senolytics-mice",
+            "hickson-2019-senolytic-dkd-pilot",
+            "chung-2019-topical-rapamycin",
+            "haykal-2026-dermatology-senotherapeutics",
+            "hannah-shmouni-2026-are"
+          ],
+          "sourceNote": "Shuster 1975 · Varani 2006 · Fisher 2009 · Waaijer 2016 · Baker 2016 · Xu 2018 · Hickson 2019 · Chung 2019",
+          "tool": {
+            "items": [
+              {
+                "label": {
+                  "en": "Mechanism",
+                  "ar-AE": "آلية العمل"
+                },
+                "value": {
+                  "en": "A collagen-fragmentation loop",
+                  "ar-AE": "حلقة تفتت الكولاجين"
+                },
+                "note": {
+                  "en": "Skin collagen falls with age. Aged human dermis shows more fibroblast MMP-1 and fragmented collagen; in culture, fragmentation raises MMP-1 further. That senescent cells drive this in living skin is plausible, not shown.",
+                  "ar-AE": "ينخفض كولاجين الجلد مع تقدم العمر. وتُظهر أدمة الإنسان المتقدمة في السن زيادة في MMP-1 في الخلايا الليفية اليافعة وتفتت الكولاجين؛ وفي المستنبتات الخلوية، يزيد التفتت من MMP-1 بدرجة أكبر. وتُعد فكرة أن الخلايا الهرمة تقود هذه العملية في الجلد الحي أمراً معقولاً، لكنه لم يُثبت بعد."
+                }
+              },
+              {
+                "label": {
+                  "en": "Human evidence",
+                  "ar-AE": "الأدلة البشرية"
+                },
+                "value": {
+                  "en": "Association",
+                  "ar-AE": "الارتباط"
+                },
+                "note": {
+                  "en": "p16-positive cells rise with age and track with wrinkles and perceived age",
+                  "ar-AE": "تزداد الخلايا الإيجابية لـ p16 مع تقدم العمر وتتوافق مع التجاعيد والعمر الظاهري"
+                }
+              },
+              {
+                "label": {
+                  "en": "Animal evidence",
+                  "ar-AE": "الأدلة الحيوانية"
+                },
+                "value": {
+                  "en": "Causation, in mice",
+                  "ar-AE": "السببية، في الفئران"
+                },
+                "note": {
+                  "en": "Clearing p16-positive cells, or giving senolytic drugs, extends healthy lifespan in mice. Skin was checked only for safety, and clearing these cells during healing slowed wound closure.",
+                  "ar-AE": "يؤدي التخلص من الخلايا الإيجابية لـ p16، أو إعطاء أدوية حالّة للشيخوخة الخلوية (senolytics)، إلى إطالة العمر الصحي لدى الفئران. تم فحص الجلد للأمان فقط، وأدى التخلص من هذه الخلايا أثناء الالتئام إلى إبطاء انغلاق الجروح."
+                }
+              },
+              {
+                "label": {
+                  "en": "Open question",
+                  "ar-AE": "سؤال مفتوح"
+                },
+                "value": {
+                  "en": "Do senotherapies change human skin?",
+                  "ar-AE": "هل تُحدث العلاجات الموجهة للشيخوخة الخلوية (senotherapies) تغييراً في جلد الإنسان؟"
+                },
+                "note": {
+                  "en": "Small pilots measuring tissue markers. One exploratory randomized trial of topical rapamycin (36 enrolled, 19 dropped out) lowered skin p16, and clinical change was only described. No adequately sized trial with clinical skin-ageing outcomes was found (September 2026).",
+                  "ar-AE": "دراسات أولية تجريبية صغيرة تقيس علامات الأنسجة. تجربة عشوائية استكشافية واحدة للراباميسين الموضعي (تم تسجيل 36، وانسحب 19) خفضت مستويات p16 في الجلد، ووُصف التغير السريري وصفاً فقط. لم يتم العثور على أي تجربة ذات حجم ملائم مع مخرجات سريرية لشيخوخة الجلد (سبتمبر 2026)."
+                }
+              }
+            ],
+            "callout": {
+              "en": "A mouse lifespan result is not a skin treatment.",
+              "ar-AE": "نتيجة إطالة عمر الفئران ليست علاجاً للجلد."
+            }
+          }
+        },
+        {
+          "id": "m1-p16",
+          "type": "audio",
+          "time": "21 / 25",
+          "lead": {
+            "en": "Where the evidence is strongest",
+            "ar-AE": "أين تكون الأدلة أقوى ما يمكن"
+          },
+          "title": {
+            "en": "The levers with trials behind them.",
+            "ar-AE": "الوسائل المدعومة بتجارب سريرية."
+          },
+          "body": {
+            "en": "Two ways of protecting or rebuilding the dermal matrix have randomized human trials. In a community trial of 903 adults, daily sunscreen for four and a half years slowed photoageing compared with discretionary use (GRADE B). Topical tretinoin improves photoageing consistently across randomized trials, and the Aesthetic & Regenerative Endocrinology guide rates topical retinoids first-line, GRADE A. Retinol improved fine wrinkles in very old skin in a small trial (C), and within a week it raised collagen synthesis and lowered MMPs in biopsies of aged human skin.",
+            "ar-AE": "توجد طريقتان لحماية أو إعادة بناء مصفوفة الأدمة مدعومتان بتجارب بشرية عشوائية. في تجربة مجتمعية شملت 903 بالغين، أدى الاستخدام اليومي للواقي الشمسي لمدة أربع سنوات ونصف إلى إبطاء الشيخوخة الضوئية مقارنة بالاستخدام التقديري المتقطع (GRADE B). يُحسّن التريتينوين الموضعي الشيخوخة الضوئية باتساق عبر التجارب العشوائية، ويصنف دليل Aesthetic & Regenerative Endocrinology الرتينويدات الموضعية كخط أول، GRADE A. أدى الريتينول إلى تحسين التجاعيد الدقيقة في الجلد الطاعن في السن في تجربة صغيرة (C)، وخلال أسبوع رفع تصنيع الكولاجين وخفض بروتينات الماتريكس المعدنية (MMPs) في خزعات من جلد بشري مسن."
+          },
+          "points": [
+            {
+              "en": "Daily sunscreen: one large RCT (B)",
+              "ar-AE": "الواقي الشمسي اليومي: تجربة عشوائية محكومة واحدة كبيرة (B)"
+            },
+            {
+              "en": "Topical retinoids for photoageing: GRADE A",
+              "ar-AE": "الرتينويدات الموضعية للشيخوخة الضوئية: GRADE A"
+            },
+            {
+              "en": "Senolytics for skin: no clinical-outcome trials yet",
+              "ar-AE": "مضادات الشيخوخة الخلوية (Senolytics) للجلد: لا توجد تجارب ذات مخرجات سريرية حتى الآن"
+            }
+          ],
+          "citationRefs": [
+            "hughes-2013-sunscreen-skin-aging-rct",
+            "sitohang-2022-tretinoin-sr",
+            "kafi-2007-retinol-aged-skin",
+            "varani-2000-retinol-aged-skin",
+            "fisher-2002-photoaging-mechanisms",
+            "hannah-shmouni-2026-are"
+          ],
+          "sourceNote": "Hughes 2013 · Sitohang 2022 · Kafi 2007 · Varani 2000 · Fisher 2002 · Aesthetic & Regenerative Endocrinology, ch. 5",
+          "audioBeats": [
+            {
+              "title": {
+                "en": "Sun protection",
+                "ar-AE": "الحماية من الشمس"
+              },
+              "body": {
+                "en": "A publicly funded Australian trial of 903 adults: daily sunscreen meant about a quarter less skin ageing over four and a half years.",
+                "ar-AE": "تجربة أسترالية ممولة من القطاع العام شملت 903 بالغين: أدى الاستخدام اليومي للواقي الشمسي إلى تقليل شيخوخة الجلد بنحو الربع على مدار أربع سنوات ونصف."
+              }
+            },
+            {
+              "title": {
+                "en": "Retinoids",
+                "ar-AE": "الرتينويدات"
+              },
+              "body": {
+                "en": "Consistent randomized trials for tretinoin in photoaged skin; the guide's GRADE A. Retinol has smaller trials, including one in very old skin.",
+                "ar-AE": "تجارب عشوائية متسقة للتريتينوين في الجلد المصاب بالشيخوخة الضوئية؛ تصنيف الدليل GRADE A. يمتلك الريتينول تجارب أصغر، بما في ذلك تجربة واحدة في الجلد الطاعن في السن."
+              }
+            },
+            {
+              "title": {
+                "en": "Senotherapies",
+                "ar-AE": "العلاجات الموجهة للشيخوخة الخلوية (Senotherapies)"
+              },
+              "body": {
+                "en": "Biomarker pilots only, so far. They sit below the levers that already have outcome data.",
+                "ar-AE": "دراسات أولية تجريبية للعلامات الحيوية فقط حتى الآن. وهي تأتي في مرتبة أدنى من التدخلات التي تمتلك بالفعل بيانات مخرجات سريرية."
+              }
+            }
+          ],
+          "metadata": {
+            "audioScript": {
+              "en": "Set the senescence story beside the interventions that have been tested in people. In Nambour, Australia, a publicly funded trial randomised 903 adults to daily or discretionary sunscreen, and over four and a half years skin ageing was about a quarter lower with daily use. Topical tretinoin has a run of randomised trials in photoaged skin that agree with one another, and the Aesthetic and Regenerative Endocrinology guide rates topical retinoids first-line, grade A. Retinol has smaller trials, including one in residents in their late eighties whose fine wrinkling improved and whose biopsies showed more procollagen. Both levers protect or rebuild the dermal matrix that ultraviolet light and, it is thought, the SASP erode, and both have human outcome data. Senolytics for skin have no such data yet. Keep that order in mind when a patient asks what actually works.",
+              "ar-AE": "ضع مسألة الشيخوخة الخلوية إلى جانب التدخلات التي تم اختبارها على البشر. في نامبور، أستراليا، خصصت تجربة ممولة من القطاع العام 903 بالغين عشوائياً للواقي الشمسي اليومي أو التقديري، وعلى مدار أربع سنوات ونصف كانت شيخوخة الجلد أقل بنحو الربع مع الاستخدام اليومي. يمتلك التريتينوين الموضعي سلسلة من التجارب العشوائية المتوافقة مع بعضها في الجلد المصاب بالشيخوخة الضوئية، ويصنف دليل Aesthetic and Regenerative Endocrinology الرتينويدات الموضعية كخط أول، Grade A. يمتلك الريتينول تجارب أصغر، بما في ذلك تجربة على مقيمين في أواخر الثمانينيات من العمر تحسنت لديهم التجاعيد الدقيقة وأظهرت خزعاتهم زيادة في طليعة الكولاجين (procollagen). تحمي كلتا الوسيلتين مصفوفة الأدمة التي تؤدي الأشعة فوق البنفسجية، ويُعتقد أن النمط الظاهري الإفرازي المرتبط بالشيخوخة (SASP) يؤدي أيضاً، إلى تآكلها، أو تعيد بنائها، وتتوفر لكلتيهما بيانات مخرجات بشرية. أما مضادات الشيخوخة الخلوية للجلد فلا تتوفر لها مثل هذه البيانات حتى الآن. ضع هذا الترتيب في الحسبان عندما تسأل مريضة عما ينجح بالفعل."
+            }
+          },
+          "imageBrief": {
+            "prompt": "A cross-section of skin, epidermis above and dermis below. On the skin surface lies a thin translucent protective film, and simple straight sun rays coming from the upper left stop at the film and turn back. Beside the film, a few small droplets rest on the surface and soak into the upper skin toward fibroblasts. In the dermis beneath, collagen bundles are dense, wavy and well organised, drawn in violet. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+            "aspectRatio": "16:9",
+            "styleRef": "house",
+            "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+            "assetRef": "asset-hormones-peptides-skin-image-m1-p16-img"
+          },
+          "teachingVisual": {
+            "assetRef": "asset-hormones-peptides-skin-image-m1-p16-img",
+            "alt": {
+              "en": "A skin cross-section with a thin protective film turning back sun rays and a few drops soaking in, above dense, orderly collagen in the dermis.",
+              "ar-AE": "مقطع عرضي للجلد يظهر غشاءً واقياً رقيقاً يعكس أشعة الشمس مع امتصاص بضع قطرات، فوق كولاجين كثيف ومنتظم في الأدمة."
+            },
+            "treatment": "cover",
+            "position": "top"
+          },
+          "assetRefs": [
+            "m1-p16-narration-ar-AE"
+          ]
+        },
+        {
+          "id": "m1-x05",
+          "type": "tool",
+          "time": "22 / 25",
+          "lead": {
+            "en": "Practice",
+            "ar-AE": "تطبيق سريري"
+          },
+          "title": {
+            "en": "From the dish to the trial.",
+            "ar-AE": "من طبق المختبر إلى التجربة السريرية."
+          },
+          "body": {
+            "en": "Six findings from this lesson, and the evidence under each.",
+            "ar-AE": "ست نتائج من هذا الدرس، والأدلة الداعمة لكل منها."
+          },
+          "citationRefs": [
+            "hughes-2013-sunscreen-skin-aging-rct",
+            "sitohang-2022-tretinoin-sr",
+            "hannah-shmouni-2026-are",
+            "waaijer-2016-p16-wrinkles",
+            "chung-2019-topical-rapamycin",
+            "hickson-2019-senolytic-dkd-pilot",
+            "haykal-2026-dermatology-senotherapeutics",
+            "baker-2016-p16-clearance-mice",
+            "xu-2018-senolytics-mice",
+            "coppe-2008-sasp"
+          ],
+          "sourceNote": "Hughes 2013 · Sitohang 2022 · Waaijer 2016 · Chung 2019 · Hickson 2019 · Haykal 2026 · Baker 2016 · Xu 2018 · Coppé 2008 · Aesthetic & Regenerative Endocrinology, ch. 5 and 7",
+          "interaction": {
+            "kind": "classify",
+            "title": {
+              "en": "What stands behind it?",
+              "ar-AE": "ما الذي يستند إليه ذلك؟"
+            },
+            "prompt": {
+              "en": "Sort each finding by the strongest evidence behind it.",
+              "ar-AE": "صنّف كل نتيجة حسب أقوى الأدلة الداعمة لها."
+            },
+            "labels": [
+              {
+                "value": "trial",
+                "label": {
+                  "en": "Randomized trials with clinical skin outcomes",
+                  "ar-AE": "تجارب عشوائية ذات مخرجات سريرية جلدية"
+                },
+                "tone": "good"
+              },
+              {
+                "value": "human",
+                "label": {
+                  "en": "Human association or biomarker pilots",
+                  "ar-AE": "ارتباط بشري أو دراسات أولية تجريبية للعلامات الحيوية"
+                },
+                "tone": "neutral"
+              },
+              {
+                "value": "lab",
+                "label": {
+                  "en": "Mice or cultured cells only",
+                  "ar-AE": "فئران أو خلايا مستنبتة فقط"
+                },
+                "tone": "neutral"
+              }
+            ],
+            "items": [
+              {
+                "id": "daily-sunscreen",
+                "label": {
+                  "en": "Daily sunscreen for four and a half years slowed photoageing",
+                  "ar-AE": "الواقي الشمسي اليومي لمدة أربع سنوات ونصف أبطأ الشيخوخة الضوئية"
+                },
+                "answer": "trial",
+                "why": {
+                  "en": "GRADE B. A community trial randomized 903 adults to daily or discretionary sunscreen, and skin ageing was about a quarter lower with daily use.",
+                  "ar-AE": "GRADE B. وزعت تجربة مجتمعية عشوائياً 903 بالغين لاستخدام الواقي الشمسي يومياً أو تقديرياً، وكانت شيخوخة الجلد أقل بنحو الربع مع الاستخدام اليومي."
+                }
+              },
+              {
+                "id": "tretinoin",
+                "label": {
+                  "en": "Topical tretinoin improves photoageing",
+                  "ar-AE": "التريتينوين الموضعي يحسّن الشيخوخة الضوئية"
+                },
+                "answer": "trial",
+                "why": {
+                  "en": "Randomized trials of tretinoin in photoaged skin agree with one another, and the guide rates topical retinoids first-line, GRADE A.",
+                  "ar-AE": "تتفق التجارب العشوائية للتريتينوين في الجلد المصاب بالشيخوخة الضوئية مع بعضها، ويصنف الدليل الرتينويدات الموضعية كخط أول، GRADE A."
+                }
+              },
+              {
+                "id": "p16-wrinkles",
+                "label": {
+                  "en": "More p16-positive cells in arm skin went with more facial wrinkles and an older look",
+                  "ar-AE": "ترافق زيادة الخلايا الإيجابية لـ p16 في جلد الذراع مع زيادة تجاعيد الوجه وظهور مظهر أكبر سناً"
+                },
+                "answer": "human",
+                "why": {
+                  "en": "An association from one observational cohort of 178 adults. It does not show that senescent cells cause wrinkles.",
+                  "ar-AE": "ارتباط من أتراب رصدي واحد شمل 178 بالغاً. لا يثبت ذلك أن الخلايا الهرمة تسبب التجاعيد."
+                }
+              },
+              {
+                "id": "rapamycin-p16",
+                "label": {
+                  "en": "Topical rapamycin lowered p16 in human skin",
+                  "ar-AE": "الراباميسين الموضعي خفض مستويات p16 في جلد الإنسان"
+                },
+                "answer": "human",
+                "why": {
+                  "en": "An exploratory randomized trial (36 enrolled, 19 dropped out) that measured a tissue marker; clinical change was only described. No adequately sized trial with clinical skin-ageing outcomes was found (September 2026).",
+                  "ar-AE": "تجربة عشوائية استكشافية (تم تسجيل 36، وانسحب 19) قاست علامة نسيجية؛ وتم وصف التغير السريري وصفاً فقط. لم يتم العثور على أي تجربة ذات حجم ملائم مع مخرجات سريرية لشيخوخة الجلد (سبتمبر 2026)."
+                }
+              },
+              {
+                "id": "mouse-clearance",
+                "label": {
+                  "en": "Clearing p16-positive cells, or giving senolytic drugs, extends healthy lifespan",
+                  "ar-AE": "التخلص من الخلايا الإيجابية لـ p16، أو إعطاء أدوية حالّة للشيخوخة الخلوية، يطيل العمر الصحي"
+                },
+                "answer": "lab",
+                "why": {
+                  "en": "Causation, in mice. Skin was checked only for safety, and clearing these cells during healing slowed wound closure.",
+                  "ar-AE": "علاقة سببية، في الفئران. تم فحص الجلد للأمان فقط، وأدى التخلص من هذه الخلايا أثناء الالتئام إلى إبطاء انغلاق الجروح."
+                }
+              },
+              {
+                "id": "sasp-culture",
+                "label": {
+                  "en": "Senescent cells release IL-6, IL-8, matrix-degrading enzymes and growth factors",
+                  "ar-AE": "تفرز الخلايا الهرمة IL-6 و IL-8 وإنزيمات هادمة للمصفوفة وعوامل نمو"
+                },
+                "answer": "lab",
+                "why": {
+                  "en": "The SASP was characterised in human cells grown in the laboratory after DNA damage: a finding from the dish.",
+                  "ar-AE": "تم توصيف SASP في خلايا بشرية مستنبتة في المختبر بعد تلف الحمض النووي (DNA): وهي نتيجة من طبق المختبر."
+                }
+              }
+            ],
+            "done": {
+              "en": "Sunscreen and tretinoin have randomized trials with clinical skin outcomes; the senescence findings stop at human association, biomarker pilots, mice and the dish.",
+              "ar-AE": "يمتلك الواقي الشمسي والتريتينوين تجارب عشوائية ذات مخرجات جلدية سريرية؛ أما نتائج الشيخوخة الخلوية فتتوقف عند حد الارتباط البشري، والدراسات الأولية للعلامات الحيوية، والفئران، وأطباق المختبر."
+            },
+            "citationRefs": [
+              "hughes-2013-sunscreen-skin-aging-rct",
+              "sitohang-2022-tretinoin-sr",
+              "hannah-shmouni-2026-are",
+              "waaijer-2016-p16-wrinkles",
+              "chung-2019-topical-rapamycin",
+              "hickson-2019-senolytic-dkd-pilot",
+              "haykal-2026-dermatology-senotherapeutics",
+              "baker-2016-p16-clearance-mice",
+              "xu-2018-senolytics-mice",
+              "coppe-2008-sasp"
+            ],
+            "source": "authored:2026-09-25 from m1-p13, m1-p14, m1-p15, m1-p16"
+          },
+          "metadata": {
+            "activity": {
+              "version": "1.1",
+              "sources": [
+                "m1-p16 body, sentences 1–3",
+                "m1-p16 audioScript, sentences 2–3 and 5",
+                "m1-p16 audioBeats 3 ('Senotherapies'), sentence 1",
+                "m1-p15 body, sentence 1",
+                "m1-p15 tool, rows 'Human evidence', 'Animal evidence' and 'Open question' (notes)",
+                "m1-p14 body, sentence 1; stat.detail; stat.doesNot, sentences 1–2",
+                "m1-p13 points 2; audioScript, sentence 5"
+              ]
+            }
+          }
+        },
+        {
+          "id": "m1-p17",
+          "type": "audio",
+          "time": "23 / 25",
+          "lead": {
+            "en": "Fictional case",
+            "ar-AE": "حالة افتراضية"
+          },
+          "title": {
+            "en": "'Can a senolytic fix my skin?'",
+            "ar-AE": "\"هل يمكن لمضاد الشيخوخة الخلوية أن يصلح جلدي؟\""
+          },
+          "body": {
+            "en": "A 58-year-old patient has read that senolytic supplements 'clear zombie cells' and reverse skin ageing, and asks whether to start one she found online. She does not use sunscreen daily. The case is fictional and built from the lesson's evidence; decide your first move.",
+            "ar-AE": "قرأت مريضة تبلغ من العمر 58 عاماً أن مكملات مضادات الشيخوخة الخلوية (senolytic) \"تتخلص من خلايا الزومبي\" وتعكس شيخوخة الجلد، وتسأل عما إذا كان ينبغي البدء بتناول مكمل وجدته على الإنترنت. لا تستخدم الواقي الشمسي يومياً. الحالة افتراضية ومبنية على أدلة الدرس؛ حدد خطوتك الأولى."
+          },
+          "points": [
+            {
+              "en": "Senescent cells in human skin: real, and linked with visible ageing",
+              "ar-AE": "الخلايا الهرمة في جلد الإنسان: حقيقية، ومرتبطة بالشيخوخة الظاهرة"
+            },
+            {
+              "en": "Clearing them: mouse evidence and small human biomarker pilots",
+              "ar-AE": "التخلص منها: أدلة في الفئران ودراسات أولية تجريبية بشرية صغيرة للعلامات الحيوية"
+            },
+            {
+              "en": "Sunscreen and retinoids: randomized human trials",
+              "ar-AE": "الواقي الشمسي والرتينويدات: تجارب بشرية عشوائية"
+            }
+          ],
+          "citationRefs": [
+            "waaijer-2016-p16-wrinkles",
+            "baker-2016-p16-clearance-mice",
+            "hickson-2019-senolytic-dkd-pilot",
+            "hughes-2013-sunscreen-skin-aging-rct",
+            "sitohang-2022-tretinoin-sr",
+            "hannah-shmouni-2026-are"
+          ],
+          "sourceNote": "Fictional case · Waaijer 2016 · Baker 2016 · Hickson 2019 · Hughes 2013 · Sitohang 2022 · Aesthetic & Regenerative Endocrinology, ch. 17",
+          "audioBeats": [
+            {
+              "title": {
+                "en": "What she read",
+                "ar-AE": "ما قرأته"
+              },
+              "body": {
+                "en": "That senolytic supplements clear senescent cells and reverse skin ageing.",
+                "ar-AE": "أن مكملات مضادات الشيخوخة الخلوية تتخلص من الخلايا الهرمة وتعكس شيخوخة الجلد."
+              }
+            },
+            {
+              "title": {
+                "en": "What is known",
+                "ar-AE": "ما هو معروف"
+              },
+              "body": {
+                "en": "Senescent cells track with visible ageing in human skin; clearing them helps in mice; human data are small biomarker pilots.",
+                "ar-AE": "تترافق الخلايا الهرمة مع الشيخوخة الظاهرة في جلد الإنسان؛ والتخلص منها يفيد الفئران؛ والبيانات البشرية تقتصر على دراسات أولية تجريبية صغيرة للعلامات الحيوية."
+              }
+            },
+            {
+              "title": {
+                "en": "What has trials",
+                "ar-AE": "ما تتوفر له تجارب سريرية"
+              },
+              "body": {
+                "en": "Daily sunscreen and topical retinoids have randomized trials with visible skin outcomes.",
+                "ar-AE": "يمتلك الواقي الشمسي اليومي والرتينويدات الموضعية تجارب عشوائية ذات مخرجات جلدية ظاهرة."
+              }
+            }
+          ],
+          "interaction": {
+            "kind": "scenario",
+            "title": {
+              "en": "What do you do first?",
+              "ar-AE": "ما الإجراء الأول الذي تتخذه؟"
+            },
+            "setup": {
+              "en": "A 58-year-old patient has read that senolytic supplements 'clear zombie cells' and reverse skin ageing, and asks whether to start one she found online. She does not use sunscreen daily.",
+              "ar-AE": "قرأت مريضة تبلغ من العمر 58 عاماً أن مكملات مضادات الشيخوخة الخلوية \"تتخلص من خلايا الزومبي\" وتعكس شيخوخة الجلد، وتسأل عما إذا كان ينبغي البدء بتناول مكمل وجدته على الإنترنت. لا تستخدم الواقي الشمسي يومياً."
+            },
+            "notice": [
+              {
+                "en": "Senescent cells do accumulate in human skin and track with wrinkles and perceived age",
+                "ar-AE": "تتراكم الخلايا الهرمة بالفعل في جلد الإنسان وتترافق مع التجاعيد والعمر المتصور"
+              },
+              {
+                "en": "The evidence that clearing them helps comes from mice; human studies are small pilots measuring tissue markers",
+                "ar-AE": "الدليل على أن التخلص منها مفيد يأتي من الفئران؛ والدراسات البشرية هي دراسات أولية تجريبية صغيرة تقيس علامات الأنسجة"
+              },
+              {
+                "en": "Daily sunscreen and topical retinoids have randomized trials with visible skin outcomes",
+                "ar-AE": "يمتلك الواقي الشمسي اليومي والرتينويدات الموضعية تجارب عشوائية ذات مخرجات جلدية ظاهرة"
+              }
+            ],
+            "options": [
+              {
+                "value": "start-senolytic",
+                "label": {
+                  "en": "Support a trial of the supplement: senescent cells clearly age skin, so clearing them should help.",
+                  "ar-AE": "دعم تجربة المكمل الغذائي: من الواضح أن الخلايا الهرمة تسبب شيخوخة الجلد، لذا فإن التخلص منها يفترض أن يفيد."
+                },
+                "why": {
+                  "en": "The human evidence is an association and the clearing evidence is in mice. No trial has tested senolytics on skin-ageing outcomes.",
+                  "ar-AE": "الدليل البشري مجرد ارتباط ودليل التخلص منها لدى الفئران. لم تختبر أي تجربة مضادات الشيخوخة الخلوية على مخرجات شيخوخة الجلد."
+                }
+              },
+              {
+                "value": "evidence-first",
+                "label": {
+                  "en": "Explain what is known in people and what only in mice, point her to the measures with trials (daily sunscreen, and a topical retinoid discussed with a prescriber), and mention that senolytics are being studied in trials.",
+                  "ar-AE": "اشرح ما هو معروف لدى البشر وما يقتصر على الفئران فقط، ووجّهها نحو التدابير المدعومة بتجارب سريرية (الواقي الشمسي اليومي، ورتينويد موضعي تتم مناقشته مع ممارس مرخّص للوصف)، واذكر أن مضادات الشيخوخة الخلوية قيد الدراسة في تجارب سريرية."
+                },
+                "correct": true,
+                "why": {
+                  "en": "Right. It keeps the registers apart and moves her toward the levers with human outcome data. The guide advises that senolytics generally be confined to clinical trials.",
+                  "ar-AE": "صحيح. هذا يفصل بين مستويات الأدلة ويوجهها نحو الوسائل التي تمتلك بيانات مخرجات بشرية. ينصح الدليل بحصر مضادات الشيخوخة الخلوية عموماً ضمن التجارب السريرية."
+                }
+              },
+              {
+                "value": "dismiss",
+                "label": {
+                  "en": "Tell her senescence is a mouse phenomenon with no relevance to human skin.",
+                  "ar-AE": "إخبارها بأن الشيخوخة الخلوية ظاهرة خاصة بالفئران لا صلة لها بجلد الإنسان."
+                },
+                "why": {
+                  "en": "Senescent cells are measurable in human skin and track with wrinkles and perceived age. The biology is real; the treatment evidence is what is missing.",
+                  "ar-AE": "الخلايا الهرمة قابلة للقياس في جلد الإنسان وتترافق مع التجاعيد والعمر الملحوظ. الجانب البيولوجي حقيقي؛ أما الأدلة العلاجية فهي ما يزال مفقوداً."
+                }
+              }
+            ],
+            "followUp": {
+              "en": "Then record what she was considering and what you advised, including any product she has already bought.",
+              "ar-AE": "ثم سجّل ما كانت تفكر فيه وما نصحتها به، بما في ذلك أي منتج اشترته بالفعل."
+            },
+            "citationRefs": [
+              "waaijer-2016-p16-wrinkles",
+              "baker-2016-p16-clearance-mice",
+              "hickson-2019-senolytic-dkd-pilot",
+              "hughes-2013-sunscreen-skin-aging-rct",
+              "sitohang-2022-tretinoin-sr",
+              "hannah-shmouni-2026-are"
+            ],
+            "source": "authored:2026-09-24 from registry m01 claims c-m01-16, -18, -19, -20 + Aesthetic & Regenerative Endocrinology ch.17 clinical pearl"
+          },
+          "metadata": {
+            "audioScript": {
+              "en": "Consider a fifty-eight-year-old patient, fictional and built from this lesson's evidence. She has read that senolytic supplements clear so-called zombie cells and reverse skin ageing, and she asks whether to start one she found online. She does not wear sunscreen every day. Three facts frame the conversation. Senescent cells really do accumulate in human skin, and their number tracks with wrinkles and with how old a person looks. The evidence that clearing them helps comes from mice, and the human studies so far are small pilots measuring markers in tissue. Daily sunscreen and topical retinoids, by contrast, have randomised trials with visible skin outcomes. The Aesthetic and Regenerative Endocrinology guide advises keeping senolytics within clinical trials. Decide what you say first.",
+              "ar-AE": "ضع في اعتبارك مريضة تبلغ من العمر 58 عاماً، وهي حالة افتراضية مستندة إلى أدلة هذا الدرس. لقد قرأت أن مكملات مزيلات الخلايا الهرمة تزيل ما يُعرف بـ 'خلايا الزومبي' وتعكس شيخوخة الجلد، وتسأل عما إذا كان ينبغي لها البدء في تناول مكمل وجدته عبر الإنترنت. هي لا تضع واقياً من الشمس يومياً. تؤطر ثلاث حقائق هذه المحادثة: تتراكم الخلايا الهرمة بالفعل في جلد الإنسان، ويتوافق عددها مع التجاعيد ومع مظهر عمر الشخص. أما الأدلة على أن إزالتها مفيدة فمصدرها الفئران، والدراسات البشرية حتى الآن هي تجارب استطلاعية صغيرة تقيس علامات في الأنسجة. في المقابل، فإن الواقي الشمسي اليومي والريتينويدات الموضعية مدعومة بتجارب عشوائية ذات نتائج سريرية مرئية على الجلد. ينصح دليل الغدد الصماء التجميلية والتجديدية بإبقاء مزيلات الخلايا الهرمة ضمن إطار التجارب السريرية. حدد ما ستقوله أولاً."
+            },
+            "variants": {
+              "audienceLevel": {
+                "prescriber": {
+                  "en": "You weigh a prescription retinoid against her skin and history, document the discussion, and explain that senolytics are still at the pilot-study stage and belong in trials.",
+                  "ar-AE": "توازن بين وصف ريتينويد بوصفة طبية بناءً على حالة جلدها وتاريخها الطبي، وتوثق النقاش، وتوضح أن حالّات الشيخوخة الخلوية لا تزال في مرحلة الدراسات الاستطلاعية ومكانها المناسب هو التجارب السريرية."
+                },
+                "clinical-staff": {
+                  "en": "You record what she plans to buy and anything she already takes, share the evidence summary, and pass the retinoid question to the prescriber.",
+                  "ar-AE": "تسجل ما تخطط لشرائه وأي شيء تتناوله بالفعل، وتشارك ملخص الأدلة، وتحيل مسألة الريتينويد إلى الطبيب الواصف."
+                },
+                "advisor": {
+                  "en": "You explain the difference between mouse and human evidence, reinforce daily sunscreen, and suggest a prescriber for a retinoid or if she wants to explore a trial.",
+                  "ar-AE": "تشرح الفرق بين أدلة الفئران والأدلة البشرية، وتؤكد على الواقي الشمسي اليومي، وتقترح استشارة طبيب واصف للريتينويد أو إذا كانت ترغب في استكشاف المشاركة في تجربة سريرية."
+                }
+              }
+            }
+          },
+          "imageBrief": {
+            "prompt": "An evidence staircase of three plain paper steps rising from left to right. On the lowest step sits a shallow laboratory culture dish; on the middle step a small mouse silhouette; on the top step two neat parallel columns of identical round tokens, one violet and one grey, standing for a randomized trial in people, with a thin translucent protective film shape lying beside them. A single plain, unmarked capsule outlined in violet rests on the middle step beside the mouse. Rendered as a flat cut-paper scientific illustration: matte paper shapes with fine near-black ink outlines, warm greys and ivory, a pale violet wash for context, and saturated violet #5A4BC4 reserved for the one element this moment is about. Composition for a wide 16:9 frame: the subject is placed high, starting just below the top margin, and ends by 60 percent of the frame height, with calm side margins; everything below that is empty paper, continuous with the ground — no band, strip, shelf, frame or brackets. Completely wordless.",
+            "aspectRatio": "16:9",
+            "styleRef": "house",
+            "negative": "no text of any kind, no letters, no words, no numbers, no labels, no legends, no captions, no arrows carrying text, no watermarks, no logos, no brand marks; no faces or identifiable people; no syringes, needles or vials; no product packaging, bottles, jars, tubes or boxes; no charts, graphs, axes or data plots; no photorealism, no stock-photo gloss, no 3D chrome; no neon, no glow, no holograms, no robots, no glowing brains; no DNA helix; no second accent colour",
+            "assetRef": "asset-hormones-peptides-skin-image-m1-p17-img"
+          },
+          "teachingVisual": {
+            "assetRef": "asset-hormones-peptides-skin-image-m1-p17-img",
+            "alt": {
+              "en": "Three steps of evidence, from a culture dish to a mouse to a human trial; an unmarked capsule sits on the mouse step, while a sun-protection film sits on the top step.",
+              "ar-AE": "ثلاث درجات من الأدلة، من طبق الزرع إلى الفأر ثم إلى التجربة البشرية؛ توجد كبسولة غير موسومة على درجة الفأر، بينما يستقر حاجز واقٍ من الشمس على الدرجة العليا."
+            },
+            "treatment": "cover",
+            "position": "top"
+          },
+          "assetRefs": [
+            "m1-p17-narration-ar-AE"
+          ]
+        },
+        {
+          "id": "m1-p18",
+          "type": "quiz",
+          "time": "24 / 25",
+          "lead": {
+            "en": "Your turn",
+            "ar-AE": "دورك الآن"
+          },
+          "title": {
+            "en": "Mouse, human, or both?",
+            "ar-AE": "فئران، أم بشر، أم كلاهما؟"
+          },
+          "body": {
+            "en": "One question to close lesson 1.3.",
+            "ar-AE": "سؤال واحد لاختتام الدرس 1.3."
+          },
+          "sourceNote": "Lesson 1.3",
+          "quiz": {
+            "id": "m1-q3",
+            "prompt": {
+              "en": "Which statement about senescence and skin ageing matches the evidence?",
+              "ar-AE": "أي العبارات حول الشيخوخة الخلوية وشيخوخة الجلد تتطابق مع الأدلة؟"
+            },
+            "options": [
+              {
+                "text": {
+                  "en": "Randomized trials show that senolytics reverse human skin ageing.",
+                  "ar-AE": "تُظهر التجارب العشوائية أن حالّات الشيخوخة الخلوية تعكس شيخوخة جلد الإنسان."
+                },
+                "why": {
+                  "en": "No randomized trial of a senolytic with clinical skin-ageing outcomes was found. Human data are small pilots measuring tissue markers.",
+                  "ar-AE": "لم يُعثر على أي تجربة عشوائية لحالّات الشيخوخة الخلوية ذات نتائج سريرية تتعلق بشيخوخة الجلد. تقتصر البيانات البشرية على دراسات استطلاعية صغيرة تقيس علامات في الأنسجة."
+                }
+              },
+              {
+                "text": {
+                  "en": "Senescence has been seen only in mice and cultured cells.",
+                  "ar-AE": "لوحظت الشيخوخة الخلوية في الفئران والخلايا المزروعة فقط."
+                },
+                "why": {
+                  "en": "p16-positive cells are measurable in human skin and become more common with age.",
+                  "ar-AE": "الخلايا الإيجابية لـ p16 قابلة للقياس في جلد الإنسان وتصبح أكثر شيوعاً مع التقدم في السن."
+                }
+              },
+              {
+                "text": {
+                  "en": "In human skin, senescent cells increase with age and track with wrinkles; the evidence that clearing them improves ageing comes from mice.",
+                  "ar-AE": "في جلد الإنسان، تزداد الخلايا الهرمة مع التقدم في السن وتترافق مع التجاعيد؛ أما الأدلة على أن إزالتها تحسن علامات الشيخوخة فمصدرها الفئران."
+                },
+                "why": {
+                  "en": "Correct. Human association, mouse causation: two registers, kept apart.",
+                  "ar-AE": "صحيح. الارتباط لدى البشر، والسببية لدى الفئران: مستويان يجب الفصل بينهما."
+                }
+              }
+            ],
+            "correct": 2,
+            "feedback": {
+              "en": "Name the species before you weigh the finding.",
+              "ar-AE": "حدد النوع الحيوي قبل تقييم النتيجة."
+            },
+            "pillar": "physiology",
+            "citationRefs": [
+              "waaijer-2016-p16-wrinkles",
+              "ressler-2006-p16-human-skin",
+              "baker-2016-p16-clearance-mice",
+              "xu-2018-senolytics-mice",
+              "hickson-2019-senolytic-dkd-pilot",
+              "chung-2019-topical-rapamycin"
+            ]
+          }
+        },
+        {
+          "id": "m1-p19",
+          "type": "action",
+          "time": "25 / 25",
+          "lead": {
+            "en": "Closing and commitment",
+            "ar-AE": "الختام والالتزام"
+          },
+          "title": {
+            "en": "Before my next skin-and-hormone conversation.",
+            "ar-AE": "قبل محادثتي القادمة حول الجلد والهرمونات."
+          },
+          "body": {
+            "en": "Build the checklist you will actually use. It is saved in My notes, in the Library.",
+            "ar-AE": "أنشئ قائمة التحقق التي ستستخدمها عملياً. سيتم حفظها في 'ملاحظاتي'، في المكتبة."
+          },
+          "sourceNote": "Module 01",
+          "citationRefs": [
+            "hannah-shmouni-2026-are",
+            "hughes-2013-sunscreen-skin-aging-rct",
+            "sitohang-2022-tretinoin-sr"
+          ],
+          "action": {
+            "prompt": {
+              "en": "Choose what you will do before your next conversation about skin and hormones",
+              "ar-AE": "اختر ما ستفعله قبل محادثتك القادمة حول الجلد والهرمونات"
+            },
+            "takeaway": {
+              "en": "Next module: systemic hormones in dermatologic practice, from 'cortisol face' versus Cushing's to estrogen and the menopausal dermis.",
+              "ar-AE": "الوحدة التالية: الهرمونات الجهازية في الممارسة الجلدية، من 'وجه الكورتيزول' مقابل متلازمة كوشينغ إلى الإستروجين وأدمة سن اليأس."
+            },
+            "suggestions": [
+              {
+                "en": "I will decide whether a skin finding is local or systemic before I treat it.",
+                "ar-AE": "سأحدد ما إذا كانت النتيجة الجلدية موضعية أم جهازية قبل علاجها."
+              },
+              {
+                "en": "I will ask which rung the evidence reaches: RNA map, tissue, animal or person.",
+                "ar-AE": "سأتساءل عن الدرجة التي تصل إليها الأدلة: خريطة RNA، أم الأنسجة، أم الحيوان، أم الإنسان."
+              },
+              {
+                "en": "I will start ageing conversations with sunscreen and retinoid evidence.",
+                "ar-AE": "سأبدأ النقاشات حول الشيخوخة بأدلة الواقي الشمسي والريتينويد."
+              }
+            ]
+          },
+          "metadata": {
+            "clozePrefix": {
+              "en": "Before my next skin-and-hormone conversation I will",
+              "ar-AE": "قبل محادثتي القادمة حول الجلد والهرمونات سأقوم بما يلي"
+            },
+            "clozeSuffix": {
+              "en": ".",
+              "ar-AE": "."
+            },
+            "variants": {
+              "audienceLevel": {
+                "prescriber": {
+                  "en": "Your checklist ends with the systemic screen: a skin sign that points to an endocrine disorder is assessed or referred before any cosmetic plan.",
+                  "ar-AE": "تنتهي قائمة التحقق الخاصة بك بالمسح الجهازي: أي علامة جلدية تشير إلى اضطراب صماوي يتم تقييمها أو إحالتها قبل أي خطة تجميلية."
+                },
+                "clinical-staff": {
+                  "en": "Your checklist ends with escalation: new striae, rapid bruising, virilisation or sudden hair change go to the prescriber before the next treatment.",
+                  "ar-AE": "تنتهي قائمة التحقق الخاصة بك بالتصعيد: التشققات الجلدية الجديدة، أو التكدم السريع، أو التذكير، أو التغير المفاجئ في الشعر تُحال إلى الطبيب الواصف قبل العلاج التالي."
+                },
+                "advisor": {
+                  "en": "Your checklist ends with referral: product questions you can answer; systemic signs and prescription questions go to a prescriber.",
+                  "ar-AE": "تنتهي قائمة التحقق الخاصة بك بالإحالة: الأسئلة المتعلقة بالمنتجات يمكنك الإجابة عليها؛ بينما العلامات الجهازية والأسئلة المتعلقة بالأدوية الموصوفة تُحال إلى الطبيب الواصف."
+                }
+              }
+            }
+          },
+          "interaction": {
+            "kind": "chips",
+            "title": {
+              "en": "Your skin-physiology checklist",
+              "ar-AE": "قائمة التحقق الخاصة بك لفيزيولوجيا الجلد"
+            },
+            "prompt": {
+              "en": "Tap everything you will do. Choose as many as you like.",
+              "ar-AE": "انقر فوق كل ما ستقوم به. اختر ما تشاء منها."
+            },
+            "prefix": {
+              "en": "Before my next skin-and-hormone conversation I will",
+              "ar-AE": "قبل محادثتي القادمة حول الجلد والهرمونات سأقوم بما يلي"
+            },
+            "chips": [
+              {
+                "value": "direction",
+                "label": {
+                  "en": "decide whether the finding is local or systemic",
+                  "ar-AE": "تحديد ما إذا كانت النتيجة موضعية أم جهازية"
+                },
+                "group": "physiology"
+              },
+              {
+                "value": "screen",
+                "label": {
+                  "en": "read the skin as a screen for systemic endocrine disease",
+                  "ar-AE": "قراءة الجلد كأداة مسح للأمراض الصماوية الجهازية"
+                },
+                "group": "safety"
+              },
+              {
+                "value": "refer",
+                "label": {
+                  "en": "send striae with new hypertension, or rapid virilisation, for prompt assessment",
+                  "ar-AE": "إحالة التشققات الجلدية المصحوبة بارتفاع ضغط دم حديث، أو التذكير السريع، للتقييم العاجل"
+                },
+                "group": "safety"
+              },
+              {
+                "value": "rung",
+                "label": {
+                  "en": "ask which rung the evidence reaches: RNA, tissue, animal or person",
+                  "ar-AE": "السؤال عن الدرجة التي تصل إليها الأدلة: RNA، أم الأنسجة، أم الحيوان، أم الإنسان"
+                },
+                "group": "evidence"
+              },
+              {
+                "value": "species",
+                "label": {
+                  "en": "say whether a senescence finding comes from people or mice",
+                  "ar-AE": "توضيح ما إذا كانت نتيجة الشيخوخة الخلوية مستمدة من البشر أم الفئران"
+                },
+                "group": "evidence"
+              },
+              {
+                "value": "anchor",
+                "label": {
+                  "en": "start ageing conversations with sunscreen and retinoid evidence",
+                  "ar-AE": "بدء النقاشات حول الشيخوخة بأدلة الواقي الشمسي والريتينويد"
+                },
+                "group": "evidence"
+              }
+            ],
+            "suffix": {
+              "en": ".",
+              "ar-AE": "."
+            },
+            "pick": "many",
+            "citationRefs": [
+              "hannah-shmouni-2026-are",
+              "hughes-2013-sunscreen-skin-aging-rct",
+              "sitohang-2022-tretinoin-sr"
+            ],
+            "source": "authored:2026-09-24 from Aesthetic & Regenerative Endocrinology ch. 5–7 pearls and m1 tool items"
+          }
+        }
+      ],
+      "metadata": {
+        "lessons": [
+          {
+            "id": "1.1",
+            "title": {
+              "en": "The skin as a steroidogenic, endocrine organ",
+              "ar-AE": "الجلد كعضو مفرز للستيرويدات وعضو صماوي"
+            },
+            "blocks": [
+              "m1-p01",
+              "m1-opener",
+              "m1-p02",
+              "m1-p03",
+              "m1-p04",
+              "m1-p05",
+              "m1-x01",
+              "m1-p06",
+              "m1-x02",
+              "m1-p07"
+            ]
+          },
+          {
+            "id": "1.2",
+            "title": {
+              "en": "The Hormone Cell Atlas: receptor maps and what they prove",
+              "ar-AE": "أطلس الخلايا الهرمونية: خرائط المستقبلات وما تثبته"
+            },
+            "blocks": [
+              "m1-p08",
+              "m1-p09",
+              "m1-p10",
+              "m1-p11",
+              "m1-x03",
+              "m1-p12"
+            ]
+          },
+          {
+            "id": "1.3",
+            "title": {
+              "en": "Senescence, the SASP and the ageing dermis",
+              "ar-AE": "الشيخوخة الخلوية، وSASP والأدمة المتقدمة في السن"
+            },
+            "blocks": [
+              "m1-p13",
+              "m1-x04",
+              "m1-p14",
+              "m1-p15",
+              "m1-p16",
+              "m1-x05",
+              "m1-p17",
+              "m1-p18",
+              "m1-p19"
+            ]
+          }
+        ],
+        "audienceLevelPanes": [
+          "m1-p02 (router)",
+          "m1-p06",
+          "m1-p11",
+          "m1-p17",
+          "m1-p19"
+        ],
+        "authoredAt": "2026-09-24",
+        "source": "course-production/hormones-peptides-skin/authored/m01.json",
+        "localizedTutorContext": {
+          "en": "Module 1 teaches cutaneous neuro-immuno-endocrine physiology with every finding labelled by evidence type (mechanism, human evidence, regulatory status, open question). The skin is described as four immuno-endocrine units (epidermal, dermal, hypodermal, adnexal) that signal locally, via sensory nerves and via the circulation (mechanism reviews, D). Skin cells express CYP11A1, 11β-HSD1, 5α-reductase and aromatase and make cortisol, DHT and estradiol locally (cell/tissue work, D); human scalp follicles run an HPA-like loop with cortisol secretion and CRH feedback ex vivo (Ito 2005) and a GH/IGF-1 loop ex vivo (Horesh 2023); keratinocyte glucocorticoids restrain skin inflammation in mice (Phan 2021); the thyroid-like loop is mostly mouse data. Three directions: local loop; body to skin (Cushing striae, hypothyroid skin); skin to body (vitamin D3 released into the circulation, established human physiology; a skin contribution to circulating sex steroids per reviews). Refer systemic patterns promptly (violaceous striae with new hypertension or diabetes, rapid virilisation), per the Aesthetic & Regenerative Endocrinology guide. The Hormone Cell Atlas (Fei, Huang-Doran et al., Science 2026) read RNA of 379 hormone/receptor genes in ~14 million cells and nuclei from 47 tissues incl. skin; its authors call the predictions putative and hypothesis-generating: RNA is not protein, secretion or clinical effect. The guide's pearl that serum 25(OH)D falls with sunscreen use is not borne out by field trials of daily moderate-SPF sunscreen (Neale 2019, C; high SPF untested); never advise dropping sun protection. Senescence: p16-positive cells rise with age in human epidermis and dermis (C) and track with wrinkles and perceived age (Waaijer 2016, n=178, association, C); the SASP was defined in cultured cells (D); an MMP-1 collagen-fragmentation loop is shown in aged human dermis plus culture (D), with senescent cells a plausible, unproven driver; clearing senescent cells extends healthy lifespan in mice (D); human senotherapy data are small biomarker pilots (Hickson 2019 open-label n=9, D; Chung 2019 topical rapamycin exploratory RCT, C); no randomized trial with clinical skin-ageing outcomes (checked Sept 2026); the guide confines senolytics to trials. Levers with human trials: daily sunscreen (Hughes 2013, n=903, B), topical tretinoin for photoageing (GRADE A), retinol in very old skin (Kafi 2007, C). Never give doses, concentrations, regimens or sourcing; adapt 'what you do next' to the learner's role (prescriber, clinical staff, advisor) without changing evidence. No CME credit is currently offered.",
+          "ar-AE": "تُعلِّم الوحدة 1 الفيزيولوجيا العصبية المناعية الصماوية الجلدية مع تصنيف كل نتيجة وفق نوع الأدلة (آلية العمل، الأدلة البشرية، الوضع التنظيمي، مسألة مفتوحة). يُوصَف الجلد بأنه أربع وحدات مناعية صماوية (بشروية، أدمية، تحت أدمية، ملحقات جلدية) تُصدِر إشاراتها موضعياً وعبر الأعصاب الحسية وعبر الدورة الدموية (مراجعات آلية العمل، D). تُعبِّر خلايا الجلد عن CYP11A1 و11β-HSD1 و5α-reductase والأروماتاز، وتُنتج الكورتيزول والدي هيدروتيستوستيرون (DHT) والإستراديول موضعياً (أبحاث خلوية/نسيجية، D)؛ وتُشغِّل جريبات فروة الرأس البشرية حلقة شبيهة بالمحور الوطائي-النخامي-الكظري (HPA) مع إفراز الكورتيزول وتغذية راجعة بالـ CRH خارج الجسم الحي (Ito 2005) وحلقة هرمون النمو/عامل النمو الشبيه بالإنسولين-1 (GH/IGF-1) خارج الجسم الحي (Horesh 2023)؛ وتكبح الجلوكوكورتيكويدات في الخلايا الكيراتينية التهاب الجلد في الفئران (Phan 2021)؛ ومعظم بيانات الحلقة الشبيهة بالغدة الدرقية مأخوذة من الفئران. ثلاثة اتجاهات: حلقة موضعية؛ ومن الجسم إلى الجلد (فزر كوشينغ، جلد قصور الغدة الدرقية)؛ ومن الجلد إلى الجسم (إطلاق فيتامين D3 في الدورة الدموية، فيزيولوجيا بشرية مثبتة؛ وإسهام جلدي في الستيرويدات الجنسية في الدورة الدموية وفق مراجعات). يجب إحالة الأنماط الجهازية على الفور (فزر أرجوانية مع ارتفاع جديد في ضغط الدم أو داء السكري، استرجال سريع)، وفق دليل الغدد الصماء التجميلية والتجديدية (Aesthetic & Regenerative Endocrinology). قرأ أطلس خلايا الهرمونات (Hormone Cell Atlas) (Fei, Huang-Doran et al., Science 2026) الرنا التابع لـ 379 جين هرمون/مستقبل في نحو 14 مليون خلية ونواة من 47 نسيجاً بما في ذلك الجلد؛ ويصف مؤلفوه التنبؤات بأنها افتراضية ومولِّدة للفرضيات: فالرنا ليس بروتيناً ولا إفرازاً ولا تأثيراً سريرياً. الفائدة الواردة في الدليل ومفادها أن مصل 25(OH)D ينخفض مع استخدام واقي الشمس لا تدعمها التجارب الميدانية للواقي الشمسي اليومي ذي عامل الحماية المعتدل (SPF) (Neale 2019, C؛ عوامل الحماية المرتفعة لم تُختبر)؛ ولا تنصح أبداً بترك الحماية من الشمس. الشيخوخة الخلوية: ترتفع الخلايا الإيجابية لـ p16 مع التقدم في السن في البشرة والأدمة البشرية (C) وتتوازى مع التجاعيد والعمر الظاهري (Waaijer 2016, n=178، ترابط، C)؛ وقد تم تحديد النمط الظاهري الإفرازي المرتبط بالشيخوخة (SASP) في خلايا مستنبتة (D)؛ وثبتت حلقة تفتت الكولاجين بواسطة MMP-1 في الأدمة البشرية المسنّة بالإضافة إلى الزراعة الخلوية (D)، مع كون الخلايا المسنة محركاً محتملاً غير مثبت؛ ويؤدي استئصال الخلايا المسنة إلى إطالة العمر الصحي في الفئران (D)؛ أما بيانات العلاج المضاد للشيخوخة الخلوية (senotherapy) لدى البشر فهي مجرد دراسات استكشافية صغيرة للمؤشرات الحيوية (Hickson 2019 تجربة مفتوحة n=9, D؛ Chung 2019 تجربة عشوائية استكشافية للراباميسين الموضعي، C)؛ ولا توجد تجربة عشوائية ذات نتائج سريرية لشيخوخة الجلد (تم الفحص في سبتمبر 2026)؛ ويحصر الدليل حالّات الشيخوخة (senolytics) في التجارب فقط. التدخلات ذات التجارب البشرية: واقي الشمس اليومي (Hughes 2013, n=903, B)، وتريتينوين موضعي للشيخوخة الضوئية (GRADE A)، والريتينول في الجلد المسن للغاية (Kafi 2007, C). لا تقدِّم أبداً جرعات أو تراكيز أو أنظمة علاجية أو مصادر للحصول عليها؛ وكيِّف خطوة \"ما تفعله بعد ذلك\" وفق دور المتعلم (واصف للدواء، طاقم سريري، مستشار) دون تغيير الأدلة. لا تُمنح أي ساعات تعليم طبي مستمر (CME) حالياً."
+        }
+      }
+    }
+  ],
+  "check": {
+    "id": "m1-check",
+    "prompt": {
+      "en": "Closing Module 1 (fictional case). A 41-year-old with a low serum 25-hydroxyvitamin D says she will stop sunscreen because 'skin makes vitamin D'. Which reply keeps the physiology and the evidence straight?",
+      "ar-AE": "اختتام الوحدة 1 (حالة افتراضية). مريضة تبلغ من العمر 41 عاماً ولديها انخفاض في مستوى 25-هيدروكسي فيتامين D في المصل تقول إنها ستتوقف عن استخدام الواقي الشمسي لأن 'الجلد يصنع فيتامين D'. أي الردود يلتزم بالفيزيولوجيا والأدلة بدقة؟"
+    },
+    "options": [
+      {
+        "text": {
+          "en": "Vitamin D made in skin stays in the skin, so sunscreen cannot affect her blood level.",
+          "ar-AE": "فيتامين D المصنوع في الجلد يبقى في الجلد، لذا لا يمكن للواقي الشمسي أن يؤثر على مستواه في الدم."
+        },
+        "why": {
+          "en": "Skin-made vitamin D3 enters the circulation: the skin is acting as an endocrine gland for the whole body.",
+          "ar-AE": "فيتامين D3 المصنوع في الجلد يدخل إلى الدورة الدموية: يعمل الجلد كغدة صماء للجسم بأكمله."
+        }
+      },
+      {
+        "text": {
+          "en": "Skin synthesis does feed her blood level, but field trials of daily sunscreen did not lower 25-hydroxyvitamin D; keep sun protection and treat the low level as its own clinical question.",
+          "ar-AE": "يساهم التصنيع الجلدي بالفعل في رفع مستواه في الدم، لكن التجارب الميدانية للواقي الشمسي اليومي لم تخفض 25-هيدروكسي فيتامين D؛ حافظي على الحماية من الشمس وعالجي انخفاض المستوى كمسألة سريرية مستقلة."
+        },
+        "why": {
+          "en": "Correct. The signal runs skin to body, and the human trials, not the mechanism alone, set the advice.",
+          "ar-AE": "صحيح. تنتقل الإشارة من الجلد إلى الجسم، والتجارب البشرية هي التي تحدد النصيحة، وليس آلية العمل وحدها."
+        }
+      },
+      {
+        "text": {
+          "en": "The guide says sunscreen lowers vitamin D, so stopping it is reasonable.",
+          "ar-AE": "يذكر الدليل أن الواقي الشمسي يخفض فيتامين D، لذا فإن التوقف عنه أمر معقول."
+        },
+        "why": {
+          "en": "Real-life trials did not show a fall, and the guide itself says this biology never licenses unprotected sun exposure.",
+          "ar-AE": "لم تُظهر التجارب في الحياة الواقعية انخفاضاً، والدليل نفسه ينص على أن هذه البيولوجيا لا تبرر بأي حال التعرض لأشعة الشمس دون حماية."
+        }
+      }
+    ],
+    "correct": 1,
+    "feedback": {
+      "en": "Name the direction of the signal, then let the human evidence set the advice.",
+      "ar-AE": "حدد اتجاه الإشارة، ثم دع الأدلة البشرية توجه النصيحة."
+    },
+    "citationRefs": [
+      "holick-1980-previtamin-d3",
+      "bikle-2014-vitamin-d",
+      "neale-2019-sunscreen-vitamin-d",
+      "hannah-shmouni-2026-are"
+    ]
+  },
+  "metadata": {
+    "intakePlanModuleId": "module-01",
+    "scope": {
+      "en": "The skin as an endocrine organ; four immuno-endocrine microenvironments; local peripheral endocrine axes (HPA, thyroid, somatotropic, melanocortin); Hormone Cell Atlas cutaneous receptor distribution; endocrine senescence and SASP pathophysiology.",
+      "ar-AE": "الجلد كعضو صماوي؛ أربع بيئات مناعية صماوية دقيقة؛ المحاور الصماوية المحيطية الموضعية (HPA، الدرقي، الموجه الجسدي، الميلانوكورتين)؛ توزيع المستقبلات الجلدية في أطلس الخلايا الهرمونية؛ الشيخوخة الصماوية وفيزيولوجيا SASP المرضية."
+    },
+    "sourceSections": [
+      {
+        "id": "jbUNSyYUCm3woAe10XL90N-part-2",
+        "citation": "hannah-shmouni-2026-are",
+        "label": "Page 10 · section 2",
+        "topics": [
+          "Peptide signaling and regulatory frameworks",
+          "Circadian biology and neuroendocrine rhythms",
+          "Mechanisms of intrinsic and extrinsic skin aging"
+        ]
+      },
+      {
+        "id": "jbUNSyYUCm3woAe10XL90N-part-3",
+        "citation": "hannah-shmouni-2026-are",
+        "label": "Chapter 5 · The skin as an · section 3",
+        "topics": [
+          "Cutaneous endocrine physiology and hormone action",
+          "Cutaneous signs of systemic endocrine disease",
+          "Cosmetic and aesthetic endocrinology",
+          "Evidence levels for topical and systemic skin treatments"
+        ]
+      },
+      {
+        "id": "jbUNSyYUCm3woAe10XL90N-part-4",
+        "citation": "hannah-shmouni-2026-are",
+        "label": "Page 22 · section 4",
+        "topics": [
+          "Skin as a neuro-immuno-endocrine system",
+          "Cutaneous steroidogenesis and local endocrine axes",
+          "Hair follicle neuroendocrinology and immune privilege",
+          "Cutaneous microbiome and systemic immune interactions"
+        ]
+      },
+      {
+        "id": "jbUNSyYUCm3woAe10XL90N-part-5",
+        "citation": "hannah-shmouni-2026-are",
+        "label": "Page 28 · section 5",
+        "topics": [
+          "Cutaneous Neuro-Immuno-Endocrinology",
+          "Hormone Cell Atlas and Skin Compartments",
+          "Endocrine Senescence and SASP",
+          "Clinical Applications and Topical Therapeutics"
+        ]
+      }
+    ],
+    "assessmentPlan": "Case-based multiple-choice assessment evaluating learner ability to distinguish local cutaneous neuroendocrine feedback loops from systemic endocrine signaling.",
+    "lessons": [
+      {
+        "id": "1.1",
+        "title": {
+          "en": "The skin as a steroidogenic, endocrine organ",
+          "ar-AE": "الجلد كعضو مفرز للستيرويدات وعضو صماوي"
+        },
+        "blocks": [
+          "m1-p01",
+          "m1-opener",
+          "m1-p02",
+          "m1-p03",
+          "m1-p04",
+          "m1-p05",
+          "m1-x01",
+          "m1-p06",
+          "m1-x02",
+          "m1-p07"
+        ]
+      },
+      {
+        "id": "1.2",
+        "title": {
+          "en": "The Hormone Cell Atlas: receptor maps and what they prove",
+          "ar-AE": "أطلس الخلايا الهرمونية: خرائط المستقبلات وما تثبته"
+        },
+        "blocks": [
+          "m1-p08",
+          "m1-p09",
+          "m1-p10",
+          "m1-p11",
+          "m1-x03",
+          "m1-p12"
+        ]
+      },
+      {
+        "id": "1.3",
+        "title": {
+          "en": "Senescence, the SASP and the ageing dermis",
+          "ar-AE": "الشيخوخة الخلوية، وSASP والأدمة المتقدمة في السن"
+        },
+        "blocks": [
+          "m1-p13",
+          "m1-x04",
+          "m1-p14",
+          "m1-p15",
+          "m1-p16",
+          "m1-x05",
+          "m1-p17",
+          "m1-p18",
+          "m1-p19"
+        ]
+      }
+    ],
+    "literature": {
+      "registry": "course-production/hormones-peptides-skin/citations/m01.json",
+      "worksheet": "course-production/hormones-peptides-skin/citations/m01.md",
+      "verifiedAt": "2026-09-24",
+      "citations": 34,
+      "claims": 20,
+      "grader": "Graded 2026-09-24 by the agent under Omar Saleem's delegation (\"you should be able to do that from the guide\"); rule set below; final review Dr. Hannah-Shmouni",
+      "finalReviewer": "Fady Hannah-Shmouni, MD FRCPC"
+    }
+  }
+}

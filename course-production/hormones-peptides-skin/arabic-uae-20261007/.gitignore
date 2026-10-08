@@ -1,0 +1,10 @@
+# Reproducible translation/voice caches and private build inputs remain on disk.
+batches/
+supplemental-batches/
+runtime-batches/
+preview-inputs/
+narration-ready.json
+narration-ready-scripts.json
+narration-m*.input.json
+narration-m*.manifest.json
+*.zip

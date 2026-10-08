@@ -1,0 +1,929 @@
+[
+  {
+    "path": "/provenance/citations/8/note",
+    "en": "primary regulatory source (register) · issuing authority · role: United Arab Emirates regulatory status · read 2026-09-25 · Baricitinib ingredient search: 2 rows (Olumiant 2 mg and 4 mg, both registered 8 Jun 2017).",
+    "ar": "مصدر تنظيمي أولي (سجل) · الجهة المصدرة · الدور: الوضع التنظيمي في الإمارات العربية المتحدة · تاريخ الاطلاع 2026-09-25 · البحث عن المادة الفعالة Baricitinib: أظهر صفين (Olumiant 2 mg و4 mg، كلاهما سُجل في 8 يونيو 2017).",
+    "sourceNumbers": [
+      "09",
+      "2",
+      "2",
+      "2017",
+      "2026",
+      "25",
+      "4",
+      "8"
+    ],
+    "targetNumbers": [
+      "09",
+      "2",
+      "2017",
+      "2026",
+      "25",
+      "4",
+      "8"
+    ]
+  },
+  {
+    "path": "/provenance/citations/31/note",
+    "en": "primary regulatory source (register) · issuing authority · role: Brazil regulatory status · read 2026-09-25 · in pt · Read in a browser (plain requests are blocked by Cloudflare). Queried product names SCENESSE, AFAMELANOTIDA, EGRIFTA, TESAMORELINA, RETATRUTIDA, MELANOTAN, SERMORELINA, IPAMORELINA, IBUTAMOREN, BPC, ZEPBOUND (0 results each) and PROPECIA, LONITEN (Inativo); substance dictionary has no entry for afamelanot*, tesamorel*, melanot*, retatrut*, sermorel*, ipamorel*, ibutamor*, catelicid*; substance-code search: tirzepatida = 2 products (Mounjaro, Mounjaro Multidose), semaglutida = 15 active products, baricitinibe = 1 (Olumiant).",
+    "ar": "مصدر تنظيمي أولي (سجل) · الجهة المصدرة · الدور: الوضع التنظيمي في البرازيل · تمت القراءة في 2026-09-25 · باللغة البرتغالية · تمت القراءة في المتصفح (يتم حظر الطلبات البسيطة بواسطة Cloudflare). تم الاستعلام عن أسماء المنتجات SCENESSE، و AFAMELANOTIDA، و EGRIFTA، و TESAMORELINA، و RETATRUTIDA، و MELANOTAN، و SERMORELINA، و IPAMORELINA، و IBUTAMOREN، و BPC، و ZEPBOUND (0 نتيجة لكل منها) و PROPECIA، و LONITEN (غير نشط Inativo)؛ لا يحتوي قاموس المواد على أي مدخل لـ afamelanot*، و tesamorel*، و melanot*، و retatrut*، و sermorel*، و ipamorel*، و ibutamor*، و catelicid*؛ البحث برمز المادة: tirzepatida = منتجان (Mounjaro، و Mounjaro Multidose)، و semaglutida = 15 منتجاً نشطاً، و baricitinibe = 1 (Olumiant).",
+    "sourceNumbers": [
+      "0",
+      "09",
+      "1",
+      "15",
+      "2",
+      "2026",
+      "25"
+    ],
+    "targetNumbers": [
+      "0",
+      "09",
+      "1",
+      "15",
+      "2026",
+      "25"
+    ]
+  },
+  {
+    "path": "/provenance/citations/63/note",
+    "en": "primary regulatory source (regulator) · issuing authority · role: Brazil regulatory status · read 2026-09-25 · in pt · 9th edition, 16 Jan 2025; question 79 (collagen).",
+    "ar": "مصدر تنظيمي أولي (جهة تنظيمية) · الجهة المصدرة · الدور: الوضع التنظيمي في البرازيل · تمت القراءة في 2026-09-25 · باللغة البرتغالية · الإصدار التاسع، 16 Jan 2025؛ السؤال 79 (الكولاجين).",
+    "sourceNumbers": [
+      "09",
+      "16",
+      "2025",
+      "2026",
+      "25",
+      "79",
+      "9"
+    ],
+    "targetNumbers": [
+      "09",
+      "16",
+      "2025",
+      "2026",
+      "25",
+      "79"
+    ]
+  },
+  {
+    "path": "/provenance/citations/161/note",
+    "en": "vehicle-controlled in vivo biopsy study, n=70 (40 postmenopausal women, 30 men, mean age 75), 2 weeks · academic (University of Michigan) · role: ERα, ERβ and GPR30 expressed similarly in aged and photoaged skin; topical estradiol raised procollagen I/III and collagen I in sun-protected hip skin but not in photoaged forearm or face · PMID 18794456 · registered NCT00113100; concentrations deliberately not reproduced",
+    "ar": "دراسة خزعة حية في الجسم الحي مضبوطة بالسواغ، العدد=70 (40 امرأة بعد سن اليأس، 30 رجلاً، متوسط العمر 75)، أسبوعان · أكاديمية (جامعة ميشيغان) · الدور: تم التعبير عن ERα وERβ وGPR30 بشكل متماثل في الجلد المتقدم في العمر والجلد المتضرر ضوئياً؛ رفع الإستراديول الموضعي طليعة الكولاجين I/III والكولاجين I في جلد الورك المحمي من الشمس ولكن ليس في الساعد أو الوجه المتضرر ضوئياً · PMID 18794456 · مسجلة برقم NCT00113100؛ لم يتم إيراد التركيزات عمداً",
+    "sourceNumbers": [
+      "00113100",
+      "18794456",
+      "2",
+      "30",
+      "30",
+      "40",
+      "70",
+      "75"
+    ],
+    "targetNumbers": [
+      "00113100",
+      "18794456",
+      "30",
+      "30",
+      "40",
+      "70",
+      "75"
+    ]
+  },
+  {
+    "path": "/provenance/citations/169/note",
+    "en": "systematic review + meta-analysis, 15 studies (1,589 patients), RCTs and non-randomized studies · academic; no funding declared · role: pooled: elasticity SMD 0.28 (4 studies, I² 76%), thickness 1.27 (3 trials, I² 95%), collagen 2.01 (2 studies, I² 98%), wrinkles −0.30 (2 trials incl. a topical cream, I² 64%), dryness no difference; authors state MHT should not be considered an independent treatment for skin ageing; KEEPS not included · PMID 38230593 · A&RE ch.9 ref 8; open access PMC10796198, read in full 2026-09-24",
+    "ar": "مراجعة منهجية + تحليل تجميعي، 15 دراسة (1,589 مريضاً)، تجارب عشوائية محكومة ودراسات غير عشوائية · أكاديمية؛ لم يُعلن عن تمويل · الدور: النتائج التجميعية: المرونة الفرق المعياري للمتوسط 0.28 (4 دراسات، I² 76%)، السماكة 1.27 (3 تجارب، I² 95%)، الكولاجين 2.01 (دراستان، I² 98%)، التجاعيد −0.30 (تجربتان تشملان كريماً موضعياً، I² 64%)، الجفاف لا يوجد فرق؛ يذكر المؤلفون أنه لا ينبغي اعتبار العلاج الهرموني لانقطاع الطمث علاجاً مستقلاً لشيخوخة الجلد؛ دراسة KEEPS غير مدرجة · PMID 38230593 · مرجع A&RE الفصل 9 رقم 8؛ وصول مفتوح PMC10796198، قُرئت بالكامل في 2026-09-24",
+    "sourceNumbers": [
+      "0.28",
+      "0.30",
+      "09",
+      "1,589",
+      "1.27",
+      "10796198",
+      "15",
+      "2",
+      "2",
+      "2.01",
+      "2026",
+      "24",
+      "3",
+      "38230593",
+      "4",
+      "64",
+      "76",
+      "8",
+      "9",
+      "95",
+      "98"
+    ],
+    "targetNumbers": [
+      "0.28",
+      "0.30",
+      "09",
+      "1,589",
+      "1.27",
+      "10796198",
+      "15",
+      "2.01",
+      "2026",
+      "24",
+      "3",
+      "38230593",
+      "4",
+      "64",
+      "76",
+      "8",
+      "9",
+      "95",
+      "98"
+    ]
+  },
+  {
+    "path": "/provenance/citations/188/note",
+    "en": "regulator guidance note · regulator · role: UK specials: the regulation 167 exemption is narrowly drawn because specials may not have been assessed for safety, quality and efficacy (1.5); an unlicensed product should not be supplied where an equivalent licensed product can meet the patient's special needs, and 'special need' excludes cost, convenience or operational needs (2.2–2.3); a UK-licensed product, even off-label, should be used before an unlicensed one (2.4); manufacturers need a Manufacturer's 'Specials' Licence and GMP-inspected sites (4.1); particular specials must not be advertised (7.1); products prepared in a pharmacy under section 10 are also unlicensed medicines (1.6); Appendix 2 hierarchy: UK licensed, then off-label, then imported licensed product, then UK special (GMP-inspected but otherwise unassessed), with products that are not medicines in their country of origin, such as supplements, least acceptable · Fetched live and read 2026-09-25 (HTTP 200). PDF read in full.",
+    "ar": "مذكرة إرشادية تنظيمية · هيئة تنظيمية · الدور: الأدوية المعدة حسب الطلب (specials) في المملكة المتحدة: يُطبق استثناء اللائحة 167 (regulation 167) بشكل ضيق لأن المستحضرات المعدة حسب الطلب قد لا تكون خضعت لتقييم السلامة والجودة والفعالية (1.5)؛ لا يجوز توريد منتج غير مرخص عندما يكون هناك منتج مرخص مكافئ قادر على تلبية الاحتياجات الخاصة للمريض، و'الاحتياج الخاص' يستثني التكلفة أو الملاءمة أو الاحتياجات التشغيلية (2.2–2.3)؛ يجب استخدام منتج مرخص في المملكة المتحدة، حتى لو كان خارج نطاق الترخيص المعتمد (off-label)، قبل اللجوء إلى منتج غير مرخص (2.4)؛ يحتاج المصنّعون إلى ترخيص تصنيع 'أدوية معدة حسب الطلب' ومواقع تخضع لتفتيش ممارسات التصنيع الجيد (GMP) (4.1)؛ يُحظر الإعلان عن مستحضرات معينة معدة حسب الطلب (7.1)؛ المستحضرات المحضرة في الصيدلية بموجب المادة 10 تُعد أيضاً أدوية غير مرخصة (1.6)؛ التسلسل الهرمي في الملحق 2: مرخص في المملكة المتحدة، ثم خارج نطاق الترخيص (off-label)، ثم منتج مرخص مستورد، ثم مستحضر معد حسب الطلب في المملكة المتحدة (خاضع لتفتيش GMP ولكنه غير مقيم من النواحي الأخرى)، وتُعد المنتجات التي لا تصنف كأدوية في بلد المنشأ، مثل المكملات الغذائية، الأقل قبولاً · جُلب مباشرة وقُرئ في 2026-09-25 (HTTP 200). قُرئ ملف PDF بالكامل.",
+    "sourceNumbers": [
+      "09",
+      "1.5",
+      "1.6",
+      "10",
+      "167",
+      "2",
+      "2.2",
+      "2.3",
+      "2.4",
+      "200",
+      "2026",
+      "25",
+      "4.1",
+      "7.1"
+    ],
+    "targetNumbers": [
+      "09",
+      "1.5",
+      "1.6",
+      "10",
+      "167",
+      "167",
+      "2",
+      "2.2",
+      "2.3",
+      "2.4",
+      "200",
+      "2026",
+      "25",
+      "4.1",
+      "7.1"
+    ]
+  },
+  {
+    "path": "/provenance/citations/304/note",
+    "en": "advertising ruling · self-regulatory body backed by statutory referral · role: UK: the claim 'Clinically proven To Lift The Skin By 20%' for a serum containing exosomes and 'a lifting peptide complex' was misleading; the study behind it had 30 subjects, no placebo or control group and a subjective clinical grading score (CAP Code 3.1, 3.7, 3.11, 12.1, 12.7) · Fetched live and read 2026-09-25 (HTTP 200).",
+    "ar": "قرار إعلاني · هيئة تنظيم ذاتي مدعومة بإحالة قانونية · الدور: المملكة المتحدة: كان الادعاء 'Clinically proven To Lift The Skin By 20%' (ثبت سريرياً أنه يشد الجلد بنسبة 20%) لمصل يحتوي على إكسوسومات و'مركب ببتيدي شاد' مضللاً؛ إذ شملت الدراسة المستند إليها 30 خاضعاً للبحث، دون وجود دواء وهمي أو مجموعة ضابطة، واعتمدت درجة تقييم سريري ذاتية (قواعد CAP 3.1، 3.7، 3.11، 12.1، 12.7) · تم الجلب المباشر والاطلاع في 2026-09-25 (HTTP 200).",
+    "sourceNumbers": [
+      "09",
+      "12.1",
+      "12.7",
+      "20",
+      "200",
+      "2026",
+      "25",
+      "3.1",
+      "3.11",
+      "3.7",
+      "30"
+    ],
+    "targetNumbers": [
+      "09",
+      "12.1",
+      "12.7",
+      "20",
+      "20",
+      "200",
+      "2026",
+      "25",
+      "3.1",
+      "3.11",
+      "3.7",
+      "30"
+    ]
+  },
+  {
+    "path": "/provenance/citations/347/note",
+    "en": "Cochrane systematic review: 13 RCTs, 701 people with burns covering >40% of body surface · independent (no conflicts declared) · role: the one clinical skin setting with randomized evidence for GH: faster burn-wound healing (adults, 2 trials) and donor-site healing (adults about 3 days; children about 1.7 days), with more hyperglycaemia (RR 2.65) · PMID 25222766 · found by PubMed search 2026-09-24; not in either guide",
+    "ar": "مراجعة منهجية من كوكرين (Cochrane): 13 تجربة عشوائية منضبطة (RCTs)، 701 شخصاً مصابين بحروق تغطي >40% من مساحة سطح الجسم · مستقلة (لم يُعلن عن أي تضارب في المصالح) · الدور: السياق السريري الجلدي الوحيد ذو الأدلة القائمة على تجارب عشوائية لهرمون النمو: التئام أسرع لجروح الحروق (البالغون، تجربتان) والتئام موضع أخذ الطعم الجلدي (البالغون نحو 3 أيام؛ الأطفال نحو 1.7 يوماً)، مع زيادة فرط سكر الدم (خطر نسبي RR 2.65) · PMID 25222766 · عُثر عليه عبر البحث في PubMed في 2026-09-24؛ غير موجود في أي من الدليلين",
+    "sourceNumbers": [
+      "09",
+      "1.7",
+      "13",
+      "2",
+      "2.65",
+      "2026",
+      "24",
+      "25222766",
+      "3",
+      "40",
+      "701"
+    ],
+    "targetNumbers": [
+      "09",
+      "1.7",
+      "13",
+      "2.65",
+      "2026",
+      "24",
+      "25222766",
+      "3",
+      "40",
+      "701"
+    ]
+  },
+  {
+    "path": "/provenance/citations/361/note",
+    "en": "2-year double-blind placebo-controlled modified-crossover RCT, n=65, age 60–81 · academic (NIH-funded) · role: ibutamoren (MK-677) raised GH and IGF-1 to young-adult levels and fat-free mass, without change in strength or function; fasting glucose rose and insulin sensitivity fell; transient mild lower-limb oedema · PMID 18981485 · not in either guide; found by PubMed search 2026-09-24",
+    "ar": "تجربة عشوائية منضبطة لمدة عامين مزدوجة التعمية منضبطة بالدواء الوهمي ذات تصميم تبادلي معدل، العدد=65، الفئة العمرية 60–81 عاماً · أكاديمية (بتمويل من المعاهد الوطنية للصحة الأمريكية NIH) · الدور: رفع إيبوتامورين (MK-677) مستويات GH وIGF-1 إلى مستويات البالغين الشباب وزاد الكتلة الخالية من الدهون، دون تغيير في القوة أو الوظيفة؛ ارتفع سكر الدم الصومي وانخفضت الحساسية للإنسولين؛ وذمة خفيفة عابرة في الأطراف السفلية · PMID 18981485 · غير موجود في أي من الدليلين؛ تم العثور عليها عبر بحث PubMed بتاريخ 2026-09-24",
+    "sourceNumbers": [
+      "09",
+      "1",
+      "18981485",
+      "2",
+      "2026",
+      "24",
+      "60",
+      "65",
+      "677",
+      "81"
+    ],
+    "targetNumbers": [
+      "09",
+      "1",
+      "18981485",
+      "2026",
+      "24",
+      "60",
+      "65",
+      "677",
+      "81"
+    ]
+  },
+  {
+    "path": "/provenance/citations/388/note",
+    "en": "final rule · regulator · role: a protein is any alpha amino acid polymer with a specific, defined sequence that is greater than 40 amino acids in size (chains associated as in nature are summed, e.g. insulin = 51); the Further Consolidated Appropriations Act, 2020 removed the 'chemically synthesized polypeptide' exception, so such polymers above 40 amino acids are biological products; FDA did not finalize its proposed 41–99 'chemically synthesized polypeptide' interpretation · full text fetched via the Federal Register API 2026-09-24",
+    "ar": "قاعدة نهائية · هيئة تنظيمية · الدور: يُعرّف البروتين بأنه أي بوليمر من أحماض ألفا أمينية ذو تسلسل محدد ودقيق يزيد حجمه عن 40 حمضاً أمينياً (تُجمع السلاسل المرتبطة كما في الطبيعة، مثل الإنسولين = 51)؛ وقد ألغى قانون الاعتمادات الإضافية الموحدة لعام 2020 (Further Consolidated Appropriations Act, 2020) استثناء «بولي ببتيد مصنّع كيميائياً»، وبالتالي فإن هذه البوليمرات التي تزيد عن 40 حمضاً أمينياً تُعد منتجات بيولوجية؛ ولم تُقر إدارة الغذاء والدواء الأمريكية (FDA) تفسيرها المقترح لـ «بولي ببتيد مصنّع كيميائياً» المكون من 41–99 حمضاً أمينياً بصورة نهائية · جرى جلب النص الكامل عبر واجهة برمجة تطبيقات السجل الفيدرالي (Federal Register API) في 2026-09-24",
+    "sourceNumbers": [
+      "09",
+      "2020",
+      "2026",
+      "24",
+      "40",
+      "40",
+      "41",
+      "51",
+      "99"
+    ],
+    "targetNumbers": [
+      "09",
+      "2020",
+      "2020",
+      "2026",
+      "24",
+      "40",
+      "40",
+      "41",
+      "51",
+      "99"
+    ]
+  },
+  {
+    "path": "/curriculum/modules/0/units/0/blocks/5/interaction/items/6/why",
+    "en": "Local loop. 5α-reductase in the pilosebaceous unit makes DHT where it acts; the guide names it the substrate of acne, androgenetic alopecia and hirsutism.",
+    "ar": "حلقة موضعية. ينتج إنزيم مختزلة الألفا-5 (5α-reductase) في الوحدة الشعرية الزهمية مركب DHT في موضع تأثيره؛ ويحدده الدليل بوصفه الأساس المرضي لحب الشباب، والثعلبة الأندروجينية، والشعرانية.",
+    "sourceNumbers": [
+      "5"
+    ],
+    "targetNumbers": [
+      "5",
+      "5"
+    ]
+  },
+  {
+    "path": "/curriculum/modules/0/units/0/blocks/16/metadata/audioScript",
+    "en": "Senescence begins as a safety mechanism. A cell that has taken enough damage stops dividing for good, which helps guard against cancer and is useful during wound repair. The problem is what the cell does next. It stays alive and metabolically busy and releases a mixture of inflammatory cytokines such as interleukin six and eight, enzymes that break down matrix, and growth factors. This secretory profile, the SASP, was characterised in human cells grown in the laboratory after DNA damage. In living human skin, the evidence is observational. Skin samples from older people contain more cells carrying the senescence marker p16, in both the epidermis and the dermis, and fibroblasts, keratinocytes and melanocytes can all become senescent. Researchers also caution that no single marker identifies a senescent cell with certainty, so counts depend on the marker chosen.",
+    "ar": "تبدأ الشيخوخة الخلوية كآلية أمان. فالخلية التي تعرضت لقدر كافٍ من الضرر تتوقف عن الانقسام نهائياً، مما يساعد في الوقاية من السرطان ويفيد أثناء التئام الجروح. وتكمن المشكلة فيما تفعله الخلية بعد ذلك؛ إذ تظل حية ونشطة استقلابياً وتفرز مزيجاً من السيتوكينات الالتهابية مثل إنترلوكين 6 و8، وإنزيمات تفكك المطرس، وعوامل نمو. وقد تم توصيف هذا الملف الإفرازي، أي SASP، في خلايا بشرية مستنبتة معملياً بعد تعرض الحمض النووي للضرر. أما في جلد الإنسان الحي، فإن الأدلة قائمة على الملاحظة. إذ تحتوي عينات الجلد المأخوذة من كبار السن على عدد أكبر من الخلايا الحاملة لعلامة الشيخوخة الخلوية p16، في كل من البشرة والأدمة، ويمكن لكل من الخلايا الليفية اليافعة والخلايا الكيراتينية والخلايا الصباغية أن تصبح هرمة. كما يحذر الباحثون من عدم وجود علامة واحدة تحدد الخلية الهرمة بشكل قاطع، وبالتالي تعتمد التعدادات على العلامة المختارة.",
+    "sourceNumbers": [
+      "16"
+    ],
+    "targetNumbers": [
+      "16",
+      "6",
+      "8"
+    ]
+  },
+  {
+    "path": "/curriculum/modules/0/units/0/blocks/22/metadata/audioScript",
+    "en": "Consider a fifty-eight-year-old patient, fictional and built from this lesson's evidence. She has read that senolytic supplements clear so-called zombie cells and reverse skin ageing, and she asks whether to start one she found online. She does not wear sunscreen every day. Three facts frame the conversation. Senescent cells really do accumulate in human skin, and their number tracks with wrinkles and with how old a person looks. The evidence that clearing them helps comes from mice, and the human studies so far are small pilots measuring markers in tissue. Daily sunscreen and topical retinoids, by contrast, have randomised trials with visible skin outcomes. The Aesthetic and Regenerative Endocrinology guide advises keeping senolytics within clinical trials. Decide what you say first.",
+    "ar": "ضع في اعتبارك مريضة تبلغ من العمر 58 عاماً، وهي حالة افتراضية مستندة إلى أدلة هذا الدرس. لقد قرأت أن مكملات مزيلات الخلايا الهرمة تزيل ما يُعرف بـ 'خلايا الزومبي' وتعكس شيخوخة الجلد، وتسأل عما إذا كان ينبغي لها البدء في تناول مكمل وجدته عبر الإنترنت. هي لا تضع واقياً من الشمس يومياً. تؤطر ثلاث حقائق هذه المحادثة: تتراكم الخلايا الهرمة بالفعل في جلد الإنسان، ويتوافق عددها مع التجاعيد ومع مظهر عمر الشخص. أما الأدلة على أن إزالتها مفيدة فمصدرها الفئران، والدراسات البشرية حتى الآن هي تجارب استطلاعية صغيرة تقيس علامات في الأنسجة. في المقابل، فإن الواقي الشمسي اليومي والريتينويدات الموضعية مدعومة بتجارب عشوائية ذات نتائج سريرية مرئية على الجلد. ينصح دليل الغدد الصماء التجميلية والتجديدية بإبقاء مزيلات الخلايا الهرمة ضمن إطار التجارب السريرية. حدد ما ستقوله أولاً.",
+    "sourceNumbers": [],
+    "targetNumbers": [
+      "58"
+    ]
+  },
+  {
+    "path": "/curriculum/modules/1/units/0/blocks/2/metadata/audioScript",
+    "en": "Picture the skin as a small endocrine organ with its own stress axis. Skin cells make CRH and ACTH, the same signals that drive the adrenal glands, and they carry the receptors to respond to them. They also carry an enzyme called eleven beta HSD one, which turns inactive cortisone back into active cortisol inside the cell. In human skin samples that enzyme works harder with age and in sun-exposed skin, and it sets local cortisol independently of the level in the blood. Cortisol slows collagen production in dermal fibroblasts, and mice bred without the enzyme kept their dermal thickness as they aged. Hold all of this in the mechanism register. It comes from biopsies, cultured cells and mice, and it says nothing yet about how a patient's face will age.",
+    "ar": "تصوّر الجلد كعضو صماوي صغير يمتلك محوره الخاص للاستجابة للتوتر. تنتج خلايا الجلد الهرمون المطلق لموجهة القشرة (CRH) والهرمون الموجه لقشر الكظر (ACTH)، وهما الإشارتان نفسهما اللتان تنشطان الغدتين الكظريتين، كما تحمل هذه الخلايا المستقبلات للاستجابة لهما. وتحمل أيضاً إنزيماً يُدعى 11 بيتا-HSD1، والذي يعيد تحويل الكورتيزون غير النشط إلى كورتيزول نشط داخل الخلية. في عينات الجلد البشري، يزداد نشاط هذا الإنزيم مع التقدم في السن وفي الجلد المعرض لأشعة الشمس، وهو يحدد توافر الكورتيزول الموضعي بمعزل عن مستواه في الدم. يُبطئ الكورتيزول إنتاج الكولاجين في الخلايا الليفية اليافعة في الأدمة، واحتفظت الفئران المستولدة بدون هذا الإنزيم بسماكة أدمتها مع تقدمها في السن. احتفظ بكل هذا في سجل آلية العمل؛ إذ إنه مستمد من خزعات وخلايا مستنبتة وفئران، ولا يُنبئ بعد بأي شيء عن كيفية تقدم وجه المريض في السن.",
+    "sourceNumbers": [],
+    "targetNumbers": [
+      "1",
+      "11"
+    ]
+  },
+  {
+    "path": "/curriculum/modules/1/units/0/blocks/6/body",
+    "en": "Endogenous Cushing's syndrome is uncommon: European population studies put it at two to three new cases per million people a year. The commonest cause of Cushing's syndrome is iatrogenic, from glucocorticoids given as medicine. The Endocrine Society therefore asks for a drug history first, covering tablets, inhalers, injections and creams, including skin-bleaching products, and recommends testing when features are multiple and progressive.",
+    "ar": "تُعد متلازمة كوشينغ داخليّة المنشأ غير شائعة: إذ تشير دراسات سكانية أوروبية إلى تسجيل 2 إلى 3 حالات جديدة لكل مليون شخص سنوياً. والسبب الأكثر شيوعاً لمتلازمة كوشينغ هو علاجي المنشأ، ناتج عن الهرمونات القشرية السكرية الموصوفة كدواء. ولهذا السبب، تطلب جمعية الغدد الصماء (Endocrine Society) أخذ سيرة دوائية أولاً، تشمل الأقراص الفموية وأجهزة الاستنشاق والحقن والكريمات، بما في ذلك منتجات تفتيح الجلد، وتوصي بإجراء الفحوصات عندما تكون السمات متعددة وتفاقمية.",
+    "sourceNumbers": [],
+    "targetNumbers": [
+      "2",
+      "3"
+    ]
+  },
+  {
+    "path": "/curriculum/modules/1/units/0/blocks/15/body",
+    "en": "In the US, as of February 2026, FDA-approved menopausal hormone therapy is for moderate-to-severe hot flashes, vaginal and vulvar symptoms and, for some products, preventing bone loss. FDA's 2025–26 labeling changes removed cardiovascular, breast-cancer and dementia statements from the boxed warning; skin did not become an indication. The North American Menopause Society's 2022 statement finds benefit outweighs risk for bothersome symptoms and bone protection when therapy starts before 60 or within 10 years of menopause, and finds insufficient evidence for compounded 'bioidentical' hormones. Under US rules an over-the-counter 'hormone cream' is an unapproved drug. For the skin itself, daily sunscreen has a large randomized trial behind it, and one tretinoin cream is FDA-approved as an adjunct for fine facial wrinkles.",
+    "ar": "في الولايات المتحدة، اعتباراً من فبراير 2026، اعتمدت إدارة الغذاء والدواء (FDA) العلاج الهرموني لسن اليأس للهبات الساخنة المتوسطة إلى الشديدة، والأعراض المهبلية والفرجية، وللوقاية من فقدان العظام لبعض المستحضرات. أزالت تعديلات ملصقات FDA لعامي 2025–2026 العبارات المتعلقة بأمراض القلب والأوعية الدموية وسرطان الثدي والخرف من التحذير المربّع (boxed warning)؛ ولم يصبح الجلد من دواعي الاستعمال. يفيد بيان جمعية سن اليأس في أمريكا الشمالية لعام 2022 بأن الفوائد تفوق المخاطر للأعراض المزعجة وحماية العظام عندما يبدأ العلاج قبل سن 60 أو خلال 10 سنوات من انقطاع الطمث، ويجد أدلة غير كافية تدعم الهرمونات 'المتماثلة بيولوجياً' المحضرة صيدلانياً. ووفقاً للأنظمة الأمريكية، يُعد 'كريم الهرمونات' الذي يُصرف دون وصفة طبية دواءً غير معتمد. وبالنسبة للجلد نفسه، تدعم الواقيات الشمسية اليومية تجربة عشوائية كبيرة، كما اعتمدت FDA كريماً واحداً من التريتينوين كعلاج مساعد للتجاعيد الدقيقة في الوجه.",
+    "sourceNumbers": [
+      "10",
+      "2022",
+      "2025",
+      "2026",
+      "26",
+      "60"
+    ],
+    "targetNumbers": [
+      "10",
+      "2022",
+      "2025",
+      "2026",
+      "2026",
+      "60"
+    ]
+  },
+  {
+    "path": "/curriculum/modules/1/units/0/blocks/15/audioBeats/0/body",
+    "en": "In the US, hot flashes, vaginal and vulvar symptoms and, for some products, bone loss. The 2025–26 label changes did not add skin.",
+    "ar": "في الولايات المتحدة، الهبات الساخنة، والأعراض المهبلية والفرجية، وفقدان العظام لبعض المستحضرات. ولم تُضف تعديلات الملصقات لعامي 2025–2026 الجلد.",
+    "sourceNumbers": [
+      "2025",
+      "26"
+    ],
+    "targetNumbers": [
+      "2025",
+      "2026"
+    ]
+  },
+  {
+    "path": "/curriculum/modules/1/units/0/blocks/18/metadata/audioScript",
+    "en": "Some endocrine syndromes are written on the skin years before the glands give them away. In multiple endocrine neoplasia type one, most patients in one careful series had several facial angiofibromas, the same lesions seen in tuberous sclerosis, along with collagenomas on the trunk. In Carney complex, usually caused by inactivating variants in the PRKAR1A gene, freckle-like lentigines cluster on the lips, eyelids and the corners of the eyes, alongside blue naevi and small skin myxomas. The same patients can develop myxomas in the heart and cortisol-secreting adrenal disease. In MEN two A, an itchy, rippled, darkened patch between the shoulder blades, called cutaneous lichen amyloidosis, can appear long before medullary thyroid cancer. Each of these is a referral finding, and none of them is yours to diagnose alone.",
+    "ar": "ترتسم علامات بعض المتلازمات الصماوية على الجلد قبل سنوات من كشف الغدد عنها. ففي الورم الصماوي المتعدد من النوع 1، كان لدى معظم المرضى في سلسلة حالات دقيقة أورام ليفية وعائية وجهية متعددة، وهي نفس الآفات المشاهدة في التصلب الحدبي، إلى جانب أورام كولاجينية على الجذع. وفي معقد كارني، الناتج عادة عن متغيرات معطلة في جين PRKAR1A، تتجمع نمشات تشبه النمش العادي على الشفاه والجفون وزوايا العينين، جنباً إلى جنب مع وحمات زرقاء وأورام مخاطية جلدية صغيرة. ويمكن للمرضى أنفسهم أن يصابوا بأورام مخاطية في القلب ومرض كظري مفرز للكورتيزول. وفي متلازمة MEN2A، يمكن أن تظهر بقعة داكنة متموجة ومثيرة للحكة بين لوحي الكتف تُدعى الحزاز النشواني الجلدي، قبل وقت طويل من ظهور سرطان الغدة الدرقية النخاعي. وتعتبر كل علامة من هذه العلامات مبرراً للإحالة الطبية، ولا يقع تشخيص أي منها على عاتقك بمفردك.",
+    "sourceNumbers": [
+      "1"
+    ],
+    "targetNumbers": [
+      "1",
+      "1",
+      "2"
+    ]
+  },
+  {
+    "path": "/curriculum/modules/1/units/0/blocks/21/interaction/items/0/label",
+    "en": "Coarse chin and chest hair over four months; her voice has deepened",
+    "ar": "ظهور شعر خشن في الذقن والصدر على مدى 4 أشهر، مع خشونة في نبرة الصوت",
+    "sourceNumbers": [],
+    "targetNumbers": [
+      "4"
+    ]
+  },
+  {
+    "path": "/curriculum/modules/1/units/0/blocks/21/interaction/items/3/why",
+    "en": "Angiofibromas outside tuberous sclerosis call for biochemical testing for MEN1, and a relative with parathyroid disease strengthens the case.",
+    "ar": "تستدعي الأورام الليفية الوعائية عند نفي التصلب الحدبي إجراء فحوصات كيميائية حيوية لمتلازمة الأورام الصماوية المتعددة من النوع 1 (MEN1)، كما يعزز وجود قريب مصاب بمرض في الغدد جارات الدرق هذه الضرورة.",
+    "sourceNumbers": [
+      "1"
+    ],
+    "targetNumbers": [
+      "1",
+      "1"
+    ]
+  },
+  {
+    "path": "/curriculum/modules/2/units/0/blocks/17/audioBeats/1/body",
+    "en": "Hollow cheeks, looser skin along the jaw and more hair in the brush, ten months in and 18% lighter.",
+    "ar": "وجنتان غائرتان، وجلد أكثر ترهلاً على طول الفك، ومزيد من الشعر في الفرشاة، بعد مرور 10 أشهر وفقدان 18% من الوزن.",
+    "sourceNumbers": [
+      "18"
+    ],
+    "targetNumbers": [
+      "10",
+      "18"
+    ]
+  },
+  {
+    "path": "/curriculum/modules/2/units/0/blocks/17/metadata/audioScript",
+    "en": "Picture a fifty-eight-year-old patient, fictional and built from this lesson's evidence. She has taken semaglutide for obesity for ten months, prescribed by her physician, and has lost eighteen percent of her body weight. Her blood pressure and glucose have improved. She is distressed by hollow cheeks and new looseness along the jaw, and she is finding more hair in her brush. She asks whether she should stop the injections. Consider what the evidence says. In the studies so far, facial volume loss tracks the amount of weight lost. Hair loss is a labelled side effect, reported more often in women and linked to weight reduction. The drug was prescribed for a medical reason, and that reason is going well. Decide how you would answer her.",
+    "ar": "تخيل مريضة تبلغ من العمر 58 عاماً، وهي حالة افتراضية مستندة إلى أدلة هذا الدرس. تتناول سيماجلوتيد (semaglutide) لعلاج السمنة منذ 10 أشهر بوصفة من طبيبها، وفقدت 18% من وزن جسمها. تحسن ضغط دمها ومستوى الجلوكوز لديها. تشعر بالانزعاج من غؤور الوجنتين وترهل جديد على طول الفك، كما تجد مزيداً من الشعر في فرشتها. وتسأل عما إذا كان ينبغي عليها إيقاف الحقن. فكّر فيما تقوله الأدلة: في الدراسات حتى الآن، يرتبط فقدان حجم الوجه بمقدار الوزن المفقود. ويُعد تساقط الشعر أثراً جانبياً مدوناً في النشرة المعتمدة، ويُبلّغ عنه بشكل أكثر تواتراً لدى النساء ويرتبط بنقص الوزن. لقد وُصف الدواء لسبب طبي، وهذا السبب يسير على نحو جيد. حدد كيف ستجيبها.",
+    "sourceNumbers": [],
+    "targetNumbers": [
+      "10",
+      "18",
+      "58"
+    ]
+  },
+  {
+    "path": "/curriculum/modules/2/units/0/blocks/19/body",
+    "en": "Inflammaging is the chronic, low-grade, sterile inflammation that rises with age. In older adults, higher IL-6 and CRP predict frailty and death. One proposed source is the gut. In mice, a high-fat diet raises circulating bacterial lipopolysaccharide, and infusing it reproduces weight gain and insulin resistance. In 12 healthy men, a single high-fat meal raised plasma endotoxin within four hours. Whether a leaky gut drives skin disease in people has not been shown.",
+    "ar": "الالتهاب المرتبط بالشيخوخة (Inflammaging) هو التهاب مزمن منخفض الدرجة وغير ناتج عن عدوى (عقيم) يزداد مع التقدم في السن. ولدى كبار السن، يُنبئ ارتفاع مستويات الإنترلوكين-6 (IL-6) والبروتين المتفاعل C (CRP) بالوهن والوفاة. وتُعد الأمعاء أحد المصادر المقترحة له. في الفئران، يؤدي النظام الغذائي عالي الدهون إلى زيادة عديدات السكاريد الشحمية البكتيرية (LPS) في الدورة الدموية، ويؤدي تسريبها إلى إحداث زيادة في الوزن ومقاومة الإنسولين مجدداً. وفي دراسة أجريت على 12 رجلاً من الأصحاء، أدت وجبة واحدة عالية الدهون إلى رفع مستوى السموم الداخلية (endotoxin) في البلازما خلال 4 ساعات. ومع ذلك، لم يثبت بعد ما إذا كانت نفاذية الأمعاء (تسرب الأمعاء) تحفز أمراض الجلد لدى البشر.",
+    "sourceNumbers": [
+      "12",
+      "6"
+    ],
+    "targetNumbers": [
+      "12",
+      "4",
+      "6",
+      "6"
+    ]
+  },
+  {
+    "path": "/curriculum/modules/2/units/0/blocks/19/metadata/audioScript",
+    "en": "Ageing brings a slow rise in background inflammation, called inflammaging. It is low-grade and sterile, and in older adults higher IL-6 and C-reactive protein predict frailty, disability and death. One proposed source is the gut. In mice, a high-fat diet raises bacterial lipopolysaccharide in the blood, and infusing that endotoxin reproduces weight gain and insulin resistance. In twelve healthy men, a single high-fat meal raised plasma endotoxin within four hours. That is the mechanism usually called metabolic endotoxaemia, or leaky gut. The human evidence stops short of the skin. Measuring gut permeability is difficult, and a leading review concludes that it is still unproven whether restoring the barrier improves disease outside the gut. Hold that line as you look at what patients are sold.",
+    "ar": "يجلب التقدم في السن ارتفاعاً بطيئاً في الالتهاب الأساسي، يُطلق عليه الالتهاب المرتبط بالشيخوخة (inflammaging). وهو التهاب منخفض الدرجة وغير ناتج عن عدوى (عقيم)، ولدى كبار السن يُنبئ ارتفاع IL-6 والبروتين المتفاعل C (CRP) بالوهن والعجز والوفاة. وتُعد الأمعاء أحد المصادر المقترحة له. في الفئران، يؤدي النظام الغذائي عالي الدهون إلى رفع عديدات السكاريد الشحمية البكتيرية في الدم، ويؤدي تسريب هذه السموم الداخلية إلى تكرار زيادة الوزن ومقاومة الإنسولين. وفي 12 رجلاً من الأصحاء، أدت وجبة واحدة عالية الدهون إلى رفع السموم الداخلية في البلازما خلال 4 ساعات. وتلك هي آلية العمل التي تُسمى عادة بارتفاع الذيفانات الداخلية في الدم المرتبط بالاستقلاب، أو 'تسرب الأمعاء'. إلا أن الأدلة البشرية تتوقف قبل الوصول إلى الجلد؛ فقياس نفاذية الأمعاء أمر صعب، وتخلص مراجعة علمية بارزة إلى أنه لم يثبت بعد ما إذا كانت استعادة الحاجز تُحسن الأمراض خارج القناة الهضمية. تمسك بهذا المبدأ عندما تفحص ما يُروّج للمرضى.",
+    "sourceNumbers": [
+      "6"
+    ],
+    "targetNumbers": [
+      "12",
+      "4",
+      "6"
+    ]
+  },
+  {
+    "path": "/curriculum/modules/2/units/0/blocks/20/title",
+    "en": "Thirty-nine trials of probiotics for eczema.",
+    "ar": "39 تجربة على المعينات الحيوية (probiotics) للإكزيما.",
+    "sourceNumbers": [],
+    "targetNumbers": [
+      "39"
+    ]
+  },
+  {
+    "path": "/curriculum/modules/2/units/0/blocks/23/interaction/segments/3/text",
+    "en": "In a small study of healthy men, a single high-fat meal raised endotoxin in the blood within four hours.",
+    "ar": "في دراسة صغيرة أُجريت على رجال أصحاء، رفعت وجبة واحدة عالية الدهون مستوى الذيفان الداخلي في الدم في غضون 4 ساعات.",
+    "sourceNumbers": [],
+    "targetNumbers": [
+      "4"
+    ]
+  },
+  {
+    "path": "/curriculum/modules/2/units/0/blocks/23/interaction/segments/3/why",
+    "en": "Supported: in 12 healthy men, a single high-fat meal raised plasma endotoxin within four hours. A short rise in a small study; the human evidence stops short of the skin.",
+    "ar": "مدعوم: لدى 12 رجلاً من الأصحاء، رفعت وجبة واحدة عالية الدهون ذيفان البلازما الداخلي في غضون 4 ساعات. إنه ارتفاع قصير الأمد في دراسة صغيرة؛ ولا تصل الأدلة البشرية إلى حد إثبات التأثير على الجلد.",
+    "sourceNumbers": [
+      "12"
+    ],
+    "targetNumbers": [
+      "12",
+      "4"
+    ]
+  },
+  {
+    "path": "/curriculum/modules/3/units/0/blocks/5/metadata/variants/jurisdiction/EU/text",
+    "en": "In the EU, copper tripeptide-1 is listed in the Commission's CosIng inventory with a skin-conditioning function (read 25 September 2026). No centrally authorised medicine containing GHK-Cu was found in the Union Register or in EMA's data on authorised, refused and withdrawn medicines (searched 25 September 2026).",
+    "ar": "في الاتحاد الأوروبي، أُدرج ثلاثي ببتيد النحاس-1 (copper tripeptide-1) في قائمة CosIng التابعة للمفوضية بوظيفة تكييف الجلد (اطُّلع عليه في 25 سبتمبر 2026). ولم يُعثر على أي دواء مرخص مركزياً يحتوي على GHK-Cu في سجل الاتحاد أو في بيانات وكالة الأدوية الأوروبية (EMA) للأدوية المصرح بها والمرفوضة والمسحوبة (تاريخ البحث 25 سبتمبر 2026).",
+    "sourceNumbers": [
+      "1",
+      "2026",
+      "2026",
+      "25",
+      "25"
+    ],
+    "targetNumbers": [
+      "1",
+      "1",
+      "2026",
+      "2026",
+      "25",
+      "25"
+    ]
+  },
+  {
+    "path": "/curriculum/modules/3/units/0/blocks/15/body",
+    "en": "BPC-157 rests on a large rodent literature, mostly from one research group, and on uncontrolled human case series. TB-500 is not thymosin β4: it is a seven-residue fragment of it, identified by analysing the product itself, and no trial has tested the fragment. KPV, a tripeptide from the end of α-MSH, calms inflammation in mouse colitis and has no randomized human trial.",
+    "ar": "يستند BPC-157 إلى أدبيات واسعة على القوارض، ومعظمها صادر عن مجموعة بحثية واحدة، وإلى سلاسل حالات بشرية غير منضبطة بشواهد. أما TB-500 فليس ثيموسين β4: بل هو شظية مكونة من 7 ثمالات منه، تم تحديدها من خلال تحليل المنتج نفسه، ولم تختبر أي تجربة هذه الشظية. ويُعد KPV ببتيداً ثلاثياً مشتقاً من نهاية α-MSH، يهدئ الالتهاب في نماذج التهاب القولون لدى الفئران ولا توجد له أي تجربة عشوائية على البشر.",
+    "sourceNumbers": [
+      "157",
+      "4",
+      "500"
+    ],
+    "targetNumbers": [
+      "157",
+      "4",
+      "500",
+      "7"
+    ]
+  },
+  {
+    "path": "/curriculum/modules/3/check/options/1/text",
+    "en": "Topical GHK-Cu: plausible copper-enzyme mechanism; small-trial human evidence (C); non-injectable Category 1 under FDA evaluation; whether it reaches the dermis in useful amounts is open.",
+    "ar": "مستحضر GHK-Cu الموضعي: آلية عمل معقولة مرتبطة بإنزيمات النحاس؛ أدلة بشرية من تجارب سريرية صغيرة (C)؛ فئة غير قابلة للحقن من الفئة 1 (Category 1) قيد التقييم من قِبل FDA؛ وما إذا كان يصل إلى الأدمة بكميات ذات جدوى يظل تساؤلاً مفتوحاً.",
+    "sourceNumbers": [
+      "1"
+    ],
+    "targetNumbers": [
+      "1",
+      "1"
+    ]
+  },
+  {
+    "path": "/curriculum/modules/4/units/0/blocks/1/metadata/videoTranscript",
+    "en": "Two requests reach aesthetic clinics well ahead of their evidence: a peptide to regrow hair and an injection to tan. In three lessons you will see how the follicle and the pigment system run on the skin's own hormones, why one melanocortin drug is approved while its gray-market cousin is approved nowhere, and how to grade the hair peptides patients bring to you. Each hair follicle behaves like a small gland. When researchers keep human scalp follicles alive in culture, the follicles answer corticotropin-releasing hormone the way the pituitary and adrenal glands do. They make ACTH and alpha-MSH, they secrete cortisol, and cortisol-like signals feed back to switch the stimulus down. On the scalp, an enzyme called five-alpha-reductase turns testosterone into dihydrotestosterone, and in genetically susceptible follicles that hormone drives the gradual shrinking behind pattern hair loss. Most of this biology comes from tissue kept alive outside the body, so hold it as mechanism, a reason something might matter in patients.",
+    "ar": "يصل طلبان إلى عيادات التجميل قبل وقت طويل من توفر الأدلة عليهما: ببتيد لإعادة إنبات الشعر، وحقنة لاكتساب السمرة. ستتعرف عبر ثلاثة دروس على كيفية اعتماد جريب الشعر ونظام التصبغ على هرمونات الجلد الخاصة، ولماذا حصل أحد أدوية الميلانوكورتين على الاعتماد بينما لا يحظى نظيره في السوق الرمادية بأي ترخيص، وكيفية تقييم ببتيدات الشعر التي يحضرها المرضى إليك. يتصرف كل جريب شعر وكأنه غدة صغيرة؛ فعندما يُبقي الباحثون جريبات فروة الرأس البشرية حية في مزرعة نسيجية، تستجيب هذه الجريبات للهرمون المطلق لموجهة القشرة تماماً كما تفعل الغدتان النخامية والكظرية. فهي تصنع ACTH وalpha-MSH، وتفرز الكورتيزول، وتعمل الإشارات الشبيهة بالكورتيزول عبر الارتجاع لتثبيط هذا التحفيز. في فروة الرأس، يحوّل إنزيم يُدعى 5-ألفا-ريدوكتاز التستوستيرون إلى ديهيدروتستوستيرون، وفي الجريبات المعرضة وراثياً يدفع هذا الهرمون الانكماش التدريجي الكامن وراء تساقط الشعر النمطي. تستند معظم هذه البيولوجيا إلى أنسجة أُبقيت حية خارج الجسم، لذا تعامل معها بوصفها آلية العمل، أي تفسيراً لاحتمال أهمية هذا الأمر لدى المرضى.",
+    "sourceNumbers": [],
+    "targetNumbers": [
+      "5"
+    ]
+  },
+  {
+    "path": "/curriculum/modules/4/units/0/blocks/2/metadata/audioScript",
+    "en": "Each hair follicle behaves like a small gland. When researchers keep human scalp follicles alive in culture, the follicles answer corticotropin-releasing hormone the way the pituitary and adrenal glands do. They make ACTH and alpha-MSH, they secrete cortisol, and cortisol-like signals feed back to switch the stimulus down. The same follicles run a growth hormone and IGF-1 loop of their own. On the scalp, an enzyme called five-alpha-reductase turns testosterone into dihydrotestosterone, and in genetically susceptible follicles that hormone drives the gradual shrinking behind pattern hair loss. Growing follicles also hide from the immune system. When that protection collapses, immune cells attack the hair bulb, and the result is alopecia areata. Most of this biology comes from tissue kept alive outside the body, so hold it as mechanism, a reason something might matter in patients.",
+    "ar": "يتصرف كل جريب شعر كغدة صغيرة؛ فعندما يحافظ الباحثون على حيوية جريبات فروة الرأس البشرية في المزرعة النسيجية، تستجيب الجريبات للهرمون المطلق لموجهة القشرة تماماً كما تفعل الغدتان النخامية والكظرية. فهي تنتج ACTH وalpha-MSH، وتفرز الكورتيزول، وتوفر الإشارات الشبيهة بالكورتيزول تغذية راجعة لتثبيط هذا التحفيز. كما تدير الجريبات ذاتها حلقة خاصة بها لهرمون النمو وIGF-1. وفي فروة الرأس، يحوّل إنزيم يُدعى مختزلة 5-ألفا التستوستيرون إلى ديهيدروتستوستيرون، ويقود هذا الهرمون في الجريبات المعرضة وراثياً الانكماش التدريجي الكامن وراء تساقط الشعر النمطي. كما تتوارى الجريبات في طور النمو عن الجهاز المناعي؛ وعندما تنهار هذه الحماية، تهاجم الخلايا المناعية بصلة الشعر، وتكون النتيجة حدوث الثعلبة البقعية. ويأتي معظم هذا الفهم الحيوي من أنسجة جرى الحفاظ على حيويتها خارج الجسم، لذا يجب التعامل معه بوصفه آلية عمل، أي تفسيراً لاحتمال أن يكون للأمر أثر سريري لدى المرضى.",
+    "sourceNumbers": [
+      "1"
+    ],
+    "targetNumbers": [
+      "1",
+      "5"
+    ]
+  },
+  {
+    "path": "/curriculum/modules/4/units/0/blocks/10/tool/items/1/note",
+    "en": "Two phase 3 trials in erythropoietic protoporphyria, against a three-volunteer pilot and a ten-man erectile-dysfunction study from the 1990s. The Peptide Pocket Guide rates Melanotan II C and the Aesthetic & Regenerative Endocrinology guide D; with no trial of tanning, this course uses D.",
+    "ar": "تجربتان من المرحلة 3 في البروتوبورفيريا المكوّنة للكريات الحمر، مقابل دراسة تجريبية على ثلاثة متطوعين ودراسة عن ضعف الانتصاب على عشرة رجال من تسعينيات القرن العشرين. يمنح دليل Peptide Pocket Guide عقار Melanotan II تصنيف C، بينما يمنحه دليل Aesthetic & Regenerative Endocrinology تصنيف D؛ وفي ظل غياب تجارب على التسمير، تعتمد هذه الدورة التصنيف D.",
+    "sourceNumbers": [
+      "1990",
+      "3"
+    ],
+    "targetNumbers": [
+      "3"
+    ]
+  },
+  {
+    "path": "/curriculum/modules/4/units/0/blocks/13/interaction/items/2/why",
+    "en": "Only a three-volunteer pilot and a ten-man erectile-dysfunction study from the 1990s; with no trial of tanning, this course grades it D.",
+    "ar": "دراسة رائدة واحدة فقط على ثلاثة متطوعين ودراسة لخلل الانتصاب على عشرة رجال تعودان إلى تسعينيات القرن العشرين؛ ومع غياب تجارب سريرية للتسمير، يصنف هذا المساق الدليل بدرجة D.",
+    "sourceNumbers": [
+      "1990"
+    ],
+    "targetNumbers": []
+  },
+  {
+    "path": "/curriculum/modules/4/units/0/blocks/13/interaction/items/5/label",
+    "en": "Scalp follicles run their own GH and IGF-1 loop",
+    "ar": "تحكم جريبات فروة الرأس بحلقتها الذاتية لهرمون النمو (GH) وعامل النمو الشبيه بالإنسولين-1 (IGF-1)",
+    "sourceNumbers": [
+      "1"
+    ],
+    "targetNumbers": [
+      "1",
+      "1"
+    ]
+  },
+  {
+    "path": "/curriculum/modules/4/units/0/blocks/14/metadata/audioScript",
+    "en": "Her booking says skin quality. This patient is fictional, built from the lesson's evidence. She is twenty-seven, and she mentions that she has been injecting a tanning peptide bought online for three months. She has noticed darker moles, several new small ones, and a dark stripe along one fingernail. Her mother had melanoma. The product is almost certainly Melanotan II, approved nowhere and of unknown strength and purity. New and changing moles and nail pigmentation are exactly the harms described in the reports, and in one patient followed with dermoscopy the changes made moles hard to tell from melanoma. The endocrinology guide treats a family history of melanoma as an absolute contraindication. Pick the move that comes first.",
+    "ar": "يُظهر حجزها أن سبب الزيارة هو جودة الجلد. هذه المريضة افتراضية، وصُممت بناءً على أدلة الدرس. تبلغ من العمر 27 عاماً، وتذكر أنها تحقن ببتيد تسمير اشترته عبر الإنترنت منذ 3 أشهر. وقد لاحظت شامات أغمق لوناً، وعدداً من الشامات الصغيرة الجديدة، وشريطاً داكناً على طول أحد أظافر اليدين. وكانت والدتها مصابة بورم ميلانيني. المنتج هو Melanotan II شبه مؤكد، وهو غير معتمد في أي مكان ومجهول القوة والنقاء. وتعتبر الشامات الجديدة والمتغيرة وتصبغ الأظافر هي الأضرار الموضحة في التقارير تحديداً، وفي إحدى الحالات التي جرت متابعتها بتنظير الجلد جعلت التغيرات من الصعب تمييز الشامات عن الورم الميلانيني. ويعتبر الدليل الإرشادي للغدد الصماء التاريخ العائلي للورم الميلانيني مضاد استطباب مطلقاً. اختر الخطوة التي تأتي أولاً.",
+    "sourceNumbers": [],
+    "targetNumbers": [
+      "27",
+      "3"
+    ]
+  },
+  {
+    "path": "/curriculum/modules/4/units/0/blocks/15/tool/items/0/note",
+    "en": "FDA's compounding safety page lists Melanotan II among substances withdrawn from Category 2, citing impurity and immunogenicity risks and published reports of melanoma, encephalopathy, sympathomimetic toxicity and priapism",
+    "ar": "تُدرج صفحة سلامة التحضير الصيدلاني التابعة لإدارة الغذاء والدواء (FDA) عقار Melanotan II ضمن المواد المسحوبة من الفئة 2 (Category 2)، مشيرةً إلى مخاطر الشوائب والاستمناع والتقارير المنشورة عن الورم الميلانيني والاعتلال الدماغي والسمية محاكية الودّي والقساح (priapism)",
+    "sourceNumbers": [
+      "2"
+    ],
+    "targetNumbers": [
+      "2",
+      "2"
+    ]
+  },
+  {
+    "path": "/curriculum/modules/4/units/0/blocks/15/tool/items/1/note",
+    "en": "Injectable products are classed as medicines; MHRA advises anyone using them to stop immediately and has removed melanotan products from sale for over ten years",
+    "ar": "تُصنف المنتجات القابلة للحقن كأدوية؛ وتنصح وكالة MHRA كل من يستخدمها بالتوقف فوراً، وقد سحبت منتجات الميلانوتان من البيع لأكثر من 10 سنوات",
+    "sourceNumbers": [],
+    "targetNumbers": [
+      "10"
+    ]
+  },
+  {
+    "path": "/curriculum/modules/4/units/0/blocks/21/metadata/variants/audienceLevel/prescriber",
+    "en": "Check a substance's current 503A status before any compounding conversation; neither peptide has Category 1 standing today. If a patient already uses one, record the product, the source and the grade you quoted, and offer the workup and the approved options. In the UK, a special needs a clinical need that the licensed options cannot meet; cost and convenience do not count.",
+    "ar": "تحقق من وضع المادة الحالي بموجب المادة 503A قبل أي نقاش حول التحضير الصيدلاني؛ ولا يحظى أي من الببتيدين بمكانة الفئة 1 (Category 1) اليوم. إذا كان المريض يستخدم أحدهما بالفعل، فسجّل المنتج ومصدره ودرجة الأدلة التي ذكرتها له، واعرض التقييم التشخيصي والخيارات المعتمدة. في المملكة المتحدة، تتطلب المستحضرات غير المرخصة المعدة حسب الطلب (special) وجود حاجة سريرية لا يمكن للخيارات المرخصة تلبيتها؛ والتكلفة والملاءمة لا تُعدّان مبرراً.",
+    "sourceNumbers": [
+      "1",
+      "503"
+    ],
+    "targetNumbers": [
+      "1",
+      "1",
+      "503"
+    ]
+  },
+  {
+    "path": "/curriculum/modules/4/units/0/metadata/lessons/1/title",
+    "en": "Melanocortins: approved afamelanotide and gray-market Melanotan II",
+    "ar": "الميلانوكورتينات: أفاميلانوتيد المعتمد وميلانوتان 2 في السوق الموازية",
+    "sourceNumbers": [],
+    "targetNumbers": [
+      "2"
+    ]
+  },
+  {
+    "path": "/curriculum/modules/4/check/prompt",
+    "en": "Closing Module 5: which statement keeps the four registers apart for Melanotan II?",
+    "ar": "ختام الوحدة 5: أي عبارة تفصل بوضوح بين السجلات الأربعة لميلانوتان 2 (Melanotan II)؟",
+    "sourceNumbers": [
+      "5"
+    ],
+    "targetNumbers": [
+      "2",
+      "5"
+    ]
+  },
+  {
+    "path": "/curriculum/modules/4/check/options/1/text",
+    "en": "Mechanism: a non-selective melanocortin agonist. Evidence: two tiny 1990s studies and case reports of harm (D). Status: approved nowhere, with US, UK and Australian regulators on record against it. Open question: whether it causes melanoma.",
+    "ar": "آلية العمل: ناهض غير انتقائي للميلانوكورتين. الأدلة: دراستان صغيرتان جداً من تسعينيات القرن الماضي وتقارير حالات عن أضرار (D). الوضع التنظيمي: غير معتمد في أي مكان، مع وجود تحذيرات مسجلة ضده من الهيئات التنظيمية في الولايات المتحدة والمملكة المتحدة وأستراليا. عدم اليقين: ما إذا كان يسبب الورم الميلانيني.",
+    "sourceNumbers": [
+      "1990"
+    ],
+    "targetNumbers": []
+  },
+  {
+    "path": "/curriculum/modules/4/metadata/scope",
+    "en": "Hair follicle neuroendocrine regulation, immune privilege collapse, and cycling; melanocortin receptor pharmacology (MC1R-MC5R); afamelanotide indications; Melanotan II systemic toxicity and oncologic risk; experimental hair peptides (PTD-DBM, Zinc Thymulin).",
+    "ar": "التنظيم العصبي الصماوي لجريب الشعر، وانهيار الامتياز المناعي، ودورات النمو؛ علم أدوية مستقبلات الميلانوكورتين (MC1R-MC5R)؛ دواعي استعمال أفاميلانوتيد؛ السمية الجهازية والمخاطر الورمية لميلانوتان 2 (Melanotan II)؛ ببتيدات الشعر التجريبية (PTD-DBM، ثيمولين الزنك).",
+    "sourceNumbers": [
+      "1",
+      "5"
+    ],
+    "targetNumbers": [
+      "1",
+      "2",
+      "5"
+    ]
+  },
+  {
+    "path": "/curriculum/modules/4/metadata/lessons/1/title",
+    "en": "Melanocortins: approved afamelanotide and gray-market Melanotan II",
+    "ar": "الميلانوكورتينات: أفاميلانوتيد المعتمد وميلانوتان 2 في السوق الموازية",
+    "sourceNumbers": [],
+    "targetNumbers": [
+      "2"
+    ]
+  },
+  {
+    "path": "/curriculum/modules/5/units/0/blocks/6/metadata/variants/jurisdiction/EU/text",
+    "en": "In the EU, somatropin medicines have been authorised since the 1980s, through central and national procedures, for growth hormone replacement and for short stature in specific childhood conditions (EMA, 2012). The centrally authorised Omnitrope (since 12 April 2006) is prescription-only, and treatment is started and monitored by a doctor experienced in growth disorders.",
+    "ar": "في الاتحاد الأوروبي، رُخّصت أدوية السوماتروبين منذ ثمانينيات القرن العشرين، عبر الإجراءات المركزية والوطنية، كعلاج بديل لهرمون النمو ولقصر القامة في حالات محددة أثناء الطفولة (EMA، 2012). ويُعد دواء Omnitrope المرخص مركزياً (منذ 12 أبريل 2006) دواءً يُصرف بوصفة طبية فقط، ويتم بدء العلاج ومتابعته بواسطة طبيب من ذوي الخبرة في اضطرابات النمو.",
+    "sourceNumbers": [
+      "12",
+      "1980",
+      "2006",
+      "2012"
+    ],
+    "targetNumbers": [
+      "12",
+      "2006",
+      "2012"
+    ]
+  },
+  {
+    "path": "/curriculum/modules/5/units/0/blocks/7/quiz/prompt",
+    "en": "Fictional chart note: a healthy 58-year-old asks for growth hormone 'for her skin' after an online test reported her IGF-1 as 'below the range for a 30-year-old'. She has no pituitary history. What does the evidence support?",
+    "ar": "ملاحظة سريرية افتراضية في ملف مريضة: سيدة تبلغ من العمر 58 عاماً وتتمتع بصحة جيدة تطلب هرمون النمو 'من أجل بشرتها' بعد أن أظهر فحص عبر الإنترنت أن مستوى IGF-1 لديها 'أقل من المعدل الطبيعي لشخص في سن الثلاثين'. ليس لديها تاريخ مرضي نخامي. ما الذي تدعمه الأدلة؟",
+    "sourceNumbers": [
+      "1",
+      "30",
+      "58"
+    ],
+    "targetNumbers": [
+      "1",
+      "58"
+    ]
+  },
+  {
+    "path": "/curriculum/modules/5/units/0/blocks/14/metadata/variants/jurisdiction/EU/text",
+    "en": "In the EU, somatropin has been authorised since the 1980s for growth hormone replacement and short stature in specific childhood conditions, while tesamorelin has no marketing authorisation (its application was withdrawn on 21 June 2012). No centrally authorised medicine containing sermorelin, ipamorelin or CJC-1295 was found in the Union Register or EMA's data (25 September 2026), and ibutamoren (MK-677) is not an authorised medicine: its orphan designation for growth hormone deficiency (20 June 2017) is, as EMA states, not a marketing authorisation.",
+    "ar": "في الاتحاد الأوروبي، رُخِّص استخدام سوماتريبين منذ ثمانينيات القرن الماضي للعلاج التعويضي بهرمون النمو وقصر القامة في حالات محددة لدى الأطفال، في حين لا يمتلك تيساموريلين أي ترخيص تسويق (سُحب طلبه في 21 يونيو 2012). ولم يُعثر على أي دواء مرخص مركزياً يحتوي على سيرموريلين أو إيباموريلين أو CJC-1295 في سجل الاتحاد الأوروبي أو بيانات وكالة الأدوية الأوروبية (EMA) (بتاريخ 25 سبتمبر 2026)، كما أن إيبوتامورين (MK-677) ليس دواءً مرخصاً: حيث إن تصنيفه كدواء يتيم لعوز هرمون النمو (20 يونيو 2017) لا يُعد ترخيصاً للتسويق، كما تؤكد EMA.",
+    "sourceNumbers": [
+      "1295",
+      "1980",
+      "20",
+      "2012",
+      "2017",
+      "2026",
+      "21",
+      "25",
+      "677"
+    ],
+    "targetNumbers": [
+      "1295",
+      "20",
+      "2012",
+      "2017",
+      "2026",
+      "21",
+      "25",
+      "677"
+    ]
+  },
+  {
+    "path": "/curriculum/modules/5/units/0/blocks/20/body",
+    "en": "Tesamorelin is the best-studied peptide on this axis. In its pivotal trials, 47% of treated patients had IGF-1 more than two standard deviations above the mean at 26 weeks, and 36% more than three. Its label states that the effects of prolonged IGF-1 elevation are unknown. For unapproved secretagogues bought for skin, nobody has published the equivalent figure.",
+    "ar": "يُعدّ تيزاموريلين (Tesamorelin) أكثر ببتيد تمت دراسته على هذا المحور. في تجاربه المحورية، كان لدى 47% من المرضى المُعالجين مستوى IGF-1 أعلى من المتوسط بأكثر من انحرافين معياريين (+2 SD) عند الأسبوع 26، وكان لدى 36% منهم أعلى بأكثر من ثلاثة انحرافات معيارية (+3 SD). تذكر نشرة معلوماته المعتمدة أن تأثيرات الارتفاع المطوّل لـ IGF-1 غير معروفة. أما بالنسبة لمحفزات الإفراز (secretagogues) غير المعتمدة التي تُشترى من أجل الجلد، فلم ينشر أحد أي رقم مكافئ.",
+    "sourceNumbers": [
+      "1",
+      "1",
+      "26",
+      "36",
+      "47"
+    ],
+    "targetNumbers": [
+      "1",
+      "1",
+      "2",
+      "26",
+      "3",
+      "36",
+      "47"
+    ]
+  },
+  {
+    "path": "/curriculum/modules/6/units/0/blocks/1/metadata/videoTranscript",
+    "en": "This last module turns the course into three habits. You will rate the certainty behind a claim with GRADE, read a compounding status and a certificate of analysis for what they do and do not prove, and write the consent and chart note that an unapproved product needs. Every claim you hear about a skin peptide carries a hidden question. How sure can we be? GRADE answers it with four levels of certainty, from high to very low. The rating belongs to a body of evidence for one outcome, such as wrinkle depth at twelve weeks, and never to a single study or to the molecule itself. Randomized trials start high and observational studies start low. From there, certainty drops for five reasons you can name, which are risk of bias, inconsistency between trials, indirectness, imprecision, and suspected publication bias. Both Hormonaly guides print a letter from A to D beside each use. Read those letters as the same four levels, adapted. They rate the evidence for that use, and they say nothing about whether a product is legal.",
+    "ar": "تحوّل هذه الوحدة الأخيرة محتوى الدورة إلى ثلاث ممارسات روتينية. ستقيّم درجة اليقين وعدم اليقين الكامنة وراء أي ادعاء باستخدام نظام GRADE، وتطّلع على وضع التحضير الصيدلاني وشهادة التحليل لتتبين ما تثبتانه وما تعجزان عن إثباته، وتصيغ نموذج الإقرار المستنير وملاحظات الملف الطبي التي يتطلبها استخدام منتج غير معتمد. يحمل كل ادعاء تسمعه حول ببتيد من ببتيدات الجلد سؤالاً خفياً: ما مدى تأكدنا من ذلك؟ يجيب نظام GRADE عن هذا السؤال بأربعة مستويات من اليقين، تتراوح من مرتفع إلى منخفض جداً. ينطبق هذا التقييم على مجمل الأدلة المخصصة لحصيلة علاجية واحدة، مثل عمق التجاعيد عند 12 أسبوعاً، ولا ينطبق مطلقاً على دراسة واحدة أو على الجزيء نفسه. تبدأ التجارب العشوائية بمستوى يقين مرتفع، بينما تبدأ الدراسات القائمة على الملاحظة بمستوى منخفض. ومن هذه النقطة، تتراجع درجة اليقين لخمسة أسباب يمكنك تحديدها: خطر الانحياز، وعدم الاتساق بين التجارب، وغياب المباشرة، وعدم الدقة، والاشتباه في انحياز النشر. يضع كلا دليلي Hormonaly حرفاً من A إلى D بجانب كل استخدام؛ وعليك قراءة هذه الحروف بوصفها المستويات الأربعة ذاتها بعد مواءمتها. إنها تصنف الأدلة الخاصة بذلك الاستخدام، ولا توضح بأي حال ما إذا كان المنتج قانونياً.",
+    "sourceNumbers": [],
+    "targetNumbers": [
+      "12"
+    ]
+  },
+  {
+    "path": "/curriculum/modules/6/units/0/blocks/18/metadata/variants/jurisdiction/PT/text",
+    "en": "In Portugal, advertising a medicine without a valid national authorisation or registration, or one authorised under Articles 92 and 93, is prohibited, prescription-only medicines may be advertised only in technical media for health professionals, and the advertiser, the agency, anyone disseminating the advertising and the owner of the medium are all liable (Estatuto do Medicamento). Health advertising practices fall under Decreto-Lei 238/2015, which bans false claims of guaranteed cure or results or of absence of side effects and is enforced by the Health Regulatory Authority (ERS).",
+    "ar": "في البرتغال، يُحظر الإعلان عن دواء دون ترخيص أو تسجيل وطني سارٍ، أو الإعلان عن دواء مرخص بموجب المادتين 92 و93، ولا يجوز الإعلان عن الأدوية التي تُصرف بوصفة طبية فقط إلا في الوسائط الفنية الموجهة للمهنيين الصحيين، وتتحمل الجهة المعلنة، والوكالة، وكل من ينشر الإعلان، ومالك الوسيلة الإعلامية المسؤولية المشتركة (Estatuto do Medicamento). وتخضع ممارسات الإعلان الصحي للمرسوم بقانون رقم 238/2015 (Decreto-Lei 238/2015)، الذي يحظر الادعاءات الكاذبة بضمان الشفاء أو النتائج أو غياب الآثار الجانبية، وتتولى هيئة تنظيم الصحة (ERS) إنفاذه.",
+    "sourceNumbers": [
+      "2015",
+      "238",
+      "92",
+      "93"
+    ],
+    "targetNumbers": [
+      "2015",
+      "2015",
+      "238",
+      "238",
+      "92",
+      "93"
+    ]
+  },
+  {
+    "path": "/curriculum/modules/6/units/0/blocks/26/quiz/options/2/text",
+    "en": "All three are lawful, because GHK-Cu is in Category 1.",
+    "ar": "جميع الخيارات الثلاثة قانونية، لأن GHK-Cu يندرج ضمن الفئة 1 (Category 1).",
+    "sourceNumbers": [
+      "1"
+    ],
+    "targetNumbers": [
+      "1",
+      "1"
+    ]
+  },
+  {
+    "path": "/curriculum/modules/6/units/0/blocks/26/quiz/options/2/why",
+    "en": "Category 1 covers 503A compounding of non-injectable GHK-Cu under FDA's interim policy. It approves nothing, and it covers neither research products nor injection.",
+    "ar": "تغطي الفئة 1 (Category 1) التحضير الصيدلاني وفق المادة 503A لمركب GHK-Cu غير المخصص للحقن بموجب السياسة المؤقتة لإدارة الغذاء والدواء الأمريكية (FDA). وهي لا تعتمد أي شيء، ولا تغطي المنتجات البحثية ولا الحقن.",
+    "sourceNumbers": [
+      "1",
+      "503"
+    ],
+    "targetNumbers": [
+      "1",
+      "1",
+      "503"
+    ]
+  },
+  {
+    "path": "/curriculum/modules/6/check/options/1/text",
+    "en": "Topical GHK-Cu: small-trial evidence (C); in the US, non-injectable use sits in 503A Category 1, under evaluation; its certificate can show identity and purity, never sterility or legality.",
+    "ar": "مركب GHK-Cu الموضعي: أدلة مستمدة من تجارب صغيرة (C)؛ في الولايات المتحدة، يندرج الاستخدام غير المخصص للحقن ضمن الفئة 1 (Category 1) للمادة 503A، وهو قيد التقييم؛ ويمكن لشهادة التحليل الخاصة به إثبات الهوية والنقاوة، ولكنها لا تثبت أبداً العقامة أو المشروعية القانونية.",
+    "sourceNumbers": [
+      "1",
+      "503"
+    ],
+    "targetNumbers": [
+      "1",
+      "1",
+      "503"
+    ]
+  },
+  {
+    "path": "/curriculum/modules/6/check/options/2/text",
+    "en": "GHK-Cu is in Category 1, so it is approved for skin and the evidence question is settled.",
+    "ar": "يندرج GHK-Cu ضمن الفئة 1 (Category 1)، لذا فهو معتمد للجلد ومسألة الأدلة محسومة.",
+    "sourceNumbers": [
+      "1"
+    ],
+    "targetNumbers": [
+      "1",
+      "1"
+    ]
+  },
+  {
+    "path": "/curriculum/modules/6/check/options/2/why",
+    "en": "Category 1 is an enforcement posture while FDA evaluates. It approves nothing and says nothing about evidence.",
+    "ar": "الفئة 1 (Category 1) هي موقف تنفيذي رقابي ريثما تقوم إدارة الغذاء والدواء الأمريكية (FDA) بالتقييم. وهي لا تعتمد أي شيء ولا تفيد بأي شيء بشأن الأدلة.",
+    "sourceNumbers": [
+      "1"
+    ],
+    "targetNumbers": [
+      "1",
+      "1"
+    ]
+  },
+  {
+    "path": "/assessments/0/questions/8/prompt",
+    "en": "Which statement about afamelanotide and Melanotan II is accurate?",
+    "ar": "أي عبارة عن أفاميلانوتيد (afamelanotide) وميلانوتان 2 (Melanotan II) دقيقة؟",
+    "sourceNumbers": [],
+    "targetNumbers": [
+      "2"
+    ]
+  },
+  {
+    "path": "/assessments/0/questions/8/options/0/text",
+    "en": "Afamelanotide is approved (EU 2014, US 2019) only for erythropoietic protoporphyria; Melanotan II is approved for no indication, and regulators in the US, UK and Australia have warned about it.",
+    "ar": "أفاميلانوتيد معتمد (الاتحاد الأوروبي 2014، الولايات المتحدة 2019) فقط لعلاج البروتوبورفيريا المكوّنة للكريات الحمر؛ بينما ميلانوتان 2 غير معتمد لأي دواعي استعمال، وقد حذرت منه الجهات التنظيمية في الولايات المتحدة والمملكة المتحدة وأستراليا.",
+    "sourceNumbers": [
+      "2014",
+      "2019"
+    ],
+    "targetNumbers": [
+      "2",
+      "2014",
+      "2019"
+    ]
+  },
+  {
+    "path": "/assessments/0/questions/8/options/2/text",
+    "en": "Melanotan II became approvable once FDA reviewed it for compounding.",
+    "ar": "أصبح ميلانوتان 2 قابلاً للاعتماد بمجرد أن راجعته إدارة الغذاء والدواء الأمريكية (FDA) لغرض التحضير الصيدلاني.",
+    "sourceNumbers": [],
+    "targetNumbers": [
+      "2"
+    ]
+  },
+  {
+    "path": "/tutorCorpus/8/answer",
+    "en": "Afamelanotide (Scenesse) is an MC1R agonist approved only for erythropoietic protoporphyria (EU 2014, US 2019; licensed in the UK, where NICE did not recommend it for NHS use in 2023), on the strength of two sponsor-funded phase 3 trials; even there, the US label recommends a full-body skin examination twice a year. Melanotan II is a different, non-selective molecule approved for no indication. Its only controlled human data are two tiny 1990s studies, and case reports describe darkening and new moles, nail pigmentation, melanomas in people with other risk factors (causation unproven), priapism and rhabdomyolysis. FDA (April 2026), MHRA (April 2024) and TGA (August 2026) have all put warnings on record. If someone has used it: stop, record the product and seller, examine the skin and nails, and refer changing moles; a personal or family history of melanoma makes it an absolute no in the endocrinology guide. This course gives no doses or sourcing advice.",
+    "ar": "يُعد أفاميلانوتيد (Scenesse) ناهضاً لمستقبلات MC1R معتمداً فقط لعلاج البروتوبورفيريا المكوّنة للكريات الحمر (الاتحاد الأوروبي 2014، الولايات المتحدة 2019؛ ومرخص في المملكة المتحدة، حيث لم يوصِ به المعهد الوطني للتميز في الرعاية الصحية (NICE) للاستخدام في هيئة الخدمات الصحية الوطنية (NHS) في عام 2023)، وذلك استناداً إلى تجربتين من المرحلة 3 بتمويل من الجهة الراعية؛ وحتى في هذه الحالة، توصي النشرة المعتمدة في الولايات المتحدة بإجراء فحص جلدي لكامل الجسم مرتين سنوياً. أما Melanotan II فهو جزيء مختلف وغير انتقائي غير معتمد لأي دواعي استعمال. وتقتصر بياناته البشرية المضبوطة الوحيدة على دراستين صغيرتين للغاية من تسعينيات القرن العشرين، وتصف تقارير الحالات حدوث اسمرار وشامات جديدة، وتصبغ الأظافر، وأورام ميلانينية لدى أفراد لديهم عوامل خطر أخرى (السببية غير مثبتة)، وقسوح، وانحلال الربيدات. وقد أصدرت كل من إدارة الغذاء والدواء (FDA) (أبريل 2026) وMHRA (أبريل 2024) وTGA (أغسطس 2026) تحذيرات مسجلة رسمياً. وإذا كان شخص ما قد استخدمه: فتوقف، وسجّل المنتج والبائع، وافحص الجلد والأظافر، وأحِل الشامات المتغيرة؛ كما أن وجود سوابق شخصية أو عائلية للإصابة بالورم الميلانيني يجعله ممنوعاً تماماً في دليل الغدد الصماء. لا تقدم هذه الدورة أي جرعات أو نصائح حول مصادر التوريد.",
+    "sourceNumbers": [
+      "1",
+      "1990",
+      "2014",
+      "2019",
+      "2023",
+      "2024",
+      "2026",
+      "2026",
+      "3"
+    ],
+    "targetNumbers": [
+      "1",
+      "2014",
+      "2019",
+      "2023",
+      "2024",
+      "2026",
+      "2026",
+      "3"
+    ]
+  }
+]

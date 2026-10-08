@@ -1,0 +1,31 @@
+{
+  "m1-p13": {
+    "review": "agent semantic number-format check",
+    "note": "English interleukin six and eight is Arabic interleukin 6 and 8; p16 retained."
+  },
+  "m1-p17": {
+    "review": "agent semantic number-format check",
+    "note": "English fifty-eight-year-old is Arabic 58 years."
+  },
+  "m2-p02": {
+    "review": "agent semantic number-format check",
+    "note": "English eleven beta HSD one is Arabic 11 beta-HSD1; same enzyme."
+  },
+  "m2-p13": {
+    "review": "agent semantic number-format check",
+    "note": "English type one and MEN two A are Arabic type 1 and MEN2A; PRKAR1A retained."
+  },
+  "m3-p13": {
+    "review": "agent semantic number-format check",
+    "note": "fifty-eight, ten months and eighteen percent rendered 58, 10, 18%."
+  },
+  "m3-p15": {
+    "review": "agent semantic number-format check",
+    "note": "twelve men and four hours rendered 12 and 4; IL-6 retained."
+  },
+  "m5-p02": {
+    "review": "agent semantic number-format check",
+    "note": "five-alpha-reductase rendered 5-alpha; IGF-1 retained."
+  },
+  "m5-p11": "Twenty-seven and three months faithfully rendered as 27 and 3; Melanotan II preserved."
+}

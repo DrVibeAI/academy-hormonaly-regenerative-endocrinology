@@ -1,0 +1,1426 @@
+{
+  "academy": {
+    "academy": "hormonaly",
+    "brand": {
+      "voices": {
+        "es-MX": {
+          "voice_id": "",
+          "name": ""
+        },
+        "en": {
+          "voice_id": "Xb7hH8MSUJpSbSDYk0k2",
+          "name": "Alice — Clear, Engaging Educator (ElevenLabs library)"
+        }
+      },
+      "name": "Hormonaly Academy",
+      "shortName": "Hormonaly",
+      "wordmarkSuffix": "ACADEMY",
+      "logo": "./assets/hormonaly-logo.png",
+      "theme": "perceptors-house",
+      "designTier": 0,
+      "accent": "#5A4BC4",
+      "tagline": {
+        "en": "Hormones and peptides, evidence-graded."
+      },
+      "supportEmail": "support@hormonaly.ai",
+      "issuer": "Hormonaly Academy"
+    },
+    "home": {
+      "kicker": {
+        "en": "For clinicians"
+      },
+      "headline": {
+        "en": "Skin peptides, answered with evidence."
+      },
+      "lede": {
+        "en": "Your patients are already asking about hormones and peptides for their skin. Learn what the trials show, what is approved where you practise, and what to say next."
+      },
+      "primaryAction": {
+        "en": "Enrol now"
+      },
+      "secondaryAction": {
+        "en": "Watch the trailer"
+      },
+      "heroImage": {
+        "src": "assets/hormones-peptides-skin/home/hero-skin.jpg"
+      },
+      "heroVideo": {
+        "src": "assets/hormones-peptides-skin/home/trailer.mp4",
+        "poster": "assets/hormones-peptides-skin/home/trailer-poster.jpg",
+        "label": {
+          "en": "Hormones and Peptides for Skin, the course trailer"
+        },
+        "disclosure": {
+          "en": "Presented by a digital avatar (AI-generated presenter and voice)."
+        }
+      },
+      "practice": {
+        "kicker": {
+          "en": "In your practice"
+        },
+        "title": {
+          "en": "Turn the questions into a service."
+        },
+        "body": {
+          "en": "Copper peptides, collagen, tanning shots, growth-hormone boosters: most reach your clinic before any evidence does. Be the clinician with real answers, and build a skin service you can stand behind."
+        },
+        "points": [
+          {
+            "en": "Tell a randomized trial from a brochure"
+          },
+          {
+            "en": "Spot the red flags on a certificate of analysis"
+          },
+          {
+            "en": "Know what is approved in your country, and when to refer"
+          }
+        ],
+        "image": {
+          "src": "assets/hormones-peptides-skin/home/practice-skin.jpg",
+          "alt": {
+            "en": "Close-up of healthy, glowing skin"
+          }
+        }
+      },
+      "coursesTitle": {
+        "en": "The course"
+      },
+      "coursesNote": {
+        "en": "More peptide courses are on the way."
+      },
+      "glimpses": {
+        "title": {
+          "en": "Learn by doing."
+        },
+        "items": [
+          {
+            "src": "assets/hormones-peptides-skin/home/inside-film.jpg",
+            "caption": {
+              "en": "A short film opens every module"
+            }
+          },
+          {
+            "src": "assets/hormones-peptides-skin/home/inside-trial.jpg",
+            "caption": {
+              "en": "Sort the evidence, one tap at a time"
+            }
+          },
+          {
+            "src": "assets/hormones-peptides-skin/home/inside-case.jpg",
+            "caption": {
+              "en": "Work through clinic cases"
+            }
+          },
+          {
+            "src": "assets/hormones-peptides-skin/home/inside-certificate.jpg",
+            "caption": {
+              "en": "Audit a certificate of analysis"
+            }
+          },
+          {
+            "src": "assets/hormones-peptides-skin/home/inside-country.jpg",
+            "caption": {
+              "en": "Your country's rules, dated"
+            }
+          }
+        ]
+      },
+      "trust": {
+        "title": {
+          "en": "Built on evidence. Reviewed by a physician."
+        },
+        "items": [
+          {
+            "title": {
+              "en": "Every claim graded"
+            },
+            "body": {
+              "en": "Each statement carries its evidence grade and its source."
+            }
+          },
+          {
+            "title": {
+              "en": "Your country first"
+            },
+            "body": {
+              "en": "Regulatory status for six jurisdictions, labelled and dated."
+            }
+          },
+          {
+            "title": {
+              "en": "No dosing"
+            },
+            "body": {
+              "en": "Evidence, regulation and next steps. Never doses or product sourcing."
+            }
+          },
+          {
+            "title": {
+              "en": "Ask the course"
+            },
+            "body": {
+              "en": "A tutor answers from the course and its sources, and says when a question is outside them."
+            }
+          }
+        ]
+      },
+      "reviewers": [
+        {
+          "name": "Fady Hannah-Shmouni, MD FRCPC",
+          "role": {
+            "en": "Medical review · author of the Hormonaly pocket guides on aesthetic and regenerative endocrinology and on peptides"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "en": "Does the course give doses or protocols?"
+          },
+          "a": {
+            "en": "No. It teaches the evidence, the regulatory status and what each role can safely do next. Dosing and product sourcing are excluded by design."
+          }
+        },
+        {
+          "q": {
+            "en": "Which countries does it cover?"
+          },
+          "a": {
+            "en": "The United States, the United Kingdom, the European Union, Portugal, Brazil and the United Arab Emirates. Each statement names its country and date, and your own country comes first."
+          }
+        },
+        {
+          "q": {
+            "en": "Is there CME or CE credit?"
+          },
+          "a": {
+            "en": "The course is accredited by GCLS, the Geneva College of Longevity Sciences. CME or CE credit is not offered at this time."
+          }
+        },
+        {
+          "q": {
+            "en": "What do I get at the end?"
+          },
+          "a": {
+            "en": "Pass the final check with 80% or more to receive a certificate of completion for this GCLS-accredited course, with a public verification code."
+          }
+        }
+      ],
+      "certificate": {
+        "title": {
+          "en": "Earn a GCLS-accredited certificate."
+        },
+        "body": {
+          "en": "Finish the seven modules and pass the final check to receive your certificate of completion."
+        }
+      },
+      "creators": {
+        "kicker": {
+          "en": "For physician creators"
+        },
+        "title": {
+          "en": "Launch your own course with Perceptors."
+        },
+        "body": {
+          "en": "Physicians, educators and creators with something clinicians should learn: we turn your expertise into an evidence-checked course and academy like this one."
+        },
+        "action": {
+          "label": {
+            "en": "Talk to us"
+          },
+          "href": "https://www.perceptors.ai/contact?prompt=I%20want%20to%20launch%20my%20own%20course%20with%20Perceptors#general-inquiries"
+        }
+      },
+      "ctaTitle": {
+        "en": "Start with Module 1 today."
+      },
+      "disclaimer": {
+        "en": "Educational content for licensed clinicians. It does not replace clinical judgement, specialist input or formal guidelines."
+      }
+    },
+    "catalog": [
+      {
+        "course": "packages/hormones-peptides-skin.json",
+        "audience": {
+          "en": "Physicians, nurse practitioners and physician associates, nurses and other licensed providers"
+        },
+        "blurb": {
+          "en": "The hormones and peptides your patients ask about for skin, hair and the ageing face: what is shown in people, what is only mechanism, and what the rules allow in the US, the UK, the EU, Portugal, Brazil and the UAE."
+        },
+        "status": "draft",
+        "series": "regenerative-endocrinology",
+        "order": 1,
+        "accreditation": {
+          "body": "GCLS",
+          "name": "Geneva College of Longevity Sciences",
+          "status": "accredited",
+          "logo": "/gcls/gcls-logo.png",
+          "basis": "Verbal confirmation from GCLS to Omar Saleem (product owner), 2026-09-25; written confirmation to follow"
+        },
+        "entitlement": {
+          "type": "paid",
+          "price": {
+            "amount": 199,
+            "currency": "usd"
+          }
+        },
+        "certificate": {
+          "access": "included"
+        },
+        "final": {
+          "by": "Omar Saleem (product owner)",
+          "date": "2026-09-25",
+          "revision": "academy-hormonaly-00009-6jl · 1.0.0-rc.4, walked end to end on hormonaly.perceptors.ai"
+        }
+      }
+    ],
+    "modules": {
+      "fieldbook": true,
+      "promptLab": false,
+      "webinars": false,
+      "blog": false,
+      "peers": false,
+      "achievements": false,
+      "studio": false
+    },
+    "experience": {
+      "defaultRole": "prescriber",
+      "roles": [
+        {
+          "id": "prescriber",
+          "label": {
+            "en": "Prescriber"
+          },
+          "description": {
+            "en": "Physician, NP or PA"
+          }
+        },
+        {
+          "id": "clinical-staff",
+          "label": {
+            "en": "Clinical staff"
+          },
+          "description": {
+            "en": "RN, aesthetic nurse or injector"
+          }
+        },
+        {
+          "id": "advisor",
+          "label": {
+            "en": "Advisor"
+          },
+          "description": {
+            "en": "Pharmacist, ND or allied professional"
+          }
+        }
+      ],
+      "practicePrompts": false,
+      "library": {
+        "sourceNotes": false,
+        "evidencePolicy": {
+          "en": "Mechanism, human evidence, regulatory status and open questions are kept apart. The course gives no doses and no product sourcing."
+        }
+      }
+    },
+    "today": {
+      "lines": {
+        "label": {
+          "en": "Line of the day"
+        },
+        "items": [
+          {
+            "from": "m1-p01",
+            "text": {
+              "en": "The skin makes its own hormones."
+            },
+            "detail": {
+              "en": "Skin senses hormones from the blood, makes several of its own, and ages in ways that change both."
+            },
+            "image": {
+              "src": "assets/hormones-peptides-skin/today/m1-p01.jpg",
+              "alt": {
+                "en": "Warm morning light across the skin of a forearm"
+              },
+              "prompt": "Macro of the smooth skin on the inside of a forearm catching warm morning light, fine vellus hairs glowing along the edge."
+            }
+          },
+          {
+            "from": "m2-p02",
+            "text": {
+              "en": "The skin regenerates its own cortisol."
+            },
+            "detail": {
+              "en": "Keratinocytes and dermal fibroblasts also carry 11β-HSD1, the enzyme that turns inactive cortisone back into active cortisol inside the cell."
+            },
+            "image": {
+              "src": "assets/hormones-peptides-skin/today/m2-p02.jpg",
+              "alt": {
+                "en": "Sunlight falling across the skin of a bare shoulder"
+              },
+              "prompt": "Late sunlight falling across the skin of a bare shoulder blade, a soft glow over fine texture, the light fading into a warm gradient."
+            }
+          },
+          {
+            "from": "m3-p05",
+            "text": {
+              "en": "Fifteen years on the same collagen."
+            },
+            "detail": {
+              "en": "Human skin collagen turns over slowly; tissue analysis puts its half-life at about 15 years."
+            },
+            "image": {
+              "src": "assets/hormones-peptides-skin/today/m3-p05.jpg",
+              "alt": {
+                "en": "Close-up of softly creased linen threads"
+              },
+              "prompt": "Close-up of finely woven natural linen threads, softly creased and slightly worn, in warm side light: long-lived fibres."
+            }
+          },
+          {
+            "from": "m4-p01",
+            "text": {
+              "en": "The peptide your patient already bought."
+            },
+            "detail": {
+              "en": "Most skin peptides reach your clinic before any evidence does."
+            },
+            "image": {
+              "src": "assets/hormones-peptides-skin/today/m4-p01.jpg",
+              "alt": {
+                "en": "A small unlabelled serum bottle on a stone shelf"
+              },
+              "prompt": "A small clear glass dropper bottle of serum with no label, standing on a travertine shelf beside a folded cotton towel, soft window light."
+            }
+          },
+          {
+            "from": "m5-p02",
+            "text": {
+              "en": "A follicle that runs its own hormones."
+            },
+            "detail": {
+              "en": "Human scalp hair follicles kept alive in the laboratory answer corticotropin-releasing hormone by making ACTH and α-MSH and secreting cortisol, with a feedback loop like the adrenal axis."
+            },
+            "image": {
+              "src": "assets/hormones-peptides-skin/today/m5-p02.jpg",
+              "alt": {
+                "en": "Backlit fine hairs on the skin of an arm"
+              },
+              "prompt": "Fine hairs on the skin of a forearm, backlit so each hair glows like a filament against a soft cream background."
+            }
+          },
+          {
+            "from": "m6-p02",
+            "text": {
+              "en": "Two hormones, two layers of skin."
+            },
+            "detail": {
+              "en": "Growth hormone acts mostly in the dermis. IGF-1, made locally by fibroblasts and melanocytes, reaches keratinocytes through the IGF-1 receptor and makes them divide."
+            },
+            "image": {
+              "src": "assets/hormones-peptides-skin/today/m6-p02.jpg",
+              "alt": {
+                "en": "Two layered sheets of translucent silk, backlit"
+              },
+              "prompt": "Two sheets of translucent silk in cream and blush, one laid over the other and backlit so both layers glow."
+            }
+          },
+          {
+            "from": "m7-p13",
+            "text": {
+              "en": "Research use only is a label, and never a route."
+            },
+            "image": {
+              "src": "assets/hormones-peptides-skin/today/m7-p13.jpg",
+              "alt": {
+                "en": "An unlabelled glass vial on a clean laboratory bench"
+              },
+              "prompt": "A single small glass vial with a plain blank white label on a clean laboratory bench, cool clinical light, calm empty space around it."
+            }
+          },
+          {
+            "from": "m1-p13",
+            "text": {
+              "en": "Cells that stop dividing and keep talking."
+            },
+            "detail": {
+              "en": "A senescent cell has stopped dividing for good but stays metabolically active, releasing cytokines, matrix-degrading enzymes and growth factors: the senescence-associated secretory phenotype, or SASP."
+            },
+            "image": {
+              "src": "assets/hormones-peptides-skin/today/m1-p13.jpg",
+              "alt": {
+                "en": "Soft luminous spheres clustered like cells"
+              },
+              "prompt": "Dreamlike macro of soft luminous translucent spheres clustered like cells, lit in amber with faint violet shadows, like a painterly micrograph."
+            }
+          },
+          {
+            "from": "m2-p01",
+            "text": {
+              "en": "The face that might be a diagnosis."
+            },
+            "detail": {
+              "en": "Most skin changes you see are ageing or lifestyle. A few are the first visible sign of endocrine disease."
+            },
+            "image": {
+              "src": "assets/hormones-peptides-skin/today/m2-p01.jpg",
+              "alt": {
+                "en": "A round mirror in a quiet clinic room"
+              },
+              "prompt": "A round mirror on a pale plaster wall reflecting only soft daylight and a window, a calm and empty examination room."
+            }
+          },
+          {
+            "from": "m3-p04",
+            "text": {
+              "en": "Sugar that sticks to collagen."
+            },
+            "detail": {
+              "en": "Glycation is a slow, non-enzymatic reaction. Reducing sugars attach to protein amino groups, rearrange into Amadori products and end as advanced glycation end products, or AGEs."
+            },
+            "image": {
+              "src": "assets/hormones-peptides-skin/today/m3-p04.jpg",
+              "alt": {
+                "en": "Sugar crystals scattered on cream silk"
+              },
+              "prompt": "Sugar crystals scattered over smooth cream silk, macro, warm side light making the crystals sparkle."
+            }
+          },
+          {
+            "from": "m6-p05",
+            "text": {
+              "en": "Deficiency is a diagnosis. Decline is ageing."
+            },
+            "image": {
+              "src": "assets/hormones-peptides-skin/today/m6-p05.jpg",
+              "alt": {
+                "en": "Late light moving across a plaster wall"
+              },
+              "prompt": "The shadow of a window frame falling across a warm plaster wall in late-afternoon light, a quiet sense of time passing."
+            }
+          },
+          {
+            "from": "m1-p06",
+            "text": {
+              "en": "Read the skin before the serum."
+            },
+            "detail": {
+              "en": "The Aesthetic & Regenerative Endocrinology guide treats the aesthetic exam as a systemic screen."
+            },
+            "image": {
+              "src": "assets/hormones-peptides-skin/today/m1-p06.jpg",
+              "alt": {
+                "en": "A hand holding a magnifying loupe in window light"
+              },
+              "prompt": "A hand in a clean white sleeve holding a small magnifying loupe in soft window light; a serum bottle stands out of focus in the background."
+            }
+          },
+          {
+            "from": "m2-p13",
+            "text": {
+              "en": "Some syndromes show on the skin first."
+            },
+            "detail": {
+              "en": "A handful of inherited endocrine syndromes appear on the skin before the glands declare themselves."
+            },
+            "image": {
+              "src": "assets/hormones-peptides-skin/today/m2-p13.jpg",
+              "alt": {
+                "en": "Raking light across the skin of an upper arm"
+              },
+              "prompt": "Raking early light across the skin of an upper arm, revealing its fine topography like a landscape at dawn."
+            }
+          },
+          {
+            "from": "m3-p02",
+            "text": {
+              "en": "The skin keeps its own fat."
+            },
+            "detail": {
+              "en": "Beneath the dermis lies subcutaneous fat. Within the reticular dermis itself sits a thinner layer, dermal white adipose tissue."
+            },
+            "image": {
+              "src": "assets/hormones-peptides-skin/today/m3-p02.jpg",
+              "alt": {
+                "en": "Golden droplets suspended in clear water"
+              },
+              "prompt": "Abstract macro of golden oil droplets suspended in clear water, soft warm light, gentle bokeh."
+            }
+          },
+          {
+            "from": "m2-p06",
+            "text": {
+              "en": "Reassure the many, refer the few."
+            },
+            "detail": {
+              "en": "When a patient asks about 'cortisol face', start with the drug history: steroid creams, skin-lighteners, herbal tonics and injections."
+            },
+            "image": {
+              "src": "assets/hormones-peptides-skin/today/m2-p06.jpg",
+              "alt": {
+                "en": "A quiet clinic corridor with warm light from a door"
+              },
+              "prompt": "A quiet clinic corridor at dusk, one door ajar with warm light spilling across a pale floor."
+            }
+          }
+        ]
+      }
+    },
+    "localization": {
+      "countries": [
+        {
+          "code": "US",
+          "country": {
+            "en": "United States"
+          },
+          "centers": [
+            "United States"
+          ],
+          "edition": {
+            "en": "English"
+          },
+          "units": {
+            "en": "As reported in each cited source"
+          },
+          "approval": {
+            "en": "Regulatory notes reviewed by Fady Hannah-Shmouni, MD FRCPC"
+          },
+          "contextLine": {
+            "en": "FDA status and US compounding rules with each moment"
+          },
+          "status": "demo-ready",
+          "learning": {
+            "locale": "en",
+            "language": "English",
+            "shortLabel": "EN",
+            "direction": "ltr",
+            "review": {
+              "en": "Medical review: Fady Hannah-Shmouni, MD FRCPC"
+            }
+          }
+        },
+        {
+          "code": "GB",
+          "country": {
+            "en": "United Kingdom"
+          },
+          "centers": [
+            "United Kingdom"
+          ],
+          "edition": {
+            "en": "English"
+          },
+          "units": {
+            "en": "As reported in each cited source"
+          },
+          "approval": {
+            "en": "Regulatory notes reviewed by Fady Hannah-Shmouni, MD FRCPC"
+          },
+          "contextLine": {
+            "en": "MHRA status and UK rules with each moment"
+          },
+          "status": "demo-ready",
+          "learning": {
+            "locale": "en",
+            "language": "English",
+            "shortLabel": "EN",
+            "direction": "ltr",
+            "review": {
+              "en": "Medical review: Fady Hannah-Shmouni, MD FRCPC"
+            }
+          }
+        },
+        {
+          "code": "EU",
+          "country": {
+            "en": "Another EU country"
+          },
+          "centers": [
+            "Another EU country"
+          ],
+          "edition": {
+            "en": "English"
+          },
+          "units": {
+            "en": "As reported in each cited source"
+          },
+          "approval": {
+            "en": "Regulatory notes reviewed by Fady Hannah-Shmouni, MD FRCPC"
+          },
+          "contextLine": {
+            "en": "EMA status and EU-wide rules with each moment"
+          },
+          "status": "demo-ready",
+          "learning": {
+            "locale": "en",
+            "language": "English",
+            "shortLabel": "EN",
+            "direction": "ltr",
+            "review": {
+              "en": "Medical review: Fady Hannah-Shmouni, MD FRCPC"
+            }
+          }
+        },
+        {
+          "code": "PT",
+          "country": {
+            "en": "Portugal"
+          },
+          "centers": [
+            "Portugal"
+          ],
+          "edition": {
+            "en": "English"
+          },
+          "units": {
+            "en": "As reported in each cited source"
+          },
+          "approval": {
+            "en": "Regulatory notes reviewed by Fady Hannah-Shmouni, MD FRCPC"
+          },
+          "contextLine": {
+            "en": "INFARMED and EU status with each moment"
+          },
+          "status": "demo-ready",
+          "learning": {
+            "locale": "en",
+            "language": "English",
+            "shortLabel": "EN",
+            "direction": "ltr",
+            "review": {
+              "en": "Medical review: Fady Hannah-Shmouni, MD FRCPC"
+            }
+          }
+        },
+        {
+          "code": "BR",
+          "country": {
+            "en": "Brazil"
+          },
+          "centers": [
+            "Brazil"
+          ],
+          "edition": {
+            "en": "English"
+          },
+          "units": {
+            "en": "As reported in each cited source"
+          },
+          "approval": {
+            "en": "Regulatory notes reviewed by Fady Hannah-Shmouni, MD FRCPC"
+          },
+          "contextLine": {
+            "en": "ANVISA status and Brazilian rules with each moment"
+          },
+          "status": "demo-ready",
+          "learning": {
+            "locale": "en",
+            "language": "English",
+            "shortLabel": "EN",
+            "direction": "ltr",
+            "review": {
+              "en": "Medical review: Fady Hannah-Shmouni, MD FRCPC"
+            }
+          }
+        },
+        {
+          "code": "AE",
+          "country": {
+            "en": "United Arab Emirates"
+          },
+          "centers": [
+            "United Arab Emirates"
+          ],
+          "edition": {
+            "en": "English"
+          },
+          "units": {
+            "en": "As reported in each cited source"
+          },
+          "approval": {
+            "en": "Regulatory notes reviewed by Fady Hannah-Shmouni, MD FRCPC"
+          },
+          "contextLine": {
+            "en": "UAE federal status plus Dubai and Abu Dhabi rules with each moment"
+          },
+          "status": "demo-ready",
+          "learning": {
+            "locale": "en",
+            "language": "English",
+            "shortLabel": "EN",
+            "direction": "ltr",
+            "review": {
+              "en": "Medical review: Fady Hannah-Shmouni, MD FRCPC"
+            }
+          }
+        }
+      ]
+    },
+    "accreditation": {
+      "gcls": true,
+      "reviewAccessDays": 30,
+      "reviewers": [
+        {
+          "email": "d.thor@gcls.study",
+          "name": "Dr. Dominik Thor, MSc",
+          "role": "President · Professor of Pharmacy, Geneva College of Longevity Science"
+        }
+      ]
+    },
+    "notifications": {
+      "newCourse": [
+        "push",
+        "email"
+      ]
+    },
+    "auth": {
+      "tenantId": "hormonaly-academy-srbsc",
+      "methods": [
+        "password",
+        "email-link"
+      ]
+    },
+    "admins": [
+      "omar@hormonaly.ai",
+      "omar@perceptors.ai"
+    ]
+  },
+  "tutorKeys": [
+    {
+      "id": "tutor-m01-atlas",
+      "keys": [
+        {
+          "en": "hormone cell atlas"
+        },
+        {
+          "en": "cell atlas"
+        },
+        {
+          "en": "single cell atlas"
+        },
+        {
+          "en": "receptor map"
+        },
+        {
+          "en": "skin receptors"
+        },
+        {
+          "en": "does skin make hormones"
+        },
+        {
+          "en": "skin hormone receptors"
+        },
+        {
+          "en": "transcriptomic"
+        },
+        {
+          "en": "receptor gene"
+        },
+        {
+          "en": "skin has receptors"
+        }
+      ]
+    },
+    {
+      "id": "tutor-m01-senescence",
+      "keys": [
+        {
+          "en": "senolytic"
+        },
+        {
+          "en": "senolytics"
+        },
+        {
+          "en": "senescence"
+        },
+        {
+          "en": "senescent cells"
+        },
+        {
+          "en": "zombie cells"
+        },
+        {
+          "en": "sasp"
+        },
+        {
+          "en": "fisetin"
+        },
+        {
+          "en": "dasatinib"
+        },
+        {
+          "en": "quercetin"
+        },
+        {
+          "en": "p16"
+        },
+        {
+          "en": "anti-aging supplement"
+        }
+      ]
+    },
+    {
+      "id": "tutor-m02-cortisol-face",
+      "keys": [
+        {
+          "en": "cortisol face"
+        },
+        {
+          "en": "moon face"
+        },
+        {
+          "en": "puffy face cortisol"
+        },
+        {
+          "en": "is it cushing's"
+        },
+        {
+          "en": "cushing's syndrome signs"
+        },
+        {
+          "en": "cortisol test"
+        },
+        {
+          "en": "saliva cortisol test"
+        },
+        {
+          "en": "cortisol supplement"
+        },
+        {
+          "en": "stress face"
+        },
+        {
+          "en": "11b-hsd1"
+        }
+      ]
+    },
+    {
+      "id": "tutor-m02-hrt-skin",
+      "keys": [
+        {
+          "en": "hrt for skin"
+        },
+        {
+          "en": "hormone therapy skin"
+        },
+        {
+          "en": "estrogen for wrinkles"
+        },
+        {
+          "en": "estrogen cream face"
+        },
+        {
+          "en": "bioidentical hormones skin"
+        },
+        {
+          "en": "does hrt help wrinkles"
+        },
+        {
+          "en": "menopause skin collagen"
+        },
+        {
+          "en": "estriol cream"
+        },
+        {
+          "en": "hormone cream"
+        },
+        {
+          "en": "menopause wrinkles"
+        }
+      ]
+    },
+    {
+      "id": "m03-tutor-ozempic-face",
+      "keys": [
+        {
+          "en": "ozempic face"
+        },
+        {
+          "en": "facial fat loss on semaglutide"
+        },
+        {
+          "en": "tirzepatide face changes"
+        },
+        {
+          "en": "glp-1 facial volume loss"
+        },
+        {
+          "en": "wegovy face"
+        },
+        {
+          "en": "mounjaro face"
+        },
+        {
+          "en": "zepbound hair loss"
+        },
+        {
+          "en": "hollow cheeks weight loss drug"
+        },
+        {
+          "en": "should i stop ozempic because of my face"
+        }
+      ]
+    },
+    {
+      "id": "m03-tutor-gut-skin",
+      "keys": [
+        {
+          "en": "leaky gut"
+        },
+        {
+          "en": "gut skin axis"
+        },
+        {
+          "en": "zonulin test"
+        },
+        {
+          "en": "probiotics for eczema"
+        },
+        {
+          "en": "gut health and acne"
+        },
+        {
+          "en": "endotoxemia and skin"
+        },
+        {
+          "en": "gut repair supplements"
+        },
+        {
+          "en": "bpc-157 for gut"
+        },
+        {
+          "en": "rosacea and gut bacteria"
+        },
+        {
+          "en": "inflammaging"
+        }
+      ]
+    },
+    {
+      "id": "tutor-m04-ghkcu",
+      "keys": [
+        {
+          "en": "ghk-cu"
+        },
+        {
+          "en": "ghk"
+        },
+        {
+          "en": "copper peptide"
+        },
+        {
+          "en": "copper peptides"
+        },
+        {
+          "en": "copper serum"
+        },
+        {
+          "en": "inject ghk"
+        },
+        {
+          "en": "ghk injection"
+        },
+        {
+          "en": "is ghk-cu legal"
+        }
+      ]
+    },
+    {
+      "id": "tutor-m04-bpc157",
+      "keys": [
+        {
+          "en": "bpc-157"
+        },
+        {
+          "en": "bpc 157"
+        },
+        {
+          "en": "bpc"
+        },
+        {
+          "en": "tb-500"
+        },
+        {
+          "en": "tb500"
+        },
+        {
+          "en": "glow"
+        },
+        {
+          "en": "klow"
+        },
+        {
+          "en": "kpv"
+        },
+        {
+          "en": "repair peptides"
+        }
+      ]
+    },
+    {
+      "id": "tutor-m05-melanotan",
+      "keys": [
+        {
+          "en": "melanotan"
+        },
+        {
+          "en": "melanotan ii"
+        },
+        {
+          "en": "melanotan 2"
+        },
+        {
+          "en": "mt2"
+        },
+        {
+          "en": "mt-ii"
+        },
+        {
+          "en": "tanning injection"
+        },
+        {
+          "en": "tanning peptide"
+        },
+        {
+          "en": "tanning nasal spray"
+        },
+        {
+          "en": "barbie drug"
+        },
+        {
+          "en": "afamelanotide"
+        },
+        {
+          "en": "scenesse"
+        }
+      ]
+    },
+    {
+      "id": "tutor-m05-hair-peptides",
+      "keys": [
+        {
+          "en": "ptd-dbm"
+        },
+        {
+          "en": "ptd dbm"
+        },
+        {
+          "en": "zinc thymulin"
+        },
+        {
+          "en": "thymulin"
+        },
+        {
+          "en": "hair peptide"
+        },
+        {
+          "en": "peptide for hair loss"
+        },
+        {
+          "en": "hair growth peptide"
+        },
+        {
+          "en": "cxxc5"
+        },
+        {
+          "en": "compounded hair spray"
+        },
+        {
+          "en": "peptide hair spray"
+        }
+      ]
+    },
+    {
+      "id": "tutor-m06-secretagogues",
+      "keys": [
+        {
+          "en": "cjc-1295"
+        },
+        {
+          "en": "cjc 1295"
+        },
+        {
+          "en": "ipamorelin"
+        },
+        {
+          "en": "sermorelin"
+        },
+        {
+          "en": "tesamorelin"
+        },
+        {
+          "en": "mk-677"
+        },
+        {
+          "en": "ibutamoren"
+        },
+        {
+          "en": "igf-1 lr3"
+        },
+        {
+          "en": "growth hormone peptides"
+        },
+        {
+          "en": "gh secretagogue"
+        },
+        {
+          "en": "hgh for skin"
+        }
+      ]
+    },
+    {
+      "id": "tutor-m06-gh-excess",
+      "keys": [
+        {
+          "en": "too much growth hormone"
+        },
+        {
+          "en": "gh excess signs"
+        },
+        {
+          "en": "acromegaly skin"
+        },
+        {
+          "en": "swollen hands"
+        },
+        {
+          "en": "rings tight"
+        },
+        {
+          "en": "carpal tunnel peptide"
+        },
+        {
+          "en": "igf-1 cancer"
+        },
+        {
+          "en": "do growth hormone peptides cause cancer"
+        },
+        {
+          "en": "skin tags on peptides"
+        },
+        {
+          "en": "igf-1 too high"
+        }
+      ]
+    },
+    {
+      "id": "tutor-m07-grade",
+      "keys": [
+        {
+          "en": "grade"
+        },
+        {
+          "en": "grade a"
+        },
+        {
+          "en": "grade c"
+        },
+        {
+          "en": "evidence grade"
+        },
+        {
+          "en": "certainty of evidence"
+        },
+        {
+          "en": "is it evidence based"
+        },
+        {
+          "en": "how good is the evidence"
+        },
+        {
+          "en": "sponsored trial"
+        },
+        {
+          "en": "industry funded"
+        },
+        {
+          "en": "clinically proven"
+        }
+      ]
+    },
+    {
+      "id": "tutor-m07-compounding-coa",
+      "keys": [
+        {
+          "en": "certificate of analysis"
+        },
+        {
+          "en": "coa"
+        },
+        {
+          "en": "hplc"
+        },
+        {
+          "en": "purity"
+        },
+        {
+          "en": "is it safe to inject"
+        },
+        {
+          "en": "research use only"
+        },
+        {
+          "en": "ruo"
+        },
+        {
+          "en": "503a"
+        },
+        {
+          "en": "503b"
+        },
+        {
+          "en": "compounding pharmacy"
+        },
+        {
+          "en": "pharmacy grade"
+        },
+        {
+          "en": "off label"
+        }
+      ]
+    }
+  ],
+  "tutorContexts": [
+    {
+      "id": "m01",
+      "units": [
+        {
+          "id": "m01-story",
+          "text": {
+            "en": "Module 1 teaches cutaneous neuro-immuno-endocrine physiology with every finding labelled by evidence type (mechanism, human evidence, regulatory status, open question). The skin is described as four immuno-endocrine units (epidermal, dermal, hypodermal, adnexal) that signal locally, via sensory nerves and via the circulation (mechanism reviews, D). Skin cells express CYP11A1, 11β-HSD1, 5α-reductase and aromatase and make cortisol, DHT and estradiol locally (cell/tissue work, D); human scalp follicles run an HPA-like loop with cortisol secretion and CRH feedback ex vivo (Ito 2005) and a GH/IGF-1 loop ex vivo (Horesh 2023); keratinocyte glucocorticoids restrain skin inflammation in mice (Phan 2021); the thyroid-like loop is mostly mouse data. Three directions: local loop; body to skin (Cushing striae, hypothyroid skin); skin to body (vitamin D3 released into the circulation, established human physiology; a skin contribution to circulating sex steroids per reviews). Refer systemic patterns promptly (violaceous striae with new hypertension or diabetes, rapid virilisation), per the Aesthetic & Regenerative Endocrinology guide. The Hormone Cell Atlas (Fei, Huang-Doran et al., Science 2026) read RNA of 379 hormone/receptor genes in ~14 million cells and nuclei from 47 tissues incl. skin; its authors call the predictions putative and hypothesis-generating: RNA is not protein, secretion or clinical effect. The guide's pearl that serum 25(OH)D falls with sunscreen use is not borne out by field trials of daily moderate-SPF sunscreen (Neale 2019, C; high SPF untested); never advise dropping sun protection. Senescence: p16-positive cells rise with age in human epidermis and dermis (C) and track with wrinkles and perceived age (Waaijer 2016, n=178, association, C); the SASP was defined in cultured cells (D); an MMP-1 collagen-fragmentation loop is shown in aged human dermis plus culture (D), with senescent cells a plausible, unproven driver; clearing senescent cells extends healthy lifespan in mice (D); human senotherapy data are small biomarker pilots (Hickson 2019 open-label n=9, D; Chung 2019 topical rapamycin exploratory RCT, C); no randomized trial with clinical skin-ageing outcomes (checked Sept 2026); the guide confines senolytics to trials. Levers with human trials: daily sunscreen (Hughes 2013, n=903, B), topical tretinoin for photoageing (GRADE A), retinol in very old skin (Kafi 2007, C). Never give doses, concentrations, regimens or sourcing; adapt 'what you do next' to the learner's role (prescriber, clinical staff, advisor) without changing evidence. No CME credit is currently offered."
+          }
+        }
+      ]
+    },
+    {
+      "id": "m02",
+      "units": [
+        {
+          "id": "m02-story",
+          "text": {
+            "en": "Module 2 separates local hormonal skin biology from systemic endocrine disease and keeps four registers apart (mechanism, human evidence, regulatory status, open question). Cortisol: skin expresses an HPA-like axis (CRH, POMC/ACTH) and regenerates cortisol via 11β-HSD1 in keratinocytes and fibroblasts; activity higher in aged and photo-exposed skin, set independently of blood levels (mechanism, D). Only human 11β-HSD1 skin RCT: 28-person pilot in type 2 diabetes, primary outcome missed, exploratory faster wound closure (C); investigational, no FDA approval, no skin-ageing trial registered (24 Sep 2026). Endocrine Society 2008: best discriminators of Cushing's = easy bruising, facial plethora, proximal myopathy, reddish-purple striae >1 cm; facial fullness, dorsocervical fat pad, weight gain, acne, hirsutism, fatigue are common/less discriminating; drug history first (incl. skin-bleaching creams, injections); endogenous incidence 2–3 per million/yr; commonest cause iatrogenic; test multiple progressive features; against widespread testing and random serum cortisol; abnormal → endocrinologist. Estrogen: ERα/ERβ/GPER in skin; topical estradiol raises collagen in sun-protected not photoaged skin (D); collagen and thickness fall ~1–2%/yr after menopause tracking years since menopause (D; the guide's '30% in 5 years' is a review figure not found in primary abstracts). Systemic HT: small RCTs raise skin thickness/collagen (C); largest RCT (n=485, 48 wk) and 4-year KEEPS found no wrinkle difference (B); guide grades B, NAMS Level II, course C for structural gains. US (Feb 2026): MHT approved for hot flashes, vulvovaginal/GSM symptoms, bone loss (some products); 2025–26 label changes removed CV/breast/dementia statements from boxed warning; skin never an indication. NAMS 2022: favourable <60 or within 10 years for symptoms/bone; compounded bioidentical HT insufficient evidence. OTC 'hormone creams' = unapproved drugs (21 CFR 310.530). Skin care with better evidence: daily sunscreen (RCT n=903, B); tretinoin cream FDA-approved adjunct for fine wrinkles. UK (checked 25 Sep 2026): HRT products are prescription-only medicines licensed for oestrogen-deficiency symptoms and, for some, osteoporosis prevention (Evorel, Sandrena SmPCs); skin is not a licensed use; compounded 'bioidentical' hormones are unlicensed medicines (MHRA GN14 puts a licensed product first); UK topical tretinoin on the medicines compendium is acne-only. Red flags → referral, never diagnosis by the aesthetic clinician: rapid hirsutism/virilization (tumour ~0.2%, >half malignant) urgent; generalised hyperpigmentation in creases/scars/mucosa with illness (adrenal insufficiency) urgent; Cushing's discriminators, MEN1 angiofibromas (88% of MEN1, not in tuberous sclerosis), Carney complex (lip/eyelid/canthal lentigines, blue naevi, myxomas; cardiac myxomas >50% of deaths), MEN2A interscapular lichen amyloidosis (RET 634) → endocrine referral. Never give doses, regimens or product sourcing; adapt 'what you do next' to prescriber, clinical staff or advisor without changing facts. No CME credit is currently offered."
+          }
+        }
+      ]
+    },
+    {
+      "id": "m03",
+      "units": [
+        {
+          "id": "m03-story",
+          "text": {
+            "en": "Module 3 teaches metabolic and adipose influences on facial architecture in four separate registers (mechanism, human evidence, regulatory status, open question). dWAT: distinct adipocyte layer in the reticular dermis; reactive adipogenesis and cathelicidin against S. aureus and its age-related loss via TGF-β are mouse data (D); human dWAT is cone-shaped around follicles and human acne lesions contain cathelicidin-producing preadipocytes (D); its role in human skin ageing is unmeasured. Facial subcutaneous fat sits in discrete compartments (cadaver anatomy); in 186 identical-twin pairs higher BMI looked older before ~40 and younger after (C, observational). Glycation: AGEs accumulate in human skin collagen (~5-fold from 20 to 85 y, up to 2x in type 1 diabetes; skin collagen half-life ~15 y) — C; AGE cross-links and RAGE–NF-κB causing visible ageing: the Aesthetic & Regenerative Endocrinology guide rates B, the course grades D (lab/animal + associations); skin autofluorescence is a surrogate validated in non-pigmented skin; 'anti-glycation' products are tested on surrogates or appearance scores (guide grade C). Incretins: semaglutide (GLP-1 RA) and tirzepatide (GIP/GLP-1 RA). US status Sept 2026: Ozempic (T2D, 2017) and Wegovy (weight 06/2021; adolescents 12/2022; CV risk reduction 03/2024; MASH F2–F3 accelerated 08/2025); Mounjaro (T2D, 2022) and Zepbound (weight 11/2023; OSA 12/2024). Compounded, counterfeit and 'research' versions are not FDA-approved. STEP-1 −14.9% vs −2.4% (68 wk); SURMOUNT-1 −15.0 to −20.9% vs −3.1% (72 wk) — GRADE A for weight; median ~28% of weight lost is muscle-related (35 RCTs, B). Facial change ('Ozempic face'): retrospective imaging n=20, median 9% midface volume loss, mostly superficial, ~7%/10 kg (D); survey n=1,226, sagging/facial volume loss/hair loss rise with % weight lost (C); no RCT has measured the face; direct drug action on facial fat is a cell-study hypothesis. US labels list hair loss (~3–6% vs ~1% placebo, mostly women, linked to weight reduction) but not facial volume loss. Practice: counsel before treatment, photograph with consent, protect lean mass (protein, resistance training — no figures), refer restoration to a qualified aesthetic clinician; restoration advice is industry-linked expert consensus; decisions about stopping or changing the medicine belong to the prescriber and patient — never advise stopping, switching or dosing. Gut: inflammaging (IL-6/CRP predict frailty, death); metabolic endotoxaemia shown in mice and as a transient rise after a fatty meal in 12 men (D); restoring barrier function unproven for disease outside the gut; commercial zonulin ELISA detects other proteins. Probiotics for eczema: Cochrane 39 RCTs little/no patient-rated difference (B); children's meta-analysis small SCORAD gain (C). Rifaximin for rosacea with SIBO: small RCT (C). Tirzepatide + ixekizumab psoriasis: open-label Lilly phase 3b (C); liraglutide 20-person RCT negative (C); tirzepatide not approved for psoriasis in the US. Fibre: strong cardiometabolic evidence (guide grade A; review certainty moderate), no skin trials. Akkermansia pilot RCT metabolic only (C). 'Leaky gut' repair stack incl. BPC-157: guide grade D; BPC-157 not on the 503A bulks list (Sept 2026). Adapt the 'what you do next' to the learner's role (prescriber, clinical staff, advisor) without changing grades or regulatory facts. UK (checked 25 Sep 2026): Ozempic licensed for T2D; Wegovy for weight management and CV risk reduction; Mounjaro for T2D and weight management under one brand (weight added 8 Nov 2023); UK SmPCs list hair loss (Wegovy 2.5%, Mounjaro 4.9% vs 1.0%); psoriasis not a UK tirzepatide indication; MHRA: retatrutide not authorised, illegal to sell (24 Jul 2026); largest seizure of unlicensed weight-loss medicines 28 May 2026; unlicensed 'specials' only for one patient's special clinical need, on the prescriber's responsibility (MHRA GN14). No CME credit is currently offered."
+          }
+        }
+      ]
+    },
+    {
+      "id": "m04",
+      "units": [
+        {
+          "id": "m04-story",
+          "text": {
+            "en": "Module 4 teaches evidence appraisal of skin peptides in four separate registers (mechanism, human evidence, regulatory status, open question). Topical GHK-Cu: plausible copper-enzyme mechanism from originator reviews; one indexed RCT (Miller 2006, post-laser healing) plus sponsor-run cosmetic trials; GRADE C; injectable use has no RCTs and commonly irritates; US 503A Category 1 for non-injectable routes only (FDA list 14 May 2026; PCAC consultation planned by end Feb 2027). pal-KTTKS and Argireline: C (sponsor RCTs plus independent Aruan 2023); Matrixyl 3000, SNAP-8, Leuphasyl: D (no randomized trial; manufacturer data, plus one small uncontrolled university volunteer study for Leuphasyl). Oral collagen: pooled RCTs positive but Myung 2025 finds no effect in unfunded or high-quality trials; dietary supplement in the US. BPC-157: rodent + case series, no published human efficacy RCT (Sept 2026); TB-500 is the Tβ4 17-23 fragment, never trialled; KPV mouse colitis only; LL-37 small positive RCT then negative phase IIb. PCAC reviewed BPC-157/KPV/TB-500 in July 2026 — advisory only; not on the 503A bulks list. UK (checked 25 Sep 2026): peptide serums are cosmetics under the assimilated Cosmetics Regulation 1223/2009 (responsible person, safety assessment, OPSS notification, substantiated claims; anything injected is outside cosmetics law; ASA 13 May 2026 upheld a complaint against a peptide serum's 'clinically proven' lift claim); oral collagen is a food supplement (no disease claims; only authorised GB health claims); a medicine without a UK marketing authorisation may not be sold, supplied or advertised (HMR 2012 regs 46, 279); unlicensed 'specials' only for one patient's special need (MHRA GN14). Never give doses, stacks, reconstitution or sourcing advice; name the route and the grade; route injected or research-use-only products to a prescriber; adapt the 'what you do next' to the learner's role (prescriber, clinical staff, advisor) without changing grades or regulatory facts. No CME credit is currently offered."
+          }
+        }
+      ]
+    },
+    {
+      "id": "m05",
+      "units": [
+        {
+          "id": "m05-story",
+          "text": {
+            "en": "Module 5 teaches the hair follicle and the melanocortin system in four separate registers (mechanism, human evidence, regulatory status, open question). Follicle: ex vivo human scalp follicles run an HPA-like loop (CRH → POMC products → cortisol, with feedback) and a GH/IGF-1-like loop (D, organ culture, Paus group); local DHT miniaturises susceptible follicles (androgenetic alopecia); anagen immune-privilege collapse underlies alopecia areata. Baricitinib: BRAVE-AA1/AA2, 1,200 adults, SALT ≤20 at week 36 in up to 39% on baricitinib vs 3–6% on placebo; FDA-approved 13 Jun 2022 for adults with severe alopecia areata (A). A&RE hair-loss workup: patterned → AGA (topical minoxidil; finasteride in men); diffuse after trigger → telogen effluvium (reassure, ferritin, TSH); patchy smooth ± nail pitting → alopecia areata (dermatology referral, thyroid/autoimmune screen); androgen excess → work-up; ferritin + TSH always; scarring → biopsy; refer severe or rapid AA promptly. Minoxidil (men and women) and finasteride (men): A by RCT meta-analysis (Adil 2017); US: topical minoxidil OTC (approved 1988), finasteride Rx (1997). Melanocortins: skin makes POMC → ACTH, α-MSH, β-endorphin; MC1R pigment, MC2R adrenal, MC3R/MC4R brain (appetite; central sexual effects), MC5R sebum. Afamelanotide: MC1R agonist; two sponsor-funded phase 3 RCTs in EPP (US median 69.4 vs 40.8 pain-free sunlight hours; EU 6.0 vs 0.8); EU authorised 22 Dec 2014 (exceptional circumstances), US 2019; EPP only, manufacturer's implant; US label (Aug 2024) recommends full-body skin examination twice yearly; A for EPP; vitiligo phase 3 has no posted results. Melanotan II: non-selective MC1R/3R/4R/5R agonist, brain-penetrant; only controlled data a 3-man 1996 pilot and a 10-man 1998 ED crossover; guides disagree (Pocket Guide C, A&RE D) — course grades cosmetic use D; case-report harms: darkening/growing and eruptive atypical naevi, melanonychia, ≥5 melanomas all with other risk factors (causation unproven), ischaemic priapism, sympathomimetic toxicity with rhabdomyolysis, PRES; online vials held 43–88% of the label with impurities. Status: approved for no indication; US FDA compounding page (22 Apr 2026) lists it among withdrawn category-2 nominations with safety risks; UK MHRA (17 Apr 2024) injectables are unauthorised medicines, stop immediately; Australia TGA (17 Aug 2026) prescription-only, no ARTG product, not approved for tanning. A&RE: personal or family history of melanoma = absolute contraindication. A patient disclosing use: stop, record product and seller, full skin and nail examination with dermoscopy/baseline photos where available, prompt dermatology referral; never offer afamelanotide as a substitute. PTD-DBM: CXXC5–Dishevelled decoy activating Wnt; one 2017 mouse/tissue study from the developer's group; no human trial published or registered (Sept 2026); D; theoretical off-target Wnt cancer concern untested. Zinc thymulin: zinc-dependent thymic nonapeptide; no indexed human hair study; D. US (14 May 2026): thymulin acetate 503A Category 3; PTD-DBM on no list; neither on the bulks list (21 CFR 216.23). UK (checked 25 Sep 2026): baricitinib licensed for severe AA (NICE TA926 not recommended, Oct 2023); men's minoxidil foam on the General Sales List; finasteride for hair loss private prescription only, MHRA strengthened depression/suicidality/sexual-dysfunction warnings 11 May 2026 (patient card; ask about depression); afamelanotide licensed under exceptional circumstances, specialist porphyria centres, NICE HST27 not recommended (Jul 2023); Melanotan II an unauthorised medicine (MHRA FOI 24/274); a peptide spray made for one patient = unlicensed special, behind any licensed option (MHRA GN14). Never give doses, regimens, reconstitution, sourcing or administration advice; adapt the 'what you do next' to the learner's role (prescriber, clinical staff, advisor) without changing grades or regulatory facts. No CME credit is currently offered."
+          }
+        }
+      ]
+    },
+    {
+      "id": "m06",
+      "units": [
+        {
+          "id": "m06-story",
+          "text": {
+            "en": "Module 6 teaches the growth-hormone/IGF-1 axis in four separate registers (mechanism, human evidence, regulatory status, open question). Mechanism: GH receptor mainly on dermal fibroblasts (collagen, fibroblast growth); IGF-1 made by fibroblasts/melanocytes acts on keratinocyte IGF-1R (proliferation); hair follicles run a local GHRH-GH-IGF-1 loop ex vivo (all D). Somatopause: GH/IGF-1 fall with age; read IGF-1 against age/sex ranges. Human skin evidence: GHD = thinner epidermis, less sweating (Lange 2001, C); acromegaly = GAG deposition and oedema; GH speeds donor-site/burn healing in >40% TBSA burns (Cochrane 2014, 13 small RCTs, C, more hyperglycaemia); Rudman 1990 skin +7.1% P=0.07, n=12, no placebo (D). Healthy older adults: GH gives ~2 kg less fat/2 kg more lean, more oedema, arthralgia, carpal tunnel, diabetes trend (Liu 2007, B; A&RE says A); US: knowingly distributing GH for anti-ageing is a federal offence (21 USC 333(e)). Tesamorelin: two phase 3 RCTs (806 pooled), VAT about -15% vs placebo; FDA-approved 2010 for excess abdominal fat in HIV lipodystrophy only; GRADE A for that indication only; label: IGF-1 >2 SDS in 47%, diabetes-range HbA1c 5% vs 1%, effects of prolonged IGF-1 elevation unknown. No RCT with a skin outcome for tesamorelin, CJC-1295, ipamorelin or IGF-1 LR3 (PubMed Sept 2026); Khorram 1997 GHRH(1-29) analogue, n=19, caliper skin thickness (D). CJC-1295 with DAC: phase 1 hormone levels only (D; guides say C); CJC-1295 without DAC and IGF-1 LR3: no human studies (D); ipamorelin: phase 2 ileus RCT negative (D for anti-ageing); sermorelin adult use D; ibutamoren (MK-677): IGF-1 and lean mass up, no function gain, glucose worse, hip-fracture trial stopped for heart failure. US status (FDA lists 22 Apr and 14 May 2026): no GH-axis peptide on the 503A bulks list (21 CFR 216.23); ibutamoren 503A+503B Category 2; GHRP-2/-6 503A Category 3; CJC-1295 and ipamorelin 503A nominations withdrawn (ipamorelin 503B Category 2); PCAC Oct 2024 voted against ipamorelin (0-12-1) and ibutamoren (1-13); sermorelin: no marketed approved product (Geref withdrawn 2009, not for safety), in no 503A category. GH excess signs: puffy thick face/hands/feet, oily skin, hyperhidrosis, skin tags, acanthosis, acral/jaw growth; on drugs: oedema, arthralgia, paraesthesia, carpal tunnel; somatropin label: watch nevi. Endocrine Society: measure IGF-1 for acral/facial features; suggest when sleep apnoea, T2D, arthritis, carpal tunnel, hyperhidrosis, hypertension cluster. Route to prescriber/endocrinology. Cancer: mechanism plausible; observational IGF-1 associations modest (Renehan 2004 B, UK Biobank C); acromegaly SIR 1.5 pooled vs 1.1 nationwide; GH replacement cohorts reassuring (SAGhE, 2022 consensus); secretagogue/LR3 long-term data absent. UK (checked 25 Sep 2026): somatropin is a prescription-only medicine (licensed for GHD and specific growth disorders) and a Class C controlled drug (Misuse of Drugs Act 1971); MHRA's products database holds no product information for tesamorelin, sermorelin or ipamorelin, so any would be unlicensed; unlicensed 'specials' only for an individual patient's special need (MHRA GN14). Never give doses, cycles, stacks, reconstitution, sourcing or IGF-1 targets; adapt only the 'what you do next' to role (prescriber, clinical staff, advisor). No CME credit is currently offered."
+          }
+        }
+      ]
+    },
+    {
+      "id": "m07",
+      "units": [
+        {
+          "id": "m07-story",
+          "text": {
+            "en": "Module 7 closes the course: evidence appraisal, US regulatory frameworks and prescriber compliance, kept in separate registers. GRADE: certainty (high, moderate, low, very low; the guides print A–D) for one outcome across a body of evidence, never for a molecule; RCTs start high, observational studies low; rate down for risk of bias, inconsistency, indirectness (study PICO differs from the question), imprecision (CI crosses the important difference) and publication bias (suspect it when evidence is small industry-funded studies); rate up for large effects. Course examples: GHK-Cu's one indexed RCT measured post-laser healing (indirect for photoageing); BPC-157 wound data are rodent (indirect); LL-37 34-person positive then 148-person negative phase IIb (inconsistent); oral collagen benefit only in low-quality and industry-funded trials (risk of bias, Myung 2025). Lundh 2017 Cochrane: industry-sponsored studies more often favourable efficacy results, RR 1.27 (1.17–1.37). Grade and legal status are separate checks; mechanism never raises a grade. US 503A (21 USC 353a): identified patient, prescription; exempt only from approval, adequate directions, cGMP; bulk substance must meet a USP/NF monograph, else be an approved-drug component, else be on the 503A bulks list; registered manufacturer and valid COA; no statutory purity figure. 21 CFR 216.23: six substances, none a peptide, unchanged since 2019 (eCFR current 22 Sep 2026); listing is no endorsement. Categories 1–3 = interim enforcement posture: Category 1 includes non-injectable GHK-Cu (14 May 2026); 503A Category 2 has six substances; BPC-157, TB-500, KPV, injectable GHK-Cu, LL-37, melanotan II are withdrawn nominations with safety concerns still posted. PCAC 23–24 Jul 2026 is advisory; FDA staff concluded criteria weigh against listing BPC-157; only rulemaking changes the list. 503B: registered outsourcing facility, cGMP, risk-based inspection, adverse-event reporting, may compound without patient-specific prescriptions; products unapproved. >40 alpha amino acids = protein = biological product since 23 Mar 2020 (85 FR 10057); tesamorelin and hyaluronidase became BLAs; biologics cannot use 503A/503B exemptions; retatrutide residue count upheld by a district court in 2025, appeal pending (June 2026 filings). COA = supplier's report on one lot: MS identity (observed vs expected mass), HPLC purity (impurities unnamed), endotoxin (limit calculated from dose and route, FDA 2026 guidance), microbial, water, counter-ion, metals, solvents; cannot prove the vial is that lot, storage, sterility or legality; red flags = no lot, no chromatogram, no impurities, no endotoxin on an injectable, over 12 months old. FDA's BPC-157 briefing: public COAs mostly purity only; the nominator's COA reported no endotoxin test, and the COAs supplied were for the acetate while the free base was nominated. Ashraf 2024: three online semaglutide vials 7.7–14.4% purity vs 99% labelled, endotoxin in all. RUO: 21 CFR 312.160 permits shipment for lab or in-vitro research, 'Not for use in humans'; intended use judged objectively (21 CFR 201.128); a COA cannot convert RUO into a pharmaceutical. Cosmetic vs drug by intended use ('regenerate cells' is a drug claim; 'cosmeceutical' has no legal meaning); supplements not approved before sale; off-label applies only to approved drugs; unapproved new drug in interstate commerce is a prohibited act (21 USC 331); FDA's 2020 warning letter named compounded BPC-157 and GHK-Cu. Chart: article and status in those words; pathway, facility and COA if compounded; consent (not approved, foreseeable risks, approved alternatives incl. nothing, what happens if harm; elements borrowed from 21 CFR 50.25); grade quoted; monitoring and stopping rule; dated status check. UK (checked 25 Sep 2026; moments m7-p21, m7-p22): no 503A/503B; unlicensed medicines reach patients as regulation 167 'specials' (unsolicited order; doctor, dentist, nurse or pharmacist independent prescriber or supplementary prescriber; one patient's special needs; no advertising; manufacturer's specials licence, GMP-inspected site, product otherwise unassessed) or pharmacy preparation against a prescription (Medicines Act 1968 s.10); MHRA GN14 order: UK-licensed (even off-label) → licensed abroad → UK special → non-medicines such as supplements; special need excludes cost and convenience; prescriber responsible (GMC 102–108, MHRA DSU 2009, GPhC 2025, NMC Code 18). MHRA classifies by claims (websites, social media), form (injection) and use (GN8); no sale, supply or advertising without a UK marketing authorisation (HMR regs 46, 279); injectable melanotan = medicine (FOI 24/274); May 2026 seizure included peptide products; no POM advertising to the public (reg 284, CAP 12.12; Blue Guide: clinics may promote 'treatment for lines and wrinkles' without naming the POM; ASA 11 Feb 2026 Voy ruling on '#mounjaro' posts); GMC: physical examination before prescribing injectable cosmetic medicines. Never give doses, reconstitution, stacking, administration or sourcing; never validate a vendor or call a COA 'safe'. Adapt 'what you do next' to prescriber, clinical staff or advisor without changing grades or facts. The course is designed toward future CME accreditation; no credit is offered at this time."
+          }
+        }
+      ]
+    }
+  ],
+  "films": [
+    {
+      "id": "m01-opener",
+      "title": {
+        "en": "The skin makes its own hormones — Module 01 opener"
+      },
+      "script": {
+        "en": "This course starts with physiology, because every later question about a hormone or peptide for skin rests on it. Skin senses hormones from the blood, makes several of its own, and ages in ways that change both. Think of the skin as a sensing organ with its own hormone supply. Researchers who study it describe four units, epidermal, dermal, hypodermal and adnexal, the last meaning hair follicles and glands. Each unit holds cells that can make hormones and mount an immune response, such as keratinocytes, fibroblasts, sebocytes, fat cells and mast cells. Signals move three ways. Neighbouring cells talk directly, sensory nerves carry messages in and out, and some products enter the blood and reach distant organs. Keep one distinction in view for the whole module. A signal that is made and used inside the skin is a local loop. A hormone that arrives from the blood, or leaves the skin for the rest of the body, is systemic signalling."
+      }
+    },
+    {
+      "id": "m02-opener",
+      "title": {
+        "en": "Module 02 opener — Hormones and Peptides for Skin"
+      },
+      "script": {
+        "en": "Most skin changes you see are ageing or lifestyle. A few are the first visible sign of endocrine disease. In three lessons you will separate them: what local and systemic hormones do to skin, what hormone therapy can and cannot do for it, and which signs belong with an endocrinologist. Picture the skin as a small endocrine organ with its own stress axis. Skin cells make CRH and ACTH, the same signals that drive the adrenal glands, and they carry the receptors to respond to them. They also carry an enzyme called eleven beta HSD one, which turns inactive cortisone back into active cortisol inside the cell. In human skin samples that enzyme works harder with age and in sun-exposed skin, and it sets local cortisol independently of the level in the blood. Cortisol slows collagen production in dermal fibroblasts, and mice bred without the enzyme kept their dermal thickness as they aged. Hold all of this in the mechanism register. It comes from biopsies, cultured cells and mice, and it says nothing yet about how a patient's face will age."
+      }
+    },
+    {
+      "id": "m03-opener",
+      "title": {
+        "en": "Module 03 opener — Hormones and Peptides for Skin"
+      },
+      "script": {
+        "en": "Facial shape depends on fat as much as on collagen. In three lessons you will separate what is known about the skin's own fat, sugar damage to the dermis, weight-loss drugs and the gut from what is still mechanism, marketing or an open question. Most people picture skin fat as one layer under the dermis. There is a second, thinner layer inside the reticular dermis itself, called dermal white adipose tissue. In mice, this layer expands rapidly after a Staphylococcus aureus infection, and its new fat cells release cathelicidin, an antimicrobial peptide. Older mice lose much of that capacity, through TGF-beta signalling. Human skin arranges this fat differently, in small cones around hair follicles, and human acne lesions contain preadipocytes around the follicle that make cathelicidin. What the layer contributes to human skin ageing has not yet been measured. So hold two things apart when you hear about skin fat. The defence story is strong in mice and emerging in people. The ageing story in people is still a proposal."
+      }
+    },
+    {
+      "id": "m04-opener",
+      "title": {
+        "en": "Module 04 opener — Hormones and Peptides for Skin"
+      },
+      "script": {
+        "en": "Most skin peptides reach your clinic before any evidence does. In three lessons you will sort them by what the human trials actually show, who paid for those trials, and where each one stands with the regulator. Start with the molecule. GHK is a three-amino-acid peptide that circulates in human plasma; it was first described in 1973. It binds copper readily, and the copper complex, GHK-Cu, is what skin-care labels mean when they say copper peptide. The proposed mechanism is that GHK-Cu delivers copper to enzymes that build and protect the dermal matrix, such as lysyl oxidase and superoxide dismutase, and shifts gene expression toward wound healing. Two things to hold on to. First, this is a mechanism, which explains why the peptide might work and leaves open whether it does. Second, most of this literature was written by the group that discovered the peptide. Keep both in mind when you reach the trials."
+      }
+    },
+    {
+      "id": "m05-opener",
+      "title": {
+        "en": "Module 05 opener — Hormones and Peptides for Skin"
+      },
+      "script": {
+        "en": "Two requests reach aesthetic clinics well ahead of their evidence: a peptide to regrow hair and an injection to tan. In three lessons you will see how the follicle and the pigment system run on the skin's own hormones, why one melanocortin drug is approved while its gray-market cousin is approved nowhere, and how to grade the hair peptides patients bring to you. Each hair follicle behaves like a small gland. When researchers keep human scalp follicles alive in culture, the follicles answer corticotropin-releasing hormone the way the pituitary and adrenal glands do. They make ACTH and alpha-MSH, they secrete cortisol, and cortisol-like signals feed back to switch the stimulus down. On the scalp, an enzyme called five-alpha-reductase turns testosterone into dihydrotestosterone, and in genetically susceptible follicles that hormone drives the gradual shrinking behind pattern hair loss. Most of this biology comes from tissue kept alive outside the body, so hold it as mechanism, a reason something might matter in patients."
+      }
+    },
+    {
+      "id": "m06-opener",
+      "title": {
+        "en": "Module 06 opener — Hormones and Peptides for Skin"
+      },
+      "script": {
+        "en": "Growth hormone and IGF-1 genuinely shape skin, and one peptide on this axis has approval-grade trials. Most of what patients are offered has much less behind it. In three lessons you will separate the physiology from the promise, the approved from the anecdotal, and the side-effects you can see from the risks nobody has measured. Two layers of skin listen to two different parts of the same axis. Growth hormone speaks mainly to the dermis. Its receptor is expressed more on fibroblasts than on keratinocytes, and in culture growth hormone increases fibroblast numbers and supports collagen synthesis, sometimes directly and sometimes through IGF-1. The epidermis listens to IGF-1. Keratinocytes carry the IGF-1 receptor, their neighbours in the dermis supply the hormone, and in culture IGF-1 makes keratinocytes divide where growth hormone on its own does nothing. With age, growth-hormone pulses and IGF-1 fall steadily, a change called the somatopause. Hold all of this as mechanism. It explains why the axis could matter for skin. Whether changing it helps a patient is a separate question, and the trials answer it."
+      }
+    },
+    {
+      "id": "m07-opener",
+      "title": {
+        "en": "Module 07 opener — Hormones and Peptides for Skin"
+      },
+      "script": {
+        "en": "This last module turns the course into three habits. You will rate the certainty behind a claim with GRADE, read a compounding status and a certificate of analysis for what they do and do not prove, and write the consent and chart note that an unapproved product needs. Every claim you hear about a skin peptide carries a hidden question. How sure can we be? GRADE answers it with four levels of certainty, from high to very low. The rating belongs to a body of evidence for one outcome, such as wrinkle depth at twelve weeks, and never to a single study or to the molecule itself. Randomized trials start high and observational studies start low. From there, certainty drops for five reasons you can name, which are risk of bias, inconsistency between trials, indirectness, imprecision, and suspected publication bias. Both Hormonaly guides print a letter from A to D beside each use. Read those letters as the same four levels, adapted. They rate the evidence for that use, and they say nothing about whether a product is legal."
+      }
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "path": "/provenance/citations/8/note",
+    "lost": {
+      "2": 1
+    },
+    "en": "primary regulatory source (register) · issuing authority · role: United Arab Emirates regulatory status · read 2026-09-25 · Baricitinib ingredient search: 2 rows (Olumiant 2 mg and 4 mg, both registered 8 Jun 2017).",
+    "ar": "مصدر تنظيمي أولي (سجل) · الجهة المصدرة · الدور: الوضع التنظيمي في الإمارات العربية المتحدة · تاريخ الاطلاع 2026-09-25 · البحث عن المادة الفعالة Baricitinib: أظهر صفين (Olumiant 2 mg و4 mg، كلاهما سُجل في 8 يونيو 2017)."
+  },
+  {
+    "path": "/provenance/citations/31/note",
+    "lost": {
+      "2": 1
+    },
+    "en": "primary regulatory source (register) · issuing authority · role: Brazil regulatory status · read 2026-09-25 · in pt · Read in a browser (plain requests are blocked by Cloudflare). Queried product names SCENESSE, AFAMELANOTIDA, EGRIFTA, TESAMORELINA, RETATRUTIDA, MELANOTAN, SERMORELINA, IPAMORELINA, IBUTAMOREN, BPC, ZEPBOUND (0 results each) and PROPECIA, LONITEN (Inativo); substance dictionary has no entry for afamelanot*, tesamorel*, melanot*, retatrut*, sermorel*, ipamorel*, ibutamor*, catelicid*; substance-code search: tirzepatida = 2 products (Mounjaro, Mounjaro Multidose), semaglutida = 15 active products, baricitinibe = 1 (Olumiant).",
+    "ar": "مصدر تنظيمي أولي (سجل) · الجهة المصدرة · الدور: الوضع التنظيمي في البرازيل · تمت القراءة في 2026-09-25 · باللغة البرتغالية · تمت القراءة في المتصفح (يتم حظر الطلبات البسيطة بواسطة Cloudflare). تم الاستعلام عن أسماء المنتجات SCENESSE، و AFAMELANOTIDA، و EGRIFTA، و TESAMORELINA، و RETATRUTIDA، و MELANOTAN، و SERMORELINA، و IPAMORELINA، و IBUTAMOREN، و BPC، و ZEPBOUND (0 نتيجة لكل منها) و PROPECIA، و LONITEN (غير نشط Inativo)؛ لا يحتوي قاموس المواد على أي مدخل لـ afamelanot*، و tesamorel*، و melanot*، و retatrut*، و sermorel*، و ipamorel*، و ibutamor*، و catelicid*؛ البحث برمز المادة: tirzepatida = منتجان (Mounjaro، و Mounjaro Multidose)، و semaglutida = 15 منتجاً نشطاً، و baricitinibe = 1 (Olumiant)."
+  },
+  {
+    "path": "/provenance/citations/63/note",
+    "lost": {
+      "9": 1
+    },
+    "en": "primary regulatory source (regulator) · issuing authority · role: Brazil regulatory status · read 2026-09-25 · in pt · 9th edition, 16 Jan 2025; question 79 (collagen).",
+    "ar": "مصدر تنظيمي أولي (جهة تنظيمية) · الجهة المصدرة · الدور: الوضع التنظيمي في البرازيل · تمت القراءة في 2026-09-25 · باللغة البرتغالية · الإصدار التاسع، 16 Jan 2025؛ السؤال 79 (الكولاجين)."
+  },
+  {
+    "path": "/provenance/citations/161/note",
+    "lost": {
+      "2": 1
+    },
+    "en": "vehicle-controlled in vivo biopsy study, n=70 (40 postmenopausal women, 30 men, mean age 75), 2 weeks · academic (University of Michigan) · role: ERα, ERβ and GPR30 expressed similarly in aged and photoaged skin; topical estradiol raised procollagen I/III and collagen I in sun-protected hip skin but not in photoaged forearm or face · PMID 18794456 · registered NCT00113100; concentrations deliberately not reproduced",
+    "ar": "دراسة خزعة حية في الجسم الحي مضبوطة بالسواغ، العدد=70 (40 امرأة بعد سن اليأس، 30 رجلاً، متوسط العمر 75)، أسبوعان · أكاديمية (جامعة ميشيغان) · الدور: تم التعبير عن ERα وERβ وGPR30 بشكل متماثل في الجلد المتقدم في العمر والجلد المتضرر ضوئياً؛ رفع الإستراديول الموضعي طليعة الكولاجين I/III والكولاجين I في جلد الورك المحمي من الشمس ولكن ليس في الساعد أو الوجه المتضرر ضوئياً · PMID 18794456 · مسجلة برقم NCT00113100؛ لم يتم إيراد التركيزات عمداً"
+  },
+  {
+    "path": "/provenance/citations/169/note",
+    "lost": {
+      "2": 2
+    },
+    "en": "systematic review + meta-analysis, 15 studies (1,589 patients), RCTs and non-randomized studies · academic; no funding declared · role: pooled: elasticity SMD 0.28 (4 studies, I² 76%), thickness 1.27 (3 trials, I² 95%), collagen 2.01 (2 studies, I² 98%), wrinkles −0.30 (2 trials incl. a topical cream, I² 64%), dryness no difference; authors state MHT should not be considered an independent treatment for skin ageing; KEEPS not included · PMID 38230593 · A&RE ch.9 ref 8; open access PMC10796198, read in full 2026-09-24",
+    "ar": "مراجعة منهجية + تحليل تجميعي، 15 دراسة (1,589 مريضاً)، تجارب عشوائية محكومة ودراسات غير عشوائية · أكاديمية؛ لم يُعلن عن تمويل · الدور: النتائج التجميعية: المرونة الفرق المعياري للمتوسط 0.28 (4 دراسات، I² 76%)، السماكة 1.27 (3 تجارب، I² 95%)، الكولاجين 2.01 (دراستان، I² 98%)، التجاعيد −0.30 (تجربتان تشملان كريماً موضعياً، I² 64%)، الجفاف لا يوجد فرق؛ يذكر المؤلفون أنه لا ينبغي اعتبار العلاج الهرموني لانقطاع الطمث علاجاً مستقلاً لشيخوخة الجلد؛ دراسة KEEPS غير مدرجة · PMID 38230593 · مرجع A&RE الفصل 9 رقم 8؛ وصول مفتوح PMC10796198، قُرئت بالكامل في 2026-09-24"
+  },
+  {
+    "path": "/provenance/citations/347/note",
+    "lost": {
+      "2": 1
+    },
+    "en": "Cochrane systematic review: 13 RCTs, 701 people with burns covering >40% of body surface · independent (no conflicts declared) · role: the one clinical skin setting with randomized evidence for GH: faster burn-wound healing (adults, 2 trials) and donor-site healing (adults about 3 days; children about 1.7 days), with more hyperglycaemia (RR 2.65) · PMID 25222766 · found by PubMed search 2026-09-24; not in either guide",
+    "ar": "مراجعة منهجية من كوكран (Cochrane): 13 تجربة عشوائية منضبطة (RCTs)، 701 شخصاً مصابين بحروق تغطي >40% من مساحة سطح الجسم · مستقلة (لم يُعلن عن أي تضارب في المصالح) · الدور: السياق السريري الجلدي الوحيد ذو الأدلة القائمة على تجارب عشوائية لهرمون النمو: التئام أسرع لجروح الحروق (البالغون، تجربتان) والتئام موضع أخذ الطعم الجلدي (البالغون نحو 3 أيام؛ الأطفال نحو 1.7 يوماً)، مع زيادة فرط سكر الدم (خطر نسبي RR 2.65) · PMID 25222766 · عُثر عليه عبر البحث في PubMed في 2026-09-24؛ غير موجود في أي من الدليلين"
+  },
+  {
+    "path": "/provenance/citations/361/note",
+    "lost": {
+      "2": 1
+    },
+    "en": "2-year double-blind placebo-controlled modified-crossover RCT, n=65, age 60–81 · academic (NIH-funded) · role: ibutamoren (MK-677) raised GH and IGF-1 to young-adult levels and fat-free mass, without change in strength or function; fasting glucose rose and insulin sensitivity fell; transient mild lower-limb oedema · PMID 18981485 · not in either guide; found by PubMed search 2026-09-24",
+    "ar": "تجربة عشوائية منضبطة لمدة عامين مزدوجة التعمية منضبطة بالدواء الوهمي ذات تصميم تبادلي معدل، العدد=65، الفئة العمرية 60–81 عاماً · أكاديمية (بتمويل من المعاهد الوطنية للصحة الأمريكية NIH) · الدور: رفع إيبوتامورين (MK-677) مستويات GH وIGF-1 إلى مستويات البالغين الشباب وزاد الكتلة الخالية من الدهون، دون تغيير في القوة أو الوظيفة؛ ارتفع سكر الدم الصومي وانخفضت الحساسية للإنسولين؛ وذمة خفيفة عابرة في الأطراف السفلية · PMID 18981485 · غير موجود في أي من الدليلين؛ تم العثور عليها عبر بحث PubMed بتاريخ 2026-09-24"
+  },
+  {
+    "path": "/curriculum/modules/1/units/0/blocks/15/body",
+    "lost": {
+      "26": 1
+    },
+    "en": "In the US, as of February 2026, FDA-approved menopausal hormone therapy is for moderate-to-severe hot flashes, vaginal and vulvar symptoms and, for some products, preventing bone loss. FDA's 2025–26 labeling changes removed cardiovascular, breast-cancer and dementia statements from the boxed warning; skin did not become an indication. The North American Menopause Society's 2022 statement finds benefit outweighs risk for bothersome symptoms and bone protection when therapy starts before 60 or within 10 years of menopause, and finds insufficient evidence for compounded 'bioidentical' hormones. Under US rules an over-the-counter 'hormone cream' is an unapproved drug. For the skin itself, daily sunscreen has a large randomized trial behind it, and one tretinoin cream is FDA-approved as an adjunct for fine facial wrinkles.",
+    "ar": "في الولايات المتحدة، اعتباراً من فبراير 2026، اعتمدت إدارة الغذاء والدواء (FDA) العلاج الهرموني لسن اليأس للهبات الساخنة المتوسطة إلى الشديدة، والأعراض المهبلية والفرجية، وللوقاية من فقدان العظام لبعض المستحضرات. أزالت تعديلات ملصقات FDA لعامي 2025–2026 العبارات المتعلقة بأمراض القلب والأوعية الدموية وسرطان الثدي والخرف من التحذير المربّع (boxed warning)؛ ولم يصبح الجلد من دواعي الاستعمال. يفيد بيان جمعية سن اليأس في أمريكا الشمالية لعام 2022 بأن الفوائد تفوق المخاطر للأعراض المزعجة وحماية العظام عندما يبدأ العلاج قبل سن 60 أو خلال 10 سنوات من انقطاع الطمث، ويجد أدلة غير كافية تدعم الهرمونات 'المتماثلة بيولوجياً' المحضرة صيدلانياً. ووفقاً للأنظمة الأمريكية، يُعد 'كريم الهرمونات' الذي يُصرف دون وصفة طبية دواءً غير معتمد. وبالنسبة للجلد نفسه، تدعم الواقيات الشمسية اليومية تجربة عشوائية كبيرة، كما اعتمدت FDA كريماً واحداً من التريتينوين كعلاج مساعد للتجاعيد الدقيقة في الوجه."
+  },
+  {
+    "path": "/curriculum/modules/1/units/0/blocks/15/audioBeats/0/body",
+    "lost": {
+      "26": 1
+    },
+    "en": "In the US, hot flashes, vaginal and vulvar symptoms and, for some products, bone loss. The 2025–26 label changes did not add skin.",
+    "ar": "في الولايات المتحدة، الهبات الساخنة، والأعراض المهبلية والفرجية، وفقدان العظام لبعض المستحضرات. ولم تُضف تعديلات الملصقات لعامي 2025–2026 الجلد."
+  }
+]

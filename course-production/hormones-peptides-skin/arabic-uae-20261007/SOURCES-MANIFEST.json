@@ -1,0 +1,32 @@
+[
+  {
+    "file": "sfda-mounjaro.html",
+    "sha256": "573f75281284294e497a09e33faee4ea577dbb139f2221880fc9931d80d11233",
+    "bytes": 54749
+  },
+  {
+    "file": "sfda-semaglutide-safety.txt",
+    "sha256": "9f104bb122767a46bae8f8abb6c840ffb7cb313df0a6252f935b93b603db07aa",
+    "bytes": 8891
+  },
+  {
+    "file": "urls.json",
+    "sha256": "725c1c7a553976eb558f601b1ee722da28f448b61058d16c64f14807458ea0d0",
+    "bytes": 432
+  },
+  {
+    "file": "doh-regenerative-standard.txt",
+    "sha256": "edf1395eb6f4c9426b698a1325d6d3e8a3d513b4ca80fb7e3f05e059b8069de2",
+    "bytes": 391075
+  },
+  {
+    "file": "doh-regenerative-standard.pdf",
+    "sha256": "b5838f688c284f58db0d7c4f9167ffb8280c38958bc2626efdd29354899aae2d",
+    "bytes": 3645384
+  },
+  {
+    "file": "sfda-semaglutide-safety.pdf",
+    "sha256": "e8a07fdca32f4b96ca5d34da29918c5427dae05308d1b79995349f4430623eb9",
+    "bytes": 292527
+  }
+]

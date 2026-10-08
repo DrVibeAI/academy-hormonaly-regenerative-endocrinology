@@ -1,0 +1,1207 @@
+{
+  "sourcePackage": "/Users/omar/DrVibe/worktrees/academy-hormonaly-arabic-20261007/course-production/hormones-peptides-skin/arabic-uae-20261007/supplemental-source.json",
+  "sourceSha256": "0bff507f737a1b43724404a56c80be03984d79a8a0a234c0e7f286dc8c1dcc57",
+  "generatedAt": "2026-10-07",
+  "maps": [
+    {
+      "path": "/academy/brand/tagline",
+      "hash": "4034b19498fc87623433bf24a9e8410b7682aff62c3f78eac9bdfc06edfd4de4"
+    },
+    {
+      "path": "/academy/home/kicker",
+      "hash": "0b032a385ba16a9aadaea2f93ed4334f80aa2639bfe8807fbe5b62a1c8425eb2"
+    },
+    {
+      "path": "/academy/home/headline",
+      "hash": "86b1f32843bda6e8d0a7d6828efc2bb261c362a63e0c324a8cecead71c3b113f"
+    },
+    {
+      "path": "/academy/home/lede",
+      "hash": "b51e5188c796a69e6d48550018ea931f76a57daccab60b699cd2ff0d826d015f"
+    },
+    {
+      "path": "/academy/home/primaryAction",
+      "hash": "c7324221f46ae06fc79b638e432de5566b0be60a022b8c19df6fafa0a5b68177"
+    },
+    {
+      "path": "/academy/home/secondaryAction",
+      "hash": "9709d11c6a304c11012dbf551d37e652740d500e078644eea01b84916303f661"
+    },
+    {
+      "path": "/academy/home/heroVideo/label",
+      "hash": "e340d22062ed658537c3e88e45e012d7261806b8ab2a1a70fc29960e448b14b6"
+    },
+    {
+      "path": "/academy/home/heroVideo/disclosure",
+      "hash": "81bf991a8ff9c63730044a2fcd2caa944c1c49351b1cb3baf4a1c8c72b6bec47"
+    },
+    {
+      "path": "/academy/home/practice/kicker",
+      "hash": "0d882e75f905ad8a903329b6e0f940ac40ee1f07d1438a4aa8484d66195c4d2c"
+    },
+    {
+      "path": "/academy/home/practice/title",
+      "hash": "097507b75d1a9079e7cd882ad28b696781922251e7055549c4ab3cd6635b6530"
+    },
+    {
+      "path": "/academy/home/practice/body",
+      "hash": "775283b8976855ee18eb28b24351ef70fd58888e6d871aabd552601f06fae7c4"
+    },
+    {
+      "path": "/academy/home/practice/points/0",
+      "hash": "4f21ee294ecf330a4698c73961af84407f57acf5d4ca164da444dd7aabc8c966"
+    },
+    {
+      "path": "/academy/home/practice/points/1",
+      "hash": "fd850c120a79893831690156316abbf07a5cf78d62b7b996764292752f84fa35"
+    },
+    {
+      "path": "/academy/home/practice/points/2",
+      "hash": "32ada0b72803527a097ae946c913cd306f1217f7244bf59602412b2a42046fdc"
+    },
+    {
+      "path": "/academy/home/practice/image/alt",
+      "hash": "dd912cf4c6ee2a79470aded7459f1e75950d989d87ce66d669ac8dabeaacd0b5"
+    },
+    {
+      "path": "/academy/home/coursesTitle",
+      "hash": "05c98517263d4f3618f5379f3a921ff2c04f70996f4b4ead139a2b53da150732"
+    },
+    {
+      "path": "/academy/home/coursesNote",
+      "hash": "b50a947ea035d16b6f7615632fa69fd091bbe9d7c48fdc0030c907503f606392"
+    },
+    {
+      "path": "/academy/home/glimpses/title",
+      "hash": "a2550be5c0a3d6d18f2ec2af83ef6cd1a7760431d8d3729080281e39aa58c7f6"
+    },
+    {
+      "path": "/academy/home/glimpses/items/0/caption",
+      "hash": "fc8069641e5e38c899b0cb873d465ca074765b626c69274b3d314ccf4c0f0926"
+    },
+    {
+      "path": "/academy/home/glimpses/items/1/caption",
+      "hash": "2f42ff1ad026d1ec0192bd3b92db30e6b45ccca033faddd425e837cae2dee52e"
+    },
+    {
+      "path": "/academy/home/glimpses/items/2/caption",
+      "hash": "e02deb309409c8968f94325095514821988635d8b8a682d8a174e74e1eb64f5c"
+    },
+    {
+      "path": "/academy/home/glimpses/items/3/caption",
+      "hash": "e13efa8f17aa4abcaadbe029553099b278970b2d32ef09d99b5373d81d6a9a7e"
+    },
+    {
+      "path": "/academy/home/glimpses/items/4/caption",
+      "hash": "b82679dde23dd2ba17f762de413460d7263c7535284edc99563c665ee2bea5e4"
+    },
+    {
+      "path": "/academy/home/trust/title",
+      "hash": "95210a3ac960eae8244778574468d6993e6bb7e09cab937be78899397d96599a"
+    },
+    {
+      "path": "/academy/home/trust/items/0/title",
+      "hash": "4ae25f8e08910433a74e4a6056ada0ffeb47d2e4666190457ee815ed1e36d198"
+    },
+    {
+      "path": "/academy/home/trust/items/0/body",
+      "hash": "29835cfbaf794a0aee9dfe56f37f74c2140c01c028702ef11b2d78ac19d94555"
+    },
+    {
+      "path": "/academy/home/trust/items/1/title",
+      "hash": "b16c706c34845a5a6a5adff8af4b2df6b507661df57239e188e6a2391cd6b09a"
+    },
+    {
+      "path": "/academy/home/trust/items/1/body",
+      "hash": "6b00492f41dc6fc7853b4c87b38ffe17f7d60edac53733a248a1d12083839d5e"
+    },
+    {
+      "path": "/academy/home/trust/items/2/title",
+      "hash": "194526694ada580d9bb748cdaee1f9b2f202bc81494b91db935a8eb95f8c1fc3"
+    },
+    {
+      "path": "/academy/home/trust/items/2/body",
+      "hash": "a6306d5ae5aebc1a055f0e3bf6a4e9d76c1213ce30e2010b8f7565e7478ca30b"
+    },
+    {
+      "path": "/academy/home/trust/items/3/title",
+      "hash": "5bf13222f3b29a4c5d4e9621ca05bf9024fc4d2d10712c3757cc432bf9d0dbf8"
+    },
+    {
+      "path": "/academy/home/trust/items/3/body",
+      "hash": "c517e3f7ade34d12c0a22e74be5ce4fae03edae75c46ff0751056b4a246a9f32"
+    },
+    {
+      "path": "/academy/home/reviewers/0/role",
+      "hash": "9c888a78e377827ddb763e52bc0047aa5ddd84f0f2f365ab47df4d7b428460cd"
+    },
+    {
+      "path": "/academy/home/faq/0/q",
+      "hash": "a71e9cf85d852f48e58aa447872f5192ea57fd64f339d2d714c60b2403495bb5"
+    },
+    {
+      "path": "/academy/home/faq/0/a",
+      "hash": "7dca4f949fe4c776dec8e3e95f2d338cbe003648e17cb91a331fe6c46f03ecb8"
+    },
+    {
+      "path": "/academy/home/faq/1/q",
+      "hash": "5d9a30b7526d35697ba9f0d3746c71522101ce8d988843fac03f4bf108c30f6e"
+    },
+    {
+      "path": "/academy/home/faq/1/a",
+      "hash": "b212787e569461128454158fd7d11c6508febf7a8552026a2e39752f139dbe6a"
+    },
+    {
+      "path": "/academy/home/faq/2/q",
+      "hash": "3151c13dc104b4690ade46c77f841352d76025f771d004e6f15211af736bf0fc"
+    },
+    {
+      "path": "/academy/home/faq/2/a",
+      "hash": "e4061f1c8c366d5b823126220b4e601761433d66fa1c736e682e39d1ede01f63"
+    },
+    {
+      "path": "/academy/home/faq/3/q",
+      "hash": "48684ffcebc693aa9cc4040024a8b23ce023c187992c5b3b0a61d25ec2c74899"
+    },
+    {
+      "path": "/academy/home/faq/3/a",
+      "hash": "f8c12d4507b7e9e0afac730d18045e0f7099e2ac528f1490073a706c0622b85f"
+    },
+    {
+      "path": "/academy/home/certificate/title",
+      "hash": "109b07f906729566e2eaf8ba1db1dd82fee90d2e5671957c17dbce96900a4c90"
+    },
+    {
+      "path": "/academy/home/certificate/body",
+      "hash": "2c5528c7ad831c00c556de638c2084a7df56458a319ae828321085725bb5b543"
+    },
+    {
+      "path": "/academy/home/creators/kicker",
+      "hash": "56a268b39de2fa07c24f7a463195d8a37b76241ee70395a70d55ceed57165fed"
+    },
+    {
+      "path": "/academy/home/creators/title",
+      "hash": "6abd7943ba23b3b7f5e43901d95349a4c796bdde10068b9b0f101921ed4934a7"
+    },
+    {
+      "path": "/academy/home/creators/body",
+      "hash": "e21c0a741f023bbb5e5820a5f3637c7371f6ee2aeb4a71abe21c9561bfa5b86f"
+    },
+    {
+      "path": "/academy/home/creators/action/label",
+      "hash": "1d1d94fb539774e520cb772c3859fc00c9f63d48f4637e61f44ce54fc8a8fd44"
+    },
+    {
+      "path": "/academy/home/ctaTitle",
+      "hash": "66f1fa9731e15037f44181d11db7eee374ea967e9af2bdf463ce617f7749ddd5"
+    },
+    {
+      "path": "/academy/home/disclaimer",
+      "hash": "dc43e26da4d37cbb4f655121fdbfbca7841d6b5babdca00301321bccbd729ae9"
+    },
+    {
+      "path": "/academy/catalog/0/audience",
+      "hash": "82f83793eb277de3909c2bab24b65bac083e88957a24e0446a47aeb29a210608"
+    },
+    {
+      "path": "/academy/catalog/0/blurb",
+      "hash": "cf9c1b1925711f4b8810bb75300ad8a75982fc100d1af6fe8120119c9347b9d2"
+    },
+    {
+      "path": "/academy/experience/roles/0/label",
+      "hash": "2f5a6a2443653df980c1f9cadda8335232915f70e832ce97b5546e51d1756d54"
+    },
+    {
+      "path": "/academy/experience/roles/0/description",
+      "hash": "0fdd7a8acbb0a4bb50721433cffe0fca5dae810c68c5126aa504aed35fbbdc89"
+    },
+    {
+      "path": "/academy/experience/roles/1/label",
+      "hash": "a9cdc705649f7b0550ac240d761e43aa28aa575bebe1d3b3995034c734791200"
+    },
+    {
+      "path": "/academy/experience/roles/1/description",
+      "hash": "50e13ab7a32dcebc1f32adfde9398ea3a8c6459d15c428045f12b3af30e1d461"
+    },
+    {
+      "path": "/academy/experience/roles/2/label",
+      "hash": "28da8c1f9edee99d216bf511feafd4285b7d13d6f43e6f122ae2e9e1687b40af"
+    },
+    {
+      "path": "/academy/experience/roles/2/description",
+      "hash": "c60bbfffe191d1357e1f112f94355f24b4ccddda475bbba0e3681ee5918e4ae1"
+    },
+    {
+      "path": "/academy/experience/library/evidencePolicy",
+      "hash": "01bc6cd6123ff860157d9eadd4c7625d35be5d8c311ec691cfe3329b79df7f74"
+    },
+    {
+      "path": "/academy/today/lines/label",
+      "hash": "f2dd4cc7593558b91cc12f8e3b37e102c7559614ad5a083a3f3de2d94deac12b"
+    },
+    {
+      "path": "/academy/today/lines/items/0/text",
+      "hash": "7c313cbf7038548e4b6207ac3803e927f64cf8e8ec843e647f82b192db1bf572"
+    },
+    {
+      "path": "/academy/today/lines/items/0/detail",
+      "hash": "52afaa755fdf2a1cea37f607fc0541ba9d92756a7e524e6d5edbcbb6f137eb34"
+    },
+    {
+      "path": "/academy/today/lines/items/0/image/alt",
+      "hash": "48a7ac010ffef46641e29a285c89bb767f6299bf249fc064dd3a661de349d17c"
+    },
+    {
+      "path": "/academy/today/lines/items/1/text",
+      "hash": "a352f43b9348a5e67ed342c324f306f347192f79960ddf79f25be27d57880d56"
+    },
+    {
+      "path": "/academy/today/lines/items/1/detail",
+      "hash": "dcbf2e2668913ff83fc105a4600eddadf7db43303ba564d6a7e9b250668a5889"
+    },
+    {
+      "path": "/academy/today/lines/items/1/image/alt",
+      "hash": "e6bd5b7ab8920a98e14804151cb49347e018d01006b402f2656114166c1b7a18"
+    },
+    {
+      "path": "/academy/today/lines/items/2/text",
+      "hash": "60e2bbb309576010caac1173f9d4e593d91936d16fe4d40c6b5b4c111b77db7c"
+    },
+    {
+      "path": "/academy/today/lines/items/2/detail",
+      "hash": "dfd0d9ee134f99b33b5dda6b548c9bd867c64bcaa2a1ad56e1e2a70292b4f2d2"
+    },
+    {
+      "path": "/academy/today/lines/items/2/image/alt",
+      "hash": "04abfd63990987a5632dd32ea6ac54fe286d7c2cfbbad2d21cd7ce3ab555db57"
+    },
+    {
+      "path": "/academy/today/lines/items/3/text",
+      "hash": "40b75aa2b820cc6251f8c3be20be5ba09ed37670cc7d476946fff40b834556ef"
+    },
+    {
+      "path": "/academy/today/lines/items/3/detail",
+      "hash": "836f484337e56243853837e76abed450a72ae2ec9c4582a2e5cc643be26d548e"
+    },
+    {
+      "path": "/academy/today/lines/items/3/image/alt",
+      "hash": "27b06966cc395d686d27b6d59aa350f429d62bfc1dcf46f59b495b0f4311caf1"
+    },
+    {
+      "path": "/academy/today/lines/items/4/text",
+      "hash": "f9e941c71117d90c3ddb31584bfe4275cabc345e85e5adf79e567d4c8a6b20de"
+    },
+    {
+      "path": "/academy/today/lines/items/4/detail",
+      "hash": "74d900ca60952a6a4286b1cc1061304b1e3f9d0417087f0e58cfd0231ed1f375"
+    },
+    {
+      "path": "/academy/today/lines/items/4/image/alt",
+      "hash": "db7e0a5601707f4527d9448d64ebaff2cf6e28dec1575465da2e6af478698644"
+    },
+    {
+      "path": "/academy/today/lines/items/5/text",
+      "hash": "25c7fac105bef309dceca358b5cfca7905b3b3bc1f27013e8ff837fab118d327"
+    },
+    {
+      "path": "/academy/today/lines/items/5/detail",
+      "hash": "35044ce9a55604fdc7b93e6f9e80f5d162c431dc8648ea30611c99548e1b0b64"
+    },
+    {
+      "path": "/academy/today/lines/items/5/image/alt",
+      "hash": "6ff6973459e528bdad25e582e706503f4a01638cc241d9b2bc6e73a0d4174020"
+    },
+    {
+      "path": "/academy/today/lines/items/6/text",
+      "hash": "3a2f3cff97a8419a8e727d360814f23730feb7c6fac1a83d767c4db204668ed7"
+    },
+    {
+      "path": "/academy/today/lines/items/6/image/alt",
+      "hash": "e17085c08bc3fd870411f503b68c88ac9b2879645fc95ec04343ae08872378d8"
+    },
+    {
+      "path": "/academy/today/lines/items/7/text",
+      "hash": "a7516ed99aa113da8f1042698c5da22285d83d0ba8e9a6b95a1a8bb69f0ff82b"
+    },
+    {
+      "path": "/academy/today/lines/items/7/detail",
+      "hash": "af87de767114d0734a91c4afb341e1cc4c5fa6ba65e29ea2fc592afd1019de1b"
+    },
+    {
+      "path": "/academy/today/lines/items/7/image/alt",
+      "hash": "7bd5052a73fa63a44fe0df604cf55aa78247eb614bc491df62b756a14e6258a2"
+    },
+    {
+      "path": "/academy/today/lines/items/8/text",
+      "hash": "3306f6884e9b4ac6dc47f5c7183c35a3b77294f146f97e6f50a86abfea80c1cd"
+    },
+    {
+      "path": "/academy/today/lines/items/8/detail",
+      "hash": "c3136ed2b2449bac1e1ea5d8c11d87ff2df74b10b0c4896a3d88e914a0d24475"
+    },
+    {
+      "path": "/academy/today/lines/items/8/image/alt",
+      "hash": "cd90e7df11f7587229faf219da501249ee06445100448cea8d782fe7f4ef10c3"
+    },
+    {
+      "path": "/academy/today/lines/items/9/text",
+      "hash": "d142c41d4ed10ede098698d0cfba595bae428ada506d60ff395c39c928c2233e"
+    },
+    {
+      "path": "/academy/today/lines/items/9/detail",
+      "hash": "ea160a2f640f633e75fa5b7a882347de73ff2e1fe794a9963b9f018959a0af42"
+    },
+    {
+      "path": "/academy/today/lines/items/9/image/alt",
+      "hash": "7b3bcb6335d1c6532089824b70ed8671ff81ae1202bfbf0199c35893e2051025"
+    },
+    {
+      "path": "/academy/today/lines/items/10/text",
+      "hash": "8b33ae7fa5c290315f25885820d6d3ce2db87e6a12efc860d540cc3af8f27347"
+    },
+    {
+      "path": "/academy/today/lines/items/10/image/alt",
+      "hash": "310b893e627a95458411e73787d513f16d04a9d32f341182aad42ccd7d8dd5a4"
+    },
+    {
+      "path": "/academy/today/lines/items/11/text",
+      "hash": "778417049157e3815e8552afc5a36ac3e5ab04c6678e148e9a0c51fc1f373766"
+    },
+    {
+      "path": "/academy/today/lines/items/11/detail",
+      "hash": "07a19211928f7abd77012b8ec1fdd2f83b8424daed553b0379eafce3f3c9c64c"
+    },
+    {
+      "path": "/academy/today/lines/items/11/image/alt",
+      "hash": "c701fe463b8bcf7e403ae844a68a33f75ef243ca9f86f6e99dc764ed447d8892"
+    },
+    {
+      "path": "/academy/today/lines/items/12/text",
+      "hash": "f9123c7aaded2beba119973e084444a6b2390a9d1781fcacec7b8da98a5cca2f"
+    },
+    {
+      "path": "/academy/today/lines/items/12/detail",
+      "hash": "68e0b5983f52804451db9940709a1c72300959ef4a31e4962423d9d926f22234"
+    },
+    {
+      "path": "/academy/today/lines/items/12/image/alt",
+      "hash": "c2fc5147e862e504f1f81d97a4f8d8bf1abc58cf8a426ec28ef3b691415e5bab"
+    },
+    {
+      "path": "/academy/today/lines/items/13/text",
+      "hash": "e4583a7d37d3c13d117b39963b35bb3bb7a3dc39c57b04c8288194fd5cf69483"
+    },
+    {
+      "path": "/academy/today/lines/items/13/detail",
+      "hash": "637ea909aaa941427fd57c4dbc314f4414a93cff10b07e58bed30d35b06b14e8"
+    },
+    {
+      "path": "/academy/today/lines/items/13/image/alt",
+      "hash": "6d9442e9bbd80824cd2a64cd63543f5a2508b210aaa738af8d37caa436d7091f"
+    },
+    {
+      "path": "/academy/today/lines/items/14/text",
+      "hash": "f3efaf519fc343a091935fa00b1d8d9a783bc78831bf30776e293f6b2edb5e94"
+    },
+    {
+      "path": "/academy/today/lines/items/14/detail",
+      "hash": "6295a8827edf7570f5912b3875eac4f635bf7fa0ac3b245535c335035cc73a15"
+    },
+    {
+      "path": "/academy/today/lines/items/14/image/alt",
+      "hash": "a42b15adfd7881f794cb817199d9bd994f824b50a74e7b39f7f3de5e351efaa8"
+    },
+    {
+      "path": "/academy/localization/countries/0/country",
+      "hash": "49dca65f362fee401292ed7ada96f96295eab1e589c52e4e66bf4aedda715fdd"
+    },
+    {
+      "path": "/academy/localization/countries/0/edition",
+      "hash": "ba118bf7fc9c1aedc1edb28a0aa86e0b43b681f222af6616e13c43be87815b06"
+    },
+    {
+      "path": "/academy/localization/countries/0/units",
+      "hash": "2332b7dcf7e3e4b05d4cbc605161b08dc848aeb27561aac6e0f8f865d97d972e"
+    },
+    {
+      "path": "/academy/localization/countries/0/approval",
+      "hash": "e02156944925c6d5a29e5ce42c29845232801b1d015cd5f1a583ab7fa1248db5"
+    },
+    {
+      "path": "/academy/localization/countries/0/contextLine",
+      "hash": "0188f2c5441bec81dd924b1a92e1918e4e453050bddf39c4c5ffe6c155d8848f"
+    },
+    {
+      "path": "/academy/localization/countries/0/learning/review",
+      "hash": "dd2ace6fcedfdeeee7228c4b9ceb63739cc290b104aefaca3a817118260c89ec"
+    },
+    {
+      "path": "/academy/localization/countries/1/country",
+      "hash": "8d23a6e37e0a6431a8f1b43a91026dcff51170a89a6512ff098eaa56a4d5fb19"
+    },
+    {
+      "path": "/academy/localization/countries/1/edition",
+      "hash": "ba118bf7fc9c1aedc1edb28a0aa86e0b43b681f222af6616e13c43be87815b06"
+    },
+    {
+      "path": "/academy/localization/countries/1/units",
+      "hash": "2332b7dcf7e3e4b05d4cbc605161b08dc848aeb27561aac6e0f8f865d97d972e"
+    },
+    {
+      "path": "/academy/localization/countries/1/approval",
+      "hash": "e02156944925c6d5a29e5ce42c29845232801b1d015cd5f1a583ab7fa1248db5"
+    },
+    {
+      "path": "/academy/localization/countries/1/contextLine",
+      "hash": "386e6007be9e27e424aadea441996303cd30b2bfee15f990b3eebbd25e6ee770"
+    },
+    {
+      "path": "/academy/localization/countries/1/learning/review",
+      "hash": "dd2ace6fcedfdeeee7228c4b9ceb63739cc290b104aefaca3a817118260c89ec"
+    },
+    {
+      "path": "/academy/localization/countries/2/country",
+      "hash": "e407c98cccc16b5f97ca7c8230227867b343169f1d87b6fb329945cb56988187"
+    },
+    {
+      "path": "/academy/localization/countries/2/edition",
+      "hash": "ba118bf7fc9c1aedc1edb28a0aa86e0b43b681f222af6616e13c43be87815b06"
+    },
+    {
+      "path": "/academy/localization/countries/2/units",
+      "hash": "2332b7dcf7e3e4b05d4cbc605161b08dc848aeb27561aac6e0f8f865d97d972e"
+    },
+    {
+      "path": "/academy/localization/countries/2/approval",
+      "hash": "e02156944925c6d5a29e5ce42c29845232801b1d015cd5f1a583ab7fa1248db5"
+    },
+    {
+      "path": "/academy/localization/countries/2/contextLine",
+      "hash": "89483b36f5662eaa7825e5dbf78f57a459962686ca1e3dcab5b119fd82306908"
+    },
+    {
+      "path": "/academy/localization/countries/2/learning/review",
+      "hash": "dd2ace6fcedfdeeee7228c4b9ceb63739cc290b104aefaca3a817118260c89ec"
+    },
+    {
+      "path": "/academy/localization/countries/3/country",
+      "hash": "4c7de2c3da6dc0ae8f9d13b107718a913859359bd30166d077c867577953865d"
+    },
+    {
+      "path": "/academy/localization/countries/3/edition",
+      "hash": "ba118bf7fc9c1aedc1edb28a0aa86e0b43b681f222af6616e13c43be87815b06"
+    },
+    {
+      "path": "/academy/localization/countries/3/units",
+      "hash": "2332b7dcf7e3e4b05d4cbc605161b08dc848aeb27561aac6e0f8f865d97d972e"
+    },
+    {
+      "path": "/academy/localization/countries/3/approval",
+      "hash": "e02156944925c6d5a29e5ce42c29845232801b1d015cd5f1a583ab7fa1248db5"
+    },
+    {
+      "path": "/academy/localization/countries/3/contextLine",
+      "hash": "47667a31ed4cc7608ca801f6ac1e079a716974c949c26b56eb5de0726d7705af"
+    },
+    {
+      "path": "/academy/localization/countries/3/learning/review",
+      "hash": "dd2ace6fcedfdeeee7228c4b9ceb63739cc290b104aefaca3a817118260c89ec"
+    },
+    {
+      "path": "/academy/localization/countries/4/country",
+      "hash": "07f62b021771d3cf67e2e1faf18769cc5e5c119ad7d4d1847a11e11d6d5a7ecb"
+    },
+    {
+      "path": "/academy/localization/countries/4/edition",
+      "hash": "ba118bf7fc9c1aedc1edb28a0aa86e0b43b681f222af6616e13c43be87815b06"
+    },
+    {
+      "path": "/academy/localization/countries/4/units",
+      "hash": "2332b7dcf7e3e4b05d4cbc605161b08dc848aeb27561aac6e0f8f865d97d972e"
+    },
+    {
+      "path": "/academy/localization/countries/4/approval",
+      "hash": "e02156944925c6d5a29e5ce42c29845232801b1d015cd5f1a583ab7fa1248db5"
+    },
+    {
+      "path": "/academy/localization/countries/4/contextLine",
+      "hash": "b0a7e8919af13bf8b92176854279db30022f3a475a001093e41ee88a8afeeabd"
+    },
+    {
+      "path": "/academy/localization/countries/4/learning/review",
+      "hash": "dd2ace6fcedfdeeee7228c4b9ceb63739cc290b104aefaca3a817118260c89ec"
+    },
+    {
+      "path": "/academy/localization/countries/5/country",
+      "hash": "dd64913c8b91d76ca27b371f0b86fd30452370469b8cadf4e5a61d41d14e42ec"
+    },
+    {
+      "path": "/academy/localization/countries/5/edition",
+      "hash": "ba118bf7fc9c1aedc1edb28a0aa86e0b43b681f222af6616e13c43be87815b06"
+    },
+    {
+      "path": "/academy/localization/countries/5/units",
+      "hash": "2332b7dcf7e3e4b05d4cbc605161b08dc848aeb27561aac6e0f8f865d97d972e"
+    },
+    {
+      "path": "/academy/localization/countries/5/approval",
+      "hash": "e02156944925c6d5a29e5ce42c29845232801b1d015cd5f1a583ab7fa1248db5"
+    },
+    {
+      "path": "/academy/localization/countries/5/contextLine",
+      "hash": "c1c354afc16ff8213928ba6274a00d49a8d8b5acfebbf68c0f9b65224de6db60"
+    },
+    {
+      "path": "/academy/localization/countries/5/learning/review",
+      "hash": "dd2ace6fcedfdeeee7228c4b9ceb63739cc290b104aefaca3a817118260c89ec"
+    },
+    {
+      "path": "/tutorKeys/0/keys/0",
+      "hash": "d2183247626adfff2f1b048f29e3fbf3dc87746704e94f3328062cea16953ce2"
+    },
+    {
+      "path": "/tutorKeys/0/keys/1",
+      "hash": "32c06e494c4c25495efbdaf04959f0807b431bf347e9c35662f18c12df077939"
+    },
+    {
+      "path": "/tutorKeys/0/keys/2",
+      "hash": "7c441eb23fd6429786076174c5073df98eac9ac9faaa2537b917b1969d629f48"
+    },
+    {
+      "path": "/tutorKeys/0/keys/3",
+      "hash": "06d431c88333eb807277e700e3277b430f9822e69b41ad0c361881c7aae35424"
+    },
+    {
+      "path": "/tutorKeys/0/keys/4",
+      "hash": "d6e4ad4b872a4fff9dcdc3accddff9e828efb66fc4e784a50bf6a710fc6efc11"
+    },
+    {
+      "path": "/tutorKeys/0/keys/5",
+      "hash": "c5d627bec5d673d648953d24940eb7beba099e4fa0fa85a3ce1483b8f87067a8"
+    },
+    {
+      "path": "/tutorKeys/0/keys/6",
+      "hash": "12f7a8b593b1649e8031862d829672b1ea8f4bfa634654501f1ba47b0fea4e13"
+    },
+    {
+      "path": "/tutorKeys/0/keys/7",
+      "hash": "9887d74a86bd25817b80c3d41acd7131f986ddd20a552f2cf8b55c539c19d3e7"
+    },
+    {
+      "path": "/tutorKeys/0/keys/8",
+      "hash": "3159e27d6bbb73b78984589378b3195a4e6a5bef446718073d5ed7a36252cc4c"
+    },
+    {
+      "path": "/tutorKeys/0/keys/9",
+      "hash": "0fed3e809afe2ddb6e6c997b06c0ccc3c4c7e04844edfdad85764fdf5d3e45dc"
+    },
+    {
+      "path": "/tutorKeys/1/keys/0",
+      "hash": "c079047e8c10cceb311182b74f7f5e12a702426d5e737cc9040a976fcfea9f09"
+    },
+    {
+      "path": "/tutorKeys/1/keys/1",
+      "hash": "7381e5b6dbc48b497510dc652ceb2327d01df7c8b219070eeae56c2cf2b15f25"
+    },
+    {
+      "path": "/tutorKeys/1/keys/2",
+      "hash": "34bd1377922cad3731cbef3de8d8f0e5ed49d7b4b24cbea14a38516af8b2a791"
+    },
+    {
+      "path": "/tutorKeys/1/keys/3",
+      "hash": "5a8ce44552162795382bd4fa1b95b712425029daa82cc376de976a55330ab919"
+    },
+    {
+      "path": "/tutorKeys/1/keys/4",
+      "hash": "7d801c1bd15d8de1cf103a55cb36be2303a13d928c345c4c93a2b763b799e2bc"
+    },
+    {
+      "path": "/tutorKeys/1/keys/5",
+      "hash": "7ea1a180c47b4c46ad6afc220fa6de0b7d3d3b934a2d5b4c8c8f3060c057ddc2"
+    },
+    {
+      "path": "/tutorKeys/1/keys/6",
+      "hash": "1def067d94c1053f031a501472b1e06938ed429a9703d6fe402de7cdf09bcd5a"
+    },
+    {
+      "path": "/tutorKeys/1/keys/7",
+      "hash": "dedf77f2837dd0065509afc18752bf91903f30c3b6027677c23d74292e5f7b09"
+    },
+    {
+      "path": "/tutorKeys/1/keys/8",
+      "hash": "437cf4e678a941988885b5e1c5225ff1dc020bb12721e87f9598e2cf4f1ad402"
+    },
+    {
+      "path": "/tutorKeys/1/keys/9",
+      "hash": "63d6b15848b22a70a7aaa05c5702ac065c65ce71b41fe91a4fb72a1973fbeae0"
+    },
+    {
+      "path": "/tutorKeys/1/keys/10",
+      "hash": "6da0a1ef52bdf5747c5ca3a06521d7589249c3b27cbac9196fe96433db5a24cb"
+    },
+    {
+      "path": "/tutorKeys/2/keys/0",
+      "hash": "680437800555a73a7afba97d317538784645289625c8669c34ebf7de5e40cebf"
+    },
+    {
+      "path": "/tutorKeys/2/keys/1",
+      "hash": "eabce0a965241b41eeab2a85a99da107fbb72dcc20eae16ec6c4399ec31a1823"
+    },
+    {
+      "path": "/tutorKeys/2/keys/2",
+      "hash": "4d19ed6caac0567d121ee669e3e8e29bf52f8587a8adb745f94264cea3bb50f3"
+    },
+    {
+      "path": "/tutorKeys/2/keys/3",
+      "hash": "1694e682b4eb07c172747a4dd56fc8e006d0ebdaf63c87f5e582f8dc73be326c"
+    },
+    {
+      "path": "/tutorKeys/2/keys/4",
+      "hash": "b82a62cebe67cca347d79473cc9a014a5657400b139fed9e42ef23d26520c055"
+    },
+    {
+      "path": "/tutorKeys/2/keys/5",
+      "hash": "11f94b91e9d8ab3dca75120f0c8a24efca1640dbb3bacf517be908b0e617a791"
+    },
+    {
+      "path": "/tutorKeys/2/keys/6",
+      "hash": "50902d3f92d0d254e9167225e74926db633197b58a770a23510c92f34e0b31ea"
+    },
+    {
+      "path": "/tutorKeys/2/keys/7",
+      "hash": "56008190794d59f8791f1dbbd6c45644840c496c2dc2b71920da5793d616f72a"
+    },
+    {
+      "path": "/tutorKeys/2/keys/8",
+      "hash": "7aff658361c65b4209bbb77ddea9679b959de2a3b74f4b62b8425f3cc7307d7a"
+    },
+    {
+      "path": "/tutorKeys/2/keys/9",
+      "hash": "271afa4d3bd0e771e76f038851bdbc6c5966f8be2883ab4885c4011a6861c003"
+    },
+    {
+      "path": "/tutorKeys/3/keys/0",
+      "hash": "9261c96ed400d521759dae8ff6f1c37178fc0e2b6ace499d21e26edce211e845"
+    },
+    {
+      "path": "/tutorKeys/3/keys/1",
+      "hash": "9a81a4ccf7fa389820aa31ccc93c367389de0eff1829767788edbbd7682dd197"
+    },
+    {
+      "path": "/tutorKeys/3/keys/2",
+      "hash": "d6dc5c1ac1792f63fe6d6287354c689146e22647a39f8e9fc0eca7f450efbc06"
+    },
+    {
+      "path": "/tutorKeys/3/keys/3",
+      "hash": "2dcd06014d14d8f65d7b689c3ebbf8fe64ebed724a99604eddfa9899eb6bf23d"
+    },
+    {
+      "path": "/tutorKeys/3/keys/4",
+      "hash": "24d0124a2cb0c6814fa94aac1c1954d4ff34617d14ee2297866bd34c88d01935"
+    },
+    {
+      "path": "/tutorKeys/3/keys/5",
+      "hash": "2754ada0fc2759b8ccbcc7f49df41867ee4a181eea5c47a633f949cc14358bb8"
+    },
+    {
+      "path": "/tutorKeys/3/keys/6",
+      "hash": "db246e98d0c3199b6d57754729a4787d078b2cdd865f3716deb1f15f42d55590"
+    },
+    {
+      "path": "/tutorKeys/3/keys/7",
+      "hash": "8832358f24c1e40e7d2425ada442089a8fbc6a34679c10b09080b6a5ebaeafc1"
+    },
+    {
+      "path": "/tutorKeys/3/keys/8",
+      "hash": "b5afe666353cdf6ff4ee80e3e1018905eaf38a761c8921df01c538cf6342eb58"
+    },
+    {
+      "path": "/tutorKeys/3/keys/9",
+      "hash": "cd68bb26cec368142700276b7fb019fe5e0700feeacd398baa3698da80bdad12"
+    },
+    {
+      "path": "/tutorKeys/4/keys/0",
+      "hash": "6953fa196563593c93397b03878fa0effc23f352154d9db916cbe914d4aca194"
+    },
+    {
+      "path": "/tutorKeys/4/keys/1",
+      "hash": "691720859ba906af949736abca9958cbd7991fe19b54c742bfd08ac86277b332"
+    },
+    {
+      "path": "/tutorKeys/4/keys/2",
+      "hash": "a45eae84aa3eb81e91d022f58c359b8757a62262b431bba20f2191812645e80a"
+    },
+    {
+      "path": "/tutorKeys/4/keys/3",
+      "hash": "41d5b7adc33278e97fb1cac1a2e14e412be12d5286dd2e41c73fefa1f26ee328"
+    },
+    {
+      "path": "/tutorKeys/4/keys/4",
+      "hash": "997703b249c34820c2fd7ad62abf60434ef401f4779c7316ce62b8240bfe2ee2"
+    },
+    {
+      "path": "/tutorKeys/4/keys/5",
+      "hash": "9a7b4f08dc95d271d00b7d69f8a65f47dfe756e8e0e1444fee76da51e186c332"
+    },
+    {
+      "path": "/tutorKeys/4/keys/6",
+      "hash": "ee111de94707c6d6908bed50f6841e83475ce8d1dea3de30cd39e5b4c227832e"
+    },
+    {
+      "path": "/tutorKeys/4/keys/7",
+      "hash": "4a3901294febc101ef3433b02d0002eb95ea9cdd7b5dfc6f247d3075dadc465f"
+    },
+    {
+      "path": "/tutorKeys/4/keys/8",
+      "hash": "e99dc58c3ec6bc5d208d34379a3139fbce31dfdca14a04aed76dc208326d116e"
+    },
+    {
+      "path": "/tutorKeys/5/keys/0",
+      "hash": "32008805deee750e02364215930ae567cf37fe894740b8ec2446e8e3612c951f"
+    },
+    {
+      "path": "/tutorKeys/5/keys/1",
+      "hash": "16f88b31f248eaa9d5a1bae34b7adf8e9dd7728f990f08812507459a9b63bb45"
+    },
+    {
+      "path": "/tutorKeys/5/keys/2",
+      "hash": "5feb5c15fc8e149f328d1096a3215b32c76601df0a0ec943ac8aee78bec842e1"
+    },
+    {
+      "path": "/tutorKeys/5/keys/3",
+      "hash": "d17e77bf153c5af76b014b36b3aea91f1d762e1ddfc1054dd38ce286056ad9f1"
+    },
+    {
+      "path": "/tutorKeys/5/keys/4",
+      "hash": "271d7458e0e8d1d249347635b461c34d8e7738edeb8947f2b99e02e52ddf2863"
+    },
+    {
+      "path": "/tutorKeys/5/keys/5",
+      "hash": "558d3152739fbd4e134343c07ba5497a1bf06bf46f224f1633ee09e0eb671da1"
+    },
+    {
+      "path": "/tutorKeys/5/keys/6",
+      "hash": "1c48a543149162533939da3eefbbb55e200acdaa4845835ce899f7d8adbe69d1"
+    },
+    {
+      "path": "/tutorKeys/5/keys/7",
+      "hash": "ec6f1f08cca8960a8873b797e3b4c1f59c44343309d9588b92079f25c1d8263e"
+    },
+    {
+      "path": "/tutorKeys/5/keys/8",
+      "hash": "6a2ba37f2248871bc434a4bd30adcc6d42fd9b504a0098d69b9d015e932ba40d"
+    },
+    {
+      "path": "/tutorKeys/5/keys/9",
+      "hash": "bc23b86f9c702260f88c18de2714adeffe3f6b0c8b72bb7698496316912d629a"
+    },
+    {
+      "path": "/tutorKeys/6/keys/0",
+      "hash": "1ffe47b6f7e13a0e85ed345cf0eab5aba9b06184af46cd70b8f0d5a44a36eb93"
+    },
+    {
+      "path": "/tutorKeys/6/keys/1",
+      "hash": "7046d42eb9dfd6e60a5c85da734966f392424bc6b8d608208b6bcb43ab294dbd"
+    },
+    {
+      "path": "/tutorKeys/6/keys/2",
+      "hash": "77d3c492f1cd4b12d331590173c0c0b9b59a94113fa87b5f43a17ba836987f69"
+    },
+    {
+      "path": "/tutorKeys/6/keys/3",
+      "hash": "9f54c63047742bb4f2546a19fa16f92dfb25be1861c80a615881be470b1f9bb1"
+    },
+    {
+      "path": "/tutorKeys/6/keys/4",
+      "hash": "3d6dce266a48bd5363e5588f92fed5b47cc136f25027798f37f2f9a3fdba4f5e"
+    },
+    {
+      "path": "/tutorKeys/6/keys/5",
+      "hash": "09e761972650cea9ceb8dd33fa581d0d7011f279cb39eb3333d9fe12f0bee7dc"
+    },
+    {
+      "path": "/tutorKeys/6/keys/6",
+      "hash": "5456c9f2712cf93ca48a538fcd3e4269caf58541e320512900f002ed8741e542"
+    },
+    {
+      "path": "/tutorKeys/6/keys/7",
+      "hash": "24970aade9ee9f4cbdbd379b547dc10bba2356e308331f1e5679132bf6c730a1"
+    },
+    {
+      "path": "/tutorKeys/7/keys/0",
+      "hash": "d278f6c97bb2c4af4c524adb8ff90082576be657a6f658ff078a52be29b94a6d"
+    },
+    {
+      "path": "/tutorKeys/7/keys/1",
+      "hash": "7a02d5c6b9520069481615ea04807e606b94472666d1f29720fe4be092ad6a65"
+    },
+    {
+      "path": "/tutorKeys/7/keys/2",
+      "hash": "4431abc102624695957789a51345b4cb60799269d3b8e62537295b5a54a32938"
+    },
+    {
+      "path": "/tutorKeys/7/keys/3",
+      "hash": "e73ded30cf2a735dd9d9a7de3592f8f7abf4d60833877cae1d66dfc4361f252a"
+    },
+    {
+      "path": "/tutorKeys/7/keys/4",
+      "hash": "d0069626da258f542c9153e41cc4ffd48adb7010dd6266a1e0715a79a24590ed"
+    },
+    {
+      "path": "/tutorKeys/7/keys/5",
+      "hash": "d27608cca9b65f91aef225be8ce8d50de8474b36d5bdbae15ab3ff9c5dca7187"
+    },
+    {
+      "path": "/tutorKeys/7/keys/6",
+      "hash": "36666c7eaccedf4e4c5daca7be7512397bca7245ef78828078dac8a596ddb5d6"
+    },
+    {
+      "path": "/tutorKeys/7/keys/7",
+      "hash": "15a6338db867e0253b8126cf6d1aadfeecbc919ca289ed7e9b6c7a0e0aa62c60"
+    },
+    {
+      "path": "/tutorKeys/7/keys/8",
+      "hash": "ed079147f9b269cae8b6fa9c290b8c819e6248e5b3b17de688db5b81694b185f"
+    },
+    {
+      "path": "/tutorKeys/8/keys/0",
+      "hash": "1532ac08c8d09e2d5c0f6e8cf4e6c82c196f53c18bdc7a7f0cdc17e6ac04d11f"
+    },
+    {
+      "path": "/tutorKeys/8/keys/1",
+      "hash": "f47ca14cd23c27fcc43f74e7911b8f065b37d76f5d8ef35c422793842ecd1d4c"
+    },
+    {
+      "path": "/tutorKeys/8/keys/2",
+      "hash": "98c440821081af1faa2cf1279458af8c0e48d1856e773cf3ca23fc6b05e3d4c7"
+    },
+    {
+      "path": "/tutorKeys/8/keys/3",
+      "hash": "0111cefbf2e16d0e93601ad55e3bb16acefca2ae363a407266de387f15e44fd7"
+    },
+    {
+      "path": "/tutorKeys/8/keys/4",
+      "hash": "54ab26db6d0a97f6ab0cf60a9b2b9dd4cfe59f079eb76e0e78154fd95a9f72a2"
+    },
+    {
+      "path": "/tutorKeys/8/keys/5",
+      "hash": "8523656d3b18b873ce62900ec2f1a45c18b758005f85764d19504aaf95bca0d0"
+    },
+    {
+      "path": "/tutorKeys/8/keys/6",
+      "hash": "5f67d67da59239128826f4acf3c1faaffeccfac57e21e8b199ad8346c97d2ca5"
+    },
+    {
+      "path": "/tutorKeys/8/keys/7",
+      "hash": "0e185db619bd5f215d9619bd1de971964fbc86fa2729c8cde3a9288cdd777593"
+    },
+    {
+      "path": "/tutorKeys/8/keys/8",
+      "hash": "ea8fae64e34393ed3b48030ff2b59c7994cd819a9ec681c8d88e697f868b320a"
+    },
+    {
+      "path": "/tutorKeys/8/keys/9",
+      "hash": "aece27e59e42be1c981d20383ebcf522e636336f08324dbf83438ccf51e75dc4"
+    },
+    {
+      "path": "/tutorKeys/8/keys/10",
+      "hash": "977bdd74e8b2f5460ef947a49126beaeea1fcf94b2bfdd618b23a64ba2534680"
+    },
+    {
+      "path": "/tutorKeys/9/keys/0",
+      "hash": "d312d3d59030d470a209ebc393efd89715ed7d448b390c46a621476064b09d88"
+    },
+    {
+      "path": "/tutorKeys/9/keys/1",
+      "hash": "79b416826cdcd12cd124575a4ccaf2afa953bd98077dcb1ab1b97a999ecf5eec"
+    },
+    {
+      "path": "/tutorKeys/9/keys/2",
+      "hash": "a96a5dd85829cdf96180dd259b2be09515bf7d688ee1fa70569d6407b0907aa0"
+    },
+    {
+      "path": "/tutorKeys/9/keys/3",
+      "hash": "e5b771ab4ac5c31a796ce7d7e533ff6e207eea39fb950f6937505a0288ac0bbb"
+    },
+    {
+      "path": "/tutorKeys/9/keys/4",
+      "hash": "2ab7b6470c628b272e65cc49013b5297ac854d7f433c7a5df5b3ee83801cd471"
+    },
+    {
+      "path": "/tutorKeys/9/keys/5",
+      "hash": "03448be02b25e4f7775e62df8e0318db75f5904ab176f753f2055cec993126f6"
+    },
+    {
+      "path": "/tutorKeys/9/keys/6",
+      "hash": "fe949fc9c09994762a821c3198ff74e1e5695a4315648db228b37785c8cbe076"
+    },
+    {
+      "path": "/tutorKeys/9/keys/7",
+      "hash": "73e7ac16f38056ef9aae18b7d79f374282884a4f2d9ce8d64e19f6eba83fb8dd"
+    },
+    {
+      "path": "/tutorKeys/9/keys/8",
+      "hash": "785d6dcf36063817c8eff84356d4487df20f777ecb328250f7ca30a22bcccd6c"
+    },
+    {
+      "path": "/tutorKeys/9/keys/9",
+      "hash": "1aa457c4c8cc8d6932920eed285ced9af1cb9b3a182d4eb7765da5b41a49e77e"
+    },
+    {
+      "path": "/tutorKeys/10/keys/0",
+      "hash": "b9e53052dc2d15c819621f366b77019b196806c532ad958112f85efcdefbbdc8"
+    },
+    {
+      "path": "/tutorKeys/10/keys/1",
+      "hash": "133cb6fa6b825f894fde90f4a31acb2d49c678950b09be8bc420534d912f9720"
+    },
+    {
+      "path": "/tutorKeys/10/keys/2",
+      "hash": "4ef5b2f0f4b5eec660773ea56277216fe711c1d170603adc7a80253579aba910"
+    },
+    {
+      "path": "/tutorKeys/10/keys/3",
+      "hash": "0ca8dc9d9998af9b652627cc9a960b88c81b70962a75bc9c47321065522d42c3"
+    },
+    {
+      "path": "/tutorKeys/10/keys/4",
+      "hash": "162d60b60e81c001984543090a0abddeba3a21f3504e205a5f1d8faa0f6664bc"
+    },
+    {
+      "path": "/tutorKeys/10/keys/5",
+      "hash": "b932f0be06c3383c73c0ecfb96aa54ceec0a8def14e1082af7260428567718a4"
+    },
+    {
+      "path": "/tutorKeys/10/keys/6",
+      "hash": "0fdd85bd51f2d7277a6a467a22f101303fe03b19c38c8efaf5330d8b70423c93"
+    },
+    {
+      "path": "/tutorKeys/10/keys/7",
+      "hash": "7268df1ad2d778dd9b3b848fa71f72a9d298da810f58680a3735014c167c6fe9"
+    },
+    {
+      "path": "/tutorKeys/10/keys/8",
+      "hash": "4b9408ca47f3f9cc9243c113f7ae617ba340c45cecae84e1b8073a59a6438f4f"
+    },
+    {
+      "path": "/tutorKeys/10/keys/9",
+      "hash": "81a022df04384c7075b63ddcc88afca5988f4afef74cc64d84f89f7ea015d3b7"
+    },
+    {
+      "path": "/tutorKeys/10/keys/10",
+      "hash": "d0142b6b2993b835ce76ca445cf800400f6526914b4b5ed990d75a15433d3e8d"
+    },
+    {
+      "path": "/tutorKeys/11/keys/0",
+      "hash": "3cd5099d54bb9ad39678ecc72ed0600ed13cf72e9602bc50a6a14dd19fe2c6c0"
+    },
+    {
+      "path": "/tutorKeys/11/keys/1",
+      "hash": "e5da5211981683a496db5c6cc7b2c617c2fa61a84580ade6b87e73a3ff7d9977"
+    },
+    {
+      "path": "/tutorKeys/11/keys/2",
+      "hash": "bc6b152c6ce3825203f6432ed927feb5ecad411c58552347e19a850156d2dbdb"
+    },
+    {
+      "path": "/tutorKeys/11/keys/3",
+      "hash": "a46928461f4cb8afd3c4fd7e59eaadb8589fc6b4213b8b26b58c876835d38d7d"
+    },
+    {
+      "path": "/tutorKeys/11/keys/4",
+      "hash": "db8096690ecf2f77ef4823edcdb93f9b05cd1f1b1987c4c37c1982521fdcfaf2"
+    },
+    {
+      "path": "/tutorKeys/11/keys/5",
+      "hash": "f3a92a8561514771401f00db09463502a0fc65c03cc090f7a0205c840f71687c"
+    },
+    {
+      "path": "/tutorKeys/11/keys/6",
+      "hash": "962f5cc2ac2ce5268a13ac0d3eb5faaaf239c0d117606151803445dacc8b44d9"
+    },
+    {
+      "path": "/tutorKeys/11/keys/7",
+      "hash": "cce3932bc6753fff08696003f0592a0e494a0caf8fb3c7ce4d3086624843b1b0"
+    },
+    {
+      "path": "/tutorKeys/11/keys/8",
+      "hash": "c01aebf06fbd0d3eb7c8cd769f504c80cf4a88447b955746a8afbdb8a64ae2a0"
+    },
+    {
+      "path": "/tutorKeys/11/keys/9",
+      "hash": "f1d731f59604d164806ca61fe49f70ee412529076afda527a30385e10457c705"
+    },
+    {
+      "path": "/tutorKeys/12/keys/0",
+      "hash": "ffe97bba510b9f5cf1bb187bebb59cefa42a3f1654d2c993654382cd10468c2e"
+    },
+    {
+      "path": "/tutorKeys/12/keys/1",
+      "hash": "45509a676116e4e547b2a67f674b22828a2a791bc51f77eb32c3812fb52bf6c3"
+    },
+    {
+      "path": "/tutorKeys/12/keys/2",
+      "hash": "04052fd1da97790c5c9bcdb64009055f8dd6d3eb125378b78b3e952ece3c9188"
+    },
+    {
+      "path": "/tutorKeys/12/keys/3",
+      "hash": "572ac24033cf4dddf586643f34764203e7b44e66fb72713ea38a40c2d6563834"
+    },
+    {
+      "path": "/tutorKeys/12/keys/4",
+      "hash": "c78f793d72132064a337c7fd1cc895289da362a4ce3a3237e29406812bc64abc"
+    },
+    {
+      "path": "/tutorKeys/12/keys/5",
+      "hash": "7d06a01a2b81459d52c32459c9fbffe00da892a08715c700782762ae0c741a61"
+    },
+    {
+      "path": "/tutorKeys/12/keys/6",
+      "hash": "d13a4f38952a33b4462ada2091558ebaf62446a6e87ede869524a4cc6bdd076e"
+    },
+    {
+      "path": "/tutorKeys/12/keys/7",
+      "hash": "c20c12d38a583d9ebf2e8731c2c9aa3d863a0feaa3a5e22c7c24e3b366e40805"
+    },
+    {
+      "path": "/tutorKeys/12/keys/8",
+      "hash": "769ddcf622e1124f15674f35a4a1085ff0c6760f2253e1acf07832d0d15f0551"
+    },
+    {
+      "path": "/tutorKeys/12/keys/9",
+      "hash": "53ac6e10c46a8287cbbd6be2edf9017d99f678600fbf2fa38ec47ba60d26c98e"
+    },
+    {
+      "path": "/tutorKeys/13/keys/0",
+      "hash": "80142a8588148a4becdb8dd55559cb604bc4a7a970fbfc8fb17b5ac47b217668"
+    },
+    {
+      "path": "/tutorKeys/13/keys/1",
+      "hash": "f999041e5fd27ce730446f831062361733b854029b1b99287c2bf7b15b4dbbc9"
+    },
+    {
+      "path": "/tutorKeys/13/keys/2",
+      "hash": "d7e44fbb2ad8cff491d19a7e984cbf3d8011fa6b93a3b00d3f96c6f116c612d7"
+    },
+    {
+      "path": "/tutorKeys/13/keys/3",
+      "hash": "6007b44327a48d4678d7161535ebf32a69d054c9a5d0b321eb1190f89a317d8a"
+    },
+    {
+      "path": "/tutorKeys/13/keys/4",
+      "hash": "a966c9fc0919a0106cf8b1483fc9f388a04db32e4d5626447d64c7714897590c"
+    },
+    {
+      "path": "/tutorKeys/13/keys/5",
+      "hash": "3afd46b004c8d988a69a1e34a26452c7859714e94719afe682d8bf737e154584"
+    },
+    {
+      "path": "/tutorKeys/13/keys/6",
+      "hash": "71224e1ca19cc15e521ae07f53fd18cc07637306e548b6ca19b1404d01303a2f"
+    },
+    {
+      "path": "/tutorKeys/13/keys/7",
+      "hash": "2abce1df9ad84c34d078fc8c17d3871d6eea94b4b3d23c239a50c0ca7358b390"
+    },
+    {
+      "path": "/tutorKeys/13/keys/8",
+      "hash": "c96587ca7e700bea6c3211dec50cd18dcf2e10938a8c6ebf08cd6288e2f51ccd"
+    },
+    {
+      "path": "/tutorKeys/13/keys/9",
+      "hash": "9cd8599173664ad08712578a3d95cdf6da0362a2dfaa5507b5ca8f6b8b0d7a98"
+    },
+    {
+      "path": "/tutorKeys/13/keys/10",
+      "hash": "03c5a2117a8ab7f08ab26b4893ab6b7d63acc328a8d80300be9f0a9b4acec9db"
+    },
+    {
+      "path": "/tutorKeys/13/keys/11",
+      "hash": "177a099158d28c4d9889cd123f365d81737a836e195e63cbf0937cde04fdd688"
+    },
+    {
+      "path": "/tutorContexts/0/units/0/text",
+      "hash": "8c4a70a48a91bc9bd115b34031a30caa6d864b2849b0e5c2edcacc1d20313e60"
+    },
+    {
+      "path": "/tutorContexts/1/units/0/text",
+      "hash": "e2c5bde2711c120f93e6a9ac998fdfb3de18e2db9424b3bfea977949fd6b0275"
+    },
+    {
+      "path": "/tutorContexts/2/units/0/text",
+      "hash": "d71991dbc7329d53b8824715861e5c5f3e3dc08e7a0146ca85315f6db3612f8a"
+    },
+    {
+      "path": "/tutorContexts/3/units/0/text",
+      "hash": "7cf1f61576da879d0babffa0d10cab4fb2301645c7a5ffa2b75d25836cc44193"
+    },
+    {
+      "path": "/tutorContexts/4/units/0/text",
+      "hash": "b51896b3a63bb483c3207ebf9e484c9e7e2ba2b03179c82abcad3e0708d6d398"
+    },
+    {
+      "path": "/tutorContexts/5/units/0/text",
+      "hash": "718642687dcdc0d6dfbf2c97bf1763adae68ae6138cabea6e3a9c4477dd6d81f"
+    },
+    {
+      "path": "/tutorContexts/6/units/0/text",
+      "hash": "1cbbb0efd31a9130017845d23c3a27a0f7fae313e8ef67e8b44e1212200b4eee"
+    },
+    {
+      "path": "/films/0/title",
+      "hash": "947c92d8d256c82b1dcc9e7c75c96558def38c56f8d2880c382b511e9aacab0a"
+    },
+    {
+      "path": "/films/0/script",
+      "hash": "d24a4011f5a550463b00919050ddfc2b9be01ca5e172e82b24724351ab8ef44d"
+    },
+    {
+      "path": "/films/1/title",
+      "hash": "bb3fee1eccad0a340d0196d212e9d96ce2973ed63647b9c6f2f14d2a2820e2c1"
+    },
+    {
+      "path": "/films/1/script",
+      "hash": "624fe9bbc13bb80234a59eb1619ce35a868b0ea897f893037a4e34e112950cfe"
+    },
+    {
+      "path": "/films/2/title",
+      "hash": "65654f19a84c1864defa800ba2777bfa97d2a2ebb5ae094fbd7eb08046a12508"
+    },
+    {
+      "path": "/films/2/script",
+      "hash": "0137cffe389d699f24a864518fda5430ce2a5f1522affa05467b856901d06b7f"
+    },
+    {
+      "path": "/films/3/title",
+      "hash": "bd2d21108dc07c700a224350e45fc88f377bd9843def9c11d7c0597e62877203"
+    },
+    {
+      "path": "/films/3/script",
+      "hash": "396360f0063a32bd5ed93b23b477b891e707af00a17570a7ea6f232c1ba146a5"
+    },
+    {
+      "path": "/films/4/title",
+      "hash": "8341162929855fb216a0731f478415da387c389de02bb6f268b88e790a5f1c80"
+    },
+    {
+      "path": "/films/4/script",
+      "hash": "422b53b593c512736ee38231f3ae6419b2c32a3d296d8e1829e5b9e77e85f1bd"
+    },
+    {
+      "path": "/films/5/title",
+      "hash": "e6e28405b777cfe58170cf834c8aee86b4dd20b3916ada4ea28a3cf760331096"
+    },
+    {
+      "path": "/films/5/script",
+      "hash": "559f60ce334d55dbd3b4c8116f1c3787d4d619d3d8abf9a37b3c2c57defa52be"
+    },
+    {
+      "path": "/films/6/title",
+      "hash": "ac8eeb4be5ecd8b46c91f53e1ae43b746669a46978fb91be36add75c39bb9cd6"
+    },
+    {
+      "path": "/films/6/script",
+      "hash": "227627886e53a7de32b51853fd75838027058039a8974e9884e895dbf3c67935"
+    }
+  ]
+}
