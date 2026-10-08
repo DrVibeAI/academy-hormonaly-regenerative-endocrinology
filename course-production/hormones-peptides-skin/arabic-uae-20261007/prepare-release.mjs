@@ -26,4 +26,5 @@ if(y.home?.certificate?.body) y.home.certificate.body.ar='شهادة إتمام 
 if(y.home?.trust?.title) y.home.trust.title.ar='محتوى يستند إلى الأدلة وحدودها'
 writeFileSync(config,stringify(y))
 writeFileSync(file,JSON.stringify(p,null,2))
+execFileSync(process.execPath,[join(root,'../ui-polish-20261008/apply-ui-polish.mjs'),config],{stdio:'inherit'})
 console.log('Prepared owner-authorized bilingual release; reference films and regulatory gaps remain labelled.')

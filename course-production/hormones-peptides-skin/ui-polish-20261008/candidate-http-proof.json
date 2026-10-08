@@ -1,0 +1,35 @@
+{
+  "/_health": {
+    "status": 200,
+    "body": {
+      "app": "ok",
+      "db": "ok"
+    }
+  },
+  "/api/editing/public": {
+    "status": 200,
+    "body": {
+      "enabled": true,
+      "revision": "480edfab6987fcad920ab30cdbf4c35b63acd8f692c57b9888849ae2d23e46b6",
+      "values": {}
+    }
+  },
+  "/api/certificate": {
+    "status": 401
+  },
+  "/api/admin/overview": {
+    "status": 401
+  },
+  "/api/state": {
+    "status": 401
+  },
+  "/assets/hormones-peptides-skin/ui/skin-texture.jpg": {
+    "status": 200
+  },
+  "/assets/hormones-peptides-skin/ui/collagen-fibers.jpg": {
+    "status": 200
+  },
+  "/assets/hormones-peptides-skin/ui/evidence-desk.jpg": {
+    "status": 200
+  }
+}

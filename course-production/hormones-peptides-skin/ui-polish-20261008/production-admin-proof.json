@@ -1,0 +1,23 @@
+{
+  "host": "https://hormonaly.perceptors.ai",
+  "verifiedAt": "2026-10-08T17:47:04.537Z",
+  "learners": {
+    "enrolled": 54
+  },
+  "started": 54,
+  "certificates": 1,
+  "editor": {
+    "loads": true,
+    "version": 14,
+    "drafts": 3,
+    "messages": 6,
+    "releases": 5,
+    "modelAvailable": true
+  },
+  "ask": {
+    "responded": true,
+    "draftsUnchanged": true,
+    "liveDesignUnchanged": true,
+    "newVersion": 15
+  }
+}

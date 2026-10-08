@@ -1,0 +1,54 @@
+{
+  "model": "gemini-3.5-flash-lite",
+  "mode": "frames",
+  "reviewed_at": "2026-10-08T17:35:17.508Z",
+  "figure_truth": false,
+  "videos": [
+    {
+      "label": "skin-texture-hero-gemini-draft.jpg",
+      "file": "/Users/omar/DrVibe/worktrees/academy-hormonaly-arabic-20261007/course-production/hormones-peptides-skin/ui-polish-20261008/generated/assets/undefined/images/skin-texture-hero-gemini-draft.jpg",
+      "summary": "The image shows a close-up of human skin with no text, artifacts, or clinical policy violations, serving as a clear educational texture illustration.",
+      "findings": [],
+      "timeline": [],
+      "usage": [
+        1529
+      ]
+    },
+    {
+      "label": "collagen-fibers-hero-gemini-draft.jpg",
+      "file": "/Users/omar/DrVibe/worktrees/academy-hormonaly-arabic-20261007/course-production/hormones-peptides-skin/ui-polish-20261008/generated/assets/undefined/images/collagen-fibers-hero-gemini-draft.jpg",
+      "summary": "The image displays braided fibers or threads without any text, people, or major generation artifacts, but it lacks a clear educational mechanism and functions primarily as a decorative background.",
+      "findings": [
+        {
+          "time": 0,
+          "severity": "warn",
+          "code": "decorative",
+          "note": "The image shows a bundle of braided threads without a clear educational focus, mechanism, or comparison, making it largely decorative.",
+          "model": "gemini-3.5-flash-lite"
+        }
+      ],
+      "timeline": [],
+      "usage": [
+        1596
+      ]
+    },
+    {
+      "label": "evidence-desk-hero-gemini-draft.jpg",
+      "file": "/Users/omar/DrVibe/worktrees/academy-hormonaly-arabic-20261007/course-production/hormones-peptides-skin/ui-polish-20261008/generated/assets/undefined/images/evidence-desk-hero-gemini-draft.jpg",
+      "summary": "The image functions purely as a decorative stock photo of a desk, book, and magnifying glass without explaining any specific medical or educational mechanism.",
+      "findings": [
+        {
+          "time": 0,
+          "severity": "warn",
+          "code": "decorative",
+          "note": "Image acts as mood/wallpaper without conveying a clear mechanism or structural comparison.",
+          "model": "gemini-3.5-flash-lite"
+        }
+      ],
+      "timeline": [],
+      "usage": [
+        1582
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "model": "gemini-3.5-flash-lite",
+  "mode": "frames",
+  "reviewed_at": "2026-10-08T17:33:30.832Z",
+  "figure_truth": false,
+  "videos": [
+    {
+      "label": "skin-texture-hero-gemini-draft.jpg",
+      "file": "/Users/omar/DrVibe/worktrees/academy-hormonaly-arabic-20261007/course-production/hormones-peptides-skin/ui-polish-20261008/generated/assets/undefined/images/skin-texture-hero-gemini-draft.jpg",
+      "summary": "The image shows a close-up photographic view of human skin and arm hair, violating the design contract requiring a light warm paper ground with ink line work.",
+      "findings": [
+        {
+          "time": 0,
+          "severity": "blocking",
+          "code": "design",
+          "note": "Image is a stock-photo realism photograph rather than the required paper-ground editorial register with ink line work and accent blue family.",
+          "model": "gemini-3.5-flash-lite"
+        }
+      ],
+      "timeline": [],
+      "usage": [
+        1686
+      ]
+    },
+    {
+      "label": "collagen-fibers-hero-gemini-draft.jpg",
+      "file": "/Users/omar/DrVibe/worktrees/academy-hormonaly-arabic-20261007/course-production/hormones-peptides-skin/ui-polish-20261008/generated/assets/undefined/images/collagen-fibers-hero-gemini-draft.jpg",
+      "summary": "The illustration depicts an abstract woven-fiber material study featuring intertwined beige and blue-accented threads on a light warm paper ground, passing all QA checks successfully.",
+      "findings": [],
+      "timeline": [],
+      "usage": [
+        1641
+      ]
+    },
+    {
+      "label": "evidence-desk-hero-gemini-draft.jpg",
+      "file": "/Users/omar/DrVibe/worktrees/academy-hormonaly-arabic-20261007/course-production/hormones-peptides-skin/ui-polish-20261008/generated/assets/undefined/images/evidence-desk-hero-gemini-draft.jpg",
+      "summary": "The image shows a photographic scene of a desk with a book and magnifying glass, violating the paper-ground editorial line work design contract by using stock-photo realism instead of ink line work.",
+      "findings": [
+        {
+          "time": 0,
+          "severity": "blocking",
+          "code": "design",
+          "note": "Image is a stock-photo realistic photograph instead of the mandated light warm paper ground with ink line work and a single accent blue family.",
+          "model": "gemini-3.5-flash-lite"
+        }
+      ],
+      "timeline": [],
+      "usage": [
+        1694
+      ]
+    }
+  ],
+  "criteria": "These are editorial images, not instructional anatomy diagrams: anonymous healthy skin texture, an abstract woven-fiber material study, and a blank evidence-review desk. Skin is explicitly requested and permitted. Verify no readable labels, logos, treatment claims or identifiable faces. They must not look like scans or microscopy. No scientific structure accuracy is asserted.",
+  "allow_notation": null
+}

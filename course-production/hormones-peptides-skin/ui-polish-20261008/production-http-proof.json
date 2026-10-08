@@ -1,0 +1,46 @@
+{
+  "checkedAt": "2026-10-08T17:48:31.859Z",
+  "base": "https://hormonaly.perceptors.ai",
+  "results": [
+    {
+      "path": "/_health",
+      "status": 200,
+      "contentType": "application/json"
+    },
+    {
+      "path": "/api/editing/public",
+      "status": 200,
+      "contentType": "application/json"
+    },
+    {
+      "path": "/api/admin/overview",
+      "status": 401,
+      "contentType": "application/json"
+    },
+    {
+      "path": "/api/state",
+      "status": 401,
+      "contentType": "application/json"
+    },
+    {
+      "path": "/api/certificate",
+      "status": 401,
+      "contentType": "application/json"
+    },
+    {
+      "path": "/assets/hormones-peptides-skin/ui/skin-texture.jpg",
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "path": "/assets/hormones-peptides-skin/ui/collagen-fibers.jpg",
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "path": "/assets/hormones-peptides-skin/ui/evidence-desk.jpg",
+      "status": 200,
+      "contentType": "image/jpeg"
+    }
+  ]
+}

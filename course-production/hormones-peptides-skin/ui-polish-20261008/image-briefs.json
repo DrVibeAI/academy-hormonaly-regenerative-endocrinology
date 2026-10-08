@@ -1,0 +1,39 @@
+{
+  "academy": {
+    "brand": {
+      "accentColor": "#0071E3"
+    }
+  },
+  "curriculum": {
+    "modules": [
+      {
+        "id": "skin-texture",
+        "heroBrief": {
+          "aspectRatio": "4:3",
+          "prompt": "Premium editorial macro photograph of healthy medium-brown human skin on the outside of an anonymous adult forearm, fine natural texture and tiny hairs, soft raking daylight, a muted blue linen edge at the far corner. Close framing fills the whole canvas with the subject, gentle warm beige and restrained blue, calm medical education journal photography. No face, no identifiable person, no beauty retouching, no disease, no before-and-after, no treatment outcome, no instruments, no text. This is conceptual editorial imagery, not a patient photograph.",
+          "negative": "no text, numbers, labels, logos, sparkles, neon, smooth plastic skin, face, identifiable person, needle, vial, cosmetic packaging, fabricated clinical results"
+        },
+        "units": []
+      },
+      {
+        "id": "collagen-fibers",
+        "heroBrief": {
+          "aspectRatio": "4:3",
+          "prompt": "Editorial conceptual illustration of a few softly curved bundles of interwoven collagen-like fibers, an abstract structural scaffold with visible fine strands, warm ivory and muted blue against a pale stone background. High tactile detail, restrained natural light, cropped close so fibers fill the frame, one coherent composition. It must read as a material study for an educational course about skin matrix, not a real microscopy image, molecular structure or a treatment effect. No cells, molecules, labels, arrows or scientific claims.",
+          "negative": "no text, numbers, labels, logos, sparkles, neon, chrome, plastic, DNA helix, diagram arrows, real clinical scan, microscopy image, before-and-after"
+        },
+        "units": []
+      },
+      {
+        "id": "evidence-desk",
+        "heroBrief": {
+          "aspectRatio": "4:3",
+          "prompt": "Quiet premium editorial photograph of an evidence-review workspace in a modern clinic: a closed deep blue cloth notebook with no writing, a simple clear magnifying glass lying beside it, two blank cream paper sheets with no marks, on a pale stone desk near a window. Close asymmetrical crop fills the image with the objects. Natural directional daylight and soft honest shadows, warm off-white and muted blue. No people, no lab report, no product or treatment, no clinical test, no text. Symbolic educational still life about reviewing evidence.",
+          "negative": "no text, letters, numbers, labels, logos, sparkles, neon, pills, syringes, vials, branded packaging, UI, invented clinical data, floating objects"
+        },
+        "units": []
+      }
+    ]
+  },
+  "id": "hormonaly-ui-polish"
+}

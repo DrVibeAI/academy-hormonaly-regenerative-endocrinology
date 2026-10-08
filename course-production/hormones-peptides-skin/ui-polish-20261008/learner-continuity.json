@@ -1,0 +1,25 @@
+{
+  "checkedAt": "2026-10-08",
+  "database": {
+    "enrolled": 54,
+    "invited": 1,
+    "revoked": 0,
+    "learnersWithSavedProgress": 54,
+    "activeCertificates": 1
+  },
+  "identity": {
+    "accounts": 67,
+    "disabled": 0,
+    "verifiedEmail": 60
+  },
+  "releaseActions": {
+    "learnerDeletion": false,
+    "learnerRevocation": false,
+    "credentialIssuance": false
+  },
+  "recentLogs": {
+    "adminRevokeRequestsPastTwoDays": 0,
+    "identityDeletionEventsSinceOct7": 0
+  },
+  "limitation": "Current records and available logs corroborate continuity; this is not a comparison with a historical full database snapshot."
+}
