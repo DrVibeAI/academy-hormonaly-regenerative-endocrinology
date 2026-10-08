@@ -1,0 +1,32 @@
+[
+  {
+    "path": "/_health",
+    "status": 200,
+    "health": {
+      "app": "ok",
+      "db": "ok"
+    }
+  },
+  {
+    "path": "/api/certificate",
+    "status": 401
+  },
+  {
+    "path": "/api/state",
+    "status": 401
+  },
+  {
+    "path": "/api/admin/overview",
+    "status": 401
+  },
+  {
+    "path": "/terms",
+    "status": 200,
+    "health": null
+  },
+  {
+    "path": "/privacy",
+    "status": 200,
+    "health": null
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "deploymentStatus": "ready",
+  "productionRevision": "academy-hormonaly-00051-54r",
+  "productionTrafficPercent": 100,
+  "candidateOnly": true,
+  "reviewOnly": true,
+  "runtimeCommit": "ab5067a978a37143018b845e1b0dd94c9c8a170c",
+  "sourceBaselineRuntime": "7209291fde69e6330b1d5ce0d3170f3111fde02e",
+  "candidatePackageSha256": "90536db0ef9a782dbce700a18126dfb85bf0e77e073c24b2d7be16227f47517e",
+  "candidateConfigSha256": "c556a254541fb01ecae323efd713fa54cc4e24297a693fd94537ad74b4e28c03",
+  "canonicalEnglishSha256": "6419297d6d012d8c8e5b58909e9e9f1f950443aa548ca20618017dbb0ebfa4fa",
+  "humanApprovalsRecorded": false,
+  "publishReady": false,
+  "remainingSaudiCitationGaps": 21,
+  "candidateRevision": "academy-hormonaly-00053-whj",
+  "candidateUrl": "https://candidate---academy-hormonaly-limjs7pr6a-uc.a.run.app",
+  "buildId": "bd472a1e-b951-40c8-acb2-2793fb1f3272",
+  "rtlOverflow": false,
+  "verifiedViewportWidth": 1113
+}

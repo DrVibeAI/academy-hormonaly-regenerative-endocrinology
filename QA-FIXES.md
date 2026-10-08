@@ -1,5 +1,7 @@
 # Arabic Hormonaly Academy — QA repairs, 7 October 2026
 
+Deployment follow-up: [Arabic review candidate and remaining release gates](course-production/hormones-peptides-skin/arabic-uae-20261007/deployment-20261007/DEPLOYMENT.md). Public English traffic remains unchanged.
+
 The reported runtime and preview defects are repaired and verified locally. Saudi product verification remains an explicit release blocker; this is not a medical, linguistic, legal or accreditation approval. Production was not deployed.
 
 | Finding | Repair and result |
