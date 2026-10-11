@@ -1,281 +1,1236 @@
-# Academy catalog — Hormonaly Academy at hormonaly.perceptors.ai: the home for Hormonaly's peptide-based courses (Omar, 2026-09-25).
-# Hormones and Peptides for Skin is the first; further peptide courses join this catalog (runtime multi-course support pending).
 academy: hormonaly
+deployment:
+  serviceAccount: academy-hormonaly@perceptors.iam.gserviceaccount.com
+  reviewOnly: false
 brand:
-  voices:                       # stock library voice (no faculty likeness/voice without a release); intake video brief: "voice: library"
-    es-MX: { voice_id: "", name: "" }
-    en: { voice_id: "Xb7hH8MSUJpSbSDYk0k2", name: "Alice — Clear, Engaging Educator (ElevenLabs library)" }   # narration on demand + tutor voice
+  voices:
+    es-MX:
+      voice_id: ""
+      name: ""
+    en:
+      voice_id: Xb7hH8MSUJpSbSDYk0k2
+      name: Alice — Clear, Engaging Educator (ElevenLabs library)
+    ar-AE:
+      voice_id: ZCXYdzd5Evtsll2EdoCi
+      name: Yousef — Modern Standard Arabic (ElevenLabs library)
   name: Hormonaly Academy
   shortName: Hormonaly
-  wordmarkSuffix: ACADEMY              # typographic wordmark (no logo asset yet): "Hormonaly" in the display serif + mono suffix
-  logo: ./assets/hormonaly-logo.png     # INTAKE: logo asset pending from customer — until it ships in public/, the wordmark renders
-  theme: perceptors-house               # design tier 0: the Perceptors house theme verbatim (design.md), Omar 2026-09-24
+  wordmarkSuffix: ACADEMY
+  logo: ""
+  mark: ./assets/brand/hormonaly-mark-flat.svg
+  favicon: ./assets/brand/hormonaly-app-icon.svg
+  authority:
+    by: academy
+    mark: ./assets/brand/hormonaly-app-icon.svg
+  theme: perceptors-house
   designTier: 0
-  accent: "#5A4BC4"                     # Perceptors violet (house); palette and fonts are inherited from the house, not copied
-  tagline: { en: "Hormones and peptides, evidence-graded." }   # academy-level: every course in the catalog sits under it
-  supportEmail: support@hormonaly.ai    # placeholder — confirm with customer
+  accent: "#0071E3"
+  palette:
+    primary: "#0071E3"
+    primaryDeep: "#0064CA"
+    primaryDeepest: "#004C99"
+    primarySoft: "#EBF4FF"
+    ink: "#1D1D1F"
+    paper: "#F5F5F7"
+    paperDeep: "#E8E8EB"
+    panel: "#FFFFFF"
+    line: "#E8E8EB"
+    muted: "#6E6E73"
+    mutedLight: "#6E6E73"
+    navy: "#1E232B"
+    primaryTint: "#C7E2FF"
+    onPrimary: "#FFFFFF"
+    action: "#0071E3"
+    link: "#0064CA"
+    successSoft: "#EBF4FF"
+    successInk: "#0064CA"
+    dangerSoft: "#FEEDEC"
+  tagline:
+    en: Hormones and peptides, evidence-graded.
+    ar-AE: الهرمونات والببتيدات، مصنّفة وفق درجات الأدلة.
+  supportEmail: support@hormonaly.ai
   issuer: Hormonaly Academy
-# Academy homepage (public, before sign-in) — Perceptors house design (design.md tier 0, perceptor-foundry docs/brand.md).
-# The course list, numbers and audiences come from the catalog packages at build time; only the words below are written here.
-# No accreditation or credit claim appears unless the package records it (runtime gate).
 home:
-  # Homepage copy (2026-09-25, Omar: the page should speak to the clinician with confidence, not explain the platform; less text,
-  # clear headings, more pictures and numbers; skin aesthetics as a practice lever). Numbers come from the package, never from here.
-  kicker: { en: "For clinicians" }
-  headline: { en: "Skin peptides, answered with evidence." }
-  lede: { en: "Your patients are already asking about hormones and peptides for their skin. Learn what the trials show, what is approved where you practise, and what to say next." }
-  primaryAction: { en: "Enrol now" }
-  secondaryAction: { en: "Watch the trailer" }
-  heroImage: { src: "assets/hormones-peptides-skin/home/hero-skin.jpg" }
+  kicker:
+    en: For clinicians
+    ar-AE: للممارسين السريريين
+  headline:
+    en: Skin peptides, answered with evidence.
+    ar-AE: ببتيدات الجلد، إجابات مدعومة بالأدلة.
+  lede:
+    en: Your patients are already asking about hormones and peptides for their skin.
+      Learn what the trials show, what is approved where you practise, and what
+      to say next.
+    ar-AE: يسألك مرضاك بالفعل عن الهرمونات والببتيدات لصحة جلدهم. تعرّف على ما
+      تُظهره التجارب السريرية، وما هو معتمد في مكان ممارستك، وما ينبغي قوله
+      تالياً.
+  primaryAction:
+    en: Enroll now
+    ar-AE: سجّل الآن
+  secondaryAction:
+    en: Watch the trailer
+    ar-AE: شاهد المقطع الترويجي
+  heroImage:
+    src: assets/hormones-peptides-skin/home/hero-skin.jpg
   heroVideo:
-    src: "assets/hormones-peptides-skin/home/trailer.mp4"
-    poster: "assets/hormones-peptides-skin/home/trailer-poster.jpg"
-    label: { en: "Hormones and Peptides for Skin, the course trailer" }
-    disclosure: { en: "Presented by a digital avatar (AI-generated presenter and voice)." }
+    src: assets/hormones-peptides-skin/home/trailer.mp4
+    poster: assets/hormones-peptides-skin/home/trailer-poster.jpg
+    label:
+      en: Hormones and Peptides for Skin, the course trailer
+      ar-AE: الهرمونات والببتيدات للجلد، المقطع الترويجي للدورة
+    disclosure:
+      en: Presented by a digital avatar (AI-generated presenter and voice).
+      ar-AE: يُقدَّم عبر مجسّد رقمي (مقدّم وصوت مُنشآن بالذكاء الاصطناعي). الفيلم
+        المرجعي بالإنجليزية؛ النسخة العربية قيد الإنتاج.
   practice:
-    kicker: { en: "In your practice" }
-    title: { en: "Turn the questions into a service." }
-    body: { en: "Copper peptides, collagen, tanning shots, growth-hormone boosters: most reach your clinic before any evidence does. Be the clinician with real answers, and build a skin service you can stand behind." }
+    kicker:
+      en: In your practice
+      ar-AE: في ممارستك السريرية
+    title:
+      en: Turn the questions into a service.
+      ar-AE: حوّل التساؤلات إلى خدمة سريرية.
+    body:
+      en: "Copper peptides, collagen, tanning shots, growth-hormone boosters: most
+        reach your clinic before any evidence does. Be the clinician with real
+        answers, and build a skin service you can stand behind."
+      ar-AE: "ببتيدات النحاس، الكولاجين، إبر التسمير، محفزات هرمون النمو: معظمها يصل
+        إلى عيادتك قبل وصول أي أدلة سريرية. كن الممارس السريري الذي يمتلك إجابات
+        حقيقية، وابنِ خدمة للعناية بالجلد يمكنك الاعتماد عليها بثقة."
     points:
-      - { en: "Tell a randomized trial from a brochure" }
-      - { en: "Spot the red flags on a certificate of analysis" }
-      - { en: "Know what is approved in your country, and when to refer" }
-    image: { src: "assets/hormones-peptides-skin/home/practice-skin.jpg", alt: { en: "Close-up of healthy, glowing skin" } }
-  coursesTitle: { en: "The course" }
-  coursesNote: { en: "More peptide courses are on the way." }
+      - en: Tell a randomized trial from a brochure
+        ar-AE: ميّز بين التجربة العشوائية والمطوية الدعائية
+      - en: Spot the red flags on a certificate of analysis
+        ar-AE: رصد العلامات التحذيرية في شهادة التحليل المخبري
+      - en: Know what is approved in your country, and when to refer
+        ar-AE: اعرف ما هو معتمد في بلدك، ومتى يتعين الإحالة
+    image:
+      src: /assets/hormones-peptides-skin/ui/skin-texture.jpg
+      alt:
+        en: Editorial close-up of natural skin texture
+        ar: صورة توضيحية مقربة لملمس الجلد الطبيعي
+  coursesTitle:
+    en: The course
+    ar-AE: الدورة التدريبية
+  coursesNote:
+    en: More peptide courses are on the way.
+    ar-AE: المزيد من دورات الببتيدات قيد الإعداد.
   glimpses:
-    title: { en: "Learn by doing." }
+    title:
+      en: Learn by doing.
+      ar-AE: تعلّم عبر التطبيق العملي.
     items:
-      - { src: "assets/hormones-peptides-skin/home/inside-film.jpg", caption: { en: "A short film opens every module" } }
-      - { src: "assets/hormones-peptides-skin/home/inside-trial.jpg", caption: { en: "Sort the evidence, one tap at a time" } }
-      - { src: "assets/hormones-peptides-skin/home/inside-case.jpg", caption: { en: "Work through clinic cases" } }
-      - { src: "assets/hormones-peptides-skin/home/inside-certificate.jpg", caption: { en: "Audit a certificate of analysis" } }
-      - { src: "assets/hormones-peptides-skin/home/inside-country.jpg", caption: { en: "Your country's rules, dated" } }
+      - src: assets/hormones-peptides-skin/home/en/inside-film.png
+        srcByLocale:
+          ar: assets/hormones-peptides-skin/home/ar/inside-practice.png
+        caption:
+          en: A short film opens every module
+          ar: اختبر فهمك بخطوات قصيرة
+      - src: assets/hormones-peptides-skin/home/en/inside-science.png
+        srcByLocale:
+          ar: assets/hormones-peptides-skin/home/ar/inside-science.png
+        caption:
+          en: Explore the science through illustrations
+          ar: استكشف العلم من خلال الرسوم التوضيحية
+      - src: assets/hormones-peptides-skin/home/en/inside-trial.png
+        srcByLocale:
+          ar: assets/hormones-peptides-skin/home/ar/inside-trial.png
+        caption:
+          en: Sort the evidence, one tap at a time
+          ar: صنّف الأدلة بنقرة واحدة في كل خطوة
+    captureManifest: presentation-inputs/home-glimpses-bilingual.json
   trust:
-    title: { en: "Built on evidence. Reviewed by a physician." }
+    title:
+      en: Built on evidence. Reviewed by a physician.
+      ar-AE: محتوى يستند إلى الأدلة — النسخة العربية قيد المراجعة
+      ar: محتوى يستند إلى الأدلة وحدودها
     items:
-      - title: { en: "Every claim graded" }
-        body: { en: "Each statement carries its evidence grade and its source." }
-      - title: { en: "Your country first" }
-        body: { en: "Regulatory status for six jurisdictions, labelled and dated." }
-      - title: { en: "No dosing" }
-        body: { en: "Evidence, regulation and next steps. Never doses or product sourcing." }
-      - title: { en: "Ask the course" }
-        body: { en: "A tutor answers from the course and its sources, and says when a question is outside them." }
+      - title:
+          en: Every claim graded
+          ar-AE: تقييم درجة الأدلة لكل ادعاء
+        body:
+          en: Each statement carries its evidence grade and its source.
+          ar-AE: تحمل كل عبارة درجة الأدلة الخاصة بها ومصدرها.
+      - title:
+          en: Your country first
+          ar-AE: بلدك أولاً
+        body:
+          en: Regulatory status for six jurisdictions, labelled and dated.
+          ar-AE: الوضع التنظيمي لستة نطاقات قضائية، مصنف ومؤرخ.
+      - title:
+          en: No dosing
+          ar-AE: لا تتضمن جرعات دوائية
+        body:
+          en: Evidence, regulation and next steps. Never doses or product sourcing.
+          ar-AE: الأدلة، اللوائح التنظيمية، والخطوات التالية؛ دون التطرق أبداً للجرعات أو
+            توريد المنتجات.
+      - title:
+          en: Ask the course
+          ar-AE: وجّه أسئلتك لمحتوى الدورة
+        body:
+          en: A tutor answers from the course and its sources, and says when a question is
+            outside them.
+          ar-AE: مدرّس يجيب استناداً إلى الدورة ومصادرها، ويوضح متى يكون السؤال خارج
+            نطاقهما.
   reviewers:
-    - name: "Fady Hannah-Shmouni, MD FRCPC"
-      role: { en: "Medical review · author of the Hormonaly pocket guides on aesthetic and regenerative endocrinology and on peptides" }
+    - name: Fady Hannah-Shmouni, MD FRCPC
+      role:
+        en: Medical review · author of the Hormonaly pocket guides on aesthetic and
+          regenerative endocrinology and on peptides
+        ar-AE: "مراجع النسخة العربية: فادي حنّا شمعوني — المراجعة قيد الانتظار"
+  faculty:
+    title:
+      en: Faculty & advisory
+      ar-AE: هيئة التدريس والمجلس الاستشاري
+    items:
+      - name: Fady Hannah-Shmouni, MD FRCPC
+        designation:
+          en: Faculty · Medical review
+          ar-AE: هيئة التدريس · المراجعة الطبية
+        role:
+          en: Endocrinologist and biochemical geneticist. Author of the Hormonaly pocket
+            guides.
+          ar-AE: اختصاصي الغدد الصماء والوراثة الكيميائية الحيوية، ومؤلف أدلة هورمونالي
+            المرجعية المختصرة.
+        image: assets/faculty/fady-hannah-shmouni-wide.png
+      - name: Dominik Thor
+        designation:
+          en: Advisory
+          ar-AE: المجلس الاستشاري
+        image: assets/faculty/dominik-thor-wide.png
+      - name: Omar Saleem
+        designation:
+          en: Advisory
+          ar-AE: المجلس الاستشاري
+        image: assets/faculty/omar-saleem-wide.png
   faq:
-    - q: { en: "Does the course give doses or protocols?" }
-      a: { en: "No. It teaches the evidence, the regulatory status and what each role can safely do next. Dosing and product sourcing are excluded by design." }
-    - q: { en: "Which countries does it cover?" }
-      a: { en: "The United States, the United Kingdom, the European Union, Portugal, Brazil and the United Arab Emirates. Each statement names its country and date, and your own country comes first." }
-    - q: { en: "Is there CME or CE credit?" }
-      a: { en: "The course is accredited by GCLS, the Geneva College of Longevity Sciences. CME or CE credit is not offered at this time." }
-    - q: { en: "What do I get at the end?" }
-      a: { en: "Pass the final check with 80% or more to receive a certificate of completion for this GCLS-accredited course, with a public verification code." }
+    - q:
+        en: Does the course give doses or protocols?
+        ar-AE: هل تقدم الدورة جرعات أو بروتوكولات؟
+      a:
+        en: No. It teaches the evidence, the regulatory status and what each role can
+          safely do next. Dosing and product sourcing are excluded by design.
+        ar-AE: كلا. إنها تشرح الأدلة، والوضع التنظيمي، وما يمكن لكل دور مهني القيام به
+          بأمان كخطوة تالية. وتُستثنى الجرعات وتوريد المنتجات عن قصد وبشكل
+          أساسي.
+    - q:
+        en: Which countries does it cover?
+        ar-AE: ما هي الدول التي تغطيها الدورة؟
+      a:
+        en: The United States, the United Kingdom, the European Union, Portugal, Brazil
+          and the United Arab Emirates. Each statement names its country and
+          date, and your own country comes first.
+        ar-AE: الولايات المتحدة، والمملكة المتحدة، والاتحاد الأوروبي، والبرتغال،
+          والبرازيل، والإمارات العربية المتحدة. تحدد كل عبارة بلدها وتاريخها،
+          ويأتي بلدك أولاً.
+    - q:
+        en: Is there CME or CE credit?
+        ar-AE: هل تمنح الدورة ساعات معتمدة للتعليم الطبي المستمر (CME) أو التعليم
+          المستمر (CE)؟
+      a:
+        en: The course is accredited by GCLS, the Geneva College of Longevity Science.
+          CME or CE credit is not offered at this time.
+        ar-AE: النسخة العربية قيد المراجعة، ولم يُعتمد لها رصيد تعليم طبي أو مهني مستمر.
+    - q:
+        en: What do I get at the end?
+        ar-AE: ما الذي سأحصل عليه عند إتمام الدورة؟
+      a:
+        en: Pass the final check with 80% or more to receive a certificate of completion
+          for this GCLS-accredited course, with a public verification code.
+        ar-AE: اجتز التقييم النهائي بنسبة 80% أو أكثر لتنال شهادة إتمام لهذه الدورة
+          المعتمدة من GCLS، مع رمز تحقق متاح للعامة.
   certificate:
-    title: { en: "Earn a GCLS-accredited certificate." }
-    body: { en: "Finish the seven modules and pass the final check to receive your certificate of completion." }
+    title:
+      en: Certificate of completion
+      ar-AE: شهادة إتمام الدورة
+    body:
+      en: Finish the seven modules and pass the final check to receive your
+        certificate of completion.
+      ar-AE: تخضع النسخة العربية للمراجعة قبل إتاحتها للمتعلمين وإصدار شهاداتها.
+      ar: شهادة إتمام من Hormonaly Academy عند استيفاء متطلبات الدورة واجتياز التقييم
+        النهائي.
+    image:
+      src: /assets/hormones-peptides-skin/ui/evidence-desk.jpg
+      alt:
+        en: Notebook and magnifying glass on an evidence-review desk
+        ar: دفتر وعدسة مكبرة على مكتب لمراجعة الأدلة
   creators:
-    kicker: { en: "For physician creators" }
-    title: { en: "Launch your own course with Perceptors." }
-    body: { en: "Physicians, educators and creators with something clinicians should learn: we turn your expertise into an evidence-checked course and academy like this one." }
+    kicker:
+      en: For physician creators
+      ar-AE: للأطباء منشئي المحتوى التدريبي
+    title:
+      en: Launch your own course with Perceptors.
+      ar-AE: أطلق دورتك الخاصة بالتعاون مع Perceptors.
+    body:
+      en: "Physicians, educators and creators with something clinicians should learn:
+        we turn your expertise into an evidence-checked course and academy like
+        this one."
+      ar-AE: "للأطباء، والمعلمين، وصناع المحتوى الذين يمتلكون معرفة يحتاجها الممارسون
+        السريريون: نحوّل خبرتك إلى دورة وأكاديمية مدققة الأدلة كهذه."
     action:
-      label: { en: "Talk to us" }
-      href: "https://www.perceptors.ai/contact?prompt=I%20want%20to%20launch%20my%20own%20course%20with%20Perceptors#general-inquiries"
-  ctaTitle: { en: "Start with Module 1 today." }
-  disclaimer: { en: "Educational content for licensed clinicians. It does not replace clinical judgement, specialist input or formal guidelines." }
-
+      label:
+        en: Talk to us
+        ar-AE: تحدث إلينا
+      href: https://www.perceptors.ai/contact?prompt=I%20want%20to%20launch%20my%20own%20course%20with%20Perceptors#general-inquiries
+  ctaTitle:
+    en: Start with Module 1 today.
+    ar-AE: ابدأ بالوحدة 1 اليوم.
+  disclaimer:
+    en: Educational content for licensed clinicians. It does not replace clinical
+      judgement, specialist input or formal guidelines.
+    ar-AE: محتوى تعليمي مخصص للممارسين السريريين المرخصين. ولا يُغني عن التقدير
+      السريري، أو المشورة التخصصية، أو الإرشادات التوجيهية الرسمية.
 catalog:
-  # The academy's first catalog entry is the course the runtime serves. The 2026-09-02 intake placeholder
-  # (packages/aesthetic-regenerative-endocrinology.json, never authored) was removed 2026-09-24 so the catalog gate passes;
-  # re-add it when that package exists.
-  - course: packages/hormones-peptides-skin.json          # Hormones and Peptides for Skin
-    audience: { en: "Physicians, nurse practitioners and physician associates, nurses and other licensed providers" }
-    blurb: { en: "The hormones and peptides your patients ask about for skin, hair and the ageing face: what is shown in people, what is only mechanism, and what the rules allow in the US, the UK, the EU, Portugal, Brazil and the UAE." }
+  - course: packages/hormones-peptides-skin.ar-AE.json
+    audience:
+      en: Physicians, nurse practitioners and physician associates, nurses and other
+        licensed providers
+      ar-AE: الأطباء، والممرضون الممارسون، ومساعدو الأطباء، وممارسو التمريض، وغيرهم من
+        مقدمي الرعاية المرخصين
+    blurb:
+      en: "The hormones and peptides your patients ask about for skin, hair and the
+        ageing face: what is shown in people, what is only mechanism, and what
+        the rules allow in the US, the UK, the EU, Portugal, Brazil and the
+        UAE."
+      ar-AE: "الهرمونات والببتيدات التي يسأل عنها مرضاك لصحة الجلد والشعر والوجه
+        المتقدم في السن: ما أثبتته الأدلة البشرية، وما يقتصر على آلية العمل، وما
+        تسمح به اللوائح في الولايات المتحدة، والمملكة المتحدة، والاتحاد
+        الأوروبي، والبرتغال، والبرازيل، والإمارات العربية المتحدة."
     status: draft
     series: regenerative-endocrinology
     order: 1
-    # GCLS accreditation, relayed by Omar 2026-09-25: "they gave me verbal that they'll be accredited, but they'll send over the email
-    # afterwards … mention that it is GCLS-accredited". The certificate stays academy-issued until the written confirmation and an
-    # accreditation id arrive (package governance.accreditation), then it becomes GCLS-issued.
-    accreditation: { body: "GCLS", name: "Geneva College of Longevity Sciences", status: accredited, logo: "/gcls/gcls-logo.png",
-      basis: "Verbal confirmation from GCLS to Omar Saleem (product owner), 2026-09-25; written confirmation to follow" }
-    entitlement: { type: paid, price: { amount: 199, currency: usd } }   # Omar 2026-09-25: "let's price it at $199" (Stripe Checkout; server/checkout.ts); live 2026-09-26 on the DrVibe, Inc. account, GCLS webhook guard deployed first
-    certificate: { access: included }
-    final: { by: "Omar Saleem (product owner)", date: "2026-09-25", revision: "academy-hormonaly-00009-6jl · 1.0.0-rc.4, walked end to end on hormonaly.perceptors.ai" }   # Omar: "it's final, go ahead"
-    # 1.0.1 (2026-09-25): the androgen-secreting tumour figures removed from m2-p15/m2-p16 on Omar's instruction, Fady approving ("remove the numbers, fady's fine with that").
-modules: { fieldbook: true, promptLab: false, webinars: false, blog: false, peers: false, achievements: false, studio: false }   # studio: operator demo view off for learners
-# Learner experience (runtime clarity pass, 2026-09-25 — for Omar's review). The roles are the course's own audience levels
-# (package metadata.variants.audienceLevel: prescriber · clinical-staff · advisor, the "How will you use this course?" moments):
-# onboarding and Profile offer them, and the learner's choice pre-answers that question in modules 1 and 4. Labels follow the
-# runtime's audience-level names; descriptions follow the course's own role options.
+    accreditation:
+      body: GCLS
+      name: Geneva College of Longevity Science
+      status: accredited
+      logo: /gcls/gcls-logo.png
+      basis: Verbal confirmation from GCLS to Omar Saleem (product owner), 2026-09-25;
+        written confirmation to follow
+    entitlement:
+      type: paid
+      price:
+        amount: 199
+        currency: usd
+      promotion:
+        id: october-2026
+        amount: 0
+        startsAt: 2026-10-01T00:00:00-07:00
+        endsAt: 2026-11-01T00:00:00-07:00
+        label:
+          en: October offer · free through October 31
+          es: Oferta de octubre · gratis hasta el 31 de octubre
+          pt: Oferta de outubro · grátis até 31 de outubro
+          ar-AE: عرض أكتوبر · مجانًا حتى 31 أكتوبر
+        banner:
+          headline:
+            en: Free for October
+            es: Gratis en octubre
+            pt: Grátis em outubro
+            ar-AE: مجانًا خلال أكتوبر
+          detail:
+            en: Limited-time offer · Ends October 31
+            es: Oferta por tiempo limitado · Hasta el 31 de octubre
+            pt: Oferta por tempo limitado · Até 31 de outubro
+            ar-AE: عرض لفترة محدودة · ينتهي في 31 أكتوبر
+          action:
+            en: Enroll free
+            es: Inscríbete gratis
+            pt: Inscreva-se grátis
+            ar-AE: سجّل مجانًا
+    certificate:
+      access: included
+    final:
+      by: Omar Saleem (product owner)
+      date: 2026-09-25
+      revision: academy-hormonaly-00009-6jl · 1.0.0-rc.4, walked end to end on
+        hormonaly.perceptors.ai
+modules:
+  fieldbook: true
+  promptLab: false
+  webinars: false
+  blog: false
+  peers: false
+  achievements: false
+  studio: false
 experience:
+  voiceNotes: false
   defaultRole: prescriber
   roles:
     - id: prescriber
-      label: { en: "Prescriber" }
-      description: { en: "Physician, NP or PA" }
+      label:
+        en: Prescriber
+        ar-AE: الممارس المخوّل بالوصف الدوائي
+      description:
+        en: Physician, NP or PA
+        ar-AE: طبيب، أو ممرض ممارس (NP)، أو مساعد طبيب (PA)
     - id: clinical-staff
-      label: { en: "Clinical staff" }
-      description: { en: "RN, aesthetic nurse or injector" }
+      label:
+        en: Clinical staff
+        ar-AE: الكادر السريري
+      description:
+        en: RN, aesthetic nurse or injector
+        ar-AE: ممرض قانوني (RN)، أو ممرض تجميلي، أو ممارس حقن تجميلي
     - id: advisor
-      label: { en: "Advisor" }
-      description: { en: "Pharmacist, ND or allied professional" }
-  practicePrompts: false   # clinicians get the role notes; no "how this looks in my week" expanders or wellness tails from the Guide
+      label:
+        en: Advisor
+        ar-AE: المستشار السريري
+      description:
+        en: Pharmacist, ND or allied professional
+        ar-AE: صيدلي، أو طبيب علاج طبيعي (ND)، أو ممارس رعاية صحية مساندة
+  practicePrompts: false
   library:
-    sourceNotes: false     # citation notes in this package are internal reading records (hashes, corpus paths, retrieval logs)
-    evidencePolicy: { en: "Mechanism, human evidence, regulatory status and open questions are kept apart. The course gives no doses and no product sourcing." }
-# Today (runtime, 2026-09-26; Omar: "why is the today page so empty feeling? … a rotating quote about the skin with a generated
-# nice image"). A line of the day from the course, rotating daily, with a picture; "See the moment" opens the moment it comes from.
-# Approved text only: `text` is the moment's own headline, `detail` its own sentences, verbatim (tools/qa/signature-audit.mjs checks
-# both against the package). Pictures: perceptor-foundry tools/images/today-lines.mjs (Nano Banana 2 Lite, photographic, no text,
-# no faces); `prompt` never reaches the app.
+    sourceNotes: false
+    evidencePolicy:
+      en: Mechanism, human evidence, regulatory status and open questions are kept
+        apart. The course gives no doses and no product sourcing.
+      ar-AE: يتم الفصل بدقة بين آلية العمل، والأدلة البشرية، والوضع التنظيمي، والمسائل
+        غير المحسومة. لا تقدم الدورة أي جرعات أو معلومات لتوريد المنتجات.
+  density: compact
+  moduleImages:
+    "1": /assets/hormones-peptides-skin/ui/skin-texture.jpg
+    "4": /assets/hormones-peptides-skin/ui/collagen-fibers.jpg
+    "7": /assets/hormones-peptides-skin/ui/evidence-desk.jpg
 today:
   lines:
-    label: { en: "Line of the day" }
+    label:
+      en: Line of the day
+      ar-AE: عبارة اليوم
     items:
       - from: m1-p01
-        text: { en: "The skin makes its own hormones." }
-        detail: { en: "Skin senses hormones from the blood, makes several of its own, and ages in ways that change both." }
-        image: { src: "assets/hormones-peptides-skin/today/m1-p01.jpg", alt: { en: "Warm morning light across the skin of a forearm" },
-          prompt: "Macro of the smooth skin on the inside of a forearm catching warm morning light, fine vellus hairs glowing along the edge." }
+        text:
+          en: The skin makes its own hormones.
+          ar-AE: يُنتج الجلد هرموناته الخاصة.
+        detail:
+          en: Skin senses hormones from the blood, makes several of its own, and ages in
+            ways that change both.
+          ar-AE: يستشعر الجلد الهرمونات من الدم، ويُصنّع العديد منها بنفسه، ويشيخ بطرق
+            تُغيّر كليهما.
+        image:
+          src: /assets/hormones-peptides-skin/ui/skin-texture.jpg
+          alt:
+            en: Editorial close-up of natural skin texture
+            ar: صورة توضيحية مقربة لملمس الجلد الطبيعي
       - from: m2-p02
-        text: { en: "The skin regenerates its own cortisol." }
-        detail: { en: "Keratinocytes and dermal fibroblasts also carry 11β-HSD1, the enzyme that turns inactive cortisone back into active cortisol inside the cell." }
-        image: { src: "assets/hormones-peptides-skin/today/m2-p02.jpg", alt: { en: "Sunlight falling across the skin of a bare shoulder" },
-          prompt: "Late sunlight falling across the skin of a bare shoulder blade, a soft glow over fine texture, the light fading into a warm gradient." }
+        text:
+          en: The skin regenerates its own cortisol.
+          ar-AE: يُعيد الجلد تجديد الكورتيزول الخاص به.
+        detail:
+          en: Keratinocytes and dermal fibroblasts also carry 11β-HSD1, the enzyme that
+            turns inactive cortisone back into active cortisol inside the cell.
+          ar-AE: تحمل الخلايا الكيراتينية والخلايا الليفية في الأدمة أيضاً إنزيم 11β-HSD1،
+            وهو الإنزيم الذي يُحوّل الكورتيزون غير النشط مرة أخرى إلى كورتيزول
+            نشط داخل الخلية.
+        image:
+          src: assets/hormones-peptides-skin/today/m2-p02.jpg
+          alt:
+            en: Sunlight falling across the skin of a bare shoulder
+            ar-AE: ضوء الشمس يسقط على جلد كتف عارٍ
+          prompt: Late sunlight falling across the skin of a bare shoulder blade, a soft
+            glow over fine texture, the light fading into a warm gradient.
       - from: m3-p05
-        text: { en: "Fifteen years on the same collagen." }
-        detail: { en: "Human skin collagen turns over slowly; tissue analysis puts its half-life at about 15 years." }
-        image: { src: "assets/hormones-peptides-skin/today/m3-p05.jpg", alt: { en: "Close-up of softly creased linen threads" },
-          prompt: "Close-up of finely woven natural linen threads, softly creased and slightly worn, in warm side light: long-lived fibres." }
+        text:
+          en: Fifteen years on the same collagen.
+          ar-AE: خمسة عشر عاماً على الكولاجين ذاته.
+        detail:
+          en: Human skin collagen turns over slowly; tissue analysis puts its half-life at
+            about 15 years.
+          ar-AE: يتجدد كولاجين جلد الإنسان ببطء؛ ويُقدّر التحليل النسيجي عمر النصف له بنحو
+            15 عاماً.
+        image:
+          src: assets/hormones-peptides-skin/today/m3-p05.jpg
+          alt:
+            en: Close-up of softly creased linen threads
+            ar-AE: لقطة مقربة لخيوط كتان متجعدة بنعومة
+          prompt: "Close-up of finely woven natural linen threads, softly creased and
+            slightly worn, in warm side light: long-lived fibres."
       - from: m4-p01
-        text: { en: "The peptide your patient already bought." }
-        detail: { en: "Most skin peptides reach your clinic before any evidence does." }
-        image: { src: "assets/hormones-peptides-skin/today/m4-p01.jpg", alt: { en: "A small unlabelled serum bottle on a stone shelf" },
-          prompt: "A small clear glass dropper bottle of serum with no label, standing on a travertine shelf beside a folded cotton towel, soft window light." }
+        text:
+          en: The peptide your patient already bought.
+          ar-AE: الببتيد الذي اشتراه مريضك بالفعل.
+        detail:
+          en: Most skin peptides reach your clinic before any evidence does.
+          ar-AE: تصل معظم ببتيدات الجلد إلى عيادتك قبل وصول أي أدلة.
+        image:
+          src: assets/hormones-peptides-skin/today/m4-p01.jpg
+          alt:
+            en: A small unlabelled serum bottle on a stone shelf
+            ar-AE: زجاجة مصل صغيرة بلا ملصق تعريفي على رف حجري
+          prompt: A small clear glass dropper bottle of serum with no label, standing on a
+            travertine shelf beside a folded cotton towel, soft window light.
       - from: m5-p02
-        text: { en: "A follicle that runs its own hormones." }
-        detail: { en: "Human scalp hair follicles kept alive in the laboratory answer corticotropin-releasing hormone by making ACTH and α-MSH and secreting cortisol, with a feedback loop like the adrenal axis." }
-        image: { src: "assets/hormones-peptides-skin/today/m5-p02.jpg", alt: { en: "Backlit fine hairs on the skin of an arm" },
-          prompt: "Fine hairs on the skin of a forearm, backlit so each hair glows like a filament against a soft cream background." }
+        text:
+          en: A follicle that runs its own hormones.
+          ar-AE: جريب يُدير هرموناته بنفسه.
+        detail:
+          en: Human scalp hair follicles kept alive in the laboratory answer
+            corticotropin-releasing hormone by making ACTH and α-MSH and
+            secreting cortisol, with a feedback loop like the adrenal axis.
+          ar-AE: تستجيب جريبات شعر فروة رأس الإنسان المحفوظة حية في المختبر للهرمون المطلق
+            لموجهة القشرة عن طريق تصنيع ACTH وα-MSH وإفراز الكورتيزول، مع وجود
+            حلقة تغذية راجعة مماثلة للمحور الكظري.
+        image:
+          src: assets/hormones-peptides-skin/today/m5-p02.jpg
+          alt:
+            en: Backlit fine hairs on the skin of an arm
+            ar-AE: شعيرات دقيقة مضاءة من الخلف على جلد الذراع
+          prompt: Fine hairs on the skin of a forearm, backlit so each hair glows like a
+            filament against a soft cream background.
       - from: m6-p02
-        text: { en: "Two hormones, two layers of skin." }
-        detail: { en: "Growth hormone acts mostly in the dermis. IGF-1, made locally by fibroblasts and melanocytes, reaches keratinocytes through the IGF-1 receptor and makes them divide." }
-        image: { src: "assets/hormones-peptides-skin/today/m6-p02.jpg", alt: { en: "Two layered sheets of translucent silk, backlit" },
-          prompt: "Two sheets of translucent silk in cream and blush, one laid over the other and backlit so both layers glow." }
+        text:
+          en: Two hormones, two layers of skin.
+          ar-AE: هرمونان، وطبقتان من الجلد.
+        detail:
+          en: Growth hormone acts mostly in the dermis. IGF-1, made locally by fibroblasts
+            and melanocytes, reaches keratinocytes through the IGF-1 receptor
+            and makes them divide.
+          ar-AE: يعمل هرمون النمو بشكل أساسي في الأدمة. بينما يصل IGF-1، الذي يُصنّع
+            محلياً بواسطة الخلايا الليفية والخلايا الصباغية، إلى الخلايا
+            الكيراتينية عبر مستقبل IGF-1 ويحثها على الانقسام.
+        image:
+          src: assets/hormones-peptides-skin/today/m6-p02.jpg
+          alt:
+            en: Two layered sheets of translucent silk, backlit
+            ar-AE: طبقتان من الحرير شبه الشفاف، مضاءتان من الخلف
+          prompt: Two sheets of translucent silk in cream and blush, one laid over the
+            other and backlit so both layers glow.
       - from: m7-p13
-        text: { en: "Research use only is a label, and never a route." }
-        image: { src: "assets/hormones-peptides-skin/today/m7-p13.jpg", alt: { en: "An unlabelled glass vial on a clean laboratory bench" },
-          prompt: "A single small glass vial with a plain blank white label on a clean laboratory bench, cool clinical light, calm empty space around it." }
+        text:
+          en: Research use only is a label, and never a route.
+          ar-AE: عبارة «للاستخدام البحثي فقط» هي ملصق تصنيفي وليست مساراً للإعطاء على
+            الإطلاق.
+        image:
+          src: /assets/hormones-peptides-skin/ui/evidence-desk.jpg
+          alt:
+            en: A quiet workspace for reviewing evidence
+            ar: مساحة عمل هادئة لمراجعة الأدلة
       - from: m1-p13
-        text: { en: "Cells that stop dividing and keep talking." }
-        detail: { en: "A senescent cell has stopped dividing for good but stays metabolically active, releasing cytokines, matrix-degrading enzymes and growth factors: the senescence-associated secretory phenotype, or SASP." }
-        image: { src: "assets/hormones-peptides-skin/today/m1-p13.jpg", alt: { en: "Soft luminous spheres clustered like cells" },
-          prompt: "Dreamlike macro of soft luminous translucent spheres clustered like cells, lit in amber with faint violet shadows, like a painterly micrograph." }
+        text:
+          en: Cells that stop dividing and keep talking.
+          ar-AE: خلايا تتوقف عن الانقسام وتستمر في التواصل.
+        detail:
+          en: "A senescent cell has stopped dividing for good but stays metabolically
+            active, releasing cytokines, matrix-degrading enzymes and growth
+            factors: the senescence-associated secretory phenotype, or SASP."
+          ar-AE: "تتوقف الخلية الهرمة عن الانقسام نهائياً لكنها تظل نشطة استقلابياً، حيث
+            تفرز السيتوكينات والإنزيمات المُحللة للمطرس وعوامل النمو: وهو ما
+            يُعرف بالنمط الظاهري الإفرازي المرتبط بالشيخوخة الخلوية (SASP)."
+        image:
+          src: assets/hormones-peptides-skin/today/m1-p13.jpg
+          alt:
+            en: Soft luminous spheres clustered like cells
+            ar-AE: كريات مضيئة ناعمة متجمعة كالخلايا
+          prompt: Dreamlike macro of soft luminous translucent spheres clustered like
+            cells, lit in amber with faint violet shadows, like a painterly
+            micrograph.
       - from: m2-p01
-        text: { en: "The face that might be a diagnosis." }
-        detail: { en: "Most skin changes you see are ageing or lifestyle. A few are the first visible sign of endocrine disease." }
-        image: { src: "assets/hormones-peptides-skin/today/m2-p01.jpg", alt: { en: "A round mirror in a quiet clinic room" },
-          prompt: "A round mirror on a pale plaster wall reflecting only soft daylight and a window, a calm and empty examination room." }
+        text:
+          en: The face that might be a diagnosis.
+          ar-AE: الوجه الذي قد يمثل تشخيصاً.
+        detail:
+          en: Most skin changes you see are ageing or lifestyle. A few are the first
+            visible sign of endocrine disease.
+          ar-AE: معظم التغيرات الجلدية التي تراها تعود إلى التقدم في العمر أو نمط الحياة.
+            وقليل منها هو أول علامة مرئية لمرض في الغدد الصماء.
+        image:
+          src: assets/hormones-peptides-skin/today/m2-p01.jpg
+          alt:
+            en: A round mirror in a quiet clinic room
+            ar-AE: مرآة مستديرة في غرفة عيادة هادئة
+          prompt: A round mirror on a pale plaster wall reflecting only soft daylight and
+            a window, a calm and empty examination room.
       - from: m3-p04
-        text: { en: "Sugar that sticks to collagen." }
-        detail: { en: "Glycation is a slow, non-enzymatic reaction. Reducing sugars attach to protein amino groups, rearrange into Amadori products and end as advanced glycation end products, or AGEs." }
-        image: { src: "assets/hormones-peptides-skin/today/m3-p04.jpg", alt: { en: "Sugar crystals scattered on cream silk" },
-          prompt: "Sugar crystals scattered over smooth cream silk, macro, warm side light making the crystals sparkle." }
+        text:
+          en: Sugar that sticks to collagen.
+          ar-AE: السكر الذي يلتصق بالكولاجين.
+        detail:
+          en: Glycation is a slow, non-enzymatic reaction. Reducing sugars attach to
+            protein amino groups, rearrange into Amadori products and end as
+            advanced glycation end products, or AGEs.
+          ar-AE: التسكير تفاعل بطيء وغير إنزيمي؛ حيث ترتبط السكريات المختزلة بالمجموعات
+            الأمينية البروتينية، وتُعيد ترتيب نفسها لتشكل نواتج أمادوري، وتنتهي
+            بإنتاج نواتج التسكير المتقدمة، أو AGEs.
+        image:
+          src: assets/hormones-peptides-skin/today/m3-p04.jpg
+          alt:
+            en: Sugar crystals scattered on cream silk
+            ar-AE: بلورات سكر متناثرة على حرير كريمي اللون
+          prompt: Sugar crystals scattered over smooth cream silk, macro, warm side light
+            making the crystals sparkle.
       - from: m6-p05
-        text: { en: "Deficiency is a diagnosis. Decline is ageing." }
-        image: { src: "assets/hormones-peptides-skin/today/m6-p05.jpg", alt: { en: "Late light moving across a plaster wall" },
-          prompt: "The shadow of a window frame falling across a warm plaster wall in late-afternoon light, a quiet sense of time passing." }
+        text:
+          en: Deficiency is a diagnosis. Decline is ageing.
+          ar-AE: العوز تشخيص. والتراجع شيخوخة.
+        image:
+          src: assets/hormones-peptides-skin/today/m6-p05.jpg
+          alt:
+            en: Late light moving across a plaster wall
+            ar-AE: ضوء الأصيل يتحرك عبر جدار جصي
+          prompt: The shadow of a window frame falling across a warm plaster wall in
+            late-afternoon light, a quiet sense of time passing.
       - from: m1-p06
-        text: { en: "Read the skin before the serum." }
-        detail: { en: "The Aesthetic & Regenerative Endocrinology guide treats the aesthetic exam as a systemic screen." }
-        image: { src: "assets/hormones-peptides-skin/today/m1-p06.jpg", alt: { en: "A hand holding a magnifying loupe in window light" },
-          prompt: "A hand in a clean white sleeve holding a small magnifying loupe in soft window light; a serum bottle stands out of focus in the background." }
+        text:
+          en: Read the skin before the serum.
+          ar-AE: اقرأ الجلد قبل المصل.
+        detail:
+          en: The Aesthetic & Regenerative Endocrinology guide treats the aesthetic exam
+            as a systemic screen.
+          ar-AE: يتعامل دليل طب الغدد الصماء التجميلي والتجديدي مع الفحص التجميلي بوصفه
+            مسحاً جهازياً.
+        image:
+          src: assets/hormones-peptides-skin/today/m1-p06.jpg
+          alt:
+            en: A hand holding a magnifying loupe in window light
+            ar-AE: يد تمسك بعدسة مكبرة في ضوء النافذة
+          prompt: A hand in a clean white sleeve holding a small magnifying loupe in soft
+            window light; a serum bottle stands out of focus in the background.
       - from: m2-p13
-        text: { en: "Some syndromes show on the skin first." }
-        detail: { en: "A handful of inherited endocrine syndromes appear on the skin before the glands declare themselves." }
-        image: { src: "assets/hormones-peptides-skin/today/m2-p13.jpg", alt: { en: "Raking light across the skin of an upper arm" },
-          prompt: "Raking early light across the skin of an upper arm, revealing its fine topography like a landscape at dawn." }
+        text:
+          en: Some syndromes show on the skin first.
+          ar-AE: تظهر بعض المتلازمات على الجلد أولاً.
+        detail:
+          en: A handful of inherited endocrine syndromes appear on the skin before the
+            glands declare themselves.
+          ar-AE: يظهر عدد قليل من متلازمات الغدد الصماء الوراثية على الجلد قبل أن تُفصح
+            الغدد عن عللها.
+        image:
+          src: assets/hormones-peptides-skin/today/m2-p13.jpg
+          alt:
+            en: Raking light across the skin of an upper arm
+            ar-AE: ضوء مائل ينساب عبر جلد أعلى الذراع
+          prompt: Raking early light across the skin of an upper arm, revealing its fine
+            topography like a landscape at dawn.
       - from: m3-p02
-        text: { en: "The skin keeps its own fat." }
-        detail: { en: "Beneath the dermis lies subcutaneous fat. Within the reticular dermis itself sits a thinner layer, dermal white adipose tissue." }
-        image: { src: "assets/hormones-peptides-skin/today/m3-p02.jpg", alt: { en: "Golden droplets suspended in clear water" },
-          prompt: "Abstract macro of golden oil droplets suspended in clear water, soft warm light, gentle bokeh." }
+        text:
+          en: The skin keeps its own fat.
+          ar-AE: يحتفظ الجلد بدهونه الخاصة.
+        detail:
+          en: Beneath the dermis lies subcutaneous fat. Within the reticular dermis itself
+            sits a thinner layer, dermal white adipose tissue.
+          ar-AE: تحت الأدمة تقع الدهون تحت الجلد. وداخل الأدمة الشبكية نفسها تستقر طبقة
+            أرق، وهي النسيج الشحمي الأبيض الأدمي.
+        image:
+          src: assets/hormones-peptides-skin/today/m3-p02.jpg
+          alt:
+            en: Golden droplets suspended in clear water
+            ar-AE: قطرات ذهبية معلقة في ماء صافٍ
+          prompt: Abstract macro of golden oil droplets suspended in clear water, soft
+            warm light, gentle bokeh.
       - from: m2-p06
-        text: { en: "Reassure the many, refer the few." }
-        detail: { en: "When a patient asks about 'cortisol face', start with the drug history: steroid creams, skin-lighteners, herbal tonics and injections." }
-        image: { src: "assets/hormones-peptides-skin/today/m2-p06.jpg", alt: { en: "A quiet clinic corridor with warm light from a door" },
-          prompt: "A quiet clinic corridor at dusk, one door ajar with warm light spilling across a pale floor." }
-# Learner country (onboarding + Perfil). The course is one English edition; the country decides which regulatory note each moment
-# shows first (package blocks' metadata.variants.jurisdiction; runtime falls back to EU for member states). Omar 2026-09-25:
-# US, UK, EU, Portugal, Brazil and the UAE. Every country's notes confirmed by Fady 2026-09-25 (rc.2 packet, relayed by Omar).
+        text:
+          en: Reassure the many, refer the few.
+          ar-AE: طمئن الغالبية، وأحل القلة.
+        detail:
+          en: "When a patient asks about 'cortisol face', start with the drug history:
+            steroid creams, skin-lighteners, herbal tonics and injections."
+          ar-AE: "عندما يسأل مريض عن «وجه الكورتيزول»، ابدأ بالتاريخ الدوائي: كريمات
+            الستيرويد، ومفتحات البشرة، والمقويات العشبية، والحقن."
+        image:
+          src: assets/hormones-peptides-skin/today/m2-p06.jpg
+          alt:
+            en: A quiet clinic corridor with warm light from a door
+            ar-AE: ممر عيادة هادئ مع ضوء دافئ ينبعث من باب
+          prompt: A quiet clinic corridor at dusk, one door ajar with warm light spilling
+            across a pale floor.
 localization:
   countries:
-    - code: US
-      country: { en: "United States" }
-      centers: ["United States"]
-      edition: { en: "English" }
-      units: { en: "As reported in each cited source" }
-      approval: { en: "Regulatory notes reviewed by Fady Hannah-Shmouni, MD FRCPC" }
-      contextLine: { en: "FDA status and US compounding rules with each moment" }
-      status: demo-ready
-      learning: { locale: en, language: English, shortLabel: EN, direction: ltr, review: { en: "Medical review: Fady Hannah-Shmouni, MD FRCPC" } }
-    - code: GB
-      country: { en: "United Kingdom" }
-      centers: ["United Kingdom"]
-      edition: { en: "English" }
-      units: { en: "As reported in each cited source" }
-      approval: { en: "Regulatory notes reviewed by Fady Hannah-Shmouni, MD FRCPC" }
-      contextLine: { en: "MHRA status and UK rules with each moment" }
-      status: demo-ready
-      learning: { locale: en, language: English, shortLabel: EN, direction: ltr, review: { en: "Medical review: Fady Hannah-Shmouni, MD FRCPC" } }
-    - code: EU
-      country: { en: "Another EU country" }
-      centers: ["Another EU country"]
-      edition: { en: "English" }
-      units: { en: "As reported in each cited source" }
-      approval: { en: "Regulatory notes reviewed by Fady Hannah-Shmouni, MD FRCPC" }
-      contextLine: { en: "EMA status and EU-wide rules with each moment" }
-      status: demo-ready
-      learning: { locale: en, language: English, shortLabel: EN, direction: ltr, review: { en: "Medical review: Fady Hannah-Shmouni, MD FRCPC" } }
-    - code: PT
-      country: { en: "Portugal" }
-      centers: ["Portugal"]
-      edition: { en: "English" }
-      units: { en: "As reported in each cited source" }
-      approval: { en: "Regulatory notes reviewed by Fady Hannah-Shmouni, MD FRCPC" }
-      contextLine: { en: "INFARMED and EU status with each moment" }
-      status: demo-ready
-      learning: { locale: en, language: English, shortLabel: EN, direction: ltr, review: { en: "Medical review: Fady Hannah-Shmouni, MD FRCPC" } }
-    - code: BR
-      country: { en: "Brazil" }
-      centers: ["Brazil"]
-      edition: { en: "English" }
-      units: { en: "As reported in each cited source" }
-      approval: { en: "Regulatory notes reviewed by Fady Hannah-Shmouni, MD FRCPC" }
-      contextLine: { en: "ANVISA status and Brazilian rules with each moment" }
-      status: demo-ready
-      learning: { locale: en, language: English, shortLabel: EN, direction: ltr, review: { en: "Medical review: Fady Hannah-Shmouni, MD FRCPC" } }
     - code: AE
-      country: { en: "United Arab Emirates" }
-      centers: ["United Arab Emirates"]
-      edition: { en: "English" }
-      units: { en: "As reported in each cited source" }
-      approval: { en: "Regulatory notes reviewed by Fady Hannah-Shmouni, MD FRCPC" }
-      contextLine: { en: "UAE federal status plus Dubai and Abu Dhabi rules with each moment" }
+      country:
+        en: United Arab Emirates
+        ar-AE: الإمارات العربية المتحدة
+      centers:
+        - name: United Arab Emirates
+          labels:
+            en: United Arab Emirates
+            ar-AE: الإمارات العربية المتحدة
+      edition:
+        en: English
+        ar-AE: العربية — نسخة إماراتية قيد المراجعة
+      units:
+        en: As reported in each cited source
+        ar-AE: كما ورد في كل مصدر مُستشهد به
+      approval:
+        en: Regulatory notes reviewed by Fady Hannah-Shmouni, MD FRCPC
+        ar-AE: "المراجعة العربية والطبية: فادي حنّا شمعوني — بانتظار الاعتماد"
+      contextLine:
+        en: UAE federal status plus Dubai and Abu Dhabi rules with each moment
+        ar-AE: الوضع الاتحادي في دولة الإمارات العربية المتحدة بالإضافة إلى قواعد دبي
+          وأبوظبي مع كل حالة
       status: demo-ready
-      learning: { locale: en, language: English, shortLabel: EN, direction: ltr, review: { en: "Medical review: Fady Hannah-Shmouni, MD FRCPC" } }
+      learning:
+        locale: ar-AE
+        language: العربية
+        shortLabel: AR
+        direction: rtl
+        review:
+          en: "Medical review: Fady Hannah-Shmouni, MD FRCPC"
+          ar-AE: "المراجعة الطبية: Fady Hannah-Shmouni, MD FRCPC"
+    - code: US
+      country:
+        en: United States
+        ar-AE: الولايات المتحدة
+      centers:
+        - name: United States
+          labels:
+            en: United States
+            ar-AE: الولايات المتحدة
+      edition:
+        en: English
+        ar-AE: الإنجليزية
+      units:
+        en: As reported in each cited source
+        ar-AE: كما ورد في كل مصدر مُستشهد به
+      approval:
+        en: Regulatory notes reviewed by Fady Hannah-Shmouni, MD FRCPC
+        ar-AE: الملاحظات التنظيمية راجعها Fady Hannah-Shmouni, MD FRCPC
+      contextLine:
+        en: FDA status and US compounding rules with each moment
+        ar-AE: الوضع التنظيمي لدى إدارة الغذاء والدواء الأمريكية (FDA) وقواعد التحضير
+          الصيدلاني في الولايات المتحدة مع كل حالة
+      status: demo-ready
+      learning:
+        locale: en
+        language: English
+        shortLabel: EN
+        direction: ltr
+        review:
+          en: "Medical review: Fady Hannah-Shmouni, MD FRCPC"
+          ar-AE: "المراجعة الطبية: Fady Hannah-Shmouni, MD FRCPC"
+    - code: GB
+      country:
+        en: United Kingdom
+        ar-AE: المملكة المتحدة
+      centers:
+        - name: United Kingdom
+          labels:
+            en: United Kingdom
+            ar-AE: المملكة المتحدة
+      edition:
+        en: English
+        ar-AE: الإنجليزية
+      units:
+        en: As reported in each cited source
+        ar-AE: كما ورد في كل مصدر مُستشهد به
+      approval:
+        en: Regulatory notes reviewed by Fady Hannah-Shmouni, MD FRCPC
+        ar-AE: الملاحظات التنظيمية راجعها Fady Hannah-Shmouni, MD FRCPC
+      contextLine:
+        en: MHRA status and UK rules with each moment
+        ar-AE: الوضع التنظيمي لدى وكالة تنظيم الأدوية ومنتجات الرعاية الصحية (MHRA)
+          وقواعد المملكة المتحدة مع كل حالة
+      status: demo-ready
+      learning:
+        locale: en
+        language: English
+        shortLabel: EN
+        direction: ltr
+        review:
+          en: "Medical review: Fady Hannah-Shmouni, MD FRCPC"
+          ar-AE: "المراجعة الطبية: Fady Hannah-Shmouni, MD FRCPC"
+    - code: EU
+      country:
+        en: Another EU country
+        ar-AE: دولة أخرى في الاتحاد الأوروبي
+      centers:
+        - name: Another EU country
+          labels:
+            en: Another EU country
+            ar-AE: دولة أخرى في الاتحاد الأوروبي
+      edition:
+        en: English
+        ar-AE: الإنجليزية
+      units:
+        en: As reported in each cited source
+        ar-AE: كما ورد في كل مصدر مُستشهد به
+      approval:
+        en: Regulatory notes reviewed by Fady Hannah-Shmouni, MD FRCPC
+        ar-AE: الملاحظات التنظيمية راجعها Fady Hannah-Shmouni, MD FRCPC
+      contextLine:
+        en: EMA status and EU-wide rules with each moment
+        ar-AE: الوضع التنظيمي لدى وكالة الأدوية الأوروبية (EMA) والقواعد المطبقة على
+          مستوى الاتحاد الأوروبي مع كل حالة
+      status: demo-ready
+      learning:
+        locale: en
+        language: English
+        shortLabel: EN
+        direction: ltr
+        review:
+          en: "Medical review: Fady Hannah-Shmouni, MD FRCPC"
+          ar-AE: "المراجعة الطبية: Fady Hannah-Shmouni, MD FRCPC"
+    - code: PT
+      country:
+        en: Portugal
+        ar-AE: البرتغال
+      centers:
+        - name: Portugal
+          labels:
+            en: Portugal
+            ar-AE: البرتغال
+      edition:
+        en: English
+        ar-AE: الإنجليزية
+      units:
+        en: As reported in each cited source
+        ar-AE: كما ورد في كل مصدر مُستشهد به
+      approval:
+        en: Regulatory notes reviewed by Fady Hannah-Shmouni, MD FRCPC
+        ar-AE: الملاحظات التنظيمية راجعها Fady Hannah-Shmouni, MD FRCPC
+      contextLine:
+        en: INFARMED and EU status with each moment
+        ar-AE: الوضع التنظيمي لدى الهيئة الوطنية للأدوية والمنتجات الصحية في البرتغال
+          (INFARMED) والاتحاد الأوروبي مع كل حالة
+      status: demo-ready
+      learning:
+        locale: en
+        language: English
+        shortLabel: EN
+        direction: ltr
+        review:
+          en: "Medical review: Fady Hannah-Shmouni, MD FRCPC"
+          ar-AE: "المراجعة الطبية: Fady Hannah-Shmouni, MD FRCPC"
+    - code: BR
+      country:
+        en: Brazil
+        ar-AE: البرازيل
+      centers:
+        - name: Brazil
+          labels:
+            en: Brazil
+            ar-AE: البرازيل
+      edition:
+        en: English
+        ar-AE: الإنجليزية
+      units:
+        en: As reported in each cited source
+        ar-AE: كما ورد في كل مصدر مُستشهد به
+      approval:
+        en: Regulatory notes reviewed by Fady Hannah-Shmouni, MD FRCPC
+        ar-AE: الملاحظات التنظيمية راجعها Fady Hannah-Shmouni, MD FRCPC
+      contextLine:
+        en: ANVISA status and Brazilian rules with each moment
+        ar-AE: الوضع التنظيمي لدى وكالة الرقابة الصحية البرازيلية (ANVISA) والقواعد
+          البرازيلية مع كل حالة
+      status: demo-ready
+      learning:
+        locale: en
+        language: English
+        shortLabel: EN
+        direction: ltr
+        review:
+          en: "Medical review: Fady Hannah-Shmouni, MD FRCPC"
+          ar-AE: "المراجعة الطبية: Fady Hannah-Shmouni, MD FRCPC"
+    - code: SA
+      country:
+        en: Saudi Arabia
+        ar-AE: المملكة العربية السعودية
+      centers:
+        - name: Saudi Arabia
+          labels:
+            en: Saudi Arabia
+            ar-AE: المملكة العربية السعودية
+      edition:
+        en: Arabic UAE edition with Saudi supplement
+        ar-AE: نسخة عربية إماراتية مع ملحق سعودي
+      units:
+        en: Preserve source units; use local laboratory reference intervals
+        ar-AE: حفظ وحدات المصدر واستخدام المجالات المرجعية للمختبر المحلي
+      approval:
+        en: Saudi product checks awaiting Fady review
+        ar-AE: التحقق من المنتجات السعودية بانتظار مراجعة فادي
+      contextLine:
+        en: Product-specific SFDA status; no class-wide inference
+        ar-AE: وضع كل منتج لدى هيئة الغذاء والدواء؛ دون تعميم على الفئة
+      status: blueprint
+      learning:
+        locale: ar-AE
+        language: العربية
+        shortLabel: AR
+        direction: rtl
+        review:
+          en: Review pending
+          ar-AE: المراجعة قيد الانتظار
+  defaultCountry: AE
 accreditation:
-  gcls: true                    # GCLS-issued certificate once accredited (Omar 2026-09-24: "start having it be a GCLS-accredited certificate")
-  reviewAccessDays: 30          # reviewer access expires; re-deploy or re-seed to extend
-  reviewers:                    # GCLS review room (/review) — seeded server-side, never in the client bundle
-    - { email: d.thor@gcls.study, name: "Dr. Dominik Thor, MSc", role: "President · Professor of Pharmacy, Geneva College of Longevity Science" }
+  gcls: true
+  reviewAccessDays: 30
+  reviewers:
+    - email: d.thor@gcls.study
+      name: Dr. Dominik Thor, MSc
+      role: President · Professor of Pharmacy, Geneva College of Longevity Science
 notifications:
-  newCourse: [push, email]
+  newCourse:
+    - push
+    - email
 auth:
-  tenantId: hormonaly-academy-srbsc   # Identity Platform tenant (project perceptors), created 2026-09-25 by perceptor tenant
-  methods: [password, email-link]
-admins: [omar@hormonaly.ai, omar@perceptors.ai]   # Omar (reviewer of record / publish owner); add Hormonaly admins when named
+  tenantId: hormonaly-academy-srbsc
+  methods:
+    - password
+    - email-link
+  email:
+    provider: resend
+    apiKeySecret: resend-api-key
+    from: Hormonaly Academy <info@hormonaly.ai>
+    replyTo: info@hormonaly.ai
+    origin: https://hormonaly.perceptors.ai
+    logoUrl: https://hormonaly.perceptors.ai/assets/brand/hormonaly-email-logo.png
+    logoWidth: 280
+    accent: "#0071E3"
+admins:
+  - omar@hormonaly.ai
+  - omar@perceptors.ai
+  - fady@hormonaly.ai
+editing:
+  enabled: true
+  publishers:
+    - omar@hormonaly.ai
+    - omar@perceptors.ai
+  approvedAssets:
+    - ./assets/brand/hormonaly-mark-flat.svg
+    - ./assets/brand/hormonaly-app-icon.svg
+site:
+  contact:
+    organization: Perceptors · GCLS AI Lab
+    email: support@perceptors.ai
+    location:
+      en: Dubai, United Arab Emirates
+      es: Dubái, Emiratos Árabes Unidos
+      pt: Dubai, Emirados Árabes Unidos
+      ar: دبي، الإمارات العربية المتحدة
+      id: Dubai, Uni Emirat Arab
+    socials:
+      - label: Instagram · GCLS
+        handle: "@gcls.study"
+        url: https://www.instagram.com/gcls.study/
+      - label: LinkedIn · GCLS
+        handle: Geneva College of Longevity Science
+        url: https://www.linkedin.com/company/geneva-college-of-longevity-science
+  certificatePartner:
+    name: GCLS AI Lab
+    note:
+      en: Learning technology partner. This mark does not confer GCLS accreditation.
+      ar: شريك تقنيات التعلم. لا تمنح هذه العلامة اعتماد GCLS.
+  terms:
+    version: 2026-10-03-v2-ar-review-20261007
+    updated: October 3, 2026
+    title:
+      en: Terms and Conditions
+      ar: الشروط والأحكام
+    sections:
+      - title:
+          en: Using Perceptors and your academy
+          ar: استخدام Perceptors وأكاديميتك
+        paragraphs:
+          - en: Perceptors is a learning platform from GCLS AI Lab. These terms cover use of
+              the Perceptors website and platform. Your course provider is
+              identified on its academy page; additional enrollment or
+              institutional terms may apply to that course. Contact
+              support@perceptors.ai for access, certificate or terms questions.
+            ar: Perceptors منصة تعليمية تابعة لـ GCLS AI Lab. تسري هذه الشروط على استخدام
+              موقع Perceptors ومنصتها. تُعرّف صفحة الأكاديمية الجهة المقدمة
+              لدورتك؛ وقد تسري على الدورة شروط إضافية للتسجيل أو شروط مؤسسية.
+              للاستفسارات المتعلقة بالدخول أو الشهادات أو الشروط، تواصل عبر
+              support@perceptors.ai.
+      - title:
+          en: Your account
+          ar: حسابك
+        paragraphs:
+          - en: Use accurate account details and keep your sign-in credentials private. Each
+              learner account is personal. Use courses within your
+              qualifications and the requirements of your institution and
+              jurisdiction. Report suspected unauthorized access to support.
+            ar: استخدم بيانات حساب دقيقة واحتفظ ببيانات تسجيل الدخول بسرية. كل حساب متعلم
+              شخصي. استخدم الدورات ضمن حدود مؤهلاتك ومتطلبات مؤسستك والجهات
+              المختصة في نطاق ممارستك. أبلغ الدعم عن أي اشتباه في دخول غير مصرح
+              به.
+      - title:
+          en: Education and AI tools
+          ar: التعليم وأدوات الذكاء الاصطناعي
+        paragraphs:
+          - en: Course materials and AI responses support learning. They do not provide
+              individual medical advice, professional licensure or a substitute
+              for qualified clinical judgment. AI responses may contain errors.
+              Check sources and applicable professional guidance before applying
+              course information.
+            ar: تدعم مواد الدورة وإجابات الذكاء الاصطناعي التعلم. ولا تقدم مشورة طبية فردية
+              أو ترخيصاً مهنياً، ولا تحل محل التقدير السريري المؤهل. قد تتضمن
+              إجابات الذكاء الاصطناعي أخطاء. تحقق من المصادر والإرشادات المهنية
+              المعمول بها قبل تطبيق معلومات الدورة.
+          - en: Do not submit patient records, identifiable health information, confidential
+              employer material or information you do not have permission to
+              use. Use fictional examples for practice.
+            ar: لا تُدخل سجلات مرضى أو معلومات صحية تكشف الهوية أو مواد سرية تخص جهة العمل
+              أو معلومات لا تملك إذناً باستخدامها. استخدم أمثلة افتراضية في
+              التمارين.
+      - title:
+          en: Course creators’ views and independent content
+          ar: آراء منشئي الدورات والمحتوى المستقل
+        paragraphs:
+          - en: The views, interpretations, opinions and recommendations expressed in a
+              course are those of its identified creators, instructors and
+              contributors. They do not necessarily reflect the views of, or
+              constitute endorsement by, Perceptors.ai, DrVibe Inc., GCLS AI Lab
+              or their affiliates. Course creators are responsible for the
+              substance of the teaching content they contribute, including the
+              evidence and professional positions they present.
+            ar: الآراء والتفسيرات ووجهات النظر والتوصيات الواردة في الدورة تخص منشئيها
+              ومدرّسيها والمساهمين المحددين فيها. وهي لا تعكس بالضرورة آراء
+              Perceptors.ai أو DrVibe Inc. أو GCLS AI Lab أو الجهات التابعة لها،
+              ولا تشكل تأييداً منها. يتحمل منشئو الدورات مسؤولية مضمون المحتوى
+              التعليمي الذي يقدمونه، بما في ذلك الأدلة والمواقف المهنية التي
+              يعرضونها.
+          - en: Courses may discuss emerging, investigational, controversial or off-label
+              approaches, or practices that differ from established clinical
+              guidelines. Making a course available through the platform does
+              not mean that Perceptors.ai, DrVibe Inc., GCLS AI Lab or their
+              affiliates recommend those approaches, consider them
+              guideline-concordant, or authorize their clinical use. Platform
+              delivery does not give these entities control over every
+              statement, opinion or interpretation made by a course creator.
+            ar: قد تناقش الدورات أساليب ناشئة أو قيد البحث أو مثيرة للجدل أو استخدامات خارج
+              الاستطبابات المعتمدة، أو ممارسات تختلف عن الإرشادات السريرية
+              الراسخة. إتاحة دورة عبر المنصة لا تعني أن Perceptors.ai أو DrVibe
+              Inc. أو GCLS AI Lab أو الجهات التابعة لها توصي بهذه الأساليب، أو
+              تعدّها متوافقة مع الإرشادات، أو تجيز استخدامها سريرياً. تقديم
+              الدورة عبر المنصة لا يمنح هذه الجهات السيطرة على كل عبارة أو رأي
+              أو تفسير يصدر عن منشئ الدورة.
+          - en: Learners must independently assess the evidence, applicable guidelines,
+              regulatory requirements and their professional scope before
+              applying information in practice. Educational content does not
+              replace individual clinical judgment or patient-specific
+              evaluation. This clause does not exclude any duty, liability or
+              consumer right that cannot lawfully be excluded, or change the
+              responsibilities of an entity that is itself identified as the
+              creator or provider of particular content.
+            ar: على المتعلمين تقييم الأدلة والإرشادات المعمول بها والمتطلبات التنظيمية وحدود
+              نطاقهم المهني بصورة مستقلة قبل تطبيق المعلومات عملياً. لا يحل
+              المحتوى التعليمي محل التقدير السريري الفردي أو التقييم الخاص بكل
+              مريض. لا يستبعد هذا البند أي واجب أو مسؤولية أو حق للمستهلك لا
+              يجوز استبعاده قانوناً، ولا يغيّر مسؤوليات أي جهة تُعرّف هي نفسها
+              بوصفها منشئ محتوى معين أو مقدمه.
+        id: course-creators-views
+      - title:
+          en: Enrollment and payment
+          ar: التسجيل والدفع
+        paragraphs:
+          - en: The course page and checkout describe the price, currency, access period and
+              included services. A free enrollment does not create a paid
+              subscription. Contact support about billing errors, cancellation
+              or refunds. Nothing in these terms removes mandatory consumer
+              rights.
+            ar: توضح صفحة الدورة وصفحة الدفع السعر والعملة ومدة الإتاحة والخدمات المشمولة.
+              لا ينشئ التسجيل المجاني اشتراكاً مدفوعاً. تواصل مع الدعم بشأن
+              أخطاء الفوترة أو الإلغاء أو استرداد المبالغ. لا تلغي هذه الشروط أي
+              حقوق إلزامية للمستهلك.
+      - title:
+          en: Assessments and certificates
+          ar: التقييمات والشهادات
+        paragraphs:
+          - en: Complete assessments honestly and meet the course’s stated requirements. A
+              certificate records completion under the named issuer’s rules.
+              GCLS AI Lab branding identifies platform or learning support; it
+              does not establish GCLS accreditation, CME or CE credit. Formal
+              accreditation or credit applies only when explicitly confirmed for
+              the specific course.
+            ar: أكمل التقييمات بأمانة واستوفِ متطلبات الدورة المعلنة. تسجل الشهادة الإتمام
+              وفق قواعد الجهة المُصدرة المسماة. تشير علامة GCLS AI Lab إلى دعم
+              المنصة أو التعلم؛ ولا تثبت اعتماد GCLS أو رصيداً للتعليم الطبي أو
+              المهني المستمر (CME أو CE). لا يسري اعتماد رسمي أو رصيد إلا عند
+              تأكيده صراحة للدورة المعنية.
+      - title:
+          en: Materials and acceptable use
+          ar: المواد والاستخدام المقبول
+        paragraphs:
+          - en: Use learning materials for your personal or authorized institutional
+              learning. Do not redistribute, sell or publish them without the
+              rights holder’s permission, except where law permits. Do not
+              bypass enrollment, assessments or access controls, access other
+              users’ data, or disrupt the service. Access restrictions can be
+              raised with support for review.
+            ar: استخدم المواد التعليمية لتعلمك الشخصي أو للتعلم المؤسسي المصرح به. لا تعِد
+              توزيعها أو بيعها أو نشرها دون إذن صاحب الحقوق، إلا حيث يسمح
+              القانون. لا تتجاوز التسجيل أو التقييمات أو ضوابط الوصول، ولا تصل
+              إلى بيانات مستخدمين آخرين أو تعطل الخدمة. يمكن عرض القيود على
+              الوصول على الدعم لمراجعتها.
+      - title:
+          en: Availability and external services
+          ar: الإتاحة والخدمات الخارجية
+        paragraphs:
+          - en: Courses and platform features may be maintained or updated. Availability can
+              be interrupted. External resources are governed by their
+              providers’ terms. Retain your own copies of permitted personal
+              learning artifacts where needed.
+            ar: قد تخضع الدورات وخصائص المنصة للصيانة أو التحديث، وقد تنقطع الإتاحة. تخضع
+              الموارد الخارجية لشروط مقدميها. احتفظ عند الحاجة بنسخك الخاصة من
+              مخرجات تعلمك الشخصية المسموح بالاحتفاظ بها.
+      - title:
+          en: Your agreement and changes
+          ar: موافقتك والتغييرات
+        paragraphs:
+          - en: The displayed version identifies these terms. When requested after sign-in,
+              your typed name and affirmative checkbox record your electronic
+              acceptance. Acceptance is saved to your account for the applicable
+              academy and course. A changed document will require renewed
+              acceptance.
+            ar: يحدد رقم الإصدار المعروض هذه الشروط. عند طلب الموافقة بعد تسجيل الدخول، يسجل
+              اسمك المكتوب واختيارك الإيجابي لمربع الموافقة قبولك الإلكتروني.
+              تُحفظ الموافقة في حسابك للأكاديمية والدورة المعنيتين. يتطلب تغيير
+              الوثيقة تجديد الموافقة.
+          - en: Accepting these terms is separate from marketing consent and optional
+              tutor-memory preferences. The Privacy Policy explains how platform
+              information is handled. Contact support@perceptors.ai about either
+              document.
+            ar: قبول هذه الشروط منفصل عن الموافقة على التسويق وتفضيلات ذاكرة المدرّس
+              الاختيارية. توضح سياسة الخصوصية كيفية التعامل مع معلومات المنصة.
+              للاستفسار عن أي من الوثيقتين، تواصل عبر support@perceptors.ai.
+    sourceVersion: 2026-10-03-v2
+    sourceSha256: b9c9d0bc112edba9caeaf2917519563ed32ef9dd5c3371792fe4a07709832fc2
+    reviewNotice:
+      en: Arabic translation draft — legal review pending.
+      ar: مسودة ترجمة عربية — بانتظار المراجعة القانونية.
+  privacy:
+    version: 2026-10-03-v1-ar-review-20261007
+    updated: October 3, 2026
+    title:
+      en: Privacy Policy
+      ar: سياسة الخصوصية
+    sections:
+      - title:
+          en: Who to contact
+          ar: جهة التواصل
+        paragraphs:
+          - en: Perceptors, a GCLS AI Lab platform, supports the academy provider identified
+              on your course page. Contact support@perceptors.ai about privacy
+              or account requests and identify the academy you use. Our contact
+              location is Dubai, United Arab Emirates. Your academy or
+              institution may provide an additional privacy notice for its own
+              processing.
+            ar: تدعم Perceptors، وهي منصة تابعة لـ GCLS AI Lab، الجهة المقدمة للأكاديمية
+              المحددة في صفحة دورتك. لطلبات الخصوصية أو الحساب، تواصل عبر
+              support@perceptors.ai وحدد الأكاديمية التي تستخدمها. موقع التواصل
+              لدينا هو دبي، الإمارات العربية المتحدة. قد تقدم أكاديميتك أو
+              مؤسستك إشعار خصوصية إضافياً يتعلق بمعالجتها الخاصة للبيانات.
+      - title:
+          en: Account, inquiry and learning information
+          ar: معلومات الحساب والاستفسارات والتعلم
+        paragraphs:
+          - en: We process the information you provide in contact forms, including your
+              name, email, organization and message, to respond to your inquiry.
+              Learner accounts use identity and sign-in information, course
+              enrollment, learning progress, assessment submissions and results
+              to provide and administer learning.
+            ar: نعالج المعلومات التي تقدمها في نماذج التواصل، ومنها اسمك وبريدك الإلكتروني
+              ومؤسستك ورسالتك، للرد على استفسارك. تستخدم حسابات المتعلمين
+              معلومات الهوية وتسجيل الدخول والتسجيل في الدورات والتقدم التعليمي
+              وإجابات التقييمات ونتائجها لتوفير التعلم وإدارته.
+          - en: Where agreement is required, we retain the name you type, your account and
+              academy/course identifiers, document version and snapshot,
+              language and server-recorded acceptance time. This records what
+              you agreed to.
+            ar: عندما تكون الموافقة مطلوبة، نحتفظ بالاسم الذي تكتبه ومعرّفات حسابك
+              والأكاديمية والدورة وإصدار الوثيقة ونسخة منها واللغة ووقت الموافقة
+              المسجل على الخادم. يوثق ذلك ما وافقت عليه.
+      - title:
+          en: AI-assisted learning
+          ar: التعلم بمساعدة الذكاء الاصطناعي
+        paragraphs:
+          - en: Questions, responses and learning context are processed to provide tutor
+              features and feedback. Optional remembered preferences use the
+              controls described in the course. Do not enter patient
+              information, sensitive health details or confidential information.
+              AI providers may process the information needed to deliver the
+              requested feature.
+            ar: تُعالج الأسئلة والإجابات وسياق التعلم لتوفير خصائص المدرّس والتغذية الراجعة.
+              تُدار التفضيلات المحفوظة الاختيارية عبر الضوابط الموضحة في الدورة.
+              لا تُدخل معلومات المرضى أو تفاصيل صحية حساسة أو معلومات سرية. قد
+              يعالج مقدمو خدمات الذكاء الاصطناعي المعلومات اللازمة لتقديم
+              الخاصية المطلوبة.
+      - title:
+          en: Service providers and recipients
+          ar: مقدمو الخدمات والجهات المتلقية
+        paragraphs:
+          - en: Providers of hosting, authentication, email, payment and AI services process
+              information needed for those services. Academy administrators and
+              authorized faculty may access learning records needed to
+              administer the course, support learners and review assessments.
+              Payment details are handled by the payment provider; the platform
+              uses transaction and enrollment records to manage access.
+            ar: يعالج مقدمو خدمات الاستضافة والمصادقة والبريد الإلكتروني والدفع والذكاء
+              الاصطناعي المعلومات اللازمة لتلك الخدمات. قد يطلع مسؤولو
+              الأكاديمية وأعضاء هيئة التدريس المصرح لهم على سجلات التعلم اللازمة
+              لإدارة الدورة ودعم المتعلمين ومراجعة التقييمات. يتولى مقدم خدمة
+              الدفع معالجة بيانات الدفع؛ وتستخدم المنصة سجلات المعاملات والتسجيل
+              لإدارة الوصول.
+          - en: Public certificate verification can disclose the learner name, course,
+              issuer, date and certificate status to someone with the
+              verification link or code. Avoid sharing that link if you do not
+              want to make those details available.
+            ar: قد يكشف التحقق العام من الشهادات اسم المتعلم والدورة والجهة المُصدرة
+              والتاريخ وحالة الشهادة لمن يملك رابط التحقق أو رمزه. تجنب مشاركة
+              الرابط إذا كنت لا ترغب في إتاحة تلك التفاصيل.
+      - title:
+          en: Storage, international processing and security
+          ar: التخزين والمعالجة الدولية والأمان
+        paragraphs:
+          - en: Services may process information in different countries depending on the
+              academy’s hosting and provider arrangements. Institutional hosting
+              and data requirements are set with the relevant provider; do not
+              assume a particular country of storage from a contact address.
+            ar: قد تعالج الخدمات المعلومات في دول مختلفة بحسب ترتيبات استضافة الأكاديمية
+              ومقدمي خدماتها. تُحدد متطلبات الاستضافة والبيانات المؤسسية مع مقدم
+              الخدمة المعني؛ فلا تفترض دولة معينة للتخزين استناداً إلى عنوان
+              التواصل.
+          - en: Access controls and operational safeguards support protection of
+              information. No service can guarantee absolute security. We retain
+              information as needed to provide learning, document certificates
+              and agreements, resolve issues and meet applicable obligations.
+              Retention depends on record type and academy arrangements.
+            ar: تسهم ضوابط الوصول والتدابير التشغيلية في حماية المعلومات. لا تستطيع أي خدمة
+              ضمان الأمان المطلق. نحتفظ بالمعلومات بقدر الحاجة لتوفير التعلم
+              وتوثيق الشهادات والاتفاقات ومعالجة المشكلات والوفاء بالالتزامات
+              المعمول بها. تعتمد مدة الاحتفاظ على نوع السجل وترتيبات الأكاديمية.
+      - title:
+          en: Cookies and device storage
+          ar: ملفات تعريف الارتباط وتخزين الجهاز
+        paragraphs:
+          - en: Sign-in and learning features use browser storage to keep your session,
+              language and learning state. The public website may collect usage
+              events through its configured analytics service. Browser controls
+              can clear or restrict local storage; doing so can affect sign-in
+              and unsynchronized learning progress.
+            ar: تستخدم خصائص تسجيل الدخول والتعلم تخزين المتصفح للاحتفاظ بجلستك ولغتك وحالة
+              تعلمك. قد يجمع الموقع العام أحداث الاستخدام عبر خدمة التحليلات
+              المعدّة له. تتيح إعدادات المتصفح مسح التخزين المحلي أو تقييده؛ وقد
+              يؤثر ذلك في تسجيل الدخول والتقدم التعليمي غير المتزامن.
+      - title:
+          en: Your choices and requests
+          ar: خياراتك وطلباتك
+        paragraphs:
+          - en: You can use available account and tutor controls and contact support to
+              request access, correction or deletion of personal information.
+              Rights and exceptions depend on applicable law and the role of
+              your academy or institution. We may need to verify your identity
+              before acting. Do not send identity documents or sensitive records
+              unless requested through an appropriate process.
+            ar: يمكنك استخدام ضوابط الحساب والمدرّس المتاحة والتواصل مع الدعم لطلب الوصول
+              إلى معلوماتك الشخصية أو تصحيحها أو حذفها. تعتمد الحقوق
+              والاستثناءات على القانون المعمول به ودور أكاديميتك أو مؤسستك. قد
+              نحتاج إلى التحقق من هويتك قبل تنفيذ الطلب. لا ترسل وثائق هوية أو
+              سجلات حساسة إلا إذا طُلبت منك ضمن إجراء مناسب.
+          - en: Terms acceptance does not sign you up for marketing. Optional communications
+              and optional tutor preferences are managed separately.
+            ar: لا يؤدي قبول الشروط إلى اشتراكك في التسويق. تُدار المراسلات الاختيارية
+              وتفضيلات المدرّس الاختيارية بصورة منفصلة.
+      - title:
+          en: Policy updates
+          ar: تحديثات السياسة
+        paragraphs:
+          - en: The displayed version and date identify this policy. Material changes are
+              reflected in an updated notice. Where the learner agreement is
+              presented again, it identifies the revised documents.
+            ar: يحدد الإصدار والتاريخ المعروضان هذه السياسة. تنعكس التغييرات الجوهرية في
+              إشعار محدّث. وعند عرض اتفاق المتعلم مجدداً، فإنه يحدد الوثائق
+              المعدلة.
+    sourceVersion: 2026-10-03-v1
+    sourceSha256: b9c9d0bc112edba9caeaf2917519563ed32ef9dd5c3371792fe4a07709832fc2
+    reviewNotice:
+      en: Arabic translation draft — legal review pending.
+      ar: مسودة ترجمة عربية — بانتظار المراجعة القانونية.

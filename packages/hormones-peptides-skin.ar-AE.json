@@ -3,7 +3,7 @@
   "id": "hormonaly.hormones-peptides-skin",
   "slug": "hormones-peptides-skin",
   "kind": "course",
-  "version": "1.2.0-ar-AE.draft.1",
+  "version": "1.2.0-ar-AE.1",
   "title": {
     "en": "Hormones and Peptides for Skin",
     "ar-AE": "الهرمونات والببتيدات للجلد"
@@ -40,10 +40,10 @@
       "locale": "ar-AE",
       "name": "العربية — الإمارات العربية المتحدة",
       "direction": "rtl",
-      "status": "in_review",
+      "status": "approved",
       "reviewOwner": "Fady Hannah-Shmouni, MD FRCPC — Fady@hormonaly.ai",
       "unitsPolicy": "Preserve source-study units and reference intervals; no silent conversions; apply the local laboratory range in practice.",
-      "notes": "UAE-first Modern Standard Arabic; Saudi product-status supplement is a proposed source-lock amendment. English approvals do not approve this edition."
+      "notes": "UAE-first Modern Standard Arabic; Saudi product-status supplement is a proposed source-lock amendment. English approvals do not approve this edition. Public Arabic release authorized by the product owner in chat on 2026-10-08; this does not create a medical-reviewer attestation or resolve regulatory gaps."
     }
   ],
   "audience": {
@@ -11145,7 +11145,7 @@
                 },
                 "title": {
                   "en": "The skin as an endocrine organ, and how it ages",
-                  "ar-AE": "الجلد كعضو صماوي، وكيف يشيخ"
+                  "ar-AE": "الفيلم الأصلي بالإنجليزية — النسخة العربية قيد الإنتاج: الجلد كعضو صماوي، وكيف يشيخ"
                 },
                 "assetRefs": [
                   "asset-hps-m01-opener",
@@ -11172,6 +11172,11 @@
                       "m1-p03 audioScript, sentences 1–8"
                     ],
                     "rule": "verbatim approved sentences only"
+                  },
+                  "referenceVideoLocale": "en",
+                  "videoBadge": {
+                    "en": "English reference film — Arabic edition in production",
+                    "ar-AE": "الفيلم الإنجليزي الأصلي — النسخة العربية قيد الإنتاج"
                   }
                 },
                 "time": "02 / 25"
@@ -14233,7 +14238,7 @@
                 },
                 "title": {
                   "en": "Systemic hormones and the skin",
-                  "ar-AE": "الهرمونات الجهازية والجلد"
+                  "ar-AE": "الفيلم الأصلي بالإنجليزية — النسخة العربية قيد الإنتاج: الهرمونات الجهازية والجلد"
                 },
                 "assetRefs": [
                   "asset-hps-m02-opener",
@@ -14259,6 +14264,11 @@
                       "m2-p02 audioScript, sentences 1, 2, 3, 4, 5, 6, 7"
                     ],
                     "rule": "verbatim approved sentences only"
+                  },
+                  "referenceVideoLocale": "en",
+                  "videoBadge": {
+                    "en": "English reference film — Arabic edition in production",
+                    "ar-AE": "الفيلم الإنجليزي الأصلي — النسخة العربية قيد الإنتاج"
                   }
                 },
                 "time": "02 / 25"
@@ -17521,7 +17531,7 @@
                 },
                 "title": {
                   "en": "Fat, incretins and the ageing face",
-                  "ar-AE": "الدهون، والإنكريتينات، والوجه المتقدم في السن"
+                  "ar-AE": "الفيلم الأصلي بالإنجليزية — النسخة العربية قيد الإنتاج: الدهون، والإنكريتينات، والوجه المتقدم في السن"
                 },
                 "assetRefs": [
                   "asset-hps-m03-opener",
@@ -17550,6 +17560,11 @@
                       "m3-p02 audioScript, sentences 1, 2, 3, 4, 5, 6, 7, 8, 9"
                     ],
                     "rule": "verbatim approved sentences only"
+                  },
+                  "referenceVideoLocale": "en",
+                  "videoBadge": {
+                    "en": "English reference film — Arabic edition in production",
+                    "ar-AE": "الفيلم الإنجليزي الأصلي — النسخة العربية قيد الإنتاج"
                   }
                 },
                 "time": "02 / 26"
@@ -21119,7 +21134,7 @@
                 },
                 "title": {
                   "en": "Matrix peptides and wound healing",
-                  "ar-AE": "ببتيدات المادة الخلالية والتئام الجروح"
+                  "ar-AE": "الفيلم الأصلي بالإنجليزية — النسخة العربية قيد الإنتاج: ببتيدات المادة الخلالية والتئام الجروح"
                 },
                 "assetRefs": [
                   "asset-hps-m04-opener",
@@ -21147,6 +21162,11 @@
                       "m4-p03 audioScript, sentences 1, 2, 3, 4, 5, 6, 7, 8"
                     ],
                     "rule": "verbatim approved sentences only"
+                  },
+                  "referenceVideoLocale": "en",
+                  "videoBadge": {
+                    "en": "English reference film — Arabic edition in production",
+                    "ar-AE": "الفيلم الإنجليزي الأصلي — النسخة العربية قيد الإنتاج"
                   }
                 },
                 "time": "02 / 25"
@@ -24501,7 +24521,7 @@
                 },
                 "title": {
                   "en": "Follicle, pigment and melanocortins",
-                  "ar-AE": "الجريب، والصبغة، والميلانوكورتينات"
+                  "ar-AE": "الفيلم الأصلي بالإنجليزية — النسخة العربية قيد الإنتاج: الجريب، والصبغة، والميلانوكورتينات"
                 },
                 "assetRefs": [
                   "asset-hps-m05-opener",
@@ -24528,6 +24548,11 @@
                       "m5-p02 audioScript, sentences 1, 2, 3, 5, 8"
                     ],
                     "rule": "verbatim approved sentences only"
+                  },
+                  "referenceVideoLocale": "en",
+                  "videoBadge": {
+                    "en": "English reference film — Arabic edition in production",
+                    "ar-AE": "الفيلم الإنجليزي الأصلي — النسخة العربية قيد الإنتاج"
                   }
                 },
                 "time": "02 / 25"
@@ -27965,7 +27990,7 @@
                 },
                 "title": {
                   "en": "The growth-hormone axis and the skin",
-                  "ar-AE": "محور هرمون النمو والجلد"
+                  "ar-AE": "الفيلم الأصلي بالإنجليزية — النسخة العربية قيد الإنتاج: محور هرمون النمو والجلد"
                 },
                 "assetRefs": [
                   "asset-hps-m06-opener",
@@ -27992,6 +28017,11 @@
                       "m6-p02 audioScript, sentences 1, 2, 3, 4, 5, 7, 8, 9, 10"
                     ],
                     "rule": "verbatim approved sentences only"
+                  },
+                  "referenceVideoLocale": "en",
+                  "videoBadge": {
+                    "en": "English reference film — Arabic edition in production",
+                    "ar-AE": "الفيلم الإنجليزي الأصلي — النسخة العربية قيد الإنتاج"
                   }
                 },
                 "time": "02 / 25"
@@ -31562,7 +31592,7 @@
                 },
                 "title": {
                   "en": "Evidence, regulation and compliance",
-                  "ar-AE": "الأدلة والتنظيم والامتثال"
+                  "ar-AE": "الفيلم الأصلي بالإنجليزية — النسخة العربية قيد الإنتاج: الأدلة والتنظيم والامتثال"
                 },
                 "assetRefs": [
                   "asset-hps-m07-opener",
@@ -31589,6 +31619,11 @@
                       "m7-p02 audioScript, sentences 1, 2, 3, 4, 5, 6, 8, 9, 10"
                     ],
                     "rule": "verbatim approved sentences only"
+                  },
+                  "referenceVideoLocale": "en",
+                  "videoBadge": {
+                    "en": "English reference film — Arabic edition in production",
+                    "ar-AE": "الفيلم الإنجليزي الأصلي — النسخة العربية قيد الإنتاج"
                   }
                 },
                 "time": "02 / 28"
@@ -39669,7 +39704,7 @@
       "primaryJurisdiction": "AE",
       "secondaryJurisdiction": "SA",
       "reviewOwner": "Fady Hannah-Shmouni, MD FRCPC — Fady@hormonaly.ai",
-      "status": "in_review",
+      "status": "approved",
       "textComplete": true,
       "mediaComplete": false,
       "publishReady": false,
@@ -39685,6 +39720,18 @@
         "archive": "gs://run-sources-perceptors-us-central1/services/academy-hormonaly/1791076227.259652-2f6a61e249394a01b723b769feceee56.zip",
         "sourceCourseSha256": "cb7b66528438d0081b05cc3d08e4b5f2625f3eac94898beb13ebafd5dd936334",
         "finding": "Canonical academy branch was behind deployed configuration. Seven lesson modules match; deployed tutor answers have formatting and one sentence-order change, plus tutor visual mappings."
+      },
+      "previewOnly": false,
+      "originalBaseLocale": "en",
+      "releaseAuthorized": true,
+      "releaseApproval": {
+        "recordedAt": "2026-10-08",
+        "actor": "Omar Saleem — product owner, direct chat instruction",
+        "statement": "arabic approved now, lets finalize deploy",
+        "scope": "Arabic edition and final public bilingual deployment",
+        "medicalReviewerAttestationRecorded": false,
+        "regulatoryFindingsChanged": false,
+        "arabicMediaComplete": false
       }
     },
     "regionalTutor": {
@@ -39844,6 +39891,7 @@
       "tutor-m07-grade": "m7-p02",
       "tutor-m07-compounding-coa": "m7-p10",
       "tutor-m01-senescence": "m1-p17"
-    }
+    },
+    "previewOnly": false
   }
 }

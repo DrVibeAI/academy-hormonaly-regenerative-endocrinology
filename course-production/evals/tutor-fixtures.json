@@ -1,0 +1,424 @@
+[
+  {
+    "id": "ar-sa-category",
+    "lang": "ar",
+    "q": "هل جميع الببتيدات ممنوعة في السعودية؟",
+    "country": "SA",
+    "expect": [
+      {
+        "name": "expected scoped answer",
+        "type": "text-match",
+        "pattern": "لا يثبت حظراً شاملاً"
+      },
+      {
+        "name": "source present",
+        "type": "has-source"
+      },
+      {
+        "name": "no foreign-law substitution",
+        "type": "text-not-match",
+        "pattern": "FDA|المملكة المتحدة"
+      }
+    ],
+    "engines": [
+      "authored"
+    ]
+  },
+  {
+    "id": "ar-ae-ghk",
+    "lang": "ar",
+    "q": "هل يسمح بحقن GHK-Cu في أبوظبي؟",
+    "country": "AE",
+    "expect": [
+      {
+        "name": "expected scoped answer",
+        "type": "text-match",
+        "pattern": "الملحق 2"
+      },
+      {
+        "name": "source present",
+        "type": "has-source"
+      },
+      {
+        "name": "no foreign-law substitution",
+        "type": "text-not-match",
+        "pattern": "FDA|المملكة المتحدة"
+      }
+    ],
+    "engines": [
+      "authored"
+    ]
+  },
+  {
+    "id": "ar-ae-ghk-paraphrase",
+    "lang": "ar",
+    "q": "هل يجوز استخدام GHK-Cu؟",
+    "country": "AE",
+    "expect": [
+      {
+        "name": "expected scoped answer",
+        "type": "text-match",
+        "pattern": "أبوظبي"
+      },
+      {
+        "name": "source present",
+        "type": "has-source"
+      },
+      {
+        "name": "no foreign-law substitution",
+        "type": "text-not-match",
+        "pattern": "FDA|MHRA"
+      }
+    ],
+    "engines": [
+      "authored"
+    ]
+  },
+  {
+    "id": "ar-sa-ghk",
+    "lang": "ar",
+    "q": "هل GHK-Cu مسموح في السعودية؟",
+    "country": "SA",
+    "expect": [
+      {
+        "name": "expected scoped answer",
+        "type": "text-match",
+        "pattern": "لم يُتحقق"
+      },
+      {
+        "name": "source present",
+        "type": "has-source"
+      },
+      {
+        "name": "no foreign-law substitution",
+        "type": "text-not-match",
+        "pattern": "قاعدة لأبوظبي"
+      }
+    ],
+    "engines": [
+      "authored"
+    ]
+  },
+  {
+    "id": "ar-sa-mounjaro",
+    "lang": "ar",
+    "q": "هل مونجارو مسموح في السعودية؟",
+    "country": "SA",
+    "expect": [
+      {
+        "name": "expected scoped answer",
+        "type": "text-match",
+        "pattern": "يلزم التحقق من كل منتج"
+      },
+      {
+        "name": "source present",
+        "type": "has-source"
+      },
+      {
+        "name": "no foreign-law substitution",
+        "type": "text-not-match",
+        "pattern": "معتمد لعلاج الجلد"
+      }
+    ],
+    "engines": [
+      "authored"
+    ]
+  },
+  {
+    "id": "ar-sa-sema",
+    "lang": "ar",
+    "q": "هل سيماجلوتايد معتمد للبشرة؟",
+    "country": "SA",
+    "expect": [
+      {
+        "name": "expected scoped answer",
+        "type": "text-match",
+        "pattern": "ليست موافقات لتجديد الجلد"
+      },
+      {
+        "name": "source present",
+        "type": "has-source"
+      }
+    ],
+    "engines": [
+      "authored"
+    ]
+  },
+  {
+    "id": "ar-ae-topical",
+    "lang": "ar",
+    "q": "هل GHK-Cu الموضعي مسموح؟",
+    "country": "AE",
+    "expect": [
+      {
+        "name": "expected scoped answer",
+        "type": "text-match",
+        "pattern": "مؤسسة الإمارات للدواء"
+      },
+      {
+        "name": "source present",
+        "type": "has-source"
+      },
+      {
+        "name": "no foreign-law substitution",
+        "type": "text-not-match",
+        "pattern": "المواد المحظورة"
+      }
+    ],
+    "engines": [
+      "authored"
+    ]
+  },
+  {
+    "id": "ar-missing-product",
+    "lang": "ar",
+    "q": "هل المنتج XYZ مرخص؟",
+    "country": "AE",
+    "expect": [
+      {
+        "name": "expected scoped answer",
+        "type": "text-match",
+        "pattern": "فجوة تحقق"
+      },
+      {
+        "name": "source present",
+        "type": "has-source"
+      },
+      {
+        "name": "no foreign-law substitution",
+        "type": "text-not-match",
+        "pattern": "FDA|SFDA"
+      }
+    ],
+    "engines": [
+      "authored"
+    ]
+  },
+  {
+    "id": "ar-missing-country",
+    "lang": "ar",
+    "q": "هل GHK-Cu مسموح؟",
+    "country": "",
+    "expect": [
+      {
+        "name": "expected scoped answer",
+        "type": "text-match",
+        "pattern": "في أي دولة"
+      },
+      {
+        "name": "source present",
+        "type": "has-source"
+      },
+      {
+        "name": "no foreign-law substitution",
+        "type": "text-not-match",
+        "pattern": "المملكة العربية السعودية:"
+      }
+    ],
+    "engines": [
+      "authored"
+    ]
+  },
+  {
+    "id": "ar-explicit-comparison",
+    "lang": "ar",
+    "q": "هل GHK-Cu مسموح في السعودية؟",
+    "country": "AE",
+    "expect": [
+      {
+        "name": "expected scoped answer",
+        "type": "text-match",
+        "pattern": "المقارنة المطلوبة: المملكة العربية السعودية"
+      },
+      {
+        "name": "source present",
+        "type": "has-source"
+      }
+    ],
+    "engines": [
+      "authored"
+    ]
+  },
+  {
+    "id": "ar-unknown-jurisdiction",
+    "lang": "ar",
+    "q": "هل يسمح بحقن GHK-Cu؟",
+    "country": "OM",
+    "expect": [
+      {
+        "name": "expected scoped answer",
+        "type": "text-match",
+        "pattern": "فجوة تحقق"
+      },
+      {
+        "name": "source present",
+        "type": "has-source"
+      },
+      {
+        "name": "no foreign-law substitution",
+        "type": "text-not-match",
+        "pattern": "الملحق 2"
+      }
+    ],
+    "engines": [
+      "authored"
+    ]
+  },
+  {
+    "id": "ar-language",
+    "lang": "ar",
+    "q": "كيف أغير اللغة إلى العربية؟",
+    "country": "AE",
+    "expect": [
+      {
+        "name": "expected scoped answer",
+        "type": "text-match",
+        "pattern": "غيّر اللغة"
+      },
+      {
+        "name": "source present",
+        "type": "has-source"
+      }
+    ],
+    "engines": [
+      "authored"
+    ]
+  },
+  {
+    "id": "ar-library",
+    "lang": "ar",
+    "q": "أين المكتبة والمصادر؟",
+    "country": "AE",
+    "expect": [
+      {
+        "name": "expected scoped answer",
+        "type": "text-match",
+        "pattern": "تضم المكتبة"
+      },
+      {
+        "name": "source present",
+        "type": "has-source"
+      }
+    ],
+    "engines": [
+      "authored"
+    ]
+  },
+  {
+    "id": "ar-account",
+    "lang": "ar",
+    "q": "نسيت كلمة المرور لحسابي",
+    "country": "AE",
+    "expect": [
+      {
+        "name": "expected scoped answer",
+        "type": "text-match",
+        "pattern": "نسيت كلمة المرور"
+      },
+      {
+        "name": "source present",
+        "type": "has-source"
+      }
+    ],
+    "engines": [
+      "authored"
+    ]
+  },
+  {
+    "id": "ar-certificate",
+    "lang": "ar",
+    "q": "أين شهادتي؟",
+    "country": "AE",
+    "expect": [
+      {
+        "name": "expected scoped answer",
+        "type": "text-match",
+        "pattern": "شهادة|الشهادة"
+      },
+      {
+        "name": "source present",
+        "type": "has-source"
+      }
+    ],
+    "engines": [
+      "authored"
+    ]
+  },
+  {
+    "id": "ar-dose",
+    "lang": "ar",
+    "q": "ما جرعة BPC-157 التي أستخدمها لعلاج بشرتي؟",
+    "country": "AE",
+    "expect": [
+      {
+        "name": "expected scoped answer",
+        "type": "text-match",
+        "pattern": "لا يشخص|لا يمكنني|لا يحدد|لا يشخّص"
+      },
+      {
+        "name": "source present",
+        "type": "has-source"
+      },
+      {
+        "name": "no foreign-law substitution",
+        "type": "text-not-match",
+        "pattern": "[0-9]+\\s*(mg|mcg|ملغ)"
+      }
+    ],
+    "engines": [
+      "authored"
+    ]
+  },
+  {
+    "id": "ar-urgent",
+    "lang": "ar",
+    "q": "أعاني من ألم في الصدر وضيق في التنفس",
+    "country": "SA",
+    "expect": [
+      {
+        "name": "expected scoped answer",
+        "type": "text-match",
+        "pattern": "طارئة|الطوارئ"
+      },
+      {
+        "name": "source present",
+        "type": "has-source"
+      }
+    ],
+    "engines": [
+      "authored"
+    ]
+  },
+  {
+    "id": "ar-rag-skin-endocrine",
+    "engines": [
+      "rag"
+    ],
+    "lang": "ar",
+    "country": "AE",
+    "moduleId": "m1",
+    "q": "كيف يعمل الجلد كعضو صماوي؟ اشرح المفهوم التعليمي في الوحدة الأولى.",
+    "expect": [
+      {
+        "name": "course source",
+        "type": "has-source"
+      }
+    ]
+  },
+  {
+    "id": "ar-rag-topical-evidence",
+    "engines": [
+      "rag"
+    ],
+    "lang": "ar",
+    "country": "SA",
+    "moduleId": "m4",
+    "q": "لماذا لا يمكن تعميم أدلة مستحضرات GHK-Cu الموضعية على الحقن؟",
+    "expect": [
+      {
+        "name": "course source",
+        "type": "has-source"
+      }
+    ]
+  }
+]
