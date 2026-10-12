@@ -16,6 +16,12 @@ brand:
   name: Hormonaly Academy
   shortName: Hormonaly
   wordmarkSuffix: ACADEMY
+  certificatePresentation:
+    layout: institutional
+    accentColor: "#142D4E"
+    logo: ./assets/certificate/hormonaly-logo.png
+    watermark: ./assets/certificate/hormonaly-orbit.png
+    partnerLogo: ./assets/certificate/gcls-logo.png
   logo: ""
   mark: ./assets/brand/hormonaly-mark-flat.svg
   favicon: ./assets/brand/hormonaly-app-icon.svg
