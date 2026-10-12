@@ -32,3 +32,7 @@ Production publication awaits Omar's approval under `/Users/omar/DrVibe/AGENTS.m
 ## Revision 2 — thicker dimensional frame
 
 Owner requested a nicer thicker border and more 3D feel. The current implementation uses a broad navy frame with directional bevel highlights, a metallic gold inner band, subtle recessed-paper shadows and ivory shading. The PDF remains vector-based and printable. Current proofs are in `v2/`; the original proofs are retained for comparison. Build/typecheck and all six certificate tests pass; all three proofs remain one page, visually reviewed. No production deployment.
+
+## Revision 3 — traditional border, dimensional certificate
+
+Owner clarified that the border should be traditional and thicker, with depth in the certificate itself. Revision 2's beveled frame is superseded. The current version has flat navy/gold printed rules, engraved chain detail and ornamental corners, with softly shaded ivory paper, a shallow dimensional watermark and an embossed brand medallion. Current proofs: `v3/`. Build/typecheck and six certificate tests pass. No deployment.
