@@ -39,3 +39,5 @@ Everything visual comes from perceptor-foundry `docs/brand.md` (Perceptors AI br
 ## Certificate redesign · 2026-10-11
 
 Owner direction: bring Hormonaly course certificates up to the other institutional certificates, with Hormonaly and GCLS logos, silhouette background, and a more sophisticated and weighty feel. Implemented as an opt-in certificate-only presentation: ivory, navy, restrained gold framing, prominent learner identity, Hormonaly orbit watermark and compact verification footer. Existing GCLS partner/issuer status is unchanged. Local review proofs and QA: `course-production/certificate-20261011/README.md`. Not deployed.
+
+Certificate revision 2: thicker navy/gold border with mitered bevel highlights, metallic band and recessed ivory paper, following Omar's requested dimensional feel. Current proofs: `course-production/certificate-20261011/v2/`.

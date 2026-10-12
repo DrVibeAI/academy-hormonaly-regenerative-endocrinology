@@ -28,3 +28,7 @@ Orbit: rasterization of academy `public/assets/brand/hormonaly-mark-flat.svg` at
 ## Review and release
 Preview files are in this directory. Runtime source: `../runtime` relative to the academy root's parent. Branches: `feat/hormonaly-certificate-20261011` (runtime), `design/hormonaly-certificate-20261011` (academy).
 Production publication awaits Omar's approval under `/Users/omar/DrVibe/AGENTS.md`. Use `deploy/gcp.sh` with these academy inputs, upload the new certificate assets, review a no-traffic candidate, verify `/api/certificate` returns 401 unauthenticated, and promote only the tested revision. Preserve the Arabic release lineage.
+
+## Revision 2 — thicker dimensional frame
+
+Owner requested a nicer thicker border and more 3D feel. The current implementation uses a broad navy frame with directional bevel highlights, a metallic gold inner band, subtle recessed-paper shadows and ivory shading. The PDF remains vector-based and printable. Current proofs are in `v2/`; the original proofs are retained for comparison. Build/typecheck and all six certificate tests pass; all three proofs remain one page, visually reviewed. No production deployment.
