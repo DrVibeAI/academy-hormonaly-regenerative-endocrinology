@@ -244,27 +244,30 @@ home:
         ar-AE: هل تمنح الدورة ساعات معتمدة للتعليم الطبي المستمر (CME) أو التعليم
           المستمر (CE)؟
       a:
-        en: The course is accredited by GCLS, the Geneva College of Longevity Science.
+        en: GCLS certification must be confirmed before certificates are released.
           CME or CE credit is not offered at this time.
         ar-AE: النسخة العربية قيد المراجعة، ولم يُعتمد لها رصيد تعليم طبي أو مهني مستمر.
     - q:
         en: What do I get at the end?
         ar-AE: ما الذي سأحصل عليه عند إتمام الدورة؟
       a:
-        en: Pass the final check with 80% or more to receive a certificate of completion
-          for this GCLS-accredited course, with a public verification code.
-        ar-AE: اجتز التقييم النهائي بنسبة 80% أو أكثر لتنال شهادة إتمام لهذه الدورة
-          المعتمدة من GCLS، مع رمز تحقق متاح للعامة.
+        en: Complete all seven modules and pass the final check with 80% or more.
+          Certificates will be available from November 1, 2026, once GCLS certification
+          is confirmed and the paid course launches. Each certificate has a public verification code.
+        ar-AE: أكمل الوحدات السبع واجتز التقييم النهائي بنسبة 80% أو أكثر. تتاح الشهادات
+          اعتبارًا من 1 نوفمبر 2026، بعد تأكيد اعتماد GCLS وإطلاق الدورة المدفوعة.
+          تحمل كل شهادة رمز تحقق متاحًا للعامة.
   certificate:
     title:
       en: Certificate of completion
       ar-AE: شهادة إتمام الدورة
     body:
-      en: Finish the seven modules and pass the final check to receive your
-        certificate of completion.
-      ar-AE: تخضع النسخة العربية للمراجعة قبل إتاحتها للمتعلمين وإصدار شهاداتها.
-      ar: شهادة إتمام من Hormonaly Academy عند استيفاء متطلبات الدورة واجتياز التقييم
-        النهائي.
+      en: Available from November 1, 2026, once GCLS certification is confirmed and the paid
+        course launches. Complete all seven modules and pass the final check to qualify.
+      ar-AE: متاحة اعتبارًا من 1 نوفمبر 2026، بعد تأكيد اعتماد GCLS وإطلاق الدورة المدفوعة.
+        يلزم إكمال الوحدات السبع واجتياز التقييم النهائي.
+      ar: متاحة اعتبارًا من 1 نوفمبر 2026، بعد تأكيد اعتماد GCLS وإطلاق الدورة المدفوعة.
+        يلزم إكمال الوحدات السبع واجتياز التقييم النهائي.
     image:
       src: /assets/hormones-peptides-skin/ui/evidence-desk.jpg
       alt:
@@ -355,6 +358,11 @@ catalog:
             ar-AE: سجّل مجانًا
     certificate:
       access: included
+      release:
+        availableFrom: '2026-11-01T00:00:00-07:00'
+        timeZone: America/Los_Angeles
+        requireGclsAccreditation: true
+        requirePaidCourse: true
     final:
       by: Omar Saleem (product owner)
       date: 2026-09-25

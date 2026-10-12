@@ -11,7 +11,7 @@ Both institution logos, ivory paper, navy edge bands, fine gold double frame, a 
 - Academy opts into `brand.certificatePresentation.layout: institutional`; logo, partner logo and watermark are separate certificate assets so the academy UI wordmark remains unaffected.
 - Runtime copies and validates declared certificate assets; missing required assets fail PDF generation rather than quietly producing an incomplete certificate.
 - Other academies retain their existing layout. The stored name, course title, issuer, issue/expiry dates, evidence, code, and verification URL are preserved. Redundant certificate prefixes are removed only from the displayed course title.
-- Hormonaly has no recorded signatories; none have been invented. This layout is designed for the current unsigned completion credential; future signed credentials need a signature layout extension.
+- Signature blocks were added in revision 4; see the provenance and implementation notes below.
 
 ## Verification
 - Production build, TypeScript, academy isolation, and locale scans pass.
@@ -44,3 +44,11 @@ Omar approved revision 3's direction and requested Fady for Hormonaly and Domini
 The generic renderer supports configured signature images and designed name treatments, retains credential signature fallback, and fails on a missing declared signature image. Academy preparation copies and validates signature assets. The script font is Allura (Google Fonts), bundled with its SIL Open Font License. Signature presentation does not alter certificate issuer/accreditation records.
 
 Production build/typecheck and eight focused certificate tests pass. English, Arabic, and long-name proofs are one-page A4 landscape and visually reviewed; QR still decodes to verification home for the sample. Current proofs are in `v4/`. Not deployed or issued.
+
+## Release conditions — November 1, 2026
+
+Omar specified that this certificate becomes available only after November 1 once the course is GCLS certified and paid. The local implementation gates status, claiming, PDF download, and direct issuance from `2026-11-01T00:00:00-07:00` (Los Angeles midnight). All conditions must pass: the configured release date, enabled GCLS issuance with course status `accredited` and a nonempty accreditation ID, and a positive current course price. An extended free promotion keeps the certificate blocked. The date never changes accreditation automatically; current package approval records remain unchanged. Normal module and assessment requirements still apply. Existing award records and public verification remain intact.
+
+The academy homepage and FAQ now state the conditional November release in English and Arabic. The signed-in certificate card explains pending conditions. This is a course-level paid-launch gate. Whether October's free enrollees must individually pay before receiving a certificate remains an open owner decision; no individual payment requirement or upgrade flow has been added.
+
+Validation: production build/typecheck passes; 13 focused certificate tests pass, including date boundary, missing accreditation, free/extended promotion, invalid configuration, and direct issuance blocked before database access. All eight standard academy suites pass: `../evals/report-2026-10-12T020251Z.md` (report records pre-commit HEAD; executed with the release-gate working tree). Latest visual proofs remain `v4/`. No deployment or credential issuance.

@@ -45,3 +45,5 @@ Certificate revision 2: thicker navy/gold border with mitered bevel highlights, 
 Certificate revision 3 supersedes revision 2: traditional flat printed navy/gold borders with engraving, no picture-frame bevels. Depth belongs to paper, background silhouette and embossed brand medallion. Owner explicitly rejected a 3D border. Current proofs: `course-production/certificate-20261011/v3/`.
 
 Certificate revision 4: owner approved revision 3 and requested Fady/Hormonaly and Dominik/GCLS signature blocks. Fady's is a newly designed typeset signature mark at Omar's explicit request, not a supplied handwriting sample. Dominik's is the existing GCLS asset. Both carry names, titles and institutions. Current proofs: `course-production/certificate-20261011/v4/`.
+
+Certificate release: from November 1, 2026 at Los Angeles midnight, only with recorded GCLS approval/ID and a positive current course price. Module and final-check requirements remain. October free-enrollee payment policy is pending clarification. Release gate implemented and validated locally; not deployed. Details: `course-production/certificate-20261011/README.md`.
