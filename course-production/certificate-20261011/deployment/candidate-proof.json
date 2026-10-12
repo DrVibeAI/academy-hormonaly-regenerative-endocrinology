@@ -1,0 +1,15 @@
+{
+  "revision": "academy-hormonaly-00061-7lk",
+  "health": {
+    "app": "ok",
+    "db": "ok"
+  },
+  "unauthenticated": {
+    "/api/certificate": 401,
+    "/api/certificate/pdf": 401
+  },
+  "imageRendererBuild": "a5296742-73cb-43e8-887a-2e768a4a6b41",
+  "imageRenderer": "PASS",
+  "browserEnglishOctoberAvailability": "PASS",
+  "browserArabicOctoberAvailability": "PASS"
+}

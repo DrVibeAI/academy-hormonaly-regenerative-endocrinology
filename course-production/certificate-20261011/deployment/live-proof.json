@@ -1,0 +1,13 @@
+{
+  "url": "https://hormonaly.perceptors.ai",
+  "revision": "academy-hormonaly-00061-7lk",
+  "trafficPercent": 100,
+  "health": {
+    "app": "ok",
+    "db": "ok"
+  },
+  "unauthenticated": {
+    "/api/certificate": 401,
+    "/api/certificate/pdf": 401
+  }
+}

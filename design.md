@@ -49,3 +49,5 @@ Certificate revision 4: owner approved revision 3 and requested Fady/Hormonaly a
 Certificate release: from November 1, 2026 at Los Angeles midnight, only with recorded GCLS approval/ID and a positive current course price. Module and final-check requirements remain. October free-enrollee payment policy is pending clarification. Release gate implemented and validated locally; not deployed. Details: `course-production/certificate-20261011/README.md`.
 
 Revision 5 supersedes the prior November-only lock: the October free course includes the redesigned Hormonaly completion certificate with Fady centered, no GCLS logo/text or Dominik signature. GCLS additions are reserved for a later November certified release. Current proofs: `course-production/certificate-20261011/v5-october/`. No deployment.
+
+Revision 5 published with Omar’s explicit approval on October 11, 2026: `academy-hormonaly-00061-7lk`, 100% traffic. Certificate QA, candidate/live checks and provenance: `course-production/certificate-20261011/README.md`.

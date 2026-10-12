@@ -1,6 +1,6 @@
 # Hormonaly certificate redesign — 11 October 2026
 
-Status: implemented and tested locally; latest preview is `v5-october/` with Fady only. The November-only lock is superseded by revision 5. No deployment and no credential issuance.
+Status: PUBLISHED on October 11, 2026, revision `academy-hormonaly-00061-7lk` at 100% traffic. Latest design: `v5-october/`, Fady only. See publication evidence below.
 
 ## Design
 Both institution logos, ivory paper, navy edge bands, fine gold double frame, a large faint Hormonaly orbit silhouette, centered award hierarchy, prominent learner name, and compact QR verification footer. Existing issuer/accreditation status stays authoritative. The GCLS mark retains the recorded GCLS AI Lab partner label and explanatory note.
@@ -64,3 +64,13 @@ Latest proofs: `v5-october/` (English, Arabic, long name). All three PDFs are on
 November: the approved two-signature design and original assets remain in `v4/` and prior Git history (`52cc977` academy, `7b8acc5` runtime). The GCLS additions can be restored from November 1, 2026 after confirmed certification and the paid-course launch. There is no automatic calendar switch in this October configuration; do not retrospectively rewrite old academy-issued records as GCLS credentials.
 
 Final revision 5 academy evaluation: all eight suites PASS in `../evals/report-2026-10-12T031845Z.md`, executed with the revision 5 working tree.
+
+## Published — October 11, 2026 (Los Angeles)
+
+Omar explicitly approved: “Yes, publish the October version with Fady’s signature and no GCLS branding or Dominik signature.” Published at https://hormonaly.perceptors.ai, revision `academy-hormonaly-00061-7lk`, 100% traffic. Previous revision: `academy-hormonaly-00060-g8s`. Runtime `b94c04bde457`; academy input `9a32cea64125`; both pushed to `release/hormonaly-october-certificate-20261011`. Existing Arabic release lineage retained.
+
+Image digest: `sha256:65f3a1f7b402b467eaf46a29aba7a76771e2120a883c54ccaa545a1ad4ae9c07`. Build `d316679c-9e22-431e-8099-90eb7b57f917`. Staged with `deploy/gcp.sh --candidate-only --skip-media`, then promoted the exact candidate with `--promote-revision=academy-hormonaly-00061-7lk`. Only the two required Hormonaly certificate images were uploaded; public bytes match the approved assets.
+
+Verification: deploy preflight/typecheck and all eight eval suites pass (`../evals/report-2026-10-12T032344Z.md`). Exact deployed-image renderer proof, build `a5296742-73cb-43e8-887a-2e768a4a6b41`, passes for English, Arabic, and a legacy completion record with GCLS issuer kind but no accreditation ID: one page, Fady present, no GCLS/Dominik text, required images/font available. These were in-memory sample proofs, with no learner records or certificates created. Both candidate and live health checks report app/db OK; certificate status and PDF endpoints return 401 without authentication. Candidate and live browser checks confirm English/Arabic October-included completion wording. Evidence is in `deployment/`.
+
+The October certificate is now live and included for free enrollees after normal completion and pass requirements. GCLS logo and Dominik signature remain reserved for a later November certified release; no automatic November switch was enabled.
