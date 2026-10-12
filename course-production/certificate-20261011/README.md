@@ -1,6 +1,6 @@
 # Hormonaly certificate redesign — 11 October 2026
 
-Status: implemented and tested locally; latest preview is `v4/` with signature blocks. No deployment and no credential issuance.
+Status: implemented and tested locally; latest preview is `v5-october/` with Fady only. The November-only lock is superseded by revision 5. No deployment and no credential issuance.
 
 ## Design
 Both institution logos, ivory paper, navy edge bands, fine gold double frame, a large faint Hormonaly orbit silhouette, centered award hierarchy, prominent learner name, and compact QR verification footer. Existing issuer/accreditation status stays authoritative. The GCLS mark retains the recorded GCLS AI Lab partner label and explanatory note.
@@ -52,3 +52,15 @@ Omar specified that this certificate becomes available only after November 1 onc
 The academy homepage and FAQ now state the conditional November release in English and Arabic. The signed-in certificate card explains pending conditions. This is a course-level paid-launch gate. Whether October's free enrollees must individually pay before receiving a certificate remains an open owner decision; no individual payment requirement or upgrade flow has been added.
 
 Validation: production build/typecheck passes; 13 focused certificate tests pass, including date boundary, missing accreditation, free/extended promotion, invalid configuration, and direct issuance blocked before database access. All eight standard academy suites pass: `../evals/report-2026-10-12T020251Z.md` (report records pre-commit HEAD; executed with the release-gate working tree). Latest visual proofs remain `v4/`. No deployment or credential issuance.
+
+## Revision 5 — October completion certificate (current owner decision)
+
+This supersedes the November-only release policy above. Omar requested that everyone taking the free October course can receive the improved Hormonaly certificate after the normal completion and assessment requirements. Keep the traditional thick border, dimensional ivory paper, orbit silhouette, medallion, Hormonaly logo, Fady signature treatment, learner details and verification QR. Remove the GCLS logo, Dominik signature, and associated GCLS partner text. Fady's single signature is centered. His typeset-mark provenance remains unchanged.
+
+The active academy configuration has no certificate release-date or paid-course gate. `accreditation.gcls` is false for academy-only issuance, and `site.certificatePartner: null` explicitly suppresses the shared platform's inherited GCLS partner name/note. Course package governance, catalog records, checkout pricing and October promotion are untouched. No learner must pay specifically to receive this October completion certificate. Historical issued records remain intact.
+
+Latest proofs: `v5-october/` (English, Arabic, long name). All three PDFs are one page, visually inspected, retain Fady, and contain no GCLS, Geneva College or Dominik text. The compiled October policy is open. Production build/typecheck and 13 certificate tests pass. No live deployment or credential issuance.
+
+November: the approved two-signature design and original assets remain in `v4/` and prior Git history (`52cc977` academy, `7b8acc5` runtime). The GCLS additions can be restored from November 1, 2026 after confirmed certification and the paid-course launch. There is no automatic calendar switch in this October configuration; do not retrospectively rewrite old academy-issued records as GCLS credentials.
+
+Final revision 5 academy evaluation: all eight suites PASS in `../evals/report-2026-10-12T031845Z.md`, executed with the revision 5 working tree.

@@ -21,18 +21,12 @@ brand:
     accentColor: "#142D4E"
     logo: ./assets/certificate/hormonaly-logo.png
     watermark: ./assets/certificate/hormonaly-orbit.png
-    partnerLogo: ./assets/certificate/gcls-logo.png
     signatures:
       - name: Fady Hannah-Shmouni, MD FRCPC
         role: { en: "Founder & CEO", ar: "المؤسس والرئيس التنفيذي" }
         institution: Hormonaly
         signatureText: Fady Hannah-Shmouni
         provenance: "Typeset signature-style mark requested by Omar; not a supplied handwritten signature."
-      - name: Dr. Dominik Thor, MSc
-        role: { en: President, ar: الرئيس }
-        institution: Geneva College of Longevity Science
-        signatureAssetRef: assets/signatures/dominik-thor.png
-        provenance: "Existing GCLS certificate signature: public/gcls/dthor-signature.png."
   logo: ""
   mark: ./assets/brand/hormonaly-mark-flat.svg
   favicon: ./assets/brand/hormonaly-app-icon.svg
@@ -244,30 +238,30 @@ home:
         ar-AE: هل تمنح الدورة ساعات معتمدة للتعليم الطبي المستمر (CME) أو التعليم
           المستمر (CE)؟
       a:
-        en: GCLS certification must be confirmed before certificates are released.
-          CME or CE credit is not offered at this time.
+        en: The October certificate is a Hormonaly Academy certificate of completion.
+          It does not confer GCLS accreditation. CME or CE credit is not offered at this time.
         ar-AE: النسخة العربية قيد المراجعة، ولم يُعتمد لها رصيد تعليم طبي أو مهني مستمر.
     - q:
         en: What do I get at the end?
         ar-AE: ما الذي سأحصل عليه عند إتمام الدورة؟
       a:
-        en: Complete all seven modules and pass the final check with 80% or more.
-          Certificates will be available from November 1, 2026, once GCLS certification
-          is confirmed and the paid course launches. Each certificate has a public verification code.
-        ar-AE: أكمل الوحدات السبع واجتز التقييم النهائي بنسبة 80% أو أكثر. تتاح الشهادات
-          اعتبارًا من 1 نوفمبر 2026، بعد تأكيد اعتماد GCLS وإطلاق الدورة المدفوعة.
-          تحمل كل شهادة رمز تحقق متاحًا للعامة.
+        en: Complete all seven modules and pass the final check with 80% or more to
+          receive your Hormonaly Academy certificate of completion, including during
+          October's free enrollment period. Each certificate has a public verification code.
+        ar-AE: أكمل الوحدات السبع واجتز التقييم النهائي بنسبة 80% أو أكثر لتحصل على
+          شهادة إتمام من أكاديمية Hormonaly، بما في ذلك خلال فترة التسجيل المجاني
+          في أكتوبر. تحمل كل شهادة رمز تحقق متاحًا للعامة.
   certificate:
     title:
       en: Certificate of completion
       ar-AE: شهادة إتمام الدورة
     body:
-      en: Available from November 1, 2026, once GCLS certification is confirmed and the paid
-        course launches. Complete all seven modules and pass the final check to qualify.
-      ar-AE: متاحة اعتبارًا من 1 نوفمبر 2026، بعد تأكيد اعتماد GCLS وإطلاق الدورة المدفوعة.
-        يلزم إكمال الوحدات السبع واجتياز التقييم النهائي.
-      ar: متاحة اعتبارًا من 1 نوفمبر 2026، بعد تأكيد اعتماد GCLS وإطلاق الدورة المدفوعة.
-        يلزم إكمال الوحدات السبع واجتياز التقييم النهائي.
+      en: Complete all seven modules and pass the final check to receive your Hormonaly
+        Academy certificate of completion. Included during October's free enrollment period.
+      ar-AE: أكمل الوحدات السبع واجتز التقييم النهائي لتحصل على شهادة إتمام من أكاديمية
+        Hormonaly. الشهادة مشمولة خلال فترة التسجيل المجاني في أكتوبر.
+      ar: أكمل الوحدات السبع واجتز التقييم النهائي لتحصل على شهادة إتمام من أكاديمية
+        Hormonaly. الشهادة مشمولة خلال فترة التسجيل المجاني في أكتوبر.
     image:
       src: /assets/hormones-peptides-skin/ui/evidence-desk.jpg
       alt:
@@ -358,11 +352,6 @@ catalog:
             ar-AE: سجّل مجانًا
     certificate:
       access: included
-      release:
-        availableFrom: '2026-11-01T00:00:00-07:00'
-        timeZone: America/Los_Angeles
-        requireGclsAccreditation: true
-        requirePaidCourse: true
     final:
       by: Omar Saleem (product owner)
       date: 2026-09-25
@@ -875,7 +864,7 @@ localization:
           ar-AE: المراجعة قيد الانتظار
   defaultCountry: AE
 accreditation:
-  gcls: true
+  gcls: false
   reviewAccessDays: 30
   reviewers:
     - email: d.thor@gcls.study
@@ -912,6 +901,7 @@ editing:
     - ./assets/brand/hormonaly-mark-flat.svg
     - ./assets/brand/hormonaly-app-icon.svg
 site:
+  certificatePartner: null # October completion certificate: suppress inherited GCLS partner text.
   contact:
     organization: Perceptors · GCLS AI Lab
     email: support@perceptors.ai
@@ -928,11 +918,6 @@ site:
       - label: LinkedIn · GCLS
         handle: Geneva College of Longevity Science
         url: https://www.linkedin.com/company/geneva-college-of-longevity-science
-  certificatePartner:
-    name: GCLS AI Lab
-    note:
-      en: Learning technology partner. This mark does not confer GCLS accreditation.
-      ar: شريك تقنيات التعلم. لا تمنح هذه العلامة اعتماد GCLS.
   terms:
     version: 2026-10-03-v2-ar-review-20261007
     updated: October 3, 2026
