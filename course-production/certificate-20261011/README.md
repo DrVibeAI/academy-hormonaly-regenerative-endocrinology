@@ -1,6 +1,6 @@
 # Hormonaly certificate redesign — 11 October 2026
 
-Status: implemented and tested locally; design preview only. No deployment and no credential issuance.
+Status: implemented and tested locally; latest preview is `v4/` with signature blocks. No deployment and no credential issuance.
 
 ## Design
 Both institution logos, ivory paper, navy edge bands, fine gold double frame, a large faint Hormonaly orbit silhouette, centered award hierarchy, prominent learner name, and compact QR verification footer. Existing issuer/accreditation status stays authoritative. The GCLS mark retains the recorded GCLS AI Lab partner label and explanatory note.
@@ -36,3 +36,11 @@ Owner requested a nicer thicker border and more 3D feel. The current implementat
 ## Revision 3 — traditional border, dimensional certificate
 
 Owner clarified that the border should be traditional and thicker, with depth in the certificate itself. Revision 2's beveled frame is superseded. The current version has flat navy/gold printed rules, engraved chain detail and ornamental corners, with softly shaded ivory paper, a shallow dimensional watermark and an embossed brand medallion. Current proofs: `v3/`. Build/typecheck and six certificate tests pass. No deployment.
+
+## Revision 4 — signature blocks
+
+Omar approved revision 3's direction and requested Fady for Hormonaly and Dominik for GCLS. No Fady signature was found; Omar explicitly replied, “Don’t think we do. You can create one for him.” His mark is therefore a new typeset signature-style name in Allura, not a supplied handwritten autograph or evidence of personal signing. This provenance is also in `academy.yaml`. Dominik uses the existing GCLS `dthor-signature.png` asset, copied unchanged. Roles: Fady Hannah-Shmouni, MD FRCPC — Founder & CEO, Hormonaly; Dr. Dominik Thor, MSc — President, Geneva College of Longevity Science.
+
+The generic renderer supports configured signature images and designed name treatments, retains credential signature fallback, and fails on a missing declared signature image. Academy preparation copies and validates signature assets. The script font is Allura (Google Fonts), bundled with its SIL Open Font License. Signature presentation does not alter certificate issuer/accreditation records.
+
+Production build/typecheck and eight focused certificate tests pass. English, Arabic, and long-name proofs are one-page A4 landscape and visually reviewed; QR still decodes to verification home for the sample. Current proofs are in `v4/`. Not deployed or issued.

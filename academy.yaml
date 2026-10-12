@@ -22,6 +22,17 @@ brand:
     logo: ./assets/certificate/hormonaly-logo.png
     watermark: ./assets/certificate/hormonaly-orbit.png
     partnerLogo: ./assets/certificate/gcls-logo.png
+    signatures:
+      - name: Fady Hannah-Shmouni, MD FRCPC
+        role: { en: "Founder & CEO", ar: "المؤسس والرئيس التنفيذي" }
+        institution: Hormonaly
+        signatureText: Fady Hannah-Shmouni
+        provenance: "Typeset signature-style mark requested by Omar; not a supplied handwritten signature."
+      - name: Dr. Dominik Thor, MSc
+        role: { en: President, ar: الرئيس }
+        institution: Geneva College of Longevity Science
+        signatureAssetRef: assets/signatures/dominik-thor.png
+        provenance: "Existing GCLS certificate signature: public/gcls/dthor-signature.png."
   logo: ""
   mark: ./assets/brand/hormonaly-mark-flat.svg
   favicon: ./assets/brand/hormonaly-app-icon.svg
