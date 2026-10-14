@@ -183,7 +183,7 @@ home:
           ar-AE: مدرّس يجيب استناداً إلى الدورة ومصادرها، ويوضح متى يكون السؤال خارج
             نطاقهما.
   reviewers:
-    - name: Fady Hannah-Shmouni, MD FRCPC
+    - name: Fady Hannah-Shmouni, MD, FRCPC, ABIM
       role:
         en: Medical review · author of the Hormonaly pocket guides on aesthetic and
           regenerative endocrinology and on peptides
@@ -193,7 +193,7 @@ home:
       en: Faculty & advisory
       ar-AE: هيئة التدريس والمجلس الاستشاري
     items:
-      - name: Fady Hannah-Shmouni, MD FRCPC
+      - name: Fady Hannah-Shmouni, MD, FRCPC, ABIM
         designation:
           en: Faculty · Medical review
           ar-AE: هيئة التدريس · المراجعة الطبية
@@ -207,11 +207,17 @@ home:
         designation:
           en: Advisory
           ar-AE: المجلس الاستشاري
+        role:
+          en: President of the Geneva College of Longevity Science.
+          ar-AE: رئيس كلية جنيف لعلوم طول العمر.
         image: assets/faculty/dominik-thor-wide.png
       - name: Omar Saleem
         designation:
           en: Advisory
           ar-AE: المجلس الاستشاري
+        role:
+          en: Physician and AI builder focused on clinician-first healthcare workflows.
+          ar-AE: طبيب ومطوّر للذكاء الاصطناعي يركّز على مسارات العمل للممارسين السريريين.
         image: assets/faculty/omar-saleem-wide.png
   faq:
     - q:
