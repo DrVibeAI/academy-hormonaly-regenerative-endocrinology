@@ -1,6 +1,6 @@
 # Hormonaly certificate redesign — 11 October 2026
 
-Status: PUBLISHED on October 11, 2026, revision `academy-hormonaly-00061-7lk` at 100% traffic. Latest design: `v5-october/`, Fady only. See publication evidence below.
+Status: ACTIVE October 15, 2026, revision `academy-hormonaly-00063-fb7` at 100% traffic. Latest design: `v6-gcls-ai-academy-20261015/`, with both signatures and GCLS AI Academy as education partner. See current activation evidence below.
 
 ## Design
 Both institution logos, ivory paper, navy edge bands, fine gold double frame, a large faint Hormonaly orbit silhouette, centered award hierarchy, prominent learner name, and compact QR verification footer. Existing issuer/accreditation status stays authoritative. The GCLS mark retains the recorded GCLS AI Lab partner label and explanatory note.
@@ -77,6 +77,14 @@ The October certificate is now live and included for free enrollees after normal
 
 ## Revision 6 — GCLS AI Academy partner certificate, October 15, 2026
 
-Omar requested activation from today with GCLS AI Academy. Restore the approved GCLS logo and Dominik signature beside Fady, and explicitly label GCLS AI Academy as education partner. The clarification about full accreditation has not been answered; this version makes no formal accreditation claim and leaves package governance and academy issuer unchanged. No November or payment gate is introduced. Original issue dates and verification records remain authoritative.
+Omar requested activation from today with GCLS AI Academy. Restore the approved GCLS logo and Dominik signature beside Fady, and explicitly label GCLS AI Academy as education partner. Omar subsequently confirmed the education-partner version; it makes no formal accreditation claim and leaves package governance and academy issuer unchanged. No November or payment gate is introduced. Original issue dates and verification records remain authoritative.
 
 Preserves the latest live `00062-4kb` source: runtime `1725ef8d8f30`, academy `dd69f9a9af79` (enrollment, Arabic navigation and faculty corrections). EN/AR PDFs visually reviewed; build/typecheck and all 13 certificate tests pass. Proofs: `v6-gcls-ai-academy-20261015/`. Deployment evidence will be recorded in `deployment-20261015/`.
+
+## Activated — October 15, 2026 (Los Angeles)
+
+Omar confirmed: “Education partner with logo and Dominik’s signature.” GCLS AI Academy is the education partner, with the GCLS logo and Dominik signature alongside Fady. This supersedes the October-only branding restriction and planned November wait. Existing completion/pass requirements remain, with no payment prerequisite for current October enrollees. Formal accreditation, issuer records, issue dates and verification codes are unchanged.
+
+LIVE at https://hormonaly.perceptors.ai on `academy-hormonaly-00063-fb7`, 100% traffic, replacing `00062-4kb`. Runtime `1725ef8d8f30` preserves current enrollment and Arabic navigation fixes; academy input `58477599046c` preserves current faculty corrections. Academy source pushed to `release/hormonaly-gcls-certificate-20261015`. Image `sha256:bc6f6618ac719762cbd764c9e62abcb0055458953db308b41902f9d7c94ebcbe`; build `160bcf32-5138-424f-b581-f25cbf67ddc2`.
+
+Build/typecheck, 13 certificate tests and all eight academy eval suites pass (`../evals/report-2026-10-15T202319Z.md`). English/Arabic design previews visually reviewed. Exact-image proof build `a4e15846-ded4-4886-9c58-a57b84591040` validates both signatures, GCLS AI Academy label, available assets, open certificate policy, and one-page EN/AR/legacy-record outputs. No learner certificates were issued during testing. The candidate was promoted via `deploy/gcp.sh --promote-revision=academy-hormonaly-00063-fb7`. Public health is app/db OK; status/PDF endpoints return 401 unsigned; public asset bundle matches the tested candidate. Evidence: `deployment-20261015/`.

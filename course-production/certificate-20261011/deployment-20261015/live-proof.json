@@ -1,0 +1,15 @@
+{
+  "url": "https://hormonaly.perceptors.ai",
+  "effectiveDate": "2026-10-15",
+  "revision": "academy-hormonaly-00063-fb7",
+  "trafficPercent": 100,
+  "health": {
+    "app": "ok",
+    "db": "ok"
+  },
+  "unauthenticated": {
+    "/api/certificate": 401,
+    "/api/certificate/pdf": 401
+  },
+  "candidateBundleMatches": true
+}

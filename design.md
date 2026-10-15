@@ -53,3 +53,5 @@ Revision 5 supersedes the prior November-only lock: the October free course incl
 Revision 5 published with Omar’s explicit approval on October 11, 2026: `academy-hormonaly-00061-7lk`, 100% traffic. Certificate QA, candidate/live checks and provenance: `course-production/certificate-20261011/README.md`.
 
 2026-10-15: owner requested activation with GCLS AI Academy today. Revision 6 restores both logos and signatures, names GCLS AI Academy as education partner, and retains Hormonaly completion issuance. Course completion/pass requirements remain; no paid or November gate. See certificate handoff for release evidence.
+
+Revision 6 activated October 15, 2026 with the owner’s explicit education-partner confirmation: `academy-hormonaly-00063-fb7`, 100% traffic. Both signatures and GCLS AI Academy branding are live.

@@ -1,0 +1,13 @@
+{
+  "revision": "academy-hormonaly-00063-fb7",
+  "health": {
+    "app": "ok",
+    "db": "ok"
+  },
+  "unauthenticated": {
+    "/api/certificate": 401,
+    "/api/certificate/pdf": 401
+  },
+  "bundle": "/assets/index-Cbg9Qp2_.js",
+  "gclsAiAcademyPartnerCopy": true
+}
