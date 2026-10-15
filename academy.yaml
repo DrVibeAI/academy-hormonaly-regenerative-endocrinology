@@ -21,12 +21,18 @@ brand:
     accentColor: "#142D4E"
     logo: ./assets/certificate/hormonaly-logo.png
     watermark: ./assets/certificate/hormonaly-orbit.png
+    partnerLogo: ./assets/certificate/gcls-logo.png
     signatures:
       - name: Fady Hannah-Shmouni, MD FRCPC
         role: { en: "Founder & CEO", ar: "المؤسس والرئيس التنفيذي" }
         institution: Hormonaly
         signatureText: Fady Hannah-Shmouni
         provenance: "Typeset signature-style mark requested by Omar; not a supplied handwritten signature."
+      - name: Dr. Dominik Thor, MSc
+        role: { en: President, ar: الرئيس }
+        institution: Geneva College of Longevity Science
+        signatureAssetRef: assets/signatures/dominik-thor.png
+        provenance: "Existing GCLS certificate signature: public/gcls/dthor-signature.png."
   logo: ""
   mark: ./assets/brand/hormonaly-mark-flat.svg
   favicon: ./assets/brand/hormonaly-app-icon.svg
@@ -244,8 +250,8 @@ home:
         ar-AE: هل تمنح الدورة ساعات معتمدة للتعليم الطبي المستمر (CME) أو التعليم
           المستمر (CE)؟
       a:
-        en: The October certificate is a Hormonaly Academy certificate of completion.
-          It does not confer GCLS accreditation. CME or CE credit is not offered at this time.
+        en: This is a Hormonaly Academy certificate of completion, with GCLS AI Academy
+          as education partner. CME or CE credit is not offered at this time.
         ar-AE: النسخة العربية قيد المراجعة، ولم يُعتمد لها رصيد تعليم طبي أو مهني مستمر.
     - q:
         en: What do I get at the end?
@@ -907,7 +913,11 @@ editing:
     - ./assets/brand/hormonaly-mark-flat.svg
     - ./assets/brand/hormonaly-app-icon.svg
 site:
-  certificatePartner: null # October completion certificate: suppress inherited GCLS partner text.
+  certificatePartner:
+    name: GCLS AI Academy
+    note:
+      en: Education partner · GCLS AI Academy
+      ar: الشريك التعليمي · GCLS AI Academy
   contact:
     organization: Perceptors · GCLS AI Lab
     email: support@perceptors.ai

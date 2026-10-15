@@ -74,3 +74,9 @@ Image digest: `sha256:65f3a1f7b402b467eaf46a29aba7a76771e2120a883c54ccaa545a1ad4
 Verification: deploy preflight/typecheck and all eight eval suites pass (`../evals/report-2026-10-12T032344Z.md`). Exact deployed-image renderer proof, build `a5296742-73cb-43e8-887a-2e768a4a6b41`, passes for English, Arabic, and a legacy completion record with GCLS issuer kind but no accreditation ID: one page, Fady present, no GCLS/Dominik text, required images/font available. These were in-memory sample proofs, with no learner records or certificates created. Both candidate and live health checks report app/db OK; certificate status and PDF endpoints return 401 without authentication. Candidate and live browser checks confirm English/Arabic October-included completion wording. Evidence is in `deployment/`.
 
 The October certificate is now live and included for free enrollees after normal completion and pass requirements. GCLS logo and Dominik signature remain reserved for a later November certified release; no automatic November switch was enabled.
+
+## Revision 6 — GCLS AI Academy partner certificate, October 15, 2026
+
+Omar requested activation from today with GCLS AI Academy. Restore the approved GCLS logo and Dominik signature beside Fady, and explicitly label GCLS AI Academy as education partner. The clarification about full accreditation has not been answered; this version makes no formal accreditation claim and leaves package governance and academy issuer unchanged. No November or payment gate is introduced. Original issue dates and verification records remain authoritative.
+
+Preserves the latest live `00062-4kb` source: runtime `1725ef8d8f30`, academy `dd69f9a9af79` (enrollment, Arabic navigation and faculty corrections). EN/AR PDFs visually reviewed; build/typecheck and all 13 certificate tests pass. Proofs: `v6-gcls-ai-academy-20261015/`. Deployment evidence will be recorded in `deployment-20261015/`.

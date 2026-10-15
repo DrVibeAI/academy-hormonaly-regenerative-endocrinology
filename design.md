@@ -51,3 +51,5 @@ Certificate release: from November 1, 2026 at Los Angeles midnight, only with re
 Revision 5 supersedes the prior November-only lock: the October free course includes the redesigned Hormonaly completion certificate with Fady centered, no GCLS logo/text or Dominik signature. GCLS additions are reserved for a later November certified release. Current proofs: `course-production/certificate-20261011/v5-october/`. No deployment.
 
 Revision 5 published with Omar’s explicit approval on October 11, 2026: `academy-hormonaly-00061-7lk`, 100% traffic. Certificate QA, candidate/live checks and provenance: `course-production/certificate-20261011/README.md`.
+
+2026-10-15: owner requested activation with GCLS AI Academy today. Revision 6 restores both logos and signatures, names GCLS AI Academy as education partner, and retains Hormonaly completion issuance. Course completion/pass requirements remain; no paid or November gate. See certificate handoff for release evidence.
