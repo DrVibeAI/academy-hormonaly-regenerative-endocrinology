@@ -1,0 +1,195 @@
+{
+ "schema": "perceptor.narration-alignment/1",
+ "audio": "b3.en.9adb1711.mp3",
+ "locale": "en",
+ "text": "Daily sunscreen and topical retinoids, by contrast, have randomised trials with visible skin outcomes. The Aesthetic and Regenerative Endocrinology guide advises keeping senolytics within clinical trials.",
+ "text_sha256": "d260348eb5130ec20b32065f36fed73db89479a4a2cc6bf78f50ff09822dd621",
+ "duration_seconds": 15.52,
+ "engine": {
+  "tool": "elevenlabs-scribe",
+  "model": "scribe_v1",
+  "synthesis": {
+   "provider": "gemini-tts",
+   "model": "gemini-3.8-flash-tts",
+   "voice": "en-gb-tutor-1",
+   "key": "9adb1711126b7020ce88987a85a34efda60d2fdafb5819edf4761f4e248dec1b"
+  }
+ },
+ "generated_at": "2026-09-28T04:43:27.544Z",
+ "stats": {
+  "tokens": 26,
+  "spoken_tokens": 26,
+  "matched": 25,
+  "mismatched": 1,
+  "interpolated": 0,
+  "unmatched_heard": 0,
+  "match_rate": 0.962,
+  "first_word_start": 0.34,
+  "last_word_end": 15.06
+ },
+ "words": [
+  {
+   "text": "Daily",
+   "start": 0.34,
+   "end": 0.74
+  },
+  {
+   "text": "sunscreen",
+   "start": 0.82,
+   "end": 1.52
+  },
+  {
+   "text": "and",
+   "start": 1.86,
+   "end": 2.08
+  },
+  {
+   "text": "topical",
+   "start": 2.24,
+   "end": 2.62
+  },
+  {
+   "text": "retinoids,",
+   "start": 2.7,
+   "end": 3.3
+  },
+  {
+   "text": "by",
+   "start": 3.4,
+   "end": 3.52
+  },
+  {
+   "text": "contrast,",
+   "start": 3.56,
+   "end": 4.12
+  },
+  {
+   "text": "have",
+   "start": 4.64,
+   "end": 4.86
+  },
+  {
+   "text": "randomised",
+   "start": 4.92,
+   "end": 5.54,
+   "matched": false,
+   "heard": "randomized"
+  },
+  {
+   "text": "trials",
+   "start": 5.62,
+   "end": 6.14
+  },
+  {
+   "text": "with",
+   "start": 6.2,
+   "end": 6.32
+  },
+  {
+   "text": "visible",
+   "start": 6.5,
+   "end": 6.84
+  },
+  {
+   "text": "skin",
+   "start": 6.98,
+   "end": 7.2
+  },
+  {
+   "text": "outcomes.",
+   "start": 7.28,
+   "end": 7.78
+  },
+  {
+   "text": "The",
+   "start": 8.62,
+   "end": 8.76
+  },
+  {
+   "text": "Aesthetic",
+   "start": 8.8,
+   "end": 9.48
+  },
+  {
+   "text": "and",
+   "start": 9.52,
+   "end": 9.64
+  },
+  {
+   "text": "Regenerative",
+   "start": 9.7,
+   "end": 10.32
+  },
+  {
+   "text": "Endocrinology",
+   "start": 10.46,
+   "end": 11.22
+  },
+  {
+   "text": "guide",
+   "start": 11.32,
+   "end": 11.6
+  },
+  {
+   "text": "advises",
+   "start": 11.98,
+   "end": 12.48
+  },
+  {
+   "text": "keeping",
+   "start": 12.58,
+   "end": 12.84
+  },
+  {
+   "text": "senolytics",
+   "start": 13,
+   "end": 13.58
+  },
+  {
+   "text": "within",
+   "start": 13.76,
+   "end": 14.1
+  },
+  {
+   "text": "clinical",
+   "start": 14.16,
+   "end": 14.54
+  },
+  {
+   "text": "trials.",
+   "start": 14.64,
+   "end": 15.06
+  }
+ ],
+ "mismatches": [
+  {
+   "index": 8,
+   "canonical": "randomised",
+   "heard": "randomized",
+   "start": 4.92
+  }
+ ],
+ "unmatched_heard": [],
+ "cues": [
+  {
+   "text": "Daily sunscreen and topical retinoids, by contrast,",
+   "at": 0.34,
+   "until": 4.42
+  },
+  {
+   "text": "have randomised trials with visible skin outcomes.",
+   "at": 4.64,
+   "until": 8.08
+  },
+  {
+   "text": "The Aesthetic and Regenerative Endocrinology guide",
+   "at": 8.62,
+   "until": 11.9
+  },
+  {
+   "text": "advises keeping senolytics within clinical trials.",
+   "at": 11.98,
+   "until": 15.36
+  }
+ ]
+}

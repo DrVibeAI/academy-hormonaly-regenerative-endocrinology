@@ -1,0 +1,235 @@
+{
+ "schema": "perceptor.narration-alignment/1",
+ "audio": "b2.en.6dd9f978.mp3",
+ "locale": "en",
+ "text": "A senescent cell has stopped dividing for good but stays metabolically active, releasing cytokines, matrix-degrading enzymes and growth factors: the senescence-associated secretory phenotype, or SASP. The SASP was characterised in cultured cells.",
+ "text_sha256": "58f9d63d872510c7c0d6ef5d7d4c6788ee115b06a2d0c8ab72ad920d6ca95a4a",
+ "duration_seconds": 19.96,
+ "engine": {
+  "tool": "elevenlabs-scribe",
+  "model": "scribe_v1",
+  "synthesis": {
+   "provider": "gemini-tts",
+   "model": "gemini-3.8-flash-tts",
+   "voice": "en-gb-tutor-1",
+   "key": "6dd9f9783c848396de5aa96845b65e8ac6405e57700002a25bf319b3dae16194"
+  }
+ },
+ "generated_at": "2026-09-28T04:42:35.661Z",
+ "stats": {
+  "tokens": 32,
+  "spoken_tokens": 32,
+  "matched": 31,
+  "mismatched": 1,
+  "interpolated": 0,
+  "unmatched_heard": 0,
+  "match_rate": 0.969,
+  "first_word_start": 0.34,
+  "last_word_end": 19.62
+ },
+ "words": [
+  {
+   "text": "A",
+   "start": 0.34,
+   "end": 0.4
+  },
+  {
+   "text": "senescent",
+   "start": 0.48,
+   "end": 1.06
+  },
+  {
+   "text": "cell",
+   "start": 1.12,
+   "end": 1.46
+  },
+  {
+   "text": "has",
+   "start": 1.54,
+   "end": 1.76
+  },
+  {
+   "text": "stopped",
+   "start": 1.9,
+   "end": 2.24
+  },
+  {
+   "text": "dividing",
+   "start": 2.28,
+   "end": 2.82
+  },
+  {
+   "text": "for",
+   "start": 2.86,
+   "end": 2.96
+  },
+  {
+   "text": "good",
+   "start": 3.02,
+   "end": 3.28
+  },
+  {
+   "text": "but",
+   "start": 3.74,
+   "end": 3.92
+  },
+  {
+   "text": "stays",
+   "start": 4.04,
+   "end": 4.5
+  },
+  {
+   "text": "metabolically",
+   "start": 4.58,
+   "end": 5.26
+  },
+  {
+   "text": "active,",
+   "start": 5.36,
+   "end": 5.82
+  },
+  {
+   "text": "releasing",
+   "start": 6.1,
+   "end": 6.66
+  },
+  {
+   "text": "cytokines,",
+   "start": 6.82,
+   "end": 7.64
+  },
+  {
+   "text": "matrix-degrading",
+   "start": 8.119,
+   "end": 9.1
+  },
+  {
+   "text": "enzymes",
+   "start": 9.18,
+   "end": 9.86
+  },
+  {
+   "text": "and",
+   "start": 10.04,
+   "end": 10.2
+  },
+  {
+   "text": "growth",
+   "start": 10.3,
+   "end": 10.58
+  },
+  {
+   "text": "factors:",
+   "start": 10.62,
+   "end": 11.06
+  },
+  {
+   "text": "the",
+   "start": 11.68,
+   "end": 11.8
+  },
+  {
+   "text": "senescence-associated",
+   "start": 11.88,
+   "end": 13.36
+  },
+  {
+   "text": "secretory",
+   "start": 13.54,
+   "end": 13.98
+  },
+  {
+   "text": "phenotype,",
+   "start": 14.08,
+   "end": 14.68
+  },
+  {
+   "text": "or",
+   "start": 14.96,
+   "end": 15.12
+  },
+  {
+   "text": "SASP.",
+   "start": 15.32,
+   "end": 15.76
+  },
+  {
+   "text": "The",
+   "start": 16.62,
+   "end": 16.72
+  },
+  {
+   "text": "SASP",
+   "start": 16.78,
+   "end": 17.38
+  },
+  {
+   "text": "was",
+   "start": 17.44,
+   "end": 17.58
+  },
+  {
+   "text": "characterised",
+   "start": 17.64,
+   "end": 18.5,
+   "matched": false,
+   "heard": "characterized"
+  },
+  {
+   "text": "in",
+   "start": 18.58,
+   "end": 18.7
+  },
+  {
+   "text": "cultured",
+   "start": 18.78,
+   "end": 19.16
+  },
+  {
+   "text": "cells.",
+   "start": 19.26,
+   "end": 19.62
+  }
+ ],
+ "mismatches": [
+  {
+   "index": 28,
+   "canonical": "characterised",
+   "heard": "characterized",
+   "start": 17.64
+  }
+ ],
+ "unmatched_heard": [],
+ "cues": [
+  {
+   "text": "A senescent cell has stopped dividing",
+   "at": 0.34,
+   "until": 2.86
+  },
+  {
+   "text": "for good but stays metabolically active,",
+   "at": 2.86,
+   "until": 6.1
+  },
+  {
+   "text": "releasing cytokines,",
+   "at": 6.1,
+   "until": 7.94
+  },
+  {
+   "text": "matrix-degrading enzymes and growth factors:",
+   "at": 8.119,
+   "until": 11.36
+  },
+  {
+   "text": "the senescence-associated secretory phenotype, or SASP.",
+   "at": 11.68,
+   "until": 16.06
+  },
+  {
+   "text": "The SASP was characterised in cultured cells.",
+   "at": 16.62,
+   "until": 19.92
+  }
+ ]
+}

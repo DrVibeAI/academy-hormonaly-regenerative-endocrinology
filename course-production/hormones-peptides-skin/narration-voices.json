@@ -1,0 +1,10 @@
+{
+ "_note": "Voice registry for narrated cards (perceptor-foundry tools/narration/beats.mjs, templates/microlearning/SITTING-DESIGN.md § 6). Omar, 2026-09-28: \"use gemini 3.8 tts across, even if it means redoing them\" — every narrated card is voiced with Gemini 3.8 Flash TTS; the films keep the audio they were approved with. en-gb-tutor-1 and its delivery style are the module opening films' (video/cinematic/m0N-opener.storyboard.json → voice; Omar's pick 2026-09-25). A locale without a gemini-tts entry is refused, never voiced with a fallback. All narration is a draft until its media preview.",
+ "en": {
+  "provider": "gemini-tts",
+  "voice_id": "en-gb-tutor-1",
+  "model": "gemini-3.8-flash-tts",
+  "name": "Gemini 3.8 TTS · en-gb-tutor-1 (the Skin films' voice, Omar's pick 2026-09-25)",
+  "style": "Warm, clear and precise clinical educator speaking to physicians. Natural, unhurried pace. Pronounce every medical and chemical term carefully and confidently."
+ }
+}
