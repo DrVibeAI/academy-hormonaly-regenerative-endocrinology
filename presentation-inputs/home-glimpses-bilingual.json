@@ -4,8 +4,8 @@
   "brandFingerprint": "087d01f11541736bd5a1e0fbb5118d3520c33845ad8fd0a9f7ec43730d19e44d",
   "course": "packages/hormones-peptides-skin.ar-AE.json",
   "packageSha256": "974586841d3b97fa5c9a1e4e48ca95ef8108c4b3db9722e5994c269a25db4efa",
-  "capturedAt": "2026-10-16T17:24:27.396Z",
-  "sourceRuntimeCommit": "b8f4113",
+  "capturedAt": "2026-10-16T17:42:27.672124+00:00",
+  "sourceRuntimeCommit": "f9f8219",
   "viewport": {
     "width": 390,
     "height": 844
@@ -19,7 +19,7 @@
       "lesson": 1,
       "pane": 0,
       "view": "course",
-      "sha256": "1f85bd03dcec067392ecce404d54baace8f9a7161f33682d398ea28e8872fe52"
+      "sha256": "0618069e278ab855c27f74de3eb36d825f914f32dc55e3adf600ca6db581154d"
     },
     {
       "locale": "ar",
@@ -27,7 +27,7 @@
       "lesson": 1,
       "pane": 0,
       "view": "course",
-      "sha256": "c54ef9bdbfc72bd4bfa13aa6e4795fbef7ef8af600b69b215dea0c5d6d2a0220"
+      "sha256": "59e63dfedf3c674bfbc276f60f8c0511a718b14eb32ad76b7d08124dccf6de9a"
     },
     {
       "locale": "en",
@@ -35,7 +35,7 @@
       "lesson": 1,
       "pane": 3,
       "view": "lesson",
-      "sha256": "5b37ee639226cba75de214d1e546c2496f53e68cdcabe2c5d145bca1333bc521"
+      "sha256": "5a7701bbc6561734cbf5f1171fd986d2fcbf22d2289824a1798c6431d70bd562"
     },
     {
       "locale": "ar",
@@ -43,7 +43,7 @@
       "lesson": 1,
       "pane": 3,
       "view": "lesson",
-      "sha256": "9b07f1106ce6defd7662cfdecc1bd23d4ab155cb11a6274e61fc0223e111d712"
+      "sha256": "41ff89f2e413c3cb5eb9ccefa0480db4609a4b86ce4613dbc8fdd049915259d1"
     },
     {
       "locale": "en",
@@ -51,7 +51,7 @@
       "lesson": 1,
       "pane": 6,
       "view": "lesson",
-      "sha256": "561ff9a610e2cee566d59ec27ebdb8f94bc42dafe97006143bc6a531bcf06bd1"
+      "sha256": "3eacbe87977342ccd33630bff0ca822a8c71b2a04828e2fa3d9f8ebbd240f4fd"
     },
     {
       "locale": "ar",
@@ -59,8 +59,8 @@
       "lesson": 1,
       "pane": 6,
       "view": "lesson",
-      "sha256": "cf8d43dc07eb9132c47223b5346a98c1da1d9933a6a4cf8e76dfc0138380c9ce"
+      "sha256": "616fe8dabb68a826c2041d2517650e06cb6aa3d60db4e0bbd0fd94a31eac0735"
     }
   ],
-  "sourceRuntimeNote": "Course captures made while the brand-v2 changes were in the working tree; committed as b8f4113. Subsequent commit only adjusts homepage anchor navigation."
+  "sourceRuntimeNote": "Actual learner captures match f9f8219. Later commits 77ac0da and 573706e refine only the public homepage navigation. Browser JPEG captures were losslessly re-encoded as PNG for the configured PNG paths."
 }

@@ -3,7 +3,7 @@
 ## Status
 Implemented locally on `fix/hormonaly-brand-v2-20261016`. Production has not been changed by this update. The existing production release remains the November 30 offer extension. This is an implementation specimen for owner review, not a new accreditation or medical approval.
 
-Runtime: `fe039e58dbf1425e2b90fa0cc00fd1f52f209a78`. Academy: this commit's inputs. Design source and extraction details: [SOURCE.md](SOURCE.md).
+Runtime: `573706e112d83526a142fa5c5f105543012327f8` (includes the follow-up product UI refinement below). Academy: this commit's inputs. Design source and extraction details: [SOURCE.md](SOURCE.md).
 
 ## Applied
 - Supplied v2 wordmark, near-black orbit/favicon, neutral canvas, white surfaces, blue link/selection colour, lilac accent, and Ink primary buttons.
@@ -36,3 +36,18 @@ Runtime: `fe039e58dbf1425e2b90fa0cc00fd1f52f209a78`. Academy: this commit's inpu
 - Home: http://127.0.0.1:5199/?home#inside
 - Course: http://127.0.0.1:5199/?capture#/course
 - Production-built sign-in: http://127.0.0.1:5200/login
+
+## Follow-up: modern Apple-like product UI
+Owner direction: “make sure to Apply a modern apple product like UI across all elements”. The supplied brand typography, palette, logos and clinical content remain authoritative.
+
+- Shared navigation uses subtle translucency with an opaque fallback and reduced-transparency support. Selected destinations have a restrained inset treatment; controls retain keyboard focus and reduced-motion support.
+- Modules are a continuous grouped list with inset separators, neutral metadata and 44px actions. Individual nested card shadows and lifting rows are removed.
+- Resource/locale segments, account sheets, grouped settings, forms, admin tables, Guide bubbles and homepage framing share the same surface hierarchy and touch sizes.
+- The lesson footer keeps its card width, restores its progress counter on mobile, and gives Next a compact pill instead of a full-width bar.
+- Restored the final-check and certificate rows hidden by the legacy mobile stylesheet. Their existing enrollment/completion gates remain intact.
+- Mobile homepage header places the language selector beside the logo and all section links plus Sign in on the row below. Both reading directions fit within 390px.
+- Six actual course captures and both 1200 × 630 sharing images are refreshed. All configured PNG files contain PNG bytes; browser screenshots saved as JPEG are identified by `.jpg`.
+
+Visual review in the Codex in-app browser: English/Arabic 390 × 844 course, lesson, practice and home; Arabic Library, account sheet, profile/settings and Guide; English desktop course/lesson at 1280 × 720. Course/hero/syllabus start at x=124 with width 1124; lesson card/footer start at x=244 with width 792. Mobile document width equals the 390px viewport. Proofs are in `product-ui/`, with the six homepage specimens under `public/assets/hormones-peptides-skin/home/brand-v2/`.
+
+Preparation validates the six image hashes. The production build, TypeScript, locale and tenant-isolation checks pass. Existing Vite configuration/chunk warnings remain. No additional automated test suites or authenticated admin walkthrough were run for this visual refinement. No deployment, email, certificate or production learner mutation occurred.
