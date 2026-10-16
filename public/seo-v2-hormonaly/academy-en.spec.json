@@ -1,0 +1,26 @@
+{
+  "schema": "perceptor.sharing-card/2",
+  "brand": "Hormonaly Academy",
+  "origin": "https://hormonaly.perceptors.ai",
+  "heading": "Skin, hormones & peptides.",
+  "subtitle": "Evidence for clinical practice.",
+  "eyebrow": "HORMONALY ACADEMY",
+  "direction": "ltr",
+  "paper": "#F6F0E7",
+  "ink": "#183247",
+  "accent": "#D0B694",
+  "visual": {
+    "path": "source-ae9c3c729fd8834a.jpg",
+    "kind": "photograph",
+    "source": "Existing course/brand artwork: hormonaly-inputs/public/assets/hormones-peptides-skin/home/hero-skin.jpg",
+    "rights": "Existing owner-supplied or course-produced public artwork",
+    "focalPoint": [
+      0.6,
+      0.5
+    ]
+  },
+  "logo": {
+    "path": "source-84ed83c73582d88b.png",
+    "width": 245
+  }
+}
