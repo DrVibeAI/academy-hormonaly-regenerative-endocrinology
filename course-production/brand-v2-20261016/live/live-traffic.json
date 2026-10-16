@@ -1,0 +1,18 @@
+{
+  "status": {
+    "latestReadyRevisionName": "academy-hormonaly-00071-mhv",
+    "traffic": [
+      {
+        "revisionName": "academy-hormonaly-00069-7bp",
+        "tag": "sharing-candidate",
+        "url": "https://sharing-candidate---academy-hormonaly-limjs7pr6a-uc.a.run.app"
+      },
+      {
+        "percent": 100,
+        "revisionName": "academy-hormonaly-00071-mhv",
+        "tag": "candidate",
+        "url": "https://candidate---academy-hormonaly-limjs7pr6a-uc.a.run.app"
+      }
+    ]
+  }
+}

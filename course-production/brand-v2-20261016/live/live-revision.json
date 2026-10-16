@@ -1,0 +1,55 @@
+{
+  "metadata": {
+    "labels": {
+      "client.knative.dev/nonce": "lanhmrpudn",
+      "cloud.googleapis.com/location": "us-central1",
+      "live-ok": "no",
+      "provenance": "checked",
+      "run.googleapis.com/startupProbeType": "Default",
+      "runtime-sha": "977de5eca5a2",
+      "serving.knative.dev/configuration": "academy-hormonaly",
+      "serving.knative.dev/configurationGeneration": "71",
+      "serving.knative.dev/route": "academy-hormonaly",
+      "serving.knative.dev/service": "academy-hormonaly",
+      "serving.knative.dev/serviceUid": "468b0aac-e7e4-4079-8126-4a2fb8f54f30",
+      "source-repo": "academy",
+      "source-sha": "50f033219ae6"
+    },
+    "name": "academy-hormonaly-00071-mhv"
+  },
+  "status": {
+    "conditions": [
+      {
+        "lastTransitionTime": "2026-10-16T18:06:21.045594Z",
+        "message": "Updating revision scaling succeeded.",
+        "status": "True",
+        "type": "Ready"
+      },
+      {
+        "lastTransitionTime": "2026-10-16T18:04:53.325139Z",
+        "severity": "Info",
+        "status": "True",
+        "type": "Active"
+      },
+      {
+        "lastTransitionTime": "2026-10-16T18:04:53.177750Z",
+        "message": "Containers became healthy in 10.52s.",
+        "status": "True",
+        "type": "ContainerHealthy"
+      },
+      {
+        "lastTransitionTime": "2026-10-16T18:04:40.475339Z",
+        "message": "Container image import completed.",
+        "status": "True",
+        "type": "ContainerReady"
+      },
+      {
+        "lastTransitionTime": "2026-10-16T18:04:41.922175Z",
+        "message": "Provisioning imported containers completed in 2.69s. Checking container health. This will wait for up to 4m for the configured startup probe, including an initial delay of 0s.",
+        "status": "True",
+        "type": "ResourcesAvailable"
+      }
+    ],
+    "imageDigest": "us-central1-docker.pkg.dev/perceptors/cloud-run-source-deploy/academy-hormonaly@sha256:7df9e402f478e8b521792ff4114d774082924774db21c36e2e9449f2f3c40fc4"
+  }
+}

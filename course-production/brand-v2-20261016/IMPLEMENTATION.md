@@ -1,7 +1,7 @@
 # Hormonaly Academy · Brand Book v2 implementation
 
 ## Status
-Approved for publication by Omar on 16 October 2026: “looks good, publish all the changes to the live site”. Release branch: `release/hormonaly-brand-v2-20261016`. Candidate publication and production verification are being recorded separately below. This is a brand and interface release; accreditation and medical approval are unchanged.
+Approved for publication by Omar on 16 October 2026: “looks good, publish all the changes to the live site”. Release branch: `release/hormonaly-brand-v2-20261016`. Published as `academy-hormonaly-00071-mhv` at 100% traffic. Final runtime `977de5eca5a21a64076854007c425c272d9d2ead`; academy source `50f033219ae6dd09e9d8da7b8acce3a7081632f8`. See [release evidence](../releases/academy-hormonaly-00071-mhv.md). This is a brand and interface release; accreditation and medical approval are unchanged.
 
 Runtime: `573706e112d83526a142fa5c5f105543012327f8` (includes the follow-up product UI refinement below). Academy: this commit's inputs. Design source and extraction details: [SOURCE.md](SOURCE.md).
 
@@ -29,7 +29,7 @@ Runtime: `573706e112d83526a142fa5c5f105543012327f8` (includes the follow-up prod
 - The public sign-in screen was inspected; no new authenticated admin walkthrough was performed. Admin styles were applied through the common theme and checked in source/build.
 - This is a brand/layout review, not a repeat of the earlier end-to-end course QA. Existing course videos, narration, scientific illustrations and assessment content have not been re-rendered or rewritten. Typography baked into those videos retains its existing design.
 - The free offer remains through November 30, 2026 (expires December 1, 00:00 Pacific). Bookstore links and supplied faculty credentials are preserved.
-- No cloud deployment, live enrollment mutation, production progress update, certificate issuance or outbound email occurred in this update.
+- Before the publication stage, no cloud deployment, live enrollment mutation, production progress update, certificate issuance or outbound email occurred.
 - Publish via `ACADEMY_DIR=../academy deploy/gcp.sh` after owner approval and the repository's normal provenance/release gates. No direct deployment or gate bypass.
 
 ## Preview
@@ -50,7 +50,7 @@ Owner direction: “make sure to Apply a modern apple product like UI across all
 
 Visual review in the Codex in-app browser: English/Arabic 390 × 844 course, lesson, practice and home; Arabic Library, account sheet, profile/settings and Guide; English desktop course/lesson at 1280 × 720. Course/hero/syllabus start at x=124 with width 1124; lesson card/footer start at x=244 with width 792. Mobile document width equals the 390px viewport. Proofs are in `product-ui/`, with the six homepage specimens under `public/assets/hormones-peptides-skin/home/brand-v2/`.
 
-Preparation validates the six image hashes. The production build, TypeScript, locale and tenant-isolation checks pass. Existing Vite configuration/chunk warnings remain. No additional automated test suites or authenticated admin walkthrough were run for this visual refinement. No deployment, email, certificate or production learner mutation occurred.
+Preparation validates the six image hashes. The production build, TypeScript, locale and tenant-isolation checks pass. Existing Vite configuration/chunk warnings remain. No additional automated test suites or authenticated admin walkthrough were run for this visual refinement. No deployment, email, certificate or production learner mutation occurred during that local preview stage.
 
 ## Publication preparation · 16 October 2026
 
@@ -58,3 +58,7 @@ Preparation validates the six image hashes. The production build, TypeScript, lo
 - The current live sharing release is merged into this release history. Its v2 JPEG artwork and original icons remain available; the approved new brand images and icons use fresh `seo-v3-hormonaly` URLs.
 - Runtime target: `573706e112d83526a142fa5c5f105543012327f8`. Publication uses the standard Cloud Run candidate and exact-revision promotion flow.
 - Public media bucket already permits cross-origin GET/HEAD, including font delivery. No CORS change is needed.
+
+## Publication complete
+
+The approved interface is live at https://hormonaly.perceptors.ai on `academy-hormonaly-00071-mhv`. All release checks passed. A final live inspection identified and corrected a low-contrast heading on photographic lesson covers; the deployed inverse heading colour is verified in both languages. See the release record and `live/` evidence for exact sources, checks and scope.

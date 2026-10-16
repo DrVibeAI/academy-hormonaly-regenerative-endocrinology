@@ -1,0 +1,92 @@
+{
+  "url": "https://hormonaly.perceptors.ai",
+  "revision": "academy-hormonaly-00071-mhv",
+  "health": {
+    "app": "ok",
+    "db": "ok"
+  },
+  "certificateUnauthenticatedStatus": 401,
+  "checkout": {
+    "paid": true,
+    "enabled": true,
+    "price": {
+      "amount": 0,
+      "currency": "usd"
+    },
+    "regularPrice": {
+      "amount": 199,
+      "currency": "usd"
+    },
+    "promotion": {
+      "id": "october-2026",
+      "amount": 0,
+      "startsAt": "2026-10-01T00:00:00-07:00",
+      "endsAt": "2026-12-01T00:00:00-08:00",
+      "label": {
+        "en": "Extended offer · free through November 30",
+        "es": "Oferta ampliada · gratis hasta el 30 de noviembre",
+        "pt": "Oferta prorrogada · grátis até 30 de novembro",
+        "ar-AE": "تمديد العرض · مجانًا حتى 30 نوفمبر"
+      },
+      "banner": {
+        "headline": {
+          "en": "Free through November 30",
+          "es": "Gratis hasta el 30 de noviembre",
+          "pt": "Grátis até 30 de novembro",
+          "ar-AE": "مجانًا حتى 30 نوفمبر"
+        },
+        "detail": {
+          "en": "Limited-time offer · Ends November 30",
+          "es": "Oferta por tiempo limitado · Hasta el 30 de noviembre",
+          "pt": "Oferta por tempo limitado · Até 30 de novembro",
+          "ar-AE": "عرض لفترة محدودة · ينتهي في 30 نوفمبر"
+        },
+        "action": {
+          "en": "Enroll free",
+          "es": "Inscríbete gratis",
+          "pt": "Inscreva-se grátis",
+          "ar-AE": "سجّل مجانًا"
+        }
+      }
+    }
+  },
+  "metadata": [
+    {
+      "lang": "en",
+      "status": 200,
+      "newSharingImage": true,
+      "htmlDir": "ltr",
+      "bundle": [
+        "/assets/index-BHZemZej.js"
+      ],
+      "imageStatus": 200,
+      "imageMatches": true
+    },
+    {
+      "lang": "ar",
+      "status": 200,
+      "newSharingImage": true,
+      "htmlDir": "rtl",
+      "bundle": [
+        "/assets/index-BHZemZej.js"
+      ],
+      "imageStatus": 200,
+      "imageMatches": true
+    }
+  ],
+  "traffic": [
+    {
+      "revisionName": "academy-hormonaly-00069-7bp",
+      "tag": "sharing-candidate",
+      "url": "https://sharing-candidate---academy-hormonaly-limjs7pr6a-uc.a.run.app"
+    },
+    {
+      "percent": 100,
+      "revisionName": "academy-hormonaly-00071-mhv",
+      "tag": "candidate",
+      "url": "https://candidate---academy-hormonaly-limjs7pr6a-uc.a.run.app"
+    }
+  ],
+  "checkedAt": "2026-10-16T18:06:44.511800+00:00",
+  "coverTitleRule": "html.theme-material .app-shell .deck-cover__copy h2{color:var(--academy-on-primary,#fff)}"
+}

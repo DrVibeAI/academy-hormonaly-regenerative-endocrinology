@@ -1,0 +1,186 @@
+[
+  {
+    "path": "assets/brand/v2/hormonaly-wordmark.png",
+    "status": 200,
+    "bytes": 14592,
+    "matchesLocal": true,
+    "sha256": "c73499e98b036db9ec2deebdff52cc19eb5f05d0413ac70ce48cb4e456b32b6a",
+    "cors": "*"
+  },
+  {
+    "path": "assets/brand/v2/hormonaly-mark-flat.svg",
+    "status": 200,
+    "bytes": 371,
+    "matchesLocal": true,
+    "sha256": "cb70faf76a9bf714c259c2f2d003564a52305c38232a660542ba0886afceb823",
+    "cors": "*"
+  },
+  {
+    "path": "assets/brand/v2/hormonaly-wordmark.svg",
+    "status": 200,
+    "bytes": 321039,
+    "matchesLocal": true,
+    "sha256": "9ac38500ebedc80da20ef1d383948e98fd371afd2f5ad0ce6c9927dda575d658",
+    "cors": "*"
+  },
+  {
+    "path": "assets/brand/v2/hormonaly-watermark.svg",
+    "status": 200,
+    "bytes": 371,
+    "matchesLocal": true,
+    "sha256": "0b746ea8fd1829cd0b97c32a60bc8b642ca91644c46e76204c797901af45dd3a",
+    "cors": "*"
+  },
+  {
+    "path": "assets/brand/v2/hormonaly-app-icon.svg",
+    "status": 200,
+    "bytes": 525,
+    "matchesLocal": true,
+    "sha256": "5237337ec05c4577a4757e8e958b1a7eb6392c96790bc9dc0ae831d67b40c4b7",
+    "cors": "*"
+  },
+  {
+    "path": "assets/brand/v2/fonts.css",
+    "status": 200,
+    "bytes": 337,
+    "matchesLocal": true,
+    "sha256": "a4cf27ce157fb0ce2c4e67e24b48773de64e13727b04452c8eca5348b3a3244a",
+    "cors": "*"
+  },
+  {
+    "path": "assets/brand/v2/hormonaly-watermark.png",
+    "status": 200,
+    "bytes": 20137,
+    "matchesLocal": true,
+    "sha256": "68ce2aea7f62d8fab26faca2cc168333bd662a50425fdb31579fcb44c3c2254c",
+    "cors": "*"
+  },
+  {
+    "path": "assets/brand/v2/fonts/GoogleSansFlex.woff2",
+    "status": 200,
+    "bytes": 1451888,
+    "matchesLocal": true,
+    "sha256": "7b39740b495938c9f97b8437acc50bcab40ffffe0ef8ef3775304cf8f8cddc4d",
+    "cors": "*"
+  },
+  {
+    "path": "assets/brand/v2/fonts/NotoSansArabic-500.ttf",
+    "status": 200,
+    "bytes": 194592,
+    "matchesLocal": true,
+    "sha256": "1d38f7224d360cc4a9ca40668e70503f18beb5badf3cfa2916187b5c9f6a22fd",
+    "cors": "*"
+  },
+  {
+    "path": "assets/brand/v2/fonts/GoogleSansFlex.ttf",
+    "status": 200,
+    "bytes": 3910784,
+    "matchesLocal": true,
+    "sha256": "a9ac770798857d5e8ac593ced42b22e40a7c08cec98319f92b0eccc2783a77ba",
+    "cors": "*"
+  },
+  {
+    "path": "assets/brand/v2/fonts/NotoSansArabic-400.ttf",
+    "status": 200,
+    "bytes": 194336,
+    "matchesLocal": true,
+    "sha256": "9a98793c1edabfbf4346bfda0c63797b5ea39401a68a38ead2adc75b0995e689",
+    "cors": "*"
+  },
+  {
+    "path": "assets/brand/v2/fonts/NotoSansArabic-600.ttf",
+    "status": 200,
+    "bytes": 194628,
+    "matchesLocal": true,
+    "sha256": "6bf5cd51aed0eb8717b6a220eeb55a9b7b0abae646ead22e05682f96de80af7e",
+    "cors": "*"
+  },
+  {
+    "path": "assets/brand/v2/fonts/NotoSansArabic.woff2",
+    "status": 200,
+    "bytes": 361560,
+    "matchesLocal": true,
+    "sha256": "1ae7c4afc925558142ab50398c60db409be4c0bb0a18b7a424497b8d229a29f9",
+    "cors": "*"
+  },
+  {
+    "path": "assets/brand/v2/fonts/GoogleSansFlex-400.ttf",
+    "status": 200,
+    "bytes": 130784,
+    "matchesLocal": true,
+    "sha256": "eda608dd8824bd61956145555f222547bb98f3ac365e2255d653d5087dfd2348",
+    "cors": "*"
+  },
+  {
+    "path": "assets/brand/v2/fonts/NotoSansArabic.ttf",
+    "status": 200,
+    "bytes": 844676,
+    "matchesLocal": true,
+    "sha256": "63111b5b2e074dd48cc67692e0a2726d86ee94c1c37fe8598257b7b4e87e869e",
+    "cors": "*"
+  },
+  {
+    "path": "assets/brand/v2/fonts/GoogleSansFlex-600.ttf",
+    "status": 200,
+    "bytes": 131184,
+    "matchesLocal": true,
+    "sha256": "86a4efda654b6083e4831269e07abda012b9045a9a63a062f337e2abbf7ae576",
+    "cors": "*"
+  },
+  {
+    "path": "assets/brand/v2/fonts/GoogleSansFlex-500.ttf",
+    "status": 200,
+    "bytes": 131032,
+    "matchesLocal": true,
+    "sha256": "6e0599afb5979b63caa08e9c9993d7e6acf8f3b6c12ad094913cb4ebf5cecc6c",
+    "cors": "*"
+  },
+  {
+    "path": "assets/hormones-peptides-skin/home/brand-v2/ar/inside-science.png",
+    "status": 200,
+    "bytes": 195596,
+    "matchesLocal": true,
+    "sha256": "41ff89f2e413c3cb5eb9ccefa0480db4609a4b86ce4613dbc8fdd049915259d1",
+    "cors": "*"
+  },
+  {
+    "path": "assets/hormones-peptides-skin/home/brand-v2/ar/inside-course.png",
+    "status": 200,
+    "bytes": 120511,
+    "matchesLocal": true,
+    "sha256": "59e63dfedf3c674bfbc276f60f8c0511a718b14eb32ad76b7d08124dccf6de9a",
+    "cors": "*"
+  },
+  {
+    "path": "assets/hormones-peptides-skin/home/brand-v2/ar/inside-practice.png",
+    "status": 200,
+    "bytes": 183577,
+    "matchesLocal": true,
+    "sha256": "616fe8dabb68a826c2041d2517650e06cb6aa3d60db4e0bbd0fd94a31eac0735",
+    "cors": "*"
+  },
+  {
+    "path": "assets/hormones-peptides-skin/home/brand-v2/en/inside-science.png",
+    "status": 200,
+    "bytes": 199815,
+    "matchesLocal": true,
+    "sha256": "5a7701bbc6561734cbf5f1171fd986d2fcbf22d2289824a1798c6431d70bd562",
+    "cors": "*"
+  },
+  {
+    "path": "assets/hormones-peptides-skin/home/brand-v2/en/inside-course.png",
+    "status": 200,
+    "bytes": 133557,
+    "matchesLocal": true,
+    "sha256": "0618069e278ab855c27f74de3eb36d825f914f32dc55e3adf600ca6db581154d",
+    "cors": "*"
+  },
+  {
+    "path": "assets/hormones-peptides-skin/home/brand-v2/en/inside-practice.png",
+    "status": 200,
+    "bytes": 178173,
+    "matchesLocal": true,
+    "sha256": "3eacbe87977342ccd33630bff0ca822a8c71b2a04828e2fa3d9f8ebbd240f4fd",
+    "cors": "*"
+  }
+]
