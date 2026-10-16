@@ -1,0 +1,39 @@
+✔ VTT bytes stay same-origin and unchanged (16.362875ms)
+✔ missing archive track (4.489208ms)
+✔ non-caption response is refused (1.278084ms)
+✔ oversized caption is refused (1.293084ms)
+✔ promotion service ready: exact candidate and health/auth gates (400.894042ms)
+✔ promotion service stale: exact candidate and health/auth gates (210.4715ms)
+✔ promotion service unhealthy: exact candidate and health/auth gates (293.961167ms)
+✔ promotion service certificate-open: exact candidate and health/auth gates (292.402625ms)
+✔ promotion service missing-provenance: exact candidate and health/auth gates (222.655959ms)
+✔ promotion store ready: exact candidate and health/auth gates (341.655208ms)
+✔ promotion store stale: exact candidate and health/auth gates (220.903541ms)
+✔ promotion store unhealthy: exact candidate and health/auth gates (396.271ms)
+✔ promotion store certificate-open: exact candidate and health/auth gates (298.376625ms)
+✔ promotion store missing-provenance: exact candidate and health/auth gates (234.338208ms)
+✔ RS256 signature, Mux audience and bounded expiry; token stays ephemeral (2.5865ms)
+✔ authorization, guest policy, locale allowlist, rollout switch and archive fallback (27.300791ms)
+✔ a stalled token refresh cannot outlive a request deadline (0.686041ms)
+✔ aborted requests never resume when token refresh eventually resolves (0.589583ms)
+✔ cards enter each playback section, including the final frame, only after metadata is usable (0.621667ms)
+✔ automatic reveal follows playback and retains earlier ideas for review (0.0995ms)
+✔ manual flips survive ticks and pause/resume within a section (0.082458ms)
+✔ flipping before playback does not start a chapter; replay or a new source clears card state (0.061834ms)
+✔ the full visible question reaches safety checks, including its ending (0.692375ms)
+✔ long multilingual conversations remain below the bounded request budget (0.135208ms)
+✔ invalid history roles and empty entries never reach the prompt (0.323875ms)
+✔ stale dynamic imports retry once, then stop looping (0.38425ms)
+✔ unrelated startup failures do not trigger automatic reloads (0.051ms)
+✔ rapid edits coalesce and older in-flight saves cannot discard a newer draft (0.789ms)
+✔ offline exercises survive refresh and cloud hydration, then retry successfully (0.215917ms)
+✔ learner namespaces never share a pending queue (0.075416ms)
+✔ reset waits for an in-flight write before deleting cloud state (0.11725ms)
+ℹ tests 31
+ℹ suites 0
+ℹ pass 31
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2997.182625

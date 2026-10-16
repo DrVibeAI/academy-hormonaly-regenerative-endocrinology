@@ -1,0 +1,11 @@
+{
+  "label": "en-replay-6-18-wrong",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"6\"\n  - progressbar \"Step 18 of 25\"\n  - main:\n    - paragraph:\n      - text: Quick check\n    - heading \"'Basically tesamorelin?'\" [level=2]\n    - paragraph: \"Fictional chart note: a 47-year-old has been prescribed a compounded 'CJC-1295/ipamorelin' product by a wellness clinic for skin quality. She asks whether it is 'basically tesamorelin'. What is the most accurate answer?\"\n    - status: Practice mode · your completed result is saved.\n    - button \"A Yes. Both work on the growth-hormone pathway, so tesamorelin's approval covers the class.\":\n      - generic: A\n      - paragraph: Yes. Both work on the growth-hormone pathway, so tesamorelin's approval covers the class.\n    - button \"B No. Tesamorelin has phase 3 trials and a US approval for HIV-associated abdominal fat; CJC-1295 and ipamorelin have hormone-level data at best and no skin trials; neither is on the US 503A bulks list.\":\n      - generic: B\n      - paragraph: No. Tesamorelin has phase 3 trials and a US approval for HIV-associated abdominal fat; CJC-1295 and ipamorelin have hormone-level data at best and no skin trials; neither is on the US 503A bulks list.\n    - button \"C Yes, provided the compounding pharmacy is licensed.\" [active]:\n      - generic: C\n      - paragraph: Yes, provided the compounding pharmacy is licensed.\n    - button \"Back to saved result\"\n    - strong: Not yet.\n    - paragraph: See why each option stands or falls, then choose again.\n    - generic \"See why and review the evidence\"\n  - button \"Previous tap\":\n  - strong: \"18\"\n  - generic: of 25\n  - button \"Next tap\":\n    - generic: Try again",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/6/18",
+    "width": 390
+  }
+}

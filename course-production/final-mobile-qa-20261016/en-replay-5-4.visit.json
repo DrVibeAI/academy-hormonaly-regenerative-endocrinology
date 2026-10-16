@@ -1,0 +1,11 @@
+{
+  "label": "en-replay-5-4",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"5\"\n  - progressbar \"Step 4 of 25\"\n  - main:\n    - paragraph:\n      - text: Practice\n    - heading \"The follicle's own stress loop\" [level=2]\n    - paragraph: Human scalp follicles kept alive in culture run a feedback loop like the adrenal axis.\n    - status: Practice mode · your completed result is saved.\n    - strong: CRH to cortisol, and back\n    - paragraph: Put the follicle's stress loop in order, from the signal it answers to the feedback that closes it.\n    - generic: Mechanism · human follicles in culture\n    - generic: 4/4\n    - list:\n      - generic: \"1\"\n      - strong: CRH stimulates the follicle\n      - paragraph: The loop starts with corticotropin-releasing hormone, which follicles kept alive in culture answer the way the pituitary and adrenal glands do.\n      - generic: \"2\"\n      - strong: The follicle makes ACTH and α-MSH\n      - paragraph: The follicles answer CRH by making POMC products, ACTH and α-MSH, before any cortisol.\n      - generic: \"3\"\n      - strong: The follicle secretes cortisol\n      - paragraph: After ACTH and α-MSH, the follicles secrete cortisol.\n      - generic: \"4\"\n      - strong: Cortisol-like signals damp CRH\n      - paragraph: \"The loop closes last: cortisol-like signals feed back, and hydrocortisone in turn damps follicular CRH, the adrenal axis in miniature.\"\n    - status:\n      - paragraph: \"CRH, then ACTH and α-MSH, then cortisol, which feeds back to damp CRH: the adrenal axis in miniature, in human follicles kept alive in culture.\"\n    - button \"Practice again\"\n    - button \"Back to saved result\"\n  - button \"Previous tap\":\n  - strong: \"4\"\n  - generic: of 25\n  - button \"Next tap\":\n    - generic: Next",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/5/4",
+    "width": 390
+  }
+}

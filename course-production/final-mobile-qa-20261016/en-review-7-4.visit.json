@@ -1,0 +1,11 @@
+{
+  "label": "en-review-7-4",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"7\"\n  - progressbar \"Step 4 of 29\"\n  - main:\n    - paragraph:\n      - text: Who paid\n    - heading \"Sponsored studies come out better.\" [level=2]\n    - generic \"1.27\": \"1.22\"\n    - generic: risk ratio for a favourable efficacy result, industry-sponsored versus other studies\n    - paragraph: Lundh et al., Cochrane 2017 · 95% CI 1.17–1.37 · moderate-certainty evidence\n    - generic: It means\n    - paragraph: When a manufacturer pays for the trial, a favourable result is more likely. Funding is a reason to read a trial harder and to look for independent replication.\n    - generic: It does not mean\n    - paragraph: It does not make a sponsored trial wrong or an independent one right. It describes an average tilt across many studies and says nothing about any single product.\n    - generic \"Context and nuance\" [active]\n  - button \"Previous tap\":\n  - strong: \"4\"\n  - generic: of 29\n  - button \"Next tap\":\n    - generic: Next",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/7/4",
+    "width": 390
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "label": "en-review-2-1",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"2\"\n  - progressbar \"Step 1 of 25\"\n  - main:\n    - img \"Hormonaly\"\n    - generic: Academy\n    - paragraph: Module 02 · Hormones written on the skin\n    - heading \"The face that might be a diagnosis.\" [level=2]\n    - paragraph: \"Most skin changes you see are ageing or lifestyle. A few are the first visible sign of endocrine disease. In three lessons you will separate them: what local and systemic hormones do to skin, what hormone therapy can and cannot do for it, and which signs belong with an endocrinologist.\"\n    - list:\n      - listitem: \"2.1 Cortisol on the skin: local 11β-HSD1 and Cushing's syndrome\"\n      - listitem: \"2.2 Estrogen, menopause and collagen: what the trials show\"\n      - listitem: 2.3 Skin signs that need an endocrinologist\n    - generic: 41 min\n  - button \"Previous tap\" [disabled]:\n  - strong: \"1\"\n  - generic: of 25\n  - button \"Next tap\":\n    - generic: Next",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/2/1",
+    "width": 390
+  }
+}

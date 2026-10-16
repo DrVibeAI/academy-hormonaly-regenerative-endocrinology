@@ -1,0 +1,21 @@
+{
+  "label": "en-module2-film-seek",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"2\"\n  - progressbar \"Step 2 of 25\"\n  - main:\n    - button \"Mute\":\n    - paragraph: Presented by a digital avatar (AI-generated presenter and voice).\n    - group \"Video controls\":\n      - button \"Pause video\" [pressed]:\n      - slider \"Video position\" [active]: \"9.1\"\n      - generic: 0:09\n      - generic: 1:16\n      - button \"Open transcript\":\n      - button \"Fullscreen\":\n    - paragraph: Module 02 · Opening film\n    - strong: Systemic hormones and the skin\n  - button \"Previous tap\":\n  - strong: \"2\"\n  - generic: of 25\n  - button \"Next tap\":\n    - generic: Next",
+  "metrics": {
+    "height": 844,
+    "media": [
+      {
+        "duration": 76.14,
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "src": "https://hormonaly.perceptors.ai/assets/hormones-peptides-skin/video/m02-opener-r3.mp4",
+        "tag": "VIDEO",
+        "time": 9.997123
+      }
+    ],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/2/2",
+    "width": 390
+  }
+}

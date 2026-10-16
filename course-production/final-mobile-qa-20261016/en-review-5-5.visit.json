@@ -1,0 +1,11 @@
+{
+  "label": "en-review-5-5",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"5\"\n  - progressbar \"Step 5 of 25\"\n  - main:\n    - paragraph:\n      - text: Human evidence\n    - heading \"Two trials, 1,200 adults, one approval.\" [level=2]\n    - generic \"1,200\"\n    - generic: adults with severe alopecia areata in the two phase 3 trials of baricitinib (2022)\n    - paragraph: At 36 weeks, up to 39% of patients on baricitinib had at least 80% of their scalp hair, against 3–6% on placebo\n    - generic: It means\n    - paragraph: Interrupting the immune signalling behind collapsed privilege regrows hair in severe alopecia areata. That is approval-grade evidence (A), and it shows what real follicle evidence looks like.\n    - generic: It does not mean\n    - paragraph: It says nothing about pattern hair loss, cosmetic thinning or any peptide. Both trials were funded by the manufacturer, and the authors called for longer trials.\n    - complementary \"Regulatory status\":\n      - generic \"Regulatory status by country (6)\"\n    - generic \"Context and nuance\" [active]\n  - button \"Previous tap\":\n  - strong: \"5\"\n  - generic: of 25\n  - button \"Next tap\":\n    - generic: Next",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/5/5",
+    "width": 390
+  }
+}

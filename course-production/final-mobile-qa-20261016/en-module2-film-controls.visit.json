@@ -1,0 +1,21 @@
+{
+  "label": "en-module2-film-controls",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"2\"\n  - progressbar \"Step 2 of 25\"\n  - main:\n    - button \"Mute\":\n    - region \"Transcript\":\n      - text: Original audio · English\n      - heading \"Transcript\" [level=2]\n      - button \"Close transcript\" [active]:\n      - paragraph: \"Most skin changes you see are ageing or lifestyle. A few are the first visible sign of endocrine disease. In three lessons you will separate them: what local and systemic hormones do to skin, what hormone therapy can and cannot do for it, and which signs belong with an endocrinologist. Picture the skin as a small endocrine organ with its own stress axis. Skin cells make CRH and ACTH, the same signals that drive the adrenal glands, and they carry the receptors to respond to them. They also carry an enzyme called eleven beta HSD one, which turns inactive cortisone back into active cortisol inside the cell. In human skin samples that enzyme works harder with age and in sun-exposed skin, and it sets local cortisol independently of the level in the blood. Cortisol slows collagen production in dermal fibroblasts, and mice bred without the enzyme kept their dermal thickness as they aged. Hold all of this in the mechanism register. It comes from biopsies, cultured cells and mice, and it says nothing yet about how a patient's face will age.\"\n    - paragraph: Presented by a digital avatar (AI-generated presenter and voice).\n    - group \"Video controls\":\n      - button \"Play video\":\n      - slider \"Video position\": \"3.6\"\n      - generic: 0:03\n      - generic: 1:16\n      - button \"Open transcript\" [expanded]:\n      - button \"Fullscreen\":\n    - paragraph: Module 02 · Opening film\n    - strong: Systemic hormones and the skin\n  - button \"Previous tap\":\n  - strong: \"2\"\n  - generic: of 25\n  - button \"Next tap\":\n    - generic: Next",
+  "metrics": {
+    "height": 844,
+    "media": [
+      {
+        "duration": 76.14,
+        "error": null,
+        "paused": true,
+        "ready": 4,
+        "src": "https://hormonaly.perceptors.ai/assets/hormones-peptides-skin/video/m02-opener-r3.mp4",
+        "tag": "VIDEO",
+        "time": 3.601333
+      }
+    ],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/2/2",
+    "width": 390
+  }
+}

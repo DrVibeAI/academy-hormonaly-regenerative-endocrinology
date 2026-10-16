@@ -1,0 +1,11 @@
+{
+  "label": "en-replay-6-10",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"6\"\n  - progressbar \"Step 10 of 25\"\n  - main:\n    - paragraph:\n      - text: Practice\n    - heading \"Where each route enters the axis.\" [level=2]\n    - paragraph: Four routes lead into the same axis, and patients rarely know which one they are on.\n    - status: Practice mode · your completed result is saved.\n    - strong: From pituitary to IGF-1 receptor\n    - paragraph: Put the entry points in order along the axis, from upstream to downstream.\n    - generic: 3/3\n    - list:\n      - generic: \"1\"\n      - strong: \"The pituitary: GHRH analogues and ghrelin-receptor agonists\"\n      - paragraph: Stimulate. GHRH analogues press on the pituitary's releasing-hormone receptor and ghrelin-receptor agonists on a second pituitary receptor, so the gland releases its own growth hormone, in pulses.\n      - generic: \"2\"\n      - strong: \"Growth hormone itself: somatropin\"\n      - paragraph: \"Replace. Somatropin is growth hormone itself, made by recombinant technology: it replaces the hormone the pituitary releases.\"\n      - generic: \"3\"\n      - strong: \"The IGF-1 receptor: IGF-1 analogues\"\n      - paragraph: Bypass. IGF-1 analogues such as IGF-1 LR3 skip the pituitary and act on the IGF-1 receptor directly. Every route ends at that same receptor.\n    - status:\n      - paragraph: \"Stimulate the pituitary, replace the hormone itself, or bypass the pituitary at the IGF-1 receptor: every route ends at that same receptor.\"\n    - button \"Practice again\"\n    - button \"Back to saved result\"\n  - button \"Previous tap\":\n  - strong: \"10\"\n  - generic: of 25\n  - button \"Next tap\":\n    - generic: Next",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/6/10",
+    "width": 390
+  }
+}

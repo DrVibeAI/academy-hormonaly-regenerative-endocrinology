@@ -1,0 +1,11 @@
+{
+  "label": "en-review-2-20",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"2\"\n  - progressbar \"Step 20 of 25\"\n  - main:\n    - paragraph:\n      - text: The evidence\n    - heading \"Eighty-eight per cent.\" [level=2]\n    - generic \"88%\": 86%\n    - generic: of 32 people with MEN1 had multiple facial angiofibromas\n    - paragraph: Darling et al., 1997 — collagenomas in 72%\n    - generic: It means\n    - paragraph: Multiple facial angiofibromas are common in MEN1 and can be its first visible sign; in someone without tuberous sclerosis they are a reason for endocrine testing, whatever the cosmetic plan.\n    - generic: It does not mean\n    - paragraph: It does not mean a single facial papule is MEN1. This is one small referral-centre series, and angiofibromas have other causes, tuberous sclerosis above all.\n    - generic \"Context and nuance\" [active]\n  - button \"Previous tap\":\n  - strong: \"20\"\n  - generic: of 25\n  - button \"Next tap\":\n    - generic: Next",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/2/20",
+    "width": 390
+  }
+}

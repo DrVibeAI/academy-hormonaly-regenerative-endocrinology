@@ -1,0 +1,11 @@
+{
+  "label": "en-replay-5-6",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"5\"\n  - progressbar \"Step 6 of 25\"\n  - main:\n    - paragraph:\n      - text: Worked tool\n    - heading \"Four questions before any product.\" [level=2]\n    - status: Practice mode · your completed result is saved.\n    - strong: Which pattern is it?\n    - paragraph: \"One fictional patient at a time: where does the workup point?\"\n    - generic: 6/6\n    - paragraph:\n      - strong: Correct\n      - text: \"· Woman, 40: several patches that have spread across most of the scalp within weeks\"\n      - text: \"Your answer: Alopecia areata. Correct classification: Alopecia areata.\"\n      - text: Severe or rapidly progressive alopecia areata. The guide asks for prompt referral; JAK inhibitors are specialist treatment.\n    - strong: 6/6 on the first try\n    - list:\n      - generic: \"Man, 38: a thinning crown and a receding hairline over five years → Androgenetic pattern\"\n      - generic: \"Woman, 31: handfuls of hair in the shower three months after giving birth → Telogen effluvium\"\n      - generic: \"Man, 26: a smooth, round bald patch in the beard, and pitted nails → Alopecia areata\"\n      - generic: \"Woman, 55: a slowly widening central part, no shedding episode → Androgenetic pattern\"\n      - generic: \"Man, 45: diffuse shedding two months after a rapid, very low-calorie diet → Telogen effluvium\"\n      - generic: \"Woman, 40: several patches that have spread across most of the scalp within weeks → Alopecia areata\"\n    - status:\n      - paragraph: Six placed. The workup, with ferritin and TSH, comes before any product, peptide or otherwise.\n    - button \"Practice again\"\n    - button \"Back to saved result\"\n    - generic \"See the full model\"\n  - button \"Previous tap\":\n  - strong: \"6\"\n  - generic: of 25\n  - button \"Next tap\":\n    - generic: Next",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/5/6",
+    "width": 390
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "label": "ar-module2-film-seek",
+  "state": "- main:\n  - button \"العودة إلى الدورة التدريبية\":\n  - button \"اسأل الدليل\":\n  - button \"تبديل الوحدة التعليمية\":\n    - generic: \"2\"\n  - progressbar \"الخطوة 2 من 25\"\n  - main:\n    - button \"كتم الصوت\":\n    - paragraph: يُقدَّم عبر مجسّد رقمي (مقدّم وصوت مُنشآن بالذكاء الاصطناعي).\n    - group \"عناصر التحكم في الفيديو\":\n      - button \"إيقاف الفيديو مؤقتاً\" [pressed]:\n      - slider \"موضع الفيديو\" [active]: \"1.8\"\n      - generic: 0:01\n      - generic: 2:04\n      - button \"فتح النص المكتوب\":\n      - button \"ملء الشاشة\":\n    - paragraph: الوحدة 02 · الفيلم الافتتاحي\n    - strong: الهرمونات الجهازية والجلد\n  - button \"الفقرة السابقة\":\n  - strong: \"2\"\n  - generic: من 25\n  - button \"الفقرة التالية\":\n    - generic: التالي",
+  "metrics": {
+    "height": 844,
+    "media": [
+      {
+        "duration": 124.55,
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "src": "https://hormonaly.perceptors.ai/assets/hormones-peptides-skin/ar-AE/video/m02-opener.mp4",
+        "tag": "VIDEO",
+        "time": 2.222047
+      }
+    ],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/2/2",
+    "width": 390
+  }
+}

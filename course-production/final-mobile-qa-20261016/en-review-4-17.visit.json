@@ -1,0 +1,11 @@
+{
+  "label": "en-review-4-17",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"4\"\n  - progressbar \"Step 17 of 25\"\n  - main:\n    - paragraph:\n      - text: The evidence\n    - heading \"One abstract, no published trial.\" [level=2]\n    - generic \"0\"\n    - generic: randomized efficacy trials of BPC-157 in people published in full (September 2026)\n    - paragraph: \"One 2005 ulcerative-colitis trial exists only as a meeting abstract (no significant difference from placebo) · registered: phase 1 safety study (2015, no results) · single-arm product study (2025, no results) · randomized phase 1 after rotator-cuff repair (starts 2027)\"\n    - generic: It means\n    - paragraph: Whether BPC-157 helps people heal is unknown. The only randomized human result is an abstract that showed no significant benefit; the enthusiasm rests on rodents and uncontrolled case series.\n    - generic: It does not mean\n    - paragraph: It does not show BPC-157 is ineffective or unsafe. Absence of trials is absence of evidence, and this figure will change when the registered trials report.\n    - generic \"Context and nuance\" [active]\n  - button \"Previous tap\":\n  - strong: \"17\"\n  - generic: of 25\n  - button \"Next tap\":\n    - generic: Next",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/4/17",
+    "width": 390
+  }
+}

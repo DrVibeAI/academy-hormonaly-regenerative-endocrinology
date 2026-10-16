@@ -1,0 +1,11 @@
+{
+  "label": "en-review-4-13",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"4\"\n  - progressbar \"Step 13 of 25\"\n  - main:\n    - paragraph:\n      - text: The evidence\n    - heading \"Twenty-three trials, split by who paid.\" [level=2]\n    - generic \"23 RCTs\": 22 RCTs\n    - generic: in the 2025 meta-analysis that split oral-collagen trials by funding and quality\n    - paragraph: 1,474 participants\n    - generic: It means\n    - paragraph: The pooled benefit of oral collagen disappears when you look only at independent or high-quality trials. The course keeps the guide's GRADE C and shows why a downgrade has been proposed to its author.\n    - generic: It does not mean\n    - paragraph: It does not show collagen is harmful, and it does not rule out benefit for an individual. It is a statement about the evidence, and it says nothing about topical peptides.\n    - generic \"Context and nuance\" [active]\n  - button \"Previous tap\":\n  - strong: \"13\"\n  - generic: of 25\n  - button \"Next tap\":\n    - generic: Next",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/4/13",
+    "width": 390
+  }
+}

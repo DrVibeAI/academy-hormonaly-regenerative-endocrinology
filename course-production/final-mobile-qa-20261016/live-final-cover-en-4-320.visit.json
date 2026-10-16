@@ -1,0 +1,11 @@
+{
+  "label": "live-final-cover-en-4-320",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\" [active]:\n    - generic: \"4\"\n  - progressbar \"Step 1 of 25\"\n  - main:\n    - img \"Hormonaly\"\n    - generic: Academy\n    - paragraph: Module 04 · Matrix peptides and wound healing\n    - heading \"The peptide your patient already bought.\" [level=2]\n    - paragraph: Most skin peptides reach your clinic before any evidence does. In three lessons you will sort them by what the human trials actually show, who paid for those trials, and where each one stands with the regulator.\n    - list:\n      - listitem: \"4.1 Copper peptides: GHK and GHK-Cu\"\n      - listitem: 4.2 Signal peptides, oral collagen and the 'topical Botox' family\n      - listitem: 4.3 Repair peptides, one negative trial, and the compounding line\n    - generic: 41 min\n    - paragraph: Presented by a digital avatar (AI-generated presenter and voice).\n  - button \"Previous tap\" [disabled]:\n  - strong: \"1\"\n  - generic: of 25\n  - button \"Next tap\":\n    - generic: Next",
+  "metrics": {
+    "height": 740,
+    "media": [],
+    "scrollWidth": 320,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/4/1",
+    "width": 320
+  }
+}

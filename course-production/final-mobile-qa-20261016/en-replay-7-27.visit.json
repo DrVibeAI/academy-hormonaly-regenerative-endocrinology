@@ -1,0 +1,11 @@
+{
+  "label": "en-replay-7-27",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"7\"\n  - progressbar \"Step 27 of 29\"\n  - main:\n    - paragraph:\n      - text: Quick check\n    - heading \"One molecule, three products.\" [level=2]\n    - paragraph: \"GHK-Cu appears in three products: a cream sold 'for the look of fine lines', the same cream sold 'to regenerate skin cells', and an injectable vial labelled research use only. In the US, which statement is right?\"\n    - status: Practice mode · your completed result is saved.\n    - button \"A All three are cosmetics, because the molecule is the same.\" [disabled]:\n      - generic: A\n      - paragraph: All three are cosmetics, because the molecule is the same.\n    - button \"B The first is a cosmetic; the second makes a drug claim, so it is an unapproved drug; the vial is outside any clinical route.\" [disabled]:\n      - generic: B\n      - paragraph: The first is a cosmetic; the second makes a drug claim, so it is an unapproved drug; the vial is outside any clinical route.\n    - button \"C All three are lawful, because GHK-Cu is in Category 1.\" [disabled]:\n      - generic: C\n      - paragraph: All three are lawful, because GHK-Cu is in Category 1.\n    - button \"Practice again\"\n    - button \"Back to saved result\"\n    - strong: Correct.\n    - paragraph: Name the claim and the route, then the regime.\n    - generic \"See why and review the evidence\" [active]\n    - paragraph:\n      - generic: A\n      - text: The regime follows the claim and the route. A structure-or-function claim makes the second cream a drug, and the vial is no cosmetic at all.\n    - paragraph:\n      - generic: B\n      - text: Correct. Claim and route decide the rulebook, whatever the molecule.\n    - paragraph:\n      - generic: C\n      - text: Category 1 covers 503A compounding of non-injectable GHK-Cu under FDA's interim policy. It approves nothing, and it covers neither research products nor injection.\n  - button \"Previous tap\":\n  - strong: \"27\"\n  - generic: of 29\n  - button \"Next tap\":\n    - generic: Continue",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/7/27",
+    "width": 390
+  }
+}

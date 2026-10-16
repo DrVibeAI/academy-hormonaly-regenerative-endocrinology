@@ -1,0 +1,21 @@
+{
+  "label": "en-cache-reload",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"1\"\n  - progressbar \"Step 14 of 25\"\n  - main:\n    - paragraph:\n      - text: What changes in practice\n    - heading \"A map to confirm, then a trial.\" [level=2]\n    - paragraph: \"Topical and transdermal treatments act through receptors the skin already carries, and the skin's own enzymes change how strongly a hormone acts, so the skin's response need not mirror the dose. A receptor on a map is where an efficacy question starts. The same caution applies to physiology you think you know: the guide says serum vitamin D falls with sunscreen use, yet field trials of daily sunscreen did not lower it.\"\n    - complementary \"For your role\":\n      - generic: For your role · Prescriber\n      - paragraph: When a product or protocol is justified by 'skin has receptors for it', ask for the human trial before you prescribe. Assess vitamin D on clinical grounds, and do not advise patients to drop sun protection.\n    - region \"Interactive audio story\":\n      - figure:\n        - img \"A droplet on the skin reaches a cell's receptor while an enzyme reshapes a passing molecule, and a line leads to two matched groups of dots standing for a randomized trial.\"\n      - button \"Pause audio\":\n      - strong: Listen and tap\n      - generic: 0:05 / 0:55\n      - paragraph: Cards follow the audio. Tap to flip.\n      - 'button \"Chapter 1: Claims built on receptors\" [pressed]':\n        - generic: \"01\"\n        - strong: Claims built on receptors\n        - generic: Playing\n        - generic: Key idea\n        - strong: Receptors explain how a topical could act. Whether it does is a question for a human trial.\n        - generic: Tap to return\n      - 'button \"Chapter 2: Local enzymes\"':\n        - generic: \"02\"\n        - strong: Local enzymes\n        - generic: Tap to flip\n        - generic: Key idea\n        - strong: Steroid-metabolising enzymes in skin change potency, so the response in skin can differ from what the dose predicts.\n        - generic: Tap to return\n      - 'button \"Chapter 3: Sunscreen and vitamin D\"':\n        - generic: \"03\"\n        - strong: Sunscreen and vitamin D\n        - generic: Tap to flip\n        - generic: Key idea\n        - strong: Artificial-UV experiments show sunscreen blocks vitamin D synthesis; field trials of daily use did not lower blood levels. High-protection products have not been trialled.\n        - generic: Tap to return\n      - generic \"Read transcript\"\n  - button \"Previous tap\":\n  - strong: \"14\"\n  - generic: of 25\n  - button \"Next tap\":\n    - generic: Next",
+  "metrics": {
+    "height": 844,
+    "media": [
+      {
+        "duration": 55.913651,
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "src": "https://storage.googleapis.com/perceptors-academy-hormonaly-media/guide-audio/d453646c8595963584e248dc1df5f79c8e8d4af32edaf7df0b5105c80ae073d2.mp3",
+        "tag": "AUDIO",
+        "time": 5.968431
+      }
+    ],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/1/14",
+    "width": 390
+  }
+}

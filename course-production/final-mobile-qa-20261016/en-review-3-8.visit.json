@@ -1,0 +1,11 @@
+{
+  "label": "en-review-3-8",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"3\"\n  - progressbar \"Step 8 of 26\"\n  - main:\n    - paragraph:\n      - text: Human evidence\n    - heading \"Fifteen years on the same collagen.\" [level=2]\n    - generic \"~15 years\": ~14 years\n    - generic: estimated half-life of human skin collagen\n    - paragraph: Verzijl et al., 2000 · AGE content of skin collagen rises about five-fold from age 20 to 85 (Dyer et al., 1993)\n    - generic: It means\n    - paragraph: \"Glycation damage accumulates on the same collagen for years, and faster with higher glucose exposure. That much is measured in human skin: direct, observational, GRADE C.\"\n    - generic: It does not mean\n    - paragraph: It does not show how much of visible ageing AGEs cause, or that any product reverses established cross-links. Skin autofluorescence is a surrogate reading of AGE load.\n    - generic \"Context and nuance\" [active]\n  - button \"Previous tap\":\n  - strong: \"8\"\n  - generic: of 26\n  - button \"Next tap\":\n    - generic: Next",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/3/8",
+    "width": 390
+  }
+}

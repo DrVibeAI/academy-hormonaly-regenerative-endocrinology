@@ -1,0 +1,11 @@
+{
+  "label": "en-review-3-13",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"3\"\n  - progressbar \"Step 13 of 26\"\n  - main:\n    - paragraph:\n      - text: Human evidence\n    - heading \"Large trials, measured on the scale.\" [level=2]\n    - generic \"14.9% · 20.9%\": 14.3% · 20.1%\n    - generic: mean weight loss in STEP-1 (semaglutide, 68 weeks) and SURMOUNT-1 (tirzepatide, highest dose, 72 weeks)\n    - paragraph: Placebo 2.4% and 3.1% · both trials industry-funded, both the basis for approval\n    - generic: It means\n    - paragraph: \"These drugs produce large, reproducible weight loss in randomized trials: GRADE A for the approved indications. Part of what is lost is lean tissue, which is why the Hormonaly guide pairs treatment with protein and resistance training.\"\n    - generic: It does not mean\n    - paragraph: Neither pivotal trial measured facial fat, skin laxity or appearance. An A for weight loss says nothing about the face.\n    - generic \"Context and nuance\" [active]\n  - button \"Previous tap\":\n  - strong: \"13\"\n  - generic: of 26\n  - button \"Next tap\":\n    - generic: Next",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/3/13",
+    "width": 390
+  }
+}

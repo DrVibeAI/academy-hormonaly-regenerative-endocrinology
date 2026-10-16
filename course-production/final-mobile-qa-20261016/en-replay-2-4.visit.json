@@ -1,0 +1,11 @@
+{
+  "label": "en-replay-2-4",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"2\"\n  - progressbar \"Step 4 of 25\"\n  - main:\n    - paragraph:\n      - text: Practice\n    - heading \"From cortisone to slower collagen\" [level=2]\n    - paragraph: One enzyme links an inactive hormone to slower collagen production in the dermis.\n    - status: Practice mode · your completed result is saved.\n    - strong: Order the conversion\n    - paragraph: Put the four steps in order, from the inactive hormone to its effect in the dermis.\n    - generic: \"Mechanism: human samples, cultured cells and mice\"\n    - generic: 4/4\n    - list:\n      - generic: \"1\"\n      - strong: Inactive cortisone\n      - paragraph: \"The starting point: the inactive form, which the enzyme turns back into active cortisol.\"\n      - generic: \"2\"\n      - strong: 11β-HSD1 in a keratinocyte or dermal fibroblast\n      - paragraph: Keratinocytes and dermal fibroblasts carry 11β-HSD1, the enzyme that does the conversion inside the cell.\n      - generic: \"3\"\n      - strong: Active cortisol, inside the cell\n      - paragraph: The enzyme's product. Local cortisol availability is set here, independently of blood levels.\n      - generic: \"4\"\n      - strong: Collagen production slows in dermal fibroblasts\n      - paragraph: Cortisol slows collagen production in dermal fibroblasts, and mice bred without the enzyme kept their dermal thickness as they aged.\n    - status:\n      - paragraph: 11β-HSD1 turns inactive cortisone back into active cortisol inside the cell, and cortisol slows collagen production; this says nothing yet about how a patient's face will age.\n    - button \"Practice again\"\n    - button \"Back to saved result\"\n  - button \"Previous tap\":\n  - strong: \"4\"\n  - generic: of 25\n  - button \"Next tap\":\n    - generic: Next",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/2/4",
+    "width": 390
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "label": "ar-review-7-2",
+  "state": "- main:\n  - button \"العودة إلى الدورة التدريبية\":\n  - button \"اسأل الدليل\":\n  - button \"تبديل الوحدة التعليمية\":\n    - generic: \"7\"\n  - progressbar \"الخطوة 2 من 29\"\n  - main:\n    - button \"تشغيل الصوت\":\n      - generic: انقر لتشغيل الصوت\n    - paragraph: يُقدَّم عبر مجسّد رقمي (مقدّم وصوت مُنشآن بالذكاء الاصطناعي).\n    - group \"عناصر التحكم في الفيديو\":\n      - button \"إيقاف الفيديو مؤقتاً\" [pressed]:\n      - slider \"موضع الفيديو\": \"2\"\n      - generic: 0:01\n      - generic: 2:12\n      - button \"فتح النص المكتوب\":\n      - button \"ملء الشاشة\":\n    - paragraph: الوحدة 07 · الفيديو الافتتاحي\n    - strong: الأدلة والتنظيم والامتثال\n  - button \"الفقرة السابقة\":\n  - strong: \"2\"\n  - generic: من 29\n  - button \"الفقرة التالية\" [active]:\n    - generic: التالي",
+  "metrics": {
+    "height": 844,
+    "media": [
+      {
+        "duration": 132.95,
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "src": "https://hormonaly.perceptors.ai/assets/hormones-peptides-skin/ar-AE/video/m07-opener.mp4",
+        "tag": "VIDEO",
+        "time": 2.880854
+      }
+    ],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/7/2",
+    "width": 390
+  }
+}

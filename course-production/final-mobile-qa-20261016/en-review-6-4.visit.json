@@ -1,0 +1,11 @@
+{
+  "label": "en-review-6-4",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"6\"\n  - progressbar \"Step 4 of 25\"\n  - main:\n    - paragraph:\n      - text: Practice\n    - heading \"Where GH and IGF-1 act in skin.\" [level=2]\n    - paragraph: Two layers of skin listen to two different parts of the same axis.\n    - strong: Two layers, two hormones\n    - paragraph: Find where growth hormone and IGF-1 act on this skin section.\n    - generic: Mechanism\n    - generic: 4/4\n    - group \"Two layers, two hormones\":\n      - button \"Growth-hormone receptors on fibroblasts\": \"1\"\n      - button \"IGF-1 supplied by the dermis\": \"2\"\n      - button \"IGF-1 receptors on keratinocytes\": \"3\"\n      - button \"Collagen in the dermis\": \"4\"\n    - strong: Collagen in the dermis\n    - paragraph: In culture, growth hormone increases fibroblast numbers and supports collagen synthesis, sometimes directly and sometimes through IGF-1.\n    - status:\n      - paragraph: Growth hormone speaks mainly to the dermis and its fibroblasts; the epidermis listens to IGF-1 that the dermis supplies.\n    - button \"Practice again\"\n  - button \"Previous tap\":\n  - strong: \"4\"\n  - generic: of 25\n  - button \"Next tap\":\n    - generic: Next",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/6/4",
+    "width": 390
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "label": "en-replay-7-10",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"7\"\n  - progressbar \"Step 10 of 29\"\n  - main:\n    - paragraph:\n      - text: Practice\n    - heading \"503A and 503B, side by side.\" [level=2]\n    - paragraph: Two routes exist for compounding in the United States.\n    - status: Practice mode · your completed result is saved.\n    - strong: Who prepares it, and for whom\n    - paragraph: In this picture of the two US routes, find the 503A preparation and its patient, then the 503B facility's trays and the check it works under.\n    - generic: 4/4\n    - group \"Who prepares it, and for whom\":\n      - button \"A 503A preparation\": \"1\"\n      - button \"An identified patient, on a prescription\": \"2\"\n      - 'button \"503B: no prescription for each patient\"': \"3\"\n      - button \"Good manufacturing practice, under inspection\" [active]: \"4\"\n    - strong: Good manufacturing practice, under inspection\n    - paragraph: Outsourcing facilities register with FDA, meet good manufacturing practice, are inspected on a risk-based schedule and report adverse events. The 503A route is exempt from good manufacturing practice.\n    - status:\n      - paragraph: 503A is one preparation for an identified patient on a prescription; 503B works to good manufacturing practice under inspection, without patient-specific prescriptions, and its products remain unapproved.\n    - button \"Practice again\"\n    - button \"Back to saved result\"\n  - button \"Previous tap\":\n  - strong: \"10\"\n  - generic: of 29\n  - button \"Next tap\":\n    - generic: Next",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/7/10",
+    "width": 390
+  }
+}

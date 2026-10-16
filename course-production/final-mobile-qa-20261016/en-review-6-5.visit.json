@@ -1,0 +1,11 @@
+{
+  "label": "en-review-6-5",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"6\"\n  - progressbar \"Step 5 of 25\"\n  - main:\n    - paragraph:\n      - text: Human evidence\n    - heading \"A much-cited skin result, read again.\" [level=2]\n    - generic \"7.1%\": 6.8%\n    - generic: rise in skin thickness in 12 older men given growth hormone for six months (1990)\n    - paragraph: P = 0.07 · nine untreated men as comparison · no placebo\n    - generic: It means\n    - paragraph: A skin result still quoted for growth hormone comes from 12 treated men, without a placebo, and it missed statistical significance. Graded on its design, it is D.\n    - generic: It does not mean\n    - paragraph: It does not show that GH thins skin or that it fails in true deficiency, and it says nothing about secretagogues. It shows how thin the direct skin evidence for growth hormone in healthy ageing is.\n    - generic \"Context and nuance\" [active]\n  - button \"Previous tap\":\n  - strong: \"5\"\n  - generic: of 25\n  - button \"Next tap\":\n    - generic: Next",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/6/5",
+    "width": 390
+  }
+}

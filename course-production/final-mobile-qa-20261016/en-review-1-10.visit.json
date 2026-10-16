@@ -1,0 +1,11 @@
+{
+  "label": "en-review-1-10",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"1\"\n  - progressbar \"Step 10 of 25\"\n  - main:\n    - paragraph:\n      - text: Quick check\n    - heading \"'My skin makes its own cortisol.'\" [level=2]\n    - paragraph: Fictional case. A 52-year-old has new thin, easily bruised skin on her forearms, new violaceous striae and newly raised blood pressure. She has read that skin makes its own cortisol and asks whether a cream could calm it. Which reading is right?\n    - button \"A Her skin's own cortisol explains the picture, so the answer is local.\" [disabled]:\n      - generic: A\n      - paragraph: Her skin's own cortisol explains the picture, so the answer is local.\n    - button \"B The combination is a systemic pattern; the guide lists it as a reason for prompt endocrine referral before any skin treatment.\" [disabled]:\n      - generic: B\n      - paragraph: The combination is a systemic pattern; the guide lists it as a reason for prompt endocrine referral before any skin treatment.\n    - button \"C Local and systemic cortisol are interchangeable, so either explanation fits.\" [disabled]:\n      - generic: C\n      - paragraph: Local and systemic cortisol are interchangeable, so either explanation fits.\n    - button \"Practice again\"\n    - strong: Correct.\n    - paragraph: Decide which direction the signal runs before you decide what to treat.\n    - generic \"See why and review the evidence\"\n    - paragraph:\n      - generic: A\n      - text: Local skin cortisol tunes immune activity where it is made. It does not explain new striae together with new hypertension.\n    - paragraph:\n      - generic: B\n      - text: \"Correct. Striae, bruising and new hypertension together point to possible systemic cortisol excess: a body-to-skin signal.\"\n    - paragraph:\n      - generic: C\n      - text: Local synthesis acts within the skin and runs its own feedback; a systemic syndrome needs a systemic assessment.\n  - button \"Previous tap\":\n  - strong: \"10\"\n  - generic: of 25\n  - button \"Next tap\":\n    - generic: Continue",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/1/10",
+    "width": 390
+  }
+}

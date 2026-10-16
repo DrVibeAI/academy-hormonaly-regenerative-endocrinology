@@ -1,0 +1,11 @@
+{
+  "label": "en-replay-2-18-wrong",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"2\"\n  - progressbar \"Step 18 of 25\"\n  - main:\n    - paragraph:\n      - text: Quick check\n    - heading \"'Hormones for my skin.'\" [level=2]\n    - paragraph: A 52-year-old with no hot flashes, no sleep disturbance and no vaginal symptoms asks for estrogen 'to stop my face ageing'. What does the evidence support?\n    - status: Practice mode · your completed result is saved.\n    - button \"A Estrogen rebuilds collagen, so hormone therapy is a reasonable anti-ageing choice.\" [active]:\n      - generic: A\n      - paragraph: Estrogen rebuilds collagen, so hormone therapy is a reasonable anti-ageing choice.\n    - button \"B A compounded 'bioidentical' estrogen face cream avoids the risks of systemic therapy.\":\n      - generic: B\n      - paragraph: A compounded 'bioidentical' estrogen face cream avoids the risks of systemic therapy.\n    - button \"C Skin alone is not a reason to start hormone therapy; offer skin-directed care such as daily sunscreen and a retinoid, and revisit therapy if menopausal symptoms appear.\":\n      - generic: C\n      - paragraph: Skin alone is not a reason to start hormone therapy; offer skin-directed care such as daily sunscreen and a retinoid, and revisit therapy if menopausal symptoms appear.\n    - button \"Back to saved result\"\n    - strong: Not yet.\n    - paragraph: See why each option stands or falls, then choose again.\n    - generic \"See why and review the evidence\"\n  - button \"Previous tap\":\n  - strong: \"18\"\n  - generic: of 25\n  - button \"Next tap\":\n    - generic: Try again",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/2/18",
+    "width": 390
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "label": "en-review-3-7",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"3\"\n  - progressbar \"Step 7 of 26\"\n  - main:\n    - paragraph:\n      - text: Practice\n    - heading \"From sugar to cross-link.\" [level=2]\n    - paragraph: The chemistry behind sugar damage to the dermis, in five steps.\n    - paragraph: Put glycation in order, from a sugar meeting a protein to a stiffer matrix.\n    - generic: 5/5\n    - list:\n      - generic: \"1\"\n      - strong: Reducing sugar binds a protein amino group\n      - paragraph: \"Glycation is a slow, non-enzymatic reaction: reducing sugars attach to protein amino groups.\"\n      - generic: \"2\"\n      - strong: Reversible Schiff base\n      - paragraph: The first product, the Schiff base, is reversible.\n      - generic: \"3\"\n      - strong: More stable Amadori product\n      - paragraph: It rearranges into a more stable Amadori product.\n      - generic: \"4\"\n      - strong: Irreversible AGEs\n      - paragraph: The reaction ends as advanced glycation end products, or AGEs, which are irreversible.\n      - generic: \"5\"\n      - strong: Cross-links stiffen long-lived collagen\n      - paragraph: Dermal collagen lasts for years, so it collects AGEs, and they form cross-links that make the matrix stiffer.\n    - status:\n      - paragraph: The chemistry is well documented; that AGEs cause visible ageing is graded D, because the human data are associations.\n    - button \"Practice again\"\n  - button \"Previous tap\":\n  - strong: \"7\"\n  - generic: of 26\n  - button \"Next tap\":\n    - generic: Next",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/3/7",
+    "width": 390
+  }
+}

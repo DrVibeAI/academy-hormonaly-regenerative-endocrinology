@@ -1,0 +1,11 @@
+{
+  "label": "en-review-5-12",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"5\"\n  - progressbar \"Step 12 of 25\"\n  - main:\n    - paragraph:\n      - text: The evidence\n    - heading \"Sixty-nine hours against forty-one.\" [level=2]\n    - generic \"69 vs 41 h\": 66 vs 39 h\n    - generic: median pain-free hours in direct sunlight over six months, afamelanotide vs placebo (US phase 3 trial, 94 adults with EPP)\n    - paragraph: \"Langendonk et al., NEJM 2015 · European trial, 74 adults: 6.0 vs 0.8 hours over nine months\"\n    - generic: It means\n    - paragraph: Afamelanotide lets people with EPP spend more time in sunlight without pain. That is approval-grade evidence (A) for one rare disease.\n    - generic: It does not mean\n    - paragraph: It says nothing about cosmetic tanning, about Melanotan II, or about unsupervised injections. Even in EPP, the US label recommends a full-body skin examination twice a year.\n    - generic \"Context and nuance\" [active]\n  - button \"Previous tap\":\n  - strong: \"12\"\n  - generic: of 25\n  - button \"Next tap\":\n    - generic: Next",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/5/12",
+    "width": 390
+  }
+}

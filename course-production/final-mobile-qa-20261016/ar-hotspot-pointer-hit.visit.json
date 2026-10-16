@@ -1,0 +1,11 @@
+{
+  "label": "ar-hotspot-pointer-hit",
+  "state": "- main:\n  - button \"العودة إلى الدورة التدريبية\":\n  - button \"اسأل الدليل\":\n  - button \"تبديل الوحدة التعليمية\":\n    - generic: \"1\"\n  - progressbar \"الخطوة 18 من 25\"\n  - main:\n    - paragraph:\n      - text: تطبيق سريري\n    - heading \"توقفت نهائياً عن الانقسام، وما زالت تفرز.\" [level=2]\n    - paragraph: خلية هرمة بجانب خلية لا تزال تنقسم.\n    - status: وضع التدريب · نتيجتك المكتملة محفوظة.\n    - strong: منقسمة، هرمة، مفرزة\n    - paragraph: حدد الخلية التي لا تزال تنقسم، والخلية الهرمة، ونمط SASP الذي تفرزه.\n    - generic: \"نمط SASP: جرى توصيفه في الخلايا المستنبتة\"\n    - generic: 1/3\n    - group \"منقسمة، هرمة، مفرزة\" [active]:\n      - button \"خلية منقسمة\": \"1\"\n      - button \"النقطة 2\"\n      - button \"النقطة 3\"\n    - strong: خلية منقسمة\n    - paragraph: على اليسار، تنقسم خلية إلى خليتين. تتوقف الخلية التي تعرضت لضرر كافٍ عن الانقسام نهائياً، مما يساعد على الوقاية من السرطان ويفيد في التئام الجروح.\n    - button \"العودة إلى النتيجة المحفوظة\"\n  - button \"الفقرة السابقة\":\n  - strong: \"18\"\n  - generic: من 25\n  - button \"الفقرة التالية\":\n    - generic: التالي",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/1/18",
+    "width": 390
+  }
+}

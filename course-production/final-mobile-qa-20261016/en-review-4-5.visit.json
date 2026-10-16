@@ -1,0 +1,11 @@
+{
+  "label": "en-review-4-5",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"4\"\n  - progressbar \"Step 5 of 25\"\n  - main:\n    - paragraph:\n      - text: Human evidence\n    - heading \"One indexed randomized trial.\" [level=2]\n    - generic \"1\"\n    - generic: indexed randomized trial of topical GHK-Cu in human skin\n    - paragraph: Miller et al., 2006 — healing after CO₂ laser resurfacing, not photoageing\n    - generic: It means\n    - paragraph: \"The human evidence for topical GHK-Cu is small: one small indexed trial plus sponsor-run cosmetic studies. GRADE C is the honest ceiling.\"\n    - generic: It does not mean\n    - paragraph: It does not show that GHK-Cu fails, that it treats photoageing, or anything about injecting it. A thin evidence base is an unknown, not a negative.\n    - generic \"Context and nuance\" [active]\n  - button \"Previous tap\":\n  - strong: \"5\"\n  - generic: of 25\n  - button \"Next tap\":\n    - generic: Next",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/4/5",
+    "width": 390
+  }
+}

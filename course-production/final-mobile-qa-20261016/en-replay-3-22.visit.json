@@ -1,0 +1,11 @@
+{
+  "label": "en-replay-3-22",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"3\"\n  - progressbar \"Step 22 of 26\"\n  - main:\n    - paragraph:\n      - text: Sort the toolkit\n    - heading \"What has been tested on skin?\" [level=2]\n    - status: Practice mode · your completed result is saved.\n    - strong: What stands behind it?\n    - paragraph: \"One at a time: what has actually been tested?\"\n    - generic: 6/6\n    - paragraph:\n      - strong: Correct\n      - text: \"· A 'leaky gut' stack: L-glutamine, zinc carnosine, BPC-157\"\n      - text: \"Your answer: Little or no human outcome data. Correct classification: Little or no human outcome data.\"\n      - text: \"The Hormonaly guide grades it D: mechanism and animal data. As of September 2026, BPC-157 is not on the US 503A bulks list; an FDA advisory committee reviewed it in July 2026.\"\n    - strong: 6/6 on the first try\n    - list:\n      - generic: Probiotic capsules → Tested on skin in randomized trials\n      - generic: Rifaximin for rosacea with bacterial overgrowth → Tested on skin in randomized trials\n      - generic: Tirzepatide added to a psoriasis biologic → Tested on skin in randomized trials\n      - generic: A high-fibre, plant-rich diet → Tested in people, not on skin\n      - generic: Akkermansia capsules → Tested in people, not on skin\n      - generic: \"A 'leaky gut' stack: L-glutamine, zinc carnosine, BPC-157 → Little or no human outcome data\"\n    - status:\n      - paragraph: Six placed. Three have skin trials, each small, single or sponsor-run; two have human data without skin outcomes; one has none.\n    - button \"Practice again\"\n    - button \"Back to saved result\"\n    - complementary \"Regulatory status\":\n      - generic \"Regulatory status by country (4)\"\n    - generic \"See the full model\"\n  - button \"Previous tap\":\n  - strong: \"22\"\n  - generic: of 26\n  - button \"Next tap\":\n    - generic: Next",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/3/22",
+    "width": 390
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "label": "en-replay-7-20-wrong",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"7\"\n  - progressbar \"Step 20 of 29\"\n  - main:\n    - paragraph:\n      - text: Quick check\n    - heading \"A clean certificate.\" [level=2]\n    - paragraph: \"A patient shows you the certificate for a research-use-only peptide she injects: 99.1% purity by HPLC with a chromatogram, the correct mass by mass spectrometry, and a lot number that matches her vial. What does it establish?\"\n    - status: Practice mode · your completed result is saved.\n    - button \"A That the vial is safe to inject.\":\n      - generic: A\n      - paragraph: That the vial is safe to inject.\n    - button \"B That the supplier reports the right molecule at high purity for that lot, and nothing about sterility, storage since testing or a lawful route.\":\n      - generic: B\n      - paragraph: That the supplier reports the right molecule at high purity for that lot, and nothing about sterility, storage since testing or a lawful route.\n    - button \"C Nothing at all, because certificates are always forged.\" [active]:\n      - generic: C\n      - paragraph: Nothing at all, because certificates are always forged.\n    - button \"Back to saved result\"\n    - strong: Not yet.\n    - paragraph: See why each option stands or falls, then choose again.\n    - generic \"See why and review the evidence\"\n  - button \"Previous tap\":\n  - strong: \"20\"\n  - generic: of 29\n  - button \"Next tap\":\n    - generic: Try again",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/7/20",
+    "width": 390
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "label": "en-review-2-7",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"2\"\n  - progressbar \"Step 7 of 25\"\n  - main:\n    - paragraph:\n      - text: The evidence\n    - heading \"Rare, and usually from a prescription.\" [level=2]\n    - generic \"2–3\"\n    - generic: new cases of endogenous Cushing's syndrome per million people per year (European population studies)\n    - paragraph: As cited in the Endocrine Society diagnostic guideline, 2008\n    - generic: It means\n    - paragraph: A round, puffy face in an aesthetic clinic is almost always something other than Cushing's syndrome, and when cortisol excess is real it most often comes from a glucocorticoid the patient is already using.\n    - generic: It does not mean\n    - paragraph: It does not mean you can dismiss it. The guideline recommends testing when discriminating features are multiple and progressive or unusual for age, and some groups, such as people with poorly controlled diabetes, carry a higher rate.\n    - generic \"Context and nuance\" [active]\n  - button \"Previous tap\":\n  - strong: \"7\"\n  - generic: of 25\n  - button \"Next tap\":\n    - generic: Next",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/2/7",
+    "width": 390
+  }
+}

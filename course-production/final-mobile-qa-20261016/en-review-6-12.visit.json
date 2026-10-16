@@ -1,0 +1,11 @@
+{
+  "label": "en-review-6-12",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"6\"\n  - progressbar \"Step 12 of 25\"\n  - main:\n    - paragraph:\n      - text: The evidence\n    - heading \"Zero skin trials.\" [level=2]\n    - generic \"0\"\n    - generic: randomized trials with a skin outcome for tesamorelin, CJC-1295, ipamorelin or IGF-1 LR3 (PubMed, September 2026)\n    - paragraph: \"Closest: a 1997 single-blind study of a GHRH(1-29) analogue, 19 older adults, skin thickness by caliper\"\n    - generic: It means\n    - paragraph: Every skin promise made for these peptides rests on mechanism and anecdote. The nearest data are one small study without a parallel control group (D).\n    - generic: It does not mean\n    - paragraph: It does not show these peptides harm skin or do nothing for it. It shows the question has never been properly tested, and a clinic brochure cannot fill that gap.\n    - generic \"Context and nuance\" [active]\n  - button \"Previous tap\":\n  - strong: \"12\"\n  - generic: of 25\n  - button \"Next tap\":\n    - generic: Next",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/6/12",
+    "width": 390
+  }
+}

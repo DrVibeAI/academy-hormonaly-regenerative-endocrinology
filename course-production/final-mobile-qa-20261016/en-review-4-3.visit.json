@@ -1,0 +1,11 @@
+{
+  "label": "en-review-4-3",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"4\"\n  - progressbar \"Step 3 of 25\"\n  - main:\n    - paragraph: Your role\n    - heading \"How will you use this module?\" [level=2]\n    - paragraph: The evidence and grades are the same for everyone, and regulatory notes follow the country you choose. What changes with your role is the 'what you do next' at the end of each lesson, so it fits what your licence lets you do.\n    - group \"Choose the one closest to your role\":\n      - 'button \"I prescribe: physician, NP or PA\"':\n        - text: \"I prescribe: physician, NP or PA\"\n      - 'button \"I deliver treatments: RN, aesthetic nurse or injector\"':\n        - text: \"I deliver treatments: RN, aesthetic nurse or injector\"\n      - 'button \"I advise on products: pharmacist, ND or allied professional\"':\n        - text: \"I advise on products: pharmacist, ND or allied professional\"\n    - generic \"Add a detail (optional)\" [active]\n    - strong: Set for your role\n    - paragraph: \"Each lesson now closes on the prescribing decision: status checks, consent, documentation and when to refer.\"\n  - button \"Previous tap\":\n  - strong: \"3\"\n  - generic: of 25\n  - button \"Next tap\":\n    - generic: Next",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/4/3",
+    "width": 390
+  }
+}

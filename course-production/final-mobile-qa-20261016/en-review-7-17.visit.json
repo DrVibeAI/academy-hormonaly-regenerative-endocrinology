@@ -1,0 +1,11 @@
+{
+  "label": "en-review-7-17",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"7\"\n  - progressbar \"Step 17 of 29\"\n  - main:\n    - paragraph:\n      - text: Label against laboratory\n    - heading \"99% on the label.\" [level=2]\n    - generic \"7.7–14.4%\"\n    - generic: measured purity of online semaglutide vials labelled 99%\n    - paragraph: Ashraf et al., J Med Internet Res 2024 · three delivered vials · endotoxin detected in all three\n    - generic: It means\n    - paragraph: Purity printed on a label can be wildly wrong, and a vial that grows nothing can still carry endotoxin. Independent testing found what the paperwork hid.\n    - generic: It does not mean\n    - paragraph: Three vials of one drug give no market-wide failure rate, and semaglutide is outside the skin-peptide shelf. It documents the gap between claim and content for one product; it does not measure research peptides as a class.\n    - generic \"Context and nuance\" [active]\n  - button \"Previous tap\":\n  - strong: \"17\"\n  - generic: of 29\n  - button \"Next tap\":\n    - generic: Next",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/7/17",
+    "width": 390
+  }
+}

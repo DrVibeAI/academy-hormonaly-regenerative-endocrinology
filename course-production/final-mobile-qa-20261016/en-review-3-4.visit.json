@@ -1,0 +1,11 @@
+{
+  "label": "en-review-3-4",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"3\"\n  - progressbar \"Step 4 of 26\"\n  - main:\n    - paragraph:\n      - text: Practice\n    - heading \"Fat inside the dermis, and below it.\" [level=2]\n    - paragraph: The skin keeps two layers of fat, and one of them sits inside the dermis.\n    - strong: Two fat layers, one follicle\n    - paragraph: Find the dermis, the two fat layers, and the follicle the thinner layer surrounds.\n    - generic: 4/4\n    - group \"Two fat layers, one follicle\":\n      - button \"Dermal white adipose tissue\": \"1\"\n      - button \"Hair follicle\": \"2\"\n      - button \"Subcutaneous fat\": \"3\"\n      - button \"Dermis\": \"4\"\n    - strong: Dermis\n    - paragraph: Most people picture skin fat as one layer under the dermis; there is a second, thinner layer inside the reticular dermis itself.\n    - status:\n      - paragraph: \"Two fat layers: subcutaneous fat beneath the dermis, and dermal white adipose tissue inside it, which human skin arranges in cones around hair follicles.\"\n    - button \"Practice again\"\n  - button \"Previous tap\":\n  - strong: \"4\"\n  - generic: of 26\n  - button \"Next tap\":\n    - generic: Next",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/3/4",
+    "width": 390
+  }
+}

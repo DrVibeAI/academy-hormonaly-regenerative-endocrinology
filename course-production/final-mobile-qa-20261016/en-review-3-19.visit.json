@@ -1,0 +1,11 @@
+{
+  "label": "en-review-3-19",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"3\"\n  - progressbar \"Step 19 of 26\"\n  - main:\n    - paragraph:\n      - text: Quick check\n    - heading \"What the evidence shows.\" [level=2]\n    - paragraph: Which statement about facial change on semaglutide or tirzepatide matches the evidence as of September 2026?\n    - button \"A Randomized trials show these drugs age facial skin directly.\" [disabled]:\n      - generic: A\n      - paragraph: Randomized trials show these drugs age facial skin directly.\n    - button \"B Facial volume loss is reported in small observational studies and tracks the amount of weight lost; no randomized trial has measured it.\" [disabled]:\n      - generic: B\n      - paragraph: Facial volume loss is reported in small observational studies and tracks the amount of weight lost; no randomized trial has measured it.\n    - button \"C Facial volume loss is a labelled adverse reaction in the US prescribing information.\" [disabled]:\n      - generic: C\n      - paragraph: Facial volume loss is a labelled adverse reaction in the US prescribing information.\n    - button \"Practice again\"\n    - strong: Correct.\n    - paragraph: \"Name the evidence type before the effect: here, small observational studies.\"\n    - generic \"See why and review the evidence\"\n    - paragraph:\n      - generic: A\n      - text: No randomized trial has measured the face, and a direct effect on skin is a hypothesis from cell studies.\n    - paragraph:\n      - generic: B\n      - text: Correct. Observational, small, and consistent with weight loss as the driver.\n    - paragraph:\n      - generic: C\n      - text: Hair loss is labelled. Facial volume loss is not.\n  - button \"Previous tap\":\n  - strong: \"19\"\n  - generic: of 26\n  - button \"Next tap\":\n    - generic: Continue",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/3/19",
+    "width": 390
+  }
+}

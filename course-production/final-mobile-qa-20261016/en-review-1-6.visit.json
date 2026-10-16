@@ -1,0 +1,11 @@
+{
+  "label": "en-review-1-6",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"1\"\n  - progressbar \"Step 6 of 25\"\n  - main:\n    - paragraph:\n      - text: Local or systemic\n    - heading \"Three directions of traffic.\" [level=2]\n    - strong: Which direction?\n    - paragraph: \"One finding at a time: which way does the signal run?\"\n    - generic: 7/7\n    - strong: 0/7 on the first try\n    - list:\n      - generic: Keratinocytes make cortisol that restrains immune cells in the same patch of skin → Local loop\n      - generic: UVB turns 7-dehydrocholesterol into vitamin D3, which the blood carries to the liver → Skin to body\n      - generic: Violaceous striae, thin skin and easy bruising in Cushing syndrome → Body to skin\n      - generic: Scalp hair follicles kept alive in culture secrete cortisol, then switch off their own CRH → Local loop\n      - generic: Skin converts circulating precursors into androgens and estrogens that add to the body's supply → Skin to body\n      - generic: Dry, coarse skin and myxoedema in hypothyroidism → Body to skin\n      - generic: Scalp follicles convert testosterone to DHT, which shrinks susceptible follicles → Local loop\n    - status:\n      - paragraph: Seven placed. Three local loops, two signals the skin sends out, and two it receives.\n    - button \"Practice again\"\n    - generic \"See the full model\" [active]\n  - button \"Previous tap\":\n  - strong: \"6\"\n  - generic: of 25\n  - button \"Next tap\":\n    - generic: Next",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/1/6",
+    "width": 390
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "label": "en-review-7-13",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"7\"\n  - progressbar \"Step 13 of 29\"\n  - main:\n    - paragraph:\n      - text: Peptide or biologic\n    - heading \"Forty amino acids.\" [level=2]\n    - generic \"40\"\n    - generic: \"amino acids: above this, FDA treats the molecule as a protein, and so as a biological product\"\n    - paragraph: 85 FR 10057, effective 23 March 2020 · tesamorelin (44 residues) and hyaluronidase moved to biologics licences\n    - generic: It means\n    - paragraph: Size decides the rulebook. Peptides of 40 or fewer alpha amino acids stay drugs, so the 503A questions apply; above 40 the product is a biologic, and the compounding exemptions are closed to it.\n    - generic: It does not mean\n    - paragraph: \"It does not make a short peptide lawful to compound; BPC-157 (15 residues) and GHK (3) still need a 503A route. How residues are counted can be contested: a court upheld FDA's count of 39 for retatrutide in 2025, and the appeal was still open at the latest filings (June 2026).\"\n    - complementary \"Regulatory status\":\n      - generic \"Regulatory status by country (4)\"\n    - generic \"Context and nuance\" [active]\n  - button \"Previous tap\":\n  - strong: \"13\"\n  - generic: of 29\n  - button \"Next tap\":\n    - generic: Next",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/7/13",
+    "width": 390
+  }
+}

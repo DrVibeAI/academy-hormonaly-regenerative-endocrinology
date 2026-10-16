@@ -1,0 +1,11 @@
+{
+  "label": "en-review-5-1",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"5\"\n  - progressbar \"Step 1 of 25\"\n  - main:\n    - img \"Hormonaly\"\n    - generic: Academy\n    - paragraph: Module 05 · Follicle, pigment and melanocortins\n    - heading \"A spray for the scalp, a tan in a vial.\" [level=2]\n    - paragraph: \"Two requests reach aesthetic clinics well ahead of their evidence: a peptide to regrow hair and an injection to tan. In three lessons you will see how the follicle and the pigment system run on the skin's own hormones, why one melanocortin drug is approved while its gray-market cousin is approved nowhere, and how to grade the hair peptides patients bring to you.\"\n    - list:\n      - listitem: 5.1 The hair follicle as an endocrine mini-organ\n      - listitem: 5.2 Afamelanotide, Melanotan II and the melanocortin receptors\n      - listitem: 5.3 Investigational hair peptides, graded\n    - generic: 41 min\n  - button \"Previous tap\" [disabled]:\n  - strong: \"1\"\n  - generic: of 25\n  - button \"Next tap\":\n    - generic: Next",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/5/1",
+    "width": 390
+  }
+}

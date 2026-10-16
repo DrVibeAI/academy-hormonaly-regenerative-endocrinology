@@ -1,0 +1,11 @@
+{
+  "label": "en-replay-2-9",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"2\"\n  - progressbar \"Step 9 of 25\"\n  - main:\n    - paragraph:\n      - text: Practice\n    - heading \"The 'cortisol face' serum\" [level=2]\n    - paragraph: A fictional product page that borrows this lesson's science.\n    - status: Practice mode · your completed result is saved.\n    - region \"Where the page overreaches\":\n      - paragraph: Find every claim the evidence does not support.\n      - strong: 4/4\n      - group \"Inspect the document\":\n        - button \"Puffy face in the morning? That's cortisol face.\" [pressed]\n        - button \"Your skin regenerates its own cortisol, inside its cells.\" [pressed]\n        - button \"The enzyme behind it works harder with age and in sun-exposed skin.\"\n        - button \"Cortisol slows collagen production in dermal fibroblasts.\"\n        - button \"So blocking cortisol in your skin reverses ageing.\" [pressed]\n        - 'button \"Clinically proven: in a human trial, blocking the enzyme healed skin faster.\" [pressed]'\n        - button \"Our saliva kit shows how much cortisol your skin is making.\" [active] [pressed]\n      - status:\n        - paragraph:\n          - strong: Our saliva kit shows how much cortisol your skin is making.\n        - paragraph: Local cortisol is set inside the skin, independently of blood levels, so a systemic cortisol test does not measure it; a mail-order saliva panel answers the wrong question.\n      - status: The skin's cortisol mechanism is real, but it diagnoses no face, proves no serum and cannot be read from saliva.\n    - button \"Practice again\"\n    - button \"Back to saved result\"\n  - button \"Previous tap\":\n  - strong: \"9\"\n  - generic: of 25\n  - button \"Next tap\":\n    - generic: Next",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/2/9",
+    "width": 390
+  }
+}
