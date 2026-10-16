@@ -1,0 +1,58 @@
+{
+  "schema": "perceptor.sharing-card/2",
+  "renderer": {
+    "platform": "darwin",
+    "sharp": "0.35.5",
+    "vips": "8.18.7",
+    "titleFont": "Helvetica Neue",
+    "bodyFont": "Helvetica Neue",
+    "fontResolution": "system-fontconfig"
+  },
+  "width": 1200,
+  "height": 630,
+  "format": "jpeg",
+  "bytes": 88314,
+  "quality": 94,
+  "imageSha256": "7080d09c407198a9a9a77fc116dd2b13412200fde95f0dadaf472a1d65e88f31",
+  "svgSha256": "208c49f94b39951fb69ebf4176179a36679193922295e138a0f675b2e8465641",
+  "specSha256": "a190664ec2b0a3624ce64a66d3ffa5c70e937fa7d304f2ab436bff326b683456",
+  "sources": [
+    {
+      "role": "visual",
+      "path": "source-ae9c3c729fd8834a.jpg",
+      "sha256": "ae9c3c729fd8834af9138538b164f620fb8bd1fb03a9bc0e4ecc9c711ed7ac69",
+      "source": "Existing course/brand artwork: hormonaly-inputs/public/assets/hormones-peptides-skin/home/hero-skin.jpg",
+      "rights": "Existing owner-supplied or course-produced public artwork"
+    },
+    {
+      "role": "logo",
+      "path": "source-84ed83c73582d88b.png",
+      "sha256": "84ed83c73582d88b0686696795f6a8cff127a60e455ab9b017191efd3a1ca763"
+    }
+  ],
+  "layout": {
+    "headingLines": [
+      "الهرمونات",
+      "والببتيدات للبشرة"
+    ],
+    "titleSize": 76,
+    "subtitleLines": [
+      "الأدلة العلمية في الممارسة السريرية"
+    ],
+    "titleBottom": 378,
+    "textContrast": 11.69,
+    "safeInset": 72,
+    "visualKind": "photograph",
+    "visualFit": "cover",
+    "direction": "rtl"
+  },
+  "review": {
+    "required": [
+      "full-size",
+      "320px-message-preview",
+      "center-crop",
+      "source-rights"
+    ],
+    "status": "rendered-awaiting-visual-review"
+  }
+}
