@@ -300,23 +300,23 @@ home:
       a:
         en: Complete all seven modules and pass the final check with 80% or more to
           receive your Hormonaly Academy certificate of completion, including
-          during October's free enrollment period. Each certificate has a public
+          during the free enrollment period through November 30. Each certificate has a public
           verification code.
         ar-AE: أكمل الوحدات السبع واجتز التقييم النهائي بنسبة 80% أو أكثر لتحصل على
           شهادة إتمام من أكاديمية Hormonaly، بما في ذلك خلال فترة التسجيل
-          المجاني في أكتوبر. تحمل كل شهادة رمز تحقق متاحًا للعامة.
+          المجاني حتى 30 نوفمبر. تحمل كل شهادة رمز تحقق متاحًا للعامة.
   certificate:
     title:
       en: Certificate of completion
       ar-AE: شهادة إتمام الدورة
     body:
       en: Complete all seven modules and pass the final check to receive your
-        Hormonaly Academy certificate of completion. Included during October's
-        free enrollment period.
+        Hormonaly Academy certificate of completion. Included during the free
+        enrollment period through November 30.
       ar-AE: أكمل الوحدات السبع واجتز التقييم النهائي لتحصل على شهادة إتمام من
-        أكاديمية Hormonaly. الشهادة مشمولة خلال فترة التسجيل المجاني في أكتوبر.
+        أكاديمية Hormonaly. الشهادة مشمولة خلال فترة التسجيل المجاني حتى 30 نوفمبر.
       ar: أكمل الوحدات السبع واجتز التقييم النهائي لتحصل على شهادة إتمام من أكاديمية
-        Hormonaly. الشهادة مشمولة خلال فترة التسجيل المجاني في أكتوبر.
+        Hormonaly. الشهادة مشمولة خلال فترة التسجيل المجاني حتى 30 نوفمبر.
     image:
       src: /assets/hormones-peptides-skin/ui/evidence-desk.jpg
       alt:
@@ -383,23 +383,23 @@ catalog:
         id: october-2026
         amount: 0
         startsAt: 2026-10-01T00:00:00-07:00
-        endsAt: 2026-11-01T00:00:00-07:00
+        endsAt: 2026-12-01T00:00:00-08:00
         label:
-          en: October offer · free through October 31
-          es: Oferta de octubre · gratis hasta el 31 de octubre
-          pt: Oferta de outubro · grátis até 31 de outubro
-          ar-AE: عرض أكتوبر · مجانًا حتى 31 أكتوبر
+          en: Extended offer · free through November 30
+          es: Oferta ampliada · gratis hasta el 30 de noviembre
+          pt: Oferta prorrogada · grátis até 30 de novembro
+          ar-AE: تمديد العرض · مجانًا حتى 30 نوفمبر
         banner:
           headline:
-            en: Free for October
-            es: Gratis en octubre
-            pt: Grátis em outubro
-            ar-AE: مجانًا خلال أكتوبر
+            en: Free through November 30
+            es: Gratis hasta el 30 de noviembre
+            pt: Grátis até 30 de novembro
+            ar-AE: مجانًا حتى 30 نوفمبر
           detail:
-            en: Limited-time offer · Ends October 31
-            es: Oferta por tiempo limitado · Hasta el 31 de octubre
-            pt: Oferta por tempo limitado · Até 31 de outubro
-            ar-AE: عرض لفترة محدودة · ينتهي في 31 أكتوبر
+            en: Limited-time offer · Ends November 30
+            es: Oferta por tiempo limitado · Hasta el 30 de noviembre
+            pt: Oferta por tempo limitado · Até 30 de novembro
+            ar-AE: عرض لفترة محدودة · ينتهي في 30 نوفمبر
           action:
             en: Enroll free
             es: Inscríbete gratis
