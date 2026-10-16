@@ -1,6 +1,6 @@
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[2]
-OUT=ROOT/'public/seo-v2-hormonaly'
+OUT=ROOT/'public/seo-v3-hormonaly'
 COPY={
 'en':dict(title='Hormones and<br>Peptides for Skin',eyebrow='FOR CLINICIANS',body='Understand the evidence.<br>Bring clarity to the conversation.',meta='7 modules · ~5 hours · English & Arabic',cta='Explore the course',foot='Actual course previews · Example learner state'),
 'ar':dict(title='الهرمونات والببتيدات<br>للبشرة',eyebrow='للممارسين الصحيين',body='افهم الأدلة العلمية.<br>وقدّم إجابات أكثر وضوحاً.',meta='٧ وحدات · نحو ٥ ساعات · بالعربية والإنجليزية',cta='استكشف الدورة',foot='معاينات فعلية للدورة · حالة متعلّم توضيحية')}

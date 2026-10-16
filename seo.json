@@ -2,17 +2,17 @@
   "origin": "https://hormonaly.perceptors.ai",
   "name": "Hormonaly Academy",
   "themeColor": "#1F1F1F",
-  "assetDirectory": "seo-v2-hormonaly",
+  "assetDirectory": "seo-v3-hormonaly",
   "languages": {
     "en": "en-US",
     "ar": "ar-AE"
   },
   "icons": {
-    "favicon16": "/seo-v2-hormonaly/icon-16.png",
-    "favicon32": "/seo-v2-hormonaly/icon-32.png",
-    "appleTouch": "/seo-v2-hormonaly/icon-180.png",
-    "icon192": "/seo-v2-hormonaly/icon-192.png",
-    "icon512": "/seo-v2-hormonaly/icon-512.png"
+    "favicon16": "/seo-v3-hormonaly/icon-16.png",
+    "favicon32": "/seo-v3-hormonaly/icon-32.png",
+    "appleTouch": "/seo-v3-hormonaly/icon-180.png",
+    "icon192": "/seo-v3-hormonaly/icon-192.png",
+    "icon512": "/seo-v3-hormonaly/icon-512.png"
   },
   "pages": [
     {
@@ -25,18 +25,18 @@
           "title": "Hormones and Peptides for Skin | Hormonaly Academy",
           "description": "Explore hormones and peptides for skin, hair and the ageing face. A clinical course on evidence, evaluating claims and boundaries for practice.",
           "name": "Hormones and Peptides for Skin",
-          "image": "/seo-v2-hormonaly/academy-en.png",
+          "image": "/seo-v3-hormonaly/academy-en.png",
           "imageAlt": "Hormonaly Academy — Hormones and Peptides for Skin"
         },
         "ar": {
           "title": "الهرمونات والببتيدات للبشرة | أكاديمية هورمونالي",
           "name": "الهرمونات والببتيدات للبشرة",
           "description": "استكشف الهرمونات والببتيدات للبشرة والشعر وشيخوخة الوجه. دورة سريرية حول الأدلة وتقييم الادعاءات وحدود الممارسة.",
-          "image": "/seo-v2-hormonaly/academy-ar.png",
+          "image": "/seo-v3-hormonaly/academy-ar.png",
           "imageAlt": "أكاديمية هورمونالي — الهرمونات والببتيدات للبشرة"
         }
       },
-      "image": "/seo-v2-hormonaly/academy-en.png",
+      "image": "/seo-v3-hormonaly/academy-en.png",
       "imageAlt": "Hormonaly Academy — Hormones and Peptides for Skin",
       "courseId": "hormonaly.hormones-peptides-skin"
     }

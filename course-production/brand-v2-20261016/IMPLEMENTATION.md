@@ -11,7 +11,7 @@ Runtime: `573706e112d83526a142fa5c5f105543012327f8` (includes the follow-up prod
 - Shared UI theme covers public home, learner navigation, Today, course overview, lesson cards, activities, quizzes, Library, notes, Guide, profile, sign-in, enrollment, legal/footer surfaces, and admin controls.
 - Course page containers are centered; English copy aligns left within them, Arabic copy aligns right. Header, content and footer use the same gutters. Lesson card and bottom navigation share one width.
 - Six actual English/Arabic course previews replace the old homepage screenshots. Compact device sizing remains.
-- English/Arabic social images and icons under `public/seo-v2-hormonaly`, with metadata updated to the versioned paths. Editable HTML sources accompany them.
+- English/Arabic social images and icons under `public/seo-v3-hormonaly`, with metadata updated to the versioned paths. Editable HTML sources accompany them.
 - Verification email branding and certificate renderer updated. Certificate proofs use the new fonts, original logo, lilac watermark and blue course title. Footer overflow is corrected; all three proof PDFs are one page.
 - Homepage section links explicitly scroll to their target, including links opened before React mounts.
 
