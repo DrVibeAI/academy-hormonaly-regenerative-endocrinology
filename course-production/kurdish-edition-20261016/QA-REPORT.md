@@ -1,6 +1,6 @@
 # Iraqi Sorani and Arabic edition QA
 
-Implementation and technical QA complete in local review copies. Status: **in_review**. Native language, clinical and translated legal sign-off remain pending; no new human approval is recorded.
+Implementation and technical QA complete in local review copies. Status: **in_review**. Fady Hannah-Shmouni, MD FRCPC is assigned to Sorani, Arabic additions and clinical review for both academies. His sign-off and translated legal review remain pending; no new human approval is recorded.
 
 - 7 modules, 180 lesson cards, 14 preserved final-check questions, 48 Sorani v4 narrations and 8 subtitle tracks (including trailer).
 - Existing design and original films preserved; original Arabic media retained. Sorani films use subtitle sidecars. Localized artwork labels and homepage screenshots are additive.
@@ -12,4 +12,4 @@ Implementation and technical QA complete in local review copies. Status: **in_re
 
 Source lock, coverage, narration receipts, caption timing and bilingual review evidence are included beside this report. Original approval records, learner records, completion policies and scoring are preserved. Foundations remains quiz-only completion; its Toolkit is optional.
 
-No live deployment, real learner mutation, email send or valid certificate issuance occurred. Before publication, assign native Sorani, Arabic-addition and clinical reviewers, review translated legal text, then approve the exact candidate and target deployment. Integration must compare current upstream work again.
+No live deployment, real learner mutation, email send or valid certificate issuance occurred. Fady is the assigned Sorani, Arabic-addition and clinical reviewer. Before publication, record his completed review, review translated legal text, then approve the exact candidate and target deployment. Integration must compare current upstream work again.

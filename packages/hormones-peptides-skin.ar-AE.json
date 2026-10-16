@@ -51,8 +51,9 @@
       "locale": "ckb-IQ",
       "name": "کوردیی سۆرانی — عێراق",
       "direction": "rtl",
-      "status": "draft",
-      "notes": "Sorani language edition. Independent language and clinical review pending. Practice jurisdiction remains a separate learner setting."
+      "status": "in_review",
+      "notes": "Sorani language edition. Independent language and clinical review pending. Practice jurisdiction remains a separate learner setting.",
+      "reviewOwner": "Fady Hannah-Shmouni, MD FRCPC"
     }
   ],
   "audience": {
@@ -45505,9 +45506,10 @@
       "status": "in_review",
       "textComplete": true,
       "mediaComplete": true,
-      "languageReviewOwner": null,
+      "languageReviewOwner": "Fady Hannah-Shmouni, MD FRCPC",
       "videoMode": "original_english_with_sorani_subtitles",
-      "narrations": 48
+      "narrations": 48,
+      "clinicalReviewOwner": "Fady Hannah-Shmouni, MD FRCPC"
     }
   }
 }

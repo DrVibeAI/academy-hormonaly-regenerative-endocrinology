@@ -3,7 +3,7 @@
   "academy": "hormonaly",
   "brandFingerprint": "087d01f11541736bd5a1e0fbb5118d3520c33845ad8fd0a9f7ec43730d19e44d",
   "course": "packages/hormones-peptides-skin.ar-AE.json",
-  "packageSha256": "445265c226228108a7a384d0daaebdb470826e711acf978e8d6b2650f0a6ea1c",
+  "packageSha256": "383210af8a8203d32d964ba60460a4c792a754023151f76bf28c8b6afddbdccb",
   "capturedAt": "2026-10-16T17:42:27.672124+00:00",
   "sourceRuntimeCommit": "f9f8219",
   "viewport": {
@@ -95,5 +95,12 @@
     "date": "2026-10-16T20:18:15.223Z",
     "change": "Additive Sorani locale only; original English/Arabic fields and captured screens preserved. Actual Sorani course, science and practice screens captured in the same 390×844 viewport.",
     "sourcePackageSha256": "974586841d3b97fa5c9a1e4e48ca95ef8108c4b3db9722e5994c269a25db4efa"
+  },
+  "reviewOwnerAmendment": {
+    "previousPackageSha256": "445265c226228108a7a384d0daaebdb470826e711acf978e8d6b2650f0a6ea1c",
+    "assignedAt": "2026-10-16T20:43:28.742976+00:00",
+    "reviewOwner": "Fady Hannah-Shmouni, MD FRCPC",
+    "scope": "Only ckb-IQ reviewOwner/status and kurdishEdition review-owner metadata changed. No lesson content, layout, image or captured-screen fields changed; existing captured images remain representative.",
+    "approval": null
   }
 }
