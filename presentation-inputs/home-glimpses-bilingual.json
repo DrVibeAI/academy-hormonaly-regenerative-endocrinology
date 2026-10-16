@@ -3,7 +3,7 @@
   "academy": "hormonaly",
   "brandFingerprint": "087d01f11541736bd5a1e0fbb5118d3520c33845ad8fd0a9f7ec43730d19e44d",
   "course": "packages/hormones-peptides-skin.ar-AE.json",
-  "packageSha256": "383210af8a8203d32d964ba60460a4c792a754023151f76bf28c8b6afddbdccb",
+  "packageSha256": "b809112ac27a77d713962ff1628ea1779f0b750738542ed0a8dc49a20010b2be",
   "capturedAt": "2026-10-16T17:42:27.672124+00:00",
   "sourceRuntimeCommit": "f9f8219",
   "viewport": {
@@ -67,8 +67,8 @@
       "lesson": 1,
       "pane": 0,
       "view": "course",
-      "sha256": "3464756750d4c5d447635de516ee7e3543b4e2da10ce34fe85faa9ebe698500a",
-      "capturedAt": "2026-10-16T19:52:37.683Z"
+      "sha256": "5eed133d1b69e11494153ff0a4a57ea18fa452b2223ccf3b9b2a0b89e0c7c701",
+      "capturedAt": "2026-10-16T22:24:14.321554+00:00"
     },
     {
       "locale": "ckb",
@@ -76,8 +76,8 @@
       "lesson": 1,
       "pane": 3,
       "view": "lesson",
-      "sha256": "742389d581d956c754f034d3c8a942dccc696e13d4abb7a161c670661647144d",
-      "capturedAt": "2026-10-16T19:52:37.684Z"
+      "sha256": "876e4bf64040844c7bddadfb86c149d401f4d722826ba15ad8b03d683f17698c",
+      "capturedAt": "2026-10-16T22:24:14.330014+00:00"
     },
     {
       "locale": "ckb",
@@ -86,7 +86,7 @@
       "pane": 6,
       "view": "lesson",
       "sha256": "82ecd07661902283fbcaf608b8023999287bde75c36c020483d08babeb01bdb9",
-      "capturedAt": "2026-10-16T19:52:37.684Z"
+      "capturedAt": "2026-10-16T22:24:14.337639+00:00"
     }
   ],
   "sourceRuntimeNote": "Actual learner captures match f9f8219. Later commits 77ac0da and 573706e refine only the public homepage navigation. Browser JPEG captures were losslessly re-encoded as PNG for the configured PNG paths.",
@@ -102,5 +102,12 @@
     "reviewOwner": "Fady Hannah-Shmouni, MD FRCPC",
     "scope": "Only ckb-IQ reviewOwner/status and kurdishEdition review-owner metadata changed. No lesson content, layout, image or captured-screen fields changed; existing captured images remain representative.",
     "approval": null
+  },
+  "videoAmendment": {
+    "previousPackageSha256": "383210af8a8203d32d964ba60460a4c792a754023151f76bf28c8b6afddbdccb",
+    "scope": "Kurdish video, caption and poster slots only. English and Arabic assets unchanged. Sorani screenshots being refreshed from the rebuilt local learner UI.",
+    "soraniCaptureRefresh": "complete",
+    "humanApproved": false,
+    "method": "Actual rebuilt learner UI; Codex in-app browser; 390x844; no answers submitted or real learner records changed."
   }
 }

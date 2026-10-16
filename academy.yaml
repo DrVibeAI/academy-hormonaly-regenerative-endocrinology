@@ -145,22 +145,22 @@ home:
     disclosure:
       en: Presented by a digital avatar (AI-generated presenter and voice).
       ar-AE: يُقدَّم عبر مجسّد رقمي (مقدّم وصوت مُنشآن بالذكاء الاصطناعي).
-      ckb-IQ: لە لایەن ئەڤەتارێکی دیجیتاڵییەوە پێشکەش دەکرێت (پێشکەشکار و دەنگی دروستکراوی زیرەکیی دەستکرد).
+      ckb-IQ: گێڕانەوەی دەنگی بە زیرەکیی دەستکرد دروستکراوە.
     srcByLocale:
       en: assets/hormones-peptides-skin/home/trailer.mp4
       ar-AE: assets/hormones-peptides-skin/ar-AE/video/hype.mp4
-      ckb-IQ: assets/hormones-peptides-skin/home/trailer.mp4
+      ckb-IQ: assets/hormones-peptides-skin/ckb-IQ/video/trailer.mp4
     posterByLocale:
       en: assets/hormones-peptides-skin/home/trailer-poster.jpg
       ar-AE: assets/hormones-peptides-skin/ar-AE/video/hype-poster.jpg
-      ckb-IQ: assets/hormones-peptides-skin/home/trailer-poster.jpg
+      ckb-IQ: assets/hormones-peptides-skin/ckb-IQ/video/trailer.jpg
     captionsByLocale:
       ar:
         src: assets/hormones-peptides-skin/ar-AE/video/hype.vtt
         language: ar
         label: العربية
       ckb:
-        src: subtitles/trailer.ckb-IQ.vtt
+        src: assets/hormones-peptides-skin/ckb-IQ/video/trailer.vtt
         language: ckb
         label: کوردیی سۆرانی
   practice:
