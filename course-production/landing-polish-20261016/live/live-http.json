@@ -1,0 +1,19 @@
+{
+  "/_health": {
+    "status": 200,
+    "body": {
+      "app": "ok",
+      "db": "ok"
+    }
+  },
+  "/api/certificate": {
+    "status": 401
+  },
+  "/?home": {
+    "status": 200,
+    "scripts": [
+      "/assets/index-BLj_OG_B.js",
+      "/public-page-seo.js?v=22db3fa6ac3d"
+    ]
+  }
+}

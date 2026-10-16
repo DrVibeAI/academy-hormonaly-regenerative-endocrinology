@@ -1,0 +1,74 @@
+[
+  {
+    "path": "assets/books/20261016/the-peptide-pocket-guide.jpg",
+    "status": 200,
+    "contentType": "image/jpeg",
+    "bytes": 90045,
+    "sha256": "7158bc59990469e7a51d70128c4b19f424d8411a5d1dceb2ac8f9afd60f13c64",
+    "matchesLocal": true
+  },
+  {
+    "path": "assets/books/20261016/aesthetic-regenerative-endocrinology.jpg",
+    "status": 200,
+    "contentType": "image/jpeg",
+    "bytes": 94764,
+    "sha256": "759a2f02d5d3fee38b269159b61b2053c28d340c5b443517fc9fd9f4e26c9bed",
+    "matchesLocal": true
+  },
+  {
+    "path": "assets/books/20261016/peptides-hormones-longevity.jpg",
+    "status": 200,
+    "contentType": "image/jpeg",
+    "bytes": 103935,
+    "sha256": "84952157244d741a01dacb5736459c793a90b3c5afda0c6f1732d86970069c70",
+    "matchesLocal": true
+  },
+  {
+    "path": "assets/books/20261016/peptides-simplified-arabic.jpg",
+    "status": 200,
+    "contentType": "image/jpeg",
+    "bytes": 89058,
+    "sha256": "47d89e4693e61a71c651a46fee65cc8351fc4843be80ef55d30baf80fad8a0f8",
+    "matchesLocal": true
+  },
+  {
+    "path": "assets/books/20261016/the-peptide-pocket-guide-arabic-edition.png",
+    "status": 200,
+    "contentType": "image/png",
+    "bytes": 256981,
+    "sha256": "c28727c49fc25a196984cba3d5a80b33f5e2e570faa9106da7efbf5eff578857",
+    "matchesLocal": true
+  },
+  {
+    "path": "assets/certificate/previews/20261016/certificate-ar.pdf",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 93880,
+    "sha256": "df69e9ac8823f8f70433047ffc8aa89667c993d558ad3745084a533ce7406bf0",
+    "matchesLocal": true
+  },
+  {
+    "path": "assets/certificate/previews/20261016/certificate-ar.png",
+    "status": 200,
+    "contentType": "image/png",
+    "bytes": 144197,
+    "sha256": "05b4acf406da2028cf7173cfb42991628721bd7819f6d0b3c676187e8536338a",
+    "matchesLocal": true
+  },
+  {
+    "path": "assets/certificate/previews/20261016/certificate-en.pdf",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 86898,
+    "sha256": "0a407fed6537b939d760b9cd27440ffd85f1b157ae0897023aa7857d01d07a8c",
+    "matchesLocal": true
+  },
+  {
+    "path": "assets/certificate/previews/20261016/certificate-en.png",
+    "status": 200,
+    "contentType": "image/png",
+    "bytes": 143235,
+    "sha256": "85aafe7d304395c3ebc83570323ee2307305a6d4a88638da77c20594ca7ac2ce",
+    "matchesLocal": true
+  }
+]
