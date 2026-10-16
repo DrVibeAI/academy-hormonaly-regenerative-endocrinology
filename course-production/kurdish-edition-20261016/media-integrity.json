@@ -1,0 +1,2408 @@
+{
+  "status": "PASS",
+  "originalAssetRecordsPreserved": 134,
+  "media": [
+    {
+      "id": "asset-hps-m01-opener",
+      "locale": "en",
+      "kind": "video",
+      "uri": "assets/hormones-peptides-skin/video/m01-opener.mp4",
+      "sha256": "d51215d7bbbda53b1eb08cfe53c07743751ef398290e3cea7e2f56570cbb3c94",
+      "durationSeconds": 70.26,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1080,
+          "height": 1920
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "decode": false
+    },
+    {
+      "id": "asset-hps-m02-opener",
+      "locale": "en",
+      "kind": "video",
+      "uri": "assets/hormones-peptides-skin/video/m02-opener-r3.mp4",
+      "sha256": "c909e2221428d6005223bc000bd2733caa7ca3b7579e18f0208562f025ab8ab4",
+      "durationSeconds": 76.14,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1080,
+          "height": 1920
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "decode": false
+    },
+    {
+      "id": "asset-hps-m03-opener",
+      "locale": "en",
+      "kind": "video",
+      "uri": "assets/hormones-peptides-skin/video/m03-opener.mp4",
+      "sha256": "05f24997338cbb14b00b5e433cc24fd38c970c3e1525dd60ad2b19e6179b2289",
+      "durationSeconds": 72.34,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1080,
+          "height": 1920
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "decode": false
+    },
+    {
+      "id": "asset-hps-m04-opener",
+      "locale": "en",
+      "kind": "video",
+      "uri": "assets/hormones-peptides-skin/video/m04-opener.mp4",
+      "sha256": "706039f4232d48fce6cb29370445e1e6ba2f935b04550f72226b2db778e9fca0",
+      "durationSeconds": 67.1,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1080,
+          "height": 1920
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "decode": false
+    },
+    {
+      "id": "asset-hps-m05-opener",
+      "locale": "en",
+      "kind": "video",
+      "uri": "assets/hormones-peptides-skin/video/m05-opener.mp4",
+      "sha256": "6a7652f950bf419d03f7959e0c9d107cfdf1c39fa2b5a7f798e5b278c8397394",
+      "durationSeconds": 71.26,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1080,
+          "height": 1920
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "decode": false
+    },
+    {
+      "id": "asset-hps-m06-opener",
+      "locale": "en",
+      "kind": "video",
+      "uri": "assets/hormones-peptides-skin/video/m06-opener.mp4",
+      "sha256": "79b8b13baa1b7c9ff5cf30643ea28c37341390a5d58aba28257dd89a4c273b01",
+      "durationSeconds": 83.54,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1080,
+          "height": 1920
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "decode": false
+    },
+    {
+      "id": "asset-hps-m07-opener",
+      "locale": "en",
+      "kind": "video",
+      "uri": "assets/hormones-peptides-skin/video/m07-opener.mp4",
+      "sha256": "2f2dbb0d728616d837b80c00688593b429c607e1a0316093f3c62c117831a7c0",
+      "durationSeconds": 75.3,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1080,
+          "height": 1920
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "decode": false
+    },
+    {
+      "id": "m1-p03-narration-ar-AE",
+      "locale": "ar-AE",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ar-AE/audio/m1-p03.mp3",
+      "sha256": "c99ce2e5903cfeabefaf0fcd6e6281901db49276eaeacfbfda74053712e59d42",
+      "durationSeconds": 93.28,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m1-p06-narration-ar-AE",
+      "locale": "ar-AE",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ar-AE/audio/m1-p06.mp3",
+      "sha256": "58398848408f60f4460b500588981fe70362fd8e3164cfc749fe6b2fc18b95af",
+      "durationSeconds": 97.76,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m1-p08-narration-ar-AE",
+      "locale": "ar-AE",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ar-AE/audio/m1-p08.mp3",
+      "sha256": "b6c9377fc8785fd3f3a28fa69130d3eb93b3d342c6e69ba7417e99417bbe3c47",
+      "durationSeconds": 105.44,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m1-p11-narration-ar-AE",
+      "locale": "ar-AE",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ar-AE/audio/m1-p11.mp3",
+      "sha256": "14966c5bbf515f84d0482af91181654782c905939d84177c015e721d718cf4a6",
+      "durationSeconds": 101.36,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m1-p13-narration-ar-AE",
+      "locale": "ar-AE",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ar-AE/audio/m1-p13.mp3",
+      "sha256": "13b9f7eded7532ecc6385dc0539703e80c4f99a88f56ab734ef6c2c40d928007",
+      "durationSeconds": 94.4,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m1-p16-narration-ar-AE",
+      "locale": "ar-AE",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ar-AE/audio/m1-p16.mp3",
+      "sha256": "9f68a80b2de8125636a866b56e0a5f9dadadbece15b54b19d9fa60d03b906280",
+      "durationSeconds": 111.84,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m1-p17-narration-ar-AE",
+      "locale": "ar-AE",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ar-AE/audio/m1-p17.mp3",
+      "sha256": "1a4ca476a943fe3a8616aa9dfc0bcc781d62670002a8ea705f7c82e8b0c86230",
+      "durationSeconds": 91.12,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m2-p02-narration-ar-AE",
+      "locale": "ar-AE",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ar-AE/audio/m2-p02.mp3",
+      "sha256": "1c2fa5b311cb6e994eb0f411af234afcd991dbd8d0ea133af3a56d576c615a6e",
+      "durationSeconds": 102.24,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m2-p06-narration-ar-AE",
+      "locale": "ar-AE",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ar-AE/audio/m2-p06.mp3",
+      "sha256": "30b1e6145ec09ed4f0f035e61d9f1ddc1f5d0b85e3f563f379042ba341a0e481",
+      "durationSeconds": 95.12,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m2-p08-narration-ar-AE",
+      "locale": "ar-AE",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ar-AE/audio/m2-p08.mp3",
+      "sha256": "1032fc70e543b2a1e7b50bee920b7fee9d3bc5c84ca240f8dd3b497b5a324938",
+      "durationSeconds": 82.16,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m2-p11-narration-ar-AE",
+      "locale": "ar-AE",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ar-AE/audio/m2-p11.mp3",
+      "sha256": "2cc18493267016555cd8ce953688efea34bd2c03b661e264bf2b76e38bd13d3a",
+      "durationSeconds": 117.52,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m2-p13-narration-ar-AE",
+      "locale": "ar-AE",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ar-AE/audio/m2-p13.mp3",
+      "sha256": "ee5eb6ec5971891ee4d89665102bc856d699363cba5c34bcdfeb6e61c8853c70",
+      "durationSeconds": 95.04,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m2-p15-narration-ar-AE",
+      "locale": "ar-AE",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ar-AE/audio/m2-p15.mp3",
+      "sha256": "13c20aa0cfaa2fa520729acd5159fbb0a45a03194482bb655663acc10f200d4f",
+      "durationSeconds": 85.12,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m2-p17-narration-ar-AE",
+      "locale": "ar-AE",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ar-AE/audio/m2-p17.mp3",
+      "sha256": "6652d644995fc40d084030b2aaddec9d1e133dbae61b74f68af908cd6471283d",
+      "durationSeconds": 81.28,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m3-p02-narration-ar-AE",
+      "locale": "ar-AE",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ar-AE/audio/m3-p02.mp3",
+      "sha256": "968042228cb3a96d6be146f0fe30834ca56880585c1fa3a3200bb1a7ef8bc574",
+      "durationSeconds": 87.92,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m3-p04-narration-ar-AE",
+      "locale": "ar-AE",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ar-AE/audio/m3-p04.mp3",
+      "sha256": "80780a5f0fb48257f1ea8399359ce70c05eba89034f23369b224614edcc06c1d",
+      "durationSeconds": 112.16,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m3-p08-narration-ar-AE",
+      "locale": "ar-AE",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ar-AE/audio/m3-p08.mp3",
+      "sha256": "642064270895280acd6f11a54f4d5a806ae840de362469d1ec7612cf071f54ef",
+      "durationSeconds": 103.2,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m3-p12-narration-ar-AE",
+      "locale": "ar-AE",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ar-AE/audio/m3-p12.mp3",
+      "sha256": "1dca6ce584a5a1d8eb23dbedbc03ac85b0f1f7a6e06a4053aa12bb4c0f1a801c",
+      "durationSeconds": 91.52,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m3-p13-narration-ar-AE",
+      "locale": "ar-AE",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ar-AE/audio/m3-p13.mp3",
+      "sha256": "e42b00a5a6022155cd78e01a77c0c1dbe18ca6455f23e53f56697677a51a1463",
+      "durationSeconds": 78.56,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m3-p15-narration-ar-AE",
+      "locale": "ar-AE",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ar-AE/audio/m3-p15.mp3",
+      "sha256": "2fb1861bdfe9ffce3cc2dd2e1b940a5dde4a7d1b44fa28bd3153b89f5c61b92f",
+      "durationSeconds": 98.08,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m3-p18-narration-ar-AE",
+      "locale": "ar-AE",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ar-AE/audio/m3-p18.mp3",
+      "sha256": "bbac2e3c6c5215a33010b4e798b20fa3a2969ab0d731435f233792cdd06bca52",
+      "durationSeconds": 92.72,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m4-p03-narration-ar-AE",
+      "locale": "ar-AE",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ar-AE/audio/m4-p03.mp3",
+      "sha256": "ffba25f2c3f7571a3e8e6b8dcfcc3dd655a641ce0bac7860869c6d66fdb5780f",
+      "durationSeconds": 78.88,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m4-p06-narration-ar-AE",
+      "locale": "ar-AE",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ar-AE/audio/m4-p06.mp3",
+      "sha256": "56333591c2b25daa49013e899896dc1799def5f91c5556b9723ace5e4700a859",
+      "durationSeconds": 64.96,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m4-p08-narration-ar-AE",
+      "locale": "ar-AE",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ar-AE/audio/m4-p08.mp3",
+      "sha256": "d240bdbc8d4152203496fc57f49b02ca38940309628472aef298d0fc922691da",
+      "durationSeconds": 78.16,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m4-p11-narration-ar-AE",
+      "locale": "ar-AE",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ar-AE/audio/m4-p11.mp3",
+      "sha256": "3d8f70bfcecc41ac872a1f2dc25314af7d5de0c2d613211909e0bf4784e95c4c",
+      "durationSeconds": 55.36,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m4-p13-narration-ar-AE",
+      "locale": "ar-AE",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ar-AE/audio/m4-p13.mp3",
+      "sha256": "e458b2a44190dba4dc12b05c425977f4f04e2ca8fce3305e639e9fa862af7673",
+      "durationSeconds": 103.52,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m4-p17-narration-ar-AE",
+      "locale": "ar-AE",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ar-AE/audio/m4-p17.mp3",
+      "sha256": "8a8f7ac277dde6c7a73985b35a48b02f43dc9fe0879d765e96aec3e0ee4e376d",
+      "durationSeconds": 94.0,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m5-p02-narration-ar-AE",
+      "locale": "ar-AE",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ar-AE/audio/m5-p02.mp3",
+      "sha256": "9614b8ab7374e29e006a96db69e29355fe234fa70228610f287fd1a1ce4136e3",
+      "durationSeconds": 105.52,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m5-p05-narration-ar-AE",
+      "locale": "ar-AE",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ar-AE/audio/m5-p05.mp3",
+      "sha256": "757ebea3aaee96ba53ae7fdeea32764e449913b2608cddb474aee7a4151ea50b",
+      "durationSeconds": 74.64,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m5-p07-narration-ar-AE",
+      "locale": "ar-AE",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ar-AE/audio/m5-p07.mp3",
+      "sha256": "a98d50a9bbcf1e446aa44f6fd73c21503da21a4cde019cef6792b8deb7665157",
+      "durationSeconds": 89.36,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m5-p10-narration-ar-AE",
+      "locale": "ar-AE",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ar-AE/audio/m5-p10.mp3",
+      "sha256": "955cfeb8350468f1a87f8c0c2faf4e1495829c651b641cf21703b6110315d83c",
+      "durationSeconds": 95.6,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m5-p11-narration-ar-AE",
+      "locale": "ar-AE",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ar-AE/audio/m5-p11.mp3",
+      "sha256": "52f70711e0f932d9fda971e2ad2c77bb9c998baf7b8ccf10a93260c71f9841f0",
+      "durationSeconds": 92.88,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m5-p14-narration-ar-AE",
+      "locale": "ar-AE",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ar-AE/audio/m5-p14.mp3",
+      "sha256": "886146450ff78c21c7a302d1d6d98900c4c7e4728604a889fdd6c03fda14a5b6",
+      "durationSeconds": 93.76,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m5-p17-narration-ar-AE",
+      "locale": "ar-AE",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ar-AE/audio/m5-p17.mp3",
+      "sha256": "589c069b1742428b97cd742d58f96ab97b92ff04c3631c662f1194d68670be14",
+      "durationSeconds": 68.16,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m6-p02-narration-ar-AE",
+      "locale": "ar-AE",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ar-AE/audio/m6-p02.mp3",
+      "sha256": "446d6b06651bf8294392b7fc9774fde19676f005ff1f6ac25afb781c389bbfd0",
+      "durationSeconds": 108.4,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m6-p05-narration-ar-AE",
+      "locale": "ar-AE",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ar-AE/audio/m6-p05.mp3",
+      "sha256": "75ccbad6a1be4be91584661cbad774d03cedd4dfd507cbb79353eea9017df044",
+      "durationSeconds": 99.84,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m6-p07-narration-ar-AE",
+      "locale": "ar-AE",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ar-AE/audio/m6-p07.mp3",
+      "sha256": "c0450b63836e01b82402f0bc2ae6bff9a33079d9dce7ff4c79a0556fe40ebd11",
+      "durationSeconds": 113.84,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m6-p12-narration-ar-AE",
+      "locale": "ar-AE",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ar-AE/audio/m6-p12.mp3",
+      "sha256": "009ecd70f2c4b953893f3a1a5bbadb7960678c0f0537fd316da790d438bdbca7",
+      "durationSeconds": 89.68,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m6-p14-narration-ar-AE",
+      "locale": "ar-AE",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ar-AE/audio/m6-p14.mp3",
+      "sha256": "e648d13f4b4a3922c62e583f9d74d3c776ad8150df7eb04822b9bb955409f39d",
+      "durationSeconds": 104.72,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m6-p17-narration-ar-AE",
+      "locale": "ar-AE",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ar-AE/audio/m6-p17.mp3",
+      "sha256": "740ae383c21491720884aa94a43aaa62cc28f1063b64e8b520169bbdcd8dd5cb",
+      "durationSeconds": 87.92,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m7-p02-narration-ar-AE",
+      "locale": "ar-AE",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ar-AE/audio/m7-p02.mp3",
+      "sha256": "7e2f15eec17a6b00daa8cffd3792825a29fabbcfb0138f51d9d041d07192ef61",
+      "durationSeconds": 93.2,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m7-p05-narration-ar-AE",
+      "locale": "ar-AE",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ar-AE/audio/m7-p05.mp3",
+      "sha256": "59902162bd60a4365304cfba81a19ff9a15bba32241eed0c892ee7e93967c91d",
+      "durationSeconds": 66.96,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m7-p07-narration-ar-AE",
+      "locale": "ar-AE",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ar-AE/audio/m7-p07.mp3",
+      "sha256": "2d54aff0d2de11fe73723697a84fc0d3e40b57cb7017ea98a8c981264d91f467",
+      "durationSeconds": 114.0,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m7-p10-narration-ar-AE",
+      "locale": "ar-AE",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ar-AE/audio/m7-p10.mp3",
+      "sha256": "daab791ae22f65302efecfe98a35b8301bfd193b0e7c4f8739b45df4cbe827fd",
+      "durationSeconds": 108.16,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m7-p13-narration-ar-AE",
+      "locale": "ar-AE",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ar-AE/audio/m7-p13.mp3",
+      "sha256": "7b7a06bd48f41e88be0ac834375464fa7e625a0ae4c7bb6d00193a8bf65a05fc",
+      "durationSeconds": 90.08,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m7-p22-narration-ar-AE",
+      "locale": "ar-AE",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ar-AE/audio/m7-p22.mp3",
+      "sha256": "cf3de0052c6f7620359a5bc9d3af0ab38a6e2426f3cf2a73c9cc18264041c42a",
+      "durationSeconds": 72.88,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m7-p15-narration-ar-AE",
+      "locale": "ar-AE",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ar-AE/audio/m7-p15.mp3",
+      "sha256": "1daf82da638ac98bb45c917dbf314a9e7644d52ef90b9480e31602415fb592fe",
+      "durationSeconds": 105.2,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m7-p17-narration-ar-AE",
+      "locale": "ar-AE",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ar-AE/audio/m7-p17.mp3",
+      "sha256": "29a74a2493aa26a06d3b8bf8e131b08cef2008a387bddb119f4fb6b3bf15ddeb",
+      "durationSeconds": 94.32,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "asset-hps-m01-opener-ar",
+      "locale": "ar-AE",
+      "kind": "video",
+      "uri": "assets/hormones-peptides-skin/ar-AE/video/m01-opener.mp4",
+      "sha256": "9355c3c6792e2d4d4bb11ac1d4fb2704b38b9836acf476946b4ceed0eeeca687",
+      "durationSeconds": 113.033333,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1080,
+          "height": 1920
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "decode": false
+    },
+    {
+      "id": "asset-hps-m02-opener-ar",
+      "locale": "ar-AE",
+      "kind": "video",
+      "uri": "assets/hormones-peptides-skin/ar-AE/video/m02-opener.mp4",
+      "sha256": "d91b80a9ae6ed929a8339bd305e4bec6d1375685c3215687fdbc0cd97c09ab2e",
+      "durationSeconds": 124.55,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1080,
+          "height": 1920
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "decode": false
+    },
+    {
+      "id": "asset-hps-m03-opener-ar",
+      "locale": "ar-AE",
+      "kind": "video",
+      "uri": "assets/hormones-peptides-skin/ar-AE/video/m03-opener.mp4",
+      "sha256": "bd4f83105eaa906db204cfc18f13d77e0d9610be2a2e2a150c7f298be5960317",
+      "durationSeconds": 106.066667,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1080,
+          "height": 1920
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "decode": false
+    },
+    {
+      "id": "asset-hps-m04-opener-ar",
+      "locale": "ar-AE",
+      "kind": "video",
+      "uri": "assets/hormones-peptides-skin/ar-AE/video/m04-opener.mp4",
+      "sha256": "fd810e0a86ca809ade7d83e1bd577ccec312cec78f6fdc540b13e0b3599e96b1",
+      "durationSeconds": 102.3,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1080,
+          "height": 1920
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "decode": false
+    },
+    {
+      "id": "asset-hps-m05-opener-ar",
+      "locale": "ar-AE",
+      "kind": "video",
+      "uri": "assets/hormones-peptides-skin/ar-AE/video/m05-opener.mp4",
+      "sha256": "699f0be7fd36103fffd34c5e332aaeb3f3902a6171014c8af7bc968268195405",
+      "durationSeconds": 119.1,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1080,
+          "height": 1920
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "decode": false
+    },
+    {
+      "id": "asset-hps-m06-opener-ar",
+      "locale": "ar-AE",
+      "kind": "video",
+      "uri": "assets/hormones-peptides-skin/ar-AE/video/m06-opener.mp4",
+      "sha256": "b4dd47046202af4b5c47bdebbd006179d7d7d7963f78b1bab313e5542c2b7cb4",
+      "durationSeconds": 133.35,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1080,
+          "height": 1920
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "decode": false
+    },
+    {
+      "id": "asset-hps-m07-opener-ar",
+      "locale": "ar-AE",
+      "kind": "video",
+      "uri": "assets/hormones-peptides-skin/ar-AE/video/m07-opener.mp4",
+      "sha256": "7bae9cbe5d10093aedf5825af6ec030febc5abe8dfd7898ce29e4a2a74eeb5ae",
+      "durationSeconds": 132.95,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1080,
+          "height": 1920
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "decode": false
+    },
+    {
+      "id": "asset-hps-hype-ar",
+      "locale": "ar-AE",
+      "kind": "video",
+      "uri": "assets/hormones-peptides-skin/ar-AE/video/hype.mp4",
+      "sha256": "d08ebf596967c7aee25aff1aa225c35aae906238f81a794a3fa9fb4a6c4178f1",
+      "durationSeconds": 78.15,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1080,
+          "height": 1920
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "decode": false
+    },
+    {
+      "id": "asset-hps-m01-opener-ckb-IQ-ref-en",
+      "locale": "ckb-IQ",
+      "kind": "video",
+      "uri": "assets/hormones-peptides-skin/video/m01-opener.mp4",
+      "sha256": "d51215d7bbbda53b1eb08cfe53c07743751ef398290e3cea7e2f56570cbb3c94",
+      "durationSeconds": 70.26,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1080,
+          "height": 1920
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "decode": false
+    },
+    {
+      "id": "asset-hps-m02-opener-ckb-IQ-ref-en",
+      "locale": "ckb-IQ",
+      "kind": "video",
+      "uri": "assets/hormones-peptides-skin/video/m02-opener-r3.mp4",
+      "sha256": "c909e2221428d6005223bc000bd2733caa7ca3b7579e18f0208562f025ab8ab4",
+      "durationSeconds": 76.14,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1080,
+          "height": 1920
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "decode": false
+    },
+    {
+      "id": "asset-hps-m03-opener-ckb-IQ-ref-en",
+      "locale": "ckb-IQ",
+      "kind": "video",
+      "uri": "assets/hormones-peptides-skin/video/m03-opener.mp4",
+      "sha256": "05f24997338cbb14b00b5e433cc24fd38c970c3e1525dd60ad2b19e6179b2289",
+      "durationSeconds": 72.34,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1080,
+          "height": 1920
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "decode": false
+    },
+    {
+      "id": "asset-hps-m04-opener-ckb-IQ-ref-en",
+      "locale": "ckb-IQ",
+      "kind": "video",
+      "uri": "assets/hormones-peptides-skin/video/m04-opener.mp4",
+      "sha256": "706039f4232d48fce6cb29370445e1e6ba2f935b04550f72226b2db778e9fca0",
+      "durationSeconds": 67.1,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1080,
+          "height": 1920
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "decode": false
+    },
+    {
+      "id": "asset-hps-m05-opener-ckb-IQ-ref-en",
+      "locale": "ckb-IQ",
+      "kind": "video",
+      "uri": "assets/hormones-peptides-skin/video/m05-opener.mp4",
+      "sha256": "6a7652f950bf419d03f7959e0c9d107cfdf1c39fa2b5a7f798e5b278c8397394",
+      "durationSeconds": 71.26,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1080,
+          "height": 1920
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "decode": false
+    },
+    {
+      "id": "asset-hps-m06-opener-ckb-IQ-ref-en",
+      "locale": "ckb-IQ",
+      "kind": "video",
+      "uri": "assets/hormones-peptides-skin/video/m06-opener.mp4",
+      "sha256": "79b8b13baa1b7c9ff5cf30643ea28c37341390a5d58aba28257dd89a4c273b01",
+      "durationSeconds": 83.54,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1080,
+          "height": 1920
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "decode": false
+    },
+    {
+      "id": "asset-hps-m07-opener-ckb-IQ-ref-en",
+      "locale": "ckb-IQ",
+      "kind": "video",
+      "uri": "assets/hormones-peptides-skin/video/m07-opener.mp4",
+      "sha256": "2f2dbb0d728616d837b80c00688593b429c607e1a0316093f3c62c117831a7c0",
+      "durationSeconds": 75.3,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1080,
+          "height": 1920
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "decode": false
+    },
+    {
+      "id": "m1-p03-narration-ckb-IQ",
+      "locale": "ckb-IQ",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ckb-IQ/audio/m1-p03.mp3",
+      "sha256": "498177e82c1d714c8c0d841e589e80385ce41ee29f2ce83856c9c54c1991ab58",
+      "durationSeconds": 71.68,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m1-p06-narration-ckb-IQ",
+      "locale": "ckb-IQ",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ckb-IQ/audio/m1-p06.mp3",
+      "sha256": "1dd85fedf4c9beb82d636dd23b814509bed991a778ed5849fe94958fe872b278",
+      "durationSeconds": 68.24,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m1-p08-narration-ckb-IQ",
+      "locale": "ckb-IQ",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ckb-IQ/audio/m1-p08.mp3",
+      "sha256": "25f7259658a1ec7ba0418cf447e0abc19bad1ba6634125d4d0c401b5e8c06e65",
+      "durationSeconds": 72.08,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m1-p11-narration-ckb-IQ",
+      "locale": "ckb-IQ",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ckb-IQ/audio/m1-p11.mp3",
+      "sha256": "4048eab81ac7930959da23b0f54a6584c2b9f4f508bc3f61ff863cd2a42e054f",
+      "durationSeconds": 78.8,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m1-p13-narration-ckb-IQ",
+      "locale": "ckb-IQ",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ckb-IQ/audio/m1-p13.mp3",
+      "sha256": "873a327b718c32377bc52ed884944ae59a6193143a7445fd0515978b4017a127",
+      "durationSeconds": 73.68,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m1-p16-narration-ckb-IQ",
+      "locale": "ckb-IQ",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ckb-IQ/audio/m1-p16.mp3",
+      "sha256": "af03f2025d0a1a3f7d3cd60338ed3ac33e45c5acafd77ec503618242b0f9f95a",
+      "durationSeconds": 85.92,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m1-p17-narration-ckb-IQ",
+      "locale": "ckb-IQ",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ckb-IQ/audio/m1-p17.mp3",
+      "sha256": "3237cd8efe0d56911df1f2d84a57db53bfa71bc3c667ad1a8b1e1369799fa8f1",
+      "durationSeconds": 66.24,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m2-p02-narration-ckb-IQ",
+      "locale": "ckb-IQ",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ckb-IQ/audio/m2-p02.mp3",
+      "sha256": "2c1b399fe27dd4c770a4c0d21482a6b77a63accd55e1fb85228960a988ce06fb",
+      "durationSeconds": 74.56,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m2-p06-narration-ckb-IQ",
+      "locale": "ckb-IQ",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ckb-IQ/audio/m2-p06.mp3",
+      "sha256": "f29722f2940f06987b1674dadce85548c31125c1c11850ef248a3b9a7fa37391",
+      "durationSeconds": 73.76,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m2-p08-narration-ckb-IQ",
+      "locale": "ckb-IQ",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ckb-IQ/audio/m2-p08.mp3",
+      "sha256": "a42d295f85c222642dfeeda7adb672139fd9d4d5f0be4499e6f3e3b9a8c83146",
+      "durationSeconds": 78.48,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m2-p11-narration-ckb-IQ",
+      "locale": "ckb-IQ",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ckb-IQ/audio/m2-p11.mp3",
+      "sha256": "b6150a5dd9836fceb792ed003ff4843b43bdd8bd3eca919c2d6d2a985ab4d57b",
+      "durationSeconds": 83.44,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m2-p13-narration-ckb-IQ",
+      "locale": "ckb-IQ",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ckb-IQ/audio/m2-p13.mp3",
+      "sha256": "3814edc45eb5f190a9671ac744d6d14c65e2695d90ab2d4b9b38481780f13831",
+      "durationSeconds": 72.64,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m2-p15-narration-ckb-IQ",
+      "locale": "ckb-IQ",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ckb-IQ/audio/m2-p15.mp3",
+      "sha256": "dc368356a19e918249d27ab7df8d55dba00ce0541560186ae8b4180a3e99bad0",
+      "durationSeconds": 72.88,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m2-p17-narration-ckb-IQ",
+      "locale": "ckb-IQ",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ckb-IQ/audio/m2-p17.mp3",
+      "sha256": "6d956f39c4bdacb9842714fd6297a5be4a99ee94fc9374f1d5929540ddac2b78",
+      "durationSeconds": 59.04,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m3-p02-narration-ckb-IQ",
+      "locale": "ckb-IQ",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ckb-IQ/audio/m3-p02.mp3",
+      "sha256": "0c853ca2914c6d94ca1ebf72d78a87e8b1cbeeb403f1790fa1b96afe95c1e830",
+      "durationSeconds": 66.48,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m3-p04-narration-ckb-IQ",
+      "locale": "ckb-IQ",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ckb-IQ/audio/m3-p04.mp3",
+      "sha256": "328668ab81d17105c15009e5995051b55c1f0776a011c95ea520261a21304f49",
+      "durationSeconds": 79.2,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m3-p08-narration-ckb-IQ",
+      "locale": "ckb-IQ",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ckb-IQ/audio/m3-p08.mp3",
+      "sha256": "9586d90bb09160c24c0e6a19861ead8c0874fbfbe8dec5a4d7cb689b28e2e868",
+      "durationSeconds": 71.2,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m3-p12-narration-ckb-IQ",
+      "locale": "ckb-IQ",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ckb-IQ/audio/m3-p12.mp3",
+      "sha256": "0f196bc5045598696f86674dfdb3f97f324368c17ed3afdbb3223e8baec850fe",
+      "durationSeconds": 68.96,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m3-p13-narration-ckb-IQ",
+      "locale": "ckb-IQ",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ckb-IQ/audio/m3-p13.mp3",
+      "sha256": "3da9be8b3f69fe7f3bfc61ca6085bf299f93787147b0bc30bc5b3cfe28c251f0",
+      "durationSeconds": 54.96,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m3-p15-narration-ckb-IQ",
+      "locale": "ckb-IQ",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ckb-IQ/audio/m3-p15.mp3",
+      "sha256": "c64ba962809dbf65e176cc3794368a149c8178cb47a829aa27557e8ba3a5ae7f",
+      "durationSeconds": 77.12,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m3-p18-narration-ckb-IQ",
+      "locale": "ckb-IQ",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ckb-IQ/audio/m3-p18.mp3",
+      "sha256": "371b298942963d229b0e11a4b384978ea4df3bcb103da15b8015f9c6feb7c6ad",
+      "durationSeconds": 75.68,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m4-p03-narration-ckb-IQ",
+      "locale": "ckb-IQ",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ckb-IQ/audio/m4-p03.mp3",
+      "sha256": "a4ca81f2be15a526c9bb81fba9f00b38a69270233adf74df2b7c74dccac0f6ef",
+      "durationSeconds": 61.84,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m4-p06-narration-ckb-IQ",
+      "locale": "ckb-IQ",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ckb-IQ/audio/m4-p06.mp3",
+      "sha256": "195f2b32a347ee3ace46f2916e3b7198d9fa0ffc87347336cdf7a45371d4bd85",
+      "durationSeconds": 45.84,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m4-p08-narration-ckb-IQ",
+      "locale": "ckb-IQ",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ckb-IQ/audio/m4-p08.mp3",
+      "sha256": "a5e165406293123e0b95f1b6d510ce2d2ff7c4d49f02d938a690bc0faf11717e",
+      "durationSeconds": 56.24,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m4-p11-narration-ckb-IQ",
+      "locale": "ckb-IQ",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ckb-IQ/audio/m4-p11.mp3",
+      "sha256": "31df3ede0f3cde4774d46c0c75e44c27a14802e5687b406a6235e269d0f42cc8",
+      "durationSeconds": 44.72,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m4-p13-narration-ckb-IQ",
+      "locale": "ckb-IQ",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ckb-IQ/audio/m4-p13.mp3",
+      "sha256": "9d1b964291f299750d88de221c37d2500194fb8ff7a25705a093a4c1bcf00cfe",
+      "durationSeconds": 65.6,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m4-p17-narration-ckb-IQ",
+      "locale": "ckb-IQ",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ckb-IQ/audio/m4-p17.mp3",
+      "sha256": "2d3afe16b6b4411964b3b6e2eb5505d73b1b38d7eb1612b3e0f55f962ae7d851",
+      "durationSeconds": 65.92,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m5-p02-narration-ckb-IQ",
+      "locale": "ckb-IQ",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ckb-IQ/audio/m5-p02.mp3",
+      "sha256": "d7408058474a954b2becea66e172508e0fed8580c5533ab0f37b3f105969c045",
+      "durationSeconds": 84.48,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m5-p05-narration-ckb-IQ",
+      "locale": "ckb-IQ",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ckb-IQ/audio/m5-p05.mp3",
+      "sha256": "ed69cb2230051e1511d7c89f6f150a1ee3a3a02d95b2aa736d9d69f6c47400ed",
+      "durationSeconds": 62.4,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m5-p07-narration-ckb-IQ",
+      "locale": "ckb-IQ",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ckb-IQ/audio/m5-p07.mp3",
+      "sha256": "2ceb89e62a810e8f27c8947c74c0da3b4f858f8effdb5a2960920b479bba1b89",
+      "durationSeconds": 73.84,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m5-p10-narration-ckb-IQ",
+      "locale": "ckb-IQ",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ckb-IQ/audio/m5-p10.mp3",
+      "sha256": "cc62d9d010bd80702dc4bde9b4386f7b5cf468d21f23003fb99bd71585b7d4b7",
+      "durationSeconds": 71.52,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m5-p11-narration-ckb-IQ",
+      "locale": "ckb-IQ",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ckb-IQ/audio/m5-p11.mp3",
+      "sha256": "9f4105af14f1319be2070a6e0d8884e34d15d564b77c622cebd0205673c2fc8d",
+      "durationSeconds": 57.92,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m5-p14-narration-ckb-IQ",
+      "locale": "ckb-IQ",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ckb-IQ/audio/m5-p14.mp3",
+      "sha256": "9704a543a952e216c78d1b03b6e6ff4247872b7d9afa6070241e45e4bc7b95f7",
+      "durationSeconds": 70.16,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m5-p17-narration-ckb-IQ",
+      "locale": "ckb-IQ",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ckb-IQ/audio/m5-p17.mp3",
+      "sha256": "46f172e47b649f3ca0e82c36a7c8b646fa4dffd2d282f69966a96aa49a904a96",
+      "durationSeconds": 48.4,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m6-p02-narration-ckb-IQ",
+      "locale": "ckb-IQ",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ckb-IQ/audio/m6-p02.mp3",
+      "sha256": "c5669cc6693ecd1ceb7f21df0269730505702fed11a1cc844b50961ce5f908f0",
+      "durationSeconds": 76.16,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m6-p05-narration-ckb-IQ",
+      "locale": "ckb-IQ",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ckb-IQ/audio/m6-p05.mp3",
+      "sha256": "95930fb0a5a1f0077a5a2b921e34217d93376acc0fbf1dac911a153b92afdded",
+      "durationSeconds": 72.8,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m6-p07-narration-ckb-IQ",
+      "locale": "ckb-IQ",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ckb-IQ/audio/m6-p07.mp3",
+      "sha256": "f6809d27d6ba0d4c7a1574e457e501fd8433f3d60d0c158c0e443d972de65b83",
+      "durationSeconds": 70.48,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m6-p12-narration-ckb-IQ",
+      "locale": "ckb-IQ",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ckb-IQ/audio/m6-p12.mp3",
+      "sha256": "1484f5daea6aa7224f6ef02e5e2338584cf3dfcabadd1652b536bb30a1c8e223",
+      "durationSeconds": 68.32,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m6-p14-narration-ckb-IQ",
+      "locale": "ckb-IQ",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ckb-IQ/audio/m6-p14.mp3",
+      "sha256": "3ea97ca762eb9acb2906ec7f7dfce21bdc940f8020e15551c93d7fd8dd0357ed",
+      "durationSeconds": 78.64,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m6-p17-narration-ckb-IQ",
+      "locale": "ckb-IQ",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ckb-IQ/audio/m6-p17.mp3",
+      "sha256": "a32f5e5416a6c1eea083bf32e45bb489b8eba412b3a7cc298b19afdebb061280",
+      "durationSeconds": 65.28,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m7-p02-narration-ckb-IQ",
+      "locale": "ckb-IQ",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ckb-IQ/audio/m7-p02.mp3",
+      "sha256": "c09bbe025115258575acb7f9f33dbab37a463dd0c06c385e83ab324545094c85",
+      "durationSeconds": 71.76,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m7-p05-narration-ckb-IQ",
+      "locale": "ckb-IQ",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ckb-IQ/audio/m7-p05.mp3",
+      "sha256": "f15d50219e5b8eda6dbe081e21aa6e6b73a75f97abfabd781df9165d842c1d07",
+      "durationSeconds": 57.68,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m7-p07-narration-ckb-IQ",
+      "locale": "ckb-IQ",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ckb-IQ/audio/m7-p07.mp3",
+      "sha256": "07232b36414520022d6842bded01f73e0848518fdd90ec7b0fa7cf40aeaab6c5",
+      "durationSeconds": 85.92,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m7-p10-narration-ckb-IQ",
+      "locale": "ckb-IQ",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ckb-IQ/audio/m7-p10.mp3",
+      "sha256": "b309709eb64b8ac7c188745dbc3381b52d32d466f6fb98a4cf2476d08d5abca6",
+      "durationSeconds": 79.12,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m7-p13-narration-ckb-IQ",
+      "locale": "ckb-IQ",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ckb-IQ/audio/m7-p13.mp3",
+      "sha256": "3c1facd1834ac00cebf8b78bb5111acc52d179b8561381db54fc5e15f901e081",
+      "durationSeconds": 72.24,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m7-p22-narration-ckb-IQ",
+      "locale": "ckb-IQ",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ckb-IQ/audio/m7-p22.mp3",
+      "sha256": "84be96b880119e8e0c7cd96bbf851623e2d547c177a176baadb2dbeba465ae08",
+      "durationSeconds": 61.68,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m7-p15-narration-ckb-IQ",
+      "locale": "ckb-IQ",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ckb-IQ/audio/m7-p15.mp3",
+      "sha256": "8516113689df30a44f06198959331074a2b19788f813230c271339af05922aca",
+      "durationSeconds": 72.16,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    },
+    {
+      "id": "m7-p17-narration-ckb-IQ",
+      "locale": "ckb-IQ",
+      "kind": "audio",
+      "uri": "assets/hormones-peptides-skin/ckb-IQ/audio/m7-p17.mp3",
+      "sha256": "1cfd45dd76156c676cf087178bec101f113a4be78728765aeca08c8f2bf28745",
+      "durationSeconds": 67.92,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decode": true
+    }
+  ],
+  "sameVideoAliases": [
+    {
+      "alias": "asset-hps-m01-opener-ckb-IQ-ref-en",
+      "original": "asset-hps-m01-opener",
+      "sameUri": true
+    },
+    {
+      "alias": "asset-hps-m02-opener-ckb-IQ-ref-en",
+      "original": "asset-hps-m02-opener",
+      "sameUri": true
+    },
+    {
+      "alias": "asset-hps-m03-opener-ckb-IQ-ref-en",
+      "original": "asset-hps-m03-opener",
+      "sameUri": true
+    },
+    {
+      "alias": "asset-hps-m04-opener-ckb-IQ-ref-en",
+      "original": "asset-hps-m04-opener",
+      "sameUri": true
+    },
+    {
+      "alias": "asset-hps-m05-opener-ckb-IQ-ref-en",
+      "original": "asset-hps-m05-opener",
+      "sameUri": true
+    },
+    {
+      "alias": "asset-hps-m06-opener-ckb-IQ-ref-en",
+      "original": "asset-hps-m06-opener",
+      "sameUri": true
+    },
+    {
+      "alias": "asset-hps-m07-opener-ckb-IQ-ref-en",
+      "original": "asset-hps-m07-opener",
+      "sameUri": true
+    }
+  ],
+  "subtitles": [
+    {
+      "academy": "foundations",
+      "source": "m1-boundary-v4.en.vtt",
+      "target": "m1-boundary-v4.ckb-IQ.vtt",
+      "cues": 54,
+      "ready": true,
+      "sourceSpeechBoundariesPreserved": true,
+      "displayCues": 45,
+      "maxCharactersPerSecond": 24.51,
+      "over25Cps": 0,
+      "sourceSha256": "2e0156c53c9b5b26b574351851fa60d3261a2fb7cabeda1348bff5ce68b08d57",
+      "targetSha256": "20aab89c10bf3b6ebc10550bb4f87c62b8b094cb8bcdb93a76555d02cf2ad7ee",
+      "monotonicNonOverlapping": true
+    },
+    {
+      "academy": "foundations",
+      "source": "m2-data-boundary-v4.en.vtt",
+      "target": "m2-data-boundary-v4.ckb-IQ.vtt",
+      "cues": 46,
+      "ready": true,
+      "sourceSpeechBoundariesPreserved": true,
+      "displayCues": 41,
+      "maxCharactersPerSecond": 23.93,
+      "over25Cps": 0,
+      "sourceSha256": "846867256322b02c224bda5889ee5293309f50a580e9a3f5943cc1872f6f77a3",
+      "targetSha256": "fcb1c1fb22de19decfeb9a2824021fb23cf9bdb74e8f4dc68390ce386d1fcbba",
+      "monotonicNonOverlapping": true
+    },
+    {
+      "academy": "foundations",
+      "source": "m3-environment-decision-v4.en.vtt",
+      "target": "m3-environment-decision-v4.ckb-IQ.vtt",
+      "cues": 47,
+      "ready": true,
+      "sourceSpeechBoundariesPreserved": true,
+      "displayCues": 42,
+      "maxCharactersPerSecond": 24.11,
+      "over25Cps": 0,
+      "sourceSha256": "e35a525268add3fc791b8d3313055fab6d50baff625dd108c4b5cae4eaede7ae",
+      "targetSha256": "65c54dcda17520bf9d7b6eb3a864915be175702a62a9d7d232b58aa3582bb88e",
+      "monotonicNonOverlapping": true
+    },
+    {
+      "academy": "foundations",
+      "source": "m4-reviewable-task-v4.en.vtt",
+      "target": "m4-reviewable-task-v4.ckb-IQ.vtt",
+      "cues": 45,
+      "ready": true,
+      "sourceSpeechBoundariesPreserved": true,
+      "displayCues": 39,
+      "maxCharactersPerSecond": 23.1,
+      "over25Cps": 0,
+      "sourceSha256": "a7320abe6e9a5b9ad4620b615564da572e22cabcdd62143f757adc030e9b619d",
+      "targetSha256": "6115dcb3d9566e68abcb1117a64f841ac599dfc477bf5e12c175400321d9c764",
+      "monotonicNonOverlapping": true
+    },
+    {
+      "academy": "foundations",
+      "source": "m5-communication-review-v4.en.vtt",
+      "target": "m5-communication-review-v4.ckb-IQ.vtt",
+      "cues": 49,
+      "ready": true,
+      "sourceSpeechBoundariesPreserved": true,
+      "displayCues": 45,
+      "maxCharactersPerSecond": 24.89,
+      "over25Cps": 0,
+      "sourceSha256": "e5a91fb6761ff45dd03bc1230234f6cbb0cfd868526614d5499c6d4bca016e6a",
+      "targetSha256": "e13c68ac666c759a1e69f23c3c311f1387af839e06e9b79767499236edc811fb",
+      "monotonicNonOverlapping": true
+    },
+    {
+      "academy": "foundations",
+      "source": "m6-operations-handoff-v4.en.vtt",
+      "target": "m6-operations-handoff-v4.ckb-IQ.vtt",
+      "cues": 46,
+      "ready": true,
+      "sourceSpeechBoundariesPreserved": true,
+      "displayCues": 43,
+      "maxCharactersPerSecond": 20.86,
+      "over25Cps": 0,
+      "sourceSha256": "858a7d83994fc12398fb07e0cf3005fe35552c1fd632bc59f8dbe1bcf92b7331",
+      "targetSha256": "dff7d92d0c4e6b0c9581254e2df79934a60287c5f299a15b94d39a15c4994e33",
+      "monotonicNonOverlapping": true
+    },
+    {
+      "academy": "foundations",
+      "source": "m7-agent-boundary-v4.en.vtt",
+      "target": "m7-agent-boundary-v4.ckb-IQ.vtt",
+      "cues": 47,
+      "ready": true,
+      "sourceSpeechBoundariesPreserved": true,
+      "displayCues": 42,
+      "maxCharactersPerSecond": 22.25,
+      "over25Cps": 0,
+      "sourceSha256": "0353151b1136fc295093cb0a956c6dca9c4a63aa3c2b37ed6e69d7edc60936d0",
+      "targetSha256": "a2bb59433698f4958b96b7a22a211f9e554a20be8dcd4d522de2fdb7865af056",
+      "monotonicNonOverlapping": true
+    },
+    {
+      "academy": "foundations",
+      "source": "m8-evaluate-first-v4.en.vtt",
+      "target": "m8-evaluate-first-v4.ckb-IQ.vtt",
+      "cues": 47,
+      "ready": true,
+      "sourceSpeechBoundariesPreserved": true,
+      "displayCues": 44,
+      "maxCharactersPerSecond": 24.4,
+      "over25Cps": 0,
+      "sourceSha256": "ea96ecc9de78f3425f15beeaec6344482e6d22a261048c9465095465d5a3999b",
+      "targetSha256": "17978a5efcf42740e11fb103fcc01bba165511f6ecaf8aeaad0a1d9588f37baa",
+      "monotonicNonOverlapping": true
+    },
+    {
+      "academy": "hormonaly",
+      "source": "m01-opener.recovered.en.vtt",
+      "target": "m01-opener.ckb-IQ.vtt",
+      "cues": 23,
+      "ready": true,
+      "sourceSpeechBoundariesPreserved": true,
+      "displayCues": 22,
+      "maxCharactersPerSecond": 23.6,
+      "over25Cps": 0,
+      "sourceSha256": "9fe09167f3b0d1d1d7133c0a3536e8c5b232f2f38d7ce6c9809df20d13636152",
+      "targetSha256": "071eeccc5cbc704c35fbe977bbd4bb3de31e7b4c3b83a2e0108603e338538261",
+      "monotonicNonOverlapping": true
+    },
+    {
+      "academy": "hormonaly",
+      "source": "m02-opener.recovered.en.vtt",
+      "target": "m02-opener.ckb-IQ.vtt",
+      "cues": 24,
+      "ready": true,
+      "sourceSpeechBoundariesPreserved": true,
+      "displayCues": 24,
+      "maxCharactersPerSecond": 24.04,
+      "over25Cps": 0,
+      "sourceSha256": "f0cd69cc2a02aeaebdfd917d4be06c518d01fb43134d7689d834df83c5c58a67",
+      "targetSha256": "40a5ffe8f1598512c08aa3738686a3a0b5382a453d1dd79c201bc82924930892",
+      "monotonicNonOverlapping": true
+    },
+    {
+      "academy": "hormonaly",
+      "source": "m03-opener.recovered.en.vtt",
+      "target": "m03-opener.ckb-IQ.vtt",
+      "cues": 25,
+      "ready": true,
+      "sourceSpeechBoundariesPreserved": true,
+      "displayCues": 23,
+      "maxCharactersPerSecond": 23.08,
+      "over25Cps": 0,
+      "sourceSha256": "9219984c69d69bdf09e123b6b4c03e48d1a809be555877e8bee657d8ce7e5c6a",
+      "targetSha256": "b1d3da18c509905d5911fc01cc79c47987e3531c37a56b69c8f0f0c36ce60f21",
+      "monotonicNonOverlapping": true
+    },
+    {
+      "academy": "hormonaly",
+      "source": "m04-opener.recovered.en.vtt",
+      "target": "m04-opener.ckb-IQ.vtt",
+      "cues": 22,
+      "ready": true,
+      "sourceSpeechBoundariesPreserved": true,
+      "displayCues": 20,
+      "maxCharactersPerSecond": 24.8,
+      "over25Cps": 0,
+      "sourceSha256": "496054c6789971f70a7c11fd2d004070bd3edfd85626d8c7f122b56485f9607e",
+      "targetSha256": "8dc59aaa568210b13670d1fe8ce77726d45f35501d195a1ce16ebbf1a09ad139",
+      "monotonicNonOverlapping": true
+    },
+    {
+      "academy": "hormonaly",
+      "source": "m05-opener.recovered.en.vtt",
+      "target": "m05-opener.ckb-IQ.vtt",
+      "cues": 22,
+      "ready": true,
+      "sourceSpeechBoundariesPreserved": true,
+      "displayCues": 21,
+      "maxCharactersPerSecond": 24.4,
+      "over25Cps": 0,
+      "sourceSha256": "bfe75ffb034c6b64a9e8a93b3bb6726dead5eb6867115dea2e305b418d86eb75",
+      "targetSha256": "1b20993ebf025baa29ca6643b739d850890b96d5fcad6bf52a961f9ecdf8c70b",
+      "monotonicNonOverlapping": true
+    },
+    {
+      "academy": "hormonaly",
+      "source": "m06-opener.recovered.en.vtt",
+      "target": "m06-opener.ckb-IQ.vtt",
+      "cues": 27,
+      "ready": true,
+      "sourceSpeechBoundariesPreserved": true,
+      "displayCues": 26,
+      "maxCharactersPerSecond": 22.18,
+      "over25Cps": 0,
+      "sourceSha256": "5a70e29aa2d833425612c87f3af56d6216e1968c4e7dbddf338e5888e13d312d",
+      "targetSha256": "33b2eee0e5a69f5c7d9917172b63582ebe2f5377690b40519c4f65e25fbda3fe",
+      "monotonicNonOverlapping": true
+    },
+    {
+      "academy": "hormonaly",
+      "source": "m07-opener.recovered.en.vtt",
+      "target": "m07-opener.ckb-IQ.vtt",
+      "cues": 25,
+      "ready": true,
+      "sourceSpeechBoundariesPreserved": true,
+      "displayCues": 24,
+      "maxCharactersPerSecond": 24.19,
+      "over25Cps": 0,
+      "sourceSha256": "20c118f4b912c79300d418f573f67ae543019ec5a1361959b3b376cf0552dba5",
+      "targetSha256": "bc5744a0c9c089d3dbd0d1861f165fd6126781918de3b8fdf490debe8fbc74d0",
+      "monotonicNonOverlapping": true
+    },
+    {
+      "academy": "hormonaly",
+      "source": "trailer.en.vtt",
+      "target": "trailer.ckb-IQ.vtt",
+      "cues": 13,
+      "ready": true,
+      "sourceSpeechBoundariesPreserved": true,
+      "displayCues": 12,
+      "maxCharactersPerSecond": 24.07,
+      "over25Cps": 0,
+      "sourceSha256": "3f93a620a9c691924fa192b279a9d0f38743bceee322006d70ba20a649ca301f",
+      "targetSha256": "315aea07a9ae398af2de66471b74817f2d7f74d44963bbc290b9c206a8aa6833",
+      "monotonicNonOverlapping": true
+    }
+  ],
+  "humanListeningApproval": false
+}

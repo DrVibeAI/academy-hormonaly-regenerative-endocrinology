@@ -1,24 +1,19 @@
-> Follow-up: repairs and current verification are recorded in [QA-FIXES.md](QA-FIXES.md). The findings below describe the pre-repair audit.
+# Iraqi Sorani and Arabic edition QA
 
-# Arabic edition QA report — 7 October 2026
+Implementation and technical QA complete in local review copies. Status: **in_review**. Fady Hannah-Shmouni, MD FRCPC is assigned to Sorani, Arabic additions and clinical review for both academies. His sign-off and translated legal review remain pending; no new human approval is recorded.
 
-**Overall: FAIL / remains in review.** Read-only audit. Detailed findings, reproduction evidence and suggested repairs are in [AUDIT-FINDINGS.md](AUDIT-FINDINGS.md).
+- 7 modules, 180 lesson cards, 14 preserved final-check questions, 48 Sorani v4 narrations and 8 subtitle tracks (including trailer).
+- Existing design and original films preserved; original Arabic media retained. Sorani films use subtitle sidecars. Localized artwork labels and homepage screenshots are additive.
+- Across both academies: 10,421 unique source strings covered; 616 Sorani/Arabic lesson-card views checked, all RTL with no broken images or horizontal overflow. Full host dictionaries, account/recovery flows, tutor language, assessments, shared progress, exports, certificates and verifier contracts checked with synthetic fixtures.
+- Both runtime typechecks, production builds, tenant isolation and Foundry evaluations pass. Foundations native host tests, host typechecks/builds and 9 no-send EN/AR/Sorani account-email renders pass.
+- All 48 final Sorani narrations have hash-bound automated listening reviews; 96 narration files decode. Original video records remain unchanged. All 16 subtitle tracks are monotonic, non-overlapping and at most 25 characters/second. Independent English ASR timing checks cover all 15 module films.
+- Translation QA corrections and dispositions are included. PTD-DBM correctly contains two Ds: the automated extra-D warning is a false positive. Fragment-only caption warnings were evaluated in whole timed Sorani sentences; complete-film bilingual checks pass. Automated reviews do not constitute native approval.
+- Legacy Foundry schema compatibility is compared against the pinned source: no new normalized error signatures. Sources themselves have 76/157 legacy-schema errors; candidate counts 76/164. Seven additional alias records repeat existing unsupported metadata. Current runtime importer/reference/assessment contracts pass.
 
-| Area | Outcome | Owner / remaining work |
-|---|---|---|
-| Package schema, protected structures and original Arabic field coverage | PASS mechanically | Fady still reviews medical meaning, terminology and Arabic language |
-| Runtime build, type checks and isolation | PASS | Engineering |
-| Account menu overlap and sampled RTL desktop/mobile behavior | PASS | Overlap corrected before this audit |
-| Auth negative paths and focused local tests | PASS within tested scope | Authenticated production acceptance remains untested |
-| Rendered Arabic coverage | FAIL, A05 | Localization / engineering; include homepage, library, labels and reviewed legal text |
-| UAE/Saudi content delivery | FAIL, A02–A04 | Engineering plus Fady / regulatory review: visible summary, local tutor routing and formal Saudi mapping |
-| Accreditation presentation | FAIL, A01 | Correct derivative presentation; no new approval inferred |
-| Video preview, media completeness and caption scan | FAIL, A06–A07 | Motion/media production and engineering |
-| Preview locale parity | FAIL, A08 | Seven English badge values absent |
-| Review bundle currency | FAIL, A09 | Repackage after fixes |
-| Claim support, Arabic medical review, media approval, final acceptance | OPEN | Exact-candidate reports and human decisions required |
+Source lock, coverage, narration receipts, caption timing and bilingual review evidence are included beside this report. Original approval records, learner records, completion policies and scoring are preserved. Foundations remains quiz-only completion; its Toolkit is optional.
 
-Fady@hormonaly.ai is the named reviewer, not a recorded approval. No reviewer was contacted. Seven Arabic opening films and captions remain unproduced; 48 Arabic audio files pass checksum verification, with pronunciation review pending. No slides are required.
+No live deployment, real learner mutation, email send or valid certificate issuance occurred. Fady is the assigned Sorani, Arabic-addition and clinical reviewer. Before publication, record his completed review, review translated legal text, then approve the exact candidate and target deployment. Integration must compare current upstream work again.
 
-No implementation, package, governance, catalog or deployment was changed. The audit created this report, the findings report and local evidence only.
+## Owner approval — 16 October 2026
 
+Omar Saleem approved the current Iraqi Sorani and Arabic editions of both academies in chat (“Ok approved”). The receipt in `owner-approval.json` binds this acceptance to the course-package hashes and source commits presented for review. Fady remains the assigned language/clinical reviewer; his own sign-off is not recorded. No live cutover was performed.

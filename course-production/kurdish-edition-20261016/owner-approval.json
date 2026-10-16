@@ -1,0 +1,39 @@
+{
+  "status": "approved_by_product_owner",
+  "approvedBy": "Omar Saleem",
+  "recordedAt": "2026-10-16T20:45:17Z",
+  "evidence": {
+    "source": "Direct human message in this chat",
+    "verbatim": "Ok approved"
+  },
+  "scope": "Product-owner acceptance of the current Iraqi Sorani and Arabic review editions of AI Foundations and Hormonaly Academy.",
+  "academies": [
+    "gcls-foundations",
+    "hormonaly"
+  ],
+  "locales": [
+    "ckb-IQ",
+    "ar"
+  ],
+  "candidatePackageSha256": {
+    "foundations/academy/academy.yaml": "50b73e29eb5e2e49fa867647597891ade56ec4b5e58610569b2b14ece8c3de89",
+    "foundations/academy/packages/foundations-m1.json": "e8d01cf55c8b3cabd620d6c7782203a8b3979f4777c12a0bc9c646c9c067c07a",
+    "foundations/academy/packages/foundations.ar-SA.json": "6c81101f824f5ffe7abbf2a792de0cf70864b597952606008b4371c37a4129db",
+    "foundations/academy/packages/foundations.ckb-IQ.json": "e313bb3994a4c5337c7d58d03a5e383f9814ae770f71a47b8ec86a4ec169f7d6",
+    "foundations/academy/packages/foundations.json": "f466bc72498c1634c1b575aa7a0d7aa2d1a6c40168afe221094b1fd79c01f622",
+    "hormonaly/academy/academy.yaml": "80ad5a9b9ed270ca6cb46fa05b9909cf157755fd4a97320122a8a6d39153b6d7",
+    "hormonaly/academy/packages/hormones-peptides-skin.ar-AE.json": "383210af8a8203d32d964ba60460a4c792a754023151f76bf28c8b6afddbdccb",
+    "hormonaly/academy/packages/hormones-peptides-skin.ckb-IQ.json": "383210af8a8203d32d964ba60460a4c792a754023151f76bf28c8b6afddbdccb",
+    "hormonaly/academy/packages/hormones-peptides-skin.json": "6419297d6d012d8c8e5b58909e9e9f1f950443aa548ca20618017dbb0ebfa4fa"
+  },
+  "candidateSourceCommits": {
+    "foundations-academy": "6d89cec13b40af0b0bb2342972763665d2747cab",
+    "foundations-runtime": "6456fee1d3382553c6070001e80d8f0ea39e9c7e",
+    "foundations-host": "e251442ecb7ba87a412735785b91e1af729ace21",
+    "hormonaly-academy": "8b43f1a0670f23259263e529cb85d16d46dbf2de",
+    "hormonaly-runtime": "d1ff16babc129b2743920cd46f6a2e188eb917be"
+  },
+  "reviewArchiveSha256": "9d7c3683fda0138d27b107ef2fda6b59c48c3650c04771de7e24d58d4be8b996",
+  "fadyReviewerApproval": null,
+  "publicationStatus": "Not published; this receipt records owner acceptance and does not attribute a review to Fady or execute a live cutover."
+}

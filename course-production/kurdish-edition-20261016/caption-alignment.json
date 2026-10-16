@@ -1,0 +1,79 @@
+[
+  {
+    "id": "hormonaly-m01",
+    "cues": 23,
+    "sourceWords": 160,
+    "asrWords": 160,
+    "matchedWords": 159,
+    "wordAgreement": 0.9938,
+    "medianStartOffsetSeconds": 0.0,
+    "maxStartOffsetSeconds": 0.5,
+    "flags": []
+  },
+  {
+    "id": "hormonaly-m02",
+    "cues": 24,
+    "sourceWords": 183,
+    "asrWords": 183,
+    "matchedWords": 183,
+    "wordAgreement": 1.0,
+    "medianStartOffsetSeconds": 0.0,
+    "maxStartOffsetSeconds": 0.02,
+    "flags": []
+  },
+  {
+    "id": "hormonaly-m03",
+    "cues": 25,
+    "sourceWords": 173,
+    "asrWords": 174,
+    "matchedWords": 171,
+    "wordAgreement": 0.9884,
+    "medianStartOffsetSeconds": 0.0,
+    "maxStartOffsetSeconds": 0.02,
+    "flags": []
+  },
+  {
+    "id": "hormonaly-m04",
+    "cues": 22,
+    "sourceWords": 159,
+    "asrWords": 160,
+    "matchedWords": 156,
+    "wordAgreement": 0.9811,
+    "medianStartOffsetSeconds": 0.0,
+    "maxStartOffsetSeconds": 0.02,
+    "flags": []
+  },
+  {
+    "id": "hormonaly-m05",
+    "cues": 22,
+    "sourceWords": 168,
+    "asrWords": 168,
+    "matchedWords": 168,
+    "wordAgreement": 1.0,
+    "medianStartOffsetSeconds": 0.0,
+    "maxStartOffsetSeconds": 0.02,
+    "flags": []
+  },
+  {
+    "id": "hormonaly-m06",
+    "cues": 27,
+    "sourceWords": 188,
+    "asrWords": 188,
+    "matchedWords": 187,
+    "wordAgreement": 0.9947,
+    "medianStartOffsetSeconds": 0.0,
+    "maxStartOffsetSeconds": 0.0,
+    "flags": []
+  },
+  {
+    "id": "hormonaly-m07",
+    "cues": 25,
+    "sourceWords": 179,
+    "asrWords": 179,
+    "matchedWords": 178,
+    "wordAgreement": 0.9944,
+    "medianStartOffsetSeconds": 0.0,
+    "maxStartOffsetSeconds": 0.02,
+    "flags": []
+  }
+]

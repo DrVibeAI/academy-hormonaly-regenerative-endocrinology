@@ -1,0 +1,10 @@
+{
+  "ckb-IQ": {
+    "provider": "elevenlabs",
+    "model_id": "eleven_v4",
+    "language_code": "ckb",
+    "voice_id": "wKz0GKg2zkR8oq5ricRZ",
+    "name": "Zanyar",
+    "status": "audition_draft_native_review_pending"
+  }
+}
