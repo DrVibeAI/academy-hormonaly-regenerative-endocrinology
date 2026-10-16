@@ -143,6 +143,7 @@ home:
     en: More peptide courses are on the way.
     ar-AE: المزيد من دورات الببتيدات قيد الإعداد.
   glimpses:
+    presentation: devices
     title:
       en: Learn by doing.
       ar-AE: تعلّم عبر التطبيق العملي.
@@ -153,18 +154,42 @@ home:
         caption:
           en: A short film opens every module
           ar: اختبر فهمك بخطوات قصيرة
+        callout:
+          icon: play
+          title:
+            en: Watch. Understand. Apply.
+            ar: تعلّم وطبّق
+          body:
+            en: Short lessons, one idea at a time.
+            ar: دروس قصيرة، فكرة واحدة في كل خطوة.
       - src: assets/hormones-peptides-skin/home/en/inside-science.png
         srcByLocale:
           ar: assets/hormones-peptides-skin/home/ar/inside-science.png
         caption:
           en: Explore the science through illustrations
           ar: استكشف العلم من خلال الرسوم التوضيحية
+        callout:
+          icon: audio
+          title:
+            en: Listen & explore
+            ar: استمع واستكشف
+          body:
+            en: Audio, illustrations and flip cards.
+            ar: شرح صوتي ورسوم وبطاقات تفاعلية.
       - src: assets/hormones-peptides-skin/home/en/inside-trial.png
         srcByLocale:
           ar: assets/hormones-peptides-skin/home/ar/inside-trial.png
         caption:
           en: Sort the evidence, one tap at a time
           ar: صنّف الأدلة بنقرة واحدة في كل خطوة
+        callout:
+          icon: feedback
+          title:
+            en: Feedback with every choice
+            ar: تعقيب مع كل اختيار
+          body:
+            en: See the answer. Understand why.
+            ar: اعرف الإجابة وافهم السبب.
     captureManifest: presentation-inputs/home-glimpses-bilingual.json
   trust:
     title:

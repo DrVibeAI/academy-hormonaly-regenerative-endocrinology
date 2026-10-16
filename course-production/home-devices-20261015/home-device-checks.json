@@ -1,0 +1,59 @@
+[
+  {
+    "images": true,
+    "pageOverflow": false,
+    "phones": [
+      {
+        "height": 360.625,
+        "width": 156
+      },
+      {
+        "height": 360.625,
+        "width": 156
+      },
+      {
+        "height": 360.625,
+        "width": 156
+      }
+    ],
+    "width": 320
+  },
+  {
+    "images": true,
+    "pageOverflow": false,
+    "phones": [
+      {
+        "height": 423.890625,
+        "width": 181.2265625
+      },
+      {
+        "height": 423.890625,
+        "width": 181.2265625
+      },
+      {
+        "height": 423.90625,
+        "width": 181.234375
+      }
+    ],
+    "width": 768
+  },
+  {
+    "images": true,
+    "pageOverflow": false,
+    "phones": [
+      {
+        "height": 464.515625,
+        "width": 200
+      },
+      {
+        "height": 464.515625,
+        "width": 200
+      },
+      {
+        "height": 464.515625,
+        "width": 200
+      }
+    ],
+    "width": 1280
+  }
+]

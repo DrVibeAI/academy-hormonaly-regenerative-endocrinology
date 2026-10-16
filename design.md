@@ -53,3 +53,9 @@ Revision 5 supersedes the prior November-only lock: the October free course incl
 Revision 5 published with Omar’s explicit approval on October 11, 2026: `academy-hormonaly-00061-7lk`, 100% traffic. Certificate QA, candidate/live checks and provenance: `course-production/certificate-20261011/README.md`.
 
 2026-10-15: owner requested activation with GCLS AI Academy today. Revision 6 restores both logos and signatures, names GCLS AI Academy as education partner, and retains Hormonaly completion issuance. Course completion/pass requirements remain; no paid or November gate. See certificate handoff for release evidence.
+
+## Homepage course previews · 2026-10-15
+
+Owner direction: use the supplied three-phone app example as a composition reference, with clean device frames and feature callouts. A subsequent request reduced their size, especially on mobile. The opt-in `home.glimpses.presentation: devices` treatment uses existing, provenance-recorded course screenshots without retouching their content: 200px phones on desktop and 156px phones in a horizontal, keyboard-scrollable row below 761px. Callouts are configuration-owned English and Arabic text; Arabic follows RTL. Decorative device chrome is hidden from assistive technology. Hover motion respects reduced-motion preferences. This is a local draft, not a new brand approval or publication approval.
+
+Review: `course-production/home-devices-20261015/README.md`.
