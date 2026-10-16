@@ -265,11 +265,14 @@ home:
           en: Faculty · Medical review
           ar-AE: هيئة التدريس · المراجعة الطبية
         role:
-          en: Endocrinologist and biochemical geneticist. Author of the Hormonaly pocket
-            guides.
-          ar-AE: اختصاصي الغدد الصماء والوراثة الكيميائية الحيوية، ومؤلف أدلة هورمونالي
-            المرجعية المختصرة.
+          en: Endocrinologist and biochemical geneticist. Author of the Hormonaly pocket guides.
+          ar-AE: اختصاصي الغدد الصماء والوراثة الكيميائية الحيوية، ومؤلف أدلة هورمونالي المرجعية المختصرة.
         image: assets/faculty/fady-hannah-shmouni-wide.png
+        link:
+          href: https://www.linkedin.com/in/fady-hannah-shmouni/
+          label:
+            en: LinkedIn Profile
+            ar: الملف الشخصي على لينكدإن
       - name: Professor Dr. Dominik Thor, MSc
         designation:
           en: Advisory
@@ -291,6 +294,11 @@ home:
           en: Physician and AI builder focused on clinician-first healthcare workflows.
           ar-AE: طبيب ومطوّر للذكاء الاصطناعي يركّز على مسارات العمل للممارسين السريريين.
         image: assets/faculty/omar-saleem-wide.png
+        link:
+          href: https://www.linkedin.com/in/omarfsaleem/
+          label:
+            en: LinkedIn Profile
+            ar: الملف الشخصي على لينكدإن
   faq:
     - q:
         en: Does the course give doses or protocols?
@@ -343,10 +351,21 @@ home:
       ar: أكمل الوحدات السبع واجتز التقييم النهائي لتحصل على شهادة إتمام من أكاديمية
         Hormonaly. الشهادة مشمولة خلال فترة التسجيل المجاني حتى 30 نوفمبر.
     image:
-      src: /assets/hormones-peptides-skin/ui/evidence-desk.jpg
+      src: assets/certificate/previews/20261016/certificate-en.png
+      srcByLocale:
+        ar: assets/certificate/previews/20261016/certificate-ar.png
+      href: assets/certificate/previews/20261016/certificate-en.pdf
+      hrefByLocale:
+        ar: assets/certificate/previews/20261016/certificate-ar.pdf
       alt:
-        en: Notebook and magnifying glass on an evidence-review desk
-        ar: دفتر وعدسة مكبرة على مكتب لمراجعة الأدلة
+        en: Hormonaly certificate of completion with the GCLS logo and signature marks of Fady Hannah-Shmouni and Dominik Thor
+        ar: شهادة إتمام هورمونالي مع شعار GCLS وتوقيعي فادي حنّا شمعوني ودومينيك ثور
+      caption:
+        en: Certificate preview · your name appears on completion.
+        ar: معاينة الشهادة · يظهر اسمك عند إتمام الدورة.
+      linkLabel:
+        en: View certificate
+        ar: عرض الشهادة
   creators:
     kicker:
       en: For physician creators
@@ -993,15 +1012,42 @@ site:
       en: Book store
       ar: متجر الكتب
     title:
-      en: Keep exploring, one book at a time.
-      ar: واصل التعلّم، كتابًا بعد كتاب.
+      en: The Hormonaly bookshelf.
+      ar: مكتبة هورمونالي.
     description:
-      en: Explore Hormonaly’s pocket guides and books on peptides, hormones and
-        longevity.
+      en: Explore Hormonaly’s pocket guides and books on peptides, hormones and longevity.
       ar: استكشف أدلة هورمونالي المرجعية وكتبها عن الببتيدات والهرمونات وطول العمر.
     action:
       en: Explore the book store
       ar: استكشف متجر الكتب
+    books:
+      - title:
+          en: The Peptide Pocket Guide
+          ar: The Peptide Pocket Guide
+        cover: assets/books/20261016/the-peptide-pocket-guide.jpg
+        href: https://books.perceptors.ai/#book=the-peptide-pocket-guide
+      - title:
+          en: Aesthetic & Regenerative Endocrinology
+          ar: Aesthetic & Regenerative Endocrinology
+        cover: assets/books/20261016/aesthetic-regenerative-endocrinology.jpg
+        href: https://books.perceptors.ai/#book=aesthetic-regenerative-endocrinology
+      - title:
+          en: Peptides, Hormones & Longevity
+          ar: Peptides, Hormones & Longevity
+        cover: assets/books/20261016/peptides-hormones-longevity.jpg
+        href: https://books.perceptors.ai/#book=peptides-hormones-longevity
+    booksByLocale:
+      ar:
+        - title:
+            en: دليل الجيب للببتيدات (The Peptide Pocket Guide — Arabic Edition)
+            ar: دليل الجيب للببتيدات
+          cover: assets/books/20261016/the-peptide-pocket-guide-arabic-edition.png
+          href: https://books.perceptors.ai/#book=the-peptide-pocket-guide-arabic-edition
+        - title:
+            en: "الببتيدات: مدخل مبسط"
+            ar: "الببتيدات: مدخل مبسط"
+          cover: assets/books/20261016/peptides-simplified-arabic.jpg
+          href: https://books.perceptors.ai/#book=peptides-simplified-arabic
   certificatePartner:
     name: GCLS AI Academy
     note:
