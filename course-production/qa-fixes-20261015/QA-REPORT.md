@@ -48,3 +48,7 @@ Human review of the Arabic films and approval of the live release are the remain
 - Final bilingual book-store proof: `arabic-public-bookstore-final.png` and `english-public-bookstore-final.png`.
 
 Local preview uses a guest fixture. It does not change Omar's production progress, assessment or certificate. Local preview servers must be running for these links.
+
+## Publication update · 15 October 2026
+
+Omar approved publishing all changes in this conversation. Released as `academy-hormonaly-00067-9vk` at 100% traffic after preserving the newer live metadata update and correcting deployed trailer caption access. Full release evidence and exact commits: `../release-20261015/README.md`.

@@ -1,0 +1,44 @@
+$ node scripts/check-isolation.mjs && node scripts/check-locale-variants.mjs && pnpm run typecheck && vite build
+isolation: clean — no academy literals in runtime source (src, server, scripts, deploy, tools, public, index.html, vite.config.ts, package.json, Dockerfile)
+pt-BR locale: clean — 128 runtime source files scanned
+$ tsc --noEmit && tsc --project tsconfig.node.json --noEmit
+(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+  - import "../src/generated/academyConfig" without a file extension (scripts/academy-meta-plugin.mts:8:25). Add the file extension
+  - import "../src/locales" without a file extension (scripts/academy-meta-plugin.mts:9:36). Add the file extension
+  - import "./locales" without a file extension (src/nutritionCourse.ts:2:53). Add the file extension
+  - import "../nutritionCourse" without a file extension (src/generated/courseContent.ts:3:45). Add the file extension
+  - import "./generated/academyConfig" without a file extension (src/academy-locales.ts:5:25). Add the file extension
+  - import "./locales" without a file extension (src/nutritionCourse.ts:3:38). Add the file extension
+  - import "./locales" without a file extension (src/academy-locales.ts:6:74). Add the file extension
+  - import "./locales" without a file extension (src/nutritionCourse.ts:4:20). Add the file extension
+  - import "./checkout-pricing" without a file extension (src/certificate-release.ts:1:67). Add the file extension
+  - import "./generated/courseContent" without a file extension (src/nutritionCourse.ts:216:77). Add the file extension
+Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.
+vite v8.2.2 building client environment for production...
+transforming...
+✓ 1922 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                            3.32 kB │ gzip:   1.03 kB
+dist/assets/academy-home-DOd55e7O.css     24.31 kB │ gzip:   5.95 kB
+dist/assets/main-B8BZCLUa.css             53.36 kB │ gzip:  10.48 kB
+dist/assets/editing-D13VqzZE.css         490.69 kB │ gzip:  80.00 kB
+dist/assets/preview-main-zgJ1goBi.js       2.01 kB │ gzip:   0.89 kB
+dist/assets/academy-home-zn2yWwZk.js      39.39 kB │ gzip:  13.26 kB
+dist/assets/index-_H05VNmc.js             63.57 kB │ gzip:  21.06 kB
+dist/assets/mux-BPva59o1.js               91.56 kB │ gzip:  26.23 kB
+dist/assets/editing-DpnFJoQn.js          390.88 kB │ gzip: 123.26 kB
+dist/assets/hls-DSymRVZ7.js              574.61 kB │ gzip: 179.00 kB
+dist/assets/main-CZCOeKma.js           2,438.58 kB │ gzip: 701.24 kB
+
+✓ built in 4.30s
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[33m[PLUGIN_TIMINGS] [0mYour build spent 94% of 4.3s inside plugin hooks (4.0s).
+Measured inside the callback, so queue time is excluded and time the callback itself awaited is not:
+  - vite:prepare-out-dir renderStart (87%, 3.7s, 1 call)
+See https://rolldown.rs/reference/InputOptions.checks#plugintimings for more details.
+

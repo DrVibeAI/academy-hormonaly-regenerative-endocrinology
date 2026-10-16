@@ -1,0 +1,72 @@
+{
+  "english": {
+    "images": [
+      {
+        "loaded": true,
+        "src": "/assets/hormones-peptides-skin/home/qa-20261015/en/inside-film.png"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/hormones-peptides-skin/home/qa-20261015/en/inside-science.png"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/hormones-peptides-skin/home/qa-20261015/en/inside-trial.png"
+      }
+    ],
+    "overflow": false,
+    "phoneWidths": [
+      200,
+      200,
+      200
+    ],
+    "width": 1280
+  },
+  "arabic": {
+    "bookstore": [
+      "استكشف متجر الكتب",
+      "متجر الكتب"
+    ],
+    "faculty": "هيئة التدريس والمجلس الاستشاريهيئة التدريس · المراجعة الطبيةFady Hannah-Shmouni, MD, FRCPC, ABIMاختصاصي الغدد الصماء والوراثة الكيميائية الحيوية، ومؤلف أدلة هورمونالي المرجعية المختصرة.المجلس الاستشاريProfessor Dr. Dominik Thor, MScرئيس كلية جنيف لعلوم طول العمر وأستاذ الصيدلة. تركز أبحاثه على المواد الحيوية والطب التجديدي والصيدلة.الملف الشخصي على لينكدإن ↗المجلس الاستشاريOmar Saleem, MDطبيب ومطوّر للذكاء الاصطناعي يركّز على مسارات العمل للممارسين السريريين.",
+    "images": [
+      {
+        "loaded": true,
+        "src": "/assets/hormones-peptides-skin/home/qa-20261015/ar/inside-practice.png"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/hormones-peptides-skin/home/qa-20261015/ar/inside-science.png"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/hormones-peptides-skin/home/qa-20261015/ar/inside-trial.png"
+      }
+    ],
+    "overflow": false,
+    "video": [
+      {
+        "caption": "/assets/hormones-peptides-skin/ar-AE/video/hype.vtt",
+        "error": null,
+        "ready": 0,
+        "src": "https://candidate---academy-hormonaly-limjs7pr6a-uc.a.run.app/assets/hormones-peptides-skin/ar-AE/video/hype.mp4"
+      }
+    ],
+    "width": 1280
+  },
+  "mobileArabic": {
+    "overflow": false,
+    "phones": [
+      156,
+      156,
+      156
+    ],
+    "video": [
+      {
+        "duration": null,
+        "error": null,
+        "ready": 0
+      }
+    ],
+    "width": 390
+  }
+}

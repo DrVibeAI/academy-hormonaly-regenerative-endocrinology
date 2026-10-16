@@ -1,0 +1,40 @@
+→ provenance: runtime 26b29048dfdc (candidate)
+→ provenance: academy 9f976ec3774f (candidate)
+→ inputs from /Users/omar/DrVibe/worktrees/hormonaly-qa-20261015/academy
+$ npx -y tsx scripts/prepare.mts
+Release lineage: 5 preserved histories present; remote branch is not ahead.
+→ eval gate: no deploy without green evals (parity + Guía safety + course fixtures)
+→ prepare (/Users/omar/DrVibe/worktrees/hormonaly-qa-20261015/academy)
+$ npx -y tsx scripts/prepare.mts
+✓ Locale parity
+✓ Guía consistency & clinical safety
+✓ Regional emergency routing and clinical terms
+✓ Review deployment and reference media
+✓ RAG groundedness (grounded coach)
+✓ Paid enrolment boundaries
+✓ Verification email identity and delivery boundaries
+✓ Today line (rotation, moments)
+report: /Users/omar/DrVibe/worktrees/hormonaly-qa-20261015/academy/course-production/evals/report-2026-10-16T023246Z.md
+→ preflight: the exact CI install must pass locally
+→ preflight: the prepared academy type-checks
+
+> perceptor-runtime@0.1.0 typecheck
+> tsc --noEmit && tsc --project tsconfig.node.json --noEmit
+
+→ project perceptors (omar@hormonaly.ai) · service academy-hormonaly · inputs for 'hormonaly'
+Operation "operations/acat.p2-900018352423-2f0e072c-dec3-42fd-a1c2-700e5ad324e4" finished successfully.
+→ identity tenant hormonaly-academy-srbsc
+Building using Dockerfile and deploying container to Cloud Run service [academy-hormonaly] in project [perceptors] region [us-central1]
+Building and deploying...
+Validating configuration.........done
+Uploading sources...............................done
+Building Container..........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................done
+Setting IAM Policy.............done
+Creating Revision....................................................................................................................................................................done
+Done.
+Service [academy-hormonaly] revision [academy-hormonaly-00067-9vk] has been deployed and is serving 0 percent of traffic.
+The revision can be reached directly at https://candidate---academy-hormonaly-limjs7pr6a-uc.a.run.app
+Updating traffic...
+Routing traffic.........................................................................................................................done
+Done.
+Candidate academy-hormonaly-00067-9vk ready at https://candidate---academy-hormonaly-limjs7pr6a-uc.a.run.app; production traffic unchanged.

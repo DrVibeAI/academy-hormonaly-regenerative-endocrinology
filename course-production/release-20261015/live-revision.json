@@ -1,0 +1,28 @@
+{
+  "spec": {
+    "template": {
+      "metadata": {
+        "labels": {
+          "client.knative.dev/nonce": "ybflimuvki",
+          "live-ok": "no",
+          "provenance": "checked",
+          "run.googleapis.com/startupProbeType": "Default",
+          "runtime-sha": "26b29048dfdc",
+          "source-repo": "academy",
+          "source-sha": "9f976ec3774f"
+        }
+      }
+    }
+  },
+  "status": {
+    "latestReadyRevisionName": "academy-hormonaly-00067-9vk",
+    "traffic": [
+      {
+        "percent": 100,
+        "revisionName": "academy-hormonaly-00067-9vk",
+        "tag": "candidate",
+        "url": "https://candidate---academy-hormonaly-limjs7pr6a-uc.a.run.app"
+      }
+    ]
+  }
+}

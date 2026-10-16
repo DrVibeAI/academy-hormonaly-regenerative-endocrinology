@@ -1,7 +1,7 @@
 {
   "createdAt": "2026-10-16T01:59:15.287Z",
   "approvalStatus": "approved",
-  "published": false,
+  "published": true,
   "films": [
     {
       "id": "m01-opener",
@@ -122,5 +122,7 @@
     "source": "Explicit user message in this Codex conversation",
     "decision": "looks good, publish all the changes to the live site",
     "scope": "Publish all reviewed Hormonaly changes, including eight Arabic films and associated posters/captions, bilingual course fixes, navigation/footer, homepage previews, bookstore links and faculty credentials. This does not record medical, translation-professional, or accreditation approval."
-  }
+  },
+  "publishedAt": "2026-10-15T19:40:24.536281-07:00",
+  "revision": "academy-hormonaly-00067-9vk"
 }

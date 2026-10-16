@@ -1,0 +1,15 @@
+✔ server metadata follows the visible language, including toggles after a language URL (1.240916ms)
+✔ server tags replace all inherited identity, preserve body and select Arabic locale/alt/RTL (1.264417ms)
+✔ private/unknown pages strip inherited social identity and schema and stay noindex (0.072125ms)
+✔ unsupported/prototype locale query falls back to authored default safely (0.4555ms)
+✔ load refuses URL credentials, path-bearing origins and duplicate public paths (0.940459ms)
+✔ sitemap only advertises explicitly indexable routes and their real locales (0.157291ms)
+✔ collection structured data retains locale-specific course descriptions and provider identity (0.190042ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 105.939625

@@ -1,0 +1,103 @@
+{
+  "home": {
+    "faculty": "Faculty & advisoryFaculty · Medical reviewFady Hannah-Shmouni, MD, FRCPC, ABIMEndocrinologist and biochemical geneticist. Author of the Hormonaly pocket guides.AdvisoryProfessor Dr. Dominik Thor, MScPresident of the Geneva College of Longevity Science and Professor of Pharmacy. His research focuses on biomaterials, regenerative medicine, and pharmacy.LinkedIn Profile ↗AdvisoryOmar Saleem, MDPhysician and AI builder focused on clinician-first healthcare workflows.",
+    "links": [
+      {
+        "href": "https://www.linkedin.com/in/dominik-thor/",
+        "label": "LinkedIn Profile ↗"
+      },
+      {
+        "href": "https://books.perceptors.ai",
+        "label": "Explore the book store"
+      },
+      {
+        "href": "https://books.perceptors.ai",
+        "label": "Book store"
+      }
+    ],
+    "title": "Hormones and Peptides for Skin | Hormonaly Academy",
+    "video": [
+      {
+        "error": null,
+        "ready": 4,
+        "src": "https://hormonaly.perceptors.ai/assets/hormones-peptides-skin/home/trailer.mp4"
+      }
+    ]
+  },
+  "arabicTrailer": {
+    "caption": "/assets/hormones-peptides-skin/ar-AE/video/hype.vtt",
+    "duration": 78.15,
+    "error": null,
+    "playing": true,
+    "ready": 4,
+    "src": "https://hormonaly.perceptors.ai/assets/hormones-peptides-skin/ar-AE/video/hype.mp4",
+    "time": 16.874231
+  },
+  "englishModule": {
+    "footer": {
+      "bottom": 708,
+      "height": 66,
+      "left": 274,
+      "right": 1006,
+      "top": 642,
+      "width": 732,
+      "x": 274,
+      "y": 642
+    },
+    "overflow": false,
+    "videos": [
+      {
+        "duration": 70.26,
+        "error": null,
+        "ready": 4,
+        "src": "https://hormonaly.perceptors.ai/assets/hormones-peptides-skin/video/m01-opener.mp4"
+      }
+    ]
+  },
+  "arabicModule": {
+    "footer": {
+      "bottom": 708,
+      "height": 66,
+      "left": 274,
+      "right": 1006,
+      "top": 642,
+      "width": 732,
+      "x": 274,
+      "y": 642
+    },
+    "overflow": false,
+    "videos": [
+      {
+        "duration": 113.033333,
+        "error": null,
+        "playing": true,
+        "ready": 4,
+        "src": "https://hormonaly.perceptors.ai/assets/hormones-peptides-skin/ar-AE/video/m01-opener.mp4",
+        "time": 8.21895
+      }
+    ]
+  },
+  "previews": {
+    "images": [
+      {
+        "loaded": true,
+        "src": "/assets/hormones-peptides-skin/home/qa-20261015/en/inside-film.png"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/hormones-peptides-skin/home/qa-20261015/en/inside-science.png"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/hormones-peptides-skin/home/qa-20261015/en/inside-trial.png"
+      }
+    ],
+    "overflow": false,
+    "phoneWidths": [
+      200,
+      200,
+      200
+    ],
+    "width": 1280
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "publishedAt": "2026-10-15T19:40:24.536281-07:00",
+  "url": "https://hormonaly.perceptors.ai",
+  "revision": "academy-hormonaly-00067-9vk",
+  "trafficPercent": 100,
+  "runtimeCommit": "26b29048dfdcdc9e381b65060b9c5b0b27f96f12",
+  "academyCommit": "9f976ec3774f13c9c5200fbbdf3dfc0aa9ed890e",
+  "previousRevision": "academy-hormonaly-00065-wnw",
+  "cloudBuild": "ec9994e1-c55a-4e13-a562-52d59676de1e",
+  "health": {
+    "app": "ok",
+    "db": "ok"
+  },
+  "unauthenticatedCertificateStatus": 401,
+  "mediaObjectsVerified": 30,
+  "ownerApprovalRef": "owner-approval.json"
+}

@@ -27,7 +27,7 @@ To serve the gallery from the worktree root: `python3 -m http.server 8897 --bind
 
 ## Review status
 
-Automated QA reports are preserved verbatim in the QA packet. The generic b-roll rubric flags a frontal presenter face; that rule does not describe these presenter segments. Omar explicitly requested the original structure, which includes this licensed stock avatar. This is an applicability note, not a recorded human approval. Human Arabic media review remains required before publishing.
+Automated QA reports are preserved verbatim in the QA packet. The generic b-roll rubric flags a frontal presenter face; that rule does not describe these presenter segments. Omar explicitly requested the original structure, which includes this licensed stock avatar. This is an applicability note, not a recorded human approval. The review packet was presented to Omar; his subsequent instruction to publish all changes is recorded below.
 
 ### Arabic UI demonstrations
 
@@ -36,3 +36,5 @@ The trailer's three original English course demonstrations are localized using a
 ## Owner publication approval · 15 October 2026
 
 Omar: “looks good, publish all the changes to the live site”. This approves the reviewed release including the eight Arabic films and associated assets. Their package media statuses are now approved. The automated QA reports and their documented dispositions remain preserved; this is not a new medical or accreditation approval.
+
+Published to https://hormonaly.perceptors.ai on 15 October 2026 as `academy-hormonaly-00067-9vk`. See `../release-20261015/README.md`.
