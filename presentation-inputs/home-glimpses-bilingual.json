@@ -3,7 +3,7 @@
   "academy": "hormonaly",
   "brandFingerprint": "087d01f11541736bd5a1e0fbb5118d3520c33845ad8fd0a9f7ec43730d19e44d",
   "course": "packages/hormones-peptides-skin.ar-AE.json",
-  "packageSha256": "b809112ac27a77d713962ff1628ea1779f0b750738542ed0a8dc49a20010b2be",
+  "packageSha256": "a31221d366bde348bb86658cb25bb03f7f0afbe6fa237d07d32d793c32d8dc8b",
   "capturedAt": "2026-10-16T17:42:27.672124+00:00",
   "sourceRuntimeCommit": "f9f8219",
   "viewport": {
@@ -109,5 +109,6 @@
     "soraniCaptureRefresh": "complete",
     "humanApproved": false,
     "method": "Actual rebuilt learner UI; Codex in-app browser; 390x844; no answers submitted or real learner records changed."
-  }
+  },
+  "deploymentAmendment": "Added required English fallback to Sorani-only narration disclosure; captured visuals unchanged."
 }
