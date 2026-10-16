@@ -1,6 +1,6 @@
 # Arabic film drafts — 15 October 2026
 
-Seven module openers and the homepage trailer preserve the English storyboards' scene order, illustrations, presenter identity, diagram geometry and motion structure. Arabic narration, captions, labels and word-level cue timings are localized. Human media approval and publication remain pending.
+Seven module openers and the homepage trailer preserve the English storyboards' scene order, illustrations, presenter identity, diagram geometry and motion structure. Arabic narration, captions, labels and word-level cue timings are localized. Owner approval to publish all reviewed changes was received on 15 October 2026; see `../release-20261015/owner-approval.json`. Publication is tracked in that release folder.
 
 ## Production
 
@@ -32,3 +32,7 @@ Automated QA reports are preserved verbatim in the QA packet. The generic b-roll
 ### Arabic UI demonstrations
 
 The trailer's three original English course demonstrations are localized using actual 390×844 Arabic runtime captures of the same activities and choices: Module 4 trial sorter (pane 11), Module 7 certificate audit (pane 15), and Module 4 GLOW scenario (pane 22). `build-arabic-glimpses.mjs` assembles these captured states at the original 780×1688 / 60fps clip dimensions and durations. `finalize-project.mjs` substitutes the localized clips in the editable project while retaining the storyboard's filenames, scene order, zoom and framing. The original English files are unchanged.
+
+## Owner publication approval · 15 October 2026
+
+Omar: “looks good, publish all the changes to the live site”. This approves the reviewed release including the eight Arabic films and associated assets. Their package media statuses are now approved. The automated QA reports and their documented dispositions remain preserved; this is not a new medical or accreditation approval.

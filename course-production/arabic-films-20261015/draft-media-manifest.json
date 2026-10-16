@@ -1,6 +1,6 @@
 {
   "createdAt": "2026-10-16T01:59:15.287Z",
-  "approvalStatus": "draft",
+  "approvalStatus": "approved",
   "published": false,
   "films": [
     {
@@ -115,5 +115,12 @@
         "asset-hps-hype-ar-captions"
       ]
     }
-  ]
+  ],
+  "approval": {
+    "by": "Omar Saleem",
+    "date": "2026-10-15",
+    "source": "Explicit user message in this Codex conversation",
+    "decision": "looks good, publish all the changes to the live site",
+    "scope": "Publish all reviewed Hormonaly changes, including eight Arabic films and associated posters/captions, bilingual course fixes, navigation/footer, homepage previews, bookstore links and faculty credentials. This does not record medical, translation-professional, or accreditation approval."
+  }
 }

@@ -3,7 +3,7 @@
   "academy": "hormonaly",
   "brandFingerprint": "37e5037cbac7cf513a7b2cb1d7166ade9efcc918d3c5cebd3b993fc214deb0b7",
   "course": "packages/hormones-peptides-skin.ar-AE.json",
-  "packageSha256": "f4e403d7f661daadb56a33e3765754c8f8465eee078b4a08013d965f1f22a994",
+  "packageSha256": "974586841d3b97fa5c9a1e4e48ca95ef8108c4b3db9722e5994c269a25db4efa",
   "capturedAt": "2026-10-16T01:23:17.661916+00:00",
   "sourceRuntimeCommit": "da92f7508fdbbd7696408f3105739b66681aaa41",
   "viewport": {
@@ -15,45 +15,46 @@
   "captures": [
     {
       "locale": "en",
-      "src": "assets/hormones-peptides-skin/home/en/inside-film.png",
+      "src": "assets/hormones-peptides-skin/home/qa-20261015/en/inside-film.png",
       "lesson": 1,
       "pane": 1,
       "sha256": "4f76424663aaff698b9bbb6024583d6626565b0f6f4146e439655d4a74cbd97e"
     },
     {
       "locale": "ar",
-      "src": "assets/hormones-peptides-skin/home/ar/inside-practice.png",
+      "src": "assets/hormones-peptides-skin/home/qa-20261015/ar/inside-practice.png",
       "lesson": 1,
       "pane": 5,
       "sha256": "db1ae6de958b6bb260909c4db2aca04c55b07f7bced83a0a508cdb0cca7887c0"
     },
     {
       "locale": "en",
-      "src": "assets/hormones-peptides-skin/home/en/inside-science.png",
+      "src": "assets/hormones-peptides-skin/home/qa-20261015/en/inside-science.png",
       "lesson": 1,
       "pane": 3,
       "sha256": "7c6bd479d45e54901e9d9d0426e6d110066a8dd320807c2f471315437a9731c2"
     },
     {
       "locale": "ar",
-      "src": "assets/hormones-peptides-skin/home/ar/inside-science.png",
+      "src": "assets/hormones-peptides-skin/home/qa-20261015/ar/inside-science.png",
       "lesson": 1,
       "pane": 3,
       "sha256": "136d1fb4320f71fb3753e1ce25dc0783972d47d0fc476990e392d0c60c430e45"
     },
     {
       "locale": "en",
-      "src": "assets/hormones-peptides-skin/home/en/inside-trial.png",
+      "src": "assets/hormones-peptides-skin/home/qa-20261015/en/inside-trial.png",
       "lesson": 4,
       "pane": 11,
       "sha256": "e0b3421bf2c9aa911ae2f44a7b7be120dd7735d20ce1544fdb78a21bb4a9d588"
     },
     {
       "locale": "ar",
-      "src": "assets/hormones-peptides-skin/home/ar/inside-trial.png",
+      "src": "assets/hormones-peptides-skin/home/qa-20261015/ar/inside-trial.png",
       "lesson": 4,
       "pane": 11,
       "sha256": "79c1aaf9e9fef9a8cfd76355d91e25055734c3a6e9edb1890ed792f3d85da4dd"
     }
-  ]
+  ],
+  "releaseNote": "Same captured bytes moved to versioned URLs for the 2026-10-15 release; package hash refreshed for owner-approved media status only."
 }

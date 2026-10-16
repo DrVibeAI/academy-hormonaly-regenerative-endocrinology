@@ -148,9 +148,9 @@ home:
       en: Learn by doing.
       ar-AE: تعلّم عبر التطبيق العملي.
     items:
-      - src: assets/hormones-peptides-skin/home/en/inside-film.png
+      - src: assets/hormones-peptides-skin/home/qa-20261015/en/inside-film.png
         srcByLocale:
-          ar: assets/hormones-peptides-skin/home/ar/inside-practice.png
+          ar: assets/hormones-peptides-skin/home/qa-20261015/ar/inside-practice.png
         caption:
           en: A short film opens every module
           ar: اختبر فهمك بخطوات قصيرة
@@ -162,9 +162,9 @@ home:
           body:
             en: Short lessons, one idea at a time.
             ar: دروس قصيرة، فكرة واحدة في كل خطوة.
-      - src: assets/hormones-peptides-skin/home/en/inside-science.png
+      - src: assets/hormones-peptides-skin/home/qa-20261015/en/inside-science.png
         srcByLocale:
-          ar: assets/hormones-peptides-skin/home/ar/inside-science.png
+          ar: assets/hormones-peptides-skin/home/qa-20261015/ar/inside-science.png
         caption:
           en: Explore the science through illustrations
           ar: استكشف العلم من خلال الرسوم التوضيحية
@@ -176,9 +176,9 @@ home:
           body:
             en: Audio, illustrations and flip cards.
             ar: شرح صوتي ورسوم وبطاقات تفاعلية.
-      - src: assets/hormones-peptides-skin/home/en/inside-trial.png
+      - src: assets/hormones-peptides-skin/home/qa-20261015/en/inside-trial.png
         srcByLocale:
-          ar: assets/hormones-peptides-skin/home/ar/inside-trial.png
+          ar: assets/hormones-peptides-skin/home/qa-20261015/ar/inside-trial.png
         caption:
           en: Sort the evidence, one tap at a time
           ar: صنّف الأدلة بنقرة واحدة في كل خطوة

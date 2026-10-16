@@ -37804,7 +37804,7 @@
     },
     {
       "locale": "ar-AE",
-      "approvalStatus": "draft",
+      "approvalStatus": "approved",
       "generator": {
         "tool": "perceptor-foundry/tools/video/morph.mjs",
         "model": "HeyGen Avatar V licensed Iris · ElevenLabs v3 Yousef · HyperFrames 0.8.162",
@@ -37813,7 +37813,8 @@
       "metadata": {
         "block": "m1-opener",
         "mediaPreview": "Draft — awaiting human Arabic media review",
-        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing."
+        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing.",
+        "publicationApprovalRef": "course-production/release-20261015/owner-approval.json"
       },
       "id": "asset-hps-m01-opener-ar",
       "kind": "video",
@@ -37828,7 +37829,7 @@
     },
     {
       "locale": "ar-AE",
-      "approvalStatus": "draft",
+      "approvalStatus": "approved",
       "generator": {
         "tool": "perceptor-foundry/tools/video/morph.mjs",
         "model": "HeyGen Avatar V licensed Iris · ElevenLabs v3 Yousef · HyperFrames 0.8.162",
@@ -37837,7 +37838,8 @@
       "metadata": {
         "block": "m1-opener",
         "mediaPreview": "Draft — awaiting human Arabic media review",
-        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing."
+        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing.",
+        "publicationApprovalRef": "course-production/release-20261015/owner-approval.json"
       },
       "id": "asset-hps-m01-opener-ar-poster",
       "kind": "image",
@@ -37847,7 +37849,7 @@
     },
     {
       "locale": "ar-AE",
-      "approvalStatus": "draft",
+      "approvalStatus": "approved",
       "generator": {
         "tool": "perceptor-foundry/tools/video/morph.mjs",
         "model": "HeyGen Avatar V licensed Iris · ElevenLabs v3 Yousef · HyperFrames 0.8.162",
@@ -37856,7 +37858,8 @@
       "metadata": {
         "block": "m1-opener",
         "mediaPreview": "Draft — awaiting human Arabic media review",
-        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing."
+        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing.",
+        "publicationApprovalRef": "course-production/release-20261015/owner-approval.json"
       },
       "id": "asset-hps-m01-opener-ar-captions",
       "kind": "captions",
@@ -37866,7 +37869,7 @@
     },
     {
       "locale": "ar-AE",
-      "approvalStatus": "draft",
+      "approvalStatus": "approved",
       "generator": {
         "tool": "perceptor-foundry/tools/video/morph.mjs",
         "model": "HeyGen Avatar V licensed Iris · ElevenLabs v3 Yousef · HyperFrames 0.8.162",
@@ -37875,7 +37878,8 @@
       "metadata": {
         "block": "m2-opener",
         "mediaPreview": "Draft — awaiting human Arabic media review",
-        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing."
+        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing.",
+        "publicationApprovalRef": "course-production/release-20261015/owner-approval.json"
       },
       "id": "asset-hps-m02-opener-ar",
       "kind": "video",
@@ -37890,7 +37894,7 @@
     },
     {
       "locale": "ar-AE",
-      "approvalStatus": "draft",
+      "approvalStatus": "approved",
       "generator": {
         "tool": "perceptor-foundry/tools/video/morph.mjs",
         "model": "HeyGen Avatar V licensed Iris · ElevenLabs v3 Yousef · HyperFrames 0.8.162",
@@ -37899,7 +37903,8 @@
       "metadata": {
         "block": "m2-opener",
         "mediaPreview": "Draft — awaiting human Arabic media review",
-        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing."
+        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing.",
+        "publicationApprovalRef": "course-production/release-20261015/owner-approval.json"
       },
       "id": "asset-hps-m02-opener-ar-poster",
       "kind": "image",
@@ -37909,7 +37914,7 @@
     },
     {
       "locale": "ar-AE",
-      "approvalStatus": "draft",
+      "approvalStatus": "approved",
       "generator": {
         "tool": "perceptor-foundry/tools/video/morph.mjs",
         "model": "HeyGen Avatar V licensed Iris · ElevenLabs v3 Yousef · HyperFrames 0.8.162",
@@ -37918,7 +37923,8 @@
       "metadata": {
         "block": "m2-opener",
         "mediaPreview": "Draft — awaiting human Arabic media review",
-        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing."
+        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing.",
+        "publicationApprovalRef": "course-production/release-20261015/owner-approval.json"
       },
       "id": "asset-hps-m02-opener-ar-captions",
       "kind": "captions",
@@ -37928,7 +37934,7 @@
     },
     {
       "locale": "ar-AE",
-      "approvalStatus": "draft",
+      "approvalStatus": "approved",
       "generator": {
         "tool": "perceptor-foundry/tools/video/morph.mjs",
         "model": "HeyGen Avatar V licensed Iris · ElevenLabs v3 Yousef · HyperFrames 0.8.162",
@@ -37937,7 +37943,8 @@
       "metadata": {
         "block": "m3-opener",
         "mediaPreview": "Draft — awaiting human Arabic media review",
-        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing."
+        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing.",
+        "publicationApprovalRef": "course-production/release-20261015/owner-approval.json"
       },
       "id": "asset-hps-m03-opener-ar",
       "kind": "video",
@@ -37952,7 +37959,7 @@
     },
     {
       "locale": "ar-AE",
-      "approvalStatus": "draft",
+      "approvalStatus": "approved",
       "generator": {
         "tool": "perceptor-foundry/tools/video/morph.mjs",
         "model": "HeyGen Avatar V licensed Iris · ElevenLabs v3 Yousef · HyperFrames 0.8.162",
@@ -37961,7 +37968,8 @@
       "metadata": {
         "block": "m3-opener",
         "mediaPreview": "Draft — awaiting human Arabic media review",
-        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing."
+        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing.",
+        "publicationApprovalRef": "course-production/release-20261015/owner-approval.json"
       },
       "id": "asset-hps-m03-opener-ar-poster",
       "kind": "image",
@@ -37971,7 +37979,7 @@
     },
     {
       "locale": "ar-AE",
-      "approvalStatus": "draft",
+      "approvalStatus": "approved",
       "generator": {
         "tool": "perceptor-foundry/tools/video/morph.mjs",
         "model": "HeyGen Avatar V licensed Iris · ElevenLabs v3 Yousef · HyperFrames 0.8.162",
@@ -37980,7 +37988,8 @@
       "metadata": {
         "block": "m3-opener",
         "mediaPreview": "Draft — awaiting human Arabic media review",
-        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing."
+        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing.",
+        "publicationApprovalRef": "course-production/release-20261015/owner-approval.json"
       },
       "id": "asset-hps-m03-opener-ar-captions",
       "kind": "captions",
@@ -37990,7 +37999,7 @@
     },
     {
       "locale": "ar-AE",
-      "approvalStatus": "draft",
+      "approvalStatus": "approved",
       "generator": {
         "tool": "perceptor-foundry/tools/video/morph.mjs",
         "model": "HeyGen Avatar V licensed Iris · ElevenLabs v3 Yousef · HyperFrames 0.8.162",
@@ -37999,7 +38008,8 @@
       "metadata": {
         "block": "m4-opener",
         "mediaPreview": "Draft — awaiting human Arabic media review",
-        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing."
+        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing.",
+        "publicationApprovalRef": "course-production/release-20261015/owner-approval.json"
       },
       "id": "asset-hps-m04-opener-ar",
       "kind": "video",
@@ -38014,7 +38024,7 @@
     },
     {
       "locale": "ar-AE",
-      "approvalStatus": "draft",
+      "approvalStatus": "approved",
       "generator": {
         "tool": "perceptor-foundry/tools/video/morph.mjs",
         "model": "HeyGen Avatar V licensed Iris · ElevenLabs v3 Yousef · HyperFrames 0.8.162",
@@ -38023,7 +38033,8 @@
       "metadata": {
         "block": "m4-opener",
         "mediaPreview": "Draft — awaiting human Arabic media review",
-        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing."
+        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing.",
+        "publicationApprovalRef": "course-production/release-20261015/owner-approval.json"
       },
       "id": "asset-hps-m04-opener-ar-poster",
       "kind": "image",
@@ -38033,7 +38044,7 @@
     },
     {
       "locale": "ar-AE",
-      "approvalStatus": "draft",
+      "approvalStatus": "approved",
       "generator": {
         "tool": "perceptor-foundry/tools/video/morph.mjs",
         "model": "HeyGen Avatar V licensed Iris · ElevenLabs v3 Yousef · HyperFrames 0.8.162",
@@ -38042,7 +38053,8 @@
       "metadata": {
         "block": "m4-opener",
         "mediaPreview": "Draft — awaiting human Arabic media review",
-        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing."
+        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing.",
+        "publicationApprovalRef": "course-production/release-20261015/owner-approval.json"
       },
       "id": "asset-hps-m04-opener-ar-captions",
       "kind": "captions",
@@ -38052,7 +38064,7 @@
     },
     {
       "locale": "ar-AE",
-      "approvalStatus": "draft",
+      "approvalStatus": "approved",
       "generator": {
         "tool": "perceptor-foundry/tools/video/morph.mjs",
         "model": "HeyGen Avatar V licensed Iris · ElevenLabs v3 Yousef · HyperFrames 0.8.162",
@@ -38061,7 +38073,8 @@
       "metadata": {
         "block": "m5-opener",
         "mediaPreview": "Draft — awaiting human Arabic media review",
-        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing."
+        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing.",
+        "publicationApprovalRef": "course-production/release-20261015/owner-approval.json"
       },
       "id": "asset-hps-m05-opener-ar",
       "kind": "video",
@@ -38076,7 +38089,7 @@
     },
     {
       "locale": "ar-AE",
-      "approvalStatus": "draft",
+      "approvalStatus": "approved",
       "generator": {
         "tool": "perceptor-foundry/tools/video/morph.mjs",
         "model": "HeyGen Avatar V licensed Iris · ElevenLabs v3 Yousef · HyperFrames 0.8.162",
@@ -38085,7 +38098,8 @@
       "metadata": {
         "block": "m5-opener",
         "mediaPreview": "Draft — awaiting human Arabic media review",
-        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing."
+        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing.",
+        "publicationApprovalRef": "course-production/release-20261015/owner-approval.json"
       },
       "id": "asset-hps-m05-opener-ar-poster",
       "kind": "image",
@@ -38095,7 +38109,7 @@
     },
     {
       "locale": "ar-AE",
-      "approvalStatus": "draft",
+      "approvalStatus": "approved",
       "generator": {
         "tool": "perceptor-foundry/tools/video/morph.mjs",
         "model": "HeyGen Avatar V licensed Iris · ElevenLabs v3 Yousef · HyperFrames 0.8.162",
@@ -38104,7 +38118,8 @@
       "metadata": {
         "block": "m5-opener",
         "mediaPreview": "Draft — awaiting human Arabic media review",
-        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing."
+        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing.",
+        "publicationApprovalRef": "course-production/release-20261015/owner-approval.json"
       },
       "id": "asset-hps-m05-opener-ar-captions",
       "kind": "captions",
@@ -38114,7 +38129,7 @@
     },
     {
       "locale": "ar-AE",
-      "approvalStatus": "draft",
+      "approvalStatus": "approved",
       "generator": {
         "tool": "perceptor-foundry/tools/video/morph.mjs",
         "model": "HeyGen Avatar V licensed Iris · ElevenLabs v3 Yousef · HyperFrames 0.8.162",
@@ -38123,7 +38138,8 @@
       "metadata": {
         "block": "m6-opener",
         "mediaPreview": "Draft — awaiting human Arabic media review",
-        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing."
+        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing.",
+        "publicationApprovalRef": "course-production/release-20261015/owner-approval.json"
       },
       "id": "asset-hps-m06-opener-ar",
       "kind": "video",
@@ -38138,7 +38154,7 @@
     },
     {
       "locale": "ar-AE",
-      "approvalStatus": "draft",
+      "approvalStatus": "approved",
       "generator": {
         "tool": "perceptor-foundry/tools/video/morph.mjs",
         "model": "HeyGen Avatar V licensed Iris · ElevenLabs v3 Yousef · HyperFrames 0.8.162",
@@ -38147,7 +38163,8 @@
       "metadata": {
         "block": "m6-opener",
         "mediaPreview": "Draft — awaiting human Arabic media review",
-        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing."
+        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing.",
+        "publicationApprovalRef": "course-production/release-20261015/owner-approval.json"
       },
       "id": "asset-hps-m06-opener-ar-poster",
       "kind": "image",
@@ -38157,7 +38174,7 @@
     },
     {
       "locale": "ar-AE",
-      "approvalStatus": "draft",
+      "approvalStatus": "approved",
       "generator": {
         "tool": "perceptor-foundry/tools/video/morph.mjs",
         "model": "HeyGen Avatar V licensed Iris · ElevenLabs v3 Yousef · HyperFrames 0.8.162",
@@ -38166,7 +38183,8 @@
       "metadata": {
         "block": "m6-opener",
         "mediaPreview": "Draft — awaiting human Arabic media review",
-        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing."
+        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing.",
+        "publicationApprovalRef": "course-production/release-20261015/owner-approval.json"
       },
       "id": "asset-hps-m06-opener-ar-captions",
       "kind": "captions",
@@ -38176,7 +38194,7 @@
     },
     {
       "locale": "ar-AE",
-      "approvalStatus": "draft",
+      "approvalStatus": "approved",
       "generator": {
         "tool": "perceptor-foundry/tools/video/morph.mjs",
         "model": "HeyGen Avatar V licensed Iris · ElevenLabs v3 Yousef · HyperFrames 0.8.162",
@@ -38185,7 +38203,8 @@
       "metadata": {
         "block": "m7-opener",
         "mediaPreview": "Draft — awaiting human Arabic media review",
-        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing."
+        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing.",
+        "publicationApprovalRef": "course-production/release-20261015/owner-approval.json"
       },
       "id": "asset-hps-m07-opener-ar",
       "kind": "video",
@@ -38200,7 +38219,7 @@
     },
     {
       "locale": "ar-AE",
-      "approvalStatus": "draft",
+      "approvalStatus": "approved",
       "generator": {
         "tool": "perceptor-foundry/tools/video/morph.mjs",
         "model": "HeyGen Avatar V licensed Iris · ElevenLabs v3 Yousef · HyperFrames 0.8.162",
@@ -38209,7 +38228,8 @@
       "metadata": {
         "block": "m7-opener",
         "mediaPreview": "Draft — awaiting human Arabic media review",
-        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing."
+        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing.",
+        "publicationApprovalRef": "course-production/release-20261015/owner-approval.json"
       },
       "id": "asset-hps-m07-opener-ar-poster",
       "kind": "image",
@@ -38219,7 +38239,7 @@
     },
     {
       "locale": "ar-AE",
-      "approvalStatus": "draft",
+      "approvalStatus": "approved",
       "generator": {
         "tool": "perceptor-foundry/tools/video/morph.mjs",
         "model": "HeyGen Avatar V licensed Iris · ElevenLabs v3 Yousef · HyperFrames 0.8.162",
@@ -38228,7 +38248,8 @@
       "metadata": {
         "block": "m7-opener",
         "mediaPreview": "Draft — awaiting human Arabic media review",
-        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing."
+        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing.",
+        "publicationApprovalRef": "course-production/release-20261015/owner-approval.json"
       },
       "id": "asset-hps-m07-opener-ar-captions",
       "kind": "captions",
@@ -38238,7 +38259,7 @@
     },
     {
       "locale": "ar-AE",
-      "approvalStatus": "draft",
+      "approvalStatus": "approved",
       "generator": {
         "tool": "perceptor-foundry/tools/video/morph.mjs",
         "model": "HeyGen Avatar V licensed Iris · ElevenLabs v3 Yousef · HyperFrames 0.8.162",
@@ -38246,7 +38267,8 @@
       },
       "metadata": {
         "mediaPreview": "Draft — awaiting human Arabic media review",
-        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing."
+        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing.",
+        "publicationApprovalRef": "course-production/release-20261015/owner-approval.json"
       },
       "id": "asset-hps-hype-ar",
       "kind": "video",
@@ -38261,7 +38283,7 @@
     },
     {
       "locale": "ar-AE",
-      "approvalStatus": "draft",
+      "approvalStatus": "approved",
       "generator": {
         "tool": "perceptor-foundry/tools/video/morph.mjs",
         "model": "HeyGen Avatar V licensed Iris · ElevenLabs v3 Yousef · HyperFrames 0.8.162",
@@ -38269,7 +38291,8 @@
       },
       "metadata": {
         "mediaPreview": "Draft — awaiting human Arabic media review",
-        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing."
+        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing.",
+        "publicationApprovalRef": "course-production/release-20261015/owner-approval.json"
       },
       "id": "asset-hps-hype-ar-poster",
       "kind": "image",
@@ -38279,7 +38302,7 @@
     },
     {
       "locale": "ar-AE",
-      "approvalStatus": "draft",
+      "approvalStatus": "approved",
       "generator": {
         "tool": "perceptor-foundry/tools/video/morph.mjs",
         "model": "HeyGen Avatar V licensed Iris · ElevenLabs v3 Yousef · HyperFrames 0.8.162",
@@ -38287,7 +38310,8 @@
       },
       "metadata": {
         "mediaPreview": "Draft — awaiting human Arabic media review",
-        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing."
+        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing.",
+        "publicationApprovalRef": "course-production/release-20261015/owner-approval.json"
       },
       "id": "asset-hps-hype-ar-captions",
       "kind": "captions",
