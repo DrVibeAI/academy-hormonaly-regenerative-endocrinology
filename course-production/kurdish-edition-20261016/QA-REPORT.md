@@ -13,3 +13,7 @@ Implementation and technical QA complete in local review copies. Status: **in_re
 Source lock, coverage, narration receipts, caption timing and bilingual review evidence are included beside this report. Original approval records, learner records, completion policies and scoring are preserved. Foundations remains quiz-only completion; its Toolkit is optional.
 
 No live deployment, real learner mutation, email send or valid certificate issuance occurred. Fady is the assigned Sorani, Arabic-addition and clinical reviewer. Before publication, record his completed review, review translated legal text, then approve the exact candidate and target deployment. Integration must compare current upstream work again.
+
+## Owner approval — 16 October 2026
+
+Omar Saleem approved the current Iraqi Sorani and Arabic editions of both academies in chat (“Ok approved”). The receipt in `owner-approval.json` binds this acceptance to the course-package hashes and source commits presented for review. Fady remains the assigned language/clinical reviewer; his own sign-off is not recorded. No live cutover was performed.
