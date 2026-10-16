@@ -1,0 +1,30 @@
+{
+  "academy": {"slug": "cenegenics", "name": "Cenegenics"},
+  "locales": {"base": "en", "editions": ["es-MX"]},
+  "jurisdictions": ["MX"],
+  "production": {
+    "workstream": "Peptides for Skin: Cenegenics clinician edition for Mexico",
+    "excludedWorkstreams": ["Existing Metabolismo Real course"],
+    "adaptation": {
+      "mode": "adapt-existing",
+      "sourceInventory": "Hormonaly hormones-peptides-skin package 1.1.0, SHA256 6419297d6d012d8c8e5b58909e9e9f1f950443aa548ca20618017dbb0ebfa4fa, and its cited media",
+      "preserve": "Stable unit IDs, evidence grades, citations, clinical uncertainty, assessment intent and safety boundaries",
+      "change": "Mexican Spanish, Cenegenics presentation and Mexico-specific regulatory layer after primary-source review"
+    },
+    "experience": {
+      "surface": "standalone",
+      "features": ["course player", "checks", "tutor", "completion"],
+      "authentication": "Cenegenics academy sign-in; course entitlement decision pending",
+      "progressOwner": "Cenegenics academy",
+      "completionRule": "Existing course completion logic; partner credential decision pending",
+      "accessibilityNeeds": "Captions, transcript and mobile controls"
+    },
+    "localization": {
+      "rollout": "staged",
+      "editions": [
+        {"locale":"en","priority":1,"mediaMode":"text","existingAssets":"Source English package and media","terminology":"Source clinical terminology","reviewer":{}},
+        {"locale":"es-MX","priority":2,"mediaMode":"full-media","existingAssets":"No Mexican Spanish skin-course media verified","terminology":"Mexican clinical Spanish; COFEPRIS product and claims terminology","reviewer":{},"voicePlan":"Mexican Spanish narration voice and presenter authorization pending"}
+      ]
+    }
+  }
+}

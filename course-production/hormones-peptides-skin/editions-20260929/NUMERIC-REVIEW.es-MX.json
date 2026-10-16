@@ -1,0 +1,164 @@
+{
+  "locale": "es-MX",
+  "model": "gemini-3.7-flash",
+  "status": "agent-pre-review",
+  "sourceFlags": 26,
+  "findings": [
+    {
+      "path": "/provenance/citations/63/note",
+      "category": "harmless",
+      "reason": "Date format reordered (DD-MM-YYYY) and ordinal formatted appropriately in Spanish.",
+      "correction": ""
+    },
+    {
+      "path": "/provenance/citations/248/note",
+      "category": "harmless",
+      "reason": "Date format reordered (DD/MM/YYYY) and numbers preserved accurately.",
+      "correction": ""
+    },
+    {
+      "path": "/provenance/citations/304/note",
+      "category": "harmless",
+      "reason": "Standard percentage spacing and date formatting.",
+      "correction": ""
+    },
+    {
+      "path": "/provenance/citations/310/note",
+      "category": "harmless",
+      "reason": "Standard statistical notation and date localization.",
+      "correction": ""
+    },
+    {
+      "path": "/provenance/citations/368/note",
+      "category": "harmless",
+      "reason": "Standard date localization and statistical formatting.",
+      "correction": ""
+    },
+    {
+      "path": "/provenance/citations/375/note",
+      "category": "harmless",
+      "reason": "All numbers, classifications, and identifiers match the source text exactly.",
+      "correction": ""
+    },
+    {
+      "path": "/curriculum/modules/0/units/0/blocks/16/metadata/audioScript",
+      "category": "harmless",
+      "reason": "Spelled-out numbers for interleukins ('six and eight') rendered as digits ('6 y 8').",
+      "correction": ""
+    },
+    {
+      "path": "/curriculum/modules/0/units/0/blocks/20/metadata/audioScript",
+      "category": "harmless",
+      "reason": "'a quarter' appropriately translated as '25 %' and 'eighties' as 'ochenta'.",
+      "correction": ""
+    },
+    {
+      "path": "/curriculum/modules/1/units/0/blocks/1/metadata/videoTranscript",
+      "category": "harmless",
+      "reason": "Spelled-out enzyme name component ('eleven beta HSD one') rendered using standard digit notation ('11 beta HSD uno').",
+      "correction": ""
+    },
+    {
+      "path": "/curriculum/modules/1/units/0/blocks/2/metadata/audioScript",
+      "category": "harmless",
+      "reason": "Spelled-out enzyme name component ('eleven beta HSD one') rendered using standard digit notation ('11 beta HSD uno').",
+      "correction": ""
+    },
+    {
+      "path": "/curriculum/modules/1/units/0/blocks/10/metadata/audioScript",
+      "category": "harmless",
+      "reason": "Spelled-out decades ('nineteen eighties and nineties') appropriately rendered as numerical decades ('décadas de 1980 y 1990').",
+      "correction": ""
+    },
+    {
+      "path": "/curriculum/modules/1/units/0/blocks/18/metadata/audioScript",
+      "category": "harmless",
+      "reason": "Spelled-out disease subtypes ('type one', 'MEN two A') localized to standard clinical abbreviations with digits ('tipo 1', 'NEM 2A').",
+      "correction": ""
+    },
+    {
+      "path": "/curriculum/modules/2/units/0/blocks/17/metadata/audioScript",
+      "category": "harmless",
+      "reason": "Spelled-out age ('fifty-eight-year-old') written as digits ('58 años').",
+      "correction": ""
+    },
+    {
+      "path": "/curriculum/modules/3/units/0/blocks/15/metadata/audioScript",
+      "category": "harmless",
+      "reason": "Spelled-out peptide isoform ('thymosin beta-four') written using standard numeral notation ('timosina beta-4').",
+      "correction": ""
+    },
+    {
+      "path": "/curriculum/modules/3/units/0/blocks/22/metadata/audioScript",
+      "category": "harmless",
+      "reason": "Spelled-out English number ('forty-six-year-old') is appropriately rendered as digits ('46 años') in Spanish.",
+      "correction": ""
+    },
+    {
+      "path": "/curriculum/modules/4/units/0/blocks/1/metadata/videoTranscript",
+      "category": "harmless",
+      "reason": "Spelled-out enzyme prefix ('five-alpha-reductase') is appropriately written in standard biochemical digit format ('5-alfa-reductasa').",
+      "correction": ""
+    },
+    {
+      "path": "/curriculum/modules/4/units/0/blocks/2/metadata/audioScript",
+      "category": "harmless",
+      "reason": "Spelled-out enzyme prefix ('five-alpha-reductase') is correctly localized as '5-alfa-reductasa'.",
+      "correction": ""
+    },
+    {
+      "path": "/curriculum/modules/4/units/0/blocks/10/tool/items/1/note",
+      "category": "harmless",
+      "reason": "Decade reference '1990s' correctly localized as 'década de 1990' and numbers match accurately.",
+      "correction": ""
+    },
+    {
+      "path": "/curriculum/modules/4/units/0/blocks/13/interaction/items/2/why",
+      "category": "harmless",
+      "reason": "Decade reference '1990s' correctly localized as 'década de 1990' and clinical counts match.",
+      "correction": ""
+    },
+    {
+      "path": "/curriculum/modules/4/check/options/1/text",
+      "category": "harmless",
+      "reason": "Decade reference '1990s' localized as 'años 90' with no clinical mismatch.",
+      "correction": ""
+    },
+    {
+      "path": "/curriculum/modules/5/units/0/blocks/6/metadata/variants/jurisdiction/EU/text",
+      "category": "harmless",
+      "reason": "Dates and decade expressions ('1980s' -> 'década de 1980', '12 April 2006' -> '12 de abril de 2006') match correctly.",
+      "correction": ""
+    },
+    {
+      "path": "/curriculum/modules/5/units/0/blocks/14/metadata/variants/jurisdiction/EU/text",
+      "category": "harmless",
+      "reason": "All dates, regulatory codes, and compound numbers ('CJC-1295', 'MK-677') match exactly.",
+      "correction": ""
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/13/metadata/variants/jurisdiction/GB/text",
+      "category": "harmless",
+      "reason": "Statutory regulation numbers ('regulation 167' -> 'regulación 167') and dates match exactly.",
+      "correction": ""
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/17/metadata/variants/jurisdiction/PT/text",
+      "category": "harmless",
+      "reason": "Monetary and percentage values follow Spanish standard spacing/formatting ('2000 €', '15 %', '180 000 €').",
+      "correction": ""
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/23/metadata/audioScript",
+      "category": "harmless",
+      "reason": "Spelled-out age ('fifty-two') appropriately converted to digits ('52 años') and all other statutory/date figures match.",
+      "correction": ""
+    },
+    {
+      "path": "/tutorCorpus/8/answer",
+      "category": "harmless",
+      "reason": "All clinical trial phases, dates, frequencies, and regulatory citations match accurately.",
+      "correction": ""
+    }
+  ]
+}
