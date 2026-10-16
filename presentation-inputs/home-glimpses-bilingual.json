@@ -3,7 +3,7 @@
   "academy": "hormonaly",
   "brandFingerprint": "087d01f11541736bd5a1e0fbb5118d3520c33845ad8fd0a9f7ec43730d19e44d",
   "course": "packages/hormones-peptides-skin.ar-AE.json",
-  "packageSha256": "974586841d3b97fa5c9a1e4e48ca95ef8108c4b3db9722e5994c269a25db4efa",
+  "packageSha256": "445265c226228108a7a384d0daaebdb470826e711acf978e8d6b2650f0a6ea1c",
   "capturedAt": "2026-10-16T17:42:27.672124+00:00",
   "sourceRuntimeCommit": "f9f8219",
   "viewport": {
@@ -60,7 +60,40 @@
       "pane": 6,
       "view": "lesson",
       "sha256": "616fe8dabb68a826c2041d2517650e06cb6aa3d60db4e0bbd0fd94a31eac0735"
+    },
+    {
+      "locale": "ckb",
+      "src": "assets/hormones-peptides-skin/home/brand-v2/ckb/inside-course.png",
+      "lesson": 1,
+      "pane": 0,
+      "view": "course",
+      "sha256": "3464756750d4c5d447635de516ee7e3543b4e2da10ce34fe85faa9ebe698500a",
+      "capturedAt": "2026-10-16T19:52:37.683Z"
+    },
+    {
+      "locale": "ckb",
+      "src": "assets/hormones-peptides-skin/home/brand-v2/ckb/inside-science.png",
+      "lesson": 1,
+      "pane": 3,
+      "view": "lesson",
+      "sha256": "742389d581d956c754f034d3c8a942dccc696e13d4abb7a161c670661647144d",
+      "capturedAt": "2026-10-16T19:52:37.684Z"
+    },
+    {
+      "locale": "ckb",
+      "src": "assets/hormones-peptides-skin/home/brand-v2/ckb/inside-practice.png",
+      "lesson": 1,
+      "pane": 6,
+      "view": "lesson",
+      "sha256": "82ecd07661902283fbcaf608b8023999287bde75c36c020483d08babeb01bdb9",
+      "capturedAt": "2026-10-16T19:52:37.684Z"
     }
   ],
-  "sourceRuntimeNote": "Actual learner captures match f9f8219. Later commits 77ac0da and 573706e refine only the public homepage navigation. Browser JPEG captures were losslessly re-encoded as PNG for the configured PNG paths."
+  "sourceRuntimeNote": "Actual learner captures match f9f8219. Later commits 77ac0da and 573706e refine only the public homepage navigation. Browser JPEG captures were losslessly re-encoded as PNG for the configured PNG paths.",
+  "sourcePackageSha256": "974586841d3b97fa5c9a1e4e48ca95ef8108c4b3db9722e5994c269a25db4efa",
+  "localeAmendment": {
+    "date": "2026-10-16T20:18:15.223Z",
+    "change": "Additive Sorani locale only; original English/Arabic fields and captured screens preserved. Actual Sorani course, science and practice screens captured in the same 390×844 viewport.",
+    "sourcePackageSha256": "974586841d3b97fa5c9a1e4e48ca95ef8108c4b3db9722e5994c269a25db4efa"
+  }
 }

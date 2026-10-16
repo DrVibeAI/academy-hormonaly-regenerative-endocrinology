@@ -1,0 +1,108 @@
+{
+  "academy": "hormonaly",
+  "uniqueSourceStrings": 6114,
+  "translatedStrings": 6114,
+  "missingStrings": [],
+  "textComplete": true,
+  "subtitleTracks": [
+    {
+      "source": "m01-opener.recovered.en.vtt",
+      "target": "m01-opener.ckb-IQ.vtt",
+      "cues": 23,
+      "ready": true,
+      "sourceSpeechBoundariesPreserved": true,
+      "displayCues": 22,
+      "maxCharactersPerSecond": 23.6,
+      "over25Cps": 0,
+      "sourceSha256": "9fe09167f3b0d1d1d7133c0a3536e8c5b232f2f38d7ce6c9809df20d13636152",
+      "targetSha256": "071eeccc5cbc704c35fbe977bbd4bb3de31e7b4c3b83a2e0108603e338538261"
+    },
+    {
+      "source": "m02-opener.recovered.en.vtt",
+      "target": "m02-opener.ckb-IQ.vtt",
+      "cues": 24,
+      "ready": true,
+      "sourceSpeechBoundariesPreserved": true,
+      "displayCues": 24,
+      "maxCharactersPerSecond": 24.04,
+      "over25Cps": 0,
+      "sourceSha256": "f0cd69cc2a02aeaebdfd917d4be06c518d01fb43134d7689d834df83c5c58a67",
+      "targetSha256": "40a5ffe8f1598512c08aa3738686a3a0b5382a453d1dd79c201bc82924930892"
+    },
+    {
+      "source": "m03-opener.recovered.en.vtt",
+      "target": "m03-opener.ckb-IQ.vtt",
+      "cues": 25,
+      "ready": true,
+      "sourceSpeechBoundariesPreserved": true,
+      "displayCues": 23,
+      "maxCharactersPerSecond": 23.08,
+      "over25Cps": 0,
+      "sourceSha256": "9219984c69d69bdf09e123b6b4c03e48d1a809be555877e8bee657d8ce7e5c6a",
+      "targetSha256": "b1d3da18c509905d5911fc01cc79c47987e3531c37a56b69c8f0f0c36ce60f21"
+    },
+    {
+      "source": "m04-opener.recovered.en.vtt",
+      "target": "m04-opener.ckb-IQ.vtt",
+      "cues": 22,
+      "ready": true,
+      "sourceSpeechBoundariesPreserved": true,
+      "displayCues": 20,
+      "maxCharactersPerSecond": 24.8,
+      "over25Cps": 0,
+      "sourceSha256": "496054c6789971f70a7c11fd2d004070bd3edfd85626d8c7f122b56485f9607e",
+      "targetSha256": "8dc59aaa568210b13670d1fe8ce77726d45f35501d195a1ce16ebbf1a09ad139"
+    },
+    {
+      "source": "m05-opener.recovered.en.vtt",
+      "target": "m05-opener.ckb-IQ.vtt",
+      "cues": 22,
+      "ready": true,
+      "sourceSpeechBoundariesPreserved": true,
+      "displayCues": 21,
+      "maxCharactersPerSecond": 24.4,
+      "over25Cps": 0,
+      "sourceSha256": "bfe75ffb034c6b64a9e8a93b3bb6726dead5eb6867115dea2e305b418d86eb75",
+      "targetSha256": "1b20993ebf025baa29ca6643b739d850890b96d5fcad6bf52a961f9ecdf8c70b"
+    },
+    {
+      "source": "m06-opener.recovered.en.vtt",
+      "target": "m06-opener.ckb-IQ.vtt",
+      "cues": 27,
+      "ready": true,
+      "sourceSpeechBoundariesPreserved": true,
+      "displayCues": 26,
+      "maxCharactersPerSecond": 22.18,
+      "over25Cps": 0,
+      "sourceSha256": "5a70e29aa2d833425612c87f3af56d6216e1968c4e7dbddf338e5888e13d312d",
+      "targetSha256": "33b2eee0e5a69f5c7d9917172b63582ebe2f5377690b40519c4f65e25fbda3fe"
+    },
+    {
+      "source": "m07-opener.recovered.en.vtt",
+      "target": "m07-opener.ckb-IQ.vtt",
+      "cues": 25,
+      "ready": true,
+      "sourceSpeechBoundariesPreserved": true,
+      "displayCues": 24,
+      "maxCharactersPerSecond": 24.19,
+      "over25Cps": 0,
+      "sourceSha256": "20c118f4b912c79300d418f573f67ae543019ec5a1361959b3b376cf0552dba5",
+      "targetSha256": "bc5744a0c9c089d3dbd0d1861f165fd6126781918de3b8fdf490debe8fbc74d0"
+    },
+    {
+      "source": "trailer.en.vtt",
+      "target": "trailer.ckb-IQ.vtt",
+      "cues": 13,
+      "ready": true,
+      "sourceSpeechBoundariesPreserved": true,
+      "displayCues": 12,
+      "maxCharactersPerSecond": 24.07,
+      "over25Cps": 0,
+      "sourceSha256": "3f93a620a9c691924fa192b279a9d0f38743bceee322006d70ba20a649ca301f",
+      "targetSha256": "315aea07a9ae398af2de66471b74817f2d7f74d44963bbc290b9c206a8aa6833"
+    }
+  ],
+  "audioJobs": 48,
+  "audioScriptsTranslated": 48,
+  "humanApproved": false
+}

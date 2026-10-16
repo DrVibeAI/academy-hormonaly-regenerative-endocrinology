@@ -100,3 +100,13 @@ Scope decision still open (kickoff): whether *Peptide Foundations* ships as a se
 (`scope.courses: 2`) or as its own academy; either way it is the master for the Biolongeva (pt-BR / es-MX) and
 SEASON skin editions — one evidence core, editions per academy. Boundaries above apply verbatim: the guide's dosing
 pages inform the source lock but the course never prescribes doses.
+
+
+## Iraqi Sorani Kurdish and Arabic — 16 October 2026
+
+Omar requested end-to-end Iraqi Kurdish and Arabic for this academy, preserving UI/UX, design, English film picture and sound. Use Sorani ckb-IQ, RTL; add Sorani subtitles to original English films and use Eleven v4 (ckb) for non-video audio. Preserve this academy’s existing Arabic edition and all stable learning IDs, learner records, scoring and current completion policy. Language does not imply Iraqi clinical/regulatory rules. Work is a local draft; no publication or native-language/clinical approval is inferred. See course-production/localization/ckb-IQ and the shared work folder /Users/omar/DrVibe/course-production/kurdish-academies-20261016.
+
+
+## Localization completion — 16 October 2026
+
+All modules are implemented in Iraqi Sorani Kurdish and Arabic in local review builds. Original design and video footage are preserved. Sorani non-film narration uses ElevenLabs v4. See `course-production/kurdish-edition-20261016/QA-REPORT.md`. Native/clinical approvals remain pending; no public cutover is authorized by this record.

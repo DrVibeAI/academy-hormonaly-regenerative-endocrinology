@@ -1,0 +1,66 @@
+{
+  "academy": "hormonaly",
+  "status": "in_progress",
+  "uniqueSourceStrings": 6114,
+  "translatedStrings": 2741,
+  "missingStrings": 3373,
+  "pilotStrings": 430,
+  "pilotTranslated": 430,
+  "uiStrings": 2126,
+  "subtitleTracks": [
+    {
+      "source": "m01-opener.recovered.en.vtt",
+      "target": "m01-opener.ckb-IQ.vtt",
+      "cues": 23,
+      "status": "machine_draft_unreviewed",
+      "timingPreserved": true
+    },
+    {
+      "source": "m02-opener.recovered.en.vtt",
+      "target": "m02-opener.ckb-IQ.vtt",
+      "cues": 24,
+      "status": "translation_pending",
+      "timingPreserved": false
+    },
+    {
+      "source": "m03-opener.recovered.en.vtt",
+      "target": "m03-opener.ckb-IQ.vtt",
+      "cues": 25,
+      "status": "translation_pending",
+      "timingPreserved": false
+    },
+    {
+      "source": "m04-opener.recovered.en.vtt",
+      "target": "m04-opener.ckb-IQ.vtt",
+      "cues": 22,
+      "status": "translation_pending",
+      "timingPreserved": false
+    },
+    {
+      "source": "m05-opener.recovered.en.vtt",
+      "target": "m05-opener.ckb-IQ.vtt",
+      "cues": 22,
+      "status": "translation_pending",
+      "timingPreserved": false
+    },
+    {
+      "source": "m06-opener.recovered.en.vtt",
+      "target": "m06-opener.ckb-IQ.vtt",
+      "cues": 27,
+      "status": "translation_pending",
+      "timingPreserved": false
+    },
+    {
+      "source": "m07-opener.recovered.en.vtt",
+      "target": "m07-opener.ckb-IQ.vtt",
+      "cues": 25,
+      "status": "translation_pending",
+      "timingPreserved": false
+    }
+  ],
+  "audioJobs": 48,
+  "audioScriptsTranslated": 7,
+  "textComplete": false,
+  "mediaComplete": false,
+  "humanApproved": false
+}

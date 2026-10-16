@@ -1,7 +1,11 @@
 academy: hormonaly
 deployment:
   serviceAccount: academy-hormonaly@perceptors.iam.gserviceaccount.com
-  reviewOnly: false
+  reviewOnly: true
+  reviewNotice:
+    en: Language review preview · Sorani translation and clinical review pending.
+    ar: معاينة للمراجعة اللغوية · الترجمة السورانية والمراجعة السريرية قيد المراجعة.
+    ckb-IQ: پێشبینینی پێداچوونەوەی زمان · پێداچوونەوەی وەرگێڕانی سۆرانی و پێداچوونەوەی کلینیکی چاوەڕوانن.
 brand:
   voices:
     es-MX:
@@ -13,6 +17,11 @@ brand:
     ar-AE:
       voice_id: ZCXYdzd5Evtsll2EdoCi
       name: Yousef — Modern Standard Arabic (ElevenLabs library)
+    ckb-IQ:
+      voice_id: wKz0GKg2zkR8oq5ricRZ
+      name: Zanyar
+      model_id: eleven_v4
+      language_code: ckb
   name: Hormonaly Academy
   shortName: Hormonaly
   wordmarkSuffix: ACADEMY
@@ -21,6 +30,7 @@ brand:
     disclaimer:
       en: CME or CE credit is not offered at this time.
       ar: لا تُمنح حالياً ساعات معتمدة للتعليم الطبي أو المهني المستمر.
+      ckb-IQ: لە ئێستادا بڕوانامەی متمانەپێکراوی CME یان CE پێشکەش ناکرێت.
     fonts:
       regular: ./assets/brand/v2/fonts/GoogleSansFlex-400.ttf
       medium: ./assets/brand/v2/fonts/GoogleSansFlex-500.ttf
@@ -32,13 +42,18 @@ brand:
     partnerLogo: ./assets/certificate/gcls-logo.png
     signatures:
       - name: Fady Hannah-Shmouni, MD FRCPC
-        role: { en: "Founder & CEO", ar: "المؤسس والرئيس التنفيذي" }
+        role:
+          en: Founder & CEO
+          ar: المؤسس والرئيس التنفيذي
+          ckb-IQ: دامەزرێنەر و بەڕێوەبەری جێبەجێکار
         institution: Hormonaly
         signatureText: Fady Hannah-Shmouni
-        provenance: "Typeset signature-style mark requested by Omar; not a supplied
-          handwritten signature."
+        provenance: Typeset signature-style mark requested by Omar; not a supplied handwritten signature.
       - name: Dr. Dominik Thor, MSc
-        role: { en: President, ar: الرئيس }
+        role:
+          en: President
+          ar: الرئيس
+          ckb-IQ: سەرۆک
         institution: Geneva College of Longevity Science
         signatureAssetRef: assets/signatures/dominik-thor.png
         provenance: "Existing GCLS certificate signature: public/gcls/dthor-signature.png."
@@ -91,28 +106,33 @@ brand:
   tagline:
     en: Hormones and peptides, evidence-graded.
     ar-AE: الهرمونات والببتيدات، مصنّفة وفق درجات الأدلة.
+    ckb-IQ: هۆرمۆنەکان و پێپتایدەکان، پۆلێنکراو بەپێی بەڵگە.
   supportEmail: support@hormonaly.ai
   issuer: Hormonaly Academy
 home:
   kicker:
     en: For clinicians
     ar-AE: للممارسين السريريين
+    ckb-IQ: بۆ کلینیککاران
   headline:
     en: Skin peptides, answered with evidence.
     ar-AE: ببتيدات الجلد، إجابات مدعومة بالأدلة.
+    ckb-IQ: پێپتایدەکانی پێست، وەڵامدراوەتەوە بە بەڵگەوە.
   lede:
-    en: Your patients are already asking about hormones and peptides for their skin.
-      Learn what the trials show, what is approved where you practise, and what
-      to say next.
-    ar-AE: يسألك مرضاك بالفعل عن الهرمونات والببتيدات لصحة جلدهم. تعرّف على ما
-      تُظهره التجارب السريرية، وما هو معتمد في مكان ممارستك، وما ينبغي قوله
-      تالياً.
+    en: Your patients are already asking about hormones and peptides for their skin. Learn what the trials show,
+      what is approved where you practise, and what to say next.
+    ar-AE: يسألك مرضاك بالفعل عن الهرمونات والببتيدات لصحة جلدهم. تعرّف على ما تُظهره التجارب السريرية، وما هو
+      معتمد في مكان ممارستك، وما ينبغي قوله تالياً.
+    ckb-IQ: نەخۆشەکانت لە ئێستاوە پرسیار دەربارەی هۆرمۆنەکان و پێپتایدەکان بۆ پێستیان دەکەن. بزانە تاقیکردنەوە
+      کلینیکییەکان چی دەردەخەن، چی پەسەندکراوە لەو شوێنەی کاری تێدا دەکەیت، و دواتر چی بڵێیت.
   primaryAction:
     en: Enroll now
     ar-AE: سجّل الآن
+    ckb-IQ: ئێستا ناونووس بە
   secondaryAction:
     en: Watch the trailer
     ar-AE: شاهد المقطع الترويجي
+    ckb-IQ: تەماشای کورتەڤیدیۆکە بکە
   heroImage:
     src: assets/hormones-peptides-skin/home/hero-skin.jpg
   heroVideo:
@@ -121,293 +141,340 @@ home:
     label:
       en: Hormones and Peptides for Skin, the course trailer
       ar-AE: الهرمونات والببتيدات للجلد، المقطع الترويجي للدورة
+      ckb-IQ: هۆرمۆنەکان و پێپتایدەکان بۆ پێست، کورتەڤیدیۆی ناساندنی خولەکە
     disclosure:
       en: Presented by a digital avatar (AI-generated presenter and voice).
       ar-AE: يُقدَّم عبر مجسّد رقمي (مقدّم وصوت مُنشآن بالذكاء الاصطناعي).
+      ckb-IQ: لە لایەن ئەڤەتارێکی دیجیتاڵییەوە پێشکەش دەکرێت (پێشکەشکار و دەنگی دروستکراوی زیرەکیی دەستکرد).
     srcByLocale:
       en: assets/hormones-peptides-skin/home/trailer.mp4
       ar-AE: assets/hormones-peptides-skin/ar-AE/video/hype.mp4
+      ckb-IQ: assets/hormones-peptides-skin/home/trailer.mp4
     posterByLocale:
       en: assets/hormones-peptides-skin/home/trailer-poster.jpg
       ar-AE: assets/hormones-peptides-skin/ar-AE/video/hype-poster.jpg
+      ckb-IQ: assets/hormones-peptides-skin/home/trailer-poster.jpg
     captionsByLocale:
       ar:
         src: assets/hormones-peptides-skin/ar-AE/video/hype.vtt
         language: ar
         label: العربية
+      ckb:
+        src: subtitles/trailer.ckb-IQ.vtt
+        language: ckb
+        label: کوردیی سۆرانی
   practice:
     kicker:
       en: In your practice
       ar-AE: في ممارستك السريرية
+      ckb-IQ: لە کلینیکەکەتدا
     title:
       en: Turn the questions into a service.
       ar-AE: حوّل التساؤلات إلى خدمة سريرية.
+      ckb-IQ: پرسیارەکان بگۆڕە بۆ خزمەتگوزارییەک.
     body:
-      en: "Copper peptides, collagen, tanning shots, growth-hormone boosters: most
-        reach your clinic before any evidence does. Be the clinician with real
-        answers, and build a skin service you can stand behind."
-      ar-AE: "ببتيدات النحاس، الكولاجين، إبر التسمير، محفزات هرمون النمو: معظمها يصل
-        إلى عيادتك قبل وصول أي أدلة سريرية. كن الممارس السريري الذي يمتلك إجابات
-        حقيقية، وابنِ خدمة للعناية بالجلد يمكنك الاعتماد عليها بثقة."
+      en: "Copper peptides, collagen, tanning shots, growth-hormone boosters: most reach your clinic before any
+        evidence does. Be the clinician with real answers, and build a skin service you can stand behind."
+      ar-AE: "ببتيدات النحاس، الكولاجين، إبر التسمير، محفزات هرمون النمو: معظمها يصل إلى عيادتك قبل وصول أي أدلة
+        سريرية. كن الممارس السريري الذي يمتلك إجابات حقيقية، وابنِ خدمة للعناية بالجلد يمكنك الاعتماد عليها
+        بثقة."
+      ckb-IQ: "پێپتایدەکانی مس، کۆلاجین، دەرزییەکانی تۆخکردنەوەی پێست، هاندەرەکانی هۆرمۆنی گەشە: زۆربەیان دەگەنە
+        کلینیکەکەت پێش ئەوەی هیچ بەڵگەیەک بگات. بەو کلینیککارە بە کە وەڵامی ڕاستەقینەی پێیە، و خزمەتگوزارییەکی
+        پێست بنیاد بنێ کە بتوانیت پشتبەستوو بیت پێی."
     points:
       - en: Tell a randomized trial from a brochure
         ar-AE: ميّز بين التجربة العشوائية والمطوية الدعائية
+        ckb-IQ: تاقیکردنەوەی هەڕەمەکی لە نامیلکەی ڕیکلام جیابکەرەوە
       - en: Spot the red flags on a certificate of analysis
         ar-AE: رصد العلامات التحذيرية في شهادة التحليل المخبري
+        ckb-IQ: خاڵە مەترسیدارەکان لە بڕوانامەی شیکاریدا دیاری بکە
       - en: Know what is approved in your country, and when to refer
         ar-AE: اعرف ما هو معتمد في بلدك، ومتى يتعين الإحالة
+        ckb-IQ: بزانە چی لە وڵاتەکەتدا پەسەندکراوە، و کەی ڕەوانەی پسپۆڕی بکەیت
     image:
       src: /assets/hormones-peptides-skin/ui/skin-texture.jpg
       alt:
         en: Editorial close-up of natural skin texture
         ar: صورة توضيحية مقربة لملمس الجلد الطبيعي
+        ckb-IQ: وێنەی نزیکی ستایلی گۆڤاری بۆ پێکهاتەی سروشتیی پێست
   coursesTitle:
     en: The course
     ar-AE: الدورة التدريبية
+    ckb-IQ: خولەکە
   coursesNote:
     en: More peptide courses are on the way.
     ar-AE: المزيد من دورات الببتيدات قيد الإعداد.
+    ckb-IQ: خولی زیاتری پێپتاید لە ڕێگادان.
   glimpses:
     presentation: devices
     title:
       en: Learn by doing.
       ar-AE: تعلّم عبر التطبيق العملي.
+      ckb-IQ: بە کارکردن فێرببە.
     items:
       - src: assets/hormones-peptides-skin/home/brand-v2/en/inside-course.png
         srcByLocale:
           ar: assets/hormones-peptides-skin/home/brand-v2/ar/inside-course.png
+          ckb: assets/hormones-peptides-skin/home/brand-v2/ckb/inside-course.png
         caption:
           en: Your course, one module at a time
           ar: دورتك، وحدة تلو الأخرى
+          ckb-IQ: خولەکەت، یەکە بە یەکە
         callout:
           icon: play
           title:
             en: Pick up where you left off
             ar: تابع من حيث توقفت
+            ckb-IQ: لەو شوێنەوە دەست پێ بکەرەوە کە لێی وەستابوویت
           body:
             en: Short lessons, one idea at a time.
             ar: دروس قصيرة، فكرة واحدة في كل خطوة.
+            ckb-IQ: وانەی کورت، یەک بیرۆکە لە یەک کاتدا.
       - src: assets/hormones-peptides-skin/home/brand-v2/en/inside-science.png
         srcByLocale:
           ar: assets/hormones-peptides-skin/home/brand-v2/ar/inside-science.png
+          ckb: assets/hormones-peptides-skin/home/brand-v2/ckb/inside-science.png
         caption:
           en: Explore the science through illustrations
           ar: استكشف العلم من خلال الرسوم التوضيحية
+          ckb-IQ: لە ڕێگەی وێنەی ڕوونکردنەوەییەوە لە زانستەکە بکۆڵەرەوە
         callout:
           icon: audio
           title:
             en: Listen & explore
             ar: استمع واستكشف
+            ckb-IQ: گوێ بگرە و بگەڕێ
           body:
             en: Audio, illustrations and flip cards.
             ar: شرح صوتي ورسوم وبطاقات تفاعلية.
+            ckb-IQ: دەنگ، وێنەی ڕوونکردنەوەیی و کارتی هەڵگەڕاوە.
       - src: assets/hormones-peptides-skin/home/brand-v2/en/inside-practice.png
         srcByLocale:
           ar: assets/hormones-peptides-skin/home/brand-v2/ar/inside-practice.png
+          ckb: assets/hormones-peptides-skin/home/brand-v2/ckb/inside-practice.png
         caption:
           en: Put the science into practice
           ar: طبّق ما تعلمته من العلوم
+          ckb-IQ: زانستەکە بخەرە بواری کردارییەوە
         callout:
           icon: feedback
           title:
             en: Feedback with every choice
             ar: تعقيب مع كل اختيار
+            ckb-IQ: فیدباک لەگەڵ هەموو هەڵبژاردنێکدا
           body:
             en: See the answer. Understand why.
             ar: اعرف الإجابة وافهم السبب.
+            ckb-IQ: وەڵامەکە ببینە. لە هۆکارەکەی تێبگە.
     captureManifest: presentation-inputs/home-glimpses-bilingual.json
   trust:
     title:
       en: Built on evidence. Reviewed by a physician.
       ar-AE: محتوى يستند إلى الأدلة — النسخة العربية قيد المراجعة
       ar: محتوى يستند إلى الأدلة وحدودها
+      ckb-IQ: لەسەر بنەمای بەڵگە دروستکراوە. وەشانی سۆرانی لە ژێر پێداچوونەوەدایە.
     items:
       - title:
           en: Every claim graded
           ar-AE: تقييم درجة الأدلة لكل ادعاء
+          ckb-IQ: هەموو بانگەشەیەک پۆلێنکراوە
         body:
           en: Each statement carries its evidence grade and its source.
           ar-AE: تحمل كل عبارة درجة الأدلة الخاصة بها ومصدرها.
+          ckb-IQ: هەر ڕستەیەک ئاستی بەڵگە و سەرچاوەکەی لەگەڵدایە.
       - title:
           en: Your country first
           ar-AE: بلدك أولاً
+          ckb-IQ: سەرەتا وڵاتەکەی خۆت
         body:
           en: Regulatory status for six jurisdictions, labelled and dated.
           ar-AE: الوضع التنظيمي لستة نطاقات قضائية، مصنف ومؤرخ.
+          ckb-IQ: باری یاسایی و ڕێکخستن بۆ شەش دەسەڵاتی دادوەری، نیشانکراو و بەروارکراو.
       - title:
           en: No dosing
           ar-AE: لا تتضمن جرعات دوائية
+          ckb-IQ: هیچ ژەمەدەرمانێک دانانرێت
         body:
           en: Evidence, regulation and next steps. Never doses or product sourcing.
-          ar-AE: الأدلة، اللوائح التنظيمية، والخطوات التالية؛ دون التطرق أبداً للجرعات أو
-            توريد المنتجات.
+          ar-AE: الأدلة، اللوائح التنظيمية، والخطوات التالية؛ دون التطرق أبداً للجرعات أو توريد المنتجات.
+          ckb-IQ: بەڵگە، ڕێساکان و هەنگاوەکانی دواتر. هەرگیز ژەمەدەرمان یان دابینکردنی بەرهەم ناگرێتەوە.
       - title:
           en: Ask the course
           ar-AE: وجّه أسئلتك لمحتوى الدورة
+          ckb-IQ: لە خولەکە بپرسە
         body:
-          en: A tutor answers from the course and its sources, and says when a question is
-            outside them.
-          ar-AE: مدرّس يجيب استناداً إلى الدورة ومصادرها، ويوضح متى يكون السؤال خارج
-            نطاقهما.
+          en: A tutor answers from the course and its sources, and says when a question is outside them.
+          ar-AE: مدرّس يجيب استناداً إلى الدورة ومصادرها، ويوضح متى يكون السؤال خارج نطاقهما.
+          ckb-IQ: مامۆستایەک لە خولەکە و سەرچاوەکانیەوە وەڵام دەداتەوە، و کاتێک پرسیارێک لە دەرەوەی ئەوان بێت، ڕوونی
+            دەکاتەوە.
   reviewers:
     - name: Fady Hannah-Shmouni, MD, FRCPC, ABIM
       role:
-        en: Medical review · author of the Hormonaly pocket guides on aesthetic and
-          regenerative endocrinology and on peptides
+        en: Medical review · author of the Hormonaly pocket guides on aesthetic and regenerative endocrinology and on
+          peptides
         ar-AE: "مراجع النسخة العربية: فادي حنّا شمعوني — المراجعة قيد الانتظار"
+        ckb-IQ: پێداچوونەوەی پزیشکی · نووسەری ڕێبەرە گیرفانییەکانی Hormonaly لەسەر ئیندۆکرینۆلۆژیی جوانکاری و
+          بووژێنەرەوە و لەسەر پێپتایدەکان
   faculty:
     title:
       en: Faculty & advisory
       ar-AE: هيئة التدريس والمجلس الاستشاري
+      ckb-IQ: دەستەی وانەبێژان و ڕاوێژکاری
     items:
       - name: Fady Hannah-Shmouni, MD, FRCPC, ABIM
         designation:
           en: Faculty · Medical review
           ar-AE: هيئة التدريس · المراجعة الطبية
+          ckb-IQ: دەستەی وانەبێژان · پێداچوونەوەی پزیشکی
         role:
           en: Endocrinologist and biochemical geneticist. Author of the Hormonaly pocket guides.
           ar-AE: اختصاصي الغدد الصماء والوراثة الكيميائية الحيوية، ومؤلف أدلة هورمونالي المرجعية المختصرة.
+          ckb-IQ: پزیشکی پسپۆڕی ئیندۆکرینۆلۆژی و بۆماوەزانیی بایۆکیمیایی. نووسەری ڕێبەرە گیرفانییەکانی Hormonaly.
         image: assets/faculty/fady-hannah-shmouni-wide.png
-        link:
-          href: https://www.linkedin.com/in/fady-hannah-shmouni/
-          label:
-            en: LinkedIn Profile
-            ar: الملف الشخصي على لينكدإن
       - name: Professor Dr. Dominik Thor, MSc
         designation:
           en: Advisory
           ar-AE: المجلس الاستشاري
+          ckb-IQ: ڕاوێژکاری
         role:
-          en: President of the Geneva College of Longevity Science and Professor of Pharmacy. His research focuses on biomaterials, regenerative medicine, and pharmacy.
+          en: President of the Geneva College of Longevity Science and Professor of Pharmacy. His research focuses on
+            biomaterials, regenerative medicine, and pharmacy.
           ar-AE: رئيس كلية جنيف لعلوم طول العمر وأستاذ الصيدلة. تركز أبحاثه على المواد الحيوية والطب التجديدي والصيدلة.
+          ckb-IQ: سەرۆکی Geneva College of Longevity Science و پڕۆفیسۆری دەرمانسازی. توێژینەوەکانی تیشک دەخەنە سەر ماددە
+            بایۆلۆجییەکان، پزیشکیی بووژێنەرەوە، و دەرمانسازی.
         link:
           href: https://www.linkedin.com/in/dominik-thor/
           label:
             en: LinkedIn Profile
             ar: الملف الشخصي على لينكدإن
+            ckb-IQ: پڕۆفایلی LinkedIn
         image: assets/faculty/dominik-thor-wide.png
       - name: Omar Saleem, MD
         designation:
           en: Advisory
           ar-AE: المجلس الاستشاري
+          ckb-IQ: ڕاوێژکاری
         role:
           en: Physician and AI builder focused on clinician-first healthcare workflows.
           ar-AE: طبيب ومطوّر للذكاء الاصطناعي يركّز على مسارات العمل للممارسين السريريين.
+          ckb-IQ: پزیشک و پەرەپێدەری زیرەکیی دەستکرد کە سەرنجی لەسەر ڕەوتی کارەکانی چاودێریی تەندروستییە بە لەپێشینەدانی
+            کلینیکاران.
         image: assets/faculty/omar-saleem-wide.png
-        link:
-          href: https://www.linkedin.com/in/omarfsaleem/
-          label:
-            en: LinkedIn Profile
-            ar: الملف الشخصي على لينكدإن
   faq:
     - q:
         en: Does the course give doses or protocols?
         ar-AE: هل تقدم الدورة جرعات أو بروتوكولات؟
+        ckb-IQ: ئایا خولەکە ژەمەدەرمان یان پرۆتۆکۆڵ دەستنیشان دەکات؟
       a:
-        en: No. It teaches the evidence, the regulatory status and what each role can
-          safely do next. Dosing and product sourcing are excluded by design.
-        ar-AE: كلا. إنها تشرح الأدلة، والوضع التنظيمي، وما يمكن لكل دور مهني القيام به
-          بأمان كخطوة تالية. وتُستثنى الجرعات وتوريد المنتجات عن قصد وبشكل
-          أساسي.
+        en: No. It teaches the evidence, the regulatory status and what each role can safely do next. Dosing and
+          product sourcing are excluded by design.
+        ar-AE: كلا. إنها تشرح الأدلة، والوضع التنظيمي، وما يمكن لكل دور مهني القيام به بأمان كخطوة تالية. وتُستثنى
+          الجرعات وتوريد المنتجات عن قصد وبشكل أساسي.
+        ckb-IQ: نەخێر. خولەکە فێری بەڵگەکان، پێگەی ڕێکاری و ئەوەت دەکات کە هەر ڕۆڵێک دەتوانێت دواتر بە سەلامەتی چی
+          بکات. ژەمەدەرمان و دابینکردنی بەرهەمەکان بە مەبەست بەدەرکراون.
     - q:
         en: Which countries does it cover?
         ar-AE: ما هي الدول التي تغطيها الدورة؟
+        ckb-IQ: چ وڵاتانێک دەگرێتەوە؟
       a:
-        en: The United States, the United Kingdom, the European Union, Portugal, Brazil
-          and the United Arab Emirates. Each statement names its country and
-          date, and your own country comes first.
-        ar-AE: الولايات المتحدة، والمملكة المتحدة، والاتحاد الأوروبي، والبرتغال،
-          والبرازيل، والإمارات العربية المتحدة. تحدد كل عبارة بلدها وتاريخها،
-          ويأتي بلدك أولاً.
+        en: The United States, the United Kingdom, the European Union, Portugal, Brazil and the United Arab Emirates.
+          Each statement names its country and date, and your own country comes first.
+        ar-AE: الولايات المتحدة، والمملكة المتحدة، والاتحاد الأوروبي، والبرتغال، والبرازيل، والإمارات العربية المتحدة.
+          تحدد كل عبارة بلدها وتاريخها، ويأتي بلدك أولاً.
+        ckb-IQ: ویلایەتە یەکگرتووەکان، شانشینی یەکگرتوو، یەکێتیی ئەورووپا، پورتوگال، بەڕازیل و ئیماراتی یەکگرتووی
+          عەرەبی. هەر ڕاگەیەندراوێک ناوی وڵات و بەروارەکەی لەسەرە، و وڵاتەکەی خۆت لە پێشەوە دێت.
     - q:
         en: Is there CME or CE credit?
-        ar-AE: هل تمنح الدورة ساعات معتمدة للتعليم الطبي المستمر (CME) أو التعليم
-          المستمر (CE)؟
+        ar-AE: هل تمنح الدورة ساعات معتمدة للتعليم الطبي المستمر (CME) أو التعليم المستمر (CE)؟
+        ckb-IQ: ئایا خاڵی CME یان CEی لەگەڵدایە؟
       a:
-        en: This is a Hormonaly Academy certificate of completion, with GCLS AI Academy
-          as education partner. CME or CE credit is not offered at this time.
+        en: This is a Hormonaly Academy certificate of completion, with GCLS AI Academy as education partner. CME or
+          CE credit is not offered at this time.
         ar-AE: النسخة العربية قيد المراجعة، ولم يُعتمد لها رصيد تعليم طبي أو مهني مستمر.
+        ckb-IQ: ئەمە بڕوانامەی تەواوکردنی Hormonaly Academyـیە، بە هاوبەشیی پەروەردەیی لەگەڵ GCLS AI Academy. لە
+          ئێستادا خاڵی CME یان CE پێشکەش ناکرێت.
     - q:
         en: What do I get at the end?
         ar-AE: ما الذي سأحصل عليه عند إتمام الدورة؟
+        ckb-IQ: لە کۆتاییدا چیم دەستدەکەوێت؟
       a:
-        en: Complete all seven modules and pass the final check with 80% or more to
-          receive your Hormonaly Academy certificate of completion, including
-          during the free enrollment period through November 30. Each certificate has a public
-          verification code.
-        ar-AE: أكمل الوحدات السبع واجتز التقييم النهائي بنسبة 80% أو أكثر لتحصل على
-          شهادة إتمام من أكاديمية Hormonaly، بما في ذلك خلال فترة التسجيل
-          المجاني حتى 30 نوفمبر. تحمل كل شهادة رمز تحقق متاحًا للعامة.
+        en: Complete all seven modules and pass the final check with 80% or more to receive your Hormonaly Academy
+          certificate of completion, including during the free enrollment period through November 30. Each
+          certificate has a public verification code.
+        ar-AE: أكمل الوحدات السبع واجتز التقييم النهائي بنسبة 80% أو أكثر لتحصل على شهادة إتمام من أكاديمية Hormonaly،
+          بما في ذلك خلال فترة التسجيل المجاني حتى 30 نوفمبر. تحمل كل شهادة رمز تحقق متاحًا للعامة.
+        ckb-IQ: هەر حەوت یەکە تەواو بکە و لە تاقیکردنەوەی کۆتاییدا 80% یان زیاتر بەدەستبهێنە بۆ وەرگرتنی بڕوانامەی
+          تەواوکردنی Hormonaly Academy، بە ماوەی ناونووسینی بێبەرامبەریشەوە تا 30ی تشرینی دووەم. هەر
+          بڕوانامەیەک کۆدی پشتڕاستکردنەوەی گشتیی هەیە.
   certificate:
     title:
       en: Certificate of completion
       ar-AE: شهادة إتمام الدورة
+      ckb-IQ: بڕوانامەی تەواوکردن
     body:
-      en: Complete all seven modules and pass the final check to receive your
-        Hormonaly Academy certificate of completion. Included during the free
-        enrollment period through November 30.
-      ar-AE: أكمل الوحدات السبع واجتز التقييم النهائي لتحصل على شهادة إتمام من
-        أكاديمية Hormonaly. الشهادة مشمولة خلال فترة التسجيل المجاني حتى 30 نوفمبر.
-      ar: أكمل الوحدات السبع واجتز التقييم النهائي لتحصل على شهادة إتمام من أكاديمية
-        Hormonaly. الشهادة مشمولة خلال فترة التسجيل المجاني حتى 30 نوفمبر.
+      en: Complete all seven modules and pass the final check to receive your Hormonaly Academy certificate of
+        completion. Included during the free enrollment period through November 30.
+      ar-AE: أكمل الوحدات السبع واجتز التقييم النهائي لتحصل على شهادة إتمام من أكاديمية Hormonaly. الشهادة مشمولة
+        خلال فترة التسجيل المجاني حتى 30 نوفمبر.
+      ar: أكمل الوحدات السبع واجتز التقييم النهائي لتحصل على شهادة إتمام من أكاديمية Hormonaly. الشهادة مشمولة خلال
+        فترة التسجيل المجاني حتى 30 نوفمبر.
+      ckb-IQ: هەر حەوت یەکە تەواو بکە و لە پشکنینی کۆتایی دەربچۆ بۆ وەرگرتنی بڕوانامەی تەواوکردنی Hormonaly Academy.
+        لە ماوەی خۆتۆمارکردنی بێبەرامبەردا تا 30ی تشرینی دووەم بەردەستە.
     image:
-      src: assets/certificate/previews/20261016/certificate-en.png
-      srcByLocale:
-        ar: assets/certificate/previews/20261016/certificate-ar.png
-      href: assets/certificate/previews/20261016/certificate-en.pdf
-      hrefByLocale:
-        ar: assets/certificate/previews/20261016/certificate-ar.pdf
+      src: /assets/hormones-peptides-skin/ui/evidence-desk.jpg
       alt:
-        en: Hormonaly certificate of completion with the GCLS logo and signature marks of Fady Hannah-Shmouni and Dominik Thor
-        ar: شهادة إتمام هورمونالي مع شعار GCLS وتوقيعي فادي حنّا شمعوني ودومينيك ثور
-      caption:
-        en: Certificate preview · your name appears on completion.
-        ar: معاينة الشهادة · يظهر اسمك عند إتمام الدورة.
-      linkLabel:
-        en: View certificate
-        ar: عرض الشهادة
+        en: Notebook and magnifying glass on an evidence-review desk
+        ar: دفتر وعدسة مكبرة على مكتب لمراجعة الأدلة
+        ckb-IQ: دەفتەری تێبینی و گەورەکەر لەسەر مێزی پێداچوونەوەی بەڵگەکان
   creators:
     kicker:
       en: For physician creators
       ar-AE: للأطباء منشئي المحتوى التدريبي
+      ckb-IQ: بۆ پزیشکە داھێنەرەکان
     title:
       en: Launch your own course with Perceptors.
       ar-AE: أطلق دورتك الخاصة بالتعاون مع Perceptors.
+      ckb-IQ: خولەکەی خۆت لەگەڵ Perceptors دەستپێبکە.
     body:
-      en: "Physicians, educators and creators with something clinicians should learn:
-        we turn your expertise into an evidence-checked course and academy like
-        this one."
-      ar-AE: "للأطباء، والمعلمين، وصناع المحتوى الذين يمتلكون معرفة يحتاجها الممارسون
-        السريريون: نحوّل خبرتك إلى دورة وأكاديمية مدققة الأدلة كهذه."
+      en: "Physicians, educators and creators with something clinicians should learn: we turn your expertise into an
+        evidence-checked course and academy like this one."
+      ar-AE: "للأطباء، والمعلمين، وصناع المحتوى الذين يمتلكون معرفة يحتاجها الممارسون السريريون: نحوّل خبرتك إلى
+        دورة وأكاديمية مدققة الأدلة كهذه."
+      ckb-IQ: "پزیشکان، پەروەردەکاران و داھێنەرانێک کە شتێکیان پێیە کلینیکاران فێری ببن: ئێمە شارەزاییەکەت دەکەینە
+        خولێکی پشکنراو بە بەڵگە و ئەکادیمیایەک وەک ئەمە."
     action:
       label:
         en: Talk to us
         ar-AE: تحدث إلينا
+        ckb-IQ: پەیوەندیمان پێوە بکە
       href: https://www.perceptors.ai/contact?prompt=I%20want%20to%20launch%20my%20own%20course%20with%20Perceptors#general-inquiries
   ctaTitle:
     en: Start with Module 1 today.
     ar-AE: ابدأ بالوحدة 1 اليوم.
+    ckb-IQ: ئەمڕۆ لە یەکەی 1ـەوە دەستپێبکە.
   disclaimer:
-    en: Educational content for licensed clinicians. It does not replace clinical
-      judgement, specialist input or formal guidelines.
-    ar-AE: محتوى تعليمي مخصص للممارسين السريريين المرخصين. ولا يُغني عن التقدير
-      السريري، أو المشورة التخصصية، أو الإرشادات التوجيهية الرسمية.
+    en: Educational content for licensed clinicians. It does not replace clinical judgement, specialist input or
+      formal guidelines.
+    ar-AE: محتوى تعليمي مخصص للممارسين السريريين المرخصين. ولا يُغني عن التقدير السريري، أو المشورة التخصصية، أو
+      الإرشادات التوجيهية الرسمية.
+    ckb-IQ: ناوەڕۆکی پەروەردەییە بۆ کلینیکارانی خاوەن مۆڵەت. جێگەی بڕیاردانی کلینیکی، ڕاوێژی پسپۆڕ یان ڕێنماییە
+      فەرمییەکان ناگرێتەوە.
 catalog:
   - course: packages/hormones-peptides-skin.ar-AE.json
     audience:
-      en: Physicians, nurse practitioners and physician associates, nurses and other
-        licensed providers
-      ar-AE: الأطباء، والممرضون الممارسون، ومساعدو الأطباء، وممارسو التمريض، وغيرهم من
-        مقدمي الرعاية المرخصين
+      en: Physicians, nurse practitioners and physician associates, nurses and other licensed providers
+      ar-AE: الأطباء، والممرضون الممارسون، ومساعدو الأطباء، وممارسو التمريض، وغيرهم من مقدمي الرعاية المرخصين
+      ckb-IQ: پزیشکان، پەرستارانی پسپۆڕ و یاریدەدەرانی پزیشک، پەرستاران و دابینکەرانی دیکەی خاوەن مۆڵەت
     blurb:
-      en: "The hormones and peptides your patients ask about for skin, hair and the
-        ageing face: what is shown in people, what is only mechanism, and what
-        the rules allow in the US, the UK, the EU, Portugal, Brazil and the
-        UAE."
-      ar-AE: "الهرمونات والببتيدات التي يسأل عنها مرضاك لصحة الجلد والشعر والوجه
-        المتقدم في السن: ما أثبتته الأدلة البشرية، وما يقتصر على آلية العمل، وما
-        تسمح به اللوائح في الولايات المتحدة، والمملكة المتحدة، والاتحاد
+      en: "The hormones and peptides your patients ask about for skin, hair and the ageing face: what is shown in
+        people, what is only mechanism, and what the rules allow in the US, the UK, the EU, Portugal, Brazil
+        and the UAE."
+      ar-AE: "الهرمونات والببتيدات التي يسأل عنها مرضاك لصحة الجلد والشعر والوجه المتقدم في السن: ما أثبتته الأدلة
+        البشرية، وما يقتصر على آلية العمل، وما تسمح به اللوائح في الولايات المتحدة، والمملكة المتحدة، والاتحاد
         الأوروبي، والبرتغال، والبرازيل، والإمارات العربية المتحدة."
+      ckb-IQ: "ئەو هۆرمۆن و پێپتایدانەی نەخۆشەکانت پرسیاریان لەسەر دەکەن بۆ پێست، قژ و پیربوونی دەموچاو: ئەوەی لە
+        مرۆڤدا سەلمێنراوە، ئەوەی تەنها میکانیزمە، و ئەوەی یاساکان ڕێگەی پێدەدەن لە ئەمریکا، بەریتانیا، یەکێتیی
+        ئەورووپا، پورتوگال، بەڕازیل و ئیمارات."
     status: draft
     series: regenerative-endocrinology
     order: 1
@@ -416,8 +483,8 @@ catalog:
       name: Geneva College of Longevity Science
       status: accredited
       logo: /gcls/gcls-logo.png
-      basis: Verbal confirmation from GCLS to Omar Saleem (product owner), 2026-09-25;
-        written confirmation to follow
+      basis: Verbal confirmation from GCLS to Omar Saleem (product owner), 2026-09-25; written confirmation to
+        follow
     entitlement:
       type: paid
       price:
@@ -433,29 +500,32 @@ catalog:
           es: Oferta ampliada · gratis hasta el 30 de noviembre
           pt: Oferta prorrogada · grátis até 30 de novembro
           ar-AE: تمديد العرض · مجانًا حتى 30 نوفمبر
+          ckb-IQ: ئۆفەری درێژکراوە · بێبەرامبەر تا 30ی تشرینی دووەم
         banner:
           headline:
             en: Free through November 30
             es: Gratis hasta el 30 de noviembre
             pt: Grátis até 30 de novembro
             ar-AE: مجانًا حتى 30 نوفمبر
+            ckb-IQ: بێبەرامبەر تا 30ی تشرینی دووەم
           detail:
             en: Limited-time offer · Ends November 30
             es: Oferta por tiempo limitado · Hasta el 30 de noviembre
             pt: Oferta por tempo limitado · Até 30 de novembro
             ar-AE: عرض لفترة محدودة · ينتهي في 30 نوفمبر
+            ckb-IQ: ئۆفەری کاتیی دیاریکراو · لە 30ی تشرینی دووەم کۆتایی دێت
           action:
             en: Enroll free
             es: Inscríbete gratis
             pt: Inscreva-se grátis
             ar-AE: سجّل مجانًا
+            ckb-IQ: بە بێبەرامبەر ناونووسین بکە
     certificate:
       access: included
     final:
       by: Omar Saleem (product owner)
       date: 2026-09-25
-      revision: academy-hormonaly-00009-6jl · 1.0.0-rc.4, walked end to end on
-        hormonaly.perceptors.ai
+      revision: academy-hormonaly-00009-6jl · 1.0.0-rc.4, walked end to end on hormonaly.perceptors.ai
 modules:
   fieldbook: true
   promptLab: false
@@ -472,301 +542,351 @@ experience:
       label:
         en: Prescriber
         ar-AE: الممارس المخوّل بالوصف الدوائي
+        ckb-IQ: ڕەچەتەنووس
       description:
         en: Physician, NP or PA
         ar-AE: طبيب، أو ممرض ممارس (NP)، أو مساعد طبيب (PA)
+        ckb-IQ: پزیشک، NP یان PA
     - id: clinical-staff
       label:
         en: Clinical staff
         ar-AE: الكادر السريري
+        ckb-IQ: کارمەندانی کلینیکی
       description:
         en: RN, aesthetic nurse or injector
         ar-AE: ممرض قانوني (RN)، أو ممرض تجميلي، أو ممارس حقن تجميلي
+        ckb-IQ: RN، پەرستاری جوانکاری یان دەرزیلێدەر
     - id: advisor
       label:
         en: Advisor
         ar-AE: المستشار السريري
+        ckb-IQ: ڕاوێژکار
       description:
         en: Pharmacist, ND or allied professional
         ar-AE: صيدلي، أو طبيب علاج طبيعي (ND)، أو ممارس رعاية صحية مساندة
+        ckb-IQ: دەرمانساز، ND یان پیشەی تەندروستیی هاوپێچ
   practicePrompts: false
   library:
     sourceNotes: false
     evidencePolicy:
-      en: Mechanism, human evidence, regulatory status and open questions are kept
-        apart. The course gives no doses and no product sourcing.
-      ar-AE: يتم الفصل بدقة بين آلية العمل، والأدلة البشرية، والوضع التنظيمي، والمسائل
-        غير المحسومة. لا تقدم الدورة أي جرعات أو معلومات لتوريد المنتجات.
+      en: Mechanism, human evidence, regulatory status and open questions are kept apart. The course gives no doses
+        and no product sourcing.
+      ar-AE: يتم الفصل بدقة بين آلية العمل، والأدلة البشرية، والوضع التنظيمي، والمسائل غير المحسومة. لا تقدم الدورة
+        أي جرعات أو معلومات لتوريد المنتجات.
+      ckb-IQ: میکانیزم، بەڵگەی سەر مرۆڤ، پێگەی ڕێکاری و پرسیارە کراوەکان بە جیاوازی هێڵدراونەتەوە. خولەکە هیچ
+        ژەمەدەرمان و دابینکردنی بەرهەمەکان لەخۆ ناگرێت.
   density: compact
   moduleImages:
     "1": /assets/hormones-peptides-skin/ui/skin-texture.jpg
     "4": /assets/hormones-peptides-skin/ui/collagen-fibers.jpg
     "7": /assets/hormones-peptides-skin/ui/evidence-desk.jpg
+  previewDraftEditions: true
 today:
   lines:
     label:
       en: Line of the day
       ar-AE: عبارة اليوم
+      ckb-IQ: دێڕی ڕۆژ
     items:
       - from: m1-p01
         text:
           en: The skin makes its own hormones.
           ar-AE: يُنتج الجلد هرموناته الخاصة.
+          ckb-IQ: پێست هۆرمۆنەکانی خۆی بەرهەمدەهێنێت.
         detail:
-          en: Skin senses hormones from the blood, makes several of its own, and ages in
-            ways that change both.
-          ar-AE: يستشعر الجلد الهرمونات من الدم، ويُصنّع العديد منها بنفسه، ويشيخ بطرق
-            تُغيّر كليهما.
+          en: Skin senses hormones from the blood, makes several of its own, and ages in ways that change both.
+          ar-AE: يستشعر الجلد الهرمونات من الدم، ويُصنّع العديد منها بنفسه، ويشيخ بطرق تُغيّر كليهما.
+          ckb-IQ: پێست هەست بە هۆرمۆنەکانی ناو خوێن دەکات، چەندین هۆرمۆنی تایبەت بە خۆی بەرهەمدەهێنێت، و بە شێوازێک
+            دەپووکێتەوە و پیر دەبێت کە هەردووکیان دەگۆڕێت.
         image:
           src: /assets/hormones-peptides-skin/ui/skin-texture.jpg
           alt:
             en: Editorial close-up of natural skin texture
             ar: صورة توضيحية مقربة لملمس الجلد الطبيعي
+            ckb-IQ: وێنەی نزیکی ستایلی گۆڤاری بۆ پێکهاتەی سروشتیی پێست
       - from: m2-p02
         text:
           en: The skin regenerates its own cortisol.
           ar-AE: يُعيد الجلد تجديد الكورتيزول الخاص به.
+          ckb-IQ: پێست کۆرتیزۆڵی خۆی سەرلەنوێ دروستدەکاتەوە.
         detail:
-          en: Keratinocytes and dermal fibroblasts also carry 11β-HSD1, the enzyme that
-            turns inactive cortisone back into active cortisol inside the cell.
-          ar-AE: تحمل الخلايا الكيراتينية والخلايا الليفية في الأدمة أيضاً إنزيم 11β-HSD1،
-            وهو الإنزيم الذي يُحوّل الكورتيزون غير النشط مرة أخرى إلى كورتيزول
-            نشط داخل الخلية.
+          en: Keratinocytes and dermal fibroblasts also carry 11β-HSD1, the enzyme that turns inactive cortisone back
+            into active cortisol inside the cell.
+          ar-AE: تحمل الخلايا الكيراتينية والخلايا الليفية في الأدمة أيضاً إنزيم 11β-HSD1، وهو الإنزيم الذي يُحوّل
+            الكورتيزون غير النشط مرة أخرى إلى كورتيزول نشط داخل الخلية.
+          ckb-IQ: خانەکانی کێراتینۆسایت و ڕیشاڵەخانەکانی پێست (fibroblasts) هەروەها هەڵگری ئەنزیمی 11β-HSD1ـن، کە ئەو
+            ئەنزیمەیە کۆرتیزۆنی ناچالاک لەناو خانەکەدا دەگۆڕێتەوە بۆ کۆرتیزۆڵی چالاک.
         image:
           src: assets/hormones-peptides-skin/today/m2-p02.jpg
           alt:
             en: Sunlight falling across the skin of a bare shoulder
             ar-AE: ضوء الشمس يسقط على جلد كتف عارٍ
-          prompt: Late sunlight falling across the skin of a bare shoulder blade, a soft
-            glow over fine texture, the light fading into a warm gradient.
+            ckb-IQ: تیشکی خۆر کە بەسەر پێستی شانی ڕووتدا دەکەوێت
+          prompt: Late sunlight falling across the skin of a bare shoulder blade, a soft glow over fine texture, the
+            light fading into a warm gradient.
       - from: m3-p05
         text:
           en: Fifteen years on the same collagen.
           ar-AE: خمسة عشر عاماً على الكولاجين ذاته.
+          ckb-IQ: پازدە ساڵ لەسەر هەمان کۆلاجین.
         detail:
-          en: Human skin collagen turns over slowly; tissue analysis puts its half-life at
-            about 15 years.
-          ar-AE: يتجدد كولاجين جلد الإنسان ببطء؛ ويُقدّر التحليل النسيجي عمر النصف له بنحو
-            15 عاماً.
+          en: Human skin collagen turns over slowly; tissue analysis puts its half-life at about 15 years.
+          ar-AE: يتجدد كولاجين جلد الإنسان ببطء؛ ويُقدّر التحليل النسيجي عمر النصف له بنحو 15 عاماً.
+          ckb-IQ: کۆلاجینی پێستی مرۆڤ بە هێواشی نوێ دەبێتەوە؛ شیکاریی شانەکان تەمەنی نیوەیی بە نزیکەی 15 ساڵ دادەنێت.
         image:
           src: assets/hormones-peptides-skin/today/m3-p05.jpg
           alt:
             en: Close-up of softly creased linen threads
             ar-AE: لقطة مقربة لخيوط كتان متجعدة بنعومة
-          prompt: "Close-up of finely woven natural linen threads, softly creased and
-            slightly worn, in warm side light: long-lived fibres."
+            ckb-IQ: دیمەنی نزیکی دەزووی کەتانی کەمێک چرچبوو
+          prompt: "Close-up of finely woven natural linen threads, softly creased and slightly worn, in warm side light:
+            long-lived fibres."
       - from: m4-p01
         text:
           en: The peptide your patient already bought.
           ar-AE: الببتيد الذي اشتراه مريضك بالفعل.
+          ckb-IQ: ئەو پێپتایدەی کە نەخۆشەکەت پێشتر کڕیویەتی.
         detail:
           en: Most skin peptides reach your clinic before any evidence does.
           ar-AE: تصل معظم ببتيدات الجلد إلى عيادتك قبل وصول أي أدلة.
+          ckb-IQ: زۆربەی پێپتایدەکانی پێست دەگەنە کلینیکەکەت پێش ئەوەی هیچ بەڵگەیەک پێیان بگات.
         image:
           src: assets/hormones-peptides-skin/today/m4-p01.jpg
           alt:
             en: A small unlabelled serum bottle on a stone shelf
             ar-AE: زجاجة مصل صغيرة بلا ملصق تعريفي على رف حجري
-          prompt: A small clear glass dropper bottle of serum with no label, standing on a
-            travertine shelf beside a folded cotton towel, soft window light.
+            ckb-IQ: شووشەیەکی بچووکی بێ لەیبڵی سیرۆم لەسەر ڕەفەیەکی بەردین
+          prompt: A small clear glass dropper bottle of serum with no label, standing on a travertine shelf beside a
+            folded cotton towel, soft window light.
       - from: m5-p02
         text:
           en: A follicle that runs its own hormones.
           ar-AE: جريب يُدير هرموناته بنفسه.
+          ckb-IQ: پیازکەیەکی موو کە هۆرمۆنەکانی خۆی بەڕێوەدەبات.
         detail:
-          en: Human scalp hair follicles kept alive in the laboratory answer
-            corticotropin-releasing hormone by making ACTH and α-MSH and
-            secreting cortisol, with a feedback loop like the adrenal axis.
-          ar-AE: تستجيب جريبات شعر فروة رأس الإنسان المحفوظة حية في المختبر للهرمون المطلق
-            لموجهة القشرة عن طريق تصنيع ACTH وα-MSH وإفراز الكورتيزول، مع وجود
-            حلقة تغذية راجعة مماثلة للمحور الكظري.
+          en: Human scalp hair follicles kept alive in the laboratory answer corticotropin-releasing hormone by making
+            ACTH and α-MSH and secreting cortisol, with a feedback loop like the adrenal axis.
+          ar-AE: تستجيب جريبات شعر فروة رأس الإنسان المحفوظة حية في المختبر للهرمون المطلق لموجهة القشرة عن طريق تصنيع
+            ACTH وα-MSH وإفراز الكورتيزول، مع وجود حلقة تغذية راجعة مماثلة للمحور الكظري.
+          ckb-IQ: پیازکەکانی مووی سەر لە مرۆڤدا کە لە تاقیگەدا بە زیندوویی هێڵراونەتەوە، وەڵامی هۆرمۆنی دەردەری
+            کۆرتیکۆترۆپین دەدەنەوە بە بەرهەمهێنانی ACTH و α-MSH و دەردانی کۆرتیزۆڵ، بە سووڕێکی فیدباک هاوشێوەی
+            تەوەری سەر گورچیلە.
         image:
           src: assets/hormones-peptides-skin/today/m5-p02.jpg
           alt:
             en: Backlit fine hairs on the skin of an arm
             ar-AE: شعيرات دقيقة مضاءة من الخلف على جلد الذراع
-          prompt: Fine hairs on the skin of a forearm, backlit so each hair glows like a
-            filament against a soft cream background.
+            ckb-IQ: مووە نەرمەکانی سەر پێستی دەست لە ژێر ڕووناکیی پاشبنەمادا
+          prompt: Fine hairs on the skin of a forearm, backlit so each hair glows like a filament against a soft cream
+            background.
       - from: m6-p02
         text:
           en: Two hormones, two layers of skin.
           ar-AE: هرمونان، وطبقتان من الجلد.
+          ckb-IQ: دوو هۆرمۆن، دوو چین لە پێست.
         detail:
-          en: Growth hormone acts mostly in the dermis. IGF-1, made locally by fibroblasts
-            and melanocytes, reaches keratinocytes through the IGF-1 receptor
-            and makes them divide.
-          ar-AE: يعمل هرمون النمو بشكل أساسي في الأدمة. بينما يصل IGF-1، الذي يُصنّع
-            محلياً بواسطة الخلايا الليفية والخلايا الصباغية، إلى الخلايا
-            الكيراتينية عبر مستقبل IGF-1 ويحثها على الانقسام.
+          en: Growth hormone acts mostly in the dermis. IGF-1, made locally by fibroblasts and melanocytes, reaches
+            keratinocytes through the IGF-1 receptor and makes them divide.
+          ar-AE: يعمل هرمون النمو بشكل أساسي في الأدمة. بينما يصل IGF-1، الذي يُصنّع محلياً بواسطة الخلايا الليفية
+            والخلايا الصباغية، إلى الخلايا الكيراتينية عبر مستقبل IGF-1 ويحثها على الانقسام.
+          ckb-IQ: هۆرمۆنی گەشە زۆربەی کارەکانی لە چینی ناوەوەی پێست (dermis) ئەنجام دەدات. IGF-1، کە بە شێوەیەکی ناوخۆیی
+            لەلایەن فایبرۆبلاست و میلانۆسایتەکانەوە دروست دەکرێت، لە ڕێگەی وەرگری IGF-1ـەوە دەگاتە
+            کێراتینۆسایتەکان و هانی دابەشبوونیان دەدات.
         image:
           src: assets/hormones-peptides-skin/today/m6-p02.jpg
           alt:
             en: Two layered sheets of translucent silk, backlit
             ar-AE: طبقتان من الحرير شبه الشفاف، مضاءتان من الخلف
-          prompt: Two sheets of translucent silk in cream and blush, one laid over the
-            other and backlit so both layers glow.
+            ckb-IQ: دوو چینی ئاوریشمی نیمچە ڕوون، لە ژێر ڕووناکیی پاشبنەمادا
+          prompt: Two sheets of translucent silk in cream and blush, one laid over the other and backlit so both layers
+            glow.
       - from: m7-p13
         text:
           en: Research use only is a label, and never a route.
-          ar-AE: عبارة «للاستخدام البحثي فقط» هي ملصق تصنيفي وليست مساراً للإعطاء على
-            الإطلاق.
+          ar-AE: عبارة «للاستخدام البحثي فقط» هي ملصق تصنيفي وليست مساراً للإعطاء على الإطلاق.
+          ckb-IQ: تەنها بۆ بەکارهێنانی توێژینەوە لەیبڵێکە، و هەرگیز ڕێگەی بەکارهێنان نییە.
         image:
           src: /assets/hormones-peptides-skin/ui/evidence-desk.jpg
           alt:
             en: A quiet workspace for reviewing evidence
             ar: مساحة عمل هادئة لمراجعة الأدلة
+            ckb-IQ: شوێنی کارێکی هێمن بۆ پێداچوونەوەی بەڵگەکان
       - from: m1-p13
         text:
           en: Cells that stop dividing and keep talking.
           ar-AE: خلايا تتوقف عن الانقسام وتستمر في التواصل.
+          ckb-IQ: خانەگەلێک کە لە دابەشبوون دەوەستن بەڵام بەردەوامن لە پەیوەندیکردن.
         detail:
-          en: "A senescent cell has stopped dividing for good but stays metabolically
-            active, releasing cytokines, matrix-degrading enzymes and growth
-            factors: the senescence-associated secretory phenotype, or SASP."
-          ar-AE: "تتوقف الخلية الهرمة عن الانقسام نهائياً لكنها تظل نشطة استقلابياً، حيث
-            تفرز السيتوكينات والإنزيمات المُحللة للمطرس وعوامل النمو: وهو ما
-            يُعرف بالنمط الظاهري الإفرازي المرتبط بالشيخوخة الخلوية (SASP)."
+          en: "A senescent cell has stopped dividing for good but stays metabolically active, releasing cytokines,
+            matrix-degrading enzymes and growth factors: the senescence-associated secretory phenotype, or
+            SASP."
+          ar-AE: "تتوقف الخلية الهرمة عن الانقسام نهائياً لكنها تظل نشطة استقلابياً، حيث تفرز السيتوكينات والإنزيمات
+            المُحللة للمطرس وعوامل النمو: وهو ما يُعرف بالنمط الظاهري الإفرازي المرتبط بالشيخوخة الخلوية
+            (SASP)."
+          ckb-IQ: "خانەیەکی پیربوو بۆ هەمیشە لە دابەشبوون وەستاوە بەڵام لە ڕووی میتابۆلیزمییەوە بە چالاکی دەمێنێتەوە، و
+            سایتۆکینەکان، ئەنزیمەکانی تێکشکێنەری ماتریکس و فاکتەرەکانی گەشە دەردەدات: شێوازی دەردانی پەیوەست
+            بە پیربوون، یان SASP."
         image:
           src: assets/hormones-peptides-skin/today/m1-p13.jpg
           alt:
             en: Soft luminous spheres clustered like cells
             ar-AE: كريات مضيئة ناعمة متجمعة كالخلايا
-          prompt: Dreamlike macro of soft luminous translucent spheres clustered like
-            cells, lit in amber with faint violet shadows, like a painterly
-            micrograph.
+            ckb-IQ: تۆپەڵە گەشاوە نەرمەکان کە وەک خانە کۆبوونەتەوە
+          prompt: Dreamlike macro of soft luminous translucent spheres clustered like cells, lit in amber with faint
+            violet shadows, like a painterly micrograph.
       - from: m2-p01
         text:
           en: The face that might be a diagnosis.
           ar-AE: الوجه الذي قد يمثل تشخيصاً.
+          ckb-IQ: دەموچاوێک کە لەوانەیە دەستنیشانکردنی نەخۆشی بێت.
         detail:
-          en: Most skin changes you see are ageing or lifestyle. A few are the first
-            visible sign of endocrine disease.
-          ar-AE: معظم التغيرات الجلدية التي تراها تعود إلى التقدم في العمر أو نمط الحياة.
-            وقليل منها هو أول علامة مرئية لمرض في الغدد الصماء.
+          en: Most skin changes you see are ageing or lifestyle. A few are the first visible sign of endocrine disease.
+          ar-AE: معظم التغيرات الجلدية التي تراها تعود إلى التقدم في العمر أو نمط الحياة. وقليل منها هو أول علامة مرئية
+            لمرض في الغدد الصماء.
+          ckb-IQ: زۆربەی ئەو گۆڕانکارییانەی لە پێستدا دەیانبینیت بەهۆی پیربوون یان شێوازی ژیانەوەن. کەمێکیان یەکەم
+            نیشانەی دیاری نەخۆشییەکانی کۆئەندامی دەردانی ناوەکین.
         image:
           src: assets/hormones-peptides-skin/today/m2-p01.jpg
           alt:
             en: A round mirror in a quiet clinic room
             ar-AE: مرآة مستديرة في غرفة عيادة هادئة
-          prompt: A round mirror on a pale plaster wall reflecting only soft daylight and
-            a window, a calm and empty examination room.
+            ckb-IQ: ئاوێنەیەکی خڕ لە ژوورێکی هێمنی نۆرینگەدا
+          prompt: A round mirror on a pale plaster wall reflecting only soft daylight and a window, a calm and empty
+            examination room.
       - from: m3-p04
         text:
           en: Sugar that sticks to collagen.
           ar-AE: السكر الذي يلتصق بالكولاجين.
+          ckb-IQ: شەکرێک کە بە کۆلاجینەوە دەنووسێت.
         detail:
-          en: Glycation is a slow, non-enzymatic reaction. Reducing sugars attach to
-            protein amino groups, rearrange into Amadori products and end as
-            advanced glycation end products, or AGEs.
-          ar-AE: التسكير تفاعل بطيء وغير إنزيمي؛ حيث ترتبط السكريات المختزلة بالمجموعات
-            الأمينية البروتينية، وتُعيد ترتيب نفسها لتشكل نواتج أمادوري، وتنتهي
-            بإنتاج نواتج التسكير المتقدمة، أو AGEs.
+          en: Glycation is a slow, non-enzymatic reaction. Reducing sugars attach to protein amino groups, rearrange
+            into Amadori products and end as advanced glycation end products, or AGEs.
+          ar-AE: التسكير تفاعل بطيء وغير إنزيمي؛ حيث ترتبط السكريات المختزلة بالمجموعات الأمينية البروتينية، وتُعيد
+            ترتيب نفسها لتشكل نواتج أمادوري، وتنتهي بإنتاج نواتج التسكير المتقدمة، أو AGEs.
+          ckb-IQ: گلایکەیشن کارلێکێکی هێواش و نا ئەنزیمییە. شەکرە کەمکەرەوەکان دەبەسترێن بە گرووپە ئەمینییەکانی
+            پرۆتینەوە، دووبارە ڕێکدەخرێنەوە بۆ بەرهەمەکانی ئەمادۆری و وەک بەرهەمە کۆتاییە پێشکەوتووەکانی
+            گلایکەیشن (AGEs) کۆتاییان دێت.
         image:
           src: assets/hormones-peptides-skin/today/m3-p04.jpg
           alt:
             en: Sugar crystals scattered on cream silk
             ar-AE: بلورات سكر متناثرة على حرير كريمي اللون
-          prompt: Sugar crystals scattered over smooth cream silk, macro, warm side light
-            making the crystals sparkle.
+            ckb-IQ: کلووە شەکرەکان کە بەسەر ئاوریشمی کرێمیدا پەرش بوونەتەوە
+          prompt: Sugar crystals scattered over smooth cream silk, macro, warm side light making the crystals sparkle.
       - from: m6-p05
         text:
           en: Deficiency is a diagnosis. Decline is ageing.
           ar-AE: العوز تشخيص. والتراجع شيخوخة.
+          ckb-IQ: کەمی دەستنیشانکردنێکی پزیشکییە. دابەزین پیربوونە.
         image:
           src: assets/hormones-peptides-skin/today/m6-p05.jpg
           alt:
             en: Late light moving across a plaster wall
             ar-AE: ضوء الأصيل يتحرك عبر جدار جصي
-          prompt: The shadow of a window frame falling across a warm plaster wall in
-            late-afternoon light, a quiet sense of time passing.
+            ckb-IQ: ڕووناکیی کۆتایی ڕۆژ کە بەسەر دیوارێکی گەچدا دەجووڵێت
+          prompt: The shadow of a window frame falling across a warm plaster wall in late-afternoon light, a quiet sense
+            of time passing.
       - from: m1-p06
         text:
           en: Read the skin before the serum.
           ar-AE: اقرأ الجلد قبل المصل.
+          ckb-IQ: پێش پشکنینی خوێن، لە پێستەکە وردبەرەوە.
         detail:
-          en: The Aesthetic & Regenerative Endocrinology guide treats the aesthetic exam
-            as a systemic screen.
-          ar-AE: يتعامل دليل طب الغدد الصماء التجميلي والتجديدي مع الفحص التجميلي بوصفه
-            مسحاً جهازياً.
+          en: The Aesthetic & Regenerative Endocrinology guide treats the aesthetic exam as a systemic screen.
+          ar-AE: يتعامل دليل طب الغدد الصماء التجميلي والتجديدي مع الفحص التجميلي بوصفه مسحاً جهازياً.
+          ckb-IQ: ڕێبەری ئیندۆکرینۆلۆژیی جوانکاری و بووژێنەرەوە وەک پشکنینێکی سیستەمی سەیری پشکنینی جوانکاری دەکات.
         image:
           src: assets/hormones-peptides-skin/today/m1-p06.jpg
           alt:
             en: A hand holding a magnifying loupe in window light
             ar-AE: يد تمسك بعدسة مكبرة في ضوء النافذة
-          prompt: A hand in a clean white sleeve holding a small magnifying loupe in soft
-            window light; a serum bottle stands out of focus in the background.
+            ckb-IQ: دەستێک کە زوومی گەورەکردنی لەبەر رووناکیی پەنجەرەدا گرتووە
+          prompt: A hand in a clean white sleeve holding a small magnifying loupe in soft window light; a serum bottle
+            stands out of focus in the background.
       - from: m2-p13
         text:
           en: Some syndromes show on the skin first.
           ar-AE: تظهر بعض المتلازمات على الجلد أولاً.
+          ckb-IQ: هەندێک کۆنیشانە سەرەتا لەسەر پێست دەردەکەون.
         detail:
-          en: A handful of inherited endocrine syndromes appear on the skin before the
-            glands declare themselves.
-          ar-AE: يظهر عدد قليل من متلازمات الغدد الصماء الوراثية على الجلد قبل أن تُفصح
-            الغدد عن عللها.
+          en: A handful of inherited endocrine syndromes appear on the skin before the glands declare themselves.
+          ar-AE: يظهر عدد قليل من متلازمات الغدد الصماء الوراثية على الجلد قبل أن تُفصح الغدد عن عللها.
+          ckb-IQ: کۆمەڵێک کۆنیشانەی ئیندۆکرینیی بۆماوەیی پێش ئەوەی ڕژێنەکان خۆیان دەربخەن، لەسەر پێست دەردەکەون.
         image:
           src: assets/hormones-peptides-skin/today/m2-p13.jpg
           alt:
             en: Raking light across the skin of an upper arm
             ar-AE: ضوء مائل ينساب عبر جلد أعلى الذراع
-          prompt: Raking early light across the skin of an upper arm, revealing its fine
-            topography like a landscape at dawn.
+            ckb-IQ: ڕووناکییەکی تەنیشتی بەسەر پێستی بەشی سەرەوەی قۆڵدا دێت
+          prompt: Raking early light across the skin of an upper arm, revealing its fine topography like a landscape at
+            dawn.
       - from: m3-p02
         text:
           en: The skin keeps its own fat.
           ar-AE: يحتفظ الجلد بدهونه الخاصة.
+          ckb-IQ: پێست چەوریی تایبەت بە خۆی دەپارێزێت.
         detail:
-          en: Beneath the dermis lies subcutaneous fat. Within the reticular dermis itself
-            sits a thinner layer, dermal white adipose tissue.
-          ar-AE: تحت الأدمة تقع الدهون تحت الجلد. وداخل الأدمة الشبكية نفسها تستقر طبقة
-            أرق، وهي النسيج الشحمي الأبيض الأدمي.
+          en: Beneath the dermis lies subcutaneous fat. Within the reticular dermis itself sits a thinner layer, dermal
+            white adipose tissue.
+          ar-AE: تحت الأدمة تقع الدهون تحت الجلد. وداخل الأدمة الشبكية نفسها تستقر طبقة أرق، وهي النسيج الشحمي الأبيض
+            الأدمي.
+          ckb-IQ: لەژێر درمدا چەوریی ژێرپێست هەیە. لەناو چینی تۆڕیی خودی درمدا چینێکی تەنکتر هەیە، کە شانەی چەوریی سپیی
+            پێستە.
         image:
           src: assets/hormones-peptides-skin/today/m3-p02.jpg
           alt:
             en: Golden droplets suspended in clear water
             ar-AE: قطرات ذهبية معلقة في ماء صافٍ
-          prompt: Abstract macro of golden oil droplets suspended in clear water, soft
-            warm light, gentle bokeh.
+            ckb-IQ: دڵۆپەی ئاڵتوونی لەناو ئاوی ڕووندا هەڵواسراون
+          prompt: Abstract macro of golden oil droplets suspended in clear water, soft warm light, gentle bokeh.
       - from: m2-p06
         text:
           en: Reassure the many, refer the few.
           ar-AE: طمئن الغالبية، وأحل القلة.
+          ckb-IQ: دڵنیایی بە زۆربەیان بدە، و کەمینەکەیان بنێرە بۆ لای پسپۆڕ.
         detail:
-          en: "When a patient asks about 'cortisol face', start with the drug history:
-            steroid creams, skin-lighteners, herbal tonics and injections."
-          ar-AE: "عندما يسأل مريض عن «وجه الكورتيزول»، ابدأ بالتاريخ الدوائي: كريمات
-            الستيرويد، ومفتحات البشرة، والمقويات العشبية، والحقن."
+          en: "When a patient asks about 'cortisol face', start with the drug history: steroid creams, skin-lighteners,
+            herbal tonics and injections."
+          ar-AE: "عندما يسأل مريض عن «وجه الكورتيزول»، ابدأ بالتاريخ الدوائي: كريمات الستيرويد، ومفتحات البشرة،
+            والمقويات العشبية، والحقن."
+          ckb-IQ: "کاتێک نەخۆشێک پرسیار سەبارەت بە 'دەموچاوی کۆرتیزۆڵ' دەکات، بە مێژووی دەرمانەکان دەست پێبکە: کرێمە
+            ستیرۆیدییەکان، ڕووناککەرەوەکانی پێست، گیادەرمانە بەهێزکەرەکان و دەرزییەکان."
         image:
           src: assets/hormones-peptides-skin/today/m2-p06.jpg
           alt:
             en: A quiet clinic corridor with warm light from a door
             ar-AE: ممر عيادة هادئ مع ضوء دافئ ينبعث من باب
-          prompt: A quiet clinic corridor at dusk, one door ajar with warm light spilling
-            across a pale floor.
+            ckb-IQ: ڕێڕەوێکی بێدەنگی کلینیک بە ڕووناکییەکی گەرم لە دەرگایەکەوە
+          prompt: A quiet clinic corridor at dusk, one door ajar with warm light spilling across a pale floor.
 localization:
   countries:
     - code: AE
       country:
         en: United Arab Emirates
         ar-AE: الإمارات العربية المتحدة
+        ckb-IQ: ئیماراتی یەکگرتووی عەرەبی
       centers:
         - name: United Arab Emirates
           labels:
             en: United Arab Emirates
             ar-AE: الإمارات العربية المتحدة
+            ckb-IQ: ئیماراتی یەکگرتووی عەرەبی
       edition:
         en: English
         ar-AE: العربية — نسخة إماراتية قيد المراجعة
+        ckb-IQ: ئینگلیزی
       units:
         en: As reported in each cited source
         ar-AE: كما ورد في كل مصدر مُستشهد به
+        ckb-IQ: وەک لە هەر سەرچاوەیەکی ئاماژەپێکراودا هاتووە
       approval:
         en: Regulatory notes reviewed by Fady Hannah-Shmouni, MD FRCPC
         ar-AE: "المراجعة العربية والطبية: فادي حنّا شمعوني — بانتظار الاعتماد"
+        ckb-IQ: تێبینییە ڕێکخارییەکان پێداچوونەوەیان لەلایەن Fady Hannah-Shmouni, MD FRCPC بۆ کراوە
       contextLine:
         en: UAE federal status plus Dubai and Abu Dhabi rules with each moment
-        ar-AE: الوضع الاتحادي في دولة الإمارات العربية المتحدة بالإضافة إلى قواعد دبي
-          وأبوظبي مع كل حالة
+        ar-AE: الوضع الاتحادي في دولة الإمارات العربية المتحدة بالإضافة إلى قواعد دبي وأبوظبي مع كل حالة
+        ckb-IQ: دۆخی فیدراڵیی ئیمارات لەگەڵ یاساکانی دوبەی و ئەبووزەبی لەگەڵ هەر ساتێکدا
       status: demo-ready
       learning:
         locale: ar-AE
@@ -776,28 +896,35 @@ localization:
         review:
           en: "Medical review: Fady Hannah-Shmouni, MD FRCPC"
           ar-AE: "المراجعة الطبية: Fady Hannah-Shmouni, MD FRCPC"
+          ckb-IQ: "پێداچوونەوەی پزیشکی: Fady Hannah-Shmouni, MD FRCPC"
     - code: US
       country:
         en: United States
         ar-AE: الولايات المتحدة
+        ckb-IQ: ویلایەتە یەکگرتووەکان
       centers:
         - name: United States
           labels:
             en: United States
             ar-AE: الولايات المتحدة
+            ckb-IQ: ویلایەتە یەکگرتووەکان
       edition:
         en: English
         ar-AE: الإنجليزية
+        ckb-IQ: ئینگلیزی
       units:
         en: As reported in each cited source
         ar-AE: كما ورد في كل مصدر مُستشهد به
+        ckb-IQ: وەک لە هەر سەرچاوەیەکی ئاماژەپێکراودا هاتووە
       approval:
         en: Regulatory notes reviewed by Fady Hannah-Shmouni, MD FRCPC
         ar-AE: الملاحظات التنظيمية راجعها Fady Hannah-Shmouni, MD FRCPC
+        ckb-IQ: تێبینییە ڕێکخارییەکان پێداچوونەوەیان لەلایەن Fady Hannah-Shmouni, MD FRCPC بۆ کراوە
       contextLine:
         en: FDA status and US compounding rules with each moment
-        ar-AE: الوضع التنظيمي لدى إدارة الغذاء والدواء الأمريكية (FDA) وقواعد التحضير
-          الصيدلاني في الولايات المتحدة مع كل حالة
+        ar-AE: الوضع التنظيمي لدى إدارة الغذاء والدواء الأمريكية (FDA) وقواعد التحضير الصيدلاني في الولايات المتحدة مع
+          كل حالة
+        ckb-IQ: دۆخی FDA و یاساکانی ئاوێتەکردنی دەرمانی ئەمریکا لەگەڵ هەر ساتێکدا
       status: demo-ready
       learning:
         locale: en
@@ -807,28 +934,34 @@ localization:
         review:
           en: "Medical review: Fady Hannah-Shmouni, MD FRCPC"
           ar-AE: "المراجعة الطبية: Fady Hannah-Shmouni, MD FRCPC"
+          ckb-IQ: "پێداچوونەوەی پزیشکی: Fady Hannah-Shmouni, MD FRCPC"
     - code: GB
       country:
         en: United Kingdom
         ar-AE: المملكة المتحدة
+        ckb-IQ: شانشینی یەکگرتوو
       centers:
         - name: United Kingdom
           labels:
             en: United Kingdom
             ar-AE: المملكة المتحدة
+            ckb-IQ: شانشینی یەکگرتوو
       edition:
         en: English
         ar-AE: الإنجليزية
+        ckb-IQ: ئینگلیزی
       units:
         en: As reported in each cited source
         ar-AE: كما ورد في كل مصدر مُستشهد به
+        ckb-IQ: وەک لە هەر سەرچاوەیەکی ئاماژەپێکراودا هاتووە
       approval:
         en: Regulatory notes reviewed by Fady Hannah-Shmouni, MD FRCPC
         ar-AE: الملاحظات التنظيمية راجعها Fady Hannah-Shmouni, MD FRCPC
+        ckb-IQ: تێبینییە ڕێکخارییەکان پێداچوونەوەیان لەلایەن Fady Hannah-Shmouni, MD FRCPC بۆ کراوە
       contextLine:
         en: MHRA status and UK rules with each moment
-        ar-AE: الوضع التنظيمي لدى وكالة تنظيم الأدوية ومنتجات الرعاية الصحية (MHRA)
-          وقواعد المملكة المتحدة مع كل حالة
+        ar-AE: الوضع التنظيمي لدى وكالة تنظيم الأدوية ومنتجات الرعاية الصحية (MHRA) وقواعد المملكة المتحدة مع كل حالة
+        ckb-IQ: دۆخی MHRA و یاساکانی شانشینی یەکگرتوو لەگەڵ هەر ساتێکدا
       status: demo-ready
       learning:
         locale: en
@@ -838,28 +971,34 @@ localization:
         review:
           en: "Medical review: Fady Hannah-Shmouni, MD FRCPC"
           ar-AE: "المراجعة الطبية: Fady Hannah-Shmouni, MD FRCPC"
+          ckb-IQ: "پێداچوونەوەی پزیشکی: Fady Hannah-Shmouni, MD FRCPC"
     - code: EU
       country:
         en: Another EU country
         ar-AE: دولة أخرى في الاتحاد الأوروبي
+        ckb-IQ: وڵاتێکی تری یەکێتیی ئەورووپا
       centers:
         - name: Another EU country
           labels:
             en: Another EU country
             ar-AE: دولة أخرى في الاتحاد الأوروبي
+            ckb-IQ: وڵاتێکی تری یەکێتیی ئەورووپا
       edition:
         en: English
         ar-AE: الإنجليزية
+        ckb-IQ: ئینگلیزی
       units:
         en: As reported in each cited source
         ar-AE: كما ورد في كل مصدر مُستشهد به
+        ckb-IQ: وەک لە هەر سەرچاوەیەکی ئاماژەپێکراودا هاتووە
       approval:
         en: Regulatory notes reviewed by Fady Hannah-Shmouni, MD FRCPC
         ar-AE: الملاحظات التنظيمية راجعها Fady Hannah-Shmouni, MD FRCPC
+        ckb-IQ: تێبینییە ڕێکخارییەکان پێداچوونەوەیان لەلایەن Fady Hannah-Shmouni, MD FRCPC بۆ کراوە
       contextLine:
         en: EMA status and EU-wide rules with each moment
-        ar-AE: الوضع التنظيمي لدى وكالة الأدوية الأوروبية (EMA) والقواعد المطبقة على
-          مستوى الاتحاد الأوروبي مع كل حالة
+        ar-AE: الوضع التنظيمي لدى وكالة الأدوية الأوروبية (EMA) والقواعد المطبقة على مستوى الاتحاد الأوروبي مع كل حالة
+        ckb-IQ: دۆخی EMA و یاساکانی سەرتاسەری یەکێتیی ئەورووپا لەگەڵ هەر ساتێکدا
       status: demo-ready
       learning:
         locale: en
@@ -869,28 +1008,35 @@ localization:
         review:
           en: "Medical review: Fady Hannah-Shmouni, MD FRCPC"
           ar-AE: "المراجعة الطبية: Fady Hannah-Shmouni, MD FRCPC"
+          ckb-IQ: "پێداچوونەوەی پزیشکی: Fady Hannah-Shmouni, MD FRCPC"
     - code: PT
       country:
         en: Portugal
         ar-AE: البرتغال
+        ckb-IQ: پورتوگال
       centers:
         - name: Portugal
           labels:
             en: Portugal
             ar-AE: البرتغال
+            ckb-IQ: پورتوگال
       edition:
         en: English
         ar-AE: الإنجليزية
+        ckb-IQ: ئینگلیزی
       units:
         en: As reported in each cited source
         ar-AE: كما ورد في كل مصدر مُستشهد به
+        ckb-IQ: وەک لە هەر سەرچاوەیەکی ئاماژەپێکراودا هاتووە
       approval:
         en: Regulatory notes reviewed by Fady Hannah-Shmouni, MD FRCPC
         ar-AE: الملاحظات التنظيمية راجعها Fady Hannah-Shmouni, MD FRCPC
+        ckb-IQ: تێبینییە ڕێکخارییەکان پێداچوونەوەیان لەلایەن Fady Hannah-Shmouni, MD FRCPC بۆ کراوە
       contextLine:
         en: INFARMED and EU status with each moment
-        ar-AE: الوضع التنظيمي لدى الهيئة الوطنية للأدوية والمنتجات الصحية في البرتغال
-          (INFARMED) والاتحاد الأوروبي مع كل حالة
+        ar-AE: الوضع التنظيمي لدى الهيئة الوطنية للأدوية والمنتجات الصحية في البرتغال (INFARMED) والاتحاد الأوروبي مع
+          كل حالة
+        ckb-IQ: دۆخی INFARMED و یەکێتیی ئەورووپا لەگەڵ هەر ساتێکدا
       status: demo-ready
       learning:
         locale: en
@@ -900,28 +1046,34 @@ localization:
         review:
           en: "Medical review: Fady Hannah-Shmouni, MD FRCPC"
           ar-AE: "المراجعة الطبية: Fady Hannah-Shmouni, MD FRCPC"
+          ckb-IQ: "پێداچوونەوەی پزیشکی: Fady Hannah-Shmouni, MD FRCPC"
     - code: BR
       country:
         en: Brazil
         ar-AE: البرازيل
+        ckb-IQ: بەڕازیل
       centers:
         - name: Brazil
           labels:
             en: Brazil
             ar-AE: البرازيل
+            ckb-IQ: بەڕازیل
       edition:
         en: English
         ar-AE: الإنجليزية
+        ckb-IQ: ئینگلیزی
       units:
         en: As reported in each cited source
         ar-AE: كما ورد في كل مصدر مُستشهد به
+        ckb-IQ: وەک لە هەر سەرچاوەیەکی ئاماژەپێکراودا هاتووە
       approval:
         en: Regulatory notes reviewed by Fady Hannah-Shmouni, MD FRCPC
         ar-AE: الملاحظات التنظيمية راجعها Fady Hannah-Shmouni, MD FRCPC
+        ckb-IQ: تێبینییە ڕێکخارییەکان پێداچوونەوەیان لەلایەن Fady Hannah-Shmouni, MD FRCPC بۆ کراوە
       contextLine:
         en: ANVISA status and Brazilian rules with each moment
-        ar-AE: الوضع التنظيمي لدى وكالة الرقابة الصحية البرازيلية (ANVISA) والقواعد
-          البرازيلية مع كل حالة
+        ar-AE: الوضع التنظيمي لدى وكالة الرقابة الصحية البرازيلية (ANVISA) والقواعد البرازيلية مع كل حالة
+        ckb-IQ: دۆخی ANVISA و یاساکانی بەڕازیل لەگەڵ هەر ساتێکدا
       status: demo-ready
       learning:
         locale: en
@@ -931,27 +1083,34 @@ localization:
         review:
           en: "Medical review: Fady Hannah-Shmouni, MD FRCPC"
           ar-AE: "المراجعة الطبية: Fady Hannah-Shmouni, MD FRCPC"
+          ckb-IQ: "پێداچوونەوەی پزیشکی: Fady Hannah-Shmouni, MD FRCPC"
     - code: SA
       country:
         en: Saudi Arabia
         ar-AE: المملكة العربية السعودية
+        ckb-IQ: عەرەبستانی سعوودی
       centers:
         - name: Saudi Arabia
           labels:
             en: Saudi Arabia
             ar-AE: المملكة العربية السعودية
+            ckb-IQ: عەرەبستانی سعوودی
       edition:
         en: Arabic UAE edition with Saudi supplement
         ar-AE: نسخة عربية إماراتية مع ملحق سعودي
+        ckb-IQ: چاپی عەرەبیی ئیمارات لەگەڵ پاشکۆی سعوودی
       units:
         en: Preserve source units; use local laboratory reference intervals
         ar-AE: حفظ وحدات المصدر واستخدام المجالات المرجعية للمختبر المحلي
+        ckb-IQ: یەکەکانی سەرچاوە بپارێزە؛ مەودای ئاماژەپێکراوی تاقیگەی ناوخۆیی بەکاربهێنە
       approval:
         en: Saudi product checks awaiting Fady review
         ar-AE: التحقق من المنتجات السعودية بانتظار مراجعة فادي
+        ckb-IQ: پشکنینەکانی بەرهەمی سعوودی چاوەڕوانی پێداچوونەوەی Fadyـن
       contextLine:
         en: Product-specific SFDA status; no class-wide inference
         ar-AE: وضع كل منتج لدى هيئة الغذاء والدواء؛ دون تعميم على الفئة
+        ckb-IQ: دۆخی SFDA بۆ هەر بەرهەمێکی دیاریکراو؛ بەبێ گشتاندن بۆ تەواوی پۆلەکە
       status: blueprint
       learning:
         locale: ar-AE
@@ -961,6 +1120,7 @@ localization:
         review:
           en: Review pending
           ar-AE: المراجعة قيد الانتظار
+          ckb-IQ: پێداچوونەوە لە چاوەڕوانیدایە
   defaultCountry: AE
 accreditation:
   gcls: false
@@ -1011,48 +1171,25 @@ site:
     label:
       en: Book store
       ar: متجر الكتب
+      ckb-IQ: فرۆشگای کتێب
     title:
-      en: The Hormonaly bookshelf.
-      ar: مكتبة هورمونالي.
+      en: Keep exploring, one book at a time.
+      ar: واصل التعلّم، كتابًا بعد كتاب.
+      ckb-IQ: بەردەوام بە لە گەڕان، کتێب بە کتێب.
     description:
       en: Explore Hormonaly’s pocket guides and books on peptides, hormones and longevity.
       ar: استكشف أدلة هورمونالي المرجعية وكتبها عن الببتيدات والهرمونات وطول العمر.
+      ckb-IQ: کتێب و ڕێبەرە گیرفانییەکانی Hormonaly لەسەر پێپتایدەکان، هۆرمۆنەکان و تەمەندرێژی بپشکنە.
     action:
       en: Explore the book store
       ar: استكشف متجر الكتب
-    books:
-      - title:
-          en: The Peptide Pocket Guide
-          ar: The Peptide Pocket Guide
-        cover: assets/books/20261016/the-peptide-pocket-guide.jpg
-        href: https://books.perceptors.ai/#book=the-peptide-pocket-guide
-      - title:
-          en: Aesthetic & Regenerative Endocrinology
-          ar: Aesthetic & Regenerative Endocrinology
-        cover: assets/books/20261016/aesthetic-regenerative-endocrinology.jpg
-        href: https://books.perceptors.ai/#book=aesthetic-regenerative-endocrinology
-      - title:
-          en: Peptides, Hormones & Longevity
-          ar: Peptides, Hormones & Longevity
-        cover: assets/books/20261016/peptides-hormones-longevity.jpg
-        href: https://books.perceptors.ai/#book=peptides-hormones-longevity
-    booksByLocale:
-      ar:
-        - title:
-            en: دليل الجيب للببتيدات (The Peptide Pocket Guide — Arabic Edition)
-            ar: دليل الجيب للببتيدات
-          cover: assets/books/20261016/the-peptide-pocket-guide-arabic-edition.png
-          href: https://books.perceptors.ai/#book=the-peptide-pocket-guide-arabic-edition
-        - title:
-            en: "الببتيدات: مدخل مبسط"
-            ar: "الببتيدات: مدخل مبسط"
-          cover: assets/books/20261016/peptides-simplified-arabic.jpg
-          href: https://books.perceptors.ai/#book=peptides-simplified-arabic
+      ckb-IQ: فرۆشگای کتێب بپشکنە
   certificatePartner:
     name: GCLS AI Academy
     note:
       en: Education partner · GCLS AI Academy
       ar: الشريك التعليمي · GCLS AI Academy
+      ckb-IQ: هاوبەشی فێرکاری · GCLS AI Academy
   contact:
     organization: Perceptors · GCLS AI Lab
     email: support@perceptors.ai
@@ -1062,6 +1199,7 @@ site:
       pt: Dubai, Emirados Árabes Unidos
       ar: دبي، الإمارات العربية المتحدة
       id: Dubai, Uni Emirat Arab
+      ckb-IQ: دوبەی، ئیماراتی یەکگرتووی عەرەبی
     socials:
       - label: Instagram · GCLS
         handle: "@gcls.study"
@@ -1075,323 +1213,381 @@ site:
     title:
       en: Terms and Conditions
       ar: الشروط والأحكام
+      ckb-IQ: مەرج و ڕێساکان
     sections:
       - title:
           en: Using Perceptors and your academy
           ar: استخدام Perceptors وأكاديميتك
+          ckb-IQ: بەکارهێنانی Perceptors و ئەکادیمیاکەت
         paragraphs:
-          - en: Perceptors is a learning platform from GCLS AI Lab. These terms cover use of
-              the Perceptors website and platform. Your course provider is
-              identified on its academy page; additional enrollment or
-              institutional terms may apply to that course. Contact
-              support@perceptors.ai for access, certificate or terms questions.
-            ar: Perceptors منصة تعليمية تابعة لـ GCLS AI Lab. تسري هذه الشروط على استخدام
-              موقع Perceptors ومنصتها. تُعرّف صفحة الأكاديمية الجهة المقدمة
-              لدورتك؛ وقد تسري على الدورة شروط إضافية للتسجيل أو شروط مؤسسية.
-              للاستفسارات المتعلقة بالدخول أو الشهادات أو الشروط، تواصل عبر
-              support@perceptors.ai.
+          - en: Perceptors is a learning platform from GCLS AI Lab. These terms cover use of the Perceptors website and
+              platform. Your course provider is identified on its academy page; additional enrollment or
+              institutional terms may apply to that course. Contact support@perceptors.ai for access,
+              certificate or terms questions.
+            ar: Perceptors منصة تعليمية تابعة لـ GCLS AI Lab. تسري هذه الشروط على استخدام موقع Perceptors ومنصتها. تُعرّف
+              صفحة الأكاديمية الجهة المقدمة لدورتك؛ وقد تسري على الدورة شروط إضافية للتسجيل أو شروط مؤسسية.
+              للاستفسارات المتعلقة بالدخول أو الشهادات أو الشروط، تواصل عبر support@perceptors.ai.
+            ckb-IQ: پلاتفۆرمی Perceptors پلاتفۆرمێکی فێربوونە لەلایەن GCLS AI Lab. ئەم مەرجانە بەکارهێنانی ماڵپەڕ و
+              پلاتفۆرمی Perceptors دەگرنەوە. دابینکەری خولەکەت لەسەر پەڕەی ئەکادیمیاکەی دەستنیشان کراوە؛ ڕەنگە
+              مەرجی زیاتری ناونووسین یان دامەزراوەیی بۆ ئەو خولە پێڕەو بکرێت. بۆ پرسیارەکانی دەستپێڕاگەیشتن،
+              بڕوانامە یان مەرجەکان پەیوەندی بکە بە support@perceptors.ai.
       - title:
           en: Your account
           ar: حسابك
+          ckb-IQ: هەژمارەکەت
         paragraphs:
-          - en: Use accurate account details and keep your sign-in credentials private. Each
-              learner account is personal. Use courses within your
-              qualifications and the requirements of your institution and
+          - en: Use accurate account details and keep your sign-in credentials private. Each learner account is personal.
+              Use courses within your qualifications and the requirements of your institution and
               jurisdiction. Report suspected unauthorized access to support.
-            ar: استخدم بيانات حساب دقيقة واحتفظ ببيانات تسجيل الدخول بسرية. كل حساب متعلم
-              شخصي. استخدم الدورات ضمن حدود مؤهلاتك ومتطلبات مؤسستك والجهات
-              المختصة في نطاق ممارستك. أبلغ الدعم عن أي اشتباه في دخول غير مصرح
-              به.
+            ar: استخدم بيانات حساب دقيقة واحتفظ ببيانات تسجيل الدخول بسرية. كل حساب متعلم شخصي. استخدم الدورات ضمن حدود
+              مؤهلاتك ومتطلبات مؤسستك والجهات المختصة في نطاق ممارستك. أبلغ الدعم عن أي اشتباه في دخول غير
+              مصرح به.
+            ckb-IQ: زانیاریی دروستی هەژمارەکەت بەکاربهێنە و زانیارییەکانی چوونەژوورەوەت بە نهێنی بهێڵەرەوە. هەژماری هەر
+              فێرخوازێک کەسییە. خولەکان لە چوارچێوەی لێهاتووییەکانی خۆت و داواکارییەکانی دامەزراوەکەت و
+              دەسەڵاتی دادوەریی خۆت بەکاربهێنە. لە ئەگەری گومانکردن لە دەستپێڕاگەیشتنی ڕێپێنەدراو، ئاگاداری
+              بەشی پشتگیری بکەرەوە.
       - title:
           en: Education and AI tools
           ar: التعليم وأدوات الذكاء الاصطناعي
+          ckb-IQ: پەروەردە و ئامرازەکانی زیرەکیی دەستکرد
         paragraphs:
-          - en: Course materials and AI responses support learning. They do not provide
-              individual medical advice, professional licensure or a substitute
-              for qualified clinical judgment. AI responses may contain errors.
-              Check sources and applicable professional guidance before applying
-              course information.
-            ar: تدعم مواد الدورة وإجابات الذكاء الاصطناعي التعلم. ولا تقدم مشورة طبية فردية
-              أو ترخيصاً مهنياً، ولا تحل محل التقدير السريري المؤهل. قد تتضمن
-              إجابات الذكاء الاصطناعي أخطاء. تحقق من المصادر والإرشادات المهنية
-              المعمول بها قبل تطبيق معلومات الدورة.
-          - en: Do not submit patient records, identifiable health information, confidential
-              employer material or information you do not have permission to
-              use. Use fictional examples for practice.
-            ar: لا تُدخل سجلات مرضى أو معلومات صحية تكشف الهوية أو مواد سرية تخص جهة العمل
-              أو معلومات لا تملك إذناً باستخدامها. استخدم أمثلة افتراضية في
-              التمارين.
+          - en: Course materials and AI responses support learning. They do not provide individual medical advice,
+              professional licensure or a substitute for qualified clinical judgment. AI responses may contain
+              errors. Check sources and applicable professional guidance before applying course information.
+            ar: تدعم مواد الدورة وإجابات الذكاء الاصطناعي التعلم. ولا تقدم مشورة طبية فردية أو ترخيصاً مهنياً، ولا تحل محل
+              التقدير السريري المؤهل. قد تتضمن إجابات الذكاء الاصطناعي أخطاء. تحقق من المصادر والإرشادات
+              المهنية المعمول بها قبل تطبيق معلومات الدورة.
+            ckb-IQ: کەرەستەکانی خولەکە و وەڵامەکانی زیرەکیی دەستکرد پشتگیری لە فێربوون دەکەن. ئەوان ئامۆژگاریی پزیشکیی
+              تاکەکەسی، مۆڵەتی پیشەیی یان جێگرەوەیەک بۆ بڕیاردانی کلینیکیی لێهاتوو دابین ناکەن. وەڵامەکانی
+              زیرەکیی دەستکرد ڕەنگە هەڵەیان تێدابێت. پێش جێبەجێکردنی زانیارییەکانی خولەکە، سەرچاوەکان و
+              ڕێنماییە پیشەییە پێوەندیدارەکان بپشکنە.
+          - en: Do not submit patient records, identifiable health information, confidential employer material or
+              information you do not have permission to use. Use fictional examples for practice.
+            ar: لا تُدخل سجلات مرضى أو معلومات صحية تكشف الهوية أو مواد سرية تخص جهة العمل أو معلومات لا تملك إذناً
+              باستخدامها. استخدم أمثلة افتراضية في التمارين.
+            ckb-IQ: تۆماری نەخۆش، زانیاریی تەندروستیی ناسێنەر، کەرەستەی نهێنیی خاوەنکار یان ئەو زانیارییانەی مۆڵەتی
+              بەکارهێنانیانت نییە نەنێریت. بۆ ڕاهێنان نموونەی خەیاڵی بەکاربهێنە.
       - title:
           en: Course creators’ views and independent content
           ar: آراء منشئي الدورات والمحتوى المستقل
+          ckb-IQ: بۆچوونی دروستکەرانی خول و ناوەڕۆکی سەربەخۆ
         paragraphs:
-          - en: The views, interpretations, opinions and recommendations expressed in a
-              course are those of its identified creators, instructors and
-              contributors. They do not necessarily reflect the views of, or
-              constitute endorsement by, Perceptors.ai, DrVibe Inc., GCLS AI Lab
-              or their affiliates. Course creators are responsible for the
-              substance of the teaching content they contribute, including the
-              evidence and professional positions they present.
-            ar: الآراء والتفسيرات ووجهات النظر والتوصيات الواردة في الدورة تخص منشئيها
-              ومدرّسيها والمساهمين المحددين فيها. وهي لا تعكس بالضرورة آراء
-              Perceptors.ai أو DrVibe Inc. أو GCLS AI Lab أو الجهات التابعة لها،
-              ولا تشكل تأييداً منها. يتحمل منشئو الدورات مسؤولية مضمون المحتوى
-              التعليمي الذي يقدمونه، بما في ذلك الأدلة والمواقف المهنية التي
-              يعرضونها.
-          - en: Courses may discuss emerging, investigational, controversial or off-label
-              approaches, or practices that differ from established clinical
-              guidelines. Making a course available through the platform does
-              not mean that Perceptors.ai, DrVibe Inc., GCLS AI Lab or their
-              affiliates recommend those approaches, consider them
-              guideline-concordant, or authorize their clinical use. Platform
-              delivery does not give these entities control over every
-              statement, opinion or interpretation made by a course creator.
-            ar: قد تناقش الدورات أساليب ناشئة أو قيد البحث أو مثيرة للجدل أو استخدامات خارج
-              الاستطبابات المعتمدة، أو ممارسات تختلف عن الإرشادات السريرية
-              الراسخة. إتاحة دورة عبر المنصة لا تعني أن Perceptors.ai أو DrVibe
-              Inc. أو GCLS AI Lab أو الجهات التابعة لها توصي بهذه الأساليب، أو
-              تعدّها متوافقة مع الإرشادات، أو تجيز استخدامها سريرياً. تقديم
-              الدورة عبر المنصة لا يمنح هذه الجهات السيطرة على كل عبارة أو رأي
-              أو تفسير يصدر عن منشئ الدورة.
-          - en: Learners must independently assess the evidence, applicable guidelines,
-              regulatory requirements and their professional scope before
-              applying information in practice. Educational content does not
-              replace individual clinical judgment or patient-specific
-              evaluation. This clause does not exclude any duty, liability or
-              consumer right that cannot lawfully be excluded, or change the
-              responsibilities of an entity that is itself identified as the
-              creator or provider of particular content.
-            ar: على المتعلمين تقييم الأدلة والإرشادات المعمول بها والمتطلبات التنظيمية وحدود
-              نطاقهم المهني بصورة مستقلة قبل تطبيق المعلومات عملياً. لا يحل
-              المحتوى التعليمي محل التقدير السريري الفردي أو التقييم الخاص بكل
-              مريض. لا يستبعد هذا البند أي واجب أو مسؤولية أو حق للمستهلك لا
-              يجوز استبعاده قانوناً، ولا يغيّر مسؤوليات أي جهة تُعرّف هي نفسها
-              بوصفها منشئ محتوى معين أو مقدمه.
+          - en: The views, interpretations, opinions and recommendations expressed in a course are those of its identified
+              creators, instructors and contributors. They do not necessarily reflect the views of, or
+              constitute endorsement by, Perceptors.ai, DrVibe Inc., GCLS AI Lab or their affiliates. Course
+              creators are responsible for the substance of the teaching content they contribute, including
+              the evidence and professional positions they present.
+            ar: الآراء والتفسيرات ووجهات النظر والتوصيات الواردة في الدورة تخص منشئيها ومدرّسيها والمساهمين المحددين فيها.
+              وهي لا تعكس بالضرورة آراء Perceptors.ai أو DrVibe Inc. أو GCLS AI Lab أو الجهات التابعة لها، ولا
+              تشكل تأييداً منها. يتحمل منشئو الدورات مسؤولية مضمون المحتوى التعليمي الذي يقدمونه، بما في ذلك
+              الأدلة والمواقف المهنية التي يعرضونها.
+            ckb-IQ: بۆچوونەکان، لێکدانەوەکان، ڕاکان و پێشنیازە دەربڕاوەکان لە هەر خولێکدا هی دروستکەران، مامۆستایان و
+              بەشداربووانی دەستنیشانکراوی خولەکەن. مەرج نییە ڕەنگدانەوەی بۆچوونی Perceptors.ai، DrVibe Inc.،
+              GCLS AI Lab یان لقەکانیان بن، یان وەک پشتڕاستکردنەوە لەلایەن ئەوانەوە هەژمار بکرێن. دروستکەرانی
+              خول بەرپرسن لە جەوهەری ناوەڕۆکی فێرکاری کە پێشکەشی دەکەن، لەوانەش بەڵگەکان و هەڵوێستە پیشەییەکان
+              کە دەیخەنە ڕوو.
+          - en: Courses may discuss emerging, investigational, controversial or off-label approaches, or practices that
+              differ from established clinical guidelines. Making a course available through the platform does
+              not mean that Perceptors.ai, DrVibe Inc., GCLS AI Lab or their affiliates recommend those
+              approaches, consider them guideline-concordant, or authorize their clinical use. Platform
+              delivery does not give these entities control over every statement, opinion or interpretation
+              made by a course creator.
+            ar: قد تناقش الدورات أساليب ناشئة أو قيد البحث أو مثيرة للجدل أو استخدامات خارج الاستطبابات المعتمدة، أو
+              ممارسات تختلف عن الإرشادات السريرية الراسخة. إتاحة دورة عبر المنصة لا تعني أن Perceptors.ai أو
+              DrVibe Inc. أو GCLS AI Lab أو الجهات التابعة لها توصي بهذه الأساليب، أو تعدّها متوافقة مع
+              الإرشادات، أو تجيز استخدامها سريرياً. تقديم الدورة عبر المنصة لا يمنح هذه الجهات السيطرة على كل
+              عبارة أو رأي أو تفسير يصدر عن منشئ الدورة.
+            ckb-IQ: خولەکان ڕەنگە باس لە شێوازە تازەپێگەیشتووەکان، لێکۆڵینەوەییەکان، جێی مشتومڕەکان یان بەکارهێنانی
+              دەرەوەی ڕێنمایی (off-label)، یان ئەو کارانە بکەن کە جیاوازن لە ڕێنماییە کلینیکییە جێگیرکراوەکان.
+              خستنەبەردەستی خولێک لە ڕێگەی پلاتفۆرمەکەوە بەو مانایە نییە کە Perceptors.ai، DrVibe Inc.، GCLS
+              AI Lab یان لقەکانیان پێشنیازی ئەو شێوازانە دەکەن، بە هاوتای ڕێنماییەکانیان دەزانن، یان ڕێگە بە
+              بەکارهێنانی کلینیکییان دەدەن. گەیاندنی پلاتفۆرم کۆنترۆڵ بەسەر هەموو لێدوان، بۆچوون یان
+              لێکدانەوەیەک کە لەلایەن دروستکەری خولەکەوە دەکرێت بەم قەوارانە نادات.
+          - en: Learners must independently assess the evidence, applicable guidelines, regulatory requirements and their
+              professional scope before applying information in practice. Educational content does not replace
+              individual clinical judgment or patient-specific evaluation. This clause does not exclude any
+              duty, liability or consumer right that cannot lawfully be excluded, or change the
+              responsibilities of an entity that is itself identified as the creator or provider of particular
+              content.
+            ar: على المتعلمين تقييم الأدلة والإرشادات المعمول بها والمتطلبات التنظيمية وحدود نطاقهم المهني بصورة مستقلة
+              قبل تطبيق المعلومات عملياً. لا يحل المحتوى التعليمي محل التقدير السريري الفردي أو التقييم الخاص
+              بكل مريض. لا يستبعد هذا البند أي واجب أو مسؤولية أو حق للمستهلك لا يجوز استبعاده قانوناً، ولا
+              يغيّر مسؤوليات أي جهة تُعرّف هي نفسها بوصفها منشئ محتوى معين أو مقدمه.
+            ckb-IQ: پێویستە فێرخوازان بە شێوەیەکی سەربەخۆ هەڵسەنگاندن بۆ بەڵگەکان، ڕێنماییە پێوەندیدارەکان، داواکارییە
+              ڕێکخارییەکان و مەودای پیشەییی خۆیان بکەن پێش ئەوەی زانیارییەکان لە کاردا جێبەجێ بکەن. ناوەڕۆکی
+              فێرکاری جێگەی بڕیاردانی کلینیکیی تاکەکەسی یان هەڵسەنگاندنی تایبەت بە نەخۆش ناگرێتەوە. ئەم بڕگەیە
+              هیچ ئەرک، بەرپرسیارێتی یان مافێکی بەکاربەر کە ناتوانرێت بە شێوەیەکی یاسایی بەدەر بکرێت لانابات،
+              یان بەرپرسیارێتییەکانی ئەو لایەنە ناگۆڕێت کە خۆی وەک دروستکەر یان دابینکەری ناوەڕۆکێکی دیاریکراو
+              دەستنیشان کراوە.
         id: course-creators-views
       - title:
           en: Enrollment and payment
           ar: التسجيل والدفع
+          ckb-IQ: ناونووسین و پارەدان
         paragraphs:
-          - en: The course page and checkout describe the price, currency, access period and
-              included services. A free enrollment does not create a paid
-              subscription. Contact support about billing errors, cancellation
-              or refunds. Nothing in these terms removes mandatory consumer
-              rights.
-            ar: توضح صفحة الدورة وصفحة الدفع السعر والعملة ومدة الإتاحة والخدمات المشمولة.
-              لا ينشئ التسجيل المجاني اشتراكاً مدفوعاً. تواصل مع الدعم بشأن
-              أخطاء الفوترة أو الإلغاء أو استرداد المبالغ. لا تلغي هذه الشروط أي
-              حقوق إلزامية للمستهلك.
+          - en: The course page and checkout describe the price, currency, access period and included services. A free
+              enrollment does not create a paid subscription. Contact support about billing errors,
+              cancellation or refunds. Nothing in these terms removes mandatory consumer rights.
+            ar: توضح صفحة الدورة وصفحة الدفع السعر والعملة ومدة الإتاحة والخدمات المشمولة. لا ينشئ التسجيل المجاني
+              اشتراكاً مدفوعاً. تواصل مع الدعم بشأن أخطاء الفوترة أو الإلغاء أو استرداد المبالغ. لا تلغي هذه
+              الشروط أي حقوق إلزامية للمستهلك.
+            ckb-IQ: پەڕەی خول و بەشی پارەدان نرخ، دراو، ماوەی دەستپێڕاگەیشتن و خزمەتگوزارییە لەخۆگیراوەکان ڕوون دەکەنەوە.
+              ناونووسینی بێبەرامبەر بەشداریکردنی بەپارە دروست ناکات. سەبارەت بە هەڵەکانی پارەدان،
+              هەڵوەشاندنەوە یان گەڕاندنەوەی پارە، پەیوەندی بە بەشی پشتگیرییەوە بکە. هیچ شتێک لەم مەرجانەدا
+              مافە ناچارییەکانی بەکاربەر لانابات.
       - title:
           en: Assessments and certificates
           ar: التقييمات والشهادات
+          ckb-IQ: هەڵسەنگاندنەکان و بڕوانامەکان
         paragraphs:
-          - en: Complete assessments honestly and meet the course’s stated requirements. A
-              certificate records completion under the named issuer’s rules.
-              GCLS AI Lab branding identifies platform or learning support; it
-              does not establish GCLS accreditation, CME or CE credit. Formal
-              accreditation or credit applies only when explicitly confirmed for
-              the specific course.
-            ar: أكمل التقييمات بأمانة واستوفِ متطلبات الدورة المعلنة. تسجل الشهادة الإتمام
-              وفق قواعد الجهة المُصدرة المسماة. تشير علامة GCLS AI Lab إلى دعم
-              المنصة أو التعلم؛ ولا تثبت اعتماد GCLS أو رصيداً للتعليم الطبي أو
-              المهني المستمر (CME أو CE). لا يسري اعتماد رسمي أو رصيد إلا عند
-              تأكيده صراحة للدورة المعنية.
+          - en: Complete assessments honestly and meet the course’s stated requirements. A certificate records completion
+              under the named issuer’s rules. GCLS AI Lab branding identifies platform or learning support; it
+              does not establish GCLS accreditation, CME or CE credit. Formal accreditation or credit applies
+              only when explicitly confirmed for the specific course.
+            ar: أكمل التقييمات بأمانة واستوفِ متطلبات الدورة المعلنة. تسجل الشهادة الإتمام وفق قواعد الجهة المُصدرة
+              المسماة. تشير علامة GCLS AI Lab إلى دعم المنصة أو التعلم؛ ولا تثبت اعتماد GCLS أو رصيداً للتعليم
+              الطبي أو المهني المستمر (CME أو CE). لا يسري اعتماد رسمي أو رصيد إلا عند تأكيده صراحة للدورة
+              المعنية.
+            ckb-IQ: هەڵسەنگاندنەکان بە دەستپاکی تەواو بکە و مەرجە دیاریکراوەکانی خولەکە جێبەجێ بکە. بڕوانامە تەواوکردن
+              لەژێر یاساکانی دەرکەری ناوبراودا تۆمار دەکات. براندکردنی GCLS AI Lab دەستنیشانی پلاتفۆرم یان
+              پشتگیریی فێربوون دەکات؛ ئەمە دانپێدانانی فەرمیی GCLS، متمانەپێدانی CME یان CE دانامەزرێنێت.
+              باوەڕپێکردنی فەرمی یان متمانە تەنها کاتێک پێڕەو دەکرێت کە بە ڕوونی بۆ خولە دیاریکراوەکە
+              پشتڕاستکرابێتەوە.
       - title:
           en: Materials and acceptable use
           ar: المواد والاستخدام المقبول
+          ckb-IQ: کەرەستەکان و بەکارهێنانی پەسەندکراو
         paragraphs:
-          - en: Use learning materials for your personal or authorized institutional
-              learning. Do not redistribute, sell or publish them without the
-              rights holder’s permission, except where law permits. Do not
-              bypass enrollment, assessments or access controls, access other
-              users’ data, or disrupt the service. Access restrictions can be
-              raised with support for review.
-            ar: استخدم المواد التعليمية لتعلمك الشخصي أو للتعلم المؤسسي المصرح به. لا تعِد
-              توزيعها أو بيعها أو نشرها دون إذن صاحب الحقوق، إلا حيث يسمح
-              القانون. لا تتجاوز التسجيل أو التقييمات أو ضوابط الوصول، ولا تصل
-              إلى بيانات مستخدمين آخرين أو تعطل الخدمة. يمكن عرض القيود على
-              الوصول على الدعم لمراجعتها.
+          - en: Use learning materials for your personal or authorized institutional learning. Do not redistribute, sell
+              or publish them without the rights holder’s permission, except where law permits. Do not bypass
+              enrollment, assessments or access controls, access other users’ data, or disrupt the service.
+              Access restrictions can be raised with support for review.
+            ar: استخدم المواد التعليمية لتعلمك الشخصي أو للتعلم المؤسسي المصرح به. لا تعِد توزيعها أو بيعها أو نشرها دون
+              إذن صاحب الحقوق، إلا حيث يسمح القانون. لا تتجاوز التسجيل أو التقييمات أو ضوابط الوصول، ولا تصل
+              إلى بيانات مستخدمين آخرين أو تعطل الخدمة. يمكن عرض القيود على الوصول على الدعم لمراجعتها.
+            ckb-IQ: کەرەستەکانی فێربوون بۆ فێربوونی کەسی یان دامەزراوەیی ڕێپێدراوی خۆت بەکاربهێنە. دووبارە دابەشیان
+              مەکەرەوە، مەیانفرۆشە و بڵاویان مەکەرەوە بەبێ مۆڵەتی خاوەنی مافەکان، مەگەر یاسا ڕێگەی پێدابێت.
+              بەربەستەکانی ناونووسین، هەڵسەنگاندنەکان یان کۆنترۆڵی دەستپێڕاگەیشتن مەبەزێنە، دەست بۆ داتای
+              بەکارهێنەرانی تر مەبە، و خزمەتگوزارییەکە تێک مەدە. دەکرێت سنووردارکردنەکانی دەستپێڕاگەیشتن بۆ
+              پێداچوونەوە لەگەڵ بەشی پشتگیری باس بکرێن.
       - title:
           en: Availability and external services
           ar: الإتاحة والخدمات الخارجية
+          ckb-IQ: بەردەستبوون و خزمەتگوزارییە دەرەکییەکان
         paragraphs:
-          - en: Courses and platform features may be maintained or updated. Availability can
-              be interrupted. External resources are governed by their
-              providers’ terms. Retain your own copies of permitted personal
+          - en: Courses and platform features may be maintained or updated. Availability can be interrupted. External
+              resources are governed by their providers’ terms. Retain your own copies of permitted personal
               learning artifacts where needed.
-            ar: قد تخضع الدورات وخصائص المنصة للصيانة أو التحديث، وقد تنقطع الإتاحة. تخضع
-              الموارد الخارجية لشروط مقدميها. احتفظ عند الحاجة بنسخك الخاصة من
-              مخرجات تعلمك الشخصية المسموح بالاحتفاظ بها.
+            ar: قد تخضع الدورات وخصائص المنصة للصيانة أو التحديث، وقد تنقطع الإتاحة. تخضع الموارد الخارجية لشروط مقدميها.
+              احتفظ عند الحاجة بنسخك الخاصة من مخرجات تعلمك الشخصية المسموح بالاحتفاظ بها.
+            ckb-IQ: خولەکان و تایبەتمەندییەکانی پلاتفۆرم ڕەنگە چاکسازییان بۆ بکرێت یان نوێ بکرێنەوە. دەکرێت بەردەستبوون
+              پچڕانی تێبکەوێت. سەرچاوە دەرەکییەکان لەلایەن مەرجەکانی دابینکەرەکانیانەوە بەڕێوەدەبرێن. لە کاتی
+              پێویستدا، کۆپیی تایبەت بە خۆت لە بەرهەمە فێربوونییە کەسییە ڕێپێدراوەکانت بپارێزە.
       - title:
           en: Your agreement and changes
           ar: موافقتك والتغييرات
+          ckb-IQ: ڕێککەوتن و گۆڕانکارییەکانی تۆ
         paragraphs:
-          - en: The displayed version identifies these terms. When requested after sign-in,
-              your typed name and affirmative checkbox record your electronic
-              acceptance. Acceptance is saved to your account for the applicable
-              academy and course. A changed document will require renewed
-              acceptance.
-            ar: يحدد رقم الإصدار المعروض هذه الشروط. عند طلب الموافقة بعد تسجيل الدخول، يسجل
-              اسمك المكتوب واختيارك الإيجابي لمربع الموافقة قبولك الإلكتروني.
-              تُحفظ الموافقة في حسابك للأكاديمية والدورة المعنيتين. يتطلب تغيير
-              الوثيقة تجديد الموافقة.
-          - en: Accepting these terms is separate from marketing consent and optional
-              tutor-memory preferences. The Privacy Policy explains how platform
-              information is handled. Contact support@perceptors.ai about either
-              document.
-            ar: قبول هذه الشروط منفصل عن الموافقة على التسويق وتفضيلات ذاكرة المدرّس
-              الاختيارية. توضح سياسة الخصوصية كيفية التعامل مع معلومات المنصة.
-              للاستفسار عن أي من الوثيقتين، تواصل عبر support@perceptors.ai.
+          - en: The displayed version identifies these terms. When requested after sign-in, your typed name and
+              affirmative checkbox record your electronic acceptance. Acceptance is saved to your account for
+              the applicable academy and course. A changed document will require renewed acceptance.
+            ar: يحدد رقم الإصدار المعروض هذه الشروط. عند طلب الموافقة بعد تسجيل الدخول، يسجل اسمك المكتوب واختيارك
+              الإيجابي لمربع الموافقة قبولك الإلكتروني. تُحفظ الموافقة في حسابك للأكاديمية والدورة المعنيتين.
+              يتطلب تغيير الوثيقة تجديد الموافقة.
+            ckb-IQ: وەشانە نیشاندراوەکە ئەم مەرجانە دەستنیشان دەکات. کاتێک دوای چوونەژوورەوە داواکرا، ناوی نووسراوت و
+              چوارگۆشەی دیاریکردنی ئەرێنی، قبووڵکردنی ئەلیکترۆنیی تۆ تۆمار دەکەن. قبووڵکردن لە هەژمارەکەتدا بۆ
+              ئەکادیمیا و خولی پێوەندیدار پاشەکەوت دەکرێت. بەڵگەنامەیەکی گۆڕاو پێویستی بە قبووڵکردنەوەی نوێ
+              دەبێت.
+          - en: Accepting these terms is separate from marketing consent and optional tutor-memory preferences. The
+              Privacy Policy explains how platform information is handled. Contact support@perceptors.ai about
+              either document.
+            ar: قبول هذه الشروط منفصل عن الموافقة على التسويق وتفضيلات ذاكرة المدرّس الاختيارية. توضح سياسة الخصوصية كيفية
+              التعامل مع معلومات المنصة. للاستفسار عن أي من الوثيقتين، تواصل عبر support@perceptors.ai.
+            ckb-IQ: قبووڵکردنی ئەم مەرجانە جیاوازە لە ڕەزامەندیی بەبازاڕکردن و پەسەندکراوە ئارەزوومەندانەکانی بیرگەی
+              ڕاهێنەر. سیاسەتی پاراستنی نهێنی ڕوونی دەکاتەوە کە چۆن زانیارییەکانی پلاتفۆرم مامەڵەیان لەگەڵ
+              دەکرێت. سەبارەت بە هەر بەڵگەنامەیەک پەیوەندی بە support@perceptors.ai بکە.
     sourceVersion: 2026-10-03-v2
     sourceSha256: b9c9d0bc112edba9caeaf2917519563ed32ef9dd5c3371792fe4a07709832fc2
     reviewNotice:
       en: Arabic translation draft — legal review pending.
       ar: مسودة ترجمة عربية — بانتظار المراجعة القانونية.
+      ckb-IQ: ڕەشنووسی وەرگێڕانی سۆرانی — پێداچوونەوەی یاسایی لە چاوەڕوانیدایە.
   privacy:
     version: 2026-10-03-v1-ar-review-20261007
     updated: October 3, 2026
     title:
       en: Privacy Policy
       ar: سياسة الخصوصية
+      ckb-IQ: سیاسەتی پاراستنی نهێنی
     sections:
       - title:
           en: Who to contact
           ar: جهة التواصل
+          ckb-IQ: پەیوەندی بە کێوە بکەیت
         paragraphs:
-          - en: Perceptors, a GCLS AI Lab platform, supports the academy provider identified
-              on your course page. Contact support@perceptors.ai about privacy
-              or account requests and identify the academy you use. Our contact
-              location is Dubai, United Arab Emirates. Your academy or
-              institution may provide an additional privacy notice for its own
-              processing.
-            ar: تدعم Perceptors، وهي منصة تابعة لـ GCLS AI Lab، الجهة المقدمة للأكاديمية
-              المحددة في صفحة دورتك. لطلبات الخصوصية أو الحساب، تواصل عبر
-              support@perceptors.ai وحدد الأكاديمية التي تستخدمها. موقع التواصل
-              لدينا هو دبي، الإمارات العربية المتحدة. قد تقدم أكاديميتك أو
-              مؤسستك إشعار خصوصية إضافياً يتعلق بمعالجتها الخاصة للبيانات.
+          - en: Perceptors, a GCLS AI Lab platform, supports the academy provider identified on your course page. Contact
+              support@perceptors.ai about privacy or account requests and identify the academy you use. Our
+              contact location is Dubai, United Arab Emirates. Your academy or institution may provide an
+              additional privacy notice for its own processing.
+            ar: تدعم Perceptors، وهي منصة تابعة لـ GCLS AI Lab، الجهة المقدمة للأكاديمية المحددة في صفحة دورتك. لطلبات
+              الخصوصية أو الحساب، تواصل عبر support@perceptors.ai وحدد الأكاديمية التي تستخدمها. موقع التواصل
+              لدينا هو دبي، الإمارات العربية المتحدة. قد تقدم أكاديميتك أو مؤسستك إشعار خصوصية إضافياً يتعلق
+              بمعالجتها الخاصة للبيانات.
+            ckb-IQ: پلاتفۆرمی Perceptors، کە پلاتفۆرمێکی GCLS AI Labـە، پشتگیری لەو دابینکەرەی ئەکادیمیا دەکات کە لە پەڕەی
+              خولەکەتدا دیاری کراوە. بۆ داواکارییەکانی پەیوەست بە نهێنی یان هەژمار، پەیوەندی بە
+              support@perceptors.ai بکە و ئەو ئەکادیمیایە دەستنیشان بکە کە بەکاری دەهێنیت. شوێنی
+              پەیوەندیکردنمان لە دوبەی، ئیماراتی یەکگرتووی عەرەبییە. ئەکادیمیا یان دامەزراوەکەت لەوانەیە
+              ئاگادارییەکی زیاتری پاراستنی نهێنی بۆ پرۆسێسکردنی تایبەت بە خۆی دابین بکات.
       - title:
           en: Account, inquiry and learning information
           ar: معلومات الحساب والاستفسارات والتعلم
+          ckb-IQ: زانیارییەکانی هەژمار، پرسیار و فێربوون
         paragraphs:
-          - en: We process the information you provide in contact forms, including your
-              name, email, organization and message, to respond to your inquiry.
-              Learner accounts use identity and sign-in information, course
-              enrollment, learning progress, assessment submissions and results
-              to provide and administer learning.
-            ar: نعالج المعلومات التي تقدمها في نماذج التواصل، ومنها اسمك وبريدك الإلكتروني
-              ومؤسستك ورسالتك، للرد على استفسارك. تستخدم حسابات المتعلمين
-              معلومات الهوية وتسجيل الدخول والتسجيل في الدورات والتقدم التعليمي
-              وإجابات التقييمات ونتائجها لتوفير التعلم وإدارته.
-          - en: Where agreement is required, we retain the name you type, your account and
-              academy/course identifiers, document version and snapshot,
-              language and server-recorded acceptance time. This records what
+          - en: We process the information you provide in contact forms, including your name, email, organization and
+              message, to respond to your inquiry. Learner accounts use identity and sign-in information,
+              course enrollment, learning progress, assessment submissions and results to provide and
+              administer learning.
+            ar: نعالج المعلومات التي تقدمها في نماذج التواصل، ومنها اسمك وبريدك الإلكتروني ومؤسستك ورسالتك، للرد على
+              استفسارك. تستخدم حسابات المتعلمين معلومات الهوية وتسجيل الدخول والتسجيل في الدورات والتقدم
+              التعليمي وإجابات التقييمات ونتائجها لتوفير التعلم وإدارته.
+            ckb-IQ: ئێمە ئەو زانیارییانەی لە فۆرمەکانی پەیوەندیدا دابینیان دەکەیت، لەوانەش ناو، ئیمەیڵ، ڕێکخراو و
+              پەیامەکەت پرۆسێس دەکەین بۆ وەڵامدانەوەی پرسیارەکەت. هەژمارەکانی فێرخواز زانیاریی ناسنامە و
+              چوونەژوورەوە، ناونووسینی خول، بەرەوپێشچوونی فێربوون، ناردنی هەڵسەنگاندنەکان و ئەنجامەکان
+              بەکاردەهێنن بۆ دابینکردن و بەڕێوەبردنی فێربوون.
+          - en: Where agreement is required, we retain the name you type, your account and academy/course identifiers,
+              document version and snapshot, language and server-recorded acceptance time. This records what
               you agreed to.
-            ar: عندما تكون الموافقة مطلوبة، نحتفظ بالاسم الذي تكتبه ومعرّفات حسابك
-              والأكاديمية والدورة وإصدار الوثيقة ونسخة منها واللغة ووقت الموافقة
-              المسجل على الخادم. يوثق ذلك ما وافقت عليه.
+            ar: عندما تكون الموافقة مطلوبة، نحتفظ بالاسم الذي تكتبه ومعرّفات حسابك والأكاديمية والدورة وإصدار الوثيقة
+              ونسخة منها واللغة ووقت الموافقة المسجل على الخادم. يوثق ذلك ما وافقت عليه.
+            ckb-IQ: لەو شوێنانەی ڕێککەوتن پێویستە، ئێمە ئەو ناوەی دەینووسیت، ناسێنەرەکانی هەژمار و ئەکادیمیا/خولەکەت،
+              وەشانی بەڵگەنامە و وێنەی تۆمارکراوی، زمان و کاتی قبووڵکردنی تۆمارکراو لە سێرڤەر دەپارێزین. ئەمە
+              ئەوە تۆمار دەکات کە لەسەری ڕێککەوتوویت.
       - title:
           en: AI-assisted learning
           ar: التعلم بمساعدة الذكاء الاصطناعي
+          ckb-IQ: فێربوونی بەهێزکراو بە زیرەکیی دەستکرد
         paragraphs:
-          - en: Questions, responses and learning context are processed to provide tutor
-              features and feedback. Optional remembered preferences use the
-              controls described in the course. Do not enter patient
-              information, sensitive health details or confidential information.
-              AI providers may process the information needed to deliver the
-              requested feature.
-            ar: تُعالج الأسئلة والإجابات وسياق التعلم لتوفير خصائص المدرّس والتغذية الراجعة.
-              تُدار التفضيلات المحفوظة الاختيارية عبر الضوابط الموضحة في الدورة.
-              لا تُدخل معلومات المرضى أو تفاصيل صحية حساسة أو معلومات سرية. قد
-              يعالج مقدمو خدمات الذكاء الاصطناعي المعلومات اللازمة لتقديم
-              الخاصية المطلوبة.
+          - en: Questions, responses and learning context are processed to provide tutor features and feedback. Optional
+              remembered preferences use the controls described in the course. Do not enter patient
+              information, sensitive health details or confidential information. AI providers may process the
+              information needed to deliver the requested feature.
+            ar: تُعالج الأسئلة والإجابات وسياق التعلم لتوفير خصائص المدرّس والتغذية الراجعة. تُدار التفضيلات المحفوظة
+              الاختيارية عبر الضوابط الموضحة في الدورة. لا تُدخل معلومات المرضى أو تفاصيل صحية حساسة أو
+              معلومات سرية. قد يعالج مقدمو خدمات الذكاء الاصطناعي المعلومات اللازمة لتقديم الخاصية المطلوبة.
+            ckb-IQ: پرسیارەکان، وەڵامەکان و چوارچێوەی فێربوون پرۆسێس دەکرێن بۆ دابینکردنی تایبەتمەندییەکانی ڕاهێنەر و
+              پێدانی فیدباک. پەسەندکراوە لەبەرچاوگیراوە ئارەزوومەندانەکان ئەو کۆنترۆڵانە بەکاردەهێنن کە لە
+              خولەکەدا ڕوونکراونەتەوە. زانیاریی نەخۆش، وردەکارییە هەستیارەکانی تەندروستی یان زانیاریی نهێنی
+              تۆمار مەکە. دابینکەرانی زیرەکیی دەستکرد دەکرێت ئەو زانیارییانە پرۆسێس بکەن کە بۆ پێشکەشکردنی
+              تایبەتمەندییە داواکراوەکە پێویستن.
       - title:
           en: Service providers and recipients
           ar: مقدمو الخدمات والجهات المتلقية
+          ckb-IQ: دابینکەرانی خزمەتگوزاری و وەرگران
         paragraphs:
-          - en: Providers of hosting, authentication, email, payment and AI services process
-              information needed for those services. Academy administrators and
-              authorized faculty may access learning records needed to
-              administer the course, support learners and review assessments.
-              Payment details are handled by the payment provider; the platform
-              uses transaction and enrollment records to manage access.
-            ar: يعالج مقدمو خدمات الاستضافة والمصادقة والبريد الإلكتروني والدفع والذكاء
-              الاصطناعي المعلومات اللازمة لتلك الخدمات. قد يطلع مسؤولو
-              الأكاديمية وأعضاء هيئة التدريس المصرح لهم على سجلات التعلم اللازمة
-              لإدارة الدورة ودعم المتعلمين ومراجعة التقييمات. يتولى مقدم خدمة
-              الدفع معالجة بيانات الدفع؛ وتستخدم المنصة سجلات المعاملات والتسجيل
-              لإدارة الوصول.
-          - en: Public certificate verification can disclose the learner name, course,
-              issuer, date and certificate status to someone with the
-              verification link or code. Avoid sharing that link if you do not
-              want to make those details available.
-            ar: قد يكشف التحقق العام من الشهادات اسم المتعلم والدورة والجهة المُصدرة
-              والتاريخ وحالة الشهادة لمن يملك رابط التحقق أو رمزه. تجنب مشاركة
-              الرابط إذا كنت لا ترغب في إتاحة تلك التفاصيل.
+          - en: Providers of hosting, authentication, email, payment and AI services process information needed for those
+              services. Academy administrators and authorized faculty may access learning records needed to
+              administer the course, support learners and review assessments. Payment details are handled by
+              the payment provider; the platform uses transaction and enrollment records to manage access.
+            ar: يعالج مقدمو خدمات الاستضافة والمصادقة والبريد الإلكتروني والدفع والذكاء الاصطناعي المعلومات اللازمة لتلك
+              الخدمات. قد يطلع مسؤولو الأكاديمية وأعضاء هيئة التدريس المصرح لهم على سجلات التعلم اللازمة
+              لإدارة الدورة ودعم المتعلمين ومراجعة التقييمات. يتولى مقدم خدمة الدفع معالجة بيانات الدفع؛
+              وتستخدم المنصة سجلات المعاملات والتسجيل لإدارة الوصول.
+            ckb-IQ: دابینکەرانی خزمەتگوزارییەکانی میوانداریکردن، سەلماندنی ناسنامە، ئیمەیڵ، پارەدان و زیرەکیی دەستکرد ئەو
+              زانیارییانە پرۆسێس دەکەن کە بۆ ئەو خزمەتگوزارییانە پێویستن. بەڕێوەبەرانی ئەکادیمیا و دەستەی
+              مامۆستایانی ڕێپێدراو دەتوانن دەستیان بگات بە تۆمارەکانی فێربوون کە بۆ بەڕێوەبردنی خولەکە،
+              پشتگیریکردنی فێرخوازان و پێداچوونەوەی هەڵسەنگاندنەکان پێویستن. وردەکارییەکانی پارەدان لەلایەن
+              دابینکەری پارەدانەوە مامەڵەیان لەگەڵ دەکرێت؛ پلاتفۆرمەکە تۆمارەکانی مامەڵە داراییەکان و
+              ناونووسین بەکاردەهێنێت بۆ بەڕێوەبردنی دەستپێڕاگەیشتن.
+          - en: Public certificate verification can disclose the learner name, course, issuer, date and certificate status
+              to someone with the verification link or code. Avoid sharing that link if you do not want to
+              make those details available.
+            ar: قد يكشف التحقق العام من الشهادات اسم المتعلم والدورة والجهة المُصدرة والتاريخ وحالة الشهادة لمن يملك رابط
+              التحقق أو رمزه. تجنب مشاركة الرابط إذا كنت لا ترغب في إتاحة تلك التفاصيل.
+            ckb-IQ: پشتڕاستکردنەوەی گشتیی بڕوانامە دەتوانێت ناوی فێرخواز، خول، لایەنی دەرکەر، بەروار و دۆخی بڕوانامە بۆ
+              هەر کەسێک کە بەستەر یان کۆدی پشتڕاستکردنەوەی هەیە ئاشکرا بکات. ئەگەر ناتەوێت ئەو وردەکارییانە
+              بەردەست بن، لە هاوبەشکردنی ئەو بەستەرە بەدوور بە.
       - title:
           en: Storage, international processing and security
           ar: التخزين والمعالجة الدولية والأمان
+          ckb-IQ: هەڵگرتن، پرۆسێسکردنی نێودەوڵەتی و پاراستن
         paragraphs:
-          - en: Services may process information in different countries depending on the
-              academy’s hosting and provider arrangements. Institutional hosting
-              and data requirements are set with the relevant provider; do not
-              assume a particular country of storage from a contact address.
-            ar: قد تعالج الخدمات المعلومات في دول مختلفة بحسب ترتيبات استضافة الأكاديمية
-              ومقدمي خدماتها. تُحدد متطلبات الاستضافة والبيانات المؤسسية مع مقدم
-              الخدمة المعني؛ فلا تفترض دولة معينة للتخزين استناداً إلى عنوان
-              التواصل.
-          - en: Access controls and operational safeguards support protection of
-              information. No service can guarantee absolute security. We retain
-              information as needed to provide learning, document certificates
-              and agreements, resolve issues and meet applicable obligations.
-              Retention depends on record type and academy arrangements.
-            ar: تسهم ضوابط الوصول والتدابير التشغيلية في حماية المعلومات. لا تستطيع أي خدمة
-              ضمان الأمان المطلق. نحتفظ بالمعلومات بقدر الحاجة لتوفير التعلم
-              وتوثيق الشهادات والاتفاقات ومعالجة المشكلات والوفاء بالالتزامات
-              المعمول بها. تعتمد مدة الاحتفاظ على نوع السجل وترتيبات الأكاديمية.
+          - en: Services may process information in different countries depending on the academy’s hosting and provider
+              arrangements. Institutional hosting and data requirements are set with the relevant provider; do
+              not assume a particular country of storage from a contact address.
+            ar: قد تعالج الخدمات المعلومات في دول مختلفة بحسب ترتيبات استضافة الأكاديمية ومقدمي خدماتها. تُحدد متطلبات
+              الاستضافة والبيانات المؤسسية مع مقدم الخدمة المعني؛ فلا تفترض دولة معينة للتخزين استناداً إلى
+              عنوان التواصل.
+            ckb-IQ: لەوانەیە خزمەتگوزارییەکان لە وڵاتانی جیاواز زانیارییەکان پرۆسێس بکەن، بەپێی میوانداریکردن و
+              ڕێکخستنەکانی دابینکەری ئەکادیمیاکە. پێداویستییەکانی میوانداریکردنی دامەزراوەیی و داتا لەگەڵ
+              دابینکەری پەیوەندیدار دیاری دەکرێن؛ لەسەر بنەمای ناونیشانی پەیوەندی گریمانەی وڵاتێکی دیاریکراو
+              بۆ هەڵگرتن مەکە.
+          - en: Access controls and operational safeguards support protection of information. No service can guarantee
+              absolute security. We retain information as needed to provide learning, document certificates
+              and agreements, resolve issues and meet applicable obligations. Retention depends on record type
+              and academy arrangements.
+            ar: تسهم ضوابط الوصول والتدابير التشغيلية في حماية المعلومات. لا تستطيع أي خدمة ضمان الأمان المطلق. نحتفظ
+              بالمعلومات بقدر الحاجة لتوفير التعلم وتوثيق الشهادات والاتفاقات ومعالجة المشكلات والوفاء
+              بالالتزامات المعمول بها. تعتمد مدة الاحتفاظ على نوع السجل وترتيبات الأكاديمية.
+            ckb-IQ: کۆنتڕۆڵەکانی دەستپێڕاگەیشتن و ڕێوشوێنە خۆپارێزییە کارگێڕییەکان پاڵپشتی پاراستنی زانیاری دەکەن. هیچ
+              خزمەتگوزارییەک ناتوانێت پاراستنی تەواوەتی مسۆگەر بکات. ئێمە زانیارییەکان بەپێی پێویست دەهێڵینەوە
+              بۆ دابینکردنی فێربوون، بەڵگەدارکردنی بڕوانامە و ڕێککەوتنەکان، چارەسەرکردنی کێشەکان و جێبەجێکردنی
+              پابەندییە کارپێکراوەکان. مانەوەی داتا بەندە بە جۆری تۆمار و ڕێکخستنەکانی ئەکادیمیا.
       - title:
           en: Cookies and device storage
           ar: ملفات تعريف الارتباط وتخزين الجهاز
+          ckb-IQ: کووکییەکان و بیرگەی ئامێر
         paragraphs:
-          - en: Sign-in and learning features use browser storage to keep your session,
-              language and learning state. The public website may collect usage
-              events through its configured analytics service. Browser controls
-              can clear or restrict local storage; doing so can affect sign-in
-              and unsynchronized learning progress.
-            ar: تستخدم خصائص تسجيل الدخول والتعلم تخزين المتصفح للاحتفاظ بجلستك ولغتك وحالة
-              تعلمك. قد يجمع الموقع العام أحداث الاستخدام عبر خدمة التحليلات
-              المعدّة له. تتيح إعدادات المتصفح مسح التخزين المحلي أو تقييده؛ وقد
-              يؤثر ذلك في تسجيل الدخول والتقدم التعليمي غير المتزامن.
+          - en: Sign-in and learning features use browser storage to keep your session, language and learning state. The
+              public website may collect usage events through its configured analytics service. Browser
+              controls can clear or restrict local storage; doing so can affect sign-in and unsynchronized
+              learning progress.
+            ar: تستخدم خصائص تسجيل الدخول والتعلم تخزين المتصفح للاحتفاظ بجلستك ولغتك وحالة تعلمك. قد يجمع الموقع العام
+              أحداث الاستخدام عبر خدمة التحليلات المعدّة له. تتيح إعدادات المتصفح مسح التخزين المحلي أو
+              تقييده؛ وقد يؤثر ذلك في تسجيل الدخول والتقدم التعليمي غير المتزامن.
+            ckb-IQ: تایبەتمەندییەکانی چوونەژوورەوە و فێربوون بیرگەی وێبگەڕ بەکاردەهێنن بۆ پاراستنی دانیشتن، زمان و دۆخی
+              فێربوونت. ماڵپەڕە گشتییەکە لەوانەیە ڕووداوەکانی بەکارهێنان لە ڕێگەی خزمەتگوزاریی شیکاریی
+              سازێنراوی خۆیەوە کۆبکاتەوە. کۆنتڕۆڵەکانی وێبگەڕ دەتوانن بیرگەی ناوخۆیی بسڕنەوە یان سنوورداری
+              بکەن؛ ئەنجامدانی ئەمە دەکرێت کاریگەری لەسەر چوونەژوورەوە و پێشکەوتنی هاوکاتنەکراوی فێربوون دروست
+              بکات.
       - title:
           en: Your choices and requests
           ar: خياراتك وطلباتك
+          ckb-IQ: هەڵبژاردەکان و داواکارییەکانت
         paragraphs:
-          - en: You can use available account and tutor controls and contact support to
-              request access, correction or deletion of personal information.
-              Rights and exceptions depend on applicable law and the role of
-              your academy or institution. We may need to verify your identity
-              before acting. Do not send identity documents or sensitive records
-              unless requested through an appropriate process.
-            ar: يمكنك استخدام ضوابط الحساب والمدرّس المتاحة والتواصل مع الدعم لطلب الوصول
-              إلى معلوماتك الشخصية أو تصحيحها أو حذفها. تعتمد الحقوق
-              والاستثناءات على القانون المعمول به ودور أكاديميتك أو مؤسستك. قد
-              نحتاج إلى التحقق من هويتك قبل تنفيذ الطلب. لا ترسل وثائق هوية أو
-              سجلات حساسة إلا إذا طُلبت منك ضمن إجراء مناسب.
-          - en: Terms acceptance does not sign you up for marketing. Optional communications
-              and optional tutor preferences are managed separately.
-            ar: لا يؤدي قبول الشروط إلى اشتراكك في التسويق. تُدار المراسلات الاختيارية
-              وتفضيلات المدرّس الاختيارية بصورة منفصلة.
+          - en: You can use available account and tutor controls and contact support to request access, correction or
+              deletion of personal information. Rights and exceptions depend on applicable law and the role of
+              your academy or institution. We may need to verify your identity before acting. Do not send
+              identity documents or sensitive records unless requested through an appropriate process.
+            ar: يمكنك استخدام ضوابط الحساب والمدرّس المتاحة والتواصل مع الدعم لطلب الوصول إلى معلوماتك الشخصية أو تصحيحها
+              أو حذفها. تعتمد الحقوق والاستثناءات على القانون المعمول به ودور أكاديميتك أو مؤسستك. قد نحتاج
+              إلى التحقق من هويتك قبل تنفيذ الطلب. لا ترسل وثائق هوية أو سجلات حساسة إلا إذا طُلبت منك ضمن
+              إجراء مناسب.
+            ckb-IQ: دەتوانیت کۆنتڕۆڵە بەردەستەکانی هەژمار و مامۆستا بەکاربهێنیت و پەیوەندی بە پاڵپشتییەوە بکەیت بۆ
+              داواکردنی دەستپێڕاگەیشتن، راستکردنەوە یان سڕینەوەی زانیارییە کەسییەکان. مافەکان و لێخۆشبوونەکان
+              بەندە بە یاسای کارپێکراو و ڕۆڵی ئەکادیمیا یان دامەزراوەکەت. لەوانەیە پێویست بکات ناسنامەکەت
+              پشتڕاست بکەینەوە پێش ئەوەی هەنگاو بنێین. بەڵگەنامەی ناسنامە یان تۆماری هەستیار مەنێرە مەگەر لە
+              ڕێگەی پرۆسەیەکی گونجاوەوە داوات لێکرابێت.
+          - en: Terms acceptance does not sign you up for marketing. Optional communications and optional tutor
+              preferences are managed separately.
+            ar: لا يؤدي قبول الشروط إلى اشتراكك في التسويق. تُدار المراسلات الاختيارية وتفضيلات المدرّس الاختيارية بصورة
+              منفصلة.
+            ckb-IQ: قبووڵکردنی مەرجەکان ناوت لە بازاڕگەریدا تۆمار ناکات. پەیوەندییە ئارەزوومەندانەکان و هەڵبژاردە
+              ئارەزوومەندانەکانی مامۆستا بە جیا بەڕێوەدەبرێن.
       - title:
           en: Policy updates
           ar: تحديثات السياسة
+          ckb-IQ: نوێکردنەوەکانی سیاسەت
         paragraphs:
-          - en: The displayed version and date identify this policy. Material changes are
-              reflected in an updated notice. Where the learner agreement is
-              presented again, it identifies the revised documents.
-            ar: يحدد الإصدار والتاريخ المعروضان هذه السياسة. تنعكس التغييرات الجوهرية في
-              إشعار محدّث. وعند عرض اتفاق المتعلم مجدداً، فإنه يحدد الوثائق
-              المعدلة.
+          - en: The displayed version and date identify this policy. Material changes are reflected in an updated notice.
+              Where the learner agreement is presented again, it identifies the revised documents.
+            ar: يحدد الإصدار والتاريخ المعروضان هذه السياسة. تنعكس التغييرات الجوهرية في إشعار محدّث. وعند عرض اتفاق
+              المتعلم مجدداً، فإنه يحدد الوثائق المعدلة.
+            ckb-IQ: وەشان و بەرواری پیشاندراو ئەم سیاسەتە دەستنیشان دەکەن. گۆڕانکارییە گرنگەکان لە ئاگادارییەکی نوێکراوەدا
+              ڕەنگدەدەنەوە. لەو شوێنانەی کە ڕێککەوتنی فێرخواز دووبارە دەخرێتەڕوو، بەڵگەنامە
+              پێداچوونەوەپێکراوەکان دەستنیشان دەکات.
     sourceVersion: 2026-10-03-v1
     sourceSha256: b9c9d0bc112edba9caeaf2917519563ed32ef9dd5c3371792fe4a07709832fc2
     reviewNotice:
       en: Arabic translation draft — legal review pending.
       ar: مسودة ترجمة عربية — بانتظار المراجعة القانونية.
+      ckb-IQ: ڕەشنووسی وەرگێڕانی سۆرانی — پێداچوونەوەی یاسایی لە چاوەڕوانیدایە.

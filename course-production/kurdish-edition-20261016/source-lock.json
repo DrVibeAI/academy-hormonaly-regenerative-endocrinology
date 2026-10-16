@@ -1,0 +1,249 @@
+{
+  "createdAt": "2026-10-16T18:20:09.750Z",
+  "targetLocale": "ckb-IQ",
+  "sources": [
+    {
+      "academy": "foundations",
+      "repo": "/Users/omar/DrVibe/academy-gcls-foundations",
+      "sourceCommit": "2db6e993f9af9ee2a7885acb61cdf2b072e58b75",
+      "sourceRef": "origin/build/foundations-m1-pilot",
+      "package": "packages/foundations.json",
+      "packageSha256": "26cee8c63e34f5fd6531eccf960140a4f4daf221bd48d34d37b66b02a34250ab",
+      "packageVersion": "0.3.0-ai-draft",
+      "runtimeCommit": "acec5cd93b412b163490c2ecd0f87bf8d42d8afd",
+      "runtimeRef": "origin/main",
+      "configSha256": "072f721d2fb9bd8557ad75d3518034378bf602b216496fc9f617e66041da48d4",
+      "modules": [
+        {
+          "id": "m1",
+          "title": {
+            "en": "What AI Is—and Is Not—in Healthcare"
+          }
+        },
+        {
+          "id": "m2",
+          "title": {
+            "en": "Data Boundaries Before Tools"
+          }
+        },
+        {
+          "id": "m3",
+          "title": {
+            "en": "Choose the Right Tool and Environment"
+          }
+        },
+        {
+          "id": "m4",
+          "title": {
+            "en": "Get Useful Work from AI"
+          }
+        },
+        {
+          "id": "m5",
+          "title": {
+            "en": "Clinical Communication and Education Workbench"
+          }
+        },
+        {
+          "id": "m6",
+          "title": {
+            "en": "Practice and Hospital Operations Workbench"
+          }
+        },
+        {
+          "id": "m7",
+          "title": {
+            "en": "When AI Recommends or Acts: Agents and Clinical Decision Support"
+          }
+        },
+        {
+          "id": "m8",
+          "title": {
+            "en": "Evaluate and Implement Your First Safe Workflow"
+          }
+        }
+      ],
+      "videos": [
+        {
+          "id": "m1-boundary-v4-en",
+          "uri": "assets/foundations-logo-20261014/m1/a821018ee08e7055.en.mp4",
+          "checksum": "a821018ee08e705540e3e068a67f91c85b6e64bb10b154c53c464db761284f1a",
+          "durationSeconds": 119.866667,
+          "action": "reuse_unchanged"
+        },
+        {
+          "id": "m2-data-boundary-v4-en",
+          "uri": "assets/foundations-logo-20261014/m2/ebf7954895c4fd26.en.mp4",
+          "checksum": "ebf7954895c4fd26f860541794265807da1fdf0290fd5b0023235667d83554a8",
+          "durationSeconds": 113.633333,
+          "action": "reuse_unchanged"
+        },
+        {
+          "id": "m3-environment-decision-v4-en",
+          "uri": "assets/foundations-logo-20261014/m3/b9d6022bd91fe467.en.mp4",
+          "checksum": "b9d6022bd91fe4678feffd4345c64b95ab4ca6d68b58d2a7381a8132f15cf0b0",
+          "durationSeconds": 120.033333,
+          "action": "reuse_unchanged"
+        },
+        {
+          "id": "m4-reviewable-task-v4-en",
+          "uri": "assets/foundations-logo-20261014/m4/e6db3cf3f9002f8f.en.mp4",
+          "checksum": "e6db3cf3f9002f8f6d13258aaaa6f98efd43f1e6765727c545fa4d09b323c8ed",
+          "durationSeconds": 114.1,
+          "action": "reuse_unchanged"
+        },
+        {
+          "id": "m5-communication-review-v4-en",
+          "uri": "assets/foundations-logo-20261014/m5/bd7784b4fa6292ca.en.mp4",
+          "checksum": "bd7784b4fa6292ca377005dc3ead2e8c5039fe3dd2940c20f35ec66480ece49e",
+          "durationSeconds": 114.666667,
+          "action": "reuse_unchanged"
+        },
+        {
+          "id": "m6-operations-handoff-v4-en",
+          "uri": "assets/foundations-logo-20261014/m6/7ab0dc6d7fc461f0.en.mp4",
+          "checksum": "7ab0dc6d7fc461f04d9fe82fde3c2c9d53d3c27d474628e898df954985d69fef",
+          "durationSeconds": 122.333333,
+          "action": "reuse_unchanged"
+        },
+        {
+          "id": "m7-agent-boundary-v4-en",
+          "uri": "assets/foundations-logo-20261014/m7/965439d2a58fe105.en.mp4",
+          "checksum": "965439d2a58fe105a5d2f92fe7cecf9d4f4e6e1509ba4ba07a03bf1bbe27b0ae",
+          "durationSeconds": 124.833333,
+          "action": "reuse_unchanged"
+        },
+        {
+          "id": "m8-evaluate-first-v4-en",
+          "uri": "assets/foundations-logo-20261014/m8/bab7f3306c279821.en.mp4",
+          "checksum": "bab7f3306c279821525627d740a5424c01881211e66feca64d67c58085ed2475",
+          "durationSeconds": 126.1,
+          "action": "reuse_unchanged"
+        }
+      ],
+      "captionTracks": 8,
+      "audioJobs": 0
+    },
+    {
+      "academy": "hormonaly",
+      "repo": "/Users/omar/DrVibe/academy-hormonaly-regenerative-endocrinology",
+      "sourceCommit": "66c77a8db8e1cace1cf7ae726864feab0953cbfb",
+      "sourceRef": "origin/release/hormonaly-brand-v2-20261016",
+      "package": "packages/hormones-peptides-skin.ar-AE.json",
+      "packageSha256": "974586841d3b97fa5c9a1e4e48ca95ef8108c4b3db9722e5994c269a25db4efa",
+      "packageVersion": "1.2.0-ar-AE.1",
+      "runtimeCommit": "977de5eca5a21a64076854007c425c272d9d2ead",
+      "runtimeRef": "origin/release/hormonaly-brand-v2-20261016",
+      "configSha256": "649f18016bf1d35bda9cb34e08553403fff99dda8d7f27957d0f0bbfef819f50",
+      "modules": [
+        {
+          "id": "m01",
+          "title": {
+            "en": "The skin as an endocrine organ, and how it ages",
+            "ar-AE": "الجلد كعضو صماوي، وكيف يشيخ"
+          }
+        },
+        {
+          "id": "m02",
+          "title": {
+            "en": "Systemic hormones and the skin",
+            "ar-AE": "الهرمونات الجهازية والجلد"
+          }
+        },
+        {
+          "id": "m03",
+          "title": {
+            "en": "Fat, incretins and the ageing face",
+            "ar-AE": "الدهون، والإنكريتينات، والوجه المتقدم في السن"
+          }
+        },
+        {
+          "id": "m04",
+          "title": {
+            "en": "Matrix peptides and wound healing",
+            "ar-AE": "ببتيدات المادة الخلالية والتئام الجروح"
+          }
+        },
+        {
+          "id": "m05",
+          "title": {
+            "en": "Follicle, pigment and melanocortins",
+            "ar-AE": "الجريب، والصبغة، والميلانوكورتينات"
+          }
+        },
+        {
+          "id": "m06",
+          "title": {
+            "en": "The growth-hormone axis and the skin",
+            "ar-AE": "محور هرمون النمو والجلد"
+          }
+        },
+        {
+          "id": "m07",
+          "title": {
+            "en": "Evidence, regulation and compliance",
+            "ar-AE": "الأدلة والتنظيم والامتثال"
+          }
+        }
+      ],
+      "videos": [
+        {
+          "id": "asset-hps-m01-opener",
+          "uri": "assets/hormones-peptides-skin/video/m01-opener.mp4",
+          "checksum": "sha256:d51215d7bbbda53b1eb08cfe53c07743751ef398290e3cea7e2f56570cbb3c94",
+          "durationSeconds": 70.26,
+          "action": "reuse_unchanged"
+        },
+        {
+          "id": "asset-hps-m02-opener",
+          "uri": "assets/hormones-peptides-skin/video/m02-opener-r3.mp4",
+          "checksum": "sha256:c909e2221428d6005223bc000bd2733caa7ca3b7579e18f0208562f025ab8ab4",
+          "durationSeconds": 76.14,
+          "action": "reuse_unchanged"
+        },
+        {
+          "id": "asset-hps-m03-opener",
+          "uri": "assets/hormones-peptides-skin/video/m03-opener.mp4",
+          "checksum": "sha256:05f24997338cbb14b00b5e433cc24fd38c970c3e1525dd60ad2b19e6179b2289",
+          "durationSeconds": 72.34,
+          "action": "reuse_unchanged"
+        },
+        {
+          "id": "asset-hps-m04-opener",
+          "uri": "assets/hormones-peptides-skin/video/m04-opener.mp4",
+          "checksum": "sha256:706039f4232d48fce6cb29370445e1e6ba2f935b04550f72226b2db778e9fca0",
+          "durationSeconds": 67.1,
+          "action": "reuse_unchanged"
+        },
+        {
+          "id": "asset-hps-m05-opener",
+          "uri": "assets/hormones-peptides-skin/video/m05-opener.mp4",
+          "checksum": "sha256:6a7652f950bf419d03f7959e0c9d107cfdf1c39fa2b5a7f798e5b278c8397394",
+          "durationSeconds": 71.26,
+          "action": "reuse_unchanged"
+        },
+        {
+          "id": "asset-hps-m06-opener",
+          "uri": "assets/hormones-peptides-skin/video/m06-opener.mp4",
+          "checksum": "sha256:79b8b13baa1b7c9ff5cf30643ea28c37341390a5d58aba28257dd89a4c273b01",
+          "durationSeconds": 83.54,
+          "action": "reuse_unchanged"
+        },
+        {
+          "id": "asset-hps-m07-opener",
+          "uri": "assets/hormones-peptides-skin/video/m07-opener.mp4",
+          "checksum": "sha256:2f2dbb0d728616d837b80c00688593b429c607e1a0316093f3c62c117831a7c0",
+          "durationSeconds": 75.3,
+          "action": "reuse_unchanged"
+        }
+      ],
+      "captionTracks": 7,
+      "audioJobs": 48
+    }
+  ],
+  "notes": [
+    "GitHub refs fetched before source selection.",
+    "Hormonaly live readback at preparation: academy-hormonaly-00071-mhv, source label 50f033219ae6, runtime label 977de5eca5a2. Current release source adds documentation; dirty concurrent landing changes are excluded and require preservation at integration.",
+    "Foundations uses the current fetched default branch including the latest completion and Arabic corrections. Integration must compare the current serving host again."
+  ]
+}
