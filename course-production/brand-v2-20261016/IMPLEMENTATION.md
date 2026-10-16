@@ -1,7 +1,7 @@
 # Hormonaly Academy · Brand Book v2 implementation
 
 ## Status
-Implemented locally on `fix/hormonaly-brand-v2-20261016`. Production has not been changed by this update. The existing production release remains the November 30 offer extension. This is an implementation specimen for owner review, not a new accreditation or medical approval.
+Approved for publication by Omar on 16 October 2026: “looks good, publish all the changes to the live site”. Release branch: `release/hormonaly-brand-v2-20261016`. Candidate publication and production verification are being recorded separately below. This is a brand and interface release; accreditation and medical approval are unchanged.
 
 Runtime: `573706e112d83526a142fa5c5f105543012327f8` (includes the follow-up product UI refinement below). Academy: this commit's inputs. Design source and extraction details: [SOURCE.md](SOURCE.md).
 
@@ -51,3 +51,10 @@ Owner direction: “make sure to Apply a modern apple product like UI across all
 Visual review in the Codex in-app browser: English/Arabic 390 × 844 course, lesson, practice and home; Arabic Library, account sheet, profile/settings and Guide; English desktop course/lesson at 1280 × 720. Course/hero/syllabus start at x=124 with width 1124; lesson card/footer start at x=244 with width 792. Mobile document width equals the 390px viewport. Proofs are in `product-ui/`, with the six homepage specimens under `public/assets/hormones-peptides-skin/home/brand-v2/`.
 
 Preparation validates the six image hashes. The production build, TypeScript, locale and tenant-isolation checks pass. Existing Vite configuration/chunk warnings remain. No additional automated test suites or authenticated admin walkthrough were run for this visual refinement. No deployment, email, certificate or production learner mutation occurred.
+
+## Publication preparation · 16 October 2026
+
+- Current production baseline: `academy-hormonaly-00069-7bp`, runtime `26b29048dfdc`, academy `33933137af65`.
+- The current live sharing release is merged into this release history. Its v2 JPEG artwork and original icons remain available; the approved new brand images and icons use fresh `seo-v3-hormonaly` URLs.
+- Runtime target: `573706e112d83526a142fa5c5f105543012327f8`. Publication uses the standard Cloud Run candidate and exact-revision promotion flow.
+- Public media bucket already permits cross-origin GET/HEAD, including font delivery. No CORS change is needed.
