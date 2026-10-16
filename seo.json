@@ -1,0 +1,44 @@
+{
+  "origin": "https://hormonaly.perceptors.ai",
+  "name": "Hormonaly Academy",
+  "themeColor": "#004C99",
+  "assetDirectory": "seo-v1-hormonaly",
+  "languages": {
+    "en": "en-US",
+    "ar": "ar-AE"
+  },
+  "icons": {
+    "favicon16": "/seo-v1-hormonaly/icon-16.png",
+    "favicon32": "/seo-v1-hormonaly/icon-32.png",
+    "appleTouch": "/seo-v1-hormonaly/icon-180.png",
+    "icon192": "/seo-v1-hormonaly/icon-192.png",
+    "icon512": "/seo-v1-hormonaly/icon-512.png"
+  },
+  "pages": [
+    {
+      "path": "/",
+      "type": "Course",
+      "indexable": true,
+      "defaultLang": "en",
+      "locales": {
+        "en": {
+          "title": "Hormones and Peptides for Skin | Hormonaly Academy",
+          "description": "Explore hormones and peptides for skin, hair and the ageing face. A clinical course on evidence, evaluating claims and boundaries for practice.",
+          "name": "Hormones and Peptides for Skin",
+          "image": "/seo-v1-hormonaly/academy-en.png",
+          "imageAlt": "Hormonaly Academy — Hormones and Peptides for Skin"
+        },
+        "ar": {
+          "title": "الهرمونات والببتيدات للبشرة | أكاديمية هورمونالي",
+          "name": "الهرمونات والببتيدات للبشرة",
+          "description": "استكشف الهرمونات والببتيدات للبشرة والشعر وشيخوخة الوجه. دورة سريرية حول الأدلة وتقييم الادعاءات وحدود الممارسة.",
+          "image": "/seo-v1-hormonaly/academy-ar.png",
+          "imageAlt": "أكاديمية هورمونالي — الهرمونات والببتيدات للبشرة"
+        }
+      },
+      "image": "/seo-v1-hormonaly/academy-en.png",
+      "imageAlt": "Hormonaly Academy — Hormones and Peptides for Skin",
+      "courseId": "hormonaly.hormones-peptides-skin"
+    }
+  ]
+}
