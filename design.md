@@ -1,61 +1,27 @@
-# Hormonaly Academy — design contract
+# Hormonaly Academy — Brand Book v2 implementation
 
-> Stage 05 artifact (contract: perceptor-foundry `docs/design-contract.md`).
-> **Tier: 0 · House.** Every customer-visible surface (app, review room, emails, certificates, videos) renders the
-> Perceptors house theme verbatim. Status: **approved**. See the approval block.
+Tier 2 · supplied identity · 16 October 2026. Source: Hormonaly-Academy-Brand-Book-v2.pdf, provided by Omar in this chat. Supersedes the earlier house-theme design contract; historical decisions are retained in course-production/brand-v2-20261016/design-history.md.
 
-## Identity in one sentence
+## 1. Identity
+Calm, precise clinical education for licensed clinicians: a neutral canvas, clear type, one blue for links and state. Visual thesis: warm off-white, near-black type, soft white panels, restrained depth. Existing content sequence stays hero → practice/course → real course previews → evidence/faculty → enrollment. Interactions retain restrained button feedback, device hover, and existing player/transcript controls with reduced-motion support.
 
-Evidence-graded clinical education in hormone and peptide medicine, course by course, for every clinician who meets these questions, in the Perceptors
-premium-editorial register: calm, exact, and no marketing noise.
+## 2. Palette
+Canvas #F7F7F5; Surface #FFFFFF; Container #F0F4F9; Ink #1F1F1F; Blue #0B57D0; Blue Container #D3E3FD; On Blue Container #041E49; Lilac #E8E1F5; Line #DADCE0; Secondary #5F6368. Success #188038 on #E6F4EA; Error #B3261E on #F9DEDC; Caution #7A4A00 on #FEEFC3. Illustration cream #F1EDE4 and indigo #564EA7 stay within existing scientific art. Blue is a signal, primary actions are ink.
 
-## Inherited from the house
+## 3. Typography
+Google Sans Flex: display 500, body 400, UI 500, selected small labels 600. Noto Sans Arabic 400/500/600; fallback IBM Plex Sans Arabic. Self-hosted OFL fonts from google/fonts, licences alongside files. No tracking or uppercase transform in Arabic. Arabic body line-height 1.8; RTL navigation and text, LTR wordmarks/media/numerals.
 
-Everything visual comes from perceptor-foundry `docs/brand.md` (Perceptors AI brand kit, 2026-08-24) and
-`templates/house-theme.yaml`. Nothing is copied here. When the house kit improves, this academy improves on its next build.
+## 4. Shape and spacing
+Centered maximum 1200px content with 32px desktop and 20px mobile gutters. English text aligns to start, Arabic to its RTL start. Pills 999px, cards 20px, feature tiles 24px, sheets 28px, inputs 12px, rows 16px. Shared learner header/body/footer frame; lesson card and controls use one centered column. Soft card and callout shadows follow book p21.
 
-- **Palette, type, shape, spacing, components, imagery rules and the kill-list** are the house values.
-- **academy.yaml** sets `theme: perceptors-house`, `designTier: 0` and the house violet accent only. It sets no palette and no fonts.
+## 5. Logo
+Original vector wordmark extracted from supplied PDF p12, lettering preserved as outlines. Orbit geometry unchanged, near-black as prescribed. Favicon uses white orbit on Ink. Versioned assets under assets/brand/v2. Latin wordmark never mirrored.
 
-## Logo and wordmark
+## 6. Imagery
+Real course captures are refreshed in English and Arabic after the theme change. Existing scientific illustrations remain cream/indigo. Photography is framed, not used behind body copy. Phone previews remain compact as previously requested. Course facts, illustrations, video/audio content, assessment decisions and credential policies are not inferred from illustrative brand-book examples.
 
-- The customer has not supplied a logo asset yet.
-- Until one ships in `public/`, the runtime sets a typographic wordmark: "Hormonaly" in the house display serif, with the
-  suffix "ACADEMY" in house mono (`brand.wordmarkSuffix`).
-- A supplied logo appears on paper with clear space equal to its cap height. It never brings its own typography.
-  If the customer wants its own palette or type, that is a tier-2 amendment chosen at intake.
+## 7. Prohibitions
+No invented logos, simulated functionality, fabricated course progress or evidence grades. No clinical content changes based on illustrative brand copy. No new accreditation claim. No blue primary CTA fields or serif learner headlines.
 
-## Voice and likeness
-
-- Narration and the tutor voice use a stock library voice (ElevenLabs "Alice"), declared in `academy.yaml`.
-- No faculty likeness or cloned voice is used without a filed release.
-
-## Approval
-
-| Gate | Owner | Decision | Date |
-|---|---|---|---|
-| brand_approval | Omar Saleem (Perceptors) | Align the academy with perceptors.ai; drop the inherited Cenegenics look | 2026-09-24 |
-
-## Certificate redesign · 2026-10-11
-
-Owner direction: bring Hormonaly course certificates up to the other institutional certificates, with Hormonaly and GCLS logos, silhouette background, and a more sophisticated and weighty feel. Implemented as an opt-in certificate-only presentation: ivory, navy, restrained gold framing, prominent learner identity, Hormonaly orbit watermark and compact verification footer. Existing GCLS partner/issuer status is unchanged. Local review proofs and QA: `course-production/certificate-20261011/README.md`. Not deployed.
-
-Certificate revision 2: thicker navy/gold border with mitered bevel highlights, metallic band and recessed ivory paper, following Omar's requested dimensional feel. Current proofs: `course-production/certificate-20261011/v2/`.
-
-Certificate revision 3 supersedes revision 2: traditional flat printed navy/gold borders with engraving, no picture-frame bevels. Depth belongs to paper, background silhouette and embossed brand medallion. Owner explicitly rejected a 3D border. Current proofs: `course-production/certificate-20261011/v3/`.
-
-Certificate revision 4: owner approved revision 3 and requested Fady/Hormonaly and Dominik/GCLS signature blocks. Fady's is a newly designed typeset signature mark at Omar's explicit request, not a supplied handwriting sample. Dominik's is the existing GCLS asset. Both carry names, titles and institutions. Current proofs: `course-production/certificate-20261011/v4/`.
-
-Certificate release: from November 1, 2026 at Los Angeles midnight, only with recorded GCLS approval/ID and a positive current course price. Module and final-check requirements remain. October free-enrollee payment policy is pending clarification. Release gate implemented and validated locally; not deployed. Details: `course-production/certificate-20261011/README.md`.
-
-Revision 5 supersedes the prior November-only lock: the October free course includes the redesigned Hormonaly completion certificate with Fady centered, no GCLS logo/text or Dominik signature. GCLS additions are reserved for a later November certified release. Current proofs: `course-production/certificate-20261011/v5-october/`. No deployment.
-
-Revision 5 published with Omar’s explicit approval on October 11, 2026: `academy-hormonaly-00061-7lk`, 100% traffic. Certificate QA, candidate/live checks and provenance: `course-production/certificate-20261011/README.md`.
-
-2026-10-15: owner requested activation with GCLS AI Academy today. Revision 6 restores both logos and signatures, names GCLS AI Academy as education partner, and retains Hormonaly completion issuance. Course completion/pass requirements remain; no paid or November gate. See certificate handoff for release evidence.
-
-## Homepage course previews · 2026-10-15
-
-Owner direction: use the supplied three-phone app example as a composition reference, with clean device frames and feature callouts. A subsequent request reduced their size, especially on mobile. The opt-in `home.glimpses.presentation: devices` treatment uses existing, provenance-recorded course screenshots without retouching their content: 200px phones on desktop and 156px phones in a horizontal, keyboard-scrollable row below 761px. Callouts are configuration-owned English and Arabic text; Arabic follows RTL. Decorative device chrome is hidden from assistive technology. Hover motion respects reduced-motion preferences. This is a local draft, not a new brand approval or publication approval.
-
-Review: `course-production/home-devices-20261015/README.md`.
+## 8. Direction and release
+Owner direction (16 October 2026): “Can u use the new brand book for hormonaly i emailed across all elements. Also inside the course all Ui is moved to the left”. This authorizes implementation of the supplied identity and alignment correction. Local specimen review and publication state are recorded in the accompanying implementation report; no new independent medical or accreditation approval is claimed.

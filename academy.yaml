@@ -17,10 +17,18 @@ brand:
   shortName: Hormonaly
   wordmarkSuffix: ACADEMY
   certificatePresentation:
-    layout: institutional
-    accentColor: "#142D4E"
-    logo: ./assets/certificate/hormonaly-logo.png
-    watermark: ./assets/certificate/hormonaly-orbit.png
+    layout: material
+    disclaimer:
+      en: CME or CE credit is not offered at this time.
+      ar: لا تُمنح حالياً ساعات معتمدة للتعليم الطبي أو المهني المستمر.
+    fonts:
+      regular: ./assets/brand/v2/fonts/GoogleSansFlex-400.ttf
+      medium: ./assets/brand/v2/fonts/GoogleSansFlex-500.ttf
+      arabicRegular: ./assets/brand/v2/fonts/NotoSansArabic-400.ttf
+      arabicMedium: ./assets/brand/v2/fonts/NotoSansArabic-600.ttf
+    accentColor: "#0B57D0"
+    logo: ./assets/brand/v2/hormonaly-wordmark.png
+    watermark: ./assets/brand/v2/hormonaly-watermark.png
     partnerLogo: ./assets/certificate/gcls-logo.png
     signatures:
       - name: Fady Hannah-Shmouni, MD FRCPC
@@ -34,35 +42,52 @@ brand:
         institution: Geneva College of Longevity Science
         signatureAssetRef: assets/signatures/dominik-thor.png
         provenance: "Existing GCLS certificate signature: public/gcls/dthor-signature.png."
-  logo: ""
-  mark: ./assets/brand/hormonaly-mark-flat.svg
-  favicon: ./assets/brand/hormonaly-app-icon.svg
+  logo: ./assets/brand/v2/hormonaly-wordmark.svg
+  logoWidth: 240
+  mark: ./assets/brand/v2/hormonaly-mark-flat.svg
+  favicon: ./assets/brand/v2/hormonaly-app-icon.svg
   authority:
     by: academy
-    mark: ./assets/brand/hormonaly-app-icon.svg
-  theme: perceptors-house
-  designTier: 0
-  accent: "#0071E3"
+    mark: ./assets/brand/v2/hormonaly-app-icon.svg
+  theme: material
+  designTier: 2
+  design: design.md
+  accent: "#0B57D0"
+  fonts:
+    display: Google Sans Flex
+    body: Google Sans Flex
+    mono: Google Sans Flex
+    arabic: Noto Sans Arabic
+  fontStylesheet: ./assets/brand/v2/fonts.css
+  fontAssets:
+    - ./assets/brand/v2/fonts/GoogleSansFlex.woff2
+    - ./assets/brand/v2/fonts/NotoSansArabic.woff2
+    - ./assets/brand/v2/fonts/GoogleSansFlex-OFL.txt
+    - ./assets/brand/v2/fonts/NotoSansArabic-OFL.txt
   palette:
-    primary: "#0071E3"
-    primaryDeep: "#0064CA"
-    primaryDeepest: "#004C99"
-    primarySoft: "#EBF4FF"
-    ink: "#1D1D1F"
-    paper: "#F5F5F7"
-    paperDeep: "#E8E8EB"
+    primary: "#0B57D0"
+    primaryDeep: "#0B57D0"
+    primaryDeepest: "#041E49"
+    primarySoft: "#D3E3FD"
+    ink: "#1F1F1F"
+    paper: "#F7F7F5"
+    paperDeep: "#F0F4F9"
     panel: "#FFFFFF"
-    line: "#E8E8EB"
-    muted: "#6E6E73"
-    mutedLight: "#6E6E73"
-    navy: "#1E232B"
-    primaryTint: "#C7E2FF"
+    line: "#DADCE0"
+    muted: "#5F6368"
+    mutedLight: "#5F6368"
+    navy: "#1F1F1F"
+    primaryTint: "#D3E3FD"
     onPrimary: "#FFFFFF"
-    action: "#0071E3"
-    link: "#0064CA"
-    successSoft: "#EBF4FF"
-    successInk: "#0064CA"
-    dangerSoft: "#FEEDEC"
+    action: "#1F1F1F"
+    link: "#0B57D0"
+    successSoft: "#E6F4EA"
+    successInk: "#188038"
+    dangerSoft: "#F9DEDC"
+    dangerInk: "#B3261E"
+    cautionSoft: "#FEEFC3"
+    cautionInk: "#7A4A00"
+    lilac: "#E8E1F5"
   tagline:
     en: Hormones and peptides, evidence-graded.
     ar-AE: الهرمونات والببتيدات، مصنّفة وفق درجات الأدلة.
@@ -148,23 +173,23 @@ home:
       en: Learn by doing.
       ar-AE: تعلّم عبر التطبيق العملي.
     items:
-      - src: assets/hormones-peptides-skin/home/qa-20261015/en/inside-film.png
+      - src: assets/hormones-peptides-skin/home/brand-v2/en/inside-course.png
         srcByLocale:
-          ar: assets/hormones-peptides-skin/home/qa-20261015/ar/inside-practice.png
+          ar: assets/hormones-peptides-skin/home/brand-v2/ar/inside-course.png
         caption:
-          en: A short film opens every module
-          ar: اختبر فهمك بخطوات قصيرة
+          en: Your course, one module at a time
+          ar: دورتك، وحدة تلو الأخرى
         callout:
           icon: play
           title:
-            en: Watch. Understand. Apply.
-            ar: تعلّم وطبّق
+            en: Pick up where you left off
+            ar: تابع من حيث توقفت
           body:
             en: Short lessons, one idea at a time.
             ar: دروس قصيرة، فكرة واحدة في كل خطوة.
-      - src: assets/hormones-peptides-skin/home/qa-20261015/en/inside-science.png
+      - src: assets/hormones-peptides-skin/home/brand-v2/en/inside-science.png
         srcByLocale:
-          ar: assets/hormones-peptides-skin/home/qa-20261015/ar/inside-science.png
+          ar: assets/hormones-peptides-skin/home/brand-v2/ar/inside-science.png
         caption:
           en: Explore the science through illustrations
           ar: استكشف العلم من خلال الرسوم التوضيحية
@@ -176,12 +201,12 @@ home:
           body:
             en: Audio, illustrations and flip cards.
             ar: شرح صوتي ورسوم وبطاقات تفاعلية.
-      - src: assets/hormones-peptides-skin/home/qa-20261015/en/inside-trial.png
+      - src: assets/hormones-peptides-skin/home/brand-v2/en/inside-practice.png
         srcByLocale:
-          ar: assets/hormones-peptides-skin/home/qa-20261015/ar/inside-trial.png
+          ar: assets/hormones-peptides-skin/home/brand-v2/ar/inside-practice.png
         caption:
-          en: Sort the evidence, one tap at a time
-          ar: صنّف الأدلة بنقرة واحدة في كل خطوة
+          en: Put the science into practice
+          ar: طبّق ما تعلمته من العلوم
         callout:
           icon: feedback
           title:
@@ -940,9 +965,15 @@ auth:
     from: Hormonaly Academy <info@hormonaly.ai>
     replyTo: info@hormonaly.ai
     origin: https://hormonaly.perceptors.ai
-    logoUrl: https://hormonaly.perceptors.ai/assets/brand/hormonaly-email-logo.png
+    logoUrl: https://hormonaly.perceptors.ai/assets/brand/v2/hormonaly-wordmark.png
     logoWidth: 280
-    accent: "#0071E3"
+    accent: "#0B57D0"
+    ink: "#1F1F1F"
+    paper: "#F7F7F5"
+    action: "#1F1F1F"
+    fontFamily: Google Sans Flex
+    arabicFontFamily: Noto Sans Arabic
+    buttonRadius: 999
 admins:
   - omar@hormonaly.ai
   - omar@perceptors.ai
