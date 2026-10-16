@@ -245,15 +245,20 @@ home:
           ar-AE: اختصاصي الغدد الصماء والوراثة الكيميائية الحيوية، ومؤلف أدلة هورمونالي
             المرجعية المختصرة.
         image: assets/faculty/fady-hannah-shmouni-wide.png
-      - name: Dominik Thor
+      - name: Professor Dr. Dominik Thor, MSc
         designation:
           en: Advisory
           ar-AE: المجلس الاستشاري
         role:
-          en: President of the Geneva College of Longevity Science.
-          ar-AE: رئيس كلية جنيف لعلوم طول العمر.
+          en: President of the Geneva College of Longevity Science and Professor of Pharmacy. His research focuses on biomaterials, regenerative medicine, and pharmacy.
+          ar-AE: رئيس كلية جنيف لعلوم طول العمر وأستاذ الصيدلة. تركز أبحاثه على المواد الحيوية والطب التجديدي والصيدلة.
+        link:
+          href: https://www.linkedin.com/in/dominik-thor/
+          label:
+            en: LinkedIn Profile
+            ar: الملف الشخصي على لينكدإن
         image: assets/faculty/dominik-thor-wide.png
-      - name: Omar Saleem
+      - name: Omar Saleem, MD
         designation:
           en: Advisory
           ar-AE: المجلس الاستشاري
