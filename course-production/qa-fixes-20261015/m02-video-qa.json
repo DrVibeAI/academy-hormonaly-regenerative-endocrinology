@@ -1,0 +1,34 @@
+{
+  "model": "gemini-3.8-flash",
+  "mode": "video",
+  "video_engine": "files-api",
+  "reviewed_at": "2026-10-16T01:25:59.202Z",
+  "figure_truth": true,
+  "videos": [
+    {
+      "label": "m02-opener.ar.mp4",
+      "file": "/Users/omar/DrVibe/worktrees/hormonaly-qa-20261015/media/m02/m02-opener.ar.mp4",
+      "summary": "The video aligns well with narration and scientific concepts, but includes identifiable frontal presenter footage contrary to footage constraints.",
+      "findings": [
+        {
+          "time": 1,
+          "severity": "warn",
+          "code": "footage",
+          "note": "Identifiable frontal face visible on screen during presenter segments.",
+          "model": "gemini-3.8-flash"
+        }
+      ],
+      "checks": {
+        "figures_expected": 4,
+        "figures_on_time": 4,
+        "frozen_frames": 0,
+        "artifacts": 0,
+        "narration_language_ok": true
+      },
+      "timeline": [],
+      "usage": [
+        14681
+      ]
+    }
+  ]
+}

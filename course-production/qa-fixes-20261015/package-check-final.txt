@@ -1,0 +1,68 @@
+✓ packages/hormones-peptides-skin.ar-AE.json
+== tic audit — REWRITE surface (audioScript + beats) ==
+scripts audited: 96 (96 in-scope, 0 body-residual)
+contrastive: 0
+meta: 0
+colon: 9
+dupOpen: 0
+dupClose: 0
+-- colon --
+   m1-p03(audioScript) [ar-AE]: "يصف الباحثون الذين يدرسونه أربع وحدات: البشرة، والأدمة، وتحت"
+   m1-p03(audioScript) [ar-AE]: "تنتقل الإشارات بثلاث طرق: تتواصل الخلايا المتجاورة مباشرةً، "
+   m1-p17(audioScript) [ar-AE]: "تؤطر ثلاث حقائق هذه المحادثة: تتراكم الخلايا الهرمة بالفعل ف"
+   m2-p08(audioScript) [ar-AE]: "افصل بين مسألتين أثناء تقدمك: الأولى هي ما يفعله الإستروجين "
+   m3-p13(audioScript) [ar-AE]: "فكّر فيما تقوله الأدلة: في الدراسات حتى الآن، يرتبط فقدان حج"
+   m4-p03(audioScript) [ar-AE]: "ابدأ بالجزيء نفسه: GHK هو ببتيد ثلاثي الأحماض الأمينية يدور "
+   m4-p03(audioScript) [ar-AE]: "نقطتان يجب تذكرهما: أولاً، هذه مجرد آلية عمل تشرح سبب احتمال"
+   m6-p12(audioScript) [ar-AE]: "تخيل الطلب كما يرِد عادةً: مريض يذكر أن عيادته تعرض ببتيداً "
+   m7-p17(audioScript) [ar-AE]: "ثلاث حقائق تحدد إجابتك: لم يُعتمد BPC-157 على الإطلاق، لذا ل"
+== anchor audit — one big figure, one owning video (blueprint § 2) ==
+✓ anchor audit: 0 recycled anchor(s)
+== citation audit — evidence depth (stage-10 lock discipline, stage-40 gate) ==
+hormonaly.hormones-peptides-skin · 180 block(s), 143 content · registry: 416 citation(s)
+✗ uncited-jurisdiction-note: block m2-p11 SA note carries no citationRefs of its own
+✗ uncited-jurisdiction-note: block m4-p05 SA note carries no citationRefs of its own
+✗ uncited-jurisdiction-note: block m4-p06 SA note carries no citationRefs of its own
+✗ uncited-jurisdiction-note: block m4-p11 SA note carries no citationRefs of its own
+✗ uncited-jurisdiction-note: block m5-p03 SA note carries no citationRefs of its own
+✗ uncited-jurisdiction-note: block m5-p05 SA note carries no citationRefs of its own
+✗ uncited-jurisdiction-note: block m5-p08 SA note carries no citationRefs of its own
+✗ uncited-jurisdiction-note: block m5-p17 SA note carries no citationRefs of its own
+✗ uncited-jurisdiction-note: block m6-p05 SA note carries no citationRefs of its own
+✗ uncited-jurisdiction-note: block m6-p08 SA note carries no citationRefs of its own
+✗ uncited-jurisdiction-note: block m6-p11 SA note carries no citationRefs of its own
+✗ uncited-jurisdiction-note: block m6-p12 SA note carries no citationRefs of its own
+✗ uncited-jurisdiction-note: block m7-p07 SA note carries no citationRefs of its own
+✗ uncited-jurisdiction-note: block m7-p08 SA note carries no citationRefs of its own
+✗ uncited-jurisdiction-note: block m7-p09 SA note carries no citationRefs of its own
+✗ uncited-jurisdiction-note: block m7-p21 SA note carries no citationRefs of its own
+✗ uncited-jurisdiction-note: block m7-p13 SA note carries no citationRefs of its own
+✗ uncited-jurisdiction-note: block m7-p22 SA note carries no citationRefs of its own
+✗ uncited-jurisdiction-note: block m7-p15 SA note carries no citationRefs of its own
+✗ uncited-jurisdiction-note: block m7-p16 SA note carries no citationRefs of its own
+✗ uncited-jurisdiction-note: block m7-p18 SA note carries no citationRefs of its own
+✗ citation audit: 21 finding(s) (report-only; --strict to enforce)
+Dead-screen audit · hormonaly.hormones-peptides-skin · locale en · max hold 10s · scene times ESTIMATED from narration
+
+TOTAL 0.0s · DEAD 0.0s (0%) · 0 warning(s)
+✓ dead-screen audit: clean
+== interaction audit — the canon: every tap a decision, every touch explained (docs/interaction-canon.md) ==
+m01: 9 interaction(s) quickfire@m1-p05 · sequence@m1-x01 · branching@m1-x02 · classify@m1-p10 · inspect@m1-x03 · hotspots@m1-x04 · classify@m1-x05 · scenario@m1-p17 · chips@m1-p19
+m02: 9 interaction(s) sequence@m2-x01 · classify@m2-p04 · inspect@m2-x02 · hotspots@m2-x03 · classify@m2-x04 · branching@m2-x05 · quickfire@m2-p16 · scenario@m2-p17 · chips@m2-p19
+m03: 9 interaction(s) hotspots@m3-x01 · sequence@m3-x02 · classify@m3-p06 · classify@m3-x03 · branching@m3-x04 · scenario@m3-p13 · quickfire@m3-p17 · inspect@m3-x05 · chips@m3-p20
+m04: 9 interaction(s) inspect@m4-x01 · hotspots@m4-x02 · classify@m4-p09 · branching@m4-x03 · classify@m4-x04 · quickfire@m4-p16 · sequence@m4-x05 · scenario@m4-p17 · chips@m4-p19
+m05: 9 interaction(s) sequence@m5-x01 · quickfire@m5-p04 · hotspots@m5-x02 · classify@m5-x03 · scenario@m5-p11 · inspect@m5-x04 · classify@m5-p16 · branching@m5-x05 · chips@m5-p19
+m06: 9 interaction(s) hotspots@m6-x01 · classify@m6-p04 · sequence@m6-x02 · classify@m6-x03 · quickfire@m6-p10 · branching@m6-x04 · inspect@m6-x05 · scenario@m6-p17 · chips@m6-p19
+m07: 9 interaction(s) quickfire@m7-p04 · classify@m7-x01 · hotspots@m7-x02 · sequence@m7-x03 · classify@m7-p11 · inspect@m7-x04 · scenario@m7-p17 · branching@m7-x05 · chips@m7-p20
+TOTAL 63 interaction(s) across 7 module(s) · 0 warning(s)
+  ~ [short-cue] course-production/hormones-peptides-skin/arabic-uae-20261007/recovered-english-captions/m03-opener.recovered.en.vtt: cue 8 lasts 1.14s (< 1.2s)
+✓ caption audit: 15 track(s), 345 cue(s), 0 finding(s), 1 warning(s)
+✓ academy.yaml: 1 catalog entries, 0 failing
+== design audit — hormonaly · tier 0 · 8 surface(s) ==
+✗ tier: academy.yaml — tier 0 palette carries non-accent keys [ink, paper, paperDeep, panel, line, muted, mutedLight, navy, primaryTint, onPrimary, action, link, successSoft, successInk, dangerSoft] — tier 0/1 inherit paper/ink/line from the house; only the primary trio may be set (move to tier 2 at intake to own the chassis)
+⚠ claims: course-production/hormones-peptides-skin/arabic-uae-20261007/review.html — institutional affiliation on a surface — only if the brief/intake carries it in writing
+✗ slop: course-production/hormones-peptides-skin/arabic-uae-20261007/sources/sfda-mounjaro.html — CDN framework / icon pack (kill-list: no Tailwind, Bootstrap, Lucide, Font Awesome)
+✗ design audit: 3 finding(s), 2 failing (report-only; --strict to enforce)
+✓ skills: 15 checked, 0 failing
+✓ agent/config.yaml parses (hyperframes pin 0.8.3; 5 image routes, 8 b-roll routes)
+✓ check: all gates pass

@@ -1,0 +1,33 @@
+✔ no on-screen presenter label unless the storyboard asks for one (2.741417ms)
+✔ named things listed as text chips with no picture on screen draw a warning (1.070125ms)
+✔ a presenter film cannot build without its disclosure line; a film without a presenter needs none (0.571542ms)
+✔ a list tag that would run into a long row label is flagged; a short pair is not (0.413042ms)
+✔ a row label wider than the card is flagged (0.172875ms)
+✔ a presenter shot covers its whole state: to the next content change, or to the end of the film (0.205333ms)
+✔ region grounding: a paraphrased name maps by the order asked; exact names always win (0.116584ms)
+✔ the footage scrim darkens full-bleed frames only — an app clip in a window keeps its colours (0.213084ms)
+✔ a living diagram: nodes land on their words, arrows draw just before the node they point at, the last named node is lit (1.223833ms)
+✔ a diagram edge that names a missing node is refused at compile time (0.145084ms)
+✔ a dive: the footage pushes into its focus over the last beat, and the plate opens zoomed on the region, then settles (0.257709ms)
+✔ Greek letters get a face that draws them (a β never falls back to a glyph that reads as ß) (0.174916ms)
+✔ every spring token stays inside the overshoot ban and settles (5.13525ms)
+✔ closed form satisfies the initial conditions in all three damping regimes (0.103542ms)
+✔ a track is a pure function of time: evaluation order never matters (0.754333ms)
+✔ retargeting mid-flight keeps value and velocity continuous (0.071833ms)
+✔ two-edge indicator stretches ahead in the direction of travel, then settles to its width (0.236709ms)
+✔ drag follows the pointer while held and springs from its release velocity (0.079167ms)
+✔ rubber band resists past the limit and never jumps (0.063167ms)
+✔ colour tracks round-trip and never leave the range between their stops (0.559292ms)
+✔ swap: the outgoing text is gone before the incoming one is half in (0.192125ms)
+✔ camera fits each rect and keeps the focus centre on a spring (0.155875ms)
+✔ narration grid: words resolve in order and phrases split on punctuation and pauses (0.691167ms)
+✔ css linear() easing reproduces the spring and ends exactly at 1 (0.480416ms)
+✔ Arabic narration cues preserve letters and ignore vowel marks (1.191375ms)
+ℹ tests 25
+ℹ suites 0
+ℹ pass 25
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 115.788167

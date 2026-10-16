@@ -3,57 +3,57 @@
   "academy": "hormonaly",
   "brandFingerprint": "37e5037cbac7cf513a7b2cb1d7166ade9efcc918d3c5cebd3b993fc214deb0b7",
   "course": "packages/hormones-peptides-skin.ar-AE.json",
-  "packageSha256": "9f3f3b47199c7aad43a2e23b30476784c44ed446abfcd64b65d5dd6b2a7b4491",
-  "capturedAt": "2026-10-08T17:58:19.675Z",
-  "sourceRuntimeCommit": "8b0e8e80287fc7242ce0eb1f53e9361793fb9a24",
+  "packageSha256": "f4e403d7f661daadb56a33e3765754c8f8465eee078b4a08013d965f1f22a994",
+  "capturedAt": "2026-10-16T01:23:17.661916+00:00",
+  "sourceRuntimeCommit": "da92f7508fdbbd7696408f3105739b66681aaa41",
   "viewport": {
     "width": 390,
     "height": 844
   },
   "captureMethod": "Codex in-app browser; actual learner runtime in isolated local mode",
-  "fixture": "Three previews per language. Arabic practice is module 1 pane 5 with one local answer. Science is module 1 pane 3, evidence is module 4 pane 11. English retains the opening film. No production progress or assessment writes. Film at 20 seconds. Arabic film is still in production and is not shown as a localized preview.",
+  "fixture": "Actual local learner runtime at 390×844. Arabic practice: one correct choice. Arabic science: audio played and paused at 20 seconds. English film paused at 20 seconds. Science and evidence screens captured in each locale. No production progress or assessment writes. Arabic films remain drafts pending media review.",
   "captures": [
     {
       "locale": "en",
       "src": "assets/hormones-peptides-skin/home/en/inside-film.png",
       "lesson": 1,
       "pane": 1,
-      "sha256": "ef08942ca266ae8df5882c9e1db559c5f513ecf228b59afbf0db6fb66a634d35"
+      "sha256": "4f76424663aaff698b9bbb6024583d6626565b0f6f4146e439655d4a74cbd97e"
     },
     {
       "locale": "ar",
       "src": "assets/hormones-peptides-skin/home/ar/inside-practice.png",
       "lesson": 1,
       "pane": 5,
-      "sha256": "35db55dc078613525cefac8425a9ee6e6fd11da06b7496dd080e41860a1f38f3"
+      "sha256": "db1ae6de958b6bb260909c4db2aca04c55b07f7bced83a0a508cdb0cca7887c0"
     },
     {
       "locale": "en",
       "src": "assets/hormones-peptides-skin/home/en/inside-science.png",
       "lesson": 1,
       "pane": 3,
-      "sha256": "94e19f4b2b6948dd23051051528e61d395082296482c7388417acb5c19609e83"
+      "sha256": "7c6bd479d45e54901e9d9d0426e6d110066a8dd320807c2f471315437a9731c2"
     },
     {
       "locale": "ar",
       "src": "assets/hormones-peptides-skin/home/ar/inside-science.png",
       "lesson": 1,
       "pane": 3,
-      "sha256": "436f8fb8b9690d33bb0df629a2b14d40a66608a694b1a95a7618746e6082f374"
+      "sha256": "136d1fb4320f71fb3753e1ce25dc0783972d47d0fc476990e392d0c60c430e45"
     },
     {
       "locale": "en",
       "src": "assets/hormones-peptides-skin/home/en/inside-trial.png",
       "lesson": 4,
       "pane": 11,
-      "sha256": "f2b42288dd89e3e398d8f47ca38420e6142e823e05de6c146d8c97835ce21240"
+      "sha256": "e0b3421bf2c9aa911ae2f44a7b7be120dd7735d20ce1544fdb78a21bb4a9d588"
     },
     {
       "locale": "ar",
       "src": "assets/hormones-peptides-skin/home/ar/inside-trial.png",
       "lesson": 4,
       "pane": 11,
-      "sha256": "39650d71b67b1519fe861945ac65b4e5c2ef52abd20ee37a051bd5afd2b7793f"
+      "sha256": "79c1aaf9e9fef9a8cfd76355d91e25055734c3a6e9edb1890ed792f3d85da4dd"
     }
   ]
 }

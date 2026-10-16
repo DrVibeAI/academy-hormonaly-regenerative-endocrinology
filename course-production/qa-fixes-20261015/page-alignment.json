@@ -1,0 +1,74 @@
+[
+  {
+    "page": "Today",
+    "locale": "en",
+    "footerLinks": [
+      "/terms",
+      "/privacy",
+      "/contact",
+      "https://books.perceptors.ai"
+    ],
+    "width": 980,
+    "x": 143
+  },
+  {
+    "page": "Course",
+    "locale": "en",
+    "footerLinks": [
+      "/terms",
+      "/privacy",
+      "/contact",
+      "https://books.perceptors.ai"
+    ],
+    "width": 980,
+    "x": 143
+  },
+  {
+    "page": "Library",
+    "locale": "en",
+    "footerLinks": [
+      "/terms",
+      "/privacy",
+      "/contact",
+      "https://books.perceptors.ai"
+    ],
+    "width": 980,
+    "x": 143
+  },
+  {
+    "page": "اليوم",
+    "locale": "ar",
+    "footerLinks": [
+      "/terms",
+      "/privacy",
+      "/contact",
+      "https://books.perceptors.ai"
+    ],
+    "width": 980,
+    "x": 143
+  },
+  {
+    "page": "الدورة التدريبية",
+    "locale": "ar",
+    "footerLinks": [
+      "/terms",
+      "/privacy",
+      "/contact",
+      "https://books.perceptors.ai"
+    ],
+    "width": 980,
+    "x": 143
+  },
+  {
+    "page": "المكتبة",
+    "locale": "ar",
+    "footerLinks": [
+      "/terms",
+      "/privacy",
+      "/contact",
+      "https://books.perceptors.ai"
+    ],
+    "width": 980,
+    "x": 143
+  }
+]

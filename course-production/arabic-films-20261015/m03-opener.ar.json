@@ -1,0 +1,321 @@
+{
+  "format": "cinematic/1",
+  "id": "m03-opener",
+  "title": "مقدمة الوحدة 03 — هرمونات وببتيدات الجلد",
+  "note": "Module opener in the cinematic lane (docs/motion-contract.md § 10b), same look and rules as the Module 1 opener. Script assembled only from approved text (sources below); presenter lines pass the course script review; draft media until the media preview.",
+  "script": {
+    "text": "يعتمد شكل الوجه على الدهون بقدر اعتماده على الكولاجين. وفي ثلاثة دروس، ستفصل بين ما هو معروف عن دهون الجلد الخاصة، والضرر الناجم عن السكر على الأدمة، وأدوية إنقاص الوزن، والقناة الهضمية، وبين ما يزال مجرد آلية عمل أو تسويق أو سؤال مفتوح. يتصور معظم الناس دهون الجلد كطبقة واحدة تحت الأدمة، لكن توجد طبقة ثانية أرق داخل الأدمة الشبكية نفسها، تُسمى النسيج الشحمي الأبيض الأدمي. وفي الفئران، تتوسع هذه الطبقة بسرعة بعد العدوى بالمكورات العنقودية الذهبية (Staphylococcus aureus)، وتطلق خلاياها الدهنية الجديدة الكاثيلسيدين، وهو ببتيد مضاد للميكروبات. وتفقد الفئران الأكبر سنًا قدرًا كبيرًا من هذه القدرة عبر إشارات TGF-beta. أما جلد الإنسان فيرتب هذه الدهون بشكل مختلف، في أقماع صغيرة حول جريبات الشعر، وتحتوي آفات حب الشباب لدى البشر على خلايا شحمية أولية حول الجريب تُنتج الكاثيلسيدين. ولم يُقَس بعد ما تقدمه هذه الطبقة لشيخوخة جلد الإنسان. لذا افصل بين أمرين عندما تسمع عن دهون الجلد: المعطيات الدفاعية قوية في الفئران وناشئة لدى البشر، بينما الفرضية المتعلقة بالشيخوخة لدى البشر لا تزال مجرد مقترح.",
+    "sources": [
+      "m3-p01 body, sentences 1, 2",
+      "m3-p02 audioScript, sentences 1, 2, 3, 4, 5, 6, 7, 8, 9"
+    ],
+    "locale": "ar-AE"
+  },
+  "voice": {
+    "provider": "elevenlabs",
+    "voice_id": "ZCXYdzd5Evtsll2EdoCi",
+    "name": "Yousef — licensed Arabic narration voice",
+    "preset": "engaging"
+  },
+  "presenter": {
+    "look": "2daeb4c1c74e491c89314a4e7dcd4879",
+    "engine": "avatar_v",
+    "resolution": "4k",
+    "name": "HeyGen stock avatar \"Iris\" (licensed)",
+    "disclosure": {
+      "en": "Presented by a digital avatar (AI-generated presenter and voice).",
+      "ar-AE": "يقدّم هذا الفيديو مقدّم افتراضي وصوت مولّدان بالذكاء الاصطناعي."
+    }
+  },
+  "music": {
+    "src": "m03-score.mp3",
+    "lufs": -22
+  },
+  "chrome": {
+    "kicker": "الوحدة 03 · الدهون، الإنكريتينات وشيخوخة الوجه"
+  },
+  "lead": 0.12,
+  "assets": [
+    {
+      "src": "m3-fat-layers.png",
+      "kind": "image",
+      "candidates": 2,
+      "prompt": "Accurate scientific medical illustration: a vertical cross-section block of human skin seen slightly from the side like a textbook plate, centred with generous empty margins. From top to bottom: the epidermis, the papillary and reticular dermis with wavy collagen bundles, and a thick subcutaneous fat layer of rounded yellow fat lobules. Two hair follicles run down through the dermis, and around the lower part of each follicle sits a small cone of fat cells. Inside the lowest part of the reticular dermis runs a distinct thin band of fat cells, separate from the subcutaneous fat below it."
+    },
+    {
+      "src": "m3-defence.png",
+      "kind": "image",
+      "candidates": 2,
+      "prompt": "Accurate scientific medical illustration: a close-up round vignette of the lower dermis during a skin infection, centred with generous empty margins. On one side, grape-like clusters of small round bacteria (Staphylococcus aureus). Beside them, a group of newly formed small fat cells, each with a single pale lipid droplet, releases a haze of tiny violet antimicrobial peptide molecules toward the bacteria. Collagen fibres in the background."
+    },
+    {
+      "src": "m03-score.mp3",
+      "kind": "music",
+      "prompt": "Instrumental underscore for a 80-second medical education film opener about fat in and under the skin: calm, precise and modern; soft felt piano motif over warm analogue synth pads, a light pulse at 96 BPM entering after 10 seconds, gentle build to a lift two thirds of the way through, resolving softly at the end; documentary feel, same palette as the series, no vocals, no heavy drums, leave space for narration."
+    }
+  ],
+  "states": [
+    {
+      "id": "intro",
+      "shape": {
+        "kind": "frame",
+        "fill": "ink"
+      },
+      "content": {
+        "video": {
+          "presenter": {
+            "from": "يعتمد شكل الوجه",
+            "to": "على الكولاجين"
+          },
+          "focus": [
+            0.5,
+            0.36
+          ],
+          "zoom": [
+            1,
+            1.07
+          ]
+        }
+      },
+      "kinetic": [
+        {
+          "on": "على الدهون",
+          "text": "الدهون"
+        },
+        {
+          "on": "بقدر اعتماده على الكولاجين",
+          "text": "بقدر الكولاجين"
+        }
+      ],
+      "at": 0
+    },
+    {
+      "id": "lessons",
+      "on": "وفي ثلاثة دروس",
+      "shape": {
+        "kind": "panel",
+        "fill": "card"
+      },
+      "list": {
+        "kicker": "ثلاثة دروس",
+        "rows": [
+          {
+            "label": "دهون الجلد الخاصة",
+            "marks": 0
+          },
+          {
+            "label": "ضرر السكر على الأدمة",
+            "marks": 0
+          },
+          {
+            "label": "أدوية الوزن والأمعاء",
+            "marks": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "l1",
+      "on": "دهون الجلد الخاصة",
+      "indicator": {
+        "rows": [
+          0,
+          0
+        ],
+        "tag": null
+      }
+    },
+    {
+      "id": "l2",
+      "on": "والضرر الناجم عن السكر",
+      "indicator": {
+        "rows": [
+          1,
+          1
+        ],
+        "tag": null
+      }
+    },
+    {
+      "id": "l3",
+      "on": "وأدوية إنقاص الوزن",
+      "indicator": {
+        "rows": [
+          2,
+          2
+        ],
+        "tag": null
+      }
+    },
+    {
+      "id": "l4",
+      "on": "ما يزال مجرد آلية عمل",
+      "indicator": {
+        "rows": [
+          0,
+          2
+        ],
+        "tag": null
+      }
+    },
+    {
+      "id": "layers",
+      "on": "يتصور معظم الناس",
+      "shape": {
+        "kind": "window",
+        "fill": "paper",
+        "h": 1280
+      },
+      "kinetic": null,
+      "content": {
+        "image": {
+          "src": "m3-fat-layers.png",
+          "regions": {
+            "subcut": "the thick bottom layer of yellow fat lobules under the dermis",
+            "dwat": "the thin band of fat cells inside the lowest part of the dermis, above the thick fat layer",
+            "cone": "the small cone of fat cells around the lower part of one hair follicle"
+          },
+          "focus": [
+            {
+              "on": "كطبقة واحدة تحت الأدمة،",
+              "region": "subcut",
+              "label": "الدهون تحت الجلد"
+            },
+            {
+              "on": "طبقة ثانية أرق",
+              "region": "dwat",
+              "label": "طبقة ثانية أرق",
+              "zoom": 1.3
+            },
+            {
+              "on": "النسيج الشحمي الأبيض الأدمي",
+              "region": "dwat",
+              "label": "النسيج الشحمي الأبيض الأدمي",
+              "zoom": 1.45
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "defence",
+      "on": "وفي الفئران، تتوسع هذه الطبقة",
+      "shape": {
+        "kind": "window",
+        "fill": "paper",
+        "h": 1100
+      },
+      "kinetic": null,
+      "content": {
+        "image": {
+          "src": "m3-defence.png",
+          "regions": {
+            "bacteria": "the grape-like clusters of small round bacteria",
+            "fat": "the group of small fat cells releasing violet molecules"
+          },
+          "focus": [
+            {
+              "on": "بالمكورات العنقودية الذهبية (Staphylococcus aureus)،",
+              "region": "bacteria",
+              "label": "المكورات العنقودية الذهبية (فئران)"
+            },
+            {
+              "on": "وتطلق خلاياها الدهنية الجديدة الكاثيلسيدين",
+              "region": "fat",
+              "label": "الكاثيلسيدين"
+            },
+            {
+              "on": "وتفقد الفئران الأكبر سنًا",
+              "region": "fat",
+              "label": "تُفقد مع التقدم في السن · TGF-β"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "cones",
+      "on": "أما جلد الإنسان فيرتب",
+      "shape": {
+        "kind": "window",
+        "fill": "paper",
+        "h": 1280
+      },
+      "kinetic": null,
+      "content": {
+        "image": {
+          "src": "m3-fat-layers.png",
+          "regions": {
+            "subcut": "the thick bottom layer of yellow fat lobules under the dermis",
+            "dwat": "the thin band of fat cells inside the lowest part of the dermis, above the thick fat layer",
+            "cone": "the small cone of fat cells around the lower part of one hair follicle"
+          },
+          "focus": [
+            {
+              "on": "أقماع صغيرة حول جريبات الشعر",
+              "region": "cone",
+              "label": "أقماع حول الجريبات (بشر)",
+              "zoom": 1.4
+            },
+            {
+              "on": "آفات حب الشباب لدى البشر",
+              "region": "cone",
+              "label": "حب الشباب: خلايا شحمية أولية · كاثيلسيدين",
+              "zoom": 1.4
+            },
+            {
+              "on": "ما تقدمه هذه الطبقة",
+              "region": "dwat",
+              "label": "دورها في شيخوخة جلد الإنسان؟",
+              "zoom": 1.2
+            },
+            {
+              "on": "ولم يُقَس بعد",
+              "zoom": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "close",
+      "shape": {
+        "kind": "frame",
+        "fill": "ink"
+      },
+      "content": {
+        "video": {
+          "presenter": {
+            "from": "لذا افصل بين أمرين",
+            "to": "مجرد مقترح"
+          },
+          "focus": [
+            0.5,
+            0.36
+          ],
+          "zoom": [
+            1.04,
+            1.1
+          ]
+        }
+      },
+      "kinetic": [
+        {
+          "on": "المعطيات الدفاعية",
+          "text": "الدفاع: قوي في الفئران"
+        },
+        {
+          "on": "الفرضية المتعلقة بالشيخوخة",
+          "text": "الشيخوخة: مجرد مقترح"
+        }
+      ],
+      "on": "لذا افصل بين أمرين"
+    }
+  ],
+  "localization": {
+    "sourceSha256": "2b1102a7e2a6af56d42d25d26716ba0a49ba38df61b183c8e77323157e32ed5c",
+    "locale": "ar-AE",
+    "status": "draft",
+    "structurePreserved": true
+  }
+}

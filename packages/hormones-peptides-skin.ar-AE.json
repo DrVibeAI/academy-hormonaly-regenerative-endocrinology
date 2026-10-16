@@ -11145,11 +11145,14 @@
                 },
                 "title": {
                   "en": "The skin as an endocrine organ, and how it ages",
-                  "ar-AE": "الفيلم الأصلي بالإنجليزية — النسخة العربية قيد الإنتاج: الجلد كعضو صماوي، وكيف يشيخ"
+                  "ar-AE": "الجلد كعضو صماوي، وكيف يشيخ"
                 },
                 "assetRefs": [
                   "asset-hps-m01-opener",
-                  "asset-hps-m01-opener-poster"
+                  "asset-hps-m01-opener-poster",
+                  "asset-hps-m01-opener-ar",
+                  "asset-hps-m01-opener-ar-poster",
+                  "asset-hps-m01-opener-ar-captions"
                 ],
                 "citationRefs": [
                   "slominski-2025-skin-neuro-immuno-endocrinology",
@@ -11172,11 +11175,6 @@
                       "m1-p03 audioScript, sentences 1–8"
                     ],
                     "rule": "verbatim approved sentences only"
-                  },
-                  "referenceVideoLocale": "en",
-                  "videoBadge": {
-                    "en": "English reference film — Arabic edition in production",
-                    "ar-AE": "الفيلم الإنجليزي الأصلي — النسخة العربية قيد الإنتاج"
                   }
                 },
                 "time": "02 / 25"
@@ -14238,11 +14236,14 @@
                 },
                 "title": {
                   "en": "Systemic hormones and the skin",
-                  "ar-AE": "الفيلم الأصلي بالإنجليزية — النسخة العربية قيد الإنتاج: الهرمونات الجهازية والجلد"
+                  "ar-AE": "الهرمونات الجهازية والجلد"
                 },
                 "assetRefs": [
                   "asset-hps-m02-opener",
-                  "asset-hps-m02-opener-poster"
+                  "asset-hps-m02-opener-poster",
+                  "asset-hps-m02-opener-ar",
+                  "asset-hps-m02-opener-ar-poster",
+                  "asset-hps-m02-opener-ar-captions"
                 ],
                 "citationRefs": [
                   "slominski-wortsman-2000-skin-neuroendocrinology",
@@ -14264,11 +14265,6 @@
                       "m2-p02 audioScript, sentences 1, 2, 3, 4, 5, 6, 7"
                     ],
                     "rule": "verbatim approved sentences only"
-                  },
-                  "referenceVideoLocale": "en",
-                  "videoBadge": {
-                    "en": "English reference film — Arabic edition in production",
-                    "ar-AE": "الفيلم الإنجليزي الأصلي — النسخة العربية قيد الإنتاج"
                   }
                 },
                 "time": "02 / 25"
@@ -17531,11 +17527,14 @@
                 },
                 "title": {
                   "en": "Fat, incretins and the ageing face",
-                  "ar-AE": "الفيلم الأصلي بالإنجليزية — النسخة العربية قيد الإنتاج: الدهون، والإنكريتينات، والوجه المتقدم في السن"
+                  "ar-AE": "الدهون، والإنكريتينات، والوجه المتقدم في السن"
                 },
                 "assetRefs": [
                   "asset-hps-m03-opener",
-                  "asset-hps-m03-opener-poster"
+                  "asset-hps-m03-opener-poster",
+                  "asset-hps-m03-opener-ar",
+                  "asset-hps-m03-opener-ar-poster",
+                  "asset-hps-m03-opener-ar-captions"
                 ],
                 "citationRefs": [
                   "chen-zhang-gallo-2019-dwat-review",
@@ -17560,11 +17559,6 @@
                       "m3-p02 audioScript, sentences 1, 2, 3, 4, 5, 6, 7, 8, 9"
                     ],
                     "rule": "verbatim approved sentences only"
-                  },
-                  "referenceVideoLocale": "en",
-                  "videoBadge": {
-                    "en": "English reference film — Arabic edition in production",
-                    "ar-AE": "الفيلم الإنجليزي الأصلي — النسخة العربية قيد الإنتاج"
                   }
                 },
                 "time": "02 / 26"
@@ -21134,11 +21128,14 @@
                 },
                 "title": {
                   "en": "Matrix peptides and wound healing",
-                  "ar-AE": "الفيلم الأصلي بالإنجليزية — النسخة العربية قيد الإنتاج: ببتيدات المادة الخلالية والتئام الجروح"
+                  "ar-AE": "ببتيدات المادة الخلالية والتئام الجروح"
                 },
                 "assetRefs": [
                   "asset-hps-m04-opener",
-                  "asset-hps-m04-opener-poster"
+                  "asset-hps-m04-opener-poster",
+                  "asset-hps-m04-opener-ar",
+                  "asset-hps-m04-opener-ar-poster",
+                  "asset-hps-m04-opener-ar-captions"
                 ],
                 "citationRefs": [
                   "pickart-thaler-1973",
@@ -21162,11 +21159,6 @@
                       "m4-p03 audioScript, sentences 1, 2, 3, 4, 5, 6, 7, 8"
                     ],
                     "rule": "verbatim approved sentences only"
-                  },
-                  "referenceVideoLocale": "en",
-                  "videoBadge": {
-                    "en": "English reference film — Arabic edition in production",
-                    "ar-AE": "الفيلم الإنجليزي الأصلي — النسخة العربية قيد الإنتاج"
                   }
                 },
                 "time": "02 / 25"
@@ -24521,11 +24513,14 @@
                 },
                 "title": {
                   "en": "Follicle, pigment and melanocortins",
-                  "ar-AE": "الفيلم الأصلي بالإنجليزية — النسخة العربية قيد الإنتاج: الجريب، والصبغة، والميلانوكورتينات"
+                  "ar-AE": "الجريب، والصبغة، والميلانوكورتينات"
                 },
                 "assetRefs": [
                   "asset-hps-m05-opener",
-                  "asset-hps-m05-opener-poster"
+                  "asset-hps-m05-opener-poster",
+                  "asset-hps-m05-opener-ar",
+                  "asset-hps-m05-opener-ar-poster",
+                  "asset-hps-m05-opener-ar-captions"
                 ],
                 "citationRefs": [
                   "ito-2005-hair-follicle-hpa",
@@ -24548,11 +24543,6 @@
                       "m5-p02 audioScript, sentences 1, 2, 3, 5, 8"
                     ],
                     "rule": "verbatim approved sentences only"
-                  },
-                  "referenceVideoLocale": "en",
-                  "videoBadge": {
-                    "en": "English reference film — Arabic edition in production",
-                    "ar-AE": "الفيلم الإنجليزي الأصلي — النسخة العربية قيد الإنتاج"
                   }
                 },
                 "time": "02 / 25"
@@ -27990,11 +27980,14 @@
                 },
                 "title": {
                   "en": "The growth-hormone axis and the skin",
-                  "ar-AE": "الفيلم الأصلي بالإنجليزية — النسخة العربية قيد الإنتاج: محور هرمون النمو والجلد"
+                  "ar-AE": "محور هرمون النمو والجلد"
                 },
                 "assetRefs": [
                   "asset-hps-m06-opener",
-                  "asset-hps-m06-opener-poster"
+                  "asset-hps-m06-opener-poster",
+                  "asset-hps-m06-opener-ar",
+                  "asset-hps-m06-opener-ar-poster",
+                  "asset-hps-m06-opener-ar-captions"
                 ],
                 "citationRefs": [
                   "tavakkol-1992-gh-receptor-skin",
@@ -28017,11 +28010,6 @@
                       "m6-p02 audioScript, sentences 1, 2, 3, 4, 5, 7, 8, 9, 10"
                     ],
                     "rule": "verbatim approved sentences only"
-                  },
-                  "referenceVideoLocale": "en",
-                  "videoBadge": {
-                    "en": "English reference film — Arabic edition in production",
-                    "ar-AE": "الفيلم الإنجليزي الأصلي — النسخة العربية قيد الإنتاج"
                   }
                 },
                 "time": "02 / 25"
@@ -28552,7 +28540,7 @@
                 },
                 "title": {
                   "en": "Deficiency is a diagnosis. Decline is ageing.",
-                  "ar-AE": "العوز تشخيص. والتراجع شيخوخة."
+                  "ar-AE": "نقص الهرمون تشخيص مرضي. وانخفاضه مع العمر تغير طبيعي."
                 },
                 "body": {
                   "en": "In healthy older adults, randomized trials of growth hormone show small shifts in body composition, about 2 kg less fat and 2 kg more lean mass, with more oedema, joint pain, carpal tunnel syndrome and a trend towards diabetes. Strength and endurance change little. The Aesthetic & Regenerative Endocrinology guide grades its advice against treatment A; graded on the trials themselves the evidence is B, and the conclusion is the same. In the US, as of September 2026, knowingly distributing growth hormone for anti-ageing is a federal offence.",
@@ -31592,11 +31580,14 @@
                 },
                 "title": {
                   "en": "Evidence, regulation and compliance",
-                  "ar-AE": "الفيلم الأصلي بالإنجليزية — النسخة العربية قيد الإنتاج: الأدلة والتنظيم والامتثال"
+                  "ar-AE": "الأدلة والتنظيم والامتثال"
                 },
                 "assetRefs": [
                   "asset-hps-m07-opener",
-                  "asset-hps-m07-opener-poster"
+                  "asset-hps-m07-opener-poster",
+                  "asset-hps-m07-opener-ar",
+                  "asset-hps-m07-opener-ar-poster",
+                  "asset-hps-m07-opener-ar-captions"
                 ],
                 "citationRefs": [
                   "balshem-2011-grade-rating-quality",
@@ -31619,11 +31610,6 @@
                       "m7-p02 audioScript, sentences 1, 2, 3, 4, 5, 6, 8, 9, 10"
                     ],
                     "rule": "verbatim approved sentences only"
-                  },
-                  "referenceVideoLocale": "en",
-                  "videoBadge": {
-                    "en": "English reference film — Arabic edition in production",
-                    "ar-AE": "الفيلم الإنجليزي الأصلي — النسخة العربية قيد الإنتاج"
                   }
                 },
                 "time": "02 / 28"
@@ -37815,6 +37801,499 @@
       },
       "durationSeconds": 94.32,
       "checksum": "sha256:29a74a2493aa26a06d3b8bf8e131b08cef2008a387bddb119f4fb6b3bf15ddeb"
+    },
+    {
+      "locale": "ar-AE",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/video/morph.mjs",
+        "model": "HeyGen Avatar V licensed Iris · ElevenLabs v3 Yousef · HyperFrames 0.8.162",
+        "promptRef": "course-production/arabic-films-20261015/m01-opener.ar.json"
+      },
+      "metadata": {
+        "block": "m1-opener",
+        "mediaPreview": "Draft — awaiting human Arabic media review",
+        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing."
+      },
+      "id": "asset-hps-m01-opener-ar",
+      "kind": "video",
+      "role": "module-opener",
+      "uri": "assets/hormones-peptides-skin/ar-AE/video/m01-opener.mp4",
+      "durationSeconds": 113.033333,
+      "checksum": "sha256:9355c3c6792e2d4d4bb11ac1d4fb2704b38b9836acf476946b4ceed0eeeca687",
+      "disclosure": {
+        "en": "Presented by a digital avatar (AI-generated presenter and voice).",
+        "ar-AE": "يقدّم هذا الفيديو مقدّم افتراضي وصوت مولّدان بالذكاء الاصطناعي."
+      }
+    },
+    {
+      "locale": "ar-AE",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/video/morph.mjs",
+        "model": "HeyGen Avatar V licensed Iris · ElevenLabs v3 Yousef · HyperFrames 0.8.162",
+        "promptRef": "course-production/arabic-films-20261015/m01-opener.ar.json"
+      },
+      "metadata": {
+        "block": "m1-opener",
+        "mediaPreview": "Draft — awaiting human Arabic media review",
+        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing."
+      },
+      "id": "asset-hps-m01-opener-ar-poster",
+      "kind": "image",
+      "role": "poster",
+      "uri": "assets/hormones-peptides-skin/ar-AE/video/m01-opener-poster.jpg",
+      "checksum": "sha256:24a85dbcafa0f261b16206a7d3d5aa5b8ff0767f0043f406f26659a19d5db244"
+    },
+    {
+      "locale": "ar-AE",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/video/morph.mjs",
+        "model": "HeyGen Avatar V licensed Iris · ElevenLabs v3 Yousef · HyperFrames 0.8.162",
+        "promptRef": "course-production/arabic-films-20261015/m01-opener.ar.json"
+      },
+      "metadata": {
+        "block": "m1-opener",
+        "mediaPreview": "Draft — awaiting human Arabic media review",
+        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing."
+      },
+      "id": "asset-hps-m01-opener-ar-captions",
+      "kind": "captions",
+      "role": "caption-track",
+      "uri": "assets/hormones-peptides-skin/ar-AE/video/m01-opener.vtt",
+      "checksum": "sha256:4ce9ee975fafc2a92bc5a4dfc35db2cbd39f92cf7b76d484b86404cdd52a0421"
+    },
+    {
+      "locale": "ar-AE",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/video/morph.mjs",
+        "model": "HeyGen Avatar V licensed Iris · ElevenLabs v3 Yousef · HyperFrames 0.8.162",
+        "promptRef": "course-production/arabic-films-20261015/m02-opener.ar.json"
+      },
+      "metadata": {
+        "block": "m2-opener",
+        "mediaPreview": "Draft — awaiting human Arabic media review",
+        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing."
+      },
+      "id": "asset-hps-m02-opener-ar",
+      "kind": "video",
+      "role": "module-opener",
+      "uri": "assets/hormones-peptides-skin/ar-AE/video/m02-opener.mp4",
+      "durationSeconds": 124.55,
+      "checksum": "sha256:d91b80a9ae6ed929a8339bd305e4bec6d1375685c3215687fdbc0cd97c09ab2e",
+      "disclosure": {
+        "en": "Presented by a digital avatar (AI-generated presenter and voice).",
+        "ar-AE": "يقدّم هذا الفيديو مقدّم افتراضي وصوت مولّدان بالذكاء الاصطناعي."
+      }
+    },
+    {
+      "locale": "ar-AE",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/video/morph.mjs",
+        "model": "HeyGen Avatar V licensed Iris · ElevenLabs v3 Yousef · HyperFrames 0.8.162",
+        "promptRef": "course-production/arabic-films-20261015/m02-opener.ar.json"
+      },
+      "metadata": {
+        "block": "m2-opener",
+        "mediaPreview": "Draft — awaiting human Arabic media review",
+        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing."
+      },
+      "id": "asset-hps-m02-opener-ar-poster",
+      "kind": "image",
+      "role": "poster",
+      "uri": "assets/hormones-peptides-skin/ar-AE/video/m02-opener-poster.jpg",
+      "checksum": "sha256:5cf60c3dc7c23c5df143aeba634eea2ee087d15f6dc4bba2eb127739878e0a2f"
+    },
+    {
+      "locale": "ar-AE",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/video/morph.mjs",
+        "model": "HeyGen Avatar V licensed Iris · ElevenLabs v3 Yousef · HyperFrames 0.8.162",
+        "promptRef": "course-production/arabic-films-20261015/m02-opener.ar.json"
+      },
+      "metadata": {
+        "block": "m2-opener",
+        "mediaPreview": "Draft — awaiting human Arabic media review",
+        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing."
+      },
+      "id": "asset-hps-m02-opener-ar-captions",
+      "kind": "captions",
+      "role": "caption-track",
+      "uri": "assets/hormones-peptides-skin/ar-AE/video/m02-opener.vtt",
+      "checksum": "sha256:12d3b1eada9621a63bd6fdb18e52d9d05c4c191629e450a22069182d4905f342"
+    },
+    {
+      "locale": "ar-AE",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/video/morph.mjs",
+        "model": "HeyGen Avatar V licensed Iris · ElevenLabs v3 Yousef · HyperFrames 0.8.162",
+        "promptRef": "course-production/arabic-films-20261015/m03-opener.ar.json"
+      },
+      "metadata": {
+        "block": "m3-opener",
+        "mediaPreview": "Draft — awaiting human Arabic media review",
+        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing."
+      },
+      "id": "asset-hps-m03-opener-ar",
+      "kind": "video",
+      "role": "module-opener",
+      "uri": "assets/hormones-peptides-skin/ar-AE/video/m03-opener.mp4",
+      "durationSeconds": 106.066667,
+      "checksum": "sha256:bd4f83105eaa906db204cfc18f13d77e0d9610be2a2e2a150c7f298be5960317",
+      "disclosure": {
+        "en": "Presented by a digital avatar (AI-generated presenter and voice).",
+        "ar-AE": "يقدّم هذا الفيديو مقدّم افتراضي وصوت مولّدان بالذكاء الاصطناعي."
+      }
+    },
+    {
+      "locale": "ar-AE",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/video/morph.mjs",
+        "model": "HeyGen Avatar V licensed Iris · ElevenLabs v3 Yousef · HyperFrames 0.8.162",
+        "promptRef": "course-production/arabic-films-20261015/m03-opener.ar.json"
+      },
+      "metadata": {
+        "block": "m3-opener",
+        "mediaPreview": "Draft — awaiting human Arabic media review",
+        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing."
+      },
+      "id": "asset-hps-m03-opener-ar-poster",
+      "kind": "image",
+      "role": "poster",
+      "uri": "assets/hormones-peptides-skin/ar-AE/video/m03-opener-poster.jpg",
+      "checksum": "sha256:351faf317506ed803569cfb8175369acad9693f5677dbfb21a720a8f5d8916fb"
+    },
+    {
+      "locale": "ar-AE",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/video/morph.mjs",
+        "model": "HeyGen Avatar V licensed Iris · ElevenLabs v3 Yousef · HyperFrames 0.8.162",
+        "promptRef": "course-production/arabic-films-20261015/m03-opener.ar.json"
+      },
+      "metadata": {
+        "block": "m3-opener",
+        "mediaPreview": "Draft — awaiting human Arabic media review",
+        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing."
+      },
+      "id": "asset-hps-m03-opener-ar-captions",
+      "kind": "captions",
+      "role": "caption-track",
+      "uri": "assets/hormones-peptides-skin/ar-AE/video/m03-opener.vtt",
+      "checksum": "sha256:07759356a59c827d7a4fa3b7f044e44aa46ea7487daaccc7b71416e7476cf76a"
+    },
+    {
+      "locale": "ar-AE",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/video/morph.mjs",
+        "model": "HeyGen Avatar V licensed Iris · ElevenLabs v3 Yousef · HyperFrames 0.8.162",
+        "promptRef": "course-production/arabic-films-20261015/m04-opener.ar.json"
+      },
+      "metadata": {
+        "block": "m4-opener",
+        "mediaPreview": "Draft — awaiting human Arabic media review",
+        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing."
+      },
+      "id": "asset-hps-m04-opener-ar",
+      "kind": "video",
+      "role": "module-opener",
+      "uri": "assets/hormones-peptides-skin/ar-AE/video/m04-opener.mp4",
+      "durationSeconds": 102.3,
+      "checksum": "sha256:fd810e0a86ca809ade7d83e1bd577ccec312cec78f6fdc540b13e0b3599e96b1",
+      "disclosure": {
+        "en": "Presented by a digital avatar (AI-generated presenter and voice).",
+        "ar-AE": "يقدّم هذا الفيديو مقدّم افتراضي وصوت مولّدان بالذكاء الاصطناعي."
+      }
+    },
+    {
+      "locale": "ar-AE",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/video/morph.mjs",
+        "model": "HeyGen Avatar V licensed Iris · ElevenLabs v3 Yousef · HyperFrames 0.8.162",
+        "promptRef": "course-production/arabic-films-20261015/m04-opener.ar.json"
+      },
+      "metadata": {
+        "block": "m4-opener",
+        "mediaPreview": "Draft — awaiting human Arabic media review",
+        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing."
+      },
+      "id": "asset-hps-m04-opener-ar-poster",
+      "kind": "image",
+      "role": "poster",
+      "uri": "assets/hormones-peptides-skin/ar-AE/video/m04-opener-poster.jpg",
+      "checksum": "sha256:7b294c3ec790e6ed01d20bac4f51fb99be19e74c0b9d303b7ee5ca28cb454d49"
+    },
+    {
+      "locale": "ar-AE",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/video/morph.mjs",
+        "model": "HeyGen Avatar V licensed Iris · ElevenLabs v3 Yousef · HyperFrames 0.8.162",
+        "promptRef": "course-production/arabic-films-20261015/m04-opener.ar.json"
+      },
+      "metadata": {
+        "block": "m4-opener",
+        "mediaPreview": "Draft — awaiting human Arabic media review",
+        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing."
+      },
+      "id": "asset-hps-m04-opener-ar-captions",
+      "kind": "captions",
+      "role": "caption-track",
+      "uri": "assets/hormones-peptides-skin/ar-AE/video/m04-opener.vtt",
+      "checksum": "sha256:e4ea954779320edf52891f616bf287f6f74d4d5660f6798e606f6bddb364f6e0"
+    },
+    {
+      "locale": "ar-AE",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/video/morph.mjs",
+        "model": "HeyGen Avatar V licensed Iris · ElevenLabs v3 Yousef · HyperFrames 0.8.162",
+        "promptRef": "course-production/arabic-films-20261015/m05-opener.ar.json"
+      },
+      "metadata": {
+        "block": "m5-opener",
+        "mediaPreview": "Draft — awaiting human Arabic media review",
+        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing."
+      },
+      "id": "asset-hps-m05-opener-ar",
+      "kind": "video",
+      "role": "module-opener",
+      "uri": "assets/hormones-peptides-skin/ar-AE/video/m05-opener.mp4",
+      "durationSeconds": 119.1,
+      "checksum": "sha256:699f0be7fd36103fffd34c5e332aaeb3f3902a6171014c8af7bc968268195405",
+      "disclosure": {
+        "en": "Presented by a digital avatar (AI-generated presenter and voice).",
+        "ar-AE": "يقدّم هذا الفيديو مقدّم افتراضي وصوت مولّدان بالذكاء الاصطناعي."
+      }
+    },
+    {
+      "locale": "ar-AE",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/video/morph.mjs",
+        "model": "HeyGen Avatar V licensed Iris · ElevenLabs v3 Yousef · HyperFrames 0.8.162",
+        "promptRef": "course-production/arabic-films-20261015/m05-opener.ar.json"
+      },
+      "metadata": {
+        "block": "m5-opener",
+        "mediaPreview": "Draft — awaiting human Arabic media review",
+        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing."
+      },
+      "id": "asset-hps-m05-opener-ar-poster",
+      "kind": "image",
+      "role": "poster",
+      "uri": "assets/hormones-peptides-skin/ar-AE/video/m05-opener-poster.jpg",
+      "checksum": "sha256:505355885e14fc6ec144702827ddafac5f350b678ea17f862b631de8095cd4ff"
+    },
+    {
+      "locale": "ar-AE",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/video/morph.mjs",
+        "model": "HeyGen Avatar V licensed Iris · ElevenLabs v3 Yousef · HyperFrames 0.8.162",
+        "promptRef": "course-production/arabic-films-20261015/m05-opener.ar.json"
+      },
+      "metadata": {
+        "block": "m5-opener",
+        "mediaPreview": "Draft — awaiting human Arabic media review",
+        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing."
+      },
+      "id": "asset-hps-m05-opener-ar-captions",
+      "kind": "captions",
+      "role": "caption-track",
+      "uri": "assets/hormones-peptides-skin/ar-AE/video/m05-opener.vtt",
+      "checksum": "sha256:f61ec41b2bec7edc14bbd179c7aae15f38feda6bf4b6308c1c1aa54c02f49e23"
+    },
+    {
+      "locale": "ar-AE",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/video/morph.mjs",
+        "model": "HeyGen Avatar V licensed Iris · ElevenLabs v3 Yousef · HyperFrames 0.8.162",
+        "promptRef": "course-production/arabic-films-20261015/m06-opener.ar.json"
+      },
+      "metadata": {
+        "block": "m6-opener",
+        "mediaPreview": "Draft — awaiting human Arabic media review",
+        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing."
+      },
+      "id": "asset-hps-m06-opener-ar",
+      "kind": "video",
+      "role": "module-opener",
+      "uri": "assets/hormones-peptides-skin/ar-AE/video/m06-opener.mp4",
+      "durationSeconds": 133.35,
+      "checksum": "sha256:b4dd47046202af4b5c47bdebbd006179d7d7d7963f78b1bab313e5542c2b7cb4",
+      "disclosure": {
+        "en": "Presented by a digital avatar (AI-generated presenter and voice).",
+        "ar-AE": "يقدّم هذا الفيديو مقدّم افتراضي وصوت مولّدان بالذكاء الاصطناعي."
+      }
+    },
+    {
+      "locale": "ar-AE",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/video/morph.mjs",
+        "model": "HeyGen Avatar V licensed Iris · ElevenLabs v3 Yousef · HyperFrames 0.8.162",
+        "promptRef": "course-production/arabic-films-20261015/m06-opener.ar.json"
+      },
+      "metadata": {
+        "block": "m6-opener",
+        "mediaPreview": "Draft — awaiting human Arabic media review",
+        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing."
+      },
+      "id": "asset-hps-m06-opener-ar-poster",
+      "kind": "image",
+      "role": "poster",
+      "uri": "assets/hormones-peptides-skin/ar-AE/video/m06-opener-poster.jpg",
+      "checksum": "sha256:4dc1a30772e26840a4aa0867681c00de5f4fa6c6cc723d820138e373a941ed0d"
+    },
+    {
+      "locale": "ar-AE",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/video/morph.mjs",
+        "model": "HeyGen Avatar V licensed Iris · ElevenLabs v3 Yousef · HyperFrames 0.8.162",
+        "promptRef": "course-production/arabic-films-20261015/m06-opener.ar.json"
+      },
+      "metadata": {
+        "block": "m6-opener",
+        "mediaPreview": "Draft — awaiting human Arabic media review",
+        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing."
+      },
+      "id": "asset-hps-m06-opener-ar-captions",
+      "kind": "captions",
+      "role": "caption-track",
+      "uri": "assets/hormones-peptides-skin/ar-AE/video/m06-opener.vtt",
+      "checksum": "sha256:61d1b03f9b9949545f2081a284b1c50141e1b32a64c5a9e2ecc4d7d6f5601720"
+    },
+    {
+      "locale": "ar-AE",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/video/morph.mjs",
+        "model": "HeyGen Avatar V licensed Iris · ElevenLabs v3 Yousef · HyperFrames 0.8.162",
+        "promptRef": "course-production/arabic-films-20261015/m07-opener.ar.json"
+      },
+      "metadata": {
+        "block": "m7-opener",
+        "mediaPreview": "Draft — awaiting human Arabic media review",
+        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing."
+      },
+      "id": "asset-hps-m07-opener-ar",
+      "kind": "video",
+      "role": "module-opener",
+      "uri": "assets/hormones-peptides-skin/ar-AE/video/m07-opener.mp4",
+      "durationSeconds": 132.95,
+      "checksum": "sha256:7bae9cbe5d10093aedf5825af6ec030febc5abe8dfd7898ce29e4a2a74eeb5ae",
+      "disclosure": {
+        "en": "Presented by a digital avatar (AI-generated presenter and voice).",
+        "ar-AE": "يقدّم هذا الفيديو مقدّم افتراضي وصوت مولّدان بالذكاء الاصطناعي."
+      }
+    },
+    {
+      "locale": "ar-AE",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/video/morph.mjs",
+        "model": "HeyGen Avatar V licensed Iris · ElevenLabs v3 Yousef · HyperFrames 0.8.162",
+        "promptRef": "course-production/arabic-films-20261015/m07-opener.ar.json"
+      },
+      "metadata": {
+        "block": "m7-opener",
+        "mediaPreview": "Draft — awaiting human Arabic media review",
+        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing."
+      },
+      "id": "asset-hps-m07-opener-ar-poster",
+      "kind": "image",
+      "role": "poster",
+      "uri": "assets/hormones-peptides-skin/ar-AE/video/m07-opener-poster.jpg",
+      "checksum": "sha256:bc47520218c3765fec51baf645b8492ac8c7b0411712dec2a4809d68f1d5fa1f"
+    },
+    {
+      "locale": "ar-AE",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/video/morph.mjs",
+        "model": "HeyGen Avatar V licensed Iris · ElevenLabs v3 Yousef · HyperFrames 0.8.162",
+        "promptRef": "course-production/arabic-films-20261015/m07-opener.ar.json"
+      },
+      "metadata": {
+        "block": "m7-opener",
+        "mediaPreview": "Draft — awaiting human Arabic media review",
+        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing."
+      },
+      "id": "asset-hps-m07-opener-ar-captions",
+      "kind": "captions",
+      "role": "caption-track",
+      "uri": "assets/hormones-peptides-skin/ar-AE/video/m07-opener.vtt",
+      "checksum": "sha256:75b754562f42525da7e315b04529a29989209e3ec1b6fd5bc7a3dded31757304"
+    },
+    {
+      "locale": "ar-AE",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/video/morph.mjs",
+        "model": "HeyGen Avatar V licensed Iris · ElevenLabs v3 Yousef · HyperFrames 0.8.162",
+        "promptRef": "course-production/arabic-films-20261015/hype.ar.json"
+      },
+      "metadata": {
+        "mediaPreview": "Draft — awaiting human Arabic media review",
+        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing."
+      },
+      "id": "asset-hps-hype-ar",
+      "kind": "video",
+      "role": "course-trailer",
+      "uri": "assets/hormones-peptides-skin/ar-AE/video/hype.mp4",
+      "durationSeconds": 78.15,
+      "checksum": "sha256:d08ebf596967c7aee25aff1aa225c35aae906238f81a794a3fa9fb4a6c4178f1",
+      "disclosure": {
+        "en": "Presented by a digital avatar (AI-generated presenter and voice).",
+        "ar-AE": "يقدّم هذا الفيديو مقدّم افتراضي وصوت مولّدان بالذكاء الاصطناعي."
+      }
+    },
+    {
+      "locale": "ar-AE",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/video/morph.mjs",
+        "model": "HeyGen Avatar V licensed Iris · ElevenLabs v3 Yousef · HyperFrames 0.8.162",
+        "promptRef": "course-production/arabic-films-20261015/hype.ar.json"
+      },
+      "metadata": {
+        "mediaPreview": "Draft — awaiting human Arabic media review",
+        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing."
+      },
+      "id": "asset-hps-hype-ar-poster",
+      "kind": "image",
+      "role": "poster",
+      "uri": "assets/hormones-peptides-skin/ar-AE/video/hype-poster.jpg",
+      "checksum": "sha256:1ca8414cbbb1f17969665b0aa6e5a42a7a9e88d83d28ad59583b478ca0cf2781"
+    },
+    {
+      "locale": "ar-AE",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "perceptor-foundry/tools/video/morph.mjs",
+        "model": "HeyGen Avatar V licensed Iris · ElevenLabs v3 Yousef · HyperFrames 0.8.162",
+        "promptRef": "course-production/arabic-films-20261015/hype.ar.json"
+      },
+      "metadata": {
+        "mediaPreview": "Draft — awaiting human Arabic media review",
+        "structure": "Same states, source assets, presenter look and interactions as the original English film; Arabic text, narration and word timing."
+      },
+      "id": "asset-hps-hype-ar-captions",
+      "kind": "captions",
+      "role": "caption-track",
+      "uri": "assets/hormones-peptides-skin/ar-AE/video/hype.vtt",
+      "checksum": "sha256:78b8242d811c01d17200c8ade893d835d4db6b0b67edaff218be2b1487722d31"
     }
   ],
   "assessments": [

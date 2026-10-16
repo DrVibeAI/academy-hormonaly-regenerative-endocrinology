@@ -1,0 +1,308 @@
+{
+  "format": "cinematic/1",
+  "id": "m06-opener",
+  "title": "مقدمة الوحدة 06 — الهرمونات والببتيدات لصحة الجلد",
+  "note": "Module opener in the cinematic lane (docs/motion-contract.md § 10b), same look and rules as the Module 1 opener. Script assembled only from approved text (sources below); presenter lines pass the course script review; draft media until the media preview.",
+  "script": {
+    "text": "يؤثر هرمون النمو وIGF-1 تأثيراً حقيقياً في تشكيل الجلد، وهناك ببتيد واحد على هذا المحور مدعوم بتجارب بمستوى الاعتماد التنظيمي. غير أن معظم ما يُعرض على المرضى يستند إلى دعم أقل من ذلك بكثير. ستفصل عبر ثلاثة دروس بين الفسيولوجيا والوعود، وبين المعتمد والمستند إلى حالات فردية، وبين الآثار الجانبية الملموسة والمخاطر التي لم يقسها أحد. تستجيب طبقتا الجلد لجزأين مختلفين من المحور نفسه؛ إذ يخاطب هرمون النمو الأدمة في المقام الأول. ويُعبَّر عن مستقبله على الخلايا الليفية اليافعة بدرجة أكبر مقارنة بالخلايا الكيراتينية، كما يزيد هرمون النمو في المزارع الخلوية من أعداد الخلايا الليفية اليافعة ويدعم تخليق الكولاجين، تارة بصورة مباشرة وتارة عبر IGF-1. في المقابل، تستجيب البشرة لـ IGF-1؛ حيث تحمل الخلايا الكيراتينية مستقبل IGF-1، بينما توفر الخلايا المجاورة لها في الأدمة هذا الهرمون، وفي المزارع الخلوية يحفز IGF-1 انقسام الخلايا الكيراتينية، في حين لا يُحدث هرمون النمو بمفرده أي أثر. ومع التقدم في السن، تتراجع نبضات هرمون النمو وIGF-1 باطراد، وهو تغير يُعرف بالإياس الجسدي (somatopause). اعتبر كل هذا بمثابة آلية العمل؛ فهو يوضح سبب الأهمية المحتملة لهذا المحور بالنسبة للجلد. أما مسألة ما إذا كان التدخل فيه يفيد المريض فهذا سؤال منفصل تجيب عنه التجارب السريرية.",
+    "sources": [
+      "m6-p01 body, sentences 1, 2, 3",
+      "m6-p02 audioScript, sentences 1, 2, 3, 4, 5, 7, 8, 9, 10"
+    ],
+    "locale": "ar-AE"
+  },
+  "voice": {
+    "provider": "elevenlabs",
+    "voice_id": "ZCXYdzd5Evtsll2EdoCi",
+    "name": "Yousef — licensed Arabic narration voice",
+    "preset": "engaging"
+  },
+  "presenter": {
+    "look": "2daeb4c1c74e491c89314a4e7dcd4879",
+    "engine": "avatar_v",
+    "resolution": "4k",
+    "name": "HeyGen stock avatar \"Iris\" (licensed)",
+    "disclosure": {
+      "en": "Presented by a digital avatar (AI-generated presenter and voice).",
+      "ar-AE": "يقدّم هذا الفيديو مقدّم افتراضي وصوت مولّدان بالذكاء الاصطناعي."
+    }
+  },
+  "music": {
+    "src": "m06-score.mp3",
+    "lufs": -22
+  },
+  "chrome": {
+    "kicker": "الوحدة 06 · محور هرمون النمو والجلد"
+  },
+  "lead": 0.12,
+  "assets": [
+    {
+      "src": "m6-two-layers.png",
+      "kind": "image",
+      "candidates": 2,
+      "prompt": "Accurate scientific medical illustration: a vertical cross-section of human skin centred with generous empty margins, like a textbook plate: the stratified epidermis of keratinocytes on top, some of them dividing, and below it the dermis with wavy collagen bundles, several spindle-shaped fibroblasts and a small blood capillary. Pale grey-blue hormone particles leave the capillary and reach the fibroblasts; the fibroblasts release tiny violet particles that rise to the keratinocytes at the base of the epidermis."
+    },
+    {
+      "src": "m6-broll-mature.mp4",
+      "kind": "video",
+      "prompt": "Extreme macro cinematography of mature skin texture on the outer upper arm of an older adult: fine crepey lines and soft folds catching warm window light, a very slow smooth push-in, shallow depth of field, calm and clinical. Only skin fills the frame: no face, no mouth, no lips, no eyes, no hands, no fingernails, no jewellery, no clothing, no text, no logos."
+    },
+    {
+      "src": "m06-score.mp3",
+      "kind": "music",
+      "prompt": "Instrumental underscore for a 85-second medical education film opener about skin biology, second in a calm series: calm, precise and modern; soft felt piano motif over warm analogue synth pads, a light pulse at 96 BPM entering after 10 seconds, gentle build to a lift two thirds of the way through, resolving softly at the end; documentary feel, same palette as the series, no vocals, no heavy drums, leave space for narration."
+    }
+  ],
+  "states": [
+    {
+      "id": "intro",
+      "shape": {
+        "kind": "frame",
+        "fill": "ink"
+      },
+      "content": {
+        "video": {
+          "presenter": {
+            "from": "يؤثر هرمون النمو وIGF-1",
+            "to": "أقل من ذلك بكثير"
+          },
+          "focus": [
+            0.5,
+            0.36
+          ],
+          "zoom": [
+            1,
+            1.07
+          ]
+        }
+      },
+      "kinetic": [
+        {
+          "on": "بتجارب بمستوى الاعتماد التنظيمي",
+          "text": "ببتيد واحد: تجارب بمستوى الاعتماد التنظيمي"
+        },
+        {
+          "on": "أقل من ذلك بكثير",
+          "text": "المعظم: أقل بكثير"
+        }
+      ],
+      "at": 0
+    },
+    {
+      "id": "lessons",
+      "on": "ستفصل عبر ثلاثة دروس",
+      "shape": {
+        "kind": "panel",
+        "fill": "card"
+      },
+      "list": {
+        "kicker": "ثلاثة دروس",
+        "rows": [
+          {
+            "label": "الفسيولوجيا مقابل الوعود",
+            "marks": 0
+          },
+          {
+            "label": "المعتمد مقابل تقارير الحالات",
+            "marks": 0
+          },
+          {
+            "label": "آثار معروفة ومخاطر غير مقاسة",
+            "marks": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "l1",
+      "on": "بين الفسيولوجيا والوعود",
+      "indicator": {
+        "rows": [
+          0,
+          0
+        ],
+        "tag": null
+      }
+    },
+    {
+      "id": "l2",
+      "on": "وبين المعتمد والمستند إلى حالات فردية",
+      "indicator": {
+        "rows": [
+          1,
+          1
+        ],
+        "tag": null
+      }
+    },
+    {
+      "id": "l3",
+      "on": "وبين الآثار الجانبية الملموسة",
+      "indicator": {
+        "rows": [
+          2,
+          2
+        ],
+        "tag": null
+      }
+    },
+    {
+      "id": "l4",
+      "on": "والمخاطر التي لم يقسها أحد",
+      "indicator": {
+        "rows": [
+          2,
+          2
+        ],
+        "tag": null
+      }
+    },
+    {
+      "id": "layers",
+      "on": "تستجيب طبقتا الجلد",
+      "shape": {
+        "kind": "window",
+        "fill": "paper",
+        "h": 1280
+      },
+      "kinetic": null,
+      "content": {
+        "image": {
+          "src": "m6-two-layers.png",
+          "regions": {
+            "dermis": "the dermis with the spindle-shaped fibroblasts and collagen",
+            "epidermis": "the epidermis of keratinocytes on top",
+            "capillary": "the small blood capillary in the dermis"
+          },
+          "focus": [
+            {
+              "on": "لجزأين مختلفين",
+              "region": "capillary",
+              "label": "محور واحد، هرمونان"
+            },
+            {
+              "on": "يخاطب هرمون النمو الأدمة في المقام الأول",
+              "region": "dermis",
+              "label": "هرمون النمو ← الأدمة"
+            },
+            {
+              "on": "ويُعبَّر عن مستقبله على الخلايا الليفية اليافعة بدرجة أكبر",
+              "region": "dermis",
+              "label": "مستقبل GH: الخلايا الليفية اليافعة أساساً"
+            },
+            {
+              "on": "أعداد الخلايا الليفية اليافعة",
+              "region": "dermis",
+              "label": "زيادة الخلايا الليفية اليافعة",
+              "zoom": 1.25
+            },
+            {
+              "on": "ويدعم تخليق الكولاجين",
+              "region": "dermis",
+              "label": "تخليق الكولاجين",
+              "zoom": 1.25
+            },
+            {
+              "on": "وتارة عبر IGF-1.",
+              "region": "dermis",
+              "label": "مباشرة، أو عبر IGF-1",
+              "zoom": 1.1
+            },
+            {
+              "on": "تستجيب البشرة",
+              "region": "epidermis",
+              "label": "IGF-1 ← البشرة"
+            },
+            {
+              "on": "تحمل الخلايا الكيراتينية مستقبل IGF-1",
+              "region": "epidermis",
+              "label": "مستقبل IGF-1"
+            },
+            {
+              "on": "توفر الخلايا المجاورة لها في الأدمة",
+              "region": "dermis",
+              "label": "توفره الأدمة"
+            },
+            {
+              "on": "انقسام الخلايا الكيراتينية",
+              "region": "epidermis",
+              "label": "انقسام الخلايا الكيراتينية",
+              "zoom": 1.3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "age",
+      "on": "ومع التقدم في السن",
+      "shape": {
+        "kind": "frame",
+        "fill": "ink"
+      },
+      "content": {
+        "video": {
+          "src": "m6-broll-mature.mp4",
+          "focus": [
+            0.5,
+            0.55
+          ],
+          "zoom": [
+            1,
+            1.12
+          ]
+        }
+      },
+      "kinetic": [
+        {
+          "on": "تتراجع نبضات هرمون النمو وIGF-1 باطراد",
+          "text": "تراجع GH وIGF-1 مع التقدم في السن"
+        },
+        {
+          "on": "بالإياس الجسدي (somatopause)",
+          "text": "الإياس الجسدي (somatopause)"
+        }
+      ]
+    },
+    {
+      "id": "close",
+      "shape": {
+        "kind": "frame",
+        "fill": "ink"
+      },
+      "content": {
+        "video": {
+          "presenter": {
+            "from": "اعتبر كل هذا بمثابة آلية العمل",
+            "to": "تجيب عنه التجارب السريرية"
+          },
+          "focus": [
+            0.5,
+            0.36
+          ],
+          "zoom": [
+            1.04,
+            1.1
+          ]
+        }
+      },
+      "kinetic": [
+        {
+          "on": "سبب الأهمية المحتملة لهذا المحور بالنسبة للجلد",
+          "text": "لماذا قد يكون مهماً"
+        },
+        {
+          "on": "تجيب عنه التجارب السريرية",
+          "text": "هل يفيد المريض: التجارب السريرية"
+        }
+      ],
+      "on": "اعتبر كل هذا بمثابة آلية العمل"
+    }
+  ],
+  "localization": {
+    "sourceSha256": "a70e9ffa9745dcd4bcb1a386378d4c8cb92a9309477d07016f7056015aec34c0",
+    "locale": "ar-AE",
+    "status": "draft",
+    "structurePreserved": true
+  }
+}

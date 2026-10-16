@@ -1,0 +1,41 @@
+{
+  "model": "gemini-3.8-flash",
+  "mode": "video",
+  "video_engine": "files-api",
+  "reviewed_at": "2026-10-16T01:46:08.972Z",
+  "figure_truth": true,
+  "videos": [
+    {
+      "label": "m06-opener.ar.mp4",
+      "file": "/Users/omar/DrVibe/worktrees/hormonaly-qa-20261015/media/m06/m06-opener.ar.mp4",
+      "summary": "Video presents clear graphics and narration, with minor footage compliance and placeholder issues.",
+      "findings": [
+        {
+          "time": 1,
+          "severity": "warn",
+          "code": "footage",
+          "note": "Frontal identifiable presenter face visible in footage.",
+          "model": "gemini-3.8-flash"
+        },
+        {
+          "time": 20,
+          "severity": "warn",
+          "code": "broken",
+          "note": "Empty grey placeholder container displayed above text list.",
+          "model": "gemini-3.8-flash"
+        }
+      ],
+      "checks": {
+        "figures_expected": 1,
+        "figures_on_time": 1,
+        "frozen_frames": 0,
+        "artifacts": 0,
+        "narration_language_ok": true
+      },
+      "timeline": [],
+      "usage": [
+        15015
+      ]
+    }
+  ]
+}

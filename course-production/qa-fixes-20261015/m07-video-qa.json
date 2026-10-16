@@ -1,0 +1,48 @@
+{
+  "model": "gemini-3.8-flash",
+  "mode": "video",
+  "video_engine": "files-api",
+  "reviewed_at": "2026-10-16T01:50:54.027Z",
+  "figure_truth": true,
+  "videos": [
+    {
+      "label": "m07-opener.ar.mp4",
+      "file": "/Users/omar/DrVibe/worktrees/hormonaly-qa-20261015/media/m07/m07-opener.ar.mp4",
+      "summary": "The video features good narration sync, but contains overlapping text badges during the GRADE downgrade factors section and visible frontal faces.",
+      "findings": [
+        {
+          "time": 1,
+          "severity": "warn",
+          "code": "footage",
+          "note": "Identifiable frontal face visible on screen.",
+          "model": "gemini-3.8-flash"
+        },
+        {
+          "time": 101,
+          "severity": "blocking",
+          "code": "text",
+          "note": "Tags for 'غياب المباشرة' and 'عدم الدقة' overlap persistently, degrading legibility.",
+          "model": "gemini-3.8-flash"
+        },
+        {
+          "time": 122,
+          "severity": "warn",
+          "code": "footage",
+          "note": "Identifiable frontal face visible on screen.",
+          "model": "gemini-3.8-flash"
+        }
+      ],
+      "checks": {
+        "figures_expected": 1,
+        "figures_on_time": 1,
+        "frozen_frames": 0,
+        "artifacts": 0,
+        "narration_language_ok": true
+      },
+      "timeline": [],
+      "usage": [
+        16124
+      ]
+    }
+  ]
+}

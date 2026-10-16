@@ -1,0 +1,41 @@
+{
+  "model": "gemini-3.8-flash",
+  "mode": "video",
+  "video_engine": "files-api",
+  "reviewed_at": "2026-10-16T01:58:36.334Z",
+  "figure_truth": true,
+  "videos": [
+    {
+      "label": "hype.ar.mp4",
+      "file": "/Users/omar/DrVibe/worktrees/hormonaly-qa-20261015/media/hype/hype.ar.mp4",
+      "summary": "The video contains clear frontal, identifiable faces in footage at the beginning and end, which violates footage constraint guidelines.",
+      "findings": [
+        {
+          "time": 1,
+          "severity": "blocking",
+          "code": "footage",
+          "note": "Readable/frontal identifiable face shown directly looking at the camera from 00:01 to 00:03, violating rule 6 constraint requiring no identifiable frontal faces in footage.",
+          "model": "gemini-3.8-flash"
+        },
+        {
+          "time": 65,
+          "severity": "blocking",
+          "code": "footage",
+          "note": "Readable/frontal identifiable face shown directly looking at the camera from 01:05 to 01:12, violating rule 6 constraint requiring no identifiable frontal faces in footage.",
+          "model": "gemini-3.8-flash"
+        }
+      ],
+      "checks": {
+        "figures_expected": 0,
+        "figures_on_time": 0,
+        "frozen_frames": 0,
+        "artifacts": 0,
+        "narration_language_ok": true
+      },
+      "timeline": [],
+      "usage": [
+        10809
+      ]
+    }
+  ]
+}

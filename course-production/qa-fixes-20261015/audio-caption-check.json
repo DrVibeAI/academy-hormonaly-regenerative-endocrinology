@@ -1,0 +1,66 @@
+[
+  {
+    "film": "m01",
+    "duration": 113.02,
+    "narrationDuration": 110.72,
+    "bedDuration": 113.02,
+    "captionCues": 23,
+    "checks": "passed"
+  },
+  {
+    "film": "m02",
+    "duration": 124.54,
+    "narrationDuration": 122.24,
+    "bedDuration": 124.54,
+    "captionCues": 26,
+    "checks": "passed"
+  },
+  {
+    "film": "m03",
+    "duration": 106.06,
+    "narrationDuration": 103.76,
+    "bedDuration": 106.06,
+    "captionCues": 23,
+    "checks": "passed"
+  },
+  {
+    "film": "m04",
+    "duration": 102.3,
+    "narrationDuration": 100,
+    "bedDuration": 102.3,
+    "captionCues": 19,
+    "checks": "passed"
+  },
+  {
+    "film": "m05",
+    "duration": 119.1,
+    "narrationDuration": 116.8,
+    "bedDuration": 119.1,
+    "captionCues": 20,
+    "checks": "passed"
+  },
+  {
+    "film": "m06",
+    "duration": 133.34,
+    "narrationDuration": 131.04,
+    "bedDuration": 133.34,
+    "captionCues": 23,
+    "checks": "passed"
+  },
+  {
+    "film": "m07",
+    "duration": 132.94,
+    "narrationDuration": 130.64,
+    "bedDuration": 132.94,
+    "captionCues": 22,
+    "checks": "passed"
+  },
+  {
+    "film": "hype",
+    "duration": 78.14,
+    "narrationDuration": 75.84,
+    "bedDuration": 78.14,
+    "captionCues": 21,
+    "checks": "passed"
+  }
+]

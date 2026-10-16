@@ -1,0 +1,562 @@
+[
+  {
+    "module": 1,
+    "expectedLocale": "ar",
+    "cardWidth": 732,
+    "duration": 113.033333,
+    "error": null,
+    "footerBottom": 708.0126953125,
+    "footerWidth": 732,
+    "height": 720,
+    "locale": "ar-AE",
+    "overflow": false,
+    "playing": true,
+    "poster": "http://127.0.0.1:5199/assets/hormones-peptides-skin/ar-AE/video/m01-opener-poster.jpg",
+    "ready": 4,
+    "src": "http://127.0.0.1:5199/assets/hormones-peptides-skin/ar-AE/video/m01-opener.mp4",
+    "track": [
+      {
+        "src": "http://127.0.0.1:5199/assets/hormones-peptides-skin/ar-AE/video/m01-opener.vtt"
+      }
+    ],
+    "width": 1280
+  },
+  {
+    "module": 2,
+    "expectedLocale": "ar",
+    "cardWidth": 732,
+    "duration": 124.55,
+    "error": null,
+    "footerBottom": 708,
+    "footerWidth": 732,
+    "height": 720,
+    "locale": "ar-AE",
+    "overflow": false,
+    "playing": true,
+    "poster": "http://127.0.0.1:5199/assets/hormones-peptides-skin/ar-AE/video/m02-opener-poster.jpg",
+    "ready": 4,
+    "src": "http://127.0.0.1:5199/assets/hormones-peptides-skin/ar-AE/video/m02-opener.mp4",
+    "track": [
+      {
+        "src": "http://127.0.0.1:5199/assets/hormones-peptides-skin/ar-AE/video/m02-opener.vtt"
+      }
+    ],
+    "width": 1280
+  },
+  {
+    "module": 3,
+    "expectedLocale": "ar",
+    "cardWidth": 732,
+    "duration": 106.066667,
+    "error": null,
+    "footerBottom": 708,
+    "footerWidth": 732,
+    "height": 720,
+    "locale": "ar-AE",
+    "overflow": false,
+    "playing": true,
+    "poster": "http://127.0.0.1:5199/assets/hormones-peptides-skin/ar-AE/video/m03-opener-poster.jpg",
+    "ready": 4,
+    "src": "http://127.0.0.1:5199/assets/hormones-peptides-skin/ar-AE/video/m03-opener.mp4",
+    "track": [
+      {
+        "src": "http://127.0.0.1:5199/assets/hormones-peptides-skin/ar-AE/video/m03-opener.vtt"
+      }
+    ],
+    "width": 1280
+  },
+  {
+    "module": 4,
+    "expectedLocale": "ar",
+    "cardWidth": 732,
+    "duration": 102.3,
+    "error": null,
+    "footerBottom": 708,
+    "footerWidth": 732,
+    "height": 720,
+    "locale": "ar-AE",
+    "overflow": false,
+    "playing": true,
+    "poster": "http://127.0.0.1:5199/assets/hormones-peptides-skin/ar-AE/video/m04-opener-poster.jpg",
+    "ready": 4,
+    "src": "http://127.0.0.1:5199/assets/hormones-peptides-skin/ar-AE/video/m04-opener.mp4",
+    "track": [
+      {
+        "src": "http://127.0.0.1:5199/assets/hormones-peptides-skin/ar-AE/video/m04-opener.vtt"
+      }
+    ],
+    "width": 1280
+  },
+  {
+    "module": 5,
+    "expectedLocale": "ar",
+    "cardWidth": 732,
+    "duration": 119.1,
+    "error": null,
+    "footerBottom": 708,
+    "footerWidth": 732,
+    "height": 720,
+    "locale": "ar-AE",
+    "overflow": false,
+    "playing": true,
+    "poster": "http://127.0.0.1:5199/assets/hormones-peptides-skin/ar-AE/video/m05-opener-poster.jpg",
+    "ready": 4,
+    "src": "http://127.0.0.1:5199/assets/hormones-peptides-skin/ar-AE/video/m05-opener.mp4",
+    "track": [
+      {
+        "src": "http://127.0.0.1:5199/assets/hormones-peptides-skin/ar-AE/video/m05-opener.vtt"
+      }
+    ],
+    "width": 1280
+  },
+  {
+    "module": 6,
+    "expectedLocale": "ar",
+    "cardWidth": 732,
+    "duration": 133.35,
+    "error": null,
+    "footerBottom": 708.150390625,
+    "footerWidth": 732,
+    "height": 720,
+    "locale": "ar-AE",
+    "overflow": false,
+    "playing": true,
+    "poster": "http://127.0.0.1:5199/assets/hormones-peptides-skin/ar-AE/video/m06-opener-poster.jpg",
+    "ready": 4,
+    "src": "http://127.0.0.1:5199/assets/hormones-peptides-skin/ar-AE/video/m06-opener.mp4",
+    "track": [
+      {
+        "src": "http://127.0.0.1:5199/assets/hormones-peptides-skin/ar-AE/video/m06-opener.vtt"
+      }
+    ],
+    "width": 1280
+  },
+  {
+    "module": 7,
+    "expectedLocale": "ar",
+    "cardWidth": 732,
+    "duration": 132.95,
+    "error": null,
+    "footerBottom": 708,
+    "footerWidth": 732,
+    "height": 720,
+    "locale": "ar-AE",
+    "overflow": false,
+    "playing": true,
+    "poster": "http://127.0.0.1:5199/assets/hormones-peptides-skin/ar-AE/video/m07-opener-poster.jpg",
+    "ready": 4,
+    "src": "http://127.0.0.1:5199/assets/hormones-peptides-skin/ar-AE/video/m07-opener.mp4",
+    "track": [
+      {
+        "src": "http://127.0.0.1:5199/assets/hormones-peptides-skin/ar-AE/video/m07-opener.vtt"
+      }
+    ],
+    "width": 1280
+  },
+  {
+    "module": 1,
+    "expectedLocale": "ar",
+    "cardWidth": 366,
+    "duration": 113.033333,
+    "error": null,
+    "footerBottom": 827,
+    "footerWidth": 366,
+    "height": 844,
+    "locale": "ar-AE",
+    "overflow": false,
+    "playing": true,
+    "poster": "http://127.0.0.1:5199/assets/hormones-peptides-skin/ar-AE/video/m01-opener-poster.jpg",
+    "ready": 4,
+    "src": "http://127.0.0.1:5199/assets/hormones-peptides-skin/ar-AE/video/m01-opener.mp4",
+    "track": [
+      {
+        "src": "http://127.0.0.1:5199/assets/hormones-peptides-skin/ar-AE/video/m01-opener.vtt"
+      }
+    ],
+    "width": 390
+  },
+  {
+    "module": 2,
+    "expectedLocale": "ar",
+    "cardWidth": 366,
+    "duration": 124.55,
+    "error": null,
+    "footerBottom": 827.0046997070312,
+    "footerWidth": 366,
+    "height": 844,
+    "locale": "ar-AE",
+    "overflow": false,
+    "playing": true,
+    "poster": "http://127.0.0.1:5199/assets/hormones-peptides-skin/ar-AE/video/m02-opener-poster.jpg",
+    "ready": 4,
+    "src": "http://127.0.0.1:5199/assets/hormones-peptides-skin/ar-AE/video/m02-opener.mp4",
+    "track": [
+      {
+        "src": "http://127.0.0.1:5199/assets/hormones-peptides-skin/ar-AE/video/m02-opener.vtt"
+      }
+    ],
+    "width": 390
+  },
+  {
+    "module": 3,
+    "expectedLocale": "ar",
+    "cardWidth": 366,
+    "duration": 106.066667,
+    "error": null,
+    "footerBottom": 827.0243530273438,
+    "footerWidth": 366,
+    "height": 844,
+    "locale": "ar-AE",
+    "overflow": false,
+    "playing": true,
+    "poster": "http://127.0.0.1:5199/assets/hormones-peptides-skin/ar-AE/video/m03-opener-poster.jpg",
+    "ready": 4,
+    "src": "http://127.0.0.1:5199/assets/hormones-peptides-skin/ar-AE/video/m03-opener.mp4",
+    "track": [
+      {
+        "src": "http://127.0.0.1:5199/assets/hormones-peptides-skin/ar-AE/video/m03-opener.vtt"
+      }
+    ],
+    "width": 390
+  },
+  {
+    "module": 4,
+    "expectedLocale": "ar",
+    "cardWidth": 366,
+    "duration": 102.3,
+    "error": null,
+    "footerBottom": 827,
+    "footerWidth": 366,
+    "height": 844,
+    "locale": "ar-AE",
+    "overflow": false,
+    "playing": true,
+    "poster": "http://127.0.0.1:5199/assets/hormones-peptides-skin/ar-AE/video/m04-opener-poster.jpg",
+    "ready": 4,
+    "src": "http://127.0.0.1:5199/assets/hormones-peptides-skin/ar-AE/video/m04-opener.mp4",
+    "track": [
+      {
+        "src": "http://127.0.0.1:5199/assets/hormones-peptides-skin/ar-AE/video/m04-opener.vtt"
+      }
+    ],
+    "width": 390
+  },
+  {
+    "module": 5,
+    "expectedLocale": "ar",
+    "cardWidth": 366,
+    "duration": 119.1,
+    "error": null,
+    "footerBottom": 827.1156616210938,
+    "footerWidth": 366,
+    "height": 844,
+    "locale": "ar-AE",
+    "overflow": false,
+    "playing": true,
+    "poster": "http://127.0.0.1:5199/assets/hormones-peptides-skin/ar-AE/video/m05-opener-poster.jpg",
+    "ready": 4,
+    "src": "http://127.0.0.1:5199/assets/hormones-peptides-skin/ar-AE/video/m05-opener.mp4",
+    "track": [
+      {
+        "src": "http://127.0.0.1:5199/assets/hormones-peptides-skin/ar-AE/video/m05-opener.vtt"
+      }
+    ],
+    "width": 390
+  },
+  {
+    "module": 6,
+    "expectedLocale": "ar",
+    "cardWidth": 366,
+    "duration": 133.35,
+    "error": null,
+    "footerBottom": 827,
+    "footerWidth": 366,
+    "height": 844,
+    "locale": "ar-AE",
+    "overflow": false,
+    "playing": true,
+    "poster": "http://127.0.0.1:5199/assets/hormones-peptides-skin/ar-AE/video/m06-opener-poster.jpg",
+    "ready": 4,
+    "src": "http://127.0.0.1:5199/assets/hormones-peptides-skin/ar-AE/video/m06-opener.mp4",
+    "track": [
+      {
+        "src": "http://127.0.0.1:5199/assets/hormones-peptides-skin/ar-AE/video/m06-opener.vtt"
+      }
+    ],
+    "width": 390
+  },
+  {
+    "module": 7,
+    "expectedLocale": "ar",
+    "cardWidth": 366,
+    "duration": 132.95,
+    "error": null,
+    "footerBottom": 827,
+    "footerWidth": 366,
+    "height": 844,
+    "locale": "ar-AE",
+    "overflow": false,
+    "playing": true,
+    "poster": "http://127.0.0.1:5199/assets/hormones-peptides-skin/ar-AE/video/m07-opener-poster.jpg",
+    "ready": 4,
+    "src": "http://127.0.0.1:5199/assets/hormones-peptides-skin/ar-AE/video/m07-opener.mp4",
+    "track": [
+      {
+        "src": "http://127.0.0.1:5199/assets/hormones-peptides-skin/ar-AE/video/m07-opener.vtt"
+      }
+    ],
+    "width": 390
+  },
+  {
+    "module": 1,
+    "expectedLocale": "en",
+    "cardWidth": 732,
+    "duration": 70.26,
+    "error": null,
+    "footerBottom": 708,
+    "footerWidth": 732,
+    "height": 720,
+    "locale": "en",
+    "overflow": false,
+    "playing": true,
+    "poster": "http://127.0.0.1:5199/assets/hormones-peptides-skin/video/m01-opener-poster.jpg",
+    "ready": 4,
+    "src": "http://127.0.0.1:5199/assets/hormones-peptides-skin/video/m01-opener.mp4",
+    "track": [],
+    "width": 1280
+  },
+  {
+    "module": 2,
+    "expectedLocale": "en",
+    "cardWidth": 732,
+    "duration": 76.14,
+    "error": null,
+    "footerBottom": 708.0404663085938,
+    "footerWidth": 732,
+    "height": 720,
+    "locale": "en",
+    "overflow": false,
+    "playing": true,
+    "poster": "http://127.0.0.1:5199/assets/hormones-peptides-skin/video/m02-opener-r3-poster.jpg",
+    "ready": 4,
+    "src": "http://127.0.0.1:5199/assets/hormones-peptides-skin/video/m02-opener-r3.mp4",
+    "track": [],
+    "width": 1280
+  },
+  {
+    "module": 3,
+    "expectedLocale": "en",
+    "cardWidth": 732,
+    "duration": 72.34,
+    "error": null,
+    "footerBottom": 708,
+    "footerWidth": 732,
+    "height": 720,
+    "locale": "en",
+    "overflow": false,
+    "playing": true,
+    "poster": "http://127.0.0.1:5199/assets/hormones-peptides-skin/video/m03-opener-poster.jpg",
+    "ready": 4,
+    "src": "http://127.0.0.1:5199/assets/hormones-peptides-skin/video/m03-opener.mp4",
+    "track": [],
+    "width": 1280
+  },
+  {
+    "module": 4,
+    "expectedLocale": "en",
+    "cardWidth": 732,
+    "duration": 67.1,
+    "error": null,
+    "footerBottom": 708.085693359375,
+    "footerWidth": 732,
+    "height": 720,
+    "locale": "en",
+    "overflow": false,
+    "playing": true,
+    "poster": "http://127.0.0.1:5199/assets/hormones-peptides-skin/video/m04-opener-poster.jpg",
+    "ready": 4,
+    "src": "http://127.0.0.1:5199/assets/hormones-peptides-skin/video/m04-opener.mp4",
+    "track": [],
+    "width": 1280
+  },
+  {
+    "module": 5,
+    "expectedLocale": "en",
+    "cardWidth": 732,
+    "duration": 71.26,
+    "error": null,
+    "footerBottom": 708,
+    "footerWidth": 732,
+    "height": 720,
+    "locale": "en",
+    "overflow": false,
+    "playing": true,
+    "poster": "http://127.0.0.1:5199/assets/hormones-peptides-skin/video/m05-opener-poster.jpg",
+    "ready": 4,
+    "src": "http://127.0.0.1:5199/assets/hormones-peptides-skin/video/m05-opener.mp4",
+    "track": [],
+    "width": 1280
+  },
+  {
+    "module": 6,
+    "expectedLocale": "en",
+    "cardWidth": 732,
+    "duration": 83.54,
+    "error": null,
+    "footerBottom": 708.1156005859375,
+    "footerWidth": 732,
+    "height": 720,
+    "locale": "en",
+    "overflow": false,
+    "playing": true,
+    "poster": "http://127.0.0.1:5199/assets/hormones-peptides-skin/video/m06-opener-poster.jpg",
+    "ready": 4,
+    "src": "http://127.0.0.1:5199/assets/hormones-peptides-skin/video/m06-opener.mp4",
+    "track": [],
+    "width": 1280
+  },
+  {
+    "module": 7,
+    "expectedLocale": "en",
+    "cardWidth": 732,
+    "duration": 75.3,
+    "error": null,
+    "footerBottom": 708,
+    "footerWidth": 732,
+    "height": 720,
+    "locale": "en",
+    "overflow": false,
+    "playing": true,
+    "poster": "http://127.0.0.1:5199/assets/hormones-peptides-skin/video/m07-opener-poster.jpg",
+    "ready": 4,
+    "src": "http://127.0.0.1:5199/assets/hormones-peptides-skin/video/m07-opener.mp4",
+    "track": [],
+    "width": 1280
+  },
+  {
+    "module": 1,
+    "expectedLocale": "en",
+    "cardWidth": 366,
+    "duration": 70.26,
+    "error": null,
+    "footerBottom": 827,
+    "footerWidth": 366,
+    "height": 844,
+    "locale": "en",
+    "overflow": false,
+    "playing": true,
+    "poster": "http://127.0.0.1:5199/assets/hormones-peptides-skin/video/m01-opener-poster.jpg",
+    "ready": 4,
+    "src": "http://127.0.0.1:5199/assets/hormones-peptides-skin/video/m01-opener.mp4",
+    "track": [],
+    "width": 390
+  },
+  {
+    "module": 2,
+    "expectedLocale": "en",
+    "cardWidth": 366,
+    "duration": 76.14,
+    "error": null,
+    "footerBottom": 827,
+    "footerWidth": 366,
+    "height": 844,
+    "locale": "en",
+    "overflow": false,
+    "playing": true,
+    "poster": "http://127.0.0.1:5199/assets/hormones-peptides-skin/video/m02-opener-r3-poster.jpg",
+    "ready": 4,
+    "src": "http://127.0.0.1:5199/assets/hormones-peptides-skin/video/m02-opener-r3.mp4",
+    "track": [],
+    "width": 390
+  },
+  {
+    "module": 3,
+    "expectedLocale": "en",
+    "cardWidth": 366,
+    "duration": 72.34,
+    "error": null,
+    "footerBottom": 827,
+    "footerWidth": 366,
+    "height": 844,
+    "locale": "en",
+    "overflow": false,
+    "playing": true,
+    "poster": "http://127.0.0.1:5199/assets/hormones-peptides-skin/video/m03-opener-poster.jpg",
+    "ready": 4,
+    "src": "http://127.0.0.1:5199/assets/hormones-peptides-skin/video/m03-opener.mp4",
+    "track": [],
+    "width": 390
+  },
+  {
+    "module": 4,
+    "expectedLocale": "en",
+    "cardWidth": 366,
+    "duration": 67.1,
+    "error": null,
+    "footerBottom": 827,
+    "footerWidth": 366,
+    "height": 844,
+    "locale": "en",
+    "overflow": false,
+    "playing": true,
+    "poster": "http://127.0.0.1:5199/assets/hormones-peptides-skin/video/m04-opener-poster.jpg",
+    "ready": 4,
+    "src": "http://127.0.0.1:5199/assets/hormones-peptides-skin/video/m04-opener.mp4",
+    "track": [],
+    "width": 390
+  },
+  {
+    "module": 5,
+    "expectedLocale": "en",
+    "cardWidth": 366,
+    "duration": 71.26,
+    "error": null,
+    "footerBottom": 827,
+    "footerWidth": 366,
+    "height": 844,
+    "locale": "en",
+    "overflow": false,
+    "playing": true,
+    "poster": "http://127.0.0.1:5199/assets/hormones-peptides-skin/video/m05-opener-poster.jpg",
+    "ready": 4,
+    "src": "http://127.0.0.1:5199/assets/hormones-peptides-skin/video/m05-opener.mp4",
+    "track": [],
+    "width": 390
+  },
+  {
+    "module": 6,
+    "expectedLocale": "en",
+    "cardWidth": 366,
+    "duration": 83.54,
+    "error": null,
+    "footerBottom": 827,
+    "footerWidth": 366,
+    "height": 844,
+    "locale": "en",
+    "overflow": false,
+    "playing": true,
+    "poster": "http://127.0.0.1:5199/assets/hormones-peptides-skin/video/m06-opener-poster.jpg",
+    "ready": 4,
+    "src": "http://127.0.0.1:5199/assets/hormones-peptides-skin/video/m06-opener.mp4",
+    "track": [],
+    "width": 390
+  },
+  {
+    "module": 7,
+    "expectedLocale": "en",
+    "cardWidth": 366,
+    "duration": 75.3,
+    "error": null,
+    "footerBottom": 827.1502685546875,
+    "footerWidth": 366,
+    "height": 844,
+    "locale": "en",
+    "overflow": false,
+    "playing": true,
+    "poster": "http://127.0.0.1:5199/assets/hormones-peptides-skin/video/m07-opener-poster.jpg",
+    "ready": 4,
+    "src": "http://127.0.0.1:5199/assets/hormones-peptides-skin/video/m07-opener.mp4",
+    "track": [],
+    "width": 390
+  }
+]

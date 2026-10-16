@@ -1,0 +1,421 @@
+{
+  "format": "cinematic/1",
+  "id": "m07-opener",
+  "title": "مقدمة الوحدة 07 — الهرمونات والببتيدات للجلد",
+  "note": "Module opener in the cinematic lane (docs/motion-contract.md § 10b), same look and rules as the Module 1 opener. Script assembled only from approved text (sources below); presenter lines pass the course script review; draft media until the media preview.",
+  "script": {
+    "text": "تحوّل هذه الوحدة الأخيرة محتوى الدورة إلى ثلاث ممارسات روتينية. ستقيّم درجة اليقين وعدم اليقين الكامنة وراء أي ادعاء باستخدام نظام GRADE، وتطّلع على وضع التحضير الصيدلاني وشهادة التحليل لتتبين ما تثبتانه وما تعجزان عن إثباته، وتصيغ نموذج الإقرار المستنير وملاحظات الملف الطبي التي يتطلبها استخدام منتج غير معتمد. يحمل كل ادعاء تسمعه حول ببتيد من ببتيدات الجلد سؤالاً خفياً: ما مدى تأكدنا من ذلك؟ يجيب نظام GRADE عن هذا السؤال بأربعة مستويات من اليقين، تتراوح من مرتفع إلى منخفض جداً. ينطبق هذا التقييم على مجمل الأدلة المخصصة لحصيلة علاجية واحدة، مثل عمق التجاعيد عند 12 أسبوعاً، ولا ينطبق مطلقاً على دراسة واحدة أو على الجزيء نفسه. تبدأ التجارب العشوائية بمستوى يقين مرتفع، بينما تبدأ الدراسات القائمة على الملاحظة بمستوى منخفض. ومن هذه النقطة، تتراجع درجة اليقين لخمسة أسباب يمكنك تحديدها: خطر الانحياز، وعدم الاتساق بين التجارب، وغياب المباشرة، وعدم الدقة، والاشتباه في انحياز النشر. يضع كلا دليلي Hormonaly حرفاً من A إلى D بجانب كل استخدام؛ وعليك قراءة هذه الحروف بوصفها المستويات الأربعة ذاتها بعد مواءمتها. إنها تصنف الأدلة الخاصة بذلك الاستخدام، ولا توضح بأي حال ما إذا كان المنتج قانونياً.",
+    "sources": [
+      "m7-p01 body, sentences 1, 2",
+      "m7-p02 audioScript, sentences 1, 2, 3, 4, 5, 6, 8, 9, 10"
+    ],
+    "locale": "ar-AE"
+  },
+  "voice": {
+    "provider": "elevenlabs",
+    "voice_id": "ZCXYdzd5Evtsll2EdoCi",
+    "name": "Yousef — licensed Arabic narration voice",
+    "preset": "engaging"
+  },
+  "presenter": {
+    "look": "2daeb4c1c74e491c89314a4e7dcd4879",
+    "engine": "avatar_v",
+    "resolution": "4k",
+    "name": "HeyGen stock avatar \"Iris\" (licensed)",
+    "disclosure": {
+      "en": "Presented by a digital avatar (AI-generated presenter and voice).",
+      "ar-AE": "يقدّم هذا الفيديو مقدّم افتراضي وصوت مولّدان بالذكاء الاصطناعي."
+    }
+  },
+  "music": {
+    "src": "m07-score.mp3",
+    "lufs": -22
+  },
+  "chrome": {
+    "kicker": "الوحدة 07 · الأدلة والتنظيم والامتثال"
+  },
+  "lead": 0.12,
+  "assets": [
+    {
+      "src": "m07-score.mp3",
+      "kind": "music",
+      "prompt": "Instrumental underscore for a 85-second medical education film opener about careful clinical reasoning, the series finale: calm, precise and modern; soft felt piano motif over warm analogue synth pads, a light pulse at 96 BPM entering after 10 seconds, gentle build to a lift two thirds of the way through, resolving softly at the end; documentary feel, same palette as the series, no vocals, no heavy drums, leave space for narration."
+    }
+  ],
+  "states": [
+    {
+      "id": "intro",
+      "shape": {
+        "kind": "frame",
+        "fill": "ink"
+      },
+      "content": {
+        "video": {
+          "presenter": {
+            "from": "تحوّل هذه الوحدة الأخيرة",
+            "to": "ثلاث ممارسات روتينية"
+          },
+          "focus": [
+            0.5,
+            0.36
+          ],
+          "zoom": [
+            1,
+            1.07
+          ]
+        }
+      },
+      "kinetic": [
+        {
+          "on": "ثلاث ممارسات روتينية",
+          "text": "ثلاث ممارسات روتينية"
+        }
+      ],
+      "at": 0
+    },
+    {
+      "id": "lessons",
+      "on": "ستقيّم",
+      "shape": {
+        "kind": "panel",
+        "fill": "card"
+      },
+      "list": {
+        "kicker": "ثلاث ممارسات روتينية",
+        "rows": [
+          {
+            "label": "تقييم درجة اليقين بنظام GRADE",
+            "marks": 0
+          },
+          {
+            "label": "قراءة الوضع والشهادة",
+            "marks": 0
+          },
+          {
+            "label": "الإقرار والتوثيق الطبي",
+            "marks": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "l1",
+      "on": "ستقيّم درجة اليقين",
+      "indicator": {
+        "rows": [
+          0,
+          0
+        ],
+        "tag": null
+      }
+    },
+    {
+      "id": "l2",
+      "on": "وتطّلع على وضع التحضير الصيدلاني",
+      "indicator": {
+        "rows": [
+          1,
+          1
+        ],
+        "tag": null
+      }
+    },
+    {
+      "id": "coa",
+      "on": "وشهادة التحليل",
+      "indicator": {
+        "rows": [
+          1,
+          1
+        ],
+        "tag": null
+      }
+    },
+    {
+      "id": "l3",
+      "on": "وتصيغ نموذج الإقرار المستنير",
+      "indicator": {
+        "rows": [
+          2,
+          2
+        ],
+        "tag": null
+      }
+    },
+    {
+      "id": "unapproved",
+      "on": "يتطلبها استخدام منتج غير معتمد",
+      "indicator": {
+        "rows": [
+          2,
+          2
+        ],
+        "tag": null
+      }
+    },
+    {
+      "id": "hidden",
+      "on": "يحمل كل ادعاء تسمعه",
+      "shape": {
+        "kind": "card",
+        "fill": "card"
+      },
+      "content": {
+        "kicker": "كل ادعاء حول ببتيد من ببتيدات الجلد",
+        "display": "يحمل سؤالاً خفياً"
+      }
+    },
+    {
+      "id": "sure",
+      "on": "ما مدى تأكدنا",
+      "shape": {
+        "kind": "card",
+        "fill": "card"
+      },
+      "content": {
+        "kicker": "السؤال الخفي",
+        "display": "ما مدى تأكدنا من ذلك؟"
+      }
+    },
+    {
+      "id": "levels",
+      "on": "بأربعة مستويات",
+      "shape": {
+        "kind": "panel",
+        "fill": "card"
+      },
+      "list": {
+        "kicker": "GRADE · يقين الأدلة",
+        "rows": [
+          {
+            "label": "مرتفع",
+            "marks": 4
+          },
+          {
+            "label": "متوسط",
+            "marks": 3
+          },
+          {
+            "label": "منخفض",
+            "marks": 2
+          },
+          {
+            "label": "منخفض جداً",
+            "marks": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "high",
+      "on": "من مرتفع",
+      "indicator": {
+        "rows": [
+          0,
+          0
+        ],
+        "tag": null
+      }
+    },
+    {
+      "id": "low",
+      "on": "إلى منخفض جداً",
+      "indicator": {
+        "rows": [
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "id": "outcome",
+      "on": "ينطبق هذا التقييم",
+      "indicator": false,
+      "chips": [
+        {
+          "id": "outcome",
+          "place": "above",
+          "text": "حصيلة واحدة · عمق التجاعيد عند 12 أسبوعاً",
+          "on": "عمق التجاعيد"
+        }
+      ]
+    },
+    {
+      "id": "not",
+      "on": "ولا ينطبق مطلقاً على دراسة واحدة",
+      "chips": [
+        {
+          "id": "study",
+          "place": "below",
+          "text": "دراسة واحدة",
+          "strike": true
+        },
+        {
+          "id": "molecule",
+          "place": "below",
+          "text": "الجزيء نفسه",
+          "strike": true,
+          "on": "الجزيء نفسه"
+        }
+      ]
+    },
+    {
+      "id": "rct",
+      "on": "التجارب العشوائية",
+      "indicator": {
+        "rows": [
+          0,
+          0
+        ],
+        "tag": "التجارب العشوائية"
+      },
+      "drop": [
+        "outcome",
+        "study",
+        "molecule"
+      ]
+    },
+    {
+      "id": "obs",
+      "on": "الدراسات القائمة على الملاحظة",
+      "indicator": {
+        "rows": [
+          2,
+          2
+        ],
+        "tag": "الدراسات القائمة على الملاحظة"
+      }
+    },
+    {
+      "id": "startlow",
+      "on": "بمستوى منخفض",
+      "indicator": {
+        "rows": [
+          2,
+          2
+        ],
+        "tag": "...تبدأ بمستوى منخفض"
+      }
+    },
+    {
+      "id": "drops",
+      "on": "تتراجع درجة اليقين",
+      "indicator": {
+        "rows": [
+          3,
+          3
+        ],
+        "tag": "خفض التصنيف"
+      },
+      "chips": [
+        {
+          "id": "r1",
+          "place": "below",
+          "icon": "down",
+          "text": "خطر الانحياز",
+          "on": "خطر الانحياز"
+        },
+        {
+          "id": "r2",
+          "place": "below",
+          "icon": "down",
+          "text": "عدم الاتساق",
+          "on": "وعدم الاتساق بين"
+        },
+        {
+          "id": "r3",
+          "place": "below",
+          "icon": "down",
+          "text": "غياب المباشرة",
+          "on": "وغياب المباشرة"
+        },
+        {
+          "id": "r4",
+          "place": "below",
+          "icon": "down",
+          "text": "عدم الدقة",
+          "on": "وعدم الدقة"
+        },
+        {
+          "id": "r5",
+          "place": "below",
+          "icon": "down",
+          "text": "انحياز النشر",
+          "on": "انحياز النشر"
+        }
+      ]
+    },
+    {
+      "id": "letters",
+      "on": "من A إلى D",
+      "letters": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "indicator": false,
+      "drop": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5"
+      ]
+    },
+    {
+      "id": "same",
+      "on": "المستويات الأربعة ذاتها",
+      "chips": [
+        {
+          "id": "same",
+          "place": "above",
+          "text": "المستويات الأربعة ذاتها، بعد مواءمتها"
+        }
+      ]
+    },
+    {
+      "id": "close",
+      "shape": {
+        "kind": "frame",
+        "fill": "ink"
+      },
+      "content": {
+        "video": {
+          "presenter": {
+            "from": "إنها تصنف الأدلة",
+            "to": "المنتج قانونياً"
+          },
+          "focus": [
+            0.5,
+            0.36
+          ],
+          "zoom": [
+            1.04,
+            1.1
+          ]
+        }
+      },
+      "kinetic": [
+        {
+          "on": "الخاصة بذلك الاستخدام",
+          "text": "الأدلة الخاصة بذلك الاستخدام"
+        },
+        {
+          "on": "ما إذا كان المنتج قانونياً",
+          "text": "...وليس ما إذا كان قانونياً"
+        }
+      ],
+      "on": "إنها تصنف الأدلة",
+      "drop": [
+        "same"
+      ]
+    }
+  ],
+  "localization": {
+    "sourceSha256": "44c37e3ffb73168a2ccfcc100345cd524a3a4462fdf0af887a2537bdb12d73a4",
+    "locale": "ar-AE",
+    "status": "draft",
+    "structurePreserved": true
+  }
+}

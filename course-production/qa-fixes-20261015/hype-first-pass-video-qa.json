@@ -1,0 +1,48 @@
+{
+  "model": "gemini-3.8-flash",
+  "mode": "video",
+  "video_engine": "files-api",
+  "reviewed_at": "2026-10-16T01:50:42.783Z",
+  "figure_truth": true,
+  "videos": [
+    {
+      "label": "hype.ar.mp4",
+      "file": "/Users/omar/DrVibe/worktrees/hormonaly-qa-20261015/media/hype/hype.ar.mp4",
+      "summary": "The video violates footage guidelines with a frontal face presenter and exhibits locale leakage with English UI cards.",
+      "findings": [
+        {
+          "time": 1,
+          "severity": "blocking",
+          "code": "footage",
+          "note": "Frontal, clearly identifiable face visible on presenter footage.",
+          "model": "gemini-3.8-flash"
+        },
+        {
+          "time": 41,
+          "severity": "warn",
+          "code": "locale",
+          "note": "Interactive UI quiz screens contain untranslated English text.",
+          "model": "gemini-3.8-flash"
+        },
+        {
+          "time": 65,
+          "severity": "blocking",
+          "code": "footage",
+          "note": "Identifiable frontal face shown in presenter footage.",
+          "model": "gemini-3.8-flash"
+        }
+      ],
+      "checks": {
+        "figures_expected": 0,
+        "figures_on_time": 0,
+        "frozen_frames": 0,
+        "artifacts": 0,
+        "narration_language_ok": true
+      },
+      "timeline": [],
+      "usage": [
+        9892
+      ]
+    }
+  ]
+}

@@ -27,7 +27,8 @@ brand:
         role: { en: "Founder & CEO", ar: "المؤسس والرئيس التنفيذي" }
         institution: Hormonaly
         signatureText: Fady Hannah-Shmouni
-        provenance: "Typeset signature-style mark requested by Omar; not a supplied handwritten signature."
+        provenance: "Typeset signature-style mark requested by Omar; not a supplied
+          handwritten signature."
       - name: Dr. Dominik Thor, MSc
         role: { en: President, ar: الرئيس }
         institution: Geneva College of Longevity Science
@@ -97,8 +98,18 @@ home:
       ar-AE: الهرمونات والببتيدات للجلد، المقطع الترويجي للدورة
     disclosure:
       en: Presented by a digital avatar (AI-generated presenter and voice).
-      ar-AE: يُقدَّم عبر مجسّد رقمي (مقدّم وصوت مُنشآن بالذكاء الاصطناعي). الفيلم
-        المرجعي بالإنجليزية؛ النسخة العربية قيد الإنتاج.
+      ar-AE: يُقدَّم عبر مجسّد رقمي (مقدّم وصوت مُنشآن بالذكاء الاصطناعي).
+    srcByLocale:
+      en: assets/hormones-peptides-skin/home/trailer.mp4
+      ar-AE: assets/hormones-peptides-skin/ar-AE/video/hype.mp4
+    posterByLocale:
+      en: assets/hormones-peptides-skin/home/trailer-poster.jpg
+      ar-AE: assets/hormones-peptides-skin/ar-AE/video/hype-poster.jpg
+    captionsByLocale:
+      ar:
+        src: assets/hormones-peptides-skin/ar-AE/video/hype.vtt
+        language: ar
+        label: العربية
   practice:
     kicker:
       en: In your practice
@@ -258,20 +269,22 @@ home:
         ar-AE: ما الذي سأحصل عليه عند إتمام الدورة؟
       a:
         en: Complete all seven modules and pass the final check with 80% or more to
-          receive your Hormonaly Academy certificate of completion, including during
-          October's free enrollment period. Each certificate has a public verification code.
+          receive your Hormonaly Academy certificate of completion, including
+          during October's free enrollment period. Each certificate has a public
+          verification code.
         ar-AE: أكمل الوحدات السبع واجتز التقييم النهائي بنسبة 80% أو أكثر لتحصل على
-          شهادة إتمام من أكاديمية Hormonaly، بما في ذلك خلال فترة التسجيل المجاني
-          في أكتوبر. تحمل كل شهادة رمز تحقق متاحًا للعامة.
+          شهادة إتمام من أكاديمية Hormonaly، بما في ذلك خلال فترة التسجيل
+          المجاني في أكتوبر. تحمل كل شهادة رمز تحقق متاحًا للعامة.
   certificate:
     title:
       en: Certificate of completion
       ar-AE: شهادة إتمام الدورة
     body:
-      en: Complete all seven modules and pass the final check to receive your Hormonaly
-        Academy certificate of completion. Included during October's free enrollment period.
-      ar-AE: أكمل الوحدات السبع واجتز التقييم النهائي لتحصل على شهادة إتمام من أكاديمية
-        Hormonaly. الشهادة مشمولة خلال فترة التسجيل المجاني في أكتوبر.
+      en: Complete all seven modules and pass the final check to receive your
+        Hormonaly Academy certificate of completion. Included during October's
+        free enrollment period.
+      ar-AE: أكمل الوحدات السبع واجتز التقييم النهائي لتحصل على شهادة إتمام من
+        أكاديمية Hormonaly. الشهادة مشمولة خلال فترة التسجيل المجاني في أكتوبر.
       ar: أكمل الوحدات السبع واجتز التقييم النهائي لتحصل على شهادة إتمام من أكاديمية
         Hormonaly. الشهادة مشمولة خلال فترة التسجيل المجاني في أكتوبر.
     image:
@@ -913,6 +926,21 @@ editing:
     - ./assets/brand/hormonaly-mark-flat.svg
     - ./assets/brand/hormonaly-app-icon.svg
 site:
+  bookstore:
+    url: https://books.perceptors.ai
+    label:
+      en: Book store
+      ar: متجر الكتب
+    title:
+      en: Keep exploring, one book at a time.
+      ar: واصل التعلّم، كتابًا بعد كتاب.
+    description:
+      en: Explore Hormonaly’s pocket guides and books on peptides, hormones and
+        longevity.
+      ar: استكشف أدلة هورمونالي المرجعية وكتبها عن الببتيدات والهرمونات وطول العمر.
+    action:
+      en: Explore the book store
+      ar: استكشف متجر الكتب
   certificatePartner:
     name: GCLS AI Academy
     note:

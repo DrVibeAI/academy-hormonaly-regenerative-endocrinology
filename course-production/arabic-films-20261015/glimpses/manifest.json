@@ -1,0 +1,105 @@
+[
+  {
+    "id": "trial-or-brochure",
+    "locale": "ar-AE",
+    "module": 4,
+    "pane": 11,
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "clipSize": {
+      "width": 780,
+      "height": 1688
+    },
+    "captureMethod": "Actual local learner UI via Codex in-app browser; screenshots before and after the original demonstration choices",
+    "files": [
+      {
+        "file": "trial-0.png",
+        "sha256": "79c1aaf9e9fef9a8cfd76355d91e25055734c3a6e9edb1890ed792f3d85da4dd"
+      },
+      {
+        "file": "trial-1.png",
+        "sha256": "b811f79aa579b9b2004f65ba23584ed6473be83c384d65ba10fb350783c1ff68"
+      },
+      {
+        "file": "trial-2.png",
+        "sha256": "0c8e5c757fcc743af23ea41b8635f7a133c68822d3fa46ded1fc0ce0d294f613"
+      },
+      {
+        "file": "trial-3.png",
+        "sha256": "6d0f397f8681650e6f1e1a6870fcb2730c7adda8cc0f67537bfa939c5d63b2cf"
+      },
+      {
+        "file": "trial-or-brochure.mp4",
+        "sha256": "084c0f0303a674bc7f224ff37d66113e3e1982808cfe9efba758ead84f593fe0"
+      }
+    ]
+  },
+  {
+    "id": "audit-certificate",
+    "locale": "ar-AE",
+    "module": 7,
+    "pane": 15,
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "clipSize": {
+      "width": 780,
+      "height": 1688
+    },
+    "captureMethod": "Actual local learner UI via Codex in-app browser; screenshots before and after the original demonstration choices",
+    "files": [
+      {
+        "file": "audit-0.png",
+        "sha256": "59a75281c77398aab4dea613c587eeecfca3b3cdfacf1239ae2d8c6847b25560"
+      },
+      {
+        "file": "audit-1.png",
+        "sha256": "600cb1f144a9d87e0d98ffe593b055ca083d6efdbc7f7fdb7862c1f38fcc63e1"
+      },
+      {
+        "file": "audit-2.png",
+        "sha256": "e7392b369ca2a2e423d58098afe9428357a3ef22dc4b2469ff5007c652305042"
+      },
+      {
+        "file": "audit-3.png",
+        "sha256": "1ea8fb1fa869861d19986ed0e22fea5e64a9e05c4c9fbd79f6cfc76411e24aa6"
+      },
+      {
+        "file": "audit-certificate.mp4",
+        "sha256": "d01971c8b8cf0f196e48144ae253af5caad97b6917534172105d8f492ab9d556"
+      }
+    ]
+  },
+  {
+    "id": "glow-case",
+    "locale": "ar-AE",
+    "module": 4,
+    "pane": 22,
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "clipSize": {
+      "width": 780,
+      "height": 1688
+    },
+    "captureMethod": "Actual local learner UI via Codex in-app browser; screenshots before and after the original demonstration choices",
+    "files": [
+      {
+        "file": "glow-0.png",
+        "sha256": "6bf233fcf25307f704662c1f507fc83963143a2f50a52fc49eef468da9918a3f"
+      },
+      {
+        "file": "glow-1.png",
+        "sha256": "d78f19f5c16beed2b4f46be027c2348059ce2a5d3666131e08c28ad529a75c4b"
+      },
+      {
+        "file": "glow-case.mp4",
+        "sha256": "226960a0ff095a5a78bd9b8da688a16b733423ac0ed28112271ca3bc43a22ff3"
+      }
+    ]
+  }
+]

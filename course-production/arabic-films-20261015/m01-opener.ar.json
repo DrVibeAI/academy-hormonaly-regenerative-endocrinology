@@ -1,0 +1,335 @@
+{
+  "format": "cinematic/1",
+  "id": "m01-opener",
+  "title": "الجلد يصنع هرموناته الخاصة — مقدمة الموديل 01",
+  "note": "Flagship cinematic opener (docs/motion-contract.md): HeyGen Avatar V presenter bookends, b-roll, a living scientific diagram with spotlight and labels, a plate of the five named cell types, a three-route list, and a local-loop vs systemic-signalling plate, all keyed to the narration's words. Revision 2 (Omar 2026-09-25): an image of each cell type; illustrations of a local loop and systemic signalling; no on-screen 'AI presenter' label (the disclosure line sits under the player: presenter.disclosure, Omar 2026-09-25). Script assembled only from approved text: m1-p01 body sentences 1–2 and m1-p03 audioScript sentences 1–8 (Hormones and Peptides for Skin). Presenter lines still need the course script review; draft media until the media preview.",
+  "script": {
+    "text": "تبدأ هذه الدورة بعلم وظائف الأعضاء، لأن كل سؤال لاحق حول أي هرمون أو ببتيد مخصص للجلد يستند إليها. يستشعر الجلد الهرمونات الآتية من الدم، ويُصنّع العديد من هرموناته الخاصة، وتطرأ عليه تغيرات الشيخوخة بطرق تؤثر في كليهما. انظر إلى الجلد بوصفه عضوًا حسيًا مستشعرًا ذا إمداد هرموني خاص به. يصف الباحثون الذين يدرسونه أربع وحدات: البشرة، والأدمة، وتحت الأدمة، والملحقات، ويُقصد بالأخيرة جريبات الشعر والغدد. تحتوي كل وحدة على خلايا قادرة على تصنيع الهرمونات وإطلاق استجابة مناعية، مثل الخلايا الكيراتينية، والخلايا الليفية اليافعة، والخلايا الزهمية، والخلايا الدهنية، والخلايا البدينة. وتنتقل الإشارات بثلاث طرق: تتواصل الخلايا المتجاورة بشكل مباشر، وتنقل الأعصاب الحسية الرسائل إلى الداخل والخارج، وتدخل بعض النواتج إلى مجرى الدم وتصل إلى أعضاء بعيدة. ضع تمييزًا واحدًا نُصب عينيك طوال هذا الموديل: الإشارة التي تُصنع وتُستخدم داخل الجلد تمثل حلقة موضعية، بينما الهرمون الذي يصل عبر الدم، أو يغادر الجلد إلى بقية الجسم، يمثل إشارات جهازية.",
+    "sources": [
+      "m1-p01 body, sentences 1–2",
+      "m1-p03 audioScript, sentences 1–8"
+    ],
+    "locale": "ar-AE"
+  },
+  "voice": {
+    "provider": "elevenlabs",
+    "voice_id": "ZCXYdzd5Evtsll2EdoCi",
+    "name": "Yousef — licensed Arabic narration voice",
+    "preset": "engaging"
+  },
+  "presenter": {
+    "look": "2daeb4c1c74e491c89314a4e7dcd4879",
+    "engine": "avatar_v",
+    "resolution": "4k",
+    "name": "HeyGen stock avatar \"Iris\" (licensed; first cut — swap the look to re-render only the presenter shots)",
+    "disclosure": {
+      "en": "Presented by a digital avatar (AI-generated presenter and voice).",
+      "ar-AE": "يقدّم هذا الفيديو مقدّم افتراضي وصوت مولّدان بالذكاء الاصطناعي."
+    }
+  },
+  "music": {
+    "src": "score.mp3",
+    "lufs": -22
+  },
+  "chrome": {
+    "kicker": "الموديل 01 · الجلد بوصفه عضوًا صماويًا"
+  },
+  "lead": 0.12,
+  "states": [
+    {
+      "id": "intro",
+      "at": 0,
+      "shape": {
+        "kind": "frame",
+        "fill": "ink"
+      },
+      "content": {
+        "video": {
+          "presenter": {
+            "from": "تبدأ هذه الدورة",
+            "to": "تؤثر في كليهما"
+          },
+          "focus": [
+            0.5,
+            0.36
+          ],
+          "zoom": [
+            1,
+            1.07
+          ]
+        }
+      },
+      "kinetic": [
+        {
+          "on": "بعلم وظائف الأعضاء،",
+          "text": "علم وظائف الأعضاء أولاً"
+        },
+        {
+          "on": "يستشعر الجلد الهرمونات",
+          "text": "يستشعر · يُصنّع · يشيخ"
+        }
+      ]
+    },
+    {
+      "id": "organ",
+      "on": "انظر إلى الجلد",
+      "shape": {
+        "kind": "frame",
+        "fill": "ink"
+      },
+      "content": {
+        "video": {
+          "src": "broll-skin-macro.mp4",
+          "focus": [
+            0.5,
+            0.55
+          ],
+          "zoom": [
+            1,
+            1.14
+          ]
+        }
+      },
+      "kinetic": [
+        {
+          "on": "عضوًا حسيًا مستشعرًا",
+          "text": "عضو حسي مستشعر"
+        },
+        {
+          "on": "إمداد هرموني",
+          "text": "بإمداد هرموني خاص به"
+        }
+      ]
+    },
+    {
+      "id": "units",
+      "on": "أربع وحدات",
+      "shape": {
+        "kind": "window",
+        "fill": "paper",
+        "h": 1300
+      },
+      "kinetic": null,
+      "content": {
+        "image": {
+          "src": "diagram-gpt25.png",
+          "regions": {
+            "epidermis": "the thin top layer of the skin block (epidermis)",
+            "dermis": "the thick middle layer with collagen fibres, vessels and the nerve (dermis)",
+            "hypodermis": "the bottom layer of yellow fat lobules (hypodermis)",
+            "adnexa": "the hair follicle together with its sebaceous gland and the coiled sweat gland (adnexal structures)"
+          },
+          "focus": [
+            {
+              "on": "البشرة",
+              "region": "epidermis",
+              "label": "البشرة"
+            },
+            {
+              "on": "والأدمة",
+              "region": "dermis",
+              "label": "الأدمة"
+            },
+            {
+              "on": "وتحت الأدمة",
+              "region": "hypodermis",
+              "label": "تحت الأدمة"
+            },
+            {
+              "on": "والملحقات",
+              "region": "adnexa",
+              "label": "الملحقات",
+              "zoom": 1.35
+            },
+            {
+              "on": "تحتوي كل وحدة",
+              "zoom": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "cells",
+      "on": "خلايا قادرة على تصنيع",
+      "shape": {
+        "kind": "window",
+        "fill": "paper",
+        "h": 1280
+      },
+      "kinetic": null,
+      "content": {
+        "image": {
+          "src": "cells-a.png",
+          "regions": {
+            "keratinocytes": "the top-left round vignette: a patch of polygonal cobblestone skin cells joined by small dots",
+            "fibroblast": "the top-right round vignette: one elongated spindle-shaped cell among wavy collagen fibres",
+            "sebocytes": "the middle-left round vignette: a lobule of large pale foamy cells",
+            "fat": "the middle-right round vignette: large round yellow fat cells",
+            "mast": "the bottom round vignette: a cell packed with dark violet granules beside a blood capillary"
+          },
+          "focus": [
+            {
+              "on": "الخلايا الكيراتينية",
+              "region": "keratinocytes",
+              "label": "الخلايا الكيراتينية"
+            },
+            {
+              "on": "والخلايا الليفية اليافعة",
+              "region": "fibroblast",
+              "label": "الخلايا الليفية اليافعة"
+            },
+            {
+              "on": "والخلايا الزهمية",
+              "region": "sebocytes",
+              "label": "الخلايا الزهمية"
+            },
+            {
+              "on": "والخلايا الدهنية",
+              "region": "fat",
+              "label": "الخلايا الدهنية"
+            },
+            {
+              "on": "والخلايا البدينة",
+              "region": "mast",
+              "label": "الخلايا البدينة"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "routes",
+      "on": "وتنتقل الإشارات بثلاث طرق",
+      "shape": {
+        "kind": "panel",
+        "fill": "card"
+      },
+      "list": {
+        "kicker": "ثلاثة اتجاهات لحركة الإشارات",
+        "rows": [
+          {
+            "label": "من خلية إلى أخرى",
+            "marks": 0
+          },
+          {
+            "label": "عبر الأعصاب الحسية",
+            "marks": 0
+          },
+          {
+            "label": "عبر الدم",
+            "marks": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "r1",
+      "on": "تتواصل الخلايا المتجاورة",
+      "indicator": {
+        "rows": [
+          0,
+          0
+        ],
+        "tag": "موضعي"
+      }
+    },
+    {
+      "id": "r2",
+      "on": "وتنقل الأعصاب الحسية",
+      "indicator": {
+        "rows": [
+          1,
+          1
+        ],
+        "tag": "إلى الداخل والخارج"
+      }
+    },
+    {
+      "id": "r3",
+      "on": "وتدخل بعض النواتج إلى مجرى الدم",
+      "indicator": {
+        "rows": [
+          2,
+          2
+        ],
+        "tag": "أعضاء بعيدة"
+      }
+    },
+    {
+      "id": "close",
+      "on": "ضع تمييزًا واحدًا",
+      "shape": {
+        "kind": "frame",
+        "fill": "ink"
+      },
+      "content": {
+        "video": {
+          "presenter": {
+            "from": "ضع تمييزًا واحدًا",
+            "to": "إشارات جهازية"
+          },
+          "focus": [
+            0.5,
+            0.36
+          ],
+          "zoom": [
+            1.04,
+            1.1
+          ]
+        }
+      },
+      "kinetic": [
+        {
+          "on": "تمييزًا واحدًا",
+          "text": "تمييز واحد"
+        }
+      ]
+    },
+    {
+      "id": "loops",
+      "on": "الإشارة التي تُصنع",
+      "shape": {
+        "kind": "window",
+        "fill": "paper",
+        "h": 1280
+      },
+      "kinetic": null,
+      "content": {
+        "image": {
+          "src": "signalling-b.png",
+          "regions": {
+            "local": "the top vignette: a strip of skin cells where one cell releases violet dots that loop to its neighbours and back",
+            "systemic": "the bottom vignette: a skin block, a long blood vessel carrying violet dots, and a kidney with its adrenal gland"
+          },
+          "focus": [
+            {
+              "on": "الإشارة التي تُصنع",
+              "region": "local"
+            },
+            {
+              "on": "حلقة موضعية",
+              "region": "local",
+              "label": "حلقة موضعية"
+            },
+            {
+              "on": "الهرمون الذي يصل",
+              "region": "systemic"
+            },
+            {
+              "on": "إشارات جهازية",
+              "region": "systemic",
+              "label": "إشارات جهازية"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "localization": {
+    "sourceSha256": "b017946ab3ce1cdb3e82efb69a7ef7706d6b3760bae74515bf6707ad1efdcba1",
+    "locale": "ar-AE",
+    "status": "draft",
+    "structurePreserved": true
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "model": "gemini-3.8-flash",
+  "mode": "video",
+  "video_engine": "files-api",
+  "reviewed_at": "2026-10-16T01:37:35.922Z",
+  "figure_truth": true,
+  "videos": [
+    {
+      "label": "m03-opener.ar.mp4",
+      "file": "/Users/omar/DrVibe/worktrees/hormonaly-qa-20261015/media/m03/m03-opener.ar.mp4",
+      "summary": "Video presents clear medical illustrations and accurate Arabic captions, but contains visible frontal presenter footage contrary to footage constraints.",
+      "findings": [
+        {
+          "time": 1.5,
+          "severity": "warn",
+          "code": "footage",
+          "note": "Frontal, identifiable face shown in presenter footage.",
+          "model": "gemini-3.8-flash"
+        },
+        {
+          "time": 87,
+          "severity": "warn",
+          "code": "footage",
+          "note": "Frontal, identifiable face shown during concluding segment.",
+          "model": "gemini-3.8-flash"
+        }
+      ],
+      "checks": {
+        "figures_expected": 1,
+        "figures_on_time": 1,
+        "frozen_frames": 0,
+        "artifacts": 0,
+        "narration_language_ok": true
+      },
+      "timeline": [],
+      "usage": [
+        12151
+      ]
+    }
+  ]
+}

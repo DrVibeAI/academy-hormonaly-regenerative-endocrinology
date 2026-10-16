@@ -1,0 +1,138 @@
+[
+  {
+    "id": "m01-opener",
+    "duration": 113.033333,
+    "videoCodec": "h264",
+    "audioCodec": "aac",
+    "width": 1080,
+    "height": 1920,
+    "fps": "60/1",
+    "checksumVerified": true,
+    "automatedChecks": {
+      "figures_expected": 3,
+      "figures_on_time": 3,
+      "frozen_frames": 0,
+      "artifacts": 0,
+      "narration_language_ok": true
+    }
+  },
+  {
+    "id": "m02-opener",
+    "duration": 124.55,
+    "videoCodec": "h264",
+    "audioCodec": "aac",
+    "width": 1080,
+    "height": 1920,
+    "fps": "60/1",
+    "checksumVerified": true,
+    "automatedChecks": {
+      "figures_expected": 4,
+      "figures_on_time": 4,
+      "frozen_frames": 0,
+      "artifacts": 0,
+      "narration_language_ok": true
+    }
+  },
+  {
+    "id": "m03-opener",
+    "duration": 106.066667,
+    "videoCodec": "h264",
+    "audioCodec": "aac",
+    "width": 1080,
+    "height": 1920,
+    "fps": "60/1",
+    "checksumVerified": true,
+    "automatedChecks": {
+      "figures_expected": 1,
+      "figures_on_time": 1,
+      "frozen_frames": 0,
+      "artifacts": 0,
+      "narration_language_ok": true
+    }
+  },
+  {
+    "id": "m04-opener",
+    "duration": 102.3,
+    "videoCodec": "h264",
+    "audioCodec": "aac",
+    "width": 1080,
+    "height": 1920,
+    "fps": "60/1",
+    "checksumVerified": true,
+    "automatedChecks": {
+      "figures_expected": 2,
+      "figures_on_time": 2,
+      "frozen_frames": 0,
+      "artifacts": 0,
+      "narration_language_ok": true
+    }
+  },
+  {
+    "id": "m05-opener",
+    "duration": 119.1,
+    "videoCodec": "h264",
+    "audioCodec": "aac",
+    "width": 1080,
+    "height": 1920,
+    "fps": "60/1",
+    "checksumVerified": true,
+    "automatedChecks": {
+      "figures_expected": 2,
+      "figures_on_time": 2,
+      "frozen_frames": 0,
+      "artifacts": 0,
+      "narration_language_ok": true
+    }
+  },
+  {
+    "id": "m06-opener",
+    "duration": 133.35,
+    "videoCodec": "h264",
+    "audioCodec": "aac",
+    "width": 1080,
+    "height": 1920,
+    "fps": "60/1",
+    "checksumVerified": true,
+    "automatedChecks": {
+      "figures_expected": 1,
+      "figures_on_time": 1,
+      "frozen_frames": 0,
+      "artifacts": 0,
+      "narration_language_ok": true
+    }
+  },
+  {
+    "id": "m07-opener",
+    "duration": 132.95,
+    "videoCodec": "h264",
+    "audioCodec": "aac",
+    "width": 1080,
+    "height": 1920,
+    "fps": "60/1",
+    "checksumVerified": true,
+    "automatedChecks": {
+      "figures_expected": 1,
+      "figures_on_time": 1,
+      "frozen_frames": 0,
+      "artifacts": 0,
+      "narration_language_ok": true
+    }
+  },
+  {
+    "id": "hype",
+    "duration": 78.15,
+    "videoCodec": "h264",
+    "audioCodec": "aac",
+    "width": 1080,
+    "height": 1920,
+    "fps": "60/1",
+    "checksumVerified": true,
+    "automatedChecks": {
+      "figures_expected": 0,
+      "figures_on_time": 0,
+      "frozen_frames": 0,
+      "artifacts": 0,
+      "narration_language_ok": true
+    }
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "film": "m06-opener.ar",
+    "path": "/states/6/content/image/focus/2/on",
+    "from": "يُعبَّر عن مستقبله على الخلايا الليفية اليافعة بدرجة أكبر",
+    "to": "ويُعبَّر عن مستقبله على الخلايا الليفية اليافعة بدرجة أكبر",
+    "score": 0.9908256880733946
+  },
+  {
+    "film": "m06-opener.ar",
+    "path": "/states/6/content/image/focus/5/on",
+    "from": "تارة عبر IGF-1",
+    "to": "وتارة عبر IGF-1.",
+    "score": 0.9629629629629629
+  },
+  {
+    "film": "m01-opener.ar",
+    "path": "/states/0/kinetic/0/on",
+    "from": "علم وظائف الأعضاء",
+    "to": "بعلم وظائف الأعضاء،",
+    "score": 0.9714285714285714
+  },
+  {
+    "film": "m05-opener.ar",
+    "path": "/states/4/on",
+    "from": "كيفية تقييم",
+    "to": "وكيفية تقييم",
+    "score": 0.9565217391304348
+  },
+  {
+    "film": "m02-opener.ar",
+    "path": "/states/0/content/video/presenter/to",
+    "from": "مرض في الغدد الصماء",
+    "to": "لمرض في الغدد الصماء.",
+    "score": 0.9743589743589743
+  },
+  {
+    "film": "m02-opener.ar",
+    "path": "/states/0/kinetic/1/on",
+    "from": "مرض في الغدد الصماء",
+    "to": "لمرض في الغدد الصماء.",
+    "score": 0.9743589743589743
+  },
+  {
+    "film": "m02-opener.ar",
+    "path": "/states/3/on",
+    "from": "ما يمكن للعلاج الهرموني أن يقدمه",
+    "to": "وما يمكن للعلاج الهرموني أن يقدمه",
+    "score": 0.9846153846153847
+  },
+  {
+    "film": "m03-opener.ar",
+    "path": "/states/6/content/image/focus/0/on",
+    "from": "طبقة واحدة تحت الأدمة",
+    "to": "كطبقة واحدة تحت الأدمة،",
+    "score": 0.9767441860465116
+  },
+  {
+    "film": "m03-opener.ar",
+    "path": "/states/7/content/image/focus/0/on",
+    "from": "المكورات العنقودية الذهبية (Staphylococcus aureus)",
+    "to": "بالمكورات العنقودية الذهبية (Staphylococcus aureus)،",
+    "score": 0.9896907216494846
+  },
+  {
+    "film": "m04-opener.ar",
+    "path": "/states/6/content/image/focus/2/on",
+    "from": "سوبر أوكسيد ديسميوتاز",
+    "to": "وسوبر أوكسيد ديسميوتاز،",
+    "score": 0.9767441860465116
+  }
+]

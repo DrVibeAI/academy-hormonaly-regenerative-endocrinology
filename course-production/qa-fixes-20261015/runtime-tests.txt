@@ -1,0 +1,27 @@
+Regional copy resolves ar-AE without falling back to English; Arabic direction is RTL.
+✔ scripts/test-arabic-regional.mts (85.951584ms)
+13 course-time and question-count assertions passed
+✔ scripts/test-course-time.mts (124.089417ms)
+✔ captures stay isolated by academy, palette, package and actual screenshot bytes (8.020625ms)
+✔ fingerprint is stable across object key order; unrelated settings and legacy academies remain compatible (0.396583ms)
+✔ localized screenshot variants require their own matching capture and unchanged bytes (4.680042ms)
+✔ an English catalog badge cannot accredit a pending derivative (0.487042ms)
+✔ matching recorded decision retains accreditation (0.069ms)
+✔ missing or different-body decision cannot borrow catalog approval (0.052792ms)
+✔ Arabic permission and prohibition paraphrases are regulatory (0.62975ms)
+✔ Arabic does not select Saudi jurisdiction (8.445958ms)
+✔ Saudi learner receives the Saudi note (0.166959ms)
+✔ explicit other-country request is labelled comparison (0.3095ms)
+✔ missing local evidence cannot fall through to foreign law (0.433875ms)
+✔ unknown product gets an explicit verification gap (0.117541ms)
+✔ unknown country asks for location without inferring from Arabic (0.21825ms)
+✔ ordinary learning questions continue normal retrieval (0.086125ms)
+✔ academies without country-authored fallback notes retain normal retrieval (0.038042ms)
+ℹ tests 17
+ℹ suites 0
+ℹ pass 17
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 129.785709

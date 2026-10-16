@@ -1,0 +1,286 @@
+{
+  "format": "cinematic/1",
+  "id": "m04-opener",
+  "title": "مقدمة الوحدة 04 — الهرمونات وببتيدات الجلد",
+  "note": "Module opener in the cinematic lane (docs/motion-contract.md § 10b), same look and rules as the Module 1 opener. Script assembled only from approved text (sources below); presenter lines pass the course script review; draft media until the media preview.",
+  "script": {
+    "text": "تصل معظم ببتيدات الجلد إلى عيادتك قبل أن تصل أي أدلة تدعمها. ستصنفها عبر ثلاثة دروس بناءً على ما تظهره التجارب البشرية فعلياً، والجهة الممولة لتلك التجارب، وموقف كل ببتيد لدى الهيئة التنظيمية. لنبدأ بالجزيء؛ GHK هو ببتيد ثلاثي الأحماض الأمينية يسري في البلازما البشرية، وقد وُصف لأول مرة عام 1973. يرتبط بالنحاس بسهولة، ومعقد النحاس، GHK-Cu، هو ما تقصده ملصقات منتجات العناية بالجلد عند الإشارة إلى ببتيد النحاس. آلية العمل المقترحة هي أن GHK-Cu يوصل النحاس إلى الإنزيمات التي تبني مصفوفة الأدمة وتحميها، مثل ليزيل أوكسيداز وسوبر أوكسيد ديسميوتاز، ويوجّه التعبير الجيني نحو التئام الجروح. هناك نقطتان يجب مراعاتهما: أولاً، هذه مجرد آلية العمل، وهي توضح سبب إمكانية نجاح الببتيد لكنها تترك مسألة فعاليته الفعلية غير محسومة. ثانياً، كُتبت معظم هذه الأدبيات بواسطة المجموعة التي اكتشفت الببتيد. ضع الأمرين في اعتبارك عند مراجعة التجارب السريرية.",
+    "sources": [
+      "m4-p01 body, sentences 1, 2",
+      "m4-p03 audioScript, sentences 1, 2, 3, 4, 5, 6, 7, 8"
+    ],
+    "locale": "ar-AE"
+  },
+  "voice": {
+    "provider": "elevenlabs",
+    "voice_id": "ZCXYdzd5Evtsll2EdoCi",
+    "name": "Yousef — licensed Arabic narration voice",
+    "preset": "engaging"
+  },
+  "presenter": {
+    "look": "2daeb4c1c74e491c89314a4e7dcd4879",
+    "engine": "avatar_v",
+    "resolution": "4k",
+    "name": "HeyGen stock avatar \"Iris\" (licensed)",
+    "disclosure": {
+      "en": "Presented by a digital avatar (AI-generated presenter and voice).",
+      "ar-AE": "يقدّم هذا الفيديو مقدّم افتراضي وصوت مولّدان بالذكاء الاصطناعي."
+    }
+  },
+  "music": {
+    "src": "m04-score.mp3",
+    "lufs": -22
+  },
+  "chrome": {
+    "kicker": "الوحدة 04 · ببتيدات المصفوفة والتئام الجروح"
+  },
+  "lead": 0.12,
+  "assets": [
+    {
+      "src": "m4-ghk.png",
+      "kind": "image",
+      "candidates": 2,
+      "prompt": "Schematic scientific illustration of a tripeptide, deliberately NOT a chemical structure: no atoms, no bonds, no rings, no ball-and-stick, no letters. Upper group, centred: three large smooth matte spheres of slightly different warm tones joined in a short gently curved row like beads on a fine thread, and a single smaller burnished copper-coloured sphere cradled between the second and the third bead, held there by two fine lines. Lower group, smaller, for comparison: the same three beads on their own with no copper sphere. Generous empty paper around both groups."
+    },
+    {
+      "src": "m4-matrix.png",
+      "kind": "image",
+      "candidates": 2,
+      "prompt": "Accurate scientific medical illustration: a close-up round vignette of the dermal extracellular matrix, centred with generous empty margins. A spindle-shaped fibroblast lies among wavy collagen fibre bundles and fine elastin fibres; tiny copper-coloured ions are delivered to small enzyme shapes that sit where neighbouring collagen fibres are being cross-linked, the cross-links drawn as short violet bridges between fibres."
+    },
+    {
+      "src": "m04-score.mp3",
+      "kind": "music",
+      "prompt": "Instrumental underscore for a 78-second medical education film opener about matrix peptides and the evidence behind them: calm, precise and modern; soft felt piano motif over warm analogue synth pads, a light pulse at 96 BPM entering after 10 seconds, gentle build to a lift two thirds of the way through, resolving softly at the end; documentary feel, same palette as the series, no vocals, no heavy drums, leave space for narration."
+    }
+  ],
+  "states": [
+    {
+      "id": "intro",
+      "shape": {
+        "kind": "frame",
+        "fill": "ink"
+      },
+      "content": {
+        "video": {
+          "presenter": {
+            "from": "تصل معظم ببتيدات الجلد",
+            "to": "أي أدلة تدعمها"
+          },
+          "focus": [
+            0.5,
+            0.36
+          ],
+          "zoom": [
+            1,
+            1.07
+          ]
+        }
+      },
+      "kinetic": [
+        {
+          "on": "إلى عيادتك",
+          "text": "في عيادتك"
+        },
+        {
+          "on": "قبل أن تصل أي أدلة",
+          "text": "قبل توفر الأدلة"
+        }
+      ],
+      "at": 0
+    },
+    {
+      "id": "lessons",
+      "on": "عبر ثلاثة دروس",
+      "shape": {
+        "kind": "panel",
+        "fill": "card"
+      },
+      "list": {
+        "kicker": "ثلاثة دروس",
+        "rows": [
+          {
+            "label": "ما تظهره التجارب البشرية",
+            "marks": 0
+          },
+          {
+            "label": "الجهة الممولة لها",
+            "marks": 0
+          },
+          {
+            "label": "موقف الهيئة التنظيمية",
+            "marks": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "l1",
+      "on": "ما تظهره التجارب البشرية",
+      "indicator": {
+        "rows": [
+          0,
+          0
+        ],
+        "tag": null
+      }
+    },
+    {
+      "id": "l2",
+      "on": "والجهة الممولة",
+      "indicator": {
+        "rows": [
+          1,
+          1
+        ],
+        "tag": null
+      }
+    },
+    {
+      "id": "l3",
+      "on": "وموقف كل ببتيد",
+      "indicator": {
+        "rows": [
+          2,
+          2
+        ],
+        "tag": null
+      }
+    },
+    {
+      "id": "molecule",
+      "on": "لنبدأ بالجزيء",
+      "shape": {
+        "kind": "window",
+        "fill": "paper",
+        "h": 1280
+      },
+      "kinetic": null,
+      "content": {
+        "image": {
+          "src": "m4-ghk.png",
+          "regions": {
+            "peptide": "the lower three-residue chain without copper",
+            "complex": "the upper three-residue chain holding the copper-coloured sphere",
+            "copper": "the single copper-coloured sphere"
+          },
+          "focus": [
+            {
+              "on": "ببتيد ثلاثي الأحماض الأمينية",
+              "region": "peptide",
+              "label": "GHK · غلايسين-هيستيدين-لايسين"
+            },
+            {
+              "on": "وُصف لأول مرة عام 1973",
+              "region": "peptide",
+              "label": "البلازما البشرية · 1973"
+            },
+            {
+              "on": "يرتبط بالنحاس",
+              "region": "copper",
+              "label": "النحاس",
+              "zoom": 1.4
+            },
+            {
+              "on": "ومعقد النحاس",
+              "region": "complex",
+              "label": "GHK-Cu"
+            },
+            {
+              "on": "ملصقات منتجات العناية بالجلد",
+              "region": "complex",
+              "label": "«ببتيد النحاس» على الملصقات",
+              "zoom": 1.2
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "matrix",
+      "on": "آلية العمل المقترحة",
+      "shape": {
+        "kind": "window",
+        "fill": "paper",
+        "h": 1100
+      },
+      "kinetic": null,
+      "content": {
+        "image": {
+          "src": "m4-matrix.png",
+          "regions": {
+            "crosslinks": "the violet bridges between neighbouring collagen fibres and the small enzyme shapes at them",
+            "fibroblast": "the spindle-shaped fibroblast"
+          },
+          "focus": [
+            {
+              "on": "يوصل النحاس إلى الإنزيمات",
+              "region": "crosslinks",
+              "label": "النحاس لإنزيمات المصفوفة",
+              "zoom": 1.15
+            },
+            {
+              "on": "ليزيل أوكسيداز",
+              "region": "crosslinks",
+              "label": "ليزيل أوكسيداز",
+              "zoom": 1.3
+            },
+            {
+              "on": "وسوبر أوكسيد ديسميوتاز،",
+              "region": "fibroblast",
+              "label": "سوبر أوكسيد ديسميوتاز"
+            },
+            {
+              "on": "نحو التئام الجروح",
+              "zoom": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "close",
+      "shape": {
+        "kind": "frame",
+        "fill": "ink"
+      },
+      "content": {
+        "video": {
+          "presenter": {
+            "from": "هناك نقطتان يجب مراعاتهما",
+            "to": "مراجعة التجارب السريرية"
+          },
+          "focus": [
+            0.5,
+            0.36
+          ],
+          "zoom": [
+            1.04,
+            1.1
+          ]
+        }
+      },
+      "kinetic": [
+        {
+          "on": "هذه مجرد آلية العمل",
+          "text": "1 · آلية عمل"
+        },
+        {
+          "on": "تترك مسألة فعاليته الفعلية غير محسومة",
+          "text": "الفعالية: غير محسومة"
+        },
+        {
+          "on": "المجموعة التي اكتشفت",
+          "text": "2 · كُتبت بأيدي مكتشفيه"
+        }
+      ],
+      "on": "هناك نقطتان يجب مراعاتهما"
+    }
+  ],
+  "localization": {
+    "sourceSha256": "b8f08ab2c8746da6e8164a62b2aca0f0e0073dc96f70f7ae85223af048a47a25",
+    "locale": "ar-AE",
+    "status": "draft",
+    "structurePreserved": true
+  }
+}

@@ -1,0 +1,12 @@
+✓ homepage captures: 6 match the academy palette and course
+→ inputs from /Users/omar/DrVibe/worktrees/hormonaly-qa-20261015/academy: academy.yaml, 2 package(s), no logo, fady-hannah-shmouni-wide.png, dominik-thor-wide.png, omar-saleem-wide.png
+wrote src/generated/academyConfig.ts — Hormonaly Academy (hormonaly) · locales en + [ar]
+catalog summary → src/generated/catalogSummary.ts (1 course)
+editorial skin → src/generated/editorial-skin.css (1399 lines)
+  credential: GCLS-issued once accredited — shown as academy-issued until governance.accreditation.status = accredited
+wrote src/generated/courseContent.ts — 7 lessons, 14 quiz questions, 416 sources, 15 tutor entries · locales en, ar (base en) · 5 runtime languages
+✓ editing context: hormonaly · 1098 fields · enabled
+review context → server/generated/review-context.json (839k chars · dossier OTHER version · brief yes)
+✓ rag index current (1546 chunks, hash d7e7e7b1bf3021cf)
+✓ prepared hormonaly · packages/hormones-peptides-skin.ar-AE.json
+Learning delivery disabled; private assessment package remains server-side.

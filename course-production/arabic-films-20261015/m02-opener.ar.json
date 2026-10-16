@@ -1,0 +1,429 @@
+{
+  "format": "cinematic/1",
+  "id": "m02-opener",
+  "title": "مقدمة الوحدة 02 — الهرمونات والببتيدات للجلد",
+  "note": "Module opener in the cinematic lane (docs/motion-contract.md § 10b), same look and rules as the Module 1 opener. Script assembled only from approved text (sources below); presenter lines pass the course script review; draft media until the media preview. Revision 3 (Omar 2026-09-25: \"for the hormones we mention like crh, acth … a diagram of the hormone axis and then also the pathway of the cortisone to active cortisol\"; \"move from gross b-roll like the sunlight shining on the skin and then it zooms in … an illustration\"): the axis and the conversion are drawn on their words (content.diagram); the sunlit hand dives into the skin block on \"it sets local cortisol\"; the dermis plate is marked as mouse data. Narration unchanged.",
+  "script": {
+    "text": "معظم التغيرات الجلدية التي تراها ناجمة عن الشيخوخة أو نمط الحياة، في حين يمثل القليل منها أول علامة مرئية لمرض في الغدد الصماء. وخلال ثلاثة دروس، ستفصل بينها: ما تفعله الهرمونات الموضعية والجهازية بالجلد، وما يمكن للعلاج الهرموني أن يقدمه وما لا يمكنه تقديمه للجلد، وأي العلامات يستوجب إحالتها إلى طبيب الغدد الصماء. تصوّر الجلد كعضو صماوي صغير يمتلك محور استجابة للضغط خاصًا به؛ إذ تُنتج خلايا الجلد كلاً من CRH وACTH، وهما نفس الإشارتين اللتين تُحفزان الغدد الكظرية، كما تحمل الخلايا المستقبلات اللازمة للاستجابة لهما. وتحمل أيضًا إنزيمًا يُدعى eleven beta HSD one، الذي يحول الكورتيزون غير النشط مرة أخرى إلى كورتيزول نشط داخل الخلية. وفي عينات جلد الإنسان، يزداد نشاط هذا الإنزيم مع التقدم في السن وفي الجلد المعرض لأشعة الشمس، وهو يحدد مستوى الكورتيزول الموضعي بمعزل عن مستواه في الدم. ويُبطئ الكورتيزول إنتاج الكولاجين في الخلايا الليفية اليافعة في الأدمة، وقد حافظت الفئران المستولدة دون هذا الإنزيم على سماكة الأدمة لديها مع تقدمها في العمر. احتفظ بكل هذا ضمن سجل آلية العمل؛ فهذه المعطيات مستمدة من خزعات، وخلايا مستنبتة، وفئران، ولا تقدم حتى الآن أي دلالة مؤكدة حول كيفية شيخوخة وجه المريض.",
+    "sources": [
+      "m2-p01 body, sentences 1, 2, 3",
+      "m2-p02 audioScript, sentences 1, 2, 3, 4, 5, 6, 7"
+    ],
+    "locale": "ar-AE"
+  },
+  "voice": {
+    "provider": "elevenlabs",
+    "voice_id": "ZCXYdzd5Evtsll2EdoCi",
+    "name": "Yousef — licensed Arabic narration voice",
+    "preset": "engaging"
+  },
+  "presenter": {
+    "look": "2daeb4c1c74e491c89314a4e7dcd4879",
+    "engine": "avatar_v",
+    "resolution": "4k",
+    "name": "HeyGen stock avatar \"Iris\" (licensed)",
+    "disclosure": {
+      "en": "Presented by a digital avatar (AI-generated presenter and voice).",
+      "ar-AE": "يقدّم هذا الفيديو مقدّم افتراضي وصوت مولّدان بالذكاء الاصطناعي."
+    }
+  },
+  "music": {
+    "src": "m02-score.mp3",
+    "lufs": -22
+  },
+  "chrome": {
+    "kicker": "الوحدة 02 · الهرمونات الجهازية والجلد"
+  },
+  "lead": 0.12,
+  "assets": [
+    {
+      "src": "m2-axis.png",
+      "kind": "image",
+      "candidates": 2,
+      "prompt": "Accurate scientific medical illustration plate with two vignettes stacked vertically, the same width, generous empty paper between and around them. Top vignette, the classic stress axis: a small side-view outline of the brain with the hypothalamus and the pituitary gland highlighted, a fine blood vessel running down to a kidney with its adrenal gland on top. Bottom vignette, the skin's own stress axis: a close-up cross-section of the epidermis over the upper dermis; a few skin cells release tiny violet signal molecules to their neighbours, and one cell in the middle is highlighted, turning pale inactive hormone particles into bright violet active ones inside it."
+    },
+    {
+      "src": "m2-dermis.png",
+      "kind": "image",
+      "candidates": 2,
+      "prompt": "Accurate scientific medical illustration plate: two vertical cross-section blocks of aged skin side by side, same width and height, generous empty paper between and around them. Each block shows the epidermis, the dermis with wavy collagen fibre bundles and a few spindle-shaped fibroblasts, and fat at the bottom. In the left block the dermis is visibly thinner, its collagen bundles sparse and fine. In the right block the dermis is visibly thicker, with dense, well-organised collagen bundles. The two blocks are otherwise identical."
+    },
+    {
+      "src": "m2-broll-sun.mp4",
+      "kind": "video",
+      "prompt": "Extreme macro cinematography of sun-exposed, gently lined skin on the back of an older adult's hand: fine texture, light freckling and soft creases catching warm late-afternoon raking light, a very slow smooth push-in, shallow depth of field, calm and respectful, warm neutral grade, no face, no jewellery, no text, no logos."
+    },
+    {
+      "src": "m02-score.mp3",
+      "kind": "music",
+      "prompt": "Instrumental underscore for a 85-second medical education film opener about the skin's own stress hormones: calm, precise and modern; soft felt piano motif over warm analogue synth pads, a light pulse at 96 BPM entering after 10 seconds, gentle build to a lift two thirds of the way through, resolving softly at the end; documentary feel, same palette as the series, no vocals, no heavy drums, leave space for narration."
+    }
+  ],
+  "states": [
+    {
+      "id": "intro",
+      "shape": {
+        "kind": "frame",
+        "fill": "ink"
+      },
+      "content": {
+        "video": {
+          "presenter": {
+            "from": "معظم التغيرات الجلدية",
+            "to": "لمرض في الغدد الصماء."
+          },
+          "focus": [
+            0.5,
+            0.36
+          ],
+          "zoom": [
+            1,
+            1.07
+          ]
+        }
+      },
+      "kinetic": [
+        {
+          "on": "الشيخوخة أو نمط الحياة",
+          "text": "الشيخوخة أو نمط الحياة"
+        },
+        {
+          "on": "لمرض في الغدد الصماء.",
+          "text": "…أو مرض في الغدد الصماء"
+        }
+      ],
+      "at": 0
+    },
+    {
+      "id": "lessons",
+      "on": "وخلال ثلاثة دروس",
+      "shape": {
+        "kind": "panel",
+        "fill": "card"
+      },
+      "list": {
+        "kicker": "ثلاثة دروس",
+        "rows": [
+          {
+            "label": "ما تفعله الهرمونات بالجلد",
+            "marks": 0
+          },
+          {
+            "label": "ما يمكن للعلاج الهرموني تقديمه",
+            "marks": 0
+          },
+          {
+            "label": "متى تُحيل لطبيب الغدد؟",
+            "marks": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "l1",
+      "on": "الهرمونات الموضعية والجهازية",
+      "indicator": {
+        "rows": [
+          0,
+          0
+        ],
+        "tag": null
+      }
+    },
+    {
+      "id": "l2",
+      "on": "وما يمكن للعلاج الهرموني أن يقدمه",
+      "indicator": {
+        "rows": [
+          1,
+          1
+        ],
+        "tag": null
+      }
+    },
+    {
+      "id": "l3",
+      "on": "وأي العلامات يستوجب إحالتها",
+      "indicator": {
+        "rows": [
+          2,
+          2
+        ],
+        "tag": null
+      }
+    },
+    {
+      "id": "l4",
+      "on": "طبيب الغدد الصماء",
+      "indicator": {
+        "rows": [
+          2,
+          2
+        ],
+        "tag": "تستوجب الإحالة"
+      }
+    },
+    {
+      "id": "axis",
+      "on": "تصوّر الجلد",
+      "shape": {
+        "kind": "window",
+        "fill": "paper",
+        "w": 880,
+        "h": 1180
+      },
+      "kinetic": null,
+      "content": {
+        "diagram": {
+          "layout": "column",
+          "kicker": "محور استجابة الضغط الخاص بالجلد",
+          "nodes": [
+            {
+              "id": "cells",
+              "label": "خلايا الجلد",
+              "on": "محور استجابة للضغط خاصًا به"
+            },
+            {
+              "id": "crh",
+              "label": "CRH",
+              "on": "تُنتج خلايا الجلد كلاً من CRH"
+            },
+            {
+              "id": "acth",
+              "label": "ACTH",
+              "on": "وACTH"
+            },
+            {
+              "id": "rec",
+              "label": "المستقبلات",
+              "sub": "للاستجابة لهما",
+              "on": "المستقبلات"
+            }
+          ],
+          "edges": [
+            {
+              "from": "cells",
+              "to": "crh"
+            },
+            {
+              "from": "crh",
+              "to": "acth"
+            },
+            {
+              "from": "acth",
+              "to": "rec"
+            }
+          ]
+        }
+      },
+      "chips": [
+        {
+          "id": "adrenal",
+          "on": "نفس الإشارتين",
+          "text": "نفس الإشارات التي تحفز الغدد الكظرية",
+          "place": "below"
+        }
+      ]
+    },
+    {
+      "id": "convert",
+      "on": "وتحمل أيضًا",
+      "drop": [
+        "adrenal"
+      ],
+      "content": {
+        "diagram": {
+          "layout": "row",
+          "kicker": "داخل الخلية",
+          "nodes": [
+            {
+              "id": "cortisone",
+              "label": "كورتيزون",
+              "sub": "غير نشط",
+              "on": "الكورتيزون غير النشط"
+            },
+            {
+              "id": "cortisol",
+              "label": "كورتيزول",
+              "sub": "نشط",
+              "tone": "violet",
+              "on": "كورتيزول نشط"
+            }
+          ],
+          "edges": [
+            {
+              "from": "cortisone",
+              "to": "cortisol",
+              "on": "مرة أخرى إلى"
+            }
+          ]
+        }
+      },
+      "chips": [
+        {
+          "id": "enzyme",
+          "on": "إنزيمًا يُدعى",
+          "text": "11β-HSD1 · إنزيم في خلايا الجلد",
+          "place": "above"
+        }
+      ],
+      "shape": {
+        "kind": "window",
+        "fill": "paper",
+        "w": 880,
+        "h": 760
+      }
+    },
+    {
+      "id": "sun",
+      "on": "وفي عينات جلد الإنسان",
+      "shape": {
+        "kind": "frame",
+        "fill": "ink"
+      },
+      "content": {
+        "video": {
+          "src": "m2-broll-sun.mp4",
+          "focus": [
+            0.5,
+            0.55
+          ],
+          "zoom": [
+            1,
+            1.12
+          ]
+        }
+      },
+      "kinetic": [
+        {
+          "on": "يزداد نشاط هذا الإنزيم مع التقدم في السن",
+          "text": "يزداد مع التقدم في السن"
+        },
+        {
+          "on": "الجلد المعرض لأشعة الشمس",
+          "text": "وفي الجلد المعرض لأشعة الشمس"
+        }
+      ],
+      "drop": [
+        "enzyme"
+      ]
+    },
+    {
+      "id": "local",
+      "on": "وهو يحدد مستوى الكورتيزول الموضعي",
+      "transition": "dive",
+      "diveInto": [
+        0.5,
+        0.5
+      ],
+      "shape": {
+        "kind": "window",
+        "fill": "paper",
+        "w": 960,
+        "h": 1240
+      },
+      "kinetic": null,
+      "content": {
+        "image": {
+          "src": "diagram-gpt25.png",
+          "regions": {
+            "epidermis": "the thin top layer of the skin block (epidermis)",
+            "vessel": "the small red blood-vessel loop in the dermis"
+          },
+          "from": {
+            "region": "epidermis",
+            "zoom": 2.4
+          },
+          "focus": [
+            {
+              "on": "يحدد مستوى الكورتيزول الموضعي",
+              "region": "epidermis",
+              "label": "الكورتيزول الموضعي، يتحدد في الجلد",
+              "zoom": 1.15
+            },
+            {
+              "on": "بمعزل عن",
+              "region": "vessel",
+              "label": "مستوى الدم، منفصل"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dermis",
+      "on": "ويُبطئ الكورتيزول إنتاج الكولاجين",
+      "shape": {
+        "kind": "window",
+        "fill": "paper",
+        "h": 1280
+      },
+      "kinetic": null,
+      "content": {
+        "image": {
+          "src": "m2-dermis.png",
+          "regions": {
+            "thin": "the left skin block with the thinner dermis",
+            "thick": "the right skin block with the thicker dermis"
+          },
+          "focus": [
+            {
+              "on": "إنتاج الكولاجين",
+              "zoom": 1
+            },
+            {
+              "on": "الفئران المستولدة دون هذا الإنزيم",
+              "region": "thick",
+              "label": "فئران دون الإنزيم: حافظت الأدمة على سماكتها"
+            },
+            {
+              "on": "مع تقدمها في العمر",
+              "region": "thin",
+              "label": "فئران تحمل الإنزيم"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "close",
+      "shape": {
+        "kind": "frame",
+        "fill": "ink"
+      },
+      "content": {
+        "video": {
+          "presenter": {
+            "from": "احتفظ بكل هذا",
+            "to": "شيخوخة وجه المريض"
+          },
+          "focus": [
+            0.5,
+            0.36
+          ],
+          "zoom": [
+            1.04,
+            1.1
+          ]
+        }
+      },
+      "kinetic": [
+        {
+          "on": "سجل آلية العمل",
+          "text": "سجل آلية العمل"
+        },
+        {
+          "on": "خزعات",
+          "text": "خزعات · خلايا · فئران"
+        }
+      ],
+      "on": "احتفظ بكل هذا"
+    }
+  ],
+  "localization": {
+    "sourceSha256": "fcecf62abe200d7917bb2dd23d7bb0009a2d1dee716a45b7d9fc81d023506f57",
+    "locale": "ar-AE",
+    "status": "draft",
+    "structurePreserved": true
+  }
+}

@@ -1,0 +1,518 @@
+{
+  "format": "cinematic/1",
+  "id": "hype",
+  "role": "course-trailer",
+  "title": "الهرمونات والببتيدات للجلد — الإعلان الترويجي للدورة (الصفحة الرئيسية)",
+  "note": "The academy homepage trailer (Omar 2026-09-25: \"a hype video for the course … glimpses of the course … skin aesthetics … client demand for aesthetic peptides … a powerful lever for practitioners\"). Blueprint: perceptor-foundry docs/hype-film.md. Beats: presenter hook → skin b-roll with the products patients ask about → the problem (approved course line) → title with the evidence grades → the seven modules → three real app glimpses (recorded with tools/video/app-glimpses.mjs), then the six jurisdictions → proof numbers from the package (412 sources, 6 jurisdictions, physician review) → presenter close on the practice → end card with the address. Course facts come from the package; the problem line is approved text (m4-p01 body, sentence 1). No dosing, no outcome or revenue promises.",
+  "script": {
+    "text": "يسألك مرضاك بالفعل عن الببتيدات للبشرة. ببتيدات النحاس. والكولاجين. وحقن التسمير. ومحفزات هرمون النمو. تصل معظم ببتيدات البشرة إلى عيادتك قبل أن تصل أدلتها. تقدم لك دورة الهرمونات والببتيدات للجلد الأدلة، مصنفة بحسب قوتها. سبع وحدات قصيرة: هرمونات الجلد نفسه، والهرمونات الجهازية، والدهون والإنكريتينات، وببتيدات المصفوفة، والشعر والتصبغ، وهرمون النمو، والقواعد التنظيمية. ميّز التجارب السريرية من الكتيبات الترويجية. وتعرّف على علامات التحذير في شهادة التحليل. وتدرّب على المحادثات التي تجريها بالفعل، وفق قواعد بلدك. أكثر من أربعمئة مصدر. وستة أطر تنظيمية. وكل وحدة يراجعها طبيب. كن الطبيب الذي يملك إجابات موثوقة، وابنِ خدمة للعناية بالبشرة تثق بها. سجّل اليوم في أكاديمية هورمونالي.",
+    "sources": [
+      "m4-p01 body, sentence 1 (\"Most skin peptides reach your clinic before any evidence does.\")",
+      "package facts: 7 modules, 412 sources, 6 jurisdictions (US, GB, EU, PT, BR, AE), medical review by Fady Hannah-Shmouni",
+      "marketing lines (hook, close, call to action): product owner"
+    ],
+    "locale": "ar-AE"
+  },
+  "voice": {
+    "provider": "elevenlabs",
+    "voice_id": "ZCXYdzd5Evtsll2EdoCi",
+    "name": "Yousef — licensed Arabic narration voice",
+    "preset": "engaging"
+  },
+  "presenter": {
+    "look": "2daeb4c1c74e491c89314a4e7dcd4879",
+    "engine": "avatar_v",
+    "resolution": "4k",
+    "name": "HeyGen stock avatar \"Iris\" (the presenter of the module openers)",
+    "disclosure": {
+      "en": "Presented by a digital avatar (AI-generated presenter and voice).",
+      "ar-AE": "يقدّم هذا الفيديو مقدّم افتراضي وصوت مولّدان بالذكاء الاصطناعي."
+    }
+  },
+  "music": {
+    "src": "hype-score.mp3",
+    "lufs": -19,
+    "fadeIn": 0.4,
+    "fadeOut": 2.2
+  },
+  "chrome": {
+    "kicker": "أكاديمية هورمونالي"
+  },
+  "assets": [
+    {
+      "src": "hype-skin-glisten.mp4",
+      "kind": "video",
+      "prompt": "Extreme macro beauty cinematography of healthy, radiant, dewy skin across a cheekbone: a soft sheen of moisture and fine texture glowing in warm golden light that glides slowly across the surface, a very slow smooth push-in, shallow depth of field, premium skincare-campaign look, warm luminous grade. Only skin fills the frame."
+    },
+    {
+      "src": "hype-skin-glisten-2.mp4",
+      "kind": "video",
+      "prompt": "Extreme macro beauty cinematography of fine water droplets beading on smooth, glowing skin of a shoulder and collarbone, catching soft backlight that sparkles as the camera drifts slowly sideways, shallow depth of field, clean premium skincare-campaign look, warm luminous grade. Only skin fills the frame."
+    },
+    {
+      "src": "hype-score.mp3",
+      "kind": "music",
+      "prompt": "Upbeat, confident, modern instrumental for a 45-second course trailer: bright plucked synths and warm piano over a crisp, light beat at 120 BPM, a steady build from 18 seconds, a lift at 30 seconds, and a clean final hit at 44 seconds; premium, optimistic and energetic, no vocals, leave space for a voice-over."
+    },
+    {
+      "src": "home-hero-skin.png",
+      "kind": "image",
+      "style": "photo",
+      "size": [
+        1536,
+        1024
+      ],
+      "candidates": 2,
+      "prompt": "Editorial beauty macro photograph of radiant, healthy, dewy skin on a cheek and jawline in profile, glistening with a fine sheen of moisture under warm soft window light, extremely fine natural texture, calm premium skincare-campaign aesthetic, generous soft negative space on the left side of the frame, warm ivory and soft peach tones."
+    }
+  ],
+  "glimpses": "glimpses.spec.json",
+  "states": [
+    {
+      "id": "hook",
+      "at": 0,
+      "shape": {
+        "kind": "frame",
+        "fill": "ink"
+      },
+      "content": {
+        "video": {
+          "presenter": {
+            "from": "يسألك مرضاك",
+            "to": "للبشرة"
+          },
+          "focus": [
+            0.5,
+            0.36
+          ],
+          "zoom": [
+            1,
+            1.08
+          ]
+        }
+      },
+      "kinetic": [
+        {
+          "on": "بالفعل",
+          "text": "يسألون بالفعل"
+        }
+      ]
+    },
+    {
+      "id": "asks",
+      "on": "ببتيدات النحاس",
+      "shape": {
+        "kind": "frame",
+        "fill": "ink"
+      },
+      "content": {
+        "video": {
+          "src": "hype-skin-glisten.mp4",
+          "focus": [
+            0.55,
+            0.52
+          ],
+          "zoom": [
+            1.25,
+            1.4
+          ]
+        }
+      },
+      "kinetic": [
+        {
+          "on": "ببتيدات النحاس",
+          "text": "ببتيدات النحاس"
+        },
+        {
+          "on": "والكولاجين",
+          "text": "الكولاجين"
+        },
+        {
+          "on": "وحقن التسمير",
+          "text": "حقن التسمير"
+        },
+        {
+          "on": "ومحفزات هرمون النمو",
+          "text": "محفزات هرمون النمو"
+        }
+      ]
+    },
+    {
+      "id": "problem",
+      "on": "تصل معظم ببتيدات البشرة",
+      "shape": {
+        "kind": "card",
+        "fill": "paper"
+      },
+      "kinetic": null,
+      "content": {
+        "kicker": "المشكلة",
+        "display": "تصل معظمها إلى عيادتك قبل أن تصل أدلتها."
+      }
+    },
+    {
+      "id": "title",
+      "on": "تقدم لك دورة الهرمونات والببتيدات للجلد",
+      "shape": {
+        "kind": "card",
+        "fill": "violet"
+      },
+      "content": {
+        "kicker": "أكاديمية هورمونالي",
+        "display": "الهرمونات والببتيدات للجلد"
+      },
+      "chips": [
+        {
+          "id": "ga",
+          "on": "مصنفة بحسب قوتها",
+          "text": "A",
+          "round": true,
+          "place": "below"
+        },
+        {
+          "id": "gb",
+          "on": "مصنفة بحسب قوتها",
+          "text": "B",
+          "round": true,
+          "place": "below"
+        },
+        {
+          "id": "gc",
+          "on": "مصنفة بحسب قوتها",
+          "text": "C",
+          "round": true,
+          "place": "below"
+        },
+        {
+          "id": "gd",
+          "on": "مصنفة بحسب قوتها",
+          "text": "D",
+          "round": true,
+          "place": "below"
+        }
+      ]
+    },
+    {
+      "id": "modules",
+      "on": "سبع وحدات قصيرة",
+      "shape": {
+        "kind": "panel",
+        "fill": "card"
+      },
+      "drop": [
+        "ga",
+        "gb",
+        "gc",
+        "gd"
+      ],
+      "list": {
+        "kicker": "سبع وحدات قصيرة",
+        "rows": [
+          {
+            "label": "هرمونات الجلد نفسه"
+          },
+          {
+            "label": "الهرمونات الجهازية"
+          },
+          {
+            "label": "الدهون والإنكريتينات"
+          },
+          {
+            "label": "ببتيدات المصفوفة"
+          },
+          {
+            "label": "الشعر والتصبغ"
+          },
+          {
+            "label": "هرمون النمو"
+          },
+          {
+            "label": "الأدلة والقواعد التنظيمية"
+          }
+        ]
+      }
+    },
+    {
+      "id": "m1",
+      "on": "هرمونات الجلد نفسه",
+      "indicator": {
+        "rows": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "m2",
+      "on": "والهرمونات الجهازية",
+      "indicator": {
+        "rows": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "m3",
+      "on": "والدهون والإنكريتينات",
+      "indicator": {
+        "rows": [
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "id": "m4",
+      "on": "وببتيدات المصفوفة",
+      "indicator": {
+        "rows": [
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "id": "m5",
+      "on": "والشعر والتصبغ",
+      "indicator": {
+        "rows": [
+          4,
+          4
+        ]
+      }
+    },
+    {
+      "id": "m6",
+      "on": "وهرمون النمو",
+      "indicator": {
+        "rows": [
+          5,
+          5
+        ]
+      }
+    },
+    {
+      "id": "m7",
+      "on": "والقواعد التنظيمية",
+      "indicator": {
+        "rows": [
+          6,
+          6
+        ]
+      }
+    },
+    {
+      "id": "sort",
+      "on": "ميّز التجارب السريرية",
+      "shape": {
+        "kind": "window",
+        "fill": "paper",
+        "w": 880,
+        "h": 1150,
+        "r": 40
+      },
+      "content": {
+        "video": {
+          "src": "../glimpses/trial-or-brochure.mp4",
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "zoom": [
+            1,
+            1.04
+          ]
+        }
+      }
+    },
+    {
+      "id": "audit",
+      "on": "وتعرّف على علامات التحذير",
+      "content": {
+        "video": {
+          "src": "../glimpses/audit-certificate.mp4",
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "zoom": [
+            1,
+            1.04
+          ]
+        }
+      }
+    },
+    {
+      "id": "case",
+      "on": "وتدرّب على المحادثات",
+      "content": {
+        "video": {
+          "src": "../glimpses/glow-case.mp4",
+          "focus": [
+            0.5,
+            0.56
+          ],
+          "zoom": [
+            1,
+            1.04
+          ]
+        }
+      }
+    },
+    {
+      "id": "country",
+      "on": "وفق قواعد بلدك",
+      "shape": {
+        "kind": "card",
+        "fill": "paper"
+      },
+      "content": {
+        "kicker": "ستة أطر تنظيمية",
+        "display": "بلدك أولاً."
+      },
+      "chips": [
+        {
+          "id": "us",
+          "on": "قواعد",
+          "text": "الولايات المتحدة",
+          "place": "below"
+        },
+        {
+          "id": "uk",
+          "on": "قواعد",
+          "text": "المملكة المتحدة",
+          "place": "below"
+        },
+        {
+          "id": "eu",
+          "on": "بلدك",
+          "text": "الاتحاد الأوروبي",
+          "place": "below"
+        },
+        {
+          "id": "pt",
+          "on": "بلدك",
+          "text": "البرتغال",
+          "place": "below"
+        },
+        {
+          "id": "br",
+          "on": "بلدك",
+          "text": "البرازيل",
+          "place": "below"
+        },
+        {
+          "id": "ae",
+          "on": "بلدك",
+          "text": "الإمارات",
+          "place": "below"
+        }
+      ]
+    },
+    {
+      "id": "proof",
+      "on": "أكثر من أربعمئة مصدر",
+      "shape": {
+        "kind": "frame",
+        "fill": "ink"
+      },
+      "content": {
+        "video": {
+          "src": "hype-skin-glisten-2.mp4",
+          "focus": [
+            0.5,
+            0.55
+          ],
+          "zoom": [
+            1.05,
+            1.2
+          ]
+        }
+      },
+      "kinetic": [
+        {
+          "on": "أربعمئة مصدر",
+          "text": "412 مصدراً"
+        },
+        {
+          "on": "وستة أطر تنظيمية",
+          "text": "6 أطر تنظيمية"
+        },
+        {
+          "on": "يراجعها طبيب",
+          "text": "مراجعة من قبل طبيب"
+        }
+      ],
+      "drop": [
+        "us",
+        "uk",
+        "eu",
+        "pt",
+        "br",
+        "ae"
+      ]
+    },
+    {
+      "id": "close",
+      "on": "كن الطبيب",
+      "shape": {
+        "kind": "frame",
+        "fill": "ink"
+      },
+      "content": {
+        "video": {
+          "presenter": {
+            "from": "كن الطبيب",
+            "to": "تثق بها"
+          },
+          "focus": [
+            0.5,
+            0.36
+          ],
+          "zoom": [
+            1.04,
+            1.1
+          ]
+        }
+      },
+      "kinetic": [
+        {
+          "on": "إجابات موثوقة",
+          "text": "إجابات موثوقة"
+        },
+        {
+          "on": "خدمة للعناية بالبشرة",
+          "text": "خدمة للعناية بالبشرة تثق بها"
+        }
+      ]
+    },
+    {
+      "id": "end",
+      "on": "سجّل اليوم",
+      "shape": {
+        "kind": "card",
+        "fill": "violet"
+      },
+      "kinetic": null,
+      "content": {
+        "kicker": "سجّل اليوم",
+        "display": "الهرمونات والببتيدات للجلد"
+      },
+      "chips": [
+        {
+          "id": "url",
+          "on": "أكاديمية هورمونالي",
+          "text": "hormonaly.perceptors.ai",
+          "place": "below"
+        }
+      ]
+    }
+  ],
+  "localization": {
+    "sourceSha256": "843105eb2f04b1612d74528a6af4467b7591db0819cc9d580341b4c365641aec",
+    "locale": "ar-AE",
+    "status": "draft",
+    "structurePreserved": true
+  }
+}

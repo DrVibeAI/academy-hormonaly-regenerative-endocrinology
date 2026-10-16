@@ -1,0 +1,50 @@
+[
+  {
+    "film": "hype",
+    "states": 19,
+    "structure": "identical",
+    "status": "draft"
+  },
+  {
+    "film": "m01-opener",
+    "states": 10,
+    "structure": "identical",
+    "status": "draft"
+  },
+  {
+    "film": "m02-opener",
+    "states": 12,
+    "structure": "identical",
+    "status": "draft"
+  },
+  {
+    "film": "m03-opener",
+    "states": 10,
+    "structure": "identical",
+    "status": "draft"
+  },
+  {
+    "film": "m04-opener",
+    "states": 8,
+    "structure": "identical",
+    "status": "draft"
+  },
+  {
+    "film": "m05-opener",
+    "states": 8,
+    "structure": "identical",
+    "status": "draft"
+  },
+  {
+    "film": "m06-opener",
+    "states": 9,
+    "structure": "identical",
+    "status": "draft"
+  },
+  {
+    "film": "m07-opener",
+    "states": 21,
+    "structure": "identical",
+    "status": "draft"
+  }
+]

@@ -1,0 +1,281 @@
+{
+  "format": "cinematic/1",
+  "id": "m05-opener",
+  "title": "مقدمة الوحدة 05 — هرمونات وببتيدات الجلد",
+  "note": "Module opener in the cinematic lane (docs/motion-contract.md § 10b), same look and rules as the Module 1 opener. Script assembled only from approved text (sources below); presenter lines pass the course script review; draft media until the media preview.",
+  "script": {
+    "text": "يصل طلبان إلى عيادات التجميل قبل وقت طويل من توفر الأدلة عليهما: ببتيد لإعادة إنبات الشعر، وحقنة لاكتساب السمرة. ستتعرف عبر ثلاثة دروس على كيفية اعتماد جريب الشعر ونظام التصبغ على هرمونات الجلد الخاصة، ولماذا حصل أحد أدوية الميلانوكورتين على الاعتماد بينما لا يحظى نظيره في السوق الرمادية بأي ترخيص، وكيفية تقييم ببتيدات الشعر التي يحضرها المرضى إليك. يتصرف كل جريب شعر وكأنه غدة صغيرة؛ فعندما يُبقي الباحثون جريبات فروة الرأس البشرية حية في مزرعة نسيجية، تستجيب هذه الجريبات للهرمون المطلق لموجهة القشرة تماماً كما تفعل الغدتان النخامية والكظرية. فهي تصنع ACTH وalpha-MSH، وتفرز الكورتيزول، وتعمل الإشارات الشبيهة بالكورتيزول عبر الارتجاع لتثبيط هذا التحفيز. في فروة الرأس، يحوّل إنزيم يُدعى 5-ألفا-ريدوكتاز التستوستيرون إلى ديهيدروتستوستيرون، وفي الجريبات المعرضة وراثياً يدفع هذا الهرمون الانكماش التدريجي الكامن وراء تساقط الشعر النمطي. تستند معظم هذه البيولوجيا إلى أنسجة أُبقيت حية خارج الجسم، لذا تعامل معها بوصفها آلية العمل، أي تفسيراً لاحتمال أهمية هذا الأمر لدى المرضى.",
+    "sources": [
+      "m5-p01 body, sentences 1, 2",
+      "m5-p02 audioScript, sentences 1, 2, 3, 5, 8"
+    ],
+    "locale": "ar-AE"
+  },
+  "voice": {
+    "provider": "elevenlabs",
+    "voice_id": "ZCXYdzd5Evtsll2EdoCi",
+    "name": "Yousef — licensed Arabic narration voice",
+    "preset": "engaging"
+  },
+  "presenter": {
+    "look": "2daeb4c1c74e491c89314a4e7dcd4879",
+    "engine": "avatar_v",
+    "resolution": "4k",
+    "name": "HeyGen stock avatar \"Iris\" (licensed)",
+    "disclosure": {
+      "en": "Presented by a digital avatar (AI-generated presenter and voice).",
+      "ar-AE": "يقدّم هذا الفيديو مقدّم افتراضي وصوت مولّدان بالذكاء الاصطناعي."
+    }
+  },
+  "music": {
+    "src": "m05-score.mp3",
+    "lufs": -22
+  },
+  "chrome": {
+    "kicker": "الوحدة 05 · الجريب، التصبغ، والميلانوكورتينات"
+  },
+  "lead": 0.12,
+  "assets": [
+    {
+      "src": "m5-follicle.png",
+      "kind": "image",
+      "candidates": 2,
+      "prompt": "Accurate scientific medical illustration: a single growing human scalp hair follicle in longitudinal section, centred with generous empty margins, like a textbook plate: the hair shaft, the inner and outer root sheaths, the sebaceous gland, and at the base the onion-shaped hair bulb cupping the dermal papilla. Along the outer root sheath, tiny violet signal molecules are released, travel down to the bulb, and a fine dotted violet loop returns from the bulb back up to the outer root sheath."
+    },
+    {
+      "src": "m5-miniaturisation.png",
+      "kind": "image",
+      "candidates": 2,
+      "prompt": "Accurate scientific medical illustration: three human scalp hair follicles in longitudinal section standing side by side at the same scale, centred with generous empty margins, showing progressive miniaturisation from left to right: a large deep terminal follicle with a thick pigmented hair, a mid-sized follicle with a thinner hair, and a small shallow miniaturised follicle with a fine, short, pale vellus-like hair. Same dermis and scalp surface line across all three."
+    },
+    {
+      "src": "m05-score.mp3",
+      "kind": "music",
+      "prompt": "Instrumental underscore for a 78-second medical education film opener about the hair follicle as a small gland: calm, precise and modern; soft felt piano motif over warm analogue synth pads, a light pulse at 96 BPM entering after 10 seconds, gentle build to a lift two thirds of the way through, resolving softly at the end; documentary feel, same palette as the series, no vocals, no heavy drums, leave space for narration."
+    }
+  ],
+  "states": [
+    {
+      "id": "intro",
+      "shape": {
+        "kind": "frame",
+        "fill": "ink"
+      },
+      "content": {
+        "video": {
+          "presenter": {
+            "from": "يصل طلبان إلى",
+            "to": "لاكتساب السمرة"
+          },
+          "focus": [
+            0.5,
+            0.36
+          ],
+          "zoom": [
+            1,
+            1.07
+          ]
+        }
+      },
+      "kinetic": [
+        {
+          "on": "لإعادة إنبات الشعر",
+          "text": "ببتيد لإعادة إنبات الشعر"
+        },
+        {
+          "on": "لاكتساب السمرة",
+          "text": "حقنة لاكتساب السمرة"
+        }
+      ],
+      "at": 0
+    },
+    {
+      "id": "lessons",
+      "on": "عبر ثلاثة دروس",
+      "shape": {
+        "kind": "panel",
+        "fill": "card"
+      },
+      "list": {
+        "kicker": "ثلاثة دروس",
+        "rows": [
+          {
+            "label": "هرمونات الجريب والتصبغ",
+            "marks": 0
+          },
+          {
+            "label": "المعتمد مقابل السوق الرمادية",
+            "marks": 0
+          },
+          {
+            "label": "تقييم ببتيدات الشعر",
+            "marks": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "l1",
+      "on": "جريب الشعر ونظام التصبغ",
+      "indicator": {
+        "rows": [
+          0,
+          0
+        ],
+        "tag": null
+      }
+    },
+    {
+      "id": "l2",
+      "on": "أحد أدوية الميلانوكورتين",
+      "indicator": {
+        "rows": [
+          1,
+          1
+        ],
+        "tag": null
+      }
+    },
+    {
+      "id": "l3",
+      "on": "وكيفية تقييم",
+      "indicator": {
+        "rows": [
+          2,
+          2
+        ],
+        "tag": null
+      }
+    },
+    {
+      "id": "follicle",
+      "on": "يتصرف كل جريب شعر",
+      "shape": {
+        "kind": "window",
+        "fill": "paper",
+        "h": 1280
+      },
+      "kinetic": null,
+      "content": {
+        "image": {
+          "src": "m5-follicle.png",
+          "regions": {
+            "sheath": "the outer root sheath along the side of the follicle where violet molecules are released",
+            "bulb": "the onion-shaped hair bulb and dermal papilla at the base",
+            "loop": "the dotted violet loop returning from the bulb",
+            "follicle": "the whole hair follicle, from the skin surface down to the bulb at its base"
+          },
+          "focus": [
+            {
+              "on": "غدة صغيرة",
+              "region": "bulb",
+              "label": "غدة صغيرة"
+            },
+            {
+              "on": "حية في مزرعة نسيجية",
+              "zoom": 1
+            },
+            {
+              "on": "للهرمون المطلق لموجهة القشرة",
+              "region": "follicle",
+              "label": "CRH"
+            },
+            {
+              "on": "ACTH وalpha-MSH",
+              "region": "follicle",
+              "label": "ACTH · α-MSH · كورتيزول",
+              "zoom": 1.1
+            },
+            {
+              "on": "عبر الارتجاع",
+              "region": "loop",
+              "label": "ارتجاع"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dht",
+      "on": "في فروة الرأس",
+      "shape": {
+        "kind": "window",
+        "fill": "paper",
+        "h": 1000
+      },
+      "kinetic": null,
+      "content": {
+        "image": {
+          "src": "m5-miniaturisation.png",
+          "regions": {
+            "terminal": "the large deep follicle on the left with a thick hair",
+            "small": "the small shallow follicle on the right with a fine short hair"
+          },
+          "focus": [
+            {
+              "on": "5-ألفا-ريدوكتاز",
+              "region": "terminal",
+              "label": "5α-ريدوكتاز"
+            },
+            {
+              "on": "إلى ديهيدروتستوستيرون",
+              "region": "terminal",
+              "label": "تستوستيرون ← DHT"
+            },
+            {
+              "on": "المعرضة وراثياً",
+              "region": "small",
+              "label": "جريبات معرضة وراثياً"
+            },
+            {
+              "on": "الانكماش التدريجي",
+              "region": "small",
+              "label": "الانكماش التدريجي",
+              "zoom": 1.3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "close",
+      "shape": {
+        "kind": "frame",
+        "fill": "ink"
+      },
+      "content": {
+        "video": {
+          "presenter": {
+            "from": "تستند معظم هذه البيولوجيا",
+            "to": "لدى المرضى"
+          },
+          "focus": [
+            0.5,
+            0.36
+          ],
+          "zoom": [
+            1.04,
+            1.1
+          ]
+        }
+      },
+      "kinetic": [
+        {
+          "on": "خارج الجسم",
+          "text": "أنسجة خارج الجسم"
+        },
+        {
+          "on": "تعامل معها بوصفها آلية العمل",
+          "text": "تعامل معها كآلية عمل"
+        }
+      ],
+      "on": "تستند معظم هذه البيولوجيا"
+    }
+  ],
+  "localization": {
+    "sourceSha256": "2010fc54569e41243943ed89ba982ffbb30e0eeeddbc680d8311bba512b8da23",
+    "locale": "ar-AE",
+    "status": "draft",
+    "structurePreserved": true
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "createdAt": "2026-10-16T01:59:15.287Z",
+  "approvalStatus": "draft",
+  "published": false,
+  "films": [
+    {
+      "id": "m01-opener",
+      "uri": "assets/hormones-peptides-skin/ar-AE/video/m01-opener.mp4",
+      "posterUri": "assets/hormones-peptides-skin/ar-AE/video/m01-opener-poster.jpg",
+      "captionUri": "assets/hormones-peptides-skin/ar-AE/video/m01-opener.vtt",
+      "durationSeconds": 113.033333,
+      "checksum": "sha256:9355c3c6792e2d4d4bb11ac1d4fb2704b38b9836acf476946b4ceed0eeeca687",
+      "sourceRender": "media/m01/m01-opener.ar.mp4",
+      "assetIds": [
+        "asset-hps-m01-opener-ar",
+        "asset-hps-m01-opener-ar-poster",
+        "asset-hps-m01-opener-ar-captions"
+      ]
+    },
+    {
+      "id": "m02-opener",
+      "uri": "assets/hormones-peptides-skin/ar-AE/video/m02-opener.mp4",
+      "posterUri": "assets/hormones-peptides-skin/ar-AE/video/m02-opener-poster.jpg",
+      "captionUri": "assets/hormones-peptides-skin/ar-AE/video/m02-opener.vtt",
+      "durationSeconds": 124.55,
+      "checksum": "sha256:d91b80a9ae6ed929a8339bd305e4bec6d1375685c3215687fdbc0cd97c09ab2e",
+      "sourceRender": "media/m02/m02-opener.ar.mp4",
+      "assetIds": [
+        "asset-hps-m02-opener-ar",
+        "asset-hps-m02-opener-ar-poster",
+        "asset-hps-m02-opener-ar-captions"
+      ]
+    },
+    {
+      "id": "m03-opener",
+      "uri": "assets/hormones-peptides-skin/ar-AE/video/m03-opener.mp4",
+      "posterUri": "assets/hormones-peptides-skin/ar-AE/video/m03-opener-poster.jpg",
+      "captionUri": "assets/hormones-peptides-skin/ar-AE/video/m03-opener.vtt",
+      "durationSeconds": 106.066667,
+      "checksum": "sha256:bd4f83105eaa906db204cfc18f13d77e0d9610be2a2e2a150c7f298be5960317",
+      "sourceRender": "media/m03/m03-opener.ar.mp4",
+      "assetIds": [
+        "asset-hps-m03-opener-ar",
+        "asset-hps-m03-opener-ar-poster",
+        "asset-hps-m03-opener-ar-captions"
+      ]
+    },
+    {
+      "id": "m04-opener",
+      "uri": "assets/hormones-peptides-skin/ar-AE/video/m04-opener.mp4",
+      "posterUri": "assets/hormones-peptides-skin/ar-AE/video/m04-opener-poster.jpg",
+      "captionUri": "assets/hormones-peptides-skin/ar-AE/video/m04-opener.vtt",
+      "durationSeconds": 102.3,
+      "checksum": "sha256:fd810e0a86ca809ade7d83e1bd577ccec312cec78f6fdc540b13e0b3599e96b1",
+      "sourceRender": "media/m04/m04-opener.ar.mp4",
+      "assetIds": [
+        "asset-hps-m04-opener-ar",
+        "asset-hps-m04-opener-ar-poster",
+        "asset-hps-m04-opener-ar-captions"
+      ]
+    },
+    {
+      "id": "m05-opener",
+      "uri": "assets/hormones-peptides-skin/ar-AE/video/m05-opener.mp4",
+      "posterUri": "assets/hormones-peptides-skin/ar-AE/video/m05-opener-poster.jpg",
+      "captionUri": "assets/hormones-peptides-skin/ar-AE/video/m05-opener.vtt",
+      "durationSeconds": 119.1,
+      "checksum": "sha256:699f0be7fd36103fffd34c5e332aaeb3f3902a6171014c8af7bc968268195405",
+      "sourceRender": "media/m05/m05-opener.ar.mp4",
+      "assetIds": [
+        "asset-hps-m05-opener-ar",
+        "asset-hps-m05-opener-ar-poster",
+        "asset-hps-m05-opener-ar-captions"
+      ]
+    },
+    {
+      "id": "m06-opener",
+      "uri": "assets/hormones-peptides-skin/ar-AE/video/m06-opener.mp4",
+      "posterUri": "assets/hormones-peptides-skin/ar-AE/video/m06-opener-poster.jpg",
+      "captionUri": "assets/hormones-peptides-skin/ar-AE/video/m06-opener.vtt",
+      "durationSeconds": 133.35,
+      "checksum": "sha256:b4dd47046202af4b5c47bdebbd006179d7d7d7963f78b1bab313e5542c2b7cb4",
+      "sourceRender": "media/m06/m06-opener.ar.mp4",
+      "assetIds": [
+        "asset-hps-m06-opener-ar",
+        "asset-hps-m06-opener-ar-poster",
+        "asset-hps-m06-opener-ar-captions"
+      ]
+    },
+    {
+      "id": "m07-opener",
+      "uri": "assets/hormones-peptides-skin/ar-AE/video/m07-opener.mp4",
+      "posterUri": "assets/hormones-peptides-skin/ar-AE/video/m07-opener-poster.jpg",
+      "captionUri": "assets/hormones-peptides-skin/ar-AE/video/m07-opener.vtt",
+      "durationSeconds": 132.95,
+      "checksum": "sha256:7bae9cbe5d10093aedf5825af6ec030febc5abe8dfd7898ce29e4a2a74eeb5ae",
+      "sourceRender": "media/m07/m07-opener.ar.mp4",
+      "assetIds": [
+        "asset-hps-m07-opener-ar",
+        "asset-hps-m07-opener-ar-poster",
+        "asset-hps-m07-opener-ar-captions"
+      ]
+    },
+    {
+      "id": "hype",
+      "uri": "assets/hormones-peptides-skin/ar-AE/video/hype.mp4",
+      "posterUri": "assets/hormones-peptides-skin/ar-AE/video/hype-poster.jpg",
+      "captionUri": "assets/hormones-peptides-skin/ar-AE/video/hype.vtt",
+      "durationSeconds": 78.15,
+      "checksum": "sha256:d08ebf596967c7aee25aff1aa225c35aae906238f81a794a3fa9fb4a6c4178f1",
+      "sourceRender": "media/hype/hype.ar.mp4",
+      "assetIds": [
+        "asset-hps-hype-ar",
+        "asset-hps-hype-ar-poster",
+        "asset-hps-hype-ar-captions"
+      ]
+    }
+  ]
+}

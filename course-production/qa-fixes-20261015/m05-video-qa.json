@@ -1,0 +1,41 @@
+{
+  "model": "gemini-3.8-flash",
+  "mode": "video",
+  "video_engine": "files-api",
+  "reviewed_at": "2026-10-16T01:44:24.994Z",
+  "figure_truth": true,
+  "videos": [
+    {
+      "label": "m05-opener.ar.mp4",
+      "file": "/Users/omar/DrVibe/worktrees/hormonaly-qa-20261015/media/m05/m05-opener.ar.mp4",
+      "summary": "Video presentation generally aligns with narration, but contains frontal face footage contrary to blueprint specifications.",
+      "findings": [
+        {
+          "time": 1,
+          "severity": "warn",
+          "code": "footage",
+          "note": "Identifiable frontal face visible in presenter footage.",
+          "model": "gemini-3.8-flash"
+        },
+        {
+          "time": 101,
+          "severity": "warn",
+          "code": "footage",
+          "note": "Identifiable frontal face visible during closing segment.",
+          "model": "gemini-3.8-flash"
+        }
+      ],
+      "checks": {
+        "figures_expected": 2,
+        "figures_on_time": 2,
+        "frozen_frames": 0,
+        "artifacts": 0,
+        "narration_language_ok": true
+      },
+      "timeline": [],
+      "usage": [
+        14868
+      ]
+    }
+  ]
+}
