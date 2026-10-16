@@ -1,0 +1,58 @@
+{
+  "schema": "perceptor.sharing-card/2",
+  "renderer": {
+    "platform": "darwin",
+    "sharp": "0.35.5",
+    "vips": "8.18.7",
+    "titleFont": "Helvetica Neue",
+    "bodyFont": "Helvetica Neue",
+    "fontResolution": "system-fontconfig"
+  },
+  "width": 1200,
+  "height": 630,
+  "format": "jpeg",
+  "bytes": 134542,
+  "quality": 94,
+  "imageSha256": "8d9e70f491657d228d35dcd8d7092ba8aac38cc867fa1b1a5c76fafc29b93546",
+  "svgSha256": "3ccd2560988d58216fe0edf661c293be1f86b60741d7b0cf57bb5bc9beacc433",
+  "specSha256": "526a571aa23ff421bf751b03d3a9eaede2ac9affc7b7dba52ddb118438a47004",
+  "sources": [
+    {
+      "role": "visual",
+      "path": "source-ae9c3c729fd8834a.jpg",
+      "sha256": "ae9c3c729fd8834af9138538b164f620fb8bd1fb03a9bc0e4ecc9c711ed7ac69",
+      "source": "Existing course/brand artwork: hormonaly-inputs/public/assets/hormones-peptides-skin/home/hero-skin.jpg",
+      "rights": "Existing owner-supplied or course-produced public artwork"
+    },
+    {
+      "role": "logo",
+      "path": "source-84ed83c73582d88b.png",
+      "sha256": "84ed83c73582d88b0686696795f6a8cff127a60e455ab9b017191efd3a1ca763"
+    }
+  ],
+  "layout": {
+    "headingLines": [
+      "Skin, hormones",
+      "& peptides."
+    ],
+    "titleSize": 76,
+    "subtitleLines": [
+      "Evidence for clinical practice."
+    ],
+    "titleBottom": 378,
+    "textContrast": 11.69,
+    "safeInset": 72,
+    "visualKind": "photograph",
+    "visualFit": "cover",
+    "direction": "ltr"
+  },
+  "review": {
+    "required": [
+      "full-size",
+      "320px-message-preview",
+      "center-crop",
+      "source-rights"
+    ],
+    "status": "rendered-awaiting-visual-review"
+  }
+}
