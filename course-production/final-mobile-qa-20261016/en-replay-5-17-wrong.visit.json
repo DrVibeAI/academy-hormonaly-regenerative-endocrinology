@@ -1,0 +1,11 @@
+{
+  "label": "en-replay-5-17-wrong",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"5\"\n  - progressbar \"Step 17 of 25\"\n  - main:\n    - paragraph:\n      - text: Quick check\n    - heading \"'The approved one is the same thing.'\" [level=2]\n    - paragraph: A patient says, 'Afamelanotide is approved, so Melanotan II is basically the same drug.' What is the accurate reply?\n    - status: Practice mode · your completed result is saved.\n    - button \"A Yes. They act on the same receptor, so the approval covers both.\":\n      - generic: A\n      - paragraph: Yes. They act on the same receptor, so the approval covers both.\n    - button \"B They are different molecules. Afamelanotide is approved only for erythropoietic protoporphyria; Melanotan II acts on several receptors, is approved nowhere, and is linked in case reports to changing moles and priapism.\":\n      - generic: B\n      - paragraph: They are different molecules. Afamelanotide is approved only for erythropoietic protoporphyria; Melanotan II acts on several receptors, is approved nowhere, and is linked in case reports to changing moles and priapism.\n    - button \"C Melanotan II is safe if it comes from a reputable seller.\" [active]:\n      - generic: C\n      - paragraph: Melanotan II is safe if it comes from a reputable seller.\n    - button \"Back to saved result\"\n    - strong: Not yet.\n    - paragraph: See why each option stands or falls, then choose again.\n    - generic \"See why and review the evidence\"\n  - button \"Previous tap\":\n  - strong: \"17\"\n  - generic: of 25\n  - button \"Next tap\":\n    - generic: Try again",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/5/17",
+    "width": 390
+  }
+}

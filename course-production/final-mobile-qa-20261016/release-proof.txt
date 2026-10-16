@@ -1,0 +1,17 @@
+→ provenance: runtime b670943ceda5 (live)
+→ provenance: academy a82c66b96355 (live)
+→ provenance: runtime b670943ceda5 (live)
+→ provenance: academy a82c66b96355 (live)
+Updating traffic...
+Routing traffic............................done
+Done.
+URL: https://academy-hormonaly-limjs7pr6a-uc.a.run.app
+Traffic:
+  0%   academy-hormonaly-00069-7bp
+         sharing-candidate: https://sharing-candidate---academy-hormonaly-limjs7pr6a-uc.a.run.app
+  100% academy-hormonaly-00080-fm4
+         candidate:         https://candidate---academy-hormonaly-limjs7pr6a-uc.a.run.app
+Promoted academy-hormonaly-00080-fm4 to 100% traffic
+review hub: hormonaly does not license GCLS accreditation — not published
+
+Post-promotion checks: /_health {"app":"ok","db":"ok"}; unauthenticated /api/certificate HTTP 401.

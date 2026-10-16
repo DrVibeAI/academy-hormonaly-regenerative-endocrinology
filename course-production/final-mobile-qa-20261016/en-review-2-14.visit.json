@@ -1,0 +1,11 @@
+{
+  "label": "en-review-2-14",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"2\"\n  - progressbar \"Step 14 of 25\"\n  - main:\n    - paragraph:\n      - text: Human evidence\n    - heading \"Biopsy gains, mirror results.\" [level=2]\n    - paragraph: Hormone therapy has two kinds of trial behind it. Small trials measure the dermis; larger trials measure the face. They point in different directions, so read them separately. The Aesthetic & Regenerative Endocrinology guide grades the skin benefit B; the North American Menopause Society rates the same evidence 'limited or inconsistent'. This course grades the structural gains C and teaches the negative wrinkle trials alongside them.\n    - strong: Systemic HT · skin thickness and collagen\n    - generic: Increased · GRADE C\n    - generic: Two small RCTs (60 and 41 women) measured hip and upper-arm skin\n    - strong: Systemic HT · facial wrinkles\n    - generic: No difference · GRADE B\n    - generic: 485 women for 48 weeks on low-dose therapy; a four-year trial in recently menopausal women also found no difference\n    - strong: Pooled analysis (2023)\n    - generic: Positive, heterogeneous · GRADE C\n    - generic: Small studies, some non-randomized, varying widely; its authors do not propose hormone therapy as a skin treatment\n    - strong: Topical estrogen on the face\n    - generic: Small and mixed · GRADE C\n    - generic: One 24-week RCT improved thickness and fine lines; a biopsy study found no collagen response in photoaged facial skin\n    - strong: Topical estrogen · acute wounds\n    - generic: Faster healing · GRADE C\n    - generic: A small randomized study in healthy older adults\n    - paragraph: A thicker dermis on biopsy and a younger-looking face are different outcomes. Ask which one a trial measured.\n  - button \"Previous tap\":\n  - strong: \"14\"\n  - generic: of 25\n  - button \"Next tap\" [active]:\n    - generic: Next",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/2/14",
+    "width": 390
+  }
+}

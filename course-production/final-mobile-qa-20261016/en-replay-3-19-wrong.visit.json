@@ -1,0 +1,11 @@
+{
+  "label": "en-replay-3-19-wrong",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"3\"\n  - progressbar \"Step 19 of 26\"\n  - main:\n    - paragraph:\n      - text: Quick check\n    - heading \"What the evidence shows.\" [level=2]\n    - paragraph: Which statement about facial change on semaglutide or tirzepatide matches the evidence as of September 2026?\n    - status: Practice mode · your completed result is saved.\n    - button \"A Randomized trials show these drugs age facial skin directly.\":\n      - generic: A\n      - paragraph: Randomized trials show these drugs age facial skin directly.\n    - button \"B Facial volume loss is reported in small observational studies and tracks the amount of weight lost; no randomized trial has measured it.\":\n      - generic: B\n      - paragraph: Facial volume loss is reported in small observational studies and tracks the amount of weight lost; no randomized trial has measured it.\n    - button \"C Facial volume loss is a labelled adverse reaction in the US prescribing information.\" [active]:\n      - generic: C\n      - paragraph: Facial volume loss is a labelled adverse reaction in the US prescribing information.\n    - button \"Back to saved result\"\n    - strong: Not yet.\n    - paragraph: See why each option stands or falls, then choose again.\n    - generic \"See why and review the evidence\"\n  - button \"Previous tap\":\n  - strong: \"19\"\n  - generic: of 26\n  - button \"Next tap\":\n    - generic: Try again",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/3/19",
+    "width": 390
+  }
+}

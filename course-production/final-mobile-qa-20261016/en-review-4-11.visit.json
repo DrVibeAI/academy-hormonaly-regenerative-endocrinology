@@ -1,0 +1,11 @@
+{
+  "label": "en-review-4-11",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"4\"\n  - progressbar \"Step 11 of 25\"\n  - main:\n    - paragraph:\n      - text: Practice\n    - heading \"Three families, three premises\" [level=2]\n    - paragraph: The three families that fill the cosmetic and supplement shelves, and what each is meant to do.\n    - strong: What is each one meant to do?\n    - paragraph: Tap each peptide family in the picture.\n    - generic: 3/3\n    - group \"What is each one meant to do?\":\n      - button \"Signal peptide\": \"1\"\n      - button \"SNAP-25 mimic\": \"2\"\n      - button \"Oral collagen peptides\": \"3\"\n    - strong: Oral collagen peptides\n    - paragraph: Hydrolysed collagen, swallowed rather than applied, is sold as a supplement, with more randomized trials than any topical peptide and the clearest funding problem.\n    - status:\n      - paragraph: \"'Make more matrix', 'relax the line' and the supplement aisle: three premises, and for all three the question that matters most is who funded the trials.\"\n    - button \"Practice again\"\n  - button \"Previous tap\":\n  - strong: \"11\"\n  - generic: of 25\n  - button \"Next tap\":\n    - generic: Next",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/4/11",
+    "width": 390
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "label": "en-review-6-22",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"6\"\n  - progressbar \"Step 22 of 25\"\n  - main:\n    - paragraph:\n      - text: Practice\n    - heading \"A clinic page, read line by line.\" [level=2]\n    - paragraph: Separate the physiology from the promise.\n    - region \"Physiology or promise?\":\n      - paragraph: A fictional clinic page for a growth-hormone peptide. Find the lines the evidence does not support.\n      - strong: 4/4\n      - group \"Inspect the document\":\n        - button \"Growth hormone and IGF-1 fall steadily from early adulthood.\"\n        - button \"If your IGF-1 is below the range for a 30-year-old, your body needs topping up.\" [pressed]\n        - button \"In laboratory studies, growth hormone acts on dermal fibroblasts and supports collagen synthesis.\"\n        - button \"Our CJC-1295 and ipamorelin injections are clinically proven to thicken skin.\" [pressed]\n        - button \"Tesamorelin, a peptide on the same axis, is FDA-approved.\"\n        - button \"Our blend works the same way, so it carries the same clinical backing.\" [pressed]\n        - button \"It is natural and free of side-effects, because it only releases your own growth hormone.\" [pressed]\n      - status: Three lines are real endocrinology; the other four borrow it for a promise.\n    - button \"Practice again\"\n  - button \"Previous tap\":\n  - strong: \"22\"\n  - generic: of 25\n  - button \"Next tap\":\n    - generic: Next",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/6/22",
+    "width": 390
+  }
+}

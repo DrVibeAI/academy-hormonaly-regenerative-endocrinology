@@ -1,0 +1,11 @@
+{
+  "label": "en-replay-2-24",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"2\"\n  - progressbar \"Step 24 of 25\"\n  - main:\n    - paragraph:\n      - text: Quick check\n    - heading \"Hair removal, or referral?\" [level=2]\n    - paragraph: A 31-year-old wants laser hair removal for coarse hair on her chin and chest that appeared over four months. Her voice has deepened. What comes first?\n    - status: Practice mode · your completed result is saved.\n    - button \"A Start the laser now and review her in three months.\" [disabled]:\n      - generic: A\n      - paragraph: Start the laser now and review her in three months.\n    - button \"B Urgent endocrine assessment for an androgen-secreting tumour, before any cosmetic treatment.\" [disabled]:\n      - generic: B\n      - paragraph: Urgent endocrine assessment for an androgen-secreting tumour, before any cosmetic treatment.\n    - button \"C Treat it as polycystic ovary syndrome and combine laser with a topical cream.\" [disabled]:\n      - generic: C\n      - paragraph: Treat it as polycystic ovary syndrome and combine laser with a topical cream.\n    - button \"Practice again\"\n    - button \"Back to saved result\"\n    - strong: Correct.\n    - paragraph: Speed and virilization change the route.\n    - generic \"See why and review the evidence\" [active]\n    - paragraph:\n      - generic: A\n      - text: Rapid onset with virilization raises the likelihood of an androgen-secreting tumour; hair removal does nothing about it.\n    - paragraph:\n      - generic: B\n      - text: Correct. Rapid progression and virilization are the red flags in the Endocrine Society guideline, and the guide calls this the one finding that demands urgent work-up.\n    - paragraph:\n      - generic: C\n      - text: Rapid onset with a deepening voice is outside the usual picture, and a tumour needs excluding before any label is attached.\n  - button \"Previous tap\":\n  - strong: \"24\"\n  - generic: of 25\n  - button \"Next tap\":\n    - generic: Continue",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/2/24",
+    "width": 390
+  }
+}

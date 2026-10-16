@@ -1,0 +1,11 @@
+{
+  "label": "live-final-cover-en-3-320",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\" [active]:\n    - generic: \"3\"\n  - progressbar \"Step 1 of 26\"\n  - main:\n    - img \"Hormonaly\"\n    - generic: Academy\n    - paragraph: Module 03 · Fat, incretins and the ageing face\n    - heading \"The face changes when the fat does.\" [level=2]\n    - paragraph: Facial shape depends on fat as much as on collagen. In three lessons you will separate what is known about the skin's own fat, sugar damage to the dermis, weight-loss drugs and the gut from what is still mechanism, marketing or an open question.\n    - list:\n      - listitem: 3.1 Dermal fat and sugar damage to collagen\n      - listitem: 3.2 Semaglutide, tirzepatide and the changing face\n      - listitem: 3.3 The gut barrier, endotoxaemia and inflammaging\n    - generic: 42 min\n    - paragraph: Presented by a digital avatar (AI-generated presenter and voice).\n  - button \"Previous tap\" [disabled]:\n  - strong: \"1\"\n  - generic: of 26\n  - button \"Next tap\":\n    - generic: Next",
+  "metrics": {
+    "height": 740,
+    "media": [],
+    "scrollWidth": 320,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/3/1",
+    "width": 320
+  }
+}

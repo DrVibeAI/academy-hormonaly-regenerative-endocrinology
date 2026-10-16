@@ -1,0 +1,11 @@
+{
+  "label": "en-review-3-22",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"3\"\n  - progressbar \"Step 22 of 26\"\n  - main:\n    - paragraph:\n      - text: Sort the toolkit\n    - heading \"What has been tested on skin?\" [level=2]\n    - strong: What stands behind it?\n    - paragraph: \"One at a time: what has actually been tested?\"\n    - generic: 6/6\n    - strong: 4/6 on the first try\n    - list:\n      - generic: Probiotic capsules → Tested on skin in randomized trials\n      - generic: Rifaximin for rosacea with bacterial overgrowth → Tested on skin in randomized trials\n      - generic: Tirzepatide added to a psoriasis biologic → Tested on skin in randomized trials\n      - generic: A high-fibre, plant-rich diet → Tested in people, not on skin\n      - generic: Akkermansia capsules → Tested in people, not on skin\n      - generic: \"A 'leaky gut' stack: L-glutamine, zinc carnosine, BPC-157 → Little or no human outcome data\"\n    - status:\n      - paragraph: Six placed. Three have skin trials, each small, single or sponsor-run; two have human data without skin outcomes; one has none.\n    - button \"Practice again\"\n    - complementary \"Regulatory status\":\n      - generic \"Regulatory status by country (4)\"\n    - generic \"See the full model\" [active]\n  - button \"Previous tap\":\n  - strong: \"22\"\n  - generic: of 26\n  - button \"Next tap\":\n    - generic: Next",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/3/22",
+    "width": 390
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "label": "en-review-1-12",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"1\"\n  - progressbar \"Step 12 of 25\"\n  - main:\n    - paragraph:\n      - text: What the atlas is\n    - heading \"Prediction, in the authors' own words.\" [level=2]\n    - generic \"379\": \"367\"\n    - generic: hormone and receptor genes read as RNA, cell by cell\n    - paragraph: Fei, Huang-Doran et al., Science 2026 · about 14 million cells and nuclei · 47 human tissues\n    - generic: It means\n    - paragraph: The atlas shows which skin cells carry the RNA to make or sense a hormone. That is a well-founded hypothesis about where to look.\n    - generic: It does not mean\n    - paragraph: It does not show that a skin cell secretes a hormone, how much, or that the hormone acts there. A receptor gene on the map is not evidence that a product aimed at it works.\n    - generic \"Context and nuance\" [active]\n  - button \"Previous tap\":\n  - strong: \"12\"\n  - generic: of 25\n  - button \"Next tap\":\n    - generic: Next",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/1/12",
+    "width": 390
+  }
+}

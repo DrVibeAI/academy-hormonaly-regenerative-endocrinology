@@ -1,0 +1,11 @@
+{
+  "label": "en-replay-3-25-wrong",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"3\"\n  - progressbar \"Step 25 of 26\"\n  - main:\n    - paragraph:\n      - text: Quick check\n    - heading \"The zonulin test.\" [level=2]\n    - paragraph: A patient asks for a zonulin blood test to prove that her rosacea comes from a leaky gut. What is the most accurate reply?\n    - status: Practice mode · your completed result is saved.\n    - button \"A The test will show whether her gut barrier is causing the rosacea.\":\n      - generic: A\n      - paragraph: The test will show whether her gut barrier is causing the rosacea.\n    - 'button \"B The test is unreliable and would not change care: treat the rosacea on its own evidence, and assess any gut symptoms clinically.\"':\n      - generic: B\n      - paragraph: \"The test is unreliable and would not change care: treat the rosacea on its own evidence, and assess any gut symptoms clinically.\"\n    - button \"C Rosacea has nothing to do with the gut, so there is nothing to discuss.\" [active]:\n      - generic: C\n      - paragraph: Rosacea has nothing to do with the gut, so there is nothing to discuss.\n    - button \"Back to saved result\"\n    - strong: Not yet.\n    - paragraph: See why each option stands or falls, then choose again.\n    - generic \"See why and review the evidence\"\n  - button \"Previous tap\":\n  - strong: \"25\"\n  - generic: of 26\n  - button \"Next tap\":\n    - generic: Try again",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/3/25",
+    "width": 390
+  }
+}

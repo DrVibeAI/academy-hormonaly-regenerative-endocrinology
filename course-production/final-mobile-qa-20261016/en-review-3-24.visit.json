@@ -1,0 +1,11 @@
+{
+  "label": "en-review-3-24",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"3\"\n  - progressbar \"Step 24 of 26\"\n  - main:\n    - paragraph:\n      - text: Practice\n    - heading \"From a fatty meal to clear skin?\" [level=2]\n    - paragraph: A fictional sales page that mixes sound physiology with promises about skin.\n    - region \"Where does the page overreach?\":\n      - paragraph: A patient shows you this fictional sales page for a 'gut–skin reset' kit. Which sentences does the evidence not support?\n      - strong: 3/3\n      - group \"Inspect the document\":\n        - button \"Background inflammation rises slowly with age; researchers call it inflammaging.\"\n        - button \"In older adults, higher IL-6 and CRP predict frailty and death.\"\n        - button \"Studies show that a high-fat diet raises gut bacterial toxin in the blood, and that the toxin causes weight gain and insulin resistance.\" [pressed]\n        - button \"In a small study of healthy men, a single high-fat meal raised endotoxin in the blood within four hours.\"\n        - button \"That leak is what drives acne, eczema and rosacea.\" [pressed]\n        - button \"Seal the barrier with this kit and your skin clears from the inside out.\" [pressed]\n        - button \"A fibre-rich diet has strong evidence for heart and metabolic health.\"\n      - status: The supported sentences stop short of the skin; the leaps rest on a mouse result told as a human one and on skin benefits no study has shown.\n    - button \"Practice again\"\n  - button \"Previous tap\":\n  - strong: \"24\"\n  - generic: of 26\n  - button \"Next tap\":\n    - generic: Next",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/3/24",
+    "width": 390
+  }
+}

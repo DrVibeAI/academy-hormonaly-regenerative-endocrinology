@@ -1,0 +1,11 @@
+{
+  "label": "en-review-2-10",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"2\"\n  - progressbar \"Step 10 of 25\"\n  - main:\n    - paragraph:\n      - text: Quick check\n    - heading \"'Is this cortisol face?'\" [level=2]\n    - paragraph: A 38-year-old asks whether her puffy morning face is 'cortisol face'. She sleeps badly and drinks most evenings. What is the best next step?\n    - button \"A Recommend a consumer saliva cortisol panel to check her levels.\" [disabled]:\n      - generic: A\n      - paragraph: Recommend a consumer saliva cortisol panel to check her levels.\n    - button \"B Take a drug history, including creams and injections, and examine for bruising, plethora, proximal weakness and wide purple striae; refer if they are present.\" [disabled]:\n      - generic: B\n      - paragraph: Take a drug history, including creams and injections, and examine for bruising, plethora, proximal weakness and wide purple striae; refer if they are present.\n    - button \"C Reassure her that Cushing's syndrome is too rare to consider.\" [disabled]:\n      - generic: C\n      - paragraph: Reassure her that Cushing's syndrome is too rare to consider.\n    - button \"Practice again\"\n    - strong: Correct.\n    - paragraph: Drug history, discriminating features, then referral — in that order.\n    - generic \"See why and review the evidence\"\n    - paragraph:\n      - generic: A\n      - text: Testing is for multiple, progressive discriminating features; the guideline advises against widespread testing and random cortisol measures, and the guide calls consumer panels poorly validated.\n    - paragraph:\n      - generic: B\n      - text: Correct. Exclude exogenous glucocorticoids, then look for the discriminating features before anyone orders a test.\n    - paragraph:\n      - generic: C\n      - text: It is rare, but the guideline asks you to consider it when discriminating features cluster; reassurance comes after the history and examination.\n  - button \"Previous tap\":\n  - strong: \"10\"\n  - generic: of 25\n  - button \"Next tap\":\n    - generic: Continue",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/2/10",
+    "width": 390
+  }
+}

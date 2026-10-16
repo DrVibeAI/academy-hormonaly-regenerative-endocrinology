@@ -1,0 +1,11 @@
+{
+  "label": "en-replay-7-27-wrong",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"7\"\n  - progressbar \"Step 27 of 29\"\n  - main:\n    - paragraph:\n      - text: Quick check\n    - heading \"One molecule, three products.\" [level=2]\n    - paragraph: \"GHK-Cu appears in three products: a cream sold 'for the look of fine lines', the same cream sold 'to regenerate skin cells', and an injectable vial labelled research use only. In the US, which statement is right?\"\n    - status: Practice mode · your completed result is saved.\n    - button \"A All three are cosmetics, because the molecule is the same.\":\n      - generic: A\n      - paragraph: All three are cosmetics, because the molecule is the same.\n    - button \"B The first is a cosmetic; the second makes a drug claim, so it is an unapproved drug; the vial is outside any clinical route.\":\n      - generic: B\n      - paragraph: The first is a cosmetic; the second makes a drug claim, so it is an unapproved drug; the vial is outside any clinical route.\n    - button \"C All three are lawful, because GHK-Cu is in Category 1.\" [active]:\n      - generic: C\n      - paragraph: All three are lawful, because GHK-Cu is in Category 1.\n    - button \"Back to saved result\"\n    - strong: Not yet.\n    - paragraph: See why each option stands or falls, then choose again.\n    - generic \"See why and review the evidence\"\n  - button \"Previous tap\":\n  - strong: \"27\"\n  - generic: of 29\n  - button \"Next tap\":\n    - generic: Try again",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/7/27",
+    "width": 390
+  }
+}

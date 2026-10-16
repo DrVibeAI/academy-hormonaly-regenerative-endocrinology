@@ -1,0 +1,11 @@
+{
+  "label": "en-replay-6-24-wrong",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"6\"\n  - progressbar \"Step 24 of 25\"\n  - main:\n    - paragraph:\n      - text: Quick check\n    - heading \"'Will it give me cancer?'\" [level=2]\n    - paragraph: \"Fictional chart note: a 44-year-old using an IGF-1 LR3 product bought online asks you directly whether it causes cancer. Which answer keeps the registers apart?\"\n    - status: Practice mode · your completed result is saved.\n    - button \"A Yes. IGF-1 drives cell growth, so it causes cancer.\":\n      - generic: A\n      - paragraph: Yes. IGF-1 drives cell growth, so it causes cancer.\n    - button \"B The mechanism makes it a concern; people with higher natural IGF-1 have slightly higher rates of some cancers; IGF-1 LR3 itself has no human studies, so the risk is plausible and unmeasured.\":\n      - generic: B\n      - paragraph: The mechanism makes it a concern; people with higher natural IGF-1 have slightly higher rates of some cancers; IGF-1 LR3 itself has no human studies, so the risk is plausible and unmeasured.\n    - button \"C No. Large studies of growth-hormone treatment found no cancer signal.\" [active]:\n      - generic: C\n      - paragraph: No. Large studies of growth-hormone treatment found no cancer signal.\n    - button \"Back to saved result\"\n    - strong: Not yet.\n    - paragraph: See why each option stands or falls, then choose again.\n    - generic \"See why and review the evidence\"\n  - button \"Previous tap\":\n  - strong: \"24\"\n  - generic: of 25\n  - button \"Next tap\":\n    - generic: Try again",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/6/24",
+    "width": 390
+  }
+}

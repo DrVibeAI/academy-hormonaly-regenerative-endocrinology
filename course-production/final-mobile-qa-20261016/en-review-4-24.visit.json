@@ -1,0 +1,11 @@
+{
+  "label": "en-review-4-24",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"4\"\n  - progressbar \"Step 24 of 25\"\n  - main:\n    - paragraph:\n      - text: Quick check\n    - heading \"After the July review.\" [level=2]\n    - paragraph: FDA's Pharmacy Compounding Advisory Committee reviewed BPC-157, KPV and TB-500 in July 2026. What does that change for 503A compounding today?\n    - button \"A They can now be compounded, because the committee reviewed them.\" [disabled]:\n      - generic: A\n      - paragraph: They can now be compounded, because the committee reviewed them.\n    - 'button \"B Nothing yet: the committee advises, FDA must still act by rulemaking, and until then compounded products do not qualify for the 503A exemptions.\" [disabled]':\n      - generic: B\n      - paragraph: \"Nothing yet: the committee advises, FDA must still act by rulemaking, and until then compounded products do not qualify for the 503A exemptions.\"\n    - button \"C Only the injectable forms are restricted now.\" [disabled]:\n      - generic: C\n      - paragraph: Only the injectable forms are restricted now.\n    - button \"Practice again\"\n    - strong: Correct.\n    - paragraph: Check the live list. A pending review is not a licence to prescribe.\n    - generic \"See why and review the evidence\"\n    - paragraph:\n      - generic: A\n      - text: The committee advises; nothing changes until FDA adds a substance to the bulks list by rulemaking.\n    - paragraph:\n      - generic: B\n      - text: Correct. Review is not approval.\n    - paragraph:\n      - generic: C\n      - text: None of the three is on the bulks list in any form; the injectable-only exception applies to GHK-Cu's Category 1 entry, not to these.\n  - button \"Previous tap\":\n  - strong: \"24\"\n  - generic: of 25\n  - button \"Next tap\":\n    - generic: Continue",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/4/24",
+    "width": 390
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "label": "en-review-3-5",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"3\"\n  - progressbar \"Step 5 of 26\"\n  - main:\n    - paragraph:\n      - text: Human evidence\n    - heading \"Fat that holds the face up.\" [level=2]\n    - generic \"186\": \"183\"\n    - generic: pairs of identical twins compared for facial ageing\n    - paragraph: Guyuron et al., 2009 — a four-point higher BMI tracked with an older look before about 40 and a younger look after it\n    - generic: It means\n    - paragraph: \"From midlife on, facial fat goes with a younger-looking face. That fits the anatomy: the face ages partly as its fat compartments change. GRADE C, observational.\"\n    - generic: It does not mean\n    - paragraph: It is an observational comparison of photographs. It does not show that gaining weight rejuvenates, or that fat loss on a drug changes the skin itself.\n    - generic \"Context and nuance\" [active]\n  - button \"Previous tap\":\n  - strong: \"5\"\n  - generic: of 26\n  - button \"Next tap\":\n    - generic: Next",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/3/5",
+    "width": 390
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "label": "en-replay-4-15-wrong",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"4\"\n  - progressbar \"Step 15 of 25\"\n  - main:\n    - paragraph:\n      - text: Quick check\n    - heading \"'Clinically proven' collagen.\" [level=2]\n    - paragraph: A patient shows you a collagen drink labelled 'clinically proven to reduce wrinkles'. What is the most accurate reply?\n    - status: Practice mode · your completed result is saved.\n    - button \"A The trials are real, but the benefit shows up only in industry-funded and lower-quality trials; independent, high-quality trials show no effect.\":\n      - generic: A\n      - paragraph: The trials are real, but the benefit shows up only in industry-funded and lower-quality trials; independent, high-quality trials show no effect.\n    - button \"B Meta-analyses prove that collagen improves skin.\" [active]:\n      - generic: B\n      - paragraph: Meta-analyses prove that collagen improves skin.\n    - button \"C Collagen is digested, so it cannot do anything.\":\n      - generic: C\n      - paragraph: Collagen is digested, so it cannot do anything.\n    - button \"Back to saved result\"\n    - strong: Not yet.\n    - paragraph: See why each option stands or falls, then choose again.\n    - generic \"See why and review the evidence\"\n  - button \"Previous tap\":\n  - strong: \"15\"\n  - generic: of 25\n  - button \"Next tap\":\n    - generic: Try again",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/4/15",
+    "width": 390
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "label": "en-review-2-13",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"2\"\n  - progressbar \"Step 13 of 25\"\n  - main:\n    - paragraph:\n      - text: The evidence\n    - heading \"One to two per cent a year.\" [level=2]\n    - generic \"1–2%\"\n    - generic: fall in skin collagen content and thickness per year after menopause (small biopsy studies)\n    - paragraph: Brincat et al., 1987 — in parallel with bone mass\n    - generic: It means\n    - paragraph: Estrogen withdrawal is a measurable contributor to dermal thinning, and it follows the menopause clock rather than age alone.\n    - generic: It does not mean\n    - paragraph: It does not show that hormone therapy restores a younger-looking face. These are small observational studies, mostly of non-facial skin; the treatment trials come next.\n    - generic \"Context and nuance\" [active]\n  - button \"Previous tap\":\n  - strong: \"13\"\n  - generic: of 25\n  - button \"Next tap\":\n    - generic: Next",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/2/13",
+    "width": 390
+  }
+}

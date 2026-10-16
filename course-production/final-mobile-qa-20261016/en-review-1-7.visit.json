@@ -1,0 +1,11 @@
+{
+  "label": "en-review-1-7",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"1\"\n  - progressbar \"Step 7 of 25\"\n  - main:\n    - paragraph:\n      - text: Practice\n    - heading \"An HPA-like loop inside the follicle.\" [level=2]\n    - paragraph: Human scalp follicles kept alive in culture run a shortened copy of the body's central hormone axis.\n    - strong: From CRH to cortisol, and back\n    - paragraph: Put the follicle's loop in order, from the first signal to the feedback.\n    - generic: Ex vivo, human tissue\n    - generic: 4/4\n    - list:\n      - generic: \"1\"\n      - strong: CRH\n      - paragraph: First. The loop opens with CRH; the skin runs shortened copies of the body's central hormone axes.\n      - generic: \"2\"\n      - strong: ACTH\n      - paragraph: Second. CRH leads to ACTH, the order of the HPA axis this loop is named after.\n      - generic: \"3\"\n      - strong: Cortisol\n      - paragraph: Third. The follicles make cortisol themselves, in human tissue kept alive outside the body.\n      - generic: \"4\"\n      - strong: \"Feedback: the follicle's own CRH switched off\"\n      - paragraph: \"Last. The loop runs with feedback: the follicles switch off their own CRH. Made and used inside the skin, it is a local loop.\"\n    - status:\n      - paragraph: \"CRH, ACTH, cortisol, then feedback: a shortened copy of the central axis, running in human follicles kept alive in culture.\"\n    - button \"Practice again\"\n  - button \"Previous tap\":\n  - strong: \"7\"\n  - generic: of 25\n  - button \"Next tap\":\n    - generic: Next",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/1/7",
+    "width": 390
+  }
+}

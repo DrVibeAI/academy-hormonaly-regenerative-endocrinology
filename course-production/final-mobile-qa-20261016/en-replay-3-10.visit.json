@@ -1,0 +1,11 @@
+{
+  "label": "en-replay-3-10",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"3\"\n  - progressbar \"Step 10 of 26\"\n  - main:\n    - paragraph:\n      - text: Quick check\n    - heading \"A lower reading.\" [level=2]\n    - paragraph: A patient shows you her skin autofluorescence reading, lower after eight weeks on an 'anti-glycation' supplement. What does that result show?\n    - status: Practice mode · your completed result is saved.\n    - button \"A The supplement has reversed glycation damage in her dermis.\" [disabled]:\n      - generic: A\n      - paragraph: The supplement has reversed glycation damage in her dermis.\n    - button \"B A change in a surrogate marker; it shows nothing yet about collagen cross-links, how her skin looks or how it ages.\" [disabled]:\n      - generic: B\n      - paragraph: A change in a surrogate marker; it shows nothing yet about collagen cross-links, how her skin looks or how it ages.\n    - button \"C Nothing at all, because glycation does not happen in human skin.\" [disabled]:\n      - generic: C\n      - paragraph: Nothing at all, because glycation does not happen in human skin.\n    - button \"Practice again\"\n    - button \"Back to saved result\"\n    - strong: Correct.\n    - paragraph: A surrogate reading is where the evidence starts, never where it ends.\n    - generic \"See why and review the evidence\" [active]\n    - paragraph:\n      - generic: A\n      - text: A lower surrogate reading is not a measurement of collagen cross-links, and the device was validated in non-pigmented skin.\n    - paragraph:\n      - generic: B\n      - text: Correct. The surrogate moved; the outcome is unknown.\n    - paragraph:\n      - generic: C\n      - text: \"It does: AGEs accumulate in human skin collagen with age and faster in diabetes. The question is what the product changed.\"\n  - button \"Previous tap\":\n  - strong: \"10\"\n  - generic: of 26\n  - button \"Next tap\":\n    - generic: Continue",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/3/10",
+    "width": 390
+  }
+}

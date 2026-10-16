@@ -1,0 +1,11 @@
+{
+  "label": "en-replay-1-18",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"1\"\n  - progressbar \"Step 18 of 25\"\n  - main:\n    - paragraph:\n      - text: Practice\n    - heading \"Stopped for good, still secreting.\" [level=2]\n    - paragraph: A senescent cell beside one that still divides.\n    - status: Practice mode · your completed result is saved.\n    - strong: Dividing, senescent, secreting\n    - paragraph: Find the cell that still divides, the senescent cell and the SASP it releases.\n    - generic: \"SASP: characterised in cultured cells\"\n    - generic: 3/3\n    - group \"Dividing, senescent, secreting\":\n      - button \"A dividing cell\": \"1\"\n      - button \"A senescent cell\": \"2\"\n      - button \"The SASP\" [active]: \"3\"\n    - status:\n      - paragraph: \"Three found: a cell that still divides, a senescent cell that has stopped for good, and the SASP it keeps releasing.\"\n    - button \"Practice again\"\n    - button \"Back to saved result\"\n  - button \"Previous tap\":\n  - strong: \"18\"\n  - generic: of 25\n  - button \"Next tap\":\n    - generic: Next",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/1/18",
+    "width": 390
+  }
+}

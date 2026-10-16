@@ -1,0 +1,11 @@
+{
+  "label": "en-replay-5-24",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"5\"\n  - progressbar \"Step 24 of 25\"\n  - main:\n    - paragraph:\n      - text: Quick check\n    - heading \"'The new minoxidil'?\" [level=2]\n    - paragraph: A patient with pattern thinning asks whether a compounded PTD-DBM spray is 'the new minoxidil'. What does the evidence support?\n    - status: Practice mode · your completed result is saved.\n    - button \"A Yes. It acts on the Wnt pathway, which drives hair growth.\" [disabled]:\n      - generic: A\n      - paragraph: Yes. It acts on the Wnt pathway, which drives hair growth.\n    - button \"B PTD-DBM has mouse data and no human trial (D); minoxidil has randomized-trial support and US approval (A). Start with the workup and the approved options.\" [disabled]:\n      - generic: B\n      - paragraph: PTD-DBM has mouse data and no human trial (D); minoxidil has randomized-trial support and US approval (A). Start with the workup and the approved options.\n    - button \"C It is safer than minoxidil because it is a peptide.\" [disabled]:\n      - generic: C\n      - paragraph: It is safer than minoxidil because it is a peptide.\n    - button \"Practice again\"\n    - button \"Back to saved result\"\n    - strong: Correct.\n    - paragraph: A pathway is a hypothesis; the grade tells you how far it has been tested.\n    - generic \"See why and review the evidence\" [active]\n    - paragraph:\n      - generic: A\n      - text: That is a mechanism argument. There is no human trial of PTD-DBM, so 'works like minoxidil' has nothing behind it.\n    - paragraph:\n      - generic: B\n      - text: Correct. Name the grade of each, then go back to the diagnosis.\n    - paragraph:\n      - generic: C\n      - text: Being a peptide says nothing about safety. Its effects in people, short or long term, are unknown.\n  - button \"Previous tap\":\n  - strong: \"24\"\n  - generic: of 25\n  - button \"Next tap\":\n    - generic: Continue",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/5/24",
+    "width": 390
+  }
+}

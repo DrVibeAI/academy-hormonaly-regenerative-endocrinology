@@ -1,0 +1,1297 @@
+[
+  {
+    "module": "m01",
+    "unit": "m01-story",
+    "blocks": [
+      {
+        "id": "m1-p01",
+        "type": "title",
+        "title": {
+          "en": "The skin makes its own hormones."
+        }
+      },
+      {
+        "id": "m1-opener",
+        "type": "video",
+        "title": {
+          "en": "The skin as an endocrine organ, and how it ages"
+        }
+      },
+      {
+        "id": "m1-p02",
+        "type": "reflection",
+        "title": {
+          "en": "How will you use this course?"
+        }
+      },
+      {
+        "id": "m1-p03",
+        "type": "audio",
+        "title": {
+          "en": "Four units, one circuit."
+        }
+      },
+      {
+        "id": "m1-p04",
+        "type": "tool",
+        "title": {
+          "en": "A steroid factory with local axes."
+        }
+      },
+      {
+        "id": "m1-p05",
+        "type": "tool",
+        "title": {
+          "en": "Three directions of traffic."
+        }
+      },
+      {
+        "id": "m1-x01",
+        "type": "tool",
+        "title": {
+          "en": "An HPA-like loop inside the follicle."
+        }
+      },
+      {
+        "id": "m1-p06",
+        "type": "audio",
+        "title": {
+          "en": "Read the skin before the serum."
+        }
+      },
+      {
+        "id": "m1-x02",
+        "type": "tool",
+        "title": {
+          "en": "'Which serum for my dry skin?'"
+        }
+      },
+      {
+        "id": "m1-p07",
+        "type": "quiz",
+        "title": {
+          "en": "'My skin makes its own cortisol.'"
+        }
+      },
+      {
+        "id": "m1-p08",
+        "type": "audio",
+        "title": {
+          "en": "A map of fourteen million cells."
+        }
+      },
+      {
+        "id": "m1-p09",
+        "type": "stat",
+        "title": {
+          "en": "Prediction, in the authors' own words."
+        }
+      },
+      {
+        "id": "m1-p10",
+        "type": "tool",
+        "title": {
+          "en": "Transcript, tissue or person?"
+        }
+      },
+      {
+        "id": "m1-p11",
+        "type": "audio",
+        "title": {
+          "en": "A map to confirm, then a trial."
+        }
+      },
+      {
+        "id": "m1-x03",
+        "type": "tool",
+        "title": {
+          "en": "A serum page, line by line."
+        }
+      },
+      {
+        "id": "m1-p12",
+        "type": "quiz",
+        "title": {
+          "en": "'Your skin has receptors for it.'"
+        }
+      },
+      {
+        "id": "m1-p13",
+        "type": "audio",
+        "title": {
+          "en": "Cells that stop dividing and keep talking."
+        }
+      },
+      {
+        "id": "m1-x04",
+        "type": "tool",
+        "title": {
+          "en": "Stopped for good, still secreting."
+        }
+      },
+      {
+        "id": "m1-p14",
+        "type": "stat",
+        "title": {
+          "en": "Three years of perceived age."
+        }
+      },
+      {
+        "id": "m1-p15",
+        "type": "tool",
+        "title": {
+          "en": "Human, mouse or dish?"
+        }
+      },
+      {
+        "id": "m1-p16",
+        "type": "audio",
+        "title": {
+          "en": "The levers with trials behind them."
+        }
+      },
+      {
+        "id": "m1-x05",
+        "type": "tool",
+        "title": {
+          "en": "From the dish to the trial."
+        }
+      },
+      {
+        "id": "m1-p17",
+        "type": "audio",
+        "title": {
+          "en": "'Can a senolytic fix my skin?'"
+        }
+      },
+      {
+        "id": "m1-p18",
+        "type": "quiz",
+        "title": {
+          "en": "Mouse, human, or both?"
+        }
+      },
+      {
+        "id": "m1-p19",
+        "type": "action",
+        "title": {
+          "en": "Before my next skin-and-hormone conversation."
+        }
+      }
+    ]
+  },
+  {
+    "module": "m02",
+    "unit": "m02-story",
+    "blocks": [
+      {
+        "id": "m2-p01",
+        "type": "title",
+        "title": {
+          "en": "The face that might be a diagnosis."
+        }
+      },
+      {
+        "id": "m2-opener",
+        "type": "video",
+        "title": {
+          "en": "Systemic hormones and the skin"
+        }
+      },
+      {
+        "id": "m2-p02",
+        "type": "audio",
+        "title": {
+          "en": "The skin regenerates its own cortisol."
+        }
+      },
+      {
+        "id": "m2-x01",
+        "type": "tool",
+        "title": {
+          "en": "From cortisone to slower collagen"
+        }
+      },
+      {
+        "id": "m2-p03",
+        "type": "tool",
+        "title": {
+          "en": "11β-HSD1: four separate answers."
+        }
+      },
+      {
+        "id": "m2-p04",
+        "type": "tool",
+        "title": {
+          "en": "Which features point to Cushing's?"
+        }
+      },
+      {
+        "id": "m2-p05",
+        "type": "stat",
+        "title": {
+          "en": "Rare, and usually from a prescription."
+        }
+      },
+      {
+        "id": "m2-p06",
+        "type": "audio",
+        "title": {
+          "en": "Reassure the many, refer the few."
+        }
+      },
+      {
+        "id": "m2-x02",
+        "type": "tool",
+        "title": {
+          "en": "The 'cortisol face' serum"
+        }
+      },
+      {
+        "id": "m2-p07",
+        "type": "quiz",
+        "title": {
+          "en": "'Is this cortisol face?'"
+        }
+      },
+      {
+        "id": "m2-p08",
+        "type": "audio",
+        "title": {
+          "en": "Estrogen and the dermis."
+        }
+      },
+      {
+        "id": "m2-x03",
+        "type": "tool",
+        "title": {
+          "en": "Same receptors, different response"
+        }
+      },
+      {
+        "id": "m2-p09",
+        "type": "stat",
+        "title": {
+          "en": "One to two per cent a year."
+        }
+      },
+      {
+        "id": "m2-p10",
+        "type": "tool",
+        "title": {
+          "en": "Biopsy gains, mirror results."
+        }
+      },
+      {
+        "id": "m2-x04",
+        "type": "tool",
+        "title": {
+          "en": "Trial, observation or mechanism?"
+        }
+      },
+      {
+        "id": "m2-p11",
+        "type": "audio",
+        "title": {
+          "en": "Symptoms and bone. Skin is a bystander."
+        }
+      },
+      {
+        "id": "m2-x05",
+        "type": "tool",
+        "title": {
+          "en": "Hot flashes and a skin question"
+        }
+      },
+      {
+        "id": "m2-p12",
+        "type": "quiz",
+        "title": {
+          "en": "'Hormones for my skin.'"
+        }
+      },
+      {
+        "id": "m2-p13",
+        "type": "audio",
+        "title": {
+          "en": "Some syndromes show on the skin first."
+        }
+      },
+      {
+        "id": "m2-p14",
+        "type": "stat",
+        "title": {
+          "en": "Eighty-eight per cent."
+        }
+      },
+      {
+        "id": "m2-p15",
+        "type": "audio",
+        "title": {
+          "en": "The everyday endocrine signs."
+        }
+      },
+      {
+        "id": "m2-p16",
+        "type": "tool",
+        "title": {
+          "en": "Where does this skin finding go?"
+        }
+      },
+      {
+        "id": "m2-p17",
+        "type": "audio",
+        "title": {
+          "en": "Freckles before the wedding."
+        }
+      },
+      {
+        "id": "m2-p18",
+        "type": "quiz",
+        "title": {
+          "en": "Hair removal, or referral?"
+        }
+      },
+      {
+        "id": "m2-p19",
+        "type": "action",
+        "title": {
+          "en": "Before I treat a face that might be hormonal."
+        }
+      }
+    ]
+  },
+  {
+    "module": "m03",
+    "unit": "m03-story",
+    "blocks": [
+      {
+        "id": "m3-p01",
+        "type": "title",
+        "title": {
+          "en": "The face changes when the fat does."
+        }
+      },
+      {
+        "id": "m3-opener",
+        "type": "video",
+        "title": {
+          "en": "Fat, incretins and the ageing face"
+        }
+      },
+      {
+        "id": "m3-p02",
+        "type": "audio",
+        "title": {
+          "en": "The skin keeps its own fat."
+        }
+      },
+      {
+        "id": "m3-x01",
+        "type": "tool",
+        "title": {
+          "en": "Fat inside the dermis, and below it."
+        }
+      },
+      {
+        "id": "m3-p03",
+        "type": "stat",
+        "title": {
+          "en": "Fat that holds the face up."
+        }
+      },
+      {
+        "id": "m3-p04",
+        "type": "audio",
+        "title": {
+          "en": "Sugar that sticks to collagen."
+        }
+      },
+      {
+        "id": "m3-x02",
+        "type": "tool",
+        "title": {
+          "en": "From sugar to cross-link."
+        }
+      },
+      {
+        "id": "m3-p05",
+        "type": "stat",
+        "title": {
+          "en": "Fifteen years on the same collagen."
+        }
+      },
+      {
+        "id": "m3-p06",
+        "type": "tool",
+        "title": {
+          "en": "Mouse, human or marketing?"
+        }
+      },
+      {
+        "id": "m3-p07",
+        "type": "quiz",
+        "title": {
+          "en": "A lower reading."
+        }
+      },
+      {
+        "id": "m3-p08",
+        "type": "audio",
+        "title": {
+          "en": "Two gut hormones, re-engineered."
+        }
+      },
+      {
+        "id": "m3-p09",
+        "type": "tool",
+        "title": {
+          "en": "Approved for what, exactly?"
+        }
+      },
+      {
+        "id": "m3-p10",
+        "type": "stat",
+        "title": {
+          "en": "Large trials, measured on the scale."
+        }
+      },
+      {
+        "id": "m3-p11",
+        "type": "tool",
+        "title": {
+          "en": "'Ozempic face', answer by answer."
+        }
+      },
+      {
+        "id": "m3-x03",
+        "type": "tool",
+        "title": {
+          "en": "Randomized, observational or cells only?"
+        }
+      },
+      {
+        "id": "m3-p12",
+        "type": "audio",
+        "title": {
+          "en": "Counsel before, record during, refer when asked."
+        }
+      },
+      {
+        "id": "m3-x04",
+        "type": "tool",
+        "title": {
+          "en": "Starting tirzepatide, worried about her face."
+        }
+      },
+      {
+        "id": "m3-p13",
+        "type": "audio",
+        "title": {
+          "en": "Ten months in, and unhappy with the mirror."
+        }
+      },
+      {
+        "id": "m3-p14",
+        "type": "quiz",
+        "title": {
+          "en": "What the evidence shows."
+        }
+      },
+      {
+        "id": "m3-p15",
+        "type": "audio",
+        "title": {
+          "en": "Inflammation that comes with age."
+        }
+      },
+      {
+        "id": "m3-p16",
+        "type": "stat",
+        "title": {
+          "en": "Thirty-nine trials of probiotics for eczema."
+        }
+      },
+      {
+        "id": "m3-p17",
+        "type": "tool",
+        "title": {
+          "en": "What has been tested on skin?"
+        }
+      },
+      {
+        "id": "m3-p18",
+        "type": "audio",
+        "title": {
+          "en": "Diet first, a bottle last."
+        }
+      },
+      {
+        "id": "m3-x05",
+        "type": "tool",
+        "title": {
+          "en": "From a fatty meal to clear skin?"
+        }
+      },
+      {
+        "id": "m3-p19",
+        "type": "quiz",
+        "title": {
+          "en": "The zonulin test."
+        }
+      },
+      {
+        "id": "m3-p20",
+        "type": "action",
+        "title": {
+          "en": "Before my next conversation about weight, skin and the gut."
+        }
+      }
+    ]
+  },
+  {
+    "module": "m04",
+    "unit": "m04-story",
+    "blocks": [
+      {
+        "id": "m4-p01",
+        "type": "title",
+        "title": {
+          "en": "The peptide your patient already bought."
+        }
+      },
+      {
+        "id": "m4-opener",
+        "type": "video",
+        "title": {
+          "en": "Matrix peptides and wound healing"
+        }
+      },
+      {
+        "id": "m4-p02",
+        "type": "reflection",
+        "title": {
+          "en": "How will you use this module?"
+        }
+      },
+      {
+        "id": "m4-p03",
+        "type": "audio",
+        "title": {
+          "en": "A plasma tripeptide with a copper habit."
+        }
+      },
+      {
+        "id": "m4-p04",
+        "type": "stat",
+        "title": {
+          "en": "One indexed randomized trial."
+        }
+      },
+      {
+        "id": "m4-p05",
+        "type": "tool",
+        "title": {
+          "en": "Keep the four answers apart."
+        }
+      },
+      {
+        "id": "m4-x01",
+        "type": "tool",
+        "title": {
+          "en": "A copper serum's sales page"
+        }
+      },
+      {
+        "id": "m4-p06",
+        "type": "audio",
+        "title": {
+          "en": "Serum yes, syringe no."
+        }
+      },
+      {
+        "id": "m4-p07",
+        "type": "quiz",
+        "title": {
+          "en": "Is the injection 'stronger'?"
+        }
+      },
+      {
+        "id": "m4-p08",
+        "type": "audio",
+        "title": {
+          "en": "Three families, one question: who ran the trial?"
+        }
+      },
+      {
+        "id": "m4-x02",
+        "type": "tool",
+        "title": {
+          "en": "Three families, three premises"
+        }
+      },
+      {
+        "id": "m4-p09",
+        "type": "tool",
+        "title": {
+          "en": "A trial, or a brochure?"
+        }
+      },
+      {
+        "id": "m4-p10",
+        "type": "stat",
+        "title": {
+          "en": "Twenty-three trials, split by who paid."
+        }
+      },
+      {
+        "id": "m4-p11",
+        "type": "audio",
+        "title": {
+          "en": "Cosmetic, supplement, drug: three rulebooks."
+        }
+      },
+      {
+        "id": "m4-p12",
+        "type": "quiz",
+        "title": {
+          "en": "'Clinically proven' collagen."
+        }
+      },
+      {
+        "id": "m4-p13",
+        "type": "audio",
+        "title": {
+          "en": "Rodents, a fragment, and a tripeptide."
+        }
+      },
+      {
+        "id": "m4-p14",
+        "type": "stat",
+        "title": {
+          "en": "One abstract, no published trial."
+        }
+      },
+      {
+        "id": "m4-x03",
+        "type": "tool",
+        "title": {
+          "en": "A patient asks for BPC-157"
+        }
+      },
+      {
+        "id": "m4-p15",
+        "type": "tool",
+        "title": {
+          "en": "Two trials, one peptide: LL-37."
+        }
+      },
+      {
+        "id": "m4-x04",
+        "type": "tool",
+        "title": {
+          "en": "Six peptides, three kinds of evidence"
+        }
+      },
+      {
+        "id": "m4-p16",
+        "type": "tool",
+        "title": {
+          "en": "Where does it stand in the US?"
+        }
+      },
+      {
+        "id": "m4-x05",
+        "type": "tool",
+        "title": {
+          "en": "From Category 1 to the bulks list"
+        }
+      },
+      {
+        "id": "m4-p17",
+        "type": "audio",
+        "title": {
+          "en": "New dark patches, three months into 'GLOW'."
+        }
+      },
+      {
+        "id": "m4-p18",
+        "type": "quiz",
+        "title": {
+          "en": "After the July review."
+        }
+      },
+      {
+        "id": "m4-p19",
+        "type": "action",
+        "title": {
+          "en": "Before my next peptide conversation."
+        }
+      }
+    ]
+  },
+  {
+    "module": "m05",
+    "unit": "m05-story",
+    "blocks": [
+      {
+        "id": "m5-p01",
+        "type": "title",
+        "title": {
+          "en": "A spray for the scalp, a tan in a vial."
+        }
+      },
+      {
+        "id": "m5-opener",
+        "type": "video",
+        "title": {
+          "en": "Follicle, pigment and melanocortins"
+        }
+      },
+      {
+        "id": "m5-p02",
+        "type": "audio",
+        "title": {
+          "en": "A follicle that runs its own hormones."
+        }
+      },
+      {
+        "id": "m5-x01",
+        "type": "tool",
+        "title": {
+          "en": "The follicle's own stress loop"
+        }
+      },
+      {
+        "id": "m5-p03",
+        "type": "stat",
+        "title": {
+          "en": "Two trials, 1,200 adults, one approval."
+        }
+      },
+      {
+        "id": "m5-p04",
+        "type": "tool",
+        "title": {
+          "en": "Four questions before any product."
+        }
+      },
+      {
+        "id": "m5-p05",
+        "type": "audio",
+        "title": {
+          "en": "Work up the hair loss before anyone mentions a peptide."
+        }
+      },
+      {
+        "id": "m5-p06",
+        "type": "quiz",
+        "title": {
+          "en": "Shedding after the baby."
+        }
+      },
+      {
+        "id": "m5-p07",
+        "type": "audio",
+        "title": {
+          "en": "Five receptors, one family of hormones."
+        }
+      },
+      {
+        "id": "m5-x02",
+        "type": "tool",
+        "title": {
+          "en": "Pigment, adrenal, brain, sebum"
+        }
+      },
+      {
+        "id": "m5-p08",
+        "type": "tool",
+        "title": {
+          "en": "One receptor family, two very different molecules."
+        }
+      },
+      {
+        "id": "m5-p09",
+        "type": "stat",
+        "title": {
+          "en": "Sixty-nine hours against forty-one."
+        }
+      },
+      {
+        "id": "m5-p10",
+        "type": "audio",
+        "title": {
+          "en": "What the case reports show."
+        }
+      },
+      {
+        "id": "m5-x03",
+        "type": "tool",
+        "title": {
+          "en": "Six findings, three kinds of evidence"
+        }
+      },
+      {
+        "id": "m5-p11",
+        "type": "audio",
+        "title": {
+          "en": "New moles after a summer of tanning shots."
+        }
+      },
+      {
+        "id": "m5-p12",
+        "type": "tool",
+        "title": {
+          "en": "Three regulators, one answer."
+        }
+      },
+      {
+        "id": "m5-p13",
+        "type": "quiz",
+        "title": {
+          "en": "'The approved one is the same thing.'"
+        }
+      },
+      {
+        "id": "m5-p14",
+        "type": "audio",
+        "title": {
+          "en": "A Wnt switch and a zinc question."
+        }
+      },
+      {
+        "id": "m5-p15",
+        "type": "stat",
+        "title": {
+          "en": "Zero trials in people."
+        }
+      },
+      {
+        "id": "m5-x04",
+        "type": "tool",
+        "title": {
+          "en": "The PTD-DBM sales page"
+        }
+      },
+      {
+        "id": "m5-p16",
+        "type": "tool",
+        "title": {
+          "en": "Approved, or unproven?"
+        }
+      },
+      {
+        "id": "m5-p17",
+        "type": "audio",
+        "title": {
+          "en": "When the request is a compounded hair spray."
+        }
+      },
+      {
+        "id": "m5-x05",
+        "type": "tool",
+        "title": {
+          "en": "'Will my thymulin spray work?'"
+        }
+      },
+      {
+        "id": "m5-p18",
+        "type": "quiz",
+        "title": {
+          "en": "'The new minoxidil'?"
+        }
+      },
+      {
+        "id": "m5-p19",
+        "type": "action",
+        "title": {
+          "en": "Before my next hair or tanning conversation."
+        }
+      }
+    ]
+  },
+  {
+    "module": "m06",
+    "unit": "m06-story",
+    "blocks": [
+      {
+        "id": "m6-p01",
+        "type": "title",
+        "title": {
+          "en": "Real endocrinology, borrowed for marketing."
+        }
+      },
+      {
+        "id": "m6-opener",
+        "type": "video",
+        "title": {
+          "en": "The growth-hormone axis and the skin"
+        }
+      },
+      {
+        "id": "m6-p02",
+        "type": "audio",
+        "title": {
+          "en": "Two hormones, two layers of skin."
+        }
+      },
+      {
+        "id": "m6-x01",
+        "type": "tool",
+        "title": {
+          "en": "Where GH and IGF-1 act in skin."
+        }
+      },
+      {
+        "id": "m6-p03",
+        "type": "stat",
+        "title": {
+          "en": "A much-cited skin result, read again."
+        }
+      },
+      {
+        "id": "m6-p04",
+        "type": "tool",
+        "title": {
+          "en": "Mechanism, human evidence or open question?"
+        }
+      },
+      {
+        "id": "m6-p05",
+        "type": "audio",
+        "title": {
+          "en": "Deficiency is a diagnosis. Decline is ageing."
+        }
+      },
+      {
+        "id": "m6-p06",
+        "type": "quiz",
+        "title": {
+          "en": "'Low for my age.'"
+        }
+      },
+      {
+        "id": "m6-p07",
+        "type": "audio",
+        "title": {
+          "en": "One axis, four ways in."
+        }
+      },
+      {
+        "id": "m6-x02",
+        "type": "tool",
+        "title": {
+          "en": "Where each route enters the axis."
+        }
+      },
+      {
+        "id": "m6-p08",
+        "type": "tool",
+        "title": {
+          "en": "What real peptide evidence looks like."
+        }
+      },
+      {
+        "id": "m6-p09",
+        "type": "stat",
+        "title": {
+          "en": "Zero skin trials."
+        }
+      },
+      {
+        "id": "m6-x03",
+        "type": "tool",
+        "title": {
+          "en": "Five growth-hormone results, graded by design."
+        }
+      },
+      {
+        "id": "m6-p10",
+        "type": "tool",
+        "title": {
+          "en": "Approval-grade, hormone levels, or nothing?"
+        }
+      },
+      {
+        "id": "m6-p11",
+        "type": "tool",
+        "title": {
+          "en": "Where each one stands in the US."
+        }
+      },
+      {
+        "id": "m6-p12",
+        "type": "audio",
+        "title": {
+          "en": "Name the indication before the molecule."
+        }
+      },
+      {
+        "id": "m6-x04",
+        "type": "tool",
+        "title": {
+          "en": "'It raises growth hormone naturally.'"
+        }
+      },
+      {
+        "id": "m6-p13",
+        "type": "quiz",
+        "title": {
+          "en": "'Basically tesamorelin?'"
+        }
+      },
+      {
+        "id": "m6-p14",
+        "type": "audio",
+        "title": {
+          "en": "What too much growth hormone looks like."
+        }
+      },
+      {
+        "id": "m6-p15",
+        "type": "tool",
+        "title": {
+          "en": "Does raising IGF-1 cause cancer?"
+        }
+      },
+      {
+        "id": "m6-p16",
+        "type": "stat",
+        "title": {
+          "en": "Half the patients on the approved one."
+        }
+      },
+      {
+        "id": "m6-x05",
+        "type": "tool",
+        "title": {
+          "en": "A clinic page, read line by line."
+        }
+      },
+      {
+        "id": "m6-p17",
+        "type": "audio",
+        "title": {
+          "en": "Tight rings, eight months into 'CJC/ipa'."
+        }
+      },
+      {
+        "id": "m6-p18",
+        "type": "quiz",
+        "title": {
+          "en": "'Will it give me cancer?'"
+        }
+      },
+      {
+        "id": "m6-p19",
+        "type": "action",
+        "title": {
+          "en": "Before my next growth-hormone conversation."
+        }
+      }
+    ]
+  },
+  {
+    "module": "m07",
+    "unit": "m07-story",
+    "blocks": [
+      {
+        "id": "m7-p01",
+        "type": "title",
+        "title": {
+          "en": "Grade it, check it, write it down."
+        }
+      },
+      {
+        "id": "m7-opener",
+        "type": "video",
+        "title": {
+          "en": "Evidence, regulation and compliance"
+        }
+      },
+      {
+        "id": "m7-p02",
+        "type": "audio",
+        "title": {
+          "en": "GRADE rates certainty in an effect, one outcome at a time."
+        }
+      },
+      {
+        "id": "m7-p03",
+        "type": "stat",
+        "title": {
+          "en": "Sponsored studies come out better."
+        }
+      },
+      {
+        "id": "m7-p04",
+        "type": "tool",
+        "title": {
+          "en": "Name what lowers certainty."
+        }
+      },
+      {
+        "id": "m7-p05",
+        "type": "audio",
+        "title": {
+          "en": "Two checks, never one."
+        }
+      },
+      {
+        "id": "m7-x01",
+        "type": "tool",
+        "title": {
+          "en": "What moves a grade, and what does not."
+        }
+      },
+      {
+        "id": "m7-p06",
+        "type": "quiz",
+        "title": {
+          "en": "Three trials, grade A?"
+        }
+      },
+      {
+        "id": "m7-p07",
+        "type": "audio",
+        "title": {
+          "en": "Two compounding routes, one strict order."
+        }
+      },
+      {
+        "id": "m7-x02",
+        "type": "tool",
+        "title": {
+          "en": "503A and 503B, side by side."
+        }
+      },
+      {
+        "id": "m7-x03",
+        "type": "tool",
+        "title": {
+          "en": "The substance, in strict order."
+        }
+      },
+      {
+        "id": "m7-p08",
+        "type": "tool",
+        "title": {
+          "en": "A short list, three categories and a withdrawn table."
+        }
+      },
+      {
+        "id": "m7-p09",
+        "type": "stat",
+        "title": {
+          "en": "Forty amino acids."
+        }
+      },
+      {
+        "id": "m7-p21",
+        "type": "tool",
+        "title": {
+          "en": "Outside the US, 503A does not apply."
+        }
+      },
+      {
+        "id": "m7-p10",
+        "type": "audio",
+        "title": {
+          "en": "What a certificate can and cannot prove."
+        }
+      },
+      {
+        "id": "m7-p11",
+        "type": "tool",
+        "title": {
+          "en": "Audit this certificate."
+        }
+      },
+      {
+        "id": "m7-p12",
+        "type": "stat",
+        "title": {
+          "en": "99% on the label."
+        }
+      },
+      {
+        "id": "m7-p13",
+        "type": "audio",
+        "title": {
+          "en": "Research use only is a label, and never a route."
+        }
+      },
+      {
+        "id": "m7-p22",
+        "type": "audio",
+        "title": {
+          "en": "Selling and advertising peptides outside the US."
+        }
+      },
+      {
+        "id": "m7-p14",
+        "type": "quiz",
+        "title": {
+          "en": "A clean certificate."
+        }
+      },
+      {
+        "id": "m7-p15",
+        "type": "audio",
+        "title": {
+          "en": "Off-label needs a label."
+        }
+      },
+      {
+        "id": "m7-p16",
+        "type": "tool",
+        "title": {
+          "en": "Same molecule, different rulebooks."
+        }
+      },
+      {
+        "id": "m7-x04",
+        "type": "tool",
+        "title": {
+          "en": "Six lines from a serum page."
+        }
+      },
+      {
+        "id": "m7-p17",
+        "type": "audio",
+        "title": {
+          "en": "'Just prescribe it off-label.'"
+        }
+      },
+      {
+        "id": "m7-p18",
+        "type": "tool",
+        "title": {
+          "en": "A chart note a reviewer can follow."
+        }
+      },
+      {
+        "id": "m7-x05",
+        "type": "tool",
+        "title": {
+          "en": "'Could you supervise my injections?'"
+        }
+      },
+      {
+        "id": "m7-p19",
+        "type": "quiz",
+        "title": {
+          "en": "One molecule, three products."
+        }
+      },
+      {
+        "id": "m7-p20",
+        "type": "action",
+        "title": {
+          "en": "My practice, from the next conversation."
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "label": "en-replay-7-23",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"7\"\n  - progressbar \"Step 23 of 29\"\n  - main:\n    - paragraph:\n      - text: Practice\n    - heading \"Six lines from a serum page.\" [level=2]\n    - paragraph: A fictional US product page for a topical GHK-Cu serum.\n    - status: Practice mode · your completed result is saved.\n    - region \"Which lines overclaim?\":\n      - paragraph: Find each line that claims more than the evidence or the US rules support.\n      - strong: 4/4\n      - group \"Inspect the document\":\n        - 'button \"GHK-Cu serum: a true cosmeceutical.\" [pressed]'\n        - button \"It regenerates skin cells.\" [pressed]\n        - button \"Tested in a trial of skin healing after laser resurfacing.\" [pressed]\n        - button \"Rated GRADE A for fine lines.\" [pressed]\n        - button \"Its mechanism proves it works.\" [active] [pressed]\n        - button \"Each lot's certificate of analysis prints the expected mass beside the observed one.\"\n      - status:\n        - paragraph:\n          - strong: Its mechanism proves it works.\n        - paragraph: A plausible mechanism never raises a grade.\n      - status: \"Four lines overclaim: route and claim decide the regime, and a grade belongs to the evidence for one outcome, never to a molecule or its mechanism.\"\n    - button \"Practice again\"\n    - button \"Back to saved result\"\n  - button \"Previous tap\":\n  - strong: \"23\"\n  - generic: of 29\n  - button \"Next tap\":\n    - generic: Next",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/7/23",
+    "width": 390
+  }
+}

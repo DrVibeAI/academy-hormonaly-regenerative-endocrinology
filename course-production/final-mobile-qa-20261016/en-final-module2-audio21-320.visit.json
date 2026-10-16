@@ -1,0 +1,21 @@
+{
+  "label": "en-final-module2-audio21-320",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"2\"\n  - progressbar \"Step 21 of 25\"\n  - main:\n    - paragraph:\n      - text: Concept\n    - heading \"The everyday endocrine signs.\" [level=2]\n    - paragraph: Most endocrine skin signs you meet come from common disease. New generalised darkening, strongest in skin creases, scars, mucosa and sun-exposed skin, can signal primary adrenal insufficiency, which can turn into a life-threatening crisis. Hirsutism that appears fast, keeps progressing, or comes with a deepening voice or clitoromegaly makes an androgen-secreting tumour more likely. Velvety dark plaques of acanthosis nigricans track insulin resistance, pretibial myxoedema points to Graves' disease, and cold, dry skin suggests hypothyroidism.\n    - region \"Interactive audio story\":\n      - figure:\n        - 'img \"Three body-part outlines with typical sites marked: the palm creases, a velvety patch at the back of the neck, and a raised plaque on the front of the shin.\"'\n      - button \"Pause audio\":\n      - strong: Listen and tap\n      - generic: 0:12 / 0:58\n      - paragraph: Cards follow the audio. Tap to flip.\n      - 'button \"Chapter 1: Adrenal\" [pressed]':\n        - generic: \"01\"\n        - strong: Adrenal\n        - generic: Playing\n        - generic: Key idea\n        - strong: The hyperpigmentation of primary adrenal insufficiency favours sun-exposed skin, creases, mucosa and scars. In an acutely ill patient the guideline recommends testing, and a suspected crisis is treated before results return.\n        - generic: Tap to return\n      - 'button \"Chapter 2: Androgens\"':\n        - generic: \"02\"\n        - strong: Androgens\n        - generic: Tap to flip\n        - generic: Key idea\n        - strong: Rapid onset or progression of hirsutism, or signs of virilization, raise the likelihood of an androgen-secreting tumour and call for prompt referral.\n        - generic: Tap to return\n      - 'button \"Chapter 3: Metabolic and thyroid\"':\n        - generic: \"03\"\n        - strong: Metabolic and thyroid\n        - generic: Tap to flip\n        - generic: Key idea\n        - strong: Acanthosis nigricans reflects hyperinsulinaemia; pretibial myxoedema reflects thyrotropin-receptor stimulation in Graves' disease; hypothyroid skin is cold and dry.\n        - generic: Tap to return\n      - generic \"Read transcript\"\n  - button \"Previous tap\":\n  - strong: \"21\"\n  - generic: of 25\n  - button \"Next tap\":\n    - generic: Next",
+  "metrics": {
+    "height": 740,
+    "media": [
+      {
+        "duration": 58.003447,
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "src": "https://storage.googleapis.com/perceptors-academy-hormonaly-media/guide-audio/2fdc5069f825d4caf23afce8377defee8d24f1afbe49d3cfaa6a6be8f45715f2.mp3",
+        "tag": "AUDIO",
+        "time": 13.388344
+      }
+    ],
+    "scrollWidth": 320,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/2/21",
+    "width": 320
+  }
+}

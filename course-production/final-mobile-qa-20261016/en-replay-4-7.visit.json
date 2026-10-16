@@ -1,0 +1,11 @@
+{
+  "label": "en-replay-4-7",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"4\"\n  - progressbar \"Step 7 of 25\"\n  - main:\n    - paragraph:\n      - text: Practice\n    - heading \"A copper serum's sales page\" [level=2]\n    - paragraph: A fictional product page, read against the four registers.\n    - status: Practice mode · your completed result is saved.\n    - region \"Which lines claim too much?\":\n      - paragraph: Tap each line of this fictional serum page that claims more than the evidence shows.\n      - strong: 4/4\n      - group \"Inspect the document\":\n        - 'button \"Our star ingredient: GHK-Cu, the copper peptide.\" [pressed]'\n        - button \"GHK is a tripeptide found in human plasma, first described in 1973.\"\n        - button \"It delivers copper to the enzymes that build and protect your skin's matrix.\" [pressed]\n        - button \"Penetrates deep into the dermis.\" [pressed]\n        - button \"Clinically proven to reverse photoageing.\" [pressed]\n        - 'button \"Regulator-approved: FDA Category 1.\" [active] [pressed]'\n        - button \"For external use only; not for injection.\"\n      - status:\n        - paragraph:\n          - strong: \"Regulator-approved: FDA Category 1.\"\n        - paragraph: \"In the US, non-injectable GHK-Cu is in 503A Category 1: FDA is still evaluating it and does not intend to act against compounders who meet its conditions. A Category 1 listing is not an approval.\"\n      - status: \"Four lines claimed too much: a proposed mechanism stated as fact, an open question stated as settled, a laser-healing trial sold as photoageing proof, and a Category 1 listing read as an approval.\"\n    - button \"Practice again\"\n    - button \"Back to saved result\"\n  - button \"Previous tap\":\n  - strong: \"7\"\n  - generic: of 25\n  - button \"Next tap\":\n    - generic: Next",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/4/7",
+    "width": 390
+  }
+}

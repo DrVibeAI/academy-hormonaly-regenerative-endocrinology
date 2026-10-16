@@ -1,0 +1,11 @@
+{
+  "label": "en-review-6-1",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"6\"\n  - progressbar \"Step 1 of 25\"\n  - main:\n    - img \"Hormonaly\"\n    - generic: Academy\n    - paragraph: Module 06 · The growth-hormone axis and the skin\n    - heading \"Real endocrinology, borrowed for marketing.\" [level=2]\n    - paragraph: Growth hormone and IGF-1 genuinely shape skin, and one peptide on this axis has approval-grade trials. Most of what patients are offered has much less behind it. In three lessons you will separate the physiology from the promise, the approved from the anecdotal, and the side-effects you can see from the risks nobody has measured.\n    - list:\n      - listitem: 6.1 Growth hormone and IGF-1 in the skin\n      - listitem: \"6.2 GHRH analogues and secretagogues: what stands behind each\"\n      - listitem: 6.3 Signs of excess, oedema and mitogenic risk\n    - generic: 41 min\n  - button \"Previous tap\" [disabled]:\n  - strong: \"1\"\n  - generic: of 25\n  - button \"Next tap\":\n    - generic: Next",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/6/1",
+    "width": 390
+  }
+}

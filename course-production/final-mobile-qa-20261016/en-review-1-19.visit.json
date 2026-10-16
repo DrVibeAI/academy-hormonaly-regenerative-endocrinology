@@ -1,0 +1,11 @@
+{
+  "label": "en-review-1-19",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"1\"\n  - progressbar \"Step 19 of 25\"\n  - main:\n    - paragraph:\n      - text: Human evidence\n    - heading \"Three years of perceived age.\" [level=2]\n    - generic \"3 years\"\n    - generic: \"younger-looking: fewest versus most p16-positive epidermal cells, at the same chronological age\"\n    - paragraph: Waaijer et al., 2016 — 178 adults aged 45–81, Leiden Longevity Study, sun-protected arm biopsies\n    - generic: It means\n    - paragraph: Senescent-cell burden in human skin tracks visible ageing, even in skin that sees little sun.\n    - generic: It does not mean\n    - paragraph: It does not show that senescent cells cause wrinkles, or that removing them would reverse any. One observational cohort shows an association.\n    - generic \"Context and nuance\" [active]\n  - button \"Previous tap\":\n  - strong: \"19\"\n  - generic: of 25\n  - button \"Next tap\":\n    - generic: Next",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/1/19",
+    "width": 390
+  }
+}

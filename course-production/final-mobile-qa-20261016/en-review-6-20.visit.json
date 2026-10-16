@@ -1,0 +1,11 @@
+{
+  "label": "en-review-6-20",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"6\"\n  - progressbar \"Step 20 of 25\"\n  - main:\n    - paragraph:\n      - text: Four registers\n    - heading \"Does raising IGF-1 cause cancer?\" [level=2]\n    - paragraph: The honest answer has four parts, and each has its own source. Keep them apart, or a mechanism will be heard as a measured risk.\n    - strong: Mechanism\n    - generic: Plausible\n    - generic: IGF-1 receptor signalling drives cell proliferation and survival, which gives any IGF-1-raising product a theoretical concern\n    - strong: Human observation\n    - generic: Modest associations\n    - generic: In large studies, higher natural IGF-1 goes with slightly higher risks of prostate, breast, colorectal and thyroid cancer; reverse causation is not excluded. In one Ecuadorian cohort, people with GH-receptor deficiency had almost no cancer.\n    - strong: Acromegaly\n    - generic: Slightly raised, inconsistently\n    - generic: Pooled studies show about 1.5 times the expected cancer incidence, with the highest estimates from small single-centre series; a Danish nationwide cohort found no clear rise\n    - strong: GH replacement\n    - generic: Largely reassuring\n    - generic: No clear raised risk in 23,984 GH-treated children with growth failure and no other disease; a 2022 consensus found no link with primary tumours or recurrence in survivors\n    - strong: Open question\n    - generic: Unmeasured\n    - generic: No long-term cancer data exist for secretagogues or IGF-1 LR3 used for ageing or skin\n    - paragraph: A plausible mechanism plus a modest association is a reason for caution and consent. It is a different thing from a measured risk.\n  - button \"Previous tap\":\n  - strong: \"20\"\n  - generic: of 25\n  - button \"Next tap\" [active]:\n    - generic: Next",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/6/20",
+    "width": 390
+  }
+}

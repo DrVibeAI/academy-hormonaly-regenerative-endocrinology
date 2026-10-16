@@ -1,0 +1,11 @@
+{
+  "label": "en-review-7-11",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"7\"\n  - progressbar \"Step 11 of 29\"\n  - main:\n    - paragraph:\n      - text: Practice\n    - heading \"The substance, in strict order.\" [level=2]\n    - paragraph: In the US, the conditions for 503A compounding start with the substance itself, taken in strict order.\n    - strong: The statute's order\n    - paragraph: Put the three routes by which a bulk substance can qualify for 503A compounding in the order the statute takes them.\n    - generic: 3/3\n    - list:\n      - generic: \"1\"\n      - strong: A USP or National Formulary monograph\n      - paragraph: A USP or National Formulary monograph comes first.\n      - generic: \"2\"\n      - strong: A component of an approved drug\n      - paragraph: Only when there is no monograph can the substance be a component of an approved drug.\n      - generic: \"3\"\n      - strong: FDA's 503A bulks list\n      - paragraph: Only when neither applies can it sit on FDA's 503A bulks list.\n    - status:\n      - paragraph: Monograph, then a component of an approved drug, then the bulks list; the substance must also come from a registered manufacturer with a valid certificate of analysis.\n    - button \"Practice again\"\n  - button \"Previous tap\":\n  - strong: \"11\"\n  - generic: of 29\n  - button \"Next tap\":\n    - generic: Next",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/7/11",
+    "width": 390
+  }
+}

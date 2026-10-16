@@ -1,0 +1,11 @@
+{
+  "label": "en-replay-2-22",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"2\"\n  - progressbar \"Step 22 of 25\"\n  - main:\n    - paragraph:\n      - text: Triage\n    - heading \"Where does this skin finding go?\" [level=2]\n    - status: Practice mode · your completed result is saved.\n    - strong: Route the finding\n    - paragraph: \"One patient at a time: which route does this finding take?\"\n    - generic: 7/7\n    - paragraph:\n      - strong: Correct\n      - text: · A few coarse hairs on the chin only; regular periods\n      - text: \"Your answer: No endocrine flag alone. Correct classification: No endocrine flag alone.\"\n      - text: The Endocrine Society suggests against androgen testing in women with regular cycles and unwanted local hair without an abnormal hirsutism score. Hair removal is a reasonable cosmetic choice.\n    - strong: 7/7 on the first try\n    - list:\n      - generic: Coarse chin and chest hair over four months; her voice has deepened → Urgent assessment\n      - generic: Darkening of palm creases and gums, weight loss, feeling faint on standing → Urgent assessment\n      - generic: Wide purple abdominal striae, easy bruising, trouble climbing stairs → Endocrine referral\n      - generic: Several facial angiofibromas, no tuberous sclerosis; her father had parathyroid surgery → Endocrine referral\n      - generic: Itchy, rippled brown patch between the shoulder blades; an aunt had thyroid cancer → Endocrine referral\n      - generic: Puffy face after late nights; no bruising, striae or weakness → No endocrine flag alone\n      - generic: A few coarse hairs on the chin only; regular periods → No endocrine flag alone\n    - status:\n      - paragraph: Seven routed. Two need urgent assessment, three need an endocrine referral, and two can stay with skin-directed care.\n    - button \"Practice again\"\n    - button \"Back to saved result\"\n    - generic \"See the full model\"\n  - button \"Previous tap\":\n  - strong: \"22\"\n  - generic: of 25\n  - button \"Next tap\":\n    - generic: Next",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/2/22",
+    "width": 390
+  }
+}

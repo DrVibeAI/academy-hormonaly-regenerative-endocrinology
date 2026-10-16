@@ -1,0 +1,11 @@
+{
+  "label": "en-review-7-8",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"7\"\n  - progressbar \"Step 8 of 29\"\n  - main:\n    - paragraph:\n      - text: Quick check\n    - heading \"Three trials, grade A?\" [level=2]\n    - paragraph: \"A fictional serum's brochure says 'GRADE A: three randomized trials'. All three were run by the maker, enrolled 20 to 30 people each, lasted four weeks and measured skin hydration. Your patient wants fewer wrinkles. What is the most defensible certainty for that outcome?\"\n    - button \"A High, because three randomized trials agree.\" [disabled]:\n      - generic: A\n      - paragraph: High, because three randomized trials agree.\n    - 'button \"B Low or very low: small sponsor-run trials that measured hydration, not wrinkles.\" [disabled]':\n      - generic: B\n      - paragraph: \"Low or very low: small sponsor-run trials that measured hydration, not wrinkles.\"\n    - button \"C It cannot be graded, because industry-funded trials are invalid.\" [disabled]:\n      - generic: C\n      - paragraph: It cannot be graded, because industry-funded trials are invalid.\n    - button \"Practice again\"\n    - strong: Correct.\n    - paragraph: Grade the outcome the patient wants, then name what lowers it.\n    - generic \"See why and review the evidence\"\n    - paragraph:\n      - generic: A\n      - text: Randomized trials start high, but these are small, sponsor-run and measured a different outcome, and each of those lowers certainty.\n    - paragraph:\n      - generic: B\n      - text: Correct. Indirectness (the wrong outcome), imprecision (few people) and suspected publication bias (small industry-funded studies) all rate it down.\n    - paragraph:\n      - generic: C\n      - text: Sponsored trials are still evidence. Funding is a reason to rate cautiously and to look for replication; it never deletes a trial.\n  - button \"Previous tap\":\n  - strong: \"8\"\n  - generic: of 29\n  - button \"Next tap\":\n    - generic: Continue",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/7/8",
+    "width": 390
+  }
+}

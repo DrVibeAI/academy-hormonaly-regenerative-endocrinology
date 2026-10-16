@@ -1,0 +1,11 @@
+{
+  "label": "en-replay-1-16",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"1\"\n  - progressbar \"Step 16 of 25\"\n  - main:\n    - paragraph:\n      - text: Quick check\n    - heading \"'Your skin has receptors for it.'\" [level=2]\n    - paragraph: A brochure for a hormone-containing serum cites a single-cell atlas showing that dermal fibroblasts carry the RNA for that hormone's receptor. What does that finding establish?\n    - status: Practice mode · your completed result is saved.\n    - button \"A That the serum reaches those fibroblasts and improves the skin.\" [disabled]:\n      - generic: A\n      - paragraph: That the serum reaches those fibroblasts and improves the skin.\n    - button \"B That skin secretes the hormone and needs it replaced when levels fall.\" [disabled]:\n      - generic: B\n      - paragraph: That skin secretes the hormone and needs it replaced when levels fall.\n    - 'button \"C That fibroblasts may respond to the hormone: a hypothesis to confirm at the protein, function and clinical level.\" [disabled]':\n      - generic: C\n      - paragraph: \"That fibroblasts may respond to the hormone: a hypothesis to confirm at the protein, function and clinical level.\"\n    - button \"Practice again\"\n    - button \"Back to saved result\"\n    - strong: Correct.\n    - paragraph: A receptor on the map is where the question starts.\n    - generic \"See why and review the evidence\" [active]\n    - paragraph:\n      - generic: A\n      - text: That needs penetration data and a clinical trial; an RNA map provides neither.\n    - paragraph:\n      - generic: B\n      - text: The finding concerns a receptor, and RNA says nothing about secretion or deficiency.\n    - paragraph:\n      - generic: C\n      - text: Correct. The atlas's authors call such predictions putative and hypothesis-generating.\n  - button \"Previous tap\":\n  - strong: \"16\"\n  - generic: of 25\n  - button \"Next tap\":\n    - generic: Continue",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/1/16",
+    "width": 390
+  }
+}

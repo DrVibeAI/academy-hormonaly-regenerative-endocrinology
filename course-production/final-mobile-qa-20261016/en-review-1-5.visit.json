@@ -1,0 +1,11 @@
+{
+  "label": "en-review-1-5",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"1\"\n  - progressbar \"Step 5 of 25\"\n  - main:\n    - paragraph:\n      - text: Mechanism\n    - heading \"A steroid factory with local axes.\" [level=2]\n    - paragraph: Skin cells carry the enzymes to build steroids from cholesterol or to activate precursors arriving in the blood, and they run shortened copies of the body's central hormone axes. Each row names the evidence it rests on, because most of it comes from cells, tissue kept alive outside the body, or mice.\n    - strong: Steroid synthesis\n    - generic: Cholesterol to cortisol, androgens and estrogens\n    - generic: CYP11A1 starts the chain; 11β-HSD1, 5α-reductase and aromatase activate precursors from the blood. Cell and tissue studies.\n    - strong: HPA-like loop\n    - generic: CRH → ACTH → cortisol, with feedback\n    - generic: Human scalp follicles kept alive in culture. Ex vivo, human tissue.\n    - strong: Keratinocyte glucocorticoids\n    - generic: Set local immune tone\n    - generic: Genetic deletion in mouse keratinocytes. Animal evidence.\n    - strong: Thyroid-like loop\n    - generic: TRH, TSH and deiodinases → T3\n    - generic: Keratinocyte growth and the hair cycle. Mostly mouse models.\n    - strong: Somatotropic loop\n    - generic: GH and IGF-1\n    - generic: Human hair follicles, ex vivo.\n    - strong: Melanocortins\n    - generic: POMC → α-MSH, ACTH, β-endorphin\n    - generic: Pigment, barrier and local immune restraint. Module 05 returns to this.\n    - paragraph: A local axis explains biology. The Aesthetic & Regenerative Endocrinology guide calls it foundation, not a dosing rationale.\n  - button \"Previous tap\":\n  - strong: \"5\"\n  - generic: of 25\n  - button \"Next tap\" [active]:\n    - generic: Next",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/1/5",
+    "width": 390
+  }
+}

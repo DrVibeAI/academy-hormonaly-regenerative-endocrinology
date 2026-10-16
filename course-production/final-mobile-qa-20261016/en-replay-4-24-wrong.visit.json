@@ -1,0 +1,11 @@
+{
+  "label": "en-replay-4-24-wrong",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"4\"\n  - progressbar \"Step 24 of 25\"\n  - main:\n    - paragraph:\n      - text: Quick check\n    - heading \"After the July review.\" [level=2]\n    - paragraph: FDA's Pharmacy Compounding Advisory Committee reviewed BPC-157, KPV and TB-500 in July 2026. What does that change for 503A compounding today?\n    - status: Practice mode · your completed result is saved.\n    - button \"A They can now be compounded, because the committee reviewed them.\":\n      - generic: A\n      - paragraph: They can now be compounded, because the committee reviewed them.\n    - 'button \"B Nothing yet: the committee advises, FDA must still act by rulemaking, and until then compounded products do not qualify for the 503A exemptions.\"':\n      - generic: B\n      - paragraph: \"Nothing yet: the committee advises, FDA must still act by rulemaking, and until then compounded products do not qualify for the 503A exemptions.\"\n    - button \"C Only the injectable forms are restricted now.\" [active]:\n      - generic: C\n      - paragraph: Only the injectable forms are restricted now.\n    - button \"Back to saved result\"\n    - strong: Not yet.\n    - paragraph: See why each option stands or falls, then choose again.\n    - generic \"See why and review the evidence\"\n  - button \"Previous tap\":\n  - strong: \"24\"\n  - generic: of 25\n  - button \"Next tap\":\n    - generic: Try again",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/4/24",
+    "width": 390
+  }
+}

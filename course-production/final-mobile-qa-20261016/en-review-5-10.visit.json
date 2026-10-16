@@ -1,0 +1,11 @@
+{
+  "label": "en-review-5-10",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"5\"\n  - progressbar \"Step 10 of 25\"\n  - main:\n    - paragraph:\n      - text: Practice\n    - heading \"Pigment, adrenal, brain, sebum\" [level=2]\n    - paragraph: Those peptides act on five melanocortin receptors, and which receptors a drug reaches decides what else it does.\n    - strong: MC1R to MC5R\n    - paragraph: Five melanocortin receptors do four jobs. Find each job on the tiles.\n    - generic: Simplified map\n    - generic: 4/4\n    - group \"MC1R to MC5R\":\n      - 'button \"MC1R: pigment of skin and hair\"': \"1\"\n      - 'button \"MC2R: adrenal receptor for ACTH\"': \"2\"\n      - 'button \"MC3R and MC4R: appetite, in the brain\"': \"3\"\n      - 'button \"MC5R: sebum\"': \"4\"\n    - strong: \"MC5R: sebum\"\n    - paragraph: MC5R governs sebum. Reviewers note the real distribution is probably wider than this tidy map.\n    - status:\n      - paragraph: \"MC1R pigment, MC2R adrenal, MC3R and MC4R brain, MC5R sebum: which receptors a drug reaches decides what else it does.\"\n    - button \"Practice again\"\n  - button \"Previous tap\":\n  - strong: \"10\"\n  - generic: of 25\n  - button \"Next tap\":\n    - generic: Next",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/5/10",
+    "width": 390
+  }
+}

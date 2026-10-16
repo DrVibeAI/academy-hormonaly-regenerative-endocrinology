@@ -1,0 +1,11 @@
+{
+  "label": "en-replay-4-15",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"4\"\n  - progressbar \"Step 15 of 25\"\n  - main:\n    - paragraph:\n      - text: Quick check\n    - heading \"'Clinically proven' collagen.\" [level=2]\n    - paragraph: A patient shows you a collagen drink labelled 'clinically proven to reduce wrinkles'. What is the most accurate reply?\n    - status: Practice mode · your completed result is saved.\n    - button \"A The trials are real, but the benefit shows up only in industry-funded and lower-quality trials; independent, high-quality trials show no effect.\" [disabled]:\n      - generic: A\n      - paragraph: The trials are real, but the benefit shows up only in industry-funded and lower-quality trials; independent, high-quality trials show no effect.\n    - button \"B Meta-analyses prove that collagen improves skin.\" [disabled]:\n      - generic: B\n      - paragraph: Meta-analyses prove that collagen improves skin.\n    - button \"C Collagen is digested, so it cannot do anything.\" [disabled]:\n      - generic: C\n      - paragraph: Collagen is digested, so it cannot do anything.\n    - button \"Practice again\"\n    - button \"Back to saved result\"\n    - strong: Correct.\n    - paragraph: Ask who paid for the trial before you ask what it showed.\n    - generic \"See why and review the evidence\" [active]\n    - paragraph:\n      - generic: A\n      - text: Correct. That is what the 2025 funding-stratified meta-analysis found.\n    - paragraph:\n      - generic: B\n      - text: Pooled, yes. Split by funding and quality, the effect disappears in the independent and high-quality trials.\n    - paragraph:\n      - generic: C\n      - text: That is a mechanism argument. The course rests on the trials, and the problem with the trials is who ran them.\n  - button \"Previous tap\":\n  - strong: \"15\"\n  - generic: of 25\n  - button \"Next tap\":\n    - generic: Continue",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/4/15",
+    "width": 390
+  }
+}

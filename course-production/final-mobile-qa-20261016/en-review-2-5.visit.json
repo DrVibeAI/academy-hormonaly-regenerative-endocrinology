@@ -1,0 +1,11 @@
+{
+  "label": "en-review-2-5",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"2\"\n  - progressbar \"Step 5 of 25\"\n  - main:\n    - paragraph:\n      - text: Four registers\n    - 'heading \"11β-HSD1: four separate answers.\" [level=2]'\n    - paragraph: \"Local cortisol regeneration is a real and interesting mechanism. Each register below answers a different question, and blending them produces the line you will hear online: that blocking cortisol in the skin reverses ageing.\"\n    - strong: Mechanism\n    - generic: Plausible\n    - generic: Enzyme activity rises with age and sun exposure in human skin samples; knockout mice resist age-related dermal thinning\n    - strong: Human evidence\n    - generic: One pilot RCT · GRADE C\n    - generic: \"28 adults with type 2 diabetes took an oral inhibitor: the primary outcome was missed, wounds closed faster in an exploratory analysis, and barrier function was modestly worse\"\n    - strong: Regulatory status (US, 24 September 2026)\n    - generic: Investigational only\n    - generic: The inhibitor tested in human skin is a research compound with no FDA approval\n    - strong: Open question\n    - generic: Does it drive visible ageing?\n    - generic: No registered trial tests an 11β-HSD1 inhibitor for skin ageing (ClinicalTrials.gov, 24 September 2026)\n    - paragraph: Local cortisol is set inside the skin, independently of blood levels, so a systemic cortisol test does not measure it.\n  - button \"Previous tap\":\n  - strong: \"5\"\n  - generic: of 25\n  - button \"Next tap\" [active]:\n    - generic: Next",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/2/5",
+    "width": 390
+  }
+}

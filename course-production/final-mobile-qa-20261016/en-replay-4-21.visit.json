@@ -1,0 +1,11 @@
+{
+  "label": "en-replay-4-21",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"4\"\n  - progressbar \"Step 21 of 25\"\n  - main:\n    - paragraph:\n      - text: Regulatory status\n    - heading \"Where does it stand in the US?\" [level=2]\n    - status: Practice mode · your completed result is saved.\n    - strong: Where does it stand?\n    - paragraph: \"One product at a time: which US category is it in today?\"\n    - generic: 6/6\n    - paragraph:\n      - strong: Correct\n      - text: · TB-500\n      - text: \"Your answer: Not on the bulks list. Correct classification: Not on the bulks list.\"\n      - text: Same position as BPC-157 after the July 2026 review.\n    - strong: 6/6 on the first try\n    - list:\n      - generic: An Argireline serum → Cosmetic or supplement\n      - generic: An oral collagen drink → Cosmetic or supplement\n      - generic: \"Compounded topical GHK-Cu → Category 1: under evaluation\"\n      - generic: GHK-Cu for injection → Not on the bulks list\n      - generic: BPC-157 for injection → Not on the bulks list\n      - generic: TB-500 → Not on the bulks list\n    - status:\n      - paragraph: Six placed. Only one compounded peptide has Category 1 standing, and only for non-injectable use.\n    - button \"Practice again\"\n    - button \"Back to saved result\"\n    - complementary \"Regulatory status\":\n      - generic \"Regulatory status by country (6)\"\n    - generic \"See the full model\"\n  - button \"Previous tap\":\n  - strong: \"21\"\n  - generic: of 25\n  - button \"Next tap\":\n    - generic: Next",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/4/21",
+    "width": 390
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "label": "en-review-2-12",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"2\"\n  - progressbar \"Step 12 of 25\"\n  - main:\n    - paragraph:\n      - text: Practice\n    - heading \"Same receptors, different response\" [level=2]\n    - paragraph: \"Two panels of dermis: sun-protected on the left, sun-damaged on the right.\"\n    - strong: Where the collagen signal stops\n    - paragraph: Find the receptors on both sides, then where topical estradiol raised collagen and where it did not.\n    - generic: Mechanism only\n    - generic: 4/4\n    - group \"Where the collagen signal stops\":\n      - button \"Estrogen receptors, sun-protected skin\": \"1\"\n      - button \"Collagen production raised\": \"2\"\n      - button \"The same receptors, sun-damaged skin\": \"3\"\n      - button \"No collagen response, photoaged skin\": \"4\"\n    - strong: Collagen production raised\n    - paragraph: In postmenopausal women, two weeks of topical estradiol raised collagen production in sun-protected hip skin.\n    - status:\n      - paragraph: Estrogen receptors sit in sun-protected and sun-damaged skin alike, yet topical estradiol raised collagen only in sun-protected skin; what hormone therapy does to a face is a separate question.\n    - button \"Practice again\"\n  - button \"Previous tap\":\n  - strong: \"12\"\n  - generic: of 25\n  - button \"Next tap\":\n    - generic: Next",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/2/12",
+    "width": 390
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "label": "en-replay-4-9",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"4\"\n  - progressbar \"Step 9 of 25\"\n  - main:\n    - paragraph:\n      - text: Quick check\n    - heading \"Is the injection 'stronger'?\" [level=2]\n    - paragraph: A patient asks whether GHK-Cu injections are 'stronger' than the serum she uses. What does the evidence support?\n    - status: Practice mode · your completed result is saved.\n    - button \"A Yes — injection bypasses the skin barrier, so it must work better.\" [disabled]:\n      - generic: A\n      - paragraph: Yes — injection bypasses the skin barrier, so it must work better.\n    - button \"B The topical form has small-trial support; injection rests on anecdote, commonly irritates, and in the US sits outside the Category 1 listing.\" [disabled]:\n      - generic: B\n      - paragraph: The topical form has small-trial support; injection rests on anecdote, commonly irritates, and in the US sits outside the Category 1 listing.\n    - button \"C They are equivalent, because it is the same molecule.\" [disabled]:\n      - generic: C\n      - paragraph: They are equivalent, because it is the same molecule.\n    - button \"Practice again\"\n    - button \"Back to saved result\"\n    - strong: Correct.\n    - paragraph: \"Name the route, then the grade: topical C, injectable no trials.\"\n    - generic \"See why and review the evidence\" [active]\n    - paragraph:\n      - generic: A\n      - text: That is a mechanism argument. There are no randomized trials of injected GHK-Cu, so 'works better' has no evidence behind it.\n    - paragraph:\n      - generic: B\n      - text: Correct. Same molecule, different route, different evidence and different regulatory standing.\n    - paragraph:\n      - generic: C\n      - text: The molecule is the same; the route changes the evidence, the side-effects and the regulatory status.\n  - button \"Previous tap\":\n  - strong: \"9\"\n  - generic: of 25\n  - button \"Next tap\":\n    - generic: Continue",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/4/9",
+    "width": 390
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "label": "en-replay-1-15",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"1\"\n  - progressbar \"Step 15 of 25\"\n  - main:\n    - paragraph:\n      - text: Practice\n    - heading \"A serum page, line by line.\" [level=2]\n    - paragraph: A fictional product page that leans on the cell atlas.\n    - status: Practice mode · your completed result is saved.\n    - region \"Where the page overreaches\":\n      - paragraph: A fictional product page. Find the lines this lesson's evidence does not support.\n      - strong: 4/4\n      - group \"Inspect the document\":\n        - button \"The Hormone Cell Atlas (Science, 2026) read the RNA for 379 hormone and receptor genes in about 14 million cells and nuclei, skin among them.\" [pressed]\n        - button \"It proves your skin responds to the hormone in this serum.\" [pressed]\n        - button \"Treatments applied to the skin act through receptors the skin already carries.\"\n        - button \"So those receptors guarantee visible results.\" [pressed]\n        - button \"Your skin's response always matches the strength on the label.\" [pressed]\n        - button \"Skip sunscreen on serum days, so your skin can make its own vitamin D.\" [active] [pressed]\n      - status:\n        - paragraph:\n          - strong: Skip sunscreen on serum days, so your skin can make its own vitamin D.\n        - paragraph: Sunscreen blocks vitamin D synthesis under artificial UV, yet field trials of daily use did not lower blood levels, and high-protection products have not been trialled. Keep recommending sun protection, and treat vitamin D as its own question.\n      - status: \"Four lines overreach: an RNA prediction presented as proof, a receptor as a result, the label's strength as the skin's response, and vitamin D as a reason to drop sunscreen.\"\n    - button \"Practice again\"\n    - button \"Back to saved result\"\n  - button \"Previous tap\":\n  - strong: \"15\"\n  - generic: of 25\n  - button \"Next tap\":\n    - generic: Next",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/1/15",
+    "width": 390
+  }
+}

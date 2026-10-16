@@ -1,0 +1,11 @@
+{
+  "label": "en-replay-4-22",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"4\"\n  - progressbar \"Step 22 of 25\"\n  - main:\n    - paragraph:\n      - text: Practice\n    - heading \"From Category 1 to the bulks list\" [level=2]\n    - paragraph: US only, dated to FDA's category list of 14 May 2026.\n    - status: Practice mode · your completed result is saved.\n    - strong: GHK-Cu's road to the bulks list\n    - paragraph: In the US, non-injectable GHK-Cu is in Category 1. Put the steps in the order they must happen before it could join the 503A bulks list.\n    - generic: US only\n    - generic: 4/4\n    - list:\n      - generic: \"1\"\n      - strong: \"Category 1: FDA still evaluating\"\n      - paragraph: Where non-injectable GHK-Cu sits on FDA's list of 14 May 2026. FDA does not intend to act against compounders who meet its conditions while it evaluates; that is not an approval.\n      - generic: \"2\"\n      - strong: Advisory-committee consultation\n      - paragraph: Planned for GHK-Cu before the end of February 2027. The committee's votes are advice.\n      - generic: \"3\"\n      - strong: FDA acts through rulemaking\n      - paragraph: FDA must still act through rulemaking before anything joins the bulks list.\n      - generic: \"4\"\n      - strong: Joins the 503A bulks list\n      - paragraph: The last step. Until FDA acts, an advisory-committee review is not approval.\n    - status:\n      - paragraph: \"Category 1 is where the path starts, not where it ends: the committee advises, and FDA must still act through rulemaking before anything joins the bulks list.\"\n    - button \"Practice again\"\n    - button \"Back to saved result\"\n  - button \"Previous tap\":\n  - strong: \"22\"\n  - generic: of 25\n  - button \"Next tap\":\n    - generic: Next",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/4/22",
+    "width": 390
+  }
+}

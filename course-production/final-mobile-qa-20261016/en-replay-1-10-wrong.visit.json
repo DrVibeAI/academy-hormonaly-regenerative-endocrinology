@@ -1,0 +1,11 @@
+{
+  "label": "en-replay-1-10-wrong",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"1\"\n  - progressbar \"Step 10 of 25\"\n  - main:\n    - paragraph:\n      - text: Quick check\n    - heading \"'My skin makes its own cortisol.'\" [level=2]\n    - paragraph: Fictional case. A 52-year-old has new thin, easily bruised skin on her forearms, new violaceous striae and newly raised blood pressure. She has read that skin makes its own cortisol and asks whether a cream could calm it. Which reading is right?\n    - status: Practice mode · your completed result is saved.\n    - button \"A Her skin's own cortisol explains the picture, so the answer is local.\":\n      - generic: A\n      - paragraph: Her skin's own cortisol explains the picture, so the answer is local.\n    - button \"B The combination is a systemic pattern; the guide lists it as a reason for prompt endocrine referral before any skin treatment.\":\n      - generic: B\n      - paragraph: The combination is a systemic pattern; the guide lists it as a reason for prompt endocrine referral before any skin treatment.\n    - button \"C Local and systemic cortisol are interchangeable, so either explanation fits.\" [active]:\n      - generic: C\n      - paragraph: Local and systemic cortisol are interchangeable, so either explanation fits.\n    - button \"Back to saved result\"\n    - strong: Not yet.\n    - paragraph: See why each option stands or falls, then choose again.\n    - generic \"See why and review the evidence\"\n  - button \"Previous tap\":\n  - strong: \"10\"\n  - generic: of 25\n  - button \"Next tap\":\n    - generic: Try again",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/1/10",
+    "width": 390
+  }
+}

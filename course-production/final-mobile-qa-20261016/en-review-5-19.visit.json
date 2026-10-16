@@ -1,0 +1,11 @@
+{
+  "label": "en-review-5-19",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"5\"\n  - progressbar \"Step 19 of 25\"\n  - main:\n    - paragraph:\n      - text: The evidence\n    - heading \"Zero trials in people.\" [level=2]\n    - generic \"0\"\n    - generic: human trials of PTD-DBM, published or registered (September 2026)\n    - paragraph: \"Lee et al., J Invest Dermatol 2017: mice, plus CXXC5 measured in human scalp tissue\"\n    - generic: It means\n    - paragraph: Whether PTD-DBM regrows human hair is unknown. The Peptide Pocket Guide and this course grade it D.\n    - generic: It does not mean\n    - paragraph: \"It does not show that PTD-DBM fails or harms. One open safety question sits alongside: the 2025 review flags that off-target Wnt activation is associated with colorectal and liver cancers, a theoretical concern nobody has tested for this peptide.\"\n    - generic \"Context and nuance\" [active]\n  - button \"Previous tap\":\n  - strong: \"19\"\n  - generic: of 25\n  - button \"Next tap\":\n    - generic: Next",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/5/19",
+    "width": 390
+  }
+}

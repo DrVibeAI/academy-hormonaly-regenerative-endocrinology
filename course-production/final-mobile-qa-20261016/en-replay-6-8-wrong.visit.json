@@ -1,0 +1,11 @@
+{
+  "label": "en-replay-6-8-wrong",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"6\"\n  - progressbar \"Step 8 of 25\"\n  - main:\n    - paragraph:\n      - text: Quick check\n    - heading \"'Low for my age.'\" [level=2]\n    - paragraph: \"Fictional chart note: a healthy 58-year-old asks for growth hormone 'for her skin' after an online test reported her IGF-1 as 'below the range for a 30-year-old'. She has no pituitary history. What does the evidence support?\"\n    - status: Practice mode · your completed result is saved.\n    - button \"A Start growth hormone, because restoring a youthful IGF-1 thickens skin.\":\n      - generic: A\n      - paragraph: Start growth hormone, because restoring a youthful IGF-1 thickens skin.\n    - button \"B Read her IGF-1 against an age-matched range; without a diagnosed deficiency, the trials show small gains and more side-effects, so growth hormone is not the answer.\":\n      - generic: B\n      - paragraph: Read her IGF-1 against an age-matched range; without a diagnosed deficiency, the trials show small gains and more side-effects, so growth hormone is not the answer.\n    - button \"C Offer a secretagogue instead, because it raises her own growth hormone more gently.\" [active]:\n      - generic: C\n      - paragraph: Offer a secretagogue instead, because it raises her own growth hormone more gently.\n    - button \"Back to saved result\"\n    - strong: Not yet.\n    - paragraph: See why each option stands or falls, then choose again.\n    - generic \"See why and review the evidence\"\n  - button \"Previous tap\":\n  - strong: \"8\"\n  - generic: of 25\n  - button \"Next tap\":\n    - generic: Try again",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/6/8",
+    "width": 390
+  }
+}

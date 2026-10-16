@@ -1,0 +1,11 @@
+{
+  "label": "en-review-4-19",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"4\"\n  - progressbar \"Step 19 of 25\"\n  - main:\n    - paragraph:\n      - text: Worked example\n    - 'heading \"Two trials, one peptide: LL-37.\" [level=2]'\n    - paragraph: LL-37, the skin's own cathelicidin, is the one repair peptide with two randomized trials in hard-to-heal venous leg ulcers. Read them in order.\n    - strong: First trial (2014)\n    - generic: Positive at low dose\n    - generic: First-in-human, randomized, dose-ranging; 34 patients\n    - strong: Second trial (2021)\n    - generic: Negative in the full cohort\n    - generic: Multicentre phase IIb, placebo-controlled; only a post hoc subgroup signal\n    - strong: Who ran them\n    - generic: The developer, both times\n    - generic: Sponsorship does not make a trial wrong; it is one more reason to wait for replication\n    - strong: Grade\n    - generic: C — inconsistent\n    - generic: A small positive trial followed by an adequately powered negative one\n    - paragraph: A small positive trial is a hypothesis. LL-37 is what happens when someone tests it.\n  - button \"Previous tap\":\n  - strong: \"19\"\n  - generic: of 25\n  - button \"Next tap\" [active]:\n    - generic: Next",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/4/19",
+    "width": 390
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "label": "startup-recovery-browser-fixture",
+  "state": "- heading \"Recovered after missing deployment chunk\" [level=1]\n- paragraph: The automatic reload completed successfully.",
+  "metrics": {
+    "height": 720,
+    "media": [],
+    "scrollWidth": 1280,
+    "url": "http://127.0.0.1:8899/",
+    "width": 1280
+  }
+}

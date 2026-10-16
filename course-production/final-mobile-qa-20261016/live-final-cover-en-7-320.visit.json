@@ -1,0 +1,11 @@
+{
+  "label": "live-final-cover-en-7-320",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\" [active]:\n    - generic: \"7\"\n  - progressbar \"Step 1 of 29\"\n  - main:\n    - img \"Hormonaly\"\n    - generic: Academy\n    - paragraph: Module 07 · Evidence, regulation and compliance\n    - heading \"Grade it, check it, write it down.\" [level=2]\n    - paragraph: This last module turns the course into three habits. You will rate the certainty behind a claim with GRADE, read a compounding status and a certificate of analysis for what they do and do not prove, and write the consent and chart note that an unapproved product needs. The regulatory detail is given for the US in the lesson text, and for the UK, the EU, Portugal, Brazil and the UAE in each moment's regulatory note; lesson 7.2 covers the routes for unlicensed medicines and the rules on selling and advertising peptides outside the US.\n    - list:\n      - listitem: 7.1 Grading the evidence behind an aesthetic claim\n      - listitem: 7.2 Compounding law, the 40-amino-acid line and certificates of analysis\n      - listitem: \"7.3 Cosmetic, compounded or investigational: consent and the chart\"\n    - generic: 44 min\n    - paragraph: Presented by a digital avatar (AI-generated presenter and voice).\n  - button \"Previous tap\" [disabled]:\n  - strong: \"1\"\n  - generic: of 29\n  - button \"Next tap\":\n    - generic: Next",
+  "metrics": {
+    "height": 740,
+    "media": [],
+    "scrollWidth": 320,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/7/1",
+    "width": 320
+  }
+}

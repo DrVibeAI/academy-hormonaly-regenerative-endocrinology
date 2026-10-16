@@ -1,0 +1,11 @@
+{
+  "label": "en-review-6-14",
+  "state": "- main:\n  - button \"Back to the course\":\n  - button \"Ask the Guide\":\n  - button \"Switch module\":\n    - generic: \"6\"\n  - progressbar \"Step 14 of 25\"\n  - main:\n    - paragraph:\n      - text: Sort the evidence\n    - heading \"Approval-grade, hormone levels, or nothing?\" [level=2]\n    - strong: What stands behind it?\n    - paragraph: \"One product at a time: approval-grade trials, hormone levels only, or no human studies?\"\n    - generic: 7/7\n    - strong: 7/7 on the first try\n    - list:\n      - generic: Tesamorelin, for HIV-associated abdominal fat → Approval-grade trials for this use\n      - generic: Somatropin, for adult GH deficiency → Approval-grade trials for this use\n      - generic: Sermorelin, for youthful GH in healthy adults → Hormone levels rise; no benefit shown\n      - generic: CJC-1295 with DAC, for skin and recovery → Hormone levels rise; no benefit shown\n      - generic: CJC-1295 without DAC, for skin and sleep → No published human studies\n      - generic: Ipamorelin, for anti-ageing → Hormone levels rise; no benefit shown\n      - generic: IGF-1 LR3, for muscle and skin repair → No published human studies\n    - status:\n      - paragraph: Seven sorted. Two have approval-grade trials, each for its own indication. Three stop at hormone levels, and two have never been studied in people.\n    - button \"Practice again\"\n    - generic \"See the full model\" [active]\n  - button \"Previous tap\":\n  - strong: \"14\"\n  - generic: of 25\n  - button \"Next tap\":\n    - generic: Next",
+  "metrics": {
+    "height": 844,
+    "media": [],
+    "scrollWidth": 390,
+    "url": "https://hormonaly.perceptors.ai/login#/lesson/6/14",
+    "width": 390
+  }
+}

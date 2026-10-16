@@ -1,0 +1,23 @@
+{
+  "metadata": {
+    "labels": {
+      "client.knative.dev/nonce": "qvogkzaryx",
+      "cloud.googleapis.com/location": "us-central1",
+      "live-ok": "no",
+      "provenance": "checked",
+      "run.googleapis.com/startupProbeType": "Default",
+      "runtime-sha": "d81a55ba4fc2",
+      "serving.knative.dev/configuration": "academy-hormonaly",
+      "serving.knative.dev/configurationGeneration": "72",
+      "serving.knative.dev/route": "academy-hormonaly",
+      "serving.knative.dev/service": "academy-hormonaly",
+      "serving.knative.dev/serviceUid": "468b0aac-e7e4-4079-8126-4a2fb8f54f30",
+      "source-repo": "academy",
+      "source-sha": "27fc8ff48c4d"
+    },
+    "name": "academy-hormonaly-00072-8vk"
+  },
+  "status": {
+    "imageDigest": "us-central1-docker.pkg.dev/perceptors/cloud-run-source-deploy/academy-hormonaly@sha256:12ce11a224d5a18b75be320ec71f64d82b76d2f9e5bdf44c79d8b4b4a1ed5f4f"
+  }
+}
