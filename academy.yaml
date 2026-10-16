@@ -1,7 +1,7 @@
 academy: hormonaly
 deployment:
   serviceAccount: academy-hormonaly@perceptors.iam.gserviceaccount.com
-  reviewOnly: true
+  reviewOnly: false
   reviewNotice:
     en: Language review preview · Sorani translation and clinical review pending.
     ar: معاينة للمراجعة اللغوية · الترجمة السورانية والمراجعة السريرية قيد المراجعة.
