@@ -1,6 +1,6 @@
 # Hormonaly landing-page assets — 19 October 2026
 
-Status: prepared and locally verified; not deployed.
+Status: published 19 October 2026. Live revision academy-hormonaly-00091-gdn serves 100% of traffic at https://hormonaly.perceptors.ai/?home&lang=en.
 
 Visual direction: preserve the current Hormonaly page; display the real certificate as a legible document and authentic books as a compact shelf.
 Content: certificate section, faculty links, bookstore section.
@@ -29,5 +29,11 @@ Verification:
 - Screenshots alongside this file.
 - Public preview: http://127.0.0.1:4193/?home&lang=en
 
-Publication is pending Omar approval under /Users/omar/DrVibe/AGENTS.md.
-For release, recheck current production lineage, then use the unchanged runtime deploy/gcp.sh with this academy directory; run its required release suites and verify anonymous /api/certificate is 401.
+Publication approved explicitly by Omar, including operator enrollment setup. Published using the unchanged deploy/gcp.sh candidate and exact-revision promotion commands. All eight release evaluation suites and type checks passed. Live /_health reports app/db ok; anonymous /api/certificate returns 401. Deployment environment and service account are unchanged. Course package files and RAG index match the prior live deployment. All nine assets return the expected image/PDF content types. Candidate and live browser checks confirm certificate, faculty links and book covers; mobile shelf fits at 390px.
+
+Foundry enrollment: hormonaly-hormones-peptides-skin
+Canonical run: run-76e4274d-4ce7-40d0-9ee9-193e26e3a31d
+Release pin: 664764a67b5e779fe026d2cd0bfca2fe8f441723 (candidate channel)
+Execution: inspect; outcome inspected, revision 8. Approved landing change change-1c6378c4-4977-4368-8e42-7b730ae4b8df is reconciled. This is an existing-course presentation release through the operator deployment path. Legacy whole-course QA gaps remain reported; enrollment does not assert new whole-course completion or accreditation approval.
+
+Deployed source: 5915f9dea4f9; runtime: e865f01208c9. Source branch: release/hormonaly-landing-20261019. Live screenshots: live-bookstore-en.png and live-certificate-en.png. Release evaluations: ../evals/report-2026-10-19T165234Z.md.

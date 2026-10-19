@@ -1,3 +1,5 @@
+> Superseded: operator enrollment and publication completed on 19 October 2026. See README.md for canonical run, release and verification. The original hold below is retained as historical context.
+
 # Publication authorized; Foundry enrollment hold
 
 ## Owner request and decision
