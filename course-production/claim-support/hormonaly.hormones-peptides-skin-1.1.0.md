@@ -1,33 +1,35 @@
 # Claim support — Hormones and Peptides for Skin (v1.1.0)
 
-Generated 2026-10-12 12:27 UTC by `tools/qa/claim-support.mjs` · edition `en` · sources only (no judge) · package sha256 `6419297d6d01` · content digest `c159cbb52459`
+Generated 2026-10-20 13:27 UTC by `tools/qa/claim-support.mjs` · edition `en` · sources only (no judge) · package sha256 `6419297d6d01` · content digest `c159cbb52459`
 
 Read-before-cite check (docs/claim-support.md). Every quoted passage below was found, after normalization, in the text fetched from the cited source. A judgment without a verified passage is reported as *unverified*, never as support. This report recommends; humans decide.
+
+**Incomplete check: source-read, judge or panel-vote errors remain. Strict QA blocks; rerun these checks.**
 
 ## Summary
 
 - 774 cited unit(s) · 0 factual assertion(s) · 0 unit(s) with nothing checkable
 - supported 0 · partial 0 · contradicted 0 · not found 0 · unverified 0
 - **0 blocking · 0 major · 0 minor**
-- sources: 50 unavailable · 22 landing page (little more than a title) · 39 pdf (full document) · 106 web page (the cited page itself) · 67 full text · 128 abstract only
+- sources: 49 unavailable · 23 landing page (little more than a title) · 39 pdf (full document) · 106 web page (the cited page itself) · 67 full text · 128 abstract only
 
 ## Citation hygiene: 72 of 412 sources do not lead to readable evidence
 
 Every unit citing these can only be checked as far as the page allows. Point each registry entry at the specific document, table or record (a report PDF with a text layer, the article DOI, the database record URL), then re-run.
 
-- `ae-ede-reg-wegovy` → no readable text (https://services.ede.gov.ae/drugdirectory/Products/Details/16100): the cited URL has no readable text (landing page or JavaScript app) — cite the specific record or document · cited by 2 unit(s)
+- `ae-ede-reg-wegovy` → no readable text (https://services.ede.gov.ae/drugdirectory/Products/Details/16100): HTTP 404 at https://services.ede.gov.ae/drugdirectory/Products/Details/16100 · cited by 2 unit(s)
 - `ae-ede-register` → landing or portal page (https://services.ede.gov.ae/drugdirectory): the cited page is a landing or portal page (6246 characters, 0 in prose paragraphs) — cite the specific document or record · cited by 38 unit(s)
 - `ae-ede-news-oral-wegovy` → landing or portal page (https://www.ede.gov.ae/en/w/emirates-drug-establishment-approves-oral-wegovy%C2%AE-semaglutide-for-weight-management-and-cardiovascular-risk-reduction): the cited page is a landing or portal page (3595 characters, 3062 in prose paragraphs) — cite the specific document or record · cited by 2 unit(s)
-- `ae-ede-reg-mounjaro` → no readable text (https://services.ede.gov.ae/drugdirectory/Products/Details/9080): the cited URL has no readable text (landing page or JavaScript app) — cite the specific record or document · cited by 2 unit(s)
-- `ae-ede-reg-olumiant` → no readable text (https://services.ede.gov.ae/drugdirectory/Products/Details/17066): the cited URL has no readable text (landing page or JavaScript app) — cite the specific record or document · cited by 3 unit(s)
-- `ae-ede-reg-regaine` → no readable text (https://services.ede.gov.ae/drugdirectory/Products/Details/12694): the cited URL has no readable text (landing page or JavaScript app) — cite the specific record or document · cited by 2 unit(s)
-- `ae-ede-reg-propecia` → no readable text (https://services.ede.gov.ae/drugdirectory/Products/Details/12167): the cited URL has no readable text (landing page or JavaScript app) — cite the specific record or document · cited by 2 unit(s)
-- `ae-ede-reg-fincrezo` → no readable text (https://services.ede.gov.ae/drugdirectory/Products/Details/5717): the cited URL has no readable text (landing page or JavaScript app) — cite the specific record or document · cited by 2 unit(s)
-- `ae-ede-reg-genotropin` → no readable text (https://services.ede.gov.ae/drugdirectory/Products/Details/6272): the cited URL has no readable text (landing page or JavaScript app) — cite the specific record or document · cited by 3 unit(s)
+- `ae-ede-reg-mounjaro` → no readable text (https://services.ede.gov.ae/drugdirectory/Products/Details/9080): HTTP 404 at https://services.ede.gov.ae/drugdirectory/Products/Details/9080 · cited by 2 unit(s)
+- `ae-ede-reg-olumiant` → no readable text (https://services.ede.gov.ae/drugdirectory/Products/Details/17066): HTTP 404 at https://services.ede.gov.ae/drugdirectory/Products/Details/17066 · cited by 3 unit(s)
+- `ae-ede-reg-regaine` → no readable text (https://services.ede.gov.ae/drugdirectory/Products/Details/12694): HTTP 404 at https://services.ede.gov.ae/drugdirectory/Products/Details/12694 · cited by 2 unit(s)
+- `ae-ede-reg-propecia` → no readable text (https://services.ede.gov.ae/drugdirectory/Products/Details/12167): HTTP 404 at https://services.ede.gov.ae/drugdirectory/Products/Details/12167 · cited by 2 unit(s)
+- `ae-ede-reg-fincrezo` → no readable text (https://services.ede.gov.ae/drugdirectory/Products/Details/5717): HTTP 404 at https://services.ede.gov.ae/drugdirectory/Products/Details/5717 · cited by 2 unit(s)
+- `ae-ede-reg-genotropin` → no readable text (https://services.ede.gov.ae/drugdirectory/Products/Details/6272): HTTP 404 at https://services.ede.gov.ae/drugdirectory/Products/Details/6272 · cited by 3 unit(s)
 - `ae-mohap-md-306-2023` → no readable text (https://www.dha.gov.ae/uploads/112023/Ministerial%20Decision%20no20231126852.pdf): PDF has no usable text layer (0 characters over 8 pages) — needs OCR or a text edition of the document · cited by 2 unit(s)
-- `ae-ede-reg-oestrogel` → no readable text (https://services.ede.gov.ae/drugdirectory/Products/Details/10813): the cited URL has no readable text (landing page or JavaScript app) — cite the specific record or document · cited by 2 unit(s)
-- `ae-ede-reg-collafix` → no readable text (https://services.ede.gov.ae/drugdirectory/Products/Details/3637): the cited URL has no readable text (landing page or JavaScript app) — cite the specific record or document · cited by 2 unit(s)
-- `ae-ede-reg-centrum-shn` → no readable text (https://services.ede.gov.ae/drugdirectory/Products/Details/3412): the cited URL has no readable text (landing page or JavaScript app) — cite the specific record or document · cited by 2 unit(s)
+- `ae-ede-reg-oestrogel` → no readable text (https://services.ede.gov.ae/drugdirectory/Products/Details/10813): HTTP 404 at https://services.ede.gov.ae/drugdirectory/Products/Details/10813 · cited by 2 unit(s)
+- `ae-ede-reg-collafix` → no readable text (https://services.ede.gov.ae/drugdirectory/Products/Details/3637): HTTP 404 at https://services.ede.gov.ae/drugdirectory/Products/Details/3637 · cited by 2 unit(s)
+- `ae-ede-reg-centrum-shn` → no readable text (https://services.ede.gov.ae/drugdirectory/Products/Details/3412): HTTP 404 at https://services.ede.gov.ae/drugdirectory/Products/Details/3412 · cited by 2 unit(s)
 - `ae-fdl-28-2023` → no readable text (https://uaelegislation.gov.ae/en/legislations/2122): HTTP 403 at https://uaelegislation.gov.ae/en/legislations/2122 · cited by 23 unit(s)
 - `ae-fdl-38-2024` → no readable text (https://uaelegislation.gov.ae/en/legislations/2751): HTTP 403 at https://uaelegislation.gov.ae/en/legislations/2751 · cited by 33 unit(s)
 - `ae-ede-svc-classification` → landing or portal page (https://www.ede.gov.ae/en/w/classification-of-a-product): the cited page is a landing or portal page (3383 characters, 1675 in prose paragraphs) — cite the specific document or record · cited by 5 unit(s)
@@ -79,7 +81,7 @@ Every unit citing these can only be checked as far as the page allows. Point eac
 - `fda-drugsatfda-propecia-020788` → landing or portal page (https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=020788): the cited page is a landing or portal page (10599 characters, 283 in prose paragraphs) — cite the specific document or record · cited by 5 unit(s)
 - `paurobally-2013-melanotan-melanonychia` → no readable text (https://pubmed.ncbi.nlm.nih.gov/22182016/): Europe PMC record has no abstract · OpenAlex has no abstract and no readable open-access copy · the cited URL has no readable text (landing page or JavaScript app) — cite the specific record or docum… · cited by 5 unit(s)
 - `tga-2026-melanotan-ii-safety-advisory` → no readable text (https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/melanotan-ii-tanning-peptide-products-found-be-inconsistently-dosed): www.tga.gov.au: ETIMEDOUT · cited by 7 unit(s)
-- `usc-21-333e-hgh` → no readable text (https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title21-section333&num=0&edition=prelim): the cited URL has no readable text (landing page or JavaScript app) — cite the specific record or document · cited by 5 unit(s)
+- `usc-21-333e-hgh` → landing or portal page (https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title21-section333&num=0&edition=prelim): the cited page is a landing or portal page (1132 characters, 361 in prose paragraphs) — cite the specific document or record · cited by 5 unit(s)
 - `fda-drugsatfda-geref` → landing or portal page (https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=020443): the cited page is a landing or portal page (1709 characters, 557 in prose paragraphs) — cite the specific document or record · cited by 3 unit(s)
 - `mhra-products-database-search-2026-09-25` → no readable text (https://products.mhra.gov.uk/search/?search=tesamorelin&page=1): the cited URL has no readable text (landing page or JavaScript app) — cite the specific record or document · cited by 7 unit(s)
 - `fda-outsourcing-facilities-503b` → landing or portal page (https://www.fda.gov/drugs/human-drug-compounding/information-outsourcing-facilities): the cited page is a landing or portal page (3159 characters, 1719 in prose paragraphs) — cite the specific document or record · cited by 5 unit(s)
@@ -92,21 +94,21 @@ Every unit citing these can only be checked as far as the page allows. Point eac
 
 | id | basis | resolved via | chars | note |
 | --- | --- | --- | ---: | --- |
-| ae-ede-reg-wegovy | UNAVAILABLE | — | 0 | the cited URL has no readable text (landing page or JavaScript app) — cite the specific record or document |
+| ae-ede-reg-wegovy | UNAVAILABLE | — | 0 | HTTP 404 at https://services.ede.gov.ae/drugdirectory/Products/Details/16100 |
 | ae-ede-register | LANDING PAGE (little more than a title) | url:landing | 6,351 | the cited page is a landing or portal page (6246 characters, 0 in prose paragraphs) — cite the specific document or record |
 | ae-ede-news-oral-wegovy | LANDING PAGE (little more than a title) | url:landing | 3,664 | the cited page is a landing or portal page (3595 characters, 3062 in prose paragraphs) — cite the specific document or record |
-| ae-ede-reg-mounjaro | UNAVAILABLE | — | 0 | the cited URL has no readable text (landing page or JavaScript app) — cite the specific record or document |
+| ae-ede-reg-mounjaro | UNAVAILABLE | — | 0 | HTTP 404 at https://services.ede.gov.ae/drugdirectory/Products/Details/9080 |
 | ae-mohap-cir-9217-2024 | PDF (full document) | url:pdf | 4,735 |  |
 | ae-doh-cir-112-2025 | PDF (full document) | url:pdf | 4,049 |  |
-| ae-ede-reg-olumiant | UNAVAILABLE | — | 0 | the cited URL has no readable text (landing page or JavaScript app) — cite the specific record or document |
-| ae-ede-reg-regaine | UNAVAILABLE | — | 0 | the cited URL has no readable text (landing page or JavaScript app) — cite the specific record or document |
-| ae-ede-reg-propecia | UNAVAILABLE | — | 0 | the cited URL has no readable text (landing page or JavaScript app) — cite the specific record or document |
-| ae-ede-reg-fincrezo | UNAVAILABLE | — | 0 | the cited URL has no readable text (landing page or JavaScript app) — cite the specific record or document |
-| ae-ede-reg-genotropin | UNAVAILABLE | — | 0 | the cited URL has no readable text (landing page or JavaScript app) — cite the specific record or document |
+| ae-ede-reg-olumiant | UNAVAILABLE | — | 0 | HTTP 404 at https://services.ede.gov.ae/drugdirectory/Products/Details/17066 |
+| ae-ede-reg-regaine | UNAVAILABLE | — | 0 | HTTP 404 at https://services.ede.gov.ae/drugdirectory/Products/Details/12694 |
+| ae-ede-reg-propecia | UNAVAILABLE | — | 0 | HTTP 404 at https://services.ede.gov.ae/drugdirectory/Products/Details/12167 |
+| ae-ede-reg-fincrezo | UNAVAILABLE | — | 0 | HTTP 404 at https://services.ede.gov.ae/drugdirectory/Products/Details/5717 |
+| ae-ede-reg-genotropin | UNAVAILABLE | — | 0 | HTTP 404 at https://services.ede.gov.ae/drugdirectory/Products/Details/6272 |
 | ae-mohap-md-306-2023 | UNAVAILABLE | — | 0 | PDF has no usable text layer (0 characters over 8 pages) — needs OCR or a text edition of the document |
-| ae-ede-reg-oestrogel | UNAVAILABLE | — | 0 | the cited URL has no readable text (landing page or JavaScript app) — cite the specific record or document |
-| ae-ede-reg-collafix | UNAVAILABLE | — | 0 | the cited URL has no readable text (landing page or JavaScript app) — cite the specific record or document |
-| ae-ede-reg-centrum-shn | UNAVAILABLE | — | 0 | the cited URL has no readable text (landing page or JavaScript app) — cite the specific record or document |
+| ae-ede-reg-oestrogel | UNAVAILABLE | — | 0 | HTTP 404 at https://services.ede.gov.ae/drugdirectory/Products/Details/10813 |
+| ae-ede-reg-collafix | UNAVAILABLE | — | 0 | HTTP 404 at https://services.ede.gov.ae/drugdirectory/Products/Details/3637 |
+| ae-ede-reg-centrum-shn | UNAVAILABLE | — | 0 | HTTP 404 at https://services.ede.gov.ae/drugdirectory/Products/Details/3412 |
 | ae-fdl-28-2023 | UNAVAILABLE | — | 0 | HTTP 403 at https://uaelegislation.gov.ae/en/legislations/2122 |
 | ae-fdl-38-2024 | UNAVAILABLE | — | 0 | HTTP 403 at https://uaelegislation.gov.ae/en/legislations/2751 |
 | ae-dha-cir-peptides-2026 | PDF (full document) | url:pdf | 15,209 |  |
@@ -439,7 +441,7 @@ Every unit citing these can only be checked as far as the page allows. Point eac
 | papadakis-1996-gh-wound-healing | ABSTRACT ONLY | europepmc:EXT_ID → europepmc:abstract | 1,354 |  |
 | liu-2007-gh-healthy-elderly | ABSTRACT ONLY | europepmc:EXT_ID → europepmc:abstract | 2,920 |  |
 | blackman-2002-gh-sex-steroids-rct | ABSTRACT ONLY | europepmc:EXT_ID → europepmc:abstract | 3,312 |  |
-| usc-21-333e-hgh | UNAVAILABLE | — | 0 | the cited URL has no readable text (landing page or JavaScript app) — cite the specific record or document |
+| usc-21-333e-hgh | LANDING PAGE (little more than a title) | url:landing | 1,369 | the cited page is a landing or portal page (1132 characters, 361 in prose paragraphs) — cite the specific document or record |
 | falutz-2007-tesamorelin-nejm | ABSTRACT ONLY | europepmc:EXT_ID → europepmc:abstract | 2,116 | HTTP 403 at https://www.nejm.org/doi/pdf/10.1056/NEJMoa072375?articleTools=true · HTTP 403 at https://doi.org/10.1056/nejmoa072375 |
 | falutz-2010-tesamorelin-pooled | ABSTRACT ONLY | europepmc:EXT_ID → europepmc:abstract | 2,871 |  |
 | egrifta-wr-label-2026 | WEB PAGE (the cited page itself) | url:webpage | 75,663 |  |
