@@ -1186,6 +1186,8 @@ admins:
   - fady@hormonaly.ai
 editing:
   enabled: true
+  reviewers:
+    - fady@hormonaly.ai
   publishers:
     - omar@hormonaly.ai
     - omar@perceptors.ai
