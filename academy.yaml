@@ -322,7 +322,8 @@ home:
       ar-AE: هيئة التدريس والمجلس الاستشاري
       ckb-IQ: دەستەی وانەبێژان و ڕاوێژکاری
     items:
-      - name: Fady Hannah-Shmouni, MD, FRCPC, ABIM
+      - id: fady-hannah-shmouni
+        name: Fady Hannah-Shmouni, MD, FRCPC, ABIM
         designation:
           en: Faculty · Medical review
           ar-AE: هيئة التدريس · المراجعة الطبية
@@ -338,7 +339,8 @@ home:
             ar: الملف الشخصي على لينكدإن
             ckb-IQ: پڕۆفایلی LinkedIn
         image: assets/faculty/fady-hannah-shmouni-wide.png
-      - name: Professor Dr. Dominik Thor, MSc
+      - id: dominik-thor
+        name: Professor Dr. Dominik Thor, MSc
         designation:
           en: Advisory
           ar-AE: المجلس الاستشاري
@@ -356,7 +358,8 @@ home:
             ar: الملف الشخصي على لينكدإن
             ckb-IQ: پڕۆفایلی LinkedIn
         image: assets/faculty/dominik-thor-wide.png
-      - name: Omar Saleem, MD
+      - id: omar-saleem
+        name: Omar Saleem, MD
         designation:
           en: Advisory
           ar-AE: المجلس الاستشاري
