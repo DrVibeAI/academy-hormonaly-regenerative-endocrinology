@@ -1,0 +1,140 @@
+{
+  "locale": "id",
+  "model": "gemini-3.7-flash",
+  "status": "agent-pre-review",
+  "sourceFlags": 22,
+  "findings": [
+    {
+      "path": "/provenance/citations/63/note",
+      "category": "harmless",
+      "reason": "Exact match for dates, edition, and question numbers.",
+      "correction": ""
+    },
+    {
+      "path": "/provenance/citations/310/note",
+      "category": "harmless",
+      "reason": "Standard decimal comma conversion (P<0,00001) and identical dates/identifiers.",
+      "correction": ""
+    },
+    {
+      "path": "/provenance/citations/368/note",
+      "category": "harmless",
+      "reason": "Standard Indonesian thousands separators and decimal commas matching English numerical data.",
+      "correction": ""
+    },
+    {
+      "path": "/curriculum/modules/0/units/0/blocks/16/metadata/audioScript",
+      "category": "harmless",
+      "reason": "Spelled-out 'six and eight' accurately localized as digits 'interleukin-6 dan 8'.",
+      "correction": ""
+    },
+    {
+      "path": "/curriculum/modules/0/units/0/blocks/20/metadata/audioScript",
+      "category": "harmless",
+      "reason": "Spelled-out decade 'late eighties' rendered as 'akhir 80-an' with all clinical trial counts preserved.",
+      "correction": ""
+    },
+    {
+      "path": "/curriculum/modules/1/units/0/blocks/10/metadata/audioScript",
+      "category": "harmless",
+      "reason": "Spelled-out decades (nineteen eighties and nineties) accurately localized as digits (1980-an dan 1990-an).",
+      "correction": ""
+    },
+    {
+      "path": "/curriculum/modules/1/units/0/blocks/13/tool/items/1/note",
+      "category": "harmless",
+      "reason": "Spelled-out number 'four-year' rendered as digit '4 tahun' with exact numerical preservation.",
+      "correction": ""
+    },
+    {
+      "path": "/curriculum/modules/1/units/0/blocks/22/metadata/audioScript",
+      "category": "harmless",
+      "reason": "Spelled-out age 'twenty-nine' rendered as digit '29 tahun' without clinical discrepancy.",
+      "correction": ""
+    },
+    {
+      "path": "/curriculum/modules/2/units/0/blocks/17/metadata/audioScript",
+      "category": "harmless",
+      "reason": "Spelled-out age 'fifty-eight-year-old' and percentage 'eighteen percent' accurately rendered as digits ('58 tahun', '18 persen').",
+      "correction": ""
+    },
+    {
+      "path": "/curriculum/modules/4/units/0/blocks/1/metadata/videoTranscript",
+      "category": "harmless",
+      "reason": "Enzyme name 'five-alpha-reductase' translated with digit format '5-alfa-reduktase'.",
+      "correction": ""
+    },
+    {
+      "path": "/curriculum/modules/4/units/0/blocks/2/metadata/audioScript",
+      "category": "harmless",
+      "reason": "Enzyme name 'five-alpha-reductase' rendered as standard '5-alfa-reduktase'.",
+      "correction": ""
+    },
+    {
+      "path": "/curriculum/modules/4/units/0/blocks/10/tool/items/1/note",
+      "category": "harmless",
+      "reason": "All numbers, phases, and grades match the source text.",
+      "correction": ""
+    },
+    {
+      "path": "/curriculum/modules/4/units/0/blocks/13/interaction/items/2/why",
+      "category": "harmless",
+      "reason": "All sample quantities, dates, and evidence grades match.",
+      "correction": ""
+    },
+    {
+      "path": "/curriculum/modules/4/units/0/blocks/21/metadata/audioScript",
+      "category": "harmless",
+      "reason": "Spelled-out date 'fourteenth of May, twenty twenty-six' accurately written as '14 Mei 2026' with all regulatory categories preserved.",
+      "correction": ""
+    },
+    {
+      "path": "/curriculum/modules/4/check/options/1/text",
+      "category": "harmless",
+      "reason": "Date decade '1990s' and evidence grade (D) are preserved correctly.",
+      "correction": ""
+    },
+    {
+      "path": "/curriculum/modules/5/units/0/blocks/6/metadata/audioScript",
+      "category": "harmless",
+      "reason": "The English spelled-out decade 'fifties' is appropriately translated as numeric decade '50-an'.",
+      "correction": ""
+    },
+    {
+      "path": "/curriculum/modules/5/units/0/blocks/6/metadata/variants/jurisdiction/EU/text",
+      "category": "harmless",
+      "reason": "Dates, decade reference (1980s to 1980-an), and citation years match accurately.",
+      "correction": ""
+    },
+    {
+      "path": "/curriculum/modules/5/units/0/blocks/14/metadata/variants/jurisdiction/EU/text",
+      "category": "harmless",
+      "reason": "All dates, product identifiers, and decade references match accurately.",
+      "correction": ""
+    },
+    {
+      "path": "/curriculum/modules/5/units/0/blocks/22/metadata/audioScript",
+      "category": "harmless",
+      "reason": "The English spelled-out age 'fifty-two' is rendered as digits '52', with duration and product identifiers fully preserved.",
+      "correction": ""
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/23/points/1",
+      "category": "harmless",
+      "reason": "The regulatory designation '503A' is accurately preserved.",
+      "correction": ""
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/23/interaction/notice/1",
+      "category": "harmless",
+      "reason": "The regulatory designation '503A' and date 'Juli 2026' match the source.",
+      "correction": ""
+    },
+    {
+      "path": "/tutorCorpus/8/answer",
+      "category": "harmless",
+      "reason": "All clinical trial phases, receptor identifiers, dates, frequencies, and decade references match accurately.",
+      "correction": ""
+    }
+  ]
+}

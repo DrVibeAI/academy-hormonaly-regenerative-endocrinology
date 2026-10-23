@@ -1,0 +1,35 @@
+[
+  {
+    "partner": "Cenegenics",
+    "locale": "es-MX",
+    "sourceSha256": "6419297d6d012d8c8e5b58909e9e9f1f950443aa548ca20618017dbb0ebfa4fa",
+    "translatedPaths": 3797,
+    "neutralizedEdits": 41,
+    "identicalLongStrings": [],
+    "package": "/Users/omar/Library/CloudStorage/GoogleDrive-omarfsaleem@gmail.com/My Drive/DrVibe/academy-hormonaly-regenerative-endocrinology/course-production/hormones-peptides-skin/editions-20260929/candidates/cenegenics.es-MX.json",
+    "status": "draft",
+    "publishReady": false
+  },
+  {
+    "partner": "Biolongeva",
+    "locale": "pt-BR",
+    "sourceSha256": "6419297d6d012d8c8e5b58909e9e9f1f950443aa548ca20618017dbb0ebfa4fa",
+    "translatedPaths": 3797,
+    "neutralizedEdits": 41,
+    "identicalLongStrings": [],
+    "package": "/Users/omar/Library/CloudStorage/GoogleDrive-omarfsaleem@gmail.com/My Drive/DrVibe/academy-hormonaly-regenerative-endocrinology/course-production/hormones-peptides-skin/editions-20260929/candidates/biolongeva.pt-BR.json",
+    "status": "draft",
+    "publishReady": false
+  },
+  {
+    "partner": "Parallaxnet Healthcare",
+    "locale": "id",
+    "sourceSha256": "6419297d6d012d8c8e5b58909e9e9f1f950443aa548ca20618017dbb0ebfa4fa",
+    "translatedPaths": 3797,
+    "neutralizedEdits": 41,
+    "identicalLongStrings": [],
+    "package": "/Users/omar/Library/CloudStorage/GoogleDrive-omarfsaleem@gmail.com/My Drive/DrVibe/academy-hormonaly-regenerative-endocrinology/course-production/hormones-peptides-skin/editions-20260929/candidates/parallaxnet-skin.id.json",
+    "status": "draft",
+    "publishReady": false
+  }
+]

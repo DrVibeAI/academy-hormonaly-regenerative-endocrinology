@@ -1,0 +1,30 @@
+{
+  "academy": {"slug": "parallaxnet-skin", "name": "Parallaxnet Healthcare"},
+  "locales": {"base": "en", "editions": ["id"]},
+  "jurisdictions": ["ID"],
+  "production": {
+    "workstream": "Peptides for Skin: Parallaxnet Healthcare clinician edition for Indonesia",
+    "excludedWorkstreams": ["Philippines and Malaysia localization", "Parallaxnet AI courses"],
+    "adaptation": {
+      "mode": "adapt-existing",
+      "sourceInventory": "Hormonaly hormones-peptides-skin package 1.1.0, SHA256 6419297d6d012d8c8e5b58909e9e9f1f950443aa548ca20618017dbb0ebfa4fa, plus Parallaxnet presentation overlay",
+      "preserve": "Stable unit IDs, evidence grades, citations, clinical uncertainty, assessment intent and safety boundaries",
+      "change": "Bahasa Indonesia, BPOM regulatory layer, localized course media and Parallaxnet presentation"
+    },
+    "experience": {
+      "surface": "linked-from-app",
+      "features": ["invitation access", "course player", "checks", "tutor", "completion"],
+      "authentication": "Existing Parallaxnet store tenant",
+      "progressOwner": "Parallaxnet course academy",
+      "completionRule": "Existing course completion logic; localized credential presentation pending",
+      "accessibilityNeeds": "Captions, transcript and mobile controls"
+    },
+    "localization": {
+      "rollout": "staged",
+      "editions": [
+        {"locale":"en","priority":1,"mediaMode":"text","existingAssets":"Current English Parallaxnet skin presentation edition","terminology":"Source clinical terminology","reviewer":{}},
+        {"locale":"id","priority":2,"mediaMode":"full-media","existingAssets":"Store chrome has Bahasa Indonesia; skin course does not","terminology":"Indonesian clinical terminology; BPOM registration and cosmetic terms","reviewer":{},"voicePlan":"Indonesian narration voice and presenter authorization pending"}
+      ]
+    }
+  }
+}

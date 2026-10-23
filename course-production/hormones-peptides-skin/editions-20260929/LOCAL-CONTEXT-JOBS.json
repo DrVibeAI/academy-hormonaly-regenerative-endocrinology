@@ -1,0 +1,2668 @@
+{
+  "sourcePackage": "hormonaly.hormones-peptides-skin",
+  "sourceSha256": "6419297d6d012d8c8e5b58909e9e9f1f950443aa548ca20618017dbb0ebfa4fa",
+  "jobs": [
+    {
+      "path": "/curriculum/modules/1/units/0/blocks/4/tool/items/2/label",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "233e74a0b48e870012624565073c6f4acf4079fbcf1c05a14e96058d16cb7239",
+      "sourceExcerpt": "Regulatory status (US, 24 September 2026)",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/1/units/0/blocks/4/tool/items/2/note",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "573f97b978163a10f2ee34ccb935660050fdf0a79e9d1f93cfdc7c137383aa81",
+      "sourceExcerpt": "The inhibitor tested in human skin is a research compound with no FDA approval",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/1/units/0/blocks/15/body",
+      "categories": [
+        "US-regulator",
+        "US-geography"
+      ],
+      "sourceHash": "e4332726fc483b32bfec7ae8e4f2f91e3bdc5d6f79c293cddedd51b5cafd0b33",
+      "sourceExcerpt": "In the US, as of February 2026, FDA-approved menopausal hormone therapy is for moderate-to-severe hot flashes, vaginal and vulvar symptoms and, for some products, preventing bone loss. FDA's 2025–26 labeling changes remo",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/1/units/0/blocks/15/audioBeats/0/body",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "6a0d7f0a4a299f3aabb778a8370f1cfb23128e50703a20f5020562c58210efc1",
+      "sourceExcerpt": "In the US, hot flashes, vaginal and vulvar symptoms and, for some products, bone loss. The 2025–26 label changes did not add skin.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/1/units/0/blocks/15/audioBeats/2/body",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "84cd89d5eed179e00df23fceecd8a20c2528c6b3150aee80256639f9f58c6747",
+      "sourceExcerpt": "Compounded 'bioidentical' preparations lack efficacy and safety data, and over-the-counter 'hormone creams' are unapproved drugs under US rules. Daily sunscreen and a prescription retinoid have better evidence for the sk",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/1/units/0/blocks/15/metadata/audioScript",
+      "categories": [
+        "US-regulator",
+        "US-geography"
+      ],
+      "sourceHash": "ef015508ee1c3511206a3f7edbfa437425d39bd6b5a74d33149f5adc9e05367d",
+      "sourceExcerpt": "Where does that leave hormone therapy for skin? In the United States, as of February 2026, the approved uses of menopausal hormone therapy are hot flashes, vaginal and vulvar symptoms, and for some products the preventio",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/1/units/0/blocks/15/metadata/variants/audienceLevel/prescriber",
+      "categories": [
+        "US-regulator",
+        "US-geography"
+      ],
+      "sourceHash": "249fcdde4ff2b9472da7b0a5fb0de3a3fe0161597b59eaea597a6e1765a4d34c",
+      "sourceExcerpt": "Prescribe hormone therapy for its labeled indications and the position statement's timing, and record that skin was discussed only as a secondary effect. Do not prescribe systemic or topical estrogen for wrinkles alone, ",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/1/units/0/blocks/15/metadata/variants/audienceLevel/advisor",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "21d2c71d5b2c73c3da8084de445b66a38dbdde71f33d7bf69c504b74604abcb8",
+      "sourceExcerpt": "In the US, a cream sold as containing estrogen for the face is regulated as a drug, and compounded 'bioidentical' products lack efficacy and safety data. Menopausal symptoms are a conversation for a prescriber; sun prote",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/1/units/0/blocks/16/interaction/nodes/2/options/2/why",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "0f25ba5f92b2e684adba376437e4344f1ac7a89eee2f2428027aff4e4e83d87d",
+      "sourceExcerpt": "Under US rules an over-the-counter 'hormone cream' is an unapproved drug, and daily sunscreen and a prescription retinoid carry better evidence than any hormone.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/1/units/0/blocks/17/quiz/options/2/why",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "086c32da63ba7d78b35c91934527e651ce253cea6b671872e20ba597f139b050",
+      "sourceExcerpt": "Correct. Symptoms decide hormone therapy. For skin, daily sunscreen has a large trial behind it and one tretinoin cream is FDA-approved as an adjunct for fine wrinkles.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/1/units/0/blocks/19/body",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "0e83a7c3b41e15d52437805dc212fa7c83a784f5503bf88bc492de4b9332e405",
+      "sourceExcerpt": "In a consecutive series of 32 people with MEN1 examined at the US National Institutes of Health, 88% had multiple facial angiofibromas and 72% had collagenomas. The angiofibromas were clinically and histologically identi",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/1/check/options/1/text",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "40b1e5395c73657ed9a641bdc768bdd42be04deb3dfe92fa071a07b429cbc7ef",
+      "sourceExcerpt": "Estrogen acts on skin receptors (mechanism); small trials show thicker skin, while the largest found no wrinkle difference (evidence); US approved uses are symptoms and bone (regulation); whether longer treatment changes",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/2/units/0/blocks/5/audioBeats/2/body",
+      "categories": [
+        "owner-brand"
+      ],
+      "sourceHash": "eb122289f3d521ac95dccc7861d942d20c352e3ea403da2d6b4917c9d603f6e7",
+      "sourceExcerpt": "The Hormonaly endocrinology guide rates both B. The course grades the causal link to visible ageing D, because the human data are associations.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/2/units/0/blocks/10/body",
+      "categories": [
+        "US-regulator",
+        "US-geography"
+      ],
+      "sourceHash": "cad62874a8326fc13aee46352f577b2ca87a183ec7d3e8f25566a6d1e94f1990",
+      "sourceExcerpt": "GLP-1 and GIP are incretins, hormones the gut releases after a meal that amplify glucose-dependent insulin release; GLP-1 also slows gastric emptying and reduces appetite. Native GLP-1 is broken down within minutes. Sema",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/2/units/0/blocks/10/audioBeats/2/body",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "4d38a0891f3a75b88b331172e67591b8f37eb82afb192a7447c0b824fa976289",
+      "sourceExcerpt": "In the US, semaglutide is sold as Ozempic and Wegovy, tirzepatide as Mounjaro and Zepbound, and the brand tells you the approved use.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/2/units/0/blocks/10/metadata/audioScript",
+      "categories": [
+        "US-regulator",
+        "US-geography"
+      ],
+      "sourceHash": "607a1119d2f606d68a7a374d63a68ae9f3333d17193cf82e45b102331a4a01c3",
+      "sourceExcerpt": "After a meal, the gut releases two hormones called incretins, GLP-1 and GIP. Both amplify insulin release when glucose is high, and GLP-1 also slows the stomach and reduces appetite. Native GLP-1 lasts only minutes in th",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/2/units/0/blocks/11/body",
+      "categories": [
+        "US-regulator",
+        "US-geography"
+      ],
+      "sourceHash": "5d8f9e38a61b406e19c55caa617a148b4f74d6cca8510303dc4cc66530e03372",
+      "sourceExcerpt": "The facial changes in this lesson happen to people taking approved drugs for approved reasons. Know the indications, and their dates, before you discuss the side effects. Status below is for the US, from FDA records chec",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/2/units/0/blocks/11/tool/items/4/value",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "c9f98a61a5b045d104e7b18060deeefb09cfcaa736e72683b0d8d7c30349437d",
+      "sourceExcerpt": "Not FDA-approved",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/2/units/0/blocks/11/tool/items/4/note",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "bf92075f77d2b0b25ef908068ecb1dee7699338add1eba5912a0754e5322eb70",
+      "sourceExcerpt": "FDA warns about compounded, counterfeit and falsely labelled 'research' semaglutide and tirzepatide (page current 1 September 2026). Semaglutide bought online without a prescription has failed independent testing.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/2/units/0/blocks/12/body",
+      "categories": [
+        "owner-brand"
+      ],
+      "sourceHash": "69d0655c1409d46feb585aaf3bc3feeb8480d61688c42b6e5a70173394da3389",
+      "sourceExcerpt": "In STEP-1, 1,961 adults without diabetes lost a mean 14.9% of body weight on semaglutide over 68 weeks, against 2.4% on placebo. In SURMOUNT-1, 2,539 adults lost 15.0% to 20.9% on tirzepatide over 72 weeks, depending on ",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/2/units/0/blocks/12/stat/means",
+      "categories": [
+        "owner-brand"
+      ],
+      "sourceHash": "6c14c31d08ba2745920f74836e6b7dbc7c38c44cb329df3003074340e6eb225c",
+      "sourceExcerpt": "These drugs produce large, reproducible weight loss in randomized trials: GRADE A for the approved indications. Part of what is lost is lean tissue, which is why the Hormonaly guide pairs treatment with protein and resis",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/2/units/0/blocks/13/title",
+      "categories": [
+        "US-colloquial"
+      ],
+      "sourceHash": "9fe285c29d4d4c714e1cbfc2de6230f32617df1c8a8bee56b3b2fda2f69b58b5",
+      "sourceExcerpt": "'Ozempic face', answer by answer.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/2/units/0/blocks/13/tool/items/2/label",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "1b6b26bcaab97d82b8f8d61ff97c19c33b80f38aa70e9ad962e98e4e2563611e",
+      "sourceExcerpt": "Regulatory status (US, September 2026)",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/2/units/0/blocks/14/interaction/items/0/why",
+      "categories": [
+        "owner-brand"
+      ],
+      "sourceHash": "71ce589f79e37b7e4f64b715b24de0b46c3e9e68346767bdb184497fd26469e8",
+      "sourceExcerpt": "STEP-1 and SURMOUNT-1 were large randomized trials against placebo, and both Hormonaly guides grade weight management A.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/2/units/0/blocks/15/body",
+      "categories": [
+        "owner-brand"
+      ],
+      "sourceHash": "e9cbcd3dfb4017e8a02e27e9c22a44475cfffc7ee308ab2568147b9d837aa6b7",
+      "sourceExcerpt": "Raise facial volume change and hair shedding before treatment starts; the Hormonaly guide advises this especially for older patients. During treatment, photograph the face with consent, and support the protein intake and",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/2/units/0/blocks/15/metadata/audioScript",
+      "categories": [
+        "owner-brand"
+      ],
+      "sourceHash": "0095f6edc346cbac4c7028e9970ed387dcdf1e1c04b935c95fe3b469b0da6821",
+      "sourceExcerpt": "Three moments matter in practice. Before treatment starts, raise facial volume change and hair shedding as possibilities, especially with older patients, as the Hormonaly guide advises, and record that you did. During tr",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/2/units/0/blocks/16/interaction/setup",
+      "categories": [
+        "US-colloquial"
+      ],
+      "sourceHash": "b1a9d60fdcbe4cf14385ac945483952a5d2dcb3670e491054a2e245ca0b617e5",
+      "sourceExcerpt": "A fictional case, built from this lesson's guidance. An older patient is about to start tirzepatide for weight management, prescribed by her physician. She has read about 'Ozempic face' and asks what the drug will do to ",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/2/units/0/blocks/16/interaction/nodes/0/options/0/why",
+      "categories": [
+        "owner-brand"
+      ],
+      "sourceHash": "7bfb21ec4963e7a6f9b4cfa825b7c3c7c533fe1fdb21463ea98c07aa835f8129",
+      "sourceExcerpt": "Right. The Hormonaly guide advises raising facial volume change and hair shedding before treatment starts, especially with older patients, and recording that you did. So far, the evidence ties facial change to how much w",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/2/units/0/blocks/16/interaction/nodes/1/options/1/why",
+      "categories": [
+        "owner-brand"
+      ],
+      "sourceHash": "e749d420864386b3962eee9aefb4c198286d0e0fd6a9c53f66c3859c2a2d571f",
+      "sourceExcerpt": "Weight is only part of what changes. Part of what is lost is lean tissue, which is why the Hormonaly guide pairs treatment with protein and resistance training.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/2/units/0/blocks/17/interaction/notice/1",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "a36fffdaad0347654e99e85f481cdc2873e2c344c568c45b91dbcf0225be8d80",
+      "sourceExcerpt": "Hair loss is listed on the US label, more often in women, and linked to weight reduction",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/2/units/0/blocks/18/quiz/options/2/text",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "66edbd43d82253e4a1f8feea8197a71e1d300d3345cae0544c2432a0640178dd",
+      "sourceExcerpt": "Facial volume loss is a labelled adverse reaction in the US prescribing information.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/2/units/0/blocks/21/interaction/items/2/why",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "cc1dbda755ca22c00bc20bc57c6f27cde729d4631a71fe6564cf616c1fd244c9",
+      "sourceExcerpt": "One open-label, manufacturer-funded phase 3b trial of 274 people: more complete clearance with the add-on at 36 weeks (C). An earlier 20-person placebo-controlled trial of liraglutide found no effect. Its US approval and",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/2/units/0/blocks/21/interaction/items/5/why",
+      "categories": [
+        "owner-brand",
+        "US-regulator",
+        "US-geography"
+      ],
+      "sourceHash": "a51636312e82382f6ee8614abfa8bb56e0d3858acf7b0e99cc384da4741f82d0",
+      "sourceExcerpt": "The Hormonaly guide grades it D: mechanism and animal data. As of September 2026, BPC-157 is not on the US 503A bulks list; an FDA advisory committee reviewed it in July 2026.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/2/units/0/blocks/22/metadata/audioScript",
+      "categories": [
+        "owner-brand",
+        "US-regulator",
+        "US-geography"
+      ],
+      "sourceHash": "c108d5f5e69075f05332bf8cb83e854b5626fa4d9dbde95c2020a9f7a2e5671d",
+      "sourceExcerpt": "Patients often link their skin to their gut. Start where the evidence is. Diet quality, treatment of metabolic disease and the established treatment for the skin condition itself all come first. Be careful with tests. A ",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/2/units/0/blocks/22/metadata/variants/audienceLevel/prescriber",
+      "categories": [
+        "US-regulator",
+        "US-geography"
+      ],
+      "sourceHash": "9fc6962e2d8bae024de0db8add8c4fd1396b56a3207ca5287bd7aed8d12bbb09",
+      "sourceExcerpt": "Treat the skin disease on its own evidence and metabolic disease directly. A zonulin result should not guide care. In the US, BPC-157 has no 503A bulks-list standing as of September 2026, so compounding it for gut repair",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/2/check/options/1/text",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "52d343dce67906305a64be3fe4706482d8e9399d4744b74172c98ba2af9ac107",
+      "sourceExcerpt": "Facial volume loss on incretins: fat loss deflates facial compartments (mechanism); small observational studies tie it to the amount of weight lost (human evidence); US labels list hair loss but not facial change (regula",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/3/units/0/blocks/4/body",
+      "categories": [
+        "owner-brand"
+      ],
+      "sourceHash": "a850b3f0812dfd877a8a296a89a1a94e55b39ffeadaca0c0062e83b02454bce7",
+      "sourceExcerpt": "A search of PubMed in September 2026 found one randomized controlled trial of topical GHK-Cu in human skin: 2006, healing after CO₂ laser resurfacing. The cosmetic trials cited for anti-ageing claims are manufacturer-spo",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/3/units/0/blocks/5/tool/items/2/label",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "05d41232ecd50d8c37a7ab7a481eb9555493e82f4d8426cb8c0e1b66df899d86",
+      "sourceExcerpt": "Regulatory status (US, 14 May 2026)",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/3/units/0/blocks/5/tool/items/2/value",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "18cc56025a919111ab8fa9bf6b435886a9dfa7f6b5935c7ab50f8ddff5be376b",
+      "sourceExcerpt": "Non-injectable: 503A Category 1",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/3/units/0/blocks/5/tool/items/2/note",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "32c4711a31a64599c3f2f55c547abdc0f16b80aa3d6d6ed3001ef51aedc2bbc8",
+      "sourceExcerpt": "Category 1 means FDA is still evaluating and does not intend to act against compounders who meet its conditions; an advisory-committee consultation is planned before the end of February 2027. The injectable route has no ",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/3/units/0/blocks/6/interaction/segments/5/text",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "b973086d7486c09704cb04c3990e94a9bf7056fa57f2537accd1351a8fe85c65",
+      "sourceExcerpt": "Regulator-approved: FDA Category 1.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/3/units/0/blocks/6/interaction/segments/5/why",
+      "categories": [
+        "US-regulator",
+        "US-geography"
+      ],
+      "sourceHash": "e4e229add38f4ad3382a61045f4395a8feed642cc89d7c948cfae42f8b13031e",
+      "sourceExcerpt": "In the US, non-injectable GHK-Cu is in 503A Category 1: FDA is still evaluating it and does not intend to act against compounders who meet its conditions. A Category 1 listing is not an approval.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/3/units/0/blocks/7/body",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "e470510fe12ba829b71468789f138c6c481a874409479225e060ccceeda17e19",
+      "sourceExcerpt": "Topical GHK-Cu is a reasonable cosmetic conversation at GRADE C. Injected GHK-Cu is a different product: no randomized trials, injection-site pain and rash are common because copper irritates tissue, and in the US the in",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/3/units/0/blocks/7/metadata/audioScript",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "3bcb6006c598a1fcf776c2094b1fffd735eb179095ae9d98f1f1758b09a3c912",
+      "sourceExcerpt": "Here is what that means in the room. Topical GHK-Cu is a reasonable cosmetic conversation, as long as you describe the evidence honestly: small trials, modest effects, grade C. Injected GHK-Cu is not the same product in ",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/3/units/0/blocks/7/metadata/variants/audienceLevel/prescriber",
+      "categories": [
+        "US-regulator",
+        "US-geography"
+      ],
+      "sourceHash": "82ff2acedc0c141a4ea2cd8f7621740879f3fd3c9b1d84b38d5757120f54e3d5",
+      "sourceExcerpt": "In the US, before prescribing a compounded topical, confirm the substance's current 503A status and that the pharmacy is working within it. Do not prescribe GHK-Cu for injection. Record that you discussed a product with ",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/3/units/0/blocks/8/quiz/options/1/text",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "e486a6c904ec1bb523e53e5dbf6ddef6a63f3476ac32341f0bda72ec656fdc14",
+      "sourceExcerpt": "The topical form has small-trial support; injection rests on anecdote, commonly irritates, and in the US sits outside the Category 1 listing.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/3/units/0/blocks/11/interaction/items/2/why",
+      "categories": [
+        "owner-brand"
+      ],
+      "sourceHash": "f222db7463c0fc26de60609fe50d62f481f8049d24d08bc68e76cadd5847827c",
+      "sourceExcerpt": "GRADE C in this course. Placebo-controlled RCTs, including an independent head-to-head trial, show modest effects. The two Hormonaly guides disagree (C in Aesthetic & Regenerative Endocrinology, D in the Peptide Pocket G",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/3/units/0/blocks/13/body",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "2ae86eeb67817c0583c3396b39a2eb6eb855474349ce09663bd16f2451f7ba6c",
+      "sourceExcerpt": "In the US, cosmetic peptides are cosmetic ingredients, not drugs, and their safety is assessed under a cosmetics framework. Oral collagen is a dietary supplement: it may not claim to treat disease, and product quality an",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/3/units/0/blocks/13/metadata/audioScript",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "1fef9dd098f369517a61f57e0748f837f4b3edb3cf1b08dc8de25417d2516e29",
+      "sourceExcerpt": "Now the regulatory register, stated for the United States. Cosmetic peptides are cosmetic ingredients, not drugs; their safety is assessed under a cosmetics framework, and nobody has to prove they work before they are so",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/3/units/0/blocks/16/body",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "61d4bbf5d0817ea8a94bba651f0dd54bfba0a9e14c56246ba42fdfdfd2f02181",
+      "sourceExcerpt": "As of September 2026 no randomized efficacy trial of BPC-157 in people has been published in full. FDA's July 2026 briefing found one randomized, placebo-controlled trial reported only as a 2005 meeting abstract: 53 peop",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/3/units/0/blocks/20/title",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "b0b0518ad79875eba6d8a0d815b2e9dd0d0e852ea9a7a2833fa5d4acbef33f81",
+      "sourceExcerpt": "Where does it stand in the US?",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/3/units/0/blocks/20/body",
+      "categories": [
+        "US-regulator",
+        "US-geography"
+      ],
+      "sourceHash": "84a0dcdfe00c0d08efee09dc29e084b11d202d195aa0653b2de1a3b9c9a71746",
+      "sourceExcerpt": "Three US categories, dated to the FDA's category list of 14 May 2026 and the advisory-committee meeting of 23–24 July 2026. The committee's votes are advice; FDA must still act through rulemaking before anything joins th",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/3/units/0/blocks/20/tool/items/1/label",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "494f608389bd6c3144a1180d16475d145ca08d4ce61f7a01ae8be12a3df25c7e",
+      "sourceExcerpt": "503A Category 1",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/3/units/0/blocks/20/tool/items/1/value",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "9890c93b7be21e10c41bde9b82a9307d4dce5d08c71973a7e90253b16044c649",
+      "sourceExcerpt": "Under FDA evaluation",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/3/units/0/blocks/20/tool/items/1/note",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "7ee52a25c34fed2d42834a098055a8501fd03364d85e7ff2d38b6f94d5515c9d",
+      "sourceExcerpt": "FDA does not intend to act against compounders who meet its conditions while it evaluates",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/3/units/0/blocks/20/tool/items/2/label",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "86e65ca7ac0a12337f28a3c98001ea49b539dff54bc5e873e3c7cedd9e5b3872",
+      "sourceExcerpt": "Not on the 503A bulks list",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/3/units/0/blocks/20/tool/items/2/value",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "3e531a1c8d4ba7bd72880359e0f19c4856604fdf09a65ea54e10c9d4cb74f868",
+      "sourceExcerpt": "No 503A exemption",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/3/units/0/blocks/20/interaction/prompt",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "15af54b4420f25fe50a5253207d00b370527e664a06d1cdbcf4612c92c8a135a",
+      "sourceExcerpt": "One product at a time: which US category is it in today?",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/3/units/0/blocks/20/interaction/items/2/why",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "3d51c909827abd886e37181ecc50dc7115a11f7f0ec7aa0ad1f32a61ab3c1d5b",
+      "sourceExcerpt": "Non-injectable GHK-Cu is in 503A Category 1 (FDA list of 14 May 2026), pending an advisory-committee consultation before the end of February 2027.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/3/units/0/blocks/20/interaction/items/4/why",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "897eea83fad6b475415cf58d4fff0b31f40357f061c2e94e76ce6de5c1347df2",
+      "sourceExcerpt": "Reviewed by the advisory committee in July 2026; not on the bulks list unless and until FDA acts by rulemaking.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/3/units/0/blocks/21/body",
+      "categories": [
+        "US-regulator",
+        "US-geography"
+      ],
+      "sourceHash": "9fa81399ef860d86687c3861a28d62ca8ceb45f6f1f67fbca67f7af83d9c1597",
+      "sourceExcerpt": "US only, dated to FDA's category list of 14 May 2026.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/3/units/0/blocks/21/interaction/prompt",
+      "categories": [
+        "US-regulator",
+        "US-geography"
+      ],
+      "sourceHash": "2d32a8c06947d3d8ae785824fbbbced1a627c6a53cd60173de69245aadcfcdc4",
+      "sourceExcerpt": "In the US, non-injectable GHK-Cu is in Category 1. Put the steps in the order they must happen before it could join the 503A bulks list.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/3/units/0/blocks/21/interaction/steps/0/label",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "d4c5166019bfb94d742da6cf910c6cea9c5fd9fbbddd79d0efb84928b9665123",
+      "sourceExcerpt": "Category 1: FDA still evaluating",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/3/units/0/blocks/21/interaction/steps/0/why",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "b2f5d8b38d25256212865e154f82bbffd148c918cfe2d3ffab4dd673d4acf228",
+      "sourceExcerpt": "Where non-injectable GHK-Cu sits on FDA's list of 14 May 2026. FDA does not intend to act against compounders who meet its conditions while it evaluates; that is not an approval.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/3/units/0/blocks/21/interaction/steps/2/label",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "837369fbef320a5aa3cd7523ba5b8d5f02c09d781471fbe06294541056bd5d1a",
+      "sourceExcerpt": "FDA acts through rulemaking",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/3/units/0/blocks/21/interaction/steps/2/why",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "7f58e9fa535f6e28ab18beb8dd63dcfc7f33c694ca99892e61a058d5b12b6163",
+      "sourceExcerpt": "FDA must still act through rulemaking before anything joins the bulks list.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/3/units/0/blocks/21/interaction/steps/3/label",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "17b684cfb89ab71330e9966992703fa314f93754cdba31cce642f4b229c14403",
+      "sourceExcerpt": "Joins the 503A bulks list",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/3/units/0/blocks/21/interaction/steps/3/why",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "218160fbc2c2d4357aeef415e861eec9fe5f5d8fb8677bdb4b46b8ac7e6f7ff2",
+      "sourceExcerpt": "The last step. Until FDA acts, an advisory-committee review is not approval.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/3/units/0/blocks/21/interaction/done",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "3fd1cf0148780d5a87a85bafe4afbfd1e8b61155429d8ac209c231ec15b119df",
+      "sourceExcerpt": "Category 1 is where the path starts, not where it ends: the committee advises, and FDA must still act through rulemaking before anything joins the bulks list.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/3/units/0/blocks/21/interaction/hedge",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "f6497385ac6e16ba1a4205a1b24ad7a97ce50b7d8caddf77746159b97b0a18ba",
+      "sourceExcerpt": "US only",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/3/units/0/blocks/22/interaction/notice/2",
+      "categories": [
+        "owner-brand"
+      ],
+      "sourceHash": "a9c6e9e639c7029de1bd02bb278c705577b3504726dc688cedf8b097cdea3475",
+      "sourceExcerpt": "The Hormonaly endocrinology guide treats new pigmentation on research-use-only peptides as a red flag",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/3/units/0/blocks/22/interaction/options/1/why",
+      "categories": [
+        "owner-brand"
+      ],
+      "sourceHash": "a99c0dc1fbc654099e20ef690c82b71a5e629c6d75b65bfd6ea2b56992b7b72b",
+      "sourceExcerpt": "Right. Stop the exposure, capture the evidence, and get the skin change assessed. The Hormonaly guide states that heavy-metal contamination is documented in these products; the published analysis behind that statement co",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/3/units/0/blocks/22/interaction/options/2/label",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "dcd869020497470361cb6c2d0d2ff7dea69efe15fa5e4d41f80313fb792051ee",
+      "sourceExcerpt": "Switch her to a compounded version of the same blend from a US pharmacy.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/3/units/0/blocks/22/metadata/audioScript",
+      "categories": [
+        "owner-brand"
+      ],
+      "sourceHash": "9134d837125313b9625aa483260b59f851983ef08051345c9affddf950e4e01e",
+      "sourceExcerpt": "A fictional case, built from this lesson's evidence. A forty-six-year-old patient has been injecting a research-use-only blend sold as GLOW for three months: GHK-Cu, BPC-157 and TB-500 in one vial. She likes her skin and",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/3/units/0/blocks/22/audioBeats/1/body",
+      "categories": [
+        "owner-brand"
+      ],
+      "sourceHash": "04b19cec3d029097836005d5518df5f51b42b44c1f18edafa4427f0d2c8d3f95",
+      "sourceExcerpt": "New, patchy darkening on sun-exposed and covered skin, three months in. The Hormonaly endocrinology guide reads new pigmentation on research-use-only peptides as a warning sign.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/3/units/0/blocks/22/audioBeats/2/body",
+      "categories": [
+        "owner-brand"
+      ],
+      "sourceHash": "28ba2553f72bd9cb2c63bcd61537f2cf406ee30cb761f0e30935996eadca4f09",
+      "sourceExcerpt": "Impurity and mislabelling are documented for adjacent products. The Hormonaly guide states that heavy-metal contamination is documented in these products; the published analysis behind that statement could not be found. ",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/3/units/0/blocks/23/quiz/prompt",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "7a0cb828a0d860143cd7cca38b8cc87c53f219e5166f6f2e4e85796ec3969b86",
+      "sourceExcerpt": "FDA's Pharmacy Compounding Advisory Committee reviewed BPC-157, KPV and TB-500 in July 2026. What does that change for 503A compounding today?",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/3/units/0/blocks/23/quiz/options/0/why",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "68aa10b104ad8fb28482c03d2db5302d6215defdc637da1016a7a13aa381334b",
+      "sourceExcerpt": "The committee advises; nothing changes until FDA adds a substance to the bulks list by rulemaking.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/3/units/0/blocks/23/quiz/options/1/text",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "2e15d8ef6c2b4bfa8996a056c03763bae6bf0badf4daedcf45c346825ad49042",
+      "sourceExcerpt": "Nothing yet: the committee advises, FDA must still act by rulemaking, and until then compounded products do not qualify for the 503A exemptions.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/3/units/0/blocks/24/action/suggestions/2",
+      "categories": [
+        "US-regulator",
+        "US-geography"
+      ],
+      "sourceHash": "f591180ccb78cdf05d49c5076be3c65a5362c07edad17b5f9bc0aea531162c40",
+      "sourceExcerpt": "I will check the product's current status with my regulator: the live FDA lists in the US, MHRA in the UK.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/3/units/0/blocks/24/interaction/chips/3/label",
+      "categories": [
+        "US-regulator",
+        "US-geography"
+      ],
+      "sourceHash": "ffcf7b6493c7da8f05ae96664f8ee0cba16b198c647b1e830670333c5fc0dd66",
+      "sourceExcerpt": "check its current status with my regulator (FDA lists in the US, MHRA in the UK)",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/3/check/options/1/text",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "1c3ca610a50bcaabcf0ec8b98d271c1a6d55736ecc8ff94b987026d1c8a79575",
+      "sourceExcerpt": "Topical GHK-Cu: plausible copper-enzyme mechanism; small-trial human evidence (C); non-injectable Category 1 under FDA evaluation; whether it reaches the dermis in useful amounts is open.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/3/check/options/2/text",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "2a6ff3418f165c68b5d0dfe71523a015eb6ae60f9906e5213a7d34dea08023a8",
+      "sourceExcerpt": "Category 1 means FDA has approved GHK-Cu for skin.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/3/metadata/scope",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "59d96657df1b64c3f9445f469402973854c589287d4cc0a9dd2fff6677c09f59",
+      "sourceExcerpt": "Copper peptides (GHK/GHK-Cu); signal peptides and matrikines (pal-KTTKS / Matrixyl, Matrixyl 3000, Palmitoyl Tripeptide-1); oral collagen peptides; neurotransmitter modulators (Argireline, SNAP-8, Leuphasyl); investigati",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/4/objective",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "784a23408b56ad196a0e1c7468d611c7e315eefe1f11d97e5a4f27f054cc5490",
+      "sourceExcerpt": "By the end, you can appraise the neuroendocrinology of the hair follicle and melanocortin receptor system, contrasting FDA-approved therapeutics with the clinical and oncologic hazards of unregulated peptides.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/4/units/0/learningObjectives/1",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "c6139e6d1ec8e0a11011e4141bbb5d4c30c6e19eeedcefa5a1db54fc67716475",
+      "sourceExcerpt": "Compare the verified indications of FDA-approved afamelanotide with the severe systemic, dysplastic, and melanocytic risks of unregulated Melanotan II.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/4/units/0/blocks/4/body",
+      "categories": [
+        "US-regulator",
+        "US-geography"
+      ],
+      "sourceHash": "36c0f697cc19f4b639dd3939a113a066158a5c8e66b38a25880c4a77425a91b8",
+      "sourceExcerpt": "When immune privilege fails, the attack depends on cytokine signals that JAK inhibitors interrupt. Two randomized phase 3 trials tested oral baricitinib in 1,200 adults with severe alopecia areata. In the US, FDA approve",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/4/units/0/blocks/6/body",
+      "categories": [
+        "US-regulator",
+        "US-geography"
+      ],
+      "sourceHash": "3b9538bfba1b748846324784cd982b21636daf99f0b826fa8b5b145278f0bd44",
+      "sourceExcerpt": "Pattern, trigger, patches and androgens decide the treatment. Pooled randomized trials support topical minoxidil in men and women and finasteride in men. In the US, as of September 2026, topical minoxidil is FDA-approved",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/4/units/0/blocks/6/audioBeats/1/body",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "f0167015e231548a996cab9f2d950a6ddfdc316f05e6f13fda237c5997b9e4e8",
+      "sourceExcerpt": "Topical minoxidil in men and women and finasteride in men have pooled randomized-trial support (A). In the US minoxidil is sold over the counter and finasteride needs a prescription.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/4/units/0/blocks/6/metadata/audioScript",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "0ef4fb6519d9a3d531eb44f49339a036f8570b857ef0dd2526041da1194fa54f",
+      "sourceExcerpt": "Most requests for a hair peptide skip the diagnosis. Start with the pattern, ask about a trigger, look for patches and nail pitting, and look for signs of androgen excess. Check ferritin and thyroid function every time, ",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/4/units/0/blocks/10/tool/items/2/value",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "ddd2750933e2a1b752f7cd42dbccf3d510d078f1ba4fcfb078da79caec81a0d3",
+      "sourceExcerpt": "Afamelanotide: EU 2014, US 2019 · Melanotan II: none",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/4/units/0/blocks/11/body",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "c2776baaff30ea5c3c53d50e275caa827057b1900221182ca37b0366d8bae02d",
+      "sourceExcerpt": "Erythropoietic protoporphyria (EPP) is a rare disorder in which sunlight causes acute, severe pain. In the US phase 3 trial, adults on afamelanotide spent a median 69.4 hours in direct sunlight without pain over six mont",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/4/units/0/blocks/11/stat/label",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "d4413b28397a96078c90e591c1fafb0312a5159b214fb3e204dac378c1b13a58",
+      "sourceExcerpt": "median pain-free hours in direct sunlight over six months, afamelanotide vs placebo (US phase 3 trial, 94 adults with EPP)",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/4/units/0/blocks/11/stat/doesNot",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "4b89670684b37be60cd7f4bc1202770d73fb17fed015fc0386336a7eb18ccd51",
+      "sourceExcerpt": "It says nothing about cosmetic tanning, about Melanotan II, or about unsupervised injections. Even in EPP, the US label recommends a full-body skin examination twice a year.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/4/units/0/blocks/12/body",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "59f8045f3e21515710fff736214bcbc6a0bcf5540543aff2e90cd851162f949c",
+      "sourceExcerpt": "The harms of Melanotan II come from case reports and reviews, so they show what can happen without telling you how often. Reported skin effects include darkening and growth of existing moles, crops of new and sometimes a",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/4/units/0/blocks/12/metadata/audioScript",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "356748b269a5d85b80659af5fded7f28cba8b04e4baad423205026994339ab5c",
+      "sourceExcerpt": "Now the harms, and the kind of evidence behind them. Everything here comes from case reports and reviews, which tell you what can happen and leave open how often it does. In the skin, existing moles darken and grow, new ",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/4/units/0/blocks/13/interaction/items/0/why",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "79e005a061b3b9a764c4c524b4e706460d6028e62a1ef06fdd70bff6ba844993",
+      "sourceExcerpt": "Two randomized phase 3 trials, both funded by the manufacturer: in the US trial, a median 69.4 against 40.8 pain-free hours in direct sunlight over six months. Grade A, for EPP only.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/4/units/0/blocks/14/interaction/notice/2",
+      "categories": [
+        "owner-brand"
+      ],
+      "sourceHash": "613ba7492f9cefcbef12989cbfe7c3aa16ee58c6b826837fe01841eff4ed7f5f",
+      "sourceExcerpt": "The Hormonaly endocrinology guide treats a family history of melanoma as an absolute contraindication",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/4/units/0/blocks/15/tool/items/0/label",
+      "categories": [
+        "US-regulator",
+        "US-geography"
+      ],
+      "sourceHash": "493978931f7934e294d642ff855e2b69a233919bea1257e988a8c67c544ec044",
+      "sourceExcerpt": "United States · FDA (page current as of 22 April 2026)",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/4/units/0/blocks/15/tool/items/0/note",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "ef423ff73fa2d5fff84bd865e2d936b9cdf3e5d6cb348d6cea6198bcb86671ca",
+      "sourceExcerpt": "FDA's compounding safety page lists Melanotan II among substances withdrawn from Category 2, citing impurity and immunogenicity risks and published reports of melanoma, encephalopathy, sympathomimetic toxicity and priapi",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/4/units/0/blocks/20/interaction/items/0/why",
+      "categories": [
+        "US-regulator",
+        "US-geography"
+      ],
+      "sourceHash": "94e04114a74787278b6ba2dd56eea2fe496afc865e50fdcb238b8d5832db2332",
+      "sourceExcerpt": "GRADE A. Meta-analysed randomized trials show benefit in men and women; in the US it has been FDA-approved since 1988 and is sold over the counter.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/4/units/0/blocks/20/interaction/items/1/why",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "08d6b8423c7f2327289ce049f4a6142c7d7ebd6eed9b98d5bf3252ce609491ee",
+      "sourceExcerpt": "GRADE A in men. Meta-analysed randomized trials; in the US a prescription drug for hair loss since 1997.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/4/units/0/blocks/20/interaction/items/2/why",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "4cdc006a43a5942b5b7c5e39d10bb7a571fcc463118b514712988080d09a4f1e",
+      "sourceExcerpt": "GRADE A. Two phase 3 trials in 1,200 adults; FDA-approved for adults with severe alopecia areata in June 2022.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/4/units/0/blocks/20/interaction/items/3/why",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "b9b0665854173fcda54b992181b53d926b9b0da914dbfffa587ccaa819856b94",
+      "sourceExcerpt": "GRADE D. One 2017 study in mice and scalp tissue from the developer's group; no human trial published or registered; on none of FDA's 503A lists.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/4/units/0/blocks/20/interaction/items/4/why",
+      "categories": [
+        "US-regulator",
+        "US-geography"
+      ],
+      "sourceHash": "b420e7316ecfb0f1d3f061cf7c8c8ee8b8be6e807f7e44cc69cf423a5d7cac5e",
+      "sourceExcerpt": "GRADE D. No indexed human hair study; the guide's cited case series could not be found. In the US, thymulin acetate sits in 503A Category 3, nominated without adequate support.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/4/units/0/blocks/21/body",
+      "categories": [
+        "US-regulator",
+        "US-geography"
+      ],
+      "sourceHash": "18caa2cfa57c8f0e9833dfcb518f337ffd24acfd6884cc3b1010ca06fa9d8430",
+      "sourceExcerpt": "In the US, on FDA's category lists of 14 May 2026, thymulin acetate sits in Category 3: nominated without enough information to evaluate, and outside the enforcement discretion that Category 1 carries. PTD-DBM appears on",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/4/units/0/blocks/21/points/0",
+      "categories": [
+        "US-regulator",
+        "US-geography"
+      ],
+      "sourceHash": "50b80355466ed0a9ded1e7abc2cdc435783357f7ea55672a156dd12513b89475",
+      "sourceExcerpt": "Thymulin acetate: 503A Category 3 (US, May 2026)",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/4/units/0/blocks/21/points/1",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "2d18a504f2791ccb87fa972558465f63c55c9e835725608b9e7b77a4621e6de7",
+      "sourceExcerpt": "PTD-DBM: on no FDA 503A list",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/4/units/0/blocks/21/audioBeats/0/body",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "2586e29df38ff6be26b506386a57fec57998d2b29eb8a6f845e8bd5989a9e7d3",
+      "sourceExcerpt": "In FDA's 503A Category 3 on the 14 May 2026 lists: nominated without enough information to evaluate, and outside the enforcement discretion of Category 1.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/4/units/0/blocks/21/audioBeats/1/body",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "2568e8a7061b4da8ba7148ee59e9e6e2aa42a8db76f29847daa6d399e0c67358",
+      "sourceExcerpt": "On none of FDA's three 503A category lists. Like thymulin, it is absent from the 503A bulks list.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/4/units/0/blocks/21/metadata/audioScript",
+      "categories": [
+        "US-regulator",
+        "US-geography"
+      ],
+      "sourceHash": "f18f4a801f17d7a7860c8e76b7dae0b85e2734e2206bea7ceddf904f6d5711ae",
+      "sourceExcerpt": "Stated for the United States, the regulatory picture is short. On FDA's category lists of the fourteenth of May, twenty twenty-six, thymulin acetate sits in Category 3, meaning it was nominated without enough information",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/4/units/0/blocks/21/metadata/variants/audienceLevel/prescriber",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "f5be49b1bffad0b56720e7072035ecff6f8ac3f6b708e9db7c62661e0f77b761",
+      "sourceExcerpt": "Check a substance's current 503A status before any compounding conversation; neither peptide has Category 1 standing today. If a patient already uses one, record the product, the source and the grade you quoted, and offe",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/4/units/0/blocks/23/quiz/options/1/text",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "ac3709a1e1280268aad30945e6af36911c85b36adf2f147ff2e337ea2cb428bf",
+      "sourceExcerpt": "PTD-DBM has mouse data and no human trial (D); minoxidil has randomized-trial support and US approval (A). Start with the workup and the approved options.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/4/check/options/1/text",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "0ca4b46199554e59150b5076d802ff1287342a8e6a9eb2082855c30951358764",
+      "sourceExcerpt": "Mechanism: a non-selective melanocortin agonist. Evidence: two tiny 1990s studies and case reports of harm (D). Status: approved nowhere, with US, UK and Australian regulators on record against it. Open question: whether",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/5/units/0/blocks/6/body",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "4b5b2cdf359cc7d5864f64d28c138cde4f815c98ba05525046656538c1abd2d7",
+      "sourceExcerpt": "In healthy older adults, randomized trials of growth hormone show small shifts in body composition, about 2 kg less fat and 2 kg more lean mass, with more oedema, joint pain, carpal tunnel syndrome and a trend towards di",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/5/units/0/blocks/6/points/2",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "2e9dbdaf4744ca1316d777c4af0d1f665697937467819e6704ccce4ebfefbc24",
+      "sourceExcerpt": "US: anti-ageing distribution is a federal offence",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/5/units/0/blocks/6/audioBeats/2/body",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "8f63672960c744e2036537d37f9527dfb9039e62a86965a21f07026e187b2e09",
+      "sourceExcerpt": "Growth hormone is for diagnosed deficiency and a short list of approved conditions. In the US, distributing it for anti-ageing is a federal offence.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/5/units/0/blocks/6/metadata/audioScript",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "f83ad5f0b37cdfa274aec28b38ca53c603ae90654011009eaf1d50b7b0ec615f",
+      "sourceExcerpt": "Here the physiology meets the waiting room. A patient in their fifties has read that growth hormone falls with age and asks whether topping it up would help their skin. The trials in healthy older adults answer that. Poo",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/5/units/0/blocks/10/body",
+      "categories": [
+        "owner-brand"
+      ],
+      "sourceHash": "2d884eb79640c5219388b265a8d476b076ece2eed5b5220d89942134ec31339d",
+      "sourceExcerpt": "Tesamorelin is the instructive exception on this axis. Both Hormonaly guides grade it A, for one indication. Read the record in order.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/5/units/0/blocks/10/tool/items/2/label",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "8e049a25fad14d472ff6fc137ed66a2686d4fc49cf734330d5000dec53e96d5f",
+      "sourceExcerpt": "US status (label, August 2026)",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/5/units/0/blocks/10/tool/items/2/value",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "030c3bd9559895d0d8d291b22d84a2afd685ece97bb8bcccabbe26b46e4d81c0",
+      "sourceExcerpt": "FDA-approved since 2010, for one use",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/5/units/0/blocks/13/interaction/items/0/why",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "09ccfbde17a7ecade96dfcf7243aa3ef5530980220681429a8e6315f16c9162c",
+      "sourceExcerpt": "GRADE A. Two phase 3 trials and FDA approval in 2010, for this indication and no other.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/5/units/0/blocks/13/interaction/items/2/why",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "3b1985155c3235e19bbf8c250ee7b64c458e6108488643ebdc07ccf2ba483122",
+      "sourceExcerpt": "In this course, GRADE D for this use. Small studies show GH and IGF-1 rising; none shows a clinical or skin benefit. Its former US approval was for children with GH deficiency.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/5/units/0/blocks/13/interaction/items/3/why",
+      "categories": [
+        "owner-brand"
+      ],
+      "sourceHash": "130c9ef59511ab994b8eba9bcc3432c3dc935231e4a24c79e9fa0101607c76ff",
+      "sourceExcerpt": "GRADE D for any clinical use. Two phase 1 trials in healthy adults showed GH and IGF-1 rising for days; neither measured a clinical outcome. The Hormonaly guides rate it C; the trials stop at hormone levels.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/5/units/0/blocks/14/title",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "a5c9fc7a2cb65cd94e6766b601fec7f579d88b31d801845fc5e6c2ea5ad4ce95",
+      "sourceExcerpt": "Where each one stands in the US.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/5/units/0/blocks/14/body",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "048b2eaefbd04a7651e1921e5d96b71839beb9a7364d7cb4143f534e8e88232e",
+      "sourceExcerpt": "Dated to FDA's 503A category list of 14 May 2026, its Category 2 page (current as of 22 April 2026), the October 2024 advisory-committee votes, the bulks list in 21 CFR 216.23 and Drugs@FDA as checked on 24 September 202",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/5/units/0/blocks/14/tool/items/0/value",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "e67f3213e5a555a1909ab1bfbbaaa7fb2db06b882b882ec099ae8d2857b55519",
+      "sourceExcerpt": "FDA-approved for defined indications",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/5/units/0/blocks/14/tool/items/1/note",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "9bd2f0aa8c51158905473676ca24ab0000a9019712552683561d7594aae71388",
+      "sourceExcerpt": "Approved as Geref in 1990 and 1997, discontinued in 2008, approvals withdrawn in 2009 at the maker's request; FDA found in 2013 that this was not for safety or effectiveness reasons. In no 503A category.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/5/units/0/blocks/14/tool/items/2/value",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "7ec038204caf8721193435cfe5fdf2f92820334937dc467e60a0c7f5e1b89507",
+      "sourceExcerpt": "503A and 503B Category 2",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/5/units/0/blocks/14/tool/items/2/note",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "0f48e4b9df0b8a306089e2c0c274f894a1c11e32c1dc31b4d0fafe18a3bb1ad9",
+      "sourceExcerpt": "FDA cites a heart-failure signal that stopped a hip-fracture trial early. The advisory committee voted 13 to 1 against adding it to the bulks list (October 2024).",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/5/units/0/blocks/14/tool/items/3/value",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "05bb93870b9a5c3aa093963e62cb2feb83b070a0e9e2ae4648f7943921528c64",
+      "sourceExcerpt": "Withdrawn 503A nominations",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/5/units/0/blocks/14/tool/items/3/note",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "91a27d9bf17d2bb6db8736db4e2c4fad0705342d988d9d0bb8ababde7dfd9d48",
+      "sourceExcerpt": "FDA lists both among Category 2 nominations that were withdrawn, citing serious adverse events; ipamorelin remains in 503B Category 2. The committee voted 0 to 12, with one abstention, against listing ipamorelin (October",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/5/units/0/blocks/14/tool/items/4/value",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "ebfbef91d795fc41fbbc77445be8a3132d95620daa550506c160dec72d904b0f",
+      "sourceExcerpt": "503A Category 3",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/5/units/0/blocks/14/tool/items/4/note",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "1e16e531c8f2f3eb865188be670db3a8e237f9551ebce0510fce83533177e855",
+      "sourceExcerpt": "Nominated without adequate support for FDA to evaluate; both in 503B Category 2.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/5/units/0/blocks/14/tool/items/5/note",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "49ae154a55d63a91b4a69440481421fd82803f3cf7c38d59507fa85b8b3fa853",
+      "sourceExcerpt": "Named in a 2020 FDA warning letter, with CJC-1295, ipamorelin, GHRP-2, GHRP-6 and MK-677, as ineligible for the 503A exemptions.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/5/units/0/blocks/14/tool/callout",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "2e6297727e1f366a857b57056e3dc6a5194fb06e211fd475cac080659e83d521",
+      "sourceExcerpt": "The 503A bulks list holds six substances, none on this axis. Check the live lists before any conversation about compounding.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/5/units/0/blocks/15/body",
+      "categories": [
+        "US-regulator",
+        "US-geography"
+      ],
+      "sourceHash": "9253a9144f2c7ead52c4ebdd3dcf56e4b5379ceb3121eebda22a852e093ff7d6",
+      "sourceExcerpt": "When a patient asks about a growth-hormone peptide, three answers come first. Which molecule, exactly, including whether 'CJC' means with or without DAC. What stands behind it, whether approval-grade trials for one indic",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/5/units/0/blocks/15/audioBeats/2/body",
+      "categories": [
+        "US-regulator",
+        "US-geography"
+      ],
+      "sourceHash": "f1edb8dbe4c669c2d4a3323b485a15e7144e4f6a6d8ecea59790c13dbc8330c9",
+      "sourceExcerpt": "In the US, as of September 2026, no growth-hormone secretagogue is on the 503A bulks list.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/5/units/0/blocks/15/metadata/audioScript",
+      "categories": [
+        "US-regulator",
+        "US-geography"
+      ],
+      "sourceHash": "6abf6e6b1f72978a1c822532643f422f1289fdc3a718343b4198a4c69ffa2fbe",
+      "sourceExcerpt": "Imagine the request as it usually arrives. A patient says their clinic offers a peptide that raises growth hormone naturally, for skin and sleep, and asks what you think. Three answers come before anything else. First, w",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/5/units/0/blocks/15/metadata/variants/audienceLevel/prescriber",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "49401420acca730b0121601af197a105ca33e3f89c941443c666692e6545610f",
+      "sourceExcerpt": "Tesamorelin is the only GHRH analogue with a current FDA-approved indication, and it is not a skin treatment. Do not prescribe compounded secretagogues on the strength of a mechanism; document what the patient uses and a",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/5/units/0/blocks/15/metadata/variants/audienceLevel/advisor",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "3671544934584625e207b66fad61ddcee282413cc0ee068cf193832f97b4a9a0",
+      "sourceExcerpt": "Describe these products accurately: one approved use for tesamorelin, hormone-level data or nothing for the rest, and no US bulks-list standing for the secretagogues. Refer anyone injecting them to a prescriber.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/5/units/0/blocks/16/interaction/nodes/2/prompt",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "8fd2096a5b2e71897cc27cb2e08d1cf518c6cae636ff77d6ee81972fd5499f29",
+      "sourceExcerpt": "Last, where does it stand in the US today?",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/5/units/0/blocks/16/interaction/nodes/2/options/0/label",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "ff64cefcc8edbdf17e33b72c2adf3b7b9475cc2df5ccfa1348db28331a326cdf",
+      "sourceExcerpt": "Not on the 503A bulks list, and FDA lists the CJC-1295 nomination as withdrawn",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/5/units/0/blocks/16/interaction/nodes/2/options/0/why",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "571080ce48d674736f047cd6c9c0a96a51f5ecab9e7ce4c050c89d72559f9f6b",
+      "sourceExcerpt": "As of September 2026, none of the growth-hormone secretagogues sits on the 503A bulks list, and FDA lists CJC-1295 among Category 2 nominations that were withdrawn, citing serious adverse events. Check the live lists and",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/5/units/0/blocks/16/interaction/nodes/2/options/1/label",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "0fdcf25b9541a17de92807c832acd4609c048ef10f4e1918d05f4e9dacda29fd",
+      "sourceExcerpt": "Free to compound, as long as no FDA list forbids it",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/5/units/0/blocks/16/interaction/nodes/2/options/1/why",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "0af27751697c1a8a337309b1d561e293d4f4b414552d54ab1eea351e2c529245",
+      "sourceExcerpt": "Absence from every list does not make a substance permitted, and FDA stopped placing newly nominated substances into categories in January 2025.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/5/units/0/blocks/16/interaction/nodes/2/options/2/why",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "81084b85bf437b3318b64f0b576d5c75cb4f40825d767a04c56b544a32932c6a",
+      "sourceExcerpt": "Popularity and compounding volume are not regulatory standing. The 503A bulks list holds six substances, none on this axis.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/5/units/0/blocks/16/interaction/done",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "cab590b4f68380a3092850ec8e07355c1531ba988ca1fb642ae66f4229e8682f",
+      "sourceExcerpt": "Molecule first, then what stands behind it, then its status: this one has no published human studies and no US bulks-list standing.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/5/units/0/blocks/17/quiz/options/1/text",
+      "categories": [
+        "US-regulator",
+        "US-geography"
+      ],
+      "sourceHash": "38c68e439236b404560dbf0ec4bd45e37808f0650544c6cce5bcec30a362bf4b",
+      "sourceExcerpt": "No. Tesamorelin has phase 3 trials and a US approval for HIV-associated abdominal fat; CJC-1295 and ipamorelin have hormone-level data at best and no skin trials; neither is on the US 503A bulks list.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/5/units/0/blocks/17/quiz/options/2/why",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "0ef072e7721856a8fa33a78a4ef1d2ba32c4a02aa4d36a729655f100d95fac25",
+      "sourceExcerpt": "A licensed pharmacy changes neither the evidence nor the fact that, in the US, these substances have no bulks-list standing.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/5/units/0/blocks/21/interaction/segments/4/text",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "6c14e9d5af8450adcf0c083c18a9f0003284e85d30cfce5fa31c8046764eaeb0",
+      "sourceExcerpt": "Tesamorelin, a peptide on the same axis, is FDA-approved.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/5/units/0/blocks/21/interaction/segments/4/why",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "882356ea54c782f26f22a62c76060c98acdb135737bcec7c4405afbb935c9314",
+      "sourceExcerpt": "Sound, for one use: FDA-approved since 2010 to reduce excess abdominal fat in adults with HIV-associated lipodystrophy.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/5/units/0/blocks/22/interaction/notice/2",
+      "categories": [
+        "US-regulator",
+        "US-geography"
+      ],
+      "sourceHash": "51f47093ebdf00b37c95c21813e195a336c16673fc56672a3d57ad63f630931d",
+      "sourceExcerpt": "Neither peptide has a skin trial, and in the US neither is on the 503A bulks list",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/5/units/0/blocks/22/interaction/options/2/label",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "634cf4d9f50628cec089a6c9f1cc38abeb43be3279131dfef9fdc9f5032172b6",
+      "sourceExcerpt": "Switch her to tesamorelin, since it is FDA-approved.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/5/units/0/blocks/24/metadata/variants/audienceLevel/advisor",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "18e3d08856b416e11e354e448298c3ad89625831ae77faa2f994e2a8ccfadcbb",
+      "sourceExcerpt": "Your checklist ends with referral: you can describe the evidence and the US status; anyone injecting these products needs a prescriber.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/5/units/0/blocks/24/interaction/chips/2/label",
+      "categories": [
+        "US-regulator",
+        "US-geography"
+      ],
+      "sourceHash": "ffcf7b6493c7da8f05ae96664f8ee0cba16b198c647b1e830670333c5fc0dd66",
+      "sourceExcerpt": "check its current status with my regulator (FDA lists in the US, MHRA in the UK)",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/5/check/options/1/text",
+      "categories": [
+        "US-regulator",
+        "US-geography"
+      ],
+      "sourceHash": "82af34e9c1ef8a1b2e43eb8db9768f610634f4e949b2eadf0affe0fe3e262f34",
+      "sourceExcerpt": "GHRH-receptor agonist (mechanism); GRADE A for HIV-associated abdominal fat (human evidence); FDA-approved in the US for that use since 2010 (regulatory status); whether sustained IGF-1 elevation carries long-term risk i",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/5/check/options/2/text",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "ce7aae27feb49c6156f6283a6258cdc0a0bbd3dbd18545af3e8cf1df97121f61",
+      "sourceExcerpt": "Because it is FDA-approved, tesamorelin is safe to use for skin.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/learningObjectives/1",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "3c11c9131dae7af922c79d16933d048d386f1530dec04aa7f6444f691c513e32",
+      "sourceExcerpt": "Navigate FDA 503A/503B compounding lists, interpret Certificate of Analysis parameters (HPLC purity, mass spec, endotoxin limits), and identify clinical risks of RUO peptide products.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/0/body",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "cf40895359de1407c8254c313a33f94b81c6d496399448470e3715ea45879410",
+      "sourceExcerpt": "This last module turns the course into three habits. You will rate the certainty behind a claim with GRADE, read a compounding status and a certificate of analysis for what they do and do not prove, and write the consent",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/1/metadata/videoTranscript",
+      "categories": [
+        "owner-brand"
+      ],
+      "sourceHash": "227627886e53a7de32b51853fd75838027058039a8974e9884e895dbf3c67935",
+      "sourceExcerpt": "This last module turns the course into three habits. You will rate the certainty behind a claim with GRADE, read a compounding status and a certificate of analysis for what they do and do not prove, and write the consent",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/2/body",
+      "categories": [
+        "owner-brand"
+      ],
+      "sourceHash": "361f60ef9a47bcee9178a2977404d3abaf6fa89689abee5d3e010d2aba9a98d3",
+      "sourceExcerpt": "GRADE sorts the evidence on a specific question into four levels of certainty: high, moderate, low and very low. The rating applies to a body of evidence for one outcome, never to a single study or to a molecule. Randomi",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/2/audioBeats/2/body",
+      "categories": [
+        "owner-brand"
+      ],
+      "sourceHash": "4d92c7468b40c28cde984c5d485f29713bd1dda9f9f74f21b50829f9451cce26",
+      "sourceExcerpt": "A to D in both Hormonaly guides maps onto the same four levels. The letter rates the evidence for a listed use. It does not rate legality, popularity or mechanism.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/2/metadata/audioScript",
+      "categories": [
+        "owner-brand"
+      ],
+      "sourceHash": "b7f7adde56828040b64255068b152450d1f48dec32c439d10e155847ce8b4df4",
+      "sourceExcerpt": "Every claim you hear about a skin peptide carries a hidden question. How sure can we be? GRADE answers it with four levels of certainty, from high to very low. The rating belongs to a body of evidence for one outcome, su",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/5/body",
+      "categories": [
+        "owner-brand"
+      ],
+      "sourceHash": "09e5961b464084403ac9af4b3f48a36163bee4b2c95a9183fe6549acbbf33b03",
+      "sourceExcerpt": "Evidence grade and regulatory status are separate axes, and both Hormonaly guides ask you to clear both. An approved drug can carry a low grade for the use a patient wants, and a compound with stronger human data can sti",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/5/audioBeats/2/body",
+      "categories": [
+        "owner-brand"
+      ],
+      "sourceHash": "cb2dae2d33f6e8b8cf0b0fd217cce69eced9ca03f9f04297df21e80c4e9b8730",
+      "sourceExcerpt": "A persuasive mechanism leaves the grade where it is. Both Hormonaly guides say so in almost the same words.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/5/metadata/audioScript",
+      "categories": [
+        "owner-brand",
+        "US-geography"
+      ],
+      "sourceHash": "51aa35059d786b2658e474a2d1affcc964f87d651a439400a55249c9463f99ff",
+      "sourceExcerpt": "Suppose a patient asks whether a peptide works. Start with the outcome they care about, say fewer lines around the eyes, and give the certainty for that outcome, along with who paid for the trials behind it. Then, as a s",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/6/interaction/items/1/why",
+      "categories": [
+        "owner-brand"
+      ],
+      "sourceHash": "3682b3b7788357c0e619af78197156299b938fb1ae80a4cf133d1f3049245a1e",
+      "sourceExcerpt": "A persuasive mechanism leaves the grade exactly where it is. Both Hormonaly guides say so in almost the same words.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/8/body",
+      "categories": [
+        "US-regulator",
+        "US-geography"
+      ],
+      "sourceHash": "05dad4722fdf7514ca13110deebecc92cf97e1e52c208a39f52a7bd2a73862dd",
+      "sourceExcerpt": "In the US, section 503A lets a licensed pharmacist or physician compound for an identified patient on a prescription, exempt from new-drug approval, adequate directions for use and good manufacturing practice. The bulk s",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/8/points/0",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "b68146f5a6a029215c02ac3526efb46be11b6d7c123b36e4f450705728c38f16",
+      "sourceExcerpt": "503A: patient-specific, three exemptions",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/8/points/2",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "18014fd89840d1befdaf58421c168904d43e9de17523e2add42c1163a96663d5",
+      "sourceExcerpt": "503B: registered, inspected, held to good manufacturing practice",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/8/audioBeats/0/title",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "c4126268fe7f213a470e58991ceb89c0630491fc180ab07d319fa1be19596e46",
+      "sourceExcerpt": "503A",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/8/audioBeats/1/body",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "bcb9e844e9ae67017e6aba233bcd4f43f3b7e951421b0db595fd69038f963e3f",
+      "sourceExcerpt": "Monograph first. Only if none exists, a component of an approved drug. Only if neither applies, the 503A bulks list. A valid certificate of analysis and a registered manufacturer are conditions as well.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/8/audioBeats/2/title",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "fddc71180376bd075f4309ec2a5158e8e4af7f3a0dc290cc1555cee841122a30",
+      "sourceExcerpt": "503B",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/8/audioBeats/2/body",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "265e61e725730f2d18dbd49943a4f05b3e94ddfb0f61104aec505ac211be6d8b",
+      "sourceExcerpt": "Outsourcing facilities register with FDA, meet good manufacturing practice, are inspected on a risk-based schedule and report adverse events. Their products remain unapproved.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/8/metadata/audioScript",
+      "categories": [
+        "US-regulator",
+        "US-geography"
+      ],
+      "sourceHash": "ad82b3d158a6be298de8e1557ea12e16839eff514e2f08387740cfc534c89ce9",
+      "sourceExcerpt": "Two routes exist for compounding in the United States, and the difference between them shapes the rest of this lesson. Under section 503A, a licensed pharmacist or physician prepares a drug for an identified patient on a",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/9/title",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "b8f01db988b834392c25942a668677681b82945eff385722cee05e4a9d06cf13",
+      "sourceExcerpt": "503A and 503B, side by side.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/9/body",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "2e149d1d6a9c0d8724a7f7d6950bb8b1f9ca3049281df06ad4e18a5479a71858",
+      "sourceExcerpt": "Two routes exist for compounding in the United States.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/9/interaction/prompt",
+      "categories": [
+        "US-regulator",
+        "US-geography"
+      ],
+      "sourceHash": "864767ed587d3f8de81558e6a1bf671d7c392c439bc8ac6a0f1b25939eb95267",
+      "sourceExcerpt": "In this picture of the two US routes, find the 503A preparation and its patient, then the 503B facility's trays and the check it works under.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/9/interaction/hotspots/0/label",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "a18f41ed24c2b7f7329b334b53fbc5b4b5d82db90f278c031a7f8a04e22029c5",
+      "sourceExcerpt": "A 503A preparation",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/9/interaction/hotspots/0/why",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "1f080ca41e5ab58cf0d869e4a483c5c1c3d63b8c37c5f0020d56d955f41ffad4",
+      "sourceExcerpt": "Under section 503A, a licensed pharmacist or physician prepares a drug for an identified patient on a prescription. Meeting the conditions exempts the product from approval, adequate directions and good manufacturing pra",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/9/interaction/hotspots/1/why",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "90bbaca11bd5234da2dcd7cf62bd37afa6b8e682e1da1f4c7d341158ea60e43a",
+      "sourceExcerpt": "503A is patient-specific: a licensed pharmacist or physician compounds for an identified patient on a valid prescription.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/9/interaction/hotspots/2/label",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "ce114c324444fe783f3fc72b4194bc8090275d7a68fb385d3cdb62beae254695",
+      "sourceExcerpt": "503B: no prescription for each patient",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/9/interaction/hotspots/2/why",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "c6f516dc0d3d23e842e8816775e708f9ce68a23b894d530858760115246a0b4d",
+      "sourceExcerpt": "Section 503B outsourcing facilities can compound without a prescription for each patient. Their products remain unapproved.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/9/interaction/hotspots/3/why",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "a86b53380c86e63e1ba8800b2bda3d2b18e9d2d7d0469f0f2c713547bc3cf27d",
+      "sourceExcerpt": "Outsourcing facilities register with FDA, meet good manufacturing practice, are inspected on a risk-based schedule and report adverse events. The 503A route is exempt from good manufacturing practice.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/9/interaction/done",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "119a034b4ad961b907ae35ee6220ab9b455f3614497cacb26e96f7b6215f7238",
+      "sourceExcerpt": "503A is one preparation for an identified patient on a prescription; 503B works to good manufacturing practice under inspection, without patient-specific prescriptions, and its products remain unapproved.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/10/body",
+      "categories": [
+        "US-regulator",
+        "US-geography"
+      ],
+      "sourceHash": "a5d7e3da17907546c325339c075c1748a31ff33fdae1919998e0c9d06812be92",
+      "sourceExcerpt": "In the US, the conditions for 503A compounding start with the substance itself, taken in strict order.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/10/interaction/prompt",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "eda8d0fc6fda01e3980f11b9e17cc819b9838621a0df692ff19cd5282bb7d4b7",
+      "sourceExcerpt": "Put the three routes by which a bulk substance can qualify for 503A compounding in the order the statute takes them.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/10/interaction/steps/2/label",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "7ae87e870f3e11a2744d091237b0ea7a192ad094d07fd2f423616c7db7c49561",
+      "sourceExcerpt": "FDA's 503A bulks list",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/10/interaction/steps/2/why",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "075d5f80cbcef8667c56fddafef17ee6b8d47e91f5e9048b7c99f65904c92b70",
+      "sourceExcerpt": "Only when neither applies can it sit on FDA's 503A bulks list.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/11/lead",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "9cf00c6c8e6e680e73e33dda1d500379557d415d58f4914000022bdcef82ff20",
+      "sourceExcerpt": "Regulatory status (US)",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/11/body",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "197a4486897b96439b7a381c6c99b38bd0736708cef367bfd0ac4eff92fa71d7",
+      "sourceExcerpt": "Dated to FDA's records as checked in September 2026. The bulks list is law, changed only by rulemaking; the categories are FDA's interim enforcement posture while nominations are evaluated. Neither is an approval.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/11/tool/items/0/label",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "607eaaaab2d56830020321689635d7e75a5730eca4f25f521c666067b0c17009",
+      "sourceExcerpt": "503A bulks list (21 CFR 216.23)",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/11/tool/items/0/note",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "1f33364e66d4776d2a8ba2d4d3b6ad2c8ee43bfd40ea64b9399cf828ee07881f",
+      "sourceExcerpt": "Unchanged since 2019. Listing carries no FDA endorsement of safety or efficacy.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/11/tool/items/1/note",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "448329e94eb167b3e3a1930f067dc2ae7d0b9e4c30d5818d60a7c0aaaa5faf2f",
+      "sourceExcerpt": "FDA does not intend to act against compounders who meet its conditions. GHK-Cu for non-injectable routes is here (list of 14 May 2026).",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/11/tool/items/2/note",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "2c95a4b0f0433e24af2412f780f203dc551520bcb53cb57522ec668485b0a949",
+      "sourceExcerpt": "Six substances under 503A as of 14 May 2026, kisspeptin-10 among them.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/11/tool/items/3/note",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "57c3f0881b69d467dacd7dcd239d3252a85a0bf017bd7648a8eb62c8b7992075",
+      "sourceExcerpt": "BPC-157, TB-500, KPV, injectable GHK-Cu, LL-37 and melanotan II among them. FDA's safety concerns stay posted; withdrawal is not clearance.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/11/tool/items/4/note",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "56d41b3ce683e195d1d43f1426be7f4db8197729f035d9618443a17aa95ad544",
+      "sourceExcerpt": "FDA staff concluded the criteria weigh against listing BPC-157. Only rulemaking changes the list.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/12/body",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "dc941c7ed6cc07dbaa97223055e434f9f70532d1e7cfbc458d6c0efc62df311a",
+      "sourceExcerpt": "Since 23 March 2020 FDA defines a protein as an alpha amino acid polymer of more than 40 amino acids, whether or not it is chemically synthesized, so anything above the line is a biological product. On that date tesamore",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/12/stat/label",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "6ea361d007f8b396051d06c5340122a572e61ec0e068697daaa49c5fd05300b2",
+      "sourceExcerpt": "amino acids: above this, FDA treats the molecule as a protein, and so as a biological product",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/12/stat/means",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "b2cd4967767954084053858aa415e9d52eb22755d5c2dc005a28eba5ff6ea048",
+      "sourceExcerpt": "Size decides the rulebook. Peptides of 40 or fewer alpha amino acids stay drugs, so the 503A questions apply; above 40 the product is a biologic, and the compounding exemptions are closed to it.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/12/stat/doesNot",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "1b4fc9199fbee9dfed1fc43442fde00b67b4b8d018afcd5fc13f6c6a9b1a754a",
+      "sourceExcerpt": "It does not make a short peptide lawful to compound; BPC-157 (15 residues) and GHK (3) still need a 503A route. How residues are counted can be contested: a court upheld FDA's count of 39 for retatrutide in 2025, and the",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/13/lead",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "0594ab2eaf88faa1831a0ce6d3b34a97417fd82a85a4b5fa2453863dc010598c",
+      "sourceExcerpt": "Regulatory status (outside the US)",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/13/title",
+      "categories": [
+        "US-regulator",
+        "US-geography"
+      ],
+      "sourceHash": "a37394d39617ce3a60ae43ecc63c11eb18576c640aceb5bf6653d94f140c2ddf",
+      "sourceExcerpt": "Outside the US, 503A does not apply.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/13/body",
+      "categories": [
+        "US-regulator",
+        "US-geography"
+      ],
+      "sourceHash": "56f7cc232e03962c09004f4e98b68e739a57ff9141364548df7f3716977aedde",
+      "sourceExcerpt": "FDA's 503A bulks list and its categories are US law and policy and apply only in the US. In the other jurisdictions in this course, a medicine without a marketing authorisation reaches a patient as a pharmacy preparation",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/13/tool/items/0/label",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "a67d78fb324286bc2561d85baa14bc4338594101c778c59ead72543ae7390c49",
+      "sourceExcerpt": "FDA's bulks list and categories",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/13/tool/items/0/value",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "f6497385ac6e16ba1a4205a1b24ad7a97ce50b7d8caddf77746159b97b0a18ba",
+      "sourceExcerpt": "US only",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/13/tool/items/0/note",
+      "categories": [
+        "US-regulator",
+        "US-geography"
+      ],
+      "sourceHash": "c0d45a4f65744f349d816b367bfa80c4797b9f2119020fb4716703db90630114",
+      "sourceExcerpt": "Set under US federal law and FDA policy; no other jurisdiction in this course applies them.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/13/tool/callout",
+      "categories": [
+        "US-regulator",
+        "US-geography"
+      ],
+      "sourceHash": "a5132c17ded0ca536d09295e6c33c42cccc296abe8744fe9423e56250f96c902",
+      "sourceExcerpt": "A 503A category means nothing outside the US: name the route your own law provides, and check it on the day.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/14/audioBeats/1/body",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "6f3077317748bd0e8acb22686a0d20bae789f024456fab1f386d0c87f240ebc5",
+      "sourceExcerpt": "HPLC gives the main peak as a percentage. When FDA's reviewers looked at public BPC-157 certificates, most reported purity alone, with no impurity limits.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/14/audioBeats/2/body",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "60435681775e61fa5fb03698479645f279715c768eb3692b3ef554efc95e71a8",
+      "sourceExcerpt": "The acceptable endotoxin level is calculated from the product's dose and route, so a figure without that context proves little. The certificate a BPC-157 nominator sent FDA mentioned no endotoxin test.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/14/metadata/audioScript",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "8df5ebe589caef6e2c6cb426d9e9829e2a2038529bc8a90912f31d2e89c66c8e",
+      "sourceExcerpt": "Picture the certificate a patient hands you, and read it line by line, asking what each line actually tests. Mass spectrometry checks identity, and a careful certificate shows the expected mass next to the one measured. ",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/15/interaction/items/3/why",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "51d83e4f9ed0399f55b1c8f0b630c38bf03a7a0816f453d842d2a6c3dd6b4d71",
+      "sourceExcerpt": "FDA's reviewers flagged exactly this for BPC-157: purity reported, impurity profile missing, so immunogenic impurities cannot be ruled out.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/17/body",
+      "categories": [
+        "US-regulator",
+        "US-geography"
+      ],
+      "sourceHash": "011c9b1c1d99f778c1f33730836666eea7163638f232ea8764b58e31db590c02",
+      "sourceExcerpt": "In the US, 'not for use in humans' labelling lets a supplier ship an investigational drug for laboratory or in-vitro research, and obliges the shipper to check that is how it will be used. FDA reads intended use from cla",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/17/audioBeats/0/body",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "1b96dad1cd6747661bb0155c985c3bd5438eb3f81b9b5c006456239e7791314d",
+      "sourceExcerpt": "The US rule lets a supplier ship a drug for laboratory or in-vitro research when the label says it is not for use in humans.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/17/audioBeats/1/body",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "fe80b4b4bf1be40d1c33e926e86c0cb1c3244bbd7dc808eb93d025eaac34a008",
+      "sourceExcerpt": "FDA reads what a product is for from its claims, marketing and how it is sold, so a disclaimer on a vial sold for injection carries no weight.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/17/metadata/audioScript",
+      "categories": [
+        "owner-brand",
+        "US-regulator",
+        "US-geography"
+      ],
+      "sourceHash": "c9e41c374f6c21a5205a2d751d09d2fb17614092b49447f4fe40a79f021d90b6",
+      "sourceExcerpt": "Research use only sounds like a category. In law it works as a shipping permission. The US rule lets a supplier send an investigational drug for laboratory or test-tube work if the label says it must stay out of people, ",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/18/lead",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "0594ab2eaf88faa1831a0ce6d3b34a97417fd82a85a4b5fa2453863dc010598c",
+      "sourceExcerpt": "Regulatory status (outside the US)",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/18/title",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "f1170934837228c8ec9e8a2264da19ce9163657bb04ffc198c293cddc7e67f4b",
+      "sourceExcerpt": "Selling and advertising peptides outside the US.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/18/body",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "ab3bf6d62134713e2dcf077c27dd9143d05da81a332b8c91dc64a6e74a4eeb5b",
+      "sourceExcerpt": "Outside the US, whether a peptide is regulated as a medicine turns on what is claimed for it and on what it is and does, not on the category a seller chooses, and a medicine without a marketing authorisation may not be s",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/18/metadata/audioScript",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "5a3ec580efa5d2561f1efbda1d744709dec913f4fa5015e232a0802b84440635",
+      "sourceExcerpt": "Selling a peptide outside the United States starts with one question, whether the product is a medicine, and regulators answer it from the product itself. They look at what is claimed for it and at what it is and does, s",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/20/body",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "4d26d74ef42a0988d209a20712f0bc6057d80e9a151e8f5e2f54147ab26d0273",
+      "sourceExcerpt": "Off-label prescribing means using an approved drug for a use its labelling does not cover, and FDA accepts it as clinical judgment. A never-approved peptide has no label to depart from, so prescribing it is use of an una",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/20/audioBeats/0/body",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "b75d5c8751d6d4d3843cebdb67989c1a724744fc27e94fe24dc10ad77469a109",
+      "sourceExcerpt": "An approved drug, used outside its labelling. FDA accepts this as the prescriber's judgment when it is medically appropriate.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/20/audioBeats/2/body",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "c78db5e745bc5cbc01f06ea024e959a4e15cc716d8b2ec8a6b258a9010da2f7a",
+      "sourceExcerpt": "A 503A or 503B product is also unapproved. It is lawful only when the substance and the pharmacy meet the statute's conditions.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/20/metadata/audioScript",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "d5e88366412e9614ffec80eaf5e97b54b0e33c9332de8b163ec9f5f945285b08",
+      "sourceExcerpt": "Off-label is the phrase to get right first. FDA uses it for an approved drug prescribed outside its labelling, which prescribers generally may do when they judge it medically appropriate. The idea assumes a label exists.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/21/lead",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "5b1623dfa2be0c838828d0ab551f995193eeae1e5374a3ff838483e249fb25f9",
+      "sourceExcerpt": "Classification (US)",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/21/body",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "d24fdce7fd89521a48bf52ded3aa9e5bd7dc047de14b9311bfe9db598acdf782",
+      "sourceExcerpt": "Route and claim decide the regime, whatever the molecule. Here is how each one treats a skin peptide in the US, as checked in September 2026.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/21/tool/items/1/note",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "b66de23a14fdd88fdb7bf05a082f0ba279905180058e4c24bba5a5644bba12ff",
+      "sourceExcerpt": "The maker is responsible for safety and labelling before sale; FDA acts after products reach the market.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/21/tool/items/3/label",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "009bcb07a79ab9617f90deeb149ae43698f13f46d6cd21aa735ea82fea6ac35c",
+      "sourceExcerpt": "Compounded (503A or 503B)",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/22/body",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "af6c3b4bd57099826df37c241054ae781cdef32e181765b023b1cb38d21ce8e9",
+      "sourceExcerpt": "A fictional US product page for a topical GHK-Cu serum.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/22/interaction/prompt",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "1609db3e804308f209519f2efe7f635983ae59a55508ec9eb0f5b5632f301914",
+      "sourceExcerpt": "Find each line that claims more than the evidence or the US rules support.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/23/points/1",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "4f12c4e9b9ff85fed8d06dcd2eb0d284009b99042279f8a47967ca1ca9ed2f4f",
+      "sourceExcerpt": "It has no 503A route; FDA staff advised against listing it",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/23/interaction/notice/1",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "debad9d1039be7ecc7bd89adc83de8f9a54fecea16771c53920102e9efd061d2",
+      "sourceExcerpt": "It is not on the 503A bulks list; its nominations were withdrawn and FDA staff advised against listing it in July 2026",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/23/interaction/notice/2",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "ef9aa32c4499c8125af687b618e408db46a1782f0ad2ef5c8e5c8e29b3bc2418",
+      "sourceExcerpt": "FDA's reviewers found a lack of evidence of effectiveness even for the condition they reviewed",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/23/interaction/options/0/why",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "8b9ac112773a83833240a15914ef22ebed532a6e0e8858ff4c7403291fd3d7e5",
+      "sourceExcerpt": "Off-label presupposes an approved drug. BPC-157 has no approval and no 503A route, FDA has warned a compounder about it, and a certificate changes neither fact.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/23/interaction/options/1/label",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "7dd87ba1e0642f3d97fe624c2ddd0b20b694c4afac176cfbaf7bb6011e910416",
+      "sourceExcerpt": "Decline to prescribe it. Explain the evidence and the US status in plain terms, return to the aftercare plan her treating clinician set, and record her request, what you explained and her decision.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/23/metadata/variants/audienceLevel/advisor",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "fcd6fc173545a5e9c66885e5f7e788b16a1c65d9ca21ca68b5674e2f567366ae",
+      "sourceExcerpt": "You explain that BPC-157 has no approval and no lawful compounding route in the US, and that decisions about her healing belong with her treating clinician.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/23/metadata/audioScript",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "11c847687ad1b3283a0912e1530ff6ed0796ad37ef6502bedd1b9bfeec05c51b",
+      "sourceExcerpt": "A fictional patient, built from this module's sources, is fifty-two and three weeks past a fractional laser treatment. She asks you to prescribe compounded BPC-157 injections off-label to speed her healing. A pharmacy is",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/23/audioBeats/1/body",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "9d5bc50cbf14260d3af20833099815dd8df4d319a424316254d1391b9a72f1f9",
+      "sourceExcerpt": "Never approved. No 503A route, nominations withdrawn, and FDA staff advised against listing in July 2026.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/24/body",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "e08c4acf78c27172034cd125deef56ef900ca00026b5155cb7721df90d60ed21",
+      "sourceExcerpt": "The Peptide Pocket Guide's prescriber checklist, with consent built from the elements FDA's research-consent rule lists. Use it for any conversation about an unapproved or compounded peptide, whether or not you prescribe",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/24/tool/items/0/note",
+      "categories": [
+        "US-regulator",
+        "US-geography"
+      ],
+      "sourceHash": "b79c1e5c9a51630aad0492cddd230575319c755c4c6007ab785d3bccf11d9a03",
+      "sourceExcerpt": "For example 'not FDA-approved; no 503A route' in the US, or 'unlicensed medicine' in the UK; never 'off-label'",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/24/tool/items/1/note",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "7ac4b9a0cb69fa48964d81f18bd0598710382dc99c8af2a57d6ae058855b3fbb",
+      "sourceExcerpt": "503A or 503B, the pharmacy, and the certificate of analysis relied on; in the UK, the specials manufacturer and the patient's special need",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/24/tool/items/5/note",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "bdf52417a8e6a144e1b24e740e12bf74fd0ace840fd8428e7e687c137c5d8fc1",
+      "sourceExcerpt": "The day you checked the FDA lists (they changed in April and May 2026) or, in the UK, MHRA's product information",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/25/interaction/prompt",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "3bc7b1da47247153e6927d7bc78e7dcc0a781adaebfc92ac11f2dc105668cb62",
+      "sourceExcerpt": "Decide what you tell her, what FDA's record shows and what you write down.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/25/interaction/nodes/0/options/1/why",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "b5d35fd3fc9dd1b406c7707032325bb83a623b859920a4ef46e7b4a75ed78c33",
+      "sourceExcerpt": "Right. FDA reads intended use from claims, marketing and the circumstances of sale, so the 'not for use in humans' disclaimer changes nothing about a vial sold with injection instructions.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/25/interaction/nodes/1/prompt",
+      "categories": [
+        "US-regulator",
+        "US-geography"
+      ],
+      "sourceHash": "7b2d69129aa366d3b7e6ba12ac0ef8f85de7bf9751b1053005953ecaad37a0a1",
+      "sourceExcerpt": "She asks whether a 503A compounding pharmacy could make GHK-Cu injections for her instead. In the US, what does FDA's record show, as checked in September 2026?",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/25/interaction/nodes/1/options/0/label",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "4f3ae638f8649a571d4b132ce49ed31c6ba2aa96518cc645e5a89d7ffbe0ac66",
+      "sourceExcerpt": "GHK-Cu is in Category 1, so a 503A pharmacy can compound it for injection.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/25/interaction/nodes/1/options/0/why",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "9830d18591ac1e14bd14ba82ac5a0b99751cd3484c9f3c4985cc6812854c97cd",
+      "sourceExcerpt": "Category 1 holds GHK-Cu for non-injectable routes only (list of 14 May 2026), and the categories are FDA's interim enforcement posture while nominations are evaluated, not an approval.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/25/interaction/nodes/1/options/1/why",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "8db2de75c885188082ba31ee9998bf01480c05f43fed873315854753884ccc0a",
+      "sourceExcerpt": "Right. FDA's safety concerns stay posted, and withdrawal is not clearance. Check the live list on the day: GHK-Cu alone moved twice in April and May 2026.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/25/interaction/nodes/2/options/1/label",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "91f539f80bf7891f261c992e3c2143192433715b880f22e18cfe6a4c4e6045cd",
+      "sourceExcerpt": "The product, lot and supplier she names, its status in plain words, your advice to stop, her decision and the date you checked FDA's lists.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/25/interaction/nodes/2/options/1/why",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "cec07641e323fbf3d8bb3aa0bb40e3801b6d0961d33a4496ccca4a870009fa3c",
+      "sourceExcerpt": "Right. Record the product, lot and supplier the patient names and your advice to stop, and date the status check: FDA's lists changed in April and May 2026.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/25/interaction/done",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "98b6f4e96f19cf6f5aa378334e9b274ff1afcba7d97806d71a4369694d739a5f",
+      "sourceExcerpt": "A research-use-only vial stays outside care, injectable GHK-Cu sits in no 503A category, and the note records what she named, what you advised and the day you checked.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/26/quiz/prompt",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "af8702a8cfb34c865a192332d0b31866cbfaacf3619f31a083c70076b475e690",
+      "sourceExcerpt": "GHK-Cu appears in three products: a cream sold 'for the look of fine lines', the same cream sold 'to regenerate skin cells', and an injectable vial labelled research use only. In the US, which statement is right?",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/26/quiz/options/2/why",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "b752ab545a4e9efb5feccd01f7fe42e11d8213192ad1f73a4b2d3b927f3ace66",
+      "sourceExcerpt": "Category 1 covers 503A compounding of non-injectable GHK-Cu under FDA's interim policy. It approves nothing, and it covers neither research products nor injection.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/27/body",
+      "categories": [
+        "credit"
+      ],
+      "sourceHash": "a92a983e396ee4ca1eeca0c12931e74b1d0bb9a486a53e5d6702ecc5b6577a26",
+      "sourceExcerpt": "This is the last step of the course. Build the commitment you will actually keep; it is saved in My notes, in the Library. The course is designed toward future CME accreditation and does not award credit at this time.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/27/action/suggestions/1",
+      "categories": [
+        "US-regulator",
+        "US-geography"
+      ],
+      "sourceHash": "411eeebdab36c5aafeb4d27058438df69e25084662cba2a783b06247da668ed9",
+      "sourceExcerpt": "I will check the live regulatory status on the day with my national regulator (for example FDA lists in the US, MHRA in the UK), and date it.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/units/0/blocks/27/interaction/chips/2/label",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "72cfeec9e647e5a2941136bde02f14be4017a82e5f215318a0a566346329eac1",
+      "sourceExcerpt": "check the live status with my national regulator on the day (for example FDA or MHRA), and date the check",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/check/options/1/text",
+      "categories": [
+        "US-regulator",
+        "US-geography"
+      ],
+      "sourceHash": "6db4bf6f1d31d8fc9e2583a660d49da2847370513649f36213a53b4a64b9b43a",
+      "sourceExcerpt": "Topical GHK-Cu: small-trial evidence (C); in the US, non-injectable use sits in 503A Category 1, under evaluation; its certificate can show identity and purity, never sterility or legality.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/check/options/2/why",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "5baea99d32e28a14d8f9b4dc7fd2d492f5fa3b3616652b0521ca13bed9519797",
+      "sourceExcerpt": "Category 1 is an enforcement posture while FDA evaluates. It approves nothing and says nothing about evidence.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/curriculum/modules/6/metadata/scope",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "5b13330e1dc5488bd7bfc5b142a46d15e08394677dc8e898515f7007a0541a56",
+      "sourceExcerpt": "GRADE framework applied to cutaneous therapies; FDA Sections 503A and 503B compounding boundaries; PCAC category rulings; 40-amino-acid biologic threshold; Certificate of Analysis (COA) interpretation (HPLC, mass spectro",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/assessments/0/questions/6/options/0/text",
+      "categories": [
+        "US-regulator",
+        "US-geography"
+      ],
+      "sourceHash": "e4bb9f1618c5014173f9e03fa14aa67b0a341aedee741365771fb31b07a11716",
+      "sourceExcerpt": "It is GRADE C on small trials, and in the US its non-injectable form sits in 503A Category 1, which means under evaluation.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/assessments/0/questions/6/options/1/text",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "e9f7aec5e36649e42a16bdb364f07f034e6e90866482cab5c2a333cb9858cf75",
+      "sourceExcerpt": "Its Category 1 listing shows FDA has found it effective for skin.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/assessments/0/questions/6/options/1/why",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "00f4e7f9e0f6bde7fa76d5b12015c2c35fb1d2f7949cda85c836bbeb51e9c7d6",
+      "sourceExcerpt": "Category 1 means FDA is still evaluating; it says nothing about efficacy.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/assessments/0/questions/8/options/0/text",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "28fdd10c183e2211a615a23664fb9480e8df19022316da95c0eaf9bedb179764",
+      "sourceExcerpt": "Afamelanotide is approved (EU 2014, US 2019) only for erythropoietic protoporphyria; Melanotan II is approved for no indication, and regulators in the US, UK and Australia have warned about it.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/assessments/0/questions/8/options/1/text",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "2a317cbdee7a74317fbdb24742bf40d3f3576573623c8daac38d5c83e881af60",
+      "sourceExcerpt": "Afamelanotide's US approval covers cosmetic tanning.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/assessments/0/questions/8/options/1/why",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "76abacee1320289e72d274841849f88cef5e4f1ba43f5b69f721689d75c9983e",
+      "sourceExcerpt": "The US indication is to increase pain-free light exposure in adults with EPP; tanning is not an approved use.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/assessments/0/questions/8/options/2/text",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "8bb30ba2c76df788644e49610590f54006b8e53d15a9896e2d5c40dd2021e0eb",
+      "sourceExcerpt": "Melanotan II became approvable once FDA reviewed it for compounding.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/assessments/0/questions/8/options/2/why",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "08edf1bbe187cefc44f65bdd4027099d090bd8b1bdb0ce3d34cb456292da1163",
+      "sourceExcerpt": "Its compounding nomination was withdrawn, and FDA's page lists serious safety risks. A review is never an approval.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/assessments/0/questions/10/prompt",
+      "categories": [
+        "US-regulator",
+        "US-geography"
+      ],
+      "sourceHash": "78b62bf39500f0d5c5d494e3638f09f2f1a3768b6c31e7011f2a8574b6499595",
+      "sourceExcerpt": "In the US, as of September 2026, which statement about growth-hormone secretagogues and 503A compounding is accurate?",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/assessments/0/questions/10/options/0/text",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "1f9c1ffdf2bb29ab904f4331b18cbde28f2a1f5029d13511076bf11c992c1315",
+      "sourceExcerpt": "Ipamorelin and CJC-1295 are on the 503A bulks list, because clinics compound them widely.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/assessments/0/questions/10/options/0/why",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "ac7871ceb51153f11a1deac1d473e48c901ca169a313766e6ae88b6eba665a76",
+      "sourceExcerpt": "Neither is on the list. FDA's advisory committee voted against ipamorelin in 2024, and both 503A nominations were withdrawn.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/assessments/0/questions/10/options/1/text",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "459d3ebd4bba5278c8f1aad5e82de38a440ef9f71ce8403187b57c53ba35754f",
+      "sourceExcerpt": "None of them is on the 503A bulks list; ibutamoren is in FDA's Category 2 for a heart-failure signal, and the ipamorelin and CJC-1295 nominations were withdrawn.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/assessments/0/questions/10/options/1/why",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "59487d3b6a51a8b4d19d3c378b9771fab984bc2efd097296be2b36d44f4ea802",
+      "sourceExcerpt": "Correct, dated to FDA's category documents of April and May 2026.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/assessments/0/questions/10/options/2/text",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "4fba6f22914ce3194608c9b824c50baa4bcc102cc354a156ecd757b647f8ca71",
+      "sourceExcerpt": "Sermorelin is an FDA-approved product marketed for adult anti-ageing.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/assessments/0/questions/10/options/2/why",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "6695f5c520ca563816ffe983f2173d23f0061f93867fd9125332a36c90f2ee40",
+      "sourceExcerpt": "No sermorelin product is marketed in the US. Its former approvals were for children with GH deficiency and for diagnostic testing.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/assessments/0/questions/10/rationale",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "56563511110a7f3eff85f191d7d87a3848cefb86399210d2699e65959fd4e740",
+      "sourceExcerpt": "Popularity and compounding volume are not regulatory standing; check the live FDA lists and name the date.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/assessments/0/questions/13/prompt",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "66936e75f4fb91ded6b5ff0f744438f1d8e201e730cc12fcc88dc3d0773efa65",
+      "sourceExcerpt": "Under section 503A, in what order does the statute let a bulk substance qualify for compounding?",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/assessments/0/questions/13/options/1/text",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "c3da67d3cb26d9e5fb1bb8ebad0c0dc1a37a463ab8e3a3a0cde117a296f9c3c3",
+      "sourceExcerpt": "A USP or NF monograph first, then a component of an approved drug, then the 503A bulks list, with a valid certificate of analysis in every case.",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/tutorCorpus/3/answer",
+      "categories": [
+        "US-geography"
+      ],
+      "sourceHash": "b9c5c1ef20b62c368d2497dad68fe3d8a06d0737ab43c70b7ed8884ebbfe2f2a",
+      "sourceExcerpt": "Estrogen acts on receptors in skin. In small trials, hormone therapy thickened skin and raised collagen (graded C here). The largest trial on facial skin (485 women, 48 weeks) and a four-year trial in recently menopausal",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/tutorCorpus/4/answer",
+      "categories": [
+        "US-regulator",
+        "US-geography",
+        "US-colloquial"
+      ],
+      "sourceHash": "6b53417ea915695b4af3af64b9502b766877a898baed3b5d59af0b9f70e6ec40",
+      "sourceExcerpt": "'Ozempic face' describes facial hollowing and laxity during weight loss on incretin drugs. Mechanism: losing fat deflates the superficial facial fat compartments and unmasks laxity already present. Human evidence is obse",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/tutorCorpus/4/suggestedPrompt",
+      "categories": [
+        "US-colloquial"
+      ],
+      "sourceHash": "c8fd014df5bb6ddd2f24f0e57d50124a530d79bfdf7af3f0df260da083bb15e1",
+      "sourceExcerpt": "What causes “Ozempic face”?",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/tutorCorpus/5/answer",
+      "categories": [
+        "owner-brand",
+        "US-regulator",
+        "US-geography"
+      ],
+      "sourceHash": "4cf4bbc46f97ac4fc741535491427ed4fe6a24c71a2e0f2287b3c4bd61fed28a",
+      "sourceExcerpt": "Mechanism: bacterial lipopolysaccharide crossing a leaky gut barrier ('metabolic endotoxaemia') drives inflammation and insulin resistance in mice, and a single high-fat meal briefly raised plasma endotoxin in a study of",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/tutorCorpus/6/answer",
+      "categories": [
+        "US-regulator",
+        "US-geography"
+      ],
+      "sourceHash": "af870779fedf676c1121a106ccb260091d981d38de501f84f9b0ece0ce49dc40",
+      "sourceExcerpt": "Topical GHK-Cu has a plausible copper-enzyme mechanism and small-trial human support (GRADE C); injected GHK-Cu has no randomized trials and commonly irritates. In the US, as of FDA's 14 May 2026 list, non-injectable GHK",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/tutorCorpus/7/answer",
+      "categories": [
+        "US-regulator"
+      ],
+      "sourceHash": "9bc660ab64db5adaffa87c57a89c7a86550f2fc11c8348632a3a6f16e771bca8",
+      "sourceExcerpt": "BPC-157's evidence is rodent studies from one group plus uncontrolled case series; no randomized efficacy trial in people has been published in full (September 2026); the one randomized trial FDA found, in ulcerative col",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/tutorCorpus/8/answer",
+      "categories": [
+        "US-regulator",
+        "US-geography"
+      ],
+      "sourceHash": "fd684f59e3d3521eace327aeb17009cefb1757b698e63649594ac41361b4ce5a",
+      "sourceExcerpt": "Afamelanotide (Scenesse) is an MC1R agonist approved only for erythropoietic protoporphyria (EU 2014, US 2019; licensed in the UK, where NICE did not recommend it for NHS use in 2023), on the strength of two sponsor-fund",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/tutorCorpus/9/answer",
+      "categories": [
+        "US-regulator",
+        "US-geography"
+      ],
+      "sourceHash": "336b5ee99773727ee46773d6918b97a77f6c26bd256cf4a3bbd3b2faa4831c1f",
+      "sourceExcerpt": "PTD-DBM releases a brake (CXXC5) on Wnt signalling; its whole evidence is one 2017 mouse and tissue study from the developer's group, with no human trial published or registered as of September 2026 (grade D). Zinc thymu",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/tutorCorpus/10/answer",
+      "categories": [
+        "US-regulator",
+        "US-geography"
+      ],
+      "sourceHash": "f183e44415ae5e25d92ffe6aa0cb1ecdd50ed7439968b03981317134271dceef",
+      "sourceExcerpt": "Tesamorelin is the one peptide on this axis with approval-grade evidence: two phase 3 trials and US approval (2010) for excess abdominal fat in adults with HIV-associated lipodystrophy, GRADE A for that use only. Sermore",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/tutorCorpus/12/answer",
+      "categories": [
+        "owner-brand"
+      ],
+      "sourceHash": "e7f0806145b0cda54b8b8d85d864bf8050df979de055371b0846fbc60b2e44dc",
+      "sourceExcerpt": "GRADE rates certainty for a specific outcome across a body of evidence: high, moderate, low or very low (the Hormonaly guides print A to D). Randomized trials start high; certainty drops for risk of bias, inconsistency, ",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    },
+    {
+      "path": "/tutorCorpus/13/answer",
+      "categories": [
+        "US-regulator",
+        "US-geography"
+      ],
+      "sourceHash": "4611f02c90bbe1f9e7f55d28be67eaa825e35b960b6b1c937aa526e37d52896d",
+      "sourceExcerpt": "In the US, a 503A pharmacy may compound only from a substance that meets a USP or NF monograph, or else is a component of an approved drug, or else is on the 503A bulks list (six substances, none a peptide, as of Septemb",
+      "review": "Check whether this is a correctly labelled comparative example or needs a target-country replacement; preserve scientific meaning and citations."
+    }
+  ],
+  "publishReady": false
+}
