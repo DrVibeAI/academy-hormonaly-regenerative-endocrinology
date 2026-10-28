@@ -1,0 +1,1261 @@
+{
+  "packageSha256": "6419297d6d012d8c8e5b58909e9e9f1f950443aa548ca20618017dbb0ebfa4fa",
+  "fields": {
+    "audioScript": [
+      {
+        "id": null,
+        "count": 1
+      },
+      {
+        "id": null,
+        "count": 1
+      },
+      {
+        "id": null,
+        "count": 1
+      },
+      {
+        "id": null,
+        "count": 1
+      },
+      {
+        "id": null,
+        "count": 1
+      },
+      {
+        "id": null,
+        "count": 1
+      },
+      {
+        "id": null,
+        "count": 1
+      },
+      {
+        "id": null,
+        "count": 1
+      },
+      {
+        "id": null,
+        "count": 1
+      },
+      {
+        "id": null,
+        "count": 1
+      },
+      {
+        "id": null,
+        "count": 1
+      },
+      {
+        "id": null,
+        "count": 1
+      },
+      {
+        "id": null,
+        "count": 1
+      },
+      {
+        "id": null,
+        "count": 1
+      },
+      {
+        "id": null,
+        "count": 1
+      },
+      {
+        "id": null,
+        "count": 1
+      },
+      {
+        "id": null,
+        "count": 1
+      },
+      {
+        "id": null,
+        "count": 1
+      },
+      {
+        "id": null,
+        "count": 1
+      },
+      {
+        "id": null,
+        "count": 1
+      },
+      {
+        "id": null,
+        "count": 1
+      },
+      {
+        "id": null,
+        "count": 1
+      },
+      {
+        "id": null,
+        "count": 1
+      },
+      {
+        "id": null,
+        "count": 1
+      },
+      {
+        "id": null,
+        "count": 1
+      },
+      {
+        "id": null,
+        "count": 1
+      },
+      {
+        "id": null,
+        "count": 1
+      },
+      {
+        "id": null,
+        "count": 1
+      },
+      {
+        "id": null,
+        "count": 1
+      },
+      {
+        "id": null,
+        "count": 1
+      },
+      {
+        "id": null,
+        "count": 1
+      },
+      {
+        "id": null,
+        "count": 1
+      },
+      {
+        "id": null,
+        "count": 1
+      },
+      {
+        "id": null,
+        "count": 1
+      },
+      {
+        "id": null,
+        "count": 1
+      },
+      {
+        "id": null,
+        "count": 1
+      },
+      {
+        "id": null,
+        "count": 1
+      },
+      {
+        "id": null,
+        "count": 1
+      },
+      {
+        "id": null,
+        "count": 1
+      },
+      {
+        "id": null,
+        "count": 1
+      },
+      {
+        "id": null,
+        "count": 1
+      },
+      {
+        "id": null,
+        "count": 1
+      },
+      {
+        "id": null,
+        "count": 1
+      },
+      {
+        "id": null,
+        "count": 1
+      },
+      {
+        "id": null,
+        "count": 1
+      },
+      {
+        "id": null,
+        "count": 1
+      },
+      {
+        "id": null,
+        "count": 1
+      },
+      {
+        "id": null,
+        "count": 1
+      }
+    ],
+    "audioBeats": [
+      {
+        "id": "m1-p03",
+        "count": 3
+      },
+      {
+        "id": "m1-p06",
+        "count": 3
+      },
+      {
+        "id": "m1-p08",
+        "count": 3
+      },
+      {
+        "id": "m1-p11",
+        "count": 3
+      },
+      {
+        "id": "m1-p13",
+        "count": 3
+      },
+      {
+        "id": "m1-p16",
+        "count": 3
+      },
+      {
+        "id": "m1-p17",
+        "count": 3
+      },
+      {
+        "id": "m2-p02",
+        "count": 3
+      },
+      {
+        "id": "m2-p06",
+        "count": 3
+      },
+      {
+        "id": "m2-p08",
+        "count": 3
+      },
+      {
+        "id": "m2-p11",
+        "count": 3
+      },
+      {
+        "id": "m2-p13",
+        "count": 3
+      },
+      {
+        "id": "m2-p15",
+        "count": 3
+      },
+      {
+        "id": "m2-p17",
+        "count": 3
+      },
+      {
+        "id": "m3-p02",
+        "count": 3
+      },
+      {
+        "id": "m3-p04",
+        "count": 3
+      },
+      {
+        "id": "m3-p08",
+        "count": 3
+      },
+      {
+        "id": "m3-p12",
+        "count": 3
+      },
+      {
+        "id": "m3-p13",
+        "count": 3
+      },
+      {
+        "id": "m3-p15",
+        "count": 3
+      },
+      {
+        "id": "m3-p18",
+        "count": 3
+      },
+      {
+        "id": "m4-p03",
+        "count": 3
+      },
+      {
+        "id": "m4-p08",
+        "count": 3
+      },
+      {
+        "id": "m4-p13",
+        "count": 3
+      },
+      {
+        "id": "m4-p17",
+        "count": 3
+      },
+      {
+        "id": "m5-p02",
+        "count": 3
+      },
+      {
+        "id": "m5-p05",
+        "count": 3
+      },
+      {
+        "id": "m5-p07",
+        "count": 3
+      },
+      {
+        "id": "m5-p10",
+        "count": 3
+      },
+      {
+        "id": "m5-p11",
+        "count": 3
+      },
+      {
+        "id": "m5-p14",
+        "count": 3
+      },
+      {
+        "id": "m5-p17",
+        "count": 3
+      },
+      {
+        "id": "m6-p02",
+        "count": 3
+      },
+      {
+        "id": "m6-p05",
+        "count": 3
+      },
+      {
+        "id": "m6-p07",
+        "count": 3
+      },
+      {
+        "id": "m6-p12",
+        "count": 3
+      },
+      {
+        "id": "m6-p14",
+        "count": 3
+      },
+      {
+        "id": "m6-p17",
+        "count": 3
+      },
+      {
+        "id": "m7-p02",
+        "count": 3
+      },
+      {
+        "id": "m7-p05",
+        "count": 3
+      },
+      {
+        "id": "m7-p07",
+        "count": 3
+      },
+      {
+        "id": "m7-p10",
+        "count": 3
+      },
+      {
+        "id": "m7-p13",
+        "count": 3
+      },
+      {
+        "id": "m7-p22",
+        "count": 3
+      },
+      {
+        "id": "m7-p15",
+        "count": 3
+      },
+      {
+        "id": "m7-p17",
+        "count": 3
+      }
+    ],
+    "videoBrief": [],
+    "sourceInsights": []
+  },
+  "narratedBlocks": [
+    {
+      "id": "m1-p03",
+      "beats": 3
+    },
+    {
+      "id": "m1-p06",
+      "beats": 3
+    },
+    {
+      "id": "m1-p08",
+      "beats": 3
+    },
+    {
+      "id": "m1-p11",
+      "beats": 3
+    },
+    {
+      "id": "m1-p13",
+      "beats": 3
+    },
+    {
+      "id": "m1-p16",
+      "beats": 3
+    },
+    {
+      "id": "m1-p17",
+      "beats": 3
+    },
+    {
+      "id": "m2-p02",
+      "beats": 3
+    },
+    {
+      "id": "m2-p06",
+      "beats": 3
+    },
+    {
+      "id": "m2-p08",
+      "beats": 3
+    },
+    {
+      "id": "m2-p11",
+      "beats": 3
+    },
+    {
+      "id": "m2-p13",
+      "beats": 3
+    },
+    {
+      "id": "m2-p15",
+      "beats": 3
+    },
+    {
+      "id": "m2-p17",
+      "beats": 3
+    },
+    {
+      "id": "m3-p02",
+      "beats": 3
+    },
+    {
+      "id": "m3-p04",
+      "beats": 3
+    },
+    {
+      "id": "m3-p08",
+      "beats": 3
+    },
+    {
+      "id": "m3-p12",
+      "beats": 3
+    },
+    {
+      "id": "m3-p13",
+      "beats": 3
+    },
+    {
+      "id": "m3-p15",
+      "beats": 3
+    },
+    {
+      "id": "m3-p18",
+      "beats": 3
+    },
+    {
+      "id": "m4-p03",
+      "beats": 3
+    },
+    {
+      "id": "m4-p06",
+      "beats": 0
+    },
+    {
+      "id": "m4-p08",
+      "beats": 3
+    },
+    {
+      "id": "m4-p11",
+      "beats": 0
+    },
+    {
+      "id": "m4-p13",
+      "beats": 3
+    },
+    {
+      "id": "m4-p17",
+      "beats": 3
+    },
+    {
+      "id": "m5-p02",
+      "beats": 3
+    },
+    {
+      "id": "m5-p05",
+      "beats": 3
+    },
+    {
+      "id": "m5-p07",
+      "beats": 3
+    },
+    {
+      "id": "m5-p10",
+      "beats": 3
+    },
+    {
+      "id": "m5-p11",
+      "beats": 3
+    },
+    {
+      "id": "m5-p14",
+      "beats": 3
+    },
+    {
+      "id": "m5-p17",
+      "beats": 3
+    },
+    {
+      "id": "m6-p02",
+      "beats": 3
+    },
+    {
+      "id": "m6-p05",
+      "beats": 3
+    },
+    {
+      "id": "m6-p07",
+      "beats": 3
+    },
+    {
+      "id": "m6-p12",
+      "beats": 3
+    },
+    {
+      "id": "m6-p14",
+      "beats": 3
+    },
+    {
+      "id": "m6-p17",
+      "beats": 3
+    },
+    {
+      "id": "m7-p02",
+      "beats": 3
+    },
+    {
+      "id": "m7-p05",
+      "beats": 3
+    },
+    {
+      "id": "m7-p07",
+      "beats": 3
+    },
+    {
+      "id": "m7-p10",
+      "beats": 3
+    },
+    {
+      "id": "m7-p13",
+      "beats": 3
+    },
+    {
+      "id": "m7-p22",
+      "beats": 3
+    },
+    {
+      "id": "m7-p15",
+      "beats": 3
+    },
+    {
+      "id": "m7-p17",
+      "beats": 3
+    }
+  ],
+  "assets": [
+    {
+      "id": "asset-hormones-peptides-skin-image-m1-p03-img",
+      "kind": "image",
+      "uri": "assets/hormones-peptides-skin/images/m1-p03-img.jpg",
+      "exists": true,
+      "sha256": "de88d9a8f8b04fa53e5eb4437953894293cba892fa6c627b37772232acb17039",
+      "declaredSha256": null,
+      "matchesDeclared": true
+    },
+    {
+      "id": "asset-hormones-peptides-skin-image-m1-p06-img",
+      "kind": "image",
+      "uri": "assets/hormones-peptides-skin/images/m1-p06-img.jpg",
+      "exists": true,
+      "sha256": "16c6137f24bdd18d787f05bb977b1c9eee6c744a97d907d3dd0d37caa0bc3b8e",
+      "declaredSha256": null,
+      "matchesDeclared": true
+    },
+    {
+      "id": "asset-hormones-peptides-skin-image-m1-p08-img",
+      "kind": "image",
+      "uri": "assets/hormones-peptides-skin/images/m1-p08-img.jpg",
+      "exists": true,
+      "sha256": "44a177fa8f355df77290fb7a332fc847b3d45666d6fd008dc41fabc49a029f15",
+      "declaredSha256": null,
+      "matchesDeclared": true
+    },
+    {
+      "id": "asset-hormones-peptides-skin-image-m1-p11-img",
+      "kind": "image",
+      "uri": "assets/hormones-peptides-skin/images/m1-p11-img.jpg",
+      "exists": true,
+      "sha256": "20bab74aaa3423450b90605b8e8e6b27efa6b2e7c50670bf791b8517f1cf7ebd",
+      "declaredSha256": null,
+      "matchesDeclared": true
+    },
+    {
+      "id": "asset-hormones-peptides-skin-image-m1-p13-img",
+      "kind": "image",
+      "uri": "assets/hormones-peptides-skin/images/m1-p13-img.jpg",
+      "exists": true,
+      "sha256": "8fe96bbc539fcf60018d096a00e774847c28447131b8ff6bb90ea082b9000a9f",
+      "declaredSha256": null,
+      "matchesDeclared": true
+    },
+    {
+      "id": "asset-hormones-peptides-skin-image-m1-p16-img",
+      "kind": "image",
+      "uri": "assets/hormones-peptides-skin/images/m1-p16-img.jpg",
+      "exists": true,
+      "sha256": "aec72d4b101e5bf82023563301321cc3481810cab34ae4be7565845feeeb658e",
+      "declaredSha256": null,
+      "matchesDeclared": true
+    },
+    {
+      "id": "asset-hormones-peptides-skin-image-m1-p17-img",
+      "kind": "image",
+      "uri": "assets/hormones-peptides-skin/images/m1-p17-img.jpg",
+      "exists": true,
+      "sha256": "33f6bf1e574ef39b78a8f568c434c24e1a70dd7e28eb85d2ce9817e22ee56316",
+      "declaredSha256": null,
+      "matchesDeclared": true
+    },
+    {
+      "id": "asset-hormones-peptides-skin-image-m2-p02-img",
+      "kind": "image",
+      "uri": "assets/hormones-peptides-skin/images/m2-p02-img.jpg",
+      "exists": true,
+      "sha256": "8812b2733f7d548de931a4ea77625956751bc0723c91f1ba6c10431f25bc15d5",
+      "declaredSha256": null,
+      "matchesDeclared": true
+    },
+    {
+      "id": "asset-hormones-peptides-skin-image-m2-p06-img",
+      "kind": "image",
+      "uri": "assets/hormones-peptides-skin/images/m2-p06-img.jpg",
+      "exists": true,
+      "sha256": "0a080959ce83079a6d901aeeb4547235924c33b37140316220c8c0ff120ce5ba",
+      "declaredSha256": null,
+      "matchesDeclared": true
+    },
+    {
+      "id": "asset-hormones-peptides-skin-image-m2-p08-img",
+      "kind": "image",
+      "uri": "assets/hormones-peptides-skin/images/m2-p08-img.jpg",
+      "exists": true,
+      "sha256": "f4482f5415c7af679b44ccbbc10cf3c6e5d11b4a252f23bb34e2bf2edd981a58",
+      "declaredSha256": null,
+      "matchesDeclared": true
+    },
+    {
+      "id": "asset-hormones-peptides-skin-image-m2-p11-img",
+      "kind": "image",
+      "uri": "assets/hormones-peptides-skin/images/m2-p11-img.jpg",
+      "exists": true,
+      "sha256": "6e8ac788d26e96220b94f8310b2744763570fe42b664e7dc38f4d2d4b7fd9c98",
+      "declaredSha256": null,
+      "matchesDeclared": true
+    },
+    {
+      "id": "asset-hormones-peptides-skin-image-m2-p13-img",
+      "kind": "image",
+      "uri": "assets/hormones-peptides-skin/images/m2-p13-img.jpg",
+      "exists": true,
+      "sha256": "d1cbcdc0e6feca5156ea50500711390bb8c783362540fa81bc025c34a9a95e16",
+      "declaredSha256": null,
+      "matchesDeclared": true
+    },
+    {
+      "id": "asset-hormones-peptides-skin-image-m2-p15-img",
+      "kind": "image",
+      "uri": "assets/hormones-peptides-skin/images/m2-p15-img.jpg",
+      "exists": true,
+      "sha256": "903662ab9a0aeed8e05b647bb9ec940d6759202190679db55d9ceceb466c95fc",
+      "declaredSha256": null,
+      "matchesDeclared": true
+    },
+    {
+      "id": "asset-hormones-peptides-skin-image-m2-p17-img",
+      "kind": "image",
+      "uri": "assets/hormones-peptides-skin/images/m2-p17-img.jpg",
+      "exists": true,
+      "sha256": "b7d21e8565a5ef932b3bc04f52c5bd793d7587923246cb26e5fdf2338018ef11",
+      "declaredSha256": null,
+      "matchesDeclared": true
+    },
+    {
+      "id": "asset-hormones-peptides-skin-image-m3-p02-img",
+      "kind": "image",
+      "uri": "assets/hormones-peptides-skin/images/m3-p02-img.jpg",
+      "exists": true,
+      "sha256": "003240b5a8ee70657f509eddf70741b44b12977706a2d54bad62865c8630b822",
+      "declaredSha256": null,
+      "matchesDeclared": true
+    },
+    {
+      "id": "asset-hormones-peptides-skin-image-m3-p04-img",
+      "kind": "image",
+      "uri": "assets/hormones-peptides-skin/images/m3-p04-img.jpg",
+      "exists": true,
+      "sha256": "ad0b0bf4d3a0fbf48417cf0b1d6d01163ad0db6aaf82df3de73b942177596b1d",
+      "declaredSha256": null,
+      "matchesDeclared": true
+    },
+    {
+      "id": "asset-hormones-peptides-skin-image-m3-p08-img",
+      "kind": "image",
+      "uri": "assets/hormones-peptides-skin/images/m3-p08-img.jpg",
+      "exists": true,
+      "sha256": "763ca32d004d986f91254de02262534344fb742083da6c95d3e208cbc30e451e",
+      "declaredSha256": null,
+      "matchesDeclared": true
+    },
+    {
+      "id": "asset-hormones-peptides-skin-image-m3-p12-img",
+      "kind": "image",
+      "uri": "assets/hormones-peptides-skin/images/m3-p12-img.jpg",
+      "exists": true,
+      "sha256": "d2d0347fbf9a0a4dd01e62c64c1cb7c013581a69ff5143a9d7f965644dcbfc2d",
+      "declaredSha256": null,
+      "matchesDeclared": true
+    },
+    {
+      "id": "asset-hormones-peptides-skin-image-m3-p13-img",
+      "kind": "image",
+      "uri": "assets/hormones-peptides-skin/images/m3-p13-img.jpg",
+      "exists": true,
+      "sha256": "7042a3e195895fe6def3d179594f220aec48e2e5c2fdd7e795a6991e629550cc",
+      "declaredSha256": null,
+      "matchesDeclared": true
+    },
+    {
+      "id": "asset-hormones-peptides-skin-image-m3-p15-img",
+      "kind": "image",
+      "uri": "assets/hormones-peptides-skin/images/m3-p15-img.jpg",
+      "exists": true,
+      "sha256": "d456bdd2419c8d076fa656cd295b07d39aa2d6fd1789697b9548df8aaefd1730",
+      "declaredSha256": null,
+      "matchesDeclared": true
+    },
+    {
+      "id": "asset-hormones-peptides-skin-image-m3-p18-img",
+      "kind": "image",
+      "uri": "assets/hormones-peptides-skin/images/m3-p18-img.jpg",
+      "exists": true,
+      "sha256": "4f9f341b0a958b32c1a72af6fbf9c3b52f353edde2678921513e44e48ddb9b18",
+      "declaredSha256": null,
+      "matchesDeclared": true
+    },
+    {
+      "id": "asset-hormones-peptides-skin-image-m4-p03-img",
+      "kind": "image",
+      "uri": "assets/hormones-peptides-skin/images/m4-p03-img.jpg",
+      "exists": true,
+      "sha256": "009dc4ddf95918dc8378b0c1ebcd985bcbf6746453aebf5ddc8df7f3bc575fca",
+      "declaredSha256": null,
+      "matchesDeclared": true
+    },
+    {
+      "id": "asset-hormones-peptides-skin-image-m4-p06-img",
+      "kind": "image",
+      "uri": "assets/hormones-peptides-skin/images/m4-p06-img.jpg",
+      "exists": true,
+      "sha256": "3713017570a561a9e8d6e2baf93eca82eb8003d9d11ad22c2e42c4d7c0ebd608",
+      "declaredSha256": null,
+      "matchesDeclared": true
+    },
+    {
+      "id": "asset-hormones-peptides-skin-image-m4-p08-img",
+      "kind": "image",
+      "uri": "assets/hormones-peptides-skin/images/m4-p08-img.jpg",
+      "exists": true,
+      "sha256": "775d4d309ccaca5279f80b2829275c3505070223531f04b4e724e29d3ad28dee",
+      "declaredSha256": null,
+      "matchesDeclared": true
+    },
+    {
+      "id": "asset-hormones-peptides-skin-image-m4-p11-img",
+      "kind": "image",
+      "uri": "assets/hormones-peptides-skin/images/m4-p11-img.jpg",
+      "exists": true,
+      "sha256": "a21998fce84358cb852252691b84cd246a68b81eb0fcb9a6293b364a483a2a77",
+      "declaredSha256": null,
+      "matchesDeclared": true
+    },
+    {
+      "id": "asset-hormones-peptides-skin-image-m4-p13-img",
+      "kind": "image",
+      "uri": "assets/hormones-peptides-skin/images/m4-p13-img.jpg",
+      "exists": true,
+      "sha256": "0e89890f0f37642b5d5e078ed12b932980361bf4773d50fdc1c17389df89d7f3",
+      "declaredSha256": null,
+      "matchesDeclared": true
+    },
+    {
+      "id": "asset-hormones-peptides-skin-image-m4-p17-img",
+      "kind": "image",
+      "uri": "assets/hormones-peptides-skin/images/m4-p17-img.jpg",
+      "exists": true,
+      "sha256": "3875c24d616c8baf361e5d145c3b212d0f371ad6eeefba14c46eef7d37d6e64d",
+      "declaredSha256": null,
+      "matchesDeclared": true
+    },
+    {
+      "id": "asset-hormones-peptides-skin-image-m5-p02-img",
+      "kind": "image",
+      "uri": "assets/hormones-peptides-skin/images/m5-p02-img.jpg",
+      "exists": true,
+      "sha256": "3b5339d24341f57e08d370b8a61585482f5cbb889dfc209b139d4b28a82f945f",
+      "declaredSha256": null,
+      "matchesDeclared": true
+    },
+    {
+      "id": "asset-hormones-peptides-skin-image-m5-p05-img",
+      "kind": "image",
+      "uri": "assets/hormones-peptides-skin/images/m5-p05-img.jpg",
+      "exists": true,
+      "sha256": "9061f06c9293734deb6f3ffdf3643d1f30df3556f29472b9765ae16daffb031c",
+      "declaredSha256": null,
+      "matchesDeclared": true
+    },
+    {
+      "id": "asset-hormones-peptides-skin-image-m5-p07-img",
+      "kind": "image",
+      "uri": "assets/hormones-peptides-skin/images/m5-p07-img.jpg",
+      "exists": true,
+      "sha256": "ff62ca0b0e41401038cf17bf3aabc7fa1920d2063d167a49a83a1f3bef31ed36",
+      "declaredSha256": null,
+      "matchesDeclared": true
+    },
+    {
+      "id": "asset-hormones-peptides-skin-image-m5-p10-img",
+      "kind": "image",
+      "uri": "assets/hormones-peptides-skin/images/m5-p10-img.jpg",
+      "exists": true,
+      "sha256": "1f4d7e95503bb0ea9562332c104188b3e96214a52af158c480ee834f0f19fd6a",
+      "declaredSha256": null,
+      "matchesDeclared": true
+    },
+    {
+      "id": "asset-hormones-peptides-skin-image-m5-p11-img",
+      "kind": "image",
+      "uri": "assets/hormones-peptides-skin/images/m5-p11-img.jpg",
+      "exists": true,
+      "sha256": "f2e64511cb1064345318beb3eb689783567cc31d23f69f7a30aa03a12433a1f5",
+      "declaredSha256": null,
+      "matchesDeclared": true
+    },
+    {
+      "id": "asset-hormones-peptides-skin-image-m5-p14-img",
+      "kind": "image",
+      "uri": "assets/hormones-peptides-skin/images/m5-p14-img.jpg",
+      "exists": true,
+      "sha256": "365fd4c33e6246f5b1f1fba4831d652ccabd58a37b4dcdab0e6993ed3d6803d8",
+      "declaredSha256": null,
+      "matchesDeclared": true
+    },
+    {
+      "id": "asset-hormones-peptides-skin-image-m5-p17-img",
+      "kind": "image",
+      "uri": "assets/hormones-peptides-skin/images/m5-p17-img.jpg",
+      "exists": true,
+      "sha256": "06439ff73e700e6347cfce46753d667126ed0b881a3dc3bf1793d8f8dc38fca7",
+      "declaredSha256": null,
+      "matchesDeclared": true
+    },
+    {
+      "id": "asset-hormones-peptides-skin-image-m6-p02-img",
+      "kind": "image",
+      "uri": "assets/hormones-peptides-skin/images/m6-p02-img.jpg",
+      "exists": true,
+      "sha256": "775c71e59c0e1ef1f36d1019f39499f5306a638ce407d7a5930ac5d14c8e0958",
+      "declaredSha256": null,
+      "matchesDeclared": true
+    },
+    {
+      "id": "asset-hormones-peptides-skin-image-m6-p05-img",
+      "kind": "image",
+      "uri": "assets/hormones-peptides-skin/images/m6-p05-img.jpg",
+      "exists": true,
+      "sha256": "b82dd8ab714fd5cc72bd186f35799b459e532b41586dcb5d9a9c8123ee3fede1",
+      "declaredSha256": null,
+      "matchesDeclared": true
+    },
+    {
+      "id": "asset-hormones-peptides-skin-image-m6-p07-img",
+      "kind": "image",
+      "uri": "assets/hormones-peptides-skin/images/m6-p07-img.jpg",
+      "exists": true,
+      "sha256": "856f3610aead9fd73cc3cc55aab611c3ccc026eb2400dd0c8de2170cf1f332e0",
+      "declaredSha256": null,
+      "matchesDeclared": true
+    },
+    {
+      "id": "asset-hormones-peptides-skin-image-m6-p12-img",
+      "kind": "image",
+      "uri": "assets/hormones-peptides-skin/images/m6-p12-img.jpg",
+      "exists": true,
+      "sha256": "be84e4811004004bfae711de56849a23d3ddc88ccb79acef5d7eb040ad913555",
+      "declaredSha256": null,
+      "matchesDeclared": true
+    },
+    {
+      "id": "asset-hormones-peptides-skin-image-m6-p14-img",
+      "kind": "image",
+      "uri": "assets/hormones-peptides-skin/images/m6-p14-img.jpg",
+      "exists": true,
+      "sha256": "3c7f2885120ca3b7a5a5f68f1a1f1ceb7c8b7aafe74a6295bea287bd141aa094",
+      "declaredSha256": null,
+      "matchesDeclared": true
+    },
+    {
+      "id": "asset-hormones-peptides-skin-image-m6-p17-img",
+      "kind": "image",
+      "uri": "assets/hormones-peptides-skin/images/m6-p17-img.jpg",
+      "exists": true,
+      "sha256": "1583dee0b87ac58b9bd53f20cbda95ed8ecd155a22e48c2e89994efe1ef6d060",
+      "declaredSha256": null,
+      "matchesDeclared": true
+    },
+    {
+      "id": "asset-hormones-peptides-skin-image-m7-p02-img",
+      "kind": "image",
+      "uri": "assets/hormones-peptides-skin/images/m7-p02-img.jpg",
+      "exists": true,
+      "sha256": "5c072f6816357b500acd5e06cdcbe95bce1b7037d1d2553e60eae9cf90690134",
+      "declaredSha256": null,
+      "matchesDeclared": true
+    },
+    {
+      "id": "asset-hormones-peptides-skin-image-m7-p05-img",
+      "kind": "image",
+      "uri": "assets/hormones-peptides-skin/images/m7-p05-img.jpg",
+      "exists": true,
+      "sha256": "34cdf1032d6445ad98840d22fab20e16f4b10f3a1fda386a881bdf85409cc975",
+      "declaredSha256": null,
+      "matchesDeclared": true
+    },
+    {
+      "id": "asset-hormones-peptides-skin-image-m7-p07-img",
+      "kind": "image",
+      "uri": "assets/hormones-peptides-skin/images/m7-p07-img.jpg",
+      "exists": true,
+      "sha256": "8860c1ff58d97a62be8c9580aafeea2abf76299cc551b3c3036a5b756e155fa5",
+      "declaredSha256": null,
+      "matchesDeclared": true
+    },
+    {
+      "id": "asset-hormones-peptides-skin-image-m7-p10-img",
+      "kind": "image",
+      "uri": "assets/hormones-peptides-skin/images/m7-p10-img.jpg",
+      "exists": true,
+      "sha256": "9ad3ca112c89783bb7b0b178f2281f99b2000bf764aea74a28ccd4d3e633d51a",
+      "declaredSha256": null,
+      "matchesDeclared": true
+    },
+    {
+      "id": "asset-hormones-peptides-skin-image-m7-p13-img",
+      "kind": "image",
+      "uri": "assets/hormones-peptides-skin/images/m7-p13-img.jpg",
+      "exists": true,
+      "sha256": "168cede38c50a59b463d7f67272fa3ca8fe74ea4bedfab1bf45e5df522933d0f",
+      "declaredSha256": null,
+      "matchesDeclared": true
+    },
+    {
+      "id": "asset-hormones-peptides-skin-image-m7-p22-img",
+      "kind": "image",
+      "uri": "assets/hormones-peptides-skin/images/m7-p22-img.jpg",
+      "exists": true,
+      "sha256": "e42f1fd3682a9425e4cb8b37d6a4ec2f14e9a44c693c3f53cb0da30a50631d64",
+      "declaredSha256": null,
+      "matchesDeclared": true
+    },
+    {
+      "id": "asset-hormones-peptides-skin-image-m7-p15-img",
+      "kind": "image",
+      "uri": "assets/hormones-peptides-skin/images/m7-p15-img.jpg",
+      "exists": true,
+      "sha256": "774eff9c8ce0f9eef92693a5d5638d785377ab0956bc978ac1634b664a67fd8f",
+      "declaredSha256": null,
+      "matchesDeclared": true
+    },
+    {
+      "id": "asset-hormones-peptides-skin-image-m7-p17-img",
+      "kind": "image",
+      "uri": "assets/hormones-peptides-skin/images/m7-p17-img.jpg",
+      "exists": true,
+      "sha256": "e0c12a8d4c5a7b1fbb003b13a8dfa839020daa4a137273e36f496ca3766b686a",
+      "declaredSha256": null,
+      "matchesDeclared": true
+    },
+    {
+      "id": "asset-hps-m01-opener",
+      "kind": "video",
+      "uri": "assets/hormones-peptides-skin/video/m01-opener.mp4",
+      "exists": true,
+      "sha256": "d51215d7bbbda53b1eb08cfe53c07743751ef398290e3cea7e2f56570cbb3c94",
+      "declaredSha256": null,
+      "matchesDeclared": true,
+      "probeExit": 0,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1080,
+            "height": 1920
+          },
+          {
+            "codec_name": "aac"
+          }
+        ],
+        "format": {
+          "duration": "70.260000"
+        }
+      }
+    },
+    {
+      "id": "asset-hps-m01-opener-poster",
+      "kind": "image",
+      "uri": "assets/hormones-peptides-skin/video/m01-opener-poster.jpg",
+      "exists": true,
+      "sha256": "4c56d372782e885a27e618aaff5f8cdf1cc4669c92c38dac550cf4d242e08fc4",
+      "declaredSha256": null,
+      "matchesDeclared": true
+    },
+    {
+      "id": "asset-hps-m02-opener",
+      "kind": "video",
+      "uri": "assets/hormones-peptides-skin/video/m02-opener-r3.mp4",
+      "exists": true,
+      "sha256": "c909e2221428d6005223bc000bd2733caa7ca3b7579e18f0208562f025ab8ab4",
+      "declaredSha256": null,
+      "matchesDeclared": true,
+      "probeExit": 0,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1080,
+            "height": 1920
+          },
+          {
+            "codec_name": "aac"
+          }
+        ],
+        "format": {
+          "duration": "76.140000"
+        }
+      }
+    },
+    {
+      "id": "asset-hps-m02-opener-poster",
+      "kind": "image",
+      "uri": "assets/hormones-peptides-skin/video/m02-opener-r3-poster.jpg",
+      "exists": true,
+      "sha256": "75ec2a4337226312c247720979745fe5fd4853dfff19cc6cf27fd206077f237a",
+      "declaredSha256": null,
+      "matchesDeclared": true
+    },
+    {
+      "id": "asset-hps-m03-opener",
+      "kind": "video",
+      "uri": "assets/hormones-peptides-skin/video/m03-opener.mp4",
+      "exists": true,
+      "sha256": "05f24997338cbb14b00b5e433cc24fd38c970c3e1525dd60ad2b19e6179b2289",
+      "declaredSha256": null,
+      "matchesDeclared": true,
+      "probeExit": 0,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1080,
+            "height": 1920
+          },
+          {
+            "codec_name": "aac"
+          }
+        ],
+        "format": {
+          "duration": "72.340000"
+        }
+      }
+    },
+    {
+      "id": "asset-hps-m03-opener-poster",
+      "kind": "image",
+      "uri": "assets/hormones-peptides-skin/video/m03-opener-poster.jpg",
+      "exists": true,
+      "sha256": "2fccc75008843e54ed38b5ca95d3a7a82ce4d7fe5b29d240ade62c8b8954264a",
+      "declaredSha256": null,
+      "matchesDeclared": true
+    },
+    {
+      "id": "asset-hps-m04-opener",
+      "kind": "video",
+      "uri": "assets/hormones-peptides-skin/video/m04-opener.mp4",
+      "exists": true,
+      "sha256": "706039f4232d48fce6cb29370445e1e6ba2f935b04550f72226b2db778e9fca0",
+      "declaredSha256": null,
+      "matchesDeclared": true,
+      "probeExit": 0,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1080,
+            "height": 1920
+          },
+          {
+            "codec_name": "aac"
+          }
+        ],
+        "format": {
+          "duration": "67.100000"
+        }
+      }
+    },
+    {
+      "id": "asset-hps-m04-opener-poster",
+      "kind": "image",
+      "uri": "assets/hormones-peptides-skin/video/m04-opener-poster.jpg",
+      "exists": true,
+      "sha256": "adc2d277812c5907226c791ae0f5f8d3b0419c29345d0afec18cd742943097a2",
+      "declaredSha256": null,
+      "matchesDeclared": true
+    },
+    {
+      "id": "asset-hps-m05-opener",
+      "kind": "video",
+      "uri": "assets/hormones-peptides-skin/video/m05-opener.mp4",
+      "exists": true,
+      "sha256": "6a7652f950bf419d03f7959e0c9d107cfdf1c39fa2b5a7f798e5b278c8397394",
+      "declaredSha256": null,
+      "matchesDeclared": true,
+      "probeExit": 0,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1080,
+            "height": 1920
+          },
+          {
+            "codec_name": "aac"
+          }
+        ],
+        "format": {
+          "duration": "71.260000"
+        }
+      }
+    },
+    {
+      "id": "asset-hps-m05-opener-poster",
+      "kind": "image",
+      "uri": "assets/hormones-peptides-skin/video/m05-opener-poster.jpg",
+      "exists": true,
+      "sha256": "8a92ab6a93b54e0ab8c4a9b5230ce73da55ec3c7fd73758582aac7ff2ba45ff4",
+      "declaredSha256": null,
+      "matchesDeclared": true
+    },
+    {
+      "id": "asset-hps-m06-opener",
+      "kind": "video",
+      "uri": "assets/hormones-peptides-skin/video/m06-opener.mp4",
+      "exists": true,
+      "sha256": "79b8b13baa1b7c9ff5cf30643ea28c37341390a5d58aba28257dd89a4c273b01",
+      "declaredSha256": null,
+      "matchesDeclared": true,
+      "probeExit": 0,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1080,
+            "height": 1920
+          },
+          {
+            "codec_name": "aac"
+          }
+        ],
+        "format": {
+          "duration": "83.540000"
+        }
+      }
+    },
+    {
+      "id": "asset-hps-m06-opener-poster",
+      "kind": "image",
+      "uri": "assets/hormones-peptides-skin/video/m06-opener-poster.jpg",
+      "exists": true,
+      "sha256": "295018cea731dc21a1cca642c69f696e3d68741a01c98cbc716a5a0f070223d3",
+      "declaredSha256": null,
+      "matchesDeclared": true
+    },
+    {
+      "id": "asset-hps-m07-opener",
+      "kind": "video",
+      "uri": "assets/hormones-peptides-skin/video/m07-opener.mp4",
+      "exists": true,
+      "sha256": "2f2dbb0d728616d837b80c00688593b429c607e1a0316093f3c62c117831a7c0",
+      "declaredSha256": null,
+      "matchesDeclared": true,
+      "probeExit": 0,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1080,
+            "height": 1920
+          },
+          {
+            "codec_name": "aac"
+          }
+        ],
+        "format": {
+          "duration": "75.300000"
+        }
+      }
+    },
+    {
+      "id": "asset-hps-m07-opener-poster",
+      "kind": "image",
+      "uri": "assets/hormones-peptides-skin/video/m07-opener-poster.jpg",
+      "exists": true,
+      "sha256": "d5f9cd5c6fc36225c74eca5731f231c6ce7e29da4f5038e68f33ae3b134544ab",
+      "declaredSha256": null,
+      "matchesDeclared": true
+    }
+  ],
+  "diffSinceLastUpkeep": []
+}
