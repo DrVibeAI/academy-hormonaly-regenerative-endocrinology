@@ -1,0 +1,41 @@
+{
+  "sourceMovieSha256": "12befcacf1779fd8ab0707812d9b5f7d9a7f6c11b4cb4477c8558aaec24a66a3",
+  "sourceDurationSeconds": 52.583333,
+  "sourceNarrationSeconds": 50.28,
+  "characters": 915,
+  "words": 145,
+  "displayAndCueFields": 80,
+  "cueAnchorsChecked": 43,
+  "missingCueAnchors": 0,
+  "nonTranslationStructureRestoredExactly": true,
+  "existingSourceCounterPreserved": 412,
+  "currentCourseCounter": 416,
+  "counterPolicy": "Retain existing trailer counter; translation-only. No silent factual refresh.",
+  "estimatedSpanishDurationSeconds": [
+    55,
+    65
+  ],
+  "estimatedPresenterSeconds": [
+    12,
+    16
+  ],
+  "narrationEstimatedCreditsOneTake": 915,
+  "suggestedNarrationCapCredits": 2500,
+  "narrationCashOverageAllowed": false,
+  "suggestedHeygenCapUsd": 1,
+  "heygenEstimatedFirstPassUsd": [
+    0.348,
+    0.464
+  ],
+  "paidCallsMade": 0,
+  "newAvatarOrVoiceClone": false,
+  "paidApproval": "pending",
+  "renderReady": false,
+  "remainingBeforeRender": [
+    "approved Spanish narration and two lip-sync clips",
+    "actual word timings and sentence-level retiming",
+    "three Spanish app glimpse recaptures",
+    "local typography/layout/caption checks",
+    "final review; keep original language assets unchanged"
+  ]
+}

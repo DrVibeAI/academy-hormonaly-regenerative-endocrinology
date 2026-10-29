@@ -1,0 +1,408 @@
+{
+  "source": "/Users/omar/DrVibe/releases/lesson-media-20261025/hormonaly/academy-hormonaly-regenerative-endocrinology/course-production/hormones-peptides-skin/video/cinematic/hype.storyboard.json",
+  "sourceSha256": "843105eb2f04b1612d74528a6af4467b7591db0819cc9d580341b4c365641aec",
+  "sourceNarration": "Your patients are already asking about peptides for their skin. Copper peptides. Collagen. Tanning shots. Growth-hormone boosters. Most skin peptides reach your clinic before any evidence does. Hormones and Peptides for Skin gives you the evidence, graded. Seven short modules: the skin's own hormones, systemic hormones, fat and incretins, matrix peptides, hair and pigment, growth hormone, and the rules. Sort the trials from the brochures. Spot the red flags on a certificate. Practise the conversations you're already having, with the rules for your country. Over four hundred sources. Six jurisdictions. Every module reviewed by a physician. Be the clinician with real answers, and build a skin service you can stand behind. Enrol today at Hormonaly Academy.",
+  "es-MXNarration": "Tus pacientes ya preguntan por péptidos para su piel. Péptidos de cobre. Colágeno. Inyecciones para bronceado. Potenciadores de la hormona del crecimiento. La mayoría de los péptidos para la piel llegan a tu consultorio antes que la evidencia. Hormonas y péptidos para la piel te ofrece la evidencia, calificada. Siete módulos breves: las hormonas propias de la piel, las hormonas sistémicas, la grasa y las incretinas, los péptidos de la matriz, el cabello y la pigmentación, la hormona del crecimiento y las normas. Distingue los ensayos de los folletos. Detecta las señales de alerta en un certificado. Practica las conversaciones que ya tienes, con las normas de tu país. Más de cuatrocientas fuentes. Seis jurisdicciones. Cada módulo revisado por un médico. Sé el profesional clínico con respuestas reales y construye un servicio de atención a la piel que puedas respaldar. Inscríbete hoy en Hormonaly Academy.",
+  "changes": [
+    {
+      "path": "states.0.content.video.presenter.from",
+      "source": "Your patients",
+      "es-MX": "Tus pacientes"
+    },
+    {
+      "path": "states.0.content.video.presenter.to",
+      "source": "their skin",
+      "es-MX": "su piel"
+    },
+    {
+      "path": "states.0.kinetic.0.on",
+      "source": "already asking",
+      "es-MX": "ya preguntan"
+    },
+    {
+      "path": "states.0.kinetic.0.text",
+      "source": "Already asking",
+      "es-MX": "Ya preguntan"
+    },
+    {
+      "path": "states.1.on",
+      "source": "Copper peptides",
+      "es-MX": "Péptidos de cobre"
+    },
+    {
+      "path": "states.1.kinetic.0.on",
+      "source": "Copper peptides",
+      "es-MX": "Péptidos de cobre"
+    },
+    {
+      "path": "states.1.kinetic.0.text",
+      "source": "Copper peptides",
+      "es-MX": "Péptidos de cobre"
+    },
+    {
+      "path": "states.1.kinetic.1.on",
+      "source": "Collagen",
+      "es-MX": "Colágeno"
+    },
+    {
+      "path": "states.1.kinetic.1.text",
+      "source": "Collagen",
+      "es-MX": "Colágeno"
+    },
+    {
+      "path": "states.1.kinetic.2.on",
+      "source": "Tanning shots",
+      "es-MX": "Inyecciones para bronceado"
+    },
+    {
+      "path": "states.1.kinetic.2.text",
+      "source": "Tanning shots",
+      "es-MX": "Inyecciones para bronceado"
+    },
+    {
+      "path": "states.1.kinetic.3.on",
+      "source": "Growth-hormone boosters",
+      "es-MX": "Potenciadores de la hormona del crecimiento"
+    },
+    {
+      "path": "states.1.kinetic.3.text",
+      "source": "Growth-hormone boosters",
+      "es-MX": "Potenciadores de la hormona del crecimiento"
+    },
+    {
+      "path": "states.2.on",
+      "source": "Most skin peptides",
+      "es-MX": "La mayoría de los péptidos para la piel"
+    },
+    {
+      "path": "states.2.content.kicker",
+      "source": "The problem",
+      "es-MX": "El problema"
+    },
+    {
+      "path": "states.2.content.display",
+      "source": "Most reach your clinic before any evidence does.",
+      "es-MX": "La mayoría llega a tu consultorio antes que la evidencia."
+    },
+    {
+      "path": "states.3.on",
+      "source": "Hormones and Peptides for Skin gives",
+      "es-MX": "Hormonas y péptidos para la piel te ofrece"
+    },
+    {
+      "path": "states.3.content.kicker",
+      "source": "Hormonaly Academy",
+      "es-MX": "Hormonaly Academy"
+    },
+    {
+      "path": "states.3.content.display",
+      "source": "Hormones and Peptides for Skin",
+      "es-MX": "Hormonas y péptidos para la piel"
+    },
+    {
+      "path": "states.3.chips.0.on",
+      "source": "graded",
+      "es-MX": "calificada"
+    },
+    {
+      "path": "states.3.chips.0.text",
+      "source": "A",
+      "es-MX": "A"
+    },
+    {
+      "path": "states.3.chips.1.on",
+      "source": "graded",
+      "es-MX": "calificada"
+    },
+    {
+      "path": "states.3.chips.1.text",
+      "source": "B",
+      "es-MX": "B"
+    },
+    {
+      "path": "states.3.chips.2.on",
+      "source": "graded",
+      "es-MX": "calificada"
+    },
+    {
+      "path": "states.3.chips.2.text",
+      "source": "C",
+      "es-MX": "C"
+    },
+    {
+      "path": "states.3.chips.3.on",
+      "source": "graded",
+      "es-MX": "calificada"
+    },
+    {
+      "path": "states.3.chips.3.text",
+      "source": "D",
+      "es-MX": "D"
+    },
+    {
+      "path": "states.4.on",
+      "source": "Seven short modules",
+      "es-MX": "Siete módulos breves"
+    },
+    {
+      "path": "states.4.list.kicker",
+      "source": "Seven short modules",
+      "es-MX": "Siete módulos breves"
+    },
+    {
+      "path": "states.4.list.rows.0.label",
+      "source": "The skin's own hormones",
+      "es-MX": "Las hormonas propias de la piel"
+    },
+    {
+      "path": "states.4.list.rows.1.label",
+      "source": "Systemic hormones",
+      "es-MX": "Hormonas sistémicas"
+    },
+    {
+      "path": "states.4.list.rows.2.label",
+      "source": "Fat and incretins",
+      "es-MX": "Grasa e incretinas"
+    },
+    {
+      "path": "states.4.list.rows.3.label",
+      "source": "Matrix peptides",
+      "es-MX": "Péptidos de la matriz"
+    },
+    {
+      "path": "states.4.list.rows.4.label",
+      "source": "Hair and pigment",
+      "es-MX": "Cabello y pigmentación"
+    },
+    {
+      "path": "states.4.list.rows.5.label",
+      "source": "Growth hormone",
+      "es-MX": "Hormona del crecimiento"
+    },
+    {
+      "path": "states.4.list.rows.6.label",
+      "source": "Evidence and the rules",
+      "es-MX": "Evidencia y normas"
+    },
+    {
+      "path": "states.5.on",
+      "source": "the skin's own",
+      "es-MX": "las hormonas propias de la piel"
+    },
+    {
+      "path": "states.6.on",
+      "source": "systemic hormones",
+      "es-MX": "las hormonas sistémicas"
+    },
+    {
+      "path": "states.7.on",
+      "source": "fat and",
+      "es-MX": "la grasa y"
+    },
+    {
+      "path": "states.8.on",
+      "source": "matrix peptides",
+      "es-MX": "los péptidos de la matriz"
+    },
+    {
+      "path": "states.9.on",
+      "source": "hair and",
+      "es-MX": "el cabello y"
+    },
+    {
+      "path": "states.10.on",
+      "source": "growth hormone, and",
+      "es-MX": "la hormona del crecimiento y"
+    },
+    {
+      "path": "states.11.on",
+      "source": "the rules",
+      "es-MX": "las normas"
+    },
+    {
+      "path": "states.12.on",
+      "source": "Sort the trials",
+      "es-MX": "Distingue los ensayos"
+    },
+    {
+      "path": "states.13.on",
+      "source": "Spot the red flags",
+      "es-MX": "Detecta las señales de alerta"
+    },
+    {
+      "path": "states.14.on",
+      "source": "Practise the conversations",
+      "es-MX": "Practica las conversaciones"
+    },
+    {
+      "path": "states.15.on",
+      "source": "with the rules",
+      "es-MX": "con las normas"
+    },
+    {
+      "path": "states.15.content.kicker",
+      "source": "Six jurisdictions",
+      "es-MX": "Seis jurisdicciones"
+    },
+    {
+      "path": "states.15.content.display",
+      "source": "Your country first.",
+      "es-MX": "Tu país primero."
+    },
+    {
+      "path": "states.15.chips.0.on",
+      "source": "rules",
+      "es-MX": "normas"
+    },
+    {
+      "path": "states.15.chips.0.text",
+      "source": "United States",
+      "es-MX": "Estados Unidos"
+    },
+    {
+      "path": "states.15.chips.1.on",
+      "source": "rules",
+      "es-MX": "normas"
+    },
+    {
+      "path": "states.15.chips.1.text",
+      "source": "United Kingdom",
+      "es-MX": "Reino Unido"
+    },
+    {
+      "path": "states.15.chips.2.on",
+      "source": "for your",
+      "es-MX": "de tu"
+    },
+    {
+      "path": "states.15.chips.2.text",
+      "source": "European Union",
+      "es-MX": "Unión Europea"
+    },
+    {
+      "path": "states.15.chips.3.on",
+      "source": "your country",
+      "es-MX": "tu país"
+    },
+    {
+      "path": "states.15.chips.3.text",
+      "source": "Portugal",
+      "es-MX": "Portugal"
+    },
+    {
+      "path": "states.15.chips.4.on",
+      "source": "country",
+      "es-MX": "país"
+    },
+    {
+      "path": "states.15.chips.4.text",
+      "source": "Brazil",
+      "es-MX": "Brasil"
+    },
+    {
+      "path": "states.15.chips.5.on",
+      "source": "country",
+      "es-MX": "país"
+    },
+    {
+      "path": "states.15.chips.5.text",
+      "source": "UAE",
+      "es-MX": "Emiratos Árabes Unidos"
+    },
+    {
+      "path": "states.16.on",
+      "source": "Over four hundred",
+      "es-MX": "Más de cuatrocientas"
+    },
+    {
+      "path": "states.16.kinetic.0.on",
+      "source": "four hundred",
+      "es-MX": "cuatrocientas"
+    },
+    {
+      "path": "states.16.kinetic.0.text",
+      "source": "412 sources",
+      "es-MX": "412 fuentes"
+    },
+    {
+      "path": "states.16.kinetic.1.on",
+      "source": "Six jurisdictions",
+      "es-MX": "Seis jurisdicciones"
+    },
+    {
+      "path": "states.16.kinetic.1.text",
+      "source": "6 jurisdictions",
+      "es-MX": "6 jurisdicciones"
+    },
+    {
+      "path": "states.16.kinetic.2.on",
+      "source": "reviewed by a physician",
+      "es-MX": "revisado por un médico"
+    },
+    {
+      "path": "states.16.kinetic.2.text",
+      "source": "Physician-reviewed",
+      "es-MX": "Revisado por un médico"
+    },
+    {
+      "path": "states.17.on",
+      "source": "Be the clinician",
+      "es-MX": "Sé el profesional clínico"
+    },
+    {
+      "path": "states.17.content.video.presenter.from",
+      "source": "Be the clinician",
+      "es-MX": "Sé el profesional clínico"
+    },
+    {
+      "path": "states.17.content.video.presenter.to",
+      "source": "stand behind",
+      "es-MX": "puedas respaldar"
+    },
+    {
+      "path": "states.17.kinetic.0.on",
+      "source": "real answers",
+      "es-MX": "respuestas reales"
+    },
+    {
+      "path": "states.17.kinetic.0.text",
+      "source": "Real answers",
+      "es-MX": "Respuestas reales"
+    },
+    {
+      "path": "states.17.kinetic.1.on",
+      "source": "skin service",
+      "es-MX": "servicio de atención a la piel"
+    },
+    {
+      "path": "states.17.kinetic.1.text",
+      "source": "A skin service you can stand behind",
+      "es-MX": "Un servicio de atención a la piel que puedas respaldar"
+    },
+    {
+      "path": "states.18.on",
+      "source": "Enrol today",
+      "es-MX": "Inscríbete hoy"
+    },
+    {
+      "path": "states.18.content.kicker",
+      "source": "Enrol today",
+      "es-MX": "Inscríbete hoy"
+    },
+    {
+      "path": "states.18.content.display",
+      "source": "Hormones and Peptides for Skin",
+      "es-MX": "Hormonas y péptidos para la piel"
+    },
+    {
+      "path": "states.18.chips.0.on",
+      "source": "Hormonaly Academy",
+      "es-MX": "Hormonaly Academy"
+    },
+    {
+      "path": "states.18.chips.0.text",
+      "source": "hormonaly.perceptors.ai",
+      "es-MX": "hormonaly.perceptors.ai"
+    }
+  ]
+}

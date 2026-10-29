@@ -1,0 +1,513 @@
+{
+  "format": "cinematic/1",
+  "id": "hype",
+  "role": "course-trailer",
+  "title": "Hormonas y péptidos para la piel — avance del curso",
+  "note": "The academy homepage trailer (Omar 2026-09-25: \"a hype video for the course … glimpses of the course … skin aesthetics … client demand for aesthetic peptides … a powerful lever for practitioners\"). Blueprint: perceptor-foundry docs/hype-film.md. Beats: presenter hook → skin b-roll with the products patients ask about → the problem (approved course line) → title with the evidence grades → the seven modules → three real app glimpses (recorded with tools/video/app-glimpses.mjs), then the six jurisdictions → proof numbers from the package (412 sources, 6 jurisdictions, physician review) → presenter close on the practice → end card with the address. Course facts come from the package; the problem line is approved text (m4-p01 body, sentence 1). No dosing, no outcome or revenue promises.",
+  "script": {
+    "text": "Tus pacientes ya preguntan por péptidos para su piel. Péptidos de cobre. Colágeno. Inyecciones para bronceado. Potenciadores de la hormona del crecimiento. La mayoría de los péptidos para la piel llegan a tu consultorio antes que la evidencia. Hormonas y péptidos para la piel te ofrece la evidencia, calificada. Siete módulos breves: las hormonas propias de la piel, las hormonas sistémicas, la grasa y las incretinas, los péptidos de la matriz, el cabello y la pigmentación, la hormona del crecimiento y las normas. Distingue los ensayos de los folletos. Detecta las señales de alerta en un certificado. Practica las conversaciones que ya tienes, con las normas de tu país. Más de cuatrocientas fuentes. Seis jurisdicciones. Cada módulo revisado por un médico. Sé el profesional clínico con respuestas reales y construye un servicio de atención a la piel que puedas respaldar. Inscríbete hoy en Hormonaly Academy.",
+    "sources": [
+      "m4-p01 body, sentence 1 (\"Most skin peptides reach your clinic before any evidence does.\")",
+      "package facts: 7 modules, 412 sources, 6 jurisdictions (US, GB, EU, PT, BR, AE), medical review by Fady Hannah-Shmouni",
+      "marketing lines (hook, close, call to action): product owner"
+    ],
+    "locale": "es-MX"
+  },
+  "voice": {
+    "provider": "elevenlabs",
+    "voice_id": "rixsIpPlTphvsJd2mI03",
+    "name": "Isabel",
+    "model": "eleven_v4",
+    "style": "Español de México. Educadora clínica cálida y segura, ritmo ágil y claro; sin exageración comercial. Conservar cada palabra y todos los matices del texto."
+  },
+  "presenter": {
+    "look": "2daeb4c1c74e491c89314a4e7dcd4879",
+    "engine": "avatar_v",
+    "resolution": "4k",
+    "name": "HeyGen stock avatar \"Iris\" (the presenter of the module openers)",
+    "disclosure": {
+      "en": "Presented by a digital avatar (AI-generated presenter and voice).",
+      "es-MX": "Presentado por un avatar digital (presentador y voz generados con IA)."
+    }
+  },
+  "music": {
+    "src": "hype-score.mp3",
+    "lufs": -19,
+    "fadeIn": 0.4,
+    "fadeOut": 2.2
+  },
+  "chrome": {
+    "kicker": "HORMONALY ACADEMY"
+  },
+  "assets": [
+    {
+      "src": "hype-skin-glisten.mp4",
+      "kind": "video",
+      "prompt": "Extreme macro beauty cinematography of healthy, radiant, dewy skin across a cheekbone: a soft sheen of moisture and fine texture glowing in warm golden light that glides slowly across the surface, a very slow smooth push-in, shallow depth of field, premium skincare-campaign look, warm luminous grade. Only skin fills the frame."
+    },
+    {
+      "src": "hype-skin-glisten-2.mp4",
+      "kind": "video",
+      "prompt": "Extreme macro beauty cinematography of fine water droplets beading on smooth, glowing skin of a shoulder and collarbone, catching soft backlight that sparkles as the camera drifts slowly sideways, shallow depth of field, clean premium skincare-campaign look, warm luminous grade. Only skin fills the frame."
+    },
+    {
+      "src": "hype-score.mp3",
+      "kind": "music",
+      "prompt": "Upbeat, confident, modern instrumental for a 45-second course trailer: bright plucked synths and warm piano over a crisp, light beat at 120 BPM, a steady build from 18 seconds, a lift at 30 seconds, and a clean final hit at 44 seconds; premium, optimistic and energetic, no vocals, leave space for a voice-over."
+    },
+    {
+      "src": "home-hero-skin.png",
+      "kind": "image",
+      "style": "photo",
+      "size": [
+        1536,
+        1024
+      ],
+      "candidates": 2,
+      "prompt": "Editorial beauty macro photograph of radiant, healthy, dewy skin on a cheek and jawline in profile, glistening with a fine sheen of moisture under warm soft window light, extremely fine natural texture, calm premium skincare-campaign aesthetic, generous soft negative space on the left side of the frame, warm ivory and soft peach tones."
+    }
+  ],
+  "glimpses": "glimpses.es-MX.spec.json",
+  "states": [
+    {
+      "id": "hook",
+      "at": 0,
+      "shape": {
+        "kind": "frame",
+        "fill": "ink"
+      },
+      "content": {
+        "video": {
+          "presenter": {
+            "from": "Tus pacientes",
+            "to": "su piel"
+          },
+          "focus": [
+            0.5,
+            0.36
+          ],
+          "zoom": [
+            1.0,
+            1.08
+          ]
+        }
+      },
+      "kinetic": [
+        {
+          "on": "ya preguntan",
+          "text": "Ya preguntan"
+        }
+      ]
+    },
+    {
+      "id": "asks",
+      "on": "Péptidos de cobre",
+      "shape": {
+        "kind": "frame",
+        "fill": "ink"
+      },
+      "content": {
+        "video": {
+          "src": "hype-skin-glisten.mp4",
+          "focus": [
+            0.55,
+            0.52
+          ],
+          "zoom": [
+            1.25,
+            1.4
+          ]
+        }
+      },
+      "kinetic": [
+        {
+          "on": "Péptidos de cobre",
+          "text": "Péptidos de cobre"
+        },
+        {
+          "on": "Colágeno",
+          "text": "Colágeno"
+        },
+        {
+          "on": "Inyecciones para bronceado",
+          "text": "Inyecciones para bronceado"
+        },
+        {
+          "on": "Potenciadores de la hormona del crecimiento",
+          "text": "Potenciadores de la hormona del crecimiento"
+        }
+      ]
+    },
+    {
+      "id": "problem",
+      "on": "La mayoría de los péptidos para la piel",
+      "shape": {
+        "kind": "card",
+        "fill": "paper"
+      },
+      "kinetic": null,
+      "content": {
+        "kicker": "El problema",
+        "display": "La mayoría llega a tu consultorio antes que la evidencia."
+      }
+    },
+    {
+      "id": "title",
+      "on": "Hormonas y péptidos para la piel te ofrece",
+      "shape": {
+        "kind": "card",
+        "fill": "violet"
+      },
+      "content": {
+        "kicker": "Hormonaly Academy",
+        "display": "Hormonas y péptidos para la piel"
+      },
+      "chips": [
+        {
+          "id": "ga",
+          "on": "calificada",
+          "text": "A",
+          "round": true,
+          "place": "below"
+        },
+        {
+          "id": "gb",
+          "on": "calificada",
+          "text": "B",
+          "round": true,
+          "place": "below"
+        },
+        {
+          "id": "gc",
+          "on": "calificada",
+          "text": "C",
+          "round": true,
+          "place": "below"
+        },
+        {
+          "id": "gd",
+          "on": "calificada",
+          "text": "D",
+          "round": true,
+          "place": "below"
+        }
+      ]
+    },
+    {
+      "id": "modules",
+      "on": "Siete módulos breves",
+      "shape": {
+        "kind": "panel",
+        "fill": "card"
+      },
+      "drop": [
+        "ga",
+        "gb",
+        "gc",
+        "gd"
+      ],
+      "list": {
+        "kicker": "Siete módulos breves",
+        "rows": [
+          {
+            "label": "Las hormonas propias de la piel"
+          },
+          {
+            "label": "Hormonas sistémicas"
+          },
+          {
+            "label": "Grasa e incretinas"
+          },
+          {
+            "label": "Péptidos de la matriz"
+          },
+          {
+            "label": "Cabello y pigmentación"
+          },
+          {
+            "label": "Hormona del crecimiento"
+          },
+          {
+            "label": "Evidencia y normas"
+          }
+        ]
+      }
+    },
+    {
+      "id": "m1",
+      "on": "las hormonas propias de la piel",
+      "indicator": {
+        "rows": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "m2",
+      "on": "las hormonas sistémicas",
+      "indicator": {
+        "rows": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "m3",
+      "on": "la grasa y",
+      "indicator": {
+        "rows": [
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "id": "m4",
+      "on": "los péptidos de la matriz",
+      "indicator": {
+        "rows": [
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "id": "m5",
+      "on": "el cabello y",
+      "indicator": {
+        "rows": [
+          4,
+          4
+        ]
+      }
+    },
+    {
+      "id": "m6",
+      "on": "la hormona del crecimiento y",
+      "indicator": {
+        "rows": [
+          5,
+          5
+        ]
+      }
+    },
+    {
+      "id": "m7",
+      "on": "las normas",
+      "indicator": {
+        "rows": [
+          6,
+          6
+        ]
+      }
+    },
+    {
+      "id": "sort",
+      "on": "Distingue los ensayos",
+      "shape": {
+        "kind": "window",
+        "fill": "paper",
+        "w": 880,
+        "h": 1150,
+        "r": 40
+      },
+      "content": {
+        "video": {
+          "src": "../glimpses/trial-or-brochure.mp4",
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "zoom": [
+            1.0,
+            1.04
+          ]
+        }
+      }
+    },
+    {
+      "id": "audit",
+      "on": "Detecta las señales de alerta",
+      "content": {
+        "video": {
+          "src": "../glimpses/audit-certificate.mp4",
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "zoom": [
+            1.0,
+            1.04
+          ]
+        }
+      }
+    },
+    {
+      "id": "case",
+      "on": "Practica las conversaciones",
+      "content": {
+        "video": {
+          "src": "../glimpses/glow-case.mp4",
+          "focus": [
+            0.5,
+            0.56
+          ],
+          "zoom": [
+            1.0,
+            1.04
+          ]
+        }
+      }
+    },
+    {
+      "id": "country",
+      "on": "con las normas",
+      "shape": {
+        "kind": "card",
+        "fill": "paper"
+      },
+      "content": {
+        "kicker": "Seis jurisdicciones",
+        "display": "Tu país primero."
+      },
+      "chips": [
+        {
+          "id": "us",
+          "on": "normas",
+          "text": "Estados Unidos",
+          "place": "below"
+        },
+        {
+          "id": "uk",
+          "on": "normas",
+          "text": "Reino Unido",
+          "place": "below"
+        },
+        {
+          "id": "eu",
+          "on": "de tu",
+          "text": "Unión Europea",
+          "place": "below"
+        },
+        {
+          "id": "pt",
+          "on": "tu país",
+          "text": "Portugal",
+          "place": "below"
+        },
+        {
+          "id": "br",
+          "on": "país",
+          "text": "Brasil",
+          "place": "below"
+        },
+        {
+          "id": "ae",
+          "on": "país",
+          "text": "Emiratos Árabes Unidos",
+          "place": "below"
+        }
+      ]
+    },
+    {
+      "id": "proof",
+      "on": "Más de cuatrocientas",
+      "shape": {
+        "kind": "frame",
+        "fill": "ink"
+      },
+      "content": {
+        "video": {
+          "src": "hype-skin-glisten-2.mp4",
+          "focus": [
+            0.5,
+            0.55
+          ],
+          "zoom": [
+            1.05,
+            1.2
+          ]
+        }
+      },
+      "kinetic": [
+        {
+          "on": "cuatrocientas",
+          "text": "412 fuentes"
+        },
+        {
+          "on": "Seis jurisdicciones",
+          "text": "6 jurisdicciones"
+        },
+        {
+          "on": "revisado por un médico",
+          "text": "Revisado por un médico"
+        }
+      ],
+      "drop": [
+        "us",
+        "uk",
+        "eu",
+        "pt",
+        "br",
+        "ae"
+      ]
+    },
+    {
+      "id": "close",
+      "on": "Sé el profesional clínico",
+      "shape": {
+        "kind": "frame",
+        "fill": "ink"
+      },
+      "content": {
+        "video": {
+          "presenter": {
+            "from": "Sé el profesional clínico",
+            "to": "puedas respaldar"
+          },
+          "focus": [
+            0.5,
+            0.36
+          ],
+          "zoom": [
+            1.04,
+            1.1
+          ]
+        }
+      },
+      "kinetic": [
+        {
+          "on": "respuestas reales",
+          "text": "Respuestas reales"
+        },
+        {
+          "on": "servicio de atención a la piel",
+          "text": "Un servicio de atención a la piel que puedas respaldar"
+        }
+      ]
+    },
+    {
+      "id": "end",
+      "on": "Inscríbete hoy",
+      "shape": {
+        "kind": "card",
+        "fill": "violet"
+      },
+      "kinetic": null,
+      "content": {
+        "kicker": "Inscríbete hoy",
+        "display": "Hormonas y péptidos para la piel"
+      },
+      "chips": [
+        {
+          "id": "url",
+          "on": "Hormonaly Academy",
+          "text": "hormonaly.perceptors.ai",
+          "place": "below"
+        }
+      ]
+    }
+  ]
+}
