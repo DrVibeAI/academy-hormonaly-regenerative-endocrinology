@@ -1,0 +1,1661 @@
+{
+  "locale": "es-MX",
+  "status": "machine-draft-unreviewed",
+  "sourceRef": "5f28bfcdbb0ae65090fa08de4f676ff297b93936",
+  "sourcePackageSha256": "6419297d6d012d8c8e5b58909e9e9f1f950443aa548ca20618017dbb0ebfa4fa",
+  "sourceRepository": "DrVibeAI/academy-hormonaly-regenerative-endocrinology",
+  "sourceBranch": "release/hormonaly-landing-20261019",
+  "sourcePackage": "packages/hormones-peptides-skin.json",
+  "sourceVersion": "1.1.0",
+  "currentDeployedSourceVerified": false,
+  "integrated": false,
+  "publishReady": false,
+  "surface": "academy",
+  "fields": [
+    {
+      "sourcePath": "/deployment/reviewNotice/en",
+      "targetPath": "/deployment/reviewNotice/es-MX",
+      "sourceTextSha256": "f41055b1df5ea26f0f0173feab93b2560fccf5348bab6e277faff059b38977c6",
+      "en": "Language review preview · Sorani translation and clinical review pending.",
+      "es-MX": "Vista previa para revisión lingüística · traducción al sorani y revisión clínica pendientes."
+    },
+    {
+      "sourcePath": "/brand/certificatePresentation/disclaimer/en",
+      "targetPath": "/brand/certificatePresentation/disclaimer/es-MX",
+      "sourceTextSha256": "c971a9beaef59ef3e3e9639557479769850c09a6da5602c2cbcb448b62332320",
+      "en": "CME or CE credit is not offered at this time.",
+      "es-MX": "No se otorgan créditos CME ni CE en este momento."
+    },
+    {
+      "sourcePath": "/brand/certificatePresentation/signatures/0/role/en",
+      "targetPath": "/brand/certificatePresentation/signatures/0/role/es-MX",
+      "sourceTextSha256": "47c22e2904d71f3fa2923c914af0774b8a481cc7390feabdb8c601432e01bb73",
+      "en": "Founder & CEO",
+      "es-MX": "Fundador y director ejecutivo"
+    },
+    {
+      "sourcePath": "/brand/certificatePresentation/signatures/1/role/en",
+      "targetPath": "/brand/certificatePresentation/signatures/1/role/es-MX",
+      "sourceTextSha256": "f51c35b516d942c22e3cd9a1e3aeb98464605721e766bbea246545086dd7e6f8",
+      "en": "President",
+      "es-MX": "Presidente"
+    },
+    {
+      "sourcePath": "/brand/tagline/en",
+      "targetPath": "/brand/tagline/es-MX",
+      "sourceTextSha256": "4034b19498fc87623433bf24a9e8410b7682aff62c3f78eac9bdfc06edfd4de4",
+      "en": "Hormones and peptides, evidence-graded.",
+      "es-MX": "Hormonas y péptidos, con evidencia calificada."
+    },
+    {
+      "sourcePath": "/home/kicker/en",
+      "targetPath": "/home/kicker/es-MX",
+      "sourceTextSha256": "0b032a385ba16a9aadaea2f93ed4334f80aa2639bfe8807fbe5b62a1c8425eb2",
+      "en": "For clinicians",
+      "es-MX": "Para profesionales clínicos"
+    },
+    {
+      "sourcePath": "/home/headline/en",
+      "targetPath": "/home/headline/es-MX",
+      "sourceTextSha256": "86b1f32843bda6e8d0a7d6828efc2bb261c362a63e0c324a8cecead71c3b113f",
+      "en": "Skin peptides, answered with evidence.",
+      "es-MX": "Péptidos para la piel: respuestas con evidencia."
+    },
+    {
+      "sourcePath": "/home/lede/en",
+      "targetPath": "/home/lede/es-MX",
+      "sourceTextSha256": "b51e5188c796a69e6d48550018ea931f76a57daccab60b699cd2ff0d826d015f",
+      "en": "Your patients are already asking about hormones and peptides for their skin. Learn what the trials show, what is approved where you practise, and what to say next.",
+      "es-MX": "Tus pacientes ya preguntan por hormonas y péptidos para su piel. Aprende qué muestran los ensayos, qué está aprobado donde ejerces y qué decir después."
+    },
+    {
+      "sourcePath": "/home/primaryAction/en",
+      "targetPath": "/home/primaryAction/es-MX",
+      "sourceTextSha256": "e19dcb8fb5cfca2a3dd1f838ad82116155a3436d79d3e8d937bd325f1f22d285",
+      "en": "Enroll now",
+      "es-MX": "Inscríbete ahora"
+    },
+    {
+      "sourcePath": "/home/secondaryAction/en",
+      "targetPath": "/home/secondaryAction/es-MX",
+      "sourceTextSha256": "9709d11c6a304c11012dbf551d37e652740d500e078644eea01b84916303f661",
+      "en": "Watch the trailer",
+      "es-MX": "Ver el avance"
+    },
+    {
+      "sourcePath": "/home/heroVideo/label/en",
+      "targetPath": "/home/heroVideo/label/es-MX",
+      "sourceTextSha256": "e340d22062ed658537c3e88e45e012d7261806b8ab2a1a70fc29960e448b14b6",
+      "en": "Hormones and Peptides for Skin, the course trailer",
+      "es-MX": "Hormonas y péptidos para la piel, el avance del curso"
+    },
+    {
+      "sourcePath": "/home/heroVideo/disclosure/en",
+      "targetPath": "/home/heroVideo/disclosure/es-MX",
+      "sourceTextSha256": "81bf991a8ff9c63730044a2fcd2caa944c1c49351b1cb3baf4a1c8c72b6bec47",
+      "en": "Presented by a digital avatar (AI-generated presenter and voice).",
+      "es-MX": "Presentado por un avatar digital (presentador y voz generados con IA)."
+    },
+    {
+      "sourcePath": "/home/heroVideo/srcByLocale/en",
+      "targetPath": "/home/heroVideo/srcByLocale/es-MX",
+      "sourceTextSha256": "fd4f62165451d40c062b522b787936a6caae9dfd7c169235df28dad76f988eb2",
+      "en": "assets/hormones-peptides-skin/home/trailer.mp4",
+      "es-MX": "assets/hormones-peptides-skin/home/trailer.mp4"
+    },
+    {
+      "sourcePath": "/home/heroVideo/posterByLocale/en",
+      "targetPath": "/home/heroVideo/posterByLocale/es-MX",
+      "sourceTextSha256": "0bfdefc94f30dc1bd2f1afdee7899d2b2f26585620a018b0569b15bd8109a541",
+      "en": "assets/hormones-peptides-skin/home/trailer-poster.jpg",
+      "es-MX": "assets/hormones-peptides-skin/home/trailer-poster.jpg"
+    },
+    {
+      "sourcePath": "/home/practice/kicker/en",
+      "targetPath": "/home/practice/kicker/es-MX",
+      "sourceTextSha256": "0d882e75f905ad8a903329b6e0f940ac40ee1f07d1438a4aa8484d66195c4d2c",
+      "en": "In your practice",
+      "es-MX": "En tu práctica"
+    },
+    {
+      "sourcePath": "/home/practice/title/en",
+      "targetPath": "/home/practice/title/es-MX",
+      "sourceTextSha256": "097507b75d1a9079e7cd882ad28b696781922251e7055549c4ab3cd6635b6530",
+      "en": "Turn the questions into a service.",
+      "es-MX": "Convierte las preguntas en un servicio."
+    },
+    {
+      "sourcePath": "/home/practice/body/en",
+      "targetPath": "/home/practice/body/es-MX",
+      "sourceTextSha256": "775283b8976855ee18eb28b24351ef70fd58888e6d871aabd552601f06fae7c4",
+      "en": "Copper peptides, collagen, tanning shots, growth-hormone boosters: most reach your clinic before any evidence does. Be the clinician with real answers, and build a skin service you can stand behind.",
+      "es-MX": "Péptidos de cobre, colágeno, inyecciones para bronceado, potenciadores de la hormona del crecimiento: la mayoría llega a tu consultorio antes que la evidencia. Sé el profesional clínico con respuestas reales y construye un servicio de atención a la piel que puedas respaldar."
+    },
+    {
+      "sourcePath": "/home/practice/points/0/en",
+      "targetPath": "/home/practice/points/0/es-MX",
+      "sourceTextSha256": "4f21ee294ecf330a4698c73961af84407f57acf5d4ca164da444dd7aabc8c966",
+      "en": "Tell a randomized trial from a brochure",
+      "es-MX": "Distingue un ensayo aleatorizado de un folleto"
+    },
+    {
+      "sourcePath": "/home/practice/points/1/en",
+      "targetPath": "/home/practice/points/1/es-MX",
+      "sourceTextSha256": "fd850c120a79893831690156316abbf07a5cf78d62b7b996764292752f84fa35",
+      "en": "Spot the red flags on a certificate of analysis",
+      "es-MX": "Detecta las señales de alerta en un certificado de análisis"
+    },
+    {
+      "sourcePath": "/home/practice/points/2/en",
+      "targetPath": "/home/practice/points/2/es-MX",
+      "sourceTextSha256": "32ada0b72803527a097ae946c913cd306f1217f7244bf59602412b2a42046fdc",
+      "en": "Know what is approved in your country, and when to refer",
+      "es-MX": "Conoce qué está aprobado en tu país y cuándo referir"
+    },
+    {
+      "sourcePath": "/home/practice/image/alt/en",
+      "targetPath": "/home/practice/image/alt/es-MX",
+      "sourceTextSha256": "add5c8ee2e29b406f6173af6fe9e7b62cbf9795c724203c5bdd41f12f5a877f8",
+      "en": "Editorial close-up of natural skin texture",
+      "es-MX": "Primer plano editorial de la textura natural de la piel"
+    },
+    {
+      "sourcePath": "/home/coursesTitle/en",
+      "targetPath": "/home/coursesTitle/es-MX",
+      "sourceTextSha256": "05c98517263d4f3618f5379f3a921ff2c04f70996f4b4ead139a2b53da150732",
+      "en": "The course",
+      "es-MX": "El curso"
+    },
+    {
+      "sourcePath": "/home/coursesNote/en",
+      "targetPath": "/home/coursesNote/es-MX",
+      "sourceTextSha256": "b50a947ea035d16b6f7615632fa69fd091bbe9d7c48fdc0030c907503f606392",
+      "en": "More peptide courses are on the way.",
+      "es-MX": "Próximamente habrá más cursos sobre péptidos."
+    },
+    {
+      "sourcePath": "/home/glimpses/title/en",
+      "targetPath": "/home/glimpses/title/es-MX",
+      "sourceTextSha256": "a2550be5c0a3d6d18f2ec2af83ef6cd1a7760431d8d3729080281e39aa58c7f6",
+      "en": "Learn by doing.",
+      "es-MX": "Aprende haciendo."
+    },
+    {
+      "sourcePath": "/home/glimpses/items/0/caption/en",
+      "targetPath": "/home/glimpses/items/0/caption/es-MX",
+      "sourceTextSha256": "f51f28cc358b767a4bc24de8c3e078918980f2ebf664d7f0bf9666835070285d",
+      "en": "Your course, one module at a time",
+      "es-MX": "Tu curso, un módulo a la vez"
+    },
+    {
+      "sourcePath": "/home/glimpses/items/0/callout/title/en",
+      "targetPath": "/home/glimpses/items/0/callout/title/es-MX",
+      "sourceTextSha256": "47173482314ec146e583325db634260423decd14a2b327d98824f471f9fcb5b4",
+      "en": "Pick up where you left off",
+      "es-MX": "Retoma donde te quedaste"
+    },
+    {
+      "sourcePath": "/home/glimpses/items/0/callout/body/en",
+      "targetPath": "/home/glimpses/items/0/callout/body/es-MX",
+      "sourceTextSha256": "7258c2c13c0056e109cc32f8b40fe04275fd3d3f74bc895628fea31198f4576b",
+      "en": "Short lessons, one idea at a time.",
+      "es-MX": "Lecciones breves, una idea a la vez."
+    },
+    {
+      "sourcePath": "/home/glimpses/items/1/caption/en",
+      "targetPath": "/home/glimpses/items/1/caption/es-MX",
+      "sourceTextSha256": "b774b35ee87f60a5a49794d801e0f59091c8145d9a04ed249bdd9adc46007ed1",
+      "en": "Explore the science through illustrations",
+      "es-MX": "Explora la ciencia mediante ilustraciones"
+    },
+    {
+      "sourcePath": "/home/glimpses/items/1/callout/title/en",
+      "targetPath": "/home/glimpses/items/1/callout/title/es-MX",
+      "sourceTextSha256": "7c225b91ddc83921a7ad91620a41b04644e9064beeef2bec034e478e15bf5b28",
+      "en": "Listen & explore",
+      "es-MX": "Escucha y explora"
+    },
+    {
+      "sourcePath": "/home/glimpses/items/1/callout/body/en",
+      "targetPath": "/home/glimpses/items/1/callout/body/es-MX",
+      "sourceTextSha256": "7a191e2ea450ce376cbd91fe8eb5e4f9f1feadea6aebb8002821522b29069fdc",
+      "en": "Audio, illustrations and flip cards.",
+      "es-MX": "Audio, ilustraciones y tarjetas para voltear."
+    },
+    {
+      "sourcePath": "/home/glimpses/items/2/caption/en",
+      "targetPath": "/home/glimpses/items/2/caption/es-MX",
+      "sourceTextSha256": "5fe2c4305e899424ed070951b6efaed971209be9677fe7e372308b378562be3a",
+      "en": "Put the science into practice",
+      "es-MX": "Lleva la ciencia a la práctica"
+    },
+    {
+      "sourcePath": "/home/glimpses/items/2/callout/title/en",
+      "targetPath": "/home/glimpses/items/2/callout/title/es-MX",
+      "sourceTextSha256": "a31f87e9123ca91e4adefb5cd35c5b4a78fdac621356821e901c7031586cddb5",
+      "en": "Feedback with every choice",
+      "es-MX": "Retroalimentación con cada elección"
+    },
+    {
+      "sourcePath": "/home/glimpses/items/2/callout/body/en",
+      "targetPath": "/home/glimpses/items/2/callout/body/es-MX",
+      "sourceTextSha256": "983a58f444aecc2b192b9b3f410574fd653e51aeacfe6bbc77434efb10f712ac",
+      "en": "See the answer. Understand why.",
+      "es-MX": "Ve la respuesta. Comprende por qué."
+    },
+    {
+      "sourcePath": "/home/trust/title/en",
+      "targetPath": "/home/trust/title/es-MX",
+      "sourceTextSha256": "95210a3ac960eae8244778574468d6993e6bb7e09cab937be78899397d96599a",
+      "en": "Built on evidence. Reviewed by a physician.",
+      "es-MX": "Basado en evidencia. Revisado por un médico."
+    },
+    {
+      "sourcePath": "/home/trust/items/0/title/en",
+      "targetPath": "/home/trust/items/0/title/es-MX",
+      "sourceTextSha256": "4ae25f8e08910433a74e4a6056ada0ffeb47d2e4666190457ee815ed1e36d198",
+      "en": "Every claim graded",
+      "es-MX": "Cada afirmación, calificada"
+    },
+    {
+      "sourcePath": "/home/trust/items/0/body/en",
+      "targetPath": "/home/trust/items/0/body/es-MX",
+      "sourceTextSha256": "29835cfbaf794a0aee9dfe56f37f74c2140c01c028702ef11b2d78ac19d94555",
+      "en": "Each statement carries its evidence grade and its source.",
+      "es-MX": "Cada afirmación incluye su grado de evidencia y su fuente."
+    },
+    {
+      "sourcePath": "/home/trust/items/1/title/en",
+      "targetPath": "/home/trust/items/1/title/es-MX",
+      "sourceTextSha256": "b16c706c34845a5a6a5adff8af4b2df6b507661df57239e188e6a2391cd6b09a",
+      "en": "Your country first",
+      "es-MX": "Tu país primero"
+    },
+    {
+      "sourcePath": "/home/trust/items/1/body/en",
+      "targetPath": "/home/trust/items/1/body/es-MX",
+      "sourceTextSha256": "6b00492f41dc6fc7853b4c87b38ffe17f7d60edac53733a248a1d12083839d5e",
+      "en": "Regulatory status for six jurisdictions, labelled and dated.",
+      "es-MX": "Estado regulatorio para seis jurisdicciones, identificado y fechado."
+    },
+    {
+      "sourcePath": "/home/trust/items/2/title/en",
+      "targetPath": "/home/trust/items/2/title/es-MX",
+      "sourceTextSha256": "194526694ada580d9bb748cdaee1f9b2f202bc81494b91db935a8eb95f8c1fc3",
+      "en": "No dosing",
+      "es-MX": "Sin dosificación"
+    },
+    {
+      "sourcePath": "/home/trust/items/2/body/en",
+      "targetPath": "/home/trust/items/2/body/es-MX",
+      "sourceTextSha256": "a6306d5ae5aebc1a055f0e3bf6a4e9d76c1213ce30e2010b8f7565e7478ca30b",
+      "en": "Evidence, regulation and next steps. Never doses or product sourcing.",
+      "es-MX": "Evidencia, regulación y próximos pasos. Nunca dosis ni proveedores de productos."
+    },
+    {
+      "sourcePath": "/home/trust/items/3/title/en",
+      "targetPath": "/home/trust/items/3/title/es-MX",
+      "sourceTextSha256": "5bf13222f3b29a4c5d4e9621ca05bf9024fc4d2d10712c3757cc432bf9d0dbf8",
+      "en": "Ask the course",
+      "es-MX": "Pregúntale al curso"
+    },
+    {
+      "sourcePath": "/home/trust/items/3/body/en",
+      "targetPath": "/home/trust/items/3/body/es-MX",
+      "sourceTextSha256": "c517e3f7ade34d12c0a22e74be5ce4fae03edae75c46ff0751056b4a246a9f32",
+      "en": "A tutor answers from the course and its sources, and says when a question is outside them.",
+      "es-MX": "Un tutor responde a partir del curso y sus fuentes, e indica cuándo una pregunta queda fuera de ellas."
+    },
+    {
+      "sourcePath": "/home/reviewers/0/role/en",
+      "targetPath": "/home/reviewers/0/role/es-MX",
+      "sourceTextSha256": "9c888a78e377827ddb763e52bc0047aa5ddd84f0f2f365ab47df4d7b428460cd",
+      "en": "Medical review · author of the Hormonaly pocket guides on aesthetic and regenerative endocrinology and on peptides",
+      "es-MX": "Revisión médica · autor de las guías de bolsillo de Hormonaly sobre endocrinología estética y regenerativa y sobre péptidos"
+    },
+    {
+      "sourcePath": "/home/faculty/title/en",
+      "targetPath": "/home/faculty/title/es-MX",
+      "sourceTextSha256": "5f8b48245ac6e64a4dad13a643b4f2ac1853d57e1ad01b7aaa9cac0ab7b34d81",
+      "en": "Faculty & advisory",
+      "es-MX": "Equipo docente y asesoría"
+    },
+    {
+      "sourcePath": "/home/faculty/items/0/designation/en",
+      "targetPath": "/home/faculty/items/0/designation/es-MX",
+      "sourceTextSha256": "4788c13abdfc1fbc0fca792a62af5331bbd7ebca2fd0c853497f4d769ad246be",
+      "en": "Faculty · Medical review",
+      "es-MX": "Docencia · Revisión médica"
+    },
+    {
+      "sourcePath": "/home/faculty/items/0/role/en",
+      "targetPath": "/home/faculty/items/0/role/es-MX",
+      "sourceTextSha256": "458b14208760875d79f531bf5b72906602eca73b3ef43456db96fad42b84167e",
+      "en": "Endocrinologist and biochemical geneticist. Author of the Hormonaly pocket guides.",
+      "es-MX": "Endocrinólogo y genetista bioquímico. Autor de las guías de bolsillo de Hormonaly."
+    },
+    {
+      "sourcePath": "/home/faculty/items/0/link/label/en",
+      "targetPath": "/home/faculty/items/0/link/label/es-MX",
+      "sourceTextSha256": "96a8cc66113b8c391b61b413553bc71d367271fe7263673d564dcb658223afec",
+      "en": "LinkedIn Profile",
+      "es-MX": "Perfil de LinkedIn"
+    },
+    {
+      "sourcePath": "/home/faculty/items/1/designation/en",
+      "targetPath": "/home/faculty/items/1/designation/es-MX",
+      "sourceTextSha256": "c1dd64b75680d92aaa8326e211d648d1ff8196c651b1eafd03792076e2e91068",
+      "en": "Advisory",
+      "es-MX": "Asesoría"
+    },
+    {
+      "sourcePath": "/home/faculty/items/1/role/en",
+      "targetPath": "/home/faculty/items/1/role/es-MX",
+      "sourceTextSha256": "ec1ae590c96f1e9d82b3e1bce38e8d9fad8cca46bd3410cd3fccf90fec1a92e2",
+      "en": "President of the Geneva College of Longevity Science and Professor of Pharmacy. His research focuses on biomaterials, regenerative medicine, and pharmacy.",
+      "es-MX": "Presidente del Geneva College of Longevity Science y profesor de Farmacia. Su investigación se centra en biomateriales, medicina regenerativa y farmacia."
+    },
+    {
+      "sourcePath": "/home/faculty/items/1/link/label/en",
+      "targetPath": "/home/faculty/items/1/link/label/es-MX",
+      "sourceTextSha256": "96a8cc66113b8c391b61b413553bc71d367271fe7263673d564dcb658223afec",
+      "en": "LinkedIn Profile",
+      "es-MX": "Perfil de LinkedIn"
+    },
+    {
+      "sourcePath": "/home/faculty/items/2/designation/en",
+      "targetPath": "/home/faculty/items/2/designation/es-MX",
+      "sourceTextSha256": "c1dd64b75680d92aaa8326e211d648d1ff8196c651b1eafd03792076e2e91068",
+      "en": "Advisory",
+      "es-MX": "Asesoría"
+    },
+    {
+      "sourcePath": "/home/faculty/items/2/role/en",
+      "targetPath": "/home/faculty/items/2/role/es-MX",
+      "sourceTextSha256": "2f0a181f312c3f14ef62774f73a4474256c73365842b20c3f90694346aadf5ef",
+      "en": "Physician and AI builder focused on clinician-first healthcare workflows.",
+      "es-MX": "Médico y desarrollador de IA enfocado en flujos de trabajo de salud que ponen primero al personal clínico."
+    },
+    {
+      "sourcePath": "/home/faculty/items/2/link/label/en",
+      "targetPath": "/home/faculty/items/2/link/label/es-MX",
+      "sourceTextSha256": "96a8cc66113b8c391b61b413553bc71d367271fe7263673d564dcb658223afec",
+      "en": "LinkedIn Profile",
+      "es-MX": "Perfil de LinkedIn"
+    },
+    {
+      "sourcePath": "/home/faq/0/q/en",
+      "targetPath": "/home/faq/0/q/es-MX",
+      "sourceTextSha256": "a71e9cf85d852f48e58aa447872f5192ea57fd64f339d2d714c60b2403495bb5",
+      "en": "Does the course give doses or protocols?",
+      "es-MX": "¿El curso proporciona dosis o protocolos?"
+    },
+    {
+      "sourcePath": "/home/faq/0/a/en",
+      "targetPath": "/home/faq/0/a/es-MX",
+      "sourceTextSha256": "7dca4f949fe4c776dec8e3e95f2d338cbe003648e17cb91a331fe6c46f03ecb8",
+      "en": "No. It teaches the evidence, the regulatory status and what each role can safely do next. Dosing and product sourcing are excluded by design.",
+      "es-MX": "No. Enseña la evidencia, el estado regulatorio y lo que cada función puede hacer de forma segura a continuación. La dosificación y la obtención de productos están excluidas por diseño."
+    },
+    {
+      "sourcePath": "/home/faq/1/q/en",
+      "targetPath": "/home/faq/1/q/es-MX",
+      "sourceTextSha256": "5d9a30b7526d35697ba9f0d3746c71522101ce8d988843fac03f4bf108c30f6e",
+      "en": "Which countries does it cover?",
+      "es-MX": "¿Qué países abarca?"
+    },
+    {
+      "sourcePath": "/home/faq/1/a/en",
+      "targetPath": "/home/faq/1/a/es-MX",
+      "sourceTextSha256": "b212787e569461128454158fd7d11c6508febf7a8552026a2e39752f139dbe6a",
+      "en": "The United States, the United Kingdom, the European Union, Portugal, Brazil and the United Arab Emirates. Each statement names its country and date, and your own country comes first.",
+      "es-MX": "Estados Unidos, el Reino Unido, la Unión Europea, Portugal, Brasil y los Emiratos Árabes Unidos. Cada afirmación identifica su país y fecha, y tu propio país aparece primero."
+    },
+    {
+      "sourcePath": "/home/faq/2/q/en",
+      "targetPath": "/home/faq/2/q/es-MX",
+      "sourceTextSha256": "3151c13dc104b4690ade46c77f841352d76025f771d004e6f15211af736bf0fc",
+      "en": "Is there CME or CE credit?",
+      "es-MX": "¿Hay créditos CME o CE?"
+    },
+    {
+      "sourcePath": "/home/faq/2/a/en",
+      "targetPath": "/home/faq/2/a/es-MX",
+      "sourceTextSha256": "7e740c504d6845bf88e6c2f9e90e3c887a705bec87b6d0fbb29db0941678d261",
+      "en": "This is a Hormonaly Academy certificate of completion, with GCLS AI Academy as education partner. CME or CE credit is not offered at this time.",
+      "es-MX": "Esta es una constancia de finalización de Hormonaly Academy, con GCLS AI Academy como socio educativo. No se otorgan créditos CME ni CE en este momento."
+    },
+    {
+      "sourcePath": "/home/faq/3/q/en",
+      "targetPath": "/home/faq/3/q/es-MX",
+      "sourceTextSha256": "48684ffcebc693aa9cc4040024a8b23ce023c187992c5b3b0a61d25ec2c74899",
+      "en": "What do I get at the end?",
+      "es-MX": "¿Qué obtengo al terminar?"
+    },
+    {
+      "sourcePath": "/home/faq/3/a/en",
+      "targetPath": "/home/faq/3/a/es-MX",
+      "sourceTextSha256": "0622a9a0946013c99366919d1bd21db465b04d175af526b35b40fd3d5ae97aaf",
+      "en": "Complete all seven modules and pass the final check with 80% or more to receive your Hormonaly Academy certificate of completion, including during the free enrollment period through November 30. Each certificate has a public verification code.",
+      "es-MX": "Completa los siete módulos y aprueba la comprobación final con 80% o más para recibir tu constancia de finalización de Hormonaly Academy, también durante el periodo de inscripción gratuita hasta el 30 de noviembre. Cada constancia tiene un código público de verificación."
+    },
+    {
+      "sourcePath": "/home/certificate/title/en",
+      "targetPath": "/home/certificate/title/es-MX",
+      "sourceTextSha256": "b7a3ca502be869a7f026bde8c6f255c3ef94d086f76017a3a2dbaaaf59a4b1e6",
+      "en": "Certificate of completion",
+      "es-MX": "Constancia de finalización"
+    },
+    {
+      "sourcePath": "/home/certificate/body/en",
+      "targetPath": "/home/certificate/body/es-MX",
+      "sourceTextSha256": "eb7a5d875886c915c8529b0032bd581ee5a27dfa14ceca4bd0767810d64edd17",
+      "en": "Complete all seven modules and pass the final check to receive your Hormonaly Academy certificate of completion. Included during the free enrollment period through November 30.",
+      "es-MX": "Completa los siete módulos y aprueba la comprobación final para recibir tu constancia de finalización de Hormonaly Academy. Incluida durante el periodo de inscripción gratuita hasta el 30 de noviembre."
+    },
+    {
+      "sourcePath": "/home/certificate/image/alt/en",
+      "targetPath": "/home/certificate/image/alt/es-MX",
+      "sourceTextSha256": "d074522818352cee10c62764f83aea925cf30cac7e86cac5a6418522087606c8",
+      "en": "Hormonaly certificate of completion with the GCLS logo and signature marks of Fady Hannah-Shmouni and Dominik Thor",
+      "es-MX": "Constancia de finalización de Hormonaly con el logotipo de GCLS y las firmas de Fady Hannah-Shmouni y Dominik Thor"
+    },
+    {
+      "sourcePath": "/home/certificate/image/caption/en",
+      "targetPath": "/home/certificate/image/caption/es-MX",
+      "sourceTextSha256": "cb9b8f8a9f9120879d2d66d26c3e260e093ac3afba5f5d6ecac2add56aedb2ad",
+      "en": "Certificate preview · your name appears on completion.",
+      "es-MX": "Vista previa de la constancia · tu nombre aparece al finalizar."
+    },
+    {
+      "sourcePath": "/home/certificate/image/linkLabel/en",
+      "targetPath": "/home/certificate/image/linkLabel/es-MX",
+      "sourceTextSha256": "316744d976d8b7ed97f4eebc4b30a11a41de1908e6990bc0c58b826dc3f7a1ca",
+      "en": "View certificate",
+      "es-MX": "Ver constancia"
+    },
+    {
+      "sourcePath": "/home/creators/kicker/en",
+      "targetPath": "/home/creators/kicker/es-MX",
+      "sourceTextSha256": "56a268b39de2fa07c24f7a463195d8a37b76241ee70395a70d55ceed57165fed",
+      "en": "For physician creators",
+      "es-MX": "Para médicos creadores"
+    },
+    {
+      "sourcePath": "/home/creators/title/en",
+      "targetPath": "/home/creators/title/es-MX",
+      "sourceTextSha256": "6abd7943ba23b3b7f5e43901d95349a4c796bdde10068b9b0f101921ed4934a7",
+      "en": "Launch your own course with Perceptors.",
+      "es-MX": "Lanza tu propio curso con Perceptors."
+    },
+    {
+      "sourcePath": "/home/creators/body/en",
+      "targetPath": "/home/creators/body/es-MX",
+      "sourceTextSha256": "e21c0a741f023bbb5e5820a5f3637c7371f6ee2aeb4a71abe21c9561bfa5b86f",
+      "en": "Physicians, educators and creators with something clinicians should learn: we turn your expertise into an evidence-checked course and academy like this one.",
+      "es-MX": "Médicos, educadores y creadores con algo que el personal clínico debería aprender: convertimos tu experiencia en un curso con evidencia verificada y una academia como esta."
+    },
+    {
+      "sourcePath": "/home/creators/action/label/en",
+      "targetPath": "/home/creators/action/label/es-MX",
+      "sourceTextSha256": "1d1d94fb539774e520cb772c3859fc00c9f63d48f4637e61f44ce54fc8a8fd44",
+      "en": "Talk to us",
+      "es-MX": "Habla con nosotros"
+    },
+    {
+      "sourcePath": "/home/ctaTitle/en",
+      "targetPath": "/home/ctaTitle/es-MX",
+      "sourceTextSha256": "66f1fa9731e15037f44181d11db7eee374ea967e9af2bdf463ce617f7749ddd5",
+      "en": "Start with Module 1 today.",
+      "es-MX": "Empieza hoy con el Módulo 1."
+    },
+    {
+      "sourcePath": "/home/disclaimer/en",
+      "targetPath": "/home/disclaimer/es-MX",
+      "sourceTextSha256": "dc43e26da4d37cbb4f655121fdbfbca7841d6b5babdca00301321bccbd729ae9",
+      "en": "Educational content for licensed clinicians. It does not replace clinical judgement, specialist input or formal guidelines.",
+      "es-MX": "Contenido educativo para profesionales clínicos con licencia. No sustituye el juicio clínico, la opinión de especialistas ni las guías formales."
+    },
+    {
+      "sourcePath": "/catalog/0/audience/en",
+      "targetPath": "/catalog/0/audience/es-MX",
+      "sourceTextSha256": "82f83793eb277de3909c2bab24b65bac083e88957a24e0446a47aeb29a210608",
+      "en": "Physicians, nurse practitioners and physician associates, nurses and other licensed providers",
+      "es-MX": "Médicos, profesionales de enfermería de práctica avanzada y asociados médicos, personal de enfermería y otros proveedores con licencia"
+    },
+    {
+      "sourcePath": "/catalog/0/blurb/en",
+      "targetPath": "/catalog/0/blurb/es-MX",
+      "sourceTextSha256": "cf9c1b1925711f4b8810bb75300ad8a75982fc100d1af6fe8120119c9347b9d2",
+      "en": "The hormones and peptides your patients ask about for skin, hair and the ageing face: what is shown in people, what is only mechanism, and what the rules allow in the US, the UK, the EU, Portugal, Brazil and the UAE.",
+      "es-MX": "Las hormonas y los péptidos por los que preguntan tus pacientes para la piel, el cabello y el rostro que envejece: qué se ha demostrado en personas, qué es solo mecanismo y qué permiten las normas en EE. UU., el Reino Unido, la UE, Portugal, Brasil y los Emiratos Árabes Unidos."
+    },
+    {
+      "sourcePath": "/catalog/0/entitlement/promotion/label/en",
+      "targetPath": "/catalog/0/entitlement/promotion/label/es-MX",
+      "sourceTextSha256": "a6980877c63b972d5b0dc3f6b696a8e40bd16924cdc2add289a71cbd2db846da",
+      "en": "Extended offer · free through November 30",
+      "es-MX": "Oferta extendida · gratis hasta el 30 de noviembre"
+    },
+    {
+      "sourcePath": "/catalog/0/entitlement/promotion/banner/headline/en",
+      "targetPath": "/catalog/0/entitlement/promotion/banner/headline/es-MX",
+      "sourceTextSha256": "e3a5f2fd8d15fbac2237cda809f8a017430980dc003592a73414db415b9505a6",
+      "en": "Free through November 30",
+      "es-MX": "Gratis hasta el 30 de noviembre"
+    },
+    {
+      "sourcePath": "/catalog/0/entitlement/promotion/banner/detail/en",
+      "targetPath": "/catalog/0/entitlement/promotion/banner/detail/es-MX",
+      "sourceTextSha256": "30853828454fe908599d7773af9125b3575ff030347193d6d9f821181f435c88",
+      "en": "Limited-time offer · Ends November 30",
+      "es-MX": "Oferta por tiempo limitado · termina el 30 de noviembre"
+    },
+    {
+      "sourcePath": "/catalog/0/entitlement/promotion/banner/action/en",
+      "targetPath": "/catalog/0/entitlement/promotion/banner/action/es-MX",
+      "sourceTextSha256": "a49e6c8a6ae10d4f99e1f18e32025f5c4cdacc192c4e14f2e85f67abea58c3d3",
+      "en": "Enroll free",
+      "es-MX": "Inscríbete gratis"
+    },
+    {
+      "sourcePath": "/experience/roles/0/label/en",
+      "targetPath": "/experience/roles/0/label/es-MX",
+      "sourceTextSha256": "2f5a6a2443653df980c1f9cadda8335232915f70e832ce97b5546e51d1756d54",
+      "en": "Prescriber",
+      "es-MX": "Prescriptor"
+    },
+    {
+      "sourcePath": "/experience/roles/0/description/en",
+      "targetPath": "/experience/roles/0/description/es-MX",
+      "sourceTextSha256": "0fdd7a8acbb0a4bb50721433cffe0fca5dae810c68c5126aa504aed35fbbdc89",
+      "en": "Physician, NP or PA",
+      "es-MX": "Médico, NP o PA"
+    },
+    {
+      "sourcePath": "/experience/roles/1/label/en",
+      "targetPath": "/experience/roles/1/label/es-MX",
+      "sourceTextSha256": "a9cdc705649f7b0550ac240d761e43aa28aa575bebe1d3b3995034c734791200",
+      "en": "Clinical staff",
+      "es-MX": "Personal clínico"
+    },
+    {
+      "sourcePath": "/experience/roles/1/description/en",
+      "targetPath": "/experience/roles/1/description/es-MX",
+      "sourceTextSha256": "50e13ab7a32dcebc1f32adfde9398ea3a8c6459d15c428045f12b3af30e1d461",
+      "en": "RN, aesthetic nurse or injector",
+      "es-MX": "RN, personal de enfermería estética o profesional que aplica inyecciones"
+    },
+    {
+      "sourcePath": "/experience/roles/2/label/en",
+      "targetPath": "/experience/roles/2/label/es-MX",
+      "sourceTextSha256": "28da8c1f9edee99d216bf511feafd4285b7d13d6f43e6f122ae2e9e1687b40af",
+      "en": "Advisor",
+      "es-MX": "Asesor"
+    },
+    {
+      "sourcePath": "/experience/roles/2/description/en",
+      "targetPath": "/experience/roles/2/description/es-MX",
+      "sourceTextSha256": "c60bbfffe191d1357e1f112f94355f24b4ccddda475bbba0e3681ee5918e4ae1",
+      "en": "Pharmacist, ND or allied professional",
+      "es-MX": "Farmacéutico, ND o profesional afín"
+    },
+    {
+      "sourcePath": "/experience/library/evidencePolicy/en",
+      "targetPath": "/experience/library/evidencePolicy/es-MX",
+      "sourceTextSha256": "01bc6cd6123ff860157d9eadd4c7625d35be5d8c311ec691cfe3329b79df7f74",
+      "en": "Mechanism, human evidence, regulatory status and open questions are kept apart. The course gives no doses and no product sourcing.",
+      "es-MX": "El mecanismo, la evidencia en seres humanos, el estado regulatorio y las preguntas abiertas se mantienen separados. El curso no proporciona dosis ni proveedores de productos."
+    },
+    {
+      "sourcePath": "/today/lines/label/en",
+      "targetPath": "/today/lines/label/es-MX",
+      "sourceTextSha256": "f2dd4cc7593558b91cc12f8e3b37e102c7559614ad5a083a3f3de2d94deac12b",
+      "en": "Line of the day",
+      "es-MX": "Frase del día"
+    },
+    {
+      "sourcePath": "/today/lines/items/0/text/en",
+      "targetPath": "/today/lines/items/0/text/es-MX",
+      "sourceTextSha256": "7c313cbf7038548e4b6207ac3803e927f64cf8e8ec843e647f82b192db1bf572",
+      "en": "The skin makes its own hormones.",
+      "es-MX": "La piel produce sus propias hormonas."
+    },
+    {
+      "sourcePath": "/today/lines/items/0/detail/en",
+      "targetPath": "/today/lines/items/0/detail/es-MX",
+      "sourceTextSha256": "52afaa755fdf2a1cea37f607fc0541ba9d92756a7e524e6d5edbcbb6f137eb34",
+      "en": "Skin senses hormones from the blood, makes several of its own, and ages in ways that change both.",
+      "es-MX": "La piel detecta las hormonas de la sangre, produce varias propias y envejece de formas que modifican ambas funciones."
+    },
+    {
+      "sourcePath": "/today/lines/items/0/image/alt/en",
+      "targetPath": "/today/lines/items/0/image/alt/es-MX",
+      "sourceTextSha256": "add5c8ee2e29b406f6173af6fe9e7b62cbf9795c724203c5bdd41f12f5a877f8",
+      "en": "Editorial close-up of natural skin texture",
+      "es-MX": "Primer plano editorial de la textura natural de la piel"
+    },
+    {
+      "sourcePath": "/today/lines/items/1/text/en",
+      "targetPath": "/today/lines/items/1/text/es-MX",
+      "sourceTextSha256": "a352f43b9348a5e67ed342c324f306f347192f79960ddf79f25be27d57880d56",
+      "en": "The skin regenerates its own cortisol.",
+      "es-MX": "La piel regenera su propio cortisol."
+    },
+    {
+      "sourcePath": "/today/lines/items/1/detail/en",
+      "targetPath": "/today/lines/items/1/detail/es-MX",
+      "sourceTextSha256": "dcbf2e2668913ff83fc105a4600eddadf7db43303ba564d6a7e9b250668a5889",
+      "en": "Keratinocytes and dermal fibroblasts also carry 11β-HSD1, the enzyme that turns inactive cortisone back into active cortisol inside the cell.",
+      "es-MX": "Los queratinocitos y los fibroblastos dérmicos también contienen 11β-HSD1, la enzima que transforma la cortisona inactiva de nuevo en cortisol activo dentro de la célula."
+    },
+    {
+      "sourcePath": "/today/lines/items/1/image/alt/en",
+      "targetPath": "/today/lines/items/1/image/alt/es-MX",
+      "sourceTextSha256": "e6bd5b7ab8920a98e14804151cb49347e018d01006b402f2656114166c1b7a18",
+      "en": "Sunlight falling across the skin of a bare shoulder",
+      "es-MX": "Luz solar sobre la piel de un hombro descubierto"
+    },
+    {
+      "sourcePath": "/today/lines/items/2/text/en",
+      "targetPath": "/today/lines/items/2/text/es-MX",
+      "sourceTextSha256": "60e2bbb309576010caac1173f9d4e593d91936d16fe4d40c6b5b4c111b77db7c",
+      "en": "Fifteen years on the same collagen.",
+      "es-MX": "Quince años en el mismo colágeno."
+    },
+    {
+      "sourcePath": "/today/lines/items/2/detail/en",
+      "targetPath": "/today/lines/items/2/detail/es-MX",
+      "sourceTextSha256": "dfd0d9ee134f99b33b5dda6b548c9bd867c64bcaa2a1ad56e1e2a70292b4f2d2",
+      "en": "Human skin collagen turns over slowly; tissue analysis puts its half-life at about 15 years.",
+      "es-MX": "El colágeno de la piel humana se renueva lentamente; el análisis tisular sitúa su vida media en unos 15 años."
+    },
+    {
+      "sourcePath": "/today/lines/items/2/image/alt/en",
+      "targetPath": "/today/lines/items/2/image/alt/es-MX",
+      "sourceTextSha256": "04abfd63990987a5632dd32ea6ac54fe286d7c2cfbbad2d21cd7ce3ab555db57",
+      "en": "Close-up of softly creased linen threads",
+      "es-MX": "Primer plano de hilos de lino con pliegues suaves"
+    },
+    {
+      "sourcePath": "/today/lines/items/3/text/en",
+      "targetPath": "/today/lines/items/3/text/es-MX",
+      "sourceTextSha256": "40b75aa2b820cc6251f8c3be20be5ba09ed37670cc7d476946fff40b834556ef",
+      "en": "The peptide your patient already bought.",
+      "es-MX": "El péptido que tu paciente ya compró."
+    },
+    {
+      "sourcePath": "/today/lines/items/3/detail/en",
+      "targetPath": "/today/lines/items/3/detail/es-MX",
+      "sourceTextSha256": "836f484337e56243853837e76abed450a72ae2ec9c4582a2e5cc643be26d548e",
+      "en": "Most skin peptides reach your clinic before any evidence does.",
+      "es-MX": "La mayoría de los péptidos para la piel llegan a tu consulta antes que la evidencia."
+    },
+    {
+      "sourcePath": "/today/lines/items/3/image/alt/en",
+      "targetPath": "/today/lines/items/3/image/alt/es-MX",
+      "sourceTextSha256": "27b06966cc395d686d27b6d59aa350f429d62bfc1dcf46f59b495b0f4311caf1",
+      "en": "A small unlabelled serum bottle on a stone shelf",
+      "es-MX": "Un pequeño frasco de suero sin etiqueta sobre una repisa de piedra"
+    },
+    {
+      "sourcePath": "/today/lines/items/4/text/en",
+      "targetPath": "/today/lines/items/4/text/es-MX",
+      "sourceTextSha256": "f9e941c71117d90c3ddb31584bfe4275cabc345e85e5adf79e567d4c8a6b20de",
+      "en": "A follicle that runs its own hormones.",
+      "es-MX": "Un folículo que regula sus propias hormonas."
+    },
+    {
+      "sourcePath": "/today/lines/items/4/detail/en",
+      "targetPath": "/today/lines/items/4/detail/es-MX",
+      "sourceTextSha256": "74d900ca60952a6a4286b1cc1061304b1e3f9d0417087f0e58cfd0231ed1f375",
+      "en": "Human scalp hair follicles kept alive in the laboratory answer corticotropin-releasing hormone by making ACTH and α-MSH and secreting cortisol, with a feedback loop like the adrenal axis.",
+      "es-MX": "Los folículos pilosos del cuero cabelludo humano mantenidos vivos en el laboratorio responden a la hormona liberadora de corticotropina produciendo ACTH y α-MSH y secretando cortisol, con un circuito de retroalimentación parecido al eje suprarrenal."
+    },
+    {
+      "sourcePath": "/today/lines/items/4/image/alt/en",
+      "targetPath": "/today/lines/items/4/image/alt/es-MX",
+      "sourceTextSha256": "db7e0a5601707f4527d9448d64ebaff2cf6e28dec1575465da2e6af478698644",
+      "en": "Backlit fine hairs on the skin of an arm",
+      "es-MX": "Vello fino a contraluz sobre la piel de un brazo"
+    },
+    {
+      "sourcePath": "/today/lines/items/5/text/en",
+      "targetPath": "/today/lines/items/5/text/es-MX",
+      "sourceTextSha256": "25c7fac105bef309dceca358b5cfca7905b3b3bc1f27013e8ff837fab118d327",
+      "en": "Two hormones, two layers of skin.",
+      "es-MX": "Dos hormonas, dos capas de piel."
+    },
+    {
+      "sourcePath": "/today/lines/items/5/detail/en",
+      "targetPath": "/today/lines/items/5/detail/es-MX",
+      "sourceTextSha256": "35044ce9a55604fdc7b93e6f9e80f5d162c431dc8648ea30611c99548e1b0b64",
+      "en": "Growth hormone acts mostly in the dermis. IGF-1, made locally by fibroblasts and melanocytes, reaches keratinocytes through the IGF-1 receptor and makes them divide.",
+      "es-MX": "La hormona del crecimiento actúa principalmente en la dermis. El IGF-1, producido localmente por fibroblastos y melanocitos, llega a los queratinocitos a través del receptor de IGF-1 y hace que se dividan."
+    },
+    {
+      "sourcePath": "/today/lines/items/5/image/alt/en",
+      "targetPath": "/today/lines/items/5/image/alt/es-MX",
+      "sourceTextSha256": "6ff6973459e528bdad25e582e706503f4a01638cc241d9b2bc6e73a0d4174020",
+      "en": "Two layered sheets of translucent silk, backlit",
+      "es-MX": "Dos capas de seda translúcida a contraluz"
+    },
+    {
+      "sourcePath": "/today/lines/items/6/text/en",
+      "targetPath": "/today/lines/items/6/text/es-MX",
+      "sourceTextSha256": "3a2f3cff97a8419a8e727d360814f23730feb7c6fac1a83d767c4db204668ed7",
+      "en": "Research use only is a label, and never a route.",
+      "es-MX": "«Solo para uso en investigación» es una etiqueta, nunca una vía."
+    },
+    {
+      "sourcePath": "/today/lines/items/6/image/alt/en",
+      "targetPath": "/today/lines/items/6/image/alt/es-MX",
+      "sourceTextSha256": "c786fd255984f36a1eadb3f1f8de8d6a6d86c35d90dd18009a0282e07211e96f",
+      "en": "A quiet workspace for reviewing evidence",
+      "es-MX": "Un espacio tranquilo para revisar evidencia"
+    },
+    {
+      "sourcePath": "/today/lines/items/7/text/en",
+      "targetPath": "/today/lines/items/7/text/es-MX",
+      "sourceTextSha256": "a7516ed99aa113da8f1042698c5da22285d83d0ba8e9a6b95a1a8bb69f0ff82b",
+      "en": "Cells that stop dividing and keep talking.",
+      "es-MX": "Células que dejan de dividirse y siguen comunicándose."
+    },
+    {
+      "sourcePath": "/today/lines/items/7/detail/en",
+      "targetPath": "/today/lines/items/7/detail/es-MX",
+      "sourceTextSha256": "af87de767114d0734a91c4afb341e1cc4c5fa6ba65e29ea2fc592afd1019de1b",
+      "en": "A senescent cell has stopped dividing for good but stays metabolically active, releasing cytokines, matrix-degrading enzymes and growth factors: the senescence-associated secretory phenotype, or SASP.",
+      "es-MX": "Una célula senescente ha dejado de dividirse de forma permanente, pero sigue metabólicamente activa y libera citocinas, enzimas que degradan la matriz y factores de crecimiento: el fenotipo secretor asociado a la senescencia, o SASP."
+    },
+    {
+      "sourcePath": "/today/lines/items/7/image/alt/en",
+      "targetPath": "/today/lines/items/7/image/alt/es-MX",
+      "sourceTextSha256": "7bd5052a73fa63a44fe0df604cf55aa78247eb614bc491df62b756a14e6258a2",
+      "en": "Soft luminous spheres clustered like cells",
+      "es-MX": "Esferas de luz suave agrupadas como células"
+    },
+    {
+      "sourcePath": "/today/lines/items/8/text/en",
+      "targetPath": "/today/lines/items/8/text/es-MX",
+      "sourceTextSha256": "3306f6884e9b4ac6dc47f5c7183c35a3b77294f146f97e6f50a86abfea80c1cd",
+      "en": "The face that might be a diagnosis.",
+      "es-MX": "El rostro que podría ser un diagnóstico."
+    },
+    {
+      "sourcePath": "/today/lines/items/8/detail/en",
+      "targetPath": "/today/lines/items/8/detail/es-MX",
+      "sourceTextSha256": "c3136ed2b2449bac1e1ea5d8c11d87ff2df74b10b0c4896a3d88e914a0d24475",
+      "en": "Most skin changes you see are ageing or lifestyle. A few are the first visible sign of endocrine disease.",
+      "es-MX": "La mayoría de los cambios cutáneos que observas se deben al envejecimiento o al estilo de vida. Algunos son el primer signo visible de enfermedad endocrina."
+    },
+    {
+      "sourcePath": "/today/lines/items/8/image/alt/en",
+      "targetPath": "/today/lines/items/8/image/alt/es-MX",
+      "sourceTextSha256": "cd90e7df11f7587229faf219da501249ee06445100448cea8d782fe7f4ef10c3",
+      "en": "A round mirror in a quiet clinic room",
+      "es-MX": "Un espejo redondo en un consultorio tranquilo"
+    },
+    {
+      "sourcePath": "/today/lines/items/9/text/en",
+      "targetPath": "/today/lines/items/9/text/es-MX",
+      "sourceTextSha256": "d142c41d4ed10ede098698d0cfba595bae428ada506d60ff395c39c928c2233e",
+      "en": "Sugar that sticks to collagen.",
+      "es-MX": "El azúcar que se adhiere al colágeno."
+    },
+    {
+      "sourcePath": "/today/lines/items/9/detail/en",
+      "targetPath": "/today/lines/items/9/detail/es-MX",
+      "sourceTextSha256": "ea160a2f640f633e75fa5b7a882347de73ff2e1fe794a9963b9f018959a0af42",
+      "en": "Glycation is a slow, non-enzymatic reaction. Reducing sugars attach to protein amino groups, rearrange into Amadori products and end as advanced glycation end products, or AGEs.",
+      "es-MX": "La glicación es una reacción lenta, no enzimática. Los azúcares reductores se unen a los grupos amino de las proteínas, se reorganizan en productos de Amadori y terminan como productos finales de glicación avanzada, o AGEs."
+    },
+    {
+      "sourcePath": "/today/lines/items/9/image/alt/en",
+      "targetPath": "/today/lines/items/9/image/alt/es-MX",
+      "sourceTextSha256": "7b3bcb6335d1c6532089824b70ed8671ff81ae1202bfbf0199c35893e2051025",
+      "en": "Sugar crystals scattered on cream silk",
+      "es-MX": "Cristales de azúcar esparcidos sobre seda color crema"
+    },
+    {
+      "sourcePath": "/today/lines/items/10/text/en",
+      "targetPath": "/today/lines/items/10/text/es-MX",
+      "sourceTextSha256": "8b33ae7fa5c290315f25885820d6d3ce2db87e6a12efc860d540cc3af8f27347",
+      "en": "Deficiency is a diagnosis. Decline is ageing.",
+      "es-MX": "La deficiencia es un diagnóstico. El descenso es envejecimiento."
+    },
+    {
+      "sourcePath": "/today/lines/items/10/image/alt/en",
+      "targetPath": "/today/lines/items/10/image/alt/es-MX",
+      "sourceTextSha256": "310b893e627a95458411e73787d513f16d04a9d32f341182aad42ccd7d8dd5a4",
+      "en": "Late light moving across a plaster wall",
+      "es-MX": "Luz del atardecer que recorre una pared de yeso"
+    },
+    {
+      "sourcePath": "/today/lines/items/11/text/en",
+      "targetPath": "/today/lines/items/11/text/es-MX",
+      "sourceTextSha256": "778417049157e3815e8552afc5a36ac3e5ab04c6678e148e9a0c51fc1f373766",
+      "en": "Read the skin before the serum.",
+      "es-MX": "Interpreta la piel antes de elegir un sérum."
+    },
+    {
+      "sourcePath": "/today/lines/items/11/detail/en",
+      "targetPath": "/today/lines/items/11/detail/es-MX",
+      "sourceTextSha256": "07a19211928f7abd77012b8ec1fdd2f83b8424daed553b0379eafce3f3c9c64c",
+      "en": "The Aesthetic & Regenerative Endocrinology guide treats the aesthetic exam as a systemic screen.",
+      "es-MX": "La guía Aesthetic & Regenerative Endocrinology aborda el examen estético como una evaluación sistémica de detección."
+    },
+    {
+      "sourcePath": "/today/lines/items/11/image/alt/en",
+      "targetPath": "/today/lines/items/11/image/alt/es-MX",
+      "sourceTextSha256": "c701fe463b8bcf7e403ae844a68a33f75ef243ca9f86f6e99dc764ed447d8892",
+      "en": "A hand holding a magnifying loupe in window light",
+      "es-MX": "Una mano sostiene una lupa bajo la luz de una ventana"
+    },
+    {
+      "sourcePath": "/today/lines/items/12/text/en",
+      "targetPath": "/today/lines/items/12/text/es-MX",
+      "sourceTextSha256": "f9123c7aaded2beba119973e084444a6b2390a9d1781fcacec7b8da98a5cca2f",
+      "en": "Some syndromes show on the skin first.",
+      "es-MX": "Algunos síndromes se manifiestan primero en la piel."
+    },
+    {
+      "sourcePath": "/today/lines/items/12/detail/en",
+      "targetPath": "/today/lines/items/12/detail/es-MX",
+      "sourceTextSha256": "68e0b5983f52804451db9940709a1c72300959ef4a31e4962423d9d926f22234",
+      "en": "A handful of inherited endocrine syndromes appear on the skin before the glands declare themselves.",
+      "es-MX": "Unos cuantos síndromes endocrinos hereditarios se manifiestan en la piel antes de que las glándulas den señales."
+    },
+    {
+      "sourcePath": "/today/lines/items/12/image/alt/en",
+      "targetPath": "/today/lines/items/12/image/alt/es-MX",
+      "sourceTextSha256": "c2fc5147e862e504f1f81d97a4f8d8bf1abc58cf8a426ec28ef3b691415e5bab",
+      "en": "Raking light across the skin of an upper arm",
+      "es-MX": "Luz rasante sobre la piel de la parte superior de un brazo"
+    },
+    {
+      "sourcePath": "/today/lines/items/13/text/en",
+      "targetPath": "/today/lines/items/13/text/es-MX",
+      "sourceTextSha256": "e4583a7d37d3c13d117b39963b35bb3bb7a3dc39c57b04c8288194fd5cf69483",
+      "en": "The skin keeps its own fat.",
+      "es-MX": "La piel tiene su propia grasa."
+    },
+    {
+      "sourcePath": "/today/lines/items/13/detail/en",
+      "targetPath": "/today/lines/items/13/detail/es-MX",
+      "sourceTextSha256": "637ea909aaa941427fd57c4dbc314f4414a93cff10b07e58bed30d35b06b14e8",
+      "en": "Beneath the dermis lies subcutaneous fat. Within the reticular dermis itself sits a thinner layer, dermal white adipose tissue.",
+      "es-MX": "Debajo de la dermis se encuentra la grasa subcutánea. Dentro de la propia dermis reticular hay una capa más delgada: el tejido adiposo blanco dérmico."
+    },
+    {
+      "sourcePath": "/today/lines/items/13/image/alt/en",
+      "targetPath": "/today/lines/items/13/image/alt/es-MX",
+      "sourceTextSha256": "6d9442e9bbd80824cd2a64cd63543f5a2508b210aaa738af8d37caa436d7091f",
+      "en": "Golden droplets suspended in clear water",
+      "es-MX": "Gotas doradas suspendidas en agua transparente"
+    },
+    {
+      "sourcePath": "/today/lines/items/14/text/en",
+      "targetPath": "/today/lines/items/14/text/es-MX",
+      "sourceTextSha256": "f3efaf519fc343a091935fa00b1d8d9a783bc78831bf30776e293f6b2edb5e94",
+      "en": "Reassure the many, refer the few.",
+      "es-MX": "Tranquiliza a la mayoría y refiere a los pocos que lo necesitan."
+    },
+    {
+      "sourcePath": "/today/lines/items/14/detail/en",
+      "targetPath": "/today/lines/items/14/detail/es-MX",
+      "sourceTextSha256": "6295a8827edf7570f5912b3875eac4f635bf7fa0ac3b245535c335035cc73a15",
+      "en": "When a patient asks about 'cortisol face', start with the drug history: steroid creams, skin-lighteners, herbal tonics and injections.",
+      "es-MX": "Cuando un paciente pregunta por la ‘cara de cortisol’, empieza con los antecedentes de uso de medicamentos: cremas con esteroides, aclaradores de piel, tónicos herbales e inyecciones."
+    },
+    {
+      "sourcePath": "/today/lines/items/14/image/alt/en",
+      "targetPath": "/today/lines/items/14/image/alt/es-MX",
+      "sourceTextSha256": "a42b15adfd7881f794cb817199d9bd994f824b50a74e7b39f7f3de5e351efaa8",
+      "en": "A quiet clinic corridor with warm light from a door",
+      "es-MX": "Un pasillo tranquilo de una clínica con luz cálida que sale de una puerta"
+    },
+    {
+      "sourcePath": "/localization/countries/0/country/en",
+      "targetPath": "/localization/countries/0/country/es-MX",
+      "sourceTextSha256": "dd64913c8b91d76ca27b371f0b86fd30452370469b8cadf4e5a61d41d14e42ec",
+      "en": "United Arab Emirates",
+      "es-MX": "Emiratos Árabes Unidos"
+    },
+    {
+      "sourcePath": "/localization/countries/0/centers/0/labels/en",
+      "targetPath": "/localization/countries/0/centers/0/labels/es-MX",
+      "sourceTextSha256": "dd64913c8b91d76ca27b371f0b86fd30452370469b8cadf4e5a61d41d14e42ec",
+      "en": "United Arab Emirates",
+      "es-MX": "Emiratos Árabes Unidos"
+    },
+    {
+      "sourcePath": "/localization/countries/0/edition/en",
+      "targetPath": "/localization/countries/0/edition/es-MX",
+      "sourceTextSha256": "ba118bf7fc9c1aedc1edb28a0aa86e0b43b681f222af6616e13c43be87815b06",
+      "en": "English",
+      "es-MX": "Inglés"
+    },
+    {
+      "sourcePath": "/localization/countries/0/units/en",
+      "targetPath": "/localization/countries/0/units/es-MX",
+      "sourceTextSha256": "2332b7dcf7e3e4b05d4cbc605161b08dc848aeb27561aac6e0f8f865d97d972e",
+      "en": "As reported in each cited source",
+      "es-MX": "Según lo informado en cada fuente citada"
+    },
+    {
+      "sourcePath": "/localization/countries/0/approval/en",
+      "targetPath": "/localization/countries/0/approval/es-MX",
+      "sourceTextSha256": "e02156944925c6d5a29e5ce42c29845232801b1d015cd5f1a583ab7fa1248db5",
+      "en": "Regulatory notes reviewed by Fady Hannah-Shmouni, MD FRCPC",
+      "es-MX": "Notas regulatorias revisadas por Fady Hannah-Shmouni, MD FRCPC"
+    },
+    {
+      "sourcePath": "/localization/countries/0/contextLine/en",
+      "targetPath": "/localization/countries/0/contextLine/es-MX",
+      "sourceTextSha256": "c1c354afc16ff8213928ba6274a00d49a8d8b5acfebbf68c0f9b65224de6db60",
+      "en": "UAE federal status plus Dubai and Abu Dhabi rules with each moment",
+      "es-MX": "Estado federal de los Emiratos Árabes Unidos y normas de Dubái y Abu Dabi en cada momento"
+    },
+    {
+      "sourcePath": "/localization/countries/0/learning/review/en",
+      "targetPath": "/localization/countries/0/learning/review/es-MX",
+      "sourceTextSha256": "dd2ace6fcedfdeeee7228c4b9ceb63739cc290b104aefaca3a817118260c89ec",
+      "en": "Medical review: Fady Hannah-Shmouni, MD FRCPC",
+      "es-MX": "Revisión médica: Fady Hannah-Shmouni, MD FRCPC"
+    },
+    {
+      "sourcePath": "/localization/countries/1/country/en",
+      "targetPath": "/localization/countries/1/country/es-MX",
+      "sourceTextSha256": "49dca65f362fee401292ed7ada96f96295eab1e589c52e4e66bf4aedda715fdd",
+      "en": "United States",
+      "es-MX": "Estados Unidos"
+    },
+    {
+      "sourcePath": "/localization/countries/1/centers/0/labels/en",
+      "targetPath": "/localization/countries/1/centers/0/labels/es-MX",
+      "sourceTextSha256": "49dca65f362fee401292ed7ada96f96295eab1e589c52e4e66bf4aedda715fdd",
+      "en": "United States",
+      "es-MX": "Estados Unidos"
+    },
+    {
+      "sourcePath": "/localization/countries/1/edition/en",
+      "targetPath": "/localization/countries/1/edition/es-MX",
+      "sourceTextSha256": "ba118bf7fc9c1aedc1edb28a0aa86e0b43b681f222af6616e13c43be87815b06",
+      "en": "English",
+      "es-MX": "Inglés"
+    },
+    {
+      "sourcePath": "/localization/countries/1/units/en",
+      "targetPath": "/localization/countries/1/units/es-MX",
+      "sourceTextSha256": "2332b7dcf7e3e4b05d4cbc605161b08dc848aeb27561aac6e0f8f865d97d972e",
+      "en": "As reported in each cited source",
+      "es-MX": "Según lo informado en cada fuente citada"
+    },
+    {
+      "sourcePath": "/localization/countries/1/approval/en",
+      "targetPath": "/localization/countries/1/approval/es-MX",
+      "sourceTextSha256": "e02156944925c6d5a29e5ce42c29845232801b1d015cd5f1a583ab7fa1248db5",
+      "en": "Regulatory notes reviewed by Fady Hannah-Shmouni, MD FRCPC",
+      "es-MX": "Notas regulatorias revisadas por Fady Hannah-Shmouni, MD FRCPC"
+    },
+    {
+      "sourcePath": "/localization/countries/1/contextLine/en",
+      "targetPath": "/localization/countries/1/contextLine/es-MX",
+      "sourceTextSha256": "0188f2c5441bec81dd924b1a92e1918e4e453050bddf39c4c5ffe6c155d8848f",
+      "en": "FDA status and US compounding rules with each moment",
+      "es-MX": "Estado ante la FDA y normas estadounidenses de preparación magistral en cada momento"
+    },
+    {
+      "sourcePath": "/localization/countries/1/learning/review/en",
+      "targetPath": "/localization/countries/1/learning/review/es-MX",
+      "sourceTextSha256": "dd2ace6fcedfdeeee7228c4b9ceb63739cc290b104aefaca3a817118260c89ec",
+      "en": "Medical review: Fady Hannah-Shmouni, MD FRCPC",
+      "es-MX": "Revisión médica: Fady Hannah-Shmouni, MD FRCPC"
+    },
+    {
+      "sourcePath": "/localization/countries/2/country/en",
+      "targetPath": "/localization/countries/2/country/es-MX",
+      "sourceTextSha256": "8d23a6e37e0a6431a8f1b43a91026dcff51170a89a6512ff098eaa56a4d5fb19",
+      "en": "United Kingdom",
+      "es-MX": "Reino Unido"
+    },
+    {
+      "sourcePath": "/localization/countries/2/centers/0/labels/en",
+      "targetPath": "/localization/countries/2/centers/0/labels/es-MX",
+      "sourceTextSha256": "8d23a6e37e0a6431a8f1b43a91026dcff51170a89a6512ff098eaa56a4d5fb19",
+      "en": "United Kingdom",
+      "es-MX": "Reino Unido"
+    },
+    {
+      "sourcePath": "/localization/countries/2/edition/en",
+      "targetPath": "/localization/countries/2/edition/es-MX",
+      "sourceTextSha256": "ba118bf7fc9c1aedc1edb28a0aa86e0b43b681f222af6616e13c43be87815b06",
+      "en": "English",
+      "es-MX": "Inglés"
+    },
+    {
+      "sourcePath": "/localization/countries/2/units/en",
+      "targetPath": "/localization/countries/2/units/es-MX",
+      "sourceTextSha256": "2332b7dcf7e3e4b05d4cbc605161b08dc848aeb27561aac6e0f8f865d97d972e",
+      "en": "As reported in each cited source",
+      "es-MX": "Según lo informado en cada fuente citada"
+    },
+    {
+      "sourcePath": "/localization/countries/2/approval/en",
+      "targetPath": "/localization/countries/2/approval/es-MX",
+      "sourceTextSha256": "e02156944925c6d5a29e5ce42c29845232801b1d015cd5f1a583ab7fa1248db5",
+      "en": "Regulatory notes reviewed by Fady Hannah-Shmouni, MD FRCPC",
+      "es-MX": "Notas regulatorias revisadas por Fady Hannah-Shmouni, MD FRCPC"
+    },
+    {
+      "sourcePath": "/localization/countries/2/contextLine/en",
+      "targetPath": "/localization/countries/2/contextLine/es-MX",
+      "sourceTextSha256": "386e6007be9e27e424aadea441996303cd30b2bfee15f990b3eebbd25e6ee770",
+      "en": "MHRA status and UK rules with each moment",
+      "es-MX": "Estado ante la MHRA y normas del Reino Unido en cada momento"
+    },
+    {
+      "sourcePath": "/localization/countries/2/learning/review/en",
+      "targetPath": "/localization/countries/2/learning/review/es-MX",
+      "sourceTextSha256": "dd2ace6fcedfdeeee7228c4b9ceb63739cc290b104aefaca3a817118260c89ec",
+      "en": "Medical review: Fady Hannah-Shmouni, MD FRCPC",
+      "es-MX": "Revisión médica: Fady Hannah-Shmouni, MD FRCPC"
+    },
+    {
+      "sourcePath": "/localization/countries/3/country/en",
+      "targetPath": "/localization/countries/3/country/es-MX",
+      "sourceTextSha256": "e407c98cccc16b5f97ca7c8230227867b343169f1d87b6fb329945cb56988187",
+      "en": "Another EU country",
+      "es-MX": "Otro país de la UE"
+    },
+    {
+      "sourcePath": "/localization/countries/3/centers/0/labels/en",
+      "targetPath": "/localization/countries/3/centers/0/labels/es-MX",
+      "sourceTextSha256": "e407c98cccc16b5f97ca7c8230227867b343169f1d87b6fb329945cb56988187",
+      "en": "Another EU country",
+      "es-MX": "Otro país de la UE"
+    },
+    {
+      "sourcePath": "/localization/countries/3/edition/en",
+      "targetPath": "/localization/countries/3/edition/es-MX",
+      "sourceTextSha256": "ba118bf7fc9c1aedc1edb28a0aa86e0b43b681f222af6616e13c43be87815b06",
+      "en": "English",
+      "es-MX": "Inglés"
+    },
+    {
+      "sourcePath": "/localization/countries/3/units/en",
+      "targetPath": "/localization/countries/3/units/es-MX",
+      "sourceTextSha256": "2332b7dcf7e3e4b05d4cbc605161b08dc848aeb27561aac6e0f8f865d97d972e",
+      "en": "As reported in each cited source",
+      "es-MX": "Según lo informado en cada fuente citada"
+    },
+    {
+      "sourcePath": "/localization/countries/3/approval/en",
+      "targetPath": "/localization/countries/3/approval/es-MX",
+      "sourceTextSha256": "e02156944925c6d5a29e5ce42c29845232801b1d015cd5f1a583ab7fa1248db5",
+      "en": "Regulatory notes reviewed by Fady Hannah-Shmouni, MD FRCPC",
+      "es-MX": "Notas regulatorias revisadas por Fady Hannah-Shmouni, MD FRCPC"
+    },
+    {
+      "sourcePath": "/localization/countries/3/contextLine/en",
+      "targetPath": "/localization/countries/3/contextLine/es-MX",
+      "sourceTextSha256": "89483b36f5662eaa7825e5dbf78f57a459962686ca1e3dcab5b119fd82306908",
+      "en": "EMA status and EU-wide rules with each moment",
+      "es-MX": "Estado ante la EMA y normas de toda la UE en cada momento"
+    },
+    {
+      "sourcePath": "/localization/countries/3/learning/review/en",
+      "targetPath": "/localization/countries/3/learning/review/es-MX",
+      "sourceTextSha256": "dd2ace6fcedfdeeee7228c4b9ceb63739cc290b104aefaca3a817118260c89ec",
+      "en": "Medical review: Fady Hannah-Shmouni, MD FRCPC",
+      "es-MX": "Revisión médica: Fady Hannah-Shmouni, MD FRCPC"
+    },
+    {
+      "sourcePath": "/localization/countries/4/country/en",
+      "targetPath": "/localization/countries/4/country/es-MX",
+      "sourceTextSha256": "4c7de2c3da6dc0ae8f9d13b107718a913859359bd30166d077c867577953865d",
+      "en": "Portugal",
+      "es-MX": "Portugal"
+    },
+    {
+      "sourcePath": "/localization/countries/4/centers/0/labels/en",
+      "targetPath": "/localization/countries/4/centers/0/labels/es-MX",
+      "sourceTextSha256": "4c7de2c3da6dc0ae8f9d13b107718a913859359bd30166d077c867577953865d",
+      "en": "Portugal",
+      "es-MX": "Portugal"
+    },
+    {
+      "sourcePath": "/localization/countries/4/edition/en",
+      "targetPath": "/localization/countries/4/edition/es-MX",
+      "sourceTextSha256": "ba118bf7fc9c1aedc1edb28a0aa86e0b43b681f222af6616e13c43be87815b06",
+      "en": "English",
+      "es-MX": "Inglés"
+    },
+    {
+      "sourcePath": "/localization/countries/4/units/en",
+      "targetPath": "/localization/countries/4/units/es-MX",
+      "sourceTextSha256": "2332b7dcf7e3e4b05d4cbc605161b08dc848aeb27561aac6e0f8f865d97d972e",
+      "en": "As reported in each cited source",
+      "es-MX": "Según lo informado en cada fuente citada"
+    },
+    {
+      "sourcePath": "/localization/countries/4/approval/en",
+      "targetPath": "/localization/countries/4/approval/es-MX",
+      "sourceTextSha256": "e02156944925c6d5a29e5ce42c29845232801b1d015cd5f1a583ab7fa1248db5",
+      "en": "Regulatory notes reviewed by Fady Hannah-Shmouni, MD FRCPC",
+      "es-MX": "Notas regulatorias revisadas por Fady Hannah-Shmouni, MD FRCPC"
+    },
+    {
+      "sourcePath": "/localization/countries/4/contextLine/en",
+      "targetPath": "/localization/countries/4/contextLine/es-MX",
+      "sourceTextSha256": "47667a31ed4cc7608ca801f6ac1e079a716974c949c26b56eb5de0726d7705af",
+      "en": "INFARMED and EU status with each moment",
+      "es-MX": "Estado ante INFARMED y la UE en cada momento"
+    },
+    {
+      "sourcePath": "/localization/countries/4/learning/review/en",
+      "targetPath": "/localization/countries/4/learning/review/es-MX",
+      "sourceTextSha256": "dd2ace6fcedfdeeee7228c4b9ceb63739cc290b104aefaca3a817118260c89ec",
+      "en": "Medical review: Fady Hannah-Shmouni, MD FRCPC",
+      "es-MX": "Revisión médica: Fady Hannah-Shmouni, MD FRCPC"
+    },
+    {
+      "sourcePath": "/localization/countries/5/country/en",
+      "targetPath": "/localization/countries/5/country/es-MX",
+      "sourceTextSha256": "07f62b021771d3cf67e2e1faf18769cc5e5c119ad7d4d1847a11e11d6d5a7ecb",
+      "en": "Brazil",
+      "es-MX": "Brasil"
+    },
+    {
+      "sourcePath": "/localization/countries/5/centers/0/labels/en",
+      "targetPath": "/localization/countries/5/centers/0/labels/es-MX",
+      "sourceTextSha256": "07f62b021771d3cf67e2e1faf18769cc5e5c119ad7d4d1847a11e11d6d5a7ecb",
+      "en": "Brazil",
+      "es-MX": "Brasil"
+    },
+    {
+      "sourcePath": "/localization/countries/5/edition/en",
+      "targetPath": "/localization/countries/5/edition/es-MX",
+      "sourceTextSha256": "ba118bf7fc9c1aedc1edb28a0aa86e0b43b681f222af6616e13c43be87815b06",
+      "en": "English",
+      "es-MX": "Inglés"
+    },
+    {
+      "sourcePath": "/localization/countries/5/units/en",
+      "targetPath": "/localization/countries/5/units/es-MX",
+      "sourceTextSha256": "2332b7dcf7e3e4b05d4cbc605161b08dc848aeb27561aac6e0f8f865d97d972e",
+      "en": "As reported in each cited source",
+      "es-MX": "Según lo informado en cada fuente citada"
+    },
+    {
+      "sourcePath": "/localization/countries/5/approval/en",
+      "targetPath": "/localization/countries/5/approval/es-MX",
+      "sourceTextSha256": "e02156944925c6d5a29e5ce42c29845232801b1d015cd5f1a583ab7fa1248db5",
+      "en": "Regulatory notes reviewed by Fady Hannah-Shmouni, MD FRCPC",
+      "es-MX": "Notas regulatorias revisadas por Fady Hannah-Shmouni, MD FRCPC"
+    },
+    {
+      "sourcePath": "/localization/countries/5/contextLine/en",
+      "targetPath": "/localization/countries/5/contextLine/es-MX",
+      "sourceTextSha256": "b0a7e8919af13bf8b92176854279db30022f3a475a001093e41ee88a8afeeabd",
+      "en": "ANVISA status and Brazilian rules with each moment",
+      "es-MX": "Estado ante ANVISA y normas brasileñas en cada momento"
+    },
+    {
+      "sourcePath": "/localization/countries/5/learning/review/en",
+      "targetPath": "/localization/countries/5/learning/review/es-MX",
+      "sourceTextSha256": "dd2ace6fcedfdeeee7228c4b9ceb63739cc290b104aefaca3a817118260c89ec",
+      "en": "Medical review: Fady Hannah-Shmouni, MD FRCPC",
+      "es-MX": "Revisión médica: Fady Hannah-Shmouni, MD FRCPC"
+    },
+    {
+      "sourcePath": "/localization/countries/6/country/en",
+      "targetPath": "/localization/countries/6/country/es-MX",
+      "sourceTextSha256": "ed9ad13611d7164839dd3feaf9a7f6a75a4138f389e0d45f8e07fa38da1116a2",
+      "en": "Saudi Arabia",
+      "es-MX": "Arabia Saudita"
+    },
+    {
+      "sourcePath": "/localization/countries/6/centers/0/labels/en",
+      "targetPath": "/localization/countries/6/centers/0/labels/es-MX",
+      "sourceTextSha256": "ed9ad13611d7164839dd3feaf9a7f6a75a4138f389e0d45f8e07fa38da1116a2",
+      "en": "Saudi Arabia",
+      "es-MX": "Arabia Saudita"
+    },
+    {
+      "sourcePath": "/localization/countries/6/edition/en",
+      "targetPath": "/localization/countries/6/edition/es-MX",
+      "sourceTextSha256": "db43dacb0653fe6b73cab5582a78de8995b46f176062f21beae702ab574c6f8d",
+      "en": "Arabic UAE edition with Saudi supplement",
+      "es-MX": "Edición árabe de los Emiratos Árabes Unidos con suplemento saudí"
+    },
+    {
+      "sourcePath": "/localization/countries/6/units/en",
+      "targetPath": "/localization/countries/6/units/es-MX",
+      "sourceTextSha256": "f608d35d48a2c4968eca7b3fefba7cf8d8a66bd1edfc537673f1833d8ff4f972",
+      "en": "Preserve source units; use local laboratory reference intervals",
+      "es-MX": "Conservar las unidades de las fuentes; usar los intervalos de referencia del laboratorio local"
+    },
+    {
+      "sourcePath": "/localization/countries/6/approval/en",
+      "targetPath": "/localization/countries/6/approval/es-MX",
+      "sourceTextSha256": "38024bdf0d6ad2c599fc49f129319cfffbcfc177267f35cb83fdecff27f0bff7",
+      "en": "Saudi product checks awaiting Fady review",
+      "es-MX": "Verificaciones de productos saudíes pendientes de revisión por Fady"
+    },
+    {
+      "sourcePath": "/localization/countries/6/contextLine/en",
+      "targetPath": "/localization/countries/6/contextLine/es-MX",
+      "sourceTextSha256": "459452d258cdeba2f466ddaad348fa6d7f2fa23d2e8abe5c1af3dd159ae45581",
+      "en": "Product-specific SFDA status; no class-wide inference",
+      "es-MX": "Estado de cada producto ante la SFDA; sin inferencias para toda la categoría"
+    },
+    {
+      "sourcePath": "/localization/countries/6/learning/review/en",
+      "targetPath": "/localization/countries/6/learning/review/es-MX",
+      "sourceTextSha256": "9834120e9c8adc4c58a71608f13a2cccbad81f9537e97d15790562729507d2f8",
+      "en": "Review pending",
+      "es-MX": "Revisión pendiente"
+    },
+    {
+      "sourcePath": "/site/bookstore/label/en",
+      "targetPath": "/site/bookstore/label/es-MX",
+      "sourceTextSha256": "b3907242c93291f8cd38404ea90b4eca9963d4bc876d6d662bc944f8054d9abb",
+      "en": "Book store",
+      "es-MX": "Librería"
+    },
+    {
+      "sourcePath": "/site/bookstore/title/en",
+      "targetPath": "/site/bookstore/title/es-MX",
+      "sourceTextSha256": "b0e53e4d96adca425e91621e5a5baf783a1a9cc3b5f8b35e465f46ca1ca989ff",
+      "en": "Keep exploring, one book at a time.",
+      "es-MX": "Sigue explorando, un libro a la vez."
+    },
+    {
+      "sourcePath": "/site/bookstore/description/en",
+      "targetPath": "/site/bookstore/description/es-MX",
+      "sourceTextSha256": "9aefbc1ece0eea54871197dc25404eeb375ca47e68b7d8cca3224a3b22ec648f",
+      "en": "Explore Hormonaly’s pocket guides and books on peptides, hormones and longevity.",
+      "es-MX": "Explora las guías de bolsillo y los libros de Hormonaly sobre péptidos, hormonas y longevidad."
+    },
+    {
+      "sourcePath": "/site/bookstore/action/en",
+      "targetPath": "/site/bookstore/action/es-MX",
+      "sourceTextSha256": "2f79e04f2f1f2955bf2f6c1c327364f207b195827114115e6f9edbe3d7309041",
+      "en": "Explore the book store",
+      "es-MX": "Explorar la librería"
+    },
+    {
+      "sourcePath": "/site/bookstore/books/0/title/en",
+      "targetPath": "/site/bookstore/books/0/title/es-MX",
+      "sourceTextSha256": "7d83821aa8db1b5cfeaa327144ab42bc4b40e213e85271362a404e62b094c99f",
+      "en": "The Peptide Pocket Guide",
+      "es-MX": "The Peptide Pocket Guide"
+    },
+    {
+      "sourcePath": "/site/bookstore/books/1/title/en",
+      "targetPath": "/site/bookstore/books/1/title/es-MX",
+      "sourceTextSha256": "c9cc3af1dccb87f9135458e72904e57199b3a6baba07dd936712bf3139f1e451",
+      "en": "Aesthetic & Regenerative Endocrinology",
+      "es-MX": "Aesthetic & Regenerative Endocrinology"
+    },
+    {
+      "sourcePath": "/site/bookstore/books/2/title/en",
+      "targetPath": "/site/bookstore/books/2/title/es-MX",
+      "sourceTextSha256": "dc6c6671ca89492b78dbcfdf6f1c9a68e875358658b430b125143d5218ac9081",
+      "en": "Peptides, Hormones & Longevity",
+      "es-MX": "Peptides, Hormones & Longevity"
+    },
+    {
+      "sourcePath": "/site/bookstore/booksByLocale/ar/0/title/en",
+      "targetPath": "/site/bookstore/booksByLocale/ar/0/title/es-MX",
+      "sourceTextSha256": "39c927134e8891a015a4208c91313ca9195a50f5d614884e944f3bdfed6b8635",
+      "en": "دليل الجيب للببتيدات (The Peptide Pocket Guide — Arabic Edition)",
+      "es-MX": "دليل الجيب للببتيدات (The Peptide Pocket Guide — Arabic Edition)"
+    },
+    {
+      "sourcePath": "/site/bookstore/booksByLocale/ar/1/title/en",
+      "targetPath": "/site/bookstore/booksByLocale/ar/1/title/es-MX",
+      "sourceTextSha256": "f5b4e8c7c0a7eefbf26cad2ccb00a9ee9b356836fafed6159d8277c2666d0ee0",
+      "en": "الببتيدات: مدخل مبسط",
+      "es-MX": "الببتيدات: مدخل مبسط"
+    },
+    {
+      "sourcePath": "/site/certificatePartner/note/en",
+      "targetPath": "/site/certificatePartner/note/es-MX",
+      "sourceTextSha256": "23ea747a6a1cf900cb04a938dcaec12baebb386eb81e8396924e07204f5e68e6",
+      "en": "Education partner · GCLS AI Academy",
+      "es-MX": "Socio educativo · GCLS AI Academy"
+    },
+    {
+      "sourcePath": "/site/contact/location/en",
+      "targetPath": "/site/contact/location/es-MX",
+      "sourceTextSha256": "05e53b868da06c6b797bca61a0c211355ecef98ca743f026212a429c3932a292",
+      "en": "Dubai, United Arab Emirates",
+      "es-MX": "Dubái, Emiratos Árabes Unidos"
+    },
+    {
+      "sourcePath": "/site/terms/title/en",
+      "targetPath": "/site/terms/title/es-MX",
+      "sourceTextSha256": "34e6faf15abddcd4b73e84117be7debf724f4ab10110bbef9fc5c6ed7eb0da60",
+      "en": "Terms and Conditions",
+      "es-MX": "Términos y condiciones"
+    },
+    {
+      "sourcePath": "/site/terms/sections/0/title/en",
+      "targetPath": "/site/terms/sections/0/title/es-MX",
+      "sourceTextSha256": "d1d45f56ce321141965d7dd9248915ee70b44fcd2365e1866043110658922120",
+      "en": "Using Perceptors and your academy",
+      "es-MX": "Uso de Perceptors y tu academia"
+    },
+    {
+      "sourcePath": "/site/terms/sections/0/paragraphs/0/en",
+      "targetPath": "/site/terms/sections/0/paragraphs/0/es-MX",
+      "sourceTextSha256": "d12df4424ddce4885b85236c0fd5be4009e5289e995f738c477af17abcb1697e",
+      "en": "Perceptors is a learning platform from GCLS AI Lab. These terms cover use of the Perceptors website and platform. Your course provider is identified on its academy page; additional enrollment or institutional terms may apply to that course. Contact support@perceptors.ai for access, certificate or terms questions.",
+      "es-MX": "Perceptors es una plataforma de aprendizaje de GCLS AI Lab. Estos términos abarcan el uso del sitio web y la plataforma Perceptors. El proveedor de tu curso se identifica en la página de su academia; pueden aplicarse términos adicionales de inscripción o de la institución a ese curso. Contacta a support@perceptors.ai si tienes preguntas sobre acceso, constancias o términos."
+    },
+    {
+      "sourcePath": "/site/terms/sections/1/title/en",
+      "targetPath": "/site/terms/sections/1/title/es-MX",
+      "sourceTextSha256": "dbb5f6371b6a2a677f09c24d17fdc581132a41881a818469a92b58588e8764bc",
+      "en": "Your account",
+      "es-MX": "Tu cuenta"
+    },
+    {
+      "sourcePath": "/site/terms/sections/1/paragraphs/0/en",
+      "targetPath": "/site/terms/sections/1/paragraphs/0/es-MX",
+      "sourceTextSha256": "09c192df41b27365c9a4218ee14d51c21001e185f9a88a30929d3728456ba86e",
+      "en": "Use accurate account details and keep your sign-in credentials private. Each learner account is personal. Use courses within your qualifications and the requirements of your institution and jurisdiction. Report suspected unauthorized access to support.",
+      "es-MX": "Usa datos de cuenta correctos y mantén privadas tus credenciales de inicio de sesión. Cada cuenta de participante es personal. Usa los cursos dentro de tus cualificaciones y los requisitos de tu institución y jurisdicción. Informa a soporte si sospechas un acceso no autorizado."
+    },
+    {
+      "sourcePath": "/site/terms/sections/2/title/en",
+      "targetPath": "/site/terms/sections/2/title/es-MX",
+      "sourceTextSha256": "78635b36ce0694887f793bf3c73421725bdcf948de75bbd348b2593a3fdf089a",
+      "en": "Education and AI tools",
+      "es-MX": "Educación y herramientas de IA"
+    },
+    {
+      "sourcePath": "/site/terms/sections/2/paragraphs/0/en",
+      "targetPath": "/site/terms/sections/2/paragraphs/0/es-MX",
+      "sourceTextSha256": "ffb9da43254b450b3db89edc2db9875047e45b44484159336a5fb9cd3283db11",
+      "en": "Course materials and AI responses support learning. They do not provide individual medical advice, professional licensure or a substitute for qualified clinical judgment. AI responses may contain errors. Check sources and applicable professional guidance before applying course information.",
+      "es-MX": "Los materiales del curso y las respuestas de IA apoyan el aprendizaje. No proporcionan asesoría médica individual ni una licencia profesional, y no sustituyen el juicio clínico cualificado. Las respuestas de IA pueden contener errores. Consulta las fuentes y la orientación profesional aplicable antes de aplicar la información del curso."
+    },
+    {
+      "sourcePath": "/site/terms/sections/2/paragraphs/1/en",
+      "targetPath": "/site/terms/sections/2/paragraphs/1/es-MX",
+      "sourceTextSha256": "53e1c7ff6ea76acb2f021449839f96cd0eb089be4512fe9f21a9fc1a51f45b13",
+      "en": "Do not submit patient records, identifiable health information, confidential employer material or information you do not have permission to use. Use fictional examples for practice.",
+      "es-MX": "No envíes expedientes de pacientes, información de salud identificable, material confidencial de tu empleador ni información que no tengas permiso de usar. Usa ejemplos ficticios para practicar."
+    },
+    {
+      "sourcePath": "/site/terms/sections/3/title/en",
+      "targetPath": "/site/terms/sections/3/title/es-MX",
+      "sourceTextSha256": "4992c5c2ac935d66468187298175925cd3a17d91b35cf037a9448a1a37079d80",
+      "en": "Course creators’ views and independent content",
+      "es-MX": "Opiniones de los creadores de cursos y contenido independiente"
+    },
+    {
+      "sourcePath": "/site/terms/sections/3/paragraphs/0/en",
+      "targetPath": "/site/terms/sections/3/paragraphs/0/es-MX",
+      "sourceTextSha256": "5c6f3ffdde9d754a0020d478bad023a8fb276f6a82e84a48955e172d7fa5572a",
+      "en": "The views, interpretations, opinions and recommendations expressed in a course are those of its identified creators, instructors and contributors. They do not necessarily reflect the views of, or constitute endorsement by, Perceptors.ai, DrVibe Inc., GCLS AI Lab or their affiliates. Course creators are responsible for the substance of the teaching content they contribute, including the evidence and professional positions they present.",
+      "es-MX": "Las perspectivas, interpretaciones, opiniones y recomendaciones expresadas en un curso pertenecen a sus creadores, instructores y colaboradores identificados. No reflejan necesariamente las opiniones de Perceptors.ai, DrVibe Inc., GCLS AI Lab o sus afiliadas, ni constituyen su respaldo. Los creadores de los cursos son responsables del contenido sustantivo de la enseñanza que aportan, incluidas la evidencia y las posturas profesionales que presentan."
+    },
+    {
+      "sourcePath": "/site/terms/sections/3/paragraphs/1/en",
+      "targetPath": "/site/terms/sections/3/paragraphs/1/es-MX",
+      "sourceTextSha256": "df56b8913e833b1505ea45c3cdb559c93f58ad23eb195f1c7fae4b0bf637c5e3",
+      "en": "Courses may discuss emerging, investigational, controversial or off-label approaches, or practices that differ from established clinical guidelines. Making a course available through the platform does not mean that Perceptors.ai, DrVibe Inc., GCLS AI Lab or their affiliates recommend those approaches, consider them guideline-concordant, or authorize their clinical use. Platform delivery does not give these entities control over every statement, opinion or interpretation made by a course creator.",
+      "es-MX": "Los cursos pueden abordar enfoques emergentes, en investigación, controvertidos o fuera de indicación, o prácticas que difieren de las guías clínicas establecidas. Ofrecer un curso a través de la plataforma no significa que Perceptors.ai, DrVibe Inc., GCLS AI Lab o sus afiliadas recomienden esos enfoques, los consideren concordantes con las guías o autoricen su uso clínico. La distribución mediante la plataforma no otorga a estas entidades control sobre cada afirmación, opinión o interpretación de un creador de cursos."
+    },
+    {
+      "sourcePath": "/site/terms/sections/3/paragraphs/2/en",
+      "targetPath": "/site/terms/sections/3/paragraphs/2/es-MX",
+      "sourceTextSha256": "eac3c5ce1a62ba74c3b9355764ac668200f525948436bce232e7842e8372d52b",
+      "en": "Learners must independently assess the evidence, applicable guidelines, regulatory requirements and their professional scope before applying information in practice. Educational content does not replace individual clinical judgment or patient-specific evaluation. This clause does not exclude any duty, liability or consumer right that cannot lawfully be excluded, or change the responsibilities of an entity that is itself identified as the creator or provider of particular content.",
+      "es-MX": "Los participantes deben evaluar de forma independiente la evidencia, las guías aplicables, los requisitos regulatorios y su ámbito profesional antes de aplicar la información en la práctica. El contenido educativo no sustituye el juicio clínico individual ni la evaluación específica del paciente. Esta cláusula no excluye ninguna obligación, responsabilidad o derecho del consumidor que no pueda excluirse lícitamente, ni cambia las responsabilidades de una entidad que se identifique como creadora o proveedora de un contenido determinado."
+    },
+    {
+      "sourcePath": "/site/terms/sections/4/title/en",
+      "targetPath": "/site/terms/sections/4/title/es-MX",
+      "sourceTextSha256": "5d2e71e81e538b97271df0a44e3aa8bc25e35367a4254561342453a3d0b0e455",
+      "en": "Enrollment and payment",
+      "es-MX": "Inscripción y pago"
+    },
+    {
+      "sourcePath": "/site/terms/sections/4/paragraphs/0/en",
+      "targetPath": "/site/terms/sections/4/paragraphs/0/es-MX",
+      "sourceTextSha256": "3544fb0ef1a5b66839a48fb496c20dcdf1b6eddf11260a5746f08f1877f7acbf",
+      "en": "The course page and checkout describe the price, currency, access period and included services. A free enrollment does not create a paid subscription. Contact support about billing errors, cancellation or refunds. Nothing in these terms removes mandatory consumer rights.",
+      "es-MX": "La página del curso y el proceso de pago describen el precio, la moneda, el periodo de acceso y los servicios incluidos. Una inscripción gratuita no crea una suscripción de pago. Contacta a soporte sobre errores de facturación, cancelaciones o reembolsos. Nada en estos términos elimina derechos obligatorios del consumidor."
+    },
+    {
+      "sourcePath": "/site/terms/sections/5/title/en",
+      "targetPath": "/site/terms/sections/5/title/es-MX",
+      "sourceTextSha256": "fd35b1105ae1213b090c20c09deea93a06974547384a9d73a7dac89597a9758e",
+      "en": "Assessments and certificates",
+      "es-MX": "Evaluaciones y constancias"
+    },
+    {
+      "sourcePath": "/site/terms/sections/5/paragraphs/0/en",
+      "targetPath": "/site/terms/sections/5/paragraphs/0/es-MX",
+      "sourceTextSha256": "4e2be6f170390415878f979667eef3a79c65076ae94e16bfbc5a9468850823ee",
+      "en": "Complete assessments honestly and meet the course’s stated requirements. A certificate records completion under the named issuer’s rules. GCLS AI Lab branding identifies platform or learning support; it does not establish GCLS accreditation, CME or CE credit. Formal accreditation or credit applies only when explicitly confirmed for the specific course.",
+      "es-MX": "Completa las evaluaciones con honestidad y cumple los requisitos establecidos del curso. Una constancia registra la finalización conforme a las reglas del emisor identificado. La marca GCLS AI Lab identifica el apoyo de la plataforma o al aprendizaje; no establece acreditación de GCLS ni créditos CME o CE. La acreditación formal o los créditos solo aplican cuando se confirman explícitamente para el curso específico."
+    },
+    {
+      "sourcePath": "/site/terms/sections/6/title/en",
+      "targetPath": "/site/terms/sections/6/title/es-MX",
+      "sourceTextSha256": "a1619e98cea436fac023b13ce1710ed6a2585cf4a9329e97c89b1ef54f11cf39",
+      "en": "Materials and acceptable use",
+      "es-MX": "Materiales y uso aceptable"
+    },
+    {
+      "sourcePath": "/site/terms/sections/6/paragraphs/0/en",
+      "targetPath": "/site/terms/sections/6/paragraphs/0/es-MX",
+      "sourceTextSha256": "4ac8308268660959ecc421f941d41bb2445776a13e11259ce73047cb8a0ef071",
+      "en": "Use learning materials for your personal or authorized institutional learning. Do not redistribute, sell or publish them without the rights holder’s permission, except where law permits. Do not bypass enrollment, assessments or access controls, access other users’ data, or disrupt the service. Access restrictions can be raised with support for review.",
+      "es-MX": "Usa los materiales de aprendizaje para tu aprendizaje personal o institucional autorizado. No los redistribuyas, vendas ni publiques sin permiso del titular de los derechos, salvo donde la ley lo permita. No eludas la inscripción, las evaluaciones ni los controles de acceso, no accedas a los datos de otros usuarios ni interrumpas el servicio. Puedes plantear las restricciones de acceso a soporte para su revisión."
+    },
+    {
+      "sourcePath": "/site/terms/sections/7/title/en",
+      "targetPath": "/site/terms/sections/7/title/es-MX",
+      "sourceTextSha256": "eca4749c3868d4564b4ff5e6a41829408eb2688a6e3f4db15e0a01cf33bb848f",
+      "en": "Availability and external services",
+      "es-MX": "Disponibilidad y servicios externos"
+    },
+    {
+      "sourcePath": "/site/terms/sections/7/paragraphs/0/en",
+      "targetPath": "/site/terms/sections/7/paragraphs/0/es-MX",
+      "sourceTextSha256": "9412ed1b2815ea60b1a5750c19f0894e75a37ef75bf0b7e49d18e0f5108a9097",
+      "en": "Courses and platform features may be maintained or updated. Availability can be interrupted. External resources are governed by their providers’ terms. Retain your own copies of permitted personal learning artifacts where needed.",
+      "es-MX": "Los cursos y las funciones de la plataforma pueden recibir mantenimiento o actualizaciones. La disponibilidad puede interrumpirse. Los recursos externos se rigen por los términos de sus proveedores. Conserva tus propias copias de los materiales personales de aprendizaje permitidos cuando sea necesario."
+    },
+    {
+      "sourcePath": "/site/terms/sections/8/title/en",
+      "targetPath": "/site/terms/sections/8/title/es-MX",
+      "sourceTextSha256": "4484243efb40cdf22ddfddbeb81907ceca73687096f41bd3cd38a2cedbef576e",
+      "en": "Your agreement and changes",
+      "es-MX": "Tu aceptación y los cambios"
+    },
+    {
+      "sourcePath": "/site/terms/sections/8/paragraphs/0/en",
+      "targetPath": "/site/terms/sections/8/paragraphs/0/es-MX",
+      "sourceTextSha256": "9f6a217013232c302b5eaa7372ab5006a04332e5c68850ce831d52e9e0b917d3",
+      "en": "The displayed version identifies these terms. When requested after sign-in, your typed name and affirmative checkbox record your electronic acceptance. Acceptance is saved to your account for the applicable academy and course. A changed document will require renewed acceptance.",
+      "es-MX": "La versión mostrada identifica estos términos. Cuando se solicite después de iniciar sesión, el nombre que escribas y la casilla que marques afirmativamente registran tu aceptación electrónica. La aceptación se guarda en tu cuenta para la academia y el curso correspondientes. Un documento modificado requerirá una nueva aceptación."
+    },
+    {
+      "sourcePath": "/site/terms/sections/8/paragraphs/1/en",
+      "targetPath": "/site/terms/sections/8/paragraphs/1/es-MX",
+      "sourceTextSha256": "886fef2104a3e149d7fabba8e447010c093429cf2209b15cd4eab46c9f7e8b73",
+      "en": "Accepting these terms is separate from marketing consent and optional tutor-memory preferences. The Privacy Policy explains how platform information is handled. Contact support@perceptors.ai about either document.",
+      "es-MX": "La aceptación de estos términos es independiente del consentimiento para publicidad y de las preferencias opcionales de memoria del tutor. La Política de privacidad explica cómo se maneja la información de la plataforma. Contacta a support@perceptors.ai sobre cualquiera de estos documentos."
+    },
+    {
+      "sourcePath": "/site/terms/reviewNotice/en",
+      "targetPath": "/site/terms/reviewNotice/es-MX",
+      "sourceTextSha256": "c8c7ae83a4781819562648669859f59c68b58314cf8013f4d494a7b93438e023",
+      "en": "Arabic translation draft — legal review pending.",
+      "es-MX": "Borrador de traducción al árabe — revisión legal pendiente."
+    },
+    {
+      "sourcePath": "/site/privacy/title/en",
+      "targetPath": "/site/privacy/title/es-MX",
+      "sourceTextSha256": "506ff394621596dd88138642eddfc1e41833b3ae92d95e5c77c94327098abd9a",
+      "en": "Privacy Policy",
+      "es-MX": "Política de privacidad"
+    },
+    {
+      "sourcePath": "/site/privacy/sections/0/title/en",
+      "targetPath": "/site/privacy/sections/0/title/es-MX",
+      "sourceTextSha256": "c9a3a1a40dda0524592fc2f65e16da8df0dfb7d4ec401cdde8fa19c377bfa076",
+      "en": "Who to contact",
+      "es-MX": "A quién contactar"
+    },
+    {
+      "sourcePath": "/site/privacy/sections/0/paragraphs/0/en",
+      "targetPath": "/site/privacy/sections/0/paragraphs/0/es-MX",
+      "sourceTextSha256": "bee63669e4de3af424d8a7e8c3c1ee2ccbe311d5dcefe8d020e6abe0887bd865",
+      "en": "Perceptors, a GCLS AI Lab platform, supports the academy provider identified on your course page. Contact support@perceptors.ai about privacy or account requests and identify the academy you use. Our contact location is Dubai, United Arab Emirates. Your academy or institution may provide an additional privacy notice for its own processing.",
+      "es-MX": "Perceptors, una plataforma de GCLS AI Lab, apoya al proveedor de la academia identificado en la página de tu curso. Contacta a support@perceptors.ai sobre solicitudes de privacidad o de cuenta e identifica la academia que utilizas. Nuestra ubicación de contacto es Dubái, Emiratos Árabes Unidos. Tu academia o institución puede proporcionar un aviso de privacidad adicional para su propio tratamiento de datos."
+    },
+    {
+      "sourcePath": "/site/privacy/sections/1/title/en",
+      "targetPath": "/site/privacy/sections/1/title/es-MX",
+      "sourceTextSha256": "e63f28f291573b558df6bb3404f5c00ff36239d3030612714fb85317ff64eeb0",
+      "en": "Account, inquiry and learning information",
+      "es-MX": "Información de cuenta, consultas y aprendizaje"
+    },
+    {
+      "sourcePath": "/site/privacy/sections/1/paragraphs/0/en",
+      "targetPath": "/site/privacy/sections/1/paragraphs/0/es-MX",
+      "sourceTextSha256": "fb8bce20e15dbc9b9c3a193015d000828016829d5da8ffff06ffdefe1a3d4dac",
+      "en": "We process the information you provide in contact forms, including your name, email, organization and message, to respond to your inquiry. Learner accounts use identity and sign-in information, course enrollment, learning progress, assessment submissions and results to provide and administer learning.",
+      "es-MX": "Tratamos la información que proporcionas en los formularios de contacto, incluidos tu nombre, correo electrónico, organización y mensaje, para responder a tu consulta. Las cuentas de participantes usan información de identidad e inicio de sesión, inscripción al curso, progreso de aprendizaje, evaluaciones enviadas y resultados para proporcionar y administrar el aprendizaje."
+    },
+    {
+      "sourcePath": "/site/privacy/sections/1/paragraphs/1/en",
+      "targetPath": "/site/privacy/sections/1/paragraphs/1/es-MX",
+      "sourceTextSha256": "46edf406e5122d840ff2f2fa14b96a783cfc04fed7d8d296068efc05141f795f",
+      "en": "Where agreement is required, we retain the name you type, your account and academy/course identifiers, document version and snapshot, language and server-recorded acceptance time. This records what you agreed to.",
+      "es-MX": "Cuando se requiere aceptación, conservamos el nombre que escribes, los identificadores de tu cuenta y academia/curso, la versión y una copia del documento, el idioma y la hora de aceptación registrada por el servidor. Esto registra lo que aceptaste."
+    },
+    {
+      "sourcePath": "/site/privacy/sections/2/title/en",
+      "targetPath": "/site/privacy/sections/2/title/es-MX",
+      "sourceTextSha256": "d96ad0f8ceada79a520910b1c61b72b83e432c11070197151a3851e8aae4cceb",
+      "en": "AI-assisted learning",
+      "es-MX": "Aprendizaje asistido por IA"
+    },
+    {
+      "sourcePath": "/site/privacy/sections/2/paragraphs/0/en",
+      "targetPath": "/site/privacy/sections/2/paragraphs/0/es-MX",
+      "sourceTextSha256": "f731b20292f1c6bc3a2bc2e1b90013269b3cd86870243bafb9df308c56b9f3d9",
+      "en": "Questions, responses and learning context are processed to provide tutor features and feedback. Optional remembered preferences use the controls described in the course. Do not enter patient information, sensitive health details or confidential information. AI providers may process the information needed to deliver the requested feature.",
+      "es-MX": "Las preguntas, las respuestas y el contexto de aprendizaje se procesan para proporcionar funciones de tutor y retroalimentación. Las preferencias recordadas opcionales usan los controles descritos en el curso. No ingreses información de pacientes, datos de salud sensibles ni información confidencial. Los proveedores de IA pueden procesar la información necesaria para ofrecer la función solicitada."
+    },
+    {
+      "sourcePath": "/site/privacy/sections/3/title/en",
+      "targetPath": "/site/privacy/sections/3/title/es-MX",
+      "sourceTextSha256": "228b366c4b2fdbbfe2d3b7eefc052d410a0b3faf6175d85bff8a70d10b8b85c1",
+      "en": "Service providers and recipients",
+      "es-MX": "Proveedores de servicios y destinatarios"
+    },
+    {
+      "sourcePath": "/site/privacy/sections/3/paragraphs/0/en",
+      "targetPath": "/site/privacy/sections/3/paragraphs/0/es-MX",
+      "sourceTextSha256": "cbd60e4798d6762ba961a78bbc5aa0797f8bc993df499ae6efbeb1b75b003e03",
+      "en": "Providers of hosting, authentication, email, payment and AI services process information needed for those services. Academy administrators and authorized faculty may access learning records needed to administer the course, support learners and review assessments. Payment details are handled by the payment provider; the platform uses transaction and enrollment records to manage access.",
+      "es-MX": "Los proveedores de servicios de alojamiento, autenticación, correo electrónico, pagos e IA procesan la información necesaria para esos servicios. Los administradores de la academia y el personal docente autorizado pueden acceder a los registros de aprendizaje necesarios para administrar el curso, apoyar a los participantes y revisar evaluaciones. El proveedor de pagos maneja los datos de pago; la plataforma usa los registros de transacciones e inscripción para gestionar el acceso."
+    },
+    {
+      "sourcePath": "/site/privacy/sections/3/paragraphs/1/en",
+      "targetPath": "/site/privacy/sections/3/paragraphs/1/es-MX",
+      "sourceTextSha256": "5bdf5bb78a2e1da4d33807adb7c4713582e4d56f9e3c40c3dae3aa0578ffb2f9",
+      "en": "Public certificate verification can disclose the learner name, course, issuer, date and certificate status to someone with the verification link or code. Avoid sharing that link if you do not want to make those details available.",
+      "es-MX": "La verificación pública de constancias puede revelar el nombre del participante, el curso, el emisor, la fecha y el estado de la constancia a quien tenga el enlace o código de verificación. Evita compartir ese enlace si no quieres que esos datos estén disponibles."
+    },
+    {
+      "sourcePath": "/site/privacy/sections/4/title/en",
+      "targetPath": "/site/privacy/sections/4/title/es-MX",
+      "sourceTextSha256": "18e3ac6045e6524dd6dc54ae523cbea0c11e898dbf1866d73458ab3ba6b3c6b2",
+      "en": "Storage, international processing and security",
+      "es-MX": "Almacenamiento, tratamiento internacional y seguridad"
+    },
+    {
+      "sourcePath": "/site/privacy/sections/4/paragraphs/0/en",
+      "targetPath": "/site/privacy/sections/4/paragraphs/0/es-MX",
+      "sourceTextSha256": "05fcf0b0237fafa0c50a970e012bd74d9132680af4b8b8a41e0de49f9c658e30",
+      "en": "Services may process information in different countries depending on the academy’s hosting and provider arrangements. Institutional hosting and data requirements are set with the relevant provider; do not assume a particular country of storage from a contact address.",
+      "es-MX": "Los servicios pueden procesar información en distintos países según los acuerdos de alojamiento y proveedores de la academia. Los requisitos institucionales de alojamiento y datos se establecen con el proveedor correspondiente; no supongas un país de almacenamiento concreto a partir de una dirección de contacto."
+    },
+    {
+      "sourcePath": "/site/privacy/sections/4/paragraphs/1/en",
+      "targetPath": "/site/privacy/sections/4/paragraphs/1/es-MX",
+      "sourceTextSha256": "2b39279b5edcdd67e05f784d3892bbacbdac4be5a1e56023e05414f557bbc379",
+      "en": "Access controls and operational safeguards support protection of information. No service can guarantee absolute security. We retain information as needed to provide learning, document certificates and agreements, resolve issues and meet applicable obligations. Retention depends on record type and academy arrangements.",
+      "es-MX": "Los controles de acceso y las medidas de protección operativa apoyan la protección de la información. Ningún servicio puede garantizar seguridad absoluta. Conservamos la información según sea necesario para proporcionar aprendizaje, documentar constancias y acuerdos, resolver problemas y cumplir las obligaciones aplicables. La conservación depende del tipo de registro y de los acuerdos de la academia."
+    },
+    {
+      "sourcePath": "/site/privacy/sections/5/title/en",
+      "targetPath": "/site/privacy/sections/5/title/es-MX",
+      "sourceTextSha256": "62471899b13522e46b6ab74dbb168d04c29f3aa003e2dcea6bcaa86b67a1595a",
+      "en": "Cookies and device storage",
+      "es-MX": "Cookies y almacenamiento del dispositivo"
+    },
+    {
+      "sourcePath": "/site/privacy/sections/5/paragraphs/0/en",
+      "targetPath": "/site/privacy/sections/5/paragraphs/0/es-MX",
+      "sourceTextSha256": "1c9d91a65d8a98c210ef9375de3fe9f1a75f02e3d0c9b2f972cdf4e4f7fc57c8",
+      "en": "Sign-in and learning features use browser storage to keep your session, language and learning state. The public website may collect usage events through its configured analytics service. Browser controls can clear or restrict local storage; doing so can affect sign-in and unsynchronized learning progress.",
+      "es-MX": "Las funciones de inicio de sesión y aprendizaje usan el almacenamiento del navegador para conservar tu sesión, idioma y estado de aprendizaje. El sitio web público puede recopilar eventos de uso mediante su servicio de analítica configurado. Los controles del navegador pueden borrar o restringir el almacenamiento local; hacerlo puede afectar el inicio de sesión y el progreso de aprendizaje no sincronizado."
+    },
+    {
+      "sourcePath": "/site/privacy/sections/6/title/en",
+      "targetPath": "/site/privacy/sections/6/title/es-MX",
+      "sourceTextSha256": "7a21cf72e86f0ec769b902baf61a2b6124f81f246f5e659a66515eb308cf6d27",
+      "en": "Your choices and requests",
+      "es-MX": "Tus opciones y solicitudes"
+    },
+    {
+      "sourcePath": "/site/privacy/sections/6/paragraphs/0/en",
+      "targetPath": "/site/privacy/sections/6/paragraphs/0/es-MX",
+      "sourceTextSha256": "515e5284f1a08dcc6641115adcc7e543b8b84fb1a1e1acd953d3af4820455c6b",
+      "en": "You can use available account and tutor controls and contact support to request access, correction or deletion of personal information. Rights and exceptions depend on applicable law and the role of your academy or institution. We may need to verify your identity before acting. Do not send identity documents or sensitive records unless requested through an appropriate process.",
+      "es-MX": "Puedes usar los controles de cuenta y tutor disponibles y contactar a soporte para solicitar acceso, corrección o eliminación de información personal. Los derechos y las excepciones dependen de la ley aplicable y del papel de tu academia o institución. Es posible que necesitemos verificar tu identidad antes de actuar. No envíes documentos de identidad ni registros sensibles, salvo que se soliciten mediante un proceso adecuado."
+    },
+    {
+      "sourcePath": "/site/privacy/sections/6/paragraphs/1/en",
+      "targetPath": "/site/privacy/sections/6/paragraphs/1/es-MX",
+      "sourceTextSha256": "2615cba5555b235dbbb2dd7248e2f75c9e7d069f846b678cb5c349b759a3f0d7",
+      "en": "Terms acceptance does not sign you up for marketing. Optional communications and optional tutor preferences are managed separately.",
+      "es-MX": "Aceptar los términos no te inscribe en comunicaciones publicitarias. Las comunicaciones opcionales y las preferencias opcionales del tutor se gestionan por separado."
+    },
+    {
+      "sourcePath": "/site/privacy/sections/7/title/en",
+      "targetPath": "/site/privacy/sections/7/title/es-MX",
+      "sourceTextSha256": "5218683b853e153eab6808638c9f7ce56c519dca47ba660e0e681f9fe35b3e95",
+      "en": "Policy updates",
+      "es-MX": "Actualizaciones de la política"
+    },
+    {
+      "sourcePath": "/site/privacy/sections/7/paragraphs/0/en",
+      "targetPath": "/site/privacy/sections/7/paragraphs/0/es-MX",
+      "sourceTextSha256": "bc67ab63e594d7deec365d4b713a83debd7bd815c20a378d120c94fcbe6ece10",
+      "en": "The displayed version and date identify this policy. Material changes are reflected in an updated notice. Where the learner agreement is presented again, it identifies the revised documents.",
+      "es-MX": "La versión y la fecha mostradas identifican esta política. Los cambios sustanciales se reflejan en un aviso actualizado. Cuando se vuelve a presentar el acuerdo del participante, este identifica los documentos revisados."
+    },
+    {
+      "sourcePath": "/site/privacy/reviewNotice/en",
+      "targetPath": "/site/privacy/reviewNotice/es-MX",
+      "sourceTextSha256": "c8c7ae83a4781819562648669859f59c68b58314cf8013f4d494a7b93438e023",
+      "en": "Arabic translation draft — legal review pending.",
+      "es-MX": "Borrador de traducción al árabe — revisión legal pendiente."
+    }
+  ]
+}

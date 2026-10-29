@@ -1,0 +1,333 @@
+{
+  "newAssets": [
+    {
+      "id": "asset-hps-m01-opener-es-MX-20261029",
+      "kind": "video",
+      "locale": "es-MX",
+      "uri": "assets/hormones-peptides-skin/video/es-MX/m01-opener-es-MX-2cac4bc1b5d2.mp4",
+      "durationSeconds": 75.75,
+      "checksum": "sha256:2cac4bc1b5d29a6b9b0b9bebe12978cc9da5bece4fb1579264cf68cb93029260",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "render-final-films.py",
+        "promptRef": "course-production/hormones-peptides-skin/es-MX-20261029/media-manifest.json"
+      },
+      "metadata": {
+        "sourceAssetRef": "asset-hps-m01-opener",
+        "reviewStatus": "local-candidate-pending-final-review"
+      },
+      "role": "module-opener",
+      "disclosure": {
+        "es-MX": "Presentado por un avatar digital (presentador y voz generados con IA).",
+        "en": "Presented by a digital avatar (AI-generated presenter and voice)."
+      }
+    },
+    {
+      "id": "asset-hps-m01-opener-es-MX-20261029-captions",
+      "kind": "captions",
+      "locale": "es-MX",
+      "uri": "assets/hormones-peptides-skin/video/es-MX/m01-captions-es-MX-27f246415347.vtt",
+      "durationSeconds": 75.75,
+      "checksum": "sha256:27f2464153477d89f2d4445ac9d2af5eff1c8f6244836199db3c5e10837222ab",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "render-final-films.py",
+        "promptRef": "course-production/hormones-peptides-skin/es-MX-20261029/media-manifest.json"
+      },
+      "metadata": {
+        "sourceAssetRef": "asset-hps-m01-opener",
+        "reviewStatus": "local-candidate-pending-final-review"
+      }
+    },
+    {
+      "id": "asset-hps-m02-opener-es-MX-20261029",
+      "kind": "video",
+      "locale": "es-MX",
+      "uri": "assets/hormones-peptides-skin/video/es-MX/m02-opener-es-MX-5e9b540e5caf.mp4",
+      "durationSeconds": 82.541667,
+      "checksum": "sha256:5e9b540e5caf94b4b1f4acc45b9c181c4f6b6346a1e2acdf01d5f496a1fa5c7a",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "render-final-films.py",
+        "promptRef": "course-production/hormones-peptides-skin/es-MX-20261029/media-manifest.json"
+      },
+      "metadata": {
+        "sourceAssetRef": "asset-hps-m02-opener",
+        "reviewStatus": "local-candidate-pending-final-review"
+      },
+      "role": "module-opener",
+      "disclosure": {
+        "es-MX": "Presentado por un avatar digital (presentador y voz generados con IA).",
+        "en": "Presented by a digital avatar (AI-generated presenter and voice)."
+      }
+    },
+    {
+      "id": "asset-hps-m02-opener-es-MX-20261029-captions",
+      "kind": "captions",
+      "locale": "es-MX",
+      "uri": "assets/hormones-peptides-skin/video/es-MX/m02-captions-es-MX-b583d1d6fdd3.vtt",
+      "durationSeconds": 82.541667,
+      "checksum": "sha256:b583d1d6fdd341f6ef127df402e8599e4fc7fdaa54fd0d87af5aa23cce5dc1a5",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "render-final-films.py",
+        "promptRef": "course-production/hormones-peptides-skin/es-MX-20261029/media-manifest.json"
+      },
+      "metadata": {
+        "sourceAssetRef": "asset-hps-m02-opener",
+        "reviewStatus": "local-candidate-pending-final-review"
+      }
+    },
+    {
+      "id": "asset-hps-m03-opener-es-MX-20261029",
+      "kind": "video",
+      "locale": "es-MX",
+      "uri": "assets/hormones-peptides-skin/video/es-MX/m03-opener-es-MX-57904bb2dfce.mp4",
+      "durationSeconds": 87.146403,
+      "checksum": "sha256:57904bb2dfcef699496ff2a046c1ec465b617fca2f7348c85e0f7b6aaa4e61f0",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "render-final-films.py",
+        "promptRef": "course-production/hormones-peptides-skin/es-MX-20261029/media-manifest.json"
+      },
+      "metadata": {
+        "sourceAssetRef": "asset-hps-m03-opener",
+        "reviewStatus": "local-candidate-pending-final-review"
+      },
+      "role": "module-opener",
+      "disclosure": {
+        "es-MX": "Presentado por un avatar digital (presentador y voz generados con IA).",
+        "en": "Presented by a digital avatar (AI-generated presenter and voice)."
+      }
+    },
+    {
+      "id": "asset-hps-m03-opener-es-MX-20261029-captions",
+      "kind": "captions",
+      "locale": "es-MX",
+      "uri": "assets/hormones-peptides-skin/video/es-MX/m03-captions-es-MX-acb0553fef6f.vtt",
+      "durationSeconds": 87.146403,
+      "checksum": "sha256:acb0553fef6f164497e7fb0d74d411feb4f9ed62f6c4fdfc5cad02c1b9253e20",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "render-final-films.py",
+        "promptRef": "course-production/hormones-peptides-skin/es-MX-20261029/media-manifest.json"
+      },
+      "metadata": {
+        "sourceAssetRef": "asset-hps-m03-opener",
+        "reviewStatus": "local-candidate-pending-final-review"
+      }
+    },
+    {
+      "id": "asset-hps-m04-opener-es-MX-20261029",
+      "kind": "video",
+      "locale": "es-MX",
+      "uri": "assets/hormones-peptides-skin/video/es-MX/m04-opener-es-MX-3b2960987d49.mp4",
+      "durationSeconds": 75.208333,
+      "checksum": "sha256:3b2960987d497effafa3528c26c011e407d0aeea35a827ab37d5433f0e4423a9",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "render-final-films.py",
+        "promptRef": "course-production/hormones-peptides-skin/es-MX-20261029/media-manifest.json"
+      },
+      "metadata": {
+        "sourceAssetRef": "asset-hps-m04-opener",
+        "reviewStatus": "local-candidate-pending-final-review"
+      },
+      "role": "module-opener",
+      "disclosure": {
+        "es-MX": "Presentado por un avatar digital (presentador y voz generados con IA).",
+        "en": "Presented by a digital avatar (AI-generated presenter and voice)."
+      }
+    },
+    {
+      "id": "asset-hps-m04-opener-es-MX-20261029-captions",
+      "kind": "captions",
+      "locale": "es-MX",
+      "uri": "assets/hormones-peptides-skin/video/es-MX/m04-captions-es-MX-3deafd0bd49c.vtt",
+      "durationSeconds": 75.208333,
+      "checksum": "sha256:3deafd0bd49c9c9eb3f06041dba0b5a0418bb31ad1bb96d0ae41519d9b8c7a33",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "render-final-films.py",
+        "promptRef": "course-production/hormones-peptides-skin/es-MX-20261029/media-manifest.json"
+      },
+      "metadata": {
+        "sourceAssetRef": "asset-hps-m04-opener",
+        "reviewStatus": "local-candidate-pending-final-review"
+      }
+    },
+    {
+      "id": "asset-hps-m05-opener-es-MX-20261029",
+      "kind": "video",
+      "locale": "es-MX",
+      "uri": "assets/hormones-peptides-skin/video/es-MX/m05-opener-es-MX-da420ef86742.mp4",
+      "durationSeconds": 88.791667,
+      "checksum": "sha256:da420ef86742b27d7f5756987cbc8bb293bb8d00df9abf19605cf250a9481913",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "render-final-films.py",
+        "promptRef": "course-production/hormones-peptides-skin/es-MX-20261029/media-manifest.json"
+      },
+      "metadata": {
+        "sourceAssetRef": "asset-hps-m05-opener",
+        "reviewStatus": "local-candidate-pending-final-review"
+      },
+      "role": "module-opener",
+      "disclosure": {
+        "es-MX": "Presentado por un avatar digital (presentador y voz generados con IA).",
+        "en": "Presented by a digital avatar (AI-generated presenter and voice)."
+      }
+    },
+    {
+      "id": "asset-hps-m05-opener-es-MX-20261029-captions",
+      "kind": "captions",
+      "locale": "es-MX",
+      "uri": "assets/hormones-peptides-skin/video/es-MX/m05-captions-es-MX-a805c8f65905.vtt",
+      "durationSeconds": 88.791667,
+      "checksum": "sha256:a805c8f659052c142b183abb97b0c2ad424331bcde33539f291cbdf083b8948e",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "render-final-films.py",
+        "promptRef": "course-production/hormones-peptides-skin/es-MX-20261029/media-manifest.json"
+      },
+      "metadata": {
+        "sourceAssetRef": "asset-hps-m05-opener",
+        "reviewStatus": "local-candidate-pending-final-review"
+      }
+    },
+    {
+      "id": "asset-hps-m06-opener-es-MX-20261029",
+      "kind": "video",
+      "locale": "es-MX",
+      "uri": "assets/hormones-peptides-skin/video/es-MX/m06-opener-es-MX-062b6229f58f.mp4",
+      "durationSeconds": 92.958333,
+      "checksum": "sha256:062b6229f58f62c5a2851479d0b710579bc943b8c4c62a02b65a42eca14e2012",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "render-final-films.py",
+        "promptRef": "course-production/hormones-peptides-skin/es-MX-20261029/media-manifest.json"
+      },
+      "metadata": {
+        "sourceAssetRef": "asset-hps-m06-opener",
+        "reviewStatus": "local-candidate-pending-final-review"
+      },
+      "role": "module-opener",
+      "disclosure": {
+        "es-MX": "Presentado por un avatar digital (presentador y voz generados con IA).",
+        "en": "Presented by a digital avatar (AI-generated presenter and voice)."
+      }
+    },
+    {
+      "id": "asset-hps-m06-opener-es-MX-20261029-captions",
+      "kind": "captions",
+      "locale": "es-MX",
+      "uri": "assets/hormones-peptides-skin/video/es-MX/m06-captions-es-MX-7a2b07e3f20f.vtt",
+      "durationSeconds": 92.958333,
+      "checksum": "sha256:7a2b07e3f20f1181dac0d278ec9c7c5028a3c399bb316056a82ea8330cc79096",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "render-final-films.py",
+        "promptRef": "course-production/hormones-peptides-skin/es-MX-20261029/media-manifest.json"
+      },
+      "metadata": {
+        "sourceAssetRef": "asset-hps-m06-opener",
+        "reviewStatus": "local-candidate-pending-final-review"
+      }
+    },
+    {
+      "id": "asset-hps-m07-opener-es-MX-20261029",
+      "kind": "video",
+      "locale": "es-MX",
+      "uri": "assets/hormones-peptides-skin/video/es-MX/m07-opener-es-MX-da22ee49e7ec.mp4",
+      "durationSeconds": 79.041667,
+      "checksum": "sha256:da22ee49e7ec507b1849e4010a84ef2eeebfd679b1ca33a32cdd797f00d257f9",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "render-final-films.py",
+        "promptRef": "course-production/hormones-peptides-skin/es-MX-20261029/media-manifest.json"
+      },
+      "metadata": {
+        "sourceAssetRef": "asset-hps-m07-opener",
+        "reviewStatus": "local-candidate-pending-final-review"
+      },
+      "role": "module-opener",
+      "disclosure": {
+        "es-MX": "Presentado por un avatar digital (presentador y voz generados con IA).",
+        "en": "Presented by a digital avatar (AI-generated presenter and voice)."
+      }
+    },
+    {
+      "id": "asset-hps-m07-opener-es-MX-20261029-captions",
+      "kind": "captions",
+      "locale": "es-MX",
+      "uri": "assets/hormones-peptides-skin/video/es-MX/m07-captions-es-MX-13dd8ad64024.vtt",
+      "durationSeconds": 79.041667,
+      "checksum": "sha256:13dd8ad6402409c7f9a32e96aa768a42b14def880b4ff18d56d3d0eb456e68e8",
+      "approvalStatus": "draft",
+      "generator": {
+        "tool": "render-final-films.py",
+        "promptRef": "course-production/hormones-peptides-skin/es-MX-20261029/media-manifest.json"
+      },
+      "metadata": {
+        "sourceAssetRef": "asset-hps-m07-opener",
+        "reviewStatus": "local-candidate-pending-final-review"
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "block": "m1-opener",
+      "added": [
+        "asset-hps-m01-opener-es-MX-20261029",
+        "asset-hps-m01-opener-es-MX-20261029-captions"
+      ]
+    },
+    {
+      "block": "m2-opener",
+      "added": [
+        "asset-hps-m02-opener-es-MX-20261029",
+        "asset-hps-m02-opener-es-MX-20261029-captions"
+      ]
+    },
+    {
+      "block": "m3-opener",
+      "added": [
+        "asset-hps-m03-opener-es-MX-20261029",
+        "asset-hps-m03-opener-es-MX-20261029-captions"
+      ]
+    },
+    {
+      "block": "m4-opener",
+      "added": [
+        "asset-hps-m04-opener-es-MX-20261029",
+        "asset-hps-m04-opener-es-MX-20261029-captions"
+      ]
+    },
+    {
+      "block": "m5-opener",
+      "added": [
+        "asset-hps-m05-opener-es-MX-20261029",
+        "asset-hps-m05-opener-es-MX-20261029-captions"
+      ]
+    },
+    {
+      "block": "m6-opener",
+      "added": [
+        "asset-hps-m06-opener-es-MX-20261029",
+        "asset-hps-m06-opener-es-MX-20261029-captions"
+      ]
+    },
+    {
+      "block": "m7-opener",
+      "added": [
+        "asset-hps-m07-opener-es-MX-20261029",
+        "asset-hps-m07-opener-es-MX-20261029-captions"
+      ]
+    }
+  ],
+  "textOnlyCandidateRestoredExactly": true,
+  "otherSourcePackagesChanged": false,
+  "catalogChanged": false,
+  "published": false,
+  "sha256": "75192b97999e0c3981e759622ee863f29db1ebf04b6d73eb34a4f0fd9b1cc166"
+}

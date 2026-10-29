@@ -1,0 +1,626 @@
+{
+  "locale": "es-MX",
+  "status": "draft",
+  "sourcePackage": "packages/hormones-peptides-skin.ar-AE.json",
+  "sourceSha256": "a31221d366bde348bb86658cb25bb03f7f0afbe6fa237d07d32d793c32d8dc8b",
+  "sourceAcademyCommit": "d721a965c7ba22e8be1bfe41f8354c598f15da8f",
+  "scope": "Existing serving content only; retain UAE/Saudi/source-edition qualifiers. No Mexico applicability inferred.",
+  "fields": [
+    {
+      "sourcePath": "/provenance/citations/412/note/en",
+      "targetPath": "/provenance/citations/412/note/es-MX",
+      "sourceTextSha256": "e5c77e2c102cdaec7946659b226de74d24ff108e522bb2075a4c1b5a69085781",
+      "en": "Proposed Arabic-edition source-lock amendment; reviewer confirmation pending. Checked 2026-10-07.",
+      "es-MX": "Propuesta de modificación del corpus de fuentes fijado para la edición árabe; confirmación del revisor pendiente. Revisado el 2026-10-07."
+    },
+    {
+      "sourcePath": "/provenance/citations/413/note/en",
+      "targetPath": "/provenance/citations/413/note/es-MX",
+      "sourceTextSha256": "e5c77e2c102cdaec7946659b226de74d24ff108e522bb2075a4c1b5a69085781",
+      "en": "Proposed Arabic-edition source-lock amendment; reviewer confirmation pending. Checked 2026-10-07.",
+      "es-MX": "Propuesta de modificación del corpus de fuentes fijado para la edición árabe; confirmación del revisor pendiente. Revisado el 2026-10-07."
+    },
+    {
+      "sourcePath": "/provenance/citations/414/note/en",
+      "targetPath": "/provenance/citations/414/note/es-MX",
+      "sourceTextSha256": "e5c77e2c102cdaec7946659b226de74d24ff108e522bb2075a4c1b5a69085781",
+      "en": "Proposed Arabic-edition source-lock amendment; reviewer confirmation pending. Checked 2026-10-07.",
+      "es-MX": "Propuesta de modificación del corpus de fuentes fijado para la edición árabe; confirmación del revisor pendiente. Revisado el 2026-10-07."
+    },
+    {
+      "sourcePath": "/provenance/citations/415/note/en",
+      "targetPath": "/provenance/citations/415/note/es-MX",
+      "sourceTextSha256": "e5c77e2c102cdaec7946659b226de74d24ff108e522bb2075a4c1b5a69085781",
+      "en": "Proposed Arabic-edition source-lock amendment; reviewer confirmation pending. Checked 2026-10-07.",
+      "es-MX": "Propuesta de modificación del corpus de fuentes fijado para la edición árabe; confirmación del revisor pendiente. Revisado el 2026-10-07."
+    },
+    {
+      "sourcePath": "/curriculum/modules/0/units/0/metadata/localizedTutorContext/en",
+      "targetPath": "/curriculum/modules/0/units/0/metadata/localizedTutorContext/es-MX",
+      "sourceTextSha256": "8c4a70a48a91bc9bd115b34031a30caa6d864b2849b0e5c2edcacc1d20313e60",
+      "en": "Module 1 teaches cutaneous neuro-immuno-endocrine physiology with every finding labelled by evidence type (mechanism, human evidence, regulatory status, open question). The skin is described as four immuno-endocrine units (epidermal, dermal, hypodermal, adnexal) that signal locally, via sensory nerves and via the circulation (mechanism reviews, D). Skin cells express CYP11A1, 11β-HSD1, 5α-reductase and aromatase and make cortisol, DHT and estradiol locally (cell/tissue work, D); human scalp follicles run an HPA-like loop with cortisol secretion and CRH feedback ex vivo (Ito 2005) and a GH/IGF-1 loop ex vivo (Horesh 2023); keratinocyte glucocorticoids restrain skin inflammation in mice (Phan 2021); the thyroid-like loop is mostly mouse data. Three directions: local loop; body to skin (Cushing striae, hypothyroid skin); skin to body (vitamin D3 released into the circulation, established human physiology; a skin contribution to circulating sex steroids per reviews). Refer systemic patterns promptly (violaceous striae with new hypertension or diabetes, rapid virilisation), per the Aesthetic & Regenerative Endocrinology guide. The Hormone Cell Atlas (Fei, Huang-Doran et al., Science 2026) read RNA of 379 hormone/receptor genes in ~14 million cells and nuclei from 47 tissues incl. skin; its authors call the predictions putative and hypothesis-generating: RNA is not protein, secretion or clinical effect. The guide's pearl that serum 25(OH)D falls with sunscreen use is not borne out by field trials of daily moderate-SPF sunscreen (Neale 2019, C; high SPF untested); never advise dropping sun protection. Senescence: p16-positive cells rise with age in human epidermis and dermis (C) and track with wrinkles and perceived age (Waaijer 2016, n=178, association, C); the SASP was defined in cultured cells (D); an MMP-1 collagen-fragmentation loop is shown in aged human dermis plus culture (D), with senescent cells a plausible, unproven driver; clearing senescent cells extends healthy lifespan in mice (D); human senotherapy data are small biomarker pilots (Hickson 2019 open-label n=9, D; Chung 2019 topical rapamycin exploratory RCT, C); no randomized trial with clinical skin-ageing outcomes (checked Sept 2026); the guide confines senolytics to trials. Levers with human trials: daily sunscreen (Hughes 2013, n=903, B), topical tretinoin for photoageing (GRADE A), retinol in very old skin (Kafi 2007, C). Never give doses, concentrations, regimens or sourcing; adapt 'what you do next' to the learner's role (prescriber, clinical staff, advisor) without changing evidence. No CME credit is currently offered.",
+      "es-MX": "El módulo 1 enseña la fisiología neuroinmunoendocrina cutánea, con cada hallazgo identificado por tipo de evidencia (mecanismo, evidencia en humanos, situación regulatoria, pregunta abierta). La piel se describe como cuatro unidades inmunoendocrinas (epidérmica, dérmica, hipodérmica y anexial) que envían señales de forma local, a través de los nervios sensitivos y por la circulación (revisiones de mecanismos, D). Las células cutáneas expresan CYP11A1, 11β-HSD1, 5α-reductasa y aromatasa y producen cortisol, DHT y estradiol de forma local (trabajos en células/tejidos, D); los folículos del cuero cabelludo humano mantienen un circuito similar al eje HPA con secreción de cortisol y retroalimentación de CRH ex vivo (Ito 2005) y un circuito GH/IGF-1 ex vivo (Horesh 2023); los glucocorticoides de los queratinocitos limitan la inflamación cutánea en ratones (Phan 2021); los datos del circuito similar al tiroideo provienen principalmente de ratones. Tres direcciones: circuito local; del cuerpo a la piel (estrías de Cushing, piel hipotiroidea); de la piel al cuerpo (liberación de vitamina D3 a la circulación, fisiología humana establecida; una contribución cutánea a los esteroides sexuales circulantes según las revisiones). Deriva con prontitud los patrones sistémicos (estrías violáceas con hipertensión o diabetes de reciente aparición, virilización rápida), de acuerdo con la guía de Endocrinología Estética y Regenerativa. El Hormone Cell Atlas (Fei, Huang-Doran et al., Science 2026) examinó el ARN de 379 genes de hormonas/receptores en ~14 millones de células y núcleos de 47 tejidos, incluida la piel; sus autores describen las predicciones como presuntas y generadoras de hipótesis: el ARN no es proteína, secreción ni efecto clínico. La observación de la guía de que la 25(OH)D sérica disminuye con el uso de protector solar no está respaldada por ensayos de campo sobre el uso diario de protector solar con FPS moderado (Neale 2019, C; FPS alto no estudiado); nunca aconsejes abandonar la protección solar. Senescencia: las células positivas para p16 aumentan con la edad en la epidermis y la dermis humanas (C) y se relacionan con las arrugas y la edad percibida (Waaijer 2016, n=178, asociación, C); el SASP se definió en células cultivadas (D); se ha demostrado un circuito de fragmentación del colágeno mediado por MMP-1 en dermis humana envejecida y en cultivos (D), con las células senescentes como posible factor impulsor no demostrado; eliminar las células senescentes prolonga la vida saludable en ratones (D); los datos de senoterapia en humanos provienen de pequeños estudios piloto de biomarcadores (Hickson 2019, abierto, n=9, D; Chung 2019, ECA exploratorio de rapamicina tópica, C); no hay ensayos aleatorizados con desenlaces clínicos de envejecimiento cutáneo (verificado en septiembre de 2026); la guía limita los senolíticos a los ensayos. Intervenciones con ensayos en humanos: protector solar diario (Hughes 2013, n=903, B), tretinoína tópica para el fotoenvejecimiento (GRADE A), retinol en piel de edad muy avanzada (Kafi 2007, C). Nunca proporciones dosis, concentraciones, esquemas ni fuentes de adquisición; adapta «qué hacer después» a la función del participante (prescriptor, personal clínico, asesor) sin cambiar la evidencia. Actualmente no se ofrecen créditos de educación médica continua (CME)."
+    },
+    {
+      "sourcePath": "/curriculum/modules/1/units/0/blocks/15/metadata/variants/jurisdiction/SA/text/en",
+      "targetPath": "/curriculum/modules/1/units/0/blocks/15/metadata/variants/jurisdiction/SA/text/es-MX",
+      "sourceTextSha256": "7c79203349f43da85fb312c091b0f1bb33fedd21279b1df119eb1b9e117ca545",
+      "en": "Saudi context: this review has not verified the Saudi label of the exact hormone product. US indications do not establish Saudi indications; check the exact local registration and label. An indication for menopausal symptoms does not establish a skin-improvement approval.",
+      "es-MX": "Contexto de Arabia Saudita: esta revisión no ha verificado la ficha técnica saudita del producto hormonal exacto. Las indicaciones en Estados Unidos no establecen las indicaciones en Arabia Saudita; consulta el registro y la ficha técnica locales del producto exacto. Una indicación para síntomas de la menopausia no establece una aprobación para mejorar la piel."
+    },
+    {
+      "sourcePath": "/curriculum/modules/1/units/0/metadata/localizedTutorContext/en",
+      "targetPath": "/curriculum/modules/1/units/0/metadata/localizedTutorContext/es-MX",
+      "sourceTextSha256": "e2c5bde2711c120f93e6a9ac998fdfb3de18e2db9424b3bfea977949fd6b0275",
+      "en": "Module 2 separates local hormonal skin biology from systemic endocrine disease and keeps four registers apart (mechanism, human evidence, regulatory status, open question). Cortisol: skin expresses an HPA-like axis (CRH, POMC/ACTH) and regenerates cortisol via 11β-HSD1 in keratinocytes and fibroblasts; activity higher in aged and photo-exposed skin, set independently of blood levels (mechanism, D). Only human 11β-HSD1 skin RCT: 28-person pilot in type 2 diabetes, primary outcome missed, exploratory faster wound closure (C); investigational, no FDA approval, no skin-ageing trial registered (24 Sep 2026). Endocrine Society 2008: best discriminators of Cushing's = easy bruising, facial plethora, proximal myopathy, reddish-purple striae >1 cm; facial fullness, dorsocervical fat pad, weight gain, acne, hirsutism, fatigue are common/less discriminating; drug history first (incl. skin-bleaching creams, injections); endogenous incidence 2–3 per million/yr; commonest cause iatrogenic; test multiple progressive features; against widespread testing and random serum cortisol; abnormal → endocrinologist. Estrogen: ERα/ERβ/GPER in skin; topical estradiol raises collagen in sun-protected not photoaged skin (D); collagen and thickness fall ~1–2%/yr after menopause tracking years since menopause (D; the guide's '30% in 5 years' is a review figure not found in primary abstracts). Systemic HT: small RCTs raise skin thickness/collagen (C); largest RCT (n=485, 48 wk) and 4-year KEEPS found no wrinkle difference (B); guide grades B, NAMS Level II, course C for structural gains. US (Feb 2026): MHT approved for hot flashes, vulvovaginal/GSM symptoms, bone loss (some products); 2025–26 label changes removed CV/breast/dementia statements from boxed warning; skin never an indication. NAMS 2022: favourable <60 or within 10 years for symptoms/bone; compounded bioidentical HT insufficient evidence. OTC 'hormone creams' = unapproved drugs (21 CFR 310.530). Skin care with better evidence: daily sunscreen (RCT n=903, B); tretinoin cream FDA-approved adjunct for fine wrinkles. UK (checked 25 Sep 2026): HRT products are prescription-only medicines licensed for oestrogen-deficiency symptoms and, for some, osteoporosis prevention (Evorel, Sandrena SmPCs); skin is not a licensed use; compounded 'bioidentical' hormones are unlicensed medicines (MHRA GN14 puts a licensed product first); UK topical tretinoin on the medicines compendium is acne-only. Red flags → referral, never diagnosis by the aesthetic clinician: rapid hirsutism/virilization (tumour ~0.2%, >half malignant) urgent; generalised hyperpigmentation in creases/scars/mucosa with illness (adrenal insufficiency) urgent; Cushing's discriminators, MEN1 angiofibromas (88% of MEN1, not in tuberous sclerosis), Carney complex (lip/eyelid/canthal lentigines, blue naevi, myxomas; cardiac myxomas >50% of deaths), MEN2A interscapular lichen amyloidosis (RET 634) → endocrine referral. Never give doses, regimens or product sourcing; adapt 'what you do next' to prescriber, clinical staff or advisor without changing facts. No CME credit is currently offered.",
+      "es-MX": "El módulo 2 separa la biología hormonal local de la piel de la enfermedad endocrina sistémica y mantiene diferenciadas cuatro categorías (mecanismo, evidencia en humanos, situación regulatoria, pregunta abierta). Cortisol: la piel expresa un eje similar al HPA (CRH, POMC/ACTH) y regenera cortisol mediante 11β-HSD1 en queratinocitos y fibroblastos; la actividad es mayor en la piel envejecida y fotoexpuesta y se regula de forma independiente de las concentraciones sanguíneas (mecanismo, D). Único ECA cutáneo de 11β-HSD1 en humanos: estudio piloto de 28 personas con diabetes tipo 2, sin alcanzar el desenlace principal, con cierre más rápido de las heridas como hallazgo exploratorio (C); en investigación, sin aprobación de la FDA, sin ensayo de envejecimiento cutáneo registrado (24 sep 2026). Endocrine Society 2008: los mejores datos discriminatorios de Cushing = aparición fácil de equimosis, plétora facial, miopatía proximal, estrías rojo-violáceas >1 cm; la plenitud facial, la almohadilla adiposa dorsocervical, el aumento de peso, el acné, el hirsutismo y la fatiga son comunes/menos discriminatorios; primero, los antecedentes farmacológicos (incluidas cremas despigmentantes e inyecciones); incidencia endógena de 2–3 por millón/año; la causa más común es iatrogénica; realizar pruebas ante múltiples características progresivas; se desaconsejan las pruebas generalizadas y el cortisol sérico aleatorio; resultado anormal → endocrinólogo. Estrógenos: ERα/ERβ/GPER en la piel; el estradiol tópico aumenta el colágeno en la piel protegida del sol, no en la fotoenvejecida (D); el colágeno y el grosor disminuyen ~1–2%/año después de la menopausia, en relación con los años transcurridos desde ella (D; el «30% en 5 años» de la guía es una cifra de revisión que no se encontró en los resúmenes de estudios primarios). TH sistémica: pequeños ECA muestran aumentos del grosor cutáneo/colágeno (C); el ECA más grande (n=485, 48 semanas) y KEEPS de 4 años no encontraron diferencias en las arrugas (B); la guía asigna grado B, NAMS nivel II y el curso C para las mejoras estructurales. Estados Unidos (feb 2026): la THM está aprobada para bochornos, síntomas vulvovaginales/de GSM y pérdida ósea (algunos productos); los cambios de etiquetado de 2025–26 retiraron las menciones sobre enfermedad CV/cáncer de mama/demencia de la advertencia en recuadro; la piel nunca ha sido una indicación. NAMS 2022: balance favorable en menores de 60 años o dentro de los 10 años posteriores a la menopausia para síntomas/hueso; evidencia insuficiente para la TH bioidéntica de preparación magistral. Las «cremas hormonales» de venta libre = medicamentos no aprobados (21 CFR 310.530). Cuidado cutáneo con mejor evidencia: protector solar diario (ECA n=903, B); crema de tretinoína aprobada por la FDA como tratamiento complementario para arrugas finas. Reino Unido (verificado el 25 sep 2026): los productos de TRH son medicamentos sujetos a receta, autorizados para síntomas de deficiencia estrogénica y, en algunos casos, prevención de la osteoporosis (fichas técnicas de Evorel y Sandrena); la piel no es un uso autorizado; las hormonas «bioidénticas» de preparación magistral son medicamentos sin autorización (la GN14 de la MHRA da prioridad a un producto autorizado); la tretinoína tópica del compendio de medicamentos del Reino Unido solo está indicada para el acné. Signos de alarma → derivación, nunca diagnóstico por el profesional de medicina estética: hirsutismo/virilización rápidos (tumor ~0.2%, más de la mitad malignos), urgente; hiperpigmentación generalizada en pliegues/cicatrices/mucosa con enfermedad (insuficiencia suprarrenal), urgente; datos discriminatorios de Cushing, angiofibromas de MEN1 (88% de MEN1, no de esclerosis tuberosa), complejo de Carney (lentigos en labios/párpados/cantos, nevos azules, mixomas; los mixomas cardiacos representan >50% de las muertes), amiloidosis liquenoide interescapular en MEN2A (RET 634) → derivación a endocrinología. Nunca proporciones dosis, esquemas ni fuentes de adquisición de productos; adapta «qué hacer después» al prescriptor, personal clínico o asesor sin cambiar los hechos. Actualmente no se ofrecen créditos de educación médica continua (CME)."
+    },
+    {
+      "sourcePath": "/curriculum/modules/2/units/0/blocks/10/metadata/variants/jurisdiction/SA/text/en",
+      "targetPath": "/curriculum/modules/2/units/0/blocks/10/metadata/variants/jurisdiction/SA/text/es-MX",
+      "sourceTextSha256": "00944b9411cf9e45d44d932997de0779c3d6e49504baab2ca8b157900e464611",
+      "en": "Saudi product information describes weight-management or diabetes indications, depending on brand. These are not skin-rejuvenation approvals. Sudden visual symptoms require urgent ophthalmological assessment. Current Saudi product-record and label verification for Mounjaro (tirzepatide) remains open in this edition; this does not mean it is banned or unregistered.",
+      "es-MX": "La información saudita de los productos describe indicaciones para el control del peso o la diabetes, según la marca. No son aprobaciones para rejuvenecimiento cutáneo. Los síntomas visuales repentinos requieren una valoración oftalmológica urgente. En esta edición sigue pendiente la verificación del registro y la ficha técnica sauditas vigentes de Mounjaro (tirzepatida); esto no significa que esté prohibido o que no esté registrado."
+    },
+    {
+      "sourcePath": "/curriculum/modules/2/units/0/blocks/11/metadata/variants/jurisdiction/SA/text/en",
+      "targetPath": "/curriculum/modules/2/units/0/blocks/11/metadata/variants/jurisdiction/SA/text/es-MX",
+      "sourceTextSha256": "00944b9411cf9e45d44d932997de0779c3d6e49504baab2ca8b157900e464611",
+      "en": "Saudi product information describes weight-management or diabetes indications, depending on brand. These are not skin-rejuvenation approvals. Sudden visual symptoms require urgent ophthalmological assessment. Current Saudi product-record and label verification for Mounjaro (tirzepatide) remains open in this edition; this does not mean it is banned or unregistered.",
+      "es-MX": "La información saudita de los productos describe indicaciones para el control del peso o la diabetes, según la marca. No son aprobaciones para rejuvenecimiento cutáneo. Los síntomas visuales repentinos requieren una valoración oftalmológica urgente. En esta edición sigue pendiente la verificación del registro y la ficha técnica sauditas vigentes de Mounjaro (tirzepatida); esto no significa que esté prohibido o que no esté registrado."
+    },
+    {
+      "sourcePath": "/curriculum/modules/2/units/0/blocks/13/metadata/variants/jurisdiction/SA/text/en",
+      "targetPath": "/curriculum/modules/2/units/0/blocks/13/metadata/variants/jurisdiction/SA/text/es-MX",
+      "sourceTextSha256": "00944b9411cf9e45d44d932997de0779c3d6e49504baab2ca8b157900e464611",
+      "en": "Saudi product information describes weight-management or diabetes indications, depending on brand. These are not skin-rejuvenation approvals. Sudden visual symptoms require urgent ophthalmological assessment. Current Saudi product-record and label verification for Mounjaro (tirzepatide) remains open in this edition; this does not mean it is banned or unregistered.",
+      "es-MX": "La información saudita de los productos describe indicaciones para el control del peso o la diabetes, según la marca. No son aprobaciones para rejuvenecimiento cutáneo. Los síntomas visuales repentinos requieren una valoración oftalmológica urgente. En esta edición sigue pendiente la verificación del registro y la ficha técnica sauditas vigentes de Mounjaro (tirzepatida); esto no significa que esté prohibido o que no esté registrado."
+    },
+    {
+      "sourcePath": "/curriculum/modules/2/units/0/blocks/13/metadata/variants/jurisdiction/AE/text/en",
+      "targetPath": "/curriculum/modules/2/units/0/blocks/13/metadata/variants/jurisdiction/AE/text/es-MX",
+      "sourceTextSha256": "764abdf4c3adc1ad57d7314a349632c35ec1975646b5344f3b32a6a562b67965",
+      "en": "In the UAE, the Emirates Drug Establishment (EDE) announced on 1 June 2026 that it had approved oral Wegovy (semaglutide) for long-term weight management in adults with obesity, or overweight with weight-related conditions, and a Ministry of Health and Prevention alert (Circular 9217/2024, October 2024) described genuine Mounjaro as registered for type 2 diabetes and weight management. Federal Decree-Law 38/2024 bars compounding pharmacies from compounding essential copies of products that hold an EDE marketing approval unless no commercially available product can deliver the expected benefit to the patient. On 20 July 2026 the EDE warned that 1,659 packs of Mounjaro and Ozempic missing from a warehouse are outside the legitimate supply chain and told the public to buy these medicines only from licensed pharmacies.",
+      "es-MX": "En los Emiratos Árabes Unidos, Emirates Drug Establishment (EDE) anunció el 1 de junio de 2026 que había aprobado Wegovy oral (semaglutida) para el control del peso a largo plazo en adultos con obesidad, o sobrepeso con afecciones relacionadas con el peso, y una alerta del Ministerio de Salud y Prevención (Circular 9217/2024, octubre de 2024) describió el Mounjaro genuino como registrado para diabetes tipo 2 y control del peso. El Decreto-Ley Federal 38/2024 prohíbe a las farmacias de preparación magistral elaborar copias esencialmente equivalentes de productos que cuentan con autorización de comercialización de EDE, a menos que ningún producto disponible comercialmente pueda proporcionar el beneficio esperado al paciente. El 20 de julio de 2026, EDE advirtió que 1,659 envases de Mounjaro y Ozempic faltantes de un almacén se encuentran fuera de la cadena de suministro legítima e indicó al público que compre estos medicamentos únicamente en farmacias autorizadas."
+    },
+    {
+      "sourcePath": "/curriculum/modules/2/units/0/blocks/21/metadata/variants/jurisdiction/SA/text/en",
+      "targetPath": "/curriculum/modules/2/units/0/blocks/21/metadata/variants/jurisdiction/SA/text/es-MX",
+      "sourceTextSha256": "1d319f6731de69dec805c8360108d35a5430b88dc5985d46f968f32d13ce92da",
+      "en": "Saudi context: this review has not established registration of an exact BPC-157, TB-500 or injectable GHK-Cu product. This is neither permission to use it nor proof of an ingredient-specific statutory ban. SFDA action on unregistered peptides does not establish a ban on all peptide medicines.",
+      "es-MX": "Contexto de Arabia Saudita: esta revisión no ha establecido el registro de un producto exacto de BPC-157, TB-500 o GHK-Cu inyectable. Esto no constituye un permiso de uso ni demuestra una prohibición legal específica de un ingrediente. Las medidas de la SFDA sobre péptidos no registrados no establecen una prohibición de todos los medicamentos peptídicos."
+    },
+    {
+      "sourcePath": "/curriculum/modules/2/units/0/blocks/22/metadata/variants/jurisdiction/SA/text/en",
+      "targetPath": "/curriculum/modules/2/units/0/blocks/22/metadata/variants/jurisdiction/SA/text/es-MX",
+      "sourceTextSha256": "1d319f6731de69dec805c8360108d35a5430b88dc5985d46f968f32d13ce92da",
+      "en": "Saudi context: this review has not established registration of an exact BPC-157, TB-500 or injectable GHK-Cu product. This is neither permission to use it nor proof of an ingredient-specific statutory ban. SFDA action on unregistered peptides does not establish a ban on all peptide medicines.",
+      "es-MX": "Contexto de Arabia Saudita: esta revisión no ha establecido el registro de un producto exacto de BPC-157, TB-500 o GHK-Cu inyectable. Esto no constituye un permiso de uso ni demuestra una prohibición legal específica de un ingrediente. Las medidas de la SFDA sobre péptidos no registrados no establecen una prohibición de todos los medicamentos peptídicos."
+    },
+    {
+      "sourcePath": "/curriculum/modules/2/units/0/metadata/localizedTutorContext/en",
+      "targetPath": "/curriculum/modules/2/units/0/metadata/localizedTutorContext/es-MX",
+      "sourceTextSha256": "d71991dbc7329d53b8824715861e5c5f3e3dc08e7a0146ca85315f6db3612f8a",
+      "en": "Module 3 teaches metabolic and adipose influences on facial architecture in four separate registers (mechanism, human evidence, regulatory status, open question). dWAT: distinct adipocyte layer in the reticular dermis; reactive adipogenesis and cathelicidin against S. aureus and its age-related loss via TGF-β are mouse data (D); human dWAT is cone-shaped around follicles and human acne lesions contain cathelicidin-producing preadipocytes (D); its role in human skin ageing is unmeasured. Facial subcutaneous fat sits in discrete compartments (cadaver anatomy); in 186 identical-twin pairs higher BMI looked older before ~40 and younger after (C, observational). Glycation: AGEs accumulate in human skin collagen (~5-fold from 20 to 85 y, up to 2x in type 1 diabetes; skin collagen half-life ~15 y) — C; AGE cross-links and RAGE–NF-κB causing visible ageing: the Aesthetic & Regenerative Endocrinology guide rates B, the course grades D (lab/animal + associations); skin autofluorescence is a surrogate validated in non-pigmented skin; 'anti-glycation' products are tested on surrogates or appearance scores (guide grade C). Incretins: semaglutide (GLP-1 RA) and tirzepatide (GIP/GLP-1 RA). US status Sept 2026: Ozempic (T2D, 2017) and Wegovy (weight 06/2021; adolescents 12/2022; CV risk reduction 03/2024; MASH F2–F3 accelerated 08/2025); Mounjaro (T2D, 2022) and Zepbound (weight 11/2023; OSA 12/2024). Compounded, counterfeit and 'research' versions are not FDA-approved. STEP-1 −14.9% vs −2.4% (68 wk); SURMOUNT-1 −15.0 to −20.9% vs −3.1% (72 wk) — GRADE A for weight; median ~28% of weight lost is muscle-related (35 RCTs, B). Facial change ('Ozempic face'): retrospective imaging n=20, median 9% midface volume loss, mostly superficial, ~7%/10 kg (D); survey n=1,226, sagging/facial volume loss/hair loss rise with % weight lost (C); no RCT has measured the face; direct drug action on facial fat is a cell-study hypothesis. US labels list hair loss (~3–6% vs ~1% placebo, mostly women, linked to weight reduction) but not facial volume loss. Practice: counsel before treatment, photograph with consent, protect lean mass (protein, resistance training — no figures), refer restoration to a qualified aesthetic clinician; restoration advice is industry-linked expert consensus; decisions about stopping or changing the medicine belong to the prescriber and patient — never advise stopping, switching or dosing. Gut: inflammaging (IL-6/CRP predict frailty, death); metabolic endotoxaemia shown in mice and as a transient rise after a fatty meal in 12 men (D); restoring barrier function unproven for disease outside the gut; commercial zonulin ELISA detects other proteins. Probiotics for eczema: Cochrane 39 RCTs little/no patient-rated difference (B); children's meta-analysis small SCORAD gain (C). Rifaximin for rosacea with SIBO: small RCT (C). Tirzepatide + ixekizumab psoriasis: open-label Lilly phase 3b (C); liraglutide 20-person RCT negative (C); tirzepatide not approved for psoriasis in the US. Fibre: strong cardiometabolic evidence (guide grade A; review certainty moderate), no skin trials. Akkermansia pilot RCT metabolic only (C). 'Leaky gut' repair stack incl. BPC-157: guide grade D; BPC-157 not on the 503A bulks list (Sept 2026). Adapt the 'what you do next' to the learner's role (prescriber, clinical staff, advisor) without changing grades or regulatory facts. UK (checked 25 Sep 2026): Ozempic licensed for T2D; Wegovy for weight management and CV risk reduction; Mounjaro for T2D and weight management under one brand (weight added 8 Nov 2023); UK SmPCs list hair loss (Wegovy 2.5%, Mounjaro 4.9% vs 1.0%); psoriasis not a UK tirzepatide indication; MHRA: retatrutide not authorised, illegal to sell (24 Jul 2026); largest seizure of unlicensed weight-loss medicines 28 May 2026; unlicensed 'specials' only for one patient's special clinical need, on the prescriber's responsibility (MHRA GN14). No CME credit is currently offered.",
+      "es-MX": "El módulo 3 enseña las influencias metabólicas y del tejido adiposo sobre la arquitectura facial en cuatro categorías separadas (mecanismo, evidencia en humanos, situación regulatoria, pregunta abierta). dWAT: capa diferenciada de adipocitos en la dermis reticular; la adipogénesis reactiva y la catelicidina contra S. aureus, así como su pérdida relacionada con la edad mediada por TGF-β, son datos de ratones (D); el dWAT humano tiene forma de cono alrededor de los folículos y las lesiones de acné humano contienen preadipocitos productores de catelicidina (D); no se ha medido su función en el envejecimiento cutáneo humano. La grasa subcutánea facial se distribuye en compartimentos definidos (anatomía de cadáveres); en 186 pares de gemelos idénticos, un IMC más alto se asociaba con apariencia de mayor edad antes de los ~40 años y de menor edad después (C, observacional). Glicación: los AGE se acumulan en el colágeno cutáneo humano (~5 veces entre los 20 y los 85 años, hasta 2x en diabetes tipo 1; vida media del colágeno cutáneo ~15 años) — C; enlaces cruzados por AGE y RAGE–NF-κB como causa de envejecimiento visible: la guía de Endocrinología Estética y Regenerativa asigna B y el curso D (laboratorio/animales + asociaciones); la autofluorescencia cutánea es un marcador sustituto validado en piel no pigmentada; los productos «antiglicación» se estudian mediante marcadores sustitutos o puntuaciones de apariencia (grado C de la guía). Incretinas: semaglutida (AR de GLP-1) y tirzepatida (AR de GIP/GLP-1). Situación en Estados Unidos en sep 2026: Ozempic (DM2, 2017) y Wegovy (peso 06/2021; adolescentes 12/2022; reducción del riesgo CV 03/2024; aprobación acelerada para MASH F2–F3 08/2025); Mounjaro (DM2, 2022) y Zepbound (peso 11/2023; AOS 12/2024). Las versiones de preparación magistral, falsificadas y «para investigación» no están aprobadas por la FDA. STEP-1 −14.9% frente a −2.4% (68 semanas); SURMOUNT-1 −15.0 a −20.9% frente a −3.1% (72 semanas) — GRADE A para el peso; la mediana de la proporción de peso perdido relacionada con músculo es ~28% (35 ECA, B). Cambio facial («cara de Ozempic»): imágenes retrospectivas, n=20, mediana de pérdida de volumen del tercio medio facial de 9%, principalmente superficial, ~7%/10 kg (D); encuesta n=1,226, la flacidez/pérdida de volumen facial/caída del cabello aumentan con el % de peso perdido (C); ningún ECA ha medido la cara; la acción directa del medicamento sobre la grasa facial es una hipótesis de estudios celulares. Las etiquetas estadounidenses incluyen caída del cabello (~3–6% frente a ~1% con placebo, principalmente en mujeres, vinculada con la reducción de peso), pero no pérdida de volumen facial. Práctica: orientar antes del tratamiento, tomar fotografías con consentimiento, proteger la masa magra (proteína, entrenamiento de fuerza, sin cifras), derivar la restauración a un profesional de medicina estética calificado; los consejos de restauración provienen de un consenso de expertos vinculado con la industria; las decisiones de suspender o cambiar el medicamento corresponden al prescriptor y al paciente: nunca aconsejes suspenderlo, cambiarlo ni indicar dosis. Intestino: inflamación asociada al envejecimiento (IL-6/PCR predicen fragilidad y muerte); la endotoxemia metabólica se ha demostrado en ratones y como un aumento transitorio después de una comida grasa en 12 hombres (D); no se ha demostrado que restaurar la función de barrera trate enfermedades fuera del intestino; el ELISA comercial de zonulina detecta otras proteínas. Probióticos para el eccema: Cochrane, 39 ECA, poca o ninguna diferencia evaluada por los pacientes (B); metaanálisis en niños, pequeña mejoría en SCORAD (C). Rifaximina para rosácea con SIBO: ECA pequeño (C). Tirzepatida + ixekizumab para psoriasis: estudio abierto de fase 3b de Lilly (C); ECA de liraglutida en 20 personas negativo (C); la tirzepatida no está aprobada para la psoriasis en Estados Unidos. Fibra: evidencia cardiometabólica sólida (grado A de la guía; certeza moderada en la revisión), sin ensayos cutáneos. ECA piloto de Akkermansia, solo metabólico (C). Combinación para reparar el «intestino permeable», incluido BPC-157: grado D de la guía; BPC-157 no figura en la lista de sustancias a granel de la sección 503A (sep 2026). Adapta «qué hacer después» a la función del participante (prescriptor, personal clínico, asesor) sin cambiar los grados ni los hechos regulatorios. Reino Unido (verificado el 25 sep 2026): Ozempic autorizado para DM2; Wegovy para el control del peso y la reducción del riesgo CV; Mounjaro para DM2 y control del peso bajo una misma marca (peso añadido el 8 nov 2023); las fichas técnicas británicas incluyen caída del cabello (Wegovy 2.5%, Mounjaro 4.9% frente a 1.0%); la psoriasis no es una indicación británica de tirzepatida; MHRA: la retatrutida no está autorizada y su venta es ilegal (24 jul 2026); mayor incautación de medicamentos no autorizados para bajar de peso el 28 may 2026; los medicamentos especiales sin autorización («specials») solo se destinan a la necesidad clínica especial de un paciente, bajo responsabilidad del prescriptor (GN14 de la MHRA). Actualmente no se ofrecen créditos de educación médica continua (CME)."
+    },
+    {
+      "sourcePath": "/curriculum/modules/3/units/0/blocks/5/metadata/variants/jurisdiction/SA/text/en",
+      "targetPath": "/curriculum/modules/3/units/0/blocks/5/metadata/variants/jurisdiction/SA/text/es-MX",
+      "sourceTextSha256": "aab74f808daa607adcd0ed32c7401230719400db8101ad695a6c34fb541a9628",
+      "en": "Saudi context: distinguish a topical GHK-Cu cosmetic from an injectable product. This review has not verified the local status of an exact product in either category. An FDA classification does not establish Saudi permission. Check product category, route, claims and the SFDA record.",
+      "es-MX": "Contexto de Arabia Saudita: distingue un cosmético tópico de GHK-Cu de un producto inyectable. Esta revisión no ha verificado la situación local de un producto exacto en ninguna de las dos categorías. Una clasificación de la FDA no establece un permiso en Arabia Saudita. Consulta la categoría del producto, la vía, las afirmaciones y el registro de la SFDA."
+    },
+    {
+      "sourcePath": "/curriculum/modules/3/units/0/blocks/7/metadata/variants/jurisdiction/SA/text/en",
+      "targetPath": "/curriculum/modules/3/units/0/blocks/7/metadata/variants/jurisdiction/SA/text/es-MX",
+      "sourceTextSha256": "aab74f808daa607adcd0ed32c7401230719400db8101ad695a6c34fb541a9628",
+      "en": "Saudi context: distinguish a topical GHK-Cu cosmetic from an injectable product. This review has not verified the local status of an exact product in either category. An FDA classification does not establish Saudi permission. Check product category, route, claims and the SFDA record.",
+      "es-MX": "Contexto de Arabia Saudita: distingue un cosmético tópico de GHK-Cu de un producto inyectable. Esta revisión no ha verificado la situación local de un producto exacto en ninguna de las dos categorías. Una clasificación de la FDA no establece un permiso en Arabia Saudita. Consulta la categoría del producto, la vía, las afirmaciones y el registro de la SFDA."
+    },
+    {
+      "sourcePath": "/curriculum/modules/3/units/0/blocks/13/metadata/variants/jurisdiction/SA/text/en",
+      "targetPath": "/curriculum/modules/3/units/0/blocks/13/metadata/variants/jurisdiction/SA/text/es-MX",
+      "sourceTextSha256": "703253bc37240e73f8b6cb14284267037bb122ebfb9dd28e9e961432e9c1a7f2",
+      "en": "Saudi context: check each cosmetic or collagen supplement’s category, record and claims separately. Listing a topical product does not establish permission to inject the same ingredient; registering a supplement does not establish efficacy for treating skin disease. Exact commercial-product verification remains incomplete.",
+      "es-MX": "Contexto de Arabia Saudita: verifica por separado la categoría, el registro y las afirmaciones de cada cosmético o suplemento de colágeno. La inclusión de un producto tópico en un listado no establece un permiso para inyectar el mismo ingrediente; el registro de un suplemento no establece su eficacia para tratar una enfermedad cutánea. Sigue incompleta la verificación de los productos comerciales exactos."
+    },
+    {
+      "sourcePath": "/curriculum/modules/3/units/0/blocks/20/metadata/variants/jurisdiction/SA/text/en",
+      "targetPath": "/curriculum/modules/3/units/0/blocks/20/metadata/variants/jurisdiction/SA/text/es-MX",
+      "sourceTextSha256": "1d319f6731de69dec805c8360108d35a5430b88dc5985d46f968f32d13ce92da",
+      "en": "Saudi context: this review has not established registration of an exact BPC-157, TB-500 or injectable GHK-Cu product. This is neither permission to use it nor proof of an ingredient-specific statutory ban. SFDA action on unregistered peptides does not establish a ban on all peptide medicines.",
+      "es-MX": "Contexto de Arabia Saudita: esta revisión no ha establecido el registro de un producto exacto de BPC-157, TB-500 o GHK-Cu inyectable. Esto no constituye un permiso de uso ni demuestra una prohibición legal específica de un ingrediente. Las medidas de la SFDA sobre péptidos no registrados no establecen una prohibición de todos los medicamentos peptídicos."
+    },
+    {
+      "sourcePath": "/curriculum/modules/3/units/0/blocks/22/metadata/variants/jurisdiction/SA/text/en",
+      "targetPath": "/curriculum/modules/3/units/0/blocks/22/metadata/variants/jurisdiction/SA/text/es-MX",
+      "sourceTextSha256": "1d319f6731de69dec805c8360108d35a5430b88dc5985d46f968f32d13ce92da",
+      "en": "Saudi context: this review has not established registration of an exact BPC-157, TB-500 or injectable GHK-Cu product. This is neither permission to use it nor proof of an ingredient-specific statutory ban. SFDA action on unregistered peptides does not establish a ban on all peptide medicines.",
+      "es-MX": "Contexto de Arabia Saudita: esta revisión no ha establecido el registro de un producto exacto de BPC-157, TB-500 o GHK-Cu inyectable. Esto no constituye un permiso de uso ni demuestra una prohibición legal específica de un ingrediente. Las medidas de la SFDA sobre péptidos no registrados no establecen una prohibición de todos los medicamentos peptídicos."
+    },
+    {
+      "sourcePath": "/curriculum/modules/3/units/0/metadata/localizedTutorContext/en",
+      "targetPath": "/curriculum/modules/3/units/0/metadata/localizedTutorContext/es-MX",
+      "sourceTextSha256": "7cf1f61576da879d0babffa0d10cab4fb2301645c7a5ffa2b75d25836cc44193",
+      "en": "Module 4 teaches evidence appraisal of skin peptides in four separate registers (mechanism, human evidence, regulatory status, open question). Topical GHK-Cu: plausible copper-enzyme mechanism from originator reviews; one indexed RCT (Miller 2006, post-laser healing) plus sponsor-run cosmetic trials; GRADE C; injectable use has no RCTs and commonly irritates; US 503A Category 1 for non-injectable routes only (FDA list 14 May 2026; PCAC consultation planned by end Feb 2027). pal-KTTKS and Argireline: C (sponsor RCTs plus independent Aruan 2023); Matrixyl 3000, SNAP-8, Leuphasyl: D (no randomized trial; manufacturer data, plus one small uncontrolled university volunteer study for Leuphasyl). Oral collagen: pooled RCTs positive but Myung 2025 finds no effect in unfunded or high-quality trials; dietary supplement in the US. BPC-157: rodent + case series, no published human efficacy RCT (Sept 2026); TB-500 is the Tβ4 17-23 fragment, never trialled; KPV mouse colitis only; LL-37 small positive RCT then negative phase IIb. PCAC reviewed BPC-157/KPV/TB-500 in July 2026 — advisory only; not on the 503A bulks list. UK (checked 25 Sep 2026): peptide serums are cosmetics under the assimilated Cosmetics Regulation 1223/2009 (responsible person, safety assessment, OPSS notification, substantiated claims; anything injected is outside cosmetics law; ASA 13 May 2026 upheld a complaint against a peptide serum's 'clinically proven' lift claim); oral collagen is a food supplement (no disease claims; only authorised GB health claims); a medicine without a UK marketing authorisation may not be sold, supplied or advertised (HMR 2012 regs 46, 279); unlicensed 'specials' only for one patient's special need (MHRA GN14). Never give doses, stacks, reconstitution or sourcing advice; name the route and the grade; route injected or research-use-only products to a prescriber; adapt the 'what you do next' to the learner's role (prescriber, clinical staff, advisor) without changing grades or regulatory facts. No CME credit is currently offered.",
+      "es-MX": "El módulo 4 enseña la evaluación crítica de la evidencia sobre péptidos cutáneos en cuatro categorías separadas (mecanismo, evidencia en humanos, situación regulatoria, pregunta abierta). GHK-Cu tópico: mecanismo plausible de enzimas dependientes de cobre según revisiones de sus desarrolladores; un ECA indexado (Miller 2006, cicatrización posterior al láser) más ensayos cosméticos realizados por patrocinadores; GRADE C; el uso inyectable no cuenta con ECA y suele causar irritación; categoría 1 de la sección 503A estadounidense solo para vías no inyectables (lista de la FDA del 14 may 2026; consulta del PCAC prevista a más tardar para finales de feb 2027). pal-KTTKS y Argireline: C (ECA de patrocinadores más el independiente de Aruan 2023); Matrixyl 3000, SNAP-8 y Leuphasyl: D (sin ensayo aleatorizado; datos del fabricante, más un pequeño estudio universitario no controlado en voluntarios para Leuphasyl). Colágeno oral: ECA agrupados positivos, pero Myung 2025 no encuentra efecto en ensayos sin financiamiento o de alta calidad; suplemento alimenticio en Estados Unidos. BPC-157: roedores + series de casos, sin ECA de eficacia en humanos publicado (sep 2026); TB-500 es el fragmento 17-23 de Tβ4, nunca estudiado en un ensayo; KPV, solo colitis en ratones; LL-37, ECA pequeño positivo seguido de fase IIb negativa. El PCAC revisó BPC-157/KPV/TB-500 en julio de 2026, con carácter únicamente consultivo; no figuran en la lista de sustancias a granel de la sección 503A. Reino Unido (verificado el 25 sep 2026): los sueros con péptidos son cosméticos conforme al Reglamento de Cosméticos 1223/2009 incorporado al derecho británico (persona responsable, evaluación de seguridad, notificación a OPSS, afirmaciones sustentadas; cualquier producto inyectado queda fuera de la legislación cosmética; el 13 may 2026, ASA estimó una queja contra la afirmación de efecto tensor «clínicamente probado» de un suero con péptidos); el colágeno oral es un complemento alimenticio (sin afirmaciones sobre enfermedades; solo afirmaciones de salud autorizadas en Gran Bretaña); un medicamento sin autorización de comercialización británica no puede venderse, suministrarse ni anunciarse (HMR 2012, disposiciones 46, 279); los medicamentos especiales sin autorización («specials») se limitan a la necesidad especial de un paciente (GN14 de la MHRA). Nunca proporciones dosis, combinaciones, consejos de reconstitución ni de adquisición; especifica la vía y el grado; remite los productos inyectados o de uso exclusivo en investigación a un prescriptor; adapta «qué hacer después» a la función del participante (prescriptor, personal clínico, asesor) sin cambiar los grados ni los hechos regulatorios. Actualmente no se ofrecen créditos de educación médica continua (CME)."
+    },
+    {
+      "sourcePath": "/curriculum/modules/4/units/0/blocks/4/metadata/variants/jurisdiction/SA/text/en",
+      "targetPath": "/curriculum/modules/4/units/0/blocks/4/metadata/variants/jurisdiction/SA/text/es-MX",
+      "sourceTextSha256": "6d53623bef1b49a9e54dc77ecf7dc45c776fd277ee2a79d8c3384b9ad7d2baab",
+      "en": "Saudi context: baricitinib (Olumiant) is a specific medicine; its current Saudi alopecia indication was not verified here. Approval for another indication or in another country is insufficient.",
+      "es-MX": "Contexto de Arabia Saudita: baricitinib (Olumiant) es un medicamento específico; aquí no se verificó su indicación saudita vigente para alopecia. La aprobación para otra indicación o en otro país es insuficiente."
+    },
+    {
+      "sourcePath": "/curriculum/modules/4/units/0/blocks/6/metadata/variants/jurisdiction/SA/text/en",
+      "targetPath": "/curriculum/modules/4/units/0/blocks/6/metadata/variants/jurisdiction/SA/text/es-MX",
+      "sourceTextSha256": "60df5b647e9cf9ffb8b3f82be4bbc34b0fc41e02a02872657d6cc7f2f9e80557",
+      "en": "Saudi context: separately verify the product, strength, route and indication for minoxidil and finasteride, and the local status of any thymulin or PTD-DBM preparation. These checks remain incomplete; clinical evidence or foreign authorization does not automatically establish local permission.",
+      "es-MX": "Contexto de Arabia Saudita: verifica por separado el producto, la concentración, la vía y la indicación de minoxidil y finasterida, así como la situación local de cualquier preparación de timulina o PTD-DBM. Estas verificaciones siguen incompletas; la evidencia clínica o una autorización extranjera no establecen automáticamente un permiso local."
+    },
+    {
+      "sourcePath": "/curriculum/modules/4/units/0/blocks/10/metadata/variants/jurisdiction/SA/text/en",
+      "targetPath": "/curriculum/modules/4/units/0/blocks/10/metadata/variants/jurisdiction/SA/text/es-MX",
+      "sourceTextSha256": "65121d2da976963ecad11de5df0b5bb8c8faf50c5142f992d7df5e71fe8fecff",
+      "en": "Saudi context: do not conflate afamelanotide (Scenesse) with Melanotan II. Saudi registration or a specific access pathway for Scenesse has not been verified here; foreign approval does not establish its local status.",
+      "es-MX": "Contexto de Arabia Saudita: no confundas afamelanotida (Scenesse) con Melanotan II. Aquí no se ha verificado el registro saudita de Scenesse ni una vía específica de acceso; una aprobación extranjera no establece su situación local."
+    },
+    {
+      "sourcePath": "/curriculum/modules/4/units/0/blocks/15/metadata/variants/jurisdiction/SA/text/en",
+      "targetPath": "/curriculum/modules/4/units/0/blocks/15/metadata/variants/jurisdiction/SA/text/es-MX",
+      "sourceTextSha256": "01c864129d051508b066e18851cb166955e9bb84cedda6af35824074a9b5727b",
+      "en": "Saudi context: registration of an exact Melanotan II product has not been verified. Do not present it as a permitted tanning option or infer permission from afamelanotide’s approval elsewhere. Do not turn the SFDA unregistered-peptide warning into an undocumented ingredient-specific statutory ban.",
+      "es-MX": "Contexto de Arabia Saudita: no se ha verificado el registro de un producto exacto de Melanotan II. No lo presentes como una opción permitida para broncearse ni infieras un permiso a partir de la aprobación de afamelanotida en otro lugar. No conviertas la advertencia de la SFDA sobre péptidos no registrados en una prohibición legal específica de un ingrediente que no esté documentada."
+    },
+    {
+      "sourcePath": "/curriculum/modules/4/units/0/blocks/21/metadata/variants/jurisdiction/SA/text/en",
+      "targetPath": "/curriculum/modules/4/units/0/blocks/21/metadata/variants/jurisdiction/SA/text/es-MX",
+      "sourceTextSha256": "60df5b647e9cf9ffb8b3f82be4bbc34b0fc41e02a02872657d6cc7f2f9e80557",
+      "en": "Saudi context: separately verify the product, strength, route and indication for minoxidil and finasteride, and the local status of any thymulin or PTD-DBM preparation. These checks remain incomplete; clinical evidence or foreign authorization does not automatically establish local permission.",
+      "es-MX": "Contexto de Arabia Saudita: verifica por separado el producto, la concentración, la vía y la indicación de minoxidil y finasterida, así como la situación local de cualquier preparación de timulina o PTD-DBM. Estas verificaciones siguen incompletas; la evidencia clínica o una autorización extranjera no establecen automáticamente un permiso local."
+    },
+    {
+      "sourcePath": "/curriculum/modules/4/units/0/metadata/localizedTutorContext/en",
+      "targetPath": "/curriculum/modules/4/units/0/metadata/localizedTutorContext/es-MX",
+      "sourceTextSha256": "b51896b3a63bb483c3207ebf9e484c9e7e2ba2b03179c82abcad3e0708d6d398",
+      "en": "Module 5 teaches the hair follicle and the melanocortin system in four separate registers (mechanism, human evidence, regulatory status, open question). Follicle: ex vivo human scalp follicles run an HPA-like loop (CRH → POMC products → cortisol, with feedback) and a GH/IGF-1-like loop (D, organ culture, Paus group); local DHT miniaturises susceptible follicles (androgenetic alopecia); anagen immune-privilege collapse underlies alopecia areata. Baricitinib: BRAVE-AA1/AA2, 1,200 adults, SALT ≤20 at week 36 in up to 39% on baricitinib vs 3–6% on placebo; FDA-approved 13 Jun 2022 for adults with severe alopecia areata (A). A&RE hair-loss workup: patterned → AGA (topical minoxidil; finasteride in men); diffuse after trigger → telogen effluvium (reassure, ferritin, TSH); patchy smooth ± nail pitting → alopecia areata (dermatology referral, thyroid/autoimmune screen); androgen excess → work-up; ferritin + TSH always; scarring → biopsy; refer severe or rapid AA promptly. Minoxidil (men and women) and finasteride (men): A by RCT meta-analysis (Adil 2017); US: topical minoxidil OTC (approved 1988), finasteride Rx (1997). Melanocortins: skin makes POMC → ACTH, α-MSH, β-endorphin; MC1R pigment, MC2R adrenal, MC3R/MC4R brain (appetite; central sexual effects), MC5R sebum. Afamelanotide: MC1R agonist; two sponsor-funded phase 3 RCTs in EPP (US median 69.4 vs 40.8 pain-free sunlight hours; EU 6.0 vs 0.8); EU authorised 22 Dec 2014 (exceptional circumstances), US 2019; EPP only, manufacturer's implant; US label (Aug 2024) recommends full-body skin examination twice yearly; A for EPP; vitiligo phase 3 has no posted results. Melanotan II: non-selective MC1R/3R/4R/5R agonist, brain-penetrant; only controlled data a 3-man 1996 pilot and a 10-man 1998 ED crossover; guides disagree (Pocket Guide C, A&RE D) — course grades cosmetic use D; case-report harms: darkening/growing and eruptive atypical naevi, melanonychia, ≥5 melanomas all with other risk factors (causation unproven), ischaemic priapism, sympathomimetic toxicity with rhabdomyolysis, PRES; online vials held 43–88% of the label with impurities. Status: approved for no indication; US FDA compounding page (22 Apr 2026) lists it among withdrawn category-2 nominations with safety risks; UK MHRA (17 Apr 2024) injectables are unauthorised medicines, stop immediately; Australia TGA (17 Aug 2026) prescription-only, no ARTG product, not approved for tanning. A&RE: personal or family history of melanoma = absolute contraindication. A patient disclosing use: stop, record product and seller, full skin and nail examination with dermoscopy/baseline photos where available, prompt dermatology referral; never offer afamelanotide as a substitute. PTD-DBM: CXXC5–Dishevelled decoy activating Wnt; one 2017 mouse/tissue study from the developer's group; no human trial published or registered (Sept 2026); D; theoretical off-target Wnt cancer concern untested. Zinc thymulin: zinc-dependent thymic nonapeptide; no indexed human hair study; D. US (14 May 2026): thymulin acetate 503A Category 3; PTD-DBM on no list; neither on the bulks list (21 CFR 216.23). UK (checked 25 Sep 2026): baricitinib licensed for severe AA (NICE TA926 not recommended, Oct 2023); men's minoxidil foam on the General Sales List; finasteride for hair loss private prescription only, MHRA strengthened depression/suicidality/sexual-dysfunction warnings 11 May 2026 (patient card; ask about depression); afamelanotide licensed under exceptional circumstances, specialist porphyria centres, NICE HST27 not recommended (Jul 2023); Melanotan II an unauthorised medicine (MHRA FOI 24/274); a peptide spray made for one patient = unlicensed special, behind any licensed option (MHRA GN14). Never give doses, regimens, reconstitution, sourcing or administration advice; adapt the 'what you do next' to the learner's role (prescriber, clinical staff, advisor) without changing grades or regulatory facts. No CME credit is currently offered.",
+      "es-MX": "El módulo 5 enseña el folículo piloso y el sistema de melanocortinas en cuatro categorías separadas (mecanismo, evidencia en humanos, situación regulatoria, pregunta abierta). Folículo: los folículos del cuero cabelludo humano ex vivo mantienen un circuito similar al HPA (CRH → productos de POMC → cortisol, con retroalimentación) y un circuito similar al de GH/IGF-1 (D, cultivo de órganos, grupo de Paus); la DHT local miniaturiza los folículos susceptibles (alopecia androgenética); el colapso del privilegio inmunitario en anágeno es un mecanismo subyacente de la alopecia areata. Baricitinib: BRAVE-AA1/AA2, 1,200 adultos, SALT ≤20 en la semana 36 hasta en 39% con baricitinib frente a 3–6% con placebo; aprobado por la FDA el 13 jun 2022 para adultos con alopecia areata grave (A). Evaluación de la caída del cabello de A&RE: con patrón → AGA (minoxidil tópico; finasterida en hombres); difusa después de un desencadenante → efluvio telógeno (tranquilizar, ferritina, TSH); placas lisas ± piqueteado ungueal → alopecia areata (derivación a dermatología, evaluación tiroidea/autoinmunitaria); exceso androgénico → evaluación; ferritina + TSH siempre; cicatricial → biopsia; derivar con prontitud la AA grave o de evolución rápida. Minoxidil (hombres y mujeres) y finasterida (hombres): A según metaanálisis de ECA (Adil 2017); Estados Unidos: minoxidil tópico de venta libre (aprobado en 1988), finasterida con receta (1997). Melanocortinas: la piel produce POMC → ACTH, α-MSH, β-endorfina; MC1R, pigmento; MC2R, suprarrenal; MC3R/MC4R, cerebro (apetito; efectos sexuales centrales); MC5R, sebo. Afamelanotida: agonista de MC1R; dos ECA de fase 3 financiados por el patrocinador en EPP (Estados Unidos, mediana de 69.4 frente a 40.8 horas de exposición solar sin dolor; UE, 6.0 frente a 0.8); autorizada en la UE el 22 dic 2014 (circunstancias excepcionales), Estados Unidos en 2019; solo EPP, implante del fabricante; la etiqueta estadounidense (ago 2024) recomienda examen cutáneo de cuerpo completo dos veces al año; A para EPP; la fase 3 en vitiligo no tiene resultados publicados. Melanotan II: agonista no selectivo de MC1R/3R/4R/5R que penetra en el cerebro; los únicos datos controlados son un estudio piloto de 1996 en 3 hombres y un estudio cruzado de disfunción eréctil de 1998 en 10 hombres; las guías discrepan (Guía de Bolsillo C, A&RE D), y el curso asigna D al uso cosmético; daños descritos en reportes de casos: oscurecimiento/crecimiento y aparición eruptiva de nevos atípicos, melanoniquia, ≥5 melanomas, todos con otros factores de riesgo (causalidad no demostrada), priapismo isquémico, toxicidad simpaticomimética con rabdomiólisis, PRES; los viales vendidos en línea contenían 43–88% de lo declarado en la etiqueta, con impurezas. Situación: no está aprobado para ninguna indicación; la página de preparaciones magistrales de la FDA estadounidense (22 abr 2026) lo incluye entre las nominaciones retiradas de la categoría 2 con riesgos de seguridad; MHRA del Reino Unido (17 abr 2024): los inyectables son medicamentos no autorizados, suspender de inmediato; TGA de Australia (17 ago 2026): sujeto a receta, sin producto en ARTG, no aprobado para bronceado. A&RE: antecedentes personales o familiares de melanoma = contraindicación absoluta. Ante un paciente que revela su uso: suspender, registrar el producto y el vendedor, examen completo de piel y uñas con dermatoscopia/fotografías iniciales cuando estén disponibles, derivación pronta a dermatología; nunca ofrecer afamelanotida como sustituto. PTD-DBM: señuelo de CXXC5–Dishevelled que activa Wnt; un estudio de 2017 en ratones/tejidos del grupo desarrollador; sin ensayo en humanos publicado o registrado (sep 2026); D; preocupación teórica por cáncer debido a efectos de Wnt fuera del objetivo, no estudiada. Timulina de zinc: nonapéptido tímico dependiente de zinc; sin estudio capilar humano indexado; D. Estados Unidos (14 may 2026): acetato de timulina en categoría 3 de la sección 503A; PTD-DBM no está en ninguna lista; ninguno figura en la lista de sustancias a granel (21 CFR 216.23). Reino Unido (verificado el 25 sep 2026): baricitinib autorizado para AA grave (NICE TA926 no lo recomienda, oct 2023); espuma de minoxidil para hombres en la Lista de Venta General; finasterida para caída del cabello solo con receta privada, la MHRA reforzó las advertencias sobre depresión/suicidalidad/disfunción sexual el 11 may 2026 (tarjeta del paciente; preguntar por depresión); afamelanotida autorizada en circunstancias excepcionales, centros especializados en porfirias, NICE HST27 no la recomienda (jul 2023); Melanotan II es un medicamento no autorizado (MHRA FOI 24/274); un aerosol de péptidos preparado para un paciente = medicamento especial sin autorización, después de cualquier opción autorizada (GN14 de la MHRA). Nunca proporciones dosis, esquemas, reconstitución, fuentes de adquisición ni consejos de administración; adapta «qué hacer después» a la función del participante (prescriptor, personal clínico, asesor) sin cambiar los grados ni los hechos regulatorios. Actualmente no se ofrecen créditos de educación médica continua (CME)."
+    },
+    {
+      "sourcePath": "/curriculum/modules/5/units/0/blocks/6/metadata/variants/jurisdiction/SA/text/en",
+      "targetPath": "/curriculum/modules/5/units/0/blocks/6/metadata/variants/jurisdiction/SA/text/es-MX",
+      "sourceTextSha256": "84579f9b52d945a1207fc07794b5e50145d0102652e945e39469cd2a5752d6f0",
+      "en": "Saudi context: verify the exact somatropin product, Saudi label and prescribing scope; this review has not completed those checks. A growth-hormone-deficiency indication or foreign authorization does not establish an anti-ageing or skin indication.",
+      "es-MX": "Contexto de Arabia Saudita: verifica el producto exacto de somatropina, la ficha técnica saudita y el alcance de la facultad para prescribir; esta revisión no ha completado esas verificaciones. Una indicación para deficiencia de hormona de crecimiento o una autorización extranjera no establecen una indicación antienvejecimiento ni cutánea."
+    },
+    {
+      "sourcePath": "/curriculum/modules/5/units/0/blocks/10/metadata/variants/jurisdiction/SA/text/en",
+      "targetPath": "/curriculum/modules/5/units/0/blocks/10/metadata/variants/jurisdiction/SA/text/es-MX",
+      "sourceTextSha256": "79a136a0c498f82c9630861f0b000c106178dd5f2ae7c14abe7b99b96a569f51",
+      "en": "Saudi context: assess exact products, indications and routes separately for tesamorelin, sermorelin, ipamorelin, CJC-1295 and ibutamoren. This review has not established Saudi registration for exact products; US compounding lists or overseas use do not establish permission.",
+      "es-MX": "Contexto de Arabia Saudita: evalúa por separado los productos, las indicaciones y las vías exactos de tesamorelina, sermorelina, ipamorelina, CJC-1295 e ibutamoreno. Esta revisión no ha establecido el registro saudita de productos exactos; las listas estadounidenses de preparación magistral o el uso en el extranjero no establecen un permiso."
+    },
+    {
+      "sourcePath": "/curriculum/modules/5/units/0/blocks/14/metadata/variants/jurisdiction/SA/text/en",
+      "targetPath": "/curriculum/modules/5/units/0/blocks/14/metadata/variants/jurisdiction/SA/text/es-MX",
+      "sourceTextSha256": "79a136a0c498f82c9630861f0b000c106178dd5f2ae7c14abe7b99b96a569f51",
+      "en": "Saudi context: assess exact products, indications and routes separately for tesamorelin, sermorelin, ipamorelin, CJC-1295 and ibutamoren. This review has not established Saudi registration for exact products; US compounding lists or overseas use do not establish permission.",
+      "es-MX": "Contexto de Arabia Saudita: evalúa por separado los productos, las indicaciones y las vías exactos de tesamorelina, sermorelina, ipamorelina, CJC-1295 e ibutamoreno. Esta revisión no ha establecido el registro saudita de productos exactos; las listas estadounidenses de preparación magistral o el uso en el extranjero no establecen un permiso."
+    },
+    {
+      "sourcePath": "/curriculum/modules/5/units/0/blocks/15/metadata/variants/jurisdiction/SA/text/en",
+      "targetPath": "/curriculum/modules/5/units/0/blocks/15/metadata/variants/jurisdiction/SA/text/es-MX",
+      "sourceTextSha256": "79a136a0c498f82c9630861f0b000c106178dd5f2ae7c14abe7b99b96a569f51",
+      "en": "Saudi context: assess exact products, indications and routes separately for tesamorelin, sermorelin, ipamorelin, CJC-1295 and ibutamoren. This review has not established Saudi registration for exact products; US compounding lists or overseas use do not establish permission.",
+      "es-MX": "Contexto de Arabia Saudita: evalúa por separado los productos, las indicaciones y las vías exactos de tesamorelina, sermorelina, ipamorelina, CJC-1295 e ibutamoreno. Esta revisión no ha establecido el registro saudita de productos exactos; las listas estadounidenses de preparación magistral o el uso en el extranjero no establecen un permiso."
+    },
+    {
+      "sourcePath": "/curriculum/modules/5/units/0/metadata/localizedTutorContext/en",
+      "targetPath": "/curriculum/modules/5/units/0/metadata/localizedTutorContext/es-MX",
+      "sourceTextSha256": "718642687dcdc0d6dfbf2c97bf1763adae68ae6138cabea6e3a9c4477dd6d81f",
+      "en": "Module 6 teaches the growth-hormone/IGF-1 axis in four separate registers (mechanism, human evidence, regulatory status, open question). Mechanism: GH receptor mainly on dermal fibroblasts (collagen, fibroblast growth); IGF-1 made by fibroblasts/melanocytes acts on keratinocyte IGF-1R (proliferation); hair follicles run a local GHRH-GH-IGF-1 loop ex vivo (all D). Somatopause: GH/IGF-1 fall with age; read IGF-1 against age/sex ranges. Human skin evidence: GHD = thinner epidermis, less sweating (Lange 2001, C); acromegaly = GAG deposition and oedema; GH speeds donor-site/burn healing in >40% TBSA burns (Cochrane 2014, 13 small RCTs, C, more hyperglycaemia); Rudman 1990 skin +7.1% P=0.07, n=12, no placebo (D). Healthy older adults: GH gives ~2 kg less fat/2 kg more lean, more oedema, arthralgia, carpal tunnel, diabetes trend (Liu 2007, B; A&RE says A); US: knowingly distributing GH for anti-ageing is a federal offence (21 USC 333(e)). Tesamorelin: two phase 3 RCTs (806 pooled), VAT about -15% vs placebo; FDA-approved 2010 for excess abdominal fat in HIV lipodystrophy only; GRADE A for that indication only; label: IGF-1 >2 SDS in 47%, diabetes-range HbA1c 5% vs 1%, effects of prolonged IGF-1 elevation unknown. No RCT with a skin outcome for tesamorelin, CJC-1295, ipamorelin or IGF-1 LR3 (PubMed Sept 2026); Khorram 1997 GHRH(1-29) analogue, n=19, caliper skin thickness (D). CJC-1295 with DAC: phase 1 hormone levels only (D; guides say C); CJC-1295 without DAC and IGF-1 LR3: no human studies (D); ipamorelin: phase 2 ileus RCT negative (D for anti-ageing); sermorelin adult use D; ibutamoren (MK-677): IGF-1 and lean mass up, no function gain, glucose worse, hip-fracture trial stopped for heart failure. US status (FDA lists 22 Apr and 14 May 2026): no GH-axis peptide on the 503A bulks list (21 CFR 216.23); ibutamoren 503A+503B Category 2; GHRP-2/-6 503A Category 3; CJC-1295 and ipamorelin 503A nominations withdrawn (ipamorelin 503B Category 2); PCAC Oct 2024 voted against ipamorelin (0-12-1) and ibutamoren (1-13); sermorelin: no marketed approved product (Geref withdrawn 2009, not for safety), in no 503A category. GH excess signs: puffy thick face/hands/feet, oily skin, hyperhidrosis, skin tags, acanthosis, acral/jaw growth; on drugs: oedema, arthralgia, paraesthesia, carpal tunnel; somatropin label: watch nevi. Endocrine Society: measure IGF-1 for acral/facial features; suggest when sleep apnoea, T2D, arthritis, carpal tunnel, hyperhidrosis, hypertension cluster. Route to prescriber/endocrinology. Cancer: mechanism plausible; observational IGF-1 associations modest (Renehan 2004 B, UK Biobank C); acromegaly SIR 1.5 pooled vs 1.1 nationwide; GH replacement cohorts reassuring (SAGhE, 2022 consensus); secretagogue/LR3 long-term data absent. UK (checked 25 Sep 2026): somatropin is a prescription-only medicine (licensed for GHD and specific growth disorders) and a Class C controlled drug (Misuse of Drugs Act 1971); MHRA's products database holds no product information for tesamorelin, sermorelin or ipamorelin, so any would be unlicensed; unlicensed 'specials' only for an individual patient's special need (MHRA GN14). Never give doses, cycles, stacks, reconstitution, sourcing or IGF-1 targets; adapt only the 'what you do next' to role (prescriber, clinical staff, advisor). No CME credit is currently offered.",
+      "es-MX": "El módulo 6 enseña el eje de hormona de crecimiento/IGF-1 en cuatro categorías separadas (mecanismo, evidencia en humanos, situación regulatoria, pregunta abierta). Mecanismo: receptor de GH principalmente en fibroblastos dérmicos (colágeno, crecimiento de fibroblastos); el IGF-1 producido por fibroblastos/melanocitos actúa sobre IGF-1R de los queratinocitos (proliferación); los folículos pilosos mantienen un circuito local GHRH-GH-IGF-1 ex vivo (todo D). Somatopausia: GH/IGF-1 disminuyen con la edad; interpretar IGF-1 frente a intervalos de edad/sexo. Evidencia cutánea humana: deficiencia de GH = epidermis más delgada, menor sudoración (Lange 2001, C); acromegalia = depósito de GAG y edema; la GH acelera la cicatrización de zonas donadoras/quemaduras cuando las quemaduras afectan >40% de la superficie corporal total (Cochrane 2014, 13 ECA pequeños, C, mayor hiperglucemia); Rudman 1990, piel +7.1%, P=0.07, n=12, sin placebo (D). Adultos mayores sanos: la GH produce ~2 kg menos de grasa/2 kg más de masa magra, más edema, artralgia, túnel carpiano y tendencia a diabetes (Liu 2007, B; A&RE indica A); Estados Unidos: distribuir a sabiendas GH para antienvejecimiento es un delito federal (21 USC 333(e)). Tesamorelina: dos ECA de fase 3 (806 en conjunto), tejido adiposo visceral aproximadamente -15% frente a placebo; aprobada por la FDA en 2010 solo para exceso de grasa abdominal en lipodistrofia asociada con VIH; GRADE A únicamente para esa indicación; etiqueta: IGF-1 >2 SDS en 47%, HbA1c en intervalo de diabetes 5% frente a 1%, efectos de la elevación prolongada de IGF-1 desconocidos. No hay ECA con desenlace cutáneo para tesamorelina, CJC-1295, ipamorelina o IGF-1 LR3 (PubMed sep 2026); Khorram 1997, análogo de GHRH(1-29), n=19, grosor cutáneo medido con calibrador (D). CJC-1295 con DAC: fase 1, solo concentraciones hormonales (D; las guías indican C); CJC-1295 sin DAC e IGF-1 LR3: sin estudios en humanos (D); ipamorelina: ECA de fase 2 en íleo negativo (D para antienvejecimiento); uso adulto de sermorelina D; ibutamoren (MK-677): aumento de IGF-1 y masa magra, sin mejoría funcional, empeoramiento de la glucosa, ensayo en fractura de cadera suspendido por insuficiencia cardiaca. Situación en Estados Unidos (listas de la FDA del 22 abr y 14 may 2026): ningún péptido del eje de GH en la lista de sustancias a granel de la sección 503A (21 CFR 216.23); ibutamoren en categoría 2 de 503A+503B; GHRP-2/-6 en categoría 3 de 503A; nominaciones de CJC-1295 e ipamorelina a 503A retiradas (ipamorelina en categoría 2 de 503B); en oct 2024, el PCAC votó contra ipamorelina (0-12-1) e ibutamoren (1-13); sermorelina: ningún producto aprobado comercializado (Geref retirado en 2009, no por seguridad), en ninguna categoría de 503A. Signos de exceso de GH: cara/manos/pies engrosados y abotagados, piel grasa, hiperhidrosis, acrocordones, acantosis, crecimiento acral/mandibular; durante uso de medicamentos: edema, artralgia, parestesias, túnel carpiano; etiqueta de somatropina: vigilar nevos. Endocrine Society: medir IGF-1 ante características acrales/faciales; lo sugiere cuando se agrupan apnea del sueño, DM2, artritis, túnel carpiano, hiperhidrosis e hipertensión. Derivar al prescriptor/endocrinología. Cáncer: mecanismo plausible; asociaciones observacionales de IGF-1 modestas (Renehan 2004 B, UK Biobank C); SIR de acromegalia 1.5 agrupada frente a 1.1 nacional; cohortes de reemplazo de GH tranquilizadoras (SAGhE, consenso de 2022); faltan datos de largo plazo sobre secretagogos/LR3. Reino Unido (verificado el 25 sep 2026): somatropina es un medicamento sujeto a receta (autorizado para deficiencia de GH y trastornos específicos del crecimiento) y una sustancia controlada de clase C (Misuse of Drugs Act 1971); la base de datos de productos de la MHRA no contiene información de productos de tesamorelina, sermorelina o ipamorelina, por lo que cualquiera de ellos carecería de autorización; los medicamentos especiales sin autorización («specials») se limitan a la necesidad especial de un paciente individual (GN14 de la MHRA). Nunca proporciones dosis, ciclos, combinaciones, reconstitución, fuentes de adquisición ni objetivos de IGF-1; adapta únicamente «qué hacer después» a la función (prescriptor, personal clínico, asesor). Actualmente no se ofrecen créditos de educación médica continua (CME)."
+    },
+    {
+      "sourcePath": "/curriculum/modules/6/units/0/blocks/8/metadata/variants/jurisdiction/SA/text/en",
+      "targetPath": "/curriculum/modules/6/units/0/blocks/8/metadata/variants/jurisdiction/SA/text/es-MX",
+      "sourceTextSha256": "5d89651a7641d9cbe2a2ec6719086cf0fe607c76fd9736708faa88fe6022891d",
+      "en": "Saudi context: FDA and 503A/503B rules are US comparison material, not a Saudi authorization pathway. Separate registration and indication from practitioner/facility scope, compounding, import and advertising. Check Saudi requirements for each decision; neither a certificate of analysis nor informed consent establishes product authorization. Detailed Saudi pathway review remains open.",
+      "es-MX": "Contexto de Arabia Saudita: las normas de la FDA y de 503A/503B son material comparativo de Estados Unidos, no una vía de autorización saudita. Separa el registro y la indicación del alcance de la práctica del profesional y del establecimiento, la preparación magistral, la importación y la publicidad. Consulta los requisitos sauditas para cada decisión; ni un certificado de análisis ni el consentimiento informado establecen la autorización de un producto. Sigue pendiente una revisión detallada de las vías sauditas."
+    },
+    {
+      "sourcePath": "/curriculum/modules/6/units/0/blocks/11/metadata/variants/jurisdiction/SA/text/en",
+      "targetPath": "/curriculum/modules/6/units/0/blocks/11/metadata/variants/jurisdiction/SA/text/es-MX",
+      "sourceTextSha256": "5d89651a7641d9cbe2a2ec6719086cf0fe607c76fd9736708faa88fe6022891d",
+      "en": "Saudi context: FDA and 503A/503B rules are US comparison material, not a Saudi authorization pathway. Separate registration and indication from practitioner/facility scope, compounding, import and advertising. Check Saudi requirements for each decision; neither a certificate of analysis nor informed consent establishes product authorization. Detailed Saudi pathway review remains open.",
+      "es-MX": "Contexto de Arabia Saudita: las normas de la FDA y de 503A/503B son material comparativo de Estados Unidos, no una vía de autorización saudita. Separa el registro y la indicación del alcance de la práctica del profesional y del establecimiento, la preparación magistral, la importación y la publicidad. Consulta los requisitos sauditas para cada decisión; ni un certificado de análisis ni el consentimiento informado establecen la autorización de un producto. Sigue pendiente una revisión detallada de las vías sauditas."
+    },
+    {
+      "sourcePath": "/curriculum/modules/6/units/0/blocks/12/metadata/variants/jurisdiction/SA/text/en",
+      "targetPath": "/curriculum/modules/6/units/0/blocks/12/metadata/variants/jurisdiction/SA/text/es-MX",
+      "sourceTextSha256": "5d89651a7641d9cbe2a2ec6719086cf0fe607c76fd9736708faa88fe6022891d",
+      "en": "Saudi context: FDA and 503A/503B rules are US comparison material, not a Saudi authorization pathway. Separate registration and indication from practitioner/facility scope, compounding, import and advertising. Check Saudi requirements for each decision; neither a certificate of analysis nor informed consent establishes product authorization. Detailed Saudi pathway review remains open.",
+      "es-MX": "Contexto de Arabia Saudita: las normas de la FDA y de 503A/503B son material comparativo de Estados Unidos, no una vía de autorización saudita. Separa el registro y la indicación del alcance de la práctica del profesional y del establecimiento, la preparación magistral, la importación y la publicidad. Consulta los requisitos sauditas para cada decisión; ni un certificado de análisis ni el consentimiento informado establecen la autorización de un producto. Sigue pendiente una revisión detallada de las vías sauditas."
+    },
+    {
+      "sourcePath": "/curriculum/modules/6/units/0/blocks/13/metadata/variants/jurisdiction/SA/text/en",
+      "targetPath": "/curriculum/modules/6/units/0/blocks/13/metadata/variants/jurisdiction/SA/text/es-MX",
+      "sourceTextSha256": "5d89651a7641d9cbe2a2ec6719086cf0fe607c76fd9736708faa88fe6022891d",
+      "en": "Saudi context: FDA and 503A/503B rules are US comparison material, not a Saudi authorization pathway. Separate registration and indication from practitioner/facility scope, compounding, import and advertising. Check Saudi requirements for each decision; neither a certificate of analysis nor informed consent establishes product authorization. Detailed Saudi pathway review remains open.",
+      "es-MX": "Contexto de Arabia Saudita: las normas de la FDA y de 503A/503B son material comparativo de Estados Unidos, no una vía de autorización saudita. Separa el registro y la indicación del alcance de la práctica del profesional y del establecimiento, la preparación magistral, la importación y la publicidad. Consulta los requisitos sauditas para cada decisión; ni un certificado de análisis ni el consentimiento informado establecen la autorización de un producto. Sigue pendiente una revisión detallada de las vías sauditas."
+    },
+    {
+      "sourcePath": "/curriculum/modules/6/units/0/blocks/17/metadata/variants/jurisdiction/SA/text/en",
+      "targetPath": "/curriculum/modules/6/units/0/blocks/17/metadata/variants/jurisdiction/SA/text/es-MX",
+      "sourceTextSha256": "5d89651a7641d9cbe2a2ec6719086cf0fe607c76fd9736708faa88fe6022891d",
+      "en": "Saudi context: FDA and 503A/503B rules are US comparison material, not a Saudi authorization pathway. Separate registration and indication from practitioner/facility scope, compounding, import and advertising. Check Saudi requirements for each decision; neither a certificate of analysis nor informed consent establishes product authorization. Detailed Saudi pathway review remains open.",
+      "es-MX": "Contexto de Arabia Saudita: las normas de la FDA y de 503A/503B son material comparativo de Estados Unidos, no una vía de autorización saudita. Separa el registro y la indicación del alcance de la práctica del profesional y del establecimiento, la preparación magistral, la importación y la publicidad. Consulta los requisitos sauditas para cada decisión; ni un certificado de análisis ni el consentimiento informado establecen la autorización de un producto. Sigue pendiente una revisión detallada de las vías sauditas."
+    },
+    {
+      "sourcePath": "/curriculum/modules/6/units/0/blocks/18/metadata/variants/jurisdiction/SA/text/en",
+      "targetPath": "/curriculum/modules/6/units/0/blocks/18/metadata/variants/jurisdiction/SA/text/es-MX",
+      "sourceTextSha256": "5d89651a7641d9cbe2a2ec6719086cf0fe607c76fd9736708faa88fe6022891d",
+      "en": "Saudi context: FDA and 503A/503B rules are US comparison material, not a Saudi authorization pathway. Separate registration and indication from practitioner/facility scope, compounding, import and advertising. Check Saudi requirements for each decision; neither a certificate of analysis nor informed consent establishes product authorization. Detailed Saudi pathway review remains open.",
+      "es-MX": "Contexto de Arabia Saudita: las normas de la FDA y de 503A/503B son material comparativo de Estados Unidos, no una vía de autorización saudita. Separa el registro y la indicación del alcance de la práctica del profesional y del establecimiento, la preparación magistral, la importación y la publicidad. Consulta los requisitos sauditas para cada decisión; ni un certificado de análisis ni el consentimiento informado establecen la autorización de un producto. Sigue pendiente una revisión detallada de las vías sauditas."
+    },
+    {
+      "sourcePath": "/curriculum/modules/6/units/0/blocks/20/metadata/variants/jurisdiction/SA/text/en",
+      "targetPath": "/curriculum/modules/6/units/0/blocks/20/metadata/variants/jurisdiction/SA/text/es-MX",
+      "sourceTextSha256": "5d89651a7641d9cbe2a2ec6719086cf0fe607c76fd9736708faa88fe6022891d",
+      "en": "Saudi context: FDA and 503A/503B rules are US comparison material, not a Saudi authorization pathway. Separate registration and indication from practitioner/facility scope, compounding, import and advertising. Check Saudi requirements for each decision; neither a certificate of analysis nor informed consent establishes product authorization. Detailed Saudi pathway review remains open.",
+      "es-MX": "Contexto de Arabia Saudita: las normas de la FDA y de 503A/503B son material comparativo de Estados Unidos, no una vía de autorización saudita. Separa el registro y la indicación del alcance de la práctica del profesional y del establecimiento, la preparación magistral, la importación y la publicidad. Consulta los requisitos sauditas para cada decisión; ni un certificado de análisis ni el consentimiento informado establecen la autorización de un producto. Sigue pendiente una revisión detallada de las vías sauditas."
+    },
+    {
+      "sourcePath": "/curriculum/modules/6/units/0/blocks/21/metadata/variants/jurisdiction/SA/text/en",
+      "targetPath": "/curriculum/modules/6/units/0/blocks/21/metadata/variants/jurisdiction/SA/text/es-MX",
+      "sourceTextSha256": "703253bc37240e73f8b6cb14284267037bb122ebfb9dd28e9e961432e9c1a7f2",
+      "en": "Saudi context: check each cosmetic or collagen supplement’s category, record and claims separately. Listing a topical product does not establish permission to inject the same ingredient; registering a supplement does not establish efficacy for treating skin disease. Exact commercial-product verification remains incomplete.",
+      "es-MX": "Contexto de Arabia Saudita: verifica por separado la categoría, el registro y las afirmaciones de cada cosmético o suplemento de colágeno. La inclusión de un producto tópico en un listado no establece un permiso para inyectar el mismo ingrediente; el registro de un suplemento no establece su eficacia para tratar una enfermedad cutánea. Sigue incompleta la verificación de los productos comerciales exactos."
+    },
+    {
+      "sourcePath": "/curriculum/modules/6/units/0/blocks/23/metadata/variants/jurisdiction/SA/text/en",
+      "targetPath": "/curriculum/modules/6/units/0/blocks/23/metadata/variants/jurisdiction/SA/text/es-MX",
+      "sourceTextSha256": "1d319f6731de69dec805c8360108d35a5430b88dc5985d46f968f32d13ce92da",
+      "en": "Saudi context: this review has not established registration of an exact BPC-157, TB-500 or injectable GHK-Cu product. This is neither permission to use it nor proof of an ingredient-specific statutory ban. SFDA action on unregistered peptides does not establish a ban on all peptide medicines.",
+      "es-MX": "Contexto de Arabia Saudita: esta revisión no ha establecido el registro de un producto exacto de BPC-157, TB-500 o GHK-Cu inyectable. Esto no constituye un permiso de uso ni demuestra una prohibición legal específica de un ingrediente. Las medidas de la SFDA sobre péptidos no registrados no establecen una prohibición de todos los medicamentos peptídicos."
+    },
+    {
+      "sourcePath": "/curriculum/modules/6/units/0/blocks/24/metadata/variants/jurisdiction/SA/text/en",
+      "targetPath": "/curriculum/modules/6/units/0/blocks/24/metadata/variants/jurisdiction/SA/text/es-MX",
+      "sourceTextSha256": "5d89651a7641d9cbe2a2ec6719086cf0fe607c76fd9736708faa88fe6022891d",
+      "en": "Saudi context: FDA and 503A/503B rules are US comparison material, not a Saudi authorization pathway. Separate registration and indication from practitioner/facility scope, compounding, import and advertising. Check Saudi requirements for each decision; neither a certificate of analysis nor informed consent establishes product authorization. Detailed Saudi pathway review remains open.",
+      "es-MX": "Contexto de Arabia Saudita: las normas de la FDA y de 503A/503B son material comparativo de Estados Unidos, no una vía de autorización saudita. Separa el registro y la indicación del alcance de la práctica del profesional y del establecimiento, la preparación magistral, la importación y la publicidad. Consulta los requisitos sauditas para cada decisión; ni un certificado de análisis ni el consentimiento informado establecen la autorización de un producto. Sigue pendiente una revisión detallada de las vías sauditas."
+    },
+    {
+      "sourcePath": "/curriculum/modules/6/units/0/blocks/28/title/en",
+      "targetPath": "/curriculum/modules/6/units/0/blocks/28/title/es-MX",
+      "sourceTextSha256": "8d5108771ec607ea314f89fcab8fe261c769e61936d6483f5cef33cc60015063",
+      "en": "UAE practice and Saudi product checks",
+      "es-MX": "Práctica en Emiratos Árabes Unidos y verificaciones de productos sauditas"
+    },
+    {
+      "sourcePath": "/curriculum/modules/6/units/0/blocks/28/body/en",
+      "targetPath": "/curriculum/modules/6/units/0/blocks/28/body/es-MX",
+      "sourceTextSha256": "8171cf5dcc5b68f81730b44206167cf9190c731be6b2d2598a839435c30a1042",
+      "en": "Check the exact product, indication, route and local authority. A peptide class is not a marketing authorization.",
+      "es-MX": "Verifica el producto exacto, la indicación, la vía y la autoridad local. Una clase de péptidos no equivale a una autorización de comercialización."
+    },
+    {
+      "sourcePath": "/curriculum/modules/6/units/0/blocks/28/lead/en",
+      "targetPath": "/curriculum/modules/6/units/0/blocks/28/lead/es-MX",
+      "sourceTextSha256": "d53928c7439e4b610384e7836b8a536d6c8fda8677f5d3ead233b1f0332f0d9f",
+      "en": "Arabic review draft · checked 7 October 2026",
+      "es-MX": "Borrador árabe para revisión · revisado el 7 de octubre de 2026"
+    },
+    {
+      "sourcePath": "/curriculum/modules/6/units/0/blocks/28/tool/items/0/label/en",
+      "targetPath": "/curriculum/modules/6/units/0/blocks/28/tool/items/0/label/es-MX",
+      "sourceTextSha256": "ed9ad13611d7164839dd3feaf9a7f6a75a4138f389e0d45f8e07fa38da1116a2",
+      "en": "Saudi Arabia",
+      "es-MX": "Arabia Saudita"
+    },
+    {
+      "sourcePath": "/curriculum/modules/6/units/0/blocks/28/tool/items/0/value/en",
+      "targetPath": "/curriculum/modules/6/units/0/blocks/28/tool/items/0/value/es-MX",
+      "sourceTextSha256": "79e48b433dc431fec560fb92c8941d4b9b7e9ea775004eacd936b7511c68cf22",
+      "en": "Unregistered peptide products",
+      "es-MX": "Productos peptídicos no registrados"
+    },
+    {
+      "sourcePath": "/curriculum/modules/6/units/0/blocks/28/tool/items/0/note/en",
+      "targetPath": "/curriculum/modules/6/units/0/blocks/28/tool/items/0/note/es-MX",
+      "sourceTextSha256": "587219b827a2393600c23c8194acaca99e8313c3b0ca8eae2798dc8c177aa674",
+      "en": "SFDA's September 29 action concerns unregistered products marketed without authorization; it is not a class-wide peptide ban.",
+      "es-MX": "La medida de la SFDA del 29 de septiembre se refiere a productos no registrados comercializados sin autorización; no es una prohibición de toda la clase de péptidos."
+    },
+    {
+      "sourcePath": "/curriculum/modules/6/units/0/blocks/28/tool/items/1/label/en",
+      "targetPath": "/curriculum/modules/6/units/0/blocks/28/tool/items/1/label/es-MX",
+      "sourceTextSha256": "ed9ad13611d7164839dd3feaf9a7f6a75a4138f389e0d45f8e07fa38da1116a2",
+      "en": "Saudi Arabia",
+      "es-MX": "Arabia Saudita"
+    },
+    {
+      "sourcePath": "/curriculum/modules/6/units/0/blocks/28/tool/items/1/value/en",
+      "targetPath": "/curriculum/modules/6/units/0/blocks/28/tool/items/1/value/es-MX",
+      "sourceTextSha256": "69ced0c80b9d2640273315c4f2d61d290476d4570dccd6e269263c16035d2d7d",
+      "en": "Semaglutide: Wegovy / Ozempic / Rybelsus",
+      "es-MX": "Semaglutida: Wegovy / Ozempic / Rybelsus"
+    },
+    {
+      "sourcePath": "/curriculum/modules/6/units/0/blocks/28/tool/items/1/note/en",
+      "targetPath": "/curriculum/modules/6/units/0/blocks/28/tool/items/1/note/es-MX",
+      "sourceTextSha256": "ee066adde21f82ab4705544ceea2f22f3050a30e0261cc659fecb925b06bea54",
+      "en": "Saudi product information describes weight-management or diabetes indications, depending on brand. These are not skin-rejuvenation approvals. Sudden visual symptoms require urgent ophthalmological assessment.",
+      "es-MX": "La información saudita de los productos describe indicaciones para el control del peso o la diabetes, según la marca. No son aprobaciones para rejuvenecimiento cutáneo. Los síntomas visuales repentinos requieren una valoración oftalmológica urgente."
+    },
+    {
+      "sourcePath": "/curriculum/modules/6/units/0/blocks/28/tool/items/2/label/en",
+      "targetPath": "/curriculum/modules/6/units/0/blocks/28/tool/items/2/label/es-MX",
+      "sourceTextSha256": "ed9ad13611d7164839dd3feaf9a7f6a75a4138f389e0d45f8e07fa38da1116a2",
+      "en": "Saudi Arabia",
+      "es-MX": "Arabia Saudita"
+    },
+    {
+      "sourcePath": "/curriculum/modules/6/units/0/blocks/28/tool/items/2/value/en",
+      "targetPath": "/curriculum/modules/6/units/0/blocks/28/tool/items/2/value/es-MX",
+      "sourceTextSha256": "2e1feea72f19a149c44b00d5c8f50c8d2ff1ebdc5c8a7cb9a1c0c503da2b1687",
+      "en": "BPC-157 / GHK-Cu injectable / CJC-1295 / ipamorelin / Melanotan II / TB-500",
+      "es-MX": "BPC-157 / GHK-Cu inyectable / CJC-1295 / ipamorelin / Melanotan II / TB-500"
+    },
+    {
+      "sourcePath": "/curriculum/modules/6/units/0/blocks/28/tool/items/2/note/en",
+      "targetPath": "/curriculum/modules/6/units/0/blocks/28/tool/items/2/note/es-MX",
+      "sourceTextSha256": "69dacea89146993549a5129ac6b23f56a8946ec8bcb6b9cc86f93bf6cb1c8e00",
+      "en": "No product-specific Saudi registration was verified in this review. Do not present these as permitted treatments. The unregistered-product rule applies; this is not proof of an ingredient-specific statutory ban.",
+      "es-MX": "En esta revisión no se verificó un registro saudita específico de estos productos. No los presentes como tratamientos permitidos. Se aplica la regla sobre productos no registrados; esto no demuestra una prohibición legal específica de un ingrediente."
+    },
+    {
+      "sourcePath": "/curriculum/modules/6/units/0/blocks/28/tool/items/3/label/en",
+      "targetPath": "/curriculum/modules/6/units/0/blocks/28/tool/items/3/label/es-MX",
+      "sourceTextSha256": "c2276d37e4a687091d7b56abd21db7ab776f871278892faf19ec4b42f1ec6efd",
+      "en": "Abu Dhabi — United Arab Emirates",
+      "es-MX": "Abu Dabi — Emiratos Árabes Unidos"
+    },
+    {
+      "sourcePath": "/curriculum/modules/6/units/0/blocks/28/tool/items/3/value/en",
+      "targetPath": "/curriculum/modules/6/units/0/blocks/28/tool/items/3/value/es-MX",
+      "sourceTextSha256": "4b6b7e36b2ddfb0f6836026f89a46146031e70d955076a323eb35715b9bf2f46",
+      "en": "BPC-157 / CJC-1295 / ipamorelin / Melanotan II / injectable GHK-Cu / thymosin beta-4 fragment",
+      "es-MX": "BPC-157 / CJC-1295 / ipamorelin / Melanotan II / GHK-Cu inyectable / fragmento de timosina beta-4"
+    },
+    {
+      "sourcePath": "/curriculum/modules/6/units/0/blocks/28/tool/items/3/note/en",
+      "targetPath": "/curriculum/modules/6/units/0/blocks/28/tool/items/3/note/es-MX",
+      "sourceTextSha256": "b13e4b446be9b59b822f655b1acab8e4d4a1de1b8a887c09e4fbf4f2edca9527",
+      "en": "DoH Appendix 2 lists these among prohibited ingredients for compounding or sourcing in unregistered products. Respect route qualifiers. This is an Abu Dhabi rule, not a Saudi list.",
+      "es-MX": "El Apéndice 2 del DoH los incluye entre los ingredientes prohibidos para preparación magistral o adquisición en productos no registrados. Respeta las precisiones sobre la vía. Esta es una norma de Abu Dabi, no una lista saudita."
+    },
+    {
+      "sourcePath": "/curriculum/modules/6/units/0/blocks/28/tool/items/4/label/en",
+      "targetPath": "/curriculum/modules/6/units/0/blocks/28/tool/items/4/label/es-MX",
+      "sourceTextSha256": "dd64913c8b91d76ca27b371f0b86fd30452370469b8cadf4e5a61d41d14e42ec",
+      "en": "United Arab Emirates",
+      "es-MX": "Emiratos Árabes Unidos"
+    },
+    {
+      "sourcePath": "/curriculum/modules/6/units/0/blocks/28/tool/items/4/value/en",
+      "targetPath": "/curriculum/modules/6/units/0/blocks/28/tool/items/4/value/es-MX",
+      "sourceTextSha256": "f7b101f44d7728e3e3c10e283b9601e648c500d3a2ab1596bbffc2b34fa3ce21",
+      "en": "Finished medicinal peptide products",
+      "es-MX": "Productos medicinales peptídicos terminados"
+    },
+    {
+      "sourcePath": "/curriculum/modules/6/units/0/blocks/28/tool/items/4/note/en",
+      "targetPath": "/curriculum/modules/6/units/0/blocks/28/tool/items/4/note/es-MX",
+      "sourceTextSha256": "a6d215ffac5d4ca227b9f2368c0d1f3bf45eced768a54bad2b454ac6ab6664d7",
+      "en": "Verify EDE authorization and the applicable emirate's practice requirements. A clinic advertisement or analysis certificate does not establish permission.",
+      "es-MX": "Verifica la autorización de la EDE y los requisitos de práctica del emirato correspondiente. Un anuncio de una clínica o un certificado de análisis no establecen un permiso."
+    },
+    {
+      "sourcePath": "/curriculum/modules/6/units/0/blocks/28/tool/items/5/label/en",
+      "targetPath": "/curriculum/modules/6/units/0/blocks/28/tool/items/5/label/es-MX",
+      "sourceTextSha256": "ed9ad13611d7164839dd3feaf9a7f6a75a4138f389e0d45f8e07fa38da1116a2",
+      "en": "Saudi Arabia",
+      "es-MX": "Arabia Saudita"
+    },
+    {
+      "sourcePath": "/curriculum/modules/6/units/0/blocks/28/tool/items/5/value/en",
+      "targetPath": "/curriculum/modules/6/units/0/blocks/28/tool/items/5/value/es-MX",
+      "sourceTextSha256": "d2c696bf8809cd86bd6b50c55007b38deb67419219204851fef04693ce597b3c",
+      "en": "Topical cosmetic peptides / oral collagen / Mounjaro",
+      "es-MX": "Péptidos cosméticos tópicos / colágeno oral / Mounjaro"
+    },
+    {
+      "sourcePath": "/curriculum/modules/6/units/0/blocks/28/tool/items/5/note/en",
+      "targetPath": "/curriculum/modules/6/units/0/blocks/28/tool/items/5/note/es-MX",
+      "sourceTextSha256": "2a796136df651492286e35c64b9e0782d87d8efef7624a62974225fe31490d64",
+      "en": "Separate product checks are still required. Do not infer a cosmetic, supplement or medicine's status from another formulation or country.",
+      "es-MX": "Siguen siendo necesarias verificaciones por producto. No infieras la situación de un cosmético, suplemento o medicamento a partir de otra formulación o de otro país."
+    },
+    {
+      "sourcePath": "/curriculum/modules/6/units/0/metadata/localizedTutorContext/en",
+      "targetPath": "/curriculum/modules/6/units/0/metadata/localizedTutorContext/es-MX",
+      "sourceTextSha256": "1cbbb0efd31a9130017845d23c3a27a0f7fae313e8ef67e8b44e1212200b4eee",
+      "en": "Module 7 closes the course: evidence appraisal, US regulatory frameworks and prescriber compliance, kept in separate registers. GRADE: certainty (high, moderate, low, very low; the guides print A–D) for one outcome across a body of evidence, never for a molecule; RCTs start high, observational studies low; rate down for risk of bias, inconsistency, indirectness (study PICO differs from the question), imprecision (CI crosses the important difference) and publication bias (suspect it when evidence is small industry-funded studies); rate up for large effects. Course examples: GHK-Cu's one indexed RCT measured post-laser healing (indirect for photoageing); BPC-157 wound data are rodent (indirect); LL-37 34-person positive then 148-person negative phase IIb (inconsistent); oral collagen benefit only in low-quality and industry-funded trials (risk of bias, Myung 2025). Lundh 2017 Cochrane: industry-sponsored studies more often favourable efficacy results, RR 1.27 (1.17–1.37). Grade and legal status are separate checks; mechanism never raises a grade. US 503A (21 USC 353a): identified patient, prescription; exempt only from approval, adequate directions, cGMP; bulk substance must meet a USP/NF monograph, else be an approved-drug component, else be on the 503A bulks list; registered manufacturer and valid COA; no statutory purity figure. 21 CFR 216.23: six substances, none a peptide, unchanged since 2019 (eCFR current 22 Sep 2026); listing is no endorsement. Categories 1–3 = interim enforcement posture: Category 1 includes non-injectable GHK-Cu (14 May 2026); 503A Category 2 has six substances; BPC-157, TB-500, KPV, injectable GHK-Cu, LL-37, melanotan II are withdrawn nominations with safety concerns still posted. PCAC 23–24 Jul 2026 is advisory; FDA staff concluded criteria weigh against listing BPC-157; only rulemaking changes the list. 503B: registered outsourcing facility, cGMP, risk-based inspection, adverse-event reporting, may compound without patient-specific prescriptions; products unapproved. >40 alpha amino acids = protein = biological product since 23 Mar 2020 (85 FR 10057); tesamorelin and hyaluronidase became BLAs; biologics cannot use 503A/503B exemptions; retatrutide residue count upheld by a district court in 2025, appeal pending (June 2026 filings). COA = supplier's report on one lot: MS identity (observed vs expected mass), HPLC purity (impurities unnamed), endotoxin (limit calculated from dose and route, FDA 2026 guidance), microbial, water, counter-ion, metals, solvents; cannot prove the vial is that lot, storage, sterility or legality; red flags = no lot, no chromatogram, no impurities, no endotoxin on an injectable, over 12 months old. FDA's BPC-157 briefing: public COAs mostly purity only; the nominator's COA reported no endotoxin test, and the COAs supplied were for the acetate while the free base was nominated. Ashraf 2024: three online semaglutide vials 7.7–14.4% purity vs 99% labelled, endotoxin in all. RUO: 21 CFR 312.160 permits shipment for lab or in-vitro research, 'Not for use in humans'; intended use judged objectively (21 CFR 201.128); a COA cannot convert RUO into a pharmaceutical. Cosmetic vs drug by intended use ('regenerate cells' is a drug claim; 'cosmeceutical' has no legal meaning); supplements not approved before sale; off-label applies only to approved drugs; unapproved new drug in interstate commerce is a prohibited act (21 USC 331); FDA's 2020 warning letter named compounded BPC-157 and GHK-Cu. Chart: article and status in those words; pathway, facility and COA if compounded; consent (not approved, foreseeable risks, approved alternatives incl. nothing, what happens if harm; elements borrowed from 21 CFR 50.25); grade quoted; monitoring and stopping rule; dated status check. UK (checked 25 Sep 2026; moments m7-p21, m7-p22): no 503A/503B; unlicensed medicines reach patients as regulation 167 'specials' (unsolicited order; doctor, dentist, nurse or pharmacist independent prescriber or supplementary prescriber; one patient's special needs; no advertising; manufacturer's specials licence, GMP-inspected site, product otherwise unassessed) or pharmacy preparation against a prescription (Medicines Act 1968 s.10); MHRA GN14 order: UK-licensed (even off-label) → licensed abroad → UK special → non-medicines such as supplements; special need excludes cost and convenience; prescriber responsible (GMC 102–108, MHRA DSU 2009, GPhC 2025, NMC Code 18). MHRA classifies by claims (websites, social media), form (injection) and use (GN8); no sale, supply or advertising without a UK marketing authorisation (HMR regs 46, 279); injectable melanotan = medicine (FOI 24/274); May 2026 seizure included peptide products; no POM advertising to the public (reg 284, CAP 12.12; Blue Guide: clinics may promote 'treatment for lines and wrinkles' without naming the POM; ASA 11 Feb 2026 Voy ruling on '#mounjaro' posts); GMC: physical examination before prescribing injectable cosmetic medicines. Never give doses, reconstitution, stacking, administration or sourcing; never validate a vendor or call a COA 'safe'. Adapt 'what you do next' to prescriber, clinical staff or advisor without changing grades or facts. The course is designed toward future CME accreditation; no credit is offered at this time.",
+      "es-MX": "El módulo 7 cierra el curso: evaluación crítica de la evidencia, marcos regulatorios estadounidenses y cumplimiento normativo del prescriptor, mantenidos en categorías separadas. GRADE: certeza (alta, moderada, baja, muy baja; las guías imprimen A–D) para un desenlace en un conjunto de evidencia, nunca para una molécula; los ECA comienzan en alta y los estudios observacionales en baja; disminuir por riesgo de sesgo, inconsistencia, indirectitud (el PICO del estudio difiere de la pregunta), imprecisión (el IC cruza la diferencia importante) y sesgo de publicación (sospecharlo cuando la evidencia consiste en estudios pequeños financiados por la industria); aumentar por efectos grandes. Ejemplos del curso: el único ECA indexado de GHK-Cu midió cicatrización posterior al láser (indirecto para fotoenvejecimiento); los datos de heridas con BPC-157 provienen de roedores (indirectos); LL-37, estudio positivo de 34 personas seguido de fase IIb negativa de 148 personas (inconsistente); beneficio del colágeno oral solo en ensayos de baja calidad y financiados por la industria (riesgo de sesgo, Myung 2025). Lundh 2017 Cochrane: los estudios patrocinados por la industria presentan con mayor frecuencia resultados favorables de eficacia, RR 1.27 (1.17–1.37). El grado y la situación legal son verificaciones separadas; el mecanismo nunca eleva un grado. Sección 503A estadounidense (21 USC 353a): paciente identificado, receta; exención únicamente de aprobación, instrucciones adecuadas y cGMP; la sustancia a granel debe cumplir una monografía USP/NF o, en su defecto, ser un componente de un medicamento aprobado o, en su defecto, figurar en la lista de sustancias a granel de 503A; fabricante registrado y COA válido; no hay una cifra legal de pureza. 21 CFR 216.23: seis sustancias, ninguna un péptido, sin cambios desde 2019 (eCFR vigente al 22 sep 2026); figurar en la lista no es un aval. Categorías 1–3 = postura provisional de aplicación de la ley: la categoría 1 incluye GHK-Cu no inyectable (14 may 2026); la categoría 2 de 503A tiene seis sustancias; BPC-157, TB-500, KPV, GHK-Cu inyectable, LL-37 y melanotan II son nominaciones retiradas cuyas preocupaciones de seguridad siguen publicadas. El PCAC del 23–24 jul 2026 es consultivo; el personal de la FDA concluyó que los criterios pesan en contra de incluir BPC-157; solo el procedimiento normativo cambia la lista. 503B: instalación de preparación por encargo registrada, cGMP, inspección basada en riesgo y notificación de eventos adversos; puede preparar sin recetas específicas por paciente; productos no aprobados. >40 alfa-aminoácidos = proteína = producto biológico desde el 23 mar 2020 (85 FR 10057); tesamorelina e hialuronidasa pasaron a BLAs; los biológicos no pueden usar las exenciones 503A/503B; el recuento de residuos de retatrutida fue confirmado por un tribunal de distrito en 2025, apelación pendiente (escritos de junio de 2026). COA = informe del proveedor sobre un lote: identidad por MS (masa observada frente a esperada), pureza por HPLC (impurezas sin identificar), endotoxinas (límite calculado a partir de dosis y vía, guía de la FDA de 2026), análisis microbiano, agua, contraión, metales y disolventes; no puede demostrar que el vial corresponda a ese lote, ni almacenamiento, esterilidad o legalidad; señales de alarma = sin lote, sin cromatograma, sin información sobre impurezas, sin resultados de la prueba de endotoxinas para un inyectable, más de 12 meses de antigüedad. Informe de la FDA sobre BPC-157: los COA públicos informan principalmente solo pureza; el COA del nominador no informó prueba de endotoxinas, y los COA proporcionados correspondían al acetato mientras se nominó la base libre. Ashraf 2024: tres viales de semaglutida comprados en línea, pureza de 7.7–14.4% frente a 99% declarado, endotoxinas en todos. RUO: 21 CFR 312.160 permite el envío para investigación de laboratorio o in vitro, «No para uso en humanos»; el uso previsto se juzga objetivamente (21 CFR 201.128); un COA no puede convertir RUO en un producto farmacéutico. Cosmético frente a medicamento según el uso previsto («regenerar células» es una afirmación de medicamento; «cosmecéutico» no tiene significado legal); los suplementos no se aprueban antes de venderse; el uso fuera de indicación solo aplica a medicamentos aprobados; un medicamento nuevo no aprobado en el comercio interestatal es un acto prohibido (21 USC 331); la carta de advertencia de la FDA de 2020 nombró BPC-157 y GHK-Cu de preparación magistral. Expediente: producto y situación con esas palabras; vía regulatoria, instalación y COA si es de preparación magistral; consentimiento (no aprobado, riesgos previsibles, alternativas aprobadas, incluida no hacer nada, qué ocurre si hay daño; elementos tomados de 21 CFR 50.25); grado citado; monitoreo y regla de suspensión; verificación de situación fechada. Reino Unido (verificado el 25 sep 2026; momentos m7-p21, m7-p22): no hay 503A/503B; los medicamentos no autorizados llegan a los pacientes como «specials» de la disposición 167 (pedido no solicitado; médico, dentista, enfermero o farmacéutico prescriptor independiente o prescriptor suplementario; necesidades especiales de un paciente; sin publicidad; licencia del fabricante para «specials», instalación inspeccionada conforme a GMP, producto no evaluado de otro modo) o como preparación de farmacia conforme a una receta (Medicines Act 1968, s.10); orden de GN14 de la MHRA: autorizado en el Reino Unido (incluso fuera de indicación) → autorizado en el extranjero → especial británico → productos no medicinales como suplementos; la necesidad especial excluye costo y conveniencia; el prescriptor es responsable (GMC 102–108, MHRA DSU 2009, GPhC 2025, NMC Code 18). La MHRA clasifica según afirmaciones (sitios web, redes sociales), presentación (inyección) y uso (GN8); sin venta, suministro ni publicidad sin autorización de comercialización británica (HMR, disposiciones 46, 279); melanotan inyectable = medicamento (FOI 24/274); la incautación de mayo de 2026 incluyó productos con péptidos; no se permite publicidad de medicamentos sujetos a receta al público (disposición 284, CAP 12.12; Blue Guide: las clínicas pueden promover «tratamiento para líneas y arrugas» sin nombrar el medicamento sujeto a receta; fallo de ASA del 11 feb 2026 sobre publicaciones de Voy con «#mounjaro»); GMC: examen físico antes de prescribir medicamentos cosméticos inyectables. Nunca proporciones dosis, reconstitución, combinaciones, administración ni fuentes de adquisición; nunca valides un vendedor ni califiques un COA como «seguro». Adapta «qué hacer después» al prescriptor, personal clínico o asesor sin cambiar los grados ni los hechos. El curso está diseñado con miras a una futura acreditación CME; actualmente no se otorgan créditos."
+    },
+    {
+      "sourcePath": "/assets/110/disclosure/en",
+      "targetPath": "/assets/110/disclosure/es-MX",
+      "sourceTextSha256": "81bf991a8ff9c63730044a2fcd2caa944c1c49351b1cb3baf4a1c8c72b6bec47",
+      "en": "Presented by a digital avatar (AI-generated presenter and voice).",
+      "es-MX": "Presentado por un avatar digital (presentador y voz generados con IA)."
+    },
+    {
+      "sourcePath": "/assets/113/disclosure/en",
+      "targetPath": "/assets/113/disclosure/es-MX",
+      "sourceTextSha256": "81bf991a8ff9c63730044a2fcd2caa944c1c49351b1cb3baf4a1c8c72b6bec47",
+      "en": "Presented by a digital avatar (AI-generated presenter and voice).",
+      "es-MX": "Presentado por un avatar digital (presentador y voz generados con IA)."
+    },
+    {
+      "sourcePath": "/assets/116/disclosure/en",
+      "targetPath": "/assets/116/disclosure/es-MX",
+      "sourceTextSha256": "81bf991a8ff9c63730044a2fcd2caa944c1c49351b1cb3baf4a1c8c72b6bec47",
+      "en": "Presented by a digital avatar (AI-generated presenter and voice).",
+      "es-MX": "Presentado por un avatar digital (presentador y voz generados con IA)."
+    },
+    {
+      "sourcePath": "/assets/119/disclosure/en",
+      "targetPath": "/assets/119/disclosure/es-MX",
+      "sourceTextSha256": "81bf991a8ff9c63730044a2fcd2caa944c1c49351b1cb3baf4a1c8c72b6bec47",
+      "en": "Presented by a digital avatar (AI-generated presenter and voice).",
+      "es-MX": "Presentado por un avatar digital (presentador y voz generados con IA)."
+    },
+    {
+      "sourcePath": "/assets/122/disclosure/en",
+      "targetPath": "/assets/122/disclosure/es-MX",
+      "sourceTextSha256": "81bf991a8ff9c63730044a2fcd2caa944c1c49351b1cb3baf4a1c8c72b6bec47",
+      "en": "Presented by a digital avatar (AI-generated presenter and voice).",
+      "es-MX": "Presentado por un avatar digital (presentador y voz generados con IA)."
+    },
+    {
+      "sourcePath": "/assets/125/disclosure/en",
+      "targetPath": "/assets/125/disclosure/es-MX",
+      "sourceTextSha256": "81bf991a8ff9c63730044a2fcd2caa944c1c49351b1cb3baf4a1c8c72b6bec47",
+      "en": "Presented by a digital avatar (AI-generated presenter and voice).",
+      "es-MX": "Presentado por un avatar digital (presentador y voz generados con IA)."
+    },
+    {
+      "sourcePath": "/assets/128/disclosure/en",
+      "targetPath": "/assets/128/disclosure/es-MX",
+      "sourceTextSha256": "81bf991a8ff9c63730044a2fcd2caa944c1c49351b1cb3baf4a1c8c72b6bec47",
+      "en": "Presented by a digital avatar (AI-generated presenter and voice).",
+      "es-MX": "Presentado por un avatar digital (presentador y voz generados con IA)."
+    },
+    {
+      "sourcePath": "/assets/131/disclosure/en",
+      "targetPath": "/assets/131/disclosure/es-MX",
+      "sourceTextSha256": "81bf991a8ff9c63730044a2fcd2caa944c1c49351b1cb3baf4a1c8c72b6bec47",
+      "en": "Presented by a digital avatar (AI-generated presenter and voice).",
+      "es-MX": "Presentado por un avatar digital (presentador y voz generados con IA)."
+    },
+    {
+      "sourcePath": "/assets/134/disclosure/en",
+      "targetPath": "/assets/134/disclosure/es-MX",
+      "sourceTextSha256": "3e74d29351821e2fb0108649939144568a294494584fdaa5338642cd1ae22771",
+      "en": "AI-generated narration.",
+      "es-MX": "Narración generada por IA."
+    },
+    {
+      "sourcePath": "/assets/136/disclosure/en",
+      "targetPath": "/assets/136/disclosure/es-MX",
+      "sourceTextSha256": "3e74d29351821e2fb0108649939144568a294494584fdaa5338642cd1ae22771",
+      "en": "AI-generated narration.",
+      "es-MX": "Narración generada por IA."
+    },
+    {
+      "sourcePath": "/assets/138/disclosure/en",
+      "targetPath": "/assets/138/disclosure/es-MX",
+      "sourceTextSha256": "3e74d29351821e2fb0108649939144568a294494584fdaa5338642cd1ae22771",
+      "en": "AI-generated narration.",
+      "es-MX": "Narración generada por IA."
+    },
+    {
+      "sourcePath": "/assets/140/disclosure/en",
+      "targetPath": "/assets/140/disclosure/es-MX",
+      "sourceTextSha256": "3e74d29351821e2fb0108649939144568a294494584fdaa5338642cd1ae22771",
+      "en": "AI-generated narration.",
+      "es-MX": "Narración generada por IA."
+    },
+    {
+      "sourcePath": "/assets/142/disclosure/en",
+      "targetPath": "/assets/142/disclosure/es-MX",
+      "sourceTextSha256": "3e74d29351821e2fb0108649939144568a294494584fdaa5338642cd1ae22771",
+      "en": "AI-generated narration.",
+      "es-MX": "Narración generada por IA."
+    },
+    {
+      "sourcePath": "/assets/144/disclosure/en",
+      "targetPath": "/assets/144/disclosure/es-MX",
+      "sourceTextSha256": "3e74d29351821e2fb0108649939144568a294494584fdaa5338642cd1ae22771",
+      "en": "AI-generated narration.",
+      "es-MX": "Narración generada por IA."
+    },
+    {
+      "sourcePath": "/assets/146/disclosure/en",
+      "targetPath": "/assets/146/disclosure/es-MX",
+      "sourceTextSha256": "3e74d29351821e2fb0108649939144568a294494584fdaa5338642cd1ae22771",
+      "en": "AI-generated narration.",
+      "es-MX": "Narración generada por IA."
+    },
+    {
+      "sourcePath": "/tutorCorpus/14/answer/en",
+      "targetPath": "/tutorCorpus/14/answer/es-MX",
+      "sourceTextSha256": "ff359ba4bc0ab02f5325bf24d8e46e8229cdeaf94e05f5c2f549fb21e87f748b",
+      "en": "SFDA's September 29 action concerns unregistered products marketed without authorization; it is not a class-wide peptide ban. No product-specific Saudi registration was verified in this review. Do not present these as permitted treatments. The unregistered-product rule applies; this is not proof of an ingredient-specific statutory ban.",
+      "es-MX": "La medida de la SFDA del 29 de septiembre se refiere a productos no registrados comercializados sin autorización; no es una prohibición de toda la clase de péptidos. En esta revisión no se verificó un registro saudita específico de estos productos. No los presentes como tratamientos permitidos. Se aplica la regla sobre productos no registrados; esto no demuestra una prohibición legal específica de un ingrediente."
+    },
+    {
+      "sourcePath": "/tutorCorpus/14/suggestedPrompt/en",
+      "targetPath": "/tutorCorpus/14/suggestedPrompt/es-MX",
+      "sourceTextSha256": "38d44d7e0fa2f660ca4b6be1ab1a40c725749cd4cc159c5ebacb4e86ef9fdde6",
+      "en": "Are all peptides prohibited in Saudi Arabia?",
+      "es-MX": "¿Están prohibidos todos los péptidos en Arabia Saudita?"
+    },
+    {
+      "sourcePath": "/metadata/regionalTutor/topics/0/notes/SA/text/en",
+      "targetPath": "/metadata/regionalTutor/topics/0/notes/SA/text/es-MX",
+      "sourceTextSha256": "54c1c0a53a738f146d9dd631773ca2c2d79ee2aa3dd9036ab4ae404b3be11718",
+      "en": "Saudi Arabia · Unregistered peptide products: SFDA's September 29 action concerns unregistered products marketed without authorization; it is not a class-wide peptide ban.\n\nArabic edition draft; medical and regulatory review pending.",
+      "es-MX": "Arabia Saudita · Productos peptídicos no registrados: la medida de la SFDA del 29 de septiembre se refiere a productos no registrados comercializados sin autorización; no es una prohibición de toda la clase de péptidos.\n\nBorrador de la edición árabe; revisión médica y regulatoria pendiente."
+    },
+    {
+      "sourcePath": "/metadata/regionalTutor/topics/0/notes/AE/text/en",
+      "targetPath": "/metadata/regionalTutor/topics/0/notes/AE/text/es-MX",
+      "sourceTextSha256": "5be13e70597a331ad8ad7dc21a1d1b94dd22d11079ef30864c59e9d9310984d8",
+      "en": "United Arab Emirates · Finished medicinal peptide products: Verify EDE authorization and the applicable emirate's practice requirements. A clinic advertisement or analysis certificate does not establish permission.\n\nArabic edition draft; medical and regulatory review pending.",
+      "es-MX": "Emiratos Árabes Unidos · Productos medicinales peptídicos terminados: verifica la autorización de la EDE y los requisitos de práctica del emirato correspondiente. Un anuncio de una clínica o un certificado de análisis no establecen un permiso.\n\nBorrador de la edición árabe; revisión médica y regulatoria pendiente."
+    },
+    {
+      "sourcePath": "/metadata/regionalTutor/topics/1/notes/SA/text/en",
+      "targetPath": "/metadata/regionalTutor/topics/1/notes/SA/text/es-MX",
+      "sourceTextSha256": "b6abfa2f38ff556264f73433e3b014e0a4da2ac9591b92655c3afa9bdefe88fb",
+      "en": "Saudi Arabia · Unregistered peptide products: SFDA's September 29 action concerns unregistered products marketed without authorization; it is not a class-wide peptide ban.\n\nSaudi Arabia · BPC-157 / GHK-Cu injectable / CJC-1295 / ipamorelin / Melanotan II / TB-500: No product-specific Saudi registration was verified in this review. Do not present these as permitted treatments. The unregistered-product rule applies; this is not proof of an ingredient-specific statutory ban.\n\nArabic edition draft; medical and regulatory review pending.",
+      "es-MX": "Arabia Saudita · Productos peptídicos no registrados: la medida de la SFDA del 29 de septiembre se refiere a productos no registrados comercializados sin autorización; no es una prohibición de toda la clase de péptidos.\n\nArabia Saudita · BPC-157 / GHK-Cu inyectable / CJC-1295 / ipamorelin / Melanotan II / TB-500: en esta revisión no se verificó un registro saudita específico de estos productos. No los presentes como tratamientos permitidos. Se aplica la regla sobre productos no registrados; esto no demuestra una prohibición legal específica de un ingrediente.\n\nBorrador de la edición árabe; revisión médica y regulatoria pendiente."
+    },
+    {
+      "sourcePath": "/metadata/regionalTutor/topics/1/notes/AE/text/en",
+      "targetPath": "/metadata/regionalTutor/topics/1/notes/AE/text/es-MX",
+      "sourceTextSha256": "dd7d124c2238c1ef53d44d6920fc4b70347f69fa31fd351710cb30d8c3bab8ea",
+      "en": "Abu Dhabi — United Arab Emirates · BPC-157 / CJC-1295 / ipamorelin / Melanotan II / injectable GHK-Cu / thymosin beta-4 fragment: DoH Appendix 2 lists these among prohibited ingredients for compounding or sourcing in unregistered products. Respect route qualifiers. This is an Abu Dhabi rule, not a Saudi list.\n\nUnited Arab Emirates · Finished medicinal peptide products: Verify EDE authorization and the applicable emirate's practice requirements. A clinic advertisement or analysis certificate does not establish permission.\n\nArabic edition draft; medical and regulatory review pending.",
+      "es-MX": "Abu Dabi — Emiratos Árabes Unidos · BPC-157 / CJC-1295 / ipamorelin / Melanotan II / GHK-Cu inyectable / fragmento de timosina beta-4: el Apéndice 2 del DoH los incluye entre los ingredientes prohibidos para preparación magistral o adquisición en productos no registrados. Respeta las precisiones sobre la vía. Esta es una norma de Abu Dabi, no una lista saudita.\n\nEmiratos Árabes Unidos · Productos medicinales peptídicos terminados: verifica la autorización de la EDE y los requisitos de práctica del emirato correspondiente. Un anuncio de una clínica o un certificado de análisis no establecen un permiso.\n\nBorrador de la edición árabe; revisión médica y regulatoria pendiente."
+    },
+    {
+      "sourcePath": "/metadata/regionalTutor/topics/2/notes/SA/text/en",
+      "targetPath": "/metadata/regionalTutor/topics/2/notes/SA/text/es-MX",
+      "sourceTextSha256": "f2c8f726e4ce40f74e66c1ebc67cc0722a96c33857b49d0e5564189a455572bd",
+      "en": "Saudi Arabia · Semaglutide: Wegovy / Ozempic / Rybelsus: Saudi product information describes weight-management or diabetes indications, depending on brand. These are not skin-rejuvenation approvals. Sudden visual symptoms require urgent ophthalmological assessment.\n\nArabic edition draft; medical and regulatory review pending.",
+      "es-MX": "Arabia Saudita · Semaglutida: Wegovy / Ozempic / Rybelsus: la información saudita de los productos describe indicaciones para el control del peso o la diabetes, según la marca. No son aprobaciones para rejuvenecimiento cutáneo. Los síntomas visuales repentinos requieren una valoración oftalmológica urgente.\n\nBorrador de la edición árabe; revisión médica y regulatoria pendiente."
+    },
+    {
+      "sourcePath": "/metadata/regionalTutor/topics/2/notes/AE/text/en",
+      "targetPath": "/metadata/regionalTutor/topics/2/notes/AE/text/es-MX",
+      "sourceTextSha256": "5be13e70597a331ad8ad7dc21a1d1b94dd22d11079ef30864c59e9d9310984d8",
+      "en": "United Arab Emirates · Finished medicinal peptide products: Verify EDE authorization and the applicable emirate's practice requirements. A clinic advertisement or analysis certificate does not establish permission.\n\nArabic edition draft; medical and regulatory review pending.",
+      "es-MX": "Emiratos Árabes Unidos · Productos medicinales peptídicos terminados: verifica la autorización de la EDE y los requisitos de práctica del emirato correspondiente. Un anuncio de una clínica o un certificado de análisis no establecen un permiso.\n\nBorrador de la edición árabe; revisión médica y regulatoria pendiente."
+    },
+    {
+      "sourcePath": "/metadata/regionalTutor/topics/3/notes/SA/text/en",
+      "targetPath": "/metadata/regionalTutor/topics/3/notes/SA/text/es-MX",
+      "sourceTextSha256": "2f08a7aa2f7b402dc65ed5f6a5dcacf728deb23bb19a8c57a8810c336d79f43a",
+      "en": "Saudi Arabia · Topical cosmetic peptides / oral collagen / Mounjaro: Separate product checks are still required. Do not infer a cosmetic, supplement or medicine's status from another formulation or country.\n\nArabic edition draft; medical and regulatory review pending.",
+      "es-MX": "Arabia Saudita · Péptidos cosméticos tópicos / colágeno oral / Mounjaro: siguen siendo necesarias verificaciones por producto. No infieras la situación de un cosmético, suplemento o medicamento a partir de otra formulación o de otro país.\n\nBorrador de la edición árabe; revisión médica y regulatoria pendiente."
+    },
+    {
+      "sourcePath": "/metadata/regionalTutor/topics/3/notes/AE/text/en",
+      "targetPath": "/metadata/regionalTutor/topics/3/notes/AE/text/es-MX",
+      "sourceTextSha256": "5be13e70597a331ad8ad7dc21a1d1b94dd22d11079ef30864c59e9d9310984d8",
+      "en": "United Arab Emirates · Finished medicinal peptide products: Verify EDE authorization and the applicable emirate's practice requirements. A clinic advertisement or analysis certificate does not establish permission.\n\nArabic edition draft; medical and regulatory review pending.",
+      "es-MX": "Emiratos Árabes Unidos · Productos medicinales peptídicos terminados: verifica la autorización de la EDE y los requisitos de práctica del emirato correspondiente. Un anuncio de una clínica o un certificado de análisis no establecen un permiso.\n\nBorrador de la edición árabe; revisión médica y regulatoria pendiente."
+    }
+  ]
+}
