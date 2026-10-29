@@ -1,0 +1,117 @@
+{
+  "id": "hype-es-MX",
+  "role": "course-trailer",
+  "format": "cinematic/1",
+  "findings": [
+    {
+      "level": "warn",
+      "code": "presenter-framing",
+      "msg": "look 2daeb4c1c74e491c89314a4e7dcd4879 has no measured framing, so the 9:16 crop is centred on the clip — measure it and add it to tools/video/presenter-looks.json (docs/avatar-lane.md § 6)"
+    },
+    {
+      "level": "info",
+      "code": "presenter-slices",
+      "msg": "presenter \"hook\" slice [0.000, 3.260]: 3.260 s as-billed ≈ $0.31; list ≈ $0.22; tail 0.000 s (narrated)"
+    },
+    {
+      "level": "info",
+      "code": "presenter-slices",
+      "msg": "presenter \"close\" slice [47.400, 54.220]: 6.820 s as-billed ≈ $0.66; list ≈ $0.45; tail 0.000 s (narrated)"
+    },
+    {
+      "level": "warn",
+      "code": "lint:named-without-picture",
+      "msg": "4 named chips at 18.6 s with no image or footage on screen — show each thing on a plate"
+    },
+    {
+      "level": "warn",
+      "code": "lint:named-without-picture",
+      "msg": "3 named chips at 41.1 s with no image or footage on screen — show each thing on a plate"
+    },
+    {
+      "level": "info",
+      "code": "numbers",
+      "msg": "numbers on screen (each must trace to the package or SOURCES): \"412 fuentes\" · \"6 jurisdicciones\""
+    },
+    {
+      "level": "info",
+      "code": "teaching",
+      "msg": "no teaching arc declared — a concept film or opener can open on a misconception or an origin fact and close by re-reading the opening picture (film-types § Concept explainer)"
+    },
+    {
+      "level": "info",
+      "code": "listen-number",
+      "msg": "\"412\" is on screen (\"412 fuentes\") but never said: a listener misses it — say it in the narration, or drop it from the screen"
+    },
+    {
+      "level": "info",
+      "code": "asset-unused",
+      "msg": "assets[] lists home-hero-skin.png, which no state uses"
+    }
+  ],
+  "estimate": {
+    "words": 145,
+    "narrationSeconds": 56.3,
+    "filmSeconds": 58.6,
+    "presenter": {
+      "slices": [
+        {
+          "state": "hook",
+          "look": "2daeb4c1c74e491c89314a4e7dcd4879",
+          "slice": [
+            0,
+            3.26
+          ],
+          "text": "Tus pacientes ya preguntan por péptidos para su piel.",
+          "billedSeconds": 3.26,
+          "tailSeconds": 0,
+          "billedUsd": 0.31459,
+          "listUsd": 0.21744199999999997
+        },
+        {
+          "state": "close",
+          "look": "2daeb4c1c74e491c89314a4e7dcd4879",
+          "slice": [
+            47.400000000000006,
+            54.22
+          ],
+          "text": "médico. Sé el profesional clínico con respuestas reales y construye un servicio de atención a la piel que puedas respaldar. Inscríbete",
+          "billedSeconds": 6.819999999999993,
+          "tailSeconds": 0,
+          "billedUsd": 0.6581299999999993,
+          "listUsd": 0.4548939999999995
+        }
+      ],
+      "moments": 2,
+      "seconds": 10.1,
+      "offscreenSeconds": 0,
+      "usd": [
+        0.67,
+        0.97
+      ]
+    },
+    "assets": {
+      "images": 0,
+      "imagesUsd": 0,
+      "clips": 0,
+      "clipsUsd": 0,
+      "scores": 0
+    },
+    "narrationCharacters": 915
+  },
+  "status": {
+    "narrate": "done",
+    "presenter": "0/2",
+    "regions": "none",
+    "mix": "todo",
+    "build": "todo",
+    "sheet": "todo",
+    "render": "todo",
+    "asset": "todo",
+    "next": "presenter"
+  },
+  "timing": "narrated",
+  "errors": 0,
+  "warnings": 3,
+  "ok": true
+}

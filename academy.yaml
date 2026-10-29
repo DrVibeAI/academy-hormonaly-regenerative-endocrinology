@@ -161,15 +161,19 @@ home:
       ckb-IQ: گێڕانەوەی دەنگی بە زیرەکیی دەستکرد دروستکراوە.
     srcByLocale:
       en: assets/hormones-peptides-skin/home/trailer.mp4
-      es-MX: "assets/hormones-peptides-skin/home/trailer.mp4"
+      es-MX: "assets/hormones-peptides-skin/video/es-MX/trailer-es-MX-f53c0565fd10.mp4"
       ar-AE: assets/hormones-peptides-skin/ar-AE/video/hype.mp4
       ckb-IQ: assets/hormones-peptides-skin/ckb-IQ/video/trailer.mp4
     posterByLocale:
       en: assets/hormones-peptides-skin/home/trailer-poster.jpg
-      es-MX: "assets/hormones-peptides-skin/home/trailer-poster.jpg"
+      es-MX: "assets/hormones-peptides-skin/video/es-MX/trailer-es-MX-poster-8a508c9fd038.jpg"
       ar-AE: assets/hormones-peptides-skin/ar-AE/video/hype-poster.jpg
       ckb-IQ: assets/hormones-peptides-skin/ckb-IQ/video/trailer.jpg
     captionsByLocale:
+      es:
+        src: assets/hormones-peptides-skin/video/es-MX/trailer-es-MX-captions-f1e132de853c.vtt
+        language: es-MX
+        label: Español (México)
       ar:
         src: assets/hormones-peptides-skin/ar-AE/video/hype.vtt
         language: ar

@@ -27,15 +27,17 @@
     0.348,
     0.464
   ],
-  "paidCallsMade": 0,
+  "paidCallsMade": 3,
   "newAvatarOrVoiceClone": false,
-  "paidApproval": "pending",
-  "renderReady": false,
-  "remainingBeforeRender": [
-    "approved Spanish narration and two lip-sync clips",
-    "actual word timings and sentence-level retiming",
-    "three Spanish app glimpse recaptures",
-    "local typography/layout/caption checks",
-    "final review; keep original language assets unchanged"
-  ]
+  "paidApproval": "approved-scoped-candidate-only",
+  "renderReady": true,
+  "remainingBeforeRender": [],
+  "narrationActualCredits": 915,
+  "heygenObservedDebitUsd": 0.3,
+  "finalDurationSeconds": 58.625,
+  "finalFrames": 1407,
+  "captionCues": 22,
+  "allFramesDecode": true,
+  "flashScreeningPass": true,
+  "nativeHumanCertification": false
 }

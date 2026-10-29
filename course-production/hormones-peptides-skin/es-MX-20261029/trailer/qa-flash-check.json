@@ -1,0 +1,25 @@
+{
+  "file": "<trailer-workspace>/work/trailer-es-MX-final.mp4",
+  "ok": true,
+  "findings": [],
+  "worst": {
+    "window": "whole frame",
+    "kind": "general",
+    "count": 2,
+    "flashes": 1,
+    "at": 3.7083333333333335
+  },
+  "frames": 1407,
+  "fps": 24,
+  "mediaProof": {
+    "protocol": "perceptor.modality-qa/1",
+    "tool": "flash-check",
+    "ok": true,
+    "artifactBindings": [
+      {
+        "path": "<trailer-workspace>/work/trailer-es-MX-final.mp4",
+        "sha256": "f53c0565fd10e022e10a03e5e91f399e50154e04667d3e6dc870298ae3227a84"
+      }
+    ]
+  }
+}

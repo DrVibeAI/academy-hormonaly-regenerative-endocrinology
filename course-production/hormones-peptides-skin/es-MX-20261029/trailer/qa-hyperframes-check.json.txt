@@ -1,0 +1,637 @@
+[INFO] [Compiler] Fetched 7 font face(s) for "EB Garamond" from Google Fonts (cached to /Users/omar/.cache/hyperframes/fonts/eb-garamond)
+[INFO] [Compiler] Injected deterministic @font-face rules for 1 requested font families
+[hyperframes] browserGpuMode probe → hardware (WebGL renderer vendor="Google Inc. (Apple)" renderer="ANGLE (Apple, ANGLE Metal Renderer: Apple M4 Pro, Unspecified Version)")
+{
+  "ok": true,
+  "strict": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 1,
+    "infoCount": 11,
+    "findings": [
+      {
+        "code": "pointer_events_none",
+        "severity": "info",
+        "message": "`.spot` sets `pointer-events: none`. Elements matching this selector are harder to select in the Studio preview.",
+        "selector": ".spot",
+        "dataAttributes": {},
+        "sourceFile": "<trailer-workspace>/work/project/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "If these elements should be selectable in the Studio, remove `pointer-events: none` or move it to a wrapper that doesn't contain editable content."
+      },
+      {
+        "code": "pointer_events_none",
+        "severity": "info",
+        "message": "`.footage-scrim` sets `pointer-events: none`. Elements matching this selector are harder to select in the Studio preview.",
+        "selector": ".footage-scrim",
+        "dataAttributes": {},
+        "sourceFile": "<trailer-workspace>/work/project/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "If these elements should be selectable in the Studio, remove `pointer-events: none` or move it to a wrapper that doesn't contain editable content."
+      },
+      {
+        "code": "pointer_events_none",
+        "severity": "info",
+        "message": "`.top-scrim` sets `pointer-events: none`. Elements matching this selector are harder to select in the Studio preview.",
+        "selector": ".top-scrim",
+        "dataAttributes": {},
+        "sourceFile": "<trailer-workspace>/work/project/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "If these elements should be selectable in the Studio, remove `pointer-events: none` or move it to a wrapper that doesn't contain editable content."
+      },
+      {
+        "code": "composition_file_too_large",
+        "severity": "warning",
+        "message": "This HTML composition file has 563 lines. Smaller sub-compositions are easier to read, iterate on, and diff.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "<trailer-workspace>/work/project/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Split coherent scenes or layers into separate .html files under compositions/, then mount them from the parent with data-composition-src so each file stays small enough to inspect, revise, and validate independently."
+      },
+      {
+        "code": "timed_element_missing_visibility_hidden",
+        "severity": "info",
+        "message": "<video id=\"c0-v\"> has data-start but no class=\"clip\", visibility:hidden, or opacity:0. Consider adding initial hidden state if the element should not be visible before its start time.",
+        "selector": "#c0-v",
+        "dataAttributes": {},
+        "sourceFile": "<trailer-workspace>/work/project/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add class=\"clip\" (with CSS: .clip { visibility: hidden; }) or style=\"opacity:0\" if the element should start hidden."
+      },
+      {
+        "code": "timed_element_missing_visibility_hidden",
+        "severity": "info",
+        "message": "<video id=\"c1-v\"> has data-start but no class=\"clip\", visibility:hidden, or opacity:0. Consider adding initial hidden state if the element should not be visible before its start time.",
+        "selector": "#c1-v",
+        "dataAttributes": {},
+        "sourceFile": "<trailer-workspace>/work/project/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add class=\"clip\" (with CSS: .clip { visibility: hidden; }) or style=\"opacity:0\" if the element should start hidden."
+      },
+      {
+        "code": "timed_element_missing_visibility_hidden",
+        "severity": "info",
+        "message": "<video id=\"c5-v\"> has data-start but no class=\"clip\", visibility:hidden, or opacity:0. Consider adding initial hidden state if the element should not be visible before its start time.",
+        "selector": "#c5-v",
+        "dataAttributes": {},
+        "sourceFile": "<trailer-workspace>/work/project/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add class=\"clip\" (with CSS: .clip { visibility: hidden; }) or style=\"opacity:0\" if the element should start hidden."
+      },
+      {
+        "code": "timed_element_missing_visibility_hidden",
+        "severity": "info",
+        "message": "<video id=\"c6-v\"> has data-start but no class=\"clip\", visibility:hidden, or opacity:0. Consider adding initial hidden state if the element should not be visible before its start time.",
+        "selector": "#c6-v",
+        "dataAttributes": {},
+        "sourceFile": "<trailer-workspace>/work/project/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add class=\"clip\" (with CSS: .clip { visibility: hidden; }) or style=\"opacity:0\" if the element should start hidden."
+      },
+      {
+        "code": "timed_element_missing_visibility_hidden",
+        "severity": "info",
+        "message": "<video id=\"c7-v\"> has data-start but no class=\"clip\", visibility:hidden, or opacity:0. Consider adding initial hidden state if the element should not be visible before its start time.",
+        "selector": "#c7-v",
+        "dataAttributes": {},
+        "sourceFile": "<trailer-workspace>/work/project/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add class=\"clip\" (with CSS: .clip { visibility: hidden; }) or style=\"opacity:0\" if the element should start hidden."
+      },
+      {
+        "code": "timed_element_missing_visibility_hidden",
+        "severity": "info",
+        "message": "<video id=\"c9-v\"> has data-start but no class=\"clip\", visibility:hidden, or opacity:0. Consider adding initial hidden state if the element should not be visible before its start time.",
+        "selector": "#c9-v",
+        "dataAttributes": {},
+        "sourceFile": "<trailer-workspace>/work/project/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add class=\"clip\" (with CSS: .clip { visibility: hidden; }) or style=\"opacity:0\" if the element should start hidden."
+      },
+      {
+        "code": "timed_element_missing_visibility_hidden",
+        "severity": "info",
+        "message": "<video id=\"c10-v\"> has data-start but no class=\"clip\", visibility:hidden, or opacity:0. Consider adding initial hidden state if the element should not be visible before its start time.",
+        "selector": "#c10-v",
+        "dataAttributes": {},
+        "sourceFile": "<trailer-workspace>/work/project/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add class=\"clip\" (with CSS: .clip { visibility: hidden; }) or style=\"opacity:0\" if the element should start hidden."
+      },
+      {
+        "code": "system_font_will_alias",
+        "severity": "info",
+        "message": "Font family will be substituted at render time: 'georgia' → EB Garamond. The renderer maps these to bundled fonts for cross-platform consistency. Use the target font name directly for consistent preview and render results.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "<trailer-workspace>/work/project/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0
+      }
+    ],
+    "filesScanned": 1
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 7,
+    "findings": [
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 3.257,
+        "selector": "#c0-v",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": -1295.36,
+          "top": 1,
+          "right": 2377.37,
+          "bottom": 2066.91,
+          "width": 3672.73,
+          "height": 2065.91
+        },
+        "containerSelector": "#c0",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 1,
+          "top": 1,
+          "right": 1079,
+          "bottom": 1919,
+          "width": 1078,
+          "height": 1918
+        },
+        "overflow": {
+          "left": 1296.36,
+          "right": 1298.37,
+          "bottom": 147.91
+        },
+        "dataAttributes": {
+          "data-start": "0.50",
+          "data-duration": "3.25",
+          "data-track-index": "2",
+          "data-volume": "0",
+          "data-end": "3.75",
+          "data-has-audio": "false",
+          "data-hf-authored-opacity": ""
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": -1295.36,
+          "y": 1,
+          "width": 3672.73,
+          "height": 2065.91
+        },
+        "firstSeen": 3.257,
+        "lastSeen": 3.257,
+        "occurrences": 1
+      },
+      {
+        "code": "escaped_container",
+        "severity": "info",
+        "time": 3.257,
+        "selector": "#c0-v",
+        "message": "Positioned element renders far outside its offset parent — its coordinates were likely computed in a different frame (canvas/viewport pixels).",
+        "rect": {
+          "left": -1295.36,
+          "top": 1,
+          "right": 2377.37,
+          "bottom": 2066.91,
+          "width": 3672.73,
+          "height": 2065.91
+        },
+        "containerSelector": "#c0",
+        "text": "",
+        "fixHint": "Compute left/top in the offset parent's frame (subtract its rect), or mark intentional placement with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 1,
+          "top": 1,
+          "right": 1079,
+          "bottom": 1919,
+          "width": 1078,
+          "height": 1918
+        },
+        "dataAttributes": {
+          "data-start": "0.50",
+          "data-duration": "3.25",
+          "data-track-index": "2",
+          "data-volume": "0",
+          "data-end": "3.75",
+          "data-has-audio": "false",
+          "data-hf-authored-opacity": ""
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": -1295.36,
+          "y": 1,
+          "width": 3672.73,
+          "height": 2065.91
+        },
+        "firstSeen": 3.257,
+        "lastSeen": 3.257,
+        "occurrences": 1
+      },
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 9.77,
+        "selector": "#c1-v",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": -287.95,
+          "top": -432.31,
+          "right": 1219.23,
+          "bottom": 2247.13,
+          "width": 1507.18,
+          "height": 2679.44
+        },
+        "containerSelector": "#c1",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 1,
+          "top": 1,
+          "right": 1079,
+          "bottom": 1919,
+          "width": 1078,
+          "height": 1918
+        },
+        "overflow": {
+          "left": 288.95,
+          "right": 140.23,
+          "top": 433.31,
+          "bottom": 328.13
+        },
+        "dataAttributes": {
+          "data-start": "3.74",
+          "data-duration": "8.00",
+          "data-track-index": "3",
+          "data-volume": "0",
+          "data-end": "11.74",
+          "data-has-audio": "false",
+          "data-hf-authored-opacity": ""
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": -287.95,
+          "y": -432.31,
+          "width": 1507.18,
+          "height": 2679.44
+        },
+        "firstSeen": 9.77,
+        "lastSeen": 9.77,
+        "occurrences": 1
+      },
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 35.823,
+        "selector": "#c6-v",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 112.21,
+          "top": -6.92,
+          "right": 969.73,
+          "bottom": 1848.85,
+          "width": 857.52,
+          "height": 1855.76
+        },
+        "containerSelector": "#c6",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 114.87,
+          "top": 364.14,
+          "right": 965.12,
+          "bottom": 1475.86,
+          "width": 850.26,
+          "height": 1111.72
+        },
+        "overflow": {
+          "left": 2.66,
+          "right": 4.61,
+          "top": 371.06,
+          "bottom": 372.99
+        },
+        "dataAttributes": {
+          "data-start": "35.10",
+          "data-duration": "7.50",
+          "data-track-index": "2",
+          "data-volume": "0",
+          "data-end": "42.6",
+          "data-has-audio": "false",
+          "data-hf-authored-opacity": ""
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 112.21,
+          "y": -6.92,
+          "width": 857.52,
+          "height": 1855.76
+        },
+        "firstSeen": 35.823,
+        "lastSeen": 35.823,
+        "occurrences": 1
+      },
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 42.337,
+        "selector": "#c9-v",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": -20.54,
+          "top": -147.2,
+          "right": 1102.55,
+          "bottom": 1849.4,
+          "width": 1123.09,
+          "height": 1996.6
+        },
+        "containerSelector": "#c9",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 6.66,
+          "top": 51.42,
+          "right": 1073.31,
+          "bottom": 1847.38,
+          "width": 1066.65,
+          "height": 1795.96
+        },
+        "overflow": {
+          "left": 27.2,
+          "right": 29.24,
+          "top": 198.62,
+          "bottom": 2.02
+        },
+        "dataAttributes": {
+          "data-start": "42.06",
+          "data-duration": "8.00",
+          "data-track-index": "5",
+          "data-volume": "0",
+          "data-end": "50.06",
+          "data-has-audio": "false",
+          "data-hf-authored-opacity": ""
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": -20.54,
+          "y": -147.2,
+          "width": 1123.09,
+          "height": 1996.6
+        },
+        "firstSeen": 42.337,
+        "lastSeen": 42.337,
+        "occurrences": 1
+      },
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 48.85,
+        "selector": "#c10-v",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": -1238.53,
+          "top": 1,
+          "right": 2320.54,
+          "bottom": 2002.97,
+          "width": 3559.07,
+          "height": 2001.97
+        },
+        "containerSelector": "#c10",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 1,
+          "top": 1,
+          "right": 1079,
+          "bottom": 1919,
+          "width": 1078,
+          "height": 1918
+        },
+        "overflow": {
+          "left": 1239.53,
+          "right": 1241.54,
+          "bottom": 83.97
+        },
+        "dataAttributes": {
+          "data-start": "47.90",
+          "data-duration": "6.82",
+          "data-track-index": "6",
+          "data-volume": "0",
+          "data-end": "54.72",
+          "data-has-audio": "false",
+          "data-hf-authored-opacity": ""
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": -1238.53,
+          "y": 1,
+          "width": 3559.07,
+          "height": 2001.97
+        },
+        "firstSeen": 48.85,
+        "lastSeen": 48.85,
+        "occurrences": 1
+      },
+      {
+        "code": "escaped_container",
+        "severity": "info",
+        "time": 48.85,
+        "selector": "#c10-v",
+        "message": "Positioned element renders far outside its offset parent — its coordinates were likely computed in a different frame (canvas/viewport pixels).",
+        "rect": {
+          "left": -1238.53,
+          "top": 1,
+          "right": 2320.54,
+          "bottom": 2002.97,
+          "width": 3559.07,
+          "height": 2001.97
+        },
+        "containerSelector": "#c10",
+        "text": "",
+        "fixHint": "Compute left/top in the offset parent's frame (subtract its rect), or mark intentional placement with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 1,
+          "top": 1,
+          "right": 1079,
+          "bottom": 1919,
+          "width": 1078,
+          "height": 1918
+        },
+        "dataAttributes": {
+          "data-start": "47.90",
+          "data-duration": "6.82",
+          "data-track-index": "6",
+          "data-volume": "0",
+          "data-end": "54.72",
+          "data-has-audio": "false",
+          "data-hf-authored-opacity": ""
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": -1238.53,
+          "y": 1,
+          "width": 3559.07,
+          "height": 2001.97
+        },
+        "firstSeen": 48.85,
+        "lastSeen": 48.85,
+        "occurrences": 1
+      }
+    ],
+    "duration": 58.62,
+    "samples": [
+      3.257,
+      9.77,
+      16.283,
+      22.797,
+      29.31,
+      35.823,
+      42.337,
+      48.85,
+      55.363
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 7,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 1,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 2.16:1; WCAG AA requires 3:1.",
+        "text": "Más de cuatrocientas fuentes.",
+        "fg": "rgb(102,102,114)",
+        "bg": "rgb(70,48,44)",
+        "ratio": 2.16,
+        "requiredRatio": 3,
+        "suggestedColor": "rgb(125,125,136)",
+        "large": true,
+        "selector": "#cap-16",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 80,
+          "y": 1652.1099853515625,
+          "width": 920,
+          "height": 51.671875
+        },
+        "time": 42.337
+      }
+    ],
+    "enabled": true,
+    "samples": [
+      3.257,
+      16.283,
+      29.31,
+      42.337,
+      55.363
+    ],
+    "checked": 23,
+    "passed": 22
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  },
+  "_meta": {
+    "version": "0.8.3",
+    "latestVersion": "0.8.216",
+    "updateAvailable": true
+  }
+}
