@@ -1,0 +1,20 @@
+{
+  "schema": "perceptor.completion-gift/1",
+  "academy": "hormonaly",
+  "courseId": "hormonaly.hormones-peptides-skin",
+  "id": "hormonaly-peptide-pocket-guide-2026",
+  "title": "The Peptide Pocket Guide (2026)",
+  "author": "Fady Hannah-Shmouni, MD FRCPC",
+  "description": "Your complimentary course-completion gift. A 2026 clinical reference covering 72 peptide therapeutics, biologics and mixtures. English PDF.",
+  "kind": "gift",
+  "amount": 0,
+  "currency": "USD",
+  "format": "pdf",
+  "language": "en",
+  "sourceFile": "corpus/peptide-pocket-guide-2026-08-clinical-reference.pdf",
+  "sourceDriveUrl": "https://drive.google.com/file/d/1g5kv6jG_OrHleoDzxTdVdj4SEtFYKXcg/view?usp=drivesdk",
+  "sha256": "c533b43448507c9f6da16c4f6889639059dc198c0c0d9f244f9bfe45fbc61233",
+  "bytes": 714663,
+  "eligibility": "Existing Hormonaly course completion requirements; survey is optional and not a download gate.",
+  "ownerInstruction": "Omar selected Fady’s shared book as the free Hormonaly Academy completion gift, 2026-10-30."
+}
