@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "academy": "hormonaly",
   "brandFingerprint": "087d01f11541736bd5a1e0fbb5118d3520c33845ad8fd0a9f7ec43730d19e44d",
-  "course": "packages/hormones-peptides-skin.ar-AE.json",
-  "packageSha256": "a31221d366bde348bb86658cb25bb03f7f0afbe6fa237d07d32d793c32d8dc8b",
+  "course": "packages/hormones-peptides-skin.es-MX.json",
+  "packageSha256": "a2f30b63bc7c0800f5adf14774a7d54183bf0441d6e4cd1b189fd32477e91b79",
   "capturedAt": "2026-10-16T17:42:27.672124+00:00",
   "sourceRuntimeCommit": "f9f8219",
   "viewport": {
@@ -110,5 +110,12 @@
     "humanApproved": false,
     "method": "Actual rebuilt learner UI; Codex in-app browser; 390x844; no answers submitted or real learner records changed."
   },
-  "deploymentAmendment": "Added required English fallback to Sorani-only narration disclosure; captured visuals unchanged."
+  "deploymentAmendment": "Added required English fallback to Sorani-only narration disclosure; captured visuals unchanged.",
+  "editionSelectionAmendment": {
+    "date": "2026-11-05",
+    "previousCourse": "packages/hormones-peptides-skin.ar-AE.json",
+    "previousPackageSha256": "a31221d366bde348bb86658cb25bb03f7f0afbe6fa237d07d32d793c32d8dc8b",
+    "scope": "Select the existing Spanish-inclusive edition as the catalog default. Recursive comparison confirms every existing package leaf and list position is preserved; Spanish additions only. Original English/Arabic/Sorani capture files, hashes, capture dates and review records are unchanged. No Spanish screenshots are claimed.",
+    "comparison": "course-production/spanish-selection-20261105/package-preservation.json"
+  }
 }
