@@ -1,7 +1,7 @@
 {
   "tool": "perceptor-foundry/tools/qa/claim-support.mjs",
   "contract": "docs/claim-support.md",
-  "generatedAt": "2026-10-12T12:27:59.753Z",
+  "generatedAt": "2026-11-10T14:05:19.768Z",
   "package": {
     "id": "hormonaly.hormones-peptides-skin",
     "version": "1.1.0",
@@ -31,14 +31,15 @@
     "minor": 0,
     "preprintCitedUnits": 0,
     "sourcesByBasis": {
-      "none": 50,
-      "landing": 22,
+      "none": 49,
+      "landing": 23,
       "pdf": 39,
       "webpage": 106,
       "fulltext": 67,
       "abstract": 128
     }
   },
+  "sourcesOnly": true,
   "sources": [
     {
       "id": "ae-ede-reg-wegovy",
@@ -687,7 +688,7 @@
       "titleMatch": null,
       "entrySha": "f5283063b2843f18aee7ac142abb751ec611b146f5a56349b278cf274eed5980",
       "chars": 4172,
-      "textSha256": "58ab7afc2b98955e503f975c4afb2f15b066f6b3240ee5552d32e6640f057226"
+      "textSha256": "28e2255409e3d792fba3825f6aa06ab42c0f319fc4be5b4b04a8f5ba65b1741e"
     },
     {
       "id": "br-dou-re-2318-2026",
@@ -1095,7 +1096,7 @@
       "titleMatch": null,
       "entrySha": "36b2f4a86870117b19372c635bfa885cc5bc7a82a11af7a298601ef1dea0e0b4",
       "chars": 6558,
-      "textSha256": "7995f06099fa8427d2d1109e85e269f1e51014434bbd3adbf09ba2d9e534db9d"
+      "textSha256": "bfdecada05b8e00a187284d1119b0dd98bd6d793ec59923453c128485c16c6bc"
     },
     {
       "id": "eu-ema-glp1-shortages-2024",
@@ -5357,10 +5358,6 @@
       "resolvedTitle": "Melanocortin-derived tripeptide KPV has anti-inflammatory potential in murine models of inflammatory bowel disease.",
       "pmid": "18092346",
       "openAccess": false,
-      "attempts": [
-        "HTTP 403 at https://academic.oup.com/ibdjournal/article-pdf/14/3/324/22783921/0054725-200803000-00005.pdf",
-        "HTTP 403 at https://doi.org/10.1002/ibd.20334"
-      ],
       "titleMatch": 1,
       "entrySha": "a574cfbb8593804a5ff1f238b7ba0269c193b448512584198123fe488be89626",
       "chars": 1987,
@@ -6687,14 +6684,19 @@
       "title": "21 U.S.C. § 333(e) — Prohibited distribution of human growth hormone",
       "url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title21-section333&num=0&edition=prelim",
       "ids": {},
-      "resolvedVia": [],
-      "basis": "none",
+      "resolvedVia": [
+        "url:landing"
+      ],
+      "basis": "landing",
       "preprint": false,
-      "error": "the cited URL has no readable text (landing page or JavaScript app) — cite the specific record or document",
+      "attempts": [
+        "the cited page is a landing or portal page (1132 characters, 361 in prose paragraphs) — cite the specific document or record"
+      ],
+      "finalUrl": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title21-section333&num=0&edition=prelim",
       "titleMatch": null,
       "entrySha": "5ff156276153e6913e2a3d08698641b3fe71ef4c43ba77635c3d13e812532a3c",
-      "chars": 0,
-      "textSha256": null
+      "chars": 1369,
+      "textSha256": "84146ed7f5e9ce370ec794b77dd9fdc86337b23c8df93f40a0ca3c27b0c51f63"
     },
     {
       "id": "falutz-2007-tesamorelin-nejm",
