@@ -1,0 +1,154 @@
+{
+  "films": [
+    {
+      "id": "asset-hps-m01-opener",
+      "uri": "assets/hormones-peptides-skin/video/m01-opener.mp4",
+      "exists": true,
+      "probeExit": 0,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_type": "video"
+          },
+          {
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "70.260000"
+        }
+      }
+    },
+    {
+      "id": "asset-hps-m02-opener",
+      "uri": "assets/hormones-peptides-skin/video/m02-opener-r3.mp4",
+      "exists": true,
+      "probeExit": 0,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_type": "video"
+          },
+          {
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "76.140000"
+        }
+      }
+    },
+    {
+      "id": "asset-hps-m03-opener",
+      "uri": "assets/hormones-peptides-skin/video/m03-opener.mp4",
+      "exists": true,
+      "probeExit": 0,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_type": "video"
+          },
+          {
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "72.340000"
+        }
+      }
+    },
+    {
+      "id": "asset-hps-m04-opener",
+      "uri": "assets/hormones-peptides-skin/video/m04-opener.mp4",
+      "exists": true,
+      "probeExit": 0,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_type": "video"
+          },
+          {
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "67.100000"
+        }
+      }
+    },
+    {
+      "id": "asset-hps-m05-opener",
+      "uri": "assets/hormones-peptides-skin/video/m05-opener.mp4",
+      "exists": true,
+      "probeExit": 0,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_type": "video"
+          },
+          {
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "71.260000"
+        }
+      }
+    },
+    {
+      "id": "asset-hps-m06-opener",
+      "uri": "assets/hormones-peptides-skin/video/m06-opener.mp4",
+      "exists": true,
+      "probeExit": 0,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_type": "video"
+          },
+          {
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "83.540000"
+        }
+      }
+    },
+    {
+      "id": "asset-hps-m07-opener",
+      "uri": "assets/hormones-peptides-skin/video/m07-opener.mp4",
+      "exists": true,
+      "probeExit": 0,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_type": "video"
+          },
+          {
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "75.300000"
+        }
+      }
+    }
+  ],
+  "audioBlocks": 48,
+  "audioBeats": 138,
+  "missingAudioBeats": [
+    "m4-p06",
+    "m4-p11"
+  ],
+  "videoBriefs": [],
+  "librarySourceInsights": 0,
+  "packageSha256": "6419297d6d012d8c8e5b58909e9e9f1f950443aa548ca20618017dbb0ebfa4fa",
+  "audioAssets": []
+}
