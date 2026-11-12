@@ -1,0 +1,231 @@
+{
+  "banner": "agent pre-review — no gate opened",
+  "kind": "perceptor.upkeep-draft.audioBeats-proposal/1",
+  "draftStatus": "draft-only — unapplied proposal; nothing in packages/ was changed",
+  "createdOn": "2026-11-12",
+  "operatorRun": "20261112-104531-construct-goal-prepare-reversible-offline-read-alo",
+  "context": "Independent offline maintenance. Not a resumption of hub run run-76e4274d-4ce7-40d0-9ee9-193e26e3a31d (paused, pinned to an older release). No narration, voice selection, media or gate is produced or changed by this draft.",
+  "source": {
+    "package": "packages/hormones-peptides-skin.json",
+    "packageId": "hormonaly.hormones-peptides-skin",
+    "packageVersion": "1.1.0",
+    "sha256": "6419297d6d012d8c8e5b58909e9e9f1f950443aa548ca20618017dbb0ebfa4fa",
+    "bytes": 2038738,
+    "baseRef": "origin/factory/intake-hormonaly",
+    "baseCommit": "4e63edc9f8dab13fc493bbb5f98a8cdcc77a06f6",
+    "gitBlob": "21085abf15cb0b99ce90dcdf27c77fcb52a4a2f6",
+    "foundryRef": "69b4706c26505bb6b03b08be6ab900b7493a0816",
+    "sourceLock": {
+      "path": "course-production/hormones-peptides-skin/source-lock.md",
+      "sha256": "e830148c2de8ed85ce0e2c88ccae52c71473b19266ac833356e64205aaa836ff",
+      "lockedAt": "2026-09-24"
+    }
+  },
+  "fingerprintMethod": "sha256 over the UTF-8 bytes of json.dumps(block, sort_keys=True, ensure_ascii=False, separators=(',', ':')) for the whole block object as it sits in the package; bodySha256 / audioScriptSha256 hash the UTF-8 en strings.",
+  "draftRules": [
+    "Beat bodies are whole sentences copied verbatim from the same block's body.en or metadata.audioScript.en, joined by a single space; no word is added, removed or changed.",
+    "Beat titles are verbatim phrases from the same block's body.en or metadata.audioScript.en; the only edit allowed is capitalising the first letter.",
+    "2–4 beats per block; at most 35 words per beat body (a word is a whitespace token containing a letter or digit).",
+    "citationRefs are copied unchanged from the block; no citation is added or dropped, so the beats stay inside provenance.sourceLock.",
+    "proposedAudioBeats items carry only title and body, matching the pinned schema (course-package.schema.json → block.audioBeats).",
+    "English (base locale) only; the package declares no other locale."
+  ],
+  "blocks": {
+    "m4-p06": {
+      "sourceFingerprint": "9d873efb2bfb79359c843ea7acf200d67d225fba1ab25ef1bc4e929744bf763c",
+      "bodySha256": "e470510fe12ba829b71468789f138c6c481a874409479225e060ccceeda17e19",
+      "audioScriptSha256": "3bcb6006c598a1fcf776c2094b1fffd735eb179095ae9d98f1f1758b09a3c912",
+      "title": "Serum yes, syringe no.",
+      "citationRefs": [
+        "hannah-shmouni-2026-ppg-aug",
+        "hannah-shmouni-2026-are",
+        "li-2016-copper-skin-toxicity",
+        "fda-503a-categories-2026-05-14"
+      ],
+      "requiredQualifiers": [
+        "Topical",
+        "grade C",
+        "Injected",
+        "randomized trials of injection",
+        "United States",
+        "injectable route",
+        "non-injectable use",
+        "name the route"
+      ],
+      "proposedAudioBeats": [
+        {
+          "title": {
+            "en": "Topical GHK-Cu"
+          },
+          "body": {
+            "en": "Topical GHK-Cu is a reasonable cosmetic conversation, as long as you describe the evidence honestly: small trials, modest effects, grade C."
+          }
+        },
+        {
+          "title": {
+            "en": "Injected GHK-Cu"
+          },
+          "body": {
+            "en": "Injected GHK-Cu is not the same product in a stronger form."
+          }
+        },
+        {
+          "title": {
+            "en": "The injectable route"
+          },
+          "body": {
+            "en": "There are no randomized trials of injection, injection-site pain and rash are common because copper irritates tissue, and in the United States the injectable route sits outside the Category 1 listing that covers non-injectable use."
+          }
+        },
+        {
+          "title": {
+            "en": "Name the route every time"
+          },
+          "body": {
+            "en": "Whatever your role, name the route every time you talk about this peptide."
+          }
+        }
+      ],
+      "beatSources": [
+        {
+          "title": {
+            "field": "body.en",
+            "text": "Topical GHK-Cu"
+          },
+          "sentences": [
+            {
+              "field": "metadata.audioScript.en",
+              "sentence": "Topical GHK-Cu is a reasonable cosmetic conversation, as long as you describe the evidence honestly: small trials, modest effects, grade C."
+            }
+          ]
+        },
+        {
+          "title": {
+            "field": "body.en",
+            "text": "Injected GHK-Cu"
+          },
+          "sentences": [
+            {
+              "field": "metadata.audioScript.en",
+              "sentence": "Injected GHK-Cu is not the same product in a stronger form."
+            }
+          ]
+        },
+        {
+          "title": {
+            "field": "metadata.audioScript.en",
+            "text": "the injectable route"
+          },
+          "sentences": [
+            {
+              "field": "metadata.audioScript.en",
+              "sentence": "There are no randomized trials of injection, injection-site pain and rash are common because copper irritates tissue, and in the United States the injectable route sits outside the Category 1 listing that covers non-injectable use."
+            }
+          ]
+        },
+        {
+          "title": {
+            "field": "metadata.audioScript.en",
+            "text": "name the route every time"
+          },
+          "sentences": [
+            {
+              "field": "metadata.audioScript.en",
+              "sentence": "Whatever your role, name the route every time you talk about this peptide."
+            }
+          ]
+        }
+      ]
+    },
+    "m4-p11": {
+      "sourceFingerprint": "e38000907c1513b0aec9e0ea3b9a2f9059d1716cd615ff870490528ca03da4dd",
+      "bodySha256": "2ae86eeb67817c0583c3396b39a2eb6eb855474349ce09663bd16f2451f7ba6c",
+      "audioScriptSha256": "1fef9dd098f369517a61f57e0748f837f4b3edb3cf1b08dc8de25417d2516e29",
+      "title": "Cosmetic, supplement, drug: three rulebooks.",
+      "citationRefs": [
+        "bjerke-2026-cosmetic-peptide-safety-framework",
+        "lupo-cole-2007-cosmeceutical-peptides",
+        "hannah-shmouni-2026-are",
+        "hannah-shmouni-2026-ppg-aug"
+      ],
+      "requiredQualifiers": [
+        "In the US",
+        "not drugs",
+        "cosmetics framework",
+        "dietary supplement",
+        "cannot claim to treat a disease",
+        "varies from brand to brand",
+        "prove efficacy before sale",
+        "trials someone chose to pay for"
+      ],
+      "proposedAudioBeats": [
+        {
+          "title": {
+            "en": "Cosmetic peptides"
+          },
+          "body": {
+            "en": "In the US, cosmetic peptides are cosmetic ingredients, not drugs, and their safety is assessed under a cosmetics framework."
+          }
+        },
+        {
+          "title": {
+            "en": "Oral collagen"
+          },
+          "body": {
+            "en": "Oral collagen is sold as a dietary supplement, so it cannot claim to treat a disease, and what is in the tub varies from brand to brand."
+          }
+        },
+        {
+          "title": {
+            "en": "The funding question"
+          },
+          "body": {
+            "en": "Neither route has to prove efficacy before sale — which is why the funding question matters. When no regulator asks for efficacy, the only efficacy data are the trials someone chose to pay for."
+          }
+        }
+      ],
+      "beatSources": [
+        {
+          "title": {
+            "field": "metadata.audioScript.en",
+            "text": "Cosmetic peptides"
+          },
+          "sentences": [
+            {
+              "field": "body.en",
+              "sentence": "In the US, cosmetic peptides are cosmetic ingredients, not drugs, and their safety is assessed under a cosmetics framework."
+            }
+          ]
+        },
+        {
+          "title": {
+            "field": "metadata.audioScript.en",
+            "text": "Oral collagen"
+          },
+          "sentences": [
+            {
+              "field": "metadata.audioScript.en",
+              "sentence": "Oral collagen is sold as a dietary supplement, so it cannot claim to treat a disease, and what is in the tub varies from brand to brand."
+            }
+          ]
+        },
+        {
+          "title": {
+            "field": "body.en",
+            "text": "the funding question"
+          },
+          "sentences": [
+            {
+              "field": "body.en",
+              "sentence": "Neither route has to prove efficacy before sale — which is why the funding question matters."
+            },
+            {
+              "field": "metadata.audioScript.en",
+              "sentence": "When no regulator asks for efficacy, the only efficacy data are the trials someone chose to pay for."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
