@@ -1,7 +1,7 @@
 {
   "tool": "perceptor-foundry/tools/qa/claim-support.mjs",
   "contract": "docs/claim-support.md",
-  "generatedAt": "2026-10-12T12:27:59.753Z",
+  "generatedAt": "2026-11-12T13:23:58.088Z",
   "package": {
     "id": "hormonaly.hormones-peptides-skin",
     "version": "1.1.0",
@@ -31,14 +31,15 @@
     "minor": 0,
     "preprintCitedUnits": 0,
     "sourcesByBasis": {
-      "none": 50,
-      "landing": 22,
-      "pdf": 39,
+      "none": 47,
+      "landing": 25,
+      "pdf": 42,
       "webpage": 106,
       "fulltext": 67,
-      "abstract": 128
+      "abstract": 125
     }
   },
+  "sourcesOnly": true,
   "sources": [
     {
       "id": "ae-ede-reg-wegovy",
@@ -71,7 +72,7 @@
       "titleMatch": null,
       "entrySha": "710e9c3892d83e4fa58c5e0ff15d6f39c74cdef9d1f6fa6a19e23a67dbec2bb7",
       "chars": 6351,
-      "textSha256": "9c9a5c9e3623c5a3654d10c37009800ce777424f95a42ef7bfa7641c3b866a76"
+      "textSha256": "9438a73886573ab3a962e0e2d9f82223d7a4faebd20293f2510d8c226519d5d7"
     },
     {
       "id": "ae-ede-news-oral-wegovy",
@@ -84,13 +85,13 @@
       "basis": "landing",
       "preprint": false,
       "attempts": [
-        "the cited page is a landing or portal page (3595 characters, 3062 in prose paragraphs) — cite the specific document or record"
+        "the cited page is a landing or portal page (3538 characters, 3009 in prose paragraphs) — cite the specific document or record"
       ],
       "finalUrl": "https://www.ede.gov.ae/en/w/emirates-drug-establishment-approves-oral-wegovy%C2%AE-semaglutide-for-weight-management-and-cardiovascular-risk-reduction",
       "titleMatch": null,
       "entrySha": "f13341009d079f09cc6c0c0bfd47f5bb3239155dc1a4ad5f96c9a71e8e972b2d",
-      "chars": 3664,
-      "textSha256": "6e1c207817a0be8b2f1f9f705e6e5b0e3ee55f06c2ad6b417987e2872ad3a070"
+      "chars": 3607,
+      "textSha256": "3a8e4d4aaf237dbf1e95dc53dae560ca2beb322434475afb800ab43b30588b2b"
     },
     {
       "id": "ae-ede-reg-mounjaro",
@@ -117,6 +118,9 @@
       "basis": "pdf",
       "preprint": false,
       "finalUrl": "https://www.dha.gov.ae/api/hasana/downloadfile/5687ADDC-18BE-CEB5-AB20-92ADD1500000",
+      "attempts": [
+        "refetch failed 2026-11-12: pdf extraction failed: pypdf.errors.DependencyError: cryptography>=3.1 is required for AES algorithm — cached copy kept"
+      ],
       "titleMatch": null,
       "entrySha": "8c6d2bf8e2224ff614a3e6e7c6542d570ee756b9e6f8b530b46046c1acbdb4e7",
       "chars": 4735,
@@ -133,6 +137,9 @@
       "basis": "pdf",
       "preprint": false,
       "finalUrl": "https://www.doh.gov.ae/-/media/3531F224BD5044159EA79E6277E8D9E2.ashx",
+      "attempts": [
+        "refetch failed 2026-11-12: www.doh.gov.ae: UNABLE_TO_VERIFY_LEAF_SIGNATURE — cached copy kept"
+      ],
       "titleMatch": null,
       "entrySha": "97321db316e674a58d5f341f5d4f4ca4cde56ffb05b34702cf1771ebe64d2fb0",
       "chars": 4049,
@@ -303,6 +310,9 @@
       "basis": "pdf",
       "preprint": false,
       "finalUrl": "https://www.dha.gov.ae/api/hasana/downloadfile/D038B3CC-E292-CFD1-902E-9FAC68900000",
+      "attempts": [
+        "refetch failed 2026-11-12: pdf extraction failed: pypdf.errors.DependencyError: cryptography>=3.1 is required for AES algorithm — cached copy kept"
+      ],
       "titleMatch": null,
       "entrySha": "0f8a692ea892e137b7b5330edbe6c17e7b5193d50bba17bee4eb864d4351513a",
       "chars": 15209,
@@ -319,6 +329,9 @@
       "basis": "pdf",
       "preprint": false,
       "finalUrl": "https://www.doh.gov.ae/-/media/Feature/Resources/Standards/2026/081826_Standard-For-Provision-of-Compounding-Pharmacy.ashx",
+      "attempts": [
+        "refetch failed 2026-11-12: www.doh.gov.ae: UNABLE_TO_VERIFY_LEAF_SIGNATURE — cached copy kept"
+      ],
       "titleMatch": null,
       "entrySha": "a34f92aed1011170ed2ae3258d0ff4ff896b6c98551821710ab90918c4070f23",
       "chars": 101645,
@@ -335,6 +348,9 @@
       "basis": "pdf",
       "preprint": false,
       "finalUrl": "https://www.doh.gov.ae/-/media/Feature/Resources/Circulars/2026/148--2026.ashx",
+      "attempts": [
+        "refetch failed 2026-11-12: www.doh.gov.ae: UNABLE_TO_VERIFY_LEAF_SIGNATURE — cached copy kept"
+      ],
       "titleMatch": null,
       "entrySha": "20e6d054abb2829beba62178c19a69b1e75953c75c115de10abdf184c5fcd4ca",
       "chars": 7635,
@@ -388,8 +404,8 @@
       "finalUrl": "https://moiat.gov.ae/-/media/site/moiat/document/services-user-manual/cad-regulated-sheet.ashx",
       "titleMatch": null,
       "entrySha": "a5cffc24b6c7a551f1541aab3a82bc59decfae423de5c985b9aa1792531ab048",
-      "chars": 57058,
-      "textSha256": "59a96298dc8db22e028c20b4a649174101e88a09913f18bb6a965c1ae18e5f5a"
+      "chars": 57137,
+      "textSha256": "05d270b3cd7762d5d634fe786596ca0ce24dbcf245d5436c57758b91a58b0f81"
     },
     {
       "id": "ae-moiat-ecas-service",
@@ -440,6 +456,9 @@
       "basis": "pdf",
       "preprint": false,
       "finalUrl": "https://www.dha.gov.ae/api/hasana/downloadfile/35B33F32-6328-C0F3-8794-9F7E10000000",
+      "attempts": [
+        "refetch failed 2026-11-12: pdf extraction failed: pypdf.errors.DependencyError: cryptography>=3.1 is required for AES algorithm — cached copy kept"
+      ],
       "titleMatch": null,
       "entrySha": "9e0b068ff4cef98742f2bfd734474c5abed38004e606fbb914ffbcfe8ca84c92",
       "chars": 11243,
@@ -520,7 +539,7 @@
       "titleMatch": null,
       "entrySha": "0effdf62252ee58b292135a4de9bd945a689751d6f5cd6e32517e91e6eec971d",
       "chars": 5892,
-      "textSha256": "b32479d7c44ce7d061b05b752f41b4fb03311061b6656b27b749f631dc83e03a"
+      "textSha256": "8d831ecf0a4839b51a1de638fac7569d2b4d17bb0a6cfe06923b56d1d4a262b8"
     },
     {
       "id": "br-anvisa-semaglutide-five-2026",
@@ -533,13 +552,13 @@
       "basis": "landing",
       "preprint": false,
       "attempts": [
-        "the cited page is a landing or portal page (3617 characters, 2569 in prose paragraphs) — cite the specific document or record"
+        "the cited page is a landing or portal page (3615 characters, 2567 in prose paragraphs) — cite the specific document or record"
       ],
       "finalUrl": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-registra-cinco-novas-canetas-de-semaglutida",
       "titleMatch": null,
       "entrySha": "7c08dd5d720fa97c8b68378cbfecff3389c27cd5e942205da4fb02b4281f4103",
-      "chars": 3642,
-      "textSha256": "c5b0614fea9c469448251bfd62e4172eeebdd4b915b19960d052dafe188b533e"
+      "chars": 3640,
+      "textSha256": "c9e55e3be60ceb77f1adc5200ef0b80087c96c3e9109cc4bcb8d7c691a5c5ec7"
     },
     {
       "id": "br-anvisa-consultas-medicamentos",
@@ -582,8 +601,8 @@
       "finalUrl": "https://dados.anvisa.gov.br/dados/Documentacao_e_Dicionario_de_Dados_Registros_Validos_Medicamento_V1.pdf",
       "titleMatch": null,
       "entrySha": "0b860edeca436025ffbcc05f2ea3acbc0a3d334402bb146cb834c3684632448e",
-      "chars": 6684,
-      "textSha256": "ba45e2f4e60d3bc893b5fce4b1e1ffa4b2a027e6f8ee461e93564f9eef070ba7"
+      "chars": 6691,
+      "textSha256": "d22af072af53f9aa4902eda659b867e3c7bf3eaa0e125840d14ea6a0d895cef1"
     },
     {
       "id": "br-label-olumiant",
@@ -687,7 +706,7 @@
       "titleMatch": null,
       "entrySha": "f5283063b2843f18aee7ac142abb751ec611b146f5a56349b278cf274eed5980",
       "chars": 4172,
-      "textSha256": "58ab7afc2b98955e503f975c4afb2f15b066f6b3240ee5552d32e6640f057226"
+      "textSha256": "28e2255409e3d792fba3825f6aa06ab42c0f319fc4be5b4b04a8f5ba65b1741e"
     },
     {
       "id": "br-dou-re-2318-2026",
@@ -860,14 +879,19 @@
       "title": "Lei nº 6.360, de 23 de setembro de 1976 (vigilância sanitária de medicamentos)",
       "url": "https://www.planalto.gov.br/ccivil_03/leis/l6360.htm",
       "ids": {},
-      "resolvedVia": [],
-      "basis": "none",
+      "resolvedVia": [
+        "url:landing"
+      ],
+      "basis": "landing",
       "preprint": false,
-      "error": "www.planalto.gov.br: ECONNRESET",
+      "attempts": [
+        "the cited page is a landing or portal page (3018 characters, 262 in prose paragraphs) — cite the specific document or record"
+      ],
+      "finalUrl": "https://www.gov.br/planalto/pt-br",
       "titleMatch": null,
       "entrySha": "68888f02b92361a26c1a59ede65aa3cc68acebc136fcf6104276539044027d37",
-      "chars": 0,
-      "textSha256": null
+      "chars": 3128,
+      "textSha256": "16ebb27f1726521cafc0800523fea7182842c1a7becc8c1079b25f8521dea431"
     },
     {
       "id": "br-anvisa-medicine-types-2026",
@@ -940,7 +964,7 @@
       "resolvedVia": [],
       "basis": "none",
       "preprint": false,
-      "error": "dados.anvisa.gov.br: source is 218+ MB — a dataset, not a document; cite the specific record or page",
+      "error": "dados.anvisa.gov.br: source is 220+ MB — a dataset, not a document; cite the specific record or page",
       "titleMatch": null,
       "entrySha": "8c9746ccd43a84a3918a309c5443b09d6a38efe46c7fd84b816e565f00cd6ba5",
       "chars": 0,
@@ -1079,7 +1103,7 @@
       "titleMatch": null,
       "entrySha": "95c0bd568a18d7ad0ec7bfe39d3f7f17fa7385bde4013bee3bf34f651bf7ac90",
       "chars": 4993,
-      "textSha256": "2c56a0c26d4a2cdc006f369f9014d6d2d4daec3ed6fb74e489b1561f84ee0ecd"
+      "textSha256": "85cb728c845b65dcceaae22dfa842ceeca229c6367c2065378898a6e92037766"
     },
     {
       "id": "br-anvisa-glp1-actionplan-2026",
@@ -1095,7 +1119,7 @@
       "titleMatch": null,
       "entrySha": "36b2f4a86870117b19372c635bfa885cc5bc7a82a11af7a298601ef1dea0e0b4",
       "chars": 6558,
-      "textSha256": "7995f06099fa8427d2d1109e85e269f1e51014434bbd3adbf09ba2d9e534db9d"
+      "textSha256": "bfdecada05b8e00a187284d1119b0dd98bd6d793ec59923453c128485c16c6bc"
     },
     {
       "id": "eu-ema-glp1-shortages-2024",
@@ -1108,6 +1132,9 @@
       "basis": "webpage",
       "preprint": false,
       "finalUrl": "https://www.ema.europa.eu/en/news/eu-actions-tackle-shortages-glp-1-receptor-agonists",
+      "attempts": [
+        "refetch failed 2026-11-12: HTTP 429 — cached copy kept"
+      ],
       "titleMatch": null,
       "entrySha": "9de5af465d5cd9bc6b57a6635f4b66a40dd4f79e49c970cae33956bf370fa113",
       "chars": 11394,
@@ -1142,8 +1169,8 @@
       "finalUrl": "https://www.ema.europa.eu/en/medicines/human/EPAR/wegovy",
       "titleMatch": null,
       "entrySha": "32ba9486b3da478e0ead3abbd4962f5ae12b20423cfc5cadbcad46ca7df40287",
-      "chars": 20727,
-      "textSha256": "b725a7c78a0f13a7bf86dbfc7cbf07ec003736f95aa8ab045f29d2ed1114f786"
+      "chars": 20515,
+      "textSha256": "7f45495c6b2b8932f831e9c90d6ca9ae9ae4e5b52302331dad73073f6ec58e4c"
     },
     {
       "id": "eu-ema-epar-mounjaro",
@@ -1158,8 +1185,8 @@
       "finalUrl": "https://www.ema.europa.eu/en/medicines/human/EPAR/mounjaro",
       "titleMatch": null,
       "entrySha": "04d2919bc6c17fad137f5beff3d68d0b8c43e28229c00e1ee7d4ea4f8c761961",
-      "chars": 23626,
-      "textSha256": "8ed0e8abb35198333bbd62bb232dd659e74dd56fa579b3148132de1ead0fa220"
+      "chars": 23619,
+      "textSha256": "94b4e1eb7706e348b7f2fc62796a33f6a0740af8966442cf635365d28f4767a6"
     },
     {
       "id": "eu-union-register",
@@ -1188,8 +1215,8 @@
       "finalUrl": "https://www.ema.europa.eu/en/medicines/download-medicine-data",
       "titleMatch": null,
       "entrySha": "b8e9e839999999863e84b4d00c9f7e61a2208fc45b8e6ed8f7a1dc567256ae91",
-      "chars": 6348,
-      "textSha256": "1a6cc0dfd189eb9697806376c0a42e6875a9f66152f597a6c6f10ce0a6b9b82b"
+      "chars": 6346,
+      "textSha256": "8ebf51980399dca4dc2c64234a29f9e3a8f0b8af7a70554170326ee46cc3dd00"
     },
     {
       "id": "ema-scenesse-epar",
@@ -1202,6 +1229,9 @@
       "basis": "webpage",
       "preprint": false,
       "finalUrl": "https://www.ema.europa.eu/en/medicines/human/EPAR/scenesse",
+      "attempts": [
+        "refetch failed 2026-11-12: HTTP 429 — cached copy kept"
+      ],
       "titleMatch": null,
       "entrySha": "9f2feeced99ad31106373a231c444012d873f6a38f29737476b447a0cf170abf",
       "chars": 17211,
@@ -1218,6 +1248,9 @@
       "basis": "webpage",
       "preprint": false,
       "finalUrl": "https://www.ema.europa.eu/en/medicines/human/EPAR/olumiant",
+      "attempts": [
+        "refetch failed 2026-11-12: HTTP 429 — cached copy kept"
+      ],
       "titleMatch": null,
       "entrySha": "5053ee05471f7d94371c8272fad16348fed25f765630a555ba6b80d12f385c82",
       "chars": 33047,
@@ -1234,6 +1267,9 @@
       "basis": "webpage",
       "preprint": false,
       "finalUrl": "https://www.ema.europa.eu/en/medicines/human/referrals/janus-kinase-inhibitors-jaki",
+      "attempts": [
+        "refetch failed 2026-11-12: HTTP 429 — cached copy kept"
+      ],
       "titleMatch": null,
       "entrySha": "8d318e422d5b53bd5ad96003ad3cc22e5b45da4fa01c1f29d3088b69c18eb05a",
       "chars": 22046,
@@ -1250,6 +1286,9 @@
       "basis": "pdf",
       "preprint": false,
       "finalUrl": "https://www.ema.europa.eu/en/documents/psusa/minoxidil-topical-formulation-cmdh-scientific-conclusions-grounds-variation-amendments-product-information-timetable-implementation-psusa-00002067-202310_en.pdf",
+      "attempts": [
+        "refetch failed 2026-11-12: HTTP 429 — cached copy kept"
+      ],
       "titleMatch": null,
       "entrySha": "140262f2205f9a1c3271d7418bd40d4a2bd1a5f4c37fe746adfe083c43d46a3e",
       "chars": 3914,
@@ -1266,6 +1305,9 @@
       "basis": "webpage",
       "preprint": false,
       "finalUrl": "https://www.ema.europa.eu/en/medicines/human/referrals/finasteride-dutasteride-containing-medicinal-products",
+      "attempts": [
+        "refetch failed 2026-11-12: HTTP 429 — cached copy kept"
+      ],
       "titleMatch": null,
       "entrySha": "469ec3b2d1a491473fe8bba5a0c165f6f976561523124dd27810fe9095bc4f0c",
       "chars": 27461,
@@ -1282,6 +1324,9 @@
       "basis": "webpage",
       "preprint": false,
       "finalUrl": "https://www.ema.europa.eu/en/medicines/human/referrals/somatropin",
+      "attempts": [
+        "refetch failed 2026-11-12: HTTP 429 — cached copy kept"
+      ],
       "titleMatch": null,
       "entrySha": "325abd9da90d5e0e20f38f02c2f689eedd360e3b99cab71c6d1c64c685d44828",
       "chars": 21502,
@@ -1298,6 +1343,9 @@
       "basis": "webpage",
       "preprint": false,
       "finalUrl": "https://www.ema.europa.eu/en/medicines/human/EPAR/omnitrope",
+      "attempts": [
+        "refetch failed 2026-11-12: HTTP 429 — cached copy kept"
+      ],
       "titleMatch": null,
       "entrySha": "b1bb7c869a972a3201ecca75210436eb1581acb5e3bdda2cdca41d6fd7e5ec39",
       "chars": 17772,
@@ -1314,6 +1362,9 @@
       "basis": "webpage",
       "preprint": false,
       "finalUrl": "https://www.ema.europa.eu/en/medicines/human/EPAR/egrifta",
+      "attempts": [
+        "refetch failed 2026-11-12: HTTP 429 — cached copy kept"
+      ],
       "titleMatch": null,
       "entrySha": "755fc080ea7212c6ac310233207b55c9894240a72c608b09024f1464f52256af",
       "chars": 7974,
@@ -1330,6 +1381,9 @@
       "basis": "webpage",
       "preprint": false,
       "finalUrl": "https://www.ema.europa.eu/en/medicines/human/orphan-designations/eu-3-17-1882",
+      "attempts": [
+        "refetch failed 2026-11-12: HTTP 429 — cached copy kept"
+      ],
       "titleMatch": null,
       "entrySha": "44e92315942a1df389920dd89043f35bfac9ef8e0598a8226682aca689dbb03d",
       "chars": 6282,
@@ -1408,8 +1462,8 @@
       "finalUrl": "https://www.hma.eu/fileadmin/dateien/Human_Medicines/CMD_h_/Product_Information/Core_SPC_PL/Core_SPCs/CMDh_131-2003_Rev11_2025_12_clean_-_Core_SmPC_HRT.pdf",
       "titleMatch": null,
       "entrySha": "b02129ebb1032ecfd2e01b4b1630cfdba5883b00da3679ac42381d54910007c4",
-      "chars": 54460,
-      "textSha256": "8032d437e02d9fec224267d70a74d075a0a6358004d2da9bffc7be6e07730581"
+      "chars": 54457,
+      "textSha256": "4ffd7e1969c882f85f51f7b05ce20a9f80e99dc32b45482c28f3ad9c5f56595c"
     },
     {
       "id": "eu-reg-1154-2014",
@@ -1470,6 +1524,9 @@
       "basis": "webpage",
       "preprint": false,
       "finalUrl": "https://www.ema.europa.eu/en/news/warning-about-sharp-rise-illegal-medicines-sold-eu",
+      "attempts": [
+        "refetch failed 2026-11-12: HTTP 429 — cached copy kept"
+      ],
       "titleMatch": null,
       "entrySha": "aaddab52c91860f6567480b14cdb1330c8ed98d83057f1d9a7d8f6a678a218f6",
       "chars": 4914,
@@ -1645,7 +1702,7 @@
       "titleMatch": null,
       "entrySha": "fb16e58287749f235befbc064c2da566b6cb02fd517b0fecf0652f8edd5b986f",
       "chars": 15285,
-      "textSha256": "f88377cea7d3af3472d66bf7f8d9f935078eeb62e55b3ad0205b107830ea5b50"
+      "textSha256": "65c5815aa1401b070a49e3f456c804b8d3e5ce4323f5d6c7442563efe6afdee0"
     },
     {
       "id": "pt-rcm-estreva",
@@ -1660,8 +1717,8 @@
       "finalUrl": "https://extranet.infarmed.pt/INFOMED-fo/download-ficheiro.xhtml?med_id=11076&tipo_doc=rcm",
       "titleMatch": null,
       "entrySha": "df9a2c9600fa4ad13ef9c76cd49ad5789b5d4be3d4997c082533907a9da70f6e",
-      "chars": 36906,
-      "textSha256": "3b1792f67a71bce93e826c99395fac77d3dd2da32583efff589532202b0123da"
+      "chars": 36898,
+      "textSha256": "c4e50f8e46abe25c61522d9839bdc124f2b57712dcad36a04a748599afb09cb7"
     },
     {
       "id": "pt-rcm-estrofem",
@@ -1770,6 +1827,9 @@
       "basis": "pdf",
       "preprint": false,
       "finalUrl": "https://www.infarmed.pt/documents/15786/9714607/Deliberacao+840_2023/1453634c-0e4c-c36c-3a12-62449ee120f4",
+      "attempts": [
+        "refetch failed 2026-11-12: pdf extraction failed: pypdf.errors.DependencyError: cryptography>=3.1 is required for AES algorithm — cached copy kept"
+      ],
       "titleMatch": null,
       "entrySha": "1d6819e4147c2b074f564cc73e8fd5f0833fa10db0c925be87f39b0d50bf958e",
       "chars": 24597,
@@ -1818,6 +1878,9 @@
       "basis": "pdf",
       "preprint": false,
       "finalUrl": "https://files.diariodarepublica.pt/1s/2025/03/05500/0003900050.pdf",
+      "attempts": [
+        "refetch failed 2026-11-12: pdf extraction failed: pypdf.errors.DependencyError: cryptography>=3.1 is required for AES algorithm — cached copy kept"
+      ],
       "titleMatch": null,
       "entrySha": "d9faccd9a3f0c5c0c53ac0ed29bc2a23bea761c685476015dd1aed2778dabba8",
       "chars": 34775,
@@ -1880,6 +1943,9 @@
       "basis": "pdf",
       "preprint": false,
       "finalUrl": "https://www.infarmed.pt/documents/15786/12281402/Portaria+117+de+2019+indica%C3%A7%C3%B5es+tratamento+somatropina/17720511-d801-38a8-987e-b682ec93d45c",
+      "attempts": [
+        "refetch failed 2026-11-12: pdf extraction failed: pypdf.errors.DependencyError: cryptography>=3.1 is required for AES algorithm — cached copy kept"
+      ],
       "titleMatch": null,
       "entrySha": "b4cbf37715d1d25ec9eadcc362a654bc360772671ed5ebb04e600409124223d2",
       "chars": 6603,
@@ -1964,9 +2030,6 @@
       "resolvedTitle": "The human skin as a hormone target and an endocrine gland.",
       "pmid": "16982574",
       "openAccess": false,
-      "attempts": [
-        "python3 unavailable (EPIPE) — install pypdf to read PDF sources"
-      ],
       "finalUrl": "http://www.hormones.gr/49/article/the-human-skin-as-a-hormone%E2%80%A6.html",
       "titleMatch": 1,
       "entrySha": "d9b11cbb9948833bfec0d05bd2df3ba6c228e6cb2e656794e0818384897fbdd6",
@@ -2064,7 +2127,7 @@
       },
       "resolvedVia": [
         "europepmc:EXT_ID",
-        "europepmc:fullTextXML"
+        "ncbi:bioc"
       ],
       "basis": "fulltext",
       "preprint": false,
@@ -2074,8 +2137,8 @@
       "openAccess": true,
       "titleMatch": 1,
       "entrySha": "0e45d62429a340f5d940e91cbadf3f70669f6540b3a17db60e1584136627dbed",
-      "chars": 87112,
-      "textSha256": "730ecbf176c4a4960f8e735e776a5edee8fe05be83a3cb476d34217fbcce2b50"
+      "chars": 81504,
+      "textSha256": "354e6745da75c7ffa70e123b6b63d5a9bc9e6ee9471826fada73f9a7e16af7d2"
     },
     {
       "id": "mancino-2021-thyroid-epidermis",
@@ -2221,13 +2284,13 @@
       "basis": "landing",
       "preprint": false,
       "attempts": [
-        "the cited page is a landing or portal page (3815 characters, 1899 in prose paragraphs) — cite the specific document or record"
+        "the cited page is a landing or portal page (3900 characters, 1899 in prose paragraphs) — cite the specific document or record"
       ],
       "finalUrl": "https://hormonecellatlas.org.uk/about/",
       "titleMatch": null,
       "entrySha": "c98ccc70254b5200772e0ba13fe39de92a37c08db6cb7ae6eaa942a13d0acc01",
-      "chars": 3856,
-      "textSha256": "feef312221647dfe60af981936a6f267cb3335e56f1654059b38aaaa5cc13838"
+      "chars": 3944,
+      "textSha256": "d48ef1e1167f3cc45d935698510664cda0da991bb52cc4c2ecba6f9f65f7be1c"
     },
     {
       "id": "liu-2016-mrna-protein",
@@ -2432,6 +2495,7 @@
       "preprint": false,
       "resolvedTitle": "Decreased collagen production in chronologically aged skin: roles of age-dependent alteration in fibroblast function and defective mechanical stimulation.",
       "pmid": "16723701",
+      "pmcid": "PMC1606623",
       "openAccess": false,
       "attempts": [
         "HTTP 403 at http://ajp.amjpathol.org/article/S0002944010622055/pdf"
@@ -2541,7 +2605,7 @@
       },
       "resolvedVia": [
         "europepmc:EXT_ID",
-        "europepmc:fullTextXML"
+        "ncbi:bioc"
       ],
       "basis": "fulltext",
       "preprint": false,
@@ -2551,8 +2615,8 @@
       "openAccess": true,
       "titleMatch": 1,
       "entrySha": "cc966a1c86f99e61ea13ab750e265572ae021b55800f2e20e547e474c6eb516a",
-      "chars": 29888,
-      "textSha256": "7329b0b21d797e7c11ac7af2703b3654aa81d93f6fcfeec52cd4efa535fe79b2"
+      "chars": 26886,
+      "textSha256": "351b8f93091c33d285ca7ae15c94e7a1ef462f6ee10ac30bab654f28cec6c508"
     },
     {
       "id": "haykal-2026-dermatology-senotherapeutics",
@@ -2607,7 +2671,7 @@
       },
       "resolvedVia": [
         "europepmc:EXT_ID",
-        "europepmc:fullTextXML"
+        "ncbi:bioc"
       ],
       "basis": "fulltext",
       "preprint": false,
@@ -2617,8 +2681,8 @@
       "openAccess": true,
       "titleMatch": 1,
       "entrySha": "e9bbda9472a35ee5e5add0be7924da89ca54ac29ec7857f8308cfd601874e863",
-      "chars": 27716,
-      "textSha256": "5c49a2510f7b1c2c8e34661bab2bea98b0b0e941d6ce972658eb20314460f541"
+      "chars": 26476,
+      "textSha256": "ad1a0ce3ac5f4dbc5c79a4e1fb6e86100966637b72aee982953b3d852da894b6"
     },
     {
       "id": "kafi-2007-retinol-aged-skin",
@@ -2702,19 +2766,18 @@
       },
       "resolvedVia": [
         "europepmc:EXT_ID",
-        "openalex:oa-html"
+        "europepmc:abstract"
       ],
-      "basis": "fulltext",
+      "basis": "abstract",
       "preprint": false,
       "resolvedTitle": "11β-Hydroxysteroid dehydrogenase blockade prevents age-induced skin structure and function defects.",
       "pmid": "23722901",
       "pmcid": "PMC3696573",
       "openAccess": false,
-      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3696573/",
       "titleMatch": 1,
       "entrySha": "90ed81fc3b7cc69a5f095a2b7d9ced784ee39a6fdaa7952f7af8c30364e53797",
-      "chars": 61081,
-      "textSha256": "eb82f026a682ece4a803004074330fa431076ae25d4a318cdf05487cb17e0968"
+      "chars": 1521,
+      "textSha256": "6b742e332431b4e2391c0a1c0dedbd7eb17598c8abf0c8082ff8f1809486d583"
     },
     {
       "id": "ajjan-2022-azd4017-skin-pilot-rct",
@@ -2725,7 +2788,7 @@
       },
       "resolvedVia": [
         "europepmc:EXT_ID",
-        "europepmc:fullTextXML"
+        "ncbi:bioc"
       ],
       "basis": "fulltext",
       "preprint": false,
@@ -2735,8 +2798,8 @@
       "openAccess": true,
       "titleMatch": 1,
       "entrySha": "0fec165fc91f8c7d8911b417814e29fcdb77fe5d3d6c8764b19abb53be9e5735",
-      "chars": 50291,
-      "textSha256": "a6ffef16834831d9a6134f7fed9b89ed0bc34192bc22987c446051df6117dbde"
+      "chars": 43828,
+      "textSha256": "a7b6b0da89bada961c12e4cea20e00a9bd810388d7ef53794d92640bb2f2b7d1"
     },
     {
       "id": "nct03313297-gc-sheald",
@@ -2813,7 +2876,7 @@
       },
       "resolvedVia": [
         "europepmc:EXT_ID",
-        "europepmc:fullTextXML"
+        "ncbi:bioc"
       ],
       "basis": "fulltext",
       "preprint": false,
@@ -2823,8 +2886,8 @@
       "openAccess": true,
       "titleMatch": 1,
       "entrySha": "0dc39162559c2c86181f1687c92362ea96e4ae2f04c20f64661dc7aabd8b0426",
-      "chars": 30520,
-      "textSha256": "15df649c52208e03c15b63395d99e7347e34effbef4374dc509e11b1d8279600"
+      "chars": 29924,
+      "textSha256": "99e17d74a3f07742544d86a093e704f359ea12dd5cd441a96f6f1e455c744724"
     },
     {
       "id": "brincat-1987-collagen-bone-decline",
@@ -2944,7 +3007,7 @@
       },
       "resolvedVia": [
         "europepmc:EXT_ID",
-        "europepmc:fullTextXML"
+        "ncbi:bioc"
       ],
       "basis": "fulltext",
       "preprint": false,
@@ -2954,8 +3017,8 @@
       "openAccess": true,
       "titleMatch": 1,
       "entrySha": "22ce78ab285247cf8471ac46b4834b1e4a40aef9c5e842e23e0fc8ec532ee59e",
-      "chars": 45738,
-      "textSha256": "f76acf035aa0caba9940610e0a6d4fce00435a8886a6a302e2a7ba9d83fd7cdb"
+      "chars": 38250,
+      "textSha256": "08075bd9a4898b1b7e1d8f9f0dcd20b4ac0d0210fb0bdcd392c250dc82ce06a7"
     },
     {
       "id": "phillips-2008-ht-facial-skin-rct",
@@ -3139,8 +3202,8 @@
       "openAccess": false,
       "titleMatch": 1,
       "entrySha": "37d1ad16f1793e89a2c44ae50b75f8063d774c56a5932917d4f4a63e25c7e96b",
-      "chars": 44247,
-      "textSha256": "14c6c4a4aa3b1f9b15faa7c5ffa45a08d2b07048f02e8927d0fc2c9e260b47b2"
+      "chars": 44227,
+      "textSha256": "f38c6e08616567724bd9556c7a53b078654ab0518f2cc0f876bdd75a4f5926f1"
     },
     {
       "id": "nams-2020-gsm-position-statement",
@@ -3177,8 +3240,8 @@
       "finalUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9f0a0e8d-1051-48a4-80c5-1bd260dd9c36",
       "titleMatch": null,
       "entrySha": "8d92d82c5d12538642839b27980a139ee81ccd0ff892845d62fcdc6f4a09793d",
-      "chars": 41708,
-      "textSha256": "abd91b074b7d2b0377fc06ada5e884e4b3689a9f17ba0decd738f7c11ebb6fc6"
+      "chars": 42322,
+      "textSha256": "8e78a2b51732bd51f62d497f9824efa1f48ca497b6541a91684a51027c9235df"
     },
     {
       "id": "darling-1997-men1-angiofibromas",
@@ -3255,7 +3318,7 @@
       },
       "resolvedVia": [
         "europepmc:EXT_ID",
-        "europepmc:fullTextXML"
+        "ncbi:bioc"
       ],
       "basis": "fulltext",
       "preprint": false,
@@ -3265,8 +3328,8 @@
       "openAccess": true,
       "titleMatch": 1,
       "entrySha": "ce74daeb6bea3a4d05c9ec7f8636d3f0c5258f5df9bf0707afde8ad596ceb21d",
-      "chars": 44219,
-      "textSha256": "fcdcc278eec93bf5c77783f585deb77403fd7df9d9bff194297c29c1a2a8acd9"
+      "chars": 39313,
+      "textSha256": "6283e675fe3f5e377e33d9a42757ab53c4367d02a5f6b77326e7c2cf4d5994d8"
     },
     {
       "id": "bornstein-2016-pai-guideline",
@@ -3317,7 +3380,7 @@
       "titleMatch": 1,
       "entrySha": "82dfb80f26f66de8bf60109074e0520718225737fe4813f0d028a120ee63c86e",
       "chars": 57191,
-      "textSha256": "785cea58daa942647cc058573241edb2b3c6824592c9fc8a3e4521357f389693"
+      "textSha256": "20228b3564579257a561c461f0ff08212926b3836b30064eab8af2753db3782c"
     },
     {
       "id": "martin-2018-hirsutism-guideline",
@@ -3354,8 +3417,8 @@
       "finalUrl": "https://www.medicines.org.uk/emc/product/10927/smpc",
       "titleMatch": null,
       "entrySha": "6ccddf275702698e7ced15fe1b0e3a05d6075afbcc6209aded16a188fa82b56d",
-      "chars": 48080,
-      "textSha256": "0f0ae1b7550c55571ac6193496c5e5f7fb328215d1fd373a14c867a9baa4840f"
+      "chars": 48086,
+      "textSha256": "61a7526efbe0397869a424a091e0b40cf3d168908526b3090e1a12f207edf465"
     },
     {
       "id": "emc-smpc-sandrena-uk",
@@ -3370,8 +3433,8 @@
       "finalUrl": "https://www.medicines.org.uk/emc/product/1048/smpc",
       "titleMatch": null,
       "entrySha": "2a10ae960fb6dd334a6e31c248a8413a57c4ec8cde006edd95b924c06a1723d0",
-      "chars": 42309,
-      "textSha256": "52d9f9d1942df3f1b6e129c1d2c858b69a99730f88af31c25a58db8b61e78346"
+      "chars": 42315,
+      "textSha256": "54bfec36d763b2c8c3f0babbd89e6e3f1fdf3c0b7c7bff1d20b5248a58d42724"
     },
     {
       "id": "mhra-gn14-specials-2023",
@@ -3402,8 +3465,8 @@
       "finalUrl": "https://www.medicines.org.uk/emc/product/5371/smpc",
       "titleMatch": null,
       "entrySha": "eee049e5c2b8514304cea61b20a2d68a478eaec96cbaf663bb057926b1b33bf6",
-      "chars": 30461,
-      "textSha256": "c55c89c15f72ed8a5bdbfdd73c0186933375cb3f8359b442a31b2cc6d4d6c47e"
+      "chars": 30467,
+      "textSha256": "6f25f87a91b2236a634f5edb5a6cee7533cf755e176e6e20a30bd2a77dcb9fdf"
     },
     {
       "id": "emc-smpc-aknemycin-plus-uk",
@@ -3418,8 +3481,8 @@
       "finalUrl": "https://www.medicines.org.uk/emc/product/6386/smpc",
       "titleMatch": null,
       "entrySha": "93632d3c81c69ebc3e9a6ee319701431203d1678344ad9cffa89ad37565b1209",
-      "chars": 14002,
-      "textSha256": "211f5c3209f5c1b77128431b9135433f8cdb164a4a15c4a7d48ab5a3bdb10d00"
+      "chars": 14008,
+      "textSha256": "2cbc9b24ede1ae1dd66e4f3af46af8520bd56d48ab6c1ffb37974656bf3c596c"
     },
     {
       "id": "emc-search-tretinoin-2026-09-25",
@@ -3445,11 +3508,12 @@
       "title": "Innate immunity. Dermal adipocytes protect against invasive Staphylococcus aureus skin infection",
       "url": "https://pubmed.ncbi.nlm.nih.gov/25554785/",
       "ids": {
-        "pmid": "25554785"
+        "pmid": "25554785",
+        "doi": "10.1126/science.1260972"
       },
       "resolvedVia": [
         "europepmc:EXT_ID",
-        "ncbi:bioc"
+        "openalex:oa-html"
       ],
       "basis": "fulltext",
       "preprint": false,
@@ -3457,10 +3521,11 @@
       "pmid": "25554785",
       "pmcid": "PMC4318537",
       "openAccess": false,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4318537/",
       "titleMatch": 1,
       "entrySha": "766169b3f08fcdbd9ff0a567c9a86d3106fe096b9c75f2d64126bc3cd18a6e7e",
-      "chars": 20842,
-      "textSha256": "29758559354c7b4b366eba9b171684fcb9177fd9a58713e28e534a44a52228b2"
+      "chars": 30504,
+      "textSha256": "41f25c93b80f6b2bd106e93ce825667d0d68a73b1a8d8b1519ee2064a0726595"
     },
     {
       "id": "zhang-2019-dwat-aging-tgfb",
@@ -3533,13 +3598,14 @@
       "title": "Antimicrobial production by perifollicular dermal preadipocytes is essential to the pathophysiology of acne",
       "url": "https://pubmed.ncbi.nlm.nih.gov/35171653/",
       "ids": {
-        "pmid": "35171653"
+        "pmid": "35171653",
+        "doi": "10.1126/scitranslmed.abh1478"
       },
       "resolvedVia": [
         "europepmc:EXT_ID",
-        "ncbi:bioc"
+        "europepmc:abstract"
       ],
-      "basis": "fulltext",
+      "basis": "abstract",
       "preprint": false,
       "resolvedTitle": "Antimicrobial production by perifollicular dermal preadipocytes is essential to the pathophysiology of acne.",
       "pmid": "35171653",
@@ -3547,8 +3613,8 @@
       "openAccess": false,
       "titleMatch": 1,
       "entrySha": "01d508df7ab494672087a2ea3b695da9fd4a60cae08c4b1ce0a1bd6275251872",
-      "chars": 54305,
-      "textSha256": "8b55eb579180778b5b82a62ea8591ffef67dd932bccd1e2b72d662ca29b02003"
+      "chars": 1709,
+      "textSha256": "a7e308a9574775aeede9e12775d7613d965a4984108b7b325102d5a084d6ec53"
     },
     {
       "id": "rohrich-pessa-2007-facial-fat-compartments",
@@ -3603,7 +3669,7 @@
       },
       "resolvedVia": [
         "europepmc:EXT_ID",
-        "europepmc:fullTextXML"
+        "ncbi:bioc"
       ],
       "basis": "fulltext",
       "preprint": false,
@@ -3613,8 +3679,8 @@
       "openAccess": true,
       "titleMatch": 1,
       "entrySha": "c26bd58c6ec991ae6811c747ae242b4af28544b0faa843bb72eb3cbe7a5cafd3",
-      "chars": 42339,
-      "textSha256": "854fccf0341f704908df66eebf55b1a29250f0c4c5434538f845c07a4a16cc42"
+      "chars": 39756,
+      "textSha256": "250602c93a7769c6cfa6fea758904ed5b1d81a9c540f6f1947c68cb34c4273d6"
     },
     {
       "id": "dyer-1993-skin-collagen-maillard",
@@ -3626,20 +3692,19 @@
       },
       "resolvedVia": [
         "europepmc:EXT_ID",
-        "europepmc:abstract"
+        "openalex:oa-pdf"
       ],
-      "basis": "abstract",
+      "basis": "pdf",
       "preprint": false,
       "resolvedTitle": "Accumulation of Maillard reaction products in skin collagen in diabetes and aging.",
       "pmid": "8514858",
+      "pmcid": "PMC443306",
       "openAccess": false,
-      "attempts": [
-        "python3 unavailable (EPIPE) — install pypdf to read PDF sources"
-      ],
+      "finalUrl": "https://dm5migu4zj3pb.cloudfront.net/manuscripts/116000/116481/JCI93116481.pdf",
       "titleMatch": 1,
       "entrySha": "e81fe581b108a2e80e5e20db752b6cdbf3cd54498ec901fac1cad7e5c23c5a1f",
-      "chars": 1554,
-      "textSha256": "73f14baaca88b0dfdb30bd96c37a6fbabd1a7d5515a34e9f20ac65896f98ac00"
+      "chars": 34062,
+      "textSha256": "7c3e511a64d88215af4e1f8d4aab75ad9d8ab76a6fbf4a608fa8e99f4d563a58"
     },
     {
       "id": "verzijl-2000-collagen-turnover-ages",
@@ -3764,8 +3829,8 @@
       "finalUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=adec4fd2-6858-4c99-91d4-531f5f2a2d79",
       "titleMatch": null,
       "entrySha": "1f776898044349b85a47e358a589346f94567b0739c7056cb857575523f62e4c",
-      "chars": 160302,
-      "textSha256": "dca14763ad117d6d28f023e92b7b99033b05dcfa583f004e3db564ac7d2fe36c"
+      "chars": 160916,
+      "textSha256": "9f9b7e648b4e7b691ab3cd2870af1087e3b4b7b3f29220826b60e0982e13843f"
     },
     {
       "id": "fda-label-wegovy-2026",
@@ -3780,8 +3845,8 @@
       "finalUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ee06186f-2aa3-4990-a760-757579d8f77b",
       "titleMatch": null,
       "entrySha": "77fa2f93b06015574efe825569a5b553dfff27a2ebd1421dfaa0b6a75b7c6200",
-      "chars": 249190,
-      "textSha256": "f1fe6d400b0f3d018afb6e8ce9eda43387b828bb4c134c8aa048be26d98094b8"
+      "chars": 249804,
+      "textSha256": "f778aea612ed6b8c4572e8bf4312dcb5d980659bb961e37ace27fccf4a5eac94"
     },
     {
       "id": "fda-drugsfda-wegovy-nda215256",
@@ -3799,8 +3864,8 @@
       "finalUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=215256",
       "titleMatch": null,
       "entrySha": "797b8dd079f249fb5dbe142148d1b91375453528fc7572e003a76e55975f3e8d",
-      "chars": 10597,
-      "textSha256": "b4b116a1f8f60feae4a9422a8cc15a0ac498b9e2185e17cd8a3a5ef3b5adfeb9"
+      "chars": 10252,
+      "textSha256": "7f91aa310347b06a20d696bb875087e6fc8a853c413c69ed64d88e04d3d80dd0"
     },
     {
       "id": "lincoff-2023-select",
@@ -3812,21 +3877,18 @@
       },
       "resolvedVia": [
         "europepmc:EXT_ID",
-        "europepmc:abstract"
+        "openalex:oa-pdf"
       ],
-      "basis": "abstract",
+      "basis": "pdf",
       "preprint": false,
       "resolvedTitle": "Semaglutide and Cardiovascular Outcomes in Obesity without Diabetes.",
       "pmid": "37952131",
       "openAccess": false,
-      "attempts": [
-        "python3 unavailable (EPIPE) — install pypdf to read PDF sources",
-        "HTTP 403 at https://discovery.ucl.ac.uk/id/eprint/10184940/"
-      ],
+      "finalUrl": "https://discovery.ucl.ac.uk/id/eprint/10184940/1/nejmoa2307563.pdf",
       "titleMatch": 1,
       "entrySha": "9e63b0a0807a2c4ad593c4dedbe2d60c442af9ddbd515df7906fa808b848adce",
-      "chars": 2126,
-      "textSha256": "5b7697bd7bcc68403752a812dd17156808b3064c5961821b409707b119e1d452"
+      "chars": 56377,
+      "textSha256": "311fa924d175ed5835bee65edd0b48d94420988562daa17f4b7555119071b49e"
     },
     {
       "id": "fda-label-mounjaro-2026",
@@ -3841,8 +3903,8 @@
       "finalUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d2d7da5d-ad07-4228-955f-cf7e355c8cc0",
       "titleMatch": null,
       "entrySha": "2c166b9418e49a248250d25bb9a2f80f95a4c302e353002d9bc914a0d26c97db",
-      "chars": 189390,
-      "textSha256": "0e91cee8b550c4c865a66aada93af7a435d54f22680d801a29e04485bb0a94f0"
+      "chars": 190004,
+      "textSha256": "b947782b86fc089e0e8c8059fa67ad2b12609a59171da6d6ed41fa7c7c5f37ee"
     },
     {
       "id": "fda-label-zepbound-2026",
@@ -3857,8 +3919,8 @@
       "finalUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=487cd7e7-434c-4925-99fa-aa80b1cc776b",
       "titleMatch": null,
       "entrySha": "df716d85da5092edf532489742004b22545caaf191f224bdd115e15ef98d366a",
-      "chars": 203122,
-      "textSha256": "b189c4f56e2f2d303ed779353a7c3dae1a553dccf1d4888af6647fd65d736ff0"
+      "chars": 203736,
+      "textSha256": "59a645f981c5ec84678f8c90577541d3bcba2166792f7b05bbcc7672d965174a"
     },
     {
       "id": "fda-drugsfda-zepbound-nda217806",
@@ -3877,7 +3939,7 @@
       "titleMatch": null,
       "entrySha": "4735d7e7c3bcb938cb8e964c7bcaedb6b4823930c26b143df1f190cd4f9f68f2",
       "chars": 13199,
-      "textSha256": "9ebd76c7b32c5181450c56ccf11e51077c1c76bbab32bf6b8334874845ed3d0e"
+      "textSha256": "66111752d478bf253a361ff27dfa935f99d61f0c085ada566d430fe0d399c5b5"
     },
     {
       "id": "wilding-2021-step1",
@@ -3889,20 +3951,18 @@
       },
       "resolvedVia": [
         "europepmc:EXT_ID",
-        "europepmc:abstract"
+        "openalex:oa-pdf"
       ],
-      "basis": "abstract",
+      "basis": "pdf",
       "preprint": false,
       "resolvedTitle": "Once-Weekly Semaglutide in Adults with Overweight or Obesity.",
       "pmid": "33567185",
       "openAccess": false,
-      "attempts": [
-        "python3 unavailable (EPIPE) — install pypdf to read PDF sources"
-      ],
+      "finalUrl": "https://discovery.ucl.ac.uk/id/eprint/10127569/1/nejmoa2032183.pdf",
       "titleMatch": 1,
       "entrySha": "bd4fc863479c7bef1d830ce7973397419607b3514158121bc6f38f1dfcbc6e14",
-      "chars": 2611,
-      "textSha256": "4c3911a8173d96fcbdc5d8ae71ff4b479298328f99de2ef633e5df4ce60a89c9"
+      "chars": 61964,
+      "textSha256": "1fb219265ab2ead11ab67340a64a7364be127e09c5267b97d8e9a44e38cdd01b"
     },
     {
       "id": "jastreboff-2022-surmount1",
@@ -4083,7 +4143,7 @@
       },
       "resolvedVia": [
         "europepmc:EXT_ID",
-        "europepmc:fullTextXML"
+        "ncbi:bioc"
       ],
       "basis": "fulltext",
       "preprint": false,
@@ -4093,8 +4153,8 @@
       "openAccess": true,
       "titleMatch": 1,
       "entrySha": "c36a7f3901aef3fac34de6e8e1999b0cb1acbe3eff8562ffcdde42f99ba87108",
-      "chars": 57121,
-      "textSha256": "5a75497bba80fdcdcb6cda05688a81ab1d80a9cdef359519d3bd14d342c1ab3b"
+      "chars": 52814,
+      "textSha256": "935653cd52206dac1d39413f2556408c1023996e5e3a82fef5b50a5d802a6c51"
     },
     {
       "id": "burke-2025-glp1-dermatologic",
@@ -4192,7 +4252,7 @@
       },
       "resolvedVia": [
         "europepmc:EXT_ID",
-        "europepmc:fullTextXML"
+        "ncbi:bioc"
       ],
       "basis": "fulltext",
       "preprint": false,
@@ -4202,8 +4262,8 @@
       "openAccess": true,
       "titleMatch": 1,
       "entrySha": "0bde4306b3f15a52f2aaedf6c85359a310ec42f6bfe13d6488c72b65a6b9ff08",
-      "chars": 57217,
-      "textSha256": "fdd881e1baa01564fdc518853930acd4c32a3c20f41c5320ae24adaedcddeabf"
+      "chars": 48692,
+      "textSha256": "43b58c191e85c9f21503c76d929524ea039f067ba455cc8ebd72ecf922b93d1b"
     },
     {
       "id": "franceschi-2000-inflamm-aging",
@@ -4327,7 +4387,7 @@
       },
       "resolvedVia": [
         "europepmc:EXT_ID",
-        "europepmc:fullTextXML"
+        "ncbi:bioc"
       ],
       "basis": "fulltext",
       "preprint": false,
@@ -4337,8 +4397,8 @@
       "openAccess": true,
       "titleMatch": 1,
       "entrySha": "b6d145999ff21eadcd864a7c0ca292c2c25d95c0787e0ed1ade47dbdce028090",
-      "chars": 49159,
-      "textSha256": "4fc5acd854f5348895e948ac21042398cbb1da7ff5f931622ed228f3c972a0d1"
+      "chars": 44731,
+      "textSha256": "e0c5b2b6d26f5cee5ea85ced5cb9729cb0f5158aabfdade85ed17cf7094e555f"
     },
     {
       "id": "makrgeorgou-2018-cochrane-probiotics-eczema",
@@ -4467,7 +4527,7 @@
       },
       "resolvedVia": [
         "europepmc:EXT_ID",
-        "europepmc:fullTextXML"
+        "ncbi:bioc"
       ],
       "basis": "fulltext",
       "preprint": false,
@@ -4477,8 +4537,8 @@
       "openAccess": true,
       "titleMatch": 1,
       "entrySha": "64069cb8141a59e231a6dad956656adc7a61fec683dc57daea2b05f8a44e4167",
-      "chars": 49626,
-      "textSha256": "a1f2631d393d2b70c4a5c4001e99f7f3af3df28972975b1de480f1dff7dbe46a"
+      "chars": 40836,
+      "textSha256": "29dccf5c53be9ea9c26e1991517324ecd7ac17301e8b49b5fb4a5377eb23227f"
     },
     {
       "id": "reynolds-2019-carbohydrate-quality",
@@ -4514,7 +4574,7 @@
       },
       "resolvedVia": [
         "europepmc:EXT_ID",
-        "europepmc:fullTextXML"
+        "ncbi:bioc"
       ],
       "basis": "fulltext",
       "preprint": false,
@@ -4524,8 +4584,8 @@
       "openAccess": true,
       "titleMatch": 1,
       "entrySha": "aac1a3eec7447104c4aa7e43eb245d16a87f6f10c2e484ab27270569cc63187a",
-      "chars": 61374,
-      "textSha256": "20f2f32282d925fe627c7272230967cab4679b11676f502ee578b8b0d559bdf7"
+      "chars": 55228,
+      "textSha256": "28f1793c66d4b885f7f892ee153a332892567c47c73f1efdc7f81604a7b44645"
     },
     {
       "id": "fda-pcac-2026-07-meeting",
@@ -4556,8 +4616,8 @@
       "finalUrl": "https://www.medicines.org.uk/emc/product/9749/smpc",
       "titleMatch": null,
       "entrySha": "b1746f6b22da541fe9c48a6d06dc13c04223073e81319505a4f1bf57760936b0",
-      "chars": 75623,
-      "textSha256": "151295df7fa496ffe29f49649cb614264cd0a4c6330c9a448edb9850bb79eb4c"
+      "chars": 75629,
+      "textSha256": "cbfaec3ec1787cc80e28b1becac341597989b58ca058dd819111e019301c1268"
     },
     {
       "id": "emc-smpc-wegovy-uk",
@@ -4572,8 +4632,8 @@
       "finalUrl": "https://www.medicines.org.uk/emc/product/13803/smpc",
       "titleMatch": null,
       "entrySha": "c889232134e4f69b3196757920a96cdbacb99c9fed68f3e8b3ece46ce0a6a921",
-      "chars": 102645,
-      "textSha256": "b7261c6c6d3305ff8137a4126e902470dc252d53a53a19797c859253f506a866"
+      "chars": 102651,
+      "textSha256": "26a61e33b36feb7bd7de64ed6b93ab3f1d383a0c8d8396820d450543190bc2e9"
     },
     {
       "id": "emc-smpc-mounjaro-uk",
@@ -4588,8 +4648,8 @@
       "finalUrl": "https://www.medicines.org.uk/emc/product/15482/smpc",
       "titleMatch": null,
       "entrySha": "405513e7b1b95fddc9e5bfddfd69345b702579e633fe350a0ee65c88f4108194",
-      "chars": 118094,
-      "textSha256": "5c15b9c24a7af00f5ccb60789b8ca2246f7d09cc0a1cb1662c839b64f215fcae"
+      "chars": 118100,
+      "textSha256": "77b20bcf88eb5352d57e69488a7cb6d5586f1402f524d56a03900b75b341c20c"
     },
     {
       "id": "mhra-2023-11-08-mounjaro-weight",
@@ -4685,7 +4745,7 @@
       },
       "resolvedVia": [
         "europepmc:EXT_ID",
-        "europepmc:fullTextXML"
+        "ncbi:bioc"
       ],
       "basis": "fulltext",
       "preprint": false,
@@ -4695,8 +4755,8 @@
       "openAccess": true,
       "titleMatch": 1,
       "entrySha": "126e9c2e2f4123d70c3180ed58f9c82afa17530438b94e16a2446938d7ddeac3",
-      "chars": 25566,
-      "textSha256": "47973c0baa2698e1d8085061bfc42a18117cde260ddd8d037637f910f90a64bf"
+      "chars": 24728,
+      "textSha256": "766983768bd4e23a2ccd017d969849344d0118a59cbc22335b973b5c55de1df8"
     },
     {
       "id": "pickart-margolina-2018",
@@ -4838,7 +4898,7 @@
       },
       "resolvedVia": [
         "europepmc:EXT_ID",
-        "europepmc:fullTextXML"
+        "ncbi:bioc"
       ],
       "basis": "fulltext",
       "preprint": false,
@@ -4848,8 +4908,8 @@
       "openAccess": true,
       "titleMatch": 1,
       "entrySha": "732c314b39ebf52a7bf8f1a8f6c69f2c5e9f488a1e09056140437d0909d9c5f3",
-      "chars": 36273,
-      "textSha256": "bbde91d1f7da642d03f1fe64610ac7995e2690ca0eeb78bedf8b64bf8f9b7a86"
+      "chars": 31530,
+      "textSha256": "df7099a719de48b6c6083afba76bbd4f8dc18af84d600c7f6a1a9f9cef800246"
     },
     {
       "id": "fda-503a-categories-2026-05-14",
@@ -4864,8 +4924,8 @@
       "finalUrl": "https://www.fda.gov/media/94155/download",
       "titleMatch": null,
       "entrySha": "1334f844ba578a6808dce6f7cf5940f9ea519298957c3cd111d08d7126778325",
-      "chars": 13849,
-      "textSha256": "cf9123f49f8c89d9b808db5ac31e64e8ef6e591bcb3754fdc752f7384770e04e"
+      "chars": 13848,
+      "textSha256": "973a12e82c003545ca390f4a9bc432f58a4bae1e869f09936572471e0a0fb187"
     },
     {
       "id": "fda-503a-bulks-page",
@@ -5050,7 +5110,7 @@
       },
       "resolvedVia": [
         "europepmc:EXT_ID",
-        "europepmc:fullTextXML"
+        "ncbi:bioc"
       ],
       "basis": "fulltext",
       "preprint": false,
@@ -5060,8 +5120,8 @@
       "openAccess": true,
       "titleMatch": 1,
       "entrySha": "ddff634b2abdf48e701162d1c5c578d16fd872bf471e2837d330f31c31c25a69",
-      "chars": 88968,
-      "textSha256": "dd82886046b217c2d7c06a90dc97fc7df2caeacde384bef77d5c5d4dcad193d6"
+      "chars": 82321,
+      "textSha256": "1be4b224ebaceb4dc59f44470ec98515569c36b9a8bdc56dcd0352900e146722"
     },
     {
       "id": "lupo-cole-2007-cosmeceutical-peptides",
@@ -5102,8 +5162,8 @@
       "finalUrl": "https://www.fda.gov/media/193343/download",
       "titleMatch": null,
       "entrySha": "b7fc5f22f6218c49c57a52cee4022a98c1eca14f74a660d5a46895387134c806",
-      "chars": 135153,
-      "textSha256": "4217d2587301f008c7bfd9d28d9eafad32d83709be329b05c6e1e7f7886597b8"
+      "chars": 135127,
+      "textSha256": "2ece2c706a312924e975d6bfb7e89da32d422506e81db555d979e73619811cae"
     },
     {
       "id": "lee-2021-bpc157-knee",
@@ -5158,18 +5218,19 @@
       },
       "resolvedVia": [
         "europepmc:EXT_ID",
-        "europepmc:abstract"
+        "openalex:oa-html"
       ],
-      "basis": "abstract",
+      "basis": "fulltext",
       "preprint": false,
       "resolvedTitle": "Regeneration or Risk? A Narrative Review of BPC-157 for Musculoskeletal Healing.",
       "pmid": "40789979",
       "pmcid": "PMC12446177",
       "openAccess": false,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12446177/",
       "titleMatch": 1,
       "entrySha": "316bc90cd82ae6d8f2abcd1ed3aa282a34272e4d115a45fd113fe7e7862874de",
-      "chars": 2162,
-      "textSha256": "c32a96b9f55285c6be24607e5e408038f78f7739baa6378603c4f9dad7f8fd54"
+      "chars": 51562,
+      "textSha256": "e4938e2112a94e523b5f84458c2b0d910590b0bfa38d3a48a0bc5da7855c0c71"
     },
     {
       "id": "nct02637284-bpc157-phase1-2015",
@@ -5231,7 +5292,7 @@
       },
       "resolvedVia": [
         "europepmc:EXT_ID",
-        "europepmc:fullTextXML"
+        "ncbi:bioc"
       ],
       "basis": "fulltext",
       "preprint": false,
@@ -5241,8 +5302,8 @@
       "openAccess": true,
       "titleMatch": 1,
       "entrySha": "a27231848ed3792c0844464f0076a6577417df72f3b0a8aadabaefab375fd17c",
-      "chars": 115991,
-      "textSha256": "e037fc8dde7a232667e95eda9e0e1158bb013fb801ee98825ff7ec8e3ecd7bd3"
+      "chars": 76751,
+      "textSha256": "0036a39e91ec975b6327cc46c4304b06ec37cd38ee113e575b91e4fdf2c4718b"
     },
     {
       "id": "sikiric-2018-bpc157-vascular-recruitment",
@@ -5357,10 +5418,6 @@
       "resolvedTitle": "Melanocortin-derived tripeptide KPV has anti-inflammatory potential in murine models of inflammatory bowel disease.",
       "pmid": "18092346",
       "openAccess": false,
-      "attempts": [
-        "HTTP 403 at https://academic.oup.com/ibdjournal/article-pdf/14/3/324/22783921/0054725-200803000-00005.pdf",
-        "HTTP 403 at https://doi.org/10.1002/ibd.20334"
-      ],
       "titleMatch": 1,
       "entrySha": "a574cfbb8593804a5ff1f238b7ba0269c193b448512584198123fe488be89626",
       "chars": 1987,
@@ -5397,7 +5454,7 @@
       },
       "resolvedVia": [
         "europepmc:EXT_ID",
-        "europepmc:fullTextXML"
+        "ncbi:bioc"
       ],
       "basis": "fulltext",
       "preprint": false,
@@ -5407,8 +5464,8 @@
       "openAccess": true,
       "titleMatch": 1,
       "entrySha": "d2af21389b929613a19967821bafda1c93768dd9d9beaee3956ff85e8cdb7084",
-      "chars": 53541,
-      "textSha256": "9d56c8e981663879ff08f6ce92c560576011f9ff4072364516092ba7b0a28793"
+      "chars": 50221,
+      "textSha256": "e9494336cf3c3841e780659b486e2d255de62f25c36a095e81f8b778b614b774"
     },
     {
       "id": "schauber-gallo-2008-amps",
@@ -5748,8 +5805,8 @@
       "finalUrl": "https://www.asa.org.uk/rulings/111-skin-ltd-a25-1319497-111-skin-ltd.html",
       "titleMatch": null,
       "entrySha": "8ad7ee02b70f9a89e7441520f50cff9545c734830f88993cdd34db0ba2a3f2b9",
-      "chars": 9508,
-      "textSha256": "08dfc3ed7bafa2732e7399a3d0c386baea0bed2f27e72a6ffcdf4da298e082aa"
+      "chars": 9454,
+      "textSha256": "b21208f634db157f18f3eb3d5c4490a6f44491df1d3b0066b197d351e56c2d03"
     },
     {
       "id": "uk-hmr-2012-reg-46",
@@ -5762,6 +5819,10 @@
       "basis": "webpage",
       "preprint": false,
       "finalUrl": "https://www.legislation.gov.uk/uksi/2012/1916/regulation/46",
+      "readError": "HTTP 502",
+      "attempts": [
+        "refetch failed 2026-11-12: HTTP 502 — cached copy kept"
+      ],
       "titleMatch": null,
       "entrySha": "23b5029f0d6c8b94baf8ef7ab8269a83e5ee2c9665d72f927701a1d573f59c18",
       "chars": 14242,
@@ -5780,8 +5841,8 @@
       "finalUrl": "https://www.legislation.gov.uk/uksi/2012/1916/regulation/279",
       "titleMatch": null,
       "entrySha": "b5889fbfdacaae6672aff9aab3291b54dba218228f909690b63ed2da43569e83",
-      "chars": 12153,
-      "textSha256": "21d4fccf30ff71aca0525b008500f807435918c90adeae44bd1b7102dcc2dc0e"
+      "chars": 12154,
+      "textSha256": "feedcd76b4ae3a80ad0bb888b7a3468bf6754bee31ab023f32215a6489ff9531"
     },
     {
       "id": "adil-2017-aga-treatments-meta",
@@ -5870,8 +5931,8 @@
       "finalUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2022/207924Orig1s007ltr.pdf",
       "titleMatch": null,
       "entrySha": "35243a76dd1b44c901877a2c964735aaca4ea10ec576b042d8fdec911e6ba28a",
-      "chars": 15612,
-      "textSha256": "00e5b30eda0dc4cd0a280e26e6c824c66853fc5970d6b669bb908519b27fead0"
+      "chars": 15605,
+      "textSha256": "49e27394011d937436d08dd82339458b7c564a820df1f0fb94a08b1181516e8d"
     },
     {
       "id": "fda-drugsatfda-rogaine-019501",
@@ -5889,8 +5950,8 @@
       "finalUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=019501",
       "titleMatch": null,
       "entrySha": "4fb3853aa96b28387cdda8a7dd1b9f07e3af0b3fca5aa0dc2d79ac729db0825b",
-      "chars": 8152,
-      "textSha256": "6cb3127660500716e8094313c66a127659f28dc373ffb174a1157b03f4bb7fe2"
+      "chars": 7807,
+      "textSha256": "8c8cf7672ce2d7aa4ae3a1e3941bd29b73af2a055484ea8799f70eabdb1878c0"
     },
     {
       "id": "fda-drugsatfda-propecia-020788",
@@ -5903,9 +5964,11 @@
       "basis": "landing",
       "preprint": false,
       "attempts": [
-        "the cited page is a landing or portal page (10599 characters, 283 in prose paragraphs) — cite the specific document or record"
+        "the cited page is a landing or portal page (10599 characters, 283 in prose paragraphs) — cite the specific document or record",
+        "refetch failed 2026-11-12: HTTP 404 at https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=020788 — cached copy kept"
       ],
       "finalUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=020788",
+      "readError": "HTTP 404 at https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=020788",
       "titleMatch": null,
       "entrySha": "1431e77663c59c8c56d1050d2faa24d227dadb3f26851f719b7cfd3ab642ee74",
       "chars": 11282,
@@ -5920,7 +5983,7 @@
       },
       "resolvedVia": [
         "europepmc:EXT_ID",
-        "europepmc:fullTextXML"
+        "ncbi:bioc"
       ],
       "basis": "fulltext",
       "preprint": false,
@@ -5930,8 +5993,8 @@
       "openAccess": true,
       "titleMatch": 1,
       "entrySha": "bae0ae06d127e0c9ca8e8809ab033076e734970a9526b9c38b871116b1d80b40",
-      "chars": 38493,
-      "textSha256": "2df5244e1a7f804960f471da30b3face46c9763ece030886088f4512632cf9af"
+      "chars": 36285,
+      "textSha256": "93289a0f23693458de228de8ada3c71583d407d39a756cfe582e2cc30983b20a"
     },
     {
       "id": "langendonk-2015-afamelanotide-epp",
@@ -6041,7 +6104,7 @@
       },
       "resolvedVia": [
         "europepmc:EXT_ID",
-        "europepmc:fullTextXML"
+        "ncbi:bioc"
       ],
       "basis": "fulltext",
       "preprint": false,
@@ -6051,8 +6114,8 @@
       "openAccess": true,
       "titleMatch": 1,
       "entrySha": "9e076705576851ce3842a110562b9e15c36477ed2c47affe5dec4d61a6cc229c",
-      "chars": 45718,
-      "textSha256": "69f64ed0c63349dfa79b01495549b482ce7dd917e8bdd39e73eab9c1c5d073e0"
+      "chars": 42056,
+      "textSha256": "375dd6420bb12682b49ab9da54e075eebcfc28a6c667355272ec5777b6b34167"
     },
     {
       "id": "habbema-2017-msh-analogue-risks",
@@ -6307,7 +6370,7 @@
       },
       "resolvedVia": [
         "europepmc:EXT_ID",
-        "europepmc:fullTextXML"
+        "ncbi:bioc"
       ],
       "basis": "fulltext",
       "preprint": false,
@@ -6317,8 +6380,8 @@
       "openAccess": true,
       "titleMatch": 1,
       "entrySha": "424bdba034496d4fa7d6f3fe1aee8237f5a7beed0f7b04cd3705f07875cc502a",
-      "chars": 62222,
-      "textSha256": "c0c788490ac80f86ea15d6571feae728385856e19994190ff30d6e7aea3bf520"
+      "chars": 59781,
+      "textSha256": "63a64449bb890ae0da6b1445a82d7d98d2a25930828f3df6caec247ef36a9291"
     },
     {
       "id": "dardenne-1982-thymulin-zinc",
@@ -6373,8 +6436,8 @@
       "finalUrl": "https://www.medicines.org.uk/emc/product/7486/smpc",
       "titleMatch": null,
       "entrySha": "b45e0e1bf959709fe35b9f1c851e3590a090d6f62903c87555b1d232ce9bcf36",
-      "chars": 90566,
-      "textSha256": "41acd44a4e4fd226160b17c207ae4d4b06841d034e1f3aa27dd62f7103b21b88"
+      "chars": 90572,
+      "textSha256": "1e25dcf43e6ebe238edd6e64c9b8fdbffc67da02803e2da32ad07539c507128c"
     },
     {
       "id": "nice-ta926-baricitinib-aa",
@@ -6405,8 +6468,8 @@
       "finalUrl": "https://www.medicines.org.uk/emc/product/5781/smpc",
       "titleMatch": null,
       "entrySha": "e1bb13880bfaf23b80c1643d2d05d2419df806579143c01ff73a9af9cc3b3b69",
-      "chars": 24862,
-      "textSha256": "9008d3409a51e7589c75874013e4983d35c02bcd55c8b52e7af40376bd344891"
+      "chars": 24868,
+      "textSha256": "28ecc2181b13cfc6490730ce792d977b767be8ed63151abe5af920b5ac9d44f5"
     },
     {
       "id": "emc-smpc-propecia-uk",
@@ -6421,8 +6484,8 @@
       "finalUrl": "https://www.medicines.org.uk/emc/product/2194/smpc",
       "titleMatch": null,
       "entrySha": "f722ac80b611b60a3c67da713b91eef659f834bfbdd2f12def18fb73dc3f620f",
-      "chars": 26560,
-      "textSha256": "1fca97ac399f1d8298378c1d14d3d05fd3cc0f050b22d64d4a2d634b885e688b"
+      "chars": 26566,
+      "textSha256": "4311d4b4a54cc277e26668b168113fb94e7c0b89e05ec5252470cacb423a7aa3"
     },
     {
       "id": "mhra-dsu-2026-05-finasteride",
@@ -6577,18 +6640,19 @@
       },
       "resolvedVia": [
         "europepmc:EXT_ID",
-        "europepmc:abstract"
+        "openalex:oa-html"
       ],
-      "basis": "abstract",
+      "basis": "fulltext",
       "preprint": false,
       "resolvedTitle": "Recombinant human growth hormone for treating burns and donor sites.",
       "pmid": "25222766",
       "pmcid": "PMC7119450",
       "openAccess": false,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7119450/",
       "titleMatch": 1,
       "entrySha": "5db64c60121765ae59951f18337912c138e80316f7b20d3ea90bc4be606a7d8a",
-      "chars": 3366,
-      "textSha256": "eed4aae783d3cdcddecb18e413edec471e368013b0c8e6d8bfcdadf54dd1f533"
+      "chars": 116845,
+      "textSha256": "3a5d463b17f294e206e9d9655a4481f4dcf38799f2cf6827426c030afc27e071"
     },
     {
       "id": "rudman-1990-gh-men-over-60",
@@ -6687,14 +6751,19 @@
       "title": "21 U.S.C. § 333(e) — Prohibited distribution of human growth hormone",
       "url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title21-section333&num=0&edition=prelim",
       "ids": {},
-      "resolvedVia": [],
-      "basis": "none",
+      "resolvedVia": [
+        "url:landing"
+      ],
+      "basis": "landing",
       "preprint": false,
-      "error": "the cited URL has no readable text (landing page or JavaScript app) — cite the specific record or document",
+      "attempts": [
+        "the cited page is a landing or portal page (1132 characters, 361 in prose paragraphs) — cite the specific document or record"
+      ],
+      "finalUrl": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title21-section333&num=0&edition=prelim",
       "titleMatch": null,
       "entrySha": "5ff156276153e6913e2a3d08698641b3fe71ef4c43ba77635c3d13e812532a3c",
-      "chars": 0,
-      "textSha256": null
+      "chars": 1369,
+      "textSha256": "84146ed7f5e9ce370ec794b77dd9fdc86337b23c8df93f40a0ca3c27b0c51f63"
     },
     {
       "id": "falutz-2007-tesamorelin-nejm",
@@ -6757,8 +6826,8 @@
       "finalUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=839334d3-8c1d-4c26-9036-2ab524a6ea75",
       "titleMatch": null,
       "entrySha": "e4f9c3385f257ed7f1aa58d9944ce7086e924ca9ee7f438b44e8bd68115dff3f",
-      "chars": 75663,
-      "textSha256": "ed0000e087ccf52054758049040d9bf222f71815fc45fa2279ffa3adf84213e5"
+      "chars": 76277,
+      "textSha256": "d171f713ffebe08ce1f7cb35b4a3b6e5dd5bb451c22a74222db503de839318b1"
     },
     {
       "id": "khorram-1997-ghrh-analogue-older-adults",
@@ -6791,7 +6860,7 @@
       },
       "resolvedVia": [
         "europepmc:EXT_ID",
-        "europepmc:fullTextXML"
+        "ncbi:bioc"
       ],
       "basis": "fulltext",
       "preprint": false,
@@ -6801,8 +6870,8 @@
       "openAccess": true,
       "titleMatch": 1,
       "entrySha": "55beed43fd4c0f19e890a40893b7e8492106d4b1cf806e03d16ad82e1b8e3deb",
-      "chars": 85136,
-      "textSha256": "81b4e1f91440f07b6fded0f21321d71203be33769d378d077a2feb3ed010d9b5"
+      "chars": 79243,
+      "textSha256": "55220bb0980303c3ab98dffeb5f786b3355525550dfe64fc6db4b6b6fc200b08"
     },
     {
       "id": "teichman-2006-cjc1295-phase1",
@@ -6925,8 +6994,8 @@
       "finalUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=020443",
       "titleMatch": null,
       "entrySha": "5aa74503ed8de179c7e1c94f71e28ea36b78625ddd6f9f4a2c9c6d3e22ca0186",
-      "chars": 2105,
-      "textSha256": "c69d583a7209511698ab55dd4a4face145a63a116263d89d6a08e3847a745648"
+      "chars": 1760,
+      "textSha256": "5c9a086253a8e689879007d8d07f7716b78ee3453eaa930b417dd30f90da2ee1"
     },
     {
       "id": "fda-pcac-2024-10-minutes",
@@ -6941,8 +7010,8 @@
       "finalUrl": "https://www.fda.gov/media/185412/download",
       "titleMatch": null,
       "entrySha": "4d41ef6ba6ebebb5d0bd530376da35d41ff6b410a276e5eb431bf9dea35081ef",
-      "chars": 18737,
-      "textSha256": "645e1877a17d7e92121bc49fd49124b340f3b5759db6a7ff525e243c5c38e8ed"
+      "chars": 18735,
+      "textSha256": "6ebe9e862a17f9f78c036c533d89df6588bfebeb7fa4af82dbb39d6ae4cf3269"
     },
     {
       "id": "katznelson-2014-acromegaly-guideline",
@@ -6979,7 +7048,7 @@
       },
       "resolvedVia": [
         "europepmc:EXT_ID",
-        "europepmc:fullTextXML"
+        "ncbi:bioc"
       ],
       "basis": "fulltext",
       "preprint": false,
@@ -6989,8 +7058,8 @@
       "openAccess": true,
       "titleMatch": 1,
       "entrySha": "4ee4db43adc11c7684898cd068b32bb2e7e1c3757bee373b5dddd84d8ba218f2",
-      "chars": 56866,
-      "textSha256": "8940545fd153f00aa5298df93f31cc4be0cb880388f3d1aa580e71fdc9f6ca09"
+      "chars": 55382,
+      "textSha256": "361e44feeeb0d017f7732cfbe3d48fc0b848e167745f84fe19f8c03a5b9f1f36"
     },
     {
       "id": "genotropin-label-2026",
@@ -7005,8 +7074,8 @@
       "finalUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ffebf88b-d257-4542-9808-74d9b7167765",
       "titleMatch": null,
       "entrySha": "9a9c3dd587d76dcf4cdcee030bc284c3a4cf7351895cd10fb2a2a52838aa12d1",
-      "chars": 148939,
-      "textSha256": "5c0086850039851cf08064eae387eb507bedc26673fb0e45bb1ad69d83df09a0"
+      "chars": 149553,
+      "textSha256": "1dd56b1a078f5d52b0b237bc75a3246eed92fc3967542cb00e19ca2f37bf350b"
     },
     {
       "id": "renehan-2004-igf1-cancer-meta",
@@ -7109,7 +7178,7 @@
       },
       "resolvedVia": [
         "europepmc:EXT_ID",
-        "europepmc:fullTextXML"
+        "ncbi:bioc"
       ],
       "basis": "fulltext",
       "preprint": false,
@@ -7119,8 +7188,8 @@
       "openAccess": true,
       "titleMatch": 1,
       "entrySha": "0a1456c531e81f12d4512fd3da20ecfc476e15a595f66e2b8887c92b12535d94",
-      "chars": 58512,
-      "textSha256": "92cac47a9abc139eb3c1e77f2a6efb2b9c616fe1a3bc7cea8aa46782f4ab5bd6"
+      "chars": 56518,
+      "textSha256": "425b9c3ee512faf53b6c90295b98b14b9fa1f2d9fc4f8e2e3cffd92d528fc6ff"
     },
     {
       "id": "guevara-aguirre-2011-ghrd-cancer",
@@ -7157,8 +7226,8 @@
       "finalUrl": "https://www.medicines.org.uk/emc/product/32/smpc",
       "titleMatch": null,
       "entrySha": "ee08762384c5d786aa6162bc3ae1404889018f6f7f682952d21d8213e4f07567",
-      "chars": 38819,
-      "textSha256": "7cdc2682f9b3311320a7fdbb8c11555331ae0f6eef1c163bfa320a4ba5b2225a"
+      "chars": 38825,
+      "textSha256": "500196ae48c81cb95e2602e97c2bb4c895b1e90b8ef8e43951786ae180f5ce23"
     },
     {
       "id": "uk-misuse-of-drugs-act-1971-sch2",
@@ -7468,8 +7537,8 @@
       "finalUrl": "https://www.fda.gov/media/119229/download",
       "titleMatch": null,
       "entrySha": "a9d5ffa99f370a5326dca8e742a7042cd514a9f747efe179200bdff51899349a",
-      "chars": 11815,
-      "textSha256": "c529fb255a4cdc9a8405894e2216008eaf5913506369293b345d0ad5f9d7443f"
+      "chars": 11806,
+      "textSha256": "59ea82c44946ec5f69c62a9f0e69335ea11ad4bca47252cdfad8d53b378078fc"
     },
     {
       "id": "lilly-v-kennedy-2025-sdind-order",
@@ -7484,8 +7553,8 @@
       "finalUrl": "https://storage.courtlistener.com/recap/gov.uscourts.insd.216702/gov.uscourts.insd.216702.48.0.pdf",
       "titleMatch": null,
       "entrySha": "78592bbf5ecd9faa6f650c43f13ec459d4d5fe8464b3c8522d2fcc2daa3a3a57",
-      "chars": 35461,
-      "textSha256": "5a0313ecd35bc274cb10c6e5b87f17a76a07f70957757e7cde76bc2759701904"
+      "chars": 35452,
+      "textSha256": "adc764747e3e257899a3b0c8323c731ac447af09b5c92bb869c2a5db489f1e2d"
     },
     {
       "id": "lilly-v-kennedy-7th-cir-26-1301",
@@ -7498,6 +7567,10 @@
       "basis": "webpage",
       "preprint": false,
       "finalUrl": "https://www.courtlistener.com/docket/73173235/eli-lilly-and-company-v-robert-kennedy-jr/",
+      "readError": "HTTP 405 at https://www.courtlistener.com/docket/73173235/eli-lilly-and-company-v-robert-kennedy-jr/",
+      "attempts": [
+        "refetch failed 2026-11-12: HTTP 405 at https://www.courtlistener.com/docket/73173235/eli-lilly-and-company-v-robert-kennedy-jr/ — cached copy kept"
+      ],
       "titleMatch": null,
       "entrySha": "7c26a48e6abc7ab52ae937df24ad1c9653b7cc80da85bf10ac8d37fefb34454b",
       "chars": 19090,
@@ -7516,8 +7589,8 @@
       "finalUrl": "https://www.fda.gov/media/83477/download",
       "titleMatch": null,
       "entrySha": "6cb750305b329d1314a8c5dab9fd2ac6cb4d739bf409a488afa7edd8833794e2",
-      "chars": 31683,
-      "textSha256": "3931580cfd894ad562e3ac5c0c7a7ac1201b338e7d2d07b545d7d7a94fbb3608"
+      "chars": 31672,
+      "textSha256": "d2eaa2fbb082f30f55d687f4cc52caf9ba05262bb0fb44e29d0a68c1b27adf88"
     },
     {
       "id": "poplawska-2019-ghrp2-analogue-vial",
@@ -7672,8 +7745,8 @@
       "finalUrl": "https://www.legislation.gov.uk/uksi/2012/1916/regulation/167",
       "titleMatch": null,
       "entrySha": "80a9b56b1b9891c52eccc2a9f582ae638a66d78441dee672166db7e0843936c4",
-      "chars": 16273,
-      "textSha256": "ae2e740791d0928430b5e8017683565596e70d62a1feda8a181e8c9a4c43e30c"
+      "chars": 16274,
+      "textSha256": "650207c7dc5421909f3cf9b700553f47785cd16e8e9f1dc4ba255db90711a38a"
     },
     {
       "id": "uk-medicines-act-1968-s10",
@@ -7688,8 +7761,8 @@
       "finalUrl": "https://www.legislation.gov.uk/ukpga/1968/67/section/10",
       "titleMatch": null,
       "entrySha": "73543c1cc337f21317d6c20efda0a7ef698c6fc267c1a7a07fcbeb3c992025b3",
-      "chars": 17248,
-      "textSha256": "b518cf6c5f757072ba1588fbb4f42edf35666136b719ebb3e5253fdb66acd1d1"
+      "chars": 17249,
+      "textSha256": "a23001f76d828f1c6dec573f976dcee636c46ba35143894b7d52d22e95e77f34"
     },
     {
       "id": "gmc-prescribing-unlicensed-2021",
@@ -7716,6 +7789,10 @@
       "basis": "pdf",
       "preprint": false,
       "finalUrl": "https://assets.pharmacyregulation.org/files/2025-04/in-practice-guidance-for-pharmacist-prescribers-updated-april-2025.pdf?VersionId=gDMMsBlPEOdD2uTfSyjVzhutXbJ5RCCg",
+      "readError": "HTTP 404 at https://assets.pharmacyregulation.org/files/2025-04/in-practice-guidance-for-pharmacist-prescribers-updated-april-2025.pdf?VersionId=gDMMsBlPEOdD2uTfSyjVzhutXbJ5RCCg",
+      "attempts": [
+        "refetch failed 2026-11-12: HTTP 404 at https://assets.pharmacyregulation.org/files/2025-04/in-practice-guidance-for-pharmacist-prescribers-updated-april-2025.pdf?VersionId=gDMMsBlPEOdD2uTfSyjVzhutXbJ5RCCg — cached copy kept"
+      ],
       "titleMatch": null,
       "entrySha": "9eaff5fb6fd45764a121e7193e497bb285b80ac3a2f7cbf280a783103d171b5e",
       "chars": 69296,
@@ -7734,8 +7811,8 @@
       "finalUrl": "https://www.nmc.org.uk/standards/code/read-the-code-online/",
       "titleMatch": null,
       "entrySha": "77c1e117f0d00c85c11813876eb3f9dda807310473c269a3e13e5eee226b47e2",
-      "chars": 34722,
-      "textSha256": "5775f634d31ada01da4f1652bcf363dc2f089cd976df452f93906ae1560b1744"
+      "chars": 34372,
+      "textSha256": "8e7bf4f2d65d8b392909b82bb7a51142e76a79468ddd3b979fd41d799d59b126"
     },
     {
       "id": "uk-hmr-2012-reg-284",
@@ -7750,8 +7827,8 @@
       "finalUrl": "https://www.legislation.gov.uk/uksi/2012/1916/regulation/284",
       "titleMatch": null,
       "entrySha": "a478f4263cca36305fa305b59ffb2c84939d0037ebc5c785d3a234f3fc841a3b",
-      "chars": 10405,
-      "textSha256": "f6a2f040d546ab35f0a614738ed06650bcca714c50ca332291c564e33a990d75"
+      "chars": 10406,
+      "textSha256": "6058235ab212b94f8516455bf1622f5806804fa992fbc71a948c7012a07ffbea"
     },
     {
       "id": "cap-code-section-12",
@@ -7766,8 +7843,8 @@
       "finalUrl": "https://www.asa.org.uk/type/non_broadcast/code_section/12.html",
       "titleMatch": null,
       "entrySha": "f8262fd988f91c6db1cbea92bd8a396620aa5b1d5ac19cc8bacf25d821f217cc",
-      "chars": 18742,
-      "textSha256": "6b55d1922069c15b3aa8c02407608e15984dd811463b09d045f7ce321c710e83"
+      "chars": 18727,
+      "textSha256": "9ea30df462a70d7dfca5b577ef5c24c6f3abc971c37bc68419faf0e9aed06df0"
     },
     {
       "id": "mhra-blue-guide-2020",
@@ -7782,8 +7859,8 @@
       "finalUrl": "https://assets.publishing.service.gov.uk/media/6012d7f2d3bf7f05b92f6cfc/BG_2020_Brexit_Final_version.pdf",
       "titleMatch": null,
       "entrySha": "8fcb6586083d2bac0f83259e9fcc3c273ffb14cdf7714ed3ab41a14d4d0b9e19",
-      "chars": 240986,
-      "textSha256": "79a60ba6a03d55908fa4ff36279cf528f0430c1c49daf4cda800edb8d95aa643"
+      "chars": 240980,
+      "textSha256": "d9c53406c28865f143c7c4694eb0243b0eab707d98673e6b4aeb145940beeabd"
     },
     {
       "id": "asa-ruling-menwell-voy-2026",
@@ -7798,8 +7875,8 @@
       "finalUrl": "https://www.asa.org.uk/rulings/menwell-ltd-a25-1295306-menwell-ltd.html",
       "titleMatch": null,
       "entrySha": "eb321f8c579058a605cc4f3498979679225b4e705cb76ded97dcf562d30456de",
-      "chars": 10456,
-      "textSha256": "2ce9bfaddc50278cf89c8a6910dbdd604b1a043d8349761d0e06abab54410dff"
+      "chars": 10581,
+      "textSha256": "6580f704d1d02640efeeec952797c5c0cf0ee654a948d79fd6f17cdc6d8dae00"
     },
     {
       "id": "gmc-cosmetic-interventions-2016",
@@ -7930,14 +8007,19 @@
       "title": "Lei nº 9.294, de 15 de julho de 1996 (restrições à propaganda de medicamentos e terapias)",
       "url": "https://www.planalto.gov.br/ccivil_03/leis/l9294.htm",
       "ids": {},
-      "resolvedVia": [],
-      "basis": "none",
+      "resolvedVia": [
+        "url:landing"
+      ],
+      "basis": "landing",
       "preprint": false,
-      "error": "www.planalto.gov.br: ECONNRESET",
+      "attempts": [
+        "the cited page is a landing or portal page (3018 characters, 262 in prose paragraphs) — cite the specific document or record"
+      ],
+      "finalUrl": "https://www.gov.br/planalto/pt-br",
       "titleMatch": null,
       "entrySha": "7339450f4dc77dcc7702ec33113a167d364a3f0cf5c4002479d503116890bbf1",
-      "chars": 0,
-      "textSha256": null
+      "chars": 3128,
+      "textSha256": "16ebb27f1726521cafc0800523fea7182842c1a7becc8c1079b25f8521dea431"
     }
   ],
   "units": [
