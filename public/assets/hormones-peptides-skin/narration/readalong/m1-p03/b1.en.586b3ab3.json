@@ -1,0 +1,196 @@
+{
+ "schema": "perceptor.narration-alignment/1",
+ "audio": "b1.en.586b3ab3.mp3",
+ "locale": "en",
+ "text": "Epidermis, dermis, subcutis and the adnexa each hold cells that make hormones and cells that react to them, from keratinocytes and fibroblasts to fat cells and mast cells.",
+ "text_sha256": "25358ca775f5d9bce0876e07edfa8f759ce21f1837773cde5c10cd522b12da15",
+ "duration_seconds": 14.56,
+ "engine": {
+  "tool": "elevenlabs-scribe",
+  "model": "scribe_v1",
+  "synthesis": {
+   "provider": "gemini-tts",
+   "model": "gemini-3.8-flash-tts",
+   "voice": "en-gb-tutor-1",
+   "key": "586b3ab324bffdb01f821bef048856133a1aadb1a9a495cfcfc6b969b7e4c187"
+  }
+ },
+ "generated_at": "2026-09-28T04:40:59.653Z",
+ "stats": {
+  "tokens": 28,
+  "spoken_tokens": 28,
+  "matched": 28,
+  "mismatched": 0,
+  "interpolated": 0,
+  "unmatched_heard": 0,
+  "match_rate": 1,
+  "first_word_start": 0.32,
+  "last_word_end": 14.18
+ },
+ "words": [
+  {
+   "text": "Epidermis,",
+   "start": 0.32,
+   "end": 1.02
+  },
+  {
+   "text": "dermis,",
+   "start": 1.36,
+   "end": 1.84
+  },
+  {
+   "text": "subcutis",
+   "start": 2.34,
+   "end": 3.08
+  },
+  {
+   "text": "and",
+   "start": 3.32,
+   "end": 3.48
+  },
+  {
+   "text": "the",
+   "start": 3.54,
+   "end": 3.62
+  },
+  {
+   "text": "adnexa",
+   "start": 3.7,
+   "end": 4.26
+  },
+  {
+   "text": "each",
+   "start": 4.78,
+   "end": 4.98
+  },
+  {
+   "text": "hold",
+   "start": 5.06,
+   "end": 5.32
+  },
+  {
+   "text": "cells",
+   "start": 5.4,
+   "end": 5.78
+  },
+  {
+   "text": "that",
+   "start": 5.82,
+   "end": 6.02
+  },
+  {
+   "text": "make",
+   "start": 6.12,
+   "end": 6.36
+  },
+  {
+   "text": "hormones",
+   "start": 6.44,
+   "end": 6.98
+  },
+  {
+   "text": "and",
+   "start": 7.58,
+   "end": 7.78
+  },
+  {
+   "text": "cells",
+   "start": 7.84,
+   "end": 8.119
+  },
+  {
+   "text": "that",
+   "start": 8.16,
+   "end": 8.3
+  },
+  {
+   "text": "react",
+   "start": 8.36,
+   "end": 8.64
+  },
+  {
+   "text": "to",
+   "start": 8.68,
+   "end": 8.76
+  },
+  {
+   "text": "them,",
+   "start": 8.8,
+   "end": 8.96
+  },
+  {
+   "text": "from",
+   "start": 9.64,
+   "end": 9.94
+  },
+  {
+   "text": "keratinocytes",
+   "start": 10,
+   "end": 10.94
+  },
+  {
+   "text": "and",
+   "start": 11.02,
+   "end": 11.16
+  },
+  {
+   "text": "fibroblasts",
+   "start": 11.24,
+   "end": 12.04
+  },
+  {
+   "text": "to",
+   "start": 12.34,
+   "end": 12.44
+  },
+  {
+   "text": "fat",
+   "start": 12.5,
+   "end": 12.72
+  },
+  {
+   "text": "cells",
+   "start": 12.78,
+   "end": 13.24
+  },
+  {
+   "text": "and",
+   "start": 13.28,
+   "end": 13.38
+  },
+  {
+   "text": "mast",
+   "start": 13.44,
+   "end": 13.8
+  },
+  {
+   "text": "cells.",
+   "start": 13.86,
+   "end": 14.18
+  }
+ ],
+ "mismatches": [],
+ "unmatched_heard": [],
+ "cues": [
+  {
+   "text": "Epidermis, dermis,",
+   "at": 0.32,
+   "until": 2.14
+  },
+  {
+   "text": "subcutis and the adnexa each hold cells that",
+   "at": 2.34,
+   "until": 6.12
+  },
+  {
+   "text": "make hormones and cells that react to them,",
+   "at": 6.12,
+   "until": 9.26
+  },
+  {
+   "text": "from keratinocytes and fibroblasts to fat cells and mast cells.",
+   "at": 9.64,
+   "until": 14.48
+  }
+ ]
+}

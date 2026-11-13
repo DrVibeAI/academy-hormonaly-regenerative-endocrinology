@@ -1,0 +1,161 @@
+{
+ "schema": "perceptor.narration-alignment/1",
+ "audio": "b3.en.35ac90b7.mp3",
+ "locale": "en",
+ "text": "Both levers protect or rebuild the dermal matrix, and both have human outcome data. Senolytics for skin have no such data yet.",
+ "text_sha256": "fb0086261d6e4f6a844e859f81b66db58c069455a109cb14d57f5ccb6033938d",
+ "duration_seconds": 10.68,
+ "engine": {
+  "tool": "elevenlabs-scribe",
+  "model": "scribe_v1",
+  "synthesis": {
+   "provider": "gemini-tts",
+   "model": "gemini-3.8-flash-tts",
+   "voice": "en-gb-tutor-1",
+   "key": "35ac90b71d9beb451fdff445aabf4d180cb4f51785bd8599ccc49f5c1b1b08dc"
+  }
+ },
+ "generated_at": "2026-09-28T04:43:04.630Z",
+ "stats": {
+  "tokens": 22,
+  "spoken_tokens": 22,
+  "matched": 22,
+  "mismatched": 0,
+  "interpolated": 0,
+  "unmatched_heard": 0,
+  "match_rate": 1,
+  "first_word_start": 0.36,
+  "last_word_end": 10.3
+ },
+ "words": [
+  {
+   "text": "Both",
+   "start": 0.36,
+   "end": 0.6
+  },
+  {
+   "text": "levers",
+   "start": 0.7,
+   "end": 1.14
+  },
+  {
+   "text": "protect",
+   "start": 1.24,
+   "end": 1.78
+  },
+  {
+   "text": "or",
+   "start": 1.94,
+   "end": 2.06
+  },
+  {
+   "text": "rebuild",
+   "start": 2.2,
+   "end": 2.76
+  },
+  {
+   "text": "the",
+   "start": 2.8,
+   "end": 2.9
+  },
+  {
+   "text": "dermal",
+   "start": 2.94,
+   "end": 3.24
+  },
+  {
+   "text": "matrix,",
+   "start": 3.32,
+   "end": 3.9
+  },
+  {
+   "text": "and",
+   "start": 4.34,
+   "end": 4.46
+  },
+  {
+   "text": "both",
+   "start": 4.58,
+   "end": 4.8
+  },
+  {
+   "text": "have",
+   "start": 4.86,
+   "end": 5.1
+  },
+  {
+   "text": "human",
+   "start": 5.2,
+   "end": 5.58
+  },
+  {
+   "text": "outcome",
+   "start": 5.66,
+   "end": 6.04
+  },
+  {
+   "text": "data.",
+   "start": 6.12,
+   "end": 6.48
+  },
+  {
+   "text": "Senolytics",
+   "start": 7.36,
+   "end": 8
+  },
+  {
+   "text": "for",
+   "start": 8.02,
+   "end": 8.14
+  },
+  {
+   "text": "skin",
+   "start": 8.2,
+   "end": 8.6
+  },
+  {
+   "text": "have",
+   "start": 8.66,
+   "end": 8.9
+  },
+  {
+   "text": "no",
+   "start": 9.08,
+   "end": 9.24
+  },
+  {
+   "text": "such",
+   "start": 9.36,
+   "end": 9.58
+  },
+  {
+   "text": "data",
+   "start": 9.62,
+   "end": 9.9
+  },
+  {
+   "text": "yet.",
+   "start": 10,
+   "end": 10.3
+  }
+ ],
+ "mismatches": [],
+ "unmatched_heard": [],
+ "cues": [
+  {
+   "text": "Both levers protect or rebuild the dermal matrix,",
+   "at": 0.36,
+   "until": 4.2
+  },
+  {
+   "text": "and both have human outcome data.",
+   "at": 4.34,
+   "until": 6.78
+  },
+  {
+   "text": "Senolytics for skin have no such data yet.",
+   "at": 7.36,
+   "until": 10.6
+  }
+ ]
+}

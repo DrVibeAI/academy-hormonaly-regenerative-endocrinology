@@ -1,0 +1,131 @@
+{
+ "schema": "perceptor.narration-alignment/1",
+ "audio": "b1.en.9daeeb9e.mp3",
+ "locale": "en",
+ "text": "Receptors explain how a topical could act. Whether it does is a question for a human trial.",
+ "text_sha256": "eefedbab0c3e4e4887a02f627aa1d84aeb38ccc71a07aec5791ced96bc73abcd",
+ "duration_seconds": 7.24,
+ "engine": {
+  "tool": "elevenlabs-scribe",
+  "model": "scribe_v1",
+  "synthesis": {
+   "provider": "gemini-tts",
+   "model": "gemini-3.8-flash-tts",
+   "voice": "en-gb-tutor-1",
+   "key": "9daeeb9ef39253157e9310c9d5f22dc359eb03c8d2b6ee83440b7c59eb49610c"
+  }
+ },
+ "generated_at": "2026-09-28T04:42:09.594Z",
+ "stats": {
+  "tokens": 17,
+  "spoken_tokens": 17,
+  "matched": 17,
+  "mismatched": 0,
+  "interpolated": 0,
+  "unmatched_heard": 0,
+  "match_rate": 1,
+  "first_word_start": 0.32,
+  "last_word_end": 6.88
+ },
+ "words": [
+  {
+   "text": "Receptors",
+   "start": 0.32,
+   "end": 0.9
+  },
+  {
+   "text": "explain",
+   "start": 0.96,
+   "end": 1.54
+  },
+  {
+   "text": "how",
+   "start": 1.76,
+   "end": 2.28
+  },
+  {
+   "text": "a",
+   "start": 2.36,
+   "end": 2.42
+  },
+  {
+   "text": "topical",
+   "start": 2.5,
+   "end": 2.9
+  },
+  {
+   "text": "could",
+   "start": 2.94,
+   "end": 3.08
+  },
+  {
+   "text": "act.",
+   "start": 3.18,
+   "end": 3.42
+  },
+  {
+   "text": "Whether",
+   "start": 4.1,
+   "end": 4.32
+  },
+  {
+   "text": "it",
+   "start": 4.36,
+   "end": 4.5
+  },
+  {
+   "text": "does",
+   "start": 4.56,
+   "end": 5.12
+  },
+  {
+   "text": "is",
+   "start": 5.2,
+   "end": 5.26
+  },
+  {
+   "text": "a",
+   "start": 5.32,
+   "end": 5.36
+  },
+  {
+   "text": "question",
+   "start": 5.42,
+   "end": 5.82
+  },
+  {
+   "text": "for",
+   "start": 5.88,
+   "end": 5.96
+  },
+  {
+   "text": "a",
+   "start": 6.02,
+   "end": 6.08
+  },
+  {
+   "text": "human",
+   "start": 6.16,
+   "end": 6.48
+  },
+  {
+   "text": "trial.",
+   "start": 6.54,
+   "end": 6.88
+  }
+ ],
+ "mismatches": [],
+ "unmatched_heard": [],
+ "cues": [
+  {
+   "text": "Receptors explain how a topical could act.",
+   "at": 0.32,
+   "until": 3.72
+  },
+  {
+   "text": "Whether it does is a question for a human trial.",
+   "at": 4.1,
+   "until": 7.18
+  }
+ ]
+}

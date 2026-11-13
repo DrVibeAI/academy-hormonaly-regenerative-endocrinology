@@ -4,7 +4,10 @@ academy: hormonaly
 brand:
   voices:                       # stock library voice (no faculty likeness/voice without a release); intake video brief: "voice: library"
     es-MX: { voice_id: "", name: "" }
-    en: { voice_id: "Xb7hH8MSUJpSbSDYk0k2", name: "Alice — Clear, Engaging Educator (ElevenLabs library)" }   # narration on demand + tutor voice
+    # Narration on demand + the Guide's voice. Omar 2026-09-28: "for the guide, just use the same voice as the skin course for now"
+    # — the films' and read-along beats' Gemini voice (course-production/hormones-peptides-skin/narration-voices.json).
+    # Was ElevenLabs "Alice" (Xb7hH8MSUJpSbSDYk0k2).
+    en: { provider: gemini-tts, voice_id: en-gb-tutor-1, model: gemini-3.8-flash-tts, style: "Warm, clear and precise clinical educator speaking to physicians. Natural, unhurried pace. Pronounce every medical and chemical term carefully and confidently.", name: "Gemini 3.8 TTS · en-gb-tutor-1 (the Skin course voice)" }
   name: Hormonaly Academy
   shortName: Hormonaly
   wordmarkSuffix: ACADEMY              # typographic wordmark (no logo asset yet): "Hormonaly" in the display serif + mono suffix

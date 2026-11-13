@@ -1,0 +1,258 @@
+{
+ "schema": "perceptor.narration-alignment/1",
+ "audio": "b2.en.f9891d1a.mp3",
+ "locale": "en",
+ "text": "Topical tretinoin improves photoageing consistently across randomized trials, and the Aesthetic & Regenerative Endocrinology guide rates topical retinoids first-line, GRADE A. Retinol improved fine wrinkles in very old skin in a small trial (GRADE C).",
+ "text_sha256": "b440147fd9527609b1d539c5249a4094e527048e9e3e83e27a71d4c61686faa8",
+ "duration_seconds": 18.68,
+ "engine": {
+  "tool": "elevenlabs-scribe",
+  "model": "scribe_v1",
+  "synthesis": {
+   "provider": "gemini-tts",
+   "model": "gemini-3.8-flash-tts",
+   "voice": "en-gb-tutor-1",
+   "key": "f9891d1a39bc25a52e9fb25b0e2dffe2200bcb678b2f84a1a1a75253366b719e"
+  }
+ },
+ "generated_at": "2026-09-28T04:44:53.431Z",
+ "stats": {
+  "tokens": 35,
+  "spoken_tokens": 34,
+  "matched": 33,
+  "mismatched": 1,
+  "interpolated": 0,
+  "unmatched_heard": 1,
+  "match_rate": 0.971,
+  "first_word_start": 0.26,
+  "last_word_end": 18.3
+ },
+ "words": [
+  {
+   "text": "Topical",
+   "start": 0.26,
+   "end": 0.7
+  },
+  {
+   "text": "tretinoin",
+   "start": 0.82,
+   "end": 1.5
+  },
+  {
+   "text": "improves",
+   "start": 1.68,
+   "end": 2.28
+  },
+  {
+   "text": "photoageing",
+   "start": 2.32,
+   "end": 3.06,
+   "matched": false,
+   "heard": "photoaging"
+  },
+  {
+   "text": "consistently",
+   "start": 3.12,
+   "end": 3.94
+  },
+  {
+   "text": "across",
+   "start": 4.019,
+   "end": 4.36
+  },
+  {
+   "text": "randomized",
+   "start": 4.42,
+   "end": 4.96
+  },
+  {
+   "text": "trials,",
+   "start": 5.02,
+   "end": 5.44
+  },
+  {
+   "text": "and",
+   "start": 6.08,
+   "end": 6.2
+  },
+  {
+   "text": "the",
+   "start": 6.26,
+   "end": 6.32
+  },
+  {
+   "text": "Aesthetic",
+   "start": 6.36,
+   "end": 6.84
+  },
+  {
+   "text": "&",
+   "start": 6.84,
+   "end": 7.08,
+   "matched": false,
+   "interpolated": true
+  },
+  {
+   "text": "Regenerative",
+   "start": 7.08,
+   "end": 7.74
+  },
+  {
+   "text": "Endocrinology",
+   "start": 7.8,
+   "end": 8.46
+  },
+  {
+   "text": "guide",
+   "start": 8.54,
+   "end": 8.84
+  },
+  {
+   "text": "rates",
+   "start": 9,
+   "end": 9.3
+  },
+  {
+   "text": "topical",
+   "start": 9.36,
+   "end": 9.72
+  },
+  {
+   "text": "retinoids",
+   "start": 9.78,
+   "end": 10.3
+  },
+  {
+   "text": "first-line,",
+   "start": 10.56,
+   "end": 11.2
+  },
+  {
+   "text": "GRADE",
+   "start": 11.56,
+   "end": 11.8
+  },
+  {
+   "text": "A.",
+   "start": 12,
+   "end": 12.04
+  },
+  {
+   "text": "Retinol",
+   "start": 13.14,
+   "end": 13.82
+  },
+  {
+   "text": "improved",
+   "start": 13.88,
+   "end": 14.36
+  },
+  {
+   "text": "fine",
+   "start": 14.44,
+   "end": 14.68
+  },
+  {
+   "text": "wrinkles",
+   "start": 14.7,
+   "end": 15.22
+  },
+  {
+   "text": "in",
+   "start": 15.3,
+   "end": 15.42
+  },
+  {
+   "text": "very",
+   "start": 15.5,
+   "end": 15.74
+  },
+  {
+   "text": "old",
+   "start": 15.8,
+   "end": 16
+  },
+  {
+   "text": "skin",
+   "start": 16.12,
+   "end": 16.42
+  },
+  {
+   "text": "in",
+   "start": 16.48,
+   "end": 16.52
+  },
+  {
+   "text": "a",
+   "start": 16.58,
+   "end": 16.62
+  },
+  {
+   "text": "small",
+   "start": 16.72,
+   "end": 16.94
+  },
+  {
+   "text": "trial",
+   "start": 17,
+   "end": 17.32
+  },
+  {
+   "text": "(GRADE",
+   "start": 17.74,
+   "end": 18.02
+  },
+  {
+   "text": "C).",
+   "start": 18.1,
+   "end": 18.3
+  }
+ ],
+ "mismatches": [
+  {
+   "index": 3,
+   "canonical": "photoageing",
+   "heard": "photoaging",
+   "start": 2.32
+  }
+ ],
+ "unmatched_heard": [
+  {
+   "text": "and",
+   "start": 6.88,
+   "end": 7
+  }
+ ],
+ "cues": [
+  {
+   "text": "Topical tretinoin improves photoageing",
+   "at": 0.26,
+   "until": 3.12
+  },
+  {
+   "text": "consistently across randomized trials,",
+   "at": 3.12,
+   "until": 5.74
+  },
+  {
+   "text": "and the Aesthetic & Regenerative Endocrinology",
+   "at": 6.08,
+   "until": 8.54
+  },
+  {
+   "text": "guide rates topical retinoids first-line, GRADE A.",
+   "at": 8.54,
+   "until": 12.34
+  },
+  {
+   "text": "Retinol improved fine wrinkles in very",
+   "at": 13.14,
+   "until": 15.8
+  },
+  {
+   "text": "old skin in a small trial (GRADE C).",
+   "at": 15.8,
+   "until": 18.6
+  }
+ ]
+}

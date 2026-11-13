@@ -9,4 +9,12 @@
 # stacked on #11 and #9).
 # 2026-09-27: moved to the foundry commit the 1.1.0 dossier and scorecard pre-review were built with: perceptor-foundry #17 (the
 # #9/#11/#14 stack merged with main 1b7ecbd: GCLS review standard v0.1 + scorecard).
-ref=69b4706c26505bb6b03b08be6ab900b7493a0816
+# 2026-09-28 (sitting-design pilot, Module 1): moved to the head of perceptor-foundry draft PR #19 (factory/sitting-design-20260928,
+# e031406: dosage audit, read-along beats, twotier and ladder, Gemini 3.8 TTS beats.mjs), stacked on #17. Move it to the merge
+# commit when #19 lands on main.
+# 2026-09-28 (round 2): moved to PR #19's new head f319b9a. Its dosage audit counts what perceptor-runtime PR #27 (dc4da71) shows
+# before the first tap (task-first body placement), and caps a case card (scenario, branching, twotier with a setup) at 150 words;
+# every other card stays at 100. Move it to the merge commit when #19 lands on main.
+# 2026-09-28 (deploy for Omar's test): moved to PR #19's head f285f3f (an inspect card counts only the prompt and the lines its
+# renderer draws). Module 1 still passes every dosage rule. Move it to the merge commit when #19 lands on main.
+ref=f285f3f5ea981e5745d0c4fca75344a05d1dfe9e

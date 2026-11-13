@@ -1,0 +1,244 @@
+{
+ "schema": "perceptor.narration-alignment/1",
+ "audio": "b1.en.6dc050b9.mp3",
+ "locale": "en",
+ "text": "The Aesthetic & Regenerative Endocrinology guide treats the aesthetic exam as a systemic screen. Sudden thinning and easy bruising suggest cortisol excess; coarse, dry, cool skin suggests hypothyroidism; new acanthosis nigricans flags insulin resistance.",
+ "text_sha256": "539ec446c831cfcbca09fff9c8898330f19348ddfd532c6c55e586343291ca80",
+ "duration_seconds": 20.2,
+ "engine": {
+  "tool": "elevenlabs-scribe",
+  "model": "scribe_v1",
+  "synthesis": {
+   "provider": "gemini-tts",
+   "model": "gemini-3.8-flash-tts",
+   "voice": "en-gb-tutor-1",
+   "key": "6dc050b9055e747e887fd3b5e45629388d9c5392ca7353a940f6d751153bffc9"
+  }
+ },
+ "generated_at": "2026-09-28T04:41:33.282Z",
+ "stats": {
+  "tokens": 34,
+  "spoken_tokens": 33,
+  "matched": 33,
+  "mismatched": 0,
+  "interpolated": 0,
+  "unmatched_heard": 1,
+  "match_rate": 1,
+  "first_word_start": 0.26,
+  "last_word_end": 19.72
+ },
+ "words": [
+  {
+   "text": "The",
+   "start": 0.26,
+   "end": 0.32
+  },
+  {
+   "text": "Aesthetic",
+   "start": 0.36,
+   "end": 1
+  },
+  {
+   "text": "&",
+   "start": 1,
+   "end": 1.28,
+   "matched": false,
+   "interpolated": true
+  },
+  {
+   "text": "Regenerative",
+   "start": 1.28,
+   "end": 1.9
+  },
+  {
+   "text": "Endocrinology",
+   "start": 2,
+   "end": 2.7
+  },
+  {
+   "text": "guide",
+   "start": 2.8,
+   "end": 3.06
+  },
+  {
+   "text": "treats",
+   "start": 3.3,
+   "end": 3.64
+  },
+  {
+   "text": "the",
+   "start": 3.7,
+   "end": 3.82
+  },
+  {
+   "text": "aesthetic",
+   "start": 3.86,
+   "end": 4.36
+  },
+  {
+   "text": "exam",
+   "start": 4.42,
+   "end": 4.9
+  },
+  {
+   "text": "as",
+   "start": 4.98,
+   "end": 5.06
+  },
+  {
+   "text": "a",
+   "start": 5.14,
+   "end": 5.2
+  },
+  {
+   "text": "systemic",
+   "start": 5.26,
+   "end": 5.82
+  },
+  {
+   "text": "screen.",
+   "start": 5.98,
+   "end": 6.34
+  },
+  {
+   "text": "Sudden",
+   "start": 7.08,
+   "end": 7.34
+  },
+  {
+   "text": "thinning",
+   "start": 7.48,
+   "end": 7.86
+  },
+  {
+   "text": "and",
+   "start": 7.94,
+   "end": 8.08
+  },
+  {
+   "text": "easy",
+   "start": 8.32,
+   "end": 8.54
+  },
+  {
+   "text": "bruising",
+   "start": 8.64,
+   "end": 9.08
+  },
+  {
+   "text": "suggest",
+   "start": 9.2,
+   "end": 9.64
+  },
+  {
+   "text": "cortisol",
+   "start": 9.8,
+   "end": 10.3
+  },
+  {
+   "text": "excess;",
+   "start": 10.38,
+   "end": 10.84
+  },
+  {
+   "text": "coarse,",
+   "start": 11.56,
+   "end": 12.02
+  },
+  {
+   "text": "dry,",
+   "start": 12.32,
+   "end": 12.7
+  },
+  {
+   "text": "cool",
+   "start": 12.9,
+   "end": 13.18
+  },
+  {
+   "text": "skin",
+   "start": 13.3,
+   "end": 13.6
+  },
+  {
+   "text": "suggests",
+   "start": 13.72,
+   "end": 14.28
+  },
+  {
+   "text": "hypothyroidism;",
+   "start": 14.34,
+   "end": 15.42
+  },
+  {
+   "text": "new",
+   "start": 16.2,
+   "end": 16.48
+  },
+  {
+   "text": "acanthosis",
+   "start": 16.56,
+   "end": 17.28
+  },
+  {
+   "text": "nigricans",
+   "start": 17.42,
+   "end": 18.14
+  },
+  {
+   "text": "flags",
+   "start": 18.28,
+   "end": 18.6
+  },
+  {
+   "text": "insulin",
+   "start": 18.72,
+   "end": 19.1
+  },
+  {
+   "text": "resistance.",
+   "start": 19.14,
+   "end": 19.72
+  }
+ ],
+ "mismatches": [],
+ "unmatched_heard": [
+  {
+   "text": "and",
+   "start": 1.08,
+   "end": 1.22
+  }
+ ],
+ "cues": [
+  {
+   "text": "The Aesthetic & Regenerative Endocrinology guide",
+   "at": 0.26,
+   "until": 3.3
+  },
+  {
+   "text": "treats the aesthetic exam as a systemic screen.",
+   "at": 3.3,
+   "until": 6.64
+  },
+  {
+   "text": "Sudden thinning and easy bruising suggest cortisol excess;",
+   "at": 7.08,
+   "until": 11.14
+  },
+  {
+   "text": "coarse, dry,",
+   "at": 11.56,
+   "until": 12.9
+  },
+  {
+   "text": "cool skin suggests hypothyroidism;",
+   "at": 12.9,
+   "until": 15.72
+  },
+  {
+   "text": "new acanthosis nigricans flags insulin resistance.",
+   "at": 16.2,
+   "until": 20.02
+  }
+ ]
+}

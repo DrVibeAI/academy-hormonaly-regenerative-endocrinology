@@ -1,0 +1,226 @@
+{
+ "schema": "perceptor.narration-alignment/1",
+ "audio": "b3.en.ef8d41de.mp3",
+ "locale": "en",
+ "text": "Older skin holds more cells carrying the marker p16 in epidermis and dermis. Researchers also caution that no single marker identifies a senescent cell with certainty, so counts depend on the marker chosen.",
+ "text_sha256": "29292f1fef39412909ab178e49a172f1be5471c91ec5e5990e9c935cdc18eedc",
+ "duration_seconds": 15.56,
+ "engine": {
+  "tool": "elevenlabs-scribe",
+  "model": "scribe_v1",
+  "synthesis": {
+   "provider": "gemini-tts",
+   "model": "gemini-3.8-flash-tts",
+   "voice": "en-gb-tutor-1",
+   "key": "ef8d41de24930d5b5ed09437b130294891f5032d94ded72c7963f9d15d5c7272"
+  }
+ },
+ "generated_at": "2026-09-28T04:42:43.287Z",
+ "stats": {
+  "tokens": 33,
+  "spoken_tokens": 33,
+  "matched": 33,
+  "mismatched": 0,
+  "interpolated": 0,
+  "unmatched_heard": 0,
+  "match_rate": 1,
+  "first_word_start": 0.34,
+  "last_word_end": 15.2
+ },
+ "words": [
+  {
+   "text": "Older",
+   "start": 0.34,
+   "end": 0.62
+  },
+  {
+   "text": "skin",
+   "start": 0.74,
+   "end": 1.14
+  },
+  {
+   "text": "holds",
+   "start": 1.2,
+   "end": 1.52
+  },
+  {
+   "text": "more",
+   "start": 1.58,
+   "end": 1.76
+  },
+  {
+   "text": "cells",
+   "start": 1.9,
+   "end": 2.22
+  },
+  {
+   "text": "carrying",
+   "start": 2.34,
+   "end": 2.72
+  },
+  {
+   "text": "the",
+   "start": 2.76,
+   "end": 2.84
+  },
+  {
+   "text": "marker",
+   "start": 2.9,
+   "end": 3.22
+  },
+  {
+   "text": "p16",
+   "start": 3.42,
+   "end": 4.48
+  },
+  {
+   "text": "in",
+   "start": 4.76,
+   "end": 4.92
+  },
+  {
+   "text": "epidermis",
+   "start": 4.98,
+   "end": 5.54
+  },
+  {
+   "text": "and",
+   "start": 5.74,
+   "end": 5.88
+  },
+  {
+   "text": "dermis.",
+   "start": 5.98,
+   "end": 6.36
+  },
+  {
+   "text": "Researchers",
+   "start": 7.22,
+   "end": 7.72
+  },
+  {
+   "text": "also",
+   "start": 7.88,
+   "end": 8.16
+  },
+  {
+   "text": "caution",
+   "start": 8.22,
+   "end": 8.62
+  },
+  {
+   "text": "that",
+   "start": 8.66,
+   "end": 8.82
+  },
+  {
+   "text": "no",
+   "start": 8.88,
+   "end": 9.02
+  },
+  {
+   "text": "single",
+   "start": 9.28,
+   "end": 9.56
+  },
+  {
+   "text": "marker",
+   "start": 9.68,
+   "end": 10.02
+  },
+  {
+   "text": "identifies",
+   "start": 10.1,
+   "end": 10.78
+  },
+  {
+   "text": "a",
+   "start": 10.84,
+   "end": 10.9
+  },
+  {
+   "text": "senescent",
+   "start": 10.96,
+   "end": 11.46
+  },
+  {
+   "text": "cell",
+   "start": 11.6,
+   "end": 11.84
+  },
+  {
+   "text": "with",
+   "start": 11.88,
+   "end": 11.98
+  },
+  {
+   "text": "certainty,",
+   "start": 12.1,
+   "end": 12.56
+  },
+  {
+   "text": "so",
+   "start": 13.12,
+   "end": 13.32
+  },
+  {
+   "text": "counts",
+   "start": 13.4,
+   "end": 13.78
+  },
+  {
+   "text": "depend",
+   "start": 13.82,
+   "end": 14.16
+  },
+  {
+   "text": "on",
+   "start": 14.2,
+   "end": 14.28
+  },
+  {
+   "text": "the",
+   "start": 14.3,
+   "end": 14.38
+  },
+  {
+   "text": "marker",
+   "start": 14.42,
+   "end": 14.66
+  },
+  {
+   "text": "chosen.",
+   "start": 14.76,
+   "end": 15.2
+  }
+ ],
+ "mismatches": [],
+ "unmatched_heard": [],
+ "cues": [
+  {
+   "text": "Older skin holds more cells carrying",
+   "at": 0.34,
+   "until": 2.76
+  },
+  {
+   "text": "the marker p16 in epidermis and dermis.",
+   "at": 2.76,
+   "until": 6.66
+  },
+  {
+   "text": "Researchers also caution that no single marker",
+   "at": 7.22,
+   "until": 10.1
+  },
+  {
+   "text": "identifies a senescent cell with certainty,",
+   "at": 10.1,
+   "until": 12.86
+  },
+  {
+   "text": "so counts depend on the marker chosen.",
+   "at": 13.12,
+   "until": 15.5
+  }
+ ]
+}
