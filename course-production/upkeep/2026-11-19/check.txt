@@ -1,0 +1,9 @@
+✓ packages/hormones-peptides-skin.json
+caption audit: no .vtt tracks found
+✓ academy.yaml: 1 catalog entries, 0 failing
+== design audit — hormonaly · tier 0 · 6 surface(s) ==
+⚠ logo: academy.yaml — logo hormonaly-logo.png is declared but not shipped (assets/ or public/) — the runtime sets the typographic wordmark until the customer's file arrives
+⚠ design audit: 1 finding(s), 0 failing (report-only; --strict to enforce)
+✓ skills: 19 checked, 0 failing
+✓ agent/config.yaml parses (hyperframes pin 0.8.3; 5 image routes, 6 b-roll routes)
+✓ check: all gates pass

@@ -1,0 +1,84 @@
+PASS banner is 'agent pre-review — no gate opened'
+PASS draftStatus is draft-only
+PASS no approval fields in the proposal
+PASS package sha256 matches recorded 6419297d6d012d8c…
+PASS package size matches recorded 2038738 bytes
+PASS package bytes identical to 4e63edc:packages/hormones-peptides-skin.json
+PASS package git blob is 21085abf15cb
+PASS source lock present and unchanged
+PASS proposal keys are exactly ['m4-p06', 'm4-p11']
+PASS blocks without audioBeats in the package: ['m4-p06', 'm4-p11']
+PASS m4-p06: exactly one audio block with this id
+PASS m4-p06: block fingerprint matches
+PASS m4-p06: body.en sha256 matches
+PASS m4-p06: audioScript.en sha256 matches
+PASS m4-p06: package still has no audioBeats (proposal unapplied)
+PASS m4-p06: citationRefs identical to the block's
+PASS m4-p06: every citationRef resolves in provenance.citations
+PASS m4-p06: 4 beats (allowed 2–4)
+PASS m4-p06: one source record per beat
+PASS m4-p06 beat 1: schema shape {title:{en}, body:{en}}
+PASS m4-p06 beat 1: 21 words (max 35)
+PASS m4-p06 beat 1: body is its source sentences joined
+PASS m4-p06 beat 1: whole verbatim sentence from metadata.audioScript.en: “Topical GHK-Cu is a reasonable cosmetic …”
+PASS m4-p06 beat 1: title “Topical GHK-Cu” is a verbatim phrase from body.en (first letter capitalised only)
+PASS m4-p06 beat 2: schema shape {title:{en}, body:{en}}
+PASS m4-p06 beat 2: 11 words (max 35)
+PASS m4-p06 beat 2: body is its source sentences joined
+PASS m4-p06 beat 2: whole verbatim sentence from metadata.audioScript.en: “Injected GHK-Cu is not the same product …”
+PASS m4-p06 beat 2: title “Injected GHK-Cu” is a verbatim phrase from body.en (first letter capitalised only)
+PASS m4-p06 beat 3: schema shape {title:{en}, body:{en}}
+PASS m4-p06 beat 3: 35 words (max 35)
+PASS m4-p06 beat 3: body is its source sentences joined
+PASS m4-p06 beat 3: whole verbatim sentence from metadata.audioScript.en: “There are no randomized trials of inject…”
+PASS m4-p06 beat 3: title “The injectable route” is a verbatim phrase from metadata.audioScript.en (first letter capitalised only)
+PASS m4-p06 beat 4: schema shape {title:{en}, body:{en}}
+PASS m4-p06 beat 4: 13 words (max 35)
+PASS m4-p06 beat 4: body is its source sentences joined
+PASS m4-p06 beat 4: whole verbatim sentence from metadata.audioScript.en: “Whatever your role, name the route every…”
+PASS m4-p06 beat 4: title “Name the route every time” is a verbatim phrase from metadata.audioScript.en (first letter capitalised only)
+PASS m4-p06: qualifier kept — “Topical”
+PASS m4-p06: qualifier kept — “grade C”
+PASS m4-p06: qualifier kept — “Injected”
+PASS m4-p06: qualifier kept — “randomized trials of injection”
+PASS m4-p06: qualifier kept — “United States”
+PASS m4-p06: qualifier kept — “injectable route”
+PASS m4-p06: qualifier kept — “non-injectable use”
+PASS m4-p06: qualifier kept — “name the route”
+INFO m4-p06: audioScript sentences not used in beats: ['Here is what that means in the room.']
+PASS m4-p11: exactly one audio block with this id
+PASS m4-p11: block fingerprint matches
+PASS m4-p11: body.en sha256 matches
+PASS m4-p11: audioScript.en sha256 matches
+PASS m4-p11: package still has no audioBeats (proposal unapplied)
+PASS m4-p11: citationRefs identical to the block's
+PASS m4-p11: every citationRef resolves in provenance.citations
+PASS m4-p11: 3 beats (allowed 2–4)
+PASS m4-p11: one source record per beat
+PASS m4-p11 beat 1: schema shape {title:{en}, body:{en}}
+PASS m4-p11 beat 1: 19 words (max 35)
+PASS m4-p11 beat 1: body is its source sentences joined
+PASS m4-p11 beat 1: whole verbatim sentence from body.en: “In the US, cosmetic peptides are cosmeti…”
+PASS m4-p11 beat 1: title “Cosmetic peptides” is a verbatim phrase from metadata.audioScript.en (first letter capitalised only)
+PASS m4-p11 beat 2: schema shape {title:{en}, body:{en}}
+PASS m4-p11 beat 2: 27 words (max 35)
+PASS m4-p11 beat 2: body is its source sentences joined
+PASS m4-p11 beat 2: whole verbatim sentence from metadata.audioScript.en: “Oral collagen is sold as a dietary suppl…”
+PASS m4-p11 beat 2: title “Oral collagen” is a verbatim phrase from metadata.audioScript.en (first letter capitalised only)
+PASS m4-p11 beat 3: schema shape {title:{en}, body:{en}}
+PASS m4-p11 beat 3: 33 words (max 35)
+PASS m4-p11 beat 3: body is its source sentences joined
+PASS m4-p11 beat 3: whole verbatim sentence from body.en: “Neither route has to prove efficacy befo…”
+PASS m4-p11 beat 3: whole verbatim sentence from metadata.audioScript.en: “When no regulator asks for efficacy, the…”
+PASS m4-p11 beat 3: title “The funding question” is a verbatim phrase from body.en (first letter capitalised only)
+PASS m4-p11: qualifier kept — “In the US”
+PASS m4-p11: qualifier kept — “not drugs”
+PASS m4-p11: qualifier kept — “cosmetics framework”
+PASS m4-p11: qualifier kept — “dietary supplement”
+PASS m4-p11: qualifier kept — “cannot claim to treat a disease”
+PASS m4-p11: qualifier kept — “varies from brand to brand”
+PASS m4-p11: qualifier kept — “prove efficacy before sale”
+PASS m4-p11: qualifier kept — “trials someone chose to pay for”
+INFO m4-p11: audioScript sentences not used in beats: ['Now the regulatory register, stated for the United States.', 'Cosmetic peptides are cosmetic ingredients, not drugs; their safety is assessed under a cosmetics framework, and nobody has to prove they work before they are sold.', 'That is the whole reason the funding question matters here.']
+
+OK: 0 failure(s)
