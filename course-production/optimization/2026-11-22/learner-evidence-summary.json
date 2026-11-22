@@ -1,0 +1,69 @@
+{
+  "as_of": "2026-11-22T14:05:38.700Z",
+  "from": "2026-11-15T14:05:38.536Z",
+  "to": "2026-11-22T14:05:38.536Z",
+  "academy": "hormonaly",
+  "course": "hormonaly.hormones-peptides-skin",
+  "sources": [
+    {
+      "id": "requests",
+      "status": "ready",
+      "as_of": "2026-11-22T14:05:38.700Z"
+    },
+    {
+      "id": "models",
+      "status": "empty",
+      "as_of": "2026-11-22T14:05:38.700Z"
+    },
+    {
+      "id": "interactions",
+      "status": "ready",
+      "as_of": "2026-11-22T14:05:38.700Z"
+    },
+    {
+      "id": "learners",
+      "status": "ready",
+      "as_of": "2026-11-22T14:05:38.536Z"
+    },
+    {
+      "id": "evals",
+      "status": "error",
+      "as_of": null
+    }
+  ],
+  "learners": {
+    "active_users": 10,
+    "course_starts": null,
+    "certified_completions": 1,
+    "coverage": "complete"
+  },
+  "enrolled_interaction_event_totals": [
+    {
+      "name": "interaction.completed",
+      "locale": "en",
+      "events": 57
+    },
+    {
+      "name": "interaction.completed",
+      "locale": "es",
+      "events": 38
+    },
+    {
+      "name": "moment.opened",
+      "locale": "en",
+      "events": 277
+    },
+    {
+      "name": "moment.opened",
+      "locale": "es",
+      "events": 209
+    }
+  ],
+  "unavailable": [
+    "item correctness/discrimination/distractor analysis",
+    "Guide question themes and answer quality",
+    "cohort drop-off",
+    "30-day learner feed"
+  ],
+  "interpretation_limits": "Aggregate events are not unique learners or aligned opportunities; no completion/drop-off rate computed."
+}
