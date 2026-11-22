@@ -1,0 +1,40 @@
+{
+  "banner": "agent pre-review — no gate opened",
+  "baseline": "5497f64d1ad2af3148d0db232bee7f7028ecb89d",
+  "packageSha256": "6419297d6d012d8c8e5b58909e9e9f1f950443aa548ca20618017dbb0ebfa4fa",
+  "historicalReport": {
+    "ref": "e8e97374de977a6338f89d0b55dda30a42285255",
+    "path": "course-production/claim-support/hormonaly.hormones-peptides-skin-1.1.0.json",
+    "generatedAt": "2026-11-17T16:24:00.640Z",
+    "summary": {"assertions":2601,"supported":2104,"partial":80,"contradicted":8,"not_found":374,"unverified":35},
+    "contradictedAssertionPointers": ["/units/219/assertions/2","/units/279/assertions/2","/units/283/assertions/4","/units/349/assertions/2","/units/517/assertions/1","/units/527/assertions/4","/units/532/assertions/5","/units/745/assertions/2"],
+    "bpcUnverifiedPointer": "/units/767/assertions/0"
+  },
+  "currentQuotes": [
+    {"id":"coa","pointer":"/curriculum/modules/6/check/options/1/text/en","mirror":"m07.json#/check/options/1/text/en","quote":"Topical GHK-Cu: small-trial evidence (C); in the US, non-injectable use sits in 503A Category 1, under evaluation; its certificate can show identity and purity, never sterility or legality."},
+    {"id":"tb500-claim","pointer":"/provenance/claims/279/text","quote":"TB-500 is the acetylated 17–23 fragment of thymosin β4 (Ac-LKKTETQ), not thymosin β4 itself; the fragment was characterized by analysing the product, and human trial data for the fragment do not exist."},
+    {"id":"repair-body","pointer":"/curriculum/modules/3/units/0/blocks/15/body/en","mirror":"m04.json#/blocks/15/body/en","quote":"BPC-157 rests on a large rodent literature, mostly from one research group, and on uncontrolled human case series. TB-500 is not thymosin β4: it is a seven-residue fragment of it, identified by analysing the product itself, and no trial has tested the fragment. KPV, a tripeptide from the end of α-MSH, calms inflammation in mouse colitis and has no randomized human trial."},
+    {"id":"kpv-point","pointer":"/curriculum/modules/3/units/0/blocks/15/points/2/en","mirror":"m04.json#/blocks/15/points/2/en","quote":"KPV: mouse colitis only"},
+    {"id":"tb500-practice","pointer":"/curriculum/modules/3/units/0/blocks/19/interaction/items/4/why/en","mirror":"m04.json#/blocks/19/interaction/items/4/why/en","quote":"A seven-residue fragment of thymosin β4 that has never been tested in a trial; what it has is a plausible mechanism."},
+    {"id":"kpv-category","pointer":"/curriculum/modules/3/units/0/blocks/19/interaction/labels/2/label/en","mirror":"m04.json#/blocks/19/interaction/labels/2/label/en","quote":"Mechanism or animal data only"},
+    {"id":"kpv-practice","pointer":"/curriculum/modules/3/units/0/blocks/19/interaction/items/5/why/en","mirror":"m04.json#/blocks/19/interaction/items/5/why/en","quote":"Calms inflammation in mouse colitis models; no randomized human trial for any indication."},
+    {"id":"heavy-metals-claim","pointer":"/provenance/claims/283/text","quote":"Research-use-only peptide products are made outside GMP. Impurity, inaccurate content and contamination are documented for adjacent products — seized 'research' peptides and online semaglutide — but no published analysis of skin-peptide RUO products was found. Heavy-metal contamination is reported for this market, not documented; the lesson says exactly that."},
+    {"id":"heavy-metals-practice","pointer":"/curriculum/modules/3/units/0/blocks/22/interaction/options/1/why/en","mirror":"m04.json#/blocks/22/interaction/options/1/why/en","quote":"Right. Stop the exposure, capture the evidence, and get the skin change assessed. The Hormonaly guide states that heavy-metal contamination is documented in these products; the published analysis behind that statement could not be found. The change needs assessment either way."},
+    {"id":"matrixyl","pointer":"/curriculum/modules/3/units/0/blocks/11/interaction/items/1/why/en","mirror":"m04.json#/blocks/11/interaction/items/1/why/en","quote":"GRADE D. The evidence is the maker's technical dossier; no independent randomized trial was found."},
+    {"id":"bpc-tutor","pointer":"/tutorCorpus/7/answer/en","mirror":"m04.json#/tutorEntries/1/answer/en","quote":"BPC-157's evidence is rodent studies from one group plus uncontrolled case series; no randomized efficacy trial in people has been published in full (September 2026); the one randomized trial FDA found, in ulcerative colitis, exists only as a 2005 meeting abstract and showed no significant difference from placebo."},
+    {"id":"kpv-tutor","pointer":"/tutorCorpus/7/answer/en","mirror":"m04.json#/tutorEntries/1/answer/en","quote":"TB-500 is a seven-residue fragment of thymosin beta-4 that has never been trialled; KPV has only mouse data."},
+    {"id":"chung-claim","pointer":"/provenance/claims/219/text","quote":"clinical improvement in that trial was described only in 'multiple participants'"},
+    {"id":"chung-card","pointer":"/curriculum/modules/0/units/0/blocks/19/tool/items/3/note/en","mirror":"m01.json#/blocks/19/tool/items/3/note/en","quote":"Small pilots measuring tissue markers. One exploratory randomized trial of topical rapamycin (36 enrolled, 19 dropped out) lowered skin p16, and clinical change was only described. No adequately sized trial with clinical skin-ageing outcomes was found (September 2026)."},
+    {"id":"appeal-claim","pointer":"/provenance/claims/349/text","quote":"the appeal was pending as of the latest filings found (June 2026)."},
+    {"id":"appeal-card","pointer":"/curriculum/modules/6/units/0/blocks/12/stat/doesNot/en","mirror":"m07.json#/blocks/12/stat/doesNot/en","quote":"How residues are counted can be contested: a court upheld FDA's count of 39 for retatrutide in 2025, and the appeal was still open at the latest filings (June 2026)."}
+  ],
+  "guideQuotes": [
+    {"id":"coa-guide","path":"corpus/peptide-pocket-guide-2026-08-clinical-reference.md","pdf":"corpus/peptide-pocket-guide-2026-08-clinical-reference.pdf","lines":[794,798],"quote":"Compounding pharmacies should provide a COA documenting identity,\npurity, sterility, and endotoxin."},
+    {"id":"tb500-guide","path":"corpus/peptide-pocket-guide-2026-08-clinical-reference.md","pdf":"corpus/peptide-pocket-guide-2026-08-clinical-reference.pdf","lines":[2532,2533],"quote":"Phase 2 trials for ophthalmic indications missed primary endpoints."},
+    {"id":"tb500-caveat","path":"corpus/peptide-pocket-guide-2026-08-clinical-reference.md","pdf":"corpus/peptide-pocket-guide-2026-08-clinical-reference.pdf","lines":[2540,2542],"quote":"TB-500 and thymosin β4 are not interchangeable: the heptapeptide\n  is a fragment"},
+    {"id":"kpv-guide","path":"corpus/peptide-pocket-guide-2026-08-clinical-reference.md","pdf":"corpus/peptide-pocket-guide-2026-08-clinical-reference.pdf","lines":[2472,2474],"quote":"Preclinical data for inflammatory-bowel-disease models; small open-label studies for\natopic dermatitis. No randomized human trials."},
+    {"id":"kpv-caveat","path":"corpus/peptide-pocket-guide-2026-08-clinical-reference.md","pdf":"corpus/peptide-pocket-guide-2026-08-clinical-reference.pdf","lines":[2482,2483],"quote":"Evidence base: animal IBD models + small dermatology case\n  reports + anecdotal use (often within the KLOW stack) — no human RCTs published."},
+    {"id":"metals-guide","path":"corpus/hormonaly-pocket-guide-2026.md","pdf":"corpus/hormonaly-pocket-guide-2026.pdf","lines":[2315,2318],"quote":"because research-use-only powder is made outside GMP, impurity,\ninaccurate dosing, and heavy-metal contamination (arsenic, lead) are\ndocumented."},
+    {"id":"matrixyl-guide","path":"corpus/peptide-pocket-guide-2026-08-clinical-reference.md","pdf":"corpus/peptide-pocket-guide-2026-08-clinical-reference.pdf","lines":[2906,2908],"quote":"Manufacturer and small cosmetic studies report reduced wrinkle depth and volume\nover 1–2 months vs placebo; independent peer-reviewed RCTs are limited. No\ndrug level efficacy data."}
+  ]
+}
