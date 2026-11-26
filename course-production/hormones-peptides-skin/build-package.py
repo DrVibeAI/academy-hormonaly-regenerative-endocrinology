@@ -102,6 +102,32 @@ def _jprofile(code, info):
     return {"code": code, "name": info.get("name", code),
             "authorities": [{k: a[k] for k in ("name", "scope", "url") if a.get(k)} for a in info.get("authorities", [])],
             "layers": layers, "reviewOwner": REVIEW_OWNER}
+# Official feeds for the existing Foundry watchlist digest. These are discovery sources;
+# each candidate notice is reviewed against its direct source before the course cites it.
+UPDATE_SOURCES = {
+    "US": [
+        ("Human Drug Compounding Policies and Rules", "FDA", "https://www.fda.gov/drugs/human-drug-compounding/human-drug-compounding-policies-and-rules"),
+        ("Compounding Risk Alerts", "FDA", "https://www.fda.gov/drugs/human-drug-compounding/compounding-risk-alerts"),
+    ],
+    "GB": [
+        ("Drug Safety Update", "MHRA", "https://www.gov.uk/drug-safety-update"),
+        ("Alerts, recalls and safety information", "MHRA", "https://www.gov.uk/drug-device-alerts"),
+    ],
+    "EU": [
+        ("Pharmacovigilance Risk Assessment Committee updates", "EMA", "https://www.ema.europa.eu/en/committees/pharmacovigilance-risk-assessment-committee-prac"),
+    ],
+    "PT": [
+        ("Alertas", "INFARMED", "https://www.infarmed.pt/web/infarmed/alertas"),
+    ],
+    "BR": [
+        ("Notícias da Anvisa", "ANVISA", "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa"),
+    ],
+    "AE": [
+        ("Legislations and circulars", "EDE", "https://www.ede.gov.ae/en/legislations"),
+        ("Search circulars", "DHA", "https://services.dha.gov.ae/sheryan/wps/portal/home/search-circulars/"),
+        ("Circulars", "DoH Abu Dhabi", "https://www.doh.gov.ae/en/resources/Circulars"),
+    ],
+}
 # Same order everywhere the learner sees the list (homepage, folded notes, course blurb): US, UK, then EU, Portugal, Brazil, UAE.
 JURISDICTION_ORDER = ["EU", "PT", "BR", "AE"]
 JURISDICTION_PROFILES = [_jprofile(code, info) for code, info in sorted(JREG.get("jurisdictions", {}).items(),
@@ -534,6 +560,17 @@ pkg = {
         ],
     },
 }
+for jurisdiction in pkg["jurisdictions"]:
+    sources = UPDATE_SOURCES.get(jurisdiction["code"])
+    if sources:
+        jurisdiction["updateSources"] = [
+            {
+                "name": name, "organization": organization, "domain": "medicines",
+                "sourceType": "regulator", "url": url, "cadence": "weekly", "trustLevel": "primary",
+            }
+            for name, organization, url in sources
+        ]
+
 out = ROOT / "packages" / "hormones-peptides-skin.json"
 # Jurisdiction sources that are the same document as a course citation (same URL; e.g. the EMA Scenesse EPAR registered by
 # module 05 and by the EU research) collapse onto the course id: every citationRef is rewritten and the duplicate dropped.

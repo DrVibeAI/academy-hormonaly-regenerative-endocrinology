@@ -90,7 +90,27 @@
           "detail": "US regulatory statements (FDA approvals, 503A/503B categories, warnings; dated September 2026) reviewed within the medical review of every module (Fady Hannah-Shmouni, 2026-09-24/25)."
         }
       ],
-      "reviewOwner": "Fady Hannah-Shmouni, MD FRCPC (medical review of every module, 2026-09-24/25)"
+      "reviewOwner": "Fady Hannah-Shmouni, MD FRCPC (medical review of every module, 2026-09-24/25)",
+      "updateSources": [
+        {
+          "name": "Human Drug Compounding Policies and Rules",
+          "organization": "FDA",
+          "domain": "medicines",
+          "sourceType": "regulator",
+          "url": "https://www.fda.gov/drugs/human-drug-compounding/human-drug-compounding-policies-and-rules",
+          "cadence": "weekly",
+          "trustLevel": "primary"
+        },
+        {
+          "name": "Compounding Risk Alerts",
+          "organization": "FDA",
+          "domain": "medicines",
+          "sourceType": "regulator",
+          "url": "https://www.fda.gov/drugs/human-drug-compounding/compounding-risk-alerts",
+          "cadence": "weekly",
+          "trustLevel": "primary"
+        }
+      ]
     },
     {
       "code": "GB",
@@ -139,7 +159,27 @@
           "detail": "Locale mapped for UK learners on the base English edition: UK regulatory wording ('licensed', 'unlicensed medicine', 'special', 'prescription-only medicine', 'marketing authorisation') is used in the UK notes, each labelled 'In the UK' and dated, and shown first to learners who choose the United Kingdom. UK statements added 2026-09-25; confirmed by Fady Hannah-Shmouni, MD FRCPC on 2026-09-26."
         }
       ],
-      "reviewOwner": "Fady Hannah-Shmouni, MD FRCPC (confirmed 2026-09-26)"
+      "reviewOwner": "Fady Hannah-Shmouni, MD FRCPC (confirmed 2026-09-26)",
+      "updateSources": [
+        {
+          "name": "Drug Safety Update",
+          "organization": "MHRA",
+          "domain": "medicines",
+          "sourceType": "regulator",
+          "url": "https://www.gov.uk/drug-safety-update",
+          "cadence": "weekly",
+          "trustLevel": "primary"
+        },
+        {
+          "name": "Alerts, recalls and safety information",
+          "organization": "MHRA",
+          "domain": "medicines",
+          "sourceType": "regulator",
+          "url": "https://www.gov.uk/drug-device-alerts",
+          "cadence": "weekly",
+          "trustLevel": "primary"
+        }
+      ]
     },
     {
       "code": "EU",
@@ -193,7 +233,18 @@
           "detail": "Base English edition; each note names its jurisdiction and date and is shown first to learners who choose that country."
         }
       ],
-      "reviewOwner": "Fady Hannah-Shmouni, MD FRCPC (confirmed 2026-09-26)"
+      "reviewOwner": "Fady Hannah-Shmouni, MD FRCPC (confirmed 2026-09-26)",
+      "updateSources": [
+        {
+          "name": "Pharmacovigilance Risk Assessment Committee updates",
+          "organization": "EMA",
+          "domain": "medicines",
+          "sourceType": "regulator",
+          "url": "https://www.ema.europa.eu/en/committees/pharmacovigilance-risk-assessment-committee-prac",
+          "cadence": "weekly",
+          "trustLevel": "primary"
+        }
+      ]
     },
     {
       "code": "PT",
@@ -252,7 +303,18 @@
           "detail": "Base English edition; each note names its jurisdiction and date and is shown first to learners who choose that country."
         }
       ],
-      "reviewOwner": "Fady Hannah-Shmouni, MD FRCPC (confirmed 2026-09-26)"
+      "reviewOwner": "Fady Hannah-Shmouni, MD FRCPC (confirmed 2026-09-26)",
+      "updateSources": [
+        {
+          "name": "Alertas",
+          "organization": "INFARMED",
+          "domain": "medicines",
+          "sourceType": "regulator",
+          "url": "https://www.infarmed.pt/web/infarmed/alertas",
+          "cadence": "weekly",
+          "trustLevel": "primary"
+        }
+      ]
     },
     {
       "code": "BR",
@@ -291,7 +353,18 @@
           "detail": "Base English edition; each note names its jurisdiction and date and is shown first to learners who choose that country."
         }
       ],
-      "reviewOwner": "Fady Hannah-Shmouni, MD FRCPC (confirmed 2026-09-26)"
+      "reviewOwner": "Fady Hannah-Shmouni, MD FRCPC (confirmed 2026-09-26)",
+      "updateSources": [
+        {
+          "name": "Notícias da Anvisa",
+          "organization": "ANVISA",
+          "domain": "medicines",
+          "sourceType": "regulator",
+          "url": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa",
+          "cadence": "weekly",
+          "trustLevel": "primary"
+        }
+      ]
     },
     {
       "code": "AE",
@@ -350,7 +423,36 @@
           "detail": "Base English edition; each note names its jurisdiction and date and is shown first to learners who choose that country."
         }
       ],
-      "reviewOwner": "Fady Hannah-Shmouni, MD FRCPC (confirmed 2026-09-26)"
+      "reviewOwner": "Fady Hannah-Shmouni, MD FRCPC (confirmed 2026-09-26)",
+      "updateSources": [
+        {
+          "name": "Legislations and circulars",
+          "organization": "EDE",
+          "domain": "medicines",
+          "sourceType": "regulator",
+          "url": "https://www.ede.gov.ae/en/legislations",
+          "cadence": "weekly",
+          "trustLevel": "primary"
+        },
+        {
+          "name": "Search circulars",
+          "organization": "DHA",
+          "domain": "medicines",
+          "sourceType": "regulator",
+          "url": "https://services.dha.gov.ae/sheryan/wps/portal/home/search-circulars/",
+          "cadence": "weekly",
+          "trustLevel": "primary"
+        },
+        {
+          "name": "Circulars",
+          "organization": "DoH Abu Dhabi",
+          "domain": "medicines",
+          "sourceType": "regulator",
+          "url": "https://www.doh.gov.ae/en/resources/Circulars",
+          "cadence": "weekly",
+          "trustLevel": "primary"
+        }
+      ]
     }
   ],
   "provenance": {
