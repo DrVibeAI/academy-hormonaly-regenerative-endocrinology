@@ -1,0 +1,121 @@
+{
+ "schema": "perceptor.narration-alignment/1",
+ "audio": "b1.en.73a1d145.mp3",
+ "locale": "en",
+ "text": "A damaged cell stops dividing for good, which guards against cancer and helps wound repair.",
+ "text_sha256": "a96f57d5b4ef37e50636501e19c9dede2fdd58e483c0d2842a09072e3f7fd9f5",
+ "duration_seconds": 6.4,
+ "engine": {
+  "tool": "elevenlabs-scribe",
+  "model": "scribe_v1",
+  "synthesis": {
+   "provider": "gemini-tts",
+   "model": "gemini-3.8-flash-tts",
+   "voice": "en-gb-tutor-1",
+   "key": "73a1d145572c19e87398a709ee874dc987e51449d0f31bf420e40238c43135ea"
+  }
+ },
+ "generated_at": "2026-09-28T04:42:26.148Z",
+ "stats": {
+  "tokens": 15,
+  "spoken_tokens": 15,
+  "matched": 15,
+  "mismatched": 0,
+  "interpolated": 0,
+  "unmatched_heard": 0,
+  "match_rate": 1,
+  "first_word_start": 0.32,
+  "last_word_end": 6.02
+ },
+ "words": [
+  {
+   "text": "A",
+   "start": 0.32,
+   "end": 0.42
+  },
+  {
+   "text": "damaged",
+   "start": 0.48,
+   "end": 1.02
+  },
+  {
+   "text": "cell",
+   "start": 1.08,
+   "end": 1.32
+  },
+  {
+   "text": "stops",
+   "start": 1.58,
+   "end": 1.88
+  },
+  {
+   "text": "dividing",
+   "start": 1.92,
+   "end": 2.46
+  },
+  {
+   "text": "for",
+   "start": 2.52,
+   "end": 2.6
+  },
+  {
+   "text": "good,",
+   "start": 2.7,
+   "end": 2.92
+  },
+  {
+   "text": "which",
+   "start": 3.32,
+   "end": 3.58
+  },
+  {
+   "text": "guards",
+   "start": 3.64,
+   "end": 3.88
+  },
+  {
+   "text": "against",
+   "start": 3.92,
+   "end": 4.24
+  },
+  {
+   "text": "cancer",
+   "start": 4.3,
+   "end": 4.84
+  },
+  {
+   "text": "and",
+   "start": 4.9,
+   "end": 5.06
+  },
+  {
+   "text": "helps",
+   "start": 5.12,
+   "end": 5.36
+  },
+  {
+   "text": "wound",
+   "start": 5.46,
+   "end": 5.64
+  },
+  {
+   "text": "repair.",
+   "start": 5.68,
+   "end": 6.02
+  }
+ ],
+ "mismatches": [],
+ "unmatched_heard": [],
+ "cues": [
+  {
+   "text": "A damaged cell stops dividing for good,",
+   "at": 0.32,
+   "until": 3.22
+  },
+  {
+   "text": "which guards against cancer and helps wound repair.",
+   "at": 3.32,
+   "until": 6.32
+  }
+ ]
+}

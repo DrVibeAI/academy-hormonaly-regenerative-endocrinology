@@ -1,0 +1,47 @@
+{
+ "package": "hormonaly.hormones-peptides-skin 1.2.0-rc.1",
+ "foundry": "perceptor-foundry f319b9a (PR #19 head; foundry.lock)",
+ "runtime": "perceptor-runtime dc4da71 (PR #27), where the preview ran",
+ "gates": [
+  {
+   "gate": "scripts/validate.mjs",
+   "result": "valid · 7 warnings: the read-along cards keep metadata.audioScript (the Guide's approved-pane index reads it; the opening film's script sources cite m1-p03's)"
+  },
+  {
+   "gate": "perceptor check",
+   "result": "✓ check: all gates pass"
+  },
+  {
+   "gate": "dosage audit · Module 1",
+   "result": "9 failures → 0 · first decision 1:42 · 1:44 · 1:13 → 0:23 · 0:48 · 0:55 · longest passive run 3 → 2"
+  },
+  {
+   "gate": "dosage audit · course",
+   "result": "70 failures → 61 (modules 2–7 are not in this pilot)"
+  },
+  {
+   "gate": "interaction audit",
+   "result": "TOTAL 66 interaction(s) across 7 module(s) · 0 warning(s) · ladder 2 · quickfire 7 · sequence 7 · branching 7 · twotier 1 · classify 14 · inspect 7 · hotspots 7 · scenario 7 · chips 7"
+  },
+  {
+   "gate": "signature audit (with academy.yaml)",
+   "result": "✓ signature audit: 0 error(s), 0 warning(s) (the three Module 1 Today lines are still the moments' own text)"
+  },
+  {
+   "gate": "editorial · tic · citation · dosing audits",
+   "result": "✓ editorial audit: 0 finding(s) · contrastive: 0 meta: 0 colon: 0 dupOpen: 0 dupClose: 0 · ✓ citation audit: 0 finding(s) · ✓ dosing audit: 0 finding(s) for human review (report-only; --strict to enforce)"
+  },
+  {
+   "gate": "claim support (--merge, gemini-3.7-flash)",
+   "result": "course: 0 blocking / 18 major / 345 minor (1.1.0: 0 / 19 / 345); every changed Module 1 unit supported or nothing checkable; 3 minor not-found in modules 2–7 role versions are pre-existing"
+  },
+  {
+   "gate": "course-final gate",
+   "result": "blocks, as it should: [medical review] no change made after an approval awaits the approver; [medical review] every logged change after approval is confirmed (30 open in course-production/*/authored); [framework] academy content merged to origin/factory/intake-hormonaly (reviewed build reproducible)"
+  },
+  {
+   "gate": "narration",
+   "result": "21 of 21 beats voiced, 263.6 s · −16 LUFS as heard · beats.mjs --relink after a rebuild is a no-op"
+  }
+ ]
+}
