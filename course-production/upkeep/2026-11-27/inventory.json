@@ -1,0 +1,185 @@
+{
+  "sourceCommit": "124d4f7276ede2378d99570ccaddbacc13ec4806",
+  "packageSha256": "51ecbf6b28b9964152532a43442f3b86a2a3034075a7bf0703235fa9a786bda1",
+  "audioBlocks": 48,
+  "audioAssets": 0,
+  "missingAudioBeats": [
+    "m4-p06",
+    "m4-p11"
+  ],
+  "beatCount": 138,
+  "sourceInsights": 0,
+  "videos": [
+    {
+      "id": "asset-hps-m01-opener",
+      "uri": "assets/hormones-peptides-skin/video/m01-opener.mp4",
+      "exit": 0,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "70.260000"
+        }
+      },
+      "actualSha256": "d51215d7bbbda53b1eb08cfe53c07743751ef398290e3cea7e2f56570cbb3c94",
+      "registeredChecksum": "sha256:d51215d7bbbda53b1eb08cfe53c07743751ef398290e3cea7e2f56570cbb3c94",
+      "unchangedSincePrior": true
+    },
+    {
+      "id": "asset-hps-m02-opener",
+      "uri": "assets/hormones-peptides-skin/video/m02-opener-r3.mp4",
+      "exit": 0,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "76.140000"
+        }
+      },
+      "actualSha256": "c909e2221428d6005223bc000bd2733caa7ca3b7579e18f0208562f025ab8ab4",
+      "registeredChecksum": "sha256:c909e2221428d6005223bc000bd2733caa7ca3b7579e18f0208562f025ab8ab4",
+      "unchangedSincePrior": true
+    },
+    {
+      "id": "asset-hps-m03-opener",
+      "uri": "assets/hormones-peptides-skin/video/m03-opener.mp4",
+      "exit": 0,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "72.340000"
+        }
+      },
+      "actualSha256": "05f24997338cbb14b00b5e433cc24fd38c970c3e1525dd60ad2b19e6179b2289",
+      "registeredChecksum": "sha256:05f24997338cbb14b00b5e433cc24fd38c970c3e1525dd60ad2b19e6179b2289",
+      "unchangedSincePrior": true
+    },
+    {
+      "id": "asset-hps-m04-opener",
+      "uri": "assets/hormones-peptides-skin/video/m04-opener.mp4",
+      "exit": 0,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "67.100000"
+        }
+      },
+      "actualSha256": "706039f4232d48fce6cb29370445e1e6ba2f935b04550f72226b2db778e9fca0",
+      "registeredChecksum": "sha256:706039f4232d48fce6cb29370445e1e6ba2f935b04550f72226b2db778e9fca0",
+      "unchangedSincePrior": true
+    },
+    {
+      "id": "asset-hps-m05-opener",
+      "uri": "assets/hormones-peptides-skin/video/m05-opener.mp4",
+      "exit": 0,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "71.260000"
+        }
+      },
+      "actualSha256": "6a7652f950bf419d03f7959e0c9d107cfdf1c39fa2b5a7f798e5b278c8397394",
+      "registeredChecksum": "sha256:6a7652f950bf419d03f7959e0c9d107cfdf1c39fa2b5a7f798e5b278c8397394",
+      "unchangedSincePrior": true
+    },
+    {
+      "id": "asset-hps-m06-opener",
+      "uri": "assets/hormones-peptides-skin/video/m06-opener.mp4",
+      "exit": 0,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "83.540000"
+        }
+      },
+      "actualSha256": "79b8b13baa1b7c9ff5cf30643ea28c37341390a5d58aba28257dd89a4c273b01",
+      "registeredChecksum": "sha256:79b8b13baa1b7c9ff5cf30643ea28c37341390a5d58aba28257dd89a4c273b01",
+      "unchangedSincePrior": true
+    },
+    {
+      "id": "asset-hps-m07-opener",
+      "uri": "assets/hormones-peptides-skin/video/m07-opener.mp4",
+      "exit": 0,
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio"
+          }
+        ],
+        "format": {
+          "duration": "75.300000"
+        }
+      },
+      "actualSha256": "2f2dbb0d728616d837b80c00688593b429c607e1a0316093f3c62c117831a7c0",
+      "registeredChecksum": "sha256:2f2dbb0d728616d837b80c00688593b429c607e1a0316093f3c62c117831a7c0",
+      "unchangedSincePrior": true
+    }
+  ],
+  "voiceRegistries": [],
+  "videoBriefs": 0,
+  "changedFilmBytes": []
+}
