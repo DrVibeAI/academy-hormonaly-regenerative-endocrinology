@@ -1,0 +1,65 @@
+agent pre-review — no gate opened
+
+Command: perceptor check packages/hormones-peptides-skin.json
+Exit: 0
+The CLI success line describes technical checks, not a human gate decision.
+
+✓ packages/hormones-peptides-skin.json
+== tic audit — REWRITE surface (audioScript + beats) ==
+scripts audited: 48 (48 in-scope, 0 body-residual)
+contrastive: 0
+meta: 0
+colon: 0
+dupOpen: 0
+dupClose: 0
+== anchor audit — one big figure, one owning video (blueprint § 2) ==
+✓ anchor audit: 0 recycled anchor(s)
+== citation audit — evidence depth (stage-10 lock discipline, stage-40 gate) ==
+hormonaly.hormones-peptides-skin · 179 block(s), 142 content · registry: 412 citation(s)
+✓ citation audit: 0 finding(s)
+Dead-screen audit · hormonaly.hormones-peptides-skin · locale en · max hold 10s · scene times ESTIMATED from narration
+
+TOTAL 0.0s · DEAD 0.0s (0%) · 0 warning(s)
+✓ dead-screen audit: clean
+== interaction audit — the canon: every tap a decision, every touch explained (docs/interaction-canon.md) ==
+m01: 9 interaction(s) quickfire@m1-p05 · sequence@m1-x01 · branching@m1-x02 · classify@m1-p10 · inspect@m1-x03 · hotspots@m1-x04 · classify@m1-x05 · scenario@m1-p17 · chips@m1-p19
+m02: 9 interaction(s) sequence@m2-x01 · classify@m2-p04 · inspect@m2-x02 · hotspots@m2-x03 · classify@m2-x04 · branching@m2-x05 · quickfire@m2-p16 · scenario@m2-p17 · chips@m2-p19
+m03: 9 interaction(s) hotspots@m3-x01 · sequence@m3-x02 · classify@m3-p06 · classify@m3-x03 · branching@m3-x04 · scenario@m3-p13 · quickfire@m3-p17 · inspect@m3-x05 · chips@m3-p20
+m04: 9 interaction(s) inspect@m4-x01 · hotspots@m4-x02 · classify@m4-p09 · branching@m4-x03 · classify@m4-x04 · quickfire@m4-p16 · sequence@m4-x05 · scenario@m4-p17 · chips@m4-p19
+m05: 9 interaction(s) sequence@m5-x01 · quickfire@m5-p04 · hotspots@m5-x02 · classify@m5-x03 · scenario@m5-p11 · inspect@m5-x04 · classify@m5-p16 · branching@m5-x05 · chips@m5-p19
+m06: 9 interaction(s) hotspots@m6-x01 · classify@m6-p04 · sequence@m6-x02 · classify@m6-x03 · quickfire@m6-p10 · branching@m6-x04 · inspect@m6-x05 · scenario@m6-p17 · chips@m6-p19
+m07: 9 interaction(s) quickfire@m7-p04 · classify@m7-x01 · hotspots@m7-x02 · sequence@m7-x03 · classify@m7-p11 · inspect@m7-x04 · scenario@m7-p17 · branching@m7-x05 · chips@m7-p20
+TOTAL 63 interaction(s) across 7 module(s) · 0 warning(s) · quickfire 7 · sequence 7 · branching 7 · classify 14 · inspect 7 · hotspots 7 · scenario 7 · chips 7
+# Dosage audit — hormonaly.hormones-peptides-skin
+
+Package `hormonaly.hormones-peptides-skin` 1.1.0 · pane course · locale en · `packages/hormones-peptides-skin.json` · sha256 51ecbf6b28b9
+
+Rules: templates/microlearning/dosage.yaml 1.3.0 (report-only). Estimates from content, not measured learner time: media + words at 238 wpm (narration without a duration at 150 wpm) + 8 s per tap-decision.
+
+## Summary
+
+| Measure | Value | Rule |
+|---|---|---|
+| Sittings audited | 21 in 7 module(s) · 179 cards · ~160 min | 5–10 min each (convention) |
+| First decision | median 1:42, latest 3:39; 20 sitting(s) over the limit | ≤ 1:00 |
+| Passive cards in a row | longest 4; 12 sitting(s) over the limit | ≤ 2 |
+| Decisions per 5 min | median 2.7 | ≥ 1 |
+| Words before the first tap | longest card 284; 38 card(s) over the limit | ≤ 100; a case card ≤ 150 |
+| Answer positions | lessons, authored order 28 keyed item(s): A 16 · B 11 · C 1 · shown shuffled 21 (not counted) · final check 14: A 5 · B 8 · C 1 | ≤ 60% at one position once ≥ 5 items |
+| Why on every option | every option 35 | every option |
+| Cues in the options | the key is the longest option in 59 of 62 items with 3+ options (95%; chance ≈ 33%) **cue** · absolute words only in the wrong options: 21 of 63 items | the key longest in ≤ 50% once ≥ 5 items; no absolute word only in the wrong options (warnings) |
+| Answer given away | 6 keyed answer(s) repeat 6+ words of their own card or the card just read | none (warnings) |
+| Media mix | 7 of 7 module(s) short · films 7 · narrated 0 (conversations 0) · figures 7 · text-only 28 · passive cards with media 52% | per module: ≥ 1 film · ≥ 3 narrated (≥ 1 conversation when case-led) · ≥ 1 figure · ≤ 2 text-only, never 2 in a row · ≥ 60% with media (warnings) |
+| Sparks | 7 of 7 module(s) short · 0 in all (guess 0 · fact 0 · callback 0) | first module ≥ 3, a guess in its first 25% · every later module ≥ 1 · fact ≤ 40 words, tie-back ≤ 25, cited · never two in a row (warnings) |
+| Sittings with a constructive step | 0 of 21 | ≥ 1 per sitting (planner rule) |
+| Findings | 70 fail · 146 warn · 4 note | report-only |
+
+✗ dosage audit: 70 failure(s), 146 warning(s), 4 note(s) (report-only; --strict to enforce)
+caption audit: no .vtt tracks found
+✓ academy.yaml: 1 catalog entries, 0 failing
+== design audit — hormonaly · tier 0 · 6 surface(s) ==
+⚠ logo: academy.yaml — logo hormonaly-logo.png is declared but not shipped (assets/ or public/) — the runtime sets the typographic wordmark until the customer's file arrives
+⚠ design audit: 1 finding(s), 0 failing (report-only; --strict to enforce)
+✓ skills: 19 checked, 0 failing
+✓ agent/config.yaml parses (hyperframes pin 0.8.3; 5 image routes, 6 b-roll routes)
+✓ check: all gates pass

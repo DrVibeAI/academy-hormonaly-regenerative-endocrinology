@@ -1,0 +1,24 @@
+agent pre-review — no gate opened
+
+test_approval_fields_fail (__main__.ValidatorTests.test_approval_fields_fail) ... ok
+test_changed_beat_text_fails (__main__.ValidatorTests.test_changed_beat_text_fails) ... ok
+test_changed_citation_fails (__main__.ValidatorTests.test_changed_citation_fails) ... ok
+test_changed_lock_bytes_fail (__main__.ValidatorTests.test_changed_lock_bytes_fail) ... ok
+test_changed_original_provenance_fails (__main__.ValidatorTests.test_changed_original_provenance_fails) ... ok
+test_changed_title_fails (__main__.ValidatorTests.test_changed_title_fails) ... ok
+test_current_package_passes (__main__.ValidatorTests.test_current_package_passes) ... ok
+test_emit_copy_only (__main__.ValidatorTests.test_emit_copy_only) ... ok
+test_emit_inside_repo_fails (__main__.ValidatorTests.test_emit_inside_repo_fails) ... ok
+test_failed_validation_never_emits (__main__.ValidatorTests.test_failed_validation_never_emits) ... ok
+test_missing_offline_history_fails (__main__.ValidatorTests.test_missing_offline_history_fails) ... ok
+test_package_teaching_drift_fails (__main__.ValidatorTests.test_package_teaching_drift_fails) ... ok
+test_reordered_whole_source_beats_fail (__main__.ValidatorTests.test_reordered_whole_source_beats_fail) ... ok
+test_stale_block_bindings_fail (__main__.ValidatorTests.test_stale_block_bindings_fail) ... ok
+test_stale_source_bindings_fail (__main__.ValidatorTests.test_stale_source_bindings_fail) ... ok
+test_status_and_governance_additions_fail (__main__.ValidatorTests.test_status_and_governance_additions_fail) ... ok
+test_watch_metadata_drift_fails (__main__.ValidatorTests.test_watch_metadata_drift_fails) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 5.906s
+
+OK
